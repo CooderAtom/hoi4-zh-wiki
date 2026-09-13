@@ -1,0 +1,8 @@
+This file's mere presence disables Jekyll processing on GitHub Pages.
+It matters only if this site is ever published from a branch (e.g. main /(root))
+instead of via the GitHub Actions artifact deployment used currently.
+Its content is ignored by GitHub — it only checks that the file exists.
+
+Why it is needed: site/_2026_and_you_get_a_canton,_everybody_gets_a_canton!.html
+starts with an underscore, and Jekyll silently skips any file or directory
+whose name begins with "_" or ".".
