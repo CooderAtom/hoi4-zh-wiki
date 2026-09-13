@@ -13,6 +13,7 @@ import { applyTranslations } from './units.mjs';
 import { buildArticle, shell, tocHtml, SITE_NAME } from './page.mjs';
 import { Registry, HUBS, navHtml, hrefFor } from './registry.mjs';
 import { Store, normalize } from './translate.mjs';
+import { writeSiteMeta } from './site-meta.mjs';
 
 const argv = process.argv.slice(2);
 const only = argv.includes('--only') ? argv[argv.indexOf('--only') + 1] : null;
@@ -243,8 +244,13 @@ function writeIndexAndHubs() {
     toc: [], coverage: 1, meta: { revid: 'progress', fetchedAt: '' },
   }));
 
-  // ---------------- robots + README ----------------
-  fs.writeFileSync(path.join(SITE, 'robots.txt'), 'User-agent: *\nDisallow: /\n');
+  // ---------------- robots + sitemap ----------------
+  // Was `Disallow: /` until 2026-09, which kept the whole mirror out of search engines.
+  // Now open for indexing; the Sitemap line points crawlers at all 655 article pages.
+  // Watch the GitHub Pages soft bandwidth cap (100 GB/month) — ~490 MB of images means
+  // one full crawl costs roughly 0.5 GB. See site-meta.mjs.
+  const meta = writeSiteMeta(SITE, searchPages.map((p) => p.h));
+  console.log('sitemap.xml:', meta.urls, 'urls (robots.txt allow-all)');
 }
 
 writeJson(path.join(DATA, 'build-report.json'), {
