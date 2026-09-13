@@ -1,0 +1,1068 @@
+{
+ "batch": 1094,
+ "pages": [
+  "Victoria 2 to Hearts of Iron IV converter"
+ ],
+ "chars": 14986,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1hwfaay",
+   "en": "The Vic2 to HoI4 converter is a ⟦0⟧ that takes a Victoria 2 save and generates an HoI4 scenario from it. It can be downloaded from this forum thread or from Steam. It is compatible with outputs from either CK2 to EU4 or CK3 to EU4, and EU4 to Vic2, allowing the player to play a continuous ⟦1⟧ from CK2/CK3 to HoI4.",
+   "frags": 2
+  },
+  {
+   "k": "mlnjd3",
+   "en": "tool"
+  },
+  {
+   "k": "1tgvxul",
+   "en": "megacampaign"
+  },
+  {
+   "k": "1ubkemk",
+   "en": "Versions"
+  },
+  {
+   "k": "1om7wl1",
+   "en": "Recent Versions and Changelogs"
+  },
+  {
+   "k": "1cygwe5",
+   "en": "1.4V - Vasilevsky 2025.05.27"
+  },
+  {
+   "k": "18kmi4j",
+   "en": "0.3P - Patton - 2022.01.08"
+  },
+  {
+   "k": "1q2jgz1",
+   "en": "0.3 O - Oppenheimer - 2021.04.03"
+  },
+  {
+   "k": "v0lxcu",
+   "en": "0.2 N - Nimitz - 2020.11.08"
+  },
+  {
+   "k": "1r4oivd",
+   "en": "0.2 M - Mussolini - 2020.09.21"
+  },
+  {
+   "k": "1nphun7",
+   "en": "0.2 L - Leopold III - 2020.03.25"
+  },
+  {
+   "k": "1f3ffdd",
+   "en": "0.2 K - Forum - 2019.06.19"
+  },
+  {
+   "k": "n8hlrq",
+   "en": "0.2 J - Forum - 2019.05.05"
+  },
+  {
+   "k": "1jqjeti",
+   "en": "0.2 I - Forum - 2018.12.23"
+  },
+  {
+   "k": "1798o8o",
+   "en": "0.2 H - Forum - 2018.09.22"
+  },
+  {
+   "k": "1ye73zl",
+   "en": "0.2 G - Forum - 2018.06.03"
+  },
+  {
+   "k": "eeddav",
+   "en": "0.2 F - Forum - 2018.01.14"
+  },
+  {
+   "k": "1tjs715",
+   "en": "0.2 E - Forum - 2017.12.10"
+  },
+  {
+   "k": "1l0h3xe",
+   "en": "0.2 D - Forum - 2017.11.17"
+  },
+  {
+   "k": "1age3yh",
+   "en": "0.2 C - Forum - 2017.09.23"
+  },
+  {
+   "k": "11v4gs0",
+   "en": "0.2 B - Forum - 2017.06.26"
+  },
+  {
+   "k": "cam9yd",
+   "en": "0.2 A - Forum - 2017.03.05"
+  },
+  {
+   "k": "84qlyn",
+   "en": "0.1 B - Forum - 2016.12.22"
+  },
+  {
+   "k": "risgtz",
+   "en": "0.1 A - Forum - 2016.09.05"
+  },
+  {
+   "k": "15b8dyp",
+   "en": "0.1 - Forum - 2016.07.28"
+  },
+  {
+   "k": "hfim9n",
+   "en": "FAQ"
+  },
+  {
+   "k": "114i3mp",
+   "en": "Q: I used a mod, will the converter work with it? A: It depends on what the mod changed. Your best bet is to simply try (and let us know how it went). As far as we can tell, it does work well with NNM, PDM, HPM, and games converted from EU4."
+  },
+  {
+   "k": "mvdyxv",
+   "en": "Q: What should I put it the Victoria 2 mod directory option? A: It should be the directory where Victoria 2 stores mods. If Victoria 2 was installed at C:\\Program Files (x86)\\Steam\\steamapps\\common\\Victoria 2 then this option should be C:\\Program Files (x86)\\Steam\\steamapps\\common\\Victoria 2\\mod.​"
+  },
+  {
+   "k": "1wla8kh",
+   "en": "Q: I'm trying to convert a EU4 To Vic2 game and keep getting an error. What do I do? A: You need to include the Vic2 mod from the EU4 to Vic2 converter"
+  },
+  {
+   "k": "bnrf0k",
+   "en": "Q: I loaded my mod, but vanilla HoI4 loaded. How do I make it load? A: Make sure you've added your mod to a new playlist and then activated that playlist. If that doesn't work, try the solution in this thread."
+  },
+  {
+   "k": "ckp29e",
+   "en": "Q: The converter stops after just a few seconds. What went wrong? A: Run VC_redist.x64.exe in the converter directory."
+  },
+  {
+   "k": "1ntwryi",
+   "en": "Q: The converter says \"Saving Configuration: Failed!\" How do I fix it? A: Disable your antivirus or whitelist the converter."
+  },
+  {
+   "k": "1am5yzf",
+   "en": "Helping with development"
+  },
+  {
+   "k": "vfjq8e",
+   "en": "If you wish to help with development, there are plenty of ways to do so. Descriptions of needs follow. The development thread for the converter is here."
+  },
+  {
+   "k": "1jrnjc8",
+   "en": "Programmers:"
+  },
+  {
+   "k": "17gnt9n",
+   "en": "We can always use more programmers. The converter itself is in C++, and the tools that go with it are in C#. And if you know anything about parsing tools like lex and yacc, I’m curious to try replacing our ⟦0⟧-based parser (but don’t have the time to try it myself). If you're familiar with ⟦1⟧, the existing parser could use updates instead.",
+   "frags": 2
+  },
+  {
+   "k": "6eyzfd",
+   "en": "Boost::Spirit"
+  },
+  {
+   "k": "1nbw9bx",
+   "en": "Map-staring experts"
+  },
+  {
+   "k": "1o7lsid",
+   "en": "With the changes to victory points, its clear that the province mappings need more work. The order that HoI4 provinces are linked make a difference for where things like VPs end up, so if you can update province mappings (and send me the file) for areas you know, that'd be helpful."
+  },
+  {
+   "k": "heg2p1",
+   "en": "Flag-lovers:"
+  },
+  {
+   "k": "1ujp508",
+   "en": "For reasons that have been discussed in boring detail on the development thread, we can't use flags from Vic2 itself. From what I understand, the converter can use PDM's flags as long as we put a note in the readme file. But I'm worried there might be cases where the PDM tags don't match the Vic2 tags and the flags would be wrong. If someone could check to make sure that's not true (or document the cases where it is), I can add those flags and make lots of errors go away."
+  },
+  {
+   "k": "1xiunjr",
+   "en": "Artists:"
+  },
+  {
+   "k": "cx5aj0",
+   "en": "We're going to eventually need lots of leader portraits for as many Vic2 cultures as possible. If you want to get a head start on creating them, it'd be very helpful. As well, if you want to create flags we're missing, that'd also be great. Especially as we have more ideologies than the base game, and some just reuse flags from other ideologies, which is boring. :p"
+  },
+  {
+   "k": "1riz5en",
+   "en": "Testers:"
+  },
+  {
+   "k": "jfndbh",
+   "en": "Catching bugs and oddities earlier means they get fixed earlier. I try to release test versions of the converter on the forum for testing, so running those and looking things over is helpful. And if you have professional experience in testing, well, I'm sure we could be doing things far better. Tell me how!"
+  },
+  {
+   "k": "1x9h07z",
+   "en": "Modders:"
+  },
+  {
+   "k": "13nakdv",
+   "en": "We can always use help figuring out how things work, and how we can do them better. If you know how to mod HoI4, we can use your help figuring it out. As well, there's always more room for flavor events, decisions, and the like."
+  },
+  {
+   "k": "62oxl2",
+   "en": "Everyone:"
+  },
+  {
+   "k": "yxkbxi",
+   "en": "We can always handle more discussion on how things are converted over on the development thread. As well, I try to document implemented items over on the project wiki. And your encouragement helps more than you know."
+  },
+  {
+   "k": "8n3zp3",
+   "en": "Conversion details"
+  },
+  {
+   "k": "1gqp7sv",
+   "en": "This section details how the converter handles various items."
+  },
+  {
+   "k": "150ebqp",
+   "en": "State related items"
+  },
+  {
+   "k": "62o63v",
+   "en": "Much of the interaction with map happens at the level of states. Therefore converting states is critical to have a robust world."
+  },
+  {
+   "k": "1ymsk4d",
+   "en": "Feature"
+  },
+  {
+   "k": "3pd73",
+   "en": "Status"
+  },
+  {
+   "k": "12ugi29",
+   "en": "Related Links"
+  },
+  {
+   "k": "xoovah",
+   "en": "Generating states"
+  },
+  {
+   "k": "ajcv8j",
+   "en": "Victoria 2 states will become HoI4 states, replacing the default HoI4 states. In cases where the Vic2 state is split between two owners, the state will permanently become two HoI4 states."
+  },
+  {
+   "k": "1xix4yh",
+   "en": "Unowned areas"
+  },
+  {
+   "k": "17hx39h",
+   "en": "Unowned areas in Vic2 are left unowned in HoI4. If you are playing a EU4 conversion, you should see a country named 'Terra Nullius' (No Man's Land) appear in the 1930s in your Victoria II gameplay. This tag's only purpose is to make unowned areas playable in HoI4."
+  },
+  {
+   "k": "w01rfz",
+   "en": "Names"
+  },
+  {
+   "k": "1n3e61l",
+   "en": "State names come from the Vic2 states. With old versions of the converter, if the state was split, all pieces would receive the name for the full state: so 'French Guyana' and 'English Guyana' would both become 'Guyana' in HoI4. With the current version of the converter, the split states (if any) will be named as they were in Vic2 and therefore be 'French Guyana' and 'English Guyana'"
+  },
+  {
+   "k": "cuj76f",
+   "en": "Cores"
+  },
+  {
+   "k": "ta3o44",
+   "en": "In general, cores simply transfer over. If a country has a core on a single province within a Vic2 state, they will receive a core on the whole HoI4 state. However, in cases where multiple Vic2 provinces become a single HoI4 province, the core may be removed to avoid creating boundary conflicts that didn't exist in Vic2. Countries that do not exist lose all their cores."
+  },
+  {
+   "k": "9m0fn8",
+   "en": "Claims"
+  },
+  {
+   "k": "16ljufi",
+   "en": "Cores are turned to claims if the combined primary and accepted cultures population is less than 25% of the total state population"
+  },
+  {
+   "k": "17540jr",
+   "en": "Dominions"
+  },
+  {
+   "k": "1ybvkdx",
+   "en": "Countries may have puppet dominions generated (e.g. British Central Africa) if they own at least three states in a given oversea region"
+  },
+  {
+   "k": "17vxw9s",
+   "en": "Manpower"
+  },
+  {
+   "k": "156v9de",
+   "en": "The population from Vic2 is directly converted to manpower in HoI4."
+  },
+  {
+   "k": "1fdvzhb",
+   "en": "Region type"
+  },
+  {
+   "k": "1g2ar88",
+   "en": "Each state gets one 'factory slot' per 120,000 people living in the state. If there are not enough slots for the factories (see factory conversion below), then the number of slots will be increased to two more than the total number of factories. The state will become the smallest region that can hold these industry slots."
+  },
+  {
+   "k": "1hhgov0",
+   "en": "Victory points"
+  },
+  {
+   "k": "1uxg6sm",
+   "en": "All states get a VP with a base value of one: if the state is a core of its owner, it gets the value increased by two for every two factories in the state, the value is increased by one capital states get five more added to their VP, with Vic2 great powers getting an additional five capital VPs are handed out based on a country's relative strength in the world, the strongest getting 30."
+  },
+  {
+   "k": "ca22ll",
+   "en": "if the state is a core of its owner, it gets the value increased by two"
+  },
+  {
+   "k": "1lhvwb",
+   "en": "for every two factories in the state, the value is increased by one"
+  },
+  {
+   "k": "1wnr81c",
+   "en": "capital states get five more added to their VP, with Vic2 great powers getting an additional five"
+  },
+  {
+   "k": "mjd5wl",
+   "en": "capital VPs are handed out based on a country's relative strength in the world, the strongest getting 30."
+  },
+  {
+   "k": "1icrwoe",
+   "en": "Infrastructure"
+  },
+  {
+   "k": "1fnpr93",
+   "en": "Infrastructure is determined by several items: All states start with three infrastructure For every two levels of rail in Vic2, one infrastructure is added (this uses the average rail level of the state from Vic2) An additional level is given for having more than four factories Another level level is given for having more than six factories A third level is given for having more than ten factories."
+  },
+  {
+   "k": "ingg4l",
+   "en": "All states start with three infrastructure"
+  },
+  {
+   "k": "1d1e1vh",
+   "en": "For every two levels of rail in Vic2, one infrastructure is added (this uses the average rail level of the state from Vic2)"
+  },
+  {
+   "k": "q65vqo",
+   "en": "An additional level is given for having more than four factories"
+  },
+  {
+   "k": "p78fft",
+   "en": "Another level level is given for having more than six factories"
+  },
+  {
+   "k": "7e4ael",
+   "en": "A third level is given for having more than ten factories."
+  },
+  {
+   "k": "ejgee9",
+   "en": "Air Bases"
+  },
+  {
+   "k": "1c9tfob",
+   "en": "States receive air bases from several items: For every four factories in a state, one level of airbase is added If the infrastructure is greater than five, one level of airbase is added All countries get five levels of airbase added to their capital state Great powers get an additional five levels of airbase in their capital state"
+  },
+  {
+   "k": "1i8x4mc",
+   "en": "For every four factories in a state, one level of airbase is added"
+  },
+  {
+   "k": "9gihjp",
+   "en": "If the infrastructure is greater than five, one level of airbase is added"
+  },
+  {
+   "k": "r8cxlj",
+   "en": "All countries get five levels of airbase added to their capital state"
+  },
+  {
+   "k": "1gn408h",
+   "en": "Great powers get an additional five levels of airbase in their capital state"
+  },
+  {
+   "k": "lrf2w1",
+   "en": "Factories"
+  },
+  {
+   "k": "14vbwl7",
+   "en": "Factories are based on the employable population in Vic2 (the number of craftsmen, clerks, artisans and capitalists, capped by the total number of factories built in their state). A shaping algorithm then distributes factories in a way that matches the distribution of employable pops. This algorithm can be adjusted to even out the number of factories between countries, and can also be adjusted to more closely match the number of factories in default HoI4. See this forum post for more details. Each factory has a 70% chance of becoming a civilian factory and a 30% chance of becoming a military factory. If a state has a naval base, it will also get a single dockyard. If this totals more than twelve factories, then the number of factories will be lowered to give a total of twelve."
+  },
+  {
+   "k": "1v1imq1",
+   "en": "Naval bases"
+  },
+  {
+   "k": "120l8xs",
+   "en": "A Vic2 naval base will convert to an HoI4 naval base of double its Vic2 level, capped at ten."
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "1sc3uvk",
+   "en": "Resources are currently based on the Increased Resources HoI4 mod resource map."
+  },
+  {
+   "k": "erwsml",
+   "en": "Forts"
+  },
+  {
+   "k": "5w0v2u",
+   "en": "As there are few forts in default HoI4, forts are not converted"
+  },
+  {
+   "k": "1uh6lw6",
+   "en": "Coastal Forts"
+  },
+  {
+   "k": "1rqdy50",
+   "en": "As there are few coastal forts in default HoI4, coastal forts are not converted"
+  },
+  {
+   "k": "1ng28uk",
+   "en": "Radar Stations"
+  },
+  {
+   "k": "9ygeba",
+   "en": "As there are few radar stations in default HoI4, radar stations are not converted"
+  },
+  {
+   "k": "tw21u1",
+   "en": "Anti-Air Defenses"
+  },
+  {
+   "k": "clhsoe",
+   "en": "As there are few anti-air defenses in default HoI4, anti-air defenses are not converted"
+  },
+  {
+   "k": "1sorhg6",
+   "en": "Map related items"
+  },
+  {
+   "k": "h2znw",
+   "en": "After setting the states, the map itself needs to be adjusted to accommodate the new states."
+  },
+  {
+   "k": "aizpnn",
+   "en": "Strategic areas"
+  },
+  {
+   "k": "roxc4x",
+   "en": "Strategic areas are kept as closely to the default ones as possible. Provinces are moved to remain with their states, but most remain in the same area."
+  },
+  {
+   "k": "1eokcsl",
+   "en": "Supply zones"
+  },
+  {
+   "k": "fl9mfq",
+   "en": "As with strategic areas, these are kept as much the same as possible. They retain the same supply value an in default HoI4."
+  },
+  {
+   "k": "i4468x",
+   "en": "Buildings placement"
+  },
+  {
+   "k": "ownwyd",
+   "en": "Only naval bases are currently placed. They are set in the center of the relevant coastline. They are not currently rotated or set the proper height, though, so are ugly."
+  },
+  {
+   "k": "152aw4i",
+   "en": "Airports placement"
+  },
+  {
+   "k": "151dyc3",
+   "en": "Airports are placed in the first province within a state."
+  },
+  {
+   "k": "1y42b95",
+   "en": "Rocket test site placement"
+  },
+  {
+   "k": "17gmll9",
+   "en": "Rocket test sites are placed in the first province within a state."
+  },
+  {
+   "k": "13v7qza",
+   "en": "Neighbor Provinces"
+  },
+  {
+   "k": "v06ku3",
+   "en": "Neighbor provinces are calculated directly from the HoI4 map. Straights are not taken into account."
+  },
+  {
+   "k": "xdnfhy",
+   "en": "Country related items"
+  },
+  {
+   "k": "1lktx4a",
+   "en": "Much work must be done to properly convert countries. Most of this has not yet been discussed."
+  },
+  {
+   "k": "1f8zuly",
+   "en": "Vic2 country names (normal and special) are used (getting so ⟦0⟧ for a communist-ruled Russia). In older versions, some additional text was instead added. Vanilla names of HoI4 should be used for relative countries (e.g. ⟦1⟧ for fascist ⟦2⟧).",
+   "frags": 3
+  },
+  {
+   "k": "1jjpogc",
+   "en": "Soviet Union"
+  },
+  {
+   "k": "i87c38",
+   "en": "German Reich"
+  },
+  {
+   "k": "alybni",
+   "en": "Germany"
+  },
+  {
+   "k": "1cz3ci9",
+   "en": "Related Links:"
+  },
+  {
+   "k": "agw2xd",
+   "en": "Colors"
+  },
+  {
+   "k": "1rsydw6",
+   "en": "Country colors are directly converted from the Vic2 countries."
+  },
+  {
+   "k": "icm958",
+   "en": "Flags"
+  },
+  {
+   "k": "1pnx9a6",
+   "en": "Many flags were developed for the EU4 to Vic2 converter, and are reused in this converter. If a flag cannot be found and the country was converted from EU4 to Vic2, then the flag from the conversion mod is used. Otherwise, no flag is provided. We hope that artists will help create missing flags."
+  },
+  {
+   "k": "1bd3xa9",
+   "en": "As much as possible, flags from the appropriate matching ideology are used. If the ideology specific flag cannot be found, the generic country flag is used instead."
+  },
+  {
+   "k": "sjnyrr",
+   "en": "HoI4 ideology"
+  },
+  {
+   "k": "1s0cyq3",
+   "en": "Vic2 Ideology flag"
+  },
+  {
+   "k": "1jvn9y5",
+   "en": "Communism"
+  },
+  {
+   "k": "8hk5wo",
+   "en": "communist flag"
+  },
+  {
+   "k": "gj53pi",
+   "en": "Democratic"
+  },
+  {
+   "k": "1ohvdl0",
+   "en": "default flag"
+  },
+  {
+   "k": "cfhxhh",
+   "en": "Fascism"
+  },
+  {
+   "k": "29u3cw",
+   "en": "fascist flag"
+  },
+  {
+   "k": "1wui4xp",
+   "en": "Radical"
+  },
+  {
+   "k": "cfjltp",
+   "en": "republic flag"
+  },
+  {
+   "k": "za9zlb",
+   "en": "Absolutist"
+  },
+  {
+   "k": "1o7f69y",
+   "en": "monarchy flag"
+  },
+  {
+   "k": "1hrwvt5",
+   "en": "Non-Aligned"
+  },
+  {
+   "k": "g3hlig",
+   "en": "Capitals"
+  },
+  {
+   "k": "1fxv3by",
+   "en": "Capitals should end of matching their Vic2 position as closely as possible. However, due to the state system, they may move a little."
+  },
+  {
+   "k": "1cd8sst",
+   "en": "Ideologies"
+  },
+  {
+   "k": "1fxzn1n",
+   "en": "Vic2 upperhouse gets converted to the popularity of ideologies (parties popularity and ruling ideology) matching HoI4 vanilla ones:"
+  },
+  {
+   "k": "1315mmu",
+   "en": "Communism is created by communist and socialists"
+  },
+  {
+   "k": "vg623u",
+   "en": "Democracy is created by conservatives and liberals"
+  },
+  {
+   "k": "1u9iq3q",
+   "en": "Fascism is created by fascists"
+  },
+  {
+   "k": "1qza5fy",
+   "en": "Absolutism is created by reactionaries"
+  },
+  {
+   "k": "10cmpm5",
+   "en": "Radical is created by anarcho-liberals"
+  },
+  {
+   "k": "1lnscj9",
+   "en": "Non-Aligned is created only in minor countries ruled by neutrality, where the ideology it had in Vic2 becomes the non-aligned"
+  },
+  {
+   "k": "100bgwy",
+   "en": "It is possible to choose what ideologies to keep in conversion:"
+  },
+  {
+   "k": "w4ujhr",
+   "en": "'Keep major ideologies': Only Great Powers get their ideologies mapped, everybody else becomes Non-Aligned"
+  },
+  {
+   "k": "iikd0r",
+   "en": "'Keep all ideologies': All six ideologies are mapped"
+  },
+  {
+   "k": "fqp0j8",
+   "en": "'Keep default ideologies': The four ideologies of vanilla HoI4 are mapped. Absolutism is reduced to Neutrality, Radical to Democracy."
+  },
+  {
+   "k": "1sey8cq",
+   "en": "'Specify ideologies': This lets you specify which ideologies to keep. Non-Aligned is always kept regardless."
+  },
+  {
+   "k": "zc9cvq",
+   "en": "Government"
+  },
+  {
+   "k": "s8fgfd",
+   "en": "Each country is allowed to have theorists and military chiefs. Furthermore, there is a minister for each ideology, also new ones. Ruling party of major nations is generated based on Vic2 government form and ruling party as in the table below. Minor countries, however, get non-aligned as their ruling party."
+  },
+  {
+   "k": "1fv614k",
+   "en": "Vic2 government"
+  },
+  {
+   "k": "1sfmdnr",
+   "en": "Hoi4 ideology"
+  },
+  {
+   "k": "1xx0dqt",
+   "en": "Absolute monarchy"
+  },
+  {
+   "k": "wsdkck",
+   "en": "Absolutism"
+  },
+  {
+   "k": "bp8rgp",
+   "en": "Prussian constitutionalism"
+  },
+  {
+   "k": "1ofh8k",
+   "en": "Neutrality"
+  },
+  {
+   "k": "zg7evj",
+   "en": "HM's government"
+  },
+  {
+   "k": "16kw2dq",
+   "en": "Democracy"
+  },
+  {
+   "k": "7eetis",
+   "en": "Proletarian Dictatorship"
+  },
+  {
+   "k": "49zrnf",
+   "en": "Presidential Dictatorship"
+  },
+  {
+   "k": "d1hnek",
+   "en": "The corresponding ruling ideology"
+  },
+  {
+   "k": "g112qn",
+   "en": "Burgeois Dictatorship"
+  },
+  {
+   "k": "1hxrldw",
+   "en": "Fascist Dictatorship"
+  },
+  {
+   "k": "1izlk0j",
+   "en": "National focuses and focus trees"
+  },
+  {
+   "k": "1dqthys",
+   "en": "Main article: Vic2ToHoI4: Focus Trees"
+  },
+  {
+   "k": "1pbm5j0",
+   "en": "All countries, like in Vanilla, would start with Generic National Focus. But a special focus tree is created for each of the great powers of Vic2."
+  },
+  {
+   "k": "1fnlt2i",
+   "en": "National Unity"
+  },
+  {
+   "k": "1ksg5n3",
+   "en": "Recycled from the Vic2HoI3 converter, national unity is generated according to this formula:"
+  },
+  {
+   "k": "ksf595",
+   "en": "Related Links: 1 2 3"
+  },
+  {
+   "k": "15c5osv",
+   "en": "Technology"
+  },
+  {
+   "k": "vpvrd9",
+   "en": "Technology is based on the unlocked inventions in Vic2. We are considering incorporating more pre-1936 techs to better handle tech conversion."
+  },
+  {
+   "k": "fqco7f",
+   "en": "Vic2 invention"
+  },
+  {
+   "k": "tn75s5",
+   "en": "resulting HoI4 techs"
+  },
+  {
+   "k": "1v7gepm",
+   "en": "Post Napoleonic Thought"
+  },
+  {
+   "k": "v72lxs",
+   "en": "gw_artillery (⟦0⟧) Recon Company I tech_support (deprecated) Engineer Company I",
+   "frags": 1
+  },
+  {
+   "k": "v3a9ic",
+   "en": "deprecated"
+  },
+  {
+   "k": "ap8dcx",
+   "en": "Tank Experiments"
+  },
+  {
+   "k": "18juzw9",
+   "en": "gwtank (⟦0⟧)",
+   "frags": 1
+  },
+  {
+   "k": "l2cmfn",
+   "en": "Tank Exploits"
+  },
+  {
+   "k": "czis6s",
+   "en": "basic_heavy_tank (⟦0⟧)",
+   "frags": 1
+  },
+  {
+   "k": "kylwhv",
+   "en": "Modern Army Doctrine"
+  },
+  {
+   "k": "1vw70sv",
+   "en": "infantry_weapons1 (⟦0⟧)",
+   "frags": 1
+  },
+  {
+   "k": "bkrfn6",
+   "en": "Bolt-action Rifles"
+  },
+  {
+   "k": "13b66px",
+   "en": "Infantry Weapons"
+  },
+  {
+   "k": "1i8lcih",
+   "en": "Modern Divisional Structure"
+  },
+  {
+   "k": "1i6wsf5",
+   "en": "Light Tank"
+  },
+  {
+   "k": "17w5u2d",
+   "en": "basic_light_tank (⟦0⟧)",
+   "frags": 1
+  },
+  {
+   "k": "8kabku",
+   "en": "Daimler's Automobile"
+  },
+  {
+   "k": "1agypw1",
+   "en": "Motorized Infantry"
+  },
+  {
+   "k": "oq8v7a",
+   "en": "Heavy Artillery"
+  },
+  {
+   "k": "zxpr6b",
+   "en": "Interwar Artillery"
+  },
+  {
+   "k": "oq1vo5",
+   "en": "Aeronautics"
+  },
+  {
+   "k": "117zj84",
+   "en": "early_fighter (⟦0⟧)",
+   "frags": 1
+  },
+  {
+   "k": "jb2djc",
+   "en": "Early Interwar Bombers"
+  },
+  {
+   "k": "1qhww64",
+   "en": "early_bomber (⟦0⟧)",
+   "frags": 1
+  },
+  {
+   "k": "11miv6j",
+   "en": "Late Interwar Bombers"
+  },
+  {
+   "k": "8croh0",
+   "en": "tactical_bomber1 (⟦0⟧) strategic_bomber1 (deprecated)",
+   "frags": 1
+  },
+  {
+   "k": "12q0jey",
+   "en": "Early Interwar Fighters"
+  },
+  {
+   "k": "1r2fjtb",
+   "en": "CAS1 (⟦0⟧)",
+   "frags": 1
+  },
+  {
+   "k": "b2sjoj",
+   "en": "Late Interwar Fighters"
+  },
+  {
+   "k": "5jq9rm",
+   "en": "fighter1 (⟦0⟧) naval_bomber1 (deprecated)",
+   "frags": 1
+  },
+  {
+   "k": "tpfz5o",
+   "en": "Great War Experience"
+  },
+  {
+   "k": "rngc5n",
+   "en": "tech_support (⟦0⟧)",
+   "frags": 1
+  }
+ ]
+}

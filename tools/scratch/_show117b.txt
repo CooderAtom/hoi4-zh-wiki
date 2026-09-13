@@ -1,0 +1,131 @@
+﻿=== Patch 1.17.X (130) [file Patch_1.17.X.pr0000.json] ===
+1nbrc34 [] :: The Finnish AI is now more likely to pick subdoctrines that fit/work well for them
+i062nn [] :: Soviets will redeploy Far East garrison forces if required to defend the homeland.
+198mvd7 [] :: Requesting the South Atlantic islands now target whoever is controlling the states
+1u9iqy6 [] :: Fixed a bug where research bonuses were no longer claimed (and thus always active)
+x2f177 [] :: Updated equipment model sorting so that special projects are always are at the top
+68xnd7 [] :: Added several missing tank pools for various tank models so they show up correctly
+1virj1c [] :: Fixed doctrine cost reductions still being spent if cost is already reduced to 0.
+1jkvpe6 [] :: Switched out the advisor icon for Weng Wenhao to have the proper blue background.
+kdycqn [] :: Updated naval grand doctrines to have the more fitting bonus to the correct track
+1mypq87 [] :: The Iraqi focuses demanding Syria now demand they get annexed instead of puppeted
+v73wlv [] :: Added one new Air Chief to Vichy France. Added 2 new High Command to Vichy France
+1biz8em [] :: The Afghan Oil Concessions now only give access to the oil in the selected states
+171xovj [] :: Fixed a bug where the blacklist was used as a whitelist (naval targeting options)
+1qsgrxk [] :: Fixed an issue where two Khotan Ma advisors became unavailable when forming China
+1gt15r9 [] :: Added an event that unlocks the "Retreat to Taiwan" focus for Nationalist China.
+1cmb2it [] :: Industrial Concern now provides 6 Coal and Increases Coal Gain Efficiency by 5%.
+1iqbzaf [] :: Fixed an issue where Japan could prospect for oil in North Sakhalin indefinitely
+j0izav [] :: AI will now use its reserve fleet to create new task forces if possible & needed
+1nlo2fa [] :: Clients were creating naval mission commands that caused mp performance problems
+spqab6 [] :: Fixed a bug where naval dominance calculations wouldn't always refresh correctly
+rslxwn [] :: Fixed issue causing only a single support model to be shown in division designer
+2txov1 [] :: Changed “Military Infrastructure” faction goal requirements to be more lenient.
+1q7qb92 [] :: Fixed naval HQ naval leader window not updating when you add a new navy leader.
+5302ux [] :: Locked Japan's decision to offer China a white peace to only be available once.
+kxak59 [] :: added missing Hispanic countries to the Phillipines "Hispanic Overtures" focus.
+dc1e71 [] :: Afghanistan - Added Abdul Hadi Dawi as an advisor for the Amanullah Khan branch
+hlgymi [] :: When auto upgrading equipment the manually set icon and model would not persist
+13d38ax [] :: Fixed issue with AI not putting training task forces in the correct locations.
+j0olmt [] :: Organise the 200th division now have functional tanks when owning No Step Back
+1rob96w [] :: Turkey - Moved the Turkish character Kamil Tolon to the political advisor slot
+127nf1p [] :: Tweaked AI to only research coal efficiency if they are struggling with energy
+tzmwjz [] :: Fixes HighCapacityElectricalGrid tooltip displaying +10% instead of +10%/infra
+asklam [] :: Raj - The focus Riches of the Raj now properly includes both coal and chromium
+1bdb5pb [] :: Updated localization of british infantry weapons to use the correct whitespace
+14beqrp [] :: Forum: No Compromise, No Surrender | Hotfix & Korean Localization, 2025-11-21.
+bae3oa [] :: Philippines: Dictator MacArthur will stay in PHI in case of war with the USA.
+17q097z [] :: It is now possible to draw offensive lines attached to naval invasion orders.
+hmugel [] :: Fixed the missing ineligible icon for the achievement "And the Snake Smoked".
+1w39dq5 [] :: PHI: Eisenhower and MacArthur return to USA event now states correct country.
+1ri8xu3 [] :: Vichy France now no longer has access to Generals who fought with Free France
+nwmbe1 [] :: Fix SWE - Question Neutrality event title doesn't check current German leader
+5qwtx0 [] :: Entering a war with a nation removes naval blockades imposed by either party.
+1y5ahx8 [] :: Added Erebus-class Monitor design to UK (based on Coastal Defense Ship hull).
+udeu6u [] :: Fixed a crash with clicking the naval HQ button on the Officer Corps window.
+13axa7g [] :: The Greater Mongolian formable nation now includes the state of Hebei-Chahar
+y8ur6c [] :: Added two more focuses to Iraq regarding the Sunni Dominance and Shia Unrest
+14obicf [] :: Congo gaining a Brown Water Navy will no longer think it is in South America
+v7l0mv [] :: USA: Carrier Primacy now gives Essex Class carrier when the tech is unlocked
+1qmkfm8 [] :: Japanese starting paratrooper template now has 3 paratroopers (instead of 2)
+5rcj1c [] :: Locked China's possibility to trigger the Xi'an Incident in the 1939 start.
+1eeowc9 [] :: Fixed crash when using Nationalist China Focus tree during German Civil War
+imry3q [] :: Naval target blacklisting should now work as expected for all mission types
+cdac2n [] :: Added a new rule so that only the faction leader can set new faction goals.
+11fkl7i [] :: Improved AI taskforce selection and re-enabled convoy escort mission for AI
+1ggofas [] :: The communist shared Baltic focus A Revolutionary Cabinet now takes 35 days
+eloj53 [] :: Fixed an issue where the Moldovan characters would show up as debug strings
+1rlgbrm [] :: OOS that could occur in the gamestate due to running in different languages
+ys992t [] :: Fixed the Chinese MIO "Factory 617" trait to properly affect Modern Tanks.
+1o36e1 [] :: Added a new shared national spirit and joint focus tree for the Ma Cliques
+18gd3mk [] :: Added focus branch navigation button to the Indian and Iranian focus trees
+2y20zd [] :: Countries are less likely to build the new special buildings unless needed
+14an52z [] :: Fixed an issue where Nicaragua was missing two of their political advisors
+2zb99k [] :: The Division Designer now uses the same model prioritisation as on the map
+hd4ukg [] :: USA will not immediately peace out of the Philippine War of Independence.
+1vqf9zs [] :: Added a new Beiyang Army focus icon used by the various Chinese warlords.
+1l2iif3 [] :: Added dummy decision to show available integration targets if controlled.
+uj19oe [] :: Now when owning By Blood Alone China starts with a couple more air techs.
+15tx0qz [] :: Fixed broken loc string in autonomy system for when allocating lend lease
+j0nw8m [] :: Fixed a bug where country events would always roll the same random number
+103votr [] :: Fixed a bug where submarine detection chance was not correctly calculated
+1g8dqut [] :: Fixed issue where Naval HQ window could not be scrolled with mouse wheel
+hxm6aj [] :: Fixed an issue where naval HQs couldn't be captured after loading a save
+jue7l7 [] :: Fixed Military R&D goal applying faction influence to the wrong country.
+1kidosj [] :: Fixed a bug where the anti_air_4 module was not the parent of anti_air_3
+49e4r8 [] :: Crash when trying to use recon planes when you do not have La Resistance
+tpznh2 [] :: Completing the focus Unified Kurdistan now grants additional core states
+pdphof [] :: Fixed Ye Jianying's portrait not showing if you don't have La Resistance
+1wazbrv [] :: The focus “Championing the Cause of Liberty” now grants a research slot
+q8zsy0 [] :: Updated and cleaned up the East Asian Country trigger for faction rules
+15ltja0 [] :: Invalid faction theaters are now automatically removed from the faction
+1pa7vxz [] :: Added one dockyard in Istanbul to represent the Taşkızak Naval Shipyard
+6ldd1f [] :: The Romanian focus White Squadron now has a more appropriate focus icon
+8npyvi [] :: Correctly updates research speed tooltip when tagging between countries
+1fymqnn [] :: Fixed a few issues with naming for The Great and Eternal Nordic Empires
+1cco83m [] :: Fixed floating geometry on the Big Bob super heavy tank for New Zealand
+wbnfa2 [] :: Fixed an issue where some models were incorrectly showing up or missing
+13ngpw9 [] :: Reduced requirements and increased reward for “Building up Guam” goal.
+1nw53et [] :: Fixed missing information on request garrison support. faction action.
+17w6z6a [] :: Fixed wrong localization in select country menu for Northeastern Army.
+1nt9v30 [] :: Fixed an issue where unit design cost modifiers could go beyond -100%.
+1dz274k [] :: Removed the Mining Commission industrial concern from Communist China.
+1s9tvfx [] :: Minimum chance to hit during a naval battle is now 2% instead of 0.05%
+lt383l [] :: "Desperate Defense" now requires a defense war to be able to be picked
+1jlfie7 [] :: AI does a better job assigning their admirals to their various fleets.
+b4wm3z [] :: Fixed numerous literally unplayable "the the" typos throughout the loc
+s03fss [] :: Greece: Fixed missing tooltip GRE_host_soviet_bureaucrats_in_greece_tt
+mfaahb [0,1] :: Hotfix 1.17.0.1, was released on 2025-11-21⟦0⟧ with the checksum ⟦1⟧.
+12zx45h [] :: Added more subject countries to the “Eastern European Security” goal.
+tzr4xa [] :: Fixed some usability issues with the request garrison support slider.
+1k4asda [] :: Added a new industrial concern and two new military advisors for Iraq
+1wjms6x [] :: Germany will refrain from air attacks on UK before France is defeated
+10bky42 [] :: AI will in general use its strikeforce until it's no longer effective
+1w7mwuo [] :: Removed Cancun as it wasn't founded yet and replaced it with Chetumal
+jv3aqf [] :: Implemented support for sending chains of console commands using '&&'
+1u69jem [] :: Fixed crash when switching to the 1939 scenario after loading a save
+dl4qq0 [0,1] :: Patch 1.17.1.1, was released on 2025-11-27⟦0⟧ with the checksum ⟦1⟧.
+qjdrfr [] :: Vichy France now has access to the political advisors it should have
+xbdeyv [] :: Japanese Carrier Submarine special project now creates I-400 design.
+1dwlnus [] :: Excavation Technologies now provide extra +5% Coal Gain Efficiency.
+t3im35 [] :: Made Nationalist China not wastefully send support to Hebei-Chahar.
+qwwqcg [] :: Made it so Chinese AI always accepts white peace offers from Japan.
+11fjkk6 [] :: Fixed an issue with China being part of a decision targeting Chile.
+1dw4z94 [] :: China can now rename a few Manchurian cities after recapturing them
+tnh8nl [] :: Adding in event for imprisoning Zhang Xueliang as Nationalist China
+m54wnd [] :: Germany won't research amphibious tanks as soon as possible anymore
+1nx07i1 [] :: While in the model selector grid, it now shows thumbnails of models
+am7b38 [] :: Fixed issue where 'RepairNow' button spams pathfinding calculations
+1m80hj2 [0,1] :: Patch 1.17.1, was released on 2025-11-26⟦0⟧ with the checksum ⟦1⟧.
+uo6k2 [] :: Fixed captured naval HQs not showing in the list of controlled HQs
+1ndjt7g [] :: Fixed a bug where carrier fighters where doing way too much damage
+8d5ydk [0,1] :: Patch 1.17.2, was released on 2025-12-04⟦0⟧ with the checksum ⟦1⟧.
+10fslvh [] :: Fixed the faction goal "Fortify Iwo Jima" checking wrong province.
+40mcc2 [0,1] :: Patch 1.17.3, was released on 2025-12-10⟦0⟧ with the checksum ⟦1⟧.
+1tawksd [] :: Fixed Graf Zeppelin being called the "Graf Zeppelin Class Klasse".
+1d7rkgt [] :: Sets a readable HP bonus to the individual excellence subdoctrine.
+e9jure [] :: Added two additional focuses to the Qinghai Ma's unique sub branch
+5sjv9c [] :: Implemented `only_imported` for `has_resources_in_country` trigger
+csgoi0 [] :: Adds support for SubUnitDefinition-based equipment pools for icons
+tu4oln [] :: Fixed tank scale for BfB and the same type of tanks in other DLC:s
+1eilh5f [] :: Improved Dual-Purpose Battery technology moved from 1939 to 1940.

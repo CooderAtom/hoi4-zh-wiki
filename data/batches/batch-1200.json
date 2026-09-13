@@ -1,0 +1,888 @@
+{
+ "batch": 1200,
+ "pages": [
+  "Chilean Empire"
+ ],
+ "chars": 9697,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "17qmdt8",
+   "en": "Control all mainland states that border the pacific in South America, North America and Asia"
+  },
+  {
+   "k": "ufly9f",
+   "en": "Method 1"
+  },
+  {
+   "k": "oikpwq",
+   "en": "Go down the Mapuche route, before you finish get the army xp + mill focus. Get the division attack guy from ax bearer and invite the communists. Save all your pp until focus times out. Using army xp create a 1 horse template and switch your troops to it and make it your garrison division. Make only ⟦0⟧ and produce support equipment, artillery, and guns. After the civil war fires take all the anti ideology decisions for more stability and work towards the research slot. Promote the army offense guy to field Marshall and the cold climate guy without a trait to be your captain. (This is done to get inf expert). When you have enough xp, copy your inf division and replace the inf with mountaineers. When you have 6 fully equipped troops you will be able to field marshall attack and win.",
+   "frags": 1
+  },
+  {
+   "k": "182gqps",
+   "en": "Military factories"
+  },
+  {
+   "k": "1y4zehd",
+   "en": "For ⟦0⟧ you should have 20 18-width divisions with engineers and artillery support companies to hold from the bottom to Santiago and 4 (including the two mountaineers) under a second general to seize Tierra del Fuego. Focus research on research guns and economy. You should be able to easily overwhelm them. Take the decision to release Easter Island and then take the focus ⟦1⟧ to get the bonus (do not release another nation until the end of the game, when you can get ⟦2⟧ if you want). Go superior firepower, turn communist when able, and get the entrenchment buffs. Take the advisor that gives 10% Recruitable Population Factor and 0.1 daily communism with the 2 non-core manpower advisors. You should have a massive stockpile of guns thanks to the the MIO.",
+   "frags": 3
+  },
+  {
+   "k": "1kqa232",
+   "en": "Argentina"
+  },
+  {
+   "k": "14ybv65",
+   "en": "Unified in Spirit"
+  },
+  {
+   "k": "1rchny6",
+   "en": "America Decolonized!"
+  },
+  {
+   "k": "1ier3kj",
+   "en": "After defeating Argentina take out Uruguay and Brazil. Even if Brazil joins the Allies you are a lot stronger. After getting the research slot, go down the right side of military tree and get the special forces buffs. After killing ⟦0⟧ kill ⟦1⟧ and make your way up through Central America to the United States, making more 18-width infantry. Make sure to add logistics companies and anti-air to your divisions as well as support flame tanks if possible.",
+   "frags": 2
+  },
+  {
+   "k": "zo0mt3",
+   "en": "Brazil"
+  },
+  {
+   "k": "1oqmutr",
+   "en": "Colombia"
+  },
+  {
+   "k": "9k63pc",
+   "en": "If your manpower hits 0, switch to no garrison and back to local police when you can. Replace your garrisons with Armored Cars or Light Tanks (build the cheapest, crappiest version possible - the stats do not matter) to help with manpower since resistance won't cost lives anymore due to the Hardness of your garrisons. You get 15% non core pop so you will win every fight eventually. Upgrade anti air maxing out guns. I usually send an advisor to Japan after Brazil. Get Japanese advisor for even more stats. Ignore ⟦0⟧ and ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "8trcwz",
+   "en": "Peru"
+  },
+  {
+   "k": "pptzns",
+   "en": "Ecuador"
+  },
+  {
+   "k": "f28ti8",
+   "en": "After killing the ⟦0⟧ and ⟦1⟧, get sub 4s and build a ton of them. Help out ⟦2⟧ to kill the ⟦3⟧ by convoy raiding them into oblivion. Once the UK is down, take the Americas and one port in mainland France. Kill ⟦4⟧ then Germany then China and Japan. You should have 2 fully manned field marshals with 80 mountaineering divisions you should finish the superior firepower doctrine and the mountaineer special forces tree. If you can't push because bad attack rolls, stop the attack, build up planning and attack again.",
+   "frags": 5
+  },
+  {
+   "k": "psd8fv",
+   "en": "Canada"
+  },
+  {
+   "k": "alybni",
+   "en": "Germany"
+  },
+  {
+   "k": "1s1lfqm",
+   "en": "Spain"
+  },
+  {
+   "k": "1cqxv6i",
+   "en": "Mapuche Chile non core manpower advisors are massively overpowered. With 0 micro you can world conquer by 1949."
+  },
+  {
+   "k": "upljye",
+   "en": "Method 2"
+  },
+  {
+   "k": "yo2jqk",
+   "en": "Turn communist as quickly as possible. Do this by saving Political Power and clicking the decisions to push a vote of no confidence as soon as possible. Once ⟦0⟧, justify a war goal and declare on ⟦1⟧. The player won't be able to take capitulate them yet, but this will enable them to declare on them before generating too much world tension so and thus receiving guarantee from the Allies. Next, research marines, as they will assist when hopping from ⟦2⟧ to Cape Verde and then Cape Verde to Portugal. Rush for the focus ⟦3⟧. Try to bank Political Power (and hire advisors which assist with this) as you will need 175 per country to promote communism (75) and then ignite a revolution (100). If all done right, it should be 1938, and the player should be at war with Portugal and about to ignite revolutions across South America. Priorities ⟦4⟧, ⟦5⟧ and ⟦6⟧ (in that order). ⟦7⟧: Help the revolutionaries in the war not only because they will likely be too weak on their own but because the player will need war score to take their navies (the revolutionary puppets won't take them so the player will not get their puppets' navies even if when annex the puppets later. Use the navies and Marines to jump from Brazil to Cape Verde and then onto Portugal. Once Portugal capitulates, the player will benefit from not only being in naval range of the ⟦8⟧ but taking Macau (needed for the achievement). By 1939 the player will be in need of manpower and a stronger army before taking on the UK. Keep igniting revolutions (Mexico is a priority) until the focus ⟦9⟧ is taken, this will annex all of the puppets the player has yet without cores. However, the player can delete their armies for manpower and hire two advisors which give +10% noncore manpower (this should give at least 400k more manpower).",
+   "frags": 10
+  },
+  {
+   "k": "16f7gjm",
+   "en": "communist"
+  },
+  {
+   "k": "ap23k7",
+   "en": "Portugal"
+  },
+  {
+   "k": "1v6yf9i",
+   "en": "Sponsor American Revolutionaries"
+  },
+  {
+   "k": "1ny9qg7",
+   "en": "Uruguay"
+  },
+  {
+   "k": "1ju3j5x",
+   "en": "Important"
+  },
+  {
+   "k": "1g93j4y",
+   "en": "Propose Closer Cooperation"
+  },
+  {
+   "k": "k0tiuo",
+   "en": "⟦0⟧: The player can continue to ignite revolutions after ⟦1⟧ but can only annex through the usual autonomy mechanics after this point",
+   "frags": 2
+  },
+  {
+   "k": "5mau71",
+   "en": "Note"
+  },
+  {
+   "k": "1ppf05x",
+   "en": "Use manpower and industries to justify and declare on the UK. Germany will invite Chile to the Axis, join them. As soon as you're in the Axis, ignite revolutions in all fascist South and Central American states to avoid them joining the Axis in the future. Naval Invade the UK and obtain as much war score as possible so you can take all the Pacific and American territories you need. Also take Canada to make the ⟦0⟧ invasion easier. Any remaining war score use to take navies",
+   "frags": 1
+  },
+  {
+   "k": "rtqcan",
+   "en": "⟦0⟧: The Achievement Icon makes it appear as though you need the ⟦1⟧ and ⟦2⟧ for the achievement, you don't, check the list to the left.",
+   "frags": 3
+  },
+  {
+   "k": "1m2w1ti",
+   "en": "Dutch East Indies"
+  },
+  {
+   "k": "s9z0ix",
+   "en": "Australia"
+  },
+  {
+   "k": "p1n0wz",
+   "en": "Next either manually justify on the remaining American minors (while the player builds up for the US war) or ignite revolutions (this will take longer though as the player build will have to annex manually later). Prepare collaborations governments in the US and declare war. This should be achievable without Axis help but if needed, call them into the war. Take all the states you need in the peace deal (don't forget about ⟦0⟧)",
+   "frags": 1
+  },
+  {
+   "k": "wjlrct",
+   "en": "Panama"
+  },
+  {
+   "k": "1pex5xi",
+   "en": "⟦0⟧: ⟦1⟧ will steamroll the ⟦2⟧, be sure to contribute war score (one army should be enough), you only need a few percentage points to get the Pacific territories (for the love of god do not forget about the Chukchi Peninsula)",
+   "frags": 3
+  },
+  {
+   "k": "1c699xg",
+   "en": "USSR"
+  },
+  {
+   "k": "gfeacc",
+   "en": "By now, the game will be should be in the mid 1940's and Japan should have declared on Chile and the Axis (because of the far East colonies). Take them out and take what you can in the peace deal (most will go to China). Declare and push China (without calling in the Axis)."
+  },
+  {
+   "k": "s8hez2",
+   "en": "⟦0⟧: You do not need to own the territories, only control them. So taking the coast from China without pushing into their heartland shouldn't be a problem",
+   "frags": 1
+  },
+  {
+   "k": "1huxvya",
+   "en": "Remember"
+  },
+  {
+   "k": "jwbvbc",
+   "en": "If all done well the achievement should fire. ⟦0⟧: Build nukes, and get ready to quickly leave the Axis and declare war. If all done well the player can walk into the territories needed in just a few days or drop nukes.",
+   "frags": 1
+  },
+  {
+   "k": "2ntabk",
+   "en": "If the Axis hold some of the territories you need"
+  },
+  {
+   "k": "st25ym",
+   "en": "Can be done alongside:"
+  },
+  {
+   "k": "1fstl1v",
+   "en": "'Red Hot Chili Peppers'"
+  },
+  {
+   "k": "1ed6zhw",
+   "en": "'URSAL'"
+  },
+  {
+   "k": "1ca9u4c",
+   "en": "'Proactive Defense'"
+  },
+  {
+   "k": "7dwxbb",
+   "en": "'Rumble in the Jungle'"
+  },
+  {
+   "k": "1u39s4t",
+   "en": "⟦0⟧ guides",
+   "frags": 1
+  },
+  {
+   "k": "7r8mbp",
+   "en": "Very easy"
+  },
+  {
+   "k": "26jsqm",
+   "en": "Bullseye"
+  },
+  {
+   "k": "ave0q6",
+   "en": "United Netherlands"
+  },
+  {
+   "k": "u0rvp7",
+   "en": "Easy"
+  },
+  {
+   "k": "1x8pl0w",
+   "en": "Ain't like that now"
+  },
+  {
+   "k": "14uam9i",
+   "en": "Australia-Hungary"
+  },
+  {
+   "k": "y5ny83",
+   "en": "Congolese Belgium"
+  },
+  {
+   "k": "e2va9k",
+   "en": "Big Entente"
+  },
+  {
+   "k": "1sif4ax",
+   "en": "From Tehran with Love"
+  },
+  {
+   "k": "bjznmk",
+   "en": "Istanbul is Constantinople. Again."
+  },
+  {
+   "k": "k2qsbq",
+   "en": "No more Partitions"
+  },
+  {
+   "k": "35094y",
+   "en": "Oil Sheiks"
+  },
+  {
+   "k": "dr7lcs",
+   "en": "That's Sikh!"
+  },
+  {
+   "k": "1qgfwu3",
+   "en": "The 501st Legion"
+  },
+  {
+   "k": "s1f6yb",
+   "en": "The Magic School Bus"
+  },
+  {
+   "k": "128mkpw",
+   "en": "The Sun Will Never Set"
+  },
+  {
+   "k": "1w0tx5p",
+   "en": "Tour de France"
+  },
+  {
+   "k": "im0wjw",
+   "en": "You Shall Not Pass"
+  },
+  {
+   "k": "2pbr86",
+   "en": "Medium"
+  },
+  {
+   "k": "ybksw8",
+   "en": "…and you get a canton, everybody gets a canton!"
+  },
+  {
+   "k": "t69mng",
+   "en": "Antischluss"
+  },
+  {
+   "k": "gdwkzk",
+   "en": "Awake and Angry"
+  },
+  {
+   "k": "132t14",
+   "en": "A Great Hunger"
+  },
+  {
+   "k": "dgkhbm",
+   "en": "Balkan Problem Solved"
+  },
+  {
+   "k": "979j1f",
+   "en": "Brentry"
+  },
+  {
+   "k": "11nf5th",
+   "en": "By Beer Alone"
+  },
+  {
+   "k": "1c7vwz1",
+   "en": "Cobalt Sea"
+  },
+  {
+   "k": "gja7hw",
+   "en": "Crush the Dream"
+  },
+  {
+   "k": "1jx48em",
+   "en": "Crusader Kings"
+  },
+  {
+   "k": "147uoy4",
+   "en": "Danzig queen"
+  },
+  {
+   "k": "1kcpl8u",
+   "en": "Hail to the King"
+  },
+  {
+   "k": "1lftoz3",
+   "en": "House of Kurds"
+  },
+  {
+   "k": "1521pur",
+   "en": "It has my name on it"
+  },
+  {
+   "k": "123dicr",
+   "en": "Media Mughal •"
+  },
+  {
+   "k": "quvul0",
+   "en": "My Ships Don't Lie"
+  },
+  {
+   "k": "jpjmsm",
+   "en": "Otto-man"
+  },
+  {
+   "k": "1uze96m",
+   "en": "Our Other Place in the Sun"
+  },
+  {
+   "k": "ijw0vo",
+   "en": "Paradisus Paradoxum‎"
+  },
+  {
+   "k": "2bgaq0",
+   "en": "Pinot Noirway"
+  },
+  {
+   "k": "11w1wdm",
+   "en": "Sapmi united by the fire"
+  },
+  {
+   "k": "1166u2k",
+   "en": "The Munich Disagreement"
+  },
+  {
+   "k": "12wkrbv",
+   "en": "The return of the king"
+  },
+  {
+   "k": "129wtu3",
+   "en": "The Soviet Onion"
+  },
+  {
+   "k": "1f0wf23",
+   "en": "This Achievement is Cheesy"
+  },
+  {
+   "k": "rkbf7e",
+   "en": "This is going to be LIT"
+  },
+  {
+   "k": "1u177aa",
+   "en": "True Blitzkrieg"
+  },
+  {
+   "k": "1av1h1n",
+   "en": "We’re Putting the Band Back Together •"
+  },
+  {
+   "k": "1ozryxy",
+   "en": "William Wallis"
+  },
+  {
+   "k": "s0816k",
+   "en": "Hard"
+  },
+  {
+   "k": "18zpr9x",
+   "en": "Caramelldansen"
+  },
+  {
+   "k": "1o1b4cs",
+   "en": "Cod wars"
+  },
+  {
+   "k": "2ieff8",
+   "en": "Esti is Scandi"
+  },
+  {
+   "k": "v1h63o",
+   "en": "Hail to the Qing"
+  },
+  {
+   "k": "1stlmvk",
+   "en": "Holy, Roman, and an Empire"
+  },
+  {
+   "k": "ozaxsm",
+   "en": "I didn't hear no bell"
+  },
+  {
+   "k": "1y51r99",
+   "en": "Its all coming together"
+  },
+  {
+   "k": "50yoes",
+   "en": "Lamento Boliviano"
+  },
+  {
+   "k": "l9s1qr",
+   "en": "Lone Wolf"
+  },
+  {
+   "k": "1h6wizt",
+   "en": "Maphilindia"
+  },
+  {
+   "k": "1b19i2r",
+   "en": "Neither Death nor Dishonor"
+  },
+  {
+   "k": "5a08nh",
+   "en": "New World Order"
+  },
+  {
+   "k": "1lh0ti6",
+   "en": "Norway Jose"
+  },
+  {
+   "k": "j4cnyb",
+   "en": "Oh, how the turntables"
+  },
+  {
+   "k": "nhl9mz",
+   "en": "Old Zealand"
+  },
+  {
+   "k": "hjbz77",
+   "en": "Party like it's 1520"
+  },
+  {
+   "k": "y6643t",
+   "en": "Rule Britannia"
+  },
+  {
+   "k": "v7j5in",
+   "en": "Sunrise Invasion"
+  },
+  {
+   "k": "1py9yce",
+   "en": "The Danelaw"
+  },
+  {
+   "k": "4mehld",
+   "en": "The Dragon Rises"
+  },
+  {
+   "k": "1en4gyc",
+   "en": "The Dragon Swallowed the Sun"
+  },
+  {
+   "k": "1xa5j19",
+   "en": "The Lenin Boys are Back in Town"
+  },
+  {
+   "k": "1505xph",
+   "en": "The Lion King"
+  },
+  {
+   "k": "1j7admk",
+   "en": "The Neverending Story"
+  },
+  {
+   "k": "jx0nbg",
+   "en": "The People Have Stood Up!"
+  },
+  {
+   "k": "h2vhls",
+   "en": "The Red Sea"
+  },
+  {
+   "k": "uidicw",
+   "en": "The Romanovs laugh last"
+  },
+  {
+   "k": "qfcq2x",
+   "en": "This achievement is dedicated to the brave soldiers of..."
+  },
+  {
+   "k": "atfn08",
+   "en": "Treading the Narrow Path"
+  },
+  {
+   "k": "41je95",
+   "en": "Uralic brothers united"
+  },
+  {
+   "k": "1ikye0b",
+   "en": "Woman in a High Castle"
+  },
+  {
+   "k": "93dlx2",
+   "en": "Very hard"
+  },
+  {
+   "k": "ecmzu",
+   "en": "Bad Ending - The whole world is now Brazil"
+  },
+  {
+   "k": "fp6ufa",
+   "en": "Bad Romeance"
+  },
+  {
+   "k": "1hzssix",
+   "en": "Battlecry"
+  },
+  {
+   "k": "1v9z80v",
+   "en": "Battle Royale"
+  },
+  {
+   "k": "12zelvf",
+   "en": "Bearer of Artillery"
+  },
+  {
+   "k": "xfbne8",
+   "en": "Cheese your fighter."
+  },
+  {
+   "k": "1xand03",
+   "en": "Chilean Empire"
+  },
+  {
+   "k": "doarrc",
+   "en": "Crusader Kings 2"
+  },
+  {
+   "k": "1w4piot",
+   "en": "Crusader Kings IV"
+  },
+  {
+   "k": "6074pl",
+   "en": "Czechmate"
+  },
+  {
+   "k": "1evnfet",
+   "en": "Death or Dishonor or Cake"
+  },
+  {
+   "k": "1cughq1",
+   "en": "Go Ahead, Macau My Day"
+  },
+  {
+   "k": "1lbns8q",
+   "en": "Hardly Anything Sèvres"
+  },
+  {
+   "k": "1f4rjig",
+   "en": "Huge-oslavia"
+  },
+  {
+   "k": "111e1xb",
+   "en": "Miklos Horthy and the Habsburg Prince"
+  },
+  {
+   "k": "gzorvw",
+   "en": "No one crosses the finnish line"
+  },
+  {
+   "k": "1qr32k8",
+   "en": "One King, Two Crowns"
+  },
+  {
+   "k": "1si9bv5",
+   "en": "Siberian Tiger"
+  },
+  {
+   "k": "1hwegks",
+   "en": "The Legacy of Cyrus the Great"
+  },
+  {
+   "k": "1ujswz2",
+   "en": "The True Successor"
+  },
+  {
+   "k": "40nddh",
+   "en": "This time for Africa"
+  },
+  {
+   "k": "1909qqb",
+   "en": "Insane"
+  },
+  {
+   "k": "145pmxd",
+   "en": "30 Minutes of Hel"
+  },
+  {
+   "k": "1bfzt17",
+   "en": "Don’t Die for Your Country"
+  },
+  {
+   "k": "1xlonpd",
+   "en": "Flag of Argentina"
+  },
+  {
+   "k": "1a9voq2",
+   "en": "Flag of Brazil"
+  },
+  {
+   "k": "1u9uw2",
+   "en": "Flag of Colombia"
+  },
+  {
+   "k": "1a58eu6",
+   "en": "Flag of Peru"
+  },
+  {
+   "k": "dmrx03",
+   "en": "Flag of Ecuador"
+  },
+  {
+   "k": "x4z41b",
+   "en": "Flag of United States"
+  },
+  {
+   "k": "11xhuiq",
+   "en": "Flag of Dominion of Canada"
+  },
+  {
+   "k": "c7zmoh",
+   "en": "Flag of Germany"
+  },
+  {
+   "k": "12y0eaq",
+   "en": "Flag of Great Britain"
+  },
+  {
+   "k": "1c9bqll",
+   "en": "Flag of Spain"
+  },
+  {
+   "k": "10b4hte",
+   "en": "Flag of Portugal"
+  },
+  {
+   "k": "1voe02w",
+   "en": "Flag of Uruguay"
+  },
+  {
+   "k": "9t4xz9",
+   "en": "Flag of Dutch East Indies"
+  },
+  {
+   "k": "593a6e",
+   "en": "Flag of Australia"
+  },
+  {
+   "k": "639c7w",
+   "en": "Flag of Panama"
+  },
+  {
+   "k": "mzg8xt",
+   "en": "Flag of Soviet Union"
+  }
+ ]
+}

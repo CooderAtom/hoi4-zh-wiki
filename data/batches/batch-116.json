@@ -1,0 +1,1638 @@
+{
+ "batch": 116,
+ "pages": [
+  "Defines"
+ ],
+ "chars": 14842,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1frc7ce",
+   "en": "POSTEFFECT_TOTAL_MIN_SNOW"
+  },
+  {
+   "k": "3x3mug",
+   "en": "POSTEFFECT_TOTAL_MAX_SNOW"
+  },
+  {
+   "k": "1wu4vyt",
+   "en": "POSTEFFECT_FEATHER_MIN_DISTANCE"
+  },
+  {
+   "k": "1y1hpjr",
+   "en": "POSTEFFECT_FEATHER_MAX_DISTANCE"
+  },
+  {
+   "k": "1rd89hp",
+   "en": "POSTEFFECT_FEATHER_AT_MIN"
+  },
+  {
+   "k": "3ytvg3",
+   "en": "POSTEFFECT_FEATHER_AT_MAX"
+  },
+  {
+   "k": "ztpkcu",
+   "en": "LAND_COMBAT_BALANCED_COLOR"
+  },
+  {
+   "k": "1l5mu08",
+   "en": "LAND_COMBAT_LOSING_COLOR"
+  },
+  {
+   "k": "1mo7s0a",
+   "en": "LAND_COMBAT_WINNING_COLOR"
+  },
+  {
+   "k": "r9ios3",
+   "en": "BLOOM_WIDTH"
+  },
+  {
+   "k": "kr99em",
+   "en": "bloom configuration"
+  },
+  {
+   "k": "1y1cjil",
+   "en": "BLOOM_SCALE"
+  },
+  {
+   "k": "1qns429",
+   "en": "BLOOM_WIDTH = 1.0, -- night"
+  },
+  {
+   "k": "1iqvuk9",
+   "en": "BRIGHT_THRESHOLD"
+  },
+  {
+   "k": "1xk2ch1",
+   "en": "BLOOM_SCALE = 3.0, -- night"
+  },
+  {
+   "k": "b0uyv6",
+   "en": "EMISSIVE_BLOOM_STRENGTH"
+  },
+  {
+   "k": "ka3zfb",
+   "en": "BRIGHT_THRESHOLD = 0.9, -- night"
+  },
+  {
+   "k": "18p1kpg",
+   "en": "MIN_HDR_ADJUSTMENT"
+  },
+  {
+   "k": "1y0jwie",
+   "en": "0.18 0.7 är hur mkt den anpassar sig till mörka områden, mindre värde -> mer mörkerseen"
+  },
+  {
+   "k": "1x9x4nm",
+   "en": "MAX_HDR_ADJUSTMENT"
+  },
+  {
+   "k": "10ad0d2",
+   "en": "0.8 0.8 jätte högt värde så ser du bra trots att du står inuti solen och tittar."
+  },
+  {
+   "k": "1ydjr0t",
+   "en": "HDR_ADJUSTMENT_SPEED"
+  },
+  {
+   "k": "mpf93e",
+   "en": "TONE_MAP_MIDDLE_GREY"
+  },
+  {
+   "k": "11i30rv",
+   "en": "TONE_MAP_LUMINANCE_WHITE"
+  },
+  {
+   "k": "6fsdtm",
+   "en": "MOON_HEIGHT"
+  },
+  {
+   "k": "r36rvy",
+   "en": "higher means softer shadows and more intense light"
+  },
+  {
+   "k": "1ohiz15",
+   "en": "SUN_HEIGHT"
+  },
+  {
+   "k": "1httkzy",
+   "en": "MOON_HEIGHT_WATER"
+  },
+  {
+   "k": "la400t",
+   "en": "SUN_HEIGHT_WATER"
+  },
+  {
+   "k": "17sygr1",
+   "en": "MOON_LATITUDE"
+  },
+  {
+   "k": "1vun81z",
+   "en": "NOT USED"
+  },
+  {
+   "k": "1og20qy",
+   "en": "SUN_LATITUDE"
+  },
+  {
+   "k": "p6y3z8",
+   "en": "SECOND_MOON_LATITUDE"
+  },
+  {
+   "k": "icaz7t",
+   "en": "Used to put a \"fake\" sun/moon on the other side of the globe to hide the seem that would otherwise appear there"
+  },
+  {
+   "k": "vma83x",
+   "en": "SECOND_SUN_LATITUDE"
+  },
+  {
+   "k": "hq16ra",
+   "en": "AMBIENT_LIGHT_POS_X"
+  },
+  {
+   "k": "179f3s3",
+   "en": "hsv color ambient light right"
+  },
+  {
+   "k": "5tdrim",
+   "en": "AMBIENT_LIGHT_NEG_X"
+  },
+  {
+   "k": "52pxm8",
+   "en": "left"
+  },
+  {
+   "k": "i00sg9",
+   "en": "AMBIENT_LIGHT_POS_Y"
+  },
+  {
+   "k": "8fl103",
+   "en": "kills everything"
+  },
+  {
+   "k": "63dd7l",
+   "en": "AMBIENT_LIGHT_NEG_Y"
+  },
+  {
+   "k": "1d4343f",
+   "en": "from under"
+  },
+  {
+   "k": "h61zdc",
+   "en": "AMBIENT_LIGHT_POS_Z"
+  },
+  {
+   "k": "1acrvi4",
+   "en": "top"
+  },
+  {
+   "k": "59ek4o",
+   "en": "AMBIENT_LIGHT_NEG_Z"
+  },
+  {
+   "k": "ltnhuy",
+   "en": "bottom"
+  },
+  {
+   "k": "86yzoo",
+   "en": "SUN_DIFFUSE_COLOR"
+  },
+  {
+   "k": "1ymw9sb",
+   "en": "SUN_INTENSITY"
+  },
+  {
+   "k": "11q8ykx",
+   "en": "SUN_SPECULAR_INTENSITY"
+  },
+  {
+   "k": "11vly7l",
+   "en": "MOON_DIFFUSE_COLOR"
+  },
+  {
+   "k": "12700ia",
+   "en": "MOON_INTENSITY"
+  },
+  {
+   "k": "154m9c8",
+   "en": "CUBEMAP_INTENSITY"
+  },
+  {
+   "k": "fehyu7",
+   "en": "TREE_FADE_NEAR"
+  },
+  {
+   "k": "1mu7o8u",
+   "en": "TREE_FADE_FAR"
+  },
+  {
+   "k": "1bktw3d",
+   "en": "TRADE_ROUTE_NUM_CONVOYS_SCALE_FACTOR"
+  },
+  {
+   "k": "1ng7msp",
+   "en": "TRADE_ROUTE_MAX_NUM_CONVOYS"
+  },
+  {
+   "k": "1bjat2y",
+   "en": "TRADE_ROUTE_CONVOY_SPEED"
+  },
+  {
+   "k": "32mfiu",
+   "en": "TRADE_ROUTE_CONVOY_SLEEP_TIME"
+  },
+  {
+   "k": "1kjtita",
+   "en": "TRADE_ROUTE_CONVOY_ROUTE_OFFSET"
+  },
+  {
+   "k": "sae266",
+   "en": "SHIP_IN_MISSION_SPEED"
+  },
+  {
+   "k": "1at08bn",
+   "en": "SHIP_IN_MISSION_TURN_RADIUS"
+  },
+  {
+   "k": "1vrzmwq",
+   "en": "SHIP_IN_MISSION_TARGET_SIZE"
+  },
+  {
+   "k": "1wbugr",
+   "en": "SHIP_IN_MISSION_SCALE"
+  },
+  {
+   "k": "wjpvhk",
+   "en": "TRADE_ROUTE_LINE_OFFSET"
+  },
+  {
+   "k": "4e1ruq",
+   "en": "TRADE_ROUTE_MAX_LINES"
+  },
+  {
+   "k": "p23b5p",
+   "en": "TRADE_ROUTE_BAD_EFFICIENCY_THRESHOLD"
+  },
+  {
+   "k": "13xk903",
+   "en": "TRADE_ROUTE_REGIONAL_BAD_EFFICIENCY_THRESHOLD"
+  },
+  {
+   "k": "1eqog6j",
+   "en": "TRADE_ROUTE_BAD_EFFICIENCY_ROUTE_COLOR"
+  },
+  {
+   "k": "16n3jyh",
+   "en": "TRADE_ROUTE_BAD_EFFICIENCY_HOTSPOT_COLOR"
+  },
+  {
+   "k": "g6x40b",
+   "en": "TRADE_ROUTE_PRODUCTION_TRANSFER_COLOR"
+  },
+  {
+   "k": "1hvsdi3",
+   "en": "TRADE_ROUTE_SUPPLIES_TRANSFER_COLOR"
+  },
+  {
+   "k": "1okrdyj",
+   "en": "TRADE_ROUTE_RESOURCE_EXPORT_COLOR"
+  },
+  {
+   "k": "t7c5is",
+   "en": "TRADE_ROUTE_RESOURCE_IMPORT_COLOR"
+  },
+  {
+   "k": "1dok39r",
+   "en": "TRADE_ROUTE_LEND_LEASE_EXPORT_COLOR"
+  },
+  {
+   "k": "dh6z20",
+   "en": "TRADE_ROUTE_LEND_LEASE_IMPORT_COLOR"
+  },
+  {
+   "k": "1r1sf8d",
+   "en": "TRADE_ROUTE_INTERNATIONAL_MARKET_COLOR"
+  },
+  {
+   "k": "dl6ean",
+   "en": "TRAIT_GRID_COLUMN_OFFSET"
+  },
+  {
+   "k": "welhc",
+   "en": "TRAIT_GRID_COLUMN_WIDTH"
+  },
+  {
+   "k": "6iaw3g",
+   "en": "TRAIT_GRID_ROW_SHIFT"
+  },
+  {
+   "k": "d307ab",
+   "en": "TRAIT_LINE_ASSIGNED_COLOR"
+  },
+  {
+   "k": "wpn4du",
+   "en": "- Colors used for the trait trees (MIO and character trait trees) Color for parent dependency lines when the parent is assigned."
+  },
+  {
+   "k": "1sg4f7b",
+   "en": "TRAIT_LINE_NON_ASSIGNED_COLOR"
+  },
+  {
+   "k": "rzs39p",
+   "en": "Color for parent dependency lines when the parent is not assigned assigned."
+  },
+  {
+   "k": "150paxx",
+   "en": "TRAIT_LINE_HIGHLIGHT_COLOR"
+  },
+  {
+   "k": "18hw9g7",
+   "en": "Color for parent dependency lines to the parents when hovering over a trait."
+  },
+  {
+   "k": "1nrl805",
+   "en": "TRAIT_INVALID_FOR_ASSIGNMENT_COLOR"
+  },
+  {
+   "k": "1184fy6",
+   "en": "PRIDE_OF_THE_FLEET_MODULATE"
+  },
+  {
+   "k": "vtc6te",
+   "en": "pride of the fleet color"
+  },
+  {
+   "k": "1iawqte",
+   "en": "RAILWAY_MAP_ARROW_THIN_LEVEL_THRESHOLD"
+  },
+  {
+   "k": "16ls15g",
+   "en": "Railway level 1 uses thin map arrow in supply map mode"
+  },
+  {
+   "k": "1ea2m9q",
+   "en": "RAILWAY_MAP_ARROW_MEDIUM_LEVEL_THRESHOLD"
+  },
+  {
+   "k": "1js3wcj",
+   "en": "Railway level 2-3 uses medium map arrow in supply map mode"
+  },
+  {
+   "k": "17sku4",
+   "en": "RAILWAY_MAP_ARROW_THICK_LEVEL_THRESHOLD"
+  },
+  {
+   "k": "1iisyzp",
+   "en": "Railway level 4-5 uses thick map arrow in supply map mode"
+  },
+  {
+   "k": "1jsynfx",
+   "en": "RAILWAY_MAP_ARROW_COLOR_DEFAULT"
+  },
+  {
+   "k": "cnoupo",
+   "en": "white, default railway maparrow color"
+  },
+  {
+   "k": "bav59p",
+   "en": "RAILWAY_MAP_ARROW_COLOR_CONSTRUCTION"
+  },
+  {
+   "k": "ltvsbf",
+   "en": "orange, railways that are currently under construction"
+  },
+  {
+   "k": "mz08",
+   "en": "RAILWAY_MAP_ARROW_COLOR_CONSTRUCTION_VALID"
+  },
+  {
+   "k": "6qs506",
+   "en": "yellow, in constructionmode, railways that are valid to build"
+  },
+  {
+   "k": "1kjqnxx",
+   "en": "RAILWAY_MAP_ARROW_COLOR_CONSTRUCTION_INVALID"
+  },
+  {
+   "k": "13pcc5a",
+   "en": "red, in constructionmode, railways that are invalid to build"
+  },
+  {
+   "k": "sq3on5",
+   "en": "RAILWAY_MAP_ARROW_COLOR_HIGHLIGHTED"
+  },
+  {
+   "k": "1ubbz59",
+   "en": "yellow, highlighted railways, e.g when selecting a hub and showing the route back to the capital"
+  },
+  {
+   "k": "71lrs9",
+   "en": "RAILWAY_MAP_ARROW_COLOR_HIGHLIGHTED_DAMAGED"
+  },
+  {
+   "k": "jl9bdl",
+   "en": "color of highlighted railways which were damaged"
+  },
+  {
+   "k": "6rs4ue",
+   "en": "RAILWAY_MAP_ARROW_COLOR_HIGHLIGHTED_ONCOOLDOWN"
+  },
+  {
+   "k": "11urt4",
+   "en": "color of highlighted railways which are on cooldown (captured recently)"
+  },
+  {
+   "k": "1uleq3b",
+   "en": "RAILWAY_MAP_ARROW_COLOR_HIGHLIGHTED_CONSTRUCTION"
+  },
+  {
+   "k": "7qv7i4",
+   "en": "orange, shown for highlighted railways that are under construction"
+  },
+  {
+   "k": "t07eih",
+   "en": "RAILWAY_MAP_ARROW_COLOR_HIGHLIGHTED_BOTTLENECK"
+  },
+  {
+   "k": "ubfkr5",
+   "en": "red, shown for railways that are the bottleneck when highlighting"
+  },
+  {
+   "k": "10unfca",
+   "en": "RAILWAY_MAP_ARROW_COLOR_HIGHLIGHTED_BOTTLENECK_MAXLEVEL"
+  },
+  {
+   "k": "q79i3g",
+   "en": "purple, shown for maxlevel railways that are the bottleneck when highlighting"
+  },
+  {
+   "k": "1dpzj9b",
+   "en": "RAILWAY_MAP_ARROW_COLOR_DAMAGED"
+  },
+  {
+   "k": "63ckbf",
+   "en": "color of railways which were damaged and gives penalty to move for railway guns"
+  },
+  {
+   "k": "1mti9dg",
+   "en": "RAILWAY_MAP_ARROW_COLOR_ONCOOLDOWN"
+  },
+  {
+   "k": "12rg6vn",
+   "en": "color of railways which are on cooldown (captured recently)"
+  },
+  {
+   "k": "1yr79r2",
+   "en": "RIVER_SUPPLY_MAP_ARROW_COLOR"
+  },
+  {
+   "k": "ufd6v3",
+   "en": "FLOWING_RIVER_SUPPLY_MAP_ARROW_COLOR"
+  },
+  {
+   "k": "hkaxjr",
+   "en": "SUPPLY_TO_CONSUMERS_MAP_ARROW_COLOR"
+  },
+  {
+   "k": "r39j9k",
+   "en": "Currently overwritte in code..."
+  },
+  {
+   "k": "14z67fi",
+   "en": "SUPPLY_TO_CONSUMERS_MAP_ARROW_TRANSPARENCY"
+  },
+  {
+   "k": "1g31tf4",
+   "en": "NODE_FLOW_IN_CURRENT_RANGE_COLOR"
+  },
+  {
+   "k": "1cue59b",
+   "en": "When holding shift in supply map mode with a node selected, color provinces which are in range of the node At current motorization level"
+  },
+  {
+   "k": "mkpciu",
+   "en": "NODE_FLOW_IN_HALF_RANGE_COLOR"
+  },
+  {
+   "k": "183778f",
+   "en": "At Half Motorization, if currently set to less than that"
+  },
+  {
+   "k": "1w04q4e",
+   "en": "NODE_FLOW_IN_FULL_RANGE_COLOR"
+  },
+  {
+   "k": "1j45shv",
+   "en": "At Full Motorization, if currently set to less than that"
+  },
+  {
+   "k": "1c7fx7z",
+   "en": "RAILWAY_ICON_SHIFT"
+  },
+  {
+   "k": "1rb0xvx",
+   "en": "SUPPLY_ICON_SHIFT"
+  },
+  {
+   "k": "j7us93",
+   "en": "SUPPLY_ICON_SWITCH"
+  },
+  {
+   "k": "dtpan6",
+   "en": "SUPPLY_ICON_CUTOFF"
+  },
+  {
+   "k": "x3x71",
+   "en": "total supply icon cutoff distance for all"
+  },
+  {
+   "k": "i8xle3",
+   "en": "SUPPLY_ICON_UNUSED_CUTOFF"
+  },
+  {
+   "k": "13050v2",
+   "en": "where we stop showing unused nodes"
+  },
+  {
+   "k": "2z5p9h",
+   "en": "SUPPLY_ICON_NUMBERS_CUTOFF"
+  },
+  {
+   "k": "2ac19l",
+   "en": "where we stop showing numbers on hubs (ignored for selected and problem hubs)"
+  },
+  {
+   "k": "bxxz9r",
+   "en": "SUPPLY_ICON_OK_CUTOFF"
+  },
+  {
+   "k": "u6ertg",
+   "en": "where we stop showing nodes with no issues, e.g non-red"
+  },
+  {
+   "k": "p87alg",
+   "en": "SUPPLY_ICON_DISCONNECTED_CUTOFF"
+  },
+  {
+   "k": "gro8cr",
+   "en": "where we stop showing disconnected nodes"
+  },
+  {
+   "k": "jakf8k",
+   "en": "SUPPLY_ICON_END_CUTOFF"
+  },
+  {
+   "k": "1f3tlbc",
+   "en": "where we stop showing line end icons"
+  },
+  {
+   "k": "8coezs",
+   "en": "RAILWAY_ICON_CUTOFF"
+  },
+  {
+   "k": "10lqtm7",
+   "en": "SUPPLY_SELECTED_NODE_COLOR"
+  },
+  {
+   "k": "12694tp",
+   "en": "SUPPLY_CAPITAL_COLOR"
+  },
+  {
+   "k": "1bvvgd6",
+   "en": "SUPPLY_NAVAL_NODE_COLOR"
+  },
+  {
+   "k": "u4h61n",
+   "en": "SUPPLY_LAND_NODE_COLOR"
+  },
+  {
+   "k": "mxy6bv",
+   "en": "SUPPLY_CONSUMER_ARROW_HEIGHT_TO_LEN"
+  },
+  {
+   "k": "1ock1lc",
+   "en": "SUPPLY_CONSUMER_ARROW_HEIGHT_MAX"
+  },
+  {
+   "k": "kb2xyi",
+   "en": "SUPPLY_UNIT_COUNTER_SHOW_THRESHOLD"
+  },
+  {
+   "k": "1ya92b1",
+   "en": "At what supply threshold will the normal crate be shown on unit counters"
+  },
+  {
+   "k": "cfg3u3",
+   "en": "SUPPLY_UNIT_COUNTER_LOW_THRESHOLD"
+  },
+  {
+   "k": "ulyghc",
+   "en": "At what supply threshold will the orange crate be shown on unit counters"
+  },
+  {
+   "k": "r1c0em",
+   "en": "SUPPLY_UNIT_COUNTER_VERY_LOW_THRESHOLD"
+  },
+  {
+   "k": "16jv8oa",
+   "en": "At what supply threshold will the red crate with ! will be shown on unit counters"
+  },
+  {
+   "k": "1sgjvwu",
+   "en": "COUP_GREEN"
+  },
+  {
+   "k": "1gq26la",
+   "en": "COUP_RED"
+  },
+  {
+   "k": "elial5",
+   "en": "FRIEND_COLOR"
+  },
+  {
+   "k": "1s6w3ll",
+   "en": "unit on-map interface modulate colors"
+  },
+  {
+   "k": "rwk4tf",
+   "en": "ENEMY_COLOR"
+  },
+  {
+   "k": "1qyrgd4",
+   "en": "NEUTRAL_COLOR"
+  },
+  {
+   "k": "1ae0jjk",
+   "en": "COUNTRY_COLOR_HUE_MODIFIER"
+  },
+  {
+   "k": "8nye2i",
+   "en": "COUNTRY_COLOR_SATURATION_MODIFIER"
+  },
+  {
+   "k": "osz9yz",
+   "en": "COUNTRY_COLOR_BRIGHTNESS_MODIFIER"
+  },
+  {
+   "k": "1rceztv",
+   "en": "COUNTRY_UI_COLOR_HUE_MODIFIER"
+  },
+  {
+   "k": "1mzfxoz",
+   "en": "COUNTRY_UI_COLOR_SATURATION_MODIFIER"
+  },
+  {
+   "k": "1l3f542",
+   "en": "COUNTRY_UI_COLOR_BRIGHTNESS_MODIFIER"
+  },
+  {
+   "k": "ls1ets",
+   "en": "COMMANDGROUP_PRESET_COLORS_HSV"
+  },
+  {
+   "k": "1m3si6j",
+   "en": "CAMERA_OUTSIDE_MAP_DISTANCE_TOP"
+  },
+  {
+   "k": "1ag6pgz",
+   "en": "CAMERA_OUTSIDE_MAP_DISTANCE_BOTTOM"
+  },
+  {
+   "k": "1r4ofzo",
+   "en": "CAMERA_ZOOM_SPEED"
+  },
+  {
+   "k": "1wip01l",
+   "en": "CAMERA_ZOOM_KEY_SCALE"
+  },
+  {
+   "k": "1k78t6t",
+   "en": "CAMERA_ZOOM_SPEED_DISTANCE_MULT"
+  },
+  {
+   "k": "a8ye6a",
+   "en": "Zoom speed multiplier. When camera is max zoome out, the zooming in speed will get 100% of CAMERA_ZOOM_SPEED_DISTANCE_MULT zooming speed."
+  },
+  {
+   "k": "lyr2ub",
+   "en": "ORDERS_MOUSE_INTERSECT_DISTANCE_MULT"
+  },
+  {
+   "k": "pkyx6x",
+   "en": "For balancing the collision distance with painted arrows and fronts."
+  },
+  {
+   "k": "1ajtf46",
+   "en": "FRONTS_MOUSE_INTERSECT_DISTANCE_MULT"
+  },
+  {
+   "k": "jip427",
+   "en": "MOVE_ORDERS_MOUSE_INTERSECT_DISTANCE_MULT"
+  },
+  {
+   "k": "1xvdhq8",
+   "en": "TRADE_ROUTE_INTERSECT_DISTANCE_MULT"
+  },
+  {
+   "k": "1gj7b29",
+   "en": "For balancing the collision distance with painted arrows and trade routes."
+  },
+  {
+   "k": "1uoj0xn",
+   "en": "RAILWAY_INTERSECT_DISTANCE_MULT"
+  },
+  {
+   "k": "80j87d",
+   "en": "For balancing the collision distance with painted arrows and railways."
+  },
+  {
+   "k": "12kfj1m",
+   "en": "MINIMUM_PROVINCE_SIZE_IN_PIXELS"
+  },
+  {
+   "k": "17rj8ed",
+   "en": "Provinces that are smaller than that are just making the game unplayable. It doesn't affect the game, just informs in the error.log"
+  },
+  {
+   "k": "13clya3",
+   "en": "NATIONAL_FOCUS_SHINE_DISTANCE_SCALE"
+  },
+  {
+   "k": "cftiuu",
+   "en": "NATIONAL_FOCUS_PULSE_BASE"
+  },
+  {
+   "k": "1h7dfgc",
+   "en": "NATIONAL_FOCUS_PULSE_RANDOM"
+  },
+  {
+   "k": "11wwyo7",
+   "en": "POLITICAL_GRID_SMALL_BOX_LIMIT"
+  },
+  {
+   "k": "14z1xii",
+   "en": "Limit for gridbox in political view before it will be replaced with extended gridbox"
+  },
+  {
+   "k": "1o45vll",
+   "en": "SETUP_SPIRIT_GRID_BOX_LIMIT"
+  },
+  {
+   "k": "hrg483",
+   "en": "Limit for gridbox in game setup before it will be replaced with extended gridbox"
+  },
+  {
+   "k": "iv7o3e",
+   "en": "POLITICAL_PULSE_BASE"
+  },
+  {
+   "k": "ymq7bs",
+   "en": "POLITICAL_PULSE_RANDOM"
+  },
+  {
+   "k": "1imeu4q",
+   "en": "STRATEGIC_REGION_ZOOM_HEIGHT"
+  },
+  {
+   "k": "m4lhgi",
+   "en": "zooming to a strategic region will make you zoom this further from map"
+  },
+  {
+   "k": "1ar83k2",
+   "en": "ARROW_PARADROP_HEIGHT_TO_LEN"
+  },
+  {
+   "k": "k0xs8r",
+   "en": "ARROW_PARADROP_HEIGHT_MAX"
+  },
+  {
+   "k": "5wf2n5",
+   "en": "ARROW_MIN_TEXT_POINTS_LIMIT"
+  },
+  {
+   "k": "1vfxeqe",
+   "en": "Amount of points when arrow gets first detailed text"
+  },
+  {
+   "k": "1csritu",
+   "en": "ARROW_EXT_TEXT_POINTS_LIMIT"
+  },
+  {
+   "k": "2ycrwb",
+   "en": "Amount of points when arrow gets extended detailed text"
+  },
+  {
+   "k": "ur6vza",
+   "en": "ARMY_DEFENSIVE_LINE_BUTTON_SIZE"
+  },
+  {
+   "k": "hm1df2",
+   "en": "The size of the \"edit\" button drawn at the endings of the def.lines (for army)"
+  },
+  {
+   "k": "1skfjg2",
+   "en": "ARMY_GROUP_DEFENSIVE_LINE_BUTTON_SIZE"
+  },
+  {
+   "k": "1cachij",
+   "en": "The size of the \"edit\" button drawn at the endings of the def.lines (for army group)"
+  },
+  {
+   "k": "1xd7561",
+   "en": "SHOW_FOREIGN_SUPPLY_BELOW"
+  },
+  {
+   "k": "11v90vs",
+   "en": "Below this camera height all supply icons will be shown"
+  },
+  {
+   "k": "1y043od",
+   "en": "SHOW_ONLY_PATH_ABOVE"
+  },
+  {
+   "k": "1xyq0vc",
+   "en": "Above this only supply icons in the currently shown path are shown"
+  },
+  {
+   "k": "ij27qc",
+   "en": "ACCLIMATIZATION_CAMO_SHOW_AT"
+  },
+  {
+   "k": "1gcvwzn",
+   "en": "The moment at which the division gains enough acclimatization to change it's model to the camouflage one."
+  },
+  {
+   "k": "olqk1r",
+   "en": "ACCLIMATIZATION_CAMO_SHOW_WHEN_IN_STATE"
+  },
+  {
+   "k": "o9gt71",
+   "en": "The troops camouflage can swap (to the one from acclim.) not only when snow/desert is in the location we are in, but also when % of provinces in current state has snow/desert."
+  },
+  {
+   "k": "oeq0n7",
+   "en": "INTEL_NETWORK_VALID_TARGET_STRIPE_COLOR"
+  },
+  {
+   "k": "6789ye",
+   "en": "Color of the stripes of painted over a valid state to start building an intel network"
+  },
+  {
+   "k": "1ty0mgi",
+   "en": "INTEL_NETWORK_VALID_COUNTRY_TARGET_STRIPE_COLOR"
+  },
+  {
+   "k": "bji3oh",
+   "en": "Color of the stripes painted over valid countries"
+  },
+  {
+   "k": "1uisa2r",
+   "en": "OCCUPATION_RESISTANCE_NON_INITIALIZED_COLOR"
+  },
+  {
+   "k": "3ki9m1",
+   "en": "player owned state color with no resistance"
+  },
+  {
+   "k": "tjdypg",
+   "en": "OCCUPATION_RESISTANCE_MAP_MODE_COLORS"
+  },
+  {
+   "k": "1vajhdv",
+   "en": "color that will be used in resistance/compliance map mode first value is resistance/compliance level, next 4 values are color rgba the color will be lerped in between two closest colors"
+  },
+  {
+   "k": "1bd0axa",
+   "en": "OCCUPATION_COMPLIANCE_MAP_MODE_COLORS"
+  },
+  {
+   "k": "3jlsxl",
+   "en": "INTEL_LEDGER_ARMY_FORT_LEVEL_COLORS"
+  },
+  {
+   "k": "4rla94",
+   "en": "INTEL_LEDGER_NAVAL_FORT_LEVEL_COLORS"
+  },
+  {
+   "k": "dwss8f",
+   "en": "TEMPERATURE_MAP_MODE_COLORS"
+  },
+  {
+   "k": "moy8oa",
+   "en": "RAILWAY_GUN_ASSIGNMENTS_MAP_MODE_COLORS"
+  },
+  {
+   "k": "ckw8z9",
+   "en": "INTEL_LEDGER_NAVY_REGION_COLOR_WITH_MISSION"
+  },
+  {
+   "k": "1i4ruj2",
+   "en": "INTEL_LEDGER_NAVY_REGION_COLOR_WITH_MISSION_AND_TASKFORCES_IN_REGION"
+  },
+  {
+   "k": "rioo17",
+   "en": "INTEL_LEDGER_AIR_REGION_COLOR"
+  },
+  {
+   "k": "14u8b2u",
+   "en": "INTEL_LEDGER_GRAPH_RED"
+  },
+  {
+   "k": "8hxpyu",
+   "en": "INTEL_LEDGER_GRAPH_GREEN"
+  },
+  {
+   "k": "h4g9zl",
+   "en": "DEFAULT_NUDGE_FLOATING_HARBOR_DIST"
+  },
+  {
+   "k": "mjbz72",
+   "en": "Default distance of floating harbors from the coast in pixels, for nudger"
+  },
+  {
+   "k": "1kj57lo",
+   "en": "NInterface"
+  },
+  {
+   "k": "1h4ah07",
+   "en": "MAX_NO_FACTION_FILTER_BUTTONS"
+  },
+  {
+   "k": "ub0q61",
+   "en": "Max number of faction filter buttons that can be generated in diplomacy view."
+  },
+  {
+   "k": "da92xu",
+   "en": "LOGISTICS_PAST_WEEK"
+  },
+  {
+   "k": "1bq838l",
+   "en": "Number of days from the past (including current day) we want logistics data for (Max 30 days)"
+  },
+  {
+   "k": "kfa33c",
+   "en": "COMBAT_SOME_PIERCING"
+  },
+  {
+   "k": "8uikqr",
+   "en": "How many % of enemy units the unit have to pierce in order for the some piercing icon to be displayed"
+  },
+  {
+   "k": "1bwowi3",
+   "en": "COMBAT_GOOD_PIERCING"
+  },
+  {
+   "k": "1v1hbna",
+   "en": "How many % of enemy units the unit have to pierce in order for the good piercing icon to be displayed"
+  },
+  {
+   "k": "19i6cjy",
+   "en": "COMBAT_SOME_ARMOR"
+  },
+  {
+   "k": "4k1cmo",
+   "en": "How many % of enemy units have to be unable to pierce the unit in order for the some armor icon to be displayed"
+  },
+  {
+   "k": "1glw1v",
+   "en": "COMBAT_GOOD_ARMOR"
+  },
+  {
+   "k": "kgpx4f",
+   "en": "How many % of enemy units have to be unable to pierce the unit in order for the good armor icon to be displayed"
+  },
+  {
+   "k": "s3zxbp",
+   "en": "MIN_FOCUS_TREE_ZOOM"
+  },
+  {
+   "k": "1g7itqb",
+   "en": "min zoom in scale"
+  },
+  {
+   "k": "2vc2k3",
+   "en": "MAX_FOCUS_TREE_ZOOM"
+  },
+  {
+   "k": "yurnjm",
+   "en": "max zoom out scale"
+  },
+  {
+   "k": "1ntelfq",
+   "en": "FOCUS_TREE_ZOOM_SPEED"
+  },
+  {
+   "k": "1160klp",
+   "en": "zooming speed"
+  },
+  {
+   "k": "7uucok",
+   "en": "FOCUS_TREE_ZOOM_FACTOR"
+  },
+  {
+   "k": "46a4nz",
+   "en": "zooming factor that will be factored while player scrolls too fast"
+  },
+  {
+   "k": "15135r8",
+   "en": "TOOLTIP_SCREEN_LEFT_OFFSET_X"
+  },
+  {
+   "k": "sv3od2",
+   "en": "Tooltip offset on x axis from left screen border"
+  },
+  {
+   "k": "j4dcql",
+   "en": "TOOLTIP_SCREEN_RIGHT_OFFSET_X"
+  },
+  {
+   "k": "5t8zz3",
+   "en": "Tooltip offset on x axis from right screen border"
+  },
+  {
+   "k": "g45ew1",
+   "en": "TOOLTIP_SCREEN_TOP_OFFSET_Y"
+  },
+  {
+   "k": "dqjiys",
+   "en": "Tooltip offset on y axism from top screen border"
+  },
+  {
+   "k": "jn8hq5",
+   "en": "TOOLTIP_SCREEN_BOTTOM_OFFSET_Y"
+  },
+  {
+   "k": "148oij1",
+   "en": "Tooltip offset on y axis from bottom screen border"
+  },
+  {
+   "k": "flqyfw",
+   "en": "NO_COMBATS_COLOR"
+  },
+  {
+   "k": "1232v4e",
+   "en": "Color for icons if all combats are successful"
+  },
+  {
+   "k": "qv47ug",
+   "en": "SUCCESFUL_COMBATS_COLOR"
+  },
+  {
+   "k": "zm7t1b",
+   "en": "MIN_NON_SUCCESSFUL_COMBAT_COLOR"
+  },
+  {
+   "k": "1mxoau7",
+   "en": "Color for icons if some of combats are not successful"
+  },
+  {
+   "k": "wy2l0t",
+   "en": "MID_NON_SUCCESSFUL_COMBAT_COLOR"
+  },
+  {
+   "k": "1akxnvl",
+   "en": "MAX_NON_SUCCESSFUL_COMBAT_COLOR"
+  },
+  {
+   "k": "1gu0m90",
+   "en": "Color for icons if all of combats are not successful"
+  },
+  {
+   "k": "1jbs669",
+   "en": "UNIT_SELECT_DOUBLE_CLICK_TIME"
+  },
+  {
+   "k": "yl8es1",
+   "en": "Delay before double click event for unit selection"
+  },
+  {
+   "k": "7ktc9",
+   "en": "SHIP_SELECT_DOUBLE_CLICK_TIME"
+  },
+  {
+   "k": "1i2etv5",
+   "en": "Delay before double click event for ship selection"
+  },
+  {
+   "k": "yoz8km",
+   "en": "MINIMAP_TOGGLE_DURATION"
+  },
+  {
+   "k": "15qsy94",
+   "en": "Delay for minimap toggle"
+  },
+  {
+   "k": "a6y5r6",
+   "en": "MINIMAP_TOGGLE_SHIFT"
+  },
+  {
+   "k": "ch2azj",
+   "en": "horizontal shift for minimap to close it"
+  },
+  {
+   "k": "1plxj8k",
+   "en": "TIMED_MESSAGE_TIMEOUT"
+  },
+  {
+   "k": "12modvb",
+   "en": "Timeout for timed message"
+  },
+  {
+   "k": "1qyar0y",
+   "en": "MINIMAP_PING_DURATION"
+  },
+  {
+   "k": "xx60by",
+   "en": "timeout for pings"
+  },
+  {
+   "k": "1n42e6l",
+   "en": "MINIMAP_PING_SPEEDUP_ON_SCREEN"
+  },
+  {
+   "k": "5sibc1",
+   "en": "speed up for timeout if ping is visible on screen"
+  },
+  {
+   "k": "zi5p1k",
+   "en": "MINIMAP_PING_DELAY_BETWEEN_PINGS"
+  },
+  {
+   "k": "55yw7j",
+   "en": "delay between consecative pings"
+  },
+  {
+   "k": "d5q0zb",
+   "en": "DRAG_AND_DROP_SCROLLING_SENSITIVITY"
+  },
+  {
+   "k": "1p1vy33",
+   "en": "Speed multiplier for components scrolling while drag'n dropping elements"
+  },
+  {
+   "k": "cxwtrf",
+   "en": "GRIDBOX_ELEMENTS_INTERPOLATION_SPEED"
+  },
+  {
+   "k": "1ykakca",
+   "en": "A value used to determine how fast the elements within the gridbox are interpolating while drag'n dropping."
+  },
+  {
+   "k": "hm3dt8",
+   "en": "ARMY_GROUP_PORTRAIT_SPACING"
+  },
+  {
+   "k": "11h5oog",
+   "en": "Extra space added between portraits of different army groups"
+  },
+  {
+   "k": "acgaaq",
+   "en": "ARMY_GROUP_FIRST_MEMBER_SPACING"
+  },
+  {
+   "k": "2eamuo",
+   "en": "Extra spacing between the army group portrait and the first member of the army group"
+  },
+  {
+   "k": "1fbflsh",
+   "en": "ARMY_GROUP_COLLAPSE_EXTRA_SPACING"
+  },
+  {
+   "k": "1l9w369",
+   "en": "Extra spacing between the army group portrait when army group is collapsed"
+  },
+  {
+   "k": "wcqvfb",
+   "en": "ARMY_LIST_BOTTOM_PADDING"
+  },
+  {
+   "k": "wfjj4l",
+   "en": "Bottom padding for army list on left"
+  },
+  {
+   "k": "1c95sqk",
+   "en": "ARMY_LIST_BOTTOM_PADDING_WITH_EXPEDITIONARIES"
+  },
+  {
+   "k": "13wytu6",
+   "en": "Bottom padding for army list on left when expeditionaries are open"
+  },
+  {
+   "k": "1t2223m",
+   "en": "MILITARY_FACTORIES_SCALE"
+  },
+  {
+   "k": "o727jt",
+   "en": "FLEET_BOTTOM_BAR_HEIGHT"
+  },
+  {
+   "k": "24i8ua",
+   "en": "Height of the list of fleet at the bottom of the screen"
+  },
+  {
+   "k": "1ij12m",
+   "en": "FLEET_BOTTOM_BAR_PADDING_RIGHT"
+  },
+  {
+   "k": "kf2pq6",
+   "en": "Width of the Rhs panel at the bottom of the screen where map mode are selected"
+  },
+  {
+   "k": "14yiefl",
+   "en": "PICKED_UP_NAVY_OFFSET_X"
+  },
+  {
+   "k": "cwl5jp",
+   "en": "Amount of pixels to shift the picked up navy window on the x axis"
+  },
+  {
+   "k": "14oisqm",
+   "en": "PICKED_UP_NAVY_OFFSET_Y"
+  },
+  {
+   "k": "1xj2b8c",
+   "en": "Amount of pixels to shift the picked up navy window on the y axis"
+  },
+  {
+   "k": "chvoob",
+   "en": "TASK_FORCE_ENTRY_OFFSET_Y"
+  },
+  {
+   "k": "2bj3mw",
+   "en": "Adjust the position of a task force entry. Added to the height of the background image."
+  },
+  {
+   "k": "epd6o",
+   "en": "TASK_FORCE_COMPOSITION_EDITOR_PADDING_TO_NAVIES_VIEW"
+  },
+  {
+   "k": "usaaek",
+   "en": "Padding on the x axis between the navies view and the task force composition editor window"
+  },
+  {
+   "k": "1o52pn4",
+   "en": "FUEL_STOCKPILE_DURATION_MAX"
+  },
+  {
+   "k": "8xixmc",
+   "en": "our max for stockpile duration display"
+  },
+  {
+   "k": "t7cjsh",
+   "en": "SHIP_REFIT_TOOLTIP_MAX_DIFF_LINES"
+  },
+  {
+   "k": "zscfie",
+   "en": "Maximum number of lines to show in the tooltip describing stat differences from all the source equipment variants to the target being considered."
+  },
+  {
+   "k": "1aryxof",
+   "en": "DEFAULT_TASKFORCE_ICON"
+  },
+  {
+   "k": "g5zel7",
+   "en": "newly created taskforces will use this icon"
+  },
+  {
+   "k": "1922857",
+   "en": "DEFAULT_FLEET_ICON"
+  },
+  {
+   "k": "12wpinb",
+   "en": "newly created fleets will use this icon"
+  },
+  {
+   "k": "a4s97h",
+   "en": "DEFAULT_NAVAL_EQUIPMENT_ROLE_ICON"
+  },
+  {
+   "k": "xpf99c",
+   "en": "newly created naval equipment variants will use this icon, if the AI equipment designs do not propose a better one."
+  },
+  {
+   "k": "1we6hgy",
+   "en": "FUEL_GRAPH_COLOR"
+  },
+  {
+   "k": "rjovx",
+   "en": "stockpile total consumption army consumption navy consumption air consumption other consumption produced"
+  },
+  {
+   "k": "i9syp9",
+   "en": "PRODUCTION_SHIP_FILTERS_ROLE_SELECTION_WINDOW_OFFSET_X"
+  },
+  {
+   "k": "o4jekk",
+   "en": "offset of the role icon selection window shown in the filters of ship design in the production tab"
+  },
+  {
+   "k": "hztd0a",
+   "en": "PRODUCTION_SHIP_FILTERS_ROLE_SELECTION_WINDOW_OFFSET_Y"
+  },
+  {
+   "k": "o0w2an",
+   "en": "SHIP_FUEL_EFFICIENCY_WARNING_THRESHOLD"
+  },
+  {
+   "k": "tjrl5c",
+   "en": "Fuel usage threshold above which a ship is considered fuel inefficient for always on missions"
+  },
+  {
+   "k": "kb9zj1",
+   "en": "NAVAL_STRIKE_FORCE_ATTACK_LIKELYHOOD_THR_VERY_LIKELY"
+  },
+  {
+   "k": "1cah5ay",
+   "en": "threshold above which to show that a strike force is \"very likely\" to engage an enemy"
+  },
+  {
+   "k": "1f07mbk",
+   "en": "NAVAL_STRIKE_FORCE_ATTACK_LIKELYHOOD_THR_LIKELY"
+  },
+  {
+   "k": "sdf4we",
+   "en": "same, for \"likely\""
+  },
+  {
+   "k": "1ckafyj",
+   "en": "NAVAL_STRIKE_FORCE_ATTACK_LIKELYHOOD_THR_UNLIKELY"
+  },
+  {
+   "k": "1k7i44j",
+   "en": "same, for \"unlikely\""
+  },
+  {
+   "k": "tridz7",
+   "en": "CONVOY_ESCORT_PRESENCE_WARNING_THRESHOLD"
+  },
+  {
+   "k": "vv7h6r",
+   "en": "Value for the Escort Presence below which a warning will be shown on the naval mission map icon"
+  },
+  {
+   "k": "kkjx7e",
+   "en": "MISSION_PATROL_SOFT_REQ_THRESHOLD_SURFACE_DETECTION"
+  },
+  {
+   "k": "e7ti2c",
+   "en": "Value below which the mission icon for the patrol mission is showing a warning"
+  },
+  {
+   "k": "1jmg45y",
+   "en": "MISSION_PATROL_SOFT_REQ_THRESHOLD_SPEED"
+  },
+  {
+   "k": "1xkux0y",
+   "en": "(kph) Same, but for Speed of the task force"
+  },
+  {
+   "k": "1prhx9b",
+   "en": "MISSION_PATROL_SOFT_REQ_THRESHOLD_SURFACE_VISIBILITY"
+  },
+  {
+   "k": "hm8nya",
+   "en": "Same, but for the surface visibility of the task force (lower means more fit for the mission for this one)"
+  },
+  {
+   "k": "1x0kqa8",
+   "en": "MISSION_CONVOY_ESCORT_SOFT_REQ_THRESHOLD_SUB_DETECTION"
+  },
+  {
+   "k": "y0kjio",
+   "en": "Same, for convoy escort"
+  },
+  {
+   "k": "oq0phe",
+   "en": "MISSION_CONVOY_ESCORT_SOFT_REQ_THRESHOLD_DEPTH_CHARGES_AVG"
+  },
+  {
+   "k": "1ef4mua",
+   "en": "Average of the stat Depth Charges in the task force"
+  },
+  {
+   "k": "6bcjup",
+   "en": "MISSION_CONVOY_ESCORT_SOFT_REQ_THRESHOLD_DEPTH_CHARGES_SUM"
+  },
+  {
+   "k": "w6xi5e",
+   "en": "Sum of the stat Depth Charges in the task force"
+  },
+  {
+   "k": "14231ye",
+   "en": "MISSION_NAVAL_INVASION_SUPPORT_SOFT_REQ_THRESHOLD_SHORE_BOMBARDMENT"
+  },
+  {
+   "k": "1ry4zho",
+   "en": "Same, for naval invasion. Sum of the stat Shore Bombardment in the task force"
+  },
+  {
+   "k": "1tk3zdr",
+   "en": "OPERATIVE_MISSION_EFFICIENCY_ANIMATION_TIME_MIN"
+  },
+  {
+   "k": "vnvzbm",
+   "en": "the minimum duration of a loop in seconds"
+  },
+  {
+   "k": "g5dhwx",
+   "en": "OPERATIVE_MISSION_EFFICIENCY_ANIMATION_TIME_MAX"
+  },
+  {
+   "k": "1rz23iw",
+   "en": "the maximum duration of a loop in seconds"
+  },
+  {
+   "k": "1uz5fp8",
+   "en": "OPERATIVE_COUNTER_INTELLIGENCE_DEFENSE_TO_EFFICIENCY_FACTOR"
+  }
+ ]
+}

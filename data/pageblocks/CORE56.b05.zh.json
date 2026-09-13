@@ -1,0 +1,33 @@
+{
+ "page": "Equipment modding",
+ "batch": "core56e",
+ "items": [
+  { "k": "1pxeom4", "zh": "在模块槽容器窗口内部，应列出更多容器窗口，对应于可安装在该模块槽中的各个模块。在这些窗口内，你可以包含 iconType 元素，或任何其他适合用于在该槽位的装备上显示相关模块的元素" },
+  { "k": "1x31dwr", "zh": "在这些针对某件特定装备的装备设计器窗口内，有一个名为「module_slots」的内部容器窗口。任何使用此设计器窗口的装备所可能拥有的每个模块槽，都应在其中拥有自己的容器窗口，并使用与该模块槽相同的名称。" },
+  { "k": "7uaqzz", "zh": "variant_name = { find_and_replace = { \"chassis\" \"equipment\" } } # 可选，通过取出本应作为本地化键使用的名称（即该类型的名称）并对其执行查找替换来设置 variant_name。例如：light_tank_aa_chassis_1 得到 variant_name light_tank_aa_equipment_1。" },
+  { "k": "95ovpp", "zh": "如前所述，新系统允许创建特殊类型的装备（例如反坦克坦克或防空坦克），要做到这一点，你需要一个允许该类型的模块，该类型必须存在于 script_enums 中，并且必须至少有一个营使用它。" },
+  { "k": "1pr7m1c", "zh": "所有新变体都必须存在于 script_enums 中，因此如果你复制一个装备原型并带有 5 个装备变体，你必须在 scripted_enums 中把全部变体都写明（例如 <equipment_archetype>_my_variant、<equipment_archetype>_my_variant_0、<equipment_archetype>_my_variant_1……）" },
+  { "k": "198s3bl", "zh": "装备位于⟦0⟧。装备分为两种类型：原型与常规。原型装备用于赋予更通用的属性，常规装备随后通过⟦1⟧属性继承这些属性。" },
+  { "k": "1soakz3", "zh": "在⟦0⟧⟦1⟧与⟦2⟧中加入的装备设计器，是用不同模块设计装备的界面，允许改变装备类型或仅为其添加额外属性。" },
+  { "k": "vhepny", "zh": "任何使用模块的装备都必须设置装备设计器；如果未提供装备设计器，它将改为使用升级系统/" },
+  { "k": "y6lnoc", "zh": "「equipment_designer_」EQUIPMENT_ARCHETYPE「_」COUNTRY_TAG - 用于为特定标签与特定装备原型指定装备设计器" },
+  { "k": "fe3sri", "zh": "「equipment_designer_」EQUIPMENT_TYPE「_」COUNTRY_TAG - 用于为特定标签与特定装备指定装备设计器" },
+  { "k": "2hcn95", "zh": "游戏中的装备设计器可在 interface/equipmentdesigner/type 中找到，其中 type 为 tanks/ships/planes。⟦0⟧" },
+  { "k": "1he1q1", "zh": "请注意默认⟦0⟧为 4，因此当你希望装备提供默认⟦1⟧时无需包含它" },
+  { "k": "13x42lf", "zh": "「equipment_designer_」EQUIPMENT_ARCHETYPE - 用于为装备原型指定装备设计器" },
+  { "k": "16wsybr", "zh": "要把设计器连接到装备，你需要用以下 4 种类型之一来命名 containerWindowType：" },
+  { "k": "1llp4nb", "zh": "装备使用修正来决定它向其配属单位提供哪些属性。" },
+  { "k": "9o5ek2", "zh": "每件装备都必须在你的模组中⟦0⟧文件夹内的⟦1⟧文件中进行本地化。" },
+  { "k": "156uzyj", "zh": "以下列表是可用于装备（以及单位）的全部有效修正：" },
+  { "k": "1oiqng7", "zh": "「equipment_designer_」EQUIPMENT_TYPE - 用于为装备指定设计器" },
+  { "k": "1o6pu35", "zh": "文件名无关紧要。装备的链接方式不同。" },
+  { "k": "1ssy8yd", "zh": "针对特定国家的本地化，需以标签作为前缀：" },
+  { "k": "17r95id", "zh": "要创建装备变体，你需要使用以下代码：" },
+  { "k": "1ureq9", "zh": "通常一件装备会包含以下内容：" },
+  { "k": "r7k2h9", "zh": "原型装备遵循以下格式：" },
+  { "k": "18rirnm", "zh": "常规装备遵循以下格式：" },
+  { "k": "1hpbags", "zh": "界面分类" },
+  { "k": "3qh5pd", "zh": "内部类型" },
+  { "k": "ocgot4", "zh": "分组类型" }
+ ]
+}

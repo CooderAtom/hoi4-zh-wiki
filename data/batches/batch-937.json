@@ -1,0 +1,881 @@
+{
+ "batch": 937,
+ "pages": [
+  "Modding"
+ ],
+ "chars": 14968,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "lmcbqq",
+   "en": "For example, ⟦0⟧ will ensure that no state files from the base game or the user directory will be loaded when the game is launched with the mod. This can be used within major map overhauls to ensure that no base game contents will be read with unexpected results. Since the user directory is earlier in the load order than the mod files, this will also seemingly prevent the ⟦1⟧ from having any impact on the states, however the files will still be outputted in the folder even if immediately unloaded upon saving.",
+   "frags": 2
+  },
+  {
+   "k": "66qul5",
+   "en": "replace_path = \"history/states\""
+  },
+  {
+   "k": "pui2ou",
+   "en": "Nudger"
+  },
+  {
+   "k": "iizk1r",
+   "en": "Since this only unloads indexed files, a direct link to a file will not change regardless of the replace_path being present. For example, ⟦0⟧ will not change anything, since the files in that folder aren't checked during the main menu loading but rather get loaded with a direct link to the filename, such as ⟦1⟧ in ⟦2⟧. Similarly, a ⟦3⟧ will not change anything since the country-identifying flags are only loaded when the country changes the ruling ideology group. This is particularly obvious with the loading screens: ⟦4⟧ will prevent any base game or DLC loading screen from appearing during the loading, however the main menu background will remain the same as if the replace_path wasn't present. This is since the main menu background is defined as a sprite with a direct link to the image, by default in ⟦5⟧.",
+   "frags": 6
+  },
+  {
+   "k": "1ohyu2o",
+   "en": "replace_path = \"history/units\""
+  },
+  {
+   "k": "ll41cg",
+   "en": "the country history file"
+  },
+  {
+   "k": "9v68f1",
+   "en": "replace_path = \"gfx/flags\""
+  },
+  {
+   "k": "12kx8wb",
+   "en": "replace_path = \"gfx/loadingscreens\""
+  },
+  {
+   "k": "qggjco",
+   "en": "/Hearts of Iron IV/interface/frontendmainviewbg.gfx"
+  },
+  {
+   "k": "1ap776p",
+   "en": "⟦0⟧: leaving it out from the mod-specific descriptor will cause the launcher to remove it from the user-specific one, while leaving it out from the user-specific descriptor will cause it to not take effect instead of being copied from the mod-specific descriptor as most other attributes do. ⟦1⟧. In some folders, the game isn't built for there being no database entries, such as ⟦2⟧, resulting in a crash; in others, such as ⟦3⟧, there are several usages for entries besides the obvious, which can cause unintuitive errors such as the resistance system being triggered when unintended. Therefore, the ⟦4⟧ attribute shouldn't be used recklessly: there should always be at least one file with content within the replaced folder in the mod files, and the base game's contents in the folder should be checked manually to see if anything useful is better left as remaining in the mod.",
+   "frags": 5
+  },
+  {
+   "k": "1f9pjtb",
+   "en": "This option must be added to both .mod files"
+  },
+  {
+   "k": "vy7abd",
+   "en": "This commonly causes game crashes and unintuitive errors if used recklessly"
+  },
+  {
+   "k": "26f65v",
+   "en": "national focuses"
+  },
+  {
+   "k": "8snz6k",
+   "en": "Scripted triggers"
+  },
+  {
+   "k": "hfp1b9",
+   "en": "Game data"
+  },
+  {
+   "k": "137raq8",
+   "en": "⟦0⟧, useful for debugging mods.",
+   "frags": 1
+  },
+  {
+   "k": "1uzifys",
+   "en": "Console commands"
+  },
+  {
+   "k": "w5v0eh",
+   "en": "⟦0⟧, ⟦1⟧, and ⟦2⟧ used for scripting.",
+   "frags": 3
+  },
+  {
+   "k": "1ttwk50",
+   "en": "⟦0⟧, used to influence calculations made by the game.",
+   "frags": 1
+  },
+  {
+   "k": "m4zvko",
+   "en": "⟦0⟧, used for the text shown to the player depending on the currently-enabled language.",
+   "frags": 1
+  },
+  {
+   "k": "1ucdscr",
+   "en": "⟦0⟧ for creating sprites, used for nearly every 2-dimension image that may appear in-game.",
+   "frags": 1
+  },
+  {
+   "k": "1igush6",
+   "en": "Graphical asset modding"
+  },
+  {
+   "k": "wqaii6",
+   "en": "⟦0⟧, which allow to change constants used in some of the hard-coded calculations, such as the starting date or the necessary amount of victory points to show a specific icon over the province. Static modifiers also include modifiers applied in hard-coded cases, such as non-core state malus or the political power cost when a national focus is selected.",
+   "frags": 1
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "xfk0kh",
+   "en": "⟦0⟧ also include modifiers applied in hard-coded cases, such as non-core state malus or the political power cost when a ⟦1⟧ is selected.",
+   "frags": 2
+  },
+  {
+   "k": "o27g7p",
+   "en": "Static modifiers"
+  },
+  {
+   "k": "106vgj",
+   "en": "national focus"
+  },
+  {
+   "k": "1wrtzr2",
+   "en": "Tools & utilities"
+  },
+  {
+   "k": "1g0npnw",
+   "en": "Official Paradox Forum for mods"
+  },
+  {
+   "k": "suxh5k",
+   "en": "Maya exporter - Clausewitz Maya Exporter to create your own 3D models."
+  },
+  {
+   "k": "4jsbk1",
+   "en": "Steam Workshop - The place where you can share your creations with other players."
+  },
+  {
+   "k": "1qknwjp",
+   "en": "Common mistakes"
+  },
+  {
+   "k": "1szp6er",
+   "en": "⟦0⟧ (⟦1⟧) – This commonly happens when subscribing to one's own mod on Steam Workshop. If there are two mods with the same name that may be selected from the launcher, only the one that is loaded earlier will have its files detected; the other mod will appear as changing nothing in-game. This is corrected by changing the ⟦2⟧ attribute in the descriptors of either one of the mods.",
+   "frags": 3
+  },
+  {
+   "k": "3twa5c",
+   "en": "Multiple mods with the same name in the launcher"
+  },
+  {
+   "k": "14hxjqx",
+   "en": "Mod fails to load"
+  },
+  {
+   "k": "1wa6b52",
+   "en": "Generally, there is no reason to subscribe to your own mod in the Steam Workshop: it will almost never function any differently from the local mod and this may also occassionally break updating the mod due to duplicate ⟦0⟧ attributes in different mods.",
+   "frags": 1
+  },
+  {
+   "k": "eykbrh",
+   "en": "⟦0⟧ (⟦1⟧) – In this case, the needed file to adjust is ⟦2⟧'s ⟦3⟧, opened directly within a text editor. There are two primary variations on this issue:",
+   "frags": 4
+  },
+  {
+   "k": "ltcli9",
+   "en": "Wrong path"
+  },
+  {
+   "k": "1ac2whk",
+   "en": "replace_paths apply, yet the mod doesn't get loaded"
+  },
+  {
+   "k": "1nw4n11",
+   "en": "Incorrect path – This is commonly the cause if the game displays the filesize of the mod, but doesn't load it. The mod doesn't route to the file directly. This can sometimes be a cause of further subfoldering, such as if the mod is located in mod/my_mod/cool_mod, yet the user-specific .mod file contains path = \"mod/my_mod\". In this case, the files still exist and get loaded. However, the game, for example, expects focus trees in the /Hearts of Iron IV/common/national_focus/ folder. mod/my_mod/cool_mod/common/national_focus/ gets taken to be /Hearts of Iron IV/cool_mod/common/national_focus/ instead, as path = \"mod/my_mod\" doesn't knock off the /cool_mod/ folder. This is corrected simply by adjusting the path to be to the correct folder. Invalid path – The intended folder is correct, yet it's stated in a way that the game can't recognise. One of the ways of doing so is using backslashes for folder separations, such as path = \"mod\\my_mod\". This is incorrect, as a single backlash gets taken to be an escape character instead. Using forward slashes as in path = \"mod/my_mod\" is correct. Another way of doing so is using special characters in the name, such as path = \"C:/Users/Пример кириллицы/Documents/Paradox Interactive/Hearts of Iron IV/mod/my_mod\". In this case, a special character is defined as one that takes more than 1 byte to write with UTF-8, not being present in ASCII's printable characters. This is commonly non-English language folder names, such as diacritics or non-Latin alphabets. In this case, it can be rerouted to a folder that does not contain special characters in the name, such as path = \"D:/Hearts of Iron IV modding/my_mod\". If the path to the user directory itself contains special characters, it's better to re-route the entire directory to another folder. To do so, edit the base game's /Hearts of Iron IV/launcher-settings.json file and change the folder specified under gameDataPath. After doing so, move the user directory's contents to that folder as to not lose save games and other information. The mod's path also needs to be adjusted properly. If the user directory has non-ASCII characters in the path to it, then all local mods stored there (as the default place to store them) will fail to be loaded and the in-game means will fail to open the error log, with a pop-up saying that the system cannot get access to the file. The default Steam installation folder has a path that will only have ASCII characters in it, making the Steam mods work as intended even if the user directory has non-ASCII characters in it."
+  },
+  {
+   "k": "12honss",
+   "en": "In case the launcher shows that the mod has an invalid path even after correcting the issue, make sure that the user-specific mod descriptor file directly within the user directory's ⟦0⟧ exists and try forcing an update of mod information by deleting the ⟦1⟧, located at either ⟦2⟧ or ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "43uqol",
+   "en": "⟦0⟧ (⟦1⟧) – If a mod is intended to be a sub-mod to a larger mod or several, it is, in most cases, mandatory to include ⟦2⟧, which will place it higher in the load order. In this case, the name of the mod must be the exact same as in the .mod file of the mod, also showing up in the launcher. This can include special characters (e.g. ⟦3⟧ in the main mod will require ⟦4⟧ in the sub-mod with an en dash rather than a hyphen). For this reason, it's preferable to copy over the name from the .mod file of the main mod rather than manually retyping it from the launcher: some special charactes may be difficult to notice or to distinguish from other characters.",
+   "frags": 5
+  },
+  {
+   "k": "1xiwqdg",
+   "en": "Incorrect dependency name"
+  },
+  {
+   "k": "16q430d",
+   "en": "Mod fails to loaded when enabled with the main mod"
+  },
+  {
+   "k": "1i5fgz2",
+   "en": "dependencies = { \"Main mod 1\" \"Main mod 2\" }"
+  },
+  {
+   "k": "1jjs2n1",
+   "en": "name = \"Main mod – Subtitle\""
+  },
+  {
+   "k": "1ff424",
+   "en": "dependencies = { \"Main mod — Subtitle\" }"
+  },
+  {
+   "k": "p48xa1",
+   "en": "⟦0⟧ (⟦1⟧) – The game keeps the mod's ⟦2⟧ file as the information for the mod in general and ⟦3⟧ as the information for the mod that gets read for the machine. While the launcher typically attempts to keep the machine-specific file up to date with the general mod information file, it sometimes fails to do so, such as for replace_paths where it succeeds at deleting unneeded entries but not at copying needed ones. In this case, both files must be edited manually for a replace_path to apply. This also may be needed for other entries in the file.",
+   "frags": 4
+  },
+  {
+   "k": "17esepj",
+   "en": "Not copying over mod information entries"
+  },
+  {
+   "k": "qg72hl",
+   "en": "Entries such as replace_path fail to apply"
+  },
+  {
+   "k": "qmc5wu",
+   "en": "modname/descriptor.mod"
+  },
+  {
+   "k": "1do0lck",
+   "en": "⟦0⟧ (⟦1⟧) – In this case, \"similar\" is defined as a pair of files within the same folder that have names made up of different characters, but would be considered as having the same name with case-insensitive checking, such as ⟦2⟧ and ⟦3⟧. If the mod files contain a file that has a similar name to a base game file, the mod file will get loaded twice. Adjusting the filename to be the exact same as the base game file or entirely distinct will fix this issue. ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "7pem15",
+   "en": "Files with similar names"
+  },
+  {
+   "k": "kkykp",
+   "en": "File gets loaded twice"
+  },
+  {
+   "k": "1lyhqrv",
+   "en": "/Hearts of Iron IV/events/Generic.txt"
+  },
+  {
+   "k": "w8bgej",
+   "en": "/Hearts of Iron IV/events/GENERIC.txt"
+  },
+  {
+   "k": "8oolc3",
+   "en": "This applies even if the folder that the base game file is in is unloaded with replace_path"
+  },
+  {
+   "k": "1c5sgj8",
+   "en": "⟦0⟧ (⟦1⟧) – If, while interpreting a file, the game encounters a closing bracket that doesn't match up with any other opening bracket, the file will stop interpretation prematurely at the point of the closing bracket. This will lead to nothing else after that closing bracket being executed. This is most commonly an issue in files that do not force a root-level block, such as ⟦2⟧, as a single extra closing bracket there will usually be enough to instantly end interpretation, instead of creating unexpected token entries in ⟦3⟧ until the end of the file.",
+   "frags": 4
+  },
+  {
+   "k": "5kshl2",
+   "en": "Extra closing bracket"
+  },
+  {
+   "k": "hs50ys",
+   "en": "File stops being executed prematurely"
+  },
+  {
+   "k": "18lvi9z",
+   "en": "/Hearts of Iron IV/history/countries"
+  },
+  {
+   "k": "f891hv",
+   "en": "Useful knowledge"
+  },
+  {
+   "k": "1a7t0i6",
+   "en": "Large English-speaking modding communities include the HOI4 Modding Coop and the HOI4 Modding Den, which can be joined on Discord. It's useful to join one or multiple of them, as they contain links to modding resources and you can ask questions regarding modding in them."
+  },
+  {
+   "k": "1exl6jz",
+   "en": "⟦0⟧, located within the user directory also containing the ⟦1⟧ folder, can be changed to change the game uses to open files from Microsoft Notepad, if the path to the editor is correct. Here are examples with 2 of frequently used text editors:",
+   "frags": 2
+  },
+  {
+   "k": "6g1m1q",
+   "en": "settings.txt"
+  },
+  {
+   "k": "1q1o0oz",
+   "en": "mod"
+  },
+  {
+   "k": "100lpyn",
+   "en": "See also"
+  },
+  {
+   "k": "pw0jjk",
+   "en": "Mods"
+  },
+  {
+   "k": "1ktozxa",
+   "en": "Getting started with modding forum: 995985"
+  },
+  {
+   "k": "rj0ens",
+   "en": "How to create a new ship unit in Man the Guns forum: 1157324"
+  },
+  {
+   "k": "3qho08",
+   "en": "How to add a new unit - Checklist forum: 947435"
+  },
+  {
+   "k": "4f76ga",
+   "en": "Notes"
+  },
+  {
+   "k": "6q72wr",
+   "en": "⟦0⟧ ⟦1⟧ Setting an empty file to overwrite a file is generally identical to unloading it in practice, since the game usually uses neither division into multiple files nor the filename of files for how it gets interpreted. This only applies to text files and not images such as loading screens. ⟦2⟧ ⟦3⟧ These exceptions that may reasonably be changed within a mod are the following:",
+   "frags": 4
+  },
+  {
+   "k": "jghmdb",
+   "en": "⟦0⟧ and its subfolders, where the name must follow a strict formatting in order to be automatically loaded for a country.",
+   "frags": 1
+  },
+  {
+   "k": "ivh5ni",
+   "en": "⟦0⟧, where the first 3 letters assign it to a country.",
+   "frags": 1
+  },
+  {
+   "k": "1pz8d6z",
+   "en": ".txt files directly inside of ⟦0⟧ (Most importantly achievements.txt, combat_tactics.txt, and graphicalculturetype.txt)",
+   "frags": 1
+  },
+  {
+   "k": "yvcvii",
+   "en": "⟦0⟧ and ⟦1⟧ must remain with the same name. The rest are directly linked to in ⟦2⟧ files.",
+   "frags": 3
+  },
+  {
+   "k": "bfafyt",
+   "en": "/Hearts of Iron IV/common/countries/colors.txt"
+  },
+  {
+   "k": "u8g9wi",
+   "en": "/Hearts of Iron IV/common/countries/cosmetic.txt"
+  },
+  {
+   "k": "1a225so",
+   "en": "A variety of items within gfx such as ⟦0⟧ or ⟦1⟧. This does not include ⟦2⟧ (every file within there is loaded regardless of filename) or most font/image files (as they're loaded by a link within a different file).",
+   "frags": 3
+  },
+  {
+   "k": "atxn6a",
+   "en": "/Hearts of Iron IV/gfx/maparrows/maparrow.txt"
+  },
+  {
+   "k": "ixw91b",
+   "en": "/Hearts of Iron IV/gfx/HOI4_icon.bmp"
+  },
+  {
+   "k": "kaop6j",
+   "en": "Files within the ⟦0⟧ and ⟦1⟧ folders, with the exception of ⟦2⟧ and those defined within ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "7gc2un",
+   "en": "/Hearts of Iron IV/map/terrain/"
+  },
+  {
+   "k": "m1m006",
+   "en": "/Hearts of Iron IV/map/strategicregions"
+  },
+  {
+   "k": "1ric6i3",
+   "en": "/Hearts of Iron IV/default.map"
+  },
+  {
+   "k": "12nj83z",
+   "en": "⟦0⟧ ⟦1⟧ The only exception that gets treated as a regular error is ⟦2⟧, caused by the palette in the file having a non-zero amount of colours, typically a product of saving over it in GIMP. Unlike other entries in error.log marked with MAP_ERROR, this allows the game to be opened without the debug mode and doesn't place a warning when trying to go into singleplayer. ⟦3⟧ ⟦4⟧ In ⟦5⟧ and only them, the order of modifiers in the tooltip isn't hard-coded. Instead, the game places them in the same order that they were written in the code of the dynamic modifier. However, the order of modifiers inside of dynamic modifiers cannot result in any difference in how they will get interpreted. ⟦6⟧ ⟦7⟧ In rare cases, there is no image set to be placeholder, making it so that using a non-existing sprite also results in nothing appearing. An example of this happening is in ⟦8⟧, where specifying a non-existing sprite to represent a side will result in the side having no icon. This is particularly rare since there is a default fallback image of ⟦9⟧, showing the error dog in the base game.",
+   "frags": 10
+  },
+  {
+   "k": "uwgs4i",
+   "en": "MAP_ERROR: Palette in rivers.bmp is probably not correct"
+  },
+  {
+   "k": "1yt058c",
+   "en": "dynamic modifiers"
+  },
+  {
+   "k": "1773i64",
+   "en": "balances of power"
+  },
+  {
+   "k": "bzp9xq",
+   "en": "GFX_default"
+  },
+  {
+   "k": "59iejl",
+   "en": "Documentation"
+  },
+  {
+   "k": "bbbsh0",
+   "en": "List of modifiers"
+  },
+  {
+   "k": "22wvcr",
+   "en": "On actions"
+  },
+  {
+   "k": "10y68xx",
+   "en": "Data structures"
+  },
+  {
+   "k": "icm958",
+   "en": "Flags"
+  },
+  {
+   "k": "1fldcnt",
+   "en": "Event targets"
+  },
+  {
+   "k": "135tw29",
+   "en": "Country tag aliases"
+  },
+  {
+   "k": "xqivz6",
+   "en": "Variables"
+  },
+  {
+   "k": "14wbbvz",
+   "en": "Arrays"
+  },
+  {
+   "k": "wdu62e",
+   "en": "Scripting"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "475d63",
+   "en": "AI focuses"
+  },
+  {
+   "k": "gpz0z1",
+   "en": "Autonomous states"
+  },
+  {
+   "k": "a6cuzg",
+   "en": "Balances of power"
+  },
+  {
+   "k": "14khzdq",
+   "en": "Bookmarks/Scenarios"
+  },
+  {
+   "k": "xrnqxs",
+   "en": "Game rules"
+  },
+  {
+   "k": "1xa6gia",
+   "en": "Buildings"
+  },
+  {
+   "k": "8657g9",
+   "en": "Characters and traits"
+  },
+  {
+   "k": "o977ej",
+   "en": "Cosmetic tags"
+  },
+  {
+   "k": "8zhvfx",
+   "en": "Countries"
+  },
+  {
+   "k": "19eysrz",
+   "en": "Divisions"
+  },
+  {
+   "k": "vwifyo",
+   "en": "Decisions"
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "1xtq0ev",
+   "en": "Equipment"
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "e65ons",
+   "en": "Factions"
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "1cd8sst",
+   "en": "Ideologies"
+  },
+  {
+   "k": "1oopcvp",
+   "en": "Military industrial organizations"
+  },
+  {
+   "k": "k2esk3",
+   "en": "National focuses"
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "uu0bc4",
+   "en": "Scripted GUI"
+  },
+  {
+   "k": "1jzxqx9",
+   "en": "Technologies and doctrines"
+  },
+  {
+   "k": "ur18vw",
+   "en": "Units"
+  },
+  {
+   "k": "j1sac1",
+   "en": "Map"
+  },
+  {
+   "k": "5afzz",
+   "en": "States"
+  },
+  {
+   "k": "8ppvas",
+   "en": "Supply areas"
+  },
+  {
+   "k": "1v2pifw",
+   "en": "Strategic regions"
+  },
+  {
+   "k": "1cffeuu",
+   "en": "Graphical"
+  },
+  {
+   "k": "yolbkg",
+   "en": "Interface"
+  },
+  {
+   "k": "2hqnqn",
+   "en": "Graphical assets"
+  },
+  {
+   "k": "6px9my",
+   "en": "Entities"
+  },
+  {
+   "k": "1n1sxcz",
+   "en": "Posteffects"
+  },
+  {
+   "k": "1fu6htw",
+   "en": "Particles"
+  },
+  {
+   "k": "t16z95",
+   "en": "Fonts"
+  },
+  {
+   "k": "1ig52hy",
+   "en": "Cosmetic"
+  },
+  {
+   "k": "9k7pgr",
+   "en": "Portraits"
+  },
+  {
+   "k": "65pf3n",
+   "en": "Namelists"
+  },
+  {
+   "k": "ohwdis",
+   "en": "Music"
+  },
+  {
+   "k": "1dvvwok",
+   "en": "Sound"
+  },
+  {
+   "k": "ukzedx",
+   "en": "Other"
+  },
+  {
+   "k": "1t5bxxt",
+   "en": "Troubleshooting"
+  },
+  {
+   "k": "1hyf67b",
+   "en": "Game"
+  },
+  {
+   "k": "u1k6p6",
+   "en": "Features"
+  },
+  {
+   "k": "qteedx",
+   "en": "Ironman"
+  },
+  {
+   "k": "cvepmw",
+   "en": "Guides"
+  },
+  {
+   "k": "bdm93l",
+   "en": "Beginner's guide"
+  },
+  {
+   "k": "1khciow",
+   "en": "Hotkeys"
+  },
+  {
+   "k": "1h8mxql",
+   "en": "Map modes"
+  },
+  {
+   "k": "6q2ked",
+   "en": "Tutorial videos"
+  },
+  {
+   "k": "lshcot",
+   "en": "User interface"
+  },
+  {
+   "k": "190d1fu",
+   "en": "Development"
+  },
+  {
+   "k": "sz859i",
+   "en": "Developer diaries"
+  },
+  {
+   "k": "5umivg",
+   "en": "Downloadable content"
+  },
+  {
+   "k": "1r8wvbp",
+   "en": "Patches"
+  },
+  {
+   "k": "1n72qry",
+   "en": "Community"
+  },
+  {
+   "k": "uet7re",
+   "en": "Jargon"
+  },
+  {
+   "k": "1aucjp3",
+   "en": "Makes long lines get wrapped across multiple lines instead of requiring scrolling horizontally"
+  },
+  {
+   "k": "w9b10m",
+   "en": "Makes a minimized view of the document appear in the right edge, making scrolling easier but taking up some space"
+  },
+  {
+   "k": "pe1tnr",
+   "en": "Draws lines every 4 spaces or a single tab symbol making it easier to keep track of indentation. This makes missing brackets easier to see by default."
+  },
+  {
+   "k": "1u9800h",
+   "en": "Opens an entire folder within the editor as to be able to open files within more easily, without changing to the file explorer, as well as simplifying using the 'Find in files...' command to check every file within a folder without opening each one individually."
+  },
+  {
+   "k": "1wbrmws",
+   "en": "Installed via the \"Plugins\" → \"Plugins Admin..\" menu"
+  },
+  {
+   "k": "i7icrp",
+   "en": "Installed via the \"Preferences\" → \"Package Control\" → \"Install Package\" menu"
+  }
+ ]
+}

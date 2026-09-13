@@ -1,0 +1,918 @@
+{
+ "batch": 922,
+ "pages": [
+  "Patch 1.16.X"
+ ],
+ "chars": 14950,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "16bxuv2",
+   "en": "⟦0⟧ are all patches beginning with 1.16.",
+   "frags": 1
+  },
+  {
+   "k": "1td9v4h",
+   "en": "Patch 1.16.X"
+  },
+  {
+   "k": "1gjbkum",
+   "en": "Main article: Patch 1.16"
+  },
+  {
+   "k": "p8py0p",
+   "en": "Patch 1.16.1, aka \"Operation HEAD\", was released on 2025-03-12⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1gcs9d6",
+   "en": "48b7"
+  },
+  {
+   "k": "kxxksr",
+   "en": "Balance"
+  },
+  {
+   "k": "1f3uu89",
+   "en": "Increased the artillery required for Elephantry reduced its base soft attack by 20% reduced breakthrough by 20% reduced manpower requirement by 10% increased supply consumption by 25%"
+  },
+  {
+   "k": "1rs0ikc",
+   "en": "reduced its base soft attack by 20%"
+  },
+  {
+   "k": "rof77t",
+   "en": "reduced breakthrough by 20%"
+  },
+  {
+   "k": "rk549y",
+   "en": "reduced manpower requirement by 10%"
+  },
+  {
+   "k": "151vnvy",
+   "en": "increased supply consumption by 25%"
+  },
+  {
+   "k": "1gitxwf",
+   "en": "India Train Robberies now reduce railway/hub/infra by 2% (was 3%) for each railway focus completed Train Robberies now reduce weekly stability by 0.1% (was 0.3%)"
+  },
+  {
+   "k": "1nyikjg",
+   "en": "Train Robberies now reduce railway/hub/infra by 2% (was 3%) for each railway focus completed"
+  },
+  {
+   "k": "ri17st",
+   "en": "Train Robberies now reduce weekly stability by 0.1% (was 0.3%)"
+  },
+  {
+   "k": "jovwsm",
+   "en": "Iran: The Immortal Legion now has a much larger starting template"
+  },
+  {
+   "k": "1dsla73",
+   "en": "India: The national spirit “Anti-Imperialist Zeal” now gives 8% defense bonus against the USA (up from 0.8%)"
+  },
+  {
+   "k": "1aes9w5",
+   "en": "Gameplay"
+  },
+  {
+   "k": "5cjoze",
+   "en": "Added an event chain for Syria and Lebanon that allows them to side with Vichy/Free France or declare independence when Paris falls"
+  },
+  {
+   "k": "osqp73",
+   "en": "Added additional animation variants for elephantry"
+  },
+  {
+   "k": "lw8c3k",
+   "en": "Generic elephantry now uses the generic infantry model"
+  },
+  {
+   "k": "14702ml",
+   "en": "Iraq: More models can be selected for artillery and anti-tank battalions in the division designer"
+  },
+  {
+   "k": "y046kz",
+   "en": "India: Added better tooltip to train robberies"
+  },
+  {
+   "k": "14clsn2",
+   "en": "India: Famine now only requires you to lose a starting Indian State (excluding Aden) with 30 days to retake it"
+  },
+  {
+   "k": "44cun2",
+   "en": "India: Improved Famine description"
+  },
+  {
+   "k": "c21z9e",
+   "en": "India: The focus “Threaten the Princes” now gives 10% communist support"
+  },
+  {
+   "k": "9m30fv",
+   "en": "Modding"
+  },
+  {
+   "k": "12twisk",
+   "en": "Added \"count\" functionality for all any_object triggers. It will evaluate true if at least \"count\" items fulfill the child triggers. The count field will support scoped variables"
+  },
+  {
+   "k": "xfilws",
+   "en": "Bugfixes"
+  },
+  {
+   "k": "devvu7",
+   "en": "India: The Mughal Influence state modifier will now be removed if no longer owned by the Mughal Empire or India"
+  },
+  {
+   "k": "ruh1gi",
+   "en": "India: The Mughal Uprising now changes the name of political parties rather than keeping the Indian ones"
+  },
+  {
+   "k": "164ra4r",
+   "en": "India: The British Raj no longer loses certain spirits after separating from the East India Company or Princely Breakaway States"
+  },
+  {
+   "k": "z2a6rm",
+   "en": "India: \"Parkash Singh\"s trait \"Brave\" is no longer missing a title and description"
+  },
+  {
+   "k": "11bg7yw",
+   "en": "India: The \"Conquer Afghanistan\" focus no longer attempts to give a special forces doctrine discount when you do not have AAT"
+  },
+  {
+   "k": "9ur71y",
+   "en": "India: The \"Frontier Corps\" focus no longer gives a special forces doctrine reward if you are missing AAT"
+  },
+  {
+   "k": "8x7etf",
+   "en": "India: The \"Nothing Personal\" focus will now bypass if unavailable"
+  },
+  {
+   "k": "bzhxzn",
+   "en": "India: Forward Bloc now removes the occupation law No Garrison until independence is achieved through the focus Give Me Blood And I Will Grant You Freedom"
+  },
+  {
+   "k": "1yb3a6e",
+   "en": "India: The game rule to make India go down the historical path will no longer block achievements"
+  },
+  {
+   "k": "7bs0na",
+   "en": "India: Independence unrest events no longer continue to appear after declaring independence in India's fascist path"
+  },
+  {
+   "k": "yhrzpy",
+   "en": "India: East India Railways will no longer bypass automatically when GoE is missing"
+  },
+  {
+   "k": "1pvcz9d",
+   "en": "India: The Ahadi Division template given by The Mughal Uprising can now be edited"
+  },
+  {
+   "k": "2gx3un",
+   "en": "India: Famine should now longer trigger if a country spawns in the affected area"
+  },
+  {
+   "k": "177h9kz",
+   "en": "India: The ruling party of the Mughal Empire and British Raj are no longer flipped (Mughals getting GB and RAJ getting Mughal Court) after starting the civil war"
+  },
+  {
+   "k": "1ryfe64",
+   "en": "India: Aden no longer gets returned to the Raj after the Mughal Uprising if it was previously handed over to the United Kingdom"
+  },
+  {
+   "k": "o30pn1",
+   "en": "India: Fixed a bug where a blank EIC focus was appearing in the focus tree upon formation"
+  },
+  {
+   "k": "13eutlq",
+   "en": "India: Numerous national focuses have been updated with filter tags"
+  },
+  {
+   "k": "ay686r",
+   "en": "India: The focus Royal Indian Navy Mutiny no longer requires independence"
+  },
+  {
+   "k": "1a7brzo",
+   "en": "India: Fixed a broken bypass condition for the focus Pledge for the Allies"
+  },
+  {
+   "k": "aay9jx",
+   "en": "Iraq: Nuri As Said no longer has a placeholder portrait when missing GOE"
+  },
+  {
+   "k": "33lzi5",
+   "en": "Iraq: The event from Propose Syrian Unification no longer gives the wrong war goal"
+  },
+  {
+   "k": "2ilfny",
+   "en": "Iraq: Restoration of Hejaz focus now grants cores on the targeted states, instead of claims"
+  },
+  {
+   "k": "18uzl2z",
+   "en": "Iran/Soviet Union: Fixed a bug in which the Soviets could not puppet Iran if they chose to justify without the focus"
+  },
+  {
+   "k": "egebpb",
+   "en": "Iran: Join allies focuses can now be appropriately bypassed"
+  },
+  {
+   "k": "1e99vnj",
+   "en": "Iran: Changed the Memphis Initiative to include any state in the Middle East"
+  },
+  {
+   "k": "1t7njca",
+   "en": "Iran: Fixed a bug where Iran started with Treaty of Saadabad in 1939, where it should not have"
+  },
+  {
+   "k": "1slxle5",
+   "en": "Iran: Fixed a bug where Opposition to the Shah decisions still appeared after a peaceful takeover"
+  },
+  {
+   "k": "1k8iqv2",
+   "en": "Iran: Allowed Organize Protests or Establish Local Opposition Groups to be bypassed if any of the focuses starting a civil war are taken"
+  },
+  {
+   "k": "ym8n20",
+   "en": "Iran: Jafar Kavian and Ghulam Yahya Daneshian are now gated behind the Communist focus branch"
+  },
+  {
+   "k": "mcbkg",
+   "en": "Iran: Fixed a bug where the Islamic Revolution leader would not become country leader if a civil war was started in the \"Strengthen Iranian Parliament\" focus"
+  },
+  {
+   "k": "rxx9dg",
+   "en": "Iran: Fixed issue with two national spirits disappearing when communist civil war starts"
+  },
+  {
+   "k": "1e36u89",
+   "en": "Afghanistan: The \"Graveyard of Empires\" focus now works correctly if you have the Quami national spirit"
+  },
+  {
+   "k": "1nbdej6",
+   "en": "United Kingdom: Puppets breaking away from the UK when it goes fascist/communist should now function correctly"
+  },
+  {
+   "k": "z1exk7",
+   "en": "Arabia: Can no longer be formed by Kurdistan"
+  },
+  {
+   "k": "frvynt",
+   "en": "Arabia: Now correctly gains cores on new states"
+  },
+  {
+   "k": "xs80gx",
+   "en": "Localization Bugfixes"
+  },
+  {
+   "k": "10g4guk",
+   "en": "Issues with technical text being displayed in Russian localization should now be resolved"
+  },
+  {
+   "k": "1rvylht",
+   "en": "The East India Company Investment Schemes window is now functional when playing with Russian localization"
+  },
+  {
+   "k": "197dye3",
+   "en": "Typo: Masshad -> Mashhad"
+  },
+  {
+   "k": "nm71uu",
+   "en": "India: Fixed a typo in the description of the Risk of Famine national spirit, where \"loses\" is misspelled as \"looses\""
+  },
+  {
+   "k": "1pf5ton",
+   "en": "India: The Sideline the Conflict focus tooltip no longer displays a bugged name"
+  },
+  {
+   "k": "1tk6bwn",
+   "en": "India: Several technology bonuses now have a name"
+  },
+  {
+   "k": "1413dvz",
+   "en": "Art Bugfixes"
+  },
+  {
+   "k": "19tmh1l",
+   "en": "Fixed minor issue with Elephant animations"
+  },
+  {
+   "k": "qjn8sh",
+   "en": "Various 2D Icons updated"
+  },
+  {
+   "k": "v7q1g1",
+   "en": "Missing elephantry icons added"
+  },
+  {
+   "k": "yjb96v",
+   "en": "Changed animation_blend_time to zero between the animation stages for elephantry"
+  },
+  {
+   "k": "1bv2ygp",
+   "en": "Technical Bugfixes"
+  },
+  {
+   "k": "7qkn6i",
+   "en": "Fixed a bug where production was not recalculated when taking decisions. This fixes instances of bugs such as MEFO bills failing to update when they should"
+  },
+  {
+   "k": "c6dtv6",
+   "en": "Fixed a OOS due to portrait generation when host and client have different DLC configurations"
+  },
+  {
+   "k": "b1g1oe",
+   "en": "Fix a Windows CTD on startup when some specific utf-8 characters are in the installation path"
+  },
+  {
+   "k": "1x9bs58",
+   "en": "Fixed buffer overflow when rendering 2D elements"
+  },
+  {
+   "k": "2a8706",
+   "en": "Patch 1.16.2, aka \"Operation KNEE\", was released on 2025-03-20⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "rjccub",
+   "en": "225a"
+  },
+  {
+   "k": "1ax17fq",
+   "en": "Added a port to Rangoon, Aqaba and Latakia"
+  },
+  {
+   "k": "1hyie5h",
+   "en": "Added infrastructure and two civilian factories to states in Burma"
+  },
+  {
+   "k": "174iyis",
+   "en": "Added infrastructure to some states in Afghanistan"
+  },
+  {
+   "k": "17ls1er",
+   "en": "India \"Urge Violence against the British\"-decisions now cost 13pp (down from 20pp), reduces compliance by -10%, and increases resistance by 50% (from 35%) You now only need >25% more pressure than Pakistan/Bangladesh to win a princely state"
+  },
+  {
+   "k": "10i3yc",
+   "en": "\"Urge Violence against the British\"-decisions now cost 13pp (down from 20pp), reduces compliance by -10%, and increases resistance by 50% (from 35%)"
+  },
+  {
+   "k": "18rfwtp",
+   "en": "You now only need >25% more pressure than Pakistan/Bangladesh to win a princely state"
+  },
+  {
+   "k": "11zfg8z",
+   "en": "Iran: The focuses \"People's Revolutionary Airforce\" and \"People's Revolutionary Navy\" are no longer mutually exclusive"
+  },
+  {
+   "k": "crbkgf",
+   "en": "Tweaked Musamdam's population and lowered it to a more realistic figure"
+  },
+  {
+   "k": "zer94j",
+   "en": "Updated how air volunteers work. They now will always add the bonus from the modifier, making the intended behaviour of \"Legion Condor\" work as expected"
+  },
+  {
+   "k": "1wiank8",
+   "en": "Country leaders for new subject nations added in Graveyard of Empires, such as Palestine, Kuwait, Jordan, etc., now display their unique portraits even if Graveyard of Empires is disabled"
+  },
+  {
+   "k": "cmnocq",
+   "en": "India Gaining a princely state now gives a core on that state Princely states can now be cored in the communist path The focus \"Royal Indian Navy Mutiny\" now requires >50% communist support, rather than full independence The focus \"Threaten the Princes\" now gives 10% communist support"
+  },
+  {
+   "k": "bqn8yz",
+   "en": "Gaining a princely state now gives a core on that state"
+  },
+  {
+   "k": "1hlzcpf",
+   "en": "Princely states can now be cored in the communist path"
+  },
+  {
+   "k": "n62j32",
+   "en": "The focus \"Royal Indian Navy Mutiny\" now requires >50% communist support, rather than full independence"
+  },
+  {
+   "k": "l1241y",
+   "en": "The focus \"Threaten the Princes\" now gives 10% communist support"
+  },
+  {
+   "k": "159kopo",
+   "en": "India: the AI will now take the decision to become independent when it is available, if it is going down the communist path"
+  },
+  {
+   "k": "ifx6vf",
+   "en": "Added bypass_effect block to national focuses that runs when a focus is manually or automatically bypassed"
+  },
+  {
+   "k": "bj54wx",
+   "en": "Afghanistan"
+  },
+  {
+   "k": "yt3jtt",
+   "en": "Added missing search filters to the \"Against Kabul\"-branch"
+  },
+  {
+   "k": "ard0af",
+   "en": "Added missing tooltip information for the focus \"Qatgani Cavalry\""
+  },
+  {
+   "k": "2yx5ty",
+   "en": "Added several missing focus filters"
+  },
+  {
+   "k": "173t70b",
+   "en": "Fixed a bug where Afghanistan did not start the game with artillery researched if Graveyard of Empires was disabled"
+  },
+  {
+   "k": "16vemtw",
+   "en": "Fixed some instances where focuses would allow joining or creating factions while being a subject"
+  },
+  {
+   "k": "1rtcm1e",
+   "en": "Helmand Valley events will no longer fire for Afghanistan if they own all relevant states"
+  },
+  {
+   "k": "h68pc5",
+   "en": "The unique country flag for the Afghan-Pakistan Confederation is now displayed correctly"
+  },
+  {
+   "k": "xjg6d4",
+   "en": "The focus \"Prepare for Operation Countenance\" no longer creates a supply hub in Farah and Herat even if Afghanistan does not control them"
+  },
+  {
+   "k": "alybni",
+   "en": "Germany"
+  },
+  {
+   "k": "pjuos",
+   "en": "States added in Graveyard of Empires now get included in the formation of the appropriate German Reichskommissariats"
+  },
+  {
+   "k": "17rlrn0",
+   "en": "India"
+  },
+  {
+   "k": "1lb7yhz",
+   "en": "Added a bypass for the focus \"Annex Goa\""
+  },
+  {
+   "k": "1ak265z",
+   "en": "Added a bypass for the focus \"Crush The Anathema\""
+  },
+  {
+   "k": "sjri4h",
+   "en": "Decisions to claim Pakistan as Akhand Bharat can no longer be used to claim Bangladesh during the famine"
+  },
+  {
+   "k": "40qh14",
+   "en": "Divisions located in Burma will no longer be permanently exiled after the white peace triggers for the Mughal Uprising"
+  },
+  {
+   "k": "q5sd35",
+   "en": "Fixed a bug causing some nuclear raids to not delete military factories correcty with \"Bathe in Hellfire\" completed"
+  },
+  {
+   "k": "naht88",
+   "en": "Fixed a bug where the national spirit \"Neutral Foreign Policy\" was not properly removed from Pakistan and Bangladesh"
+  },
+  {
+   "k": "1r0tbw4",
+   "en": "Fixed an exploit where the East India Company could buy the world without paying"
+  },
+  {
+   "k": "1a63af8",
+   "en": "Fixed an incorrect tooltip in the partition mission"
+  },
+  {
+   "k": "145rfmi",
+   "en": "Fixed an instance where a fascist UK would automatically flip India to fascist"
+  },
+  {
+   "k": "1ikqk3k",
+   "en": "Fixed an instance where Freeman Freeman-Thomas would not lose his negative trait when Britain left India"
+  },
+  {
+   "k": "blqmsb",
+   "en": "Fixed an instance where the civil war started by the focus \"Give Me Blood And I Will Grant You Freedom\" would not end correctly"
+  },
+  {
+   "k": "1ob3ks7",
+   "en": "Fixed an issue where a princely state could be automatically annexed while at war with it"
+  },
+  {
+   "k": "r78j8u",
+   "en": "Fixed grammar issues and a typo in the tooltip and description of the focus \"Funnel investments into Princely States\""
+  },
+  {
+   "k": "16otlco",
+   "en": "Fixed missing and incorrect focus filters"
+  },
+  {
+   "k": "1pjugxg",
+   "en": "Fixed some instances where focuses would allow joining factions while being a subject"
+  },
+  {
+   "k": "5zouha",
+   "en": "Fixed the \"Agrarian Society\" national spirit sometimes not having an effect for India when the Princely Breakaway State or East India Company was created"
+  },
+  {
+   "k": "7jjln5",
+   "en": "Negative versions of the \"Marginalized Muslim Community\" national spirit is no longer retained by India after the split with Pakistan"
+  },
+  {
+   "k": "1jww9xg",
+   "en": "Removed cores from certain states when Graveyard of Empires is disabled"
+  },
+  {
+   "k": "1ypbdnr",
+   "en": "The achievement \"That's Sikh!\" is now obtainable"
+  },
+  {
+   "k": "qjpgpc",
+   "en": "The correct country name will now be used if \"India Fragmentation Status\" is set to \"British Raj Fragmented\" in game settings"
+  },
+  {
+   "k": "v26k76",
+   "en": "The focus \"Expand the Silk Road\" no longer builds a railway through the Soviet Union"
+  },
+  {
+   "k": "j7td6",
+   "en": "The focus \"Gurkhas\" no longer rewards an unusable Special Forces branch specialism when AAT is disabled"
+  },
+  {
+   "k": "ncx5q6",
+   "en": "The focus \"Headhunt Army Personnel\" now properly allows sending volunteers"
+  },
+  {
+   "k": "ahryd4",
+   "en": "The focus \"Institutional Money Laundering\" no longer grants a research bonus with no name"
+  },
+  {
+   "k": "ic7stq",
+   "en": "The focus \"Jaguar\" no longer allows two experimental facilities to exist in the same state"
+  },
+  {
+   "k": "e05ue2",
+   "en": "The focus \"Join the Shadow Scheme\" can no longer build factories in core states not owned by India"
+  },
+  {
+   "k": "1ocl41n",
+   "en": "The focus \"Punjab Autonomy\" no longer breaks when puppets control the states"
+  },
+  {
+   "k": "3ia7lq",
+   "en": "The focus \"Special Operations Executive\" no longer rewards an unusable cost reduction for paratroopers doctrine when AAT is disabled"
+  },
+  {
+   "k": "tclkfg",
+   "en": "The national spirit \"Aggression towards Princely States\" now grants -100% generate wargoal tension limit"
+  },
+  {
+   "k": "7f6es6",
+   "en": "The national spirit \"War Taxes\" can no longer be lowered when not at war, now resets after a war ends, and can no longer be exploited to go above the limit"
+  },
+  {
+   "k": "iht0bq",
+   "en": "The tooltips for the event options in the events \"Widespread protests\" and \"Religious Violence\" now display the correct compliance values"
+  },
+  {
+   "k": "1kjaqb9",
+   "en": "Iran"
+  },
+  {
+   "k": "1jg5u5o",
+   "en": "Added missing states to the decision system \"Recreate the Persian Empire\""
+  },
+  {
+   "k": "1xkcdl",
+   "en": "Completing the focuses \"The Memphis Initiative\" and \"Glory of Cyrus the Great\" will now allow Iran to get cores on all of the Middle East, Egypt and Afghanistan"
+  },
+  {
+   "k": "1c8znbm",
+   "en": "Fixed a bug that could give Iran decisions to core Turkey twice"
+  },
+  {
+   "k": "6pjqb",
+   "en": "Fixed a bug where avoiding the civil war in the democratic path could result in being stuck with no elections"
+  },
+  {
+   "k": "pff33v",
+   "en": "Fixed an exploit where the Immortal Legion template could be used to generate free equipment"
+  },
+  {
+   "k": "kr94wl",
+   "en": "Fixed an instance where the \"Election Season\"-event would sometimes list a leader as retiring before being made leader again"
+  },
+  {
+   "k": "1dei6rb",
+   "en": "The decisions from \"War Profiteering\" are no longer displayed after your oil has been sold"
+  },
+  {
+   "k": "yrx3uq",
+   "en": "The event chain from the focus \"A Foothold in the Indus\" now grants a war goal instead of automatically declaring war if India rejects the demands"
+  },
+  {
+   "k": "139f29a",
+   "en": "The focus \"Request Trains from Germany\" now correctly adds German trains to stockpile"
+  },
+  {
+   "k": "1qubljt",
+   "en": "The focuses \"Establish the Airforce\" and \"Construct Air Bases\" no longer grant building slots along with air bases"
+  },
+  {
+   "k": "1gdgowo",
+   "en": "Iraq"
+  },
+  {
+   "k": "19bc07k",
+   "en": "Fixed a typo in the description of the focus \"Increase Anglo-Iraqi Economic Ties\""
+  },
+  {
+   "k": "1msz3vw",
+   "en": "The focus \"Project Babylon\" no longer allows two experimental facilities to exist in the same state"
+  },
+  {
+   "k": "oxydnc",
+   "en": "The focus \"Regional Military Integration\" no longer tries to build factories meant for Jordan in Iraq"
+  },
+  {
+   "k": "1uhv3lh",
+   "en": "The focuses \"Form OPEC\" and \"Join the Axis\" can no longer be taken if Iraq is a subject"
+  },
+  {
+   "k": "129ixgb",
+   "en": "The national spirit \"Anglo-Iraqi Mutual Defense Agreement\" is now removed if you go to war with Britain"
+  },
+  {
+   "k": "38tzan",
+   "en": "Turkey"
+  },
+  {
+   "k": "iyphuk",
+   "en": "The focus \"Unite the Azeri Diaspora\" now correctly rewards a core on East Azerbaijan"
+  },
+  {
+   "k": "ijbgyi",
+   "en": "Overall"
+  },
+  {
+   "k": "9nd9ub",
+   "en": "Fixed a bug that would cause the first variant of equipment to always be called \"Mk0\" regardless of country-specific naming scheme"
+  },
+  {
+   "k": "12aj28r",
+   "en": "Fixed an issue where buying dreadnaughts from Germany would not spawn them correctly"
+  },
+  {
+   "k": "enxy45",
+   "en": "Patch 1.16.3, aka \"Operation SHOULDER\", was released on 2025-03-27⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "13rwimu",
+   "en": "a433"
+  },
+  {
+   "k": "1ra8vgm",
+   "en": "Armored Car Balance Changes"
+  },
+  {
+   "k": "1qtho8w",
+   "en": "Armored Car Battalion Organization increased from 10 to 20"
+  },
+  {
+   "k": "q7h03y",
+   "en": "Armored Car Battalion Strength increased from 2 to 5"
+  },
+  {
+   "k": "1cld72z",
+   "en": "Artillery Equipment Technologies now provide bonus to the Armored Car Battalions; +10% Soft Attack from Artillery, +10% Hard Attack from Anti-Air Artillery, and +10% Piercing from Anti-Tank Artillery"
+  },
+  {
+   "k": "ip8cnb",
+   "en": "Inter-War Armored Car Production Cost Reduced from 4 IC to 3.5 IC"
+  },
+  {
+   "k": "1l02ni2",
+   "en": "Basic Armored Car Production Cost Reduced from 6 IC to 5.5. IC"
+  },
+  {
+   "k": "4altg8",
+   "en": "Improved Armored Car Production Cost Reduced from 8 IC to 7.5 IC"
+  },
+  {
+   "k": "1a3uvc7",
+   "en": "Anti-Tank Armored Car Production Cost Reduced from 9 IC to 8.5 IC"
+  },
+  {
+   "k": "1elob5h",
+   "en": "Tanks and Tank Modules Balance Changes"
+  },
+  {
+   "k": "3jqsgq",
+   "en": "Inter-War Light Tank Chassis Production Cost Increased from 1 IC to 2 IC"
+  },
+  {
+   "k": "rk7gl4",
+   "en": "Basic Light Tank Chassis Production Cost Increased from 1.25 IC to 2.35 IC"
+  },
+  {
+   "k": "1eopsm6",
+   "en": "Improved Light Tank Chassis Production Cost Increased from 1.6 IC to 2.7 IC"
+  },
+  {
+   "k": "sbvh3z",
+   "en": "Advanced Light Tank Chassis Production Cost Increased from 2 IC to 3 IC"
+  }
+ ]
+}

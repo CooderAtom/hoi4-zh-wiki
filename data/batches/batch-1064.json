@@ -1,0 +1,690 @@
+{
+ "batch": 1064,
+ "pages": [
+  "Idea modding"
+ ],
+ "chars": 14449,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "s274eh",
+   "en": "⟦0⟧ are a static way to apply modifiers to a country, notably including ⟦1⟧, laws, designers, ⟦2⟧, and hidden ideas. Ideas themselves are defined in ⟦3⟧, while idea categories are defined in ⟦4⟧",
+   "frags": 5
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "yt10lt",
+   "en": "national spirits"
+  },
+  {
+   "k": "7jlgma",
+   "en": "officer corps spirits"
+  },
+  {
+   "k": "81z3ef",
+   "en": "/Hearts of Iron IV/common/ideas/*.txt"
+  },
+  {
+   "k": "axjejy",
+   "en": "/Hearts of Iron IV/common/idea_tags/*.txt"
+  },
+  {
+   "k": "1bsickh",
+   "en": "National spirit creation"
+  },
+  {
+   "k": "3sx9zt",
+   "en": "Spirits are created in ⟦0⟧. An example of a file with empty spirits, without modifiers yet still applicable if added via ⟦1⟧, is",
+   "frags": 2
+  },
+  {
+   "k": "1v4onbb",
+   "en": "add_ideas = idea_name"
+  },
+  {
+   "k": "iab2bz",
+   "en": "In this case, ⟦0⟧ encompasses each idea in the file, necessary to include due to the engine consraints. Meanwhile, ⟦1⟧ is an idea category, which is why the game would recognise ⟦2⟧ and ⟦3⟧ as spirits rather than laws or designers, which are also ideas.",
+   "frags": 4
+  },
+  {
+   "k": "1wk92hw",
+   "en": "ideas = { ... }"
+  },
+  {
+   "k": "1lujnsm",
+   "en": "country = {}"
+  },
+  {
+   "k": "13u3qhv",
+   "en": "my_idea_1"
+  },
+  {
+   "k": "1443c6u",
+   "en": "my_idea_2"
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "1i2cnnl",
+   "en": "Localisation for ideas is defined in any ⟦0⟧ file ⟦1⟧, assuming the English language. If an idea does not have a name, the game uses the country's name-list in ⟦2⟧ to create a random name. This, however, does not apply to national spirits, where it uses the idea's ID. An idea can have both a name and a description that appears when hovering over it. Their localisation entries are defined as such, taking ZZZ_example_idea as an example:",
+   "frags": 3
+  },
+  {
+   "k": "1hl77c0",
+   "en": "/Hearts of Iron IV/localisation/english/*_l_english.yml"
+  },
+  {
+   "k": "ctr573",
+   "en": "encoded in UTF-8-BOM"
+  },
+  {
+   "k": "1i4kpys",
+   "en": "/Hearts of Iron IV/common/names"
+  },
+  {
+   "k": "1283po4",
+   "en": "l_english"
+  },
+  {
+   "k": "11nqdmy",
+   "en": "ZZZ_example_idea"
+  },
+  {
+   "k": "1aa6w64",
+   "en": "\"Idea's"
+  },
+  {
+   "k": "62q64s",
+   "en": "name\""
+  },
+  {
+   "k": "192kd22",
+   "en": "ZZZ_example_idea_desc"
+  },
+  {
+   "k": "1nem3v5",
+   "en": "description\""
+  },
+  {
+   "k": "j529s3",
+   "en": "⟦0⟧ assigns the idea's name to use a different localisation key. This can be useful if you plan to modify an idea by swapping it multiple times, ensuring that you needn't create a duplicate localisation entry for every instance of the idea. This will get defined in a localisation file similarly:",
+   "frags": 1
+  },
+  {
+   "k": "qp257z",
+   "en": "name = new_idea_name"
+  },
+  {
+   "k": "1iqznql",
+   "en": "new_idea_name"
+  },
+  {
+   "k": "1rfu28h",
+   "en": "\"New"
+  },
+  {
+   "k": "1ufisrg",
+   "en": "idea's"
+  },
+  {
+   "k": "1mu9507",
+   "en": "new_idea_name_desc"
+  },
+  {
+   "k": "qdvq5l",
+   "en": "Picture"
+  },
+  {
+   "k": "1nf2d4r",
+   "en": "General sprite overview"
+  },
+  {
+   "k": "1rilf8e",
+   "en": "For loading GFX, the game uses the sprite system. Sprites are code definitions that attach a name to an image file, as well as optionally adding additional information, such as animation, the amount of frames, the way that the image will be loaded, and so on. This means ⟦0⟧, a sprite has to use that image file as well. Sprites are defined in any /Hearts of Iron IV/interface/*.gfx file (this is separate from gfx/interface/), opened with a text editor. To create a new .gfx file, a text file can be created and renamed to change the extension (on Windows, the Windows Explorer needs to show the extensions, which it doesn't by default). In particular, sprites are defined within a spriteTypes = { ... } block, as to separate from fonts and map arrows also defined in that folder, while the simplest sprite with the least mandatory properties is a spriteType = { ... }. The simplest sprite definition looks like the following: spriteTypes = { spriteType = { name = GFX_first_sprite # In some cases, beginning with GFX_ is mandatory for it to work. texturefile = gfx/interface/folder/filename.dds # The folder and filename don't matter, as long as they are correct } # Only the forward slash '/' (can be doubled as '//') can be used to separate folders. spriteType = { # The image doesn't have to be .dds, as .tga and .png are acceptable. name = GFX_second_sprite texturefile = gfx/interface/folder2/filename2.dds noOfFrames = 2 # Splits the image into 2 halves, which may be switched between dynamically in GUI } } In this case, this creates a sprite with the name of GFX_first_sprite and attaches the /Hearts of Iron IV/gfx/interface/folder/filename.dds image to it, and a second sprite similarly. The second sprite will be split into 2 frames: this is decided by having the left half of the image as the first frame and the right half as the second frame (more frames would further split the image horizontally). This doesn't make the sprite animated, just turns on the option to switch between the two halves as needed. GFX_second_sprite:1 serves as a reference to the first frame, and GUI can be set up to change the shown frame depending on context, such as with radio stations. In order to add animation, a frameAnimatedSpriteType is used. It's never mandatory to copy a base game file to change a sprite. If there are duplicate definitions of a sprite with the same name in different files, the game will prioritise the one that would be evaluated later, based on the filename, and the older sprite will be ignored in entirety. This can be ensured by beginning the replacement file's name with a symbol late in the ASCII character table. Typically the lowercase letter 'z' is used for this purpose. For example, to change the amount of frames in GFX_idea_traits_strip to 10, it is possible to define a sprite with that name with 10 frames in the mod's modname/interface/zz_replace.gfx file instead of copying over the base game file. Since most .gfx files define integral parts of the user interface, copying them over can lead to the mod's loaded files missing sprites upon a major game update, which would appear in-game as the default image, which is the error dog by default. As to ease the burden of needing to check the interface files, it's best to never copy over .gfx files, unless more additions would be actively harmful to the mod, such as with interface/subuniticons.gfx",
+   "frags": 1
+  },
+  {
+   "k": "omkt9e",
+   "en": "placing an image into the gfx folder isn't enough for it to work"
+  },
+  {
+   "k": "dw6d81",
+   "en": "/Hearts of Iron IV/interface/*.gfx"
+  },
+  {
+   "k": "19ysi25",
+   "en": "gfx/interface/"
+  },
+  {
+   "k": "1jps0eu",
+   "en": "spriteTypes = { ... }"
+  },
+  {
+   "k": "1ol5nbr",
+   "en": "spriteType = { ... }"
+  },
+  {
+   "k": "1q6dtuz",
+   "en": "GFX_first_sprite"
+  },
+  {
+   "k": "rrc6od",
+   "en": "/Hearts of Iron IV/gfx/interface/folder/filename.dds"
+  },
+  {
+   "k": "16lafuq",
+   "en": "GFX_second_sprite:1"
+  },
+  {
+   "k": "1ikm53m",
+   "en": "frameAnimatedSpriteType"
+  },
+  {
+   "k": "1mb7tko",
+   "en": "It's never mandatory to copy a base game file to change a sprite"
+  },
+  {
+   "k": "1m92bk4",
+   "en": "evaluated later, based on the filename"
+  },
+  {
+   "k": "18pqn1r",
+   "en": "GFX_idea_traits_strip"
+  },
+  {
+   "k": "1ll4can",
+   "en": "modname/interface/zz_replace.gfx"
+  },
+  {
+   "k": "1k7hn62",
+   "en": "interface/subuniticons.gfx"
+  },
+  {
+   "k": "9e1qk7",
+   "en": "By default, an idea uses a sprite that is the same as the idea's name, but with ⟦0⟧ prepended in the beginning. For example, an idea with the name of ⟦1⟧ will use the sprite with the name of ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "b26kof",
+   "en": "GFX_idea_"
+  },
+  {
+   "k": "1n4mvnl",
+   "en": "GFX_idea_my_idea_1"
+  },
+  {
+   "k": "r5kxxh",
+   "en": "This is possible to change using the ⟦0⟧ attribute within the idea (⟦1⟧). ⟦2⟧ to decide the sprite that should be used, e.g. ⟦3⟧ leads to ⟦4⟧ being used as the sprite. If the game cannot find a sprite with the name it expects, the default icon will be used instead. The prefix being inserted means that, most of the time, ⟦5⟧ (which makes ⟦6⟧ get used as the sprite) or ⟦7⟧ (which makes ⟦8⟧ get used as the sprite) will lead to the game expecting a sprite that doesn't exist and that sprites that do not follow the ⟦9⟧ naming pattern cannot be used as idea pictures.",
+   "frags": 10
+  },
+  {
+   "k": "19zcnq4",
+   "en": "picture = my_sprite"
+  },
+  {
+   "k": "vcdgdv",
+   "en": "The game still checks for GFX_idea_ideaname and will use it if it finds it, even if a ⟦0⟧ argument is used",
+   "frags": 1
+  },
+  {
+   "k": "1q3jojm",
+   "en": "picture ="
+  },
+  {
+   "k": "14opbs2",
+   "en": "The game still inserts a prefix of ⟦0⟧ to the argument",
+   "frags": 1
+  },
+  {
+   "k": "r6bczd",
+   "en": "picture = XYZ"
+  },
+  {
+   "k": "1omawbe",
+   "en": "GFX_idea_XYZ"
+  },
+  {
+   "k": "a6xcj5",
+   "en": "picture = GFX_XYZ"
+  },
+  {
+   "k": "b6vgmm",
+   "en": "GFX_idea_GFX_XYZ"
+  },
+  {
+   "k": "1cbrff9",
+   "en": "picture = idea_XYZ"
+  },
+  {
+   "k": "8fzhzw",
+   "en": "GFX_idea_idea_XYZ"
+  },
+  {
+   "k": "miu5m5",
+   "en": "If the ⟦0⟧ within the sprite is incorrect, the idea will be invisible in the country politics view, yet still apply the modifiers. Ensure that the idea is stored with the same folder path location, the same filename (including the extension), and that the right folder separator is used.",
+   "frags": 1
+  },
+  {
+   "k": "1163r7m",
+   "en": "texturefile"
+  },
+  {
+   "k": "10zhjlp",
+   "en": "It is also possible to make the picture depend on the ⟦0⟧ of the country, defined in the ⟦1⟧ file. This is done by appending the name after the picture's name, separated by an underscore. For example, a sprite with the name of ⟦2⟧ in its definition will show up instead of ⟦3⟧ for countries that have the ⟦4⟧ 2D graphical culture.",
+   "frags": 5
+  },
+  {
+   "k": "dozole",
+   "en": "graphical_culture_2d"
+  },
+  {
+   "k": "1t14u71",
+   "en": "/Hearts of Iron IV/common/countries/*.txt"
+  },
+  {
+   "k": "k0ra1e",
+   "en": "GFX_idea_my_picture_middle_eastern_2d"
+  },
+  {
+   "k": "17edtfg",
+   "en": "GFX_idea_my_picture"
+  },
+  {
+   "k": "4ixho6",
+   "en": "middle_eastern_2d"
+  },
+  {
+   "k": "1j6x47b",
+   "en": "Implementation"
+  },
+  {
+   "k": "oiqq28",
+   "en": "A spirit can only be added manually, using an ⟦0⟧. ⟦1⟧ within an effect block (Such a focus completion reward), while ⟦2⟧ will remove it.",
+   "frags": 3
+  },
+  {
+   "k": "un2mhg",
+   "en": "effect"
+  },
+  {
+   "k": "1ndis3e",
+   "en": "remove_ideas = idea_name"
+  },
+  {
+   "k": "dro911",
+   "en": "In order to swap two ideas and have the game show the modifiers, ⟦0⟧ is used. ⟦1⟧, however in case the 2 swapped spirits have the same name in localisation, this will show up in-game as modifying the idea. ⟦2⟧ is used as the following:",
+   "frags": 3
+  },
+  {
+   "k": "pn9kvt",
+   "en": "swap_ideas"
+  },
+  {
+   "k": "ss1040",
+   "en": "There is no way to directly modify an idea"
+  },
+  {
+   "k": "c3fzrr",
+   "en": "In most cases, it's enough to create multiple ideas and swap between them, such as if there's a direct progression of several stages (⟦0⟧ can be used to create one series of conditional statements and re-use them each time it's needed). If creating multiple ideas is too infeasible, such as if there are several progressions that would need to be modified, ⟦1⟧ allow variable modifier values, but they only accept modifiers (not unrelated attributes such as research or equipment bonuses) and are harder to work with due to no hot-reloading.",
+   "frags": 2
+  },
+  {
+   "k": "huvvzl",
+   "en": "Scripted effects"
+  },
+  {
+   "k": "1yt058c",
+   "en": "dynamic modifiers"
+  },
+  {
+   "k": "1647pye",
+   "en": "In order for a spirit to last for a period of time, the ⟦0⟧ effect is used as such:",
+   "frags": 1
+  },
+  {
+   "k": "c6r3s6",
+   "en": "add_timed_idea"
+  },
+  {
+   "k": "ieohtv",
+   "en": "⟦0⟧ can be used to extend or speed up the timer as needed.",
+   "frags": 1
+  },
+  {
+   "k": "194l5cf",
+   "en": "modify_timed_idea"
+  },
+  {
+   "k": "1miyy4p",
+   "en": "In order for a country to start with the idea, the file in ⟦0⟧ for that country serves as an effect block that decides the starting historical information. Using ⟦1⟧, usually in the expanded form to assign multiple ideas at once, in there will enforce it starting with the idea. In order for the idea to show up in country selection, the ⟦2⟧ to include the idea within its ⟦3⟧ block for the country's entry.",
+   "frags": 4
+  },
+  {
+   "k": "yx1ry0",
+   "en": "/Hearts of Iron IV/history/countries/"
+  },
+  {
+   "k": "1pxfxbz",
+   "en": "add_ideas"
+  },
+  {
+   "k": "wm4l28",
+   "en": "bookmark is edited"
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "ijzxnm",
+   "en": "⟦0⟧ are applied continuously as long as the spirit is applied to a country. Alongside modifiers, the spirit can also add a bonus to a technology category or modify an equipment archetype. The spirit can only apply modifiers towards the country that has the spirit, there is no way to scope into a different country. ⟦1⟧ and so each one should be located directly inside of the idea. For example, defining ⟦2⟧ inside of ⟦3⟧ is erroneous, since ⟦4⟧ is an attribute of the idea rather than a modifier.",
+   "frags": 5
+  },
+  {
+   "k": "1ysllbt",
+   "en": "Each of these attributes is entirely separate within the idea"
+  },
+  {
+   "k": "7iar6w",
+   "en": "research_bonus"
+  },
+  {
+   "k": "1xpl1mz",
+   "en": "modifier = { ... }"
+  },
+  {
+   "k": "1razjfg",
+   "en": "⟦0⟧ stores the regular modifiers, applied to the country with the spirit. A modifier block can list multiple modifiers, and negatives are also allowed. ⟦1⟧: instead, use ⟦2⟧. A typical example of a modifier block is the following:",
+   "frags": 3
+  },
+  {
+   "k": "1dal0ox",
+   "en": "Variables do not work in this section"
+  },
+  {
+   "k": "ujyelk",
+   "en": "⟦0⟧ is for using ⟦1⟧. The target is specified as ⟦2⟧, where ABC represents the target's tag. These are still applied towards the country with the spirit, but their effect is targeted towards a different country. For example, the following block will give the country with the idea a 10% attack bonus against ⟦3⟧:",
+   "frags": 4
+  },
+  {
+   "k": "20t6u8",
+   "en": "targeted_modifier = { ... }"
+  },
+  {
+   "k": "i115tz",
+   "en": "modifiers targeted towards a different country"
+  },
+  {
+   "k": "1g8qcxo",
+   "en": "tag = ABC"
+  },
+  {
+   "k": "bj54wx",
+   "en": "Afghanistan"
+  },
+  {
+   "k": "1dd6qcl",
+   "en": "⟦0⟧ grants the country a boost to researching a specific technology category. An unsorted list of technology categories can be found in ⟦1⟧ or, if desiring to know which technologies exactly are assigned to each category, individual technologies can be checked in ⟦2⟧. The following example would provide a +10% bonus to researching destroyers and a -20% bonus to artillery:",
+   "frags": 3
+  },
+  {
+   "k": "jy65cz",
+   "en": "research_bonus = { ... }"
+  },
+  {
+   "k": "rxwk7f",
+   "en": "/Hearts of Iron IV/common/technology_tags/"
+  },
+  {
+   "k": "b7u6j",
+   "en": "/Hearts of Iron IV/common/technologies/"
+  },
+  {
+   "k": "17muzrm",
+   "en": "⟦0⟧ applies the bonuses towards an equipment archetype or a type of equipment archetypes. By default, the bonus is not granted immediately, but rather requiring to research a new tech first, which is how it's done within designer ideas. This can be prevented by adding ⟦1⟧ inside of the equipment archetype within the equipment bonus. Equipment archetypes are defined in ⟦2⟧, which is where you can also find what can be applied to them. The name of the block within the ⟦3⟧ file would be the archetype, while ⟦4⟧ or ⟦5⟧ provides the types that the equipment archetype has. The following example will modify the cost to produce equipment within the ⟦6⟧ type (including artillery, rocket artillery, and tank artillery) by -20%, applying immediately, as well as increasing soft attack of any infantry equipment researched after the spirit was added by 10%:",
+   "frags": 7
+  },
+  {
+   "k": "15u2w2o",
+   "en": "equipment_bonus = { ... }"
+  },
+  {
+   "k": "3bkjl2",
+   "en": "instant = yes"
+  },
+  {
+   "k": "1eqkj7z",
+   "en": "/Hearts of Iron IV/common/units/equipment/*.txt"
+  },
+  {
+   "k": "19rx2fy",
+   "en": "type = { ... }"
+  },
+  {
+   "k": "1o41yhy",
+   "en": "type = archetype_type"
+  },
+  {
+   "k": "h0gp4h",
+   "en": "artillery"
+  },
+  {
+   "k": "1szrhdk",
+   "en": "⟦0⟧ modifies the set of rules that decide what the country is allowed to do. This usually includes diplomatic options (such as peace conference options or being called to war). They show up in the tooltip only if the rule differs from the value without the idea, e.g. ⟦1⟧ will usually not appear in the tooltip as countries are already unable to create a faction by default.",
+   "frags": 2
+  },
+  {
+   "k": "1xyyndf",
+   "en": "rule"
+  },
+  {
+   "k": "1523wdw",
+   "en": "can_create_factions = no"
+  },
+  {
+   "k": "7x5mrk",
+   "en": "rule = { can_join_factions = no can_send_volunteers = yes }"
+  },
+  {
+   "k": "zizlsk",
+   "en": "Game rule list The following game rules exist as possible options: Internal name Localised name Notes can_access_market Can access International Market (Puppets and Overlords can always access each other's market) can_be_spymaster Can be Spy Master can_boost_other_ideologies Can boost popularity of other ideologies can_boost_own_ideology Can boost own party popularity in other countries can_create_collaboration_government Can create collaboration governments can_create_factions Can Create Factions can_declare_war_on_same_ideology Can declare war on country with the same ideology group without a war goal can_declare_war_without_wargoal_when_in_war Can declare war on a neighbor without a wargoal when at war with a major can_decline_call_to_war Can decline call to war can_force_government Can force government of another country to adopt the same ideology can_generate_female_aces Women in your country are allowed to become military pilots can_generate_female_country_leaders Can generate female country leaders can_generate_female_unit_leaders Can generate female unit leaders can_guarantee_other_ideologies Can guarantee other ideologies can_join_factions Can join factions can_join_factions_not_allowed_diplomacy Country's name is not allowed to join factions can_join_opposite_factions Can Join Factions led by another Ideology can_lower_tension Lowers World Tension with Guarantees can_not_build_buildings CAN_NOT_BUILD_BUILDINGS Doesn't seem to work. can_not_declare_war Can not declare wars Prevents generating wargoals, but not using existing ones. can_occupy_non_war Can hold territory owned by a country they are not at war with can_only_justify_war_on_threat_country Can justify war goals against a country that have not generated world tension can_puppet Can puppet a country can_send_volunteers Can send volunteer forces can_use_kamikaze_pilots Can use kamikaze pilots contributes_operatives Contributes Operatives to Spy Master: Yes Only has an effect for subjects. units_deployed_to_overlord Control over deployed units go to overlord Only has an effect for subjects."
+  },
+  {
+   "k": "z3tatx",
+   "en": "Game rule list"
+  }
+ ]
+}

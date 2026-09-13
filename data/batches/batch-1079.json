@@ -1,0 +1,617 @@
+{
+ "batch": 1079,
+ "pages": [
+  "Event modding"
+ ],
+ "chars": 14109,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "160ph0k",
+   "en": "⟦0⟧ — The ID of the event to fire. This is mandatory as to let the game know which event to fire.",
+   "frags": 1
+  },
+  {
+   "k": "1yrn6g5",
+   "en": "id = my_event.1"
+  },
+  {
+   "k": "1ye4dny",
+   "en": "⟦0⟧|⟦1⟧|⟦2⟧ — The lower bound on the needed time that the event will fire in. In this case, a month is treated as exactly 30 days. If multiple of these are used, the game will add them up together (e.g. the example with 1 hour, 2 days, and 3 months will fire in 92 days and 1 hour).",
+   "frags": 3
+  },
+  {
+   "k": "1pe2hwo",
+   "en": "hours = 1"
+  },
+  {
+   "k": "qsic6j",
+   "en": "days = 2"
+  },
+  {
+   "k": "2owdsw",
+   "en": "months = 3"
+  },
+  {
+   "k": "1ckxkt6",
+   "en": "⟦0⟧|⟦1⟧ — This sets the upper bound on the needed time that the event will fire in. The game selects a random amount (uniform distribution) of days and hours between 0 and the set amount, including both ends, and adds them to the delay to fire the event. Similarly to above, if both are specified, the game will add them together. ⟦2⟧ also serves as an equivalent for ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "12r5p4y",
+   "en": "random_hours = 1"
+  },
+  {
+   "k": "acu6p1",
+   "en": "random_days = 2"
+  },
+  {
+   "k": "b9x00t",
+   "en": "random = 123"
+  },
+  {
+   "k": "sh680p",
+   "en": "random_hours = 123"
+  },
+  {
+   "k": "9iq6xw",
+   "en": "⟦0⟧ — This decides what the name of the event that would fire would be displayed as in localisation. Defaults to the event's name, this may be useful if the title may change between the effect to fire it and its actual appearance.",
+   "frags": 1
+  },
+  {
+   "k": "rpz1cf",
+   "en": "tooltip = my_event.1.t"
+  },
+  {
+   "k": "dqfwjy",
+   "en": "Example effect using several of these parameters:"
+  },
+  {
+   "k": "1ahey1f",
+   "en": "The optional delay is incredibly useful, as hidden events can be used to create a delay between an effect block's execution and the actual application of effects without the player detecting anything. This can also be used to make the events appear more \"natural\": news events can have a delay of a few hours (typically around 6-12) in order to simulate the time it takes for the news agencies to report on the event. Similarly can be done with other event types to simulate waiting a few hours for a diplomatic response, rather than it being unnaturally instant. ⟦0⟧ of the event gets checked when it would fire, meaning that it's also possible to ⟦1⟧ with a needed delay to get it on a specific day, then use the event's trigger to simulate additional requirements.",
+   "frags": 2
+  },
+  {
+   "k": "18prefe",
+   "en": "fire the event on startup of the game"
+  },
+  {
+   "k": "1yfwwhx",
+   "en": "Additionally, there are these event type-specific arguments:"
+  },
+  {
+   "k": "pswtkl",
+   "en": "⟦0⟧ (Unique to state events) — The country for which the event will fire for. This is mandatory as state events are to be fired in state scope. This can also be replaced with ⟦1⟧, ⟦2⟧, ⟦3⟧, or a ⟦4⟧, such as ROOT or FROM.",
+   "frags": 5
+  },
+  {
+   "k": "31z3lw",
+   "en": "trigger_for = TAG"
+  },
+  {
+   "k": "1e1x11d",
+   "en": "controller"
+  },
+  {
+   "k": "1w39mfo",
+   "en": "owner"
+  },
+  {
+   "k": "9slrk9",
+   "en": "occupied"
+  },
+  {
+   "k": "1t1m60g",
+   "en": "dual scope that can be used as a target"
+  },
+  {
+   "k": "1yrvoew",
+   "en": "⟦0⟧ (Unique to operative leader events) — The country which serves as the originator of the event (i.e. FROM). Defaults to the operative's owner if unset.",
+   "frags": 1
+  },
+  {
+   "k": "ckqr48",
+   "en": "originator = TAG"
+  },
+  {
+   "k": "fyqm7l",
+   "en": "⟦0⟧ (Unique to operative leader events) — The country which would receive the event. Defaults to the operative's owner if unset.",
+   "frags": 1
+  },
+  {
+   "k": "1q2vp0b",
+   "en": "recipient = TAG"
+  },
+  {
+   "k": "pl4dtb",
+   "en": "⟦0⟧ (Unique to operative leader events) — Changes the scope of ROOT within the dynamic localisation of the event, without actually changing it in code.",
+   "frags": 1
+  },
+  {
+   "k": "gpofi7",
+   "en": "set_root = TAG"
+  },
+  {
+   "k": "1dq7by7",
+   "en": "⟦0⟧ (Unique to operative leader events) — Changes the scope of FROM within the dynamic localisation of the event, without actually changing it in code.",
+   "frags": 1
+  },
+  {
+   "k": "19hob47",
+   "en": "set_from = TAG"
+  },
+  {
+   "k": "1yvpnbr",
+   "en": "⟦0⟧ (Unique to operative leader events) — Changes the scope of FROM.FROM within the dynamic localisation of the event, without actually changing it in code.",
+   "frags": 1
+  },
+  {
+   "k": "wd5xke",
+   "en": "set_from_from = TAG"
+  },
+  {
+   "k": "1qknwjp",
+   "en": "Common mistakes"
+  },
+  {
+   "k": "5vxfzk",
+   "en": "Some errors are quite common to make when beginning to make events, whether it's poor practice or if it would prevent the event from working in entirely. Some of them may be hard to notice when modding, with the event seemingly working fine, such as the error that prevents news events from being fired for more than one country. This covers some of them, as well as the less intuitive errors in the log."
+  },
+  {
+   "k": "11tnybn",
+   "en": "Unlogged errors"
+  },
+  {
+   "k": "qn2vrn",
+   "en": "⟦0⟧ (⟦1⟧) – ⟦2⟧ disables the automatic firing of the event, instead enforcing ⟦3⟧. Therefore, if it is left in within an event intended to fire automatically, the event will never do so.",
+   "frags": 4
+  },
+  {
+   "k": "1keud7v",
+   "en": "Leaving an event as triggered only when it's to be fired automatically"
+  },
+  {
+   "k": "zu4u6s",
+   "en": "Event never fires"
+  },
+  {
+   "k": "1i2g7p7",
+   "en": "using the effect to do so"
+  },
+  {
+   "k": "1nt3vp6",
+   "en": "Note that ⟦0⟧ can still co-exist with ⟦1⟧, so an event with both ⟦2⟧ and ⟦3⟧ may still be correct. Valid usages of them at the same time include the event being triggered via an ⟦4⟧'s ⟦5⟧ or the effect firing it has a delay (where the trigger would check if when the event is to be received), along others.",
+   "frags": 6
+  },
+  {
+   "k": "1kilx1i",
+   "en": "Example event with this issue and a correction to it"
+  },
+  {
+   "k": "1itou0r",
+   "en": "Broken: country_event = { id = my_event.1 title = my_event.1.t desc = my_event.1.desc trigger = { tag = GHA has_stability > 0.9 } fire_only_once = yes is_triggered_only = yes # Will make the event never automatically trigger. option = { name = my_event.1.a add_war_support = 0.2 } } Corrected: country_event = { id = my_event.1 title = my_event.1.t desc = my_event.1.desc trigger = { tag = GHA has_stability > 0.9 } fire_only_once = yes option = { name = my_event.1.a add_war_support = 0.2 } }"
+  },
+  {
+   "k": "euxdhq",
+   "en": "Broken:"
+  },
+  {
+   "k": "1hxub9y",
+   "en": "Corrected:"
+  },
+  {
+   "k": "znbe4w",
+   "en": "⟦0⟧ (⟦1⟧) – The events are not assigned to countries in any way (namespaces and filenames serve a purely organisational purpose), and each event trigger is checked for each country in order specified in the tag list.",
+   "frags": 2
+  },
+  {
+   "k": "fxedcn",
+   "en": "Not checking the country in the trigger for country-specific auto-triggered events"
+  },
+  {
+   "k": "wycue1",
+   "en": "Event fires for the wrong country/never fires"
+  },
+  {
+   "k": "edp025",
+   "en": "In the provided example, the event requires ITA to have more than 123 political power, upon which the country receiving the event would annex AUS. However, once ITA has that much, this trigger would be true ⟦0⟧ of where it's checked. The first country in the taglist by default is GER, and so it'll be the first country where the triggers are checked. In practice, this event will result in GER annexing AUS rather than ITA.",
+   "frags": 1
+  },
+  {
+   "k": "1iluzu8",
+   "en": "In the correction, a change is made: first it checks that the country that would receive the event is ITA, and only then then it checks that it has more than enough political power. This makes sure that no other countries can receive this event. Specifying the tag is unnecessary if the trigger itself already implies a certain tag (e.g. ⟦0⟧ with a tag-specific focus tree), but is needed otherwise.",
+   "frags": 1
+  },
+  {
+   "k": "11h2lda",
+   "en": "country_event = { id = my_event.1 # Broken event title = my_event.1.t desc = my_event.1.desc trigger = { ITA = { has_political_power > 123 } # Either true within every country's scope or for none } # First fires for GER, since it's true in GER's scope and GER is the first country. fire_only_once = yes option = { name = my_event.1.a annex_country = { target = AUS } # Results in GER annexing AUS instead of ITA as intended. } } country_event = { id = my_event.2 # Fixed version title = my_event.2.t desc = my_event.2.desc trigger = { tag = ITA # Checks that the country is ITA has_political_power > 123 # Checks current political power of ITA (as any other country is disqualified by the previous trigger) } fire_only_once = yes option = { name = my_event.2.a annex_country = { target = AUS } } }"
+  },
+  {
+   "k": "cgvjxx",
+   "en": "⟦0⟧ (⟦1⟧) – This is more of a poor practice than an error. In general, if an event's condition can be triggered with an effect, it should be.",
+   "frags": 2
+  },
+  {
+   "k": "1k11f1y",
+   "en": "Unnecessarily using auto-triggered events instead of ones that are triggered only"
+  },
+  {
+   "k": "269r8f",
+   "en": "Poor practice/optimisation"
+  },
+  {
+   "k": "1l7hip1",
+   "en": "The example is the most obvious way of doing this: a ⟦0⟧ instead of firing it directly in the focus. However, other such cases can occur, e.g. when a war starts between two countries, when a state gets occupied, or for firing one on a specific date. It's best practice to check ⟦1⟧ before creating an automatically-triggered event to see if they can be made to replicate.",
+   "frags": 2
+  },
+  {
+   "k": "neetgj",
+   "en": "Firing it via an effect has a purpose of being instant instead of having to wait up to 20 days. If so desired, a delay of a few hours can be added to make it appear more natural to the player. Additionally, it serves as a way to optimise the modification, as this reduces the amount of trigger checks repeatedly done. Events with a large mean-time-to-happen are particularly awful for performance and can be replaced with an effect block firing one with a large ⟦0⟧ in some cases.",
+   "frags": 1
+  },
+  {
+   "k": "1xqbcnf",
+   "en": "Broken event: country_event = { id = my_event.1 title = my_event.1.t desc = my_event.1.desc trigger = { has_completed_focus = TAG_focus_name } fire_only_once = yes option = { name = my_event.1.a } } Corrected event and focus: country_event = { id = my_event.1 title = my_event.1.t desc = my_event.1.desc is_triggered_only = yes option = { name = my_event.1.a } } focus = { id = TAG_focus_name x = 5 y = 0 icon = GFX_focus_icon_name cost = 8 search_filters = { FOCUS_FILTER_POLITICAL } completion_reward = { country_event = { id = my_event.1 hours = 6 random_hours = 3 } # Fires the event in 6-9 hours. } }"
+  },
+  {
+   "k": "10wz7fa",
+   "en": "Broken event:"
+  },
+  {
+   "k": "1sr7o79",
+   "en": "Corrected event and focus:"
+  },
+  {
+   "k": "1ild1k0",
+   "en": "⟦0⟧ (⟦1⟧)/⟦2⟧ (⟦3⟧) – The ⟦4⟧ block is checked every 20 days by default, and this isn't possible to change for just one event in particular. If the date triggers are set with tight upper and lower bounds (e.g. ⟦5⟧ and ⟦6⟧), it's very likely that the event will never fire, as this will not force the game to check the trigger at that date, but just prevent it from firing the event if the range is never checked, as the game doesn't see into the future and cannot predict that the trigger will be true or false at some point. Similarly, just placing a ⟦7⟧ will not ensure the event will be fired at exactly the second of January, but it may be anywhere between the 2nd and 21st (though it will be the same day on each reset).",
+   "frags": 8
+  },
+  {
+   "k": "1hq6mls",
+   "en": "Tight bounds on date triggers"
+  },
+  {
+   "k": "2ckxob",
+   "en": "Auto-triggered event intended to be fired at a specific date"
+  },
+  {
+   "k": "1tn8i0q",
+   "en": "Event fires later than intended"
+  },
+  {
+   "k": "1gts4vm",
+   "en": "date > 1936.1.1"
+  },
+  {
+   "k": "xo7n5e",
+   "en": "date < 1936.1.3"
+  },
+  {
+   "k": "1dkcmym",
+   "en": "In order to fire an event at a certain date, it's best to fire it on startup with the needed delay, setting the event to never fire by itself with ⟦0⟧ and optionally adding additional prerequisites for it to appear within ⟦1⟧, which would be checked at the moment the event is intended to appear. For the calculation of the amount of days to be correct, leap days must be ignored as the game doesn't contain them.",
+   "frags": 2
+  },
+  {
+   "k": "1a2we73",
+   "en": "Any effect block executed before or during startup can be used. An example using the ⟦0⟧ exists ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1keerv7",
+   "en": "Broken event: country_event = { id = my_event.1 title = my_event.1.t desc = my_event.1.desc trigger = { tag = POL NOT = { has_completed_focus = POL_my_focus } date > 1936.2.11 # If the event trigger check happens on the 1st of February and the 21st of February, date < 1936.2.13 # at least one of the date checks will always be false and the event will never trigger } option = { name = my_event.1.a } } ⟦0⟧: Event: country_event = { id = my_event.1 title = my_event.1.t desc = my_event.1.desc is_triggered_only = yes # To prevent the 20-day range from causing a delay trigger = { NOT = { has_completed_focus = POL_my_focus } } option = { name = my_event.1.a } } In any /Hearts of Iron IV/common/on_actions/*.txt file: on_actions = { on_startup = { effect = { POL = { country_event = { id = my_event.1 days = 42 } # 12th of February 1936, if on the first start date } } } }",
+   "frags": 1
+  },
+  {
+   "k": "1m8rjmw",
+   "en": "Broken event"
+  },
+  {
+   "k": "bpc8dt",
+   "en": "Correction"
+  },
+  {
+   "k": "1fdxhpb",
+   "en": "Event:"
+  },
+  {
+   "k": "8dmi83",
+   "en": "In any ⟦0⟧ file:",
+   "frags": 1
+  },
+  {
+   "k": "1qx6zki",
+   "en": "/Hearts of Iron IV/common/on_actions/*.txt"
+  },
+  {
+   "k": "14ptk76",
+   "en": "⟦0⟧ (⟦1⟧) – An event requires ⟦2⟧ in order to appear for every country. News events are purely a reskin of country events and are not set to fire for every country by default, so this line is mandatory. Alongside that, events that fire only once don't appear more than once ⟦3⟧ rather than per country. The event appearing for more than one country counts as it firing once again, so setting an event to fire only once will lead to only one country getting the news event instead of every one as intended.",
+   "frags": 4
+  },
+  {
+   "k": "14wbt96",
+   "en": "Setting a news event to fire only once or not setting one as major"
+  },
+  {
+   "k": "mk2jlo",
+   "en": "News event only fires for one country"
+  },
+  {
+   "k": "t85vbh",
+   "en": "globally"
+  },
+  {
+   "k": "1k01vgl",
+   "en": "Example events with this issue"
+  },
+  {
+   "k": "nz1qxc",
+   "en": "news_event = { id = my_event.1 title = my_event.1.t desc = my_event.1.desc is_triggered_only = yes # Missing 'major = yes', only will fire for one country. option = { name = my_event.1.a } } news_event = { id = my_event.2 title = my_event.2.t desc = my_event.2.desc is_triggered_only = yes major = yes fire_only_once = yes # Fires only once, only will file for one country. Remove this line to fix. option = { name = my_event.2.a } }"
+  },
+  {
+   "k": "3p3gj2",
+   "en": "Unintuitive logged errors"
+  },
+  {
+   "k": "1lymb8w",
+   "en": "⟦0⟧ – This occurs when there are contradictory arguments within an event about whether it's allowed to be fired automatically or if it can only be fired manually. In particular, ⟦1⟧ only has an effect when the event can only be fired automatically. However, if the event is triggered only, it cannot be fired automatically, resulting in the error being created.",
+   "frags": 2
+  },
+  {
+   "k": "y7ozsi",
+   "en": "Event is triggered only, but does not have a 1 base-factor."
+  },
+  {
+   "k": "1vsf68u",
+   "en": "Example event with this issue"
+  },
+  {
+   "k": "b8ouw2",
+   "en": "country_event = { id = my_event.1 hidden = yes is_triggered_only = yes mean_time_to_happen = { days = 1 } }"
+  },
+  {
+   "k": "1um0vd",
+   "en": "⟦0⟧ – This occurs when all of the following is true for the event: The event is possible to be fired automatically. In other words, is_triggered_only = yes is not present in the event. The event has a mean time to happen of 1 or less days. If it is omitted, it counts as 1 day. The event can fire more than once. In other words, fire_only_once = yes is not present in the event.",
+   "frags": 1
+  },
+  {
+   "k": "140m8aj",
+   "en": "Event is set to trigger every day."
+  },
+  {
+   "k": "1gesifw",
+   "en": "The event is possible to be fired automatically. In other words, ⟦0⟧ is ⟦1⟧ present in the event.",
+   "frags": 2
+  },
+  {
+   "k": "bkgu4q",
+   "en": "not"
+  },
+  {
+   "k": "4yez91",
+   "en": "The event has a mean time to happen of 1 or less days. If it is omitted, it counts as 1 day."
+  },
+  {
+   "k": "myny5r",
+   "en": "The event can fire more than once. In other words, ⟦0⟧ is ⟦1⟧ present in the event.",
+   "frags": 2
+  },
+  {
+   "k": "1vjtf6p",
+   "en": "This error warns the player that the event may fire every day once the ⟦0⟧ evaluates as true in a check that happens every 20 days. In order to remove the error, either of the three necessary clauses can be made to be not true for the event. For example, in a lot of cases, it is possible to make the event not be fired automatically and use an effect block to fire it instead, ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1b4toaj",
+   "en": "country_event = { id = my_event.1 hidden = yes is_triggered_only = no # Changing to yes will fix the error fire_only_once = no # Changing to yes will fix the error trigger = { tag = BHR controls_state = 123 } mean_time_to_happen = { days = 1 # Changing to 2 or more will fix the error } }"
+  },
+  {
+   "k": "1iuwi4q",
+   "en": "⟦0⟧ on a line specifying the event ID – This occurs if ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "o69h65",
+   "en": "Malformed token: event_id.123, near line"
+  },
+  {
+   "k": "11ebb9c",
+   "en": "the event namespace was not added as needed"
+  },
+  {
+   "k": "msgyzx",
+   "en": "Example event file"
+  },
+  {
+   "k": "1n0i6k9",
+   "en": "add_namespace = my_event # Not having this line will cause the issue. country_event = { id = my_event.1 hidden = yes is_triggered_only = yes }"
+  }
+ ]
+}

@@ -1,0 +1,869 @@
+{
+ "batch": 968,
+ "pages": [
+  "Country creation"
+ ],
+ "chars": 14436,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "hvtm7r",
+   "en": "This is the list of ⟦0⟧ that the country starts with in the game, including national spirits, design companies, and laws. Ideas are defined in ⟦1⟧. If starting laws aren't defined, then the country will start with the laws of ⟦2⟧, ⟦3⟧, and ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "1v73mq3",
+   "en": "ideas"
+  },
+  {
+   "k": "1bh8aes",
+   "en": "/Hearts of Iron IV/common/ideas"
+  },
+  {
+   "k": "768vst",
+   "en": "Volunteer Only"
+  },
+  {
+   "k": "1q1yljb",
+   "en": "Export Focus"
+  },
+  {
+   "k": "16lyj6o",
+   "en": "Civilian Economy"
+  },
+  {
+   "k": "vp1b1z",
+   "en": "This defines the starting technologies of the country. A list of technologies can be found in ⟦0⟧. It is notable that, similarly to orders of battle, several technologies depend on DLC, such as the ⟦1⟧ naval tech and ⟦2⟧ tank tech. In that case, an if statement needs to be used in order to set only the technologies that the country has access to, such as, using it in a conjunction with the prior naval oob:",
+   "frags": 3
+  },
+  {
+   "k": "b7u6j",
+   "en": "/Hearts of Iron IV/common/technologies/"
+  },
+  {
+   "k": "11r223j",
+   "en": "No Step Back"
+  },
+  {
+   "k": "14gxc9g",
+   "en": "⟦0⟧ is used to recruit ⟦1⟧. This includes country leaders, commanders, admirals, and advisors. Country leaders that are recruited ⟦2⟧ setting political information can fail to appear, so it's recommended to recruit them before setting any political information. If multiple country leaders fall under the same political party, the game will place the first-recruited one as its leader. The recruitment will fail if the effect is placed as the last line in the file: there must be at least one line after the recruitment, even if it's empty.",
+   "frags": 3
+  },
+  {
+   "k": "1k2k0eg",
+   "en": "recruit_character = TAG_character_name"
+  },
+  {
+   "k": "1l1rl9x",
+   "en": "the specified character"
+  },
+  {
+   "k": "ibx1dh",
+   "en": "Diplomacy-related effects"
+  },
+  {
+   "k": "my8dsx",
+   "en": "In order to make the country start as a subject, the following can be put in the history file:"
+  },
+  {
+   "k": "57gsrt",
+   "en": "⟦0⟧ The if statement is there to ensure that the integrated puppet is only there with ⟦1⟧, as that autonomous state is not available otherwise. A list of autonomous states can be found in ⟦2⟧ files.",
+   "frags": 3
+  },
+  {
+   "k": "jya97x",
+   "en": "Since the history files get loaded in a specific order, it is preferable to put it in the subject's history file, as to avoid the case where the overlord's file gets loaded after the subject's, which'll make the puppeting reset the politics of the subject. For this reason, ⟦0⟧ must also be set before the political party and popularities of the subject.",
+   "frags": 1
+  },
+  {
+   "k": "mzv7m",
+   "en": "set_autonomy"
+  },
+  {
+   "k": "1mtqtby",
+   "en": "Together for Victory"
+  },
+  {
+   "k": "er0iz0",
+   "en": "/Hearts of Iron IV/common/autonomous_states/*.txt"
+  },
+  {
+   "k": "1fj4t1v",
+   "en": "A faction can be created with ⟦0⟧. The localisation key will be used to define the name of the faction, defined in any ⟦1⟧ file. Members are added to the faction with ⟦2⟧ within the faction leader's history file. Although puppets usually get added to the faction automatically, it is recommended to add them manually as well.",
+   "frags": 3
+  },
+  {
+   "k": "so0hwf",
+   "en": "create_faction = localisation_key"
+  },
+  {
+   "k": "pnb3um",
+   "en": "add_to_faction = IRE"
+  },
+  {
+   "k": "1le6q5w",
+   "en": "In order to use technology sharing groups, ⟦0⟧ can be used in each country's history file. This requires the ⟦1⟧ DLC check (always positive) in order to work properly. Technology groups are defined in ⟦2⟧ files. ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "kccozq",
+   "en": "add_to_tech_sharing_group = my_tech_group"
+  },
+  {
+   "k": "13u040i",
+   "en": "/Hearts of Iron IV/common/technology_sharing/*.txt"
+  },
+  {
+   "k": "sxtnne",
+   "en": "Additional details on the technology groups can be found on the dedicated article"
+  },
+  {
+   "k": "15foc96",
+   "en": "Politics-related effects"
+  },
+  {
+   "k": "16p7stb",
+   "en": "This defines the starting party popularities, on the scale from 0 to 100. If an ideology is left out, then it will be assumed to have 0% popularity. ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "xvxyhy",
+   "en": "If it doesn't add up to 100, then the popularities will fail to be set."
+  },
+  {
+   "k": "1ebutql",
+   "en": "This defines the starting political situation of the country, with the ruling party and details on elections. Notably, the election frequency is defined in months."
+  },
+  {
+   "k": "vqeklr",
+   "en": "Variants"
+  },
+  {
+   "k": "1b8uovs",
+   "en": "Special variants on equipment available for this country from the start can be put in, defining the starting equipment upgrades or modules. Since this can depend on DLC, for ships, tanks, and airplanes, a DLC check can be used as the following:"
+  },
+  {
+   "k": "rjct3z",
+   "en": "Date-dependent history"
+  },
+  {
+   "k": "ttydqh",
+   "en": "In order to assign a part of the history file to only apply on start dates later than a certain date, a date block is used. It's formatted in the manner of ⟦0⟧ and accepts the same attributes and effects that may be used elsewhere in the file:",
+   "frags": 1
+  },
+  {
+   "k": "1kgdjq4",
+   "en": "YYYY.MM.DD = { ... }"
+  },
+  {
+   "k": "17ql9uy",
+   "en": "In particular, this would ⟦0⟧ the used order of battle with ⟦1⟧ and ⟦2⟧ atomic_research, nuclear_reactor, and nukes technologies to the ones the country already has researched. This will only apply on the start dates that are ⟦3⟧ later than the defined timestamp.",
+   "frags": 4
+  },
+  {
+   "k": "18qe0n7",
+   "en": "replace"
+  },
+  {
+   "k": "1bevhm7",
+   "en": "/Hearts of Iron IV/history/units/SCO_1939.txt"
+  },
+  {
+   "k": "gfk7lg",
+   "en": "add"
+  },
+  {
+   "k": "rcy17n",
+   "en": "strictly"
+  },
+  {
+   "k": "1xkffpp",
+   "en": "Useful effects"
+  },
+  {
+   "k": "apni6u",
+   "en": "While any ⟦0⟧ can be used, same as in regular history, the following are specifically useful for later start dates:",
+   "frags": 1
+  },
+  {
+   "k": "r8ksku",
+   "en": "In order to simulate completion of the national focus tree, the two effects are used: ⟦0⟧, which bypasses the focus without granting effects, and ⟦1⟧, which fully completes the focus, granting the effects.",
+   "frags": 2
+  },
+  {
+   "k": "eqru3m",
+   "en": "unlock_national_focus = focus_name"
+  },
+  {
+   "k": "4ewjyt",
+   "en": "complete_national_focus = focus_name"
+  },
+  {
+   "k": "1oo026q",
+   "en": "The ⟦0⟧ can be used in order to cancel previously applied diplomatic relations, such as guarantees or military access. Ideas would be removed with the ⟦1⟧, applied in the exact same manner as ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "1cu64xh",
+   "en": "diplomatic_relation effect"
+  },
+  {
+   "k": "1jreesv",
+   "en": "remove_ideas effect"
+  },
+  {
+   "k": "1pxfxbz",
+   "en": "add_ideas"
+  },
+  {
+   "k": "17pksyj",
+   "en": "In order to replace the country leader, the ⟦0⟧ can be used as ⟦1⟧. However, make sure that the character is recruited beforehand and has a country leader role within their definition. Recruitment is allowed within a date-block.",
+   "frags": 2
+  },
+  {
+   "k": "94ci0w",
+   "en": "promote_character effect"
+  },
+  {
+   "k": "1w1ot9e",
+   "en": "promote_character = TAG_character_name"
+  },
+  {
+   "k": "s7gxs8",
+   "en": "Full file example"
+  },
+  {
+   "k": "3ihhxm",
+   "en": "The text in this section has been collapsed by default."
+  },
+  {
+   "k": "61tezg",
+   "en": "capital = 121 oob = \"SCO_1936\" set_research_slots = 3 set_stability = 0.7 set_war_support = 0.5 recruit_character = SCO_ronald_mcdonald # Before set_politics add_ideas = { henschel GER_autarky_idea #laws war_economy extensive_conscription } set_technology = { infantry_weapons = 1 infantry_weapons1 = 1 gw_artillery = 1 interwar_antiair = 1 early_fighter = 1 early_bomber = 1 fuel_silos = 1 basic_train = 1 } if = { limit = { has_dlc = \"Man the Guns\" } set_technology = { basic_naval_mines = 1 submarine_mine_laying = 1 early_ship_hull_light = 1 early_ship_hull_submarine = 1 basic_ship_hull_submarine = 1 basic_battery = 1 basic_torpedo = 1 basic_depth_charges = 1 } create_equipment_variant = { name = \"Celtic Series\" type = ship_hull_submarine_1 name_group = SCO_SS_HISTORICAL modules = { fixed_ship_torpedo_slot = ship_torpedo_sub_1 fixed_ship_engine_slot = sub_ship_engine_1 rear_1_custom_slot = empty } obsolete = yes } set_naval_oob = \"SCO_1936_naval_mtg\" } if = { limit = { NOT = { has_dlc = \"Man the Guns\" } } set_technology = { early_submarine = 1 early_destroyer = 1 } create_equipment_variant = { name = \"Celtic Series\" type = submarine_1 upgrades = { ship_reliability_upgrade = 1 sub_engine_upgrade = 1 sub_stealth_upgrade = 1 sub_torpedo_upgrade = 1 } obsolete = yes } set_naval_oob = \"SCO_1936_naval_legacy\" } if = { limit = { has_dlc = \"By Blood Alone\" } set_air_oob = \"SCO_1936_air_bba\" set_technology = { aa_lmg = 1 engines_1 = 1 engines_2 = 1 early_bombs = 1 aircraft_construction = 1 iw_small_airframe = 1 iw_medium_airframe = 1 iw_large_airframe = 1 basic_medium_airframe = 1 basic_small_airframe = 1 } } if = { limit = { NOT = { has_dlc = \"By Blood Alone\" } } set_air_oob = \"SCO_1936_air_legacy\" set_technology = { early_fighter = 1 cv_early_fighter = 1 cv_naval_bomber1 = 1 naval_bomber1 = 1 early_bomber = 1 CAS1 = 1 } } ENG = { if = { limit = { has_dlc = \"Together for Victory\" } set_autonomy = { target = SCO autonomous_state = autonomy_integrated_puppet } } else = { puppet = SCO } } set_popularities = { # Notice how set_popularities is after puppeting. Otherwise would lead to puppeting resetting politics. democratic = 80 communism = 10 fascism = 10 } set_politics = { ruling_party = democratic last_election = \"1932.11.8\" election_frequency = 48 # Every 4 years elections_allowed = yes }"
+  },
+  {
+   "k": "h872lz",
+   "en": "Flag"
+  },
+  {
+   "k": "tv6sgr",
+   "en": "The flags representing a country are stored in ⟦0⟧ and its subfolders. Each country needs at least 3 flags. Each flag is commonly used in the UI, most notably the regular flag is used when viewing the country in the diplomacy menu or in the top-left corner of the screen, while the medium and small flags are used for divisions and in ⟦1⟧; the flags get automatically assigned to countries based on the flag's filename. Each flag needs to be a TGA-file with the name of the country tag and, optionally, the ideology group that the flag is assigned to. ⟦2⟧ In this case, \"32-bit\", \"32 bits per pixel (bpp)\", and \"32 bitdepth\" have the exact same meaning. In some editors where the bitdepth isn't settable when exporting but rather static without allowing the user to draw anything that the bitdepth doesn't allow, 32-bit means the RGB image mode alongside an alpha channel used for transparency present within the image. If it is 24-bit (meaning there is no alpha channel), the file will load but throw an error stating that it'll slow down the game and that it's recommended to use 32bpp. If the origin point is set to top left rather than bottom left, the image will appear flipped upside down. This can be common within online converters. Instead, it's better to use a more configurable image editor in order to convert files to TGA, such as Paint.net, GIMP, or Photoshop.",
+   "frags": 3
+  },
+  {
+   "k": "1d9a2th",
+   "en": "/Hearts of Iron IV/gfx/flags"
+  },
+  {
+   "k": "coj4nh",
+   "en": "localisation"
+  },
+  {
+   "k": "1x55bho",
+   "en": "The flag file format is uncompressed 32-bit ARGB."
+  },
+  {
+   "k": "ibqf1s",
+   "en": "There are two ways to name a flag:"
+  },
+  {
+   "k": "v6gcfa",
+   "en": "Ideology group-specific, such as ⟦0⟧. These will have the highest priority as the starting flags (Assuming no ⟦1⟧ are set).",
+   "frags": 2
+  },
+  {
+   "k": "1ri7u4i",
+   "en": "SCO_neutrality.tga"
+  },
+  {
+   "k": "1uolfh7",
+   "en": "cosmetic tags"
+  },
+  {
+   "k": "1fkajjq",
+   "en": "Non-specific, such as ⟦0⟧. If there's an ideology group-specific flag for the party ruling over the country, that one will be chosen, and this one is used as a backup in case it's not present.",
+   "frags": 1
+  },
+  {
+   "k": "i330fy",
+   "en": "SCO.tga"
+  },
+  {
+   "k": "9ninit",
+   "en": "Either one is optional, however it's recommended for a country to have some sort of a flag regardless which ideology group it has (Meaning either that there's a non-specific flag optionally alongside some ideology group-specific ones or that each ideology group in the mod has a specific flag for this country)"
+  },
+  {
+   "k": "1kp9qia",
+   "en": "Size requirement⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "ssjszi",
+   "en": "Resulting filesize⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "wz1cjz",
+   "en": "[b]"
+  },
+  {
+   "k": "vuco",
+   "en": "Standard"
+  },
+  {
+   "k": "10juc0v",
+   "en": "82x52 pixels"
+  },
+  {
+   "k": "p6fe7i",
+   "en": "16.6 or 17.1 KiB"
+  },
+  {
+   "k": "2pbr86",
+   "en": "Medium"
+  },
+  {
+   "k": "4j1q23",
+   "en": "41x26 pixels"
+  },
+  {
+   "k": "xjvjip",
+   "en": "4.2 or 4.69 KiB"
+  },
+  {
+   "k": "k474fg",
+   "en": "Small"
+  },
+  {
+   "k": "e7sa7y",
+   "en": "10x7 pixels"
+  },
+  {
+   "k": "193mt28",
+   "en": "324 or 819 bytes"
+  },
+  {
+   "k": "xwg1ys",
+   "en": "For the purpose of this mode, place them in ⟦0⟧, each flag size into the corresponding folder.",
+   "frags": 1
+  },
+  {
+   "k": "5kklru",
+   "en": "For medium and small flags to be generated, the game requires there to be a sufficient amount of ⟦0⟧, ~10 for medium flags to work and ~20 for small flags to work. If the requirement isn't met, the medium and small flags will appear as transparent for every single country even if they're saved properly, without anything related in ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "10als3d",
+   "en": "dynamic country tags"
+  },
+  {
+   "k": "zg4207",
+   "en": "logs/error.log"
+  },
+  {
+   "k": "4el6o6",
+   "en": "Name"
+  },
+  {
+   "k": "14ey9kr",
+   "en": "Localisation, such as the country name, is defined in the ⟦0⟧ folder for English. It is preferable to use a new file in the folder, as to not overwrite any base game files. The newly-created file will have to end with ⟦1⟧ in its filename (⟦2⟧) for it to be loaded properly. Additionally, ⟦3⟧. Exact details on how to change the encoding depend on the text editor used.",
+   "frags": 4
+  },
+  {
+   "k": "27qg59",
+   "en": "<yourmod>/localisation/english/"
+  },
+  {
+   "k": "xaq9yd",
+   "en": "_l_english.yml"
+  },
+  {
+   "k": "f648ha",
+   "en": "This is a lowercase L, not an uppercase i"
+  },
+  {
+   "k": "qzmbpa",
+   "en": "it has to use the UTF-8-BOM text encoding"
+  },
+  {
+   "k": "zwaeqh",
+   "en": "Within the file, localisation can be added accordingly:"
+  },
+  {
+   "k": "1283po4",
+   "en": "l_english"
+  },
+  {
+   "k": "r6df3o",
+   "en": "SCO"
+  },
+  {
+   "k": "1ftjlnp",
+   "en": "\"Scotland\""
+  },
+  {
+   "k": "9q8tge",
+   "en": "#Non-ideology name, primarily used for collaboration governments and as a fallback if an ideology group-specific one doesn't exist."
+  },
+  {
+   "k": "qo49vs",
+   "en": "SCO_DEF"
+  },
+  {
+   "k": "ynzw76",
+   "en": "SCO_ADJ"
+  },
+  {
+   "k": "evp2iq",
+   "en": "\"Scottish\""
+  },
+  {
+   "k": "13odxre",
+   "en": "SCO_democratic"
+  },
+  {
+   "k": "1c9fov5",
+   "en": "\"Republic"
+  },
+  {
+   "k": "1mg1pz9",
+   "en": "Scotland\""
+  },
+  {
+   "k": "145dcha",
+   "en": "SCO_democratic_DEF"
+  },
+  {
+   "k": "1n4s324",
+   "en": "\"the"
+  },
+  {
+   "k": "t0xnup",
+   "en": "Republic"
+  },
+  {
+   "k": "1tnvva8",
+   "en": "SCO_democratic_ADJ"
+  },
+  {
+   "k": "1s4b9la",
+   "en": "The localisation key follows the formatting of ⟦0⟧, where TAG is to be replaced with the country's tag and ideology is to be replaced with the ideology group. The _DEF and _ADJ suffixes may be added. The suffixes serve the following purpose:",
+   "frags": 1
+  },
+  {
+   "k": "10gmbi4",
+   "en": "TAG_ideology"
+  },
+  {
+   "k": "15qhhgs",
+   "en": "No suffix: The primary name for the country. Shows up on the world map and with the [TAG.GetName] ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1re1jr8",
+   "en": "localisation command"
+  },
+  {
+   "k": "2adq2d",
+   "en": "_ADJ: The adjective form for the country. Used with the [TAG.GetAdjective] localisation command."
+  },
+  {
+   "k": "5r3t7t",
+   "en": "_DEF: The definition form for the country. Used with the [TAG.GetNameDef] localisation command and when hovering over the state on the world map as the owner/controller. In base game, it's most commonly the same as the country's regular name but with \"the \" (Beginning with a lowercase letter as [TAG.GetNameDefCap] exists for otherwise) inserted in the beginning ⟦0⟧. Due to widespread use of this localisation command within generic events and decisions, this is essentially mandatory to define.",
+   "frags": 1
+  },
+  {
+   "k": "1lhieab",
+   "en": "if needed"
+  },
+  {
+   "k": "8s24ov",
+   "en": "By changing each instance of English to the corresponding language, including the filename, the folder, and the first line of the file, it is also possible to make the name for different languages, including and limited to Brazilian Portuguese (l_braz_por instead of l_english), French, German, Polish, Russian, Spanish, and Japanese. Additionally, there are other cosmetic versions of the country's name that can apply automatically that can be mixed together:"
+  },
+  {
+   "k": "1r6r4zl",
+   "en": "SCO_liberalism"
+  },
+  {
+   "k": "dqg02i",
+   "en": "\"Federal"
+  },
+  {
+   "k": "ww66jh",
+   "en": "# Applies when the country has a specific ideology type, commonly called sub-ideologies in community jargon."
+  },
+  {
+   "k": "fhd5gr",
+   "en": "SCO_subject"
+  },
+  {
+   "k": "1s1dv0l",
+   "en": "\"$OVERLORDADJ$"
+  },
+  {
+   "k": "1wph8i9",
+   "en": "# Applies when the country is a subject of any other country."
+  },
+  {
+   "k": "gszase",
+   "en": "SCO_IRE_subject"
+  },
+  {
+   "k": "1ufafr9",
+   "en": "\"Alba\""
+  },
+  {
+   "k": "vfmo2l",
+   "en": "# Applies when the country is a subject of a specific another country."
+  },
+  {
+   "k": "11shhcn",
+   "en": "SCO_autonomy_dominion"
+  },
+  {
+   "k": "ncjctq",
+   "en": "\"Dominion"
+  },
+  {
+   "k": "1fejbaj",
+   "en": "# Applies when the country has the specified autonomy type with any other country as overlord."
+  },
+  {
+   "k": "w2pslf",
+   "en": "SCO_IRE_democratic_autonomy_integrated_puppet"
+  },
+  {
+   "k": "aqs6ia",
+   "en": "\"Most"
+  },
+  {
+   "k": "1pel293",
+   "en": "Northern"
+  },
+  {
+   "k": "34f0yi",
+   "en": "Ireland\""
+  },
+  {
+   "k": "18do7t0",
+   "en": "# Example of mixing these together. Must be in the country-ideology-autonomy order."
+  },
+  {
+   "k": "1c0q04u",
+   "en": "COUNTRY_SCO_autonomy_dominion"
+  },
+  {
+   "k": "shjj6p",
+   "en": "\"Comhairle"
+  },
+  {
+   "k": "d71w3e",
+   "en": "nan"
+  },
+  {
+   "k": "1wdloyc",
+   "en": "$NONIDEOLOGY$\""
+  },
+  {
+   "k": "1wzmy30",
+   "en": "# The first tag can be replaced with COUNTRY to apply to a generic country."
+  },
+  {
+   "k": "1guv773",
+   "en": "IDs of autonomous states can be found within ⟦0⟧ files, while the names of ideology types can be found in ⟦1⟧ files. The country names are applied with the following priority:",
+   "frags": 2
+  },
+  {
+   "k": "17vqosr",
+   "en": "/Hearts of Iron IV/common/ideologies/*.txt"
+  },
+  {
+   "k": "w3jfq",
+   "en": "Autonomous state with a specific country as overlord"
+  },
+  {
+   "k": "991z2k",
+   "en": "Autonomous state"
+  },
+  {
+   "k": "1kl69sn",
+   "en": "Subject of a specific country"
+  },
+  {
+   "k": "18ix78v",
+   "en": "Subject"
+  },
+  {
+   "k": "1x946mz",
+   "en": "Ideology type"
+  },
+  {
+   "k": "10xlfju",
+   "en": "Ideology group"
+  },
+  {
+   "k": "lkap0x",
+   "en": "COUNTRY"
+  },
+  {
+   "k": "sd8jbm",
+   "en": "For example, ⟦0⟧, due to being on the top of the list, will apply towards ⟦1⟧ country that's a dominion of Scotland, unless a more specific mix of a Scottish-controlled dominion applies (e.g. ⟦2⟧ or ⟦3⟧).",
+   "frags": 4
+  },
+  {
+   "k": "2kz9j8",
+   "en": "every"
+  },
+  {
+   "k": "16vdh9s",
+   "en": "ENG_SCO_autonomy_dominion"
+  },
+  {
+   "k": "x4k8ya",
+   "en": "COUNTRY_SCO_democratic_autonomy_dominion"
+  },
+  {
+   "k": "k22v9m",
+   "en": "Inside of subject names, ⟦0⟧ that correspond to the overlord's name and the country's non-ideology name. Despite the fact that the latter doesn't seem to be subject-related, it cannot be used in names of independent countries. These include:",
+   "frags": 1
+  },
+  {
+   "k": "1cs3ts0",
+   "en": "nested strings can be used"
+  },
+  {
+   "k": "1adjydf",
+   "en": "⟦0⟧, ⟦1⟧, and ⟦2⟧ for the non-ideology name.",
+   "frags": 3
+  },
+  {
+   "k": "2cq8xq",
+   "en": "$NONIDEOLOGY$"
+  },
+  {
+   "k": "zqpbb9",
+   "en": "$NONIDEOLOGYADJ$"
+  },
+  {
+   "k": "nk0pir",
+   "en": "$NONIDEOLOGYDEF$"
+  },
+  {
+   "k": "1onhxn9",
+   "en": "⟦0⟧, ⟦1⟧, and ⟦2⟧ (Note the NAME) for the overlord's name.",
+   "frags": 3
+  },
+  {
+   "k": "1a5xd0e",
+   "en": "$OVERLORD$"
+  },
+  {
+   "k": "1jhlztx",
+   "en": "$OVERLORDADJ$"
+  },
+  {
+   "k": "r62jgg",
+   "en": "$OVERLORDNAMEDEF$"
+  },
+  {
+   "k": "jwb4o7",
+   "en": "This can ⟦0⟧ be used in country names, regardless if it's an automatically-applying name or a ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "17qey2f",
+   "en": "only"
+  },
+  {
+   "k": "13ulay2",
+   "en": "cosmetic tag"
+  }
+ ]
+}

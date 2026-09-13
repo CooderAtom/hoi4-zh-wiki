@@ -1,0 +1,927 @@
+{
+ "batch": 1097,
+ "pages": [
+  "Ship"
+ ],
+ "chars": 14889,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1lk4qa",
+   "en": "A ship refers both to a piece of ⟦0⟧ produced by ⟦1⟧ and, once launched and manned, a member of a ⟦2⟧ ready to participate in ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "1la4po7",
+   "en": "equipment"
+  },
+  {
+   "k": "1hbp52v",
+   "en": "dockyards"
+  },
+  {
+   "k": "1402nzr",
+   "en": "task force"
+  },
+  {
+   "k": "1ibku6h",
+   "en": "naval warfare"
+  },
+  {
+   "k": "1acrt4j",
+   "en": "Hull types"
+  },
+  {
+   "k": "1d7xn64",
+   "en": "See also: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "ie3m8i",
+   "en": "Hulls are the foundational component of ships and are unlocked through ⟦0⟧. Each hull type contains a number of ⟦1⟧ with restrictions and limitations based on the specific hull type. These slots can be populated by ⟦2⟧ via the ⟦3⟧ in order to form complete ship designs that can be produced by ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "rn2t6f",
+   "en": "naval technology"
+  },
+  {
+   "k": "1n85uig",
+   "en": "module slots"
+  },
+  {
+   "k": "q4uvfu",
+   "en": "modules"
+  },
+  {
+   "k": "1wpydzg",
+   "en": "ship designer"
+  },
+  {
+   "k": "14o5cov",
+   "en": "Naval dockyards"
+  },
+  {
+   "k": "urtmeg",
+   "en": "At the start of the game, each country will have a selection of ⟦0⟧ available for production, based upon hull types which have already been researched.",
+   "frags": 1
+  },
+  {
+   "k": "1xhe2uk",
+   "en": "pre-existing ship variants"
+  },
+  {
+   "k": "st2qym",
+   "en": "Some hull types may serve as the foundation for more than one ship type, depending upon the modules that are fitted during the design of a given ship variant. For example, ⟦0⟧ can serve as the basis for light cruisers or heavy cruisers depending upon the type of guns that are fitted.",
+   "frags": 1
+  },
+  {
+   "k": "7o7sak",
+   "en": "cruiser hulls"
+  },
+  {
+   "k": "wxsvrx",
+   "en": "Hull types and their corresponding ship type(s) are listed below:"
+  },
+  {
+   "k": "3hguc2",
+   "en": "Hull type"
+  },
+  {
+   "k": "12k7m9r",
+   "en": "Ship type(s)"
+  },
+  {
+   "k": "lls27l",
+   "en": "Destroyer hull"
+  },
+  {
+   "k": "32gueu",
+   "en": "Destroyer"
+  },
+  {
+   "k": "t0moje",
+   "en": "Cruiser hull Torpedo Cruiser hull"
+  },
+  {
+   "k": "ge0zuo",
+   "en": "Light cruiser Heavy cruiser"
+  },
+  {
+   "k": "1nz7s7x",
+   "en": "Panzerschiff hull Coastal Defense Ship hull"
+  },
+  {
+   "k": "1at2uon",
+   "en": "Large cruiser"
+  },
+  {
+   "k": "1exn0md",
+   "en": "Heavy ship hull"
+  },
+  {
+   "k": "12trfe2",
+   "en": "Battlecruiser Battleship"
+  },
+  {
+   "k": "iazug4",
+   "en": "Super Heavy Battleship hull"
+  },
+  {
+   "k": "swm375",
+   "en": "Super heavy battleship"
+  },
+  {
+   "k": "1sn72w6",
+   "en": "Carrier hull"
+  },
+  {
+   "k": "l1bc5",
+   "en": "Carrier Escort carrier"
+  },
+  {
+   "k": "7qb8bd",
+   "en": "Converted cruiser carrier hull"
+  },
+  {
+   "k": "1u0xlp1",
+   "en": "Escort carrier"
+  },
+  {
+   "k": "fzn0s",
+   "en": "Submarine hull Cruiser submarine hull"
+  },
+  {
+   "k": "j5r8fr",
+   "en": "Submarine"
+  },
+  {
+   "k": "dszvge",
+   "en": "Fleet submarine hull"
+  },
+  {
+   "k": "dvve8g",
+   "en": "Submarine Ballistic missile submarine"
+  },
+  {
+   "k": "go3ejg",
+   "en": "Nuclear Submarine hull"
+  },
+  {
+   "k": "6pf3aw",
+   "en": "Nuclear submarine Nuclear ballistic missile submarine"
+  },
+  {
+   "k": "5c2jfm",
+   "en": "Ship types"
+  },
+  {
+   "k": "ipg8fl",
+   "en": "Surface warships are categorized either as ⟦0⟧ or ⟦1⟧, while submarines and convoys have their own unique mechanics.",
+   "frags": 2
+  },
+  {
+   "k": "17i451k",
+   "en": "capital ships"
+  },
+  {
+   "k": "2eepha",
+   "en": "screen ships"
+  },
+  {
+   "k": "11ilz1k",
+   "en": "Capital ships"
+  },
+  {
+   "k": "9ys7p6",
+   "en": "As the main surface combatants, capital ships are designed to sink enemy ships in surface battles."
+  },
+  {
+   "k": "16cxr1t",
+   "en": "⟦0⟧ (BB): With their heavy armor, battleships are capable of surviving substantial amounts of incoming fire from the enemy battle line. They can also deal considerable damage of their own. Battleships are expensive and take some time to build.",
+   "frags": 1
+  },
+  {
+   "k": "1946h7h",
+   "en": "Battleship"
+  },
+  {
+   "k": "nxdag",
+   "en": "⟦0⟧ (BC): Battlecruisers share the same hull as battleships and use the same types of armament, but are distinguished by somewhat lighter armor and a lower construction cost. Although they can withstand less damage than a battleship, their lighter weight also makes them faster and slightly harder to hit.",
+   "frags": 1
+  },
+  {
+   "k": "v2h4hq",
+   "en": "Battlecruiser"
+  },
+  {
+   "k": "1pt4wno",
+   "en": "⟦0⟧ (SHBB): SHBBs are particularly powerful and heavily-armored battleships based upon a dedicated SHBB hull, though they are referred to as BBs in-game. Unlike other hulls which receive new iterations over the years, there is only one SHBB hull in the tech tree. SHBBs are powerful enough to remain a potent threat throughout the game despite the lack of hull iterations. However, they are also prohibitively expensive and take a very long time to build.",
+   "frags": 1
+  },
+  {
+   "k": "1bk6bnm",
+   "en": "⟦0⟧ (CA): Heavy cruisers share the same hull as light cruisers, and are distinguished by their heavier guns. With the lightest armor of any capital ship, heavy cruisers have low survivability against battlecruisers and battleships.",
+   "frags": 1
+  },
+  {
+   "k": "ebfq7n",
+   "en": "Heavy cruiser"
+  },
+  {
+   "k": "p6bl0n",
+   "en": "⟦0⟧ (CB): Large cruisers are specialized heavy cruisers that are built using more expensive Panzerschiff and Coastal Defense Ship hulls, though they are still referred to as CAs in-game. They can mount even heavier guns that match those found on battleships and battlecruisers. However, despite having costs comparable to battlecruisers, they are similarly lightly armored as regular heavy cruisers and so are no less survivable.",
+   "frags": 1
+  },
+  {
+   "k": "qq1bhs",
+   "en": "⟦0⟧ (CV): Dedicated aircraft carriers can carry deploy specialized carrier air wings for various tasks, including vying for control of the air and dealing bomb damage to enemy ships during ⟦1⟧, as well as being deployed on ⟦2⟧ outside of them. They can be expensive to build and to fuel, especially with their accompanying aircraft, but can be highly effective for their cost.",
+   "frags": 3
+  },
+  {
+   "k": "7f8eqf",
+   "en": "Carrier"
+  },
+  {
+   "k": "109wf6c",
+   "en": "naval battles"
+  },
+  {
+   "k": "1t04yv2",
+   "en": "missions"
+  },
+  {
+   "k": "fskvl",
+   "en": "⟦0⟧ (CVE): Smaller and cheaper aircraft carriers with only one or two hangar slots, these designs are made possible with the ship designer, though they are still referred to as CVs in-game. While they can be built out of the same hulls as dedicated carriers, they can also be converted from cruisers, which can be a way to keep a navy's aging cruisers relevant for longer. Slow and unable to field as many air wings, they are less effective in battle, but because they can be produced in much larger numbers, they can be deployed in a much wider capacity.",
+   "frags": 1
+  },
+  {
+   "k": "1sv48s5",
+   "en": "Escort Carrier"
+  },
+  {
+   "k": "1vgbi5a",
+   "en": "Screen ships"
+  },
+  {
+   "k": "1otlns0",
+   "en": "⟦0⟧ are named for their ability to protect capital ships and convoys from torpedoes during naval battles.",
+   "frags": 1
+  },
+  {
+   "k": "18sxh2m",
+   "en": "⟦0⟧ (CL): Tougher and more expensive than destroyers, light cruisers are highly versatile and can be outfitted for a range of roles. When equipped with airplane catapults, they can serve as excellent scouts. When dedicated to firepower, they excel at destroying other screens and can even put a dent into more lightly armored, enemy heavy cruisers.",
+   "frags": 1
+  },
+  {
+   "k": "iv8688",
+   "en": "Light cruiser"
+  },
+  {
+   "k": "3diykl",
+   "en": "⟦0⟧ (DD): As the lightest screen ships, the strength of destroyers lies in their numbers. During battle, they can form the bulk of a screening line to protect capital ships from torpedoes. Destroyers are also ideally suited to convoy escort missions. Both of these roles call for a sufficient quantity of ships, and destroyers are the most economical vessel to produce in the numbers required. They also boast relatively low fuel requirements. Beyond their basic armament, they can be outfitted with additional guns to increase their effectiveness against other screen ships, or torpedoes to threaten capital ships. Further reading: ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1nif59g",
+   "en": "List of 1936 start legacy deployed destroyers"
+  },
+  {
+   "k": "1f7mwr0",
+   "en": "Submarines"
+  },
+  {
+   "k": "oxzds9",
+   "en": "⟦0⟧ (SS): Cheap, slow, and stealthy, submarines are frequently used as convoy raiders and minelayers. During ⟦1⟧, submarines may be ⟦2⟧ under certain circumstances, which protects them from attack, and even when they are revealed, they can only be damaged by other ships using depth charges. They are, however, particularly vulnerable to patrolling aircraft, especially outside of battles.",
+   "frags": 3
+  },
+  {
+   "k": "18fy5gv",
+   "en": "naval battle"
+  },
+  {
+   "k": "1wa75fd",
+   "en": "hidden"
+  },
+  {
+   "k": "a36gg7",
+   "en": "⟦0⟧ (SSN): Nuclear submarines are special submarines available with ⟦1⟧ that run on nuclear power instead of combustion engines. As such, they consume no fuel and have a very long operational range, though they are more easily spotted than more advanced non-nuclear submarines and require a lot of technological development to produce.",
+   "frags": 2
+  },
+  {
+   "k": "na9lah",
+   "en": "Nuclear submarine"
+  },
+  {
+   "k": "1v2zo8a",
+   "en": "Götterdämmerung"
+  },
+  {
+   "k": "43ss0a",
+   "en": "⟦0⟧ (SSB): Missile launching submarines, also known as ballistic missile submarines, are submarines available with ⟦1⟧ that are equipped with missile-launching bays. They can therefore be used as mobile launch platforms for ⟦2⟧ for a variety of tasks. However, they also require a lot of technological development.",
+   "frags": 3
+  },
+  {
+   "k": "1k25tdy",
+   "en": "Missile Launching Submarine"
+  },
+  {
+   "k": "15b5mts",
+   "en": "missiles"
+  },
+  {
+   "k": "1am95ge",
+   "en": "⟦0⟧ (SSBN): Nuclear missile launching submarines, also known as nuclear ballistic missile submarines, are a combination of nuclear submarines and ballistic missile submarines available with ⟦1⟧. Being able to launch a variety of ⟦2⟧ silently from anywhere in the world is a very potent combination, albeit one that requires inordinate amounts of technological investment.",
+   "frags": 3
+  },
+  {
+   "k": "qpd8y8",
+   "en": "Nuclear Missile Launching Submarine"
+  },
+  {
+   "k": "4bcxog",
+   "en": "Convoys"
+  },
+  {
+   "k": "5n5eqn",
+   "en": "⟦0⟧ are ships which carry land units, ⟦1⟧, ⟦2⟧, reinforcements, and ⟦3⟧ equipment across water. They are treated more abstractly than all other ship types, with a variety of unique mechanics.",
+   "frags": 4
+  },
+  {
+   "k": "vb2rqq",
+   "en": "resources"
+  },
+  {
+   "k": "mj7kgp",
+   "en": "trade"
+  },
+  {
+   "k": "kgchab",
+   "en": "lend-lease"
+  },
+  {
+   "k": "18kwj9",
+   "en": "Convoys are distinguished by the following characteristics:"
+  },
+  {
+   "k": "4h6ktw",
+   "en": "⟦0⟧ are mostly unarmed, except for 0.25 Light Gun with Piercing 1 and 0.1 Anti-Air.⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1vg2l23",
+   "en": "The positions of convoys are not shown on the map, regardless of map mode. (Convoy ⟦0⟧ can be seen on the ⟦1⟧.) Convoys are only ever directly seen during naval battles, e.g. when a ⟦2⟧ task force automatically interdicts some convoys.",
+   "frags": 3
+  },
+  {
+   "k": "le75av",
+   "en": "routes"
+  },
+  {
+   "k": "1ik4kdc",
+   "en": "strategic navy map mode"
+  },
+  {
+   "k": "nzbeqr",
+   "en": "convoy raiding"
+  },
+  {
+   "k": "4vsivu",
+   "en": "Damaged convoys do not need to return to dockyards in order to be repaired. Any convoy that is damaged (but not destroyed) during battle will be immediately restored to perfect condition after the battle has ended."
+  },
+  {
+   "k": "12hqhb9",
+   "en": "Convoys that are not currently in use are kept in an abstract reserve, and have no tangible presence in the game world."
+  },
+  {
+   "k": "d1nz0x",
+   "en": "Convoys cannot be directly controlled by the player. However, it is possible to influence convoy routes by setting ⟦0⟧ for specific regions.",
+   "frags": 1
+  },
+  {
+   "k": "bh1cam",
+   "en": "access levels"
+  },
+  {
+   "k": "wkmu76",
+   "en": "The concepts of hulls and modules do not apply to convoys. Instead, there is only one standard convoy model. There are no technologies available to unlock more advanced convoy models."
+  },
+  {
+   "k": "sh5x6n",
+   "en": "It is not possible to create convoy variants or designs."
+  },
+  {
+   "k": "1oky1w9",
+   "en": "Convoys do not consume ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "112axt9",
+   "en": "Fuel"
+  },
+  {
+   "k": "dx7w15",
+   "en": "Convoys cannot be named."
+  },
+  {
+   "k": "1h6fmfa",
+   "en": "Convoys can be ⟦0⟧ to other countries and are the only ships that can be transfered in this way (outside of ⟦1⟧ and unique ⟦2⟧).",
+   "frags": 3
+  },
+  {
+   "k": "1vi27qd",
+   "en": "lend-leased"
+  },
+  {
+   "k": "1otmh8u",
+   "en": "peace conferences"
+  },
+  {
+   "k": "1tru4z4",
+   "en": "decisions"
+  },
+  {
+   "k": "vti2l",
+   "en": "Convoys are defenseless against enemy warships, but can be ⟦0⟧ by friendly warships for protection.",
+   "frags": 1
+  },
+  {
+   "k": "sf41h8",
+   "en": "escorted"
+  },
+  {
+   "k": "oas59w",
+   "en": "Floating harbors"
+  },
+  {
+   "k": "1iu7ucy",
+   "en": "⟦0⟧ (sometimes called Mulberry harbors) are “ships” that can act as a temporary ⟦1⟧ for ⟦2⟧ purposes. If you own at least one, then you will have access to a unique ⟦3⟧ order where they will be automatically used upon landing on an enemy shore. They create a fully stocked ⟦4⟧ at the location of the naval invasion, but they only last for a while before disappearing, depending on different factors. The ⟦5⟧ technology is required to produce floating harbors. At least one ⟦6⟧ is required to produce a floating harbor with a cost of 400 ⟦7⟧ and 1 .",
+   "frags": 8
+  },
+  {
+   "k": "i0ynbe",
+   "en": "hub for supply"
+  },
+  {
+   "k": "56aw52",
+   "en": "naval invasion"
+  },
+  {
+   "k": "90kckx",
+   "en": "Supply Hub"
+  },
+  {
+   "k": "66j2ri",
+   "en": "Landing Craft"
+  },
+  {
+   "k": "4ixk0m",
+   "en": "Naval dockyard"
+  },
+  {
+   "k": "7u9tvz",
+   "en": "Production cost"
+  },
+  {
+   "k": "rk5gpl",
+   "en": "Access level"
+  },
+  {
+   "k": "8c2st1",
+   "en": "Main article: Strategic region § Naval access level"
+  },
+  {
+   "k": "1c8t7k4",
+   "en": "For any strategic region containing sea provinces, an ⟦0⟧ can be set to determine whether ships can enter the region.",
+   "frags": 1
+  },
+  {
+   "k": "7k183d",
+   "en": "access level"
+  },
+  {
+   "k": "1dsclrx",
+   "en": "Ship details"
+  },
+  {
+   "k": "1rcuv8g",
+   "en": "Left clicking on a ship silhouette in the fleet will bring up its ship details. From here its ⟦0⟧ are visible, along with any combat history on the second tab. It is possible to ⟦1⟧ the ship by pressing its name. Carriers will show the attached air wings. Reorganizing air wings is done through the ⟦2⟧ management system. To ⟦3⟧ a ship, press the red trash bin in the upper right corner of the ship detail screen, this will return its ⟦4⟧ to the pool and is an alternative to sending old ships off on suicidal missions.",
+   "frags": 5
+  },
+  {
+   "k": "1xcw3ji",
+   "en": "statistical values"
+  },
+  {
+   "k": "1020k43",
+   "en": "rename"
+  },
+  {
+   "k": "1ih05u2",
+   "en": "air wing"
+  },
+  {
+   "k": "1o7mane",
+   "en": "scrap/disband"
+  },
+  {
+   "k": "17vxw9s",
+   "en": "Manpower"
+  },
+  {
+   "k": "ktujbf",
+   "en": "Carrier air wings"
+  },
+  {
+   "k": "akrw4b",
+   "en": "When building a carrier, the player has the option to pre-define how its air wings should be organized. Only carrier-capable aircraft may be based on carriers, and must be produced and either researched or designed (depending on whether ⟦0⟧ is active or not) separately from their land-based counterparts. The air wings of existing carriers can be adjusted by selecting the air wing in the air force overview or by selecting an air region in the air map mode, which brings up a list of all bases, and then selecting the fleet the carrier is a part of to bring up the air base windows for all carriers in that fleet. From the (carrier) base window, the process is identical to establishing or managing a wing stationed at an air base.",
+   "frags": 1
+  },
+  {
+   "k": "xw4s3v",
+   "en": "By Blood Alone"
+  },
+  {
+   "k": "1vl93hn",
+   "en": "Viewing combat statistics"
+  },
+  {
+   "k": "18w1rew",
+   "en": "Hearts of Iron IV tracks the ⟦0⟧, skill, and history of individual ships, which can be seen in the Fleet View. Select the fleet which the player wants to review. You will notice that each individual ship in your fleet is listed with a green organization and a brown strength bar, a silhouette for the ship class, a rank icon to show the ship's experience level, a vertical progress bar showing how much experience that ship has accumulated towards the next rank and the name of the ship. If the ship has participated in combat and sunk any enemy vessels, an additional icon appears next to the ship name for history. Holding the mouse over this history icon will give you a summary of how many ships the player has sunk with this vessel. Clicking on the history icon will open the ship details pop up displaying the history of ships sunk for that particular vessel.",
+   "frags": 1
+  },
+  {
+   "k": "43bfic",
+   "en": "veterancy"
+  },
+  {
+   "k": "17ykqay",
+   "en": "Statistics"
+  },
+  {
+   "k": "1htesal",
+   "en": "Each class of ship has a number of values referred to as stats. These are described below. Most of these stats can be improved by building a new ⟦0⟧. Researching ⟦1⟧ can also increase certain stats, as can employing the right ⟦2⟧ and, with ⟦3⟧, using ⟦4⟧ spirits. Some ⟦5⟧ can also provide ⟦6⟧ that affect certain ship stats.",
+   "frags": 7
+  },
+  {
+   "k": "1xp3zyn",
+   "en": "design"
+  },
+  {
+   "k": "v8wqgc",
+   "en": "naval doctrines"
+  },
+  {
+   "k": "1tlqc7u",
+   "en": "admirals"
+  },
+  {
+   "k": "11r223j",
+   "en": "No Step Back"
+  },
+  {
+   "k": "1aimk2s",
+   "en": "officer corps"
+  },
+  {
+   "k": "26f65v",
+   "en": "national focuses"
+  },
+  {
+   "k": "yt10lt",
+   "en": "national spirits"
+  },
+  {
+   "k": "1at5nu3",
+   "en": "Base stats"
+  },
+  {
+   "k": "185gnd2",
+   "en": "⟦0⟧ Maximum speed represents a value that indicates how quickly a naval vessel can move under optimal conditions. A faster ship has an easier time of disengaging from pursuers. It is also less likely to be hit by enemy fire, can pursue contacts easier when spotting the enemy, can evade enemy patrols for longer, and moves faster outside of battle.",
+   "frags": 1
+  },
+  {
+   "k": "1xuc8f4",
+   "en": "Maximum speed."
+  },
+  {
+   "k": "1dg3emr",
+   "en": "⟦0⟧ A ship's range represents its onboard stores of fuel and foodstuffs, which will limit how far it can travel from the nearest friendly ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1rfpewi",
+   "en": "Maximum range."
+  },
+  {
+   "k": "d7usg0",
+   "en": "Naval base"
+  },
+  {
+   "k": "1ywso3n",
+   "en": "⟦0⟧ Organization is an indicator of a ship's combat readiness. The higher the organization rating of a ship, the longer it can stay in a fight. A ship with low or no organization cannot fight or move effectively. See also ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "dy9mss",
+   "en": "Organization."
+  },
+  {
+   "k": "1xosott",
+   "en": "hit chance mechanics"
+  },
+  {
+   "k": "1vi9edd",
+   "en": "⟦0⟧ Deck size is a measurement of how many planes a carrier can fit on board. The act of exceeding a carrier's deck size (plane limit) is known as ⟦1⟧ and it results in a penalty to carrier plane missions. See also ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1krpu3p",
+   "en": "Deck size."
+  },
+  {
+   "k": "181js4c",
+   "en": "carrier overcrowding"
+  },
+  {
+   "k": "7c2q4o",
+   "en": "Sortie efficiency"
+  },
+  {
+   "k": "jye130",
+   "en": "⟦0⟧ HP is an abbreviation for \"hit points\" and is the ability to absorb damage. It represents strength which is how much damage a ship can sustain before being destroyed.",
+   "frags": 1
+  },
+  {
+   "k": "138wr69",
+   "en": "HP."
+  },
+  {
+   "k": "1xh85xl",
+   "en": "⟦0⟧ Reliability is the ability of a ship to continue functioning during combat. The lower the value the more likely the ship is of suffering a critical hit. Ships may receive critical hits that are much stronger than usual hits primarily because of exploding ammo or fuel tanks. Increasing a ship's reliability will reduce the chance that a received hit becomes critical. Note that the highest critical chance is done by torpedoes and not by a ship's main guns. Reference ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1ejru3z",
+   "en": "Reliability."
+  },
+  {
+   "k": "25lmj4",
+   "en": "attrition and accidents"
+  },
+  {
+   "k": "4xf1",
+   "en": "⟦0⟧ How much supply the unit consumes per day. Please read ⟦1⟧ on the significance of this.",
+   "frags": 2
+  },
+  {
+   "k": "17wcpq1",
+   "en": "Supply use."
+  },
+  {
+   "k": "1oy2zwu",
+   "en": "Supply"
+  },
+  {
+   "k": "e075am",
+   "en": "Combat stats"
+  },
+  {
+   "k": "szu37w",
+   "en": "⟦0⟧ Damage done by light guns. Light guns are better at targeting smaller ships, but can only target the first non-empty row in ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1lyfg1",
+   "en": "Light Attack."
+  },
+  {
+   "k": "pdux5o",
+   "en": "⟦0⟧ Armor piercing of light guns.",
+   "frags": 1
+  },
+  {
+   "k": "1nna4h4",
+   "en": "Light Piercing."
+  },
+  {
+   "k": "glr7b0",
+   "en": "⟦0⟧ Damage done by the heavy guns. Heavy guns are better at targeting bigger ships and can target the first two non-empty rows in ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1vunl1y",
+   "en": "Heavy Attack."
+  },
+  {
+   "k": "1afrnn3",
+   "en": "⟦0⟧ Armor piercing of heavy guns.",
+   "frags": 1
+  },
+  {
+   "k": "1toeler",
+   "en": "Heavy Piercing."
+  },
+  {
+   "k": "1whxgnn",
+   "en": "⟦0⟧ Torpedo attack is a value that represents a vessel's capability to damage enemy ships via torpedoes. Torpedoes can target any row in ⟦1⟧, but can be blocked by ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "kzs9vi",
+   "en": "Torpedo attack."
+  },
+  {
+   "k": "g7poi8",
+   "en": "screening efficiency"
+  }
+ ]
+}

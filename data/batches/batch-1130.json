@@ -1,0 +1,998 @@
+{
+ "batch": 1130,
+ "pages": [
+  "Troubleshooting"
+ ],
+ "chars": 14414,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "16nybm2",
+   "en": "⟦0⟧ is the identification of the cause of crashes, bugs or other problems.",
+   "frags": 1
+  },
+  {
+   "k": "1t5bxxt",
+   "en": "Troubleshooting"
+  },
+  {
+   "k": "thnxru",
+   "en": "Overview"
+  },
+  {
+   "k": "gge85u",
+   "en": "In general, there are two kinds of errors: fatal and non-fatal."
+  },
+  {
+   "k": "wuqtrd",
+   "en": "Fatal errors occur when the game cannot load a vital piece of data and cannot operate without it present. This causes a crash to desktop (CTD). When fatal errors occur, an exception will be printed to the ⟦0⟧. Typically these errors occur during the loading process or when a specific action is taken in-game.",
+   "frags": 1
+  },
+  {
+   "k": "x0crur",
+   "en": "exceptions.log"
+  },
+  {
+   "k": "5w06jd",
+   "en": "Non-fatal errors occur when the game encountered invalid data or broken syntax. These errors are almost always printed to the ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "dqpqy1",
+   "en": "error.log"
+  },
+  {
+   "k": "1g1lx7",
+   "en": "Testing"
+  },
+  {
+   "k": "1uzumh5",
+   "en": "Performing testing is vital to debugging a mod. Typically this is done via the in-game console with commands."
+  },
+  {
+   "k": "l77prc",
+   "en": "These are useful console commands for modders:"
+  },
+  {
+   "k": "1j2mkia",
+   "en": "Command"
+  },
+  {
+   "k": "w7a5ag",
+   "en": "Usage"
+  },
+  {
+   "k": "u85c5x",
+   "en": "reloadfx all"
+  },
+  {
+   "k": "17wia9y",
+   "en": "Reloads most of the effects used in the game, such as fog of war, the HDR and opacity of country borders, ect."
+  },
+  {
+   "k": "1fg3jtr",
+   "en": "reload texture"
+  },
+  {
+   "k": "wd3t4r",
+   "en": "Reloads most of the textures used in the game, such as leader portraits, technology icons, etc."
+  },
+  {
+   "k": "yzl91h",
+   "en": "reload localization"
+  },
+  {
+   "k": "8w895a",
+   "en": "Reloads most of the localization used in-game, such as event titles and descriptions."
+  },
+  {
+   "k": "ektl58",
+   "en": "reload defines"
+  },
+  {
+   "k": "1mdn3te",
+   "en": "Reloads the defines files from ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1a0dsqx",
+   "en": "/Hearts of Iron IV/common/defines/"
+  },
+  {
+   "k": "4xc91o",
+   "en": "reload focus"
+  },
+  {
+   "k": "1k5eucp",
+   "en": "Reloads the focus trees in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "558pzi",
+   "en": "/Hearts of Iron IV/common/national_focuses/"
+  },
+  {
+   "k": "ra9t7k",
+   "en": "reloadoob"
+  },
+  {
+   "k": "17dr65w",
+   "en": "Reloads the starting OOB file for the specified tag."
+  },
+  {
+   "k": "sadata",
+   "en": "reloadtechnologies"
+  },
+  {
+   "k": "97yl10",
+   "en": "Reloads the technology files. Will cause a crash if an error is encountered."
+  },
+  {
+   "k": "1th1q9b",
+   "en": "reloadinterface"
+  },
+  {
+   "k": "10jo3gw",
+   "en": "Reloads the interface files (.gui)."
+  },
+  {
+   "k": "kctfka",
+   "en": "reload decision"
+  },
+  {
+   "k": "1bha9fn",
+   "en": "Reloads the decision files (.gui and common/decisions)."
+  },
+  {
+   "k": "1p7kgga",
+   "en": "tdebug"
+  },
+  {
+   "k": "1vvhpir",
+   "en": "Activates the debug tooltips, displaying important information such as state ID, province ID, etc."
+  },
+  {
+   "k": "1yj1fof",
+   "en": "event"
+  },
+  {
+   "k": "1c2fs5w",
+   "en": "Fires the specified event immediate for the current player country."
+  },
+  {
+   "k": "1bx3o6z",
+   "en": "nocb"
+  },
+  {
+   "k": "16v2fv",
+   "en": "Removes restrictions on diplomatic actions."
+  },
+  {
+   "k": "11ft7mn",
+   "en": "observe"
+  },
+  {
+   "k": "1atopfn",
+   "en": "Places the player into the observer slot, allowing the game to pass without player input."
+  },
+  {
+   "k": "17eutii",
+   "en": "aiview"
+  },
+  {
+   "k": "13ki1f",
+   "en": "Displays the AI priorities when hovering over specific buttons, such as technology."
+  },
+  {
+   "k": "15lyoib",
+   "en": "tag"
+  },
+  {
+   "k": "1jdhrdh",
+   "en": "Switches the player to another country."
+  },
+  {
+   "k": "yut6e9",
+   "en": "update_loc"
+  },
+  {
+   "k": "rqz5v0",
+   "en": "Reloads the specified localization key."
+  },
+  {
+   "k": "15ij3yd",
+   "en": "updateequipments"
+  },
+  {
+   "k": "qn4dbn",
+   "en": "Reloads the equipment files in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "16s33q1",
+   "en": "/Hearts of Iron IV/common/units/equipment/"
+  },
+  {
+   "k": "nyywa1",
+   "en": "updatesubunits"
+  },
+  {
+   "k": "1mgvn2t",
+   "en": "Reloads the unit files in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1cn1w8c",
+   "en": "/Hearts of Iron IV/common/units/"
+  },
+  {
+   "k": "1686smb",
+   "en": "research_on_icon_click"
+  },
+  {
+   "k": "1kbb8v5",
+   "en": "Activates research on click, allowing you to click on technologies to research them instantly."
+  },
+  {
+   "k": "edud1x",
+   "en": "Focus.NoChecks"
+  },
+  {
+   "k": "12hntox",
+   "en": "Removes the trigger checks for focuses."
+  },
+  {
+   "k": "txjyq3",
+   "en": "Focus.AutoComplete"
+  },
+  {
+   "k": "174f40l",
+   "en": "Activates instant completion for focuses."
+  },
+  {
+   "k": "1babwut",
+   "en": "set_country_flag"
+  },
+  {
+   "k": "1j7apki",
+   "en": "Sets the specified country flag for the current country."
+  },
+  {
+   "k": "1pxfxbz",
+   "en": "add_ideas"
+  },
+  {
+   "k": "1ru6ode",
+   "en": "Adds the specified idea to the current country."
+  },
+  {
+   "k": "10i4ydm",
+   "en": "Log files"
+  },
+  {
+   "k": "1l8a4ca",
+   "en": "The game stores various log files in your HOI4 user folder: (Windows: ⟦0⟧, Linux: ⟦1⟧). These are overwritten every time the game is started.",
+   "frags": 2
+  },
+  {
+   "k": "1o4gg2m",
+   "en": "\\\\Documents\\Paradox Interactive\\Hearts of Iron IV\\logs\\"
+  },
+  {
+   "k": "1r381r8",
+   "en": ".local/share/Paradox Interactive/Hearts of Iron IV/logs"
+  },
+  {
+   "k": "mwwoh1",
+   "en": "To enable full error logging, add the ⟦0⟧ launch command via ⟦1⟧ in Steam.",
+   "frags": 2
+  },
+  {
+   "k": "12xct4f",
+   "en": "-debug"
+  },
+  {
+   "k": "x50r6g",
+   "en": "Set Launch Options"
+  },
+  {
+   "k": "bygjtv",
+   "en": "File"
+  },
+  {
+   "k": "sjj37t",
+   "en": "Description"
+  },
+  {
+   "k": "eosbww",
+   "en": "Usefulness"
+  },
+  {
+   "k": "2skf43",
+   "en": "ai.log"
+  },
+  {
+   "k": "b2wfml",
+   "en": "Prints the AI choices undertaken."
+  },
+  {
+   "k": "2pbr86",
+   "en": "Medium"
+  },
+  {
+   "k": "z5v5ld",
+   "en": "ai_trace.log"
+  },
+  {
+   "k": "mng5er",
+   "en": "Prints the AI movements undertaken (divisions, ships, air, etc.)"
+  },
+  {
+   "k": "1dcndpd",
+   "en": "Low"
+  },
+  {
+   "k": "t4abag",
+   "en": "Prints the various non-fatal errors. Many errors can be ignored, although almost all errors relating to files in the ⟦0⟧ folder should be fixed.",
+   "frags": 1
+  },
+  {
+   "k": "lgol10",
+   "en": "common"
+  },
+  {
+   "k": "1gq8xlp",
+   "en": "High"
+  },
+  {
+   "k": "1r0u39i",
+   "en": "Prints the stack trace when the game crashes to desktop."
+  },
+  {
+   "k": "1i68wum",
+   "en": "executedcommands.log"
+  },
+  {
+   "k": "1q20thf",
+   "en": "Prints the internal commands uses by the player and AI."
+  },
+  {
+   "k": "51fisb",
+   "en": "game.log"
+  },
+  {
+   "k": "s1besr",
+   "en": "Prints the actions that were taken by countries in-game. Useful when the crash is due to a specific action."
+  },
+  {
+   "k": "jfoul4",
+   "en": "graphics.log"
+  },
+  {
+   "k": "4a3two",
+   "en": "Prints the graphical errors relating to positions, rivers, and trees."
+  },
+  {
+   "k": "qzsdgi",
+   "en": "memory.log"
+  },
+  {
+   "k": "33sg34",
+   "en": "Prints the memory used during setup. Useful for crashes during the loading process, to see when the game crashed."
+  },
+  {
+   "k": "1uorjys",
+   "en": "message.log"
+  },
+  {
+   "k": "lf2t63",
+   "en": "Prints the session info for the current session."
+  },
+  {
+   "k": "1vvkiak",
+   "en": "postedcommands.log"
+  },
+  {
+   "k": "1x7tdva",
+   "en": "random.log"
+  },
+  {
+   "k": "1pvspss",
+   "en": "Prints times for game state changes."
+  },
+  {
+   "k": "zvpqao",
+   "en": "receivedcommands.log"
+  },
+  {
+   "k": "1qcm6cu",
+   "en": "Prints the internal commands received by the player in multiplayer."
+  },
+  {
+   "k": "1ashgad",
+   "en": "sentcommands.log"
+  },
+  {
+   "k": "j3vsvf",
+   "en": "Prints the internal commands sent by the player in multiplayer."
+  },
+  {
+   "k": "udjr5m",
+   "en": "setup.log"
+  },
+  {
+   "k": "n09pon",
+   "en": "Prints the completion of setup loading for each part of the process. Very useful for discovering which file may be causing a crash."
+  },
+  {
+   "k": "i9pw0s",
+   "en": "system.log"
+  },
+  {
+   "k": "1lo6len",
+   "en": "Prints the system information HOI4 is loaded on."
+  },
+  {
+   "k": "1xiazus",
+   "en": "system_debug.log"
+  },
+  {
+   "k": "1xs1whh",
+   "en": "Prints interface errors."
+  },
+  {
+   "k": "vtbp0y",
+   "en": "text.log"
+  },
+  {
+   "k": "iatzyu",
+   "en": "Prints asserts on localization keys."
+  },
+  {
+   "k": "kxwkic",
+   "en": "time.log"
+  },
+  {
+   "k": "1fudkmw",
+   "en": "Prints the time it takes for the various loading steps to complete, and the tick interval. Very useful for crashes during the loading process, to see when the game crashed."
+  },
+  {
+   "k": "1tskzpu",
+   "en": "Crash data log"
+  },
+  {
+   "k": "hpb5g5",
+   "en": "When the game crashes, it provides information on system settings and what caused it to crash in the ⟦0⟧ ⟦1⟧ folder. Although most of the time this is not beneficial as to what caused it to crash, the error log could contain clues. However, one important logging mechanism can be additionally turned on:",
+   "frags": 2
+  },
+  {
+   "k": "vgaqzr",
+   "en": "user directory's"
+  },
+  {
+   "k": "is9cp6",
+   "en": "/Hearts of Iron IV/crashes/"
+  },
+  {
+   "k": "1rgsqm2",
+   "en": "Adding the ⟦0⟧ launch command via ⟦1⟧ in Steam will also cause the ⟦2⟧ file in that folder (⟦3⟧, not in the ⟦4⟧ subfolder) to contain the last read line of code before crashing, as well as turning on the debug mode. This slows down the game by a significant amount, so it shouldn't be used outside of crash debugging. ⟦5⟧ In some cases, the game can grant a script instead of a file, such as a savefile or client_ping. This can appear like ⟦6⟧ (Where the number represents the line of the file that was last read before the crash occurred) or ⟦7⟧.",
+   "frags": 8
+  },
+  {
+   "k": "1xyyvu5",
+   "en": "-crash_data_log"
+  },
+  {
+   "k": "1l6phmk",
+   "en": "Launch Options"
+  },
+  {
+   "k": "3hrimw",
+   "en": "meta.yml"
+  },
+  {
+   "k": "2naada",
+   "en": "Directly within"
+  },
+  {
+   "k": "15k73z2",
+   "en": "/logs/"
+  },
+  {
+   "k": "e7qh0s",
+   "en": "If the last read line of the file given is the last line in the file, it's rather likely the game crashed on the ⟦0⟧ read file instead, which is quite difficult to locate.",
+   "frags": 1
+  },
+  {
+   "k": "pq32lk",
+   "en": "next"
+  },
+  {
+   "k": "14ho1j6",
+   "en": "LastRead: map/supply_nodes.txt (727)"
+  },
+  {
+   "k": "ji8i1z",
+   "en": "LastRead: client_ping (1)"
+  },
+  {
+   "k": "12xqx0v",
+   "en": "Note that while -crash_data_log enables debug mode, not all benefits of the launch option get applied by default and require using both launch options. For example, edits to files indexed during the main menu loading will not get automatically loaded, requiring a console command usage to get reloaded instead. However, -crash_data_log's debug does include the game loading into the main menu with map errors, the nudge being available for selection, and the debug information when hovering over a province or a country."
+  },
+  {
+   "k": "13dbweh",
+   "en": "Common crash causes"
+  },
+  {
+   "k": "1knt6iz",
+   "en": "⟦0⟧, leading to the game detecting there not being any database entries of a certain type. It's best practice to port over generic files to the mod if overwriting a folder in entirety for this reason, as well as to avoid unintuitive errors.",
+   "frags": 1
+  },
+  {
+   "k": "1tewhzj",
+   "en": "A variety of crash types are caused by recklessly unloading folders with ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "g089dv",
+   "en": "replace_path"
+  },
+  {
+   "k": "13ructg",
+   "en": "In case of a different crash, note that if a file is completely empty, the game may skip reading it in entirety. As such, the same crash may display a different file if the one in this list is empty. It's best to completely clean the error log before trying to find a crash, as some errors may appear innocuous while still crashing the game."
+  },
+  {
+   "k": "o9cfry",
+   "en": "If the last read file proves useless, it's possible to temporarily remove files from the mod and slowly re-add them to find the exact cause; upon finding the cause folder, it should be adjusted accordingly. A sort of binary search can be used by adding/removing the files large chunks at the time. replace_paths can be removed aside from essential ones: ⟦0⟧ and ⟦1⟧. Note that ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "eu9fav",
+   "en": "history/states/"
+  },
+  {
+   "k": "fslgtx",
+   "en": "map/strategicregions"
+  },
+  {
+   "k": "18zx7np",
+   "en": "⟦0⟧ *.mod files need to be edited for replace_paths to apply.",
+   "frags": 1
+  },
+  {
+   "k": "1t2fhya",
+   "en": "both"
+  },
+  {
+   "k": "jn9ol1",
+   "en": "⟦0⟧: There are more potential crashes, and any given file or script can have more causes that are not outlined in the list. This has been broken up into sections on when they happen for easier navigation. The file provided is the file marked as last read by the ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "u391dt",
+   "en": "This list is non-exhaustive"
+  },
+  {
+   "k": "f4np6a",
+   "en": "crash data log"
+  },
+  {
+   "k": "1lp7t67",
+   "en": "Main menu loading"
+  },
+  {
+   "k": "1ol6klm",
+   "en": "⟦0⟧ – Caused by a complete overwriting of ⟦1⟧ or ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "9rmi7z",
+   "en": "common/countries/cosmetic.txt"
+  },
+  {
+   "k": "1y4afch",
+   "en": "common/national_focus/"
+  },
+  {
+   "k": "vinq0m",
+   "en": "common/continuous_focus/"
+  },
+  {
+   "k": "k8tash",
+   "en": "⟦0⟧ – Caused by a complete overwriting of ⟦1⟧ or ⟦2⟧. As there are no \"generic files\" for states, one should be created manually instead.",
+   "frags": 3
+  },
+  {
+   "k": "1v6tdyg",
+   "en": "map/rocketsites.txt"
+  },
+  {
+   "k": "hpd3om",
+   "en": "common/unit_leader/"
+  },
+  {
+   "k": "1jro5jj",
+   "en": "⟦0⟧ – This crash, granted that it's the last line of the last file in the folder, can be caused by a focus tree using a ⟦1⟧ argument, specifying a shared focus that does not exist.",
+   "frags": 2
+  },
+  {
+   "k": "b4yyg7",
+   "en": "common/national_focus/*.txt"
+  },
+  {
+   "k": "1myhi41",
+   "en": "shared_focus = my_focus"
+  },
+  {
+   "k": "1s6u2ot",
+   "en": "⟦0⟧ – Caused by an error within the ⟦1⟧. This can be a wide variety of causes. Some causes include provinces.bmp having dimensions as numbers that are undivisible by 256, having a size of over 40 MiB, the dimensions changing between different bitmaps (aside from trees.bmp, where the size changes the density of static models), or an incorrect DIB header formatting (such as setting encoding to be used or using BITMAPV5HEADER instead of BITMAPINFOHEADER) in any bitmap.",
+   "frags": 2
+  },
+  {
+   "k": "75t3ix",
+   "en": "gfx/models/supply/railroad.shader"
+  },
+  {
+   "k": "1f0wgxc",
+   "en": "the .bmp files creating the map"
+  },
+  {
+   "k": "1ccq5le",
+   "en": "⟦0⟧ / ⟦1⟧ / ⟦2⟧ (In order in which they'd appear with replace_paths to the previous ones) — One of the states within the mod has a ⟦3⟧ definition that attempts to assign victory points to a province that does not exist within the game.",
+   "frags": 4
+  },
+  {
+   "k": "yjb0tn",
+   "en": "history/general/*.txt"
+  },
+  {
+   "k": "z6b8e1",
+   "en": "history/countries/*.txt"
+  },
+  {
+   "k": "176w9pe",
+   "en": "victory_points = { ... }"
+  },
+  {
+   "k": "1ob6t6",
+   "en": "⟦0⟧ (takes on the name of a savefile, not necessarily one that exists right now) or ⟦1⟧ – Caused by there being a large quantity of countries defined while there are few (such as 15) or no dynamic countries. The exact amount of countries that the game can handle is not a consistent number, usually falling in the range of 40–80. Typically caused by a reckless overwriting of ⟦2⟧ or the file that stores the dynamic countries being outdated.",
+   "frags": 3
+  },
+  {
+   "k": "7mj1ss",
+   "en": "savegame.hoi4"
+  },
+  {
+   "k": "b95uw7",
+   "en": "map/cities.txt"
+  },
+  {
+   "k": "jnfsp3",
+   "en": "common/country_tags"
+  },
+  {
+   "k": "tna5mx",
+   "en": "⟦0⟧ or ⟦1⟧ - Caused primarily by the strategic regions being broken (usually by a lot of provinces not having one). Since in this state it's impossible to get to the nudger to fix them from there, it is possible to edit their files in a text editor, preferably with help of a tool that helps visualize the map (like the HOI4 Mod Utilities extension for Visual Studio Code).",
+   "frags": 2
+  },
+  {
+   "k": "srzuqv",
+   "en": "numbers.pr"
+  },
+  {
+   "k": "nuutks",
+   "en": "career_profile_*.pr"
+  },
+  {
+   "k": "1tb4ws0",
+   "en": "During country selection"
+  },
+  {
+   "k": "es1lbb",
+   "en": "This also includes the loading after a country has been selected, but it's not yet possible to play."
+  },
+  {
+   "k": "1cocgyn",
+   "en": "⟦0⟧ – This crash typically happens when trying to select a country in a bookmark if the country doesn't have a valid capital defined within its ⟦1⟧ file. The game uses the capital in order to determine what portion of the map to zoom onto, and not getting one is unexpected.",
+   "frags": 2
+  },
+  {
+   "k": "5f7u0k",
+   "en": "set_controller"
+  },
+  {
+   "k": "tzio0w",
+   "en": "/Hearts of Iron IV/history/countries/TAG*.txt"
+  },
+  {
+   "k": "178up9g",
+   "en": "⟦0⟧ – One of the naval orders of battle in the mod has a carrier defined with airwings directly inside, as was done in 1.11 and earlier. ⟦1⟧. Note that the file shown as the last read one is not necessarily the one that crashes the game.",
+   "frags": 2
+  },
+  {
+   "k": "6hk7v",
+   "en": "history/units/filename.txt"
+  },
+  {
+   "k": "1ex8i70",
+   "en": "Adjust the orders of battle in the mod as needed"
+  },
+  {
+   "k": "3n73ah",
+   "en": "⟦0⟧ / ⟦1⟧ – Caused by a country having a division template, yet not finding any possible ⟦2⟧ entry to use to expand on the template. The exact file/script in question depends on ⟦3⟧ the country obtains the division template: an order of battle (which'll be last read) or another history file (leading to railways).",
+   "frags": 4
+  },
+  {
+   "k": "vlwoxg",
+   "en": "map/railways.txt"
+  },
+  {
+   "k": "14k3182",
+   "en": "/Hearts of Iron IV/common/ai_templates"
+  },
+  {
+   "k": "zd8bh5",
+   "en": "when"
+  },
+  {
+   "k": "qop7ma",
+   "en": "⟦0⟧ or ⟦1⟧ – This crash is most commonly caused by the specified building types being placed on invalid provinces, such as those that are not located in states. This crash occurs both when trying to open the supply menu in nudge or when trying to start a single player game. This can be corrected by emptying the files in question and ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1948p9l",
+   "en": "map/supply_nodes.txt"
+  },
+  {
+   "k": "1l8th3u",
+   "en": "optionally creating a proper definition of the files, either manually or via nudge"
+  },
+  {
+   "k": "1g8dgxh",
+   "en": "⟦0⟧ – This crash is caused by the tutorial file being erroneous. This can be represented as a link to an invalid state ID within the file (such as if every base game state was erased) or as the file lacking a ⟦1⟧ definition of any kind entirely. Replacing the entire file's contents with ⟦2⟧ works to solve the crash.",
+   "frags": 3
+  },
+  {
+   "k": "191omno",
+   "en": "tutorial/tutorial.txt"
+  },
+  {
+   "k": "u35snk",
+   "en": "tutorial = { ... }"
+  },
+  {
+   "k": "mfega",
+   "en": "tutorial = { }"
+  },
+  {
+   "k": "1ysht75",
+   "en": "This is also the last file that gets read after the country selection process finishes. If a crash occurs directly afterwards and the game fails to write the file properly, it will land on this one."
+  },
+  {
+   "k": "1ixgtjs",
+   "en": "Middle of the game"
+  },
+  {
+   "k": "13meycd",
+   "en": "⟦0⟧ or ⟦1⟧ – This crash is caused by the in-game AI, which can be seen by turning off the AI ⟦2⟧. There are several causes for this occurring, including but not limited to: A country has a division template, yet couldn't find any /Hearts of Iron IV/common/ai_templates entry to use to expand on the template. Typically caused by a reckless overwriting of the folder with replace_path or an error in setting up the blocked_for = { ... }/available_for = { ... } blocks. Any state not having an owner defined in the history file. In general, such states always run unstably, with a lot of actions crashing them, such as right-clicking or attempting to transfer one to a country. One of such actions is attempting an air mission over that state. As the AI is able to use airplanes, they will try to attempt to at least evaluate the value of doing a mission over the state, which results in a crash to desktop. An incomplete map/buildings.txt. The buildings file is used for determining into which sea province the naval bases and floating harbours will go out into, alongside positioning building models. This information is necessary when attempting to use any naval base or floating harbour, as the game would have no idea via which province the province connects to the sea otherwise. The game also checks this information when attempting to build a naval base, and if the game attempts to evaluate an invalid naval base definition, the game gets stuck in an infinite loop of attempting to obtain the naval base information, resulting in a CPU/GPU overload and a game crash.",
+   "frags": 3
+  },
+  {
+   "k": "1jv7mfb",
+   "en": "client_ping"
+  },
+  {
+   "k": "h0ar58",
+   "en": "hourly_tick"
+  },
+  {
+   "k": "185ho99",
+   "en": "using the console"
+  },
+  {
+   "k": "otx91k",
+   "en": "A country has a division template, yet couldn't find any ⟦0⟧ entry to use to expand on the template. Typically caused by a reckless overwriting of the folder with replace_path or an error in setting up the ⟦1⟧/⟦2⟧ blocks.",
+   "frags": 3
+  },
+  {
+   "k": "14cwhmc",
+   "en": "blocked_for = { ... }"
+  },
+  {
+   "k": "yzg8qz",
+   "en": "available_for = { ... }"
+  },
+  {
+   "k": "7pnldc",
+   "en": "Any state not having an owner defined in the history file. In general, such states always run unstably, with a lot of actions crashing them, such as right-clicking or attempting to transfer one to a country. One of such actions is attempting an air mission over that state. As the AI is able to use airplanes, they will try to attempt to at least evaluate the value of doing a mission over the state, which results in a crash to desktop."
+  }
+ ]
+}

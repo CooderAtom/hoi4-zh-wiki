@@ -1,0 +1,731 @@
+{
+ "batch": 6,
+ "pages": [
+  "User interface"
+ ],
+ "chars": 14705,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "bd5mnq",
+   "en": "The ⟦0⟧ of Hearts of Iron IV will be immediately familiar to veterans of Paradox strategy games. The left hand of the screen will be used to manage large national issues, alert tabs will appear at the top of the screen as a warning of things that need attention, and the right hand side of the screen will be devoted to information about troops. The very top border of the screen will include important summary information about the state of the game and the world.",
+   "frags": 1
+  },
+  {
+   "k": "nq1l25",
+   "en": "user interface"
+  },
+  {
+   "k": "q54trz",
+   "en": "Top information bar"
+  },
+  {
+   "k": "12vmfzn",
+   "en": "Across the top left to center of the main play screen, there is a row of numbers running from left to right."
+  },
+  {
+   "k": "18ne1gv",
+   "en": "This is the amount of political capital the nation's leadership has accumulated. Political power can be spent on completing ⟦0⟧ ideas, appointing ⟦1⟧ (political advisors, designers, theorists, and military staff), taking ⟦2⟧, changing ⟦3⟧, ⟦4⟧, ⟦5⟧, and some ⟦6⟧. Each ⟦7⟧ gains ⟦8⟧⟦9⟧ points of political power per day which can be modified by ⟦10⟧, ⟦11⟧, ⟦12⟧, ⟦13⟧, ⟦14⟧ selection, ⟦15⟧, ⟦16⟧, or player actions.",
+   "frags": 17
+  },
+  {
+   "k": "n6f6ts",
+   "en": "The measure of the people's support for its ⟦0⟧. A ⟦1⟧ with low stability suffers penalties to ⟦2⟧, political power gain, and ⟦3⟧ while experiencing an increase to occupied territory ⟦4⟧ gain. The ⟦5⟧ stability is 50%. A nation with 50% stability does not gain nor lose anything. Stability ⟦6⟧ 50%⟦7⟧ yields positive modifiers related to factory and dockyard output, political power, and consumer goods while stability ⟦8⟧ 50%⟦9⟧ yields negative modifiers in those categories.",
+   "frags": 10
+  },
+  {
+   "k": "h4zfkw",
+   "en": "The measure of the people's support for war. War support directly affects mobilization speed, Command Power gain, and attack and defense on ⟦0⟧ territory. Fascist and aggressive nations generally have more initial war support, but they can eventually be surpassed by democracies fighting a defensive war. ⟦1⟧ gain a positive war support buff for being in a defensive war and a negative buff when being in an offensive war. War support is also affected by world tension, ⟦2⟧, enemy bombing, allied interception, enemy convoy raiding, heroes being killed in action, and operative ⟦3⟧. Nations with low war support tend to surrender quicker.",
+   "frags": 4
+  },
+  {
+   "k": "37jne2",
+   "en": "The number of men available to create and reinforce military units. This is based on the territories under the nation's control (⟦0⟧ and ⟦1⟧ giving different manpower yields) and affected by a number of factors, primarily ⟦2⟧, ⟦3⟧ and the number of \"units under construction\", also known as units under ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "1ucokz4",
+   "en": "Three separate numbers, listing the military factories, naval dockyards and civilian factories available for new orders. We will deal with their roles in a future section."
+  },
+  {
+   "k": "1gps79l",
+   "en": "Fuel is generated by the nation's excess oil. Each nation has a maximum capacity for fuel which can be increased by building ⟦0⟧ and ⟦1⟧. Fuel generation is affected by oil available (domestic and traded), ⟦2⟧, and ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "1rsv7kx",
+   "en": "Logistics Capacity (Fulfillment) represents how satisfied your supply lines are. If your country lacks the trains, trucks, or convoy ships for transferring all supply needs, then your units will get reduced supply which can result in supply penalties."
+  },
+  {
+   "k": "1sbaxu4",
+   "en": "The number of ⟦0⟧, also known as transports, that are available. Each trade for overseas strategic resources requires the allocation of ⟦1⟧ units. Moving land units across oceans and seas requires an allocation of ⟦2⟧. The number of available transports can be increased by building new convoys in the unit production menu.",
+   "frags": 3
+  },
+  {
+   "k": "na0x3n",
+   "en": "Command power represents the ability of the ⟦0⟧ to bypass the chain of command and directly influence the military. Command power is used for various military operations and promotion of generals. It is capped at 200⟦1⟧, however, the growth and cap can be increased by ⟦2⟧ and ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "vmn7ay",
+   "en": "⟦0⟧, ⟦1⟧ and ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "pxrzr7",
+   "en": "As units fight or, in the case of armies, ⟦0⟧, they will gain ⟦1⟧. Army experience can be spent in the unit designer to edit or create new land division templates or modify tank and tank variant equipment. Air experience can be spent on modifications for planes, giving them bonuses to speed, firepower, and so on. Naval experience can be spent on modifications for ships or in the ship designer to create new ship patterns or upgrade old ones.",
+   "frags": 2
+  },
+  {
+   "k": "15kifm2",
+   "en": "All three sorts of experience can be spent to gain research speed boosts, at a rate of 100 XP for a 100% research speed bonus for land, air and naval doctrines, respectively. Naval XP may be used to get a 50-150% research speed bonus for certain naval modules."
+  },
+  {
+   "k": "1vcp67f",
+   "en": "When nuclear weapons are researched, an icon with a number will appear in the top information bar showing the amount of nuclear bombs a country has available."
+  },
+  {
+   "k": "1mikzlb",
+   "en": "World Tension at 100% To the upper right of the screen there is a globe with a percentage below it, indicating the level of world tension. This percentage is the measure of how close the world is to world war. Some diplomatic and military actions, especially for democratic or neutral nations, require world tension to reach a specific level. World tension is increased by historical ⟦0⟧, declarations of war, and other hostile diplomatic actions. The globe can be selected and the Player can access a list of events affecting world tension and a list of ongoing wars.",
+   "frags": 1
+  },
+  {
+   "k": "15u7zw2",
+   "en": "Main menu bar"
+  },
+  {
+   "k": "13bs3ky",
+   "en": "The Flag and 9 icon buttons (10 with ⟦0⟧ ) to the immediate right of the Flag provide direct access to the primary menus for interaction with your country. The hotkeys for these menu buttons are noted below. They follow, from left to right, across the top row of the keyboard.",
+   "frags": 1
+  },
+  {
+   "k": "z1ygrj",
+   "en": "La Résistance"
+  },
+  {
+   "k": "y045ub",
+   "en": "Hotkey"
+  },
+  {
+   "k": "ado0tr",
+   "en": "Shift+Q"
+  },
+  {
+   "k": "9totft",
+   "en": "Shift+W"
+  },
+  {
+   "k": "4tvyyb",
+   "en": "Shift+E"
+  },
+  {
+   "k": "8auicu",
+   "en": "Opens"
+  },
+  {
+   "k": "zc9cvq",
+   "en": "Government"
+  },
+  {
+   "k": "vwifyo",
+   "en": "Decisions"
+  },
+  {
+   "k": "edpl0h",
+   "en": "Intelligence agency"
+  },
+  {
+   "k": "pps2r0",
+   "en": "Research"
+  },
+  {
+   "k": "6bam3x",
+   "en": "International Market"
+  },
+  {
+   "k": "1winv95",
+   "en": "Trade"
+  },
+  {
+   "k": "j6p9kc",
+   "en": "Construction"
+  },
+  {
+   "k": "128dyd6",
+   "en": "Production"
+  },
+  {
+   "k": "98jr52",
+   "en": "Recruit & Deploy"
+  },
+  {
+   "k": "146p7sg",
+   "en": "Logistics"
+  },
+  {
+   "k": "j9ov50",
+   "en": "Officer Corps"
+  },
+  {
+   "k": "5ygfnd",
+   "en": "National information and development"
+  },
+  {
+   "k": "t6v6t8",
+   "en": "To the far left of the screen is the national flag. Click on this flag to open a view of national status. This includes a portrait of the national leader, political system and level of support for each of the four ⟦0⟧, the ⟦1⟧ that currently apply, and three rows of items that can be changed by spending ⟦2⟧. The view includes buttons for managing ⟦3⟧, exiled governments and ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "qmqcod",
+   "en": "ideologies"
+  },
+  {
+   "k": "1npsg35",
+   "en": "National spirits"
+  },
+  {
+   "k": "1d66nj1",
+   "en": "political power"
+  },
+  {
+   "k": "16lvo2z",
+   "en": "occupied territories"
+  },
+  {
+   "k": "5q6jxw",
+   "en": "subjects"
+  },
+  {
+   "k": "1kmz03q",
+   "en": "The player will be prompted to choose a ⟦0⟧ for the country if none is active. Most national focuses take 70 days to complete, at a cost of one political power point per day. National focuses form a tree, like the technology tree, but rather than unlocking technology they are about the country's choice of direction. One may choose to, for the moment, focus on industrial or technological growth, or orient the country's diplomacy towards certain other countries, forming research pacts, starting factions, gaining claims, or threatening war. Some National Focus choices are mutually exclusive; for example, the ⟦1⟧ cannot be friends with both ⟦2⟧ and ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "106vgj",
+   "en": "national focus"
+  },
+  {
+   "k": "i87c38",
+   "en": "German Reich"
+  },
+  {
+   "k": "15auucw",
+   "en": "China"
+  },
+  {
+   "k": "193rgu3",
+   "en": "Japan"
+  },
+  {
+   "k": "11f0u4l",
+   "en": "This menu also allows political power to be spent in order to change government laws or hire political, military and industrial advisors. These are summarized under the term ⟦0⟧. Most changes will cost a minimum of 150 political power, and very powerful advisers may cost up to 250, with extremely powerful laws and advisers costing up to 300 political power and sometimes even more than that.",
+   "frags": 1
+  },
+  {
+   "k": "1v73mq3",
+   "en": "ideas"
+  },
+  {
+   "k": "it0fzx",
+   "en": "Laws & Government"
+  },
+  {
+   "k": "1dy803g",
+   "en": "⟦0⟧: Affects how much ⟦1⟧ is available to the country for military service, factory output, dockyard output, construction speed, and training time.",
+   "frags": 2
+  },
+  {
+   "k": "1q7py86",
+   "en": "Conscription law"
+  },
+  {
+   "k": "19uembk",
+   "en": "manpower"
+  },
+  {
+   "k": "1005kra",
+   "en": "⟦0⟧: Affects resources to market, factory output, dockyard output, construction speed, and research time.",
+   "frags": 1
+  },
+  {
+   "k": "1fc8zox",
+   "en": "Trade law"
+  },
+  {
+   "k": "1pxadan",
+   "en": "⟦0⟧: Affects how many factories are dedicated to consumer goods, manpower availability, civilian and military factory construction speed, and conversion speed for factories.",
+   "frags": 1
+  },
+  {
+   "k": "101oxcr",
+   "en": "Economy law"
+  },
+  {
+   "k": "dm9bp6",
+   "en": "Up to three ⟦0⟧ can be hired to give the country bonuses in different fields.",
+   "frags": 1
+  },
+  {
+   "k": "7mhbtx",
+   "en": "political advisors"
+  },
+  {
+   "k": "1u9wltd",
+   "en": "Research & Production"
+  },
+  {
+   "k": "1008gt8",
+   "en": "There are multiple ⟦0⟧ that can be added, such as a tank designer, ship designer, aircraft designer, material designer and industrial concern, to earn reductions and bonuses for the relevant field. These bonuses can include any combination of a reduction in research time, an increase in equipment production, or an increase in equipment combat abilities.",
+   "frags": 1
+  },
+  {
+   "k": "1emgqq8",
+   "en": "design companies"
+  },
+  {
+   "k": "1jnmd9c",
+   "en": "It is also possible to add a ⟦0⟧ to reduce doctrine experience costs, to reduce costs for rocket research or nuclear research, or to increase max speed by 10% for armor equipment.",
+   "frags": 1
+  },
+  {
+   "k": "1iezpun",
+   "en": "theorist"
+  },
+  {
+   "k": "9eo5bs",
+   "en": "Military staff"
+  },
+  {
+   "k": "1s1f16u",
+   "en": "As ⟦0⟧, a Chief of Army, a Chief of Navy and a Chief of Air Force can be hired to improve combat stats in the relevant field. Up to three other members of the high command may be hired.",
+   "frags": 1
+  },
+  {
+   "k": "1lthf4o",
+   "en": "military staff"
+  },
+  {
+   "k": "10t9qm2",
+   "en": "The gray button at the top of the screen marked with a gavel opens the Events and Decisions menu. Decisions allow a nation to do special projects such as switching ideology, conducting border wars, banning political parties, censoring the press, ⟦0⟧, etc. These decisions typically cost anywhere from 25 to 150 political power. Decisions are a middle ground between focus trees and events (allows additional modding and mechanics).",
+   "frags": 1
+  },
+  {
+   "k": "ui5k17",
+   "en": "excavating for resources"
+  },
+  {
+   "k": "qkl3ep",
+   "en": "Intelligence Agency"
+  },
+  {
+   "k": "xo8yqo",
+   "en": "The gray button at the top of the screen marked with an eye opens the ⟦0⟧ menu. Establishing an Intelligence Agency allows a nation to recruit operatives (spies), expand intelligence capabilities, and conduct intelligence operations (espionage missions).",
+   "frags": 1
+  },
+  {
+   "k": "31v5lp",
+   "en": "The gray button at the top of the screen marked with an Erlenmeyer flask opens the ⟦0⟧ menu. There will be two to four slots available to research particular technologies, but pursuing specific national focus ideas may unlock additional research slots.",
+   "frags": 1
+  },
+  {
+   "k": "rfgyq4",
+   "en": "research"
+  },
+  {
+   "k": "1ysxhhe",
+   "en": "Each nation starts with a historically appropriate level of technology and theory depending on the scenario. All the research trees are marked along a historical timeline. Researching a technology or unit before the historic date will take more days than if it had been researched at, or after, the historic date. This penalty may be modified by pursuing certain National Focus ideas."
+  },
+  {
+   "k": "18vy4ui",
+   "en": "There are nine categories of research. Note: ⟦0⟧ are no longer part of the research tree with the release of patch 1.11.0 Barbarossa.",
+   "frags": 1
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "19fhdqe",
+   "en": "⟦0⟧: research better infantry weapons and equipment and unlock specialized types of infantry divisions. This is where mobile infantry (motorized infantry and mechanized infantry), paratroopers, marines, mountain troops, trucks, motorized rocket artillery (MRA), amphibious vehicles, and armored cars (requires ⟦1⟧ DLC) will be unlocked. Infantry technology screen - outdated (doctrines removed from research and added to officer corps with patch 1.11.0 Barbarossa).",
+   "frags": 2
+  },
+  {
+   "k": "1m32jfk",
+   "en": "Infantry"
+  },
+  {
+   "k": "48prcl",
+   "en": "⟦0⟧: research support equipment and improve support companies that can be attached to divisions. This is also where engineers, recon, military police (MP), maintenance, field hospitals, logistics, and signal companies can be unlocked. Train engines and railway guns can be unlocked with the ⟦1⟧ DLC.",
+   "frags": 2
+  },
+  {
+   "k": "16pgs87",
+   "en": "Support Companies"
+  },
+  {
+   "k": "11r223j",
+   "en": "No Step Back"
+  },
+  {
+   "k": "w355ws",
+   "en": "⟦0⟧: research that unlocks and improves light (LARM), medium (MARM), heavy (HARM), super heavy (SHARM), and modern battle tanks (MBT), as well as their variants: tank destroyer (TD), self-propelled artillery/gun (SHART or SPG), and self-propelled anti-air (SPAA). With the ⟦1⟧ DLC, the panel consists of various tank chassis technologies as well as individual module technologies ranging from armor plate to engines.",
+   "frags": 2
+  },
+  {
+   "k": "10tp7xw",
+   "en": "Armor"
+  },
+  {
+   "k": "k6plyj",
+   "en": "⟦0⟧: research that unlocks and improves all types of artillery including anti-tank (AT), anti-air (AA), and rocket artillery (RART). With the ⟦1⟧ DLC, the panel consists of various tank gun module technologies ranging from small cannons to advanced high velocity cannons to auto loaders.",
+   "frags": 2
+  },
+  {
+   "k": "1r47f81",
+   "en": "Artillery"
+  },
+  {
+   "k": "1dblvv9",
+   "en": "⟦0⟧: research that unlocks and improves ships: Destroyer (DD), Cruiser (CL,CA), Heavy Ship (BB,BC), Carrier (CV) and Submarine (SS) hull technologies as well as destroyer ship modules for anti-submarine warfare, smoke generators, improved aircraft catapults and armor for cruisers and heavy ships.",
+   "frags": 1
+  },
+  {
+   "k": "1839667",
+   "en": "Naval"
+  },
+  {
+   "k": "idf2ct",
+   "en": "⟦0⟧: research that unlocks naval weaponry, naval training, transport ships and mine-warfare technologies.",
+   "frags": 1
+  },
+  {
+   "k": "xyavbk",
+   "en": "Naval support"
+  },
+  {
+   "k": "n2pz1m",
+   "en": "⟦0⟧: research that unlocks and improves aircraft: fighter (FTR), heavy fighter (HFTR), close air support (CAS), naval bomber (NAV), tactical bomber (TAC), and strategic bomber including carrier borne variants and jet propelled versions.",
+   "frags": 1
+  },
+  {
+   "k": "15jotdj",
+   "en": "Air"
+  },
+  {
+   "k": "8jrw4j",
+   "en": "⟦0⟧: research electrical engineering to improve or unlock radio (for reinforce rate bonuses and signal companies), radars (for detection bonuses), and computers (for encryption and decryption bonuses), research atomic energy to unlock nuclear reactors and nuclear bombs, and research experimental rockets to unlock and improve rocket engines (for rocket interceptors and guided missiles) and jet engines (for jet aircraft).",
+   "frags": 1
+  },
+  {
+   "k": "zbthlc",
+   "en": "Engineering"
+  },
+  {
+   "k": "1kbrrts",
+   "en": "⟦0⟧: research that improves military factories and dockyards (for output, production efficiency and retention, military equipment conversion speed, factory bomb vulnerability and repair speed), construction speed (for faster building), resource extraction (for natural resource gains), and synthetic refineries (for fuel and rubber resource gains).",
+   "frags": 1
+  },
+  {
+   "k": "3g2xun",
+   "en": "Industry"
+  },
+  {
+   "k": "1ftjdix",
+   "en": "Diplomacy"
+  },
+  {
+   "k": "r26nw",
+   "en": "The gray button with a hand ready to be shaken opens the ⟦0⟧ menu. This menu presents a list of nations and a number of filter buttons to narrow down the list. Note: After an update, the Diplomacy icon was replaced by \"International Market.\" At the bottom of that screen is a button to \"Open Diplomacy.\"",
+   "frags": 1
+  },
+  {
+   "k": "ac32jd",
+   "en": "diplomacy"
+  },
+  {
+   "k": "4rydxl",
+   "en": "Filtering can be performed by:"
+  },
+  {
+   "k": "1lh5h5d",
+   "en": "World region Africa Asia Europe Middle East North America Oceania South America"
+  },
+  {
+   "k": "wkyszr",
+   "en": "Africa"
+  },
+  {
+   "k": "12920bb",
+   "en": "Asia"
+  },
+  {
+   "k": "1pa4s13",
+   "en": "Europe"
+  },
+  {
+   "k": "1z50b9",
+   "en": "Middle East"
+  },
+  {
+   "k": "4z0nw8",
+   "en": "North America"
+  },
+  {
+   "k": "pjyrv",
+   "en": "Oceania"
+  },
+  {
+   "k": "12lzmji",
+   "en": "South America"
+  },
+  {
+   "k": "4w304g",
+   "en": "Ideology Communist Democracy Fascist Non-Aligned (Neutral)"
+  },
+  {
+   "k": "1ltkhsy",
+   "en": "Communist"
+  },
+  {
+   "k": "16kw2dq",
+   "en": "Democracy"
+  },
+  {
+   "k": "it8sfu",
+   "en": "Fascist"
+  },
+  {
+   "k": "18qu8f3",
+   "en": "Non-Aligned (Neutral)"
+  },
+  {
+   "k": "146sz6o",
+   "en": "Major Countries"
+  },
+  {
+   "k": "rbvkzq",
+   "en": "Factions Allies Axis Comintern"
+  },
+  {
+   "k": "teori7",
+   "en": "Allies"
+  },
+  {
+   "k": "1turcic",
+   "en": "Axis"
+  },
+  {
+   "k": "pf5d32",
+   "en": "Comintern"
+  },
+  {
+   "k": "1jfipc7",
+   "en": "After clicking on a nation to interact with, there will be a portrait of its leader, and a little bit of information about what the nation is up to. In the upper right corner of the menu, there will be a couple of tiny flags with arrows indicating the relationship between the two nations."
+  },
+  {
+   "k": "fz81u1",
+   "en": "There are a number of actions that can be taken in the diplomatic menu, provided the requirements are met. Democracies are especially limited in their abilities to undertake aggressive diplomatic actions unless the world tension meter has climbed to a high enough level."
+  },
+  {
+   "k": "1jghlwe",
+   "en": "Hover the mouse over each option for a description of the diplomatic action and what conditions must be met."
+  },
+  {
+   "k": "fovpvi",
+   "en": "The gray button with box and curved exchange arrows opens the ⟦0⟧ menu. There will be a number of tabs and sortable columns listing the major resources available, what is required such as quantity of convoys, and possible trading partners. These possible trading partners can be further filtered by world region, neighbors, or subjects (puppets).",
+   "frags": 1
+  },
+  {
+   "k": "mj7kgp",
+   "en": "trade"
+  }
+ ]
+}

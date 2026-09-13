@@ -1,0 +1,706 @@
+{
+ "batch": 60,
+ "pages": [
+  "Division"
+ ],
+ "chars": 14542,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1d7xn64",
+   "en": "See also: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "181qfec",
+   "en": "The ⟦0⟧ is the primary ⟦1⟧ depicted on the map during gameplay. Divisions operate inside of a ⟦2⟧, may be transported via ⟦3⟧, and may participate in ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "1myrm5i",
+   "en": "division"
+  },
+  {
+   "k": "1skg6pz",
+   "en": "unit"
+  },
+  {
+   "k": "71r0hx",
+   "en": "province"
+  },
+  {
+   "k": "56aw52",
+   "en": "naval invasion"
+  },
+  {
+   "k": "18tcvy4",
+   "en": "land combat"
+  },
+  {
+   "k": "kct2c4",
+   "en": "Division template"
+  },
+  {
+   "k": "oimjp5",
+   "en": "The composition of each division is specified by its division template. Each country starts with one or more division templates that may be used to order recruiting and deployment of new land units. Division templates may be created and modified by spending ⟦0⟧. New templates may be created by either using the Duplicate button to make a duplicate of a template, giving it a name different from existing templates, and then making modifications to a template as described below, or by selecting the name and pressing \"Create Empty\". Certain technologies that unlock new battalion types, such as mountaineers, also create basic templates for them. Land experience is not charged until the changes are saved using the Save button on which the total cost is also shown, so players can experiment and analyze the results of changes before making a decision.",
+   "frags": 1
+  },
+  {
+   "k": "916qq8",
+   "en": "army experience"
+  },
+  {
+   "k": "1asoqde",
+   "en": "When a template is changed, all divisions that are based on that template immediately place orders for additional needed manpower and equipment and return any manpower or equipment that is now surplus to the national stockpile. It is wise to have any needed manpower and equipment ready in the national stockpile before changing the template of a division that may be expected to face combat in the near future. It may be prudent to upgrade units one at a time."
+  },
+  {
+   "k": "1b12pua",
+   "en": "Divisions can not be divided into smaller game units, but it is possible to merge understrength divisions of the same template in the Army window using the ⟦0⟧ button if the selected divisions are independent of any army command. Such consolidation can be extremely useful for a country low on manpower or equipment that needs to field adequately sized divisions.",
+   "frags": 1
+  },
+  {
+   "k": "uqcok7",
+   "en": "Consolidation"
+  },
+  {
+   "k": "1pyrx97",
+   "en": "The template a division uses can be changed at any time by selecting the unit helmet, tank or other unit symbol icon in the Unit Details screen when that division's template is open and choosing any of the templates available there."
+  },
+  {
+   "k": "1qiw6ex",
+   "en": "Each division consists of up to ⟦0⟧ and ⟦1⟧. In turn, each combat regiment is composed of up to five battalions. It costs 5 XP to add a battalion to a division; regardless if it is the same or new regiment. Adding a battalion of a different unit type (infantry, mobile, or armored) adds a penalty of 20 XP per additional unit type.",
+   "frags": 2
+  },
+  {
+   "k": "3kfv9d",
+   "en": "five combat regiments"
+  },
+  {
+   "k": "1b879eh",
+   "en": "five support companies"
+  },
+  {
+   "k": "1a192x2",
+   "en": "Division"
+  },
+  {
+   "k": "1u9zk0o",
+   "en": "Regiment"
+  },
+  {
+   "k": "1hra0d8",
+   "en": "Company"
+  },
+  {
+   "k": "wg1mih",
+   "en": "Battalion"
+  },
+  {
+   "k": "1hwmyo1",
+   "en": "A division may have any number of the same unit type for battalions, but only one of each unit type for support companies."
+  },
+  {
+   "k": "kxnvyx",
+   "en": "A division template may be specified as reserve, regular, or elite. Elite divisions will be prioritized for better equipment, followed by regular divisions and finally reserves."
+  },
+  {
+   "k": "1v50evl",
+   "en": "Each division template can receive specific types of equipment if multiple types are available. An example would be elite divisions only using the latest weapons and reserve divisions using the oldest."
+  },
+  {
+   "k": "10p7q4k",
+   "en": "Combat Battalions"
+  },
+  {
+   "k": "1vo7umk",
+   "en": "Each combat regiment in a division consists entirely of a mix of battalions within a single battalion type. The three battalion types are:"
+  },
+  {
+   "k": "1hwwgas",
+   "en": "⟦0⟧: Infantry, special forces, line (towed) artillery/anti-air/anti-tank",
+   "frags": 1
+  },
+  {
+   "k": "1eu2tkv",
+   "en": "Infantry battalions"
+  },
+  {
+   "k": "zzx6o4",
+   "en": "⟦0⟧: Cavalry, motorized infantry, mechanized infantry, motorized rocket artillery, motorized artillery/anti-air/anti-tank, armored cars",
+   "frags": 1
+  },
+  {
+   "k": "qgqbgu",
+   "en": "Mobile battalions"
+  },
+  {
+   "k": "1ph14il",
+   "en": "⟦0⟧: Tanks, tank destroyers, self-propelled artillery/anti-air, amphibious tanks",
+   "frags": 1
+  },
+  {
+   "k": "1whov2z",
+   "en": "Armored battalion"
+  },
+  {
+   "k": "1xkgk2l",
+   "en": "Increasing the number of battalions in a division modifies the stats of the division: for example new combat battalions increase the HP and combat width of the division, and typically increase at least the different attack and defense statistics. Note that the division's organization is the average of the organization of the included battalions, thus it is possible that the division's (average) organization actually drops when adding new battalions. See ⟦0⟧ for more discussion on this.",
+   "frags": 1
+  },
+  {
+   "k": "1jy4uu4",
+   "en": "§ Sizing"
+  },
+  {
+   "k": "xp6ceq",
+   "en": "For the armor, piercing and hardness stats there is a different calculation:"
+  },
+  {
+   "k": "1evh37a",
+   "en": "⟦0⟧ 40% * (Highest Armor of a Battalion) + 60% * (Average Armor for All Battalions and Companies) = Armor of the Division",
+   "frags": 1
+  },
+  {
+   "k": "gnwfka",
+   "en": "Armor:"
+  },
+  {
+   "k": "1ghj0pg",
+   "en": "⟦0⟧ If there are 3 Batallions, 2 Infantry (1936), and 1 Light Tank (1934), then the calculation would look like this:",
+   "frags": 1
+  },
+  {
+   "k": "1f77ush",
+   "en": "Example:"
+  },
+  {
+   "k": "fybadd",
+   "en": "⟦0⟧ 40% * (Highest Piercing of a Battalion or Support Company) + 60% * (Average Piercing for All Battalions and Companies) = Piercing of the Division",
+   "frags": 1
+  },
+  {
+   "k": "oxprek",
+   "en": "Piercing:"
+  },
+  {
+   "k": "6kq348",
+   "en": "⟦0⟧ Average of Hardness of Line Battalions = Hardness of the Division",
+   "frags": 1
+  },
+  {
+   "k": "18jjrlz",
+   "en": "Hardness:"
+  },
+  {
+   "k": "11p3p4e",
+   "en": "⟦0⟧ If there are 4 Batallions, 2 Infantry (1936) and 2 Light Tanks (1934), then the calculations would look like this:",
+   "frags": 1
+  },
+  {
+   "k": "9j154y",
+   "en": "Combat battalion composition determines how ⟦0⟧ or ⟦1⟧ applies to this division. Their bonuses are modified by the target battalion count in the total combat battalions.",
+   "frags": 2
+  },
+  {
+   "k": "6gxue0",
+   "en": "military high command bonuses"
+  },
+  {
+   "k": "vep1ya",
+   "en": "commander traits"
+  },
+  {
+   "k": "16pgs87",
+   "en": "Support Companies"
+  },
+  {
+   "k": "1tilzte",
+   "en": "Main article: Support Companies technology"
+  },
+  {
+   "k": "mxkdxs",
+   "en": "A division may have up to five different support companies. These are referred to in doctrines and elsewhere in the game as 'integrated support', distinguished from 'dispersed support' which is an Artillery, Anti-Air or Anti-Tank type regiment included in a combat regiment column. Support company options are:"
+  },
+  {
+   "k": "m3l4g3",
+   "en": "⟦0⟧: Gives a smaller bonus to soft attack than a line regiment's artillery battalion because it has fewer guns. It does not slow the division† or affect paradrops.",
+   "frags": 1
+  },
+  {
+   "k": "1w9qo2m",
+   "en": "Support Artillery"
+  },
+  {
+   "k": "gaibks",
+   "en": "⟦0⟧: Gives a smaller bonus to air attack than a line regiment's anti-air battalion because it has fewer guns. It does not slow the division† or affect paradrops.",
+   "frags": 1
+  },
+  {
+   "k": "3oaemp",
+   "en": "Support Anti-Air"
+  },
+  {
+   "k": "192ootz",
+   "en": "⟦0⟧: Gives a smaller bonus to hard attack and piercing than a line regiment's anti-tank battalion because it has fewer guns. It does not slow the division† or affect paradrops.",
+   "frags": 1
+  },
+  {
+   "k": "1eg3avn",
+   "en": "Support Anti-Tank"
+  },
+  {
+   "k": "1loymbf",
+   "en": "⟦0⟧: Similar to regular support artillery but it also gives a bonus to the division's breakthrough stat, used to avoid enemy attacks when attacking.",
+   "frags": 1
+  },
+  {
+   "k": "1i3wory",
+   "en": "Support Rocket Artillery"
+  },
+  {
+   "k": "l1jfgm",
+   "en": "⟦0⟧: Increases the Entrenchment stat of the division and helps in attacking forts and river crossings.",
+   "frags": 1
+  },
+  {
+   "k": "1qqjt5r",
+   "en": "Engineer Company"
+  },
+  {
+   "k": "1rkl6jn",
+   "en": "⟦0⟧: Increases speed in difficult terrain† and the division's Reconnaissance stat, making it easier to counter enemy combat tactics in battle.",
+   "frags": 1
+  },
+  {
+   "k": "1s1t5x",
+   "en": "Cavalry Recon Company"
+  },
+  {
+   "k": "19obbtw",
+   "en": "Motorized Recon Company"
+  },
+  {
+   "k": "1vcgt7n",
+   "en": "Armored Car Recon Company"
+  },
+  {
+   "k": "10kq4cx",
+   "en": "Light Tank Recon Company"
+  },
+  {
+   "k": "nbj69x",
+   "en": "⟦0⟧: Gives a bonus to the Suppression stat of its division's line battalions, helping to reduce the effects of partisans. Military Police with 2-6 minimally equipped and trained Cavalry battalions makes an efficient and effective rear-area security division.",
+   "frags": 1
+  },
+  {
+   "k": "p9065s",
+   "en": "Military Police"
+  },
+  {
+   "k": "icy16y",
+   "en": "⟦0⟧: Adds an equipment reliability bonus to the division, reducing equipment losses from training and combat. Advised for combat units using expensive equipment (like tanks).",
+   "frags": 1
+  },
+  {
+   "k": "1v66itj",
+   "en": "Maintenance Company"
+  },
+  {
+   "k": "sl3tbu",
+   "en": "⟦0⟧: Increases Trickleback stat (returns percentage of lost manpower to the pool) and reduces experience loss from taking casualties. Advised for front-line combat divisions.",
+   "frags": 1
+  },
+  {
+   "k": "pbqib7",
+   "en": "Field Hospital"
+  },
+  {
+   "k": "3gwspq",
+   "en": "⟦0⟧: Reduces the supply usage of the entire division. This is valuable in areas of low supply and for avoiding the need to disperse for supply reasons.",
+   "frags": 1
+  },
+  {
+   "k": "d7l653",
+   "en": "Logistics Company"
+  },
+  {
+   "k": "1p1vmyr",
+   "en": "⟦0⟧: Increases the Initiative stat of the division, speeding up planning and increasing the chance of reinforcement in battle from reserves.",
+   "frags": 1
+  },
+  {
+   "k": "fz6pn6",
+   "en": "Signal Company"
+  },
+  {
+   "k": "fago74",
+   "en": "† Most (but not all) support companies do not affect a division's speed and do not affect combat width as they are forces that remain behind the fighting front while the \"front line\" combat battalions engage. Therefore a towed antitank support company does not affect the 12 kph speed of a fast division but adding a towed antitank combat battalion to the regiment lines would slow that same division to the towed anti-tank's base speed of 4 KPH. So support Artillery, Anti-Air or Anti-Tank support units can add valuable capabilities to fast divisions."
+  },
+  {
+   "k": "1hrrem8",
+   "en": "However, Recon companies do affect the division's speed. Not only do they set the maximum possible speed for the whole division, but (as with line battalions), their speed will be reduced if they are short of essential ⟦0⟧ (infantry and support equipment for Cavalry, those plus motorized for Motorized, armored cars only for Armored Car, and light tanks only for Light Tank). Since Recon companies need only 10 support equipment items or 24 tanks, the absence of a small number of equipment items can have a large affect on the speed of the whole division.",
+   "frags": 1
+  },
+  {
+   "k": "1la4po7",
+   "en": "equipment"
+  },
+  {
+   "k": "bzr725",
+   "en": "An infantry division marching at 4 kph is well-matched by combat battalions marching at 4 kph as well. Additional bonuses and effects of adding a support company to overall division stats can be seen in the tooltip in the division designer. Even though these companies may historically have been much larger than company size, they are referred to as support companies to distinguish them from the battalions in line regiments."
+  },
+  {
+   "k": "1lykc4i",
+   "en": "Army experience costs"
+  },
+  {
+   "k": "vbg30w",
+   "en": "Modifying a division template may cost army experience."
+  },
+  {
+   "k": "2wk0tb",
+   "en": "Action"
+  },
+  {
+   "k": "s6ax4m",
+   "en": "XP cost"
+  },
+  {
+   "k": "4f76ga",
+   "en": "Notes"
+  },
+  {
+   "k": "1snruo9",
+   "en": "Duplicate a template"
+  },
+  {
+   "k": "2e25bq",
+   "en": "Change a template's equipment"
+  },
+  {
+   "k": "1xg2udz",
+   "en": "Change a template's name or icon"
+  },
+  {
+   "k": "hugkyq",
+   "en": "Change a template's priority"
+  },
+  {
+   "k": "1u5j0gx",
+   "en": "Add a combat regiment of an existing type"
+  },
+  {
+   "k": "hni6wg",
+   "en": "Includes one battalion."
+  },
+  {
+   "k": "28fe2e",
+   "en": "Add a combat regiment of a new type"
+  },
+  {
+   "k": "7mhkm9",
+   "en": "Add/swap out a combat battalion"
+  },
+  {
+   "k": "138ibys",
+   "en": "Remove a battalion"
+  },
+  {
+   "k": "twtjsk",
+   "en": "This can remove the last battalion in a regiment, removing the regiment."
+  },
+  {
+   "k": "1ypfor",
+   "en": "Change a combat battalion type to an existing type"
+  },
+  {
+   "k": "fd1iyx",
+   "en": "5 per battalion"
+  },
+  {
+   "k": "lmj969",
+   "en": "The existing battalions may be moved between regiments of the same type, or to new regiments, at no additional cost."
+  },
+  {
+   "k": "1q9t2e9",
+   "en": "Change a combat regiment type to a new type"
+  },
+  {
+   "k": "10xmsiz",
+   "en": "25 + 5 per battalion"
+  },
+  {
+   "k": "619vfj",
+   "en": "When changing the first (uppermost) battalion in a regiment, you first select the type. If a different type is selected, all of that regiment's battalions are changed to that battalion type."
+  },
+  {
+   "k": "lckql",
+   "en": "Add/swap out a support company"
+  },
+  {
+   "k": "70be6u",
+   "en": "Remove a support company"
+  },
+  {
+   "k": "1cdl8mi",
+   "en": "Armored Templates"
+  },
+  {
+   "k": "1skn2yl",
+   "en": "Some countries already have some tank equipment researched in 1936, and these get an armored template at the start of the game. This is usually a historic template that matches the order of battle of one or more of their starting divisions. For example, Italy (\"Divisione Celere\" template) and the Soviet Union (\"Mekhanizirovaniy Korpus\" template) are both in this situation. These templates allow you to create new armored divisions with light tanks. If you have any army experience, then you can change the historic template."
+  },
+  {
+   "k": "1tmeq4e",
+   "en": "A few countries have some tank equipment already researched when the game starts, but don't actually start with any historical armoured divisions. For example, Commonwealth countries like Canada who get tank equipment researched in 1936 (shared with them by UK), though they have no armored divisions then. These countries get an armoured template at the start of the game (called \"Armored-Division\"), so they can create armored divisions later."
+  },
+  {
+   "k": "17a5662",
+   "en": "All other countries get a free template (called \"Armored-Division\") when they research their first tank equipment."
+  },
+  {
+   "k": "1nev4gx",
+   "en": "The free \"Armored-Division\" template, and those templates which some countries start with, are always light tank templates. To modify these, or modify a duplicate, for use with medium or heavy tanks costs some army experience. As soon as you complete the research, the Division Designer will allow you to replace the light tank battalions with medium or heavy. This costs 5 XP for each battalion."
+  },
+  {
+   "k": "f4zbev",
+   "en": "Hardness"
+  },
+  {
+   "k": "j7hj6y",
+   "en": "The Division Designer has a bar just below the stats, which shows the hardness of the divisions created with the template."
+  },
+  {
+   "k": "k95l53",
+   "en": "Hardness represents how much of your division is made up of armored or at least protected vehicles. The free \"Armored-Division\" template has only 35% hardness, even though it has two light tank and two cavalry battalions. You can increase the hardness by adding more tank battalions, or replacing light with medium, or medium with heavy, or by replacing \"soft\" battalions (infantry or cavalry) with motorized or mechanized battalions."
+  },
+  {
+   "k": "bam1ek",
+   "en": "For example, replacing the two light tank battalions in the default \"Armored-Division\" template with medium tanks, and the two cavalry with mechanized, changes the hardness from 35% to 70%. Divisions with high hardness will suffer few hits in combat from divisions with low hard attack values – such as infantry with 1936 equipment and no anti-tank equipment."
+  },
+  {
+   "k": "19n3nu7",
+   "en": "Sizing"
+  },
+  {
+   "k": "tdv99c",
+   "en": "The ⟦0⟧ combine in different ways in divisions, and these values have special implications for deciding whether one should \"scale up\" a division template, e.g. doubling up the battlions to go from a 20 ⟦1⟧ to a whopping 40. Any modifications must be view in the context of the current ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "15e6z3a",
+   "en": "values of land units"
+  },
+  {
+   "k": "p5a011",
+   "en": "combat width"
+  },
+  {
+   "k": "1ip5b9s",
+   "en": "land warfare damage system"
+  },
+  {
+   "k": "1ymepcm",
+   "en": "As mentioned previously, soft/hard attack and defense/breakthrough are additive; doubling the width of the template doubles these values. In the current system, only 10% of the attacks are considered for damage if they are covered by the other unit's defense, but 40% is considered when the attack points have exhausted the defense points. In other words, an attack point not held back by the enemy's defense is four times as good as an attack point that is held back. Although units do drain the enemy units' defense together, having a larger division in this case still allows you to more effectively drain the enemy units' defense, compared to having two smaller divisions of the same smaller size, by removing a random element and allowing the draining to be concentrated."
+  },
+  {
+   "k": "1sutcrs",
+   "en": "On the other hand, doubling the division size does not make the divisions two times more resistant to actual damage, since the organization does not scale up. Damage is two times more frequently dealt to organization instead of HP (which is additive), and defense is often easy to stack up for land units anyways. Having small divisions is additionally more versatile due to the sheer number of divisions, allowing one to run encirclements and cover up extending lines when needed; however this also takes up commanding official capabilities. Small divisions also allow more support weaponry companies to be used, many of which are more economical in their stats contribution per equipment than line companies; on the other hand, they increase the cost of non-weapon support companies, since more of them are needed to achieve the same percentage bonus."
+  },
+  {
+   "k": "s7m6vv",
+   "en": "Thus, as a general rule, 20-width divisions are better at defense, and 40-width are better at attack. Composition will make or break this, of course, but having a breakthrough army of large divisions and several of standard-size for holding the actual line is a solid general rule."
+  },
+  {
+   "k": "35pstw",
+   "en": "Division unit type"
+  }
+ ]
+}

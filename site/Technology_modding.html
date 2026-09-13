@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Technology模组制作 - 钢铁雄心 IV 中文离线资料库</title>
+<meta name="description" content="">
+<link rel="stylesheet" href="assets/style.css">
+<script>window.HOI4_REL="";</script>
+<script src="assets/search-index.js" defer></script>
+<script src="assets/app.js" defer></script>
+</head>
+<body data-rel="">
+<header class="topbar"><div class="topbar-inner">
+  <a class="brand" href="index.html">钢铁雄心 IV <small>中文离线资料库</small></a>
+  <nav class="topnav"><a href="index.html#getting-started">入门</a><a href="index.html#state-affairs">国家事务</a><a href="index.html#foreign-affairs">外交事务</a><a href="index.html#warfare">战争</a><a href="index.html#military">军种</a><a href="index.html#technology">科技与学说</a><a href="index.html#meta">游戏与资料</a><a href="all-pages.html">全部页面</a><a href="glossary.html">术语表</a></nav>
+  <div class="searchbox">
+    <input id="q" type="search" placeholder="搜索页面（按 / 聚焦）" autocomplete="off" aria-label="搜索">
+    <div id="search-results"></div>
+  </div>
+</div></header>
+<div class="wrap">
+<aside class="sidebar">
+      <h3>入门</h3>
+      <ul><li><a href="Beginner's_guide.html">新手入门指南</a></li><li><a href="User_interface.html">用户界面</a></li><li><a href="Mechanics.html">游戏机制</a></li><li><a href="Console_commands.html">控制台指令</a></li><li><a href="Hotkeys.html">快捷键</a></li><li><a href="Countries.html">国家</a></li><li><a href="Tutorial_videos.html">教学视频</a></li></ul>
+      <h3>国家事务</h3>
+      <ul><li><a href="Government.html">政府</a></li><li><a href="Ideas.html">理念、法令与顾问</a></li><li><a href="Officer_corps.html">军官团</a></li><li><a href="National_focus.html">国家焦点</a></li><li><a href="Research.html">科研</a></li><li><a href="Construction.html">建造</a></li><li><a href="Production.html">生产</a></li><li><a href="Events.html">事件</a></li><li><a href="List_of_Decision_lists.html">决议</a></li><li><a href="Manpower.html">人力</a></li></ul>
+      <h3>外交事务</h3>
+      <ul><li><a href="Diplomacy.html">外交</a></li><li><a href="Puppet.html">傀儡国</a></li><li><a href="Occupation.html">占领</a></li><li><a href="World_tension.html">世界紧张度</a></li><li><a href="Intelligence_agency.html">情报机构</a></li><li><a href="Trade.html">贸易</a></li><li><a href="Faction.html">阵营</a></li></ul>
+      <h3>战争</h3>
+      <ul><li><a href="Warfare.html">战争总览</a></li><li><a href="Combat_tactics.html">战斗战术</a></li><li><a href="Logistics.html">后勤</a></li><li><a href="Terrain.html">地形</a></li><li><a href="Weather.html">天气</a></li><li><a href="Battle_plan.html">作战计划</a></li><li><a href="Army_planner.html">陆军编制器</a></li><li><a href="Command_group.html">集团军</a></li><li><a href="Division.html">师</a></li><li><a href="Land_battle.html">陆战</a></li><li><a href="Naval_battle.html">海战</a></li><li><a href="Air_warfare.html">空战</a></li><li><a href="Attrition_and_accidents.html">损耗</a></li></ul>
+      <h3>军种</h3>
+      <ul><li><a href="Land_warfare.html">陆军</a></li><li><a href="Naval_warfare.html">海军</a></li><li><a href="Land_units.html">陆军单位</a></li><li><a href="Ship.html">海军单位</a></li><li><a href="Aircraft_designer.html">空军单位</a></li><li><a href="Equipment.html">装备</a></li><li><a href="Ship_designer.html">舰船设计</a></li><li><a href="Tank_designer.html">坦克设计</a></li></ul>
+      <h3>科技与学说</h3>
+      <ul><li><a href="Land_doctrine.html">陆军学说</a></li><li><a href="Naval_doctrine.html">海军学说</a></li><li><a href="Air_doctrine.html">空军学说</a></li><li><a href="Infantry_technology.html">步兵科技</a></li><li><a href="Armor_technology.html">装甲科技</a></li><li><a href="Naval_technology.html">海军科技</a></li><li><a href="Air_technology.html">空军科技</a></li><li><a href="Support_companies_technology.html">支援连科技</a></li></ul>
+      <h3>游戏与资料</h3>
+      <ul><li><a href="Achievements.html">成就</a></li><li><a href="Downloadable_content.html">可下载内容</a></li><li><a href="Patches.html">补丁</a></li><li><a href="Jargon.html">术语表</a></li><li><a href="Modding.html">模组制作</a></li><li><a href="Mods.html">模组</a></li><li><a href="Developer_diaries.html">开发日志</a></li></ul>
+      <h3>更多页面</h3>
+      <ul>
+        <li><a href="all-pages.html">全部页面索引（655）</a></li>
+        <li><a href="search.html">搜索</a></li>
+        <li><a href="glossary.html">中英术语对照表</a></li>
+      </ul>
+      <h3>1.17（122）</h3>
+      <ul><li><a href="Oman.html">阿曼</a></li><li><a href="Ethiopia.html">埃塞俄比亚</a></li><li><a href="Ireland.html">爱尔兰</a></li><li><a href="Estonia.html">爱沙尼亚</a></li><li><a href="Austria.html">奥地利</a></li><li><a href="Sultanate_of_Aussa.html">奥萨苏丹国</a></li><li><a href="Australia.html">澳大利亚</a></li><li><a href="Paraguay.html">巴拉圭</a></li><li><a href="Panama.html">巴拿马</a></li><li><a href="Bulgaria.html">保加利亚</a></li><li><a href="Paradisus_Paradoxum.html">悖论乐园（Paradisus Paradoxum）</a></li><li><a href="Icelandic_events_AAT.html">冰岛事件（AAT）</a></li><li><a href="Poland.html">波兰</a></li><li><a href="Bolivia.html">玻利维亚</a></li><li><a href="Bhutan.html">不丹</a></li><li><a href="Sichuan_Clique.html">川系</a></li><li><a href="Battle_Royale.html">大逃杀（Battle Royale）</a></li><li><a href="German_Reich.html">德意志国</a></li><li><a href="Imperial_influence.html">帝国影响力</a></li><li><a href="Reichskommissariats.html">帝国专员辖区</a></li><li><a href="Northeastern_Army.html">东北军</a></li><li><a href="East_Germany.html">东德</a></li><li><a href="Dominican_Republic.html">多米尼加</a></li><li><a href="Ecuador.html">厄瓜多尔</a></li><li><a href="Horn_of_Africa_nations.html">非洲之角国家</a></li><li><a href="Philippines.html">菲律宾</a></li><li><a href="Second_Philippine_Republic.html">菲律宾第二共和国</a></li><li><a href="Finnish_events_AAT.html">芬兰事件（AAT）</a></li><li><a href="Crush_the_Dream.html">粉碎梦想（Crush the Dream）</a></li><li><a href="Gansu_Ma.html">甘马（马家军）</a></li><li><a href="Colombia.html">哥伦比亚</a></li><li><a href="Costa_Rica.html">哥斯达黎加</a></li><li><a href="Republican_Spain.html">共和西班牙</a></li><li><a href="Cuba.html">古巴</a></li><li><a href="Cobalt_Sea.html">钴蓝海（Cobalt Sea）</a></li><li><a href="Guangxi_Clique.html">桂系</a></li><li><a href="Country_leader_traits.html">国家领导人特质</a></li><li><a href="Nationalist_Spain.html">国民西班牙</a></li><li><a href="Kumul_Khanate.html">哈密汗国</a></li><li><a href="Haiti.html">海地</a></li></ul>
+      <h3>1.16（93）</h3>
+      <ul><li><a href="_2026_and_you_get_a_canton,_everybody_gets_a_canton!.html">……你得到一个州，每个人都得到一个州！</a></li><li><a href="Otto-man.html">奥托曼（Otto-man）</a></li><li><a href="This_achievement_is_dedicated_to_the_brave_soldiers_of....html">本成就献给勇敢的士兵们……</a></li><li><a href="Iceland.html">冰岛</a></li><li><a href="United_Baltic_Duchy.html">波罗的海联合公国</a></li><li><a href="Triggers.html">触发器</a></li><li><a href="A_Great_Hunger.html">大饥荒（A Great Hunger）</a></li><li><a href="Huge-oslavia.html">大南斯拉夫（Huge-oslavia）</a></li><li><a href="Big_Entente.html">大协约（Big Entente）</a></li><li><a href="Denmark.html">丹麦</a></li><li><a href="Missile.html">导弹</a></li><li><a href="Yunnan.html">滇系</a></li><li><a href="Finland.html">芬兰</a></li><li><a href="Oh,_how_the_turntables.html">风水轮流转（Oh, how the turntables）</a></li><li><a href="Congolese_Belgium.html">刚果化的比利时（Congolese Belgium）</a></li><li><a href="Woman_in_a_High_Castle.html">高堡中的女人（Woman in a High Castle）</a></li><li><a href="International_market.html">国际市场</a></li><li><a href="Peace_conference.html">和平会议</a></li><li><a href="Nuclear_bomb.html">核弹</a></li><li><a href="Bad_Ending_-_The_whole_world_is_now_Brazil.html">坏结局——全世界都成了巴西</a></li><li><a href="Artillery_technology.html">火炮科技</a></li><li><a href="Miklos_Horthy_and_the_Habsburg_Prince.html">霍尔蒂与哈布斯堡王子（Miklos Horthy and the Habsburg Prince）</a></li><li><a href="Shanxi.html">晋系</a></li><li><a href="Experience.html">经验</a></li><li><a href="The_Legacy_of_Cyrus_the_Great.html">居鲁士大帝的遗产（The Legacy of Cyrus the Great）</a></li><li><a href="The_Dragon_Rises.html">巨龙崛起（The Dragon Rises）</a></li><li><a href="Awake_and_Angry.html">觉醒与愤怒（Awake and Angry）</a></li><li><a href="Scientist.html">科学家</a></li><li><a href="House_of_Kurds.html">库尔德人之家（House of Kurds）</a></li><li><a href="From_Tehran_with_Love.html">来自德黑兰的爱（From Tehran with Love）</a></li><li><a href="The_Lenin_Boys_are_Back_in_Town.html">列宁小子们回来了（The Lenin Boys are Back in Town）</a></li><li><a href="London_Naval_Treaty.html">伦敦海军条约</a></li><li><a href="The_Romanovs_laugh_last.html">罗曼诺夫笑到最后（The Romanovs laugh last）</a></li><li><a href="No_one_crosses_the_finnish_line.html">没人能越过芬兰线（No one crosses the finnish line）</a></li><li><a href="MEFO_Bills.html">梅福券</a></li><li><a href="Media_Mughal.html">媒体莫卧儿（Media Mughal）</a></li><li><a href="Confederacy_of_American_States.html">美利坚联盟国</a></li><li><a href="United_Netherlands_(achievement).html">尼德兰联合王国（成就）</a></li><li><a href="Norway.html">挪威</a></li><li><a href="Qinghai_Ma.html">青马（马家军）</a></li></ul>
+      <h3>1.10（39）</h3>
+      <ul><li><a href="Balkan_Problem_Solved.html">巴尔干问题已解决（Balkan Problem Solved）</a></li><li><a href="Unaligned_States_of_America.html">不结盟的美利坚合众国</a></li><li><a href="France.html">法国</a></li><li><a href="French_events_LaR.html">法国事件（LaR）</a></li><li><a href="Netherlands_events.html">荷兰事件</a></li><li><a href="Hardly_Anything_Sèvres.html">几乎没剩下什么（Hardly Anything Sèvres）</a></li><li><a href="Romania.html">罗马尼亚</a></li><li><a href="United_States.html">美国</a></li><li><a href="Internal_factions.html">内部派系</a></li><li><a href="Crusader_Kings.html">十字军之王（Crusader Kings）</a></li><li><a href="Tannu_Tuva.html">唐努乌梁海</a></li><li><a href="News_events_1.html">新闻事件 1</a></li><li><a href="News_events_2.html">新闻事件 2</a></li><li><a href="News_events_4.html">新闻事件 4</a></li><li><a href="News_events_BftB.html">新闻事件（BftB）</a></li><li><a href="News_events_WtT.html">新闻事件（WtT）</a></li><li><a href="List_of_modifiers.html">修正项列表</a></li><li><a href="Istanbul_is_Constantinople._Again..html">伊斯坦布尔又是君士坦丁堡了（Istanbul is Constantinople. Again.）</a></li><li><a href="British_Raj_events.html">英属印度事件</a></li><li><a href="Australian_events.html">Australian事件</a></li><li><a href="Autonomy_state_modding.html">Autonomy state模组制作</a></li><li><a href="Chinese_political_power_struggle_events.html">Chinese political power struggle事件</a></li><li><a href="Division_modding.html">Division模组制作</a></li><li><a href="Election_events.html">Election事件</a></li><li><a href="Equipment_modding.html">Equipment模组制作</a></li><li><a href="Ethiopian_events.html">Ethiopian事件</a></li><li><a href="General_events.html">General事件</a></li><li><a href="Generic_events.html">Generic事件</a></li><li><a href="German_events.html">German事件</a></li><li><a href="Greek_events.html">Greek事件</a></li><li><a href="Ideology_modding.html">Ideology模组制作</a></li><li><a href="Italian_events.html">Italian事件</a></li><li><a href="Low_Stability_events.html">Low Stability事件</a></li><li><a href="Manchukou_events.html">Manchukou事件</a></li><li><a href="Polish_events.html">Polish事件</a></li><li><a href="Portuguese_events.html">Portuguese事件</a></li><li><a href="Resources_modding.html">Resources模组制作</a></li><li><a href="Soviet_events.html">Soviet事件</a></li><li><a href="Strategic_region_modding.html">Strategic region模组制作</a></li></ul>
+      <h3>补丁（38）</h3>
+      <ul><li><a href="Patch_1.0.X.html">补丁 1.0.X</a></li><li><a href="Patch_1.1.html">补丁 1.1</a></li><li><a href="Patch_1.10.html">补丁 1.10</a></li><li><a href="Patch_1.10.X.html">补丁 1.10.X</a></li><li><a href="Patch_1.11.html">补丁 1.11</a></li><li><a href="Patch_1.11.X.html">补丁 1.11.X</a></li><li><a href="Patch_1.12.html">补丁 1.12</a></li><li><a href="Patch_1.12.X.html">补丁 1.12.X</a></li><li><a href="Patch_1.13.html">补丁 1.13</a></li><li><a href="Patch_1.13.X.html">补丁 1.13.X</a></li><li><a href="Patch_1.14.html">补丁 1.14</a></li><li><a href="Patch_1.14.X.html">补丁 1.14.X</a></li><li><a href="Patch_1.15.html">补丁 1.15</a></li><li><a href="Patch_1.15.X.html">补丁 1.15.X</a></li><li><a href="Patch_1.16.html">补丁 1.16</a></li><li><a href="Patch_1.16.X.html">补丁 1.16.X</a></li><li><a href="Patch_1.17.html">补丁 1.17</a></li><li><a href="Patch_1.17.X.html">补丁 1.17.X</a></li><li><a href="Patch_1.18.html">补丁 1.18</a></li><li><a href="Patch_1.18.X.html">补丁 1.18.X</a></li><li><a href="Patch_1.19.html">补丁 1.19</a></li><li><a href="Patch_1.19.X.html">补丁 1.19.X</a></li><li><a href="Patch_1.2.html">补丁 1.2</a></li><li><a href="Patch_1.2.X.html">补丁 1.2.X</a></li><li><a href="Patch_1.3.html">补丁 1.3</a></li><li><a href="Patch_1.3.X.html">补丁 1.3.X</a></li><li><a href="Patch_1.4.html">补丁 1.4</a></li><li><a href="Patch_1.4.X.html">补丁 1.4.X</a></li><li><a href="Patch_1.5.html">补丁 1.5</a></li><li><a href="Patch_1.5.X.html">补丁 1.5.X</a></li><li><a href="Patch_1.6.html">补丁 1.6</a></li><li><a href="Patch_1.6.X.html">补丁 1.6.X</a></li><li><a href="Patch_1.7.html">补丁 1.7</a></li><li><a href="Patch_1.7.X.html">补丁 1.7.X</a></li><li><a href="Patch_1.8.html">补丁 1.8</a></li><li><a href="Patch_1.8.X.html">补丁 1.8.X</a></li><li><a href="Patch_1.9.html">补丁 1.9</a></li><li><a href="Patch_1.9.X.html">补丁 1.9.X</a></li></ul>
+      <h3>1.14（36）</h3>
+      <ul><li><a href="List_of_1936_start_legacy_deployed_destroyers.html">1936 start legacy deployed destroyers列表</a></li><li><a href="Albania.html">阿尔巴尼亚</a></li><li><a href="Argentina.html">阿根廷</a></li><li><a href="Brazil.html">巴西</a></li><li><a href="Lamento_Boliviano.html">玻利维亚悲歌（Lamento Boliviano）</a></li><li><a href="Dalmatia.html">达尔马提亚</a></li><li><a href="Free_City_of_Danzig.html">但泽自由市</a></li><li><a href="Map.html">地图</a></li><li><a href="Defines.html">定义文件</a></li><li><a href="Aircraft.html">飞机</a></li><li><a href="Vojvodina.html">伏伊伏丁那</a></li><li><a href="Independent_State_of_Croatia.html">克罗地亚独立国</a></li><li><a href="Balance_of_power.html">力量均势</a></li><li><a href="Manchukuo.html">满洲国</a></li><li><a href="Mongolia.html">蒙古</a></li><li><a href="Difficulty.html">难度</a></li><li><a href="Province.html">省份</a></li><li><a href="We_2019_re_Putting_the_Band_Back_Together.html">我们重组乐队（We’re Putting the Band Back Together）</a></li><li><a href="Siam.html">暹罗</a></li><li><a href="Jan_Mayen.html">扬马延</a></li><li><a href="Italian_State_of_East_Africa.html">意属东非</a></li><li><a href="Strategic_region.html">战略区域</a></li><li><a href="Commander_trait.html">指挥官特质</a></li><li><a href="Chile.html">智利</a></li><li><a href="Chilean_Empire.html">智利帝国（Chilean Empire）</a></li><li><a href="Bolivian_decisions.html">Bolivian决议</a></li><li><a href="Brazilian_events.html">Brazilian事件</a></li><li><a href="Chilean_decisions.html">Chilean决议</a></li><li><a href="Chilean_missions.html">Chilean任务</a></li><li><a href="Italian_decisions.html">Italian决议</a></li><li><a href="Peruvian_decisions.html">Peruvian决议</a></li><li><a href="Trial_of_Allegiance_shared_decisions.html">Trial of Allegiance shared决议</a></li><li><a href="Venezuelan_decisions.html">Venezuelan决议</a></li><li><a href="Welsh_decisions.html">Welsh决议</a></li><li><a href="Yugoslavian_decisions.html">Yugoslavian决议</a></li><li><a href="Yugoslavian_missions.html">Yugoslavian任务</a></li></ul>
+      <h3>1.11（32）</h3>
+      <ul><li><a href="Afghanistan.html">阿富汗</a></li><li><a href="Esti_is_Scandi.html">爱沙尼亚属斯堪的纳维亚（Esti is Scandi）</a></li><li><a href="Polish_events_NSB.html">波兰事件（NSB）</a></li><li><a href="Baltic_events_NSB.html">波罗的海国家事件（NSB）</a></li><li><a href="No_more_Partitions.html">不再有瓜分（No more Partitions）</a></li><li><a href="Releasable_countries.html">可释放国家</a></li><li><a href="Yugoslavian_events_DoD.html">南斯拉夫事件（DoD）</a></li><li><a href="Launch_options.html">启动参数</a></li><li><a href="Japanese_events_WtT.html">日本事件（WtT）</a></li><li><a href="It_has_my_name_on_it.html">上面写着我的名字（It has my name on it）</a></li><li><a href="Ace_pilots_events.html">王牌飞行员事件</a></li><li><a href="Siberian_Tiger.html">西伯利亚虎（Siberian Tiger）</a></li><li><a href="New_Zealand_events.html">新西兰事件</a></li><li><a href="Hungarian_events_DoD_2.html">匈牙利事件（DoD 2）</a></li><li><a href="Political_parties_and_leaders.html">政党与领导人</a></li><li><a href="Support_company.html">支援连</a></li><li><a href="AI_modding.html">AI模组制作</a></li><li><a href="Bulgarian_events.html">Bulgarian事件</a></li><li><a href="Chinese_events.html">Chinese事件</a></li><li><a href="Decision_modding.html">Decision模组制作</a></li><li><a href="Estonian_events.html">Estonian事件</a></li><li><a href="Exiled_government_decisions.html">Exiled government决议</a></li><li><a href="Exiled_government_events.html">Exiled government事件</a></li><li><a href="Foreign_influence_decisions.html">Foreign influence决议</a></li><li><a href="French_events.html">French事件</a></li><li><a href="Generic_decisions.html">Generic决议</a></li><li><a href="Idea_modding.html">Idea模组制作</a></li><li><a href="Lithuanian_events.html">Lithuanian事件</a></li><li><a href="Music_modding.html">Music模组制作</a></li><li><a href="Supply_areas_modding.html">Supply areas模组制作</a></li><li><a href="Technology_modding.html" class="cur">Technology模组制作</a></li><li><a href="Turkish_events.html">Turkish事件</a></li></ul>
+      <h3>1.9（28）</h3>
+      <ul><li><a href="Don_2019_t_Die_for_Your_Country.html">别为你的国家送死（Don’t Die for Your Country）</a></li><li><a href="Formable_nations.html">可成立国家</a></li><li><a href="Recruitable_population.html">可招募人口</a></li><li><a href="Land_doctrine_2f_Sample_divisions_with_doctrine_bonuses.html">陆军学说/带学说加成的示例师</a></li><li><a href="American_events_MtG.html">美国事件（MtG）</a></li><li><a href="Mod_structure.html">模组结构</a></li><li><a href="Division_designer.html">师编制设计</a></li><li><a href="Crusader_Kings_2.html">十字军之王 2（Crusader Kings 2）</a></li><li><a href="Rule_Britannia.html">统治不列颠（Rule Britannia）</a></li><li><a href="Spanish_Civil_War_layout.html">西班牙内战版图</a></li><li><a href="Spanish_events_LaR.html">西班牙事件（LaR）</a></li><li><a href="News_events_3.html">新闻事件 3</a></li><li><a href="News_events_DoD.html">新闻事件（DoD）</a></li><li><a href="News_events_LaR.html">新闻事件（LaR）</a></li><li><a href="News_events_MtG.html">新闻事件（MtG）</a></li><li><a href="One_King,_Two_Crowns.html">一王两冠（One King, Two Crowns）</a></li><li><a href="Ideology.html">意识形态</a></li><li><a href="Chinese_events_WtT.html">中国事件（WtT）</a></li><li><a href="State.html">州</a></li><li><a href="American_events.html">American事件</a></li><li><a href="Border_conflict_events.html">Border conflict事件</a></li><li><a href="Finnish_events.html">Finnish事件</a></li><li><a href="Naval_treaty_events.html">Naval treaty事件</a></li><li><a href="Nuke_events.html">Nuke事件</a></li><li><a href="List_of_operations.html">operations列表</a></li><li><a href="Political_events.html">Political事件</a></li><li><a href="SS_recruitment_events.html">SS recruitment事件</a></li><li><a href="War_justification_events.html">War justification事件</a></li></ul>
+      <h3>1.19（27）</h3>
+      <ul><li><a href="Australia-Hungary.html">澳匈帝国</a></li><li><a href="Continuous_focus.html">持续焦点</a></li><li><a href="Danzig_queen.html">但泽女王（Danzig queen）</a></li><li><a href="National_spirit.html">国家精神</a></li><li><a href="Hail_to_the_King.html">国王万岁（Hail to the King）</a></li><li><a href="Pinot_Noirway.html">黑皮诺挪威（Pinot Noirway）</a></li><li><a href="Old_Zealand.html">旧西兰</a></li><li><a href="List_of_military_chiefs.html">军事首脑列表</a></li><li><a href="Releasable_countries_2f_Oceania.html">可释放国家/大洋洲</a></li><li><a href="Releasable_countries_2f_Asia.html">可释放国家/亚洲</a></li><li><a href="Downloadable_content_2.html">可下载内容 2</a></li><li><a href="Maphilindia.html">马来菲利印度（Maphilindia）</a></li><li><a href="America_Decolonized!.html">美国去殖民化！（America Decolonized!）</a></li><li><a href="Norway_Jose.html">挪威，何塞（Norway Jose）</a></li><li><a href="Special_forces_doctrine.html">特种部队学说</a></li><li><a href="Uralic_brothers_united.html">乌拉尔兄弟团结（Uralic brothers united）</a></li><li><a href="Cod_wars.html">鳕鱼战争（Cod wars）</a></li><li><a href="Indonesian_Princely_States.html">印度尼西亚土邦</a></li><li><a href="This_Achievement_is_Cheesy.html">这成就太俗套了（This Achievement is Cheesy）</a></li><li><a href="This_is_going_to_be_LIT.html">这要火了（This is going to be LIT）</a></li><li><a href="List_of_political_advisors.html">政治顾问列表</a></li><li><a href="List_of_commanders.html">指挥官列表</a></li><li><a href="List_of_commanders_(base_game).html">指挥官列表（原版）</a></li><li><a href="List_of_military_high_command.html">最高统帅部列表</a></li><li><a href="Afghan_events.html">Afghan事件</a></li><li><a href="Faction_modding.html">Faction模组制作</a></li><li><a href="List_of_theorists.html">theorists列表</a></li></ul>
+      <h3>1.12（26）</h3>
+      <ul><li><a href="Bulgarian_events_BftB.html">保加利亚事件（BftB）</a></li><li><a href="Nudger.html">地图编辑器</a></li><li><a href="The_Red_Sea.html">红海（The Red Sea）</a></li><li><a href="By_Beer_Alone.html">仅凭啤酒（By Beer Alone）</a></li><li><a href="List_of_default_ship_variants.html">默认舰船型号列表</a></li><li><a href="You_Shall_Not_Pass.html">你不能通过（You Shall Not Pass）</a></li><li><a href="Holy,_Roman,_and_an_Empire.html">神圣、罗马且是一个帝国（Holy, Roman, and an Empire）</a></li><li><a href="Career_profile.html">生涯档案</a></li><li><a href="The_Lion_King.html">狮子王（The Lion King）</a></li><li><a href="Crusader_Kings_IV.html">十字军之王 IV（Crusader Kings IV）</a></li><li><a href="On_actions.html">事件钩子</a></li><li><a href="Data_structures.html">数据结构</a></li><li><a href="Soviet_Union.html">苏联</a></li><li><a href="Variant.html">型号</a></li><li><a href="Hungarian_events_DoD_1.html">匈牙利事件（DoD 1）</a></li><li><a href="Italian_events_BBA.html">意大利事件（BBA）</a></li><li><a href="Character_modding.html">Character模组制作</a></li><li><a href="Decision_events.html">Decision事件</a></li><li><a href="Event_modding.html">Event模组制作</a></li><li><a href="Font_modding.html">Font模组制作</a></li><li><a href="Japanese_events.html">Japanese事件</a></li><li><a href="Map_modding.html">Map模组制作</a></li><li><a href="Occupation_events.html">Occupation事件</a></li><li><a href="Soviet_decisions.html">Soviet决议</a></li><li><a href="Swiss_events.html">Swiss事件</a></li><li><a href="Turkish_decisions.html">Turkish决议</a></li></ul>
+      <h3>1.13（25）</h3>
+      <ul><li><a href="Al-Andalus.html">安达卢斯</a></li><li><a href="The_Danelaw.html">丹麦法区（The Danelaw）</a></li><li><a href="Lone_Wolf.html">独狼（Lone Wolf）</a></li><li><a href="Cheese_your_fighter..html">给你的战斗机加奶酪（Cheese your fighter.）</a></li><li><a href="Country_creation.html">国家创建</a></li><li><a href="Sapmi_united_by_the_fire.html">火边的萨米团结（Sapmi united by the fire）</a></li><li><a href="Bearer_of_Artillery.html">火炮持有者（Bearer of Artillery）</a></li><li><a href="Caramelldansen.html">焦糖舞（Caramelldansen）</a></li><li><a href="Military_industrial_organization.html">军工组织</a></li><li><a href="The_Magic_School_Bus.html">神奇校车（The Magic School Bus）</a></li><li><a href="New_World_Order.html">世界新秩序</a></li><li><a href="The_return_of_the_king.html">王者归来（The return of the king）</a></li><li><a href="Party_like_it's_1520.html">像 1520 年那样狂欢（Party like it's 1520）</a></li><li><a href="Modifiers.html">修正项</a></li><li><a href="Scopes.html">作用域</a></li><li><a href="Balance_of_power_modding.html">Balance of power模组制作</a></li><li><a href="Bookmark_modding.html">Bookmark模组制作</a></li><li><a href="List_of_Material_Equipment_MIOs.html">Material Equipment MIOs列表</a></li><li><a href="Military_industrial_organization_modding.html">Military industrial organization模组制作</a></li><li><a href="National_focus_modding.html">National focus模组制作</a></li><li><a href="List_of_Plane_MIOs.html">Plane MIOs列表</a></li><li><a href="Political_decisions.html">Political决议</a></li><li><a href="List_of_Ship_MIOs.html">Ship MIOs列表</a></li><li><a href="State_modding.html">State模组制作</a></li><li><a href="List_of_Tank_MIOs.html">Tank MIOs列表</a></li></ul>
+      <h3>1.18（20）</h3>
+      <ul><li><a href="Belgium.html">比利时</a></li><li><a href="Protektorat_Böhmen-Mähren.html">波希米亚和摩拉维亚保护国</a></li><li><a href="30_Minutes_of_Hel.html">地狱三十分钟（30 Minutes of Hel）</a></li><li><a href="The_501st_Legion.html">第 501 军团（The 501st Legion）</a></li><li><a href="List_of_aircraft_designers.html">飞机设计商列表</a></li><li><a href="List_of_industrial_concerns.html">工业集团列表</a></li><li><a href="Galicia_and_Lodomeria.html">加利西亚和洛多梅里亚</a></li><li><a href="List_of_ship_designers.html">舰船设计商列表</a></li><li><a href="Czechoslovakia.html">捷克斯洛伐克</a></li><li><a href="Ain't_like_that_now.html">今非昔比（Ain't like that now）</a></li><li><a href="Carpatho-Ukraine.html">喀尔巴阡乌克兰</a></li><li><a href="Bad_Romeance.html">罗马式浪漫（Bad Romeance）</a></li><li><a href="Slovakia.html">斯洛伐克</a></li><li><a href="Sudetenland.html">苏台德</a></li><li><a href="List_of_tank_designers.html">坦克设计商列表</a></li><li><a href="I_didn't_hear_no_bell.html">我没听到铃声（I didn't hear no bell）</a></li><li><a href="This_time_for_Africa.html">这次为了非洲（This time for Africa）</a></li><li><a href="List_of_materiel_designers.html">装备设计商列表</a></li><li><a href="Böhmen-Mähren_decisions.html">Böhmen-Mähren决议</a></li><li><a href="Congress_decisions.html">Congress决议</a></li></ul>
+      <h3>Disambiguation（20）</h3>
+      <ul><li><a href="Minelaying.html">布雷</a></li><li><a href="Kingdom_of_Burundi.html">布隆迪王国</a></li><li><a href="Infantry_Offensive.html">步兵攻势（Infantry Offensive）</a></li><li><a href="Delay.html">迟滞（Delay）</a></li><li><a href="Elastic_Defense.html">弹性防御（Elastic Defense）</a></li><li><a href="Backhand_Blow.html">反手一击（Backhand Blow）</a></li><li><a href="Congo.html">刚果</a></li><li><a href="Naval_Strike_Torpedo_Tactics.html">海军打击鱼雷战术（Naval Strike Torpedo Tactics）</a></li><li><a href="Mechanized_Offensive.html">机械化攻势（Mechanized Offensive）</a></li><li><a href="Spirit.html">精神（消歧义）</a></li><li><a href="Submarine_Operations.html">潜艇作战（Submarine Operations）</a></li><li><a href="Minesweeping.html">扫雷</a></li><li><a href="Infiltration_Assault.html">渗透突击（Infiltration Assault）</a></li><li><a href="Trait.html">特质（消歧义）</a></li><li><a href="Spain.html">西班牙</a></li><li><a href="Reconnaissance.html">侦察（消歧义）</a></li><li><a href="Battlefleet_Concentration.html">主力舰队集中（Battlefleet Concentration）</a></li><li><a href="Organization.html">组织度（消歧义）</a></li><li><a href="Guinea_(disambiguation).html">Guinea（消歧义）</a></li><li><a href="United_Netherlands_(disambiguation).html">United Netherlands（消歧义）</a></li></ul>
+      <h3>DLC（15）</h3>
+      <ul><li><a href="Battle_for_the_Bosporus.html">博斯普鲁斯之战</a></li><li><a href="No_Compromise,_No_Surrender.html">不妥协，不投降</a></li><li><a href="La_Résistance.html">抵抗运动</a></li><li><a href="Graveyard_of_Empires.html">帝国坟场</a></li><li><a href="Arms_Against_Tyranny.html">反抗暴政</a></li><li><a href="Together_for_Victory.html">共赴胜利</a></li><li><a href="Waking_the_Tiger.html">唤醒猛虎</a></li><li><a href="Thunder_at_Our_Gates.html">雷霆临门</a></li><li><a href="Man_the_Guns.html">全民持枪</a></li><li><a href="Death_or_Dishonor.html">死亡或耻辱</a></li><li><a href="By_Blood_Alone.html">唯有鲜血</a></li><li><a href="Peace_for_Our_Time.html">我们时代的和平</a></li><li><a href="Trial_of_Allegiance.html">效忠审判</a></li><li><a href="No_Step_Back.html">一步不退</a></li><li><a href="Götterdämmerung.html">诸神黄昏</a></li></ul>
+      <h3>1.15（11）</h3>
+      <ul><li><a href="Belgian_Congo.html">比属刚果</a></li><li><a href="German_events_GD.html">德国事件（GD）</a></li><li><a href="Don_Cossack_Host.html">顿河哥萨克</a></li><li><a href="Antischluss.html">反德奥合并（Antischluss）</a></li><li><a href="Air_combat.html">空战</a></li><li><a href="Air_missions.html">空中任务</a></li><li><a href="Kuban_National_Republic.html">库班民族共和国</a></li><li><a href="Go_Ahead,_Macau_My_Day.html">来吧，澳门我的天（Go Ahead, Macau My Day）</a></li><li><a href="Special_project.html">特殊项目</a></li><li><a href="Building_modding.html">Building模组制作</a></li><li><a href="German_decisions.html">German决议</a></li></ul></aside>
+<main class="content">
+
+<h1 class="page-title">Technology模组制作</h1>
+<p class="subtitle">原页面：Technology modding</p>
+<div class="cov-banner">本页中文翻译进度 <b>21%</b>，未译部分暂保留英文原文。</div>
+<nav class="toc" aria-label="目录"><div class="toc-title">目录</div><ol><li class="lvl-2"><a href="#s-vars85">Brief user interface</a></li><li class="lvl-2"><a href="#s-16mep1j">科技</a></li><li class="lvl-2"><a href="#s-ncx7re">Folders</a></li><li class="lvl-2"><a href="#s-1rv8jr2">Graphical user interface</a></li><li class="lvl-2"><a href="#s-1vyef4x">Technology sharing groups</a></li><li class="lvl-2"><a href="#s-1p1yprf">参考资料</a></li><li class="lvl-3"><a href="#s-1yvn1io">触发器</a></li><li class="lvl-3"><a href="#s-1j81rqx">修正项</a></li><li class="lvl-3"><a href="#s-oqv3et">效果</a></li><li class="lvl-3"><a href="#s-1ore9q1">Enabling objects</a></li><li class="lvl-3"><a href="#s-9a33wg">Hidden technology examples</a></li><li class="lvl-3"><a href="#s-1xa0wv8">Name and icon</a></li><li class="lvl-3"><a href="#s-zbb2ai">Technology's cost</a></li><li class="lvl-3"><a href="#s-1quewx6">Position</a></li><li class="lvl-3"><a href="#s-1mg4kqi">Sub-technologies</a></li><li class="lvl-3"><a href="#s-1upw6fh">Categories</a></li><li class="lvl-3"><a href="#s-136dl8z">Experience costs</a></li><li class="lvl-3"><a href="#s-1gaaggv">AI weighting</a></li><li class="lvl-3"><a href="#s-iu6a78">学说</a></li><li class="lvl-3"><a href="#s-1vakwcc">Additional</a></li><li class="lvl-3"><a href="#s-uy0v5i">示例</a></li><li class="lvl-3"><a href="#s-1q7l7hr">Items</a></li><li class="lvl-3"><a href="#s-1q0oot">Folder</a></li><li class="lvl-3"><a href="#s-1xx5e13">Folder tabs</a></li><li class="lvl-4"><a href="#s-n0dp68">Item sprites</a></li></ol></nav>
+<div class="mw-parser-output">
+<p>Technologies can be used to apply 效果 and static <a href="Modifiers.html">修正</a> towards the country researching them. Additionally, technologies can unlock equipment, enable buildings to be built up to a specified level, as well as modifying the stats of the units of the country. Doctrines, while no longer researched as technologies, are still considered technologies in the in-game code, although there are some differences in their required definitions.
+</p>
+
+<p>Technologies themselves are defined in <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/common/technologies/*.txt</span> files, while their categories and folders are defined in <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/common/technology_tags/*.txt</span> files. The <a href="Interface_modding.html">graphical user interface file</a> where the technology tree is defined is <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/interface/countrytechtreeview.gui</span>, requiring edits for each new technology folder or branch within the folder. <b>This is mandatory to edit in order for new technologies to show up</b>, unless the new technology requires an existing base game technology with an existing path.
+</p><p><br>
+</p>
+<h2 id="s-vars85" data-section="1"><span class="mw-headline" id="Brief_user_interface">Brief user interface</span></h2>
+<p><span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/interface/countrytechtreeview.gui</span>和<span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/interface/countrytechtreeview.gfx</span> in particular define the <i>appearance</i> of technology folders as well as the items within them. In particular, this exactly is included in the interface files:
+</p>
+<ul><li>科技分支——一系列通过<code>path = { ... }</code>参数相连的科技，在界面中由第一个没有定义通往其路径的科技之后的 gridboxType 来定义。<b>This is mandatory for a technology to show up if it doesn't require any other technology</b>，因为<code>path</code>会把父级的网格框指派给所链接的科技。具体来说，这些内容在分支内定义：<ul><li>The position of the first technology in the branch, or rather the position of point (0, 0) in the coordinate system used to position the technologies in the branch.</li>
+<li>The offset in pixels to use a singular unit when positioning technologies. This is in contrast to national focuses, where the offset used as a singular unit is consistent across different focus trees.</li>
+<li>The orientation to use for drawing paths as to make it look like it's going down, right, or a different direction.</li></ul></li>
+<li>各条目——每项科技所用的图标，包括背景框本身。<b>This is mandatory to edit when creating new folders,</b>，但它也可能出现在基础游戏文件夹中，例如子科技的情况。它由每个元素的细节构成，具体包括：<ul><li>The background box – which GFX is used. The GFX also decides the size. This in particular is done in the <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/interface/countrytechtreeview.gfx</span> file.</li>
+<li>The icon of the technology – the position on the box.</li>
+<li>Ahead-of-time/technology boost icons – the position on the box, the used font, the used GFX.</li>
+<li>The name of the technology – whether it should be displayed, and if it is: where to show it and with what font.</li>
+<li>Sub-technologies – where to position them in the tree, which GFX they use. Technology-specific icons don't exist for sub-technologies, instead using a set of indices.</li></ul></li>
+<li>The tabs in the top of the tree allowing changing between technology folders. <b>This is mandatory to edit when creating new folders.</b></li>
+<li>标准的<a href="Interface_modding.html">interface information about the tree</a>。凡是能用 GUI 做的事，都能对给定文件夹进行，包括但不限于：<ul><li>Adding icons, including the background or the stripes highlighting technologies. <a href="Interface_modding.html">This is done with an iconType</a>.</li>
+<li>Adding text to be visible on the folder, <b>such as the years showing when each technology stops being ahead-of-time</b>. <a href="Interface_modding.html">This is done with an instantTextboxType</a>.</li>
+<li>Creating new <a href="Interface_modding.html">container windows</a> that <a href="Scripted_GUI_modding.html">scripted GUI</a> can be linked to with their <code>parent_window_name</code>, allowing it.</li></ul></li></ul>
+<p>For exact technical details, see the <a href="#Graphical_user_interface">Graphical User Interface section</a>.
+</p>
+<h2 id="s-16mep1j" data-section="1"><span class="mw-headline" id="Technologies">科技</span></h2>
+
+<p>Each technology is located within <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/common/technologies/*.txt</span> files, within the <code>technologies = { ... }</code> block traditionally encompassing the entire contents of the file. Like most files, the filename has no bearing on how the file is read: any technology can be in any folder without issues. Each technology is a separate block within <code>technologies = { ... }</code>, where the name of the block is used as a technology ID.
+</p><p>In general, a technologies file is laid out similarly to the following example:
+</p>
+<pre>technologies = {
+    my_technology_1 = {
+        ...
+    }
+    my_technology_2 = {
+        ...
+    }
+}</pre>
+<p>Each technology is hidden by default, requiring special code to be put within GUI. However, AI can still research technology even if it's hidden, so <a href="#Triggers">it should be made impossible to research manually</a> if it's intended to be hidden.<br>
+A technology can be researched as an effect with <code>set_technology = { my_technology_1 = 1 }</code> and unresearched with <code>set_technology = { my_technology_1 = 0 }</code>, with <code>popup = no</code> possibly being added in order to remove the notification given to the player. Note that while it is possible to unresearch technologies, this does not always work properly: this can fail to unresearch technologies that are mutually exclusive with other technologies and doesn't work properly <a href="#Enabling_objects">those that unlock database objects</a>.
+</p>
+<h3 id="s-1yvn1io" data-section="1"><span class="mw-headline" id="Triggers">触发器</span></h3>
+<div style="margin-left:1.5em"><i>另见：<a href="Triggers.html">触发器</a></i></div>
+<p>There are two types of trigger blocks used in technologies.<br>
+<code>allow = { ... }</code> is a trigger block checked continuosly throughout the game. If it is false, then the technology will be impossible to research through the research menu, but it will still remain possible to research via an effect and it will remain visible in the menu. This is typically set to be never true for hidden technologies in order to prevent AI from researching it.
+</p><p><code>allow_branch = { ... }</code> is a trigger block that, instead, needs to be met in order for the technology to be visible. If it's not met, then any technology connected to it via <code>path = { ... }</code> will also become invisible. If it's met, AI will also not be able to select the technology to research.
+</p>
+<h3 id="s-1j81rqx" data-section="1"><span class="mw-headline" id="Modifiers">修正项</span></h3>
+<div style="margin-left:1.5em"><i>另见：<a href="Modifiers.html">修正项</a></i></div>
+<p>Each <a href="Modifiers.html">country-scoped modifier</a> is allowed to be put directly within the technology, and these will apply to the country after researching the technology. This will look as such:
+</p>
+<pre>my_technology_1 = {
+    political_power_gain = 0.1
+    local_resources_factor = 0.2
+}</pre><p>This particular technology will grant +10% <a href="Government.html"><img src="images/Political_power.png" alt width="22" height="22" loading="lazy"></a><a href="Government.html">政治点数</a> gain and +20% resource extraction efficiency when researched.
+</p><p>In addition, it's also possible to make a technology apply a bonus for specific sub-units making up land templates, ships, and the airforce. These sub-units are defined in <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/common/units/*.txt</span> files. Technologies can make the bonus apply to either the sub-unit types themselves, or the categories they fall in, defined in <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/common/unit_tags/*.txt</span> and specified in the sub-unit definitions. Any modifier defined within the sub-unit definitions or the equipment archetypes used by them can be applied to units, which'll apply as a multiplicative modifier towards them.<br>
+It is also possible to apply this effect only on a certain terrain. This is done by putting the terrain within the scope of the sub-unit type or category. Each terrain is defined in <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/common/terrain/*.txt</span>. In addition to these terrains, <code>amphibious</code> gets used for naval invasions and <code>river</code> gets used for river crossings.<br>
+For example, the following code will increase the naval speed of destroyer-type ships by 10%, decrease the combat width of all sub-units in the category of category_all_infantry by 20%, and increase the attack of the same category when fighting in urban terrain by 15% when the technology is researched:
+</p>
+<pre>my_technology_1 = {
+    category_all_infantry = {
+        combat_width = -0.2
+        urban = {
+            attack = 0.15
+        }
+    }
+    destroyer = {
+        naval_speed = 0.1
+    }
+}</pre>
+<p><code>show_effect_as_desc = yes</code> can also be used in order to make the modifiers show up in the description of the technology itself rather than in the tooltip showing up when hovering over the technology. Notably, this also applies to the effects of the technology.
+</p>
+<h3 id="s-oqv3et" data-section="1"><span class="mw-headline" id="Effects">效果</span></h3>
+<div style="margin-left:1.5em"><i>参见：Effects</i></div>
+<p>An effect block ran for the country that unlocked the equipment is <code>on_research_complete = { ... }</code>. These effects will be run for the country and they will show up in the tooltip of the technology so that the player is aware of them. <code>on_research_complete = { ... }</code> WILL run for techs unlocked through effect, but NOT on techs that a country unlocks in its history file.
+</p><p>Additionally, <code>on_research_complete_limit = { ... }</code> serves as a trigger block necessary to be fulfilled for the effects to be executed. This would be necessary to set if it is possible for the entire <code>on_research_complete = { ... }</code> to either be visible or invisible depending on circustances, as the game handles generating the tooltip poorly in this circustance. If nothing within <code>on_research_complete = { ... }</code> grants a tooltip or there's always something showing a tooltip, it is not necessary to set <code>on_research_complete_limit = { ... }</code> This is an example of a tech with <code>on_research_complete_limit</code>:
+</p>
+<pre>my_technology_1 = {
+    on_research_complete_limit = {
+        has_tech = my_technology_2
+    }
+    on_research_complete = {
+        add_political_power = 100
+    }
+}</pre>
+<p><code>show_effect_as_desc = yes</code> can also be used in order to make the effects show up in the description of the technology itself rather than in the tooltip showing up when hovering over the technology. Notably, this also applies to the modifiers of the technology.
+</p>
+<h3 id="s-1ore9q1" data-section="1"><span class="mw-headline" id="Enabling_objects">Enabling objects</span></h3>
+<p>Several database objects can be set to be unlocked by a technology, including equipment types, equipment modules, sub-units, and buildings.<br>
+If the database object is not set to be unlocked by any technology in general, it'll be always possible to select it, while putting them in a technology will require the technology. This can be used to set these to be country-specific, such as the bicycle battalions for <a href="Netherlands.html"><img src="images/Netherlands.png" alt width="24" height="16" loading="lazy"></a>&nbsp;<a href="Netherlands.html">荷兰</a>和<a href="Japan.html"><img src="images/Japanese_Empire.png" alt width="24" height="17" loading="lazy"></a>&nbsp;<a href="Japan.html">日本</a>, if they're within a hidden technology only set for specific countries in their history files or other effect blocks. If one of these database objects is locked behind technology, it won't be possible to force a country to use them without having the technology: equipment variants or orders of battle will fail to be created with the specified type.
+</p><p>Equipment types are assigned with <code>enable_equipments = { ... }</code>, with each equipment type within listed separated with any non-zero amount of whitespace characters. For example, <code>enable_equipments = { my_equipment_1 my_equipment_2 }</code> will set my_equipment_1 and my_equipment_2 to only be enabled after the technology was researched. Unique to equipment, this will also make the equipment icon be a copy from the technology icon, unless an equipment-specific icon was created in the <code>GFX_&lt;equipment type&gt;_medium</code> format.
+</p><p>Sub-units are done with <code>enable_subunits = { ... }</code>, and modules - with <code>enable_equipment_modules = { ... }</code>, with the same formatting as for equipment types: whitespace-separated entries within to set them to be unlocked.
+</p><p>Buildings are done with <code>enable_building = { ... }</code>. However, the formatting in this case is different: the building is specified with <code>building = my_building</code> and the level with <code>等级=3</code>. In particular, the level will not unlock this many levels of the building, but unlock the building to be built <i>up to</i> that level. For instance, if the building was already unlocked to level 2 from a technology researched beforehand, researching a technology with <code>等级=5</code> will result in it being possible to construct up to 5 of the building in the state/province rather than 7. A full example:
+</p>
+<pre>enable_building = {
+    building = my_building
+    level = 5
+}</pre>
+<p>Uniquely, it's possible to still construct buildings that aren't yet unlocked via technologies by using an <a href="Effect.html">effect</a> or with the starting buildings in the <a href="State_modding.html">state's history file</a>. This can build up to the max level specified in the <a href="Building_modding.html">building definition itself</a>. This is because the buildings are set for states themselves, and implementing it otherwise can cause buildings to be lost if the state control goes to a country that doesn't have the building researched.<br>
+If desiring to make multiple buildings be unlocked by the same technology, another <code>enable_building = { ... }</code> block can be set in the technology.<br>
+<b>The level within the technology cannot be higher than the building's max level</b> set within the <a href="Building_modding.html">building definition itself</a>.
+</p><p><code>enable_tactic = my_tactic</code> is also used to enable a combat tactic for the country that may be chosen during a land battle. These tactics are defined within <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/common/combat_tactics.txt</span>.
+</p><p>When unresearched via an effect, this doesn't work entirely properly, rather, the database object in question will remain possible to use for the country until a restart of the game. For this reason, it's better to avoid unresearching technologies such as this and treat these database objects as being granted for forever without being possible to take away.
+</p>
+<h3 id="s-9a33wg" data-section="1"><span class="mw-headline" id="Hidden_technology_examples">Hidden technology examples</span></h3>
+<table class="eu4box-inline mw-collapsible mw-collapsed" style="width:100%; padding: 1px;">
+
+<tbody><tr>
+<th style="font-size:115%; text-align:left; padding:0.5em">The text in this section has been collapsed by default.
+</th></tr>
+<tr>
+<td style="border: solid 1px Silver; padding: 0.6em; background: White;">
+<pre>technologies = {
+    my_technology_1 = {
+        allow = {
+            always = no
+        }
+        political_power_factor = 0.2
+        enable_building = {
+            building = industrial_complex
+            level = 20
+        }
+    }
+    my_technology_2 = {
+        allow = {
+            always = no
+        }
+        marine = {
+            amphibious = {
+                attack = 0.2
+            }
+        }
+        enable_equipments = { infantry_equipment_0 }
+        enable_equipment_modules = { ship_extra_fuel_tank }
+        enable_subunits = { marine }
+    }
+    my_technology_3 = {
+        allow = {
+            always = no
+        }
+        on_research_complete_limit = {
+            has_political_power &lt; 100
+        }
+        on_research_complete = {
+            add_political_power = 100
+        }
+    }
+}</pre>
+</td></tr></tbody></table>
+<p><br>
+</p>
+<h3 id="s-1xa0wv8" data-section="1"><span class="mw-headline" id="Name_and_icon">Name and icon</span></h3>
+<p>The name of the technology for the specified language is set by using the technology's ID as the localisation key, with description by appending <code>_desc</code> in the end. For example, this can be used as localisation for the English language within any <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/localisation/english/*_l_english.yml</span> file for <code>my_technology_1</code>:
+</p>
+<div class="mw-highlight mw-highlight-lang-yaml mw-content-ltr" dir="ltr"><pre><span class="nt">l_english</span><span class="p">:</span>
+<span class="w"> </span><span class="nt">my_technology_1</span><span class="p">:</span><span class="w"> </span><span class="s">"My</span><span class="nv"> </span><span class="s">technology"</span>
+<span class="w"> </span><span class="nt">my_technology_1_desc</span><span class="p">:</span><span class="w"> </span><span class="s">"My</span><span class="nv"> </span><span class="s">technology's</span><span class="nv"> </span><span class="s">description"</span>
+</pre></div>
+<p>If a technology does <i>不</i> have a name defined, it gets 'borrowed' from the equipment that the technology unlocks. This would also make the description the same as the equipment's description, if one is present. This does allow making the names be country-specific by prepending it to the beginning, separated with an underscore. For example, if the technology unlocks <code>my_equipment_1</code>, then this within any <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/localisation/english/*_l_english.yml</span> file will make the technology (and equipment) have the name of <code>My Honduran equipment</code> for <a href="Honduras.html"><img src="images/Honduras.png" alt width="24" height="16" loading="lazy"></a>&nbsp;<a href="Honduras.html">洪都拉斯</a>和<code>My equipment</code> for every other country:
+</p>
+<div class="mw-highlight mw-highlight-lang-yaml mw-content-ltr" dir="ltr"><pre><span class="nt">l_english</span><span class="p">:</span>
+<span class="w"> </span><span class="nt">HON_my_equipment_1</span><span class="p">:</span><span class="w"> </span><span class="s">"My</span><span class="nv"> </span><span class="s">Honduran</span><span class="nv"> </span><span class="s">装备"</span>
+<span class="w"> </span><span class="nt">my_equipment_1</span><span class="p">:</span><span class="w"> </span><span class="s">"My</span><span class="nv"> </span><span class="s">装备"</span>
+</pre></div>
+<p>The icon is defined as a spriteType within any <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/interface/*.gfx</span> file, by prepending the name of the technology with <code>GFX_</code> and appending <code>_medium</code> to the end. For example, the following will result in an icon for <code>my_technology_1</code>:
+</p>
+<pre>spriteType = {
+    name = GFX_my_technology_1_medium
+    texturefile = gfx/interface/technologies/filename.dds
+}</pre>
+<p>Here it is the other way around compared to names: if the equipment doesn't have a unique icon defined, then it will use the one defined by the technology. The country-specific equipment and technology icons are done with inserting the country tag between GFX and the name of the technology, still separated with underscores, as <code>name = GFX_HON_my_technology_1_medium</code>.
+</p>
+<h3 id="s-zbb2ai" data-section="1"><span class="mw-headline" id="Technology's_cost">Technology's cost</span></h3>
+<p>There are two primary arguments that modify the cost to a technology.
+</p><p><code>research_cost = 1</code> assigns the base research cost for this technology. For comparison, a value of 1 is equal to 100 days worth of research assuming fully default research speed with no modifiers<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup>.
+</p><p><code>start_year = 1935</code> assigns the year at which the technology is intended to be researched. Each year in advance adds +200% to the technology's cost<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup>, applied smoothly depending on the amount of days left. This does not modify the start year shown in the top of the technology folder for some of the folders, this is <a href="#Folder">defined within the interface file of the folder.</a>
+</p><p>Additionally, it's possible to make the cost be modified by <a href="#Position">other technologies pathing to it</a>.
+</p>
+<h3 id="s-1quewx6" data-section="1"><span class="mw-headline" id="Position">Position</span></h3>
+<p>In order to connect a technology to a different one within the tree, <code>path</code> is used as such in the technology from which <i>the branch originates</i>:
+</p>
+<pre>path = {
+    leads_to_tech = my_technology_2
+    research_cost_coeff = 1
+}</pre>
+<p>In here, the technology where the path leads is specified with leads_to_tech. The path will be created in every folder that contains both of these technologies. This also leads to adding that technology to this technology's tree branch gridbox in every mutual folder. <b>If a technology doesn't have any other technology as a requirement using path in any folder where it's placed, then <a href="#Folder">it must have a separate gridboxType definition within the folder's container window.</a> Otherwise, the technology branch will never appear in-game.</b><br>
+The gridbox is used in order to assign the information used by the <code>folder = { ... }</code> block later on: the position of the coordinate origin on the screen, the size in pixels that one unit of x and y represent, and in which direction they aim (used for drawing the path). Add the argument  <code>ignore_for_layout = yes</code> into the path block for secondary paths (such as light cruiser techs leading to heavy cruiser techs without MTG) to prevent  the <code>Found multiple potential grid boxes for tech</code> error.
+</p><p>A pathing automatically makes the latter technology require the former. If a technology has several technologies connecting to it via path, then at least one of the technologies leading to it must be researched. If there are multiple technologies leading to this one within the same folder, the technology will use the same gridbox used in the technology pathing to it that was defined the earliest. research_cost_coeff can be used to decrease the cost if needed: if this technology is researched, the technology it paths towards will have this cost multiplied by the research_cost_coeff. This can be used if multiple technologies path to the same technology to make it faster to research if a more 'advanced' technology was researched.
+</p><p>Having assigned the technology to a branch, whether by having a different one path to it or by having created a gridboxType definition in the interface file, it is possible to define the exact position of the item with folder:
+</p>
+<pre>folder = {
+    name = my_folder
+    position = { x = 0 y = 1 }
+}</pre><p>In this, the name refers to the folder. The position is in sets of coordinates defined by the slotsize of the gridbox that this technology is assigned to via the path. For example, within the gridbox's definition, <code>slotsize = { width = 70 height = 70 }</code> would mean that a single unit of either x or y represents 70 pixels in the GUI in the appropriate direction. The direction of x and y depends on the format of the gridbox: a "LEFT" format means that x goes up-to-down while y goes left-to-right, while an "UP" format would mean that x goes left-to-right while y goes up-to-down. The origin point (i.e. where the technology would be at <code>x = 0 y = 0</code>) is assigned by the <code>position = { x = 100 y = 100 }</code> within the gridbox's definition in the interface file, which uses pixels and is positioned relative to the top-left corner of the window.<br>
+</p><p>Defining multiple folders for the same technology is done by having multiple of the <code>folder = { ... }</code> within the technology. For each folder, the technology must have a gridbox assigned to show up in one of the two ways.
+</p><p>In order to have a technology as a dependency without having to draw a path, <code>dependencies</code> can be used as such:
+</p>
+<pre>dependencies = {
+    my_technology_1 = 1
+    my_technology_2 = 1
+}</pre><p>Since this doesn't draw a path, this does not assign the currently-defined technology to the gridbox of either of two technologies. Additionally, this also serves as an AND statement unlike the path that serves as an OR statement: every dependency must be researched to complete this technology, alongside at least one of the paths leading to this technology if there's one.
+</p><p>Additionally, <code>XOR = { ... }</code> is used to make the technology be mutually-exclusive with every technology specified within. The technologies within are separated with any whitespace characters, such as <code>XOR = { my_technology_1 my_technology_2 }</code>. A XOR should be in every mutually-exclusive technology, specifying the others, having it in just one of technologies isn't enough.
+</p>
+<h3 id="s-1mg4kqi" data-section="1"><span class="mw-headline" id="Sub-technologies">Sub-technologies</span></h3>
+<p>A technology can have specified technologies assigned as sub-technologies by using <code>sub_technologies = { ... }</code>, where every listed technology is a sub-technology. The block contains technologies separated with whitespace characters, such as <code>sub_technologies = { my_technology_1 my_technology_2 }</code>. This also assigns them the indexes of 0 and 1 respectively, <a href="#Item">which get used in determining which container exactly to use</a>.<br>
+If desiring to use a container of a sub-technology with a different index, <code>sub_tech_index = 1</code> can overwrite it within the definition of the sub-technology itself. For example, setting it to be 2 will make the game treat it as if it's a third sub-technology that the item has, even if it's the first one, which'll move it to the according position and give it the according icon.
+</p><p>As a sub-technology item is directly assigned to each technology folder item as a separate container, the sub-technologies do not need their own gridbox definition and neither do they need the folder argument.
+</p>
+<h3 id="s-1upw6fh" data-section="1"><span class="mw-headline" id="Categories">Categories</span></h3>
+<p>A technology can have categories assigned to it with <code>categories = { ... }</code>, where each category is separated with whitespace characters as <code>categories = { my_category_1 my_category_2 }</code>.<br>
+The player never sees the category for each technology, but it does have certain uses, including but not limited to:
+</p>
+<ul><li><a href="AI_modding.html">AI模组制作</a>. It's possible to make AI prioritise taking technologies within specific categories, such as within AI focuses or AI strategy plans.</li>
+<li><a href="Modifiers.html">修正项</a>. <code>research_bonus = { my_category_1 = 0.1 }</code> is a special argument argument within idea, characters, and country leader traits that allows modifying the speed of researching a specific technology category.</li>
+<li><a href="Effect.html">the add_tech_bonus effect</a>, that can grant a one-use bonus for each technology within the specified folder.</li>
+<li><a href="#Technology_sharing_groups">Technology sharing groups</a>, which can be limited to only apply towards specified technologies.</li></ul>
+<p>Technology categories are defined within a <code>technology_categories = { ... }</code> block within <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/common/technology_tags/*.txt</span> files, where each category is separated with whitespace characters, no other info being assigned to it. For localisation, there are two keys assigned. Taking my_category_1 as an example, it'd have the localisation of this:
+</p>
+<pre> my_category_1: "My Category"
+ my_category_1_research:0 "My Category's Research Speed"</pre>
+<p>In particular, the first one, the same as the category's name, is used for most cases (such as the one-time bonuses and technology sharing groups), while the second one, with _research appended in the end, is used for the research_bonus-type modifiers.
+</p>
+<h3 id="s-136dl8z" data-section="1"><span class="mw-headline" id="Experience_costs">Experience costs</span></h3>
+<p>In order to assign an experience type to a technology, <code>xp_research_type = army</code> is used. This has 3 types: army, navy, and air. This assigns a particular experience type to the technology.
+</p><p>After this, there are two types of experience costs that can be used:
+</p>
+<ul><li><code>xp_boost_cost = 40</code>和<code>xp_research_bonus = 1.5</code> can be used to make the technology be <i>boosted</i> by experience. This is done with the naval folder with <a href="Man_the_Guns.html"><img src="images/DLC_Man_the_Guns.png" alt width="22" height="19" loading="lazy"></a><a href="Man_the_Guns.html">全民持枪</a>, for example.</li>
+<li><code>xp_unlock_cost = 100</code> makes the experience cost fully grant the technology. This in particular was commonly done with doctrines.</li></ul>
+<h3 id="s-1gaaggv" data-section="1"><span class="mw-headline" id="AI_weighting">AI weighting</span></h3>
+<p>In order for the AI to research any technology, you MUST include at least one of its categories in any  <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/common/ai_focuses/*.txt</span> <a href="AI_focuses.html">file</a>.
+</p><p><code>ai_will_do = { ... }</code> is a <a href="AI_modding.html">MTTH block</a> that decides the likelihood for the AI to do this focus if <a href="#AI_strategy_plans">an AI strategy plan</a> is not set.<br>
+By default, each technology has a score of 1. The arguments of <code>基础</code> (changing the value), <code>add</code>, and <code>factor</code> (multiplying it) can be used to modify it.<br>
+Within the <code>ai_will_do = { ... }</code> block, <code>modifier = { ... }</code> functions as a trigger block where the prior three value-modifying arguments are also supported. The value will be modified if the triggers are true. For example, the following will result in the value of 3 for POL and a value of 1 for every other country:
+</p>
+<pre>ai_will_do = {
+    base = 1
+    modifier = {
+        factor = 3
+        tag = POL
+    }
+}</pre>
+<p>An arbitrarily large amount of modifiers is possible to add to an ai_will_do, and they will apply in the order they're put in the code. It is also possible to use variables within a modifier of the ai_will_do value.
+</p><p>The way that the value is evaluated for AI picking the technology is that, every 7 days<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup>, it generates a random decimal value between 0 and the ai_will_do value for each of the technologies. There are several modifiers additionally, in order to make the AI take the cost, bonuses, and ahead-of-time into considerations. A lot of AI modifiers that apply to every single technology can be changed within <a href="Defines.html">defines</a>.
+</p><p>Additionally, <code>ai_research_weights = { offensive = -1.0 }</code> can be used to make the AI prioritise this technology less or more if it has the specified focus. This includes resources, sub-units, offensive and defensive, or sub-unit categories.
+</p>
+<h3 id="s-iu6a78" data-section="1"><span class="mw-headline" id="Doctrines">学说</span></h3>
+<p>In order to mark a technology as a doctrine, it must have <code>doctrine = yes</code>. It also will have to be within a technology folder that's assigned to hold doctrines.
+</p><p><code>doctrine_name = my_doctrine_name</code> is also defined within the first doctrine of the branch in order to let the player know the name of the doctrine branch when hovering over the icon (e.g. <i>Strategic destruction</i> or <i>Grand battleplan</i>). This is a localisation key that gets assigned a value for each language within any <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/localisation/</span> file.
+</p>
+<h3 id="s-1vakwcc" data-section="1"><span class="mw-headline" id="Additional">Additional</span></h3>
+<p><code>show_equipment_icon = yes</code> is used in order to make the equipment icon show up when hovering over the technology in the tree. This can be useful for technologies which use an icon that's not the same as the equipment that it unlocks, such as the landing craft or rocket engine technologies in base game.
+</p><p><code>force_use_small_tech_layout = yes</code> is used in order to force the game to use this technology to use the small item for this particular technology even if it unlocks equipment. Keep in mind that if there is no small item defined, all technologies will use the regular item, so this would only be useful if equipment-unlocking technologies in the folder are split between small and regular items.
+</p><p><code>desc = MY_TECHNOLOGY_SPECIAL</code> provides additional text when hovering over the technology. <i>This is in addition to the technology's actual description</i>, rather than overwriting it. This is a localisation key that gets assigned a value for each language within any <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/localisation/</span> file.
+</p>
+<h3 id="s-uy0v5i" data-section="1"><span class="mw-headline" id="Examples">示例</span></h3>
+<table class="eu4box-inline mw-collapsible mw-collapsed" style="width:100%; padding: 1px;">
+
+<tbody><tr>
+<th style="font-size:115%; text-align:left; padding:0.5em">The text in this section has been collapsed by default.
+</th></tr>
+<tr>
+<td style="border: solid 1px Silver; padding: 0.6em; background: White;">
+<pre>technologies = {
+    my_technology_1 = {
+        research_cost = 1
+        start_year = 1937
+        folder = {
+            name = my_folder
+            position = { x = 0 y = 0 }  # Same as gridbox
+        }
+        allow_branch = {
+            has_dlc = "Wojtek Expansion Pack"
+        }
+        path = {
+            leads_to_tech = my_technology_3
+            research_cost_coeff = 1
+        }
+        path = {
+            leads_to_tech = my_technology_4
+            research_cost_coeff = 1
+        }
+        xor = { my_technology_2 }
+        categories = { my_category_1 }
+        ai_research_weights = { defensive = 1 }
+        army_attack_factor = 0.1
+    }
+    my_technology_2 = {
+        research_cost = 1.5
+        start_year = 1937
+        folder = {
+            name = my_folder
+            position = { x = 0 y = 0 }  # Same as gridbox
+        }
+        xor = { my_technology_1 }
+        categories = { my_category_2 }
+        ai_research_weights = { offensive = 1 }
+        enable_equipment_modules = { my_module_1 }
+        enable_subunits = { my_subunit_1 }
+    }
+    my_technology_3 = {
+        research_cost = 1
+        start_year = 1938
+        folder = {
+            name = my_folder
+            position = { x = -1 y = 1 }
+        }
+        path = {
+            leads_to_tech = my_technology_5
+            research_cost_coeff = 1
+        }
+        enable_equipments = { my_equipment_1 }
+        force_use_small_tech_layout = yes
+        show_equipment_icon = yes
+        categories = { my_category_1 }
+    }
+    my_technology_4 = {
+        research_cost = 1.5
+        start_year = 1939
+        folder = {
+            name = my_folder
+            position = { x = 1 y = 1 }
+        }
+        path = {
+            leads_to_tech = my_technology_5
+            research_cost_coeff = 0.8           # Make the technology faster to research if this one was researched and not just my_technology_3
+        }
+        enable_equipments = { my_equipment_2 }
+        categories = { my_category_1 }
+    }
+    my_technology_5 = {
+        research_cost = 1.75
+        start_year = 1940
+        folder = {
+            name = my_folder
+            position = { x = 0 y = 2 }
+        }
+        categories = { my_category_1 }
+        enable_building = {
+            building = my_building
+            level = 1
+        }
+        sub_technologies = {
+            my_technology_6
+        }
+    }
+    my_technology_6 = {
+        allow = {
+            has_built = {
+                type = my_building
+                value &gt; 3
+            }
+        }
+        research_cost = 0.8
+        start_year = 1941
+        categories = { my_category_1 }
+        enable_building = {
+            building = my_building
+            level = 3
+        }
+    }
+}</pre>
+</td></tr></tbody></table>
+<p><br>
+</p>
+<h2 id="s-ncx7re" data-section="1"><span class="mw-headline" id="Folders">Folders</span></h2>
+
+<p>Folders are defined as blocks within the <code>technology_folders = { ... }</code> block in <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/common/technology_tags/*.txt</span> files, where the name of the block within is used as the folder's ID.<br>
+In particular, there are 3 arguments that can go into folders:
+</p>
+<ul><li><code>available = { has_dlc = "Poland: United and Ready" }</code> is a trigger block that must be met for the folder to be <i>visible</i>.</li>
+<li><code>ledger = army</code> is the intelligence ledger to which the folder is assigned to. Possible values are <code>陆军</code>, <code>空军</code>, <code>海军</code>, <code>军事</code> (Appearing on each of the prior ledgers), <code>民用</code>, <code>all</code>, and <code>隐蔽</code>.</li>
+<li><code>doctrine = yes</code>, if specified, marks the folder as being a doctrine folder. Defaults to false if left out.</li></ul>
+<p>The localisation key used for the name of the technology is the same as the folder's name, while the description is the name with _desc appended. For example,
+</p>
+<pre> my_folder: "My folder's name"
+ my_folder_desc: "My folder's description"</pre>
+<p>In order to make the folder appear in-game, the graphical user interface needs to be edited accordingly, in particular:
+</p>
+<ul><li><a href="#Folder_tabs">A folder tab</a> need to be added to the top bar in order for the player to be able to select the folder.</li>
+<li><a href="#Folder">The folder's container</a> needs to be created and filled with gridboxes in order for the game to know where to place the technologies, as well as any additional elements of the user interface such as textboxes and the background.</li>
+<li><a href="#Items">Item containers</a> decide on the appearance of technologies as they appear in the folder in order to decide the background and the arrangement of elements&nbsp;– such as a research bonus, the name of the technology or sub-technologies&nbsp;— on that background.</li></ul>
+<p>If any of these isn't present, it will be impossible for the player to research any new technologies manually, but the AI will still be able to do so and <a href="Effect.html">set_technology</a> may be used to directly assign them to the player.
+</p>
+<h2 id="s-1rv8jr2" data-section="1"><span class="mw-headline" id="Graphical_user_interface">Graphical user interface</span></h2>
+
+<div style="margin-left:1.5em"><i>另见：<a href="Interface_modding.html">Interface模组制作</a></i></div>
+<p>The menu for viewing the tree is defined within <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/interface/countrytechtreeview.gui</span> for technologies and <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/interface/countrydoctrinetreeview.gui</span> for doctrines. However, they are mostly similar in definition.
+</p>
+<h3 id="s-1q7l7hr" data-section="1"><span class="mw-headline" id="Items">Items</span></h3>
+<p>A technology or doctrine tree item is the technology itself within the tree. It assigns which background is used, where exactly to locate the technology's icon in the background, where to place the technology bonus icon, where to place sub-technologies (if needed), where to place the technology's name on the research tree (if defined).<br>
+A technology item is defined by using a containerWindowType with the name of <code>techtree_&lt;folder name&gt;_item</code>, while the small item is defined with the name of <code>techtree_&lt;folder name&gt;_small_item</code>. The definition for doctrine items is fully identical and does not differ from technologies in any way. These container windows for items are <i>不</i> contained within any other container window, rather being defined fully independently. <b>Small items are not inherently smaller</b>: the categorisation only assigns a different containerWindowType to be used for technologies that don't unlock equipment, and all of the properties are determined within that container window. Both use the exact same images as the default icon, <a href="#Item_sprites">which must be changed manually</a> if needed.
+</p><p>When a small item is used and when a regular item is is determined by equipment. If a technology unlocks equipment, it'll use the regular item, while a technology that doesn't unlock equipment will use the small item. However, if the folder has no small item defined in the interface file, then every single technology will use the regular item. <code>force_use_small_tech_layout = yes</code> within the technology will force it to use the small item, if it exists.
+</p><p>In particular, this is an example of a regular small item:
+</p>
+<table class="eu4box-inline mw-collapsible mw-collapsed" style="width:100%; padding: 1px;">
+
+<tbody><tr>
+<th style="font-size:115%; text-align:left; padding:0.5em">The text in this section has been collapsed by default.
+</th></tr>
+<tr>
+<td style="border: solid 1px Silver; padding: 0.6em; background: White;">
+<pre>containerWindowType = {
+    name = "techtree_my_folder_small_item"
+    position = { x=0 y=5 }
+    size = { width = 204 height = 72 }
+    clipping = no
+    background = {
+        name = "Background"
+        quadTextureSprite ="GFX_technology_unavailable_item_bg"
+    }
+    iconType = {
+        name = "Icon"
+        position = { x=34 y=35 }
+        spriteType = "GFX_technology_medium"
+        centerposition = yes
+        alwaystransparent = yes
+    }
+    iconType = {
+        name = "bonus_icon"
+        position = { x=-1 y=-22 }
+        spriteType = "GFX_tech_bonus"
+    }
+    instantTextBoxType = {
+        name = "bonus"
+        position = { x = -1 y = -22 }
+        textureFile = ""
+        font = "hoi_16mbs"
+        borderSize = {x = 4 y = 4}
+        text = "lol boat"
+        maxWidth = 80
+        maxHeight = 20
+        format = center
+    }
+}</pre>
+</td></tr></tbody></table>
+<p><br>
+In here, "Icon" represents the technology-specific icon. "bonus_icon" represents the icon that's used for the <a href="Effect.html">one-time technology research bonus</a> and "bonus" represents the text for the bonus saying how much it actually boosts the research. These can be edited to change the position or the font.
+</p><p>For large items, usually the name of the technology is also shown on the tree without needing to see the description. This is done with inserting an instantTextBoxType with the name of "Name" into the item, usually between the "Icon" and "bonus_icon".<br>
+Additionally, this is also where sub-technologies are assigned. A sub-technology slot is defined with a containerWindowType with the name of "sub_technology_slot_0", with the last number being 0 for the first one, 1 for the second one, and 2 for the third one. By default, there can be no more than 3 sub-technologies defined within an item<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup>. The picture defined within is done with the <code>picture</code> iconType, and it cannot be changed to be technology-specific, it depends only on the sub-technology index of the technology.<br>
+This is an example of a regular item with a sub-technology slot and the technology's name shown, with positions also adjusted for a regular item slot size:
+</p>
+<table class="eu4box-inline mw-collapsible mw-collapsed" style="width:100%; padding: 1px;">
+
+<tbody><tr>
+<th style="font-size:115%; text-align:left; padding:0.5em">The text in this section has been collapsed by default.
+</th></tr>
+<tr>
+<td style="border: solid 1px Silver; padding: 0.6em; background: White;">
+<pre>containerWindowType = {
+    name = "techtree_infantry_folder_item"
+    position = { x=-56 y=-7 }
+    size = { width = 183 height = 84 }
+    clipping = no
+    background = {
+        name = "Background"
+        quadTextureSprite ="GFX_technology_unavailable_item_bg"
+    }
+    iconType = {
+        name = "Icon"
+        position = { x=91 y=50 }
+        spriteType = "GFX_technology_medium"
+        centerposition = yes
+        alwaystransparent = yes
+    }
+    instantTextBoxType = {
+        name = "Name"
+        position = { x = 3 y = -3 }
+        textureFile = ""
+        font = "hoi_20bs"
+        borderSize = {x = 4 y = 4}
+        text = "Happy-Go-Lucky-Tank"
+        maxWidth = 160
+        maxHeight = 20
+        fixedsize = yes
+        format = left
+    }
+    iconType = {
+        name = "bonus_icon"
+        position = { x=111 y=-22 }
+        spriteType = "GFX_tech_bonus"
+    }
+    instantTextBoxType = {
+        name = "bonus"
+        position = { x = 111 y = -22 }
+        textureFile = ""
+        font = "hoi_16mbs"
+        borderSize = {x = 4 y = 4}
+        text = "lol boat"
+        maxWidth = 80
+        maxHeight = 20
+        format = center
+    }
+    containerWindowType = {
+        name = "sub_technology_slot_0"
+        position = { x=141 y=1 }
+        size = { width = 35 height = 26 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            spriteType ="GFX_subtechnology_unavailable_item_bg"
+        }
+
+        iconType = {
+            name = "picture"
+            position = { x=2 y=2 }
+            spriteType = "GFX_subtech_rocket"
+            alwaystransparent = yes
+        }
+    }
+}</pre>
+</td></tr></tbody></table>
+<p><br>
+</p>
+<h4 id="s-n0dp68" data-section="1"><span class="mw-headline" id="Item_sprites">Item sprites</span></h4>
+<p>There are 5 sprites defined for item slots. By default, these are defined in <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/interface/countrytechtreeview.gfx</span>. If a folder doesn't have specific item slots, these are used for items:<br>
+<code>GFX_technology_available_item_bg</code> is used for technologies that are shown to be available for the player to select<br>
+<code>GFX_technology_branch_item_bg</code> is used for items that are mutually exclusive to a technology you've already researched<br>
+<code>GFX_technology_unavailable_item_bg</code> is used for technologies that the country is not yet able to research<br>
+<code>GFX_technology_researched_item_bg</code> is used for technologies that the country has already researched.<br>
+<code>GFX_technology_currently_researching_item_bg</code> is used for technologies that are currently selected by the country.
+</p><p>These in particular are, by appearance, regular non-square rectangular land items in base game, such as the one used for Infantry Equipment; however, GFX_technology_branch_item_bg uses a smaller, square, icon since the base game doesn't have any mutually exclusive techs of the larger size. <b>These would be used for both regular and small items - in order to make small items be smaller by appearance, folder-specific sprite definition are required</b>. In order to define a specific folder's item to use a non-default background, the name of the technology folder can be appended after the word <code>technology</code>, such as <code>GFX_technology_my_folder_available_item_bg</code>. For small items, the word "small" would be added after the folder name as <code>GFX_technology_my_folder_small_researched_item_bg</code>.<br>
+The item slots for sub-technologies are defined similarly, although with <code>technology</code> changed to <code>subtechnology</code>. In the exact same way, sub-technologies can have folder-specific items, such as <code>GFX_subtechnology_my_folder_available_item_bg</code>.
+</p><p>Example sprite definitions to make a folder with the name of <code>my_folder</code> have its small items use the same background as the regular small land items use in base game:
+</p>
+<table class="eu4box-inline mw-collapsible mw-collapsed" style="width:100%; padding: 1px;">
+
+<tbody><tr>
+<th style="font-size:115%; text-align:left; padding:0.5em">The text in this section has been collapsed by default.
+</th></tr>
+<tr>
+<td style="border: solid 1px Silver; padding: 0.6em; background: White;">
+<pre>spriteType = {
+    name = "GFX_technology_my_folder_small_available_item_bg"
+    textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
+}
+spriteType = {
+    name = "GFX_technology_my_folder_small_unavailable_item_bg"
+    textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
+}
+spriteType = {
+    name = "GFX_technology_my_folder_small_researched_item_bg"
+    textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
+}
+frameAnimatedSpriteType = {
+    name = "GFX_technology_my_folder_small_currently_researching_item_bg"
+    texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+    noOfFrames = 9
+    loadType = "INGAME"
+    transparencecheck = yes
+    animation_rate_fps = 15
+    looping = yes
+    play_on_show = yes
+    pause_on_loop = 0.0
+}</pre>
+</td></tr></tbody></table>
+<p><br>
+</p>
+<h3 id="s-1q0oot" data-section="1"><span class="mw-headline" id="Folder">Folder</span></h3>
+<p>A folder is defined as a containerWindowType the name of which is exactly the same as the name of the folder within. That container window would have to be located within the containerWindowType with the name of <code>countrytechtreeview</code>, defined within <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/interface/countrytechtreeview.gui</span> (<b>not countrytechnologyview.gui</b>), for technology folders and within the containerWindowType with the name of <code>countrydoctrineview</code>, defined within <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/interface/countrydoctrinetreeview.gui</span>, for doctrine folders.<br> 
+This container contains information on what's within the folder itself: the background image used, anything else in the background such as the start years of technologies or textboxes telling the branches, as well where each individual technology branch is located.
+</p><p>A simple technology folder definition looks like the following:
+</p>
+<table class="eu4box-inline mw-collapsible mw-collapsed" style="width:100%; padding: 1px;">
+
+<tbody><tr>
+<th style="font-size:115%; text-align:left; padding:0.5em">The text in this section has been collapsed by default.
+</th></tr>
+<tr>
+<td style="border: solid 1px Silver; padding: 0.6em; background: White;">
+<pre>containerWindowType = {
+    name = "my_folder"
+    position = { x=0 y=47 }
+    size = { width = 100%% height = 100%% }
+    margin = { top = 13 left = 13 bottom = 24 right = 25}
+    drag_scroll = { left middle }
+    verticalScrollbar = "right_vertical_slider"
+    horizontalScrollbar = "bottom_horizontal_slider"
+    scroll_wheel_factor = 40
+    background = {
+        name = "Background"
+        quadTextureSprite ="GFX_tiled_window_2b_border"
+    }
+    iconType = {
+        name ="my_techtree_bg"
+        spriteType = "GFX_my_techtree_bg"
+        position = { x=0 y=0 }
+    }
+    gridboxtype = {
+        name = "my_technology_1_tree"
+        position = { x = 150 y = 60}
+        size = { width = 100 height = 140 }
+        slotsize = { width = 70 height = 70 }
+        format = "LEFT"
+    }
+    gridboxtype = {
+        name = "my_technology_2_tree"
+        position = { x = 150 y = 360 }
+        size = { width = 100 height = 140 }
+        slotsize = { width = 70 height = 70 }
+        format = "LEFT"
+    }
+}</pre>
+</td></tr></tbody></table>
+<p><br>
+In here, one important thing is the iconType representing the background, in this case called <code>my_techtree_bg</code>. The spriteType specified here will get used as the background of the tree, with the static size.
+</p><p>Additionally, incredibly important are the gridboxes representing technology tree branches. The game uses them to know where exactly to locate the branches, how much to distance items within them, and in which direction to take the coordinates. The technology tree branch follows the name formatting of the first technology's name with _tree appended in the end.<br>
+</p>
+<ul><li><code>position = { ... }</code> argument is the position of the top-left corner of the technology icon counting from the upper left corner. x is left-to-right, y is up-to-down.<br></li>
+<li><code>slotsize = { ... }</code> argument is used to tell how to translate <a href="#Position">the technology's position</a> within <code>folder = { ... }</code> into pixels.<br></li>
+<li><code>format = "LEFT"</code> argument is used to tell into which direction to aim x and y. The two most commonly-used positions in here are "LEFT", for making x point up-to-down and y point left-to-right, and "UP", for making x point left-to-right and y up-to-down. Usually these are used in trees pointed right from left and down from up respectively in order to make y the direction into which the tree moves.<br></li></ul>
+<dl><dd>This also modifies how the paths are drawn between technologies. In most cases, with "LEFT", it goes right for one unit, then goes vertically for as much as necessary, and finally continues right for as much as needed; with "UP" it goes down by one unit, goes horizontally for as much as needed, and then continues down towards the technology. This does not always apply, such as when the technology is fairly close, but modifying the format can change the way the paths between technologies are drawn regardless.</dd>
+<dd>Due to this, "LEFT" is used for horizontal trees (with the parent being on the very left), while "UP" is used for vertical trees (with the parent being on the very top).</dd></dl>
+<p>Any icons or textboxes can be added to the container window, and they'll appear in that position in the technology tree. This is what the game does for showing the start years of technologies, for example: each one is a separate instantTextBoxType within the folder's container window.
+</p>
+<h3 id="s-1xx5e13" data-section="1"><span class="mw-headline" id="Folder_tabs">Folder tabs</span></h3>
+<p>In order to select a technology folder, it should appear in the top selection. While the above <a href="#folder">folder</a> section detailed the insides of the folder, it didn't detail adding the folder to the selection.
+</p><p>The folder selection is done within the <code>folder_tabs</code> containerWindowType. For technologies, this is stored inside of the <code>countrytechtreeview</code> container window, while for doctrines, it's inside of the <code>countrydoctrineview</code> container window.
+</p><p>Within that containerWindowType, a buttonType with the name of the folder (with _tab appended in the end) is used to represent the folder, using <code>my_folder</code> as an example:
+</p>
+<pre>buttonType = {
+    name = "my_folder_tab"
+    position = { x = 22 y = 0 }
+    quadTextureSprite = "GFX_my_folder_tab"
+    frame = 1
+    clicksound = click_default
+}</pre>
+<p>In here, <code>position = { ... }</code> controls the position of the folder tab, while <code>quadTextureSprite</code> is the exact sprite used by the tab. An example definition of that sprite within any <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/interface/*.gfx</span> file is the following:
+</p>
+<pre>spriteType = {
+    name = GFX_my_folder_tab
+    textureFile = gfx/interface/techtree/techtree_my_tab.dds
+    noOfFrames = 2
+}</pre>
+<p>In particular, noOfFrames controls the amount of frames the sprite has, cutting the image in a left half and a right half with 2. The first frame, on the left, is used when the folder is opened, while the second frame, on the right, is used when the folder is closed.
+</p><p>For doctrines, it's also typical to add the textbox detailing what the folder is. This is done with a regular instantTextBoxType:
+</p>
+<pre>instantTextBoxType = {
+    name = "my_doctrine_title"
+    text = "my_doctrine"
+    position = { x=60 y=18}
+    font = "hoi_20bs"
+    maxWidth = 160
+    maxHeight = 20
+    format = center
+    alwaystransparent = "yes"
+}</pre><p>The text is what gets used within localisation, and the primary thing needed to change, while the name should just be unique from all the rest.
+</p><h2 id="s-1vyef4x" data-section="1"><span class="mw-headline" id="Technology_sharing_groups">Technology sharing groups</span></h2>
+
+<p>Technology sharing groups are a feature allowing to receive bonuses to researching technology that other members of the group have already researched, up to 50%.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup> A technology group is defined in <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/common/technology_sharing/*.txt</span> files, where each group is represented with a separate <code>technology_sharing_group = { ... }</code> block.<br>
+The only way to add a country to a technology sharing group is to <a href="Effect.html">use the add_to_tech_sharing_group effect to do so.</a> A similar effect can be used to remove them, and technology sharing groups can be set to automatically kick out members that don't meet requirements.
+</p><p>These arguments are used within technology sharing groups:<br>
+<code>id = my_tech_group</code> is used to tell how to refer to the group is internally for the effects or triggers referring to one.<br>
+<code>name = my_tech_group_name</code> is used to say which key shjould be used in order to assign the name to this group depending on the currently-turned on language in localisation.<br>
+<code>desc = my_tech_group_desc</code> is used to say which key shjould be used in order to assign the description to this group depending on the currently-turned on language in localisation.<br>
+<code>picture = GFX_my_tech_group</code> is used to assign a sprite, defined in any <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/interface/*.gfx</span> file, to this group. This shows up in the country's research menu in the top.<br>
+<code>research_sharing_per_country_bonus = 0.05</code> assigns how much of a bonus the technology sharing group grants for every other member that has researched that particular technology.<br>
+<code>categories = { ... }</code> is a list of technology categories separated by whitespace characters. If specified, then the group will only apply bonuses towards technologies located in these categories.<br>
+<code>is_faction_sharing = yes</code> makes the technology sharing group only grant bonuses towards countries in the same faction and, vise-versa, receive bonuses only from countries in the same faction. Defaults to false if unspecified.<br>
+<code>available = { ... }</code> is a trigger block, run for every country in the technology sharing group, that details the requirements needed to remain within the group. If false at some point, the country will be automatically kicked out.<br>
+</p><p>Here's an example of a technology-sharing group defined using all of these:
+</p>
+<pre>technology_sharing_group = {
+    id = tech_group_id
+    name = tech_group_name
+    desc = tech_group_desc
+    picture = GFX_technology_sharing_default
+
+    research_sharing_per_country_bonus = 0.1
+    is_faction_sharing = yes
+
+    categories = { infantry industry }
+
+    available = {
+        is_in_faction = yes
+    }
+}</pre>
+<h2 id="s-1p1yprf" data-section="1"><span class="mw-headline" id="References">参考资料</span></h2>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">NDefines.NTechnology.BASE_TECH_COST = 100</span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text">NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 2</span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><a href="#cite_ref-3">↑</a></span> <span class="reference-text">NDefines.NAI.RESEARCH_DAYS_BETWEEN_WEIGHT_UPDATE = 7</span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><a href="#cite_ref-4">↑</a></span> <span class="reference-text">NDefines.NTechnology.MAX_SUBTECHS = 3</span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><a href="#cite_ref-5">↑</a></span> <span class="reference-text"><code>NDefines.NTechnology.MAX_TECH_SHARING_BONUS = 0.5</code> 中的 <a href="Defines.html">定义文件</a>。</span>
+</li>
+</ol></div>
+<p>Every single one of the above references is specified within <a href="Defines.html">defines</a> and can be changed within a mod. When changing the define files, make sure to use an override file rather than copying over the entire base game files, as copying over the entire thing will cause crashes even on otherwise minor game updates, which commonly add new defines.
+</p>
+
+<div style="margin: 5px 0px 0px; padding: 2px; border: 1px solid #aaa; text-align: center; border-collapse: collapse; font-size: 100%;">
+<div style="height: 1.6em; font-weight: bold; font-size: 105%; background-color: #efefef;"><b><a href="Modding.html">模组制作</a></b></div>
+<div style="font-size:0.9em; margin:0.5em">
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">文档</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Effect.html">效果</a> • 触发器 • <a href="Defines.html">定义文件</a> • <a href="Modifiers.html">修正项</a> • <a href="List_of_modifiers.html">修正项列表</a> • <a href="Scopes.html">作用域</a> • <a href="Localisation.html">本地化文件</a> • <a href="On_actions.html">事件钩子</a> • <a href="Data_structures.html">数据结构</a>（<a href="Data_structures.html">标记</a>、<a href="Data_structures.html">事件目标</a>、<a href="Data_structures.html">国家标签别名</a>、<a href="Data_structures.html">变量</a>、<a href="Data_structures.html">数组</a>）</td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">脚本</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Achievement_modding.html">成就</a> • <a href="AI_modding.html">AI</a> • <a href="AI_focuses.html">AI 焦点</a> • <a href="Autonomy_state_modding.html">自治领</a> • <a href="Balance_of_power_modding.html">力量均势</a> • <a href="Bookmark_modding.html">书签/剧本</a> (<a href="Bookmark_modding.html">游戏规则</a>) • <a href="Building_modding.html">建筑</a> • <a href="Character_modding.html">角色与特质</a> • <a href="Cosmetic_tag_modding.html">外观标签</a> • <a href="Country_creation.html">国家</a> • <a href="Division_modding.html">师</a> • <a href="Decision_modding.html">决议</a> • <a href="Doctrine_modding.html">学说</a> • <a href="Equipment_modding.html">装备</a> • <a href="Event_modding.html">事件</a> • <a href="Faction_modding.html">阵营</a> • <a href="Idea_modding.html">理念</a> • <a href="Ideology_modding.html">意识形态</a> • <a href="Military_industrial_organization_modding.html">军事工业组织</a> • <a href="National_focus_modding.html">国策</a> • <a href="Resources_modding.html">资源</a> • <a href="Scripted_GUI_modding.html">脚本化 GUI</a> • <a class="mw-selflink selflink" href="#">科技与学说</a> • <a href="Unit_modding.html">单位</a>
+</td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">地图</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Map_modding.html">地图</a> • <a href="State_modding.html">州</a> • <a href="Supply_areas_modding.html">补给区域</a> • <a href="Strategic_region_modding.html">战略区域</a>
+</td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">图形</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Interface_modding.html">界面</a> • <a href="Graphical_asset_modding.html">图形资源</a> • <a href="Entity_modding.html">实体</a> • <a href="Posteffect_modding.html">后期特效</a> • <a href="Particle_modding.html">粒子</a> • <a href="Font_modding.html">字体</a>
+</td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">外观</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Portrait_modding.html">肖像</a> • <a href="Namelist_modding.html">名称列表</a> • <a href="Music_modding.html">音乐</a> • <a href="Sound_modding.html">音效</a>
+</td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">其他</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Console_commands.html">控制台指令</a> • <a href="Troubleshooting.html">疑难排查</a> • <a href="Mod_structure.html">模组结构</a> • <a href="Mods.html">模组</a> • <a href="Nudger.html">地图编辑器</a>
+</td></tr></tbody></table>
+</div></div>
+
+
+
+
+</div>
+</main>
+</div>
+<footer class="site-footer">
+<p>本资料库内容译自 <a href="https://hoi4.paradoxwikis.com/" rel="noreferrer">Hearts of Iron IV Wiki</a>（Paradox Interactive 社区维基），原文以 CC BY-SA 3.0 授权发布，译文沿用同一授权。仅供个人离线学习，与 Paradox Interactive 无隶属关系。</p>
+<p>原页面「Technology modding」｜ 抓取时间 2026-09-10 ｜ 原站版本号 104524 ｜ 中文翻译进度 21%</p>
+</footer>
+</body>
+</html>

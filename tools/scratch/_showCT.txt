@@ -1,0 +1,97 @@
+﻿=== Combat tactics (96) [file Combat_tactics.pr0000.json] ===
+qs74fq [0,1,2,3,4] :: At the field marshal and general levels, preferred tactics can be selected in the details screen of the ⟦0⟧ once they have reached a skill level of at least 5.⟦1⟧ Once selected, the preferred tactic of a ⟦2⟧ cannot be changed. If a general has a preferred tactic selected, the selection weight of that combat tactic is increased by ⟦3⟧ for battles they are commanding. If a field marshal has a preferred tactic selected, the selection weight of that combat tactic is increased by ⟦4⟧ for all battles commanded by either them or generals in their army group.
+1dd71g2 [0] :: The side losing this comparison has to pick their tactic first. This allows the side with Initiative, if a countering tactic is available, to pick it in response with increased probability. Its weight gets a bonus of ⟦0⟧ for every point of advantage in the skill comparison. However, the side with Initiative can still choose a tactic that will be countered by the enemy, as the weights of those tactics is not reduced from having Initiative.
+1ku8apu [0] :: To determine Initiative, the leading generals' skill levels are compared. If either side has a higher reconnaissance value in one of their divisions (including reserves), it gets a bonus of ⟦0⟧ skill levels for this comparison, regardless of big the reconnaissance difference between the two sides is. The side with the higher effective skill level gets Initiative, with ties favoring the defender.
+dy5wlf [0,1,2] :: At the country level, preferred tactics can be selected at the ⟦0⟧. They can be changed at any time, though each change incurs the Command power cost. If a country-level preferred tactic is selected, the selection weight of that combat tactic is increased by ⟦1⟧ for all ⟦2⟧ of that country.
+ai51ym [0,1,2,3] :: Only certain combat tactics can be selected as preferred tactics. Basic combat tactics like ⟦0⟧ or ⟦1⟧ cannot be selected as preferred tactics. Tactics only available in certain, unique phases, such as ⟦2⟧ or ⟦3⟧ also cannot be selected as preferred tactics.
+138ho6d [0,1,2,3,4,5,6] :: Certain ⟦0⟧ spirits can increase this effect for certain preferred tactics, such as ⟦1⟧ with ⟦2⟧ or ⟦3⟧ with ⟦4⟧. This applies across all levels of preferred tactics. Some ⟦5⟧, like the one provided by I Am Death for the ⟦6⟧, can have a similar effect.
+rktyvb [0] :: Tactics are picked according to the current phase, with battles always starting at default. The phase may change in response to picks being made, as listed in the following sections of tactics per phase.⟦0⟧
+a0ng8s [0,1,2] :: Despite what the tooltips show during battle, the ⟦0⟧ and ⟦1⟧ do not change the soft and hard attack of divisions (i.e. their number of attacks). Instead, they directly change the amount of ⟦2⟧.
+p8d5g [0,1,2] :: The side with ⟦0⟧ (shown by a golden frame around that side's ⟦1⟧'s portrait and chevrons underneath) gets to choose its tactic second and has an increased chance to ⟦2⟧ their enemy's tactic.
+40qqnu [0,1,2] :: Tactics get re-selected every 12⟦0⟧ hours from a weighted list of all available tactics to each side's ⟦1⟧. Combat can have different ⟦2⟧, with different tactics available in each phase.
+xknnlx [0] :: ⟦0⟧ can be selected at three different levels: at the country level, at the field marshal level, and at the general level. The effects of these levels can stack with one another.
+22ay1l [0,1,2] :: Attacking units by default have a movement penalty of ⟦0⟧.⟦1⟧ The ⟦2⟧ modifiers can offset or further increase this penalty, stacking additively.
+s8tvvs [0] :: Certain tactics can ⟦0⟧ other tactics. When a tactic is countered, its effects (including potential negative ones) are completely negated.
+1qgcmro [0,1,2] :: Selecting a preferred tactic comes at a one-time cost 20⟦0⟧ Command power. The ⟦1⟧ ⟦2⟧ spirit can reduce this cost.
+3b9qm4 [0,1] :: ⟦0⟧ provide damage, movement speed, and combat width modifiers in ⟦1⟧.
+wj674q [0,1] :: ⟦0⟧ affects the base ⟦1⟧ of a battle, but not flanking combat width.
+chhl0 [0] :: 4, if commanding general has trait ⟦0⟧ and in urban terrain else 0.8
+40yj1g [0,1] :: Does ⟦0⟧ have the ⟦1⟧: The Glory of the Red Army
+jtac8r [0] :: Have the ⟦0⟧: The Glory of the Red Army
+1u97rh6 [0] :: 8, if commanding general has trait ⟦0⟧.
+11j5d5c [0] :: 8, if commanding general has trait ⟦0⟧
+dwq9tc [] :: Has combat modifier: River Crossing.
+1msyga9 [0] :: Multiplied by 1.5 if has trait ⟦0⟧.
+1r81of2 [] :: 8, if at least 1 of the following:
+1lt1x9 [0] :: Commanding general has trait ⟦0⟧.
+1ghs79q [0] :: Multiplied by 3 if has trait ⟦0⟧.
+vlhb8w [] :: Close Quarters Local Strongpoint
+1c0ml39 [] :: Division artillery ratio > 10%
+133zmrs [] :: Armour Supported Urban Assault
+12tl4mz [] :: At least 1 of the following:
+19o2ang [] :: Skill advantage is over 1.
+hw7z4p [0] :: ⟦0⟧ - Operations Milestone
+1khqjuh [] :: Tactical Withdrawal Attack
+1peu54n [0] :: ⟦0⟧ - Artillery Milestone
+1fu5skb [0] :: ⟦0⟧ advantage is over 0.
+16eg5ha [0] :: ⟦0⟧ advantage is over 1.
+5qn9il [] :: Armored Infantry Support
+v7n6w6 [0] :: ⟦0⟧ - Infantry Milestone
+1ptzl1q [] :: Street by Street Barrage
+8el9cy [] :: Close Quarters Withdraw
+y4ul1w [] :: Close Quarters Defense
+11f0rwd [] :: Flexible Organization
+osc6re [0] :: ⟦0⟧ - Armor Milestone
+ym9ct9 [] :: All of the following:
+qv6jo8 [] :: Individual Excellence
+9txhck [] :: Close Quarters Attack
+hlpkg6 [] :: Tactics combat width
+16gsbep [] :: Close Quarters Storm
+1s5w4mo [] :: Urban Ambush Tactics
+1emt0wp [] :: Starts battle phase
+3bbjvj [] :: Frontage is filled.
+nozf8b [] :: Tactical withdrawal
+ltqj7v [] :: Hardness over 50%.
+txoek8 [] :: Fire Concentration
+l5qypc [0] :: Has unit type ⟦0⟧.
+3wmprd [] :: Requires doctrine
+1gems2u [] :: Armored Spearhead
+242sbj [] :: In urban terrain.
+u0lzd2 [] :: Requires research
+1gtmztv [] :: Fortified Defense
+8p6iyv [] :: Tactic Selection
+1w13wf3 [] :: Recapture Bridge
+183afyr [] :: Rapid Domination
+v2hkp4 [] :: Skill is over 2.
+1m9hs6d [] :: Skill is over 3.
+8yd2us [] :: Reckless Assault
+1cezl05 [] :: Frontage filled
+1406lpl [] :: Masterful Blitz
+3rsfym [0] :: Country is ⟦0⟧.
+6kai8g [] :: Mobile Infantry
+18vkcj8 [] :: Street fighting
+1l1d317 [0] :: ⟦0⟧ is under 3.
+1rdjmc [] :: Street Fighting
+caeflp [] :: Static Warfare
+1h9d6am [0] :: Has trait ⟦0⟧.
+1hbv9yq [0] :: ⟦0⟧ is over 2.
+1qrkx1r [0] :: ⟦0⟧ is over 3.
+1q83org [0] :: ⟦0⟧ is over 4.
+1k2wm5t [] :: Assault Bridge
+rjndeu [] :: Has reserves.
+drbd4v [] :: Panzer Expert
+6l0cue [] :: Banzai Charge
+1fbj1jr [] :: Urban Defense
+1ogloi2 [] :: Defend Bridge
+kyqhb [] :: Countered by
+13ejprh [] :: Close combat
+1tuxigr [] :: Soviet focus
+4xfnh2 [] :: Seize Bridge
+10ndb5i [] :: Seize bridge
+1wt0kib [] :: Storm Bridge
+17sj9l [] :: Mouse Holing
+hljopr [] :: Deep Battle
+vfer4t [] :: Hold Bridge
+1evdou5 [] :: Hold bridge
+vw89v0 [] :: Rush Bridge
+1dqfuoc [] :: Defend City

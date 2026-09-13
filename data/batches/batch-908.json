@@ -1,0 +1,647 @@
+{
+ "batch": 908,
+ "pages": [
+  "AI modding"
+ ],
+ "chars": 14990,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "m98js8",
+   "en": "⟦0⟧ is checked each day if the allowed is met. If ⟦1⟧ is met, then the AI strategy plan will be assigned to the AI regardless of whether ⟦2⟧ turns false later or not. Commonly, ⟦3⟧ is used to make it work with custom game rules deciding what path the AI will pick. ⟦4⟧ is commonly used with the default AI game rule, and country flags can be used for randomisation, by setting up an ⟦5⟧ to set a random one using ⟦6⟧",
+   "frags": 7
+  },
+  {
+   "k": "qpzcl5",
+   "en": "Triggers#has_game_rule"
+  },
+  {
+   "k": "ait2gr",
+   "en": "is_historical_focus_on"
+  },
+  {
+   "k": "17a5hde",
+   "en": "on_startup"
+  },
+  {
+   "k": "jspe6n",
+   "en": "random_list"
+  },
+  {
+   "k": "1mygee3",
+   "en": "⟦0⟧ is checked every day in order to make the AI ⟦1⟧ using this AI strategy plan if ⟦2⟧ is met. Additionally, it must be false in order for the AI strategy plan to be possible to be picked.",
+   "frags": 3
+  },
+  {
+   "k": "1keyeat",
+   "en": "stop"
+  },
+  {
+   "k": "1cploii",
+   "en": "⟦0⟧ is a list of national focuses, separated by whitespaces, in the order that the AI should take them. In this example, the AI will try to take TAG_focus_name_1 first if possible. If it's already taken or TAG_focus_name_1 is impossible to take, then AI will try to take TAG_focus_name_2. If both of the focuses are impossible to take due to being completed or unavailable, then it will move on to other focuses, taking ⟦1⟧ into consideration. While following a focus order, it ignores ⟦2⟧ values.",
+   "frags": 3
+  },
+  {
+   "k": "19kub9n",
+   "en": "ai_national_focuses = { TAG_focus_name_1 TAG_focus_name_2 }"
+  },
+  {
+   "k": "1ao69lv",
+   "en": "ai_will_do = { ... }"
+  },
+  {
+   "k": "1kkrfbm",
+   "en": "⟦0⟧ assigns a multiplier to ai_will_do values of the specified focus. An entry in this block looks like ⟦1⟧. In this case, this will make the ai_will_do value of the focus be multiplied by 3, assuming AI strategy plan's weight of 1. If the focus has an ai_will_do value of 4 after applying modifiers, it'll become 12 if AI is following this strategy plan, and get treated as such. And, of course, a factor of 0 will make the focus be never picked without specification in ai_national_focuses. This can serve as a faster-to-write or a more randomised way to make AI follow a political path by making focuses it should never pick have a value of 0.",
+   "frags": 2
+  },
+  {
+   "k": "i20hef",
+   "en": "focus_factors = { ... }"
+  },
+  {
+   "k": "8sxs80",
+   "en": "TAG_focus_name = 3"
+  },
+  {
+   "k": "ujnsa8",
+   "en": "⟦0⟧ assigns a multiplier to ai_will_do values of the specified research categories. An entry in this block looks like ⟦1⟧. In this case, this will make the ai_will_do value of every technology within the category be multiplied by 3, assuming AI strategy plan's weight of 1. Other built-in modifiers still apply, but this will increase the likelihood.",
+   "frags": 2
+  },
+  {
+   "k": "f8v6lr",
+   "en": "research = { ... }"
+  },
+  {
+   "k": "1skxcav",
+   "en": "artillery = 3"
+  },
+  {
+   "k": "1831jg2",
+   "en": "Other blocks that also assign bonuses are ⟦0⟧ and ⟦1⟧, with the similar formatting. The ideas block is used for individual ideas (such as laws or designers) or advisors (using the idea_token in the entry), while traits are for country leader traits that are assigned to the ideas/advisors.",
+   "frags": 2
+  },
+  {
+   "k": "1wk92hw",
+   "en": "ideas = { ... }"
+  },
+  {
+   "k": "gfoydf",
+   "en": "traits = { ... }"
+  },
+  {
+   "k": "1bmjb9s",
+   "en": "⟦0⟧ allows an ⟦1⟧ to apply when the strategy plan is turned on.",
+   "frags": 2
+  },
+  {
+   "k": "7ln3do",
+   "en": "AI strategy"
+  },
+  {
+   "k": "1hinva",
+   "en": "⟦0⟧ is a ⟦1⟧ assigning an overall weight to the plan. This multiplies each factor within the AI strategy plan by the weight before applying them. A weight of 1.25 will turn a focus factor of 4 into 5 before applying it, for instance. This can be used to make the AI follow the strategy plan more strictly in some cases and less strictly in others.",
+   "frags": 2
+  },
+  {
+   "k": "cl7yhu",
+   "en": "weight = { ... }"
+  },
+  {
+   "k": "1dgp3mu",
+   "en": "Scripters/modders are able to specify so called \"target templates\" that the AI try to reach when upgrading division templates."
+  },
+  {
+   "k": "1r7yxsp",
+   "en": "Target templates are defined on a \"role\" level, and it's possible to define a number of different target templates for a specific role. The AI then chooses one of those target templates (based on scripted priorities) and aims for that."
+  },
+  {
+   "k": "1e1j2su",
+   "en": "For each role, the AI will select one target template based on the ⟦0⟧, ⟦1⟧, and ⟦2⟧ parameters. This is referred to as the \"currently targeted template\".",
+   "frags": 3
+  },
+  {
+   "k": "1jkqym7",
+   "en": "prio"
+  },
+  {
+   "k": "qo14gc",
+   "en": "replace_with"
+  },
+  {
+   "k": "19bqirf",
+   "en": "The AI will then compare the existing division templates it has to find which one best matches the targeted template. This is referred to as the \"best match\" and the \"match score\"/\"match\" refers to how well it matches (100 % match = 1.0)."
+  },
+  {
+   "k": "10unyqv",
+   "en": "When the AI decides to upgrade a division template, it will make a copy of the best matching template and modify it so it gets a higher match score (i.e. looks more like the target template). (Note that the AI actually never does in-place modification of templates, it just makes a copy and modifies the copy instead.)"
+  },
+  {
+   "k": "1sd9nm4",
+   "en": "The AI strategy `role_ratio` determines how many divisions the AI wants for each role."
+  },
+  {
+   "k": "1bnw4lt",
+   "en": "Role arguments:"
+  },
+  {
+   "k": "d8h9ls",
+   "en": "⟦0⟧ the role token that this role-level template entry targets. These tokens are defined by script and are targeted by the 'role_ratio' AI strategy.",
+   "frags": 1
+  },
+  {
+   "k": "1mk3soi",
+   "en": "role ="
+  },
+  {
+   "k": "mygssw",
+   "en": "⟦0⟧ Determines which countries will use this role-level template entry. Both 'blocked_for' and 'available_for' are possible to use. Use one or the other, if you use neither or both, the resulting behavior is undefined. Generally you want to make sure that each country has max one role-level template entry targeting a role. So if you add custom AI templates for e.g. Germany you should make sure that only Germany is allowed for it, and you should also block Germany from using the generic AI templates for the same role.",
+   "frags": 1
+  },
+  {
+   "k": "14cwhmc",
+   "en": "blocked_for = { ... }"
+  },
+  {
+   "k": "nsdjwr",
+   "en": "⟦0⟧ An ⟦1⟧ block used for weighted-random selection when the AI chooses which role to upgrade templates for. Set it to zero to prevent the AI from spending XP on upgrading templates for this role. Example: If three role-level templates [A, B, C] have upgrade prio [1, 2, 1] respectively, then the probabilities for upgrading each template is [25%, 50%, 25%] respectively.",
+   "frags": 2
+  },
+  {
+   "k": "kq4cxl",
+   "en": "upgrade_prio = { ... }"
+  },
+  {
+   "k": "g184ul",
+   "en": "MTTH style"
+  },
+  {
+   "k": "1c3o3hf",
+   "en": "⟦0⟧ Optional: Whether to evaluate this target template at all. Trigger with country scope. If false, the AI will pretend this target template doesn't exist.",
+   "frags": 1
+  },
+  {
+   "k": "1w4sys",
+   "en": "Target template arguments:"
+  },
+  {
+   "k": "y3473z",
+   "en": "⟦0⟧ Optional: Determines the reinforcement prio of the resulting template. For example, garrison templates should use 0 (low prio) while elite templates should use 2 (high prio). Default 1 (normal prio).",
+   "frags": 1
+  },
+  {
+   "k": "vog9aa",
+   "en": "reinforce_prio ="
+  },
+  {
+   "k": "139s80q",
+   "en": "⟦0⟧ Optional: Determines whether to use a custom icon for resulting template.",
+   "frags": 1
+  },
+  {
+   "k": "171v7c1",
+   "en": "custom_icon ="
+  },
+  {
+   "k": "io3ntm",
+   "en": "⟦0⟧ Optional: Specifies the division name group to use. By default uses the name group of the template \"branched off\" from.",
+   "frags": 1
+  },
+  {
+   "k": "1kv4phy",
+   "en": "division_names_group ="
+  },
+  {
+   "k": "1g518z5",
+   "en": "⟦0⟧ The priority of this target template. This is used to determine (deterministically, no randomness involved) which of the target templates is the \"currently targeted template\".",
+   "frags": 1
+  },
+  {
+   "k": "12wkuyq",
+   "en": "⟦0⟧ Optional: Whether to allow upgrading divisions in the field. Trigger with country scope. If false, the AI will not field-upgrade divisions matching this target template. If true, the AI will consider field-upgrading divisions matching this target template to the target template defined by 'replace_with' (assuming they have enough manpower and equipment for it).",
+   "frags": 1
+  },
+  {
+   "k": "1wmwe34",
+   "en": "can_upgrade_in_field = { ... }"
+  },
+  {
+   "k": "n31gdf",
+   "en": "⟦0⟧ The \"meat\" of the target template: the actual template contents. support = { ... } The desired support companies. The AI will try to add them to the template if allowed by research etc. regiments = { ... } The desired line regiments. The AI will try to add them to the template if allowed by research etc.",
+   "frags": 1
+  },
+  {
+   "k": "1ax1ehg",
+   "en": "target_template = { ... }"
+  },
+  {
+   "k": "1lrzqqy",
+   "en": "⟦0⟧ The desired support companies. The AI will try to add them to the template if allowed by research etc.",
+   "frags": 1
+  },
+  {
+   "k": "176234z",
+   "en": "support = { ... }"
+  },
+  {
+   "k": "h4oisw",
+   "en": "⟦0⟧ The desired line regiments. The AI will try to add them to the template if allowed by research etc.",
+   "frags": 1
+  },
+  {
+   "k": "1c8hrdm",
+   "en": "regiments = { ... }"
+  },
+  {
+   "k": "1683q9c",
+   "en": "In addition, the optional replace-with chain. If the match score is at least 'replace_at_match', then replace the currently targeted template with 'replace_with', as long as the match score between best matching template and the next target template is at least 'target_min_match':"
+  },
+  {
+   "k": "1a8zvnr",
+   "en": "⟦0⟧ Optional: Match score of this target template.",
+   "frags": 1
+  },
+  {
+   "k": "evj6bo",
+   "en": "replace_at_match ="
+  },
+  {
+   "k": "b91uj1",
+   "en": "⟦0⟧ Optional: Other target template to replace currently targeted template with. Also affects fielded divisions when upgrading in the field.",
+   "frags": 1
+  },
+  {
+   "k": "q02q0r",
+   "en": "replace_with ="
+  },
+  {
+   "k": "1j7f799",
+   "en": "⟦0⟧ Optional: Match score between the best matching template and the target template defined by 'replace_with' has to be at least this high in order for the switch to happen.",
+   "frags": 1
+  },
+  {
+   "k": "8zr68i",
+   "en": "target_min_match ="
+  },
+  {
+   "k": "1pj08sz",
+   "en": "⟦0⟧ files are used in order to define the equipment variants that the AI should aim for when assigning modules to tank or ship variants.",
+   "frags": 1
+  },
+  {
+   "k": "14pg9pq",
+   "en": "/Hearts of Iron IV/common/ai_equipment/*.txt"
+  },
+  {
+   "k": "twfn4t",
+   "en": "A role template is defined as a block within any file in the folder with the name of the block being the same as the name of the role template. These arguments are used for role templates themselves:"
+  },
+  {
+   "k": "dr5qoo",
+   "en": "⟦0⟧ decides whether the template is used for tanks, ships or planes respectively.",
+   "frags": 1
+  },
+  {
+   "k": "1fa9dez",
+   "en": "category = <land|naval|air>"
+  },
+  {
+   "k": "11v5hgy",
+   "en": "⟦0⟧ is a list of roles that the templates would have. These can be anything, getting used for the ⟦1⟧. AI will try to have one variant for each role it has.",
+   "frags": 2
+  },
+  {
+   "k": "1d80209",
+   "en": "roles = { ... }"
+  },
+  {
+   "k": "1w7o72y",
+   "en": "role_ratio AI strategy"
+  },
+  {
+   "k": "1r7i7tu",
+   "en": "⟦0⟧ restricts the countries that use this role template to the tags in the list. If unspecified, every country uses them.",
+   "frags": 1
+  },
+  {
+   "k": "yzg8qz",
+   "en": "available_for = { ... }"
+  },
+  {
+   "k": "1mvvk4b",
+   "en": "⟦0⟧ restricts the countries that use this role template from being the tags in the list. This is only needed if there is no ⟦1⟧ block.",
+   "frags": 2
+  },
+  {
+   "k": "1ugrzwq",
+   "en": "⟦0⟧ is a ⟦1⟧ that decides the 'importance' of the role template compared to other role templates for spending experience on improving. If there are several role templates with the same roles, the one with the highest priority gets used, otherwise this decides likelihood compared to role templates with different roles.",
+   "frags": 2
+  },
+  {
+   "k": "217kpe",
+   "en": "priority = { ... }"
+  },
+  {
+   "k": "1ia5el6",
+   "en": "Additionally, within role templates each individual design is defined as a block with the name of the design being the name of the block. It may be anything, as long as there is no overlap. These arguments are used within a design definition:"
+  },
+  {
+   "k": "ofqmvr",
+   "en": "⟦0⟧ required to enable the equipment to be used as preset. If not defined, for example German ⟦1⟧ will use ⟦2⟧ localization if defined.",
+   "frags": 3
+  },
+  {
+   "k": "2g33zi",
+   "en": "name = angry_speedboat"
+  },
+  {
+   "k": "hemny8",
+   "en": "light_tank_artillery_2"
+  },
+  {
+   "k": "1btildt",
+   "en": "GER_light_tank_artillery_equipment_2_short"
+  },
+  {
+   "k": "xaxzvb",
+   "en": "⟦0⟧ is used to assign a specific role icon to a ⟦1⟧. This does not work within land equipment. The icons are defined as a part of ⟦2⟧ within ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "au4tax",
+   "en": "role_icon_index = 2"
+  },
+  {
+   "k": "1btgadb",
+   "en": "ship"
+  },
+  {
+   "k": "zcvy8y",
+   "en": "naval_equipment_role = { ... }"
+  },
+  {
+   "k": "cqkg71",
+   "en": "/Hearts of Iron IV/gfx/army_icons/army_icons.txt"
+  },
+  {
+   "k": "jkkgp0",
+   "en": "⟦0⟧ is a ⟦1⟧ that decides the 'importance' of the design compared to other templates within the role template for spending experience on improving.",
+   "frags": 2
+  },
+  {
+   "k": "60d51x",
+   "en": "⟦0⟧ is a trigger block that decides when AI should aim towards the design.",
+   "frags": 1
+  },
+  {
+   "k": "oqa8fr",
+   "en": "⟦0⟧ is a list of sub-units that the AI can add to the design. If one is omitted, then the AI would never add it. This can be used to make AI not put units of different varieties in the design, such as putting infantry in a mobile light tank division, slowing it down.",
+   "frags": 1
+  },
+  {
+   "k": "h5qtvy",
+   "en": "allowed_types = { ... }"
+  },
+  {
+   "k": "tesn7r",
+   "en": "⟦0⟧ assigns the variant that AI should aim for. In particular, these arguments go inside of it: match_value = 5000 is a value that decides how much the template is worth to AI if it's matched. type = light_tank_chassis_0 is the specific equipment type that must be used by the design. modules = { ... } is a list of modules that the equipment should have, in particular: main_armament_slot = tank_flamethrower decides requirements for a specified module slot, in first place. The requirement may be a module category, a specific module, or the word empty. If specifying a module, the greater-than or lesser-than signs can be used in order to require greater or lesser modules: this is decided by the year defined within the module. If lesser is specified, AI aims towards oldest modules, if greater is specified, AI aims towards newest modules. If specifying empty, greater than can be used to ensure it's not empty. main_armament_slot = { ... } allows specifying more details for a module slot: module = tank_flamethrower decides a module requirement for the slot. This is the exact same formatting as previous main_armament_slot = tank_flamethrower: module categories, modules, or empty are allowed, and the equality signs can be used in the same way. any_of = { ... } is a list of modules or module categories. The module slot must have at least one of them. upgrade = current ensures that, when upgrading a variant to match this design, it must use the same one as on the existing equipment. If the 'greater than' sign is used (>), then it would require AI to upgrade this slot as well. upgrades = { ... } is a list of upgrades that the design should have, in particular: tank_nsb_engine_upgrade = 3 decides the AI priority that the specified upgrade should have to a fixed number. tank_nsb_engine_upgrade = { ... } is a MTTH block that assigns the AI priority to the specified upgrade dynamically.",
+   "frags": 1
+  },
+  {
+   "k": "7f7rhd",
+   "en": "target_variant = { ... }"
+  },
+  {
+   "k": "1el5f4j",
+   "en": "⟦0⟧ is a value that decides how much the template is worth to AI if it's matched.",
+   "frags": 1
+  },
+  {
+   "k": "1t5sgaw",
+   "en": "match_value = 5000"
+  },
+  {
+   "k": "tw4v6v",
+   "en": "⟦0⟧ is the specific equipment type that must be used by the design.",
+   "frags": 1
+  },
+  {
+   "k": "l390ir",
+   "en": "type = light_tank_chassis_0"
+  },
+  {
+   "k": "26zmnw",
+   "en": "⟦0⟧ is a list of modules that the equipment should have, in particular: main_armament_slot = tank_flamethrower decides requirements for a specified module slot, in first place. The requirement may be a module category, a specific module, or the word empty. If specifying a module, the greater-than or lesser-than signs can be used in order to require greater or lesser modules: this is decided by the year defined within the module. If lesser is specified, AI aims towards oldest modules, if greater is specified, AI aims towards newest modules. If specifying empty, greater than can be used to ensure it's not empty. main_armament_slot = { ... } allows specifying more details for a module slot: module = tank_flamethrower decides a module requirement for the slot. This is the exact same formatting as previous main_armament_slot = tank_flamethrower: module categories, modules, or empty are allowed, and the equality signs can be used in the same way. any_of = { ... } is a list of modules or module categories. The module slot must have at least one of them. upgrade = current ensures that, when upgrading a variant to match this design, it must use the same one as on the existing equipment. If the 'greater than' sign is used (>), then it would require AI to upgrade this slot as well.",
+   "frags": 1
+  },
+  {
+   "k": "13g7y5",
+   "en": "modules = { ... }"
+  },
+  {
+   "k": "1vpi6q4",
+   "en": "⟦0⟧ decides requirements for a specified module slot, in first place. The requirement may be a module category, a specific module, or the word ⟦1⟧. If specifying a module, the greater-than or lesser-than signs can be used in order to require greater or lesser modules: this is decided by the year defined within the module. If lesser is specified, AI aims towards oldest modules, if greater is specified, AI aims towards newest modules. If specifying empty, greater than can be used to ensure it's ⟦2⟧ empty.",
+   "frags": 3
+  },
+  {
+   "k": "1hxh7rd",
+   "en": "main_armament_slot = tank_flamethrower"
+  },
+  {
+   "k": "6u9vqm",
+   "en": "empty"
+  },
+  {
+   "k": "12i0eeq",
+   "en": "⟦0⟧ allows specifying more details for a module slot: module = tank_flamethrower decides a module requirement for the slot. This is the exact same formatting as previous main_armament_slot = tank_flamethrower: module categories, modules, or empty are allowed, and the equality signs can be used in the same way. any_of = { ... } is a list of modules or module categories. The module slot must have at least one of them. upgrade = current ensures that, when upgrading a variant to match this design, it must use the same one as on the existing equipment. If the 'greater than' sign is used (>), then it would require AI to upgrade this slot as well.",
+   "frags": 1
+  }
+ ]
+}

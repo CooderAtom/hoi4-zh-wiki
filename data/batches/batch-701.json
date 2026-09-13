@@ -1,0 +1,1721 @@
+{
+ "batch": 701,
+ "pages": [
+  "Commander trait"
+ ],
+ "chars": 14867,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1m7n2nm",
+   "en": "A ⟦0⟧ can change a ⟦1⟧'s skills, specialize them for different combat scenarios, change how much ⟦2⟧ they get and various other effects. Traits can affect which ⟦3⟧ are given to a commander when their skill level increases by modifying variables not visible in game called ⟦4⟧; higher skill factors for a skill makes it more likely to be increased on a level up.",
+   "frags": 5
+  },
+  {
+   "k": "533jl1",
+   "en": "commander trait"
+  },
+  {
+   "k": "45hxxh",
+   "en": "commander"
+  },
+  {
+   "k": "14rskrt",
+   "en": "experience"
+  },
+  {
+   "k": "s4902n",
+   "en": "skills"
+  },
+  {
+   "k": "jdkqth",
+   "en": "\"skill factor\""
+  },
+  {
+   "k": "9i1o88",
+   "en": "General and field marshal"
+  },
+  {
+   "k": "1nmrm7w",
+   "en": "Personality traits"
+  },
+  {
+   "k": "ace3bo",
+   "en": "These traits can not be gained through experience and generally do not affect subordinate unit leaders. Conversely, they are the only traits that can appear on newly hired generals and field marshals."
+  },
+  {
+   "k": "4el6o6",
+   "en": "Name"
+  },
+  {
+   "k": "sjj37t",
+   "en": "Description"
+  },
+  {
+   "k": "mii10e",
+   "en": "Personal modifier"
+  },
+  {
+   "k": "1s45w8g",
+   "en": "Modifier"
+  },
+  {
+   "k": "v0wv6e",
+   "en": "Skill"
+  },
+  {
+   "k": "1d9iyat",
+   "en": "Skill factor"
+  },
+  {
+   "k": "4f76ga",
+   "en": "Notes"
+  },
+  {
+   "k": "1x2th0r",
+   "en": "Old Guard"
+  },
+  {
+   "k": "uzs6gb",
+   "en": "While not the most brilliant officer, he is unlikely to cause trouble."
+  },
+  {
+   "k": "1621v2l",
+   "en": "Experience gain: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1xqyzvb",
+   "en": "Max Entrenchment: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "15qy6tm",
+   "en": "Brilliant Strategist"
+  },
+  {
+   "k": "8yvfu",
+   "en": "A natural born strategist that is able to adapt to the dynamics of the battlefield."
+  },
+  {
+   "k": "1vihfcd",
+   "en": "Attack: ⟦0⟧ Planning: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "ub26xh",
+   "en": "(Additional) ⟦0⟧ to appear on new leaders with ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1pwh5",
+   "en": "25% chance"
+  },
+  {
+   "k": "12r4bte",
+   "en": "Theatre Training"
+  },
+  {
+   "k": "1qmzjtt",
+   "en": "Inflexible Strategist"
+  },
+  {
+   "k": "1sth66h",
+   "en": "Skilled but stubborn. A good enough plan can survive contact with the enemy."
+  },
+  {
+   "k": "1hr3a69",
+   "en": "Defense: ⟦0⟧ Logistics: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1weh2rw",
+   "en": "Politically Connected"
+  },
+  {
+   "k": "1218xmi",
+   "en": "This leader has political connections which has smoothed the way for his career. Perhaps too quickly."
+  },
+  {
+   "k": "14dprjj",
+   "en": "Experience gain: ⟦0⟧ Promotion cost: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1l4azje",
+   "en": "Planning: ⟦0⟧ Logistics: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "vgfbog",
+   "en": "(Additional) ⟦0⟧ to appear on new leaders with ⟦1⟧ (guaranteed to appear if ⟦2⟧ does not).",
+   "frags": 3
+  },
+  {
+   "k": "gc5dpl",
+   "en": "50% chance"
+  },
+  {
+   "k": "bmn8h6",
+   "en": "Political Loyalty"
+  },
+  {
+   "k": "1ce0kbr",
+   "en": "Media Personality"
+  },
+  {
+   "k": "yyxktd",
+   "en": "Brave"
+  },
+  {
+   "k": "1b8x4e9",
+   "en": "It takes a brave general to lead the most dangerous missions."
+  },
+  {
+   "k": "w73bdq",
+   "en": "Division Organization Loss when Below 25%: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "5t3wp4",
+   "en": "Defense: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "14qdwin",
+   "en": "Appears for ⟦0⟧ after having completed ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "fm1xfx",
+   "en": "British Raj"
+  },
+  {
+   "k": "uxio1g",
+   "en": "Sikh Religious Guarantees"
+  },
+  {
+   "k": "13acxkb",
+   "en": "War Hero"
+  },
+  {
+   "k": "1reh1un",
+   "en": "Hailed as a hero from their actions in war."
+  },
+  {
+   "k": "1903rg8",
+   "en": "Promotion cost: ⟦0⟧ Reassignment duration: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "vqq5it",
+   "en": "Does not randomly appear on new leaders."
+  },
+  {
+   "k": "wriekt",
+   "en": "Career Officer"
+  },
+  {
+   "k": "17x9o3f",
+   "en": "Dedicated to the life as an officer, with ambitions to match."
+  },
+  {
+   "k": "1b9vbng",
+   "en": "Promotion cost: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "3d4d3s",
+   "en": "Cautious"
+  },
+  {
+   "k": "km5kgo",
+   "en": "Takes their time and plans carefully."
+  },
+  {
+   "k": "18nduve",
+   "en": "Chance to get wounded in combat: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "dnjzno",
+   "en": "Planning Speed: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "129xsyn",
+   "en": "Reckless"
+  },
+  {
+   "k": "1x5dtmh",
+   "en": "A good officer needs to lead from the front."
+  },
+  {
+   "k": "1chzwj6",
+   "en": "Attack: ⟦0⟧ Defense: ⟦1⟧ Planning: ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "jnl3x8",
+   "en": "This general will go out of his way to talk to the media and will always try to be in the limelight."
+  },
+  {
+   "k": "1iiyb0s",
+   "en": "Reassignment duration: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1u3up3m",
+   "en": "Attack: ⟦0⟧ Defense: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "6k57hk",
+   "en": "Harsh Leader"
+  },
+  {
+   "k": "8cqxer",
+   "en": "Discipline is necessary to lead an army, but some leaders take it a bit too far."
+  },
+  {
+   "k": "k4mp4y",
+   "en": "Division Recovery Rate: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "5typ8i",
+   "en": "Attack: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "15rwxs7",
+   "en": "Attack: ⟦0⟧ Logistics: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "12zelvf",
+   "en": "Bearer of Artillery"
+  },
+  {
+   "k": "gful85",
+   "en": "Never drop a crate!"
+  },
+  {
+   "k": "xmgvzk",
+   "en": "Artillery Attack: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "5yjcjh",
+   "en": "Only available to Wojtek by the event “⟦0⟧”.",
+   "frags": 1
+  },
+  {
+   "k": "47pns5",
+   "en": "Wojtek Never Drops A Crate"
+  },
+  {
+   "k": "wvqx9y",
+   "en": "Infantry Officer"
+  },
+  {
+   "k": "3gsx2g",
+   "en": "Trained as an infantry officer."
+  },
+  {
+   "k": "orah8x",
+   "en": "⟦0⟧ experience factor: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "xu43c1",
+   "en": "Infantry Leader"
+  },
+  {
+   "k": "1xg16cf",
+   "en": "Defense: ⟦0⟧ Planning: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "yuni42",
+   "en": "With ⟦0⟧: 50% chance to appear on all new generals. Without By Blood Alone: Can appear on new generals regardless of division composition. 2x weight to appear on new generals. With By Blood Alone, cannot appear on new generals without The Queen of Battle.",
+   "frags": 1
+  },
+  {
+   "k": "12nuu6j",
+   "en": "The Queen of Battle"
+  },
+  {
+   "k": "w6srvv",
+   "en": "⟦0⟧ to appear on all new generals.",
+   "frags": 1
+  },
+  {
+   "k": "km0w4b",
+   "en": "Without ⟦0⟧: Can appear on new generals regardless of division composition. 2x weight to appear on new generals.",
+   "frags": 1
+  },
+  {
+   "k": "xw4s3v",
+   "en": "By Blood Alone"
+  },
+  {
+   "k": "16xpg94",
+   "en": "Can appear on new generals regardless of division composition."
+  },
+  {
+   "k": "1wk57dc",
+   "en": "⟦0⟧ weight to appear on new generals.",
+   "frags": 1
+  },
+  {
+   "k": "1jx8yqr",
+   "en": "Cavalry Officer"
+  },
+  {
+   "k": "1ch4qw3",
+   "en": "Trained as a cavalry officer."
+  },
+  {
+   "k": "16f4jqy",
+   "en": "Cavalry Leader"
+  },
+  {
+   "k": "1eyjcjo",
+   "en": "With ⟦0⟧, cannot appear on new generals.",
+   "frags": 1
+  },
+  {
+   "k": "11ox2uy",
+   "en": "Armor Officer"
+  },
+  {
+   "k": "62tlb0",
+   "en": "Trained as an armor officer."
+  },
+  {
+   "k": "xvwdka",
+   "en": "Panzer Leader"
+  },
+  {
+   "k": "1ixhppc",
+   "en": "With ⟦0⟧ and without ⟦1⟧: Can appear on new generals regardless of division composition. 2x weight to appear on new generals. With By Blood Alone, cannot appear on new generals.",
+   "frags": 2
+  },
+  {
+   "k": "fhswsw",
+   "en": "Embrace the Future"
+  },
+  {
+   "k": "17hxg5q",
+   "en": "Engineer Officer"
+  },
+  {
+   "k": "1r4udz4",
+   "en": "Trained as an engineer officer."
+  },
+  {
+   "k": "1tbmq7s",
+   "en": "Engineer"
+  },
+  {
+   "k": "xrh1nc",
+   "en": "With ⟦0⟧: 50% chance to appear on all new generals. Without By Blood Alone: Can appear on new generals regardless of division composition. 2x weight to appear on new generals. With By Blood Alone, cannot appear on new generals without Engineering Schools.",
+   "frags": 1
+  },
+  {
+   "k": "1t480jh",
+   "en": "Engineering Schools"
+  },
+  {
+   "k": "694bf5",
+   "en": "Irregulars Officer"
+  },
+  {
+   "k": "1vf7n4p",
+   "en": "Skilled at leading irregular units in combat."
+  },
+  {
+   "k": "1c5ujys",
+   "en": "Non-Combat Out of Supply Penalties: ⟦0⟧ Cavalry Speed: ⟦1⟧ Camelry Speed: ⟦2⟧ Irregular Infantry Attack: ⟦3⟧ ⟦4⟧: Movement: +10.0%",
+   "frags": 5
+  },
+  {
+   "k": "78b0m4",
+   "en": "Desert"
+  },
+  {
+   "k": "1fobll",
+   "en": "Movement: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1wzfe41",
+   "en": "Can appear for new commanders of Italy and Ethiopia. With By Blood Alone, can appear for Italy and Ethiopia."
+  },
+  {
+   "k": "4hom9j",
+   "en": "Can appear for new commanders of ⟦0⟧ and ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "eg9p8s",
+   "en": "Italy"
+  },
+  {
+   "k": "4bedm6",
+   "en": "Ethiopia"
+  },
+  {
+   "k": "ph9c0q",
+   "en": "With ⟦0⟧, can appear for ⟦1⟧ and ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1yq4t0m",
+   "en": "Ascari Officer"
+  },
+  {
+   "k": "14w0dys",
+   "en": "Trained to lead colonial units in combat."
+  },
+  {
+   "k": "btwdu6",
+   "en": "Cavalry Defense: ⟦0⟧ Camelry Defense: ⟦1⟧ Infantry Defense: ⟦2⟧ ⟦3⟧: Defense: +5.0%",
+   "frags": 4
+  },
+  {
+   "k": "e7h80e",
+   "en": "Can appear for new commanders of Italy. Appears for Italy after having completed Strengthen Ascari Corps or Forza Navale Speciale."
+  },
+  {
+   "k": "kvf8fy",
+   "en": "Can appear for new commanders of ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1p3hca1",
+   "en": "Appears for ⟦0⟧ after having completed ⟦1⟧ or ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "z6cbut",
+   "en": "Strengthen Ascari Corps"
+  },
+  {
+   "k": "xg1mii",
+   "en": "Forza Navale Speciale"
+  },
+  {
+   "k": "1itjkbk",
+   "en": "Militia Officer"
+  },
+  {
+   "k": "3l33to",
+   "en": "Trained to lead militia units in combat."
+  },
+  {
+   "k": "1cgvhkw",
+   "en": "Militia Defense: ⟦0⟧ Militia Speed: ⟦1⟧ Militia Organization: ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "152mi8c",
+   "en": "Can appear for new commanders of Italy and Switzerland. Appears for Switzerland and can appear for Germany and Italy. With Arms Against Tyranny, can appear for Finland and Sweden. With Trial of Allegiance, appears for Chile and can appear for Brazil. With Götterdämmerung, can appear for Austria, Belgian Congo, and Hungary."
+  },
+  {
+   "k": "1787j8i",
+   "en": "Switzerland"
+  },
+  {
+   "k": "b7wcs8",
+   "en": "Appears for ⟦0⟧ and can appear for ⟦1⟧ and ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "alybni",
+   "en": "Germany"
+  },
+  {
+   "k": "1gcwzb4",
+   "en": "Arms Against Tyranny"
+  },
+  {
+   "k": "m59cub",
+   "en": "Finland"
+  },
+  {
+   "k": "1he15ql",
+   "en": "Sweden"
+  },
+  {
+   "k": "1q6z4ap",
+   "en": "With ⟦0⟧, appears for ⟦1⟧ and can appear for ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1i7hp5l",
+   "en": "Trial of Allegiance"
+  },
+  {
+   "k": "132rpt6",
+   "en": "Chile"
+  },
+  {
+   "k": "zo0mt3",
+   "en": "Brazil"
+  },
+  {
+   "k": "yxgv80",
+   "en": "With ⟦0⟧, can appear for ⟦1⟧, ⟦2⟧, and ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "1v2zo8a",
+   "en": "Götterdämmerung"
+  },
+  {
+   "k": "1nhki0g",
+   "en": "Austria"
+  },
+  {
+   "k": "1vjdjpd",
+   "en": "Belgian Congo"
+  },
+  {
+   "k": "1m4t2m9",
+   "en": "Hungary"
+  },
+  {
+   "k": "1ukl33r",
+   "en": "Cowed by Stalin"
+  },
+  {
+   "k": "1pzdra6",
+   "en": "This character feels threatened by Stalin's purges and will not carry out his work freely for fear of being accused of treason. His performance is significantly affected."
+  },
+  {
+   "k": "1c0xy1d",
+   "en": "Division Recovery Rate: ⟦0⟧ Reinforce Rate: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "b5d83p",
+   "en": "Can appear for ⟦0⟧ with ⟦1⟧. Assigned to random generals as the result of purge events and focuses. Is removed after having completed Lessons of War.",
+   "frags": 2
+  },
+  {
+   "k": "1jjpogc",
+   "en": "Soviet Union"
+  },
+  {
+   "k": "11r223j",
+   "en": "No Step Back"
+  },
+  {
+   "k": "19iy5nq",
+   "en": "Assigned to random generals as the result of purge events and focuses."
+  },
+  {
+   "k": "1e2is3w",
+   "en": "Is removed after having completed ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1o0ziqq",
+   "en": "Veteran Jaeger"
+  },
+  {
+   "k": "sbhuv3",
+   "en": "Expert in guerilla warfare and sabotage operations behind enemy lines."
+  },
+  {
+   "k": "96se8g",
+   "en": "Trickster"
+  },
+  {
+   "k": "1v8t0jx",
+   "en": "experience factor: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1o90qwd",
+   "en": "Winter Specialist"
+  },
+  {
+   "k": "1doti4n",
+   "en": "Commando"
+  },
+  {
+   "k": "1sdoa52",
+   "en": "Swamp Fox"
+  },
+  {
+   "k": "1e9s0zk",
+   "en": "Ranger"
+  },
+  {
+   "k": "tl74bz",
+   "en": "Hill Fighter"
+  },
+  {
+   "k": "1c1903t",
+   "en": "Urban Assault Specialist"
+  },
+  {
+   "k": "rl8kn2",
+   "en": "Invader"
+  },
+  {
+   "k": "1c9xp3u",
+   "en": "Equipment Capture Ratio Gain: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "6cxplr",
+   "en": "Appears for ⟦0⟧ with ⟦1⟧. Does not randomly appear on new leaders.",
+   "frags": 2
+  },
+  {
+   "k": "btnxi",
+   "en": "Promoted away from power"
+  },
+  {
+   "k": "m0q72i",
+   "en": "This general has been placed in a position where he has limited political and military influence, and is placed lower on supply priorities."
+  },
+  {
+   "k": "1h1idoi",
+   "en": "Attrition: ⟦0⟧ Supply factor: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1njnp8i",
+   "en": "Prevent a Counter-Revolution"
+  },
+  {
+   "k": "1xupvtd",
+   "en": "Hero of Ethiopia"
+  },
+  {
+   "k": "1oonfr9",
+   "en": "One of the true heroes of the country"
+  },
+  {
+   "k": "1glyqw",
+   "en": "Organization: ⟦0⟧ Infantry defense: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1kpedty",
+   "en": "Promote the War Heroes"
+  },
+  {
+   "k": "hfgmpz",
+   "en": "Promoted from the Ranks"
+  },
+  {
+   "k": "16dg45r",
+   "en": "This character has been promoted due to their skill, being excellent at planning and taking the initiative."
+  },
+  {
+   "k": "1lk2hlf",
+   "en": "Promotion cost: -50% Planning Speed: +10%"
+  },
+  {
+   "k": "188bzc2",
+   "en": "Reconnaissance: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "15fnadx",
+   "en": "Is not attainable in-game"
+  },
+  {
+   "k": "46h3f2",
+   "en": "Inspirational Bagpiper"
+  },
+  {
+   "k": "1yyxncn",
+   "en": "This commander insists that carrying a bagpipe, a bow and a broadsword into battle is the way to wage war. Truly an inspiration."
+  },
+  {
+   "k": "12bzqp9",
+   "en": "Division Experience Gain: ⟦0⟧ Division HP: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "5b4dtz",
+   "en": "Appears for ⟦0⟧. Does not randomly appear on new leaders.",
+   "frags": 1
+  },
+  {
+   "k": "vcugn7",
+   "en": "United Kingdom"
+  },
+  {
+   "k": "43gpw",
+   "en": "Samurai Lineage"
+  },
+  {
+   "k": "1bpiwc3",
+   "en": "This man hails from proud lineage of Samurai and remains true to the old traditions and loyalties."
+  },
+  {
+   "k": "17wjc1x",
+   "en": "Planning Speed: ⟦0⟧ Chance to get wounded in combat: ⟦1⟧ Promotion Cost ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "wvjpke",
+   "en": "Appears for ⟦0⟧. Generals with this trait stay loyal to the imperial faction during civil wars. Does not randomly appear on new leaders.",
+   "frags": 1
+  },
+  {
+   "k": "193rgu3",
+   "en": "Japan"
+  },
+  {
+   "k": "1xhwwjw",
+   "en": "Generals with this trait stay loyal to the imperial faction during civil wars."
+  },
+  {
+   "k": "1syw3wh",
+   "en": "Expeditionary Leader"
+  },
+  {
+   "k": "rz0ngf",
+   "en": "Capable of effectively leading a small force overseas."
+  },
+  {
+   "k": "1o7w7sb",
+   "en": "Division Attack on Non-Core territory: +10% Division Defense on Non-Core territory: +10% General Max Army Size: -18 General Max Army Group Size: -4"
+  },
+  {
+   "k": "xy0pcb",
+   "en": "Division Attack on Non-Core territory: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "juq4k3",
+   "en": "Division Defense on Non-Core territory: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "p8su7o",
+   "en": "General Max Army Size: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1u8ca0z",
+   "en": "General Max Army Group Size: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "148b2dm",
+   "en": "Appears for certain ⟦0⟧ generals. Does not randomly appear on new leaders.",
+   "frags": 1
+  },
+  {
+   "k": "wmuex1",
+   "en": "Australian"
+  },
+  {
+   "k": "57fvu2",
+   "en": "Exiled leaders"
+  },
+  {
+   "k": "7fmg1p",
+   "en": "Exiled Leader"
+  },
+  {
+   "k": "6y6ewi",
+   "en": "This officer fought on after the defeat of their homeland. They excel in commanding other exiles that share their drive and enthusiasm for fighting."
+  },
+  {
+   "k": "kf15av",
+   "en": "Exiled Divisions Attack: +10% Own Exiled Divisions Attack: +5% Exiled Divisions Defense: +10% Own Exiled Divisions Defense: +5%"
+  },
+  {
+   "k": "1btez4h",
+   "en": "Exiled Divisions Attack: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "16vft09",
+   "en": "Own Exiled Divisions Attack: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1xch9nt",
+   "en": "Exiled Divisions Defense: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1n31f4x",
+   "en": "Own Exiled Divisions Defense: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1xv67uf",
+   "en": "Appears for ⟦0⟧ obtained from hosting ⟦1⟧. Icon contains the flag of said government.",
+   "frags": 2
+  },
+  {
+   "k": "1jukle",
+   "en": "commanders"
+  },
+  {
+   "k": "x9a9ab",
+   "en": "governments-in-exile"
+  },
+  {
+   "k": "j0wypz",
+   "en": "Earned traits"
+  },
+  {
+   "k": "o9clvv",
+   "en": "These traits can be earned by generals collecting relevant experience. Some of them do not work when the general is used as a field marshal after promoting them. For every earned trait a general has already acquired, the gain rate for all other traits gets reduced. Half speed with one finished trait, one-third speed with two traits, and so on⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "5khp3f",
+   "en": "Trait"
+  },
+  {
+   "k": "uq3mgk",
+   "en": "Effect"
+  },
+  {
+   "k": "asq90g",
+   "en": "Experience gained while"
+  },
+  {
+   "k": "1p1sure",
+   "en": "XP required"
+  },
+  {
+   "k": "13de2m2",
+   "en": "Organizer"
+  },
+  {
+   "k": "15jhoee",
+   "en": "Able to plan and organize the movement of large armies."
+  },
+  {
+   "k": "1xwmog0",
+   "en": "Using a battle plan on the army level. (Does not progress with Field Marshal battle plans)[2]"
+  },
+  {
+   "k": "114alo4",
+   "en": "Skilled at using mobile forces to achieve victory."
+  },
+  {
+   "k": "13kbbwy",
+   "en": "Cavalry Attack: ⟦0⟧ Motorized Attack: ⟦1⟧ Mechanized Attack: ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "1jy6rox",
+   "en": "Cavalry, motorized, and mechanized ratio > 40%"
+  },
+  {
+   "k": "24almw",
+   "en": "Skilled at leading infantry in combat."
+  },
+  {
+   "k": "1hwfm5g",
+   "en": "Infantry Division Defense: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "17tqbou",
+   "en": "Infantry ratio > 80%"
+  },
+  {
+   "k": "65e09m",
+   "en": "Skilled Staffer"
+  },
+  {
+   "k": "1rv6j1p",
+   "en": "Surrounded by some of the best staff, this leader is able to organize and manage a larger number of units."
+  },
+  {
+   "k": "1v2vl9n",
+   "en": "General Max Army Size: ⟦0⟧ (Not applied to Field Marshals)",
+   "frags": 1
+  },
+  {
+   "k": "1d27io",
+   "en": "Controlling at least 24 divisions"
+  },
+  {
+   "k": "7y9iao",
+   "en": "+2 logistics ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1kd1t39",
+   "en": "skill factor"
+  },
+  {
+   "k": "u0xd5u",
+   "en": "Doing the unexpected in combat can give you a large advantage."
+  },
+  {
+   "k": "qmu00x",
+   "en": "Is flanking the enemy or getting flanked by them"
+  },
+  {
+   "k": "llv70r",
+   "en": "⟦0⟧ to appear on new leaders with ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "iqkuh0",
+   "en": "Inventive Leadership"
+  },
+  {
+   "k": "11et48o",
+   "en": "Possesses an intuitive understanding of the difficulties of fighting in Cold conditions."
+  },
+  {
+   "k": "10tezfx",
+   "en": "Winter Attrition: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1dtebcn",
+   "en": "Temperature less than -10"
+  },
+  {
+   "k": "d4zsg1",
+   "en": "Adept in the arts of crossing rivers and constructing field fortifications."
+  },
+  {
+   "k": "cs5e6x",
+   "en": "River Attack: ⟦0⟧ Fort Attack: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1k88wbs",
+   "en": "At least 1 of the following: Has combat modifier: Fort Has combat modifier: River crossing"
+  },
+  {
+   "k": "53uucd",
+   "en": "Has combat modifier: Fort"
+  },
+  {
+   "k": "iyn31a",
+   "en": "Has combat modifier: River crossing"
+  },
+  {
+   "k": "flcp8z",
+   "en": "A natural with Tanks and Mechanized forces."
+  },
+  {
+   "k": "10ikv0y",
+   "en": "Armor speed: ⟦0⟧ Armor Division Attack: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1x10hs3",
+   "en": "Armored ratio > 40%"
+  },
+  {
+   "k": "wirr9p",
+   "en": "+2 attack ⟦0⟧ ⟦1⟧ ⟦2⟧ to appear on new leaders with ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "8poqmx",
+   "en": "Hidden:"
+  },
+  {
+   "k": "18z2c60",
+   "en": "Skilled in Amphibious operations, Air Assaults, and Cold weather conditions - the Commando is a man of many talents."
+  },
+  {
+   "k": "1bq7rzs",
+   "en": "Out of Supply: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1asgxib",
+   "en": "At least 1 of the following: Temperature less than -15 Temperature more than 27 Has combat modifier: Paradrop Has combat modifier: Naval Penalty"
+  },
+  {
+   "k": "1cfgavs",
+   "en": "Temperature less than -15"
+  },
+  {
+   "k": "1dbqrj4",
+   "en": "Temperature more than 27"
+  },
+  {
+   "k": "5fradr",
+   "en": "Has combat modifier: Paradrop"
+  },
+  {
+   "k": "1sz8wbd",
+   "en": "Has combat modifier: Naval Penalty"
+  },
+  {
+   "k": "jolq55",
+   "en": "Desert Fox"
+  },
+  {
+   "k": "166z5s2",
+   "en": "Entirely at home when fighting in a Desert."
+  },
+  {
+   "k": "byd0ss",
+   "en": "⟦0⟧: Movement: +5% Attack: +10% Defense: +10%",
+   "frags": 1
+  },
+  {
+   "k": "751age",
+   "en": "Fighting on terrain: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "a42dze",
+   "en": "While somewhat soggy, the Swamp Fox knows his way around Swamps and Marshes."
+  },
+  {
+   "k": "18kxsps",
+   "en": "Marsh"
+  },
+  {
+   "k": "14j9iwm",
+   "en": "Mountaineer"
+  },
+  {
+   "k": "1tdievx",
+   "en": "An excellent climber and skilled at Mountain warfare."
+  },
+  {
+   "k": "1iq2nya",
+   "en": "Mountain"
+  },
+  {
+   "k": "11npquq",
+   "en": "Excels at fighting in Hilly terrain."
+  },
+  {
+   "k": "15hfyez",
+   "en": "Hills"
+  },
+  {
+   "k": "ew2mrz",
+   "en": "Jungle Rat"
+  },
+  {
+   "k": "zrm0h3",
+   "en": "Undeterred by rodents of unusual size, and skilled in Jungle warfare."
+  },
+  {
+   "k": "1poe7gk",
+   "en": "Jungle"
+  },
+  {
+   "k": "1xksjq0",
+   "en": "Rangers lead the way, especially when it involves fighting in Forests."
+  },
+  {
+   "k": "15eoolc",
+   "en": "Forest"
+  },
+  {
+   "k": "mzi4a4",
+   "en": "An expert in Fighting In Someone's House and Causing Havoc In People's Streets."
+  },
+  {
+   "k": "jyh4jf",
+   "en": "Urban"
+  },
+  {
+   "k": "vces18",
+   "en": "An expert in performing naval invasions. The perfect guy for preparing an invasion of a hostile beach and carrying it out."
+  },
+  {
+   "k": "76feqy",
+   "en": "Amphibious Invasion Speed: ⟦0⟧ Invasion Preparation Time: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1545fb9",
+   "en": "Is doing an amphibious invasion"
+  },
+  {
+   "k": "rkwbep",
+   "en": "Assignable traits"
+  },
+  {
+   "k": "2r2fh9",
+   "en": "It costs 15 command power to assign a trait."
+  },
+  {
+   "k": "t1qbzh",
+   "en": "Field marshal"
+  },
+  {
+   "k": "1k28t87",
+   "en": "Prerequisite Trait"
+  },
+  {
+   "k": "xkhdsl",
+   "en": "Exclusive with"
+  },
+  {
+   "k": "1jeaown",
+   "en": "Logistics Wizard"
+  },
+  {
+   "k": "qiq5mq",
+   "en": "Supplies are never late, nor are they ever early. They arrive precisely when I mean them to."
+  },
+  {
+   "k": "c2gb30",
+   "en": "Supply Consumption: ⟦0⟧ Enables Ability: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1f3u0v8",
+   "en": "Extra Supplies"
+  },
+  {
+   "k": "et0ihq",
+   "en": "Offensive Doctrine"
+  },
+  {
+   "k": "1hix61x",
+   "en": "More Offensive-minded than most."
+  },
+  {
+   "k": "gv23e7",
+   "en": "Organization Loss when Moving: ⟦0⟧, Attack Skill ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1xvsbq0",
+   "en": "Defensive Doctrine"
+  },
+  {
+   "k": "h2xds0",
+   "en": "Especially skilled in fighting on the Defensive."
+  },
+  {
+   "k": "1vnv057",
+   "en": "Fast Planner"
+  },
+  {
+   "k": "1hjm09z",
+   "en": "Knows all the shortcuts when preparing for battle - Efficiency is key!"
+  },
+  {
+   "k": "2k6fxv",
+   "en": "Thorough Planner"
+  },
+  {
+   "k": "1nasi0w",
+   "en": "A strategic master mind. Given time, the well-laid plan will be the strongest."
+  },
+  {
+   "k": "5x2syj",
+   "en": "Max Planning: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "15sv9hw",
+   "en": "Unyielding Defender"
+  },
+  {
+   "k": "yzwq85",
+   "en": "Retreat is not an option."
+  },
+  {
+   "k": "1h3myg9",
+   "en": "Defense: ⟦0⟧ Increased chance of executing ⟦1⟧ tactic when commanding a battle",
+   "frags": 2
+  },
+  {
+   "k": "14hap46",
+   "en": "Counter-Attack"
+  },
+  {
+   "k": "hjh5mx",
+   "en": "Aggressive Assaulter"
+  },
+  {
+   "k": "1m5s6ng",
+   "en": "The best defence is a strong offence."
+  },
+  {
+   "k": "9vyhfa",
+   "en": "Breakthrough: ⟦0⟧ Increased chance of executing ⟦1⟧ and ⟦2⟧ tactics when commanding a battle",
+   "frags": 3
+  },
+  {
+   "k": "zk9woc",
+   "en": "Assault"
+  },
+  {
+   "k": "me2swh",
+   "en": "Shock"
+  },
+  {
+   "k": "1okj3i4",
+   "en": "Organization First"
+  },
+  {
+   "k": "wvhcb2",
+   "en": "Knows every trick to get reinforcements faster than anyone."
+  },
+  {
+   "k": "lvccl1",
+   "en": "Reinforce Rate: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "rkh2c5",
+   "en": "Charismatic"
+  },
+  {
+   "k": "ifhdo4",
+   "en": "A natural leader. Men will face their worst fears when backed by a powerful leader."
+  },
+  {
+   "k": "md92v4",
+   "en": "Expert Delegator"
+  },
+  {
+   "k": "1j3oz78",
+   "en": "The art of delegation allows this leader to efficiently command several armies."
+  },
+  {
+   "k": "1gnu051",
+   "en": "Field Marshal Max Army Group Size: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "nov4ln",
+   "en": "General"
+  },
+  {
+   "k": "drbd4v",
+   "en": "Panzer Expert"
+  },
+  {
+   "k": "1hkmyim",
+   "en": "Experience and training makes this leader an expert at commanding tanks."
+  },
+  {
+   "k": "1rh0cav",
+   "en": "Armor Division Defense: ⟦0⟧ Increased chance of executing ⟦1⟧ and ⟦2⟧ ⟦3⟧ when commanding a battle",
+   "frags": 4
+  },
+  {
+   "k": "1mixiw4",
+   "en": "Blitz"
+  },
+  {
+   "k": "1nx8l82",
+   "en": "Encirclement"
+  },
+  {
+   "k": "11wu1ly",
+   "en": "tactics"
+  },
+  {
+   "k": "1h0bkbn",
+   "en": "Combined Arms Expert"
+  },
+  {
+   "k": "v5pay7",
+   "en": "Cavalry Expert"
+  },
+  {
+   "k": "td0fp5",
+   "en": "Able to combine the strengths of both armor and infantry."
+  },
+  {
+   "k": "13o9drf",
+   "en": "Motorized Defense: ⟦0⟧ Mechanized Defense: ⟦1⟧ Increased chance of executing ⟦2⟧ and ⟦3⟧ ⟦4⟧ when commanding a battle",
+   "frags": 5
+  },
+  {
+   "k": "81llmf",
+   "en": "⟦0⟧ or ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "gve69u",
+   "en": "Cavalry Defense: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "12iq3vk",
+   "en": "Fortress Buster"
+  },
+  {
+   "k": "q6qpli",
+   "en": "Assaulting a Fort holds no terror for this officer."
+  },
+  {
+   "k": "1r2rmw3",
+   "en": "⟦0⟧: Attack: +15.00% Enables Ability: Siege Artillery",
+   "frags": 1
+  },
+  {
+   "k": "1ahawi4",
+   "en": "Fort"
+  },
+  {
+   "k": "21mjhu",
+   "en": "Siege Artillery"
+  },
+  {
+   "k": "162dvvf",
+   "en": "Scavenger"
+  },
+  {
+   "k": "1rvy3jb",
+   "en": "More likely to scavenge and repair captured equipment for use by their own troops."
+  },
+  {
+   "k": "mld4eo",
+   "en": "Infantry Expert"
+  },
+  {
+   "k": "hvfao4",
+   "en": "A true expert in leading infantry."
+  },
+  {
+   "k": "13xfdvq",
+   "en": "Infantry Division Attack: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "152h1wq",
+   "en": "Ambusher"
+  },
+  {
+   "k": "raamww",
+   "en": "Expertly able to trick enemy forces into ambushes."
+  },
+  {
+   "k": "95zpvi",
+   "en": "Max Entrenchment: ⟦0⟧ Recon Bonus While Entrenched: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1aisdv0",
+   "en": "Amphibious"
+  },
+  {
+   "k": "16j8qhk",
+   "en": "Naval invasions may need to fight for a long time before resupply can arrive."
+  },
+  {
+   "k": "mzfzsj",
+   "en": "Extra Marine Supply Grace: ⟦0⟧ Hour(s) Enables Ability: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "9j88i7",
+   "en": "Naval Assault Plan"
+  },
+  {
+   "k": "w9dt8o",
+   "en": "Naval Liaison"
+  },
+  {
+   "k": "su5dpb",
+   "en": "A good relationship with the navy will ensure that naval fire support will be more plentiful."
+  },
+  {
+   "k": "1xuauzl",
+   "en": "Shore Bombardment Bonus: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1qt82se",
+   "en": "Skirmisher"
+  },
+  {
+   "k": "hokxui",
+   "en": "Skilled at using probing attacks to test the enemy's strength and to wear them down."
+  },
+  {
+   "k": "iueq5q",
+   "en": "Enables Ability: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "6zef8y",
+   "en": "Probing Attack"
+  },
+  {
+   "k": "qz6xaj",
+   "en": "Paratroopers"
+  },
+  {
+   "k": "107zx6n",
+   "en": "By incorporating airborne forces into our army, we can make forced entries and position key troops in previously inaccessible areas, allowing for new tactical opportunities."
+  },
+  {
+   "k": "zfhuks",
+   "en": "Extra Paratrooper Supply Grace: ⟦0⟧ Hour(s) Enables Ability: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "urm19f",
+   "en": "Glider Planes"
+  },
+  {
+   "k": "1ccbj23",
+   "en": "Camouflage Expert"
+  },
+  {
+   "k": "1v03kf3",
+   "en": "The proper use of camouflage can significantly reduce the threat of enemy air strikes."
+  },
+  {
+   "k": "1m8dgjf",
+   "en": "Damage Reduction Against CAS: ⟦0⟧ Air Support (CAS) Bonus in Combat: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1juxjgr",
+   "en": "Improvisation Expert"
+  },
+  {
+   "k": "14u2cbk",
+   "en": "An expert in solving problems with whatever means are available."
+  },
+  {
+   "k": "t45gas",
+   "en": "Movement Bonus On Land: ⟦0⟧ Enables Ability: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "99qg93",
+   "en": "Makeshift Bridges"
+  },
+  {
+   "k": "1kja78t",
+   "en": "⟦0⟧ At least 1 of the following: Desert Fox Swamp Fox Mountaineer Hill Fighter Jungle Rat Ranger Urban Assault Specialist",
+   "frags": 1
+  },
+  {
+   "k": "au5v9l",
+   "en": "Guerilla Fighter"
+  },
+  {
+   "k": "1gcwaz7",
+   "en": "The skilled guerilla fighter is an expert at using natural terrain and obstacles to their advantage."
+  },
+  {
+   "k": "wsqr9g",
+   "en": "Entrenchment Speed: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1sdxvt7",
+   "en": "Adaptable"
+  },
+  {
+   "k": "uhr028",
+   "en": "A natural understanding of how to fight in various terrains and adapt to different environments."
+  }
+ ]
+}

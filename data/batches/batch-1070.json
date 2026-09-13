@@ -1,0 +1,962 @@
+{
+ "batch": 1070,
+ "pages": [
+  "State modding"
+ ],
+ "chars": 14999,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "qanct9",
+   "en": "States (and their history) are defined in ⟦0⟧ files. While it is typical to reserve one file to a state, that is not necessary. Unlike, for example, ⟦1⟧, ⟦2⟧, only its contents do. For that reason, unless a ⟦3⟧ is defined to the folder, it should be avoided to change the filenames of already-existing files, as this can make it so that both the base game and the mod's state files will get read.",
+   "frags": 4
+  },
+  {
+   "k": "zj6xfi",
+   "en": "/Hearts of Iron IV/history/states/*.txt"
+  },
+  {
+   "k": "yx1ry0",
+   "en": "/Hearts of Iron IV/history/countries/"
+  },
+  {
+   "k": "ns9ucb",
+   "en": "the filename does not get read in how the file should be handled"
+  },
+  {
+   "k": "g089dv",
+   "en": "replace_path"
+  },
+  {
+   "k": "19ai8fz",
+   "en": "Arguments"
+  },
+  {
+   "k": "1t5thjh",
+   "en": "Each state is contained within a ⟦0⟧ block that must encompass everything. These are the arguments that can be used.",
+   "frags": 1
+  },
+  {
+   "k": "nok2u9",
+   "en": "state = { ... }"
+  },
+  {
+   "k": "dz4dp4",
+   "en": "Mandatory"
+  },
+  {
+   "k": "xzl0em",
+   "en": "⟦0⟧ is the ID number of the state. It must be an integer. ⟦1⟧ starting from 1: the game will expect every number between 1 and the largest state ID within the mod to be a state. If that expectation is not met, the game will crash when loading the game if the ⟦2⟧ is not turned on, as the map is deemed too erroneous to be played normally. As such, when deleting a state, the state IDs have to be shifted in order respectively, such as by changing the last state's ID to fit the now-missing ID. When doing that, everything that referenced the now-different state IDs will have to be adjusted, and ⟦3⟧ can be used to do so.",
+   "frags": 4
+  },
+  {
+   "k": "186okfv",
+   "en": "id = 123"
+  },
+  {
+   "k": "1fdj0kf",
+   "en": "State IDs have to follow a numerical order,"
+  },
+  {
+   "k": "sglliz",
+   "en": "debug mode"
+  },
+  {
+   "k": "71pr1e",
+   "en": "searching every text file in the mod using a text editor"
+  },
+  {
+   "k": "dm9rh3",
+   "en": "⟦0⟧ is a localisation key that will become the name of the state, depending on which language is turned on. For English, this gets defined in any ⟦1⟧ file as such:",
+   "frags": 2
+  },
+  {
+   "k": "onjii3",
+   "en": "name = STATE_123"
+  },
+  {
+   "k": "1hl77c0",
+   "en": "/Hearts of Iron IV/localisation/english/*_l_english.yml"
+  },
+  {
+   "k": "1283po4",
+   "en": "l_english"
+  },
+  {
+   "k": "c5ot0l",
+   "en": "STATE_123"
+  },
+  {
+   "k": "18nzfbn",
+   "en": "\"My"
+  },
+  {
+   "k": "xckdti",
+   "en": "state"
+  },
+  {
+   "k": "62q64s",
+   "en": "name\""
+  },
+  {
+   "k": "16ce4p",
+   "en": "By default, the game uses ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "k1wam1",
+   "en": "state_names_l_english.yml"
+  },
+  {
+   "k": "1qql80q",
+   "en": "⟦0⟧ is the total population of the state at the game's start, both recruitable and non-recruitable. This will be the starting population on every scenario, without population growth being simulated between the first start date and the scenario's beginning. However, a single tick of monthly population growth will be done for each scenario, increasing the state's population by 0.125%.⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "5g9otc",
+   "en": "manpower = 500000"
+  },
+  {
+   "k": "vx9swu",
+   "en": "⟦0⟧ is the category that the state uses. This sets the state modifiers that the state starts with (Including the amount of starting unlocked shared building slots), as well as assigning a colour to the state in the state view map mode. ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "10kz2v7",
+   "en": "state_category = my_category"
+  },
+  {
+   "k": "pqyxsq",
+   "en": "Details on the state categories are covered later in the article."
+  },
+  {
+   "k": "3by2c5",
+   "en": "⟦0⟧ is the list of provinces that are defined as belonging to the state, separated with whitespace characters.",
+   "frags": 1
+  },
+  {
+   "k": "1dt8a58",
+   "en": "provinces = { 123 456 7890 }"
+  },
+  {
+   "k": "1yfbac9",
+   "en": "Optional"
+  },
+  {
+   "k": "1mv5h9d",
+   "en": "⟦0⟧, if added in the state, will mark it as impassable. This includes making troops unable to enter it; its provinces going to the controller of the nearest passable provinces; making it impossible to build provincial buildings within it; marking it as true for the ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1atdbg6",
+   "en": "impassable = yes"
+  },
+  {
+   "k": "9tpoha",
+   "en": "impassable trigger"
+  },
+  {
+   "k": "w3z9vx",
+   "en": "⟦0⟧ assigns resources to the state. Each resource is added in the format of ⟦1⟧. Base game resources include ⟦2⟧, ⟦3⟧ (With the spelling used in British English), ⟦4⟧, ⟦5⟧, ⟦6⟧, and ⟦7⟧, although ⟦8⟧.",
+   "frags": 9
+  },
+  {
+   "k": "1ur9sf8",
+   "en": "resources = { steel = 10 aluminium = 20 }"
+  },
+  {
+   "k": "1wdomzx",
+   "en": "<resource> = <int>"
+  },
+  {
+   "k": "1i603sr",
+   "en": "oil"
+  },
+  {
+   "k": "qu1gw6",
+   "en": "aluminium"
+  },
+  {
+   "k": "e5eu0r",
+   "en": "rubber"
+  },
+  {
+   "k": "i88ohp",
+   "en": "tungsten"
+  },
+  {
+   "k": "3lx150",
+   "en": "steel"
+  },
+  {
+   "k": "ug1lf5",
+   "en": "chromium"
+  },
+  {
+   "k": "1839kzd",
+   "en": "more can be added"
+  },
+  {
+   "k": "1mgoia",
+   "en": "⟦0⟧ decides ⟦1⟧. One unit of local_supplies is equal to 0.2 units of supply. If undefined, assumed to be 0.",
+   "frags": 2
+  },
+  {
+   "k": "ttaffi",
+   "en": "local_supplies = 8.3"
+  },
+  {
+   "k": "zzitrj",
+   "en": "the base supply of the state"
+  },
+  {
+   "k": "1cm4cy3",
+   "en": "⟦0⟧ adds an additional multiplier on the amount of unlocked shared building slots. Recommended to avoid, instead using state categories.",
+   "frags": 1
+  },
+  {
+   "k": "1d9gz5a",
+   "en": "buildings_max_level_factor = 0.5"
+  },
+  {
+   "k": "yugfpb",
+   "en": "History"
+  },
+  {
+   "k": "1jnhy52",
+   "en": "All of these are contained within ⟦0⟧, which is defined within the state. Additionally, these can be used within a YYYY.MM.DD-formatted datestamp inside of history, such as ⟦1⟧. This will make them be executed only if the start date is strictly after the specified date.",
+   "frags": 2
+  },
+  {
+   "k": "cgn1gg",
+   "en": "history = { ... }"
+  },
+  {
+   "k": "w4meqp",
+   "en": "⟦0⟧ defines the initial owner of the state. If a state does not have an owner, the game will run without issues; however, executing nearly any effect on that state, such as transferring it to a country, will crash the game.",
+   "frags": 1
+  },
+  {
+   "k": "jo06uo",
+   "en": "owner = POL"
+  },
+  {
+   "k": "969jl9",
+   "en": "⟦0⟧ defines the initial controller of the state. Optional to define - only necessary if the owner differs from the controller.",
+   "frags": 1
+  },
+  {
+   "k": "am4gd7",
+   "en": "controller = LIT"
+  },
+  {
+   "k": "uicdn",
+   "en": "⟦0⟧ defines the amount of victory points on a specified province, where the first number is the province and the second number is the amount of victory points. ⟦1⟧. In order to have multiple provinces with victory points in one state, several instances of ⟦2⟧ need to be put in. The localisation key that gets used for the victory point depending on the language of the game is ⟦3⟧, where 1234 is the ID of the province. For English, this gets defined in any ⟦4⟧ file as such:",
+   "frags": 5
+  },
+  {
+   "k": "3q7t7h",
+   "en": "victory_points = { 1234 10 }"
+  },
+  {
+   "k": "1wichto",
+   "en": "Only one province can be defined within one victory_points"
+  },
+  {
+   "k": "176w9pe",
+   "en": "victory_points = { ... }"
+  },
+  {
+   "k": "1p6d7hy",
+   "en": "VICTORY_POINTS_1234"
+  },
+  {
+   "k": "3tiqte",
+   "en": "city"
+  },
+  {
+   "k": "57vjdj",
+   "en": "By default, the game uses ⟦0⟧. For positioning the icon of a victory point on the map, the ⟦1⟧ is edited. Note that the icon of a victory point doesn't have to be inside of the province itself: if several victory points show up in the same place, it could be from different provinces with an outdated unitstacks file, which would need to be adjusted in the Nudge's Units section accordingly.",
+   "frags": 2
+  },
+  {
+   "k": "ut3feh",
+   "en": "victory_points_l_english.yml"
+  },
+  {
+   "k": "w5pmm4",
+   "en": "unitstacks file"
+  },
+  {
+   "k": "djfcwo",
+   "en": "⟦0⟧ defines the initial buildings that the state has. A single building entry consists of the ⟦1⟧ followed by its amount after an equality sign as ⟦2⟧. Within ⟦3⟧, it is also possible to specify a province by using ⟦4⟧ and putting the province's buildings within, where 1234 is the province's ID. An example definition of buildings that uses this:",
+   "frags": 5
+  },
+  {
+   "k": "1tozpet",
+   "en": "buildings = { ... }"
+  },
+  {
+   "k": "1s14ctb",
+   "en": "the ID of the building"
+  },
+  {
+   "k": "1exokum",
+   "en": "dockyard = 10"
+  },
+  {
+   "k": "7dhiui",
+   "en": "If a building is not mentioned, it does not change the initial value, which is 0 by default; however, the initial building level may be different if the buildings block is within a datestamp rather than being executed immediately. In landlocked states, buildings that can only be built on coastal states/provinces cannot be defined, even if set to 0."
+  },
+  {
+   "k": "lcrsew",
+   "en": "Additionally, history serves as an ⟦0⟧. Common effects to use within state history include ⟦1⟧ or ⟦2⟧, but any effect can be used.",
+   "frags": 3
+  },
+  {
+   "k": "wncst1",
+   "en": "effect block"
+  },
+  {
+   "k": "9e0z22",
+   "en": "add_core_of = POL"
+  },
+  {
+   "k": "jf0ypn",
+   "en": "add_claim_by = LIT"
+  },
+  {
+   "k": "uy0v5i",
+   "en": "Examples"
+  },
+  {
+   "k": "1ller9l",
+   "en": "Bare minimum:"
+  },
+  {
+   "k": "1lco951",
+   "en": "Average state:"
+  },
+  {
+   "k": "4f76ga",
+   "en": "Notes"
+  },
+  {
+   "k": "18xjk1o",
+   "en": "The building model positions for each state are defined separately from the states themselves, instead being defined in ⟦0⟧. A mismatch will cause errors, taking up space in the log and potentially crashes. For example, if a province is lacking a definition for a naval base or a floating harbour within a province, whether it's set in the wrong state in the buildings.txt file or missing entirely, ⟦1⟧, marked with ⟦2⟧. The simplest way to compile the positions of models is to use the building section in the ⟦3⟧. ⟦4⟧ and ⟦5⟧ decide in which province in the state the game should put airports or rocket sites. This is also edited in the building section in the ⟦6⟧. ⟦7⟧",
+   "frags": 8
+  },
+  {
+   "k": "64xsxk",
+   "en": "/Hearts of Iron IV/map/buildings.txt"
+  },
+  {
+   "k": "1nu0vkk",
+   "en": "attempting to use one within that province (whether by the player or the AI) will cause a crash"
+  },
+  {
+   "k": "404td8",
+   "en": "the last read script being client_ping"
+  },
+  {
+   "k": "6ej4zi",
+   "en": "nudger"
+  },
+  {
+   "k": "1jexy37",
+   "en": "/Hearts of Iron IV/map/airports.txt"
+  },
+  {
+   "k": "1slij05",
+   "en": "/Hearts of Iron IV/map/rocketsites.txt"
+  },
+  {
+   "k": "r9fie6",
+   "en": "If either is incorrect or missing, the game will not be possible to open without debug mode."
+  },
+  {
+   "k": "1c5t296",
+   "en": "The state borders must follow ⟦0⟧, defined in ⟦1⟧. If one province in the state belongs to one strategic region, while a different province in the same state belongs to a different strategic region, a map error will be created, which will cause a game crash on launch if the debug mode is not turned on. Make sure that strategic region borders are followed, either by adjusting the state or the strategic regions.",
+   "frags": 2
+  },
+  {
+   "k": "aw9l30",
+   "en": "strategic regions"
+  },
+  {
+   "k": "az4qad",
+   "en": "/Hearts of Iron IV/map/strategicregions/*.txt"
+  },
+  {
+   "k": "p02ry7",
+   "en": "Using the nudger"
+  },
+  {
+   "k": "t0ak6p",
+   "en": "Parts of this section are transcluded from ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1g34oyj",
+   "en": "The ⟦0⟧ is a map editing tool, accessed through the main menu with the ⟦1⟧ ⟦2⟧ enabled. For the states, it can be used in order to change the borders of states and in order to generate the building models.",
+   "frags": 3
+  },
+  {
+   "k": "12xct4f",
+   "en": "-debug"
+  },
+  {
+   "k": "nkcvb",
+   "en": "launch option"
+  },
+  {
+   "k": "34u9v0",
+   "en": "The state section of the nudger is used for defining the borders and names of states. Any state border changes will also automatically change the borders of the strategic regions that cover the states, taking provinces out of strategic regions completely for new states. Within the user directory, this edits the ⟦0⟧ and ⟦1⟧ folders and the ⟦2⟧ file (for the English language). ⟦3⟧ This can break the rest of the script that's located inside of them. Most commonly, this will break any ⟦4⟧ checks, which will result in the entirety of the state breaking thereafter. ⟦5⟧, and writes that in the output. As the game only expects numeric values in the version number, this will break the localisation after that point, with an error of the ⟦6⟧ sort.",
+   "frags": 7
+  },
+  {
+   "k": "1b1s6he",
+   "en": "/Hearts of Iron IV/history/states/"
+  },
+  {
+   "k": "1g2avij",
+   "en": "/Hearts of Iron IV/map/strategicregions/"
+  },
+  {
+   "k": "2q0e08",
+   "en": "/Hearts of Iron IV/localisation/english/state_names_l_english.yml"
+  },
+  {
+   "k": "13ef8yn",
+   "en": "The nudger will remove quotation marks from the state file, aside from the ⟦0⟧ attribute.",
+   "frags": 1
+  },
+  {
+   "k": "136nuue",
+   "en": "name"
+  },
+  {
+   "k": "7thfo5",
+   "en": "has_dlc"
+  },
+  {
+   "k": "7bzgxo",
+   "en": "The nudger interprets version number–less ⟦0⟧ values as having a version of -1",
+   "frags": 1
+  },
+  {
+   "k": "coj4nh",
+   "en": "localisation"
+  },
+  {
+   "k": "1sbbt8g",
+   "en": "Expected quotation mark (\") at line 113 and column 16 in ..."
+  },
+  {
+   "k": "z6efyl",
+   "en": "Clicking onto a province is used to select a province. After a province is selected, ⟦0⟧-clicking onto a province causes the following behaviour, depending on the selected and clicked provinces:",
+   "frags": 1
+  },
+  {
+   "k": "j8cl1y",
+   "en": "⇧Shift"
+  },
+  {
+   "k": "6fxbce",
+   "en": "If the selected provinces are in a state and the shift-clicked province is in a different state or none at all, the game will adjust the borders of the state and the strategic regions to cover the shift-clicked province. It will also be selected. If the shift-clicked province isn't in any state, it will be added to the state's strategic region without checking if it's already in one. This may cause the province to be defined twice in the same strategic region or be defined in two different strategic regions. This has to be fixed manually."
+  },
+  {
+   "k": "1iwnotm",
+   "en": "If the shift-clicked province isn't in any state, it will be added to the state's strategic region without checking if it's already in one. ⟦0⟧ This has to be fixed manually.",
+   "frags": 1
+  },
+  {
+   "k": "18ml8q9",
+   "en": "This may cause the province to be defined twice in the same strategic region or be defined in two different strategic regions."
+  },
+  {
+   "k": "3zksiw",
+   "en": "If the selected provinces are in a state and the shift-clicked province is in the same state, it will be removed from the state and the strategic region without being selected. The same happens if the selected provinces aren't in any state."
+  },
+  {
+   "k": "7w78ju",
+   "en": "If the selected provinces and the shift-clicked province are both not in any state, it will get added to the selection."
+  },
+  {
+   "k": "1nks5my",
+   "en": "If the shift-clicked province is already selected, it will get removed from the selection and, if it's in one, the state it's currently in."
+  },
+  {
+   "k": "6dbd28",
+   "en": "If a province or several not in any state are selected, it is possible to create a state. That requires entering a state name into the textbox and selecting \"Create state\"."
+  },
+  {
+   "k": "ff3drq",
+   "en": "⟦0⟧. If there are any characters that aren't in ASCII, such as diacritics or non-Latin script, the game will crash to desktop instead of creating the state, but it will be able to remove the provinces from the old state first and save the changes there. Characters that are impossible to use in filenames include, on Windows, ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "usgk67",
+   "en": "The state name must only contain ASCII characters that are possible to use in filenames"
+  },
+  {
+   "k": "1lm07aq",
+   "en": "Creating a new state (and occasionally editing state borders) requires changing the building model positions and airport/rocket launch site locations to avoid crashes"
+  },
+  {
+   "k": "dm3vor",
+   "en": "If the selected province(s) are in a state, it is possible to select \"Open file\" or \"Delete state\":"
+  },
+  {
+   "k": "1bdnnau",
+   "en": "Opening the file will use the default text editor for .txt files to open the file of the state in the user directory. If the user directory doesn't contain the file, a copy will be created. This copy doesn't contain the changes made in the nudger and instead will have those that were loaded into the memory when the files were last fetched (by opening the game, with \"Update\", or with \"Save\"). If the button is used and the file's version in the user directory is deleted, the button will do nothing until the next fetch of state files."
+  },
+  {
+   "k": "1atnovo",
+   "en": "\"Delete state\" will not necessarily delete the state, but instead remove the file from the user directory (if it exists) and unload from memory all changes that were made to it in the nudger. This will also cause the game to try reading the state files related to the state ID: if the ⟦0⟧ contain a state with the same ID, it will get used for the state's information, otherwise it will be deleted.",
+   "frags": 1
+  },
+  {
+   "k": "1k1kbfj",
+   "en": "loaded files"
+  },
+  {
+   "k": "87kydg",
+   "en": "Among the buttons that can always be selected, there are \"Delete all empty\" and \"Find collision\"."
+  },
+  {
+   "k": "1com75t",
+   "en": "\"Delete all empty\" works similarly to deleting an individual state: it checks for all provinces that have no provinces in memory (taking unsaved changes into consideration). If it finds any, the state gets deleted from memory and the user directory. Afterwards, the game will try finding a file to use as the new state information for each of the deleted states."
+  },
+  {
+   "k": "182b02o",
+   "en": "\"Find collision\" detects provinces that are located in several states at the same time. When pressed, it will move the player's camera to one of such provinces and give a selection of which state it must remain in; upon making a choice, it will be removed from every other state."
+  },
+  {
+   "k": "1ubfiim",
+   "en": "\"Update\" is used to disregard all unsaved changes and re-read the state files among the ⟦0⟧. If the state borders were manually changed, such as by moving the outputs into the mod files from the user directory, this is necessary to load them without restarting the game. \"Save\" is used to write all changes to the user directory. Upon doing so, the changes will be purged from memory and the game will re-read the state files among the ⟦1⟧. ⟦2⟧ This will require moving the files into the mod's files and updating the state of the game with \"Update\". Only the files since the last fetching of files will be created or changed within the user directory after saving.",
+   "frags": 3
+  },
+  {
+   "k": "pbrq9v",
+   "en": "If the state files in the user directory are overwritten or unloaded by mod files, it will appear that (some of) the changes will instantly revert, however they'll still be present in the user directory."
+  },
+  {
+   "k": "1xa6gia",
+   "en": "Buildings"
+  },
+  {
+   "k": "1i81e7g",
+   "en": "Building types"
+  },
+  {
+   "k": "lb1pi0",
+   "en": "Main article: Building modding"
+  },
+  {
+   "k": "df94e7",
+   "en": "These are the different types of buildings in the game (Can also be found inside ⟦0⟧):",
+   "frags": 1
+  },
+  {
+   "k": "86ahq2",
+   "en": "/Hearts of Iron IV/common/buildings/00_buildings.txt"
+  },
+  {
+   "k": "t3tyj4",
+   "en": "Icon"
+  },
+  {
+   "k": "1r2jfvc",
+   "en": "Localised name"
+  },
+  {
+   "k": "1i8ib9f",
+   "en": "Internal name"
+  },
+  {
+   "k": "ndx21v",
+   "en": "Maximum level"
+  },
+  {
+   "k": "1m2zofh",
+   "en": "Type"
+  },
+  {
+   "k": "1icrwoe",
+   "en": "Infrastructure"
+  },
+  {
+   "k": "1h2alfy",
+   "en": "infrastructure"
+  },
+  {
+   "k": "146xkoq",
+   "en": "Non-shared"
+  },
+  {
+   "k": "17qtid0",
+   "en": "Military factory"
+  },
+  {
+   "k": "1je3isz",
+   "en": "arms_factory"
+  },
+  {
+   "k": "1t7t2wk",
+   "en": "Shared"
+  },
+  {
+   "k": "7b3x92",
+   "en": "Civilian factory"
+  },
+  {
+   "k": "94mofx",
+   "en": "industrial_complex"
+  },
+  {
+   "k": "1qizwbs",
+   "en": "Air base"
+  },
+  {
+   "k": "1ydz2v1",
+   "en": "air_base"
+  },
+  {
+   "k": "10cv8ep",
+   "en": "Supply hub"
+  },
+  {
+   "k": "mrbj03",
+   "en": "supply_node"
+  },
+  {
+   "k": "mqtono",
+   "en": "Provincial"
+  },
+  {
+   "k": "1boyks8",
+   "en": "Railway"
+  },
+  {
+   "k": "i759vd",
+   "en": "rail_way"
+  },
+  {
+   "k": "95u2qd",
+   "en": "Naval Engineering Facility"
+  },
+  {
+   "k": "1ssx46l",
+   "en": "naval_facility"
+  },
+  {
+   "k": "d7usg0",
+   "en": "Naval base"
+  },
+  {
+   "k": "1scew91",
+   "en": "naval_base"
+  },
+  {
+   "k": "5aper1",
+   "en": "Land fort"
+  },
+  {
+   "k": "14rar8g",
+   "en": "bunker"
+  },
+  {
+   "k": "1909xd",
+   "en": "Coastal fort"
+  },
+  {
+   "k": "1ayouiw",
+   "en": "coastal_bunker"
+  },
+  {
+   "k": "foo2s9",
+   "en": "Stronghold Network"
+  },
+  {
+   "k": "1h08o6i",
+   "en": "stronghold_network"
+  },
+  {
+   "k": "4ixk0m",
+   "en": "Naval dockyard"
+  },
+  {
+   "k": "f6ye4e",
+   "en": "dockyard"
+  },
+  {
+   "k": "2bf5kk",
+   "en": "Anti-air"
+  },
+  {
+   "k": "17vejsz",
+   "en": "anti_air_building"
+  },
+  {
+   "k": "koadgg",
+   "en": "Synthetic refinery"
+  },
+  {
+   "k": "bwcns5",
+   "en": "synthetic_refinery"
+  },
+  {
+   "k": "5tg6q",
+   "en": "Fuel silo"
+  },
+  {
+   "k": "s27133",
+   "en": "fuel_silo"
+  },
+  {
+   "k": "hz4b13",
+   "en": "Radar station"
+  },
+  {
+   "k": "1a2d04w",
+   "en": "radar_station"
+  },
+  {
+   "k": "3a1pg3",
+   "en": "Multi-Charge Large Caliber Gun⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "16wenvc",
+   "en": "mega_gun_emplacement"
+  },
+  {
+   "k": "1tq0lzz",
+   "en": "Rocket site⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "p5szb1",
+   "en": "rocket_site"
+  },
+  {
+   "k": "j7nbdy",
+   "en": "Naval supply hub ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "srtqir",
+   "en": "naval_supply_hub"
+  },
+  {
+   "k": "1mi2qax",
+   "en": "Naval headquarters ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1ifqcar",
+   "en": "naval_headquarters"
+  },
+  {
+   "k": "1v26vtf",
+   "en": "Nuclear reactor"
+  },
+  {
+   "k": "riirqs",
+   "en": "nuclear_reactor"
+  },
+  {
+   "k": "r6wyy3",
+   "en": "Heavy Water Nuclear Reactor"
+  }
+ ]
+}

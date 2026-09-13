@@ -1,0 +1,738 @@
+{
+ "batch": 917,
+ "pages": [
+  "Map modding"
+ ],
+ "chars": 14979,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "130u7l3",
+   "en": "The ⟦0⟧ is primarily changed within the ⟦1⟧ folder. This includes provinces and details about them as well as the cosmetic appearance of the map: trees, terrain, cities.",
+   "frags": 2
+  },
+  {
+   "k": "1epqt8x",
+   "en": "map of the game"
+  },
+  {
+   "k": "1kho8m9",
+   "en": "/Hearts of Iron IV/map/"
+  },
+  {
+   "k": "13ed7cz",
+   "en": "⟦0⟧ files are referred to as bitmaps. Commonly these are used for the cosmetic appearance of the map, aside from the provinces bitmap. ⟦1⟧ files are CSV tables. These may be edited within a text editor or a table editor such as Excel or OpenOffice. It can be preferable to open these with text editors for greater performance.",
+   "frags": 2
+  },
+  {
+   "k": "j0ey8w",
+   "en": "/Hearts of Iron IV/map/*.bmp"
+  },
+  {
+   "k": "1uk5zlj",
+   "en": "/Hearts of Iron IV/map/*.csv"
+  },
+  {
+   "k": "tvjhpz",
+   "en": "Quick overview"
+  },
+  {
+   "k": "1uja0b3",
+   "en": "These files in the map folder are common to edit:"
+  },
+  {
+   "k": "vc21lh",
+   "en": "⟦0⟧ is used as a map assigning the province borders.",
+   "frags": 1
+  },
+  {
+   "k": "1p77gbv",
+   "en": "/Hearts of Iron IV/map/provinces.bmp"
+  },
+  {
+   "k": "19vju6j",
+   "en": "⟦0⟧ is used in order to assign in-game province information, including terrain, continent, and the coastal status. This does not change the graphical appearance.",
+   "frags": 1
+  },
+  {
+   "k": "1u3x8ji",
+   "en": "/Hearts of Iron IV/map/definition.csv"
+  },
+  {
+   "k": "1p26o5d",
+   "en": "⟦0⟧ is used as the terrain map, assigning textures to the specified positions. This does not change the actual province terrain, just the appearance.",
+   "frags": 1
+  },
+  {
+   "k": "1vj2a7z",
+   "en": "/Hearts of Iron IV/map/terrain.bmp"
+  },
+  {
+   "k": "a01gh9",
+   "en": "⟦0⟧ is used as the heightmap, assigning a height for each pixel on the map. This is also used to put areas underwater.",
+   "frags": 1
+  },
+  {
+   "k": "3wvnjh",
+   "en": "/Hearts of Iron IV/map/heightmap.bmp"
+  },
+  {
+   "k": "1y859mz",
+   "en": "⟦0⟧ is used as the normal mapping, assigning a slope to each pixel that gets used in lightning calculates. This is used to create more accurate shadows.",
+   "frags": 1
+  },
+  {
+   "k": "1srycm2",
+   "en": "/Hearts of Iron IV/map/world_normal.bmp"
+  },
+  {
+   "k": "12j86e1",
+   "en": "⟦0⟧ is used to create an overall colouring of the world and to change the opacity of city lights. ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "2huozq",
+   "en": "/Hearts of Iron IV/map/terrain/colormap_rgb_cityemissivemask_a.dds"
+  },
+  {
+   "k": "1tj21gh",
+   "en": "Oddities about the world's colouring typically come from this file not being adjusted"
+  },
+  {
+   "k": "9v0hu",
+   "en": "⟦0⟧ is used to create a colouring of the world oceans.",
+   "frags": 1
+  },
+  {
+   "k": "4ervm0",
+   "en": "/Hearts of Iron IV/map/terrain/colormap_water_0.dds"
+  },
+  {
+   "k": "1bwe9qu",
+   "en": "⟦0⟧ is used to assign the positions of building models and to assign the neighbouring sea province to the buildings that require it, i.e. naval bases and floating harbours. ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "64xsxk",
+   "en": "/Hearts of Iron IV/map/buildings.txt"
+  },
+  {
+   "k": "11msr72",
+   "en": "This can cause a game crash if left unedited while adding new states or provinces."
+  },
+  {
+   "k": "za61x",
+   "en": "⟦0⟧ is used to assign the information regarding the position and rotation of unit models and positions of unit models.",
+   "frags": 1
+  },
+  {
+   "k": "1xhwjks",
+   "en": "/Hearts of Iron IV/map/unitstacks.txt"
+  },
+  {
+   "k": "e769vy",
+   "en": "⟦0⟧ is used to assign rivers that appear in the world.",
+   "frags": 1
+  },
+  {
+   "k": "1em2ref",
+   "en": "/Hearts of Iron IV/map/rivers.bmp"
+  },
+  {
+   "k": "s3jrcx",
+   "en": "⟦0⟧ is used to assign tree models that appear in the world.",
+   "frags": 1
+  },
+  {
+   "k": "flczdv",
+   "en": "/Hearts of Iron IV/map/trees.bmp"
+  },
+  {
+   "k": "c2wuyv",
+   "en": "⟦0⟧ and ⟦1⟧ are used to assign the supply nodes and railways at the game's start. ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "1jjt4oy",
+   "en": "/Hearts of Iron IV/map/supply_nodes.txt"
+  },
+  {
+   "k": "3myp5n",
+   "en": "/Hearts of Iron IV/map/railways.txt"
+  },
+  {
+   "k": "11dsr6f",
+   "en": "This will cause a game crash if unedited on a new map."
+  },
+  {
+   "k": "1io43ts",
+   "en": "⟦0⟧ is used to create special relationships between pairs of provinces, whether it's making the border impassable or creating a passage without a border.",
+   "frags": 1
+  },
+  {
+   "k": "1e61zyz",
+   "en": "/Hearts of Iron IV/map/adjacencies.csv"
+  },
+  {
+   "k": "j3dazl",
+   "en": "⟦0⟧ is used to establish more complex rules for province relationships, primarily in regards to making straits that can be passable or not depending on circumstances.",
+   "frags": 1
+  },
+  {
+   "k": "1wbga0z",
+   "en": "/Hearts of Iron IV/map/adjacency_rules.txt"
+  },
+  {
+   "k": "4agxs9",
+   "en": "⟦0⟧ is used to create models that are constantly present on the world map. ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "y8seox",
+   "en": "/Hearts of Iron IV/map/ambient_object.txt"
+  },
+  {
+   "k": "swos7b",
+   "en": "This includes the base game's world borders in the north and the south."
+  },
+  {
+   "k": "7pq93a",
+   "en": "⟦0⟧ is used to assign different city models to different parts of the world, by default using ⟦1⟧ as the map.",
+   "frags": 2
+  },
+  {
+   "k": "1d8yffc",
+   "en": "/Hearts of Iron IV/map/cities.txt"
+  },
+  {
+   "k": "1537srn",
+   "en": "/Hearts of Iron IV/map/cities.bmp"
+  },
+  {
+   "k": "o6olct",
+   "en": "⟦0⟧ and ⟦1⟧ were deprecated and removed in the ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1jexy37",
+   "en": "/Hearts of Iron IV/map/airports.txt"
+  },
+  {
+   "k": "1slij05",
+   "en": "/Hearts of Iron IV/map/rocketsites.txt"
+  },
+  {
+   "k": "6tnpsy",
+   "en": "patch 1.15"
+  },
+  {
+   "k": "4f76ga",
+   "en": "Notes"
+  },
+  {
+   "k": "jouv62",
+   "en": "⟦0⟧, with only provinces and world_normal working. Photoshop and GIMP are alternatives that will always work, but the mode should never be changed from indexed when using them. ⟦1⟧ The method described there can also be used to export a new file.",
+   "frags": 2
+  },
+  {
+   "k": "uj2rxn",
+   "en": "Due to ⟦0⟧, many image editors such as Paint.net or Microsoft Paint can't be used for most bitmap files",
+   "frags": 1
+  },
+  {
+   "k": "it3nsd",
+   "en": "how the game reads BMP files"
+  },
+  {
+   "k": "fhmvzy",
+   "en": "If a map was saved incorrectly, the later section on details of the BMP format provides an easy way to correct the map."
+  },
+  {
+   "k": "1hl1e9t",
+   "en": "When exporting the map in GIMP, ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1jwf4eb",
+   "en": "\"do not write color space information\" must be checked on"
+  },
+  {
+   "k": "11wsd0o",
+   "en": "⟦0⟧ turned on via launch settings is essentially necessary for map modding. Without debug mode, ⟦1⟧ will cause the game to fail to load and it wouldn't be possible to open the ⟦2⟧ within the main menu: some map errors may lead to the game being impossible to open in singleplayer.",
+   "frags": 3
+  },
+  {
+   "k": "1uj69uj",
+   "en": "Debug mode"
+  },
+  {
+   "k": "19c52i8",
+   "en": "any error marked with MAP_ERROR"
+  },
+  {
+   "k": "6ej4zi",
+   "en": "nudger"
+  },
+  {
+   "k": "1u807ym",
+   "en": "Some of the errors marked with MAP_ERROR may not appear in the error log when it opens during the main menu loading. The error log after selecting a country in singleplayer will contain all of the map errors for sure."
+  },
+  {
+   "k": "tsxdjj",
+   "en": "Using the ⟦0⟧ can make the map editing much easier, but the tool is still unstable. At times it can be better to do manual editing, but the nudge is still important to know of and use.",
+   "frags": 1
+  },
+  {
+   "k": "nd1jbt",
+   "en": "The ⟦0⟧ will export files in the ⟦1⟧ directly, such as the ⟦2⟧ folder (Default location within Windows), with the folders of ⟦3⟧, ⟦4⟧, and ⟦5⟧ potentially being created inside of that folder. These will be loaded by default in base game as well if left there. Additionally, these ⟦6⟧ than the mod files: if a mod is set to unload previously-loaded files within a generated folder via ⟦7⟧ or contains a copy of the edited file, editing via the nudger may appear to not show changes. However, the outputs will still be created, and moving the files to the mod files and making them get loaded – such as via the 'update'/'load' button in the nudger, depending on the menu, or by restarting the game – will still work as intended.",
+   "frags": 8
+  },
+  {
+   "k": "1x7di3h",
+   "en": "User directory"
+  },
+  {
+   "k": "12d4kl4",
+   "en": "Documents/Paradox Interactive/Hearts of Iron IV/"
+  },
+  {
+   "k": "8q1znf",
+   "en": "/history/"
+  },
+  {
+   "k": "e5b8np",
+   "en": "/map/"
+  },
+  {
+   "k": "g41ejn",
+   "en": "/localisation/"
+  },
+  {
+   "k": "sip3m6",
+   "en": "have lower priority"
+  },
+  {
+   "k": "g089dv",
+   "en": "replace_path"
+  },
+  {
+   "k": "2ns1kb",
+   "en": "⟦0⟧ can be used to fully unload the contents of a single folder (but not subfolders) that get indexed at the main menu loading. This can be used to ensure that none of the base game's strategic regions or states will appear in the loaded files when the mod is enabled.",
+   "frags": 1
+  },
+  {
+   "k": "cmn4km",
+   "en": "⟦0⟧ can be used in order to change the file used for a certain purpose, such as the name of the provinces bitmap. Within this article, it'll be assumed that ⟦1⟧ is unchanged, with the filenames being the same as in base game.",
+   "frags": 2
+  },
+  {
+   "k": "j2ntiy",
+   "en": "/Hearts of Iron IV/map/default.map"
+  },
+  {
+   "k": "1lbbogb",
+   "en": "BMP format"
+  },
+  {
+   "k": "nz9grr",
+   "en": "This section is primarily the technical details on why the first two notes are necessary to be followed, as well as explaining some terminology used later in the article such as 'colourmaps' and '8-bit'/'8 bitdepth'/'8 bpp'."
+  },
+  {
+   "k": "3ymvp6",
+   "en": "There are 3 primary types of BMP files used in Hearts of Iron IV: 8-bit greyscale/indexed greyscale, 8-bit indexed, and 24-bit RGB. A BMP file may have compression, but Hearts of Iron IV requires that absolutely none is present and the rest here will assume it being off. No compression means that each pixel is assigned the same amount of bits. Bitdepth is the amount of bits per pixel, sometimes shortened as -bit (e.g. 8-bit) or bpp. The amount of bits per pixel assigns the total amount of possible colours in the file: bitdepth of 8 means ⟦0⟧ colours in the file, while bitdepth of 24 means ⟦1⟧ different possible colours. As the amount of bits per pixel, ⟦2⟧ between the mod's and base game's versions of an image. Some image editors, e.g. GIMP, don't explicitly have bitdepth as an option. In those, the bitdepth can be set by limiting the amount of possible colours. The RGB image mode allows each pixel to have 256 values for red, green, and blue colours, for a total of ⟦3⟧ , making a bitdepth of 24. If the image or a layer contains an alpha channel (i.e. making transparency allowed), which can be toggled on accidentally when creating a second layer as an overlay, the option of transparency adds even more possible colours, up to ⟦4⟧ , making a bitdepth of 32. If the image mode is set to Greyscale, then there are a total of 256 possible colours each pixel can be, making ⟦5⟧ total colours and a bitdepth of 8. With the indexed image mode, the amount of possible colours depends on the size of the colourmap/colour table and can be anything from 2 to 256. In Photoshop however, the bitdepth is explicitly set in the save settings window when exporting the file to bmp, with RGB mode images being able to select 16, 24 and 32-bit and Indexed mode images being able to select 4 or 8-bit.",
+   "frags": 6
+  },
+  {
+   "k": "o9u5sf",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle 2^8 = 256}"
+  },
+  {
+   "k": "ac2f0s",
+   "en": "2 24 = 16777216 {\\displaystyle 2^{24}=16777216}"
+  },
+  {
+   "k": "1x2542e",
+   "en": "wrong bitdepth on a file can be detected due to a large filesize difference"
+  },
+  {
+   "k": "1k8ff6y",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle 256^3 = 2^{24}}"
+  },
+  {
+   "k": "1pbp7n4",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle 256^4 = 2^{32}}"
+  },
+  {
+   "k": "r3waqp",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle 2^8}"
+  },
+  {
+   "k": "6amplf",
+   "en": "In more detail on each image mode used:"
+  },
+  {
+   "k": "eghfqm",
+   "en": "24-bit RGB is used for ⟦0⟧ and ⟦1⟧ bitmaps. Every pixel is assigned a direct colour value in each of the three colour channels, which gets read by the game to interpret it; either to assign province IDs in case of the former or to assign the vector proportions in case of the latter.",
+   "frags": 2
+  },
+  {
+   "k": "ecabk2",
+   "en": "provinces"
+  },
+  {
+   "k": "4fmehz",
+   "en": "world_normal"
+  },
+  {
+   "k": "clubgm",
+   "en": "8-bit greyscale/indexed greyscale is used for the ⟦0⟧ bitmap. The image mode is interpreted differently per image editor: in GIMP, the greyscale mode is used, while in Photoshop indexed colors mode is used, shown below, with a greyscale color table. This happens because of an internal behavior of Photoshop's greyscale mode.⟦1⟧ ⟦2⟧, since they generate a completely new colormap/color table when saving. Every pixel is assigned a value from 00 to FF that decides on the brightness of it and directly translates to height by the game.",
+   "frags": 3
+  },
+  {
+   "k": "1h7eorw",
+   "en": "heightmap"
+  },
+  {
+   "k": "1yd6uc0",
+   "en": "Paint.net and MS Paint cannot be used to edit the heightmap bitmap"
+  },
+  {
+   "k": "zydvt8",
+   "en": "8-bit indexed is used for every other bitmap: ⟦0⟧, ⟦1⟧, ⟦2⟧, and ⟦3⟧. This mode creates a colourmap (called color table in Photoshop), which is a list of 256 colours arranged in order from 00 to FF. Each pixel is assigned a value from 00 to FF, which directly corresponds to an entry on the colourmap. ⟦4⟧ and picks an entry based on the numeric value of that ID. Due to this, in order for the file to work correctly, the colourmap cannot be altered in any shape or form. For example, the image mode cannot be changed from Indexed to another one, since the image editor will not be able to preserve the order in memory, generating a new order after the image mode is set back to Indexed. For the same reason, ⟦5⟧, since they generate a completely new colormap/color table when saving rather than preserving it for the entirety of editing.⟦6⟧ In Photoshop, it is possible to save the indexed colors table to a .ACT file from the menu Image -> Mode -> Color Table, so the table can be loaded later when changing the image mode to Indexed. Newer versions of GIMP have access to a similar feature in the \"use custom palette\" option when changing the image from RGB to Indexed mode, which can be used to transfer the colormap from the base game file, by having it open in another tab.",
+   "frags": 7
+  },
+  {
+   "k": "1xpvdua",
+   "en": "cities"
+  },
+  {
+   "k": "cbzr5y",
+   "en": "rivers"
+  },
+  {
+   "k": "wf9ma6",
+   "en": "terrain"
+  },
+  {
+   "k": "6p4nki",
+   "en": "trees"
+  },
+  {
+   "k": "rgox5s",
+   "en": "The game checks this value on each pixel rather than the colour"
+  },
+  {
+   "k": "1q0y97n",
+   "en": "Paint.net and MS Paint cannot be used to edit the indexed bitmaps"
+  },
+  {
+   "k": "15v8qya",
+   "en": "When using image editors that don't have a complete support of editing the colormap/color table, 8-bit Indexed bitmaps cannot be easily converted back to how they're intended to be. Adding a new layer or changing the image mode will break how the map will be interpreted. Instead, it's possible to keep another image within the mod files as a backup and, when needed to use a layer as an overlay, edit the backup rather than the one interpreted by the game. After finishing the edits, it's possible to copy the contents of the backup inside of the image editor and paste them into the file interpreted by the game: that way it's possible to copy the color of each pixel without copying over the rest of the file's format. ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "16hs92u",
+   "en": "Paint.net or MS Paint will not work for this."
+  },
+  {
+   "k": "1qjibrq",
+   "en": "BMP files contain a DIB header at the beginning that assigns image file information. The game is set-up to expect BITMAPINFOHEADER as the format of the header for all BMP files. This depends on the image editor and most should save within this one by default. However, other formats for the header exist: the most common one to accidentally save in is BITMAPV5HEADER, written by the GIMP foundation. This is used in order to add the ICC information, characterizing in which colour space the image has to be read in. ⟦0⟧. For this reason, ⟦1⟧ in order to save with BITMAPINFOHEADER rather than BITMAPV5HEADER.",
+   "frags": 2
+  },
+  {
+   "k": "8xvj46",
+   "en": "Hearts of Iron IV's engine is not set to recognise this header"
+  },
+  {
+   "k": "zof2s2",
+   "en": "when exporting in GIMP, \"do not write colour space information\" must be checked on"
+  },
+  {
+   "k": "1fia701",
+   "en": "Correcting a broken 8-bit map"
+  },
+  {
+   "k": "vfo3qz",
+   "en": "As it's possible to edit an 8-bit file without palette restrictions by keeping a separate 24-bit copy of the file, the same can also be used to correct a file which had its colourmap reset or which was erroneously saved in a higher bitdepth. This needs to be done in an editor that does have support for Indexed mode images, except for Paint.net and MS Paint. Photoshop and newer versions of GIMP have better alternatives to fix this. To do this type of fix, this checklist can be followed:"
+  },
+  {
+   "k": "1a5697d",
+   "en": "Change the filename of the mod's broken bitmap. For this example, ⟦0⟧ will be used (with ⟦1⟧ as the original file), but the same can be applied to every other bitmap.",
+   "frags": 2
+  },
+  {
+   "k": "ijakq0",
+   "en": "map/terrain_broken.bmp"
+  },
+  {
+   "k": "dbpsei",
+   "en": "map/terrain.bmp"
+  },
+  {
+   "k": "1qsucpk",
+   "en": "Copy the base game's according ⟦0⟧ file into the mod. If the mod's map had its dimensions changed, this image should be resized to the proper ones, otherwise it shouldn't be touched.",
+   "frags": 1
+  },
+  {
+   "k": "r98ios",
+   "en": "Open both ⟦0⟧ and ⟦1⟧ within the editor. ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "14lq3c3",
+   "en": "Paint.net or MS Paint will not work."
+  },
+  {
+   "k": "1ekjxq2",
+   "en": "Within the image editor, select everything in ⟦0⟧ (using ctrl+A or Select -> All) and copy it to the clipboard.",
+   "frags": 1
+  },
+  {
+   "k": "jmtc1e",
+   "en": "Paste the contents of the file into ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1whnkwn",
+   "en": "Export the opened ⟦0⟧ file with correct settings.",
+   "frags": 1
+  },
+  {
+   "k": "zjcy6p",
+   "en": "Optionally delete the ⟦0⟧ file.",
+   "frags": 1
+  },
+  {
+   "k": "ca6qzw",
+   "en": "In Photoshop, this can be done easily using the indexed Color Table menu. For a BMP file that is already in 8-bit indexed mode but with incorrect palette:"
+  },
+  {
+   "k": "1ob295p",
+   "en": "Open the corresponding base game file in Photoshop."
+  },
+  {
+   "k": "1yeo68s",
+   "en": "Select the menu Image -> Mode -> Color Table."
+  },
+  {
+   "k": "kf59qw",
+   "en": "Click \"Save\" to save a .ACT file with the table."
+  },
+  {
+   "k": "1h3jnxc",
+   "en": "Open the broken file in Photoshop."
+  },
+  {
+   "k": "137j5s3",
+   "en": "Click \"Load\" and load the saved .ACT file, then click OK."
+  },
+  {
+   "k": "1facwk7",
+   "en": "Go to \"File\" menu and click \"Save\"."
+  },
+  {
+   "k": "1t9o3vq",
+   "en": "The same can be done for exporting a new file, starting in RGB mode:"
+  },
+  {
+   "k": "1fkrkxa",
+   "en": "Open the RGB mode image in Photoshop."
+  },
+  {
+   "k": "1zcxyu",
+   "en": "Select the menu Image -> Mode -> Indexed Colors."
+  },
+  {
+   "k": "o0i734",
+   "en": "In palette, select \"Custom\"."
+  }
+ ]
+}

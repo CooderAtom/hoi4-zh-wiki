@@ -1,0 +1,1314 @@
+{
+ "batch": 96,
+ "pages": [
+  "Defines"
+ ],
+ "chars": 14908,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "9z3xfd",
+   "en": "Impact of being in defensive war"
+  },
+  {
+   "k": "9rtly3",
+   "en": "WAR_SUPPORT_TENSION_IMPACT"
+  },
+  {
+   "k": "1cgfxxo",
+   "en": "Total impact of world tension"
+  },
+  {
+   "k": "y4ttoj",
+   "en": "MIN_STABILITY"
+  },
+  {
+   "k": "1hql4mp",
+   "en": "MAX_STABILITY"
+  },
+  {
+   "k": "1622v3m",
+   "en": "MIN_WAR_SUPPORT"
+  },
+  {
+   "k": "1ckxprc",
+   "en": "MAX_WAR_SUPPORT"
+  },
+  {
+   "k": "16bytbw",
+   "en": "FRONT_PROVINCE_SCORE"
+  },
+  {
+   "k": "tc9es9",
+   "en": "Max province score of a front. Used for the hostile troop alert"
+  },
+  {
+   "k": "7q7zg7",
+   "en": "MAJOR_IC_RATIO"
+  },
+  {
+   "k": "1rnsue1",
+   "en": "difference in total factories needed to be considered major with respect to other nation"
+  },
+  {
+   "k": "1f2d548",
+   "en": "MAJOR_MIN_FACTORIES"
+  },
+  {
+   "k": "q0axtp",
+   "en": "need at least these many factories to become a major"
+  },
+  {
+   "k": "oaguc1",
+   "en": "MAX_INTELLIGENCE_DIFFERENCE"
+  },
+  {
+   "k": "1m9yml7",
+   "en": "(Old Intel) Max difference in intelligence levels between countries"
+  },
+  {
+   "k": "cil7f2",
+   "en": "INTEL_FROM_ALLIANCE_FACTOR"
+  },
+  {
+   "k": "17lqphr",
+   "en": "Multiplied to the difference between a country intel and the maximum value in the alliance to compute the amount of intel that flows from the alliance to that country. 0 means no alliance contribution, 1 means a country intel's is the same as the max in the alliance."
+  },
+  {
+   "k": "14uyan2",
+   "en": "MAX_INTELLIGENCE_DATA_DEVIATION"
+  },
+  {
+   "k": "hwv707",
+   "en": "(Old Intel) Max deviation in estimating default espionage values ( 0.0 - 1.0 )"
+  },
+  {
+   "k": "13acccm",
+   "en": "MAX_INTELLIGENCE_MILITARY_DATA_DEVIATION"
+  },
+  {
+   "k": "1lmjghx",
+   "en": "(Old Intel) Max deviation in estimating enemy military units amount ( 0.0 - 1.0 )"
+  },
+  {
+   "k": "1mot5hb",
+   "en": "MAX_INTELLIGENCE_NAVY_DATA_DEVIATION"
+  },
+  {
+   "k": "146nie0",
+   "en": "(Old Intel) Max deviation in estimating enemy ships amount ( 0.0 - 1.0 )"
+  },
+  {
+   "k": "1ud0mkv",
+   "en": "MAX_INTELLIGENCE_AIR_DATA_DEVIATION"
+  },
+  {
+   "k": "jtm3vo",
+   "en": "(Old Intel) Max deviation in estimating enemy air planes amount ( 0.0 - 1.0 )"
+  },
+  {
+   "k": "13vust",
+   "en": "MAX_INTELLIGENCE_CONVOY_DATA_DEVIATION"
+  },
+  {
+   "k": "1pg7pvo",
+   "en": "(Old Intel) Max deviation in estimating enemy convoys amount ( 0.0 - 1.0 )"
+  },
+  {
+   "k": "1vpkin0",
+   "en": "MAX_INTELLIGENCE_MANPOWER_DATA_DEVIATION"
+  },
+  {
+   "k": "p1n5hs",
+   "en": "(Old Intel) Max deviation in estimating enemy total manpower amount ( 0.0 - 1.0 )"
+  },
+  {
+   "k": "1vra5pe",
+   "en": "MAX_INTELLIGENCE_FIELDED_MANPOWER_DATA_DEVIATION"
+  },
+  {
+   "k": "nert2b",
+   "en": "(Old Intel) Max deviation in estimating enemy fielded manpower amount ( 0.0 - 1.0 )"
+  },
+  {
+   "k": "cu9qr9",
+   "en": "MAX_INTELLIGENCE_INDUSTRY_DATA_DEVIATION"
+  },
+  {
+   "k": "kgb15e",
+   "en": "(Old Intel) Max deviation in estimating enemy total industry"
+  },
+  {
+   "k": "1wrbxnp",
+   "en": "MIN_MANPOWER_RATIO"
+  },
+  {
+   "k": "1oways8",
+   "en": "Min manpower ratio to show manpower alert"
+  },
+  {
+   "k": "1jsjxrj",
+   "en": "ARMY_IMPORTANCE_FACTOR"
+  },
+  {
+   "k": "1b5e93v",
+   "en": "Army factor for AI and calculations"
+  },
+  {
+   "k": "1xof2n5",
+   "en": "TERRAIN_IMPORTANCE_FACTOR"
+  },
+  {
+   "k": "tko13v",
+   "en": "Terrain base factor for state strategic value"
+  },
+  {
+   "k": "1us1ziu",
+   "en": "VICTORY_POINTS_IMPORTANCE_FACTOR"
+  },
+  {
+   "k": "s1z3be",
+   "en": "State victory points importance factor for AI and calculations"
+  },
+  {
+   "k": "17h0ew2",
+   "en": "BUILDING_IMPORTANCE_FACTOR"
+  },
+  {
+   "k": "1j41vdr",
+   "en": "State building importance factor for AI and calculations"
+  },
+  {
+   "k": "abpmle",
+   "en": "RESOURCE_IMPORTANCE_FACTOR"
+  },
+  {
+   "k": "jbokqb",
+   "en": "State resource importance factor for AI and calculations"
+  },
+  {
+   "k": "jk87k5",
+   "en": "INTERPOLATED_FRONT_STEPS_SHORT"
+  },
+  {
+   "k": "1yewpt6",
+   "en": "Performance optimization - The amount of steps for interpolated fronts. Non-AI countries got full interpolated fronts, the rest has optimized version of it."
+  },
+  {
+   "k": "1sa8tfv",
+   "en": "MIN_AIR_RESERVE_RATIO"
+  },
+  {
+   "k": "37bsw",
+   "en": "Min manpower ratio to show air reserves alert"
+  },
+  {
+   "k": "11vimrj",
+   "en": "POLITICAL_POWER_LOWER_CAP"
+  },
+  {
+   "k": "uknnr1",
+   "en": "Min amount of political power country should have"
+  },
+  {
+   "k": "1wytd5u",
+   "en": "POLITICAL_POWER_UPPER_CAP"
+  },
+  {
+   "k": "ixg76f",
+   "en": "Max amount of political power country should have"
+  },
+  {
+   "k": "1fbxexg",
+   "en": "RESISTANCE_IMPORTANT_LEVEL"
+  },
+  {
+   "k": "pi7dfe",
+   "en": "Level when resistance becomes dangerous"
+  },
+  {
+   "k": "phtszd",
+   "en": "RESISTANCE_IMPORTANT_COUNTRY_LEVEL"
+  },
+  {
+   "k": "1adohjv",
+   "en": "Level when average resistance in a country becomes dangerous"
+  },
+  {
+   "k": "172lzj4",
+   "en": "MIN_MAJOR_COUNTRIES"
+  },
+  {
+   "k": "cxzzxr",
+   "en": "MIN_MAJOR_COUNTRIES countries with most factories will be considered as major countries"
+  },
+  {
+   "k": "15be2aw",
+   "en": "ADDITIONAL_MAJOR_COUNTRIES_IC_RATIO"
+  },
+  {
+   "k": "1k751dk",
+   "en": "Countries will also be considered major when having more factories that the average of top MIN_MAJOR_COUNTRIES countries' factories times ADDITIONAL_MAJOR_COUNTRIES_IC_RATIO"
+  },
+  {
+   "k": "91lw5t",
+   "en": "BASE_TENSION_MAJOR_COUNTRY_INDEX"
+  },
+  {
+   "k": "2lhdho",
+   "en": "Which major country should be considered the base country when scaling generated world tension. 0 is the country with the most factories, 1 is the second most-factories country etc. This number has to be lower than MIN_MAJOR_COUNTRIES"
+  },
+  {
+   "k": "vez4oy",
+   "en": "MIN_NAVAL_SUPPLY_EFFICIENCY"
+  },
+  {
+   "k": "1g7y3lb",
+   "en": "Min ratio when supplies will be considered delivered from the capital by naval path"
+  },
+  {
+   "k": "s28fhj",
+   "en": "PARADROP_AIR_SUPERIORITY_RATIO"
+  },
+  {
+   "k": "16nxd6i",
+   "en": "Min ratio of air superiority for paradropping"
+  },
+  {
+   "k": "oysh9k",
+   "en": "STATE_VALUE_BASE"
+  },
+  {
+   "k": "uddzs7",
+   "en": "Base value of a state (value is used to determine costs in e.g. peace conferences)"
+  },
+  {
+   "k": "5tn6cq",
+   "en": "STATE_VALUE_BUILDING_SLOTS_MULT"
+  },
+  {
+   "k": "tpuu3g",
+   "en": "The value of each building slot in a state"
+  },
+  {
+   "k": "692kxa",
+   "en": "STATE_VALUE_MANPOWER_FACTOR"
+  },
+  {
+   "k": "12bn5pn",
+   "en": "State cost increases with this for every 10k population (so 3.1M becomes 310 and then multiplied by this)"
+  },
+  {
+   "k": "1sqzlav",
+   "en": "INVASION_REPORT_EXPERATION_DAYS"
+  },
+  {
+   "k": "rrf5xu",
+   "en": "Invasion experation days"
+  },
+  {
+   "k": "2lm7q",
+   "en": "MIN_FOCUSES_FOR_CONTINUOUS"
+  },
+  {
+   "k": "vad15a",
+   "en": "Focuses needed to unlock continuous focuses"
+  },
+  {
+   "k": "1ukjk5t",
+   "en": "AUTONOMOUS_TOTAL_SCORE"
+  },
+  {
+   "k": "nn0zam",
+   "en": "Total score for autonomous scale"
+  },
+  {
+   "k": "1ex2hoy",
+   "en": "AUTONOMOUS_SPILLOVER"
+  },
+  {
+   "k": "wi1a49",
+   "en": "Total score that can be saved to reach next level"
+  },
+  {
+   "k": "1gt01v1",
+   "en": "CIVIL_WAR_INVOLVEMENT_MIN_TENSION"
+  },
+  {
+   "k": "aajj8l",
+   "en": "base value of world tension to involve other sides to the civil war"
+  },
+  {
+   "k": "11bvrsf",
+   "en": "UNCAPITULATE_LEVEL"
+  },
+  {
+   "k": "z1tqlw",
+   "en": "if we reclaim this much and our capital we reset capitulate status"
+  },
+  {
+   "k": "1lod3kl",
+   "en": "BASE_SURRENDER_LIMIT"
+  },
+  {
+   "k": "ak6ats",
+   "en": "Base level of occupation required for country surrender"
+  },
+  {
+   "k": "1bxdzd3",
+   "en": "SURRENDER_LIMIT_MULT_FOR_COUNTRIES_WITH_NO_CORES"
+  },
+  {
+   "k": "1iwg6bj",
+   "en": "Countries with no owned cores will their surrender level multiplied by this amount"
+  },
+  {
+   "k": "cmk9i6",
+   "en": "MIN_SURRENDER_LIMIT"
+  },
+  {
+   "k": "enrm9b",
+   "en": "Minimum non-forced surrender limit. valid 0-1"
+  },
+  {
+   "k": "1pay2g",
+   "en": "BASE_MOBILIZATION_SPEED"
+  },
+  {
+   "k": "hu5idu",
+   "en": "Base speed of manpower mobilization #in 1/1000 of 1 %"
+  },
+  {
+   "k": "x96wv1",
+   "en": "INTERCEPTION_WAR_SUPPORT_SCALE"
+  },
+  {
+   "k": "1ltooo",
+   "en": "Scaling of interceptions to war support impact"
+  },
+  {
+   "k": "jp387m",
+   "en": "INTERCEPTION_BOMBING_WAR_SUPPORT_IMPACT"
+  },
+  {
+   "k": "fwe0cm",
+   "en": "Max impact of interceptions on the war support"
+  },
+  {
+   "k": "10bx9wx",
+   "en": "BOMBING_WAR_SUPPORT_PENALTY_SCALE"
+  },
+  {
+   "k": "1huuwl6",
+   "en": "Scaling of bomber damage to war support impact, will be added weekly as a war support penalty"
+  },
+  {
+   "k": "6mq3q3",
+   "en": "MAX_BOMBING_WEEKLY_WAR_SUPPORT_PENALTY"
+  },
+  {
+   "k": "q1xokm",
+   "en": "Max penalty that will gained per week from bomber's damage"
+  },
+  {
+   "k": "1w5upbd",
+   "en": "BOMBING_WEEKLY_WAR_SUPPORT_PENALTY_DECAY"
+  },
+  {
+   "k": "1m74lx1",
+   "en": "Weekly decay of bomber damage war support penalty"
+  },
+  {
+   "k": "1q2f8ba",
+   "en": "MAX_BOMBING_WAR_SUPPORT_IMPACT"
+  },
+  {
+   "k": "1dspjew",
+   "en": "Max total penalty from bomber's damage"
+  },
+  {
+   "k": "1xcai79",
+   "en": "HEROES_BEING_KILLED_WAR_SUPPORT_PENALTY_SCALE"
+  },
+  {
+   "k": "cqk4q5",
+   "en": "Scaling of war heroes manpower lost to war support impact, will be added weekly as a war support penalty"
+  },
+  {
+   "k": "1deivvj",
+   "en": "MAX_HEROES_BEING_KILLED_WEEKLY_WAR_SUPPORT_PENALTY"
+  },
+  {
+   "k": "o0sc93",
+   "en": "Max penalty that will gained per week from war heroes manpower lost"
+  },
+  {
+   "k": "6n563x",
+   "en": "HEROES_BEING_KILLED_WEEKLY_WAR_SUPPORT_PENALTY_DECAY"
+  },
+  {
+   "k": "qh8de4",
+   "en": "Weekly decay of war heroes manpower lost war support penalty"
+  },
+  {
+   "k": "1g4smte",
+   "en": "MAX_HEROES_BEING_KILLED_WAR_SUPPORT_IMPACT"
+  },
+  {
+   "k": "7zfx0l",
+   "en": "Max total penalty from war heroes manpower lost"
+  },
+  {
+   "k": "850ehd",
+   "en": "WAR_SUPPORT_FROM_CASUALTIES"
+  },
+  {
+   "k": "129qmob",
+   "en": "Base value (inverted) for calculating heroes being killed"
+  },
+  {
+   "k": "wqnxmm",
+   "en": "CONVOYS_BEING_RAIDED_WAR_SUPPORT_PENALTY_SCALE"
+  },
+  {
+   "k": "oy85i9",
+   "en": "Scaling of trade convoy raided to war support impact, will be added weekly as a war support penalty"
+  },
+  {
+   "k": "1gzysvc",
+   "en": "MAX_CONVOYS_BEING_RAIDED_WEEKLY_WAR_SUPPORT_PENALTY"
+  },
+  {
+   "k": "ro5iah",
+   "en": "Max penalty that will gained per week from trade convoy raided"
+  },
+  {
+   "k": "ox0rgk",
+   "en": "CONVOYS_BEING_RAIDED_WEEKLY_WAR_SUPPORT_PENALTY_DECAY"
+  },
+  {
+   "k": "183lpe4",
+   "en": "Weekly decay of trade convoy raided war support penalty"
+  },
+  {
+   "k": "1mwsmih",
+   "en": "MAX_CONVOYS_BEING_RAIDED_WAR_SUPPORT_IMPACT"
+  },
+  {
+   "k": "1tpy2yb",
+   "en": "Max total penalty from trade convoy raided"
+  },
+  {
+   "k": "1n5zyu1",
+   "en": "FEMALE_UNIT_LEADER_BASE_CHANCE"
+  },
+  {
+   "k": "w5uz81",
+   "en": "applies as a factor to female unit leader randomization the values needs to be zero if you don't actually have random portraits country leaders army leaders navy leaders air leaders operatives"
+  },
+  {
+   "k": "1al33lp",
+   "en": "CONVOYS_SUNK_MULTIPLIER_FOR_WAR_SUPPORT"
+  },
+  {
+   "k": "hjcwr3",
+   "en": "once a trade convoy ship sunk, you will get a larger negative impact on your war support"
+  },
+  {
+   "k": "1wj7uk0",
+   "en": "CONVOYS_BEING_RAIDED_DAILY_WAR_SUPPORT_IMPACT_FROM_OVERSEA_STATES"
+  },
+  {
+   "k": "14l76ya",
+   "en": "resource transfer convoys convoys from our states being raided will give a daily war support penalty depending on how important that resource is and how inefficent convoys are"
+  },
+  {
+   "k": "1haagtf",
+   "en": "CONVOYS_SUNK_MULTIPLIER_FOR_WAR_SUPPORT_FROM_OVERSEA_STATES"
+  },
+  {
+   "k": "180heg5",
+   "en": "once a resource transfer convoys from our states ship sunk, you will get a larger negative impact on your war support"
+  },
+  {
+   "k": "1w6d1iq",
+   "en": "CONVOYS_BEING_RAIDED_DAILY_WAR_SUPPORT_IMPACT"
+  },
+  {
+   "k": "jehw2k",
+   "en": "trade convoys being raided will give a daily war support penalty depending on how important that resource is and how inefficent convoys are"
+  },
+  {
+   "k": "1i48wza",
+   "en": "MAX_PROPAGANDA_STABILITY_IMPACT"
+  },
+  {
+   "k": "dp9gki",
+   "en": "Max total penalty from operative performing the propaganda mission in a country"
+  },
+  {
+   "k": "1tj1gdp",
+   "en": "MAX_PROPAGANDA_WAR_SUPPORT_IMPACT"
+  },
+  {
+   "k": "3if32v",
+   "en": "PROPAGANDA_STABILITY_DAILY_DECAY"
+  },
+  {
+   "k": "7jwlki",
+   "en": "Amount of stability recovered daily from propaganda effort"
+  },
+  {
+   "k": "1qwym46",
+   "en": "PROPAGANDA_WAR_SUPPORT_DAILY_DECAY"
+  },
+  {
+   "k": "1q70d8m",
+   "en": "Amount of war support recovered daily from war support effort"
+  },
+  {
+   "k": "188fpn8",
+   "en": "NUM_DAYS_TO_FULLY_DELETE_STOCKPILED_EQUIPMENT"
+  },
+  {
+   "k": "pade97",
+   "en": "time in days to fully delete equipments from stockpile. when you delete an equipment, they go to a temporary hidden pool which still can be seized"
+  },
+  {
+   "k": "1dmef9h",
+   "en": "AIR_SUPPLY_CONVERSION_SCALE"
+  },
+  {
+   "k": "1ikl4a7",
+   "en": "Conversion scale for planes to air supply"
+  },
+  {
+   "k": "dqvycb",
+   "en": "AIR_SUPPLY_DROP_EXPIRATION_HOURS"
+  },
+  {
+   "k": "375exn",
+   "en": "Air drop length after being dropped"
+  },
+  {
+   "k": "nujtkd",
+   "en": "STARTING_COMMAND_POWER"
+  },
+  {
+   "k": "1irpkyj",
+   "en": "starting command power for every country"
+  },
+  {
+   "k": "1f862h9",
+   "en": "BASE_MAX_COMMAND_POWER"
+  },
+  {
+   "k": "138aiig",
+   "en": "base value for maximum command power"
+  },
+  {
+   "k": "8i78su",
+   "en": "BASE_COMMAND_POWER_GAIN"
+  },
+  {
+   "k": "xug0ra",
+   "en": "base value for daily command power gain"
+  },
+  {
+   "k": "guav0g",
+   "en": "AIR_VOLUNTEER_PLANES_RATIO"
+  },
+  {
+   "k": "1d2qgru",
+   "en": "Ratio for volunteer planes available for sending in relation to sender air force"
+  },
+  {
+   "k": "1fcwh8",
+   "en": "AIR_VOLUNTEER_BASES_CAPACITY_LIMIT"
+  },
+  {
+   "k": "tc1fim",
+   "en": "Ratio for volunteer planes available for sending in relation to receiver air base capacity"
+  },
+  {
+   "k": "qv8pt8",
+   "en": "ATTACHE_XP_SHARE"
+  },
+  {
+   "k": "o0nolh",
+   "en": "Country received xp from attaches"
+  },
+  {
+   "k": "1gkj10e",
+   "en": "SPECIAL_FORCES_CAP_BASE"
+  },
+  {
+   "k": "1bj1ybg",
+   "en": "Max ammount of special forces battalions is total number of non-special forces battalions multiplied by this and modified by a country modifier"
+  },
+  {
+   "k": "1lrq1j9",
+   "en": "SPECIAL_FORCES_CAP_MIN"
+  },
+  {
+   "k": "dxlnog",
+   "en": "You can have a minimum of this many special forces battalions, regardless of the number of non-special forces battalions you have, this can also be modified by a country modifier"
+  },
+  {
+   "k": "1fq9aba",
+   "en": "DAYS_OF_WAR_BEFORE_SURRENDER"
+  },
+  {
+   "k": "1mdjqyh",
+   "en": "Number of days a war has to have existed before anyone can surrender in it"
+  },
+  {
+   "k": "b07plf",
+   "en": "FUEL_LEASE_CONVOY_RATIO"
+  },
+  {
+   "k": "nw5219",
+   "en": "num convoys needed per fuel land lease"
+  },
+  {
+   "k": "16yqveq",
+   "en": "STARTING_FUEL_RATIO"
+  },
+  {
+   "k": "1kgpt3l",
+   "en": "starting fuel ratio compared to max fuel for countries"
+  },
+  {
+   "k": "4qh12y",
+   "en": "BASE_FUEL_GAIN_PER_OIL"
+  },
+  {
+   "k": "xl3n3u",
+   "en": "base amount of fuel gained hourly per excess oil"
+  },
+  {
+   "k": "1m76bbd",
+   "en": "BASE_FUEL_GAIN"
+  },
+  {
+   "k": "go91kq",
+   "en": "base amount of fuel gained hourly, independent of excess oil"
+  },
+  {
+   "k": "4bpuyi",
+   "en": "BASE_FUEL_CAPACITY"
+  },
+  {
+   "k": "4650n1",
+   "en": "base amount of fuel capacity"
+  },
+  {
+   "k": "2q1urr",
+   "en": "SCORCHED_EARTH_STATE_COST"
+  },
+  {
+   "k": "qqymvj",
+   "en": "pp cost to scorch a state"
+  },
+  {
+   "k": "1i09hc0",
+   "en": "COUNTRY_MANPOWER_CAPITULATED_FREE_POOL_FACTOR"
+  },
+  {
+   "k": "eapgto",
+   "en": "Factor on amount of normal manpower left for an exiled nation with no territory."
+  },
+  {
+   "k": "f9e7i2",
+   "en": "COUNTRY_MANPOWER_CAPITULATED_CORE_GAIN_FACTOR"
+  },
+  {
+   "k": "1fpjxst",
+   "en": "Factor on amount of normal manpower gained for the exile nation. From owned states that are controlled by an enemy. State manpower reduced by factor 1000 in code."
+  },
+  {
+   "k": "q3nzhi",
+   "en": "COUNTRY_MANPOWER_CAPITULATED_NON_CORE_GAIN_FACTOR"
+  },
+  {
+   "k": "hdcex4",
+   "en": "GIE_MAX_LEGITIMACY"
+  },
+  {
+   "k": "1fp9ahy",
+   "en": "Legitimacy max of a GiE"
+  },
+  {
+   "k": "15wnt5p",
+   "en": "GIE_CAPITULATE_MAX_STOCKPILE_TRANSFER"
+  },
+  {
+   "k": "12xd2a8",
+   "en": "0-1 Transfers ratio of stockpile. from 0 to this define depending on starting legitimacy on capitulation."
+  },
+  {
+   "k": "14qende",
+   "en": "GIE_CAPITULATE_MIN_LEGIT_FOR_TRANSFER"
+  },
+  {
+   "k": "1kc7kot",
+   "en": "0-100 Minimum starting legitimacy to transfer any equipment at all."
+  },
+  {
+   "k": "1rjtzs2",
+   "en": "GIE_CAPITULATION_LEGITIMACY_WARSCORE_FACTOR"
+  },
+  {
+   "k": "1cd7ksd",
+   "en": "Multiplies war contribution percent with this factor for part of starting legitimacy. (0.5 would mean a 50 % war contribution gives 25 more legitimacy)"
+  },
+  {
+   "k": "1bgpba8",
+   "en": "GIE_CAPITULATION_LEGITIMACY_WARLENGTH_FACTOR"
+  },
+  {
+   "k": "5pnafa",
+   "en": "Multiplies war length (nr of weeks) with this factor for part of starting legitimacy. (1.0 would mean a war length of 30 weeks gives 30 more legitimacy)"
+  },
+  {
+   "k": "1rndvim",
+   "en": "GIE_WARSCORE_GAIN_LEGITIMACY_FACTOR"
+  },
+  {
+   "k": "1mp6o0",
+   "en": "Factor on how much legitimacy is gained from warscore earned by GiE units."
+  },
+  {
+   "k": "1x3psog",
+   "en": "GIE_HOST_CIC_FROM_LEGITIMACY_MAX"
+  },
+  {
+   "k": "mm880q",
+   "en": "Host will receive from 0 to this value in CIC."
+  },
+  {
+   "k": "5ykuxu",
+   "en": "GIE_HOST_MIC_FROM_LEGITIMACY_MAX"
+  },
+  {
+   "k": "c3rrag",
+   "en": "Host will receive from 0 to this value in MIC."
+  },
+  {
+   "k": "4w4exl",
+   "en": "GIE_HOST_DOCKYARDS_FROM_LEGITIMACY_MAX"
+  },
+  {
+   "k": "17j40gh",
+   "en": "Host will receive from 0 to this value in dockyards."
+  },
+  {
+   "k": "j1d78y",
+   "en": "GIE_VETERAN_MANPOWER_NON_CORE_GAIN_FACTOR"
+  },
+  {
+   "k": "oai772",
+   "en": "Factor on amount of manpower gained from owned states that are controlled by an enemy. State manpower reduced by factor 1000 in code."
+  },
+  {
+   "k": "vfhut2",
+   "en": "GIE_VETERAN_MANPOWER_CORE_GAIN_FACTOR"
+  },
+  {
+   "k": "wjys6m",
+   "en": "GIE_MANPOWER_TOTAL_MAX_FACTOR"
+  },
+  {
+   "k": "1nwsda5",
+   "en": "Factor on max amount of exile manpower that can be gained from owned states. Approaching this will give diminishing returns. Reduced by factor 100 in code."
+  },
+  {
+   "k": "1fr54v3",
+   "en": "GIE_MANPOWER_RATO_OF_MAX_START_PENALTY"
+  },
+  {
+   "k": "1si4ba7",
+   "en": "When this ratio of max manpower has been recruited we start applying the penalty."
+  },
+  {
+   "k": "1nykix9",
+   "en": "GIE_MANPOWER_GAIN_PENALTY_MAX"
+  },
+  {
+   "k": "1ex3qk8",
+   "en": "Max penalty on exile manpower growth."
+  },
+  {
+   "k": "1uo9iud",
+   "en": "GIE_EXILE_AIR_RECRUITMENT_LEGITIMACY"
+  },
+  {
+   "k": "74n3bw",
+   "en": "Legitimacy required to recruit exile airwings"
+  },
+  {
+   "k": "1pcsm0d",
+   "en": "GIE_EXILE_AIR_START_EXPERIENCE"
+  },
+  {
+   "k": "17nc0zh",
+   "en": "Starting experience for exile airwings"
+  },
+  {
+   "k": "e8sb49",
+   "en": "GIE_EXILE_TROOP_RECRUITMENT_LEGITIMACY"
+  },
+  {
+   "k": "3puskp",
+   "en": "Legitimacy required to recruit exile troops"
+  },
+  {
+   "k": "114pr2l",
+   "en": "GIE_EXILE_TROOPS_DEPLOY_TRAINING_MAX_LEVEL"
+  },
+  {
+   "k": "1vg88co",
+   "en": "Max XP exile troops can receive from training"
+  },
+  {
+   "k": "1g93og7",
+   "en": "GIE_EXILE_ARMY_LEADER_LEGITIMACY_LEVELS"
+  },
+  {
+   "k": "o549at",
+   "en": "Legitimacy levels where a new army leader is received."
+  },
+  {
+   "k": "164gnq6",
+   "en": "GIE_EXILE_ARMY_LEADER_START_LEVEL"
+  },
+  {
+   "k": "okpdaw",
+   "en": "Starting level for exile leader"
+  },
+  {
+   "k": "owlhrq",
+   "en": "GIE_ESCAPING_DIVISIONS_TRANSFER_DAYS"
+  },
+  {
+   "k": "ehvpu",
+   "en": "days to transfer escaping divisions to host nation"
+  },
+  {
+   "k": "1lj4f7",
+   "en": "GIE_ESCAPING_DIVISIONS_XP_BOOST"
+  },
+  {
+   "k": "7i8bkn",
+   "en": "Escaping divisions gain a boost to experience. Only the toughest motherbadasses will band together and survive to git me one hundred Nazi scalps ... Or die tryin'..."
+  },
+  {
+   "k": "4zqltq",
+   "en": "GIE_DIVISION_ATTACK_BONUS_AGAINST_OCCUPIER"
+  },
+  {
+   "k": "1howub7",
+   "en": "Attack bonus factor against whoever occupies your core territory."
+  },
+  {
+   "k": "1k3wl40",
+   "en": "GIE_DIVISION_DEFENSE_BONUS_AGAINST_OCCUPIER"
+  },
+  {
+   "k": "jusqdt",
+   "en": "GIE_DIVISION_ATTACK_BONUS_ON_CORE"
+  },
+  {
+   "k": "750qr2",
+   "en": "Attack bonus factor when fighting on cores."
+  },
+  {
+   "k": "ftveb3",
+   "en": "GIE_DIVISION_DEFENSE_BONUS_ON_CORE"
+  },
+  {
+   "k": "1kfszcc",
+   "en": "Defense bonus factor when fighting on cores."
+  },
+  {
+   "k": "17pqbyp",
+   "en": "GIE_ESCAPING_DIVISIONS_EQUIPMENT_RATIO"
+  },
+  {
+   "k": "1tsbm00",
+   "en": "Base equipment ratio on escaped troops."
+  },
+  {
+   "k": "17wwxwv",
+   "en": "GIE_ESCAPING_DIVISIONS_AMOUNT_RATIO"
+  },
+  {
+   "k": "1v87tti",
+   "en": "Ratio on amount of divisions that escapes. Scales with starting legitimacy"
+  },
+  {
+   "k": "vday1l",
+   "en": "GIE_LIBERATED_NATION_DAILY_LEGITIMACY_CHANGE"
+  },
+  {
+   "k": "k5k9iv",
+   "en": "An uncapitulated exile that is fully liberated will have legitimacy changed with this amount daily. Will be automatically reinstated when it reaches 0."
+  },
+  {
+   "k": "1bu6ys4",
+   "en": "GIE_EXILE_TRANSFER_ON_LEADER_CAPITULATION_MANPOWER_FACTOR"
+  },
+  {
+   "k": "9vmdqj",
+   "en": "Factor on exile manpower kept when a faction leader capitulates and the hosted exiles are transfered."
+  },
+  {
+   "k": "1pr00p3",
+   "en": "GIE_CONVOY_ON_CREATION"
+  },
+  {
+   "k": "loa9rh",
+   "en": "Number of convoy a GiE will get on creation."
+  },
+  {
+   "k": "1wws329",
+   "en": "SURRENDER_LIMIT_REDUCTION_PER_COLLABORATION"
+  },
+  {
+   "k": "81i9s2",
+   "en": "each percent of collaboration will lower surrender limit by this percentage"
+  },
+  {
+   "k": "1eq65x2",
+   "en": "SURRENDER_RECIPIENT_SCORE_PER_COLLABORATION"
+  },
+  {
+   "k": "ogfsjf",
+   "en": "countries with collaboration will get bonus while game calculates which country the enemy will capitulate"
+  },
+  {
+   "k": "18n7chg",
+   "en": "COMPLIANCE_PER_COLLABORATION"
+  },
+  {
+   "k": "16kc5j0",
+   "en": "each percent of collaboration will be converted to this compliance at capitulation"
+  },
+  {
+   "k": "1x44kve",
+   "en": "WILL_LEAD_TO_WAR_FOCUS_PERSISTENCE"
+  },
+  {
+   "k": "vktvh1",
+   "en": "taken focuses that has lead to war will still make ai prep for war for this many days after being taken"
+  },
+  {
+   "k": "1ff2a3g",
+   "en": "WILL_LEAD_TO_WAR_DECISION_PERSISTENCE"
+  },
+  {
+   "k": "jxsdek",
+   "en": "the decision thats lead to war will sitll make ai prep for war for this many days after being taken/cooldown/timeout"
+  },
+  {
+   "k": "mf0l8y",
+   "en": "ARMY_COUNT_DAILY_LERP_FOR_TRAINING_XP"
+  },
+  {
+   "k": "1oi6039",
+   "en": "number of armies that is used in training xp calculates daily lerps to actual number (if real number is lower)"
+  },
+  {
+   "k": "1fv872v",
+   "en": "ARMY_COUNT_DAILY_DECREASE_FOR_TRAINING_XP"
+  },
+  {
+   "k": "1thmcs",
+   "en": "number of armies that is used in training xp calculates daily linearly approaches this number (if real number is lower)"
+  },
+  {
+   "k": "7y9g8s",
+   "en": "NResistance"
+  },
+  {
+   "k": "g2cws3",
+   "en": "INITIAL_STATE_RESISTANCE"
+  },
+  {
+   "k": "2y6ewb",
+   "en": "initial resistance percentage of a state once it is captured"
+  },
+  {
+   "k": "d059p9",
+   "en": "INITIAL_STATE_COMPLIANCE"
+  },
+  {
+   "k": "1l9kjxl",
+   "en": "initial compliance percentage of a state once it is captured"
+  },
+  {
+   "k": "6oo6io",
+   "en": "COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE"
+  },
+  {
+   "k": "185pnww",
+   "en": "compliance factor that applies when the state controller changes (in between allies, compliance is zeroed if it is taken by original country)"
+  },
+  {
+   "k": "5embde",
+   "en": "RESISTANCE_COOLDOWN_WHEN_DISABLED"
+  },
+  {
+   "k": "1i4ha7p",
+   "en": "resistance cooldown when the state is taken back by its original owner (compliance is zeroed in that case)"
+  },
+  {
+   "k": "evwcfk",
+   "en": "RESISTANCE_TARGET_BASE"
+  },
+  {
+   "k": "52qvmm",
+   "en": "base resistance target percentage"
+  },
+  {
+   "k": "19q8iw8",
+   "en": "RESISTANCE_TARGET_MODIFIER_HAS_CLAIM"
+  },
+  {
+   "k": "1qg1tgf",
+   "en": "resistance target modifier in % for states we have claim"
+  },
+  {
+   "k": "1a71c9y",
+   "en": "RESISTANCE_TARGET_MODIFIER_PER_STABILITY_LOSS"
+  },
+  {
+   "k": "vcrscr",
+   "en": "resistance target modifier per stability below 100%"
+  },
+  {
+   "k": "95o53i",
+   "en": "RESISTANCE_TARGET_MODIFIER_PER_COMPLIANCE"
+  },
+  {
+   "k": "16thwoj",
+   "en": "resistance target modifier per compliance %"
+  },
+  {
+   "k": "tp3dpa",
+   "en": "RESISTANCE_TARGET_MODIFIER_IS_AT_PEACE"
+  },
+  {
+   "k": "150bl9f",
+   "en": "resistance target modifier when we are at peace"
+  },
+  {
+   "k": "1o3h1gl",
+   "en": "RESISTANCE_TARGET_MODIFIER_STATE_VP"
+  },
+  {
+   "k": "ynjh1a",
+   "en": "resistance target modifier pairs for vp. first entry is total vp in state and second entry is amount of target modifier that applies for that threshold 0 - 5 5 - 20 20 - 50 50 - ..."
+  },
+  {
+   "k": "v6xa4y",
+   "en": "RESISTANCE_TARGET_MODIFIER_OCCUPIED_CAPITULATED"
+  },
+  {
+   "k": "3f0mmj",
+   "en": "resistance target modifier when the enemy is capitulated"
+  },
+  {
+   "k": "sjv2zl",
+   "en": "RESISTANCE_TARGET_MODIFIER_OCCUPIED_IS_EXILE_MIN"
+  }
+ ]
+}

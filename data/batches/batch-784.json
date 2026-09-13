@@ -1,0 +1,973 @@
+{
+ "batch": 784,
+ "pages": [
+  "Localisation"
+ ],
+ "chars": 14904,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1eku5bq",
+   "en": "⟦0⟧ – This is located in the \"Search\" topbar menu as \"Find in Files...\". By default, no folder is provided. \"Follow current doc.\" allows the text editor to automatically input the currently-opened document's folder as the place for the search, or it can be entered manually. Alternatively, this menu can be opened from the right-click menu of a folder within the \"Folder as Workspace\" menu – accessed by a button in the topbar – which'll automatically set the folder location to be that folder.",
+   "frags": 1
+  },
+  {
+   "k": "148tv3k",
+   "en": "Notepad++"
+  },
+  {
+   "k": "nzu18e",
+   "en": "⟦0⟧ – This is located in the \"Find\" topbar menu as \"Find in Files...\". In order to add a folder to search, the menu to the right of the \"Where:\" line can be opened, with either \"Add Folder\" (to select an individual folder) or \"Add Open Folders\" (To automatically select all folders opened via Sublime Text) buttons serving to do so.",
+   "frags": 1
+  },
+  {
+   "k": "p1sr7",
+   "en": "Sublime Text"
+  },
+  {
+   "k": "8bzda4",
+   "en": "⟦0⟧ – Visual Studio Code by default searches only the currently opened folder. A folder is opened either through the \"Open Folder...\" button in the \"File\" topbar menu or the \"Explorer\" menu, accessed through the bar on the left. After this, the functionality can be accessed in the \"Edit\" menu as \"Find in Files\". To search in other folders, open the 'search details' menu, represented with an ellipsis, and enter the full path to the folder in the 'Files to include' area. In order to speed up the search, filename filters can be used. For example, ⟦1⟧ within \"files to include\" will only search every *.yml file within the ⟦2⟧ folder, where ⟦3⟧ stands for any amount (including 0) of any characters within the filename. Similar filters can be used in the previous two text editors, however without allowing folders to be filtered — only the filenames.",
+   "frags": 4
+  },
+  {
+   "k": "3e8322",
+   "en": "Visual Studio Code"
+  },
+  {
+   "k": "o3795f",
+   "en": "localisation/english/*.yml"
+  },
+  {
+   "k": "85a1c9",
+   "en": "<currently opened folder>/localisation/english/"
+  },
+  {
+   "k": "18o7xd3",
+   "en": "Formatting variables"
+  },
+  {
+   "k": "1d7xn64",
+   "en": "See also: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "z8i6tv",
+   "en": "Variables have a unique way for applying colouring, also allowing extra formatting characters. These are applied after a pipe placed at the end of the variable's name, such as ⟦0⟧ that will turn the colour of the variable ⟦1⟧ red. If no colouring is applied, it will use the same colour as regular text: the §-colour block, textbox's ⟦2⟧, or the font's default colour in that order.",
+   "frags": 3
+  },
+  {
+   "k": "bw63e7",
+   "en": "[?my_variable|R]"
+  },
+  {
+   "k": "1oab7gc",
+   "en": "my_variable"
+  },
+  {
+   "k": "ksb3kg",
+   "en": "text_color_mode"
+  },
+  {
+   "k": "1mnyhfq",
+   "en": "The list of formatting characters that are restricted to variables only are the following:"
+  },
+  {
+   "k": "1d8iqk5",
+   "en": "Converts the variable to SI units—appends \"K\" or \"M\" and divides the variable appropriately, such as 65 536 becoming 65.53K and 1 500 000 becoming 1.50M. Displays 2 decimals after the dot by default."
+  },
+  {
+   "k": "jqhzc7",
+   "en": "Same as *."
+  },
+  {
+   "k": "628tyj",
+   "en": "Prefixes the variable with ⟦0⟧ if the value is positive or ⟦1⟧ if it is negative.",
+   "frags": 2
+  },
+  {
+   "k": "bts9jc",
+   "en": "Controls the number of decimals to display. Due to the nature of the game's variables, there are no more than 5 decimals that can be shown. Using any digit greater than 5 will instead have the same result as 5."
+  },
+  {
+   "k": "kwstfc",
+   "en": "Converts the variable to percentage, multiplying by 100 and appending a %. By default, will show 2 digits after the decimal point, though the second digit will always be 0."
+  },
+  {
+   "k": "21st2g",
+   "en": "Appends a percentage to the end of the variable without multiplying by 100."
+  },
+  {
+   "k": "176nffk",
+   "en": "Colours the variable green if positive, yellow if zero, red if negative."
+  },
+  {
+   "k": "1v81axc",
+   "en": "Colours the variable red if positive, yellow if zero, green if negative."
+  },
+  {
+   "k": "1vfujlu",
+   "en": "Any unrecognised symbols will neither change how the variable is localised nor get recognised as an error in-game. For example, it's common practice in the base game to prepend a dot before the digit used to control the amount of displayed digits as ⟦0⟧. In case of overlap between mutually-exclusive rules, the last-used one will be prioritised. However, static colouring has a lower priority than dynamic colouring (e.g. ⟦1⟧ will be treated as ⟦2⟧), and using ⟦3⟧ will also override ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "1i0vjcc",
+   "en": "[?var|.1]"
+  },
+  {
+   "k": "ymzvpj",
+   "en": "[?var|+Y]"
+  },
+  {
+   "k": "175a38s",
+   "en": "[?var|+]"
+  },
+  {
+   "k": "19cde0y",
+   "en": "Some examples of formatting characters in usage:"
+  },
+  {
+   "k": "ct2hvh",
+   "en": "loc_key"
+  },
+  {
+   "k": "z6xxnq",
+   "en": "\"Democratic"
+  },
+  {
+   "k": "q5cgwn",
+   "en": "party"
+  },
+  {
+   "k": "1uwvlfw",
+   "en": "popularity:"
+  },
+  {
+   "k": "kmq4i7",
+   "en": "[?party_popularity@democracy|%G0]\""
+  },
+  {
+   "k": "1w4wfdo",
+   "en": "loc_key_2"
+  },
+  {
+   "k": "1fhpg0",
+   "en": "\"Modifier"
+  },
+  {
+   "k": "qa6nuc",
+   "en": "token's"
+  },
+  {
+   "k": "trl6fk",
+   "en": "value:"
+  },
+  {
+   "k": "1uyf7i7",
+   "en": "[?modifier@my_modifier|.1%%+]\""
+  },
+  {
+   "k": "1jetzoi",
+   "en": "pol_power_trigger_tt"
+  },
+  {
+   "k": "1bspsir",
+   "en": "\"Has"
+  },
+  {
+   "k": "1sgpk2o",
+   "en": "more"
+  },
+  {
+   "k": "1rkd8gq",
+   "en": "than"
+  },
+  {
+   "k": "9t8r2c",
+   "en": "[?var_name|Y]"
+  },
+  {
+   "k": "x1sssc",
+   "en": "political"
+  },
+  {
+   "k": "13u6tt8",
+   "en": "power\""
+  },
+  {
+   "k": "n9au3p",
+   "en": "Within these examples, the first string depicts the current scope's democratic popularity as a percentage multiplied by 100 (%), in green (G), rounded to a whole number with 0 decimals (0). The second string displays the ⟦0⟧ ⟦1⟧'s value as a 'good' number (+ making it green if positive, red if negative), with a percentage sign appended in the end (%%) and rounded to a number with one decimal (.1). The third string displays the variable in yellow colouring (as is common in the base game's tooltips), leaving it unchanged otherwise.",
+   "frags": 2
+  },
+  {
+   "k": "yfwic5",
+   "en": "my_modifier"
+  },
+  {
+   "k": "1hmwnad",
+   "en": "modifier token"
+  },
+  {
+   "k": "1415suo",
+   "en": "Country's flags"
+  },
+  {
+   "k": "rj0d6b",
+   "en": "The following in localisation will display the default, ⟦0⟧, flag of a country: ⟦1⟧ It's recommended to use the GetFlag namespace when possible instead, however, this can be used on localisation that doesn't support namespaces, such as custom modifier tooltips or the game rules.",
+   "frags": 2
+  },
+  {
+   "k": "c2gg0g",
+   "en": "/Hearts of Iron IV/gfx/flags/TAG.tga"
+  },
+  {
+   "k": "gzagyd",
+   "en": "@TAG"
+  },
+  {
+   "k": "1cyr9vw",
+   "en": "Text icons"
+  },
+  {
+   "k": "drdkok",
+   "en": "Icons can be displayed within strings using the ⟦0⟧ notation.",
+   "frags": 1
+  },
+  {
+   "k": "lit5xu",
+   "en": "\"£GFX_army_experience\""
+  },
+  {
+   "k": "1hkwveq",
+   "en": "Text icons are added as ⟦0⟧ definitions in ⟦1⟧ files within an overarching ⟦2⟧. An example definition of one looks like:",
+   "frags": 3
+  },
+  {
+   "k": "1ol5nbr",
+   "en": "spriteType = { ... }"
+  },
+  {
+   "k": "dw6d81",
+   "en": "/Hearts of Iron IV/interface/*.gfx"
+  },
+  {
+   "k": "1jps0eu",
+   "en": "spriteTypes = { ... }"
+  },
+  {
+   "k": "hrfbzl",
+   "en": "The text icon's name is equal to the text icon with the GFX_ part in the beginning removed, being ⟦0⟧ in this case.",
+   "frags": 1
+  },
+  {
+   "k": "1fs9xla",
+   "en": "£my_text_icon"
+  },
+  {
+   "k": "1p9xln9",
+   "en": "If the sprite of the text icon is made out of multiple frames, then the specified frame can be used in localisation as ⟦0⟧, this example being the first frame. Note that ⟦1⟧ is necessary for multi-framed text icons to work properly. It is also required to make the icon appear on game start without reloading/modifying interface files, so you should include it.",
+   "frags": 2
+  },
+  {
+   "k": "1ufaj8",
+   "en": "£icon_name|1"
+  },
+  {
+   "k": "hlp9kw",
+   "en": "legacy_lazy_load = no"
+  },
+  {
+   "k": "nz9mo3",
+   "en": "Nesting strings"
+  },
+  {
+   "k": "11xlrca",
+   "en": "The dollar sign special symbol is used for nesting other strings within any given localisation key's value. In particular, there are 4 primary usage cases for it:"
+  },
+  {
+   "k": "pw0zw4",
+   "en": "Nesting other localisation keys. For example, ⟦0⟧ will show up in-game as ⟦1⟧, assuming that ⟦2⟧'s definition is unchanged from the base game.",
+   "frags": 3
+  },
+  {
+   "k": "1nd1shy",
+   "en": "some_modifier_tooltip:0 \"$modifier_production_speed_infrastructure_factor$: §R-10%§!\""
+  },
+  {
+   "k": "1psdyw6",
+   "en": "⟦0⟧ construction speed: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1icrwoe",
+   "en": "Infrastructure"
+  },
+  {
+   "k": "16vd1vu",
+   "en": "modifier_production_speed_infrastructure_factor"
+  },
+  {
+   "k": "1mx5zg6",
+   "en": "This is useful with localisation key values that need to be re-used within others, but can be easily changed during the development of the mod, as to not need to adjust every single localisation value that uses it when changing it. This can also be used to expand compatibility with base game updates or other mods that may potentially change the localisation value but should still be compatible with the mod."
+  },
+  {
+   "k": "upglcp",
+   "en": "When used within ⟦0⟧ of an interface element, this does not work properly, instead showing up with the dollar signs visible. This can be bypassed using ⟦1⟧, as a scripted localisation entry that points towards a key, the value of which contains nested localisation entry, will work as intended.",
+   "frags": 2
+  },
+  {
+   "k": "12ywzqo",
+   "en": "Inputting a dollar sign itself. This is done by doubling the dollar sign in localisation, such as ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "foj0ca",
+   "en": "cost_tooltip: \"This option costs $$100\""
+  },
+  {
+   "k": "hfocrr",
+   "en": "Nesting a boundable variable. Introduced in patch 1.15, boundable variables allow modders to define custom variables for use in localisation keys, functioning similarly to internal variables. These can be assigned within any effect, trigger block, or on a scripted GUI. For example, by using a loacalisation key like: ⟦0⟧, ⟦1⟧ in this case would be a custom boundable variable that can be defined elsewhere by the modder. This provides significant flexibility for dynamic localisation that adapts to gameplay conditions. For further details on defining and binding these variables, refer to the ⟦2⟧ section.",
+   "frags": 3
+  },
+  {
+   "k": "8c8sos",
+   "en": "my_boundable_tooltip: \"My name is $NAME$.\""
+  },
+  {
+   "k": "k56o0k",
+   "en": "$NAME$"
+  },
+  {
+   "k": "12utfy5",
+   "en": "boundable localisation"
+  },
+  {
+   "k": "k28s3n",
+   "en": "Nesting a strictly internal variable. This is particularly common within base game's localisation that corresponds to game mechanics rather than database entries, such as ⟦0⟧. In these cases, the specified internal variable only exists within the scope of that localisation key and cannot be used anywhere else.",
+   "frags": 1
+  },
+  {
+   "k": "tfmr7r",
+   "en": "confirm_cancel_national_focus_desc:0 \"Are you sure you want to cancel the national focus §H$FOCUS_NAME$§!?\""
+  },
+  {
+   "k": "17v8a6p",
+   "en": "One notable usage of strictly internal variables is in country names, as these offer a variety of internal variables fetching the non-ideology name of the country and the overlord's name in either regular, ADJ, or DEF form, such as ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "v0jv06",
+   "en": "Bindable localisation"
+  },
+  {
+   "k": "dblmz6",
+   "en": "⟦0⟧ was introduced in ⟦1⟧, allowing variables to be dynamically bound to localization keys through scripting.",
+   "frags": 2
+  },
+  {
+   "k": "f8uv5f",
+   "en": "Bindable Localization"
+  },
+  {
+   "k": "6tnpsy",
+   "en": "patch 1.15"
+  },
+  {
+   "k": "39by8a",
+   "en": "Previously, variables in localization keys (e.g., ⟦0⟧) were strictly internal and provided directly by the game, limiting modders' flexibility. For example:",
+   "frags": 1
+  },
+  {
+   "k": "1ldf94j",
+   "en": "$OVERLOADJ$"
+  },
+  {
+   "k": "1ks6m9u",
+   "en": "Before patch 1.15, ⟦0⟧ would be internal and unmodifiable. With the introduction of bindable localization, modders can now define their own bound variables, reducing the need for hundreds of similar localization keys that only differ in minor ways. Bindable localisation can only be used within very specific contexts, most of which are documented. However, there are 3 very useful places they can be used on, namely:",
+   "frags": 1
+  },
+  {
+   "k": "ah5c15",
+   "en": "$REASON$"
+  },
+  {
+   "k": "gug7ei",
+   "en": "custom_effect_tooltip"
+  },
+  {
+   "k": "bb2i4t",
+   "en": "custom_trigger_tooltip"
+  },
+  {
+   "k": "5070mc",
+   "en": "and to GUI files using the ⟦0⟧ construct.",
+   "frags": 1
+  },
+  {
+   "k": "1mgcdyf",
+   "en": "bound_tooltip"
+  },
+  {
+   "k": "1af9gn9",
+   "en": "Usage of Bindable Localization"
+  },
+  {
+   "k": "1r3lu1i",
+   "en": "Consider the following localization key:"
+  },
+  {
+   "k": "60tom9",
+   "en": "Bindable localization allows you to dynamically define the variables (⟦0⟧, ⟦1⟧, and ⟦2⟧) using script. For example:",
+   "frags": 3
+  },
+  {
+   "k": "h63wms",
+   "en": "$USRNAME$"
+  },
+  {
+   "k": "xhqibu",
+   "en": "$TIME$"
+  },
+  {
+   "k": "azfn8p",
+   "en": "This would result in the tooltip: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1fes8ih",
+   "en": "Hello John. I am George. Good Morning."
+  },
+  {
+   "k": "er6y6d",
+   "en": "If you want to use it within a ⟦0⟧, then you can use a similar concept. For example:",
+   "frags": 1
+  },
+  {
+   "k": "oy1xs8",
+   "en": "Hello Dave. I am Steve. Good Evening."
+  },
+  {
+   "k": "1ibbu97",
+   "en": "Bound localization also supports recursion, allowing you to nest localization keys dynamically. For example:"
+  },
+  {
+   "k": "yp4fp4",
+   "en": "Here, ⟦0⟧ refers to another localization key, ⟦1⟧, defined as:",
+   "frags": 2
+  },
+  {
+   "k": "uzpq3t",
+   "en": "COLOR_YELLOW"
+  },
+  {
+   "k": "ggxbmw",
+   "en": "The resulting tooltip would render ⟦0⟧ as \"§YMorning§!\" (with the text in yellow).",
+   "frags": 1
+  },
+  {
+   "k": "8hs7vi",
+   "en": "Instead of using inline strings, bindable localization can reference other localization keys directly, like ⟦0⟧. For example:",
+   "frags": 1
+  },
+  {
+   "k": "h0j5k9",
+   "en": "scripted localisation"
+  },
+  {
+   "k": "1t2qiqi",
+   "en": "In this case, ⟦0⟧ is a predefined localization key, and its value will replace ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "ev7ulu",
+   "en": "GER_mefo_bills"
+  },
+  {
+   "k": "1bp016m",
+   "en": "$IDEA_NAME$"
+  },
+  {
+   "k": "1tggp9p",
+   "en": "Context-Aware Tooltips"
+  },
+  {
+   "k": "18uqcia",
+   "en": "⟦0⟧ extend bound localization by allowing tooltips to be localized based on a context provided by the game. They are used strictly on GUI files, like ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1gv0ab1",
+   "en": "Context-aware tooltips"
+  },
+  {
+   "k": "18424ie",
+   "en": "They are used with the ⟦0⟧ construct. The context is provided directly by the game’s source code and can only be used in specific, documented places.",
+   "frags": 1
+  },
+  {
+   "k": "h6cph",
+   "en": "context_aware_tooltip"
+  },
+  {
+   "k": "rdnaxz",
+   "en": "Additionally, the context is recursive: if a parent object is localized with a context, all child objects will inherit the same context."
+  },
+  {
+   "k": "hvl2pb",
+   "en": "Localization Formatters"
+  },
+  {
+   "k": "1unyd06",
+   "en": "Localization formatters provide a syntax for retrieving localized text properties of static tokens. The general format is:"
+  },
+  {
+   "k": "1pyq5r9",
+   "en": "Localization formatters can also accept parameters that modify their output, as shown with ⟦0⟧ in the example below:",
+   "frags": 1
+  },
+  {
+   "k": "1w238cb",
+   "en": "INDENT"
+  },
+  {
+   "k": "1weg4w3",
+   "en": "This syntax is in the German focus tree, it is used to retrieve the localized name of a state modifier for the ⟦0⟧ building.",
+   "frags": 1
+  },
+  {
+   "k": "1uodt5t",
+   "en": "dam"
+  },
+  {
+   "k": "1s5rs3n",
+   "en": "Here:"
+  },
+  {
+   "k": "h4z6fe",
+   "en": "⟦0⟧ retrieves the localized text property for the token ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "12rltvv",
+   "en": "building_state_modifier|dam"
+  },
+  {
+   "k": "gu2wmi",
+   "en": "⟦0⟧ adjusts the indentation of the tooltip text.",
+   "frags": 1
+  },
+  {
+   "k": "wna1jy",
+   "en": "character_name"
+  },
+  {
+   "k": "10yx0yz",
+   "en": "The character_name formatter gets the name of the character. Example:"
+  },
+  {
+   "k": "1dmhaww",
+   "en": "country_culture"
+  },
+  {
+   "k": "1muibrf",
+   "en": "The country_culture formatter formats the string using the country's cultural override (TAG_token) if it exists, otherwise the generic version (token). Localization Scope Object The formatter requires the following Localization Scope Objets to be defined:"
+  },
+  {
+   "k": "14nysu0",
+   "en": "Country - The country that the idea is associated with. Example"
+  },
+  {
+   "k": "1pkedjw",
+   "en": "idea_name"
+  },
+  {
+   "k": "dzxmdu",
+   "en": "The idea_name formatter formats gets the name for the idea. Localization Scope Object The formatter requires the following Localization Scope Objects to be defined:"
+  },
+  {
+   "k": "sbhchh",
+   "en": "advisor_desc"
+  },
+  {
+   "k": "f29d8c",
+   "en": "The advisor_desc formatter gets the description for the advisor. Localization Scope Object The formatter requires the following Localization Scope Objets to be defined:"
+  },
+  {
+   "k": "mhcxmf",
+   "en": "tech_effect"
+  },
+  {
+   "k": "1yh9pr",
+   "en": "The tech_effect formatter gets the effect of finishing a technology. Localization Scope Object The formatter requires the following Localization Scope Objects to be defined:"
+  },
+  {
+   "k": "12nz403",
+   "en": "Country - The country that the tech is associated with. Example"
+  },
+  {
+   "k": "i4i2a2",
+   "en": "idea_desc"
+  },
+  {
+   "k": "1re2i3t",
+   "en": "The idea_desc formatter gets the description for the idea. Localization Scope Object The formatter requires the following Localization Scope Objects to be defined:"
+  },
+  {
+   "k": "14jb345",
+   "en": "building_state_modifier"
+  },
+  {
+   "k": "1o5hoqx",
+   "en": "The building_state_modifier gets the state modifiers for the provided building template and the provided scope."
+  },
+  {
+   "k": "19vmpxx",
+   "en": "The formatter takes special care of the following parameters:"
+  },
+  {
+   "k": "kgtv72",
+   "en": "INDENT: The indent to be added to all lines of the state modifier description (including header line). Example:"
+  },
+  {
+   "k": "v3gsbz",
+   "en": "Contextual Localization"
+  },
+  {
+   "k": "vkwht0",
+   "en": "Contextual localization is a way to access data from Localization Objects when localizing a string. The concept differs slightly from standard values ($VAL$) that can be injected into the localization string by allowing the localization string to select which properties to add to the resulting string and where. When a string is contextually localized with a localization object, then there's one root object (either a [Scope](loc_objects_documentation.md#scope) or [Localization Environment(loc_objects_documentation.md#localization_environment)]. In general this object can only be used for two purposes: Accessing other objects and getting the current date."
+  },
+  {
+   "k": "rms4k6",
+   "en": "Some of the localization objects are :"
+  },
+  {
+   "k": "182iz7s",
+   "en": "Ace"
+  },
+  {
+   "k": "12fqnbp",
+   "en": "Building"
+  },
+  {
+   "k": "1tlu2eo",
+   "en": "Character"
+  },
+  {
+   "k": "1diicx",
+   "en": "Country"
+  },
+  {
+   "k": "yooh08",
+   "en": "IndustrialOrg"
+  },
+  {
+   "k": "9b62sm",
+   "en": "Operation"
+  },
+  {
+   "k": "15zdv1h",
+   "en": "Province"
+  },
+  {
+   "k": "y3gyk0",
+   "en": "PurchaseContract"
+  },
+  {
+   "k": "tbetlh",
+   "en": "SpecialProject"
+  },
+  {
+   "k": "8awmmu",
+   "en": "State"
+  },
+  {
+   "k": "1am2g8e",
+   "en": "Terrain"
+  },
+  {
+   "k": "1kiyvpu",
+   "en": "UnitLeader"
+  },
+  {
+   "k": "eu4el8",
+   "en": "Using a localization object"
+  },
+  {
+   "k": "xqo4n6",
+   "en": "The localization objects are used with the following syntax: ⟦0⟧. ⟦1⟧ refers to a sequence of at least one object accessor and ⟦2⟧ is the property that is accessed by the last object in the sequence. For example, if the localization string is localized with an [Character](loc_objects_documentation.md#character) object the following queries would get the character's name and the name of the country that the character belongs to ⟦3⟧ and ⟦4⟧, respectively.",
+   "frags": 5
+  },
+  {
+   "k": "oinlkr",
+   "en": "[(Object.)+Property]"
+  },
+  {
+   "k": "109e3sa",
+   "en": "(Object.)+"
+  },
+  {
+   "k": "msefhk",
+   "en": "Property"
+  },
+  {
+   "k": "1jw331j",
+   "en": "[Character.GetName]"
+  },
+  {
+   "k": "1bilwxk",
+   "en": "[Character.Owner.GetName]"
+  },
+  {
+   "k": "a1qz1x",
+   "en": "Condition in contextual localization"
+  },
+  {
+   "k": "1br9o1y",
+   "en": "Conditions in contextual localization can be used to check if objects are null or not. The basic syntax for the condition is ⟦0⟧. Where:",
+   "frags": 1
+  },
+  {
+   "k": "1oph36z",
+   "en": "[(OBJECT ? TRUE_CASE : FALSE_CASE)]"
+  },
+  {
+   "k": "rruq2w",
+   "en": "⟦0⟧ is any object you can use to access a property from (for example, ⟦1⟧ and ⟦2⟧ are valid objects).",
+   "frags": 3
+  },
+  {
+   "k": "7jhqii",
+   "en": "OBJECT"
+  },
+  {
+   "k": "erqg9x",
+   "en": "Character.Owner"
+  },
+  {
+   "k": "8hbuzq",
+   "en": "⟦0⟧ and ⟦1⟧ are what is to be localized if ⟦2⟧ is not null and null, respectively. These can hold one of the following values:",
+   "frags": 3
+  },
+  {
+   "k": "1hjs2uq",
+   "en": "TRUE_CASE"
+  },
+  {
+   "k": "1wh6edt",
+   "en": "FALSE_CASE"
+  },
+  {
+   "k": "1va50kj",
+   "en": "⟦0⟧ - A localization key (⟦1⟧, note the prepending ⟦2⟧ that means that it's a localization key) that will be localized using the same context as the root contextual localization.",
+   "frags": 3
+  },
+  {
+   "k": "ngubic",
+   "en": "'LOC_KEY"
+  },
+  {
+   "k": "1judqwt",
+   "en": "LOC_KEY"
+  },
+  {
+   "k": "v22jja",
+   "en": "⟦0⟧ - Standard access of a property from an object (discards the object before the ⟦1⟧). ⟦2⟧ stands for a sequence of at least one object, with dots as separators.",
+   "frags": 3
+  },
+  {
+   "k": "1rsvjdr",
+   "en": "(OBJECT.)+Property"
+  },
+  {
+   "k": "95pcp6",
+   "en": "(OBJECT.)+"
+  }
+ ]
+}

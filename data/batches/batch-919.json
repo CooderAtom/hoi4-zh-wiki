@@ -1,0 +1,954 @@
+{
+ "batch": 919,
+ "pages": [
+  "Map modding"
+ ],
+ "chars": 14945,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1rex6hj",
+   "en": "\"Bitmap and province definition disagree on whether or not province 12345 is coastal. Bitmap adjacency result will be prefered. \": This error has these common causes: Exactly what the error states: the province is a coastal land province yet it's marked as non-coastal within /Hearts of Iron IV/map/definition.csv or vise-versa. Adjust the province definition accordingly. There's a missing province ID somewhere earlier in the file, which offsets the province definitions from their intended colours later on in the file. This is typically the case if there is a large quantity of such errors and the province definition matches up with the coastal status. A broken-looking terrain map mode can also be an indicator of this issue. This can be checked by comparing the difference between the province ID and the line number where it is defined: if the definition for the province 0 exists, the line number and the province ID must have a difference of 1."
+  },
+  {
+   "k": "a5i3ia",
+   "en": "Exactly what the error states: the province is a coastal land province yet it's marked as non-coastal within ⟦0⟧ or vise-versa. Adjust the province definition accordingly.",
+   "frags": 1
+  },
+  {
+   "k": "t92mqx",
+   "en": "There's a missing province ID somewhere earlier in the file, which offsets the province definitions from their intended colours later on in the file. This is typically the case if there is a large quantity of such errors and the province definition matches up with the coastal status. A broken-looking terrain map mode can also be an indicator of this issue. This can be checked by comparing the difference between the province ID and the line number where it is defined: if the definition for the province 0 exists, the line number and the province ID must have a difference of 1."
+  },
+  {
+   "k": "12lse8v",
+   "en": "\"Province X has no pixels in provinces.bmp\": There are two common causes for the error, depending on whether there are any pixels with that colour in the bitmap, ⟦0⟧. The colour within the province's definition has no pixels in the provinces.bmp. This may be a sign that the wrong colour has been used for the province or that the entry remains while the province has been erased. Ensure that there are no new provinces in the \"fixed\" definition generated by the game that may be intended to be the pixelless province; otherwise remove the province definition, with one another province definition to fill the gap since there can be no province ID gaps. There are several provinces with the same colour on the bitmap. If this is the case, the game will assign each pixel of the colour to only one of the provinces, leading the other with no pixels. If this is the case, change the colour of the second province if they're intended to be separate, otherwise remove one of the definitions while still making sure to have one another province definition to fill the gap. This may commonly, though not necessary, occur together with a TOO LARGE BOX error for the other province.",
+   "frags": 1
+  },
+  {
+   "k": "1xhezxt",
+   "en": "which can be checked using a colour select tool within an image editor"
+  },
+  {
+   "k": "53q5jy",
+   "en": "The colour within the province's definition has no pixels in the provinces.bmp. This may be a sign that the wrong colour has been used for the province or that the entry remains while the province has been erased. Ensure that there are no new provinces in the \"fixed\" definition generated by the game that may be intended to be the pixelless province; otherwise remove the province definition, with one another province definition to fill the gap since there can be no province ID gaps."
+  },
+  {
+   "k": "1s7arv8",
+   "en": "There are several provinces with the same colour on the bitmap. If this is the case, the game will assign each pixel of the colour to only one of the provinces, leading the other with no pixels. If this is the case, change the colour of the second province if they're intended to be separate, otherwise remove one of the definitions while still making sure to have one another province definition to fill the gap. This may commonly, though not necessary, occur together with a TOO LARGE BOX error for the other province."
+  },
+  {
+   "k": "r48eqo",
+   "en": "Continents"
+  },
+  {
+   "k": "109332o",
+   "en": "Continents are defined within the ⟦0⟧ file within the ⟦1⟧ table. The continents have several uses in-game:",
+   "frags": 2
+  },
+  {
+   "k": "1h60s21",
+   "en": "/Hearts of Iron IV/map/continent.txt"
+  },
+  {
+   "k": "jqp23f",
+   "en": "continents = { ... }"
+  },
+  {
+   "k": "1bmg69k",
+   "en": "Used for a ⟦0⟧ checking the continent.",
+   "frags": 1
+  },
+  {
+   "k": "hqvael",
+   "en": "state-scoped trigger"
+  },
+  {
+   "k": "7qi4bv",
+   "en": "Used for assigning ⟦0⟧ for a variety of AI strategies.",
+   "frags": 1
+  },
+  {
+   "k": "8fjmz1",
+   "en": "AI areas"
+  },
+  {
+   "k": "141icur",
+   "en": "Used for assigning a ⟦0⟧ to a country if there is not a country-specific one defined.",
+   "frags": 1
+  },
+  {
+   "k": "i8kt00",
+   "en": "set of randomly-generated portraits"
+  },
+  {
+   "k": "pxx619",
+   "en": "The continents block is a simple list of continents. The IDs are assigned in the order defined."
+  },
+  {
+   "k": "1a15a0p",
+   "en": "All land provinces must belong to a continent to avoid errors. The continents are assigned in ⟦0⟧, also possible to apply via the Database menu in nudger. Continents do not need to follow state borders. These continents exist in base game:",
+   "frags": 1
+  },
+  {
+   "k": "1i8ib9f",
+   "en": "Internal name"
+  },
+  {
+   "k": "1r2jfvc",
+   "en": "Localised name"
+  },
+  {
+   "k": "1trlrrb",
+   "en": "europe"
+  },
+  {
+   "k": "1pa4s13",
+   "en": "Europe"
+  },
+  {
+   "k": "1n0ajz8",
+   "en": "Includes Cyprus. The border between Europe and Asia runs in the Ural mountains, cutting states such as Kalmykia and Archangelsk in half."
+  },
+  {
+   "k": "jl1ov",
+   "en": "north_america"
+  },
+  {
+   "k": "4z0nw8",
+   "en": "North America"
+  },
+  {
+   "k": "1kub21a",
+   "en": "Erroneously includes 2 provinces in Albania's North Epirus."
+  },
+  {
+   "k": "10oggf5",
+   "en": "south_america"
+  },
+  {
+   "k": "12lzmji",
+   "en": "South America"
+  },
+  {
+   "k": "ncag29",
+   "en": "This also includes Central America (up to Guatemala/Belize, including these) and the Caribbean."
+  },
+  {
+   "k": "5uwds9",
+   "en": "australia"
+  },
+  {
+   "k": "s9z0ix",
+   "en": "Australia"
+  },
+  {
+   "k": "qk54ij",
+   "en": "This ⟦0⟧ includes the Australian mainland, New Zealand, as well as the islands and archipelagos of Papua, Tasmania, Bismarck, Solomon Islands, and French Polynesia. The rest of the Pacific islands are Asian.",
+   "frags": 1
+  },
+  {
+   "k": "17qey2f",
+   "en": "only"
+  },
+  {
+   "k": "76xeef",
+   "en": "africa"
+  },
+  {
+   "k": "wkyszr",
+   "en": "Africa"
+  },
+  {
+   "k": "lejc01",
+   "en": "The Suez canal is considered the border: the entire state of Sinai is in the Middle East."
+  },
+  {
+   "k": "2opjp3",
+   "en": "asia"
+  },
+  {
+   "k": "12920bb",
+   "en": "Asia"
+  },
+  {
+   "k": "as2hi8",
+   "en": "The border with the Middle East runs cutting the states of Herat and Baluchistan in half, while others are almost entirely contained in one or the other."
+  },
+  {
+   "k": "1x2wi0s",
+   "en": "middle_east"
+  },
+  {
+   "k": "1z50b9",
+   "en": "Middle East"
+  },
+  {
+   "k": "6vtufa",
+   "en": "The border with Europe in Caucasus Mountains cuts Abkhazia, Kabardino-Balkaria, North Ossetia, Azerbaijan, and Istanbul in half. The rest are entirely contained within one or the other."
+  },
+  {
+   "k": "y0lmya",
+   "en": "There are two primary types of terrain in the game: graphical and provincial. Both terrain types are defined within ⟦0⟧ files. Provincial terrain is assigned within ⟦1⟧ to each province for land provinces and within the ⟦2⟧ for sea provinces. This does not change the graphical appearance in any way (aside from the 'simple terrain' map mode), instead, this assigns modifiers to the province and details about land or naval combat. Graphical terrain is assigned within ⟦3⟧ to the map itself. This file is a 8-bit indexed image with the same dimensions as the provinces bitmap. This is purely the visual appearance of the map and doesn't change it in any actual way. However, the database section in the nudger has a setting to auto-generate the provincial terrain based off the graphical terrain.",
+   "frags": 4
+  },
+  {
+   "k": "1lovtvu",
+   "en": "/Hearts of Iron IV/common/terrain/*.txt"
+  },
+  {
+   "k": "aw9l30",
+   "en": "strategic regions"
+  },
+  {
+   "k": "k85z9c",
+   "en": "Provided are tables of base game terrain types. Since the game decides the terrain based off the ⟦0⟧, the colours in the graphical terrain can be changed to anything as long as the colourmap ID (specified in the ID column) is the same and the file will be treated no different, so the colours here are merely the ones that the base game uses. 'Terrain type' in the graphical terrain table refers to the nudger-generated provincial terrain type. Appearance in the graphical terrain table is the specified segment of the ⟦1⟧ set to full opacity: in practice, the atlas file has transparency so that some parts of the terrain are more visible than others.",
+   "frags": 2
+  },
+  {
+   "k": "fj7fzj",
+   "en": "colourmap IDs"
+  },
+  {
+   "k": "1ltgtoy",
+   "en": "atlas file"
+  },
+  {
+   "k": "ezj6nv",
+   "en": "Graphical terrain:"
+  },
+  {
+   "k": "czgs9p",
+   "en": "Colour"
+  },
+  {
+   "k": "dli9wf",
+   "en": "Appearance"
+  },
+  {
+   "k": "l9mfai",
+   "en": "Terrain type"
+  },
+  {
+   "k": "szprwc",
+   "en": "plains"
+  },
+  {
+   "k": "lypqw0",
+   "en": "forest"
+  },
+  {
+   "k": "1mofm9y",
+   "en": "Typically used for the dense forests."
+  },
+  {
+   "k": "1uj1hzv",
+   "en": "hills"
+  },
+  {
+   "k": "cej54s",
+   "en": "desert"
+  },
+  {
+   "k": "a69msd",
+   "en": "Typically used for the sparse forests."
+  },
+  {
+   "k": "1ql2aij",
+   "en": "Typically used for farmland."
+  },
+  {
+   "k": "kh4qle",
+   "en": "mountain"
+  },
+  {
+   "k": "1lckmbk",
+   "en": "marsh"
+  },
+  {
+   "k": "1904vq3",
+   "en": "urban"
+  },
+  {
+   "k": "17qtksx",
+   "en": "Automatically spawns ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "15z9hhc",
+   "en": "city models"
+  },
+  {
+   "k": "5we7uf",
+   "en": "lakes"
+  },
+  {
+   "k": "1c4580k",
+   "en": "Never used in-game, seems to refer to an invalid texture. Instead, the ⟦0⟧ is used for lakes.",
+   "frags": 1
+  },
+  {
+   "k": "1u0q3w",
+   "en": "ocean terrain"
+  },
+  {
+   "k": "1mxzqfl",
+   "en": "ocean"
+  },
+  {
+   "k": "od41tg",
+   "en": "Is permamently covered in snow, unlike ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "a6wabl",
+   "en": "the other graphical terrain using the same appearance"
+  },
+  {
+   "k": "k8bqhu",
+   "en": "Never used in base game."
+  },
+  {
+   "k": "1uumbz8",
+   "en": "jungle"
+  },
+  {
+   "k": "16xla91",
+   "en": "Provincial terrain:"
+  },
+  {
+   "k": "174uabd",
+   "en": "unknown"
+  },
+  {
+   "k": "1kmy72x",
+   "en": "Unknown"
+  },
+  {
+   "k": "uhwqe4",
+   "en": "land"
+  },
+  {
+   "k": "1qeddzz",
+   "en": "Default terrain for new provinces."
+  },
+  {
+   "k": "15eoolc",
+   "en": "Forest"
+  },
+  {
+   "k": "ak1lfe",
+   "en": "84 optimal combat width, -15% division attack."
+  },
+  {
+   "k": "15hfyez",
+   "en": "Hills"
+  },
+  {
+   "k": "hkionl",
+   "en": "80 optimal combat width, -25% division attack."
+  },
+  {
+   "k": "1iq2nya",
+   "en": "Mountain"
+  },
+  {
+   "k": "1izmv0x",
+   "en": "75 optimal combat width, -50% division attack."
+  },
+  {
+   "k": "ntjuzg",
+   "en": "Plains"
+  },
+  {
+   "k": "a27hna",
+   "en": "90 optimal combat width"
+  },
+  {
+   "k": "jyh4jf",
+   "en": "Urban"
+  },
+  {
+   "k": "grpbi0",
+   "en": "96 optimal combat width, -30% division attack."
+  },
+  {
+   "k": "1poe7gk",
+   "en": "Jungle"
+  },
+  {
+   "k": "a0akib",
+   "en": "84 optimal combat width, -30% division attack."
+  },
+  {
+   "k": "18kxsps",
+   "en": "Marsh"
+  },
+  {
+   "k": "s01b3r",
+   "en": "78 optimal combat width, -40% division attack."
+  },
+  {
+   "k": "78b0m4",
+   "en": "Desert"
+  },
+  {
+   "k": "xwbz8x",
+   "en": "Ocean"
+  },
+  {
+   "k": "1fdflak",
+   "en": "sea"
+  },
+  {
+   "k": "2qk08",
+   "en": "Default terrain for sea provinces."
+  },
+  {
+   "k": "1gklnfb",
+   "en": "Lakes"
+  },
+  {
+   "k": "12bk1b8",
+   "en": "Default terrain for lake provinces."
+  },
+  {
+   "k": "8x54kl",
+   "en": "water_fjords"
+  },
+  {
+   "k": "1k9ok7a",
+   "en": "Fjords and Archipelagos"
+  },
+  {
+   "k": "4fp4gv",
+   "en": "naval"
+  },
+  {
+   "k": "bopub4",
+   "en": "Makes battlecruisers, battleships, heavy cruisers, and carriers less viable (-20% attack, defence, and movement), makes the navy harder to detect (-20% visibility), and removes 15% from positioning."
+  },
+  {
+   "k": "1rux7m3",
+   "en": "water_shallow_sea"
+  },
+  {
+   "k": "dikyps",
+   "en": "Shallow Sea"
+  },
+  {
+   "k": "3rxyih",
+   "en": "Makes submarines easier to detect (+100% visibility) and removes 5% from positioning."
+  },
+  {
+   "k": "17pjzrq",
+   "en": "water_deep_ocean"
+  },
+  {
+   "k": "1ae5gfy",
+   "en": "Deep Oceans"
+  },
+  {
+   "k": "170gfts",
+   "en": "Makes destroyers have 20% less of attack, movement, and defence; light cruisers have 10% less of attack, movement, and defence; makes the submarines harder to detect (-15% visibility) but slower by 25%. The chance to hit a naval mine is halved."
+  },
+  {
+   "k": "55ajj1",
+   "en": "Provincial terrain"
+  },
+  {
+   "k": "1cyg0xt",
+   "en": "Provincial terrain types are defined within ⟦0⟧ files in the ⟦1⟧ block. Each terrain is a code block, and the name of the block gets taken as the terrain's name, such as this creating terrains my_terrain_1 and my_terrain_2.",
+   "frags": 2
+  },
+  {
+   "k": "vplpoe",
+   "en": "categories = { ... }"
+  },
+  {
+   "k": "yft8rg",
+   "en": "The following arguments go into terrain:"
+  },
+  {
+   "k": "1ccn9xk",
+   "en": "⟦0⟧ assigns a colour to the terrain in the 'Simplified terrain' map mode. This is a RGB value, where each one goes on the scale from 0 to 255.",
+   "frags": 1
+  },
+  {
+   "k": "1qnnqqo",
+   "en": "color = { 100 120 140 }"
+  },
+  {
+   "k": "1xpisk2",
+   "en": "⟦0⟧ assigns the ambient sound played by the terrain. This appears to be unused.",
+   "frags": 1
+  },
+  {
+   "k": "1frmt3z",
+   "en": "sound_type = forest"
+  },
+  {
+   "k": "pz691y",
+   "en": "⟦0⟧ assigns the move speed for this terrain in particular. A higher value means that divisions or ships will move slower.",
+   "frags": 1
+  },
+  {
+   "k": "1inrn56",
+   "en": "movement_cost = 1.0"
+  },
+  {
+   "k": "o63953",
+   "en": "⟦0⟧ assigns unit-scoped modifiers that would apply on every land division or ship within this province within battle, such as ⟦1⟧ or ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "qjtr8f",
+   "en": "units = { ... }"
+  },
+  {
+   "k": "1pj9akj",
+   "en": "attack = 0.1"
+  },
+  {
+   "k": "o6f4hw",
+   "en": "defence = -0.1"
+  },
+  {
+   "k": "4qpqff",
+   "en": "⟦0⟧ serves to make these apply to specific sub-units, with ⟦1⟧ within being for combat and the rest for outside. For example,",
+   "frags": 2
+  },
+  {
+   "k": "p6123v",
+   "en": "my_subunit = { ... }"
+  },
+  {
+   "k": "1cg3pou",
+   "en": "Additionally, the terrain serves as a modifier block, allowing any provincial ⟦0⟧ to be used within. These include many combat-related and state-scoped modifiers.",
+   "frags": 1
+  },
+  {
+   "k": "1658wgg",
+   "en": "modifier"
+  },
+  {
+   "k": "1c5c0b8",
+   "en": "⟦0⟧ if set, will mark this as water terrain, making it only possible to use for seas and lakes. Additionally, ⟦1⟧ would be needed to mark it as a naval terrain which can be used in strategic regions.",
+   "frags": 2
+  },
+  {
+   "k": "12376wh",
+   "en": "is_water = yes"
+  },
+  {
+   "k": "190y37d",
+   "en": "naval_terrain = yes"
+  },
+  {
+   "k": "1ge64tb",
+   "en": "The following arguments are ⟦0⟧ terrain:",
+   "frags": 1
+  },
+  {
+   "k": "a0m9mt",
+   "en": "only for land"
+  },
+  {
+   "k": "1ume088",
+   "en": "⟦0⟧ assigns the base combat width. Up to this many units would be able to participate in the battle without penalties.",
+   "frags": 1
+  },
+  {
+   "k": "1xg9liw",
+   "en": "combat_width = 78"
+  },
+  {
+   "k": "j8c2is",
+   "en": "⟦0⟧ assigns the combat width ⟦1⟧ of the combat_width. After combat_width is exceeded, combat_support_width more worth of troops can still engage in combat, but with penalties.",
+   "frags": 2
+  },
+  {
+   "k": "fqc9op",
+   "en": "combat_support_width = 24"
+  },
+  {
+   "k": "1dys1m3",
+   "en": "on top"
+  },
+  {
+   "k": "107h5vx",
+   "en": "⟦0⟧ assigns a penalty to supply flow through provinces with this terrain.",
+   "frags": 1
+  },
+  {
+   "k": "1d8omwi",
+   "en": "supply_flow_penalty_factor = 0.2"
+  },
+  {
+   "k": "ufqa1o",
+   "en": "⟦0⟧ assigns a terrain value for this province. This is primarily used for the ⟦1⟧ trigger/variable and to assign costs to the peace conference.",
+   "frags": 2
+  },
+  {
+   "k": "4jp9bj",
+   "en": "match_value = 8"
+  },
+  {
+   "k": "1yune7p",
+   "en": "state_and_terrain_strategic_value"
+  },
+  {
+   "k": "1t2gtgx",
+   "en": "⟦0⟧ assigns a strategic importance value for AI on this terrain. A higher value means that AI would recognise this as a defensible province.",
+   "frags": 1
+  },
+  {
+   "k": "l5adsj",
+   "en": "ai_terrain_importance_factor = 8.0"
+  },
+  {
+   "k": "dbhsh",
+   "en": "⟦0⟧ modifies the maximum level of province level buildings.",
+   "frags": 1
+  },
+  {
+   "k": "lq4r11",
+   "en": "buildings_max_level = { bunker = 4 }"
+  },
+  {
+   "k": "qnaz5t",
+   "en": "Some common ⟦0⟧ to use include the following:",
+   "frags": 1
+  },
+  {
+   "k": "i2bme1",
+   "en": "modifiers"
+  },
+  {
+   "k": "1btz2vu",
+   "en": "⟦0⟧ sets the base attrition for the land province.",
+   "frags": 1
+  },
+  {
+   "k": "mdfuwd",
+   "en": "attrition = 0.1"
+  },
+  {
+   "k": "qjxlda",
+   "en": "⟦0⟧ modifies the bonus that would be given to the attacker from air superiority.",
+   "frags": 1
+  },
+  {
+   "k": "hz02br",
+   "en": "enemy_army_bonus_air_superiority_factor = -0.1"
+  },
+  {
+   "k": "uov2os",
+   "en": "⟦0⟧ makes combat on this province result in a possibility of the army leader becoming sick.",
+   "frags": 1
+  },
+  {
+   "k": "dx87ej",
+   "en": "sickness_chance = 1.0"
+  },
+  {
+   "k": "1friby",
+   "en": "⟦0⟧ modifies the navy positioning within this sea province.",
+   "frags": 1
+  },
+  {
+   "k": "102d6w0",
+   "en": "positioning = 0.1"
+  },
+  {
+   "k": "u8zs3k",
+   "en": "⟦0⟧ modifies the visibility of navies within this sea province.",
+   "frags": 1
+  },
+  {
+   "k": "7kgtw6",
+   "en": "navy_visibility = -0.2"
+  },
+  {
+   "k": "1b3c0lc",
+   "en": "⟦0⟧ can be added with using the terrain's ID as the localisation key:",
+   "frags": 1
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "1m6mw4j",
+   "en": "For land provinces, there are 2 sprites: regular (with GFX_terrain_ prepended before the terrain's name) and winter (Additionally with _winter appended in the end). The winter sprite appears when the province is covered in snow, while the regular one appears regularly. These would be the following for ⟦0⟧:",
+   "frags": 1
+  },
+  {
+   "k": "74oq59",
+   "en": "my_terrain_1"
+  },
+  {
+   "k": "1unbzty",
+   "en": "For naval terrain, there are 10 sprites: regular, rain, storm, snow, and snowstorm for both day and night."
+  },
+  {
+   "k": "c4x38l",
+   "en": "Examples of sprite definitions for a naval terrain named ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "s3hhl6",
+   "en": "my_naval_terrain_1"
+  },
+  {
+   "k": "1s5dxxr",
+   "en": "spriteType = { name = GFX_terrain_my_naval_terrain_1_day textureFile = gfx/interface/terrains/terrain_my_naval_terrain_1_day.dds } spriteType = { name = GFX_terrain_my_naval_terrain_1_day_rain textureFile = gfx/interface/terrains/terrain_my_naval_terrain_1_day_rain.dds } spriteType = { name = GFX_terrain_my_naval_terrain_1_day_storm textureFile = gfx/interface/terrains/terrain_my_naval_terrain_1_day_storm.dds } spriteType = { name = GFX_terrain_my_naval_terrain_1_day_snow textureFile = gfx/interface/terrains/terrain_my_naval_terrain_1_day_snow.dds } spriteType = { name = GFX_terrain_my_naval_terrain_1_day_snow_storm textureFile = gfx/interface/terrains/terrain_my_naval_terrain_1_day_snow_storm.dds } spriteType = { name = GFX_terrain_my_naval_terrain_1_night textureFile = gfx/interface/terrains/terrain_my_naval_terrain_1_night.dds } spriteType = { name = GFX_terrain_my_naval_terrain_1_night_rain textureFile = gfx/interface/terrains/terrain_my_naval_terrain_1_night_rain.dds } spriteType = { name = GFX_terrain_my_naval_terrain_1_night_storm textureFile = gfx/interface/terrains/terrain_my_naval_terrain_1_night_storm.dds } spriteType = { name = GFX_terrain_my_naval_terrain_1_night_snow textureFile = gfx/interface/terrains/terrain_my_naval_terrain_1_night_snow.dds } spriteType = { name = GFX_terrain_my_naval_terrain_1_night_snow_storm textureFile = gfx/interface/terrains/terrain_my_naval_terrain_1_night_snow_storm.dds }"
+  },
+  {
+   "k": "1hpmfyb",
+   "en": "Graphical terrain"
+  },
+  {
+   "k": "lxm74x",
+   "en": "Graphical terrain is defined within the ⟦0⟧ files within the ⟦1⟧ block. Each graphical terrain type is a separate block within that overarching block, with the name of the block being irrelevant, with overlaps possible. Example definitions include:",
+   "frags": 2
+  },
+  {
+   "k": "1s1me7t",
+   "en": "terrain = { ... }"
+  },
+  {
+   "k": "h2rvu0",
+   "en": "In here, ⟦0⟧ tells the ⟦1⟧ type that the nudger would assign to the graphical terrain of this type when auto-generating province terrains, ⟦2⟧ is a list of ⟦3⟧ that get used for the graphical texture, and ⟦4⟧ assigns the atlas definition, beginning with 0. Optional arguments are ⟦5⟧, which automatically spawns ⟦6⟧, and ⟦7⟧, which makes the specified regions be covered in snow permamently.",
+   "frags": 8
+  },
+  {
+   "k": "ilnxj2",
+   "en": "type = urban"
+  },
+  {
+   "k": "27w0ql",
+   "en": "provincial terrain"
+  },
+  {
+   "k": "gvsupf",
+   "en": "color = { ... }"
+  },
+  {
+   "k": "r28wg8",
+   "en": "colourmap indices"
+  },
+  {
+   "k": "u97rag",
+   "en": "texture = 1"
+  },
+  {
+   "k": "213ys6",
+   "en": "spawn_city = yes"
+  },
+  {
+   "k": "1nfj5q3",
+   "en": "perm_snow = yes"
+  },
+  {
+   "k": "wpb5kj",
+   "en": "The atlas files are ⟦0⟧ and ⟦1⟧. These must be squares. By default, each is a map of tiles in a 4x4⟦2⟧, where each tile is 512x512 pixels large.⟦3⟧ The tiles are arranged in the left-to-right then up-to-down order starting from 0, as in the attached table.",
+   "frags": 4
+  },
+  {
+   "k": "16sckx1",
+   "en": "/Hearts of Iron IV/map/terrain/atlas0.dds"
+  },
+  {
+   "k": "hsklnb",
+   "en": "/Hearts of Iron IV/map/terrain/atlas_normal0.dds"
+  }
+ ]
+}

@@ -1,0 +1,859 @@
+{
+ "batch": 907,
+ "pages": [
+  "AI modding"
+ ],
+ "chars": 14891,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "uqus73",
+   "en": "equipment_production_factor"
+  },
+  {
+   "k": "a4hoy4",
+   "en": "⟦0⟧ The weight of the strategy. id = <equipment archetype type> The target of the strategy.",
+   "frags": 1
+  },
+  {
+   "k": "1rhd7fk",
+   "en": "id = <equipment archetype type>"
+  },
+  {
+   "k": "g6xzhv",
+   "en": "ai_strategy = { type = equipment_production_factor id = armor value = 30 }"
+  },
+  {
+   "k": "2rsy74",
+   "en": "Pursues AI to produce equipment types of the specified type."
+  },
+  {
+   "k": "1yqt6u2",
+   "en": "Types are defined for each equipment archetype in ⟦0⟧ files within ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1eqkj7z",
+   "en": "/Hearts of Iron IV/common/units/equipment/*.txt"
+  },
+  {
+   "k": "1nj6rrh",
+   "en": "types = { ... }"
+  },
+  {
+   "k": "anadpt",
+   "en": "equipment_production_min_factories"
+  },
+  {
+   "k": "1p85fbn",
+   "en": "⟦0⟧ The weight of the strategy. id = <equipment type> The target of the strategy.",
+   "frags": 1
+  },
+  {
+   "k": "1c7rvob",
+   "en": "id = <equipment type>"
+  },
+  {
+   "k": "1ggnvi2",
+   "en": "ai_strategy = { type = equipment_production_min_factories id = artillery value = 3 }"
+  },
+  {
+   "k": "6evpai",
+   "en": "Pursues AI to keep a minimum amount of factories on the production lines for the equipment of the specified ⟦0⟧. If multiple strategies are used at once, they stack.",
+   "frags": 1
+  },
+  {
+   "k": "min7t9",
+   "en": "type"
+  },
+  {
+   "k": "jn2l5e",
+   "en": "A value of 1 corresponds to 1 military factory. Types are defined for each equipment archetype in ⟦0⟧ files within ⟦1⟧. Note: Multiple variants of the same 'type' of equipment may exist. This specific strategy will for example make AI have 3 lines of Artillery AND 3 lines of Rocket Artillery AND 3 lines of Motorized Rocket Artillery.",
+   "frags": 2
+  },
+  {
+   "k": "1ejmkjh",
+   "en": "equipment_production_min_factories_archetype"
+  },
+  {
+   "k": "onnqw2",
+   "en": "⟦0⟧ The weight of the strategy. id = <equipment archetype> The target of the strategy.",
+   "frags": 1
+  },
+  {
+   "k": "1v50464",
+   "en": "id = <equipment archetype>"
+  },
+  {
+   "k": "tb7vc4",
+   "en": "ai_strategy = { type = equipment_production_min_factories_archetype id = artillery_equipment value = 4 }"
+  },
+  {
+   "k": "nz0rm4",
+   "en": "archetype"
+  },
+  {
+   "k": "ui4lsw",
+   "en": "A value of 1 corresponds to 1 military factory. Archetypes are defined in each file in ⟦0⟧ with ⟦1⟧ argument.",
+   "frags": 2
+  },
+  {
+   "k": "hkae7t",
+   "en": "is_archetype = yes"
+  },
+  {
+   "k": "15ay6pp",
+   "en": "equipment_variant_production_factor"
+  },
+  {
+   "k": "1p7cmzj",
+   "en": "ai_strategy = { type = equipment_variant_production_factor id = light_tank_chassis value = -100 }"
+  },
+  {
+   "k": "1khsh7f",
+   "en": "Pursues AI to produce more of the specified equipment archetype."
+  },
+  {
+   "k": "15h3ic9",
+   "en": "Equipment archetypes are defined in ⟦0⟧ files.",
+   "frags": 1
+  },
+  {
+   "k": "18582tb",
+   "en": "equipment_stockpile_surplus_ratio"
+  },
+  {
+   "k": "1ixfo8g",
+   "en": "ai_strategy = { type = equipment_stockpile_surplus_ratio value = 30 }"
+  },
+  {
+   "k": "v2dj68",
+   "en": "Changes the ratio of equipment that AI would hold in stockpile rather than immediately using."
+  },
+  {
+   "k": "4fx0it",
+   "en": "build_army"
+  },
+  {
+   "k": "2r7k3t",
+   "en": "⟦0⟧ The weight of the strategy. id = <unit role> The target of the strategy.",
+   "frags": 1
+  },
+  {
+   "k": "oxqg7v",
+   "en": "id = <unit role>"
+  },
+  {
+   "k": "57mf5q",
+   "en": "ai_strategy = { type = build_army id = infantry value = 200 }"
+  },
+  {
+   "k": "1tcnmh4",
+   "en": "Modifies the desired division amount for AI."
+  },
+  {
+   "k": "ju2wag",
+   "en": "The used target is roles within ⟦0⟧. This example would make the AI want exactly 200 divisions with 'infantry' role.",
+   "frags": 1
+  },
+  {
+   "k": "g2accg",
+   "en": "AI templates"
+  },
+  {
+   "k": "6olgyd",
+   "en": "force_build_armies"
+  },
+  {
+   "k": "1tkv7vc",
+   "en": "ai_strategy = { type = force_build_armies value = 30 }"
+  },
+  {
+   "k": "y0mazw",
+   "en": "Forces AI to build divisions above the desired amount."
+  },
+  {
+   "k": "1imzwaa",
+   "en": "production_upgrade_desire_offset"
+  },
+  {
+   "k": "1xg7gue",
+   "en": "ai_strategy = { type = production_upgrade_desire_offset id = artillery_equipment_2 value = -50 }"
+  },
+  {
+   "k": "1ozhpq1",
+   "en": "Pursues AI to upgrade production lines to the specified equipment type."
+  },
+  {
+   "k": "1lxr4sq",
+   "en": "Equipment types are defined in ⟦0⟧ files.",
+   "frags": 1
+  },
+  {
+   "k": "1dia73l",
+   "en": "role_ratio"
+  },
+  {
+   "k": "m7bbg7",
+   "en": "⟦0⟧ The weight of the strategy. id = <role> The target of the strategy.",
+   "frags": 1
+  },
+  {
+   "k": "1hrzglv",
+   "en": "id = <role>"
+  },
+  {
+   "k": "1lb5jc",
+   "en": "ai_strategy = { type = role_ratio id = paratroopers value = 30 }"
+  },
+  {
+   "k": "1yo9so1",
+   "en": "Modifies the amount of templates that the AI makes for the specified role."
+  },
+  {
+   "k": "zkzb3o",
+   "en": "Roles are defined within ⟦0⟧ for unit templates and ⟦1⟧ for ship and tank variants.",
+   "frags": 2
+  },
+  {
+   "k": "nak0in",
+   "en": "AI equipment"
+  },
+  {
+   "k": "1k05i7f",
+   "en": "unit_ratio"
+  },
+  {
+   "k": "1viwah5",
+   "en": "⟦0⟧ The weight of the strategy. id = <unit> The target of the strategy.",
+   "frags": 1
+  },
+  {
+   "k": "tsq8al",
+   "en": "id = <unit>"
+  },
+  {
+   "k": "1jzqowr",
+   "en": "ai_strategy = { type = unit_ratio id = cas value = 30 }"
+  },
+  {
+   "k": "1fe3stq",
+   "en": "Modifies the amount of templates that the AI makes with the specified unit."
+  },
+  {
+   "k": "17ktjk6",
+   "en": "Units are defined in ⟦0⟧ files. This includes the airforce and navy alongside land army.",
+   "frags": 1
+  },
+  {
+   "k": "1ohg4hg",
+   "en": "/Hearts of Iron IV/common/units/*.txt"
+  },
+  {
+   "k": "osao6v",
+   "en": "min_wanted_supply_trains"
+  },
+  {
+   "k": "1e3u6i0",
+   "en": "ai_strategy = { type = min_wanted_supply_trains value = 300 }"
+  },
+  {
+   "k": "iipata",
+   "en": "Overrides the minimum amount of supply trains wanted by AI."
+  },
+  {
+   "k": "1gyxj84",
+   "en": "min_wanted_supply_trucks"
+  },
+  {
+   "k": "1mm4gv3",
+   "en": "ai_strategy = { type = min_wanted_supply_trucks value = 30 }"
+  },
+  {
+   "k": "i91dx9",
+   "en": "Overrides the minimum amount of supply trucks wanted by AI."
+  },
+  {
+   "k": "imopr2",
+   "en": "scorched_earth_prio"
+  },
+  {
+   "k": "j8yvs4",
+   "en": "⟦0⟧ The weight of the strategy. id = <country> The owner of the states where to use scorched earth. states = { ... } List of states where to use scorched earth.",
+   "frags": 1
+  },
+  {
+   "k": "13209rc",
+   "en": "ai_strategy = { type = scorched_earth_prio value = 100 id = ENG states = { 123 124 125 126 } }"
+  },
+  {
+   "k": "gztpd5",
+   "en": "Pursues AI to use scorched earth within the specified states."
+  },
+  {
+   "k": "zzjzgb",
+   "en": "land_xp_spend_priority"
+  },
+  {
+   "k": "1t4f7ef",
+   "en": "⟦0⟧ The weight of the strategy. id = <type> The target of the strategy.",
+   "frags": 1
+  },
+  {
+   "k": "1s3e4n",
+   "en": "id = <type>"
+  },
+  {
+   "k": "17anh02",
+   "en": "ai_strategy = { type = land_xp_spend_priority id = division_template value = 30 }"
+  },
+  {
+   "k": "ozzpmn",
+   "en": "Modifies the priority for AI to spend land experience."
+  },
+  {
+   "k": "uydhcc",
+   "en": "Base game usages include ⟦0⟧ and ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "9csbzd",
+   "en": "division_template"
+  },
+  {
+   "k": "wc2trc",
+   "en": "upgrade_xp_cutoff"
+  },
+  {
+   "k": "10souub",
+   "en": "pp_spend_amount"
+  },
+  {
+   "k": "vrjxcd",
+   "en": "ai_strategy = { type = pp_spend_amount id = idea value = 100 }"
+  },
+  {
+   "k": "kder2o",
+   "en": "Modifies the political power that AI should preserve for the specified purpose."
+  },
+  {
+   "k": "1xmkty2",
+   "en": "idea"
+  },
+  {
+   "k": "uwpqsj",
+   "en": "decision"
+  },
+  {
+   "k": "ddo15b",
+   "en": "pp_spend_priority"
+  },
+  {
+   "k": "1ap335i",
+   "en": "ai_strategy = { type = pp_spend_priority id = relation value = 100 }"
+  },
+  {
+   "k": "192zdm3",
+   "en": "Modifies where AI should prioritise spending political power."
+  },
+  {
+   "k": "sdgdu2",
+   "en": "Base game usages include the following: admiral guarantee relation decision"
+  },
+  {
+   "k": "ah3qbx",
+   "en": "admiral"
+  },
+  {
+   "k": "12y527d",
+   "en": "guarantee"
+  },
+  {
+   "k": "5fsom9",
+   "en": "relation"
+  },
+  {
+   "k": "1j7k5kh",
+   "en": "research_weight_factor"
+  },
+  {
+   "k": "x48jum",
+   "en": "ai_strategy = { type = research_weight_factor id = radio_detection value = 2000 }"
+  },
+  {
+   "k": "133lv5h",
+   "en": "Modifies the AI weight (score) of a specific technology."
+  },
+  {
+   "k": "1rbqya0",
+   "en": "value = 50 means 50% increase, -30 means 30% decrease, etc."
+  },
+  {
+   "k": "16u5qw",
+   "en": "AI areas are defined within ⟦0⟧ files. These are ⟦1⟧ used in a variety of previously-listed AI strategies, such as ⟦2⟧. A province may be in several AI areas and it may be in none. Hovering over a province with the debug mode turned on will provide information in which AI areas the province is, if any.",
+   "frags": 3
+  },
+  {
+   "k": "djly9w",
+   "en": "/Hearts of Iron IV/common/ai_areas/*.txt"
+  },
+  {
+   "k": "17qey2f",
+   "en": "only"
+  },
+  {
+   "k": "nkleu",
+   "en": "Each AI area is a separate block within the file, with the name of the block being the name of the area. Within these blocks, 2 things can be added: ⟦0⟧ is a list of continents that make up the AI area. Continents are defined within ⟦1⟧ and assigned to provinces within ⟦2⟧ in ⟦3⟧. The full name of the continent should be used within the AI area's definition, rather than the ID used in the province definition. ⟦4⟧ is a list of strategic regions that make up the AI area, by their ID number.",
+   "frags": 5
+  },
+  {
+   "k": "jqp23f",
+   "en": "continents = { ... }"
+  },
+  {
+   "k": "1h60s21",
+   "en": "/Hearts of Iron IV/map/continent.txt"
+  },
+  {
+   "k": "u595pl",
+   "en": "their definitions"
+  },
+  {
+   "k": "1u3x8ji",
+   "en": "/Hearts of Iron IV/map/definition.csv"
+  },
+  {
+   "k": "11h1fh0",
+   "en": "strategic_regions = { ... }"
+  },
+  {
+   "k": "hcny2h",
+   "en": "If there are multiple defined, the province has to be in ⟦0⟧ of them.",
+   "frags": 1
+  },
+  {
+   "k": "c951l9",
+   "en": "any"
+  },
+  {
+   "k": "tlve0h",
+   "en": "An example of an AI area is the following:"
+  },
+  {
+   "k": "475d63",
+   "en": "AI focuses"
+  },
+  {
+   "k": "78id5q",
+   "en": "Main article: AI focuses"
+  },
+  {
+   "k": "1y32i2u",
+   "en": "AI focuses, defined within ⟦0⟧ files, are used to tell the game which technology categories and focuses the AI should pick depending on its currently-pursued focuses.",
+   "frags": 1
+  },
+  {
+   "k": "1f5pca",
+   "en": "/Hearts of Iron IV/common/ai_focuses/*.txt"
+  },
+  {
+   "k": "1htb8lx",
+   "en": "AI peace"
+  },
+  {
+   "k": "1609lud",
+   "en": "AI peace since 1.12"
+  },
+  {
+   "k": "5se1na",
+   "en": "The peace conference behaviour for AI is defined within ⟦0⟧ files. When defining the peace conference AI that would be used by the country, the AI will take into account all blocks for which the enable condition is true. When evaluating the peace conference, ROOT (the default scope) is used to represent the currently-evaluated winner, FROM is the country which will undergo the selected peace action, this can be a previously non-existent country that will now be liberated or puppeted, or even a different winner country when liberating, finally FROM.FROM.FROM can be used to set conditions on the specific state that the peace action is taken on. The enable = { ... } trigger block is used to determine whether the AI should be enabled, and finally an ai_desire = ... block determines the priority of the defined strategy: a value of -1000 would make AI never pursue the selected peace action if the conditions are met, while a value of 1000 would make the action their top priority. The following peace options are used in the game: liberate - The country FROM gets liberated by ROOT. puppet - The country FROM gets puppeted by ROOT. take_states - We give state FROM.FROM.FROM, previously owned by FROM.FROM, to FROM. FROM here is either the country itself (ROOT) or an ally with either cores or claims. force_government - The country FROM gets its ideology forcefully changed by ROOT. take_navy - No AI modding supported, cost modifiers can still be applied for players in games with By Blood Alone enabled. When evaluating peace conferences, the controller of a given state is the same one that occupied it before the start of the conference while the owner is the original owner. Example: peace_ai_desires = { dont_puppet_warlord_countries = { peace_action_type = { puppet liberate force_government } #all but take states enable = { FROM = { OR = { tag = SIK tag = PRC tag = GXC tag = YUN tag = SHX tag = XSM tag = MAN tag = MEN } } } ai_desire = -1000 } }",
+   "frags": 1
+  },
+  {
+   "k": "7gb4oe",
+   "en": "/Hearts of Iron IV/common/peace_conference/ai_peace/*.txt"
+  },
+  {
+   "k": "8eqlqd",
+   "en": "ROOT"
+  },
+  {
+   "k": "14zs6t1",
+   "en": "FROM"
+  },
+  {
+   "k": "fzvah1",
+   "en": "FROM.FROM.FROM"
+  },
+  {
+   "k": "66d48v",
+   "en": "ai_desire = ..."
+  },
+  {
+   "k": "18r78p6",
+   "en": "⟦0⟧ - The country FROM gets liberated by ROOT.",
+   "frags": 1
+  },
+  {
+   "k": "1j4ffsh",
+   "en": "liberate"
+  },
+  {
+   "k": "1m3nh75",
+   "en": "⟦0⟧ - The country FROM gets puppeted by ROOT.",
+   "frags": 1
+  },
+  {
+   "k": "1rva567",
+   "en": "puppet"
+  },
+  {
+   "k": "191rcwr",
+   "en": "⟦0⟧ - We give state FROM.FROM.FROM, previously owned by FROM.FROM, to FROM. FROM here is either the country itself (ROOT) or an ally with either cores or claims.",
+   "frags": 1
+  },
+  {
+   "k": "8bmlrh",
+   "en": "take_states"
+  },
+  {
+   "k": "1hsvckj",
+   "en": "⟦0⟧ - The country FROM gets its ideology forcefully changed by ROOT.",
+   "frags": 1
+  },
+  {
+   "k": "13prom2",
+   "en": "force_government"
+  },
+  {
+   "k": "l2nfl5",
+   "en": "⟦0⟧ - No AI modding supported, cost modifiers can still be applied for players in games with ⟦1⟧ enabled.",
+   "frags": 2
+  },
+  {
+   "k": "8j72pz",
+   "en": "take_navy"
+  },
+  {
+   "k": "xw4s3v",
+   "en": "By Blood Alone"
+  },
+  {
+   "k": "18el8on",
+   "en": "Pre-1.12 AI peace"
+  },
+  {
+   "k": "p2hhtx",
+   "en": "The peace conference behaviour for AI is defined within ⟦0⟧ files. When defining the peace conference AI that would be used by the country, the game picks the first-defined one that meets the prerequisites. In this case, files are loaded sorted by their filename using ASCII character IDs. When evaluating the peace conference, ROOT (the default scope) is used to represent the currently-evaluated winner and FROM is used to represent the currently-evaluated loser. Additionally, the following temporary variables exist within: taken_states@TAG is an array of states that are annexed by the country TAG as a part of the peace conference. taken_by@123 is the country that took the specified state, in this case 123. current_states@TAG is an array of states that aren't decided upon yet in the peace conference and are under the control of TAG that lost the war. subject_states@TAG is an array of states that are, within the peace conference, set to be transferred to countries that are subjected by TAG. subject_countries@TAG is an array of countries that are, within the peace conference, set to be subjected by TAG. subjected_by@123 is the overlord of the country that is set to have the specified state in the peace conference, in this case 123. subjected_by@TAG is an array of countries that have TAG as their overlord. liberate_states@TAG is an array of states that are going to countries that have been liberated by TAG. liberate_countries@TAG is an array of countries that have been liberated by TAG. The enable = { ... } trigger block is used to determine whether the AI should be enabled. If true and no other previously-loaded peace conference AI is true, this AI will be chosen. There are the following peace options that are used in the game: annex - The country FROM gets entirely annexed by ROOT. This only evaluates the countries. liberate - The country FROM gets liberated by ROOT. puppet - The country FROM gets puppeted by ROOT. puppet_all - The country FROM gets puppeted by ROOT and is able to retain all of its states. puppet_state - The state ROOT gets transferred to FROM.FROM, which became a subject of FROM within the peace conference. take_states - The state FROM gets annexed by ROOT. force_government - The country FROM gets its ideology forcefully changed by ROOT. When evaluating peace conferences, the controller of a given state is the same one that occupied it before the start of the conference while the owner is the original owner. Each peace conference option is a MTTH block within the file's definition. Example: my_peace_conference = { enable = { has_government = my_ideology_group } annex = { base = 500 modifier = { factor = 0 any_allied_country = { any_state = { is_owned_by = FROM is_core_of = PREV NOT = { is_core_of = ROOT is_claimed_by = ROOT } } } } } puppet = { base = 100 modifier = { factor = 0 FROM = { tag = QAT } } } puppet_all = { base = 0 } puppet_state = { base = 100 modifier = { factor = 0 FROM.FROM = { tag = QAT } } modifier = { factor = 0 any_allied_country = { ROOT = { is_core_of = PREV NOT = { is_core_of = FROM.FROM is_claimed_by = FROM.FROM } } } } } take_states = { base = 100 modifier = { factor = 0 any_allied_country = { FROM = { is_core_of = PREV NOT = { is_core_of = ROOT is_claimed_by = ROOT } } } } } }",
+   "frags": 1
+  },
+  {
+   "k": "124dpq0",
+   "en": "/Hearts of Iron IV/common/ai_peace/*.txt"
+  },
+  {
+   "k": "b2z37x",
+   "en": "temporary variables"
+  },
+  {
+   "k": "1rpq4bk",
+   "en": "taken_states@TAG is an array of states that are annexed by the country TAG as a part of the peace conference."
+  },
+  {
+   "k": "uw8iyw",
+   "en": "taken_by@123 is the country that took the specified state, in this case 123."
+  },
+  {
+   "k": "8tqz8q",
+   "en": "current_states@TAG is an array of states that aren't decided upon yet in the peace conference and are under the control of TAG that lost the war."
+  },
+  {
+   "k": "aebdbm",
+   "en": "subject_states@TAG is an array of states that are, within the peace conference, set to be transferred to countries that are subjected by TAG."
+  },
+  {
+   "k": "1i9pft0",
+   "en": "subject_countries@TAG is an array of countries that are, within the peace conference, set to be subjected by TAG."
+  },
+  {
+   "k": "fl5hdr",
+   "en": "subjected_by@123 is the overlord of the country that is set to have the specified state in the peace conference, in this case 123."
+  },
+  {
+   "k": "r7nwmf",
+   "en": "subjected_by@TAG is an array of countries that have TAG as their overlord."
+  },
+  {
+   "k": "1bqu321",
+   "en": "liberate_states@TAG is an array of states that are going to countries that have been liberated by TAG."
+  },
+  {
+   "k": "1qs1cy7",
+   "en": "liberate_countries@TAG is an array of countries that have been liberated by TAG."
+  },
+  {
+   "k": "1wu6b29",
+   "en": "annex - The country FROM gets entirely annexed by ROOT. This only evaluates the countries."
+  },
+  {
+   "k": "k2p7h",
+   "en": "liberate - The country FROM gets liberated by ROOT."
+  },
+  {
+   "k": "1fm6ogu",
+   "en": "puppet - The country FROM gets puppeted by ROOT."
+  },
+  {
+   "k": "1dx69lx",
+   "en": "puppet_all - The country FROM gets puppeted by ROOT ⟦0⟧ is able to retain all of its states.",
+   "frags": 1
+  },
+  {
+   "k": "47gkh2",
+   "en": "and"
+  },
+  {
+   "k": "xfva8g",
+   "en": "puppet_state - The state ROOT gets transferred to FROM.FROM, which became a subject of FROM within the peace conference."
+  },
+  {
+   "k": "1rtby8d",
+   "en": "take_states - The state FROM gets annexed by ROOT."
+  },
+  {
+   "k": "1pamp5x",
+   "en": "force_government - The country FROM gets its ideology forcefully changed by ROOT."
+  },
+  {
+   "k": "1d2j64p",
+   "en": "MTTH block"
+  },
+  {
+   "k": "mmvgl7",
+   "en": "AI strategy plans to tell AI what to prioritise depending on circumstances: which advisors to pick, which technologies to research, which AI strategies to apply, which focuses to pick, etc. These are more detailed than general AI strategies, primarily intended to be activated for most of the game to tell the overall plan of a country. Multiple AI strategy plans can be defined and executed at the same time for a country."
+  },
+  {
+   "k": "nl17vd",
+   "en": "AI strategy plans are defined within ⟦0⟧ files. Within these files, a new strategy plan is done as a new block, the name of which must be the same as the internal ID of the plan.",
+   "frags": 1
+  },
+  {
+   "k": "ji8suu",
+   "en": "/Hearts of Iron IV/common/ai_strategy_plans/*.txt"
+  },
+  {
+   "k": "1hon8rx",
+   "en": "Within that plan, ⟦0⟧ and ⟦1⟧ decide the name and the description of the strategy plan. ⟦2⟧, so localising it into different languages is never needed. Instead, this is used within the ⟦3⟧ console command, which tells info to the developer about what AI wants to prioritise.",
+   "frags": 4
+  },
+  {
+   "k": "3gexfd",
+   "en": "name = \"AI plan's name\""
+  },
+  {
+   "k": "8yr0ms",
+   "en": "desc = \"AI plan's description\""
+  },
+  {
+   "k": "w2wgi0",
+   "en": "This is never intended to be shown to the player"
+  },
+  {
+   "k": "4oxqgi",
+   "en": "⟦0⟧ is, similarly to decisions or ideas, is a trigger block ⟦1⟧. This is primarily used to tell which country and DLCs to restrict the strategy plan to.",
+   "frags": 2
+  },
+  {
+   "k": "1pw3ioe",
+   "en": "checked only at the game's start"
+  }
+ ]
+}

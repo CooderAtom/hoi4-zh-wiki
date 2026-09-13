@@ -1,0 +1,2815 @@
+{
+ "batch": "titles",
+ "note": "页面标题翻译。译名会用于侧栏、索引、目录与页面大标题。",
+ "instructions": "Translate each title into Simplified Chinese. Keep game terms consistent with glossary.json. Return {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]}.",
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "units": [
+  {
+   "k": "zc9cvq",
+   "en": "Government"
+  },
+  {
+   "k": "j4vzu9",
+   "en": "Warfare"
+  },
+  {
+   "k": "1a192x2",
+   "en": "Division"
+  },
+  {
+   "k": "1kdpnrf",
+   "en": "Land units"
+  },
+  {
+   "k": "bdm93l",
+   "en": "Beginner's guide"
+  },
+  {
+   "k": "195l95g",
+   "en": "Mechanics"
+  },
+  {
+   "k": "1uoq5jn",
+   "en": "Aircraft"
+  },
+  {
+   "k": "6e8jnk",
+   "en": "Army planner"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "pv8y7",
+   "en": "Air doctrine"
+  },
+  {
+   "k": "gik2td",
+   "en": "Air warfare"
+  },
+  {
+   "k": "o1qgz4",
+   "en": "Attrition and accidents"
+  },
+  {
+   "k": "1k16eyz",
+   "en": "Albania"
+  },
+  {
+   "k": "mb0sy4",
+   "en": "Ace pilots events"
+  },
+  {
+   "k": "bj54wx",
+   "en": "Afghanistan"
+  },
+  {
+   "k": "1kqa232",
+   "en": "Argentina"
+  },
+  {
+   "k": "1mfxar5",
+   "en": "Air combat"
+  },
+  {
+   "k": "s9z0ix",
+   "en": "Australia"
+  },
+  {
+   "k": "qjz56x",
+   "en": "Artillery technology"
+  },
+  {
+   "k": "1p5j2ga",
+   "en": "Australian events"
+  },
+  {
+   "k": "9cafof",
+   "en": "Air technology"
+  },
+  {
+   "k": "rrk42k",
+   "en": "American events"
+  },
+  {
+   "k": "qg8ocm",
+   "en": "Armor technology"
+  },
+  {
+   "k": "1eb02b7",
+   "en": "AI modding"
+  },
+  {
+   "k": "475d63",
+   "en": "AI focuses"
+  },
+  {
+   "k": "1nhki0g",
+   "en": "Austria"
+  },
+  {
+   "k": "14uam9i",
+   "en": "Australia-Hungary"
+  },
+  {
+   "k": "poltvy",
+   "en": "Air missions"
+  },
+  {
+   "k": "z1cm75",
+   "en": "Al-Andalus"
+  },
+  {
+   "k": "dcd5gu",
+   "en": "American events MtG"
+  },
+  {
+   "k": "xw1k4u",
+   "en": "Autonomy state modding"
+  },
+  {
+   "k": "1k3dzls",
+   "en": "Achievement modding"
+  },
+  {
+   "k": "1gcwzb4",
+   "en": "Arms Against Tyranny"
+  },
+  {
+   "k": "ep0yao",
+   "en": "Aircraft designer"
+  },
+  {
+   "k": "1rchny6",
+   "en": "America Decolonized!"
+  },
+  {
+   "k": "132t14",
+   "en": "A Great Hunger"
+  },
+  {
+   "k": "t69mng",
+   "en": "Antischluss"
+  },
+  {
+   "k": "145pmxd",
+   "en": "30 Minutes of Hel"
+  },
+  {
+   "k": "1bkjaje",
+   "en": "Air technology (Basic)"
+  },
+  {
+   "k": "1ven1rj",
+   "en": "Armor technology (Basic)"
+  },
+  {
+   "k": "3mqckv",
+   "en": "Ancient Formable Nations"
+  },
+  {
+   "k": "n45vxl",
+   "en": "African union events"
+  },
+  {
+   "k": "xmhfqf",
+   "en": "Agent events"
+  },
+  {
+   "k": "16p290i",
+   "en": "Argentinean events"
+  },
+  {
+   "k": "maicxv",
+   "en": "Amerindian Nations"
+  },
+  {
+   "k": "16agek3",
+   "en": "Afghan events"
+  },
+  {
+   "k": "1x8pl0w",
+   "en": "Ain't like that now"
+  },
+  {
+   "k": "67a45e",
+   "en": "Battle plan"
+  },
+  {
+   "k": "1ji0v5t",
+   "en": "Backhand Blow"
+  },
+  {
+   "k": "fm1xfx",
+   "en": "British Raj"
+  },
+  {
+   "k": "s8kh7b",
+   "en": "Bulgarian events"
+  },
+  {
+   "k": "12zelvf",
+   "en": "Bearer of Artillery"
+  },
+  {
+   "k": "1jqpxyw",
+   "en": "Battlefleet Concentration"
+  },
+  {
+   "k": "zo0mt3",
+   "en": "Brazil"
+  },
+  {
+   "k": "2xe1h1",
+   "en": "Baltic events"
+  },
+  {
+   "k": "exzyip",
+   "en": "Bhutan"
+  },
+  {
+   "k": "m87eu3",
+   "en": "British Malaya"
+  },
+  {
+   "k": "1vzrz2q",
+   "en": "British Raj events"
+  },
+  {
+   "k": "h0ata9",
+   "en": "British events"
+  },
+  {
+   "k": "1k95052",
+   "en": "Belgium"
+  },
+  {
+   "k": "1g27va4",
+   "en": "Bulgaria"
+  },
+  {
+   "k": "q8vnmp",
+   "en": "Bookmark modding"
+  },
+  {
+   "k": "12wx54r",
+   "en": "Bolivia"
+  },
+  {
+   "k": "bijqvx",
+   "en": "Building modding"
+  },
+  {
+   "k": "1hzssix",
+   "en": "Battlecry"
+  },
+  {
+   "k": "5flhi7",
+   "en": "British Burma"
+  },
+  {
+   "k": "1uf44tx",
+   "en": "Border war"
+  },
+  {
+   "k": "1ma4amv",
+   "en": "British events MtG"
+  },
+  {
+   "k": "47yo70",
+   "en": "Border conflict events"
+  },
+  {
+   "k": "hvw584",
+   "en": "Battle for the Bosporus"
+  },
+  {
+   "k": "xw4s3v",
+   "en": "By Blood Alone"
+  },
+  {
+   "k": "15wqrl2",
+   "en": "Baltic events NSB"
+  },
+  {
+   "k": "lqjgb1",
+   "en": "Balance of power modding"
+  },
+  {
+   "k": "q2j1tx",
+   "en": "Balance of power"
+  },
+  {
+   "k": "pyy60v",
+   "en": "Bulgarian events BftB"
+  },
+  {
+   "k": "e2va9k",
+   "en": "Big Entente"
+  },
+  {
+   "k": "ecmzu",
+   "en": "Bad Ending - The whole world is now Brazil"
+  },
+  {
+   "k": "5skmiq",
+   "en": "Brazilian events"
+  },
+  {
+   "k": "bs4rw8",
+   "en": "Bolivian decisions"
+  },
+  {
+   "k": "1vjdjpd",
+   "en": "Belgian Congo"
+  },
+  {
+   "k": "979j1f",
+   "en": "Brentry"
+  },
+  {
+   "k": "26jsqm",
+   "en": "Bullseye"
+  },
+  {
+   "k": "fp6ufa",
+   "en": "Bad Romeance"
+  },
+  {
+   "k": "dgkhbm",
+   "en": "Balkan Problem Solved"
+  },
+  {
+   "k": "gdwkzk",
+   "en": "Awake and Angry"
+  },
+  {
+   "k": "11nf5th",
+   "en": "By Beer Alone"
+  },
+  {
+   "k": "13qp6z8",
+   "en": "British events WtT"
+  },
+  {
+   "k": "1v9z80v",
+   "en": "Battle Royale"
+  },
+  {
+   "k": "8zhvfx",
+   "en": "Countries"
+  },
+  {
+   "k": "j6p9kc",
+   "en": "Construction"
+  },
+  {
+   "k": "qkms9x",
+   "en": "Commander"
+  },
+  {
+   "k": "kpvo8i",
+   "en": "Civil war"
+  },
+  {
+   "k": "1b77qg4",
+   "en": "Combat tactics"
+  },
+  {
+   "k": "1ikn79l",
+   "en": "Command group"
+  },
+  {
+   "k": "1uzifys",
+   "en": "Console commands"
+  },
+  {
+   "k": "1c16ddm",
+   "en": "Chinese Soviet Republic"
+  },
+  {
+   "k": "15auucw",
+   "en": "China"
+  },
+  {
+   "k": "1yonfah",
+   "en": "Chinese events"
+  },
+  {
+   "k": "1rnswjy",
+   "en": "Cosmetic tag modding"
+  },
+  {
+   "k": "1l9hfka",
+   "en": "Continuous focus"
+  },
+  {
+   "k": "3xcihe",
+   "en": "Country creation"
+  },
+  {
+   "k": "1y384pl",
+   "en": "Canadian events"
+  },
+  {
+   "k": "1oqmutr",
+   "en": "Colombia"
+  },
+  {
+   "k": "132rpt6",
+   "en": "Chile"
+  },
+  {
+   "k": "kkog6g",
+   "en": "Costa Rica"
+  },
+  {
+   "k": "10macn9",
+   "en": "Commander trait"
+  },
+  {
+   "k": "doarrc",
+   "en": "Crusader Kings 2"
+  },
+  {
+   "k": "f878vx",
+   "en": "Confederacy of American States"
+  },
+  {
+   "k": "1x4hfl2",
+   "en": "Chinese political power struggle events"
+  },
+  {
+   "k": "18z3pj0",
+   "en": "Chinese events WtT"
+  },
+  {
+   "k": "14k3kid",
+   "en": "Contact us"
+  },
+  {
+   "k": "11pdu6w",
+   "en": "Character modding"
+  },
+  {
+   "k": "1g9ipe",
+   "en": "Career profile"
+  },
+  {
+   "k": "xfbne8",
+   "en": "Cheese your fighter."
+  },
+  {
+   "k": "18zpr9x",
+   "en": "Caramelldansen"
+  },
+  {
+   "k": "1xand03",
+   "en": "Chilean Empire"
+  },
+  {
+   "k": "1jx48em",
+   "en": "Crusader Kings"
+  },
+  {
+   "k": "1o1b4cs",
+   "en": "Cod wars"
+  },
+  {
+   "k": "1wih3dd",
+   "en": "Congo"
+  },
+  {
+   "k": "14s8csq",
+   "en": "Chilean decisions"
+  },
+  {
+   "k": "1s0lk8c",
+   "en": "Chilean missions"
+  },
+  {
+   "k": "11392lo",
+   "en": "Congress decisions"
+  },
+  {
+   "k": "y5ny83",
+   "en": "Congolese Belgium"
+  },
+  {
+   "k": "fa6l4n",
+   "en": "Construction/landmarkrow"
+  },
+  {
+   "k": "1daj5m7",
+   "en": "Country leader traits"
+  },
+  {
+   "k": "1ejstjf",
+   "en": "Carpatho-Ukraine"
+  },
+  {
+   "k": "1c7vwz1",
+   "en": "Cobalt Sea"
+  },
+  {
+   "k": "1rewd3z",
+   "en": "Böhmen-Mähren decisions"
+  },
+  {
+   "k": "sz859i",
+   "en": "Developer diaries"
+  },
+  {
+   "k": "93m73s",
+   "en": "Delay"
+  },
+  {
+   "k": "1ftjdix",
+   "en": "Diplomacy"
+  },
+  {
+   "k": "f3k2s",
+   "en": "Elastic Defense"
+  },
+  {
+   "k": "5umivg",
+   "en": "Downloadable content"
+  },
+  {
+   "k": "1mxczfr",
+   "en": "Dominion of Canada"
+  },
+  {
+   "k": "16bk97p",
+   "en": "Czechoslovakia"
+  },
+  {
+   "k": "uq3mgk",
+   "en": "Effect"
+  },
+  {
+   "k": "1sz1wyz",
+   "en": "Election events"
+  },
+  {
+   "k": "itga65",
+   "en": "Denmark"
+  },
+  {
+   "k": "je5emr",
+   "en": "Division designer"
+  },
+  {
+   "k": "1ynco16",
+   "en": "Death or Dishonor"
+  },
+  {
+   "k": "k71uiu",
+   "en": "Czechoslovakian events"
+  },
+  {
+   "k": "pptzns",
+   "en": "Ecuador"
+  },
+  {
+   "k": "1m2w1ti",
+   "en": "Dutch East Indies"
+  },
+  {
+   "k": "1gckrpz",
+   "en": "Decision modding"
+  },
+  {
+   "k": "i7p3je",
+   "en": "Division modding"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "1v7h66k",
+   "en": "Cuba"
+  },
+  {
+   "k": "1uk1wtt",
+   "en": "Dominican Republic"
+  },
+  {
+   "k": "1o0512u",
+   "en": "El Salvador"
+  },
+  {
+   "k": "153j4ut",
+   "en": "East Germany"
+  },
+  {
+   "k": "hiwkg9",
+   "en": "Emirate of Transjordan"
+  },
+  {
+   "k": "1evnfet",
+   "en": "Death or Dishonor or Cake"
+  },
+  {
+   "k": "1mwoq4f",
+   "en": "Custom difficulty"
+  },
+  {
+   "k": "10xru34",
+   "en": "Difficulty"
+  },
+  {
+   "k": "1hpyf4w",
+   "en": "Decision events"
+  },
+  {
+   "k": "1u30elu",
+   "en": "Dalmatia"
+  },
+  {
+   "k": "8p98ea",
+   "en": "Downloadable content 2"
+  },
+  {
+   "k": "g1uplr",
+   "en": "Don Cossack Host"
+  },
+  {
+   "k": "a6litv",
+   "en": "Doctrine modding"
+  },
+  {
+   "k": "10y68xx",
+   "en": "Data structures"
+  },
+  {
+   "k": "1w4piot",
+   "en": "Crusader Kings IV"
+  },
+  {
+   "k": "147uoy4",
+   "en": "Danzig queen"
+  },
+  {
+   "k": "6074pl",
+   "en": "Czechmate"
+  },
+  {
+   "k": "gja7hw",
+   "en": "Crush the Dream"
+  },
+  {
+   "k": "1bfzt17",
+   "en": "Don’t Die for Your Country"
+  },
+  {
+   "k": "1mlbjzd",
+   "en": "Emirate of Pashtunistan"
+  },
+  {
+   "k": "1wl9ise",
+   "en": "Czechoslovakian decisions"
+  },
+  {
+   "k": "hv2757",
+   "en": "Czechoslovakian events PfOT"
+  },
+  {
+   "k": "1byxumh",
+   "en": "Experience"
+  },
+  {
+   "k": "2eq77f",
+   "en": "Faction"
+  },
+  {
+   "k": "1xtq0ev",
+   "en": "Equipment"
+  },
+  {
+   "k": "y6f35m",
+   "en": "France"
+  },
+  {
+   "k": "egqoj",
+   "en": "Event modding"
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "129n4zv",
+   "en": "Generic events"
+  },
+  {
+   "k": "1cgbixx",
+   "en": "Finnish events"
+  },
+  {
+   "k": "14c1p6w",
+   "en": "General events"
+  },
+  {
+   "k": "5qpdw2",
+   "en": "Engineering technology"
+  },
+  {
+   "k": "ps9hze",
+   "en": "French events"
+  },
+  {
+   "k": "esezps",
+   "en": "Estonia"
+  },
+  {
+   "k": "4bedm6",
+   "en": "Ethiopia"
+  },
+  {
+   "k": "jmjzrf",
+   "en": "Equipment modding"
+  },
+  {
+   "k": "1kom3lj",
+   "en": "Formable nations"
+  },
+  {
+   "k": "m59cub",
+   "en": "Finland"
+  },
+  {
+   "k": "1a1jqc8",
+   "en": "Font modding"
+  },
+  {
+   "k": "1ppjn5q",
+   "en": "Entity modding"
+  },
+  {
+   "k": "1vcqdkt",
+   "en": "Equestria At War"
+  },
+  {
+   "k": "112axt9",
+   "en": "Fuel"
+  },
+  {
+   "k": "1glw0m6",
+   "en": "Free France"
+  },
+  {
+   "k": "1wqgwcl",
+   "en": "French events LaR"
+  },
+  {
+   "k": "qk3gg1",
+   "en": "Ethiopian events"
+  },
+  {
+   "k": "r3060q",
+   "en": "Free City of Danzig"
+  },
+  {
+   "k": "a6l0c5",
+   "en": "Generic decisions"
+  },
+  {
+   "k": "1a2vkfs",
+   "en": "Exiled government events"
+  },
+  {
+   "k": "1288a10",
+   "en": "Exiled government decisions"
+  },
+  {
+   "k": "czgivf",
+   "en": "Foreign influence decisions"
+  },
+  {
+   "k": "1lts5jf",
+   "en": "Estonian events"
+  },
+  {
+   "k": "n76n0k",
+   "en": "Formable nations/Oceania"
+  },
+  {
+   "k": "1ejlsfz",
+   "en": "Formable nations/North America"
+  },
+  {
+   "k": "1j92ml6",
+   "en": "Formable nations/Europe"
+  },
+  {
+   "k": "1elvjti",
+   "en": "Formable nations/Asia"
+  },
+  {
+   "k": "1i11qvp",
+   "en": "Formable nations/South America"
+  },
+  {
+   "k": "twx1au",
+   "en": "Formable nations/Africa"
+  },
+  {
+   "k": "2ieff8",
+   "en": "Esti is Scandi"
+  },
+  {
+   "k": "1sif4ax",
+   "en": "From Tehran with Love"
+  },
+  {
+   "k": "11of6rp",
+   "en": "Generic events MtG"
+  },
+  {
+   "k": "1nk3a6c",
+   "en": "Espionage operation events"
+  },
+  {
+   "k": "zb4bw5",
+   "en": "Generic events AAT"
+  },
+  {
+   "k": "1ht2myx",
+   "en": "Gansu Ma"
+  },
+  {
+   "k": "1g1dxrj",
+   "en": "Faction modding"
+  },
+  {
+   "k": "14fjq9b",
+   "en": "Finnish events AAT"
+  },
+  {
+   "k": "a7r54m",
+   "en": "Galicia and Lodomeria"
+  },
+  {
+   "k": "l8h7hj",
+   "en": "Hearts of Iron 4 Wiki"
+  },
+  {
+   "k": "dmo6mc",
+   "en": "Hearts of Iron IV"
+  },
+  {
+   "k": "1kl1wqi",
+   "en": "Greece"
+  },
+  {
+   "k": "i87c38",
+   "en": "German Reich"
+  },
+  {
+   "k": "1va57t7",
+   "en": "Hungarian events"
+  },
+  {
+   "k": "1khciow",
+   "en": "Hotkeys"
+  },
+  {
+   "k": "cp84lc",
+   "en": "Greek events"
+  },
+  {
+   "k": "1ob9s4t",
+   "en": "Historical divisions"
+  },
+  {
+   "k": "1prmbyo",
+   "en": "German events"
+  },
+  {
+   "k": "1m4t2m9",
+   "en": "Hungary"
+  },
+  {
+   "k": "ie2c7b",
+   "en": "Guangxi Clique"
+  },
+  {
+   "k": "1el70z3",
+   "en": "Hungarian events DoD 1"
+  },
+  {
+   "k": "1ev6mo2",
+   "en": "Hungarian events DoD 2"
+  },
+  {
+   "k": "qhl7vm",
+   "en": "Haiti"
+  },
+  {
+   "k": "d6ma6a",
+   "en": "Guatemala"
+  },
+  {
+   "k": "sv02wd",
+   "en": "Honduras"
+  },
+  {
+   "k": "1igush6",
+   "en": "Graphical asset modding"
+  },
+  {
+   "k": "1it1d39",
+   "en": "Iceland"
+  },
+  {
+   "k": "1s34mxh",
+   "en": "Historical ship variants"
+  },
+  {
+   "k": "v1h63o",
+   "en": "Hail to the Qing"
+  },
+  {
+   "k": "1f4rjig",
+   "en": "Huge-oslavia"
+  },
+  {
+   "k": "u2mlp1",
+   "en": "German events WtT"
+  },
+  {
+   "k": "24htpt",
+   "en": "HOI4 ULTRA (Historical Industry Project)"
+  },
+  {
+   "k": "1ijnt62",
+   "en": "German events MtG"
+  },
+  {
+   "k": "1stlmvk",
+   "en": "Holy, Roman, and an Empire"
+  },
+  {
+   "k": "aivncs",
+   "en": "German decisions"
+  },
+  {
+   "k": "1heugqz",
+   "en": "Guinea (disambiguation)"
+  },
+  {
+   "k": "1v2zo8a",
+   "en": "Götterdämmerung"
+  },
+  {
+   "k": "1nysoty",
+   "en": "Graveyard of Empires"
+  },
+  {
+   "k": "lucq3p",
+   "en": "Governments in exile"
+  },
+  {
+   "k": "1lftoz3",
+   "en": "House of Kurds"
+  },
+  {
+   "k": "1cughq1",
+   "en": "Go Ahead, Macau My Day"
+  },
+  {
+   "k": "1lbns8q",
+   "en": "Hardly Anything Sèvres"
+  },
+  {
+   "k": "avwc9v",
+   "en": "German events GD"
+  },
+  {
+   "k": "dz2wy5",
+   "en": "Horn of Africa nations"
+  },
+  {
+   "k": "18mx6c0",
+   "en": "Guay events"
+  },
+  {
+   "k": "1klwbuo",
+   "en": "Guangdong Clique"
+  },
+  {
+   "k": "kzpxw",
+   "en": "Hebei-Chahar"
+  },
+  {
+   "k": "t843yo",
+   "en": "Icelandic events AAT"
+  },
+  {
+   "k": "ozaxsm",
+   "en": "I didn't hear no bell"
+  },
+  {
+   "k": "1kcpl8u",
+   "en": "Hail to the King"
+  },
+  {
+   "k": "193rgu3",
+   "en": "Japan"
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "18a2mp",
+   "en": "Ideology"
+  },
+  {
+   "k": "4fh35j",
+   "en": "Industry technology"
+  },
+  {
+   "k": "18b7xf3",
+   "en": "Infiltration Assault"
+  },
+  {
+   "k": "qteedx",
+   "en": "Ironman"
+  },
+  {
+   "k": "uet7re",
+   "en": "Jargon"
+  },
+  {
+   "k": "eg9p8s",
+   "en": "Italy"
+  },
+  {
+   "k": "grcx9b",
+   "en": "Infantry Offensive"
+  },
+  {
+   "k": "2he0or",
+   "en": "Japanese events"
+  },
+  {
+   "k": "1dgvjoo",
+   "en": "Italian events"
+  },
+  {
+   "k": "g2pgjm",
+   "en": "Infantry technology"
+  },
+  {
+   "k": "1648nut",
+   "en": "Indian Partisans"
+  },
+  {
+   "k": "1da8g49",
+   "en": "Kaiserreich"
+  },
+  {
+   "k": "1bwuepl",
+   "en": "Ideology modding"
+  },
+  {
+   "k": "1nkr2v2",
+   "en": "Idea modding"
+  },
+  {
+   "k": "1kjaqb9",
+   "en": "Iran"
+  },
+  {
+   "k": "1gdgowo",
+   "en": "Iraq"
+  },
+  {
+   "k": "5yh8gs",
+   "en": "Ireland"
+  },
+  {
+   "k": "1yk2uns",
+   "en": "Interface modding"
+  },
+  {
+   "k": "ulnb30",
+   "en": "Independent State of Croatia"
+  },
+  {
+   "k": "620c1q",
+   "en": "Kingdom of Burundi"
+  },
+  {
+   "k": "1exaxhe",
+   "en": "Japanese events WtT"
+  },
+  {
+   "k": "edpl0h",
+   "en": "Intelligence agency"
+  },
+  {
+   "k": "1le99t5",
+   "en": "Internal factions"
+  },
+  {
+   "k": "uarfog",
+   "en": "Kuban National Republic"
+  },
+  {
+   "k": "or3ot6",
+   "en": "Italian State of East Africa"
+  },
+  {
+   "k": "ogsnrz",
+   "en": "Italian events BBA"
+  },
+  {
+   "k": "iqjybx",
+   "en": "International market"
+  },
+  {
+   "k": "35fxow",
+   "en": "Jan Mayen"
+  },
+  {
+   "k": "i8e9gs",
+   "en": "Iraqi decisions"
+  },
+  {
+   "k": "f7ho8k",
+   "en": "Italian decisions"
+  },
+  {
+   "k": "upqbhe",
+   "en": "Italian missions"
+  },
+  {
+   "k": "1521pur",
+   "en": "It has my name on it"
+  },
+  {
+   "k": "1mkuf87",
+   "en": "Intel"
+  },
+  {
+   "k": "1ozsf7t",
+   "en": "Intelligence agency modding"
+  },
+  {
+   "k": "19kwb9u",
+   "en": "Indian Princely States"
+  },
+  {
+   "k": "hzman0",
+   "en": "Khotan Ma"
+  },
+  {
+   "k": "186h7y5",
+   "en": "Kumul Khanate"
+  },
+  {
+   "k": "144rs4z",
+   "en": "Imperial influence"
+  },
+  {
+   "k": "1kljs9g",
+   "en": "Khorasan"
+  },
+  {
+   "k": "ac7dtt",
+   "en": "Indonesian Princely States"
+  },
+  {
+   "k": "bjznmk",
+   "en": "Istanbul is Constantinople. Again."
+  },
+  {
+   "k": "1y51r99",
+   "en": "Its all coming together"
+  },
+  {
+   "k": "146p7sg",
+   "en": "Logistics"
+  },
+  {
+   "k": "1cs1oqe",
+   "en": "Land doctrine"
+  },
+  {
+   "k": "rnjany",
+   "en": "Land units by unit"
+  },
+  {
+   "k": "1bwtypl",
+   "en": "Land units by year"
+  },
+  {
+   "k": "1pmis96",
+   "en": "Land warfare"
+  },
+  {
+   "k": "h6pt2h",
+   "en": "List of commanders"
+  },
+  {
+   "k": "e4638j",
+   "en": "List of design companies"
+  },
+  {
+   "k": "1o0mvvh",
+   "en": "List of military chiefs"
+  },
+  {
+   "k": "1y1b7ay",
+   "en": "List of military high command"
+  },
+  {
+   "k": "bbwqja",
+   "en": "List of political advisors"
+  },
+  {
+   "k": "ry56os",
+   "en": "List of states"
+  },
+  {
+   "k": "1log5y5",
+   "en": "List of theorists"
+  },
+  {
+   "k": "1y68ahh",
+   "en": "Liberia"
+  },
+  {
+   "k": "azote4",
+   "en": "Lithuania"
+  },
+  {
+   "k": "qej46e",
+   "en": "Latvia"
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "ocf7b",
+   "en": "List of provinces"
+  },
+  {
+   "k": "71b23u",
+   "en": "Lebanese Republic"
+  },
+  {
+   "k": "bbbsh0",
+   "en": "List of modifiers"
+  },
+  {
+   "k": "1lxll87",
+   "en": "List of terrain adjusters by unit"
+  },
+  {
+   "k": "z1ygrj",
+   "en": "La Résistance"
+  },
+  {
+   "k": "6wymdb",
+   "en": "List of default ship variants"
+  },
+  {
+   "k": "1pcnmim",
+   "en": "Land battle"
+  },
+  {
+   "k": "uqska2",
+   "en": "London Naval Treaty"
+  },
+  {
+   "k": "7bxucp",
+   "en": "List of Decision lists"
+  },
+  {
+   "k": "12fenz0",
+   "en": "Launch options"
+  },
+  {
+   "k": "1tabw9z",
+   "en": "Lithuanian events"
+  },
+  {
+   "k": "r4cwos",
+   "en": "List of operations"
+  },
+  {
+   "k": "1wknfso",
+   "en": "Land doctrine/Sample divisions with doctrine bonuses"
+  },
+  {
+   "k": "1nif59g",
+   "en": "List of 1936 start legacy deployed destroyers"
+  },
+  {
+   "k": "nht1ct",
+   "en": "List of scientists"
+  },
+  {
+   "k": "bfdtfw",
+   "en": "List of operatives"
+  },
+  {
+   "k": "1qs7lye",
+   "en": "List of aces"
+  },
+  {
+   "k": "g38fa8",
+   "en": "List of intelligence agencies"
+  },
+  {
+   "k": "50yoes",
+   "en": "Lamento Boliviano"
+  },
+  {
+   "k": "1y468gs",
+   "en": "List of tank designers"
+  },
+  {
+   "k": "pz8gta",
+   "en": "List of ship designers"
+  },
+  {
+   "k": "1cbb6f2",
+   "en": "List of aircraft designers"
+  },
+  {
+   "k": "1ig72nd",
+   "en": "List of materiel designers"
+  },
+  {
+   "k": "1sovmya",
+   "en": "List of industrial concerns"
+  },
+  {
+   "k": "1dg2kpp",
+   "en": "List of commanders (base game)"
+  },
+  {
+   "k": "hzaku2",
+   "en": "List of Tank MIOs"
+  },
+  {
+   "k": "18rppy4",
+   "en": "List of Ship MIOs"
+  },
+  {
+   "k": "1eg2y0w",
+   "en": "List of Plane MIOs"
+  },
+  {
+   "k": "cvb47p",
+   "en": "List of Material Equipment MIOs"
+  },
+  {
+   "k": "zmdlj",
+   "en": "List of Factions"
+  },
+  {
+   "k": "17vxw9s",
+   "en": "Manpower"
+  },
+  {
+   "k": "j1sac1",
+   "en": "Map"
+  },
+  {
+   "k": "s8t7o2",
+   "en": "Mechanized Offensive"
+  },
+  {
+   "k": "jh80qf",
+   "en": "Naval doctrine"
+  },
+  {
+   "k": "9m30fv",
+   "en": "Modding"
+  },
+  {
+   "k": "pw0jjk",
+   "en": "Mods"
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "2k5pih",
+   "en": "Luxembourg"
+  },
+  {
+   "k": "r3grcx",
+   "en": "Naval Strike Torpedo Tactics"
+  },
+  {
+   "k": "74hn2w",
+   "en": "National spirit"
+  },
+  {
+   "k": "11tcwh4",
+   "en": "Manchukuo"
+  },
+  {
+   "k": "ip4qjz",
+   "en": "Mengjiang"
+  },
+  {
+   "k": "52qjsn",
+   "en": "National focus modding"
+  },
+  {
+   "k": "r6yass",
+   "en": "Music modding"
+  },
+  {
+   "k": "1tnn33t",
+   "en": "Map modding"
+  },
+  {
+   "k": "cabrx2",
+   "en": "Mexico"
+  },
+  {
+   "k": "d0jxyj",
+   "en": "Mongolia"
+  },
+  {
+   "k": "1djsobe",
+   "en": "Mod structure"
+  },
+  {
+   "k": "1a3ss5y",
+   "en": "Namelist modding"
+  },
+  {
+   "k": "1hpzefz",
+   "en": "Man the Guns"
+  },
+  {
+   "k": "796wij",
+   "en": "Low Stability events"
+  },
+  {
+   "k": "1j8xe3v",
+   "en": "Mandatory Palestine"
+  },
+  {
+   "k": "quvul0",
+   "en": "My Ships Don't Lie"
+  },
+  {
+   "k": "1r6vn7z",
+   "en": "Naval battle"
+  },
+  {
+   "k": "xlub90",
+   "en": "Nationalist Spain"
+  },
+  {
+   "k": "8viisu",
+   "en": "MEFO Bills"
+  },
+  {
+   "k": "gmp1ge",
+   "en": "Missions"
+  },
+  {
+   "k": "1lc9j6p",
+   "en": "Manchukou events"
+  },
+  {
+   "k": "98qwh8",
+   "en": "Minelaying"
+  },
+  {
+   "k": "en8m03",
+   "en": "Main Page/news"
+  },
+  {
+   "k": "186qm91",
+   "en": "Main Page/links"
+  },
+  {
+   "k": "111e1xb",
+   "en": "Miklos Horthy and the Habsburg Prince"
+  },
+  {
+   "k": "m1c2qr",
+   "en": "National focus"
+  },
+  {
+   "k": "1h7vzfi",
+   "en": "Minesweeping"
+  },
+  {
+   "k": "yq3f6s",
+   "en": "Military industrial organization"
+  },
+  {
+   "k": "5esom4",
+   "en": "Military industrial organization modding"
+  },
+  {
+   "k": "l9s1qr",
+   "en": "Lone Wolf"
+  },
+  {
+   "k": "44263z",
+   "en": "Mexican events"
+  },
+  {
+   "k": "1jdqfc9",
+   "en": "Media Mughal"
+  },
+  {
+   "k": "c355b7",
+   "en": "Missile"
+  },
+  {
+   "k": "1fewkem",
+   "en": "NATO events"
+  },
+  {
+   "k": "7cf1q4",
+   "en": "Mughal West Britain Company"
+  },
+  {
+   "k": "1h6wizt",
+   "en": "Maphilindia"
+  },
+  {
+   "k": "1hvovva",
+   "en": "Naval missions"
+  },
+  {
+   "k": "p5a2y1",
+   "en": "Naval warfare"
+  },
+  {
+   "k": "dlbn6i",
+   "en": "Occupation"
+  },
+  {
+   "k": "1p64buf",
+   "en": "Norway"
+  },
+  {
+   "k": "1fusa7w",
+   "en": "News events 1"
+  },
+  {
+   "k": "1gor3at",
+   "en": "News events 2"
+  },
+  {
+   "k": "1gerhlu",
+   "en": "News events 3"
+  },
+  {
+   "k": "1rqu1nl",
+   "en": "Nuke events"
+  },
+  {
+   "k": "rxz7u3",
+   "en": "Netherlands"
+  },
+  {
+   "k": "9y7am8",
+   "en": "New Zealand"
+  },
+  {
+   "k": "x4leo1",
+   "en": "New Zealand events"
+  },
+  {
+   "k": "1qb81nb",
+   "en": "Naval technology"
+  },
+  {
+   "k": "xmcd8r",
+   "en": "Nuclear bomb"
+  },
+  {
+   "k": "dz4fe8",
+   "en": "News events DoD"
+  },
+  {
+   "k": "1f0th4z",
+   "en": "News events 4"
+  },
+  {
+   "k": "1b22f8p",
+   "en": "Nepal"
+  },
+  {
+   "k": "vstvuq",
+   "en": "Oman"
+  },
+  {
+   "k": "1t1y1k",
+   "en": "Nicaragua"
+  },
+  {
+   "k": "194m246",
+   "en": "News events WtT"
+  },
+  {
+   "k": "22wvcr",
+   "en": "On actions"
+  },
+  {
+   "k": "1b19i2r",
+   "en": "Neither Death nor Dishonor"
+  },
+  {
+   "k": "m1taxl",
+   "en": "News events MtG"
+  },
+  {
+   "k": "9w638x",
+   "en": "Navy"
+  },
+  {
+   "k": "2530a0",
+   "en": "Netherlands events"
+  },
+  {
+   "k": "1ahoaq7",
+   "en": "Operations"
+  },
+  {
+   "k": "f2e5j7",
+   "en": "Naval treaty events"
+  },
+  {
+   "k": "18rjrz8",
+   "en": "News events LaR"
+  },
+  {
+   "k": "1qr32k8",
+   "en": "One King, Two Crowns"
+  },
+  {
+   "k": "11r223j",
+   "en": "No Step Back"
+  },
+  {
+   "k": "1ecuhin",
+   "en": "News events BftB"
+  },
+  {
+   "k": "6hztxg",
+   "en": "Officer corps"
+  },
+  {
+   "k": "1bv4j2j",
+   "en": "Occupation events"
+  },
+  {
+   "k": "pui2ou",
+   "en": "Nudger"
+  },
+  {
+   "k": "1oxxu4y",
+   "en": "Naval support technology"
+  },
+  {
+   "k": "5a08nh",
+   "en": "New World Order"
+  },
+  {
+   "k": "gzorvw",
+   "en": "No one crosses the finnish line"
+  },
+  {
+   "k": "1lh0ti6",
+   "en": "Norway Jose"
+  },
+  {
+   "k": "1sdfvfm",
+   "en": "Naval technology (Basic)"
+  },
+  {
+   "k": "k2qsbq",
+   "en": "No more Partitions"
+  },
+  {
+   "k": "j4cnyb",
+   "en": "Oh, how the turntables"
+  },
+  {
+   "k": "35094y",
+   "en": "Oil Sheiks"
+  },
+  {
+   "k": "12mnkbp",
+   "en": "No Compromise, No Surrender"
+  },
+  {
+   "k": "16o3z9a",
+   "en": "Omani decisions"
+  },
+  {
+   "k": "17g394t",
+   "en": "Nordic events"
+  },
+  {
+   "k": "womu8z",
+   "en": "Ningxia Ma"
+  },
+  {
+   "k": "1g6t6id",
+   "en": "Northeastern Army"
+  },
+  {
+   "k": "nhl9mz",
+   "en": "Old Zealand"
+  },
+  {
+   "k": "hxfqay",
+   "en": "Paradox"
+  },
+  {
+   "k": "725tl6",
+   "en": "Organization"
+  },
+  {
+   "k": "19q2phi",
+   "en": "Patch 1.0.X"
+  },
+  {
+   "k": "pjq9hf",
+   "en": "Patch 1.1"
+  },
+  {
+   "k": "ptpv6e",
+   "en": "Patch 1.2"
+  },
+  {
+   "k": "y5n2vk",
+   "en": "Patch 1.2.X"
+  },
+  {
+   "k": "q3pgvd",
+   "en": "Patch 1.3"
+  },
+  {
+   "k": "1d7gn3b",
+   "en": "Patch 1.3.X"
+  },
+  {
+   "k": "qdp2kc",
+   "en": "Patch 1.4"
+  },
+  {
+   "k": "8xaqyy",
+   "en": "Patch 1.4.X"
+  },
+  {
+   "k": "wjlrct",
+   "en": "Panama"
+  },
+  {
+   "k": "qnoo9b",
+   "en": "Patch 1.5"
+  },
+  {
+   "k": "1je9d9t",
+   "en": "Patch 1.5.X"
+  },
+  {
+   "k": "15btnwt",
+   "en": "Paraguay"
+  },
+  {
+   "k": "1q721wz",
+   "en": "Particle modding"
+  },
+  {
+   "k": "qxo9ya",
+   "en": "Patch 1.6"
+  },
+  {
+   "k": "1uze96m",
+   "en": "Our Other Place in the Sun"
+  },
+  {
+   "k": "f11qr8",
+   "en": "Patch 1.6.X"
+  },
+  {
+   "k": "r7nvn9",
+   "en": "Patch 1.7"
+  },
+  {
+   "k": "pt7c9n",
+   "en": "Patch 1.7.X"
+  },
+  {
+   "k": "rhnhc8",
+   "en": "Patch 1.8"
+  },
+  {
+   "k": "1kqde4e",
+   "en": "Patch 1.8.X"
+  },
+  {
+   "k": "rrn317",
+   "en": "Patch 1.9"
+  },
+  {
+   "k": "10ftpjp",
+   "en": "Patch 1.9.X"
+  },
+  {
+   "k": "1a1nxzd",
+   "en": "Patch 1.10"
+  },
+  {
+   "k": "o0bs5j",
+   "en": "Patch 1.10.X"
+  },
+  {
+   "k": "kqpju7",
+   "en": "Operatives"
+  },
+  {
+   "k": "19rocae",
+   "en": "Patch 1.11"
+  },
+  {
+   "k": "184nkq8",
+   "en": "Patch 1.11.X"
+  },
+  {
+   "k": "19hoqlf",
+   "en": "Patch 1.12"
+  },
+  {
+   "k": "zkrerh",
+   "en": "Patch 1.12.X"
+  },
+  {
+   "k": "197p4wg",
+   "en": "Patch 1.13"
+  },
+  {
+   "k": "1k1izc6",
+   "en": "Patch 1.13.X"
+  },
+  {
+   "k": "1b5mcr9",
+   "en": "Patch 1.14"
+  },
+  {
+   "k": "m2hbv",
+   "en": "Patch 1.14.X"
+  },
+  {
+   "k": "hjbz77",
+   "en": "Party like it's 1520"
+  },
+  {
+   "k": "1avmr2a",
+   "en": "Patch 1.15"
+  },
+  {
+   "k": "jpjmsm",
+   "en": "Otto-man"
+  },
+  {
+   "k": "pcft04",
+   "en": "Patch 1.15.X"
+  },
+  {
+   "k": "1aln5db",
+   "en": "Patch 1.16"
+  },
+  {
+   "k": "1td9v4h",
+   "en": "Patch 1.16.X"
+  },
+  {
+   "k": "1ir9y0a",
+   "en": "Patch 1.17.X"
+  },
+  {
+   "k": "1abnjoc",
+   "en": "Patch 1.17"
+  },
+  {
+   "k": "1c9krj5",
+   "en": "Patch 1.18"
+  },
+  {
+   "k": "yramsf",
+   "en": "Patch 1.18.X"
+  },
+  {
+   "k": "1bzl5u6",
+   "en": "Patch 1.19"
+  },
+  {
+   "k": "jmfc6g",
+   "en": "Patch 1.19.X"
+  },
+  {
+   "k": "1m636sy",
+   "en": "Paradisus Paradoxum"
+  },
+  {
+   "k": "pps2r0",
+   "en": "Research"
+  },
+  {
+   "k": "128dyd6",
+   "en": "Production"
+  },
+  {
+   "k": "mntfz",
+   "en": "Puppet"
+  },
+  {
+   "k": "1u062g9",
+   "en": "Peace conference"
+  },
+  {
+   "k": "cj7ga3",
+   "en": "Political parties and leaders"
+  },
+  {
+   "k": "1r8wvbp",
+   "en": "Patches"
+  },
+  {
+   "k": "15zdv1h",
+   "en": "Province"
+  },
+  {
+   "k": "hbescl",
+   "en": "Poland"
+  },
+  {
+   "k": "2on9y3",
+   "en": "Romanian events"
+  },
+  {
+   "k": "19z080z",
+   "en": "Republican Spain"
+  },
+  {
+   "k": "oman7h",
+   "en": "Polish events"
+  },
+  {
+   "k": "1l93q9g",
+   "en": "Recruitable population"
+  },
+  {
+   "k": "mfcmhk",
+   "en": "Qinghai Ma"
+  },
+  {
+   "k": "1338jsc",
+   "en": "Philippines"
+  },
+  {
+   "k": "iffwx9",
+   "en": "Political events"
+  },
+  {
+   "k": "17dojuo",
+   "en": "Romania"
+  },
+  {
+   "k": "8trcwz",
+   "en": "Peru"
+  },
+  {
+   "k": "1mcx7fg",
+   "en": "Romanian events DoD"
+  },
+  {
+   "k": "1b3dd06",
+   "en": "Resources modding"
+  },
+  {
+   "k": "k7oz3q",
+   "en": "Resource prospecting decisions"
+  },
+  {
+   "k": "ap23k7",
+   "en": "Portugal"
+  },
+  {
+   "k": "oob26",
+   "en": "Portrait modding"
+  },
+  {
+   "k": "xn2gzq",
+   "en": "Posteffect modding"
+  },
+  {
+   "k": "1ybn5le",
+   "en": "Republic of Syria"
+  },
+  {
+   "k": "2x1rp9",
+   "en": "Reconnaissance"
+  },
+  {
+   "k": "b8vj3h",
+   "en": "Portuguese events"
+  },
+  {
+   "k": "y6643t",
+   "en": "Rule Britannia"
+  },
+  {
+   "k": "eip8y3",
+   "en": "Political decisions"
+  },
+  {
+   "k": "2bgaq0",
+   "en": "Pinot Noirway"
+  },
+  {
+   "k": "o566qq",
+   "en": "Peruvian decisions"
+  },
+  {
+   "k": "l9tvwv",
+   "en": "Protektorat Böhmen-Mähren"
+  },
+  {
+   "k": "5hwjw1",
+   "en": "Raid"
+  },
+  {
+   "k": "1g54ele",
+   "en": "Reichskommissariats"
+  },
+  {
+   "k": "nxzqyh",
+   "en": "Releasable countries"
+  },
+  {
+   "k": "152kt9w",
+   "en": "Releasable countries/Africa"
+  },
+  {
+   "k": "1yan3fi",
+   "en": "Releasable countries/Oceania"
+  },
+  {
+   "k": "rf3bt7",
+   "en": "Releasable countries/Americas"
+  },
+  {
+   "k": "mwa4m4",
+   "en": "Releasable countries/Asia"
+  },
+  {
+   "k": "30stvv",
+   "en": "Releasable countries/Soviet Union"
+  },
+  {
+   "k": "1og2pue",
+   "en": "Reorganized National Government of the Republic of China"
+  },
+  {
+   "k": "18euuzw",
+   "en": "Releasable countries/Europe"
+  },
+  {
+   "k": "woj59t",
+   "en": "Peace for Our Time"
+  },
+  {
+   "k": "1xbem1u",
+   "en": "Political parties and leaders (releasable countries)"
+  },
+  {
+   "k": "596n7i",
+   "en": "Polish events NSB"
+  },
+  {
+   "k": "ccmhen",
+   "en": "Ship"
+  },
+  {
+   "k": "8awmmu",
+   "en": "State"
+  },
+  {
+   "k": "1rjf55b",
+   "en": "Support companies technology"
+  },
+  {
+   "k": "1jjpogc",
+   "en": "Soviet Union"
+  },
+  {
+   "k": "gkat0o",
+   "en": "Scopes"
+  },
+  {
+   "k": "1ckcs88",
+   "en": "South Africa"
+  },
+  {
+   "k": "d63qnz",
+   "en": "Submarine Operations"
+  },
+  {
+   "k": "1s1lfqm",
+   "en": "Spain"
+  },
+  {
+   "k": "1fpl4gs",
+   "en": "Soviet events"
+  },
+  {
+   "k": "1cd4pnn",
+   "en": "South African events"
+  },
+  {
+   "k": "fogdmw",
+   "en": "Spirit"
+  },
+  {
+   "k": "1xpo2pa",
+   "en": "Shanxi"
+  },
+  {
+   "k": "1rn02c8",
+   "en": "Spanish events"
+  },
+  {
+   "k": "1lt51ah",
+   "en": "Slovakia"
+  },
+  {
+   "k": "1apefkn",
+   "en": "Sinkiang"
+  },
+  {
+   "k": "10pjk1m",
+   "en": "State modding"
+  },
+  {
+   "k": "kh5sdo",
+   "en": "Supply areas modding"
+  },
+  {
+   "k": "ux1f97",
+   "en": "Strategic region modding"
+  },
+  {
+   "k": "1cdbwnb",
+   "en": "Siam"
+  },
+  {
+   "k": "pccj5r",
+   "en": "Saudi Arabia"
+  },
+  {
+   "k": "19o3duk",
+   "en": "Scripted GUI modding"
+  },
+  {
+   "k": "d27zos",
+   "en": "Sound modding"
+  },
+  {
+   "k": "17g181z",
+   "en": "Strategic region"
+  },
+  {
+   "k": "v7j5in",
+   "en": "Sunrise Invasion"
+  },
+  {
+   "k": "mkpqzr",
+   "en": "Sheikhdom of Kuwait"
+  },
+  {
+   "k": "18dyjg2",
+   "en": "SS recruitment events"
+  },
+  {
+   "k": "2ea3jz",
+   "en": "Spanish events LaR"
+  },
+  {
+   "k": "81yg4",
+   "en": "Spanish Civil War layout"
+  },
+  {
+   "k": "7z37i7",
+   "en": "Soviet events NSB"
+  },
+  {
+   "k": "1f3sjrc",
+   "en": "Sultanate of Aussa"
+  },
+  {
+   "k": "v21aiw",
+   "en": "Soviet decisions"
+  },
+  {
+   "k": "ov8z8s",
+   "en": "Ship designer"
+  },
+  {
+   "k": "pyuk7u",
+   "en": "Special forces doctrine"
+  },
+  {
+   "k": "1si9bv5",
+   "en": "Siberian Tiger"
+  },
+  {
+   "k": "1yrpx9x",
+   "en": "Special project"
+  },
+  {
+   "k": "1pa6tqp",
+   "en": "Scientist"
+  },
+  {
+   "k": "11w1wdm",
+   "en": "Sapmi united by the fire"
+  },
+  {
+   "k": "93v1a1",
+   "en": "Soviet events WtT"
+  },
+  {
+   "k": "15ogagd",
+   "en": "Soviet events NSB 2"
+  },
+  {
+   "k": "1uonzvy",
+   "en": "Shandong Clique"
+  },
+  {
+   "k": "1qtcbpt",
+   "en": "Sichuan Clique"
+  },
+  {
+   "k": "v347k7",
+   "en": "Second Philippine Republic"
+  },
+  {
+   "k": "1lya1ds",
+   "en": "Sudetenland"
+  },
+  {
+   "k": "1winv95",
+   "en": "Trade"
+  },
+  {
+   "k": "1am2g8e",
+   "en": "Terrain"
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "1mtqtby",
+   "en": "Together for Victory"
+  },
+  {
+   "k": "1787j8i",
+   "en": "Switzerland"
+  },
+  {
+   "k": "1t5bxxt",
+   "en": "Troubleshooting"
+  },
+  {
+   "k": "1gxg1qt",
+   "en": "Tibet"
+  },
+  {
+   "k": "1he15ql",
+   "en": "Sweden"
+  },
+  {
+   "k": "1sbvi03",
+   "en": "Technology modding"
+  },
+  {
+   "k": "38tzan",
+   "en": "Turkey"
+  },
+  {
+   "k": "1b0qmp9",
+   "en": "Tannu Tuva"
+  },
+  {
+   "k": "1en4gyc",
+   "en": "The Dragon Swallowed the Sun"
+  },
+  {
+   "k": "jx0nbg",
+   "en": "The People Have Stood Up!"
+  },
+  {
+   "k": "nd2087",
+   "en": "The Second Sino-Japanese War"
+  },
+  {
+   "k": "5khp3f",
+   "en": "Trait"
+  },
+  {
+   "k": "atfn08",
+   "en": "Treading the Narrow Path"
+  },
+  {
+   "k": "s6v7w2",
+   "en": "Tank designer"
+  },
+  {
+   "k": "1w3qo7j",
+   "en": "Support company"
+  },
+  {
+   "k": "g222e6",
+   "en": "The Road to 56"
+  },
+  {
+   "k": "14pergh",
+   "en": "Swiss events"
+  },
+  {
+   "k": "adaup0",
+   "en": "Turkish decisions"
+  },
+  {
+   "k": "1u177aa",
+   "en": "True Blitzkrieg"
+  },
+  {
+   "k": "1i7hp5l",
+   "en": "Trial of Allegiance"
+  },
+  {
+   "k": "1505xph",
+   "en": "The Lion King"
+  },
+  {
+   "k": "h2vhls",
+   "en": "The Red Sea"
+  },
+  {
+   "k": "s1f6yb",
+   "en": "The Magic School Bus"
+  },
+  {
+   "k": "40nddh",
+   "en": "This time for Africa"
+  },
+  {
+   "k": "rkbf7e",
+   "en": "This is going to be LIT"
+  },
+  {
+   "k": "1qgfwu3",
+   "en": "The 501st Legion"
+  },
+  {
+   "k": "1xa5j19",
+   "en": "The Lenin Boys are Back in Town"
+  },
+  {
+   "k": "1ujswz2",
+   "en": "The True Successor"
+  },
+  {
+   "k": "1w0tx5p",
+   "en": "Tour de France"
+  },
+  {
+   "k": "qfcq2x",
+   "en": "This achievement is dedicated to the brave soldiers of..."
+  },
+  {
+   "k": "dr7lcs",
+   "en": "That's Sikh!"
+  },
+  {
+   "k": "129wtu3",
+   "en": "The Soviet Onion"
+  },
+  {
+   "k": "1f0wf23",
+   "en": "This Achievement is Cheesy"
+  },
+  {
+   "k": "1166u2k",
+   "en": "The Munich Disagreement"
+  },
+  {
+   "k": "uidicw",
+   "en": "The Romanovs laugh last"
+  },
+  {
+   "k": "1py9yce",
+   "en": "The Danelaw"
+  },
+  {
+   "k": "12wkrbv",
+   "en": "The return of the king"
+  },
+  {
+   "k": "4mehld",
+   "en": "The Dragon Rises"
+  },
+  {
+   "k": "1hwegks",
+   "en": "The Legacy of Cyrus the Great"
+  },
+  {
+   "k": "913eow",
+   "en": "Thunder at Our Gates"
+  },
+  {
+   "k": "1j7admk",
+   "en": "The Neverending Story"
+  },
+  {
+   "k": "128mkpw",
+   "en": "The Sun Will Never Set"
+  },
+  {
+   "k": "13uxs8t",
+   "en": "Trial of Allegiance shared decisions"
+  },
+  {
+   "k": "7tkm24",
+   "en": "United States"
+  },
+  {
+   "k": "vcugn7",
+   "en": "United Kingdom"
+  },
+  {
+   "k": "t3mdrb",
+   "en": "Unit"
+  },
+  {
+   "k": "sk09wz",
+   "en": "Weather"
+  },
+  {
+   "k": "hds6yo",
+   "en": "War goal"
+  },
+  {
+   "k": "hf7efl",
+   "en": "World tension"
+  },
+  {
+   "k": "lshcot",
+   "en": "User interface"
+  },
+  {
+   "k": "10oj09y",
+   "en": "Variant"
+  },
+  {
+   "k": "1wgklhv",
+   "en": "Yugoslavia"
+  },
+  {
+   "k": "1k9ix94",
+   "en": "Turkish events"
+  },
+  {
+   "k": "jhsegk",
+   "en": "Victoria 2 to Hearts of Iron IV converter"
+  },
+  {
+   "k": "1jguap0",
+   "en": "Yugoslavian events"
+  },
+  {
+   "k": "85wjas",
+   "en": "War justification events"
+  },
+  {
+   "k": "146yn1s",
+   "en": "Yunnan"
+  },
+  {
+   "k": "xx4fj0",
+   "en": "Venezuela"
+  },
+  {
+   "k": "2kxbcz",
+   "en": "Yugoslavian events DoD"
+  },
+  {
+   "k": "15d0w5",
+   "en": "Vichy France"
+  },
+  {
+   "k": "1bdehsr",
+   "en": "Unit modding"
+  },
+  {
+   "k": "kkz0te",
+   "en": "Waking the Tiger"
+  },
+  {
+   "k": "1ny9qg7",
+   "en": "Uruguay"
+  },
+  {
+   "k": "5h1qg9",
+   "en": "Yemen"
+  },
+  {
+   "k": "txikg3",
+   "en": "West Germany"
+  },
+  {
+   "k": "15zizul",
+   "en": "Unaligned States of America"
+  },
+  {
+   "k": "d9t6cp",
+   "en": "Vojvodina"
+  },
+  {
+   "k": "1v5z5lb",
+   "en": "Vic2ToHoI4: Focus Trees"
+  },
+  {
+   "k": "9xu0op",
+   "en": "Victoria 3 to Hearts of Iron IV converter"
+  },
+  {
+   "k": "6q2ked",
+   "en": "Tutorial videos"
+  },
+  {
+   "k": "im0wjw",
+   "en": "You Shall Not Pass"
+  },
+  {
+   "k": "jg2zxx",
+   "en": "United Netherlands (disambiguation)"
+  },
+  {
+   "k": "60mpq4",
+   "en": "War participation"
+  },
+  {
+   "k": "1p914kz",
+   "en": "Welsh decisions"
+  },
+  {
+   "k": "qa2vlt",
+   "en": "Venezuelan decisions"
+  },
+  {
+   "k": "9qfyvk",
+   "en": "Yugoslavian decisions"
+  },
+  {
+   "k": "1hl7ela",
+   "en": "Yugoslavian missions"
+  },
+  {
+   "k": "1ikye0b",
+   "en": "Woman in a High Castle"
+  },
+  {
+   "k": "1ozryxy",
+   "en": "William Wallis"
+  },
+  {
+   "k": "ybksw8",
+   "en": "…and you get a canton, everybody gets a canton!"
+  },
+  {
+   "k": "p9p761",
+   "en": "We’re Putting the Band Back Together"
+  },
+  {
+   "k": "41je95",
+   "en": "Uralic brothers united"
+  },
+  {
+   "k": "3cbab0",
+   "en": "United Netherlands (achievement)"
+  },
+  {
+   "k": "1uvvsk0",
+   "en": "United Baltic Duchy"
+  }
+ ]
+}

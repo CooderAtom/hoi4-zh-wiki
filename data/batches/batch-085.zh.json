@@ -1,0 +1,1781 @@
+{
+ "batch": 85,
+ "items": [
+  {
+   "k": "yghwxk",
+   "zh": "还会给出玩家所悬停的精灵图和界面元素的名称，从而可通过 ⟦0⟧ 找到该图像的位置"
+  },
+  {
+   "k": "r4n62i",
+   "zh": "同时搜索每一个 ⟦0⟧ 文件。"
+  },
+  {
+   "k": "dw6d81",
+   "zh": "/Hearts of Iron IV/interface/*.gfx"
+  },
+  {
+   "k": "113msog",
+   "zh": "set_var [<variable>] [<value>]"
+  },
+  {
+   "k": "ggppsj",
+   "zh": "将变量的值改为指定值。"
+  },
+  {
+   "k": "ljaixd",
+   "zh": "get_var [<variable>]"
+  },
+  {
+   "k": "aocgpa",
+   "zh": "在控制台中显示变量的值"
+  },
+  {
+   "k": "1ozntik",
+   "zh": "list_vars"
+  },
+  {
+   "k": "cxiwqo",
+   "zh": "列出在所选作用域中设置的变量及其值。"
+  },
+  {
+   "k": "1yse8yt",
+   "zh": "set_country_flag [<Country Flag>]"
+  },
+  {
+   "k": "c4ls1z",
+   "zh": "为当前游玩的国家添加一个国家标记。"
+  },
+  {
+   "k": "kqy1iy",
+   "zh": "如果你在指令中填入其他国家的标签，例如 \"set_country_flag flag AUS\"，则不会生效，即使控制台显示已生效。"
+  },
+  {
+   "k": "r77frt",
+   "zh": "set_global_flag [<Global Flag>]"
+  },
+  {
+   "k": "1w9mb29",
+   "zh": "添加一个全局标记。"
+  },
+  {
+   "k": "ls3e2d",
+   "zh": "list_flags"
+  },
+  {
+   "k": "1kmqztj",
+   "zh": "在控制台窗口中列出当前激活的标记。"
+  },
+  {
+   "k": "1l8bm3v",
+   "zh": "输入该指令时，若未选中任何对象（global_flag）、选中了国家（country_flag）或选中了州（state_flag），效果会相应变化。"
+  },
+  {
+   "k": "1g4k79z",
+   "zh": "fast_forward [<amount of days>], [observer]"
+  },
+  {
+   "k": "c8c3mb",
+   "zh": "快进指定天数。"
+  },
+  {
+   "k": "s0yps5",
+   "zh": "list_hidden_focuses"
+  },
+  {
+   "k": "qhsr52",
+   "zh": "列出某个国家的所有隐藏焦点。"
+  },
+  {
+   "k": "1gcupcv",
+   "zh": "show_focuses"
+  },
+  {
+   "k": "an8nc7",
+   "zh": "显示所有隐藏焦点。"
+  },
+  {
+   "k": "15wd1ue",
+   "zh": "trigger [<scripted_trigger_name>]"
+  },
+  {
+   "k": "uok0c",
+   "zh": "检查某个脚本化触发条件是否为真。"
+  },
+  {
+   "k": "i563zm",
+   "zh": "eval_trigger [<trigger code block>]"
+  },
+  {
+   "k": "1iq4y7",
+   "zh": "检查该指令后面的触发条件代码在当前所选作用域内是否为真。"
+  },
+  {
+   "k": "vm6hem",
+   "zh": "示例：⟦0⟧"
+  },
+  {
+   "k": "12hrqw8",
+   "zh": "eval_trigger OR = { has_completed_focus = GER_remilitarize_the_rhineland has_war_support > 0.5 }"
+  },
+  {
+   "k": "15mqbv0",
+   "zh": "effect (e) [<scripted_effect_name>]"
+  },
+  {
+   "k": "1sbz1kq",
+   "zh": "在当前所选作用域内执行一个 ⟦0⟧。"
+  },
+  {
+   "k": "yuleew",
+   "zh": "脚本化效果"
+  },
+  {
+   "k": "rsdenp",
+   "zh": "示例：对一个州使用 ⟦0⟧ 将在该州上执行该效果。"
+  },
+  {
+   "k": "wgy8de",
+   "zh": "e POL_remove_danzig_effect"
+  },
+  {
+   "k": "nlqq2y",
+   "zh": "eval_effect [<effect code block>]"
+  },
+  {
+   "k": "fdaaly",
+   "zh": "在当前所选作用域内执行该指令后面的效果代码。"
+  },
+  {
+   "k": "gdkkv9",
+   "zh": "示例：⟦0⟧ 会将当前所选国家切换为德国国策树。"
+  },
+  {
+   "k": "1lqcznr",
+   "zh": "eval_effect load_focus_tree = german_focus"
+  },
+  {
+   "k": "11s9rux",
+   "zh": "ai [country tag...]"
+  },
+  {
+   "k": "1pv2r6y",
+   "zh": "开启或关闭 AI"
+  },
+  {
+   "k": "yvqnj7",
+   "zh": "不带参数时切换所有国家的 AI。带参数时，为这些国家切换相对于通用规则的例外。可用于确认崩溃是否与 AI 有关。"
+  },
+  {
+   "k": "17eutii",
+   "zh": "aiview"
+  },
+  {
+   "k": "13xc3t9",
+   "zh": "启用 AI 调试信息"
+  },
+  {
+   "k": "1193ko9",
+   "zh": "human_ai"
+  },
+  {
+   "k": "elhjes",
+   "zh": "让 AI 控制当前由玩家领导的国家，同时玩家仍保留控制权。"
+  },
+  {
+   "k": "c2odkd",
+   "zh": "AI 还会在 ⟦0⟧ 内创建日志，该文件位于 ⟦1⟧。"
+  },
+  {
+   "k": "1nqqycb",
+   "zh": "/Hearts of Iron IV/logs/scripted_ai.log"
+  },
+  {
+   "k": "3tohp",
+   "zh": "用户目录"
+  },
+  {
+   "k": "i0z3qn",
+   "zh": "set_cosmetic_tag [<country tag>] [<cosmetic tag>]"
+  },
+  {
+   "k": "12qqzcb",
+   "zh": "更改国家的名称和国旗"
+  },
+  {
+   "k": "1k3plj3",
+   "zh": "set_cosmetic_tag USA SOV"
+  },
+  {
+   "k": "1br9ah2",
+   "zh": "reload [<type>]"
+  },
+  {
+   "k": "1lcnwzd",
+   "zh": "重新加载指定类型的文件。也接受 ⟦0⟧ 文件夹中的单个文件。等同于通过启动选项开启调试模式后覆盖保存文件时自动执行的效果。"
+  },
+  {
+   "k": "1ivt1a2",
+   "zh": "/Hearts of Iron IV/interface/"
+  },
+  {
+   "k": "21g2o8",
+   "zh": "reload loc（重新加载本地化文件） reload focus（重新加载焦点） reload landcombat.gui（重新加载陆战界面）"
+  },
+  {
+   "k": "1bxua8i",
+   "zh": "reload loc（重新加载本地化文件）"
+  },
+  {
+   "k": "1g2kjv1",
+   "zh": "reload focus（重新加载焦点）"
+  },
+  {
+   "k": "9iaqr9",
+   "zh": "reload landcombat.gui（重新加载陆战界面）"
+  },
+  {
+   "k": "60dhu9",
+   "zh": "reloadoob [<Target Country Tag>]"
+  },
+  {
+   "k": "1nnfnyf",
+   "zh": "重新加载战斗序列。"
+  },
+  {
+   "k": "1th1q9b",
+   "zh": "reloadinterface"
+  },
+  {
+   "k": "11myv8",
+   "zh": "重新加载整个界面"
+  },
+  {
+   "k": "sadata",
+   "zh": "reloadtechnologies"
+  },
+  {
+   "k": "1q333qx",
+   "zh": "重新加载科技数据库"
+  },
+  {
+   "k": "15ij3yd",
+   "zh": "updateequipments"
+  },
+  {
+   "k": "1vqtlq7",
+   "zh": "更新装备数据库"
+  },
+  {
+   "k": "nyywa1",
+   "zh": "updatesubunits"
+  },
+  {
+   "k": "1wqw62z",
+   "zh": "更新子单位数据库"
+  },
+  {
+   "k": "11xpwto",
+   "zh": "update_loc [localization tag]"
+  },
+  {
+   "k": "11gh2z7",
+   "zh": "更新本地化标签文件"
+  },
+  {
+   "k": "9bb0pd",
+   "zh": "error"
+  },
+  {
+   "k": "11j9vul",
+   "zh": "打开错误日志文件。"
+  },
+  {
+   "k": "ckimpd",
+   "zh": "如果文件夹路径中包含特殊字符，该指令将无法使用。等同于在启动选项中启用调试模式后点击错误狗。"
+  },
+  {
+   "k": "rc6rlq",
+   "zh": "imgui"
+  },
+  {
+   "k": "bla2tw",
+   "zh": "控制 ImGui 界面。使用 ⟦0⟧ 列出可用的子指令。这些界面涵盖多种实用的模组制作工具，例如脚本性能分析、AI 调试和角色列表。"
+  },
+  {
+   "k": "oykjyn",
+   "zh": "imgui show"
+  },
+  {
+   "k": "7j5qq6",
+   "zh": "goto_province [province id]"
+  },
+  {
+   "k": "c1b8l6",
+   "zh": "将镜头位置移动到指定省份。"
+  },
+  {
+   "k": "1m4jmm6",
+   "zh": "goto_state [state id]"
+  },
+  {
+   "k": "7wrzc9",
+   "zh": "将镜头位置移动到指定州。"
+  },
+  {
+   "k": "4bgvrl",
+   "zh": "其他游戏内指令"
+  },
+  {
+   "k": "r5d8tg",
+   "zh": "province_ids (pid)"
+  },
+  {
+   "k": "1pdgui6",
+   "zh": "在地图上显示省份 ID"
+  },
+  {
+   "k": "1par2g3",
+   "zh": "ShowTechBonus"
+  },
+  {
+   "k": "1cenkax",
+   "zh": "用途未知，但从名称推测，它与科技加成有关。"
+  },
+  {
+   "k": "18oerzr",
+   "zh": "仅供开发者使用。"
+  },
+  {
+   "k": "43ljar",
+   "zh": "normals"
+  },
+  {
+   "k": "tjugm3",
+   "zh": "用途未知。"
+  },
+  {
+   "k": "bwr8cl",
+   "zh": "rendertype"
+  },
+  {
+   "k": "g5ajfz",
+   "zh": "报告所使用的渲染后端"
+  },
+  {
+   "k": "y5kh5z",
+   "zh": "tweakergui"
+  },
+  {
+   "k": "1jslyey",
+   "zh": "生成一个调节器 GUI"
+  },
+  {
+   "k": "pvbdgk",
+   "zh": "time"
+  },
+  {
+   "k": "8q62wy",
+   "zh": "现在是什么时间？"
+  },
+  {
+   "k": "ez24sv",
+   "zh": "reloadfx [Arguments: map/mapname/postfx or *.fx filename]"
+  },
+  {
+   "k": "qkzvr3",
+   "zh": "重新加载着色器"
+  },
+  {
+   "k": "6lj2ih",
+   "zh": "particle_editor"
+  },
+  {
+   "k": "1rpnbj1",
+   "zh": "生成一个粒子编辑器"
+  },
+  {
+   "k": "1v9f707",
+   "zh": "analyzetheatres (anth)"
+  },
+  {
+   "k": "1nu7bg1",
+   "zh": "分析战区是否存在错误。"
+  },
+  {
+   "k": "1k56gei",
+   "zh": "massconquer (massc)"
+  },
+  {
+   "k": "19abc0v",
+   "zh": "批量征服工具。需要使用直接的省份名称。"
+  },
+  {
+   "k": "1jrhc95",
+   "zh": "aircombat (airc) [<scenario name>] [<result name>] [<province id>] [<state id with airbase>] [<state id with airbase>] [<equipment type>] [<equipment type>] [<equipment creator country>] [<equipment creator country>]"
+  },
+  {
+   "k": "1c43yra",
+   "zh": "在指定位置生成一场空战。"
+  },
+  {
+   "k": "17sj67l",
+   "zh": "fronts"
+  },
+  {
+   "k": "ay6x3x",
+   "zh": "切换外国前线的可见性"
+  },
+  {
+   "k": "1st03is",
+   "zh": "ai_front_dump (aifrontdump)"
+  },
+  {
+   "k": "1h7k2rp",
+   "zh": "将 AI 前线数据导出到日志文件，需要选中一个单位"
+  },
+  {
+   "k": "qt88nv",
+   "zh": "traderoutes"
+  },
+  {
+   "k": "12ycgbg",
+   "zh": "切换贸易路线的可见性"
+  },
+  {
+   "k": "z9saw6",
+   "zh": "debug_tactics"
+  },
+  {
+   "k": "1wcpgsq",
+   "zh": "切换战术调试提示框的可见性"
+  },
+  {
+   "k": "1lnsrht",
+   "zh": "reloadsupply (relsup)"
+  },
+  {
+   "k": "1lx1utt",
+   "zh": "重新初始化补给系统。"
+  },
+  {
+   "k": "14u4fnh",
+   "zh": "deltat [<speed factor>]"
+  },
+  {
+   "k": "105c4cw",
+   "zh": "控制动画速度"
+  },
+  {
+   "k": "1r2l7rv",
+   "zh": "building_health (bhealth) [<building type>] [<state or prov id>] [<building level>] [<health to add>]"
+  },
+  {
+   "k": "1w3q4m",
+   "zh": "更改指定建筑的耐久度"
+  },
+  {
+   "k": "1364sua",
+   "zh": "nomapicons"
+  },
+  {
+   "k": "1r4z2ko",
+   "zh": "切换地图图标。"
+  },
+  {
+   "k": "f8zxnv",
+   "zh": "nopausetext"
+  },
+  {
+   "k": "8a2t10",
+   "zh": "切换暂停横幅，便于截取更干净的截图。"
+  },
+  {
+   "k": "1pwf14h",
+   "zh": "nextsong"
+  },
+  {
+   "k": "49t6g1",
+   "zh": "切换当前播放的背景音乐。"
+  },
+  {
+   "k": "1b6ves8",
+   "zh": "combatsound"
+  },
+  {
+   "k": "1yo6xmb",
+   "zh": "战斗视图随机播放音效的频率是多少？0-50"
+  },
+  {
+   "k": "te8s85",
+   "zh": "morehumans (humans) [num]"
+  },
+  {
+   "k": "ub4c4k",
+   "zh": "添加更多人类玩家"
+  },
+  {
+   "k": "1hc62f6",
+   "zh": "window (wnd) [Arguments: open/close] [window gui name]"
+  },
+  {
+   "k": "x2lsan",
+   "zh": "打开或关闭指定窗口"
+  },
+  {
+   "k": "v149x4",
+   "zh": "poll"
+  },
+  {
+   "k": "18w0fw",
+   "zh": "轮询有效事件"
+  },
+  {
+   "k": "vzfwi1",
+   "zh": "pause_in_hours"
+  },
+  {
+   "k": "11p1g68",
+   "zh": "调用该指令后，游戏将在 X 小时后暂停"
+  },
+  {
+   "k": "fcgbtq",
+   "zh": "winwars"
+  },
+  {
+   "k": "1uav1w6",
+   "zh": "为该国家在所有战争中提供最大战争贡献"
+  },
+  {
+   "k": "m552pq",
+   "zh": "自 1.9.1 补丁起该指令已不存在"
+  },
+  {
+   "k": "1rflsp4",
+   "zh": "testevent [<Event ID>] [<Character ID>]"
+  },
+  {
+   "k": "6cs5s0",
+   "zh": "在不触发事件的情况下测试一个事件"
+  },
+  {
+   "k": "1jnvbj5",
+   "zh": "resign"
+  },
+  {
+   "k": "z3cbsm",
+   "zh": "退出游戏"
+  },
+  {
+   "k": "y4wtfh",
+   "zh": "add_interest [<Country tag>]"
+  },
+  {
+   "k": "24k5aa",
+   "zh": "将指定国家标签加入你的关注"
+  },
+  {
+   "k": "16jmrkq",
+   "zh": "remove_interest [<Country tag>]"
+  },
+  {
+   "k": "12lsu49",
+   "zh": "将指定国家标签从你的关注中移除"
+  },
+  {
+   "k": "4n99f",
+   "zh": "add_diplo"
+  },
+  {
+   "k": "1w7jiad",
+   "zh": "添加外交接触"
+  },
+  {
+   "k": "52nyxd",
+   "zh": "PrintSynchStuff"
+  },
+  {
+   "k": "13wiflr",
+   "zh": "打印随机计数与种子"
+  },
+  {
+   "k": "1mynad7",
+   "zh": "SetRandomCount"
+  },
+  {
+   "k": "1wimnhj",
+   "zh": "将随机计数设置为 0 或参数值"
+  },
+  {
+   "k": "1b9admb",
+   "zh": "ai_invasion"
+  },
+  {
+   "k": "iog1u2",
+   "zh": "切换 AI 海军登陆"
+  },
+  {
+   "k": "166pqg9",
+   "zh": "ai_pp_log"
+  },
+  {
+   "k": "1djhzc8",
+   "zh": "将 AI 对政治点数的使用打印到日志"
+  },
+  {
+   "k": "1m5tgpn",
+   "zh": "ai_idea_desire_log"
+  },
+  {
+   "k": "9kyjt9",
+   "zh": "将 AI 对理念的偏好打印到日志。仅限当前国家"
+  },
+  {
+   "k": "ef62em",
+   "zh": "ai_force_template"
+  },
+  {
+   "k": "8avw7i",
+   "zh": "强制 AI 只将陆军经验用于师编制设计"
+  },
+  {
+   "k": "114kw90",
+   "zh": "ai_force_equipment"
+  },
+  {
+   "k": "14u7py4",
+   "zh": "强制 AI 只将陆军经验用于装备设计"
+  },
+  {
+   "k": "1aslktx",
+   "zh": "ai_front_id"
+  },
+  {
+   "k": "1j5x974",
+   "zh": "获取所选集团军前线调试 ID 的地址"
+  },
+  {
+   "k": "mrovwt",
+   "zh": "fow (debug_fow) [Province ID]"
+  },
+  {
+   "k": "169np8m",
+   "zh": "关闭战争迷雾，若指定省份则仅在该省份内生效。"
+  },
+  {
+   "k": "1jhmbes",
+   "zh": "collision (debug_collision)"
+  },
+  {
+   "k": "5nre9j",
+   "zh": "切换法线/包围盒/碰撞体的调试显示"
+  },
+  {
+   "k": "1b2oe62",
+   "zh": "savegame"
+  },
+  {
+   "k": "1779lxa",
+   "zh": "创建一个存档文件。"
+  },
+  {
+   "k": "7mczqo",
+   "zh": "savecheck"
+  },
+  {
+   "k": "1qj31bf",
+   "zh": "创建一个存档文件（Test_01），加载该存档文件，再创建一个新存档（Test_02）。这些存档文件应当看起来相同。"
+  },
+  {
+   "k": "23nfn1",
+   "zh": "显示你的 IP"
+  },
+  {
+   "k": "1k70zhx",
+   "zh": "requestgamestate"
+  },
+  {
+   "k": "1sfxy8h",
+   "zh": "向主机请求游戏状态"
+  },
+  {
+   "k": "16cr8oo",
+   "zh": "nudge"
+  },
+  {
+   "k": "zrzcjq",
+   "zh": "转到微调工具"
+  },
+  {
+   "k": "cnl5yb",
+   "zh": "mapmode [Mapmode type (int)]"
+  },
+  {
+   "k": "187fgtm",
+   "zh": "更改地图模式。"
+  },
+  {
+   "k": "m934ns",
+   "zh": "fullscreen"
+  },
+  {
+   "k": "c73n8j",
+   "zh": "切换全屏"
+  },
+  {
+   "k": "5yho9n",
+   "zh": "prices"
+  },
+  {
+   "k": "fpp8zi",
+   "zh": "价格信息"
+  },
+  {
+   "k": "2w1uz9",
+   "zh": "remove_core [<State ID>] [<Country Tag>]"
+  },
+  {
+   "k": "sdfwdy",
+   "zh": "移除核心。"
+  },
+  {
+   "k": "13xu36v",
+   "zh": "该指令无效"
+  },
+  {
+   "k": "uf284y",
+   "zh": "debug_zoom"
+  },
+  {
+   "k": "npinx1",
+   "zh": "放大游戏画面"
+  },
+  {
+   "k": "90dau2",
+   "zh": "debug_types"
+  },
+  {
+   "k": "1xz16ch",
+   "zh": "将为所有动态引用对象打印数据类型。仅在使用 RTTI 时可用。"
+  },
+  {
+   "k": "91gand",
+   "zh": "debug_show_event_ID"
+  },
+  {
+   "k": "1ykkbsi",
+   "zh": "显示事件 ID"
+  },
+  {
+   "k": "gl81ub",
+   "zh": "debug_commands"
+  },
+  {
+   "k": "ipq3ti",
+   "zh": "将 commandcount 打印到 message.log"
+  },
+  {
+   "k": "1qy2oec",
+   "zh": "debug_events"
+  },
+  {
+   "k": "yscg59",
+   "zh": "开始统计事件"
+  },
+  {
+   "k": "1ycifc2",
+   "zh": "debug_dumpevents"
+  },
+  {
+   "k": "129lcs6",
+   "zh": "将事件数据导出到游戏日志"
+  },
+  {
+   "k": "1danta2",
+   "zh": "debug_diploactions"
+  },
+  {
+   "k": "lqr99d",
+   "zh": "开始统计外交行动"
+  },
+  {
+   "k": "xcnhyo",
+   "zh": "debug_dumpdiploactions"
+  },
+  {
+   "k": "c66m2m",
+   "zh": "将外交行动数据导出到游戏日志"
+  },
+  {
+   "k": "wksnp7",
+   "zh": "debug_assert"
+  },
+  {
+   "k": "1f9z2pw",
+   "zh": "开启/关闭断言"
+  },
+  {
+   "k": "ygnfs9",
+   "zh": "debug_nomouse"
+  },
+  {
+   "k": "1da1m4c",
+   "zh": "开启/关闭鼠标滚轮"
+  },
+  {
+   "k": "ts7vke",
+   "zh": "debug_terrain"
+  },
+  {
+   "k": "konzc2",
+   "zh": "开启/关闭地形"
+  },
+  {
+   "k": "1keknrm",
+   "zh": "debug_cities"
+  },
+  {
+   "k": "1xdi7uh",
+   "zh": "开启/关闭城市涂色模式"
+  },
+  {
+   "k": "tiihzk",
+   "zh": "debug_water"
+  },
+  {
+   "k": "1f1k5n4",
+   "zh": "开启/关闭水面"
+  },
+  {
+   "k": "uh8g4x",
+   "zh": "debug_fronts"
+  },
+  {
+   "k": "l1mfda",
+   "zh": "切换插值前线调试"
+  },
+  {
+   "k": "15kotqi",
+   "zh": "debug_off_front_snap (dbg_fsnap)"
+  },
+  {
+   "k": "g2vuby",
+   "zh": "切换进攻前线吸附调试"
+  },
+  {
+   "k": "11z911o",
+   "zh": "debug_borders"
+  },
+  {
+   "k": "1e0dy4s",
+   "zh": "开启/关闭边界"
+  },
+  {
+   "k": "fqptqq",
+   "zh": "debug_trees"
+  },
+  {
+   "k": "1qbayam",
+   "zh": "开启/关闭树木"
+  },
+  {
+   "k": "1y1t32e",
+   "zh": "debug_rivers"
+  },
+  {
+   "k": "10gyyjk",
+   "zh": "开启/关闭河流"
+  },
+  {
+   "k": "qj4hg1",
+   "zh": "debug_postfx"
+  },
+  {
+   "k": "b0bqe9",
+   "zh": "开启/关闭后期特效"
+  },
+  {
+   "k": "je7jxy",
+   "zh": "debug_sky"
+  },
+  {
+   "k": "qpo8tm",
+   "zh": "开启/关闭天空"
+  },
+  {
+   "k": "1j7pzw",
+   "zh": "debug_bloom"
+  },
+  {
+   "k": "99439s",
+   "zh": "开启/关闭泛光"
+  },
+  {
+   "k": "1n8df74",
+   "zh": "debug_tooltip"
+  },
+  {
+   "k": "9kepal",
+   "zh": "开启/关闭提示框"
+  },
+  {
+   "k": "i5bskb",
+   "zh": "debug_nuking"
+  },
+  {
+   "k": "166mmq8",
+   "zh": "允许在不检查任何条件的情况下对每个省份进行核打击。"
+  },
+  {
+   "k": "2zbwz",
+   "zh": "自 1.15.1 补丁起该指令已不存在"
+  },
+  {
+   "k": "1gdzus6",
+   "zh": "flagsoutput [<path>]"
+  },
+  {
+   "k": "nj6fw8",
+   "zh": "从内存创建纹理图集文件。"
+  },
+  {
+   "k": "yhaox3",
+   "zh": "cityreload"
+  },
+  {
+   "k": "127o5ql",
+   "zh": "重新加载城市"
+  },
+  {
+   "k": "jjn9g7",
+   "zh": "version"
+  },
+  {
+   "k": "ecm4t9",
+   "zh": "显示当前游戏版本"
+  },
+  {
+   "k": "46f6ul",
+   "zh": "debug_nogui"
+  },
+  {
+   "k": "1d62yb4",
+   "zh": "开启/关闭 GUI"
+  },
+  {
+   "k": "1g8l0ej",
+   "zh": "debug_volume [<Volume Delta>]"
+  },
+  {
+   "k": "1fju5sy",
+   "zh": "调整音乐音量"
+  },
+  {
+   "k": "cf00pt",
+   "zh": "debug_lockcamera"
+  },
+  {
+   "k": "2iydyw",
+   "zh": "开启/关闭镜头锁定"
+  },
+  {
+   "k": "ou8cc",
+   "zh": "debug_lines"
+  },
+  {
+   "k": "tqutlk",
+   "zh": "切换调试线"
+  },
+  {
+   "k": "lpr1wq",
+   "zh": "debug_entities"
+  },
+  {
+   "k": "1k2yry0",
+   "zh": "切换调试实体"
+  },
+  {
+   "k": "17rtait",
+   "zh": "debug_info"
+  },
+  {
+   "k": "4dcoxr",
+   "zh": "debug_particle"
+  },
+  {
+   "k": "sodwse",
+   "zh": "切换粒子调试信息"
+  },
+  {
+   "k": "n1xjud",
+   "zh": "debug_ai_budget [CountryTag]"
+  },
+  {
+   "k": "1wut9l9",
+   "zh": "显示 AI 预算数据"
+  },
+  {
+   "k": "8ejuh1",
+   "zh": "debug_textures"
+  },
+  {
+   "k": "1b9rctg",
+   "zh": "将纹理信息写入应用程序调试日志"
+  },
+  {
+   "k": "e46xro",
+   "zh": "debug_texture"
+  },
+  {
+   "k": "14fbgc0",
+   "zh": "像泛光一样绘制纹理"
+  },
+  {
+   "k": "l0rlid",
+   "zh": "debug_wireframe"
+  },
+  {
+   "k": "1tbrmy8",
+   "zh": "开启/关闭强制线框"
+  },
+  {
+   "k": "1l4sprn",
+   "zh": "debug_achievements_clear"
+  },
+  {
+   "k": "1hx5qoe",
+   "zh": "清除所有成就和用户统计"
+  },
+  {
+   "k": "ou30w",
+   "zh": "moveunit [<Unit ID>] [<Province ID>]"
+  },
+  {
+   "k": "1hozjoe",
+   "zh": "将单位移动到某个省份"
+  },
+  {
+   "k": "1fapbny",
+   "zh": "spawnactor [<Actorname>] [<Province ID>] [<Animation> OPTIONAL]"
+  },
+  {
+   "k": "1ynten4",
+   "zh": "生成一个带有可选动画的演员"
+  },
+  {
+   "k": "hmpwv9",
+   "zh": "cameraclamp"
+  },
+  {
+   "k": "1td76sx",
+   "zh": "切换镜头限制"
+  },
+  {
+   "k": "1v6naga",
+   "zh": "provtooltipdebug (tdebug)"
+  },
+  {
+   "k": "lzpjc0",
+   "zh": "切换省份提示框中的调试信息"
+  },
+  {
+   "k": "1t7yncc",
+   "zh": "reloadweather [<randomseed>]"
+  },
+  {
+   "k": "uuc8y5",
+   "zh": "重新加载并重新生成天气"
+  },
+  {
+   "k": "f1wd5f",
+   "zh": "weather"
+  },
+  {
+   "k": "1dngtjc",
+   "zh": "切换天气模拟"
+  },
+  {
+   "k": "15gjgn9",
+   "zh": "debug_air_vs_land (dbg_cas)"
+  },
+  {
+   "k": "1tzv1g",
+   "zh": "切换空对地战斗的调试模式。"
+  },
+  {
+   "k": "1unyjiz",
+   "zh": "mapnames"
+  },
+  {
+   "k": "oqg3l3",
+   "zh": "切换地图名称"
+  },
+  {
+   "k": "1iyd6tt",
+   "zh": "gbreload"
+  },
+  {
+   "k": "gcogqw",
+   "zh": "重新加载渐变边界"
+  },
+  {
+   "k": "1b8khli",
+   "zh": "gbpaint [layer] [channel]"
+  },
+  {
+   "k": "8bx0o",
+   "zh": "切换渐变边界涂色"
+  },
+  {
+   "k": "13dv7j8",
+   "zh": "profilelog"
+  },
+  {
+   "k": "i3r0k",
+   "zh": "将性能分析信息输出到 time.log"
+  },
+  {
+   "k": "bvjc22",
+   "zh": "run"
+  },
+  {
+   "k": "7afu5t",
+   "zh": "运行指定文件中的指令列表"
+  },
+  {
+   "k": "1anppgw",
+   "zh": "oos"
+  },
+  {
+   "k": "1qevmix",
+   "zh": "不同步"
+  },
+  {
+   "k": "1fytkm1",
+   "zh": "trigger_docs (effect_docs, scripting_docs, docs)"
+  },
+  {
+   "k": "ef5l1r",
+   "zh": "打印触发条件、效果和变量的文档"
+  },
+  {
+   "k": "1rw818t",
+   "zh": "触发条件/效果的文档将打印到 game.log 文件"
+  },
+  {
+   "k": "1ad0wcb",
+   "zh": "threat [Threat amount]"
+  },
+  {
+   "k": "el3ni9",
+   "zh": "增加或显示当前标签的威胁度，即该标签产生的世界紧张度。"
+  },
+  {
+   "k": "1r4aixr",
+   "zh": "正值将增加当前标签产生的世界紧张度，负值则减少当前标签产生的世界紧张度，并在世界紧张度历史记录中生成相应条目。通过切换标签，可以提升或降低任意特定国家产生的世界紧张度。如果执行 \"threat 999999999\"，会将世界紧张度重置为 0。"
+  },
+  {
+   "k": "bpocpt",
+   "zh": "3dstats"
+  },
+  {
+   "k": "12u8072",
+   "zh": "切换 3D 统计"
+  },
+  {
+   "k": "1yo9q01",
+   "zh": "hdr"
+  },
+  {
+   "k": "y5213c",
+   "zh": "切换 hdr"
+  },
+  {
+   "k": "w4bpsd",
+   "zh": "hdr_debug"
+  },
+  {
+   "k": "1p6hptc",
+   "zh": "切换 hdr 调试"
+  },
+  {
+   "k": "l1yxjp",
+   "zh": "srgb"
+  },
+  {
+   "k": "1s4weti",
+   "zh": "切换 sRGB"
+  },
+  {
+   "k": "1riqlss",
+   "zh": "bloom"
+  },
+  {
+   "k": "1dku4h",
+   "zh": "切换泛光"
+  },
+  {
+   "k": "1y1oefx",
+   "zh": "PostEffectVolumes.Default [posteffect_values name]"
+  },
+  {
+   "k": "15d7q9k",
+   "zh": "切换默认后期特效值"
+  },
+  {
+   "k": "1s23bkx",
+   "zh": "night"
+  },
+  {
+   "k": "lkjbt4",
+   "zh": "切换夜晚"
+  },
+  {
+   "k": "m0ps8l",
+   "zh": "*自 1.01 起该指令似乎无效（归入仅开发者可用指令）此指令可通过右下角工具栏的昼夜循环选项模拟（快捷键 'N'）"
+  },
+  {
+   "k": "lfe391",
+   "zh": "filewatcher"
+  },
+  {
+   "k": "1orjydk",
+   "zh": "切换文件监视器"
+  },
+  {
+   "k": "1ui17b9",
+   "zh": "createlean"
+  },
+  {
+   "k": "1goozk9",
+   "zh": "创建 LEAN 纹理"
+  },
+  {
+   "k": "1j6byls",
+   "zh": "helplog"
+  },
+  {
+   "k": "px54l9",
+   "zh": "将所有控制台指令打印到 game.log 文件。"
+  },
+  {
+   "k": "14iecpp",
+   "zh": "helphelp"
+  },
+  {
+   "k": "1su6frx",
+   "zh": "Double Rainbow 帮助。"
+  },
+  {
+   "k": "5p5pq",
+   "zh": "hsv"
+  },
+  {
+   "k": "1k70p2q",
+   "zh": "将 RGB 转换为 HSV"
+  },
+  {
+   "k": "1pq5zpn",
+   "zh": "tag_color"
+  },
+  {
+   "k": "1lbk99h",
+   "zh": "测试设置某个国家的颜色"
+  },
+  {
+   "k": "m0rdte",
+   "zh": "browser [url]"
+  },
+  {
+   "k": "1mxp208",
+   "zh": "显示浏览器窗口"
+  },
+  {
+   "k": "12iodn6",
+   "zh": "browser_base_url [url]"
+  },
+  {
+   "k": "1jllfmd",
+   "zh": "设置浏览器基础 url"
+  },
+  {
+   "k": "1g6cw1i",
+   "zh": "airealism"
+  },
+  {
+   "k": "1wek2p0",
+   "zh": "启用写实 AI"
+  },
+  {
+   "k": "jtlz81",
+   "zh": "一个彩蛋，让 AI 在聊天中放狠话。由于多人游戏中无法激活、单人游戏中聊天也无法激活，因此毫无用处。⟦0⟧"
+  },
+  {
+   "k": "1dh4krg",
+   "zh": "instant_wargoal"
+  },
+  {
+   "k": "1divmr2",
+   "zh": "允许瞬间完成对国家的战争目标制造"
+  },
+  {
+   "k": "18q3ffu",
+   "zh": "allowideas"
+  },
+  {
+   "k": "wwypl3",
+   "zh": "允许玩家选择任意理念，即使该理念通常不可用"
+  },
+  {
+   "k": "jaigx3",
+   "zh": "这会覆盖理念的 ⟦0⟧ 和 ⟦1⟧ 触发条件，但不会覆盖 ⟦2⟧ 触发条件"
+  },
+  {
+   "k": "skramw",
+   "zh": "available"
+  },
+  {
+   "k": "nktwgx",
+   "zh": "visible"
+  },
+  {
+   "k": "b18qbn",
+   "zh": "allowed"
+  },
+  {
+   "k": "gduizs",
+   "zh": "release [<country tag>]"
+  },
+  {
+   "k": "1k9plam",
+   "zh": "释放一个国家或可释放国家"
+  },
+  {
+   "k": "16phz08",
+   "zh": "release slv 释放斯洛文尼亚"
+  },
+  {
+   "k": "1yordrq",
+   "zh": "InternationalMarket.AddSubsidyForTags [<economic capacity>] [<equipment>] [<country tag>]"
+  },
+  {
+   "k": "5paqvn",
+   "zh": "为玩家添加补贴，以便从指定国家购买物资。"
+  },
+  {
+   "k": "m6oc7",
+   "zh": "例（为玩家添加补贴，以便帮助购买德国出售的轻型坦克，最多 5k 经济产能）：InternationalMarket.AddSubsidyForTags 5000 light_tank_chassis GER"
+  },
+  {
+   "k": "qoed8a",
+   "zh": "random_seed"
+  },
+  {
+   "k": "11tk1w",
+   "zh": "随机化游戏当前使用的种子"
+  },
+  {
+   "k": "1kejpvw",
+   "zh": "AI 使用该种子来决定其所有焦点和决议。你可以用它来让不喜欢的任何 AI 行为产生更有利的结果（例如你想与某国结盟）"
+  },
+  {
+   "k": "1279p0h",
+   "zh": "eval_effect [<country tag>] = { create_faction = \"[faction name]\" }"
+  },
+  {
+   "k": "118w9st",
+   "zh": "创建一个具有指定名称的阵营"
+  },
+  {
+   "k": "hm6r57",
+   "zh": "该阵营的领袖将是所填入的国家标签"
+  },
+  {
+   "k": "qlsp62",
+   "zh": "eval_effect [<country tag>] = { dismantle_faction = yes }"
+  },
+  {
+   "k": "aov7jt",
+   "zh": "解散指定国家的阵营"
+  },
+  {
+   "k": "9e5her",
+   "zh": "eval_effect [<country tag>] = { add_to_faction = [<country tag>] }"
+  },
+  {
+   "k": "1ez58p6",
+   "zh": "将一个国家加入阵营"
+  },
+  {
+   "k": "1l4sorr",
+   "zh": "第二个标签是将加入第一个标签阵营的国家"
+  },
+  {
+   "k": "11hsgd",
+   "zh": "eval_effect [<country tag>] = { remove_from_faction = [<country tag>] }"
+  },
+  {
+   "k": "1xzaqq",
+   "zh": "将一个国家移出阵营"
+  },
+  {
+   "k": "1dmcm6c",
+   "zh": "第二个标签是将从第一个标签阵营中移除的国家"
+  },
+  {
+   "k": "o3eu8l",
+   "zh": "eval_effect [<country tag>] = { set_faction_name = \"[faction name]\" }"
+  },
+  {
+   "k": "1jjaaov",
+   "zh": "重命名指定国家的阵营"
+  },
+  {
+   "k": "knullv",
+   "zh": "toggle_silhouette_portraits"
+  },
+  {
+   "k": "1u5zerr",
+   "zh": "启用和禁用剪影肖像。"
+  },
+  {
+   "k": "fsbozh",
+   "zh": "armageddon"
+  },
+  {
+   "k": "1qpoze4",
+   "zh": "对每个国家的每个州造成 100% 伤害，影响所有州级/共享/省级建筑与设施。"
+  },
+  {
+   "k": "aeset3",
+   "zh": "虽然所有州都会播放核爆动画，但不会给予 ⟦0⟧ 州修正。"
+  },
+  {
+   "k": "t5ev1q",
+   "zh": "核辐射"
+  },
+  {
+   "k": "100lpyn",
+   "zh": "另见"
+  },
+  {
+   "k": "9m30fv",
+   "zh": "模组制作"
+  },
+  {
+   "k": "1p1yprf",
+   "zh": "参考资料"
+  },
+  {
+   "k": "1dgha7p",
+   "zh": "找到了 podcat 关于该指令的一条评论 https://www.reddit.com/r/hoi4/comments/6cb8vh/the_secrets_of_hoi4/dhtdr4x/"
+  },
+  {
+   "k": "59iejl",
+   "zh": "文档"
+  },
+  {
+   "k": "oqv3et",
+   "zh": "效果"
+  },
+  {
+   "k": "1yvn1io",
+   "zh": "触发条件"
+  },
+  {
+   "k": "spbafn",
+   "zh": "定义"
+  },
+  {
+   "k": "1j81rqx",
+   "zh": "修正"
+  },
+  {
+   "k": "bbbsh0",
+   "zh": "修正列表"
+  },
+  {
+   "k": "gkat0o",
+   "zh": "作用域"
+  },
+  {
+   "k": "17ojrsd",
+   "zh": "本地化"
+  },
+  {
+   "k": "22wvcr",
+   "zh": "动作"
+  },
+  {
+   "k": "10y68xx",
+   "zh": "数据结构"
+  },
+  {
+   "k": "icm958",
+   "zh": "标记"
+  },
+  {
+   "k": "1fldcnt",
+   "zh": "事件目标"
+  },
+  {
+   "k": "135tw29",
+   "zh": "国家标签别名"
+  },
+  {
+   "k": "xqivz6",
+   "zh": "变量"
+  },
+  {
+   "k": "14wbbvz",
+   "zh": "数组"
+  },
+  {
+   "k": "wdu62e",
+   "zh": "脚本"
+  },
+  {
+   "k": "mngvdd",
+   "zh": "成就"
+  },
+  {
+   "k": "475d63",
+   "zh": "AI 焦点"
+  },
+  {
+   "k": "gpz0z1",
+   "zh": "自治领"
+  },
+  {
+   "k": "a6cuzg",
+   "zh": "力量均势"
+  },
+  {
+   "k": "14khzdq",
+   "zh": "书签/剧本"
+  },
+  {
+   "k": "xrnqxs",
+   "zh": "游戏规则"
+  },
+  {
+   "k": "1xa6gia",
+   "zh": "建筑"
+  },
+  {
+   "k": "8657g9",
+   "zh": "角色与特质"
+  },
+  {
+   "k": "o977ej",
+   "zh": "外观标签"
+  },
+  {
+   "k": "8zhvfx",
+   "zh": "国家"
+  },
+  {
+   "k": "19eysrz",
+   "zh": "师"
+  },
+  {
+   "k": "vwifyo",
+   "zh": "决议"
+  },
+  {
+   "k": "iu6a78",
+   "zh": "学说"
+  },
+  {
+   "k": "1xtq0ev",
+   "zh": "装备"
+  },
+  {
+   "k": "217z8",
+   "zh": "事件"
+  },
+  {
+   "k": "e65ons",
+   "zh": "阵营"
+  },
+  {
+   "k": "z4qa23",
+   "zh": "理念"
+  },
+  {
+   "k": "1cd8sst",
+   "zh": "意识形态"
+  },
+  {
+   "k": "1oopcvp",
+   "zh": "军事工业组织"
+  },
+  {
+   "k": "k2esk3",
+   "zh": "国家焦点"
+  },
+  {
+   "k": "15g8w42",
+   "zh": "资源"
+  },
+  {
+   "k": "uu0bc4",
+   "zh": "脚本化 GUI"
+  },
+  {
+   "k": "1jzxqx9",
+   "zh": "科技与学说"
+  },
+  {
+   "k": "ur18vw",
+   "zh": "单位"
+  },
+  {
+   "k": "j1sac1",
+   "zh": "地图"
+  },
+  {
+   "k": "5afzz",
+   "zh": "州"
+  },
+  {
+   "k": "8ppvas",
+   "zh": "补给区域"
+  },
+  {
+   "k": "1v2pifw",
+   "zh": "战略区域"
+  },
+  {
+   "k": "1cffeuu",
+   "zh": "图形"
+  },
+  {
+   "k": "yolbkg",
+   "zh": "界面"
+  },
+  {
+   "k": "2hqnqn",
+   "zh": "图形资源"
+  },
+  {
+   "k": "6px9my",
+   "zh": "实体"
+  },
+  {
+   "k": "1n1sxcz",
+   "zh": "后期特效"
+  },
+  {
+   "k": "1fu6htw",
+   "zh": "粒子"
+  },
+  {
+   "k": "t16z95",
+   "zh": "字体"
+  },
+  {
+   "k": "1ig52hy",
+   "zh": "外观"
+  },
+  {
+   "k": "9k7pgr",
+   "zh": "肖像"
+  },
+  {
+   "k": "65pf3n",
+   "zh": "名称列表"
+  },
+  {
+   "k": "ohwdis",
+   "zh": "音乐"
+  },
+  {
+   "k": "1dvvwok",
+   "zh": "音效"
+  },
+  {
+   "k": "ukzedx",
+   "zh": "其他"
+  },
+  {
+   "k": "1uzifys",
+   "zh": "控制台指令"
+  },
+  {
+   "k": "1t5bxxt",
+   "zh": "故障排除"
+  },
+  {
+   "k": "1djsobe",
+   "zh": "模组结构"
+  },
+  {
+   "k": "pw0jjk",
+   "zh": "模组"
+  },
+  {
+   "k": "pui2ou",
+   "zh": "微调器"
+  },
+  {
+   "k": "1hyf67b",
+   "zh": "游戏"
+  },
+  {
+   "k": "u1k6p6",
+   "zh": "特色"
+  },
+  {
+   "k": "qteedx",
+   "zh": "铁人模式"
+  },
+  {
+   "k": "cvepmw",
+   "zh": "指南"
+  },
+  {
+   "k": "bdm93l",
+   "zh": "新手指南"
+  },
+  {
+   "k": "1khciow",
+   "zh": "快捷键"
+  },
+  {
+   "k": "1h8mxql",
+   "zh": "地图模式"
+  },
+  {
+   "k": "6q2ked",
+   "zh": "教学视频"
+  },
+  {
+   "k": "lshcot",
+   "zh": "用户界面"
+  },
+  {
+   "k": "190d1fu",
+   "zh": "开发"
+  },
+  {
+   "k": "sz859i",
+   "zh": "开发者日志"
+  },
+  {
+   "k": "5umivg",
+   "zh": "可下载内容"
+  },
+  {
+   "k": "1r8wvbp",
+   "zh": "补丁"
+  },
+  {
+   "k": "1n72qry",
+   "zh": "社区"
+  },
+  {
+   "k": "uet7re",
+   "zh": "行话"
+  }
+ ]
+}

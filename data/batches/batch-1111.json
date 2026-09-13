@@ -1,0 +1,1111 @@
+{
+ "batch": 1111,
+ "pages": [
+  "Scripted GUI modding"
+ ],
+ "chars": 14890,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1fnsprc",
+   "en": "Scripted GUIs are used to assign scripted functionality to newly-created elements in the user interface, allowing it to modify the game's state or change depending on conditions."
+  },
+  {
+   "k": "1ee06lr",
+   "en": "Scripted GUIs are defined as ⟦0⟧ files. The folder name must be in plural. The scripted GUI will assign functionality to user interface elements, which themselves are defined in ⟦1⟧ files.",
+   "frags": 2
+  },
+  {
+   "k": "mnt2ug",
+   "en": "/Hearts of Iron IV/common/scripted_guis/*.txt"
+  },
+  {
+   "k": "kbj8vh",
+   "en": "/Hearts of Iron IV/interface/*.gui"
+  },
+  {
+   "k": "1chdoii",
+   "en": "Most commonly, ⟦0⟧, ⟦1⟧, and ⟦2⟧ are used in the implementation of GUI. For example, implementing a button that opens up a window is most commonly done by assigning a flag to be set on the button press and making the window visibility depend on the flag being set on the country.",
+   "frags": 3
+  },
+  {
+   "k": "17ea0bw",
+   "en": "flags"
+  },
+  {
+   "k": "bk83b6",
+   "en": "variables"
+  },
+  {
+   "k": "8hmjf3",
+   "en": "arrays"
+  },
+  {
+   "k": "e02j7k",
+   "en": "A scripted GUI is defined as a block within a ⟦0⟧ container, where the name of the block determines the internal ID of the scripted GUI.",
+   "frags": 1
+  },
+  {
+   "k": "idmzj4",
+   "en": "scripted_gui = { ... }"
+  },
+  {
+   "k": "1uit7b2",
+   "en": "Window assignment"
+  },
+  {
+   "k": "1d7xn64",
+   "en": "See also: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "ahfcwv",
+   "en": "Scripted GUIs are assigned to ⟦0⟧s and apply to every interface element located within them. This is done with ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "uv6gq4",
+   "en": "containerWindowType"
+  },
+  {
+   "k": "11kh6sc",
+   "en": "window_name = example_container"
+  },
+  {
+   "k": "892gyv",
+   "en": "In order for a container to be a valid target for scripted GUI, it must be entirely independent, not present in any other container window. For example, in the following code in an ⟦0⟧ file, only ⟦1⟧ can be assigned:",
+   "frags": 2
+  },
+  {
+   "k": "625cod",
+   "en": "independent_container"
+  },
+  {
+   "k": "wmsga5",
+   "en": "The scripted GUI will affect every single element located inside of the container window, even if they're present in a further-nested container."
+  },
+  {
+   "k": "1nw4xo4",
+   "en": "Most commonly, the containers used by scripted GUI are defined inside of fully separate interface files to ensure no overlap."
+  },
+  {
+   "k": "1yzb62f",
+   "en": "Parent window"
+  },
+  {
+   "k": "1bhl1wl",
+   "en": "By default, a newly-created container window will show up on top of most other UI elements. Assigning a parent window is done in order to make the UI be attached to a particular container. This makes the container window only visible when the parent window is visible, assigns the drawing order to be directly on top of the parent's elements, and makes the container follow the animations done by the parent."
+  },
+  {
+   "k": "oxd3c3",
+   "en": "There are two ways to do so in particular:"
+  },
+  {
+   "k": "1d0g04",
+   "en": "⟦0⟧ will attach to a particular base game window identified by its token.",
+   "frags": 1
+  },
+  {
+   "k": "3z0116",
+   "en": "parent_window_token = top_bar"
+  },
+  {
+   "k": "qduigg",
+   "en": "⟦0⟧ will attach it to a container which has the specified name.",
+   "frags": 1
+  },
+  {
+   "k": "12r9ua2",
+   "en": "parent_window_name = container_name"
+  },
+  {
+   "k": "vizl9x",
+   "en": "List of possible arguments for parent_window_token"
+  },
+  {
+   "k": "aad9vz",
+   "en": "top_bar decision_tab technology_tab trade_tab construction_tab production_tab deployment_tab logistics_tab diplomacy_tab (No selected country) national_focus politics_tab selected_country_view selected_state_view selected_country_view_info (Info ledger view of another country) selected_country_view_diplomacy (Diplomacy view of a country) army_ledger navy_ledger civilian_ledger air_ledger tech_infantry_folder tech_support_folder tech_armor_folder tech_artillery_folder tech_land_doctrine_folder tech_naval_folder tech_naval_doctrine_folder tech_air_techs_folder tech_air_doctrine_folder tech_electronics_folder tech_industry_folder"
+  },
+  {
+   "k": "1fzvrzq",
+   "en": "top_bar"
+  },
+  {
+   "k": "1dv9zer",
+   "en": "decision_tab"
+  },
+  {
+   "k": "13wsqtr",
+   "en": "technology_tab"
+  },
+  {
+   "k": "1433owh",
+   "en": "trade_tab"
+  },
+  {
+   "k": "e2g7qo",
+   "en": "construction_tab"
+  },
+  {
+   "k": "ebqn4m",
+   "en": "production_tab"
+  },
+  {
+   "k": "1pktv62",
+   "en": "deployment_tab"
+  },
+  {
+   "k": "cjimwk",
+   "en": "logistics_tab"
+  },
+  {
+   "k": "j2nxk4",
+   "en": "diplomacy_tab (No selected country)"
+  },
+  {
+   "k": "19j458w",
+   "en": "national_focus"
+  },
+  {
+   "k": "f8zd0a",
+   "en": "politics_tab"
+  },
+  {
+   "k": "11l0x9b",
+   "en": "selected_country_view"
+  },
+  {
+   "k": "hz28ea",
+   "en": "selected_state_view"
+  },
+  {
+   "k": "moelxd",
+   "en": "selected_country_view_info (Info ledger view of another country)"
+  },
+  {
+   "k": "1lbe6ta",
+   "en": "selected_country_view_diplomacy (Diplomacy view of a country)"
+  },
+  {
+   "k": "1ltvrvk",
+   "en": "army_ledger"
+  },
+  {
+   "k": "w2hmj",
+   "en": "navy_ledger"
+  },
+  {
+   "k": "10g2axo",
+   "en": "civilian_ledger"
+  },
+  {
+   "k": "2oafzd",
+   "en": "air_ledger"
+  },
+  {
+   "k": "g4i1ns",
+   "en": "tech_infantry_folder"
+  },
+  {
+   "k": "4selyi",
+   "en": "tech_support_folder"
+  },
+  {
+   "k": "1wa9sqq",
+   "en": "tech_armor_folder"
+  },
+  {
+   "k": "rtfa6h",
+   "en": "tech_artillery_folder"
+  },
+  {
+   "k": "1ya8mcf",
+   "en": "tech_land_doctrine_folder"
+  },
+  {
+   "k": "1z0l76v",
+   "en": "tech_naval_folder"
+  },
+  {
+   "k": "z4rpa",
+   "en": "tech_naval_doctrine_folder"
+  },
+  {
+   "k": "32mzad",
+   "en": "tech_air_techs_folder"
+  },
+  {
+   "k": "1a2vwny",
+   "en": "tech_air_doctrine_folder"
+  },
+  {
+   "k": "q2zbky",
+   "en": "tech_electronics_folder"
+  },
+  {
+   "k": "hqz1n5",
+   "en": "tech_industry_folder"
+  },
+  {
+   "k": "11vcxvx",
+   "en": "For ⟦0⟧, a notable argument is ⟦1⟧. The topbar is positioned lower in the drawing order than most pop-up menus in the game. Therefore, assigning a scripted GUI to have a parent of the topbar will make it be hidden by menus such as the national focus selection or the politics tab. As the topbar container actually covers the entire screen, using it as the token will not result in the container being clipped off.",
+   "frags": 2
+  },
+  {
+   "k": "xn3ams",
+   "en": "parent_window_token"
+  },
+  {
+   "k": "1w3g59n",
+   "en": "⟦0⟧ can be used with most containers. If the parent container is itself independent, then directly entering the name of the container will result in the scripted GUI's window be attached to it. If the parent container is nested inside another one, then it's necessary to append _instance. As such, a nested container with ⟦1⟧ can be assigned as a parent with ⟦2⟧. This can also be used to place the scripted GUI lower in the drawing order. For example, to create a custom dynamic background for a base game's UI window, it's possible to create an \"anchor\" container window inside of it and then use it as the parent window:",
+   "frags": 3
+  },
+  {
+   "k": "ibqhq5",
+   "en": "parent_window_name = example_container"
+  },
+  {
+   "k": "9g3wii",
+   "en": "name = \"nested_container\""
+  },
+  {
+   "k": "1tcbqgg",
+   "en": "parent_window_name = nested_container_instance"
+  },
+  {
+   "k": "1sn8b2l",
+   "en": "⟦0⟧ is unable to accept container windows that are used by a gridboxType.",
+   "frags": 1
+  },
+  {
+   "k": "1f7idq4",
+   "en": "parent_window_name"
+  },
+  {
+   "k": "1ghss9o",
+   "en": "Context"
+  },
+  {
+   "k": "9lokpp",
+   "en": "The context determines the information about the game state that is available to the scripted GUI to read or modify. This is determined with ⟦0⟧ in the scripted GUI. If unset, no information will be given to the UI, making it impossible to have it have any effect or be dynamic, including in localisation. Assigning any context type will make it possible to use the scripted GUI to modify the game's state, in part using any ⟦1⟧ and ⟦2⟧, including ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "1mmi6j",
+   "en": "context_type = player_context"
+  },
+  {
+   "k": "1yrfzhh",
+   "en": "effects"
+  },
+  {
+   "k": "1ka34g",
+   "en": "triggers"
+  },
+  {
+   "k": "1w5dpoo",
+   "en": "scopes"
+  },
+  {
+   "k": "231mu3",
+   "en": "In each of the options, ⟦0⟧ always corresponds to the country that sees the scripted GUI (or \"player country\", which may be controlled by AI). However, the default scope depends on the context.",
+   "frags": 1
+  },
+  {
+   "k": "8eqlqd",
+   "en": "ROOT"
+  },
+  {
+   "k": "1cdmqpx",
+   "en": "Context types:"
+  },
+  {
+   "k": "4el6o6",
+   "en": "Name"
+  },
+  {
+   "k": "sjj37t",
+   "en": "Description"
+  },
+  {
+   "k": "a4ma2s",
+   "en": "player_context"
+  },
+  {
+   "k": "172iuhk",
+   "en": "The baseline context. The default scope is the player country, which is also always ROOT in every context."
+  },
+  {
+   "k": "z65rjd",
+   "en": "selected_country_context"
+  },
+  {
+   "k": "1uk49os",
+   "en": "The default scope is the currently-selected country. The scripted GUI will not appear if no country is selected. AI evaluates this for every other country, unless otherwise restricted."
+  },
+  {
+   "k": "d4bb66",
+   "en": "selected_state_context"
+  },
+  {
+   "k": "ehqhpd",
+   "en": "The default scope is the currently-selected state. The scripted GUI will not appear if no state is selected. AI evaluates this for every state, unless otherwise restricted."
+  },
+  {
+   "k": "v0z4uk",
+   "en": "decision_category"
+  },
+  {
+   "k": "1tf1h53",
+   "en": "Allows the GUI to read a decision category as context in order to embed itself in its description. ⟦0⟧ The scripted GUI shouldn't have any parent window. Temporary data strcuture usage may not always work correctly with this context type.",
+   "frags": 1
+  },
+  {
+   "k": "1ybza1c",
+   "en": "Necessary to attach the scripted GUI to a decision category with the ⟦0⟧ attribute in the category.",
+   "frags": 1
+  },
+  {
+   "k": "1xnolr3",
+   "en": "scripted_gui"
+  },
+  {
+   "k": "1lix4t6",
+   "en": "diplomatic_action"
+  },
+  {
+   "k": "tao3uo",
+   "en": "Allows the GUI to read a scripted diplomatic action as context in order to be sent to the target upon its selection. Necessary to attach the scripted GUI to a scripted diplomatic action in a ⟦0⟧ file.",
+   "frags": 1
+  },
+  {
+   "k": "dwm8ii",
+   "en": "/Hearts of Iron IV/common/scripted_diplomatic_actions/*.txt"
+  },
+  {
+   "k": "1430x3o",
+   "en": "national_focus_context"
+  },
+  {
+   "k": "1xxc41v",
+   "en": "Gui will be attached to a national focus view for the targeted country, the country which owns the national focus view"
+  },
+  {
+   "k": "ev9rdh",
+   "en": "country_mapicon"
+  },
+  {
+   "k": "6twgqu",
+   "en": "The GUI will show up next to every country when viewing the world map. The default scope is the country that it appears on."
+  },
+  {
+   "k": "u1zpnu",
+   "en": "state_mapicon"
+  },
+  {
+   "k": "1xzbg48",
+   "en": "The GUI will show up next to every state when viewing the world map. The default scope is the state that it appears on."
+  },
+  {
+   "k": "5d9725",
+   "en": "If the default scope differs from ROOT, then ⟦0⟧ is useful to refer to it with further scoping.",
+   "frags": 1
+  },
+  {
+   "k": "xjsa28",
+   "en": "PREV"
+  },
+  {
+   "k": "obsw1n",
+   "en": "Dirty"
+  },
+  {
+   "k": "7iy3ah",
+   "en": "Defines when the scripted GUI should be updated; by default guis are updated every tick. For large GUIs, this can make them quite performance heavy; as such it's recommended to use a dirty⟦0⟧ to tell the game when to update a GUI instead of having them be updated constantly. If you do, the GUI will only update when the variable's value changes. Note that this only applies to updating the properties of the GUI, but not to the GUI itself's visibility. Dirty variables can be declared like such:",
+   "frags": 1
+  },
+  {
+   "k": "6zwyrp",
+   "en": "variable"
+  },
+  {
+   "k": "oqn9dt",
+   "en": "Visible"
+  },
+  {
+   "k": "ll8zwk",
+   "en": "Defines when the scripted GUI is visible for the current scope."
+  },
+  {
+   "k": "ju9ah7",
+   "en": "Note that the scripted GUI has to be visible for the AI if it is to use it."
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "345f5t",
+   "en": "Defines what effects should be attached to button elements within the interface. ⟦0⟧ should be the name of the element.",
+   "frags": 1
+  },
+  {
+   "k": "nkmg95",
+   "en": "<element>"
+  },
+  {
+   "k": "vwn8fh",
+   "en": "There are additional modifiers added before the ⟦0⟧ suffix that alter the type of click recognized. These are fairly obvious to understand, and can be chained.",
+   "frags": 1
+  },
+  {
+   "k": "pnwk1b",
+   "en": "click"
+  },
+  {
+   "k": "1ms2se1",
+   "en": "Modifiers:"
+  },
+  {
+   "k": "xjidwl",
+   "en": "right"
+  },
+  {
+   "k": "7j5hss",
+   "en": "alt"
+  },
+  {
+   "k": "mx9w2m",
+   "en": "control"
+  },
+  {
+   "k": "nb43t3",
+   "en": "shift"
+  },
+  {
+   "k": "o5ow8f",
+   "en": "For example: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "gf8hkv",
+   "en": "my_button_alt_right_click = { }"
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "bvrmdy",
+   "en": "Defines when interface elements are usable or visible. By default elements are clickable and visible. Note that this allows the manipulation of single elements without affecting the overall parent window."
+  },
+  {
+   "k": "zwv6al",
+   "en": "⟦0⟧ evaluates when the specified element should be clickable.",
+   "frags": 1
+  },
+  {
+   "k": "ka5mqb",
+   "en": "<element>_<modifiers>_click_enabled"
+  },
+  {
+   "k": "3xr8kx",
+   "en": "Note that ⟦0⟧ overrides the specific triggers such as ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1u7fiv0",
+   "en": "<element>_click_enabled"
+  },
+  {
+   "k": "xy7jc9",
+   "en": "<element>_right_click_enabled"
+  },
+  {
+   "k": "180yx6c",
+   "en": "⟦0⟧ evaluates when the specified element should be visible. This can be used for any interface element, such as icons and text.",
+   "frags": 1
+  },
+  {
+   "k": "1ernlhg",
+   "en": "<element>_visible"
+  },
+  {
+   "k": "lxj8gj",
+   "en": "Note that if an element is not visible, the AI will be unable to click on it as well."
+  },
+  {
+   "k": "cajqqz",
+   "en": "Temporary variable usage"
+  },
+  {
+   "k": "wyzmzj",
+   "en": "In addition to determining when an element is clickable or visible, the ⟦0⟧ block of a Scripted GUI can also have temporary variables (as well as temporary arrays) set inside of an ⟦1⟧ block and those temporary data structures can be used in both the ⟦2⟧ and ⟦3⟧ section of a Scripted GUI.",
+   "frags": 4
+  },
+  {
+   "k": "1rxpj1o",
+   "en": "<element>_<trigger>"
+  },
+  {
+   "k": "4yhj30",
+   "en": "properties"
+  },
+  {
+   "k": "7i5b60",
+   "en": "dynamic_lists"
+  },
+  {
+   "k": "1x2sma8",
+   "en": "Here is an example of this concept in action:"
+  },
+  {
+   "k": "119ihrj",
+   "en": "Dynamic Lists"
+  },
+  {
+   "k": "1k3nmik",
+   "en": "This is a special feature that is to be used in tandem with grid boxes within interface modding. It will draw a gui for each value inside of the array chosen where the grid box with the same name is."
+  },
+  {
+   "k": "n2617x",
+   "en": "Here is some example code of how the scripted gui should look:"
+  },
+  {
+   "k": "45fzjb",
+   "en": "And this would be the corresponding gui:"
+  },
+  {
+   "k": "100clx8",
+   "en": "Properties"
+  },
+  {
+   "k": "x0n8pb",
+   "en": "Properties allow for specified elements to be manipulated whilst in-game, allowing for their texture and position to be changed."
+  },
+  {
+   "k": "1hz9f7n",
+   "en": "Properties support manipulating the frame of a texture directly with the ⟦0⟧ attribute, which changes the frame to the value given by a specified variable.",
+   "frags": 1
+  },
+  {
+   "k": "1ma1ehy",
+   "en": "frame"
+  },
+  {
+   "k": "1gsavqg",
+   "en": "Likewise, properties support manipulating the x and y coordinates for an element, with the ⟦0⟧ and ⟦1⟧ attributes which change the element position to the value given by a specified variable.",
+   "frags": 2
+  },
+  {
+   "k": "zdwucu",
+   "en": "The ⟦0⟧ attribute determines the texture used:",
+   "frags": 1
+  },
+  {
+   "k": "1dr5e62",
+   "en": "image"
+  },
+  {
+   "k": "a64hlt",
+   "en": "This would assign an ⟦0⟧ with the name of ⟦1⟧ with a texture ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "10ng20o",
+   "en": "icon element"
+  },
+  {
+   "k": "jrflfp",
+   "en": "my_icon"
+  },
+  {
+   "k": "1ukje7j",
+   "en": "GFX_my_texture"
+  },
+  {
+   "k": "1bvrsvp",
+   "en": "At first glance, this may seem useless, but the power here is that the string accepts scripted localization. This means you can create a scripted localization entry that supplies the texture string."
+  },
+  {
+   "k": "ehou33",
+   "en": "This is an example of using scripted localization to supply the property with the texture string."
+  },
+  {
+   "k": "6hwkt7",
+   "en": "The true usefulness of scripted GUIs is that they can be used by the AI, meaning new features can be properly implemented with custom interfaces that the AI can navigate."
+  },
+  {
+   "k": "123izxy",
+   "en": "AI enabled"
+  },
+  {
+   "k": "1kilvlj",
+   "en": "The first step is to determine when the AI is enabled for the GUI."
+  },
+  {
+   "k": "1aywl6m",
+   "en": "This scope is checked during initialization, and any AI that fail are never checked again."
+  },
+  {
+   "k": "197izii",
+   "en": "This is the best optimization, as it means invalid AIs will never be checked again, but it is only checked once."
+  },
+  {
+   "k": "2kxj5m",
+   "en": "AI Test Attributes"
+  },
+  {
+   "k": "1qhelki",
+   "en": "These attributes determine when the AI checks the scripted GUI."
+  },
+  {
+   "k": "8z3jsq",
+   "en": "⟦0⟧ determines how often the AI checks, in hours. By default set to 24. ⟦1⟧ determines the variance in time (In percent) for the check, which is the specified variance divided by 2 for plus and minus. By default set to 0.2 As such, an interval of 100 with a variance of 0.2 will make the AI check every 90 to 110 hours (100±[10% of 100, which is 10]).",
+   "frags": 2
+  },
+  {
+   "k": "cs153g",
+   "en": "ai_test_interval"
+  },
+  {
+   "k": "ij18xe",
+   "en": "ai_test_variance"
+  },
+  {
+   "k": "155bavz",
+   "en": "AI Check"
+  },
+  {
+   "k": "1mwh42n",
+   "en": "This scope is checked on every tick of the interval specified by ⟦0⟧. If it evaluates as false, the AI will ignore the GUI for the tick.",
+   "frags": 1
+  },
+  {
+   "k": "1bexzte",
+   "en": "AI Test Scopes"
+  },
+  {
+   "k": "gq8o3y",
+   "en": "The AI needs to be told who it should target when using scripted GUIs. You can imagine this as the AI clicking on the countries or states."
+  },
+  {
+   "k": "aa69xd",
+   "en": "You can specify nothing, but this will result in the AI checking every possible country or state, which will harm performance, and so should be avoided unless required."
+  },
+  {
+   "k": "ugrbtw",
+   "en": "For ⟦0⟧ and ⟦1⟧, ⟦2⟧ is not needed as the only checked scope is the country using the GUI.",
+   "frags": 3
+  },
+  {
+   "k": "1xvkx84",
+   "en": "ai_test_scopes"
+  },
+  {
+   "k": "sp62ao",
+   "en": "For ⟦0⟧ the AI will check every country in the world by default. By specifying an ⟦1⟧, the AI will be limited to the specified range of countries.",
+   "frags": 2
+  },
+  {
+   "k": "iwh60c",
+   "en": "The tokens for ⟦0⟧:",
+   "frags": 1
+  },
+  {
+   "k": "558nsx",
+   "en": "test_self_country"
+  },
+  {
+   "k": "pni8gv",
+   "en": "test_enemy_countries"
+  },
+  {
+   "k": "1gf0ti9",
+   "en": "test_ally_countries"
+  },
+  {
+   "k": "b5ohnm",
+   "en": "test_neighbouring_countries"
+  },
+  {
+   "k": "1jtgqyr",
+   "en": "test_neighbouring_ally_countries"
+  },
+  {
+   "k": "i25jbd",
+   "en": "test_neighbouring_enemy_countries"
+  },
+  {
+   "k": "639dgz",
+   "en": "You can combine multiple ⟦0⟧ by adding multiple to the definition.",
+   "frags": 1
+  },
+  {
+   "k": "rb631z",
+   "en": "For ⟦0⟧ the AI will check every state in the world by default. By specifying an ⟦1⟧, the AI will be limited to the specified range of states.",
+   "frags": 2
+  },
+  {
+   "k": "1i3w6lh",
+   "en": "test_self_owned_states"
+  },
+  {
+   "k": "3c0rdz",
+   "en": "test_enemy_owned_states"
+  },
+  {
+   "k": "a4e2e9",
+   "en": "test_ally_owned_states"
+  },
+  {
+   "k": "b14s7u",
+   "en": "test_self_controlled_states"
+  },
+  {
+   "k": "kppezc",
+   "en": "test_enemy_controlled_states"
+  },
+  {
+   "k": "nmydd2",
+   "en": "test_ally_controlled_states"
+  },
+  {
+   "k": "1a9l8fe",
+   "en": "test_neighbouring_states"
+  },
+  {
+   "k": "1ty69xf",
+   "en": "test_neighbouring_enemy_states"
+  },
+  {
+   "k": "1tiwqfx",
+   "en": "test_neighbouring_ally_states"
+  },
+  {
+   "k": "1uknola",
+   "en": "test_our_neighbouring_states - AIs edge states"
+  },
+  {
+   "k": "84olai",
+   "en": "test_our_neighbouring_states_against_allies - AIs edge states to allies"
+  },
+  {
+   "k": "e74uwm",
+   "en": "test_our_neighbouring_states_against_enemies - AIs edge states to enemies"
+  },
+  {
+   "k": "1s2r4o5",
+   "en": "test_contesded_states - states that shares provinces between enemy countries"
+  },
+  {
+   "k": "1olmpt7",
+   "en": "You can define ⟦0⟧ which will limit the other scopes to only major countries or states owned by them.",
+   "frags": 1
+  },
+  {
+   "k": "29rejq",
+   "en": "test_if_only_major"
+  },
+  {
+   "k": "1uci6t",
+   "en": "You can define ⟦0⟧ which will limit the other scopes to only coastal countries or states.",
+   "frags": 1
+  },
+  {
+   "k": "yr6kfw",
+   "en": "test_if_only_coastal"
+  },
+  {
+   "k": "ni80ib",
+   "en": "AI Check Scope"
+  },
+  {
+   "k": "acskm7",
+   "en": "Now the AI knows what to target, it is possible to filter these with triggers."
+  },
+  {
+   "k": "1tz53km",
+   "en": "AI Weights"
+  },
+  {
+   "k": "1g69w4i",
+   "en": "The AI also needs to be told how to handle the actual clickable elements within the GUI. This happens with the ⟦0⟧ scope.",
+   "frags": 1
+  },
+  {
+   "k": "lciidl",
+   "en": "ai_weights"
+  },
+  {
+   "k": "1yrkkb5",
+   "en": "You add an entry for the element and define a set of factors within the ⟦0⟧ scope.",
+   "frags": 1
+  },
+  {
+   "k": "jnhaco",
+   "en": "ai_will_do"
+  },
+  {
+   "k": "144smnk",
+   "en": "You can use ⟦0⟧ or ⟦1⟧, although only one should be present in the same scope.",
+   "frags": 2
+  },
+  {
+   "k": "pokujq",
+   "en": "factor"
+  },
+  {
+   "k": "gfk7lg",
+   "en": "add"
+  },
+  {
+   "k": "2p338u",
+   "en": "Whilst the weight for an element is above 0, the AI will attempt to click it."
+  },
+  {
+   "k": "39n306",
+   "en": "By default, the AI will only select one element per tick, clicking the element with the highest score. To allow the AI to click more than one element, specify ⟦0⟧, which sets the maximum number of actions the AI will take.",
+   "frags": 1
+  },
+  {
+   "k": "8h85ai",
+   "en": "ai_max_weight_taken_per_test = <int>"
+  },
+  {
+   "k": "r6sjd6",
+   "en": "By default, each action has an AI weight of 1. You can define a higher ⟦0⟧ by adding the ⟦1⟧ attribute to the ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1sgzb5k",
+   "en": "cost"
+  },
+  {
+   "k": "mdd4u1",
+   "en": "weight"
+  },
+  {
+   "k": "yv8347",
+   "en": "The ⟦0⟧ attribute is added to the ⟦1⟧ scope to tell the AI to ignore every action below the specified weight whilst its factor is above 0.",
+   "frags": 2
+  },
+  {
+   "k": "1mtfb5v",
+   "en": "ignore_lower_weights"
+  },
+  {
+   "k": "1xccc8m",
+   "en": "This allows the AI to ignore other actions as it may need to ⟦0⟧ a resource to take the action. Without this, the AI would take another action that may take the same resource and so would never take the first action, even when the factor is higher, as it would never save enough resources to take it.",
+   "frags": 1
+  },
+  {
+   "k": "1kvo1u0",
+   "en": "save"
+  },
+  {
+   "k": "666q0i",
+   "en": "AI Parents"
+  },
+  {
+   "k": "1mnqxp9",
+   "en": "You can define an AI parent that means the AI for different scripted GUIs is processed together. This is useful if different GUIs may use resources that another would deplete, and so by processing the AI together, the actions can be properly limited."
+  },
+  {
+   "k": "s6qa0b",
+   "en": "Template"
+  },
+  {
+   "k": "9ukjpo",
+   "en": "Scripted Localization"
+  }
+ ]
+}

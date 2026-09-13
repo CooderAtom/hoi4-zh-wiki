@@ -1,0 +1,106 @@
+﻿=== Console commands (105) [file Console_commands.pr0000.json] ===
+10r4fz1 [] :: To add modified equipment, you have to address it by given name. Example: You create a variant of 'Matilda LP'-tank with better Armor and Main Gun and name it 'Matilda LP Mk. IV'. Now use 'add_equipment 1000 Matilda LP Mk. IV'.
+1jrhc95 [] :: aircombat (airc) [<scenario name>] [<result name>] [<province id>] [<state id with airbase>] [<state id with airbase>] [<equipment type>] [<equipment type>] [<equipment creator country>] [<equipment creator country>]
+nru3ga [] :: Adds the brilliant scientist trait to the selected scientist. The facility view GUI with the assigned scientist must be opened Traits are found in "Hearts of Iron IV\common\scientist_traits\00_traits.txt"
+1lvvc24 [] :: Specialization are: specialization_land, specialization_air, specialization_naval, specialization_nuclear (For the one added by mod it's in Mod Path\common\special_projects\specialization)
+1etxexx [0] :: 5. Make sure to save the file with ⟦0⟧ encoding format. 6. Start game, load save game, use gain_xp command, enjoy. (Optional turn back on binarization in settings.txt)
+zm1vbd [0] :: To add task capacity to only a specific MIO, you will need to find the MIO id in ⟦0⟧ Then you use addTaskCapacity [<MIO id>] [number]
+1qs7fgj [0] :: To add trait points to only a specific MIO, you will need to find the MIO id in ⟦0⟧ Then you use addSize [<MIO id>] [number]
+wqs2zu [] :: You can use this to generate a more favourable outcome to any ai action you dislike (e.g. you want to ally with country)
+1r2l7rv [] :: building_health (bhealth) [<building type>] [<state or prov id>] [<building level>] [<health to add>]
+1yordrq [] :: InternationalMarket.AddSubsidyForTags [<economic capacity>] [<equipment>] [<country tag>]
+137kymy [0] :: ex: acclimization hot_climate 20 ⟦0⟧ that it resets the opposite climate type to 0%
+7cpdfn [] :: add_intel [<Target Country tag>] [civilian,army,navy,airforce]=[number]
+3fax7x [] :: sp_add_scientist [<level> (optional)] [<specialisation> (optional)]
+1fapbny [] :: spawnactor [<Actorname>] [<Province ID>] [<Animation> OPTIONAL]
+19rbhmi [] :: 'Documents\Paradox Interactive\Hearts of Iron IV\settings.txt'
+12wy2ba [] :: puppet [<Puppeteer Country Tag>] [<Puppet Target Country Tag>]
+1syevy9 [] :: 'Documents\Paradox Interactive\Hearts of iron IV\Save Games'
+1fmnetf [] :: sp_breakthrough [<number> optional <specialisation>] (sp_br)
+vbq9or [] :: Other Valid ideologies "communism" "democratic" "neutrality"
+163the9 [] :: add_equipment(ae) [<equipment amount>] [<equipment name>]
+ez24sv [] :: reloadfx [Arguments: map/mapname/postfx or *.fx filename]
+1mhswny [] :: Now use 'add_latest_equipment 1000 Matilda LP Mk. IV'.
+1hc62f6 [] :: window (wnd) [Arguments: open/close] [window gui name]
+1y1oefx [] :: PostEffectVolumes.Default [posteffect_values name]
+i0z3qn [] :: set_cosmetic_tag [<country tag>] [<cosmetic tag>]
+6l7zoy [] :: add_latest_equipment(ale) [<equipment amount>]
+1iigiv1 [] :: civilwar [<ideology>] [<target country tag>]
+11fqxqc [] :: setcontroller [<country tag>] [province id]
+1w4av5f [] :: pp(fuhrer_mana,political_power) [PP amount]
+1g4k79z [] :: fast_forward [<amount of days>], [observer]
+1571p1x [] :: sp_set_selected_scientist_level [<level>]
+1z0nkko [] :: sp_add_selected_scientist_trait [<trait>]
+1sl8m6i [] :: add_autonomy [<Target Country Tag>] [num]
+1nnnde2 [] :: acclimization [<climate type>] [<number>]
+1x3bgk6 [] :: finish_decision [<decision id>] or "all"
+1mrgrh5 [] :: mastery [<mastery amount>], [track name]
+167p4s4 [] :: add_legitimacy [<Country tag>] [<value>]
+2w1uz9 [] :: remove_core [<State ID>] [<Country Tag>]
+d7izej [] :: event [<event id>] [Target country tag]
+1rflsp4 [] :: testevent [<Event ID>] [<Character ID>]
+wduhhv [] :: deleteallunitsbut(delallbut) [country]
+ohm38w [] :: annex [<Target Country Tag> or "all"]
+ou30w [] :: moveunit [<Unit ID>] [<Province ID>]
+i563zm [] :: eval_trigger [<trigger code block>]
+15mqbv0 [] :: effect (e) [<scripted_effect_name>]
+1yse8yt [] :: set_country_flag [<Country Flag>]
+15wd1ue [] :: trigger [<scripted_trigger_name>]
+nlqq2y [] :: eval_effect [<effect code block>]
+1dnk59v [] :: ex: sp_br 20 specialization_land
+mpvs6v [] :: deleteallunits(delall) [country]
+60dhu9 [] :: reloadoob [<Target Country Tag>]
+sidszf [] :: whitepeace(wp) [<country tags>]
+r77frt [] :: set_global_flag [<Global Flag>]
+16jmrkq [] :: remove_interest [<Country tag>]
+hjs3cy [] :: add_war_support(ws) [<amount>]
+1g705d0 [] :: reduce_opinion [<country tag>]
+113msog [] :: set_var [<variable>] [<value>]
+a3b0m9 [] :: research [<slot id> or "all"]
+11xpwto [] :: update_loc [localization tag]
+mrovwt [] :: fow (debug_fow) [Province ID]
+1g8l0ej [] :: debug_volume [<Volume Delta>]
+y4wtfh [] :: add_interest [<Country tag>]
+cnl5yb [] :: mapmode [Mapmode type (int)]
+n1xjud [] :: debug_ai_budget [CountryTag]
+1t7yncc [] :: reloadweather [<randomseed>]
+1qh47a [] :: energy_ratio (er) [<ratio>]
+12bl4iz [] :: add_opinion [<Country tag>]
+7j5qq6 [] :: goto_province [province id]
+1j1pq4 [] :: remove_ideas [<idea name>]
+wgy8de [] :: e POL_remove_danzig_effect
+te8s85 [] :: morehumans (humans) [num]
+1b8khli [] :: gbpaint [layer] [channel]
+1c5r2hk [] :: addTaskCapacity [number]
+5d2100 [] :: setowner [<country tag>]
+1k3plj3 [] :: set_cosmetic_tag USA SOV
+1dbl3wx [] :: add_ideas [<idea name>]
+14u4fnh [] :: deltat [<speed factor>]
+gduizs [] :: release [<country tag>]
+1ad0wcb [] :: threat [Threat amount]
+12iodn6 [] :: browser_base_url [url]
+jsr4h4 [] :: add_cic_bank [number]
+1m4jmm6 [] :: goto_state [state id]
+ljaixd [] :: get_var [<variable>]
+1gdzus6 [] :: flagsoutput [<path>]
+q2pfk6 [] :: help [command name]
+tofc35 [] :: tag [<Country tag>]
+11s9rux [] :: ai [country tag...]
+wn700q [] :: event [<event ID>]
+wat42z [] :: gain_xp [<amount>]
+1jexvkj [] :: deleteallunits SPR
+712ani [] :: fow [Province ID]
+8trf0c [] :: trigger = { ... }
+1uut8jv [] :: gain_xp [<trait>]
+1hq4r00 [] :: manpower [amount]
+1fnyh3s [] :: addSize [number]
+16hdd49 [] :: xp [<XP amount>]
+5dkzkp [] :: fuel [<amount>]
+1br9ah2 [] :: reload [<type>]
+ax3kso [] :: cp [<amount>]
+1k40sgs [] :: st [<amount>]
+9ipm83 [] :: nuke [number]
+1s3478r [] :: delallbut SPR
+m0rdte [] :: browser [url]
+1cvucqo [] :: FI [amount}
+1buetcl [] :: op JAP

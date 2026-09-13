@@ -1,0 +1,1539 @@
+{
+ "batch": 427,
+ "pages": [
+  "Data structures"
+ ],
+ "chars": 14966,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "g29xja",
+   "en": "The leader of the faction the current country is in. Returns nothing if not in a faction."
+  },
+  {
+   "k": "sdcisf",
+   "en": "country_leader"
+  },
+  {
+   "k": "1twh3n8",
+   "en": "The leader of the current country."
+  },
+  {
+   "k": "e6yews",
+   "en": "num_faction_members"
+  },
+  {
+   "k": "m94f5t",
+   "en": "The number of members in the faction with the current country."
+  },
+  {
+   "k": "xrfl1j",
+   "en": "fuel_k"
+  },
+  {
+   "k": "f4vsn3",
+   "en": "Current fuel of country in thousands."
+  },
+  {
+   "k": "9529xw",
+   "en": "max_fuel_k"
+  },
+  {
+   "k": "1w8yq50",
+   "en": "Maximum fuel of country in thousands."
+  },
+  {
+   "k": "15pcn65",
+   "en": "fuel_ratio"
+  },
+  {
+   "k": "1og48dm",
+   "en": "Ratio of the current fuel compared to the maximum amount, from 0 to 1."
+  },
+  {
+   "k": "1ctymwf",
+   "en": "host"
+  },
+  {
+   "k": "ja84yg",
+   "en": "The host of the current country. Returns nothing if not exiled."
+  },
+  {
+   "k": "137ymbz",
+   "en": "legitimacy"
+  },
+  {
+   "k": "rt88pe",
+   "en": "The legitimacy of the currently-exiled country. Returns -1 if not exiled."
+  },
+  {
+   "k": "1jjkgit",
+   "en": "num_controlled_states"
+  },
+  {
+   "k": "nlawvo",
+   "en": "The amount of states that are controlled but not necessarily owned by the current country."
+  },
+  {
+   "k": "1jn2g8u",
+   "en": "num_core_states"
+  },
+  {
+   "k": "uws1o1",
+   "en": "The amount of states that are national territory of the current country."
+  },
+  {
+   "k": "t6cmb7",
+   "en": "num_owned_controlled_states"
+  },
+  {
+   "k": "ic6ydj",
+   "en": "The amount of states that are owned and controlled by the current country."
+  },
+  {
+   "k": "k0h1a8",
+   "en": "num_owned_states"
+  },
+  {
+   "k": "hw714i",
+   "en": "The amount of states that are owned but not necessarily controlled by the current country."
+  },
+  {
+   "k": "rcmckn",
+   "en": "num_occupied_states"
+  },
+  {
+   "k": "15drtka",
+   "en": "The number of states occupied by the country."
+  },
+  {
+   "k": "bm9alx",
+   "en": "resource"
+  },
+  {
+   "k": "oulj0x",
+   "en": "Resource, such as ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "xzbfti",
+   "en": "@steel"
+  },
+  {
+   "k": "1hrmat8",
+   "en": "The amount of surplus resource of the specified type, which isn't exported or used in production."
+  },
+  {
+   "k": "8mhnic",
+   "en": "resource_consumed"
+  },
+  {
+   "k": "2l0gkg",
+   "en": "@aluminium"
+  },
+  {
+   "k": "hw6hpa",
+   "en": "The amount of resource of the specified type currently used for equipment production."
+  },
+  {
+   "k": "11ely9h",
+   "en": "resource_exported"
+  },
+  {
+   "k": "1s581bp",
+   "en": "@oil"
+  },
+  {
+   "k": "bwv9tg",
+   "en": "The amount of resource of the specified type currently set to be exported with the ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1vio2qf",
+   "en": "min_export modifier"
+  },
+  {
+   "k": "bhsnm",
+   "en": "resource_imported"
+  },
+  {
+   "k": "1n8uhlb",
+   "en": "@tungsten"
+  },
+  {
+   "k": "cdg5az",
+   "en": "The amount of resource of the specified type currently set to be imported from trade with other countries."
+  },
+  {
+   "k": "ju6m02",
+   "en": "resource_produced"
+  },
+  {
+   "k": "1ct6l7h",
+   "en": "@rubber"
+  },
+  {
+   "k": "gh99w8",
+   "en": "The amount of resource of the specified type produced from the country's controlled states, buildings on them, and resource rights."
+  },
+  {
+   "k": "wj3y2s",
+   "en": "alliance_strength_ratio"
+  },
+  {
+   "k": "mk1mul",
+   "en": "The ratio of land strength between the current country's faction and the target's faction."
+  },
+  {
+   "k": "1c5u8gh",
+   "en": "alliance_naval_strength_ratio"
+  },
+  {
+   "k": "1tgodsy",
+   "en": "The ratio of naval strength between the current country's faction and the target's faction."
+  },
+  {
+   "k": "gv2x6o",
+   "en": "enemies_naval_strength_ratio"
+  },
+  {
+   "k": "htqig3",
+   "en": "The estimated navy strength between the current country and all its enemies."
+  },
+  {
+   "k": "17bv7at",
+   "en": "enemies_strength_ratio"
+  },
+  {
+   "k": "1egrq8i",
+   "en": "The estimated army strength between the current country and all its enemies."
+  },
+  {
+   "k": "9cyoq5",
+   "en": "amount_research_slots"
+  },
+  {
+   "k": "12m1yr5",
+   "en": "The current amount of research slots the country has."
+  },
+  {
+   "k": "1sqlj1g",
+   "en": "original_research_slots"
+  },
+  {
+   "k": "1csg4qs",
+   "en": "The amount of research slots that the country had in the beginning of the game, as set in the ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "shiurv",
+   "en": "history file"
+  },
+  {
+   "k": "1npz6j5",
+   "en": "any_war_score"
+  },
+  {
+   "k": "1j7s6cj",
+   "en": "The highest war score that the country has among wars it's in, on the scale from 0 to 100."
+  },
+  {
+   "k": "iy0xwr",
+   "en": "casualties"
+  },
+  {
+   "k": "qdirlu",
+   "en": "The amount of casualties a country has suffered in all of its wars."
+  },
+  {
+   "k": "1pitf85",
+   "en": "casualties_k"
+  },
+  {
+   "k": "12ve0pe",
+   "en": "The amount of casualties a country has suffered in all of its wars in thousands."
+  },
+  {
+   "k": "wybgw",
+   "en": "days_since_capitulated"
+  },
+  {
+   "k": "1ux6d2x",
+   "en": "The amount of days since the country has capitulated. If the country has never capitulated, returns 2147483."
+  },
+  {
+   "k": "albdzg",
+   "en": "convoy_threat"
+  },
+  {
+   "k": "ldon98",
+   "en": "Returns, in the range from 0 to 1, the current danger that enemy convoys pose to the current country. Uses NDefines.NNavy.NAVAL_CONVOY_DANGER_RATIOS as the baseline."
+  },
+  {
+   "k": "y7steb",
+   "en": "mine_threat"
+  },
+  {
+   "k": "1iv5x5q",
+   "en": "Returns, in the range from 0 to 1, the current danger that enemy mines pose to the current country. Uses NDefines.NNavy.NAVAL_MINE_DANGER_RATIOS as the baseline."
+  },
+  {
+   "k": "1nwkobt",
+   "en": "foreign_manpower"
+  },
+  {
+   "k": "164uiid",
+   "en": "The amount of foreign garrison manpower that the country has."
+  },
+  {
+   "k": "58f77x",
+   "en": "garrison_manpower_need"
+  },
+  {
+   "k": "19pkzt4",
+   "en": "The amount of manpower needed by garrisons."
+  },
+  {
+   "k": "f8igkc",
+   "en": "has_added_tension_amount"
+  },
+  {
+   "k": "sn0tst",
+   "en": "The amount of world tension currently added by the country."
+  },
+  {
+   "k": "1dq215f",
+   "en": "manpower_per_military_factory"
+  },
+  {
+   "k": "j7kj3j",
+   "en": "The amount of manpower that the country has for each military factory."
+  },
+  {
+   "k": "156ohna",
+   "en": "num_of_available_civilian_factories"
+  },
+  {
+   "k": "ksurly",
+   "en": "Amount of available civilian factories."
+  },
+  {
+   "k": "y8elf8",
+   "en": "num_of_available_military_factories"
+  },
+  {
+   "k": "10jlgqw",
+   "en": "Amount of available military factories."
+  },
+  {
+   "k": "10fdttf",
+   "en": "num_of_available_naval_factories"
+  },
+  {
+   "k": "1pdpk6b",
+   "en": "Amount of available naval factories."
+  },
+  {
+   "k": "sssdx2",
+   "en": "num_of_civilian_factories"
+  },
+  {
+   "k": "1pbq161",
+   "en": "Amount of civilian factories."
+  },
+  {
+   "k": "aclgxh",
+   "en": "num_of_civilian_factories_available_for_projects"
+  },
+  {
+   "k": "19vdq8x",
+   "en": "Amount of civilian factories available for a new project to use."
+  },
+  {
+   "k": "zy4c15",
+   "en": "total_constructed_<building>"
+  },
+  {
+   "k": "13g3cay",
+   "en": "Amount of buildings of a certain type that have been constructed after the game's start by the country. The following options exist: Name Notes total_constructed_civilian_factory total_constructed_infrastructure total_constructed_military_factory total_constructed_dockyard total_constructed_port total_constructed_air_base total_constructed_rocket_site total_constructed_radar total_constructed_anti_air total_constructed_refinery total_constructed_fuel_silo total_constructed_supply_node total_constructed_nuclear_reactor total_constructed_land_fort total_constructed_naval_fort total_constructed_other"
+  },
+  {
+   "k": "15cf2ln",
+   "en": "total_constructed_civilian_factory"
+  },
+  {
+   "k": "sp0g8",
+   "en": "total_constructed_infrastructure"
+  },
+  {
+   "k": "n7lktp",
+   "en": "total_constructed_military_factory"
+  },
+  {
+   "k": "mnrm9o",
+   "en": "total_constructed_dockyard"
+  },
+  {
+   "k": "1ok18do",
+   "en": "total_constructed_port"
+  },
+  {
+   "k": "1n8w8t7",
+   "en": "total_constructed_air_base"
+  },
+  {
+   "k": "922v1z",
+   "en": "total_constructed_rocket_site"
+  },
+  {
+   "k": "v2f005",
+   "en": "total_constructed_radar"
+  },
+  {
+   "k": "1c6ktfg",
+   "en": "total_constructed_anti_air"
+  },
+  {
+   "k": "1t2erkr",
+   "en": "total_constructed_refinery"
+  },
+  {
+   "k": "mfhm6h",
+   "en": "total_constructed_fuel_silo"
+  },
+  {
+   "k": "244u25",
+   "en": "total_constructed_supply_node"
+  },
+  {
+   "k": "l8xzha",
+   "en": "total_constructed_nuclear_reactor"
+  },
+  {
+   "k": "1qgqs3a",
+   "en": "total_constructed_land_fort"
+  },
+  {
+   "k": "1ebviuf",
+   "en": "total_constructed_naval_fort"
+  },
+  {
+   "k": "9xwbf3",
+   "en": "total_constructed_other"
+  },
+  {
+   "k": "1dfn3n8",
+   "en": "num_of_factories"
+  },
+  {
+   "k": "whv6zg",
+   "en": "Amount of total factories."
+  },
+  {
+   "k": "10fde38",
+   "en": "num_of_military_factories"
+  },
+  {
+   "k": "c1fdlf",
+   "en": "Amount of military factories."
+  },
+  {
+   "k": "1hm4dsj",
+   "en": "num_of_naval_factories"
+  },
+  {
+   "k": "r3e6gi",
+   "en": "Amount of naval factories."
+  },
+  {
+   "k": "16cfdet",
+   "en": "num_of_controlled_factories"
+  },
+  {
+   "k": "170d2i3",
+   "en": "Amount of factories within controlled states."
+  },
+  {
+   "k": "1xoje0u",
+   "en": "num_of_owned_factories"
+  },
+  {
+   "k": "1v5rpba",
+   "en": "Amount of factories within owned states."
+  },
+  {
+   "k": "116v2m3",
+   "en": "num_of_supply_nodes"
+  },
+  {
+   "k": "1dfjdgq",
+   "en": "Amount of supply nodes."
+  },
+  {
+   "k": "xqibco",
+   "en": "num_of_nukes"
+  },
+  {
+   "k": "yd7zdq",
+   "en": "Amount of nukes."
+  },
+  {
+   "k": "12hy2dr",
+   "en": "num_researched_technologies"
+  },
+  {
+   "k": "vhuxlg",
+   "en": "Number of technologies a tag has researched."
+  },
+  {
+   "k": "engzqw",
+   "en": "num_tech_sharing_groups"
+  },
+  {
+   "k": "121bnt0",
+   "en": "How many tech sharing groups a nation is a member of."
+  },
+  {
+   "k": "1bv3et5",
+   "en": "surrender_progress"
+  },
+  {
+   "k": "1pb42th",
+   "en": "How close the country is to surrendering on the scale from 0 to 1."
+  },
+  {
+   "k": "11w4yaa",
+   "en": "has_legitimacy"
+  },
+  {
+   "k": "15kknjc",
+   "en": "Legitimacy of the government in exile on the scale from 0 to 100. Defaults to 0 if none."
+  },
+  {
+   "k": "1ef8j4",
+   "en": "pc_total_score"
+  },
+  {
+   "k": "noe8e5",
+   "en": "Total score of the country on the currently-ongoing peace conference where it is a winner."
+  },
+  {
+   "k": "tgqgwf",
+   "en": "pc_current_score"
+  },
+  {
+   "k": "ohjaig",
+   "en": "Current score of the country on the currently-ongoing peace conference where it is a winner."
+  },
+  {
+   "k": "np24w6",
+   "en": "days_left"
+  },
+  {
+   "k": "n729zn",
+   "en": "Country flag such as ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "pid6ra",
+   "en": ":my_flag"
+  },
+  {
+   "k": "1ud806e",
+   "en": "The current number of remaining days for a country flag. Must be targeted with a ⟦0⟧ rather than a ⟦1⟧ with the position of the target and the variable being swapped unlike in most other game variables, e.g. ⟦2⟧. The value of the variable cannot be directly passed into another variable; instead, a ⟦3⟧ must be used.",
+   "frags": 4
+  },
+  {
+   "k": "18zdh0x",
+   "en": "my_flag:days_left"
+  },
+  {
+   "k": "1a1yl15",
+   "en": "meta effect"
+  },
+  {
+   "k": "1ucgzsb",
+   "en": "army_intel"
+  },
+  {
+   "k": "euv4mj",
+   "en": "Army intel against the target country."
+  },
+  {
+   "k": "1xzrrbe",
+   "en": "navy_intel"
+  },
+  {
+   "k": "1j85kzi",
+   "en": "Navy intel against the target country."
+  },
+  {
+   "k": "1w1155t",
+   "en": "airforce_intel"
+  },
+  {
+   "k": "1wpkvur",
+   "en": "Air intel against the target country.(If you need to use this variable as a trigger for checking, please write a localization yourself.)"
+  },
+  {
+   "k": "1k217vr",
+   "en": "civilian_intel"
+  },
+  {
+   "k": "2f4b5r",
+   "en": "Civilian intel against the target country."
+  },
+  {
+   "k": "yh9l6k",
+   "en": "encryption_strength"
+  },
+  {
+   "k": "byht82",
+   "en": "Total encryption strength of the country. Only without the ⟦0⟧ DLC.",
+   "frags": 1
+  },
+  {
+   "k": "z1ygrj",
+   "en": "La Résistance"
+  },
+  {
+   "k": "7dwah8",
+   "en": "decryption_speed"
+  },
+  {
+   "k": "j9l310",
+   "en": "Total decryption speed of the country. Only without the ⟦0⟧ DLC.",
+   "frags": 1
+  },
+  {
+   "k": "vlz5pf",
+   "en": "cryptology_defense_level"
+  },
+  {
+   "k": "4kpb45",
+   "en": "cryptology defense level of the country."
+  },
+  {
+   "k": "15c6vaz",
+   "en": "agency_upgrade_number"
+  },
+  {
+   "k": "3tuve6",
+   "en": "The number of upgrade done in the intelligence agency."
+  },
+  {
+   "k": "g0gx6i",
+   "en": "decryption_progress"
+  },
+  {
+   "k": "1hb62k0",
+   "en": "Decryption progress against the target country."
+  },
+  {
+   "k": "151m1ob",
+   "en": "network_national_coverage"
+  },
+  {
+   "k": "1fp6j65",
+   "en": "Network national coverage the current country has over the target country."
+  },
+  {
+   "k": "us34d1",
+   "en": "num_fake_intel_divisions"
+  },
+  {
+   "k": "987963",
+   "en": "The amount of fake intel division that the country has."
+  },
+  {
+   "k": "z1239b",
+   "en": "num_operative_slots"
+  },
+  {
+   "k": "1ku4hmy",
+   "en": "The number of available operative slots a country has. If this differs from the number of operative, this does not mean the country can recruit an operative, but that it will eventually be able to."
+  },
+  {
+   "k": "1m9atjy",
+   "en": "num_free_operative_slots"
+  },
+  {
+   "k": "pswszb",
+   "en": "The amount of operative slots that are currently empty and an operative can be recruited in."
+  },
+  {
+   "k": "16ydc0w",
+   "en": "num_of_operatives"
+  },
+  {
+   "k": "mhsur1",
+   "en": "The number of operatives the country controls."
+  },
+  {
+   "k": "19uembk",
+   "en": "manpower"
+  },
+  {
+   "k": "e9nutr",
+   "en": "Manpower that the country has, both in the army and reserved. Deprecated, recommended to use ⟦0⟧ instead as to push the necessary number for an overflow to ~2 billion from the very possible ~2 million. ⟦1⟧ can be used in the same way.",
+   "frags": 2
+  },
+  {
+   "k": "8fh95e",
+   "en": "manpower_k"
+  },
+  {
+   "k": "aj0pmh",
+   "en": "has_manpower"
+  },
+  {
+   "k": "17nsfkl",
+   "en": "Manpower that the country has, both in the army and reserved, in thousands."
+  },
+  {
+   "k": "rkvx41",
+   "en": "deployed_army_manpower_k"
+  },
+  {
+   "k": "65s96g",
+   "en": "Manpower in the army in the field in thousands. Do not count manpower in training."
+  },
+  {
+   "k": "gtgtxa",
+   "en": "deployed_navy_manpower_k"
+  },
+  {
+   "k": "1hnjgcq",
+   "en": "Manpower in the navy in thousands."
+  },
+  {
+   "k": "fk05hb",
+   "en": "deployed_airforce_manpower_k"
+  },
+  {
+   "k": "chd7id",
+   "en": "Manpower in the airforce in thousands."
+  },
+  {
+   "k": "3xi0hz",
+   "en": "max_available_manpower"
+  },
+  {
+   "k": "pg7ad2",
+   "en": "Manpower that the country has, both in the army and reserved, taking into account those that are in the process of being drafted as the result of a recent conscription amount change. Deprecated, recommended to use ⟦0⟧ instead as to push the necessary number for an overflow to ~2 billion from the very possible ~2 million.",
+   "frags": 1
+  },
+  {
+   "k": "yhgdw9",
+   "en": "max_available_manpower_k"
+  },
+  {
+   "k": "75svev",
+   "en": "Manpower that the country has, both in the army and reserved, taking into account those that are in the process of being drafted as the result of a recent conscription amount change, in thousands."
+  },
+  {
+   "k": "kezka3",
+   "en": "target_conscription_amount"
+  },
+  {
+   "k": "y5lsg2",
+   "en": "The target conscription amount of the country."
+  },
+  {
+   "k": "1dsboo7",
+   "en": "amount_manpower_in_deployment_queue"
+  },
+  {
+   "k": "nhhmhf",
+   "en": "Amount of manpower currently in the deployment view."
+  },
+  {
+   "k": "1kuwlze",
+   "en": "conscription_ratio"
+  },
+  {
+   "k": "1u3p338",
+   "en": "Conscription ratio of the country compared to target conscription ratio."
+  },
+  {
+   "k": "hshced",
+   "en": "current_conscription_amount"
+  },
+  {
+   "k": "uao79a",
+   "en": "The current conscription amount of the country."
+  },
+  {
+   "k": "1d81w2w",
+   "en": "command_power"
+  },
+  {
+   "k": "w5auh6",
+   "en": "The current command power of country."
+  },
+  {
+   "k": "1knyyge",
+   "en": "command_power_daily"
+  },
+  {
+   "k": "6qa7fn",
+   "en": "The current daily gain of command power by country."
+  },
+  {
+   "k": "obhf4t",
+   "en": "army_experience"
+  },
+  {
+   "k": "1lud7sy",
+   "en": "Army experience that the country has."
+  },
+  {
+   "k": "zuhvpm",
+   "en": "navy_experience"
+  },
+  {
+   "k": "1y98qnb",
+   "en": "Naval experience that the country has."
+  },
+  {
+   "k": "1tz2u84",
+   "en": "air_experience"
+  },
+  {
+   "k": "n78abz",
+   "en": "Air experience that the country has."
+  },
+  {
+   "k": "1lssvft",
+   "en": "num_armies"
+  },
+  {
+   "k": "18irbwv",
+   "en": "Amount of land divisions."
+  },
+  {
+   "k": "a86gb",
+   "en": "num_armies_in_state"
+  },
+  {
+   "k": "by38uu",
+   "en": "State such as ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "d9wkg3",
+   "en": "Amount of land divisions within the target state."
+  },
+  {
+   "k": "zmqa8r",
+   "en": "num_armies_with_type"
+  },
+  {
+   "k": "11jl1uf",
+   "en": "Subunit type such as ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1i9hint",
+   "en": "@light_armor"
+  },
+  {
+   "k": "11lxx5f",
+   "en": "Amount of land divisions that are majority of the same subunit type."
+  },
+  {
+   "k": "1ttwjln",
+   "en": "num_battalions"
+  },
+  {
+   "k": "t8jzsa",
+   "en": "Amount of battalions within land divisions the country has."
+  },
+  {
+   "k": "1ogseeh",
+   "en": "num_battalions_with_type"
+  },
+  {
+   "k": "1bvvodb",
+   "en": "@cavalry"
+  },
+  {
+   "k": "1onj7la",
+   "en": "Amount of battalions within land divisions the country has that have the specified subunit type."
+  },
+  {
+   "k": "2oeuy8",
+   "en": "num_deployed_planes"
+  },
+  {
+   "k": "h3zq1z",
+   "en": "Amount of deployed planes."
+  },
+  {
+   "k": "k7dq3e",
+   "en": "num_deployed_planes_with_type"
+  },
+  {
+   "k": "7299w4",
+   "en": "@fighter"
+  },
+  {
+   "k": "127rv53",
+   "en": "Amount of deployed planes with equipment type."
+  },
+  {
+   "k": "1kolx9w",
+   "en": "num_divisions"
+  },
+  {
+   "k": "1uh5hq8",
+   "en": "Amount of land and naval divisions."
+  },
+  {
+   "k": "1lhg3tw",
+   "en": "num_equipment"
+  },
+  {
+   "k": "1m290fb",
+   "en": "Equipment type or archetype such as ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1p2ub81",
+   "en": "@infantry_equipment"
+  },
+  {
+   "k": "qyvzdq",
+   "en": "Amount of equipment within the country's stockpile."
+  },
+  {
+   "k": "344x8a",
+   "en": "num_equipment_in_armies"
+  },
+  {
+   "k": "kso4tk",
+   "en": "@artillery_equipment"
+  },
+  {
+   "k": "8lvl3k",
+   "en": "Amount of equipment in country that are used in armies. If there's a large amount of equipment possible, use ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1c5yjgc",
+   "en": "num_equipment_in_armies_k"
+  },
+  {
+   "k": "xmz0ip",
+   "en": "@support_equipment"
+  },
+  {
+   "k": "18x5xgj",
+   "en": "Amount of equipment in country that are used in armies, in thousands."
+  },
+  {
+   "k": "1kpir8o",
+   "en": "num_target_equipment_in_armies"
+  },
+  {
+   "k": "1ma2hg5",
+   "en": "@motorized_equipment_1"
+  },
+  {
+   "k": "179t2se",
+   "en": "Amount of equipment in country that are wanted in armies. If there's a large amount of equipment possible, use ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1xsayfu",
+   "en": "num_target_equipment_in_armies_k"
+  },
+  {
+   "k": "ilmo5f",
+   "en": "@anti_air_equipment_1"
+  },
+  {
+   "k": "1y7smxt",
+   "en": "Amount of equipment in country that are wanted in armies, in thousands."
+  },
+  {
+   "k": "16dav6q",
+   "en": "total_equipment_produced_<type>"
+  },
+  {
+   "k": "10vn9cu",
+   "en": "The total amount of produced equipment with the specified type of equipment archetypes. The following options exist: Name Base game notes total_equipment_produced_infantry Includes infantry equipment, support equipment, artillery (non-rocket), anti-air, and anti-tank. total_equipment_produced_artillery Also includes anti-air, anti-tank, and rocket artillery. total_equipment_produced_anti_air total_equipment_produced_anti_tank total_equipment_produced_rocket total_equipment_produced_support total_equipment_produced_motorized Also includes armoured cars, rocket artillery, and support equipment. total_equipment_produced_mechanized total_equipment_produced_capital_ship total_equipment_produced_submarine total_equipment_produced_carrier total_equipment_produced_screen_ship total_equipment_produced_fighter total_equipment_produced_heavy_fighter total_equipment_produced_cas total_equipment_produced_interceptor total_equipment_produced_strategic_bomber total_equipment_produced_tactical_bomber total_equipment_produced_naval_bomber total_equipment_produced_maritime_patrol_plane total_equipment_produced_scout_plane total_equipment_produced_air_transport total_equipment_produced_suicide Suicide bombers. total_equipment_produced_missile total_equipment_produced_convoy total_equipment_produced_armor total_equipment_produced_amphibious Only includes amphibious tanks and not amphibious mechanised equipment. total_equipment_produced_flame total_equipment_produced_train total_equipment_produced_railway_gun total_equipment_produced_floating_harbor"
+  },
+  {
+   "k": "5biwu3",
+   "en": "Base game notes"
+  },
+  {
+   "k": "16jsab9",
+   "en": "total_equipment_produced_infantry"
+  },
+  {
+   "k": "wn4mnq",
+   "en": "Includes infantry equipment, support equipment, artillery (non-rocket), anti-air, and anti-tank."
+  },
+  {
+   "k": "ov3vzu",
+   "en": "total_equipment_produced_artillery"
+  },
+  {
+   "k": "1p0tyrk",
+   "en": "Also includes anti-air, anti-tank, and rocket artillery."
+  },
+  {
+   "k": "n6g49v",
+   "en": "total_equipment_produced_anti_air"
+  },
+  {
+   "k": "1vk1g99",
+   "en": "total_equipment_produced_anti_tank"
+  },
+  {
+   "k": "gacqx0",
+   "en": "total_equipment_produced_rocket"
+  },
+  {
+   "k": "uisbfn",
+   "en": "total_equipment_produced_support"
+  },
+  {
+   "k": "u6bhtf",
+   "en": "total_equipment_produced_motorized"
+  },
+  {
+   "k": "zehjwd",
+   "en": "Also includes armoured cars, rocket artillery, and support equipment."
+  },
+  {
+   "k": "1ixatls",
+   "en": "total_equipment_produced_mechanized"
+  },
+  {
+   "k": "1s92xh7",
+   "en": "total_equipment_produced_capital_ship"
+  },
+  {
+   "k": "t9ll7g",
+   "en": "total_equipment_produced_submarine"
+  },
+  {
+   "k": "16wiuvs",
+   "en": "total_equipment_produced_carrier"
+  },
+  {
+   "k": "6xoptr",
+   "en": "total_equipment_produced_screen_ship"
+  },
+  {
+   "k": "1n7x4tp",
+   "en": "total_equipment_produced_fighter"
+  },
+  {
+   "k": "1wj3enp",
+   "en": "total_equipment_produced_heavy_fighter"
+  },
+  {
+   "k": "2mkpg5",
+   "en": "total_equipment_produced_cas"
+  },
+  {
+   "k": "1fp7sfb",
+   "en": "total_equipment_produced_interceptor"
+  },
+  {
+   "k": "114bco0",
+   "en": "total_equipment_produced_strategic_bomber"
+  },
+  {
+   "k": "1h3a0ux",
+   "en": "total_equipment_produced_tactical_bomber"
+  },
+  {
+   "k": "14udrpi",
+   "en": "total_equipment_produced_naval_bomber"
+  },
+  {
+   "k": "1ix30u4",
+   "en": "total_equipment_produced_maritime_patrol_plane"
+  },
+  {
+   "k": "egvud7",
+   "en": "total_equipment_produced_scout_plane"
+  },
+  {
+   "k": "vimfb6",
+   "en": "total_equipment_produced_air_transport"
+  },
+  {
+   "k": "14qpew",
+   "en": "total_equipment_produced_suicide"
+  },
+  {
+   "k": "s778nr",
+   "en": "Suicide bombers."
+  },
+  {
+   "k": "ilrnno",
+   "en": "total_equipment_produced_missile"
+  },
+  {
+   "k": "z82nle",
+   "en": "total_equipment_produced_convoy"
+  },
+  {
+   "k": "17pyltn",
+   "en": "total_equipment_produced_armor"
+  },
+  {
+   "k": "128t4s5",
+   "en": "total_equipment_produced_amphibious"
+  },
+  {
+   "k": "39o0da",
+   "en": "Only includes amphibious tanks and not amphibious mechanised equipment."
+  },
+  {
+   "k": "1esndnr",
+   "en": "total_equipment_produced_flame"
+  },
+  {
+   "k": "1alm41y",
+   "en": "total_equipment_produced_train"
+  },
+  {
+   "k": "1l95sau",
+   "en": "total_equipment_produced_railway_gun"
+  },
+  {
+   "k": "1rd5pvh",
+   "en": "total_equipment_produced_floating_harbor"
+  },
+  {
+   "k": "1gawj1j",
+   "en": "num_ships"
+  },
+  {
+   "k": "ylep8l",
+   "en": "Amount of ships."
+  },
+  {
+   "k": "11xtan9",
+   "en": "num_ships_with_type"
+  },
+  {
+   "k": "1vhjcjp",
+   "en": "@carrier"
+  },
+  {
+   "k": "18pjk0g",
+   "en": "Amount of ships with the specified subunit type."
+  },
+  {
+   "k": "x9mj4y",
+   "en": "land_doctrine_level"
+  },
+  {
+   "k": "10qa7mg",
+   "en": "The currently-researched land doctrine level."
+  },
+  {
+   "k": "4lxddz",
+   "en": "A large portion of the AI-related game variables can have values seen in-game by using the ⟦0⟧ console command.",
+   "frags": 1
+  },
+  {
+   "k": "17eutii",
+   "en": "aiview"
+  },
+  {
+   "k": "1su6qfp",
+   "en": "ai_attitude_allied_weight"
+  },
+  {
+   "k": "261pgn",
+   "en": "The total amount of the ⟦0⟧ AI attribute.",
+   "frags": 1
+  },
+  {
+   "k": "qcuchr",
+   "en": "attitude_allied"
+  },
+  {
+   "k": "sysuzt",
+   "en": "ai_attitude_friendly_weight"
+  },
+  {
+   "k": "1uec93j",
+   "en": "attitude_friendly"
+  },
+  {
+   "k": "1bgoo34",
+   "en": "ai_attitude_hostile_weight"
+  },
+  {
+   "k": "ybu3mu",
+   "en": "attitude_hostile"
+  },
+  {
+   "k": "hhjwqy",
+   "en": "ai_attitude_is_threatened"
+  },
+  {
+   "k": "1im2dd3",
+   "en": "Returns 1 if the AI is threatened, 0 otherwise."
+  },
+  {
+   "k": "mirl3n",
+   "en": "ai_attitude_neutral_weight"
+  },
+  {
+   "k": "xo2jhb",
+   "en": "attitude_neutral"
+  },
+  {
+   "k": "17hehy1",
+   "en": "ai_attitude_outraged_weight"
+  },
+  {
+   "k": "b2shaz",
+   "en": "attitude_outraged"
+  },
+  {
+   "k": "xhyzih",
+   "en": "ai_attitude_protective_weight"
+  },
+  {
+   "k": "e2j9wb",
+   "en": "attitude_protective"
+  },
+  {
+   "k": "19hw6by",
+   "en": "ai_attitude_threatened_weight"
+  },
+  {
+   "k": "1vr98ky",
+   "en": "attitude_threatened"
+  },
+  {
+   "k": "76msbd",
+   "en": "ai_attitude_wants_ally"
+  },
+  {
+   "k": "1rvn6zn",
+   "en": "Returns 1 if the AI wants to ally any country, 0 otherwise."
+  },
+  {
+   "k": "1ffjryd",
+   "en": "ai_attitude_wants_antagonize"
+  },
+  {
+   "k": "1hl0qub",
+   "en": "Returns 1 if the AI wants to antagonize any country, 0 otherwise."
+  },
+  {
+   "k": "zgb0b9",
+   "en": "ai_attitude_wants_ignore"
+  },
+  {
+   "k": "35kqf3",
+   "en": "Returns 1 if the AI wants to ignore any country, 0 otherwise."
+  },
+  {
+   "k": "13bmeqm",
+   "en": "ai_attitude_wants_protect"
+  },
+  {
+   "k": "1o17i48",
+   "en": "Returns 1 if the AI wants to protect any country, 0 otherwise."
+  },
+  {
+   "k": "5naf0s",
+   "en": "ai_attitude_wants_weaken"
+  },
+  {
+   "k": "1xkz50a",
+   "en": "Returns 1 if the AI wants to weaken any country, 0 otherwise."
+  },
+  {
+   "k": "qrbz1t",
+   "en": "ai_strategy_activate_crypto"
+  },
+  {
+   "k": "ptbku7",
+   "en": "Total sum of the ⟦0⟧ values of the type ⟦1⟧ towards the target country.",
+   "frags": 2
+  },
+  {
+   "k": "7ln3do",
+   "en": "AI strategy"
+  },
+  {
+   "k": "18uagi0",
+   "en": "activate_crypto"
+  },
+  {
+   "k": "1o876xz",
+   "en": "ai_strategy_alliance"
+  },
+  {
+   "k": "81zsn4",
+   "en": "alliance"
+  },
+  {
+   "k": "11fdwwk",
+   "en": "ai_strategy_antagonize"
+  },
+  {
+   "k": "1ca4htz",
+   "en": "antagonize"
+  },
+  {
+   "k": "1lu4rp3",
+   "en": "ai_strategy_befriend"
+  },
+  {
+   "k": "3dg8wo",
+   "en": "befriend"
+  },
+  {
+   "k": "83o24z",
+   "en": "ai_strategy_conquer"
+  },
+  {
+   "k": "uhady2",
+   "en": "conquer"
+  },
+  {
+   "k": "1w3771u",
+   "en": "ai_strategy_consider_weak"
+  },
+  {
+   "k": "1yv5irr",
+   "en": "consider_weak"
+  },
+  {
+   "k": "1iumcne",
+   "en": "ai_strategy_contain"
+  },
+  {
+   "k": "ptotjv",
+   "en": "contain"
+  },
+  {
+   "k": "q6w82t",
+   "en": "ai_strategy_declare_war"
+  },
+  {
+   "k": "14m2c",
+   "en": "declare_war"
+  },
+  {
+   "k": "6qnobp",
+   "en": "ai_strategy_decrypt_target"
+  },
+  {
+   "k": "89kcci",
+   "en": "decrypt_target"
+  },
+  {
+   "k": "1y6ujc5",
+   "en": "ai_strategy_dont_defend_ally_borders"
+  },
+  {
+   "k": "bcxjdu",
+   "en": "dont_defend_ally_borders"
+  }
+ ]
+}

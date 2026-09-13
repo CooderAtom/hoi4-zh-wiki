@@ -1,0 +1,826 @@
+{
+ "batch": 967,
+ "pages": [
+  "Country creation"
+ ],
+ "chars": 14906,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "duxv6f",
+   "en": "The guide below presumes that you understand the basics of how to ⟦0⟧. This page should also help modders understand how to change some more specific aspects of a country.",
+   "frags": 1
+  },
+  {
+   "k": "5aofnu",
+   "en": "create a mod"
+  },
+  {
+   "k": "15ckfb8",
+   "en": "Quick checklist"
+  },
+  {
+   "k": "ftxm3p",
+   "en": "Define a unique 3-character country tag in any ⟦0⟧ file.",
+   "frags": 1
+  },
+  {
+   "k": "zz0yce",
+   "en": "<yourmod>/common/country_tags/*.txt"
+  },
+  {
+   "k": "12gxp2b",
+   "en": "Create a file in the ⟦0⟧ folder with the same name as the one that's linked in the country tag definition.",
+   "frags": 1
+  },
+  {
+   "k": "1uqp1nb",
+   "en": "<yourmod>/common/countries"
+  },
+  {
+   "k": "41x3g",
+   "en": "Define the country leader and optionally advisors and unit leaders in ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "19fqasv",
+   "en": "<yourmod>/common/characters"
+  },
+  {
+   "k": "nbat7u",
+   "en": "Create a .txt file in the ⟦0⟧ folder, with the first three letters of the filename being the country's tag, and fill it with the starting historical information.",
+   "frags": 1
+  },
+  {
+   "k": "1wkwuu0",
+   "en": "<yourmod>/history/countries"
+  },
+  {
+   "k": "16mnjmj",
+   "en": "Create an OOB file in ⟦0⟧ and load it within the previous country history file. ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1k0lv6p",
+   "en": "<yourmod>/history/units"
+  },
+  {
+   "k": "j66jd7",
+   "en": "Buildings will not be assigned to the country properly otherwise."
+  },
+  {
+   "k": "lq718g",
+   "en": "Add the country's name to any ⟦0⟧ file that uses the UTF-8-BOM encoding⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1fj6fit",
+   "en": "<yourmod>/localisation/english/*_l_english.yml"
+  },
+  {
+   "k": "wzat1w",
+   "en": "[a]"
+  },
+  {
+   "k": "i7bjcw",
+   "en": "Add a large, medium and small flag for each ideology to the ⟦0⟧ folder.",
+   "frags": 1
+  },
+  {
+   "k": "691hxy",
+   "en": "<yourmod>/gfx/flags"
+  },
+  {
+   "k": "1gq2779",
+   "en": "Optionally add the country to the game by assigning it states within the ⟦0⟧ files.",
+   "frags": 1
+  },
+  {
+   "k": "1k8tj37",
+   "en": "<yourmod>/history/states/*.txt"
+  },
+  {
+   "k": "1wybrxv",
+   "en": "Tag"
+  },
+  {
+   "k": "kuv4t7",
+   "en": "Countries need a 3-character country tag. This is how a country is referred to in all of the game's script. All country tags must be unique. A country must not share a tag with any other country."
+  },
+  {
+   "k": "1195cm9",
+   "en": "To create a tag, add a new file to ⟦0⟧ (or edit an existing file, though creating a new one is preferable due to making the mod easier to make compatible to newer game versions) and add a line similar to ⟦1⟧, where ⟦2⟧ is the address of the country file that will be created/edited, located in ⟦3⟧. There is no need for this file to be unique: multiple countries may use the exact same ⟦4⟧ file in its definition.",
+   "frags": 5
+  },
+  {
+   "k": "hofqnd",
+   "en": "<yourmod>/common/country_tags"
+  },
+  {
+   "k": "5i2nue",
+   "en": "SCO = \"countries/Scotland.txt\""
+  },
+  {
+   "k": "mbqppw",
+   "en": "countries/Scotland.txt"
+  },
+  {
+   "k": "1ohc8ma",
+   "en": "common/countries/"
+  },
+  {
+   "k": "1frv0pt",
+   "en": "There are some country tags that must be avoided, as they will cause in-game confusion whether something is meant to be a reference to a country or not. Their mere existence can cause other code to break. A list of them is the following:"
+  },
+  {
+   "k": "1ecsuuj",
+   "en": "Reason to avoid"
+  },
+  {
+   "k": "1bpd9re",
+   "en": "NOT"
+  },
+  {
+   "k": "fydx8m",
+   "en": "Used as a ⟦0⟧ that comes up as true when any of the triggers within is false.",
+   "frags": 1
+  },
+  {
+   "k": "h5q7ay",
+   "en": "flow control tool"
+  },
+  {
+   "k": "14cd03q",
+   "en": "AND"
+  },
+  {
+   "k": "a69mgu",
+   "en": "Used as a ⟦0⟧ that comes up as true when all of the triggers within are true.",
+   "frags": 1
+  },
+  {
+   "k": "6pr25v",
+   "en": "TAG"
+  },
+  {
+   "k": "12kubto",
+   "en": "Used as a ⟦0⟧ that checks the country being chosen.",
+   "frags": 1
+  },
+  {
+   "k": "wj82kj",
+   "en": "trigger"
+  },
+  {
+   "k": "7rtq43",
+   "en": "OOB"
+  },
+  {
+   "k": "1nlmbrp",
+   "en": "Used within country history files as an argument deciding the loaded order of battle file, deciding the amount of divisions and where they are located."
+  },
+  {
+   "k": "1hvir75",
+   "en": "LOG"
+  },
+  {
+   "k": "19p56xf",
+   "en": "Used as an ⟦0⟧ or a ⟦1⟧ that writes the specified argument within the ⟦2⟧'s ⟦3⟧ file or in console if it is open.",
+   "frags": 4
+  },
+  {
+   "k": "un2mhg",
+   "en": "effect"
+  },
+  {
+   "k": "3tohp",
+   "en": "user directory"
+  },
+  {
+   "k": "tqqglc",
+   "en": "/Hearts of Iron IV/logs/game.log"
+  },
+  {
+   "k": "mdum8j",
+   "en": "NUM"
+  },
+  {
+   "k": "qbzrp2",
+   "en": "Used for ⟦0⟧ in order to count the amount of elements within them. This will break the resistance system as the ⟦1⟧ responsible for deciding when resistance must be enabled utilises this.",
+   "frags": 2
+  },
+  {
+   "k": "8hmjf3",
+   "en": "arrays"
+  },
+  {
+   "k": "s2mw13",
+   "en": "scripted trigger"
+  },
+  {
+   "k": "10kl058",
+   "en": "RED"
+  },
+  {
+   "k": "5g0zbz",
+   "en": "Used within custom map modes as a temporary variable deciding how red the state should be. This will make every custom map mode always have 0 as the red value."
+  },
+  {
+   "k": "1nfy1mx",
+   "en": "Numbers"
+  },
+  {
+   "k": "4kpisj",
+   "en": "Numbers meaning an entirely numeric country tag such as ⟦0⟧, although the game prevents tags from ⟦1⟧ with numbers. While numbers can be used within country tags (such as ⟦2⟧), if it's entirely numeric there might be confusion whether, for example, ⟦3⟧ would refer to a state ID or a country tag.",
+   "frags": 4
+  },
+  {
+   "k": "820vo8",
+   "en": "beginning"
+  },
+  {
+   "k": "19m67s",
+   "en": "D01"
+  },
+  {
+   "k": "1evup2w",
+   "en": "A file can have ⟦0⟧ within of itself, which marks every country defined in that file afterwards to be marked as a dynamic country. A dynamic country is one that doesn't have explicit data defined, but instead copies it on the fly from an original country that it branches off. This is most commonly used within civil wars, with ⟦1⟧ auto-generating one. ⟦2⟧ if there is a sufficient amount of non-dynamic countries, with ⟦3⟧ (Though that crash is not necessarily caused by the lack of dynamic countries).",
+   "frags": 4
+  },
+  {
+   "k": "phbl2i",
+   "en": "dynamic_tags = yes"
+  },
+  {
+   "k": "79bzne",
+   "en": "the effect to start one"
+  },
+  {
+   "k": "1b3y26v",
+   "en": "If the mod doesn't have enough dynamic countries defined, the game will crash"
+  },
+  {
+   "k": "sgnmjc",
+   "en": "the last read file being marked as map/cities.txt or a savegame"
+  },
+  {
+   "k": "6l0ut9",
+   "en": "Country file"
+  },
+  {
+   "k": "1363xev",
+   "en": "The country tag list refers to a file in the ⟦0⟧ folder. The file sets the graphical culture and the default colour which may be overwritten by a ⟦1⟧ entry. An example of a file is as such:",
+   "frags": 2
+  },
+  {
+   "k": "r6m7xk",
+   "en": "<yourmod>/common/countries/"
+  },
+  {
+   "k": "1s88z5j",
+   "en": "colors.txt"
+  },
+  {
+   "k": "1qwrddn",
+   "en": "Graphical culture defines the set of graphics used for units, while the 2D graphical culture defines portraits used for aces and generic advisors. A list can be found in ⟦0⟧. For Scotland this would be the following:",
+   "frags": 1
+  },
+  {
+   "k": "fpcyiv",
+   "en": "/Hearts of Iron IV/common/graphicalculturetype.txt"
+  },
+  {
+   "k": "3c0j11",
+   "en": "⟦0⟧ is the country's default colour on the political map mode (overridden by a colors.txt entry if one exists. ⟦1⟧). The RGB colour model uses numbers on the scale from 0 to 255 or 0 to 1 (using exactly 1 is considered to be on the second scale), while the HSV colour model uses numbers on the scale from 0 to 1.",
+   "frags": 2
+  },
+  {
+   "k": "75t6rp",
+   "en": "color = rgb { 2 10 222 }"
+  },
+  {
+   "k": "1559rha",
+   "en": "This requires specifying a colour model, such as rgb or hsv, to work."
+  },
+  {
+   "k": "8srgfq",
+   "en": "Additionally, an entry can be made in ⟦0⟧ in order to specify more country colours. The file ⟦1⟧, and so it will overwrite the base game file if the entry is added. An entry in the file is formatted as the following:",
+   "frags": 2
+  },
+  {
+   "k": "1gjkgj6",
+   "en": "<yourmod>/common/countries/colors.txt"
+  },
+  {
+   "k": "1hbeozc",
+   "en": "has to be called colors.txt"
+  },
+  {
+   "k": "1yhsvfv",
+   "en": "⟦0⟧ will overwrite the country's colour on the political map, while ⟦1⟧ will be used externally, such as in the map generated with the ⟦2⟧ + ⟦3⟧ hotkey or the history viewer tool in ⟦4⟧. Colours may also be specified in the HSV color model, in which case ⟦5⟧ will need to be replaced with ⟦6⟧. The ⟦7⟧ is also used in order to colour in the background of the country's division counter, if the option is set to be country-specific. If a country doesn't have a color_ui entry, it defaults to a grey colour. In HSV, hue, saturation, and value are each on the scale from 0 to 1, using decimals to show the value.",
+   "frags": 8
+  },
+  {
+   "k": "h28rbs",
+   "en": "color"
+  },
+  {
+   "k": "1ve6w8r",
+   "en": "color_ui"
+  },
+  {
+   "k": "1oea3sw",
+   "en": "^Ctrl"
+  },
+  {
+   "k": "1p8wqd4",
+   "en": "F10"
+  },
+  {
+   "k": "9psbk2",
+   "en": "/Hearts of Iron IV/tools/history_viewer/"
+  },
+  {
+   "k": "joxdoc",
+   "en": "rgb"
+  },
+  {
+   "k": "5p5pq",
+   "en": "hsv"
+  },
+  {
+   "k": "1vrypta",
+   "en": "After reading the colour from the file, the saturation and value of the colour will be multiplied by 0.6 and 0.8 respectively by default⟦0⟧. This means the colour appearing in-game will be slightly darker and less saturated (closer to a shade of grey) than defined in the file. In order to have a country colour in HSV have a higher saturation or value than 0.6 or 0.8 respectively, a value larger than 1 can be used as long as it'll end up between 0 and 1 after the application of modifiers. For example, a pure red country colour can be simulated in HSV with ⟦1⟧. After applying the offsets, this will result in a saturation of 0.996 and a value of 1, being as close to pure red as possible. For RGB, this calculation is harder: \"Saturation\" defines the difference between the colour with the largest value and the others (changing it does not change the largest colour's value), while \"Value\" manifests in multiplying every colour's value by that. For replicating a desired value, let ⟦2⟧ represent the maximum value of colour. As such, each colour's value, originally ⟦3⟧ , by default should be ⟦4⟧ . With arbitrary Value/Saturation modifiers (represented with ⟦5⟧ and ⟦6⟧ ), it's ⟦7⟧ . For example, pure green (i.e. what ⟦8⟧ intends), would be represented well with ⟦9⟧ plugging numbers into that formula. Indeed, entering this value into the game, the result is exactly pure green, far closer to it than ⟦10⟧ or ⟦11⟧ are. These modifiers do not get applied when using the ⟦12⟧ ⟦13⟧.",
+   "frags": 14
+  },
+  {
+   "k": "lkqua7",
+   "en": "color = hsv { 0 1.66 1.25 }"
+  },
+  {
+   "k": "ft4r9f",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle V_M}"
+  },
+  {
+   "k": "11eqc9v",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle V}"
+  },
+  {
+   "k": "16426tn",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\frac{5}{12}\\left(5V-2V_M\\right)}"
+  },
+  {
+   "k": "grv0n",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle M_V}"
+  },
+  {
+   "k": "1l61ae",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle M_S}"
+  },
+  {
+   "k": "soyxmy",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\frac{1}{M_V}\\left(\\frac{V}{M_S}+V_M*\\frac{M_S-1}{M_S}\\right)}"
+  },
+  {
+   "k": "5jgnx6",
+   "en": "rgb { 0 255 0 }"
+  },
+  {
+   "k": "1tcwcvr",
+   "en": "rgb { -107 425 -107 }"
+  },
+  {
+   "k": "cy6bib",
+   "en": "rgb { 0 425 0 }"
+  },
+  {
+   "k": "1pq5zpn",
+   "en": "tag_color"
+  },
+  {
+   "k": "1psklu7",
+   "en": "console command"
+  },
+  {
+   "k": "yugfpb",
+   "en": "History"
+  },
+  {
+   "k": "kj9v41",
+   "en": "Create a file in the ⟦0⟧ folder. Alternatively, copy, rename, and edit a similar file. The filename typically follows the format of ⟦1⟧, e.g. \"SCO - Scotland.txt\". The important aspect is that the ⟦2⟧ in order to be loaded, without taking capitalisation into account. Everything after the tag is purely a comment and can be made into anything: \"SCO - Bahrain.txt\" will work just as well for SCO as would \"SCO_qatar.txt\". This file contains information about the starting attributes of the country for each scenario, such as the capital and the ruling party. They serve as an effect block, so most effects can be used within of them. ⟦3⟧ which may come into play for subjects, as puppeting changes party popularity.",
+   "frags": 4
+  },
+  {
+   "k": "tqr5bj",
+   "en": "TAG - country name.txt"
+  },
+  {
+   "k": "ny1mgj",
+   "en": "first three letters of the filename must be the same as the country's tag"
+  },
+  {
+   "k": "1lqeric",
+   "en": "These files get executed in the order of the countries in the country_tags file,"
+  },
+  {
+   "k": "p9z7p7",
+   "en": "A country may have more than one history file, in which case each one will be used. As a note, ⟦0⟧, leading anything afterwards to not be read. If nothing in the history file after a certain point applies, this is likely the cause.",
+   "frags": 1
+  },
+  {
+   "k": "y90trf",
+   "en": "any unnecessary closing bracket will stop the execution of the file prematurely"
+  },
+  {
+   "k": "bg0krj",
+   "en": "⟦0⟧ defines the capital state. The province with the most victory points within that state will get used as the capital. In case of overlap, the lowest province ID out of the possible choices gets chosen. In this case, 121 is the state Lothian, which contains Edinburgh as the largest victory point. To reiterate, ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "189tdsq",
+   "en": "capital = 121"
+  },
+  {
+   "k": "7vb6eh",
+   "en": "this must be a state ID, not a province ID."
+  },
+  {
+   "k": "ocyovm",
+   "en": "Order of battle"
+  },
+  {
+   "k": "1d7xn64",
+   "en": "See also: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1th2dg7",
+   "en": "Orders of battle are used for the starting military information: templates, divisions that use them, as well as the starting navy and airforce. Traditionally, the starting equipment production is put there within instant_effect while equipment variants are within country history, however instant_effect in orders of battle is an effect block, similarly to country history, so it's not necessary to divide them in this manner. As a byproduct of how the engine works, ⟦0⟧: any building ⟦1⟧ will not apply to the country immediately, rendering them impossible to use until the consumer goods percentage changes or a savefile gets reloaded. Orders of battle can also contain information on what national focus the country is ⟦2⟧ doing, however any already-completed focuses must be in country history.",
+   "frags": 3
+  },
+  {
+   "k": "vq1x7r",
+   "en": "countries with no order of battle will have broken buildings"
+  },
+  {
+   "k": "1yr3267",
+   "en": "constructed via an effect"
+  },
+  {
+   "k": "16wbuox",
+   "en": "currently"
+  },
+  {
+   "k": "1bfr5at",
+   "en": "There are several arguments/effects that can be used in country history. Each one is constructed in the manner of ⟦0⟧, which would link to the ⟦1⟧ file. The .txt extension is omitted from the filename necessary to be put in. ⟦2⟧ These are what can be used:",
+   "frags": 3
+  },
+  {
+   "k": "1t51cqv",
+   "en": "oob = \"filename\""
+  },
+  {
+   "k": "wuvjhd",
+   "en": "<yourmod>/history/units/filename.txt"
+  },
+  {
+   "k": "p5843h",
+   "en": "The filename of the order of battle is irrelevant as long as it matches up with the one loaded within the country history file."
+  },
+  {
+   "k": "1u5jzl6",
+   "en": "⟦0⟧ is the traditional way to load a land order of battle, assigning it to the country to be loaded before the game's start. However, ⟦1⟧, meaning that it can't be used within other effect blocks (e.g. if statements).",
+   "frags": 2
+  },
+  {
+   "k": "wr631d",
+   "en": "oob = \"SCO_1936\""
+  },
+  {
+   "k": "1a9xrzk",
+   "en": "this is not an effect but an argument in country history"
+  },
+  {
+   "k": "7iwa6l",
+   "en": "⟦0⟧ is identical to the prior way: assigning a land order of battle to the country to be loaded before the game's start. However, ⟦1⟧, meaning it can indeed be used in if statements. This is required to use within if statements, such as if different orders of battle are used depending on the DLC, however this can be used outside of if statements.",
+   "frags": 2
+  },
+  {
+   "k": "1fnoh34",
+   "en": "set_oob = \"SCO_1936\""
+  },
+  {
+   "k": "el9b3z",
+   "en": "this is an effect"
+  },
+  {
+   "k": "1iuqt0y",
+   "en": "⟦0⟧ and ⟦1⟧ are similar to the previous one, however are instead used for the specified branches of the military. These will overwrite any other previously-defined order of battle of the same type.",
+   "frags": 2
+  },
+  {
+   "k": "uw09by",
+   "en": "set_naval_oob = \"SCO_1936_naval_legacy\""
+  },
+  {
+   "k": "1oy0jf0",
+   "en": "set_air_oob = \"SCO_1936_air_bba\""
+  },
+  {
+   "k": "1v2crbn",
+   "en": "⟦0⟧ is an effect and ⟦1⟧. It, instead, loads the order of battle ⟦2⟧, which can lead to errors if it's put before technologies necessary to load the order and can lead to crashes if the order contains any divisions. However, this can be used to load orders of battle ⟦3⟧ the first-defined orders. This can be used for compatibility reasons as to not overwrite any unnecessary files or to re-use the same file containing templates, starting effects, or starting focus information across different countries to be loaded after the base order of battle.",
+   "frags": 4
+  },
+  {
+   "k": "fev0x6",
+   "en": "load_oob = \"my_template_shared\""
+  },
+  {
+   "k": "r68e7x",
+   "en": "is not recommended to be used in history"
+  },
+  {
+   "k": "1muvgh",
+   "en": "immediately"
+  },
+  {
+   "k": "7m08nd",
+   "en": "after"
+  },
+  {
+   "k": "40pk3g",
+   "en": "Naval and air units are divided into two separate orders of battle. This is because ⟦0⟧ changes the naval system and ⟦1⟧ changes the air system enough that any orders of battle created for the base game will not be compatible with the DLC or vise-versa. At times, the land order of battle can also be divided into multiple, most commonly if there are any references to tank equipment within ⟦2⟧ or starting equipment production. For each one of these, the same ⟦3⟧:",
+   "frags": 4
+  },
+  {
+   "k": "1hpzefz",
+   "en": "Man the Guns"
+  },
+  {
+   "k": "xw4s3v",
+   "en": "By Blood Alone"
+  },
+  {
+   "k": "1cxxiiy",
+   "en": "force_equipment_variants"
+  },
+  {
+   "k": "wjclp3",
+   "en": "if statements are used"
+  },
+  {
+   "k": "1r9igi9",
+   "en": "Note that ⟦0⟧ only works in its nested form in history files.",
+   "frags": 1
+  },
+  {
+   "k": "1gnc1yo",
+   "en": "else"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "pec68u",
+   "en": "Main article: Effects"
+  },
+  {
+   "k": "dtkoi2",
+   "en": "These are ⟦0⟧ which are traditionally put in history files of the country to be executed on startup, meaning that they can be used elsewhere as well. ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1yrfzhh",
+   "en": "effects"
+  },
+  {
+   "k": "18w4g3a",
+   "en": "Any other ⟦0⟧ can be used as well.",
+   "frags": 1
+  },
+  {
+   "k": "1pyacgo",
+   "en": "effect within the list"
+  },
+  {
+   "k": "vim4hn",
+   "en": "⟦0⟧ defines the amount of research slots a country has access to at the start. Normally, major powers have 4 slots, minor countries in North America and Europe have 3, and minor countries in the rest of the world have 2. Defaults to 2 slots if not specified.",
+   "frags": 1
+  },
+  {
+   "k": "zln8xl",
+   "en": "set_research_slots = 3"
+  },
+  {
+   "k": "168i1vg",
+   "en": "⟦0⟧ defines the ⟦1⟧ that a country will have at the start of the game, defined on the scale from 0 to 1. The prior example of 0.7 will lead to the country starting with 70% stability.",
+   "frags": 2
+  },
+  {
+   "k": "p3qfqf",
+   "en": "set_stability = 0.7"
+  },
+  {
+   "k": "wnbc3s",
+   "en": "Stability"
+  },
+  {
+   "k": "esy6vp",
+   "en": "⟦0⟧ defines the War support that a country will have at the start of the game. Similar to stability, it is defined on the scale from 0 to 1, the prior example of 0.5 being 50%.",
+   "frags": 1
+  },
+  {
+   "k": "1thq50k",
+   "en": "set_war_support = 0.5"
+  }
+ ]
+}

@@ -1,0 +1,276 @@
+PREV 用法
+FROM
+declare_war_on = { target = FROM type = annex_everything } FROM = { load_oob = defend_ourselves }
+可以无限串联为 FROM.FROM。用于指向该语句块固有的各种硬编码作用域，通常是除 ROOT 之外的第二作用域。例如：在事件中，它指发送事件的国家（即若该事件是通过效果触发的，则为触发它的 ROOT 作用域）。在有目标决议或外交脚本触发器中，它指被选为目标的作用域。
+事件
+使用效果
+有目标决议
+外交脚本触发器
+overlord
+overlord = { … }
+如果该国是附庸国，则为其宗主国。⟦0⟧
+会触发「invalid event target」错误。
+faction_leader
+faction_leader = { add_to_faction = FROM }
+该国所属阵营的阵营领袖。⟦0⟧
+owner
+仅限州、角色或参战方作用域内
+owner = { add_ideas = owns_this_state }
+在州作用域中，指拥有该州的国家。在⟦0⟧中，指拥有这些师的国家。在角色作用域中，指已招募该角色的国家。用于州时为⟦1⟧。
+参战方作用域
+会触发「invalid event target」错误
+controller
+controller = { ROOT = { create_wargoal = { target = PREV type = take_state_focus generator = { 123 } } } }
+当前州的控制者。⟦0⟧
+capital_scope
+capital_scope = { … }
+当前国家首都所在的州。少数情况下为⟦0⟧。
+event_target:<event_target_key>
+event_target:my_event_target = { … }
+已保存的⟦0⟧，冒号后不加空格。⟦1⟧
+事件目标或全局事件目标
+var:<variable>
+⟦0⟧ ⟦1⟧ 或 ⟦2⟧
+var:my_variable = { … }
+add_to_faction = my_variable
+add_to_faction = var:my_variable
+⟦0⟧ 被设为一个作用域。当作为目标而非作用域使用时，大多数情况下可省略 var:。
+变量
+var:
+任意作用域
+可用于国家、州或角色作用域。
+国家
+州
+角色
+通用
+通用任意作用域效果：
+参数
+示例
+备注
+add_dynamic_modifier
+⟦0⟧ 修正的名称。⟦1⟧ 若指定，动态修正将被限定到该作用域。可选。⟦2⟧ 经过 x 天后，这些修正将被移除。可选。
+modifier = <modifier_string>
+scope = <country>
+days = x
+add_dynamic_modifier = { modifier = example_dynamic_modifier scope = GER days = 14 }
+向指定作用域添加一个动态修正（默认作用域为 ROOT）。它每天更新一次，除非通过 force_update_dynamic_modifier 效果强制提前更新。
+示例可在⟦0⟧中找到。动态修正中任何使用变量的修正项都不会显示在此效果的工具提示中，而设为静态值的修正项则会显示。支持州、国家、角色和特殊项目作用域。
+/Hearts of Iron IV/common/dynamic_modifiers/*.txt
+remove_dynamic_modifier
+⟦0⟧ 修正的名称。
+remove_dynamic_modifier = { modifier = sabotaged_ressources }
+从当前作用域移除一个动态修正
+示例可在⟦0⟧中找到
+force_update_dynamic_modifier
+⟦0⟧ 布尔值。
+<bool>
+force_update_dynamic_modifier = yes
+强制更新动态修正中由变量给出的效果。
+默认每天更新一次；当应用的值需要紧急变更时可以使用，例如之后在效果块中检查或使用这些修正时。
+add_state_resistance_compliance_modifier
+⟦0⟧要应用的修正。⟦1⟧受影响的州。
+modifier = <resistance_compliance_modifier>
+state= <state>
+add_state_resistance_compliance_modifier = { modifier = dynamic_modifier_name state = 738 }
+向某个州添加抵抗度或顺从度修正。只能使用⟦0⟧中标记为⟦1⟧的修正项
+/Hearts of Iron IV/common/resistance_modifiers.txt/compliance_modifiers.txt
+is_dynamic = yes
+remove_state_resistance_compliance_modifier
+⟦0⟧要移除的修正。⟦1⟧受影响的州。
+remove_state_resistance_compliance_modifier = { modifier = dynamic_modifier_name state = 738 }
+从某个州移除抵抗度或顺从度修正。只能使用⟦0⟧中标记为⟦1⟧的修正项
+set_global_flag
+⟦0⟧ 用于标识该全局旗标的唯一字符串。或 flag = <flag> 要设置的旗标。days = <int> 设置旗标持续的指定天数。可选。value = <int> 旗标的新值，取值范围从 -2 147 483 648 到 2 147 483 647。
+<flag>
+flag = <flag>
+days = <int>
+value = <int>
+set_global_flag = my_flag set_global_flag = { flag = my_flag days = 123 value = 1 }
+定义一个全局旗标。
+不显示工具提示。⟦0⟧
+此效果中的 flag 是「布尔旗标」的含义，用于存储信息。
+play_song
+⟦0⟧ 位于 music 文件夹和 .asset 中的音乐文件
+<song title from .asset>
+play_song = "general_peace_1"
+播放一段音轨
+歌曲必须定义在音乐电台中才能生效。更多信息可在⟦0⟧页面中找到。若只想播放音效，则应改用⟦1⟧效果。若执行该效果，歌曲将对所有国家开始播放。若只希望一个国家播放该歌曲，见 scoped_play_song。
+音乐模组制作
+sound_effect
+scoped_play_song
+clr_global_flag
+⟦0⟧ 要清除的全局旗标的唯一字符串。
+clr_global_flag = my_flag
+清除已定义的全局旗标。
+不显示工具提示
+modify_global_flag
+⟦0⟧ 要修改的旗标。value = <value> 为旗标增加的值。默认为 0。days = <int> 旗标在被清除前持续的天数。可选，默认为永久。
+value = <value>
+modify_global_flag = { flag = my_flag value = 3 }
+为旗标增加一个整数值。
+该旗标必须已被设置。
+custom_effect_tooltip
+⟦0⟧ 要在工具提示中显示的本地化字符串。
+<string>
+custom_effect_tooltip = my_tooltip_tt custom_effect_tooltip = { localization_key = my_loc NESTEDLOC = myotherloc/string }
+在效果工具提示中显示一个本地化键。
+也支持⟦0⟧。
+Localisation#Bindable_localisation
+custom_override_tooltip
+⟦0⟧ 要在工具提示中显示的本地化字符串。not_tooltip = <string> 用于 NOT 块的、要在工具提示中显示的本地化字符串。可选。
+tooltip = <string>
+not_tooltip = <string>
+custom_override_tooltip= { tooltip = my_tt not_tooltip = my_tt_NOT <effects> }
+执行所提供的效果，但使用自定义工具提示，抑制此块内所有其他效果的工具提示。
+⟦0⟧ 也支持 Localisation#Bindable_localisation。
+也可用作触发器。
+effect_tooltip
+effect_tooltip = { declare_war_on = { target = FRA } }
+在工具提示中显示这些效果，但不执行它们。
+log
+⟦0⟧ 要写入 game.log 的字符串
+log = "myVariable: [?myVariable]"
+执行时在⟦0⟧⟦1⟧文件中显示字符串；若执行该记录效果时控制台处于打开状态，也会显示在控制台中。
+用户目录的
+/Hearts of Iron IV/logs/game.log
+接受所有本地化指令（例如 ⟦0⟧、⟦1⟧ 等）
+[Root.GetName]
+[GetDateText]
+save_event_target_as
+⟦0⟧ 用于标识该事件目标的唯一字符串。
+capital_scope = { save_event_target_as = my_state }
+将当前作用域保存为一个键。执行结束时（即事件结束时）被清除。
+使用 event_target:<key> 访问该作用域。不要在脚本化 GUI 中使用。
+save_global_event_target_as
+⟦0⟧ 用于标识该全局事件目标的唯一字符串。
+random_other_country = { save_global_event_target_as = my_country }
+将当前作用域保存为一个键。执行后持续存在，直到通过效果清除。
+clear_global_event_target
+⟦0⟧ 要清除的全局事件目标的唯一字符串。
+clear_global_event_target = my_country
+清除指定的全局事件目标。
+clear_global_event_targets
+yes
+clear_global_event_targets = yes
+清除所有全局事件目标。
+⟦0⟧ 来自 .asset 文件的音效引用。
+sound_effect = "boom"
+播放指定的音效一次。
+音效必须在⟦0⟧中正确定义。另见：⟦1⟧。若执行该效果，音效将对所有国家播放。若只希望一个国家听到，见 scoped_sound_effect。
+/Hearts of Iron IV/sound/
+音效模组制作
+scoped_sound_effect
+randomize_weather
+⟦0⟧ 一个种子整数。
+<int>
+randomize_weather = 12345
+使用指定的种子随机化天气。
+set_province_name
+⟦0⟧ 要更改的省份 id。name = <string> 将该省份改成的名称。
+id = <id>
+name = <string>
+set_province_name = { id = 325 name = LOC_KEY } set_province_name = { id = 325 name = "New Name" }
+将指定省份/胜利点的名称更改为指定名称。
+本地化键需在⟦0⟧中定义
+/Hearts of Iron IV/localisation/*_l_<language>.yml
+reset_province_name
+⟦0⟧ 要重置的省份 id。
+<id>
+reset_province_name = 325
+重置指定省份的名称。
+damage_units
+⟦0⟧ 要对单位造成伤害的省份。state = <id> 要对单位造成伤害的州。region = <id> 要对单位造成伤害的战略区域。limit = { <triggers> } 仅当拥有这些单位的国家满足其中的触发器时才会删除单位。damage = <fraction> 对单位造成的伤害百分比。org_damage = <fraction> 对单位组织度造成的伤害百分比。str_damage = <fraction> 对单位兵力造成的伤害百分比。ratio = <yes> 若设置，将按单位总组织度/兵力的比例造成伤害。template = <string> 若指定，要求模板名称匹配。army = <bool> 将对陆军单位造成伤害。navy = <bool> 将对海军单位造成伤害。
+province = <id>
+state = <id>
+region = <id>
+limit = { <triggers> }
+damage = <fraction>
+org_damage = <fraction>
+str_damage = <fraction>
+ratio = <yes>
+template = <string>
+army = <bool>
+navy = <bool>
+damage_units = { province = 42 state = 5 region = 5 limit = { has_country_flag = TAG_test } damage = 0.5 org_damage = 0.5 str_damage = 0.5 ratio = yes template = "template_name" army = no navy = yes }
+对指定区域内的单位造成伤害。
+create_entity
+⟦0⟧ 要生成的实体，在⟦1⟧文件中定义。id = int 一个数字 ID，可供其他效果引用。可选。var = <variable> 若提供，实体的 id 将存储在该变量中。可选。x = <int> 实体的 X 坐标。y = <int> 实体的 Y 坐标。z = <int> 实体的 Z 坐标。province = <int> 以其中央位置作为实体位置的省份。state = <int> 以其中央位置作为实体位置的州。rotation = <decimal> 实体的旋转角度，单位为弧度。scale = <decimal> 实体的尺寸。min_zoom = <decimal> 能看到该实体所需的最小缩放级别。visible = <scripted_trigger> 一个国家要看到该实体必须满足的脚本化触发器。
+entity = <gfx_entry>
+/Hearts of Iron IV/gfx/entities/*.asset
+id = int
+var = <variable>
+x = <int>
+y = <int>
+z = <int>
+province = <int>
+state = <int>
+rotation = <decimal>
+scale = <decimal>
+min_zoom = <decimal>
+visible = <scripted_trigger>
+create_entity = { entity = entity_name id = 123 var = var_name x = 42 y = 21 z = 3 province = 123 state = 42 rotation = 1.2 scale = 10.0 min_zoom = 100.0 visible = scripted_trigger_name }
+创建一个实体。
+使用⟦0⟧ 旋转角度的正变化会导致逆时针旋转，完整的 360 度旋转约为 6.28 弧度。作为对比，默认最小缩放级别（最接近地图）为 50 单位，而默认最大缩放级别为 3000 单位。
+地图所使用的同一坐标系。
+destroy_entity
+⟦0⟧ 要销毁的实体的 ID。
+destroy_entity = 123
+删除一个实体
+ID 由⟦0⟧设置。
+create_entity 效果
+set_entity_movement
+⟦0⟧ 要修改的实体的 ID。ratio = <int> 起始位置与目标位置之间的距离，实体将被放置在该距离处。rotation = <int> 定位后要应用的旋转角度。start 与 target 参数：x = <int> 该点的 X 坐标。y = <int> 该点的 Y 坐标。z = <int> 该点的 Z 坐标。province = <int> 以其中央位置作为该点的省份。state = <int> 以其中央位置作为该点的州。
+id = <ID>
+ratio = <int>
+rotation = <int>
+after
+start
+target
+该点的 X 坐标。
+该点的 Y 坐标。
+该点的 Z 坐标。
+以其中央位置作为该点的省份。
+以其中央位置作为该点的州。
+set_entity_movement = { id = 123 start = { x = 42 y = 21 z = 3 } target = { province = 124 } ratio = 0.5 rotation = 1.2 }
+使用两个坐标设置实体的位置和旋转角度。
+ID 由⟦0⟧设置。使用⟦1⟧ 旋转角度的正变化会导致逆时针旋转，完整的 360 度旋转约为 6.28 弧度。
+set_entity_position
+set_entity_position = { id = 123 x = 42 y = 21 z = 3 province = 123 state = 42 }
+设置现有实体的位置
+ID 由⟦0⟧设置。使用⟦1⟧
+set_entity_rotation
+⟦0⟧ 要修改的实体的 ID。rotation = <decimal> 新的角度，单位为弧度。
+set_entity_rotation = { id = 123 rotation = 0.23 }
+设置现有实体的当前朝向角度。
+ID 由⟦0⟧设置。正变化会导致逆时针旋转，完整的 360 度旋转约为 6.28 弧度。
+set_entity_scale
+⟦0⟧ 要修改的实体的 ID。scale = <decimal> 要将实体更改成的缩放比例。
+set_entity_scale = { id = 123 scale = 5.0 }
+设置现有实体的尺寸。
+set_entity_animation
+⟦0⟧ 要修改的实体的 ID。animation = <animation_type> 要应用的动画条目。
+id = <int>
+animation = <animation_type>
+set_entity_animation = { id = 123 animation = "shoot_lasers" }
+设置指定实体的动画。
+ID 由⟦0⟧设置。动画在⟦1⟧文件中定义。
+/Hearts of Iron IV/gfx/models/**/*.asset
+build_railway
+⟦0⟧ 默认为 1。build_only_on_allied = <bool> 默认否；若为是且处于国家作用域，则只会在此作用域所指国家的盟友领土上建造。fallback = <bool> 默认为否；若为是，每个选项都会尝试回退到下一个可用选项。path = { <list of provinces> } start_province = <int> target_province = <int> start_state = <int> target_state = <int> 若使用起始州/目标州，游戏将挑选可用补给最佳的省份。若使用起始省份/目标省份，游戏将连接这两个省份。
+level = <int>
+build_only_on_allied = <bool>
+fallback = <bool>
+path = { <list of provinces> }
+start_province = <int>
+target_province = <int>
+start_state = <int>
+target_state = <int>
+build_railway = { level = 1 build_only_on_allied = yes controller_priority = { base = 1 modifier = { tag = MAN add = 2 } } fallback = yes path = { 42 10 20 30 40 84 } start_province = 42 target_province = 84 } build_railway = { level = 1 build_only_on_allied = yes controller_priority = { base = 1 modifier = { tag = MAN add = 2 } } fallback = yes path = { 50 10 20 30 40 100 } start_state = 50 target_state = 100 }
+在两个省份之间或沿预定义路径增加一级铁路。
+event_option_tooltip
+⟦0⟧ 选项的名称。
+<option>
+event_option_tooltip = mtg_usa_civil_war_fascists.1.a
+显示将鼠标悬停在指定名称的事件选项上时通常会看到的工具提示。
+ROOT 与 FROM 作用域互换。
+create_purchase_contract

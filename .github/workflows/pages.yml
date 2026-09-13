@@ -1,0 +1,49 @@
+name: Build & Deploy site to GitHub Pages
+
+# 触发条件：推送到 main 且改动涉及 site/（或本文件本身）
+# 加 paths 过滤是为了避免"只改译文批次文件"时白白上传 564 MB 站点产物
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - '.github/workflows/pages.yml'
+  # 允许在 Actions 页面手动点按钮重新发布
+  workflow_dispatch:
+
+# GitHub Pages 部署所需的最小权限
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同一时间只跑一个部署，排队而不取消进行中的部署
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 配置 Pages
+        uses: actions/configure-pages@v5
+        with:
+          # 仓库若尚未开启 Pages，自动开启，省去手工设置
+          enablement: true
+
+      # 只把 site/ 打包成发布产物；tools/ 与 data/ 仅作源码留档，不参与发布
+      - name: 打包 site/ 目录
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

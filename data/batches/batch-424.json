@@ -1,0 +1,860 @@
+{
+ "batch": 424,
+ "pages": [
+  "Data structures"
+ ],
+ "chars": 13895,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "ym0aq3",
+   "en": "{ value = 7 equals = 7 }"
+  },
+  {
+   "k": "1joxoph",
+   "en": "every_collection"
+  },
+  {
+   "k": "l92uy2",
+   "en": "Iterates over a named collection, applying statements to the accumulator for each element."
+  },
+  {
+   "k": "1mtjm3y",
+   "en": "{ value = 0 every_collection = { named_collection = my_collection add = element_value } }"
+  },
+  {
+   "k": "9gxsgi",
+   "en": "Returns 1 if the accumulator is greater than or equal to the value, otherwise 0."
+  },
+  {
+   "k": "ccz6c2",
+   "en": "{ value = 5 greater_than_or_equals = 5 }"
+  },
+  {
+   "k": "r5l9xz",
+   "en": "Conditional statement that modifies the accumulator based on a condition. Note that the limit is a math expression. It is considered true if the value is anything but 0."
+  },
+  {
+   "k": "1lylyg8",
+   "en": "{ value = x if = { limit = { value = x greater_than = 10 } add = 100 } else = { subtract = 1 } }"
+  },
+  {
+   "k": "8frf54",
+   "en": "lerp"
+  },
+  {
+   "k": "1kuuejb",
+   "en": "Linearly interpolates from the accumulator towards ⟦0⟧ by ⟦1⟧, where alpha is clamped between 0 and 1. An alpha of 0 keeps the accumulator, 1 returns ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "pye36z",
+   "en": "alpha"
+  },
+  {
+   "k": "lfej9u",
+   "en": "{ value = 10 lerp = { to = 20 alpha = 0.5 } }"
+  },
+  {
+   "k": "1hwv8fl",
+   "en": "Returns 1 if the accumulator is less than or equal to the value, otherwise 0."
+  },
+  {
+   "k": "1ylqg3p",
+   "en": "{ value = 5 less_than_or_equals = 5 }"
+  },
+  {
+   "k": "hkgn69",
+   "en": "log"
+  },
+  {
+   "k": "1vetp3l",
+   "en": "Sets the accumulator to its logarithm in the given base."
+  },
+  {
+   "k": "gd8ggj",
+   "en": "{ value = 1000 log = 10 } { value = 1000 log = 10 round = yes }"
+  },
+  {
+   "k": "1gx321m",
+   "en": "This is computed with a numerical approximation and may produce small rounding errors (e.g. 3.00001 instead of 3). Follow with ⟦0⟧ if you need an exact integer result.",
+   "frags": 1
+  },
+  {
+   "k": "1ntxi55",
+   "en": "max"
+  },
+  {
+   "k": "1i2yxjm",
+   "en": "Sets the accumulator to the maximum of itself and the value."
+  },
+  {
+   "k": "yr14mb",
+   "en": "{ value = 9 max = 15 }"
+  },
+  {
+   "k": "1jxbmtz",
+   "en": "min"
+  },
+  {
+   "k": "7q97xo",
+   "en": "Sets the accumulator to the minimum of itself and the value."
+  },
+  {
+   "k": "1owqu8f",
+   "en": "{ value = 9 min = 4 }"
+  },
+  {
+   "k": "1q1o0oz",
+   "en": "mod"
+  },
+  {
+   "k": "ksjfiv",
+   "en": "Sets the accumulator to the remainder of dividing it by the value."
+  },
+  {
+   "k": "1kxnp27",
+   "en": "{ value = 17 mod = 5 }"
+  },
+  {
+   "k": "1ywwjt1",
+   "en": "multiply"
+  },
+  {
+   "k": "u0lmdb",
+   "en": "Multiplies the accumulator by a value."
+  },
+  {
+   "k": "12oxfhj",
+   "en": "{ value = 2.3 multiply = num_units }"
+  },
+  {
+   "k": "bkgu4q",
+   "en": "not"
+  },
+  {
+   "k": "fofkcd",
+   "en": "Returns 1 if the accumulator is zero, otherwise 0."
+  },
+  {
+   "k": "nsnb9e",
+   "en": "{ value = 0 not = yes }"
+  },
+  {
+   "k": "1qme7rv",
+   "en": "Returns 1 if the accumulator does not equal the value, otherwise 0."
+  },
+  {
+   "k": "4i10nf",
+   "en": "{ value = 7 not_equals = 5 }"
+  },
+  {
+   "k": "1alu1tp",
+   "en": "Returns 1 if either the accumulator or the value is non-zero, otherwise 0."
+  },
+  {
+   "k": "i5be3e",
+   "en": "{ value = 0 or = 1 }"
+  },
+  {
+   "k": "oh0hqt",
+   "en": "pow"
+  },
+  {
+   "k": "1ehktsd",
+   "en": "Raises the accumulator to the given power."
+  },
+  {
+   "k": "lkyf33",
+   "en": "{ value = 2 pow = 10 } { value = 2 pow = 10 round = yes }"
+  },
+  {
+   "k": "1hswyj0",
+   "en": "Integer exponents are computed exactly by repeated multiplication. Fractional exponents (e.g. ⟦0⟧) use a numerical approximation and may produce small rounding errors; follow with ⟦1⟧ if you need an exact integer result.",
+   "frags": 2
+  },
+  {
+   "k": "1a367bb",
+   "en": "pow = 0.5"
+  },
+  {
+   "k": "95igqt",
+   "en": "root"
+  },
+  {
+   "k": "a0rqx0",
+   "en": "Takes the root of the accumulator. The argument is the degree of the root, so 2 gives the square root, 3 the cube root and so on."
+  },
+  {
+   "k": "lv44q0",
+   "en": "{ value = 16 root = 2 } { value = 27 root = 3 } { value = 16 root = 2 round = yes }"
+  },
+  {
+   "k": "rthgmx",
+   "en": "This is a numerical approximation and may produce small rounding errors (e.g. 4.00001 instead of 4). Follow with ⟦0⟧ if you need an exact integer result.",
+   "frags": 1
+  },
+  {
+   "k": "lxkm63",
+   "en": "round"
+  },
+  {
+   "k": "ga5c8d",
+   "en": "Rounds the accumulator to the nearest integer."
+  },
+  {
+   "k": "1ev2bn1",
+   "en": "{ value = 3.7 round = yes }"
+  },
+  {
+   "k": "1q7cpcd",
+   "en": "sin"
+  },
+  {
+   "k": "19oxgkk",
+   "en": "Sets the accumulator to the sine of itself. The angle is expressed in radians."
+  },
+  {
+   "k": "hyw6z9",
+   "en": "{ value = 0 sin = yes }"
+  },
+  {
+   "k": "iit7j5",
+   "en": "subtract"
+  },
+  {
+   "k": "9ym6wx",
+   "en": "Subtracts a value from the accumulator."
+  },
+  {
+   "k": "oq6hsh",
+   "en": "{ value = 20 subtract = 5 }"
+  },
+  {
+   "k": "17jvwd4",
+   "en": "tan"
+  },
+  {
+   "k": "rjj046",
+   "en": "Sets the accumulator to the tangent of itself. The angle is expressed in radians."
+  },
+  {
+   "k": "z9f63s",
+   "en": "{ value = 0 tan = yes }"
+  },
+  {
+   "k": "1kpwo72",
+   "en": "xor"
+  },
+  {
+   "k": "cf910p",
+   "en": "Returns 1 if exactly one of the accumulator and the value is non-zero, otherwise 0."
+  },
+  {
+   "k": "rrx8oy",
+   "en": "{ value = 1 xor = 0 }"
+  },
+  {
+   "k": "2d5uyn",
+   "en": "Usage examples"
+  },
+  {
+   "k": "cv4gdx",
+   "en": "A common usage for variables is to grant a more 'complex' effect or a trigger. This is best done with temporary variables, as they can be set in either triggers or effects and they're not bound to scopes making operations on them more simple. For example, the following can take 0.1% of every controlled state's population and add it directly to the manpower pool if the country has more democratic party support than fascist and communist party support combined:"
+  },
+  {
+   "k": "19lqscu",
+   "en": "Since temporary variables can be set in triggers, they can be used as an alternative version of ⟦0⟧, to count the amount of scopes where the trigger is fulfilled instead of counting the amount of fulfilled triggers:",
+   "frags": 1
+  },
+  {
+   "k": "bcpe98",
+   "en": "count_triggers"
+  },
+  {
+   "k": "13mjun",
+   "en": "Additionally, it is common for a variable to be a counter of something within a mechanic. For example, let CAN_beavers be a counter of beavers within the country. When using variables in this sense, ⟦0⟧, in order to make changes to the variable easier. For example, a small gain in beavers could be the following:",
+   "frags": 1
+  },
+  {
+   "k": "1xfzj8k",
+   "en": "it is better to use ⟦0⟧ to modify them",
+   "frags": 1
+  },
+  {
+   "k": "16f769",
+   "en": "scripted effects"
+  },
+  {
+   "k": "vzjspt",
+   "en": "However, if 100 seems like too little, the scripted effect can be changed and it'll immediately apply the changes every single time that scripted effect was used without needing to find them manually. These effects may also share a single 'recalculating' scripted effect in common. This can be used to clamp the variable between a minimum and a maximum, to have an instant effect as soon as some variable value is reached, or to have another variable 'tied' to the value to be kept at an exact or a dynamic ratio. For example, these scripted effects can be used with the same CAN_beavers example:"
+  },
+  {
+   "k": "xbpqcs",
+   "en": "After creating these scripted effects, these can be used within any effect block to modify the variable at will. ⟦0⟧ would also be helpful, such as within a ⟦1⟧ or in ⟦2⟧. ⟦3⟧",
+   "frags": 4
+  },
+  {
+   "k": "1xebkzl",
+   "en": "Showing its value in localisation to the player"
+  },
+  {
+   "k": "199a45x",
+   "en": "decision category"
+  },
+  {
+   "k": "197y8hw",
+   "en": "scripted GUI"
+  },
+  {
+   "k": "sw61ui",
+   "en": "Variables cannot be used within idea modifiers directly, ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1c5gaqs",
+   "en": "dynamic modifiers can be used instead."
+  },
+  {
+   "k": "134nasj",
+   "en": "Remember that variables are not necessarily used as numbers only. For example, the simplest way to make the current ideology group to change to the one that's the most popular (aside from the ruling party) would be a ⟦0⟧. Similarly, some event target-type variables can be used to cut down on code, such as ⟦1⟧ immediately transferring the capital of GER to the current scope.",
+   "frags": 2
+  },
+  {
+   "k": "1pdhfcw",
+   "en": "set_politics = { ruling_party = highest_party_ideology@exclude_ruling_party }"
+  },
+  {
+   "k": "1u0sxhb",
+   "en": "transfer_state = GER.capital"
+  },
+  {
+   "k": "1s7kuj5",
+   "en": "MTTH variables"
+  },
+  {
+   "k": "upkexp",
+   "en": "MTTH variables allow to dynamically create a ⟦0⟧ to be used as a variable. These are stored within ⟦1⟧ files, where each MTTH variable is a separate block, the name of which gets taken as the MTTH variable. As per the name, the MTTH variables serve as a MTTH block, so everything that applies to MTTH blocks applies here: The starting base is defined with ⟦2⟧ or ⟦3⟧ and then each ⟦4⟧ begin a trigger block needed to be fulfilled for the ⟦5⟧ (for adding) or/and ⟦6⟧ (for multiplying) within to be applied. For example, the following is an example of a ⟦7⟧ file:",
+   "frags": 8
+  },
+  {
+   "k": "3a4yge",
+   "en": "/Hearts of Iron IV/common/mtth/*.txt"
+  },
+  {
+   "k": "pokujq",
+   "en": "factor"
+  },
+  {
+   "k": "h5x2oo",
+   "en": "base"
+  },
+  {
+   "k": "1xpl1mz",
+   "en": "modifier = { ... }"
+  },
+  {
+   "k": "sh1c9y",
+   "en": "This can be called the same way as a game variable, but somewhat differently: ⟦0⟧. This will check the MTTH block for the scope where it's checked and return the total result as a variable.",
+   "frags": 1
+  },
+  {
+   "k": "1f2pp04",
+   "en": "set_variable = { my_var = mtth:my_mtth_variable_1 }"
+  },
+  {
+   "k": "1boy7nq",
+   "en": "Debugging variables"
+  },
+  {
+   "k": "ds8c3x",
+   "en": "There are the following arguments that can be used in trigger or effect blocks:"
+  },
+  {
+   "k": "1q7fzj0",
+   "en": "⟦0⟧ What to write in the log.",
+   "frags": 1
+  },
+  {
+   "k": "hb7sbk",
+   "en": "<string>"
+  },
+  {
+   "k": "1cyjtas",
+   "en": "log = \"Current value of myVar in [THIS.GetName]: [?myVar]\""
+  },
+  {
+   "k": "bzuo6p",
+   "en": "Creates an entry in the ⟦0⟧ file in the ⟦1⟧ and, if console is open and debug mode is turned on, in console as well.",
+   "frags": 2
+  },
+  {
+   "k": "tqqglc",
+   "en": "/Hearts of Iron IV/logs/game.log"
+  },
+  {
+   "k": "3tohp",
+   "en": "user directory"
+  },
+  {
+   "k": "sm1rt",
+   "en": "While it nominally has nothing to do with variables, its most common use is for variables."
+  },
+  {
+   "k": "1unjd9u",
+   "en": "print_variables"
+  },
+  {
+   "k": "byh8xe",
+   "en": "⟦0⟧ The name of the file, not counting the file extension. Defaults to \"variable_dump\". text = <string> What will be printed in the beginning of the file. Defaults to \"No Header\". append = yes If set, will append the current variables (and the text) to the end of the file instead of overwriting. print_global = yes If true, will print the variables from the global scope as well. var_list = { ... } A whitespace-separated list of variables the values of which should be printed. Optional: every variable in the scope (and global if set) if left out.",
+   "frags": 1
+  },
+  {
+   "k": "1u69vvh",
+   "en": "file = <string>"
+  },
+  {
+   "k": "regsou",
+   "en": "text = <string>"
+  },
+  {
+   "k": "1jbweax",
+   "en": "append = yes"
+  },
+  {
+   "k": "17amwpe",
+   "en": "print_global = yes"
+  },
+  {
+   "k": "mo18c4",
+   "en": "var_list = { ... }"
+  },
+  {
+   "k": "pcrq4m",
+   "en": "print_variables = { file = my_file text = \"These variables are printed at [GetDateText]\" append = yes print_global = yes } print_variables = { file = my_file_2 var_list = { temp1 temp2 temp3 } }"
+  },
+  {
+   "k": "18y71wf",
+   "en": "Dumps the specified variables from the current scope and optionally the global scope into a log file with the specified name."
+  },
+  {
+   "k": "7gseal",
+   "en": "The log will be within ⟦0⟧ in the ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "14mnccv",
+   "en": "/Hearts of Iron IV/logs/variable_dumps/"
+  },
+  {
+   "k": "hgktf5",
+   "en": "Additionally, the following console commands exist for variables. In console commands, the 'current scope' is what is currently selected: the country opened in diplomacy, the state selected, the unit leader that's selected. If left out, assumes to be the player country."
+  },
+  {
+   "k": "6ephx1",
+   "en": "set_var"
+  },
+  {
+   "k": "1fwzyyd",
+   "en": "⟦0⟧ The variable to get the value of. <value> What to set the variable to.",
+   "frags": 1
+  },
+  {
+   "k": "1o8wpw2",
+   "en": "<value>"
+  },
+  {
+   "k": "13xj2n3",
+   "en": "set_var my_variable 10"
+  },
+  {
+   "k": "1qy11tq",
+   "en": "Changes the value of the variable within the specified scope."
+  },
+  {
+   "k": "i2ozfd",
+   "en": "get_var"
+  },
+  {
+   "k": "114rcsh",
+   "en": "⟦0⟧ The variable to get the value of.",
+   "frags": 1
+  },
+  {
+   "k": "1mqphni",
+   "en": "get_var my_variable"
+  },
+  {
+   "k": "n45k09",
+   "en": "Prints the value of the variable in console."
+  },
+  {
+   "k": "o4ttkn",
+   "en": "Lists the variables and their values as within the currently-selected scope."
+  },
+  {
+   "k": "m9ilub",
+   "en": "Token-valued variables"
+  },
+  {
+   "k": "skkgfo",
+   "en": "When one uses a literal of the form ⟦0⟧, what is actually returned is an integer variable (commonly with a large value), with an internal flag set so that it is interpreted as an index into a central table of token strings that exists within the game's memory. This can be placed into a variable and passed around freely, it can be compared for equality to other token variables, and it can even be treated as a numeric in arithmetic even if usages for such cases are rare if nonexistent. Variables that have the token flag set can be distinguished in the output of the ⟦1⟧ console command by dint of being automatically translated into their underlying raw-token strings. For example, ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "h5979n",
+   "en": "token:some_tokenizable_value"
+  },
+  {
+   "k": "1wvcfnj",
+   "en": "some_var_name = token:some_tokenizable_value (27012)"
+  },
+  {
+   "k": "1wkubgb",
+   "en": "When the variable contains a token value, it is possible to use the ⟦0⟧ ⟦1⟧ (such as ⟦2⟧) to get the token string value of the variable, ⟦3⟧ prefix not included. This is useful for pasting in ⟦4⟧ and ⟦5⟧, however note that the ⟦6⟧ prefix is still required if using it within the ⟦7⟧ operator. With some token-valued variables (specifically, those backed by named database objects of a tokenizable datatype), it is possible to use ⟦8⟧ to retrieve the value of the localisation key with the same name as the token itself. This can be used to produce and/or define human-readable names, but it can also be taken advantage of to pass around arbitrary localisation values.",
+   "frags": 9
+  },
+  {
+   "k": "c8m4pn",
+   "en": "GetTokenKey"
+  },
+  {
+   "k": "1gentnb",
+   "en": "localisation function"
+  },
+  {
+   "k": "1hriuf",
+   "en": "[?some_var_with_token_value.GetTokenKey]"
+  },
+  {
+   "k": "243lgb",
+   "en": "meta-effects"
+  },
+  {
+   "k": "2biyp2",
+   "en": "meta-triggers"
+  },
+  {
+   "k": "5plnry",
+   "en": "set_(temp_)variable"
+  },
+  {
+   "k": "rkhs94",
+   "en": "GetTokenLocalizedKey"
+  },
+  {
+   "k": "7uyo5d",
+   "en": "At present (1.12), known tokenizable datatypes include (but are probably not limited to):"
+  },
+  {
+   "k": "1u4iwz8",
+   "en": "Ideas: These are generally the most flexible tokenizable datatype to use for a token that represents some arbitrary value by using a dummy idea. They can also carry an effectual payload in their ⟦0⟧ clauses, which can be used to pass around effects, or better yet, to return a set of variables encoding information relevant to the token value.",
+   "frags": 1
+  },
+  {
+   "k": "l9evp8",
+   "en": "on_add"
+  },
+  {
+   "k": "1pmtcb",
+   "en": "Everything listed in ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "15bvof0",
+   "en": "/Hearts of Iron IV/common/script_enums.txt"
+  },
+  {
+   "k": "1f1aoa6",
+   "en": "Ideologies/Ideology groups"
+  },
+  {
+   "k": "16mep1j",
+   "en": "Technologies"
+  },
+  {
+   "k": "nypxan",
+   "en": "Equipment types - Sometimes this is a bit inconsistent with regards to the archetype/non-archetype distinction, so be wary."
+  },
+  {
+   "k": "1ahoaq7",
+   "en": "Operations"
+  },
+  {
+   "k": "j77nu8",
+   "en": "Characters/Unit leaders: These are finicky in the game's core. When a character is promoted to a unit leader position, all tokenizations of that character's token will begin to return a different value, representing the token for the unit leader with the same identifier, which is linked to, but not the same as, the original character. The unit leader version of the token returns the same ⟦0⟧ and ⟦1⟧, but it is ⟦2⟧ This can come into play if code compares the equality of two character-pointing variables.",
+   "frags": 3
+  },
+  {
+   "k": "2o9k1v",
+   "en": "not numerically equal to the character version of the token."
+  },
+  {
+   "k": "vwifyo",
+   "en": "Decisions"
+  },
+  {
+   "k": "1xa6gia",
+   "en": "Buildings"
+  },
+  {
+   "k": "mq5vtt",
+   "en": "Advanced use of tokens"
+  },
+  {
+   "k": "62e8fc",
+   "en": "Using tokenizable values in variables is the key to a number of advanced techniques that enable relatively seamless abstraction and metaprogramming, with a minimum of scripted-localisation boilerplate code. These techniques are, however, difficult to learn how to apply and can be unintuitive for those not already experienced. Therefore, caution is advised."
+  },
+  {
+   "k": "obw22i",
+   "en": "It is often useful to define related dummy tokenizable database entries, especially ideas, to represent arbitrary (possibly enumerable) custom datatypes. In most cases, ideas are preferable, however there can be uses for other token types, such as technologies if the code is to implement something that can't be done with a regular idea. The reason for idea preference is little to no downstream effects simply from existing, ease to define in bulk with minimal syntactic overhead, and ease to separate different custom datatypes by using custom idea categories and by placing the definitions for different custom datatypes in different files within ⟦0⟧. Decisions or technologies are common alternatives for custom datatypes with different usages, but generally datatypes other than these have too much downstream baggage (i.e. their very existence has consequences elsewhere, such as custom building types appearing automatically in certain UIs) to be worth using for dummy values.",
+   "frags": 1
+  },
+  {
+   "k": "1xkqmm9",
+   "en": "/Hearts of Iron IV/common/ideas/"
+  },
+  {
+   "k": "1oln1mz",
+   "en": "Using a systematic naming scheme, custom tokenizable datatypes can also convey multiple related localisation keys, similarly to the approach that the base game does for country naming with separate ⟦0⟧, ⟦1⟧, and ⟦2⟧ keys. An example of that would be creating an idea ⟦3⟧ to act as the key identifier of the custom data value, whose localisation value carries the human-readable name of the data value, and another idea ⟦4⟧ (⟦5⟧) to carry the localisation value for the description that would be associated with the data value identified by ⟦6⟧. This description localisation can be accessed with a meta-effect or meta-trigger (including in scripted localisation), such as ⟦7⟧ (where ⟦8⟧). This allows accessing ⟦9⟧ in localisation where ⟦10⟧ is visible, such as the ⟦11⟧ following the scripted localisation ⟦12⟧ block where the pasting meta-trigger is called.",
+   "frags": 13
+  },
+  {
+   "k": "6pr25v",
+   "en": "TAG"
+  },
+  {
+   "k": "tnsvdn",
+   "en": "TAG_DEF"
+  },
+  {
+   "k": "qsi0y9",
+   "en": "TAG_ADJ"
+  },
+  {
+   "k": "jcpnh",
+   "en": "foo_bar"
+  },
+  {
+   "k": "ihwrp4",
+   "en": "foo_bar_description"
+  },
+  {
+   "k": "3zl73e",
+   "en": "NOT ⟦0⟧, this collides with the localisation key generated for ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1ok6omf",
+   "en": "foo_bar_desc"
+  },
+  {
+   "k": "45r7he",
+   "en": "set_temp_variable = { description_var = token:[IDEA_TOKEN]_description }"
+  },
+  {
+   "k": "1cmuo79",
+   "en": "IDEA_TOKEN = \"[?idea_var_name.GetTokenKey]\""
+  },
+  {
+   "k": "1gp58ib",
+   "en": "[?description_var.GetTokenLocalizedKey]"
+  },
+  {
+   "k": "hqe6b3",
+   "en": "description_var"
+  },
+  {
+   "k": "fxn0n8",
+   "en": "localization_key"
+  }
+ ]
+}

@@ -1,0 +1,745 @@
+{
+ "batch": 1089,
+ "pages": [
+  "Vic2ToHoI4: Focus Trees"
+ ],
+ "chars": 7625,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1hol8he",
+   "en": "In the process, the Converter tries to find appropriate targets for the country to attack or to contain. If no targets could be identified, the special branch will not be generated and the country will get only the generic focus tree. Absolutist and Radical trees are the exception, they will always be generated regardless of targets."
+  },
+  {
+   "k": "rx7t3q",
+   "en": "Democracy Focus Tree"
+  },
+  {
+   "k": "1vwbnzz",
+   "en": "Democracy focus tree generates a sub-branch for each identified Great Power target that satisfies these conditions:"
+  },
+  {
+   "k": "66iqjx",
+   "en": "Ideology is NOT ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "gj53pi",
+   "en": "Democratic"
+  },
+  {
+   "k": "1mvfne5",
+   "en": "Relations between countries are less than ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1fk0sls",
+   "en": "Countries are NOT allies"
+  },
+  {
+   "k": "1v226cm",
+   "en": "The top part of the branch has a ⟦0⟧ World Tension availability requirement, where ⟦1⟧ is determined as follows:",
+   "frags": 2
+  },
+  {
+   "k": "hmmrmy",
+   "en": "n * X%"
+  },
+  {
+   "k": "nbz96y",
+   "en": "Vic2 ruling party war policy"
+  },
+  {
+   "k": "hhodhv",
+   "en": "Jingoism"
+  },
+  {
+   "k": "bfh10r",
+   "en": "Pro Military"
+  },
+  {
+   "k": "z7e8qc",
+   "en": "Anti Military"
+  },
+  {
+   "k": "rg30wv",
+   "en": "Pacifism"
+  },
+  {
+   "k": "xqjv26",
+   "en": "War Propaganda"
+  },
+  {
+   "k": "1g5kp2j",
+   "en": "Gain Base Stability: +5.00%"
+  },
+  {
+   "k": "f2ijuc",
+   "en": "Gain Base ⟦0⟧: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1xyb9hg",
+   "en": "More than 2 * X% World Tension"
+  },
+  {
+   "k": "kqo7pi",
+   "en": "More than ⟦0⟧ World Tension",
+   "frags": 1
+  },
+  {
+   "k": "1pdjapq",
+   "en": "2 * X%"
+  },
+  {
+   "k": "i4iwj4",
+   "en": "Basic democratic principles are under constant threat and [Root.GetName] has an obligation to protect them."
+  },
+  {
+   "k": "i8xyqd",
+   "en": "Prepare Intervention"
+  },
+  {
+   "k": "202klm",
+   "en": "Political Power: +120 Set the rule: Can send volunteer forces."
+  },
+  {
+   "k": "2lz22s",
+   "en": "Set the rule: Can send volunteer forces."
+  },
+  {
+   "k": "4enl6a",
+   "en": "War Propaganda More than 3 * X% World Tension"
+  },
+  {
+   "k": "dusat7",
+   "en": "3 * X%"
+  },
+  {
+   "k": "kdlqua",
+   "en": "Rising tensions around the globe are threating the world peace. We should prepare some troops for deployment to key areas to prevent things from escalating."
+  },
+  {
+   "k": "1skus6e",
+   "en": "Limited Intervention"
+  },
+  {
+   "k": "1hcehwx",
+   "en": "Prepare Intervention More than 5 * X% World Tension"
+  },
+  {
+   "k": "jswhyh",
+   "en": "5 * X%"
+  },
+  {
+   "k": "18d27q2",
+   "en": "Our war propaganda has been successful. Numerous volunteers have signed up for an away mission and are ready now for deployment."
+  },
+  {
+   "k": "1ras2px",
+   "en": "Army experience: +20 1x 30% Cost Reduction for: Land Doctrine The following will bypass the focus: Is at war with target country"
+  },
+  {
+   "k": "emjx74",
+   "en": "⟦0⟧ ⟦1⟧ Cost Reduction for: ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "1b2al5i",
+   "en": "Land Doctrine"
+  },
+  {
+   "k": "c6u2bp",
+   "en": "Limited Intervention Additional prerequisites: date is after Victoria 2 truce expiry date Any other country Original country is $TARGET Exists Current ruling party is not Democratic is not in faction with this country ↓One of the following must be true: is at an offensive war Caused more than 30% World Tension"
+  },
+  {
+   "k": "n3uks1",
+   "en": "Any other country Original country is $TARGET Exists Current ruling party is not Democratic is not in faction with this country ↓One of the following must be true: is at an offensive war Caused more than 30% World Tension"
+  },
+  {
+   "k": "12xkug1",
+   "en": "Original country is $TARGET"
+  },
+  {
+   "k": "1xwqngn",
+   "en": "Current ruling party is not ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "g5942r",
+   "en": "is ⟦0⟧ in faction with this country",
+   "frags": 1
+  },
+  {
+   "k": "hy4pea",
+   "en": "⟦0⟧ is at an offensive war Caused more than 30% World Tension",
+   "frags": 1
+  },
+  {
+   "k": "gwf0c0",
+   "en": "is at an offensive war"
+  },
+  {
+   "k": "1i9oxnx",
+   "en": "Caused more than ⟦0⟧ World Tension",
+   "frags": 1
+  },
+  {
+   "k": "nopsat",
+   "en": "We need to prepare a solid plan to contain [$TARGET.GetName]."
+  },
+  {
+   "k": "wnnlti",
+   "en": "Embargo"
+  },
+  {
+   "k": "hkio17",
+   "en": "Target country: Trade relations with this country changed by -100 The following will bypass the focus: Is at war with target country"
+  },
+  {
+   "k": "1ct2nfk",
+   "en": "War Plan Additional prerequisites: date is after Victoria 2 truce expiry date Any other country Original country is $TARGET Exists Current ruling party is not Democratic is not in faction with this country ↓One of the following must be true: is at an offensive war Caused more than 30% World Tension More than 60% World Tension"
+  },
+  {
+   "k": "122sqhq",
+   "en": "Any other country Original country is $TARGET Exists Current ruling party is not Democratic is not in faction with this country ↓One of the following must be true: is at an offensive war Caused more than 30% World Tension More than 60% World Tension"
+  },
+  {
+   "k": "14q5bn5",
+   "en": "⟦0⟧ is at an offensive war Caused more than 30% World Tension More than 60% World Tension",
+   "frags": 1
+  },
+  {
+   "k": "1cwksvb",
+   "en": "War seems all but inevitable. An embargo on [$TARGET.GetName] would certainly weaken their ability to stand against us on the battlefield."
+  },
+  {
+   "k": "tkxykb",
+   "en": "Enact War Plan"
+  },
+  {
+   "k": "12tfgt3",
+   "en": "Declares war on target country with ⟦0⟧ War goal The following will bypass the focus: Is at war with target country",
+   "frags": 1
+  },
+  {
+   "k": "zhs1l4",
+   "en": "Puppet (Focus)"
+  },
+  {
+   "k": "12vgolh",
+   "en": "Embargo Additional prerequisites: date is after Victoria 2 truce expiry date has_war = no Any other country Original country is $TARGET Exists Current ruling party is not Democratic is not in faction with this country ↓One of the following must be true: is at an offensive war Caused more than 30% World Tension More than 60% World Tension"
+  },
+  {
+   "k": "1wjdams",
+   "en": "has_war = no"
+  },
+  {
+   "k": "ars076",
+   "en": "When diplomacy fails, war is the only way."
+  },
+  {
+   "k": "1nv5edr",
+   "en": "Fascism Focus Tree"
+  },
+  {
+   "k": "1f4otg3",
+   "en": "Availability date variable ⟦0⟧ and ⟦1⟧ in the table below are calculated according to the following formulas:",
+   "frags": 2
+  },
+  {
+   "k": "usvda2",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle X = 1937.1.1 + {{200 + Rel} \\over 16} \\text{ months}}"
+  },
+  {
+   "k": "iilkgu",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle Y = 1938.1.1 + {{200 + Rel} \\over 16} \\text{ months}}"
+  },
+  {
+   "k": "slj1b9",
+   "en": "The Third Way!"
+  },
+  {
+   "k": "wgnn9l",
+   "en": "World Tension is increased by 2.0 gets the national spirit:"
+  },
+  {
+   "k": "1om9o3a",
+   "en": "The Third Way, or fascists as they might be called, are looking to get a seat in the Upper House."
+  },
+  {
+   "k": "1qeqcn6",
+   "en": "Establish Military March Day"
+  },
+  {
+   "k": "f0uyxx",
+   "en": "Army experience: +20 2x 30% Cost Reduction for: Land Doctrine"
+  },
+  {
+   "k": "12niodw",
+   "en": "March on [Root.Capital.GetName] was an important event in [Root.GetAdjective] history."
+  },
+  {
+   "k": "d20ymf",
+   "en": "Union with ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "9z0z8s",
+   "en": "World Tension is increased by 2.0 Army experience: +10 Target country Gets event This country Demands A"
+  },
+  {
+   "k": "1mjoc4s",
+   "en": "Target country Gets event This country Demands A"
+  },
+  {
+   "k": "x6qk86",
+   "en": "⟦0⟧ Demands ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "3zyv17",
+   "en": "This country"
+  },
+  {
+   "k": "b9zqu5",
+   "en": "Establish Military March Day Additional prerequisites:[1] date is after X and Victoria 2 truce expiry date Is fully independent Target country: At peace Is fully independent Is not in Faction"
+  },
+  {
+   "k": "ygyn9i",
+   "en": "Additional prerequisites:⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1r69sbj",
+   "en": "Target country: At peace Is fully independent Is not in Faction"
+  },
+  {
+   "k": "wwrtr7",
+   "en": "Is not in Faction"
+  },
+  {
+   "k": "q39aeo",
+   "en": "[$TARGET.GetAdjective] army will be unable to defend its country in case of war. We should offer our extensive protection."
+  },
+  {
+   "k": "paxxhq",
+   "en": "Expand our Nation"
+  },
+  {
+   "k": "17o43ay",
+   "en": "Political Power: +150 World Tension is increased by 3.0"
+  },
+  {
+   "k": "1iwu95g",
+   "en": "Union with"
+  },
+  {
+   "k": "1m3e20u",
+   "en": "[Root.GetName] requires a Lebensraum necessary for its survival and non-Aryan nations will have to be removed permanently."
+  },
+  {
+   "k": "n4kpg7",
+   "en": "Demand Territory from ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1oavuc8",
+   "en": "World Tension is increased by 2.0 Army experience: +10 Target country Gets event This country Demands B The following will bypass the focus: Is at war with target country"
+  },
+  {
+   "k": "1ndn57p",
+   "en": "Target country Gets event This country Demands B"
+  },
+  {
+   "k": "t937c6",
+   "en": "Expand our Nation Additional prerequisites:[1] date is after Y and Victoria 2 truce expiry date Is fully independent"
+  },
+  {
+   "k": "1y8b9rg",
+   "en": "Fate of"
+  },
+  {
+   "k": "pqld2e",
+   "en": "World Tension is increased by 3.0 Gains Annex War goal against B The following will bypass the focus: Is at war with target country"
+  },
+  {
+   "k": "1va50bw",
+   "en": "Gains ⟦0⟧ War goal against ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "j59kjx",
+   "en": "Annex"
+  },
+  {
+   "k": "1bynxd8",
+   "en": "Demand Territory from Additional prerequisites:[1] date is after Victoria 2 truce expiry date Is not in Faction"
+  },
+  {
+   "k": "15t99fo",
+   "en": "Demand Territory from"
+  },
+  {
+   "k": "11r0b78",
+   "en": "date is after Victoria 2 truce expiry date Is not in Faction"
+  },
+  {
+   "k": "1jfras9",
+   "en": "[$TARGET.GetName] has demonstrated its inferiority. We should move in to finish them off."
+  },
+  {
+   "k": "1kcek98",
+   "en": "AI will not select this focus before ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1vcpp8n",
+   "en": "Communism Focus Tree"
+  },
+  {
+   "k": "11bbj9o",
+   "en": "Absolutism/Radicalism Focus Tree"
+  },
+  {
+   "k": "1cpayt8",
+   "en": "GP War Branch"
+  },
+  {
+   "k": "5ihu8u",
+   "en": "Colonial Focus Branch"
+  },
+  {
+   "k": "1lr3aoy",
+   "en": "Focus hun elect a king.png"
+  },
+  {
+   "k": "dnh8of",
+   "en": "Goal generic national unity.png"
+  },
+  {
+   "k": "dh470j",
+   "en": "ExclusiveM.png"
+  },
+  {
+   "k": "1e7tm3j",
+   "en": "Goal generic support fascism.png"
+  },
+  {
+   "k": "1bj5xxf",
+   "en": "Goal generic support communism.png"
+  },
+  {
+   "k": "10vze5i",
+   "en": "Goal generic consumer goods.png"
+  },
+  {
+   "k": "wsdkck",
+   "en": "Absolutism"
+  },
+  {
+   "k": "fi8vyt",
+   "en": "Focus rom royal dictatorship.png"
+  },
+  {
+   "k": "arukv5",
+   "en": "Goal generic special forces.png"
+  },
+  {
+   "k": "s928ag",
+   "en": "Goal generic occupy states ongoing war.png"
+  },
+  {
+   "k": "1v5wm2q",
+   "en": "Goal generic intelligence exchange.png"
+  },
+  {
+   "k": "c8qvcd",
+   "en": "Focus generic license production.png"
+  },
+  {
+   "k": "1rgtvyq",
+   "en": "Focus generic concessions.png"
+  },
+  {
+   "k": "v535lf",
+   "en": "{\\displaystyle X=Y_{1}+Y_{2}+\\cdots +Y_{i}}"
+  },
+  {
+   "k": "1xlonpd",
+   "en": "Flag of Argentina"
+  },
+  {
+   "k": "b7tszs",
+   "en": "Flag of Paraguay"
+  },
+  {
+   "k": "1ht5luk",
+   "en": "Flag of Bolivia"
+  },
+  {
+   "k": "12k9c7l",
+   "en": "Flag of Chile"
+  },
+  {
+   "k": "1u2xvmp",
+   "en": "Goal generic more territorial claims.png"
+  },
+  {
+   "k": "16fmvwu",
+   "en": "Focus generic self management.png"
+  },
+  {
+   "k": "1q4eyv8",
+   "en": "Time"
+  },
+  {
+   "k": "8kwnwt",
+   "en": "Goal generic propaganda.png"
+  },
+  {
+   "k": "mz0woq",
+   "en": "War support"
+  },
+  {
+   "k": "ajdsmd",
+   "en": "Goal generic territory or war.png"
+  },
+  {
+   "k": "1qob19t",
+   "en": "World Tension"
+  },
+  {
+   "k": "da5gp2",
+   "en": "Goal generic position armies.png"
+  },
+  {
+   "k": "1qmteha",
+   "en": "Command power.png"
+  },
+  {
+   "k": "118x7vo",
+   "en": "Goal generic army tanks.png"
+  },
+  {
+   "k": "hds6yo",
+   "en": "War goal"
+  },
+  {
+   "k": "rcylfw",
+   "en": "Focus generic treaty.png"
+  },
+  {
+   "k": "1x6yzwg",
+   "en": "Goal generic trade.png"
+  },
+  {
+   "k": "15h9159",
+   "en": "Goal support democracy.png"
+  },
+  {
+   "k": "niobj2",
+   "en": "Goal support fascism.png"
+  },
+  {
+   "k": "1ybmyd1",
+   "en": "Goal generic allies build infantry.png"
+  },
+  {
+   "k": "1hjby29",
+   "en": "Goal anschluss.png"
+  },
+  {
+   "k": "1kli7gq",
+   "en": "Goal generic political pressure.png"
+  }
+ ]
+}

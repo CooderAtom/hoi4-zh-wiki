@@ -1,0 +1,2605 @@
+{
+ "batch": 960,
+ "pages": [
+  "Ship designer"
+ ],
+ "chars": 12433,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1l1ung4",
+   "en": "The ship designer allows players to create their own ship variants. Players are able to pick hulls and outfit them with various modules, such as weapons, armor, engines, and supporting systems."
+  },
+  {
+   "k": "g92o2r",
+   "en": "Countries which are bound by the ⟦0⟧ may have limitations on the types of ships they are allowed to produce so long as they remain members of the treaty. In 1936, these are: the ⟦1⟧, the ⟦2⟧, ⟦3⟧, ⟦4⟧, and ⟦5⟧.",
+   "frags": 6
+  },
+  {
+   "k": "uqska2",
+   "en": "London Naval Treaty"
+  },
+  {
+   "k": "vcugn7",
+   "en": "United Kingdom"
+  },
+  {
+   "k": "7tkm24",
+   "en": "United States"
+  },
+  {
+   "k": "y6f35m",
+   "en": "France"
+  },
+  {
+   "k": "eg9p8s",
+   "en": "Italy"
+  },
+  {
+   "k": "193rgu3",
+   "en": "Japan"
+  },
+  {
+   "k": "162r8vz",
+   "en": "Hulls"
+  },
+  {
+   "k": "32gueu",
+   "en": "Destroyer"
+  },
+  {
+   "k": "1u9gm3a",
+   "en": "Hull"
+  },
+  {
+   "k": "14s8dry",
+   "en": "Max Speed (kn)"
+  },
+  {
+   "k": "19eo0a7",
+   "en": "Max Range (km)"
+  },
+  {
+   "k": "725tl6",
+   "en": "Organization"
+  },
+  {
+   "k": "1rbjfiz",
+   "en": "Reliability"
+  },
+  {
+   "k": "170qbkd",
+   "en": "Supply Use"
+  },
+  {
+   "k": "17vxw9s",
+   "en": "Manpower"
+  },
+  {
+   "k": "md7c1i",
+   "en": "Fuel Usage"
+  },
+  {
+   "k": "smq7tj",
+   "en": "Depth Charges"
+  },
+  {
+   "k": "tih3zc",
+   "en": "Surface Visibility"
+  },
+  {
+   "k": "16cjo1r",
+   "en": "Surface Detection"
+  },
+  {
+   "k": "xl28oe",
+   "en": "Sub Detection"
+  },
+  {
+   "k": "11f0z0b",
+   "en": "Modules (fixed / custom)"
+  },
+  {
+   "k": "17b3mun",
+   "en": "Production Cost"
+  },
+  {
+   "k": "oocx3g",
+   "en": "Resource Use per Dockyard"
+  },
+  {
+   "k": "1zlcfw",
+   "en": "Early"
+  },
+  {
+   "k": "ngh2vk",
+   "en": "Cruiser"
+  },
+  {
+   "k": "1loxp63",
+   "en": "Torpedo Cruiser"
+  },
+  {
+   "k": "lh0tr3",
+   "en": "Panzerschiff⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "17pn0z1",
+   "en": "Coastal Defense Ship⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1946h7h",
+   "en": "Battleship"
+  },
+  {
+   "k": "7mldcf",
+   "en": "Pre-Dreadnought⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "fxzhr7",
+   "en": "Super Heavy"
+  },
+  {
+   "k": "1tmglwq",
+   "en": "Modern"
+  },
+  {
+   "k": "7f8eqf",
+   "en": "Carrier"
+  },
+  {
+   "k": "16mjq22",
+   "en": "Converted Cruiser"
+  },
+  {
+   "k": "19qzn7",
+   "en": "Converted Battleship"
+  },
+  {
+   "k": "1n7utcw",
+   "en": "Ice"
+  },
+  {
+   "k": "j5r8fr",
+   "en": "Submarine"
+  },
+  {
+   "k": "zraeq3",
+   "en": "Sub Visibility"
+  },
+  {
+   "k": "7esl5j",
+   "en": "Midget"
+  },
+  {
+   "k": "12nshcf",
+   "en": "Fleet"
+  },
+  {
+   "k": "196kse9",
+   "en": "Nuclear"
+  },
+  {
+   "k": "7oegab",
+   "en": "Convoy"
+  },
+  {
+   "k": "157upl1",
+   "en": "Light Attack"
+  },
+  {
+   "k": "1atezh2",
+   "en": "Light Piercing"
+  },
+  {
+   "k": "3phd4o",
+   "en": "Anti-Air Attack"
+  },
+  {
+   "k": "1s6didm",
+   "en": "Modules"
+  },
+  {
+   "k": "1ovbg4b",
+   "en": "Engine"
+  },
+  {
+   "k": "1inmx8d",
+   "en": "Module"
+  },
+  {
+   "k": "1o1z8l7",
+   "en": "Alternative Name"
+  },
+  {
+   "k": "sc65q4",
+   "en": "Eligible Hulls"
+  },
+  {
+   "k": "177f0a8",
+   "en": "Max Range"
+  },
+  {
+   "k": "10j1pie",
+   "en": "Max Speed"
+  },
+  {
+   "k": "ejz9b4",
+   "en": "Prerequisites"
+  },
+  {
+   "k": "1uyj2i8",
+   "en": "Light Engine I"
+  },
+  {
+   "k": "1mtm2he",
+   "en": "35,000 Shp Engine"
+  },
+  {
+   "k": "req73t",
+   "en": "All Destroyer"
+  },
+  {
+   "k": "9rjppt",
+   "en": "Early Destroyer"
+  },
+  {
+   "k": "8m0l2z",
+   "en": "Light Engine II"
+  },
+  {
+   "k": "ctufwe",
+   "en": "40,000 Shp Engine"
+  },
+  {
+   "k": "11xefy3",
+   "en": "1936 Destroyer"
+  },
+  {
+   "k": "1l3bj7a",
+   "en": "Light Engine III"
+  },
+  {
+   "k": "nrux73",
+   "en": "45,000 Shp Engine"
+  },
+  {
+   "k": "17w6w1m",
+   "en": "1940 Destroyer"
+  },
+  {
+   "k": "3c84wi",
+   "en": "Light Engine IV"
+  },
+  {
+   "k": "iiruwx",
+   "en": "50,000 Shp Engine"
+  },
+  {
+   "k": "10i42vi",
+   "en": "1944 Destroyer"
+  },
+  {
+   "k": "h0v2nx",
+   "en": "Cruiser Engine I"
+  },
+  {
+   "k": "174cpik",
+   "en": "60,000 Shp Engine"
+  },
+  {
+   "k": "9hr80a",
+   "en": "All Cruiser Converted Cruiser"
+  },
+  {
+   "k": "fuyadj",
+   "en": "All Cruiser"
+  },
+  {
+   "k": "xpn67j",
+   "en": "Early Cruiser"
+  },
+  {
+   "k": "2umvmk",
+   "en": "Cruiser Engine II"
+  },
+  {
+   "k": "wg1nmn",
+   "en": "70,000 Shp Engine"
+  },
+  {
+   "k": "13f7blt",
+   "en": "1936 Cruiser"
+  },
+  {
+   "k": "it45r",
+   "en": "Cruiser Engine III"
+  },
+  {
+   "k": "126f576",
+   "en": "80,000 Shp Engine"
+  },
+  {
+   "k": "xj5ox8",
+   "en": "1940 Cruiser"
+  },
+  {
+   "k": "cqgdt",
+   "en": "Cruiser Engine IV"
+  },
+  {
+   "k": "oii8dx",
+   "en": "90,000 Shp Engine"
+  },
+  {
+   "k": "16i5w48",
+   "en": "1944 Cruiser"
+  },
+  {
+   "k": "3wg3e5",
+   "en": "Heavy Engine I"
+  },
+  {
+   "k": "1v131iz",
+   "en": "30,000 Shp Engine"
+  },
+  {
+   "k": "jip59i",
+   "en": "All Battleship Converted Battleship"
+  },
+  {
+   "k": "369gzg",
+   "en": "All Battleship"
+  },
+  {
+   "k": "csn7kb",
+   "en": "Early Heavy Ship"
+  },
+  {
+   "k": "11akn70",
+   "en": "Heavy Engine II"
+  },
+  {
+   "k": "1q3r8bt",
+   "en": "1936 Heavy Ship"
+  },
+  {
+   "k": "1g3wfnj",
+   "en": "Heavy Engine III"
+  },
+  {
+   "k": "u9e2l2",
+   "en": "150,000 Shp Engine"
+  },
+  {
+   "k": "nuimjy",
+   "en": "1940 Heavy Ship"
+  },
+  {
+   "k": "17obi5d",
+   "en": "Heavy Engine IV"
+  },
+  {
+   "k": "qtwarh",
+   "en": "210,000 Shp Engine"
+  },
+  {
+   "k": "1egnv0i",
+   "en": "1944 Heavy Ship"
+  },
+  {
+   "k": "5n1g8m",
+   "en": "Nuclear Heavy Ship Reactor"
+  },
+  {
+   "k": "mxaggu",
+   "en": "Modern Battleship"
+  },
+  {
+   "k": "1v2zo8a",
+   "en": "Götterdämmerung"
+  },
+  {
+   "k": "49me9m",
+   "en": "Nuclear Engines"
+  },
+  {
+   "k": "tfoj7s",
+   "en": "Carrier Engine I"
+  },
+  {
+   "k": "128dq6g",
+   "en": "All Carrier"
+  },
+  {
+   "k": "97jdk9",
+   "en": "Deck Conversions"
+  },
+  {
+   "k": "nsxhv",
+   "en": "Carrier Engine II"
+  },
+  {
+   "k": "56he43",
+   "en": "120,000 Shp Engine"
+  },
+  {
+   "k": "zol1xe",
+   "en": "1936 Carrier"
+  },
+  {
+   "k": "16tyujy",
+   "en": "Carrier Engine III"
+  },
+  {
+   "k": "x94qm3",
+   "en": "1940 Carrier"
+  },
+  {
+   "k": "8phem2",
+   "en": "Carrier Engine IV"
+  },
+  {
+   "k": "usz0kf",
+   "en": "1944 Carrier"
+  },
+  {
+   "k": "1m1i73f",
+   "en": "Nuclear Carrier Reactor"
+  },
+  {
+   "k": "p3fvfi",
+   "en": "Modern Carrier"
+  },
+  {
+   "k": "vg5r1k",
+   "en": "Submarine Engine I"
+  },
+  {
+   "k": "st20ed",
+   "en": "1,000 Shp Engine"
+  },
+  {
+   "k": "wt96kz",
+   "en": "All Submarine except Nuclear Submarine"
+  },
+  {
+   "k": "snrmyz",
+   "en": "⟦0⟧ except ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1nwoeks",
+   "en": "All Submarine"
+  },
+  {
+   "k": "v4qy1",
+   "en": "Nuclear Submarine"
+  },
+  {
+   "k": "9ncevo",
+   "en": "Early Submarine"
+  },
+  {
+   "k": "1lb92nn",
+   "en": "Submarine Engine II"
+  },
+  {
+   "k": "12mgiaa",
+   "en": "2,000 Shp Engine"
+  },
+  {
+   "k": "iprose",
+   "en": "1936 Submarine"
+  },
+  {
+   "k": "a91yfi",
+   "en": "Submarine Engine III"
+  },
+  {
+   "k": "r6h6gf",
+   "en": "3,000 Shp Engine"
+  },
+  {
+   "k": "jlpc03",
+   "en": "1940 Submarine"
+  },
+  {
+   "k": "1tcxjru",
+   "en": "Submarine Engine IV"
+  },
+  {
+   "k": "f8snxw",
+   "en": "4,000 Shp Engine"
+  },
+  {
+   "k": "1k8hyov",
+   "en": "1944 Submarine"
+  },
+  {
+   "k": "3yjqz1",
+   "en": "Air-Independent Propulsion"
+  },
+  {
+   "k": "1jcvjkp",
+   "en": "AIP-Diesel Combination Engine"
+  },
+  {
+   "k": "1gltgv2",
+   "en": "AIP-Diesel Combination Engines"
+  },
+  {
+   "k": "kcnrpe",
+   "en": "High Speed Walter Engines"
+  },
+  {
+   "k": "kusbot",
+   "en": "High-Speed Walter Engines"
+  },
+  {
+   "k": "128vkb",
+   "en": "Nuclear Submarine Reactor"
+  },
+  {
+   "k": "10tp7xw",
+   "en": "Armor"
+  },
+  {
+   "k": "1ejsikx",
+   "en": "Incoming Torpedo Critical Chance"
+  },
+  {
+   "k": "qmucwk",
+   "en": "Torpedo Damage Reduction"
+  },
+  {
+   "k": "60sl9w",
+   "en": "Cruiser Armor I"
+  },
+  {
+   "k": "ovgrpb",
+   "en": "50mm Belt/40mm Deck"
+  },
+  {
+   "k": "k85oq0",
+   "en": "All Cruiser All Carrier"
+  },
+  {
+   "k": "b0a53b",
+   "en": "Cruiser Armor II"
+  },
+  {
+   "k": "duebri",
+   "en": "100mm Belt/30mm Deck"
+  },
+  {
+   "k": "q8hbqw",
+   "en": "Basic Cruiser Armor Scheme"
+  },
+  {
+   "k": "104df62",
+   "en": "Cruiser Armor III"
+  },
+  {
+   "k": "1863nne",
+   "en": "120mm Belt/50mm Deck"
+  },
+  {
+   "k": "nf7ka6",
+   "en": "Inclined Belt Armor Scheme"
+  },
+  {
+   "k": "3ikvd2",
+   "en": "Cruiser Armor IV"
+  },
+  {
+   "k": "11w6vsm",
+   "en": "150mm Belt/60mm Deck"
+  },
+  {
+   "k": "1jlifb8",
+   "en": "All-or-Nothing Armor Scheme"
+  },
+  {
+   "k": "1wsuzjt",
+   "en": "Battleship Armor I"
+  },
+  {
+   "k": "1dhycms",
+   "en": "200mm Belt/40mm Deck"
+  },
+  {
+   "k": "12ceg0g",
+   "en": "Battleship Armor II"
+  },
+  {
+   "k": "1mgp6ku",
+   "en": "350mm Belt/150mm Deck"
+  },
+  {
+   "k": "sapt3v",
+   "en": "Battleship Armor III"
+  },
+  {
+   "k": "1pe62pu",
+   "en": "380mm Belt/155mm Deck"
+  },
+  {
+   "k": "1c8aigu",
+   "en": "Battlecruiser Armor I"
+  },
+  {
+   "k": "8gjn3j",
+   "en": "150mm Belt/25mm Deck"
+  },
+  {
+   "k": "p4qs5x",
+   "en": "Battlecruiser Armor II"
+  },
+  {
+   "k": "8r6jyj",
+   "en": "305mm Belt/100mm Deck"
+  },
+  {
+   "k": "1v8sr10",
+   "en": "Battlecruiser Armor III"
+  },
+  {
+   "k": "cxempe",
+   "en": "330mm Belt/130mm Deck"
+  },
+  {
+   "k": "1v3z3hl",
+   "en": "Super-Heavy Armor"
+  },
+  {
+   "k": "1faoki0",
+   "en": "450mm Belt/210mm Deck"
+  },
+  {
+   "k": "18mn1m9",
+   "en": "Super Heavy Battleship"
+  },
+  {
+   "k": "vk47in",
+   "en": "Deck Armor"
+  },
+  {
+   "k": "9i3zlv",
+   "en": "Flight Deck Armor"
+  },
+  {
+   "k": "944yrb",
+   "en": "90mm Deck"
+  },
+  {
+   "k": "sekgze",
+   "en": "All Carrier except Ice Carrier"
+  },
+  {
+   "k": "c1q8zg",
+   "en": "Ice Carrier"
+  },
+  {
+   "k": "pa5ia1",
+   "en": "Runway Reinforcements"
+  },
+  {
+   "k": "1qyygaa",
+   "en": "Weather Penalty"
+  },
+  {
+   "k": "vfbmur",
+   "en": "Pykrete Runway Reinforcements"
+  },
+  {
+   "k": "1o8xhzu",
+   "en": "Ice Aircraft Carrier"
+  },
+  {
+   "k": "e2a4kq",
+   "en": "Steel-Reinforced Pykrete Runway"
+  },
+  {
+   "k": "uqb9ea",
+   "en": "Refined Pykrete"
+  },
+  {
+   "k": "pukpu6",
+   "en": "Ice-Composite Runway"
+  },
+  {
+   "k": "bbqe9u",
+   "en": "Rapid Fire Guns"
+  },
+  {
+   "k": "1a08bpw",
+   "en": "Anti-Air"
+  },
+  {
+   "k": "1daqqpy",
+   "en": "Max speed"
+  },
+  {
+   "k": "na9l7l",
+   "en": "Light Battery I"
+  },
+  {
+   "k": "1smup9j",
+   "en": "85 mm RF. Cannon"
+  },
+  {
+   "k": "1p8xg53",
+   "en": "All Destroyer Early Cruiser (as Light Cruiser) 1936 Cruiser (as Light Cruiser) 1940 Cruiser (as Light Cruiser) 1944 Cruiser (as Light Cruiser) Torpedo Cruiser"
+  },
+  {
+   "k": "1xofnuu",
+   "en": "⟦0⟧ (as Light Cruiser)",
+   "frags": 1
+  },
+  {
+   "k": "a8g48h",
+   "en": "Naval Gunnery"
+  },
+  {
+   "k": "16rk1k",
+   "en": "Light Battery II"
+  },
+  {
+   "k": "19t577a",
+   "en": "105 mm RF. Cannon"
+  },
+  {
+   "k": "1q0mgd4",
+   "en": "Basic Light Battery"
+  },
+  {
+   "k": "cvflk3",
+   "en": "Light Battery III"
+  },
+  {
+   "k": "1i6it8q",
+   "en": "127 mm RF. Cannon"
+  },
+  {
+   "k": "iett3s",
+   "en": "Improved Light Battery"
+  },
+  {
+   "k": "5cllg5",
+   "en": "Light Battery IV"
+  },
+  {
+   "k": "ybencq",
+   "en": "130 mm RF. Cannon"
+  },
+  {
+   "k": "ch1l5m",
+   "en": "Advanced Light Battery"
+  },
+  {
+   "k": "1hlezaz",
+   "en": "Dual-Purpose Main Battery I"
+  },
+  {
+   "k": "1pi5f86",
+   "en": "100mm Dual-Purpose Battery"
+  },
+  {
+   "k": "10z6q2e",
+   "en": "Dual-Purpose Main Battery II"
+  },
+  {
+   "k": "1xsljnq",
+   "en": "113mm Dual-Purpose Battery"
+  },
+  {
+   "k": "5uojr3",
+   "en": "Basic Dual-Purpose Battery"
+  },
+  {
+   "k": "2vw7xp",
+   "en": "Dual-Purpose Main Battery III"
+  },
+  {
+   "k": "pc64dv",
+   "en": "127mm Dual-Purpose Battery"
+  },
+  {
+   "k": "gp3mbj",
+   "en": "Improved Dual-Purpose Battery"
+  },
+  {
+   "k": "zl8plj",
+   "en": "Dual-Purpose Main Battery IV"
+  },
+  {
+   "k": "3hpfxh",
+   "en": "127mm RF. Dual-Purpose Battery"
+  },
+  {
+   "k": "rs5rjp",
+   "en": "Advanced Dual-Purpose Battery"
+  },
+  {
+   "k": "86ci2j",
+   "en": "Medium Battery"
+  },
+  {
+   "k": "4wxo3g",
+   "en": "Heavy Attack"
+  },
+  {
+   "k": "1ow5obj",
+   "en": "Heavy Piercing"
+  },
+  {
+   "k": "knd50i",
+   "en": "Light Cruiser Battery I"
+  },
+  {
+   "k": "1tdyalk",
+   "en": "14.5 cm Cannon"
+  },
+  {
+   "k": "1axop0b",
+   "en": "All Cruiser (without any Heavy Cruiser Battery) except Panzerschiff"
+  },
+  {
+   "k": "u6gqp9",
+   "en": "⟦0⟧ (without any Heavy Cruiser Battery) except ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1633l5w",
+   "en": "Panzerschiff"
+  },
+  {
+   "k": "545v5d",
+   "en": "Light Cruiser Battery II"
+  },
+  {
+   "k": "129jm6u",
+   "en": "15 cm Cannon"
+  },
+  {
+   "k": "1lrqpl1",
+   "en": "Basic Medium Battery"
+  },
+  {
+   "k": "1grawfc",
+   "en": "Light Cruiser Battery III"
+  },
+  {
+   "k": "oynzhr",
+   "en": "15.5 cm Cannon"
+  },
+  {
+   "k": "2wssp1",
+   "en": "Improved Medium Battery"
+  },
+  {
+   "k": "7m2ae4",
+   "en": "Light Cruiser Battery IV"
+  },
+  {
+   "k": "1f5fgph",
+   "en": "15.5 cm Auto-Loading Cannon"
+  },
+  {
+   "k": "ns65br",
+   "en": "Advanced Medium Battery"
+  },
+  {
+   "k": "oqnudh",
+   "en": "Light Cruiser Battery Auto-Loading"
+  },
+  {
+   "k": "154dgvg",
+   "en": "152m RF. Dual-Purpose Battery"
+  },
+  {
+   "k": "umulom",
+   "en": "Advanced Medium Dual-Purpose Battery"
+  },
+  {
+   "k": "16ic28d",
+   "en": "Heavy Cruiser Battery I"
+  },
+  {
+   "k": "u8599o",
+   "en": "17 cm Cannon"
+  },
+  {
+   "k": "11cpamq",
+   "en": "All Cruiser (without any Rapid Fire Guns or Light Cruiser Battery) except Panzerschiff"
+  },
+  {
+   "k": "1qylf5m",
+   "en": "⟦0⟧ (without any ⟦1⟧ or Light Cruiser Battery) except ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "dwtido",
+   "en": "Heavy Cruiser Battery II"
+  },
+  {
+   "k": "18s3ria",
+   "en": "19 cm Cannon"
+  },
+  {
+   "k": "1vdhtr3",
+   "en": "Heavy Cruiser Battery III"
+  },
+  {
+   "k": "1w59jup",
+   "en": "20.3 cm Cannon"
+  },
+  {
+   "k": "kakdc1",
+   "en": "Heavy Cruiser Battery IV"
+  },
+  {
+   "k": "l4mzur",
+   "en": "20.3 cm Auto-Loading Cannon"
+  },
+  {
+   "k": "z0fxvx",
+   "en": "Heavy Battery"
+  },
+  {
+   "k": "111tj7e",
+   "en": "Heavy Battery I"
+  },
+  {
+   "k": "mi3lka",
+   "en": "28 cm Cannon"
+  },
+  {
+   "k": "12aivbf",
+   "en": "Panzerschiff Coastal Defense Ship All Battleship except Super Heavy Battleship"
+  },
+  {
+   "k": "2a447i",
+   "en": "Coastal Defense Ship"
+  },
+  {
+   "k": "t1d5c9",
+   "en": "Heavy Battery II"
+  },
+  {
+   "k": "404za2",
+   "en": "30.5 cm Cannon"
+  },
+  {
+   "k": "j188wn",
+   "en": "Basic Heavy Battery"
+  },
+  {
+   "k": "1h7p5hc",
+   "en": "Heavy Battery III"
+  },
+  {
+   "k": "4xoltr",
+   "en": "38 cm Cannon"
+  },
+  {
+   "k": "1c3imvr",
+   "en": "Improved Heavy Battery"
+  },
+  {
+   "k": "r3fxhg",
+   "en": "Heavy Battery IV"
+  },
+  {
+   "k": "1gz5b3o",
+   "en": "40.6 cm Cannon"
+  },
+  {
+   "k": "y2hg2h",
+   "en": "Advanced Heavy Battery"
+  },
+  {
+   "k": "1az0nvf",
+   "en": "Super-Heavy Battery"
+  },
+  {
+   "k": "1qan13m",
+   "en": "46 cm Cannon"
+  },
+  {
+   "k": "z9f9wc",
+   "en": "Secondary Batteries"
+  },
+  {
+   "k": "y2zyeb",
+   "en": "Secondary Battery I"
+  },
+  {
+   "k": "16hgofq",
+   "en": "75mm RF. Cannon"
+  },
+  {
+   "k": "13wkjin",
+   "en": "All Cruiser All Battleship All Carrier"
+  },
+  {
+   "k": "2qpw9q",
+   "en": "Secondary Battery II"
+  },
+  {
+   "k": "suobaj",
+   "en": "120mm RF. Cannon"
+  },
+  {
+   "k": "1mjacco",
+   "en": "Dual-Purpose Secondary Battery I"
+  },
+  {
+   "k": "vsfzgg",
+   "en": "100mm Dual-Purpose Secondary Battery"
+  },
+  {
+   "k": "poo5lf",
+   "en": "Dual-Purpose Secondary Battery II"
+  },
+  {
+   "k": "1rmp3io",
+   "en": "113mm Dual-Purpose Secondary Battery"
+  },
+  {
+   "k": "1mwrmjy",
+   "en": "Dual-Purpose Secondary Battery III"
+  },
+  {
+   "k": "1dfxqh5",
+   "en": "127mm Dual-Purpose Secondary Battery"
+  },
+  {
+   "k": "xqcmpm",
+   "en": "Dual-Purpose Secondary Battery IV"
+  },
+  {
+   "k": "fm37ef",
+   "en": "127mm RF. Dual-Purpose Secondary Battery"
+  },
+  {
+   "k": "5mzej3",
+   "en": "Anti-Air I"
+  },
+  {
+   "k": "1jzxj42",
+   "en": ".50 cal. MG"
+  },
+  {
+   "k": "1loxvgd",
+   "en": "All Destroyer All Cruiser All Battleship All Carrier"
+  },
+  {
+   "k": "bu9lyu",
+   "en": "Towed Artillery"
+  },
+  {
+   "k": "ymu0i",
+   "en": "Anti-Air II"
+  },
+  {
+   "k": "1wrq08l",
+   "en": "20mm AA"
+  },
+  {
+   "k": "ok99mh",
+   "en": "Towed Anti-Air"
+  },
+  {
+   "k": "1cxda75",
+   "en": "Anti-Air III"
+  },
+  {
+   "k": "1it23b9",
+   "en": "37mm AA"
+  },
+  {
+   "k": "1ykgudy",
+   "en": "Improved Anti-Air"
+  },
+  {
+   "k": "68fa6z",
+   "en": "Anti-Air IV"
+  },
+  {
+   "k": "ff7rsc",
+   "en": "40mm Quad AA"
+  },
+  {
+   "k": "11vm594",
+   "en": "Advanced Anti-Air"
+  },
+  {
+   "k": "1rf7rm9",
+   "en": "Torpedo Launchers"
+  },
+  {
+   "k": "l4i8xw",
+   "en": "Torpedo Attack"
+  },
+  {
+   "k": "1mfk92v",
+   "en": "Torpedo Hit Chance"
+  },
+  {
+   "k": "134dk7n",
+   "en": "Torpedo Launcher I"
+  },
+  {
+   "k": "1expjse",
+   "en": "3x 450mm Torpedo Launcher"
+  },
+  {
+   "k": "xdyrqi",
+   "en": "All Destroyer All Cruiser Pre-Dreadnought"
+  },
+  {
+   "k": "149dkwk",
+   "en": "Pre-Dreadnought"
+  },
+  {
+   "k": "10ppn2y",
+   "en": "Basic Torpedo"
+  },
+  {
+   "k": "1lmd6i6",
+   "en": "Torpedo Launcher II"
+  },
+  {
+   "k": "btzkfn",
+   "en": "4x 450mm Torpedo Launcher"
+  },
+  {
+   "k": "1rqqrjm",
+   "en": "Improved Ship Torpedo Launcher"
+  },
+  {
+   "k": "mukjl1",
+   "en": "Torpedo Launcher III"
+  },
+  {
+   "k": "4a2bua",
+   "en": "3x 533mm Torpedo Launcher"
+  },
+  {
+   "k": "14m9llo",
+   "en": "Advanced Ship Torpedo Launcher"
+  },
+  {
+   "k": "1fslixr",
+   "en": "Torpedo Launcher IV"
+  },
+  {
+   "k": "1mkd3lf",
+   "en": "4x 533mm Torpedo Launcher"
+  },
+  {
+   "k": "1irswgl",
+   "en": "Modern Ship Torpedo Launcher"
+  },
+  {
+   "k": "xrecr",
+   "en": "Torpedo Room"
+  },
+  {
+   "k": "92q40g",
+   "en": "Torpedo Tubes I"
+  },
+  {
+   "k": "1ntv62e",
+   "en": "4x 450mm Torpedo Tubes"
+  },
+  {
+   "k": "6cpgpn",
+   "en": "Torpedo Tubes II"
+  },
+  {
+   "k": "15l7g6c",
+   "en": "6x 450mm Torpedo Tubes"
+  },
+  {
+   "k": "17nc72u",
+   "en": "Torpedo Tubes III"
+  },
+  {
+   "k": "2ady2e",
+   "en": "4x 533mm Torpedo Tubes"
+  },
+  {
+   "k": "12x0j6",
+   "en": "Torpedo Tubes IV"
+  },
+  {
+   "k": "1rfvb1w",
+   "en": "6x 533mm Torpedo Tubes"
+  },
+  {
+   "k": "1mv6f6u",
+   "en": "Nuclear Torpedo"
+  },
+  {
+   "k": "kyilkr",
+   "en": "Radar"
+  },
+  {
+   "k": "18w179",
+   "en": "Light Battery Hit Chance"
+  },
+  {
+   "k": "1y2c9r8",
+   "en": "Heavy Battery Hit Chance"
+  },
+  {
+   "k": "195v1w8",
+   "en": "Radar I"
+  },
+  {
+   "k": "15v1ore",
+   "en": "Decimetric Naval Search Radar"
+  },
+  {
+   "k": "6n91cw",
+   "en": "All Destroyer All Cruiser All Battleship All Carrier 1940 Submarine 1944 Submarine Cruiser Submarine Fleet Submarine Nuclear Submarine"
+  },
+  {
+   "k": "1fc05ko",
+   "en": "Cruiser Submarine"
+  },
+  {
+   "k": "d5o3bj",
+   "en": "Fleet Submarine"
+  },
+  {
+   "k": "lfkngj",
+   "en": "Radar II"
+  },
+  {
+   "k": "1x21feo",
+   "en": "Improved Decimetric Naval Search Radar"
+  },
+  {
+   "k": "13mnz3m",
+   "en": "Cavity Magnatron"
+  },
+  {
+   "k": "9uve4e",
+   "en": "Radar III"
+  },
+  {
+   "k": "qnprg0",
+   "en": "Centimetric Gunnery Radar"
+  },
+  {
+   "k": "1ljjv0x",
+   "en": "Phased Array"
+  },
+  {
+   "k": "klludm",
+   "en": "Radar IV"
+  },
+  {
+   "k": "1de8j2h",
+   "en": "Integrated Fire Control Radar"
+  },
+  {
+   "k": "1xo9kk7",
+   "en": "Monopulse Radar"
+  },
+  {
+   "k": "wa64ac",
+   "en": "Sonar"
+  },
+  {
+   "k": "cqbs1g",
+   "en": "Hydrophones"
+  },
+  {
+   "k": "qoonx5",
+   "en": "All Destroyer All Cruiser"
+  },
+  {
+   "k": "9vklg5",
+   "en": "Passive Sonar"
+  },
+  {
+   "k": "13a68qk",
+   "en": "Active Sonar"
+  },
+  {
+   "k": "qtl6pu",
+   "en": "File:Sonar 3.png"
+  },
+  {
+   "k": "8f1kug",
+   "en": "Advanced Sonar"
+  },
+  {
+   "k": "ekkxy3",
+   "en": "Advanced Sonar ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "y7hsir",
+   "en": "File:Sonar 4.png"
+  },
+  {
+   "k": "xk0vk1",
+   "en": "Modern Sonar"
+  },
+  {
+   "k": "c1l41q",
+   "en": "Modern Sonar ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "z241ok",
+   "en": "Snorkels"
+  },
+  {
+   "k": "1qqsilu",
+   "en": "Basic Schnorkel"
+  },
+  {
+   "k": "17rvwag",
+   "en": "1940 Submarine 1944 Submarine Cruiser Submarine Fleet Submarine"
+  },
+  {
+   "k": "qohxap",
+   "en": "Basic Submarine Snorkel"
+  },
+  {
+   "k": "1s9bf8y",
+   "en": "Improved Schnorkel"
+  },
+  {
+   "k": "h18u1d",
+   "en": "Improved Submarine Snorkel"
+  },
+  {
+   "k": "9dzrai",
+   "en": "Fire Control Systems"
+  },
+  {
+   "k": "1kj6gqk",
+   "en": "Fire Control 0"
+  },
+  {
+   "k": "1uynopc",
+   "en": "Central Rangefinding"
+  },
+  {
+   "k": "1waikqy",
+   "en": "All Destroyer All Cruiser All Battleship"
+  },
+  {
+   "k": "p7ay9h",
+   "en": "Electronic Mechanical Engineering"
+  },
+  {
+   "k": "19plyon",
+   "en": "Fire Control I"
+  },
+  {
+   "k": "1azjdxb",
+   "en": "Director Fire"
+  },
+  {
+   "k": "1vxgsrb",
+   "en": "Basic Fire Control System"
+  },
+  {
+   "k": "1wiweyi",
+   "en": "Fire Control II"
+  },
+  {
+   "k": "w4t2c5",
+   "en": "Mechanical Rangekeeper"
+  },
+  {
+   "k": "1v5xmjb",
+   "en": "Improved Fire Control System"
+  },
+  {
+   "k": "1fzbxjd",
+   "en": "Fire Control III"
+  },
+  {
+   "k": "1pmyacx",
+   "en": "Ballistic Computer"
+  },
+  {
+   "k": "31bqtt",
+   "en": "Advanced Fire Control System"
+  },
+  {
+   "k": "mr320u",
+   "en": "Anti-Submarine Warfare"
+  },
+  {
+   "k": "1j5qmcp",
+   "en": "Depth Charge I"
+  },
+  {
+   "k": "2nwsw7",
+   "en": "Depth Charge Rails"
+  },
+  {
+   "k": "9t51dd",
+   "en": "All Destroyer Early Cruiser 1936 Cruiser 1940 Cruiser 1944 Cruiser Torpedo Cruiser"
+  },
+  {
+   "k": "evzjzh",
+   "en": "Basic Depth Charges"
+  },
+  {
+   "k": "1mq8ko0",
+   "en": "Depth Charge II"
+  },
+  {
+   "k": "4v4rgt",
+   "en": "Depth Charge Thrower"
+  },
+  {
+   "k": "81r1sb",
+   "en": "Depth Charge III"
+  },
+  {
+   "k": "b25k1h",
+   "en": "Anti-submarine Mortar"
+  },
+  {
+   "k": "4enoc3",
+   "en": "Depth Charge Mortar"
+  },
+  {
+   "k": "1vbw965",
+   "en": "Depth Charge IV"
+  },
+  {
+   "k": "1twqwl5",
+   "en": "Advanced Anti-submarine Mortar"
+  },
+  {
+   "k": "2pew2h",
+   "en": "Improved Depth Charge Mortar"
+  },
+  {
+   "k": "1fols38",
+   "en": "Mine Warfare"
+  },
+  {
+   "k": "98qwh8",
+   "en": "Minelaying"
+  },
+  {
+   "k": "1h7vzfi",
+   "en": "Minesweeping"
+  },
+  {
+   "k": "1pxcxad",
+   "en": "Minelaying Rails"
+  },
+  {
+   "k": "7rjmxl",
+   "en": "All Destroyer All Cruiser except Coastal Defense Ship"
+  },
+  {
+   "k": "1476i1u",
+   "en": "Contact Mine"
+  },
+  {
+   "k": "2ics7j",
+   "en": "Minelaying Tubes"
+  },
+  {
+   "k": "nfa8z9",
+   "en": "All Submarine except Midget Submarine"
+  },
+  {
+   "k": "1ytsgnb",
+   "en": "Midget Submarine"
+  },
+  {
+   "k": "3w7mec",
+   "en": "Minelaying Submarine"
+  },
+  {
+   "k": "iy0fbp",
+   "en": "Minesweeping Gear"
+  },
+  {
+   "k": "m49eu8",
+   "en": "Aircraft Facilities"
+  },
+  {
+   "k": "wccegn",
+   "en": "Floatplane Catapult"
+  },
+  {
+   "k": "2fi5bt",
+   "en": "All Cruiser All Battleship Cruiser Submarine Fleet Submarine Nuclear Submarine"
+  },
+  {
+   "k": "14zsirh",
+   "en": "Improved Floatplane Catapult"
+  },
+  {
+   "k": "igm6r",
+   "en": "Improved Airplane Catapult"
+  },
+  {
+   "k": "1hm0ih0",
+   "en": "Hangar Space"
+  },
+  {
+   "k": "s0ku5l",
+   "en": "Deck Size"
+  },
+  {
+   "k": "15wjbzr",
+   "en": "Floating Airfield Runway"
+  },
+  {
+   "k": "vnpd9q",
+   "en": "Coating"
+  },
+  {
+   "k": "tx78ru",
+   "en": "Anechoic Tiles"
+  },
+  {
+   "k": "qu2yvu",
+   "en": "1940 Submarine 1944 Submarine Cruiser Submarine Fleet Submarine Nuclear Submarine"
+  },
+  {
+   "k": "13dju5v",
+   "en": "Deck Guns"
+  },
+  {
+   "k": "1r7rx8w",
+   "en": "Raiding Efficiency"
+  },
+  {
+   "k": "13ctsy6",
+   "en": "200mm Battery"
+  },
+  {
+   "k": "1tqplzo",
+   "en": "Raiding Protocol special project prototype outcome choice"
+  },
+  {
+   "k": "112axt9",
+   "en": "Fuel"
+  },
+  {
+   "k": "1ahmvkr",
+   "en": "Fuel Tank"
+  },
+  {
+   "k": "f2gtiu",
+   "en": "Cruiser Submarine Fleet Submarine Nuclear Submarine"
+  },
+  {
+   "k": "1jl30hx",
+   "en": "Missile Launcher"
+  },
+  {
+   "k": "14zfl2t",
+   "en": "Submarine Missile Launcher"
+  },
+  {
+   "k": "tnrjj5",
+   "en": "Fleet Submarine Nuclear Submarine"
+  },
+  {
+   "k": "1k25tdy",
+   "en": "Missile Launching Submarine"
+  },
+  {
+   "k": "wgzikn",
+   "en": "Nuclear Missile Launcher"
+  },
+  {
+   "k": "pba2d3",
+   "en": "Submarine Nuclear Missile Launcher"
+  },
+  {
+   "k": "5i1jcd",
+   "en": "Nuclear Missile Submarine"
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "1onvuai",
+   "en": "Available through ⟦0⟧ secret tech",
+   "frags": 1
+  },
+  {
+   "k": "buh9hj",
+   "en": "Only applies once per ship"
+  },
+  {
+   "k": "kzss2z",
+   "en": "For module data, see reference files in folder ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "gbt6vq",
+   "en": "/Hearts of Iron IV/common/units/equipment/modules"
+  },
+  {
+   "k": "13zz667",
+   "en": "For flavor text, see reference files: ship_modules_l_english.yml. designer_l_english.yml. modifiers_l_english.yml."
+  },
+  {
+   "k": "qbrey9",
+   "en": "ship_modules_l_english.yml"
+  },
+  {
+   "k": "ux4214",
+   "en": "designer_l_english.yml"
+  },
+  {
+   "k": "ec00gp",
+   "en": "modifiers_l_english.yml"
+  },
+  {
+   "k": "j4vzu9",
+   "en": "Warfare"
+  },
+  {
+   "k": "1pmis96",
+   "en": "Land warfare"
+  },
+  {
+   "k": "gl2sa2",
+   "en": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ • ⟦3⟧ • ⟦4⟧ • ⟦5⟧ • ⟦6⟧ • ⟦7⟧ • ⟦8⟧ (also ⟦9⟧) • ⟦10⟧ • ⟦11⟧ • Special forces doctrine",
+   "frags": 12
+  },
+  {
+   "k": "1ikn79l",
+   "en": "Command group"
+  },
+  {
+   "k": "1a192x2",
+   "en": "Division"
+  },
+  {
+   "k": "1kdpnrf",
+   "en": "Land units"
+  },
+  {
+   "k": "s6v7w2",
+   "en": "Tank designer"
+  },
+  {
+   "k": "67a45e",
+   "en": "Battle plan"
+  },
+  {
+   "k": "1pcnmim",
+   "en": "Land battle"
+  },
+  {
+   "k": "g2pgjm",
+   "en": "Infantry technology"
+  },
+  {
+   "k": "1rjf55b",
+   "en": "Support companies technology"
+  },
+  {
+   "k": "qg8ocm",
+   "en": "Armor technology"
+  },
+  {
+   "k": "vmbvr7",
+   "en": "without No Step Back"
+  },
+  {
+   "k": "qjz56x",
+   "en": "Artillery technology"
+  },
+  {
+   "k": "1cs1oqe",
+   "en": "Land doctrine"
+  },
+  {
+   "k": "p5a2y1",
+   "en": "Naval warfare"
+  },
+  {
+   "k": "1md36pp",
+   "en": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ (⟦3⟧) • ⟦4⟧ • ⟦5⟧ • ⟦6⟧ (also ⟦7⟧) • ⟦8⟧ • ⟦9⟧",
+   "frags": 10
+  },
+  {
+   "k": "9w638x",
+   "en": "Navy"
+  },
+  {
+   "k": "ccmhen",
+   "en": "Ship"
+  },
+  {
+   "k": "ov8z8s",
+   "en": "Ship designer"
+  },
+  {
+   "k": "1hvovva",
+   "en": "Naval missions"
+  },
+  {
+   "k": "1r6vn7z",
+   "en": "Naval battle"
+  },
+  {
+   "k": "1qb81nb",
+   "en": "Naval technology"
+  },
+  {
+   "k": "pw04bf",
+   "en": "without Man the Guns"
+  },
+  {
+   "k": "1oxxu4y",
+   "en": "Naval support technology"
+  },
+  {
+   "k": "jh80qf",
+   "en": "Naval doctrine"
+  },
+  {
+   "k": "gik2td",
+   "en": "Air warfare"
+  },
+  {
+   "k": "dkfq17",
+   "en": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ • ⟦3⟧ (also ⟦4⟧) • ⟦5⟧ • ⟦6⟧",
+   "frags": 7
+  },
+  {
+   "k": "ep0yao",
+   "en": "Aircraft designer"
+  },
+  {
+   "k": "poltvy",
+   "en": "Air missions"
+  },
+  {
+   "k": "1mfxar5",
+   "en": "Air combat"
+  },
+  {
+   "k": "9cafof",
+   "en": "Air technology"
+  },
+  {
+   "k": "wetszz",
+   "en": "without By Blood Alone"
+  },
+  {
+   "k": "pv8y7",
+   "en": "Air doctrine"
+  },
+  {
+   "k": "1ra2mls",
+   "en": "Missiles"
+  },
+  {
+   "k": "1d3wr3i",
+   "en": "Politics"
+  },
+  {
+   "k": "10glfs6",
+   "en": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ • ⟦3⟧ • ⟦4⟧ • ⟦5⟧ • ⟦6⟧ • ⟦7⟧ • World tension • ⟦8⟧ • ⟦9⟧ • ⟦10⟧",
+   "frags": 11
+  },
+  {
+   "k": "18a2mp",
+   "en": "Ideology"
+  },
+  {
+   "k": "2eq77f",
+   "en": "Faction"
+  },
+  {
+   "k": "m1c2qr",
+   "en": "National focus"
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "zc9cvq",
+   "en": "Government"
+  },
+  {
+   "k": "mntfz",
+   "en": "Puppet"
+  },
+  {
+   "k": "lucq3p",
+   "en": "Governments in exile"
+  },
+  {
+   "k": "1ftjdix",
+   "en": "Diplomacy"
+  },
+  {
+   "k": "kpvo8i",
+   "en": "Civil war"
+  },
+  {
+   "k": "dlbn6i",
+   "en": "Occupation"
+  },
+  {
+   "k": "q2j1tx",
+   "en": "Balance of power"
+  },
+  {
+   "k": "128dyd6",
+   "en": "Production"
+  },
+  {
+   "k": "1winv95",
+   "en": "Trade"
+  },
+  {
+   "k": "j6p9kc",
+   "en": "Construction"
+  },
+  {
+   "k": "1xtq0ev",
+   "en": "Equipment"
+  },
+  {
+   "k": "yq3f6s",
+   "en": "Military industrial organization"
+  },
+  {
+   "k": "iqjybx",
+   "en": "International market"
+  },
+  {
+   "k": "1f6tz4t",
+   "en": "Research and technology"
+  },
+  {
+   "k": "sk9ul6",
+   "en": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ • ⟦3⟧ (also ⟦4⟧) • ⟦5⟧ • ⟦6⟧ • Special forces doctrine • ⟦7⟧ (also ⟦8⟧) • ⟦9⟧ • ⟦10⟧ • ⟦11⟧ (also ⟦12⟧) • ⟦13⟧ • ⟦14⟧ • ⟦15⟧ • Special project • ⟦16⟧",
+   "frags": 17
+  },
+  {
+   "k": "pps2r0",
+   "en": "Research"
+  },
+  {
+   "k": "5qpdw2",
+   "en": "Engineering technology"
+  },
+  {
+   "k": "4fh35j",
+   "en": "Industry technology"
+  },
+  {
+   "k": "1pa6tqp",
+   "en": "Scientist"
+  },
+  {
+   "k": "1chrrlx",
+   "en": "Military and warfare"
+  },
+  {
+   "k": "curxny",
+   "en": "Warfare • ⟦0⟧ • ⟦1⟧ • ⟦2⟧ • ⟦3⟧ • ⟦4⟧ • ⟦5⟧ • ⟦6⟧ • ⟦7⟧ • ⟦8⟧ • ⟦9⟧ • ⟦10⟧ • ⟦11⟧ (⟦12⟧) • ⟦13⟧ • ⟦14⟧ • ⟦15⟧ • ⟦16⟧ • ⟦17⟧ • ⟦18⟧ • ⟦19⟧ • ⟦20⟧ • ⟦21⟧ • ⟦22⟧",
+   "frags": 23
+  },
+  {
+   "k": "1u062g9",
+   "en": "Peace conference"
+  },
+  {
+   "k": "je5emr",
+   "en": "Division designer"
+  },
+  {
+   "k": "6e8jnk",
+   "en": "Army planner"
+  },
+  {
+   "k": "qkms9x",
+   "en": "Commander"
+  },
+  {
+   "k": "1b77qg4",
+   "en": "Combat tactics"
+  },
+  {
+   "k": "1byxumh",
+   "en": "Experience"
+  },
+  {
+   "k": "6hztxg",
+   "en": "Officer corps"
+  },
+  {
+   "k": "o1qgz4",
+   "en": "Attrition and accidents"
+  },
+  {
+   "k": "146p7sg",
+   "en": "Logistics"
+  },
+  {
+   "k": "xmcd8r",
+   "en": "Nuclear bomb"
+  },
+  {
+   "k": "5hwjw1",
+   "en": "Raid"
+  },
+  {
+   "k": "1y7baae",
+   "en": "Espionage"
+  },
+  {
+   "k": "1mkuf87",
+   "en": "Intel"
+  },
+  {
+   "k": "edpl0h",
+   "en": "Intelligence agency"
+  },
+  {
+   "k": "kqpju7",
+   "en": "Operatives"
+  },
+  {
+   "k": "gmp1ge",
+   "en": "Missions"
+  },
+  {
+   "k": "1ahoaq7",
+   "en": "Operations"
+  },
+  {
+   "k": "j1sac1",
+   "en": "Map"
+  },
+  {
+   "k": "wfrlrn",
+   "en": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ • Weather • ⟦3⟧",
+   "frags": 4
+  },
+  {
+   "k": "15zdv1h",
+   "en": "Province"
+  },
+  {
+   "k": "1am2g8e",
+   "en": "Terrain"
+  },
+  {
+   "k": "8awmmu",
+   "en": "State"
+  },
+  {
+   "k": "qusmdm",
+   "en": "Events and Decisions"
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "vwifyo",
+   "en": "Decisions"
+  },
+  {
+   "k": "bkuboy",
+   "en": "Flag of United Kingdom"
+  },
+  {
+   "k": "x4z41b",
+   "en": "Flag of United States"
+  },
+  {
+   "k": "1dbl5b7",
+   "en": "Flag of France"
+  },
+  {
+   "k": "3xiv23",
+   "en": "Flag of Italy"
+  },
+  {
+   "k": "5dkhsc",
+   "en": "Flag of Japan"
+  },
+  {
+   "k": "7u9tvz",
+   "en": "Production cost"
+  },
+  {
+   "k": "1ea4gpw",
+   "en": "Steel"
+  },
+  {
+   "k": "443fm9",
+   "en": "Chromium"
+  },
+  {
+   "k": "8qaq71",
+   "en": "Tungsten"
+  },
+  {
+   "k": "1clblo5",
+   "en": "Engine 1.png"
+  },
+  {
+   "k": "1pgdxng",
+   "en": "Engine 2.png"
+  },
+  {
+   "k": "1vlphm7",
+   "en": "Engine 3.png"
+  },
+  {
+   "k": "9ltg0m",
+   "en": "Engine 4.png"
+  },
+  {
+   "k": "1a8741y",
+   "en": "Sub nuclear engine.png"
+  },
+  {
+   "k": "dpd0zr",
+   "en": "Submarine aip engine 1.png"
+  },
+  {
+   "k": "1g54riy",
+   "en": "Submarine aip engine 2.png"
+  },
+  {
+   "k": "8d7cb1",
+   "en": "Submarine aip engine 3.png"
+  },
+  {
+   "k": "cmtjbl",
+   "en": "Armor thin 1.png"
+  },
+  {
+   "k": "ovtyuw",
+   "en": "Armor thin 2.png"
+  },
+  {
+   "k": "vtfb9n",
+   "en": "Armor thin 3.png"
+  },
+  {
+   "k": "hoty2y",
+   "en": "Armor thin 4.png"
+  },
+  {
+   "k": "va3jzr",
+   "en": "Armor thick 1.png"
+  },
+  {
+   "k": "1qyu13e",
+   "en": "Armor thick 2.png"
+  },
+  {
+   "k": "iep119",
+   "en": "Armor thick 3.png"
+  },
+  {
+   "k": "fyrkwu",
+   "en": "Armor 1.png"
+  },
+  {
+   "k": "yae0zv",
+   "en": "Armor 2.png"
+  },
+  {
+   "k": "z29euw",
+   "en": "Armor 3.png"
+  },
+  {
+   "k": "7fxiza",
+   "en": "Armor thin.png"
+  },
+  {
+   "k": "1id4yxi",
+   "en": "Ship armor ice carrier deck 1.png"
+  },
+  {
+   "k": "uaqo83",
+   "en": "Ship armor ice carrier deck 2.png"
+  },
+  {
+   "k": "nysils",
+   "en": "Ship armor ice carrier deck 3.png"
+  },
+  {
+   "k": "11byiuk",
+   "en": "Light battery 1.png"
+  },
+  {
+   "k": "i28htx",
+   "en": "Light battery 2.png"
+  },
+  {
+   "k": "i8gowi",
+   "en": "Light battery 3.png"
+  },
+  {
+   "k": "w9y437",
+   "en": "Light battery 4.png"
+  },
+  {
+   "k": "qgyvtq",
+   "en": "Dp light battery 1.png"
+  },
+  {
+   "k": "18slbwr",
+   "en": "Dp light battery 2.png"
+  },
+  {
+   "k": "19kgprs",
+   "en": "Dp light battery 3.png"
+  },
+  {
+   "k": "1s5om4d",
+   "en": "Dp light battery 4.png"
+  },
+  {
+   "k": "10bghr9",
+   "en": "Medium light battery 1.png"
+  },
+  {
+   "k": "1dg75sc",
+   "en": "Medium light battery 2.png"
+  },
+  {
+   "k": "1cobrxb",
+   "en": "Medium light battery 3.png"
+  },
+  {
+   "k": "1pfvg92",
+   "en": "Medium light battery 4.png"
+  },
+  {
+   "k": "1ktqwmw",
+   "en": "Dp medium light battery.png"
+  },
+  {
+   "k": "1a3prlh",
+   "en": "Medium battery 1.png"
+  },
+  {
+   "k": "1mys3ks",
+   "en": "Medium battery 2.png"
+  },
+  {
+   "k": "1t43njj",
+   "en": "Medium battery 3.png"
+  },
+  {
+   "k": "747lxy",
+   "en": "Medium battery 4.png"
+  },
+  {
+   "k": "11mqpxv",
+   "en": "Heavy battery 1.png"
+  },
+  {
+   "k": "1pp50na",
+   "en": "Heavy battery 2.png"
+  },
+  {
+   "k": "1ox9ms9",
+   "en": "Heavy battery 3.png"
+  },
+  {
+   "k": "1dpgq6k",
+   "en": "Heavy battery 4.png"
+  },
+  {
+   "k": "1cxlcbj",
+   "en": "Heavy battery 5.png"
+  },
+  {
+   "k": "1o75mcq",
+   "en": "Secondary battery 1.png"
+  },
+  {
+   "k": "sif593",
+   "en": "Secondary battery 2.png"
+  },
+  {
+   "k": "1hdt5b0",
+   "en": "Dp secondary battery 1.png"
+  },
+  {
+   "k": "14iqtbp",
+   "en": "Dp secondary battery 2.png"
+  },
+  {
+   "k": "1541t4y",
+   "en": "Dp secondary battery 3.png"
+  },
+  {
+   "k": "1chyexv",
+   "en": "Dp secondary battery 4.png"
+  },
+  {
+   "k": "qsryl3",
+   "en": "Anti air 1.png"
+  },
+  {
+   "k": "1mhifoq",
+   "en": "Anti air 2.png"
+  },
+  {
+   "k": "et3o4d",
+   "en": "Anti air 3.png"
+  },
+  {
+   "k": "1o8a89k",
+   "en": "Anti air 4.png"
+  },
+  {
+   "k": "rmu7ea",
+   "en": "Ship torpedo launcher 1.png"
+  },
+  {
+   "k": "13thahr",
+   "en": "Ship torpedo launcher 2.png"
+  },
+  {
+   "k": "14lcocs",
+   "en": "Ship torpedo launcher 3.png"
+  },
+  {
+   "k": "1mtxe1l",
+   "en": "Ship torpedo launcher 4.png"
+  },
+  {
+   "k": "s21iw8",
+   "en": "Sub torpedo launcher 1.png"
+  },
+  {
+   "k": "f6z6wx",
+   "en": "Sub torpedo launcher 2.png"
+  },
+  {
+   "k": "f3j1xq",
+   "en": "Sub torpedo launcher 3.png"
+  },
+  {
+   "k": "1ttszl3",
+   "en": "Sub torpedo launcher 4.png"
+  },
+  {
+   "k": "cl2djh",
+   "en": "Ship torpedo sub nuclear.png"
+  },
+  {
+   "k": "mignyt",
+   "en": "Radar 1.png"
+  },
+  {
+   "k": "zdgscc",
+   "en": "Radar 2.png"
+  },
+  {
+   "k": "zdv6xb",
+   "en": "Radar 3.png"
+  },
+  {
+   "k": "1cf37au",
+   "en": "Radar 4.png"
+  },
+  {
+   "k": "etkf6m",
+   "en": "Sonar 1.png"
+  },
+  {
+   "k": "x56v9n",
+   "en": "Sonar 2.png"
+  },
+  {
+   "k": "13g8q4x",
+   "en": "Submarine snorkel 1.png"
+  },
+  {
+   "k": "1fp95o8",
+   "en": "Submarine snorkel 2.png"
+  },
+  {
+   "k": "s8tqu6",
+   "en": "Basic fire control system.png"
+  },
+  {
+   "k": "1fei0n7",
+   "en": "Fire control system 1.png"
+  },
+  {
+   "k": "1wn816e",
+   "en": "Fire control system 2.png"
+  },
+  {
+   "k": "3rfj61",
+   "en": "Fire control system 3.png"
+  },
+  {
+   "k": "1s4x3c4",
+   "en": "Depth charge 1.png"
+  },
+  {
+   "k": "17u56m5",
+   "en": "Depth charge 2.png"
+  },
+  {
+   "k": "acgj7u",
+   "en": "Depth charge 3.png"
+  },
+  {
+   "k": "oh1wej",
+   "en": "Depth charge 4.png"
+  },
+  {
+   "k": "qug3pc",
+   "en": "Minelaying rails.png"
+  },
+  {
+   "k": "1d5uxme",
+   "en": "Minelaying tubes.png"
+  },
+  {
+   "k": "1uonfg0",
+   "en": "Minesweeping gear.png"
+  },
+  {
+   "k": "1txswgn",
+   "en": "Airplane launcher 1.png"
+  },
+  {
+   "k": "qlfbl6",
+   "en": "Airplane launcher 2.png"
+  },
+  {
+   "k": "umuotz",
+   "en": "Deck space.png"
+  },
+  {
+   "k": "1smquqh",
+   "en": "Big ship deck space.png"
+  },
+  {
+   "k": "1sprxkj",
+   "en": "Submarine anechoic tile 1.png"
+  },
+  {
+   "k": "qko68r",
+   "en": "Rubber"
+  },
+  {
+   "k": "1mfa9bz",
+   "en": "Light battery.png"
+  },
+  {
+   "k": "164j4xm",
+   "en": "Fuel tank.png"
+  },
+  {
+   "k": "1ig0jve",
+   "en": "Sub missile launcher.png"
+  },
+  {
+   "k": "wit4ky",
+   "en": "Sub slbm launcher.png"
+  }
+ ]
+}

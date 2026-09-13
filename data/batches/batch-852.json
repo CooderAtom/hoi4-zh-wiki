@@ -1,0 +1,873 @@
+{
+ "batch": 852,
+ "pages": [
+  "Patch 1.12.X"
+ ],
+ "chars": 14940,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "fone9u",
+   "en": "⟦0⟧ are all patches beginning with 1.12.",
+   "frags": 1
+  },
+  {
+   "k": "zkrerh",
+   "en": "Patch 1.12.X"
+  },
+  {
+   "k": "1hn9zmi",
+   "en": "Main article: Patch 1.12"
+  },
+  {
+   "k": "wlm1z",
+   "en": "Patch 1.12.2 was released on 2022-09-30⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "lbyx20",
+   "en": "e45c"
+  },
+  {
+   "k": "kxxksr",
+   "en": "Balance"
+  },
+  {
+   "k": "1bf64b7",
+   "en": "increased thrust of late game engines, balance multiengine thrust, Improved SE.100 template engine"
+  },
+  {
+   "k": "1j4em63",
+   "en": "Increased Transport plane IC cost 4>20"
+  },
+  {
+   "k": "18ujpiw",
+   "en": "Minors and Puppets will now go back to trying to support their faction members with warscore, rather than striking out on their own. Silesia and Kashubia are now considered unlikely tags to be released."
+  },
+  {
+   "k": "xl4w04",
+   "en": "Reduced speed gain from excess thrust"
+  },
+  {
+   "k": "1jcnofx",
+   "en": "guided anti ship missile module is now unlocked by advanced rocket tech"
+  },
+  {
+   "k": "1v567g5",
+   "en": "balance pass on thrust and ic cost for engines"
+  },
+  {
+   "k": "7ijmj4",
+   "en": "Increased base point calculation for winners in peace conference by 10% of base. This should result in fewer instances where original countries are left around. Several cost modifiers have been altered which should also result in it being slightly less expensive to make full demands in ordinary circumstances."
+  },
+  {
+   "k": "1xdwyo3",
+   "en": "Soviet Union prioritizes upgrading manpower over blowing up railways now"
+  },
+  {
+   "k": "9m30fv",
+   "en": "Modding"
+  },
+  {
+   "k": "1tb5kgu",
+   "en": "Civil war can get complicated regarding characters. Add keep_all_characters parameter to start_civil_war effect. Target country will keep all characters, none will be transfered to revolter. It's then up to script to do the full dispatch of the characters."
+  },
+  {
+   "k": "mp1saw",
+   "en": "Bugfix"
+  },
+  {
+   "k": "2x74ok",
+   "en": "Fixed wrong speed modifier calculation in special cases for armies."
+  },
+  {
+   "k": "jtt4o5",
+   "en": "GiE templates no longer transferred to new country when releasing or through peace conferences"
+  },
+  {
+   "k": "hyiybr",
+   "en": "Changed a leader trait depending if LaR is installed or not"
+  },
+  {
+   "k": "17aelvb",
+   "en": "Fixed wrong description for SwapIdeas Effect, when same category of bonuses are defined both in the idea and the idea's trait."
+  },
+  {
+   "k": "137lhx5",
+   "en": "Added a loc string to every language file"
+  },
+  {
+   "k": "fwshvf",
+   "en": "Changed Italy's ai strategy, so they shouldn't lose to Yugoslavia. Also rearranged the strategy plan for Balbo slightly"
+  },
+  {
+   "k": "7sovjt",
+   "en": "Italy has an ai atrategy that will be able to withstand the Yugoslavian onslaught and push them back and even conquer them"
+  },
+  {
+   "k": "al264q",
+   "en": "Fix freedom level calculations when creating a new puppet with an autonomous state allowing no other autonomous states than itself"
+  },
+  {
+   "k": "1mx4lrp",
+   "en": "Independence focuses in the Italian Civil War branches now requires Italy to not be at war at all."
+  },
+  {
+   "k": "jci98x",
+   "en": "Fix the supply consumption stat in the plane designer. It now displays the value for a full air-wing."
+  },
+  {
+   "k": "1s0miwn",
+   "en": "Fixed scope issues in remove triggers for several state modifiers."
+  },
+  {
+   "k": "1uhma9j",
+   "en": "Fixed issue in which Italian marine 3D models did not have an MG weapon with the latest infantry equipment tech researched."
+  },
+  {
+   "k": "1i16lgj",
+   "en": "Fixing missing description for Focus 'Total Defense' in Switzerland."
+  },
+  {
+   "k": "19a6jvj",
+   "en": "Fixing initial positioning of Switzerland's Focus Tree"
+  },
+  {
+   "k": "1ggcfm5",
+   "en": "No plane templates without BBA dlc"
+  },
+  {
+   "k": "19bubup",
+   "en": "Added missing Remove Times in Absolute Neutrality Decisions in Switzerland"
+  },
+  {
+   "k": "1xsu1ct",
+   "en": "Removing Political Power Cost from Back channel Negotiations in Switzerland"
+  },
+  {
+   "k": "1l5liii",
+   "en": "Changed 'Reclaiming Ethiopia' focus condition so that Ethiopa (or an ally) only needs to control any Ethiopian state to allow the focus"
+  },
+  {
+   "k": "jmwyr9",
+   "en": "Decision Show of Defensive Force in Switzerland now gives the correct modifier."
+  },
+  {
+   "k": "18j1et",
+   "en": "Corporatist trait now reduces Democracy instead of increasing Fascism."
+  },
+  {
+   "k": "zq29o3",
+   "en": "Changed Rally Workers Decision so it doesn't increase Communism."
+  },
+  {
+   "k": "1var71q",
+   "en": "Danzig for guarantees now correctly gives cores on Gdynia again"
+  },
+  {
+   "k": "v4lscj",
+   "en": "Fixed icon for Eidgenoissiche F+W in the air designer"
+  },
+  {
+   "k": "1fiyl3y",
+   "en": "Removed a DLC lock requiring NSB for a decision category so that Poland actually gets a reward for completing 2 separate focuses"
+  },
+  {
+   "k": "rjcpuf",
+   "en": "Fixed an instance where Expand military staff did not show up"
+  },
+  {
+   "k": "lizf7t",
+   "en": "List of names for generating Swiss characters expanded."
+  },
+  {
+   "k": "115npjs",
+   "en": "the Spanish Civil war now ends even if for some reason more than one Spain survives and are at peace with each other"
+  },
+  {
+   "k": "10mfdjy",
+   "en": "Dismiss council tooltip should now target the incoming president and not the current one"
+  },
+  {
+   "k": "2poom9",
+   "en": "Preventing overflow in war score when lendleasing too much fuel"
+  },
+  {
+   "k": "1fldtvx",
+   "en": "DFC console command no longer causes countries to capitulate forever, every day that they are alive"
+  },
+  {
+   "k": "vv3k85",
+   "en": "Polish general Wincenty Kowalski now uses his new portrait from No Step Back."
+  },
+  {
+   "k": "bjhh67",
+   "en": "LoN non interference correctly removed when Ethiopia get peace"
+  },
+  {
+   "k": "1o1q6qt",
+   "en": "Certain political branches in the Italian Focus Tree will now hide if they are no longer relevant when custom game rule \"Show obsolete branches in Focus Tree\" is set to \"Hide\"."
+  },
+  {
+   "k": "zy9eif",
+   "en": "Italian Monarchist and Christian Democrat AIs will now be more inclined to ban fascism"
+  },
+  {
+   "k": "akrzvm",
+   "en": "Ethiopian states will go to the fascist side of the Italian civil war if Italy is still fighting a war in Ethiopia when the focus Defy the Duce is completed and the civil war starts."
+  },
+  {
+   "k": "1ubj62d",
+   "en": "Germany can now invite Poland into its faction after successfully trading Danzig for Slovakia"
+  },
+  {
+   "k": "1ben837",
+   "en": "Added a missing state to Bulgaria's \"Dominance of the Black Sea\""
+  },
+  {
+   "k": "1y0phlu",
+   "en": "Added a national focus to Soviet's historical ai strategy so that it can approach Germany and complete its strategy"
+  },
+  {
+   "k": "17o64de",
+   "en": "Fixed some 3D planes not showing up in-game."
+  },
+  {
+   "k": "kmxcm2",
+   "en": "Fixed state of Afar not being included in the arrangement when Italy withdraws from Ethiopia."
+  },
+  {
+   "k": "fgamir",
+   "en": "Fixed issue where Equipment and Experience would be lost when turning Swiss Citizen Militias into Regular Infantry."
+  },
+  {
+   "k": "1pmy26l",
+   "en": "Fix create_operative_leader effect so that triggers with character scope using the resulting operative leaders work properly (ex: can_gain_xp in traits for operatives)"
+  },
+  {
+   "k": "1jjuea6",
+   "en": "Fixed Balance of Power requirements in Historical Focuses."
+  },
+  {
+   "k": "dnrm9",
+   "en": "Fixed issues with character split in Italian civil wars."
+  },
+  {
+   "k": "1bwn2ia",
+   "en": "Fixed typo in Swiss Infantry Divisions."
+  },
+  {
+   "k": "18fw8ow",
+   "en": "The Italian AI should not push as hard when wanting to discredit Mussolini"
+  },
+  {
+   "k": "eagbbe",
+   "en": "Fix crash at the end of peace conference when player is in observer mode"
+  },
+  {
+   "k": "13yi947",
+   "en": "Fixed minor typos in two Italian focuses and in Vittorio Emanuele's National Spirit description."
+  },
+  {
+   "k": "1696mhj",
+   "en": "Italian focus The New Emperor of Ethiopia now grants some ideology support for Non-Aligned."
+  },
+  {
+   "k": "qrdb6f",
+   "en": "Iberian countries should no longer be rude and leave the Italian faction after deciding to join it via the Italian focus Iberian Protection."
+  },
+  {
+   "k": "1ewcy9j",
+   "en": "Italian civil war cosmetic tags Republica Sociale Italiana and Regno del Sud now use the appropriate flags."
+  },
+  {
+   "k": "w42dcr",
+   "en": "Ethiopia can no longer use Arms Purchases decisions when the LoN has become inactive"
+  },
+  {
+   "k": "hmpwx",
+   "en": "Adjusted the likelihood for the AI to accept giving territory to Switzerland across all branches."
+  },
+  {
+   "k": "17mkjuk",
+   "en": "Adjusted the time it takes for the incompetent Councilor to be assigned, made it so it wouldn't trigger once Switzerland is centralized."
+  },
+  {
+   "k": "27z9e5",
+   "en": "Reduced the Political Power penalty for the incompetent Councilor in Switzerland."
+  },
+  {
+   "k": "1qgvggy",
+   "en": "The Balance of Power is now removed once Rudolf Henne takes power in Switzerland."
+  },
+  {
+   "k": "7now9b",
+   "en": "Removed conditions related to Balance of Power towards the end of the Fascist Branch of the Swiss Focus Tree."
+  },
+  {
+   "k": "1krtgnn",
+   "en": "Changed the Spirit of Helvetia Entrenchment Modifier to Entrenchment Factor in Switzerland."
+  },
+  {
+   "k": "1wjduot",
+   "en": "Councilors in Switzerland do not change the Balance of Power when hired after the Balance of Power is no longer relevant."
+  },
+  {
+   "k": "1kg7t7i",
+   "en": "Fixed bug where Political Advisors couldn't be removed after centralizing Switzerland."
+  },
+  {
+   "k": "eaq1pl",
+   "en": "don't send countries into exile in a country that is not major"
+  },
+  {
+   "k": "e26wb0",
+   "en": "New Zealand now gets their tac bombers from the NZPAF if they have BBA enabled"
+  },
+  {
+   "k": "8dbgn6",
+   "en": "Hungary will bypass 'Join the Comintern' focus if they're already in a faction with Soviet"
+  },
+  {
+   "k": "168yd5",
+   "en": "Changed the condition that Yugoslavia only needs to own a state to that they need to control the state to add improvements there"
+  },
+  {
+   "k": "6mqhwb",
+   "en": "Fixed AI weights for occupation laws. They will now follow resistance levels more appropriately"
+  },
+  {
+   "k": "l03tff",
+   "en": "Italy starts now with a production line for Ca.111 so that the initial wing at half-strength gets eventually fully reinforced"
+  },
+  {
+   "k": "gc7jsh",
+   "en": "Fixed the event sent to France when Germany integrates Alsace-Lorraine to be sent to the Franco-British Union instead if that exists"
+  },
+  {
+   "k": "au2xh3",
+   "en": "correctly end paradrop mission after units are delivered"
+  },
+  {
+   "k": "s7yfhp",
+   "en": "Flags for democratic Italian Empire updated with correct images"
+  },
+  {
+   "k": "nqcpw0",
+   "en": "Losers in peace conference reset GiE status and rechecks major status"
+  },
+  {
+   "k": "dbud80",
+   "en": "Gdynia now becomes a German core if ceeded by Poland in Danzig For Slovakia"
+  },
+  {
+   "k": "1egoct6",
+   "en": "The capitulation of Germany will now make Republica Sociale Italiana to become free and take over the Axis if they were a German puppet."
+  },
+  {
+   "k": "1rcdw32",
+   "en": "The Netherlands now bypasses either \"Protect against Britain\" or \"Germany is the Greater Threat\" if its in a faction with the country in question."
+  },
+  {
+   "k": "176f5qs",
+   "en": "Fixed issue where AI Switzerland would not train any Militias."
+  },
+  {
+   "k": "5hfm7f",
+   "en": "Fixed issue where AI Switzerland would build a Silo that it doesn't need right away."
+  },
+  {
+   "k": "phpxg",
+   "en": "Adjusted some AI weights in Switzerland."
+  },
+  {
+   "k": "yv7qsz",
+   "en": "Compliance discount for peace actions now applies to all types of peace actions and not just Take States"
+  },
+  {
+   "k": "1wnmwuv",
+   "en": "Fixed issue where Swiss Focus would not show effects after completion."
+  },
+  {
+   "k": "1nr4m4m",
+   "en": "Foreign countries can now properly get rid of the mafia state modifier in their controlled states."
+  },
+  {
+   "k": "10lpetl",
+   "en": "Fixed Suez canal being locked for antifascist Italy if Fascist Italy was sanctioned by the League of Nations"
+  },
+  {
+   "k": "gqloa0",
+   "en": "Officine Mechanice will no longer be visible if BBA dlc is not active."
+  },
+  {
+   "k": "1qsid06",
+   "en": "Fixed minor typo in Italian Tankettes focus"
+  },
+  {
+   "k": "1eu2k49",
+   "en": "Fixed issue preventing the Italian Blackshirts branch (Security Militias) from being available if BBA was not enabled."
+  },
+  {
+   "k": "owiop",
+   "en": "His Holiness will no longer demand Palestine to himself."
+  },
+  {
+   "k": "1gvfa5q",
+   "en": "Fixed typo in War Escalation tooltip."
+  },
+  {
+   "k": "1qi2gci",
+   "en": "Sylvia Pankhurst should now have a portrait without MtG DLC if you are playing as Ethiopia"
+  },
+  {
+   "k": "11x90c",
+   "en": "Added war escalation variable to Ethiopia when BBA is not enabled. Allows war escalation to continue functioning as expected for Italy."
+  },
+  {
+   "k": "1m9jicu",
+   "en": "Fixed a few Italian Generals getting generic advisor portraits when promoted."
+  },
+  {
+   "k": "hrdnyf",
+   "en": "Fixed broken advisor portrait when promoting Ethiopian General Nasibu Zeamanuel"
+  },
+  {
+   "k": "s1h63r",
+   "en": "Added a requirement for capital to be a core state when inviting members to the Organization of African Unity. This prevents countries like Belgium being eligible when they capitulate and move their capital to Africa."
+  },
+  {
+   "k": "zfarkx",
+   "en": "Fixed issue where Germany would not get opinion modifier from Switzerland in Frankfurter case"
+  },
+  {
+   "k": "158mgdt",
+   "en": "Italian missions Conquer Northern Ethiopia and Conquer Southern Ethiopia should no longer fail if Ethiopia is defeated and puppeted while active."
+  },
+  {
+   "k": "qpo0ga",
+   "en": "Fixed issue in Italian mission Pacify Ethiopia checking for 70% Compliance in Ethiopia instead of the promised 60%"
+  },
+  {
+   "k": "ppgqnc",
+   "en": "Fixed issue where Show Defensive Force decision in Switzerland deducts its cost at the end and not the beginning."
+  },
+  {
+   "k": "wqwfxu",
+   "en": "heavy mg air tech is now correctly located in the tch tree"
+  },
+  {
+   "k": "9th9p2",
+   "en": "Fixed issue where Citizen Militia Dynamic Modifiers were not properly removed from Switzerland when Militias are turned into regulars."
+  },
+  {
+   "k": "i7wrip",
+   "en": "Fixed stacking of enemy air superiority modifiers in land combat when multiple countries are at war with the country."
+  },
+  {
+   "k": "18r5v7p",
+   "en": "Fixed fullscreen setting triggering weird monitor resolution changes and weird UI selection on DX11"
+  },
+  {
+   "k": "1vxexde",
+   "en": "Fixed issue where player couldn't trigger the emergency president event through decisions."
+  },
+  {
+   "k": "1dft9jg",
+   "en": "DX11 should now handle failure to create textures more gracefully. You should still probably update your drivers..."
+  },
+  {
+   "k": "dtpxii",
+   "en": "Switzerland: Added a few compliance bonuses in alt ideology branches to compensate for the big loss of compliance every time ideology is changed."
+  },
+  {
+   "k": "hfntgm",
+   "en": "Removed DLC locked sounds for Planes in BBA. Replaced using Base Game sounds. This should fix a common error log in live build"
+  },
+  {
+   "k": "gcgc80",
+   "en": "Capitulating England (or other majors) will no longer cause them to go into exile in Canada. They would rather die."
+  },
+  {
+   "k": "nsk8pd",
+   "en": "Patch 1.12.3 was released on 2022-10-06⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1evppdu",
+   "en": "6b16"
+  },
+  {
+   "k": "239cto",
+   "en": "Some minor balance fixes for outdated focuses"
+  },
+  {
+   "k": "1cbwo08",
+   "en": "Minor balance of subpar focuses"
+  },
+  {
+   "k": "193jjvv",
+   "en": "Minor balance changes. Railway focuses that only give railways should now also give another bonus as compensation"
+  },
+  {
+   "k": "1pmaqka",
+   "en": "Increased Air Wing damage bonus from speed advantage"
+  },
+  {
+   "k": "1ufhoo4",
+   "en": "Decreased org loss from air borne air drops from 90% org loss to 60% org loss"
+  },
+  {
+   "k": "1dwxnyp",
+   "en": "More peace conference AI improvements. Ai should now be less willing to perform different actions on the same bucket of states"
+  },
+  {
+   "k": "1sxlf9e",
+   "en": "Main IC cost for planes moved from airframes to engines"
+  },
+  {
+   "k": "upu45u",
+   "en": "Updated hitprofile calculation to include speed base modifiers"
+  },
+  {
+   "k": "7egf1v",
+   "en": "Shortened a few Ethiopian Industrial focuses to 35 days, and changed the requirements for the Develop Shewa focus."
+  },
+  {
+   "k": "1hcou8n",
+   "en": "Reduced cannon 2 air attack, increased weight of naval attack modules, reduced air defence stat modules"
+  },
+  {
+   "k": "l2a6to",
+   "en": "Limited small airframes to 1 anti shipping missile"
+  },
+  {
+   "k": "kb3d87",
+   "en": "Naval targeting from weapons is now an average stat, range from drop tanks and armour is now multiplicative"
+  },
+  {
+   "k": "18msncd",
+   "en": "Decreased 4x lmg module weight"
+  },
+  {
+   "k": "65qlwm",
+   "en": "Increased the penalty limit for having the Swiss Militias Deployed"
+  },
+  {
+   "k": "112fts2",
+   "en": "Small adjustments to Swiss National Spirits 'Aktion Nationaler Widerstand' and 'Reduced Training Age'."
+  },
+  {
+   "k": "jgvmgk",
+   "en": "Modified cost of retaking Vichy territory for France"
+  },
+  {
+   "k": "e8pxdq",
+   "en": "Adjusted focus unlock times for Fascist Path."
+  },
+  {
+   "k": "1h83hpk",
+   "en": "Stability & Performance"
+  },
+  {
+   "k": "5twfo2",
+   "en": "Fixed CTD when showing resources with invalid ownership."
+  },
+  {
+   "k": "fvtuy8",
+   "en": "Further Peace Conference AI balance changes, unaligned nations will now mostly embrace Empire, and take land for themselves. England now has a slight preference for coastal regions. AI is slightly less keen on multi-puppeting in multi-faction scenarios"
+  },
+  {
+   "k": "1ec2cgc",
+   "en": "Added VRAM usage to the ingame profiler UI"
+  },
+  {
+   "k": "1sosb6g",
+   "en": "Fixed failure to create DX11 device on Windows 7 without KB 2670838. For the love of god please run windows update."
+  },
+  {
+   "k": "1coyrq0",
+   "en": "Reduced VRAM usage by making sure the game will only load the fonts required to display the chosen game language."
+  },
+  {
+   "k": "emfnkz",
+   "en": "Germany no longer feels the need to ships armies to east africa in full view of ENG"
+  },
+  {
+   "k": "11h8542",
+   "en": "Adding on_peaceconference_started action"
+  },
+  {
+   "k": "tttvs7",
+   "en": "Added fallback state targets for a number of Italian focuses building factories in case they are already using all building slots."
+  },
+  {
+   "k": "yn7rrg",
+   "en": "Fixed some cases in which Italian focuses would build factories in states without checking for Italian control over them."
+  },
+  {
+   "k": "uz7076",
+   "en": "Cze AI can now go alt history"
+  },
+  {
+   "k": "ztjnbt",
+   "en": "Luis Maria Martinzez is now avaiable again"
+  },
+  {
+   "k": "2v6ag7",
+   "en": "Communist USA can no longer annex the entirety of the Soviet union and be at peace by not joining the call to arms"
+  },
+  {
+   "k": "wjrmu",
+   "en": "Moved port close to Hamburg closer to inland so that you can see which province its in"
+  },
+  {
+   "k": "10gpurr",
+   "en": "Added images for Ethiopian medals"
+  },
+  {
+   "k": "1bq2bfr",
+   "en": "Added bypasses to several German focuses if Germany is already in a faction and is not the faction leader; they shouldn't be able to invite other countries into the Faction"
+  },
+  {
+   "k": "1fqo3fo",
+   "en": "Fixed issue with Italian Occupation of Ethiopia decision category preventing decisions related to electrify states from showing up if Ethiopia had capitulated before going into exile."
+  },
+  {
+   "k": "1f3gsvv",
+   "en": "Fix for Republican Spain on historic focuses post civil war has no cores"
+  },
+  {
+   "k": "16fldzy",
+   "en": "Fix low probability CTD when a hull, chassis or airframe research completes and multiple equipment variants are auto-upgraded to it."
+  },
+  {
+   "k": "ilrk5r",
+   "en": "Fixed bug where decision to form the Holy Roman Empire wasn't granting Ticino."
+  },
+  {
+   "k": "1n5gxog",
+   "en": "You can now pick Unite our nations and Finno-estionian supremacy league again"
+  },
+  {
+   "k": "lejnzm",
+   "en": "Italy can now negotiate colonial claims with Ethiopia's host nation"
+  },
+  {
+   "k": "13o15gv",
+   "en": "Fixed bug where Vojvodina annexed Hungary"
+  },
+  {
+   "k": "1hntlwo",
+   "en": "Achievement Not Today now shows a previously invisible trigger."
+  },
+  {
+   "k": "1wslp2p",
+   "en": "Fixed issue in You Shall Not Pass Achievement making it available regardless of Switzerland winning a defensive war or an offensive one."
+  },
+  {
+   "k": "3150qt",
+   "en": "Cohesion settings should no longer cause some units to refuse to move to the frontline, however units may relocate somewhat further if they drop behind a swift advance. Incidentally fixed idle unit recognition for army group orders."
+  },
+  {
+   "k": "6cr3os",
+   "en": "The treaty of Brussels now has a description again"
+  },
+  {
+   "k": "1j1rbr4",
+   "en": "Call of Hungary for support as Sweden is no longer listed under the \"Support China\" category"
+  },
+  {
+   "k": "1rwc8pb",
+   "en": "Charles Lindbergh should have his portrait back"
+  }
+ ]
+}

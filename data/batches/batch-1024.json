@@ -1,0 +1,576 @@
+{
+ "batch": 1024,
+ "pages": [
+  "Patch 1.5.X"
+ ],
+ "chars": 9882,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1aniqym",
+   "en": "\"\"Break the Anglo-French Colonial Hegemony\"\" focus now also correctly gives claims on Palau, Papua, and Samoa."
+  },
+  {
+   "k": "wdx23m",
+   "en": "\"\"Reinstate Imperial Possessions\"\" and \"\"Reintegrate Luxemburg and Alsace-Lorraine\"\" focuses are now also available if France is puppeted or if Germany owns Alsace-Lorraine."
+  },
+  {
+   "k": "1xxm5ld",
+   "en": "\"\"Reinstate Imperial Possessions\"\" and \"\"Reintegrate Luxemburg and Alsace-Lorraine\"\" focuses now rename Alsace-Lorraine to Elsass-Lothringen, Strasbourg to Strassburg, and Mulhouse to Mulhausen."
+  },
+  {
+   "k": "fovwtg",
+   "en": "Greater Hungary can no longer be formed if Austria-Hungary was formed via the \"\"Rekindle Imperial Sentiment\"\"-spawned decision."
+  },
+  {
+   "k": "7hsf0m",
+   "en": "Fixed panzer_leader trait not gaining xp if a non-armor unit was participating in the combat. Now it gains xp if more than 40% of the army under the leader control's is armored at the time of the combat."
+  },
+  {
+   "k": "1enj0mq",
+   "en": "Reworked the AI's pathfinding algorithms, so it should now take more reasonable routes, when it comes to combinations of land and naval transportations."
+  },
+  {
+   "k": "1339xe2",
+   "en": "The battle plan window is now hidden in naval and air map mode."
+  },
+  {
+   "k": "wg01s7",
+   "en": "Fixed drag and drop causing 'new army' portrait to ignore clicks"
+  },
+  {
+   "k": "4jpfxv",
+   "en": "Added temporary penalty for assigning airplanes to a new region or receiving reinforcements."
+  },
+  {
+   "k": "11epc0e",
+   "en": "It's no longer possible to capture naval/air equipment when it gets destroyed in land combat."
+  },
+  {
+   "k": "1g5dwv",
+   "en": "More fixes in the texts translations."
+  },
+  {
+   "k": "e9vjwe",
+   "en": "Fixed a wrong tooltip in Manchukuo Five People Armies focus."
+  },
+  {
+   "k": "1rmyj1h",
+   "en": "Fixed two wrong cavalry division names in British name lists."
+  },
+  {
+   "k": "45jlzd",
+   "en": "\"Danzig for Guarantees\" now renames Poznan to Posen, if accepted."
+  },
+  {
+   "k": "4o7fe9",
+   "en": "Added bypasses for \"Align Hungary\" and \"Align Romania\" focuses, if they are in Germany's faction."
+  },
+  {
+   "k": "1x4jmk9",
+   "en": "\"Reinstate Imperial Possessions\" and \"Reintegrate Luxemburg and Alsace-Lorraine\" now also transfer Alsace-Lorraine to Germany."
+  },
+  {
+   "k": "1w73f4m",
+   "en": "Nuking now uses the highest VP in the state when calculating war support penalty instead of specific province nuked. Multiplier from infrastructure is now calculated before they are destroyed."
+  },
+  {
+   "k": "4nuc4r",
+   "en": "Drawing defensive orders now takes army groups into account when counting divisions, so it displays the correct number of divisions that will be assigned."
+  },
+  {
+   "k": "p6qf66",
+   "en": "Fixed tooltip of panzer_leader trait for the xp gain."
+  },
+  {
+   "k": "1dw0c0",
+   "en": "Fixed cancel_trigger for timed decisions not removing, but instead executing remove_effect if the mission was completed."
+  },
+  {
+   "k": "1gyrpee",
+   "en": "Fixed guaranteeing nations not being auto-called into war when neither the guaranteeing country nor the attacking country are in factions."
+  },
+  {
+   "k": "npv9rm",
+   "en": "Yalta Conference event now should allocate correct states to DDR and Poland."
+  },
+  {
+   "k": "1g56494",
+   "en": "MEFO bills now gives a 20% construction speed bonus to military factories, dockyards, forts and coastal forts, air and naval bases, AA buildings, and Radar stations, instead of -20% consumer goods."
+  },
+  {
+   "k": "szx6vk",
+   "en": "MEFO bills now renew every 180 days instead of every 90 days."
+  },
+  {
+   "k": "1vqmpsn",
+   "en": "MEFO bills - Slightly increased the base political power cost and the political power cost ramp-up."
+  },
+  {
+   "k": "6grrca",
+   "en": "Unaligned Germany now loses MEFO bills when the German civil war begins (but is not required to pay for them). MEFO bills and mission are now transferred to the Nazi side of the civil war."
+  },
+  {
+   "k": "1s918l8",
+   "en": "Unaligned/Democratic Germany now gets a temporary \"Rebuild the Nation\" National Spirit that gives -20% consumer goods bonus for 365 days, when completing the \"Rebuild the Nation\" national focus."
+  },
+  {
+   "k": "11iuj42",
+   "en": "\"Rebuild the Nation\" national focus now takes 70 days to complete, up from 35 days."
+  },
+  {
+   "k": "1imyvy6",
+   "en": "Previous \"Rebuild the Nation\" national spirit has now been renamed to \"National Revitalization\"."
+  },
+  {
+   "k": "1kgfbjz",
+   "en": "Fix issue where scripted events that try to add countries to a civil war were silently doing nothing if world tension is too low. The world tension check should not automatically apply to scripted events; the country should just be directly added to the war, which is now once again the case."
+  },
+  {
+   "k": "1yish6k",
+   "en": "Fixed nuke events referencing the wrong states/leaders."
+  },
+  {
+   "k": "1xfy313",
+   "en": "Fixed a spelling error in a tooltip for Attaches."
+  },
+  {
+   "k": "1p1gblf",
+   "en": "Fixed navy leaders not gaining xp."
+  },
+  {
+   "k": "13igres",
+   "en": "Fixed a news event referencing a Hungarian king that didn't necessarily exist."
+  },
+  {
+   "k": "eletzb",
+   "en": "Added an appropriate Apostrophe to King's Own Cavalry division."
+  },
+  {
+   "k": "pixugv",
+   "en": "Warlords that have inherited the Incompetent Officer national spirit from Nationalist China can now take the decision to get rid of it."
+  },
+  {
+   "k": "el8iah",
+   "en": "The Japanese kodoha national focus path will now only invite Japan to the axis once."
+  },
+  {
+   "k": "1h24nsw",
+   "en": "Countries on the winning side of a war but occupied by a different faction can no longer be marked as untouched, allowing them to be annexed or puppeted by the occupiers even if the actual enemies never did any damage to them."
+  },
+  {
+   "k": "1hm3ofc",
+   "en": "Unit leaders go into cooldown when you disband the army now."
+  },
+  {
+   "k": "uawig5",
+   "en": "Capped minimum supply consumption to 0.05, so it's no longer possible to get it negative and suffer huge penalties."
+  },
+  {
+   "k": "6khiax",
+   "en": "Forced countries entering into a dependency relation to cancel any war relation they have between them."
+  },
+  {
+   "k": "vpf6ga",
+   "en": "Fixed the Call Ally diplomatic action to have the recipient join the correct war."
+  },
+  {
+   "k": "q7bjku",
+   "en": "Clarified Treaty with USSR\" requiring \"Anti-Soviet Pact\" to not have been taken."
+  },
+  {
+   "k": "h9ck9v",
+   "en": "Army group orders now does not mention number of unit information in them."
+  },
+  {
+   "k": "3u0680",
+   "en": "Made the call ally tooltip properly indicate when a civil war is not joinable by an ally due to low world tension, just as it already does for the other country if they want to initiate a join war action."
+  },
+  {
+   "k": "83itwb",
+   "en": "Call to war and join war actions in the diplomacy screen no longer show every individual war relation in the list of wars, but just the primary one."
+  },
+  {
+   "k": "1xn0sud",
+   "en": "Allowed a country to be invited into peace conferences even if some of their faction allies are at war with the winners of the war, as long as the country being invited is at peace with all the winners and at war with the losers."
+  },
+  {
+   "k": "mgwigv",
+   "en": "Fixed a bug that caused a navy leaders not gaining experience."
+  },
+  {
+   "k": "1ohnenc",
+   "en": "Fixed killing encircled units not giving intended amount of flat experience gain."
+  },
+  {
+   "k": "1lyafnj",
+   "en": "3d model viewer > Camera moves a bit towards up when you zoom into the model."
+  },
+  {
+   "k": "sidsjg",
+   "en": "3d model viewer > multiple technology views being open at the same time, are no longer showing the same model."
+  },
+  {
+   "k": "t4zsqb",
+   "en": "3d model viewer > Fixed unit models shown on map, not being updated for allies when you select a custom model"
+  },
+  {
+   "k": "rxkzni",
+   "en": "3d model viewer > Several other improvements."
+  },
+  {
+   "k": "rbnzqk",
+   "en": "3d model viewer > Reduced min zoom levels for 3d model viewer."
+  },
+  {
+   "k": "1gyznso",
+   "en": "3d model viewer > Non infantry equipments does not use fallback infantry models in tech window anymore."
+  },
+  {
+   "k": "1k91b3h",
+   "en": "Fixed drag and drop for armies in the same army group."
+  },
+  {
+   "k": "qkg8o6",
+   "en": "Fixed bug in a war relations being broken after loading a save."
+  },
+  {
+   "k": "2h4pz9",
+   "en": "Fixed war members calculation that incorrectly excluded friends in a war due to not being in the main faction, which could incorrectly lead to premature capitulations."
+  },
+  {
+   "k": "1s4p2ic",
+   "en": "Fixed Dispersed Industry IV translation."
+  },
+  {
+   "k": "fgfy7m",
+   "en": "Fixed small memory leak."
+  },
+  {
+   "k": "li5vwu",
+   "en": "Fixed uninitialized variable in graphical settings, which in theory could cause an undefined game behaviour."
+  },
+  {
+   "k": "66vlg",
+   "en": "Fixed CTD when loading a savegames which was related to the air wings."
+  },
+  {
+   "k": "chrg0f",
+   "en": "Fixed OOS caused by \"local resistance\" data not being properly cleared."
+  },
+  {
+   "k": "1dehm1o",
+   "en": "Improved initial loading time a bit. The naval distance calculations are much faster, and is done only once (or whenever a game changes has been detected that could affect the naval distance calcluations). At every next game start, the loading process skips the naval distance calculations by just loading the cached data."
+  },
+  {
+   "k": "nxak8p",
+   "en": "Fixed peace conference behavior and crash in the case that one or more of the winners have been occupied by a different winning faction."
+  },
+  {
+   "k": "1a5f7v",
+   "en": "Fixed SS recruitment crashing the game under very specific circumstances."
+  },
+  {
+   "k": "ob2nwq",
+   "en": "Fixed CTD when asking a lend lease to some AI countries within the first day of the game."
+  },
+  {
+   "k": "ib68qh",
+   "en": "Puppets surrender with their overlords and any other majors even if they have been in the war for fewer days than normally required to surrender. This fixes a crash elsewhere when transferring the puppet in a peace conference."
+  },
+  {
+   "k": "166xrjh",
+   "en": "Attempt to gracefully skip over opponents who are no longer at war with each other when cleaning up war relations at the conclusion of a peace conference. This avoids crashes when multiple peace conferences get initiated and completed simultaneously, especially due to scripted white peace events."
+  },
+  {
+   "k": "6yapyd",
+   "en": "Ensured all buildings in the newly-changed Polish and German states are present in those states, to avoid crashes."
+  },
+  {
+   "k": "xup7be",
+   "en": "Fixed CTD on create_unit effect with invalid template name. Now shows an error instead."
+  },
+  {
+   "k": "10pfuq6",
+   "en": "Mod files created through the launcher tool, are now UTF8-BOM to avoid errors when using the file later."
+  },
+  {
+   "k": "8n3txz",
+   "en": "1.5.3 is a hotfix which was released on 2018-04-19⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "pwg9q6",
+   "en": "30ec"
+  },
+  {
+   "k": "rcefae",
+   "en": "Improved ai use of planes and air missions"
+  },
+  {
+   "k": "19yosl1",
+   "en": "Hotjoining in multiplayer or loading saves no longer breaks the 3d model viewer"
+  },
+  {
+   "k": "i94l2g",
+   "en": "3d model viewer has some improved UI work and avoids overlap on designer icon in tech screen"
+  },
+  {
+   "k": "mwvkl4",
+   "en": "Manchukuo assertiveness focus now grants new puppet level as expected"
+  },
+  {
+   "k": "fmrms7",
+   "en": "Restored diplomatic information of friends and enemies list immediately after reloading a save."
+  },
+  {
+   "k": "4w2mqr",
+   "en": "Prevented extreme cases of unoccupied countries with no remaining war support from immediately surrendering to an enemy in an offensive war after winning a separate defensive war."
+  },
+  {
+   "k": "1c22yd",
+   "en": "Added safety layers to rendering that should hopefully avoid some crashes on OSX and on AMD gfx cards"
+  },
+  {
+   "k": "1iz904v",
+   "en": "Added a performance optimization tied to non-existant nations calculating strategies, was more apparent on big mods"
+  },
+  {
+   "k": "1twa4ui",
+   "en": "Fixed a rare crash when a country tried to declare a war on a puppet of another country that is in the same faction as aggressor."
+  },
+  {
+   "k": "1gf6li1",
+   "en": "Fixed a rare CTD case when someone accepts invitation to a war when they shouldn't have."
+  },
+  {
+   "k": "1jzxm8r",
+   "en": "1.5.4 is a hotfix which was released on 2018-06-27⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1dwl37d",
+   "en": "Changelog"
+  },
+  {
+   "k": "1aq7nh5",
+   "en": "Added information dialogs to comply with the EU General Data Protection Regulation (GDPR)."
+  },
+  {
+   "k": "3tlz4p",
+   "en": "Fixed an issue common in China where takeover of nation territory from events and during war would drop all foreign occupation."
+  },
+  {
+   "k": "181oezl",
+   "en": "Fixed a crash in some mods when an admiral would gain spotting traits in a certain order."
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "vqsp3n",
+   "en": "Forum: Patch 1.5.1 Cornflakes Live - Checksum dbb6, 2018-03-15"
+  },
+  {
+   "k": "29m5i7",
+   "en": "Forum: 1.5.2, Future Roadmap and Ironclad, 2018-04-11"
+  },
+  {
+   "k": "19efdvr",
+   "en": "Forum: Patch 1.5.3 Cornflakes Live - Checksum 30ec, 2018-04-19"
+  },
+  {
+   "k": "1j7ffwd",
+   "en": "Forum: Hotfix 1.5.4 Cornflakes Live - Checksum 1503, 2018-06-27"
+  }
+ ]
+}

@@ -1,0 +1,605 @@
+{
+ "batch": 148,
+ "items": [
+  {
+   "k": "4em366",
+   "zh": "add_state_modifier"
+  },
+  {
+   "k": "1h0zq2t",
+   "zh": "⟦0⟧ <modifier> = <float> 为州添加一项修正。"
+  },
+  {
+   "k": "h52u2c",
+   "zh": "修正作用域"
+  },
+  {
+   "k": "5n9naf",
+   "zh": "<modifier> = <float>"
+  },
+  {
+   "k": "gun5q9",
+   "zh": "add_state_modifier = { modifier = { local_resources = 2.0 } }"
+  },
+  {
+   "k": "697kjt",
+   "zh": "为当前州添加一个⟦0⟧。"
+  },
+  {
+   "k": "1658wgg",
+   "zh": "modifier"
+  },
+  {
+   "k": "s2qujc",
+   "zh": "add_manpower = 10000"
+  },
+  {
+   "k": "w0b3lu",
+   "zh": "为当前州添加指定数量的总人口。"
+  },
+  {
+   "k": "12yg1jm",
+   "zh": "注意：使用负人力时，除了减少人口外，还会直接加入该州的可招募人力，从而增加你的人力。"
+  },
+  {
+   "k": "pjdggn",
+   "zh": "⟦0⟧ 要添加的资源。amount = <int> / <variable> 要添加的数量。"
+  },
+  {
+   "k": "1rwetqd",
+   "zh": "add_resource = { type = oil amount = 100 }"
+  },
+  {
+   "k": "8edaa2",
+   "zh": "为当前州添加指定资源的指定数量。"
+  },
+  {
+   "k": "rueds7",
+   "zh": "也可在国家作用域中使用。"
+  },
+  {
+   "k": "x49dp3",
+   "zh": "set_border_war = yes"
+  },
+  {
+   "k": "nzo225",
+   "zh": "为当前州启用边境战争状态。"
+  },
+  {
+   "k": "uaz759",
+   "zh": "用于以州的边境战争，在地图上以橙色条纹表示，模拟两国边境上的战斗的边境战争参见⟦0⟧。边境战争结束时，会对输掉边境战争的州触发⟦1⟧。"
+  },
+  {
+   "k": "19dh4qb",
+   "zh": "§ 边境战争"
+  },
+  {
+   "k": "lwvrl",
+   "zh": "on_border_war_lost 的 on_action"
+  },
+  {
+   "k": "1s0fjc3",
+   "zh": "⟦0⟧ 师字符串。owner = <country> 该师的所有者。prioritize_location = <province> 如有可能，会使用该州内的此省份。可选。allow_spawning_on_enemy_provs = yes 允许在师所有者的敌方所拥有的省份上创建单位。默认为 false。count = <int> 要创建的单位数量。默认为 1。id = <int> 用于标识该单位的 ID。仅在 delete_unit 中使用。country_score = { ... } 一个 MTTH 块，决定该师应在州内哪个省份生成，在控制者作用域中求值。默认优先考虑所有者控制的省份，其次为所有者的盟友。divisional_commander_xp = <int> 在创建单位时给予该师指挥官经验。以下参数需写在 division = \"\" 之内：name = \\\"<string>\\\" 该师的名称。division_template = \\\"<string>\\\" 该师使用的模板。start_experience_factor = <double> 该师的经验，0 表示无经验，1 表示满训练。默认为 1。start_equipment_factor = <double> 该师的装备储备。默认为 1。start_manpower_factor = <double> 该师的人力储备。默认为 1。force_equipment_variants = { <equipment type> = { owner = \\\"<country>\\\" amount = <int> version_name = \\\"<string>\\\" } } 强制使用某一类装备。添加多条 <equipment type> = {} 行即可指定多类装备。"
+  },
+  {
+   "k": "vibp0r",
+   "zh": "division = <division string>"
+  },
+  {
+   "k": "u9dipv",
+   "zh": "owner = <country>"
+  },
+  {
+   "k": "lnscht",
+   "zh": "prioritize_location = <province>"
+  },
+  {
+   "k": "684ksu",
+   "zh": "allow_spawning_on_enemy_provs = yes"
+  },
+  {
+   "k": "1tyir22",
+   "zh": "count = <int>"
+  },
+  {
+   "k": "1l01z8r",
+   "zh": "country_score = { ... }"
+  },
+  {
+   "k": "2ea72g",
+   "zh": "MTTH"
+  },
+  {
+   "k": "xxyy4t",
+   "zh": "divisional_commander_xp = <int>"
+  },
+  {
+   "k": "1y4wiv",
+   "zh": "division = \"\""
+  },
+  {
+   "k": "1k5o0kf",
+   "zh": "⟦0⟧ 该师的名称。"
+  },
+  {
+   "k": "19ry5uz",
+   "zh": "⟦0⟧ 该师使用的模板。"
+  },
+  {
+   "k": "16mgznw",
+   "zh": "⟦0⟧ 该师的经验，0 表示无经验，1 表示满训练。默认为 1。"
+  },
+  {
+   "k": "8jwhbj",
+   "zh": "⟦0⟧ 该师的装备储备。默认为 1。"
+  },
+  {
+   "k": "fkm1c6",
+   "zh": "⟦0⟧ 该师的人力储备。默认为 1。"
+  },
+  {
+   "k": "iowo81",
+   "zh": "⟦0⟧ 强制使用某一类装备。添加多条 <equipment type> = {} 行即可指定多类装备。"
+  },
+  {
+   "k": "ojk5t4",
+   "zh": "create_unit = { division = \"name = \\\"Infantry Division\\\" division_template = \\\"Infantry Division\\\" start_experience_factor = 0.5\" owner = GER } create_unit = { division = \"name = \\\"Artie\\\" division_template = \\\"Artillery Division\\\" start_manpower_factor = 0.3\" owner = BHR count = 3 allow_spawning_on_enemy_provs = yes country_score = { base = 3 modifier = { factor = 2 tag = OMA } } id = 123 } create_unit = { division = \"name = \\\"Tank division\\\" division_template = \\\"Tank Division\\\" start_manpower_factor = 1 force_equipment_variants = { medium_tank_chassis_2 = { owner = \\\"USA\\\" amount = 100 version_name = \\\"M4 Sherman\\\" }}\" owner = USA count = 1 }"
+  },
+  {
+   "k": "wqwti3",
+   "zh": "将指定的师添加到当前州。"
+  },
+  {
+   "k": "1q38t1e",
+   "zh": "师字符串⟦0⟧。⟦1⟧中间出现换行会破坏该效果，导致不会生成任何单位。只能在州作用域内使用，例如 capital_scope。放入国家作用域时该效果不会产生任何作用。装备系数不能设为零。若设为零，将被视为 1。创建的装备将是该国当前可用的最新装备。"
+  },
+  {
+   "k": "hwjwwc",
+   "zh": "必须写在同一行"
+  },
+  {
+   "k": "89s6hn",
+   "zh": "division = \"...\""
+  },
+  {
+   "k": "1ui6r38",
+   "zh": "只能在州作用域内使用"
+  },
+  {
+   "k": "ent7fb",
+   "zh": "装备系数不能设为零。"
+  },
+  {
+   "k": "1cax2na",
+   "zh": "teleport_armies"
+  },
+  {
+   "k": "1eotgbz",
+   "zh": "⟦0⟧ 军队所有者必须满足该条件，其军队才会被传送。to_state_array = <array> 军队将被传送到的州数组。to_province = <ID> 军队将被传送到的省份。to_state = <ID> 军队将被传送到的州。"
+  },
+  {
+   "k": "1084lee",
+   "zh": "to_state_array = <array>"
+  },
+  {
+   "k": "ie89sf",
+   "zh": "to_province = <ID>"
+  },
+  {
+   "k": "azn0ia",
+   "zh": "to_state = <ID>"
+  },
+  {
+   "k": "17btg4g",
+   "zh": "teleport_armies = { limit = { has_war_together_with = ROOT } to_state_array = owned_controlled_states }"
+  },
+  {
+   "k": "iioggw",
+   "zh": "若军队所有者满足条件，则传送指定州内的所有军队。"
+  },
+  {
+   "k": "umqo86",
+   "zh": "to_state_array、to_state 和 to_province 只能定义其中一个。若都未指定，则默认为首都。"
+  },
+  {
+   "k": "vecfzr",
+   "zh": "add_province_modifier"
+  },
+  {
+   "k": "ij65mc",
+   "zh": "⟦0⟧ 修正列表。 ⟦1⟧要应用修正的省份。⟦2⟧用于选择多个省份的作用域。以下参数必须写在其中： ⟦3⟧省份的 ID。可指定多个。 ⟦4⟧选择所有符合限制条件的省份。以下参数需要它： ⟦5⟧ 将省份选择限制为仅沿海省份。 ⟦6⟧ 将省份选择限制为仅与不同国家接壤的省份。 ⟦7⟧ 将省份选择限制为仅拥有海军基地的省份。 ⟦8⟧ 将省份选择限制为仅拥有胜利点或城市的省份。 ⟦9⟧ 若指定则为临时修正，可以使用变量"
+  },
+  {
+   "k": "4i3qwj",
+   "zh": "static_modifiers = { <modifiers> }"
+  },
+  {
+   "k": "16jzo0v",
+   "zh": "provinces = {}"
+  },
+  {
+   "k": "zwl98a",
+   "zh": "all_provinces = yes"
+  },
+  {
+   "k": "1jrw2ns",
+   "zh": "limit_to_coastal = yes"
+  },
+  {
+   "k": "yhkcd7",
+   "zh": "limit_to_border = yes"
+  },
+  {
+   "k": "k54tid",
+   "zh": "limit_to_naval_base = yes"
+  },
+  {
+   "k": "1jr1xvc",
+   "zh": "limit_to_victory_point = yes"
+  },
+  {
+   "k": "pyz020",
+   "zh": "add_province_modifier = { static_modifiers = { mod_modifier_1 mod_modifier_2 } province = 1234 } add_province_modifier = { static_modifiers = { mod_modifier_1 mod_modifier_2 } province = { id = 1234 id = 4321 days = 7 } } add_province_modifier = { static_modifiers = { mod_modifier_1 mod_modifier_2 } province = { all_provinces = yes limit_to_coastal = yes limit_to_border = yes limit_to_naval_base = yes limit_to_victory_point = yes } }"
+  },
+  {
+   "k": "1yztjqc",
+   "zh": "static_modifiers = { mod_modifier_1 mod_modifier_2 } province = { id = 1234 id = 4321"
+  },
+  {
+   "k": "duod3q",
+   "zh": "static_modifiers = { mod_modifier_1 mod_modifier_2 } province = { all_provinces = yes limit_to_coastal = yes limit_to_border = yes limit_to_naval_base = yes limit_to_victory_point = yes }"
+  },
+  {
+   "k": "1o1vtfy",
+   "zh": "为该州内指定的省份添加一项省份修正。"
+  },
+  {
+   "k": "xx0t5g",
+   "zh": "省份修正在⟦0⟧中定义"
+  },
+  {
+   "k": "gnrt7y",
+   "zh": "remove_province_modifier"
+  },
+  {
+   "k": "o5cyae",
+   "zh": "⟦0⟧ 修正列表。 ⟦1⟧要应用修正的省份。⟦2⟧用于选择多个省份的作用域。以下参数必须写在其中： ⟦3⟧省份的 ID。可指定多个。 ⟦4⟧选择所有符合限制条件的省份。以下参数需要它： ⟦5⟧ 将省份选择限制为仅沿海省份。 ⟦6⟧ 将省份选择限制为仅与不同国家接壤的省份。 ⟦7⟧ 将省份选择限制为仅拥有海军基地的省份。 ⟦8⟧ 将省份选择限制为仅拥有胜利点或城市的省份。"
+  },
+  {
+   "k": "1ed0v2k",
+   "zh": "remove_province_modifier = { static_modifiers = { mod_modifier_1 mod_modifier_2 } province = 1234 } remove_province_modifier = { static_modifiers = { mod_modifier_1 mod_modifier_2 } province = { id = 1234 id = 4321 } } remove_province_modifier = { static_modifiers = { mod_modifier_1 mod_modifier_2 } province = { all_provinces = yes limit_to_coastal = yes limit_to_border = yes limit_to_naval_base = yes limit_to_victory_point = yes } }"
+  },
+  {
+   "k": "v3vmlf",
+   "zh": "static_modifiers = { mod_modifier_1 mod_modifier_2 } province = { id = 1234 id = 4321 }"
+  },
+  {
+   "k": "1jratf9",
+   "zh": "移除该州内指定省份的省份修正。"
+  },
+  {
+   "k": "yvlfot",
+   "zh": "add_victory_points"
+  },
+  {
+   "k": "og0hrr",
+   "zh": "为省份添加胜利点"
+  },
+  {
+   "k": "1o6tgfe",
+   "zh": "add_victory_points = { province = 1234 value = 10 }"
+  },
+  {
+   "k": "15tvgdu",
+   "zh": "为省份添加胜利点。"
+  },
+  {
+   "k": "jvbfzh",
+   "zh": "接受负值"
+  },
+  {
+   "k": "1r49h7g",
+   "zh": "set_victory_points"
+  },
+  {
+   "k": "3p6qj",
+   "zh": "设置省份的胜利点"
+  },
+  {
+   "k": "jtrjt5",
+   "zh": "set_victory_points = { province = 1234 value = 10 }"
+  },
+  {
+   "k": "1qrb8wx",
+   "zh": "设置省份的胜利点数量。"
+  },
+  {
+   "k": "17mccbj",
+   "zh": "set_state_province_controller"
+  },
+  {
+   "k": "1bfyngv",
+   "zh": "⟦0⟧ 省份的新控制者。limit = { <triggers> } 省份当前控制者必须满足这些触发器，才会被移交给新的控制者。 ⟦1⟧"
+  },
+  {
+   "k": "z83rnc",
+   "zh": "controller = <tag>"
+  },
+  {
+   "k": "1dz7dif",
+   "zh": "limit = { <triggers> } 省份当前控制者必须满足这些触发器，才会被移交给新的控制者。"
+  },
+  {
+   "k": "172r200",
+   "zh": "set_state_province_controller = { controller = POL limit = { OR = { tag = GER is_in_faction_with = GER } } }"
+  },
+  {
+   "k": "1x47i6n",
+   "zh": "将该州内由满足触发器的国家控制的所有省份的控制者更改为指定国家。"
+  },
+  {
+   "k": "9k9v49",
+   "zh": "⟦0⟧ 要将该州移交给的国家。"
+  },
+  {
+   "k": "1iitw5v",
+   "zh": "transfer_state_to = JAM"
+  },
+  {
+   "k": "n6snu6",
+   "zh": "将该州的所有者和控制者设置为指定国家"
+  },
+  {
+   "k": "1oiqam3",
+   "zh": "set_state_owner_to"
+  },
+  {
+   "k": "qnycxh",
+   "zh": "⟦0⟧ 要将该州的所有者⟦1⟧设置为的国家。"
+  },
+  {
+   "k": "qni8d3",
+   "zh": "（但不包括控制者）"
+  },
+  {
+   "k": "50togs",
+   "zh": "set_state_owner_to = JAM"
+  },
+  {
+   "k": "k9eel4",
+   "zh": "将该州的所有者设置为指定国家"
+  },
+  {
+   "k": "10540gj",
+   "zh": "除非明确不应给予控制权，否则请使用⟦0⟧。"
+  },
+  {
+   "k": "mhq0l6",
+   "zh": "set_state_controller_to"
+  },
+  {
+   "k": "1v0mweg",
+   "zh": "⟦0⟧ 要将该州的控制者⟦1⟧设置为的国家。"
+  },
+  {
+   "k": "ez8ice",
+   "zh": "（但不包括所有者）"
+  },
+  {
+   "k": "mi9jhx",
+   "zh": "set_state_controller_to = ITA"
+  },
+  {
+   "k": "1fnamft",
+   "zh": "将该州的控制者设置为指定国家"
+  },
+  {
+   "k": "1ezyr6y",
+   "zh": "⟦0⟧ 要为该州添加争夺的国家。"
+  },
+  {
+   "k": "u64bcz",
+   "zh": "add_contested_owner = GER"
+  },
+  {
+   "k": "opo71b",
+   "zh": "⟦0⟧ 要移除对该州争夺的国家。"
+  },
+  {
+   "k": "1wpwl3e",
+   "zh": "remove_contested_owner = GER"
+  },
+  {
+   "k": "cbhe4o",
+   "zh": "strategic_province_location"
+  },
+  {
+   "k": "kh239a",
+   "zh": "<string> = <int>"
+  },
+  {
+   "k": "1944w2u",
+   "zh": "strategic_province_location = { defensible_coastline = 10124 }"
+  },
+  {
+   "k": "zjqk6l",
+   "zh": "使用州作用域为省份添加一个战略位置。可用的战略位置在 strategic_locations 中定义，并通过省份 id 指定。"
+  },
+  {
+   "k": "1bot8l1",
+   "zh": "可以包含多个战略位置。"
+  },
+  {
+   "k": "1ocinkz",
+   "zh": "strategic_state_location"
+  },
+  {
+   "k": "qx54bm",
+   "zh": "strategic_state_location = { favorable_approach = 11932 }"
+  },
+  {
+   "k": "x6xihn",
+   "zh": "为作用域中的州添加战略位置。可用的战略位置在 strategic_locations 中定义。"
+  },
+  {
+   "k": "14lbunf",
+   "zh": "与建筑相关的州作用域效果："
+  },
+  {
+   "k": "ohq5v0",
+   "zh": "add_extra_state_shared_building_slots"
+  },
+  {
+   "k": "17sgplq",
+   "zh": "⟦0⟧ 要添加或移除的槽位数量。"
+  },
+  {
+   "k": "d817l5",
+   "zh": "add_extra_state_shared_building_slots = 2"
+  },
+  {
+   "k": "pq6mk1",
+   "zh": "更改当前州的共享建筑槽位数量。"
+  },
+  {
+   "k": "h68r2l",
+   "zh": "共享建筑槽位指可供多种建筑类型使用的槽位，例如军用工厂或民用工厂。这与非共享槽位相对，例如无线电台或空军基地使用的槽位，它们只能通过科技全局更改。注意：使用变量和已保存的事件目标时，必须写作 \"saved_event.var_name\"，因为 \"event_target:saved_event.var_name\" 无法生效。"
+  },
+  {
+   "k": "k8kizp",
+   "zh": "注意："
+  },
+  {
+   "k": "1bewmt",
+   "zh": "已保存的事件目标"
+  },
+  {
+   "k": "n7gg3z",
+   "zh": "add_building_construction"
+  },
+  {
+   "k": "kd2yur",
+   "zh": "⟦0⟧ 要添加的建筑。level = <int> / <variable> 要将建筑设置到的等级。instant_build = <bool> 定义建筑是否瞬间建成。province = <id> 定义要在其中添加省份建筑的具体省份。可用作作用域。省份作用域 all_provinces = <bool> 影响州内所有满足各项限制的省份。在省份作用域中使用。id = <id> 影响指定的省份 ID。在省份作用域中使用，若多次插入则会对每个省份生效。limit_to_coastal = <bool> 仅影响所选范围内的沿海省份。在省份作用域中使用。limit_to_naval_base = <bool> 仅影响已建有海军基地的省份。在省份作用域中使用。limit_to_border = <bool> 仅影响位于国家之间边境上的省份。在省份作用域中使用。limit_to_border_country = <country> 仅影响与某个特定国家接壤的省份。在省份作用域中使用。limit_to_victory_point = <int>/<bool> 仅影响满足胜利点数量前提的省份。若用 yes 代替数字，则任意数量的胜利点均可。在省份作用域中使用。limit_to_supply_node = <bool> 仅影响拥有补给节点的省份。在省份作用域中使用。level = <int> 仅影响建筑等级低于、等于或高于指定等级的省份。在省份作用域中使用。"
+  },
+  {
+   "k": "1kmt8cv",
+   "zh": "type = <string>"
+  },
+  {
+   "k": "1u6twls",
+   "zh": "level = <int> / <variable>"
+  },
+  {
+   "k": "1l4yvow",
+   "zh": "instant_build = <bool>"
+  },
+  {
+   "k": "1v0noe5",
+   "zh": "省份作用域"
+  },
+  {
+   "k": "bhlh2l",
+   "zh": "all_provinces = <bool>"
+  },
+  {
+   "k": "s9kvaj",
+   "zh": "limit_to_coastal = <bool>"
+  },
+  {
+   "k": "ice1wg",
+   "zh": "limit_to_naval_base = <bool>"
+  },
+  {
+   "k": "1d2jjae",
+   "zh": "limit_to_border = <bool>"
+  },
+  {
+   "k": "h1pxsd",
+   "zh": "limit_to_border_country = <country>"
+  },
+  {
+   "k": "vcmsah",
+   "zh": "limit_to_victory_point = <int>/<bool>"
+  },
+  {
+   "k": "b9pr6y",
+   "zh": "limit_to_supply_node = <bool>"
+  },
+  {
+   "k": "nye7d7",
+   "zh": "add_building_construction = { type = arms_factory level = 5 instant_build = yes } add_building_construction = { type = bunker level = 10 instant_build = yes province = { all_provinces = yes limit_to_border = yes limit_to_victory_point > 1 } } add_building_construction = { type = bunker level = 1 instant_build = yes province = 2999 }"
+  },
+  {
+   "k": "4ymc3r",
+   "zh": "在当前州开始建造指定的建筑。"
+  },
+  {
+   "k": "1dsvr30",
+   "zh": "对于省份建筑，⟦0⟧，即使是对特定省份操作也一样。⟦1⟧，直到重新计算建筑为止，例如通过更改消费品或重新加载存档。只能在州作用域内使用，例如 random_owned_controlled_state。放入国家作用域时该效果不会产生任何作用。基础游戏中存在的建筑 ID 列表参见 Building modding#Types。"
+  },
+  {
+   "k": "18p5xtv",
+   "zh": "必须在包含该省份的州的作用域内进行"
+  },
+  {
+   "k": "1za1hm",
+   "zh": "如果控制者国家没有⟦0⟧，这些建筑将不会出现在生产菜单中"
+  },
+  {
+   "k": "19jtlig",
+   "zh": "在历史文件中分配的作战序列"
+  },
+  {
+   "k": "cgs19n",
+   "zh": "Building modding#Types"
+  },
+  {
+   "k": "1vsq9o9",
+   "zh": "set_building_level"
+  },
+  {
+   "k": "wqhuoi",
+   "zh": "set_building_level = { type = infrastructure level = 10 instant_build = yes } set_building_level = { type = bunker level = 3 province = { all_provinces = yes limit_to_border = yes level < 3 } }"
+  },
+  {
+   "k": "lt4igv",
+   "zh": "将指定的建筑设置到当前州（或该州内的省份）。"
+  },
+  {
+   "k": "1kyx62k",
+   "zh": "省份作用域用于省份级建筑。你可以使用以下方式将建造限制到胜利点： ⟦0⟧（只在胜利点高于 5 的省份上建造省份建筑） ⟦1⟧（只在拥有胜利点的省份上建造省份建筑） 对于省份建筑，⟦2⟧，即使是对特定省份操作也一样。"
+  },
+  {
+   "k": "113ees9",
+   "zh": "limit_to_victory_point > 5"
+  },
+  {
+   "k": "8if86r",
+   "zh": "⟦0⟧ 要损坏的建筑。tags = <building_tag> 要损坏的带有此标签的建筑。tags = { <building_tag> } 要损坏的带有这些标签的建筑。repair_speed_modifier = <float> 在建筑完全修复前，修复速度将减慢 x%。damage = <float> 要造成的损坏量。province = <id> / <variable> 省份建筑的目标省份。"
+  },
+  {
+   "k": "wne90p",
+   "zh": "damage_building = { type = infrastructure damage = 1 } damage_building = { tags = dam_building damage = 1 repair_speed_modifier = -0.8 province = 3488 }"
+  },
+  {
+   "k": "5agsgy",
+   "zh": "建筑的生命值由建筑定义中的⟦0⟧属性决定。它乘以建筑等级即为总生命值。也可在国家作用域中使用。"
+  },
+  {
+   "k": "1k8fiz6",
+   "zh": "remove_building"
+  },
+  {
+   "k": "1iwitts",
+   "zh": "⟦0⟧ 要移除的建筑。tag = <building_tag> 要移除的带有此标签的建筑。tag = { <building_tag> } 要移除的带有这些标签的建筑。level = <int> / <variable> 要移除的等级数。"
+  },
+  {
+   "k": "19al5wv",
+   "zh": "tag = <building_tag>"
+  },
+  {
+   "k": "lngnbf",
+   "zh": "tag = { <building_tag> }"
+  }
+ ]
+}

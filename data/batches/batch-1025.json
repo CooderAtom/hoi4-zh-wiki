@@ -1,0 +1,896 @@
+{
+ "batch": 1025,
+ "pages": [
+  "Armor technology (Basic)"
+ ],
+ "chars": 14994,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "bkt01b",
+   "en": "For armor technology with ⟦0⟧, see ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "qwqwxt",
+   "en": "⟦0⟧ unlocks different models of armored vehicles, including tanks and armor variants like self-propelled anti-air, self-propelled artillery, and tank destroyers. Thanks to their high breakthrough, tanks can act as armed and armored offensive specialists, while armor variants can act as more heavily armed and armored versions of motorized combat support units. These vehicles are also split into light, medium, heavy, super-heavy versions, and amphibious versions). Light tanks and their variants tend to be fast, inexpensive, but weak, medium tanks and their variants tend to be the most cost-effective but still slower and more expensive than light tanks, and heavy tanks and their variants tend to be the most combat-capable but also by far the most expensive and the ones with the most difficulty with adverse terrain. Super-heavy tanks and their variants are even slower, even more expensive, and even worse in adverse terrain than heavy tanks and can only be used in smaller numbers as ⟦1⟧, but when they can be effectively fielded, they can be incredibly powerful.",
+   "frags": 2
+  },
+  {
+   "k": "qg8ocm",
+   "en": "Armor technology"
+  },
+  {
+   "k": "vq27af",
+   "en": "support companies"
+  },
+  {
+   "k": "1h60udl",
+   "en": "With the introduction of special projects in ⟦0⟧ and the accompanying ⟦1⟧, all armor technologies now also generate land warfare breakthrough progress while being researched. Armor technologies are also particularly intertwined with the ⟦2⟧ land warfare special project.",
+   "frags": 3
+  },
+  {
+   "k": "1v2zo8a",
+   "en": "Götterdämmerung"
+  },
+  {
+   "k": "1avmr2a",
+   "en": "Patch 1.15"
+  },
+  {
+   "k": "trla5r",
+   "en": "Land Cruiser"
+  },
+  {
+   "k": "yqf3f1",
+   "en": "Armor research tree (without ⟦0⟧)",
+   "frags": 1
+  },
+  {
+   "k": "1b5ov1q",
+   "en": "Tanks"
+  },
+  {
+   "k": "odq4te",
+   "en": "These technologies unlock and improve equipment used by ⟦0⟧, ⟦1⟧, ⟦2⟧, and ⟦3⟧ frontline battalions, as well as for ⟦4⟧, ⟦5⟧, and, with ⟦6⟧, ⟦7⟧ ⟦8⟧. They can also unlock and improve equipment used by ⟦9⟧ battalions.",
+   "frags": 10
+  },
+  {
+   "k": "1i6wsf5",
+   "en": "Light Tank"
+  },
+  {
+   "k": "znbvzu",
+   "en": "Medium Tank"
+  },
+  {
+   "k": "1qr70g0",
+   "en": "Heavy Tank"
+  },
+  {
+   "k": "1jr9uhi",
+   "en": "Modern Tank"
+  },
+  {
+   "k": "1yooulm",
+   "en": "Armored Recon"
+  },
+  {
+   "k": "11sipp6",
+   "en": "Super-Heavy Tank"
+  },
+  {
+   "k": "1gcwzb4",
+   "en": "Arms Against Tyranny"
+  },
+  {
+   "k": "7tw2x8",
+   "en": "Airborne light armor"
+  },
+  {
+   "k": "1g6ilkk",
+   "en": "Amphibious tank"
+  },
+  {
+   "k": "15c5osv",
+   "en": "Technology"
+  },
+  {
+   "k": "5xgri4",
+   "en": "Year"
+  },
+  {
+   "k": "2wurb5",
+   "en": "Base time"
+  },
+  {
+   "k": "ejz9b4",
+   "en": "Prerequisites"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "18mbot2",
+   "en": "Great War TankTanks in World War I were developed separately and simultaneously by the United Kingdom and France as a means to break the deadlock of trench warfare on the Western Front. The name Tank was adopted by the British during the early stages of their development, as a security measure to conceal their purpose. Early tanks were armed with machine guns and small cannons, moved slowly, and were armored only enough to stop small arms fire."
+  },
+  {
+   "k": "4hrfo2",
+   "en": "220 days"
+  },
+  {
+   "k": "1cpal2f",
+   "en": "Enables"
+  },
+  {
+   "k": "2cpady",
+   "en": "Light Tanks"
+  },
+  {
+   "k": "1kqfinf",
+   "en": "These technologies unlock and improve equipment used by ⟦0⟧ and ⟦1⟧ and, with ⟦2⟧, ⟦3⟧ ⟦4⟧. They can help unlock medium tanks technologies as well. They are also required to eventually unlock amphibious tanks.",
+   "frags": 5
+  },
+  {
+   "k": "7w7eyo",
+   "en": "Light Tank ILight tanks are small, agile tanks which are able to both scout and fight lightly armored opponents."
+  },
+  {
+   "k": "9o6nk0",
+   "en": "Great War Tank"
+  },
+  {
+   "k": "1ytn8ov",
+   "en": "Light Tank IILight tanks are small, agile tanks which are able to both scout and fight lightly armored opponents."
+  },
+  {
+   "k": "1utgdbi",
+   "en": "Light Tank I"
+  },
+  {
+   "k": "1hiq4je",
+   "en": "Light Tank IIILight tanks are small, agile tanks which are able to both scout and fight lightly armored opponents."
+  },
+  {
+   "k": "hu3uxx",
+   "en": "Light Tank II"
+  },
+  {
+   "k": "jd4rdx",
+   "en": "Amphibious Tanks"
+  },
+  {
+   "k": "15bgukl",
+   "en": "These technologies unlock and improve equipment used by ⟦0⟧ battalions.",
+   "frags": 1
+  },
+  {
+   "k": "fxf05w",
+   "en": "Amphibious Tank"
+  },
+  {
+   "k": "1qhksmr",
+   "en": "Basic Amphibious TankEssentially a light tank modified to float, this vehicle offers fire support to units establishing a beachhead."
+  },
+  {
+   "k": "1p9g2tq",
+   "en": "Improved Amphibious TankA medium tank modified to move through water. The added versatility and mobility comes at the cost of fuel efficiency."
+  },
+  {
+   "k": "1xzixa6",
+   "en": "Basic Amphibious Tank"
+  },
+  {
+   "k": "2nyjqj",
+   "en": "Medium Tanks"
+  },
+  {
+   "k": "1ie111x",
+   "en": "These technologies unlock and improve equipment used by ⟦0⟧ battalions, and can act as prerequisites for heavy tank technologies.",
+   "frags": 1
+  },
+  {
+   "k": "1att34n",
+   "en": "Medium Tank IMedium tanks are reasonably agile multi-purpose tanks which are able to take on many roles such as scouts, support, or even front-line tanks."
+  },
+  {
+   "k": "4bnr3w",
+   "en": "Medium Tank IIMedium tanks are reasonably agile multi-purpose tanks which are able to take on many roles such as scouts, support, or even front-line tanks."
+  },
+  {
+   "k": "1ip7ltd",
+   "en": "One of: Medium Tank I Heavy Tank II"
+  },
+  {
+   "k": "uguwo0",
+   "en": "Medium Tank I Heavy Tank II"
+  },
+  {
+   "k": "ka0uhx",
+   "en": "Medium Tank I"
+  },
+  {
+   "k": "vobqee",
+   "en": "Heavy Tank II"
+  },
+  {
+   "k": "1lsnj95",
+   "en": "Medium Tank IIIMedium tanks are reasonably agile multi-purpose tanks which are able to take on many roles such as scouts, support, or even front-line tanks."
+  },
+  {
+   "k": "tsjm45",
+   "en": "One of: Medium Tank II Heavy Tank III"
+  },
+  {
+   "k": "1lu7klc",
+   "en": "Medium Tank II Heavy Tank III"
+  },
+  {
+   "k": "fv0qis",
+   "en": "Medium Tank II"
+  },
+  {
+   "k": "1rtn5dp",
+   "en": "Heavy Tank III"
+  },
+  {
+   "k": "ds2pmb",
+   "en": "Modern TankModern tanks are agile multi-purpose tanks which are able to take on many roles such as scouting, support, and most importantly, front-line tanks."
+  },
+  {
+   "k": "1994ht8",
+   "en": "275 days"
+  },
+  {
+   "k": "gvh81q",
+   "en": "One of: Medium Tank III Heavy Tank III"
+  },
+  {
+   "k": "vcob65",
+   "en": "Medium Tank III Heavy Tank III"
+  },
+  {
+   "k": "32y7av",
+   "en": "Medium Tank III"
+  },
+  {
+   "k": "zc4qo9",
+   "en": "Heavy Tanks"
+  },
+  {
+   "k": "wtmatz",
+   "en": "These technologies unlock and improve equipment used by ⟦0⟧ battalions and ⟦1⟧ ⟦2⟧, and can act as prerequisites for medium tank technologies.",
+   "frags": 3
+  },
+  {
+   "k": "yo33ak",
+   "en": "Heavy Tank IHeavy tanks are large, armored monsters which are designed to destroy enemy tanks and fortifications."
+  },
+  {
+   "k": "1aea153",
+   "en": "Heavy Tank IIHeavy tanks are large, armored monsters which are designed to destroy enemy tanks and fortifications."
+  },
+  {
+   "k": "y71un3",
+   "en": "One of Heavy Tank I Medium Tank II"
+  },
+  {
+   "k": "jmb1zc",
+   "en": "Heavy Tank I Medium Tank II"
+  },
+  {
+   "k": "1xx293f",
+   "en": "Heavy Tank I"
+  },
+  {
+   "k": "gb5zb9",
+   "en": "Super Heavy TankSuper heavy tanks are an evolution of the Heavy tank concept. Bigger, better armed, with more armor, they are also slower and have severe problems with soft ground and few bridges can hope to handle their weight."
+  },
+  {
+   "k": "1sr9xl8",
+   "en": "330 days"
+  },
+  {
+   "k": "qy4ot2",
+   "en": "Heavy Tank IIIHeavy tanks are large, armored monsters which are designed to destroy enemy tanks and fortifications."
+  },
+  {
+   "k": "1vcwin1",
+   "en": "One of Heavy Tank II Medium Tank III"
+  },
+  {
+   "k": "y58qa2",
+   "en": "Heavy Tank II Medium Tank III"
+  },
+  {
+   "k": "1ewkzsw",
+   "en": "Enables Unlocks Land Cruiser"
+  },
+  {
+   "k": "ot7eya",
+   "en": "Unlocks"
+  },
+  {
+   "k": "l0r1je",
+   "en": "Armor Variants"
+  },
+  {
+   "k": "1sh00dv",
+   "en": "All tank models (except for amphibious ones) have three armor variants that can be unlocked through individual technologies: ⟦0⟧, ⟦1⟧, and ⟦2⟧. The buttons for each of these can be found next to their corresponding tank model technology.",
+   "frags": 3
+  },
+  {
+   "k": "14fxic9",
+   "en": "Tank Destroyers"
+  },
+  {
+   "k": "75kjt",
+   "en": "Self-Propelled Artillery"
+  },
+  {
+   "k": "1cefdj0",
+   "en": "Self-Propelled Anti-Air"
+  },
+  {
+   "k": "6wacw0",
+   "en": "Switching production from the base model to a variant results in a much lower loss of production efficiency than usual; it can be useful to co-opt an obsolete tank line into producing variants rather than upgraded tanks. This represents the historical practice of repurposing obsolete tanks into specialized variants, which was much cheaper and quicker than simply scrapping them. Light, medium, heavy, super-heavy and modern variants each have their own battalion types and will not request equipment from other lines. Some variants also use less equipment than their corresponding tank battalions."
+  },
+  {
+   "k": "195fat",
+   "en": "⟦0⟧, also known as TDs, are dedicated, armored anti-tank vehicles. They are essentially an anti-tank gun on a tank chassis. Tank destroyer battalions can be thought of as the armored equivalent of ⟦1⟧ battalions. Historically, most tank destroyers had a casemate with a narrow range of travel for the gun instead of a turret, and many early models were open-topped.",
+   "frags": 2
+  },
+  {
+   "k": "1q2uf1f",
+   "en": "Motorized anti-tank"
+  },
+  {
+   "k": "1cmz9wg",
+   "en": "Tank destroyers generally trade higher piercing and hard attack for lower soft attack, lower organization, and far lower breakthrough. Since ⟦0⟧ of a division's piercing and ⟦1⟧ of its armor comes from the battalions in the division with the highest values for those, even just a single tank destroyer battalion can significantly boost the combat-effectiveness of an entire division and reduce its need for unarmored anti-tank battalions or ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "yv5ktd",
+   "en": "Light Tank Destroyers"
+  },
+  {
+   "k": "1qe9i4o",
+   "en": "Light Tank Destroyer"
+  },
+  {
+   "k": "1vata74",
+   "en": "Light Tank Destroyer ITank Destroyers are tanks with a larger than normal gun in a fixed mounting in place of a turret. Light Tank Destroyers are based on the chassis of Light Tanks, which means they are fairly mobile but do not carry particularly powerful guns compared to heavier TDs."
+  },
+  {
+   "k": "1bb8puq",
+   "en": "55 days"
+  },
+  {
+   "k": "ex7mzl",
+   "en": "Light Tank Destroyer IITank Destroyers are tanks with a larger than normal gun in a fixed mounting in place of a turret. Light Tank Destroyers are based on the chassis of Light Tanks, which means they are fairly mobile but do not carry particularly powerful guns compared to heavier TDs."
+  },
+  {
+   "k": "wyrju6",
+   "en": "Light Tank Destroyer IIITank Destroyers are tanks with a larger than normal gun in a fixed mounting in place of a turret. Light Tank Destroyers are based on the chassis of Light Tanks, which means they are fairly mobile but do not carry particularly powerful guns compared to heavier TDs."
+  },
+  {
+   "k": "q4bhac",
+   "en": "Light Tank III"
+  },
+  {
+   "k": "r303r0",
+   "en": "Medium Tank Destroyers"
+  },
+  {
+   "k": "3vksxi",
+   "en": "These technologies unlock and improve equipment used by ⟦0⟧ and ⟦1⟧ battalions.",
+   "frags": 2
+  },
+  {
+   "k": "1y44yjr",
+   "en": "Medium Tank Destroyer"
+  },
+  {
+   "k": "1h53mt7",
+   "en": "Modern Tank Destroyer"
+  },
+  {
+   "k": "1xf74po",
+   "en": "Medium Tank Destroyer ITank Destroyers are tanks with a larger than normal gun in a fixed mounting in place of a turret. Medium Tank Destroyers are based on the chassis of Medium Tanks, meaning they are fairly mobile and carry respectable firepower."
+  },
+  {
+   "k": "ekpohb",
+   "en": "Medium Tank Destroyer IITank Destroyers are tanks with a larger than normal gun in a fixed mounting in place of a turret. Medium Tank Destroyers are based on the chassis of Medium Tanks, meaning they are fairly mobile and carry respectable firepower."
+  },
+  {
+   "k": "mcwu1i",
+   "en": "Medium Tank Destroyer IIITank Destroyers are tanks with a larger than normal gun in a fixed mounting in place of a turret. Medium Tank Destroyers are based on the chassis of Medium Tanks, meaning they are fairly mobile and carry respectable firepower."
+  },
+  {
+   "k": "ddv64s",
+   "en": "Modern Tank DestroyerModern Tank Destroyers are an evolution of earlier light and medium TDs, providing mobility and stealth to heavy armor."
+  },
+  {
+   "k": "497e2i",
+   "en": "Heavy Tank Destroyers"
+  },
+  {
+   "k": "h98azf",
+   "en": "These technologies unlock and improve equipment used by ⟦0⟧ battalions and ⟦1⟧ ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "144r5f1",
+   "en": "Heavy Tank Destroyer"
+  },
+  {
+   "k": "ecg4kc",
+   "en": "Super Heavy Tank Destroyer"
+  },
+  {
+   "k": "1fugiky",
+   "en": "Heavy Tank Destroyer IA heavy tank with the turret removed to carry an even larger gun in a fixed mounting."
+  },
+  {
+   "k": "1ht4thf",
+   "en": "Heavy Tank Destroyer IIA heavy tank with the turret removed to carry an even larger gun in a fixed mounting."
+  },
+  {
+   "k": "s2vqki",
+   "en": "Super Heavy Tank DestroyerA super heavy tank chassis with more frontal armour and an even larger gun in a fixed mount instead of a turret."
+  },
+  {
+   "k": "9fm9rx",
+   "en": "Super Heavy Tank"
+  },
+  {
+   "k": "ssagok",
+   "en": "Heavy Tank Destroyer IIIA heavy tank with the turret removed to carry an even larger gun in a fixed mounting."
+  },
+  {
+   "k": "1hg6rd",
+   "en": "⟦0⟧, also known as self-propelled guns or SPGs, are essentially artillery guns on tank chassis. They can be thought of as the armored equivalent of ⟦1⟧. Historically, most self-propelled artillery had a fixed gun mounting with limited horizontal travel instead of a turret, and many early models were open-topped.",
+   "frags": 2
+  },
+  {
+   "k": "mgpp72",
+   "en": "Motorized artillery"
+  },
+  {
+   "k": "1yufj4p",
+   "en": "Self-propelled artillery generally trade higher soft attack for lower hard attack, lower piercing, lower hardness, lower armor, lower organization, and far lower breakthrough. However, they are still more heavily armored than their truck-drawn counterparts. Since ⟦0⟧ of a division's armor comes from the battalion in the division with the highest armor, they can be particularly useful as an armored complement to divisions that otherwise would have used an unarmored artillery piece for its soft attack.",
+   "frags": 1
+  },
+  {
+   "k": "1j2ptjl",
+   "en": "Light Self-Propelled Artillery"
+  },
+  {
+   "k": "4t6dgs",
+   "en": "Light SP Artillery"
+  },
+  {
+   "k": "d6jtus",
+   "en": "Icon (generic)"
+  },
+  {
+   "k": "1q41g7h",
+   "en": "Base cost"
+  },
+  {
+   "k": "sjj37t",
+   "en": "Description"
+  },
+  {
+   "k": "17ykqay",
+   "en": "Statistics"
+  },
+  {
+   "k": "zg1yhj",
+   "en": "Light SP Artillery I"
+  },
+  {
+   "k": "1nw9wx2",
+   "en": "42 days"
+  },
+  {
+   "k": "14oamc0",
+   "en": "A small artillery cannon mounted on a light chassis, a light SPG does not pack the firepower of its larger brethren, but they are more mobile."
+  },
+  {
+   "k": "109idte",
+   "en": "2 1 Defense: 4.0 Breakthrough: 2.0 Hardness: 50.0% Soft attack: 34.0 Hard attack: 0.5 Max Speed: 10.0 km/h Armor: 5.0 Piercing: 4.0 Reliability: 80.0% Fuel Usage: 1.2 Production Cost: 8.0"
+  },
+  {
+   "k": "19hw31n",
+   "en": "Defense:"
+  },
+  {
+   "k": "yovzxd",
+   "en": "Breakthrough:"
+  },
+  {
+   "k": "18jjrlz",
+   "en": "Hardness:"
+  },
+  {
+   "k": "af2l5z",
+   "en": "Soft attack:"
+  },
+  {
+   "k": "12wt9im",
+   "en": "Hard attack:"
+  },
+  {
+   "k": "17crs2c",
+   "en": "Max Speed:"
+  },
+  {
+   "k": "8y06e1",
+   "en": "10.0 km/h"
+  },
+  {
+   "k": "gnwfka",
+   "en": "Armor:"
+  },
+  {
+   "k": "oxprek",
+   "en": "Piercing:"
+  },
+  {
+   "k": "18zzs8j",
+   "en": "Reliability:"
+  },
+  {
+   "k": "vq7mg4",
+   "en": "Fuel Usage:"
+  },
+  {
+   "k": "390ki7",
+   "en": "Production Cost:"
+  },
+  {
+   "k": "1fchdx6",
+   "en": "Light SP Artillery II"
+  },
+  {
+   "k": "zykyc7",
+   "en": "3 1 Defense: 5.0 Breakthrough: 2.5 Hardness: 50.0% Soft attack: 42.0 Hard attack: 1.0 Max Speed: 12.0 km/h Armor: 10.0 Piercing: 4.0 Reliability: 80.0% Fuel Usage: 1.2 Production Cost: 9.0"
+  },
+  {
+   "k": "128etrr",
+   "en": "12.0 km/h"
+  },
+  {
+   "k": "j50n7t",
+   "en": "Light SP Artillery III"
+  },
+  {
+   "k": "sulz1e",
+   "en": "4 1 Defense: 7.0 Breakthrough: 3.5 Hardness: 50.0% Soft attack: 46.0 Hard attack: 1.5 Max Speed: 14.0 km/h Armor: 25.0 Piercing: 4.0 Reliability: 80.0% Fuel Usage: 1.2 Production Cost: 10.0"
+  },
+  {
+   "k": "1nmhx19",
+   "en": "14.0 km/h"
+  },
+  {
+   "k": "vwxw1i",
+   "en": "Medium Self-Propelled Artillery"
+  },
+  {
+   "k": "vjo0pf",
+   "en": "Medium SP Artillery"
+  },
+  {
+   "k": "dn6l4f",
+   "en": "Modern SP Artillery"
+  },
+  {
+   "k": "10z4j28",
+   "en": "Medium SP Artillery I"
+  },
+  {
+   "k": "vbv0z6",
+   "en": "A medium artillery cannon mounted on a medium chassis, a medium SPG packs respectable firepower while still being quite mobile."
+  },
+  {
+   "k": "13xyrfi",
+   "en": "3 2 Defense: 5.0 Breakthrough: 3.0 Hardness: 65.0% Soft attack: 42.0 Hard attack: 1.0 Max Speed: 8.0 km/h Armor: 45.0 Piercing: 5.0 Reliability: 80.0% Fuel Usage: 1.8 Production Cost: 12.0"
+  },
+  {
+   "k": "egq5ns",
+   "en": "8.0 km/h"
+  },
+  {
+   "k": "14hsvor",
+   "en": "Medium SP Artillery II"
+  },
+  {
+   "k": "1mylziq",
+   "en": "3 3 Defense: 6.0 Breakthrough: 3.0 Hardness: 65.0% Soft attack: 50.0 Hard attack: 1.5 Max Speed: 9.0 km/h Armor: 50.0 Piercing: 5.0 Reliability: 80.0% Fuel Usage: 1.8 Production Cost: 13.0"
+  },
+  {
+   "k": "rkamix",
+   "en": "9.0 km/h"
+  },
+  {
+   "k": "1qn3q12",
+   "en": "Medium SP Artillery III"
+  },
+  {
+   "k": "127z0w7",
+   "en": "3 4 Defense: 7.0 Breakthrough: 4.0 Hardness: 65.0% Soft attack: 55.0 Hard attack: 2.0 Max Speed: 10.0 km/h Armor: 58.0 Piercing: 5.0 Reliability: 80.0% Fuel Usage: 1.8 Production Cost: 14.0"
+  },
+  {
+   "k": "137sx51",
+   "en": "Although some modern TD's superficially resemble tanks and can sometimes even fill the same roles, they represent a clean break from older SPG's, providing greater mobility and stealth. However, their armor is thinner and only sufficient to resist small cannons, shrapnel, and handheld arms fire."
+  },
+  {
+   "k": "sgcruk",
+   "en": "3 4 Defense: 8.0 Breakthrough: 4.0 Hardness: 85.0% Soft attack: 80.0 Hard attack: 3.0 Max Speed: 10.0 km/h Armor: 90.0 Piercing: 10.0 Reliability: 80.0% Fuel Usage: 2.5 Production Cost: 28.0"
+  },
+  {
+   "k": "1c9bvp0",
+   "en": "Heavy Self-Propelled Artillery"
+  },
+  {
+   "k": "10uahf9",
+   "en": "Heavy SP Artillery"
+  },
+  {
+   "k": "ci1liw",
+   "en": "Super Heavy SP Artillery"
+  },
+  {
+   "k": "16p2roy",
+   "en": "Heavy SP Artillery I"
+  },
+  {
+   "k": "1n59vcf",
+   "en": "A large artillery piece mounted on a heavy chassis, these self-propelled guns carry a lot of firepower."
+  },
+  {
+   "k": "tnxefn",
+   "en": "3 3 Defense: 4.0 Breakthrough: 2.0 Hardness: 80.0% Soft attack: 55.0 Hard attack: 1.0 Max Speed: 5.0 km/h Armor: 45.0 Piercing: 8.0 Reliability: 80.0% Fuel Usage: 2.2 Production Cost: 25.0"
+  },
+  {
+   "k": "18lzsxh",
+   "en": "5.0 km/h"
+  },
+  {
+   "k": "fute01",
+   "en": "Heavy SP Artillery II"
+  },
+  {
+   "k": "puquyv",
+   "en": "4 3 Defense: 6.0 Breakthrough: 3.0 Hardness: 80.0% Soft attack: 74.0 Hard attack: 2.0 Max Speed: 6.0 km/h Armor: 68.0 Piercing: 8.0 Reliability: 80.0% Fuel Usage: 2.2 Production Cost: 27.0"
+  },
+  {
+   "k": "kpm16i",
+   "en": "6.0 km/h"
+  },
+  {
+   "k": "q1p6ew",
+   "en": "Heavy SP Artillery III"
+  },
+  {
+   "k": "1nisi8x",
+   "en": "5 3 Defense: 7.0 Breakthrough: 3.5 Hardness: 80.0% Soft attack: 80.0 Hard attack: 2.5 Max Speed: 6.0 km/h Armor: 90.0 Piercing: 8.0 Reliability: 80.0% Fuel Usage: 2.2 Production Cost: 30.0"
+  },
+  {
+   "k": "kyar1e",
+   "en": "Some of the largest non-naval guns that man can muster, super heavy artillery has good armor and a massive gun in exchange for low mobility and high costs."
+  },
+  {
+   "k": "5kzho2",
+   "en": "3 4 Defense: 7.0 Breakthrough: 3.5 Hardness: 90.0% Soft attack: 85.0 Hard attack: 3.0 Max Speed: 4.0 km/h Armor: 100.0 Piercing: 9.0 Reliability: 80.0% Fuel Usage: 5.0 Production Cost: 100.0"
+  },
+  {
+   "k": "t5196s",
+   "en": "4.0 km/h"
+  },
+  {
+   "k": "glmxo2",
+   "en": "⟦0⟧, also known as SPAA, are dedicated anti-air guns mounted on tank chassis. They can be thought of as the armored equivalent of ⟦1⟧. Historically, dedicated armored vehicles carrying anti-air guns came late in the war, the earliest example being the Hungarian 40M Nimród in 1943. Most anti-air vehicles were mounted on trucks instead, making them more like ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1p32mkh",
+   "en": "Motorized anti-air"
+  },
+  {
+   "k": "11ya68n",
+   "en": "Self-propelled anti-air gain air attack at the expense of slightly higher production cost, lower soft attack, lower hard attack, lower piercing, lower hardness, lower armor, lower organization, and far lower breakthrough. While this may seem like a huge sacrifice for something so minor, SPAA are still relatively fast and armored and still have enough piercing to pierce lighter, obsolete armor and ⟦0⟧. Since ⟦1⟧ of a division's armor comes from the battalion in the division with the highest armor, they can be particularly useful as an armored complement to divisions that would want some anti-air capabilities anyway and would otherwise be completely unarmored.",
+   "frags": 2
+  }
+ ]
+}

@@ -1,0 +1,915 @@
+{
+ "batch": 7,
+ "pages": [
+  "User interface"
+ ],
+ "chars": 11658,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "s3dz13",
+   "en": "There are six major ⟦0⟧ in the game: oil, aluminum, rubber, tungsten, steel, and chromium. These are used to help in the construction of tanks, battleships, planes and so forth. Each new production line of a major weapon system will require a certain amount of resources. Though it is possible to build these units without the necessary resources, production will be much slower and less efficient.",
+   "frags": 1
+  },
+  {
+   "k": "vb2rqq",
+   "en": "resources"
+  },
+  {
+   "k": "eq6iho",
+   "en": "Resources are found in certain locations on the map and are not evenly distributed. Almost always it will be necessary to trade for what is needed."
+  },
+  {
+   "k": "v418x6",
+   "en": "To trade for a resource, click on the name of the country and move the slider to determine how much is being trading for. Resources are typically traded in units of 8. Each trade, unless conducted over land, requires a minimum of 1 convoy vessel plus additional convoys depending on naval distance and total quantity of resources."
+  },
+  {
+   "k": "y5czy7",
+   "en": "Every eight units of a resource imported will also cost a civilian factory, with that productive power going to the nation that is being traded with. Therefore, exports will make a country's industry stronger as civilian factory \"power\" is pulled from other nations, but a lot of imports will make a country weaker due to the loss of civilian factory \"power\". However, it may be necessary to import resources to keep the war machine running at optimal efficiency. Tip: trading with puppets gains considerably more than 8 resources per civilian factory traded."
+  },
+  {
+   "k": "19w165l",
+   "en": "The gray button with the excavator opens the ⟦0⟧ menu. This is where tasks will be assigned to the civilian factories - building infrastructure, new factories, defenses, and so on.",
+   "frags": 1
+  },
+  {
+   "k": "1lhkbd8",
+   "en": "construction"
+  },
+  {
+   "k": "bohwvv",
+   "en": "⟦0⟧ make all the improvements to a State. The number of factories available for construction will depend on the size of the nation, how many factories are being dedicated to providing consumer goods for the country (the Economy Law), and how many factories that are “traded” for strategic resources. The number of civilian factories can be increased by building more, but be careful since each province can only support a certain number of factories. A maximum of fifteen factories can be devoted to a single construction project, and any left over will work on the next item in the queue.",
+   "frags": 1
+  },
+  {
+   "k": "w0z8n2",
+   "en": "Civilian factories"
+  },
+  {
+   "k": "em5jd2",
+   "en": "There are three categories of structure that can be built with civilian factories."
+  },
+  {
+   "k": "1qcq7va",
+   "en": "State structures:"
+  },
+  {
+   "k": "amhgvg",
+   "en": "These constructions improve the state without using up one of the shared building slots. Instead, each type of improvement here has its own level and maximum."
+  },
+  {
+   "k": "6sk3tz",
+   "en": "⟦0⟧: Each state has an infrastructure rating that determines how easy it is to supply units in the state, how quickly military units can move through the state, how quickly shared buildings can be constructed, and increases resource output.",
+   "frags": 1
+  },
+  {
+   "k": "1icrwoe",
+   "en": "Infrastructure"
+  },
+  {
+   "k": "1dczy8j",
+   "en": "⟦0⟧: The larger the air base, the more planes it can effectively field. Air bases house military aircraft.",
+   "frags": 1
+  },
+  {
+   "k": "1qizwbs",
+   "en": "Air base"
+  },
+  {
+   "k": "n7ras9",
+   "en": "⟦0⟧: Helps defend a state from enemy aircraft attempting to strategic bomb installations such as refineries, factories, infrastructure, etc.",
+   "frags": 1
+  },
+  {
+   "k": "2bf5kk",
+   "en": "Anti-air"
+  },
+  {
+   "k": "x9ijjn",
+   "en": "⟦0⟧: Helps the air force detect and engage enemy air wings, increases detection of nearby enemy fleets at sea, and gains intel on enemy troops in nearby states.",
+   "frags": 1
+  },
+  {
+   "k": "hz4b13",
+   "en": "Radar station"
+  },
+  {
+   "k": "s31jtg",
+   "en": "Shared structures:"
+  },
+  {
+   "k": "1n41ox7",
+   "en": "The number of shared structures that can be built is limited by the number of slots available in that State. The number of slots can be increased by researching Industry technologies."
+  },
+  {
+   "k": "15m784w",
+   "en": "⟦0⟧: Used to produce weapons, equipment, planes, and vehicles.",
+   "frags": 1
+  },
+  {
+   "k": "17qtid0",
+   "en": "Military factory"
+  },
+  {
+   "k": "1u7ylhy",
+   "en": "⟦0⟧: Used to produce and improve a nation's military/industrial capacity.",
+   "frags": 1
+  },
+  {
+   "k": "7b3x92",
+   "en": "Civilian factory"
+  },
+  {
+   "k": "d92mo5",
+   "en": "⟦0⟧: Produce synthetic fuel and rubber, especially useful to nations that lack either.",
+   "frags": 1
+  },
+  {
+   "k": "koadgg",
+   "en": "Synthetic refinery"
+  },
+  {
+   "k": "1n2i3h4",
+   "en": "⟦0⟧: Used to produce ships and convoys. Can only be built in coastal states.",
+   "frags": 1
+  },
+  {
+   "k": "4ixk0m",
+   "en": "Naval dockyard"
+  },
+  {
+   "k": "y2zyzd",
+   "en": "⟦0⟧: Locations from which to produce rockets and to launch rocket attacks on nearby nations.",
+   "frags": 1
+  },
+  {
+   "k": "8pq23o",
+   "en": "Rocket site"
+  },
+  {
+   "k": "s0a5d2",
+   "en": "⟦0⟧: Produces nuclear weapons.",
+   "frags": 1
+  },
+  {
+   "k": "1v26vtf",
+   "en": "Nuclear reactor"
+  },
+  {
+   "k": "thcod2",
+   "en": "Province buildings:"
+  },
+  {
+   "k": "bomwwi",
+   "en": "Province buildings are built on the smallest territory size in HoI4, the province."
+  },
+  {
+   "k": "1p4uz05",
+   "en": "⟦0⟧: Stations and repairs ⟦1⟧, and can send and receive supplies and resources via convoys. Each naval base level increases supply capacity and supply throughput.",
+   "frags": 2
+  },
+  {
+   "k": "d7usg0",
+   "en": "Naval base"
+  },
+  {
+   "k": "1v3sovg",
+   "en": "naval fleets"
+  },
+  {
+   "k": "oz6s66",
+   "en": "⟦0⟧: Inflicts an attack penalty of ⟦1⟧ for each fort level on the attacker in combat. Attacking from multiple directions will reduce fort's effect.",
+   "frags": 2
+  },
+  {
+   "k": "5aper1",
+   "en": "Land fort"
+  },
+  {
+   "k": "1k3fbsn",
+   "en": "⟦0⟧: Inflicts an attack penalty of ⟦1⟧ for each fort level on the attacker in naval invasion combat.",
+   "frags": 2
+  },
+  {
+   "k": "1909xd",
+   "en": "Coastal fort"
+  },
+  {
+   "k": "1qq5oa4",
+   "en": "The gray button with the wrench opens the ⟦0⟧ menu. This is where ⟦1⟧ and ⟦2⟧ are assigned to build ⟦3⟧, army vehicles, ⟦4⟧ and ⟦5⟧. The more factories dedicated to building a specific item, the more will be produced. Infantry, armor and artillery units made will then be assigned to the appropriate military divisions, either for new units being constructed or reinforcement and upgrades for units in the field. Excess equipment is left in the national stockpile. Airplanes produced will be deposited into a reserve pool. Naval units will be automatically placed in the highest level naval base, though one can assign a port or fleet if that would be preferable (recommended for the ⟦6⟧ so they don't end up with all new ships stuck in the Black Sea).",
+   "frags": 7
+  },
+  {
+   "k": "5ta1m",
+   "en": "production"
+  },
+  {
+   "k": "171i6g0",
+   "en": "military factories"
+  },
+  {
+   "k": "1hbp52v",
+   "en": "dockyards"
+  },
+  {
+   "k": "1la4po7",
+   "en": "equipment"
+  },
+  {
+   "k": "1weh94j",
+   "en": "aircraft"
+  },
+  {
+   "k": "onnch0",
+   "en": "ships"
+  },
+  {
+   "k": "1jjpogc",
+   "en": "Soviet Union"
+  },
+  {
+   "k": "1og6zc",
+   "en": "Factory output is dependent on the availability of strategic resources for higher end units, and on the efficiency cap of the nation's industry. New production lines will take time to be perfectly efficient, and if factories are added to a production line, some efficiency will be lost. Factory productivity and efficiency can be improved in the Industrial research tree."
+  },
+  {
+   "k": "1e3oqnz",
+   "en": "Recruit and deploy"
+  },
+  {
+   "k": "ay69hu",
+   "en": "The gray button with the tank opens the ⟦0⟧ menu to recruit and deploy units. This is where it is decided what types of ⟦1⟧ are to be trained. These divisions will be filled by the equipment and vehicles built in the production menu. What is required to complete a new unit is shown by hovering over the green progress bars.",
+   "frags": 2
+  },
+  {
+   "k": "1rvll9c",
+   "en": "army planner"
+  },
+  {
+   "k": "96peof",
+   "en": "divisions"
+  },
+  {
+   "k": "sm4puu",
+   "en": "The country starts with a few default divisions that can be built. ⟦0⟧ can be spent to design new division templates or edit ones that already exist.",
+   "frags": 1
+  },
+  {
+   "k": "x63bw0",
+   "en": "Army experience"
+  },
+  {
+   "k": "1tddrbh",
+   "en": "The game starts with reinforcement and upgrades given equal weight with the creation of new units. If it is preferable to focus the energy of new tanks or artillery on fresh units, instead of trickling equipment to the field, reinforcement priorities can be set on this screen as well."
+  },
+  {
+   "k": "ohf6y1",
+   "en": "The gray button with the paper and pen opens the ⟦0⟧ menu. This menu gives an overall summary of stockpiled equipment, whatever shortages the country might have, as well as a rundown of how many strategic resources the country is missing from the production lines.",
+   "frags": 1
+  },
+  {
+   "k": "covocw",
+   "en": "logistics"
+  },
+  {
+   "k": "e7mc2c",
+   "en": "Logistics screen"
+  },
+  {
+   "k": "10dryu3",
+   "en": "The logistics screen provides the general overview of the nation's equipment and resource situation. The center of the screen consists of the equipment, and only shows equipment that is being produced, stockpiled, or used in the nation. The following provides a description of all of the various parts of the screen."
+  },
+  {
+   "k": "1xeskla",
+   "en": "⟦0⟧, which has a above the column, shows the average ⟦1⟧ of all the lines of production producing that type of equipment. The yellow bar inside the area represents the average production efficiency for each equipment type.",
+   "frags": 2
+  },
+  {
+   "k": "1arw07o",
+   "en": "Average production efficiency"
+  },
+  {
+   "k": "1valgln",
+   "en": "production efficiency"
+  },
+  {
+   "k": "1bstkvp",
+   "en": "⟦0⟧, which says 'Equipment Type' above the column, provides the name and a picture of the equipment that is either being produced, stockpiled, or used in the nation.",
+   "frags": 1
+  },
+  {
+   "k": "1mc2ywt",
+   "en": "Equipment type"
+  },
+  {
+   "k": "1avx8io",
+   "en": "⟦0⟧, which has a wrench being held by a hand above the column, shows how much of that particular equipment is being produced per day.",
+   "frags": 1
+  },
+  {
+   "k": "78lthv",
+   "en": "Amount produced"
+  },
+  {
+   "k": "14b0k6q",
+   "en": "⟦0⟧ is the green bar next to the amount produced showing how much of the equipment need is being produced. There is also a slider button that lays on the left if the nation is running a surplus of that equipment each day, and on the right if the nation is running a deficit of that equipment each day.",
+   "frags": 1
+  },
+  {
+   "k": "3pd73",
+   "en": "Status"
+  },
+  {
+   "k": "lf7aa2",
+   "en": "⟦0⟧, with a hand at the top of the column, is how much of that equipment the nation needs each day.",
+   "frags": 1
+  },
+  {
+   "k": "1vg5f65",
+   "en": "Need"
+  },
+  {
+   "k": "i2urmc",
+   "en": "⟦0⟧ is the surplus or deficit being ran each day by the country, represented by a scale at the top of the column. If the nation is running a surplus, it will say ⟦1⟧, but if it is running a deficit, ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "kxxksr",
+   "en": "Balance"
+  },
+  {
+   "k": "17v7sjq",
+   "en": "+Amount"
+  },
+  {
+   "k": "bokgw4",
+   "en": "-Amount"
+  },
+  {
+   "k": "3u1e1q",
+   "en": "⟦0⟧ is the stockpile of the nation. It will be in ⟦1⟧ with the stockpiled amount if the nation has extra of that equipment, and will show ⟦2⟧ with the amount missing from the nation, such as the amount needed to reinforce, equip new units, or, for convoys, how much is needed for current trade.",
+   "frags": 3
+  },
+  {
+   "k": "ia1hum",
+   "en": "Stored"
+  },
+  {
+   "k": "b5mm4",
+   "en": "green"
+  },
+  {
+   "k": "i0tgik",
+   "en": "red"
+  },
+  {
+   "k": "8be7nj",
+   "en": "⟦0⟧ shows the ⟦1⟧ that the production line is currently using to produce that equipment. If none of that equipment is being produced, it will not show the resources.",
+   "frags": 2
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "15hbm8c",
+   "en": "The bottom of the screen includes extra information."
+  },
+  {
+   "k": "1qrlahf",
+   "en": "⟦0⟧ has a green bar indicating the percentage of the nation's military factories that are currently in use.",
+   "frags": 1
+  },
+  {
+   "k": "182gqps",
+   "en": "Military factories"
+  },
+  {
+   "k": "1qccufh",
+   "en": "⟦0⟧, like military factories to the left of it, shows the percentage of the country's naval dockyards that are in use.",
+   "frags": 1
+  },
+  {
+   "k": "14o5cov",
+   "en": "Naval dockyards"
+  },
+  {
+   "k": "1g6oa0e",
+   "en": "The six icons to the right hand corner show ⟦0⟧, ⟦1⟧, ⟦2⟧, ⟦3⟧, ⟦4⟧, and ⟦5⟧. Next to each icon will be either a ⟦6⟧ number showing the nation's surplus of that resource, or a ⟦7⟧ negative number showing that nation's deficit of the resource.",
+   "frags": 8
+  },
+  {
+   "k": "1i603sr",
+   "en": "oil"
+  },
+  {
+   "k": "e5eu0r",
+   "en": "rubber"
+  },
+  {
+   "k": "3lx150",
+   "en": "steel"
+  },
+  {
+   "k": "1wv2xgb",
+   "en": "aluminum"
+  },
+  {
+   "k": "i88ohp",
+   "en": "tungsten"
+  },
+  {
+   "k": "ug1lf5",
+   "en": "chromium"
+  },
+  {
+   "k": "1qffhez",
+   "en": "Stockpile screen"
+  },
+  {
+   "k": "1uljc3w",
+   "en": "The stockpile screen is accessed by clicking on any of the equipment on the logistics screen. The graph in the center of the screen shows the change in the stockpile over the previous ⟦0⟧, ⟦1⟧, or ⟦2⟧, each of which have a corresponding button above the graph. The change is represent by a ⟦3⟧ line, and the X-axis of the graph is the time variable, while the Y-axis is the stockpile variable. Below that is a mini overview of the equipment, which shows the variants of that equipment (i.e. Basic Infantry Equipment vs. Weapons I) and the amount stored of each variant and weekly production of each variant.",
+   "frags": 4
+  },
+  {
+   "k": "xy0wl5",
+   "en": "30 days"
+  },
+  {
+   "k": "18wcw8h",
+   "en": "12 months"
+  },
+  {
+   "k": "1pzqi84",
+   "en": "7 years"
+  },
+  {
+   "k": "12hrypi",
+   "en": "The gray button at the top of the screen marked with a hat opens the ⟦0⟧ menu. This menu gives an overall summary of your command power allocation and allows management of military leadership in addition to unlocking military spirits, military doctrines, and preferred tactics.",
+   "frags": 1
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "1bg9quj",
+   "en": "Defines NPolitics BASE_POLITICAL_POWER_INCREASE = 2"
+  },
+  {
+   "k": "dsydkv",
+   "en": "from game file \\Hearts of Iron IV\\common\\modifiers\\00_static_modifiers.txt"
+  },
+  {
+   "k": "k1y8va",
+   "en": "Defines NCountry BASE_MAX_COMMAND_POWER = 200"
+  },
+  {
+   "k": "1hyf67b",
+   "en": "Game"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "u1k6p6",
+   "en": "Features"
+  },
+  {
+   "k": "xrnqxs",
+   "en": "Game rules"
+  },
+  {
+   "k": "qteedx",
+   "en": "Ironman"
+  },
+  {
+   "k": "cvepmw",
+   "en": "Guides"
+  },
+  {
+   "k": "bdm93l",
+   "en": "Beginner's guide"
+  },
+  {
+   "k": "1uzifys",
+   "en": "Console commands"
+  },
+  {
+   "k": "1khciow",
+   "en": "Hotkeys"
+  },
+  {
+   "k": "1h8mxql",
+   "en": "Map modes"
+  },
+  {
+   "k": "6q2ked",
+   "en": "Tutorial videos"
+  },
+  {
+   "k": "lshcot",
+   "en": "User interface"
+  },
+  {
+   "k": "190d1fu",
+   "en": "Development"
+  },
+  {
+   "k": "sz859i",
+   "en": "Developer diaries"
+  },
+  {
+   "k": "5umivg",
+   "en": "Downloadable content"
+  },
+  {
+   "k": "1r8wvbp",
+   "en": "Patches"
+  },
+  {
+   "k": "1n72qry",
+   "en": "Community"
+  },
+  {
+   "k": "uet7re",
+   "en": "Jargon"
+  },
+  {
+   "k": "9m30fv",
+   "en": "Modding"
+  },
+  {
+   "k": "1dkfrh9",
+   "en": "Toprow.png"
+  },
+  {
+   "k": "4jft19",
+   "en": "Political power"
+  },
+  {
+   "k": "wnbc3s",
+   "en": "Stability"
+  },
+  {
+   "k": "mz0woq",
+   "en": "War support"
+  },
+  {
+   "k": "17vxw9s",
+   "en": "Manpower"
+  },
+  {
+   "k": "lrf2w1",
+   "en": "Factories"
+  },
+  {
+   "k": "112axt9",
+   "en": "Fuel"
+  },
+  {
+   "k": "ah6xnf",
+   "en": "Oil"
+  },
+  {
+   "k": "1qlq2qy",
+   "en": "Logistics Fulfillment"
+  },
+  {
+   "k": "4bcxog",
+   "en": "Convoys"
+  },
+  {
+   "k": "130fjyf",
+   "en": "Command power"
+  },
+  {
+   "k": "afx16s",
+   "en": "Army"
+  },
+  {
+   "k": "9w638x",
+   "en": "Navy"
+  },
+  {
+   "k": "15p9zll",
+   "en": "Air experience"
+  },
+  {
+   "k": "fo7k1c",
+   "en": "Nuclear weapons"
+  },
+  {
+   "k": "xfz9ab",
+   "en": "Nuclear bomb availability.png"
+  },
+  {
+   "k": "hf7efl",
+   "en": "World tension"
+  },
+  {
+   "k": "nvrk3u",
+   "en": "WorldTension100"
+  },
+  {
+   "k": "1p0pv50",
+   "en": "World tension.png"
+  },
+  {
+   "k": "a1rwdx",
+   "en": "Qwertyui hotkeys.png"
+  },
+  {
+   "k": "ucced9",
+   "en": "thumb.php?f=Political screen.png&width=300"
+  },
+  {
+   "k": "uz8ky0",
+   "en": "Decision button.png"
+  },
+  {
+   "k": "pvz2sf",
+   "en": "Intelligence button.png"
+  },
+  {
+   "k": "1z0oqp1",
+   "en": "Research button.png"
+  },
+  {
+   "k": "1bdr7k5",
+   "en": "thumb.php?f=Research screen.png&width=230"
+  },
+  {
+   "k": "1xfxxq3",
+   "en": "thumb.php?f=Infantry technology screen.png&width=300"
+  },
+  {
+   "k": "ohvoiq",
+   "en": "Diplomacy button.png"
+  },
+  {
+   "k": "124sry",
+   "en": "Diplomacy screen.png"
+  },
+  {
+   "k": "1gcwie7",
+   "en": "thumb.php?f=Nation diplomacy screen.png&width=100"
+  },
+  {
+   "k": "ktwqzm",
+   "en": "Trade button.png"
+  },
+  {
+   "k": "12g12kq",
+   "en": "thumb.php?f=Trade screen.png&width=230"
+  },
+  {
+   "k": "nn4f6t",
+   "en": "Construction button.png"
+  },
+  {
+   "k": "1atkq32",
+   "en": "Constructions screen.jpg"
+  },
+  {
+   "k": "1pyx34m",
+   "en": "State buildings.png"
+  },
+  {
+   "k": "10uaryw",
+   "en": "Shared buildings.png"
+  },
+  {
+   "k": "1wx51rh",
+   "en": "Province buildings.png"
+  },
+  {
+   "k": "1jqnx2o",
+   "en": "thumb.php?f=Production screen.png&width=150"
+  },
+  {
+   "k": "kgeuhz",
+   "en": "Production button.png"
+  },
+  {
+   "k": "nxp077",
+   "en": "Deployment button.png"
+  },
+  {
+   "k": "13kgg9q",
+   "en": "Recruitment screen.png"
+  },
+  {
+   "k": "4e85rl",
+   "en": "Logistics button.png"
+  },
+  {
+   "k": "12y9xmy",
+   "en": "thumb.php?f=Logistics screen.png&width=200"
+  },
+  {
+   "k": "h46ci2",
+   "en": "Production efficiency.png"
+  },
+  {
+   "k": "1mj7i0h",
+   "en": "thumb.php?f=Stockpile screen.png&width=200"
+  },
+  {
+   "k": "5ukze5",
+   "en": "Officer corps button.png"
+  },
+  {
+   "k": "8hwl1i",
+   "en": "thumb.php?f=Officer corps.png&width=301"
+  }
+ ]
+}

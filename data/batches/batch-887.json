@@ -1,0 +1,831 @@
+{
+ "batch": 887,
+ "pages": [
+  "National focus modding"
+ ],
+ "chars": 14726,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "iekeuu",
+   "en": "National focus trees are defined within ⟦0⟧ files. Like most other files, the filename is irrelevant and isn't used for anything other than organisation. One file can store more than one focus tree or none at all.",
+   "frags": 1
+  },
+  {
+   "k": "1gy1q6",
+   "en": "/Hearts of Iron IV/common/national_focus/*.txt"
+  },
+  {
+   "k": "dkhk0x",
+   "en": "Focus tree"
+  },
+  {
+   "k": "6f9z28",
+   "en": "A focus tree is defined by using a ⟦0⟧ block. The following arguments are used:",
+   "frags": 1
+  },
+  {
+   "k": "i132qf",
+   "en": "focus_tree = { ... }"
+  },
+  {
+   "k": "fx3x2v",
+   "en": "⟦0⟧ decides the ID that the focus tree uses. It is mandatory to define, and an overlap will result in an error. The ID is primarily used for the ⟦1⟧ and the ⟦2⟧, whose tooltips use it as a localization key.",
+   "frags": 3
+  },
+  {
+   "k": "1bkd8o1",
+   "en": "id = my_focus_tree"
+  },
+  {
+   "k": "16sd5wt",
+   "en": "has_focus_tree trigger"
+  },
+  {
+   "k": "39z710",
+   "en": "load_focus_tree effect"
+  },
+  {
+   "k": "1p6eduf",
+   "en": "⟦0⟧ is a ⟦1⟧ that assigns a score for the focus tree, deciding which one is used in-game. This is evaluated ⟦2⟧ and the check is essentially ⟦3⟧⟦4⟧. The focus tree with the highest score will be the one that gets loaded for the country. By default, the score starts with 1. A typical usage looks like this:",
+   "frags": 5
+  },
+  {
+   "k": "1ezuvve",
+   "en": "country = { ... }"
+  },
+  {
+   "k": "1d2j64p",
+   "en": "MTTH block"
+  },
+  {
+   "k": "s4oag3",
+   "en": "before the game's start"
+  },
+  {
+   "k": "1f6ogsv",
+   "en": "never refreshed"
+  },
+  {
+   "k": "wzat1w",
+   "en": "[a]"
+  },
+  {
+   "k": "1pbesqv",
+   "en": "In this case, countries originating from ⟦0⟧ (i.e. the country itself and any civil war or collaboration government breakaways, as ensured by ⟦1⟧) will have the score of 20, while every other country will have the score of 0. Assuming that there is no other focus tree where ⟦2⟧ has a higher country score, this will ensure that this focus tree gets loaded for it.",
+   "frags": 3
+  },
+  {
+   "k": "vvcjcz",
+   "en": "Transylvania"
+  },
+  {
+   "k": "11ao30o",
+   "en": "the original_tag trigger"
+  },
+  {
+   "k": "15z9304",
+   "en": "⟦0⟧ sets the focus tree to be marked as default. In total, ⟦1⟧, no more, no less. A focus tree being marked as default means that if every other focus tree has a country score of 0, this tree will be chosen instead. Additionally, a country starting with a focus tree will fail to appear in the \"minor countries\" section within the \"interesting countries\" menu before the game's start. If this is left out from a focus tree, it gets assumed to be non-default.",
+   "frags": 2
+  },
+  {
+   "k": "1tj0jgy",
+   "en": "default = yes"
+  },
+  {
+   "k": "17p6a12",
+   "en": "there should be one total default focus tree"
+  },
+  {
+   "k": "1mln73f",
+   "en": "⟦0⟧ is not determined on its effect. Instead, this is how focus trees are handled in civil wars, regardless of if ⟦1⟧ is set or how it's set: When a civil war starts, the original country will always continue using the focus tree. The focus it's doing will not be paused or cancelled by the civil war itself. The revolter will have the focus tree it's using evaluated when the civil war starts, assigning one depending on each tree's ⟦2⟧ value. If the same focus tree gets used for the revolting country as the one that the original country used when the civil war started, every focus that the original country has completed will get completed for the revolting country, including setting the same focus progress for the one that's being completed by the original country at the moment. Otherwise, the focus progress will get lost.",
+   "frags": 3
+  },
+  {
+   "k": "1b9oggo",
+   "en": "reset_on_civilwar = no"
+  },
+  {
+   "k": "vq9ehu",
+   "en": "reset_on_civilwar"
+  },
+  {
+   "k": "qmmy71",
+   "en": "⟦0⟧ will set the focus tree to include the specified ⟦1⟧ and every focus that is connected to it via prerequisites. ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "xr9ybk",
+   "en": "shared_focus = TAG_focusname"
+  },
+  {
+   "k": "44qqx0",
+   "en": "shared focus"
+  },
+  {
+   "k": "xulr3l",
+   "en": "Setting this to a non-existing focus causes a game crash when loading into the main menu."
+  },
+  {
+   "k": "rx9q35",
+   "en": "⟦0⟧ is the position of the top left corner of the continuous focus menu ⟦1⟧. For comparison, by default⟦2⟧, the continuous focus palette has the position of 50 on the X axis and 1000 on the Y axis. If both x and y are set to 0 or the position is undefined for the tree, it resets to the default position.",
+   "frags": 3
+  },
+  {
+   "k": "kjnjlj",
+   "en": "continuous_focus_position = { x = 1200 y = 100 }"
+  },
+  {
+   "k": "18gyx0n",
+   "en": "in pixels"
+  },
+  {
+   "k": "wz1cjz",
+   "en": "[b]"
+  },
+  {
+   "k": "midcri",
+   "en": "⟦0⟧ decides the initial position of the camera when the focus tree is first opened. There are 2 ways to arrange it:",
+   "frags": 1
+  },
+  {
+   "k": "crmxd6",
+   "en": "initial_show_position = { ... }"
+  },
+  {
+   "k": "aov0oy",
+   "en": "⟦0⟧ will make the camera centre on the specified focus in particular. It'll be in the top centre of the screen exactly, taking offsets into consideration.",
+   "frags": 1
+  },
+  {
+   "k": "1mwhfp0",
+   "en": "focus = TAG_focusname"
+  },
+  {
+   "k": "1pj2kvq",
+   "en": "⟦0⟧ decides the exact position of the top-centre of the camera. This uses the same coordinate system as regular focuses do, by default a unit of x being equal to 96 pixels and a unit of y being equal to 130 pixels⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "118m1nr",
+   "en": "x = 12 y = 0"
+  },
+  {
+   "k": "y32wtu",
+   "en": "[c]"
+  },
+  {
+   "k": "16gwn7h",
+   "en": "This also accepts ⟦0⟧, adding the specified values to respective positions if the conditions within the ⟦1⟧ trigger block are met for the country. For example, this will apply the modifier and result in a position of x = 13, y = 1 if the country is BHR:",
+   "frags": 2
+  },
+  {
+   "k": "294j7",
+   "en": "⟦0⟧ are the focuses themselves. Each focus that's put within the focus tree will. The focuses ⟦1⟧ to be within a ⟦2⟧ in order to let the game know which focus tree exactly to assign them to. If a ⟦3⟧ blocks ends up outside of a ⟦4⟧ or within another ⟦5⟧, this gets marked within the ⟦6⟧ as \"focus\" being an unexpected token, fixed by adjusting brackets as needed.",
+   "frags": 7
+  },
+  {
+   "k": "9xmo18",
+   "en": "focus = { ... }"
+  },
+  {
+   "k": "1w79wjf",
+   "en": "have"
+  },
+  {
+   "k": "for3k3",
+   "en": "error log"
+  },
+  {
+   "k": "uy0v5i",
+   "en": "Examples"
+  },
+  {
+   "k": "jdfc91",
+   "en": "Pure minimum, with 2 focuses:"
+  },
+  {
+   "k": "3ihhxm",
+   "en": "The text in this section has been collapsed by default."
+  },
+  {
+   "k": "co7t3y",
+   "en": "focus_tree = { id = BHR_focus_tree country = { base = 0 modifier = { add = 10 tag = BHR } } focus = { ... } focus = { ... } }"
+  },
+  {
+   "k": "zwcrzs",
+   "en": "Average tree, with 2 focuses:"
+  },
+  {
+   "k": "1c4syd8",
+   "en": "focus_tree = { id = OMA_focus_tree country = { base = 0 modifier = { tag = 25 original_tag = OMA } } continuous_focus_position = { x = 450 y = 800 } initial_show_position = { focus = OMA_focus_name } focus = { id = OMA_focus_name ... } focus = { ... } }"
+  },
+  {
+   "k": "1uqx4tc",
+   "en": "Shortcuts"
+  },
+  {
+   "k": "10nl9ni",
+   "en": "Shortcuts are used to add navigation buttons in the lower left corner that, when clicked, will move the camera to a specific focus."
+  },
+  {
+   "k": "1mhys55",
+   "en": "Parameters:"
+  },
+  {
+   "k": "akd6qg",
+   "en": "⟦0⟧, the localized name that will be displayed on the button.",
+   "frags": 1
+  },
+  {
+   "k": "1u3k7tu",
+   "en": "name = lockey"
+  },
+  {
+   "k": "1mwkbl2",
+   "en": "⟦0⟧, focus where the camera should be moved.",
+   "frags": 1
+  },
+  {
+   "k": "1a7it9d",
+   "en": "target = focus_id"
+  },
+  {
+   "k": "1hnci4r",
+   "en": "⟦0⟧, zoom, the higher the value the greater the zoom. (between 0 and 1)",
+   "frags": 1
+  },
+  {
+   "k": "60p8hx",
+   "en": "scroll_wheel_factor = <float>"
+  },
+  {
+   "k": "15tumlm",
+   "en": "⟦0⟧, a trigger block specifying whether the shortcut button should be visible, optional. (If true, it will not supersede allow conditions of target focus.)",
+   "frags": 1
+  },
+  {
+   "k": "8trf0c",
+   "en": "trigger = { ... }"
+  },
+  {
+   "k": "2i89l8",
+   "en": "An example shortcut definition is as such:"
+  },
+  {
+   "k": "1edlwq8",
+   "en": "Inlay window"
+  },
+  {
+   "k": "ek189q",
+   "en": "Focus inlay windows are generic inlay components that can be added to the focus tree, similar to the continuous focus window, a ⟦0⟧ object.",
+   "frags": 1
+  },
+  {
+   "k": "197y8hw",
+   "en": "scripted GUI"
+  },
+  {
+   "k": "3ormio",
+   "en": "Definition"
+  },
+  {
+   "k": "qfqzyu",
+   "en": "Definitions for inlay windows are located in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1ff7lkh",
+   "en": "/Hearts of Iron IV/common/focus_inlay_windows/*.txt"
+  },
+  {
+   "k": "5hb3om",
+   "en": "For a guide written by the game developers, see Dev dairy modding"
+  },
+  {
+   "k": "1ribyne",
+   "en": "⟦0⟧ the name of the scripting GUI to use.",
+   "frags": 1
+  },
+  {
+   "k": "17wnaqt",
+   "en": "window_name = gui_component_name"
+  },
+  {
+   "k": "10hzbf9",
+   "en": "⟦0⟧ if true, then the inlay window is only visible to the country itself. (defaults no)",
+   "frags": 1
+  },
+  {
+   "k": "f668pf",
+   "en": "internal = <bool>"
+  },
+  {
+   "k": "on8xol",
+   "en": "⟦0⟧ whether the inlay window should be visible, when not visible, no evaluations will be done.",
+   "frags": 1
+  },
+  {
+   "k": "193f5qi",
+   "en": "visible = { ... }"
+  },
+  {
+   "k": "4ozzcx",
+   "en": "⟦0⟧ list of images that should have dynamic sprites. <button_name> = { ... } name of the button. available={ ... } List of triggers when the button is allowed to be pressed. click_effect={ ... } List of effects the button will have upon being pressed.",
+   "frags": 1
+  },
+  {
+   "k": "fa6tii",
+   "en": "scripted_buttons = { ... }"
+  },
+  {
+   "k": "dgr0u0",
+   "en": "⟦0⟧ name of the button. available={ ... } List of triggers when the button is allowed to be pressed. click_effect={ ... } List of effects the button will have upon being pressed.",
+   "frags": 1
+  },
+  {
+   "k": "dcpnvg",
+   "en": "<button_name> = { ... }"
+  },
+  {
+   "k": "1oioxyh",
+   "en": "⟦0⟧ List of triggers when the button is allowed to be pressed.",
+   "frags": 1
+  },
+  {
+   "k": "11unuh5",
+   "en": "available={ ... }"
+  },
+  {
+   "k": "1v86zkj",
+   "en": "⟦0⟧ List of effects the button will have upon being pressed.",
+   "frags": 1
+  },
+  {
+   "k": "18eyj3g",
+   "en": "click_effect={ ... }"
+  },
+  {
+   "k": "1gu43tb",
+   "en": "⟦0⟧ list of images that should have dynamic sprites. <icon_name> = { ... } name of the icon (must be a subcomponent of \"gui_component_name\"). List of possible gfx:es for the icon, first that evaluates to true is selected. <gfx_name> = { ... }/yes If a trigger is provided, then it will be evaluated with the country scope of the focus tree. If \"yes\" is set, then it will always be used. Note: \"yes\" is commonly the last entry in the list that acts as a default case.",
+   "frags": 1
+  },
+  {
+   "k": "ak8b3t",
+   "en": "scripted_images = { ... }"
+  },
+  {
+   "k": "la2l6l",
+   "en": "⟦0⟧ name of the icon (must be a subcomponent of \"gui_component_name\"). List of possible gfx:es for the icon, first that evaluates to true is selected. <gfx_name> = { ... }/yes If a trigger is provided, then it will be evaluated with the country scope of the focus tree. If \"yes\" is set, then it will always be used. Note: \"yes\" is commonly the last entry in the list that acts as a default case.",
+   "frags": 1
+  },
+  {
+   "k": "l4mp1d",
+   "en": "<icon_name> = { ... }"
+  },
+  {
+   "k": "6u7l83",
+   "en": "⟦0⟧ If a trigger is provided, then it will be evaluated with the country scope of the focus tree. If \"yes\" is set, then it will always be used. Note: \"yes\" is commonly the last entry in the list that acts as a default case.",
+   "frags": 1
+  },
+  {
+   "k": "7w1a51",
+   "en": "<gfx_name> = { ... }/yes"
+  },
+  {
+   "k": "1x90n71",
+   "en": "An example for inlay window definition:"
+  },
+  {
+   "k": "13b36fn",
+   "en": "Declaration"
+  },
+  {
+   "k": "spx0ly",
+   "en": "Inlay window must be declared in focus tree. Any number of inlay windows can be defined for focus tree."
+  },
+  {
+   "k": "fwk94m",
+   "en": "⟦0⟧ inlay window identifier.",
+   "frags": 1
+  },
+  {
+   "k": "js16rb",
+   "en": "id = inlay_window_id"
+  },
+  {
+   "k": "evvseh",
+   "en": "⟦0⟧ position on the tree, same syntax and scale as continuous focus position.",
+   "frags": 1
+  },
+  {
+   "k": "12ncppw",
+   "en": "position = { x = <int> y = <int> }"
+  },
+  {
+   "k": "1gd62k5",
+   "en": "An example declaration of inlay window is as such:"
+  },
+  {
+   "k": "k2esk3",
+   "en": "National focuses"
+  },
+  {
+   "k": "291wbo",
+   "en": "The ID for the focus is defined using ⟦0⟧. While it's optional to preface the focus' ID with the country's tag, doing so is preferred to avoid overlapping focus IDs from different focus trees. Having the same focus ID in different focus trees leads to errors, such as broken prerequisite lines and effects or triggers such as ⟦1⟧ or ⟦2⟧ not working correctly. Instead, it could be possible to use ⟦3⟧ to put the same focus in different focus trees.",
+   "frags": 4
+  },
+  {
+   "k": "9mg0tj",
+   "en": "id = TAG_focusname"
+  },
+  {
+   "k": "1ujojga",
+   "en": "complete_national_focus"
+  },
+  {
+   "k": "1rsa5sq",
+   "en": "has_completed_focus"
+  },
+  {
+   "k": "106oxds",
+   "en": "shared focuses"
+  },
+  {
+   "k": "iu2orh",
+   "en": "Name and description"
+  },
+  {
+   "k": "1eligr",
+   "en": "The name of the focus depending on the language that's turned on is defined within ⟦0⟧, using the ID of the focus as the localisation key. For English in particular, this is defined within any ⟦1⟧ file with the UTF-8-BOM encoding. It is preferable to use new localisation files when possible rather than overwriting base game localisation in order to not have to change that for compatibility with recent versions, and to do so, the file should have a new name that doesn't exist in base game, but it must still end with ⟦2⟧ to be loaded properly. The focus' ID is used as the localisation key used to establish the name in the enabled language, while a description uses the focus' ID with ⟦3⟧ appended:",
+   "frags": 4
+  },
+  {
+   "k": "1nh7umn",
+   "en": "/Hearts of Iron IV/localisation/"
+  },
+  {
+   "k": "1hl77c0",
+   "en": "/Hearts of Iron IV/localisation/english/*_l_english.yml"
+  },
+  {
+   "k": "xaq9yd",
+   "en": "_l_english.yml"
+  },
+  {
+   "k": "1sa4fyn",
+   "en": "_desc"
+  },
+  {
+   "k": "1283po4",
+   "en": "l_english"
+  },
+  {
+   "k": "24ygaq",
+   "en": "TAG_focus_name"
+  },
+  {
+   "k": "qcucm9",
+   "en": "\"Example"
+  },
+  {
+   "k": "1q3f38j",
+   "en": "focus\""
+  },
+  {
+   "k": "1tgzmnm",
+   "en": "TAG_focus_name_desc"
+  },
+  {
+   "k": "5l179v",
+   "en": "focus"
+  },
+  {
+   "k": "1nem3v5",
+   "en": "description\""
+  },
+  {
+   "k": "1quewx6",
+   "en": "Position"
+  },
+  {
+   "k": "1twepxy",
+   "en": "The position of the focus is decided via ⟦0⟧ and ⟦1⟧ attributes. By default, a unit of x is equal to 96 pixels and a unit of y is equal to 130 pixels⟦2⟧. In other words, a focus directly below another focus would have a unit difference of 1, while a focus directly to the right of another one would have a unit difference of 2. By default, this is relative to the top left corner of the tree: a larger x value moves the focus right, a larger y value moves the focus ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "jeu2lz",
+   "en": "x = 5"
+  },
+  {
+   "k": "7y3fs",
+   "en": "y = 1"
+  },
+  {
+   "k": "h4k3yt",
+   "en": "down"
+  },
+  {
+   "k": "18au978",
+   "en": "It is also possible ⟦0⟧ (on focuses with prerequisites) to make the focus' position be relative to another focus with doing ⟦1⟧. This will position the focus relative to that focus, adding the ⟦2⟧ and ⟦3⟧ values to the other focus' position (after calculating that one's relative_position_id too). Doing so allows for more flexibility in the focus tree design by allowing to easily modify the position of the entire branch at the same time, due to updates to the children focuses' positioning. This also allows to only use the later ⟦4⟧ only in the top focus of each branch that requires to be moved. For example, if focus A has ⟦5⟧, focus B is positioned relative to focus A and has ⟦6⟧, then the focus B will be positioned, in total, 4 steps to the right and 6 steps down of the top-left corner. A focus C positioned relative to focus B at ⟦7⟧ would then be located 3 steps to the right and 7 steps down of the top-left corner. The game can behave unstably with an incorrect relative position ID. A recursion (such as a focus being positioned relative to itself or focus A and focus B being positioned relative to each other) may cause a game crash since it is impossible to determine the exact position of the focus, and the focus must also be located in the same focus tree for the argument to work properly.",
+   "frags": 8
+  },
+  {
+   "k": "gkiy7v",
+   "en": "and preferred"
+  },
+  {
+   "k": "3cqnle",
+   "en": "relative_position_id = TAG_other_focus"
+  },
+  {
+   "k": "ldmtwd",
+   "en": "offset = { ... }"
+  },
+  {
+   "k": "1dfcu4d",
+   "en": "x = 1 y = 2"
+  },
+  {
+   "k": "1ehzmbl",
+   "en": "x = 3 y = 4"
+  },
+  {
+   "k": "1x93a89",
+   "en": "x = -1 y = 1"
+  },
+  {
+   "k": "i023no",
+   "en": "Changing a focus' position based on a condition being met is done with ⟦0⟧. The ⟦1⟧ and ⟦2⟧ values will be added to the focus' position if the conditions within ⟦3⟧ are met for the country ⟦4⟧. This looks like the following:",
+   "frags": 5
+  },
+  {
+   "k": "dtp16p",
+   "en": "x = 10"
+  },
+  {
+   "k": "9tyh71",
+   "en": "y = -3"
+  },
+  {
+   "k": "69dxsb",
+   "en": "when the focus tree is loaded"
+  },
+  {
+   "k": "1pvhu5t",
+   "en": "This in particular will move the focus 5 units to the left if the \"Poland: United and Ready\" DLC is turned on. This check also can be refreshed mid-session with the ⟦0⟧⟦1⟧, applying the offset if true.",
+   "frags": 2
+  },
+  {
+   "k": "1ar4x7h",
+   "en": "mark_focus_tree_layout_dirty effect"
+  },
+  {
+   "k": "1fut8px",
+   "en": "[d]"
+  },
+  {
+   "k": "15or86f",
+   "en": "Interaction with other focuses"
+  },
+  {
+   "k": "rl8mv5",
+   "en": "⟦0⟧ decides the focuses necessary to complete for this focus to be available. At least one focus within a prerequisite has to be completed to mark the prerequisite as true, and each prerequisite much be completed to take the focus. If neither of the prerequisites is located in the same focus tree, then the focus will not appear. In other words, an OR statement is done by putting 2 focuses inside a prerequisite as ⟦1⟧, while an AND statement is done by putting two different prerequisites like the following:",
+   "frags": 2
+  },
+  {
+   "k": "1kqc55j",
+   "en": "prerequisite = { focus = TAG_other_focus }"
+  },
+  {
+   "k": "g42qtz",
+   "en": "prerequisite = { focus = TAG_other_focus_1 focus = TAG_other_focus_2 }"
+  },
+  {
+   "k": "11i2z05",
+   "en": "This system cannot represent every boolean logical arrangement, such as ⟦0⟧ (Where ⟦1⟧ , ⟦2⟧ , and ⟦3⟧ represent whether a focus is complete) or with anything using negation. In this case, it can be possible to, instead, put an OR statement for either of the focuses necessary to complete this one and use the ⟦4⟧ trigger within the ⟦5⟧ block with necessary flow control tools. ⟦6⟧",
+   "frags": 7
+  },
+  {
+   "k": "wllbzm",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle A \\lor (B \\land C)}"
+  },
+  {
+   "k": "11g61z0",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle A}"
+  },
+  {
+   "k": "11fwlh3",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle B}"
+  },
+  {
+   "k": "12jy5qy",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle C}"
+  },
+  {
+   "k": "118yh83",
+   "en": "available = { ... }"
+  },
+  {
+   "k": "s2uhjp",
+   "en": "A custom trigger tooltip can be used to make it easier for the player to understand."
+  },
+  {
+   "k": "1ysr3ol",
+   "en": "⟦0⟧ makes this focus impossible to select if the specified focus has been completed. If both focuses are mutually exclusive toward each other, then the mutually exclusive arrows will be shown in the focus tree view. Mutual exclusivity to multiple focuses is usually done by putting several of ⟦1⟧ in the same mutually_exclusive, but defining several of mutually_exclusive is also possible.",
+   "frags": 2
+  },
+  {
+   "k": "1miqp7d",
+   "en": "mutually_exclusive = { focus = TAG_other_focus }"
+  }
+ ]
+}

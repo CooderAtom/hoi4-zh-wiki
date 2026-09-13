@@ -1,0 +1,963 @@
+{
+ "batch": 1315,
+ "pages": [
+  "Music modding",
+  "Arms Against Tyranny"
+ ],
+ "chars": 8420,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "ce8f88",
+   "en": "Music files are stored in the *.ogg format within the ⟦0⟧ folder or one of its subfolders.",
+   "frags": 1
+  },
+  {
+   "k": "lxu1ci",
+   "en": "/Hearts of Iron IV/music/"
+  },
+  {
+   "k": "sc1p4q",
+   "en": "The Music Mod Creation Tool is a quick and easy-to-use modding tool that will generate all the files described below to add music and a radio station to the game."
+  },
+  {
+   "k": "sky4l",
+   "en": "Song definition"
+  },
+  {
+   "k": "7iisgj",
+   "en": "Songs are defined within files of the *.asset format, located in the same folder as the *.ogg files. A definition is formatted as following:"
+  },
+  {
+   "k": "3k40hs",
+   "en": "⟦0⟧ is the song's ID, as well as its localisation key for name assignment within a ⟦1⟧ file as ⟦2⟧. It cannot contain more than 63 characters. ⟦3⟧ is the song's filename, including the *.ogg extension. ⟦4⟧ allows to adjust the volume of the *.ogg file without editing it.",
+   "frags": 5
+  },
+  {
+   "k": "136nuue",
+   "en": "name"
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "1xb0czq",
+   "en": "song_name:0 \"Song's Name\""
+  },
+  {
+   "k": "1bf856r",
+   "en": "file"
+  },
+  {
+   "k": "d08jnz",
+   "en": "volume"
+  },
+  {
+   "k": "akbxuy",
+   "en": "Assigning to a station"
+  },
+  {
+   "k": "hso11a",
+   "en": "In order to work properly, songs must be assigned to a station. The assignments are stored in *.txt files, within the same folder as the *.asset and *.ogg files. An assignment file, before defining any songs, must be assigned to a station. Multiple files can be assigned to the same station. This is done with the following line of code:"
+  },
+  {
+   "k": "7333fd",
+   "en": "A typical assignment of a song is formatted accordingly:"
+  },
+  {
+   "k": "1k484iw",
+   "en": "⟦0⟧ accepts the ID of the song, defined as its name within the *.asset file. ⟦1⟧ defines the chance for a song to be picked if the playmode is set to Weighted Shuffle. The allowed arguments are ⟦2⟧, for multiplying the chance, ⟦3⟧, for adding to the chance, and ⟦4⟧, replacing the chance entirely. ⟦5⟧ allows the argument to modify the chance only be executed if all of the ⟦6⟧ within are met.",
+   "frags": 7
+  },
+  {
+   "k": "4tgefo",
+   "en": "song"
+  },
+  {
+   "k": "14o2pq9",
+   "en": "chance"
+  },
+  {
+   "k": "pokujq",
+   "en": "factor"
+  },
+  {
+   "k": "gfk7lg",
+   "en": "add"
+  },
+  {
+   "k": "h5x2oo",
+   "en": "base"
+  },
+  {
+   "k": "akecc5",
+   "en": "modifier = {}"
+  },
+  {
+   "k": "1ka34g",
+   "en": "triggers"
+  },
+  {
+   "k": "12wxp3d",
+   "en": "Radio stations"
+  },
+  {
+   "k": "1ebsidh",
+   "en": "A radio station is defined as an ⟦0⟧ file, ⟦1⟧. The contents of the file are required to be the following, with ⟦2⟧ being replaced with the music station's name:",
+   "frags": 3
+  },
+  {
+   "k": "nq1l25",
+   "en": "user interface"
+  },
+  {
+   "k": "kbj8vh",
+   "en": "/Hearts of Iron IV/interface/*.gui"
+  },
+  {
+   "k": "1psox74",
+   "en": "<MUSIC STATION>"
+  },
+  {
+   "k": "1x3yb4c",
+   "en": "The name is assigned by using its ID as a ⟦0⟧ key within ⟦1⟧: ⟦2⟧. The album cover is assigned a sprite as the quadTextureSprite within select_station_button. A sprite must be defined within ⟦3⟧ as the following:",
+   "frags": 4
+  },
+  {
+   "k": "coj4nh",
+   "en": "localisation"
+  },
+  {
+   "k": "1us0n12",
+   "en": "/Hearts of Iron IV/localisation/<language>/*_l_<language>.yml"
+  },
+  {
+   "k": "14fyp3e",
+   "en": "<MUSIC STATION>:0 \"Music station's name\""
+  },
+  {
+   "k": "dw6d81",
+   "en": "/Hearts of Iron IV/interface/*.gfx"
+  },
+  {
+   "k": "1yplwqg",
+   "en": "The *.dds file must be split horizontally into 2 sprites: when it is unselected, and when it is selected."
+  },
+  {
+   "k": "59iejl",
+   "en": "Documentation"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "bbbsh0",
+   "en": "List of modifiers"
+  },
+  {
+   "k": "gkat0o",
+   "en": "Scopes"
+  },
+  {
+   "k": "22wvcr",
+   "en": "On actions"
+  },
+  {
+   "k": "10y68xx",
+   "en": "Data structures"
+  },
+  {
+   "k": "icm958",
+   "en": "Flags"
+  },
+  {
+   "k": "1fldcnt",
+   "en": "Event targets"
+  },
+  {
+   "k": "135tw29",
+   "en": "Country tag aliases"
+  },
+  {
+   "k": "xqivz6",
+   "en": "Variables"
+  },
+  {
+   "k": "14wbbvz",
+   "en": "Arrays"
+  },
+  {
+   "k": "wdu62e",
+   "en": "Scripting"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "475d63",
+   "en": "AI focuses"
+  },
+  {
+   "k": "gpz0z1",
+   "en": "Autonomous states"
+  },
+  {
+   "k": "a6cuzg",
+   "en": "Balances of power"
+  },
+  {
+   "k": "14khzdq",
+   "en": "Bookmarks/Scenarios"
+  },
+  {
+   "k": "xrnqxs",
+   "en": "Game rules"
+  },
+  {
+   "k": "1xa6gia",
+   "en": "Buildings"
+  },
+  {
+   "k": "8657g9",
+   "en": "Characters and traits"
+  },
+  {
+   "k": "o977ej",
+   "en": "Cosmetic tags"
+  },
+  {
+   "k": "8zhvfx",
+   "en": "Countries"
+  },
+  {
+   "k": "19eysrz",
+   "en": "Divisions"
+  },
+  {
+   "k": "vwifyo",
+   "en": "Decisions"
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "1xtq0ev",
+   "en": "Equipment"
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "e65ons",
+   "en": "Factions"
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "1cd8sst",
+   "en": "Ideologies"
+  },
+  {
+   "k": "1oopcvp",
+   "en": "Military industrial organizations"
+  },
+  {
+   "k": "k2esk3",
+   "en": "National focuses"
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "uu0bc4",
+   "en": "Scripted GUI"
+  },
+  {
+   "k": "1jzxqx9",
+   "en": "Technologies and doctrines"
+  },
+  {
+   "k": "ur18vw",
+   "en": "Units"
+  },
+  {
+   "k": "j1sac1",
+   "en": "Map"
+  },
+  {
+   "k": "5afzz",
+   "en": "States"
+  },
+  {
+   "k": "8ppvas",
+   "en": "Supply areas"
+  },
+  {
+   "k": "1v2pifw",
+   "en": "Strategic regions"
+  },
+  {
+   "k": "1cffeuu",
+   "en": "Graphical"
+  },
+  {
+   "k": "yolbkg",
+   "en": "Interface"
+  },
+  {
+   "k": "2hqnqn",
+   "en": "Graphical assets"
+  },
+  {
+   "k": "6px9my",
+   "en": "Entities"
+  },
+  {
+   "k": "1n1sxcz",
+   "en": "Posteffects"
+  },
+  {
+   "k": "1fu6htw",
+   "en": "Particles"
+  },
+  {
+   "k": "t16z95",
+   "en": "Fonts"
+  },
+  {
+   "k": "1ig52hy",
+   "en": "Cosmetic"
+  },
+  {
+   "k": "9k7pgr",
+   "en": "Portraits"
+  },
+  {
+   "k": "65pf3n",
+   "en": "Namelists"
+  },
+  {
+   "k": "ohwdis",
+   "en": "Music"
+  },
+  {
+   "k": "1dvvwok",
+   "en": "Sound"
+  },
+  {
+   "k": "ukzedx",
+   "en": "Other"
+  },
+  {
+   "k": "1uzifys",
+   "en": "Console commands"
+  },
+  {
+   "k": "1t5bxxt",
+   "en": "Troubleshooting"
+  },
+  {
+   "k": "1djsobe",
+   "en": "Mod structure"
+  },
+  {
+   "k": "pw0jjk",
+   "en": "Mods"
+  },
+  {
+   "k": "pui2ou",
+   "en": "Nudger"
+  },
+  {
+   "k": "1o3asdj",
+   "en": "⟦0⟧ is the 6th ⟦1⟧ for ⟦2⟧. It was announced on 2023-06-07⟦3⟧ and was released on 2023-10-10⟦4⟧. The expansion coincides with patch 1.13.",
+   "frags": 5
+  },
+  {
+   "k": "1gcwzb4",
+   "en": "Arms Against Tyranny"
+  },
+  {
+   "k": "1eagkhe",
+   "en": "expansion"
+  },
+  {
+   "k": "dmo6mc",
+   "en": "Hearts of Iron IV"
+  },
+  {
+   "k": "15d2oo1",
+   "en": "Expansion features"
+  },
+  {
+   "k": "1mcdrie",
+   "en": "Four Northern democracies are seemingly helpless against nearby predatory dictatorships. Despite their size, Finland, Norway, Denmark, and Sweden have a chance to avoid conquest through clever diplomacy or fierce resistance. Write a new history of the Nordic countries in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1vlpnpe",
+   "en": "HoI4: Arms Against Tyranny"
+  },
+  {
+   "k": "ijtmyz",
+   "en": "The expansion adds new focus trees and alternate histories for the northernmost nations of Europe, customization of weapons manufacturers, and new ways to take advantage of neutrality to profit your own citizens."
+  },
+  {
+   "k": "147w8q4",
+   "en": "Features include:"
+  },
+  {
+   "k": "5ub885",
+   "en": "⟦0⟧: Relive the defining moment of ⟦1⟧ history, defying the odds in a war against a much more powerful Soviet adversary. Though disadvantaged in air and armored forces, Finnish forces have a strong advantage on homeland defense, so you should prepare an army specifically designed for Finland's terrain to fight invaders. Or, if you prefer, write your own history, strengthening Fascist sympathizers who want a Greater Finland or pursuing a socialist path - with or without Soviet support.",
+   "frags": 2
+  },
+  {
+   "k": "1mobhwj",
+   "en": "The Winter War"
+  },
+  {
+   "k": "1uwnfv8",
+   "en": "Finnish"
+  },
+  {
+   "k": "fdvbrl",
+   "en": "⟦0⟧: The richest of the Nordic nations, Sweden is well-suited to a path of vigorous neutrality and to serve as both an arms designer and arms trader. Strong unions risk crippling unstable governments unless you can provide enough work. In a world on fire, Sweden must also upgrade its obsolete forces so it can defend itself. Can the Swedish democracy avoid taking the side of its occupied neighbors, or will the government collapse in favor of monarchist or Fascist alternatives?",
+   "frags": 1
+  },
+  {
+   "k": "kyiw43",
+   "en": "A Powerful ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1he15ql",
+   "en": "Sweden"
+  },
+  {
+   "k": "emoilj",
+   "en": "⟦0⟧: Relive the historical challenge of a young industrializing nation trying to stay neutral in the face of German aggression or prepare for war by quickly arming to resist the war that is coming to your doorstep. In alternate historical paths, unscrupulous domestic fascists may take advantage of domestic complacency and pursue Nordic union through betrayal, or a Communist revolution can choose to stand with or against Stalin's regime.",
+   "frags": 1
+  },
+  {
+   "k": "1p64buf",
+   "en": "Norway"
+  },
+  {
+   "k": "sw15tk",
+   "en": "⟦0⟧: A long-standing policy of neutrality leaves Denmark unready for a continental war. Pursue the course of domestic harmony through a strong welfare state and agile diplomacy, or throw in with the democratic Allies, rearming for the coming storm. Alternate paths include chasing the dream of a united Scandinavia, reviving the old Kalmar Union.",
+   "frags": 1
+  },
+  {
+   "k": "itga65",
+   "en": "Denmark"
+  },
+  {
+   "k": "9an441",
+   "en": "⟦0⟧: To make sure you have an industry that matches your ambitions, national manufacturers and weapons designers can specialize their craft, improving the production and research of various items through the course of the war. ⟦1⟧ will offer new ways to streamline production lines or develop high-performance weapons systems with advantages on the battlefield.",
+   "frags": 2
+  },
+  {
+   "k": "6aw8lj",
+   "en": "A War Machine of Your Design"
+  },
+  {
+   "k": "1wdvmwl",
+   "en": "Military Industrial Organizations"
+  },
+  {
+   "k": "zia0vd",
+   "en": "⟦0⟧: In the new ⟦1⟧, you can become an arms exporting powerhouse, selling weapons to other nations in return for civilian factory output, increasing your own industrial production at home while fueling the fires of war abroad. This is a new way for rich and advanced neutral nations to stay viable and active in a world war.",
+   "frags": 2
+  },
+  {
+   "k": "415vgp",
+   "en": "Guns for Butter"
+  },
+  {
+   "k": "6bam3x",
+   "en": "International Market"
+  },
+  {
+   "k": "1yhd9fw",
+   "en": "⟦0⟧: Many updates and changes to the design and organization of military divisions, including customization of special forces units, divisional specializations, and more.",
+   "frags": 1
+  },
+  {
+   "k": "1u6qq9y",
+   "en": "New Military Options"
+  },
+  {
+   "k": "1p0vtx",
+   "en": "⟦0⟧: New unit art, including Finnish snowmobile brigades, and 10 new songs inspired by the key cultures in Arms Against Tyranny.",
+   "frags": 1
+  },
+  {
+   "k": "u14wku",
+   "en": "New Art and Music"
+  },
+  {
+   "k": "rknizx",
+   "en": "Videos"
+  },
+  {
+   "k": "1xx798e",
+   "en": "Cinematic trailers"
+  },
+  {
+   "k": "lfz2yn",
+   "en": "Video diaries"
+  },
+  {
+   "k": "vadd2s",
+   "en": "Tutorials"
+  },
+  {
+   "k": "sz859i",
+   "en": "Developer diaries"
+  },
+  {
+   "k": "o4jbad",
+   "en": "Main article: Developer diaries"
+  },
+  {
+   "k": "p2oa6t",
+   "en": "All developer diaries about the ⟦0⟧ expansion and ⟦1⟧ (aka Stella Polaris).",
+   "frags": 2
+  },
+  {
+   "k": "55q3n4",
+   "en": "patch 1.13"
+  },
+  {
+   "k": "dd21hg",
+   "en": "Patch 1.13 (Stella Polaris)"
+  },
+  {
+   "k": "mtgzbw",
+   "en": "No."
+  },
+  {
+   "k": "skqstg",
+   "en": "Title and Link"
+  },
+  {
+   "k": "sjj37t",
+   "en": "Description"
+  },
+  {
+   "k": "ggjuyh",
+   "en": "Date"
+  },
+  {
+   "k": "1sgbcrh",
+   "en": "Performance & Changelog"
+  },
+  {
+   "k": "17mx9hs",
+   "en": "Performance and changelog of patch 1.13"
+  },
+  {
+   "k": "1jx4f6k",
+   "en": "Art & Achievements"
+  },
+  {
+   "k": "sxy0l5",
+   "en": "Art and achievements of ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "mkmubf",
+   "en": "Update on the international market system"
+  },
+  {
+   "k": "58sq2u",
+   "en": "Military Industrial Organisations"
+  },
+  {
+   "k": "1w9dvyu",
+   "en": "Update on the MIO system"
+  },
+  {
+   "k": "1xmrwlc",
+   "en": "Finland Alt History"
+  },
+  {
+   "k": "19flm1e",
+   "en": "Alternate history paths for Finland"
+  },
+  {
+   "k": "s02432",
+   "en": "Modding!"
+  },
+  {
+   "k": "1k3o5s0",
+   "en": "New mod tools added in ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1e0db9y",
+   "en": "Denmark Alt History"
+  },
+  {
+   "k": "13ng980",
+   "en": "Alternate history paths for Denmark"
+  },
+  {
+   "k": "1bgrdty",
+   "en": "Sweden Alt History"
+  },
+  {
+   "k": "eh5dku",
+   "en": "Alternate history paths for Sweden"
+  },
+  {
+   "k": "194r09w",
+   "en": "Norway Alt History"
+  },
+  {
+   "k": "1kle9xg",
+   "en": "Alternate history paths for Norway"
+  },
+  {
+   "k": "a11s41",
+   "en": "Tech"
+  },
+  {
+   "k": "1hw2wyp",
+   "en": "AI for the new international market feature"
+  },
+  {
+   "k": "1jjsf2s",
+   "en": "Small Features #2"
+  },
+  {
+   "k": "6ywntg",
+   "en": "Introduction of special forces doctrines"
+  },
+  {
+   "k": "1jzz9e9",
+   "en": "Joint Focus Tree"
+  },
+  {
+   "k": "1suxrt3",
+   "en": "Introduction of joint focus trees"
+  },
+  {
+   "k": "1kdr85p",
+   "en": "Small Features #1"
+  },
+  {
+   "k": "natjtn",
+   "en": "Changes or additions to division structure, economy, and presets, as well as some QoL improvements"
+  },
+  {
+   "k": "13ad3vq",
+   "en": "3D Art!"
+  },
+  {
+   "k": "1i40dbp",
+   "en": "Behind-the-scenes look at 3D art in ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1737nra",
+   "en": "Summer Open Beta"
+  },
+  {
+   "k": "1ipinvm",
+   "en": "Beta testing some of the balance changes that come with patch 1.13"
+  },
+  {
+   "k": "rxvv63",
+   "en": "Historical Denmark"
+  },
+  {
+   "k": "idgqs5",
+   "en": "Historical Denmark focus tree, national spirits, and decisions"
+  },
+  {
+   "k": "1ko1gr1",
+   "en": "Historical Norway"
+  },
+  {
+   "k": "16u8h0r",
+   "en": "Historical Norway focus tree, national spirits, and decisions"
+  },
+  {
+   "k": "1wrq5qv",
+   "en": "Historical Sweden"
+  },
+  {
+   "k": "2hitdd",
+   "en": "Historical Sweden focus tree, national spirits, and decisions"
+  },
+  {
+   "k": "15lfcsp",
+   "en": "Historical Finland"
+  },
+  {
+   "k": "ey907f",
+   "en": "Arms Against Tyranny announcement and historical Finland content"
+  },
+  {
+   "k": "e31tgn",
+   "en": "Developer Corners"
+  },
+  {
+   "k": "16pgs87",
+   "en": "Support Companies"
+  },
+  {
+   "k": "nrdun1",
+   "en": "Support companies rework plus accompanied land doctrine changes"
+  },
+  {
+   "k": "15xk9tv",
+   "en": "International market introduction"
+  },
+  {
+   "k": "1b6q1ys",
+   "en": "Military Industrial Orgs"
+  },
+  {
+   "k": "wnrafi",
+   "en": "Military industrial organisations introduction"
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "1qsxtp1",
+   "en": "Forum, Announcement - Hearts of Iron 4: Arms Against Tyranny, 2023-06-07."
+  },
+  {
+   "k": "9q6g14",
+   "en": "Forum, Arms Against Tyranny Available NOW!, 2023-10-10."
+  },
+  {
+   "k": "p7yux8",
+   "en": "Flag of Finland"
+  },
+  {
+   "k": "dzkvs4",
+   "en": "Flag of Sweden"
+  },
+  {
+   "k": "fmkrcm",
+   "en": "Flag of Norway"
+  },
+  {
+   "k": "d8by42",
+   "en": "Flag of Denmark"
+  }
+ ]
+}

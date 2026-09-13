@@ -1,0 +1,656 @@
+{
+ "page": "Modifiers",
+ "from": 260,
+ "items": [
+  {
+   "k": "rpu71f",
+   "en": "defensive_war_stability_factor",
+   "zh": ""
+  },
+  {
+   "k": "1gahcsi",
+   "en": "Changes the penalty to the stability invoked by participating in a defensive war.",
+   "zh": ""
+  },
+  {
+   "k": "1abukc9",
+   "en": "defensive_war_stability_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "f6kvjy",
+   "en": "disabled_ideas",
+   "zh": ""
+  },
+  {
+   "k": "r106gc",
+   "en": "Disables manually changing ideas (including ministers and laws).",
+   "zh": ""
+  },
+  {
+   "k": "a137nu",
+   "en": "disabled_ideas = 1",
+   "zh": ""
+  },
+  {
+   "k": "qghi5b",
+   "en": "<idea|character slot>_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "14rer9n",
+   "en": "Changes the cost in political power to add an idea or character within the specified slot.",
+   "zh": ""
+  },
+  {
+   "k": "wurrq3",
+   "en": "political_advisor_cost_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "oox19t",
+   "en": "Idea slots can be found in common/idea_tags. ⟦0⟧",
+   "zh": ""
+  },
+  {
+   "k": "ln0ib1",
+   "en": "Requires an idea or a character of that category to be present in an earlier-evaluated file.",
+   "zh": ""
+  },
+  {
+   "k": "6nq9m2",
+   "en": "<idea category type>_category_type_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "16bmh4c",
+   "en": "Changes the cost in army experience to add an idea within any of the categories with the specified type.",
+   "zh": ""
+  },
+  {
+   "k": "16hnbh7",
+   "en": "air_spirit_category_type_cost_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1th8k4f",
+   "en": "Idea category definitions can be found in ⟦0⟧ files, a type is assigned with ⟦1⟧.",
+   "zh": ""
+  },
+  {
+   "k": "axjejy",
+   "en": "/Hearts of Iron IV/common/idea_tags/*.txt",
+   "zh": ""
+  },
+  {
+   "k": "19n8xfl",
+   "en": "type = army_spirit",
+   "zh": ""
+  },
+  {
+   "k": "nb04mp",
+   "en": "<ledger>_advisor_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "jou5rv",
+   "en": "Changes the cost in political power to add an advisor assigned the specified military ledger.",
+   "zh": ""
+  },
+  {
+   "k": "8k25zw",
+   "en": "air_advisor_cost_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "82beg1",
+   "en": "Ledgers are assigned to categories and characters in common/idea_tags and common/ideas. Modifier works with air, army, and navy.",
+   "zh": ""
+  },
+  {
+   "k": "138b0s3",
+   "en": "unit_leader_as_advisor_cp_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "1797d8i",
+   "en": "Changes the cost in command power to turn a unit leader into an advisor.",
+   "zh": ""
+  },
+  {
+   "k": "17ze4bt",
+   "en": "unit_leader_as_advisor_cp_cost_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "rhidjp",
+   "en": "improve_relations_maintain_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "n2sf6j",
+   "en": "Changes the cost in political power to maintain improvement of relations.",
+   "zh": ""
+  },
+  {
+   "k": "19llarr",
+   "en": "improve_relations_maintain_cost_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "8qkzvd",
+   "en": "female_random_country_leader_chance",
+   "zh": ""
+  },
+  {
+   "k": "2hu1k4",
+   "en": "Changes the chance for a randomly-generated country leader to be female.",
+   "zh": ""
+  },
+  {
+   "k": "bn2tfp",
+   "en": "female_random_country_leader_chance = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1ru5j11",
+   "en": "offensive_war_stability_factor",
+   "zh": ""
+  },
+  {
+   "k": "1h5s0b",
+   "en": "Modifies the stability penalty received from participating in an offensive war.",
+   "zh": ""
+  },
+  {
+   "k": "1ocsvmp",
+   "en": "offensive_war_stability_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1y6e1uz",
+   "en": "party_popularity_stability_factor",
+   "zh": ""
+  },
+  {
+   "k": "xmjd11",
+   "en": "Modifies the stability gained by the popularity of the ruling party.",
+   "zh": ""
+  },
+  {
+   "k": "gc7c3r",
+   "en": "party_popularity_stability_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "19dkp52",
+   "en": "political_power_cost",
+   "zh": ""
+  },
+  {
+   "k": "1iaxfb2",
+   "en": "Daily cost in political power.",
+   "zh": ""
+  },
+  {
+   "k": "1739zhy",
+   "en": "political_power_cost = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1cylh88",
+   "en": "political_power_gain",
+   "zh": ""
+  },
+  {
+   "k": "1jru8eo",
+   "en": "Modifies daily gain in political power.",
+   "zh": ""
+  },
+  {
+   "k": "1e3tul4",
+   "en": "political_power_gain = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "ct0ro0",
+   "en": "political_power_factor",
+   "zh": ""
+  },
+  {
+   "k": "150wttu",
+   "en": "Modifies daily gain in political power by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1ikx11s",
+   "en": "political_power_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "62ckty",
+   "en": "stability_factor",
+   "zh": ""
+  },
+  {
+   "k": "e6wame",
+   "en": "Modifies stability of the country.",
+   "zh": ""
+  },
+  {
+   "k": "nconye",
+   "en": "stability_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "16xeose",
+   "en": "stability_weekly",
+   "zh": ""
+  },
+  {
+   "k": "1bfo6p6",
+   "en": "Modifies weekly stability gain of the country.",
+   "zh": ""
+  },
+  {
+   "k": "r4ic72",
+   "en": "stability_weekly = 0.01",
+   "zh": ""
+  },
+  {
+   "k": "1cq436k",
+   "en": "stability_weekly_factor",
+   "zh": ""
+  },
+  {
+   "k": "1iih37c",
+   "en": "Modifies weekly stability gain of the country by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "cb5ph8",
+   "en": "stability_weekly_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1exnq6p",
+   "en": "war_stability_factor",
+   "zh": ""
+  },
+  {
+   "k": "15yilg8",
+   "en": "Modifies the stability loss caused by being at war.",
+   "zh": ""
+  },
+  {
+   "k": "1gzahgd",
+   "en": "war_stability_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1sfuuup",
+   "en": "war_support_factor",
+   "zh": ""
+  },
+  {
+   "k": "1aqcw1g",
+   "en": "Modifies war support of the country.",
+   "zh": ""
+  },
+  {
+   "k": "1rd2ev1",
+   "en": "war_support_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1008h29",
+   "en": "war_support_weekly",
+   "zh": ""
+  },
+  {
+   "k": "109x48g",
+   "en": "Modifies weekly war support gain of the country.",
+   "zh": ""
+  },
+  {
+   "k": "aqd7i7",
+   "en": "war_support_weekly = 0.01",
+   "zh": ""
+  },
+  {
+   "k": "1es3l59",
+   "en": "war_support_weekly_factor",
+   "zh": ""
+  },
+  {
+   "k": "e72ujm",
+   "en": "Modifies weekly war support gain of the country by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1qaac61",
+   "en": "war_support_weekly_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "12vck4c",
+   "en": "weekly_casualties_war_support",
+   "zh": ""
+  },
+  {
+   "k": "18epju2",
+   "en": "Modifies weekly war support gain of the country depending on the casualties suffered by it.",
+   "zh": ""
+  },
+  {
+   "k": "r1dnpn",
+   "en": "weekly_casualties_war_support = 0.006",
+   "zh": ""
+  },
+  {
+   "k": "ndnjlv",
+   "en": "weekly_convoys_war_support",
+   "zh": ""
+  },
+  {
+   "k": "jl6je0",
+   "en": "Modifies weekly war support gain of the country depending on the amount of its convoys that have been sunk.",
+   "zh": ""
+  },
+  {
+   "k": "aoqmq8",
+   "en": "weekly_convoys_war_support = 0.006",
+   "zh": ""
+  },
+  {
+   "k": "509jbg",
+   "en": "weekly_bombing_war_support",
+   "zh": ""
+  },
+  {
+   "k": "22ky0d",
+   "en": "Modifies weekly war support gain of the country depending on the enemy bombing of its states.",
+   "zh": ""
+  },
+  {
+   "k": "1wlksyj",
+   "en": "weekly_bombing_war_support = 0.006",
+   "zh": ""
+  },
+  {
+   "k": "1356tln",
+   "en": "drift_defence_factor",
+   "zh": ""
+  },
+  {
+   "k": "1ry16ns",
+   "en": "Ideology drift defense.",
+   "zh": ""
+  },
+  {
+   "k": "1ctcxxz",
+   "en": "drift_defence_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "3gzv1f",
+   "en": "Pushes the power balance by a specified amount on each day.",
+   "zh": ""
+  },
+  {
+   "k": "160gy85",
+   "en": "power_balance_daily = 0.01",
+   "zh": ""
+  },
+  {
+   "k": "1b4g4yw",
+   "en": "Positive values result in it being pushed right, while negatives result in it being pushed left.",
+   "zh": ""
+  },
+  {
+   "k": "1p58xaf",
+   "en": "Pushes the power balance by a specified amount on each week.",
+   "zh": ""
+  },
+  {
+   "k": "1k0wib",
+   "en": "power_balance_weekly = 0.01",
+   "zh": ""
+  },
+  {
+   "k": "1glbxfn",
+   "en": "<ideology>_drift",
+   "zh": ""
+  },
+  {
+   "k": "hxdhkx",
+   "en": "Daily gain of the specified ideology.",
+   "zh": ""
+  },
+  {
+   "k": "w9m50p",
+   "en": "communism_drift = 0.03",
+   "zh": ""
+  },
+  {
+   "k": "17tjjwb",
+   "en": "<ideology>_acceptance",
+   "zh": ""
+  },
+  {
+   "k": "c4v3zk",
+   "en": "Likelihood of AI to accept offers from countries of the specified ideology.",
+   "zh": ""
+  },
+  {
+   "k": "1vg7jdv",
+   "en": "fascism_acceptance = 50",
+   "zh": ""
+  },
+  {
+   "k": "pfiveu",
+   "en": "civil_war_involvement_tension",
+   "zh": ""
+  },
+  {
+   "k": "b3251e",
+   "en": "Changes the world tension amount necessary to intervene in an ally's civil war.",
+   "zh": ""
+  },
+  {
+   "k": "czw2u4",
+   "en": "civil_war_involvement_tension = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "sdxocm",
+   "en": "enemy_declare_war_tension",
+   "zh": ""
+  },
+  {
+   "k": "ry918g",
+   "en": "Changes the world tension required for an enemy to justify a wargoal on us.",
+   "zh": ""
+  },
+  {
+   "k": "9m24ik",
+   "en": "enemy_declare_war_tension = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1lwnu47",
+   "en": "enemy_justify_war_goal_time",
+   "zh": ""
+  },
+  {
+   "k": "1tvzb8p",
+   "en": "Changes the time required for an enemy to justify a wargoal on us.",
+   "zh": ""
+  },
+  {
+   "k": "1wiklph",
+   "en": "enemy_justify_war_goal_time = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1rskxcv",
+   "en": "This also modifies the cost in political power.",
+   "zh": ""
+  },
+  {
+   "k": "m9kch3",
+   "en": "faction_trade_opinion_factor",
+   "zh": ""
+  },
+  {
+   "k": "3aefky",
+   "en": "Changes the opinion gain gained by trade between faction members.",
+   "zh": ""
+  },
+  {
+   "k": "87npit",
+   "en": "faction_trade_opinion_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1lll601",
+   "en": "generate_wargoal_tension",
+   "zh": ""
+  },
+  {
+   "k": "23y0gb",
+   "en": "Changes the necessary tension for us to generate a wargoal.",
+   "zh": ""
+  },
+  {
+   "k": "2rj37x",
+   "en": "generate_wargoal_tension = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1qgpvpf",
+   "en": "guarantee_cost",
+   "zh": ""
+  },
+  {
+   "k": "1dx81ru",
+   "en": "Cost in political power for the country to guarantee an another country.",
+   "zh": ""
+  },
+  {
+   "k": "1wes88v",
+   "en": "guarantee_cost = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1nio294",
+   "en": "guarantee_tension",
+   "zh": ""
+  },
+  {
+   "k": "1fon5if",
+   "en": "Necessary world tension for the country to guarantee an another country.",
+   "zh": ""
+  },
+  {
+   "k": "1jjqc2w",
+   "en": "guarantee_tension = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1d4nw8v",
+   "en": "join_faction_tension",
+   "zh": ""
+  },
+  {
+   "k": "7x8ccm",
+   "en": "Necessary world tension for the country to join a faction.",
+   "zh": ""
+  },
+  {
+   "k": "c53baz",
+   "en": "join_faction_tension = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "ce323w",
+   "en": "justify_war_goal_time",
+   "zh": ""
+  },
+  {
+   "k": "16phcz6",
+   "en": "The amount of time necessary to justify a wargoal.",
+   "zh": ""
+  },
+  {
+   "k": "eodj8s",
+   "en": "justify_war_goal_time = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1hxsvsy",
+   "en": "justify_war_goal_when_in_major_war_time",
+   "zh": ""
+  },
+  {
+   "k": "1wo82as",
+   "en": "The amount of time necessary to justify a wargoal when in a war with a major country.",
+   "zh": ""
+  },
+  {
+   "k": "h02iaa",
+   "en": "justify_war_goal_when_in_major_war_time = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1dnczbs",
+   "en": "lend_lease_tension",
+   "zh": ""
+  },
+  {
+   "k": "1xm1ny9",
+   "en": "Necessary world tension for the country to lend-lease.",
+   "zh": ""
+  },
+  {
+   "k": "1djci60",
+   "en": "lend_lease_tension = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "l8o81j",
+   "en": "lend_lease_tension_with_overlord",
+   "zh": ""
+  },
+  {
+   "k": "prpp65",
+   "en": "Necessary world tension for the country to lend-lease to its overlord.",
+   "zh": ""
+  },
+  {
+   "k": "1xxc92r",
+   "en": "lend_lease_tension_with_overlord = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "i1avn7",
+   "en": "opinion_gain_monthly",
+   "zh": ""
+  },
+  {
+   "k": "5mdz31",
+   "en": "Changes opinion gain from the 'Improve relations' diplomatic action.",
+   "zh": ""
+  },
+  {
+   "k": "tpliwj",
+   "en": "opinion_gain_monthly = 5",
+   "zh": ""
+  },
+  {
+   "k": "qgaggf",
+   "en": "opinion_gain_monthly_factor",
+   "zh": ""
+  }
+ ]
+}

@@ -1,0 +1,843 @@
+{
+ "batch": 877,
+ "pages": [
+  "Patch 1.17.X"
+ ],
+ "chars": 14912,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1frnhy3",
+   "en": "⟦0⟧ are all patches beginning with 1.17.",
+   "frags": 1
+  },
+  {
+   "k": "1ir9y0a",
+   "en": "Patch 1.17.X"
+  },
+  {
+   "k": "1gtb6jl",
+   "en": "Main article: Patch 1.17"
+  },
+  {
+   "k": "mfaahb",
+   "en": "Hotfix 1.17.0.1, was released on 2025-11-21⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1yfa3ud",
+   "en": "645a"
+  },
+  {
+   "k": "1ymsk4d",
+   "en": "Feature"
+  },
+  {
+   "k": "mj9gm6",
+   "en": "Added an 'immobile' cohesion setting, which turns off all automatic relocation for units attached to a battleplan. Planning speed is halved while using this setting. Shift+D hotkey will now open the cohesion menu in the battleplanning UI. (Arheo worked all night to get this in!)"
+  },
+  {
+   "k": "mp1saw",
+   "en": "Bugfix"
+  },
+  {
+   "k": "1g8dqut",
+   "en": "Fixed issue where Naval HQ window could not be scrolled with mouse wheel"
+  },
+  {
+   "k": "r5r0rw",
+   "en": "Fixed a bug where the Naval HQ naval leader window would not update when you add a new admiral"
+  },
+  {
+   "k": "1u69jem",
+   "en": "Fixed crash when switching to the 1939 scenario after loading a save"
+  },
+  {
+   "k": "1pubr9v",
+   "en": "Fixed a bug where, without \"No Compromise, No Surrender\", Tannu Tuva had great ambition and was not afraid to show it"
+  },
+  {
+   "k": "9znkbs",
+   "en": "Fixed a bug where, without \"No Compromise, No Surrender\", Poland would not get invited to the allies"
+  },
+  {
+   "k": "1m80hj2",
+   "en": "Patch 1.17.1, was released on 2025-11-26⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1brl7n7",
+   "en": "922a"
+  },
+  {
+   "k": "kxxksr",
+   "en": "Balance"
+  },
+  {
+   "k": "k8nb6j",
+   "en": "Adjusted the surrender limit bonuses Chiang Kai Shek and Wang Jingwei can receive through the Chinese focus tree."
+  },
+  {
+   "k": "13xyx0d",
+   "en": "Reduced time cost for the Japanese focus “The Military Ministers' Attaché System” to 35 days, and adjusted the AI strategy plans to take this into account."
+  },
+  {
+   "k": "rkqlkz",
+   "en": "Philippines: Subject... Surrender branch rebalance - decreased resistance targets, increased damage to garrisons."
+  },
+  {
+   "k": "1p0k12n",
+   "en": "Japan now receives a slight malus to mastery gain from the Surprise Invasion modifier. Added the Densely Populated Rural Area modifier to a few more appropriate states in China."
+  },
+  {
+   "k": "xanax1",
+   "en": "The Japanese focus “7075 Aluminium Alloy” now provides 5 aluminium in Osaka instead of 25% air breakthrough progress, and the focus “Develop New Fighters” now gives slightly bigger bonuses to air breakthrough and ahead of time penalty reduction for light planes."
+  },
+  {
+   "k": "2txov1",
+   "en": "Changed “Military Infrastructure” faction goal requirements to be more lenient."
+  },
+  {
+   "k": "3kg0a4",
+   "en": "Increased “Indifference is a Threat” non-aligned country limit to be more lenient."
+  },
+  {
+   "k": "117nowe",
+   "en": "Drastically reduced manpower requirement for “The Red Tide” goal, and increased reward."
+  },
+  {
+   "k": "12zx45h",
+   "en": "Added more subject countries to the “Eastern European Security” goal."
+  },
+  {
+   "k": "mzs9y",
+   "en": "Added faction initiative reward to “One Germany” goal."
+  },
+  {
+   "k": "13ngpw9",
+   "en": "Reduced requirements and increased reward for “Building up Guam” goal."
+  },
+  {
+   "k": "s38mi2",
+   "en": "Increased “Organize the Resistance” goal rewards."
+  },
+  {
+   "k": "eo18og",
+   "en": "Drastically increased rewards for “Maintain Control of the (Chinese) Coastline” goal."
+  },
+  {
+   "k": "1ghtox",
+   "en": "Drastically increased rewards for “Throw Out the Invaders” goal."
+  },
+  {
+   "k": "8mmjf1",
+   "en": "Increased reward for “Control the Chinese Capitals” goal."
+  },
+  {
+   "k": "1hyqj3f",
+   "en": "Increased reward for “Align China” goal."
+  },
+  {
+   "k": "19rdzrg",
+   "en": "The focus “Shifting the Balance” for democratic China now has alternative requirements and ideologically unavailable advisors are now hidden when going down the democratic path."
+  },
+  {
+   "k": "1wazbrv",
+   "en": "The focus “Championing the Cause of Liberty” now grants a research slot"
+  },
+  {
+   "k": "1pliimx",
+   "en": "Added 15 tungsten to Fujian province."
+  },
+  {
+   "k": "nwlohl",
+   "en": "The \"Chinese United Front\" faction manifest now gives up to 10% core defence the lower the manifest fulfilment is."
+  },
+  {
+   "k": "wk8cpl",
+   "en": "Lowered the starting malus of the Chinese National Spirit \"Inefficient Economy\" from -40% to -35%."
+  },
+  {
+   "k": "1oxu8ak",
+   "en": "Slight tweaks to sub doctrine mastery bonuses."
+  },
+  {
+   "k": "1pxt5cx",
+   "en": "Basic Submarine Snorkel technology moved from 1940 to 1939 and Improved Submarine Snorkel moved from 1944 to 1943."
+  },
+  {
+   "k": "61ziv4",
+   "en": "AIP-Diesel Combination Engines technology moved from 1940 to 1939 and High-Speed Walter Engines moved from 1944 to 1943."
+  },
+  {
+   "k": "1eilh5f",
+   "en": "Improved Dual-Purpose Battery technology moved from 1939 to 1940."
+  },
+  {
+   "k": "1pmq6nn",
+   "en": "Ice Composite Runways technology moved from 1945 to 1944."
+  },
+  {
+   "k": "5p2aew",
+   "en": "Added information on Transport Ships that they are the unlock condition for Support Ships Special Project."
+  },
+  {
+   "k": "njvswd",
+   "en": "Naval Dominance now requires 60% control ratio, from 66%"
+  },
+  {
+   "k": "1aes9w5",
+   "en": "Gameplay"
+  },
+  {
+   "k": "bae3oa",
+   "en": "Philippines: Dictator MacArthur will stay in PHI in case of war with the USA."
+  },
+  {
+   "k": "pxdikp",
+   "en": "Moved the Location of Taiyuan to be more accurate to real life, and added a level 1 land fort in the province."
+  },
+  {
+   "k": "j5ikwo",
+   "en": "Fixed tooltip of naval headquarters in combat results screen having multiples of the same leader."
+  },
+  {
+   "k": "uo6k2",
+   "en": "Fixed captured naval HQs not showing in the list of controlled HQs"
+  },
+  {
+   "k": "hxm6aj",
+   "en": "Fixed an issue where naval HQs couldn't be captured after loading a save"
+  },
+  {
+   "k": "190vudj",
+   "en": "Fixed broken line break in doctrine cost reduction tooltip."
+  },
+  {
+   "k": "gsvh6g",
+   "en": "Fixed “Lack of Energy” modifier not displaying inside of the Factory Output Tooltip."
+  },
+  {
+   "k": "1wh3i5n",
+   "en": "Fixed the “switch faction theater” button always showing the generic faction icon."
+  },
+  {
+   "k": "1vl99ba",
+   "en": "Fixed the Naval Dominance flag inside of the naval region screen not being clickable."
+  },
+  {
+   "k": "52960y",
+   "en": "Fixed war summary window not being closeable while having the division designer open."
+  },
+  {
+   "k": "c55ucf",
+   "en": "Fixed equipment stat tooltips not listing doctrine modifiers in the stat breakdown."
+  },
+  {
+   "k": "1q7qb92",
+   "en": "Fixed naval HQ naval leader window not updating when you add a new navy leader."
+  },
+  {
+   "k": "c90543",
+   "en": "Fixed air and naval exercises not properly displaying that they are on XP-limited training via shift+click in the same way as for army exercises."
+  },
+  {
+   "k": "tzr4xa",
+   "en": "Fixed some usability issues with the request garrison support slider."
+  },
+  {
+   "k": "1vwalc9",
+   "en": "Fixed missing country names on faction influence tooltips."
+  },
+  {
+   "k": "1yng738",
+   "en": "Japanese AI will now automatically merge a Chinese puppet they create into the Reorganised Government upon the conclusion of a peace conference."
+  },
+  {
+   "k": "1h2sgvn",
+   "en": "Improved AI selection of home bases for fleets."
+  },
+  {
+   "k": "1dheb4f",
+   "en": "Improved selection of objectives for naval AI."
+  },
+  {
+   "k": "14wbb0v",
+   "en": "Italy and the UK should beat each other to death in the Mediterranean to a more appropriately historical level"
+  },
+  {
+   "k": "4pm1uj",
+   "en": "the US and Japan should beat each other to death in the Pacific to a better degree"
+  },
+  {
+   "k": "8w26hh",
+   "en": "The AI now evaluates convoy raiding on a per-naval-base basis, not a per-enemy-country basis. This fixes instances of fleets trying to cover the whole world."
+  },
+  {
+   "k": "s5x5tz",
+   "en": "The AI will now more actively try and move their fleets to their basing locations, reducing instances of strike forces getting stuck behind range-gates"
+  },
+  {
+   "k": "l1ls5p",
+   "en": "The Naval AI should now escalate better based on the enemy's presence in targeted dominance-growth regions"
+  },
+  {
+   "k": "9m30fv",
+   "en": "Modding"
+  },
+  {
+   "k": "33gsjm",
+   "en": "Fixed a crash in the “has_mastery_level” trigger if a bad sub doctrine was provided."
+  },
+  {
+   "k": "z00yww",
+   "en": "Fixed some multiplayer out of sync cases."
+  },
+  {
+   "k": "qq2wv9",
+   "en": "Fixed issue where stacking battalion bonuses of the same type were not displayed correctly in aggregated doctrine descriptions."
+  },
+  {
+   "k": "14zta7u",
+   "en": "fixed “has_industry_to_become_leader”, has_enough_influence_for_leadership” and “has_manpower_to_become_leader” triggers not supporting = no."
+  },
+  {
+   "k": "70xl18",
+   "en": "Added “max_track_columns” and “max_track_rows” properties to grand doctrines, allowing dynamic multiple-row doctrine track layouts."
+  },
+  {
+   "k": "1f0zwvo",
+   "en": "Fixed scripted GUI windows disappearing after switching country."
+  },
+  {
+   "k": "c0z3pj",
+   "en": "Made doctrine selection list anchor on the right side if there are multiple rows of doctrine tracks."
+  },
+  {
+   "k": "dgkscz",
+   "en": "naval_dominance strategies now take ai areas as arguments as well as strategic regions. This allows you to nudge the AI to split up strike forces better - beware of spreading them too thin"
+  },
+  {
+   "k": "y4qax3",
+   "en": "Fixed battleplan-related crash"
+  },
+  {
+   "k": "2et52j",
+   "en": "Fixed some faction goals for naval and air size wrongly measuring army size instead."
+  },
+  {
+   "k": "10sif4b",
+   "en": "Fixed completed goals not showing up when in certain situations."
+  },
+  {
+   "k": "1ngzl3i",
+   "en": "Fixed Faction Theaters showing 0 countries if the Theater is owned by anyone else."
+  },
+  {
+   "k": "14yzhzd",
+   "en": "Chinese Warlords can now access the Mining Commission industrial concern after completing the appropriate focus in the post-warlord Nationalist tree."
+  },
+  {
+   "k": "hd4ukg",
+   "en": "USA will not immediately peace out of the Philippine War of Independence."
+  },
+  {
+   "k": "53olmq",
+   "en": "Fixed an issue where the Japanese could be penalised by a mission for winning the border war against the Soviets too fast."
+  },
+  {
+   "k": "1730olq",
+   "en": "Fixed an issue where Communist China’s People’s Militia sub doctrine would not unlock mastery rewards correctly."
+  },
+  {
+   "k": "1gt15r9",
+   "en": "Added an event that unlocks the \"Retreat to Taiwan\" focus for Nationalist China."
+  },
+  {
+   "k": "jue7l7",
+   "en": "Fixed Military R&D goal applying faction influence to the wrong country."
+  },
+  {
+   "k": "4wf4zn",
+   "en": "Multiple decisions for reducing the autonomy of the same warlord subject will no longer appear for China after taking the focus “Impair the Control Yuan”. Guangdong when becoming puppeted through the Liangguang incident will now also properly be targetable by those decisions."
+  },
+  {
+   "k": "ih4b0j",
+   "en": "Democratic Japan can no longer invite nations to the faction they are in through decisions if the faction leader isn't democratic."
+  },
+  {
+   "k": "cqtz5f",
+   "en": "The evacuate factories decisions for China and the warlords should no longer remove the factories from one state only to add them in the same state again."
+  },
+  {
+   "k": "1wvzjxn",
+   "en": "Fixed admirals not being removed from naval headquarters after being made unavailable."
+  },
+  {
+   "k": "trdwud",
+   "en": "Fixed some modifiers for China not applying correctly from \"The Well-timed Swoop of a Falcon\" focus."
+  },
+  {
+   "k": "wagteo",
+   "en": "Fixed bug where ships and airplanes were referred to as battalions in faction goals, to the immense relief of sailors and airmen living in stark terror they might be issued an entrenching tool."
+  },
+  {
+   "k": "1rdcdt5",
+   "en": "Fixed a broken availability check for the Japanese focus Fund the RIKEN Institute."
+  },
+  {
+   "k": "okg2tg",
+   "en": "Fixed an issue where the Guerilla state modifier applied by Nat China would disappear if the recipient wasn't at war with the PRC."
+  },
+  {
+   "k": "10yf1za",
+   "en": "The “Reclaim the North” focus will now give cores on the specified states that China controls, and not only on the states which it does not control."
+  },
+  {
+   "k": "1virj1c",
+   "en": "Fixed doctrine cost reductions still being spent if cost is already reduced to 0."
+  },
+  {
+   "k": "5302ux",
+   "en": "Locked Japan's decision to offer China a white peace to only be available once."
+  },
+  {
+   "k": "5rcj1c",
+   "en": "Locked China's possibility to trigger the Xi'an Incident in the 1939 start."
+  },
+  {
+   "k": "19h0wmb",
+   "en": "Chinese Warlords are more likely to be accepted into the United Front through the event."
+  },
+  {
+   "k": "9x6a4f",
+   "en": "Fixed and issue where resources from production would become 0 after becoming a puppet."
+  },
+  {
+   "k": "kjravk",
+   "en": "Fixed an issue where sometimes warlords would capitulate before they got the PP to ask to join the Chinese United Front."
+  },
+  {
+   "k": "1sme82e",
+   "en": "Fixed a few unlocalized doctrine bonuses from the British and Ethiopian focus trees."
+  },
+  {
+   "k": "15kvcc0",
+   "en": "Fixed not being able to assign a naval commander to an HQ if you used the sorting buttons."
+  },
+  {
+   "k": "17dfe2t",
+   "en": "Fixed German “Danzig for Slovakia” focus not working if Czech is annexed via “Integrate Czechoslovakia” focus."
+  },
+  {
+   "k": "gtr3cj",
+   "en": "Fixed Raj attempting to use an MIO it doesn’t have for infantry equipment production without Graveyard of Empires enabled."
+  },
+  {
+   "k": "1db1j8k",
+   "en": "Fixed the military advisor Werner Junck being wrongly available for Iraq when he should be locked out by focus tree decisions."
+  },
+  {
+   "k": "p2bzl2",
+   "en": "Fixed bug that wrongly allowed divisions assigned to “Raid Weapon Depots” and “Paratrooper Raid” to change their template while preparing and executing the raid."
+  },
+  {
+   "k": "1gfy2dh",
+   "en": "Fixed wrong starting sub doctrines for USA 1939 start."
+  },
+  {
+   "k": "17q097z",
+   "en": "It is now possible to draw offensive lines attached to naval invasion orders."
+  },
+  {
+   "k": "lt30tg",
+   "en": "Added a US Naval Supply Hub to Norfolk."
+  },
+  {
+   "k": "1ijyogw",
+   "en": "A few fixes to ensure Chiang Kai Shek's wife becomes the country leader if he dies after completing “Denounce Feudalism” during the Liangguang incident etc, and fixed Hebei-Chahar being invited if the front was formed early through that chain."
+  },
+  {
+   "k": "1nzr9wq",
+   "en": "Fixed various wonky unit animation issues."
+  },
+  {
+   "k": "187kffp",
+   "en": "Set Communist China to always accept invites to the Chinese United Front with historical focuses on."
+  },
+  {
+   "k": "13owybh",
+   "en": "Communist China: Added new guerilla warfare expert trait focused on guerilla warfare."
+  },
+  {
+   "k": "1eeowc9",
+   "en": "Fixed crash when using Nationalist China Focus tree during German Civil War"
+  },
+  {
+   "k": "mdsnbt",
+   "en": "Fixed crash when you release a nation and then without progressing you try to make a new equipment design"
+  },
+  {
+   "k": "me563h",
+   "en": "Carriers on active naval missions should no longer send hundreds of network commands per tick (this resulted in higher latency on bad connections)"
+  },
+  {
+   "k": "imry3q",
+   "en": "Naval target blacklisting should now work as expected for all mission types"
+  },
+  {
+   "k": "1p1hf08",
+   "en": "Fixed a crash on mac when hovering the borderwar map icons"
+  },
+  {
+   "k": "1ndjt7g",
+   "en": "Fixed a bug where carrier fighters where doing way too much damage"
+  },
+  {
+   "k": "ou99ng",
+   "en": "Fixed an exploit where airwings with zero attacking fighters would still deal damage"
+  },
+  {
+   "k": "1leas43",
+   "en": "Fixed a crash when reinforce rate became too small to calculate"
+  },
+  {
+   "k": "dl4qq0",
+   "en": "Patch 1.17.1.1, was released on 2025-11-27⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "f8w83m",
+   "en": "e990"
+  },
+  {
+   "k": "d0zifq",
+   "en": "Italian \"Forza Navale Especiale\" focus will now increase Division Capacity Per Naval Invasion Plan by 2."
+  },
+  {
+   "k": "zfrtf8",
+   "en": "Fixed an issue where AI countries would split up their ships into many, tiny taskforces, and fixed AI not assigning taskforces to training in peacetime."
+  },
+  {
+   "k": "bump40",
+   "en": "Fixed an edge case where the Xian Incident would trigger from warlord decisions if CHI or PRC leaves the Chinese United Front, if formed by PRC without the Xian Incident."
+  },
+  {
+   "k": "xu1tmh",
+   "en": "Fixed an issue where Chinese warlords wouldn't get the appropriate decisions from taking the focus \"Approach Japan\"."
+  },
+  {
+   "k": "bfdzjl",
+   "en": "Localization uses 64 bit hash now to reduce collision chances and resolve random localization bugs."
+  },
+  {
+   "k": "18c1o8t",
+   "en": "Fixed a crash with Communist China \"Infiltrate East Hebei\" event."
+  },
+  {
+   "k": "e03y77",
+   "en": "Fixed the Chinese Warlord \"Personal Leadership\" focus description to properly indicate the gained general trait will be randomized."
+  },
+  {
+   "k": "hwydkw",
+   "en": "Fixed the \"Defeat of Anti-Fascists\" faction goal wrongly allowing Stalin to have a change of heart and turn on the Comintern."
+  },
+  {
+   "k": "1li2efx",
+   "en": "Fixed \"Declare War on Democracy\" being available to democratic factions if goal setter is Non-Aligned."
+  },
+  {
+   "k": "189p9fn",
+   "en": "Fixed Air map mode not showing the air superiority state after starting a second playthrough."
+  },
+  {
+   "k": "fg5dlg",
+   "en": "Fixed an issue where the Japanese focus \"The Chrysanthemum Throne\" would not properly make Hirohito the country leader if the NCNS DLC was disabled."
+  },
+  {
+   "k": "a94ipm",
+   "en": "Fix for the Italian \"Forza Navale Especiale\" focus targeting obsolete Naval Invasion Capacity modifier."
+  },
+  {
+   "k": "h6vw7y",
+   "en": "Fixed a multiplayer OOS when Korean and other localizations were in the same group."
+  },
+  {
+   "k": "ys992t",
+   "en": "Fixed the Chinese MIO \"Factory 617\" trait to properly affect Modern Tanks."
+  },
+  {
+   "k": "1qq5i1z",
+   "en": "Fixed the \"Battle Royale\" achievement, previously required player to also defeat JAP and CHI before 1940."
+  },
+  {
+   "k": "hmugel",
+   "en": "Fixed the missing ineligible icon for the achievement \"And the Snake Smoked\"."
+  },
+  {
+   "k": "12ql1aj",
+   "en": "Fixed various typos."
+  },
+  {
+   "k": "1vo7tzv",
+   "en": "Fixed airbase access incorrectly being granted by Iraq to the UK without NCNS enabled."
+  },
+  {
+   "k": "8d5ydk",
+   "en": "Patch 1.17.2, was released on 2025-12-04⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1gdseat",
+   "en": "f136"
+  },
+  {
+   "k": "u6g2ez",
+   "en": "Added two new buildings,that provide scaling effects based on the infrastructure level - reduction of energy consumption or increased local resource gain efficiency. These Buildings are mutually exclusive in a state."
+  },
+  {
+   "k": "bu7r03",
+   "en": "Having zero energy demand now gives zero production penalty"
+  },
+  {
+   "k": "1xnfjta",
+   "en": "Resources from infrastructure reduced to 15% from 20% (note that with the new building, you can still end up with more than previously)."
+  },
+  {
+   "k": "57dyqt",
+   "en": "Commercial Nuclear Reactors now grant -50% state energy consumption factor, improved from -25%."
+  },
+  {
+   "k": "g147o6",
+   "en": "Electronics Concern now reduce Factory Energy Consumption by 10%."
+  },
+  {
+   "k": "1cmb2it",
+   "en": "Industrial Concern now provides 6 Coal and Increases Coal Gain Efficiency by 5%."
+  },
+  {
+   "k": "1wrgbo5",
+   "en": "Replaced Equipment Conversion Technologies with Energy Gain Efficiency Technologies. +15% Energy Gain Per Coal per Technology."
+  },
+  {
+   "k": "6f9e31",
+   "en": "First four Machine Tools technologies now additionally provide +20% Equipment Conversion Speed."
+  },
+  {
+   "k": "10rz2d0",
+   "en": "Factories gained from exporting resources now impacts the energy per factory less."
+  },
+  {
+   "k": "eqjiut",
+   "en": "Added a limit for per-factory energy consumption."
+  },
+  {
+   "k": "9wdf1x",
+   "en": "Updated the AI research priorities for Excavation and re-purposed techs to take coal into account."
+  },
+  {
+   "k": "1dwlnus",
+   "en": "Excavation Technologies now provide extra +5% Coal Gain Efficiency."
+  },
+  {
+   "k": "mru88d",
+   "en": "Chinese Warlords now keep a starting trait when becoming leaders for the alternate ideologies of their countries."
+  },
+  {
+   "k": "qy9ua7",
+   "en": "The shared Chinese focus \"Invite Soviet Advisors\" now gives a national spirit that boosts army xp and org, and also brought a few NCNS shared branch focus times in line with the non-NCNS versions."
+  },
+  {
+   "k": "f926ai",
+   "en": "Reduced destroyer surface visibility buffs in the \"Patrol Boats\" and \"Light Task Forces\" subdoctrines to -5%, as it could be stacked to make them too difficult to hit."
+  }
+ ]
+}

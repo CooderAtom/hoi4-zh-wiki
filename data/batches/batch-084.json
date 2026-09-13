@@ -1,0 +1,1270 @@
+{
+ "batch": 84,
+ "pages": [
+  "Console commands"
+ ],
+ "chars": 14964,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "19nnefr",
+   "en": "This page lists the codes which may be input into the Console Window, a special debugging window which may be accessed on non-ironman games by hitting ⟦0⟧ , ⟦1⟧ or tilde (~) (key varies based on keyboard layout). Press the up or down arrow keys to traverse through previously executed commands. Many codes can be turned off by repeating the command, but sometimes reloading the save or exiting the game is necessary. Please note that many of these commands come in and out with each DLC making some of them not work. Mods may introduce commands and more commonly, tags into the game to enhance their gameplay.",
+   "frags": 2
+  },
+  {
+   "k": "psuryr",
+   "en": "Also of note, commands may not work in ironman games by design."
+  },
+  {
+   "k": "w9xd3k",
+   "en": "List of commands"
+  },
+  {
+   "k": "1jk8d60",
+   "en": "Press Shift+2, §, ~, \\, `, \", º, ^ or ALT+2+1, or Shift+3 to access the console (key varies based on keyboard layout)"
+  },
+  {
+   "k": "4wfh8q",
+   "en": "Internal IDs"
+  },
+  {
+   "k": "1d7xn64",
+   "en": "See also: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "16nh7bz",
+   "en": "Console commands use internal IDs, which may be obtained in a variety of different ways."
+  },
+  {
+   "k": "16cl5hg",
+   "en": "An easy way to tell internal IDs is debug mode. ⟦0⟧ as a console command will turn on debug mode which can provide information about certain database entries, such as focuses, national spirits (and other ideas such as laws or designers), or technologies when hovering over them, as well as obtaining information when hovering over a province of IDs of the state and the province, as well as the 3-letter country tag of the country it belongs to. ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "oiy1eg",
+   "en": "debug"
+  },
+  {
+   "k": "15tt0k7",
+   "en": "Note that while modding, the console command does not do everything that the launch option does and cannot serve as a substitute."
+  },
+  {
+   "k": "3ghtts",
+   "en": "If that is impossible, using localisation is an alternative. To do that, navigate to the folder where the game is contained, then to the ⟦0⟧ folder. Each file in there contains localisation keys with values that actually appear in-game assigned to them. Using a non-default text editor can also allow using the 'Search in files' function (Such as in Notepad++, Sublime Text, or Visual Studio Code) in order to search through every single localisation file at the same time to find a specified value.",
+   "frags": 1
+  },
+  {
+   "k": "197fm0e",
+   "en": "/Hearts of Iron IV/localisation/english/"
+  },
+  {
+   "k": "rimk89",
+   "en": "Disambiguation"
+  },
+  {
+   "k": "1vkxta2",
+   "en": "In this article, there are 3 types of brackets used within commands:"
+  },
+  {
+   "k": "1rt4zul",
+   "en": "Regular brackets as in ⟦0⟧ are used to show aliases, alternate names for the console commands. In this case, using ⟦1⟧ or ⟦2⟧ has the same effect in-game.",
+   "frags": 3
+  },
+  {
+   "k": "17s9efo",
+   "en": "instantconstruction(ic)"
+  },
+  {
+   "k": "nh41b3",
+   "en": "instantconstruction"
+  },
+  {
+   "k": "1pjabc",
+   "en": "Square brackets as in ⟦0⟧ signify an ⟦1⟧ argument. In this case, both ⟦2⟧ and ⟦3⟧ will work, but may have different effects.",
+   "frags": 4
+  },
+  {
+   "k": "712ani",
+   "en": "fow [Province ID]"
+  },
+  {
+   "k": "kgw9o9",
+   "en": "optional"
+  },
+  {
+   "k": "1ddi8a7",
+   "en": "fow"
+  },
+  {
+   "k": "ymhl4l",
+   "en": "fow 1234"
+  },
+  {
+   "k": "10usdgf",
+   "en": "Square brackets in combination with angle brackets as in ⟦0⟧ signify a ⟦1⟧ argument. In this case, ⟦2⟧ will work, but ⟦3⟧ will not.",
+   "frags": 4
+  },
+  {
+   "k": "wn700q",
+   "en": "event [<event ID>]"
+  },
+  {
+   "k": "v0i2t4",
+   "en": "mandatory"
+  },
+  {
+   "k": "52x4v",
+   "en": "event generic.1"
+  },
+  {
+   "k": "1yj1fof",
+   "en": "event"
+  },
+  {
+   "k": "mbtrw5",
+   "en": "Glossary"
+  },
+  {
+   "k": "1g8ffm2",
+   "en": "MIOs is an acronym for Military Industrial Organizations"
+  },
+  {
+   "k": "1h7uoff",
+   "en": "Useful commands"
+  },
+  {
+   "k": "1j2mkia",
+   "en": "Command"
+  },
+  {
+   "k": "uq3mgk",
+   "en": "Effect"
+  },
+  {
+   "k": "7q4w1j",
+   "en": "Example/Comment"
+  },
+  {
+   "k": "q2pfk6",
+   "en": "help [command name]"
+  },
+  {
+   "k": "16ycnfp",
+   "en": "Print out all console commands or a specific command description."
+  },
+  {
+   "k": "tofc35",
+   "en": "tag [<Country tag>]"
+  },
+  {
+   "k": "1vwp16k",
+   "en": "Changes the country that the player controls."
+  },
+  {
+   "k": "d7izej",
+   "en": "event [<event id>] [Target country tag]"
+  },
+  {
+   "k": "1nhpaa8",
+   "en": "Executes an event"
+  },
+  {
+   "k": "16713tr",
+   "en": "⟦0⟧ can be used to tell the IDs of events. If the event has a ⟦1⟧ block, it says which triggers were met and which weren't.",
+   "frags": 2
+  },
+  {
+   "k": "184x1mf",
+   "en": "Event pages"
+  },
+  {
+   "k": "8trf0c",
+   "en": "trigger = { ... }"
+  },
+  {
+   "k": "1x3bgk6",
+   "en": "finish_decision [<decision id>] or \"all\""
+  },
+  {
+   "k": "16mhih0",
+   "en": "Finish timed missions instantly."
+  },
+  {
+   "k": "1dbl3wx",
+   "en": "add_ideas [<idea name>]"
+  },
+  {
+   "k": "127vqoa",
+   "en": "Adds ideas with <id> to the country. Can also replace laws."
+  },
+  {
+   "k": "1j1pq4",
+   "en": "remove_ideas [<idea name>]"
+  },
+  {
+   "k": "l9pgcn",
+   "en": "Removes national idea."
+  },
+  {
+   "k": "1qh47a",
+   "en": "energy_ratio (er) [<ratio>]"
+  },
+  {
+   "k": "opnuu4",
+   "en": "Set Energy Ratio from 0 to 1 for the factories without coal consumption."
+  },
+  {
+   "k": "1cvucqo",
+   "en": "FI [amount}"
+  },
+  {
+   "k": "d3pdw8",
+   "en": "Adds to faction initiative"
+  },
+  {
+   "k": "1lkfg38",
+   "en": "FI 5 adds 5 faction initiative"
+  },
+  {
+   "k": "1mrgrh5",
+   "en": "mastery [<mastery amount>], [track name]"
+  },
+  {
+   "k": "1er1sv5",
+   "en": "Give doctrine mastery, globally or to a specific track."
+  },
+  {
+   "k": "wat42z",
+   "en": "gain_xp [<amount>]"
+  },
+  {
+   "k": "1fguf5o",
+   "en": "Adds experience to selected Leader/General/Admiral"
+  },
+  {
+   "k": "1ed1xtq",
+   "en": "gain_xp 100000(level capped at 9)"
+  },
+  {
+   "k": "1uut8jv",
+   "en": "gain_xp [<trait>]"
+  },
+  {
+   "k": "12f027z",
+   "en": "Adds ⟦0⟧ trait to selected Leader/General/Admiral",
+   "frags": 1
+  },
+  {
+   "k": "nefwlu",
+   "en": "gainable"
+  },
+  {
+   "k": "1hmrdt4",
+   "en": "ie: gain_xp seawolf Note To make it work with new, generic created Admirals: 1. Open 'Documents\\Paradox Interactive\\Hearts of Iron IV\\settings.txt' with a text editor and change \"save_as_binary=yes\" to \"save_as_binary=no\". 2. Start game, load savegame and save as new file, exit game. 3. Open 'Documents\\Paradox Interactive\\Hearts of iron IV\\Save Games' , open the newly created savegame file, search (CTRL-F) for the name of your generic created Admiral 4. Go a few lines below to max_traits=0.000 and add the following code block behind it in_progress={ seawolf=0.000 superior_tactician=0.000 spotter=0.000 fly_swatter=0.000 ironside=0.000 air_controller=0.000 } 5. Make sure to save the file with ANSI encoding format. 6. Start game, load save game, use gain_xp command, enjoy. (Optional turn back on binarization in settings.txt)"
+  },
+  {
+   "k": "5mau71",
+   "en": "Note"
+  },
+  {
+   "k": "19rbhmi",
+   "en": "'Documents\\Paradox Interactive\\Hearts of Iron IV\\settings.txt'"
+  },
+  {
+   "k": "1syevy9",
+   "en": "'Documents\\Paradox Interactive\\Hearts of iron IV\\Save Games'"
+  },
+  {
+   "k": "nxt338",
+   "en": "max_traits=0.000"
+  },
+  {
+   "k": "1dsa5n6",
+   "en": "ANSI"
+  },
+  {
+   "k": "ax3kso",
+   "en": "cp [<amount>]"
+  },
+  {
+   "k": "1xou83h",
+   "en": "Adds Command Power"
+  },
+  {
+   "k": "142kqc5",
+   "en": "cp 100 (capped at 100)"
+  },
+  {
+   "k": "1k40sgs",
+   "en": "st [<amount>]"
+  },
+  {
+   "k": "wmsl2",
+   "en": "Adds Stability"
+  },
+  {
+   "k": "14002w9",
+   "en": "st 100 (capped at 100)"
+  },
+  {
+   "k": "hjs3cy",
+   "en": "add_war_support(ws) [<amount>]"
+  },
+  {
+   "k": "gv38as",
+   "en": "Adds War Support"
+  },
+  {
+   "k": "1kdvvtg",
+   "en": "ws 100 (capped at 100)"
+  },
+  {
+   "k": "1g705d0",
+   "en": "reduce_opinion [<country tag>]"
+  },
+  {
+   "k": "1c3t83f",
+   "en": "Reduce opinion to/from tag."
+  },
+  {
+   "k": "171y65j",
+   "en": "allowtraits"
+  },
+  {
+   "k": "1qqicv2",
+   "en": "Allows free assignment of general traits"
+  },
+  {
+   "k": "163the9",
+   "en": "add_equipment(ae) [<equipment amount>] [<equipment name>]"
+  },
+  {
+   "k": "1u53i0x",
+   "en": "Adds equipment"
+  },
+  {
+   "k": "1w72scb",
+   "en": "Equipment uses the basic name so 'ae 1000 infantry_equipment_1'.You can only add researched equipment. Does not support Naval equipment. (with the exception of convoy: 'ae 1000 convoy_1') To add ships, consider using instantconstruction(ic) or instanttraining (it) ('ic' or 'it' also effects AI). To add modified equipment, you have to address it by given name. Example: You create a variant of 'Matilda LP'-tank with better Armor and Main Gun and name it 'Matilda LP Mk. IV'. Now use 'add_equipment 1000 Matilda LP Mk. IV'."
+  },
+  {
+   "k": "6l7zoy",
+   "en": "add_latest_equipment(ale) [<equipment amount>]"
+  },
+  {
+   "k": "182asuw",
+   "en": "Gives player amount of latest equipment variants"
+  },
+  {
+   "k": "138lg49",
+   "en": "To add only a specific type of your latest equipment, you have to address it's given name. Example: You create a variant of 'Matilda LP'-tank with better Armor and Main Gun and name it 'Matilda LP Mk. IV'. Now use 'add_latest_equipment 1000 Matilda LP Mk. IV'."
+  },
+  {
+   "k": "16xzpww",
+   "en": "addfunds"
+  },
+  {
+   "k": "qehgo3",
+   "en": "Adds funds to all MIOs"
+  },
+  {
+   "k": "f5yuji",
+   "en": "Adds 1000 funds to every MIO (military industrial organisation)"
+  },
+  {
+   "k": "1c5r2hk",
+   "en": "addTaskCapacity [number]"
+  },
+  {
+   "k": "1mauk3c",
+   "en": "Adds task capacity to all MIOs"
+  },
+  {
+   "k": "1ithsid",
+   "en": "Defaults to 1 if no input given. To add task capacity to only a specific MIO, you will need to find the MIO id in \\Hearts of Iron IV\\common\\military_industrial_organization\\organizations\\<your country's tag>.txt Then you use addTaskCapacity [<MIO id>] [number]"
+  },
+  {
+   "k": "1m3ylwr",
+   "en": "\\Hearts of Iron IV\\common\\military_industrial_organization\\organizations\\<your country's tag>.txt"
+  },
+  {
+   "k": "1fnyh3s",
+   "en": "addSize [number]"
+  },
+  {
+   "k": "esaw1e",
+   "en": "Adds trait points to all MIOs"
+  },
+  {
+   "k": "1kf7dw1",
+   "en": "Defaults to 1 if no input given. To add trait points to only a specific MIO, you will need to find the MIO id in \\Hearts of Iron IV\\common\\military_industrial_organization\\organizations\\<your country's tag>.txt Then you use addSize [<MIO id>] [number]"
+  },
+  {
+   "k": "jsr4h4",
+   "en": "add_cic_bank [number]"
+  },
+  {
+   "k": "157wmad",
+   "en": "Adds Economic Capacity Surplus for the player in the International Market"
+  },
+  {
+   "k": "1pu60n0",
+   "en": "Defaults to 1 if no input given"
+  },
+  {
+   "k": "sidszf",
+   "en": "whitepeace(wp) [<country tags>]"
+  },
+  {
+   "k": "q5a9rz",
+   "en": "White peace with the specified countries."
+  },
+  {
+   "k": "11whxbh",
+   "en": "teleport(tp)"
+  },
+  {
+   "k": "ejfa9o",
+   "en": "Activates the Teleportation tool"
+  },
+  {
+   "k": "1lj2ihv",
+   "en": "Can teleport units where ever you tell them to go (right click a province with a selected unit)"
+  },
+  {
+   "k": "8jxuy6",
+   "en": "allowdiplo(adiplo,nocb)"
+  },
+  {
+   "k": "mglrv3",
+   "en": "Allows to use all diplomatic actions for no matter the rules. (Can declare war without justification)"
+  },
+  {
+   "k": "s2j0fl",
+   "en": "This is likely the most effective way of wanting to start a war ⟦0⟧ needing to wait for the justification. If you only want instant justification and not the extra options it comes with, then use (instant_wargoal).",
+   "frags": 1
+  },
+  {
+   "k": "hqqig3",
+   "en": "without"
+  },
+  {
+   "k": "1d5ng8e",
+   "en": "debug_crash(crash)"
+  },
+  {
+   "k": "h20izv",
+   "en": "Crashes the game."
+  },
+  {
+   "k": "fbq4xa",
+   "en": "instantconstruction (ic)"
+  },
+  {
+   "k": "ttcdgn",
+   "en": "Toggles instant construction cheat."
+  },
+  {
+   "k": "tb5m8l",
+   "en": "Affects AI. Ships are also constructed instantly."
+  },
+  {
+   "k": "a3b0m9",
+   "en": "research [<slot id> or \"all\"]"
+  },
+  {
+   "k": "1gi100q",
+   "en": "Researches a technology from research slot or all."
+  },
+  {
+   "k": "qr6djo",
+   "en": "Research all will instant research all technologies"
+  },
+  {
+   "k": "19lswnj",
+   "en": "research_on_icon_click (roic)"
+  },
+  {
+   "k": "5a1son",
+   "en": "Research a technology when clicking on technology tree icon"
+  },
+  {
+   "k": "alysef",
+   "en": "Will Allow you to research an item without its prerequisite or two mutually exclusive items"
+  },
+  {
+   "k": "wrr9f",
+   "en": "toggle_hidden_techs (tht)"
+  },
+  {
+   "k": "j337sl",
+   "en": "Toggle show/hide all hidden techs."
+  },
+  {
+   "k": "1xfx92g",
+   "en": "sp_breakthrough [<number>] sp_breakthrough [<number> optional <specialisation>] (sp_br)"
+  },
+  {
+   "k": "t1o879",
+   "en": "Adds special project breakthrough points for all facilities."
+  },
+  {
+   "k": "rsd7vy",
+   "en": "ex: sp_breakthrough 1 ex: sp_br 20 specialization_land Specialization are: specialization_land, specialization_air, specialization_naval, specialization_nuclear (For the one added by mod it's in Mod Path\\common\\special_projects\\specialization)"
+  },
+  {
+   "k": "4oa1o5",
+   "en": "sp_fast"
+  },
+  {
+   "k": "1ljswmr",
+   "en": "Skips the prototyping stage and progresses the iteration stage for special projects"
+  },
+  {
+   "k": "1smqffc",
+   "en": "sp_instant"
+  },
+  {
+   "k": "lnwycy",
+   "en": "Autocompletes current special projects"
+  },
+  {
+   "k": "psu876",
+   "en": "sp_available"
+  },
+  {
+   "k": "ji8hzf",
+   "en": "Unlocks/Locks all special projects with unfufilled research prerequisites"
+  },
+  {
+   "k": "5q0f7l",
+   "en": "E.g. Unlocks nuclear special projects without researching the \"Atomic Research\" technology"
+  },
+  {
+   "k": "1r6d9lr",
+   "en": "sp_unlock_all"
+  },
+  {
+   "k": "7o1p33",
+   "en": "All Special Projects are always visible and available. Whether or not the triggers returns true, and whether the parents are completed."
+  },
+  {
+   "k": "hho3ee",
+   "en": "sp_research_all (sp_ra)"
+  },
+  {
+   "k": "wiwuyr",
+   "en": "Research all special projects. If no scientist exist it will create one, otherwise it will pick an arbitrary one."
+  },
+  {
+   "k": "t7iuev",
+   "en": "sp_prototype_reward"
+  },
+  {
+   "k": "t05agw",
+   "en": "Trigger a specified prototype reward during a project."
+  },
+  {
+   "k": "13qqdu1",
+   "en": "sp_add_scientist sp_add_scientist [<level> (optional)] [<specialisation> (optional)]"
+  },
+  {
+   "k": "1r6o2zb",
+   "en": "Adds a generic scientist with no or specified specialisation/skill level"
+  },
+  {
+   "k": "18s96hh",
+   "en": "sp_add_scientist 3 nuclear sp_add_scientist 1"
+  },
+  {
+   "k": "130s1fh",
+   "en": "sp_add_mastermind"
+  },
+  {
+   "k": "adjjox",
+   "en": "Adds a generic scientist with all specialisations and max skill level"
+  },
+  {
+   "k": "1571p1x",
+   "en": "sp_set_selected_scientist_level [<level>]"
+  },
+  {
+   "k": "axua8e",
+   "en": "Sets scientist's level"
+  },
+  {
+   "k": "1w031bh",
+   "en": "The facility view GUI with the assigned scientist must be opened"
+  },
+  {
+   "k": "1z0nkko",
+   "en": "sp_add_selected_scientist_trait [<trait>]"
+  },
+  {
+   "k": "6xsu6w",
+   "en": "Adds the specified trait to the scientist"
+  },
+  {
+   "k": "roozme",
+   "en": "ex: sp_add_selected_scientist_trait scientist_trait_brilliant_theorist Adds the brilliant scientist trait to the selected scientist. The facility view GUI with the assigned scientist must be opened Traits are found in \"Hearts of Iron IV\\common\\scientist_traits\\00_traits.txt\""
+  },
+  {
+   "k": "ohm38w",
+   "en": "annex [<Target Country Tag> or \"all\"]"
+  },
+  {
+   "k": "pnx3xk",
+   "en": "Begin annex/annexes the specified tag"
+  },
+  {
+   "k": "cxbd46",
+   "en": "annex USA or annex d01 or annex all"
+  },
+  {
+   "k": "12wy2ba",
+   "en": "puppet [<Puppeteer Country Tag>] [<Puppet Target Country Tag>]"
+  },
+  {
+   "k": "ux0mem",
+   "en": "Turns the target country into a puppet of the puppeteer"
+  },
+  {
+   "k": "88rbmj",
+   "en": "puppet GER CZE (Czechoslovakia becomes a puppet of German Reich)"
+  },
+  {
+   "k": "1hq4r00",
+   "en": "manpower [amount]"
+  },
+  {
+   "k": "1a82ur0",
+   "en": "Adds manpower to player"
+  },
+  {
+   "k": "g41q77",
+   "en": "Defaults to 10 million if the number isn't specified."
+  },
+  {
+   "k": "12bl4iz",
+   "en": "add_opinion [<Country tag>]"
+  },
+  {
+   "k": "161u25s",
+   "en": "Add opinion to/from tag"
+  },
+  {
+   "k": "168b1el",
+   "en": "Adds 100 opinion (hardcoded number) to and from target country (add_opinion ENG for instance). A successfull call prints \"<country> have 100 more opinion about you\" and it appears as \"cheat_opinion_modified_good\" in the diplomacy screen"
+  },
+  {
+   "k": "167p4s4",
+   "en": "add_legitimacy [<Country tag>] [<value>]"
+  },
+  {
+   "k": "bzw6bq",
+   "en": "Adds legitimacy to specified tag."
+  },
+  {
+   "k": "8ab5we",
+   "en": "Example: add_legitimacy POL 22"
+  },
+  {
+   "k": "1tvx9qh",
+   "en": "observe(spectator)"
+  },
+  {
+   "k": "1ggy7rf",
+   "en": "Switches to play no country at all, and no longer shows messages or pauses the game. However, it also interferes with AI performance and is not a good indication of what the AI will do if observe mode is not used."
+  },
+  {
+   "k": "1p7kgga",
+   "en": "tdebug"
+  },
+  {
+   "k": "nj35jb",
+   "en": "Toggles Debug info"
+  },
+  {
+   "k": "1ycog15",
+   "en": "Helpful for finding nation tags and ID's"
+  },
+  {
+   "k": "hgwbho",
+   "en": "occupationpaint(op)"
+  },
+  {
+   "k": "3tlh1b",
+   "en": "Toggles occupation painting. If used with country tag occupies all of their owned, not controlled, land,"
+  },
+  {
+   "k": "1buetcl",
+   "en": "op JAP"
+  },
+  {
+   "k": "5d2100",
+   "en": "setowner [<country tag>]"
+  },
+  {
+   "k": "1dns9xm",
+   "en": "Sets state owner"
+  },
+  {
+   "k": "1gp3v6p",
+   "en": "Select the state you would like to set owner as. Select a state by clicking it. You need to click the state as the state id no longer works."
+  },
+  {
+   "k": "11fqxqc",
+   "en": "setcontroller [<country tag>] [province id]"
+  },
+  {
+   "k": "f0p3ts",
+   "en": "Sets province controller"
+  },
+  {
+   "k": "16hdd49",
+   "en": "xp [<XP amount>]"
+  },
+  {
+   "k": "j9ksgb",
+   "en": "Gives Army, navy and air experience to player"
+  },
+  {
+   "k": "1lcqo31",
+   "en": "Can be used once per day"
+  },
+  {
+   "k": "1w4av5f",
+   "en": "pp(fuhrer_mana,political_power) [PP amount]"
+  },
+  {
+   "k": "1vebq7y",
+   "en": "Gives(or removes) political power to player"
+  },
+  {
+   "k": "1lh0yx8",
+   "en": "Defaults to 1000 if the amount is unset."
+  },
+  {
+   "k": "5dkzkp",
+   "en": "fuel [<amount>]"
+  },
+  {
+   "k": "f48t0j",
+   "en": "Adds Fuel"
+  },
+  {
+   "k": "1c83u55",
+   "en": "fuel 100000 (capped at your deposits capacity, adding much more will result in decreasing fuel)"
+  },
+  {
+   "k": "1iigiv1",
+   "en": "civilwar [<ideology>] [<target country tag>]"
+  },
+  {
+   "k": "g4aj4z",
+   "en": "Spawns a civil war"
+  },
+  {
+   "k": "fcu88g",
+   "en": "civilwar fascism ENG : Other Valid ideologies \"communism\" \"democratic\" \"neutrality\""
+  },
+  {
+   "k": "9nv5h7",
+   "en": "add_party_popularity <ideology group> <value>"
+  },
+  {
+   "k": "cczles",
+   "en": "Adds party popularity"
+  },
+  {
+   "k": "57kkum",
+   "en": "ideology group has shortcuts d f n c for vanilla HOI groups."
+  },
+  {
+   "k": "jtiepp",
+   "en": "set_ruling_party <ideology group>"
+  },
+  {
+   "k": "4mpcil",
+   "en": "Sets ruling party"
+  },
+  {
+   "k": "1demzxd",
+   "en": "Focus.AutoComplete (fa)"
+  },
+  {
+   "k": "1e5c4mf",
+   "en": "Allows national focuses to be instantly finished"
+  },
+  {
+   "k": "hsjkvx",
+   "en": "Affects AI"
+  },
+  {
+   "k": "edud1x",
+   "en": "Focus.NoChecks"
+  },
+  {
+   "k": "1g4xb0g",
+   "en": "Ignores focus requirements"
+  },
+  {
+   "k": "1h8d8vc",
+   "en": "Focus.IgnorePrerequisites"
+  },
+  {
+   "k": "1bcd4kn",
+   "en": "Ignores focus prerequisites"
+  },
+  {
+   "k": "1xvcq83",
+   "en": "Allows you to start a focus in the middle of the tree. Affects AI"
+  },
+  {
+   "k": "zhpy8g",
+   "en": "freefocuses (ff)"
+  },
+  {
+   "k": "s9hfb5",
+   "en": "Enable freely activating any focuses"
+  },
+  {
+   "k": "1ysx10i",
+   "en": "Combination of ⟦0⟧, ⟦1⟧ and ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1l6btgx",
+   "en": "Decision.FastRemove"
+  },
+  {
+   "k": "1dm8l3w",
+   "en": "Shortens decisions to 1 day"
+  },
+  {
+   "k": "7aepd1",
+   "en": "Decision.NoChecks"
+  },
+  {
+   "k": "aumg6q",
+   "en": "Ignores decision requirements"
+  },
+  {
+   "k": "15nzveo",
+   "en": "Also disables cost, affects AI"
+  },
+  {
+   "k": "i8na9u",
+   "en": "instant_prepare"
+  },
+  {
+   "k": "wq64pr",
+   "en": "Instantly prepares naval invasions"
+  },
+  {
+   "k": "1cx4pgs",
+   "en": "Only works in debug mode."
+  },
+  {
+   "k": "dczc58",
+   "en": "instanttraining (it)"
+  },
+  {
+   "k": "32e8ti",
+   "en": "Instantly trains divisions and ships"
+  },
+  {
+   "k": "9ipm83",
+   "en": "nuke [number]"
+  },
+  {
+   "k": "zctmm3",
+   "en": "Adds nukes"
+  },
+  {
+   "k": "dbim9h",
+   "en": "Add 100 or 1000"
+  },
+  {
+   "k": "1twj1xg",
+   "en": "ai_accept (yesman)"
+  },
+  {
+   "k": "1vk9si1",
+   "en": "AI will accept all diplomatic offers"
+  },
+  {
+   "k": "939uel",
+   "en": "add_core <state_id>"
+  },
+  {
+   "k": "15m30b9",
+   "en": "Adds cores"
+  },
+  {
+   "k": "o2fo5x",
+   "en": "Agency.Instant"
+  },
+  {
+   "k": "1fd97ok",
+   "en": "Makes everything regarding agencies instant."
+  },
+  {
+   "k": "6r9owy",
+   "en": "Equivalent to a combination of Operation.Instant, IntelNetwork.Instant, Agency.InstantSlotUnlock, and Agency.Autocomplete"
+  },
+  {
+   "k": "19xlild",
+   "en": "Agency.InstantSlotUnlock"
+  },
+  {
+   "k": "1mrydf8",
+   "en": "Removes wait time between agent recruits"
+  },
+  {
+   "k": "1pke3i8",
+   "en": "Agency.Autocomplete"
+  },
+  {
+   "k": "15ytnzd",
+   "en": "Instantly completes agency upgrades"
+  },
+  {
+   "k": "1rgs70f",
+   "en": "prevent_operative_detection"
+  },
+  {
+   "k": "58xkp0",
+   "en": "Your operatives/spies won't be detected anymore"
+  },
+  {
+   "k": "qsbegm",
+   "en": "force_operative_detection"
+  },
+  {
+   "k": "sybnny",
+   "en": "Your operatives/spies will be detected"
+  },
+  {
+   "k": "14pk4dt",
+   "en": "Operation.instant"
+  },
+  {
+   "k": "1fc01bf",
+   "en": "Instantly finishes all operations"
+  },
+  {
+   "k": "1oqzv84",
+   "en": "agency.keepexcessoperatives"
+  },
+  {
+   "k": "mpvs6v",
+   "en": "deleteallunits(delall) [country]"
+  },
+  {
+   "k": "lb29vw",
+   "en": "Delete all armies and fleets of the specified countries."
+  },
+  {
+   "k": "1jexvkj",
+   "en": "deleteallunits SPR"
+  },
+  {
+   "k": "wduhhv",
+   "en": "deleteallunitsbut(delallbut) [country]"
+  },
+  {
+   "k": "1xpwv48",
+   "en": "Delete all countries' armies and fleets, with the exception of one country."
+  },
+  {
+   "k": "1s3478r",
+   "en": "delallbut SPR"
+  },
+  {
+   "k": "1sl8m6i",
+   "en": "add_autonomy [<Target Country Tag>] [num]"
+  },
+  {
+   "k": "11msimv",
+   "en": "Changes a country's autonomy level"
+  },
+  {
+   "k": "1r3jf0z",
+   "en": "add_autonomy PHI -200"
+  },
+  {
+   "k": "60wqo0",
+   "en": "resistance"
+  },
+  {
+   "k": "t3gul",
+   "en": "Increases resistance in the selected province by set amount"
+  },
+  {
+   "k": "bs1hmk",
+   "en": "ex: (selects one of the provinces in Berlin) resistance 100"
+  },
+  {
+   "k": "4ch44q",
+   "en": "compliance"
+  },
+  {
+   "k": "192znwg",
+   "en": "Increases compliance in the selected province in game by set amount"
+  },
+  {
+   "k": "4474o5",
+   "en": "ex: (selects one of the provinces in Danzig) compliance 100"
+  },
+  {
+   "k": "n5wk1f",
+   "en": "add_intel [<Country tag 1>] [Country Tag 2] [civilian,army,navy,airforce]=[number] add_intel [<Target Country tag>] [civilian,army,navy,airforce]=[number]"
+  },
+  {
+   "k": "bs0kry",
+   "en": "Sets the inputted intel the first tag has against the second tag. The set intel amount is a static value (will be permanent for the rest of the game)."
+  },
+  {
+   "k": "1g6219v",
+   "en": "ex (sets intel player has against France to max): add_intel FRA ex (sets army intel Germany has against USA to 20%): add_intel GER USA army=20 ex (sets airforce and civilian intel Player has against Japan to 90% and 76% respectively): add_intel JAP airforce=90 civilian=76"
+  },
+  {
+   "k": "aoaa1n",
+   "en": "add_mines"
+  },
+  {
+   "k": "186fz2h",
+   "en": "Maximises player owned naval mines in the selected regions"
+  },
+  {
+   "k": "1nnnde2",
+   "en": "acclimization [<climate type>] [<number>]"
+  },
+  {
+   "k": "1r0gref",
+   "en": "Sets the selected division's acclimization to the specified climate type and its percentage (reduces penalties from cold/hot weather or temperature debuffs)"
+  },
+  {
+   "k": "1m1la5v",
+   "en": "ex: acclimization cold_climate 75 ex: acclimization hot_climate 20 Note that it resets the opposite climate type to 0%"
+  },
+  {
+   "k": "1m4d7vz",
+   "en": "debug_smooth"
+  },
+  {
+   "k": "1tu0mke",
+   "en": "Toggle framesmoothing"
+  },
+  {
+   "k": "3ossfy",
+   "en": "Can increase game speed significantly, depending on system typically between 10 and 35 percent"
+  },
+  {
+   "k": "1wgks86",
+   "en": "Modding-useful commands"
+  },
+  {
+   "k": "1qystht",
+   "en": "Several other commands previously mentioned, such as ⟦0⟧, are useful in modding too.",
+   "frags": 1
+  },
+  {
+   "k": "ft7qc5",
+   "en": "guibounds(gui)"
+  },
+  {
+   "k": "1fgwpcd",
+   "en": "Toggles the GUI bounds debug, allowing to test for different window sizes easier."
+  }
+ ]
+}

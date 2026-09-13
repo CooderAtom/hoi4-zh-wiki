@@ -1,0 +1,1415 @@
+{
+ "batch": 67,
+ "pages": [
+  "Land units"
+ ],
+ "chars": 14992,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "mjxrj4",
+   "en": "⟦0⟧ Represents the room that the division takes up while fighting at the front line. In order to fit into battle, the division needs to fit into the combat width provided by the battlefield. The less width that each division takes, the more divisions that can fire upon the enemy at the same time. However, making many thin divisions also has its tradeoffs. Different battalion types increase the combat width of a division by a different amount. For example, infantry and armoured battalions use 2 width, artillery battalions use 3 width, and anti-tank and anti-air battalions use 1 width. Support companies do not increase the combat width of a division (see ⟦1⟧ for details). The Mass Assault ⟦2⟧ tree has options that reduce the combat width of ⟦3⟧ battalions, while the mountaineer special forces doctrine tree with ⟦4⟧ has an option that reduces the combat width of ⟦5⟧ battalions. The combat width for a division is the ⟦6⟧ of the combat width of all Battalions. Combat width notes: The normal maximum combat width provided by the battlefield varies by terrain. If attacking divisions come from more than one province, then extra width is added to the battlefield for each province, based on the type of terrain that is being attacked. Certain combat tactics can increase or decrease a battle's combat width. It is best to use divisions whose combat widths are factors of the combat width of the terrain you intend to fight in, as this allows you to use as many battalions as possible without sustaining a combat width penalty. Only full divisions can join a fight. Fielding more divisions than the battlefield combat width supports will result in penalties. When this happens, the Battle Interface will automatically put these extra divisions into reserve. Frontage Reduction can reduce the amount of width taken up by divisions, thus allowing more to be used or slightly bigger divisions to be fielded.",
+   "frags": 7
+  },
+  {
+   "k": "8uptv5",
+   "en": "Combat width."
+  },
+  {
+   "k": "19eysrz",
+   "en": "Divisions"
+  },
+  {
+   "k": "1f2xoeu",
+   "en": "land doctrine"
+  },
+  {
+   "k": "1m32jfk",
+   "en": "Infantry"
+  },
+  {
+   "k": "14j9iwm",
+   "en": "Mountaineer"
+  },
+  {
+   "k": "jwitde",
+   "en": "The normal maximum combat width provided by the battlefield varies by ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "wf9ma6",
+   "en": "terrain"
+  },
+  {
+   "k": "su196l",
+   "en": "If attacking divisions come from more than one province, then extra width is added to the battlefield for each province, based on the type of ⟦0⟧ that is being attacked.",
+   "frags": 1
+  },
+  {
+   "k": "33slye",
+   "en": "Certain ⟦0⟧ can increase or decrease a battle's combat width.",
+   "frags": 1
+  },
+  {
+   "k": "5nkwsk",
+   "en": "combat tactics"
+  },
+  {
+   "k": "1id8bcm",
+   "en": "It is best to use divisions whose combat widths are factors of the combat width of the ⟦0⟧ you intend to fight in, as this allows you to use as many battalions as possible without sustaining a combat width penalty.",
+   "frags": 1
+  },
+  {
+   "k": "1r0uq0v",
+   "en": "Only full divisions can join a fight."
+  },
+  {
+   "k": "nfa08x",
+   "en": "Fielding more divisions than the battlefield combat width supports will result in penalties. When this happens, the Battle Interface will automatically put these extra divisions into reserve."
+  },
+  {
+   "k": "14r8r10",
+   "en": "Frontage Reduction can reduce the amount of width taken up by divisions, thus allowing more to be used or slightly bigger divisions to be fielded."
+  },
+  {
+   "k": "17i82vt",
+   "en": "⟦0⟧ Represents what proportion of the division is made up of battalions which are hardened and protected, that is, how \"hard\" the division is. It is the proportion of hard attacks to soft attacks that an incoming unit receives. Units with more hardness will take less soft attack and more hard attack, while units with less hardness will take more soft attack and less hard attack. Different battalions have different levels of hardness. For example, ⟦1⟧ are very soft (0%), ⟦2⟧ are slightly harder (20%), ⟦3⟧ are fairly hard (60-75%), ⟦4⟧ are quite hard (90%), and ⟦5⟧ are the hardest (100%). Multiply this with the attacker's hard attack and multiply 1 - Hardness (i.e. softness) with the attacker's soft attack to find out how many attacks are made against the division. Divisions with high hardness will suffer more of the hard attacks and fewer of the soft attacks directed at them. The hardness for the division is the ⟦6⟧ of those of all line battalions, but not support companies.",
+   "frags": 7
+  },
+  {
+   "k": "12zrpqj",
+   "en": "Hardness."
+  },
+  {
+   "k": "1d2kspk",
+   "en": "Motorized"
+  },
+  {
+   "k": "rpmax7",
+   "en": "Medium tanks"
+  },
+  {
+   "k": "y9qrm2",
+   "en": "Super heavy tanks"
+  },
+  {
+   "k": "17z39mq",
+   "en": "Other Stats"
+  },
+  {
+   "k": "wtph3u",
+   "en": "⟦0⟧ capacity: How much ⟦1⟧ a unit can store. Higher fuel capacity means that the unit will be able to operate at full capacity longer when it lacks fuel supply. Most units that consume fuel will add 96⟦2⟧ hours' worth of their fuel usage to the division's fuel capacity, though there are ways to increase this. The stat for the division is the ⟦3⟧ of those of all battalions and companies.",
+   "frags": 4
+  },
+  {
+   "k": "112axt9",
+   "en": "Fuel"
+  },
+  {
+   "k": "xdfz5t",
+   "en": "Fuel Usage: How much fuel a unit uses while it is operating. Land units with fuel consumption will consume fuel when moving, in combat, or training. Divisions low on fuel can only be refueled in provinces with enough ⟦0⟧. Using ⟦1⟧ support companies can lower a division's fuel usage. The stat for the division is the ⟦2⟧ of those of all battalions and companies, though some support companies do not increase fuel usage despite requiring equipment that normally requires fuel.",
+   "frags": 3
+  },
+  {
+   "k": "15i427i",
+   "en": "supply"
+  },
+  {
+   "k": "12zll9z",
+   "en": "Logistics company"
+  },
+  {
+   "k": "10hnfgp",
+   "en": "Paradrop: A simple true or false check if the division can be ⟦0⟧. For it to be true, all line battalions must be ⟦1⟧. However, most support companies can be mixed in freely.",
+   "frags": 2
+  },
+  {
+   "k": "1cqzpqf",
+   "en": "paradropped"
+  },
+  {
+   "k": "qz6xaj",
+   "en": "Paratroopers"
+  },
+  {
+   "k": "tb0nkt",
+   "en": "Special Forces Cap: The amount of special forces battalions that a country can field is capped based on the total amount of non-special forces battalions it has deployed. Divisions cannot be changed, trained, given a different template or have their template adjusted if that would result in exceeding that cap. See ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "168vfow",
+   "en": "Special forces"
+  },
+  {
+   "k": "twwpoo",
+   "en": "Equipment cost"
+  },
+  {
+   "k": "snbsc4",
+   "en": "Each division will require a certain amount of ⟦0⟧, ⟦1⟧, and training time to produce. Most of these values are simply a ⟦2⟧, except training time, which is based on the ⟦3⟧ training time of any Battalion or Company. Reference ⟦4⟧ and ⟦5⟧.",
+   "frags": 6
+  },
+  {
+   "k": "1la4po7",
+   "en": "equipment"
+  },
+  {
+   "k": "12113ud",
+   "en": "longest"
+  },
+  {
+   "k": "11u6fyv",
+   "en": "Training"
+  },
+  {
+   "k": "j12a6z",
+   "en": "Exercise"
+  },
+  {
+   "k": "1c0nam4",
+   "en": "Terrain modifiers"
+  },
+  {
+   "k": "1tkpnmx",
+   "en": "Main article: Terrain"
+  },
+  {
+   "k": "k0eoh9",
+   "en": "⟦0⟧ can influence the performance of different unit types in offense, defence and even movement. Terrain modifiers are ⟦1⟧ between all Battalions, but those of Support Companies are ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1am2g8e",
+   "en": "Terrain"
+  },
+  {
+   "k": "64haxw",
+   "en": "averaged"
+  },
+  {
+   "k": "1ufmat",
+   "en": "additive"
+  },
+  {
+   "k": "xwu0uy",
+   "en": "Unit types"
+  },
+  {
+   "k": "1bp6l4g",
+   "en": "NOTE: The table below is not fully accurate. The table below is prepared using first generation equipment. Detailed information for subsequent generations will be found in ⟦0⟧ and for a comparison of equipment of equivalent generation: ⟦1⟧. Generally non-combat statistics are defined per battalion. But combat statistics are a function of equipment and thus not static. Additionally, battalions add modifiers to its equipment. For example, a Marine combat battalion adds +30% Breakthrough to its infantry equipment while an artillery support company has a -40% Soft Attack, -40% Hard Attack, -40% Defence, and -40% Breakthrough to its artillery equipment. If a battalion uses multiple types of equipment, the stats are a sum of all the equipment used. For example, Mechanized battalions use both Weapon and Mechanized equipment (with a 10% bonus to Weapon Soft Attack and 500% bonus to Weapon Hard Attack). Support Equipment adds nothing to combat stats.",
+   "frags": 2
+  },
+  {
+   "k": "rnjany",
+   "en": "Land units by unit"
+  },
+  {
+   "k": "1bwtypl",
+   "en": "Land units by year"
+  },
+  {
+   "k": "pj5lq5",
+   "en": "Most land unit battalions can be placed in brigade columns and are often referred to as ⟦0⟧. Battalions that need to be placed in the support column are instead called ⟦1⟧. See ⟦2⟧ for more details.",
+   "frags": 3
+  },
+  {
+   "k": "1j8lin2",
+   "en": "line battalions"
+  },
+  {
+   "k": "vq27af",
+   "en": "support companies"
+  },
+  {
+   "k": "lhp5pv",
+   "en": "division designer"
+  },
+  {
+   "k": "12j9fmn",
+   "en": "Infantry Battalions"
+  },
+  {
+   "k": "t3mdrb",
+   "en": "Unit"
+  },
+  {
+   "k": "t3tyj4",
+   "en": "Icon"
+  },
+  {
+   "k": "1tarcuj",
+   "en": "NATO Symbol"
+  },
+  {
+   "k": "19phq7s",
+   "en": "Base"
+  },
+  {
+   "k": "t05i6w",
+   "en": "Cost"
+  },
+  {
+   "k": "ryaqu8",
+   "en": "Equipment Modifier"
+  },
+  {
+   "k": "1cr1mz5",
+   "en": "Category"
+  },
+  {
+   "k": "c1c3h0",
+   "en": "Equipment Stats (for most basic equipment, advanced versions here: ⟦0⟧/⟦1⟧)",
+   "frags": 2
+  },
+  {
+   "k": "1xtq0ev",
+   "en": "Equipment"
+  },
+  {
+   "k": "1foxth1",
+   "en": "Org."
+  },
+  {
+   "k": "1sqg4hy",
+   "en": "Recov."
+  },
+  {
+   "k": "1cgekp5",
+   "en": "Suppr."
+  },
+  {
+   "k": "16i5exl",
+   "en": "Weight"
+  },
+  {
+   "k": "gfxz9b",
+   "en": "Width"
+  },
+  {
+   "k": "1khcn9y",
+   "en": "Special Effects"
+  },
+  {
+   "k": "u494mf",
+   "en": "Equip."
+  },
+  {
+   "k": "2w2xwg",
+   "en": "Speed"
+  },
+  {
+   "k": "1tsyivr",
+   "en": "Soft Atk."
+  },
+  {
+   "k": "1fgg9rk",
+   "en": "Hard Atk."
+  },
+  {
+   "k": "cdbnr9",
+   "en": "Air Atk."
+  },
+  {
+   "k": "80iz7n",
+   "en": "Defence"
+  },
+  {
+   "k": "dj08sk",
+   "en": "Breakthr."
+  },
+  {
+   "k": "1u1sbxl",
+   "en": "Armour"
+  },
+  {
+   "k": "4ildmd",
+   "en": "Pierce"
+  },
+  {
+   "k": "f4zbev",
+   "en": "Hardness"
+  },
+  {
+   "k": "d6gbsz",
+   "en": "Fuel Capacity"
+  },
+  {
+   "k": "md7c1i",
+   "en": "Fuel Usage"
+  },
+  {
+   "k": "ww7k1t",
+   "en": "Prod Cost"
+  },
+  {
+   "k": "eipgt5",
+   "en": "100 Infantry Equipment"
+  },
+  {
+   "k": "173zxv3",
+   "en": "Front line, foot infantry, all infantry, all army"
+  },
+  {
+   "k": "mkcnrl",
+   "en": "Bicycle⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "yljnrx",
+   "en": "Altered movement in some ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "vnh6ob",
+   "en": "100 Infantry Equipment, 10 Support Equipment"
+  },
+  {
+   "k": "ohdgbu",
+   "en": "+60% Max Speed"
+  },
+  {
+   "k": "2901iy",
+   "en": "Bicycle"
+  },
+  {
+   "k": "g7qb1a",
+   "en": "Penal Battalion⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "g35m77",
+   "en": "85 Infantry Equipment"
+  },
+  {
+   "k": "vftk5v",
+   "en": "Penal Battalion"
+  },
+  {
+   "k": "9bb5k3",
+   "en": "Irregular Infantry"
+  },
+  {
+   "k": "j95ao6",
+   "en": "80 Infantry Equipment"
+  },
+  {
+   "k": "ykz9du",
+   "en": "-5% Soft attack, -15% Defence"
+  },
+  {
+   "k": "ouxn0m",
+   "en": "Militia"
+  },
+  {
+   "k": "fxcdyw",
+   "en": "Front line, foot infantry, all infantry, all army, militia"
+  },
+  {
+   "k": "zg71i7",
+   "en": "Mountaineers"
+  },
+  {
+   "k": "11v0tg0",
+   "en": "Various rugged ⟦0⟧ bonuses",
+   "frags": 1
+  },
+  {
+   "k": "6yalf1",
+   "en": "140 Infantry Equipment"
+  },
+  {
+   "k": "hrcuub",
+   "en": "+30% Breakthr."
+  },
+  {
+   "k": "1hdzvax",
+   "en": "Front line, foot infantry, all infantry, all army, special forces, all mountaineers, special forces leg infantry"
+  },
+  {
+   "k": "1xonxwc",
+   "en": "Marines"
+  },
+  {
+   "k": "z4fzfy",
+   "en": "Various wet ⟦0⟧ bonuses",
+   "frags": 1
+  },
+  {
+   "k": "1mcuvwa",
+   "en": "150 Infantry Equipment"
+  },
+  {
+   "k": "68ahj4",
+   "en": "Front line, foot infantry, all infantry, all army, special forces, all marines, special forces leg infantry"
+  },
+  {
+   "k": "8fqtoc",
+   "en": "Marine Commandos"
+  },
+  {
+   "k": "1x1jbh6",
+   "en": "Paratrooper"
+  },
+  {
+   "k": "bwlpmh",
+   "en": "Can be ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1clcxpk",
+   "en": "130 Infantry Equipment"
+  },
+  {
+   "k": "1a0362x",
+   "en": "Front line, foot infantry, all infantry, all army, special forces, all paratroopers, special forces leg infantry"
+  },
+  {
+   "k": "1bkdpu1",
+   "en": "Rangers"
+  },
+  {
+   "k": "1xz01jq",
+   "en": "Various dense foliage ⟦0⟧ bonuses",
+   "frags": 1
+  },
+  {
+   "k": "5ay69v",
+   "en": "Front line, foot infantry, all infantry, all army, special forces, all rangers, special forces leg infantry"
+  },
+  {
+   "k": "1p0jp2m",
+   "en": "Mobile Battalions"
+  },
+  {
+   "k": "ybuo95",
+   "en": "armour"
+  },
+  {
+   "k": "1m8mzph",
+   "en": "Cavalry"
+  },
+  {
+   "k": "117awwy",
+   "en": "Various ⟦0⟧ attack penalties",
+   "frags": 1
+  },
+  {
+   "k": "1e0k9qz",
+   "en": "120 Infantry Equipment"
+  },
+  {
+   "k": "pnb80a",
+   "en": "Front line, all army"
+  },
+  {
+   "k": "1xeb53z",
+   "en": "Camelry⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "ls7zqb",
+   "en": "Various ⟦0⟧ attack penalties, ⟦1⟧ bonuses",
+   "frags": 2
+  },
+  {
+   "k": "78b0m4",
+   "en": "Desert"
+  },
+  {
+   "k": "1sluxmk",
+   "en": "+40% Max Speed"
+  },
+  {
+   "k": "126frok",
+   "en": "Camelry"
+  },
+  {
+   "k": "1rw74u0",
+   "en": "Elephantry⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "17ufbcr",
+   "en": "Various ⟦0⟧ modifiers",
+   "frags": 1
+  },
+  {
+   "k": "1x3r9rh",
+   "en": "260 Infantry Equipment, 30 Artillery"
+  },
+  {
+   "k": "171q4g0",
+   "en": "+50% Max Speed -25% Soft Atk. -15% Hard Atk. +30% Breakthrough"
+  },
+  {
+   "k": "1hugo75",
+   "en": "Elephantry"
+  },
+  {
+   "k": "1agypw1",
+   "en": "Motorized Infantry"
+  },
+  {
+   "k": "16w6820",
+   "en": "Various ⟦0⟧ penalties",
+   "frags": 1
+  },
+  {
+   "k": "1550bh",
+   "en": "100 Infantry Equipment, 35 Motorized (Trucks)"
+  },
+  {
+   "k": "wgp9oq",
+   "en": "front line, all infantry, all army"
+  },
+  {
+   "k": "1hl9h6",
+   "en": "Mechanized Infantry"
+  },
+  {
+   "k": "1ym6ek7",
+   "en": "100 Infantry Equipment, 40 Mechanized"
+  },
+  {
+   "k": "1ud31v",
+   "en": "+10% Soft Atk. +400% Hard Atk."
+  },
+  {
+   "k": "x25pt6",
+   "en": "Front line, all infantry, all army"
+  },
+  {
+   "k": "oosi5f",
+   "en": "Amtrac Battalion"
+  },
+  {
+   "k": "1houcyl",
+   "en": "Various ⟦0⟧ penalties, wet ⟦1⟧ bonuses",
+   "frags": 2
+  },
+  {
+   "k": "4zqnps",
+   "en": "100 Infantry Equipment, 50 Amtrac"
+  },
+  {
+   "k": "1kt6sii",
+   "en": "+10% Soft Atk. +50% Hard Atk."
+  },
+  {
+   "k": "111b9k7",
+   "en": "Armored Car"
+  },
+  {
+   "k": "1467jl9",
+   "en": "Various ⟦0⟧ penalties and movement bonuses",
+   "frags": 1
+  },
+  {
+   "k": "50kxag",
+   "en": "60 Armored Cars"
+  },
+  {
+   "k": "108giwx",
+   "en": "Combat Support Battalions"
+  },
+  {
+   "k": "16jbfog",
+   "en": "Anti-Tank"
+  },
+  {
+   "k": "12qem6n",
+   "en": "36 Anti-Tank"
+  },
+  {
+   "k": "1kcnjpu",
+   "en": "Front line, line artillery, all army"
+  },
+  {
+   "k": "1a08bpw",
+   "en": "Anti-Air"
+  },
+  {
+   "k": "1rmre05",
+   "en": "36 Anti-Air"
+  },
+  {
+   "k": "190zy71",
+   "en": "line artillery, all army"
+  },
+  {
+   "k": "1r47f81",
+   "en": "Artillery"
+  },
+  {
+   "k": "7hd5il",
+   "en": "24 Artillery"
+  },
+  {
+   "k": "r742zh",
+   "en": "line artillery, artillery, all army"
+  },
+  {
+   "k": "1kpwnmn",
+   "en": "Rocket Artillery"
+  },
+  {
+   "k": "knsbej",
+   "en": "24 Rocket Artillery"
+  },
+  {
+   "k": "lsl0fl",
+   "en": "Mobile Combat Support Battalions"
+  },
+  {
+   "k": "14lw61v",
+   "en": "Motorized Anti-Tank"
+  },
+  {
+   "k": "1g4udus",
+   "en": "36 Anti-Tank, 36 Motorized (Trucks)"
+  },
+  {
+   "k": "1o5fg01",
+   "en": "Motorized Anti-Air"
+  },
+  {
+   "k": "12xw7w6",
+   "en": "36 Anti-Air, 36 Motorized (Trucks)"
+  },
+  {
+   "k": "1uorcj2",
+   "en": "Motorized Artillery"
+  },
+  {
+   "k": "1t7veda",
+   "en": "24 Artillery, 36 Motorized (Trucks)"
+  },
+  {
+   "k": "1vn23n1",
+   "en": "Truck-drawn Rocket Artillery"
+  },
+  {
+   "k": "ds5vig",
+   "en": "24 Rocket Artillery, 36 Motorized (Trucks)"
+  },
+  {
+   "k": "1r5sssr",
+   "en": "Mot. R. Artillery"
+  },
+  {
+   "k": "1bo23dp",
+   "en": "16 Mot. R. Artillery, 16 Motorized (Trucks)"
+  },
+  {
+   "k": "14uclco",
+   "en": "Armored Battalions"
+  },
+  {
+   "k": "18aumac",
+   "en": "The equipment stats given here for Armoured Battalions are for without ⟦0⟧, where armored vehicles have predetermined stats like other units and can also be made into ⟦1⟧ using ⟦2⟧. With ⟦3⟧, armored vehicles receive their stats through the use of the ⟦4⟧ instead.",
+   "frags": 5
+  },
+  {
+   "k": "x63bw0",
+   "en": "Army experience"
+  },
+  {
+   "k": "koydqq",
+   "en": "tank designer"
+  },
+  {
+   "k": "1i6wsf5",
+   "en": "Light Tank"
+  },
+  {
+   "k": "lsrt2q",
+   "en": "60 Light Tanks"
+  },
+  {
+   "k": "kle8g0",
+   "en": "+15% Breakthr."
+  },
+  {
+   "k": "dkob1j",
+   "en": "Tank, front line, all armour, all army"
+  },
+  {
+   "k": "znbvzu",
+   "en": "Medium Tank"
+  },
+  {
+   "k": "peh46",
+   "en": "50 Medium Tanks"
+  },
+  {
+   "k": "1qr70g0",
+   "en": "Heavy Tank"
+  },
+  {
+   "k": "xn9ptn",
+   "en": "40 Heavy Tanks"
+  },
+  {
+   "k": "1jr9uhi",
+   "en": "Modern Tank"
+  },
+  {
+   "k": "8d4bri",
+   "en": "50 Modern Tanks"
+  },
+  {
+   "k": "3vgk5u",
+   "en": "Amphibious Tank Battalion"
+  },
+  {
+   "k": "1edvaho",
+   "en": "50 Amphibious Tanks"
+  },
+  {
+   "k": "1wjmnfe",
+   "en": "Tank, front line, all armour, all army, amphibious armour"
+  },
+  {
+   "k": "p3ijxm",
+   "en": "Light Amphibious Tank Battalion"
+  },
+  {
+   "k": "1a0plls",
+   "en": "50 Light Amphibious Tanks"
+  },
+  {
+   "k": "i47xrn",
+   "en": "Front line, tank, all armour, all army"
+  },
+  {
+   "k": "16pmwkc",
+   "en": "This unit is unavailable without ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1lk23pr",
+   "en": "Medium Amphibious Tank Battalion"
+  },
+  {
+   "k": "5pymm5",
+   "en": "50 Medium Amphibious Tanks"
+  },
+  {
+   "k": "1crsty1",
+   "en": "Heavy Amphibious Tank Battalion"
+  },
+  {
+   "k": "1onlotp",
+   "en": "50 Heavy Amphibious Tanks"
+  },
+  {
+   "k": "ldxe3b",
+   "en": "Armored Combat Support Battalions"
+  },
+  {
+   "k": "hkt5dw",
+   "en": "The equipment stats given here for Armored Combat Support Battalions are for without ⟦0⟧, where armored vehicles have predetermined stats like other units and can also be made into ⟦1⟧ using ⟦2⟧. With ⟦3⟧, armored vehicles receive their stats through the use of the ⟦4⟧ instead.",
+   "frags": 5
+  },
+  {
+   "k": "1qe9i4o",
+   "en": "Light Tank Destroyer"
+  },
+  {
+   "k": "te6j7a",
+   "en": "40 L. Tank Destroyer"
+  },
+  {
+   "k": "l7q7oz",
+   "en": "-42% Breakthr. +15% Piercing"
+  },
+  {
+   "k": "17n5pv3",
+   "en": "Front line, all armour, all army"
+  },
+  {
+   "k": "1y44yjr",
+   "en": "Medium Tank Destroyer"
+  },
+  {
+   "k": "15ptkf5",
+   "en": "40 M. Tank Destroyer"
+  },
+  {
+   "k": "1kjbgl2",
+   "en": "-25% Breakthr. +15% Piercing"
+  },
+  {
+   "k": "144r5f1",
+   "en": "Heavy Tank Destroyer"
+  },
+  {
+   "k": "usg0yi",
+   "en": "40 H. Tank Destroyer"
+  },
+  {
+   "k": "1h53mt7",
+   "en": "Modern Tank Destroyer"
+  },
+  {
+   "k": "1ednnr5",
+   "en": "40 Modern Tank Destroyer"
+  },
+  {
+   "k": "1iw34fi",
+   "en": "Modern TD"
+  },
+  {
+   "k": "4t6dgs",
+   "en": "Light SP Artillery"
+  },
+  {
+   "k": "1wbwwia",
+   "en": "40 Light SP Artillery"
+  },
+  {
+   "k": "79mmsw",
+   "en": "-42% Breakthr. +15% Soft Atk."
+  },
+  {
+   "k": "k9tvvw",
+   "en": "All armour, all army"
+  },
+  {
+   "k": "vjo0pf",
+   "en": "Medium SP Artillery"
+  },
+  {
+   "k": "f4ldc1",
+   "en": "40 Medium SP Artillery"
+  },
+  {
+   "k": "kgfefj",
+   "en": "-25% Breakthr. +15% Soft Atk."
+  },
+  {
+   "k": "10uahf9",
+   "en": "Heavy SP Artillery"
+  },
+  {
+   "k": "1rle30j",
+   "en": "40 Heavy SP Artillery"
+  },
+  {
+   "k": "dn6l4f",
+   "en": "Modern SP Artillery"
+  },
+  {
+   "k": "1k2xza9",
+   "en": "40 Modern SP Artillery"
+  },
+  {
+   "k": "1eho6sb",
+   "en": "Light SP Anti-Air"
+  },
+  {
+   "k": "rudq8l",
+   "en": "40 Light SP Anti-Air"
+  },
+  {
+   "k": "19ag98g",
+   "en": "-55% Breakthr. +15% Air Atk."
+  },
+  {
+   "k": "1xl9cc2",
+   "en": "Medium SP Anti-Air"
+  },
+  {
+   "k": "104wjtw",
+   "en": "40 Medium SP Anti-Air"
+  },
+  {
+   "k": "k3yro6",
+   "en": "-53% Breakthr. +15% Air Atk."
+  },
+  {
+   "k": "w054ns",
+   "en": "Heavy SP Anti-Air"
+  },
+  {
+   "k": "1uy93k2",
+   "en": "40 Heavy SP Anti-Air"
+  },
+  {
+   "k": "w0cvue",
+   "en": "-35% Breakthr. +15% Air Atk."
+  },
+  {
+   "k": "sge2xa",
+   "en": "Modern SP Anti-Air"
+  },
+  {
+   "k": "1ruvglg",
+   "en": "40 Modern SP Anti-Air"
+  },
+  {
+   "k": "16pgs87",
+   "en": "Support Companies"
+  },
+  {
+   "k": "g8b0bq",
+   "en": "Support companies normally do not have combat width, do not affect the speed of divisions, and can be ⟦0⟧ unless otherwise noted. Unlike line battalions, each support company can only be added to a division once. Some support companies also prevent certain other support companies from being taken.",
+   "frags": 1
+  },
+  {
+   "k": "1f7wrjd",
+   "en": "The equipment stats given here for support companies with armored units are for without ⟦0⟧, where armored vehicles have predetermined stats like other units and can also be made into ⟦1⟧ using ⟦2⟧. With ⟦3⟧, armored vehicles instead receive their stats through the use of the ⟦4⟧ instead.",
+   "frags": 5
+  },
+  {
+   "k": "1eg3avn",
+   "en": "Support Anti-Tank"
+  },
+  {
+   "k": "108iav8",
+   "en": "24 Anti-Tank"
+  },
+  {
+   "k": "13roxvs",
+   "en": "-50% Soft Atk., Hard Atk., Defence, & Breakthrough -15% Piercing"
+  },
+  {
+   "k": "r4mpbt",
+   "en": "Front line, support, all army"
+  },
+  {
+   "k": "3oaemp",
+   "en": "Support Anti-Air"
+  },
+  {
+   "k": "1oxfdx8",
+   "en": "20 Anti-Air"
+  },
+  {
+   "k": "1eem3pg",
+   "en": "-40% Soft Atk., Hard Atk., Defence, & Breakthrough -20% Air Atk."
+  },
+  {
+   "k": "1omejgs",
+   "en": "Support, all army"
+  },
+  {
+   "k": "1w9qo2m",
+   "en": "Support Artillery"
+  },
+  {
+   "k": "7pwj14",
+   "en": "12 Artillery"
+  },
+  {
+   "k": "15lqr50",
+   "en": "-40% Soft Atk., Hard Atk., Defence, & Breakthrough"
+  },
+  {
+   "k": "13i62l3",
+   "en": "Support, artillery, support artillery, all army"
+  },
+  {
+   "k": "1i3wory",
+   "en": "Support Rocket Artillery"
+  },
+  {
+   "k": "hwc7uc",
+   "en": "12 Rocket Artillery"
+  },
+  {
+   "k": "qn1trr",
+   "en": "-50% Soft Atk., Hard Atk., Defence, & Breakthrough"
+  },
+  {
+   "k": "n7axro",
+   "en": "Super-Heavy Artillery"
+  },
+  {
+   "k": "1ytzn9",
+   "en": "Cannot ⟦0⟧, Speed affects division",
+   "frags": 1
+  },
+  {
+   "k": "3cb42a",
+   "en": "paradrop"
+  },
+  {
+   "k": "i8xwnt",
+   "en": "3 Super-Heavy Howitzer"
+  },
+  {
+   "k": "1ejk9cs",
+   "en": "Self-Propelled Super-Heavy Artillery"
+  },
+  {
+   "k": "koupfv",
+   "en": "3 Self-Propelled Super-Heavy Howitzer"
+  },
+  {
+   "k": "1s1t5x",
+   "en": "Cavalry Recon Company"
+  },
+  {
+   "k": "ur596r",
+   "en": "+1 Recon, Speed affects division, Various ⟦0⟧ movement bonuses, Blocks other recon, +10% All Artillery Soft Atk.",
+   "frags": 1
+  },
+  {
+   "k": "11hipeo",
+   "en": "40 Infantry Equipment, 10 Support Equipment"
+  },
+  {
+   "k": "edtbid",
+   "en": "-90% Soft & Hard Atk., -50% Defence & Breakthrough, +60% Max Speed"
+  },
+  {
+   "k": "ppmduq",
+   "en": "Support, front line, all army, recon"
+  },
+  {
+   "k": "i4ry26",
+   "en": "Recon Rangers"
+  },
+  {
+   "k": "tf2sft",
+   "en": "+1 Recon, Speed affects division, Various ⟦0⟧ movement & attack bonuses, Blocks other recon",
+   "frags": 1
+  },
+  {
+   "k": "zvs1db",
+   "en": "40 Infantry Equipment, 15 Support Equipment"
+  },
+  {
+   "k": "mxd6n4",
+   "en": "Front line, support, all army, recon, all mountaineers, all rangers"
+  },
+  {
+   "k": "w9mkvj",
+   "en": "Long Range Patrol Company"
+  },
+  {
+   "k": "1guma34",
+   "en": "+2 Recon, ⟦0⟧, Speed affects division, Various ⟦1⟧ movement & attack bonuses, Various snow bonuses, Blocks other recon, ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "1e16ynx",
+   "en": "+5% Equipment Capture Ratio"
+  },
+  {
+   "k": "1qstjoq",
+   "en": "+2% Leg Infantry Initiative"
+  },
+  {
+   "k": "101y352",
+   "en": "+10% Soft Atk., +30% Breakthrough, +60% Max Speed"
+  },
+  {
+   "k": "101bwnw",
+   "en": "Front line, support, all army, recon"
+  },
+  {
+   "k": "19obbtw",
+   "en": "Motorized Recon Company"
+  },
+  {
+   "k": "mrgg52",
+   "en": "+1.5 Recon, Speed affects division, Various ⟦0⟧ movement bonuses, Blocks other recon, +10% All Artillery Soft Atk.",
+   "frags": 1
+  },
+  {
+   "k": "1fcm6p9",
+   "en": "40 Infantry Equipment, 10 Support Equipment, 20 Motorized"
+  },
+  {
+   "k": "1ji7st7",
+   "en": "-90% Soft & Hard Atk. -9% Defence -50% Breakthrough"
+  },
+  {
+   "k": "1uhybx2",
+   "en": "Armoured Car Recon Company"
+  },
+  {
+   "k": "yy7a3q",
+   "en": "+2 Recon, Speed affects division, Various ⟦0⟧ movement bonuses, Blocks other recon, +10% All Artillery Soft Atk.",
+   "frags": 1
+  },
+  {
+   "k": "1rnpmjf",
+   "en": "24 Armoured Cars"
+  },
+  {
+   "k": "uah8l7",
+   "en": "-50% Soft & Hard Atk. & Defence -20% Breakthrough"
+  },
+  {
+   "k": "10kq4cx",
+   "en": "Light Tank Recon Company"
+  },
+  {
+   "k": "1omwyu8",
+   "en": "+1 Recon, Speed affects division, Various ⟦0⟧ movement bonuses, Cannot ⟦1⟧, Blocks other recon, +10% Tanks & Armor Variants Hard Atk.",
+   "frags": 2
+  },
+  {
+   "k": "1osbc0q",
+   "en": "24 light tanks"
+  },
+  {
+   "k": "1qll4jm",
+   "en": "-60% Soft Atk., Hard Atk., Defence, Breakthr., Armor"
+  },
+  {
+   "k": "17we8jn",
+   "en": "Support, front line, all army"
+  },
+  {
+   "k": "1abuxkh",
+   "en": "Airborne Light armour"
+  },
+  {
+   "k": "7bv64d",
+   "en": "+1 Recon, Speed affects division, Various ⟦0⟧ movement bonuses, Blocks other recon",
+   "frags": 1
+  },
+  {
+   "k": "o2ocmf",
+   "en": "-50% Defence & Armor -25% Soft Atk., Hard Atk., & Breakthrough"
+  },
+  {
+   "k": "1vpmim3",
+   "en": "Front line, support, all army, all armour, all paratroopers"
+  },
+  {
+   "k": "1mr49sh",
+   "en": "Airborne Light Armour"
+  },
+  {
+   "k": "hspds7",
+   "en": "Helicopter Recon"
+  },
+  {
+   "k": "jseuoe",
+   "en": "+2 Recon, Various ⟦0⟧ movement bonuses, Cannot ⟦1⟧, Blocks other recon, Blocks Helicopter Brigade, +10% All Artillery Soft Atk.",
+   "frags": 2
+  },
+  {
+   "k": "fr5ucx",
+   "en": "20 Infantry Equipment, 10 Support Equipment, 20 Helicopter"
+  },
+  {
+   "k": "1huvgc4",
+   "en": "Support, helicopter, all army, recon"
+  },
+  {
+   "k": "bpk82w",
+   "en": "Helicopter Brigade"
+  },
+  {
+   "k": "1id514v",
+   "en": "+1 Recon, +10% ⟦0⟧ trickleback, -5% ⟦1⟧ loss from casualties, -5% Supply Consumption, Cannot ⟦2⟧, Blocks other helicopter companies, +3% All Infantry HP",
+   "frags": 3
+  },
+  {
+   "k": "1byxumh",
+   "en": "Experience"
+  },
+  {
+   "k": "1gc1qcz",
+   "en": "15 Support Equipment, 15 Helicopter"
+  },
+  {
+   "k": "x4g2g5",
+   "en": "-100% Fuel Use"
+  }
+ ]
+}

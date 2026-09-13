@@ -1,0 +1,935 @@
+{
+ "batch": 1167,
+ "pages": [
+  "Patch 1.17"
+ ],
+ "chars": 14988,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1lwqj8n",
+   "en": "⟦0⟧ was released on 2025-11-20⟦1⟧ coinciding with the release of the ⟦2⟧ DLC. The checksum is ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "1abnjoc",
+   "en": "Patch 1.17"
+  },
+  {
+   "k": "12mnkbp",
+   "en": "No Compromise, No Surrender"
+  },
+  {
+   "k": "1hsmhzn",
+   "en": "Added new ahistorical Japanese focus paths including Imperial Influence system."
+  },
+  {
+   "k": "146d473",
+   "en": "Added new historical Japan focus tree paths"
+  },
+  {
+   "k": "17zt2nf",
+   "en": "Added new focus tree to Nationalist China"
+  },
+  {
+   "k": "1o30u6w",
+   "en": "Added new focus tree to Communist China"
+  },
+  {
+   "k": "1xauaz4",
+   "en": "Added full focus tree to Philippines"
+  },
+  {
+   "k": "1vwihtc",
+   "en": "Updated existing warlord focus trees and added it to new war lord countries’"
+  },
+  {
+   "k": "ztwaom",
+   "en": "Split Sinkiang and Khotan Ma with NCNS enabled."
+  },
+  {
+   "k": "6istmn",
+   "en": "Split Xibei San Ma into Qinghai Ma, Gansu Ma and Ningxia Mawith NCNS enabled."
+  },
+  {
+   "k": "f5q4x9",
+   "en": "Split Nationalist China from Sichuan Clique, Northeastern Army, Hebi-Chahar and Shandong Clique with NCNS enabled."
+  },
+  {
+   "k": "1n75unn",
+   "en": "Split Guangdong Clique from Guangxi Clique with NCNS enabled."
+  },
+  {
+   "k": "1cgjyrm",
+   "en": "Updated states in East Asia and Philippines"
+  },
+  {
+   "k": "1k508si",
+   "en": "Added new VO for Philippines"
+  },
+  {
+   "k": "10f9fa5",
+   "en": "Added 10 new music tracks"
+  },
+  {
+   "k": "1m8rsxd",
+   "en": "Added 67 new 3D models"
+  },
+  {
+   "k": "gr9104",
+   "en": "Added 54 reskinned and updated 3D models"
+  },
+  {
+   "k": "1ymsk4d",
+   "en": "Feature"
+  },
+  {
+   "k": "1u4r2zj",
+   "en": "Existing faction mechanics expanded on with completely new system, including shared inteligence, faction rules and faction goals"
+  },
+  {
+   "k": "yz111i",
+   "en": "Added over 60 faction rules"
+  },
+  {
+   "k": "qnfvpb",
+   "en": "Added over 150 short, medium and long term faction goals"
+  },
+  {
+   "k": "51v6c7",
+   "en": "Added new faction theatres system for collaborating with faction allies more effectively."
+  },
+  {
+   "k": "tom772",
+   "en": "Replaced existing doctrine trees for Army, Navy and Air with new doctrines system."
+  },
+  {
+   "k": "1kqdxnp",
+   "en": "Added 3 New Special Projects"
+  },
+  {
+   "k": "q197qc",
+   "en": "Added 19 New Military Spirits"
+  },
+  {
+   "k": "1qmldbi",
+   "en": "Reworked and added limit for the State and Province type buildings, depending on the state type. Limits introduced for different island categories."
+  },
+  {
+   "k": "7c47z9",
+   "en": "Reworked Naval Invasions, replaced global cap of divisions assigned at the same time to invasions and scaling time per division, to have caps based on the number of simulatenous naval invasion plans, how many divisions can be assigned to that plan. Planning time for Naval Invasions is no longer depending on the amount of divisions attached to the order."
+  },
+  {
+   "k": "1p6vabn",
+   "en": "Added Strategic Locations, Provinces that can have increased building limits, e.g. Natural Harbor, which increases the limit of naval base in a province by 2."
+  },
+  {
+   "k": "1rfb2i1",
+   "en": "Added 23 new Subdoctrines for the No Compromise, No Surrender"
+  },
+  {
+   "k": "18jxvsv",
+   "en": "Added 1 new Subdoctrine for La Resistance"
+  },
+  {
+   "k": "16d7w7f",
+   "en": "Added 4 new Subdoctrines for By Blood Alone"
+  },
+  {
+   "k": "13q37id",
+   "en": "Reintroduced Fleet Home Base system, Port, from which Fleet stationed there draws range and supplies. Now with option to use 'Automatic' Selection of the Home Base."
+  },
+  {
+   "k": "1e9zfps",
+   "en": "Planes on Carriers can now perform air missions, while their taskforce is performing naval mission."
+  },
+  {
+   "k": "xymxth",
+   "en": "Added Carrier Stances that allows to customize how many planes should participate in the defense of the taskforce, and how many should perform air missions"
+  },
+  {
+   "k": "kxxksr",
+   "en": "Balance"
+  },
+  {
+   "k": "eg48cq",
+   "en": "Increased maximum naval shore bombardment penalty to defenders to 33 percent. Halved shore bombardment generation from ship heavy and light attack to make the effect stronger but harder to cap."
+  },
+  {
+   "k": "12no2i",
+   "en": "Reduced generic MIO bonuses for infantry tanks and assault guns to bring them in line with other MIO types."
+  },
+  {
+   "k": "uimhke",
+   "en": "USA: Reduced all generals and admirals by one level. Several leaders can regain this level through focuses to represent pre-war experience progression."
+  },
+  {
+   "k": "1bc0ce2",
+   "en": "USA: Added Leader Experience Gain to the Department of Defence to help leaders catch up after entering the war late."
+  },
+  {
+   "k": "dyj5nz",
+   "en": "Snowy ground is now more punishing for movement and breakthrough. Extremely cold weather now inflicts higher attrition."
+  },
+  {
+   "k": "mmhiuv",
+   "en": "Slightly lowered base speed during strategic deployment."
+  },
+  {
+   "k": "h51e0s",
+   "en": "Added a small attrition multiplier while units are moving."
+  },
+  {
+   "k": "2qv5kf",
+   "en": "Naval shore bombardment can now critically hit, causing severe damage to forts and coastal forts during combat."
+  },
+  {
+   "k": "iwf246",
+   "en": "Removed WAR_SCORE_DECAY_FOR_BUILT_CONVOY. Warscore from sinking convoys now uses the same IC-based logic as ships. Significantly increased warscore for sinking ships."
+  },
+  {
+   "k": "1madweh",
+   "en": "Updated submarine escape ratios to be more coherent and consistent."
+  },
+  {
+   "k": "iedt9b",
+   "en": "Danish Welfare Balance of Power effects on Starting Production Efficiency changed from minus 15 percent and minus 10 percent to minus 5 percent and minus 5 percent."
+  },
+  {
+   "k": "amo3gf",
+   "en": "China: Army Reform decisions available without No Compromise, No Surrender now cost 75 Army Experience. War of Resistance now grants 20 percent core defense."
+  },
+  {
+   "k": "13m2w0k",
+   "en": "Subjects and Overlords no longer receive the Faction Traitor opinion penalty when leaving factions."
+  },
+  {
+   "k": "1a8w0r7",
+   "en": "Carriers now intercept land-based naval strikes by destroying incoming bombers. The number of carrier fighters determines interception strength. Bomber agility, defense, and speed determine survival chances."
+  },
+  {
+   "k": "11jaoje",
+   "en": "Improved German General Paulus with higher defense, planning, and logistics to better reflect his historical staff career. Previously had uniformly low stats that were not representative."
+  },
+  {
+   "k": "qnlwai",
+   "en": "Line Artillery: Equipment requirement reduced from 36 to 24."
+  },
+  {
+   "k": "1eq8ikc",
+   "en": "Line Rocket Artillery: Equipment requirement reduced from 36 to 24."
+  },
+  {
+   "k": "1vqkk5i",
+   "en": "Motorized Line Artillery: Artillery requirement reduced from 36 to 24. Truck requirement reduced from 50 to 36."
+  },
+  {
+   "k": "1yn52o1",
+   "en": "Motorized Line Rocket Artillery (Truck-Drawn): Rocket equipment requirement reduced from 36 to 24. Truck requirement reduced from 50 to 36."
+  },
+  {
+   "k": "1mjixr",
+   "en": "Motorized Line Anti-Tank Artillery: Trucks Requirement reduced from 50 to 36."
+  },
+  {
+   "k": "1n378qm",
+   "en": "Motorized Line Anti-Air: AA requirement increased from 30 to 36. Truck requirement reduced from 50 to 36."
+  },
+  {
+   "k": "30l6kt",
+   "en": "Motorized Rocket Artillery: Rocket equipment requirement reduced from 20 to 16. Truck requirement increased from 15 to 16."
+  },
+  {
+   "k": "1hv8sl1",
+   "en": "Support Artillery Tech: Soft Attack bonus per level reduced from plus 10 percent to plus 5 percent."
+  },
+  {
+   "k": "yn4q5p",
+   "en": "Light, Medium, Modern, and Heavy Self Propelled Artillery: Combat Width reduced from 3 to 2. Equipment requirement set to 40 Self Propelled Artillery per battalion (previously 60, 50, 50, 40)."
+  },
+  {
+   "k": "1t1b38m",
+   "en": "Light, Medium, Modern, and Heavy Self Propelled Anti Air: Equipment requirement increased from 36 to 40 per battalion."
+  },
+  {
+   "k": "geolkb",
+   "en": "Light, Medium, Modern, and Heavy Tank Destroyers: Equipment requirement reduced from 50 to 40 per battalion."
+  },
+  {
+   "k": "17ambd2",
+   "en": "Naval Air Targeting: Adjusted ship targeting logic for planes. High screening causes targets to be selected more randomly, while low screening causes targeting to behave more like the previous system."
+  },
+  {
+   "k": "1nq5sm6",
+   "en": "Collaboration: Surrender Limit impact reduced from -30% to -15% at 100%"
+  },
+  {
+   "k": "2zl6y",
+   "en": "Removed the Naval Admiral Level contribution to naval hit chance and removed the Coordination bonus."
+  },
+  {
+   "k": "1aes9w5",
+   "en": "Gameplay"
+  },
+  {
+   "k": "1l7yryf",
+   "en": "Reworked Samar and Cebu into Eastern and Western Visayas"
+  },
+  {
+   "k": "1r832i",
+   "en": "Removed the unused Ausf. I from German equipment variant names as they historically did to avoid numeral confusion. Added a new Ausf. Q to preserve the full 16-variant naming set."
+  },
+  {
+   "k": "1oy39nj",
+   "en": "Implemented game logic for naval mission targeting."
+  },
+  {
+   "k": "bnwf4x",
+   "en": "Assault Gun Manufacturer MIOs now also apply to Modern SP Artillery."
+  },
+  {
+   "k": "1hhaxe3",
+   "en": "Coastal Defense Ships can now mount mine rails and perform minelaying operations."
+  },
+  {
+   "k": "1ra5s23",
+   "en": "Iraq now automatically grants air base access to United Kingdom and cannot revoke air or military access while the Anglo-Iraqi Treaty is active."
+  },
+  {
+   "k": "1m0k1df",
+   "en": "Added coal to the mobilization laws interface."
+  },
+  {
+   "k": "le85l6",
+   "en": "AI now sticks more firmly to production lines before switching. Threshold adjusted from 0.25 to 0.1."
+  },
+  {
+   "k": "dp33pu",
+   "en": "Removed the Medium Battery tech line."
+  },
+  {
+   "k": "boori",
+   "en": "Moved all medium battery modules into the corresponding light and heavy battery lines."
+  },
+  {
+   "k": "zzv2mx",
+   "en": "Added plus 5 percent attack and piercing to Heavy Cruisers through the Heavy Shell techs."
+  },
+  {
+   "k": "o53x1r",
+   "en": "Standardized naval equipment names to Early, Basic, Improved, and Advanced."
+  },
+  {
+   "k": "ohos8h",
+   "en": "Moved hull years to 1922, 1936, 1939, and 1943."
+  },
+  {
+   "k": "1tnaawh",
+   "en": "Added submarine carrier airwing size modifiers."
+  },
+  {
+   "k": "19zto9e",
+   "en": "Added three new unit categories: All Anti Tank Artillery, Mobile Anti Tank Artillery, and All Rocket Artillery."
+  },
+  {
+   "k": "rmpkn8",
+   "en": "Collaboration impact on surrender limit reduced from 30 percent at 100 percent to 15 percent at 100 percent."
+  },
+  {
+   "k": "rb1yuw",
+   "en": "Added minor flavour national spirits for Tibet."
+  },
+  {
+   "k": "1jh5ka6",
+   "en": "Added the Warsaw Pact focus for the Soviet Union."
+  },
+  {
+   "k": "1c4prcq",
+   "en": "Germany: Tag-based Reichskommissariats can no longer be formed if the country is already a German puppet, such as Poland or Czechoslovakia."
+  },
+  {
+   "k": "1pvhbkn",
+   "en": "Tweaked Danish AI to be more likely to declare independence when their overlord is losing and less likely when the overlord is stable."
+  },
+  {
+   "k": "1lhtvrl",
+   "en": "Encouraged France to participate in the Yalta Conference even with very low warscore."
+  },
+  {
+   "k": "1s2vfob",
+   "en": "Opened a passage into Arunachal Pradesh and set parts of the Yunnan–Burma border to impassable."
+  },
+  {
+   "k": "8pihl4",
+   "en": "AI should no longer withdraw its entire army from a front when a controller area is split. This may not cover every edge case, but it addresses the majority of occurrences."
+  },
+  {
+   "k": "1h83hpk",
+   "en": "Stability & Performance"
+  },
+  {
+   "k": "1bhwxht",
+   "en": "Fixed a crash on Mac when hovering over a deleted template."
+  },
+  {
+   "k": "fbhpve",
+   "en": "Implemented a OOS fix related to pathfinding."
+  },
+  {
+   "k": "vhs0v1",
+   "en": "Fixed a crash on Mac when pressing the Raids interface."
+  },
+  {
+   "k": "11ntzqh",
+   "en": "Fixed a CTD in the supply system."
+  },
+  {
+   "k": "19vtwm5",
+   "en": "Corrected the Noric script so it now displays the proper tooltip."
+  },
+  {
+   "k": "k05vsw",
+   "en": "Parallelized parts of the supply dirty check for improved performance."
+  },
+  {
+   "k": "1i4us5t",
+   "en": "Fixed an OOS issue in production lines."
+  },
+  {
+   "k": "xq2wik",
+   "en": "Reordered triggers for WTT border conflicts to reduce topbar GUI lag when playing as China."
+  },
+  {
+   "k": "qt4sr9",
+   "en": "Optimized memory allocation throughout the codebase."
+  },
+  {
+   "k": "5okd15",
+   "en": "Optimized pathfinding by storing state in a single byte instead of several."
+  },
+  {
+   "k": "11l1k2g",
+   "en": "Optimized naval strength comparison logic."
+  },
+  {
+   "k": "1u9jhp8",
+   "en": "Optimized the join wars and call allies actions."
+  },
+  {
+   "k": "ueuesp",
+   "en": "Optimized trade route calculations and overall route optimization."
+  },
+  {
+   "k": "bloerp",
+   "en": "Optimized CCountryIntelligenceAgencyView::CalcOperations."
+  },
+  {
+   "k": "14vs3vb",
+   "en": "Raids now evaluate equipment archetypes instead of specific variants, greatly improving performance."
+  },
+  {
+   "k": "10thft6",
+   "en": "Fixed an OOS in the supply system related to localization."
+  },
+  {
+   "k": "1sopqs7",
+   "en": "Fixed a CTD triggered when starting a peace conference."
+  },
+  {
+   "k": "a86qx4",
+   "en": "Fixed a temperature-related OOS issue."
+  },
+  {
+   "k": "12h9xys",
+   "en": "Improved save file size requirements caused by the international market."
+  },
+  {
+   "k": "1cbzi09",
+   "en": "Added an optimization that batch-removes CGui::_guiObjectShown entries when batch-removing GUI objects, avoiding expensive per-object removals."
+  },
+  {
+   "k": "1gevjcj",
+   "en": "Most country targeted decisions will now pan the camera to that country’s capital state when right clicking them."
+  },
+  {
+   "k": "1nroyb1",
+   "en": "Shift clicking equipment in the lend lease setup now adds all equipment of that type to the offer with the Once setting enabled."
+  },
+  {
+   "k": "ap0ukl",
+   "en": "Main menu backgrounds are now fully localizable. Added support for the Chinese localized NCNS background."
+  },
+  {
+   "k": "15e9xih",
+   "en": "Added portrait traits for minor portraits and improved the tooltip for Hirohito."
+  },
+  {
+   "k": "877ebq",
+   "en": "Added the Korean language folder and language selection settings."
+  },
+  {
+   "k": "27n4b8",
+   "en": "Added naval HQ and best HQ leader information to the combat result screen."
+  },
+  {
+   "k": "1t0de47",
+   "en": "Updated the top bar factory display to show coal and energy information."
+  },
+  {
+   "k": "h4uc5r",
+   "en": "Added an alert when fuel drops below 25 percent."
+  },
+  {
+   "k": "kfrv5s",
+   "en": "Reduced lobby list spam by collapsing duplicate lobby names."
+  },
+  {
+   "k": "168bo0b",
+   "en": "Improved the daily manpower gain tooltip so the displayed value now matches the underlying calculation more accurately."
+  },
+  {
+   "k": "1xuls5",
+   "en": "Fixed the research window layout for low resolution displays."
+  },
+  {
+   "k": "1qw9bh6",
+   "en": "Map tooltips now lock to the bottom right of the screen. This can be toggled in game settings."
+  },
+  {
+   "k": "e435p",
+   "en": "Strategic Region names are now only visible on hover. This can be toggled in game settings."
+  },
+  {
+   "k": "10vk0nt",
+   "en": "Land unit icons now display with transparency while using the strategic naval mapmode."
+  },
+  {
+   "k": "plg5qn",
+   "en": "Adjusted the color of naval supply routes to be less visually noisy."
+  },
+  {
+   "k": "1vpote3",
+   "en": "Fixed issues with the naval stance dropdown."
+  },
+  {
+   "k": "ayvplw",
+   "en": "Replaced the navy engagement button with a dropdown menu."
+  },
+  {
+   "k": "sf1g5h",
+   "en": "Modernized the repair priority button visuals."
+  },
+  {
+   "k": "1eucwx6",
+   "en": "Added more information to the strategic location icon."
+  },
+  {
+   "k": "aalr2k",
+   "en": "Added a faction button to the top bar."
+  },
+  {
+   "k": "1o568wq",
+   "en": "Updated the Officer Corps menu icon."
+  },
+  {
+   "k": "9m30fv",
+   "en": "Modding"
+  },
+  {
+   "k": "c22zss",
+   "en": "Added the annex_subject_cost_factor modifier."
+  },
+  {
+   "k": "17ck4c1",
+   "en": "You can now switch countries by holding Tab and clicking a country on the map while in debug mode."
+  },
+  {
+   "k": "xth7s8",
+   "en": "Raid Types can now use a range factor modifier that multiplies the effective range of eligible units."
+  },
+  {
+   "k": "qzv7qj",
+   "en": "Added the fade_delay GUI property to containerWindowType, allowing an initial delay before a window fades in."
+  },
+  {
+   "k": "16x4plk",
+   "en": "Added the army_experience_from_volunteers modifier."
+  },
+  {
+   "k": "40a4al",
+   "en": "Added support for buttons with scripted effects in the focus tree inlay window."
+  },
+  {
+   "k": "1rph0le",
+   "en": "Added a new modifier: spotting_chance_against."
+  },
+  {
+   "k": "1y0v51m",
+   "en": "Added a new modifier: naval_hit_chance_against."
+  },
+  {
+   "k": "veqwbu",
+   "en": "Added a new modifier: amphibious_invasion_against."
+  },
+  {
+   "k": "1mh9xsr",
+   "en": "The language=X argument can now be used with or without the l_ prefix."
+  },
+  {
+   "k": "1psp9d9",
+   "en": "Implemented a new trigger: has_resources_in_collection."
+  },
+  {
+   "k": "1re25a8",
+   "en": "Removed cl_tech from the game. All uses have been migrated to ca_tech, and ca_tech has been renamed to Cruiser Technology."
+  },
+  {
+   "k": "1ejndm0",
+   "en": "Graphics"
+  },
+  {
+   "k": "19j385v",
+   "en": "Fixed a missing land bridge east of Batangas."
+  },
+  {
+   "k": "gmxdfk",
+   "en": "Updated textures for Japanese tanks in the Axis Armor Pack."
+  },
+  {
+   "k": "mp1saw",
+   "en": "Bugfix"
+  },
+  {
+   "k": "1bsd5oz",
+   "en": "Fixed a bug where Air Accident modifiers were not applied correctly + improved the tooltip to show more accurately what is happening"
+  },
+  {
+   "k": "ou8c0a",
+   "en": "Fixed the Nothing Personal, Adolf achievement to also require the Austrian states split off in Götterdämmerung."
+  },
+  {
+   "k": "1pimxp5",
+   "en": "Fixed redundant requirements in the Canadian focus Defense Research Grants and the Ethiopian focus Support Anti Colonialist Resistance."
+  },
+  {
+   "k": "edk1tp",
+   "en": "Added a missing name to the research bonus from the Yugoslav focus Industrialization Program."
+  },
+  {
+   "k": "2hiqn3",
+   "en": "Disabled automatic bypass on several Belgian focuses."
+  },
+  {
+   "k": "16ngqan",
+   "en": "Updated the localization for automatic medal granting to read Automatic Free Medal Chance for better clarity."
+  },
+  {
+   "k": "j1ujd9",
+   "en": "Fixed an issue where Lluis Companys’ portrait did not appear correctly when leading independent Catalonia."
+  },
+  {
+   "k": "1ipmgs4",
+   "en": "Corrected several cases where incorrect or unrepresentative airframe graphics were used in starting OOBs for ENG, GER, JAP, and USA."
+  },
+  {
+   "k": "g65cxj",
+   "en": "Fixed missing French localization for the Swedish focus Husqvarna Weapons Factory."
+  },
+  {
+   "k": "1o789vw",
+   "en": "Corrected the Sunrise Invasion achievement description to state that players must own a coastal European state, not merely occupy one."
+  },
+  {
+   "k": "1ygpsz4",
+   "en": "Updated the flag on the Nanjing Presidential Palace."
+  },
+  {
+   "k": "1z0v71m",
+   "en": "Fixed border war state selection and restored the Xian Incident event."
+  },
+  {
+   "k": "1qu64je",
+   "en": "Fixed flickering terrain modifier tooltips when multiple units attacked from the same province."
+  },
+  {
+   "k": "9qrftz",
+   "en": "Amphibious tanks are now correctly classified as amphibious units."
+  },
+  {
+   "k": "2xf6kv",
+   "en": "Warlords who imprison Kai Shek are now correctly removed from the faction if China chooses to declare war."
+  },
+  {
+   "k": "neyjk2",
+   "en": "Peace conferences can now force ownership of impassable states."
+  },
+  {
+   "k": "6urnq0",
+   "en": "Resource rights are now cancelled automatically when going to war with the rights giver."
+  },
+  {
+   "k": "1cyzjch",
+   "en": "Fixed a GUI bug affecting the chat box in multiplayer."
+  },
+  {
+   "k": "1pnv751",
+   "en": "Fixed gain_xp for naval commanders."
+  },
+  {
+   "k": "1gt2b6f",
+   "en": "Border wars can now be initiated across puppet state borders."
+  },
+  {
+   "k": "1uuzayv",
+   "en": "Redesigned the strategic region and sea zone interface window."
+  },
+  {
+   "k": "10nu4lq",
+   "en": "Fixed an issue preventing missiles from being attached to submarines with missile modules."
+  },
+  {
+   "k": "1qfjb12",
+   "en": "Fixed taskforce reinforcement and reserve transfer issues."
+  },
+  {
+   "k": "5ysub7",
+   "en": "Fixed a bug where depth charges were not properly scaled by modifiers."
+  },
+  {
+   "k": "5j96jz",
+   "en": "Naval Aircraft MIO archetypes now correctly apply Naval Attack, Naval Targeting, Sub Detection, and Surface Detection bonuses."
+  },
+  {
+   "k": "1ov8s3x",
+   "en": "Mengkukuo can now use the generic industrial concern."
+  },
+  {
+   "k": "4hpcee",
+   "en": "Casualty values are now stored using 64 bit integers."
+  },
+  {
+   "k": "1cfzbi9",
+   "en": "Added XP gain to naval missions and expanded XP tooltip information."
+  },
+  {
+   "k": "9i1bzd",
+   "en": "Removed unnecessary whitespace in the monthly recruitable population tooltip in the state view."
+  },
+  {
+   "k": "1fo88p",
+   "en": "Fixed broken number symbol usage in Russian localization."
+  },
+  {
+   "k": "1ph53i5",
+   "en": "Added a missing name to the tech bonus from the Greek focus Increase Our Mining Operations."
+  },
+  {
+   "k": "1brx9kc",
+   "en": "Fixed an issue where enemy nations could absorb returning volunteer divisions."
+  },
+  {
+   "k": "19962l1",
+   "en": "ToA music now plays less frequently when the player capital is outside South America."
+  },
+  {
+   "k": "x3rcw",
+   "en": "Fixed weather related speed modifiers not applying correctly during attack moves."
+  },
+  {
+   "k": "zr6ctg",
+   "en": "Fixed UK focus Organize the Blackshirts causing overlapping branches."
+  },
+  {
+   "k": "5ngbwt",
+   "en": "Fixed an issue where electing MacArthur during wartime did not trigger the correct event."
+  }
+ ]
+}

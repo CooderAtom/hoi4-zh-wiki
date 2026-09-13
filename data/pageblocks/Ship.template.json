@@ -1,0 +1,775 @@
+{
+ "page": "Ship",
+ "items": [
+  {
+   "k": "1024uon",
+   "en": "A ship refers both to a piece of ⟦0⟧ produced by dockyards and, once launched and manned, a member of a task force ready to participate in ⟦1⟧.",
+   "zh": ""
+  },
+  {
+   "k": "1ibku6h",
+   "en": "naval warfare",
+   "zh": ""
+  },
+  {
+   "k": "1acrt4j",
+   "en": "Hull types",
+   "zh": ""
+  },
+  {
+   "k": "ie3m8i",
+   "en": "Hulls are the foundational component of ships and are unlocked through ⟦0⟧. Each hull type contains a number of ⟦1⟧ with restrictions and limitations based on the specific hull type. These slots can be populated by ⟦2⟧ via the ⟦3⟧ in order to form complete ship designs that can be produced by ⟦4⟧.",
+   "zh": ""
+  },
+  {
+   "k": "1n85uig",
+   "en": "module slots",
+   "zh": ""
+  },
+  {
+   "k": "q4uvfu",
+   "en": "modules",
+   "zh": ""
+  },
+  {
+   "k": "1wpydzg",
+   "en": "ship designer",
+   "zh": ""
+  },
+  {
+   "k": "urtmeg",
+   "en": "At the start of the game, each country will have a selection of ⟦0⟧ available for production, based upon hull types which have already been researched.",
+   "zh": ""
+  },
+  {
+   "k": "1xhe2uk",
+   "en": "pre-existing ship variants",
+   "zh": ""
+  },
+  {
+   "k": "st2qym",
+   "en": "Some hull types may serve as the foundation for more than one ship type, depending upon the modules that are fitted during the design of a given ship variant. For example, ⟦0⟧ can serve as the basis for light cruisers or heavy cruisers depending upon the type of guns that are fitted.",
+   "zh": ""
+  },
+  {
+   "k": "7o7sak",
+   "en": "cruiser hulls",
+   "zh": ""
+  },
+  {
+   "k": "wxsvrx",
+   "en": "Hull types and their corresponding ship type(s) are listed below:",
+   "zh": ""
+  },
+  {
+   "k": "3hguc2",
+   "en": "Hull type",
+   "zh": ""
+  },
+  {
+   "k": "12k7m9r",
+   "en": "Ship type(s)",
+   "zh": ""
+  },
+  {
+   "k": "lls27l",
+   "en": "Destroyer hull",
+   "zh": ""
+  },
+  {
+   "k": "t0moje",
+   "en": "Cruiser hull Torpedo Cruiser hull",
+   "zh": ""
+  },
+  {
+   "k": "ge0zuo",
+   "en": "Light cruiser Heavy cruiser",
+   "zh": ""
+  },
+  {
+   "k": "1nz7s7x",
+   "en": "Panzerschiff hull Coastal Defense Ship hull",
+   "zh": ""
+  },
+  {
+   "k": "1at2uon",
+   "en": "Large cruiser",
+   "zh": ""
+  },
+  {
+   "k": "1exn0md",
+   "en": "Heavy ship hull",
+   "zh": ""
+  },
+  {
+   "k": "12trfe2",
+   "en": "Battlecruiser Battleship",
+   "zh": ""
+  },
+  {
+   "k": "iazug4",
+   "en": "Super Heavy Battleship hull",
+   "zh": ""
+  },
+  {
+   "k": "swm375",
+   "en": "Super heavy battleship",
+   "zh": ""
+  },
+  {
+   "k": "1sn72w6",
+   "en": "Carrier hull",
+   "zh": ""
+  },
+  {
+   "k": "l1bc5",
+   "en": "Carrier Escort carrier",
+   "zh": ""
+  },
+  {
+   "k": "7qb8bd",
+   "en": "Converted cruiser carrier hull",
+   "zh": ""
+  },
+  {
+   "k": "1u0xlp1",
+   "en": "Escort carrier",
+   "zh": ""
+  },
+  {
+   "k": "fzn0s",
+   "en": "Submarine hull Cruiser submarine hull",
+   "zh": ""
+  },
+  {
+   "k": "dszvge",
+   "en": "Fleet submarine hull",
+   "zh": ""
+  },
+  {
+   "k": "dvve8g",
+   "en": "Submarine Ballistic missile submarine",
+   "zh": ""
+  },
+  {
+   "k": "go3ejg",
+   "en": "Nuclear Submarine hull",
+   "zh": ""
+  },
+  {
+   "k": "6pf3aw",
+   "en": "Nuclear submarine Nuclear ballistic missile submarine",
+   "zh": ""
+  },
+  {
+   "k": "5c2jfm",
+   "en": "Ship types",
+   "zh": ""
+  },
+  {
+   "k": "ipg8fl",
+   "en": "Surface warships are categorized either as ⟦0⟧ or ⟦1⟧, while submarines and convoys have their own unique mechanics.",
+   "zh": ""
+  },
+  {
+   "k": "11ilz1k",
+   "en": "Capital ships",
+   "zh": ""
+  },
+  {
+   "k": "9ys7p6",
+   "en": "As the main surface combatants, capital ships are designed to sink enemy ships in surface battles.",
+   "zh": ""
+  },
+  {
+   "k": "16cxr1t",
+   "en": "⟦0⟧ (BB): With their heavy armor, battleships are capable of surviving substantial amounts of incoming fire from the enemy battle line. They can also deal considerable damage of their own. Battleships are expensive and take some time to build.",
+   "zh": ""
+  },
+  {
+   "k": "nxdag",
+   "en": "⟦0⟧ (BC): Battlecruisers share the same hull as battleships and use the same types of armament, but are distinguished by somewhat lighter armor and a lower construction cost. Although they can withstand less damage than a battleship, their lighter weight also makes them faster and slightly harder to hit.",
+   "zh": ""
+  },
+  {
+   "k": "1pt4wno",
+   "en": "⟦0⟧ (SHBB): SHBBs are particularly powerful and heavily-armored battleships based upon a dedicated SHBB hull, though they are referred to as BBs in-game. Unlike other hulls which receive new iterations over the years, there is only one SHBB hull in the tech tree. SHBBs are powerful enough to remain a potent threat throughout the game despite the lack of hull iterations. However, they are also prohibitively expensive and take a very long time to build.",
+   "zh": ""
+  },
+  {
+   "k": "1bk6bnm",
+   "en": "⟦0⟧ (CA): Heavy cruisers share the same hull as light cruisers, and are distinguished by their heavier guns. With the lightest armor of any capital ship, heavy cruisers have low survivability against battlecruisers and battleships.",
+   "zh": ""
+  },
+  {
+   "k": "ebfq7n",
+   "en": "Heavy cruiser",
+   "zh": ""
+  },
+  {
+   "k": "p6bl0n",
+   "en": "⟦0⟧ (CB): Large cruisers are specialized heavy cruisers that are built using more expensive Panzerschiff and Coastal Defense Ship hulls, though they are still referred to as CAs in-game. They can mount even heavier guns that match those found on battleships and battlecruisers. However, despite having costs comparable to battlecruisers, they are similarly lightly armored as regular heavy cruisers and so are no less survivable.",
+   "zh": ""
+  },
+  {
+   "k": "qq1bhs",
+   "en": "⟦0⟧ (CV): Dedicated aircraft carriers can carry deploy specialized carrier air wings for various tasks, including vying for control of the air and dealing bomb damage to enemy ships during ⟦1⟧, as well as being deployed on ⟦2⟧ outside of them. They can be expensive to build and to fuel, especially with their accompanying aircraft, but can be highly effective for their cost.",
+   "zh": ""
+  },
+  {
+   "k": "109wf6c",
+   "en": "naval battles",
+   "zh": ""
+  },
+  {
+   "k": "fskvl",
+   "en": "⟦0⟧ (CVE): Smaller and cheaper aircraft carriers with only one or two hangar slots, these designs are made possible with the ship designer, though they are still referred to as CVs in-game. While they can be built out of the same hulls as dedicated carriers, they can also be converted from cruisers, which can be a way to keep a navy's aging cruisers relevant for longer. Slow and unable to field as many air wings, they are less effective in battle, but because they can be produced in much larger numbers, they can be deployed in a much wider capacity.",
+   "zh": ""
+  },
+  {
+   "k": "1sv48s5",
+   "en": "Escort Carrier",
+   "zh": ""
+  },
+  {
+   "k": "1vgbi5a",
+   "en": "Screen ships",
+   "zh": ""
+  },
+  {
+   "k": "1otlns0",
+   "en": "⟦0⟧ are named for their ability to protect capital ships and convoys from torpedoes during naval battles.",
+   "zh": ""
+  },
+  {
+   "k": "18sxh2m",
+   "en": "⟦0⟧ (CL): Tougher and more expensive than destroyers, light cruisers are highly versatile and can be outfitted for a range of roles. When equipped with airplane catapults, they can serve as excellent scouts. When dedicated to firepower, they excel at destroying other screens and can even put a dent into more lightly armored, enemy heavy cruisers.",
+   "zh": ""
+  },
+  {
+   "k": "iv8688",
+   "en": "Light cruiser",
+   "zh": ""
+  },
+  {
+   "k": "3diykl",
+   "en": "⟦0⟧ (DD): As the lightest screen ships, the strength of destroyers lies in their numbers. During battle, they can form the bulk of a screening line to protect capital ships from torpedoes. Destroyers are also ideally suited to convoy escort missions. Both of these roles call for a sufficient quantity of ships, and destroyers are the most economical vessel to produce in the numbers required. They also boast relatively low fuel requirements. Beyond their basic armament, they can be outfitted with additional guns to increase their effectiveness against other screen ships, or torpedoes to threaten capital ships. Further reading: ⟦1⟧.",
+   "zh": ""
+  },
+  {
+   "k": "oxzds9",
+   "en": "⟦0⟧ (SS): Cheap, slow, and stealthy, submarines are frequently used as convoy raiders and minelayers. During ⟦1⟧, submarines may be ⟦2⟧ under certain circumstances, which protects them from attack, and even when they are revealed, they can only be damaged by other ships using depth charges. They are, however, particularly vulnerable to patrolling aircraft, especially outside of battles.",
+   "zh": ""
+  },
+  {
+   "k": "1wa75fd",
+   "en": "hidden",
+   "zh": ""
+  },
+  {
+   "k": "gx0kx0",
+   "en": "⟦0⟧ (SSN): Nuclear submarines are special submarines available with Götterdämmerung that run on nuclear power instead of combustion engines. As such, they consume no fuel and have a very long operational range, though they are more easily spotted than more advanced non-nuclear submarines and require a lot of technological development to produce.",
+   "zh": ""
+  },
+  {
+   "k": "na9lah",
+   "en": "Nuclear submarine",
+   "zh": ""
+  },
+  {
+   "k": "1mp7dlf",
+   "en": "⟦0⟧ (SSB): Missile launching submarines, also known as ballistic missile submarines, are submarines available with Götterdämmerung that are equipped with missile-launching bays. They can therefore be used as mobile launch platforms for missiles for a variety of tasks. However, they also require a lot of technological development.",
+   "zh": ""
+  },
+  {
+   "k": "1k25tdy",
+   "en": "Missile Launching Submarine",
+   "zh": ""
+  },
+  {
+   "k": "1uni547",
+   "en": "⟦0⟧ (SSBN): Nuclear missile launching submarines, also known as nuclear ballistic missile submarines, are a combination of nuclear submarines and ballistic missile submarines available with Götterdämmerung. Being able to launch a variety of missiles silently from anywhere in the world is a very potent combination, albeit one that requires inordinate amounts of technological investment.",
+   "zh": ""
+  },
+  {
+   "k": "qpd8y8",
+   "en": "Nuclear Missile Launching Submarine",
+   "zh": ""
+  },
+  {
+   "k": "nflzip",
+   "en": "⟦0⟧ are ships which carry land units, resources, ⟦1⟧, reinforcements, and lend-lease equipment across water. They are treated more abstractly than all other ship types, with a variety of unique mechanics.",
+   "zh": ""
+  },
+  {
+   "k": "18kwj9",
+   "en": "Convoys are distinguished by the following characteristics:",
+   "zh": ""
+  },
+  {
+   "k": "4h6ktw",
+   "en": "⟦0⟧ are mostly unarmed, except for 0.25 Light Gun with Piercing 1 and 0.1 Anti-Air.⟦1⟧",
+   "zh": ""
+  },
+  {
+   "k": "1vg2l23",
+   "en": "The positions of convoys are not shown on the map, regardless of map mode. (Convoy ⟦0⟧ can be seen on the ⟦1⟧.) Convoys are only ever directly seen during naval battles, e.g. when a ⟦2⟧ task force automatically interdicts some convoys.",
+   "zh": ""
+  },
+  {
+   "k": "le75av",
+   "en": "routes",
+   "zh": ""
+  },
+  {
+   "k": "4vsivu",
+   "en": "Damaged convoys do not need to return to dockyards in order to be repaired. Any convoy that is damaged (but not destroyed) during battle will be immediately restored to perfect condition after the battle has ended.",
+   "zh": ""
+  },
+  {
+   "k": "12hqhb9",
+   "en": "Convoys that are not currently in use are kept in an abstract reserve, and have no tangible presence in the game world.",
+   "zh": ""
+  },
+  {
+   "k": "d1nz0x",
+   "en": "Convoys cannot be directly controlled by the player. However, it is possible to influence convoy routes by setting ⟦0⟧ for specific regions.",
+   "zh": ""
+  },
+  {
+   "k": "bh1cam",
+   "en": "access levels",
+   "zh": ""
+  },
+  {
+   "k": "wkmu76",
+   "en": "The concepts of hulls and modules do not apply to convoys. Instead, there is only one standard convoy model. There are no technologies available to unlock more advanced convoy models.",
+   "zh": ""
+  },
+  {
+   "k": "sh5x6n",
+   "en": "It is not possible to create convoy variants or designs.",
+   "zh": ""
+  },
+  {
+   "k": "1oky1w9",
+   "en": "Convoys do not consume ⟦0⟧.",
+   "zh": ""
+  },
+  {
+   "k": "dx7w15",
+   "en": "Convoys cannot be named.",
+   "zh": ""
+  },
+  {
+   "k": "y2jl26",
+   "en": "Convoys can be lend-leased to other countries and are the only ships that can be transfered in this way (outside of ⟦0⟧ and unique decisions).",
+   "zh": ""
+  },
+  {
+   "k": "vti2l",
+   "en": "Convoys are defenseless against enemy warships, but can be ⟦0⟧ by friendly warships for protection.",
+   "zh": ""
+  },
+  {
+   "k": "sf41h8",
+   "en": "escorted",
+   "zh": ""
+  },
+  {
+   "k": "1xfg9nd",
+   "en": "⟦0⟧ (sometimes called Mulberry harbors) are “ships” that can act as a temporary ⟦1⟧ for naval invasion purposes. If you own at least one, then you will have access to a unique naval invasion order where they will be automatically used upon landing on an enemy shore. They create a fully stocked ⟦2⟧ at the location of the naval invasion, but they only last for a while before disappearing, depending on different factors. The ⟦3⟧ technology is required to produce floating harbors. At least one ⟦4⟧ is required to produce a floating harbor with a cost of 400 ⟦5⟧ and 1 .",
+   "zh": ""
+  },
+  {
+   "k": "i0ynbe",
+   "en": "hub for supply",
+   "zh": ""
+  },
+  {
+   "k": "rk5gpl",
+   "en": "Access level",
+   "zh": ""
+  },
+  {
+   "k": "8c2st1",
+   "en": "Main article: Strategic region § Naval access level",
+   "zh": ""
+  },
+  {
+   "k": "1c8t7k4",
+   "en": "For any strategic region containing sea provinces, an ⟦0⟧ can be set to determine whether ships can enter the region.",
+   "zh": ""
+  },
+  {
+   "k": "7k183d",
+   "en": "access level",
+   "zh": ""
+  },
+  {
+   "k": "1dsclrx",
+   "en": "Ship details",
+   "zh": ""
+  },
+  {
+   "k": "cx80xs",
+   "en": "Left clicking on a ship silhouette in the fleet will bring up its ship details. From here its statistical values are visible, along with any combat history on the second tab. It is possible to ⟦0⟧ the ship by pressing its name. Carriers will show the attached air wings. Reorganizing air wings is done through the ⟦1⟧ management system. To ⟦2⟧ a ship, press the red trash bin in the upper right corner of the ship detail screen, this will return its ⟦3⟧ to the pool and is an alternative to sending old ships off on suicidal missions.",
+   "zh": ""
+  },
+  {
+   "k": "1020k43",
+   "en": "rename",
+   "zh": ""
+  },
+  {
+   "k": "1o7mane",
+   "en": "scrap/disband",
+   "zh": ""
+  },
+  {
+   "k": "ktujbf",
+   "en": "Carrier air wings",
+   "zh": ""
+  },
+  {
+   "k": "akrw4b",
+   "en": "When building a carrier, the player has the option to pre-define how its air wings should be organized. Only carrier-capable aircraft may be based on carriers, and must be produced and either researched or designed (depending on whether ⟦0⟧ is active or not) separately from their land-based counterparts. The air wings of existing carriers can be adjusted by selecting the air wing in the air force overview or by selecting an air region in the air map mode, which brings up a list of all bases, and then selecting the fleet the carrier is a part of to bring up the air base windows for all carriers in that fleet. From the (carrier) base window, the process is identical to establishing or managing a wing stationed at an air base.",
+   "zh": ""
+  },
+  {
+   "k": "1vl93hn",
+   "en": "Viewing combat statistics",
+   "zh": ""
+  },
+  {
+   "k": "18w1rew",
+   "en": "Hearts of Iron IV tracks the ⟦0⟧, skill, and history of individual ships, which can be seen in the Fleet View. Select the fleet which the player wants to review. You will notice that each individual ship in your fleet is listed with a green organization and a brown strength bar, a silhouette for the ship class, a rank icon to show the ship's experience level, a vertical progress bar showing how much experience that ship has accumulated towards the next rank and the name of the ship. If the ship has participated in combat and sunk any enemy vessels, an additional icon appears next to the ship name for history. Holding the mouse over this history icon will give you a summary of how many ships the player has sunk with this vessel. Clicking on the history icon will open the ship details pop up displaying the history of ships sunk for that particular vessel.",
+   "zh": ""
+  },
+  {
+   "k": "43bfic",
+   "en": "veterancy",
+   "zh": ""
+  },
+  {
+   "k": "uuyqyf",
+   "en": "Each class of ship has a number of values referred to as stats. These are described below. Most of these stats can be improved by building a new ⟦0⟧. Researching ⟦1⟧ can also increase certain stats, as can employing the right admirals and, with ⟦2⟧, using ⟦3⟧ spirits. Some ⟦4⟧ can also provide ⟦5⟧ that affect certain ship stats.",
+   "zh": ""
+  },
+  {
+   "k": "1xp3zyn",
+   "en": "design",
+   "zh": ""
+  },
+  {
+   "k": "v8wqgc",
+   "en": "naval doctrines",
+   "zh": ""
+  },
+  {
+   "k": "185gnd2",
+   "en": "⟦0⟧ Maximum speed represents a value that indicates how quickly a naval vessel can move under optimal conditions. A faster ship has an easier time of disengaging from pursuers. It is also less likely to be hit by enemy fire, can pursue contacts easier when spotting the enemy, can evade enemy patrols for longer, and moves faster outside of battle.",
+   "zh": ""
+  },
+  {
+   "k": "1dg3emr",
+   "en": "⟦0⟧ A ship's range represents its onboard stores of fuel and foodstuffs, which will limit how far it can travel from the nearest friendly ⟦1⟧",
+   "zh": ""
+  },
+  {
+   "k": "1rfpewi",
+   "en": "Maximum range.",
+   "zh": ""
+  },
+  {
+   "k": "1ywso3n",
+   "en": "⟦0⟧ Organization is an indicator of a ship's combat readiness. The higher the organization rating of a ship, the longer it can stay in a fight. A ship with low or no organization cannot fight or move effectively. See also ⟦1⟧.",
+   "zh": ""
+  },
+  {
+   "k": "1xosott",
+   "en": "hit chance mechanics",
+   "zh": ""
+  },
+  {
+   "k": "1hy408j",
+   "en": "⟦0⟧ Deck size is a measurement of how many planes a carrier can fit on board. The act of exceeding a carrier's deck size (plane limit) is known as ⟦1⟧ and it results in a penalty to carrier plane missions. See also Sortie efficiency.",
+   "zh": ""
+  },
+  {
+   "k": "1krpu3p",
+   "en": "Deck size.",
+   "zh": ""
+  },
+  {
+   "k": "181js4c",
+   "en": "carrier overcrowding",
+   "zh": ""
+  },
+  {
+   "k": "jye130",
+   "en": "⟦0⟧ HP is an abbreviation for \"hit points\" and is the ability to absorb damage. It represents strength which is how much damage a ship can sustain before being destroyed.",
+   "zh": ""
+  },
+  {
+   "k": "1xh85xl",
+   "en": "⟦0⟧ Reliability is the ability of a ship to continue functioning during combat. The lower the value the more likely the ship is of suffering a critical hit. Ships may receive critical hits that are much stronger than usual hits primarily because of exploding ammo or fuel tanks. Increasing a ship's reliability will reduce the chance that a received hit becomes critical. Note that the highest critical chance is done by torpedoes and not by a ship's main guns. Reference ⟦1⟧.",
+   "zh": ""
+  },
+  {
+   "k": "25lmj4",
+   "en": "attrition and accidents",
+   "zh": ""
+  },
+  {
+   "k": "4xf1",
+   "en": "⟦0⟧ How much supply the unit consumes per day. Please read ⟦1⟧ on the significance of this.",
+   "zh": ""
+  },
+  {
+   "k": "szu37w",
+   "en": "⟦0⟧ Damage done by light guns. Light guns are better at targeting smaller ships, but can only target the first non-empty row in ⟦1⟧.",
+   "zh": ""
+  },
+  {
+   "k": "1lyfg1",
+   "en": "Light Attack.",
+   "zh": ""
+  },
+  {
+   "k": "pdux5o",
+   "en": "⟦0⟧ Armor piercing of light guns.",
+   "zh": ""
+  },
+  {
+   "k": "1nna4h4",
+   "en": "Light Piercing.",
+   "zh": ""
+  },
+  {
+   "k": "glr7b0",
+   "en": "⟦0⟧ Damage done by the heavy guns. Heavy guns are better at targeting bigger ships and can target the first two non-empty rows in ⟦1⟧.",
+   "zh": ""
+  },
+  {
+   "k": "1vunl1y",
+   "en": "Heavy Attack.",
+   "zh": ""
+  },
+  {
+   "k": "1afrnn3",
+   "en": "⟦0⟧ Armor piercing of heavy guns.",
+   "zh": ""
+  },
+  {
+   "k": "1toeler",
+   "en": "Heavy Piercing.",
+   "zh": ""
+  },
+  {
+   "k": "n5ucpb",
+   "en": "⟦0⟧ Torpedo attack is a value that represents a vessel's capability to damage enemy ships via torpedoes. Torpedoes can target any row in ⟦1⟧, but can be blocked by screening efficiency.",
+   "zh": ""
+  },
+  {
+   "k": "kzs9vi",
+   "en": "Torpedo attack.",
+   "zh": ""
+  },
+  {
+   "k": "15hkfmg",
+   "en": "⟦0⟧ Depth charges are a value that represents a ship's capability to damage enemy submarines via depth charges. Depth charges are the only ship-based weapon that can damage submarines.",
+   "zh": ""
+  },
+  {
+   "k": "1nxevx7",
+   "en": "Depth charges.",
+   "zh": ""
+  },
+  {
+   "k": "1jek1vy",
+   "en": "⟦0⟧ Armor is a value that represents a ship's steel decking thickness, belt thickness, bulkheads, etc. The purpose of armor is to help protect a ship from attack. See ⟦1⟧.",
+   "zh": ""
+  },
+  {
+   "k": "jzrnvy",
+   "en": "Armor.",
+   "zh": ""
+  },
+  {
+   "k": "q6hb09",
+   "en": "⟦0⟧ Anti-air, also known as Naval AA attack, is a value that represents how much firepower that a ship's anti-air guns can provide in shooting down enemy planes that target the ship. It also provides a small amount of damage reduction against aerial attacks. See also ⟦1⟧.",
+   "zh": ""
+  },
+  {
+   "k": "1yxpwry",
+   "en": "Anti-air.",
+   "zh": ""
+  },
+  {
+   "k": "zn817o",
+   "en": "naval strike mechanics",
+   "zh": ""
+  },
+  {
+   "k": "14yh9qq",
+   "en": "Misc. stats",
+   "zh": ""
+  },
+  {
+   "k": "q1k2gs",
+   "en": "⟦0⟧ How much ⟦1⟧ a unit uses while it is operating. Sea units will consume fuel while on active missions or during training, but not while idly sitting still. The amount of fuel they use varies on the type of mission they are performing.",
+   "zh": ""
+  },
+  {
+   "k": "z22urs",
+   "en": "Fuel Usage.",
+   "zh": ""
+  },
+  {
+   "k": "1d66pdl",
+   "en": "⟦0⟧ Surface visibility is a value that represents a ship's profile. The higher the value, the more visible a surface ship becomes, making it more likely to be spotted outside of battle and the easier it is to hit in battle. The smaller the value, the less visible the ship becomes, making it harder to spot outside of battle and harder to hit in battle.",
+   "zh": ""
+  },
+  {
+   "k": "9hp5qq",
+   "en": "Surface visibility.",
+   "zh": ""
+  },
+  {
+   "k": "1vmbpz1",
+   "en": "⟦0⟧ Similar to surface visibility, but only available to submarines. Outside of battle, both it and surface visibility contribute to how quickly submarines are spotted by patrolling ships or aircraft. In battle, it contributes to how quickly a hidden submarine is ⟦1⟧ and how easy it is to hit a revealed submarine with depth charges before it becomes hidden again.",
+   "zh": ""
+  },
+  {
+   "k": "14h1ue7",
+   "en": "Sub visibility.",
+   "zh": ""
+  },
+  {
+   "k": "hhcvkh",
+   "en": "revealed",
+   "zh": ""
+  },
+  {
+   "k": "rjipjr",
+   "en": "⟦0⟧ Surface detection is a ship's ability to detect enemy vessels navigating on top of the sea (not under the sea such as submarines). A fleet can only engage ships if it knows they're there. Surface fleets start out hidden and have a chance of being spotted if they get too close to enemy ships or patrolling aircraft. Surface detection also helps raiders, including submarines, avoid enemy patrols, slowing down the speed at which they are detected. Reference ⟦1⟧. Surface detection may be increased by the following means:",
+   "zh": ""
+  },
+  {
+   "k": "twrn",
+   "en": "Surface detection.",
+   "zh": ""
+  },
+  {
+   "k": "16hgzii",
+   "en": "Naval warfare Detection",
+   "zh": ""
+  },
+  {
+   "k": "x6bbyn",
+   "en": "Adding more ships to a fleet or sea region with a high surface detection value. The surface detection of a task force is the average value of its ships', so adding more ships with lower surface detection will make the task force worse at detecting ships.",
+   "zh": ""
+  },
+  {
+   "k": "1gff8qn",
+   "en": "Adding more planes to a sea region, especially with air superiority",
+   "zh": ""
+  },
+  {
+   "k": "161apnq",
+   "en": "Increasing ⟦0⟧ coverage of a sea region",
+   "zh": ""
+  },
+  {
+   "k": "1rv563o",
+   "en": "Having better decryption than an enemy vessel's encryption provides a ⟦0⟧⟦1⟧ surface and sub detection bonus",
+   "zh": ""
+  },
+  {
+   "k": "1nev5t4",
+   "en": "Researching better surface detection technology. This is covered by ⟦0⟧.",
+   "zh": ""
+  },
+  {
+   "k": "nt2lwz",
+   "en": "RADAR technology",
+   "zh": ""
+  },
+  {
+   "k": "n5v2ck",
+   "en": "Researching ⟦0⟧ that include bonuses to surface detection",
+   "zh": ""
+  },
+  {
+   "k": "1ca9ots",
+   "en": "With La Résistance, having extra naval intel by having a spy network in a target country, capturing their agents, cracking their cypher, and using spy planes",
+   "zh": ""
+  },
+  {
+   "k": "137xk57",
+   "en": "⟦0⟧ Sub detection is a ship's ability to detect enemy submarines. A fleet can only engage submarines if it knows they are there. Submarine wolfpacks start out hidden and have a chance of being spotted if they get too close to enemy ships or patrolling aircraft. Once in battle, hidden submarines [[⟦1⟧, even against dedicated anti-submarine vessels, so getting the jump on them and forcing them to start a battle revealed can be crucial to defeating them (which is also why they are so vulnerable to aircraft outside of battle). Sub detection may be increased by the following means:",
+   "zh": ""
+  },
+  {
+   "k": "ffh7z4",
+   "en": "Sub detection.",
+   "zh": ""
+  },
+  {
+   "k": "4qc2d6",
+   "en": "can remain so for a very long time",
+   "zh": ""
+  },
+  {
+   "k": "77hd9a",
+   "en": "Adding more ships to a fleet or sea region with a high sub detection value. The sub detection of a task force is the average value of its ships', so adding more ships with lower sub detection will make the task force worse at detecting ships. In general, only dedicated anti-submarine warfare destroyers, light cruisers, and heavy cruisers will have adequate sub detection.",
+   "zh": ""
+  },
+  {
+   "k": "7efzng",
+   "en": "Adding more planes to a sea region, especially with air superiority. Submarines are particularly vulnerable to being spotted and destroyed by aircraft.",
+   "zh": ""
+  },
+  {
+   "k": "1f0bxs",
+   "en": "Researching better sub detection technology. This is covered by ⟦0⟧ and ⟦1⟧.",
+   "zh": ""
+  },
+  {
+   "k": "g3jnx8",
+   "en": "Creating ship ⟦0⟧ incorporating higher sub detection",
+   "zh": ""
+  },
+  {
+   "k": "c11cl0",
+   "en": "designs",
+   "zh": ""
+  },
+  {
+   "k": "2v9dc6",
+   "en": "Hiring ⟦0⟧ (without ⟦1⟧) or patronizing ⟦2⟧ (with ⟦3⟧) that can increase sub detection",
+   "zh": ""
+  },
+  {
+   "k": "1xwvbu5",
+   "en": "Researching ⟦0⟧ that include bonuses to sub detection",
+   "zh": ""
+  },
+  {
+   "k": "a05bur",
+   "en": "Hiring ⟦0⟧ figures who specialize in anti-submarine warfare",
+   "zh": ""
+  },
+  {
+   "k": "1rfs0qf",
+   "en": "file Hearts of Iron IV\\common\\units\\equipment\\convoys.txt",
+   "zh": ""
+  },
+  {
+   "k": "4mabys",
+   "en": "NDefines.NNavy.DECRYPTION_SPOTTING_BONUS = 0.2",
+   "zh": ""
+  }
+ ]
+}

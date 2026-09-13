@@ -1,0 +1,1061 @@
+{
+ "batch": 1032,
+ "pages": [
+  "Faction modding"
+ ],
+ "chars": 14846,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "ugswyy",
+   "en": "Basics"
+  },
+  {
+   "k": "13ztnjq",
+   "en": "Without DLC"
+  },
+  {
+   "k": "c2eopx",
+   "en": "If you don’t own dlc “⟦0⟧ then you don’t have access towards most of the new faction system. If you don’t want your mod to be dependent on dlc ownership but still want to use basic faction you can do ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "12mnkbp",
+   "en": "No Compromise, No Surrender"
+  },
+  {
+   "k": "c5bfy",
+   "en": "create_faction_from_template"
+  },
+  {
+   "k": "ab8874",
+   "en": "With DLC"
+  },
+  {
+   "k": "hbqkoe",
+   "en": "Faction with DLC is really modable in almost every aspect of it for you to change. Most of it based on ⟦0⟧, that contains rest of components of factions. It contains ⟦1⟧, icon, color, rules, ⟦2⟧. To create faction you still use ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "t7q8sr",
+   "en": "template"
+  },
+  {
+   "k": "nyszbz",
+   "en": "goals"
+  },
+  {
+   "k": "jznzud",
+   "en": "manifests"
+  },
+  {
+   "k": "vu3udk",
+   "en": "Short overview"
+  },
+  {
+   "k": "a5jm0x",
+   "en": "⟦0⟧ - “quest” for multiple countries or leader country",
+   "frags": 1
+  },
+  {
+   "k": "1xybhq7",
+   "en": "Goals"
+  },
+  {
+   "k": "j2qxsr",
+   "en": "⟦0⟧ - set of regulations used inside of faction",
+   "frags": 1
+  },
+  {
+   "k": "igop6o",
+   "en": "Rules"
+  },
+  {
+   "k": "hnpyvd",
+   "en": "Icon - visual logo of faction"
+  },
+  {
+   "k": "16okhw8",
+   "en": "Color - color of faction used in faction map mode, if not specified uses leader color"
+  },
+  {
+   "k": "ohytow",
+   "en": "⟦0⟧ - global, continuous goal that used to give faction a modifier or a rule depending on the conditions.",
+   "frags": 1
+  },
+  {
+   "k": "1xcoyc5",
+   "en": "Manifests"
+  },
+  {
+   "k": "11ldmiw",
+   "en": "⟦0⟧ - manpower sharing",
+   "frags": 1
+  },
+  {
+   "k": "341vg0",
+   "en": "Member upgrades"
+  },
+  {
+   "k": "1xvn42s",
+   "en": "⟦0⟧ - a way to combine all above things",
+   "frags": 1
+  },
+  {
+   "k": "s6qa0b",
+   "en": "Template"
+  },
+  {
+   "k": "thnxru",
+   "en": "Overview"
+  },
+  {
+   "k": "1x9s7x4",
+   "en": "Faction’s goals are the way to have “quest” for multiple countries without using missions or events. There are three types of goals in the game, Short-term, Medium-term and Long-term. They are defined in"
+  },
+  {
+   "k": "1sojjgq",
+   "en": "⟦0⟧ and every faction can have up to one of three types present in the game. ⟦1⟧ Default scope is faction leader, FROM is faction member who views current goal. ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "d09jic",
+   "en": "common/factions/goals/*.txt"
+  },
+  {
+   "k": "1i6hmq2",
+   "en": "It's not mandatory for faction to start with goals."
+  },
+  {
+   "k": "1paspz",
+   "en": "FROM is not supported inside ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "b1j9e8",
+   "en": "complete_effect, remove_effect, cancel_effect"
+  },
+  {
+   "k": "gezdra",
+   "en": "Structure"
+  },
+  {
+   "k": "1618oac",
+   "en": "⟦0⟧ - id of your goal, must be unique.",
+   "frags": 1
+  },
+  {
+   "k": "1hv9zpi",
+   "en": "goal_id"
+  },
+  {
+   "k": "wtjxpa",
+   "en": "⟦0⟧ - ⟦1⟧ key for visible name of goal",
+   "frags": 2
+  },
+  {
+   "k": "136nuue",
+   "en": "name"
+  },
+  {
+   "k": "coj4nh",
+   "en": "localisation"
+  },
+  {
+   "k": "1rwrs9",
+   "en": "⟦0⟧ - ⟦1⟧ key for visible description of goal",
+   "frags": 2
+  },
+  {
+   "k": "ejr4o9",
+   "en": "description"
+  },
+  {
+   "k": "1bbj8og",
+   "en": "⟦0⟧ Determines to which category goal would be assigned,there’s no difference between categories, but it’s good practice to have easier goal in short_term, medium difficulty goal inside medium_term, and long term goal inside long_term.",
+   "frags": 1
+  },
+  {
+   "k": "10k9aq0",
+   "en": "category = short_term/medium_term/long_term"
+  },
+  {
+   "k": "1nnzjv",
+   "en": "⟦0⟧ - group to sort goal, accepts ⟦1⟧ from focuses and any custom you make, creation of new one works exactly same as focus ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "jbj0n4",
+   "en": "group = GROUP_ID"
+  },
+  {
+   "k": "74wy8i",
+   "en": "search filters"
+  },
+  {
+   "k": "os7znr",
+   "en": "⟦0⟧ - makes goal \"locked\". Goal would become irreplaceable manually, unless you complete it.",
+   "frags": 1
+  },
+  {
+   "k": "1nk31if",
+   "en": "locked_goal = { yes/no }"
+  },
+  {
+   "k": "k8u3yx",
+   "en": "⟦0⟧ - decide whether it's goal or ⟦1⟧. By default set to no (so it's a goal)",
+   "frags": 2
+  },
+  {
+   "k": "1jmlgzz",
+   "en": "is_manifest = { yes/no }"
+  },
+  {
+   "k": "tn7hpg",
+   "en": "manifest"
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "y4ha5s",
+   "en": "⟦0⟧- is a ⟦1⟧ block that continuously checks every frame if a condition was met, required to make the goal to be visible in the goal selection screen. Since it checks every frame, it's preferable to put country or DLC checks into allowed instead.",
+   "frags": 2
+  },
+  {
+   "k": "yf8qwg",
+   "en": "visible = { }"
+  },
+  {
+   "k": "wj82kj",
+   "en": "trigger"
+  },
+  {
+   "k": "zdz2px",
+   "en": "⟦0⟧ - is a ⟦1⟧ block that continuously checks every frame if a condition was met, required to make the goal available to be chosen in the goal selection screen. If conditions aren't met the goal wouldn't be possible to select, but difference with visible is that it will still be visible and display why it's not available to be selected when hovered over.",
+   "frags": 2
+  },
+  {
+   "k": "26ffxt",
+   "en": "available = { }"
+  },
+  {
+   "k": "1buysda",
+   "en": "⟦0⟧ - is a ⟦1⟧ block that gets checked only at the game's start or when loading a save, primarily used to restrict an idea to a country (As ⟦2⟧ or ⟦3⟧) and/or a DLC (As ⟦4⟧). If an goal's allowed is unfulfilled, it will never appear within the selection unless it becomes true on the save being reloaded; however, manual assignment via ⟦5⟧ bypasses the check. If left out, assumes to be always allowed. ⟦6⟧",
+   "frags": 7
+  },
+  {
+   "k": "1mni1q",
+   "en": "allowed = { }"
+  },
+  {
+   "k": "ta16bo",
+   "en": "tag = BHR"
+  },
+  {
+   "k": "5bqfd9",
+   "en": "original_tag = POL"
+  },
+  {
+   "k": "1me7eep",
+   "en": "has_dlc = \"One Step Back\""
+  },
+  {
+   "k": "1w2wnj7",
+   "en": "add_faction_goal"
+  },
+  {
+   "k": "1eg2clm",
+   "en": "This only checks once!"
+  },
+  {
+   "k": "jy1lfh",
+   "en": "⟦0⟧- is a ⟦1⟧ block that decides if a goal has been completed. Here you are supposed to put all conditions of goal that you want faction to complete. Default scope is the leader of the faction.",
+   "frags": 2
+  },
+  {
+   "k": "1mgwtr3",
+   "en": "completed = { }"
+  },
+  {
+   "k": "14kvc1u",
+   "en": "⟦0⟧ - is a ⟦1⟧ block that decides if a goal should be removed, once it's condition is true. Triggers the goal's cancel_effect.",
+   "frags": 2
+  },
+  {
+   "k": "oifly",
+   "en": "cancel = { }"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "7m6x92",
+   "en": "⟦0⟧ - is an ⟦1⟧ block that executes effects for completing a goal, by default only the faction leader will get rewarded for completing goal. (Since default scope of goal is leader)",
+   "frags": 2
+  },
+  {
+   "k": "1rq5dwv",
+   "en": "complete_effect = { }"
+  },
+  {
+   "k": "un2mhg",
+   "en": "effect"
+  },
+  {
+   "k": "rsxvkr",
+   "en": "⟦0⟧ - is an ⟦1⟧ block that executes effects once a goal has been selected. ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "1282oza",
+   "en": "select_effect = { }"
+  },
+  {
+   "k": "cvssxl",
+   "en": "This block won't fire if goal is added through a faction template"
+  },
+  {
+   "k": "1gw2e9o",
+   "en": "⟦0⟧ - is an ⟦1⟧ block that executes effects once a goal has been removed. The only difference with ⟦2⟧ is that this effect will be executed if goal has been changed, while other only runs once a goal has been canceled because the conditions in it's ⟦3⟧ trigger have been met.",
+   "frags": 4
+  },
+  {
+   "k": "rcllc6",
+   "en": "remove_effect = { }"
+  },
+  {
+   "k": "1ruaxqt",
+   "en": "cancel_effect"
+  },
+  {
+   "k": "1s8xln",
+   "en": "cancel"
+  },
+  {
+   "k": "1kdy3us",
+   "en": "⟦0⟧ - is ⟦1⟧ block that execute effects once a goal has been cancelled. The only difference with ⟦2⟧ is that this effect will be executed if a goal has been canceled because it's cancel conditions have been met, the other will run if goal has been changed.",
+   "frags": 3
+  },
+  {
+   "k": "1oytyus",
+   "en": "cancel_effect = { }"
+  },
+  {
+   "k": "167tlfj",
+   "en": "an effect"
+  },
+  {
+   "k": "wamg9n",
+   "en": "remove_effect"
+  },
+  {
+   "k": "9qp2ai",
+   "en": "Progression based goal"
+  },
+  {
+   "k": "152osrq",
+   "en": "Goals mainly use ⟦0⟧ trigger with ⟦1⟧ to give rewards for complete goals. Even though it's primary way, it's not the only one to complete them. Ratio_progress is block that's turns goals into a continuous goals unlocking new potential way of using them. Imagine you want to base your goal around conquered land of certain faction or make it based on resource count of faction, maybe you want a quest to be complete once 80% of states in faction would have factories. That's all possible with ratio_progress.",
+   "frags": 2
+  },
+  {
+   "k": "1vtskr6",
+   "en": "completed"
+  },
+  {
+   "k": "81sk8y",
+   "en": "complete_effect"
+  },
+  {
+   "k": "2l1g93",
+   "en": "⟦0⟧ - is a block where you can do all those cool thing mentioned above.",
+   "frags": 1
+  },
+  {
+   "k": "10iwtzb",
+   "en": "ratio_progress = { }"
+  },
+  {
+   "k": "16691o3",
+   "en": "Arguments of ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1qig9d6",
+   "en": "ratio_progress"
+  },
+  {
+   "k": "1fik6w3",
+   "en": "All these thing mentioned bellow must be used inside ratio_progress, otherwise they won't work."
+  },
+  {
+   "k": "ck6rsm",
+   "en": "⟦0⟧ - uses a collection to define the elements that are considered for completion.",
+   "frags": 1
+  },
+  {
+   "k": "1jax1e4",
+   "en": "total_amount_collection = collection_id"
+  },
+  {
+   "k": "1178rc1",
+   "en": "⟦0⟧ - uses a collection to check which elements in ⟦1⟧ are complete",
+   "frags": 2
+  },
+  {
+   "k": "1egd9en",
+   "en": "completed_amount_collection = collection_id"
+  },
+  {
+   "k": "ci6jcd",
+   "en": "total_amount_completion>"
+  },
+  {
+   "k": "8a76s8",
+   "en": "Code example:"
+  },
+  {
+   "k": "9auu2c",
+   "en": "⟦0⟧ For more collections or info on how to use them see ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "11l6077",
+   "en": "This code will make goal 100% done, once faction leader or any faction member controls all african states"
+  },
+  {
+   "k": "1t37h11",
+   "en": "common/collections/_documentation.md"
+  },
+  {
+   "k": "1caq6nq",
+   "en": "⟦0⟧ - variable, or fixed value, that defines maximum amount.",
+   "frags": 1
+  },
+  {
+   "k": "ymmpf7",
+   "en": "total_amount = MY_VALUE"
+  },
+  {
+   "k": "1udhsfi",
+   "en": "⟦0⟧ - variable, or fixed value, that defines amount you have completed already.",
+   "frags": 1
+  },
+  {
+   "k": "trdybd",
+   "en": "completed_amount = MY_OTHER_VALUE"
+  },
+  {
+   "k": "1i2h75a",
+   "en": "This code will make goal 100% done, once myVar will become 10, tooltip will show that you completed 8/10"
+  },
+  {
+   "k": "h0185m",
+   "en": "You can't use the collection and non-collection versions of the same type e.g total_amount and total_amount_collection at the same time as they are mutually exclusive. However you can use total_amount_collection and completed_amount at the same time. Goal won't be completed if ratio reaches 100% unless auto_complete = yes used."
+  },
+  {
+   "k": "1svwqmz",
+   "en": "⟦0⟧ - is a block that contains sections, sections work like sections in ⟦1⟧. This can be used so that, when being within a certain threshold of completion, modifiers get enabled.",
+   "frags": 2
+  },
+  {
+   "k": "t09jxu",
+   "en": "progress_sections = { }"
+  },
+  {
+   "k": "xie5sa",
+   "en": "bop"
+  },
+  {
+   "k": "jtfos0",
+   "en": "Example code:"
+  },
+  {
+   "k": "1qi8464",
+   "en": "⟦0⟧ - minimal value for a milestone to become active. Percentual with 1 as maximum and 0 as minimum",
+   "frags": 1
+  },
+  {
+   "k": "x9dpgw",
+   "en": "min = X"
+  },
+  {
+   "k": "e3h0d7",
+   "en": "⟦0⟧ - maximum value for a milestone to be active Percentual with 1 as maximum and 0 as minimum",
+   "frags": 1
+  },
+  {
+   "k": "1f6j3rx",
+   "en": "max = Y"
+  },
+  {
+   "k": "xz3znf",
+   "en": "⟦0⟧ - ⟦1⟧ a block that all members gets while a milestone is active.",
+   "frags": 2
+  },
+  {
+   "k": "z4rz7d",
+   "en": "modifier = { }"
+  },
+  {
+   "k": "1658wgg",
+   "en": "modifier"
+  },
+  {
+   "k": "1tsyuyw",
+   "en": "⟦0⟧ - rules apply to all members while a threshold is active.",
+   "frags": 1
+  },
+  {
+   "k": "1s9gwr2",
+   "en": "rule = { }"
+  },
+  {
+   "k": "zizlsk",
+   "en": "Game rule list The following game rules exist as possible options: Internal name Localised name Notes can_access_market Can access International Market (Puppets and Overlords can always access each other's market) can_be_spymaster Can be Spy Master can_boost_other_ideologies Can boost popularity of other ideologies can_boost_own_ideology Can boost own party popularity in other countries can_create_collaboration_government Can create collaboration governments can_create_factions Can Create Factions can_declare_war_on_same_ideology Can declare war on country with the same ideology group without a war goal can_declare_war_without_wargoal_when_in_war Can declare war on a neighbor without a wargoal when at war with a major can_decline_call_to_war Can decline call to war can_force_government Can force government of another country to adopt the same ideology can_generate_female_aces Women in your country are allowed to become military pilots can_generate_female_country_leaders Can generate female country leaders can_generate_female_unit_leaders Can generate female unit leaders can_guarantee_other_ideologies Can guarantee other ideologies can_join_factions Can join factions can_join_factions_not_allowed_diplomacy Country's name is not allowed to join factions can_join_opposite_factions Can Join Factions led by another Ideology can_lower_tension Lowers World Tension with Guarantees can_not_build_buildings CAN_NOT_BUILD_BUILDINGS Doesn't seem to work. can_not_declare_war Can not declare wars Prevents generating wargoals, but not using existing ones. can_occupy_non_war Can hold territory owned by a country they are not at war with can_only_justify_war_on_threat_country Can justify war goals against a country that have not generated world tension can_puppet Can puppet a country can_send_volunteers Can send volunteer forces can_use_kamikaze_pilots Can use kamikaze pilots contributes_operatives Contributes Operatives to Spy Master: Yes Only has an effect for subjects. units_deployed_to_overlord Control over deployed units go to overlord Only has an effect for subjects."
+  },
+  {
+   "k": "z3tatx",
+   "en": "Game rule list"
+  },
+  {
+   "k": "1ojc642",
+   "en": "The following game rules exist as possible options: Internal name Localised name Notes can_access_market Can access International Market (Puppets and Overlords can always access each other's market) can_be_spymaster Can be Spy Master can_boost_other_ideologies Can boost popularity of other ideologies can_boost_own_ideology Can boost own party popularity in other countries can_create_collaboration_government Can create collaboration governments can_create_factions Can Create Factions can_declare_war_on_same_ideology Can declare war on country with the same ideology group without a war goal can_declare_war_without_wargoal_when_in_war Can declare war on a neighbor without a wargoal when at war with a major can_decline_call_to_war Can decline call to war can_force_government Can force government of another country to adopt the same ideology can_generate_female_aces Women in your country are allowed to become military pilots can_generate_female_country_leaders Can generate female country leaders can_generate_female_unit_leaders Can generate female unit leaders can_guarantee_other_ideologies Can guarantee other ideologies can_join_factions Can join factions can_join_factions_not_allowed_diplomacy Country's name is not allowed to join factions can_join_opposite_factions Can Join Factions led by another Ideology can_lower_tension Lowers World Tension with Guarantees can_not_build_buildings CAN_NOT_BUILD_BUILDINGS Doesn't seem to work. can_not_declare_war Can not declare wars Prevents generating wargoals, but not using existing ones. can_occupy_non_war Can hold territory owned by a country they are not at war with can_only_justify_war_on_threat_country Can justify war goals against a country that have not generated world tension can_puppet Can puppet a country can_send_volunteers Can send volunteer forces can_use_kamikaze_pilots Can use kamikaze pilots contributes_operatives Contributes Operatives to Spy Master: Yes Only has an effect for subjects. units_deployed_to_overlord Control over deployed units go to overlord Only has an effect for subjects."
+  },
+  {
+   "k": "1i8ib9f",
+   "en": "Internal name"
+  },
+  {
+   "k": "1r2jfvc",
+   "en": "Localised name"
+  },
+  {
+   "k": "4f76ga",
+   "en": "Notes"
+  },
+  {
+   "k": "ysd05d",
+   "en": "can_access_market"
+  },
+  {
+   "k": "1rt6t9s",
+   "en": "Can access International Market (⟦0⟧ and ⟦1⟧ can always access each other's market)",
+   "frags": 2
+  },
+  {
+   "k": "lq1vxw",
+   "en": "Puppets"
+  },
+  {
+   "k": "seq10d",
+   "en": "Overlords"
+  },
+  {
+   "k": "euy81c",
+   "en": "can_be_spymaster"
+  },
+  {
+   "k": "bjrqau",
+   "en": "Can be Spy Master"
+  },
+  {
+   "k": "wbdy9d",
+   "en": "can_boost_other_ideologies"
+  },
+  {
+   "k": "1kxo3sk",
+   "en": "Can boost popularity of other ideologies"
+  },
+  {
+   "k": "zubfjv",
+   "en": "can_boost_own_ideology"
+  },
+  {
+   "k": "36f7tg",
+   "en": "Can boost own party popularity in other countries"
+  },
+  {
+   "k": "190hafy",
+   "en": "can_create_collaboration_government"
+  },
+  {
+   "k": "1d9y00u",
+   "en": "Can create collaboration governments"
+  },
+  {
+   "k": "o23f72",
+   "en": "can_create_factions"
+  },
+  {
+   "k": "18y7irc",
+   "en": "Can Create Factions"
+  },
+  {
+   "k": "f87qmb",
+   "en": "can_declare_war_on_same_ideology"
+  },
+  {
+   "k": "1r9kzc6",
+   "en": "Can declare war on country with the same ideology group without a war goal"
+  },
+  {
+   "k": "146u0j8",
+   "en": "can_declare_war_without_wargoal_when_in_war"
+  },
+  {
+   "k": "14kvbu2",
+   "en": "Can declare war on a neighbor without a wargoal when at war with a major"
+  },
+  {
+   "k": "16ymnae",
+   "en": "can_decline_call_to_war"
+  },
+  {
+   "k": "10gxgc0",
+   "en": "Can decline call to war"
+  },
+  {
+   "k": "ki8wnh",
+   "en": "can_force_government"
+  },
+  {
+   "k": "6fsg1n",
+   "en": "Can force government of another country to adopt the same ideology"
+  },
+  {
+   "k": "1d1j773",
+   "en": "can_generate_female_aces"
+  },
+  {
+   "k": "1q068xf",
+   "en": "Women in your country are allowed to become military pilots"
+  },
+  {
+   "k": "18ftglu",
+   "en": "can_generate_female_country_leaders"
+  },
+  {
+   "k": "1hb2v14",
+   "en": "Can generate female country leaders"
+  },
+  {
+   "k": "1y1aq6s",
+   "en": "can_generate_female_unit_leaders"
+  },
+  {
+   "k": "6uxi64",
+   "en": "Can generate female unit leaders"
+  },
+  {
+   "k": "15tjnea",
+   "en": "can_guarantee_other_ideologies"
+  },
+  {
+   "k": "1fni33n",
+   "en": "Can guarantee other ideologies"
+  },
+  {
+   "k": "kmsa9q",
+   "en": "can_join_factions"
+  },
+  {
+   "k": "1diowfk",
+   "en": "Can join factions"
+  },
+  {
+   "k": "1hif8f6",
+   "en": "can_join_factions_not_allowed_diplomacy"
+  },
+  {
+   "k": "a60x4n",
+   "en": "⟦0⟧ is not allowed to join factions",
+   "frags": 1
+  },
+  {
+   "k": "1i83cvm",
+   "en": "Country's name"
+  },
+  {
+   "k": "dorzii",
+   "en": "can_join_opposite_factions"
+  },
+  {
+   "k": "1nb868j",
+   "en": "Can Join Factions led by another Ideology"
+  },
+  {
+   "k": "171ceqe",
+   "en": "can_lower_tension"
+  },
+  {
+   "k": "qx9ssm",
+   "en": "Lowers World Tension with Guarantees"
+  },
+  {
+   "k": "72n4cm",
+   "en": "can_not_build_buildings"
+  },
+  {
+   "k": "17pk406",
+   "en": "CAN_NOT_BUILD_BUILDINGS"
+  },
+  {
+   "k": "1n220lf",
+   "en": "Doesn't seem to work."
+  },
+  {
+   "k": "16zd87n",
+   "en": "can_not_declare_war"
+  },
+  {
+   "k": "1545cax",
+   "en": "Can not declare wars"
+  },
+  {
+   "k": "wh6asu",
+   "en": "Prevents generating wargoals, but not using existing ones."
+  },
+  {
+   "k": "72qyri",
+   "en": "can_occupy_non_war"
+  },
+  {
+   "k": "vonqk5",
+   "en": "Can hold territory owned by a country they are not at war with"
+  },
+  {
+   "k": "vc1vzu",
+   "en": "can_only_justify_war_on_threat_country"
+  },
+  {
+   "k": "1c9uoyy",
+   "en": "Can justify war goals against a country that have not generated world tension"
+  },
+  {
+   "k": "aha2nw",
+   "en": "can_puppet"
+  },
+  {
+   "k": "z5o600",
+   "en": "Can puppet a country"
+  },
+  {
+   "k": "elvyfm",
+   "en": "can_send_volunteers"
+  },
+  {
+   "k": "zv0y4p",
+   "en": "Can send volunteer forces"
+  },
+  {
+   "k": "uy8kup",
+   "en": "can_use_kamikaze_pilots"
+  },
+  {
+   "k": "cxwytw",
+   "en": "Can use kamikaze pilots"
+  },
+  {
+   "k": "1bjn3w6",
+   "en": "contributes_operatives"
+  },
+  {
+   "k": "12zz5pp",
+   "en": "Contributes Operatives to Spy Master: Yes"
+  },
+  {
+   "k": "1jo0ac1",
+   "en": "Only has an effect for subjects."
+  },
+  {
+   "k": "101k4rv",
+   "en": "units_deployed_to_overlord"
+  },
+  {
+   "k": "15tuyrb",
+   "en": "Control over deployed units go to overlord"
+  },
+  {
+   "k": "h0wo8p",
+   "en": "Additional things"
+  },
+  {
+   "k": "1elk8hm",
+   "en": "⟦0⟧ - automatically complete a goal if the progress reaches 100%, only works if ratio_progress is present in goal. Works with range and will make goal completed once range = { max = X } ratio is completed.",
+   "frags": 1
+  },
+  {
+   "k": "43qf3m",
+   "en": "auto_complete = { yes/no }"
+  },
+  {
+   "k": "aescg3",
+   "en": "⟦0⟧ - overrides the default tooltip of the completed amount with any of your choice.",
+   "frags": 1
+  },
+  {
+   "k": "117diqz",
+   "en": "completed_amount_custom_tooltip"
+  },
+  {
+   "k": "1ybb16p",
+   "en": "⟦0⟧ - overrides default tooltip of the total amount with any of your choice.",
+   "frags": 1
+  },
+  {
+   "k": "gaj8jo",
+   "en": "total_amount_custom_tooltip"
+  },
+  {
+   "k": "1r3d99x",
+   "en": "⟦0⟧ - defines how the ratio calculated above is mapped to the goal's progress, if max value = 0.8 it means that goal will be completed once the ratio between the total amount and the completed amount is be 80% or more. If min value = 0.2 it's means that if the ratio is 20% the goal 0% completed.",
+   "frags": 1
+  },
+  {
+   "k": "1ae8hbm",
+   "en": "range = { min = X max = Y }"
+  },
+  {
+   "k": "1jcvmi5",
+   "en": "Both min and max are optional, by default min = 0, max = 1. Min can actually be greater than max, in which case the progress will increase as the ratio decreases and vice versa"
+  },
+  {
+   "k": "snd32m",
+   "en": "⟦0⟧ - is a ⟦1⟧ that the faction leader gets once progress becomes 100% (works with range)",
+   "frags": 2
+  },
+  {
+   "k": "9008dc",
+   "en": "scale = { }"
+  },
+  {
+   "k": "39b8id",
+   "en": "⟦0⟧ - is a ⟦1⟧ that the faction leader gets once progress becomes 0% (works with range)",
+   "frags": 2
+  },
+  {
+   "k": "pj9900",
+   "en": "reversed= { }"
+  },
+  {
+   "k": "7h0jek",
+   "en": "⟦0⟧ decides on how likely ai will replace an empty goal slot with this goal, works exactly same as all other ai_will_do blocks in the game. For more information check ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1519q5d",
+   "en": "ai_will_do = { }"
+  },
+  {
+   "k": "ndzdhk",
+   "en": "AI_modding"
+  },
+  {
+   "k": "o3kjbn",
+   "en": "Code examples"
+  },
+  {
+   "k": "1nrb5wn",
+   "en": "Short term goal code example"
+  },
+  {
+   "k": "16mgnhi",
+   "en": "Medium term goal code example"
+  },
+  {
+   "k": "6zf8kl",
+   "en": "Long term goal code example"
+  }
+ ]
+}

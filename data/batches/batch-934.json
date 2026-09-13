@@ -1,0 +1,797 @@
+{
+ "batch": 934,
+ "pages": [
+  "Modding"
+ ],
+ "chars": 14886,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1d05ohn",
+   "en": "It's easy to where an argument is contained by moving one indenting level to the left and then following the indent guide's line until it hits code."
+  },
+  {
+   "k": "s5sit2",
+   "en": "It's easy to find what falls within a block by following the indent guide's line from the line with the open bracket to the point where it hits the closing bracket."
+  },
+  {
+   "k": "1dcc30n",
+   "en": "Some common errors to check for in the indenting are the following:"
+  },
+  {
+   "k": "14j2n4s",
+   "en": "Unnecessarily removing an indentation level. This can usually be detected by detecting any interruptions in the indent guide–generated line from the line with the opening opening bracket drawn to the closing bracket:"
+  },
+  {
+   "k": "e4jbk3",
+   "en": "Putting a closing bracket on the same level as prior script:"
+  },
+  {
+   "k": "1994yf8",
+   "en": "Not adding an indenting level after an unclosed opening bracket:"
+  },
+  {
+   "k": "1hcqlit",
+   "en": "Placing neighbouring lines with a difference of at least 2 indent levels:"
+  },
+  {
+   "k": "ssdz8j",
+   "en": "Following the indenting rules and checking for these indenting errors will ensure that there will be no bracket-related errors within the code."
+  },
+  {
+   "k": "11kh1x7",
+   "en": "Universal modding concepts"
+  },
+  {
+   "k": "18k57eh",
+   "en": "⟦0⟧, if using Windows. File extensions are considered a part of the filename, and hiding them can cause files to not work due to wrong filenames (Such as accidentally saving localisation files as .txt files, saving an image in the wrong format and not realising it, et cetera).",
+   "frags": 1
+  },
+  {
+   "k": "tk93kb",
+   "en": "It's heavily recommended to turn off Windows file explorer from hiding file extensions from the filename"
+  },
+  {
+   "k": "1x7di3h",
+   "en": "User directory"
+  },
+  {
+   "k": "1jjm2iv",
+   "en": "The user directory is used for storing the information related to Hearts of Iron IV that's not built into the game, but instead created by the user. The location is decided by ⟦0⟧ in the base game's ⟦1⟧. By default, the user directory for Hearts of Iron IV is located in the following folders:",
+   "frags": 2
+  },
+  {
+   "k": "m5apm0",
+   "en": "gameDataPath"
+  },
+  {
+   "k": "yknf94",
+   "en": "/Hearts of Iron IV/launcher-settings.json"
+  },
+  {
+   "k": "10cpga8",
+   "en": "⟦0⟧: ⟦1⟧ or ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "1qfh56",
+   "en": "Windows"
+  },
+  {
+   "k": "ks10si",
+   "en": "C:\\Users\\<Username>\\Documents\\Paradox Interactive\\Hearts of Iron IV\\"
+  },
+  {
+   "k": "1uk6qz8",
+   "en": "C:\\Users\\<Username>\\OneDrive\\<Documents (in the system language)>\\Paradox Interactive\\Hearts of Iron IV\\"
+  },
+  {
+   "k": "38vdrm",
+   "en": "Mac OS"
+  },
+  {
+   "k": "skryd3",
+   "en": "~/Documents/Paradox Interactive/Hearts of Iron IV/"
+  },
+  {
+   "k": "15bt96l",
+   "en": "Linux"
+  },
+  {
+   "k": "1picpjy",
+   "en": "~/.local/share/Paradox Interactive/Hearts of Iron IV/"
+  },
+  {
+   "k": "1ugca03",
+   "en": "In particular, these contents are notable contents of the user directory:"
+  },
+  {
+   "k": "12saf0v",
+   "en": "The user-specific mod descriptors are located inside of the ⟦0⟧ folder. This is used for assigning the mod information, such as the path to the folder that contains the mod. The same folder contains the default location of local mods after being created in the launcher, though any folder can be used for it.",
+   "frags": 1
+  },
+  {
+   "k": "1fg7bar",
+   "en": "/Hearts of Iron IV/mod/"
+  },
+  {
+   "k": "1puxt6a",
+   "en": "The ⟦0⟧'s outputs are stored in this folder. In particular, ⟦1⟧, ⟦2⟧, and ⟦3⟧ may be created by the user as outputs of the nudger. ⟦4⟧",
+   "frags": 5
+  },
+  {
+   "k": "6ej4zi",
+   "en": "nudger"
+  },
+  {
+   "k": "1kho8m9",
+   "en": "/Hearts of Iron IV/map/"
+  },
+  {
+   "k": "1b1s6he",
+   "en": "/Hearts of Iron IV/history/states/"
+  },
+  {
+   "k": "1nh7umn",
+   "en": "/Hearts of Iron IV/localisation/"
+  },
+  {
+   "k": "1yc4644",
+   "en": "From here, they will be loaded into the game when it is opened, having priority over the base game's files."
+  },
+  {
+   "k": "13m90k4",
+   "en": "The game's logs are created in ⟦0⟧. From there, they can be used for ⟦1⟧ or useful information. See also ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1vwf2vm",
+   "en": "/Hearts of Iron IV/logs/"
+  },
+  {
+   "k": "1zw5wx",
+   "en": "troubleshooting"
+  },
+  {
+   "k": "1f1o5t",
+   "en": "§ Logs"
+  },
+  {
+   "k": "1mrhw9n",
+   "en": "The savefiles are stored in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1ifdi6x",
+   "en": "/Hearts of Iron IV/save games/"
+  },
+  {
+   "k": "1jw8j3y",
+   "en": "The game's screenshots are stored in ⟦0⟧. This includes both the regular ⟦1⟧ screenshots and the map generated with ⟦2⟧, which is a pixel-perfect representation of the entire world map taking the province borders from ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "l7neuw",
+   "en": "/Hearts of Iron IV/screenshots/"
+  },
+  {
+   "k": "1piwc23",
+   "en": "F11"
+  },
+  {
+   "k": "1p8wqd4",
+   "en": "F10"
+  },
+  {
+   "k": "1p77gbv",
+   "en": "/Hearts of Iron IV/map/provinces.bmp"
+  },
+  {
+   "k": "1f7xv2n",
+   "en": "⟦0⟧ is modified by the game's settings menu and includes some that aren't possible to change there. In particular, ⟦1⟧ isn't possible to change anywhere else, and so is changing the default text editor used by the game.",
+   "frags": 2
+  },
+  {
+   "k": "1t89gfd",
+   "en": "/Hearts of Iron IV/settings.txt"
+  },
+  {
+   "k": "1iziaxh",
+   "en": "save_as_binary=no"
+  },
+  {
+   "k": "kih1gs",
+   "en": "⟦0⟧. In particular, the game will be unable to open error.log (but will change it regardless) or mods stored there. To circumvent this, either just mods may be moved to a different folder by modifying the ⟦1⟧ in the ⟦2⟧ or it's possible to move the entire user directory by editing ⟦3⟧ and moving the files accordingly.",
+   "frags": 4
+  },
+  {
+   "k": "z32fqh",
+   "en": "If there are non-ASCII characters in the path to the user directory, it may not work as intended"
+  },
+  {
+   "k": "10rsgfq",
+   "en": "path"
+  },
+  {
+   "k": "41e2cy",
+   "en": "user-specific descriptor"
+  },
+  {
+   "k": "j6bti8",
+   "en": "Loading files"
+  },
+  {
+   "k": "s1x2tp",
+   "en": "After creating a mod folder within the launcher, every single file within will get loaded at the same location as in base game. Taking a mod with the name of \"yourmod\" as an example, every single file within ⟦0⟧ will get loaded alongside files in base game's ⟦1⟧ assuming the default path. However, inserting one more folder as in ⟦2⟧ will result in the files in that folder not being loaded as national focus files, appearing to get ignored. The root folder of the mod, considered the same as the ⟦3⟧ folder in the base game, will be defined in the user directory's ⟦4⟧ file, opened with a text editor. This is set via ⟦5⟧ in that file, by default being user directory's ⟦6⟧.",
+   "frags": 7
+  },
+  {
+   "k": "cltygl",
+   "en": "mod/yourmod/common/national_focus"
+  },
+  {
+   "k": "1lq4zgp",
+   "en": "/Hearts of Iron IV/common/national_focus"
+  },
+  {
+   "k": "14xw922",
+   "en": "mod/yourmod/test/common/national_focus"
+  },
+  {
+   "k": "1qdipwq",
+   "en": "/Hearts of Iron IV/"
+  },
+  {
+   "k": "2tx0wi",
+   "en": "/Hearts of Iron IV/mod/yourmod.mod"
+  },
+  {
+   "k": "1hy4l3",
+   "en": "path = \"\""
+  },
+  {
+   "k": "1pfgyvo",
+   "en": "/Hearts of Iron IV/mod/yourmod"
+  },
+  {
+   "k": "1idjbkp",
+   "en": "The base game is loaded first, while mods are loaded later. The order of loading files is primarily used to determine two things:"
+  },
+  {
+   "k": "a0mdkx",
+   "en": "In case of files with the same name in the same location, the load order decides which one gets used. For example, if a mod and the base game edit ⟦0⟧, the game will read the mod's version. This applies only to individual files and not entire folders. It is never possible for several files with the same name in the same location to each get loaded: it will only pick the later-loaded one and disregard the older ones.",
+   "frags": 1
+  },
+  {
+   "k": "1lqt1jz",
+   "en": "../events/Generic.txt"
+  },
+  {
+   "k": "3ruoko",
+   "en": "In case of ⟦0⟧ being used inside of a mod descriptor, the load order decides which files will be unloaded inside of the specified folder.",
+   "frags": 1
+  },
+  {
+   "k": "g089dv",
+   "en": "replace_path"
+  },
+  {
+   "k": "qh3te7",
+   "en": "Aside from replace_path, there is no way to completely unload a file, though it can be overwritten if there is one with the same filename.⟦0⟧ For example, if the only file in a mod is ⟦1⟧, then it will only overwrite the base game's generic national focus tree, but other national focus trees will remain the same as they are in the base game. If another mod that only edits a different focus tree (e.g. a new ⟦2⟧), then the game will read the edit to the generic national focus tree, read ⟦3⟧, and have the rest as in the base game.",
+   "frags": 4
+  },
+  {
+   "k": "wzat1w",
+   "en": "[a]"
+  },
+  {
+   "k": "lsfgrt",
+   "en": "../common/national_focus/generic.txt"
+  },
+  {
+   "k": "1qbwzrk",
+   "en": "malta.txt"
+  },
+  {
+   "k": "xyi8q1",
+   "en": "The load order in the game is as such:"
+  },
+  {
+   "k": "1km6qux",
+   "en": "Base game. Due to being earliest in the load order, this has the lowest priority in case of overlap."
+  },
+  {
+   "k": "1ryd7x0",
+   "en": "DLCs, in the order of their internal ID (follows release date). For example, if the base game, DLC018, and DLC20 each contain ⟦0⟧, the game will only read the version in DLC020 and ignore the rest. Due to checksum constraints, DLC folders usually only contain graphics and audio related to the DLC, while the code is always kept in the base game itself, locked behind a ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1n8avo",
+   "en": "../interface/frontendmainviewbg.gfx"
+  },
+  {
+   "k": "9s0u01",
+   "en": "has_dlc check"
+  },
+  {
+   "k": "ids3b4",
+   "en": "⟦0⟧. While it's usually limited to the ⟦1⟧'s outputs, any other folder also works here.",
+   "frags": 2
+  },
+  {
+   "k": "1kjyu89",
+   "en": "Mods, ordered by using ⟦0⟧. For example, if mods with descriptors of ⟦1⟧ and ⟦2⟧ both overwrite ⟦3⟧, only the version in the mod with the descriptor of ⟦4⟧ will be read.",
+   "frags": 5
+  },
+  {
+   "k": "qu7nue",
+   "en": "filenames of user-specific descriptors"
+  },
+  {
+   "k": "1emh5uh",
+   "en": "mod/abc_mod.mod"
+  },
+  {
+   "k": "gn1u2i",
+   "en": "mod/xyz_mod.mod"
+  },
+  {
+   "k": "16520dk",
+   "en": "../events/my_events.txt"
+  },
+  {
+   "k": "1blr5rs",
+   "en": "This can be overwritten using ⟦0⟧ in the ⟦1⟧. ⟦2⟧, but it is used to completely unload everything previously-loaded from a certain folder.",
+   "frags": 3
+  },
+  {
+   "k": "nw564k",
+   "en": "Due to DLCs being their own source of loaded files, the ⟦0⟧ folder and its subfolders will have no effect. Instead, the file has to follow the actual load location: e.g. to edit ⟦1⟧, the mod will have to contain ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "16vj08v",
+   "en": "modname/dlc/"
+  },
+  {
+   "k": "1wrs2xs",
+   "en": "../dlc/dlc023_man_the_guns/music/mtg_music.txt"
+  },
+  {
+   "k": "1u4kn9f",
+   "en": "modname/music/mtg_music.txt"
+  },
+  {
+   "k": "1m0uy0b",
+   "en": "During the process of loading, the files remain as pure text and do not immediately get interpreted. Exceptions for this are files that are necessary for the loading screen to work and localisation. Afterwards, there's the process of interpretation/evaluation, which reads the text files and creates content (such as national focuses, countries, or states) accordingly. ⟦0⟧ with few exceptions.⟦1⟧ For vast majority of files, they're either read only by the virtue of being within a specific folder (Such as national focuses), or by a direct link within a different file (Such as ⟦2⟧ within a ⟦3⟧ loading the ⟦4⟧ file for unit locations). This allows avoiding overwriting base game files in many cases, which eases making the mod's contents be compatible to the next major update.",
+   "frags": 5
+  },
+  {
+   "k": "1xt4caw",
+   "en": "Filenames don't matter in how the file is interpreted"
+  },
+  {
+   "k": "wz1cjz",
+   "en": "[b]"
+  },
+  {
+   "k": "1thbese",
+   "en": "oob = \"TAG_1936\""
+  },
+  {
+   "k": "swvaux",
+   "en": "country history file"
+  },
+  {
+   "k": "1k419lj",
+   "en": "/Hearts of Iron IV/history/units/TAG_1936.txt"
+  },
+  {
+   "k": "e4qk1m",
+   "en": "For the vast majority of folders, such as ⟦0⟧ files, the ASCII character IDs are used to sort them by filename for the interpretation. This is different from the alphabetic sorting used by the file explorer as uppercase letters are considered to come before lowercase letters and there are multiple characters inbetween (such as underscores) that lie inbetween. In order to place a file particularly high in the evaluation order, a prefix using late character IDs such as ⟦1⟧ can be used and a reverse for the other way around, with the base game commonly using ⟦2⟧ for this.",
+   "frags": 3
+  },
+  {
+   "k": "dw6d81",
+   "en": "/Hearts of Iron IV/interface/*.gfx"
+  },
+  {
+   "k": "1i0ozry",
+   "en": "zz_"
+  },
+  {
+   "k": "1733j93",
+   "en": "⟦0⟧: if there is overlap in entries between different files, the game typically uses the order of evaluation in order to determine which one should get priority. For example, if the base game contains a state with the ID of 123 in ⟦1⟧ and the mod contains its information for state 123 in the file of ⟦2⟧, the game will prioritise the state created first, which is the base game's definition. On the converse, between ⟦3⟧ in the base game and ⟦4⟧ in the mod files, the mod's ⟦5⟧ will be chosen. How exactly duplicates are handled depends on the exact file: some don't handle them well and should be avoided (e.g. national focus duplicates break prerequisite line generation), some prefer the first-created entry, some prefer the last-created entry.",
+   "frags": 6
+  },
+  {
+   "k": "1idn3fl",
+   "en": "The order of loading doesn't matter during evaluation"
+  },
+  {
+   "k": "pttu74",
+   "en": "123-ABC.txt"
+  },
+  {
+   "k": "1svh80r",
+   "en": "123-XYZ.txt"
+  },
+  {
+   "k": "18a40sz",
+   "en": "321-WWW.txt"
+  },
+  {
+   "k": "144n5zr",
+   "en": "321-DEF.txt"
+  },
+  {
+   "k": "a0mq72",
+   "en": "Changing the interpretation order has very limited use, but it is present. Some notable cases of this include:"
+  },
+  {
+   "k": "i3m8sd",
+   "en": "⟦0⟧ files that create sprites assigning information to images, such as attaching a singular name. If there are multiple definitions of the same sprite, only the later-evaluated sprite is used, with the earlier one being ignored. The base game notably uses this for DLCs: if a character only has a portrait within a DLC, then they will be set to use a sprite as the portrait. Within the base game, the sprite is set to lead to a generic portrait, as otherwise the character may appear broken, which is plausible in multiplayer. However, within the DLC files, the sprite that's used for the portrait is defined once again in a separate file later in the evaluation order to ensure that the DLC-added portrait will be used for the DLC owners.",
+   "frags": 1
+  },
+  {
+   "k": "1kj5jq3",
+   "en": "⟦0⟧ files: the order in which country tags are defined matters. While the base game places the evaluation order mostly in the order inside of the files here, it is still relevant. This decides on such things as the order in which ⟦1⟧ files are evaluated, which may result in subjects having broken popularities otherwise, the order in which events/decisions/focuses/etc are evaluated (whether it's the triggers for firing it or the AI selecting it), or the order when a ⟦2⟧ selects several countries: both evaluated and in the tooltip.",
+   "frags": 3
+  },
+  {
+   "k": "tgnk1p",
+   "en": "/Hearts of Iron IV/common/country_tags/*.txt"
+  },
+  {
+   "k": "yx1ry0",
+   "en": "/Hearts of Iron IV/history/countries/"
+  },
+  {
+   "k": "1grj6qz",
+   "en": "scope"
+  },
+  {
+   "k": "wuz3lk",
+   "en": "The ⟦0⟧, the 4-character alphanumeric code that can be seen next to the version in the main menu, such as a2b4, decides multiplayer and achievement compatibility: servers can be joined only if the checksum is identical to the host's, while achievements are only enabled if the checksum is identical to the base game's, which can be seen in the launcher. The list of what changes it can be seen in the base game's ⟦1⟧ file, which includes entire ⟦2⟧, ⟦3⟧, and ⟦4⟧ folders, as well as most of the ⟦5⟧ folder, other than ⟦6⟧. Any change to the files in that folder will change the checksum, while any mod that doesn't change them will not.",
+   "frags": 7
+  },
+  {
+   "k": "qnrmvm",
+   "en": "checksum"
+  },
+  {
+   "k": "145m4j5",
+   "en": "/Hearts of Iron IV/checksum_manifest.txt"
+  },
+  {
+   "k": "98fj9d",
+   "en": "common/"
+  },
+  {
+   "k": "nzc5kh",
+   "en": "events/"
+  },
+  {
+   "k": "92hlg0",
+   "en": "history/"
+  },
+  {
+   "k": "1bl196i",
+   "en": "map/"
+  },
+  {
+   "k": "1txpi7g",
+   "en": "map/terrain/"
+  },
+  {
+   "k": "1wc6pxo",
+   "en": "Folder structure"
+  },
+  {
+   "k": "1kzafyf",
+   "en": "These folders are common to edit within mods:"
+  },
+  {
+   "k": "f76osk",
+   "en": "⟦0⟧: This is the primary folder in which nearly every database entry is defined: countries, technologies, focuses, et cetera.",
+   "frags": 1
+  },
+  {
+   "k": "14ps1di",
+   "en": "⟦0⟧: The folder which defines ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1bbj7b4",
+   "en": "/Hearts of Iron IV/events/"
+  },
+  {
+   "k": "589chw",
+   "en": "events"
+  },
+  {
+   "k": "s26s1y",
+   "en": "⟦0⟧: This folder primary decides on starting historical information: which states are owned by which countries, the starting political and diplomatic situations, the army positions, starting buildings, and so on. Typically, if something happens before any country gets selected, it's decided here. However, starting railways and supply nodes are instead defined in the ⟦1⟧ folder.",
+   "frags": 2
+  },
+  {
+   "k": "4ewvan",
+   "en": "/Hearts of Iron IV/history/"
+  },
+  {
+   "k": "1b023wx",
+   "en": "⟦0⟧: This folder is used to edit the appearance of the map, such as provinces, the shown terrain, the heightmap, and so on. This also includes the strategic regions and starting supply nodes and railways. However, the boundaries of states are instead defined in the ⟦1⟧ folder.",
+   "frags": 2
+  },
+  {
+   "k": "1twyckk",
+   "en": "⟦0⟧: This folder is used to define how the text is shown, depending on the currently turned-on language.",
+   "frags": 1
+  },
+  {
+   "k": "2taogt",
+   "en": "⟦0⟧: This folder is used to store images. However, most of the time, ⟦1⟧. Commonly-edited exceptions include ⟦2⟧ where every single file is always loaded, ⟦3⟧ and subfolders where the country tries to load the flag upon ideology or ⟦4⟧ change, and ⟦5⟧ files that assign sprites to the pools of images shown in the equipment designer. Everything else requires a sprite.",
+   "frags": 6
+  },
+  {
+   "k": "1935l6y",
+   "en": "/Hearts of Iron IV/gfx/"
+  },
+  {
+   "k": "2b5iar",
+   "en": "these images aren't automatically loaded but must be linked to in sprites"
+  },
+  {
+   "k": "16ekkb7",
+   "en": "/Hearts of Iron IV/gfx/loadingscreens"
+  },
+  {
+   "k": "1d9a2th",
+   "en": "/Hearts of Iron IV/gfx/flags"
+  },
+  {
+   "k": "13ulay2",
+   "en": "cosmetic tag"
+  },
+  {
+   "k": "k4zlqk",
+   "en": "/Hearts of Iron IV/gfx/interface/equipmentdesigner/graphic_db/*.txt"
+  },
+  {
+   "k": "67ccbm",
+   "en": "⟦0⟧ (not to be confused with ⟦1⟧): This folder is mostly filled with ⟦2⟧ and ⟦3⟧ files, both of which can be opened in a text editor. The former define the graphical entries that are shown in-game: sprites that assign a name and properties (such as animation, the amount of frames, or loading type) to an image file, fonts, text colours, map arrows, et cetera. The latter define the graphical user interface itself: how the buttons and icons are laid out, which GFX is used where, where to write text, et cetera. This only decides on the appearance of the GUI, the attributes such as effects have to be defined elsewhere.",
+   "frags": 4
+  },
+  {
+   "k": "1ivt1a2",
+   "en": "/Hearts of Iron IV/interface/"
+  },
+  {
+   "k": "11p9cbe",
+   "en": "/Hearts of Iron IV/gfx/interface/"
+  },
+  {
+   "k": "7vf7f0",
+   "en": "*.gui"
+  },
+  {
+   "k": "1q6kgt5",
+   "en": "⟦0⟧: This folder is used to define songs that play within the radio stations, and the possibilities in the weighted shuffle.",
+   "frags": 1
+  },
+  {
+   "k": "lxu1ci",
+   "en": "/Hearts of Iron IV/music/"
+  },
+  {
+   "k": "1o7cyzw",
+   "en": "⟦0⟧: This folder is used to define sounds that play elsewhere, usually tied to an element of the GUI. This also includes such entries as the division voicelines.",
+   "frags": 1
+  },
+  {
+   "k": "1k1h1d6",
+   "en": "/Hearts of Iron IV/sound/"
+  },
+  {
+   "k": "r2lzhd",
+   "en": "⟦0⟧: This folder is used to assign sprites as portraits for randomly-generated generic characters.",
+   "frags": 1
+  },
+  {
+   "k": "zv4sd7",
+   "en": "/Hearts of Iron IV/portraits/"
+  },
+  {
+   "k": "gnhg29",
+   "en": "Code structure"
+  }
+ ]
+}

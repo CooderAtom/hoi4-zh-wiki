@@ -1,0 +1,789 @@
+{
+ "batch": 1078,
+ "pages": [
+  "Event modding"
+ ],
+ "chars": 14969,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "11tx08q",
+   "en": "⟦0⟧ are defined in the ⟦1⟧ folder. There are several types of events, changing the appearance or the target of the events.",
+   "frags": 2
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "1bbj7b4",
+   "en": "/Hearts of Iron IV/events/"
+  },
+  {
+   "k": "1xq1bi3",
+   "en": "The list of event types includes ⟦0⟧, ⟦1⟧, ⟦2⟧, ⟦3⟧, and ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "1p6rkiu",
+   "en": "country_event"
+  },
+  {
+   "k": "1tcarc9",
+   "en": "news_event"
+  },
+  {
+   "k": "fjss1l",
+   "en": "state_event"
+  },
+  {
+   "k": "ro74y6",
+   "en": "unit_leader_event"
+  },
+  {
+   "k": "1d0z8l5",
+   "en": "operative_leader_event"
+  },
+  {
+   "k": "1scg1lh",
+   "en": "In each event type, the ROOT ⟦0⟧ refers to the country getting the event, however, the default assumed scope, also known as THIS, is not always purely the country. In state events, operative leader events, and unit leader events, the assumed scope is ⟦1⟧ the country and the event-specific scope type, accepting effects for either scope, sorting them at will. In case of overlap between something being possible for the country or the other scope (e.g. ⟦2⟧ being both a state- and country-scoped effect), the country is preferred. Due to this confusion, it is recommended to avoid state events as they appear identical to country events (⟦3⟧ can be used within country events aimed to a specific state instead), however unit leader and operative leader events can be unavoidable due to their distinct appearance. ⟦4⟧, with the exception of appearance, default scopes, and the fact that news event can have their pop-up disabled (However, the country will still get them). If the player country gets an event and doesn't pick a choice, the first option will get assumed by default.",
+   "frags": 5
+  },
+  {
+   "k": "1grj6qz",
+   "en": "scope"
+  },
+  {
+   "k": "1t2fhya",
+   "en": "both"
+  },
+  {
+   "k": "11rde5g",
+   "en": "add_manpower"
+  },
+  {
+   "k": "1fldcnt",
+   "en": "Event targets"
+  },
+  {
+   "k": "1psak2v",
+   "en": "There is nearly no difference between event types"
+  },
+  {
+   "k": "1q7530k",
+   "en": "When ⟦0⟧, the game ports over the ⟦1⟧ existing in the previous effect block to the event, as well as the ROOT scope of the block, which becomes FROM within the event. The previous effect block's FROM scopes get shifted one level down, with the effect block's FROM becoming FROM.FROM, previous FROM.FROM becoming FROM.FROM.FROM, and et cetera. Due to this, FROM is commonly called the 'sender' of the event in jargon, making FROM.FROM the sender to the sender. Although this does not always apply, as FROM.FROM can be something else entirely, e.g. ⟦2⟧ or ⟦3⟧. Importantly, it's what the FROM block of the effect block that fired it is, which depends on where it's fired exactly. This does not happen if the event gets fired using an on action's random_events block: the same scoping rules as in the regular on action apply.",
+   "frags": 4
+  },
+  {
+   "k": "edxm2n",
+   "en": "fired using an effect"
+  },
+  {
+   "k": "1cvot2h",
+   "en": "regular event targets"
+  },
+  {
+   "k": "1ockuvc",
+   "en": "an additional scope within on actions"
+  },
+  {
+   "k": "bhjqct",
+   "en": "the target of a decision"
+  },
+  {
+   "k": "1yv1caz",
+   "en": "A country that doesn't exist may still get events ⟦0⟧, but any other method doesn't work. However, if there's a time delay set in the effect that fires it, the timers in each delayed_event⟦1⟧ will not decrease. This effectively puts any events with a time delay onto a backlog of the country, put on hold until it gets released. For example, if BHR doesn't exist when ⟦2⟧ is executed, then the event will only fire a day after BHR starts existing. This also applies to the original recipient of major events.",
+   "frags": 3
+  },
+  {
+   "k": "dlsn3i",
+   "en": "if fired via an effect"
+  },
+  {
+   "k": "wzat1w",
+   "en": "[a]"
+  },
+  {
+   "k": "1bdnmp9",
+   "en": "BHR = { country_event = { id = event.0 days = 1 } }"
+  },
+  {
+   "k": "18zx5ks",
+   "en": "Event creation"
+  },
+  {
+   "k": "16z7l0d",
+   "en": "Each event is contained within a code block corresponding to the event type, such as ⟦0⟧ or ⟦1⟧. Within the event, a mandatory line is ⟦2⟧, corresponding to the event's ID, such as ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "odm75e",
+   "en": "id = my_event.123"
+  },
+  {
+   "k": "nhgac7",
+   "en": "ID rules"
+  },
+  {
+   "k": "1uc34vz",
+   "en": "Within an event file, all events have to have an ID in the format of ⟦0⟧. For example, in an event ⟦1⟧, the namespace will be \"my_event\", while the ID is \"123\".",
+   "frags": 2
+  },
+  {
+   "k": "198cxgt",
+   "en": "<namespace>.<integer ID>"
+  },
+  {
+   "k": "bzcg42",
+   "en": "my_event.123"
+  },
+  {
+   "k": "lhoi08",
+   "en": "⟦0⟧ before defining any events that use it. This is done with the line ⟦1⟧ ⟦2⟧. If a namespace is not defined, then the event ID will be considered a malformed token, leading it to not working in-game. The event namespace consists of word characters (e.g. letters of the English alphabet or underscores). This includes dots: ⟦3⟧ can be used for events of the type of ⟦4⟧. The numeric ID will be taken to be everything after the last dot converted to an integer, or 0 if the conversion fails.",
+   "frags": 5
+  },
+  {
+   "k": "vlzivj",
+   "en": "A namespace must be first created"
+  },
+  {
+   "k": "1j1hfig",
+   "en": "add_namespace = my_event"
+  },
+  {
+   "k": "2zpe7y",
+   "en": "which must be outside of any event"
+  },
+  {
+   "k": "18enlvj",
+   "en": "add_namespace = my_event.subtopic"
+  },
+  {
+   "k": "2skhp6",
+   "en": "id = my_event.subtopic.1"
+  },
+  {
+   "k": "1yb0yx8",
+   "en": "Internal IDs are defined for events by assigning an ID to each namespace (IDs are assigned in the order in the code, files being loaded by filename in the character order), with the first-defined namespace being assigned an ID of 10, incrementing it by 1 for each next created namespace, multiplying it by 100000, and adding the integer ID. If the ID after the namespace fails conversion to an integer, then it'll default to 0. For this reason, every event with a non-integer ID will be considered the same event, so ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "7y1tr6",
+   "en": "the ID of the event after the namespace must be an integer"
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "1mk2vq",
+   "en": "The lines ⟦0⟧ and ⟦1⟧ are used to assign a ⟦2⟧ key to the event, creating its title and description depending on the current language of the game. An example line is ⟦3⟧ or ⟦4⟧. An event is required to have a title or a description unless it is hidden.",
+   "frags": 5
+  },
+  {
+   "k": "16a95ah",
+   "en": "title"
+  },
+  {
+   "k": "10cn0v4",
+   "en": "desc"
+  },
+  {
+   "k": "coj4nh",
+   "en": "localisation"
+  },
+  {
+   "k": "qlymfr",
+   "en": "title = my_event.123.t"
+  },
+  {
+   "k": "1kjco0d",
+   "en": "desc = my_event_description"
+  },
+  {
+   "k": "k8ytaw",
+   "en": "Localisation is defined in the ⟦0⟧ folder for the English language. It is preferable to use a new file in the folder instead of overwriting any base game files. The newly-created file will have to end with ⟦1⟧ in its filename (Note that it is a lowercase L, not an uppercase i) for it to be loaded properly. Additionally, it has to use the UTF-8-BOM text encoding. Exact details on how to change the encoding depend on the text editor used. Within the file, assuming that ⟦2⟧ is already added as the first line, localisation can be added as such:",
+   "frags": 3
+  },
+  {
+   "k": "197fm0e",
+   "en": "/Hearts of Iron IV/localisation/english/"
+  },
+  {
+   "k": "xaq9yd",
+   "en": "_l_english.yml"
+  },
+  {
+   "k": "ueigsq",
+   "en": "l_english:"
+  },
+  {
+   "k": "5b0q3p",
+   "en": "It is also possible to add multiple titles and descriptions to an event, making it choose one depending on conditions. This is done as the following:"
+  },
+  {
+   "k": "1dix6uc",
+   "en": "The game will choose the first localisation key where the conditions are met. In this case, the event title will use the my_event.123.t.a localisation key if the country receiving the event has the tag of ENG, and every other country will have the event title use the my_event.123.t.b localisation key. ⟦0⟧ is a ⟦1⟧ block, requiring all of the triggers inside to be true by default. The formatting for event descriptions is the same, with ⟦2⟧ changed for ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "wj82kj",
+   "en": "trigger"
+  },
+  {
+   "k": "qdvq5l",
+   "en": "Picture"
+  },
+  {
+   "k": "100udma",
+   "en": "In order to add a picture to be shown for the event, the ⟦0⟧ argument is used with the name of the sprite leading to the file of the picture, such as ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "dnba89",
+   "en": "picture"
+  },
+  {
+   "k": "w45xms",
+   "en": "picture = GFX_my_sprite"
+  },
+  {
+   "k": "esr2ch",
+   "en": "Sprites are defined in any ⟦0⟧ file, by default using eventpictures.gfx, opened within any text editor. It is recommended to create a new file in the folder instead of using a base game file in the mod for update compatibility reasons. Within the ⟦1⟧ file of your choice, the following lines can be added within the ⟦2⟧ block to define a sprite:",
+   "frags": 3
+  },
+  {
+   "k": "dw6d81",
+   "en": "/Hearts of Iron IV/interface/*.gfx"
+  },
+  {
+   "k": "1jps0eu",
+   "en": "spriteTypes = { ... }"
+  },
+  {
+   "k": "1hny8dn",
+   "en": "After creating this sprite, the file ⟦0⟧ can be used within an event as ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "r1u9u5",
+   "en": "<yourmod>/gfx/event_pictures/my_event_picture.dds"
+  },
+  {
+   "k": "1cu3dil",
+   "en": "Picture can be made dynamic, using ⟦0⟧. To achieve this, one must use ⟦1⟧, with actual event pictures defined in scripted localisation (as its ⟦2⟧ variants), for example",
+   "frags": 3
+  },
+  {
+   "k": "h0j5k9",
+   "en": "scripted localisation"
+  },
+  {
+   "k": "4bva2w",
+   "en": "picture = \"[SomeScriptedLocalisationTitle]\""
+  },
+  {
+   "k": "fxn0n8",
+   "en": "localization_key"
+  },
+  {
+   "k": "rx6uet",
+   "en": "Triggering"
+  },
+  {
+   "k": "128897",
+   "en": "The ⟦0⟧ block of ⟦1⟧ is used to declare conditions that must be met so that the event is possible to appear. If it's false, there's no way to fire the event aside from using ⟦2⟧. This will look like the following:",
+   "frags": 3
+  },
+  {
+   "k": "8trf0c",
+   "en": "trigger = { ... }"
+  },
+  {
+   "k": "1ka34g",
+   "en": "triggers"
+  },
+  {
+   "k": "1akcuec",
+   "en": "the console command"
+  },
+  {
+   "k": "1ecngqv",
+   "en": "If the event is fired in console, the trigger will be written into it as the contents of a regular trigger tooltip, highlighting which conditions were met and which were not."
+  },
+  {
+   "k": "6yf80v",
+   "en": "By default, the event will fire automatically. This consists of the trigger being checked every 20 days.⟦0⟧ If it is true, it changes to checking the ⟦1⟧ daily. That is a modified ⟦2⟧: it is evaluated for a country and returns an amount of days; if the returned amount of days is ⟦3⟧ the chance for an event to fire on that day is ⟦4⟧ , making this a median time to happen. If the trigger is false on a daily check, it reverts to checking the trigger every 20 days.",
+   "frags": 5
+  },
+  {
+   "k": "12sh2y6",
+   "en": "mean_time_to_happen = { ... }"
+  },
+  {
+   "k": "1d2j64p",
+   "en": "MTTH block"
+  },
+  {
+   "k": "4bog7q",
+   "en": "M {\\displaystyle M}"
+  },
+  {
+   "k": "10qfzu4",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle 1-2^{-\\frac{1}{M}}}"
+  },
+  {
+   "k": "fx3gem",
+   "en": "⟦0⟧ has the attributes of ⟦1⟧, ⟦2⟧, and ⟦3⟧ to decide the base amount of days. A month is interpreted as being 30 days, a year is interpreted as being 365 days. If the amount of days should be dynamic, ⟦4⟧ serves as a trigger block with additional attributes of ⟦5⟧ (adding that amount of days) and ⟦6⟧ (multiplying the amount of days by the specified number). The modifiers are evaluated in the order that they're placed in, and they support ⟦7⟧ in the argument. An example mean time to happen looks like the following:",
+   "frags": 8
+  },
+  {
+   "k": "1wewy2y",
+   "en": "days"
+  },
+  {
+   "k": "6oo7gi",
+   "en": "months"
+  },
+  {
+   "k": "99n4xp",
+   "en": "years"
+  },
+  {
+   "k": "1xpl1mz",
+   "en": "modifier = { ... }"
+  },
+  {
+   "k": "15f53xj",
+   "en": "add = 123"
+  },
+  {
+   "k": "ugaqnd",
+   "en": "factor = 0.2"
+  },
+  {
+   "k": "bk83b6",
+   "en": "variables"
+  },
+  {
+   "k": "1vqztzz",
+   "en": "The automatic firing can be disabled by adding ⟦0⟧ into the event. This doesn't prevent any other way to fire the event, whether by the ⟦1⟧, an ⟦2⟧'s ⟦3⟧, ⟦4⟧, or anything else. This is entirely unrelated to ⟦5⟧: the conditions within must still be fulfilled for either of these to be possible to fire an event. If the ⟦6⟧ (e.g. country_event or state_event) is set with a delay, then the trigger must be true when the event is intended to be fired.",
+   "frags": 7
+  },
+  {
+   "k": "v1la",
+   "en": "is_triggered_only = yes"
+  },
+  {
+   "k": "gwg4g7",
+   "en": "effect used to do so"
+  },
+  {
+   "k": "1jl1qqy",
+   "en": "on action"
+  },
+  {
+   "k": "17g4kki",
+   "en": "random_events"
+  },
+  {
+   "k": "111s1w",
+   "en": "a border war"
+  },
+  {
+   "k": "1pefin1",
+   "en": "effect used to fire an event"
+  },
+  {
+   "k": "70ms1j",
+   "en": "⟦0⟧ makes the event impossible to fire more than once. This is checked within the event itself: a country getting the event will also prevent any other country from receiving it. This is bypassed by using ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1yv37s",
+   "en": "fire_only_once = yes"
+  },
+  {
+   "k": "5veik7",
+   "en": "⟦0⟧ is used to make the event fire for every country once any country receives it. ⟦1⟧, since news events are purely a graphical reskin of country events. In case of overlap with ⟦2⟧, the latter will take priority and remove any effect of the event being major, making it only appear for the country receiving it for the first time. Countries other than the first country receiving it will ignore ⟦3⟧. To make only some countries get the event shown while it's still major, ⟦4⟧ is used as a ⟦5⟧ block that makes the event show up only if it's true. If ⟦6⟧ is also added, the event will fire for every country that meets ⟦7⟧ aside from the country that was intended to receive it.",
+   "frags": 8
+  },
+  {
+   "k": "eszdrq",
+   "en": "major = yes"
+  },
+  {
+   "k": "1vxg3lu",
+   "en": "This is done in every news event"
+  },
+  {
+   "k": "1oq2ms9",
+   "en": "show_major = { ... }"
+  },
+  {
+   "k": "vxebxb",
+   "en": "fire_for_sender = no"
+  },
+  {
+   "k": "1pqvrou",
+   "en": "show_major"
+  },
+  {
+   "k": "ertn45",
+   "en": "Options"
+  },
+  {
+   "k": "o2kxct",
+   "en": "An event option is added with an ⟦0⟧ block. An event option is an ⟦1⟧ block, with a few extra options:",
+   "frags": 2
+  },
+  {
+   "k": "k6o6xj",
+   "en": "option = { ... }"
+  },
+  {
+   "k": "un2mhg",
+   "en": "effect"
+  },
+  {
+   "k": "3y21vh",
+   "en": "⟦0⟧ decides the localisation key used for the option, such as ⟦1⟧. It is not possible to make the option name depend on the triggers in the same way it's possible for event titles, instead, completely different event options can be used, disabling each one with a name that shouldn't be used.",
+   "frags": 2
+  },
+  {
+   "k": "136nuue",
+   "en": "name"
+  },
+  {
+   "k": "ct9kn3",
+   "en": "name = my_option_name"
+  },
+  {
+   "k": "4wpee0",
+   "en": "⟦0⟧ is a ⟦1⟧ block, deciding when the option is visible to be picked. If the trigger is false at the time of being fired, it will not appear until the event is fired again. Additionally, for major events, ⟦2⟧ can be used to ensure that only the country that fired the event has this option available, with others not having it.",
+   "frags": 3
+  },
+  {
+   "k": "1krgoex",
+   "en": "original_recipient_only = yes"
+  },
+  {
+   "k": "b6ndfg",
+   "en": "⟦0⟧ is a block deciding the ⟦1⟧ for event options: deciding in a proportional way which option to pick. The AI chance in event options do not have to add up to 100, as it is proportional. It is structured in a near-identical way to the mean time to happen. If unset, assumed to be 1. The probability of each option is its weight divided by the sum of all option weights. If all options have a weight of zero, the first one is chosen. The randomized choice is made by rolling a d100, so options can't have an effective non-zero probability below 1%. The choice remains consistent across reloads, based on unique game seed, in-game time, country, and unit leader.",
+   "frags": 2
+  },
+  {
+   "k": "ywykdr",
+   "en": "ai_chance = { ... }"
+  },
+  {
+   "k": "m6cyax",
+   "en": "AI chance"
+  },
+  {
+   "k": "1boeak5",
+   "en": "As a MTTH block, the attributes are in the form of ⟦0⟧, ⟦1⟧, ⟦2⟧, with ⟦3⟧ serving as trigger blocks:",
+   "frags": 4
+  },
+  {
+   "k": "1pdh518",
+   "en": "base = 10"
+  },
+  {
+   "k": "tmbxkg",
+   "en": "factor = 0.1"
+  },
+  {
+   "k": "brzslk",
+   "en": "add = 10"
+  },
+  {
+   "k": "1d50lgg",
+   "en": "Additional arguments"
+  },
+  {
+   "k": "1xdy455",
+   "en": "⟦0⟧ is an ⟦1⟧ block, executed as soon as the event is fired, before an option is chosen by the player. This can also be used for AI: AI only picks an option after the event triggers are evaluated for every other country, while immediate is executed immediately, before evaluating other events. This can be used in mean-time-to-happen type major events: by making the immediate set a global flag, which is required to be unset in the event trigger, this will prevent it from being fired more than once for each country, but it is preferable to avoid mean-time-to-happen events in entirety. Note that the effect will appear in the tooltip after the event's description, so the ⟦2⟧ flow tool can be helpful.",
+   "frags": 3
+  },
+  {
+   "k": "1f1jmul",
+   "en": "immediate = { ... }"
+  },
+  {
+   "k": "7rio4f",
+   "en": "hidden_effect"
+  },
+  {
+   "k": "hrdsfe",
+   "en": "⟦0⟧ is an ⟦1⟧ block, executed at the end of the event after an option is chosen by the player (as opposed to \"immediate\"). Introduced with War Effort | Patch 1.16.9",
+   "frags": 2
+  },
+  {
+   "k": "6rlsnm",
+   "en": "after = { ... }"
+  },
+  {
+   "k": "r1xbiy",
+   "en": "⟦0⟧ sets the amount of days that the player has to pick an option before the first option is automatically selected. This can be used to make the event be more or less urgent than default. If unset, assumed to be 13 days.⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1jlut4h",
+   "en": "timeout_days = 20"
+  },
+  {
+   "k": "vr57j4",
+   "en": "⟦0⟧ will make an event hidden. A hidden event does not need a title or a description. The first defined option, if one is present, will be automatically picked upon being fired. Hidden events can be useful instead of ⟦1⟧ to delay the execution of an effect block by a period of time or to utilise the FROM scope.",
+   "frags": 2
+  },
+  {
+   "k": "qatd",
+   "en": "hidden = yes"
+  },
+  {
+   "k": "16f769",
+   "en": "scripted effects"
+  },
+  {
+   "k": "p2lfp0",
+   "en": "⟦0⟧ marks the event as being a minor flavour event. This does not change its appearance or change its effects, but allows turning off the pop-up within the game's decision menu.",
+   "frags": 1
+  },
+  {
+   "k": "18ccmlv",
+   "en": "minor_flavor = yes"
+  },
+  {
+   "k": "uq3mgk",
+   "en": "Effect"
+  },
+  {
+   "k": "1t0xcki",
+   "en": "Any ⟦0⟧ can be used to fire an event, such as focus rewards, ⟦1⟧, or decision effects. This is usually paired with ⟦2⟧ within the event as to disable automatic firing.",
+   "frags": 3
+  },
+  {
+   "k": "wncst1",
+   "en": "effect block"
+  },
+  {
+   "k": "1tqwqwt",
+   "en": "event options"
+  },
+  {
+   "k": "pdethh",
+   "en": "In its simplest way, this is done with the effect of ⟦0⟧ (or ⟦1⟧), which'll instantly fire the event for the scoped country. As country and news events are the exact same thing under the surface, both shortened effects can be used for either country and news events, with there being no difference between them whatsoever. However, more options can be added primarily for setting up the delay. Additionally, expanded versions are mandatory for state and operative leader events.",
+   "frags": 2
+  },
+  {
+   "k": "rznaxj",
+   "en": "country_event = my_event.1"
+  },
+  {
+   "k": "a2kaye",
+   "en": "news_event = my_event.1"
+  },
+  {
+   "k": "16xc895",
+   "en": "A more complex effect to fire is ⟦0⟧. This'll fire the event in 100 to 223 (⟦1⟧ ) days. There are the following arguments that can go into the effect (All of them are optional with one exception):",
+   "frags": 2
+  },
+  {
+   "k": "mw6fam",
+   "en": "country_event = { id = my_event.1 days = 100 random_days = 123 }"
+  },
+  {
+   "k": "19vbv27",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle 100 + 123}"
+  }
+ ]
+}

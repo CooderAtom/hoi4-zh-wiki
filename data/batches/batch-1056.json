@@ -1,0 +1,902 @@
+{
+ "batch": 1056,
+ "pages": [
+  "Patch 1.12"
+ ],
+ "chars": 14947,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1zskjd",
+   "en": "Fixed an issue where some Manchuko focuses wouldn't display their rewards after being finished"
+  },
+  {
+   "k": "14ty9td",
+   "en": "Fixed an issue where the US would not gain the full benefit of the Military Construction focus under some circumstances"
+  },
+  {
+   "k": "5fhjg0",
+   "en": "Fixed wrong trait being assigned to US admiral"
+  },
+  {
+   "k": "1jx7ssg",
+   "en": "A small handful of releasable countries were able to get access to vanilla tanks even though NSB was active. This has been fixed"
+  },
+  {
+   "k": "16nshrc",
+   "en": "Hot-reloading AI strategy plans will not crash the game"
+  },
+  {
+   "k": "6u3zpb",
+   "en": "Removed the define PORT_STRIKE_ENEMY_SUPERIORITY_LIMIT which was set to above 100% in the base game which in effect disabled the limit. Removed the accompanying modifier enemy_port_superiority_limit"
+  },
+  {
+   "k": "1dbxqm0",
+   "en": "Soviet coastal defense ships correctly get IC cost reduction from merged naval designers"
+  },
+  {
+   "k": "12dtmy7",
+   "en": "Removed a redundant (\") from the event \"Japanese Young Officer Coup\""
+  },
+  {
+   "k": "hahk9f",
+   "en": "Changed the spelling from Citroen to Citroën for the U23. Also noticed the same typo for the P107 and changed that spelling as well"
+  },
+  {
+   "k": "nol1hc",
+   "en": "Balanced Latvia's population by reducing the numbers in the state of Vidzeme from 1.52m to 408k and increased the population in the state of Zemgale from 64k to 215k for a more historically accurate representation as noted in AR-29854"
+  },
+  {
+   "k": "1q6lf90",
+   "en": "Fixed unknown leader portrait when creating a dynamic country"
+  },
+  {
+   "k": "p2k8gd",
+   "en": "Switched out a Chinese flag to a Soviet one in Latvia's Focus Tree \"Seek the support of the soviets\""
+  },
+  {
+   "k": "159cxbd",
+   "en": "Changed place on a \"}\" in Germany's \"Danubian Expansion\" focus so that Romania gets an event and joins Germany's faction after focus completion"
+  },
+  {
+   "k": "1k3zfzj",
+   "en": "Added carrier night traffic modifier +50% to CAG night fighting air spirit"
+  },
+  {
+   "k": "1br6jzn",
+   "en": "Bulgaria will no longer appoint the wrong advisors on historical"
+  },
+  {
+   "k": "18ugprq",
+   "en": "Governments in exile can no longer take exiled scientist decisions"
+  },
+  {
+   "k": "amgz73",
+   "en": "Fixed several old event typos"
+  },
+  {
+   "k": "42ue5v",
+   "en": "Polish event granting cores on Ukraine and Belarus now correctly grants those cores if Germany accepts"
+  },
+  {
+   "k": "2dvdr2",
+   "en": "Czech focuses affecting poland or romania will correctly bypass if they are not allowed"
+  },
+  {
+   "k": "ezu3iw",
+   "en": "The Gordian Knot focus will now bypass if Turkey does not exist"
+  },
+  {
+   "k": "1ammk1y",
+   "en": "AI should again be able to reprioritize equipment production lines"
+  },
+  {
+   "k": "lo6cb5",
+   "en": "Added historical AI behavior to the decision \"Place The King Under House Arrest\", so that Greece won't take this decision if playing on Historical setting, ensuring a-historical AI choices won't be made"
+  },
+  {
+   "k": "upukvh",
+   "en": "Soviet Union AI will no longer fabricate on Romania before they have completed the appropriate focuses"
+  },
+  {
+   "k": "xd302a",
+   "en": "AI will not be able to hire invisible advisor anymore"
+  },
+  {
+   "k": "1tzspwm",
+   "en": "Fixed bugs preventing the AI from successfully designing new tanks if the already existing tanks fulfilled certain conditions"
+  },
+  {
+   "k": "13n9j7t",
+   "en": "AI will deploy divisions if capped by equipment deficit above threshold"
+  },
+  {
+   "k": "1npyvvf",
+   "en": "Soviet AI should now build AT divisions"
+  },
+  {
+   "k": "8x4dl5",
+   "en": "AI Air evaluation now knows how maps work. They previously used a series of colored lights and hand signals"
+  },
+  {
+   "k": "12dd0b3",
+   "en": "AI should no longer try to change template of divisions that are cut off"
+  },
+  {
+   "k": "di2s19",
+   "en": "AI micro movements now aware of impassable adjacencies"
+  },
+  {
+   "k": "1ph4cn9",
+   "en": "AI tweak * Greek Anatolian Fascists want to conquer Anatolia"
+  },
+  {
+   "k": "sid2zu",
+   "en": "Added AI air handling for interception en-route to target, and added several inertia defines to control how twitchy the AI can be with wing reassignment"
+  },
+  {
+   "k": "17udrap",
+   "en": "ENG and RAJ should now make a passing attempt to hold Burma once Japan controls enough of Indochina"
+  },
+  {
+   "k": "pac2vd",
+   "en": "Added a new AI strategy to upgrade the strategic air importance of a region. German AI should now begin the battle of britain/london blitz once France has fallen, and they are not at war with SOV"
+  },
+  {
+   "k": "2r06sy",
+   "en": "AI will make use of the new standard cohesion setting on larger fronts. This has noticeable efficacy of AI orders along large-front operations such as Barbarossa"
+  },
+  {
+   "k": "1fa8b64",
+   "en": "All templates will now fall back to the best match if no ai roles were selected due to match_to_count + templates will no longer stack several of the same role * This prevented the AI receiving accurate information about how many of each it wanted to recruit"
+  },
+  {
+   "k": "o4bg95",
+   "en": "Added defines for chief advisor weight, tweaked AI desire for unti count and added build up weight for hitler"
+  },
+  {
+   "k": "a3jmd4",
+   "en": "Added property for ai ideology desired unit factor, this can be modded"
+  },
+  {
+   "k": "j68my8",
+   "en": "AI no longer prioritised armoured cars ahead of time"
+  },
+  {
+   "k": "9pdsni",
+   "en": "Romania should no longer be ceding Bessarabia if it is at war with the USSR"
+  },
+  {
+   "k": "18ytsvq",
+   "en": "Communist Japan should no longer instantly surrender to MAN"
+  },
+  {
+   "k": "1uk4gev",
+   "en": "Miscellaneous"
+  },
+  {
+   "k": "ekvz6t",
+   "en": "Canada can no longer choose the \"Join Germany\" focus if Germany is a puppet"
+  },
+  {
+   "k": "vmjmhe",
+   "en": "Danzig and Warsaw can now be controlled by either Germany or one of its allies for \"Operation\" Weserubung\" to be completed. Also added Norway to the bypass criteria"
+  },
+  {
+   "k": "rb6jdl",
+   "en": "Fixed Exp icon not changing in Military Deployment View when the training is completed"
+  },
+  {
+   "k": "1sdizd8",
+   "en": "Fixed Baltic Artillery Designer not providing the appropriate Artillery production bonus"
+  },
+  {
+   "k": "p591ft",
+   "en": "Fixed heavy tank icon for the UK"
+  },
+  {
+   "k": "r91qsu",
+   "en": "Fixed the tooltip to show when the player have all the necessary states of ALbania by removing the Syrian states from the condition that should not be there"
+  },
+  {
+   "k": "5ozs82",
+   "en": "Fixed adding divisions to a general under a marshal, not updating the marshal's abilities' effects"
+  },
+  {
+   "k": "16peztx",
+   "en": "Added tooltip log for Ability activation on Marshal level, when there is a overpay because of some generals having the same ability"
+  },
+  {
+   "k": "1yzxxf8",
+   "en": "Fixed a typo in the name of a Japanese Admiral"
+  },
+  {
+   "k": "vusf7r",
+   "en": "Fixed removing divisions from a general under a marshal, not updating the marshal's abilities' effects"
+  },
+  {
+   "k": "lr3gtq",
+   "en": "Fix case where sometimes naval paths didn't recalculate after region access changed"
+  },
+  {
+   "k": "1husf4l",
+   "en": "Laos no longer starts with non-mtg hulls if mtg is enabled"
+  },
+  {
+   "k": "12iok3k",
+   "en": "Removed hidden ideas from \"Modify Goverment\" alert"
+  },
+  {
+   "k": "mw4rct",
+   "en": "Fixed Army Group deslection not deselecting all the selected units"
+  },
+  {
+   "k": "b54g77",
+   "en": "Fixed wrong amount of trains in logicstics veiw, when there are more trains in sotckpile that are used"
+  },
+  {
+   "k": "11vybrg",
+   "en": "Fixed a bug when using custom game rules where starting with Yugoslavia fragmented would allow YUG to continue existing in West Banat as a single state"
+  },
+  {
+   "k": "1obzdhk",
+   "en": "Fixes a bug where Kazimierz Switalksi would be listed as a military officer in the tooltip for 'The Sanation Left' focus in the Polish tree"
+  },
+  {
+   "k": "1cnmex5",
+   "en": "Changes conditions for HUN focus 'Demand Referendum' from OR to AND when checking whether AUS exists/is independent. Also cancels focus if AUS no longer exists after starting the focus"
+  },
+  {
+   "k": "1gn252v",
+   "en": "Fix equipment conversion cost accounts for % modifiers and strategic resources"
+  },
+  {
+   "k": "1p3d37r",
+   "en": "For advisors portrait, use on which intelligence ledger they are displayed to determine which type of portrait to use (army, navy, civilian). Fallback on army portrait if it's the only provided"
+  },
+  {
+   "k": "1lcm35f",
+   "en": "Frame time in ingame profiler will now include the full frame update, not just the GPU rendering part"
+  },
+  {
+   "k": "1kit69t",
+   "en": "Somali flags are no longer upside down.."
+  },
+  {
+   "k": "1r8glbk",
+   "en": "When calculating total trucks needed at country level, take into account all controlled nodes and not just owned ones"
+  },
+  {
+   "k": "gyuoj0",
+   "en": "Fixed inconsistency with demanded unit types for bulgarian imro decisions, causing them to cancel as soon as started"
+  },
+  {
+   "k": "fbndto",
+   "en": "Fixed issue where armored trains could become invulnerable to logistics strike if congregating in large numbers"
+  },
+  {
+   "k": "3i6z0b",
+   "en": "When in character scope, have [THIS.GetName] return the name of the character and not their country"
+  },
+  {
+   "k": "1mk490j",
+   "en": "Fixed autonomy score being given in the wrong Bulgarian event"
+  },
+  {
+   "k": "3atmqy",
+   "en": "The Esti is scandi focus will now correctly annex Scandinavian puppets"
+  },
+  {
+   "k": "19e4obn",
+   "en": "Doctrine bonuses to tank max speed will now be taken into account when determining if a tank design's max speed is too low making it invalid"
+  },
+  {
+   "k": "tghkkl",
+   "en": "In the air combat details statistics table, fixed the mix-up of the numbers for our and enemy bombers disrupted"
+  },
+  {
+   "k": "1lzh5ao",
+   "en": "Fixed a doctrine bonus in Portugese focus tree"
+  },
+  {
+   "k": "10sap26",
+   "en": "Prevent damage done to trains from being reset every hour. This made armored trains invulnerable unless enough air wings were assigned to logistics strike to destroy a train in a single game tick"
+  },
+  {
+   "k": "n4njlk",
+   "en": "If a building is offmap, then there should be no construction limit"
+  },
+  {
+   "k": "6kru21",
+   "en": "When changing character portrait with set_portraits, make sure the views displaying portraits are refreshed"
+  },
+  {
+   "k": "dh0mqi",
+   "en": "Do not reevaluate major status when loading a save"
+  },
+  {
+   "k": "9tfc0x",
+   "en": "The port strike air mission will no longer prevent all but one airwing from dealing damage per port"
+  },
+  {
+   "k": "s6po83",
+   "en": "Fix assigned leader portrait not updating if the character is retired or loses the unit leader role via script"
+  },
+  {
+   "k": "1g80xdo",
+   "en": "Fixed multiple aces being assign to the same wing when random generated"
+  },
+  {
+   "k": "10ujzdw",
+   "en": "Fixed an issue with the database loaders where a mod could introduce content without changing game checksum"
+  },
+  {
+   "k": "gjx9oc",
+   "en": "Fixed air wings experience not splitting correctly after civil war"
+  },
+  {
+   "k": "1iwz07v",
+   "en": "Bad Weather Penalty and Night Flying Penalty can now exceed a value of 1.0 (this fixes the soviet airforce national spirit being highly ineffective)"
+  },
+  {
+   "k": "jyzwtd",
+   "en": "Slightly changed the calculation of air detection to care about the full weather penalty and not just equipment stats on mission types (which are not updated in the same way). Tl;dr * Values appropriately show up in the tooltip"
+  },
+  {
+   "k": "j9a7n6",
+   "en": "Fixed wrong description in ships_in_state_ports triggers"
+  },
+  {
+   "k": "15555qh",
+   "en": "Make sure resource rights are cancelled when the receiver is annexed"
+  },
+  {
+   "k": "tu6fja",
+   "en": "Fixed destroyed Anti-Air guns being counted to the Air superiority"
+  },
+  {
+   "k": "exbfmi",
+   "en": "Fixed failure to apply design company equipment bonuses when designing the first variant of a type"
+  },
+  {
+   "k": "1ufm4th",
+   "en": "Fixed the defence and movement modifier of Army's Fort Adjuster not being applied"
+  },
+  {
+   "k": "e4sm13",
+   "en": "Fixed wrong breakthrough bonus calculation for Forts on the attacker's side"
+  },
+  {
+   "k": "hbxmpi",
+   "en": "Equipment conversion lines will no longer create equipment out of thin air from excess IC when consuming the last remaining equipment to convert from the stockpile"
+  },
+  {
+   "k": "1jszpsn",
+   "en": "GiE's can now only happen if an appropriate faction leader is present"
+  },
+  {
+   "k": "yhu8bs",
+   "en": "Allowed_civil_war trigger in characters now has a country + character scope"
+  },
+  {
+   "k": "bcki83",
+   "en": "Fix low base supply alerts triggering for empty air bases"
+  },
+  {
+   "k": "whqmry",
+   "en": "Fixed ships getting stuck when the last naval base is captured"
+  },
+  {
+   "k": "io5qme",
+   "en": "Laurel and Hardy now correctly reversed"
+  },
+  {
+   "k": "1x443r0",
+   "en": "Made randomizing order names a little less deterministic"
+  },
+  {
+   "k": "pmbl2i",
+   "en": "Added unit stat \"thrust\" for use in the plane designer"
+  },
+  {
+   "k": "egd1ln",
+   "en": "Fixed Imgui windows not switching countries when switching countries in game"
+  },
+  {
+   "k": "1erhy98",
+   "en": "Fix some equipment designer tooltips appearing twice"
+  },
+  {
+   "k": "1d3qxrp",
+   "en": "Fixed looking at location without state assert"
+  },
+  {
+   "k": "4tlnbl",
+   "en": "Added fix for turkish democratic heavy tanks messing with bloom"
+  },
+  {
+   "k": "9mkdjm",
+   "en": "Scaled down bfb tanks"
+  },
+  {
+   "k": "1lh4bt3",
+   "en": "Fixed typo in the communist party of Yugoslavia"
+  },
+  {
+   "k": "1pd5ps6",
+   "en": "Fix typo in basic infantry equipment for Latvia"
+  },
+  {
+   "k": "im6tfv",
+   "en": "Fixes for old content with new Arabian states"
+  },
+  {
+   "k": "1ditjos",
+   "en": "Use a cheaper algorithm to compute rough distance between countries"
+  },
+  {
+   "k": "intqgp",
+   "en": "Fixed up cruisers light medium batteries and catagorie blocking"
+  },
+  {
+   "k": "1o2t1h",
+   "en": "Remove unused Train Prio from supply system"
+  },
+  {
+   "k": "13izkw",
+   "en": "Event chain and updates to adjacency rules to allow for the closing of the suez as part of LoN sanctions"
+  },
+  {
+   "k": "1arhkh0",
+   "en": "Fix crash when invalid state scope is passed to context effect"
+  },
+  {
+   "k": "1yjjn95",
+   "en": "Fix bug where character traits would sometimes duplicate on level up"
+  },
+  {
+   "k": "18od5fv",
+   "en": "Temp change to sov propaganda"
+  },
+  {
+   "k": "3vokjk",
+   "en": "Most sources of weekly war support in modifiers have been replaced with flat war support"
+  },
+  {
+   "k": "a19stw",
+   "en": "Fixed missing names for countries and regions"
+  },
+  {
+   "k": "5rbrdg",
+   "en": "Returned WS to sov idea"
+  },
+  {
+   "k": "89hloq",
+   "en": "Added DP guns to usa, jap and fra ships"
+  },
+  {
+   "k": "1ct5he7",
+   "en": "Updated histroy units files for ships, upgraded panzershiff speed"
+  },
+  {
+   "k": "5dbsu8",
+   "en": "Updated fra, usa & jap ship designer template targets"
+  },
+  {
+   "k": "1rp9fn",
+   "en": "'Fixed' soviet anti tank template test, added world tension test"
+  },
+  {
+   "k": "15mwdvq",
+   "en": "New states for Siberia and Kazakhstan"
+  },
+  {
+   "k": "1wp0ig9",
+   "en": "Upgrade eng strats to naval invade less early and deal with italy before normandy"
+  },
+  {
+   "k": "zzjd21",
+   "en": "Ensure mapicons recurvisely hide subelements on update and init, reducing the average number of UI elements to update by an order of magnitude"
+  },
+  {
+   "k": "1uzr276",
+   "en": "Optimize daily diplomacy update"
+  },
+  {
+   "k": "1ofqx7k",
+   "en": "Fixed issue where Estonia and Latvia would not follow the historical focuses"
+  },
+  {
+   "k": "29ynh2",
+   "en": "Broke up Sudan and Khartoum states"
+  },
+  {
+   "k": "1do4s1f",
+   "en": "Implemented Ascari battalions to replace former regular infantry battalions in colonial divisions"
+  },
+  {
+   "k": "lw1yhm",
+   "en": "Focus tree re-arrangement for proper integration of alt-history branches and a better FT layout in general"
+  },
+  {
+   "k": "ltu4td",
+   "en": "Fix volunteer action check not getting early out when possible"
+  },
+  {
+   "k": "odpdyq",
+   "en": "Adds events and loc to the 'Soviet Aid' focus in the communist branch. Also redirects the player to the anarcho-communist branch if the Soviets don't supply aid"
+  },
+  {
+   "k": "1mdt9yg",
+   "en": "Adjusted order of UK focuses"
+  },
+  {
+   "k": "hg8apz",
+   "en": "Fixed error when hovering over Camelry units due to Camelry battalion missing its text icon"
+  },
+  {
+   "k": "1nrg744",
+   "en": "Rework of some African states and African air regions"
+  },
+  {
+   "k": "1vg57zb",
+   "en": "Added the ability to allow training locked templates"
+  },
+  {
+   "k": "hyvg77",
+   "en": "Implement persistence of career profile achievements using cloud storage"
+  },
+  {
+   "k": "j31jbn",
+   "en": "People will no longer immediately become spanish when they are sent to spain"
+  },
+  {
+   "k": "10cur99",
+   "en": "Adds events, loc and effects for Soviet Mediation focus. Also some fixes for other focuses and events"
+  },
+  {
+   "k": "159sbzw",
+   "en": "Fix AI trying to pathfind to invalid front provinces or assign units that are busy retreating"
+  },
+  {
+   "k": "17vsr4q",
+   "en": "Added event chains and some other stuff for UK Exile focuses"
+  },
+  {
+   "k": "582v1c",
+   "en": "Fixed issue in Baltic focus (triggers for Finland after Finnish CW)"
+  },
+  {
+   "k": "1nm5fqe",
+   "en": "Fixed UI issue with tooltips on the occupation laws UI"
+  },
+  {
+   "k": "1czg4io",
+   "en": "Added the conversion cost debug information to the ship refit view tooltip"
+  },
+  {
+   "k": "1fliymw",
+   "en": "State supply from population now incurs a penalty factor for occupiers [BALANCE TBC]"
+  },
+  {
+   "k": "vutbtt",
+   "en": "Fixed console commands in order to match the corresponding effects"
+  },
+  {
+   "k": "16969bn",
+   "en": "Added some missing dockyards in the history file. Trieste VP value increased from 1 to 3"
+  },
+  {
+   "k": "1ra7t6b",
+   "en": "Added +5 agility base to small airframes across the board"
+  },
+  {
+   "k": "1u8yzug",
+   "en": "Fixed ship radar 2 AA attack value to be a multiplier and not additive"
+  },
+  {
+   "k": "182ukfm",
+   "en": "Reduced cost and weight of some defensive modules"
+  },
+  {
+   "k": "1pj07iq",
+   "en": "Added new portraits for france, and all small idea portraits so far"
+  },
+  {
+   "k": "1tgpj1f",
+   "en": "Fixed null province CTD in railway gun distribution"
+  },
+  {
+   "k": "voixnt",
+   "en": "Added some control variables for ground combat weighting, since the AI seems to have lost any semblance of self-control"
+  },
+  {
+   "k": "1a87v1l",
+   "en": "Soviets should no longer justify on Romania before completing the focus Claim in Bessarabia"
+  },
+  {
+   "k": "4ysc0r",
+   "en": "Ouest du Quebec deserves capital letters"
+  },
+  {
+   "k": "mjmqks",
+   "en": "Fixed China triggering error due to unavailable yet unremovable designer"
+  },
+  {
+   "k": "16rt93v",
+   "en": "Reduced weight of tank buster I and mine modules"
+  },
+  {
+   "k": "11jgb77",
+   "en": "Added a few more squadron names for German airwings"
+  },
+  {
+   "k": "rdcz89",
+   "en": "Added yellow river flood decision for china, tweaked some related scripts"
+  },
+  {
+   "k": "esmug7",
+   "en": "Fixed an issue where Chinese factions and Japan could end up in a loop of continuously offering white peaces and getting dragged into the war immediately"
+  },
+  {
+   "k": "hq112b",
+   "en": "Mini change to loc for autonomy levels for Germany. Setting supervised state color to Overlord's"
+  },
+  {
+   "k": "q8se20",
+   "en": "Added equipment versions for Non-MTG ships granted via focus in Soviet and Italy"
+  },
+  {
+   "k": "o4lytv",
+   "en": "Adding button for selecting random country on new game"
+  },
+  {
+   "k": "14ai1x2",
+   "en": "Fix bug where armies didn't know their template had changed"
+  },
+  {
+   "k": "1k5tetw",
+   "en": "Fix UI putting a glow on ideas the player isn't allowed to change"
+  },
+  {
+   "k": "1etx09u",
+   "en": "Fixed weird loc for country-specific tech labels for BB and CA armor"
+  },
+  {
+   "k": "liv7wg",
+   "en": "Tooltip indentation standardized for country leader trait entries"
+  },
+  {
+   "k": "dd2s88",
+   "en": "Fixed CTD when removing character's country leader role in Kaiserreich"
+  },
+  {
+   "k": "1dnf7tn",
+   "en": "A bunch of fixes * Greece being able to complete focus tree, USB and CSA shouldn't be fg/puppet/lib, Australian name fix, Lakes in Canada and Africa in correct states and Air zones, tweaks to ethiopian focus and decisions, and a minor twonk to Italian event chain"
+  },
+  {
+   "k": "14cyibn",
+   "en": "Added prerequisite ship armour tech to FRA histroy file"
+  },
+  {
+   "k": "kn2tsh",
+   "en": "Remove CW target when the war is over"
+  },
+  {
+   "k": "shdrr4",
+   "en": "Fixed random seed in CreateOperativeLeaderEffect that caused duplicate operatives"
+  },
+  {
+   "k": "1wy13uf",
+   "en": "Imports are now loaded correctly from the history files"
+  },
+  {
+   "k": "1kqzvys",
+   "en": "Albania will no longer submit if they are in a faction with Yugoslavia, Bulgaria or a major"
+  },
+  {
+   "k": "wmwlqe",
+   "en": "Add some strategies to make allies ignore air in northern France"
+  },
+  {
+   "k": "tcf3c5",
+   "en": "Fix so that 2nd Russian Civil War does not end When Exiles become Japanese puppet!"
+  },
+  {
+   "k": "s15fkn",
+   "en": "Fix so German puppets don't get fascist flags if Germany not fascist"
+  },
+  {
+   "k": "ufz81q",
+   "en": "Fixed inccorect starting techs for equipment templates"
+  }
+ ]
+}

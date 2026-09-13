@@ -1,0 +1,902 @@
+{
+ "batch": 42,
+ "pages": [
+  "Occupation"
+ ],
+ "chars": 14440,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "t3a7p2",
+   "en": "For the pre-1.9 occupation system see a previous version of this page."
+  },
+  {
+   "k": "z1tc00",
+   "en": "States are divided into three main categories based on resistance: core states (also known in-game as national territory), occupied states, and colony states. Occupied states have resistance enabled, while colony states do not. If a core state has resistance turned on (whether if the requirement to enable resistance is changed in a mod or an effect forces it to be enabled, such as with the ⟦0⟧ operation), it will be listed as an occupied state, while still not having the mali that apply to non-core states such as with manpower or building slots.",
+   "frags": 1
+  },
+  {
+   "k": "dr7fll",
+   "en": "\"Instigate Workers Revolution in Britain\""
+  },
+  {
+   "k": "b90y2b",
+   "en": "If a state does not have resistance at the start of the game, then it will remain disabled unless the state changes hands⟦0⟧ or another mechanic enables it (such as various ⟦1⟧ ⟦2⟧ that enable resistance in certain colonial states in Africa and Arabia).",
+   "frags": 3
+  },
+  {
+   "k": "yv85j4",
+   "en": "Ethiopian"
+  },
+  {
+   "k": "1tru4z4",
+   "en": "decisions"
+  },
+  {
+   "k": "8v26pg",
+   "en": "If a state changes hands or resistance already exists, the game decides daily whether it should continue by checking the following conditions:⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "11xm71l",
+   "en": "The state is not impassable"
+  },
+  {
+   "k": "1k5ilgo",
+   "en": "The state is not a core of the controller country"
+  },
+  {
+   "k": "14sqc4f",
+   "en": "Either any country has a core on this country or the state was owned by ⟦0⟧ at the game's start and is occupied by a country originating from Spain, after the civil war has ended.",
+   "frags": 1
+  },
+  {
+   "k": "1s1lfqm",
+   "en": "Spain"
+  },
+  {
+   "k": "s45k3k",
+   "en": "Occupied states have two values attached to them: ⟦0⟧ and ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "60wqo0",
+   "en": "resistance"
+  },
+  {
+   "k": "4ch44q",
+   "en": "compliance"
+  },
+  {
+   "k": "2410g",
+   "en": "Resistance"
+  },
+  {
+   "k": "1cho7wv",
+   "en": "The resistance system is based on the resistance strength, which slowly grows or decays towards the resistance target."
+  },
+  {
+   "k": "l0xc2p",
+   "en": "Resistance strength"
+  },
+  {
+   "k": "3sc1ii",
+   "en": "Resistance strength measures the severity of the populace's resistance to the controller's occupation of the state. Upon the state being captured, the initial resistance is set to 1%,⟦0⟧ from where it rises or falls to the ⟦1⟧. If the state shouldn't have resistance any longer, the resistance decays towards 0 by -0.25%⟦2⟧ per day. The resistance strength is capped between 0.01%⟦3⟧ and 100%.⟦4⟧ It affects the debuffs applied to the state, frequency, and severity of resistance actions. When resistance strength reaches certain thresholds, various debuffs begin to apply on a per-state basis:⟦5⟧",
+   "frags": 6
+  },
+  {
+   "k": "q2gbbd",
+   "en": "Resistance target"
+  },
+  {
+   "k": "4el6o6",
+   "en": "Name"
+  },
+  {
+   "k": "1c0y3kj",
+   "en": "Resistance level needed"
+  },
+  {
+   "k": "uq3mgk",
+   "en": "Effect"
+  },
+  {
+   "k": "1bi4a31",
+   "en": "Organized Resistance"
+  },
+  {
+   "k": "1o15lti",
+   "en": "Garrison Penetration Chance: +50%"
+  },
+  {
+   "k": "1ceswqc",
+   "en": "Garrison Penetration Chance: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "zg9maf",
+   "en": "Emboldened Resistance"
+  },
+  {
+   "k": "1fh6bhw",
+   "en": "Damage to Garrisons: +100%"
+  },
+  {
+   "k": "1hw709g",
+   "en": "Damage to Garrisons: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "uuqrza",
+   "en": "Uprising"
+  },
+  {
+   "k": "72kthm",
+   "en": "Divisions speed: -50% (Only for the controller) Strategic Redeployment Disabled: Yes Local Supplies: -50% (Only for the controller) Division Attrition: +30% (Only for the controller)"
+  },
+  {
+   "k": "18qf4fc",
+   "en": "Divisions speed: ⟦0⟧ (Only for the controller)",
+   "frags": 1
+  },
+  {
+   "k": "1l7cn1g",
+   "en": "Strategic Redeployment Disabled: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1dudzcg",
+   "en": "Yes"
+  },
+  {
+   "k": "ltbrph",
+   "en": "Local Supplies: ⟦0⟧ (Only for the controller)",
+   "frags": 1
+  },
+  {
+   "k": "6m3966",
+   "en": "Division Attrition: ⟦0⟧ (Only for the controller)",
+   "frags": 1
+  },
+  {
+   "k": "1xi225l",
+   "en": "Rebellion"
+  },
+  {
+   "k": "tunjm5",
+   "en": "Local Factories: -3% Resistance will declare independence on the core states that are being occupied. (Fires the rebellion event in 1 hour) Occupied states will declare independence. This changes their control to the rebelling country (it will be re-established if it doesn't exist or is at peace with the occupier) and grants divisions to it (2–6 per state, based on factory amount)."
+  },
+  {
+   "k": "1biswin",
+   "en": "Local Factories: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1kgabvn",
+   "en": "Resistance will declare independence on the core states that are being occupied. (Fires ⟦0⟧ in 1 hour) Occupied states will declare independence. This changes their control to the rebelling country (it will be re-established if it doesn't exist or is at peace with the occupier) and grants divisions to it (2–6 per state, based on factory amount).",
+   "frags": 1
+  },
+  {
+   "k": "1nk3iw6",
+   "en": "the rebellion event"
+  },
+  {
+   "k": "ux97e4",
+   "en": "Occupied states will declare independence. This changes their control to the rebelling country (it will be re-established if it doesn't exist or is at peace with the occupier) and grants divisions to it (2–6 per state, based on factory amount)."
+  },
+  {
+   "k": "1u2bbuc",
+   "en": "Resistance target reflects a potential amount of unrest in the state. The resistance slowly trends towards this value. The following values that modify it:"
+  },
+  {
+   "k": "1iwi72v",
+   "en": "Resistance Target base: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "rpf2fj",
+   "en": "Target country has capitulated⟦0⟧: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "wzat1w",
+   "en": "[a]"
+  },
+  {
+   "k": "dx1vjv",
+   "en": "Target country has a ⟦0⟧: ⟦1⟧ plus ⟦2⟧ per ⟦3⟧ of the ⟦4⟧, up to a total of ⟦5⟧ at 100% ⟦6⟧",
+   "frags": 7
+  },
+  {
+   "k": "1d2vblq",
+   "en": "government in exile"
+  },
+  {
+   "k": "137ymbz",
+   "en": "legitimacy"
+  },
+  {
+   "k": "131nsdj",
+   "en": "Controller has a claim: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "t68l2j",
+   "en": "Controller is at peace: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "o5bo9d",
+   "en": "Victory points in state:⟦0⟧ 0–4 VP: 0% 5–19 VP: +5% 20–49 VP: +10% 50+ VP: +20%",
+   "frags": 1
+  },
+  {
+   "k": "10q9zyv",
+   "en": "0–4 VP: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "dgaqck",
+   "en": "5–19 VP: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "ysaxe4",
+   "en": "20–49 VP: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "iari5u",
+   "en": "50+ VP: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "q9qfba",
+   "en": "From compliance in state: ⟦0⟧ for each percent of compliance, up to ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1y86wd4",
+   "en": "From controller stability: ⟦0⟧ for each percent of ⟦1⟧ below 100% (up to ⟦2⟧ at 0% ⟦3⟧)",
+   "frags": 4
+  },
+  {
+   "k": "wnbc3s",
+   "en": "Stability"
+  },
+  {
+   "k": "1ftxwef",
+   "en": "Less than 1000⟦0⟧ state population: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1du7e2u",
+   "en": "Between 1000⟦0⟧ and 10000⟦1⟧ state population: ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "1aerxc7",
+   "en": "Modifiers or effects, such as the following:⟦0⟧ Compassionate Gentleman political advisor: -5% Root out resistance mission: Base -10%,[20] increased by upgrading the agency or assigning more agents. Each subsequent agent is only 50%x as efficient as the previous one. Occupation laws: -75% to +40%[21] Continuous focus \"Resistance Suppression\": -5%[22] Enemy intelligence operations: +10% or +20% (with bonus) on a successful Strengthen Resistance operation[c] or +10% (with bonus) on a successful Make Resistance Contacts operation.[23]",
+   "frags": 1
+  },
+  {
+   "k": "wz1cjz",
+   "en": "[b]"
+  },
+  {
+   "k": "pb8lob",
+   "en": "Compassionate Gentleman ⟦0⟧: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "o9rj10",
+   "en": "political advisor"
+  },
+  {
+   "k": "cy263d",
+   "en": "⟦0⟧: Base ⟦1⟧,⟦2⟧ increased by upgrading the agency or assigning more agents. Each subsequent agent is only ⟦3⟧ as efficient as the previous one.",
+   "frags": 4
+  },
+  {
+   "k": "1irtos8",
+   "en": "Root out resistance mission"
+  },
+  {
+   "k": "x2e6w5",
+   "en": "50%x"
+  },
+  {
+   "k": "1yyf1aw",
+   "en": "⟦0⟧: ⟦1⟧ to ⟦2⟧⟦3⟧",
+   "frags": 4
+  },
+  {
+   "k": "9837gf",
+   "en": "Occupation laws"
+  },
+  {
+   "k": "112sfdr",
+   "en": "⟦0⟧ \"Resistance Suppression\": ⟦1⟧⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "1l9hfka",
+   "en": "Continuous focus"
+  },
+  {
+   "k": "i3a7hy",
+   "en": "Enemy intelligence ⟦0⟧: ⟦1⟧ or ⟦2⟧ (with bonus) on a successful ⟦3⟧ operation⟦4⟧ or ⟦5⟧ (with bonus) on a successful ⟦6⟧ operation.⟦7⟧",
+   "frags": 8
+  },
+  {
+   "k": "zmj0hb",
+   "en": "operations"
+  },
+  {
+   "k": "1uxwnsk",
+   "en": "Strengthen Resistance"
+  },
+  {
+   "k": "y32wtu",
+   "en": "[c]"
+  },
+  {
+   "k": "14z17yd",
+   "en": "Make Resistance Contacts"
+  },
+  {
+   "k": "h0jsdv",
+   "en": "Spread from a neighbouring state with a higher resistance target, as ⟦0⟧ of the difference. Only one state can be selected to have the spread from, and it picks the highest one. In this case, the difference is calculated between this state's resistance target (before the spread) and the neighbouring state's either resistance target without the spread or only the spread that it received. For example, a state with a 70% resistance target neighbouring a state with a 10% resistance target will increase the latter's total target to 40% by adding half of the difference between 10% and 70%. If another state with a 10% resistance target borders the state now with a 40% target, it will raise to 20% through half of the difference between the 10% base and the 30% spread from the first state.",
+   "frags": 1
+  },
+  {
+   "k": "s3vtgj",
+   "en": "For example, a state with a 70% resistance target neighbouring a state with a 10% resistance target will increase the latter's total target to 40% by adding half of the difference between 10% and 70%. If another state with a 10% resistance target borders the state now with a 40% target, it will raise to 20% through half of the difference between the 10% base and the 30% spread from the first state."
+  },
+  {
+   "k": "1btmed2",
+   "en": "The resistance target can only fall down to 10%⟦0⟧ with most of these modifiers, only compliance can push it down further to 0. If resistance falls to 0, then the resistance will only be re-enabled once the resistance target reaches 10%⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1645ons",
+   "en": "Resistance growth and decay"
+  },
+  {
+   "k": "bk89lc",
+   "en": "If the resistance strength doesn't match up with the resistance target, it will gradually change towards the resistance target. If the resistance strength is rising, this is ⟦0⟧; if it is falling, this is ⟦1⟧. By default, resistance growth increases it by ⟦2⟧ per day, while resistance decay decreases it by ⟦3⟧ per day. Further modifiers to them are applied multiplicatively.",
+   "frags": 4
+  },
+  {
+   "k": "1254bn3",
+   "en": "resistance growth"
+  },
+  {
+   "k": "4tzra",
+   "en": "resistance decay"
+  },
+  {
+   "k": "148gonf",
+   "en": "If the country has a claim on the occupied state, the resistance decay is increased by ⟦0⟧. Below 10 resistance strength, decay is changed by ⟦1⟧, while below 20 strength, decay is changed by ⟦2⟧.⟦3⟧",
+   "frags": 4
+  },
+  {
+   "k": "1fgz1pp",
+   "en": "In terms of modifiers, there are the following ways to change it:⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1ejfgdp",
+   "en": "The ⟦0⟧ ⟦1⟧ for governments in exile increases the resistance growth by ⟦2⟧ within the core states of the country with the spirit.",
+   "frags": 3
+  },
+  {
+   "k": "15ka92r",
+   "en": "\"Weapons for the Resistance\""
+  },
+  {
+   "k": "1sl6dmg",
+   "en": "national spirit"
+  },
+  {
+   "k": "1esnduc",
+   "en": "The ⟦0⟧ land doctrine in the ⟦1⟧ doctrine branch increases the resistance growth by ⟦2⟧ within the core states of the country with the doctrine.",
+   "frags": 3
+  },
+  {
+   "k": "2qvlvw",
+   "en": "Guerrilla Warfare"
+  },
+  {
+   "k": "tv7d9y",
+   "en": "Mass Assault"
+  },
+  {
+   "k": "7a95g1",
+   "en": "The ⟦0⟧ occupation law available to ⟦1⟧ increases the resistance decay by ⟦2⟧ in the states where it's applied to.",
+   "frags": 3
+  },
+  {
+   "k": "efqiev",
+   "en": "Brutal Oppression"
+  },
+  {
+   "k": "j2rw6j",
+   "en": "Fascists"
+  },
+  {
+   "k": "74xlj1",
+   "en": "Resistance activity"
+  },
+  {
+   "k": "blwlif",
+   "en": "Each day that resistance is active, the game rolls for resistance activity. The chance for resistance activity to happen in a state increases by ⟦0⟧ per ⟦1⟧ of resistance in that state, up to a maximum of ⟦2⟧ at ⟦3⟧ resistance.⟦4⟧",
+   "frags": 5
+  },
+  {
+   "k": "18xs9vh",
+   "en": "Whenever resistance activity happens in a state, local partisans will attack and destroy ⟦0⟧ of the state garrison's equipment and ⟦1⟧ of the state garrison's manpower. Equipment losses are applied to all currently used equipment by the garrison based on the garrison's current fulfillment rate and are rounded up for all equipment types. ⟦2⟧ increases the potential damage to both equipment and manpower. Certain ⟦3⟧, ⟦4⟧, ⟦5⟧, and ⟦6⟧ can increase or decrease the amount of damage dealt to garrisons in certain occupied states. The garrison template's ⟦7⟧ reduces both types of damage by ⟦8⟧ per ⟦9⟧ hardness, capped at a maximum of ⟦10⟧ at ⟦11⟧ hardness or more. This reduction occurs regardless of the actual equipment the garrison has available.⟦12⟧ For example, a garrison template with a ⟦13⟧ battalion will have its damage reduced even if the country has no heavy tanks to fulfill their garrisons' equipment request. It also stacks additively with other sources of garrison damage reduction up to a maximum total damage reduction of ⟦14⟧.⟦15⟧ This can mean that additional garrison hardness is effectively wasted when enough damage reduction sources from ⟦16⟧, ⟦17⟧, ⟦18⟧, etc. is present.",
+   "frags": 19
+  },
+  {
+   "k": "yt10lt",
+   "en": "national spirits"
+  },
+  {
+   "k": "wj7cdb",
+   "en": "occupation laws"
+  },
+  {
+   "k": "7mhbtx",
+   "en": "political advisors"
+  },
+  {
+   "k": "wogy4f",
+   "en": "land doctrines"
+  },
+  {
+   "k": "guqezr",
+   "en": "hardness"
+  },
+  {
+   "k": "r6wrfk",
+   "en": "Heavy tank"
+  },
+  {
+   "k": "1kunm7j",
+   "en": "In addition to damage to garrisons, there is a chance that resistance activity will \"penetrate\" the garrison and cause damage to local ⟦0⟧, ⟦1⟧, or ⟦2⟧. The base chance is ⟦3⟧ per resistance activity, but this can be increased through ⟦4⟧. Certain unique ⟦5⟧ and ⟦6⟧ can reduce garrison penetration chance.",
+   "frags": 7
+  },
+  {
+   "k": "1icrwoe",
+   "en": "Infrastructure"
+  },
+  {
+   "k": "w0z8n2",
+   "en": "Civilian factories"
+  },
+  {
+   "k": "182gqps",
+   "en": "Military factories"
+  },
+  {
+   "k": "1wn8zm2",
+   "en": "Compliance"
+  },
+  {
+   "k": "19n47i7",
+   "en": "Compliance is a representation of a non-core territory's population's loyalty to the occupying regime. The in-game number represents the proportion of people in the local population that are loyalists."
+  },
+  {
+   "k": "t5pk2n",
+   "en": "Compliance is calculated on a per-state basis with its own local effects while providing overall bonuses for occupied land when reaching a certain average threshold."
+  },
+  {
+   "k": "v05u18",
+   "en": "Compliance in an occupied state starts at ⟦0⟧. Once a state capitulates or is annexed, if a ⟦1⟧ has been prepared beforehand, starting compliance in all of its original states will increase to the country's collaboration percentage. Non-core states at the beginning of the game start with 70%⟦2⟧ compliance by default. If a non-core state switches owners, its new owner will receive ⟦3⟧⟦4⟧ of the old owner's compliance in that state.",
+   "frags": 5
+  },
+  {
+   "k": "3imixl",
+   "en": "collaboration government"
+  },
+  {
+   "k": "1d048f2",
+   "en": "0.5x"
+  },
+  {
+   "k": "9q71kh",
+   "en": "Compliance gain"
+  },
+  {
+   "k": "q75v6j",
+   "en": "Compliance base gain is ⟦0⟧ per day by default, but it is modified by occupation laws, some national spirits, and leader traits. The following values that modify it:",
+   "frags": 1
+  },
+  {
+   "k": "h6ftdf",
+   "en": "(Previous) Controller has (temporarily) lost control of the state: ⟦0⟧ per day for controller",
+   "frags": 1
+  },
+  {
+   "k": "16t29az",
+   "en": "Modifiers or effects, such as the following:⟦0⟧ Occupation laws: -0.11% to +0.03% per day[21] No Garrison occupation law: Compliance gain disabled",
+   "frags": 1
+  },
+  {
+   "k": "se7fwv",
+   "en": "⟦0⟧: ⟦1⟧ to ⟦2⟧ per day⟦3⟧",
+   "frags": 4
+  },
+  {
+   "k": "1r35b0n",
+   "en": "⟦0⟧ occupation law: Compliance gain ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1ug0ov",
+   "en": "No Garrison"
+  },
+  {
+   "k": "eex8g5",
+   "en": "disabled"
+  },
+  {
+   "k": "a9gf2j",
+   "en": "Compliance gain can be increased by compliance growth from the following sources:"
+  },
+  {
+   "k": "duuy04",
+   "en": "Modifiers or effects, such as the following:⟦0⟧ Compassionate Gentleman political advisor: +2%",
+   "frags": 1
+  },
+  {
+   "k": "9tei73",
+   "en": "This is counteracted by compliance decay. There are two main sources of compliance decay, both of which are applied after compliance growth modifiers have been incorporated into compliance gain:"
+  },
+  {
+   "k": "aywt3h",
+   "en": "Existing compliance: ⟦0⟧ per day per existing compliance, up to ⟦1⟧ per day at 100% compliance",
+   "frags": 2
+  },
+  {
+   "k": "1drfz06",
+   "en": "State is a core of a country with a ⟦0⟧: ⟦1⟧ per day per ⟦2⟧ of the ⟦3⟧, up to ⟦4⟧ per day at 100% ⟦5⟧",
+   "frags": 6
+  },
+  {
+   "k": "1in6e9s",
+   "en": "Setting up a ⟦0⟧ switches the occupied states to a puppet state and dispenses with resistance, making compliance unnecessary.",
+   "frags": 1
+  },
+  {
+   "k": "16r2r5r",
+   "en": "Compliance and industry"
+  },
+  {
+   "k": "q2xj2b",
+   "en": "Compliance provides bonuses to available factories (⟦0⟧, ⟦1⟧, ⟦2⟧) within a state. The formula looks like this:",
+   "frags": 3
+  },
+  {
+   "k": "14o5cov",
+   "en": "Naval dockyards"
+  },
+  {
+   "k": "11nk8w2",
+   "en": "(Refineries are unaffected by this. They will always produce the maximum amount of fuel and rubber, depending on technology, same applies for fuel silos)"
+  },
+  {
+   "k": "1n4e9b6",
+   "en": "The same applies to the resources and manpower provided by the occupied states:"
+  },
+  {
+   "k": "1z0xo7a",
+   "en": "The average level of compliance between states also provides flat percentage bonuses:"
+  },
+  {
+   "k": "1r46dhl",
+   "en": "Compliance level needed"
+  },
+  {
+   "k": "pg0o06",
+   "en": "Informants"
+  },
+  {
+   "k": "15pdx9j",
+   "en": "Enemy operative detection chance offset: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "dg07tt",
+   "en": "Local Police Force"
+  },
+  {
+   "k": "wgknxa",
+   "en": "Required Garrisons: -25% Additional Recruitable Population: +0.5%"
+  },
+  {
+   "k": "1nsbl7f",
+   "en": "Reorganized Workforce"
+  },
+  {
+   "k": "1i31iag",
+   "en": "Local Resources: +10% Local factories: +10%"
+  },
+  {
+   "k": "1s9x845",
+   "en": "Volunteer Program"
+  },
+  {
+   "k": "i454wt",
+   "en": "Recruitable Population: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1c9hrwh",
+   "en": "A New Regime"
+  },
+  {
+   "k": "64ka3z",
+   "en": "Triggers event to establish a Collaboration Government"
+  },
+  {
+   "k": "zn5co1",
+   "en": "A state at 100% Compliance will provide 100% of its factories, 105% of its resources, and 40.5% of its manpower to its occupier by default, thanks to the modifiers listed above."
+  },
+  {
+   "k": "yajm6p",
+   "en": "The following can also affect the amount of factories, resources, and manpower that an occupied state provides:"
+  },
+  {
+   "k": "13pqtvs",
+   "en": "Prince of Terror ⟦0⟧: ⟦1⟧ manpower from non-core states",
+   "frags": 2
+  },
+  {
+   "k": "17fbj86",
+   "en": "⟦0⟧:⟦1⟧ Local Factories: -35% to +60% Local Resources: -35% to +60% Local Manpower: +0% to +8%",
+   "frags": 2
+  },
+  {
+   "k": "sbhf52",
+   "en": "Local Factories: ⟦0⟧ to ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "oc5n35",
+   "en": "Local Resources: ⟦0⟧ to ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "18doegp",
+   "en": "Local Manpower: ⟦0⟧ to ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "164qavq",
+   "en": "While having access to more than 100% of a state's factories or resources is usually temporary because compliance decay will outgrow compliance gain, there are some situations where this is not the case. Certain ⟦0⟧, ⟦1⟧, and decisions on certain countries can result in a compliance gain that overwhelms the additional compliance decay created by more extractive ⟦2⟧. In particular, the ⟦3⟧, ⟦4⟧-exclusive ⟦5⟧, and ⟦6⟧-specific ⟦7⟧ occupation laws all provide additional factories and resources while having low enough compliance gain reduction that they can be easily overwhelmed by additional sources of compliance gain.",
+   "frags": 8
+  },
+  {
+   "k": "26f65v",
+   "en": "national focuses"
+  },
+  {
+   "k": "wp3669",
+   "en": "Secret Police"
+  },
+  {
+   "k": "1ltkhsy",
+   "en": "Communist"
+  },
+  {
+   "k": "46x3bo",
+   "en": "Liberated Workers"
+  },
+  {
+   "k": "eg9p8s",
+   "en": "Italy"
+  },
+  {
+   "k": "1sicpa4",
+   "en": "Colonial Police"
+  },
+  {
+   "k": "39lfl0",
+   "en": "Fractional industry"
+  },
+  {
+   "k": "130zxdu",
+   "en": "Fractional factories and resources are rounded down for each individual factory and resource type. On game startup, they are also grouped by tag and have a different rounding procedure, but this is corrected a few days into the game, when factories from occupation are first recalculated."
+  }
+ ]
+}

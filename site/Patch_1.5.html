@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>补丁 1.5 - 钢铁雄心 IV 中文离线资料库</title>
+<meta name="description" content="">
+<link rel="stylesheet" href="assets/style.css">
+<script>window.HOI4_REL="";</script>
+<script src="assets/search-index.js" defer></script>
+<script src="assets/app.js" defer></script>
+</head>
+<body data-rel="">
+<header class="topbar"><div class="topbar-inner">
+  <a class="brand" href="index.html">钢铁雄心 IV <small>中文离线资料库</small></a>
+  <nav class="topnav"><a href="index.html#getting-started">入门</a><a href="index.html#state-affairs">国家事务</a><a href="index.html#foreign-affairs">外交事务</a><a href="index.html#warfare">战争</a><a href="index.html#military">军种</a><a href="index.html#technology">科技与学说</a><a href="index.html#meta">游戏与资料</a><a href="all-pages.html">全部页面</a><a href="glossary.html">术语表</a></nav>
+  <div class="searchbox">
+    <input id="q" type="search" placeholder="搜索页面（按 / 聚焦）" autocomplete="off" aria-label="搜索">
+    <div id="search-results"></div>
+  </div>
+</div></header>
+<div class="wrap">
+<aside class="sidebar">
+      <h3>入门</h3>
+      <ul><li><a href="Beginner's_guide.html">新手入门指南</a></li><li><a href="User_interface.html">用户界面</a></li><li><a href="Mechanics.html">游戏机制</a></li><li><a href="Console_commands.html">控制台指令</a></li><li><a href="Hotkeys.html">快捷键</a></li><li><a href="Countries.html">国家</a></li><li><a href="Tutorial_videos.html">教学视频</a></li></ul>
+      <h3>国家事务</h3>
+      <ul><li><a href="Government.html">政府</a></li><li><a href="Ideas.html">理念、法令与顾问</a></li><li><a href="Officer_corps.html">军官团</a></li><li><a href="National_focus.html">国家焦点</a></li><li><a href="Research.html">科研</a></li><li><a href="Construction.html">建造</a></li><li><a href="Production.html">生产</a></li><li><a href="Events.html">事件</a></li><li><a href="List_of_Decision_lists.html">决议</a></li><li><a href="Manpower.html">人力</a></li></ul>
+      <h3>外交事务</h3>
+      <ul><li><a href="Diplomacy.html">外交</a></li><li><a href="Puppet.html">傀儡国</a></li><li><a href="Occupation.html">占领</a></li><li><a href="World_tension.html">世界紧张度</a></li><li><a href="Intelligence_agency.html">情报机构</a></li><li><a href="Trade.html">贸易</a></li><li><a href="Faction.html">阵营</a></li></ul>
+      <h3>战争</h3>
+      <ul><li><a href="Warfare.html">战争总览</a></li><li><a href="Combat_tactics.html">战斗战术</a></li><li><a href="Logistics.html">后勤</a></li><li><a href="Terrain.html">地形</a></li><li><a href="Weather.html">天气</a></li><li><a href="Battle_plan.html">作战计划</a></li><li><a href="Army_planner.html">陆军编制器</a></li><li><a href="Command_group.html">集团军</a></li><li><a href="Division.html">师</a></li><li><a href="Land_battle.html">陆战</a></li><li><a href="Naval_battle.html">海战</a></li><li><a href="Air_warfare.html">空战</a></li><li><a href="Attrition_and_accidents.html">损耗</a></li></ul>
+      <h3>军种</h3>
+      <ul><li><a href="Land_warfare.html">陆军</a></li><li><a href="Naval_warfare.html">海军</a></li><li><a href="Land_units.html">陆军单位</a></li><li><a href="Ship.html">海军单位</a></li><li><a href="Aircraft_designer.html">空军单位</a></li><li><a href="Equipment.html">装备</a></li><li><a href="Ship_designer.html">舰船设计</a></li><li><a href="Tank_designer.html">坦克设计</a></li></ul>
+      <h3>科技与学说</h3>
+      <ul><li><a href="Land_doctrine.html">陆军学说</a></li><li><a href="Naval_doctrine.html">海军学说</a></li><li><a href="Air_doctrine.html">空军学说</a></li><li><a href="Infantry_technology.html">步兵科技</a></li><li><a href="Armor_technology.html">装甲科技</a></li><li><a href="Naval_technology.html">海军科技</a></li><li><a href="Air_technology.html">空军科技</a></li><li><a href="Support_companies_technology.html">支援连科技</a></li></ul>
+      <h3>游戏与资料</h3>
+      <ul><li><a href="Achievements.html">成就</a></li><li><a href="Downloadable_content.html">可下载内容</a></li><li><a href="Patches.html">补丁</a></li><li><a href="Jargon.html">术语表</a></li><li><a href="Modding.html">模组制作</a></li><li><a href="Mods.html">模组</a></li><li><a href="Developer_diaries.html">开发日志</a></li></ul>
+      <h3>更多页面</h3>
+      <ul>
+        <li><a href="all-pages.html">全部页面索引（655）</a></li>
+        <li><a href="search.html">搜索</a></li>
+        <li><a href="glossary.html">中英术语对照表</a></li>
+      </ul>
+      <h3>1.17（122）</h3>
+      <ul><li><a href="Oman.html">阿曼</a></li><li><a href="Ethiopia.html">埃塞俄比亚</a></li><li><a href="Ireland.html">爱尔兰</a></li><li><a href="Estonia.html">爱沙尼亚</a></li><li><a href="Austria.html">奥地利</a></li><li><a href="Sultanate_of_Aussa.html">奥萨苏丹国</a></li><li><a href="Australia.html">澳大利亚</a></li><li><a href="Paraguay.html">巴拉圭</a></li><li><a href="Panama.html">巴拿马</a></li><li><a href="Bulgaria.html">保加利亚</a></li><li><a href="Paradisus_Paradoxum.html">悖论乐园（Paradisus Paradoxum）</a></li><li><a href="Icelandic_events_AAT.html">冰岛事件（AAT）</a></li><li><a href="Poland.html">波兰</a></li><li><a href="Bolivia.html">玻利维亚</a></li><li><a href="Bhutan.html">不丹</a></li><li><a href="Sichuan_Clique.html">川系</a></li><li><a href="Battle_Royale.html">大逃杀（Battle Royale）</a></li><li><a href="German_Reich.html">德意志国</a></li><li><a href="Imperial_influence.html">帝国影响力</a></li><li><a href="Reichskommissariats.html">帝国专员辖区</a></li><li><a href="Northeastern_Army.html">东北军</a></li><li><a href="East_Germany.html">东德</a></li><li><a href="Dominican_Republic.html">多米尼加</a></li><li><a href="Ecuador.html">厄瓜多尔</a></li><li><a href="Horn_of_Africa_nations.html">非洲之角国家</a></li><li><a href="Philippines.html">菲律宾</a></li><li><a href="Second_Philippine_Republic.html">菲律宾第二共和国</a></li><li><a href="Finnish_events_AAT.html">芬兰事件（AAT）</a></li><li><a href="Crush_the_Dream.html">粉碎梦想（Crush the Dream）</a></li><li><a href="Gansu_Ma.html">甘马（马家军）</a></li><li><a href="Colombia.html">哥伦比亚</a></li><li><a href="Costa_Rica.html">哥斯达黎加</a></li><li><a href="Republican_Spain.html">共和西班牙</a></li><li><a href="Cuba.html">古巴</a></li><li><a href="Cobalt_Sea.html">钴蓝海（Cobalt Sea）</a></li><li><a href="Guangxi_Clique.html">桂系</a></li><li><a href="Country_leader_traits.html">国家领导人特质</a></li><li><a href="Nationalist_Spain.html">国民西班牙</a></li><li><a href="Kumul_Khanate.html">哈密汗国</a></li><li><a href="Haiti.html">海地</a></li></ul>
+      <h3>1.16（93）</h3>
+      <ul><li><a href="_2026_and_you_get_a_canton,_everybody_gets_a_canton!.html">……你得到一个州，每个人都得到一个州！</a></li><li><a href="Otto-man.html">奥托曼（Otto-man）</a></li><li><a href="This_achievement_is_dedicated_to_the_brave_soldiers_of....html">本成就献给勇敢的士兵们……</a></li><li><a href="Iceland.html">冰岛</a></li><li><a href="United_Baltic_Duchy.html">波罗的海联合公国</a></li><li><a href="Triggers.html">触发器</a></li><li><a href="A_Great_Hunger.html">大饥荒（A Great Hunger）</a></li><li><a href="Huge-oslavia.html">大南斯拉夫（Huge-oslavia）</a></li><li><a href="Big_Entente.html">大协约（Big Entente）</a></li><li><a href="Denmark.html">丹麦</a></li><li><a href="Missile.html">导弹</a></li><li><a href="Yunnan.html">滇系</a></li><li><a href="Finland.html">芬兰</a></li><li><a href="Oh,_how_the_turntables.html">风水轮流转（Oh, how the turntables）</a></li><li><a href="Congolese_Belgium.html">刚果化的比利时（Congolese Belgium）</a></li><li><a href="Woman_in_a_High_Castle.html">高堡中的女人（Woman in a High Castle）</a></li><li><a href="International_market.html">国际市场</a></li><li><a href="Peace_conference.html">和平会议</a></li><li><a href="Nuclear_bomb.html">核弹</a></li><li><a href="Bad_Ending_-_The_whole_world_is_now_Brazil.html">坏结局——全世界都成了巴西</a></li><li><a href="Artillery_technology.html">火炮科技</a></li><li><a href="Miklos_Horthy_and_the_Habsburg_Prince.html">霍尔蒂与哈布斯堡王子（Miklos Horthy and the Habsburg Prince）</a></li><li><a href="Shanxi.html">晋系</a></li><li><a href="Experience.html">经验</a></li><li><a href="The_Legacy_of_Cyrus_the_Great.html">居鲁士大帝的遗产（The Legacy of Cyrus the Great）</a></li><li><a href="The_Dragon_Rises.html">巨龙崛起（The Dragon Rises）</a></li><li><a href="Awake_and_Angry.html">觉醒与愤怒（Awake and Angry）</a></li><li><a href="Scientist.html">科学家</a></li><li><a href="House_of_Kurds.html">库尔德人之家（House of Kurds）</a></li><li><a href="From_Tehran_with_Love.html">来自德黑兰的爱（From Tehran with Love）</a></li><li><a href="The_Lenin_Boys_are_Back_in_Town.html">列宁小子们回来了（The Lenin Boys are Back in Town）</a></li><li><a href="London_Naval_Treaty.html">伦敦海军条约</a></li><li><a href="The_Romanovs_laugh_last.html">罗曼诺夫笑到最后（The Romanovs laugh last）</a></li><li><a href="No_one_crosses_the_finnish_line.html">没人能越过芬兰线（No one crosses the finnish line）</a></li><li><a href="MEFO_Bills.html">梅福券</a></li><li><a href="Media_Mughal.html">媒体莫卧儿（Media Mughal）</a></li><li><a href="Confederacy_of_American_States.html">美利坚联盟国</a></li><li><a href="United_Netherlands_(achievement).html">尼德兰联合王国（成就）</a></li><li><a href="Norway.html">挪威</a></li><li><a href="Qinghai_Ma.html">青马（马家军）</a></li></ul>
+      <h3>1.10（39）</h3>
+      <ul><li><a href="Balkan_Problem_Solved.html">巴尔干问题已解决（Balkan Problem Solved）</a></li><li><a href="Unaligned_States_of_America.html">不结盟的美利坚合众国</a></li><li><a href="France.html">法国</a></li><li><a href="French_events_LaR.html">法国事件（LaR）</a></li><li><a href="Netherlands_events.html">荷兰事件</a></li><li><a href="Hardly_Anything_Sèvres.html">几乎没剩下什么（Hardly Anything Sèvres）</a></li><li><a href="Romania.html">罗马尼亚</a></li><li><a href="United_States.html">美国</a></li><li><a href="Internal_factions.html">内部派系</a></li><li><a href="Crusader_Kings.html">十字军之王（Crusader Kings）</a></li><li><a href="Tannu_Tuva.html">唐努乌梁海</a></li><li><a href="News_events_1.html">新闻事件 1</a></li><li><a href="News_events_2.html">新闻事件 2</a></li><li><a href="News_events_4.html">新闻事件 4</a></li><li><a href="News_events_BftB.html">新闻事件（BftB）</a></li><li><a href="News_events_WtT.html">新闻事件（WtT）</a></li><li><a href="List_of_modifiers.html">修正项列表</a></li><li><a href="Istanbul_is_Constantinople._Again..html">伊斯坦布尔又是君士坦丁堡了（Istanbul is Constantinople. Again.）</a></li><li><a href="British_Raj_events.html">英属印度事件</a></li><li><a href="Australian_events.html">Australian事件</a></li><li><a href="Autonomy_state_modding.html">Autonomy state模组制作</a></li><li><a href="Chinese_political_power_struggle_events.html">Chinese political power struggle事件</a></li><li><a href="Division_modding.html">Division模组制作</a></li><li><a href="Election_events.html">Election事件</a></li><li><a href="Equipment_modding.html">Equipment模组制作</a></li><li><a href="Ethiopian_events.html">Ethiopian事件</a></li><li><a href="General_events.html">General事件</a></li><li><a href="Generic_events.html">Generic事件</a></li><li><a href="German_events.html">German事件</a></li><li><a href="Greek_events.html">Greek事件</a></li><li><a href="Ideology_modding.html">Ideology模组制作</a></li><li><a href="Italian_events.html">Italian事件</a></li><li><a href="Low_Stability_events.html">Low Stability事件</a></li><li><a href="Manchukou_events.html">Manchukou事件</a></li><li><a href="Polish_events.html">Polish事件</a></li><li><a href="Portuguese_events.html">Portuguese事件</a></li><li><a href="Resources_modding.html">Resources模组制作</a></li><li><a href="Soviet_events.html">Soviet事件</a></li><li><a href="Strategic_region_modding.html">Strategic region模组制作</a></li></ul>
+      <h3>补丁（38）</h3>
+      <ul><li><a href="Patch_1.0.X.html">补丁 1.0.X</a></li><li><a href="Patch_1.1.html">补丁 1.1</a></li><li><a href="Patch_1.10.html">补丁 1.10</a></li><li><a href="Patch_1.10.X.html">补丁 1.10.X</a></li><li><a href="Patch_1.11.html">补丁 1.11</a></li><li><a href="Patch_1.11.X.html">补丁 1.11.X</a></li><li><a href="Patch_1.12.html">补丁 1.12</a></li><li><a href="Patch_1.12.X.html">补丁 1.12.X</a></li><li><a href="Patch_1.13.html">补丁 1.13</a></li><li><a href="Patch_1.13.X.html">补丁 1.13.X</a></li><li><a href="Patch_1.14.html">补丁 1.14</a></li><li><a href="Patch_1.14.X.html">补丁 1.14.X</a></li><li><a href="Patch_1.15.html">补丁 1.15</a></li><li><a href="Patch_1.15.X.html">补丁 1.15.X</a></li><li><a href="Patch_1.16.html">补丁 1.16</a></li><li><a href="Patch_1.16.X.html">补丁 1.16.X</a></li><li><a href="Patch_1.17.html">补丁 1.17</a></li><li><a href="Patch_1.17.X.html">补丁 1.17.X</a></li><li><a href="Patch_1.18.html">补丁 1.18</a></li><li><a href="Patch_1.18.X.html">补丁 1.18.X</a></li><li><a href="Patch_1.19.html">补丁 1.19</a></li><li><a href="Patch_1.19.X.html">补丁 1.19.X</a></li><li><a href="Patch_1.2.html">补丁 1.2</a></li><li><a href="Patch_1.2.X.html">补丁 1.2.X</a></li><li><a href="Patch_1.3.html">补丁 1.3</a></li><li><a href="Patch_1.3.X.html">补丁 1.3.X</a></li><li><a href="Patch_1.4.html">补丁 1.4</a></li><li><a href="Patch_1.4.X.html">补丁 1.4.X</a></li><li><a href="Patch_1.5.html" class="cur">补丁 1.5</a></li><li><a href="Patch_1.5.X.html">补丁 1.5.X</a></li><li><a href="Patch_1.6.html">补丁 1.6</a></li><li><a href="Patch_1.6.X.html">补丁 1.6.X</a></li><li><a href="Patch_1.7.html">补丁 1.7</a></li><li><a href="Patch_1.7.X.html">补丁 1.7.X</a></li><li><a href="Patch_1.8.html">补丁 1.8</a></li><li><a href="Patch_1.8.X.html">补丁 1.8.X</a></li><li><a href="Patch_1.9.html">补丁 1.9</a></li><li><a href="Patch_1.9.X.html">补丁 1.9.X</a></li></ul>
+      <h3>1.14（36）</h3>
+      <ul><li><a href="List_of_1936_start_legacy_deployed_destroyers.html">1936 start legacy deployed destroyers列表</a></li><li><a href="Albania.html">阿尔巴尼亚</a></li><li><a href="Argentina.html">阿根廷</a></li><li><a href="Brazil.html">巴西</a></li><li><a href="Lamento_Boliviano.html">玻利维亚悲歌（Lamento Boliviano）</a></li><li><a href="Dalmatia.html">达尔马提亚</a></li><li><a href="Free_City_of_Danzig.html">但泽自由市</a></li><li><a href="Map.html">地图</a></li><li><a href="Defines.html">定义文件</a></li><li><a href="Aircraft.html">飞机</a></li><li><a href="Vojvodina.html">伏伊伏丁那</a></li><li><a href="Independent_State_of_Croatia.html">克罗地亚独立国</a></li><li><a href="Balance_of_power.html">力量均势</a></li><li><a href="Manchukuo.html">满洲国</a></li><li><a href="Mongolia.html">蒙古</a></li><li><a href="Difficulty.html">难度</a></li><li><a href="Province.html">省份</a></li><li><a href="We_2019_re_Putting_the_Band_Back_Together.html">我们重组乐队（We’re Putting the Band Back Together）</a></li><li><a href="Siam.html">暹罗</a></li><li><a href="Jan_Mayen.html">扬马延</a></li><li><a href="Italian_State_of_East_Africa.html">意属东非</a></li><li><a href="Strategic_region.html">战略区域</a></li><li><a href="Commander_trait.html">指挥官特质</a></li><li><a href="Chile.html">智利</a></li><li><a href="Chilean_Empire.html">智利帝国（Chilean Empire）</a></li><li><a href="Bolivian_decisions.html">Bolivian决议</a></li><li><a href="Brazilian_events.html">Brazilian事件</a></li><li><a href="Chilean_decisions.html">Chilean决议</a></li><li><a href="Chilean_missions.html">Chilean任务</a></li><li><a href="Italian_decisions.html">Italian决议</a></li><li><a href="Peruvian_decisions.html">Peruvian决议</a></li><li><a href="Trial_of_Allegiance_shared_decisions.html">Trial of Allegiance shared决议</a></li><li><a href="Venezuelan_decisions.html">Venezuelan决议</a></li><li><a href="Welsh_decisions.html">Welsh决议</a></li><li><a href="Yugoslavian_decisions.html">Yugoslavian决议</a></li><li><a href="Yugoslavian_missions.html">Yugoslavian任务</a></li></ul>
+      <h3>1.11（32）</h3>
+      <ul><li><a href="Afghanistan.html">阿富汗</a></li><li><a href="Esti_is_Scandi.html">爱沙尼亚属斯堪的纳维亚（Esti is Scandi）</a></li><li><a href="Polish_events_NSB.html">波兰事件（NSB）</a></li><li><a href="Baltic_events_NSB.html">波罗的海国家事件（NSB）</a></li><li><a href="No_more_Partitions.html">不再有瓜分（No more Partitions）</a></li><li><a href="Releasable_countries.html">可释放国家</a></li><li><a href="Yugoslavian_events_DoD.html">南斯拉夫事件（DoD）</a></li><li><a href="Launch_options.html">启动参数</a></li><li><a href="Japanese_events_WtT.html">日本事件（WtT）</a></li><li><a href="It_has_my_name_on_it.html">上面写着我的名字（It has my name on it）</a></li><li><a href="Ace_pilots_events.html">王牌飞行员事件</a></li><li><a href="Siberian_Tiger.html">西伯利亚虎（Siberian Tiger）</a></li><li><a href="New_Zealand_events.html">新西兰事件</a></li><li><a href="Hungarian_events_DoD_2.html">匈牙利事件（DoD 2）</a></li><li><a href="Political_parties_and_leaders.html">政党与领导人</a></li><li><a href="Support_company.html">支援连</a></li><li><a href="AI_modding.html">AI模组制作</a></li><li><a href="Bulgarian_events.html">Bulgarian事件</a></li><li><a href="Chinese_events.html">Chinese事件</a></li><li><a href="Decision_modding.html">Decision模组制作</a></li><li><a href="Estonian_events.html">Estonian事件</a></li><li><a href="Exiled_government_decisions.html">Exiled government决议</a></li><li><a href="Exiled_government_events.html">Exiled government事件</a></li><li><a href="Foreign_influence_decisions.html">Foreign influence决议</a></li><li><a href="French_events.html">French事件</a></li><li><a href="Generic_decisions.html">Generic决议</a></li><li><a href="Idea_modding.html">Idea模组制作</a></li><li><a href="Lithuanian_events.html">Lithuanian事件</a></li><li><a href="Music_modding.html">Music模组制作</a></li><li><a href="Supply_areas_modding.html">Supply areas模组制作</a></li><li><a href="Technology_modding.html">Technology模组制作</a></li><li><a href="Turkish_events.html">Turkish事件</a></li></ul>
+      <h3>1.9（28）</h3>
+      <ul><li><a href="Don_2019_t_Die_for_Your_Country.html">别为你的国家送死（Don’t Die for Your Country）</a></li><li><a href="Formable_nations.html">可成立国家</a></li><li><a href="Recruitable_population.html">可招募人口</a></li><li><a href="Land_doctrine_2f_Sample_divisions_with_doctrine_bonuses.html">陆军学说/带学说加成的示例师</a></li><li><a href="American_events_MtG.html">美国事件（MtG）</a></li><li><a href="Mod_structure.html">模组结构</a></li><li><a href="Division_designer.html">师编制设计</a></li><li><a href="Crusader_Kings_2.html">十字军之王 2（Crusader Kings 2）</a></li><li><a href="Rule_Britannia.html">统治不列颠（Rule Britannia）</a></li><li><a href="Spanish_Civil_War_layout.html">西班牙内战版图</a></li><li><a href="Spanish_events_LaR.html">西班牙事件（LaR）</a></li><li><a href="News_events_3.html">新闻事件 3</a></li><li><a href="News_events_DoD.html">新闻事件（DoD）</a></li><li><a href="News_events_LaR.html">新闻事件（LaR）</a></li><li><a href="News_events_MtG.html">新闻事件（MtG）</a></li><li><a href="One_King,_Two_Crowns.html">一王两冠（One King, Two Crowns）</a></li><li><a href="Ideology.html">意识形态</a></li><li><a href="Chinese_events_WtT.html">中国事件（WtT）</a></li><li><a href="State.html">州</a></li><li><a href="American_events.html">American事件</a></li><li><a href="Border_conflict_events.html">Border conflict事件</a></li><li><a href="Finnish_events.html">Finnish事件</a></li><li><a href="Naval_treaty_events.html">Naval treaty事件</a></li><li><a href="Nuke_events.html">Nuke事件</a></li><li><a href="List_of_operations.html">operations列表</a></li><li><a href="Political_events.html">Political事件</a></li><li><a href="SS_recruitment_events.html">SS recruitment事件</a></li><li><a href="War_justification_events.html">War justification事件</a></li></ul>
+      <h3>1.19（27）</h3>
+      <ul><li><a href="Australia-Hungary.html">澳匈帝国</a></li><li><a href="Continuous_focus.html">持续焦点</a></li><li><a href="Danzig_queen.html">但泽女王（Danzig queen）</a></li><li><a href="National_spirit.html">国家精神</a></li><li><a href="Hail_to_the_King.html">国王万岁（Hail to the King）</a></li><li><a href="Pinot_Noirway.html">黑皮诺挪威（Pinot Noirway）</a></li><li><a href="Old_Zealand.html">旧西兰</a></li><li><a href="List_of_military_chiefs.html">军事首脑列表</a></li><li><a href="Releasable_countries_2f_Oceania.html">可释放国家/大洋洲</a></li><li><a href="Releasable_countries_2f_Asia.html">可释放国家/亚洲</a></li><li><a href="Downloadable_content_2.html">可下载内容 2</a></li><li><a href="Maphilindia.html">马来菲利印度（Maphilindia）</a></li><li><a href="America_Decolonized!.html">美国去殖民化！（America Decolonized!）</a></li><li><a href="Norway_Jose.html">挪威，何塞（Norway Jose）</a></li><li><a href="Special_forces_doctrine.html">特种部队学说</a></li><li><a href="Uralic_brothers_united.html">乌拉尔兄弟团结（Uralic brothers united）</a></li><li><a href="Cod_wars.html">鳕鱼战争（Cod wars）</a></li><li><a href="Indonesian_Princely_States.html">印度尼西亚土邦</a></li><li><a href="This_Achievement_is_Cheesy.html">这成就太俗套了（This Achievement is Cheesy）</a></li><li><a href="This_is_going_to_be_LIT.html">这要火了（This is going to be LIT）</a></li><li><a href="List_of_political_advisors.html">政治顾问列表</a></li><li><a href="List_of_commanders.html">指挥官列表</a></li><li><a href="List_of_commanders_(base_game).html">指挥官列表（原版）</a></li><li><a href="List_of_military_high_command.html">最高统帅部列表</a></li><li><a href="Afghan_events.html">Afghan事件</a></li><li><a href="Faction_modding.html">Faction模组制作</a></li><li><a href="List_of_theorists.html">theorists列表</a></li></ul>
+      <h3>1.12（26）</h3>
+      <ul><li><a href="Bulgarian_events_BftB.html">保加利亚事件（BftB）</a></li><li><a href="Nudger.html">地图编辑器</a></li><li><a href="The_Red_Sea.html">红海（The Red Sea）</a></li><li><a href="By_Beer_Alone.html">仅凭啤酒（By Beer Alone）</a></li><li><a href="List_of_default_ship_variants.html">默认舰船型号列表</a></li><li><a href="You_Shall_Not_Pass.html">你不能通过（You Shall Not Pass）</a></li><li><a href="Holy,_Roman,_and_an_Empire.html">神圣、罗马且是一个帝国（Holy, Roman, and an Empire）</a></li><li><a href="Career_profile.html">生涯档案</a></li><li><a href="The_Lion_King.html">狮子王（The Lion King）</a></li><li><a href="Crusader_Kings_IV.html">十字军之王 IV（Crusader Kings IV）</a></li><li><a href="On_actions.html">事件钩子</a></li><li><a href="Data_structures.html">数据结构</a></li><li><a href="Soviet_Union.html">苏联</a></li><li><a href="Variant.html">型号</a></li><li><a href="Hungarian_events_DoD_1.html">匈牙利事件（DoD 1）</a></li><li><a href="Italian_events_BBA.html">意大利事件（BBA）</a></li><li><a href="Character_modding.html">Character模组制作</a></li><li><a href="Decision_events.html">Decision事件</a></li><li><a href="Event_modding.html">Event模组制作</a></li><li><a href="Font_modding.html">Font模组制作</a></li><li><a href="Japanese_events.html">Japanese事件</a></li><li><a href="Map_modding.html">Map模组制作</a></li><li><a href="Occupation_events.html">Occupation事件</a></li><li><a href="Soviet_decisions.html">Soviet决议</a></li><li><a href="Swiss_events.html">Swiss事件</a></li><li><a href="Turkish_decisions.html">Turkish决议</a></li></ul>
+      <h3>1.13（25）</h3>
+      <ul><li><a href="Al-Andalus.html">安达卢斯</a></li><li><a href="The_Danelaw.html">丹麦法区（The Danelaw）</a></li><li><a href="Lone_Wolf.html">独狼（Lone Wolf）</a></li><li><a href="Cheese_your_fighter..html">给你的战斗机加奶酪（Cheese your fighter.）</a></li><li><a href="Country_creation.html">国家创建</a></li><li><a href="Sapmi_united_by_the_fire.html">火边的萨米团结（Sapmi united by the fire）</a></li><li><a href="Bearer_of_Artillery.html">火炮持有者（Bearer of Artillery）</a></li><li><a href="Caramelldansen.html">焦糖舞（Caramelldansen）</a></li><li><a href="Military_industrial_organization.html">军工组织</a></li><li><a href="The_Magic_School_Bus.html">神奇校车（The Magic School Bus）</a></li><li><a href="New_World_Order.html">世界新秩序</a></li><li><a href="The_return_of_the_king.html">王者归来（The return of the king）</a></li><li><a href="Party_like_it's_1520.html">像 1520 年那样狂欢（Party like it's 1520）</a></li><li><a href="Modifiers.html">修正项</a></li><li><a href="Scopes.html">作用域</a></li><li><a href="Balance_of_power_modding.html">Balance of power模组制作</a></li><li><a href="Bookmark_modding.html">Bookmark模组制作</a></li><li><a href="List_of_Material_Equipment_MIOs.html">Material Equipment MIOs列表</a></li><li><a href="Military_industrial_organization_modding.html">Military industrial organization模组制作</a></li><li><a href="National_focus_modding.html">National focus模组制作</a></li><li><a href="List_of_Plane_MIOs.html">Plane MIOs列表</a></li><li><a href="Political_decisions.html">Political决议</a></li><li><a href="List_of_Ship_MIOs.html">Ship MIOs列表</a></li><li><a href="State_modding.html">State模组制作</a></li><li><a href="List_of_Tank_MIOs.html">Tank MIOs列表</a></li></ul>
+      <h3>1.18（20）</h3>
+      <ul><li><a href="Belgium.html">比利时</a></li><li><a href="Protektorat_Böhmen-Mähren.html">波希米亚和摩拉维亚保护国</a></li><li><a href="30_Minutes_of_Hel.html">地狱三十分钟（30 Minutes of Hel）</a></li><li><a href="The_501st_Legion.html">第 501 军团（The 501st Legion）</a></li><li><a href="List_of_aircraft_designers.html">飞机设计商列表</a></li><li><a href="List_of_industrial_concerns.html">工业集团列表</a></li><li><a href="Galicia_and_Lodomeria.html">加利西亚和洛多梅里亚</a></li><li><a href="List_of_ship_designers.html">舰船设计商列表</a></li><li><a href="Czechoslovakia.html">捷克斯洛伐克</a></li><li><a href="Ain't_like_that_now.html">今非昔比（Ain't like that now）</a></li><li><a href="Carpatho-Ukraine.html">喀尔巴阡乌克兰</a></li><li><a href="Bad_Romeance.html">罗马式浪漫（Bad Romeance）</a></li><li><a href="Slovakia.html">斯洛伐克</a></li><li><a href="Sudetenland.html">苏台德</a></li><li><a href="List_of_tank_designers.html">坦克设计商列表</a></li><li><a href="I_didn't_hear_no_bell.html">我没听到铃声（I didn't hear no bell）</a></li><li><a href="This_time_for_Africa.html">这次为了非洲（This time for Africa）</a></li><li><a href="List_of_materiel_designers.html">装备设计商列表</a></li><li><a href="Böhmen-Mähren_decisions.html">Böhmen-Mähren决议</a></li><li><a href="Congress_decisions.html">Congress决议</a></li></ul>
+      <h3>Disambiguation（20）</h3>
+      <ul><li><a href="Minelaying.html">布雷</a></li><li><a href="Kingdom_of_Burundi.html">布隆迪王国</a></li><li><a href="Infantry_Offensive.html">步兵攻势（Infantry Offensive）</a></li><li><a href="Delay.html">迟滞（Delay）</a></li><li><a href="Elastic_Defense.html">弹性防御（Elastic Defense）</a></li><li><a href="Backhand_Blow.html">反手一击（Backhand Blow）</a></li><li><a href="Congo.html">刚果</a></li><li><a href="Naval_Strike_Torpedo_Tactics.html">海军打击鱼雷战术（Naval Strike Torpedo Tactics）</a></li><li><a href="Mechanized_Offensive.html">机械化攻势（Mechanized Offensive）</a></li><li><a href="Spirit.html">精神（消歧义）</a></li><li><a href="Submarine_Operations.html">潜艇作战（Submarine Operations）</a></li><li><a href="Minesweeping.html">扫雷</a></li><li><a href="Infiltration_Assault.html">渗透突击（Infiltration Assault）</a></li><li><a href="Trait.html">特质（消歧义）</a></li><li><a href="Spain.html">西班牙</a></li><li><a href="Reconnaissance.html">侦察（消歧义）</a></li><li><a href="Battlefleet_Concentration.html">主力舰队集中（Battlefleet Concentration）</a></li><li><a href="Organization.html">组织度（消歧义）</a></li><li><a href="Guinea_(disambiguation).html">Guinea（消歧义）</a></li><li><a href="United_Netherlands_(disambiguation).html">United Netherlands（消歧义）</a></li></ul>
+      <h3>DLC（15）</h3>
+      <ul><li><a href="Battle_for_the_Bosporus.html">博斯普鲁斯之战</a></li><li><a href="No_Compromise,_No_Surrender.html">不妥协，不投降</a></li><li><a href="La_Résistance.html">抵抗运动</a></li><li><a href="Graveyard_of_Empires.html">帝国坟场</a></li><li><a href="Arms_Against_Tyranny.html">反抗暴政</a></li><li><a href="Together_for_Victory.html">共赴胜利</a></li><li><a href="Waking_the_Tiger.html">唤醒猛虎</a></li><li><a href="Thunder_at_Our_Gates.html">雷霆临门</a></li><li><a href="Man_the_Guns.html">全民持枪</a></li><li><a href="Death_or_Dishonor.html">死亡或耻辱</a></li><li><a href="By_Blood_Alone.html">唯有鲜血</a></li><li><a href="Peace_for_Our_Time.html">我们时代的和平</a></li><li><a href="Trial_of_Allegiance.html">效忠审判</a></li><li><a href="No_Step_Back.html">一步不退</a></li><li><a href="Götterdämmerung.html">诸神黄昏</a></li></ul>
+      <h3>1.15（11）</h3>
+      <ul><li><a href="Belgian_Congo.html">比属刚果</a></li><li><a href="German_events_GD.html">德国事件（GD）</a></li><li><a href="Don_Cossack_Host.html">顿河哥萨克</a></li><li><a href="Antischluss.html">反德奥合并（Antischluss）</a></li><li><a href="Air_combat.html">空战</a></li><li><a href="Air_missions.html">空中任务</a></li><li><a href="Kuban_National_Republic.html">库班民族共和国</a></li><li><a href="Go_Ahead,_Macau_My_Day.html">来吧，澳门我的天（Go Ahead, Macau My Day）</a></li><li><a href="Special_project.html">特殊项目</a></li><li><a href="Building_modding.html">Building模组制作</a></li><li><a href="German_decisions.html">German决议</a></li></ul></aside>
+<main class="content">
+
+<h1 class="page-title">补丁 1.5</h1>
+<p class="subtitle">原页面：Patch 1.5</p>
+<div class="cov-banner">本页中文翻译进度 <b>1%</b>，未译部分暂保留英文原文。</div>
+<nav class="toc" aria-label="目录"><div class="toc-title">目录</div><ol><li class="lvl-2"><a href="#s-10uhlz">Waking The Tiger Expansion</a></li><li class="lvl-2"><a href="#s-7rp9i9">Free Features and Important</a></li><li class="lvl-2"><a href="#s-9xx36n">AI</a></li><li class="lvl-2"><a href="#s-ye4dff">UI</a></li><li class="lvl-2"><a href="#s-9m30fv">模组制作</a></li><li class="lvl-2"><a href="#s-1ur2pjs">Database</a></li><li class="lvl-2"><a href="#s-11wczsp">Audio</a></li><li class="lvl-2"><a href="#s-kxxksr">收支</a></li><li class="lvl-2"><a href="#s-mp1saw">Bugfix</a></li><li class="lvl-2"><a href="#s-1h83hpk">稳定性与性能</a></li><li class="lvl-2"><a href="#s-1p1yprf">参考资料</a></li></ol></nav>
+<div class="mw-parser-output">
+
+<p>Patch 1.5, aka "Cornflakes", was released on 2018-03-08<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup> coinciding with the release of 唤醒猛虎 DLC. The checksum is <i>9515</i>.
+</p>
+<h2 id="s-10uhlz" data-section="1"><span class="mw-headline" id="Waking_The_Tiger_Expansion">Waking The Tiger Expansion</span></h2>
+<ul><li>New Focus trees for China, PRC and Warlords</li>
+<li>New alt-history branches for Japanese focus tree</li>
+<li>New alt-history branches for German focus tree</li>
+<li>Lots of new gainable and assignable traits and commander overview screen</li>
+<li>9 new Command Power Abilities let commanders activate bonuses and abilities on their divisions at the cost of a new resource: Command Power</li>
+<li>Added many Decisions to go with the new (free) Decisions mechanic.</li>
+<li>Several new decisions allowing you to form new nations such as the Roman Empire, Gran Colombia and others</li>
+<li>Several new decisions allowing you to do "special projects" that require industry (such as excavating for resources etc)</li>
+<li>Added winter and desert looks to units that they swap to once acclimatized (both for vehicles and infantry)</li>
+<li>Its now possible to capture enemy equipment in battle. Maintenance companies and tech help with this</li>
+<li>Can now send airwings as volunteers</li>
+<li>Its now possible to prioritize what your strategic bombers target (makes those target smore likely to be hit)</li>
+<li>Can now assign transport planes to air supply units</li>
+<li>New diplomatic action: Send Attaché. Places an attaché in receivers nation that gives advantages to both sides</li>
+<li>New Consolidate forces action allows you to merge understrength divisions together and retain experience and equipment</li>
+<li>Can now select custom insignias for your armies (both historical and ahistorical. Some are also nation specific)</li>
+<li>Added a toggleble minimap</li>
+<li>Can now ping in two different ways (defensive and offensive) on the map or minimap to your allies in multiplayer</li>
+<li>Its now possible to destroy stockpiled equipment (has a 3 month timer to avoid exploiting scorched earth)</li>
+<li>New Border Conflict mechanics where you can have battles over states or other advantages through the decision system (available to unlock from the new asian focus trees)</li>
+<li>New 3d models for the different chinese infantry, cavalry, artillery as well as airplane models</li>
+<li>Revamped battle sound system making combat sounds EXTREMELY METAL</li>
+<li>3 new thematic musical tracks</li>
+<li>Added 18 new achievements</li></ul>
+<h2 id="s-7rp9i9" data-section="1"><span class="mw-headline" id="Free_Features_and_Important">Free Features and Important</span></h2>
+<ul><li>New Stability and War Support mechanics replace National Unity to better model the state of your nation and many decisions and changes to go with these</li>
+<li>New focus tree for Japan</li>
+<li>Overhauled and expanded German focus tree: added new focuses for the Industrial, Air, Naval, and Fascist paths, and improved certain existing ones.</li>
+<li>Added Chain of Command - Can now put Field Marshals in charge of Generals leading armies to get bonuses from both</li>
+<li>Generals now have 4 skill values - Attack, Defense, Planning, Logistics instead of a single skill.</li>
+<li>Traits are no longer lost on promotion of commanders</li>
+<li>Commanders can (and usually do) start with new personality traits</li>
+<li>Added Decisions - a middle ground between focus trees and events allowing tons of moddability and mechanics</li>
+<li>Added many Decisions to go with the new Decisions mechanic.</li>
+<li>Added Acclimatization core mechanic letting troops get used to harsh climate</li>
+<li>Can now dedicate some Command Power to improve air efficiency in a zone using Extra Ground Crews ability</li>
+<li>Added "kick from faction" diplomatic action (for SPAAAAARTA!!! /Podcat am I 2011 meme:ing again?)</li>
+<li>New historical template namelists. Increased immersion when meeting AI and a lot of power to letting player control how things get named</li>
+<li>New retreat mechanic. We now separate between withdrawing and forced retreat meaning you don't get overrun and crushed when ordering retreat on units and falling back will require a lot less microing</li>
+<li>New interface for looking at lost and sunk ships</li>
+<li>Massively improved production interface with more filters, collapsing, drag and drop and allowing more than 15 factories to be assigned to a single line</li>
+<li>New War overview with factions, filters, sorting. It also has a summarized war overview which we recommend. Wars are now much more fluid to be able to handle 3-way wars and avoid lots of issues in the past with war merging etc.</li>
+<li>Several new Refinery techs allow you to control how much rubber and oil is outputted</li>
+<li>Infrastructure now effect how much resources can be extracted. Build up an area to unlock more, bomb it to hurt output</li>
+<li>Special forces are now limited to a&nbsp;% of your army, or a minimum count of battalions</li>
+<li>Several new techs allow you to bonus special forces or control quantity vs quality</li>
+<li>Can now attach air wings to armies and they will follow them and do missions</li></ul>
+<h2 id="s-9xx36n" data-section="1"><span class="mw-headline" id="AI">AI</span></h2>
+<ul><li>Made sure checks for if a country is AI controlled respects human_ai so AI does not alter behavior when observed.</li>
+<li>Fixed issue where AI was unable to assign divisions in different areas with no land connection.</li>
+<li>Fixed number of stats issue for AI that could cause bad behavior.</li>
+<li>Fixed a few issues in AI template evaluation.</li>
+<li>Added focus weight list to AI strategy plan. 0.0 blocks from picking.</li>
+<li>Added scriptable trait priority for AI strategy plans.</li>
+<li>AI strategy plans now include scriptable idea scores.</li>
+<li>Slight AI front rebalance to help out allies more when self is not really threatened.</li>
+<li>AI should now micro attack naval invasion targets if they land next to it.</li>
+<li>Made AI activate invasion plans if they have a front as well (meaning they have landed).</li>
+<li>Made AI more proactive in redrawing their plans as they advance.</li>
+<li>AI now actively stops resending units on naval invasions when they are low on org.</li>
+<li>AI should now take leader stat levels into account when picking them</li>
+<li>Unitcontroller will now use strategic redeployment for all movements while country is not threatened, even for player.</li>
+<li>Added a generic ai template for suppression divisions</li>
+<li>Added strategies for most countries to train some suppression divisions (more for countries that tend to conquer a lot)</li>
+<li>AI will now create an area defence order (for the non-devs: “Garrison order”) specifically for suppression of resistance (the old area defence order is still used for defence of ports and VPs)</li>
+<li>Fixed bug where unitcontroller was failing to distribute divisions correctly in a garrison order</li>
+<li>Improved the AI logic for prioritizing construction/repair of buildings</li>
+<li>AI should now be able to cancel and change execution level based on units having low org or str (was previously considering a unit "strong" if it had high org OR str, now it will be considered "strong" if it has high org AND str)</li>
+<li>Made unitcontroller less likely to send divisions to supply areas that would put them over the supply limit (before they would only not send divisions to supply areas that were ALREADY over supply)</li>
+<li>Added an AI strategy to CHI to not mess with SOV (prevents CHI from asking FIN to join their faction when SOV attacks FIN)</li>
+<li>Major change to how area defence order units are moved around, they should now stay in their positions more and when moving be much better at picking nearby units to move</li>
+<li>fix for ahistorical wars between ENG and YUG: ENG will only declare war in ahistorical mode, YUG will attempt to side with Germany in the coup if at war with ENG to avoid being kicked out of faction</li>
+<li>added an AI strategy plan that make minor European countries less keen to ally with China while at war</li>
+<li>AI PRC will not ally Japan in historical mode, even if at war with Nationalists as well</li>
+<li>fix for wrong focus being checked in an AI modifier in Soviet tree</li>
+<li>added strategy plan for fascist European minors to nudge them away from Japan if fascist Japan forms its own faction (you will join the Axis and you will like it!)</li>
+<li>Massively decreased SOV AI's want to use special AT templates to soft block them from wasting XP. Also improved the SOV AT template if they do end up using them in the future.</li>
+<li>Taught the AI to not fight over units for its garrisons. Now sorts garrison orders correctly to priority</li>
+<li>AI should be way better when it comes to garrison orders and guard the coastline</li>
+<li>Fascist AI will now puppet nation in a peace deal if it controls the surrounding land</li>
+<li>Made AI consider bit more things than only their amount of dockyards for if they wanna focus naval</li>
+<li>Tweaked how willing ai is to help out on allied fronts</li>
+<li>Reworked how unit controller calculates which states get what divisions for a garrison</li>
+<li>Some changes to templates and production strategy for Japan.</li>
+<li>Britain will now avoid piling in on the dutch and belgian borders during the attack on france to avoid stuff bogging down and them losing their troops (“AI smarter than historical”-count: 1)</li>
+<li>Ai Germany will now call in Italy to help against France after low countries capitulate rather than wait until all of france does</li>
+<li>Japan will now stay away from sending volunteers to most European majors until late game</li>
+<li>The Ai now checks single province fronts to see if enemy is encircled when evaluating their strength</li>
+<li>blocked some fascist majors from too much volunteering</li>
+<li>Japan will now focus more on naval production once it has enough civilian industry for 2 lines of construction</li>
+<li>Japan starts out with aiming for a cheaper less punchy template for infantry until 1940, unless vs player china in which case SPARE NO EXPENSE</li>
+<li>Germany now focuses a bit more on making suppression divisions after Poland falls</li>
+<li>Added safety check to avoid Germany starting to justify vs Poland because of timing after getting claims</li>
+<li>Portugal should now avoid restrictive trade laws. let the tungsten flow!</li>
+<li>tweaked china build strategy to make it focus on safer areas</li>
+<li>nationalist china more likely to pick good infantry minister earlier</li>
+<li>Chinese AI will now try to go more short term with techs, focusing on free bonuses, shunning AT and late doctrines, they will also prefer people's army doctrine</li>
+<li>Italy and Germany now more keen to send volunteers to Spain</li>
+<li>Chinese ai now will be more likely to research support weapons</li>
+<li>minor AI is now allowed to support its master in war with expeditionaries even if not neighboring as long as they are linked by another in the faction</li>
+<li>changed expeditionary and volunteer ai code to be more reliable and better at picking best units with least disruption</li>
+<li>made USA lend lease strategies more flexible in case of non fascist germany</li>
+<li>Japan now considers China weak from start of game, but may change its mind if things go badly</li>
+<li>AI now more likely to research radios in war and past mid 1939</li>
+<li>AI is now able to remove support battalions that don't match its wanted template</li>
+<li>Tweaked some garrison templates where ai got stuck and never completed them</li>
+<li>Generic nations are now able to progress to a larger 40-width division template once they have a large stockpile, and it’s past 1938</li>
+<li>AI is now allowed to go more in the red on equipment building for transitional upgrades in the field</li>
+<li>AI no longer keeps ruining its training of divisions by canceling and adding new ones and will only remove divisions in the order of least trained now</li>
+<li>AI now correctly applies strategy limits for equipment, so German strategic bombing program is now properly canceled (“AI smarter than historical”-count: 2)</li>
+<li>Fixed an issue where production shortage was not properly calculated if there was a big stockpile for AI</li>
+<li>AI will now keep track of bottlenecks and manage deployment queue so it fills up faster and also increase its needs in line to not starve itself</li>
+<li>The ai will now be careful with upgrades in the field if it means too long time to fulfill the lack of some equipment(at the moment 50 days)</li>
+<li>Ai will now avoid doing template changes that will hurt its manpower buffer on deployed units</li>
+<li>Germany will no longer wastefully produce light tanks once its decided to start phasing them out and will burn through its buffer instead (for real this time!)</li>
+<li>AI will now be able to justify wargoals on nations while still at war if they have a sufficiently high antagonize score (&gt;2000)</li>
+<li>AI will now care a bit about garrison costs rather than not at all if it had lowest reinforcement prio</li>
+<li>fixed issues where AI refused to update deployment with best templates</li>
+<li>AI is now able to remove battalions it doesnt want in the middle of its templates (rather than on edges only)</li>
+<li>Tweaked ai template matching so its more consistent and wont get stuck on minor differences</li>
+<li>ai should now queue up less units at once</li>
+<li>reduced german armor production focus a bit</li>
+<li>increased german fighter production a bit</li>
+<li>AI Germany should no longer use its wargoals against the low countries until Poland is fully capitulated</li>
+<li>AI will now send expeditionary forces to allies in need if they don’t need those troops (would only do under a particularly lucky star before).</li>
+<li>fixed an issue where Ai would eventually give away all its troops as expeditionaries. it now respects a percentage limit (this fix has absolutely nothing to do with the one above)</li>
+<li>Fixed incorrect AI strategies in german focus tree</li>
+<li>AI now can overfill their carriers if they have the doctrines that reduces penalties</li>
+<li>Added unit pools for AIs, which are used to make AI avoid grabbing units that would cause dangerous naval transfers and also make it less likely to assign units from areas that are not accessible to front</li>
+<li>Added Desperate Mode(tm) for AI where it will try to break out from low supply or to a port rather than slowly perish</li>
+<li>Improvements with AI front assignments &amp; unit controller that should reduce shuffling</li>
+<li>Various AI scoring tweaks for fronts to make AI assign units more logically</li>
+<li>Disabled ai taking pp costing actions when there are high prio decisions/ideas</li>
+<li>Fixed some non-severe potential enemies being evaluated as too dangerous by AI</li>
+<li>Fixed an issue that would cause ai to shuffle units constantly on the way towards the front</li>
+<li>Improved a couple cases AI recreates fronts when it is not really have to</li>
+<li>Added in some crazy experimental code</li>
+<li>Commented out some crazy code</li>
+<li>fixed ai under-manning fronts that it shouldn't</li>
+<li>AI now uses more detailed checks for when to activate plans</li>
+<li>Improvements to ai unit assignments, ai now tries to fill provinces one by one</li>
+<li>Fixed a typo that could make ai prioritize armies incorrectly</li>
+<li>Added a new scoring system for distributing units between different armies of a front</li>
+<li>AI is now a bit more reluctant to change size of war fronts</li>
+<li>Fixed some naval pathing issues for ai (picking correct ports to use)</li>
+<li>AI's front assignment should be more stable on savegame load now</li>
+<li>Fixed some problems with joninig wars, made ai less shy towards enemy of allies in peace time</li>
+<li>made add_ai_strategy effect persistent, fixes cases where ai would forget its strategy on save load</li>
+<li>fixed a case where ENG would kick GER from faction while they are actually cool with each other</li>
+<li>AI will now be a bit more careful about its front setup before joining wars in some cases</li>
+<li>AI considers enemies of faction members as threat, bumps the threat of its fronts in such cases</li>
+<li>AI now prios manpower laws if it is going war but has not enough manpower to support its army</li>
+<li>Fixed FRA attacking through maginot, again (bad France bad!)</li>
+<li>ai handles manpower evaluation a little better now</li>
+<li>non major countries now at least builds half amount of units required to build</li>
+<li>made low prio templates be more ok for garrisons</li></ul>
+<h2 id="s-ye4dff" data-section="1"><span class="mw-headline" id="UI">UI</span></h2>
+<ul><li>Disable Join and Host buttons in the multiplayer window, and other checks to prevent joining or hosting a game if a player name is blank. This blocks abusers who spam a lobby and cannot be kicked.</li>
+<li>Production screen tooltips and some UI items no longer flicker on daily update</li>
+<li>Changed province tooltip to show current weather with gameplay impact as well as temperature.</li>
+<li>Effect for SOV focus NKVD divisions now displays effective change in tooltip instead.</li>
+<li>Added scrollbar to faction window if there are too many factions</li>
+<li>new portraits for ITA and FRA communist leaders as well as MON leader</li>
+<li>added new SHX leader portrait</li>
+<li>Commonwealth countries now use British portraits for generic generals and admirals</li>
+<li>new icons for Polish infantry weapons</li>
+<li>new icons for US infantry weapon</li>
+<li>added a number of new leader portraits for Costa Rica, Guatemala, Honduras, Nepal, Uruguay, Nicaragua)</li>
+<li>Added tooltip and ability to pan to the naval combat by the right click on the mapicon</li>
+<li>Added lobby button shown during the peace conference</li>
+<li>Fixed the bug when air bases was not deselected after opening country view</li>
+<li>Removed ability to reshape orders in air mapmode</li>
+<li>Added popup for puppet nation when the master creates a faction.</li>
+<li>Fixed so garrison settings are available even if you don't have any states selected.</li>
+<li>Added new leader portraits for MAN and MEN. Puyi no longer looks like a potato.</li>
+<li>Added Leader portrait for ICE</li>
+<li>Unit details view now shows stats calculated using current manpower rather than max</li>
+<li>buttons using orientation=center should no longer wander over the interface if updated several times</li>
+<li>focus icons now properly centered no matter their size (new internal bug prio level = ocd)</li>
+<li>Tooltip for deployments blocked from training will now say if too low on equipment rather than say its manpower for both equipment lack and manpower lack</li>
+<li>Map icons for air no longer show wrong tooltip shortcut</li>
+<li>Scenario selector window during startup is now bypassed if there is only a single scenario available (useful for mods that typically only have one)</li>
+<li>Capital map icons (stars) has a cut off so you can the pretty screenshots</li>
+<li>Added linebreak after trade modifiers tooltip.</li>
+<li>Swapped order of selection for navies and armies in naval map mode</li></ul>
+<h2 id="s-9m30fv" data-section="1"><span class="mw-headline" id="Modding">模组制作</span></h2>
+<ul><li>Added focus weight list to AI strategy plan that has effect. 0.0 blocks from picking.</li>
+<li>Added scriptable trait priority for AI strategy plans.</li>
+<li>AI strategy plans now include scriptable idea scores.</li>
+<li>Decision descriptions can now have tag and ideology specific variants, just like decision names.</li>
+<li>Trade route colors are now configurable in the 00_graphics.lua file.</li>
+<li>Added effect to change focus tree, that also retains already completed shared focuses</li>
+<li>Unsupported (incompatible) mods now are auto disabled during game startup when:</li>
+<li>It's first time a new game version being launched</li>
+<li>The game crashed in the last session.</li>
+<li>Added error log when some div.template in OOB refers to unavailable unit nameslist.</li>
+<li>Fixed "party_popularity@xxx" script support function, to return a value in range 0.0-1.0 instead of 0-100, so we keep consistency in the scripts, and avoid problems.</li>
+<li>Fixed so the decisions now can create corps commanders through the effects.</li>
+<li>Bookmarked countries can now be scripted to be shown based on a trigger.</li>
+<li>Overriding name of an idea now uses the override key for description.</li>
+<li>Added unit_leader_event effect. Displays a portrait of the affected leader in the event window. Selects current units for leader when picture is clicked. Pan too units when clicked again. Selecting leader picture in event opens details if leader has no units.</li>
+<li>Fixed extra spaces and comma in tooltip for equipment bonuses when using show_ideas_tooltip.</li>
+<li>Added any and all trigger for for unit leaders. all_unit_leader any_unit_leader all_army_leader any_army_leader all_navy_leader any_navy_leader</li>
+<li>Added basic effect for scoping to unit leader. random_unit_leader every_unit_leader random_army_leader every_army_leader random_navy_leader every_navy_leader</li>
+<li>Added localisation support for unit leaders. GetName (returns full name), GetLastName (returns last name), GetNationality (returns TAG.GetAdjective of nationality), GetRank (returns General or Field Marshal), GetHerHim (returns her or him, depending on gender), GetHerselfHimself (returns herself or himself, depending on gender), GetHerHis (returns her or his, depending on gender), GetHerHisCap (returns Her or His, depending on gender), GetHersHis (returns hers or his, depending on gender), GetHersHisCap (returns Hers or His, depending on gender), GetSheHe (returns she or he, depending on gender), GetSheHeCap (returns She or He, depending on gender), GetWomanMan (returns woman or man, depending on gender).</li>
+<li>Added female = yes to create unit leader effects.</li>
+<li>Added triggers to unit leader scope: has_id, is_assigned, num_units, is_field_marshal, has_trait, tag, skill</li>
+<li>Added transfer_navy effect. Transfers the entire navy of scope country to target country.</li>
+<li>Fixed modify_state_flag, which was looking for the wrong scope</li>
+<li>Added flag triggers and effects to unit leader scope. set_unit_leader_flag, modify_unit_leader_flag, clr_unit_leader_flag, has_unit_leader_flag</li>
+<li>Added unit leader effects. promote_leader, Promotes scope general to field marshal. set_nationality, Sets nationality of scope unit leader.</li>
+<li>Added scoping to the country from a unit leader using OWNER.</li>
+<li>Added add_command_power effect.</li>
+<li>Added trigger has_decision. Looks for a selected decision that is active in the interface.</li>
+<li>Added compare triggers command_power command_power_daily</li>
+<li>Decision naming scheme is consistent with cosmetic tag naming. TAG_id_ideology, TAG_id, id_ideology</li>
+<li>Added effect modify_building_resources. Modifies how many resources a building outputs for scope country only.</li>
+<li>Added support for equality when checking a country flag value.</li>
+<li>Added trigger is_fully_controlled_by. Use in a state scope to see if target country fully controls the state.</li>
+<li>Added trigger political_power_daily.</li>
+<li>Fixed "is_coastal = no" being a stupid liar! (returning true for coastal states).</li>
+<li>Added variables to get level of AF, IC and infra from scope state. arms_factory_level industrial_complex_level infrastructure_level.</li>
+<li>Change add_building_construction to round variables instead of floor.</li>
+<li>Added support for variables to remove_building</li>
+<li>Target for diplomatic_relation can now take a scope and event targets.</li>
+<li>Added global_every_army_leader effect. Runs effect on every army leader in the world.</li>
+<li>Added keep_unit_leaders_trigger to civilwar effect. Unit leaders that match the trigger will not be randomly distributed.</li>
+<li>Added has_active_mission trigger. Checks if specified mission is currently active.</li>
+<li>Added remove_mission effect. Removes specified mission. Refreshes decisions interface.</li>
+<li>Added has_attache_from and has_attache triggers.</li>
+<li>Added recall_attache effect.</li>
+<li>Added set_truce effect</li>
+<li>Added effect tooltip to technology tooltip.</li>
+<li>Added is_capital trigger.</li>
+<li>Added Effect activate_targeted_decision: Adds targeted decision against specified target tag. Reactivates fire_only_once decisions.</li>
+<li>Fixed a crash in region trigger</li>
+<li>Added cheat to ignore focus prerequisites: Focus.IgnorePrerequisites. Lets you complete a focus in the middle of a tree. Will NOT make you complete the focus instantly (use fa for that)</li>
+<li>Added trigger amount_manpower_in_deployment_queue.</li>
+<li>Added variable support to AI base chance for events</li>
+<li>Added ruling_party as argument for party_popularity variable.</li>
+<li>Added script variables num_controlled_states num_owned_states num_core_states num_owned_controlled_states.</li>
+<li>Added effect activate_decision. Does the same as if the decision was select from the UI.</li>
+<li>Added static game variable days_mission_timeout@mission_id to find how many days are left on a specific mission.</li>
+<li>Added GetOldName GetOldNameDef GetOldNameDefCap GetOldAdjective GetOldAdjectiveCap to get a country's name prior to last name change.</li>
+<li>Added GetNameDefCap.</li>
+<li>Added generate_wargoal_tension_against targeted modifier.</li>
+<li>Added variable support for effects: send_equipment add_manpower.</li>
+<li>Added variable support for triggers: has_equipment has_manpower has_army_experience has_air_experience has_navy_experience.</li>
+<li>Fixed ic_ratio reversed tooltip and not supporting scopes and event targets in tooltip.</li>
+<li>Added on action for on_peaceconference_ended.</li>
+<li>Added effect to round a variable.</li>
+<li>National focus can now handle multiple position offsets.</li>
+<li>Added leave_faction effect. Works similarly to remove_from_faction, except YOU dump THEM before THEY can break up with YOU!</li>
+<li>Added support to reverse the direction of ai_strategies</li>
+<li>white_peace effect now only peaces out targeted nations, their factions and subjects</li>
+<li>the send_volunteer_factor modifier now is only affecting the calculation looking at your own nation, not the size of the receiver (meaning it acts like you have a bigger army)</li>
+<li>added a new enabled trigger on templates to better control when Ai should consider them good enough to use</li>
+<li>AI Template picking now also includes templates score in matches when going for best template so its possible to have 2 separate infantry templates and AI will pick the best. This can also be seen in the aiview tooltip on division designer screen.</li>
+<li>error handling of incorrect checked focuses in triggers now available if you use -debug start flag</li>
+<li>Added ai strategy for being more generous with spare units</li>
+<li>Added stockpile_ratio trigger allowing you to check the status of stockpiling for certain equipment versus how much is fielded</li>
+<li>add_ai_strategy effect can now handle event targets and scope targets for its id parameter</li>
+<li>added new ai strategy equipment_variant_production_factor that lets you set a production factor on specific equipment archetypes. so -100 means 0% of total logistics need for something to be produced</li>
+<li>added new equipment_production_min_factories strategy that lets you set minimum targets for factory assignment by archetype</li>
+<li>its now possible to see debugging scoring for ai templates and roles when tooltipping them in the template list in deployment with aiview</li>
+<li>added ai strategy (war_declare) for making a nation hold off on war declares even if everything else is fine</li>
+<li>focus.autocomplete now speed up player active focus if one is picked already</li>
+<li>weather modifers can now affect supply consumption</li>
+<li>added -quickstart experimental option that loads game at half the time by skipping stuff like map borders etc you wont need when iterating over UI/decisions etc. Don't play with it.</li>
+<li>Use cheatcode Decision.NoChecks to bypass decision checks. note that this also turns off costs on decisions.</li>
+<li>scriptable localization now has correct reload functionality</li>
+<li>added new ai strategy consider_weak which will make AI consider a target nation as weaker in certain evaluations (currently wargoal justifications)</li>
+<li>added better error handling to has_equipment trigger.</li>
+<li>can now have a description as part of instant tooltip on ideas. use &lt;key&gt;_instant_desc in localization files</li>
+<li>create_unit effect now handles owner = ROOT and other standard targets</li>
+<li>Added dont_defend_ally_borders, force_defend_ally_borders, ignore_claim strategies</li>
+<li>Added variables</li>
+<li>Added attack modifier vs specific countries</li>
+<li>Added on action for creating unit leaders</li>
+<li>New Modifiers cic_to_target_factor, mic_to_target_factor, extra_trade_to_target_factor, trade_cost_for_target_factor</li>
+<li>Added a warning for flag textures with wrong size</li>
+<li>Added "allowideas" command to let you pick ideas always</li>
+<li>added war_preparation strategy for AI letting it prepare against certain nations</li>
+<li>Added support for having national focuses that are shared between national focus trees</li></ul>
+<h2 id="s-1ur2pjs" data-section="1"><span class="mw-headline" id="Database">Database</span></h2>
+<ul><li>Renamed Fascist Turkey from "Neo-Ottoman Empire" to "Turkish Empire", to not overlap with the name of a new formable nation.</li>
+<li>Added new loading screen quotes.</li>
+<li>Added Qingdao state.</li>
+<li>Unaligned and Democratic Germanies now also have a chance of integrating Austria, under certain conditions.</li>
+<li>Switching ideology is now handled through decisions rather than through MTTH events.</li>
+<li>Most old Ideology switching MTTH events have been disabled.</li>
+<li>Divisions spawned in Spanish Civil War are now 'locked' and impossible to edit or delete.</li>
+<li>Switched around aluminum values for French Guiana and Suriname to properly respect the historical levels in aluminum production of these regions. (This fix paid for by the “Justice for Suriname Association”. Chairman and sole member: @Bratyn)</li>
+<li>Generals may now become sick or wounded, suffering penalties to their stats for the duration.</li>
+<li>Edits to Lodz, Poznan, and Danzig states to make historical WW1 German borders possible.</li>
+<li>Took into account recently-revealed CIA data regarding certain high-profile country leaders featured in the game.</li>
+<li>Added a way to celebrate International Women's Day in the game.</li>
+<li>A French-Italian alliance is now possible and stable.</li>
+<li>Fascist France received a new focus to go to war with Germany if the latter is democratic.</li>
+<li>Added AI strategy plans to France and Italy.</li>
+<li>Removed script using national unity</li>
+<li>Changed default event timeout from 30 to 13 days</li>
+<li>Changed Soviet focus that instantly moves industry to use decisions instead.</li>
+<li>New infantry type, bicycle.</li>
+<li>Added generic propaganda decisions to build war support.</li>
+<li>Added missions for Soviet to hold Leningrad, Stalingrad and Moscow</li>
+<li>Added decisions where the player can increase stability in exchange for something else.</li>
+<li>Added decision for United Kingdom to call Portugal to faction.</li>
+<li>Added decision for United Kingdom to lease Azores from POR. Added events for accept/deny and event to transfer control back after the war.</li>
+<li>Added unit leader trait "Hidden Sympathies". Trait use in political decisions before igniting civil war.</li>
+<li>Added decisions for warlord to start borderwars against neighboring Chinese countries after selecting Border Clashes focus.</li>
+<li>Rearranged the Japanese Air Research tree for improved historical accuracy</li>
+<li>party names for Chinese parties</li>
+<li>changed PRC name and flag at game start to better represent history</li>
+<li>some small changes to Latvia based on user research</li>
+<li>added a number of important loading tips</li>
+<li>moved Anti-Colonialist Crusade events to decisions</li>
+<li>Medium tank designer trait now has "medium" at the front (to differentiate it from the generic tank designer with poorer stats)</li>
+<li>Cavalry advisor now boosts cavalry, motorised and mechanised (previously didn't boost mechanised, so upgrading from motorised to mechanised wasn't as good)</li>
+<li>Stravropol now called Stavropol</li>
+<li>USA focus tree now also uses relative positioning. This should now be working for all focus forests.</li>
+<li>Fixed incorrect path to portraits for communist Syrian leader</li>
+<li>Several chinese divisions now start at better equipment levels in '36</li>
+<li>Moved some factories in china towards inland so they are not lost as fast</li>
+<li>Mao is now younger and sexier</li>
+<li>repositioned naval bases in florida to avoid inland ships</li></ul>
+<h2 id="s-11wczsp" data-section="1"><span class="mw-headline" id="Audio">Audio</span></h2>
+<ul><li>Ambient battle sounds, are now better at freeing the played effects. (not leaving the memory leaks)</li>
+<li>Added more flavor to Combat Ambient with VO (graciously provided by the HoI dev team)</li>
+<li>Created and implemented new sound effects for moving aircrafts between stations and ordering to regions.</li>
+<li>Fixed invalid destroyer ship sound effects</li></ul>
+<h2 id="s-kxxksr" data-section="1"><span class="mw-headline" id="Balance">收支</span></h2>
+<ul><li>Changed computations for convoy efficiency to be per region instead of per delivery route. Convoys now compute their efficiency by subtracting the efficiency losses all along their delivery route.</li>
+<li>Yugoslavia "Orthodox Church Support" now gives +25% PP instead of only +0.25.</li>
+<li>Germany now correctly already possesses the technology to build the "Admiral Hipper" cruiser class in 1936.</li>
+<li>Certain German advisers and military leaders now require a fascist government.</li>
+<li>Poland, Romania, and the Baltics now take guarantees and alliances into consideration when on the receiving end of Soviet pressure.</li>
+<li>Germany now starts with, and can extend, MEFO bills for rapid military build-up.</li>
+<li>"Anschluss", "Fate of Czechoslovakia", and "Fate of Yugoslavia" focuses now simulate capture of gold reserves by reducing MEFO bills cost.</li>
+<li>Adjusted 1939 start date to take into account MEFO bills and the new German focus tree.</li>
+<li>Adjusted old trees to take into account the possibility of Germany going anything other than Fascist.</li>
+<li>Non-aligned Vichy France is now possible.</li>
+<li>Adjusted the areas and forces Vichy France starts with to be more historically accurate.</li>
+<li>Refusing Japanese demands as China, in the Marco Polo Bridge Incident event, now gives a wargoal to Japan.</li>
+<li>Accepting Japanese demands as China, in the Marco Polo Bridge Incident event, now gives Japan a claim on Shanghai and a brief truce.</li>
+<li>Spanish Civil War ending events now remove the 'locked' divisions that were spawned at its start.</li>
+<li>Civil Wars now give some positive effects upon their conclusion that makes them overall less detrimental to a nation.</li>
+<li>French Spanish Civil War intervention focuses are now only 35 days long.</li>
+<li>Leftist France is now more likely to take the Spanish Civil War intervention focuses.</li>
+<li>Austria is now slightly less likely to go fascist.</li>
+<li>Added a minimum number of days of a war before anyone can surrender ( they can still capitulate whenever unless they would happen at the same time )</li>
+<li>Removed block preventing declarations of war that would lead to 3-way wars (...and let slip the dogs of waaaar!)</li>
+<li>Reduced air wing deployment time from 5 days to 2 days.</li>
+<li>Also reduced the acclimatization gain speed by about 8x, because after recent changes it was ultra fast.</li>
+<li>Locked Maori volunteers division template.</li>
+<li>Reichskommissariats and Reichsprotektorats now have a -50%/-25% penalty to recruitable population</li>
+<li>Hongkong is now a core of PRC</li>
+<li>added a starting general for each of the Chinese warlords</li>
+<li>added a generic special forces bonus to the special forces focus in the generic tree</li>
+<li>changed British rearmament focuses to no longer give factories in the most god-forsaken corners of the world</li>
+<li>Reworked a number of states in China, splitting up larger states into smaller ones. Overall number of population and number of factory slots has been adjusted accordingly</li>
+<li>Added German general Felix Steiner. Mit dem Angriff Steiners wird das alles in Ordnung kommen!</li>
+<li>removed a number of duplicate Manchurian Divisions from the Japanese OOB</li>
+<li>added a trait to Chiang Kai-Shek to give him +40% stability if in a defensive war (adds up to +10% stability after base stability hit)</li>
+<li>added decisions for Japan to surrender after losing the Asian mainland or getting nuked twice</li>
+<li>made a number of Japanese states non-core to avoid them being selected for factory placement in focuses</li>
+<li>Franco-British Union now gives Britain all French generals</li>
+<li>reduced war support for minor nations to prevent them from building giant armies</li>
+<li>Anschluss and Restoring AH peacefully now transfers all generals of those countries to the respective new owner</li>
+<li>Swapped France's historical order of FRA_alpine_forts and FRA_naval_doctrine focuses to give France a slightly better chance against Italy.</li>
+<li>Backhand Blow tactic is now locked (unlocked by Deep Battle and Modern Blitzkrieg doctrine trees).</li>
+<li>Tactical Withdrawal tactic is now locked (unlocked by the Superior Firepower trees).</li>
+<li>Chinese divisions which started at untrained now start at trained so players aren't inclined to disband them and train them from scratch (losing their unique names and wasting everyone's time)</li>
+<li>Hungary's DOD focus tree is now more responsive to countries being at war * diplomatic demands for territory will be bypassed if they are at war.</li>
+<li>USA will now support nations fighting against extremism</li>
+<li>Rebalanced starting military factories for Japan</li>
+<li>World tension generated from sending land volunteers reduced (Air volunteers do not affect WT).</li>
+<li>Base max planning reduced to 30%</li>
+<li>Grand Battle Plan doctrine tree planning bonuses reduced</li>
+<li>Urban Assault Specialist now costs 500 xp (was 700).</li>
+<li>Commando now also gains XP when fighting in hot climates.</li>
+<li>Leaders that had the Panzer Leader trait now have the Armor Officer trait</li>
+<li>German starting industry has been reduced to account for the MEFO bills that will pay for German industry buildup. It all makes sense in the end.</li>
+<li>Soviet Purged Officers idea now has impact on training and factories as well to slow down Soviet somewhat. their effect on volunteers is also a bit more flat</li>
+<li>Officers Purged spirit in soviet union now impacts how many volunteers can be sent abroad based on army size (decaying in effect by level)</li>
+<li>Continuous air production focus now gives 10% bonus rather than 20%</li>
+<li>Superior firepowers techs under Shock &amp; Awe now only apply to infantry and artillery and with reduced bonuses</li>
+<li>Upgraded soviet NKVD spirit now gives 5% reinforcement rate bonus rather than 30%</li>
+<li>The Deep battle branch in Mass assault now give a total of +10% reinforcement rate</li>
+<li>The Mass Mobilization branch in Mass assault now give a total of +20% reinforcement rate with most of it coming from Human Wave Offensive</li></ul>
+<p>increased air attack for towed '36 anti-air from 17 to 19
+</p>
+<ul><li>Made extreme weather modifiers stronger (except attrition) including increased supply usage from extreme heat</li>
+<li>Made Walter Model more defensive</li>
+<li>Lowered cost of mechanized to 8/10/12 from 12/13/14 to make them more attractive</li>
+<li>Added timed en-route penalty while switching generals</li>
+<li>Rebalanced Soft Attack:</li>
+<li>removed hidden bonuses to line artillery and tanks</li>
+<li>reduced number of guns in support artillery to 12</li>
+<li>support arty now 10% less penalty compared to regular</li>
+<li>artillery soft attack reduced between 15-30% depending on level (from 1.4 base)</li>
+<li>Self propelled arty soft attack reduced 20-30% depending on level (from 1.4 base)</li>
+<li>tank soft attack reduced 13-20% depending on model (from 1.4 base)</li></ul>
+<h2 id="s-mp1saw" data-section="1"><span class="mw-headline" id="Bugfix">Bugfix</span></h2>
+<ul><li>Combat leader portraits are now always properly updated.</li>
+<li>Fixed highlighting of taken army leaders in leader selection window.</li>
+<li>Fixed disappearing attack orders when editing.</li>
+<li>Fixed some modifier localizations.</li>
+<li>Fixed booboo that made units, in certain situations, withdraw from combats they should remain in.</li>
+<li>Portraits for leaders at the bottom now reload correctly.</li>
+<li>Removed the extra bit on top of the leader portraits in the bottom view for the create buttons.</li>
+<li>Fixed problem where it was not possible to create a new army from a selection of divisions already in an army.</li>
+<li>Fixed an issue with disappearing fronts and orders.</li>
+<li>Decreased max width of national focus detail view's prerequisite panel to having the same padding on the right as on the left, preventing text from occasionally overlapping the visual frame a little bit.</li>
+<li>Fixed the tooltip estimation of a naval transfer's chance of getting intercepted along the way. Used probabilistic math to determine overall chance that none of the random checks for interception will pass over the whole path, affected by movement speed since the checks occur hourly, and subtract that from 100% to get chance of interception.</li>
+<li>Fixed naval supply paths to correctly take into account actual versus needed convoy counts when determining convoy efficiency.</li>
+<li>A navy told to retreat to a distant province will no longer have its path truncated to just one province, and if it successfully retreats, it will clear its retreat flag and switch to normal movement as soon as it moves out of the original province where combat was taking place.</li>
+<li>Prevented divisions being transported over water from being given a new destination while their transport ships are in combat; this prevents the exploit of letting them magically escape from combat.</li>
+<li>Fixed alignment of a couple of tutorial glow rectangles.</li>
+<li>Fixed main menu background so that it preserves its aspect ratio even when enlarged to fill a 4K monitor.</li>
+<li>Removed potential for mismatch of casualty count display in war dialog and tooltips.</li>
+<li>Fake News will now no longer report Bulgaria "Accepted Romanian Demands", when Bulgaria in fact rejected them.</li>
+<li>"Pressure Yugoslavia" events will now check whether Yugoslavia is at war.</li>
+<li>Romanian Communist Revolutionary minister is now locked behind the 'Appoint Soviet Friendly Government' focus.</li>
+<li>Czechoslovak focus "Knowledge Sharing Teams" now correctly gives the 5th research slot if you have 4 research slots already.</li>
+<li>Fixed typos and other text errors.</li>
+<li>Fixed even more typos and text errors.</li>
+<li>Fixed more typos than we are willing to admit. (wait you just did! /Podcat)</li>
+<li>Fake News now no longer reports on "Germany being under attack", if Germany is only in a civil war.</li>
+<li>Clarified the tooltips for German naval focuses.</li>
+<li>Nations will no longer be pulled out of a faction when invited to another through a focus.</li>
+<li>The 1936 Olympics will no longer occur during a German civil war.</li>
+<li>Hindenburg no longer travels to the USA if Germany is in a civil war.</li>
+<li>Fixed issue where you could not occupy territory from countries after they had a civil war</li>
+<li>Fixed a bunch of issues with colonial flags in division deployment</li>
+<li>Fixed a case where volunteers would sometimes count twice in calculations</li>
+<li>Fixed bug where supply areas did not take edge control into account when building the path to the capital</li>
+<li>Fixed an issue where event flags would not be properly read in binary saves</li>
+<li>Hid a bug that caused rebasing airplane icons in east asia to appear far below the ground ( note, this only hides the bug by clamping the icon height to the water level, it does not fix the actual problem )</li>
+<li>Only majors in your faction that are at war with the country you are about to surrender to counts towards preventing minors from surrendering when they have major faction members who are still fighting ( previously faction members who were NOT in the war would also count )</li>
+<li>Might possibly have fixed an issue where the capitulation flag in the war overview screen was not shown/hidden correctly</li>
+<li>Ships in navies set to never auto-repair no longer flee if their strength drops below 99%. They now flee at 10% like if auto-repair is set to low</li>
+<li>Fixed issue where casualties would not go the correct country when killing volunteers</li>
+<li>Fixed an issue where war merged and warscore was lost for one side</li>
+<li>Combat tactics that are setup to end a combat phase will now correctly end the phase</li>
+<li>Several bug fixes in battleplans about: shrinking defensive lines, over-expanding defensive lines, and other overall messups.</li>
+<li>Fixed issues with defensive lines leaving gaps, and misbehaving when mixed army and army group's def.lines along the same front.</li>
+<li>3d fleets should be now better at avoiding swimming through the ground.</li>
+<li>3d fleets are now no longer so oversized.</li>
+<li>Made the radar circle effect prettier (more precise), and less annoying when there is lots of them overlapping each other.</li>
+<li>Crazy amount of fixes has been done to the new custom division names system.</li>
+<li>The movement arrow has now different color, when withdrawing.</li>
+<li>Movement arrows are now using normal maps (against static lighting for simplicity).</li>
+<li>Fixed combat withdrawing speed (no longer ultra slow, nearly stand still).</li>
+<li>Fixed naval combat retreating, so it finally works correctly (using the in-combat retreating mechanics, before actually moving the fleet away).</li>
+<li>Fixed drawing movement arrows in OpenGL.</li>
+<li>Fixed the custom texture override functionality so now it properly supports swapping textures for complex assets (that has more than 1 mesh). Feature used by the new feature of soldiers changing their camo.</li>
+<li>Fixed bug in strategic air superiority map colors, and land combats having air superiority penalty on both sides.</li>
+<li>Fixed bug in which the bonuses from tech to the acclimatization didn't worked.</li>
+<li>Fixed eternal problem of units being stuck in the naval transportation. Solves also the problem of units standing forever idle in the source ports.</li>
+<li>Fixed the behaviour of the units being navaly transported that can't reach their destination (bcoz for example impassable areas), will try to return home, before giving up and staying idle on the sea.</li>
+<li>Fixed issue with the theater data not being cleared after sending back the volunteers home.</li>
+<li>Fixed issues with battleplan freakouts for volunteers.</li>
+<li>When game was launched with "hoi4.exe -start_tag=ABC" it's now possible to go back to main menu without being pushed back to the game.</li>
+<li>Fixed badly offset rivers map.</li>
+<li>Fixed acclimatization console message from command "acc", so the confirmation values are between 0-100%.</li>
+<li>Historical division names &gt; Interface bug &gt; In division template editor, tooltiping names no longer gives tooltip from elements underneath.</li>
+<li>Historical division names &gt; Fixed bug with missing names in the depl.lines after loading the save.</li>
+<li>Fixed very old issue with defensive lines being drawn with incorrect thickness offset.</li>
+<li>Several fixes to the battleplan system related to the new level of the orders from the Army Groups.</li>
+<li>Defensive lines no longer changes color to "beige" when holding ALT.</li>
+<li>No longer drawing frontlines when editing def.lines by holding ALT. Looks much cleaner.</li>
+<li>Production lines &gt; Fixed bug that Click on Add new ship construction, added it always at the top instead of the bottom. Also made the scrollbar arrows up/down more responsive.</li>
+<li>Production lines &gt; Fixed bug in lines being stuck (drag'n drop stopped working + many dangerous malfunctions happened) after adding new line at the top by holding SHIFT.</li>
+<li>Production lines &gt; Fixed bug in not being able to assign any naval factories, caused by adding drag'n drop feature.</li>
+<li>Plenty of general fixes in drag'n drop of elements in production view.</li>
+<li>Fixed bug with disappearing Army group's battleplans.</li>
+<li>The game checksum now should be ALWAYS the same in the launcher as in the game. The cheating prohibition is no longer done by breaking the checksum version, but via the interface instead * the multiplayer button is locked, and the tooltip explains why.</li>
+<li>Setting the 1st option from the screen refresh rates list, actually does set that refresh rate.</li>
+<li>Right click with Alt+Ctrl and click to "Open" to open a interface element in the external editor, didn't worked on OSX until now.</li>
+<li>Fixed an issue where some diplomatic actions that does not require a response would have REPLYTEXT as localisation or an empty background.</li>
+<li>Fixed a crash when using set_autonomy_state on a country and its overlord in the same effect.</li>
+<li>Australian NF 'Support the Centre Party' and 'Empower the Workers' now requires colony/protectorate or higher instead of exact level.</li>
+<li>Carriers now recalculate their airbase capacity when changing owner.</li>
+<li>Fixed tooltip for supply consumption modifier showing as bad when negative.</li>
+<li>Fixed "Wrong root scope in has_government trigger." going in the error log when a country had a civil war.</li>
+<li>Fixed name for tech bonus from CHI_elite_mountaineers, CZE_inf_and_artillery_advancement, HUN_danuvia_submachine_guns, HUN_destroyers, HUN_carriers, ITA_armored_effort, ITA_naval_air_effort, NZL_form_the_rnzaf, ROM_air_defense, ROM_modern_destroyers, SAF_invite_soviet_advisers, USA_CAS, YUG_the_ik_3, YUG_heavy_fighter_proje, YUG_bomber_project, YUG_motorize_the_cavalr, YUG_motorized_logistics, YUG_armored_cavalry</li>
+<li>Changed name for tech bonus from equipment_effort, HUN_motorized_logistics, GER_coal_liquidization, RAJ_battaglione_azad_hindoustan</li>
+<li>Added name for tech bonus from USA_air_war_plans_division, USA naval focuses</li>
+<li>Fixed a bunch of double options appearing for news events in specific cases.</li>
+<li>Fixed some missing or wrong loc for event options.</li>
+<li>Enabled an event where italy can help yugoslavia during the London conference</li>
+<li>Added comma separation of focus names to focus with more than one mutual exclusive.</li>
+<li>Setting a country's autonomy to free no longer tooltips as the overlord going free.</li>
+<li>Using transfer_state effect against a country on its final state is now considered the same as annexing them.</li>
+<li>Vichy/Franco British Union no longer happens if France has pushed a fair bit into Germany or Italy.</li>
+<li>Fixed a bug in original_tag trigger, causing Spain to not gain recovering from civil war spirit.</li>
+<li>Fixed Soviet soldier using wrong rifle animation.</li>
+<li>Fixed an issue where civil wars would grab all controlled states instead of home area. Added cores state distribution for leftover states not connected to capital. Changed calculation for best capital to put lower priority on capital neighboring old one.</li>
+<li>fix for Vichy event not firing if Italy isn't in the war with France</li>
+<li>fix for incorrect Ranger trait description</li>
+<li>rephrased tooltip LOW_MANPOWER_STAT_EFFECT</li>
+<li>fixed an issue where Nationalist Spain did not have portraits for some military advisors</li>
+<li>locked Tizard mission if Britain is at war with US</li>
+<li>fixed an unattainable focus in RAJ focus tree</li>
+<li>fix for non-Mao leader losing Mao's trait</li>
+<li>fixed a Programmer english tooltip for coups</li>
+<li>fixed an issue with a non-western Character in Japanese Division names</li>
+<li>fix for Manchukuo not being called that in diplomatic options</li>
+<li>fixed an inaccurate description in Division Designer tooltip.</li>
+<li>fix for duplicate event option in Canadian event</li>
+<li>fix for missing uppercase in CZE/POL air wing names. Game once again playable</li>
+<li>fix for missing flag in MAN save games</li>
+<li>fix for stupid (may be temporary)</li>
+<li>fix for nuke events sometime not firing correctly</li>
+<li>fixed an issue where Germany could exert pressure on Yugoslavia even after Yugoslavia ceased to exist</li>
+<li>fix for strategic bomber air wings not getting flavor names</li>
+<li>fixed Yugoslavian independence war event to prevent it from firing if it would have no effect</li>
+<li>Fixed wing redeployment and air mission arrows wrapping around the globe.</li>
+<li>Fix for units manpower incorrectly affecting unit stats</li>
+<li>Now convoys transporting units</li>
+<li>Now country skips the turn in peace conference, if there are none humans controlling it</li>
+<li>Added caps for the equipment counts to avoid overflows</li>
+<li>Fixed the bug when save games were growing hugely due to combat logs not being properly cleared</li>
+<li>Now timed ideas continue being timed ideas even after civil war split</li>
+<li>Fixed the bug when it was possible to research 2 same techonologies at the same time</li>
+<li>Fix for occupation rules and master being always prioritized over puppet except owned province case</li>
+<li>Now only equipment produced in your own country will bring you autonomy points</li>
+<li>Improved randomization of the mission targets</li>
+<li>Fixing the bug when you could assign divisions for naval invasion above the limit</li>
+<li>Multiple nations air combats now are equivalent as they were usual 1 vs 1 combats</li>
+<li>Fixed a bug where saving and loading a game would cause event timeout to be reset</li>
+<li>Fixing an issue when unit stats were not properly updated after switching doctrine technology</li>
+<li>Puppet and leader can exchange territories no matter if they are in the same faction or not</li>
+<li>Fix convoy sometime being added twice to naval combats.</li>
+<li>For the umteenth time. Fixed formatting errors in the credits.</li>
+<li>Fixed small fleet intercepting too many convoys</li>
+<li>Fixed combat logs not showing caused equipment loss when it was lost to an encirclement</li>
+<li>Fixed some flags with incorrect size.</li>
+<li>Expeditionary forces in an army no longer block selected divisions from changing templates</li>
+<li>Partition of Poland event now requires that Germany not be a subject for USSR to hand over any territory</li>
+<li>EFFECT_ADD_CORE_OF now localised as "core of" instead of "core by"</li>
+<li>Refining concern is now upper case (it was Friday afternoon okay)</li>
+<li>Fix for mis-reporting of the number of available factory to build in the production view.</li>
+<li>Fixed multiplayer lobby filter by version (praise Xenu!)</li>
+<li>Fixed damaged shipyard always repairing ships at maximum speed</li>
+<li>Fixed localization issue in the diplomatic action panel.</li>
+<li>Fixed a localization error in New Zealand focuses.</li>
+<li>puppets can no longer grab back expeditionaries from their master</li>
+<li>You can no longer get benefit from having more equipment than manpower&nbsp;% for unit stat calculations</li>
+<li>If a player is kicked or disconnected in a peace conference their slot is now bypassed and the conference doesnt stall forever</li>
+<li>air xp gain from LL now also require an active LL relation, just like for land equipment</li>
+<li>Fixed terrain adjuster bonuses not working correctly</li>
+<li>Fixed faction map not being updated after diplomatic actions</li>
+<li>Fixed faction colors not being updated when a faction changes by an event</li>
+<li>Releasing states to a country/liberating a country is no longer possible if you are in control of all states you want to release.</li></ul>
+<h2 id="s-1h83hpk" data-section="1"><span class="mw-headline" id="Stability_&amp;_Performance">稳定性与性能</span></h2>
+<ul><li>Fixed CTD where unit can look like it is moving without having a path (yes, this was a strange one)</li>
+<li>Med various code safer to avoid theoretically possible but improbable crashes.</li>
+<li>Fixed a resource leak of the ambient battle sound which also led to heavy audio falloff computations after a long time of watching battles closely. Sound effect instances were being stopped but never destroyed.</li>
+<li>Added an error and prevented a crash if a supply area is missing</li>
+<li>Fixed crash when loading a savegame while in a peace conference</li>
+<li>Fixed crash when adding manpower to casualties when the killer was not at war with the owner of the manpower ( for instance volunteers ), casualties will now be added to the logicalcountry of the army in such situations</li>
+<li>Fixed memory leak due to old messages piling up over time that were never used</li>
+<li>Optimized the amount of calculations related to front systems (base mechanics required by the battleplans) used by the volunteers battleplans.</li>
+<li>Optimized a function that was doing a "country tag lookup" (an internal thing) which was a bottleneck at some moments of gameplay.</li>
+<li>Fixed CTD and by the way the inconsistency between the ordinary AI, and the volunteers AI.</li>
+<li>Lots of memory leaks fixes in general (Leaked memory means that the game consumes more and more RAM over the time).</li>
+<li>Fixed several CTDs in a new division names system.</li>
+<li>Fixed CTDs that occured after loading the older save games.</li>
+<li>Fixed CTD that sometimes happened when going back to main menu.</li>
+<li>Lots of memory fragmentation preventions and fixes. (A memory fragmentations may cause the game to crash after a very long sessions).</li>
+<li>A game consumes a little bit less of RAM now.</li>
+<li>Fixed CTDs related to the naval transportation code base.</li>
+<li>Fixed corrupted memory allocation attempt caused by the AI code.</li>
+<li>Fixed CTD in border combat code referring to a deleted unit.</li>
+<li>Fixed CTD when trying to naval transport a divisions but there is no naval route (regions being blocked).</li>
+<li>Fixed CTD in AI strategy referring to the leaders being deleted by spawning a civil war.</li>
+<li>Fixed invalid access to a deleted memory in the decision status (making very low probability for a CTD).</li>
+<li>Fixed CTD in going back to main menu. Airbase access code was referring to the carriers after deleting them.</li>
+<li>Huge optimizations in how we calculate the relative air superiority. This unlocks plenty of bottlenecks in: units, navies, air calculations (and much more)...</li>
+<li>Another large performance optimization in the naval unit transportation system.</li>
+<li>Optimized the amount of the network commands spammed by the AI.</li>
+<li>Small optimization in pathfinding for the naval transportation. Units ready to set off from the same location will get only 1 naval pathfind done and share the data.</li>
+<li>Optimized performance by about 20% in places by reworking the careless usage of "can battleplans be executed" function.</li>
+<li>Got rid of the several seconds stall on daily updates. Related to the sending/receiving volunteer forces.</li>
+<li>Fixed plenty of very long game freezes.</li>
+<li>Fixed CTD caused by switching the focus trees.</li>
+<li>Fixed CTD caused by incorrect re-assignment of the armies between the theatres.</li>
+<li>Fixed CTD if you launch the game "hoi4.exe -start_tag=ABC" where ABC is an invalid country tag.</li>
+<li>Fixed CTD due to lack of clearing border conflicts in states. Happened when return to main menu, and try starting new game.</li>
+<li>Fixed CTD in loading save games &gt; Related to active leader abilities.</li>
+<li>Fixed crash that happens after loading older saves, or by removing some insignias in patches/mods.</li>
+<li>Fixed rare CTD after deleting defensive line.</li>
+<li>Fixed several Out of Sync bugs in MP.</li>
+<li>Fixed OOS from pinned strat.regions mismatch after hotjoin.</li>
+<li>Fixed invalid memory access, after returning to main menu. The nature of the problem didn't cause a CTD, but it was a very bad thing to have in code.</li>
+<li>More CTD protections when drawing battleplans.</li>
+<li>Fix for the OOS happening after certain joins</li>
+<li>Fixing CTD in subject relation view</li>
+<li>Fix for probable rehost CTD</li>
+<li>Fixed the major cause for the CTDs in the peace conference window</li>
+<li>Fixing CTD in balancing of military deployments during civil war spawning</li>
+<li>Fix crash upon clicking the load button with no savegame selected.</li>
+<li>Optimized AI update by sorting by time taken to update it last tick. Guarantees the biggest nations (SOV &amp; GER) to be on separate threads</li>
+<li>Fixed a division by zero crash</li>
+<li>Fixed crash that happens on rare occasions when sending telemetry data</li>
+<li>added crash safety checks for invalid data on writing sunk ships to savegame</li>
+<li>Fixed CTD when naval transfering units during a peace conference annexing you (and killing said units at the same time as orders were given, as a side note also invented a time machine and solved world hunger.)</li>
+<li>Fixed memory overrun issue in ai front handling</li>
+<li>Portraits and other sprite updates are now cached to reduce ui strain</li>
+<li>Fixed an issue where deleted units could be put back into combats.</li>
+<li>fixed an issue where licensing information was not read in an MP safe format and could cause OOS</li>
+<li>Fixed a potential OOS when reading saved event scopes</li>
+<li>fixed CTD when tooltipping to cancel war justification right when it hits 100%</li>
+<li>added various savegame ctd safeties</li>
+<li>Various small ai performance improvements</li>
+<li>Fixed a history related OOS</li>
+<li>Fixed a CTD when selecting airplanes while getting annexed (but I promise it still respected your your fighting spirit)</li>
+<li>Improved reliability of hotjoin save transfer, in situations where the client is slow.</li>
+<li>Fixed hotjoin related OOS with resources and relations</li>
+<li>Fix for a freeze when you ended up in a civil war at war with your own puppets (o_O). Fix stops all inter-faction wars so modders need to be careful to kick ppl before war etc.</li></ul>
+<h2 id="s-1p1yprf" data-section="1"><span class="mw-headline" id="References">参考资料</span></h2>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">Forum: Patch 1.5 Cornflakes Live - Checksum 9515 (Not for problem reports), 2018-03-08</span>
+</li>
+</ol></div>
+
+
+
+
+</div>
+</main>
+</div>
+<footer class="site-footer">
+<p>本资料库内容译自 <a href="https://hoi4.paradoxwikis.com/" rel="noreferrer">Hearts of Iron IV Wiki</a>（Paradox Interactive 社区维基），原文以 CC BY-SA 3.0 授权发布，译文沿用同一授权。仅供个人离线学习，与 Paradox Interactive 无隶属关系。</p>
+<p>原页面「Patch 1.5」｜ 抓取时间 2026-09-10 ｜ 原站版本号 69495 ｜ 中文翻译进度 1%</p>
+</footer>
+</body>
+</html>

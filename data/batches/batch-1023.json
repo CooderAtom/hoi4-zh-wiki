@@ -1,0 +1,854 @@
+{
+ "batch": 1023,
+ "pages": [
+  "Patch 1.5.X"
+ ],
+ "chars": 14971,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "90k2dl",
+   "en": "The colored background on army groups along the bottom of the screen now intercept mouse clicks, not letting them click through to the map and select stuff."
+  },
+  {
+   "k": "1airzwr",
+   "en": "Popup windows for declaration of war, peace, and a few others will now auto-close after timeout when running a hands-off or any other case with human AI turned on."
+  },
+  {
+   "k": "1yg6qm0",
+   "en": "Added a confirmation pop up while assigning every unit in army to a different army's front orders"
+  },
+  {
+   "k": "3915s6",
+   "en": "Added drag & drop to reorder theater groups & pinned regions"
+  },
+  {
+   "k": "1cndxo6",
+   "en": "Added drag & drop to reorder armies & army groups"
+  },
+  {
+   "k": "at4z0a",
+   "en": "Soviet scorched earth tactics decision now has a tooltip showing the effect"
+  },
+  {
+   "k": "15p3nde",
+   "en": "moved check for low popular support in PRC tree to a scripted trigger to make bypass tooltips more appealing"
+  },
+  {
+   "k": "ny8dj1",
+   "en": "Scorched Earth decisions are now hidden if they would have no effect"
+  },
+  {
+   "k": "t3mux9",
+   "en": "When choosing divisions to use as volunteers, the interface should now keep selection when game is running. Would previously deselect all, as the interface was refreshed."
+  },
+  {
+   "k": "z3vhx9",
+   "en": "Tooltip for creating ocuntry leaders with traits look similar to how traits are displayed in the country view."
+  },
+  {
+   "k": "62edo6",
+   "en": "Added timer icon showing that low efficiency can be due to air wings recently arriving in a region."
+  },
+  {
+   "k": "8ge968",
+   "en": "Added an explanatory tooltip to Manchukuo seize arms decisions."
+  },
+  {
+   "k": "d2srph",
+   "en": "\"Field marshal traits now go red if assigned to command an army. Added tooltip that explains it when the trait is hovered."
+  },
+  {
+   "k": "o3qu7z",
+   "en": "Added an advisor tooltip to \"The Unthinkable\" option."
+  },
+  {
+   "k": "1eg255d",
+   "en": "Fixed some trait squeezing problems in combat log screen when there are too many traits."
+  },
+  {
+   "k": "1vkicgf",
+   "en": "Added order highlighting when mouse hovers over army shields in theater or plan execute/stop buttons"
+  },
+  {
+   "k": "tdx2g6",
+   "en": "Removed duplicate static_modifiers script. the ones in modifiers folder is what we use now"
+  },
+  {
+   "k": "unbram",
+   "en": "transfer_navy and transfer_ship effects can now use scope targets for their target (e.g target = FROM)"
+  },
+  {
+   "k": "1qnfs92",
+   "en": "Mods marked as dependencies are now loaded in the correct order"
+  },
+  {
+   "k": "u2vpua",
+   "en": "Added on daily action (use cautiously!)"
+  },
+  {
+   "k": "2jie4p",
+   "en": "Added validation of equipment bonus when ideas are loaded."
+  },
+  {
+   "k": "6boi36",
+   "en": "Added cancel_if_not_visible parameter to decisions. Cancels a decision if it's visible trigger is false."
+  },
+  {
+   "k": "okvzpa",
+   "en": "Generating the exact same type of wargoal against the same country now ignores the effect."
+  },
+  {
+   "k": "1xbl5tv",
+   "en": "Enabled equipment bonus validation for modders"
+  },
+  {
+   "k": "cfhv9q",
+   "en": "Added define to tweak color of invalid trait \"TRAIT_INVALID_FOR_ASSIGNMENT_COLOR\"."
+  },
+  {
+   "k": "e9vzuf",
+   "en": "Added modifiers static_anti_air_damage_factor and static_anti_air_hit_chance_factor."
+  },
+  {
+   "k": "1uq1flo",
+   "en": "Now it is possible to create your own interfaces with mods. Windows, buttons, textfields, and it's actions can now be scripted."
+  },
+  {
+   "k": "1cpaafv",
+   "en": "Value triggers are now accessible as dynamic variables."
+  },
+  {
+   "k": "17pu54i",
+   "en": "Updated game credits."
+  },
+  {
+   "k": "659hr6",
+   "en": "\"Danzig or War\" now gives core in Danzig."
+  },
+  {
+   "k": "jd6pwp",
+   "en": "\"Reassert Eastern Claims\" now gives core on Memel."
+  },
+  {
+   "k": "1n0eejk",
+   "en": "Sun Tzu Reborn achievement is now possible to achieve (requires level 9 Field Marshal)."
+  },
+  {
+   "k": "1w72x7w",
+   "en": "Communist Byzantium now has the correct flag."
+  },
+  {
+   "k": "f6yvoa",
+   "en": "\"Expand the Imperial Guards\"-spawned troops for MAN are no longer locked"
+  },
+  {
+   "k": "10etg1n",
+   "en": "Industrial Land Appropriation no longer repeatable for the same state."
+  },
+  {
+   "k": "dt2ta7",
+   "en": "Fixed date requirements for AI values for Ichi Go and Test the Soviets decisions (AI was not prevented from taking these before certain dates)."
+  },
+  {
+   "k": "19n0g2u",
+   "en": "Reworked Anschluss bypass conditions."
+  },
+  {
+   "k": "5cqzgx",
+   "en": "Fixed correct state for \"Ostwall\" forts."
+  },
+  {
+   "k": "1fegpdu",
+   "en": "Fixed art for Japanese Last Stand command power ability."
+  },
+  {
+   "k": "1okazvx",
+   "en": "\"Support the Anti-Fascist War\" and \"Guns for the Anti-Fascist War\" decisions are now targeted decisions."
+  },
+  {
+   "k": "dyy0fq",
+   "en": "Adjusted Polish and German provinces and states to make historical German WW1 borders possible, as well as adding Oder-Neisse line."
+  },
+  {
+   "k": "19khy5p",
+   "en": "Adjusted Vojvodina and Serbia states to make Austro-Hungarian borders more historical."
+  },
+  {
+   "k": "729zgf",
+   "en": "Renamed \"Alsace\" to \"Alsace-Lorraine\", and \"Lorraine\" to \"Franche-Comte\""
+  },
+  {
+   "k": "1hinhor",
+   "en": "Added 1x BB tech bonus to French focus \"Capital Ship Focus\" to bring it in line with \"Carrier Focus\"."
+  },
+  {
+   "k": "153oldp",
+   "en": "ai strategy databases are reloadable now"
+  },
+  {
+   "k": "1239t8h",
+   "en": "enabled Japanese equipment names for Manchukuo"
+  },
+  {
+   "k": "1gu67iy",
+   "en": "fixed a few naming issues in German name list"
+  },
+  {
+   "k": "sehvgo",
+   "en": "A nationalist China losing a power struggle will now get a cosmetic tag to distinguish it from new nationalist China. If a warlord who has previously taken over nationalists loses a power struggle, they will lose their cosmetic tag. This should fix the 3 China issue."
+  },
+  {
+   "k": "6cxa05",
+   "en": "changed flavor name of a Manchukuo rifle after two hour discussion of Manchurian small arms development"
+  },
+  {
+   "k": "1nzvr0u",
+   "en": "added Paul von Lettow-Vorbeck as a general to Imperial Germany"
+  },
+  {
+   "k": "s4lmxy",
+   "en": "Updated 'The People Have Stood Up' achievement to better fit description in steam."
+  },
+  {
+   "k": "8q6yw1",
+   "en": "Updated 'My Ships Don't Lie' achievement to fit description in steam."
+  },
+  {
+   "k": "qpnzf",
+   "en": "Fixed a duplicate name of a German destroyer"
+  },
+  {
+   "k": "1mydk6g",
+   "en": "Fixed a few naming inconsitencies in French Division Namelists and Added new Namelist for late-war French Armored Divisions"
+  },
+  {
+   "k": "s7u63y",
+   "en": "Elsass-Lothringen and victory points now renamed back to their French counterparts of France wins the war and retakes it."
+  },
+  {
+   "k": "1bjdog9",
+   "en": "Several text translations has been added and improved."
+  },
+  {
+   "k": "q4q6o9",
+   "en": "Fixed some inconsistencies in name lists for French-speaking countries."
+  },
+  {
+   "k": "1vecph6",
+   "en": "Renamed Communist Roman Empire to Communitas Proletariique Romani."
+  },
+  {
+   "k": "1hti66g",
+   "en": "Removed Zhang Lan as Nationalist Chinese Democratic leader due to previous communist committments (replaced with Weng Wenhao)"
+  },
+  {
+   "k": "1n27fjz",
+   "en": "Soviet volunteer group and flying tiger focuses now bypass if someone else has already completed that focus to avoid doubles."
+  },
+  {
+   "k": "1irbo6d",
+   "en": "Whampoa College National Focus now also adds 1 planning point to existing leaders as well as new ones"
+  },
+  {
+   "k": "d71x2l",
+   "en": "Starting land doctrine techs now have normal tech base costs (so now at 50% of before)"
+  },
+  {
+   "k": "rp1k40",
+   "en": "Slightly rebalanced chance of French intervention resulting from Return of the Kaiser."
+  },
+  {
+   "k": "1i1efua",
+   "en": "Production bonus can go negative now and slow down your equipment production"
+  },
+  {
+   "k": "1ixo7jh",
+   "en": "Generals gains less XP as combats drag on (down to 10% in a month)"
+  },
+  {
+   "k": "14jcxq9",
+   "en": "Generals gains more XP if they are dealing more damage compared to enemies (up to 4x while you are doing 4x damage compared to enemy)"
+  },
+  {
+   "k": "cqfv7e",
+   "en": "added an option to Chinese provocation event that allows Japan to withdraw from the continent"
+  },
+  {
+   "k": "13i196u",
+   "en": "Winter War peace treaty no longer hands over Petsamo (SOV will have to get that the hard way)"
+  },
+  {
+   "k": "12vv992",
+   "en": "Neutral ideology is now allowed for puppets."
+  },
+  {
+   "k": "1thq5p7",
+   "en": "Halved the extra wounding chance on the reckless trait"
+  },
+  {
+   "k": "cyza6o",
+   "en": "Cautious trait now reduces chance to get wounded (making it the polar opposite of reckless)."
+  },
+  {
+   "k": "tekgel",
+   "en": "Changed mobilization impact from positive war support to 30 % (up from 3%)"
+  },
+  {
+   "k": "1h6lrj2",
+   "en": "japanese ideology advisors are now only locked behind focuses for Waking the Tiger DLC owners"
+  },
+  {
+   "k": "1el7093",
+   "en": "Reworked the Assertiveness Branch of the Manchukuo Tree:"
+  },
+  {
+   "k": "1lsfxd5",
+   "en": "added a decision unlocked from taking control of the railroads that gives 4 CIV factories over the course of a year"
+  },
+  {
+   "k": "1rw4vku",
+   "en": "removed factories from legislative council, purge general affairs and control the railroads"
+  },
+  {
+   "k": "u2bop8",
+   "en": "purge the general affairs council now removes Kwantung veto"
+  },
+  {
+   "k": "u39ofl",
+   "en": "bolster nationalism now allows recruiting bandits. if bandits are still active in the country, taking these decisions removes the spirit"
+  },
+  {
+   "k": "1wgz8p5",
+   "en": "added a decision to local arms procurement that adds an idea giving dramatically reduced cost for small arms at the cost of reduced reliability"
+  },
+  {
+   "k": "1kj3e7g",
+   "en": "removed autonomy gain from Assertiveness focus (made no sense)"
+  },
+  {
+   "k": "fgxs6s",
+   "en": "added a decision to five people armies allowing the raising (and disbanding) of Manchu Banners, represented by 5 large infantry divisions"
+  },
+  {
+   "k": "1qof9n4",
+   "en": "added a decision to the purge general affairs council allowing player to pay command power to seize Japanese army depots in the case of war, giving increasingly large injections of equipment into stockpile and corresponding attack and defense penalties to Japan for a limited time"
+  },
+  {
+   "k": "cquuby",
+   "en": "reduced the impact of bolster nationalism spirit"
+  },
+  {
+   "k": "spgjv4",
+   "en": "\"Changed Command Power cost for Communist China's Infiltration decisions (-0.01 => -0.2) and the Nationalist/Japanese counter (-0.05 => -0.1)."
+  },
+  {
+   "k": "1rc1cbc",
+   "en": "Increased command power cost (-0.02 => -0.2) for gaining army support in preparation for a civil war. Old values were not rebalanced properly after major system rework.\""
+  },
+  {
+   "k": "sr88l0",
+   "en": "Added surrender limit penalty when at low war support. Scales from 0 to -30%."
+  },
+  {
+   "k": "1m8gwsd",
+   "en": "Reduced air superiority stat of strategic bombers.(1 => 0.01)"
+  },
+  {
+   "k": "1ekw8se",
+   "en": "Increased heavy fighters air superiority (1 => 1.25), so they are better at something that isn't shooting bombers..."
+  },
+  {
+   "k": "16yh3fz",
+   "en": "Lowered impact on speed due to enemy air superiority (-0.5 => -0.3)."
+  },
+  {
+   "k": "1qh5ubn",
+   "en": "Lowered impact on defense due to enemy air superiority (-0.5 => -0.35)."
+  },
+  {
+   "k": "1t3v2jq",
+   "en": "Changed cap of \"Air support\" modifier from CAS assisting land unit in combat from 21% to 35%."
+  },
+  {
+   "k": "1lu9tvf",
+   "en": "Division anti air reduces damage to the division caused by close air support attacks, in proportion to the AA's ability to shoot down planes."
+  },
+  {
+   "k": "1qjg72f",
+   "en": "Corrected AA damage reduction tooltip to show numbers in red."
+  },
+  {
+   "k": "193pydl",
+   "en": "Reduced factory output penalty from long march spirit for PRC (now -15%/-5%, down from -25%/-10%)."
+  },
+  {
+   "k": "k1zzat",
+   "en": "Changed penalty from Chinese idea Illegal Regime (-0.35 => -0.2)"
+  },
+  {
+   "k": "1uu94rj",
+   "en": "Last 3 radar techs now increase aim of static AA guns by 20% each."
+  },
+  {
+   "k": "1nm5dsc",
+   "en": "Each intermediary AA tech now adds 8% damage reduction from enemy bombers."
+  },
+  {
+   "k": "d9iz0g",
+   "en": "Each AA equipment unlock now increases static AA damage output by 10%."
+  },
+  {
+   "k": "1r65kng",
+   "en": "Air bases now take 50% less damage from bombing."
+  },
+  {
+   "k": "3rwy3h",
+   "en": "Reduced negative production modifier for Canada and Australia's version of the great depression (for TfV owners)."
+  },
+  {
+   "k": "3u0rsl",
+   "en": "The German War Economy Focus now requires 50% war support."
+  },
+  {
+   "k": "1hdm63t",
+   "en": "MEFO bills base cost reduced by 0.05 PP, added -5% Consumer Goods, and increased build speed bonuses to 25%."
+  },
+  {
+   "k": "xh0j8d",
+   "en": "Rebalanced Nationalist Chinese Focuses: Welfare Focuses now give 10 War Support (up from 5), Democracy Focuses that gave stability or War Support have been increased to give 10 instead of 5, added a military factory each to expanding the Taiyuan and Hanyan Arsenals."
+  },
+  {
+   "k": "1e8awjj",
+   "en": "Balanced temperatures for commando trait to < -15 or > 27."
+  },
+  {
+   "k": "1yw4cuh",
+   "en": "Chinese Scorched Earth Tactics and Industrial Evacuation Focuses reduced to 35 days."
+  },
+  {
+   "k": "weyxwk",
+   "en": "Made MEFO PP cost now be substracted -after- modifiers to PP are applied, resulting in a more logical tooltip, and a net PP increase for the player compared to how it was before."
+  },
+  {
+   "k": "x6kl1n",
+   "en": "Improved Spanish translations."
+  },
+  {
+   "k": "nsgqun",
+   "en": "Took map wrap-around line in the Pacific into account when computing a state's center point, correcting East Siberia's center from its previous position in the Norwegian Sea."
+  },
+  {
+   "k": "58ptpg",
+   "en": "Stopped the Focus.IgnorePrerequisites cheat from being used in an ironman game by first turning it on in a normal game."
+  },
+  {
+   "k": "9n8f86",
+   "en": "Prevented various exploit methods which could pull divisions out of naval transfer convoy combat by cancelling or changing division orders."
+  },
+  {
+   "k": "ir7bhw",
+   "en": "Fixed incorrect default of convoy efficiency when writing persistent data, which had a small chance of causing out-of-syncs."
+  },
+  {
+   "k": "dv94g0",
+   "en": "Fixed daily change in party popularity being inaccurate."
+  },
+  {
+   "k": "1uhbdut",
+   "en": "Changing of ruling party to unaligned now cancel all boost party popularity"
+  },
+  {
+   "k": "1s5yy4i",
+   "en": "Naval combat report will now only appear if any damage has been dealt"
+  },
+  {
+   "k": "2idvy1",
+   "en": "Fixed naval combat report not mentioning some losses when merging with older ones in the same province"
+  },
+  {
+   "k": "1rortei",
+   "en": "Fixed planes shot by carrier fighters not showing in the strategic air view."
+  },
+  {
+   "k": "2w2eru",
+   "en": "Fixed port strikes with no participating planes"
+  },
+  {
+   "k": "x6ncpj",
+   "en": "Air permission can no longer be obtained from both side of a war and observe similar restrictions as land volunteer."
+  },
+  {
+   "k": "1injdl5",
+   "en": "Added nb used convoys and nb free convoys to the checksum for OOS detection"
+  },
+  {
+   "k": "2yq7g2",
+   "en": "German historical DLC now properly enabled all picture replacements for events"
+  },
+  {
+   "k": "1dzvkva",
+   "en": "Fixed a loading order issue that could mess up some triggers for ideas on starting the game"
+  },
+  {
+   "k": "19vyj8g",
+   "en": "Japanese surrender events for MAN/CHI no longer incorrectly mentions transferring Korea to MAN/CHI control."
+  },
+  {
+   "k": "10g3au5",
+   "en": "Return of the Kaiser event when rescuing him through war now triggers upon control of Holland state; previously triggered from capitulation which could bug out if Holland was not in a faction when it surrendered."
+  },
+  {
+   "k": "5opjgd",
+   "en": "MEFO bills are no longer removed if Anschluss is rushed before the bills are extended a second time."
+  },
+  {
+   "k": "1kow0bt",
+   "en": "Drastically increased the WT generation required for UK to want to kick Imperial Germany out of its faction when having taken the \"Alliance with the Shade\" focus. Germany now needs to have created 81% more WT than the faction average, up from 34%."
+  },
+  {
+   "k": "1bcgjl",
+   "en": "\"Support Anti-Fascist War\" decision for USA now correctly removes off-map factories again after the duration ends."
+  },
+  {
+   "k": "j4x702",
+   "en": "Fixed some possible problems with text save games while writing arrays"
+  },
+  {
+   "k": "1nj39zd",
+   "en": "Fixed a crash after user directory is cleared using the launcher while there are enabled mods in it"
+  },
+  {
+   "k": "1nt5cle",
+   "en": "Fixed research all cheat not working for some of the researches"
+  },
+  {
+   "k": "hteuv2",
+   "en": "Fixed a bunch of typos"
+  },
+  {
+   "k": "1c6aq3u",
+   "en": "Added localization for 'send attaché' action in diplomacy tab/country list screen"
+  },
+  {
+   "k": "17qia8d",
+   "en": "Fixed UI scale glitches with equipment stockpile line graphs"
+  },
+  {
+   "k": "lspoy7",
+   "en": "added a bypass for Build up manchurian army focus in japanese focus tree"
+  },
+  {
+   "k": "15ebsmk",
+   "en": "added a bypass for Communist Chinese focus if low_popular support spirit is not present"
+  },
+  {
+   "k": "1kl0hms",
+   "en": "fixed critical spelling error in bombing damage modifier tooltip"
+  },
+  {
+   "k": "38corb",
+   "en": "fix for unlocalised bypass requirement in Soviet Advisers focus"
+  },
+  {
+   "k": "vd1r3l",
+   "en": "the opinion bonus from Italian befriend Japan focus is now correctly applied to Japan"
+  },
+  {
+   "k": "1ojif9w",
+   "en": "integrate the warlord army decision now transfers any generals and only creates leaders if the target has not taken personal leadership focus"
+  },
+  {
+   "k": "10h3o7y",
+   "en": "Fixed general selection menu stating that Field Marshal can \"command 5 armies\" when it should be \"24 division\"."
+  },
+  {
+   "k": "18hr0bv",
+   "en": "Fixed tooltip for how many divisions a corps commander can control showing up when trying to assign a Field Marshal."
+  },
+  {
+   "k": "7vpxn5",
+   "en": "Fixed invalid equipment bonus for PRC_peoples_war, PRC_maoism, CZE_naval_focus and bofors."
+  },
+  {
+   "k": "hvpgxw",
+   "en": "Ichi go spirit targeted modifier now works against all the Chinese nations."
+  },
+  {
+   "k": "k8cui6",
+   "en": "Added attache relation gfx for diplomacy view"
+  },
+  {
+   "k": "ebwwsq",
+   "en": "Command power cost on abilities now displays 2 decimals."
+  },
+  {
+   "k": "18fo99q",
+   "en": "Fixed tooltip for integrate warlord decisions using a flag with wrong localisation."
+  },
+  {
+   "k": "1qge24t",
+   "en": "Fixed integrate warlord decisions effect running immediately instead of after 90days."
+  },
+  {
+   "k": "pdo66g",
+   "en": "Re-added localisation for custom tooltips in Chinese Industry Relocation decisions."
+  },
+  {
+   "k": "oci154",
+   "en": "Removed auto call for faction members when a country is the target of war declaration."
+  },
+  {
+   "k": "148477k",
+   "en": "Navies on convoy escort missions now try to help allies if there are no friendly convoys to help."
+  },
+  {
+   "k": "1570fjm",
+   "en": "Fixed 'org loss while moving' leader modifier not being applied"
+  },
+  {
+   "k": "10jn6gz",
+   "en": "Volunteers sent to a countries which became enemies, will now be sent back home (so your divisions don't fight on both sides of the conflict)."
+  },
+  {
+   "k": "yy5qyz",
+   "en": "Fixed yet another grammatical issue in texts about the attaches."
+  },
+  {
+   "k": "14ncdex",
+   "en": "XP is now awarded in the case of unit being destroyed with nowhere to run and for overruns it is awarded to units both in current and in destination province if enemies."
+  },
+  {
+   "k": "1ho2cmc",
+   "en": "Fixed bug where a cavalry 3d models didn't get a proper winter camo"
+  },
+  {
+   "k": "46ma59",
+   "en": "Fixed volunteers not properly being sent back to their rightful owner."
+  },
+  {
+   "k": "nn6xyv",
+   "en": "Corrected British division namelist to use brackets instead of apostrophes."
+  },
+  {
+   "k": "zzp5ml",
+   "en": "Changed scavenger trait to additive modifier"
+  },
+  {
+   "k": "g0sxcj",
+   "en": "Fixed a broken bypass in Japanese Liberate Manchuria focus."
+  },
+  {
+   "k": "1jskqp4",
+   "en": "Changed completion trigger for 'Fuhrer directive 21' mission to include allies controlling the required states."
+  },
+  {
+   "k": "thstxx",
+   "en": "Added scripted trigger for a state being controlled by ROOT country or an ally to them."
+  },
+  {
+   "k": "et0kdc",
+   "en": "Fixed Austria-Hungary being formed multiple times as a result of \"\"Rekindle Imperial Sentiment\"\" focus."
+  },
+  {
+   "k": "q1mm0m",
+   "en": "Fixed Austria-Hungary news event referring to \"\"Austria-Hungary taking the lead\"\". Now correctly refers to country's old tag."
+  },
+  {
+   "k": "dlikyg",
+   "en": "Re-Forming Austria_Hungary now flips government to Unaligned and makes Otto von Habsburg country leader."
+  },
+  {
+   "k": "pw04dn",
+   "en": "Hungary can now choose \"\"Tade Deal with Germany\"\" focus with non-Fascist Germany."
+  }
+ ]
+}

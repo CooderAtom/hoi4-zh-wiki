@@ -1,0 +1,1562 @@
+{
+ "batch": 219,
+ "pages": [
+  "Triggers"
+ ],
+ "chars": 14985,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "ks1dik",
+   "en": "has_collaboration = { target = GER value > 0.5 }"
+  },
+  {
+   "k": "imunt6",
+   "en": "Checks if the current scope has a collaboration level in the target scope."
+  },
+  {
+   "k": "xcal47",
+   "en": "The target is occupied by the current scope. Must use < or > in the value argument."
+  },
+  {
+   "k": "160dwtx",
+   "en": "has_country_flag"
+  },
+  {
+   "k": "m0m81f",
+   "en": "has_country_flag = my_flag"
+  },
+  {
+   "k": "g7b9x0",
+   "en": "Checks if the current scope has the specified flag."
+  },
+  {
+   "k": "1jyq28l",
+   "en": "has_country_flag = { flag = my_flag days > 30 date > 1936.6.1 value > 0 }"
+  },
+  {
+   "k": "3bg064",
+   "en": "has_cosmetic_tag"
+  },
+  {
+   "k": "7cwwjb",
+   "en": "⟦0⟧ The cosmetic tag to check.",
+   "frags": 1
+  },
+  {
+   "k": "q7lflv",
+   "en": "has_cosmetic_tag = SOV_custom"
+  },
+  {
+   "k": "1hxtxtj",
+   "en": "Checks if the current scope has the specified cosmetic tag active."
+  },
+  {
+   "k": "158al98",
+   "en": "has_event_target"
+  },
+  {
+   "k": "1cm4mj5",
+   "en": "⟦0⟧ The event target to check.",
+   "frags": 1
+  },
+  {
+   "k": "oa9k40",
+   "en": "<event target>"
+  },
+  {
+   "k": "1wk8l5",
+   "en": "has_event_target = my_var"
+  },
+  {
+   "k": "uedz6r",
+   "en": "Checks if current scope or global scope has the specified event target saved."
+  },
+  {
+   "k": "1yrnbq2",
+   "en": "has_decision"
+  },
+  {
+   "k": "tp7a7m",
+   "en": "⟦0⟧ The decision to check.",
+   "frags": 1
+  },
+  {
+   "k": "1ffskk0",
+   "en": "has_decision = my_decision"
+  },
+  {
+   "k": "vc76o1",
+   "en": "Checks if the current scope has the specified decision activated."
+  },
+  {
+   "k": "5sdxxf",
+   "en": "has_dynamic_modifier"
+  },
+  {
+   "k": "x0hf7i",
+   "en": "⟦0⟧ The dynamic_modifier to check. scope = <scope> The country to check. Optional, if the original modifier has been targeted.",
+   "frags": 1
+  },
+  {
+   "k": "ftlqo",
+   "en": "modifier = <string>"
+  },
+  {
+   "k": "1ljyhfi",
+   "en": "scope = <scope>"
+  },
+  {
+   "k": "1umleln",
+   "en": "has_dynamic_modifier = { modifier = my_dynamic_modifier scope = GER }"
+  },
+  {
+   "k": "k07m6d",
+   "en": "Checks if the current scope has the specified dynamic modifier activated."
+  },
+  {
+   "k": "5xmvln",
+   "en": "has_active_mission"
+  },
+  {
+   "k": "a2is4s",
+   "en": "⟦0⟧ The mission to check.",
+   "frags": 1
+  },
+  {
+   "k": "aqp88j",
+   "en": "has_active_mission = my_mission"
+  },
+  {
+   "k": "14kj5cm",
+   "en": "Checks if the current scope has the specified mission active."
+  },
+  {
+   "k": "15veawz",
+   "en": "has_country_custom_difficulty_setting"
+  },
+  {
+   "k": "10ga89b",
+   "en": "has_country_custom_difficulty_setting = yes"
+  },
+  {
+   "k": "pvkd8a",
+   "en": "Checks if the any custom difficulty setting targeting the current scope is changed from the default value."
+  },
+  {
+   "k": "1vxxfl1",
+   "en": "has_terrain"
+  },
+  {
+   "k": "pu9d95",
+   "en": "⟦0⟧ Terrain.",
+   "frags": 1
+  },
+  {
+   "k": "15wxl5q",
+   "en": "<terrain>"
+  },
+  {
+   "k": "2vmpau",
+   "en": "has_terrain = urban"
+  },
+  {
+   "k": "1utw987",
+   "en": "Checks if the current scope has any provinces of the specified terrain."
+  },
+  {
+   "k": "1pj9ga",
+   "en": "Only can be used in country scope."
+  },
+  {
+   "k": "177xs4e",
+   "en": "is_dynamic_country"
+  },
+  {
+   "k": "p2posy",
+   "en": "is_dynamic_country = yes"
+  },
+  {
+   "k": "gk1q6f",
+   "en": "Checks if the current scope is a dynamic country."
+  },
+  {
+   "k": "gd5iaa",
+   "en": "Dynamic countries include those generated in civil wars as well as those generated with the create_dynamic_country effect, such as collaboration governments."
+  },
+  {
+   "k": "116v2m3",
+   "en": "num_of_supply_nodes"
+  },
+  {
+   "k": "vwei1y",
+   "en": "num_of_supply_nodes > 10"
+  },
+  {
+   "k": "19rlw28",
+   "en": "Checks if the current scope has the specified amount of supply nodes under control."
+  },
+  {
+   "k": "1qps7qy",
+   "en": "Can only use < or > operators."
+  },
+  {
+   "k": "yqwa07",
+   "en": "<resource> (resource_count_trigger)"
+  },
+  {
+   "k": "1bicocg",
+   "en": "tungsten > 10"
+  },
+  {
+   "k": "11rek2u",
+   "en": "Checks if the current scope has the specified amount of the specified resource."
+  },
+  {
+   "k": "2wr4iu",
+   "en": "Must use either > or < operators for amount. Can also be used in state scope."
+  },
+  {
+   "k": "ezwwe",
+   "en": "Can also be used in state scope."
+  },
+  {
+   "k": "65b1ng",
+   "en": "has_resources_in_country"
+  },
+  {
+   "k": "1h4kbu0",
+   "en": "⟦0⟧ The resource to check for. amount = <int> The amount to check for. extracted = <bool> Limits the checked resources only to those gained from the state's base value and multiplicative modifiers on top of it if true. Optional, defaults to false. buildings = <bool> Limits the checked resources only to those gained from the state's modifiers applied by buildings. Optional, defaults to false.",
+   "frags": 1
+  },
+  {
+   "k": "1rc45qc",
+   "en": "resource = <resource>"
+  },
+  {
+   "k": "n6aena",
+   "en": "extracted = <bool>"
+  },
+  {
+   "k": "jhkqpd",
+   "en": "buildings = <bool>"
+  },
+  {
+   "k": "2b5xl1",
+   "en": "has_resources_in_country = { resource = oil amount > 10 extracted = yes }"
+  },
+  {
+   "k": "tey4vn",
+   "en": "Checks if the current scope has the specified amount of the specified resource in reserve."
+  },
+  {
+   "k": "1d8xq7p",
+   "en": "Must use either > or < operators for amount. 'In reserve' means that it's not spent on equipment production or exports."
+  },
+  {
+   "k": "k2esk3",
+   "en": "National focuses"
+  },
+  {
+   "k": "10vxjap",
+   "en": "has_focus_tree"
+  },
+  {
+   "k": "8hsvqc",
+   "en": "⟦0⟧ The focus tree to check.",
+   "frags": 1
+  },
+  {
+   "k": "xxn6m5",
+   "en": "has_focus_tree = soviet_tree"
+  },
+  {
+   "k": "2etbbu",
+   "en": "Checks if the current scope has the specified focus tree."
+  },
+  {
+   "k": "1rsa5sq",
+   "en": "has_completed_focus"
+  },
+  {
+   "k": "1w1tyg2",
+   "en": "⟦0⟧ The focus to check.",
+   "frags": 1
+  },
+  {
+   "k": "1mt3sam",
+   "en": "has_completed_focus = my_focus"
+  },
+  {
+   "k": "gq7frh",
+   "en": "Checks if the current scope has the specified focus completed."
+  },
+  {
+   "k": "cztn4f",
+   "en": "focus_progress"
+  },
+  {
+   "k": "is0aln",
+   "en": "⟦0⟧ The focus to check. progress = <string> The progress to check for.",
+   "frags": 1
+  },
+  {
+   "k": "13xbvyl",
+   "en": "focus = <string>"
+  },
+  {
+   "k": "bo2pba",
+   "en": "progress = <string>"
+  },
+  {
+   "k": "1379boq",
+   "en": "focus_progress = { focus = my_focus progress > 0.5 }"
+  },
+  {
+   "k": "1dvpyta",
+   "en": "Checks if the specified focus has been completed the specified percent for the current scope."
+  },
+  {
+   "k": "nv2xqi",
+   "en": "Must use either > or < operators for progress."
+  },
+  {
+   "k": "1nzw6o",
+   "en": "has_shine_effect_on_focus"
+  },
+  {
+   "k": "bn8j3y",
+   "en": "has_shine_effect_on_focus = GER_wunderwaffe"
+  },
+  {
+   "k": "1bjenl",
+   "en": "Check if country has shine effect on focus (either manually achieved or by being worked on)."
+  },
+  {
+   "k": "1rc6t50",
+   "en": "Note that tooltips are only shown in debug mode. Shine can be added manually by selecting focus, or via activate_shine_on_focus effect."
+  },
+  {
+   "k": "5oh7vr",
+   "en": "activate_shine_on_focus"
+  },
+  {
+   "k": "1d3wr3i",
+   "en": "Politics"
+  },
+  {
+   "k": "18mltyv",
+   "en": "<ideology> (ideology_support_trigger)"
+  },
+  {
+   "k": "1ocs6or",
+   "en": "⟦0⟧ The amount of the ideology to check for.",
+   "frags": 1
+  },
+  {
+   "k": "b75px1",
+   "en": "<ideology> = <float> / <variable>"
+  },
+  {
+   "k": "113zsfx",
+   "en": "fascism > 0.5 democratic > party_popularity@communism"
+  },
+  {
+   "k": "1510gt2",
+   "en": "Checks if the current scope has popularity of the specified ideology above the specified amount."
+  },
+  {
+   "k": "iadd6t",
+   "en": "has_political_power"
+  },
+  {
+   "k": "1gb6aoc",
+   "en": "<float> / <variable>"
+  },
+  {
+   "k": "d5vrr7",
+   "en": "Checks if the current scope has the specified amount of political power."
+  },
+  {
+   "k": "m1p7zo",
+   "en": "political_power_daily"
+  },
+  {
+   "k": "9jiaih",
+   "en": "political_power_daily > 1"
+  },
+  {
+   "k": "w4u0rx",
+   "en": "Checks if the current scope has the specified amount of daily political power gain."
+  },
+  {
+   "k": "14hbvwg",
+   "en": "political_power_growth"
+  },
+  {
+   "k": "ecj1fx",
+   "en": "political_power_growth > 1"
+  },
+  {
+   "k": "1d81w2w",
+   "en": "command_power"
+  },
+  {
+   "k": "16vtemd",
+   "en": "command_power > 1"
+  },
+  {
+   "k": "q957s9",
+   "en": "Checks if the current scope has the specified amount of command power."
+  },
+  {
+   "k": "1knyyge",
+   "en": "command_power_daily"
+  },
+  {
+   "k": "6aazvj",
+   "en": "command_power_daily > 1"
+  },
+  {
+   "k": "1df6nbr",
+   "en": "Checks if the current scope has the specified amount of daily command power gain."
+  },
+  {
+   "k": "4qrkq6",
+   "en": "has_war_support"
+  },
+  {
+   "k": "1d01o95",
+   "en": "has_war_support > 0.5"
+  },
+  {
+   "k": "s24xwq",
+   "en": "Checks if the current scope has the specified percentage of War Support."
+  },
+  {
+   "k": "qbtd33",
+   "en": "has_stability"
+  },
+  {
+   "k": "169f2pk",
+   "en": "has_stability > 0.5"
+  },
+  {
+   "k": "20qocc",
+   "en": "Checks if the current scope has the specified percentage of Stability."
+  },
+  {
+   "k": "8rpzzn",
+   "en": "has_government"
+  },
+  {
+   "k": "4dkq86",
+   "en": "⟦0⟧ The ideology group to check for. OR <country> The country to compare with.",
+   "frags": 1
+  },
+  {
+   "k": "1jl1rmf",
+   "en": "<ideology>"
+  },
+  {
+   "k": "836jwn",
+   "en": "<country>"
+  },
+  {
+   "k": "tdbuyd",
+   "en": "has_government = fascism has_government = ROOT"
+  },
+  {
+   "k": "koxbb1",
+   "en": "Checks if the ruling party of the current scope meets the requirements of being either the specified ideology group or having the same ideology group as the specified country."
+  },
+  {
+   "k": "1i1s1y0",
+   "en": "has_elections"
+  },
+  {
+   "k": "uxnhns",
+   "en": "has_elections = yes"
+  },
+  {
+   "k": "y5z5pj",
+   "en": "Checks if the current scope holds elections."
+  },
+  {
+   "k": "5rq6jn",
+   "en": "is_staging_coup"
+  },
+  {
+   "k": "1kq3rqn",
+   "en": "is_staging_coup = yes"
+  },
+  {
+   "k": "z3j1la",
+   "en": "Checks if the current scope is staging a coup."
+  },
+  {
+   "k": "72m19t",
+   "en": "is_target_of_coup"
+  },
+  {
+   "k": "1ywz6l5",
+   "en": "is_target_of_coup = yes"
+  },
+  {
+   "k": "f8p0be",
+   "en": "Checks if the current scope is the target of a coup."
+  },
+  {
+   "k": "10z6zxq",
+   "en": "has_civil_war"
+  },
+  {
+   "k": "1ggkrwi",
+   "en": "has_civil_war = yes"
+  },
+  {
+   "k": "1vm8moj",
+   "en": "Checks if the current scope has a civil war active."
+  },
+  {
+   "k": "e9btmy",
+   "en": "civilwar_target"
+  },
+  {
+   "k": "1q5u57w",
+   "en": "⟦0⟧ The target country.",
+   "frags": 1
+  },
+  {
+   "k": "1e3xct9",
+   "en": "<scope>"
+  },
+  {
+   "k": "6minvn",
+   "en": "civilwar_target = GER"
+  },
+  {
+   "k": "1pjelun",
+   "en": "Checks if the specified country is a target of a civil war."
+  },
+  {
+   "k": "g0l3q3",
+   "en": "has_manpower_for_recruit_change_to"
+  },
+  {
+   "k": "1c2v2ku",
+   "en": "⟦0⟧ The amount to check for. group = <group> The group to check for.",
+   "frags": 1
+  },
+  {
+   "k": "12dslb5",
+   "en": "value = <float>"
+  },
+  {
+   "k": "1jazs5s",
+   "en": "group = <group>"
+  },
+  {
+   "k": "hhfl97",
+   "en": "has_manpower_for_recruit_change_to = { value > 0.05 group = mobilization_laws }"
+  },
+  {
+   "k": "1taw15r",
+   "en": "Checks if the current scope has the specified amount of manpower for changing the specified idea group."
+  },
+  {
+   "k": "5o04xz",
+   "en": "⟦0⟧ use either > or < operators as = operator checks for the ⟦1⟧ value",
+   "frags": 2
+  },
+  {
+   "k": "cvc1u0",
+   "en": "Must"
+  },
+  {
+   "k": "156et9g",
+   "en": "exact"
+  },
+  {
+   "k": "1haixuy",
+   "en": "has_rule"
+  },
+  {
+   "k": "eyywln",
+   "en": "⟦0⟧ The rule to check for.",
+   "frags": 1
+  },
+  {
+   "k": "8k9u1w",
+   "en": "has_rule = can_create_factions"
+  },
+  {
+   "k": "1tiq0bm",
+   "en": "Checks if the current scope has the specified country rule."
+  },
+  {
+   "k": "4ijcv",
+   "en": "has_casualties_war_support"
+  },
+  {
+   "k": "vmyaej",
+   "en": "has_casualties_war_support < 0"
+  },
+  {
+   "k": "1ekf0us",
+   "en": "Checks if the current scope has the specified percentage of war support from own combat casualties."
+  },
+  {
+   "k": "1m6bxme",
+   "en": "has_convoys_war_support"
+  },
+  {
+   "k": "1rjr83e",
+   "en": "has_convoys_war_support < 0"
+  },
+  {
+   "k": "xiou2w",
+   "en": "Checks if the current scope has the specified percentage of war support from own convoys sunk."
+  },
+  {
+   "k": "15ol1mh",
+   "en": "has_bombing_war_support"
+  },
+  {
+   "k": "tqi83h",
+   "en": "has_bombing_war_support < 0"
+  },
+  {
+   "k": "1ma6t0j",
+   "en": "Checks if the current scope has the specified percentage of war support from own states bombed by the enemy."
+  },
+  {
+   "k": "q2j1tx",
+   "en": "Balance of power"
+  },
+  {
+   "k": "4skf6",
+   "en": "Balances of power are stored within ⟦0⟧ files.",
+   "frags": 1
+  },
+  {
+   "k": "1bb8pm2",
+   "en": "/Hearts of Iron IV/common/bop/*.txt"
+  },
+  {
+   "k": "27cze2",
+   "en": "has_power_balance"
+  },
+  {
+   "k": "qr45n7",
+   "en": "⟦0⟧ The balance to check for.",
+   "frags": 1
+  },
+  {
+   "k": "138dmzx",
+   "en": "id = <bop ID>"
+  },
+  {
+   "k": "mf1tos",
+   "en": "has_power_balance = { id = TAG_my_bop }"
+  },
+  {
+   "k": "11rx96c",
+   "en": "Checks if the current scope has the specified balance of power active."
+  },
+  {
+   "k": "v42253",
+   "en": "has_any_power_balance"
+  },
+  {
+   "k": "g1hsur",
+   "en": "has_any_power_balance = yes"
+  },
+  {
+   "k": "5ckl59",
+   "en": "Checks if the current scope has any balance of power active."
+  },
+  {
+   "k": "yv4ajv",
+   "en": "power_balance_value"
+  },
+  {
+   "k": "3vxflb",
+   "en": "⟦0⟧ The balance to check in. value = <float> The value to check for.",
+   "frags": 1
+  },
+  {
+   "k": "czvu0h",
+   "en": "power_balance_value = { id = TAG_my_bop value > 0.7 }"
+  },
+  {
+   "k": "rifez9",
+   "en": "Checks if the current scope has the specified value within the balance of power."
+  },
+  {
+   "k": "mkh3ot",
+   "en": "Either =, >, or < operators are allowed."
+  },
+  {
+   "k": "7p1pr4",
+   "en": "power_balance_daily_change"
+  },
+  {
+   "k": "1ivdn6h",
+   "en": "power_balance_daily_change = { id = TAG_my_bop value < -0.01 }"
+  },
+  {
+   "k": "ooatu",
+   "en": "Checks if the current scope's balance of power changes each day by the specified value."
+  },
+  {
+   "k": "1slxx82",
+   "en": "power_balance_weekly_change"
+  },
+  {
+   "k": "ouoc7v",
+   "en": "power_balance_weekly_change = { id = TAG_my_bop value < -0.01 }"
+  },
+  {
+   "k": "4gnj1a",
+   "en": "Checks if the current scope's balance of power changes each week by the specified value."
+  },
+  {
+   "k": "1y7p6cs",
+   "en": "is_power_balance_in_range"
+  },
+  {
+   "k": "1s37wl1",
+   "en": "⟦0⟧ The balance to check in. range = <range ID> The range to check for.",
+   "frags": 1
+  },
+  {
+   "k": "whij6f",
+   "en": "range = <range ID>"
+  },
+  {
+   "k": "7ajd3",
+   "en": "is_power_balance_in_range = { id = TAG_my_bop range > TAG_my_bop_right_range }"
+  },
+  {
+   "k": "1h3wk30",
+   "en": "Checks if the current scope's balance of power value lies within the specified range."
+  },
+  {
+   "k": "1s6tv1t",
+   "en": "Ranges are defined within the balance of power. Can use either =, >, and < operators. In case of > or <, the comparison is 'strict', i.e. excluding the range itself."
+  },
+  {
+   "k": "qoopb5",
+   "en": "is_power_balance_side_active"
+  },
+  {
+   "k": "i08uy2",
+   "en": "⟦0⟧ The balance to check in. side = <side ID> The side to check.",
+   "frags": 1
+  },
+  {
+   "k": "jy6ufj",
+   "en": "side = <side ID>"
+  },
+  {
+   "k": "vozuwt",
+   "en": "is_power_balance_side_active = { id = TAG_my_bop side = TAG_my_bop_right_range }"
+  },
+  {
+   "k": "chpr68",
+   "en": "Checks if the specified balance of power has a side active."
+  },
+  {
+   "k": "nar78o",
+   "en": "Sides are defined within the balance of power. \"Active\" means that the side is among those that are currently visible instead of relying on the current value."
+  },
+  {
+   "k": "bf49yu",
+   "en": "has_power_balance_modifier"
+  },
+  {
+   "k": "2gcjhf",
+   "en": "⟦0⟧ The balance to check in. modifier = <modifier ID> The static modifier.",
+   "frags": 1
+  },
+  {
+   "k": "bp0wpz",
+   "en": "modifier = <modifier ID>"
+  },
+  {
+   "k": "3ln690",
+   "en": "static modifier"
+  },
+  {
+   "k": "a0e40z",
+   "en": "has_power_balance_modifier = { id = TAG_my_bop modifier = TAG_my_bop_modifier }"
+  },
+  {
+   "k": "11hglp4",
+   "en": "Checks if the current scope's balance of power value activates a modifier."
+  },
+  {
+   "k": "1wew9vr",
+   "en": "BoP modifiers are defined within ⟦0⟧ files, while they're activated in the balance of power definition.",
+   "frags": 1
+  },
+  {
+   "k": "oewe2p",
+   "en": "/Hearts of Iron IV/common/modifiers/*.txt"
+  },
+  {
+   "k": "1xa6gia",
+   "en": "Buildings"
+  },
+  {
+   "k": "m1n7c7",
+   "en": "<building> (building_count_trigger)"
+  },
+  {
+   "k": "1917v5y",
+   "en": "⟦0⟧ The amount of the specified building to to check for.",
+   "frags": 1
+  },
+  {
+   "k": "16dq84e",
+   "en": "arms_factory > 10"
+  },
+  {
+   "k": "19ds9p6",
+   "en": "Checks if the current scope has the specified amount of the specified building."
+  },
+  {
+   "k": "1k7l75a",
+   "en": "Must use either > or < operators. Works in the state scope as well, unlike the other triggers. Can also be used in state scope."
+  },
+  {
+   "k": "10fde38",
+   "en": "num_of_military_factories"
+  },
+  {
+   "k": "1mvv9cb",
+   "en": "num_of_military_factories > 10"
+  },
+  {
+   "k": "1ob6mgk",
+   "en": "Checks if the current scope has the specified amount of military factories."
+  },
+  {
+   "k": "sssdx2",
+   "en": "num_of_civilian_factories"
+  },
+  {
+   "k": "1jgnusl",
+   "en": "num_of_civilian_factories > 10"
+  },
+  {
+   "k": "ta2o7m",
+   "en": "Checks if the current scope has the specified amount of civilian factories."
+  },
+  {
+   "k": "1hm4dsj",
+   "en": "num_of_naval_factories"
+  },
+  {
+   "k": "yust1a",
+   "en": "num_of_naval_factories > 10"
+  },
+  {
+   "k": "5e6pf9",
+   "en": "Checks if the current scope has the specified amount of dockyards."
+  },
+  {
+   "k": "y8elf8",
+   "en": "num_of_available_military_factories"
+  },
+  {
+   "k": "11af6uj",
+   "en": "num_of_available_military_factories > 10"
+  },
+  {
+   "k": "1lqg1mr",
+   "en": "Checks if the current scope has the specified amount of available military factories."
+  },
+  {
+   "k": "156ohna",
+   "en": "num_of_available_civilian_factories"
+  },
+  {
+   "k": "17x9wn9",
+   "en": "num_of_available_civilian_factories > 10"
+  },
+  {
+   "k": "1iyqc7t",
+   "en": "Checks if the current scope has the specified amount of available civilian factories."
+  },
+  {
+   "k": "10fdttf",
+   "en": "num_of_available_naval_factories"
+  },
+  {
+   "k": "1qols9q",
+   "en": "num_of_available_naval_factories > 10"
+  },
+  {
+   "k": "1rnw1zs",
+   "en": "Checks if the current scope has the specified amount of available dockyards."
+  },
+  {
+   "k": "1dfn3n8",
+   "en": "num_of_factories"
+  },
+  {
+   "k": "1iym2wb",
+   "en": "num_of_factories > 10"
+  },
+  {
+   "k": "1g1hf3v",
+   "en": "Checks if the current scope has the specified amount of military, civilian or dockyard factories."
+  },
+  {
+   "k": "16cfdet",
+   "en": "num_of_controlled_factories"
+  },
+  {
+   "k": "1tivlwo",
+   "en": "num_of_controlled_factories > 10"
+  },
+  {
+   "k": "1o4m8sy",
+   "en": "Checks if the current scope has the specified amount of military, civilian or dockyard factories under control."
+  },
+  {
+   "k": "1xoje0u",
+   "en": "num_of_owned_factories"
+  },
+  {
+   "k": "7qkzd9",
+   "en": "num_of_owned_factories > 10"
+  },
+  {
+   "k": "1qgr68k",
+   "en": "Checks if the current scope has the specified amount of military, civilian or dockyard factories under owned states."
+  },
+  {
+   "k": "aclgxh",
+   "en": "num_of_civilian_factories_available_for_projects"
+  },
+  {
+   "k": "nn87js",
+   "en": "num_of_civilian_factories_available_for_projects > 10"
+  },
+  {
+   "k": "79iuyf",
+   "en": "Checks if the current scope has the specified amount of civilian factories usable for projects."
+  },
+  {
+   "k": "1ajxz11",
+   "en": "ic_ratio"
+  },
+  {
+   "k": "or3rlo",
+   "en": "⟦0⟧ The country to check. ratio = <float> The ratio to check for.",
+   "frags": 1
+  },
+  {
+   "k": "v9kpqe",
+   "en": "tag = <scope>"
+  },
+  {
+   "k": "16wkdsf",
+   "en": "ratio = <float>"
+  },
+  {
+   "k": "16kgakp",
+   "en": "ic_ratio = { tag = GER ratio > 0.5 }"
+  },
+  {
+   "k": "140c3g6",
+   "en": "Checks if the current scope has the specified ratio of factories with the target country."
+  },
+  {
+   "k": "1utftq4",
+   "en": "Must use either > or < operators for ratio."
+  },
+  {
+   "k": "1x1gyqd",
+   "en": "has_damaged_buildings"
+  },
+  {
+   "k": "viqtnx",
+   "en": "has_damaged_buildings = yes"
+  },
+  {
+   "k": "leit8e",
+   "en": "Checks if the current scope has any damanged buildings in their states."
+  },
+  {
+   "k": "f8rs44",
+   "en": "has_built"
+  },
+  {
+   "k": "y5uypv",
+   "en": "⟦0⟧ The building to check for. value = <int> The amount to check for.",
+   "frags": 1
+  },
+  {
+   "k": "1l978e0",
+   "en": "type = <building>"
+  },
+  {
+   "k": "18wujx0",
+   "en": "has_built = { type = arms_factory value > 10 }"
+  },
+  {
+   "k": "uovkqt",
+   "en": "Checks if the current scope has built the specified building the specified number of times."
+  },
+  {
+   "k": "1pr5mtq",
+   "en": "Must use either > or < operators for value."
+  },
+  {
+   "k": "15c5osv",
+   "en": "Technology"
+  },
+  {
+   "k": "1vks7qs",
+   "en": "has_tech"
+  },
+  {
+   "k": "1fj627b",
+   "en": "⟦0⟧ The technology to check for.",
+   "frags": 1
+  },
+  {
+   "k": "p0ygqa",
+   "en": "has_tech = my_technology"
+  },
+  {
+   "k": "1knz4mc",
+   "en": "Checks if the current scope has the specified technology."
+  },
+  {
+   "k": "13ouqwc",
+   "en": "is_researching_technology"
+  },
+  {
+   "k": "6sd2d4",
+   "en": "is_researching_technology = my_tech"
+  },
+  {
+   "k": "15tvk4f",
+   "en": "Checks if the current scope is currently researching the specified technology."
+  },
+  {
+   "k": "f7ai2j",
+   "en": "can_research"
+  },
+  {
+   "k": "kb7ab7",
+   "en": "can_research = my_tech"
+  },
+  {
+   "k": "hhlgy1",
+   "en": "Checks if the current scope can start researching the specified technology."
+  },
+  {
+   "k": "1sqlj1g",
+   "en": "original_research_slots"
+  },
+  {
+   "k": "uqvt37",
+   "en": "original_research_slots > 3"
+  },
+  {
+   "k": "at3u92",
+   "en": "Checks if the current scope had the specified amount of slots at game start."
+  },
+  {
+   "k": "9cyoq5",
+   "en": "amount_research_slots"
+  },
+  {
+   "k": "1oax8jq",
+   "en": "amount_research_slots > 3"
+  },
+  {
+   "k": "13pb7ir",
+   "en": "Checks if the current scope has the specified amount of research slots."
+  },
+  {
+   "k": "9bxcch",
+   "en": "is_in_tech_sharing_group"
+  },
+  {
+   "k": "xkf6bs",
+   "en": "⟦0⟧ The group to check for.",
+   "frags": 1
+  },
+  {
+   "k": "88o682",
+   "en": "is_in_tech_sharing_group = us_research"
+  },
+  {
+   "k": "m47m52",
+   "en": "Checks if the current scope is in the specified technology sharing group."
+  },
+  {
+   "k": "engzqw",
+   "en": "num_tech_sharing_groups"
+  },
+  {
+   "k": "tp569b",
+   "en": "num_tech_sharing_groups > 3"
+  },
+  {
+   "k": "1cqjki",
+   "en": "Checks if the current scope is in the specified amount of technology sharing groups."
+  },
+  {
+   "k": "csbhds",
+   "en": "has_tech_bonus"
+  },
+  {
+   "k": "j9ruso",
+   "en": "⟦0⟧ The technology to check for. Optional. category = <string> The category to check for. Optional.",
+   "frags": 1
+  },
+  {
+   "k": "1n0icxd",
+   "en": "technology = <string>"
+  },
+  {
+   "k": "7zi3x7",
+   "en": "category = <string>"
+  },
+  {
+   "k": "1ukqo1p",
+   "en": "has_tech_bonus = { technology = my_tech } has_tech_bonus = { category = my_category }"
+  },
+  {
+   "k": "304od4",
+   "en": "Checks if the current scope has a technology bonus in the specified category, or for the specific technology."
+  },
+  {
+   "k": "x9mj4y",
+   "en": "land_doctrine_level"
+  },
+  {
+   "k": "jrx5a6",
+   "en": "land_doctrine_level > 2"
+  },
+  {
+   "k": "13g1fvw",
+   "en": "Checks if the current scope has the specified amount of land doctrine technologies."
+  },
+  {
+   "k": "12hy2dr",
+   "en": "num_researched_technologies"
+  },
+  {
+   "k": "e8wmsq",
+   "en": "num_researched_technologies > 10"
+  },
+  {
+   "k": "qc8o3x",
+   "en": "Checks how many technologies the target has researched."
+  },
+  {
+   "k": "1bs7vyk",
+   "en": "is_special_project_being_researched"
+  },
+  {
+   "k": "1ssg1gl",
+   "en": "⟦0⟧ A special project to check for.",
+   "frags": 1
+  },
+  {
+   "k": "1qq12u5",
+   "en": "sp:<string>"
+  },
+  {
+   "k": "148atqb",
+   "en": "is_special_project_being_researched = sp:sp_air_radar"
+  },
+  {
+   "k": "19hvb20",
+   "en": "Checks if the country in scope is currently researching the special project in input."
+  },
+  {
+   "k": "1ghhti9",
+   "en": "is_special_project_completed"
+  },
+  {
+   "k": "6hlwy2",
+   "en": "is_special_project_completed = sp:sp_land_flamethrower_tank"
+  },
+  {
+   "k": "9l15ev",
+   "en": "Checks if the current scope has the specified special project completed."
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "1w7lq27",
+   "en": "has_idea"
+  },
+  {
+   "k": "1hptxba",
+   "en": "⟦0⟧ The idea to check for.",
+   "frags": 1
+  },
+  {
+   "k": "14oae5o",
+   "en": "has_idea = my_idea"
+  },
+  {
+   "k": "1hfj80v",
+   "en": "Checks if the current scope has the specified idea."
+  },
+  {
+   "k": "14zi4wr",
+   "en": "has_idea_with_trait"
+  },
+  {
+   "k": "1a2iulf",
+   "en": "⟦0⟧ The trait to check for.",
+   "frags": 1
+  },
+  {
+   "k": "ack8oh",
+   "en": "has_idea_with_trait = my_trait"
+  },
+  {
+   "k": "1gqqqva",
+   "en": "Checks if the current scope has any ideas with the specified trait."
+  },
+  {
+   "k": "8p0z0h",
+   "en": "has_allowed_idea_with_traits"
+  },
+  {
+   "k": "v76rff",
+   "en": "⟦0⟧ The trait to check for. limit = <int> The amount to check for. characters = <bool> If set, will only run this on characters. ignore = { <ideas> } If set, ignores the ideas inside. Optional.",
+   "frags": 1
+  },
+  {
+   "k": "tnhesi",
+   "en": "idea = <string>"
+  },
+  {
+   "k": "ca26uy",
+   "en": "limit = <int>"
+  },
+  {
+   "k": "1qcjo10",
+   "en": "characters = <bool>"
+  },
+  {
+   "k": "qcv61o",
+   "en": "ignore = { <ideas> }"
+  },
+  {
+   "k": "1t4z5ki",
+   "en": "has_available_idea_with_traits = { idea = my_trait limit = 1 ignore = { generic_head_of_intelligence } }"
+  },
+  {
+   "k": "1sx4rg8",
+   "en": "Checks if the current scope has the specified amount of ideas with the specified trait."
+  },
+  {
+   "k": "10oydam",
+   "en": "ignore = idea_name works for 1 idea."
+  },
+  {
+   "k": "8aphy4",
+   "en": "has_available_idea_with_traits"
+  },
+  {
+   "k": "pecu5a",
+   "en": "amount_taken_ideas"
+  },
+  {
+   "k": "1p7n2r7",
+   "en": "⟦0⟧ The amount to check for. slots = { <string> } The slot type.",
+   "frags": 1
+  },
+  {
+   "k": "1884yc6",
+   "en": "slots = { <string> }"
+  },
+  {
+   "k": "8fdesk",
+   "en": "amount_taken_ideas = { amount > 3 slots = { political_advisor } }"
+  },
+  {
+   "k": "povpww",
+   "en": "Checks if the current scope has the specified amount of ideas of the specified slot type. Excludes spirits, hidden ideas, and laws."
+  },
+  {
+   "k": "1k82d3v",
+   "en": "Slots types are found in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "axjejy",
+   "en": "/Hearts of Iron IV/common/idea_tags/*.txt"
+  },
+  {
+   "k": "1ftjdix",
+   "en": "Diplomacy"
+  },
+  {
+   "k": "jirlaj",
+   "en": "is_major"
+  },
+  {
+   "k": "nvgtmf",
+   "en": "is_major = yes"
+  },
+  {
+   "k": "199pn4h",
+   "en": "Checks if the current scope is considered a Major."
+  },
+  {
+   "k": "1u7qmp9",
+   "en": "is_ally_with"
+  },
+  {
+   "k": "tbh6ll",
+   "en": "⟦0⟧ The country to check for.",
+   "frags": 1
+  },
+  {
+   "k": "95al4i",
+   "en": "is_ally_with = GER is_ally_with = var:country"
+  },
+  {
+   "k": "d0arvk",
+   "en": "Checks if the current scope is an ally (Faction members or subject-master relation)."
+  },
+  {
+   "k": "1klksxu",
+   "en": "is_spymaster"
+  },
+  {
+   "k": "n5874m",
+   "en": "is_spymaster = yes"
+  },
+  {
+   "k": "j424cc",
+   "en": "Checks if the current scope is the spymaster of a faction."
+  },
+  {
+   "k": "mvaemu",
+   "en": "has_non_aggression_pact_with"
+  },
+  {
+   "k": "1o9n19j",
+   "en": "has_non_aggression_pact_with = GER"
+  },
+  {
+   "k": "16od893",
+   "en": "Checks if the current scope has a non-aggression pact with the specified country."
+  },
+  {
+   "k": "ab13wo",
+   "en": "is_guaranteed_by"
+  },
+  {
+   "k": "ldjt0p",
+   "en": "is_guaranteed_by = GER"
+  }
+ ]
+}

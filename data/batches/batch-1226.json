@@ -1,0 +1,835 @@
+{
+ "batch": 1226,
+ "pages": [
+  "Unit modding"
+ ],
+ "chars": 3896,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1cpndam",
+   "en": "Units are the base object that equipment is applied to. Internally, units are actually sub-units of the hardcoded unit types, such as infantry, cavalry, fighter, etc."
+  },
+  {
+   "k": "179p8el",
+   "en": "Unit Categories"
+  },
+  {
+   "k": "ga71m5",
+   "en": "Unit categories are found in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "117m96i",
+   "en": "/Hearts of Iron IV/common/unit_tags/00_categories.txt"
+  },
+  {
+   "k": "1xk6zx4",
+   "en": "Each unit is assigned a category that is used in technologies to apply effects to groups of units at once."
+  },
+  {
+   "k": "qlo6xv",
+   "en": "The following example from a technology grants bonuses to all units with the ⟦0⟧ category:",
+   "frags": 1
+  },
+  {
+   "k": "14fil1n",
+   "en": "category_all_infantry"
+  },
+  {
+   "k": "ur18vw",
+   "en": "Units"
+  },
+  {
+   "k": "9xzabo",
+   "en": "Units are found in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1ohg4hg",
+   "en": "/Hearts of Iron IV/common/units/*.txt"
+  },
+  {
+   "k": "gxy6ca",
+   "en": "Units follow the following format:"
+  },
+  {
+   "k": "1k5bvsv",
+   "en": "You cannot add new internal or map icon types, but you can add new groups."
+  },
+  {
+   "k": "suxsid",
+   "en": "How to add new Groups"
+  },
+  {
+   "k": "1hymojh",
+   "en": "Inside any unit file, type the name of the new group in the \"group\" argument. The game will internally create the group and asign it to the current unit. For example:"
+  },
+  {
+   "k": "ny1hmj",
+   "en": "Then, to add a localisation for our newly created group we must go to any localization file (preferably ⟦0⟧) and define a new loc key as follows:",
+   "frags": 1
+  },
+  {
+   "k": "16ajtze",
+   "en": "/Hearts of Iron IV/localisation/unit_I_english.yml"
+  },
+  {
+   "k": "ln2xau",
+   "en": "To assign an icon to the new group you must go to ⟦0⟧ and define a new spritetype as follows:",
+   "frags": 1
+  },
+  {
+   "k": "1iuav75",
+   "en": "/Hearts of Iron IV/interface/subuniticons.gfx"
+  },
+  {
+   "k": "zsvt2x",
+   "en": "Note that the textureFile path doesn't have to be strictly ⟦0⟧, it can be any path.",
+   "frags": 1
+  },
+  {
+   "k": "1e51pat",
+   "en": "/Hearts of Iron IV/gfx/interface/counters/divisions_large/"
+  },
+  {
+   "k": "hzmwb",
+   "en": "Models"
+  },
+  {
+   "k": "1d7xn64",
+   "en": "See also: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1ehlbn1",
+   "en": "The model is assigned with the ⟦0⟧ attribute, which assigns the entity with the base name of ⟦1⟧ by default to units whose division template has a plurality of this sub-unit. Similar to ⟦2⟧, it is possible to assign further conditions by changing the name of the model, in this case by prepending a prefix to the base name. The priority starts with the default name as the lowest, then allowing using unique models for ⟦3⟧, countries, or ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "kd1je0",
+   "en": "sprite = SPRITE"
+  },
+  {
+   "k": "nbi5qm",
+   "en": "SPRITE_entity"
+  },
+  {
+   "k": "dqvcu9",
+   "en": "country names"
+  },
+  {
+   "k": "1h86v81",
+   "en": "graphical cultures"
+  },
+  {
+   "k": "1uolfh7",
+   "en": "cosmetic tags"
+  },
+  {
+   "k": "1d0gaqs",
+   "en": "An example ⟦0⟧ file is as such:",
+   "frags": 1
+  },
+  {
+   "k": "1cvoz6",
+   "en": "/Hearts of Iron IV/gfx/entities/*.asset"
+  },
+  {
+   "k": "3qh5pd",
+   "en": "Internal Types"
+  },
+  {
+   "k": "cp5igw",
+   "en": "infantry"
+  },
+  {
+   "k": "gfr9pk",
+   "en": "support"
+  },
+  {
+   "k": "h0gp4h",
+   "en": "artillery"
+  },
+  {
+   "k": "1ksh6pa",
+   "en": "anti_tank"
+  },
+  {
+   "k": "1kwv5xu",
+   "en": "anti_air"
+  },
+  {
+   "k": "1ww2klw",
+   "en": "armor"
+  },
+  {
+   "k": "xof7gi",
+   "en": "fighter"
+  },
+  {
+   "k": "yi79q",
+   "en": "cas"
+  },
+  {
+   "k": "kfbx2f",
+   "en": "naval_bomber"
+  },
+  {
+   "k": "15rsbdg",
+   "en": "interceptor"
+  },
+  {
+   "k": "9y1fov",
+   "en": "suicide"
+  },
+  {
+   "k": "s10nxq",
+   "en": "tactical_bomber"
+  },
+  {
+   "k": "2ammmd",
+   "en": "strategic_bomber"
+  },
+  {
+   "k": "n8zo2l",
+   "en": "air_transport"
+  },
+  {
+   "k": "19rhp4z",
+   "en": "missile"
+  },
+  {
+   "k": "wy393r",
+   "en": "submarine"
+  },
+  {
+   "k": "5w6y6o",
+   "en": "screen_ship"
+  },
+  {
+   "k": "hzca9y",
+   "en": "capital_ship"
+  },
+  {
+   "k": "1nozfg7",
+   "en": "carrier"
+  },
+  {
+   "k": "o92zlk",
+   "en": "motorized"
+  },
+  {
+   "k": "9quihh",
+   "en": "mechanized"
+  },
+  {
+   "k": "119xmgw",
+   "en": "flame"
+  },
+  {
+   "k": "smxi4s",
+   "en": "amphibious"
+  },
+  {
+   "k": "a3uvu5",
+   "en": "Group Types"
+  },
+  {
+   "k": "temph3",
+   "en": "mobile"
+  },
+  {
+   "k": "1y38kin",
+   "en": "Map Icon Types"
+  },
+  {
+   "k": "mystol",
+   "en": "armored"
+  },
+  {
+   "k": "1jmn5kl",
+   "en": "other"
+  },
+  {
+   "k": "1btgadb",
+   "en": "ship"
+  },
+  {
+   "k": "1mlgw0i",
+   "en": "transport"
+  },
+  {
+   "k": "9r4m6m",
+   "en": "uboat"
+  },
+  {
+   "k": "4f26x8",
+   "en": "Stats"
+  },
+  {
+   "k": "nxnh8q",
+   "en": "Units use modifiers to determine which stats they have and what special actions they may take."
+  },
+  {
+   "k": "7nntwm",
+   "en": "Typically air units will not use any modifiers, whilst naval units use only ⟦0⟧ and ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "14e2j6m",
+   "en": "supply_consumption"
+  },
+  {
+   "k": "1fgmg94",
+   "en": "max_organisation"
+  },
+  {
+   "k": "16rt5kz",
+   "en": "Land units almost always use the following:"
+  },
+  {
+   "k": "11ijpom",
+   "en": "For ⟦0⟧, vanilla uses the following values:",
+   "frags": 1
+  },
+  {
+   "k": "18r1pvj",
+   "en": "infantry support: 20"
+  },
+  {
+   "k": "1q0v9z",
+   "en": "armor: 10"
+  },
+  {
+   "k": "1hm6cir",
+   "en": "armor support: 0"
+  },
+  {
+   "k": "1mq4u0h",
+   "en": "ship: 40"
+  },
+  {
+   "k": "thvdkg",
+   "en": "cavalry: 70"
+  },
+  {
+   "k": "194d1d2",
+   "en": "combat_width"
+  },
+  {
+   "k": "c32a0e",
+   "en": "infantry: 0"
+  },
+  {
+   "k": "18eika1",
+   "en": "artillery: 0"
+  },
+  {
+   "k": "1hc6qts",
+   "en": "armor support: 1"
+  },
+  {
+   "k": "j591b8",
+   "en": "armor: 2"
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "6viao1",
+   "en": "The following list is all the valid modifiers for use in units (and equipment):"
+  },
+  {
+   "k": "19phq7s",
+   "en": "Base"
+  },
+  {
+   "k": "1fknsmp",
+   "en": "Costs"
+  },
+  {
+   "k": "107am78",
+   "en": "Offensive"
+  },
+  {
+   "k": "p1fd0i",
+   "en": "Defensive"
+  },
+  {
+   "k": "10krl8m",
+   "en": "Unique"
+  },
+  {
+   "k": "1tn5u8v",
+   "en": "Boolean"
+  },
+  {
+   "k": "jz5dfg",
+   "en": "Navy-specific"
+  },
+  {
+   "k": "zbaiw6",
+   "en": "Air-specific"
+  },
+  {
+   "k": "eukv6o",
+   "en": "Localization"
+  },
+  {
+   "k": "f9adk0",
+   "en": "Each unit must be localized in a ⟦0⟧ file in the ⟦1⟧ folder within your mod.",
+   "frags": 2
+  },
+  {
+   "k": "k3hsvt",
+   "en": ".yml"
+  },
+  {
+   "k": "coj4nh",
+   "en": "localisation"
+  },
+  {
+   "k": "119p0pl",
+   "en": "Icons"
+  },
+  {
+   "k": "15ud3qh",
+   "en": "When adding a new unit it may appear, that your unit gets random icons in the division designer (like anti air icon, or what ever) This is caused, because the actual unit has no icon. You can provide sprites in ⟦0⟧. Create a new gfx file for your new unit. Add the following content for each unit in ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1qq2we3",
+   "en": "/Hearts of Iron IV/gfx/interface/counters"
+  },
+  {
+   "k": "59iejl",
+   "en": "Documentation"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "bbbsh0",
+   "en": "List of modifiers"
+  },
+  {
+   "k": "gkat0o",
+   "en": "Scopes"
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "22wvcr",
+   "en": "On actions"
+  },
+  {
+   "k": "10y68xx",
+   "en": "Data structures"
+  },
+  {
+   "k": "icm958",
+   "en": "Flags"
+  },
+  {
+   "k": "1fldcnt",
+   "en": "Event targets"
+  },
+  {
+   "k": "135tw29",
+   "en": "Country tag aliases"
+  },
+  {
+   "k": "xqivz6",
+   "en": "Variables"
+  },
+  {
+   "k": "14wbbvz",
+   "en": "Arrays"
+  },
+  {
+   "k": "wdu62e",
+   "en": "Scripting"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "475d63",
+   "en": "AI focuses"
+  },
+  {
+   "k": "gpz0z1",
+   "en": "Autonomous states"
+  },
+  {
+   "k": "a6cuzg",
+   "en": "Balances of power"
+  },
+  {
+   "k": "14khzdq",
+   "en": "Bookmarks/Scenarios"
+  },
+  {
+   "k": "xrnqxs",
+   "en": "Game rules"
+  },
+  {
+   "k": "1xa6gia",
+   "en": "Buildings"
+  },
+  {
+   "k": "8657g9",
+   "en": "Characters and traits"
+  },
+  {
+   "k": "o977ej",
+   "en": "Cosmetic tags"
+  },
+  {
+   "k": "8zhvfx",
+   "en": "Countries"
+  },
+  {
+   "k": "19eysrz",
+   "en": "Divisions"
+  },
+  {
+   "k": "vwifyo",
+   "en": "Decisions"
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "1xtq0ev",
+   "en": "Equipment"
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "e65ons",
+   "en": "Factions"
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "1cd8sst",
+   "en": "Ideologies"
+  },
+  {
+   "k": "1oopcvp",
+   "en": "Military industrial organizations"
+  },
+  {
+   "k": "k2esk3",
+   "en": "National focuses"
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "uu0bc4",
+   "en": "Scripted GUI"
+  },
+  {
+   "k": "1jzxqx9",
+   "en": "Technologies and doctrines"
+  },
+  {
+   "k": "j1sac1",
+   "en": "Map"
+  },
+  {
+   "k": "5afzz",
+   "en": "States"
+  },
+  {
+   "k": "8ppvas",
+   "en": "Supply areas"
+  },
+  {
+   "k": "1v2pifw",
+   "en": "Strategic regions"
+  },
+  {
+   "k": "1cffeuu",
+   "en": "Graphical"
+  },
+  {
+   "k": "yolbkg",
+   "en": "Interface"
+  },
+  {
+   "k": "2hqnqn",
+   "en": "Graphical assets"
+  },
+  {
+   "k": "6px9my",
+   "en": "Entities"
+  },
+  {
+   "k": "1n1sxcz",
+   "en": "Posteffects"
+  },
+  {
+   "k": "1fu6htw",
+   "en": "Particles"
+  },
+  {
+   "k": "t16z95",
+   "en": "Fonts"
+  },
+  {
+   "k": "1ig52hy",
+   "en": "Cosmetic"
+  },
+  {
+   "k": "9k7pgr",
+   "en": "Portraits"
+  },
+  {
+   "k": "65pf3n",
+   "en": "Namelists"
+  },
+  {
+   "k": "ohwdis",
+   "en": "Music"
+  },
+  {
+   "k": "1dvvwok",
+   "en": "Sound"
+  },
+  {
+   "k": "ukzedx",
+   "en": "Other"
+  },
+  {
+   "k": "1uzifys",
+   "en": "Console commands"
+  },
+  {
+   "k": "1t5bxxt",
+   "en": "Troubleshooting"
+  },
+  {
+   "k": "1djsobe",
+   "en": "Mod structure"
+  },
+  {
+   "k": "pw0jjk",
+   "en": "Mods"
+  },
+  {
+   "k": "pui2ou",
+   "en": "Nudger"
+  }
+ ]
+}

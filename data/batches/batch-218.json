@@ -1,0 +1,1438 @@
+{
+ "batch": 218,
+ "pages": [
+  "Triggers"
+ ],
+ "chars": 14974,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1g85fhg",
+   "en": "Targets the scope that the current scope is contained in. Can have additional applications where the assumed default scope differs from the ROOT, such as in state events or some on_actions. Can be chained indefinitely as PREV.PREV. ⟦0⟧: what's shown to the player doesn't always correlate with reality. See also: PREV usage.",
+   "frags": 1
+  },
+  {
+   "k": "12cyzen",
+   "en": "Commonly results in broken-looking tooltips"
+  },
+  {
+   "k": "dy4z2v",
+   "en": "PREV usage"
+  },
+  {
+   "k": "14zs6t1",
+   "en": "FROM"
+  },
+  {
+   "k": "1i57a2",
+   "en": "declare_war_on = { target = FROM type = annex_everything } FROM = { load_oob = defend_ourselves }"
+  },
+  {
+   "k": "1a8kada",
+   "en": "Can be chained indefinitely as FROM.FROM. Used to target various hardcoded scopes inherent to the block, often a secondary scope in addition to ROOT. For example: In events, this refers to the country that sent the event (i.e. if the event was fired using an effect, then it's the ROOT scope where it was fired). In targeted decisions or diplomacy scripted triggers, this refers to the scope that is targeted."
+  },
+  {
+   "k": "589chw",
+   "en": "events"
+  },
+  {
+   "k": "scxsnz",
+   "en": "using an effect"
+  },
+  {
+   "k": "jel3py",
+   "en": "targeted decisions"
+  },
+  {
+   "k": "f65dou",
+   "en": "diplomacy scripted triggers"
+  },
+  {
+   "k": "1ant8ik",
+   "en": "overlord"
+  },
+  {
+   "k": "1rx9lub",
+   "en": "overlord = { … }"
+  },
+  {
+   "k": "tlf5sv",
+   "en": "The overlord of the country if it is a subject. ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "pwhv3h",
+   "en": "Subject to the 'invalid event target' error."
+  },
+  {
+   "k": "bqlv2l",
+   "en": "faction_leader"
+  },
+  {
+   "k": "1qqpwdb",
+   "en": "faction_leader = { add_to_faction = FROM }"
+  },
+  {
+   "k": "13tr63l",
+   "en": "Faction leader of the faction the country is a part of. ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1w39mfo",
+   "en": "owner"
+  },
+  {
+   "k": "7ctio0",
+   "en": "Within state, character, or combatant scope only"
+  },
+  {
+   "k": "16xpe8m",
+   "en": "owner = { add_ideas = owns_this_state }"
+  },
+  {
+   "k": "u304x7",
+   "en": "In state scope, the country that owns the state. In ⟦0⟧, the country that owns the divisions. In character scope, the country that has recruited the character. ⟦1⟧ when used for a state.",
+   "frags": 2
+  },
+  {
+   "k": "1wzru0a",
+   "en": "combatant scope"
+  },
+  {
+   "k": "o2vd01",
+   "en": "Subject to the 'invalid event target' error"
+  },
+  {
+   "k": "1e1x11d",
+   "en": "controller"
+  },
+  {
+   "k": "1oyw77q",
+   "en": "controller = { ROOT = { create_wargoal = { target = PREV type = take_state_focus generator = { 123 } } } }"
+  },
+  {
+   "k": "1u8pv9v",
+   "en": "The controller of the current state. ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "y80vmg",
+   "en": "capital_scope"
+  },
+  {
+   "k": "1blwzyv",
+   "en": "capital_scope = { … }"
+  },
+  {
+   "k": "lc8s4u",
+   "en": "The state where the capital of the current country is located in. ⟦0⟧ in rare cases.",
+   "frags": 1
+  },
+  {
+   "k": "w46sgb",
+   "en": "event_target:<event_target_key>"
+  },
+  {
+   "k": "163flev",
+   "en": "event_target:my_event_target = { … }"
+  },
+  {
+   "k": "1eic3r6",
+   "en": "Saved ⟦0⟧, with no space after the colon. ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "dcahzx",
+   "en": "event target or global event target"
+  },
+  {
+   "k": "1c752ui",
+   "en": "var:<variable>"
+  },
+  {
+   "k": "1yvxzaq",
+   "en": "⟦0⟧ ⟦1⟧ or ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "rfvcsw",
+   "en": "var:my_variable = { … }"
+  },
+  {
+   "k": "1p09op3",
+   "en": "add_to_faction = my_variable"
+  },
+  {
+   "k": "1n1h4fo",
+   "en": "add_to_faction = var:my_variable"
+  },
+  {
+   "k": "fr8ep3",
+   "en": "⟦0⟧ set to a scope. When used as a target rather than a scope, the var: can be omitted in most cases.",
+   "frags": 1
+  },
+  {
+   "k": "ye709x",
+   "en": "Variable"
+  },
+  {
+   "k": "1ydu40c",
+   "en": "var:"
+  },
+  {
+   "k": "sp5etn",
+   "en": "Flow control tools"
+  },
+  {
+   "k": "huofh8",
+   "en": "Main article: Scopes#Flow control tools"
+  },
+  {
+   "k": "8gwtss",
+   "en": "These are triggers that serve as more of a way to establish a connection in how triggers are evaluated. Each one serves as a trigger scope with additional arguments and can be used regardless of scope."
+  },
+  {
+   "k": "qfwb7c",
+   "en": "Additional parameters"
+  },
+  {
+   "k": "uy0v5i",
+   "en": "Examples"
+  },
+  {
+   "k": "4f76ga",
+   "en": "Notes"
+  },
+  {
+   "k": "deku7v",
+   "en": "None"
+  },
+  {
+   "k": "s0iy71",
+   "en": "AND = { original_tag = GER has_stability > 0.5 }"
+  },
+  {
+   "k": "d6efo6",
+   "en": "Returns false if any sub-trigger returns false, true otherwise. Evaluation stops at the first false sub-trigger."
+  },
+  {
+   "k": "1qztty2",
+   "en": "Only necessary within ⟦0⟧ and ⟦1⟧, as everything else is implicitly AND.",
+   "frags": 2
+  },
+  {
+   "k": "1um60gu",
+   "en": "OR statements"
+  },
+  {
+   "k": "19py6l8",
+   "en": "NOT statements"
+  },
+  {
+   "k": "1v2xm3w",
+   "en": "OR = { original_tag = ENG original_tag = USA }"
+  },
+  {
+   "k": "qz2thk",
+   "en": "Returns true if any sub-trigger returns true, false otherwise. Evaluation stops at the first true sub-trigger."
+  },
+  {
+   "k": "1bpd9re",
+   "en": "NOT"
+  },
+  {
+   "k": "s121wu",
+   "en": "NOT = { has_stability > 0.5 has_war_support > 0.5 }"
+  },
+  {
+   "k": "1t7re72",
+   "en": "Returns false if any sub-trigger returns true, true otherwise. Evaluation stops at the first true sub-trigger."
+  },
+  {
+   "k": "19ews4n",
+   "en": "Equivalent to a NOR rather than a NAND."
+  },
+  {
+   "k": "bcpe98",
+   "en": "count_triggers"
+  },
+  {
+   "k": "4il4z9",
+   "en": "⟦0⟧ The amount of triggers that need to be fulfilled.",
+   "frags": 1
+  },
+  {
+   "k": "2t7tjn",
+   "en": "amount = <int>"
+  },
+  {
+   "k": "16yj5f8",
+   "en": "count_triggers = { amount = 2 10 = { state_population = 100000 } 11 = { state_population = 100000 } 12 = { state_population = 100000 } }"
+  },
+  {
+   "k": "1ajrnc7",
+   "en": "Sums the results of all sub-triggers (false=0, true=1) and returns true if the sum is at least ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1wofnt5",
+   "en": "amount"
+  },
+  {
+   "k": "8rk5by",
+   "en": "⟦0⟧ else_if = <if-trigger> Alternative condition. Optional. else = <AND-trigger> Final alternative condition. Optional.",
+   "frags": 1
+  },
+  {
+   "k": "d1cd7q",
+   "en": "limit = <trigger block>"
+  },
+  {
+   "k": "z9bhgv",
+   "en": "else_if = <if-trigger>"
+  },
+  {
+   "k": "12rss5l",
+   "en": "else = <AND-trigger>"
+  },
+  {
+   "k": "arn1yh",
+   "en": "if = { limit = { has_dlc = \"Poland: United and Ready\" } has_political_power > 100 } else_if = { limit = { has_dlc = \"Waking the Tiger\" } has_war_support > 0.5 } else = { always = no }"
+  },
+  {
+   "k": "crudbm",
+   "en": "If ⟦0⟧ is true, the sub-triggers are evaluated like an AND-trigger. If ⟦1⟧ is false, ⟦2⟧ blocks are tried in sequence and finally ⟦3⟧ (if present). ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "e3z3uc",
+   "en": "limit"
+  },
+  {
+   "k": "cb9ka6",
+   "en": "else_if"
+  },
+  {
+   "k": "1gnc1yo",
+   "en": "else"
+  },
+  {
+   "k": "1gey8bc",
+   "en": "Otherwise true is returned"
+  },
+  {
+   "k": "v18ap8",
+   "en": "Both nested (As in inside of ⟦0⟧) and unnested (As in the example) ⟦1⟧ and ⟦2⟧ exist. In case of overlap, unnested is preferred. Can be useful for tooltip management: same as in effects, if the limit is unmet, nothing appears. If it is met, then the limit is hidden while the condition outside of the limit appears in the tooltip. if = { limit = { trigger_1 = yes } trigger_2 = yes } is equivalent to OR = { NOT = { trigger_1 = yes } trigger_2 = yes }, but generates a different tooltip.",
+   "frags": 3
+  },
+  {
+   "k": "k47td",
+   "en": "if = { ... }"
+  },
+  {
+   "k": "kxs7vw",
+   "en": "if = { limit = { trigger_1 = yes } trigger_2 = yes }"
+  },
+  {
+   "k": "10ervcs",
+   "en": "OR = { NOT = { trigger_1 = yes } trigger_2 = yes }"
+  },
+  {
+   "k": "lmk5oy",
+   "en": "hidden_trigger"
+  },
+  {
+   "k": "iiqdsl",
+   "en": "hidden_trigger = { country_exists = GER }"
+  },
+  {
+   "k": "19dir3e",
+   "en": "Hides the triggers from the tooltip shown to the player."
+  },
+  {
+   "k": "1h26d0",
+   "en": "Also serves as an ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "bb2i4t",
+   "en": "custom_trigger_tooltip"
+  },
+  {
+   "k": "pemdbi",
+   "en": "⟦0⟧ The localisation key to use.",
+   "frags": 1
+  },
+  {
+   "k": "lqfkq8",
+   "en": "tooltip = <string>"
+  },
+  {
+   "k": "i5qse1",
+   "en": "custom_trigger_tooltip = { tooltip = sunrise_invasion_tt any_state = { is_owned_by = JAP is_on_continent = europe is_coastal = yes } }"
+  },
+  {
+   "k": "1afat4j",
+   "en": "Hides the triggers from the tooltip shown to the player and instead uses the specified localisation key."
+  },
+  {
+   "k": "164v740",
+   "en": "Alias for ⟦0⟧ trigger (see that trigger for more info). Kept for backward compatibility. Prefer ⟦1⟧ instead. Also supports Localisation#Bindable_localisation.",
+   "frags": 2
+  },
+  {
+   "k": "1dzu4pa",
+   "en": "#custom_override_tooltip"
+  },
+  {
+   "k": "ivjz82",
+   "en": "Localisation#Bindable_localisation"
+  },
+  {
+   "k": "1pje3c7",
+   "en": "custom_override_tooltip"
+  },
+  {
+   "k": "zb38pq",
+   "en": "⟦0⟧ The localisation key to use. not_tooltip = <string> The localisation key to use for NOT block. Optional.",
+   "frags": 1
+  },
+  {
+   "k": "15qu5ym",
+   "en": "not_tooltip = <string>"
+  },
+  {
+   "k": "1gvdu7e",
+   "en": "custom_override_tooltip = { tooltip = { localization_key = GER_inner_circle_focus_in_progress_tt CHARACTER = GER_rudolf_hess FLAG_DAYS = [?GER_rally_the_industrialists_in_progress_flag:days] } not_tooltip = MY_TOOLTIP_NOT <triggers> }"
+  },
+  {
+   "k": "rynrrp",
+   "en": "An ⟦0⟧ trigger that has an overriden custom tooltip.",
+   "frags": 1
+  },
+  {
+   "k": "1010ntd",
+   "en": "A positive tooltip can be set with ⟦0⟧ and the tooltip to be used inside a ⟦1⟧ can be set with ⟦2⟧. If no positive tooltip is provided and the root key is a localization key (not a formatter, see formatted localization), then a negative tooltip will be generated by appending ⟦3⟧ to the root localization for the positive tooltip. Both ⟦4⟧ and ⟦5⟧ are bindable localizations. Can also be used as effect. Also supports Localisation#Bindable_localisation.",
+   "frags": 6
+  },
+  {
+   "k": "1pvf5ww",
+   "en": "tooltip"
+  },
+  {
+   "k": "11zwgjy",
+   "en": "not_tooltip"
+  },
+  {
+   "k": "49ooaz",
+   "en": "_NOT"
+  },
+  {
+   "k": "7ohncj",
+   "en": "Can also be used as effect."
+  },
+  {
+   "k": "ggwjbp",
+   "en": "Any scope"
+  },
+  {
+   "k": "ndl6ud",
+   "en": "These triggers do not require any particular scope."
+  },
+  {
+   "k": "nov4ln",
+   "en": "General"
+  },
+  {
+   "k": "1yc4h6h",
+   "en": "Parameters"
+  },
+  {
+   "k": "smyztw",
+   "en": "always"
+  },
+  {
+   "k": "i8lesi",
+   "en": "⟦0⟧ Boolean.",
+   "frags": 1
+  },
+  {
+   "k": "1n24uqb",
+   "en": "<bool>"
+  },
+  {
+   "k": "sqbpr8",
+   "en": "always = yes"
+  },
+  {
+   "k": "10w6v28",
+   "en": "Always returns true or false. Useful for debugging."
+  },
+  {
+   "k": "1m1xhp2",
+   "en": "has_global_flag"
+  },
+  {
+   "k": "colbba",
+   "en": "⟦0⟧ The flag to check.",
+   "frags": 1
+  },
+  {
+   "k": "hb7sbk",
+   "en": "<string>"
+  },
+  {
+   "k": "1t0c4r4",
+   "en": "has_global_flag = my_flag"
+  },
+  {
+   "k": "orluu4",
+   "en": "Checks if the specified flag has been set."
+  },
+  {
+   "k": "1axq28i",
+   "en": "⟦0⟧ The flag to check. value = <int> The flag value to check for. Optional. date = <date> The flag creation date to check for. Optional. days = <int> The duration the flag existed for. Optional.",
+   "frags": 1
+  },
+  {
+   "k": "3lz5fd",
+   "en": "flag = <string>"
+  },
+  {
+   "k": "nuhxuo",
+   "en": "value = <int>"
+  },
+  {
+   "k": "x2vw9o",
+   "en": "date = <date>"
+  },
+  {
+   "k": "l3jsv4",
+   "en": "days = <int>"
+  },
+  {
+   "k": "1h6qlks",
+   "en": "has_global_flag = { flag = my_flag days > 30 date > 1936.6.1 value > 0 }"
+  },
+  {
+   "k": "7qi1g9",
+   "en": "Compares the specified flag's last set date, days since last set, and/or value."
+  },
+  {
+   "k": "9kkdtw",
+   "en": "If not set, the value comparison is ⟦0⟧. ⟦1⟧ is limited between -32768 and 32767.",
+   "frags": 2
+  },
+  {
+   "k": "ieyeh6",
+   "en": "value"
+  },
+  {
+   "k": "7thfo5",
+   "en": "has_dlc"
+  },
+  {
+   "k": "1towbh1",
+   "en": "⟦0⟧ The DLC name to check for.",
+   "frags": 1
+  },
+  {
+   "k": "amd4lj",
+   "en": "has_dlc = \"Waking the Tiger\""
+  },
+  {
+   "k": "6g3pgu",
+   "en": "Checks if the specified DLC is enabled."
+  },
+  {
+   "k": "1lwmro9",
+   "en": "has_start_date"
+  },
+  {
+   "k": "pglk69",
+   "en": "⟦0⟧ The date to check for.",
+   "frags": 1
+  },
+  {
+   "k": "1yhrghv",
+   "en": "<date>"
+  },
+  {
+   "k": "19g17ts",
+   "en": "has_start_date > 1950.01.01"
+  },
+  {
+   "k": "iswf9k",
+   "en": "Checks if the specified date was the start date used for the current game."
+  },
+  {
+   "k": "oex6h7",
+   "en": "Year.Month.Day Must use either > or < operators."
+  },
+  {
+   "k": "1my39eh",
+   "en": "date"
+  },
+  {
+   "k": "eqnpui",
+   "en": "date < 1950.01.01"
+  },
+  {
+   "k": "5niuvt",
+   "en": "Checks if the specified date against the current date."
+  },
+  {
+   "k": "2q0bn4",
+   "en": "difficulty"
+  },
+  {
+   "k": "r3jjsl",
+   "en": "⟦0⟧ The difficulty value.",
+   "frags": 1
+  },
+  {
+   "k": "1x6u8ym",
+   "en": "<int>"
+  },
+  {
+   "k": "ff0jze",
+   "en": "difficulty > 0"
+  },
+  {
+   "k": "17m8jgn",
+   "en": "checks if the specified difficulty against the current difficulty."
+  },
+  {
+   "k": "1or3u0s",
+   "en": "Must use either > or < operators."
+  },
+  {
+   "k": "18yreob",
+   "en": "has_any_custom_difficulty_setting"
+  },
+  {
+   "k": "1blimif",
+   "en": "has_any_custom_difficulty_setting = yes"
+  },
+  {
+   "k": "5ge031",
+   "en": "Checks if any custom difficulty setting is changed from their default value."
+  },
+  {
+   "k": "svymlg",
+   "en": "Custom difficulty in this case refers to ⟦0⟧, used in base game to strengthen a specific country.",
+   "frags": 1
+  },
+  {
+   "k": "ntmw10",
+   "en": "/Hearts of Iron IV/common/difficulty_settings/*.txt"
+  },
+  {
+   "k": "19iuz5y",
+   "en": "has_custom_difficulty_setting"
+  },
+  {
+   "k": "1udg8kq",
+   "en": "⟦0⟧ The setting to check.",
+   "frags": 1
+  },
+  {
+   "k": "19ty46n",
+   "en": "has_custom_difficulty_setting = custom_diff_strong_sov"
+  },
+  {
+   "k": "13yaw55",
+   "en": "Checks if the specified custom difficulty setting is changed from the default value."
+  },
+  {
+   "k": "9b0tm6",
+   "en": "game_rules_allow_achievements"
+  },
+  {
+   "k": "17ezkjm",
+   "en": "game_rules_allow_achievements = yes"
+  },
+  {
+   "k": "1fvkr0h",
+   "en": "Checks if all of the active game rule options allow achievements."
+  },
+  {
+   "k": "161d81e",
+   "en": "country_exists"
+  },
+  {
+   "k": "1r1yvr8",
+   "en": "⟦0⟧ The country to check.",
+   "frags": 1
+  },
+  {
+   "k": "8ougqm",
+   "en": "<scope> / <variable>"
+  },
+  {
+   "k": "1ghmn0b",
+   "en": "country_exists = GER"
+  },
+  {
+   "k": "1n1hm6p",
+   "en": "Checks if the specified country currently exists in game."
+  },
+  {
+   "k": "zablg",
+   "en": "is_ironman"
+  },
+  {
+   "k": "1x9nyfo",
+   "en": "is_ironman = yes"
+  },
+  {
+   "k": "1fxje36",
+   "en": "Checks if the current game is running in Ironman mode."
+  },
+  {
+   "k": "ait2gr",
+   "en": "is_historical_focus_on"
+  },
+  {
+   "k": "1f4iiiv",
+   "en": "is_historical_focus_on = yes"
+  },
+  {
+   "k": "1p89dqd",
+   "en": "Checks if the current game is running with Historical Focuses on."
+  },
+  {
+   "k": "111cx3c",
+   "en": "is_tutorial"
+  },
+  {
+   "k": "12epgzc",
+   "en": "is_tutorial = yes"
+  },
+  {
+   "k": "cl3rvw",
+   "en": "Checks if the current game is running in Tutorial mode."
+  },
+  {
+   "k": "1k3vz3d",
+   "en": "is_debug"
+  },
+  {
+   "k": "118lpht",
+   "en": "is_debug = yes"
+  },
+  {
+   "k": "132pgua",
+   "en": "Checks if game is in debug mode (launched with -debug argument)."
+  },
+  {
+   "k": "1de38gx",
+   "en": "threat"
+  },
+  {
+   "k": "1lfs7gh",
+   "en": "⟦0⟧ The amount to check for.",
+   "frags": 1
+  },
+  {
+   "k": "13aphnn",
+   "en": "<float>"
+  },
+  {
+   "k": "qaplz6",
+   "en": "threat > 0.5"
+  },
+  {
+   "k": "uqar51",
+   "en": "Checks if World Tension is above the specified amount."
+  },
+  {
+   "k": "12ky2p9",
+   "en": "has_game_rule"
+  },
+  {
+   "k": "1x7q4nq",
+   "en": "⟦0⟧ The game rule to check for. <string> / <bool> The option to check.",
+   "frags": 1
+  },
+  {
+   "k": "6psrd9",
+   "en": "<string> / <bool>"
+  },
+  {
+   "k": "x3g4bh",
+   "en": "has_game_rule = { rule = GER_can_remilitarize_rhineland option = yes }"
+  },
+  {
+   "k": "16im8r0",
+   "en": "Checks if a game rule is set to a particular option."
+  },
+  {
+   "k": "1p19lp",
+   "en": "has_completed_custom_achievement"
+  },
+  {
+   "k": "1xjkcg7",
+   "en": "⟦0⟧ The mod where the achievement is from. achievement = <achievement ID> The name of the achievement.",
+   "frags": 1
+  },
+  {
+   "k": "x95m1x",
+   "en": "mod = <mod ID>"
+  },
+  {
+   "k": "17bb8rf",
+   "en": "achievement = <achievement ID>"
+  },
+  {
+   "k": "mwc51m",
+   "en": "has_completed_custom_achievement = { mod = my_mod_unique_id achievement = my_achievement_token }"
+  },
+  {
+   "k": "3kdh00",
+   "en": "Checks if the player controlling the current scope has completed the specified custom achievement."
+  },
+  {
+   "k": "srx1iz",
+   "en": "The achievement (including the ID of the mod it's from) is defined within ⟦0⟧ files⟦1⟧. The achievement could be completed during a previous session, not necessarily the current one. If the mod defining the achievement is not loaded, the trigger evaluates as false.",
+   "frags": 2
+  },
+  {
+   "k": "j8wr4z",
+   "en": "/Hearts of Iron IV/common/achievements/*.txt"
+  },
+  {
+   "k": "1g9ipe",
+   "en": "Career profile"
+  },
+  {
+   "k": "14bry5u",
+   "en": "career_profile_check_medal"
+  },
+  {
+   "k": "hlmsut",
+   "en": "⟦0⟧ Medal to check. ???",
+   "frags": 1
+  },
+  {
+   "k": "1pe668k",
+   "en": "medal = <medal>"
+  },
+  {
+   "k": "719kf0",
+   "en": "career_profile_check_medal = { medal = raining_debris_medal ??? }"
+  },
+  {
+   "k": "1fd5tcp",
+   "en": "Checks if the required medal is achieved and collected."
+  },
+  {
+   "k": "1aw1wg4",
+   "en": "Provide no tooltip."
+  },
+  {
+   "k": "2lbnpb",
+   "en": "career_profile_check_ribbon"
+  },
+  {
+   "k": "ngolf",
+   "en": "⟦0⟧ Ribbon to check. tooltip = <loc_key> Optional.",
+   "frags": 1
+  },
+  {
+   "k": "fe725w",
+   "en": "ribbon = <ribbon>"
+  },
+  {
+   "k": "1uxkwkr",
+   "en": "tooltip = <loc_key>"
+  },
+  {
+   "k": "19b7jaz",
+   "en": "career_profile_check_ribbon = { ribbon = orchestra_of_boom tooltip = my_loc_key }"
+  },
+  {
+   "k": "1v0dxwe",
+   "en": "Checks if the required ribbon is achieved and collected."
+  },
+  {
+   "k": "177faqu",
+   "en": "By default provide no tooltip."
+  },
+  {
+   "k": "1j2mq8q",
+   "en": "career_profile_check_playthrough_ratio"
+  },
+  {
+   "k": "vxrwxu",
+   "en": "⟦0⟧ second = <variable> ratio = <int> Ratio. compare = <type> The type of comparison.",
+   "frags": 1
+  },
+  {
+   "k": "1gzti28",
+   "en": "frits = <variable>"
+  },
+  {
+   "k": "cvgw5k",
+   "en": "second = <variable>"
+  },
+  {
+   "k": "1wyrt1m",
+   "en": "ratio = <int>"
+  },
+  {
+   "k": "1nxnhzf",
+   "en": "compare = <type>"
+  },
+  {
+   "k": "1hngb44",
+   "en": "career_profile_check_playthrough_ratio = { first = enemy_casualties second = total_own_casualties ratio = 4 compare = greater_than_or_equals }"
+  },
+  {
+   "k": "zhge0m",
+   "en": "Compares the ratio (first/second) of two playthrough values to a number."
+  },
+  {
+   "k": "15up9w1",
+   "en": "Provide no tooltip. Possible compare types: less_than less_than_or_equals greater_than greater_than_or_equals equals not_equals"
+  },
+  {
+   "k": "1nzt7ga",
+   "en": "less_than"
+  },
+  {
+   "k": "1eujwfq",
+   "en": "less_than_or_equals"
+  },
+  {
+   "k": "1b2e0jt",
+   "en": "greater_than"
+  },
+  {
+   "k": "1ohfcj5",
+   "en": "greater_than_or_equals"
+  },
+  {
+   "k": "mjg61g",
+   "en": "equals"
+  },
+  {
+   "k": "ye8ulu",
+   "en": "not_equals"
+  },
+  {
+   "k": "1xj9304",
+   "en": "career_profile_check_playthrough_value"
+  },
+  {
+   "k": "gqnylt",
+   "en": "⟦0⟧ OR var = <variable> Value to compare. value = <int> Value to compare to. compare = <type> The type of comparison. Optional. tooltip = <loc_key> Optional. tooltip_value = <int> Optional.",
+   "frags": 1
+  },
+  {
+   "k": "102u06l",
+   "en": "var = <variable>"
+  },
+  {
+   "k": "mfo5yg",
+   "en": "tooltip_value = <int>"
+  },
+  {
+   "k": "14aejhw",
+   "en": "career_profile_check_playthrough_value = { plan_landlocked_battleship > 1 plan_landlocked_carrier > 0 } career_profile_check_playthrough_value = { var = deployed_airplanes_with_air_defense_gold value = 100 compare = greater_than_or_equals tooltip = CAREER_PROFILE_TRIGGER_DEPLOYED_AIRPLANES_WITH_AIR_DEFENSE tooltip_value = 100"
+  },
+  {
+   "k": "umfrk3",
+   "en": "Compares a playthrough value to a number."
+  },
+  {
+   "k": "jvos3",
+   "en": "By default provide no tooltip. Possible compare types: less_than less_than_or_equals greater_than greater_than_or_equals equals not_equals"
+  },
+  {
+   "k": "16ggyac",
+   "en": "career_profile_check_points"
+  },
+  {
+   "k": "iaeg4",
+   "en": "⟦0⟧ Value to compare. compare = <type> The type of comparison. tooltip = <loc_key> Optional.",
+   "frags": 1
+  },
+  {
+   "k": "1gl4ix9",
+   "en": "career_profile_check_points = { value = 5000 compare = greater_than_or_equals tooltip = CAREER_PROFILE_TRIGGER_MINED_SEA_REGIONS }"
+  },
+  {
+   "k": "9zub6p",
+   "en": "Compares a career points value to a number."
+  },
+  {
+   "k": "adqlaa",
+   "en": "career_profile_check_ratio"
+  },
+  {
+   "k": "14cx8r2",
+   "en": "Possible the same as ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1b51cdd",
+   "en": "#career_profile_check_playthrough_ratio"
+  },
+  {
+   "k": "1c597z2",
+   "en": "Compares the ratio (first/second) of two career profile values to a number."
+  },
+  {
+   "k": "11uytu4",
+   "en": "career_profile_check_value"
+  },
+  {
+   "k": "1ssyl57",
+   "en": "#career_profile_check_playthrough_value"
+  },
+  {
+   "k": "fx79v",
+   "en": "Compares a career profile value to a number."
+  },
+  {
+   "k": "1db9de5",
+   "en": "career_profile_has_player_flag"
+  },
+  {
+   "k": "i4g79h",
+   "en": "career_profile_has_player_flag = career_profile_overrun_infantry_flag"
+  },
+  {
+   "k": "qunepw",
+   "en": "Checks if the flag is set for the local player."
+  },
+  {
+   "k": "xqivz6",
+   "en": "Variables"
+  },
+  {
+   "k": "1qg68uk",
+   "en": "has_variable"
+  },
+  {
+   "k": "1fw23ug",
+   "en": "⟦0⟧ The variable to check.",
+   "frags": 1
+  },
+  {
+   "k": "1ytxl23",
+   "en": "<variable>"
+  },
+  {
+   "k": "1gnpvhl",
+   "en": "has_variable = my_var"
+  },
+  {
+   "k": "o9u483",
+   "en": "Checks if the specified variable exists for the current scope."
+  },
+  {
+   "k": "1m6ezt4",
+   "en": "check_variable"
+  },
+  {
+   "k": "1073rce",
+   "en": "⟦0⟧ The variable to check. value = <float> / <variable> The value to check for. compare = <type> The type of comparison. Optional, can use < or > instead.",
+   "frags": 1
+  },
+  {
+   "k": "1t894uy",
+   "en": "value = <float> / <variable>"
+  },
+  {
+   "k": "7g5gx9",
+   "en": "check_variable = { var = my_var value = 10 compare = greater_than_or_equals } check_variable = { my_var > 10 }"
+  },
+  {
+   "k": "m8lj8r",
+   "en": "Check the specified variable for the current scope."
+  },
+  {
+   "k": "5ijd7e",
+   "en": "Possible compare types: less_than less_than_or_equals greater_than greater_than_or_equals equals not_equals"
+  },
+  {
+   "k": "1b559px",
+   "en": "Remember that variables need to refer to the scope they were set in. This means you can't check a country variable in a state scope without scoping the variable."
+  },
+  {
+   "k": "16g4aol",
+   "en": "For example, to get the country variable whilst in a state scope, you'd do the following:"
+  },
+  {
+   "k": "14mpkv",
+   "en": "See ⟦0⟧ for more information.",
+   "frags": 1
+  },
+  {
+   "k": "1dnqwur",
+   "en": "Debugging"
+  },
+  {
+   "k": "ehuqr9",
+   "en": "These are usable as both effects and triggers and are used for debugging, with the player never seeing them."
+  },
+  {
+   "k": "hkgn69",
+   "en": "log"
+  },
+  {
+   "k": "m13pcg",
+   "en": "⟦0⟧ What to log. Supports dynamic localisation.",
+   "frags": 1
+  },
+  {
+   "k": "vel4xd",
+   "en": "log = \"Added [?temp_add] to [THIS.GetTag]'s variable [?THIS.varvalue]\""
+  },
+  {
+   "k": "19duriz",
+   "en": "Appends an entry into the game.log and, if open, the console when evaluating the trigger."
+  },
+  {
+   "k": "1hhlwey",
+   "en": "game.log is stored within ⟦0⟧ in the ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1vwf2vm",
+   "en": "/Hearts of Iron IV/logs/"
+  },
+  {
+   "k": "3tohp",
+   "en": "user directory"
+  },
+  {
+   "k": "1unjd9u",
+   "en": "print_variables"
+  },
+  {
+   "k": "16yl1tp",
+   "en": "⟦0⟧ Print global variables. Defaults to ⟦1⟧. var_list = <list> The variables to print. Defaults to all variables. file = <string>The file path to log to. Defaults to \"variable_dump\". Does not include the .log extension. text = <string>Text to prepend. Defaults to \"No Header\". append = <bool>Whether to append to the file instead of overwrite. Defaults to yes",
+   "frags": 2
+  },
+  {
+   "k": "1b84eb9",
+   "en": "print_global = <bool>"
+  },
+  {
+   "k": "xcisw2",
+   "en": "var_list = <list>"
+  },
+  {
+   "k": "1u69vvh",
+   "en": "file = <string>"
+  },
+  {
+   "k": "pgpc19",
+   "en": ".log"
+  },
+  {
+   "k": "regsou",
+   "en": "text = <string>"
+  },
+  {
+   "k": "6kamt8",
+   "en": "append = <bool>"
+  },
+  {
+   "k": "t0dgv5",
+   "en": "print_variables = { var_list = { myvar1 myvar2 } file = \"my_dump_file\" text = \"my header\" }"
+  },
+  {
+   "k": "18y71wf",
+   "en": "Dumps the specified variables from the current scope and optionally the global scope into a log file with the specified name."
+  },
+  {
+   "k": "o8tdl2",
+   "en": "The log will be within ⟦0⟧ in the ⟦1⟧. See also ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "14mnccv",
+   "en": "/Hearts of Iron IV/logs/variable_dumps/"
+  },
+  {
+   "k": "e2wyzq",
+   "en": "debugging variables"
+  },
+  {
+   "k": "u2dqdt",
+   "en": "Can be used in ⟦0⟧ scope.",
+   "frags": 1
+  },
+  {
+   "k": "gkref1",
+   "en": "exists"
+  },
+  {
+   "k": "7pz2c5",
+   "en": "exists = yes"
+  },
+  {
+   "k": "k5rwp6",
+   "en": "Checks if the current scope exists in game."
+  },
+  {
+   "k": "15lyoib",
+   "en": "tag"
+  },
+  {
+   "k": "oegqi5",
+   "en": "tag = GER tag = var:my_country"
+  },
+  {
+   "k": "17zjg8u",
+   "en": "Checks if the current scope is the specified country."
+  },
+  {
+   "k": "7elnn9",
+   "en": "Only checks the actual tag while excluding dynamic countries, see ⟦0⟧ if they should be included.",
+   "frags": 1
+  },
+  {
+   "k": "1swoskd",
+   "en": "original_tag"
+  },
+  {
+   "k": "fmirfz",
+   "en": "original_tag = GER original_tag = var:my_country"
+  },
+  {
+   "k": "1bo9lxn",
+   "en": "Checks if the current scope originates from the specified country."
+  },
+  {
+   "k": "10po1vy",
+   "en": "This also includes dynamic countries: civil war breakaways and countries created via ⟦0⟧. True for the original country.",
+   "frags": 1
+  },
+  {
+   "k": "ls408m",
+   "en": "create_dynamic_country"
+  },
+  {
+   "k": "1ourq5o",
+   "en": "is_ai"
+  },
+  {
+   "k": "1iuvc8c",
+   "en": "is_ai = yes"
+  },
+  {
+   "k": "1t7k6nb",
+   "en": "Checks if the current scope is AI."
+  },
+  {
+   "k": "1wn92mx",
+   "en": "has_collaboration"
+  },
+  {
+   "k": "1n8oa23",
+   "en": "⟦0⟧ The country to check. value <> <decimal> The value of the collaboration on the 0-1 scale.",
+   "frags": 1
+  },
+  {
+   "k": "1b9en9r",
+   "en": "target = <country>"
+  },
+  {
+   "k": "113mbi7",
+   "en": "value <> <decimal>"
+  }
+ ]
+}

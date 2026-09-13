@@ -1,0 +1,656 @@
+{
+ "page": "Modifiers",
+ "from": 0,
+ "items": [
+  {
+   "k": "92cutw",
+   "en": "A modifier is essentially a variable used in internal calculations. However, unlike ⟦0⟧, modifiers are dynamically changeable within any modifier block. In general, modifiers are typically used to create a consistent and long-lasting effect that can be easily reversed. Each modifier has the exact same layout: ⟦1⟧. This adds the specified value to the modifier's total value for the scope where it is applied.⟦2⟧ For example, assuming that there are no other modifiers changing that to the country, having ⟦3⟧ and ⟦4⟧ applied to the country (potentially in different modifier blocks) will result in a total of ⟦5⟧ political power gain above the base gain. Due to how modifiers work, ⟦6⟧ This also means that negative modifiers will always work and have the opposite effect of positive modifiers. A modifier's current total value can be received as a variable by reading ⟦7⟧, such as ⟦8⟧. This works for countries and states, but for unit leaders, ⟦9⟧ and ⟦10⟧ is used instead.",
+   "zh": ""
+  },
+  {
+   "k": "1n1nars",
+   "en": "modifier_name = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "wzat1w",
+   "en": "[a]",
+   "zh": ""
+  },
+  {
+   "k": "1edtga3",
+   "en": "political_power_gain = 0.2",
+   "zh": ""
+  },
+  {
+   "k": "9jbfvl",
+   "en": "political_power_gain = -0.05",
+   "zh": ""
+  },
+  {
+   "k": "15v9ph9",
+   "en": "a modifier with the value of 0 will always do nothing.",
+   "zh": ""
+  },
+  {
+   "k": "1n9steh",
+   "en": "modifier@modifier_name",
+   "zh": ""
+  },
+  {
+   "k": "nywyq0",
+   "en": "set_variable = { my_var = modifier@political_power_gain }",
+   "zh": ""
+  },
+  {
+   "k": "56v56s",
+   "en": "unit_modifier@modifier_name",
+   "zh": ""
+  },
+  {
+   "k": "1pbnpc5",
+   "en": "leader_modifier@modifier_name",
+   "zh": ""
+  },
+  {
+   "k": "14esr4q",
+   "en": "The following are ⟦0⟧ modifiers, even if they are similar:",
+   "zh": ""
+  },
+  {
+   "k": "1k5820c",
+   "en": "Research bonuses allowing to grant a boost to a specific technology category. This is, instead, ⟦0⟧, which can be applied in the same way for advisors, but not elsewhere.",
+   "zh": ""
+  },
+  {
+   "k": "1b9taek",
+   "en": "an argument within ideas",
+   "zh": ""
+  },
+  {
+   "k": "1bmyp9p",
+   "en": "Equipment bonuses, such as decreasing the cost to build an equipment archetype. Similarly, this is ⟦0⟧, which can be applied in the same way for advisors and country leader traits, but not elsewhere.",
+   "zh": ""
+  },
+  {
+   "k": "1xvwwd8",
+   "en": "Opinion modifiers, which can be applied to change the opinion (including trade influence) within countries, defined in ⟦0⟧ files.",
+   "zh": ""
+  },
+  {
+   "k": "1d1ri90",
+   "en": "/Hearts of Iron IV/common/opinion_modifiers/*.txt",
+   "zh": ""
+  },
+  {
+   "k": "1ivn7iz",
+   "en": "Applying a modifier",
+   "zh": ""
+  },
+  {
+   "k": "neoucn",
+   "en": "There are a large variety of ways to apply modifiers, but these are the primary ones:",
+   "zh": ""
+  },
+  {
+   "k": "1jdacvd",
+   "en": "⟦0⟧ - This primarily includes but is not limited to national spirits and hidden ideas. ⟦1⟧ by using an ⟦2⟧, such as a national focus reward, by using ⟦3⟧ or ⟦4⟧. These only work for countries.",
+   "zh": ""
+  },
+  {
+   "k": "11rcc11",
+   "en": "These are the simplest way to add a modifier to a country",
+   "zh": ""
+  },
+  {
+   "k": "wncst1",
+   "en": "effect block",
+   "zh": ""
+  },
+  {
+   "k": "1pxfxbz",
+   "en": "add_ideas",
+   "zh": ""
+  },
+  {
+   "k": "c6r3s6",
+   "en": "add_timed_idea",
+   "zh": ""
+  },
+  {
+   "k": "1jqv905",
+   "en": "⟦0⟧ - This is similar to ideas (Showing up in the same screen for countries), but they accept variables and can also be applied on states and unit leaders. ⟦1⟧",
+   "zh": ""
+  },
+  {
+   "k": "mqutng",
+   "en": "Dynamic modifiers",
+   "zh": ""
+  },
+  {
+   "k": "1yc08bf",
+   "en": "These are the primary way to add modifiers to a state.",
+   "zh": ""
+  },
+  {
+   "k": "9qqvu4",
+   "en": "Traits: Country leader traits - These can be added to ideas (including advisors which function similarly) and country leaders, which'll apply on the country. Unit leader traits - These can be added to unit leaders and apply effects on the leaders themselves or their units. These are the primary way to add a modifier to a unit leader.",
+   "zh": ""
+  },
+  {
+   "k": "vrgnsf",
+   "en": "⟦0⟧ - These can be added to ideas (including advisors which function similarly) and country leaders, which'll apply on the country.",
+   "zh": ""
+  },
+  {
+   "k": "8w8pal",
+   "en": "⟦0⟧ - These can be added to unit leaders and apply effects on the leaders themselves or their units. These are the primary way to add a modifier to a unit leader.",
+   "zh": ""
+  },
+  {
+   "k": "19c8tzl",
+   "en": "Unit leader traits",
+   "zh": ""
+  },
+  {
+   "k": "1rk5hdn",
+   "en": "⟦0⟧: Global modifiers - These are entirely hard-coded on when they apply, such as those used for stability and war support bonuses. However, these can be changed in what they apply. Provincial modifiers - These are the primary if not the only way to apply a modifier towards a specific province. Relation modifiers - These are the only way to apply a targeted modifier from one country towards the other without needing to specify a specific country tag within the targeted modifier block.",
+   "zh": ""
+  },
+  {
+   "k": "rxbmgy",
+   "en": "⟦0⟧ - These are entirely hard-coded on ⟦1⟧ they apply, such as those used for stability and war support bonuses. However, these can be changed in ⟦2⟧ they apply.",
+   "zh": ""
+  },
+  {
+   "k": "1judcm4",
+   "en": "Global modifiers",
+   "zh": ""
+  },
+  {
+   "k": "zd8bh5",
+   "en": "when",
+   "zh": ""
+  },
+  {
+   "k": "110tbn3",
+   "en": "what",
+   "zh": ""
+  },
+  {
+   "k": "1wy1dop",
+   "en": "⟦0⟧ - These are the primary if not the only way to apply a modifier towards a specific province.",
+   "zh": ""
+  },
+  {
+   "k": "63d8wq",
+   "en": "Provincial modifiers",
+   "zh": ""
+  },
+  {
+   "k": "1xacf5f",
+   "en": "⟦0⟧ - These are the only way to apply a targeted modifier from one country towards the other without needing to specify a specific country tag within the targeted modifier block.",
+   "zh": ""
+  },
+  {
+   "k": "5ovy43",
+   "en": "Relation modifiers",
+   "zh": ""
+  },
+  {
+   "k": "i7ab9",
+   "en": "Each modifier follows the same structure of being assigned a number, such as the following formatting within many blocks ⟦0⟧, such as anything listed above:",
+   "zh": ""
+  },
+  {
+   "k": "1iehep1",
+   "en": "that support modifiers",
+   "zh": ""
+  },
+  {
+   "k": "1h1m6j0",
+   "en": "No modifiers can have a non-numeric value, including boolean ones that must be 1 to have any effect. Note that ⟦0⟧. The closest replica possible of one are ⟦1⟧, which allow using variables.",
+   "zh": ""
+  },
+  {
+   "k": "1i27s9b",
+   "en": "modifiers do not support if statements",
+   "zh": ""
+  },
+  {
+   "k": "1yt058c",
+   "en": "dynamic modifiers",
+   "zh": ""
+  },
+  {
+   "k": "bv5t98",
+   "en": "Tooltip modification",
+   "zh": ""
+  },
+  {
+   "k": "1glnvgj",
+   "en": "Modifier blocks support, within them, the ⟦0⟧ block, which can be used to provent the modifiers within from showing up in the tooltip. Additionally, ⟦1⟧ can be used to add a custom localisation string to appear within the localisation as one of the modifiers. In combination, this will look like the following:",
+   "zh": ""
+  },
+  {
+   "k": "8rgkpc",
+   "en": "hidden_modifier = { ... }",
+   "zh": ""
+  },
+  {
+   "k": "yakqck",
+   "en": "custom_modifier_tooltip = localisation_key_tt",
+   "zh": ""
+  },
+  {
+   "k": "n1mp9l",
+   "en": "Custom modifiers now support dynamic commands (anything within square brackets). They were previously only usable for non-dynamic localisation",
+   "zh": ""
+  },
+  {
+   "k": "18hqzyj",
+   "en": "If you want to apply a consistent modifier to a country, ⟦0⟧",
+   "zh": ""
+  },
+  {
+   "k": "4hpppd",
+   "en": "Dynamic modifiers, defined in ⟦0⟧ files, are a type to apply modifiers that accept variables. The modifiers are updated daily, unless the ⟦1⟧ is used to forcefully refresh the impact of modifiers. They can be applied to both countries and states, in case of the latter, the variable must be defined for the state, not for the country-owner or controller. They can also be applied to unit leaders.",
+   "zh": ""
+  },
+  {
+   "k": "16d78wz",
+   "en": "/Hearts of Iron IV/common/dynamic_modifiers/*.txt",
+   "zh": ""
+  },
+  {
+   "k": "1r5p0kj",
+   "en": "force_update_dynamic_modifier effect",
+   "zh": ""
+  },
+  {
+   "k": "1kgzjmv",
+   "en": "Unlike ideas, ⟦0⟧ via debug mode or console, any changes to their definitions require a game restart to apply in-game. Additionally, due to the daily refresh of the variable check, these are more poorly optimised than ideas are. Due to this, when it's feasible to not use variables for a country-scoped dynamic modifier, it's both easier and more optimised ⟦1⟧",
+   "zh": ""
+  },
+  {
+   "k": "1x2xjk9",
+   "en": "there is no way to reload definitions of dynamic modifiers",
+   "zh": ""
+  },
+  {
+   "k": "vc8pef",
+   "en": "to use national spirits instead.",
+   "zh": ""
+  },
+  {
+   "k": "25uqwa",
+   "en": "The dynamic modifiers are evaluated daily for each scope. The process consists of the following:",
+   "zh": ""
+  },
+  {
+   "k": "14cwwl3",
+   "en": "At the beginning of each day, each variable modifier value for each dynamic modifier is temporarily reset to 0, even if the null-coalescing operator is used to assume a different number as the default. Constant values do not get reset.",
+   "zh": ""
+  },
+  {
+   "k": "uxn78s",
+   "en": "Dynamic modifiers are then evaluated in the order that they were given to the scope with ⟦0⟧.",
+   "zh": ""
+  },
+  {
+   "k": "138kz86",
+   "en": "add_dynamic_modifier",
+   "zh": ""
+  },
+  {
+   "k": "1bbmgv1",
+   "en": "The variable values inside of a dynamic modifier are assumed to be 0 until every variable inside is calculated. This includes those that rely on other modifiers, which includes the ⟦0⟧ game variable or MTTH variables that utilise that game variable.",
+   "zh": ""
+  },
+  {
+   "k": "1fzqpbl",
+   "en": "After the variables are calculated for a single dynamic modifier, the modifiers apply to the scope with the dynamic modifier and the game moves onto the next dynamic modifier added to the current scope until each one is calculated.",
+   "zh": ""
+  },
+  {
+   "k": "19ai8fz",
+   "en": "Arguments",
+   "zh": ""
+  },
+  {
+   "k": "1m853is",
+   "en": "⟦0⟧ decides what is the icon used for the dynamic modifier. The icon uses a sprite defined in any ⟦1⟧ file. If the icon is not specified, it will be hidden.",
+   "zh": ""
+  },
+  {
+   "k": "1rvwmpc",
+   "en": "icon",
+   "zh": ""
+  },
+  {
+   "k": "dw6d81",
+   "en": "/Hearts of Iron IV/interface/*.gfx",
+   "zh": ""
+  },
+  {
+   "k": "zpfl46",
+   "en": "⟦0⟧ decides when exactly the dynamic modifier's modifiers apply. If the dynamic modifier is set, but the country or state it's set to does not fulfill the requirements, its effects will not apply. Optional.",
+   "zh": ""
+  },
+  {
+   "k": "1cph7f2",
+   "en": "enable",
+   "zh": ""
+  },
+  {
+   "k": "19exjgl",
+   "en": "⟦0⟧ will automatically remove the dynamic modifier upon the triggers being met. Optional.",
+   "zh": ""
+  },
+  {
+   "k": "76n2j2",
+   "en": "remove_trigger",
+   "zh": ""
+  },
+  {
+   "k": "ehu1zl",
+   "en": "⟦0⟧ will, if set to true within a state-scoped dynamic modifier, additionally makes the modifier apply to divisions that, while not being present in the state with the dynamic modifier, are attacking an enemy located on that state. Optional, defaults to false.",
+   "zh": ""
+  },
+  {
+   "k": "1ivyd4y",
+   "en": "attacker_modifier",
+   "zh": ""
+  },
+  {
+   "k": "gnztvx",
+   "en": "Modifiers are put directly inside the dynamic modifier as a list. Non-modifier idea attributes such as ⟦0⟧ or ⟦1⟧ are impossible to use inside of dynamic modifiers.",
+   "zh": ""
+  },
+  {
+   "k": "1fmy0m7",
+   "en": "equipment_bonus",
+   "zh": ""
+  },
+  {
+   "k": "7iar6w",
+   "en": "research_bonus",
+   "zh": ""
+  },
+  {
+   "k": "1g6vp1z",
+   "en": "Adding a dynamic modifier",
+   "zh": ""
+  },
+  {
+   "k": "jxjhaw",
+   "en": "Dynamic modifiers are added via the ⟦0⟧. A typical addition of a dynamic modifier looks like the following:",
+   "zh": ""
+  },
+  {
+   "k": "19vkygf",
+   "en": "add_dynamic_modifier effect",
+   "zh": ""
+  },
+  {
+   "k": "1td3y67",
+   "en": "Since dynamic modifiers do not have assigned scopes, the same modifier can be assigned to either a country, a state, a unit leader, or several at once – this is decided only by where the ⟦0⟧ effect is executed.",
+   "zh": ""
+  },
+  {
+   "k": "r8tdui",
+   "en": "Within GUI, a dynamic modifier will take up these places if visible:",
+   "zh": ""
+  },
+  {
+   "k": "g58btt",
+   "en": "For a country, a dynamic modifier will show up in the list of national spirits, appearing after the regular spirits.",
+   "zh": ""
+  },
+  {
+   "k": "syno7i",
+   "en": "For a state, a dynamic modifier will show up in the special section for them in the bottom of the selected state view, marked with ⟦0⟧ in ⟦1⟧.",
+   "zh": ""
+  },
+  {
+   "k": "1unk62c",
+   "en": "dynamic_modifiers_grid",
+   "zh": ""
+  },
+  {
+   "k": "iox6qt",
+   "en": "/Hearts of Iron IV/interface/countrystateview.gui",
+   "zh": ""
+  },
+  {
+   "k": "1r9odfk",
+   "en": "When adding a dynamic modifier, it is also possible to make it be timed or make it use a different scope as the variable's base. For example, the following code will apply dynamic_modifier_name to GER for 30 days, but the variables will be read off POL:",
+   "zh": ""
+  },
+  {
+   "k": "zl2wrb",
+   "en": "In particular, assuming that dynamic_modifier_name is the example dynamic modifier created previously, if you do ⟦0⟧, then the dynamic modifier assigned to GER as the result of this effect will give 0.3 daily political power gain. However, if the dynamic modifier scopes into ROOT for the variable as ⟦1⟧, then ⟦2⟧ would be done.",
+   "zh": ""
+  },
+  {
+   "k": "e393jn",
+   "en": "set_variable = { POL.var_name = 0.3 }",
+   "zh": ""
+  },
+  {
+   "k": "17ut4xw",
+   "en": "political_power_gain = ROOT.var_name",
+   "zh": ""
+  },
+  {
+   "k": "raiaas",
+   "en": "set_variable = { GER.var_name = 0.3 }",
+   "zh": ""
+  },
+  {
+   "k": "se0xkd",
+   "en": "A dynamic modifier is removed via ⟦0⟧, phrased similarly to add_dynamic_modifier: ⟦1⟧. If, when added, the dynamic modifier had a scope assigned to it, the scope will have to be specified when removing it as well.",
+   "zh": ""
+  },
+  {
+   "k": "1i7ouvp",
+   "en": "remove_dynamic_modifier",
+   "zh": ""
+  },
+  {
+   "k": "gcd8pr",
+   "en": "remove_dynamic_modifier = { modifier = dynamic_modifier_name }",
+   "zh": ""
+  },
+  {
+   "k": "15ltx7u",
+   "en": "⟦0⟧, while those that are set to a static value will. While this may make the dynamic modifier appear broken when only reading the tooltip, this will not be actually the case once it gets added. In this case, ⟦1⟧, with ⟦2⟧.",
+   "zh": ""
+  },
+  {
+   "k": "96284e",
+   "en": "Modifiers that use variables will not show up in the tooltip of add_dynamic_modifier",
+   "zh": ""
+  },
+  {
+   "k": "zhm07",
+   "en": "the tooltip of the effect can be changed",
+   "zh": ""
+  },
+  {
+   "k": "p08haz",
+   "en": "the effect adding the dynamic modifier hidden",
+   "zh": ""
+  },
+  {
+   "k": "14hqdsm",
+   "en": "Static modifiers are stored in ⟦0⟧ files, where each code block within is a modifier block with the name being the ID of the static modifier. There are 5 main categories of static modifiers:",
+   "zh": ""
+  },
+  {
+   "k": "oewe2p",
+   "en": "/Hearts of Iron IV/common/modifiers/*.txt",
+   "zh": ""
+  },
+  {
+   "k": "1c5cjjq",
+   "en": "Global modifiers are applied by the hard-coded game features. Their names mustn't be changed, as the code uses them internally, but their effects can be edited. Examples of global modifiers are the penalty for non-core states or the effects of stability and war support.",
+   "zh": ""
+  },
+  {
+   "k": "1o80noe",
+   "en": "Difficulty modifiers",
+   "zh": ""
+  },
+  {
+   "k": "1ktzk43",
+   "en": "These are applied within ⟦0⟧ files. This is used in the menu to strengthen specific countries at the game's start within game rules. If there are no difficulty settings defined, the menu will not be possible to open. Each difficulty setting is defined as a ⟦1⟧ block, which must lie within an overarching ⟦2⟧ block. The following arguments can go into difficulty settings:",
+   "zh": ""
+  },
+  {
+   "k": "ntmw10",
+   "en": "/Hearts of Iron IV/common/difficulty_settings/*.txt",
+   "zh": ""
+  },
+  {
+   "k": "lnn2gc",
+   "en": "difficulty_setting = { ... }",
+   "zh": ""
+  },
+  {
+   "k": "1a4nekb",
+   "en": "difficulty_settings = { ... }",
+   "zh": ""
+  },
+  {
+   "k": "rlx6ab",
+   "en": "⟦0⟧ is the ⟦1⟧ key used as the name of the difficulty setting as it shows up in the game rules menu/",
+   "zh": ""
+  },
+  {
+   "k": "kx8ymh",
+   "en": "key = localisation_key",
+   "zh": ""
+  },
+  {
+   "k": "coj4nh",
+   "en": "localisation",
+   "zh": ""
+  },
+  {
+   "k": "1hw1fga",
+   "en": "⟦0⟧ sets the static modifier to be used by this difficulty setting.",
+   "zh": ""
+  },
+  {
+   "k": "1uzlah9",
+   "en": "modifier = static_modifier",
+   "zh": ""
+  },
+  {
+   "k": "i608pa",
+   "en": "⟦0⟧ is a whitespace-separated list of country tags for which the difficulty setting applies.",
+   "zh": ""
+  },
+  {
+   "k": "58qn1a",
+   "en": "countries = { ... }",
+   "zh": ""
+  },
+  {
+   "k": "xa6dvj",
+   "en": "⟦0⟧ is a value by which the static modifier gets multiplied at the max value. As there are 5 levels for each difficulty rule, including 0, this gets split into quarters for each level, with the second being a quarter, the third being a half, and the fourth being three quarters.",
+   "zh": ""
+  },
+  {
+   "k": "7k53t",
+   "en": "multiplier = 2.0",
+   "zh": ""
+  },
+  {
+   "k": "vp00bd",
+   "en": "An example of a difficulty setting file is the following:",
+   "zh": ""
+  },
+  {
+   "k": "tnzm7w",
+   "en": "Not to be confused with opinion modifiers. The relation modifiers apply a targeted modifier from one country towards an another one, automatically removed when the trigger is met. ROOT is the country that the modifier is applied to and FROM is the target. An example would be:",
+   "zh": ""
+  },
+  {
+   "k": "1cpgxzt",
+   "en": "They can be added by the add_relation_modifier effect, used as such:",
+   "zh": ""
+  },
+  {
+   "k": "1tlr3gd",
+   "en": "remove_relation_modifier, which works similarly, can remove them.",
+   "zh": ""
+  },
+  {
+   "k": "168ss33",
+   "en": "Province modifiers",
+   "zh": ""
+  },
+  {
+   "k": "dgaaon",
+   "en": "Province modifiers apply a modifier to a specific province rather than a state. They can be applied via the add_province_modifier effect, and removed with remove_province_modifier. More info on how to use these can be seen in the effects page. An example definition looks like",
+   "zh": ""
+  },
+  {
+   "k": "uphiwu",
+   "en": "Many state-scope modifiers will work in province scope as well. In order to make the GFX in GUI, you first need to edit ⟦0⟧. The icon must be defined inside custom_icon_container, similarly to other examples. An example definition looks like",
+   "zh": ""
+  },
+  {
+   "k": "1pqvkqo",
+   "en": "The spriteType you have defined needs to be defined in ⟦0⟧ similarly to this example:",
+   "zh": ""
+  },
+  {
+   "k": "xmrccv",
+   "en": "Balance of power modifiers",
+   "zh": ""
+  },
+  {
+   "k": "16ge6c2",
+   "en": "Balance of power modifiers typically include within of themselves the ⟦0⟧ and/or ⟦1⟧ modifiers in order to gradually tip the balance towards one side. For example,",
+   "zh": ""
+  },
+  {
+   "k": "wai41z",
+   "en": "power_balance_daily",
+   "zh": ""
+  },
+  {
+   "k": "x2ahvh",
+   "en": "power_balance_weekly",
+   "zh": ""
+  },
+  {
+   "k": "1kmibwz",
+   "en": "Balance of power modifiers are added via ⟦0⟧ as such:",
+   "zh": ""
+  },
+  {
+   "k": "4ona2r",
+   "en": "the add_power_balance_modifier effect",
+   "zh": ""
+  },
+  {
+   "k": "11krsi4",
+   "en": "⟦0⟧, with the same syntax, or ⟦1⟧ can be used to remove these from the country.",
+   "zh": ""
+  },
+  {
+   "k": "hhu5eo",
+   "en": "The remove_power_balance_modifier effect",
+   "zh": ""
+  },
+  {
+   "k": "bize51",
+   "en": "remove_all_power_balance_modifiers",
+   "zh": ""
+  }
+ ]
+}

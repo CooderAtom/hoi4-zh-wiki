@@ -1,0 +1,939 @@
+{
+ "batch": 1156,
+ "pages": [
+  "Patch 1.13"
+ ],
+ "chars": 14976,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "o763dg",
+   "en": "⟦0⟧, aka \"Stella Polaris\", was not released officially. It was superseded by ⟦1⟧ which was released on 2023-10-10⟦2⟧ coinciding with the release of the ⟦3⟧ DLC.",
+   "frags": 4
+  },
+  {
+   "k": "197p4wg",
+   "en": "Patch 1.13"
+  },
+  {
+   "k": "1aq5yxd",
+   "en": "patch 1.13.1"
+  },
+  {
+   "k": "1gcwzb4",
+   "en": "Arms Against Tyranny"
+  },
+  {
+   "k": "ekcf2j",
+   "en": "Added ahistorical Finnish focus tree paths"
+  },
+  {
+   "k": "1ijejvu",
+   "en": "Added full Norwegian focus tree"
+  },
+  {
+   "k": "2x48q5",
+   "en": "Added full Swedish focus tree"
+  },
+  {
+   "k": "19a6js5",
+   "en": "Added full Danish focus tree"
+  },
+  {
+   "k": "jgyy29",
+   "en": "Added a full ... other focus tree"
+  },
+  {
+   "k": "16mbmnl",
+   "en": "Replaced equipment design company ideas with Military Industrial Organizations (MIOs). MIOs can be attached to research and production, gaining funds and unlocking increased benefits upon your production and equipment."
+  },
+  {
+   "k": "1sib9he",
+   "en": "Diplomacy tab replaced by the International Market. Equipment can be bought and sold for civilian factory output, giving countries a way of arming themselves with advanced equipment, or war-profiteering for their own gain. Diplomacy menu can be accessed via a button at the bottom of the international market"
+  },
+  {
+   "k": "veybpk",
+   "en": "Added Special Forces doctrine page, with branches including unique gameplay utility for Mountaineers, Marines, and Paratroopers, and 3 new support battalions"
+  },
+  {
+   "k": "7ofpae",
+   "en": "Added numerous new 3D models including snowmobiles, cold-weather infantry, and a reindeer for some reason"
+  },
+  {
+   "k": "18f123w",
+   "en": "Added many new music tracks for Nordic countries, as well as several main game themes"
+  },
+  {
+   "k": "1ymsk4d",
+   "en": "Feature"
+  },
+  {
+   "k": "lmfrpd",
+   "en": "Land trade routes are now shown on the map. Trade Embargo action now prevents land-based trade from passing through a country if they are embargoing the final recipient."
+  },
+  {
+   "k": "1iv0pqn",
+   "en": "Land Doctrines now contain a variety of bonuses to specific support battalions which enchance the capabilities of other battalion categories in their division"
+  },
+  {
+   "k": "ax6buc",
+   "en": "Added support for historical tank templates in the tank designer, accessed from tank chassis blueprints"
+  },
+  {
+   "k": "oe88wk",
+   "en": "Added a new focus for Germany that gives Germany resource rights for Västerbotten, and Industry for Sweden"
+  },
+  {
+   "k": "w7hxqn",
+   "en": "Added modding and script support for 'joint' national focuses, allowing several countries to progress in the same shared focus branch"
+  },
+  {
+   "k": "tm21l6",
+   "en": "Added Finnish historical focus tree paths"
+  },
+  {
+   "k": "kxxksr",
+   "en": "Balance"
+  },
+  {
+   "k": "1e0nbby",
+   "en": "Reduced Germanys steel"
+  },
+  {
+   "k": "1sl3q8g",
+   "en": "increased Swedens steel and tungsten from 220 Steel, 67 tungsten, 42 chromium to 260 steel, 123 tungsten and 63 chromium (closed trade respectively)"
+  },
+  {
+   "k": "ug7ntb",
+   "en": "Added seperate divison design groups for combat support battalions"
+  },
+  {
+   "k": "dw24wa",
+   "en": "adjusted acclimatization tolerances across the board, it should now be gained in a more realistic range of temperatures"
+  },
+  {
+   "k": "160veep",
+   "en": "added lend lease threshold modifiers to automomy and economy levels"
+  },
+  {
+   "k": "11kv87e",
+   "en": "added lend lease threshold modifiers to ideologies"
+  },
+  {
+   "k": "15uwv8o",
+   "en": "Super Heavy tanks are now support companies. Super Heavy tanks are no longer line battalions"
+  },
+  {
+   "k": "hy8puk",
+   "en": "Support company research times now have a curve with a shorter starting time (approx 120 days, from 200). Subsequent support techs have a gradually increasing research time."
+  },
+  {
+   "k": "14wut41",
+   "en": "Cavalry supply usage returned to the same level as infantry"
+  },
+  {
+   "k": "1te6qph",
+   "en": "Engineer support upgrade techologies now yield 33% entrenchment per level"
+  },
+  {
+   "k": "e635fy",
+   "en": "Added a new adjuster type: Snow. This kicks in if a province is considered to have the snow ground condition."
+  },
+  {
+   "k": "4uyldy",
+   "en": "Several nations now have the ability to unlock a second special forces branch specialism in their focus trees. Nations that reach major status can also unlock a second branch specialism after 1940."
+  },
+  {
+   "k": "10ajhj0",
+   "en": "Most tank chassis' now grant 10-20% more armor"
+  },
+  {
+   "k": "1gibo74",
+   "en": "Super heavy tanks now cost more overall, but require 20 per support company"
+  },
+  {
+   "k": "ylgbw2",
+   "en": "The winter war should now start according to historical timetable"
+  },
+  {
+   "k": "197oe1y",
+   "en": "Tip of the Spear military spirit now grants flat special forces cap instead of naval invasion capacity. Commando trait now adds flat special forces cap instead of SF defence. This should make it possible to run a modest elite force irresepective of the size of your military."
+  },
+  {
+   "k": "zr0fpp",
+   "en": "added 5% for local resources from compliance gain (from 0.6 to 0.65)"
+  },
+  {
+   "k": "1mvcbzk",
+   "en": "People's Army focus now grants a battalion modifier from military police to horseback cavalry suppression value"
+  },
+  {
+   "k": "1rzdp9b",
+   "en": "slightly reduced air accident rates"
+  },
+  {
+   "k": "k06lec",
+   "en": "reduced the factor on accident chance for air excercising"
+  },
+  {
+   "k": "1p901zy",
+   "en": "New airwing deployment now takes 30 days, from basically nothing"
+  },
+  {
+   "k": "1oakdn5",
+   "en": "increased the max effect of intel on enemy mines"
+  },
+  {
+   "k": "yqee4g",
+   "en": "Field Hospitals now grant 15% experience loss prevention from 10%"
+  },
+  {
+   "k": "1f9lah7",
+   "en": "Maintenance Company Research 3 now provides 1% Equipment Capture per armor battalion in a division, from 5% flat"
+  },
+  {
+   "k": "a0d7tv",
+   "en": "starting french Char B1 variant is now a basic heavy chassis"
+  },
+  {
+   "k": "1mw020m",
+   "en": "ENG & USA start with 200 more convoys"
+  },
+  {
+   "k": "1028khx",
+   "en": "reduced the base damage of mines for both strength and org"
+  },
+  {
+   "k": "m9q12k",
+   "en": "reduced mine accident chance´, reduced mine impact on speed"
+  },
+  {
+   "k": "1a12jx5",
+   "en": "mines are now much less potent in deep ocean and shallow sea's, hit chance reduced for mine in these areas"
+  },
+  {
+   "k": "1sf1t42",
+   "en": "maratime patrol bombers wing size is now 10"
+  },
+  {
+   "k": "1ackbdv",
+   "en": "AA tank anti-air modules have between 10-20% more air attack"
+  },
+  {
+   "k": "1m0f3wo",
+   "en": "Super Heavy AA, TD, and SPART are now support battalions, not line battalions"
+  },
+  {
+   "k": "1dwgw4j",
+   "en": "When a puppet controls a province that's part of a strait, the overlord's policy is now considered, preventing the puppet from letting through the overlord's enemies or their puppets."
+  },
+  {
+   "k": "1jwh90r",
+   "en": "increased hardness penalty for wheeled and half track suspension for tank designer"
+  },
+  {
+   "k": "11p2c1e",
+   "en": "USA now starts with tank engine 1 tech"
+  },
+  {
+   "k": "wb3rwl",
+   "en": "slight balance changes to welded and cast armour to fit reality better"
+  },
+  {
+   "k": "jcnexb",
+   "en": "tank speed & armour upgrades are now added stats not multiplicative"
+  },
+  {
+   "k": "7k4dkr",
+   "en": "tank base speed, armour & reliability rebalanced for changes to above upgrades"
+  },
+  {
+   "k": "jhrpbn",
+   "en": "Excess thrust will now increase agility instead of max speed"
+  },
+  {
+   "k": "hz7p5q",
+   "en": "airframes now how base max speeds to better representairframe size speed effects"
+  },
+  {
+   "k": "1u584ig",
+   "en": "added damage reduction to piecing thresholds for naval combat"
+  },
+  {
+   "k": "2qthwz",
+   "en": "convoy hitprofile reduced from 120 to 85 bringing it inline with new hitprofile calulations"
+  },
+  {
+   "k": "15njh3b",
+   "en": "torpedoes accuracy increased to bring them back inline with new hitprofile calculations 145 > 100"
+  },
+  {
+   "k": "8qlfvi",
+   "en": "slightly decreased AA disruption from ship AA"
+  },
+  {
+   "k": "1t14qu8",
+   "en": "reduced terrain combat widths slightly, change support widths also"
+  },
+  {
+   "k": "1j4ig73",
+   "en": "major air rebalance pass for airframes and modules"
+  },
+  {
+   "k": "14p6pu2",
+   "en": "increased tech date for survival studies to 1939"
+  },
+  {
+   "k": "1632twl",
+   "en": "Improved aircraft turrets, slight decrease in agility hit for large bomb bays"
+  },
+  {
+   "k": "1htmi12",
+   "en": "rebalanced, ship engines, removed visibility impacts from medium guns, rebalanced IC costs to reflect engine changes"
+  },
+  {
+   "k": "26recz",
+   "en": "super heavy armour now part of normal heavy armors, rebalanced armors, added cruiser armour to carriers"
+  },
+  {
+   "k": "1kjks40",
+   "en": "Armor skirts provide 1 more armor"
+  },
+  {
+   "k": "mz6361",
+   "en": "doubled the effect of agiltiy on naval anti air fire"
+  },
+  {
+   "k": "14p8j55",
+   "en": "removed visibility effects of suepr heavy bb armor"
+  },
+  {
+   "k": "cdafgo",
+   "en": "small airframe can only take single terret modules, adjusted turret stats so they are less powerful for fighters but better for bombers"
+  },
+  {
+   "k": "zu0wa2",
+   "en": "rebalanced thrust and weights of modules and airframes, added new modules"
+  },
+  {
+   "k": "1i19d0w",
+   "en": "Added new techs for plane designer"
+  },
+  {
+   "k": "118rdi0",
+   "en": "Agility and speed increase effect on air combat"
+  },
+  {
+   "k": "1ev20a4",
+   "en": "updated combat width defines"
+  },
+  {
+   "k": "1n5mgoa",
+   "en": "implemented type 2 combat widths"
+  },
+  {
+   "k": "1y46pe0",
+   "en": "rebalanced dismantle and conversion costs for BB eninges"
+  },
+  {
+   "k": "11p4e1v",
+   "en": "adjusted damage reduction thresholds for ships"
+  },
+  {
+   "k": "1aes9w5",
+   "en": "Gameplay"
+  },
+  {
+   "k": "hu0n9y",
+   "en": "Adjusted Swiss focuses so they pause instead of cancel when conditions are not met"
+  },
+  {
+   "k": "1h83hpk",
+   "en": "Stability & Performance"
+  },
+  {
+   "k": "rnbqr3",
+   "en": "Fixed rare out of sync triggered by player observing armies intercepted at sea"
+  },
+  {
+   "k": "13z4zh4",
+   "en": "Improved game performance by up to 30% based on hardware. Machines with higher spec will notice a greater difference."
+  },
+  {
+   "k": "7vchq5",
+   "en": "Improved perceived performance and responsiveness during high processor load"
+  },
+  {
+   "k": "ujblhm",
+   "en": "In the division designer you can now shift-click on a battalion to remove it from the template"
+  },
+  {
+   "k": "7gmjog",
+   "en": "Fixed various issues with some tech folders in the tech tree on non-standard resolutions"
+  },
+  {
+   "k": "1st1kx2",
+   "en": "Fixed issue where some notifications were visible in front of windows and the loading screen."
+  },
+  {
+   "k": "tjfr1m",
+   "en": "Now right clicking on railway gun repair line will pan camera to the unit and left clicking repair line will select the unit."
+  },
+  {
+   "k": "jdatzz",
+   "en": "Fix priority buttons for all production line types"
+  },
+  {
+   "k": "xhhtpt",
+   "en": "Now, if you hover mouse over a invasion arrow, the whole path will be visible even if it is overlapped by another one."
+  },
+  {
+   "k": "19lqcwx",
+   "en": "Fix bug where the army leader traits overlapped the preferred tactics icon."
+  },
+  {
+   "k": "nr47jk",
+   "en": "Add equipment upgrades to have increment/decrement with 5 and 10"
+  },
+  {
+   "k": "19aigl7",
+   "en": "Victory point map icons now have independent visibility thresholds based on their own VP value. Several new defines added to control this behaviour"
+  },
+  {
+   "k": "1w1asf8",
+   "en": "Doctrines with unfulfilled allow conditions now correctly display as unselectable, and list conditions."
+  },
+  {
+   "k": "iygl7f",
+   "en": "Show Active setting on generals subwindow is now respected the first time you open it"
+  },
+  {
+   "k": "1b3565g",
+   "en": "AI now evaluates motorization per-supply-node, resulting in reduced truck usage, and more sensible overall priorities."
+  },
+  {
+   "k": "8202xc",
+   "en": "Further improved AI behaviour for germany as regards Africa and suicide-invasions"
+  },
+  {
+   "k": "q4xbn",
+   "en": "British AI will no longer be denied access to the baltic unless Germany is war mongering in europe (meaning trade can once again flow between UK and the Nordic states)"
+  },
+  {
+   "k": "132z4f0",
+   "en": "AI should no longer embargo countries who are helping them with lendlease or volunteers (looking at you, Spain)"
+  },
+  {
+   "k": "2r2xo6",
+   "en": "AI more likely to upgrade divisions in the field even with equipment deficits"
+  },
+  {
+   "k": "w77vyv",
+   "en": "added generic AI upgraded infantry template for late game infantry"
+  },
+  {
+   "k": "ba3c0i",
+   "en": "added ENG and USA upgraded infantry templates for AI and imrpoved their infantry templates in general"
+  },
+  {
+   "k": "1lq6xv1",
+   "en": "reduced the maximum targeted sea regions per strike force fleet for AI"
+  },
+  {
+   "k": "1cyeo9",
+   "en": "improved air tech priorities"
+  },
+  {
+   "k": "1d2gu9k",
+   "en": "ENG will build more Mil factories and ease up on fighters after it has enough, and will generaly build a few more bombers"
+  },
+  {
+   "k": "9gd7th",
+   "en": "USA will build more maritime patrol bombers"
+  },
+  {
+   "k": "123bcbc",
+   "en": "USA and ENG will try build more dockyards pre war"
+  },
+  {
+   "k": "is00i7",
+   "en": "USA will now do liberty ships national focus in 41"
+  },
+  {
+   "k": "1lnu8bh",
+   "en": "added albania and sardinia ai areas"
+  },
+  {
+   "k": "rgg0jc",
+   "en": "eng will resist the urge to invade useless italian land to early"
+  },
+  {
+   "k": "nooapo",
+   "en": "Italy will once again join the anti-comintern pact"
+  },
+  {
+   "k": "xu88ji",
+   "en": "ai build slightly more cas and bombers"
+  },
+  {
+   "k": "q7flo4",
+   "en": "AI will now recreate Austro-Hungary by decision if they own the correct cores"
+  },
+  {
+   "k": "1eoxn88",
+   "en": "improved AI templates for planes"
+  },
+  {
+   "k": "1vsiqdy",
+   "en": "SOV should now be more inclinded to defend Leningrad during the Winter war"
+  },
+  {
+   "k": "2yarki",
+   "en": "ai is less interested in railway gun research"
+  },
+  {
+   "k": "1wjncbr",
+   "en": "eng fighter templates are now upgraded with a higher prio"
+  },
+  {
+   "k": "sc9c6o",
+   "en": "improved the UK's invasion & defense strategies for historical accuracy"
+  },
+  {
+   "k": "1qepiib",
+   "en": "Germany will now go to war with the USSR if the a Norweigan, Danish or Dutch controller is a player, for the Dutch both Belgium and France must have fallen"
+  },
+  {
+   "k": "18bg8mx",
+   "en": "Improved fascist AI peace conference logic resulting in less bordergore, but fewer puppets"
+  },
+  {
+   "k": "3xuons",
+   "en": "Switched default Peace Score options to roll in puppets to faction leaders"
+  },
+  {
+   "k": "8oafdl",
+   "en": "Partially improved AI ability to use non-standard equipment types and templates. This will be further iterated on."
+  },
+  {
+   "k": "ld054t",
+   "en": "AI for some majors will now unlock and construct additional Marines templates, along with unlocking the new SF doctrines"
+  },
+  {
+   "k": "k6izmf",
+   "en": "AI for some majors will now unlock and deploy paratroopers as part of their line forces. By design, they will not perform paradrops."
+  },
+  {
+   "k": "9m30fv",
+   "en": "Modding"
+  },
+  {
+   "k": "1hgrd35",
+   "en": "Now the resource values will be localised."
+  },
+  {
+   "k": "jkxqqk",
+   "en": "Make sure triggers are re-evaluted when reloading events and scripted loc"
+  },
+  {
+   "k": "1y6kzbu",
+   "en": "effect give_resource_rights now accepts a variable or a keyword for receiver parameter"
+  },
+  {
+   "k": "1alyw3e",
+   "en": "From now on, tooltip for add_dynamic_modifier effect will show the variable values in dynamic modifiers"
+  },
+  {
+   "k": "3qd1be",
+   "en": "Fix add_resource so that give_resource_rights can be executed right after without having to wait for an hour to pass"
+  },
+  {
+   "k": "a5uj94",
+   "en": "Added ai_wanted_divisions_factor ai strategy, which acts as a % modifier"
+  },
+  {
+   "k": "1mu72iz",
+   "en": "Fixed the use of scripted loc in name and description of dynamic modifiers"
+  },
+  {
+   "k": "54hjru",
+   "en": "Add the heavy_fighter category for medium plane with fighter weapons"
+  },
+  {
+   "k": "7cjo69",
+   "en": "fix is_subject tooltip when used within multiple targets triggers like any_country"
+  },
+  {
+   "k": "c67c3k",
+   "en": "Ocean, the default naval region terrain type, is now handled as any other sea terrain type; tooltips will show modifiers as expected, and map colors and modifiers should be applied properly."
+  },
+  {
+   "k": "1wrew9",
+   "en": "Tech folders will now correctly hide their name field if disabled. Follow the naming pattern in countrydoctrinetreeview.gui to achieve this result."
+  },
+  {
+   "k": "1egmz3j",
+   "en": "for has_resources_rights, if input state has no resource, the trigger will return false instead of crashing"
+  },
+  {
+   "k": "1ejndm0",
+   "en": "Graphics"
+  },
+  {
+   "k": "1x3qtnu",
+   "en": "Use DX11 flip mode and allow tearing when supported by driver. Make sure FSAA pass isn't done on UI."
+  },
+  {
+   "k": "mp1saw",
+   "en": "Bugfix"
+  },
+  {
+   "k": "14l2e5l",
+   "en": "AI strategies that abort will no longer purge all values related to the strategy type they affected"
+  },
+  {
+   "k": "172h1mp",
+   "en": "Fixed issue where exiting the intelligence window did not lead to swapping back the map mod to previous one."
+  },
+  {
+   "k": "6a0uyd",
+   "en": "Now the recruiting of colonial division is capped in same way as recruting other divisions."
+  },
+  {
+   "k": "gzd4g6",
+   "en": "Fixed the bug where long messages in the lobby message input field sometimes appeared in two lines."
+  },
+  {
+   "k": "chsm48",
+   "en": "Super Heavy Battleship armor now reduces Torpedo critical chance instead of increasing it"
+  },
+  {
+   "k": "7mwssb",
+   "en": "Fixed disappearing icons in division designer when NATO symbols are used"
+  },
+  {
+   "k": "juua0j",
+   "en": "Fixed issues with misplaced focus branches in UK and USA focus trees when Hide Obsolete Branches custom rule was set as \"Show\"."
+  },
+  {
+   "k": "uf48w6",
+   "en": "Conscription factor modifiers under 0.1% are now respected [precision error]"
+  },
+  {
+   "k": "1a4m8i3",
+   "en": "Now the deployment target state tooltip will contain the proper state name."
+  },
+  {
+   "k": "1r545d4",
+   "en": "Don't allow export (lend-lease etc) of chassis/hull/airframe equipment"
+  },
+  {
+   "k": "1m2yqup",
+   "en": "Fix serialization of 64 bit integers"
+  },
+  {
+   "k": "1i7b747",
+   "en": "Various Military focuses now give the right completion effects, such as Night Penalty, or land doctrines, and research bonuses"
+  },
+  {
+   "k": "j0x4l2",
+   "en": "Fixed issue where some icons persisted on screen during peace conference."
+  },
+  {
+   "k": "18o6fkw",
+   "en": "Fixed the bug, which made it impossible to play singleplayer after leaving a multiplayer lobby which loaded multiplayer save file."
+  },
+  {
+   "k": "lbqhi5",
+   "en": "Fixed issue where certain regions did display the weather on the 3D map."
+  },
+  {
+   "k": "1j4yhnw",
+   "en": "Fix a CTD when loading an older save"
+  },
+  {
+   "k": "17nptjs",
+   "en": "Units are now properly ejected from border wars"
+  },
+  {
+   "k": "w42z83",
+   "en": "AI should no longer attempt to design strategic bombers too heavy to fly"
+  },
+  {
+   "k": "1r6ucpi",
+   "en": "fixed loc for prefered tactics modifeirs in army spirits"
+  },
+  {
+   "k": "mhdn3u",
+   "en": "recalcuate the cached trade influence"
+  },
+  {
+   "k": "19fusnm",
+   "en": "Fixed Hungary being able to spam Sweden for support if they are democratic"
+  },
+  {
+   "k": "1r1xmms",
+   "en": "You can now paradrop in peacetime in your own territory, and paradropping should no longer cause airwings to get stuck"
+  },
+  {
+   "k": "173ek1u",
+   "en": "Prevent CTD and log error if script invalidated a war relation while it is still being added"
+  },
+  {
+   "k": "1cgc7km",
+   "en": "German Ai should now use correct Tank icons and models where possible"
+  },
+  {
+   "k": "11w4z9t",
+   "en": "AI tank templates (and new historical templates) now work properly for templates that have out-of-order module requirements (big gun+ fixed superstructure ie)"
+  },
+  {
+   "k": "1y62fl1",
+   "en": "Japanese AI template for Heavy TD II is no longer too slow to move"
+  },
+  {
+   "k": "1o03fib",
+   "en": "Axis AI and Historical tank templates now (probably) use the correct sprites and models"
+  },
+  {
+   "k": "xlnznl",
+   "en": "incorrect count of military factories given to other countries"
+  },
+  {
+   "k": "1m8wklj",
+   "en": "player could request more licenses than available factories"
+  },
+  {
+   "k": "17niuvl",
+   "en": "Fixed bugs in ReleaseFactories in trade"
+  },
+  {
+   "k": "10k02y3",
+   "en": "Exiled templates should now be removed after peace conference even if the hosting country is not among the losers"
+  },
+  {
+   "k": "g3e548",
+   "en": "fixed incorect can convert for light tank super structure"
+  },
+  {
+   "k": "1b8t54z",
+   "en": "Paradrop missions can no longer get stuck when trying to target a region they are not allowed coverage in. Regions without coverage can no longer be targeted by paradrop mission selection."
+  },
+  {
+   "k": "123wpgd",
+   "en": "AI should keep using their factories even if all their equipment needs are fulfilled"
+  },
+  {
+   "k": "jhu44x",
+   "en": "Turkish AI will no longer randomly decide to pick a military junta to succeed Ataturk on historical"
+  },
+  {
+   "k": "frag1j",
+   "en": "SOV should now try to be more aggressive at Karjala"
+  },
+  {
+   "k": "8t7m3o",
+   "en": "Fixed hardlock after getting kicked from a server"
+  },
+  {
+   "k": "12e3wxe",
+   "en": "Fuel Usage modifier will now appear with the right color: red when positive, green when negative"
+  },
+  {
+   "k": "jcc7ix",
+   "en": "fixed ship armour penetration calculation, proportional system can now work in parralel to stepped system"
+  },
+  {
+   "k": "1uurne",
+   "en": "old armor penetration value for ships set to 0"
+  }
+ ]
+}

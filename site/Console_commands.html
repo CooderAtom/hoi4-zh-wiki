@@ -1,0 +1,1520 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>控制台指令 - 钢铁雄心 IV 中文离线资料库</title>
+<meta name="description" content="">
+<link rel="stylesheet" href="assets/style.css">
+<script>window.HOI4_REL="";</script>
+<script src="assets/search-index.js" defer></script>
+<script src="assets/app.js" defer></script>
+</head>
+<body data-rel="">
+<header class="topbar"><div class="topbar-inner">
+  <a class="brand" href="index.html">钢铁雄心 IV <small>中文离线资料库</small></a>
+  <nav class="topnav"><a href="index.html#getting-started">入门</a><a href="index.html#state-affairs">国家事务</a><a href="index.html#foreign-affairs">外交事务</a><a href="index.html#warfare">战争</a><a href="index.html#military">军种</a><a href="index.html#technology">科技与学说</a><a href="index.html#meta">游戏与资料</a><a href="all-pages.html">全部页面</a><a href="glossary.html">术语表</a></nav>
+  <div class="searchbox">
+    <input id="q" type="search" placeholder="搜索页面（按 / 聚焦）" autocomplete="off" aria-label="搜索">
+    <div id="search-results"></div>
+  </div>
+</div></header>
+<div class="wrap">
+<aside class="sidebar">
+      <h3>入门</h3>
+      <ul><li><a href="Beginner's_guide.html">新手入门指南</a></li><li><a href="User_interface.html">用户界面</a></li><li><a href="Mechanics.html">游戏机制</a></li><li><a href="Console_commands.html" class="cur">控制台指令</a></li><li><a href="Hotkeys.html">快捷键</a></li><li><a href="Countries.html">国家</a></li><li><a href="Tutorial_videos.html">教学视频</a></li></ul>
+      <h3>国家事务</h3>
+      <ul><li><a href="Government.html">政府</a></li><li><a href="Ideas.html">理念、法令与顾问</a></li><li><a href="Officer_corps.html">军官团</a></li><li><a href="National_focus.html">国家焦点</a></li><li><a href="Research.html">科研</a></li><li><a href="Construction.html">建造</a></li><li><a href="Production.html">生产</a></li><li><a href="Events.html">事件</a></li><li><a href="List_of_Decision_lists.html">决议</a></li><li><a href="Manpower.html">人力</a></li></ul>
+      <h3>外交事务</h3>
+      <ul><li><a href="Diplomacy.html">外交</a></li><li><a href="Puppet.html">傀儡国</a></li><li><a href="Occupation.html">占领</a></li><li><a href="World_tension.html">世界紧张度</a></li><li><a href="Intelligence_agency.html">情报机构</a></li><li><a href="Trade.html">贸易</a></li><li><a href="Faction.html">阵营</a></li></ul>
+      <h3>战争</h3>
+      <ul><li><a href="Warfare.html">战争总览</a></li><li><a href="Combat_tactics.html">战斗战术</a></li><li><a href="Logistics.html">后勤</a></li><li><a href="Terrain.html">地形</a></li><li><a href="Weather.html">天气</a></li><li><a href="Battle_plan.html">作战计划</a></li><li><a href="Army_planner.html">陆军编制器</a></li><li><a href="Command_group.html">集团军</a></li><li><a href="Division.html">师</a></li><li><a href="Land_battle.html">陆战</a></li><li><a href="Naval_battle.html">海战</a></li><li><a href="Air_warfare.html">空战</a></li><li><a href="Attrition_and_accidents.html">损耗</a></li></ul>
+      <h3>军种</h3>
+      <ul><li><a href="Land_warfare.html">陆军</a></li><li><a href="Naval_warfare.html">海军</a></li><li><a href="Land_units.html">陆军单位</a></li><li><a href="Ship.html">海军单位</a></li><li><a href="Aircraft_designer.html">空军单位</a></li><li><a href="Equipment.html">装备</a></li><li><a href="Ship_designer.html">舰船设计</a></li><li><a href="Tank_designer.html">坦克设计</a></li></ul>
+      <h3>科技与学说</h3>
+      <ul><li><a href="Land_doctrine.html">陆军学说</a></li><li><a href="Naval_doctrine.html">海军学说</a></li><li><a href="Air_doctrine.html">空军学说</a></li><li><a href="Infantry_technology.html">步兵科技</a></li><li><a href="Armor_technology.html">装甲科技</a></li><li><a href="Naval_technology.html">海军科技</a></li><li><a href="Air_technology.html">空军科技</a></li><li><a href="Support_companies_technology.html">支援连科技</a></li></ul>
+      <h3>游戏与资料</h3>
+      <ul><li><a href="Achievements.html">成就</a></li><li><a href="Downloadable_content.html">可下载内容</a></li><li><a href="Patches.html">补丁</a></li><li><a href="Jargon.html">术语表</a></li><li><a href="Modding.html">模组制作</a></li><li><a href="Mods.html">模组</a></li><li><a href="Developer_diaries.html">开发日志</a></li></ul>
+      <h3>更多页面</h3>
+      <ul>
+        <li><a href="all-pages.html">全部页面索引（655）</a></li>
+        <li><a href="search.html">搜索</a></li>
+        <li><a href="glossary.html">中英术语对照表</a></li>
+      </ul>
+      <h3>1.17（122）</h3>
+      <ul><li><a href="Oman.html">阿曼</a></li><li><a href="Ethiopia.html">埃塞俄比亚</a></li><li><a href="Ireland.html">爱尔兰</a></li><li><a href="Estonia.html">爱沙尼亚</a></li><li><a href="Austria.html">奥地利</a></li><li><a href="Sultanate_of_Aussa.html">奥萨苏丹国</a></li><li><a href="Australia.html">澳大利亚</a></li><li><a href="Paraguay.html">巴拉圭</a></li><li><a href="Panama.html">巴拿马</a></li><li><a href="Bulgaria.html">保加利亚</a></li><li><a href="Paradisus_Paradoxum.html">悖论乐园（Paradisus Paradoxum）</a></li><li><a href="Icelandic_events_AAT.html">冰岛事件（AAT）</a></li><li><a href="Poland.html">波兰</a></li><li><a href="Bolivia.html">玻利维亚</a></li><li><a href="Bhutan.html">不丹</a></li><li><a href="Sichuan_Clique.html">川系</a></li><li><a href="Battle_Royale.html">大逃杀（Battle Royale）</a></li><li><a href="German_Reich.html">德意志国</a></li><li><a href="Imperial_influence.html">帝国影响力</a></li><li><a href="Reichskommissariats.html">帝国专员辖区</a></li><li><a href="Northeastern_Army.html">东北军</a></li><li><a href="East_Germany.html">东德</a></li><li><a href="Dominican_Republic.html">多米尼加</a></li><li><a href="Ecuador.html">厄瓜多尔</a></li><li><a href="Horn_of_Africa_nations.html">非洲之角国家</a></li><li><a href="Philippines.html">菲律宾</a></li><li><a href="Second_Philippine_Republic.html">菲律宾第二共和国</a></li><li><a href="Finnish_events_AAT.html">芬兰事件（AAT）</a></li><li><a href="Crush_the_Dream.html">粉碎梦想（Crush the Dream）</a></li><li><a href="Gansu_Ma.html">甘马（马家军）</a></li><li><a href="Colombia.html">哥伦比亚</a></li><li><a href="Costa_Rica.html">哥斯达黎加</a></li><li><a href="Republican_Spain.html">共和西班牙</a></li><li><a href="Cuba.html">古巴</a></li><li><a href="Cobalt_Sea.html">钴蓝海（Cobalt Sea）</a></li><li><a href="Guangxi_Clique.html">桂系</a></li><li><a href="Country_leader_traits.html">国家领导人特质</a></li><li><a href="Nationalist_Spain.html">国民西班牙</a></li><li><a href="Kumul_Khanate.html">哈密汗国</a></li><li><a href="Haiti.html">海地</a></li></ul>
+      <h3>1.16（93）</h3>
+      <ul><li><a href="_2026_and_you_get_a_canton,_everybody_gets_a_canton!.html">……你得到一个州，每个人都得到一个州！</a></li><li><a href="Otto-man.html">奥托曼（Otto-man）</a></li><li><a href="This_achievement_is_dedicated_to_the_brave_soldiers_of....html">本成就献给勇敢的士兵们……</a></li><li><a href="Iceland.html">冰岛</a></li><li><a href="United_Baltic_Duchy.html">波罗的海联合公国</a></li><li><a href="Triggers.html">触发器</a></li><li><a href="A_Great_Hunger.html">大饥荒（A Great Hunger）</a></li><li><a href="Huge-oslavia.html">大南斯拉夫（Huge-oslavia）</a></li><li><a href="Big_Entente.html">大协约（Big Entente）</a></li><li><a href="Denmark.html">丹麦</a></li><li><a href="Missile.html">导弹</a></li><li><a href="Yunnan.html">滇系</a></li><li><a href="Finland.html">芬兰</a></li><li><a href="Oh,_how_the_turntables.html">风水轮流转（Oh, how the turntables）</a></li><li><a href="Congolese_Belgium.html">刚果化的比利时（Congolese Belgium）</a></li><li><a href="Woman_in_a_High_Castle.html">高堡中的女人（Woman in a High Castle）</a></li><li><a href="International_market.html">国际市场</a></li><li><a href="Peace_conference.html">和平会议</a></li><li><a href="Nuclear_bomb.html">核弹</a></li><li><a href="Bad_Ending_-_The_whole_world_is_now_Brazil.html">坏结局——全世界都成了巴西</a></li><li><a href="Artillery_technology.html">火炮科技</a></li><li><a href="Miklos_Horthy_and_the_Habsburg_Prince.html">霍尔蒂与哈布斯堡王子（Miklos Horthy and the Habsburg Prince）</a></li><li><a href="Shanxi.html">晋系</a></li><li><a href="Experience.html">经验</a></li><li><a href="The_Legacy_of_Cyrus_the_Great.html">居鲁士大帝的遗产（The Legacy of Cyrus the Great）</a></li><li><a href="The_Dragon_Rises.html">巨龙崛起（The Dragon Rises）</a></li><li><a href="Awake_and_Angry.html">觉醒与愤怒（Awake and Angry）</a></li><li><a href="Scientist.html">科学家</a></li><li><a href="House_of_Kurds.html">库尔德人之家（House of Kurds）</a></li><li><a href="From_Tehran_with_Love.html">来自德黑兰的爱（From Tehran with Love）</a></li><li><a href="The_Lenin_Boys_are_Back_in_Town.html">列宁小子们回来了（The Lenin Boys are Back in Town）</a></li><li><a href="London_Naval_Treaty.html">伦敦海军条约</a></li><li><a href="The_Romanovs_laugh_last.html">罗曼诺夫笑到最后（The Romanovs laugh last）</a></li><li><a href="No_one_crosses_the_finnish_line.html">没人能越过芬兰线（No one crosses the finnish line）</a></li><li><a href="MEFO_Bills.html">梅福券</a></li><li><a href="Media_Mughal.html">媒体莫卧儿（Media Mughal）</a></li><li><a href="Confederacy_of_American_States.html">美利坚联盟国</a></li><li><a href="United_Netherlands_(achievement).html">尼德兰联合王国（成就）</a></li><li><a href="Norway.html">挪威</a></li><li><a href="Qinghai_Ma.html">青马（马家军）</a></li></ul>
+      <h3>1.10（39）</h3>
+      <ul><li><a href="Balkan_Problem_Solved.html">巴尔干问题已解决（Balkan Problem Solved）</a></li><li><a href="Unaligned_States_of_America.html">不结盟的美利坚合众国</a></li><li><a href="France.html">法国</a></li><li><a href="French_events_LaR.html">法国事件（LaR）</a></li><li><a href="Netherlands_events.html">荷兰事件</a></li><li><a href="Hardly_Anything_Sèvres.html">几乎没剩下什么（Hardly Anything Sèvres）</a></li><li><a href="Romania.html">罗马尼亚</a></li><li><a href="United_States.html">美国</a></li><li><a href="Internal_factions.html">内部派系</a></li><li><a href="Crusader_Kings.html">十字军之王（Crusader Kings）</a></li><li><a href="Tannu_Tuva.html">唐努乌梁海</a></li><li><a href="News_events_1.html">新闻事件 1</a></li><li><a href="News_events_2.html">新闻事件 2</a></li><li><a href="News_events_4.html">新闻事件 4</a></li><li><a href="News_events_BftB.html">新闻事件（BftB）</a></li><li><a href="News_events_WtT.html">新闻事件（WtT）</a></li><li><a href="List_of_modifiers.html">修正项列表</a></li><li><a href="Istanbul_is_Constantinople._Again..html">伊斯坦布尔又是君士坦丁堡了（Istanbul is Constantinople. Again.）</a></li><li><a href="British_Raj_events.html">英属印度事件</a></li><li><a href="Australian_events.html">Australian事件</a></li><li><a href="Autonomy_state_modding.html">Autonomy state模组制作</a></li><li><a href="Chinese_political_power_struggle_events.html">Chinese political power struggle事件</a></li><li><a href="Division_modding.html">Division模组制作</a></li><li><a href="Election_events.html">Election事件</a></li><li><a href="Equipment_modding.html">Equipment模组制作</a></li><li><a href="Ethiopian_events.html">Ethiopian事件</a></li><li><a href="General_events.html">General事件</a></li><li><a href="Generic_events.html">Generic事件</a></li><li><a href="German_events.html">German事件</a></li><li><a href="Greek_events.html">Greek事件</a></li><li><a href="Ideology_modding.html">Ideology模组制作</a></li><li><a href="Italian_events.html">Italian事件</a></li><li><a href="Low_Stability_events.html">Low Stability事件</a></li><li><a href="Manchukou_events.html">Manchukou事件</a></li><li><a href="Polish_events.html">Polish事件</a></li><li><a href="Portuguese_events.html">Portuguese事件</a></li><li><a href="Resources_modding.html">Resources模组制作</a></li><li><a href="Soviet_events.html">Soviet事件</a></li><li><a href="Strategic_region_modding.html">Strategic region模组制作</a></li></ul>
+      <h3>补丁（38）</h3>
+      <ul><li><a href="Patch_1.0.X.html">补丁 1.0.X</a></li><li><a href="Patch_1.1.html">补丁 1.1</a></li><li><a href="Patch_1.10.html">补丁 1.10</a></li><li><a href="Patch_1.10.X.html">补丁 1.10.X</a></li><li><a href="Patch_1.11.html">补丁 1.11</a></li><li><a href="Patch_1.11.X.html">补丁 1.11.X</a></li><li><a href="Patch_1.12.html">补丁 1.12</a></li><li><a href="Patch_1.12.X.html">补丁 1.12.X</a></li><li><a href="Patch_1.13.html">补丁 1.13</a></li><li><a href="Patch_1.13.X.html">补丁 1.13.X</a></li><li><a href="Patch_1.14.html">补丁 1.14</a></li><li><a href="Patch_1.14.X.html">补丁 1.14.X</a></li><li><a href="Patch_1.15.html">补丁 1.15</a></li><li><a href="Patch_1.15.X.html">补丁 1.15.X</a></li><li><a href="Patch_1.16.html">补丁 1.16</a></li><li><a href="Patch_1.16.X.html">补丁 1.16.X</a></li><li><a href="Patch_1.17.html">补丁 1.17</a></li><li><a href="Patch_1.17.X.html">补丁 1.17.X</a></li><li><a href="Patch_1.18.html">补丁 1.18</a></li><li><a href="Patch_1.18.X.html">补丁 1.18.X</a></li><li><a href="Patch_1.19.html">补丁 1.19</a></li><li><a href="Patch_1.19.X.html">补丁 1.19.X</a></li><li><a href="Patch_1.2.html">补丁 1.2</a></li><li><a href="Patch_1.2.X.html">补丁 1.2.X</a></li><li><a href="Patch_1.3.html">补丁 1.3</a></li><li><a href="Patch_1.3.X.html">补丁 1.3.X</a></li><li><a href="Patch_1.4.html">补丁 1.4</a></li><li><a href="Patch_1.4.X.html">补丁 1.4.X</a></li><li><a href="Patch_1.5.html">补丁 1.5</a></li><li><a href="Patch_1.5.X.html">补丁 1.5.X</a></li><li><a href="Patch_1.6.html">补丁 1.6</a></li><li><a href="Patch_1.6.X.html">补丁 1.6.X</a></li><li><a href="Patch_1.7.html">补丁 1.7</a></li><li><a href="Patch_1.7.X.html">补丁 1.7.X</a></li><li><a href="Patch_1.8.html">补丁 1.8</a></li><li><a href="Patch_1.8.X.html">补丁 1.8.X</a></li><li><a href="Patch_1.9.html">补丁 1.9</a></li><li><a href="Patch_1.9.X.html">补丁 1.9.X</a></li></ul>
+      <h3>1.14（36）</h3>
+      <ul><li><a href="List_of_1936_start_legacy_deployed_destroyers.html">1936 start legacy deployed destroyers列表</a></li><li><a href="Albania.html">阿尔巴尼亚</a></li><li><a href="Argentina.html">阿根廷</a></li><li><a href="Brazil.html">巴西</a></li><li><a href="Lamento_Boliviano.html">玻利维亚悲歌（Lamento Boliviano）</a></li><li><a href="Dalmatia.html">达尔马提亚</a></li><li><a href="Free_City_of_Danzig.html">但泽自由市</a></li><li><a href="Map.html">地图</a></li><li><a href="Defines.html">定义文件</a></li><li><a href="Aircraft.html">飞机</a></li><li><a href="Vojvodina.html">伏伊伏丁那</a></li><li><a href="Independent_State_of_Croatia.html">克罗地亚独立国</a></li><li><a href="Balance_of_power.html">力量均势</a></li><li><a href="Manchukuo.html">满洲国</a></li><li><a href="Mongolia.html">蒙古</a></li><li><a href="Difficulty.html">难度</a></li><li><a href="Province.html">省份</a></li><li><a href="We_2019_re_Putting_the_Band_Back_Together.html">我们重组乐队（We’re Putting the Band Back Together）</a></li><li><a href="Siam.html">暹罗</a></li><li><a href="Jan_Mayen.html">扬马延</a></li><li><a href="Italian_State_of_East_Africa.html">意属东非</a></li><li><a href="Strategic_region.html">战略区域</a></li><li><a href="Commander_trait.html">指挥官特质</a></li><li><a href="Chile.html">智利</a></li><li><a href="Chilean_Empire.html">智利帝国（Chilean Empire）</a></li><li><a href="Bolivian_decisions.html">Bolivian决议</a></li><li><a href="Brazilian_events.html">Brazilian事件</a></li><li><a href="Chilean_decisions.html">Chilean决议</a></li><li><a href="Chilean_missions.html">Chilean任务</a></li><li><a href="Italian_decisions.html">Italian决议</a></li><li><a href="Peruvian_decisions.html">Peruvian决议</a></li><li><a href="Trial_of_Allegiance_shared_decisions.html">Trial of Allegiance shared决议</a></li><li><a href="Venezuelan_decisions.html">Venezuelan决议</a></li><li><a href="Welsh_decisions.html">Welsh决议</a></li><li><a href="Yugoslavian_decisions.html">Yugoslavian决议</a></li><li><a href="Yugoslavian_missions.html">Yugoslavian任务</a></li></ul>
+      <h3>1.11（32）</h3>
+      <ul><li><a href="Afghanistan.html">阿富汗</a></li><li><a href="Esti_is_Scandi.html">爱沙尼亚属斯堪的纳维亚（Esti is Scandi）</a></li><li><a href="Polish_events_NSB.html">波兰事件（NSB）</a></li><li><a href="Baltic_events_NSB.html">波罗的海国家事件（NSB）</a></li><li><a href="No_more_Partitions.html">不再有瓜分（No more Partitions）</a></li><li><a href="Releasable_countries.html">可释放国家</a></li><li><a href="Yugoslavian_events_DoD.html">南斯拉夫事件（DoD）</a></li><li><a href="Launch_options.html">启动参数</a></li><li><a href="Japanese_events_WtT.html">日本事件（WtT）</a></li><li><a href="It_has_my_name_on_it.html">上面写着我的名字（It has my name on it）</a></li><li><a href="Ace_pilots_events.html">王牌飞行员事件</a></li><li><a href="Siberian_Tiger.html">西伯利亚虎（Siberian Tiger）</a></li><li><a href="New_Zealand_events.html">新西兰事件</a></li><li><a href="Hungarian_events_DoD_2.html">匈牙利事件（DoD 2）</a></li><li><a href="Political_parties_and_leaders.html">政党与领导人</a></li><li><a href="Support_company.html">支援连</a></li><li><a href="AI_modding.html">AI模组制作</a></li><li><a href="Bulgarian_events.html">Bulgarian事件</a></li><li><a href="Chinese_events.html">Chinese事件</a></li><li><a href="Decision_modding.html">Decision模组制作</a></li><li><a href="Estonian_events.html">Estonian事件</a></li><li><a href="Exiled_government_decisions.html">Exiled government决议</a></li><li><a href="Exiled_government_events.html">Exiled government事件</a></li><li><a href="Foreign_influence_decisions.html">Foreign influence决议</a></li><li><a href="French_events.html">French事件</a></li><li><a href="Generic_decisions.html">Generic决议</a></li><li><a href="Idea_modding.html">Idea模组制作</a></li><li><a href="Lithuanian_events.html">Lithuanian事件</a></li><li><a href="Music_modding.html">Music模组制作</a></li><li><a href="Supply_areas_modding.html">Supply areas模组制作</a></li><li><a href="Technology_modding.html">Technology模组制作</a></li><li><a href="Turkish_events.html">Turkish事件</a></li></ul>
+      <h3>1.9（28）</h3>
+      <ul><li><a href="Don_2019_t_Die_for_Your_Country.html">别为你的国家送死（Don’t Die for Your Country）</a></li><li><a href="Formable_nations.html">可成立国家</a></li><li><a href="Recruitable_population.html">可招募人口</a></li><li><a href="Land_doctrine_2f_Sample_divisions_with_doctrine_bonuses.html">陆军学说/带学说加成的示例师</a></li><li><a href="American_events_MtG.html">美国事件（MtG）</a></li><li><a href="Mod_structure.html">模组结构</a></li><li><a href="Division_designer.html">师编制设计</a></li><li><a href="Crusader_Kings_2.html">十字军之王 2（Crusader Kings 2）</a></li><li><a href="Rule_Britannia.html">统治不列颠（Rule Britannia）</a></li><li><a href="Spanish_Civil_War_layout.html">西班牙内战版图</a></li><li><a href="Spanish_events_LaR.html">西班牙事件（LaR）</a></li><li><a href="News_events_3.html">新闻事件 3</a></li><li><a href="News_events_DoD.html">新闻事件（DoD）</a></li><li><a href="News_events_LaR.html">新闻事件（LaR）</a></li><li><a href="News_events_MtG.html">新闻事件（MtG）</a></li><li><a href="One_King,_Two_Crowns.html">一王两冠（One King, Two Crowns）</a></li><li><a href="Ideology.html">意识形态</a></li><li><a href="Chinese_events_WtT.html">中国事件（WtT）</a></li><li><a href="State.html">州</a></li><li><a href="American_events.html">American事件</a></li><li><a href="Border_conflict_events.html">Border conflict事件</a></li><li><a href="Finnish_events.html">Finnish事件</a></li><li><a href="Naval_treaty_events.html">Naval treaty事件</a></li><li><a href="Nuke_events.html">Nuke事件</a></li><li><a href="List_of_operations.html">operations列表</a></li><li><a href="Political_events.html">Political事件</a></li><li><a href="SS_recruitment_events.html">SS recruitment事件</a></li><li><a href="War_justification_events.html">War justification事件</a></li></ul>
+      <h3>1.19（27）</h3>
+      <ul><li><a href="Australia-Hungary.html">澳匈帝国</a></li><li><a href="Continuous_focus.html">持续焦点</a></li><li><a href="Danzig_queen.html">但泽女王（Danzig queen）</a></li><li><a href="National_spirit.html">国家精神</a></li><li><a href="Hail_to_the_King.html">国王万岁（Hail to the King）</a></li><li><a href="Pinot_Noirway.html">黑皮诺挪威（Pinot Noirway）</a></li><li><a href="Old_Zealand.html">旧西兰</a></li><li><a href="List_of_military_chiefs.html">军事首脑列表</a></li><li><a href="Releasable_countries_2f_Oceania.html">可释放国家/大洋洲</a></li><li><a href="Releasable_countries_2f_Asia.html">可释放国家/亚洲</a></li><li><a href="Downloadable_content_2.html">可下载内容 2</a></li><li><a href="Maphilindia.html">马来菲利印度（Maphilindia）</a></li><li><a href="America_Decolonized!.html">美国去殖民化！（America Decolonized!）</a></li><li><a href="Norway_Jose.html">挪威，何塞（Norway Jose）</a></li><li><a href="Special_forces_doctrine.html">特种部队学说</a></li><li><a href="Uralic_brothers_united.html">乌拉尔兄弟团结（Uralic brothers united）</a></li><li><a href="Cod_wars.html">鳕鱼战争（Cod wars）</a></li><li><a href="Indonesian_Princely_States.html">印度尼西亚土邦</a></li><li><a href="This_Achievement_is_Cheesy.html">这成就太俗套了（This Achievement is Cheesy）</a></li><li><a href="This_is_going_to_be_LIT.html">这要火了（This is going to be LIT）</a></li><li><a href="List_of_political_advisors.html">政治顾问列表</a></li><li><a href="List_of_commanders.html">指挥官列表</a></li><li><a href="List_of_commanders_(base_game).html">指挥官列表（原版）</a></li><li><a href="List_of_military_high_command.html">最高统帅部列表</a></li><li><a href="Afghan_events.html">Afghan事件</a></li><li><a href="Faction_modding.html">Faction模组制作</a></li><li><a href="List_of_theorists.html">theorists列表</a></li></ul>
+      <h3>1.12（26）</h3>
+      <ul><li><a href="Bulgarian_events_BftB.html">保加利亚事件（BftB）</a></li><li><a href="Nudger.html">地图编辑器</a></li><li><a href="The_Red_Sea.html">红海（The Red Sea）</a></li><li><a href="By_Beer_Alone.html">仅凭啤酒（By Beer Alone）</a></li><li><a href="List_of_default_ship_variants.html">默认舰船型号列表</a></li><li><a href="You_Shall_Not_Pass.html">你不能通过（You Shall Not Pass）</a></li><li><a href="Holy,_Roman,_and_an_Empire.html">神圣、罗马且是一个帝国（Holy, Roman, and an Empire）</a></li><li><a href="Career_profile.html">生涯档案</a></li><li><a href="The_Lion_King.html">狮子王（The Lion King）</a></li><li><a href="Crusader_Kings_IV.html">十字军之王 IV（Crusader Kings IV）</a></li><li><a href="On_actions.html">事件钩子</a></li><li><a href="Data_structures.html">数据结构</a></li><li><a href="Soviet_Union.html">苏联</a></li><li><a href="Variant.html">型号</a></li><li><a href="Hungarian_events_DoD_1.html">匈牙利事件（DoD 1）</a></li><li><a href="Italian_events_BBA.html">意大利事件（BBA）</a></li><li><a href="Character_modding.html">Character模组制作</a></li><li><a href="Decision_events.html">Decision事件</a></li><li><a href="Event_modding.html">Event模组制作</a></li><li><a href="Font_modding.html">Font模组制作</a></li><li><a href="Japanese_events.html">Japanese事件</a></li><li><a href="Map_modding.html">Map模组制作</a></li><li><a href="Occupation_events.html">Occupation事件</a></li><li><a href="Soviet_decisions.html">Soviet决议</a></li><li><a href="Swiss_events.html">Swiss事件</a></li><li><a href="Turkish_decisions.html">Turkish决议</a></li></ul>
+      <h3>1.13（25）</h3>
+      <ul><li><a href="Al-Andalus.html">安达卢斯</a></li><li><a href="The_Danelaw.html">丹麦法区（The Danelaw）</a></li><li><a href="Lone_Wolf.html">独狼（Lone Wolf）</a></li><li><a href="Cheese_your_fighter..html">给你的战斗机加奶酪（Cheese your fighter.）</a></li><li><a href="Country_creation.html">国家创建</a></li><li><a href="Sapmi_united_by_the_fire.html">火边的萨米团结（Sapmi united by the fire）</a></li><li><a href="Bearer_of_Artillery.html">火炮持有者（Bearer of Artillery）</a></li><li><a href="Caramelldansen.html">焦糖舞（Caramelldansen）</a></li><li><a href="Military_industrial_organization.html">军工组织</a></li><li><a href="The_Magic_School_Bus.html">神奇校车（The Magic School Bus）</a></li><li><a href="New_World_Order.html">世界新秩序</a></li><li><a href="The_return_of_the_king.html">王者归来（The return of the king）</a></li><li><a href="Party_like_it's_1520.html">像 1520 年那样狂欢（Party like it's 1520）</a></li><li><a href="Modifiers.html">修正项</a></li><li><a href="Scopes.html">作用域</a></li><li><a href="Balance_of_power_modding.html">Balance of power模组制作</a></li><li><a href="Bookmark_modding.html">Bookmark模组制作</a></li><li><a href="List_of_Material_Equipment_MIOs.html">Material Equipment MIOs列表</a></li><li><a href="Military_industrial_organization_modding.html">Military industrial organization模组制作</a></li><li><a href="National_focus_modding.html">National focus模组制作</a></li><li><a href="List_of_Plane_MIOs.html">Plane MIOs列表</a></li><li><a href="Political_decisions.html">Political决议</a></li><li><a href="List_of_Ship_MIOs.html">Ship MIOs列表</a></li><li><a href="State_modding.html">State模组制作</a></li><li><a href="List_of_Tank_MIOs.html">Tank MIOs列表</a></li></ul>
+      <h3>1.18（20）</h3>
+      <ul><li><a href="Belgium.html">比利时</a></li><li><a href="Protektorat_Böhmen-Mähren.html">波希米亚和摩拉维亚保护国</a></li><li><a href="30_Minutes_of_Hel.html">地狱三十分钟（30 Minutes of Hel）</a></li><li><a href="The_501st_Legion.html">第 501 军团（The 501st Legion）</a></li><li><a href="List_of_aircraft_designers.html">飞机设计商列表</a></li><li><a href="List_of_industrial_concerns.html">工业集团列表</a></li><li><a href="Galicia_and_Lodomeria.html">加利西亚和洛多梅里亚</a></li><li><a href="List_of_ship_designers.html">舰船设计商列表</a></li><li><a href="Czechoslovakia.html">捷克斯洛伐克</a></li><li><a href="Ain't_like_that_now.html">今非昔比（Ain't like that now）</a></li><li><a href="Carpatho-Ukraine.html">喀尔巴阡乌克兰</a></li><li><a href="Bad_Romeance.html">罗马式浪漫（Bad Romeance）</a></li><li><a href="Slovakia.html">斯洛伐克</a></li><li><a href="Sudetenland.html">苏台德</a></li><li><a href="List_of_tank_designers.html">坦克设计商列表</a></li><li><a href="I_didn't_hear_no_bell.html">我没听到铃声（I didn't hear no bell）</a></li><li><a href="This_time_for_Africa.html">这次为了非洲（This time for Africa）</a></li><li><a href="List_of_materiel_designers.html">装备设计商列表</a></li><li><a href="Böhmen-Mähren_decisions.html">Böhmen-Mähren决议</a></li><li><a href="Congress_decisions.html">Congress决议</a></li></ul>
+      <h3>Disambiguation（20）</h3>
+      <ul><li><a href="Minelaying.html">布雷</a></li><li><a href="Kingdom_of_Burundi.html">布隆迪王国</a></li><li><a href="Infantry_Offensive.html">步兵攻势（Infantry Offensive）</a></li><li><a href="Delay.html">迟滞（Delay）</a></li><li><a href="Elastic_Defense.html">弹性防御（Elastic Defense）</a></li><li><a href="Backhand_Blow.html">反手一击（Backhand Blow）</a></li><li><a href="Congo.html">刚果</a></li><li><a href="Naval_Strike_Torpedo_Tactics.html">海军打击鱼雷战术（Naval Strike Torpedo Tactics）</a></li><li><a href="Mechanized_Offensive.html">机械化攻势（Mechanized Offensive）</a></li><li><a href="Spirit.html">精神（消歧义）</a></li><li><a href="Submarine_Operations.html">潜艇作战（Submarine Operations）</a></li><li><a href="Minesweeping.html">扫雷</a></li><li><a href="Infiltration_Assault.html">渗透突击（Infiltration Assault）</a></li><li><a href="Trait.html">特质（消歧义）</a></li><li><a href="Spain.html">西班牙</a></li><li><a href="Reconnaissance.html">侦察（消歧义）</a></li><li><a href="Battlefleet_Concentration.html">主力舰队集中（Battlefleet Concentration）</a></li><li><a href="Organization.html">组织度（消歧义）</a></li><li><a href="Guinea_(disambiguation).html">Guinea（消歧义）</a></li><li><a href="United_Netherlands_(disambiguation).html">United Netherlands（消歧义）</a></li></ul>
+      <h3>DLC（15）</h3>
+      <ul><li><a href="Battle_for_the_Bosporus.html">博斯普鲁斯之战</a></li><li><a href="No_Compromise,_No_Surrender.html">不妥协，不投降</a></li><li><a href="La_Résistance.html">抵抗运动</a></li><li><a href="Graveyard_of_Empires.html">帝国坟场</a></li><li><a href="Arms_Against_Tyranny.html">反抗暴政</a></li><li><a href="Together_for_Victory.html">共赴胜利</a></li><li><a href="Waking_the_Tiger.html">唤醒猛虎</a></li><li><a href="Thunder_at_Our_Gates.html">雷霆临门</a></li><li><a href="Man_the_Guns.html">全民持枪</a></li><li><a href="Death_or_Dishonor.html">死亡或耻辱</a></li><li><a href="By_Blood_Alone.html">唯有鲜血</a></li><li><a href="Peace_for_Our_Time.html">我们时代的和平</a></li><li><a href="Trial_of_Allegiance.html">效忠审判</a></li><li><a href="No_Step_Back.html">一步不退</a></li><li><a href="Götterdämmerung.html">诸神黄昏</a></li></ul>
+      <h3>1.15（11）</h3>
+      <ul><li><a href="Belgian_Congo.html">比属刚果</a></li><li><a href="German_events_GD.html">德国事件（GD）</a></li><li><a href="Don_Cossack_Host.html">顿河哥萨克</a></li><li><a href="Antischluss.html">反德奥合并（Antischluss）</a></li><li><a href="Air_combat.html">空战</a></li><li><a href="Air_missions.html">空中任务</a></li><li><a href="Kuban_National_Republic.html">库班民族共和国</a></li><li><a href="Go_Ahead,_Macau_My_Day.html">来吧，澳门我的天（Go Ahead, Macau My Day）</a></li><li><a href="Special_project.html">特殊项目</a></li><li><a href="Building_modding.html">Building模组制作</a></li><li><a href="German_decisions.html">German决议</a></li></ul></aside>
+<main class="content">
+
+<h1 class="page-title">控制台指令</h1>
+<p class="subtitle">原页面：Console commands</p>
+<div class="cov-banner">本页中文翻译进度 <b>80%</b>，未译部分暂保留英文原文。</div>
+<nav class="toc" aria-label="目录"><div class="toc-title">目录</div><ol><li class="lvl-2"><a href="#s-w9xd3k">指令列表</a></li><li class="lvl-2"><a href="#s-100lpyn">另见</a></li><li class="lvl-2"><a href="#s-1p1yprf">参考资料</a></li><li class="lvl-3"><a href="#s-4wfh8q">内部 ID</a></li><li class="lvl-3"><a href="#s-rimk89">消歧义</a></li><li class="lvl-3"><a href="#s-mbtrw5">术语表</a></li><li class="lvl-3"><a href="#s-1h7uoff">实用指令</a></li><li class="lvl-3"><a href="#s-1wgks86">对模组制作有用的指令</a></li><li class="lvl-3"><a href="#s-4bgvrl">其他游戏内指令</a></li></ol></nav>
+<div class="mw-parser-output">
+<p>本页面列出了可输入控制台窗口的指令代码。控制台窗口是一个特殊的调试窗口，在非铁人模式下按 <kbd style="border: 1px solid #aaa; border-radius: 2px; box-shadow: 1px 2px 2px #ddd; background-color: #f9f9f9; background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 1px 3px; font-family: inherit; font-size: 0.85em;">^</kbd> 、<kbd style="border: 1px solid #aaa; border-radius: 2px; box-shadow: 1px 2px 2px #ddd; background-color: #f9f9f9; background-image: linear-gradient(top, #eee, #f9f9f9, #eee); padding: 1px 3px; font-family: inherit; font-size: 0.85em;">°</kbd> 或波浪号（~）即可打开（按键因键盘布局而异）。按上、下方向键可翻阅此前执行过的指令。许多指令可通过重复输入来关闭，但有时需要重新加载存档或退出游戏。请注意，许多指令会随每个 DLC 的推出而出现或消失，因此其中一些可能无法使用。模组也可能为游戏引入指令，更常见的是引入标签，以增强其玩法。</p><p>另需注意，按设计，指令在铁人模式游戏中可能无法使用。</p>
+
+<h2 id="s-w9xd3k" data-section="1"><span class="mw-headline" id="List_of_commands">指令列表</span></h2>
+<p>按 Shift+2、§、~、\、`、"、º、^ 或 ALT+2+1，或 Shift+3 可打开控制台（按键因键盘布局而异）</p>
+<h3 id="s-4wfh8q" data-section="1"><span class="mw-headline" id="Internal_IDs">内部 ID</span></h3>
+<div style="margin-left:1.5em"><i>另见：<a href="Countries.html">国家</a></i></div>
+<p>控制台指令使用内部 ID，可通过多种不同方式获取。</p><p>查看内部 ID 的一个简便方法是调试模式。<code>debug</code> 作为控制台指令可开启调试模式，将鼠标悬停在某些数据库条目上时可提供相关信息，例如国策、国家精神（以及法令、设计商等其他理念）或科技；悬停在一个省份上时，还可获取该州与省份的 ID，以及其所属国家的三字母国家标签。<a href="Modding.html">请注意，在进行模组制作时，该控制台指令并不能实现启动选项的全部功能，无法作为其替代。</a></p><p>如果无法做到，使用本地化文件是另一种方法。为此，请先找到游戏所在文件夹，然后进入 <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/localisation/english/</span> 文件夹。其中的每个文件都包含本地化键，并为其分配了实际在游戏中显示的值。使用非默认的文本编辑器还可以使用“在文件中搜索”功能（例如 Notepad++、Sublime Text 或 Visual Studio Code 中），从而同时搜索每一个本地化文件，以找到指定的值。</p>
+<h3 id="s-rimk89" data-section="1"><span class="mw-headline" id="Disambiguation">消歧义</span></h3>
+<p>在本文中，指令内使用了 3 种括号：</p>
+<ul><li>像 <code>instantconstruction(ic)</code> 这样的圆括号用于表示别名，即控制台指令的替代名称。在此例中，使用 <code>ic</code> 或 <code>instantconstruction</code> 在游戏中的效果相同。</li>
+<li>像 <code>fow [省份 ID]</code> 这样的方括号表示 <i>可选</i> 参数。在此例中，<code>fow</code> 和 <code>fow 1234</code> 都能生效，但效果可能不同。</li>
+<li>像 <code>event [&lt;事件 ID&gt;]</code> 这样方括号与尖括号组合使用，表示 <i>必填</i> 参数。在此例中，<code>event generic.1</code> 会生效，但 <code>event</code> 不会。</li></ul>
+<h3 id="s-mbtrw5" data-section="1"><span class="mw-headline" id="Glossary">术语表</span></h3>
+<p>MIO 是 Military Industrial Organizations（军事工业组织）的缩写</p>
+<h3 id="s-1h7uoff" data-section="1"><span class="mw-headline" id="Useful_commands">实用指令</span></h3>
+<table class="wikitable sortable">
+<tbody><tr>
+<th>指令</th>
+<th>效果</th>
+<th>示例/备注</th></tr>
+<tr id="help">
+<td>help [命令名称]</td>
+<td>打印所有控制台指令或某条指令的说明。</td>
+<td>
+</td></tr>
+<tr id="tag">
+<td>tag [&lt;国家标签&gt;]</td>
+<td>切换玩家所控制的国家。</td>
+<td>
+</td></tr>
+<tr id="event">
+<td>event [&lt;事件 id&gt;] [目标国家标签]</td>
+<td>执行一个事件</td>
+<td><a href="Events.html">事件页面</a> 可用于告知事件的 ID。如果该事件带有 <code>trigger = { ... }</code> 块，它会说明哪些触发条件已满足、哪些未满足。</td></tr>
+<tr id="finish_decision">
+<td>finish_decision [&lt;决议 id&gt;] 或 "all"</td>
+<td>立即完成限时任务。</td>
+<td>
+</td></tr>
+<tr id="add_ideas">
+<td>add_ideas [&lt;理念名称&gt;]</td>
+<td>为国家添加理念，ID 为 &lt;id&gt;。也可用于替换法令。</td>
+<td>
+</td></tr>
+<tr id="remove_ideas">
+<td>remove_ideas [&lt;理念名称&gt;]</td>
+<td>移除国家理念。</td>
+<td>
+</td></tr>
+<tr id="energy_ratio">
+<td>energy_ratio (er) [&lt;比率&gt;]</td>
+<td>为不消耗煤炭的工厂设置能源比率，取值 0 到 1。</td>
+<td>
+</td></tr>
+<tr>
+<td>FI [数值}</td>
+<td>增加阵营倡议</td>
+<td>FI 5 增加 5 点阵营倡议</td></tr>
+<tr id="mastery">
+<td>mastery [&lt;精通数量&gt;], [路线名称]</td>
+<td>给予学说精通度，可全局给予或给予特定分支。</td>
+<td>
+</td></tr>
+<tr id="gain_xp">
+<td>gain_xp [&lt;数值&gt;]</td>
+<td>为选中的领袖/将领/海军上将增加经验</td>
+<td>gain_xp 100000（等级上限为 9）</td></tr>
+<tr id="gain_xp">
+<td>gain_xp [&lt;特质&gt;]</td>
+<td>为选中的领袖/将领/海军上将添加 <b>gainable</b> 特质</td>
+<td>即：gain_xp seawolf <p><b>备注</b> To make it work with new, generic created Admirals:<br>
+1. Open <i> 'Documents\Paradox Interactive\Hearts of Iron IV\settings.txt' </i> with a text editor and change "save_as_binary=yes" to "save_as_binary=no".<br>
+2. Start game, load savegame and save as new file, exit game.<br>
+3. Open <i> 'Documents\Paradox Interactive\Hearts of iron IV\Save Games' </i>, open the newly created savegame file, search (CTRL-F) for the name of your generic created Admiral <br>
+4. Go a few lines below to <b>max_traits=0.000</b> and add the following code block behind it
+</p> <pre>			in_progress={
+				seawolf=0.000
+				superior_tactician=0.000
+				spotter=0.000
+				fly_swatter=0.000
+				ironside=0.000
+				air_controller=0.000
+			}
+</pre> <p>5. 确保以 <b>ANSI</b> 编码格式保存该文件。6. 启动游戏，载入存档，使用 gain_xp 命令，尽情享受。（可选：在 settings.txt 中重新开启二进制化）</p></td></tr>
+<tr id="cp">
+<td>cp [&lt;数值&gt;]</td>
+<td>增加指挥点数</td>
+<td>cp 100（上限为 100）</td></tr>
+<tr id="st">
+<td>st [&lt;数值&gt;]</td>
+<td>增加稳定度</td>
+<td>st 100（上限为 100）</td></tr>
+<tr id="add_war_support">
+<td>add_war_support(ws) [&lt;数值&gt;]</td>
+<td>增加战争支持度</td>
+<td>ws 100（上限为 100）</td></tr>
+<tr id="reduce_opinion">
+<td>reduce_opinion [&lt;国家标签&gt;]</td>
+<td>降低对标签国家/来自标签国家的意见。</td>
+<td>
+</td></tr>
+<tr id="allowtraits">
+<td>allowtraits
+</td>
+<td>允许自由分配将领特质</td>
+<td>
+</td></tr>
+<tr id="add_equipment">
+<td>add_equipment(ae) [&lt;装备数量&gt;] [&lt;装备名称&gt;]</td>
+<td>增加装备</td>
+<td>装备使用基础名称，例如 'ae 1000 infantry_equipment_1'。你只能添加已研发的装备。不支持海军装备。（运输船队例外：'ae 1000 convoy_1'）要添加舰船，可考虑使用 instantconstruction(ic) 或 instanttraining (it)（'ic' 或 'it' 也会影响 AI）。<p>要添加改装过的装备，你必须用给定的名称来指定它。示例：你创建了一个 'Matilda LP' 坦克的变体，拥有更好的装甲和主炮，并将其命名为 'Matilda LP Mk. IV'。现在使用 'add_equipment 1000 Matilda LP Mk. IV'。</p></td></tr>
+<tr id="add_latest_equipment">
+<td>add_latest_equipment(ale) [&lt;装备数量&gt;]</td>
+<td>给予玩家一定数量的最新型号装备</td>
+<td>要只添加你最新装备中的某一特定型号，你必须使用它给定的名称。示例：你以 'Matilda LP' 坦克为基础创建一个装甲与主炮更好的变体，并将其命名为 'Matilda LP Mk. IV'。<p>现在使用 'add_latest_equipment 1000 Matilda LP Mk. IV'。</p></td></tr>
+<tr>
+<td>addfunds
+</td>
+<td>为所有 MIO 增加资金</td>
+<td>为每个 MIO（军事工业组织）增加 1000 资金</td></tr>
+<tr>
+<td>addTaskCapacity [数值]</td>
+<td>为所有 MIO 增加任务容量</td>
+<td>如果没有给出输入，默认为 1。<p>若要只为某个特定的 MIO 增加任务容量，你需要在 <i>\Hearts of Iron IV\common\military_industrial_organization\organizations\&lt;your country's tag&gt;.txt</i> 中找到该 MIO id。然后使用 addTaskCapacity [<mio id>] [数值]</mio></p></td></tr>
+<tr>
+<td>addSize [数值]</td>
+<td>为所有 MIO 增加特质点数</td>
+<td>如果没有给出输入，默认为 1。<p>若要只为某个特定的 MIO 增加特质点数，你需要在 <i>\Hearts of Iron IV\common\military_industrial_organization\organizations\&lt;your country's tag&gt;.txt</i> 中找到该 MIO id。然后使用 addSize [<mio id>] [数值]</mio></p></td></tr>
+<tr>
+<td>add_cic_bank [数值]</td>
+<td>为玩家增加国际市场中的经济产能盈余</td>
+<td>若未给出输入值，默认为 1</td></tr>
+<tr id="whitepeace">
+<td>whitepeace(wp) [&lt;国家标签&gt;]</td>
+<td>与指定国家白和。</td>
+<td>
+</td></tr>
+<tr id="teleport">
+<td>teleport(tp)
+</td>
+<td>激活传送工具</td>
+<td>可将单位传送到你指定的任何位置（选中单位后右键点击某个省份）</td></tr>
+<tr id="allowdiplo">
+<td>allowdiplo(adiplo,nocb)
+</td>
+<td>允许使用所有外交行动，不受规则限制。（无需战争目标制造即可宣战）</td>
+<td>这很可能是想要开战时最有效的方式 <b>无需</b> 需要等待战争目标制造完成。如果你只想要瞬间制造战争目标而不需要它附带的其他选项，则使用 (instant_wargoal)。</td></tr>
+<tr id="debug_crash">
+<td>debug_crash(crash)
+</td>
+<td>使游戏崩溃。</td>
+<td>
+</td></tr>
+<tr id="instantconstruction">
+<td>instantconstruction (ic)
+</td>
+<td>切换瞬间建造作弊。</td>
+<td>影响 AI。舰船也会瞬间建成。</td></tr>
+<tr id="research">
+<td>research [&lt;槽位 id&gt; 或 "all"]</td>
+<td>从科研槽或全部科研槽研究一项科技。</td>
+<td>research all 将瞬间研究所有科技</td></tr>
+<tr id="research_on_icon_click">
+<td>research_on_icon_click (roic)
+</td>
+<td>点击科技树图标时研究一项科技</td>
+<td>允许你研究没有前置条件的项目，或两项互斥的项目</td></tr>
+<tr id="toggle_hidden_techs">
+<td>toggle_hidden_techs (tht)
+</td>
+<td>切换显示/隐藏所有隐藏科技。</td>
+<td>
+</td></tr>
+<tr id="sp_breakthrough">
+<td>sp_breakthrough [&lt;数值&gt;] <p>sp_breakthrough [&lt;数值&gt; 可选 &lt;专精&gt;] (sp_br)</p></td>
+<td>为所有设施增加特殊项目突破点数。</td>
+<td>例：sp_breakthrough 1 <p>例：sp_br 20 specialization_land</p><p>专精类型有：specialization_land、specialization_air、specialization_naval、specialization_nuclear（由 mod 添加的则位于 Mod Path\common\special_projects\specialization）</p></td></tr>
+<tr id="sp_fast">
+<td>sp_fast
+</td>
+<td>跳过原型阶段，推进特殊项目的迭代阶段</td>
+<td>
+</td></tr>
+<tr id="sp_instant">
+<td>sp_instant
+</td>
+<td>自动完成当前特殊项目</td>
+<td>
+</td></tr>
+<tr id="sp_available">
+<td>sp_available
+</td>
+<td>解锁/锁定所有科研前置条件未满足的特殊项目</td>
+<td>例如：无需研究 "Atomic Research" 科技即可解锁核能特殊项目</td></tr>
+<tr id="sp_unlock_all">
+<td>sp_unlock_all
+</td>
+<td>所有特殊项目始终可见且可用。无论触发条件是否返回真，也无论前置项目是否完成。</td>
+<td>
+</td></tr>
+<tr id="sp_research_all">
+<td>sp_research_all (sp_ra)
+</td>
+<td>研究所有特殊项目。如果不存在科学家，会创建一个；否则会随机挑选一名。</td>
+<td>
+</td></tr>
+<tr id="sp_prototype_reward">
+<td>sp_prototype_reward
+</td>
+<td>在项目进行期间触发指定的原型奖励。</td>
+<td>
+</td></tr>
+<tr id="sp_add_scientist">
+<td>sp_add_scientist
+<p>sp_add_scientist [&lt;等级&gt;（可选）] [&lt;专精&gt;（可选）]</p>
+</td>
+<td>添加一名无专精或指定专精/技能等级的通用科学家</td>
+<td>命令 sp_add_scientist 3 nuclear <p>sp_add_scientist 1
+</p></td></tr>
+<tr>
+<td>sp_add_mastermind
+</td>
+<td>添加一名拥有全部专精且技能等级为满级的通用科学家</td>
+<td>
+</td></tr>
+<tr>
+<td>sp_set_selected_scientist_level [&lt;等级&gt;]</td>
+<td>设置科学家的等级</td>
+<td>必须已打开带有已指派科学家的设施界面</td></tr>
+<tr>
+<td>sp_add_selected_scientist_trait [&lt;特质&gt;]</td>
+<td>为科学家添加指定特质</td>
+<td>例：sp_add_selected_scientist_trait scientist_trait_brilliant_theorist <p>为选中的科学家添加「杰出科学家」特质。必须打开已指派该科学家的设施视图界面。特质文件位于 "Hearts of Iron IV\common\scientist_traits\00_traits.txt"</p></td></tr>
+<tr id="annex">
+<td>annex [&lt;目标国家标签&gt; 或 "all"]</td>
+<td>开始吞并/吞并指定标签</td>
+<td>annex USA 或 annex d01 或 annex all</td></tr>
+<tr id="puppet">
+<td>puppet [&lt;宗主国标签&gt;] [&lt;傀儡目标国标签&gt;]</td>
+<td>将目标国家变为傀儡国的傀儡国</td>
+<td>puppet GER CZE（捷克斯洛伐克成为德意志国的傀儡国）</td></tr>
+<tr id="manpower">
+<td>manpower [数值]</td>
+<td>为玩家增加人力</td>
+<td>若未指定数字，默认为 1000 万。</td></tr>
+<tr id="add_opinion">
+<td>add_opinion [&lt;国家标签&gt;]</td>
+<td>增加对标签国家/来自标签国家的意见</td>
+<td>为目标国家增加 100 意见（硬编码数值）并双向生效（例如 add_opinion ENG）。成功调用后会打印 "&lt;country&gt; have 100 more opinion about you"，并在外交界面中显示为 "cheat_opinion_modified_good"</td></tr>
+<tr>
+<td>add_legitimacy [&lt;国家标签&gt;] [&lt;数值&gt;]</td>
+<td>为指定标签增加合法性。</td>
+<td>示例：add_legitimacy POL 22</td></tr>
+<tr id="observe">
+<td>observe(spectator)
+</td>
+<td>切换为不控制任何国家，且不再显示消息或暂停游戏。但这也会干扰 AI 的表现，因此如果未使用观察模式，它并不能很好地反映 AI 的行为。</td>
+<td>
+</td></tr>
+<tr id="tdebug">
+<td>tdebug
+</td>
+<td>切换调试信息</td>
+<td>有助于查找国家标签和 ID</td></tr>
+<tr id="occupationpaint">
+<td>occupationpaint(op)
+</td>
+<td>切换占领涂色。若与国家标签一起使用，会占领其全部拥有的（而非控制的）领土，</td>
+<td>op JAP
+</td></tr>
+<tr id="setowner">
+<td>setowner [&lt;国家标签&gt;]</td>
+<td>设置州的所有者</td>
+<td>选择你希望设为所有者的州。点击该州即可选中。你需要通过点击来选定州，州 id 已不再可用。</td></tr>
+<tr id="setcontroller">
+<td>setcontroller [&lt;国家标签&gt;] [省份 id]</td>
+<td>设置省份控制者</td>
+<td>
+</td></tr>
+<tr id="xp">
+<td>xp [&lt;经验值数量&gt;]</td>
+<td>为玩家提供陆军、海军和空军经验</td>
+<td>每天可使用一次</td></tr>
+<tr id="pp">
+<td>pp(fuhrer_mana,political_power) [政治点数数量]</td>
+<td>为玩家增加（或移除）政治点数</td>
+<td>若未设置数值，默认为 1000。</td></tr>
+<tr id="fuel">
+<td>fuel [&lt;数值&gt;]</td>
+<td>增加燃油</td>
+<td>fuel 100000（上限为你的储存容量，增加过多会导致燃油减少）</td></tr>
+<tr id="civilwar">
+<td>civilwar [&lt;意识形态&gt;] [&lt;目标国家标签&gt;]</td>
+<td>引发一场内战</td>
+<td>civilwar fascism ENG ：<p>其他有效意识形态 "communism" "democratic" "neutrality"</p></td></tr>
+<tr id="add_party_popularity">
+<td>add_party_popularity &lt;ideology group&gt; &lt;value&gt;
+</td>
+<td>增加政党支持度</td>
+<td>意识形态组在原版 HOI 各派系中有快捷方式 d f n c。</td></tr>
+<tr id="set_ruling_party">
+<td>set_ruling_party &lt;ideology group&gt;
+</td>
+<td>设置执政党</td>
+<td>意识形态组在原版 HOI 各派系中有快捷方式 d f n c。</td></tr>
+<tr id="Focus.AutoComplete">
+<td>Focus.AutoComplete (fa)
+</td>
+<td>使国策可以瞬间完成</td>
+<td>影响 AI</td></tr>
+<tr id="Focus.NoChecks">
+<td>Focus.NoChecks
+</td>
+<td>忽略焦点需求</td>
+<td>影响 AI</td></tr>
+<tr id="Focus.IgnorePrerequisites">
+<td>Focus.IgnorePrerequisites
+</td>
+<td>忽略焦点前置条件</td>
+<td>允许你在国策树的中段直接开始一个焦点。影响 AI</td></tr>
+<tr id="freefocuses">
+<td>freefocuses (ff)
+</td>
+<td>允许自由激活任意焦点</td>
+<td><a href="#Focus.AutoComplete">Focus.AutoComplete (fa)</a>、<a href="#Focus.NoChecks">Focus.NoChecks</a> 与 <a href="#Focus.IgnorePrerequisites">Focus.IgnorePrerequisites</a> 的组合。</td></tr>
+<tr id="Decision.FastRemove">
+<td>Decision.FastRemove
+</td>
+<td>将决议缩短至 1 天</td>
+<td>
+</td></tr>
+<tr id="Decision.NoChecks">
+<td>Decision.NoChecks
+</td>
+<td>忽略决议需求</td>
+<td>同时禁用花费，影响 AI</td></tr>
+<tr id="instant_prepare">
+<td>instant_prepare
+</td>
+<td>瞬间完成海军登陆准备</td>
+<td>仅在调试模式下有效。</td></tr>
+<tr id="instanttraining">
+<td>instanttraining (it)
+</td>
+<td>瞬间训练师与舰船</td>
+<td>影响 AI</td></tr>
+<tr id="nuke">
+<td>nuke [数值]</td>
+<td>增加核弹</td>
+<td>添加 100 或 1000</td></tr>
+<tr id="ai_accept">
+<td>ai_accept (yesman)
+</td>
+<td>AI 将接受所有外交提议</td>
+<td>
+</td></tr>
+<tr id="add_core">
+<td>add_core &lt;state_id&gt;
+</td>
+<td>添加核心</td>
+<td>
+</td></tr>
+<tr id="Agency.Instant">
+<td>Agency.Instant
+</td>
+<td>使一切与情报机构相关的事务变为瞬间完成。</td>
+<td>等同于 Operation.Instant、IntelNetwork.Instant、Agency.InstantSlotUnlock 和 Agency.Autocomplete 的组合</td></tr>
+<tr id="Agency.InstantSlotUnlock">
+<td>Agency.InstantSlotUnlock
+</td>
+<td>移除特工招募之间的等待时间</td>
+<td>
+</td></tr>
+<tr id="Agency.Autocomplete">
+<td>Agency.Autocomplete
+</td>
+<td>瞬间完成情报机构升级</td>
+<td>
+</td></tr>
+<tr id="prevent_operative_detection">
+<td>prevent_operative_detection
+</td>
+<td>你的特工/特工将不再被侦测到</td>
+<td>
+</td></tr>
+<tr id="force_operative_detection">
+<td>force_operative_detection
+</td>
+<td>你的特工/特工将被侦测到</td>
+<td>
+</td></tr>
+<tr>
+<td>Operation.instant
+</td>
+<td>瞬间完成所有行动</td>
+<td>影响 AI</td></tr>
+<tr id="agency">
+<td>agency.keepexcessoperatives
+</td>
+<td>
+</td>
+<td>
+</td></tr>
+<tr id="deleteallunits">
+<td>deleteallunits(delall) [国家]</td>
+<td>删除指定国家的所有陆军和舰队。</td>
+<td>deleteallunits SPR
+</td></tr>
+<tr id="deleteallunitsbut">
+<td>deleteallunitsbut(delallbut) [国家]</td>
+<td>删除所有国家的陆军和舰队，但保留其中一个国家。</td>
+<td>delallbut SPR
+</td></tr>
+<tr id="add_autonomy">
+<td>add_autonomy [&lt;目标国家标签&gt;] [数值]</td>
+<td>改变一个国家的自治度等级</td>
+<td>add_autonomy PHI -200
+</td></tr>
+<tr id="resistance">
+<td>抵抗度</td>
+<td>按设定数值提高所选省份的抵抗度</td>
+<td>例：（在柏林选中其中一个省份）resistance 100</td></tr>
+<tr id="compliance">
+<td>顺从度</td>
+<td>按设定数值提高游戏中所选省份的顺从度</td>
+<td>例：（在但泽选中其中一个省份）compliance 100</td></tr>
+<tr>
+<td>add_intel [&lt;国家标签 1&gt;] [国家标签 2] [civilian,army,navy,airforce]=[数值] <p>add_intel [&lt;目标国家标签&gt;] [civilian,army,navy,airforce]=[数值]</p></td>
+<td>设置第一个标签对第二个标签所拥有的输入情报。所设置的情报数值为静态值（在游戏剩余时间内永久生效）。</td>
+<td>例（把玩家对法国的情报设为最大）：add_intel FRA <p>ex (sets army intel Germany has against USA to 20%): add_intel GER USA army=20
+</p><p>ex (sets airforce and civilian intel Player has against Japan to 90% and 76% respectively): add_intel JAP airforce=90 civilian=76
+</p></td></tr>
+<tr>
+<td>add_mines
+</td>
+<td>将玩家在所选区域拥有的海军水雷设为最大</td>
+<td>
+</td></tr>
+<tr>
+<td>acclimization [&lt;气候类型&gt;] [&lt;数值&gt;]</td>
+<td>将所选师的适应性设置为指定气候类型及其百分比（降低寒冷/炎热天气或温度减益带来的惩罚）</td>
+<td>例：acclimization cold_climate 75 <p>例：acclimization hot_climate 20 <b>备注</b> 会将相反的气候类型重置为 0%</p></td></tr>
+<tr id="debug_smooth">
+<td>debug_smooth
+</td>
+<td>切换帧平滑</td>
+<td>可显著提升游戏速度，视系统而定通常在 10 到 35 之间</td></tr></tbody></table>
+<h3 id="s-1wgks86" data-section="1"><span class="mw-headline" id="Modding-useful_commands">对模组制作有用的指令</span></h3>
+<p>前文提到的若干其他指令，例如 <a href="#event">event</a>，在模组制作中也很有用。</p>
+<table class="wikitable sortable">
+<tbody><tr>
+<th>指令</th>
+<th>效果</th>
+<th>示例/备注</th></tr>
+<tr id="guibounds">
+<td>guibounds(gui)
+</td>
+<td>切换 GUI 边界调试，便于测试不同的窗口尺寸。</td>
+<td>还会给出玩家所悬停的精灵图和界面元素的名称，从而可通过 <a href="Modding.html">同时搜索每一个 <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/interface/*.gfx</span> 文件。</a> 找到该图像的位置</td></tr>
+<tr id="set_var">
+<td>set_var [&lt;变量&gt;] [&lt;数值&gt;]</td>
+<td>将变量的值改为指定值。</td>
+<td>
+</td></tr>
+<tr id="get_var">
+<td>get_var [&lt;变量&gt;]</td>
+<td>在控制台中显示变量的值</td>
+<td>
+</td></tr>
+<tr id="list_vars">
+<td>list_vars
+</td>
+<td>列出在所选作用域中设置的变量及其值。</td>
+<td>
+</td></tr>
+<tr id="set_country_flag">
+<td>set_country_flag [&lt;国家标记&gt;]</td>
+<td>为当前游玩的国家添加一个国家标记。</td>
+<td>如果你在指令中填入其他国家的标签，例如 "set_country_flag flag AUS"，则不会生效，即使控制台显示已生效。</td></tr>
+<tr id="set_global_flag">
+<td>set_global_flag [&lt;全局标记&gt;]</td>
+<td>添加一个全局标记。</td>
+<td>
+</td></tr>
+<tr id="list_flags">
+<td>list_flags
+</td>
+<td>在控制台窗口中列出当前激活的标记。</td>
+<td>输入该指令时，若未选中任何对象（global_flag）、选中了国家（country_flag）或选中了州（state_flag），效果会相应变化。</td></tr>
+<tr id="fast_forward">
+<td>fast_forward [&lt;天数&gt;], [observer]</td>
+<td>快进指定天数。</td>
+<td>
+</td></tr>
+<tr id="list_hidden_focuses">
+<td>list_hidden_focuses
+</td>
+<td>列出某个国家的所有隐藏焦点。</td>
+<td>
+</td></tr>
+<tr id="show_focuses">
+<td>show_focuses
+</td>
+<td>显示所有隐藏焦点。</td>
+<td>
+</td></tr>
+<tr id="trigger">
+<td>trigger [&lt;脚本化触发器名称&gt;]</td>
+<td>检查某个脚本化触发条件是否为真。</td>
+<td>
+</td></tr>
+<tr id="eval_trigger">
+<td>eval_trigger [&lt;触发器代码块&gt;]</td>
+<td>检查该指令后面的触发条件代码在当前所选作用域内是否为真。</td>
+<td>示例：<code>eval_trigger OR = { has_completed_focus = GER_remilitarize_the_rhineland has_war_support &gt; 0.5 }</code></td></tr>
+<tr id="effect">
+<td>effect (e) [&lt;脚本化效果名称&gt;]</td>
+<td>在当前选定的作用域内执行一个脚本化效果。</td>
+<td>示例：对一个州使用 <code>e POL_remove_danzig_effect</code> 将在该州上执行该效果。</td></tr>
+<tr id="eval_effect">
+<td>eval_effect [&lt;效果代码块&gt;]</td>
+<td>在当前所选作用域内执行该指令后面的效果代码。</td>
+<td>示例：<code>eval_effect load_focus_tree = german_focus</code> 会将当前所选国家切换为德国国策树。</td></tr>
+<tr id="ai">
+<td>ai [国家标签...]</td>
+<td>开启或关闭 AI</td>
+<td>不带参数时切换所有国家的 AI。带参数时，为这些国家切换相对于通用规则的例外。可用于确认崩溃是否与 AI 有关。</td></tr>
+<tr id="aiview">
+<td>aiview
+</td>
+<td>启用 AI 调试信息</td>
+<td>
+</td></tr>
+<tr id="human_ai">
+<td>human_ai
+</td>
+<td>让 AI 控制当前由玩家领导的国家，同时玩家仍保留控制权。</td>
+<td>AI 还会在 <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/logs/scripted_ai.log</span> 内创建日志，该文件位于 <a href="Modding.html">用户目录</a>。</td></tr>
+<tr id="set_cosmetic_tag">
+<td>set_cosmetic_tag [&lt;国家标签&gt;] [&lt;外观标签&gt;]</td>
+<td>更改国家的名称和国旗</td>
+<td>set_cosmetic_tag USA SOV
+</td></tr>
+<tr id="reload">
+<td>reload [&lt;类型&gt;]</td>
+<td>重新加载指定类型的文件。也接受 <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/interface/</span> 文件夹中的单个文件。等同于通过启动选项开启调试模式后覆盖保存文件时自动执行的效果。</td>
+<td>
+<ul><li>reload loc（重新加载本地化文件）</li>
+<li>reload focus（重新加载焦点）</li>
+<li>reload landcombat.gui（重新加载陆战界面）</li></ul>
+</td></tr>
+<tr id="reloadoob">
+<td>reloadoob [&lt;目标国家标签&gt;]</td>
+<td>重新加载战斗序列。</td>
+<td>
+</td></tr>
+<tr id="reloadinterface">
+<td>reloadinterface
+</td>
+<td>重新加载整个界面</td>
+<td>
+</td></tr>
+<tr id="reloadtechnologies">
+<td>reloadtechnologies
+</td>
+<td>重新加载科技数据库</td>
+<td>
+</td></tr>
+<tr id="updateequipments">
+<td>updateequipments
+</td>
+<td>更新装备数据库</td>
+<td>
+</td></tr>
+<tr id="updatesubunits">
+<td>updatesubunits
+</td>
+<td>更新子单位数据库</td>
+<td>
+</td></tr>
+<tr id="update_loc">
+<td>update_loc [本地化标签]</td>
+<td>更新本地化标签文件</td>
+<td>
+</td></tr>
+<tr id="error">
+<td>error
+</td>
+<td>打开错误日志文件。</td>
+<td>如果文件夹路径中包含特殊字符，该指令将无法使用。等同于在启动选项中启用调试模式后点击错误狗。</td></tr>
+<tr id="imgui">
+<td>imgui
+</td>
+<td>控制 ImGui 界面。使用 <code>imgui show</code> 列出可用的子指令。这些界面涵盖多种实用的模组制作工具，例如脚本性能分析、AI 调试和角色列表。</td>
+<td>
+</td></tr>
+<tr id="goto_province">
+<td>goto_province [省份 id]</td>
+<td>将镜头位置移动到指定省份。</td>
+<td>
+</td></tr>
+<tr id="goto_state">
+<td>goto_state [州 id]</td>
+<td>将镜头位置移动到指定州。</td>
+<td>
+</td></tr></tbody></table>
+<h3 id="s-4bgvrl" data-section="1"><span class="mw-headline" id="Other_in-game_commands">其他游戏内指令</span></h3>
+<table class="wikitable sortable">
+<tbody><tr>
+<th>指令</th>
+<th>效果</th>
+<th>示例/备注</th></tr>
+<tr>
+<td>province_ids (pid)
+</td>
+<td>在地图上显示省份 ID</td>
+<td>
+</td></tr>
+<tr>
+<td>ShowTechBonus
+</td>
+<td>用途未知，但从名称推测，它与科技加成有关。</td>
+<td>仅供开发者使用。</td></tr>
+<tr>
+<td>normals
+</td>
+<td>用途未知。</td>
+<td>仅供开发者使用。</td></tr>
+<tr id="rendertype">
+<td>rendertype
+</td>
+<td>报告所使用的渲染后端</td>
+<td>
+</td></tr>
+<tr id="tweakergui">
+<td>tweakergui
+</td>
+<td>生成一个调节器 GUI</td>
+<td>
+</td></tr>
+<tr id="time">
+<td>time
+</td>
+<td>现在是什么时间？</td>
+<td>
+</td></tr>
+<tr id="reloadfx">
+<td>reloadfx [参数：map/mapname/postfx 或 *.fx 文件名]</td>
+<td>重新加载着色器</td>
+<td>
+</td></tr>
+<tr id="particle_editor">
+<td>particle_editor
+</td>
+<td>生成一个粒子编辑器</td>
+<td>
+</td></tr>
+<tr id="analyzetheatres">
+<td>analyzetheatres (anth)
+</td>
+<td>分析战区是否存在错误。</td>
+<td>
+</td></tr>
+<tr id="massconquer">
+<td>massconquer (massc)
+</td>
+<td>批量征服工具。需要使用直接的省份名称。</td>
+<td>仅供开发者使用。</td></tr>
+<tr id="aircombat">
+<td>aircombat (airc) [&lt;场景名&gt;] [&lt;结果名&gt;] [&lt;省份 id&gt;] [&lt;带空军基地的州 id&gt;] [&lt;带空军基地的州 id&gt;] [&lt;装备类型&gt;] [&lt;装备类型&gt;] [&lt;装备生产国&gt;] [&lt;装备生产国&gt;]</td>
+<td>在指定位置生成一场空战。</td>
+<td>仅供开发者使用。</td></tr>
+<tr id="fronts">
+<td>fronts
+</td>
+<td>切换外国前线的可见性</td>
+<td>
+</td></tr>
+<tr id="ai_front_dump">
+<td>ai_front_dump (aifrontdump)
+</td>
+<td>将 AI 前线数据导出到日志文件，需要选中一个单位</td>
+<td>
+</td></tr>
+<tr id="traderoutes">
+<td>traderoutes
+</td>
+<td>切换贸易路线的可见性</td>
+<td>
+</td></tr>
+<tr id="debug_tactics">
+<td>debug_tactics
+</td>
+<td>切换战术调试提示框的可见性</td>
+<td>
+</td></tr>
+<tr id="reloadsupply">
+<td>reloadsupply (relsup)
+</td>
+<td>重新初始化补给系统。</td>
+<td>
+</td></tr>
+<tr id="deltat">
+<td>deltat [&lt;速度系数&gt;]</td>
+<td>控制动画速度</td>
+<td>
+</td></tr>
+<tr id="building_health">
+<td>building_health (bhealth) [&lt;建筑类型&gt;] [&lt;州或省份 id&gt;] [&lt;建筑等级&gt;] [&lt;要增加的健康值&gt;]</td>
+<td>更改指定建筑的耐久度</td>
+<td>
+</td></tr>
+<tr id="nomapicons">
+<td>nomapicons
+</td>
+<td>切换地图图标。</td>
+<td>
+</td></tr>
+<tr id="nopausetext">
+<td>nopausetext
+</td>
+<td>切换暂停横幅，便于截取更干净的截图。</td>
+<td>
+</td></tr>
+<tr id="nextsong">
+<td>nextsong
+</td>
+<td>切换当前播放的背景音乐。</td>
+<td>
+</td></tr>
+<tr id="combatsound">
+<td>combatsound
+</td>
+<td>战斗视图随机播放音效的频率是多少？0-50</td>
+<td>
+</td></tr>
+<tr id="morehumans">
+<td>morehumans (humans) [数值]</td>
+<td>添加更多人类玩家</td>
+<td>
+</td></tr>
+<tr id="window">
+<td>window (wnd) [参数：open/close] [窗口界面名称]</td>
+<td>打开或关闭指定窗口</td>
+<td>
+</td></tr>
+<tr id="poll">
+<td>poll
+</td>
+<td>轮询有效事件</td>
+<td>
+</td></tr>
+<tr id="pause_in_hours">
+<td>pause_in_hours
+</td>
+<td>调用该指令后，游戏将在 X 小时后暂停</td>
+<td>
+</td></tr>
+<tr id="winwars">
+<td>winwars
+</td>
+<td>为该国家在所有战争中提供最大战争贡献</td>
+<td>自 1.9.1 补丁起该指令已不存在</td></tr>
+<tr id="testevent">
+<td>testevent [&lt;事件 ID&gt;] [&lt;人物 ID&gt;]</td>
+<td>在不触发事件的情况下测试一个事件</td>
+<td>
+</td></tr>
+<tr id="resign">
+<td>resign
+</td>
+<td>退出游戏</td>
+<td>
+</td></tr>
+<tr id="add_interest">
+<td>add_interest [&lt;国家标签&gt;]</td>
+<td>将指定国家标签加入你的关注</td>
+<td>
+</td></tr>
+<tr id="remove_interest">
+<td>remove_interest [&lt;国家标签&gt;]</td>
+<td>将指定国家标签从你的关注中移除</td>
+<td>
+</td></tr>
+<tr id="add_diplo">
+<td>add_diplo
+</td>
+<td>添加外交接触</td>
+<td>
+</td></tr>
+<tr id="PrintSynchStuff">
+<td>PrintSynchStuff
+</td>
+<td>打印随机计数与种子</td>
+<td>
+</td></tr>
+<tr id="SetRandomCount">
+<td>SetRandomCount
+</td>
+<td>将随机计数设置为 0 或参数值</td>
+<td>
+</td></tr>
+<tr id="ai_invasion">
+<td>ai_invasion
+</td>
+<td>切换 AI 海军登陆</td>
+<td>
+</td></tr>
+<tr id="ai_pp_log">
+<td>ai_pp_log
+</td>
+<td>将 AI 对政治点数的使用打印到日志</td>
+<td>
+</td></tr>
+<tr id="ai_idea_desire_log">
+<td>ai_idea_desire_log
+</td>
+<td>将 AI 对理念的偏好打印到日志。仅限当前国家</td>
+<td>
+</td></tr>
+<tr id="ai_force_template">
+<td>ai_force_template
+</td>
+<td>强制 AI 只将陆军经验用于师编制设计</td>
+<td>
+</td></tr>
+<tr id="ai_force_equipment">
+<td>ai_force_equipment
+</td>
+<td>强制 AI 只将陆军经验用于装备设计</td>
+<td>
+</td></tr>
+<tr id="ai_front_id">
+<td>ai_front_id
+</td>
+<td>获取所选集团军前线调试 ID 的地址</td>
+<td>
+</td></tr>
+<tr id="fow">
+<td>fow (debug_fow) [省份 ID]</td>
+<td>关闭战争迷雾，若指定省份则仅在该省份内生效。</td>
+<td>
+</td></tr>
+<tr id="collision">
+<td>collision (debug_collision)
+</td>
+<td>切换法线/包围盒/碰撞体的调试显示</td>
+<td>
+</td></tr>
+<tr id="savegame">
+<td>savegame
+</td>
+<td>创建一个存档文件。</td>
+<td>
+</td></tr>
+<tr id="savecheck">
+<td>savecheck
+</td>
+<td>创建一个存档文件（Test_01），加载该存档文件，再创建一个新存档（Test_02）。这些存档文件应当看起来相同。</td>
+<td>
+</td></tr>
+<tr id="IP">
+<td>IP
+</td>
+<td>显示你的 IP</td>
+<td>
+</td></tr>
+<tr id="requestgamestate">
+<td>requestgamestate
+</td>
+<td>向主机请求游戏状态</td>
+<td>
+</td></tr>
+<tr id="nudge">
+<td>nudge
+</td>
+<td>转到微调工具</td>
+<td>
+</td></tr>
+<tr id="mapmode">
+<td>mapmode [地图模式类型（整数）]</td>
+<td>更改地图模式。</td>
+<td>
+</td></tr>
+<tr id="fullscreen">
+<td>fullscreen
+</td>
+<td>切换全屏</td>
+<td>
+</td></tr>
+<tr id="prices">
+<td>prices
+</td>
+<td>价格信息</td>
+<td>
+</td></tr>
+<tr id="remove_core">
+<td>remove_core [&lt;州 ID&gt;] [&lt;国家标签&gt;]</td>
+<td>移除核心。</td>
+<td>该指令无效</td></tr>
+<tr id="debug_zoom">
+<td>debug_zoom
+</td>
+<td>放大游戏画面</td>
+<td>
+</td></tr>
+<tr id="debug_types">
+<td>debug_types
+</td>
+<td>将为所有动态引用对象打印数据类型。仅在使用 RTTI 时可用。</td>
+<td>
+</td></tr>
+<tr id="debug_show_event_ID">
+<td>debug_show_event_ID
+</td>
+<td>显示事件 ID</td>
+<td>
+</td></tr>
+<tr id="debug_commands">
+<td>debug_commands
+</td>
+<td>将 commandcount 打印到 message.log</td>
+<td>
+</td></tr>
+<tr id="debug_events">
+<td>debug_events
+</td>
+<td>开始统计事件</td>
+<td>
+</td></tr>
+<tr id="debug_dumpevents">
+<td>debug_dumpevents
+</td>
+<td>将事件数据导出到开发日志</td>
+<td>
+</td></tr>
+<tr id="debug_diploactions">
+<td>debug_diploactions
+</td>
+<td>开始统计外交行动</td>
+<td>
+</td></tr>
+<tr id="debug_dumpdiploactions">
+<td>debug_dumpdiploactions
+</td>
+<td>将外交行动数据导出到开发日志</td>
+<td>
+</td></tr>
+<tr id="debug_assert">
+<td>debug_assert
+</td>
+<td>开启/关闭断言</td>
+<td>
+</td></tr>
+<tr id="debug_nomouse">
+<td>debug_nomouse
+</td>
+<td>开启/关闭鼠标滚轮</td>
+<td>
+</td></tr>
+<tr id="debug_terrain">
+<td>debug_terrain
+</td>
+<td>开启/关闭地形</td>
+<td>
+</td></tr>
+<tr id="debug_cities">
+<td>debug_cities
+</td>
+<td>开启/关闭城市涂色模式</td>
+<td>
+</td></tr>
+<tr id="debug_water">
+<td>debug_water
+</td>
+<td>开启/关闭水面</td>
+<td>
+</td></tr>
+<tr id="debug_fronts">
+<td>debug_fronts
+</td>
+<td>切换插值前线调试</td>
+<td>
+</td></tr>
+<tr id="debug_off_front_snap">
+<td>debug_off_front_snap (dbg_fsnap)
+</td>
+<td>切换进攻前线吸附调试</td>
+<td>
+</td></tr>
+<tr id="debug_borders">
+<td>debug_borders
+</td>
+<td>开启/关闭边界</td>
+<td>
+</td></tr>
+<tr id="debug_trees">
+<td>debug_trees
+</td>
+<td>开启/关闭树木</td>
+<td>
+</td></tr>
+<tr id="debug_rivers">
+<td>debug_rivers
+</td>
+<td>开启/关闭河流</td>
+<td>
+</td></tr>
+<tr id="debug_postfx">
+<td>debug_postfx
+</td>
+<td>开启/关闭后期特效</td>
+<td>
+</td></tr>
+<tr id="debug_sky">
+<td>debug_sky
+</td>
+<td>开启/关闭天空</td>
+<td>
+</td></tr>
+<tr id="debug_bloom">
+<td>debug_bloom
+</td>
+<td>开启/关闭泛光</td>
+<td>
+</td></tr>
+<tr id="debug_tooltip">
+<td>debug_tooltip
+</td>
+<td>开启/关闭提示框</td>
+<td>
+</td></tr>
+<tr>
+<td>debug_nuking
+</td>
+<td>允许在不检查任何条件的情况下对每个省份进行核打击。</td>
+<td>自 1.15.1 补丁起该指令已不存在</td></tr>
+<tr id="flagsoutput">
+<td>flagsoutput [&lt;路径&gt;]</td>
+<td>从内存创建纹理图集文件。</td>
+<td>
+</td></tr>
+<tr id="cityreload">
+<td>cityreload
+</td>
+<td>重新加载城市</td>
+<td>
+</td></tr>
+<tr id="version">
+<td>version
+</td>
+<td>显示当前游戏版本</td>
+<td>
+</td></tr>
+<tr id="debug_nogui">
+<td>debug_nogui
+</td>
+<td>开启/关闭 GUI</td>
+<td>
+</td></tr>
+<tr id="debug_volume">
+<td>debug_volume [&lt;音量增量&gt;]</td>
+<td>调整音乐音量</td>
+<td>
+</td></tr>
+<tr id="debug_lockcamera">
+<td>debug_lockcamera
+</td>
+<td>开启/关闭镜头锁定</td>
+<td>
+</td></tr>
+<tr id="debug_lines">
+<td>debug_lines
+</td>
+<td>切换调试线</td>
+<td>
+</td></tr>
+<tr id="debug_entities">
+<td>debug_entities
+</td>
+<td>切换调试实体</td>
+<td>
+</td></tr>
+<tr id="debug_info">
+<td>debug_info
+</td>
+<td>切换调试信息</td>
+<td>
+</td></tr>
+<tr id="debug_particle">
+<td>debug_particle
+</td>
+<td>切换粒子调试信息</td>
+<td>
+</td></tr>
+<tr id="debug_ai_budget">
+<td>debug_ai_budget [国家标签]</td>
+<td>显示 AI 预算数据</td>
+<td>
+</td></tr>
+<tr id="debug_textures">
+<td>debug_textures
+</td>
+<td>将纹理信息写入应用程序调试日志</td>
+<td>
+</td></tr>
+<tr id="debug_texture">
+<td>debug_texture
+</td>
+<td>像泛光一样绘制纹理</td>
+<td>
+</td></tr>
+<tr id="debug_wireframe">
+<td>debug_wireframe
+</td>
+<td>开启/关闭强制线框</td>
+<td>
+</td></tr>
+<tr id="debug_achievements_clear">
+<td>debug_achievements_clear
+</td>
+<td>清除所有成就和用户统计</td>
+<td>仅供开发者使用。</td></tr>
+<tr id="moveunit">
+<td>moveunit [&lt;单位 ID&gt;] [&lt;省份 ID&gt;]</td>
+<td>将单位移动到某个省份</td>
+<td>
+</td></tr>
+<tr id="spawnactor">
+<td>spawnactor [&lt;角色名&gt;] [&lt;省份 ID&gt;] [&lt;动画&gt; 可选]</td>
+<td>生成一个带有可选动画的演员</td>
+<td>
+</td></tr>
+<tr id="cameraclamp">
+<td>cameraclamp
+</td>
+<td>切换镜头限制</td>
+<td>
+</td></tr>
+<tr id="provtooltipdebug">
+<td>provtooltipdebug (tdebug)
+</td>
+<td>切换省份提示框中的调试信息</td>
+<td>
+</td></tr>
+<tr id="reloadweather">
+<td>reloadweather [&lt;随机种子&gt;]</td>
+<td>重新加载并重新生成天气</td>
+<td>
+</td></tr>
+<tr id="weather">
+<td>天气</td>
+<td>切换天气模拟</td>
+<td>
+</td></tr>
+<tr id="debug_air_vs_land">
+<td>debug_air_vs_land (dbg_cas)
+</td>
+<td>切换空对地战斗的调试模式。</td>
+<td>
+</td></tr>
+<tr id="mapnames">
+<td>mapnames
+</td>
+<td>切换地图名称</td>
+<td>
+</td></tr>
+<tr id="gbreload">
+<td>gbreload
+</td>
+<td>重新加载渐变边界</td>
+<td>仅供开发者使用。</td></tr>
+<tr id="gbpaint">
+<td>gbpaint [图层] [通道]</td>
+<td>切换渐变边界涂色</td>
+<td>
+</td></tr>
+<tr id="profilelog">
+<td>profilelog
+</td>
+<td>将性能分析信息输出到 time.log</td>
+<td>
+</td></tr>
+<tr id="run">
+<td>run
+</td>
+<td>运行指定文件中的指令列表</td>
+<td>
+</td></tr>
+<tr id="oos">
+<td>oos
+</td>
+<td>不同步</td>
+<td>仅供开发者使用。</td></tr>
+<tr id="trigger_docs">
+<td>trigger_docs (effect_docs, scripting_docs, docs)
+</td>
+<td>打印触发条件、效果和变量的文档</td>
+<td>触发条件/效果的文档将打印到 game.log 文件</td></tr>
+<tr id="threat">
+<td>threat [威胁值]</td>
+<td>增加或显示当前标签的威胁度，即该标签产生的世界紧张度。</td>
+<td>正值将增加当前标签产生的世界紧张度，负值则减少当前标签产生的世界紧张度，并在世界紧张度历史记录中生成相应条目。通过切换标签，可以提升或降低任意特定国家产生的世界紧张度。如果执行 "threat 999999999"，会将世界紧张度重置为 0。</td></tr>
+<tr id="3dstats">
+<td>3dstats
+</td>
+<td>切换 3D 统计</td>
+<td>
+</td></tr>
+<tr id="hdr">
+<td>hdr
+</td>
+<td>切换 hdr</td>
+<td>
+</td></tr>
+<tr id="hdr_debug">
+<td>hdr_debug
+</td>
+<td>切换 hdr 调试</td>
+<td>
+</td></tr>
+<tr id="srgb">
+<td>srgb
+</td>
+<td>切换 sRGB</td>
+<td>
+</td></tr>
+<tr id="bloom">
+<td>bloom
+</td>
+<td>切换泛光</td>
+<td>
+</td></tr>
+<tr id="PostEffectVolumes.Default">
+<td>PostEffectVolumes.Default [posteffect_values 名称]</td>
+<td>切换默认后期特效值</td>
+<td>
+</td></tr>
+<tr id="night">
+<td>night
+</td>
+<td>切换夜晚</td>
+<td>*自 1.01 起该指令似乎无效（归入仅开发者可用指令）此指令可通过右下角工具栏的昼夜循环选项模拟（快捷键 'N'）</td></tr>
+<tr id="filewatcher">
+<td>filewatcher
+</td>
+<td>切换文件监视器</td>
+<td>
+</td></tr>
+<tr id="createlean">
+<td>createlean
+</td>
+<td>创建 LEAN 纹理</td>
+<td>
+</td></tr>
+<tr id="helplog">
+<td>helplog
+</td>
+<td>将所有控制台指令打印到 game.log 文件。</td>
+<td>
+</td></tr>
+<tr id="helphelp">
+<td>helphelp
+</td>
+<td>Double Rainbow 帮助。</td>
+<td>
+</td></tr>
+<tr id="hsv">
+<td>hsv
+</td>
+<td>将 RGB 转换为 HSV</td>
+<td>
+</td></tr>
+<tr id="tag_color">
+<td>tag_color
+</td>
+<td>测试设置某个国家的颜色</td>
+<td>
+</td></tr>
+<tr id="browser">
+<td>browser [网址]</td>
+<td>显示浏览器窗口</td>
+<td>
+</td></tr>
+<tr id="browser_base_url">
+<td>browser_base_url [网址]</td>
+<td>设置浏览器基础 url</td>
+<td>
+</td></tr>
+<tr id="airealism">
+<td>airealism
+</td>
+<td>启用写实 AI</td>
+<td>一个彩蛋，让 AI 在聊天中放狠话。由于多人游戏中无法激活、单人游戏中聊天也无法激活，因此毫无用处。<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup></td></tr>
+<tr id="instant_wargoal">
+<td>instant_wargoal
+</td>
+<td>允许瞬间完成对国家的战争目标制造</td>
+<td>
+</td></tr>
+<tr id="allowideas">
+<td>allowideas
+</td>
+<td>允许玩家选择任意理念，即使该理念通常不可用</td>
+<td>这会覆盖理念的 <code>可用</code> 和 <code>visible</code> 触发条件，但不会覆盖 <code>allowed</code> 触发条件</td></tr>
+<tr id="release">
+<td>release [&lt;国家标签&gt;]</td>
+<td>释放一个国家或可释放国家</td>
+<td>release slv 释放斯洛文尼亚</td></tr>
+<tr>
+<td>InternationalMarket.AddSubsidyForTags [&lt;经济产能&gt;] [&lt;装备&gt;] [&lt;国家标签&gt;]</td>
+<td>为玩家添加补贴，以便从指定国家购买物资。</td>
+<td>例（为玩家添加补贴，以便帮助购买德国出售的轻型坦克，最多 5k 经济产能）：InternationalMarket.AddSubsidyForTags 5000 light_tank_chassis GER</td></tr>
+<tr>
+<td>random_seed
+</td>
+<td>随机化游戏当前使用的种子</td>
+<td>AI 使用该种子来决定其所有焦点和决议。<p>你可以用它为你所不喜欢的任何 ai 行动生成更有利的结果（例如你想与某国结盟）</p></td></tr>
+<tr>
+<td>eval_effect [&lt;country tag&gt;] = { create_faction = "[faction name]" }
+</td>
+<td>创建一个具有指定名称的阵营</td>
+<td>该阵营的领袖将是所填入的国家标签</td></tr>
+<tr>
+<td>eval_effect [&lt;country tag&gt;] = { dismantle_faction = yes }
+</td>
+<td>解散指定国家的阵营</td>
+<td>
+</td></tr>
+<tr>
+<td>eval_effect [&lt;country tag&gt;] = { add_to_faction = [&lt;country tag&gt;] }
+</td>
+<td>将一个国家加入阵营</td>
+<td>第二个标签是将加入第一个标签阵营的国家</td></tr>
+<tr>
+<td>eval_effect [&lt;country tag&gt;] = { remove_from_faction = [&lt;country tag&gt;] }
+</td>
+<td>将一个国家移出阵营</td>
+<td>第二个标签是将从第一个标签阵营中移除的国家</td></tr>
+<tr>
+<td>eval_effect [&lt;country tag&gt;] = { set_faction_name = "[faction name]" }
+</td>
+<td>重命名指定国家的阵营</td>
+<td>
+</td></tr>
+<tr>
+<td>toggle_silhouette_portraits
+</td>
+<td>启用和禁用剪影肖像。</td>
+<td>仅供开发者使用。</td></tr>
+<tr>
+<td>armageddon
+</td>
+<td>对每个国家的每个州造成 100% 伤害，影响所有州级/共享/省级建筑与设施。</td>
+<td>虽然所有州都会播放核爆动画，但不会给予 <a href="Nuclear_bomb.html">核辐射</a> 州修正。</td></tr></tbody></table>
+<h2 id="s-100lpyn" data-section="1"><span class="mw-headline" id="See_also">另见</span></h2>
+<ul><li><a href="Modding.html">模组制作</a></li></ul>
+<h2 id="s-1p1yprf" data-section="1"><span class="mw-headline" id="References">参考资料</span></h2>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">找到了 podcat 关于该指令的一条评论 https://www.reddit.com/r/hoi4/comments/6cb8vh/the_secrets_of_hoi4/dhtdr4x/</span>
+</li>
+</ol></div>
+
+<div style="margin: 5px 0px 0px; padding: 2px; border: 1px solid #aaa; text-align: center; border-collapse: collapse; font-size: 100%;">
+<div style="height: 1.6em; font-weight: bold; font-size: 105%; background-color: #efefef;"><b><a href="Modding.html">模组制作</a></b></div>
+<div style="font-size:0.9em; margin:0.5em">
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">文档</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Effect.html">效果</a> • 触发器 • <a href="Defines.html">定义文件</a> • <a href="Modifiers.html">修正项</a> • <a href="List_of_modifiers.html">修正项列表</a> • <a href="Scopes.html">作用域</a> • <a href="Localisation.html">本地化文件</a> • <a href="On_actions.html">事件钩子</a> • <a href="Data_structures.html">数据结构</a>（<a href="Data_structures.html">标记</a>、<a href="Data_structures.html">事件目标</a>、<a href="Data_structures.html">国家标签别名</a>、<a href="Data_structures.html">变量</a>、<a href="Data_structures.html">数组</a>）</td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">脚本</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Achievement_modding.html">成就</a> • <a href="AI_modding.html">AI</a> • <a href="AI_focuses.html">AI 焦点</a> • <a href="Autonomy_state_modding.html">自治领</a> • <a href="Balance_of_power_modding.html">力量均势</a> • <a href="Bookmark_modding.html">书签/剧本</a> (<a href="Bookmark_modding.html">游戏规则</a>) • <a href="Building_modding.html">建筑</a> • <a href="Character_modding.html">角色与特质</a> • <a href="Cosmetic_tag_modding.html">外观标签</a> • <a href="Country_creation.html">国家</a> • <a href="Division_modding.html">师</a> • <a href="Decision_modding.html">决议</a> • <a href="Doctrine_modding.html">学说</a> • <a href="Equipment_modding.html">装备</a> • <a href="Event_modding.html">事件</a> • <a href="Faction_modding.html">阵营</a> • <a href="Idea_modding.html">理念</a> • <a href="Ideology_modding.html">意识形态</a> • <a href="Military_industrial_organization_modding.html">军事工业组织</a> • <a href="National_focus_modding.html">国策</a> • <a href="Resources_modding.html">资源</a> • <a href="Scripted_GUI_modding.html">脚本化 GUI</a> • <a href="Technology_modding.html">科技与学说</a> • <a href="Unit_modding.html">单位</a>
+</td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">地图</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Map_modding.html">地图</a> • <a href="State_modding.html">州</a> • <a href="Supply_areas_modding.html">补给区域</a> • <a href="Strategic_region_modding.html">战略区域</a>
+</td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">图形</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Interface_modding.html">界面</a> • <a href="Graphical_asset_modding.html">图形资源</a> • <a href="Entity_modding.html">实体</a> • <a href="Posteffect_modding.html">后期特效</a> • <a href="Particle_modding.html">粒子</a> • <a href="Font_modding.html">字体</a>
+</td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">外观</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Portrait_modding.html">肖像</a> • <a href="Namelist_modding.html">名称列表</a> • <a href="Music_modding.html">音乐</a> • <a href="Sound_modding.html">音效</a>
+</td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">其他</td>
+<td style="text-align: left; padding: 2px 5px;"><a class="mw-selflink selflink" href="#">控制台指令</a> • <a href="Troubleshooting.html">疑难排查</a> • <a href="Mod_structure.html">模组结构</a> • <a href="Mods.html">模组</a> • <a href="Nudger.html">地图编辑器</a>
+</td></tr></tbody></table>
+</div></div>
+
+<div style="margin: 5px 0px 0px; padding: 2px; border: 1px solid #aaa; text-align: center; border-collapse: collapse; font-size: 100%;">
+<div style="height: 1.6em; font-weight: bold; font-size: 105%; background-color: #efefef;"><b><a href="Hearts_of_Iron_IV.html">钢铁雄心 IV</a></b></div>
+<div style="font-size:0.9em; margin:0.5em">
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">游戏</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Achievements.html">成就</a> • <a href="Hearts_of_Iron_IV.html">特性</a> • 游戏规则 • <a href="Ironman.html">铁人模式</a></td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">指南</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Beginner's_guide.html">新手入门指南</a> • <a class="mw-selflink selflink" href="#">控制台指令</a> • <a href="Hotkeys.html">快捷键</a> • 地图模式 • <a href="Tutorial_videos.html">教学视频</a> • <a href="User_interface.html">用户界面</a></td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">开发</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Developer_diaries.html">开发日志</a> • <a href="Downloadable_content.html">可下载内容</a> • <a href="Patches.html">补丁</a>
+</td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">社区</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Jargon.html">术语表</a> • <a href="Modding.html">模组制作</a>
+</td></tr></tbody></table>
+</div></div>
+
+
+
+
+</div>
+</main>
+</div>
+<footer class="site-footer">
+<p>本资料库内容译自 <a href="https://hoi4.paradoxwikis.com/" rel="noreferrer">Hearts of Iron IV Wiki</a>（Paradox Interactive 社区维基），原文以 CC BY-SA 3.0 授权发布，译文沿用同一授权。仅供个人离线学习，与 Paradox Interactive 无隶属关系。</p>
+<p>原页面「Console commands」｜ 抓取时间 2026-09-10 ｜ 原站版本号 104366 ｜ 中文翻译进度 80%</p>
+</footer>
+</body>
+</html>

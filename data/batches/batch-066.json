@@ -1,0 +1,625 @@
+{
+ "batch": 66,
+ "pages": [
+  "Land units"
+ ],
+ "chars": 13985,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "9i10q6",
+   "en": "Nomenclature"
+  },
+  {
+   "k": "lutpz0",
+   "en": "The terms used in the game (e.g. regiment, brigade) have historically had different meanings in the militaries of different countries. This section explains the significance of these terms as they are defined for this game."
+  },
+  {
+   "k": "1a192x2",
+   "en": "Division"
+  },
+  {
+   "k": "oh769v",
+   "en": "Main article: Division"
+  },
+  {
+   "k": "hluq1i",
+   "en": "Armies are composed of ⟦0⟧, which is the smallest unit a player can directly control.",
+   "frags": 1
+  },
+  {
+   "k": "96peof",
+   "en": "divisions"
+  },
+  {
+   "k": "wg1mih",
+   "en": "Battalion"
+  },
+  {
+   "k": "pipc49",
+   "en": "Each division consists of 1-25 battalions - also sometimes called line battalions. This is the main fighting force, and the primary source of most statistics. The primary drain of manpower and equipment."
+  },
+  {
+   "k": "1otnb74",
+   "en": "Battalion group and regiment"
+  },
+  {
+   "k": "963iag",
+   "en": "All battalions belong to a specific classification or group, such as \"Infantry Battalion\", \"Mobile Battalion\" and \"Armoured Battalion\"."
+  },
+  {
+   "k": "avue8c",
+   "en": "Regiments are the \"columns\" in the template designer. Battalions from different groups must be in different regiments (columns). There is no other effect of regiments. And, as there are 5 regiments/columns but only 3 groups, it is never an issue. There are many other reasons not to use all 25 battalion slots and/or mix more than 1-2 battalion Groups anyway."
+  },
+  {
+   "k": "1w3qo7j",
+   "en": "Support company"
+  },
+  {
+   "k": "1bjc333",
+   "en": "In addition to the battalions, a division may have up to 5 support companies. These often provide bonuses that cannot be otherwise obtained. Support companies can be roughly put into 4 unofficial groups:"
+  },
+  {
+   "k": "11f1p17",
+   "en": "Artillery, which provides limited artillery tree capabilities for divisions that cannot afford to bring mainline artillery battalions along."
+  },
+  {
+   "k": "1fgpgzx",
+   "en": "Basic support, which only needs support equipment"
+  },
+  {
+   "k": "yfvtdm",
+   "en": "Motorized support, which needs support Equipment and some motorized"
+  },
+  {
+   "k": "inrc57",
+   "en": "Recon, which can be cavalry (infantry weapons, support), motorized (infantry weapons, support, and motorized), armoured car, or light tank"
+  },
+  {
+   "k": "17ykqay",
+   "en": "Statistics"
+  },
+  {
+   "k": "14apeki",
+   "en": "Based on the Battalions, each division has a number of values. The calculation of the final values ranges from simple Addition (Summation), Averages, and Worst to \"it is complicated\" (Armour and Piercing)."
+  },
+  {
+   "k": "fonhk3",
+   "en": "Do keep in mind that some values are also defined by the ⟦0⟧ fielded equipment. The Division designer will simply assume the \"best\" equipment is used. But between equipment loss and capture as well as limited production relative to casualties, often much older gear might be pulled out of storage. While that will result in every soldier having something to fight with, it will drastically reduce the values. And of course for some divisions, intentional limiting of the usable equipment might be advisable, especially off-map garrison divisions where most equipment stats do not matter.",
+   "frags": 1
+  },
+  {
+   "k": "1bm2k53",
+   "en": "actual"
+  },
+  {
+   "k": "1yzplfe",
+   "en": "Most of these stats can be improved through building and using ⟦0⟧ and, with ⟦1⟧, using different ⟦2⟧. However, be aware that increasing one stat can adversely affect a different stat. Researching ⟦3⟧ can also increase stats, as can various ⟦4⟧ and, with ⟦5⟧, certain special forces doctrines. Some ⟦6⟧ and ⟦7⟧ can also increase the stats of certain unit types.",
+   "frags": 8
+  },
+  {
+   "k": "4c6qpb",
+   "en": "variants"
+  },
+  {
+   "k": "11r223j",
+   "en": "No Step Back"
+  },
+  {
+   "k": "1y5qrsu",
+   "en": "tank designs"
+  },
+  {
+   "k": "wogy4f",
+   "en": "land doctrines"
+  },
+  {
+   "k": "xuw84n",
+   "en": "technologies"
+  },
+  {
+   "k": "1gcwzb4",
+   "en": "Arms Against Tyranny"
+  },
+  {
+   "k": "26f65v",
+   "en": "national focuses"
+  },
+  {
+   "k": "7mhbtx",
+   "en": "political advisors"
+  },
+  {
+   "k": "1at5nu3",
+   "en": "Base stats"
+  },
+  {
+   "k": "9jw6c1",
+   "en": "⟦0⟧ The division travels at the speed of its ⟦1⟧ battalion. Support companies such as scouting units are counted for this; if you chose a slow scouting company the entire division will move at that speed. Some other support companies are also counted for this.",
+   "frags": 2
+  },
+  {
+   "k": "1xuc8f4",
+   "en": "Maximum speed."
+  },
+  {
+   "k": "klgffc",
+   "en": "slowest"
+  },
+  {
+   "k": "ygeuim",
+   "en": "⟦0⟧ \"HP\" is an abbreviation for \"hit points.\" This is the ability to absorb damage and is largely a function of manpower and role. Also referred to as ⟦1⟧. Division HP represents how many hits or ⟦2⟧ the division can take before it is physically destroyed. The more HP a division has, the fewer losses to its manpower and equipment it will take from the same amount of damage. When a division takes damage to its HP, its combat stats are reduced proportionally; for example, a division at half of its maximum HP can only use half of its maximum possible attacks or defences in combat. Tanks and combat support battalions tend to be relatively fragile when it comes to absorbing damage, and it is usually infantry and mobile battalions, especially ⟦3⟧, that enable divisions to absorb serious damage without losing as much equipment or manpower. Reference ⟦4⟧. The HP for the division is the ⟦5⟧ of those of all battalions and companies.",
+   "frags": 6
+  },
+  {
+   "k": "138wr69",
+   "en": "HP."
+  },
+  {
+   "k": "1okjnww",
+   "en": "Strength"
+  },
+  {
+   "k": "oy3kg0",
+   "en": "damage"
+  },
+  {
+   "k": "n784l1",
+   "en": "Mechanized"
+  },
+  {
+   "k": "8vzfne",
+   "en": "Damage dealing"
+  },
+  {
+   "k": "1pek5go",
+   "en": "sum"
+  },
+  {
+   "k": "1mp9s49",
+   "en": "⟦0⟧ Known as \"morale\" in previous games, organization is the readiness of a division to perform combat, the willingness of a unit to either continue attacking or to continue holding the province that they are defending. Once a unit no longer has any organization remaining, it can no longer fight in battles. Infantry and mobile battalions tend to be the primary source of organization in a division, so it is important to buffer lower-organization battalions like tanks and combat support battalions with enough of them to keep the division combat-capable. Moving a division causes organization loss at the rate of ⟦1⟧ organization per hour, and organization loss also slows down movement to up to ⟦2⟧.⟦3⟧ Organization may also be lost through attrition or lack of supply, see ⟦4⟧ and ⟦5⟧). A division without organization cannot operate as it is supposed to; it cannot stay in combat or move properly. The organization for the division is the ⟦6⟧ of those of all battalions and companies. Battles are usually battles of Organization depletion (reference ⟦7⟧) and, depending on who the attacker is, reaching 0 has one of two effects: If it is the attacker, then the division will stop attacking and will either stay in, or return to, the region it came from. Any movement progress is lost. It cannot be ordered to attack again until Organization has recovered a decent amount. If it is the defender, then the division will try to flee: leaving the province to the nearest friendly one. If it cannot leave the province, then it will be destroyed.",
+   "frags": 8
+  },
+  {
+   "k": "dy9mss",
+   "en": "Organization."
+  },
+  {
+   "k": "71cqtt",
+   "en": "Organization loss"
+  },
+  {
+   "k": "qu2jxu",
+   "en": "Out of supply penalties"
+  },
+  {
+   "k": "6hfodk",
+   "en": "average"
+  },
+  {
+   "k": "1h1rb9",
+   "en": "If it is the attacker, then the division will stop attacking and will either stay in, or return to, the region it came from. Any movement progress is lost. It cannot be ordered to attack again until Organization has recovered a decent amount."
+  },
+  {
+   "k": "jpkga5",
+   "en": "If it is the defender, then the division will try to flee: leaving the province to the nearest friendly one. If it cannot leave the province, then it will be destroyed."
+  },
+  {
+   "k": "1wtrsq7",
+   "en": "⟦0⟧ All divisions that are not in combat regenerate Organization at a fixed rate. This stat is ⟦1⟧ regeneration on top of that, allowing a division to be better prepared for more combat. A division can suffer from a recovery rate penalty if it lacks supply. Reference ⟦2⟧. The stat for the division is the ⟦3⟧ of those of all battalions and companies.",
+   "frags": 4
+  },
+  {
+   "k": "158m30q",
+   "en": "Recovery rate."
+  },
+  {
+   "k": "1jwq6xo",
+   "en": "additional"
+  },
+  {
+   "k": "16ge6ve",
+   "en": "⟦0⟧ Contributes to reconnaissance during battle. In any combat the side with a reconnaissance advantage (from divisions and the general) over their enemy has more information about how their adversaries' forces are deployed and are more likely to pick better tactics for the day (reference ⟦1⟧). Adding a recon support company will give an extra reconnaissance points bonus to the ⟦2⟧ in charge of your division during battle. Reference ⟦3⟧. The stat for the division is the ⟦4⟧ of those of all battalions and companies.",
+   "frags": 5
+  },
+  {
+   "k": "125usb2",
+   "en": "Recon."
+  },
+  {
+   "k": "1b77qg4",
+   "en": "Combat tactics"
+  },
+  {
+   "k": "45hxxh",
+   "en": "commander"
+  },
+  {
+   "k": "3r1een",
+   "en": "Support Companies technology"
+  },
+  {
+   "k": "c7enbv",
+   "en": "⟦0⟧ Ability to suppress local resistance (reference ⟦1⟧). How well the division will stop the formation of partisan forces and their activities. The stat for the division is the ⟦2⟧ of those of all battalions and companies, though because ⟦3⟧ does not involve deployed divisions, in practice it behaves more like the ⟦4⟧ of the division (weighted by ⟦5⟧ and ⟦6⟧).",
+   "frags": 7
+  },
+  {
+   "k": "emf8ki",
+   "en": "Suppression."
+  },
+  {
+   "k": "dlbn6i",
+   "en": "Occupation"
+  },
+  {
+   "k": "17hmhve",
+   "en": "occupation"
+  },
+  {
+   "k": "19j4847",
+   "en": "weighted average"
+  },
+  {
+   "k": "7u9tvz",
+   "en": "Production cost"
+  },
+  {
+   "k": "17vxw9s",
+   "en": "Manpower"
+  },
+  {
+   "k": "gn2ybj",
+   "en": "⟦0⟧ How large or \"heavy\" the unit is. The higher the number, the more convoys are needed when in naval transfer and the more planes are needed to drop paratroopers. The stat for the division is the ⟦1⟧ of those of all battalions and companies.",
+   "frags": 2
+  },
+  {
+   "k": "88kus5",
+   "en": "Weight."
+  },
+  {
+   "k": "1m2frun",
+   "en": "⟦0⟧ How much supply the unit consumes per day. Please read ⟦1⟧ on the significance of this. Adding a Logistics support company will reduce your division's daily supply consumption. Reference ⟦2⟧. The stat for the division is the ⟦3⟧ of those of all battalions and companies.",
+   "frags": 4
+  },
+  {
+   "k": "17wcpq1",
+   "en": "Supply use."
+  },
+  {
+   "k": "1oy2zwu",
+   "en": "Supply"
+  },
+  {
+   "k": "eobqeg",
+   "en": "⟦0⟧ Reliability is the resistance to military equipment breakdown and subsequent loss. Higher reliability reduces the chance of equipment breakdown and loss from attrition and increases the chance of recovering lost equipment during combat. Reference ⟦1⟧ and ⟦2⟧. Incorporating a ⟦3⟧ support company (reference ⟦4⟧) into your division will grant a bonus to each equipment type's reliability. The stat is tracked ⟦5⟧ for each type of equipment used by the division.",
+   "frags": 6
+  },
+  {
+   "k": "1ejru3z",
+   "en": "Reliability."
+  },
+  {
+   "k": "1l1hyhi",
+   "en": "Equipment recovery"
+  },
+  {
+   "k": "o1qgz4",
+   "en": "Attrition and accidents"
+  },
+  {
+   "k": "1gzbh9j",
+   "en": "Maintenance company"
+  },
+  {
+   "k": "6fb51",
+   "en": "individually"
+  },
+  {
+   "k": "14thygx",
+   "en": "⟦0⟧ Normally, Manpower that is lost in combat just vanishes. While the Manpower pool does regrow to its maximum, this is very slow. Trickleback is a portion of casualties that can be saved and returned to the Manpower pool, conserving manpower. This is primarily provided by the ⟦1⟧ support company, see ⟦2⟧. The stat for the division is the ⟦3⟧ of those of all battalions and companies.",
+   "frags": 4
+  },
+  {
+   "k": "1k9t596",
+   "en": "Trickleback."
+  },
+  {
+   "k": "gl9t8z",
+   "en": "Field hospital"
+  },
+  {
+   "k": "1ymol2x",
+   "en": "⟦0⟧ How much ⟦1⟧ is lost when a unit suffers casualties. A high negative is better. A Field Hospital support company can reduce experience loss from casualties. Reference ⟦2⟧. Note that there is additional XP loss for bringing in reinforcements. The stat for the division is the ⟦3⟧ of those of all battalions and companies.",
+   "frags": 4
+  },
+  {
+   "k": "jhjqyt",
+   "en": "Exp. loss."
+  },
+  {
+   "k": "14rskrt",
+   "en": "experience"
+  },
+  {
+   "k": "e075am",
+   "en": "Combat stats"
+  },
+  {
+   "k": "1qswjn8",
+   "en": "⟦0⟧ How many attacks made each hour against the soft parts of an enemy division. In combat, this stat gives the number of attacks the unit can make against a target with low hardness (such as infantry or cavalry) instead of high hardness, armoured targets (such as tanks and tank variants). The stat for the division is the ⟦1⟧ of those of all battalions and companies.",
+   "frags": 2
+  },
+  {
+   "k": "4vajaj",
+   "en": "Soft attack."
+  },
+  {
+   "k": "vq6cr4",
+   "en": "⟦0⟧ How many attacks made each hour against the hard parts of an enemy division. In combat, this stat gives the number of attacks the unit can make against a target with high hardness (such as tanks and armor variants). The stat for the division is the ⟦1⟧ of those of all battalions and companies.",
+   "frags": 2
+  },
+  {
+   "k": "zky16y",
+   "en": "Hard attack."
+  },
+  {
+   "k": "1evizh0",
+   "en": "⟦0⟧ How much damage a unit can do against enemy airplanes. It can reduce the effectiveness of enemy aircraft attacking your division (capability of shooting down enemy aircraft). High air attack can also help to counter enemy air superiority effects. The stat for the division is the ⟦1⟧ of those of all battalions and companies.",
+   "frags": 2
+  },
+  {
+   "k": "1qu3fzt",
+   "en": "Air attack."
+  },
+  {
+   "k": "1tqpt8u",
+   "en": "⟦0⟧ Known as \"defensiveness\" in previous games. This stat represents the number of defences the division has when defending a province, that is, how many attacks it can avoid. When a division has no defences left, it is more probable that it is hit when in combat and cannot hold its defensive position as well. Higher defence allows a division to hold the line longer with fewer casualties. The stat for the division is the ⟦1⟧ of those of all battalions and companies.",
+   "frags": 2
+  },
+  {
+   "k": "s8lsev",
+   "en": "Defence."
+  },
+  {
+   "k": "sfjvur",
+   "en": "⟦0⟧ Known as \"toughness\" in previous games. This works like defence, except it applies when the division is attacking a province. This stat represents the number of defences the division has when attacking, that is, how many of the defender's attacks it can avoid. When the division has no defences left, it is more probable that the division will be hit when in combat and cannot sustain the offensive as well. Higher breakthrough allows a division to continue attacking the line more effectively. The stat for the division is the ⟦1⟧ of those of all battalions and companies.",
+   "frags": 2
+  },
+  {
+   "k": "vd0rlp",
+   "en": "Breakthrough."
+  },
+  {
+   "k": "o1bqlr",
+   "en": "⟦0⟧ Decreases the number of soft and hard attacks made against the division if the attacking division's piercing is less than the defending division's armor, by up to ⟦1⟧ at less than ⟦2⟧ piercing.⟦3⟧ Higher armor than the enemy's piercing will also increase the number of unit attacks in combat and change the organization damage dice roll per attack from 1d4 to 1d6⟦4⟧ as the unit can move around the battlefield more freely without getting pinned or damaged. A division's armour is equal to ⟦5⟧ of the ⟦6⟧ armor in the division plus 60% of the ⟦7⟧ armour in the division.⟦8⟧ Armor is not a property of unit type, only of its equipment.",
+   "frags": 9
+  },
+  {
+   "k": "143vt1",
+   "en": "Armour."
+  },
+  {
+   "k": "yq877z",
+   "en": "highest"
+  },
+  {
+   "k": "6q7fot",
+   "en": "⟦0⟧ Represents the ability of a division to pierce armour and pin down armoured forces, restricting the movement. If the value is higher than the enemy's armor value, then the division suffers no penalty to its damage and suffers no additional organization damage. Otherwise, the division deals ⟦1⟧ damage with at least ⟦2⟧ piercing, the division deals ⟦3⟧ damage with at least ⟦4⟧ piercing, and ⟦5⟧ damage otherwise.⟦6⟧ A division's piercing is equal to ⟦7⟧ of the ⟦8⟧ piercing in the division plus 60% of the ⟦9⟧ piercing of all battalions and companies in the division.⟦10⟧",
+   "frags": 11
+  },
+  {
+   "k": "jdxpj4",
+   "en": "Piercing."
+  },
+  {
+   "k": "hemll6",
+   "en": "⟦0⟧ Higher initiative speeds up battle planning, so 20% initiative, as from a level 1 signals company, speeds up 2%/day planning to 2.4%/day. Higher initiative also increases the chance of a division joining a battle from the reserves, with each 1% initiative increasing reinforce rate by 0.25%.⟦1⟧ The stat for the division is the ⟦2⟧ of those of all battalions and companies.",
+   "frags": 3
+  },
+  {
+   "k": "4l1983",
+   "en": "Initiative."
+  },
+  {
+   "k": "ufl3as",
+   "en": "⟦0⟧ Represents the ability of a unit to build temporary defensive structures like trenches and pick favourable defensive positions like hills, to better defend against an enemy attack. Entrenchment level is mentioned in the army selection. Entrenchment affect both attack and defence stats of divisions. Divisions build up entrenchment daily when not engaged in combat and stationary (not moving). Divisions will lose all their entrenchment if they are attacking, with the exception of using the probing attack ability (Reference: ⟦1⟧). It provides a massive bonus when defending the province, going as far as an outright force multiplier. The stat for the division is the ⟦2⟧ of those of all battalions and companies.",
+   "frags": 3
+  },
+  {
+   "k": "j7m9zy",
+   "en": "Entrenchment."
+  },
+  {
+   "k": "1s213jb",
+   "en": "Command Power"
+  }
+ ]
+}

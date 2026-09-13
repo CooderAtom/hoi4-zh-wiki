@@ -1,0 +1,645 @@
+{
+ "batch": 933,
+ "pages": [
+  "Modding"
+ ],
+ "chars": 14967,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "14rs66e",
+   "en": "⟦0⟧, or creating ⟦1⟧, is the act of modifying the behavior of the base game (often referred to as ⟦2⟧), either for personal use, or to release publicly for other players, for instance - via the Steam Workshop.",
+   "frags": 3
+  },
+  {
+   "k": "9m30fv",
+   "en": "Modding"
+  },
+  {
+   "k": "1wdjxzk",
+   "en": "mods"
+  },
+  {
+   "k": "pku54g",
+   "en": "vanilla"
+  },
+  {
+   "k": "za1771",
+   "en": "As for all Paradox games, ⟦0⟧ is moddable to a great extent. Motivations of modders may vary widely: a better translation to their native language, more events or decisions, better maps, a major overhaul, etc.",
+   "frags": 1
+  },
+  {
+   "k": "dmo6mc",
+   "en": "Hearts of Iron IV"
+  },
+  {
+   "k": "1274o32",
+   "en": "Mods are stored within the ⟦0⟧ folder within the ⟦1⟧. Alongside mods, the game will load any files stored in the user directory. The game's internal map editor, the Nudger, stores its output within that folder. ⟦2⟧, such as letters with diacritics or non-Latin script.",
+   "frags": 3
+  },
+  {
+   "k": "1diaytg",
+   "en": "mod/"
+  },
+  {
+   "k": "3tohp",
+   "en": "user directory"
+  },
+  {
+   "k": "tvwfnj",
+   "en": "The path to the folder containing the mod files cannot contain any non-ASCII characters"
+  },
+  {
+   "k": "1odzo89",
+   "en": "The game will read any ⟦0⟧ within the ⟦1⟧ folder, and a local mod can be created via the launcher: \"All installed mods\" -> \"Upload mod\" -> \"Create a mod\". This is limited in the path and allowed mod structure options, so manually editing the output may be necessary.",
+   "frags": 2
+  },
+  {
+   "k": "1ln4oej",
+   "en": ".mod file"
+  },
+  {
+   "k": "1v80m1k",
+   "en": "⟦0⟧, in which case only the first-loaded mod as decided by the filename of the user-specific descriptor will have any effect in-game.",
+   "frags": 1
+  },
+  {
+   "k": "io08yh",
+   "en": "Mods cannot coincide in name"
+  },
+  {
+   "k": "1lxjncc",
+   "en": "Official video guides"
+  },
+  {
+   "k": "7m4b84",
+   "en": "Official modding guides made by Paradox on Youtube."
+  },
+  {
+   "k": "vbfkjt",
+   "en": "Beginner's Modding Guide"
+  },
+  {
+   "k": "1m8oyc4",
+   "en": "Intermediate Modding Guide"
+  },
+  {
+   "k": "s8avva",
+   "en": "Guidelines"
+  },
+  {
+   "k": "6chxs1",
+   "en": "⟦0⟧: use a mod even for small changes, and never modify directly game files in Steam Hearts of Iron 4 folder, as your changes may be undone without warning.",
+   "frags": 1
+  },
+  {
+   "k": "ih8da2",
+   "en": "Never modify game files"
+  },
+  {
+   "k": "1ltax14",
+   "en": "⟦0⟧ by adding separate files and loading from folders whenever possible, to improve mod compatibility and maintenance. (Your files can have any name, all files in the folder will be loaded by the game. So choose a name, no one else will ever use, like the name of your mod. Ex: coolmod_countries)",
+   "frags": 1
+  },
+  {
+   "k": "1fqwuwa",
+   "en": "Minimize overwrites of vanilla files"
+  },
+  {
+   "k": "9txtcy",
+   "en": "⟦0⟧ (like WinMerge), to merge between folders, and update modified vanilla files to a new vanilla patch.",
+   "frags": 1
+  },
+  {
+   "k": "1dzerq7",
+   "en": "Use a proper merge tool"
+  },
+  {
+   "k": "1iqyjbl",
+   "en": "⟦0⟧ to avoid losing everything. Consider using a source control system like Git and a collaborative forge like GitHub or Gitlab to manage team collaboration, or just make a copy of the file somewhere else. Version keeping via Github or Gitlab can also be very useful for debugging due to limiting the selection of potential broken files. The Modding Git Guide is a community made guide for using Git, GitHub/GitLab, and related tools such as KDiff3. It can be a useful stop for questions beyond this wiki, and contains step by step guides for much of what is talked about here.",
+   "frags": 1
+  },
+  {
+   "k": "1x51cl7",
+   "en": "Backup your work"
+  },
+  {
+   "k": "p55ni9",
+   "en": "The Modding Git Guide is a community made guide for using Git, GitHub/GitLab, and related tools such as KDiff3. It can be a useful stop for questions beyond this wiki, and contains step by step guides for much of what is talked about here."
+  },
+  {
+   "k": "1lxlt5o",
+   "en": "⟦0⟧ without the byte order mark for text files. This is commonly called \"UTF-8\", but can sometimes be specified as \"UTF-8 without BOM\".",
+   "frags": 1
+  },
+  {
+   "k": "s7h86x",
+   "en": "Use UTF-8 encoding"
+  },
+  {
+   "k": "1ts7sxc",
+   "en": "⟦0⟧ for localisation files (.yml). This is commonly called \"UTF-8-BOM\", but can be just \"UTF-8\", in which case omitting the byte order mark is a separate option. Some text editors, such as Atom, do not support the byte order mark in entirety and should be avoided for localisation.",
+   "frags": 1
+  },
+  {
+   "k": "i4bi4j",
+   "en": "Use UTF-8 encoding with the byte order mark"
+  },
+  {
+   "k": "5xrtes",
+   "en": "⟦0⟧ starting with # character, to remember reasons for writing tricky stuff. A single sharp sign will make the rest of the line completely ignored. There is no multi-line comment notation in the code.",
+   "frags": 1
+  },
+  {
+   "k": "17nhr32",
+   "en": "Use comments"
+  },
+  {
+   "k": "enwuu2",
+   "en": "⟦0⟧ effectively by enabling ⟦1⟧. Do this by adding ⟦2⟧ to your launch options in Steam. The launch options are accessed in the menu opened by right-clicking the game and choosing 'Properties..'. Alternatively, in Windows it's possible to create a shortcut to the hoi4.exe or dowser.exe file, and then to open the shortcut's properties and append -debug (separated by a space) after the path's end, such as ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "brb7so",
+   "en": "Debug"
+  },
+  {
+   "k": "sudbba",
+   "en": "the debug mode"
+  },
+  {
+   "k": "12xct4f",
+   "en": "-debug"
+  },
+  {
+   "k": "24b6tu",
+   "en": "\"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Hearts of Iron IV\\hoi4.exe\" -debug"
+  },
+  {
+   "k": "7y8ujv",
+   "en": "Text editor"
+  },
+  {
+   "k": "1v0elys",
+   "en": "These are the most common text editors to use for modding the game:"
+  },
+  {
+   "k": "15yeqt8",
+   "en": "Visual Studio Code."
+  },
+  {
+   "k": "17ve9w4",
+   "en": "Has a fan-made CWTools extension with Paradox syntax highlighting, validation and tooltips for triggers and effects. To install it, go to Extensions on the left panel of VS and search for CWTools. (Note: validation rules are incomplete and will show many false errors in gui and localization files). Recent versions with automatic highlighting of {} pairs in different colours and flagging opened/closing ones that are missing a partner red is worth it's weight in gold."
+  },
+  {
+   "k": "rmd6fd",
+   "en": "Notepad++. Choose Perl as your language, as it will provide good highlighting and allow to fold blocks of code and comments. To set it as default, go to Settings, Style Configurator, find Perl in the list on the left and add \"gui txt\" (without quotes) to the \"User ext.\" field at the bottom."
+  },
+  {
+   "k": "1b90ybq",
+   "en": "Some options that are commonly turned on by default in other text editors are turned off in Notepad++, but can be changed in the topbar. This includes Word wrap, Document map, Indent guide, and Folder as workspace."
+  },
+  {
+   "k": "1x44yhy",
+   "en": "Sublime Text. There is an extension for it released by the developers of Imperator which could be used with HOI4 but use at your own risk: Sublime Tools. It adds colored highlighting for effects and triggers. If you want to toggle comments in Sublime, you also need to add this file to the same \"User\" folder."
+  },
+  {
+   "k": "w3ev56",
+   "en": "Reasons to use a non-default text editor include the following:"
+  },
+  {
+   "k": "1qgy02x",
+   "en": "Bracket and syntax highlighting. Bracket highlighting makes it easier to detect any missing or unnecessary files by allowing to select a bracket and see where it opens or closes, as to know what's inside of that block. Syntax highlighting can make code more easily readable by highlighting more important parts, as well as excluding brackets within comments from being considered such."
+  },
+  {
+   "k": "1jn37gg",
+   "en": "Searching in multiple files in the same folder. In each provided tool, this is activated with the ⟦0⟧ + ⟦1⟧ + ⟦2⟧ hotkey and can have filename filters in order to limit the files that are searched (e.g. ⟦3⟧ will only search text files, ignoring any other files, such as ⟦4⟧ ones).",
+   "frags": 5
+  },
+  {
+   "k": "1oea3sw",
+   "en": "^Ctrl"
+  },
+  {
+   "k": "j8cl1y",
+   "en": "⇧Shift"
+  },
+  {
+   "k": "14lex2z",
+   "en": "*.txt"
+  },
+  {
+   "k": "1h3klim",
+   "en": "*.dds"
+  },
+  {
+   "k": "htyhdu",
+   "en": "Each line is numbered on its side. Since error log typically points to the line where an error is present, this makes finding the line in question much faster compared to how the Microsoft Notepad only tells the number of the currently-selected line in the below."
+  },
+  {
+   "k": "1qzlal1",
+   "en": "Greater capabilities to work with multiple files. Each of these editors may only have one instance of it open at a time with multiple files open at once (switching between them with ⟦0⟧ + ⟦1⟧), in contrast to Microsoft Notepad that opens a separate instance for each opened file, which can quickly fill the ⟦2⟧ + ⟦3⟧ menu. Multiple instances of the text editor can still be opened, however. A text comparison tool also exists on each one of these: ⟦4⟧, ⟦5⟧, or a variety of Visual Studio Code extensions (\"Partial Diff\" being the most popular one).",
+   "frags": 6
+  },
+  {
+   "k": "19wurq8",
+   "en": "⇆Tab"
+  },
+  {
+   "k": "yvgdmk",
+   "en": "Alt"
+  },
+  {
+   "k": "10sfupb",
+   "en": "\"ComparePlus\" plugin in Notepad++"
+  },
+  {
+   "k": "11xa517",
+   "en": "\"Compare Side-By-Side\" or \"Diffy\" package in Sublime Text"
+  },
+  {
+   "k": "m2rthn",
+   "en": "Greater customisation capabilities: each of these text editors allows a wide variety of light or night themes that can be picked as fit, with downloadable themes existing as well. Since one would need to look at the text editor a lot while modding, selecting a theme that looks good to the eyes can make the experience much better."
+  },
+  {
+   "k": "116kaoa",
+   "en": "Searching multiple files"
+  },
+  {
+   "k": "gil9wf",
+   "en": "One feature of non-default text editors is a highly-customisable search of all files within the same folder. This is highly useful for dealing with errors and finding locations of certain elements. ⟦0⟧, as it only searches inside of .txt files while it may be desirable to search files of other extensions, e.g. .yml, .gfx, .gui, or .asset, and it is very noticeably slower than either text editor: a search taking ~10 seconds on a text editor may take up to 15 minutes to conclude in the Windows File Explorer.",
+   "frags": 1
+  },
+  {
+   "k": "1jpajzn",
+   "en": "Windows File Explorer is a poor choice for doing this"
+  },
+  {
+   "k": "61coz5",
+   "en": "This is how exactly the feature is enabled in the common text editors:"
+  },
+  {
+   "k": "quwyap",
+   "en": "⟦0⟧ – This is located in the \"Search\" topbar menu as \"Find in Files...\". By default, no folder is provided. \"Follow current doc.\" allows the text editor to automatically input the currently-opened document's folder as the place for the search, or it can be entered manually. Alternatively, this menu can be opened from the right-click menu of a folder within the \"Folder as Workspace\" menu – accessed by a button in the topbar – which'll automatically set the folder location to be that folder. The ⟦1⟧+⟦2⟧+⟦3⟧ hotkey also opens the menu for this feature by default.",
+   "frags": 4
+  },
+  {
+   "k": "148tv3k",
+   "en": "Notepad++"
+  },
+  {
+   "k": "1ybo3op",
+   "en": "⟦0⟧ – This is located in the \"Find\" topbar menu as \"Find in Files...\". In order to add a folder to search, the menu to the right of the \"Where:\" line can be opened, with either \"Add Folder\" (to select an individual folder) or \"Add Open Folders\" (To automatically select all folders opened via Sublime Text) buttons serving to do so. The ⟦1⟧+⟦2⟧+⟦3⟧ hotkey also opens the menu for this feature by default.",
+   "frags": 4
+  },
+  {
+   "k": "p1sr7",
+   "en": "Sublime Text"
+  },
+  {
+   "k": "9ufeg4",
+   "en": "⟦0⟧ – Visual Studio Code by default searches only the currently opened folder. A folder is opened either through the \"Open Folder...\" button in the \"File\" topbar menu or the \"Explorer\" menu, accessed through the bar on the left. After this, the functionality can be accessed in the \"Edit\" menu as \"Find in Files\". To search in other folders, open the 'search details' menu, represented with an ellipsis, and enter the full path to the folder in the 'Files to include' area. In order to speed up the search, filename filters can be used. For example, ⟦1⟧ within \"files to include\" will only search every *.yml file within the ⟦2⟧ folder, where ⟦3⟧ stands for any amount (including 0) of any characters within the filename. Similar filters can be used in the previous two text editors, however without allowing folders to be filtered — only the filenames. The ⟦4⟧+⟦5⟧+⟦6⟧ hotkey also opens the menu for this feature by default.",
+   "frags": 7
+  },
+  {
+   "k": "3e8322",
+   "en": "Visual Studio Code"
+  },
+  {
+   "k": "o3795f",
+   "en": "localisation/english/*.yml"
+  },
+  {
+   "k": "85a1c9",
+   "en": "<currently opened folder>/localisation/english/"
+  },
+  {
+   "k": "10lr3qb",
+   "en": "A filter on the file extension can be set to speed up the search. This depends on the text editor. Note that ⟦0⟧ is used to mark any amount of any characters, and this is universal.",
+   "frags": 1
+  },
+  {
+   "k": "1dtv1ng",
+   "en": "In ⟦0⟧, this is done with the 'filter' menu. Filters are separated with spaces, and an exclamation point in the beginning marks it as an exclude filter. For example, ⟦1⟧ will result in searching every localisation file aside from the French ones.",
+   "frags": 2
+  },
+  {
+   "k": "1dfwjss",
+   "en": "*.yml !*french.yml"
+  },
+  {
+   "k": "1yz29cz",
+   "en": "In ⟦0⟧, this is in the 'where' menu. Filters are separated with commas, and a minus sign in the beginning marks it as an exclude filter. For example, ⟦1⟧ will search every text file in the base game (Assuming the default location within Windows on Steam) with the exception of those that begin with GER.",
+   "frags": 2
+  },
+  {
+   "k": "vbp5mv",
+   "en": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Hearts of Iron IV\\, *.txt, -GER*"
+  },
+  {
+   "k": "1gkd0wq",
+   "en": "In ⟦0⟧, this is in the menu triggered with the 'Toggle Search Details' button, represented with an ellipsis. This menu has separate \"Files to include\" and \"Files to exclude\" menus, used accordingly. Additionally, this allows representing folder names within the menus, with the doubled ⟦1⟧ (as in ⟦2⟧) used to represent an arbitrary folder name. For example, ⟦3⟧ in the \"Files to include\" and ⟦4⟧ in \"Files to exclude\" will search every single file with the .gfx extension with the exception of those in the dlc folder.",
+   "frags": 5
+  },
+  {
+   "k": "bzgx4k",
+   "en": "*.gfx"
+  },
+  {
+   "k": "9fly1r",
+   "en": "dlc/**"
+  },
+  {
+   "k": "13zw5xg",
+   "en": "There are the following uses for this:"
+  },
+  {
+   "k": "1m1e8n1",
+   "en": "Finding out an internal ID by searching the localisation folder for the localised name. For example, searching for an event's title can be used to determine the ID."
+  },
+  {
+   "k": "1usd4yb",
+   "en": "Finding out where the database entry of a certain type is defined where it is not immediately intuitive. For example, by searching for an equipment ID within the folder that stores equipment (or even ⟦0⟧ in general) can be used to find the exact file, which isn't immediately obvious for some equipment types.",
+   "frags": 1
+  },
+  {
+   "k": "1sluhxw",
+   "en": "/Hearts of Iron IV/common/"
+  },
+  {
+   "k": "ty3zog",
+   "en": "A subset of this includes finding sprites' or interface elements' locations: The gui console command (or its main menu equivalent in debug mode) can be used in order to find the name of a certain SpriteType (prefixed with GFX_) or interface element. A search query with the given name within the /Hearts of Iron IV/interface/ folder will provide the file where the sprite is defined (as such, also giving the texturefile that says the path of the image in gfx) or the interface folder (which allows copying it to the mod and editing it)."
+  },
+  {
+   "k": "1tk5vdz",
+   "en": "Dealing with unintuitive errors where the location is not specified, such as ⟦0⟧, where this can be used to locate ⟦1⟧ file is throwing the error.",
+   "frags": 2
+  },
+  {
+   "k": "xexqyy",
+   "en": "Invalid Decision Category"
+  },
+  {
+   "k": "2g5142",
+   "en": "which"
+  },
+  {
+   "k": "1f4fnop",
+   "en": "Finding out what can cause a certain occurance to happen, such what fires a certain event or what sets a certain cosmetic tag."
+  },
+  {
+   "k": "zpyrcm",
+   "en": "Doing mass replacements in multiple files at the same time, usually used together with regular expression. This can be used to automate monotonous tasks, such as adding a log to every event, or most simply to change the owner in multiple states (such as by ⟦0⟧ the previous owner and inserting another one by replacing ⟦1⟧ with ⟦2⟧).",
+   "frags": 3
+  },
+  {
+   "k": "idlod6",
+   "en": "commenting out"
+  },
+  {
+   "k": "g9ihmz",
+   "en": "owner="
+  },
+  {
+   "k": "sg48o7",
+   "en": "owner=XYZ#"
+  },
+  {
+   "k": "k20uv1",
+   "en": "Indenting"
+  },
+  {
+   "k": "lcpmel",
+   "en": "Another reason to use non-default text editors is greater indenting capabilities. Indenting refers to the usage of newlines and spaces at the beginning of the line, which does not leave an impact on how the code is interpreted, but makes it easier to see the relations between different parts of the code. Typically, either a tab character (represented as ⟦0⟧) or 4 spaces are used as a single indenting level, placed from the beginning of the line to the beginning of code on the line. In order to increase the indenting level of code, the ⟦1⟧ button is used in text editors, which can be done on multiple lines at the same time by selecting them. Inversely, ⟦2⟧+⟦3⟧ is used to decrease the indenting level of the line by one.",
+   "frags": 4
+  },
+  {
+   "k": "ptba0t",
+   "en": "\\t"
+  },
+  {
+   "k": "1dw005r",
+   "en": "An additional option present in these editors is 'Indent guide', drawing a line on each indent level in order to make it easier to see the borders of each indent level, which can assist in code capability. While turned on by default in Sublime Text and Visual Studio Code, this must be turned on manually in Notepad++ within the topbar."
+  },
+  {
+   "k": "yc2z2r",
+   "en": "These are the typical conventions used for indenting:"
+  },
+  {
+   "k": "1lfu3a",
+   "en": "The first line of the file has zero indenting."
+  },
+  {
+   "k": "6pblld",
+   "en": "An opening bracket and its corresponding closing bracket must be placed on lines with the same indenting level."
+  },
+  {
+   "k": "1fmd49d",
+   "en": "If a line introduces an unclosed opening bracket, then everything until the proper closing bracket must be one indent level to the right compared to the line with the opening bracket."
+  },
+  {
+   "k": "a6sr7y",
+   "en": "A line shouldn't have more than one bracket of each kind."
+  },
+  {
+   "k": "w7446b",
+   "en": "If a line includes a closing bracket without including an opening bracket, then it shouldn't have anything other than the closing bracket and indentation before it."
+  },
+  {
+   "k": "1e56e9f",
+   "en": "This is an example of proper indenting:"
+  },
+  {
+   "k": "c3oupn",
+   "en": "Proper indenting has two primary benefits:"
+  }
+ ]
+}

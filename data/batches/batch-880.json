@@ -1,0 +1,824 @@
+{
+ "batch": 880,
+ "pages": [
+  "Patch 1.17.X"
+ ],
+ "chars": 14990,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1xxy98r",
+   "en": "If Peace is accepted between China and Japan through the decision and subsequent events, truces are now also added with HBC and KUM and the Japanese AI will be less likely to attack and antagonise Chinese nations"
+  },
+  {
+   "k": "hqbac2",
+   "en": "The Ma Cliques will now not do their mutual guarantees focus until the late game, and the SIK ai will now not become a Soviet puppet unless the fully control all their owned states."
+  },
+  {
+   "k": "w369n3",
+   "en": "Adjustment to the Air Base Access AI Acceptance logic. AI should now be less accepting for Air Base Access, especially in other ideologies."
+  },
+  {
+   "k": "qhq800",
+   "en": "Soviets start making military factories a bit earlier."
+  },
+  {
+   "k": "18swd8y",
+   "en": "Soviets will produce the T34 earlier."
+  },
+  {
+   "k": "gtrlb9",
+   "en": "Soviets rely more on the T34 now in their templates & production."
+  },
+  {
+   "k": "i062nn",
+   "en": "Soviets will redeploy Far East garrison forces if required to defend the homeland."
+  },
+  {
+   "k": "s863jz",
+   "en": "Germany will refrain from costly and ineffective air attacks in the west during the Phoney War"
+  },
+  {
+   "k": "1wjms6x",
+   "en": "Germany will refrain from air attacks on UK before France is defeated"
+  },
+  {
+   "k": "14dihy3",
+   "en": "Germany will break off the Battle of Britain in November 1940 to recover and reorganize for Barbarossa"
+  },
+  {
+   "k": "ysl7uh",
+   "en": "Germany has set air strategic air zone importance for Baltic, Eastern Poland, and Ukraine air regions until 1942 so the German air force concentrates on helping the army break through in the border battles"
+  },
+  {
+   "k": "m54wnd",
+   "en": "Germany won't research amphibious tanks as soon as possible anymore"
+  },
+  {
+   "k": "2y20zd",
+   "en": "Countries are less likely to build the new special buildings unless needed"
+  },
+  {
+   "k": "pphmjd",
+   "en": "Normalized AI weights for tank armor & engine research, generally they are done around the period where they make sense, rather than too soon."
+  },
+  {
+   "k": "1lxf6db",
+   "en": "AI Equipment"
+  },
+  {
+   "k": "dio7g8",
+   "en": "Updated T34 designs"
+  },
+  {
+   "k": "qjo57t",
+   "en": "Updated Spitfire designs"
+  },
+  {
+   "k": "8yg09a",
+   "en": "Updated german medium tank & airplane designs"
+  },
+  {
+   "k": "hpvire",
+   "en": "Naval AI Changes"
+  },
+  {
+   "k": "1jlfie7",
+   "en": "AI does a better job assigning their admirals to their various fleets."
+  },
+  {
+   "k": "1x3qcq0",
+   "en": "Updated AI task force insignia assignment to mirror compositions"
+  },
+  {
+   "k": "10bky42",
+   "en": "AI will in general use its strikeforce until it's no longer effective"
+  },
+  {
+   "k": "1myfb74",
+   "en": "Better task force templates"
+  },
+  {
+   "k": "j0izav",
+   "en": "AI will now use its reserve fleet to create new task forces if possible & needed"
+  },
+  {
+   "k": "1ex2io7",
+   "en": "The AI will only build the required task forces before looking to see if it can build any of the additional, optional task forces"
+  },
+  {
+   "k": "sqd9ax",
+   "en": "Improved behavior of strike forces when engaging spotted enemies"
+  },
+  {
+   "k": "3r6i7r",
+   "en": "Improved Naval AI reasoning for use of engagement rules, and added scriptable values by mission (risk/aggressiveness)"
+  },
+  {
+   "k": "1vaxyi5",
+   "en": "Fixed an issue where you could have ships do training mission when outside the range of the homebase"
+  },
+  {
+   "k": "i7jv1k",
+   "en": "Fixed an issue where task forces would not move closer to their active regions, even when homebase was set to close by. (This should make strike forces better at catching up to naval combats)"
+  },
+  {
+   "k": "1u5i0ey",
+   "en": "Increased importance for naval invasion defense goal"
+  },
+  {
+   "k": "6yzqf5",
+   "en": "Fixed triggers is_demilitarized_zone and is_border_conflict crashing when used in any_state trigger"
+  },
+  {
+   "k": "ryn68v",
+   "en": "Added `energy_ratio` trigger to see the energy fulfillment on a country scope, returning between 0 .. 1"
+  },
+  {
+   "k": "5sjv9c",
+   "en": "Implemented `only_imported` for `has_resources_in_country` trigger"
+  },
+  {
+   "k": "15i6djt",
+   "en": "Implemented warning for triggers that work in a normalized range but gets compared to a non normalized range"
+  },
+  {
+   "k": "j0nw8m",
+   "en": "Fixed a bug where country events would always roll the same random number"
+  },
+  {
+   "k": "8npyvi",
+   "en": "Correctly updates research speed tooltip when tagging between countries"
+  },
+  {
+   "k": "3383xk",
+   "en": "Fixes issue with tech bonus claiming that causes asserts"
+  },
+  {
+   "k": "1c8mwv6",
+   "en": "Fixes CTD when a unit given from CountryA, which is exiled, to CountryB and the unit is standing in CountryC and then CountryC is also exiled"
+  },
+  {
+   "k": "tzmwjz",
+   "en": "Fixes HighCapacityElectricalGrid tooltip displaying +10% instead of +10%/infra"
+  },
+  {
+   "k": "4mp9wd",
+   "en": "Faction color now correctly follows the leader's color dynamically if not overridden"
+  },
+  {
+   "k": "3jeu31",
+   "en": "Fixes 'Goes to ' showing wrong country"
+  },
+  {
+   "k": "vjofdb",
+   "en": "Fixes resource specific resource rights"
+  },
+  {
+   "k": "kc5no4",
+   "en": "Polish AI will not take boost monarchism decisions if monarchism claim level is above 90%"
+  },
+  {
+   "k": "dpzd6u",
+   "en": "Poland can now get their Habsburg alliance focus if Joseph August von Habsburg becomes country leader of Hungary"
+  },
+  {
+   "k": "198mvd7",
+   "en": "Requesting the South Atlantic islands now target whoever is controlling the states"
+  },
+  {
+   "k": "nkbthe",
+   "en": "Fixed an issue where the Chinese Expedite the Political Tutelage decisions could be redone in states that had been lost and recaptured"
+  },
+  {
+   "k": "i75luo",
+   "en": "PHI: Philippines will actually be granted independence if they peacefully complete the American Intervention."
+  },
+  {
+   "k": "1cu4eba",
+   "en": "PHI: You will no longer lose the Reino de Filipinas or Hispanic Empire tags when completing the Treaty of Manila while at war."
+  },
+  {
+   "k": "l49weo",
+   "en": "Fixed an issue where the Spanish Carlists wouldn't get the correct 3d unit models if going with a Habsburg monarch"
+  },
+  {
+   "k": "1ftyomq",
+   "en": "Fixed a few instances of broken localisation in the Italian tree"
+  },
+  {
+   "k": "eloj53",
+   "en": "Fixed an issue where the Moldovan characters would show up as debug strings"
+  },
+  {
+   "k": "fl3mn7",
+   "en": "Fixed an issue where the faction goal Fortify Okinawa was checking that the naval forts were being built in the wrong province, ending up unable to be completed"
+  },
+  {
+   "k": "13e6q2w",
+   "en": "Fixed an issue where Nationalist China puppeting a warlord after completing the focus Appoint Sympathetic Judges would apply the intended spirit on themselves instead of the warlord"
+  },
+  {
+   "k": "g62bd",
+   "en": "Fixed an issue where the Nationalist Chinese focus The Seas of Tomorrow wouldn't grant the promised Naval Facility unless if controlling Hainan"
+  },
+  {
+   "k": "1tw95d8",
+   "en": "Fixed erroneous mastery gain bonuses in a few focuses"
+  },
+  {
+   "k": "pdphof",
+   "en": "Fixed Ye Jianying's portrait not showing if you don't have La Resistance"
+  },
+  {
+   "k": "1tebkh2",
+   "en": "Fixed an issue where the Japanese army faction wasn't affecting cas production cost if BBA was disabled"
+  },
+  {
+   "k": "19ci4se",
+   "en": "Fixed an issue where the Japanese Armored Car designer could show up when LaR was disabled"
+  },
+  {
+   "k": "xmn1h2",
+   "en": "Fixed an issue where the Spanish focus Join the Allies would ask multiple countries for faction joining at the same time, and would launch an incorrect news event"
+  },
+  {
+   "k": "jd45e3",
+   "en": "Disabled an event if \"No Compromise, No Surrender\" is enabled where the United Front is dismantled after defeating Japan, thus blocking China's focus \"Victory over the Invaders\""
+  },
+  {
+   "k": "5to49i",
+   "en": "Fixed an issue where the Afghan and Raj focuses to attack Sinkiang wouldn't give wargoals on KHM if they occupied the target territory"
+  },
+  {
+   "k": "18uqq3f",
+   "en": "Fix for \"Establish a Marine Corps\" faction goal not granting the listed general's reward when the country only possess amphibious tank technology."
+  },
+  {
+   "k": "9n5yzn",
+   "en": "Custom Game Rules - Fixed Democratic AI Strategy of Lithuania wrongly using Latvian description"
+  },
+  {
+   "k": "14an52z",
+   "en": "Fixed an issue where Nicaragua was missing two of their political advisors"
+  },
+  {
+   "k": "1fbksx7",
+   "en": "Fixed issues where certain countries intended to be able to form Central America and Gran Colombia weren't able to, and added Balta-Tiraspol as a target in all Greater Lithuania and Greater Commonwealth focuses"
+  },
+  {
+   "k": "100xg4p",
+   "en": "Fixed a few instances where event options would be unselectable for the ai due to the option being scripted with a factor = 0 rather than a base = 0"
+  },
+  {
+   "k": "1er8cx6",
+   "en": "Fixed an issue where Chile could have multiple Mapuche Conflict spirits at the same time"
+  },
+  {
+   "k": "1wm9tzk",
+   "en": "Fixed an issue where the hidden event to change Mao's portrait would retire the character and incorrectly swap the portrait"
+  },
+  {
+   "k": "q9bq0r",
+   "en": "Fixed an issue where some vps would be incorrectly named after forming Greater Greece"
+  },
+  {
+   "k": "mzolbj",
+   "en": "Eleftherios Venezelos passing away while Greece is democratic will no longer kill their country leader unless it is Venezelos himself"
+  },
+  {
+   "k": "1o4tov9",
+   "en": "Fixed issues where Mexican characters who were unlocked through focuses and not intended to be transferred were transferred anyway to breakaway countries whenever any of their civil wars would fire"
+  },
+  {
+   "k": "7toi4j",
+   "en": "Fixed the missing loc strings for the Nanjing Presidential Palace"
+  },
+  {
+   "k": "elq1iz",
+   "en": "Fixed an issue where the Sinkiang focus Reestablish the Guominjun would send the wrong event to China"
+  },
+  {
+   "k": "ofyt9k",
+   "en": "Fixed an issue where warlords couldn't get the Morozov Design Bureau if NCNS was enabled"
+  },
+  {
+   "k": "1f8zun1",
+   "en": "Extended the speed bonuses from subdoctrines to motorized support units to include motorized and truck-drawn rocket artillery."
+  },
+  {
+   "k": "b4wm3z",
+   "en": "Fixed numerous literally unplayable \"the the\" typos throughout the loc"
+  },
+  {
+   "k": "1bxwmr3",
+   "en": "Fixed missing officer trait in \"expand infantry forces\" faction goal reward description."
+  },
+  {
+   "k": "1xh8cip",
+   "en": "Changed numerous cases of \"Poznan\" to correct Polish name \"Poznań\". Zwirbaum happiness +1.4%."
+  },
+  {
+   "k": "hlgymi",
+   "en": "When auto upgrading equipment the manually set icon and model would not persist"
+  },
+  {
+   "k": "1w7mwuo",
+   "en": "Removed Cancun as it wasn't founded yet and replaced it with Chetumal"
+  },
+  {
+   "k": "15vckro",
+   "en": "Fixed \"Magnatron\" typos, renamed correctly to Magnetron"
+  },
+  {
+   "k": "79t9d6",
+   "en": "Fixed an issue where democratic Japan could attract industrial investments from the same major country multiple times"
+  },
+  {
+   "k": "ld6bt0",
+   "en": "Fixed an issue where a \"Warlord Demands Subjugation\" event would always say the sender was China even though it wasn't"
+  },
+  {
+   "k": "v9a884",
+   "en": "The Portuguese focus Expand the Chinese Territories can now also be taken if Macau is controlled by a subject of theirs"
+  },
+  {
+   "k": "na8i7l",
+   "en": "Fixed an issue where the Lithuanian focus Restore Greater Lithuania would be unavailable if any of the target states had already been cored"
+  },
+  {
+   "k": "14obicf",
+   "en": "Congo gaining a Brown Water Navy will no longer think it is in South America"
+  },
+  {
+   "k": "vq0zyy",
+   "en": "Austria can no longer liberate other people's subjects by creating the Central Powers"
+  },
+  {
+   "k": "4d5oxw",
+   "en": "Fixed an issue where Japan and the Soviet Union signing a separate peace would give the spirit Full Focus on the West to Japan instead of the Soviets"
+  },
+  {
+   "k": "195w8mc",
+   "en": "Fixed a bug where bonus to org gain rate was applied twice"
+  },
+  {
+   "k": "dfmcxs",
+   "en": "Fixed an issue where Warlords could demand the subjugation of Chinese states that were already subjects of other foreign powers"
+  },
+  {
+   "k": "asklam",
+   "en": "Raj - The focus Riches of the Raj now properly includes both coal and chromium"
+  },
+  {
+   "k": "1tiurxa",
+   "en": "Added cores that were missing to the Finno-Ugria formable"
+  },
+  {
+   "k": "1ikokef",
+   "en": "Fix tooltip for faction goal Expand Our Armored Force to also include Armor Officer"
+  },
+  {
+   "k": "1xx14df",
+   "en": "Raj - Fixed an issue where the Dams gained from the focus Industrialise the Ganges wouldn't show up on the map"
+  },
+  {
+   "k": "36mocz",
+   "en": "Fixed Burma's military advisors being the wrong costs"
+  },
+  {
+   "k": "hrzaba",
+   "en": "Fix CHI focus Fund The Marine Corps using Invasion Preparation Speed instead of Invasion Preparation Time"
+  },
+  {
+   "k": "dkem1q",
+   "en": "Fixed various issues with the Neo-Mesopotamian formable nation"
+  },
+  {
+   "k": "1fymqnn",
+   "en": "Fixed a few issues with naming for The Great and Eternal Nordic Empires"
+  },
+  {
+   "k": "wvm826",
+   "en": "Fixed the icon for Improved Anti-tank in the Philippines"
+  },
+  {
+   "k": "s03fss",
+   "en": "Greece: Fixed missing tooltip GRE_host_soviet_bureaucrats_in_greece_tt"
+  },
+  {
+   "k": "2diwd4",
+   "en": "Fixed missing French loc for Husqvarna weapons factory focus in Swedish focus tree."
+  },
+  {
+   "k": "1h20loi",
+   "en": "Reduced speed of Elephantry units"
+  },
+  {
+   "k": "1oa9zf0",
+   "en": "Fixed broken tooltip localization in Form the Nordic Council"
+  },
+  {
+   "k": "nwmbe1",
+   "en": "Fix SWE - Question Neutrality event title doesn't check current German leader"
+  },
+  {
+   "k": "tpldda",
+   "en": "Fix Appoint a Spy Master - Tooltip displays faction goal rewards other than those actually granted"
+  },
+  {
+   "k": "1v5zip5",
+   "en": "BEL - Vandervelde's death event is missing trigger"
+  },
+  {
+   "k": "7bwsd",
+   "en": "Fixed an issue where the event The Coronation of Mohammad Hassan Mirza wouldn't actually make Persia non-aligned"
+  },
+  {
+   "k": "1veoqy1",
+   "en": "Fixed an Issue where the Philippines could flip-flop back and forth between their Maphilindo and Hispanic Empire tags"
+  },
+  {
+   "k": "1dff3vv",
+   "en": "Fix Claire Lee Chennault quitting immediately after getting hired"
+  },
+  {
+   "k": "t4x252",
+   "en": "A Trotsky-harboring Mexico that hasn't invited him to the government and seeks to join the Comintern through the focus International Proletarianism will now send him to Moscow, instead of him forever being out of reach for the Soviets"
+  },
+  {
+   "k": "mv6rr6",
+   "en": "Afghanistan - Qargha Dam will now appear in the correct location"
+  },
+  {
+   "k": "qnasvs",
+   "en": "Fixed an issue where female characters in Arabic countries could have ibn in their surnames, instead of the linguistically correct bint"
+  },
+  {
+   "k": "1o6o8h1",
+   "en": "Fixed an issue where the AI strategy values added from the Iraqi focuses Nationalize Anglo-Iraqi Oil Company and Anglo-Iraqi Oil Expansion wouldn't properly apply for the UK"
+  },
+  {
+   "k": "oyvqis",
+   "en": "Raj - Restoring the Timurids as the Raj now also grants cores ´on their former Transoxianian and Caucasian territories"
+  },
+  {
+   "k": "ygrzp2",
+   "en": "Afghanistan - Fixed an issue where a few focuses that mentioned claims didn't inform the player that they could core the claimed states once captured"
+  },
+  {
+   "k": "ozffqe",
+   "en": "Scaled the numbers of techs needed to complete the Faction Goal of \"Develop Joint Research Practices\" based on the average numbers of researched techs between the faction members when selecting the Faction Goal. The more techs the faction has when starting the Faction Goal, the less techs are required now."
+  },
+  {
+   "k": "4jih70",
+   "en": "Gunther \"Adlerauge\" Rall gets his portrait back - Fixes"
+  },
+  {
+   "k": "d1k4qt",
+   "en": "Bypassing \"Clamp Down on Danzig\" and \"Ban the Nazi Party\" will now remove resistance and rename the city - Fixes"
+  },
+  {
+   "k": "1qpj2xq",
+   "en": "Norway will now gain their two off map civs when completing \"Invite Foreign investment\""
+  },
+  {
+   "k": "17rdue4",
+   "en": "Fixed an issue where the Democratic Chinese faction invitation decisions wouldn't add the target to the faction if China wasn't the faction leader"
+  },
+  {
+   "k": "1mqxyer",
+   "en": "The democratic Chinese focus Shifting the Balance now has a small bypass effect to enable faction creation"
+  },
+  {
+   "k": "1biz8em",
+   "en": "The Afghan Oil Concessions now only give access to the oil in the selected states"
+  },
+  {
+   "k": "1k91mte",
+   "en": "Democratic China - The Stir Republican Sentiments decisions can no longer target warlords, which are already a target of a different democratisation decision"
+  },
+  {
+   "k": "1plws2f",
+   "en": "Fixed a few instances where Uruguay would fail to go down the fascist path when set to do so in the game rules"
+  },
+  {
+   "k": "1q1qnzq",
+   "en": "Fixed an issue where Paraguay could fail to go communist when set to do so in the game rules"
+  },
+  {
+   "k": "1cvtqx8",
+   "en": "Fix for OOS caused by international markets having a difference in prices compared to the drafts"
+  },
+  {
+   "k": "ikw8bc",
+   "en": "Fixed an issue where the reward from the faction goal to control the Bosphorus would construct forts in the wrong state"
+  },
+  {
+   "k": "19hpprq",
+   "en": "Turkey - Fixed an issue where the Kurdish State Management decision category would disappear when there was no ongoing mission or decision"
+  },
+  {
+   "k": "5qwtx0",
+   "en": "Entering a war with a nation removes naval blockades imposed by either party."
+  },
+  {
+   "k": "aqptsg",
+   "en": "Fixed a bug where equipment used by supply system was not properly return (disappearing trucks)"
+  },
+  {
+   "k": "1r6o2vz",
+   "en": "OOS fix in peace conferences"
+  },
+  {
+   "k": "za4tml",
+   "en": "PRC - Fixed an issue where all stated rules weren't applied when completing the focus Burn the Paper Tigers"
+  },
+  {
+   "k": "1nlo2fa",
+   "en": "Clients were creating naval mission commands that caused mp performance problems"
+  },
+  {
+   "k": "1cbafbx",
+   "en": "Fixed an issue where Mexico could be annexed by one of their revolts even though they were winning if both sides were the same ideology"
+  },
+  {
+   "k": "1doanjr",
+   "en": "Fixed mapmode brightness. (When fixing an old legacy bug in the rendering part of the game, it caused several mapmodes to become brighter, unintentionally.)"
+  },
+  {
+   "k": "1jkuobg",
+   "en": "Fixed an issue where Yunnan's decisions could disappear after switching focus tree."
+  },
+  {
+   "k": "1s59fp3",
+   "en": "Fixed an issue where the Rif could no longer form Arabia"
+  },
+  {
+   "k": "1tfe4gd",
+   "en": "Fixed a bug where all AI task forces where allowed to split off repairs, instead of just strike forces"
+  },
+  {
+   "k": "12lnwb2",
+   "en": "Fixed a bug where reserve fleets couldn't travel to a repair base"
+  },
+  {
+   "k": "171xovj",
+   "en": "Fixed a bug where the blacklist was used as a whitelist (naval targeting options)"
+  },
+  {
+   "k": "1rlgbrm",
+   "en": "OOS that could occur in the gamestate due to running in different languages"
+  },
+  {
+   "k": "6asl1n",
+   "en": "Fixed various trigger bugs where the incorrect comparison was made (example: 60 instead of 0.6)"
+  },
+  {
+   "k": "14g4ul3",
+   "en": "Fixed crash that can occur when dismantling faction"
+  },
+  {
+   "k": "1f63neq",
+   "en": "Fixed an exploit where recreating factions allowed you to instantly get the reward for completing them"
+  },
+  {
+   "k": "spqab6",
+   "en": "Fixed a bug where naval dominance calculations wouldn't always refresh correctly"
+  },
+  {
+   "k": "ksuz36",
+   "en": "Fixed a bug where the naval distance was incorrectly calculated, which had an effect on the automated homebase logic"
+  },
+  {
+   "k": "1lrlmza",
+   "en": "Swapped cases of air_superiority_bonus_in_combat modifier (which only works on a character scope) to army_bonus_air_superiority_factor in various national spirits and focuses."
+  },
+  {
+   "k": "1pr6xq1",
+   "en": "Patch 1.17.4.1 was released on 2026-02-25⟦0⟧ with checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1vdcd8c",
+   "en": "177f"
+  },
+  {
+   "k": "1u9iqy6",
+   "en": "Fixed a bug where research bonuses were no longer claimed (and thus always active)"
+  },
+  {
+   "k": "7e8flb",
+   "en": "Patch 1.17.5 was released on 2026-03-17⟦0⟧ with checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "f28ytf",
+   "en": "e6dc"
+  },
+  {
+   "k": "yks9dl",
+   "en": "Warships of the pacific"
+  },
+  {
+   "k": "mblucl",
+   "en": "Added 30 new 3D models for Naval vessels for: USA, Japan, The Commonwealth, The Soviet Union, and the PRC"
+  },
+  {
+   "k": "nnlwsy",
+   "en": "Added 30 2D icons corresponding to the new 3D models"
+  },
+  {
+   "k": "1og0iw9",
+   "en": "Added new SFX, VFX, and Animations for specific ship models"
+  }
+ ]
+}

@@ -1,0 +1,829 @@
+{
+ "batch": 148,
+ "pages": [
+  "Effect"
+ ],
+ "chars": 14921,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "4em366",
+   "en": "add_state_modifier"
+  },
+  {
+   "k": "1h0zq2t",
+   "en": "⟦0⟧ <modifier> = <float> Adds a modifier to the state.",
+   "frags": 1
+  },
+  {
+   "k": "h52u2c",
+   "en": "Modifier scope"
+  },
+  {
+   "k": "5n9naf",
+   "en": "<modifier> = <float>"
+  },
+  {
+   "k": "gun5q9",
+   "en": "add_state_modifier = { modifier = { local_resources = 2.0 } }"
+  },
+  {
+   "k": "697kjt",
+   "en": "Adds a ⟦0⟧ to the current state.",
+   "frags": 1
+  },
+  {
+   "k": "1658wgg",
+   "en": "modifier"
+  },
+  {
+   "k": "s2qujc",
+   "en": "add_manpower = 10000"
+  },
+  {
+   "k": "w0b3lu",
+   "en": "Adds the specified amount of total population to the current state."
+  },
+  {
+   "k": "12yg1jm",
+   "en": "Note that when using negative manpower it will, besides reducing the population, also add directly to the recruitable manpower of the state. Which will increase your manpower"
+  },
+  {
+   "k": "pjdggn",
+   "en": "⟦0⟧ The resource to add. amount = <int> / <variable> The amount to add.",
+   "frags": 1
+  },
+  {
+   "k": "1rwetqd",
+   "en": "add_resource = { type = oil amount = 100 }"
+  },
+  {
+   "k": "8edaa2",
+   "en": "Adds the specified resource in the specified amount to the current state."
+  },
+  {
+   "k": "rueds7",
+   "en": "Can also be used in country scope."
+  },
+  {
+   "k": "x49dp3",
+   "en": "set_border_war = yes"
+  },
+  {
+   "k": "nzo225",
+   "en": "Enables Border War status for the current state."
+  },
+  {
+   "k": "uaz759",
+   "en": "Used for the state-based border wars, represented with orange stripes, see ⟦0⟧ for the border wars that simulate combat on a border between two countries. On the end of the border war, ⟦1⟧ is fired for the state that where the border war was lost.",
+   "frags": 2
+  },
+  {
+   "k": "19dh4qb",
+   "en": "§ Border wars"
+  },
+  {
+   "k": "lwvrl",
+   "en": "the on_border_war_lost on action"
+  },
+  {
+   "k": "1s0fjc3",
+   "en": "⟦0⟧ The division string. owner = <country> The owner of the division. prioritize_location = <province> If possible, this province within the state gets used. Optional. allow_spawning_on_enemy_provs = yes Allows the units to be created on provinces owned by the division owner's enemy. Defaults to false. count = <int> The amount of units to create. Defaults to 1. id = <int> The ID to identify the unit. Only used in delete_unit. country_score = { ... } A MTTH block deciding the province in the state where the division should spawn, evaluates in the scope of the controller. Defaults to prioritising owner's controlled provinces first and then owner's allies. divisional_commander_xp = <int> give the division commander experience on unit creation The following arguments go within division = \"\": name = \\\"<string>\\\" The name of the division. division_template = \\\"<string>\\\" The template to be used by the division. start_experience_factor = <double> Experience of the division, with 0 being none and 1 being full training. Defaults to 1. start_equipment_factor = <double> Equipment stockpile of the division. Defaults to 1. start_manpower_factor = <double> Manpower stockpile of the division. Defaults to 1. force_equipment_variants = { <equipment type> = { owner = \\\"<country>\\\" amount = <int> version_name = \\\"<string>\\\" } } Forces a certain type of equipment to be used. Multiple equipment types can be added by adding multiple <equipment type> = {} lines.",
+   "frags": 1
+  },
+  {
+   "k": "vibp0r",
+   "en": "division = <division string>"
+  },
+  {
+   "k": "u9dipv",
+   "en": "owner = <country>"
+  },
+  {
+   "k": "lnscht",
+   "en": "prioritize_location = <province>"
+  },
+  {
+   "k": "684ksu",
+   "en": "allow_spawning_on_enemy_provs = yes"
+  },
+  {
+   "k": "1tyir22",
+   "en": "count = <int>"
+  },
+  {
+   "k": "1l01z8r",
+   "en": "country_score = { ... }"
+  },
+  {
+   "k": "2ea72g",
+   "en": "MTTH"
+  },
+  {
+   "k": "xxyy4t",
+   "en": "divisional_commander_xp = <int>"
+  },
+  {
+   "k": "1y4wiv",
+   "en": "division = \"\""
+  },
+  {
+   "k": "1k5o0kf",
+   "en": "⟦0⟧ The name of the division.",
+   "frags": 1
+  },
+  {
+   "k": "19ry5uz",
+   "en": "⟦0⟧ The template to be used by the division.",
+   "frags": 1
+  },
+  {
+   "k": "16mgznw",
+   "en": "⟦0⟧ Experience of the division, with 0 being none and 1 being full training. Defaults to 1.",
+   "frags": 1
+  },
+  {
+   "k": "8jwhbj",
+   "en": "⟦0⟧ Equipment stockpile of the division. Defaults to 1.",
+   "frags": 1
+  },
+  {
+   "k": "fkm1c6",
+   "en": "⟦0⟧ Manpower stockpile of the division. Defaults to 1.",
+   "frags": 1
+  },
+  {
+   "k": "iowo81",
+   "en": "⟦0⟧ Forces a certain type of equipment to be used. Multiple equipment types can be added by adding multiple <equipment type> = {} lines.",
+   "frags": 1
+  },
+  {
+   "k": "ojk5t4",
+   "en": "create_unit = { division = \"name = \\\"Infantry Division\\\" division_template = \\\"Infantry Division\\\" start_experience_factor = 0.5\" owner = GER } create_unit = { division = \"name = \\\"Artie\\\" division_template = \\\"Artillery Division\\\" start_manpower_factor = 0.3\" owner = BHR count = 3 allow_spawning_on_enemy_provs = yes country_score = { base = 3 modifier = { factor = 2 tag = OMA } } id = 123 } create_unit = { division = \"name = \\\"Tank division\\\" division_template = \\\"Tank Division\\\" start_manpower_factor = 1 force_equipment_variants = { medium_tank_chassis_2 = { owner = \\\"USA\\\" amount = 100 version_name = \\\"M4 Sherman\\\" }}\" owner = USA count = 1 }"
+  },
+  {
+   "k": "wqwti3",
+   "en": "Adds the specified division to the current state."
+  },
+  {
+   "k": "1q38t1e",
+   "en": "The division string ⟦0⟧. A linebreak in the middle of ⟦1⟧ will break the effect and result in no units being spawned. Can only be used within a state scope, such as capital_scope. The effect will do nothing when put into a country's scope. Equipment factor cannot be set to zero. If set to zero, it will be treated as a 1. Created equipment will be the latest available to the country.",
+   "frags": 2
+  },
+  {
+   "k": "hwjwwc",
+   "en": "must be on one line"
+  },
+  {
+   "k": "89s6hn",
+   "en": "division = \"...\""
+  },
+  {
+   "k": "1ui6r38",
+   "en": "Can only be used within a state scope"
+  },
+  {
+   "k": "ent7fb",
+   "en": "Equipment factor cannot be set to zero."
+  },
+  {
+   "k": "1cax2na",
+   "en": "teleport_armies"
+  },
+  {
+   "k": "1eotgbz",
+   "en": "⟦0⟧ The condition that must be true for the owner of the armies for them to teleport. to_state_array = <array> The state array the armies will get teleported to. to_province = <ID> The province the armies will get teleported to. to_state = <ID> The state the armies will get teleported to.",
+   "frags": 1
+  },
+  {
+   "k": "1084lee",
+   "en": "to_state_array = <array>"
+  },
+  {
+   "k": "ie89sf",
+   "en": "to_province = <ID>"
+  },
+  {
+   "k": "azn0ia",
+   "en": "to_state = <ID>"
+  },
+  {
+   "k": "17btg4g",
+   "en": "teleport_armies = { limit = { has_war_together_with = ROOT } to_state_array = owned_controlled_states }"
+  },
+  {
+   "k": "iioggw",
+   "en": "Teleports all armies in the specified state if the owner of the armies meets the condition."
+  },
+  {
+   "k": "umqo86",
+   "en": "Only define one of to_state_array, to_state, or to_province. If none is specified, it defaults to the capital."
+  },
+  {
+   "k": "vecfzr",
+   "en": "add_province_modifier"
+  },
+  {
+   "k": "ij65mc",
+   "en": "⟦0⟧ The list of modifiers. ⟦1⟧The province to apply the modifiers to.⟦2⟧Scope for selecting multiple provinces. The following arguments have to go inside it: ⟦3⟧The ID of the province. Multiple can be specified. ⟦4⟧Selects all provinces to which the limitations apply. The following arguments require it: ⟦5⟧ Limits the selection of provinces to only coastal ones. ⟦6⟧ Limits the selection of provinces to only ones bordering a different country. ⟦7⟧ Limits the selection of provinces to only ones that have a naval base. ⟦8⟧ Limits the selection of provinces to only ones that have a victory point, or a city, in them. ⟦9⟧ Will be temporary if specified, can be variable",
+   "frags": 10
+  },
+  {
+   "k": "4i3qwj",
+   "en": "static_modifiers = { <modifiers> }"
+  },
+  {
+   "k": "16jzo0v",
+   "en": "provinces = {}"
+  },
+  {
+   "k": "zwl98a",
+   "en": "all_provinces = yes"
+  },
+  {
+   "k": "1jrw2ns",
+   "en": "limit_to_coastal = yes"
+  },
+  {
+   "k": "yhkcd7",
+   "en": "limit_to_border = yes"
+  },
+  {
+   "k": "k54tid",
+   "en": "limit_to_naval_base = yes"
+  },
+  {
+   "k": "1jr1xvc",
+   "en": "limit_to_victory_point = yes"
+  },
+  {
+   "k": "pyz020",
+   "en": "add_province_modifier = { static_modifiers = { mod_modifier_1 mod_modifier_2 } province = 1234 } add_province_modifier = { static_modifiers = { mod_modifier_1 mod_modifier_2 } province = { id = 1234 id = 4321 days = 7 } } add_province_modifier = { static_modifiers = { mod_modifier_1 mod_modifier_2 } province = { all_provinces = yes limit_to_coastal = yes limit_to_border = yes limit_to_naval_base = yes limit_to_victory_point = yes } }"
+  },
+  {
+   "k": "1yztjqc",
+   "en": "static_modifiers = { mod_modifier_1 mod_modifier_2 } province = { id = 1234 id = 4321"
+  },
+  {
+   "k": "duod3q",
+   "en": "static_modifiers = { mod_modifier_1 mod_modifier_2 } province = { all_provinces = yes limit_to_coastal = yes limit_to_border = yes limit_to_naval_base = yes limit_to_victory_point = yes }"
+  },
+  {
+   "k": "1o1vtfy",
+   "en": "Adds a province modifier to the specified provinces in this state."
+  },
+  {
+   "k": "xx0t5g",
+   "en": "Province modifiers are defined in ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "gnrt7y",
+   "en": "remove_province_modifier"
+  },
+  {
+   "k": "o5cyae",
+   "en": "⟦0⟧ The list of modifiers. ⟦1⟧The province to apply the modifiers to.⟦2⟧Scope for selecting multiple provinces. The following arguments have to go inside it: ⟦3⟧The ID of the province. Multiple can be specified. ⟦4⟧Selects all provinces to which the limitations apply. The following arguments require it: ⟦5⟧ Limits the selection of provinces to only coastal ones. ⟦6⟧ Limits the selection of provinces to only ones bordering a different country. ⟦7⟧ Limits the selection of provinces to only ones that have a naval base. ⟦8⟧ Limits the selection of provinces to only ones that have a victory point, or a city, in them.",
+   "frags": 9
+  },
+  {
+   "k": "1ed0v2k",
+   "en": "remove_province_modifier = { static_modifiers = { mod_modifier_1 mod_modifier_2 } province = 1234 } remove_province_modifier = { static_modifiers = { mod_modifier_1 mod_modifier_2 } province = { id = 1234 id = 4321 } } remove_province_modifier = { static_modifiers = { mod_modifier_1 mod_modifier_2 } province = { all_provinces = yes limit_to_coastal = yes limit_to_border = yes limit_to_naval_base = yes limit_to_victory_point = yes } }"
+  },
+  {
+   "k": "v3vmlf",
+   "en": "static_modifiers = { mod_modifier_1 mod_modifier_2 } province = { id = 1234 id = 4321 }"
+  },
+  {
+   "k": "1jratf9",
+   "en": "Removes a province modifier to the specified provinces in this state."
+  },
+  {
+   "k": "yvlfot",
+   "en": "add_victory_points"
+  },
+  {
+   "k": "og0hrr",
+   "en": "Add victory points to a province"
+  },
+  {
+   "k": "1o6tgfe",
+   "en": "add_victory_points = { province = 1234 value = 10 }"
+  },
+  {
+   "k": "15tvgdu",
+   "en": "Adds victory points to a province."
+  },
+  {
+   "k": "jvbfzh",
+   "en": "Accepts negative values"
+  },
+  {
+   "k": "1r49h7g",
+   "en": "set_victory_points"
+  },
+  {
+   "k": "3p6qj",
+   "en": "Set the victory points of a province"
+  },
+  {
+   "k": "jtrjt5",
+   "en": "set_victory_points = { province = 1234 value = 10 }"
+  },
+  {
+   "k": "1qrb8wx",
+   "en": "Sets the number of victory point in a province."
+  },
+  {
+   "k": "17mccbj",
+   "en": "set_state_province_controller"
+  },
+  {
+   "k": "1bfyngv",
+   "en": "⟦0⟧ The new controller of the province. limit = { <triggers> } The triggers that must be fulfilled by the province's current controller to be transferred to the new controller. ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "z83rnc",
+   "en": "controller = <tag>"
+  },
+  {
+   "k": "1dz7dif",
+   "en": "limit = { <triggers> } The triggers that must be fulfilled by the province's current controller to be transferred to the new controller."
+  },
+  {
+   "k": "172r200",
+   "en": "set_state_province_controller = { controller = POL limit = { OR = { tag = GER is_in_faction_with = GER } } }"
+  },
+  {
+   "k": "1x47i6n",
+   "en": "Changes the controller of all provinces within that state controlled by countries that meet triggers to the specified country."
+  },
+  {
+   "k": "9k9v49",
+   "en": "⟦0⟧ Country to transfer the state to.",
+   "frags": 1
+  },
+  {
+   "k": "1iitw5v",
+   "en": "transfer_state_to = JAM"
+  },
+  {
+   "k": "n6snu6",
+   "en": "Sets owner and controller of the state to the given country"
+  },
+  {
+   "k": "1oiqam3",
+   "en": "set_state_owner_to"
+  },
+  {
+   "k": "qnycxh",
+   "en": "⟦0⟧ Country to set the owner ⟦1⟧ of the state to.",
+   "frags": 2
+  },
+  {
+   "k": "qni8d3",
+   "en": "(but not the controller)"
+  },
+  {
+   "k": "50togs",
+   "en": "set_state_owner_to = JAM"
+  },
+  {
+   "k": "k9eel4",
+   "en": "Sets the owner of the state to the given country"
+  },
+  {
+   "k": "10540gj",
+   "en": "Use ⟦0⟧ unless the control specifically shouldn't be given.",
+   "frags": 1
+  },
+  {
+   "k": "mhq0l6",
+   "en": "set_state_controller_to"
+  },
+  {
+   "k": "1v0mweg",
+   "en": "⟦0⟧ Country to set the controller ⟦1⟧ of the state to.",
+   "frags": 2
+  },
+  {
+   "k": "ez8ice",
+   "en": "(but not the owner)"
+  },
+  {
+   "k": "mi9jhx",
+   "en": "set_state_controller_to = ITA"
+  },
+  {
+   "k": "1fnamft",
+   "en": "Sets the controller of the state to the given country"
+  },
+  {
+   "k": "1ezyr6y",
+   "en": "⟦0⟧ Country to add contest to state.",
+   "frags": 1
+  },
+  {
+   "k": "u64bcz",
+   "en": "add_contested_owner = GER"
+  },
+  {
+   "k": "opo71b",
+   "en": "⟦0⟧ Country to remove contest to state.",
+   "frags": 1
+  },
+  {
+   "k": "1wpwl3e",
+   "en": "remove_contested_owner = GER"
+  },
+  {
+   "k": "cbhe4o",
+   "en": "strategic_province_location"
+  },
+  {
+   "k": "kh239a",
+   "en": "<string> = <int>"
+  },
+  {
+   "k": "1944w2u",
+   "en": "strategic_province_location = { defensible_coastline = 10124 }"
+  },
+  {
+   "k": "zjqk6l",
+   "en": "Add a strategic location to a province using state scope. The available strategic locations are defined in strategic_locations and are specified with a province id."
+  },
+  {
+   "k": "1bot8l1",
+   "en": "Can contain multiple strategic locations."
+  },
+  {
+   "k": "1ocinkz",
+   "en": "strategic_state_location"
+  },
+  {
+   "k": "qx54bm",
+   "en": "strategic_state_location = { favorable_approach = 11932 }"
+  },
+  {
+   "k": "x6xihn",
+   "en": "Add strategic locations to a state in scope. The available strategic locations are defined in strategic_locations."
+  },
+  {
+   "k": "14lbunf",
+   "en": "Building-related state-scoped effects:"
+  },
+  {
+   "k": "ohq5v0",
+   "en": "add_extra_state_shared_building_slots"
+  },
+  {
+   "k": "17sgplq",
+   "en": "⟦0⟧ The amount of slots to add or remove.",
+   "frags": 1
+  },
+  {
+   "k": "d817l5",
+   "en": "add_extra_state_shared_building_slots = 2"
+  },
+  {
+   "k": "pq6mk1",
+   "en": "Changes the number of shared building slots for the current state."
+  },
+  {
+   "k": "h68r2l",
+   "en": "Shared buildings slots being the ones used for multiple building types, such as military or civilian factories. This is in contrast to non-shared slots, such as those used by radio stations or air bases, which only can be changed globally with technologies. Note: When using a variable and a saved event target, must be used as \"saved_event.var_name\" because \"event_target:saved_event.var_name\" will not work."
+  },
+  {
+   "k": "k8kizp",
+   "en": "Note:"
+  },
+  {
+   "k": "1bewmt",
+   "en": "saved event target"
+  },
+  {
+   "k": "n7gg3z",
+   "en": "add_building_construction"
+  },
+  {
+   "k": "kd2yur",
+   "en": "⟦0⟧ The building to add. level = <int> / <variable> The level to set the building to. instant_build = <bool> Defines whether the buildings are instantly built. province = <id> Defines the exact province to add provincal buildings in. Can be used as a scope. Province scope all_provinces = <bool> Affect all provinces within the state that meet each limit. Used in the province scope. id = <id> Affect the specified province ID. Used in the province scope, will apply for each province if inserted multiple times. limit_to_coastal = <bool> Affect only coastal provinces within the selection. Used in the province scope. limit_to_naval_base = <bool> Affect only provinces that have naval bases built. Used in the province scope. limit_to_border = <bool> Affect only provinces that lie on a border between countries. Used in the province scope. limit_to_border_country = <country> Affect only provinces that border a specific other country. Used in the province scope. limit_to_victory_point = <int>/<bool> Affect only provinces that meet the victory point amount prerequisite. If yes is used in place of a number, any amount of victory points works. Used in the province scope. limit_to_supply_node = <bool> Affect only provinces that have a supply node. Used in the province scope. level = <int> Affect only provinces with buildings level below, at or above the specified level. Used in the province scope.",
+   "frags": 1
+  },
+  {
+   "k": "1kmt8cv",
+   "en": "type = <string>"
+  },
+  {
+   "k": "1u6twls",
+   "en": "level = <int> / <variable>"
+  },
+  {
+   "k": "1l4yvow",
+   "en": "instant_build = <bool>"
+  },
+  {
+   "k": "1v0noe5",
+   "en": "Province scope"
+  },
+  {
+   "k": "bhlh2l",
+   "en": "all_provinces = <bool>"
+  },
+  {
+   "k": "s9kvaj",
+   "en": "limit_to_coastal = <bool>"
+  },
+  {
+   "k": "ice1wg",
+   "en": "limit_to_naval_base = <bool>"
+  },
+  {
+   "k": "1d2jjae",
+   "en": "limit_to_border = <bool>"
+  },
+  {
+   "k": "h1pxsd",
+   "en": "limit_to_border_country = <country>"
+  },
+  {
+   "k": "vcmsah",
+   "en": "limit_to_victory_point = <int>/<bool>"
+  },
+  {
+   "k": "b9pr6y",
+   "en": "limit_to_supply_node = <bool>"
+  },
+  {
+   "k": "nye7d7",
+   "en": "add_building_construction = { type = arms_factory level = 5 instant_build = yes } add_building_construction = { type = bunker level = 10 instant_build = yes province = { all_provinces = yes limit_to_border = yes limit_to_victory_point > 1 } } add_building_construction = { type = bunker level = 1 instant_build = yes province = 2999 }"
+  },
+  {
+   "k": "4ymc3r",
+   "en": "Starts construction in the current state for the specified building."
+  },
+  {
+   "k": "1dsvr30",
+   "en": "For provincial buildings, ⟦0⟧ even if done on a specific province. ⟦1⟧ until a recalculation of buildings, such as by changing consumer goods or reloading a savefile. Can only be used within a state scope, such as random_owned_controlled_state. The effect will do nothing when put into a country's scope. For the list of building IDs present in the base game, see Building modding#Types.",
+   "frags": 2
+  },
+  {
+   "k": "18p5xtv",
+   "en": "must be done within the scope of the state that contains the province"
+  },
+  {
+   "k": "1za1hm",
+   "en": "If the controller country doesn't have an ⟦0⟧, the buildings will not show up within the production menu",
+   "frags": 1
+  },
+  {
+   "k": "19jtlig",
+   "en": "order of battle assigned within the history file"
+  },
+  {
+   "k": "cgs19n",
+   "en": "Building modding#Types"
+  },
+  {
+   "k": "1vsq9o9",
+   "en": "set_building_level"
+  },
+  {
+   "k": "wqhuoi",
+   "en": "set_building_level = { type = infrastructure level = 10 instant_build = yes } set_building_level = { type = bunker level = 3 province = { all_provinces = yes limit_to_border = yes level < 3 } }"
+  },
+  {
+   "k": "lt4igv",
+   "en": "Sets the specified building to the current state (or provinces within the state)."
+  },
+  {
+   "k": "1kyx62k",
+   "en": "The province scope is used for provincal level buildings. You can limit the construction to victory points using : ⟦0⟧ (only build province buildings on province with VP over 5 ) ⟦1⟧ (only build province buildings on province with VP) For provincial buildings, ⟦2⟧ even if done on a specific province.",
+   "frags": 3
+  },
+  {
+   "k": "113ees9",
+   "en": "limit_to_victory_point > 5"
+  },
+  {
+   "k": "8if86r",
+   "en": "⟦0⟧ The building to damage. tags = <building_tag> The buildings with this tag to damage. tags = { <building_tag> } The buildings with these tags to damage. repair_speed_modifier = <float> Repair will be x% slower until building is fully repaired damage = <float> The amount of damage to inflict. province = <id> / <variable> The province to target for provincal buildings.",
+   "frags": 1
+  },
+  {
+   "k": "wne90p",
+   "en": "damage_building = { type = infrastructure damage = 1 } damage_building = { tags = dam_building damage = 1 repair_speed_modifier = -0.8 province = 3488 }"
+  },
+  {
+   "k": "5agsgy",
+   "en": "The health of buildings is determined by the ⟦0⟧ attribute in a building's definition. This is multiplied by their level to get their total health. Can also be used in country scope.",
+   "frags": 1
+  },
+  {
+   "k": "1k8fiz6",
+   "en": "remove_building"
+  },
+  {
+   "k": "1iwitts",
+   "en": "⟦0⟧ The building to remove. tag = <building_tag> The buildings with this tag to remove. tag = { <building_tag> } The buildings with these tags to remove. level = <int> / <variable> The levels to remove.",
+   "frags": 1
+  },
+  {
+   "k": "19al5wv",
+   "en": "tag = <building_tag>"
+  },
+  {
+   "k": "lngnbf",
+   "en": "tag = { <building_tag> }"
+  }
+ ]
+}

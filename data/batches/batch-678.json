@@ -1,0 +1,1814 @@
+{
+ "batch": 678,
+ "pages": [
+  "Developer diaries"
+ ],
+ "chars": 14983,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1bkqrz2",
+   "en": "Info about patch 1.9.1, peace conferences and tech stealing"
+  },
+  {
+   "k": "1hqd5vr",
+   "en": "1.9.1 Beta Batch Update II"
+  },
+  {
+   "k": "t33o2v",
+   "en": "Fire Operatives and Nudger access"
+  },
+  {
+   "k": "15n5xkd",
+   "en": "1.9.1 Beta Patch Update"
+  },
+  {
+   "k": "181mmw4",
+   "en": "Updates to Spanish focus trees and the Spanish Civil War"
+  },
+  {
+   "k": "13c2v41",
+   "en": "LaR Post Release and Statistics"
+  },
+  {
+   "k": "1io81bn",
+   "en": "Statistics on LaR and announcement 1.9.1 beta"
+  },
+  {
+   "k": "1i94r4",
+   "en": "Patch 1.9 (Husky)"
+  },
+  {
+   "k": "okhekd",
+   "en": "Modding & 1.9 Patchlog"
+  },
+  {
+   "k": "1pu3fiv",
+   "en": "1.9 Patchlog and New Modding Features"
+  },
+  {
+   "k": "jgwgbp",
+   "en": "AI & Feature Updates"
+  },
+  {
+   "k": "1qnhtak",
+   "en": "Changes to AI and some Features in the Update"
+  },
+  {
+   "k": "1evzy1o",
+   "en": "LaR UK AAR"
+  },
+  {
+   "k": "1nd8rep",
+   "en": "How it Feels to Play in the New Update"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "1k4wpvj",
+   "en": "LaR Music and Art"
+  },
+  {
+   "k": "u14wku",
+   "en": "New Art and Music"
+  },
+  {
+   "k": "1k5wal6",
+   "en": "Formables and Releasables"
+  },
+  {
+   "k": "1lv47ke",
+   "en": "New Formable Nations and Releasable Nations"
+  },
+  {
+   "k": "1cttlji",
+   "en": "Bag of Tricks"
+  },
+  {
+   "k": "1gc0w8n",
+   "en": "Quality of Life Changes like Automatic MEFO Bills, Exercise Auto Stop, and Searchable & Zoomable Focus Trees"
+  },
+  {
+   "k": "ap23k7",
+   "en": "Portugal"
+  },
+  {
+   "k": "1o5ou3m",
+   "en": "New Portuguese Focus Tree"
+  },
+  {
+   "k": "1mkuf87",
+   "en": "Intel"
+  },
+  {
+   "k": "173z7vu",
+   "en": "More changes to Intel"
+  },
+  {
+   "k": "o3thd6",
+   "en": "Scout Planes and breaking the Enigma"
+  },
+  {
+   "k": "xh72k",
+   "en": "New Scout Plane Air Unit Type and Additions & Changes to Intel and Cryptology"
+  },
+  {
+   "k": "qszcrw",
+   "en": "Collaboration, Compliance and Coups"
+  },
+  {
+   "k": "1b1wol2",
+   "en": "⟦0⟧ and Collaboration Operations",
+   "frags": 1
+  },
+  {
+   "k": "qs2dn6",
+   "en": "Coup"
+  },
+  {
+   "k": "1ahoaq7",
+   "en": "Operations"
+  },
+  {
+   "k": "h7sqjt",
+   "en": "New Operations"
+  },
+  {
+   "k": "19soalx",
+   "en": "Focus Tree Navigation"
+  },
+  {
+   "k": "zbs1nh",
+   "en": "Operatives and Missions"
+  },
+  {
+   "k": "b09qjs",
+   "en": "New Operatives and Missions they can perform"
+  },
+  {
+   "k": "199an6e",
+   "en": "The Intelligence Agency"
+  },
+  {
+   "k": "1z0talj",
+   "en": "New Intelligence Agency"
+  },
+  {
+   "k": "kvxon6",
+   "en": "Back from PdxCon"
+  },
+  {
+   "k": "1kg4rgy",
+   "en": "Talks about what they talked about at PdxCon and talks about their new offices"
+  },
+  {
+   "k": "1yzf7wa",
+   "en": "PdxCon & Moving Madness"
+  },
+  {
+   "k": "vl6vmi",
+   "en": "Talks about moving offices and talks about what there going to talking about in PdxCon"
+  },
+  {
+   "k": "rd541",
+   "en": "Armored Cars - The new horsey boys"
+  },
+  {
+   "k": "8i6f74",
+   "en": "New Armored Car Land Unit Type"
+  },
+  {
+   "k": "hcyi96",
+   "en": "¡No Pasarán!"
+  },
+  {
+   "k": "1r1t9tx",
+   "en": "Republican Spain Focus Tree"
+  },
+  {
+   "k": "19cgcww",
+   "en": "¡Viva España!"
+  },
+  {
+   "k": "1nveavw",
+   "en": "Nationalist Spain Focus Tree"
+  },
+  {
+   "k": "suk6mj",
+   "en": "Policing Garrison Rework"
+  },
+  {
+   "k": "89lgpz",
+   "en": "Rework of Resistance Suppression and Garrisons"
+  },
+  {
+   "k": "eev10a",
+   "en": "Free France and Vichy"
+  },
+  {
+   "k": "1mdgll6",
+   "en": "Rework of Free France and Vichy France"
+  },
+  {
+   "k": "18lbjgo",
+   "en": "Resistance and Compliance"
+  },
+  {
+   "k": "1jx4b07",
+   "en": "Rework of the ⟦0⟧ system",
+   "frags": 1
+  },
+  {
+   "k": "dlbn6i",
+   "en": "Occupation"
+  },
+  {
+   "k": "1ywgegu",
+   "en": "France Rework"
+  },
+  {
+   "k": "1tz57cu",
+   "en": "Rework of French focus tree"
+  },
+  {
+   "k": "7rd60u",
+   "en": "Back From Summer!"
+  },
+  {
+   "k": "gum96l",
+   "en": "Back from vacation to a new round of DDs"
+  },
+  {
+   "k": "1hpzefz",
+   "en": "Man the Guns"
+  },
+  {
+   "k": "16nhs1x",
+   "en": "All developer diaries about the ⟦0⟧ expansion, ⟦1⟧ (aka Ironclad), ⟦2⟧ (aka Hydra), and ⟦3⟧ (aka Fork).",
+   "frags": 4
+  },
+  {
+   "k": "mbi0xu",
+   "en": "patch 1.6"
+  },
+  {
+   "k": "mlhmmt",
+   "en": "patch 1.7"
+  },
+  {
+   "k": "mvh8bs",
+   "en": "patch 1.8"
+  },
+  {
+   "k": "11uvmfj",
+   "en": "Patch 1.8 (Fork)"
+  },
+  {
+   "k": "1xx00jb",
+   "en": "1.8 Patch (wut?!) & Focus Tree Navigation"
+  },
+  {
+   "k": "1augyrg",
+   "en": "The launcher patch and some balance changes"
+  },
+  {
+   "k": "18ebxab",
+   "en": "New Launcher for Hearts of Iron IV"
+  },
+  {
+   "k": "zml8kk",
+   "en": "The new unified Paradox launcher to arrive on HoI4"
+  },
+  {
+   "k": "14hyana",
+   "en": "Patch 1.7 (Hydra)"
+  },
+  {
+   "k": "yxvf0q",
+   "en": "Tech bugaloo II - Dragonslaying!"
+  },
+  {
+   "k": "1gf0wak",
+   "en": "1.7.1 patch plans and overview of Out of Sync errors"
+  },
+  {
+   "k": "1ukrw84",
+   "en": "3 Year Anniversary!"
+  },
+  {
+   "k": "n7wdi8",
+   "en": "1.7 'Hydra' release, 3 year anniversary, response to some Twitter questions"
+  },
+  {
+   "k": "n7y0rp",
+   "en": "1.7 Update and Radio & Armor Packs"
+  },
+  {
+   "k": "10kcm6b",
+   "en": "Overview of the 1.7 update and 2 new art and music DLCs to celebrate the 3 year anniversary release"
+  },
+  {
+   "k": "1ha8swz",
+   "en": "1.7 Update II - Technical boogaloo!"
+  },
+  {
+   "k": "63w81r",
+   "en": "Further news on 64 bit, naval combat balance, optimization"
+  },
+  {
+   "k": "13ei8m",
+   "en": "News from the Eastern Front"
+  },
+  {
+   "k": "1nf3hvm",
+   "en": "Patch 1.7 'Hydra' bringing 64 bit, AI frontline & player frontline UI changes"
+  },
+  {
+   "k": "z9b8r9",
+   "en": "Patch 1.6 post release"
+  },
+  {
+   "k": "goukal",
+   "en": "1.6.2 and Roadmap"
+  },
+  {
+   "k": "9xh75r",
+   "en": "1.6.2 release, future roadmap and announcement of 1.7 \"Hydra\" and 1.8 \"Husky\""
+  },
+  {
+   "k": "14js8ah",
+   "en": "1.6.2 Update"
+  },
+  {
+   "k": "qio9o0",
+   "en": "1.6.2 Highlights and patchlog"
+  },
+  {
+   "k": "438qm4",
+   "en": "1.6.2 Open Beta Patch"
+  },
+  {
+   "k": "168g8h5",
+   "en": "1.6.2 open beta patch content and AI naval screen statistics"
+  },
+  {
+   "k": "g2yg7p",
+   "en": "1.6.1 Patch and Statistics"
+  },
+  {
+   "k": "19geqj6",
+   "en": "Full 1.6.1 \"Ironclad\" patch log, info about the 1.6.2 beta and player statistics"
+  },
+  {
+   "k": "152svu4",
+   "en": "MTG Post Release"
+  },
+  {
+   "k": "3yb3vs",
+   "en": "Small telemetry information and what's planned for the patch"
+  },
+  {
+   "k": "1q55qy5",
+   "en": "Patch 1.6 (Ironclad)"
+  },
+  {
+   "k": "gj6g44",
+   "en": "1.6 Patchlog"
+  },
+  {
+   "k": "1nqsfse",
+   "en": "Full 1.6 \"Ironclad\" patch log and Reddit AMA highlights"
+  },
+  {
+   "k": "6qjois",
+   "en": "Man the Guns MEGA RECAP"
+  },
+  {
+   "k": "2mn0ra",
+   "en": "Recap of everything that has been announced"
+  },
+  {
+   "k": "13660q3",
+   "en": "AI Plans"
+  },
+  {
+   "k": "11ykwop",
+   "en": "More AI strategy plans, and the integration of AI strategy into the Custom Game Rules menu"
+  },
+  {
+   "k": "ap6711",
+   "en": "New goals to strive for, with the addition of 21 new achievements related to MTG"
+  },
+  {
+   "k": "i25e7s",
+   "en": "The Imperial Japanese Navy"
+  },
+  {
+   "k": "1of9xl1",
+   "en": "An AAR of Archangel85's experience with the Imperial Japanese Navy in a MP session"
+  },
+  {
+   "k": "8zch5g",
+   "en": "Art and Music"
+  },
+  {
+   "k": "1x31ixl",
+   "en": "New music, 3D models and 2D art to ramp up MTG's awesomeness"
+  },
+  {
+   "k": "1lckngc",
+   "en": "Tech Changes"
+  },
+  {
+   "k": "hnosu2",
+   "en": "Changes to the tech research system and the addition of new naval techs"
+  },
+  {
+   "k": "ywbb13",
+   "en": "Fuel Review and Motorized Artillery"
+  },
+  {
+   "k": "5vr07b",
+   "en": "Changes to the fuel implementation and the addition of motorized artillery units"
+  },
+  {
+   "k": "adnmaj",
+   "en": "Subs and Convoy Raiding"
+  },
+  {
+   "k": "11d7et9",
+   "en": "Improvements to submarine convoy raiding"
+  },
+  {
+   "k": "8yt9g3",
+   "en": "New Naval Combat"
+  },
+  {
+   "k": "1gjtqj7",
+   "en": "Rework of naval combat to be more informative and less decisive"
+  },
+  {
+   "k": "18wo72g",
+   "en": "Bag of Tricks #3"
+  },
+  {
+   "k": "5ku0f5",
+   "en": "Dutch & British focus changes, ideology drift tweaks, map changes in Africa and the Balkans region"
+  },
+  {
+   "k": "19dujuc",
+   "en": "Naval Treaties and Ship Refits"
+  },
+  {
+   "k": "b45wsp",
+   "en": "Naval treaties effects on ship designing and refitting of obsolete ships"
+  },
+  {
+   "k": "2q828c",
+   "en": "Ship Designer"
+  },
+  {
+   "k": "qc3cy8",
+   "en": "Overview on modifications on the ship designer system"
+  },
+  {
+   "k": "eh9sy0",
+   "en": "Bag of Tricks 2"
+  },
+  {
+   "k": "7fyo8s",
+   "en": "Expeditionary Force Requests, Supervised States & On-map decisions"
+  },
+  {
+   "k": "1vtqpwe",
+   "en": "Mexico focus tree"
+  },
+  {
+   "k": "1szwn2n",
+   "en": "Announcement of and information about the new Mexican focus tree"
+  },
+  {
+   "k": "17glocq",
+   "en": "Naval changes #1"
+  },
+  {
+   "k": "b2ugmz",
+   "en": "Overview of the different changes to naval warfare"
+  },
+  {
+   "k": "1t3jrja",
+   "en": "Naval Terrain"
+  },
+  {
+   "k": "uv4i8y",
+   "en": "Overview of new terrain types for seas"
+  },
+  {
+   "k": "x31y7p",
+   "en": "Amphibious Vehicles and Research"
+  },
+  {
+   "k": "pe8pig",
+   "en": "New Amphibious Tractors and Amphibious Tank"
+  },
+  {
+   "k": "zwxy6d",
+   "en": "Je Maintiendrai"
+  },
+  {
+   "k": "12kadoy",
+   "en": "Announcement of and information about the new Dutch focus tree"
+  },
+  {
+   "k": "1q46gt7",
+   "en": "Exiled Government"
+  },
+  {
+   "k": "6b8pdf",
+   "en": "Extend possibilities for exiled governments and more information about the British focus tree overhaul"
+  },
+  {
+   "k": "1k2i067",
+   "en": "Naval Rework #1"
+  },
+  {
+   "k": "1wnu1rb",
+   "en": "New mission types and changes to the naval interface"
+  },
+  {
+   "k": "1vtvno3",
+   "en": "Naval Production, Repair and Damage"
+  },
+  {
+   "k": "1de69mm",
+   "en": "Extensive changes to the naval theater with reworks of ship production, repair and damage"
+  },
+  {
+   "k": "u19u2r",
+   "en": "Modding and Traits"
+  },
+  {
+   "k": "bjsa57",
+   "en": "Added trait system for admirals as well as more features for modders"
+  },
+  {
+   "k": "ilc8ss",
+   "en": "USA focus tree rework"
+  },
+  {
+   "k": "1hmzeaq",
+   "en": "Reworked USA focus tree, allowing for alternate-history paths"
+  },
+  {
+   "k": "fmni3t",
+   "en": "Mines and Minesweeping"
+  },
+  {
+   "k": "1hfng53",
+   "en": "Naval Mines added to the game along with minesweeping"
+  },
+  {
+   "k": "nx95f7",
+   "en": "Naval Access"
+  },
+  {
+   "k": "1472edu",
+   "en": "Improvements to the naval theater of HOI4 including marking dangerous seazones and asking for naval access to ports"
+  },
+  {
+   "k": "1l9hkzf",
+   "en": "MTG - Bag of Tricks"
+  },
+  {
+   "k": "1xcsa9t",
+   "en": "Smaller improvements to the game such as assuming leadership of a faction, manual focus cancellation, and naval and air exercises"
+  },
+  {
+   "k": "a2jnep",
+   "en": "Custom Gameplay Rules"
+  },
+  {
+   "k": "1mm4h1i",
+   "en": "New Custom Gameplay Rules allowing the player to steer the game in the direction they want"
+  },
+  {
+   "k": "kjrze9",
+   "en": "A Post-Colonial World:Map Changes and New Tags"
+  },
+  {
+   "k": "1o5gc51",
+   "en": "Sweeping changes to the map along with the addition of more releasable tags"
+  },
+  {
+   "k": "1j8soux",
+   "en": "God Save The King: British Focus Tree Rework"
+  },
+  {
+   "k": "kam7q6",
+   "en": "Reworked British focus tree, allowing for alternate-history paths"
+  },
+  {
+   "k": "112axt9",
+   "en": "Fuel"
+  },
+  {
+   "k": "1iuo2l5",
+   "en": "Information on fuel and new hotfix"
+  },
+  {
+   "k": "v0ocn2",
+   "en": "Man the Guns and PdxCon"
+  },
+  {
+   "k": "158mi0c",
+   "en": "General goals for the future expansion and patch"
+  },
+  {
+   "k": "kkz0te",
+   "en": "Waking the Tiger"
+  },
+  {
+   "k": "19wo1k",
+   "en": "All developer diaries about the ⟦0⟧ expansion and ⟦1⟧ (aka Cornflakes).",
+   "frags": 2
+  },
+  {
+   "k": "m1if8v",
+   "en": "patch 1.5"
+  },
+  {
+   "k": "zq1xiu",
+   "en": "Patch 1.5 post release"
+  },
+  {
+   "k": "16mstg1",
+   "en": "1.5.2, Future Roadmap and Ironclad"
+  },
+  {
+   "k": "1gie34u",
+   "en": "The return of the bullet list and possible future development roadmap"
+  },
+  {
+   "k": "1u63eli",
+   "en": "1.5.2 Update #3 and Telemetry"
+  },
+  {
+   "k": "kg7567",
+   "en": "An updated beta and multiplayer telemetry"
+  },
+  {
+   "k": "5w79wm",
+   "en": "1.5.2 Update #2 and Modding Goodies"
+  },
+  {
+   "k": "ptx2lk",
+   "en": "Info about patch 1.5.2: Air Balance and Changes, Nukes and Surrender, Manchukuo, Modding and more"
+  },
+  {
+   "k": "1vydsry",
+   "en": "1.5.2 Update #1"
+  },
+  {
+   "k": "iqfduk",
+   "en": "Info about patch 1.5.2: German border changes, commander XP gain changes, multiplayer desyncs, and more"
+  },
+  {
+   "k": "1efijjd",
+   "en": "Post-Release patch"
+  },
+  {
+   "k": "l8pbd1",
+   "en": "Info about patch 1.5.1"
+  },
+  {
+   "k": "hup0mm",
+   "en": "Patch 1.5 (Cornflakes)"
+  },
+  {
+   "k": "20u5vh",
+   "en": "Pre-Release and International Women's Day"
+  },
+  {
+   "k": "1ov3n0j",
+   "en": "Women's contribution during the second world war"
+  },
+  {
+   "k": "wb929",
+   "en": "Recap Episode"
+  },
+  {
+   "k": "ipu1b6",
+   "en": "What is coming in Waking the Tiger and the 1.5 Cornflakes"
+  },
+  {
+   "k": "1c2myd2",
+   "en": "Performance and AI"
+  },
+  {
+   "k": "a4hgke",
+   "en": "Formable Nations and Achievements"
+  },
+  {
+   "k": "1ham9gi",
+   "en": "New goals to strive for: formable nations and some 18 achievements"
+  },
+  {
+   "k": "10jiezh",
+   "en": "Naval Updates"
+  },
+  {
+   "k": "1enrwjo",
+   "en": "Improvements of naval matters: losses and kills overview, convoys raiding, transports interception, and more"
+  },
+  {
+   "k": "13n6m63",
+   "en": "Sound, Music and Art for Tiger"
+  },
+  {
+   "k": "18cjcn2",
+   "en": "On the topic of the artistic additions to ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "18y7fwy",
+   "en": "War Changes and game Difficulty"
+  },
+  {
+   "k": "1apyey2",
+   "en": "Changes to 3-way war handling and addition of 2 more difficulty settings."
+  },
+  {
+   "k": "11tcwh4",
+   "en": "Manchukuo"
+  },
+  {
+   "k": "1hpcin0",
+   "en": "The last unrevealed focus tree for Waking the Tiger: \"Manchukuo\""
+  },
+  {
+   "k": "ilk1j8",
+   "en": "3rd assortment of small improvements: attachés, extra ground crews, historical army insignias, and volunteer air wings"
+  },
+  {
+   "k": "1g90l75",
+   "en": "Japan rework"
+  },
+  {
+   "k": "boommf",
+   "en": "A rework of the Japanese national focus tree"
+  },
+  {
+   "k": "1pi5h1o",
+   "en": "New German Divisional Namelist"
+  },
+  {
+   "k": "1b7km09",
+   "en": "Further improvement of incoming German unit namelist"
+  },
+  {
+   "k": "ypcmp9",
+   "en": "Christmas & Modding"
+  },
+  {
+   "k": "krh0ob",
+   "en": "Modding guide for the new decisions & missions system in patch 1.5"
+  },
+  {
+   "k": "2c5h94",
+   "en": "Border Wars: The Last Warlord"
+  },
+  {
+   "k": "r67c44",
+   "en": "More detail on the Chinese warlords"
+  },
+  {
+   "k": "1g8sa0v",
+   "en": "Acclimatization and Special Forces"
+  },
+  {
+   "k": "yf1nzp",
+   "en": "Troops are now affected by hot and cold climates, and new changes to special forces"
+  },
+  {
+   "k": "1l0mqah",
+   "en": "Leaders, abilities and Traits"
+  },
+  {
+   "k": "14p5ls7",
+   "en": "Revamped and expanded trait system and the mysterious \"red phone\" icon (aka ⟦0⟧)",
+   "frags": 1
+  },
+  {
+   "k": "16cohwn",
+   "en": "command power"
+  },
+  {
+   "k": "8eaarh",
+   "en": "Communist China"
+  },
+  {
+   "k": "1iqucer",
+   "en": "The 2nd focus tree for China (the ⟦0⟧ path) along with an example of the new ⟦1⟧ in action",
+   "frags": 2
+  },
+  {
+   "k": "16f7gjm",
+   "en": "communist"
+  },
+  {
+   "k": "1s7tpjs",
+   "en": "decision system"
+  },
+  {
+   "k": "nc47km",
+   "en": "Nationalist China"
+  },
+  {
+   "k": "g68ksu",
+   "en": "The 1st focus tree for China (the ⟦0⟧ path) as well as the announcement of ⟦1⟧ expansion",
+   "frags": 2
+  },
+  {
+   "k": "1diwch9",
+   "en": "nationalist"
+  },
+  {
+   "k": "105te4b",
+   "en": "Decisive Action"
+  },
+  {
+   "k": "16biscr",
+   "en": "Adding decisions, missions, crises and special projects to the game"
+  },
+  {
+   "k": "12umayu",
+   "en": "Airplanes and Lootboxes"
+  },
+  {
+   "k": "18jslyw",
+   "en": "Further improvement of air related aspects"
+  },
+  {
+   "k": "14xoi9a",
+   "en": "Another small features and improvements, this time with relation to equipment"
+  },
+  {
+   "k": "1sdwkfr",
+   "en": "A New Germany"
+  },
+  {
+   "k": "olbk1j",
+   "en": "Revised focus tree for Germany as part of requested alternate history options"
+  },
+  {
+   "k": "1u69mux",
+   "en": "Smaller improvements to the game: control groups, divisions consolidation, removal from faction, mini-map & pinging"
+  },
+  {
+   "k": "1eta0jm",
+   "en": "Synthetic Dawn"
+  },
+  {
+   "k": "1m47j2d",
+   "en": "Refinements to synthetic refineries and inter-linking infrastructure with resources"
+  },
+  {
+   "k": "9c9n7m",
+   "en": "Division Namelists"
+  },
+  {
+   "k": "gadp4d",
+   "en": "Pallidum, HoI4's game designer, inserting some flavor (and logic) to division names"
+  },
+  {
+   "k": "sdb274",
+   "en": "Stability and War Support"
+  },
+  {
+   "k": "2qyg18",
+   "en": "⟦0⟧ and ⟦1⟧ to replace National unity in the next patch",
+   "frags": 2
+  },
+  {
+   "k": "wnbc3s",
+   "en": "Stability"
+  },
+  {
+   "k": "mz0woq",
+   "en": "War support"
+  },
+  {
+   "k": "q2d3km",
+   "en": "Chain of Command"
+  },
+  {
+   "k": "1gkj5vp",
+   "en": "Podcat on spicing things up in the HoI4 chain of command as part of patch 1.5"
+  },
+  {
+   "k": "x2jtfi",
+   "en": "A Product Manager's Role"
+  },
+  {
+   "k": "762wdo",
+   "en": "\"Firebolt\", HoI4's product manager, on the intricacies of budgeting a game development"
+  },
+  {
+   "k": "2px1st",
+   "en": "Our development process"
+  },
+  {
+   "k": "1lstdzs",
+   "en": "Sofia \"KimchiViking\" Höglund, HoI4's project lead, explains the development cycle, from design to implementation"
+  },
+  {
+   "k": "14224ld",
+   "en": "Future and Cornflakes"
+  },
+  {
+   "k": "10wsf7y",
+   "en": "Podcat shares the team's (non-exhaustive) list of features to act as a future development roadmap for HoI4"
+  },
+  {
+   "k": "1ynco16",
+   "en": "Death or Dishonor"
+  },
+  {
+   "k": "17x8td5",
+   "en": "All developer diaries about the ⟦0⟧ country pack and ⟦1⟧ (aka Oak).",
+   "frags": 2
+  },
+  {
+   "k": "lritjw",
+   "en": "patch 1.4"
+  },
+  {
+   "k": "xq1cwr",
+   "en": "Patch 1.4 post release"
+  },
+  {
+   "k": "121whnt",
+   "en": "We're back!"
+  },
+  {
+   "k": "1pall87",
+   "en": "New beta patch with additional fixes, more portraits for free and an interim solution to an old AI transport problem"
+  },
+  {
+   "k": "1wktc9n",
+   "en": "Meet some new people"
+  },
+  {
+   "k": "39k28o",
+   "en": "Beta patch status, preliminary gaming statistics post DoD and introduction of new team members"
+  },
+  {
+   "k": "xwpzpn",
+   "en": "Post-release chat"
+  },
+  {
+   "k": "1twg4ry",
+   "en": "Bugs, new and old, dealt with in the 1.4.1 beta patch"
+  },
+  {
+   "k": "1xqic5k",
+   "en": "Patch 1.4 (Oak)"
+  },
+  {
+   "k": "1bofu2q",
+   "en": "1.4 \"Oak\" Changelog sneak peek"
+  },
+  {
+   "k": "ujrfrq",
+   "en": "Patch 1.4, aka ⟦0⟧, changelog",
+   "frags": 1
+  },
+  {
+   "k": "30bb4i",
+   "en": "Oak"
+  },
+  {
+   "k": "fu8on9",
+   "en": "Bits & Bobs"
+  },
+  {
+   "k": "1plfodf",
+   "en": "New subject levels, achievements, music, assorted QoL features and AI Update #3"
+  },
+  {
+   "k": "x9f3oc",
+   "en": "Czechoslovakia and AI Update #2"
+  },
+  {
+   "k": "d6qe5q",
+   "en": "Let's have a look at Czechoslovakia and another AI update from Steelvolt"
+  },
+  {
+   "k": "93job5",
+   "en": "Yugoslavia and Air Zones"
+  },
+  {
+   "k": "1clqbnq",
+   "en": "Yugoslavia unique flavor and more details on aerial combat overhaul in 1.4 Oak"
+  },
+  {
+   "k": "159y6hw",
+   "en": "Air Improvements"
+  },
+  {
+   "k": "c36yr2",
+   "en": "Air combat overhaul in 1.4 Oak"
+  },
+  {
+   "k": "1h10daq",
+   "en": "Equipment Conversion & War Update"
+  },
+  {
+   "k": "1wjsabq",
+   "en": "Repurposing old material and improvements to the war overview"
+  },
+  {
+   "k": "ik2wfk",
+   "en": "Hungary changes coming up"
+  },
+  {
+   "k": "xjlhr0",
+   "en": "Announcement and AI Update #1"
+  },
+  {
+   "k": "ql0cse",
+   "en": "Announcement of new content pack coming with the free 1.4 Oak along with details on AI improvements"
+  },
+  {
+   "k": "1k0ex1h",
+   "en": "License production and map changes"
+  },
+  {
+   "k": "2fy4yw",
+   "en": "1.4 Oak and the upcoming expansion will see map improvements and new ways of getting tech"
+  },
+  {
+   "k": "o5f10n",
+   "en": "Reflections and Romania"
+  },
+  {
+   "k": "1yudxw7",
+   "en": "First look at new DLC content"
+  },
+  {
+   "k": "1mtqtby",
+   "en": "Together for Victory"
+  },
+  {
+   "k": "c49j1y",
+   "en": "All developer diaries about the ⟦0⟧ country pack and ⟦1⟧ (aka Torch).",
+   "frags": 2
+  },
+  {
+   "k": "lhj7ux",
+   "en": "patch 1.3"
+  },
+  {
+   "k": "1towlz0",
+   "en": "Patch 1.3 post release"
+  },
+  {
+   "k": "u4uv54",
+   "en": "1.3.3 Patch #3"
+  },
+  {
+   "k": "1b8r3q3",
+   "en": "The patch should now be ready for release"
+  },
+  {
+   "k": "jnuck8",
+   "en": "Patch 1.3.3 Update #2"
+  },
+  {
+   "k": "15yiqv8",
+   "en": "Details on QoL improvements, AI update, performance and optimizations done in the coming patch"
+  },
+  {
+   "k": "kht5n5",
+   "en": "Patch 1.3.3 Update #1"
+  },
+  {
+   "k": "qdcw9z",
+   "en": "Changes done to industry, world tension and capitulation in the upcoming patch"
+  },
+  {
+   "k": "ja32gf",
+   "en": "1.3.3 Modding Features"
+  },
+  {
+   "k": "135h12y",
+   "en": "More modding features coming"
+  },
+  {
+   "k": "j0o022",
+   "en": "Getting started with modding"
+  },
+  {
+   "k": "5h3b3o",
+   "en": "Havebeard goes over modding requests and modding tips for beginners"
+  },
+  {
+   "k": "xy47j9",
+   "en": "Squanching them bugs"
+  },
+  {
+   "k": "1oc3oqd",
+   "en": "Planned changes for 1.3.3 and general focus for the 1.4 ⟦0⟧ patch",
+   "frags": 1
+  },
+  {
+   "k": "wpvsm",
+   "en": "Back from Christmas"
+  },
+  {
+   "k": "hn52di",
+   "en": "1.3.2 hotfix patch soon in public beta"
+  },
+  {
+   "k": "ed30w5",
+   "en": "XMAS & Hotfix out!"
+  },
+  {
+   "k": "k5v8u4",
+   "en": "It's time for holidays! Development diaries will be back again in 2017!"
+  },
+  {
+   "k": "d3t8bw",
+   "en": "Patch 1.3 (Torch)"
+  },
+  {
+   "k": "giswjx",
+   "en": "Achievements & Patchlog"
+  },
+  {
+   "k": "1avadfc",
+   "en": "New Achievements and 1.3 changelog"
+  },
+  {
+   "k": "wruzb",
+   "en": "TFV AI Update #4"
+  },
+  {
+   "k": "fi6cwe",
+   "en": "Part 4 of AI bugfixes and updates for TFV"
+  },
+  {
+   "k": "2t1we",
+   "en": "TFV AI Update #3"
+  },
+  {
+   "k": "1tm2ud",
+   "en": "Part 3 of AI bugfixes and updates for TFV"
+  },
+  {
+   "k": "csnld",
+   "en": "TFV AI Update #2"
+  },
+  {
+   "k": "1ndb0so",
+   "en": "Part 2 of AI bugfixes and updates for TFV"
+  },
+  {
+   "k": "1qjw2u9",
+   "en": "Cosmetic tags, art, gameplay and AI"
+  },
+  {
+   "k": "1t0kjtd",
+   "en": "One week to the release of ⟦0⟧!",
+   "frags": 1
+  },
+  {
+   "k": "1ci60bm",
+   "en": "Together for Audio"
+  },
+  {
+   "k": "1g0l4e1",
+   "en": "Music and Audio in Together for Victory"
+  },
+  {
+   "k": "1svuzpg",
+   "en": "New Zealand & Combat Log"
+  },
+  {
+   "k": "1e16jid",
+   "en": "New Zealand focus and tech trees as well as a combat log"
+  },
+  {
+   "k": "1if2gh9",
+   "en": "India - Struggle for Independence"
+  },
+  {
+   "k": "1pdt8kd",
+   "en": "A closer look at the changes coming for India in ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1n691wz",
+   "en": "Autonomy"
+  },
+  {
+   "k": "15eekea",
+   "en": "New levels for subject nations coming in ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "uk3mac",
+   "en": "South Africa and Continuous focuses"
+  },
+  {
+   "k": "1ofy6jf",
+   "en": "Ally Down Under"
+  },
+  {
+   "k": "hkf2vy",
+   "en": "Australia updated in ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "j1ffbf",
+   "en": "Oh Canada!"
+  },
+  {
+   "k": "17xrtyz",
+   "en": "Canada and the Commonwealth"
+  },
+  {
+   "k": "1ba4pv6",
+   "en": "Blitz Command and Garrison Orders"
+  },
+  {
+   "k": "o7w1bq",
+   "en": "Blitz Command coming in the next expansion, garrison orders in the free patch"
+  },
+  {
+   "k": "1y7ix1c",
+   "en": "Memory Lane"
+  },
+  {
+   "k": "1kn90th",
+   "en": "A look at how some concepts have changed over the HoI series, such as: supply, upgrades, reinforcement, and more"
+  },
+  {
+   "k": "1i8xi9h",
+   "en": "The Team"
+  },
+  {
+   "k": "lcgnoo",
+   "en": "Presentation of the current HoI4 team lineup"
+  },
+  {
+   "k": "ypxx9y",
+   "en": "Future Focus"
+  },
+  {
+   "k": "1jlfjee",
+   "en": "Focus for 1.3 / upcoming expansion along with general plans for the expansions beyond"
+  },
+  {
+   "k": "vnpgfi",
+   "en": "Pre-DLC"
+  },
+  {
+   "k": "7p00tm",
+   "en": "All developer diaries about ⟦0⟧ prior to ⟦1⟧, ⟦2⟧, ⟦3⟧ (aka Red Ball Express), and ⟦4⟧ (aka Sunflower)",
+   "frags": 5
+  },
+  {
+   "k": "knkes0",
+   "en": "patch 1.0"
+  },
+  {
+   "k": "kxk0gz",
+   "en": "patch 1.1"
+  },
+  {
+   "k": "l7jm5y",
+   "en": "patch 1.2"
+  },
+  {
+   "k": "15jb2u2",
+   "en": "Patch 1.2 (Sunflower)"
+  },
+  {
+   "k": "naukfo",
+   "en": "Sunflower is Live"
+  },
+  {
+   "k": "11i1ew4",
+   "en": "Patch 1.2 is out live, next patch is 1.3 aka \"Torch\""
+  },
+  {
+   "k": "1dt31ac",
+   "en": "Bugs and Stats"
+  },
+  {
+   "k": "1mxs7o1",
+   "en": "Readying Sunflower for release and sharing some gameplay stats"
+  },
+  {
+   "k": "1evc1g7",
+   "en": "Sunflower Improvements"
+  },
+  {
+   "k": "kodkcf",
+   "en": "Sunflower updates: GUI improvements, naval balance, focus trees"
+  },
+  {
+   "k": "1a6bwxd",
+   "en": "New Releasable Nations"
+  },
+  {
+   "k": "18ss6tc",
+   "en": "A look at new releasable nations and more of the AI improvements coming in Sunflower (patch 1.2)"
+  },
+  {
+   "k": "xpfmh6",
+   "en": "Sunflower (patch 1.2)"
+  },
+  {
+   "k": "18otv6b",
+   "en": "Port Strikes and AI improvements to upgrading templates and naval missions coming in Sunflower"
+  },
+  {
+   "k": "1irh1kg",
+   "en": "Custom Difficulty Settings"
+  },
+  {
+   "k": "2i5ukx",
+   "en": "AI improvements and implantation of custom difficulty settings at game setup"
+  },
+  {
+   "k": "1t6lgnh",
+   "en": "Back from Vacation"
+  },
+  {
+   "k": "ntvptn",
+   "en": "AI changes and MP hotjoin in 1.2, aka 'Sunflower'"
+  },
+  {
+   "k": "u532o2",
+   "en": "Patch 1.1 (Red Ball Express)"
+  },
+  {
+   "k": "pxg3mj",
+   "en": "Summer Vacation"
+  },
+  {
+   "k": "u01om3",
+   "en": "The team is going on a well deserved summer vacation"
+  },
+  {
+   "k": "r2pdlx",
+   "en": "Red Ball Express"
+  },
+  {
+   "k": "4z4gj4",
+   "en": "Tweaks to access to allied territory, peace conferences, invasions and naval bombers along with new battle plan modes upcoming in 'Red Ball Express'"
+  },
+  {
+   "k": "4jnbfu",
+   "en": "Release and Future"
+  },
+  {
+   "k": "1oqdwsh",
+   "en": "Podcat shares his thoughts on the release, as well as discussing the near future patches"
+  },
+  {
+   "k": "p9qnsg",
+   "en": "Patch 1.0"
+  },
+  {
+   "k": "w5hia0",
+   "en": "D-day"
+  },
+  {
+   "k": "8z3p8c",
+   "en": "A short, final message from Podcat before we release"
+  },
+  {
+   "k": "mbasyp",
+   "en": "Tutorial, Wiki & Browser"
+  },
+  {
+   "k": "14y6xsg",
+   "en": "A look at the tools we provide to help you learn how to play ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "xmc3r2",
+   "en": "Poland: United and Ready"
+  },
+  {
+   "k": "qm91nn",
+   "en": "About the free DLC shipped with all copies of ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1b5dx5u",
+   "en": "Bits & Pieces"
+  },
+  {
+   "k": "17mb40",
+   "en": "Mopping up a bunch of smaller topics not covered in other Development Diaries"
+  },
+  {
+   "k": "1u6zf19",
+   "en": "A closer look into the QA process when developing ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "tfunnb",
+   "en": "SteelVolt speaks of the topic no one wants to touch, but everyone wants to know about"
+  },
+  {
+   "k": "117hwha",
+   "en": "2D art"
+  },
+  {
+   "k": "1ddz4ur",
+   "en": "Sideburnout talks about the 2D graphics of ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1hlg87e",
+   "en": "A look at the improved modding support in ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "x4vds9",
+   "en": "Sound & Music"
+  },
+  {
+   "k": "1mgscs8",
+   "en": "Music and sound design in ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1v748kr",
+   "en": "Generic Focus Trees"
+  },
+  {
+   "k": "17o6ffl",
+   "en": "Generic Focus trees and DDR mat support"
+  },
+  {
+   "k": "1ejkbq0",
+   "en": "Nukes!"
+  },
+  {
+   "k": "k5mqx1",
+   "en": "Atomic bomb - Research and requirements for production and use"
+  },
+  {
+   "k": "1hulgbj",
+   "en": "Naval Invasions"
+  },
+  {
+   "k": "110t6g2",
+   "en": "How naval invasions work"
+  },
+  {
+   "k": "15auucw",
+   "en": "China"
+  },
+  {
+   "k": "vx9rns",
+   "en": "Overview of China"
+  },
+  {
+   "k": "vcugn7",
+   "en": "United Kingdom"
+  },
+  {
+   "k": "1ywfy7d",
+   "en": "Overview of UK"
+  },
+  {
+   "k": "1j8xvr7",
+   "en": "Battle Plans"
+  },
+  {
+   "k": "eul5da",
+   "en": "How battle plans work"
+  },
+  {
+   "k": "vnbr0w",
+   "en": "Occupation and Resistance"
+  },
+  {
+   "k": "1l8i6lx",
+   "en": "Managing occupied territory"
+  },
+  {
+   "k": "ubjwf0",
+   "en": "Diplomacy and other options"
+  },
+  {
+   "k": "1ad9ngw",
+   "en": "Diplomacy, Factions, War Goals, ... also: HOI4 is now in BETA"
+  },
+  {
+   "k": "193rgu3",
+   "en": "Japan"
+  },
+  {
+   "k": "1bjmwmb",
+   "en": "Overview of Japan"
+  },
+  {
+   "k": "p1qxfl",
+   "en": "Order of Command"
+  },
+  {
+   "k": "1dr3y28",
+   "en": "OOC and Commander traits"
+  },
+  {
+   "k": "1t19aqi",
+   "en": "Changes to the game"
+  },
+  {
+   "k": "e96z6s",
+   "en": "Completely revised factory slots mechanic, World Tension, and other changes"
+  },
+  {
+   "k": "icbtsf",
+   "en": "The Radio"
+  },
+  {
+   "k": "elcxe4",
+   "en": "Radios, reinforce chance and radar stations"
+  },
+  {
+   "k": "1f7mwr0",
+   "en": "Submarines"
+  },
+  {
+   "k": "1uo45wb",
+   "en": "How submarines work"
+  },
+  {
+   "k": "pk26rl",
+   "en": "Carrier Warfare"
+  },
+  {
+   "k": "124e8ub",
+   "en": "How aircraft carriers work"
+  },
+  {
+   "k": "8z0d1q",
+   "en": "Helping out in other wars"
+  },
+  {
+   "k": "1yp8yxx",
+   "en": "Helping out in other countries wars without directly getting involved"
+  },
+  {
+   "k": "alybni",
+   "en": "Germany"
+  },
+  {
+   "k": "su8unq",
+   "en": "Overview of Germany"
+  },
+  {
+   "k": "3t299v",
+   "en": "Civil Wars"
+  },
+  {
+   "k": "103vryy",
+   "en": "Civil wars and coups"
+  },
+  {
+   "k": "1oy2zwu",
+   "en": "Supply"
+  },
+  {
+   "k": "1xjl87e",
+   "en": "The supply system and supply areas"
+  },
+  {
+   "k": "17iszpv",
+   "en": "The USA"
+  },
+  {
+   "k": "1g14pio",
+   "en": "Overview of USA"
+  },
+  {
+   "k": "gj4j4e",
+   "en": "Peace Conferences"
+  },
+  {
+   "k": "y5c929",
+   "en": "Ending wars"
+  },
+  {
+   "k": "y6f35m",
+   "en": "France"
+  },
+  {
+   "k": "13zetj6",
+   "en": "Overview of France"
+  },
+  {
+   "k": "ej0b3o",
+   "en": "Factions & Wargoals"
+  }
+ ]
+}

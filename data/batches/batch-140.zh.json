@@ -1,0 +1,957 @@
+{
+ "batch": 140,
+ "items": [
+  {
+   "k": "zizlsk",
+   "zh": "游戏规则列表 以下游戏规则可作为选项： 内部名称 本地化名称 备注 can_access_market 可访问国际市场（傀儡国与宗主国始终可以访问彼此的市场） can_be_spymaster 可成为间谍大师 can_boost_other_ideologies 可提升其他意识形态的支持率 can_boost_own_ideology 可提升本国政党在其他国家的支持率 can_create_collaboration_government 可建立合作政府 can_create_factions 可创建阵营 can_declare_war_on_same_ideology 可在没有战争目标的情况下向同一意识形态组的国家宣战 can_declare_war_without_wargoal_when_in_war 在与主要国家交战时，可在没有战争目标的情况下向邻国宣战 can_decline_call_to_war 可拒绝参战号召 can_force_government 可迫使其他国家政府采纳相同意识形态 can_generate_female_aces 允许本国女性成为军事飞行员 can_generate_female_country_leaders 可生成女性国家领袖 can_generate_female_unit_leaders 可生成女性部队指挥官 can_guarantee_other_ideologies 可保障其他意识形态 can_join_factions 可加入阵营 can_join_factions_not_allowed_diplomacy 国家名称不被允许加入阵营 can_join_opposite_factions 可加入由其他意识形态领导的阵营 can_lower_tension 通过保障独立降低世界紧张度 can_not_build_buildings CAN_NOT_BUILD_BUILDINGS 似乎不起作用。 can_not_declare_war 无法宣战 阻止制造战争目标，但不阻止使用已有战争目标。 can_occupy_non_war 可占据未与其交战的国家所拥有的领土 can_only_justify_war_on_threat_country 可对没有产生世界紧张度的国家制造战争目标 can_puppet 可将一个国家变为傀儡国 can_send_volunteers 可派遣志愿军 can_use_kamikaze_pilots 可使用神风飞行员 contributes_operatives 向间谍大师提供特工：是 仅对附庸国生效。 units_deployed_to_overlord 已部署部队的控制权归宗主国 仅对附庸国生效。"
+  },
+  {
+   "k": "z3tatx",
+   "zh": "游戏规则列表"
+  },
+  {
+   "k": "1ojc642",
+   "zh": "以下游戏规则可作为选项： 内部名称 本地化名称 备注 can_access_market 可访问国际市场（傀儡国与宗主国始终可以访问彼此的市场） can_be_spymaster 可成为间谍大师 can_boost_other_ideologies 可提升其他意识形态的支持率 can_boost_own_ideology 可提升本国政党在其他国家的支持率 can_create_collaboration_government 可建立合作政府 can_create_factions 可创建阵营 can_declare_war_on_same_ideology 可在没有战争目标的情况下向同一意识形态组的国家宣战 can_declare_war_without_wargoal_when_in_war 在与主要国家交战时，可在没有战争目标的情况下向邻国宣战 can_decline_call_to_war 可拒绝参战号召 can_force_government 可迫使其他国家政府采纳相同意识形态 can_generate_female_aces 允许本国女性成为军事飞行员 can_generate_female_country_leaders 可生成女性国家领袖 can_generate_female_unit_leaders 可生成女性部队指挥官 can_guarantee_other_ideologies 可保障其他意识形态 can_join_factions 可加入阵营 can_join_factions_not_allowed_diplomacy 国家名称不被允许加入阵营 can_join_opposite_factions 可加入由其他意识形态领导的阵营 can_lower_tension 通过保障独立降低世界紧张度 can_not_build_buildings CAN_NOT_BUILD_BUILDINGS 似乎不起作用。 can_not_declare_war 无法宣战 阻止制造战争目标，但不阻止使用已有战争目标。 can_occupy_non_war 可占据未与其交战的国家所拥有的领土 can_only_justify_war_on_threat_country 可对没有产生世界紧张度的国家制造战争目标 can_puppet 可将一个国家变为傀儡国 can_send_volunteers 可派遣志愿军 can_use_kamikaze_pilots 可使用神风飞行员 contributes_operatives 向间谍大师提供特工：是 仅对附庸国生效。 units_deployed_to_overlord 已部署部队的控制权归宗主国 仅对附庸国生效。"
+  },
+  {
+   "k": "1i8ib9f",
+   "zh": "内部名称"
+  },
+  {
+   "k": "1r2jfvc",
+   "zh": "本地化名称"
+  },
+  {
+   "k": "ysd05d",
+   "zh": "can_access_market"
+  },
+  {
+   "k": "1rt6t9s",
+   "zh": "可访问国际市场（⟦0⟧与⟦1⟧始终可以访问彼此的市场）"
+  },
+  {
+   "k": "lq1vxw",
+   "zh": "傀儡国"
+  },
+  {
+   "k": "seq10d",
+   "zh": "宗主国"
+  },
+  {
+   "k": "euy81c",
+   "zh": "can_be_spymaster"
+  },
+  {
+   "k": "bjrqau",
+   "zh": "可成为间谍大师"
+  },
+  {
+   "k": "wbdy9d",
+   "zh": "can_boost_other_ideologies"
+  },
+  {
+   "k": "1kxo3sk",
+   "zh": "可提升其他意识形态的支持率"
+  },
+  {
+   "k": "zubfjv",
+   "zh": "can_boost_own_ideology"
+  },
+  {
+   "k": "36f7tg",
+   "zh": "可提升本国政党在其他国家的支持率"
+  },
+  {
+   "k": "190hafy",
+   "zh": "can_create_collaboration_government"
+  },
+  {
+   "k": "1d9y00u",
+   "zh": "可建立合作政府"
+  },
+  {
+   "k": "o23f72",
+   "zh": "can_create_factions"
+  },
+  {
+   "k": "18y7irc",
+   "zh": "可创建阵营"
+  },
+  {
+   "k": "f87qmb",
+   "zh": "can_declare_war_on_same_ideology"
+  },
+  {
+   "k": "1r9kzc6",
+   "zh": "可在没有战争目标的情况下向同一意识形态组的国家宣战"
+  },
+  {
+   "k": "146u0j8",
+   "zh": "can_declare_war_without_wargoal_when_in_war"
+  },
+  {
+   "k": "14kvbu2",
+   "zh": "在与主要国家交战时，可在没有战争目标的情况下向邻国宣战"
+  },
+  {
+   "k": "16ymnae",
+   "zh": "can_decline_call_to_war"
+  },
+  {
+   "k": "10gxgc0",
+   "zh": "可拒绝参战号召"
+  },
+  {
+   "k": "ki8wnh",
+   "zh": "can_force_government"
+  },
+  {
+   "k": "6fsg1n",
+   "zh": "可迫使其他国家政府采纳相同意识形态"
+  },
+  {
+   "k": "1d1j773",
+   "zh": "can_generate_female_aces"
+  },
+  {
+   "k": "1q068xf",
+   "zh": "允许本国女性成为军事飞行员"
+  },
+  {
+   "k": "18ftglu",
+   "zh": "can_generate_female_country_leaders"
+  },
+  {
+   "k": "1hb2v14",
+   "zh": "可生成女性国家领袖"
+  },
+  {
+   "k": "1y1aq6s",
+   "zh": "can_generate_female_unit_leaders"
+  },
+  {
+   "k": "6uxi64",
+   "zh": "可生成女性部队指挥官"
+  },
+  {
+   "k": "15tjnea",
+   "zh": "can_guarantee_other_ideologies"
+  },
+  {
+   "k": "1fni33n",
+   "zh": "可保障其他意识形态"
+  },
+  {
+   "k": "kmsa9q",
+   "zh": "can_join_factions"
+  },
+  {
+   "k": "1diowfk",
+   "zh": "可加入阵营"
+  },
+  {
+   "k": "1hif8f6",
+   "zh": "can_join_factions_not_allowed_diplomacy"
+  },
+  {
+   "k": "a60x4n",
+   "zh": "⟦0⟧不被允许加入阵营"
+  },
+  {
+   "k": "1i83cvm",
+   "zh": "国家名称"
+  },
+  {
+   "k": "dorzii",
+   "zh": "can_join_opposite_factions"
+  },
+  {
+   "k": "1nb868j",
+   "zh": "可加入由其他意识形态领导的阵营"
+  },
+  {
+   "k": "171ceqe",
+   "zh": "can_lower_tension"
+  },
+  {
+   "k": "qx9ssm",
+   "zh": "通过保障独立降低世界紧张度"
+  },
+  {
+   "k": "72n4cm",
+   "zh": "can_not_build_buildings"
+  },
+  {
+   "k": "17pk406",
+   "zh": "CAN_NOT_BUILD_BUILDINGS"
+  },
+  {
+   "k": "1n220lf",
+   "zh": "似乎不起作用。"
+  },
+  {
+   "k": "16zd87n",
+   "zh": "can_not_declare_war"
+  },
+  {
+   "k": "1545cax",
+   "zh": "无法宣战"
+  },
+  {
+   "k": "wh6asu",
+   "zh": "阻止制造战争目标，但不阻止使用已有战争目标。"
+  },
+  {
+   "k": "72qyri",
+   "zh": "can_occupy_non_war"
+  },
+  {
+   "k": "vonqk5",
+   "zh": "可占据未与其交战的国家所拥有的领土"
+  },
+  {
+   "k": "vc1vzu",
+   "zh": "can_only_justify_war_on_threat_country"
+  },
+  {
+   "k": "1c9uoyy",
+   "zh": "可对没有产生世界紧张度的国家制造战争目标"
+  },
+  {
+   "k": "aha2nw",
+   "zh": "can_puppet"
+  },
+  {
+   "k": "z5o600",
+   "zh": "可将一个国家变为傀儡国"
+  },
+  {
+   "k": "elvyfm",
+   "zh": "can_send_volunteers"
+  },
+  {
+   "k": "zv0y4p",
+   "zh": "可派遣志愿军"
+  },
+  {
+   "k": "uy8kup",
+   "zh": "can_use_kamikaze_pilots"
+  },
+  {
+   "k": "cxwytw",
+   "zh": "可使用神风飞行员"
+  },
+  {
+   "k": "1bjn3w6",
+   "zh": "contributes_operatives"
+  },
+  {
+   "k": "12zz5pp",
+   "zh": "向间谍大师提供特工：是"
+  },
+  {
+   "k": "1jo0ac1",
+   "zh": "仅对附庸国生效。"
+  },
+  {
+   "k": "101k4rv",
+   "zh": "units_deployed_to_overlord"
+  },
+  {
+   "k": "15tuyrb",
+   "zh": "已部署部队的控制权归宗主国"
+  },
+  {
+   "k": "mfypqr",
+   "zh": "set_party_rule"
+  },
+  {
+   "k": "1uhljay",
+   "zh": "⟦0⟧ 政党的意识形态组。desc = <localisation key> 用于该规则的描述。可选，默认为与 default 相同。<rule> = <bool> 规则的新值。"
+  },
+  {
+   "k": "q6e9tx",
+   "zh": "ideology = <ideology group>"
+  },
+  {
+   "k": "z0amgs",
+   "zh": "<rule> = <bool>"
+  },
+  {
+   "k": "64kr4e",
+   "zh": "set_party_rule = { ideology = democratic desc = TAG_my_rule_description can_create_factions = yes }"
+  },
+  {
+   "k": "rv4h6j",
+   "zh": "切换当前作用域政党专属游戏规则。"
+  },
+  {
+   "k": "m7kr71",
+   "zh": "add_relation_rule_override"
+  },
+  {
+   "k": "towi1v",
+   "zh": "⟦0⟧ 规则的目标。usage_desc = <localisation key> 用作该规则生效原因的说明。可选。trigger = <scripted trigger> 决定该覆盖何时生效的脚本化触发器。可选，默认为始终为真。<rule> = <bool> 规则的新值。"
+  },
+  {
+   "k": "1b9en9r",
+   "zh": "target = <country>"
+  },
+  {
+   "k": "1m5xte6",
+   "zh": "usage_desc = <localisation key>"
+  },
+  {
+   "k": "1caguu0",
+   "zh": "trigger = <scripted trigger>"
+  },
+  {
+   "k": "s2mw13",
+   "zh": "脚本化触发器"
+  },
+  {
+   "k": "1wiivag",
+   "zh": "add_relation_rule_override = { target = SOV usage_desc = TAG_my_rule_description trigger = my_scripted_trigger can_access_market = yes }"
+  },
+  {
+   "k": "ffczjm",
+   "zh": "在满足触发器条件时，仅针对指定国家切换当前作用域在外交中的专属游戏规则。"
+  },
+  {
+   "k": "xm2xud",
+   "zh": "目前支持 ⟦0⟧ 与 ⟦1⟧。若出现重叠，优先采用限制行动的一方（例如 ⟦2⟧ 或 ⟦3⟧ 优先于对应的替代项）。在脚本化触发器中，⟦4⟧ 是拥有该覆盖的国家，⟦5⟧ 是目标。"
+  },
+  {
+   "k": "1jlcxxk",
+   "zh": "can_send_volunteers = no"
+  },
+  {
+   "k": "1rta96n",
+   "zh": "can_not_declare_war = yes"
+  },
+  {
+   "k": "1cdh77a",
+   "zh": "remove_relation_rule_override"
+  },
+  {
+   "k": "11j4djl",
+   "zh": "⟦0⟧ 规则的目标。usage_desc = <localisation key> 用作该规则生效原因的说明。可选。trigger = <scripted trigger> 用于识别该关系规则的脚本化触发器。<rule> = <bool> 规则的新值。"
+  },
+  {
+   "k": "bgrike",
+   "zh": "remove_relation_rule_override = { target = SOV usage_desc = TAG_my_rule_description can_access_market = yes }"
+  },
+  {
+   "k": "1v9vt76",
+   "zh": "移除通过 ⟦0⟧ 添加的切换项。"
+  },
+  {
+   "k": "15t4j5l",
+   "zh": "scoped_sound_effect = \"boom\""
+  },
+  {
+   "k": "1h3yjwa",
+   "zh": "仅对当前国家播放一次指定音效。"
+  },
+  {
+   "k": "w9mj0i",
+   "zh": "音效必须在 ⟦0⟧ 中正确定义。更多信息见 ⟦1⟧ 条目。"
+  },
+  {
+   "k": "6g9ou8",
+   "zh": "scoped_play_song = \"general_peace_1\""
+  },
+  {
+   "k": "cdtm5m",
+   "zh": "仅对指定国家播放一段音乐。"
+  },
+  {
+   "k": "1lw7xfh",
+   "zh": "歌曲必须定义在音乐电台中才能生效。更多信息见 ⟦0⟧ 页面。若只想播放音效，应改用 scoped_sound_effect 效果。"
+  },
+  {
+   "k": "1js497z",
+   "zh": "goto_province"
+  },
+  {
+   "k": "1qcqvl1",
+   "zh": "⟦0⟧ 要跳转到的省份 id。"
+  },
+  {
+   "k": "1iubvwc",
+   "zh": "goto_province = 325"
+  },
+  {
+   "k": "sk8ww1",
+   "zh": "将镜头移动到指定省份。"
+  },
+  {
+   "k": "1unzsm4",
+   "zh": "goto_state"
+  },
+  {
+   "k": "6oy69u",
+   "zh": "⟦0⟧ 要跳转到的州 id。"
+  },
+  {
+   "k": "yxu5x7",
+   "zh": "<state> / <variable>"
+  },
+  {
+   "k": "1jbxfa5",
+   "zh": "goto_state = 1 goto_state = var:some_state"
+  },
+  {
+   "k": "tloo54",
+   "zh": "将镜头移动到指定州。"
+  },
+  {
+   "k": "1pmpmh3",
+   "zh": "change_tag_from"
+  },
+  {
+   "k": "ker23c",
+   "zh": "⟦0⟧ 要变更出的国家。"
+  },
+  {
+   "k": "1u78ahk",
+   "zh": "<country> / <variable>"
+  },
+  {
+   "k": "i6zse8",
+   "zh": "change_tag_from = ROOT change_tag_from = var:from.country"
+  },
+  {
+   "k": "x9gmk8",
+   "zh": "将玩家从目标作用域切换为当前作用域。若目标作用域由 AI 控制，则不会发生任何变化。"
+  },
+  {
+   "k": "1jyd34f",
+   "zh": "⟦0⟧ 例如，⟦1⟧ 会让控制 XYZ 的玩家改为扮演 ABC。"
+  },
+  {
+   "k": "d6f5lp",
+   "zh": "玩家将要扮演的国家必须是使用该指令的作用域。"
+  },
+  {
+   "k": "108bnpu",
+   "zh": "ABC = { change_tag_from = XYZ }"
+  },
+  {
+   "k": "1cu30jo",
+   "zh": "reserve_dynamic_country"
+  },
+  {
+   "k": "afa6ro",
+   "zh": "reserve_dynamic_country = yes"
+  },
+  {
+   "k": "pveou0",
+   "zh": "保留动态国家，确保即使它不存在也不会被内战回收复用。"
+  },
+  {
+   "k": "hlqvem",
+   "zh": "通常与 ⟦0⟧ 配合使用。"
+  },
+  {
+   "k": "e9cmu1",
+   "zh": "force_update_map_mode"
+  },
+  {
+   "k": "u6fxjc",
+   "zh": "⟦0⟧ 地图模式刷新所需的触发器。可选。mapmode = <id> 自定义地图模式的 ID。"
+  },
+  {
+   "k": "1i1ybzr",
+   "zh": "limit = { ... }"
+  },
+  {
+   "k": "1rv7m2e",
+   "zh": "mapmode = <id>"
+  },
+  {
+   "k": "gkbwlk",
+   "zh": "force_update_map_mode = { limit = { is_ai = no } mapmode = my_map_mode }"
+  },
+  {
+   "k": "1e95tsu",
+   "zh": "为玩家强制刷新指定地图模式，而不必等待每日更新。"
+  },
+  {
+   "k": "dy48ri",
+   "zh": "地图模式定义于 ⟦0⟧"
+  },
+  {
+   "k": "lszkee",
+   "zh": "/Hearts of Iron IV/common/map_modes/*.txt"
+  },
+  {
+   "k": "120pump",
+   "zh": "add_ai_strategy"
+  },
+  {
+   "k": "1xlcus9",
+   "zh": "⟦0⟧ 策略的类型。id = <country> 该策略针对哪个国家。value = <int> 该策略增加的权重。"
+  },
+  {
+   "k": "1gi0hdg",
+   "zh": "type = <type>"
+  },
+  {
+   "k": "fmulrb",
+   "zh": "id = <country>"
+  },
+  {
+   "k": "6yg1ca",
+   "zh": "add_ai_strategy = { type = alliance id = GER value = 200 }"
+  },
+  {
+   "k": "ogstxl",
+   "zh": "为当前作用域设置 AI 策略。"
+  },
+  {
+   "k": "11y4n7",
+   "zh": "更多详情见 ⟦0⟧。"
+  },
+  {
+   "k": "o7mkz",
+   "zh": "AI 模组制作"
+  },
+  {
+   "k": "y9pz2x",
+   "zh": "⟦0⟧ 该国家使用的原始 tag。copy_tag = <tag> 若指定，则从此 tag 而非原始 tag 复制内容。<effects> 将在新动态国家上执行的效果。"
+  },
+  {
+   "k": "sgfvnw",
+   "zh": "original_tag = <tag>"
+  },
+  {
+   "k": "hpglku",
+   "zh": "copy_tag = <tag>"
+  },
+  {
+   "k": "1v03kiz",
+   "zh": "<effects>"
+  },
+  {
+   "k": "73wcfh",
+   "zh": "create_dynamic_country = { original_tag = POL copy_tag = SOV add_political_power = 100 transfer_state = 123 }"
+  },
+  {
+   "k": "141trol",
+   "zh": "创建一个新的动态国家，类似内战中使用的那些。"
+  },
+  {
+   "k": "17ouvj5",
+   "zh": "若动态国家尚不存在，可使用 ⟦0⟧ 效果来确保它不会被其他动态国家的创建覆盖。若不这样做，且在同一作用域内没有转移任何州，该动态国家将立即停止存在。原始国家的每个州都会立即被设为该动态国家的核心：若不需要，则需要在创建后移除这些核心。"
+  },
+  {
+   "k": "5afzz",
+   "zh": "州"
+  },
+  {
+   "k": "rmu85c",
+   "zh": "这些效果特别是与州相关的、以国家为作用域的效果，而非州作用域内的效果。"
+  },
+  {
+   "k": "3qd1pj",
+   "zh": "与州相关的国家作用域效果："
+  },
+  {
+   "k": "j22fj0",
+   "zh": "add_state_core"
+  },
+  {
+   "k": "uawwvm",
+   "zh": "⟦0⟧ 要添加核心的州。"
+  },
+  {
+   "k": "d3eptl",
+   "zh": "add_state_core = 345"
+  },
+  {
+   "k": "d82p9h",
+   "zh": "为指定州添加当前作用域的核心。"
+  },
+  {
+   "k": "1pj82jv",
+   "zh": "remove_state_core"
+  },
+  {
+   "k": "1pg8aji",
+   "zh": "⟦0⟧ 要移除核心的州。"
+  },
+  {
+   "k": "1baz24q",
+   "zh": "remove_state_core = 345"
+  },
+  {
+   "k": "1en244d",
+   "zh": "从指定州移除当前作用域的核心。"
+  },
+  {
+   "k": "1kg6e8c",
+   "zh": "set_capital"
+  },
+  {
+   "k": "t4j2ju",
+   "zh": "⟦0⟧ 要设为首都的州。remember_old_capital = no 是否「记住」旧首都，以便在当前首都失守时改回旧首都。"
+  },
+  {
+   "k": "1nuhycx",
+   "zh": "state = <state> / <variable>"
+  },
+  {
+   "k": "17er4mz",
+   "zh": "remember_old_capital = no"
+  },
+  {
+   "k": "1i88icf",
+   "zh": "set_capital = {state = 345} set_capital = { state = 345 remember_old_capital = no }"
+  },
+  {
+   "k": "10ys4et",
+   "zh": "将指定州设为当前作用域的首都州。"
+  },
+  {
+   "k": "1uvfzc9",
+   "zh": "语法在 1.11 中已更改。以前为「set_capital = 345」。如未另行指定，旧首都将被记住。"
+  },
+  {
+   "k": "1qdtabd",
+   "zh": "add_state_claim"
+  },
+  {
+   "k": "12zc0f2",
+   "zh": "⟦0⟧ 要添加宣称的州。"
+  },
+  {
+   "k": "owsyx8",
+   "zh": "add_state_claim = 345"
+  },
+  {
+   "k": "u1013q",
+   "zh": "为当前作用域添加对指定州的宣称。"
+  },
+  {
+   "k": "idgtm8",
+   "zh": "remove_state_claim"
+  },
+  {
+   "k": "1ji1q3o",
+   "zh": "⟦0⟧ 要移除宣称的州。"
+  },
+  {
+   "k": "1wg0939",
+   "zh": "remove_state_claim = 345"
+  },
+  {
+   "k": "zvjzle",
+   "zh": "移除当前作用域对指定州的宣称。"
+  },
+  {
+   "k": "7o51jx",
+   "zh": "set_state_owner"
+  },
+  {
+   "k": "iq7ji5",
+   "zh": "⟦0⟧ 要变更所有权的州。"
+  },
+  {
+   "k": "nyk3dk",
+   "zh": "set_state_owner = 345"
+  },
+  {
+   "k": "uqa42j",
+   "zh": "使当前作用域成为指定州的所有者。"
+  },
+  {
+   "k": "16ati6i",
+   "zh": "这可能无法一并转移控制权，因此除非只想转移所有权而不转移控制权，建议改用 ⟦0⟧。"
+  },
+  {
+   "k": "1gau7wc",
+   "zh": "transfer_state"
+  },
+  {
+   "k": "1ubq7yy",
+   "zh": "set_state_controller"
+  },
+  {
+   "k": "zg08om",
+   "zh": "⟦0⟧ 要变更控制者的州。"
+  },
+  {
+   "k": "ony9f7",
+   "zh": "set_state_controller = 345"
+  },
+  {
+   "k": "8k4a2e",
+   "zh": "使当前作用域成为指定州的控制者。"
+  },
+  {
+   "k": "1xs7fl6",
+   "zh": "add_contested_owner"
+  },
+  {
+   "k": "16fdojk",
+   "zh": "⟦0⟧ 要争夺的州。"
+  },
+  {
+   "k": "1qea93x",
+   "zh": "add_contested_owner = 42"
+  },
+  {
+   "k": "1se50po",
+   "zh": "为州添加争夺所有者。该效果既可在国家作用域使用，也可在州作用域使用，并接受另一方作为参数。"
+  },
+  {
+   "k": "ezwwe",
+   "zh": "也可在州作用域使用。"
+  },
+  {
+   "k": "1n2joff",
+   "zh": "remove_contested_owner"
+  },
+  {
+   "k": "1bqx97w",
+   "zh": "⟦0⟧ 要停止争夺的州。"
+  },
+  {
+   "k": "qpaqby",
+   "zh": "remove_contested_owner = 42"
+  },
+  {
+   "k": "f2uw7r",
+   "zh": "移除州的一个争夺所有者。该效果既可在国家作用域使用，也可在州作用域使用，并接受另一方作为参数。"
+  },
+  {
+   "k": "qjqiu0",
+   "zh": "⟦0⟧ 要变更所有者和控制者的州。"
+  },
+  {
+   "k": "1a4atqx",
+   "zh": "transfer_state = 345"
+  },
+  {
+   "k": "1c1wb2w",
+   "zh": "使当前作用域成为指定州的所有者和控制者。"
+  },
+  {
+   "k": "1cqzn72",
+   "zh": "⟦0⟧ 存在州作用域的变体。"
+  },
+  {
+   "k": "178zdyg",
+   "zh": "transfer_state_to"
+  },
+  {
+   "k": "4wnril",
+   "zh": "set_province_controller"
+  },
+  {
+   "k": "11l2q7r",
+   "zh": "⟦0⟧ 要变更控制者的省份。"
+  },
+  {
+   "k": "1yjnplx",
+   "zh": "set_province_controller = 2999"
+  },
+  {
+   "k": "1l9t95w",
+   "zh": "将指定省份的控制者变更为当前作用域。"
+  },
+  {
+   "k": "1ly9ubi",
+   "zh": "和平会议或控制者处于和平状态时，会把该省份的控制权重置为所有者，除非控制者正与所有者交战。"
+  },
+  {
+   "k": "hvziui",
+   "zh": "Mana"
+  },
+  {
+   "k": "awc4ns",
+   "zh": "此处的 Mana 指政治点数、稳定度、战争支持度以及顶栏中的其他数值。燃料则位于 ⟦0⟧ 中，而运输船队可通过 ⟦1⟧ 添加或移除。"
+  },
+  {
+   "k": "1ke4h7d",
+   "zh": "资源栏"
+  },
+  {
+   "k": "1ivu5u0",
+   "zh": "add_equipment_to_stockpile"
+  },
+  {
+   "k": "nnxjgj",
+   "zh": "与 Mana 相关的国家作用域效果："
+  },
+  {
+   "k": "14ryytq",
+   "zh": "add_political_power"
+  },
+  {
+   "k": "t37vh9",
+   "zh": "⟦0⟧ 要添加的数量。"
+  },
+  {
+   "k": "15plyxf",
+   "zh": "<int> / <variable>"
+  },
+  {
+   "k": "169mj79",
+   "zh": "add_political_power = 100 add_political_power = var:my_var"
+  },
+  {
+   "k": "1e4mhsk",
+   "zh": "为当前作用域添加指定数量的政治点数。"
+  },
+  {
+   "k": "1otl6ed",
+   "zh": "set_political_power"
+  },
+  {
+   "k": "12mb7c1",
+   "zh": "set_political_power = 100"
+  },
+  {
+   "k": "4jv8an",
+   "zh": "将当前作用域的政治点数设为指定数量。"
+  },
+  {
+   "k": "qu7p9w",
+   "zh": "add_stability"
+  },
+  {
+   "k": "1kzx1ne",
+   "zh": "add_stability = 0.1"
+  },
+  {
+   "k": "mrrab7",
+   "zh": "增加当前作用域的稳定度数值。"
+  },
+  {
+   "k": "d263c4",
+   "zh": "稳定度数值介于 0 与 1 之间。"
+  },
+  {
+   "k": "1s4bfmn",
+   "zh": "set_stability"
+  },
+  {
+   "k": "pnpn4d",
+   "zh": "set_stability = 0.5"
+  },
+  {
+   "k": "1vcofz9",
+   "zh": "设置当前作用域的稳定度数值。"
+  },
+  {
+   "k": "h1pfax",
+   "zh": "add_war_support"
+  },
+  {
+   "k": "1hfybcv",
+   "zh": "add_war_support = 0.1"
+  },
+  {
+   "k": "1bc77mx",
+   "zh": "增加当前作用域的战争支持度数值。"
+  },
+  {
+   "k": "1hy2rse",
+   "zh": "战争支持度数值介于 0 与 1 之间。"
+  },
+  {
+   "k": "4x7wzy",
+   "zh": "set_war_support"
+  },
+  {
+   "k": "1jd0cjg",
+   "zh": "⟦0⟧ 要设置的数量。"
+  },
+  {
+   "k": "1thq50k",
+   "zh": "set_war_support = 0.5"
+  },
+  {
+   "k": "12i28wf",
+   "zh": "设置当前作用域的战争支持度数值。"
+  },
+  {
+   "k": "neasg4",
+   "zh": "add_command_power"
+  },
+  {
+   "k": "1h9q8l4",
+   "zh": "add_command_power = 100"
+  },
+  {
+   "k": "1w36ewu",
+   "zh": "为当前作用域添加指定数量的指挥点数。"
+  },
+  {
+   "k": "11rde5g",
+   "zh": "add_manpower"
+  },
+  {
+   "k": "b5kvan",
+   "zh": "add_manpower = 100000 add_manpower = var:my_var"
+  },
+  {
+   "k": "xjx4c1",
+   "zh": "为当前作用域添加指定数量的人力。"
+  },
+  {
+   "k": "obhf4t",
+   "zh": "army_experience"
+  },
+  {
+   "k": "1gb6aoc",
+   "zh": "<float> / <variable>"
+  },
+  {
+   "k": "1kwyw9v",
+   "zh": "army_experience = 10"
+  },
+  {
+   "k": "yt8ohx",
+   "zh": "为当前作用域添加指定数量的陆军经验。"
+  },
+  {
+   "k": "zuhvpm",
+   "zh": "navy_experience"
+  },
+  {
+   "k": "v6440a",
+   "zh": "navy_experience = 10"
+  },
+  {
+   "k": "7exx2m",
+   "zh": "为当前作用域添加指定数量的海军经验。"
+  },
+  {
+   "k": "1tz2u84",
+   "zh": "air_experience"
+  },
+  {
+   "k": "9arhnc",
+   "zh": "air_experience = 10"
+  },
+  {
+   "k": "wd2574",
+   "zh": "为当前作用域添加指定数量的空军经验。"
+  },
+  {
+   "k": "1d3wr3i",
+   "zh": "政治"
+  },
+  {
+   "k": "u3h3y7",
+   "zh": "政治类国家作用域效果："
+  },
+  {
+   "k": "17q0wen",
+   "zh": "set_politics"
+  }
+ ]
+}

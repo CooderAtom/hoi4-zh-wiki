@@ -1,0 +1,874 @@
+{
+ "batch": 992,
+ "pages": [
+  "Patch 1.11.X"
+ ],
+ "chars": 14725,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "2ropc8",
+   "en": "When loading a save from a lost ironman game, observer mode is loaded and ironman flag should be turned off."
+  },
+  {
+   "k": "172mhor",
+   "en": "Fixed script parser silently ignoring last line of a file if it didn't contain a newline"
+  },
+  {
+   "k": "f4pzpu",
+   "en": "Fix positioning of the Expand Polish Intelligence branch when Man the Guns is not active. Without MtG the focus Expand Polish Intelligence will no longer require the player to complete the (MtG DLC-locked) parent focus Prepare for the Inevitable."
+  },
+  {
+   "k": "oyt3e9",
+   "en": "Added newline at the end of equipment bonus tooltip"
+  },
+  {
+   "k": "w3f9mf",
+   "en": "Fixed George VI national spirit showing an advisor portrait instead of the regular national spirit portrait."
+  },
+  {
+   "k": "tp5sgr",
+   "en": "Hooked-in several NSB Baltic portraits for generals that were using generic ones."
+  },
+  {
+   "k": "ixud83",
+   "en": "Fix AI Queueing more railway upgrades than it intended"
+  },
+  {
+   "k": "xq24nz",
+   "en": "Fix allied task force local supply draw"
+  },
+  {
+   "k": "1xsl1b1",
+   "en": "fixed a reference to a missing German armor 3d model (this should not alter any 3d assets being displayed, just cleaned up the error log)"
+  },
+  {
+   "k": "t0v2j7",
+   "en": "Fixed issue where Generals, Field Marshals and Admirals were not being transfered when annexing through Polish and Lithuanian monarchist events."
+  },
+  {
+   "k": "dlrcqb",
+   "en": "Made it less likely that The Soviet Union partitions Poland with Lithuania if Lithuania is AI, and even less likely if Poland is controlled by the player."
+  },
+  {
+   "k": "164v55k",
+   "en": "Spanish generals should again be able to properly pick a side when the Civil War starts"
+  },
+  {
+   "k": "1mnlclt",
+   "en": "Fixed exploit which allowed circumvention of the building removal cooldown effective while at war."
+  },
+  {
+   "k": "32rpld",
+   "en": "Adapt assignable trait skilled_staffer so field marshals can also gain xp in that trait."
+  },
+  {
+   "k": "mzu5sq",
+   "en": "Air Supply now redistributes supply consumption to the hosting airbase."
+  },
+  {
+   "k": "ruyulk",
+   "en": "Fixed bugs with multiple air supply missions having zero effect.\""
+  },
+  {
+   "k": "1y6ptlz",
+   "en": "Soviet focuses will no longer grant tank designs if NSB is not active."
+  },
+  {
+   "k": "15khhrb",
+   "en": "Soviet focuses requiring certain armor tech will now check for the appropriate tech based on NSB being active or not."
+  },
+  {
+   "k": "1kim5h6",
+   "en": "German focus Danubian Membership will no longer be bypassed if only one of the countries is gone, a subject, or allied to Germany. It requires all three countries to fulfill one of those conditions in order to get bypassed."
+  },
+  {
+   "k": "kiq1ex",
+   "en": "Fixed supply network sometimes reporting no connection when shortest path traveled through an enemy province"
+  },
+  {
+   "k": "njvwue",
+   "en": "Added loc to an unlocalized Estonian country flag"
+  },
+  {
+   "k": "vpq63v",
+   "en": "Fixed continous focus exploit which allowed stacking modifiers"
+  },
+  {
+   "k": "pdmxzh",
+   "en": "In civil war process, when copying unit leaders, use the clone function rather than recreating the unit leader from template (some unit leaders do not have template). Also use the character merge mecanism for those copies too if the revolter country receiving those copies already have the character."
+  },
+  {
+   "k": "1rwefbe",
+   "en": "Fixed crash caused by invalid naval invasion order"
+  },
+  {
+   "k": "11zxzur",
+   "en": "Railway guns should no longer be able to end up in a naval invasion"
+  },
+  {
+   "k": "106xhj7",
+   "en": "Fixed crash caused by invalid province templates in mods during trade route computation"
+  },
+  {
+   "k": "lmn8r7",
+   "en": "Fixed CTD when playing tutorial videos or opening the ingame browser on DirectX 11"
+  },
+  {
+   "k": "1t8li5y",
+   "en": "Fixed Empire of Brazil being so much into Fascism"
+  },
+  {
+   "k": "zkzc3s",
+   "en": "Fixed inconsistencies with Dutch Wilhelmina national spirit portrait."
+  },
+  {
+   "k": "rq1n5w",
+   "en": "Fixed logistics strike mission not taking plane number into account correctly"
+  },
+  {
+   "k": "1d5uq70",
+   "en": "Soviet focus 'Committee in Exile' focus can now be bypassed if the Civil War is completed"
+  },
+  {
+   "k": "1xsee5g",
+   "en": "Modifiers from propaganda campaigns are now properly cleared when Soviet Union capitulates."
+  },
+  {
+   "k": "1i42i6p",
+   "en": "Emilio Mola will no longer be retired after completing the focus The National-Syndicalist State, he will just drop his country leader roles but will keep his advisor and unit leader roles."
+  },
+  {
+   "k": "1tdw1iq",
+   "en": "Swapped Soviet armored cars I and II in the tech tree."
+  },
+  {
+   "k": "1xuwd06",
+   "en": "Communist support threshold to complete Estonian focus Break the Silence has been increased to be less than 5% (instead of less than 1%)"
+  },
+  {
+   "k": "7nd0hb",
+   "en": "Fixed several character issues with Spanish Falangists in the focus tree. Emilio Mola and Primo de Rivera should be properly handled now and will no longer be literally killed in order to allow the other to take over as country leader."
+  },
+  {
+   "k": "2c75qd",
+   "en": "Capital supply connection graph will now prioritize shorter sea routes"
+  },
+  {
+   "k": "x6rd19",
+   "en": "Supply network now considers convoy availability and tries to prioritize throughput over unconditionally avoiding naval connections"
+  },
+  {
+   "k": "1tog3zx",
+   "en": "Naval Supply routes now respect blocked region flags."
+  },
+  {
+   "k": "1ybsq0x",
+   "en": "Fixed Patagonian lake being considered some sort of flooded plain aberration and prevented players from building nuclear reactors on it."
+  },
+  {
+   "k": "1i2qr51",
+   "en": "Fixed an issue that made it impossible for players to progress down the Vichy focus tree because a Petain imposter was in charge"
+  },
+  {
+   "k": "17xlrts",
+   "en": "German Air Innovations 2 now correctly reduces cost of air doctrines, rather than increasing research speed"
+  },
+  {
+   "k": "qyez8x",
+   "en": "Fixed some design company ideas not having bonuses shown on equipment stats page"
+  },
+  {
+   "k": "cyhbak",
+   "en": "Steal blueprints operation no longer gives access to locked out mutual exclude branches"
+  },
+  {
+   "k": "lx7yai",
+   "en": "Taskforces operating in a blocked naval region can draw supply from naval bases in that region"
+  },
+  {
+   "k": "e62jao",
+   "en": "Characters no longer get traits for other classes of characters from national spirits"
+  },
+  {
+   "k": "cz12fl",
+   "en": "Supply Network (and tooltips) now correctly factor in building damage when considering throughput"
+  },
+  {
+   "k": "8g2bwu",
+   "en": "Issuing a move command to a province the unit is already fighting in no longer resets combat"
+  },
+  {
+   "k": "pmhxvs",
+   "en": "Non-NSB tanks once again have their correct reliability (80%) across the board"
+  },
+  {
+   "k": "1bsjdjs",
+   "en": "Fix rail construction partial progress not getting saved correctly"
+  },
+  {
+   "k": "1793kaj",
+   "en": "The Turkish investment decisions should now actually work"
+  },
+  {
+   "k": "1adblik",
+   "en": "Fix British designers focus for baltics not giving correct air bonuses"
+  },
+  {
+   "k": "11q31fk",
+   "en": "Fix crash in any_navy_leader, all_navy_leader, any_army_leader, all_army_leader when there is no general/field marshal or no admiral in a country"
+  },
+  {
+   "k": "1f4zgl4",
+   "en": "Stalinist mission Behead the Snake should now properly kill Trotsky when the player is going opposition."
+  },
+  {
+   "k": "1grp62e",
+   "en": "Changed the Polish Focus 'Request Autonomous Status' so it can be bypassed if Poland is more than autonomous than a reichsprotectorate or integrated puppet."
+  },
+  {
+   "k": "xbj0we",
+   "en": "Fix so that Franco can use Nationalist Infantry Division names in 39"
+  },
+  {
+   "k": "ccs0k7",
+   "en": "Fix upgrade costs not being calculated consistently"
+  },
+  {
+   "k": "cl8zar",
+   "en": "Fixed issue where event for Poland dismissing Lithuania's claim to its throne is sent to the wrong country."
+  },
+  {
+   "k": "ap44ut",
+   "en": "Fixed issue where Poland's Ignacy Moscicki would have the legacy portrait instead of using the new one from NSB."
+  },
+  {
+   "k": "sywinq",
+   "en": "Rocket interceptors pilots don't consider themselves too cool for school anymore"
+  },
+  {
+   "k": "1wnq69z",
+   "en": "Toggling naval region access settings should no longer make captains panic when they reach a blocked zone and get stuck in place"
+  },
+  {
+   "k": "138qsh",
+   "en": "Rumors of TODOs in Soviet Stalinist missions flavor texts turned out to be counter-revolutionary propaganda. There never was any TODOs."
+  },
+  {
+   "k": "1k945j3",
+   "en": "Fix carrier based fighters sometimes not contributing to combat"
+  },
+  {
+   "k": "pkg27c",
+   "en": "Fixed CTD when renaming a railway gun variant."
+  },
+  {
+   "k": "1vs9lxl",
+   "en": "Patch 1.11.6 was released on 2022-02-14⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1i5dk8d",
+   "en": "630e"
+  },
+  {
+   "k": "19srifm",
+   "en": "Flattened tank chassis IC cost, raising earlier chassis by 10-20%, up to no change at later chassis."
+  },
+  {
+   "k": "n3g708",
+   "en": "Transport planes now cost fuel to run."
+  },
+  {
+   "k": "1bwocp",
+   "en": "Reduced truck damage from logistics strike mission by approx 30%, reduced train damage from logistics strike mission by approx 15%"
+  },
+  {
+   "k": "jxx51i",
+   "en": "Fixed dynamic modifiers not returning localized keys when supplied"
+  },
+  {
+   "k": "1dli4yw",
+   "en": "set_nationality effect will no longer check if the character is 'available' in the target country before transferring them"
+  },
+  {
+   "k": "1nwfb3r",
+   "en": "set_nationality on characters will no longer cause their owning country to reset to their original country on loading savegame. This addresses several CTDs and some unexpected behaviour"
+  },
+  {
+   "k": "1blvuqj",
+   "en": "Fixed OOS and other subtle issues caused by bad ordering of logistics stockpile in deployment logic"
+  },
+  {
+   "k": "1dyfccg",
+   "en": "Fixed CTD with mods that fire leaders without giving AI a proper 7 days notice period"
+  },
+  {
+   "k": "gaoyn5",
+   "en": "Liberal use of diplomatic_relation in script will not longer slowly corrupt memory, triggering random CTD and OOS"
+  },
+  {
+   "k": "xc5w68",
+   "en": "Fixed CTD when clicking on provinces with no owner (mods only)"
+  },
+  {
+   "k": "kl60uh",
+   "en": "Patch 1.11.7 was released on 2022-02-17⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "q49jlo",
+   "en": "98bf"
+  },
+  {
+   "k": "4f76ga",
+   "en": "Notes"
+  },
+  {
+   "k": "ezu5cc",
+   "en": "Added a Career Profile where players can view statistics about their playthrough"
+  },
+  {
+   "k": "tms7k",
+   "en": "Added promotion for the new DLC Subscription"
+  },
+  {
+   "k": "pgqq70",
+   "en": "Patch 1.11.8 was released on 2022-02-24⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "2kt602",
+   "en": "334c"
+  },
+  {
+   "k": "15q45we",
+   "en": "Added an option in the settings menu to disable cloud storage backup of your career profile statistics."
+  },
+  {
+   "k": "5t67qk",
+   "en": "Players that own most major DLCs should no longer see promotions for the DLC Subscription in the main menu."
+  },
+  {
+   "k": "1tdx9dj",
+   "en": "Fixed potential cloud storage issues for the career profile which could result in your statistics not being backed up."
+  },
+  {
+   "k": "2mg2mb",
+   "en": "Fixed a potential desync issue with statistics collection in multiplayer"
+  },
+  {
+   "k": "1vtlfm1",
+   "en": "Fixed the \"Civil wars\" stat collection for \"Battle for the Bosporus\" DLC."
+  },
+  {
+   "k": "cxni6v",
+   "en": "Patch 1.11.9 was released on 2022-03-10⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "hyide",
+   "en": "3f99"
+  },
+  {
+   "k": "earzgl",
+   "en": "Fixed some DX11 and OpenGL UI elements being 1 pixel off by making them incorrectly positioned the same way DX9 does"
+  },
+  {
+   "k": "1ayo8s6",
+   "en": "The game will no longer show an empty \"Modify Government\" alert when using hidden ideas"
+  },
+  {
+   "k": "17liicy",
+   "en": "Fixed CTD due to AI not being notified when a leader is removed from a country"
+  },
+  {
+   "k": "brqhdw",
+   "en": "Fixed adding or removing divisions to a general under a marshal not updating the marshal's abilities' effects"
+  },
+  {
+   "k": "ebhooo",
+   "en": "Fixed capping of the reliability value to 100% in the Tech Details view"
+  },
+  {
+   "k": "1i36dt7",
+   "en": "Fixed a bug where character traits would sometimes duplicate on level up."
+  },
+  {
+   "k": "1crkw2o",
+   "en": "Fixed Radio II XP cost for the tank designer being higher than intended"
+  },
+  {
+   "k": "keep4m",
+   "en": "Isoroku Yamamoto will no longer have an extra 'I' in his name"
+  },
+  {
+   "k": "di2ygs",
+   "en": "Fixed a rare issue where the Japanese coal liquification focus could fail to add a refinery"
+  },
+  {
+   "k": "1yxxww9",
+   "en": "Fixes to French career profile translation"
+  },
+  {
+   "k": "1lh4bt3",
+   "en": "Fixed typo in the communist party of Yugoslavia"
+  },
+  {
+   "k": "300hwm",
+   "en": "Patch 1.11.10 was released on 2022-04-07⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1eomyge",
+   "en": "09ac"
+  },
+  {
+   "k": "lgouop",
+   "en": "Added a bypass to the Free French \"Form the National Committee\" Focus to avoid blocking the player if they don't have 90 Legitimacy"
+  },
+  {
+   "k": "snuxd2",
+   "en": "Fixed a problem in British Alternate Strategy Plans when historical focuses are off without a specific strategy plan being selected"
+  },
+  {
+   "k": "1ofqx7k",
+   "en": "Fixed issue where Estonia and Latvia would not follow the historical focuses"
+  },
+  {
+   "k": "1uctojs",
+   "en": "Added missing leader tooltip in Soviet focus The Glory of the Red Army. Pavel Rybalko will become a general after completing the focus, and now everyone knows it."
+  },
+  {
+   "k": "cxk702",
+   "en": "Turkey no longer gets a wargoal on themselves when refusing Balkan Federation demands"
+  },
+  {
+   "k": "13i52em",
+   "en": "Niche Role will now be correctly set correctly when AI designs ships. This also applies to players using \"auto design\"."
+  },
+  {
+   "k": "4m1dgl",
+   "en": "Japanese puppets should now get the corrects name"
+  },
+  {
+   "k": "86qbjo",
+   "en": "Fixed achievement \"Better than Szent Istvan\" being impossible to earn due to a an issue with the new character system"
+  },
+  {
+   "k": "37ta77",
+   "en": "Naval battles will no longer count towards combat duration for career profile"
+  },
+  {
+   "k": "a6l4ho",
+   "en": "Patch 1.11.11 was released on 2022-05-12⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "5d5jc2",
+   "en": "8e75"
+  },
+  {
+   "k": "keao5y",
+   "en": "Adjusted the ship refitting cost calculation. The base cost is now a percentage of the hull cost, and the cost for any module changes are added on top of that. The same is true for tanks."
+  },
+  {
+   "k": "1wy1c7v",
+   "en": "Removed path connecting advanced light tank chassis to modern tank chassis research"
+  },
+  {
+   "k": "1kc4xtl",
+   "en": "Fixed rare OOS happening when players joined an MP game after playing a different game"
+  },
+  {
+   "k": "1lsgu5u",
+   "en": "Hot-reloading AI strategy plans will not crash the game."
+  },
+  {
+   "k": "tmjr4e",
+   "en": "Changed the starting British Motorized Division template to use motorized - sorry, motorised - recon"
+  },
+  {
+   "k": "1i9bnsd",
+   "en": "Added some bypass conditions to Czech focuses"
+  },
+  {
+   "k": "s8bo7j",
+   "en": "Unlocked fuel tank module for French cruiser submarines"
+  },
+  {
+   "k": "n5n1l7",
+   "en": "Only display the ship refitting speed and cost modifiers when MtG is active."
+  },
+  {
+   "k": "1t95hal",
+   "en": "Added Bypass to \"Demmand Lithuanian Annexation\" if Poland already controls all Lithuanian states except for Memel"
+  },
+  {
+   "k": "4yjf6u",
+   "en": "Fixed units being unable to convert a move order to a retreat order when attacked"
+  },
+  {
+   "k": "14p56xh",
+   "en": "Fixed CTD that could happen during railway gun positioning."
+  },
+  {
+   "k": "lb1zmw",
+   "en": "Patch 1.11.12 was released on 2022-06-09⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "177g2du",
+   "en": "22d5"
+  },
+  {
+   "k": "1sse8ct",
+   "en": "Improved tank conversion costs for tank modules"
+  },
+  {
+   "k": "1efr6u0",
+   "en": "Limited Stabilizer tank module to one per vehicle"
+  },
+  {
+   "k": "1rzn2lp",
+   "en": "Armor stat ARMOR_VS_AVERAGE changed from 0.3 to 0.4 to patch piercing"
+  },
+  {
+   "k": "10tb445",
+   "en": "Reduced resource costs of tank upgrades, armor upgrades improved"
+  },
+  {
+   "k": "he0v1f",
+   "en": "Reduced high velocity gun piercing"
+  },
+  {
+   "k": "1czpdiq",
+   "en": "Reduced tech piercing bonus for tank destroyers and motorised AT"
+  },
+  {
+   "k": "nunsob",
+   "en": "Adjusted flame tank terrain modifiers"
+  },
+  {
+   "k": "usgrqt",
+   "en": "Recon tank stats are now proportional to unit size (including armor)"
+  },
+  {
+   "k": "14h8c2j",
+   "en": "Equipment conversion speed bonuses unlocked by tech is no longer applied to tank production lines when NSB is active. Instead the bonus reduces the base cost of the conversion, which now is 90% of the chassis cost up from 20%. The techs will reduce the cost to 50% and 10% respectively."
+  },
+  {
+   "k": "d4o9hg",
+   "en": "Motorised equipment is now essential for motorised arty/AT/AA battalions"
+  },
+  {
+   "k": "y0wrpo",
+   "en": "Changed the icons for the techs Improved Equipment Conversion and Advanced Equipment Conversion to better communicate their effects."
+  },
+  {
+   "k": "4s2a3z",
+   "en": "Fixed an issue where the only available 3d model for modern German tanks was an AA vehicle if axis armor pack DLC is enabled"
+  },
+  {
+   "k": "1w2n1tb",
+   "en": "Soviet Atomic Bomb Project focus is now properly tracking the current number of academies built and will now be unlocked when appropriate."
+  },
+  {
+   "k": "udga82",
+   "en": "Fixed issue in which Invaders Must Die state modifier was not properly removed after the propaganda campaign finished."
+  },
+  {
+   "k": "rnwqpw",
+   "en": "Soviet focus Modernize the Far Eastern Fleet will now grant a different National Spirit if DLC Man the Guns is not active, using modifiers that work without MtG."
+  },
+  {
+   "k": "zuefeq",
+   "en": "Small fix to a Bulgarian news event so that if Bulgaria is already in the Comintern the text makes sense"
+  },
+  {
+   "k": "3swwt",
+   "en": "Turkish focus Align Bulgaria will now get bypassed if Bulgaria is a subject of any country (not only Turkey), so that the rest of the branch does not become inaccessible if Bulgaria is a subject of another country."
+  },
+  {
+   "k": "11hj3r7",
+   "en": "Fixed Issue in Soviet decision category Middle Eastern Diplomacy in which there was a non-existent tag being checked against."
+  },
+  {
+   "k": "15u8prr",
+   "en": "Doctrine bonuses to tank max speed will now be taken into account when determining if a tank design's max speed is too low making it invalid."
+  },
+  {
+   "k": "197sol6",
+   "en": "When calculating total trucks needed at country level, take into account all controlled nodes and not just owned ones."
+  },
+  {
+   "k": "1de77gj",
+   "en": "Added the missing sound effects for alert_doctrine_unlock, alert_officer_corps and alert_losing_trains."
+  },
+  {
+   "k": "utsvw4",
+   "en": "Fixed equipment conversion resource cost calculation to prevent resources from sometimes being counted twice."
+  },
+  {
+   "k": "7x6nyr",
+   "en": "Patch 1.11.13 was released on 2022-08-23⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "2rxcpc",
+   "en": "d173"
+  },
+  {
+   "k": "7rp9i9",
+   "en": "Free Features and Important"
+  },
+  {
+   "k": "t1hln2",
+   "en": "Nakama MP is now available"
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "1ntyda3",
+   "en": "Forum: No Step Back Out Now! New Checksum bf90, 2021-11-23."
+  },
+  {
+   "k": "2g5vfn",
+   "en": "Forum: Update 1.11.2 Live - Checksum 7844, 2021-11-25."
+  },
+  {
+   "k": "1koe61t",
+   "en": "Forum: Update 1.11.3 Live - Checksum 33b6, 2021-11-30."
+  },
+  {
+   "k": "14dx6x4",
+   "en": "Forum: Update 1.11.4 Live - Checksum b22c, 2021-12-14."
+  },
+  {
+   "k": "1csn9b9",
+   "en": "Forum: Barbarossa Patch 1.11.5 - Checksum: 7e1e / LIVE / Patch Notes, 2022-01-27."
+  },
+  {
+   "k": "1h5kw2f",
+   "en": "Forum: Barbarossa Patch 1.11.6 - Checksum: 630e / LIVE / Patch Notes, 2022-02-14."
+  },
+  {
+   "k": "135duew",
+   "en": "Forum: Barbarossa Patch 1.11.7 - Checksum: 98bf / LIVE / Patch Notes, 2022-02-17."
+  },
+  {
+   "k": "1sy62hv",
+   "en": "Forum: Barbarossa Patch 1.11.8 - Checksum: 334c / LIVE / Patch Notes, 2022-02-24."
+  },
+  {
+   "k": "15uecbc",
+   "en": "Forum: Barbarossa Patch 1.11.9 - Checksum: 3f99 / LIVE / Patch Notes, 2022-03-10."
+  },
+  {
+   "k": "c9oxvl",
+   "en": "Forum: Barbarossa Patch 1.11.10 - Checksum: 09ac / LIVE / Patch Notes, 2022-04-07."
+  },
+  {
+   "k": "1utbyth",
+   "en": "Forum: Barbarossa Patch 1.11.11 - Checksum: 8e75 / LIVE / Patch Notes, 2022-05-12."
+  },
+  {
+   "k": "1x5p5z7",
+   "en": "Forum: Barbarossa Patch 1.11.12 - Checksum: 22d5 / LIVE / Patch Notes, 2022-06-09."
+  },
+  {
+   "k": "1mb9pf",
+   "en": "Forum: Barbarossa 1.11.13 - Nakama Crossplay - Checksum d173, 2022-08-23."
+  }
+ ]
+}

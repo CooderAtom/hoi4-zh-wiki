@@ -1,0 +1,823 @@
+{
+ "batch": 1169,
+ "pages": [
+  "Patch 1.15.X"
+ ],
+ "chars": 14995,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "g9avrd",
+   "en": "⟦0⟧ are all patches beginning with 1.15.",
+   "frags": 1
+  },
+  {
+   "k": "pcft04",
+   "en": "Patch 1.15.X"
+  },
+  {
+   "k": "1g9bz5n",
+   "en": "Main article: Patch 1.15"
+  },
+  {
+   "k": "1mb06a4",
+   "en": "Patch 1.15.1 was released on 2024-11-21⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "778r72",
+   "en": "c86b"
+  },
+  {
+   "k": "kxxksr",
+   "en": "Balance"
+  },
+  {
+   "k": "k2pefz",
+   "en": "Reduced the base convoy cost for the Underway Replenishment by ~20%. (From 0.35 per fuel to 0.28 per fuel)"
+  },
+  {
+   "k": "12cx370",
+   "en": "Adding days to the mission \"Public Dissent\" to give the player more of a fighting chance to avoid the negative fallout of the mission and subsequent event"
+  },
+  {
+   "k": "1es6r4",
+   "en": "Fixed an exploit with swapping division templates"
+  },
+  {
+   "k": "im0re0",
+   "en": "Added basic transport plane technology to more countries in 1936 bookmark"
+  },
+  {
+   "k": "ep7bba",
+   "en": "Made political power a bit more abundant for the Freedom at Gunpoint/African Union branch for Congo. Also modified some AI chances, and added a version of the liberation decision to liberate subjects of colonial powers, and not just occupied territories."
+  },
+  {
+   "k": "ogfqbd",
+   "en": "Added dimishing return for breakthrough gain from number of scientists (more facilities doing basic research will be less advantageous per facility)"
+  },
+  {
+   "k": "1aes9w5",
+   "en": "Gameplay"
+  },
+  {
+   "k": "1vlq3ub",
+   "en": "Renamed Submarine Ballistic Missile Launcher to Submarine Nuclear Missile Launcher"
+  },
+  {
+   "k": "1j81dk6",
+   "en": "Basic Torpedo tech no longer unlocks Torpedo Mountings module."
+  },
+  {
+   "k": "7wz3om",
+   "en": "France can now gain access to AMX as a tank MIO by completing the Form State Arsenals focus"
+  },
+  {
+   "k": "1gumyf0",
+   "en": "Equipment Designer dynamic version-naming checkbox now functions correctly when manually toggled"
+  },
+  {
+   "k": "mxeur5",
+   "en": "AI can now cancel low-scoring raids if that's needed to unblock command power so a higher-scoring raid can be created"
+  },
+  {
+   "k": "w8ko28",
+   "en": "AI should now exercise their divisions (when not involved in a war) to a larger degree"
+  },
+  {
+   "k": "ou199z",
+   "en": "AI should now get correct AI strategy values immediately after loading a save file (next hourly tick instead of next daily tick)"
+  },
+  {
+   "k": "1gmcfi7",
+   "en": "Sanity check of British plane designs, fixing a bunch of invalid designs"
+  },
+  {
+   "k": "16ui5iu",
+   "en": "Ai will only volunteer to give back core states if democratic or communist, support for adjusting this added"
+  },
+  {
+   "k": "mp1saw",
+   "en": "Bugfix"
+  },
+  {
+   "k": "dymebg",
+   "en": "Fixed issue with supply flow reduction not showing in tooltip"
+  },
+  {
+   "k": "1wg3v40",
+   "en": "Fixed missing faction in invitation tooltip for Ally Chiang Kai-Shek focus"
+  },
+  {
+   "k": "uca23w",
+   "en": "Update resource need for special project on game load"
+  },
+  {
+   "k": "vn7nlc",
+   "en": "Fixed possible CTD when selecting project iteration reward"
+  },
+  {
+   "k": "fapph8",
+   "en": "Fixed issue with showing empty army theater"
+  },
+  {
+   "k": "1o6ugvn",
+   "en": "front lines and units can no longer be highlighted when main menu is open"
+  },
+  {
+   "k": "so1fn9",
+   "en": "Corrected the Belgian Neutral Royalist party to the House of Saxe-Coburg Gotha from House of Leopold."
+  },
+  {
+   "k": "d7mqtd",
+   "en": "Added É to a number of Belgian people."
+  },
+  {
+   "k": "1ba41mw",
+   "en": "British speech War with Germany now requires Germany to be at war with Poland in order to be triggered when UK declares war on Germany."
+  },
+  {
+   "k": "3r6gwd",
+   "en": "Fixed a spelling error in the Congolese focus \"Strict Anti-Clericalism\"."
+  },
+  {
+   "k": "15956yw",
+   "en": "Fixed a bug where the UK wouldn't be able to get any extra resources from the effect of the Congolese focus \"Enter the Sterling Area\"."
+  },
+  {
+   "k": "wkqjj9",
+   "en": "BEL: Made the European Crusade focus more readable."
+  },
+  {
+   "k": "b81dwl",
+   "en": "German focus Crossing the Atlantic: Added a cap to the amount of states that can get dockyards, and set up a criteria to prio coastal states with 2 mils first, then coastal states with 1 mil, then coastal states with no mils. States can no longer get dockyards twice. Missleading tooltips about multiple target states are no longer part of the tooltip."
+  },
+  {
+   "k": "1sqyj2e",
+   "en": "German focus Crossing the Atlantic: After completing the focus there is now a tooltip showing the states that got dockyards."
+  },
+  {
+   "k": "1m478ya",
+   "en": "German focus Crossing the Atlantic: Fixed and simplified broken trigger so that the requirement is to not have any major enemy controlling a state in Europe."
+  },
+  {
+   "k": "1sfzsl8",
+   "en": "Fixed cyrilic К instead of latin K in Soviet Nuclear Submarine name, breaking the name in some fonts."
+  },
+  {
+   "k": "xfa4hy",
+   "en": "Operation Jericho can now be performed even if France controls some of their core states, as long as Germany still controls the relevant states"
+  },
+  {
+   "k": "1oblno0",
+   "en": "BEL: Flooded Tank Barriers will now affect the attacking army."
+  },
+  {
+   "k": "1ebcda7",
+   "en": "Ethiopia/Congo's African Central Bank focus and events now give a positive modifier rather than a negative one."
+  },
+  {
+   "k": "1x7tk5d",
+   "en": "Removed Zaisser as an advisor without La Resistance enabled, removed a duplicate modifier from the National Idea \"Stasi\" and replaced it with something else, and hid a focus without La Resistance since it only gives operatives and nothing else"
+  },
+  {
+   "k": "vdfxyo",
+   "en": "Fixed event Information Leak triggered by nuclear Special Project firing only for the first country triggering it."
+  },
+  {
+   "k": "1s93o52",
+   "en": "Historical AI Germany will replace Bormann by Himmler as Reichsleiter for the Inner Circle later so that Bormann can generate more PP during early and mid game."
+  },
+  {
+   "k": "16nqb0e",
+   "en": "Fixed technology Maintenance Company III granting +30% Recovery bonus to Armored Maintenance Company, it now grants the intended +3% bonus like the other Maintenance techs."
+  },
+  {
+   "k": "1my4r65",
+   "en": "Fixed German High Command Viktor Schutze being an Anti-Submarine Specialist, he will now be a Submarine Specialist."
+  },
+  {
+   "k": "1o39db8",
+   "en": "Fixes decisions showing up when they shouldn't in \"Subjugating our Old Lands\""
+  },
+  {
+   "k": "147s7co",
+   "en": "Fixes a minor typo in \"Recall Retired Generals to Service"
+  },
+  {
+   "k": "1ewbj29",
+   "en": "Fixed German Ho 229 Flying Wing 3D model not showing up in the plane designer"
+  },
+  {
+   "k": "19ca3fj",
+   "en": "Fixed issue with Soviet Improved Tank Destroyer using the wrong model in the tank designer."
+  },
+  {
+   "k": "145lm0a",
+   "en": "Fixed issue in which German focus Party Chancellor Hess that could be locked without progressing or being able to cancel it if the Flight of Rudolf Hess happened while the focus was being completed."
+  },
+  {
+   "k": "1qkm5ux",
+   "en": "fix to an achievement triggering incorrectly"
+  },
+  {
+   "k": "11h12jh",
+   "en": "Fix sounds missing for raids and special projects if you don't have the Gotterdammerung expansion"
+  },
+  {
+   "k": "9y2i9o",
+   "en": "Fixed an issue where the Silesian Uprising would appear during the German civil war despite not owning Götterdämmerung, with it thus being unstoppable."
+  },
+  {
+   "k": "rze2gj",
+   "en": "Lock the Prioritize Economic Growth focus if you have the Economy of Conquest National Spirit; it's too late to fix economy now, buddy"
+  },
+  {
+   "k": "40c42",
+   "en": "fixes a flag not being removed properly if Austria manually gets a non aggression pact while working on the decision to get a non-aggression pact"
+  },
+  {
+   "k": "zk0kq",
+   "en": "Decisions to invite other countries into the EU will now cancel properly and not softlock if the targeted country flips communist or fascist"
+  },
+  {
+   "k": "241xpg",
+   "en": "Fixed a bug where Kaiserin Victoria was unobtainable without Götterdämmerung."
+  },
+  {
+   "k": "1gwphc",
+   "en": "Fixed an issue where the naval base in Tasmania wasn't showing up as intended."
+  },
+  {
+   "k": "1kg2gaz",
+   "en": "Fixed an issue where the Pro-German Mwami wouldn't become the leader of the Congo if chosen while Germany wasn't fascist."
+  },
+  {
+   "k": "1yaw7r9",
+   "en": "Fixed an issue where the achievement \"Our Place in the Sun\" would only check for the old focus with the same name, thus being unobtainable with Götterdämmerung."
+  },
+  {
+   "k": "1fj13ko",
+   "en": "Tweaked names of Nuclear Missile equipment to make it more clear that they are in fact Nuclear Missiles tier I and II."
+  },
+  {
+   "k": "enylvn",
+   "en": "Flamethrower tank icons and models are now part of the pools of their regular tank counterparts, with low priority."
+  },
+  {
+   "k": "164folg",
+   "en": "Added a game designer back to the credits"
+  },
+  {
+   "k": "1200rb7",
+   "en": "Fixed ship casualties not shown in War Overview window"
+  },
+  {
+   "k": "3ken5b",
+   "en": "Fixed task force reinforcement constantly moving ship in and out of a task force"
+  },
+  {
+   "k": "111tv93",
+   "en": "First Berlin Award now grants Zaolzie to the southern ally of Germany."
+  },
+  {
+   "k": "1uq5neg",
+   "en": "Promoting an officer no longer switches the other player's window if playing in Co-Op mode"
+  },
+  {
+   "k": "mpvvqe",
+   "en": "German Tank Scientists Erwin and Aders are now unlocked without AAT by hiring their related Designer."
+  },
+  {
+   "k": "10yiwq5",
+   "en": "Fixed Raj character Bhabha being a nuclear theorist. He is now a scientist."
+  },
+  {
+   "k": "758tb9",
+   "en": "Fixes Karl Renner sometimes appearing as an advisor without a trait"
+  },
+  {
+   "k": "p4wi1r",
+   "en": "Fix issue where raids could be detected even if intel was under the required threshold (10%)"
+  },
+  {
+   "k": "1hue9q",
+   "en": "Removed the \"Class\" from 2 variant names since that's provided by the variant versioning"
+  },
+  {
+   "k": "1p28f9q",
+   "en": "Fix damaged facility icon not being visible in state view"
+  },
+  {
+   "k": "1dvvpk9",
+   "en": "Fixed helicopters looking incorrect in 3D preview window."
+  },
+  {
+   "k": "9m30fv",
+   "en": "Modding"
+  },
+  {
+   "k": "1o7ve1o",
+   "en": "has_truce_with trigger added"
+  },
+  {
+   "k": "1pyxcei",
+   "en": "Patch 1.15.2 was released on 2024-12-05⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "199id98",
+   "en": "2dd1"
+  },
+  {
+   "k": "1vbiiz5",
+   "en": "Concealment Expert visibility reduction changed from -15% to -10%"
+  },
+  {
+   "k": "1x361b3",
+   "en": "Submarine Torpedoes Hit Chance reduced from 0%/+1%/+1.5%/+2% to 0%/+0.5%/+1%/+1.5%"
+  },
+  {
+   "k": "tp20jp",
+   "en": "Anechoic Tiles visibility reduction changed from -25% to -20%"
+  },
+  {
+   "k": "1nhoe3g",
+   "en": "Submarine Snorkels visibility reduction changed from -7%/-15% to -7%/-13%"
+  },
+  {
+   "k": "kvvnoi",
+   "en": "Increased the amount of factory and dockyard output penalties when hitting max MEFO penalty"
+  },
+  {
+   "k": "zse1mm",
+   "en": "BEL: Added Weekly Manpower to The Belgian Legion."
+  },
+  {
+   "k": "jkldvx",
+   "en": "Balancing the Prioritize Economic Growth branch by adding Civilian Economy trade law and slightly re-arranging the reduction of Consumer Goods Factory factories through focuses"
+  },
+  {
+   "k": "41jo2q",
+   "en": "If Germany completes the focus \"Seek to the Eastern Front\", Poland will be more willing to join an alliance with them"
+  },
+  {
+   "k": "f1pcrq",
+   "en": "AI correctly resets its desire to unlock army/navy/air spirits when unlocking a spirit"
+  },
+  {
+   "k": "a30exp",
+   "en": "AI equipment templates now allow specifying a design_team (MIO)"
+  },
+  {
+   "k": "l7kl7r",
+   "en": "Added code support for new on-action before a peace conference starts"
+  },
+  {
+   "k": "hnhyz3",
+   "en": "Can have multiple same_support_type on support brigades"
+  },
+  {
+   "k": "1ejndm0",
+   "en": "Graphics"
+  },
+  {
+   "k": "qz93sr",
+   "en": "Added new European President cosmetic tag flag and made the 3 versions all use one central tag. Changed adjective from Dutch / Belgian / Austrian to European."
+  },
+  {
+   "k": "pfhjk1",
+   "en": "Added game option to use silhouette portraits for German leadership and focuses."
+  },
+  {
+   "k": "18frk7k",
+   "en": "Fixed transport planes description text"
+  },
+  {
+   "k": "1noq3ab",
+   "en": "Fixed CTD caused by incorrect update sequence"
+  },
+  {
+   "k": "14l9q0l",
+   "en": "Fixed typo in German Scientist's name Helmuth Walter"
+  },
+  {
+   "k": "18n4469",
+   "en": "Fix AI sometimes not moving its troops after a civil war starts"
+  },
+  {
+   "k": "pjopvk",
+   "en": "Fixed typo in German city Würzburg."
+  },
+  {
+   "k": "1h1dohn",
+   "en": "Fixed typo in Bormann's trait."
+  },
+  {
+   "k": "w6ydn4",
+   "en": "Fixed typo in effect tooltip of German focus Strike Eastward."
+  },
+  {
+   "k": "11l8hlc",
+   "en": "Fixed various issues with spelling errors and grammatical inconsistencies in African Union events."
+  },
+  {
+   "k": "1jyjyqs",
+   "en": "Fixed an issue where Romania would be blocked in their focus \"Split Yugoslavia\" due to Debar not being targetable by the subsequent decisions."
+  },
+  {
+   "k": "ksxpa",
+   "en": "Austrian decisions should no longer annex tho overlords via decisions targeting their puppets"
+  },
+  {
+   "k": "tvch2p",
+   "en": "Fixed a spelling error in the Luxembourgish election event."
+  },
+  {
+   "k": "h829sy",
+   "en": "Added Schleswig to the Yalta Conference to better resemble a historical post-war Germany"
+  },
+  {
+   "k": "1l115im",
+   "en": "Fixed an issue where non-Götterdämmerung Hungary would accidentally bypass their focus \"Protect Czechoslovakia\"."
+  },
+  {
+   "k": "1ezgsyo",
+   "en": "Slovakia won't receive Slovak states if they're controlled by someone else, and neither will Poland. Poland won't receive Zaolzie if Germany partitions Czechoslovakia with Hungary if Germany and Poland are at war with each other"
+  },
+  {
+   "k": "1nl5fo4",
+   "en": "Fixed an issue where Turkey was locked out of joining a faction with a Monarchist Germany when having the Götterdämmerung dlc enabled."
+  },
+  {
+   "k": "72w8ov",
+   "en": "Fixed an error where two unique German traits could be randomly generated for characters."
+  },
+  {
+   "k": "tw0b8a",
+   "en": "Fixed an error where a Greek Admiral had a army trait incorrectly assigned to him."
+  },
+  {
+   "k": "1qcoq57",
+   "en": "Italy's decision to support the Hungarian claim to Vojvodina will now also work in historical scenarios."
+  },
+  {
+   "k": "2v23j4",
+   "en": "Fixed an incorrect naming syntax for a constitutional Kingdom of Hungary."
+  },
+  {
+   "k": "6nip2n",
+   "en": "Albania now gets the correct party name when Wilhelm of Wied becomes their country leader."
+  },
+  {
+   "k": "1oqi95x",
+   "en": "Fixed a misspelled name for a German Mine Clearing vehicle."
+  },
+  {
+   "k": "1lg2gak",
+   "en": "BEL: Legacy of the Great War requires you to be at war."
+  },
+  {
+   "k": "7upgtc",
+   "en": "BEL: King's Surrender text no longer refers to a \"full state\", you only need to hold Liege, Antwerp or Brussels. The Ardennes can be safely sacrificed for the greater good (the greater good)."
+  },
+  {
+   "k": "1h162ry",
+   "en": "BEL: Peacekeepers reduce Global Tension Required by -100% instead of -75%."
+  },
+  {
+   "k": "osj5iz",
+   "en": "Corrects grammar in the focus Legitimistische Jugend"
+  },
+  {
+   "k": "12r0grd",
+   "en": "Removes misleading tooltip stating that the anschluss ratio will start ticking down much earlier than it actually does"
+  },
+  {
+   "k": "ijeial",
+   "en": "clarifies the effects of going \"Via Danube to Europe\" and how this makes integration harder"
+  },
+  {
+   "k": "vfqv6r",
+   "en": "BEL: Removed early election as this is simulated by Government Resigns."
+  },
+  {
+   "k": "1e1edkj",
+   "en": "BEL: Updated Advisor type icons to better suit their role."
+  },
+  {
+   "k": "104xqpx",
+   "en": "Makes sure only faction members are targeted by the federalization decision."
+  },
+  {
+   "k": "eklj27",
+   "en": "hides popups for hidden techs in Austrian focus tree"
+  },
+  {
+   "k": "1du78gi",
+   "en": "Fixes Austrian subjugation and annexation decisions cancelling incorrectly if the targeted country gets annexed while the decision is ongoing"
+  },
+  {
+   "k": "varjst",
+   "en": "Canceling the MEFO Bills after annexing Czechoslovakia from the focus Fate of Czechoslovakia will now trigger the MEFO Payments National Spirit. The same fix have been applied to similar circumstances else where, such as carving up Yugoslavia through focuses"
+  },
+  {
+   "k": "m11snd",
+   "en": "If Germany has completed the Focus Brothers in Arms, they should no longer receive the Event Austrian Pro-German Sentiments and thereby annex Austria."
+  },
+  {
+   "k": "2cyjcm",
+   "en": "Land Cruisers should no longer be able to have more one aerial module."
+  },
+  {
+   "k": "425kwg",
+   "en": "No more Austria diplo annexing the Soviet Union in weird edge case scenarios"
+  },
+  {
+   "k": "s7hjr3",
+   "en": "Germany will no longer be able to steal Slovakia if its a puppet of Romania and created by the focus Split Czechoslovakia after completing Fate of Czechoslovakia"
+  },
+  {
+   "k": "1nnaoij",
+   "en": "Cancel Germany's National Spirit \"Redirected Naval Production\" is they're at war with Britain, or if Britain is either a subject or doesn't exist nány more"
+  },
+  {
+   "k": "gexjol",
+   "en": "The focus Assemble the Red Orchestra is now available with and without the DLC La Resistance"
+  },
+  {
+   "k": "glqhjt",
+   "en": "German focuses to annex Czechoslovakia will now be bypassed if Czechoslovakia is a subject of Germany and have done one of the focuses \"German Satellite\" or \"German Protectorate\""
+  },
+  {
+   "k": "lj66ah",
+   "en": "Fixed Supersonic Jet template design bonus to be granted if you own \"By Blood Alone\""
+  },
+  {
+   "k": "cy99q1",
+   "en": "Fix bug where AI started trading with countries it didn't have a valid trade route to"
+  },
+  {
+   "k": "lxmhp9",
+   "en": "Vichy France should no longer increase the monthly increase of Germany's Consumer Goods Factory factories in Economy of Conquest any further when they reduce their own National Spirit of \"Occupation Cost\", unless they outright remove the Spirit all together"
+  },
+  {
+   "k": "txjq2b",
+   "en": "Patch 1.15.3 was released on 2024-12-12⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "6qiofp",
+   "en": "Replaced some graphical content in the German version of the game."
+  },
+  {
+   "k": "hj2813",
+   "en": "Removed game option to use silhouette portraits for German leadership and focuses."
+  },
+  {
+   "k": "b9uxil",
+   "en": "Patch 1.15.4 was released on 2025-01-21⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1vtd9ap",
+   "en": "Reworked the Infantry Tank MIO to now apply modifiers to all tank classes rather than on a per-class basis. This means that each tank class now has more than 4-5 relevant nodes."
+  },
+  {
+   "k": "9sn0y",
+   "en": "Added and tweaked the amount of war support and stability gained through focuses through the alt-history branches for Germany. Also modified Wilhelm II's country leader trait"
+  },
+  {
+   "k": "cdt15e",
+   "en": "It is now possible to seize Turkey's Gold Reserves as Germany, and a country can now capitulate to a German faction member (so not just Germany or one of its subjects) for Germany to be able to seize the Gold reserve of the territory they're holding of said nation."
+  },
+  {
+   "k": "hp0iq4",
+   "en": "AI should be more interested in constructing Land Cruisers, if they have the chance."
+  },
+  {
+   "k": "7kooyo",
+   "en": "Tweaking the German AI to behave more historically by wanting and producing more submarines and strengthening it overall by making it focus its pp on upgrade conscription laws and such."
+  },
+  {
+   "k": "1eztpuw",
+   "en": "Fleet Submarines Special Project now require 1940 Submarine / 1940 Submarine Hull to be researched instead of their 1936 Variant."
+  },
+  {
+   "k": "o3s7if",
+   "en": "AIP Engine Unique Reward - Option A, now provides -5% Visibility instead of -10%."
+  },
+  {
+   "k": "xh8bds",
+   "en": "The Return of the Kaiser focus now checks if the controller of Friesland is at war with Germany as a requirement, instead of checking if the Dutch specifically is at war with Germany. If Germany or one of its puppets control the state, Wilhelm II will automatically get reinstated as the Kaiser."
+  },
+  {
+   "k": "recc3a",
+   "en": "Tweaked values for Land Cruisers."
+  },
+  {
+   "k": "pxbx5t",
+   "en": "Specialized Helicopter Support Companies can not be combined with Helicopter Brigade (Generalist Helicopter Brigade)."
+  },
+  {
+   "k": "11zv3gk",
+   "en": "Added random chance to gain breakthrough progress on steal blueprint mission."
+  },
+  {
+   "k": "2z2l8r",
+   "en": "Added Henschel traits, and made it an Infantry Tank MIO using the reworked archetype."
+  },
+  {
+   "k": "s4r76t",
+   "en": "Added a decision for the Siberian formable to integrate Manchuria."
+  }
+ ]
+}

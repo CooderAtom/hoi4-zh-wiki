@@ -1,0 +1,962 @@
+{
+ "batch": 1186,
+ "pages": [
+  "The Legacy of Cyrus the Great"
+ ],
+ "chars": 9022,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "whxk3v",
+   "en": "As Iran, become the owner of former Achaemenid Empire's states"
+  },
+  {
+   "k": "cxx69w",
+   "en": "⟦0⟧ It is also possible to complete the achievements ⟦1⟧ (conquer ⟦2⟧), and ⟦3⟧ (conquer the Middle East, including Arabia, see the images below) by following this strategy guide, as they are closely related.",
+   "frags": 4
+  },
+  {
+   "k": "k8kizp",
+   "en": "Note:"
+  },
+  {
+   "k": "da6rds",
+   "en": "Pesky Greeks"
+  },
+  {
+   "k": "1kl1wqi",
+   "en": "Greece"
+  },
+  {
+   "k": "132pgcp",
+   "en": "The Sands of Time"
+  },
+  {
+   "k": "1h0k7yc",
+   "en": "Strategy"
+  },
+  {
+   "k": "a6kuiv",
+   "en": "This strategy requires the ⟦0⟧ DLC to be ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1nysoty",
+   "en": "Graveyard of Empires"
+  },
+  {
+   "k": "thi8u",
+   "en": "enabled"
+  },
+  {
+   "k": "k8izk7",
+   "en": "Play on non-historical. You'll likely have to do a number of runs before you hit on a favorable faction alignment. Ideally, since you must take land from 3 majors (the ⟦0⟧, ⟦1⟧, and the ⟦2⟧), you are looking for a run where those nations end up weak. It's actually fine to set ⟦3⟧ to Historical while leaving the other two on Random if you want, since ⟦4⟧ historically takes one of its worst paths. A world with a lot of factions is also decent bet, as you can play the factions against each other to secure a peace deal that leaves you significantly stronger. In an ideal scenario, the ⟦5⟧ decolonizes, ⟦6⟧ goes historical or non-aligned, and the ⟦7⟧ has a civil war that doesn't lead into Trotsky. It's also great if the ⟦8⟧ isn't in any of the European factions but forms its own. If you can manage to join or even just keep them friendly, you will have a permanent ally whose interests never conflict with yours.",
+   "frags": 9
+  },
+  {
+   "k": "y6f35m",
+   "en": "France"
+  },
+  {
+   "k": "1jjpogc",
+   "en": "Soviet Union"
+  },
+  {
+   "k": "15qikeg",
+   "en": "USA"
+  },
+  {
+   "k": "10rmcjc",
+   "en": "In early game, go hard for industrial expansion. Take ⟦0⟧, use the PP to switch to Partial Mobilization, continue to ⟦1⟧. Build nothing but infrastructure and civilian factories before the end of 1937. At some point take ⟦2⟧ and eventually ⟦3⟧. This puts you on course for a civil war, and you'll need to save up a lot of PP, have 12 owned factories, and have 80k manpower in the field in order to stop it.",
+   "frags": 4
+  },
+  {
+   "k": "zzh19j",
+   "en": "The Pahlavi Imperium"
+  },
+  {
+   "k": "1na2585",
+   "en": "Modernizing Iran"
+  },
+  {
+   "k": "k9r19i",
+   "en": "A Legacy of Greatness"
+  },
+  {
+   "k": "330g9i",
+   "en": "Assessing the Opposition"
+  },
+  {
+   "k": "1dcu8mh",
+   "en": "Feel free to join the Saadabad Pact (or even to initiate it). You'll lose the benefits eventually (you'll need to conquer all three other members), but it'll be good while it lasts. Among other benefits, you'll get mountaineers researched for free when Turkey takes ⟦0⟧. Immediately start training mountaineers up to the special forces cap and advancing their doctrine (they'll be very useful in ⟦1⟧ and ⟦2⟧).",
+   "frags": 3
+  },
+  {
+   "k": "dq2g0r",
+   "en": "Turkish Mountaineer Corps"
+  },
+  {
+   "k": "38tzan",
+   "en": "Turkey"
+  },
+  {
+   "k": "bj54wx",
+   "en": "Afghanistan"
+  },
+  {
+   "k": "1vtk2mz",
+   "en": "You should have ~24 divisions in the field by the time you take ⟦0⟧ and ⟦1⟧ (they tend to accept; they are more likely to accept if you have a significantly larger army and they are under 50% war support.) At some point, you'll need to switch to Limited Conscription (possibly by taking the ⟦2⟧ focus). Switch straight to Service by Requirement as soon as the game allows (this will be when you are at war with a sufficiently large enemy) - manpower is your major handicap; until you gain some new cores, you can't field much more than ~30 divisions in with Limited Conscription, you are not allowed to switch to higher conscription laws in peacetime because you're non-aligned, and you have to stay non-aligned to be eligible for this branch of the focus tree. Build a supply depot in the northernmost province of West Azerbaijan (the one adjacent to Van and Yerevan) and another in the easternmost province of Herat.",
+   "frags": 3
+  },
+  {
+   "k": "1ldlmvo",
+   "en": "Demand Iraqi Territory"
+  },
+  {
+   "k": "aqgrgf",
+   "en": "Demand Afghan Territory"
+  },
+  {
+   "k": "o3dkz9",
+   "en": "Absolute Monarchy"
+  },
+  {
+   "k": "pv2xkc",
+   "en": "The subsequent events will vary from game to game, depending on factions and guarantees. Your short-term objective is to conquer ⟦0⟧, ⟦1⟧, and ⟦2⟧. Iraq is the easiest of three (especially once you force them to cede 2 out of their 5 states), but it tends to stay guaranteed by the ⟦3⟧. Afghanistan has a relatively small army, but it gets insane defense benefits from its mountains and rivers and may prove to be a tough nut to crack. Don't even think of going there unless you have a supply depot, mountaineers, and twice their manpower (and even then it won't be a cakewalk.) Turkey tends to have an army that is comparable to yours ⟦4⟧ you have to fight through several mountain provinces to reach their heartland. It starts guaranteed by Romania and it often gets guaranteed by the ⟦5⟧ after 1939. Watch for these guarantees and pounce if you see anyone who's not guaranteed, or if you see e.g. ⟦6⟧ guaranteeing ⟦7⟧ (in which case, if you have the army to fight on two fronts, you can deal with Turkey without any of its guarantors.)",
+   "frags": 8
+  },
+  {
+   "k": "1gdgowo",
+   "en": "Iraq"
+  },
+  {
+   "k": "47gkh2",
+   "en": "and"
+  },
+  {
+   "k": "2vccyw",
+   "en": "Sometimes the ⟦0⟧ also decides to guarantee ⟦1⟧, which is a carte blanche to attack ⟦2⟧ and ⟦3⟧ (if both of you are guaranteed, the UK won't intervene).",
+   "frags": 4
+  },
+  {
+   "k": "meb4bg",
+   "en": "you"
+  },
+  {
+   "k": "a26kq5",
+   "en": "In the mean time, complete focuses ⟦0⟧, ⟦1⟧, ⟦2⟧, and ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "p3i97m",
+   "en": "Reintegrate Anatolian Territory"
+  },
+  {
+   "k": "gfgs3d",
+   "en": "The Memphis Initiative"
+  },
+  {
+   "k": "gi5q4x",
+   "en": "Absorb the Byzantine Empire"
+  },
+  {
+   "k": "1hx76yb",
+   "en": "Glory of Cyrus the Great"
+  },
+  {
+   "k": "lsxvzi",
+   "en": "⟦0⟧ and ⟦1⟧ allow you to core all ⟦2⟧ states of ⟦3⟧ and ⟦4⟧ respectively, at 75pp per state. (NOTE: The four Turkish states in the southeast - Hakkari, Van, Diyarbakir, and Tunceli - do ⟦5⟧ start the game as Turkish cores, and will be ineligible for this focus unless Turkey reintegrates them first. The others will be eligible for integration once you take them in peace conference.)",
+   "frags": 6
+  },
+  {
+   "k": "1r3gry6",
+   "en": "owned"
+  },
+  {
+   "k": "bkgu4q",
+   "en": "not"
+  },
+  {
+   "k": "n7g54d",
+   "en": "⟦0⟧ allows you to core all ⟦1⟧ states in the Middle East (including the entire Arabian Peninsula) or in ⟦2⟧, ⟦3⟧ for Turkish cores, likewise at 75pp per state.",
+   "frags": 4
+  },
+  {
+   "k": "1a62lbr",
+   "en": "controlled"
+  },
+  {
+   "k": "1nwdpmw",
+   "en": "Egypt"
+  },
+  {
+   "k": "fq5dyo",
+   "en": "except"
+  },
+  {
+   "k": "5zyugc",
+   "en": "⟦0⟧ gives you cores in ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1fkqyft",
+   "en": "Coring all eligible states potentially makes Iran into a global superpower with a core population of 80M+ and the ability to go toe to toe with other majors."
+  },
+  {
+   "k": "1gd3x02",
+   "en": "Additionally, if ⟦0⟧ is first created as a collaboration government, given the necessary states to form ⟦1⟧ and then allowed to control and core North Africa and ⟦2⟧, then it will be possible to core those regions with ⟦3⟧ once ⟦4⟧ is annexed.",
+   "frags": 5
+  },
+  {
+   "k": "1nce1vn",
+   "en": "Arabia"
+  },
+  {
+   "k": "17b1feg",
+   "en": "Sudan"
+  },
+  {
+   "k": "1rk5r4",
+   "en": "It's also possible to core ⟦0⟧ and ⟦1⟧ via ⟦2⟧, but it is a fairly long-winded and unintuitive process;",
+   "frags": 3
+  },
+  {
+   "k": "1flvp0i",
+   "en": "Pakistan"
+  },
+  {
+   "k": "5mk0bo",
+   "en": "Bangladesh"
+  },
+  {
+   "k": "rvvwbg",
+   "en": "1: Declare war on and puppet ⟦0⟧. Do not join or get into a war with any factions until after step 4, and after ⟦1⟧ finishes the ⟦2⟧ focus.",
+   "frags": 3
+  },
+  {
+   "k": "2kd4j3",
+   "en": "Pursue Our Own Agenda"
+  },
+  {
+   "k": "9yxd65",
+   "en": "2: Improve relations with ⟦0⟧, finish ⟦1⟧ and hope they hand over the border states.",
+   "frags": 2
+  },
+  {
+   "k": "fm1xfx",
+   "en": "British Raj"
+  },
+  {
+   "k": "1d3lkdq",
+   "en": "A Foothold in the Indus"
+  },
+  {
+   "k": "jwlw1g",
+   "en": "3: Release ⟦0⟧ as an independent country from the states the ⟦1⟧ just gave you (make sure to retain your core in Sistan).",
+   "frags": 2
+  },
+  {
+   "k": "1oa35ql",
+   "en": "Balochistan"
+  },
+  {
+   "k": "17btuvc",
+   "en": "4: Immediately justify and declare war on ⟦0⟧. Call ⟦1⟧ into the war. It's important not to be involved in any faction wars at this point, as ⟦2⟧ may join an enemy faction. In the peace deal, give North Baluchistan to ⟦3⟧, and take the coastal state for yourself.",
+   "frags": 4
+  },
+  {
+   "k": "qe420l",
+   "en": "Now ⟦0⟧ will, eventually, core ⟦1⟧ with the ⟦2⟧ focus. It will take a while, as the AI will not prioritize it. This is why you shouldn't give them a coast, as they might get distracted doing useless naval focuses. Make sure not to finish ⟦3⟧ until after the Confederation is formed, as it won't apply the cores retroactively.",
+   "frags": 4
+  },
+  {
+   "k": "an901t",
+   "en": "Strengthen the Confederation"
+  },
+  {
+   "k": "1u39s4t",
+   "en": "⟦0⟧ guides",
+   "frags": 1
+  },
+  {
+   "k": "7r8mbp",
+   "en": "Very easy"
+  },
+  {
+   "k": "26jsqm",
+   "en": "Bullseye"
+  },
+  {
+   "k": "ave0q6",
+   "en": "United Netherlands"
+  },
+  {
+   "k": "u0rvp7",
+   "en": "Easy"
+  },
+  {
+   "k": "1x8pl0w",
+   "en": "Ain't like that now"
+  },
+  {
+   "k": "14uam9i",
+   "en": "Australia-Hungary"
+  },
+  {
+   "k": "y5ny83",
+   "en": "Congolese Belgium"
+  },
+  {
+   "k": "e2va9k",
+   "en": "Big Entente"
+  },
+  {
+   "k": "1sif4ax",
+   "en": "From Tehran with Love"
+  },
+  {
+   "k": "bjznmk",
+   "en": "Istanbul is Constantinople. Again."
+  },
+  {
+   "k": "k2qsbq",
+   "en": "No more Partitions"
+  },
+  {
+   "k": "35094y",
+   "en": "Oil Sheiks"
+  },
+  {
+   "k": "dr7lcs",
+   "en": "That's Sikh!"
+  },
+  {
+   "k": "1qgfwu3",
+   "en": "The 501st Legion"
+  },
+  {
+   "k": "s1f6yb",
+   "en": "The Magic School Bus"
+  },
+  {
+   "k": "128mkpw",
+   "en": "The Sun Will Never Set"
+  },
+  {
+   "k": "1w0tx5p",
+   "en": "Tour de France"
+  },
+  {
+   "k": "im0wjw",
+   "en": "You Shall Not Pass"
+  },
+  {
+   "k": "2pbr86",
+   "en": "Medium"
+  },
+  {
+   "k": "ybksw8",
+   "en": "…and you get a canton, everybody gets a canton!"
+  },
+  {
+   "k": "t69mng",
+   "en": "Antischluss"
+  },
+  {
+   "k": "gdwkzk",
+   "en": "Awake and Angry"
+  },
+  {
+   "k": "132t14",
+   "en": "A Great Hunger"
+  },
+  {
+   "k": "dgkhbm",
+   "en": "Balkan Problem Solved"
+  },
+  {
+   "k": "979j1f",
+   "en": "Brentry"
+  },
+  {
+   "k": "11nf5th",
+   "en": "By Beer Alone"
+  },
+  {
+   "k": "1c7vwz1",
+   "en": "Cobalt Sea"
+  },
+  {
+   "k": "gja7hw",
+   "en": "Crush the Dream"
+  },
+  {
+   "k": "1jx48em",
+   "en": "Crusader Kings"
+  },
+  {
+   "k": "147uoy4",
+   "en": "Danzig queen"
+  },
+  {
+   "k": "1kcpl8u",
+   "en": "Hail to the King"
+  },
+  {
+   "k": "1lftoz3",
+   "en": "House of Kurds"
+  },
+  {
+   "k": "1521pur",
+   "en": "It has my name on it"
+  },
+  {
+   "k": "123dicr",
+   "en": "Media Mughal •"
+  },
+  {
+   "k": "quvul0",
+   "en": "My Ships Don't Lie"
+  },
+  {
+   "k": "jpjmsm",
+   "en": "Otto-man"
+  },
+  {
+   "k": "1uze96m",
+   "en": "Our Other Place in the Sun"
+  },
+  {
+   "k": "ijw0vo",
+   "en": "Paradisus Paradoxum‎"
+  },
+  {
+   "k": "2bgaq0",
+   "en": "Pinot Noirway"
+  },
+  {
+   "k": "11w1wdm",
+   "en": "Sapmi united by the fire"
+  },
+  {
+   "k": "1166u2k",
+   "en": "The Munich Disagreement"
+  },
+  {
+   "k": "12wkrbv",
+   "en": "The return of the king"
+  },
+  {
+   "k": "129wtu3",
+   "en": "The Soviet Onion"
+  },
+  {
+   "k": "1f0wf23",
+   "en": "This Achievement is Cheesy"
+  },
+  {
+   "k": "rkbf7e",
+   "en": "This is going to be LIT"
+  },
+  {
+   "k": "1u177aa",
+   "en": "True Blitzkrieg"
+  },
+  {
+   "k": "1av1h1n",
+   "en": "We’re Putting the Band Back Together •"
+  },
+  {
+   "k": "1ozryxy",
+   "en": "William Wallis"
+  },
+  {
+   "k": "s0816k",
+   "en": "Hard"
+  },
+  {
+   "k": "1rchny6",
+   "en": "America Decolonized!"
+  },
+  {
+   "k": "18zpr9x",
+   "en": "Caramelldansen"
+  },
+  {
+   "k": "1o1b4cs",
+   "en": "Cod wars"
+  },
+  {
+   "k": "2ieff8",
+   "en": "Esti is Scandi"
+  },
+  {
+   "k": "v1h63o",
+   "en": "Hail to the Qing"
+  },
+  {
+   "k": "1stlmvk",
+   "en": "Holy, Roman, and an Empire"
+  },
+  {
+   "k": "ozaxsm",
+   "en": "I didn't hear no bell"
+  },
+  {
+   "k": "1y51r99",
+   "en": "Its all coming together"
+  },
+  {
+   "k": "50yoes",
+   "en": "Lamento Boliviano"
+  },
+  {
+   "k": "l9s1qr",
+   "en": "Lone Wolf"
+  },
+  {
+   "k": "1h6wizt",
+   "en": "Maphilindia"
+  },
+  {
+   "k": "1b19i2r",
+   "en": "Neither Death nor Dishonor"
+  },
+  {
+   "k": "5a08nh",
+   "en": "New World Order"
+  },
+  {
+   "k": "1lh0ti6",
+   "en": "Norway Jose"
+  },
+  {
+   "k": "j4cnyb",
+   "en": "Oh, how the turntables"
+  },
+  {
+   "k": "nhl9mz",
+   "en": "Old Zealand"
+  },
+  {
+   "k": "hjbz77",
+   "en": "Party like it's 1520"
+  },
+  {
+   "k": "y6643t",
+   "en": "Rule Britannia"
+  },
+  {
+   "k": "v7j5in",
+   "en": "Sunrise Invasion"
+  },
+  {
+   "k": "1py9yce",
+   "en": "The Danelaw"
+  },
+  {
+   "k": "4mehld",
+   "en": "The Dragon Rises"
+  },
+  {
+   "k": "1en4gyc",
+   "en": "The Dragon Swallowed the Sun"
+  },
+  {
+   "k": "1xa5j19",
+   "en": "The Lenin Boys are Back in Town"
+  },
+  {
+   "k": "1505xph",
+   "en": "The Lion King"
+  },
+  {
+   "k": "1j7admk",
+   "en": "The Neverending Story"
+  },
+  {
+   "k": "jx0nbg",
+   "en": "The People Have Stood Up!"
+  },
+  {
+   "k": "h2vhls",
+   "en": "The Red Sea"
+  },
+  {
+   "k": "uidicw",
+   "en": "The Romanovs laugh last"
+  },
+  {
+   "k": "qfcq2x",
+   "en": "This achievement is dedicated to the brave soldiers of..."
+  },
+  {
+   "k": "atfn08",
+   "en": "Treading the Narrow Path"
+  },
+  {
+   "k": "41je95",
+   "en": "Uralic brothers united"
+  },
+  {
+   "k": "1ikye0b",
+   "en": "Woman in a High Castle"
+  },
+  {
+   "k": "93dlx2",
+   "en": "Very hard"
+  },
+  {
+   "k": "ecmzu",
+   "en": "Bad Ending - The whole world is now Brazil"
+  },
+  {
+   "k": "fp6ufa",
+   "en": "Bad Romeance"
+  },
+  {
+   "k": "1hzssix",
+   "en": "Battlecry"
+  },
+  {
+   "k": "1v9z80v",
+   "en": "Battle Royale"
+  },
+  {
+   "k": "12zelvf",
+   "en": "Bearer of Artillery"
+  },
+  {
+   "k": "xfbne8",
+   "en": "Cheese your fighter."
+  },
+  {
+   "k": "1xand03",
+   "en": "Chilean Empire"
+  },
+  {
+   "k": "doarrc",
+   "en": "Crusader Kings 2"
+  },
+  {
+   "k": "1w4piot",
+   "en": "Crusader Kings IV"
+  },
+  {
+   "k": "6074pl",
+   "en": "Czechmate"
+  },
+  {
+   "k": "1evnfet",
+   "en": "Death or Dishonor or Cake"
+  },
+  {
+   "k": "1cughq1",
+   "en": "Go Ahead, Macau My Day"
+  },
+  {
+   "k": "1lbns8q",
+   "en": "Hardly Anything Sèvres"
+  },
+  {
+   "k": "1f4rjig",
+   "en": "Huge-oslavia"
+  },
+  {
+   "k": "111e1xb",
+   "en": "Miklos Horthy and the Habsburg Prince"
+  },
+  {
+   "k": "gzorvw",
+   "en": "No one crosses the finnish line"
+  },
+  {
+   "k": "1qr32k8",
+   "en": "One King, Two Crowns"
+  },
+  {
+   "k": "1si9bv5",
+   "en": "Siberian Tiger"
+  },
+  {
+   "k": "1hwegks",
+   "en": "The Legacy of Cyrus the Great"
+  },
+  {
+   "k": "1ujswz2",
+   "en": "The True Successor"
+  },
+  {
+   "k": "40nddh",
+   "en": "This time for Africa"
+  },
+  {
+   "k": "1909qqb",
+   "en": "Insane"
+  },
+  {
+   "k": "145pmxd",
+   "en": "30 Minutes of Hel"
+  },
+  {
+   "k": "1bfzt17",
+   "en": "Don’t Die for Your Country"
+  },
+  {
+   "k": "1b8czvf",
+   "en": "Flag of Greece"
+  },
+  {
+   "k": "3guoaf",
+   "en": "thumb.php?f=Middle east hoi.png&width=200"
+  },
+  {
+   "k": "1c1xknc",
+   "en": "thumb.php?f=Achievement map Cyrus the great.png&width=200"
+  },
+  {
+   "k": "1bl7hb8",
+   "en": "Flag of UK"
+  },
+  {
+   "k": "1dbl5b7",
+   "en": "Flag of France"
+  },
+  {
+   "k": "mzg8xt",
+   "en": "Flag of Soviet Union"
+  },
+  {
+   "k": "no4rrb",
+   "en": "Flag of USA"
+  },
+  {
+   "k": "1y90162",
+   "en": "Flag of Turkey"
+  },
+  {
+   "k": "rjqpna",
+   "en": "Flag of Afghanistan"
+  },
+  {
+   "k": "12rvc91",
+   "en": "Flag of Iraq"
+  },
+  {
+   "k": "rv2kb3",
+   "en": "Flag of Egypt"
+  },
+  {
+   "k": "ctzcgy",
+   "en": "Flag of Arabia"
+  },
+  {
+   "k": "gzmn27",
+   "en": "Flag of Sudan"
+  },
+  {
+   "k": "1wbuvdf",
+   "en": "Flag of Pakistan"
+  },
+  {
+   "k": "1ftfwth",
+   "en": "Flag of Bangladesh"
+  },
+  {
+   "k": "yucl0u",
+   "en": "Flag of British Raj"
+  },
+  {
+   "k": "1iehi26",
+   "en": "Flag of Balochistan"
+  }
+ ]
+}

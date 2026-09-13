@@ -1,0 +1,1027 @@
+{
+ "batch": 1180,
+ "pages": [
+  "Graphical asset modding"
+ ],
+ "chars": 6978,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "835t2a",
+   "en": "Graphical assets are image files that have been defined in a ⟦0⟧ file. This binds the image to a script name that is then referred to in the ⟦1⟧ interface files.",
+   "frags": 2
+  },
+  {
+   "k": "kny00s",
+   "en": ".gfx"
+  },
+  {
+   "k": "pfjkic",
+   "en": ".gui"
+  },
+  {
+   "k": "xpw8la",
+   "en": "Graphical asset files can be found in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "dw6d81",
+   "en": "/Hearts of Iron IV/interface/*.gfx"
+  },
+  {
+   "k": "1ph5ox4",
+   "en": "Note that for many assets, such as technology and equipment asset definitions, the image can be specified for a specific tag, i.e. ⟦0⟧, which only displays the asset for the specified tag. This will override the base asset of the same name. This also applies to graphical culture, i.e. ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "kt16qz",
+   "en": "GFX_ENG_<name>"
+  },
+  {
+   "k": "j9c7qv",
+   "en": "GFX_african_<name>"
+  },
+  {
+   "k": "uql2yl",
+   "en": "Sprite Types"
+  },
+  {
+   "k": "1ylynkk",
+   "en": "spriteType"
+  },
+  {
+   "k": "1k8jfx9",
+   "en": "A ⟦0⟧ and ⟦1⟧ asset entry follows this format:",
+   "frags": 2
+  },
+  {
+   "k": "qvn6yv",
+   "en": "textSpriteType"
+  },
+  {
+   "k": "e1qblb",
+   "en": "⟦0⟧ is the name you have given to the asset. This may be prefixed with various other segments, such as ⟦1⟧ for idea images, etc.",
+   "frags": 2
+  },
+  {
+   "k": "136nuue",
+   "en": "name"
+  },
+  {
+   "k": "1xmkty2",
+   "en": "idea"
+  },
+  {
+   "k": "1vwlndp",
+   "en": "⟦0⟧ is the path to the image, based of the ⟦1⟧, meaning you only include the folders within this folder, not the full filepath.",
+   "frags": 2
+  },
+  {
+   "k": "1163r7m",
+   "en": "texturefile"
+  },
+  {
+   "k": "1qdipwq",
+   "en": "/Hearts of Iron IV/"
+  },
+  {
+   "k": "1s2ccwa",
+   "en": "⟦0⟧ is used for images with multiple ⟦1⟧ within, for example ⟦2⟧ has five images within for each of the unit level images, and so would have ⟦3⟧ set within its asset definition.",
+   "frags": 4
+  },
+  {
+   "k": "ze7hbt",
+   "en": "noOfFrames"
+  },
+  {
+   "k": "y9126n",
+   "en": "frames"
+  },
+  {
+   "k": "1cywpe6",
+   "en": "GFX_unit_level"
+  },
+  {
+   "k": "stumm1",
+   "en": "noOfFrames = 5"
+  },
+  {
+   "k": "1rjjjfp",
+   "en": "⟦0⟧ is used to define an effect state to apply to the image, i.e. the button press effect on a button image. Effects are found in ⟦1⟧. Multiple can be defined to add multiple effects.",
+   "frags": 2
+  },
+  {
+   "k": "17qeaki",
+   "en": "effectFile"
+  },
+  {
+   "k": "1h2xofd",
+   "en": "/Hearts of Iron IV/gfx/FX/*.lua"
+  },
+  {
+   "k": "1hao24z",
+   "en": "⟦0⟧ defines whether or not an image can be clicked on and interacted with. If yes, the image will have no tooltip and can not be clicked on when used in game.",
+   "frags": 1
+  },
+  {
+   "k": "mqbsde",
+   "en": "allwaystransparent"
+  },
+  {
+   "k": "7vskfk",
+   "en": "⟦0⟧ defines whether the image is lazy loaded.",
+   "frags": 1
+  },
+  {
+   "k": "1tsorqi",
+   "en": "legacy_lazy_load"
+  },
+  {
+   "k": "1io3u4b",
+   "en": "⟦0⟧ defines whether the image is bound by its alpha channel with regards to player clicks. Otherwise the bounding box is the image dimensions.",
+   "frags": 1
+  },
+  {
+   "k": "198lxs5",
+   "en": "transparencecheck"
+  },
+  {
+   "k": "1qkzfci",
+   "en": "⟦0⟧ scope is used to add animation to an image. It uses the following attributes:",
+   "frags": 1
+  },
+  {
+   "k": "1qi6vdp",
+   "en": "animation"
+  },
+  {
+   "k": "b2s6di",
+   "en": "⟦0⟧ controls the mask image for the animation.",
+   "frags": 1
+  },
+  {
+   "k": "kex9dz",
+   "en": "animationmaskfile"
+  },
+  {
+   "k": "6jwj2g",
+   "en": "⟦0⟧ controls the color image used for the animation.",
+   "frags": 1
+  },
+  {
+   "k": "1r0osca",
+   "en": "animationtexturefile"
+  },
+  {
+   "k": "xnrt43",
+   "en": "⟦0⟧ controls the rotation of the animation image. By default it is -90 clockwise.",
+   "frags": 1
+  },
+  {
+   "k": "11axgzb",
+   "en": "animationrotation"
+  },
+  {
+   "k": "2w0c6l",
+   "en": "⟦0⟧ controls whether the animation loops.",
+   "frags": 1
+  },
+  {
+   "k": "ur2wrp",
+   "en": "animationlooping"
+  },
+  {
+   "k": "40lppe",
+   "en": "⟦0⟧ controls the duration of the animation. It is measured in seconds.",
+   "frags": 1
+  },
+  {
+   "k": "tt7ha4",
+   "en": "animationtime"
+  },
+  {
+   "k": "bzp8ic",
+   "en": "⟦0⟧ controls the delay between animation loops. It is measured in seconds.",
+   "frags": 1
+  },
+  {
+   "k": "1kje4xs",
+   "en": "animationdelay"
+  },
+  {
+   "k": "n3okcf",
+   "en": "⟦0⟧ controls the blend mode for the animation image. Can be ⟦1⟧, ⟦2⟧ or ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "4f0htf",
+   "en": "animationblendmode"
+  },
+  {
+   "k": "gfk7lg",
+   "en": "add"
+  },
+  {
+   "k": "1ywwjt1",
+   "en": "multiply"
+  },
+  {
+   "k": "8zm1oj",
+   "en": "overlay"
+  },
+  {
+   "k": "1si1rwn",
+   "en": "⟦0⟧ controls the type of animation. Can be ⟦1⟧, ⟦2⟧ or ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "gxnrud",
+   "en": "animationtype"
+  },
+  {
+   "k": "1w6691o",
+   "en": "scrolling"
+  },
+  {
+   "k": "k5twrx",
+   "en": "rotating"
+  },
+  {
+   "k": "tbk3xl",
+   "en": "pulsing"
+  },
+  {
+   "k": "1l4p5fv",
+   "en": "⟦0⟧ controls the ⟦1⟧ and ⟦2⟧ offsets for the rotation.",
+   "frags": 3
+  },
+  {
+   "k": "x4irgs",
+   "en": "animationrotationoffset"
+  },
+  {
+   "k": "19dngxa",
+   "en": "⟦0⟧ controls the scale of the animation image.",
+   "frags": 1
+  },
+  {
+   "k": "ycotgm",
+   "en": "animationtexturescale"
+  },
+  {
+   "k": "f05s7l",
+   "en": "⟦0⟧ sets the number of frames within the animation image.",
+   "frags": 1
+  },
+  {
+   "k": "jn6gaf",
+   "en": "animationframes"
+  },
+  {
+   "k": "wuxe7m",
+   "en": "Be wary that the maximum file size for a sprite .dds files is around 16MB"
+  },
+  {
+   "k": "1ikm53m",
+   "en": "frameAnimatedSpriteType"
+  },
+  {
+   "k": "ubx184",
+   "en": "A ⟦0⟧ asset entry follows this format:",
+   "frags": 1
+  },
+  {
+   "k": "1oxda3z",
+   "en": "⟦0⟧ is the rate at which the animation plays.",
+   "frags": 1
+  },
+  {
+   "k": "rphwes",
+   "en": "animation_rate_fps"
+  },
+  {
+   "k": "1tp5n6z",
+   "en": "⟦0⟧ defines whether the animation loops.",
+   "frags": 1
+  },
+  {
+   "k": "wmftil",
+   "en": "looping"
+  },
+  {
+   "k": "6kq72g",
+   "en": "⟦0⟧ defines whether the animations starts playing when visible.",
+   "frags": 1
+  },
+  {
+   "k": "1nnogsr",
+   "en": "play_on_show"
+  },
+  {
+   "k": "5jw1bg",
+   "en": "⟦0⟧ defines the length of time to pause for after an animation loop.",
+   "frags": 1
+  },
+  {
+   "k": "16sxnim",
+   "en": "pause_on_loop"
+  },
+  {
+   "k": "1fiv2av",
+   "en": "progressbartype"
+  },
+  {
+   "k": "1q9i2am",
+   "en": "A ⟦0⟧ asset entry is used for progress bars. It follows this format:",
+   "frags": 1
+  },
+  {
+   "k": "14y5oxl",
+   "en": "⟦0⟧ is the name you have given to the asset. This may be prefixed with various other segments, such as ⟦1⟧ for idea images, etc. ⟦2⟧ is the image to use for the progress bar. ⟦3⟧ is the image to use for the background of the progress bar. ⟦4⟧ defines the unprogressed color of the bar. It is decimal RGBA. Alpha is optional. ⟦5⟧ defines the progressed color of the bar. It is decimal RGBA. Alpha is optional. ⟦6⟧ defines the size of the progress bar section in height and width. ⟦7⟧ is used to define an effect state to apply to the image, i.e. the button press effect on a button image. Effects are found in ⟦8⟧. Multiple can be defined to add multiple effects. ⟦9⟧ defines whether the progress bar is horizontal or not. By default a bar is horizontal. ⟦10⟧ defines the precision of the progressbar or into how many frames it's split into. Defaults to 100 if unset.",
+   "frags": 11
+  },
+  {
+   "k": "v0cejt",
+   "en": "textureFile1"
+  },
+  {
+   "k": "u6dlgw",
+   "en": "textureFile2"
+  },
+  {
+   "k": "h28rbs",
+   "en": "color"
+  },
+  {
+   "k": "15coedu",
+   "en": "colortwo"
+  },
+  {
+   "k": "9vvq70",
+   "en": "size"
+  },
+  {
+   "k": "nn4oyx",
+   "en": "horizontal"
+  },
+  {
+   "k": "c9ljxw",
+   "en": "steps"
+  },
+  {
+   "k": "gcte4s",
+   "en": "corneredTileSpriteType"
+  },
+  {
+   "k": "1fx75rw",
+   "en": "A ⟦0⟧ asset entry is used for tiling textures that tile to fill the size of the interface element they are used in. It follows this format:",
+   "frags": 1
+  },
+  {
+   "k": "lb03nm",
+   "en": "⟦0⟧ determines the size of the tile.",
+   "frags": 1
+  },
+  {
+   "k": "1xo3u9w",
+   "en": "⟦0⟧ determines the size of the border.",
+   "frags": 1
+  },
+  {
+   "k": "srhbn2",
+   "en": "borderSize"
+  },
+  {
+   "k": "gbpkps",
+   "en": "⟦0⟧ defines whether the center of the image is used for tiling, rather than the top left corner.",
+   "frags": 1
+  },
+  {
+   "k": "11f8re7",
+   "en": "tilingCenter"
+  },
+  {
+   "k": "n50saa",
+   "en": "⟦0⟧ defiens the framerate at which the animation plays.",
+   "frags": 1
+  },
+  {
+   "k": "344au4",
+   "en": "animation_rate_spf"
+  },
+  {
+   "k": "hbho29",
+   "en": "maskedShieldType"
+  },
+  {
+   "k": "h15n63",
+   "en": "A ⟦0⟧ asset entry is used for country shields. It follows this format:",
+   "frags": 1
+  },
+  {
+   "k": "anh983",
+   "en": "⟦0⟧ is the image to use for the shield background",
+   "frags": 1
+  },
+  {
+   "k": "f6ixjj",
+   "en": "⟦0⟧ is the image to use for the shield mask.",
+   "frags": 1
+  },
+  {
+   "k": "1ruv47",
+   "en": "Object Types"
+  },
+  {
+   "k": "149k3vt",
+   "en": "animatedmaptext"
+  },
+  {
+   "k": "1on2cr0",
+   "en": "A ⟦0⟧ asset entry is used for text that appears from the map. It follows this format:",
+   "frags": 1
+  },
+  {
+   "k": "cuiyeu",
+   "en": "⟦0⟧ is the name of the map text. It is not possible to add custom ones.",
+   "frags": 1
+  },
+  {
+   "k": "1ek49nx",
+   "en": "⟦0⟧ is the fade time of the text.",
+   "frags": 1
+  },
+  {
+   "k": "y9my68",
+   "en": "speed"
+  },
+  {
+   "k": "mdfmfo",
+   "en": "⟦0⟧ controls the attributes of the text that appears.",
+   "frags": 1
+  },
+  {
+   "k": "1v4zynv",
+   "en": "textblock"
+  },
+  {
+   "k": "4piv3l",
+   "en": "Font Types"
+  },
+  {
+   "k": "14gmj6e",
+   "en": "textcolors"
+  },
+  {
+   "k": "1ihsei8",
+   "en": "A ⟦0⟧ entry defines the text colors used in localization with the § symbol. It follows this format:",
+   "frags": 1
+  },
+  {
+   "k": "1uj9mj4",
+   "en": "⟦0⟧ is the character used in the localization, i.e. ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1vp2cpd",
+   "en": "symbol"
+  },
+  {
+   "k": "k8qdbg",
+   "en": "⟦0⟧ is the color that the symbol applies. It is integer RGB.",
+   "frags": 1
+  },
+  {
+   "k": "1jzzhp8",
+   "en": "RGB"
+  },
+  {
+   "k": "jakx7r",
+   "en": "bitmapfont"
+  },
+  {
+   "k": "1m3sj5c",
+   "en": "A ⟦0⟧ entry defines a font used in the game. It follows this format:",
+   "frags": 1
+  },
+  {
+   "k": "meibwb",
+   "en": "⟦0⟧ is the reference name of the font for other graphics files.",
+   "frags": 1
+  },
+  {
+   "k": "1vpuirw",
+   "en": "⟦0⟧ is the path to the font. Fonts are found in ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "10rsgfq",
+   "en": "path"
+  },
+  {
+   "k": "11v3p3p",
+   "en": "/Hearts of Iron IV/gfx/fonts/"
+  },
+  {
+   "k": "o1g9ap",
+   "en": "⟦0⟧ is the default color of the font. It is a hexadecimal RGB code.",
+   "frags": 1
+  },
+  {
+   "k": "8qmp32",
+   "en": "⟦0⟧ is the border color of the font. It is a hexadecimal RGB code.",
+   "frags": 1
+  },
+  {
+   "k": "159xyof",
+   "en": "border_color"
+  },
+  {
+   "k": "16dv7dy",
+   "en": "⟦0⟧ is used when there are multiple font images for one font, i.e. to support English and Cyrillic. This is used in place of ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1mzl8v",
+   "en": "fontfiles"
+  },
+  {
+   "k": "173ujry",
+   "en": "⟦0⟧ alters the global textcolors for the font it is nested within.",
+   "frags": 1
+  },
+  {
+   "k": "1gfo81k",
+   "en": "⟦0⟧ offsets the text cursor for the font. Defines the ⟦1⟧ position and then the ⟦2⟧ position.",
+   "frags": 3
+  },
+  {
+   "k": "a9sdoz",
+   "en": "cursor_offset"
+  },
+  {
+   "k": "1fko6pk",
+   "en": "bitmapfont_override"
+  },
+  {
+   "k": "15lqbez",
+   "en": "A ⟦0⟧ entry is used to override a font for a specific locale. It follows this format:",
+   "frags": 1
+  },
+  {
+   "k": "13ub5aw",
+   "en": "⟦0⟧ is the name of the font to override.",
+   "frags": 1
+  },
+  {
+   "k": "2ryxaz",
+   "en": "⟦0⟧ is used when their are multiple font images for one font, i.e. to support English and Cryllic. This is used inplace of ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1fw7rdt",
+   "en": "⟦0⟧ defines which languages this override applies for.",
+   "frags": 1
+  },
+  {
+   "k": "1g1pnko",
+   "en": "languages"
+  },
+  {
+   "k": "59iejl",
+   "en": "Documentation"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "bbbsh0",
+   "en": "List of modifiers"
+  },
+  {
+   "k": "gkat0o",
+   "en": "Scopes"
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "22wvcr",
+   "en": "On actions"
+  },
+  {
+   "k": "10y68xx",
+   "en": "Data structures"
+  },
+  {
+   "k": "icm958",
+   "en": "Flags"
+  },
+  {
+   "k": "1fldcnt",
+   "en": "Event targets"
+  },
+  {
+   "k": "135tw29",
+   "en": "Country tag aliases"
+  },
+  {
+   "k": "xqivz6",
+   "en": "Variables"
+  },
+  {
+   "k": "14wbbvz",
+   "en": "Arrays"
+  },
+  {
+   "k": "wdu62e",
+   "en": "Scripting"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "475d63",
+   "en": "AI focuses"
+  },
+  {
+   "k": "gpz0z1",
+   "en": "Autonomous states"
+  },
+  {
+   "k": "a6cuzg",
+   "en": "Balances of power"
+  },
+  {
+   "k": "14khzdq",
+   "en": "Bookmarks/Scenarios"
+  },
+  {
+   "k": "xrnqxs",
+   "en": "Game rules"
+  },
+  {
+   "k": "1xa6gia",
+   "en": "Buildings"
+  },
+  {
+   "k": "8657g9",
+   "en": "Characters and traits"
+  },
+  {
+   "k": "o977ej",
+   "en": "Cosmetic tags"
+  },
+  {
+   "k": "8zhvfx",
+   "en": "Countries"
+  },
+  {
+   "k": "19eysrz",
+   "en": "Divisions"
+  },
+  {
+   "k": "vwifyo",
+   "en": "Decisions"
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "1xtq0ev",
+   "en": "Equipment"
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "e65ons",
+   "en": "Factions"
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "1cd8sst",
+   "en": "Ideologies"
+  },
+  {
+   "k": "1oopcvp",
+   "en": "Military industrial organizations"
+  },
+  {
+   "k": "k2esk3",
+   "en": "National focuses"
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "uu0bc4",
+   "en": "Scripted GUI"
+  },
+  {
+   "k": "1jzxqx9",
+   "en": "Technologies and doctrines"
+  },
+  {
+   "k": "ur18vw",
+   "en": "Units"
+  },
+  {
+   "k": "j1sac1",
+   "en": "Map"
+  },
+  {
+   "k": "5afzz",
+   "en": "States"
+  },
+  {
+   "k": "8ppvas",
+   "en": "Supply areas"
+  },
+  {
+   "k": "1v2pifw",
+   "en": "Strategic regions"
+  },
+  {
+   "k": "1cffeuu",
+   "en": "Graphical"
+  },
+  {
+   "k": "yolbkg",
+   "en": "Interface"
+  },
+  {
+   "k": "2hqnqn",
+   "en": "Graphical assets"
+  },
+  {
+   "k": "6px9my",
+   "en": "Entities"
+  },
+  {
+   "k": "1n1sxcz",
+   "en": "Posteffects"
+  },
+  {
+   "k": "1fu6htw",
+   "en": "Particles"
+  },
+  {
+   "k": "t16z95",
+   "en": "Fonts"
+  },
+  {
+   "k": "1ig52hy",
+   "en": "Cosmetic"
+  },
+  {
+   "k": "9k7pgr",
+   "en": "Portraits"
+  },
+  {
+   "k": "65pf3n",
+   "en": "Namelists"
+  },
+  {
+   "k": "ohwdis",
+   "en": "Music"
+  },
+  {
+   "k": "1dvvwok",
+   "en": "Sound"
+  },
+  {
+   "k": "ukzedx",
+   "en": "Other"
+  },
+  {
+   "k": "1uzifys",
+   "en": "Console commands"
+  },
+  {
+   "k": "1t5bxxt",
+   "en": "Troubleshooting"
+  },
+  {
+   "k": "1djsobe",
+   "en": "Mod structure"
+  },
+  {
+   "k": "pw0jjk",
+   "en": "Mods"
+  },
+  {
+   "k": "pui2ou",
+   "en": "Nudger"
+  }
+ ]
+}

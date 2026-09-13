@@ -1,0 +1,754 @@
+{
+ "batch": 925,
+ "pages": [
+  "Patch 1.16.X"
+ ],
+ "chars": 14776,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "99ioom",
+   "en": "Afghanistan: Fixed an issue in the 1939 start where Afghanistan started with some focuses completed despite missing their parent focuses"
+  },
+  {
+   "k": "hrq7n0",
+   "en": "Iran: The focus \"One for All, All for One\" no longer uses an unfitting icon"
+  },
+  {
+   "k": "1gnj3zl",
+   "en": "Afghanistan: Fixed an issue where the focus \"Defender of Central Asia\" would sometimes change the capital hub"
+  },
+  {
+   "k": "qz9skr",
+   "en": "Afghanistan: The focus \"Approach Foreign Intelligence Services\" no longer attempts to create two separate agencies when playing as communist"
+  },
+  {
+   "k": "1vqg7k",
+   "en": "Afghanistan: The decision \"Exploit Turko-Persian Heritage\" no longer gets soft-locked if a country gets annexed during a pending invitation"
+  },
+  {
+   "k": "1delme0",
+   "en": "Afghanistan: The decision \"Alliance with the Turkic People\" will no longer be locked saying \"Establishing a Resistance cell in progress\" after a decision is aborted"
+  },
+  {
+   "k": "17v2egn",
+   "en": "Iraq: The focus \"Propose Syrian Unification\" can now be taken even if Syria is a puppet of Vichy France rather than Free France"
+  },
+  {
+   "k": "16rsuje",
+   "en": "Afghanistan: The focus \"Purchase Aircraft\" no longer gives unusable British planes"
+  },
+  {
+   "k": "16z4phz",
+   "en": "Iran: Adds the \"Passive Defense\" agency upgrade as a fallback reward for the focus \"Fund State Intelligence\""
+  },
+  {
+   "k": "7m9rcz",
+   "en": "Afghanistan: Adds fitting focus filters"
+  },
+  {
+   "k": "d1r7lj",
+   "en": "Iran: Adjusted focus branch offsets for the Iranian focus tree and how the Saadabad Pact branch accounts for collapsing focus branches"
+  },
+  {
+   "k": "yoiq7g",
+   "en": "Iraq: Assures that none of the four members of the Golden Square join the Kurdish side when the focus \"Launch a Revolt\" is completed"
+  },
+  {
+   "k": "142guyw",
+   "en": "Afghanistan: The focus \"The Red Threat\" no longer forcibly puts Afghanistan into the Axis"
+  },
+  {
+   "k": "zm84tl",
+   "en": "India: Fixed an issue where fascist UK decolonizing would attempt to turn India into a Dominion rather than a Satellite"
+  },
+  {
+   "k": "19rc1ua",
+   "en": "Iran: The decision \"Destabilize Northern Iraq\" now correctly removes 10% stability rather than adds it"
+  },
+  {
+   "k": "1i859x1",
+   "en": "India: You now need to complete one of the two first railway focuses to complete \"The People's Railway\""
+  },
+  {
+   "k": "1v5lpcs",
+   "en": "India: Fixed an issue where Bhoodan movement would give random states shared building slots"
+  },
+  {
+   "k": "majofz",
+   "en": "India: Fixed an issue where you could take the focus \"Hegemony of the Subcontinent\" before Pakistan spawned"
+  },
+  {
+   "k": "15mdljf",
+   "en": "Added AI strat to have the UK always let a loyal Raj back into the allies if it completed \"Tryst with Destiny\""
+  },
+  {
+   "k": "477g8e",
+   "en": "Iran: Fixed generic portraits not showing in the pool of Iranian Officers"
+  },
+  {
+   "k": "7or5ey",
+   "en": "British focus \"Ceylon Forward Operating Base\" now bypasses correctly"
+  },
+  {
+   "k": "185crmo",
+   "en": "Iraq: Renamed the army national spirit from \"Army\" to \"National Army\""
+  },
+  {
+   "k": "1yyzo1v",
+   "en": "India: The \"Mughal Influence\" state modifier is now removed if the Mughals lose access to the state"
+  },
+  {
+   "k": "1txj7qq",
+   "en": "India: The decision to integrate the Princely States can now be taken even if the Princely states are puppets of the Raj"
+  },
+  {
+   "k": "x9y42p",
+   "en": "Iran: Demand Afghan Territory and Demand Iraqi Territory no longer have broken tooltip names"
+  },
+  {
+   "k": "cwzarv",
+   "en": "Turkish focus \"Reinstate the Darülfünûn-u Şahâne\" no longer bypasses when you are not in a faction, locking you out of a research slot permanently"
+  },
+  {
+   "k": "quohr7",
+   "en": "The state modifier \"Resistant to Occupation\" given to states conquered from India is no longer permanently reapplied in states if India gets capitulated, modifier also doesn't reapply if it was previously removed or the state was given willingly"
+  },
+  {
+   "k": "4ajw34",
+   "en": "Iran: Changed the bypass requirements for Soviet Alignment to prevent blocking if player joins faction manually"
+  },
+  {
+   "k": "a34vf4",
+   "en": "India: Adds a National Spirit that slowly erodes the autonomy of the Princely states if Raj takes the focus \"Mughal Court\""
+  },
+  {
+   "k": "2h04jd",
+   "en": "India: Makes sure the icon for \"Gun And Shell Factory\" shows up rather than the generic icon"
+  },
+  {
+   "k": "dipxpl",
+   "en": "The \"Anglo-Iraqi Treaty\" is now removed if Iraq and the United Kingdom are at war with each other"
+  },
+  {
+   "k": "1sbugw6",
+   "en": "Decisions in \"The Kabul Conference\" now can be taken even decision is cancelled"
+  },
+  {
+   "k": "1f7ek4v",
+   "en": "Removes controlling Maltya from the requirements of \"United Kurdistan\", adds Deir-Az-Zur as requirements instead"
+  },
+  {
+   "k": "15ebu8",
+   "en": "Kurdistans formed from focus trees are now valid for the \"House of Kurds\" achievement"
+  },
+  {
+   "k": "1tifc7h",
+   "en": "Ensured that the player cannot take 'Expand the Imperial Guard' when not non-aligned or have the monarchy in power."
+  },
+  {
+   "k": "k27m45",
+   "en": "India: Removed War Support modifier, reduced Party Popularity and added 60 Political Power to the focus \"All Indian Kishan Sabha\""
+  },
+  {
+   "k": "1367pnm",
+   "en": "Patch 1.16.6, aka \"Operation Brainstorm\", was released on 2025-05-15⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "vql838",
+   "en": "679e"
+  },
+  {
+   "k": "ui9h6r",
+   "en": "Prototype Vehicles pack"
+  },
+  {
+   "k": "njoynl",
+   "en": "New 3D models added for prototype vehicles for Australia, Belgium, Canada, Czech Republic, United Kingdom, France, Germany, Netherlands, Italy, Japan, Poland, Soviet Union, and USA. See: Dev Diary - Prototype Vehicles Unit Pack"
+  },
+  {
+   "k": "pen994",
+   "en": "Non-NSB Improved Medium Tank, Advanced Medium Tank, Improved Medium Tank Destroyer and Advanced Medium Tank Destroyers now have hardness value of 90%"
+  },
+  {
+   "k": "17xhulq",
+   "en": "Close support gun soft attack reduced to 22 from 25"
+  },
+  {
+   "k": "1kq86ec",
+   "en": "Self-Propelled Anti-Air brigades now have a baseline +15% air attack modifier"
+  },
+  {
+   "k": "1onjazb",
+   "en": "Self-Propelled Artillery brigades now have a +15% baseline soft attack value"
+  },
+  {
+   "k": "mx0vtf",
+   "en": "Tank Destroyer brigades now have a +15% baseline piercing modifier"
+  },
+  {
+   "k": "1a4dwyl",
+   "en": "Tank Designer: Anti-Air cannon 2 now has 32 Air Attack from 36, and 18 piercing from 20"
+  },
+  {
+   "k": "1skn45i",
+   "en": "Anti-Air cannon 3 now has 24 piercing from 30"
+  },
+  {
+   "k": "1e27u09",
+   "en": "Auto-Loader reduced to 1.5 IC cost from 2.5"
+  },
+  {
+   "k": "varh68",
+   "en": "Dozer blade IC cost reduced to 1 from 2"
+  },
+  {
+   "k": "1f1bsr0",
+   "en": "Easy Maintenance module increased to a 10% cost reduction, from 5%"
+  },
+  {
+   "k": "58xyka",
+   "en": "Upgrading MIO on equipment no longer costs XP. Choosing to upgrade equipment via the checkbox or by using the MIO queue will automatically update any production lines producing said equipment for no additional cost or production efficiency loss."
+  },
+  {
+   "k": "1x14i0b",
+   "en": "Easy maintenance reduced to -7.5% from 10% cost reduction"
+  },
+  {
+   "k": "121b8j0",
+   "en": "The redundant words \"Chassis\", \"Airframe\", and \"Hull\" have been removed from most instances of equipment designer templates. These classifications were already implied."
+  },
+  {
+   "k": "1vs1ipr",
+   "en": "Fixed gfx issue where airplanes crashing into ground would remain for a while"
+  },
+  {
+   "k": "1v9yee",
+   "en": "Fixed leader portrait not updating correctly in naval combat window"
+  },
+  {
+   "k": "xmkt1k",
+   "en": "Fixed state tooltip showing buildings under construction"
+  },
+  {
+   "k": "1p0jxds",
+   "en": "Fixed equipment design discount disappearing when saving and re-loading"
+  },
+  {
+   "k": "oic9hp",
+   "en": "Advisor portrait will be colored if available but not affordable"
+  },
+  {
+   "k": "1ra7xew",
+   "en": "Fixed issue with 3D model selector for helicopters"
+  },
+  {
+   "k": "1tjwq6b",
+   "en": "PZL P.23 now has a proper GFX icon assigned to it"
+  },
+  {
+   "k": "1litrok",
+   "en": "Fix issue where the AI would automatically deplete its stockpile of missiles"
+  },
+  {
+   "k": "8en9ka",
+   "en": "Fixed empty string in land lease notification window"
+  },
+  {
+   "k": "1fao9zt",
+   "en": "Germany's Communist Influence sprit that it can apply to other countries will no longer cause a civil war when timed out if the amount of communist support in the country is insufficient"
+  },
+  {
+   "k": "11b0kgb",
+   "en": "Fixed a crash when deleting units that would get reassigned to a fallback order"
+  },
+  {
+   "k": "usj4go",
+   "en": "It is now possible to get the Shaken Not Stirred achievement"
+  },
+  {
+   "k": "1ih4v6k",
+   "en": "Construct Aircraft Carrier focus can be started without MtG"
+  },
+  {
+   "k": "1ga4sbr",
+   "en": "Ispettorato dei Mezzi Antisommergibili focus can be started without MTG"
+  },
+  {
+   "k": "x5miji",
+   "en": "Grosskampfschiff Construction focus can be started without MtG"
+  },
+  {
+   "k": "1yn2uc2",
+   "en": "Soviet: Fixed spelling of acclimatization for adaptable army"
+  },
+  {
+   "k": "134f3sr",
+   "en": "Command power above define_max+1advisor will no longer be removed upon loading a savegame"
+  },
+  {
+   "k": "1h1dqo4",
+   "en": "Partial fix for RK resistance management and compliance: RKs now correctly get their intended 25% compliance as part of the leader installation event after they're created."
+  },
+  {
+   "k": "p4e8p",
+   "en": "Integrating the Volkskommissariat now correctly adds compliance"
+  },
+  {
+   "k": "rpyu0h",
+   "en": "Niche will now rest to the default niche for the chassis when loading an equipment design"
+  },
+  {
+   "k": "j2aw3c",
+   "en": "India: Fixed the partition event triggering incorrectly when going down the Loyalty Branch"
+  },
+  {
+   "k": "a38crw",
+   "en": "Fix equipment icon selection buttons sometimes not displaying correctly"
+  },
+  {
+   "k": "1ibcrc5",
+   "en": "Iraq now sticks closer to the actual dates for historical events (such as breaking the treaty)"
+  },
+  {
+   "k": "4afxqy",
+   "en": "Patch 1.16.7, was released on 2025-05-20⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "m2ydj8",
+   "en": "107e"
+  },
+  {
+   "k": "1hcnva3",
+   "en": "You can once again upgrade MIO on basic equipment if you chose not to upgrade it automatically"
+  },
+  {
+   "k": "niockh",
+   "en": "Patch 1.16.8, was released on 2025-05-22⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1jube2l",
+   "en": "61fe"
+  },
+  {
+   "k": "lw19wx",
+   "en": "Germany: Fixed an issue where AI Austria would always reject Anschluss with historical settings turned off."
+  },
+  {
+   "k": "1xgn2eb",
+   "en": "Fixed an issue where MIO selection persists across different equipment windows, which allowed using MIO for unsupported equipment."
+  },
+  {
+   "k": "cwm3ca",
+   "en": "Patch 1.16.9, was released on 2025-06-16⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "17m6rrx",
+   "en": "c09b"
+  },
+  {
+   "k": "trghni",
+   "en": "Afghanistan The Focus 'Socialist Coup' can now be bypassed if they are already Communist, and the coup can be performed peacefully if there is more than 60% Communism support in the country Countries will be more likely to accept your confederation with Pakistan if they are in the same Faction as you The focus 'Reform the Quami' now grants an additional 10% recruitable population factor"
+  },
+  {
+   "k": "lgytk7",
+   "en": "The Focus 'Socialist Coup' can now be bypassed if they are already Communist, and the coup can be performed peacefully if there is more than 60% Communism support in the country"
+  },
+  {
+   "k": "3hh6yd",
+   "en": "Countries will be more likely to accept your confederation with Pakistan if they are in the same Faction as you"
+  },
+  {
+   "k": "xoui4q",
+   "en": "The focus 'Reform the Quami' now grants an additional 10% recruitable population factor"
+  },
+  {
+   "k": "fziqrw",
+   "en": "Removed hostile armor speed factor from German Blitzkrieg operational planning modifier; this modifier only half-worked by virtue of a bug that has now been fixed"
+  },
+  {
+   "k": "1vlpmj3",
+   "en": "Afghanistan Mohammed Daoud Khan now becomes a general if going down the Nufus branch Added a focus to the Quami branch that allows for the production of cheaper, but less efficient rifles The army branch now contains two focuses relating to utilizing Camels in the military, with one of the focuses requiring Battle for the Bosphorus Added a focus to the industrial branch to expand the Spinzar Cotton Factory, granting two more civilian factories Added a focus accessible to the non-aligned/democratic branches about constructing a national identity, gaining strong bonuses after some investment Added new focuses to the Nufus military branch, to gain a larger army, and potentially seek mutual guarantees with Turkey Added a strong capstone focus to the Nufus branch that references the historical title of the Royal Afghan Army; Prussians of the Orient Added 4 new political advisors Added Traditionalist Paths to the Against Kabul Branch Added three new low-probability expansionist AI Strategy Plans"
+  },
+  {
+   "k": "lkao68",
+   "en": "Mohammed Daoud Khan now becomes a general if going down the Nufus branch"
+  },
+  {
+   "k": "s931b6",
+   "en": "Added a focus to the Quami branch that allows for the production of cheaper, but less efficient rifles"
+  },
+  {
+   "k": "1aubxlx",
+   "en": "The army branch now contains two focuses relating to utilizing Camels in the military, with one of the focuses requiring Battle for the Bosphorus"
+  },
+  {
+   "k": "36079d",
+   "en": "Added a focus to the industrial branch to expand the Spinzar Cotton Factory, granting two more civilian factories"
+  },
+  {
+   "k": "wge4vx",
+   "en": "Added a focus accessible to the non-aligned/democratic branches about constructing a national identity, gaining strong bonuses after some investment"
+  },
+  {
+   "k": "9tzh5r",
+   "en": "Added new focuses to the Nufus military branch, to gain a larger army, and potentially seek mutual guarantees with Turkey"
+  },
+  {
+   "k": "1vg2nye",
+   "en": "Added a strong capstone focus to the Nufus branch that references the historical title of the Royal Afghan Army; Prussians of the Orient"
+  },
+  {
+   "k": "qgi7k1",
+   "en": "Added 4 new political advisors"
+  },
+  {
+   "k": "1stdlke",
+   "en": "Added Traditionalist Paths to the Against Kabul Branch"
+  },
+  {
+   "k": "1b0we11",
+   "en": "Added three new low-probability expansionist AI Strategy Plans"
+  },
+  {
+   "k": "1dcsgak",
+   "en": "France Improved the description of the focus \"Fatherland\""
+  },
+  {
+   "k": "1f4edqn",
+   "en": "Improved the description of the focus \"Fatherland\""
+  },
+  {
+   "k": "1db3fep",
+   "en": "India Added a news event for the formation of the East India Company Added a news event for the Royal Indian navy Mutiny when India flips communist Added a news event for the Death Knell of the Raj Overlords capitulating now always gives half progress to next autonomy level, disregarding of which autonomy level it currently is"
+  },
+  {
+   "k": "pb867h",
+   "en": "Added a news event for the formation of the East India Company"
+  },
+  {
+   "k": "zxb4u1",
+   "en": "Added a news event for the Royal Indian navy Mutiny when India flips communist"
+  },
+  {
+   "k": "zallre",
+   "en": "Added a news event for the Death Knell of the Raj"
+  },
+  {
+   "k": "jk3317",
+   "en": "Overlords capitulating now always gives half progress to next autonomy level, disregarding of which autonomy level it currently is"
+  },
+  {
+   "k": "p0yluj",
+   "en": "Fixed an issue where army composition summary in frontline tooltip would show incorrect information"
+  },
+  {
+   "k": "blc9uo",
+   "en": "Added the option to disable map corner scrolling while keyboard navigation remains enabled"
+  },
+  {
+   "k": "vpz7a",
+   "en": "Added hotkey for accepting diplomatic requests quickly by Shift + Left Clicking top bar alerts"
+  },
+  {
+   "k": "13rkbwl",
+   "en": "Performance"
+  },
+  {
+   "k": "1v21kgz",
+   "en": "Improved multiplayer save file transfer speed significantly, which should help resyncing to be much faster than before"
+  },
+  {
+   "k": "5gi6w7",
+   "en": "Added \"after\" (as opposed to \"immediate\") effect scope for events"
+  },
+  {
+   "k": "1n82b3u",
+   "en": "Bug Fixes"
+  },
+  {
+   "k": "pdih02",
+   "en": "Afghanistan You will no longer lose your own core states when gaining Tajikistan or Turkmenistan as allies when declaring war on the Soviets after having completed the focus \"Alliance with Turkic Peoples\""
+  },
+  {
+   "k": "152w7h0",
+   "en": "You will no longer lose your own core states when gaining Tajikistan or Turkmenistan as allies when declaring war on the Soviets after having completed the focus \"Alliance with Turkic Peoples\""
+  },
+  {
+   "k": "1f3scvn",
+   "en": "India Pakistan and Bangladesh will no longer be counted as Princely States that break away from the Raj when declaring war as the Mughal Empire after having completed the focus \"Revolt of the Princes\" Fixed an instance where UK could swap India communist by completing decolonization while a dynamic india tag existed"
+  },
+  {
+   "k": "1orshn6",
+   "en": "Pakistan and Bangladesh will no longer be counted as Princely States that break away from the Raj when declaring war as the Mughal Empire after having completed the focus \"Revolt of the Princes\""
+  },
+  {
+   "k": "b6qnfj",
+   "en": "Fixed an instance where UK could swap India communist by completing decolonization while a dynamic india tag existed"
+  },
+  {
+   "k": "av56j3",
+   "en": "Iraq Muhammad Amin Zaki now correctly becomes available if you complete the Encourage Federalism focus"
+  },
+  {
+   "k": "1twn7yo",
+   "en": "Muhammad Amin Zaki now correctly becomes available if you complete the Encourage Federalism focus"
+  },
+  {
+   "k": "13skvpk",
+   "en": "Turkey The turkish focus \"Taking over Defense of the Gulf\" will no longer allow Britain to transfer states it does not own and control to Turkey"
+  },
+  {
+   "k": "17r2is0",
+   "en": "The turkish focus \"Taking over Defense of the Gulf\" will no longer allow Britain to transfer states it does not own and control to Turkey"
+  },
+  {
+   "k": "1aapb9q",
+   "en": "United States of America Fixed an issue where America could not flip fascist because a decision was hidden"
+  },
+  {
+   "k": "k7kvw0",
+   "en": "Fixed an issue where America could not flip fascist because a decision was hidden"
+  },
+  {
+   "k": "1qklbtu",
+   "en": "Fixed an issue where installing modules did not play sound effects when MTG was disabled"
+  },
+  {
+   "k": "1ovn8za",
+   "en": "Fixed issue where random character names would not apply to modifier tooltip"
+  },
+  {
+   "k": "jqnslf",
+   "en": "Fixed tooltip showing wrong country in naval combat"
+  },
+  {
+   "k": "64w3f",
+   "en": "Fixed laws not applying to revolter in civil war"
+  },
+  {
+   "k": "1mdp1pn",
+   "en": "Fixed an issue where alternate icon settings would inadvertently revert to default settings"
+  },
+  {
+   "k": "x5a16k",
+   "en": "Fixed an issue where Diplomatic Pressure would be set to zero after reloading a game"
+  },
+  {
+   "k": "evug43",
+   "en": "Fixed an issue where having the Diplomacy window open would highlight the International Market icon in the top bar"
+  },
+  {
+   "k": "1dlchj",
+   "en": "Naval Aircraft MIO archetype now actually adds Naval Attack / Naval Targeting / Sub Detection and Surface Detection to their planes."
+  },
+  {
+   "k": "cy74vy",
+   "en": "Changed display of matching MIOs in production line creation from \"available / total\" to just \"total\" due to obsolete differentiation"
+  },
+  {
+   "k": "ujk95q",
+   "en": "Fixed an issue where generals could be displayed as belonging to the wrong nationality in the Battle window"
+  },
+  {
+   "k": "17kkrc1",
+   "en": "Fixed an issue where the custom rule for Maximum Fort Level would not be applied correctly"
+  },
+  {
+   "k": "o604ci",
+   "en": "Fixed an issue where strait highlighting could get stuck when switching from the navy map mode"
+  }
+ ]
+}

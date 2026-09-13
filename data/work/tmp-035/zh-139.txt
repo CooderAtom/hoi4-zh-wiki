@@ -1,0 +1,204 @@
+⟦0⟧ 合同中的卖方。buyer = <country> 合同中的买方。civilian_factories = <int> 合同所需的民用工厂数量。equipment = { ... } 合同所涉及的装备。具体而言，包含以下属性：type = <archetype> 装备的原型。amount = <int> 指定装备的数量。
+seller = <country>
+buyer = <country>
+civilian_factories = <int>
+equipment = { ... }
+⟦0⟧ 装备的原型。
+⟦0⟧ 指定装备的数量。
+create_purchase_contract = { seller = ROOT buyer = FROM civilian_factories = 2 equipment = { type = artillery_equipment amount = 300 } }
+创建带有指定参数的采购合同。
+允许多次使用⟦0⟧。
+边境战争
+这些效果指的是模拟两国边境作战的边境战争，发生战斗的省份会以白色高亮显示。关于以州上的橙色条纹表示的、基于州的边境战争，请参见州作用域中的⟦0⟧。
+set_border_war
+边境战争相关的任意作用域效果：
+start_border_war
+⟦0⟧ 战后该州是否易手。攻击方或防御方作用域 state = <id> / <variable> 该方作战所在的州。num_provinces = <id> 该州中使用的省份数量。on_win = <id> 该方获胜时触发的事件。on_lose = <id> 该方失败时触发的事件。on_cancel = <id> 该方打平时触发的事件。modifier = <decimal> 战斗修正。默认为 0。dig_in_factor = <decimal> 应用于掘壕固守加成的修正。默认为 1。terrain_factor = <decimal> 应用于地形加成的修正。默认为 1。
+change_state_after_war = <bool>
+攻击方或防御方作用域
+state = <id> / <variable>
+num_provinces = <id>
+on_win = <id>
+on_lose = <id>
+on_cancel = <id>
+modifier = <decimal>
+dig_in_factor = <decimal>
+terrain_factor = <decimal>
+start_border_war = { change_state_after_war = no attacker = { state = 527 num_provinces = 4 on_win = japan_border_conflict.2 on_lose = japan_border_conflict.3 on_cancel = japan_border_conflict.4 modifier = 0.1 dig_in_factor = 0 terrain_factor = 0 } defender = { state = 408 num_provinces = 4 on_win = japan_border_conflict.3 on_lose = japan_border_conflict.2 on_cancel = japan_border_conflict.4 } }
+为指定的攻击方和防御方开启一场边境战争。参战国家为指定州的拥有者。
+set_border_war_data
+⟦0⟧ 攻击方的州。defender = <id> / <variable> 防御方的州。attacker_modifier = <id> / <variable> 应用于攻击方兵力的修正。defender_modifier = <id> / <variable> 应用于防御方兵力的修正。combat_width = <id> / <variable> 边境战争战斗中所用的战斗宽度。
+attacker = <id> / <variable>
+defender = <id> / <variable>
+attacker_modifier = <id> / <variable>
+defender_modifier = <id> / <variable>
+combat_width = <id> / <variable>
+set_border_war_data = { attacker = 527 defender = 408 defender_modifier = 0.15 combat_width = 100 }
+设置进行中的边境战争中攻击方和防御方的加成或惩罚。在⟦0⟧之后使用。
+cancel_border_war
+⟦0⟧ 攻击方的州。defender = <id> / <variable> 防御方的州。dont_fire_events = <bool> 阻止 start_border_war 中的事件触发。
+dont_fire_events = <bool>
+cancel_border_war = { dont_fire_events = yes defender = 408 attacker = 527 }
+在没有获胜者的情况下取消进行中的边境战争。
+finalize_border_war
+⟦0⟧ 攻击方的州。defender = <id> / <variable> 防御方的州。attacker_win = <bool> 使攻击方成为获胜者。defender_win = <bool> 使防御方成为获胜者。
+attacker_win = <bool>
+defender_win = <bool>
+finalize_border_war = { attacker_win = yes attacker = 527 defender = 408 }
+结束进行中的边境战争。
+本节转引自⟦0⟧
+以下是与变量相关的效果和触发器列表。修改变量的效果都有对应的临时变量版本，只是用⟦0⟧代替⟦1⟧，且这些临时变量运算符同样可作为触发器使用，如上所述。每个运算符都可以用于不存在的变量，此时假定其值为 0，除非使用了空值合并运算符。
+temp_variable
+variable
+set_variable
+⟦0⟧ 要修改或创建的变量。value = <decimal>/<variable> 要将变量设成的值。tooltip = localisation_key 该操作使用的本地化。可选。
+value = <decimal>/<variable>
+tooltip = localisation_key
+set_variable = { var = my_variable value = 100 tooltip = set_var_to_100_tt } set_temp_variable = { temp_var = ROOT.overlord }
+将变量的值设为指定数值，若未定义则创建该变量。
+存在使用⟦0⟧的简写版本。
+set_variable = { <variable> = <value> }
+set_variable_to_random
+⟦0⟧ 要修改或创建的变量。min = <decimal> 最小可能值，默认为 0。max = <decimal> 最大可能值，默认为 1。integer = <bool> 设置该变量必须是整数还是可以为小数。默认为 false。
+min = <decimal>
+max = <decimal>
+integer = <bool>
+必须
+set_variable_to_random = { var = random_num max = 11 integer = yes } set_temp_variable_to_random = my_var
+将变量的值设为指定数值，若未定义则创建该变量。结果将大于或等于最小值，且严格小于最大值。
+存在使用⟦0⟧的简写版本，会将其设为 0 到 1 之间的小数。可用于触发器。
+set_variable_to_random = <variable>
+clear_variable
+⟦0⟧ 要清除的变量。
+clear_variable = my_variable
+将该值从内存中完全清除。
+只能用于常规变量。
+add_to_variable
+⟦0⟧ 要增加的变量。value = <decimal>/<variable> 要为该变量增加的值。tooltip = localisation_key 该操作使用的本地化。可选。
+add_to_variable = { var = my_variable value = 100 tooltip = add_100_to_var_tt } add_to_temp_variable = { temp_var = num_owned_states }
+将变量的值增加指定数值，若未定义则创建该变量。
+add_to_variable = { <variable> = <value> }
+subtract_from_variable
+⟦0⟧ 要减小的变量。value = <decimal>/<variable> 要从该变量中减去的值。tooltip = localisation_key 该操作使用的本地化。可选。
+subtract_from_variable = { var = my_variable value = 100 tooltip = sub_100_from_var_tt } subtract_from_temp_variable = { temp_var = num_owned_states }
+将变量的值减少指定数值，若未定义则创建该变量。
+存在使用⟦0⟧的简写版本。等同于加上一个负值。
+subtract_from_variable = { <variable> = <value> }
+multiply_variable
+⟦0⟧ 要相乘的变量。value = <decimal>/<variable> 与该变量相乘的值。tooltip = localisation_key 该操作使用的本地化。可选。
+multiply_variable = { var = my_variable value = 100 tooltip = multiply_var_by_100_tt } multiply_temp_variable = { temp_var = num_owned_states }
+将变量的值乘以指定数值。
+multiply_variable = { <variable> = <value> }
+divide_variable
+⟦0⟧ 要相除的变量。value = <decimal>/<variable> 用来除该变量的值。tooltip = localisation_key 该操作使用的本地化。可选。
+divide_variable = { var = my_variable value = 100 tooltip = divide_var_by_100_tt } divide_temp_variable = { temp_var = num_owned_states }
+将变量的值除以指定数值。
+divide_variable = { <variable> = <value> }
+modulo_variable
+⟦0⟧ 要求模的变量。value = <decimal>/<variable> 对该变量取模所用的值。tooltip = localisation_key 该操作使用的本地化。可选。
+modulo_variable = { var = my_variable value = 50 tooltip = get_modulo_of_var_by_50_tt } modulo_temp_variable = { temp_var = num_controlled_states }
+使变量变为该变量除以指定值后欧几里得除法的余数。
+modulo_variable = { <variable> = <value> }
+round_variable
+⟦0⟧ 要取整的变量。
+round_variable = my_variable round_temp_variable = temp
+将变量舍入到最接近的整数值。
+若恰好位于两个整数之间（例如 1.5），则选择绝对值更大的那个（如 -1.5 将变为 -2）。
+clamp_variable
+⟦0⟧ 要限制的变量。min = <decimal>/<variable> 限制后变量的最小值。max = <decimal>/<variable> 限制后变量的最大值。
+min = <decimal>/<variable>
+max = <decimal>/<variable>
+clamp_variable = { var = my_var min = 0 } clamp_temp_variable = { var = my_var min = 0 }
+将变量限制在两个指定数值之间：若更小则提升到最小值，若更大则降低到最大值。
+min 或 max 可以省略，此时不会检查该项。若变量已处于 min 与 max 之间的范围内，则不做任何操作。⟦0⟧，限制后它仍可能超出最小值或最大值。
+这只会改变变量的当前值
+career_profile_set_temp_playthrough_variable
+⟦0⟧ 要修改或创建的变量。value = <decimal>/<variable> 要将变量设成的值。
+career_profile_set_temp_playthrough_variable = { sum = rocket_sites_built_1936 }
+将一个临时变量设为一个值或另一个变量。
+career_profile_set_temp_variable
+career_profile_set_temp_variable = { var = num_dogs value = num_dogs_in_career_profile }
+数组
+另见：⟦0⟧
+add_to_array
+⟦0⟧ 要修改的数组。value = <decimal>/<variable> 要添加的变量。index = <integer> 将该变量放入数组中的索引位置。可选，默认为数组末尾。
+array = <array>
+index = <integer>
+add_to_array = { array = global.my_countries value = THIS.id } add_to_temp_array = { temp_states = THIS }
+向数组添加一个元素，可指定索引位置，否则默认添加到末尾。
+add_to_array = { <array> = <value> }
+remove_from_array
+⟦0⟧ 要修改的数组。value = <decimal>/<variable> 要移除的变量。可选。index = <integer> 要从数组中移除该变量的索引位置。可选。
+remove_from_array = { array = global.my_countries index = 0 } remove_from_temp_array = { temp_states = THIS }
+从数组中移除具有指定值或索引的元素。
+存在使用⟦0⟧的简写版本。若既未指定 value 也未指定 index，则删除最后一个元素。
+remove_from_array = { <array> = <value> }
+clear_array
+⟦0⟧ 要清空的数组。
+<array>
+clear_array = global.my_countries clear_temp_array = temp_states
+清空数组，移除其中的所有元素。
+resize_array
+⟦0⟧ 要修改的数组。value = <decimal>/<variable> 若尺寸大于数组当前大小，则要添加到数组中的变量。可选，默认为 0。size = <integer> 调整大小后数组内的元素数量。
+size = <integer>
+resize_array = { array = global.countries_by_states value = 10 size = global.countries^num } resize_temp_array = { temp_states = 20 }
+调整数组大小，必要时在末尾移除或添加元素。
+resize_array = { <array> = <size> }
+find_highest_in_array
+⟦0⟧ 要修改的数组。value = <variable> 用于存储最大值的临时变量。index = <variable> 用于存储最大值索引的临时变量。
+value = <variable>
+index = <variable>
+find_highest_in_array = { array = global.countries_by_states value = temp_largest_country index = temp_country_index }
+找出数组中的最大值，并将其值与索引赋给一个临时变量。
+value 和 index 均为可选指定。
+find_lowest_in_array
+⟦0⟧ 要修改的数组。value = <variable> 用于存储最小值的临时变量。index = <variable> 用于存储最小值索引的临时变量。
+find_lowest_in_array = { array = global.countries_by_states value = temp_largest_country index = temp_country_index }
+找出数组中的最小值，并将其值与索引赋给一个临时变量。
+此处的效果必须在⟦0⟧作用域内使用。
+通用国家作用域效果：
+set_country_flag
+⟦0⟧ 用于标识该国家旗标的唯一字符串。或 flag = <flag> 要设置的旗标。days = <int> 设置旗标持续的指定天数。可选。value = <int> 旗标的新值，取值范围从 -2 147 483 648 到 2 147 483 647。
+set_country_flag = my_flag set_country_flag = { flag = my_flag days = 123 value = 1 }
+定义一个国家旗标。
+不显示工具提示。⟦0⟧ ⟦1⟧
+要更改代表国家的旗帜，请参见⟦0⟧
+外观标签。
+clr_country_flag
+⟦0⟧ 要清除的国家旗标的唯一字符串。
+clr_country_flag = my_flag
+清除已定义的国家旗标。
+modify_country_flag
+modify_country_flag = { flag = my_flag value = 3 }
+country_event
+⟦0⟧ 要触发的事件。days = <int> / <variable> 在指定天数后触发该事件。可选。hours = <int> / <variable> 在指定小时数后触发该事件。可选。random_hours = <int> / <variable> 为计划的触发时间增加一个随机小时数（0 到 random_hours 之间，含两端）。可选。random_days = <int> / <variable> 为计划的触发时间增加一个随机天数（0 到 random_days 之间，含两端）。可选。
+id = <event>
+days = <int> / <variable>
+hours = <int> / <variable>
+random_hours = <int> / <variable>
+random_hours
+hours
+random_days = <int> / <variable>
+random_days
+country_event = { id = my_event.1 days = 10 random_hours = 12 random_days = 10 } country_event = my_event.1
+为当前国家触发指定事件。
+在触发器无需反复检查的情况下，⟦0⟧ 可作为比 ⟦1⟧ 更轻量的排定事件方式。若使用事件 ID 而非参数，则存在简写形式。
+random
+mean_time_to_happen
+news_event
+news_event = { id = my_event.1 days = 10 random_hours = 12 random_days = 10 } news_event = my_event.1
+为当前国家触发指定新闻事件。
+新闻事件使用的界面与国家事件不同。在触发器无需反复检查的情况下，random 可作为比 mean_time_to_happen 更轻量的排定事件方式。若使用事件 ID 而非参数，则存在简写形式。
+set_cosmetic_tag
+⟦0⟧ 要切换到的外观标签。
+set_cosmetic_tag = SAF_SOV_communism
+使当前作用域使用指定的外观标签，更改名称与旗帜。
+drop_cosmetic_tag
+drop_cosmetic_tag = yes
+使当前作用域放弃其正在使用的外观标签。
+set_rule
+⟦0⟧ 布尔值。desc = <localisation key> 用作设置该规则原因的说明的本地化。
+<rule>
+desc = <localisation key>
+set_rule = { desc = TAG_my_rule_description can_create_factions = yes }
+切换当前作用域的特殊游戏规则。注意：每条规则只能切换少数几次，之后需要重新载入。

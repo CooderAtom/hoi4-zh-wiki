@@ -1,0 +1,904 @@
+{
+ "batch": 64,
+ "pages": [
+  "Air warfare"
+ ],
+ "chars": 14940,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1f1kj4r",
+   "en": "⟦0⟧ consists of the deployment of air wings to ⟦1⟧, where they can undertake ⟦2⟧ targeting enemy air forces, ⟦3⟧, ⟦4⟧ or buildings. Given that air warfare is the only type that directly affects all three types of combat (on top of the strategic targeting), the air war is something the player must take into account when devising successful strategies.",
+   "frags": 5
+  },
+  {
+   "k": "gik2td",
+   "en": "Air warfare"
+  },
+  {
+   "k": "aw9l30",
+   "en": "strategic regions"
+  },
+  {
+   "k": "1t04yv2",
+   "en": "missions"
+  },
+  {
+   "k": "f8wgh7",
+   "en": "land units"
+  },
+  {
+   "k": "1xl92no",
+   "en": "naval units"
+  },
+  {
+   "k": "ugigbi",
+   "en": "Deployment"
+  },
+  {
+   "k": "1rkcpf7",
+   "en": "Air warfare is managed in the corresponding ⟦0⟧. Most air operations work on the scale of ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "7khmti",
+   "en": "strategic air map mode"
+  },
+  {
+   "k": "1qizwbs",
+   "en": "Air base"
+  },
+  {
+   "k": "1iakyl",
+   "en": "⟦0⟧ are needed for the operation of aircraft. They are ⟦1⟧ buildings, which may be constructed or repaired at the ⟦2⟧ screen. In contrast to other state-wide buildings, air bases are located in a specific ⟦3⟧ (which is fixed per state) and control of this province determines who can use the air base. When an air base gets captured, planes automatically relocate to other air bases if available and won't be lost.",
+   "frags": 4
+  },
+  {
+   "k": "1p7ntz5",
+   "en": "Air bases"
+  },
+  {
+   "k": "lpvvq6",
+   "en": "state-wide"
+  },
+  {
+   "k": "j6p9kc",
+   "en": "Construction"
+  },
+  {
+   "k": "71r0hx",
+   "en": "province"
+  },
+  {
+   "k": "serueh",
+   "en": "Capacity"
+  },
+  {
+   "k": "qbc8w",
+   "en": "Each land-based ⟦0⟧ can support 200⟦1⟧ planes per base level without any penalties. The maximum air base level is 10⟦2⟧, for a maximum of 2000 aircraft. All types of planes may be located at these air bases, including carrier-capable models.",
+   "frags": 3
+  },
+  {
+   "k": "1f8ksix",
+   "en": "Naval carriers can operate as air bases at sea. The number of planes they can support without penalties is based on their deck space stat. Most carriers can only support carrier-capable aircraft, though ice carriers can support all types of planes."
+  },
+  {
+   "k": "11e7byy",
+   "en": "The capacity of an air base is shared between allies. The tooltip for the air base shows the total number of planes located there (and a list of the countries with air wings and the types of planes). If the total number of stationed planes exceeds the capacity, every additional percent of planes causes a ⟦0⟧ overcrowding penalty. At ⟦1⟧ overcapacity, the penalty reaches ⟦2⟧, preventing any planes from flying from the air base. It is therefore very important to manage available capacity and to quickly rebase planes off of overfilled air bases.",
+   "frags": 3
+  },
+  {
+   "k": "1f2v3v",
+   "en": "Air bases can be damaged by ⟦0⟧ . Damage will reduce the capacity the base can hold until it is repaired.",
+   "frags": 1
+  },
+  {
+   "k": "awdg68",
+   "en": "strategic bombing missions"
+  },
+  {
+   "k": "jcryck",
+   "en": "Carrier fleets"
+  },
+  {
+   "k": "1e0gadc",
+   "en": "⟦0⟧ act as additional, floating air bases. Their capacity is determined by the ⟦1⟧ stat of the ship. Most carriers can only support carrier-capable aircraft, though ice carriers can support all types of planes.",
+   "frags": 2
+  },
+  {
+   "k": "3j0wuw",
+   "en": "Aircraft carriers"
+  },
+  {
+   "k": "37ofxl",
+   "en": "deck size"
+  },
+  {
+   "k": "3vmenz",
+   "en": "Planes on aircraft carriers automatically participate in naval battles when they are not assigned on missions and/or if the aircraft carrier is assigned to a mission. Air wings on carriers ⟦0⟧ (not on any ⟦1⟧) outside of ports can perform ⟦2⟧, just like any other aircraft. This can be useful to provide close air support for an amphibious invasion when other bases are out of range, to exercise untrained air wings so that they perform better in naval battles, or to hunt unescorted enemy naval patrol bombers from outside their bombing range, among others.",
+   "frags": 3
+  },
+  {
+   "k": "1h14y0t",
+   "en": "on hold"
+  },
+  {
+   "k": "hb6a0m",
+   "en": "naval missions"
+  },
+  {
+   "k": "k91i7i",
+   "en": "air missions"
+  },
+  {
+   "k": "1s2bqpz",
+   "en": "Hosting too many planes on an aircraft carrier applies the same penalty to their ability to operate as for land-based airbases. However, this penalty can be reduced with the ⟦0⟧ naval doctrine. In naval battles, it can also be counteracted by having more than 100% ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "hccwer",
+   "en": "Massed Strikes"
+  },
+  {
+   "k": "1ai7oa0",
+   "en": "sortie efficiency"
+  },
+  {
+   "k": "1hg2ene",
+   "en": "Air wing"
+  },
+  {
+   "k": "b9lw1f",
+   "en": "Air wings are a ⟦0⟧ of ⟦1⟧ forming an air unit attached to an air base. A new air wing is deployed from the air base screen. An air wing may be created only if there are sufficient planes and ⟦2⟧ available.",
+   "frags": 3
+  },
+  {
+   "k": "qk5ggc",
+   "en": "group"
+  },
+  {
+   "k": "1264dle",
+   "en": "planes"
+  },
+  {
+   "k": "114codd",
+   "en": "service manpower"
+  },
+  {
+   "k": "13osah4",
+   "en": "The size of an air wing is 100 planes for land-based ones and 10⟦0⟧ for carrier-based ones. All planes in an air wing must be of the same type or capable of the same missions; it is not possible to mix fighters with bombers, for example. However, different models of plane within the same type or same missions (e.g. 1936 fighters and 1940 fighters) may be mixed in the same air wing.",
+   "frags": 1
+  },
+  {
+   "k": "og16mp",
+   "en": "The ⟦0⟧ of an air wing represents the amounts of plane in an air wing compared to full strength. If the current number of planes is lower than the reinforcement level, new planes will be added to it as long as there are sufficient stockpiled planes of that type. If there are none, then reinforcement will take place when new planes of the correct equipment type are produced by ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "5oaaos",
+   "en": "reinforcement level"
+  },
+  {
+   "k": "1tkn23i",
+   "en": "military production lines"
+  },
+  {
+   "k": "qm8mlr",
+   "en": "Wings can be split into multiple wings of the same type or merged into one in the air base view. There is also a Reorganize option that allows greater control over moving planes between two or more wings of the same type."
+  },
+  {
+   "k": "91e44d",
+   "en": "Once a new air wing is created, it will take 2⟦0⟧ days for the planes to arrive at the air base. The wing may be assigned to an air region and given missions immediately, but it will not carry out the missions until the planes arrive. When air wings are reassigned to a different air base (rebased), they require time to travel to their new base. The time required to rebase planes depends on how far away their new base is and the speed of the slowest aircraft model in the design. Rebasing planes from land-based air bases to aircraft carriers or vice versa also applies a 48⟦1⟧ hour-long penalty to the air wing preventing it from receiving any reinforcements.",
+   "frags": 2
+  },
+  {
+   "k": "qybfr1",
+   "en": "If an air wing is disbanded, all of its planes will return to the equipment stockpile and will be available for deployment to other air wings."
+  },
+  {
+   "k": "gmp1ge",
+   "en": "Missions"
+  },
+  {
+   "k": "1d174r7",
+   "en": "Main article: Air missions"
+  },
+  {
+   "k": "ugk9f1",
+   "en": "Air wings can be assigned to various ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1mfxar5",
+   "en": "Air combat"
+  },
+  {
+   "k": "atht30",
+   "en": "Main article: Air combat"
+  },
+  {
+   "k": "1g2qolq",
+   "en": "Air superiority"
+  },
+  {
+   "k": "lur7ma",
+   "en": "Air superiority is the degree of dominance of your air force over an opponent's air force in a strategic region. Air superiority is provided by planes actively performing their mission and depends on their type as well. Each type of an air wing has a defined air superiority power value that describes how effective it is in domination of the sky (see table below)."
+  },
+  {
+   "k": "1ketw01",
+   "en": "Aircraft Type"
+  },
+  {
+   "k": "mba897",
+   "en": "Superiority Power"
+  },
+  {
+   "k": "35c5a1",
+   "en": "Heavy Fighter"
+  },
+  {
+   "k": "p0atw3",
+   "en": "Fighter, Carrier Fighter, Jet Fighter, ⟦0⟧, Carrier ⟦1⟧, ⟦2⟧, Carrier ⟦3⟧, ⟦4⟧, Jet ⟦5⟧",
+   "frags": 6
+  },
+  {
+   "k": "ji9qwe",
+   "en": "CAS"
+  },
+  {
+   "k": "16o7v2q",
+   "en": "NAV"
+  },
+  {
+   "k": "7tpgxr",
+   "en": "TAC"
+  },
+  {
+   "k": "37f6pg",
+   "en": "Strategic Bomber, Jet Strategic Bomber"
+  },
+  {
+   "k": "1rx2ur9",
+   "en": "Each air wing's air power is its number of planes, multiplied by the superiority power above and its mission efficiency."
+  },
+  {
+   "k": "uwjpl6",
+   "en": "A region's air superiority is determined by comparing your air power (plus allies) to the enemy's air power. This ratio is stated as a percentage and results in a color applied to a region (can be viewed using the ⟦0⟧). The colors and interpretation of the colors is listed in the table below. The ratio is non-linear, at high levels of air superiority you need to add substantially more planes to increase air superiority by 1%. At 4000 allied planes versus 500 enemy planes, adding 1000 planes to the allied side only increases allied air superiority by 1.3 percentage points.",
+   "frags": 1
+  },
+  {
+   "k": "1c6n0na",
+   "en": "Strategic Air map mode"
+  },
+  {
+   "k": "1rqg6wo",
+   "en": "Color"
+  },
+  {
+   "k": "2hnjm2",
+   "en": "Air Superiority Percentage"
+  },
+  {
+   "k": "1az7jg0",
+   "en": "Explanation"
+  },
+  {
+   "k": "19d4ccc",
+   "en": "Red"
+  },
+  {
+   "k": "14ltsz2",
+   "en": "enemy has air superiority"
+  },
+  {
+   "k": "1ofl561",
+   "en": "Yellow"
+  },
+  {
+   "k": "1u827xi",
+   "en": "contested region"
+  },
+  {
+   "k": "1azd270",
+   "en": "Green"
+  },
+  {
+   "k": "txiokb",
+   "en": "you (or allies) have air superiority"
+  },
+  {
+   "k": "1yqx7qn",
+   "en": "⟦0⟧ can also reduce air superiority in an air region. Each building level (maximum level 5 per state) adds ⟦1⟧ air power to the opposing side, up to a maximum of ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "2bf5kk",
+   "en": "Anti-air"
+  },
+  {
+   "k": "g6yw1y",
+   "en": "With ⟦0⟧, any ⟦1⟧ launching missiles on ⟦2⟧ also adds ⟦3⟧ air power to their side for each missile wing times the air attack of that wing, up to a theoretical maximum of ⟦4⟧ per site. In practice, ⟦5⟧ is the only such equipment available for these missions, and it only has an Air Attack of 0.25, which translates to ⟦6⟧ air superiority per active missile wing, up to a maximum of ⟦7⟧ air superiority per ⟦8⟧, which is also before factoring in their reduced mission efficiency from their low range.",
+   "frags": 9
+  },
+  {
+   "k": "1v2zo8a",
+   "en": "Götterdämmerung"
+  },
+  {
+   "k": "8pq23o",
+   "en": "Rocket site"
+  },
+  {
+   "k": "13hr5h4",
+   "en": "Surface to air missions"
+  },
+  {
+   "k": "pop1p0",
+   "en": "Surface-to-Air Missile I"
+  },
+  {
+   "k": "1b0rzc",
+   "en": "Every 1 point of air superiority advantage in a strategic region gives an air support penalty (called enemy air superiority on the combat screen) to enemy land combat defense and breakthrough of ⟦0⟧, up to a maximum of ⟦1⟧ at 100% air superiority. For example, with 60% air superiority, the enemy will suffer a ⟦2⟧ penalty to defense and breakthrough. For this reason, it is advised to hold air superiority as much as possible. Doctrines can increase this penalty by multiplying the final air support penalty by 1 + the bonus from doctrine; e.g., a ⟦3⟧ penalty to enemies combined with ⟦4⟧ air superiority from, e.g., having all ⟦5⟧ air doctrines becomes -10% * (1 + 30%) = ⟦6⟧. Air superiority also inflicts a maximum penalty of ⟦7⟧ to enemy movement speed at 100% air superiority with no modifiers. ⟦8⟧, ⟦9⟧, and other sources of divisional anti-air can reduce the penalties from hostile air superiority to down to ⟦10⟧⟦11⟧ their unmodified values, but the effect is not linear, with the effect tapering off with more and more divisional anti-air.⟦12⟧",
+   "frags": 13
+  },
+  {
+   "k": "871vme",
+   "en": "Battlefield Support"
+  },
+  {
+   "k": "vpcf8x",
+   "en": "Support Anti-air"
+  },
+  {
+   "k": "1iaeqda",
+   "en": "0.25x"
+  },
+  {
+   "k": "h0fwiy",
+   "en": "Having air superiority in a sea region can increase both surface and sub detection by up to ⟦0⟧.⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "jx4j73",
+   "en": "Air superiority can also affect raids and special missions, such as:"
+  },
+  {
+   "k": "1ebul36",
+   "en": "paratroopers cannot be dropped unless you have at least 70%⟦0⟧ air superiority.",
+   "frags": 1
+  },
+  {
+   "k": "1pwbbbb",
+   "en": "the success chances of most aerial raids is reduced down to ⟦0⟧ at 0% air superiority and increased up to ⟦1⟧ at 100% air superiority.",
+   "frags": 2
+  },
+  {
+   "k": "14k4rpm",
+   "en": "the success chances of lock bombing, dam busting, and oilfield raids is reduced down to ⟦0⟧ at 0% air superiority and increased up to ⟦1⟧ at 100% air superiority.",
+   "frags": 2
+  },
+  {
+   "k": "kyfny8",
+   "en": "the success chances of nuclear strike, thermonuclear strike, mine sabotage, and pathfinder raids is reduced down to ⟦0⟧ at 0% air superiority and increased up to ⟦1⟧ at 100% air superiority.",
+   "frags": 2
+  },
+  {
+   "k": "zx5mgh",
+   "en": "air superiority contributes to intel on the success chances of a raid by up to ⟦0⟧.⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1ig6grl",
+   "en": "Aces"
+  },
+  {
+   "k": "pmljp0",
+   "en": "Air combat has a chance of generating aces. An air wing may be assigned up to one ace only. For a list of aces by ⟦0⟧, see ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "19xsssx",
+   "en": "country"
+  },
+  {
+   "k": "2dbm86",
+   "en": "list of aces"
+  },
+  {
+   "k": "wzs1g0",
+   "en": "Skill Level"
+  },
+  {
+   "k": "1hs36qp",
+   "en": "Chance"
+  },
+  {
+   "k": "1ib4dmd",
+   "en": "Fighter Ace"
+  },
+  {
+   "k": "1p2w1b2",
+   "en": "(Strategic) Bomber Ace"
+  },
+  {
+   "k": "1w5e2k5",
+   "en": "Support (CAS, TAC, or NAV) Ace"
+  },
+  {
+   "k": "1t71jny",
+   "en": "\"Good\""
+  },
+  {
+   "k": "yewrye",
+   "en": "Air Attack: +3% Speed: +3% Agility: +5%"
+  },
+  {
+   "k": "14gxymq",
+   "en": "Air Attack: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1gwso4h",
+   "en": "Speed: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1qf8fx5",
+   "en": "Agility: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "18jl80i",
+   "en": "Strategic Bombing: +5% Range: +3%"
+  },
+  {
+   "k": "6rkgzy",
+   "en": "Strategic Bombing: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "xn763",
+   "en": "Range: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "j67yfu",
+   "en": "Naval Targeting: +5% Ground attack factor: +3% Agility: +5%"
+  },
+  {
+   "k": "18u3t95",
+   "en": "Naval Targeting: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1yt0joq",
+   "en": "Ground attack factor: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "qktnrg",
+   "en": "\"Unique\""
+  },
+  {
+   "k": "1u5qvtp",
+   "en": "Air Attack: +6% Speed: +5% Agility: +10%"
+  },
+  {
+   "k": "137pz39",
+   "en": "Strategic Bombing: +10% Range: +6%"
+  },
+  {
+   "k": "1lcmfeq",
+   "en": "Naval Targeting: +10% Ground attack factor: +5% Agility: +10%"
+  },
+  {
+   "k": "azo5k6",
+   "en": "\"Genius\""
+  },
+  {
+   "k": "q4rclq",
+   "en": "Air Attack: +10% Speed: +8% Agility: +15%"
+  },
+  {
+   "k": "is54gp",
+   "en": "Strategic Bombing: +15% Range: +10%"
+  },
+  {
+   "k": "y0ic3j",
+   "en": "Naval Targeting: +15% Ground attack factor: +8% Agility: +15%"
+  },
+  {
+   "k": "14kbqcb",
+   "en": "The effects are scaled inversely by the size of the wing relative to 100⟦0⟧ planes, to a maximum of 50x at 2⟦1⟧ planes.",
+   "frags": 2
+  },
+  {
+   "k": "prhznc",
+   "en": "An ace can generate on a wing after a sortie under two circumstances:"
+  },
+  {
+   "k": "i0jn0u",
+   "en": "The wing deals damage to enemy wings in ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "14pfpt2",
+   "en": "air-to-air combat"
+  },
+  {
+   "k": "1hot41y",
+   "en": "The wing deals more points of damage to a ship than they lose in the attack"
+  },
+  {
+   "k": "e9ctg5",
+   "en": "The wing successfully deals damage to an enemy structure"
+  },
+  {
+   "k": "1twy7ip",
+   "en": "Each time this happens, the chance to generate an ace scales quadratically with the amount of planes in the air wing. The chance is 1%⟦0⟧ plus 0.005%⟦1⟧ per plane in the air wing, rolled twice. For a full, land-based air wing of 100 planes, this comes out to a final overall chance of 2.9775%. For a full, carrier-based air wing of 10 planes, this comes out to a final overall chance of about 2.0890%.",
+   "frags": 2
+  },
+  {
+   "k": "1rodomu",
+   "en": "If an ace is generated for an air wing that already has a living ace, the newly generated ace is put in reserve. Otherwise, the newly generated ace is automatically assigned to the air wing."
+  },
+  {
+   "k": "1sh3axd",
+   "en": "Aces can die whenever an air wing loses at least one airplane in a sortie. The chance for this to happen is 0.5%⟦0⟧ plus 0.001%⟦1⟧ per plane that was lost in the sortie. When an ace dies, they remain nominally assigned to the air wing, but have a coffin displayed over their portrait and do not give any bonuses to their air wing. Dead aces are only automatically unassigned if the same wing generates a new ace; if there are any living aces in reserve that could be assigned to a wing with a dead ace, they must be manually assigned.",
+   "frags": 2
+  },
+  {
+   "k": "1h0k7yc",
+   "en": "Strategy"
+  },
+  {
+   "k": "1345498",
+   "en": "The below is ⟦0⟧ player suggested strategies for ⟦1⟧. Bear in mind, due to the dynamic nature of the game, it may unfold differently for other players.",
+   "frags": 2
+  },
+  {
+   "k": "561qjk",
+   "en": "Dealing with low mission efficiency"
+  },
+  {
+   "k": "v45qkz",
+   "en": "Deploying more planes can offset reduced mission efficiency to an extent, but basing planes closer to the center of the strategic region or using planes with longer range may be more efficient."
+  },
+  {
+   "k": "r42fgr",
+   "en": "If the player does not control any bases within a region that they are attacking, then they are at a considerable disadvantage to their enemies, who do have control. The player might:"
+  },
+  {
+   "k": "1ctu53p",
+   "en": "Choose tactical bombers to carry out close air support missions, instead of CAS, and use heavy fighters because of their longer range."
+  },
+  {
+   "k": "13vq6rz",
+   "en": "Try to capture an enemy air base as quickly as possible, so that the player can redeploy some fighters and CAS there. It might even be worthwhile if the player captures a state without an air base to build their own level 1 base there as quickly as possible. That will allow them to redeploy wings with up to 200 planes to be located within the region."
+  },
+  {
+   "k": "3o7x74",
+   "en": "Use strategic bombers to bomb enemy buildings, including air bases. This might cause enough damage to their air bases to \"even the odds\" by reducing enemy mission efficiency. But this may only work if their air bases are already close to full capacity."
+  },
+  {
+   "k": "nnh2cr",
+   "en": "Using carrier fleets might also be very useful if the region has a coast where the player can (safely) anchor the fleet. Especially if the attack on the region is being carried out by a ⟦0⟧. The carrier fleet can carry out the multiple roles of protecting the transport convoys, and providing ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "56aw52",
+   "en": "naval invasion"
+  },
+  {
+   "k": "17xl3kb",
+   "en": "shore bombardment"
+  },
+  {
+   "k": "ejmx35",
+   "en": "Abandon trying to compete for ⟦0⟧ with the player's fighters, and rely only on interception missions. Fighters on interception missions only take off and attack bomber wings if they detect a target. This causes lower losses of the player's fighters. It will give the player's enemy the air superiority bonus in combat however.",
+   "frags": 1
+  },
+  {
+   "k": "5lpege",
+   "en": "air superiority"
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "76y7b9",
+   "en": "⟦0⟧ in ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "e2b63i",
+   "en": "NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 200"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "m8ubnk",
+   "en": "from game file \\Hearts of Iron IV\\common\\buildings\\00_buildings.txt"
+  },
+  {
+   "k": "m8jyh2",
+   "en": "NDefines.NAir.CAPACITY_PENALTY = 2"
+  },
+  {
+   "k": "8orrji",
+   "en": "NDefines.NAir.CARRIER_SIZE_STAT_INCREMENT = 10"
+  },
+  {
+   "k": "xs7rui",
+   "en": "NDefines.NAir.AIR_DEPLOYMENT_DAYS = 2"
+  },
+  {
+   "k": "11yeeat",
+   "en": "NDefines.NAir.REINFORCEMENT_DISABLING_DURATION_IN_LAND_CARRIER_TRANSFER = 48"
+  },
+  {
+   "k": "1926lq",
+   "en": "NDefines.NBuildings.ANTI_AIR_SUPERIORITY_MULT = 5"
+  },
+  {
+   "k": "li44qq",
+   "en": "NDefines.NBuildings.SAM_MISSION_SUPERIORITY = 5"
+  },
+  {
+   "k": "mg4b8w",
+   "en": "NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.35"
+  },
+  {
+   "k": "1k0eagh",
+   "en": "NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0.3"
+  },
+  {
+   "k": "1odp415",
+   "en": "⟦0⟧ in ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "q8n0iz",
+   "en": "NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE = 0.75"
+  },
+  {
+   "k": "d8qysb",
+   "en": "NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE_STEEPNESS = 625"
+  },
+  {
+   "k": "1mjt81f",
+   "en": "NDefines.NNavy.DETECTION_CHANCE_MULT_AIR_SUPERIORITY_BONUS = 0.25"
+  },
+  {
+   "k": "s6hdj5",
+   "en": "NDefines.NCountry.PARADROP_AIR_SUPERIORITY_RATIO = 0.7"
+  },
+  {
+   "k": "rul1x7",
+   "en": "NDefines.NRaids.TARGET_INTEL_PER_AIR_SUPERIORITY = 0.5"
+  },
+  {
+   "k": "1hq095e",
+   "en": "NDefines.NAir.ACE_WING_SIZE = 100"
+  },
+  {
+   "k": "1sv48wq",
+   "en": "NDefines.NAir.ACE_WING_SIZE_MAX_BONUS = 2"
+  },
+  {
+   "k": "1t4mkjg",
+   "en": "NDefines.NAir.ACE_EARN_CHANCE_BASE = 0.01"
+  },
+  {
+   "k": "133wdqn",
+   "en": "NDefines.NAir.ACE_EARN_CHANCE_PLANES_MULT = 0.005"
+  },
+  {
+   "k": "sm2j4c",
+   "en": "NDefines.NAir.ACE_DEATH_CHANCE_BASE = 0.005"
+  },
+  {
+   "k": "gpov81",
+   "en": "NDefines.NAir.ACE_DEATH_CHANCE_PLANES_MULT = 0.001"
+  },
+  {
+   "k": "j4vzu9",
+   "en": "Warfare"
+  },
+  {
+   "k": "1pmis96",
+   "en": "Land warfare"
+  }
+ ]
+}

@@ -1,0 +1,3005 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>开发日志 - 钢铁雄心 IV 中文离线资料库</title>
+<meta name="description" content="">
+<link rel="stylesheet" href="assets/style.css">
+<script>window.HOI4_REL="";</script>
+<script src="assets/search-index.js" defer></script>
+<script src="assets/app.js" defer></script>
+</head>
+<body data-rel="">
+<header class="topbar"><div class="topbar-inner">
+  <a class="brand" href="index.html">钢铁雄心 IV <small>中文离线资料库</small></a>
+  <nav class="topnav"><a href="index.html#getting-started">入门</a><a href="index.html#state-affairs">国家事务</a><a href="index.html#foreign-affairs">外交事务</a><a href="index.html#warfare">战争</a><a href="index.html#military">军种</a><a href="index.html#technology">科技与学说</a><a href="index.html#meta">游戏与资料</a><a href="all-pages.html">全部页面</a><a href="glossary.html">术语表</a></nav>
+  <div class="searchbox">
+    <input id="q" type="search" placeholder="搜索页面（按 / 聚焦）" autocomplete="off" aria-label="搜索">
+    <div id="search-results"></div>
+  </div>
+</div></header>
+<div class="wrap">
+<aside class="sidebar">
+      <h3>入门</h3>
+      <ul><li><a href="Beginner's_guide.html">新手入门指南</a></li><li><a href="User_interface.html">用户界面</a></li><li><a href="Mechanics.html">游戏机制</a></li><li><a href="Console_commands.html">控制台指令</a></li><li><a href="Hotkeys.html">快捷键</a></li><li><a href="Countries.html">国家</a></li><li><a href="Tutorial_videos.html">教学视频</a></li></ul>
+      <h3>国家事务</h3>
+      <ul><li><a href="Government.html">政府</a></li><li><a href="Ideas.html">理念、法令与顾问</a></li><li><a href="Officer_corps.html">军官团</a></li><li><a href="National_focus.html">国家焦点</a></li><li><a href="Research.html">科研</a></li><li><a href="Construction.html">建造</a></li><li><a href="Production.html">生产</a></li><li><a href="Events.html">事件</a></li><li><a href="List_of_Decision_lists.html">决议</a></li><li><a href="Manpower.html">人力</a></li></ul>
+      <h3>外交事务</h3>
+      <ul><li><a href="Diplomacy.html">外交</a></li><li><a href="Puppet.html">傀儡国</a></li><li><a href="Occupation.html">占领</a></li><li><a href="World_tension.html">世界紧张度</a></li><li><a href="Intelligence_agency.html">情报机构</a></li><li><a href="Trade.html">贸易</a></li><li><a href="Faction.html">阵营</a></li></ul>
+      <h3>战争</h3>
+      <ul><li><a href="Warfare.html">战争总览</a></li><li><a href="Combat_tactics.html">战斗战术</a></li><li><a href="Logistics.html">后勤</a></li><li><a href="Terrain.html">地形</a></li><li><a href="Weather.html">天气</a></li><li><a href="Battle_plan.html">作战计划</a></li><li><a href="Army_planner.html">陆军编制器</a></li><li><a href="Command_group.html">集团军</a></li><li><a href="Division.html">师</a></li><li><a href="Land_battle.html">陆战</a></li><li><a href="Naval_battle.html">海战</a></li><li><a href="Air_warfare.html">空战</a></li><li><a href="Attrition_and_accidents.html">损耗</a></li></ul>
+      <h3>军种</h3>
+      <ul><li><a href="Land_warfare.html">陆军</a></li><li><a href="Naval_warfare.html">海军</a></li><li><a href="Land_units.html">陆军单位</a></li><li><a href="Ship.html">海军单位</a></li><li><a href="Aircraft_designer.html">空军单位</a></li><li><a href="Equipment.html">装备</a></li><li><a href="Ship_designer.html">舰船设计</a></li><li><a href="Tank_designer.html">坦克设计</a></li></ul>
+      <h3>科技与学说</h3>
+      <ul><li><a href="Land_doctrine.html">陆军学说</a></li><li><a href="Naval_doctrine.html">海军学说</a></li><li><a href="Air_doctrine.html">空军学说</a></li><li><a href="Infantry_technology.html">步兵科技</a></li><li><a href="Armor_technology.html">装甲科技</a></li><li><a href="Naval_technology.html">海军科技</a></li><li><a href="Air_technology.html">空军科技</a></li><li><a href="Support_companies_technology.html">支援连科技</a></li></ul>
+      <h3>游戏与资料</h3>
+      <ul><li><a href="Achievements.html">成就</a></li><li><a href="Downloadable_content.html">可下载内容</a></li><li><a href="Patches.html">补丁</a></li><li><a href="Jargon.html">术语表</a></li><li><a href="Modding.html">模组制作</a></li><li><a href="Mods.html">模组</a></li><li><a href="Developer_diaries.html" class="cur">开发日志</a></li></ul>
+      <h3>更多页面</h3>
+      <ul>
+        <li><a href="all-pages.html">全部页面索引（655）</a></li>
+        <li><a href="search.html">搜索</a></li>
+        <li><a href="glossary.html">中英术语对照表</a></li>
+      </ul>
+      <h3>1.17（122）</h3>
+      <ul><li><a href="Oman.html">阿曼</a></li><li><a href="Ethiopia.html">埃塞俄比亚</a></li><li><a href="Ireland.html">爱尔兰</a></li><li><a href="Estonia.html">爱沙尼亚</a></li><li><a href="Austria.html">奥地利</a></li><li><a href="Sultanate_of_Aussa.html">奥萨苏丹国</a></li><li><a href="Australia.html">澳大利亚</a></li><li><a href="Paraguay.html">巴拉圭</a></li><li><a href="Panama.html">巴拿马</a></li><li><a href="Bulgaria.html">保加利亚</a></li><li><a href="Paradisus_Paradoxum.html">悖论乐园（Paradisus Paradoxum）</a></li><li><a href="Icelandic_events_AAT.html">冰岛事件（AAT）</a></li><li><a href="Poland.html">波兰</a></li><li><a href="Bolivia.html">玻利维亚</a></li><li><a href="Bhutan.html">不丹</a></li><li><a href="Sichuan_Clique.html">川系</a></li><li><a href="Battle_Royale.html">大逃杀（Battle Royale）</a></li><li><a href="German_Reich.html">德意志国</a></li><li><a href="Imperial_influence.html">帝国影响力</a></li><li><a href="Reichskommissariats.html">帝国专员辖区</a></li><li><a href="Northeastern_Army.html">东北军</a></li><li><a href="East_Germany.html">东德</a></li><li><a href="Dominican_Republic.html">多米尼加</a></li><li><a href="Ecuador.html">厄瓜多尔</a></li><li><a href="Horn_of_Africa_nations.html">非洲之角国家</a></li><li><a href="Philippines.html">菲律宾</a></li><li><a href="Second_Philippine_Republic.html">菲律宾第二共和国</a></li><li><a href="Finnish_events_AAT.html">芬兰事件（AAT）</a></li><li><a href="Crush_the_Dream.html">粉碎梦想（Crush the Dream）</a></li><li><a href="Gansu_Ma.html">甘马（马家军）</a></li><li><a href="Colombia.html">哥伦比亚</a></li><li><a href="Costa_Rica.html">哥斯达黎加</a></li><li><a href="Republican_Spain.html">共和西班牙</a></li><li><a href="Cuba.html">古巴</a></li><li><a href="Cobalt_Sea.html">钴蓝海（Cobalt Sea）</a></li><li><a href="Guangxi_Clique.html">桂系</a></li><li><a href="Country_leader_traits.html">国家领导人特质</a></li><li><a href="Nationalist_Spain.html">国民西班牙</a></li><li><a href="Kumul_Khanate.html">哈密汗国</a></li><li><a href="Haiti.html">海地</a></li></ul>
+      <h3>1.16（93）</h3>
+      <ul><li><a href="_2026_and_you_get_a_canton,_everybody_gets_a_canton!.html">……你得到一个州，每个人都得到一个州！</a></li><li><a href="Otto-man.html">奥托曼（Otto-man）</a></li><li><a href="This_achievement_is_dedicated_to_the_brave_soldiers_of....html">本成就献给勇敢的士兵们……</a></li><li><a href="Iceland.html">冰岛</a></li><li><a href="United_Baltic_Duchy.html">波罗的海联合公国</a></li><li><a href="Triggers.html">触发器</a></li><li><a href="A_Great_Hunger.html">大饥荒（A Great Hunger）</a></li><li><a href="Huge-oslavia.html">大南斯拉夫（Huge-oslavia）</a></li><li><a href="Big_Entente.html">大协约（Big Entente）</a></li><li><a href="Denmark.html">丹麦</a></li><li><a href="Missile.html">导弹</a></li><li><a href="Yunnan.html">滇系</a></li><li><a href="Finland.html">芬兰</a></li><li><a href="Oh,_how_the_turntables.html">风水轮流转（Oh, how the turntables）</a></li><li><a href="Congolese_Belgium.html">刚果化的比利时（Congolese Belgium）</a></li><li><a href="Woman_in_a_High_Castle.html">高堡中的女人（Woman in a High Castle）</a></li><li><a href="International_market.html">国际市场</a></li><li><a href="Peace_conference.html">和平会议</a></li><li><a href="Nuclear_bomb.html">核弹</a></li><li><a href="Bad_Ending_-_The_whole_world_is_now_Brazil.html">坏结局——全世界都成了巴西</a></li><li><a href="Artillery_technology.html">火炮科技</a></li><li><a href="Miklos_Horthy_and_the_Habsburg_Prince.html">霍尔蒂与哈布斯堡王子（Miklos Horthy and the Habsburg Prince）</a></li><li><a href="Shanxi.html">晋系</a></li><li><a href="Experience.html">经验</a></li><li><a href="The_Legacy_of_Cyrus_the_Great.html">居鲁士大帝的遗产（The Legacy of Cyrus the Great）</a></li><li><a href="The_Dragon_Rises.html">巨龙崛起（The Dragon Rises）</a></li><li><a href="Awake_and_Angry.html">觉醒与愤怒（Awake and Angry）</a></li><li><a href="Scientist.html">科学家</a></li><li><a href="House_of_Kurds.html">库尔德人之家（House of Kurds）</a></li><li><a href="From_Tehran_with_Love.html">来自德黑兰的爱（From Tehran with Love）</a></li><li><a href="The_Lenin_Boys_are_Back_in_Town.html">列宁小子们回来了（The Lenin Boys are Back in Town）</a></li><li><a href="London_Naval_Treaty.html">伦敦海军条约</a></li><li><a href="The_Romanovs_laugh_last.html">罗曼诺夫笑到最后（The Romanovs laugh last）</a></li><li><a href="No_one_crosses_the_finnish_line.html">没人能越过芬兰线（No one crosses the finnish line）</a></li><li><a href="MEFO_Bills.html">梅福券</a></li><li><a href="Media_Mughal.html">媒体莫卧儿（Media Mughal）</a></li><li><a href="Confederacy_of_American_States.html">美利坚联盟国</a></li><li><a href="United_Netherlands_(achievement).html">尼德兰联合王国（成就）</a></li><li><a href="Norway.html">挪威</a></li><li><a href="Qinghai_Ma.html">青马（马家军）</a></li></ul>
+      <h3>1.10（39）</h3>
+      <ul><li><a href="Balkan_Problem_Solved.html">巴尔干问题已解决（Balkan Problem Solved）</a></li><li><a href="Unaligned_States_of_America.html">不结盟的美利坚合众国</a></li><li><a href="France.html">法国</a></li><li><a href="French_events_LaR.html">法国事件（LaR）</a></li><li><a href="Netherlands_events.html">荷兰事件</a></li><li><a href="Hardly_Anything_Sèvres.html">几乎没剩下什么（Hardly Anything Sèvres）</a></li><li><a href="Romania.html">罗马尼亚</a></li><li><a href="United_States.html">美国</a></li><li><a href="Internal_factions.html">内部派系</a></li><li><a href="Crusader_Kings.html">十字军之王（Crusader Kings）</a></li><li><a href="Tannu_Tuva.html">唐努乌梁海</a></li><li><a href="News_events_1.html">新闻事件 1</a></li><li><a href="News_events_2.html">新闻事件 2</a></li><li><a href="News_events_4.html">新闻事件 4</a></li><li><a href="News_events_BftB.html">新闻事件（BftB）</a></li><li><a href="News_events_WtT.html">新闻事件（WtT）</a></li><li><a href="List_of_modifiers.html">修正项列表</a></li><li><a href="Istanbul_is_Constantinople._Again..html">伊斯坦布尔又是君士坦丁堡了（Istanbul is Constantinople. Again.）</a></li><li><a href="British_Raj_events.html">英属印度事件</a></li><li><a href="Australian_events.html">Australian事件</a></li><li><a href="Autonomy_state_modding.html">Autonomy state模组制作</a></li><li><a href="Chinese_political_power_struggle_events.html">Chinese political power struggle事件</a></li><li><a href="Division_modding.html">Division模组制作</a></li><li><a href="Election_events.html">Election事件</a></li><li><a href="Equipment_modding.html">Equipment模组制作</a></li><li><a href="Ethiopian_events.html">Ethiopian事件</a></li><li><a href="General_events.html">General事件</a></li><li><a href="Generic_events.html">Generic事件</a></li><li><a href="German_events.html">German事件</a></li><li><a href="Greek_events.html">Greek事件</a></li><li><a href="Ideology_modding.html">Ideology模组制作</a></li><li><a href="Italian_events.html">Italian事件</a></li><li><a href="Low_Stability_events.html">Low Stability事件</a></li><li><a href="Manchukou_events.html">Manchukou事件</a></li><li><a href="Polish_events.html">Polish事件</a></li><li><a href="Portuguese_events.html">Portuguese事件</a></li><li><a href="Resources_modding.html">Resources模组制作</a></li><li><a href="Soviet_events.html">Soviet事件</a></li><li><a href="Strategic_region_modding.html">Strategic region模组制作</a></li></ul>
+      <h3>补丁（38）</h3>
+      <ul><li><a href="Patch_1.0.X.html">补丁 1.0.X</a></li><li><a href="Patch_1.1.html">补丁 1.1</a></li><li><a href="Patch_1.10.html">补丁 1.10</a></li><li><a href="Patch_1.10.X.html">补丁 1.10.X</a></li><li><a href="Patch_1.11.html">补丁 1.11</a></li><li><a href="Patch_1.11.X.html">补丁 1.11.X</a></li><li><a href="Patch_1.12.html">补丁 1.12</a></li><li><a href="Patch_1.12.X.html">补丁 1.12.X</a></li><li><a href="Patch_1.13.html">补丁 1.13</a></li><li><a href="Patch_1.13.X.html">补丁 1.13.X</a></li><li><a href="Patch_1.14.html">补丁 1.14</a></li><li><a href="Patch_1.14.X.html">补丁 1.14.X</a></li><li><a href="Patch_1.15.html">补丁 1.15</a></li><li><a href="Patch_1.15.X.html">补丁 1.15.X</a></li><li><a href="Patch_1.16.html">补丁 1.16</a></li><li><a href="Patch_1.16.X.html">补丁 1.16.X</a></li><li><a href="Patch_1.17.html">补丁 1.17</a></li><li><a href="Patch_1.17.X.html">补丁 1.17.X</a></li><li><a href="Patch_1.18.html">补丁 1.18</a></li><li><a href="Patch_1.18.X.html">补丁 1.18.X</a></li><li><a href="Patch_1.19.html">补丁 1.19</a></li><li><a href="Patch_1.19.X.html">补丁 1.19.X</a></li><li><a href="Patch_1.2.html">补丁 1.2</a></li><li><a href="Patch_1.2.X.html">补丁 1.2.X</a></li><li><a href="Patch_1.3.html">补丁 1.3</a></li><li><a href="Patch_1.3.X.html">补丁 1.3.X</a></li><li><a href="Patch_1.4.html">补丁 1.4</a></li><li><a href="Patch_1.4.X.html">补丁 1.4.X</a></li><li><a href="Patch_1.5.html">补丁 1.5</a></li><li><a href="Patch_1.5.X.html">补丁 1.5.X</a></li><li><a href="Patch_1.6.html">补丁 1.6</a></li><li><a href="Patch_1.6.X.html">补丁 1.6.X</a></li><li><a href="Patch_1.7.html">补丁 1.7</a></li><li><a href="Patch_1.7.X.html">补丁 1.7.X</a></li><li><a href="Patch_1.8.html">补丁 1.8</a></li><li><a href="Patch_1.8.X.html">补丁 1.8.X</a></li><li><a href="Patch_1.9.html">补丁 1.9</a></li><li><a href="Patch_1.9.X.html">补丁 1.9.X</a></li></ul>
+      <h3>1.14（36）</h3>
+      <ul><li><a href="List_of_1936_start_legacy_deployed_destroyers.html">1936 start legacy deployed destroyers列表</a></li><li><a href="Albania.html">阿尔巴尼亚</a></li><li><a href="Argentina.html">阿根廷</a></li><li><a href="Brazil.html">巴西</a></li><li><a href="Lamento_Boliviano.html">玻利维亚悲歌（Lamento Boliviano）</a></li><li><a href="Dalmatia.html">达尔马提亚</a></li><li><a href="Free_City_of_Danzig.html">但泽自由市</a></li><li><a href="Map.html">地图</a></li><li><a href="Defines.html">定义文件</a></li><li><a href="Aircraft.html">飞机</a></li><li><a href="Vojvodina.html">伏伊伏丁那</a></li><li><a href="Independent_State_of_Croatia.html">克罗地亚独立国</a></li><li><a href="Balance_of_power.html">力量均势</a></li><li><a href="Manchukuo.html">满洲国</a></li><li><a href="Mongolia.html">蒙古</a></li><li><a href="Difficulty.html">难度</a></li><li><a href="Province.html">省份</a></li><li><a href="We_2019_re_Putting_the_Band_Back_Together.html">我们重组乐队（We’re Putting the Band Back Together）</a></li><li><a href="Siam.html">暹罗</a></li><li><a href="Jan_Mayen.html">扬马延</a></li><li><a href="Italian_State_of_East_Africa.html">意属东非</a></li><li><a href="Strategic_region.html">战略区域</a></li><li><a href="Commander_trait.html">指挥官特质</a></li><li><a href="Chile.html">智利</a></li><li><a href="Chilean_Empire.html">智利帝国（Chilean Empire）</a></li><li><a href="Bolivian_decisions.html">Bolivian决议</a></li><li><a href="Brazilian_events.html">Brazilian事件</a></li><li><a href="Chilean_decisions.html">Chilean决议</a></li><li><a href="Chilean_missions.html">Chilean任务</a></li><li><a href="Italian_decisions.html">Italian决议</a></li><li><a href="Peruvian_decisions.html">Peruvian决议</a></li><li><a href="Trial_of_Allegiance_shared_decisions.html">Trial of Allegiance shared决议</a></li><li><a href="Venezuelan_decisions.html">Venezuelan决议</a></li><li><a href="Welsh_decisions.html">Welsh决议</a></li><li><a href="Yugoslavian_decisions.html">Yugoslavian决议</a></li><li><a href="Yugoslavian_missions.html">Yugoslavian任务</a></li></ul>
+      <h3>1.11（32）</h3>
+      <ul><li><a href="Afghanistan.html">阿富汗</a></li><li><a href="Esti_is_Scandi.html">爱沙尼亚属斯堪的纳维亚（Esti is Scandi）</a></li><li><a href="Polish_events_NSB.html">波兰事件（NSB）</a></li><li><a href="Baltic_events_NSB.html">波罗的海国家事件（NSB）</a></li><li><a href="No_more_Partitions.html">不再有瓜分（No more Partitions）</a></li><li><a href="Releasable_countries.html">可释放国家</a></li><li><a href="Yugoslavian_events_DoD.html">南斯拉夫事件（DoD）</a></li><li><a href="Launch_options.html">启动参数</a></li><li><a href="Japanese_events_WtT.html">日本事件（WtT）</a></li><li><a href="It_has_my_name_on_it.html">上面写着我的名字（It has my name on it）</a></li><li><a href="Ace_pilots_events.html">王牌飞行员事件</a></li><li><a href="Siberian_Tiger.html">西伯利亚虎（Siberian Tiger）</a></li><li><a href="New_Zealand_events.html">新西兰事件</a></li><li><a href="Hungarian_events_DoD_2.html">匈牙利事件（DoD 2）</a></li><li><a href="Political_parties_and_leaders.html">政党与领导人</a></li><li><a href="Support_company.html">支援连</a></li><li><a href="AI_modding.html">AI模组制作</a></li><li><a href="Bulgarian_events.html">Bulgarian事件</a></li><li><a href="Chinese_events.html">Chinese事件</a></li><li><a href="Decision_modding.html">Decision模组制作</a></li><li><a href="Estonian_events.html">Estonian事件</a></li><li><a href="Exiled_government_decisions.html">Exiled government决议</a></li><li><a href="Exiled_government_events.html">Exiled government事件</a></li><li><a href="Foreign_influence_decisions.html">Foreign influence决议</a></li><li><a href="French_events.html">French事件</a></li><li><a href="Generic_decisions.html">Generic决议</a></li><li><a href="Idea_modding.html">Idea模组制作</a></li><li><a href="Lithuanian_events.html">Lithuanian事件</a></li><li><a href="Music_modding.html">Music模组制作</a></li><li><a href="Supply_areas_modding.html">Supply areas模组制作</a></li><li><a href="Technology_modding.html">Technology模组制作</a></li><li><a href="Turkish_events.html">Turkish事件</a></li></ul>
+      <h3>1.9（28）</h3>
+      <ul><li><a href="Don_2019_t_Die_for_Your_Country.html">别为你的国家送死（Don’t Die for Your Country）</a></li><li><a href="Formable_nations.html">可成立国家</a></li><li><a href="Recruitable_population.html">可招募人口</a></li><li><a href="Land_doctrine_2f_Sample_divisions_with_doctrine_bonuses.html">陆军学说/带学说加成的示例师</a></li><li><a href="American_events_MtG.html">美国事件（MtG）</a></li><li><a href="Mod_structure.html">模组结构</a></li><li><a href="Division_designer.html">师编制设计</a></li><li><a href="Crusader_Kings_2.html">十字军之王 2（Crusader Kings 2）</a></li><li><a href="Rule_Britannia.html">统治不列颠（Rule Britannia）</a></li><li><a href="Spanish_Civil_War_layout.html">西班牙内战版图</a></li><li><a href="Spanish_events_LaR.html">西班牙事件（LaR）</a></li><li><a href="News_events_3.html">新闻事件 3</a></li><li><a href="News_events_DoD.html">新闻事件（DoD）</a></li><li><a href="News_events_LaR.html">新闻事件（LaR）</a></li><li><a href="News_events_MtG.html">新闻事件（MtG）</a></li><li><a href="One_King,_Two_Crowns.html">一王两冠（One King, Two Crowns）</a></li><li><a href="Ideology.html">意识形态</a></li><li><a href="Chinese_events_WtT.html">中国事件（WtT）</a></li><li><a href="State.html">州</a></li><li><a href="American_events.html">American事件</a></li><li><a href="Border_conflict_events.html">Border conflict事件</a></li><li><a href="Finnish_events.html">Finnish事件</a></li><li><a href="Naval_treaty_events.html">Naval treaty事件</a></li><li><a href="Nuke_events.html">Nuke事件</a></li><li><a href="List_of_operations.html">operations列表</a></li><li><a href="Political_events.html">Political事件</a></li><li><a href="SS_recruitment_events.html">SS recruitment事件</a></li><li><a href="War_justification_events.html">War justification事件</a></li></ul>
+      <h3>1.19（27）</h3>
+      <ul><li><a href="Australia-Hungary.html">澳匈帝国</a></li><li><a href="Continuous_focus.html">持续焦点</a></li><li><a href="Danzig_queen.html">但泽女王（Danzig queen）</a></li><li><a href="National_spirit.html">国家精神</a></li><li><a href="Hail_to_the_King.html">国王万岁（Hail to the King）</a></li><li><a href="Pinot_Noirway.html">黑皮诺挪威（Pinot Noirway）</a></li><li><a href="Old_Zealand.html">旧西兰</a></li><li><a href="List_of_military_chiefs.html">军事首脑列表</a></li><li><a href="Releasable_countries_2f_Oceania.html">可释放国家/大洋洲</a></li><li><a href="Releasable_countries_2f_Asia.html">可释放国家/亚洲</a></li><li><a href="Downloadable_content_2.html">可下载内容 2</a></li><li><a href="Maphilindia.html">马来菲利印度（Maphilindia）</a></li><li><a href="America_Decolonized!.html">美国去殖民化！（America Decolonized!）</a></li><li><a href="Norway_Jose.html">挪威，何塞（Norway Jose）</a></li><li><a href="Special_forces_doctrine.html">特种部队学说</a></li><li><a href="Uralic_brothers_united.html">乌拉尔兄弟团结（Uralic brothers united）</a></li><li><a href="Cod_wars.html">鳕鱼战争（Cod wars）</a></li><li><a href="Indonesian_Princely_States.html">印度尼西亚土邦</a></li><li><a href="This_Achievement_is_Cheesy.html">这成就太俗套了（This Achievement is Cheesy）</a></li><li><a href="This_is_going_to_be_LIT.html">这要火了（This is going to be LIT）</a></li><li><a href="List_of_political_advisors.html">政治顾问列表</a></li><li><a href="List_of_commanders.html">指挥官列表</a></li><li><a href="List_of_commanders_(base_game).html">指挥官列表（原版）</a></li><li><a href="List_of_military_high_command.html">最高统帅部列表</a></li><li><a href="Afghan_events.html">Afghan事件</a></li><li><a href="Faction_modding.html">Faction模组制作</a></li><li><a href="List_of_theorists.html">theorists列表</a></li></ul>
+      <h3>1.12（26）</h3>
+      <ul><li><a href="Bulgarian_events_BftB.html">保加利亚事件（BftB）</a></li><li><a href="Nudger.html">地图编辑器</a></li><li><a href="The_Red_Sea.html">红海（The Red Sea）</a></li><li><a href="By_Beer_Alone.html">仅凭啤酒（By Beer Alone）</a></li><li><a href="List_of_default_ship_variants.html">默认舰船型号列表</a></li><li><a href="You_Shall_Not_Pass.html">你不能通过（You Shall Not Pass）</a></li><li><a href="Holy,_Roman,_and_an_Empire.html">神圣、罗马且是一个帝国（Holy, Roman, and an Empire）</a></li><li><a href="Career_profile.html">生涯档案</a></li><li><a href="The_Lion_King.html">狮子王（The Lion King）</a></li><li><a href="Crusader_Kings_IV.html">十字军之王 IV（Crusader Kings IV）</a></li><li><a href="On_actions.html">事件钩子</a></li><li><a href="Data_structures.html">数据结构</a></li><li><a href="Soviet_Union.html">苏联</a></li><li><a href="Variant.html">型号</a></li><li><a href="Hungarian_events_DoD_1.html">匈牙利事件（DoD 1）</a></li><li><a href="Italian_events_BBA.html">意大利事件（BBA）</a></li><li><a href="Character_modding.html">Character模组制作</a></li><li><a href="Decision_events.html">Decision事件</a></li><li><a href="Event_modding.html">Event模组制作</a></li><li><a href="Font_modding.html">Font模组制作</a></li><li><a href="Japanese_events.html">Japanese事件</a></li><li><a href="Map_modding.html">Map模组制作</a></li><li><a href="Occupation_events.html">Occupation事件</a></li><li><a href="Soviet_decisions.html">Soviet决议</a></li><li><a href="Swiss_events.html">Swiss事件</a></li><li><a href="Turkish_decisions.html">Turkish决议</a></li></ul>
+      <h3>1.13（25）</h3>
+      <ul><li><a href="Al-Andalus.html">安达卢斯</a></li><li><a href="The_Danelaw.html">丹麦法区（The Danelaw）</a></li><li><a href="Lone_Wolf.html">独狼（Lone Wolf）</a></li><li><a href="Cheese_your_fighter..html">给你的战斗机加奶酪（Cheese your fighter.）</a></li><li><a href="Country_creation.html">国家创建</a></li><li><a href="Sapmi_united_by_the_fire.html">火边的萨米团结（Sapmi united by the fire）</a></li><li><a href="Bearer_of_Artillery.html">火炮持有者（Bearer of Artillery）</a></li><li><a href="Caramelldansen.html">焦糖舞（Caramelldansen）</a></li><li><a href="Military_industrial_organization.html">军工组织</a></li><li><a href="The_Magic_School_Bus.html">神奇校车（The Magic School Bus）</a></li><li><a href="New_World_Order.html">世界新秩序</a></li><li><a href="The_return_of_the_king.html">王者归来（The return of the king）</a></li><li><a href="Party_like_it's_1520.html">像 1520 年那样狂欢（Party like it's 1520）</a></li><li><a href="Modifiers.html">修正项</a></li><li><a href="Scopes.html">作用域</a></li><li><a href="Balance_of_power_modding.html">Balance of power模组制作</a></li><li><a href="Bookmark_modding.html">Bookmark模组制作</a></li><li><a href="List_of_Material_Equipment_MIOs.html">Material Equipment MIOs列表</a></li><li><a href="Military_industrial_organization_modding.html">Military industrial organization模组制作</a></li><li><a href="National_focus_modding.html">National focus模组制作</a></li><li><a href="List_of_Plane_MIOs.html">Plane MIOs列表</a></li><li><a href="Political_decisions.html">Political决议</a></li><li><a href="List_of_Ship_MIOs.html">Ship MIOs列表</a></li><li><a href="State_modding.html">State模组制作</a></li><li><a href="List_of_Tank_MIOs.html">Tank MIOs列表</a></li></ul>
+      <h3>1.18（20）</h3>
+      <ul><li><a href="Belgium.html">比利时</a></li><li><a href="Protektorat_Böhmen-Mähren.html">波希米亚和摩拉维亚保护国</a></li><li><a href="30_Minutes_of_Hel.html">地狱三十分钟（30 Minutes of Hel）</a></li><li><a href="The_501st_Legion.html">第 501 军团（The 501st Legion）</a></li><li><a href="List_of_aircraft_designers.html">飞机设计商列表</a></li><li><a href="List_of_industrial_concerns.html">工业集团列表</a></li><li><a href="Galicia_and_Lodomeria.html">加利西亚和洛多梅里亚</a></li><li><a href="List_of_ship_designers.html">舰船设计商列表</a></li><li><a href="Czechoslovakia.html">捷克斯洛伐克</a></li><li><a href="Ain't_like_that_now.html">今非昔比（Ain't like that now）</a></li><li><a href="Carpatho-Ukraine.html">喀尔巴阡乌克兰</a></li><li><a href="Bad_Romeance.html">罗马式浪漫（Bad Romeance）</a></li><li><a href="Slovakia.html">斯洛伐克</a></li><li><a href="Sudetenland.html">苏台德</a></li><li><a href="List_of_tank_designers.html">坦克设计商列表</a></li><li><a href="I_didn't_hear_no_bell.html">我没听到铃声（I didn't hear no bell）</a></li><li><a href="This_time_for_Africa.html">这次为了非洲（This time for Africa）</a></li><li><a href="List_of_materiel_designers.html">装备设计商列表</a></li><li><a href="Böhmen-Mähren_decisions.html">Böhmen-Mähren决议</a></li><li><a href="Congress_decisions.html">Congress决议</a></li></ul>
+      <h3>Disambiguation（20）</h3>
+      <ul><li><a href="Minelaying.html">布雷</a></li><li><a href="Kingdom_of_Burundi.html">布隆迪王国</a></li><li><a href="Infantry_Offensive.html">步兵攻势（Infantry Offensive）</a></li><li><a href="Delay.html">迟滞（Delay）</a></li><li><a href="Elastic_Defense.html">弹性防御（Elastic Defense）</a></li><li><a href="Backhand_Blow.html">反手一击（Backhand Blow）</a></li><li><a href="Congo.html">刚果</a></li><li><a href="Naval_Strike_Torpedo_Tactics.html">海军打击鱼雷战术（Naval Strike Torpedo Tactics）</a></li><li><a href="Mechanized_Offensive.html">机械化攻势（Mechanized Offensive）</a></li><li><a href="Spirit.html">精神（消歧义）</a></li><li><a href="Submarine_Operations.html">潜艇作战（Submarine Operations）</a></li><li><a href="Minesweeping.html">扫雷</a></li><li><a href="Infiltration_Assault.html">渗透突击（Infiltration Assault）</a></li><li><a href="Trait.html">特质（消歧义）</a></li><li><a href="Spain.html">西班牙</a></li><li><a href="Reconnaissance.html">侦察（消歧义）</a></li><li><a href="Battlefleet_Concentration.html">主力舰队集中（Battlefleet Concentration）</a></li><li><a href="Organization.html">组织度（消歧义）</a></li><li><a href="Guinea_(disambiguation).html">Guinea（消歧义）</a></li><li><a href="United_Netherlands_(disambiguation).html">United Netherlands（消歧义）</a></li></ul>
+      <h3>DLC（15）</h3>
+      <ul><li><a href="Battle_for_the_Bosporus.html">博斯普鲁斯之战</a></li><li><a href="No_Compromise,_No_Surrender.html">不妥协，不投降</a></li><li><a href="La_Résistance.html">抵抗运动</a></li><li><a href="Graveyard_of_Empires.html">帝国坟场</a></li><li><a href="Arms_Against_Tyranny.html">反抗暴政</a></li><li><a href="Together_for_Victory.html">共赴胜利</a></li><li><a href="Waking_the_Tiger.html">唤醒猛虎</a></li><li><a href="Thunder_at_Our_Gates.html">雷霆临门</a></li><li><a href="Man_the_Guns.html">全民持枪</a></li><li><a href="Death_or_Dishonor.html">死亡或耻辱</a></li><li><a href="By_Blood_Alone.html">唯有鲜血</a></li><li><a href="Peace_for_Our_Time.html">我们时代的和平</a></li><li><a href="Trial_of_Allegiance.html">效忠审判</a></li><li><a href="No_Step_Back.html">一步不退</a></li><li><a href="Götterdämmerung.html">诸神黄昏</a></li></ul>
+      <h3>1.15（11）</h3>
+      <ul><li><a href="Belgian_Congo.html">比属刚果</a></li><li><a href="German_events_GD.html">德国事件（GD）</a></li><li><a href="Don_Cossack_Host.html">顿河哥萨克</a></li><li><a href="Antischluss.html">反德奥合并（Antischluss）</a></li><li><a href="Air_combat.html">空战</a></li><li><a href="Air_missions.html">空中任务</a></li><li><a href="Kuban_National_Republic.html">库班民族共和国</a></li><li><a href="Go_Ahead,_Macau_My_Day.html">来吧，澳门我的天（Go Ahead, Macau My Day）</a></li><li><a href="Special_project.html">特殊项目</a></li><li><a href="Building_modding.html">Building模组制作</a></li><li><a href="German_decisions.html">German决议</a></li></ul></aside>
+<main class="content">
+
+<h1 class="page-title">开发日志</h1>
+<p class="subtitle">原页面：Developer diaries</p>
+<div class="cov-banner">本页中文翻译进度 <b>99%</b>，未译部分暂保留英文原文。</div>
+<nav class="toc" aria-label="目录"><div class="toc-title">目录</div><ol><li class="lvl-2"><a href="#s-o8keu">即将推出的 DLC</a></li><li class="lvl-2"><a href="#s-913eow">雷霆临门</a></li><li class="lvl-2"><a href="#s-woj59t">我们时代的和平</a></li><li class="lvl-2"><a href="#s-12mnkbp">不妥协，不投降</a></li><li class="lvl-2"><a href="#s-1nysoty">帝国坟场</a></li><li class="lvl-2"><a href="#s-1v2zo8a">诸神黄昏</a></li><li class="lvl-2"><a href="#s-1i7hp5l">效忠审判</a></li><li class="lvl-2"><a href="#s-1gcwzb4">反抗暴政</a></li><li class="lvl-2"><a href="#s-xw4s3v">唯有鲜血</a></li><li class="lvl-2"><a href="#s-11r223j">一步不退</a></li><li class="lvl-2"><a href="#s-hvw584">博斯普鲁斯之战</a></li><li class="lvl-2"><a href="#s-z1ygrj">抵抗运动</a></li><li class="lvl-2"><a href="#s-1hpzefz">全民持枪</a></li><li class="lvl-2"><a href="#s-kkz0te">唤醒猛虎</a></li><li class="lvl-2"><a href="#s-1ynco16">死亡或耻辱</a></li><li class="lvl-2"><a href="#s-1mtqtby">共赴胜利</a></li><li class="lvl-2"><a href="#s-vnpgfi">Pre-DLC</a></li><li class="lvl-2"><a href="#s-rknizx">Videos</a></li></ol></nav>
+<div class="mw-parser-output">
+
+<p><b>开发日志</b> 是由 <a href="Paradox.html">Paradox</a> 发布的一系列文章（有时附带视频），用于详细描述游戏设计。</p>
+
+<h2 id="s-o8keu" data-section="1"><span class="mw-headline" id="Upcoming_DLC">即将推出的 DLC</span></h2>
+<p>关于即将推出的扩展包和其他 DLC 的所有开发日志。</p>
+<dl><dt>开发者角落（罗马尼亚 DLC）</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>2</td>
+<td>罗马尼亚：分裂的工业</td>
+<td>首次一睹罗马尼亚工业</td>
+<td>2026-08-25
+</td></tr>
+<tr>
+<td>1</td>
+<td>罗马尼亚的十字路口</td>
+<td>首次一睹罗马尼亚内容</td>
+<td>2026-08-18
+</td></tr></tbody></table>
+<dl><dt>开发者角落（即将推出的扩展包）</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>8</td>
+<td>工业实力与军事生产</td>
+<td>关于工业和军事生产的后续讨论</td>
+<td>2026-09-08
+</td></tr>
+<tr>
+<td>7</td>
+<td>内嵌窗口与国会</td>
+<td>关于国策树内嵌窗口的疑问，以及美国国会重做的首次展示</td>
+<td>2026-09-01
+</td></tr>
+<tr>
+<td>6</td>
+<td>陆军素质与专精</td>
+<td>关于陆军素质和单位经验的疑问</td>
+<td>2026-08-11
+</td></tr>
+<tr>
+<td>5</td>
+<td>国策风味</td>
+<td>关于国策风味的疑问</td>
+<td>2026-08-04
+</td></tr>
+<tr>
+<td>4</td>
+<td>军事生产</td>
+<td>关于军事生产的疑问</td>
+<td>2026-07-28
+</td></tr>
+<tr>
+<td>3</td>
+<td>民用经济与消费品</td>
+<td>关于经济法令和消费品的疑问</td>
+<td>2026-07-21
+</td></tr>
+<tr>
+<td>2</td>
+<td>空降部队</td>
+<td>关于空降部队的疑问</td>
+<td>2026-07-14
+</td></tr>
+<tr>
+<td>1</td>
+<td>关于内战的疑问</td>
+<td>关于内战的疑问</td>
+<td>2026-07-07
+</td></tr></tbody></table>
+<h2 id="s-913eow" data-section="1"><span class="mw-headline" id="Thunder_at_Our_Gates">雷霆临门</span></h2>
+<p>所有关于<i><a href="Thunder_at_Our_Gates.html">雷霆临门</a></i>战区包与补丁 1.19（又名「立柱行动」）的开发日志。</p>
+<dl><dt>补丁 1.19 发布后</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>7</td>
+<td>Gold 工作室 2026 年 9 月更新</td>
+<td>关于补丁 1.19.3 的更新以及即将到来的扩展包时间表</td>
+<td>2026-09-05
+</td></tr>
+<tr>
+<td>6</td>
+<td>公开测试 SE™ 更新 3.03</td>
+<td>关于补丁 1.19.3 测试分支的第四次更新</td>
+<td>2026-08-28
+</td></tr>
+<tr>
+<td>5</td>
+<td>公开测试 SE™ 更新 2.5</td>
+<td>关于补丁 1.19.3 测试分支的第三次更新</td>
+<td>2026-08-14
+</td></tr>
+<tr>
+<td>4</td>
+<td>公开测试 SE™ 更新 2</td>
+<td>关于补丁 1.19.3 测试分支的第二次更新</td>
+<td>2026-08-12
+</td></tr>
+<tr>
+<td>3</td>
+<td>公开测试夏季版™</td>
+<td>补丁 1.19.3 公开测试</td>
+<td>2026-07-06
+</td></tr>
+<tr>
+<td>2</td>
+<td>公开测试周末</td>
+<td>补丁 1.19.2 公开测试</td>
+<td>2026-06-25
+</td></tr>
+<tr>
+<td>1</td>
+<td>与我们一同庆祝 10 周年</td>
+<td>10 year anniversary celebration</td>
+<td>2026-06-18
+</td></tr></tbody></table>
+<dl><dt>补丁 1.19（立柱行动）</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>21</td>
+<td>补丁说明</td>
+<td>补丁 1.19 更新日志</td>
+<td>2026-06-10
+</td></tr>
+<tr>
+<td>20</td>
+<td>美术与成就</td>
+<td><i>雷霆临门</i>的美术与成就</td>
+<td>2026-06-09
+</td></tr>
+<tr>
+<td>19</td>
+<td>陆军指挥部与特种部队</td>
+<td>陆军指挥部与特种部队学说</td>
+<td>2026-06-03
+</td></tr>
+<tr>
+<td>18</td>
+<td>暹罗</td>
+<td>暹罗概览</td>
+<td>2026-06-01
+</td></tr>
+<tr>
+<td>17</td>
+<td>印度尼西亚共和国与民族革命</td>
+<td>印度尼西亚的替代历史路线</td>
+<td>2026-05-27
+</td></tr>
+<tr>
+<td>16</td>
+<td>荷属东印度</td>
+<td>荷属东印度的历史路线以及荷兰国策树的改动</td>
+<td>2026-05-26
+</td></tr>
+<tr>
+<td>15</td>
+<td>海军舰长与师设计器</td>
+<td>海军舰长与师设计器重做</td>
+<td>2026-05-21
+</td></tr>
+<tr>
+<td>14</td>
+<td>澳大利亚：替代历史</td>
+<td>澳大利亚的替代历史路线</td>
+<td>2026-05-19
+</td></tr>
+<tr>
+<td>13</td>
+<td>澳大利亚：直到战局逆转</td>
+<td>澳大利亚的历史路线</td>
+<td>2026-05-12
+</td></tr>
+<tr>
+<td>12</td>
+<td>Thunder at our Gates - 6 月 11 日到来！</td>
+<td>发布日期公告</td>
+<td>2026-05-12
+</td></tr></tbody></table>
+<dl><dt>开发者专栏</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>11</td>
+<td>开发角 2601010</td>
+<td>关于成就的问题</td>
+<td>2026-03-31
+</td></tr>
+<tr>
+<td>10</td>
+<td>开发角 2602001</td>
+<td>国家选择界面的更新</td>
+<td>2026-03-24
+</td></tr>
+<tr>
+<td>9</td>
+<td>开发角 2601009</td>
+<td>关于堪培拉空难的问题</td>
+<td>2026-03-03
+</td></tr>
+<tr>
+<td>8</td>
+<td>开发角 2601008</td>
+<td>首次展示团级支援连</td>
+<td>2026-02-24
+</td></tr>
+<tr>
+<td>7</td>
+<td>开发角 2601007</td>
+<td>首次展示印度尼西亚独立战争与海军陆战队突袭</td>
+<td>2026-02-17
+</td></tr>
+<tr>
+<td>6</td>
+<td>开发角 2601006</td>
+<td>首次展示陆军指挥部</td>
+<td>2026-02-10
+</td></tr>
+<tr>
+<td>5</td>
+<td>开发角 2601005</td>
+<td>关于澳大利亚选举界面的问题</td>
+<td>2026-02-03
+</td></tr>
+<tr>
+<td>4</td>
+<td>开发角 2601004</td>
+<td>关于荷属东印度内容的问题</td>
+<td>2026-01-29
+</td></tr>
+<tr>
+<td>3</td>
+<td>开发角 2601003</td>
+<td>关于澳大利亚内容的问题</td>
+<td>2026-01-27
+</td></tr>
+<tr>
+<td>2</td>
+<td>开发角 2601002</td>
+<td>关于暹罗内容的思考与计划</td>
+<td>2026-01-22
+</td></tr>
+<tr>
+<td>1</td>
+<td>开发角 2601001</td>
+<td>关于暹罗内容的问题</td>
+<td>2026-01-20
+</td></tr></tbody></table>
+<h2 id="s-woj59t" data-section="1"><span class="mw-headline" id="Peace_for_Our_Time">我们时代的和平</span></h2>
+<p>所有关于<i><a href="Peace_for_Our_Time.html">我们时代的和平</a></i>国策包与<a href="Patch_1.18.html">patch 1.18</a>（又名「绿色方案」）的开发日志。</p>
+<dl><dt>1.18 补丁发布后</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>1</td>
+<td>HOI IV - 十周年更新</td>
+<td>10 year anniversary patch</td>
+<td>2026-06-04
+</td></tr></tbody></table>
+<dl><dt>1.18 补丁（绿色方案）</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>5</td>
+<td>补丁说明</td>
+<td>1.18 补丁更新日志</td>
+<td>2026-04-21
+</td></tr>
+<tr>
+<td>4</td>
+<td>美术、成就与杂项内容</td>
+<td><i>我们时代的和平</i>的美术与成就，以及其他内容</td>
+<td>2026-04-20
+</td></tr>
+<tr>
+<td>3</td>
+<td>架空历史捷克斯洛伐克与分裂国家重做</td>
+<td>捷克斯洛伐克的法西斯与共产主义分支</td>
+<td>2026-04-16
+</td></tr>
+<tr>
+<td>2</td>
+<td>民主与共享分支</td>
+<td>捷克斯洛伐克的民主与共享分支</td>
+<td>2026-04-15
+</td></tr>
+<tr>
+<td>1</td>
+<td>RDA《我们时代的和平》</td>
+<td>《我们时代的和平》发布日期公告</td>
+<td>2026-04-14
+</td></tr></tbody></table>
+<h2 id="s-12mnkbp" data-section="1"><span class="mw-headline" id="No_Compromise,_No_Surrender">不妥协，不投降</span></h2>
+<p>关于<i><a href="No_Compromise,_No_Surrender.html">不妥协，不投降</a></i>扩展与<a href="Patch_1.17.html">patch 1.17</a>（又名「火枪手」）的全部开发日志。</p>
+<dl><dt>1.17 补丁发布后</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>27</td>
+<td>太平洋战舰</td>
+<td>太平洋战舰外观包</td>
+<td>2026-03-12
+</td></tr>
+<tr>
+<td>26</td>
+<td>1.17.4 公开测试版</td>
+<td>1.17.4 公开测试版补丁内容</td>
+<td>2026-02-02
+</td></tr>
+<tr>
+<td>25</td>
+<td>Studio Gold - 一月更新</td>
+<td>未来内容与即将到来的 1.17.4 补丁概览</td>
+<td>2026-01-16
+</td></tr>
+<tr>
+<td>24</td>
+<td>Studio Gold - 十二月更新</td>
+<td>关于 1.17.2 与 1.17.3 补丁进展的更新</td>
+<td>2025-12-01
+</td></tr>
+<tr>
+<td>23</td>
+<td>即将到来的煤炭调整</td>
+<td>根据反馈对煤炭与其他机制所作改动（将在 1.17.1 补丁中推出）概览</td>
+<td>2025-11-27
+</td></tr></tbody></table>
+<dl><dt>1.17 补丁（火枪手）</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>22</td>
+<td>补丁说明</td>
+<td>1.17 补丁的更新日志</td>
+<td>2025-11-20
+</td></tr>
+<tr>
+<td>21</td>
+<td>新功能</td>
+<td>阵营重做、海军改动、煤炭与能源，以及游骑兵概览</td>
+<td>2025-11-19
+</td></tr>
+<tr>
+<td>20</td>
+<td>美术与成就</td>
+<td><i>不妥协，不投降</i>的美术与成就，以及新的学说界面</td>
+<td>2025-11-18
+</td></tr>
+<tr>
+<td>19</td>
+<td>菲律宾：东方之海</td>
+<td>菲律宾概览</td>
+<td>2025-11-06
+</td></tr>
+<tr>
+<td>18</td>
+<td>中华民国：历史的转折点</td>
+<td>国民党中国概览</td>
+<td>2025-10-28
+</td></tr>
+<tr>
+<td>17</td>
+<td>中华苏维埃共和国：那个曾被称为中国共产党的国家</td>
+<td>中华苏维埃共和国（中国共产党）概览</td>
+<td>2025-10-21
+</td></tr>
+<tr>
+<td>16</td>
+<td>架空历史日本</td>
+<td>日本的架空历史路线</td>
+<td>2025-10-14
+</td></tr>
+<tr>
+<td>15</td>
+<td>历史日本</td>
+<td>日本的历史路线</td>
+<td>2025-10-07
+</td></tr>
+<tr>
+<td>14</td>
+<td>学说</td>
+<td>学说与陆军精神重做</td>
+<td>2025-09-30
+</td></tr>
+<tr>
+<td>13</td>
+<td>不妥协，不投降</td>
+<td>扩展包公布</td>
+<td>2025-09-25
+</td></tr></tbody></table>
+<dl><dt>开发者专栏</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>12</td>
+<td>最后倒计时：抢先看与下一步</td>
+<td>关于即将把《全民持枪》整合进游戏本体的一些抢先看与信息</td>
+<td>2025-09-23
+</td></tr>
+<tr>
+<td>11</td>
+<td>东亚：绘制战略叙事</td>
+<td>新的游戏机制如何与东亚叙事相互衔接</td>
+<td>2025-09-22
+</td></tr>
+<tr>
+<td>10</td>
+<td>角色塑造：［已删节］的面孔</td>
+<td>新肖像与一些新角色的首次展示</td>
+<td>2025-09-16
+</td></tr>
+<tr>
+<td>9</td>
+<td>日本的困境：内部纷争与帝国主义</td>
+<td>日本重做的首次展示</td>
+<td>2025-09-04
+</td></tr>
+<tr>
+<td>8</td>
+<td>菲律宾：东方之海的明珠</td>
+<td>菲律宾内容首次展示</td>
+<td>2025-08-28
+</td></tr>
+<tr>
+<td>7</td>
+<td>中国的战争：从抵抗到解放</td>
+<td>中国重做的首次展示</td>
+<td>2025-08-21
+</td></tr>
+<tr>
+<td>6</td>
+<td>Aerohydrodynamics</td>
+<td>战略要地、海军重做、丛林专家</td>
+<td>2025-07-29
+</td></tr>
+<tr>
+<td>5</td>
+<td>重新构想阵营动态 第 2 部分</td>
+<td>阵营机制重做 - 第 2 部分</td>
+<td>2025-07-03
+</td></tr>
+<tr>
+<td>4</td>
+<td>Thermodynamics</td>
+<td>煤炭资源、工厂使用能源、规模经济</td>
+<td>2025-06-26
+</td></tr>
+<tr>
+<td>3</td>
+<td>Hydrodynamics</td>
+<td>海军优势、航程、补给重做</td>
+<td>2025-06-18
+</td></tr>
+<tr>
+<td>2</td>
+<td>重新构想阵营动态</td>
+<td>阵营机制重做 - 第 1 部分</td>
+<td>2025-06-12
+</td></tr>
+<tr>
+<td>1</td>
+<td>《钢铁雄心 4》周年周与开发者专栏！</td>
+<td>列出未来内容的路线图</td>
+<td>2025-06-02
+</td></tr></tbody></table>
+<h2 id="s-1nysoty" data-section="1"><span class="mw-headline" id="Graveyard_of_Empires">帝国坟场</span></h2>
+<p>所有关于<i><a href="Graveyard_of_Empires.html">帝国坟场</a></i>国家包与<a href="Patch_1.16.html">patch 1.16</a>（又名「面容」）的开发日志。</p>
+<dl><dt>1.16 补丁（面容）</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>9</td>
+<td>原型载具单位包</td>
+<td>原型载具单位包</td>
+<td>2025-04-30
+</td></tr>
+<tr>
+<td>8</td>
+<td>开发者更新</td>
+<td>关于发布前筹备工作以及根据反馈所采取措施的小型回顾</td>
+<td>2025-03-10
+</td></tr>
+<tr>
+<td>7</td>
+<td>发布说明</td>
+<td>补丁说明</td>
+<td>2025-03-04
+</td></tr>
+<tr>
+<td>6</td>
+<td>美术与成就</td>
+<td><i>帝国坟场</i>的美术与成就</td>
+<td>2025-02-27
+</td></tr>
+<tr>
+<td>5</td>
+<td>反对派伊朗</td>
+<td>伊朗的架空历史路线</td>
+<td>2025-02-26
+</td></tr>
+<tr>
+<td>5</td>
+<td>历史伊朗与中立主义架空历史</td>
+<td>伊朗的历史与中立主义架空历史路线</td>
+<td>2025-02-25
+</td></tr>
+<tr>
+<td>4</td>
+<td>阿富汗与伊拉克</td>
+<td>阿富汗与伊拉克概述</td>
+<td>2025-02-18
+</td></tr>
+<tr>
+<td>3</td>
+<td>架空历史英属印度</td>
+<td>英属印度的架空历史路线</td>
+<td>2025-02-13
+</td></tr>
+<tr>
+<td>2</td>
+<td>历史英属印度</td>
+<td>英属印度的历史路线</td>
+<td>2025-02-11
+</td></tr>
+<tr>
+<td>1</td>
+<td>帝国坟场</td>
+<td>开发周期每周计划概述</td>
+<td>2025-02-10
+</td></tr></tbody></table>
+<h2 id="s-1v2zo8a" data-section="1"><span class="mw-headline" id="Götterdämmerung">诸神黄昏</span></h2>
+<p>所有关于<i>诸神黄昏</i>扩展包与<a href="Patch_1.15.html">patch 1.15</a>（又名「凯撒」）的开发日志。</p>
+<dl><dt>1.15 补丁（凯撒）</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>15</td>
+<td>《诸神黄昏》更新日志</td>
+<td>《诸神黄昏》DLC 更新日志</td>
+<td>2024-11-13
+</td></tr>
+<tr>
+<td>14</td>
+<td>美术与成就</td>
+<td>特殊项目与突袭的美术、国策图标、肖像、马匹毛色，以及成就</td>
+<td>2024-11-12
+</td></tr>
+<tr>
+<td>13</td>
+<td>性能与模组制作</td>
+<td>代码优化，从稳定性能到添加对模组友好的功能</td>
+<td>2024-11-11
+</td></tr>
+<tr>
+<td>12</td>
+<td>架空历史德国</td>
+<td>德国的架空历史路线</td>
+<td>2024-11-06
+</td></tr>
+<tr>
+<td>11</td>
+<td>刚果</td>
+<td>刚果的历史路线</td>
+<td>2024-11-04
+</td></tr>
+<tr>
+<td>10</td>
+<td>比利时</td>
+<td>比利时国策树、国家精神与决议</td>
+<td>2024-10-30
+</td></tr>
+<tr>
+<td>9</td>
+<td>突袭</td>
+<td>对特殊设施、水坝、船闸、大口径火炮与资源的突袭，以及核突袭</td>
+<td>2024-10-28
+</td></tr>
+<tr>
+<td>8</td>
+<td>德国系统</td>
+<td>重做 MEFO 票据、围绕帝国专员区的机制与内容，以及更多内容</td>
+<td>2024-10-23
+</td></tr>
+<tr>
+<td>7</td>
+<td>小型功能</td>
+<td>AI 更新、新科技、水坝、地标，以及更多内容</td>
+<td>2024-10-21
+</td></tr>
+<tr>
+<td>6</td>
+<td>历史德国</td>
+<td>历史德国国策树、国家精神与决议</td>
+<td>2024-10-16
+</td></tr>
+<tr>
+<td>5</td>
+<td>匈牙利</td>
+<td>匈牙利国策树、国家精神与决议</td>
+<td>2024-10-14
+</td></tr>
+<tr>
+<td>4</td>
+<td>特殊项目</td>
+<td>实验设施、科学家与特殊项目</td>
+<td>2024-10-09
+</td></tr>
+<tr>
+<td>3</td>
+<td>奥地利</td>
+<td>奥地利国策树、国家精神与决议</td>
+<td>2024-10-07
+</td></tr>
+<tr>
+<td>2</td>
+<td>诸神黄昏</td>
+<td>扩展包公布</td>
+<td>2024-10-03
+</td></tr>
+<tr>
+<td>1</td>
+<td>开发日志何时发布</td>
+<td>开发周期每周计划概述</td>
+<td>2024-08-28
+</td></tr></tbody></table>
+<h2 id="s-1i7hp5l" data-section="1"><span class="mw-headline" id="Trial_of_Allegiance">效忠审判</span></h2>
+<p>所有关于<i><a href="Trial_of_Allegiance.html">效忠审判</a></i>国家包与<a href="Patch_1.14.html">patch 1.14</a>（又名「玻利瓦尔」）的开发日志。</p>
+<dl><dt>1.14 补丁发布后</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>2</td>
+<td>发布日志</td>
+<td>内容创作者包发布，同时推出战争努力更新 1.14.6：獾行动</td>
+<td>2024-06-10
+</td></tr>
+<tr>
+<td>1</td>
+<td>内容创作者包：苏联 2D 美术</td>
+<td><i>钢铁雄心 IV</i>史上首个内容创作者包的公布</td>
+<td>2024-06-08
+</td></tr></tbody></table>
+<dl><dt>1.14 补丁（玻利瓦尔）</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>8</td>
+<td>评价与感想</td>
+<td><i>效忠审判</i>的评价</td>
+<td>2024-03-13
+</td></tr>
+<tr>
+<td>7</td>
+<td>1.14.1 补丁「玻利瓦尔」</td>
+<td>1.14.1 补丁更新日志</td>
+<td>2024-03-07
+</td></tr>
+<tr>
+<td>6</td>
+<td>美术与成就</td>
+<td><i>效忠审判</i>的美术与成就</td>
+<td>2024-02-28
+</td></tr>
+<tr>
+<td>5</td>
+<td>架空历史巴西</td>
+<td>巴西的架空历史路线</td>
+<td>2024-02-21
+</td></tr>
+<tr>
+<td>4</td>
+<td>超大礼包</td>
+<td>巴拉圭与乌拉圭国策树、国家精神与决议，以及 1.14 补丁的其他新内容</td>
+<td>2024-02-14
+</td></tr>
+<tr>
+<td>3</td>
+<td>智利</td>
+<td>智利国策树、国家精神与决议</td>
+<td>2024-02-07
+</td></tr>
+<tr>
+<td>2</td>
+<td>阿根廷</td>
+<td>阿根廷国策树、国家精神与决议</td>
+<td>2024-01-31
+</td></tr>
+<tr>
+<td>1</td>
+<td>历史巴西</td>
+<td>历史巴西国策树、国家精神与决议</td>
+<td>2024-01-25
+</td></tr></tbody></table>
+<h2 id="s-1gcwzb4" data-section="1"><span class="mw-headline" id="Arms_Against_Tyranny">反抗暴政</span></h2>
+<p>所有关于<i><a href="Arms_Against_Tyranny.html">反抗暴政</a></i>扩展包与<a href="Patch_1.13.html">patch 1.13</a>（又名 Stella Polaris）的开发日志。</p>
+<dl><dt>补丁 1.13（Stella Polaris）</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>22</td>
+<td>性能与更新日志</td>
+<td>补丁 1.13 的性能与更新日志</td>
+<td>2023-10-09
+</td></tr>
+<tr>
+<td>21</td>
+<td>美术与成就</td>
+<td><i>反抗暴政</i>的美术与成就</td>
+<td>2023-10-06
+</td></tr>
+<tr>
+<td>20</td>
+<td>国际市场</td>
+<td>国际市场系统更新</td>
+<td>2023-10-02
+</td></tr>
+<tr>
+<td>19</td>
+<td>军工产业组织</td>
+<td>MIO 系统更新</td>
+<td>2023-09-27
+</td></tr>
+<tr>
+<td>18</td>
+<td>芬兰替代历史</td>
+<td>芬兰的替代历史路线</td>
+<td>2023-09-20
+</td></tr>
+<tr>
+<td>17</td>
+<td>模组制作！</td>
+<td><i>反抗暴政</i>中新增的模组工具</td>
+<td>2023-09-13
+</td></tr>
+<tr>
+<td>16</td>
+<td>丹麦替代历史</td>
+<td>丹麦的替代历史路线</td>
+<td>2023-09-06
+</td></tr>
+<tr>
+<td>15</td>
+<td>瑞典替代历史</td>
+<td>瑞典的替代历史路线</td>
+<td>2023-08-30
+</td></tr>
+<tr>
+<td>14</td>
+<td>挪威替代历史</td>
+<td>挪威的替代历史路线</td>
+<td>2023-08-23
+</td></tr>
+<tr>
+<td>13</td>
+<td>Tech</td>
+<td>新国际市场的 AI</td>
+<td>2023-08-09
+</td></tr>
+<tr>
+<td>12</td>
+<td>小功能 #2</td>
+<td>特种部队学说介绍</td>
+<td>2023-08-02
+</td></tr>
+<tr>
+<td>11</td>
+<td>联合国策树</td>
+<td>联合国策树介绍</td>
+<td>2023-07-26
+</td></tr>
+<tr>
+<td>10</td>
+<td>小功能 #1</td>
+<td>对师编制、经济与预设的改动或新增，以及一些体验优化改进</td>
+<td>2023-07-19
+</td></tr>
+<tr>
+<td>9</td>
+<td>3D 美术！</td>
+<td><i>反抗暴政</i>中 3D 美术的幕后一瞥</td>
+<td>2023-07-12
+</td></tr>
+<tr>
+<td>8</td>
+<td>夏季公开测试</td>
+<td>对补丁 1.13 附带的部分平衡性改动进行 Beta 测试</td>
+<td>2023-07-06
+</td></tr>
+<tr>
+<td>7</td>
+<td>历史丹麦</td>
+<td>历史丹麦国策树、国家精神与决议</td>
+<td>2023-06-28
+</td></tr>
+<tr>
+<td>6</td>
+<td>历史挪威</td>
+<td>历史挪威国策树、国家精神与决议</td>
+<td>2023-06-21
+</td></tr>
+<tr>
+<td>5</td>
+<td>历史瑞典</td>
+<td>历史瑞典国策树、国家精神与决议</td>
+<td>2023-06-14
+</td></tr>
+<tr>
+<td>4</td>
+<td>历史芬兰</td>
+<td>《反抗暴政》公告与历史芬兰内容</td>
+<td>2023-06-07
+</td></tr></tbody></table>
+<dl><dt>开发者专栏</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>3</td>
+<td>支援连</td>
+<td>支援连重做以及随之而来的陆军学说改动</td>
+<td>2023-05-31
+</td></tr>
+<tr>
+<td>2</td>
+<td>国际市场</td>
+<td>国际市场介绍</td>
+<td>2023-05-16
+</td></tr>
+<tr>
+<td>1</td>
+<td>军工产业组织</td>
+<td>军工产业组织介绍</td>
+<td>2023-05-02
+</td></tr></tbody></table>
+<h2 id="s-xw4s3v" data-section="1"><span class="mw-headline" id="By_Blood_Alone">唯有鲜血</span></h2>
+<p>关于<i><a href="By_Blood_Alone.html">唯有鲜血</a></i>扩展与<a href="Patch_1.12.html">patch 1.12</a>（又名「雪崩」）的全部开发日志。</p>
+<dl><dt>1.12 补丁（雪崩）</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>18</td>
+<td>Post-Release</td>
+<td>发布后的图表与反馈</td>
+<td>2022-10-12
+</td></tr>
+<tr>
+<td>17</td>
+<td>发布！</td>
+<td><i>唯有鲜血</i>与 1.12 补丁的发布</td>
+<td>2022-09-27
+</td></tr>
+<tr>
+<td>16</td>
+<td>美术与成就</td>
+<td>为<i>唯有鲜血</i>制作的新美术与成就</td>
+<td>2022-09-21
+</td></tr>
+<tr>
+<td>15</td>
+<td>Tech</td>
+<td>「雪崩」更新的操作系统需求与性能改进</td>
+<td>2022-09-14
+</td></tr>
+<tr>
+<td>14</td>
+<td>模组制作</td>
+<td>重做的生涯档案，包含通关概览与（可模组化的！）游戏内奖项</td>
+<td>2022-08-31
+</td></tr>
+<tr>
+<td>13</td>
+<td>便利性改进</td>
+<td>战争支持度、穿透、AI 坦克策略等方面的改动</td>
+<td>2022-08-24
+</td></tr>
+<tr>
+<td>12</td>
+<td>和平会议综述</td>
+<td>新和平会议系统概览，包括界面与新的索取类型</td>
+<td>2022-08-17
+</td></tr>
+<tr>
+<td>11</td>
+<td>师指挥官与单位勋章</td>
+<td>新的战地军官与可授予师的勋章</td>
+<td>2022-08-10
+</td></tr>
+<tr>
+<td>10</td>
+<td>飞机设计器</td>
+<td>对新的飞机设计器的考察。</td>
+<td>2022-08-03
+</td></tr>
+<tr>
+<td>9</td>
+<td>埃塞俄比亚 #2</td>
+<td>对新的埃塞俄比亚国策树架空历史分支的考察</td>
+<td>2022-07-20
+</td></tr>
+<tr>
+<td>8</td>
+<td>瑞士 #2</td>
+<td>对新的瑞士国策树架空历史分支的考察</td>
+<td>2022-07-12
+</td></tr>
+<tr>
+<td>7</td>
+<td>意大利 #2</td>
+<td>对更新后的意大利国策树架空历史分支的考察</td>
+<td>2022-07-05
+</td></tr>
+<tr>
+<td>6</td>
+<td>埃塞俄比亚 #1</td>
+<td>对新的埃塞俄比亚国策树通用分支与历史分支的考察</td>
+<td>2022-06-29
+</td></tr>
+<tr>
+<td>5</td>
+<td>瑞士 #1</td>
+<td>对新的瑞士国策树历史分支的考察</td>
+<td>2022-06-22
+</td></tr>
+<tr>
+<td>4</td>
+<td>意大利 #1</td>
+<td>对更新后的意大利国策树通用分支与历史分支的考察</td>
+<td>2022-06-15
+</td></tr></tbody></table>
+<dl><dt>设计器专栏</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>3</td>
+<td>海军平衡</td>
+<td>海军平衡的目标与实施计划</td>
+<td>2022-06-01
+</td></tr>
+<tr>
+<td>2</td>
+<td>空中改动</td>
+<td>关于空中管理与空战改动的公开讨论</td>
+<td>2022-05-18
+</td></tr>
+<tr>
+<td>1</td>
+<td>和平会议</td>
+<td>关于和平会议改动的公开讨论</td>
+<td>2022-05-04
+</td></tr></tbody></table>
+<h2 id="s-11r223j" data-section="1"><span class="mw-headline" id="No_Step_Back">一步不退</span></h2>
+<p>关于<i><a href="No_Step_Back.html">一步不退</a></i>扩展与<a href="Patch_1.11.html">patch 1.11</a>（又名「巴巴罗萨」）的全部开发日志。</p>
+<dl><dt>补丁 1.11 发布后</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>30</td>
+<td>遥测与数据</td>
+<td>游戏统计数据报告</td>
+<td>2022-02-23
+</td></tr>
+<tr>
+<td>29</td>
+<td>思考与路线图</td>
+<td>2022 content battleplan</td>
+<td>2022-02-09
+</td></tr></tbody></table>
+<dl><dt>补丁 1.11（巴巴罗萨）</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>28</td>
+<td>补丁说明！</td>
+<td>1.11 补丁说明</td>
+<td>2021-11-17
+</td></tr>
+<tr>
+<td>27.5</td>
+<td>额外日志：No Step Back 可成立国家与新标签</td>
+<td>审视随 NSB 到来的新标签与可成立国家</td>
+<td>2021-11-12
+</td></tr>
+<tr>
+<td>27</td>
+<td>No Step Back 成就</td>
+<td><i>一步不退</i>的新成就</td>
+<td>2021-11-10
+</td></tr>
+<tr>
+<td>26</td>
+<td>技术支持主管的一天</td>
+<td>技术支持改动与一位新的法国共产主义领袖</td>
+<td>2021-11-03
+</td></tr>
+<tr>
+<td>25.5</td>
+<td>额外甜点——铁路！</td>
+<td><i>一步不退</i>中铁路地图总览</td>
+<td>2021-10-29
+</td></tr>
+<tr>
+<td>25</td>
+<td>载入画面美术及其他</td>
+<td>新载入画面的创作过程，以及 NSB 的一些立绘与成就</td>
+<td>2021-10-27
+</td></tr>
+<tr>
+<td>24</td>
+<td>模组制作改动</td>
+<td>介绍角色系统，以及 NSB 功能的模组化能力</td>
+<td>2021-10-20
+</td></tr>
+<tr>
+<td>23</td>
+<td>军官团回顾与 AI 改进</td>
+<td>回顾军官团改动并介绍 AI 改进</td>
+<td>2021-10-13
+</td></tr>
+<tr>
+<td>22.5</td>
+<td>子开发日志——战斗目标选择迭代</td>
+<td>进一步的平衡与目标选择改动</td>
+<td>2021-10-06
+</td></tr>
+<tr>
+<td>22</td>
+<td>波兰尚未灭亡——No Step Back 战报</td>
+<td>回顾 CraniumMuppet 在新更新中游玩波兰的体验</td>
+<td>2021-10-06
+</td></tr>
+<tr>
+<td>21</td>
+<td>战斗改动与苏联流亡者</td>
+<td>战斗改动与苏联流亡者焦点分支</td>
+<td>2021-09-29
+</td></tr>
+<tr>
+<td>20</td>
+<td>百宝袋：续集</td>
+<td>再部署、焦土战术与将领偏好战术的改动</td>
+<td>2021-09-15
+</td></tr>
+<tr>
+<td>19</td>
+<td>铁道炮永不倦怠</td>
+<td>新铁道炮陆上单位类型</td>
+<td>2021-09-08
+</td></tr>
+<tr>
+<td>18</td>
+<td>Traiiiiins</td>
+<td>进一步审视列车、攻击列车的空中任务，以及补给分发</td>
+<td>2021-09-01
+</td></tr>
+<tr>
+<td>17</td>
+<td>百宝袋 #2</td>
+<td>天气改动、针对盟友领土内装备与建造的便利性改动 / 游戏总监 Dan「Podcat」Lind 离职</td>
+<td>2021-08-25
+</td></tr>
+<tr>
+<td>16</td>
+<td>苏联流亡者</td>
+<td>白军或沙皇复辟的新焦点分支</td>
+<td>2021-08-18
+</td></tr>
+<tr>
+<td>15</td>
+<td>苏联反对派</td>
+<td>针对反斯大林共产主义反对派的新焦点分支</td>
+<td>2021-08-11
+</td></tr>
+<tr>
+<td>14</td>
+<td>苏联历史分支与共同分支</td>
+<td>审视新苏联国策树的历史分支与共同分支，以及苏联的新机制</td>
+<td>2021-08-04
+</td></tr>
+<tr>
+<td>13</td>
+<td>补给与桑葚人工港</td>
+<td>更深入地审视新补给系统</td>
+<td>2021-06-30
+</td></tr>
+<tr>
+<td>12</td>
+<td>军官团 #2</td>
+<td>关于军官团的更多信息</td>
+<td>2021-06-23
+</td></tr>
+<tr>
+<td>11</td>
+<td>军官团</td>
+<td>新军官团系统以及对经验值的改动</td>
+<td>2021-06-16
+</td></tr>
+<tr>
+<td>10</td>
+<td>百宝袋 #1</td>
+<td>小型功能与游戏便利性改进</td>
+<td>2021-06-09
+</td></tr>
+<tr>
+<td>9</td>
+<td>PDXCON - HoI 问答座谈实录</td>
+<td>PdxCon 与开发者的问答</td>
+<td>2021-05-27
+</td></tr>
+<tr>
+<td>8</td>
+<td>PdxCon 回顾与团队更新</td>
+<td>回顾 PdxCon 公告以及一些统计数据更新</td>
+<td>2021-05-26
+</td></tr>
+<tr>
+<td>7</td>
+<td>波罗的海国家 2/2</td>
+<td>波罗的海国家即将到来的更多改动</td>
+<td>2021-05-19
+</td></tr>
+<tr>
+<td>6</td>
+<td>波罗的海国家 1/2 与波兰 3/2</td>
+<td>首次审视波罗的海国家即将到来的改动，以及更多关于波兰的内容</td>
+<td>2021-05-12
+</td></tr>
+<tr>
+<td>5</td>
+<td>战斗与统计数据改动</td>
+<td>审视即将到来的战斗改动</td>
+<td>2021-05-05
+</td></tr>
+<tr>
+<td>4</td>
+<td>坦克设计商</td>
+<td>审视即将到来的 DLC 中坦克设计的改动</td>
+<td>2021-04-28
+</td></tr>
+<tr>
+<td>3</td>
+<td>波兰国策树重做 第 2/2 部分</td>
+<td>审视即将到来的 DLC 中波兰树的改动</td>
+<td>2021-04-21
+</td></tr>
+<tr>
+<td>2</td>
+<td>波兰国策树重做 第 1/2 部分</td>
+<td>介绍随免费更新一同到来的重做版波兰国策树</td>
+<td>2021-04-14
+</td></tr>
+<tr>
+<td>1</td>
+<td>补给的初步审视与来年展望</td>
+<td>新补给/战争系统的初步审视</td>
+<td>2021-04-07
+</td></tr></tbody></table>
+<h2 id="s-hvw584" data-section="1"><span class="mw-headline" id="Battle_for_the_Bosporus">博斯普鲁斯之战</span></h2>
+<p>所有关于<i><a href="Battle_for_the_Bosporus.html">博斯普鲁斯之战</a></i>国家包与<a href="Patch_1.10.html">patch 1.10</a>（又名「柯利牧羊犬」）的开发日志。</p>
+<dl><dt>1.10 补丁发布后</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>9</td>
+<td>五周年</td>
+<td><i>钢铁雄心 IV</i>五周年与补丁</td>
+<td>2021-06-02
+</td></tr>
+<tr>
+<td>8</td>
+<td>新年更新</td>
+<td><i>博斯普鲁斯之战</i>之后的统计，以及对 2021 年的总体展望</td>
+<td>2021-01-20
+</td></tr>
+<tr>
+<td>7</td>
+<td>Telemetry</td>
+<td>简要介绍遥测数据所反映的 DLC 发布以来玩家行为的变化</td>
+<td>2020-10-21
+</td></tr></tbody></table>
+<dl><dt>1.10 补丁（柯利牧羊犬）</dt></dl>
+<table class="wikitable sortable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th class="unsortable" width="30%">标题与链接</th>
+<th class="unsortable" width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>6</td>
+<td>1.10「柯利牧羊犬」</td>
+<td>完整更新日志</td>
+<td>2020-10-14
+</td></tr>
+<tr>
+<td>5</td>
+<td>美术与成就</td>
+<td>新美术、音乐与成就</td>
+<td>2020-10-07
+</td></tr>
+<tr>
+<td>4</td>
+<td>南斯拉夫与罗马尼亚</td>
+<td>介绍南斯拉夫国策树改动，简要谈及各条路线，并说明对罗马尼亚的小幅改动</td>
+<td>2020-09-30
+</td></tr>
+<tr>
+<td>3</td>
+<td>土耳其</td>
+<td>介绍土耳其国策树，并简要谈及各条路线</td>
+<td>2020-09-23
+</td></tr>
+<tr>
+<td>2</td>
+<td>保加利亚</td>
+<td>介绍保加利亚国策树，并简要谈及各条路线</td>
+<td>2020-09-16
+</td></tr>
+<tr>
+<td>1</td>
+<td>希腊</td>
+<td>介绍希腊国策树，并简要谈及各条路线</td>
+<td>2020-09-09
+</td></tr></tbody></table>
+<h2 id="s-z1ygrj" data-section="1"><span class="mw-headline" id="La_Résistance">抵抗运动</span></h2>
+<p>关于<i>抵抗运动</i>扩展与<a href="Patch_1.9.html">patch 1.9</a>（又名「哈士奇」）的全部开发日志。</p>
+<dl><dt>补丁 1.9 发布后</dt></dl>
+<table class="wikitable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th width="30%">标题与链接</th>
+<th width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>34</td>
+<td>四周年 + 补丁 1.9.3</td>
+<td><i>钢铁雄心 IV</i>四周年：一些有趣的数据、新的装甲与无线电包，以及庆祝补丁！</td>
+<td>2020-06-03
+</td></tr>
+<tr>
+<td>33</td>
+<td>补丁 1.9.2 哈士奇上线</td>
+<td>补丁发布以及当前的「居家办公」状态</td>
+<td>2020-05-06
+</td></tr>
+<tr>
+<td>32</td>
+<td>1.9.2 测试版 + 未来展望</td>
+<td>可供测试的测试版补丁</td>
+<td>2020-04-15
+</td></tr>
+<tr>
+<td>31</td>
+<td>1.9.1 补丁与路线图更新</td>
+<td>关于补丁 1.9.1 的完整信息，以及未来 DLC 与更新的路线图</td>
+<td>2020-04-08
+</td></tr>
+<tr>
+<td>30</td>
+<td>1.9.1 测试版批次更新 IV</td>
+<td>关于补丁 1.9.1、3D 模型与无障碍性的信息</td>
+<td>2020-04-01
+</td></tr>
+<tr>
+<td>29</td>
+<td>1.9.1 测试版批次更新 III</td>
+<td>关于补丁 1.9.1、和平会议与窃取科技的信息</td>
+<td>2020-03-25
+</td></tr>
+<tr>
+<td>28</td>
+<td>1.9.1 测试版批次更新 II</td>
+<td>解雇特工与「推动者」权限</td>
+<td>2020-03-18
+</td></tr>
+<tr>
+<td>27</td>
+<td>1.9.1 测试版补丁更新</td>
+<td>西班牙国策树的更新与西班牙内战</td>
+<td>2020-03-11
+</td></tr>
+<tr>
+<td>26</td>
+<td>LaR 发布后与统计数据</td>
+<td>关于 LaR 的统计数据，以及 1.9.1 测试版的公布</td>
+<td>2020-03-04
+</td></tr></tbody></table>
+<dl><dt>补丁 1.9（哈士奇）</dt></dl>
+<table class="wikitable" width="calc(100%-500px)">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th width="30%">标题与链接</th>
+<th width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>25</td>
+<td>模组制作与 1.9 补丁日志</td>
+<td>1.9 补丁日志与新的模组制作功能</td>
+<td>2020-02-21
+</td></tr>
+<tr>
+<td>24</td>
+<td>AI 与功能更新</td>
+<td>更新中的 AI 改动与一些功能</td>
+<td>2020-02-19
+</td></tr>
+<tr>
+<td>23</td>
+<td>LaR 英国战报</td>
+<td>在新更新中游玩是什么感觉</td>
+<td>2020-02-12
+</td></tr>
+<tr>
+<td>22</td>
+<td>成就</td>
+<td>成就</td>
+<td>2020-02-05
+</td></tr>
+<tr>
+<td>21</td>
+<td>LaR 音乐与美术</td>
+<td>新增美术与音乐</td>
+<td>2020-01-29
+</td></tr>
+<tr>
+<td>20</td>
+<td>可成立国家与可释放国家</td>
+<td>新的可成立国家与可释放国家</td>
+<td>2020-01-22
+</td></tr>
+<tr>
+<td>19</td>
+<td>百宝袋</td>
+<td>便利性改动，例如自动 MEFO 票据、演习自动停止，以及可搜索、可缩放的国策树</td>
+<td>2020-01-15
+</td></tr>
+<tr>
+<td>18</td>
+<td>葡萄牙</td>
+<td>新的葡萄牙国策树</td>
+<td>2019-12-18
+</td></tr>
+<tr>
+<td>17</td>
+<td>情报</td>
+<td>更多情报改动</td>
+<td>2019-12-11
+</td></tr>
+<tr>
+<td>16</td>
+<td>侦察机与破解英格玛</td>
+<td>新侦察机空中单位类型，以及对情报与密码学的增补与改动</td>
+<td>2019-12-04
+</td></tr>
+<tr>
+<td>15</td>
+<td>合作、顺从度与政变</td>
+<td>政变与合作行动</td>
+<td>2019-11-27
+</td></tr>
+<tr>
+<td>14</td>
+<td>行动</td>
+<td>新行动</td>
+<td>2019-11-20
+</td></tr>
+<tr>
+<td>13</td>
+<td>国策树导航</td>
+<td>国策树导航</td>
+<td>2019-11-13
+</td></tr>
+<tr>
+<td>12</td>
+<td>特工与任务</td>
+<td>新特工以及他们可以执行的任务</td>
+<td>2019-11-06
+</td></tr>
+<tr>
+<td>11</td>
+<td>情报机构</td>
+<td>新的情报机构</td>
+<td>2019-10-30
+</td></tr>
+<tr>
+<td>10</td>
+<td>从 PdxCon 归来</td>
+<td>谈论他们在 PdxCon 上谈了些什么，并介绍他们的新办公室</td>
+<td>2019-10-23
+</td></tr>
+<tr>
+<td>9</td>
+<td>PdxCon 与搬迁忙乱</td>
+<td>谈论办公室搬迁，以及他们将在 PdxCon 上谈论什么</td>
+<td>2019-10-16
+</td></tr>
+<tr>
+<td>8</td>
+<td>装甲车——新的「骑兵小伙」</td>
+<td>新装甲车陆上单位类型</td>
+<td>2019-10-09
+</td></tr>
+<tr>
+<td>7</td>
+<td>他们决不会通过！</td>
+<td>共和西班牙国策树</td>
+<td>2019-10-02
+</td></tr>
+<tr>
+<td>6</td>
+<td>西班牙万岁！</td>
+<td>民族主义西班牙国策树</td>
+<td>2019-09-25
+</td></tr>
+<tr>
+<td>5</td>
+<td>驻军警务重做</td>
+<td>抵抗压制与驻军系统的重做</td>
+<td>2019-09-18
+</td></tr>
+<tr>
+<td>4</td>
+<td>自由法国与维希</td>
+<td>自由法国与维希法国的重做</td>
+<td>2019-09-11
+</td></tr>
+<tr>
+<td>3</td>
+<td>抵抗与顺从度</td>
+<td><a href="Occupation.html">占领</a>系统的重做</td>
+<td>2019-09-04
+</td></tr>
+<tr>
+<td>2</td>
+<td>法国重做</td>
+<td>法国国策树的重做</td>
+<td>2019-08-28
+</td></tr>
+<tr>
+<td>1</td>
+<td>夏季归来！</td>
+<td>休假归来，开始新一轮开发日志</td>
+<td>2019-08-21
+</td></tr></tbody></table>
+<h2 id="s-1hpzefz" data-section="1"><span class="mw-headline" id="Man_the_Guns">全民持枪</span></h2>
+<p>关于 <i><a href="Man_the_Guns.html">全民持枪</a></i> 扩展包的所有开发日志，以及 <a href="Patch_1.6.html">patch 1.6</a>（又名 Ironclad）、<a href="Patch_1.7.html">patch 1.7</a>（又名 Hydra）和 <a href="Patch_1.8.html">patch 1.8</a>（又名 Fork）。</p>
+<dl><dt>1.8 补丁（Fork）</dt></dl>
+<table class="wikitable" width="100%">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th width="30%">标题与链接</th>
+<th width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>44</td>
+<td>1.8 补丁（啥？！）与国策树导航</td>
+<td>启动器补丁和一些平衡性改动</td>
+<td>2019-11-13
+</td></tr>
+<tr>
+<td>43</td>
+<td>《钢铁雄心 IV》的新启动器</td>
+<td>新的统一 Paradox 启动器将登陆 HoI4</td>
+<td>2019-11-12
+</td></tr></tbody></table>
+<dl><dt>1.7 补丁（Hydra）</dt></dl>
+<table class="wikitable" width="100%">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th width="30%">标题与链接</th>
+<th width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>42</td>
+<td>科技大乱斗 II——屠龙！</td>
+<td>1.7.1 补丁计划，以及不同步错误概览</td>
+<td>2019-06-12
+</td></tr>
+<tr>
+<td>41</td>
+<td>3 周年纪念！</td>
+<td>1.7 'Hydra' 发售、3 周年纪念，以及回应一些 Twitter 提问</td>
+<td>2019-06-05
+</td></tr>
+<tr>
+<td>40</td>
+<td>1.7 更新与无线电及装甲包</td>
+<td>1.7 更新概览，以及为庆祝发售 3 周年推出的 2 个新美术与音乐 DLC</td>
+<td>2019-05-29
+</td></tr>
+<tr>
+<td>39</td>
+<td>1.7 更新 II——技术大乱斗！</td>
+<td>关于 64 位、海战平衡和优化的更多消息</td>
+<td>2019-05-22
+</td></tr>
+<tr>
+<td>38</td>
+<td>来自东线的消息</td>
+<td>1.7 'Hydra' 补丁带来 64 位支持、AI 前线与玩家前线界面改动</td>
+<td>2019-05-15
+</td></tr></tbody></table>
+<dl><dt>1.6 补丁发售之后</dt></dl>
+<table class="wikitable" width="100%">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th width="30%">标题与链接</th>
+<th width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>37</td>
+<td>1.6.2 与路线图</td>
+<td>1.6.2 发售、未来路线图，以及 1.7 "Hydra" 和 1.8 "Husky" 的公布</td>
+<td>2019-04-03
+</td></tr>
+<tr>
+<td>36</td>
+<td>1.6.2 更新</td>
+<td>1.6.2 亮点与补丁日志</td>
+<td>2019-03-27
+</td></tr>
+<tr>
+<td>35</td>
+<td>1.6.2 公开测试版补丁</td>
+<td>1.6.2 公开测试版补丁内容，以及 AI 海军屏卫舰统计数据</td>
+<td>2019-03-20
+</td></tr>
+<tr>
+<td>34</td>
+<td>1.6.1 补丁与统计数据</td>
+<td>1.6.1 "Ironclad" 完整补丁日志、1.6.2 公开测试版的信息和玩家统计数据</td>
+<td>2019-03-13
+</td></tr>
+<tr>
+<td>33</td>
+<td>MTG 发售之后</td>
+<td>少量遥测信息，以及本补丁的计划</td>
+<td>2019-03-06
+</td></tr></tbody></table>
+<dl><dt>1.6 补丁（Ironclad）</dt></dl>
+<table class="wikitable" width="100%">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th width="30%">标题与链接</th>
+<th width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>32</td>
+<td>1.6 补丁日志</td>
+<td>1.6 "Ironclad" 完整补丁日志和 Reddit 问答精选</td>
+<td>2019-02-27
+</td></tr>
+<tr>
+<td>31</td>
+<td>全民持枪超大型回顾</td>
+<td>已公布内容的全面回顾</td>
+<td>2019-02-20
+</td></tr>
+<tr>
+<td>30</td>
+<td>AI 计划</td>
+<td>更多 AI 战略计划，以及将 AI 战略整合进自定义游戏规则菜单</td>
+<td>2019-02-13
+</td></tr>
+<tr>
+<td>29</td>
+<td>成就</td>
+<td>新的追求目标：新增 21 项与 MTG 相关的成就</td>
+<td>2019-02-06
+</td></tr>
+<tr>
+<td>28</td>
+<td>大日本帝国海军</td>
+<td>Archangel85 在一场多人对局中使用大日本帝国海军的战报</td>
+<td>2019-01-30
+</td></tr>
+<tr>
+<td>27</td>
+<td>美术与音乐</td>
+<td>新音乐、3D 模型和 2D 美术，让 MTG 更加精彩</td>
+<td>2019-01-23
+</td></tr>
+<tr>
+<td>26</td>
+<td>科技改动</td>
+<td>科技研究系统的改动，以及新增海军科技</td>
+<td>2019-01-16
+</td></tr>
+<tr>
+<td>25</td>
+<td>燃料回顾与摩托化火炮</td>
+<td>燃料机制的改动，以及摩托化火炮单位的加入</td>
+<td>2019-01-09
+</td></tr>
+<tr>
+<td>24</td>
+<td>潜艇与袭击运输船队</td>
+<td>潜艇袭击运输船队的改进</td>
+<td>2018-12-12
+</td></tr>
+<tr>
+<td>23</td>
+<td>新的海战</td>
+<td>重做海战，使其信息更充分、决定性更弱</td>
+<td>2018-12-06
+</td></tr>
+<tr>
+<td>22</td>
+<td>百宝袋 #3</td>
+<td>荷兰与英国焦点改动、意识形态倾向调整，以及非洲和巴尔干地区的地图变动</td>
+<td>2018-11-28
+</td></tr>
+<tr>
+<td>20</td>
+<td>海军条约与舰船改装</td>
+<td>海军条约对舰船设计和过时舰船改装的影响</td>
+<td>2018-11-14
+</td></tr>
+<tr>
+<td>19</td>
+<td>舰船设计商</td>
+<td>舰船设计系统改动概览</td>
+<td>2018-11-07
+</td></tr>
+<tr>
+<td>18</td>
+<td>百宝袋 2</td>
+<td>远征军请求、受监管国家与地图上决议</td>
+<td>2018-10-31
+</td></tr>
+<tr>
+<td>17</td>
+<td>墨西哥国策树</td>
+<td>新墨西哥国策树的公布与介绍</td>
+<td>2018-10-24
+</td></tr>
+<tr>
+<td>16</td>
+<td>海军改动 #1</td>
+<td>海战各项改动概览</td>
+<td>2018-10-17
+</td></tr>
+<tr>
+<td>15</td>
+<td>海军地形</td>
+<td>海洋新地形类型概览</td>
+<td>2018-10-10
+</td></tr>
+<tr>
+<td>14</td>
+<td>两栖载具与科研</td>
+<td>新型两栖牵引车和两栖坦克</td>
+<td>2018-10-03
+</td></tr>
+<tr>
+<td>13</td>
+<td>Je Maintiendrai</td>
+<td>新荷兰国策树的公布与介绍</td>
+<td>2018-09-26
+</td></tr>
+<tr>
+<td>12</td>
+<td>流亡政府</td>
+<td>扩展流亡政府的可能性，以及关于英国国策树翻修的更多信息</td>
+<td>2018-09-19
+</td></tr>
+<tr>
+<td>21</td>
+<td>海军重做 #1</td>
+<td>新的任务类型，以及海军界面的改动</td>
+<td>2018-11-21
+</td></tr>
+<tr>
+<td>11</td>
+<td>海军生产、维修与损伤</td>
+<td>对海战体系的大幅改动，重做舰船生产、维修和损伤</td>
+<td>2018-09-12
+</td></tr>
+<tr>
+<td>10</td>
+<td>模组制作与特质</td>
+<td>为海军上将新增特质系统，以及面向模组作者的更多功能</td>
+<td>2018-09-05
+</td></tr>
+<tr>
+<td>9</td>
+<td>美国国策树重做</td>
+<td>重做美国国策树，允许架空历史路线</td>
+<td>2018-08-29
+</td></tr>
+<tr>
+<td>8</td>
+<td>水雷与扫雷</td>
+<td>水雷与扫雷加入游戏</td>
+<td>2018-08-22
+</td></tr>
+<tr>
+<td>7</td>
+<td>海军通行权</td>
+<td>对 HOI4 海战体系的改进，包括标记危险海区和请求港口海军通行权</td>
+<td>2018-08-15
+</td></tr>
+<tr>
+<td>6</td>
+<td>MTG——百宝袋</td>
+<td>游戏中的小型改进，例如接管阵营领袖、手动取消焦点，以及海军和空军演习</td>
+<td>2018-08-08
+</td></tr>
+<tr>
+<td>5</td>
+<td>自定义游戏规则</td>
+<td>新的自定义游戏规则，让玩家把游戏引向自己想要的方向</td>
+<td>2018-08-01
+</td></tr>
+<tr>
+<td>4</td>
+<td>后殖民世界：地图改动与新标签</td>
+<td>地图的大幅改动，以及加入更多可释放国家标签</td>
+<td>2018-07-11
+</td></tr>
+<tr>
+<td>3</td>
+<td>天佑国王：英国国策树重做</td>
+<td>重做英国国策树，允许架空历史路线</td>
+<td>2018-07-04
+</td></tr>
+<tr>
+<td>2</td>
+<td>燃料</td>
+<td>关于燃料的信息与新热修复</td>
+<td>2018-06-27
+</td></tr>
+<tr>
+<td>1</td>
+<td>全民持枪与 PdxCon</td>
+<td>未来扩展包和补丁的总体目标</td>
+<td>2018-05-23
+</td></tr></tbody></table>
+<h2 id="s-kkz0te" data-section="1"><span class="mw-headline" id="Waking_the_Tiger">唤醒猛虎</span></h2>
+<p>关于 <i>唤醒猛虎</i> 扩展包和 <a href="Patch_1.5.html">patch 1.5</a>（又名 Cornflakes）的所有开发日志。</p>
+<dl><dt>1.5 补丁发售之后</dt></dl>
+<table class="wikitable" width="100%">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th width="30%">标题与链接</th>
+<th width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>34</td>
+<td>1.5.2、未来路线图与 Ironclad</td>
+<td>项目符号清单的回归，以及未来可能的开发路线图</td>
+<td>2018-04-11
+</td></tr>
+<tr>
+<td>33</td>
+<td>1.5.2 更新 #3 与遥测</td>
+<td>更新后的测试版与多人游戏遥测</td>
+<td>2018-04-04
+</td></tr>
+<tr>
+<td>32</td>
+<td>1.5.2 更新 #2 与模组制作福利</td>
+<td>关于 1.5.2 补丁的信息：空中平衡与改动、核武器与投降、满洲国、模组制作等</td>
+<td>2018-03-28
+</td></tr>
+<tr>
+<td>31</td>
+<td>1.5.2 更新 #1</td>
+<td>关于 1.5.2 补丁的信息：德国边界变动、指挥官经验获取改动、多人游戏不同步等</td>
+<td>2018-03-21
+</td></tr>
+<tr>
+<td>30</td>
+<td>发售后的补丁</td>
+<td>关于 1.5.1 补丁的信息</td>
+<td>2018-03-14
+</td></tr></tbody></table>
+<dl><dt>1.5 补丁（Cornflakes）</dt></dl>
+<table class="wikitable" width="100%">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th width="30%">标题与链接</th>
+<th width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>29</td>
+<td>发售前与国际妇女节</td>
+<td>二战期间女性的贡献</td>
+<td>2018-03-07
+</td></tr>
+<tr>
+<td>28</td>
+<td>回顾特辑</td>
+<td>唤醒猛虎和 1.5 Cornflakes 将带来什么</td>
+<td>2018-02-28
+</td></tr>
+<tr>
+<td>27</td>
+<td>性能与 AI</td>
+<td>性能与 AI</td>
+<td>2018-02-21
+</td></tr>
+<tr>
+<td>26</td>
+<td>可成立国家与成就</td>
+<td>新的追求目标：可成立国家和约 18 项成就</td>
+<td>2018-02-14
+</td></tr>
+<tr>
+<td>25</td>
+<td>海军更新</td>
+<td>海战相关改进：损失与击沉概览、运输船队袭击、运输船拦截等</td>
+<td>2018-02-07
+</td></tr>
+<tr>
+<td>24</td>
+<td>猛虎的音效、音乐与美术</td>
+<td>关于 <i>唤醒猛虎</i> 艺术内容新增的话题</td>
+<td>2018-01-31
+</td></tr>
+<tr>
+<td>23</td>
+<td>战争改动与游戏难度</td>
+<td>三方战争处理方式的改动，以及新增 2 个难度设置。</td>
+<td>2018-01-24
+</td></tr>
+<tr>
+<td>22</td>
+<td>满洲国</td>
+<td>唤醒猛虎最后一条未揭晓的国策树："Manchukuo"</td>
+<td>2018-01-17
+</td></tr>
+<tr>
+<td>21</td>
+<td>百宝袋 #3</td>
+<td>第 3 批小型改进：武官、额外地勤人员、历史陆军徽章和志愿空军航空队</td>
+<td>2018-01-10
+</td></tr>
+<tr>
+<td>20</td>
+<td>日本重做</td>
+<td>日本国策树的重做</td>
+<td>2018-01-03
+</td></tr>
+<tr>
+<td>19</td>
+<td>新的德国师名列表</td>
+<td>进一步完善即将加入的德国单位名称列表</td>
+<td>2017-12-27
+</td></tr>
+<tr>
+<td>18</td>
+<td>圣诞节与模组制作</td>
+<td>1.5 补丁中新的决议与任务系统的模组制作指南</td>
+<td>2017-12-20
+</td></tr>
+<tr>
+<td>17</td>
+<td>边境战争：最后一位军阀</td>
+<td>关于中国军阀的更多细节</td>
+<td>2017-12-13
+</td></tr>
+<tr>
+<td>16</td>
+<td>气候适应与特种部队</td>
+<td>部队现在会受到炎热和寒冷气候的影响，以及特种部队的新改动</td>
+<td>2017-12-06
+</td></tr>
+<tr>
+<td>15</td>
+<td>领袖、能力与特质</td>
+<td>重做并扩展的特质系统，以及神秘的 "red phone" 图标（又名 <i>指挥点数</i>）</td>
+<td>2017-11-29
+</td></tr>
+<tr>
+<td>14</td>
+<td>共产主义中国</td>
+<td>中国的第 2 条国策树（<i>共产主义</i> 路线），以及新的 <i>decision system</i> 实战示例</td>
+<td>2017-11-22
+</td></tr>
+<tr>
+<td>13</td>
+<td>国民党中国</td>
+<td>中国的第 1 条国策树（<i>nationalist</i> 路线），以及 <i>唤醒猛虎</i> 扩展包的公布</td>
+<td>2017-11-15
+</td></tr>
+<tr>
+<td>12</td>
+<td>决定性行动</td>
+<td>为游戏加入决议、任务、危机和特殊项目</td>
+<td>2017-11-08
+</td></tr>
+<tr>
+<td>11</td>
+<td>飞机与战利品箱</td>
+<td>进一步完善空中相关内容</td>
+<td>2017-11-01
+</td></tr>
+<tr>
+<td>10</td>
+<td>百宝袋 #2</td>
+<td>又一批小型功能与改进，这次与装备有关</td>
+<td>2017-10-25
+</td></tr>
+<tr>
+<td>9</td>
+<td>新的德国</td>
+<td>应玩家要求的架空历史选项，重做德国国策树</td>
+<td>2017-10-18
+</td></tr>
+<tr>
+<td>8</td>
+<td>百宝袋 #1</td>
+<td>游戏中的小型改进：控制组、师合并、退出阵营、小地图与标记提示</td>
+<td>2017-10-11
+</td></tr>
+<tr>
+<td>7</td>
+<td>合成黎明（Synthetic Dawn）</td>
+<td>对合成炼油厂的改进，以及基础设施与资源的相互关联</td>
+<td>2017-10-04
+</td></tr>
+<tr>
+<td>6</td>
+<td>师名列表</td>
+<td>Pallidum，HoI4 的游戏设计师，为师的名称加入一些风味（和逻辑）</td>
+<td>2017-09-27
+</td></tr>
+<tr>
+<td>5</td>
+<td>稳定度与战争支持度</td>
+<td><i>稳定度</i> 和 <i>战争支持度</i> 将在下个补丁中取代国家统一度</td>
+<td>2017-09-20
+</td></tr>
+<tr>
+<td>4</td>
+<td>指挥链</td>
+<td>Podcat 谈作为 1.5 补丁一部分的 HoI4 指挥链如何变得更有意思</td>
+<td>2017-09-13
+</td></tr>
+<tr>
+<td>3</td>
+<td>产品经理的职责</td>
+<td>"Firebolt"，HoI4 的产品经理，谈游戏开发预算的种种细节</td>
+<td>2017-09-06
+</td></tr>
+<tr>
+<td>2</td>
+<td>我们的开发流程</td>
+<td>Sofia "KimchiViking" Höglund，HoI4 的项目主管，讲解从设计到实现的开发周期</td>
+<td>2017-08-30
+</td></tr>
+<tr>
+<td>1</td>
+<td>未来与 Cornflakes</td>
+<td>Podcat 分享团队（非详尽）的功能清单，作为 HoI4 未来的开发路线图</td>
+<td>2017-08-23
+</td></tr></tbody></table>
+<h2 id="s-1ynco16" data-section="1"><span class="mw-headline" id="Death_or_Dishonor">死亡或耻辱</span></h2>
+<p>关于<i><a href="Death_or_Dishonor.html">死亡或耻辱</a></i>国家包与<a href="Patch_1.4.html">patch 1.4</a>（又名「橡树」）的全部开发日志。</p>
+<dl><dt>补丁 1.4 发布后</dt></dl>
+<table class="wikitable" width="100%">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th width="30%">标题与链接</th>
+<th width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>13</td>
+<td>我们回来了！</td>
+<td>新的测试版补丁，含有额外修复、更多免费立绘，以及针对一个陈旧 AI 运输问题的临时解决方案</td>
+<td>2017-08-16
+</td></tr>
+<tr>
+<td>12</td>
+<td>认识一些新面孔</td>
+<td>测试版补丁状态、DoD 之后的初步游戏统计数据，以及新团队成员介绍</td>
+<td>2017-06-28
+</td></tr>
+<tr>
+<td>11</td>
+<td>发布后闲聊</td>
+<td>1.4.1 测试版补丁中处理的新旧 bug</td>
+<td>2017-06-21
+</td></tr></tbody></table>
+<dl><dt>补丁 1.4（橡树）</dt></dl>
+<table class="wikitable" width="100%">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th width="30%">标题与链接</th>
+<th width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>10</td>
+<td>1.4「橡树」更新日志抢先看</td>
+<td>补丁 1.4，又名<i>Oak</i>，更新日志</td>
+<td>2017-06-12
+</td></tr>
+<tr>
+<td>9</td>
+<td>零碎杂项</td>
+<td>新的附属国等级、成就、音乐、各类便利性功能以及 AI 更新 #3</td>
+<td>2017-06-07
+</td></tr>
+<tr>
+<td>8</td>
+<td>捷克斯洛伐克与 AI 更新 #2</td>
+<td>让我们来看看捷克斯洛伐克，以及 Steelvolt 带来的又一次 AI 更新</td>
+<td>2017-05-31
+</td></tr>
+<tr>
+<td>7</td>
+<td>南斯拉夫与空中区域</td>
+<td>南斯拉夫的独特风味，以及 1.4「橡树」中空战重制的更多细节</td>
+<td>2017-05-24
+</td></tr>
+<tr>
+<td>6</td>
+<td>空中改进</td>
+<td>1.4「橡树」中的空战重制</td>
+<td>2017-05-17
+</td></tr>
+<tr>
+<td>5</td>
+<td>装备改装与战争更新</td>
+<td>旧物新用以及战争概览的改进</td>
+<td>2017-05-10
+</td></tr>
+<tr>
+<td>4</td>
+<td>匈牙利</td>
+<td>即将到来的匈牙利改动</td>
+<td>2017-05-03
+</td></tr>
+<tr>
+<td>3</td>
+<td>公告与 AI 更新 #1</td>
+<td>宣布随免费 1.4「橡树」一同到来的新内容包，并详述 AI 改进</td>
+<td>2017-04-26
+</td></tr>
+<tr>
+<td>2</td>
+<td>许可证生产与地图改动</td>
+<td>1.4「橡树」与即将到来的扩展将带来地图改进以及获取科技的新方式</td>
+<td>2017-04-19
+</td></tr>
+<tr>
+<td>1</td>
+<td>反思与罗马尼亚</td>
+<td>新 DLC 内容首次亮相</td>
+<td>2017-04-12
+</td></tr></tbody></table>
+<h2 id="s-1mtqtby" data-section="1"><span class="mw-headline" id="Together_for_Victory">共赴胜利</span></h2>
+<p>所有关于<i><a href="Together_for_Victory.html">共赴胜利</a></i>国家包与<a href="Patch_1.3.html">patch 1.3</a>（又名 Torch）的开发日志。</p>
+<dl><dt>补丁 1.3 发布后</dt></dl>
+<table class="wikitable" width="100%">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th width="30%">标题与链接</th>
+<th width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>24</td>
+<td>1.3.3 补丁 #3</td>
+<td>该补丁现在应当已准备好发布</td>
+<td>2017-02-22
+</td></tr>
+<tr>
+<td>23</td>
+<td>补丁 1.3.3 更新 #2</td>
+<td>关于即将到来的补丁中所做的体验优化、AI 更新、性能与优化的细节</td>
+<td>2017-02-15
+</td></tr>
+<tr>
+<td>22</td>
+<td>补丁 1.3.3 更新 #1</td>
+<td>即将到来的补丁中对工业、世界紧张度与投降所做的改动</td>
+<td>2017-02-08
+</td></tr>
+<tr>
+<td>21</td>
+<td>1.3.3 模组制作功能</td>
+<td>更多即将到来的模组制作功能</td>
+<td>2017-02-01
+</td></tr>
+<tr>
+<td>20</td>
+<td>模组制作入门</td>
+<td>Havebeard 讲解模组制作需求以及给初学者的模组制作技巧</td>
+<td>2017-01-25
+</td></tr>
+<tr>
+<td>19</td>
+<td>痛扁这些 Bug</td>
+<td>1.3.3 的计划改动以及 1.4<i>Oak</i>补丁的总体重点</td>
+<td>2017-01-18
+</td></tr>
+<tr>
+<td>18</td>
+<td>圣诞归来</td>
+<td>1.3.2 热修复补丁很快进入公开测试</td>
+<td>2017-01-11
+</td></tr>
+<tr>
+<td>17</td>
+<td>圣诞与热修复发布！</td>
+<td>该放假了！开发日志将在 2017 年回归！</td>
+<td>2016-12-21
+</td></tr></tbody></table>
+<dl><dt>补丁 1.3（Torch）</dt></dl>
+<table class="wikitable" width="100%">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th width="30%">标题与链接</th>
+<th width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>16</td>
+<td>成就与补丁日志</td>
+<td>新成就与 1.3 更新日志</td>
+<td>2016-12-14
+</td></tr>
+<tr>
+<td>15</td>
+<td>TFV AI 更新 #4</td>
+<td>TFV 的 AI 错误修复与更新第 4 部分</td>
+<td>2016-12-14
+</td></tr>
+<tr>
+<td>14</td>
+<td>TFV AI 更新 #3</td>
+<td>TFV 的 AI 错误修复与更新第 3 部分</td>
+<td>2016-12-12
+</td></tr>
+<tr>
+<td>13</td>
+<td>TFV AI 更新 #2</td>
+<td>TFV 的 AI 错误修复与更新第 2 部分</td>
+<td>2016-12-09
+</td></tr>
+<tr>
+<td>12</td>
+<td>外观标签、美术、玩法与 AI</td>
+<td>距离<i>共赴胜利</i>发布还有一周！</td>
+<td>2016-12-07
+</td></tr>
+<tr>
+<td>11</td>
+<td>《共赴胜利》的音频</td>
+<td>《共赴胜利》中的音乐与音频</td>
+<td>2016-11-30
+</td></tr>
+<tr>
+<td>10</td>
+<td>新西兰与战斗日志</td>
+<td>新西兰焦点与科技树以及一个战斗日志</td>
+<td>2016-11-23
+</td></tr>
+<tr>
+<td>9</td>
+<td>印度 - 独立斗争</td>
+<td>更仔细地审视<i>共赴胜利</i>中印度即将到来的改动</td>
+<td>2016-11-16
+</td></tr>
+<tr>
+<td>8</td>
+<td>自治度</td>
+<td><i>共赴胜利</i>中即将到来的附属国新等级</td>
+<td>2016-11-09
+</td></tr>
+<tr>
+<td>7</td>
+<td>南非与连续焦点</td>
+<td>南非与连续焦点</td>
+<td>2016-11-02
+</td></tr>
+<tr>
+<td>6</td>
+<td>南方盟友</td>
+<td>澳大利亚在<i>共赴胜利</i>中得到更新</td>
+<td>2016-10-26
+</td></tr>
+<tr>
+<td>5</td>
+<td>哦，加拿大！</td>
+<td>加拿大与英联邦</td>
+<td>2016-10-19
+</td></tr>
+<tr>
+<td>4</td>
+<td>闪击命令与驻军命令</td>
+<td>下一个扩展包中的「闪击」命令，免费补丁中的驻军命令</td>
+<td>2016-10-12
+</td></tr>
+<tr>
+<td>3</td>
+<td>回忆之路</td>
+<td>审视一些概念在 HoI 系列中如何演变，例如：补给、升级、增援等等</td>
+<td>2016-10-05
+</td></tr>
+<tr>
+<td>2</td>
+<td>团队</td>
+<td>展示当前 HoI4 团队阵容</td>
+<td>2016-09-28
+</td></tr>
+<tr>
+<td>1</td>
+<td>未来的焦点</td>
+<td>1.3 的重点 / 即将到来的扩展包，以及后续扩展包的总体计划</td>
+<td>2016-09-23
+</td></tr></tbody></table>
+<h2 id="s-vnpgfi" data-section="1"><span class="mw-headline" id="Pre-DLC">Pre-DLC</span></h2>
+<p>关于 <i><a href="Hearts_of_Iron_IV.html">钢铁雄心 IV</a></i> 在 <i>共赴胜利</i> 之前的所有开发日志、1.0 补丁、<a href="Patch_1.1.html">patch 1.1</a>（又名 Red Ball Express）以及 <a href="Patch_1.2.html">patch 1.2</a>（又名 Sunflower）</p>
+<dl><dt>1.2 补丁（Sunflower）</dt></dl>
+<table class="wikitable" width="100%">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th width="30%">标题与链接</th>
+<th width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>69</td>
+<td>Sunflower 已上线</td>
+<td>1.2 补丁已上线，下个补丁是 1.3，又名 "Torch"</td>
+<td>2016-09-16
+</td></tr>
+<tr>
+<td>68</td>
+<td>程序错误与统计数据</td>
+<td>为 Sunflower 的发售做准备，并分享一些游戏数据</td>
+<td>2016-09-09
+</td></tr>
+<tr>
+<td>67</td>
+<td>Sunflower 改进</td>
+<td>Sunflower 更新：界面改进、海军平衡、国策树</td>
+<td>2016-09-02
+</td></tr>
+<tr>
+<td>66</td>
+<td>新的可释放国家</td>
+<td>介绍新的可释放国家和 Sunflower（1.2 补丁）中更多 AI 改进</td>
+<td>2016-08-26
+</td></tr>
+<tr>
+<td>65</td>
+<td>Sunflower（1.2 补丁）</td>
+<td>港口罢工，以及 Sunflower 中升级师编制模板和海军任务的 AI 改进</td>
+<td>2016-08-19
+</td></tr>
+<tr>
+<td>64</td>
+<td>自定义难度设置</td>
+<td>AI 改进，以及在游戏设置中实装自定义难度设置</td>
+<td>2016-08-12
+</td></tr>
+<tr>
+<td>63</td>
+<td>假期归来</td>
+<td>1.2（又名 'Sunflower'）中的 AI 改动和多人中途加入</td>
+<td>2016-08-05
+</td></tr></tbody></table>
+<dl><dt>1.1 补丁（Red Ball Express）</dt></dl>
+<table class="wikitable" width="100%">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th width="30%">标题与链接</th>
+<th width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>62</td>
+<td>暑假</td>
+<td>团队要去享受应得的暑假了</td>
+<td>2016-07-01
+</td></tr>
+<tr>
+<td>61</td>
+<td>Red Ball Express</td>
+<td>对进入盟国领土、和平会议、登陆作战和海军轰炸机的调整，以及「Red Ball Express」中即将推出的新作战计划模式</td>
+<td>2016-06-17
+</td></tr>
+<tr>
+<td>60</td>
+<td>发售与未来</td>
+<td>Podcat 分享他对发售的看法，并讨论近期的补丁</td>
+<td>2016-06-10
+</td></tr></tbody></table>
+<dl><dt>1.0 补丁</dt></dl>
+<table class="wikitable" width="100%">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th width="30%">标题与链接</th>
+<th width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>59</td>
+<td>D-day</td>
+<td>Podcat 在发售前的一段简短告别留言</td>
+<td>2016-06-03
+</td></tr>
+<tr>
+<td>58</td>
+<td>教学、Wiki 与浏览器</td>
+<td>介绍我们提供的、帮助你学会如何游玩 <i>钢铁雄心 IV</i> 的各种工具</td>
+<td>2016-05-27
+</td></tr>
+<tr>
+<td>57</td>
+<td>波兰：团结与准备</td>
+<td>关于随所有 <i>钢铁雄心 IV</i> 副本附赠的免费 DLC</td>
+<td>2016-05-20
+</td></tr>
+<tr>
+<td>56</td>
+<td>零碎杂项</td>
+<td>扫尾处理其他开发日志未涵盖的一堆较小话题</td>
+<td>2016-05-13
+</td></tr>
+<tr>
+<td>55</td>
+<td>QA</td>
+<td>深入了解开发 <i>钢铁雄心 IV</i> 时的 QA 流程</td>
+<td>2016-05-06
+</td></tr>
+<tr>
+<td>54</td>
+<td>AI</td>
+<td>SteelVolt 谈论那个没人愿意碰、但人人都想知道的话题</td>
+<td>2016-04-29
+</td></tr>
+<tr>
+<td>53</td>
+<td>2D 美术</td>
+<td>Sideburnout 谈 <i>钢铁雄心 IV</i> 的 2D 美术</td>
+<td>2016-04-22
+</td></tr>
+<tr>
+<td>52</td>
+<td>模组制作</td>
+<td>一览 <i>钢铁雄心 IV</i> 中改进的模组制作支持</td>
+<td>2016-04-15
+</td></tr>
+<tr>
+<td>51</td>
+<td>音效与音乐</td>
+<td><i>钢铁雄心 IV</i> 中的音乐与音效设计</td>
+<td>2016-04-08
+</td></tr>
+<tr>
+<td>50</td>
+<td>通用国策树</td>
+<td>通用国策树与 DDR 舞垫支持</td>
+<td>2016-04-01
+</td></tr>
+<tr>
+<td>49</td>
+<td>核武器！</td>
+<td>原子弹——科研，以及生产和使用的需求</td>
+<td>2016-03-18
+</td></tr>
+<tr>
+<td>48</td>
+<td>海军登陆</td>
+<td>海军登陆如何运作</td>
+<td>2016-03-11
+</td></tr>
+<tr>
+<td>47</td>
+<td>中国</td>
+<td>中国概览</td>
+<td>2016-03-04
+</td></tr>
+<tr>
+<td>46</td>
+<td>英国</td>
+<td>英国概览</td>
+<td>2016-02-26
+</td></tr>
+<tr>
+<td>45</td>
+<td>作战计划</td>
+<td>作战计划如何运作</td>
+<td>2016-02-19
+</td></tr>
+<tr>
+<td>44</td>
+<td>占领与抵抗度</td>
+<td>管理占领区</td>
+<td>2016-02-12
+</td></tr>
+<tr>
+<td>43</td>
+<td>外交及其他选项</td>
+<td>外交、阵营、战争目标……另外：HOI4 现已进入 BETA 测试</td>
+<td>2016-02-05
+</td></tr>
+<tr>
+<td>42</td>
+<td>日本</td>
+<td>日本概览</td>
+<td>2016-01-29
+</td></tr>
+<tr>
+<td>41</td>
+<td>指挥序列</td>
+<td>指挥链与指挥官特质</td>
+<td>2016-01-22
+</td></tr>
+<tr>
+<td>40</td>
+<td>游戏的各项改动</td>
+<td>完全重做的工厂槽位机制、世界紧张度，以及其他改动</td>
+<td>2016-01-15
+</td></tr>
+<tr>
+<td>39</td>
+<td>无线电</td>
+<td>无线电、补充概率和雷达站</td>
+<td>2016-01-08
+</td></tr>
+<tr>
+<td>38</td>
+<td>潜艇</td>
+<td>潜艇如何运作</td>
+<td>2015-12-18
+</td></tr>
+<tr>
+<td>37</td>
+<td>航母作战</td>
+<td>航空母舰如何运作</td>
+<td>2015-12-11
+</td></tr>
+<tr>
+<td>36</td>
+<td>援助其他战争</td>
+<td>在不直接卷入的情况下援助其他国家的战争</td>
+<td>2015-12-04
+</td></tr>
+<tr>
+<td>35</td>
+<td>德国</td>
+<td>德国概览</td>
+<td>2015-11-27
+</td></tr>
+<tr>
+<td>34</td>
+<td>内战</td>
+<td>内战与政变</td>
+<td>2015-11-20
+</td></tr>
+<tr>
+<td>33</td>
+<td>补给</td>
+<td>补给系统与补给区域</td>
+<td>2015-11-13
+</td></tr>
+<tr>
+<td>32</td>
+<td>美国</td>
+<td>美国概览</td>
+<td>2015-11-06
+</td></tr>
+<tr>
+<td>31</td>
+<td>和平会议</td>
+<td>结束战争</td>
+<td>2015-10-30
+</td></tr>
+<tr>
+<td>30</td>
+<td>法国</td>
+<td>法国概览</td>
+<td>2015-10-23
+</td></tr>
+<tr>
+<td>29</td>
+<td>阵营与战争目标</td>
+<td>阵营与战争目标如何运作</td>
+<td>2015-10-16
+</td></tr>
+<tr>
+<td>28</td>
+<td>天气&amp;地形</td>
+<td>天气与地形如何运作</td>
+<td>2015-10-09
+</td></tr>
+<tr>
+<td>27</td>
+<td>意大利</td>
+<td>意大利在游戏中的处境</td>
+<td>2015-10-02
+</td></tr>
+<tr>
+<td>26</td>
+<td>海军</td>
+<td>海军学说与海军科技</td>
+<td>2015-09-25
+</td></tr>
+<tr>
+<td>25</td>
+<td>法令与政治</td>
+<td>如何管理政府</td>
+<td>2015-09-18
+</td></tr>
+<tr>
+<td>24</td>
+<td>贸易与资源</td>
+<td>国际贸易概览</td>
+<td>2015-09-11
+</td></tr>
+<tr>
+<td>23</td>
+<td>工业产能</td>
+<td>工厂如何运作</td>
+<td>2015-09-04
+</td></tr>
+<tr>
+<td>22</td>
+<td>支援连</td>
+<td>支援连列表</td>
+<td>2015-08-28
+</td></tr>
+<tr>
+<td>21</td>
+<td>陆战</td>
+<td>陆战机制</td>
+<td>2015-08-21
+</td></tr>
+<tr>
+<td>20</td>
+<td>苏联与共产主义</td>
+<td>苏联与共产主义</td>
+<td>2015-08-14
+</td></tr>
+<tr>
+<td>19</td>
+<td>装备</td>
+<td>装备如何运作</td>
+<td>2015-07-03
+</td></tr>
+<tr>
+<td>18</td>
+<td>陆军编制器</td>
+<td>创建与部署单位</td>
+<td>2015-06-26
+</td></tr>
+<tr>
+<td>17</td>
+<td>Johan 入侵德国</td>
+<td>勉强算一篇开发日志</td>
+<td>2015-06-12
+</td></tr>
+<tr>
+<td>16</td>
+<td>世界紧张度</td>
+<td>世界紧张度、战争目标制造</td>
+<td>2015-05-08
+</td></tr>
+<tr>
+<td>15</td>
+<td>在公海上</td>
+<td>海战</td>
+<td>2015-04-11
+</td></tr>
+<tr>
+<td>14</td>
+<td>国策</td>
+<td>国策</td>
+<td>2015-03-20
+</td></tr>
+<tr>
+<td>13</td>
+<td>征兵与训练</td>
+<td>人力、征兵、训练</td>
+<td>2015-02-20
+</td></tr>
+<tr>
+<td>12</td>
+<td>内部政治</td>
+<td>一国的内部事务</td>
+<td>2015-01-16
+</td></tr>
+<tr>
+<td>11</td>
+<td>地图与图形</td>
+<td>游戏的视觉美学</td>
+<td>2014-11-07
+</td></tr>
+<tr>
+<td>10</td>
+<td>海战</td>
+<td>海军玩法</td>
+<td>2014-10-10
+</td></tr>
+<tr>
+<td>9</td>
+<td>假期与空军科技</td>
+<td>空军科技树</td>
+<td>2014-09-12
+</td></tr>
+<tr>
+<td>8</td>
+<td>经验与衍生型号</td>
+<td>生产</td>
+<td>2014-08-08
+</td></tr>
+<tr>
+<td>7</td>
+<td>空战</td>
+<td>空军战争</td>
+<td>2014-07-11
+</td></tr>
+<tr>
+<td>6</td>
+<td>师设计</td>
+<td>师编制器、师编制模板</td>
+<td>2014-06-13
+</td></tr>
+<tr>
+<td>5</td>
+<td>生产线</td>
+<td>建造是如何进行的</td>
+<td>2014-05-09
+</td></tr>
+<tr>
+<td>4</td>
+<td>陆军学说</td>
+<td>学说路线</td>
+<td>2014-04-11
+</td></tr>
+<tr>
+<td>3</td>
+<td>让二战走向大众</td>
+<td>狗！</td>
+<td>2014-04-01
+</td></tr>
+<tr>
+<td>2</td>
+<td>战争工具</td>
+<td>装备、生产与科研</td>
+<td>2014-03-07
+</td></tr>
+<tr>
+<td>1</td>
+<td>我们的愿景</td>
+<td>设计目标</td>
+<td>2014-02-07
+</td></tr></tbody></table>
+<h2 id="s-rknizx" data-section="1"><span class="mw-headline" id="Videos">Videos</span></h2>
+<p>开发者视频日志，以及开发者针对各个扩展包的实况游玩录像。</p>
+<dl><dt>Videos</dt></dl>
+<table class="wikitable" width="100%">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th width="30%">标题与链接</th>
+<th width="70%">描述</th>
+<th style="min-width: 75px;">日期</th></tr>
+<tr>
+<td>17</td>
+<td>《钢铁雄心 IV》：绝不后退——苏联国策树</td>
+<td>.....</td>
+<td>2021-11-02
+</td></tr>
+<tr>
+<td>16</td>
+<td>PDXCon 2018——前线消息</td>
+<td>Dan Lind，<i>钢铁雄心 IV</i> 的游戏总监，讨论 HOI 的未来及其即将到来的更新 <i>全民持枪</i>。</td>
+<td>2018-05-20
+</td></tr>
+<tr>
+<td>15</td>
+<td>《钢铁雄心 IV》——1.5 "Cornflakes" 补丁</td>
+<td>Dan "Podcat" Lind 详述免费 1.5 补丁（又名 <i>Cornflakes</i>），该补丁随 <i>唤醒猛虎</i> 扩展包一同发布。</td>
+<td>2018-02-09
+</td></tr>
+<tr>
+<td>14</td>
+<td>唤醒猛虎 #3——指挥链</td>
+<td>Dan "Podcat" Lind 与 Kandra Dahlgren 详解新的指挥链机制与指挥官特质、新的指挥点数机制，以及师名列表／师徽。</td>
+<td>2018-02-07
+</td></tr>
+<tr>
+<td>13</td>
+<td>唤醒猛虎 #2——德国与决议</td>
+<td>Dan "Podcat" Lind 与 Drikus Kuiper 详解德国国策树中的架空历史路线、全新的决议系统，以及围绕稳定度和战争支持度的新机制。</td>
+<td>2018-02-01
+</td></tr>
+<tr>
+<td>12</td>
+<td>唤醒猛虎 #1——中国</td>
+<td>Dan "Podcat" Lind 与 Gabriel Blum 详解中国战场更丰富的呈现。</td>
+<td>2018-01-30
+</td></tr>
+<tr>
+<td>10</td>
+<td>教学 #2——贸易、生产、师编制模板</td>
+<td>教学的第 2 部分，这次涵盖贸易、生产和师编制。由 Daniel "Da9L" Sjöberg 与 Christian Daflos（社区经理）主讲。</td>
+<td>2017-11-01
+</td></tr>
+<tr>
+<td>9</td>
+<td>教学 #1——界面概览</td>
+<td>由 Daniel "Da9L" Sjöberg 与 Christian Daflos（社区经理）带来的深入 <i>界面</i> 教学。</td>
+<td>2017-10-25
+</td></tr>
+<tr>
+<td>8</td>
+<td>死亡或耻辱——发售预告片</td>
+<td>发售预告片，详细介绍 <i>死亡或耻辱</i> DLC 为 <i>钢铁雄心 4</i> 带来的各项功能。</td>
+<td>2017-06-14
+</td></tr>
+<tr>
+<td>7</td>
+<td>共赴胜利——功能聚焦</td>
+<td>Dan "Podcat" Lind 谈论即将推出的 <i>共赴胜利</i> 国家包和 1.3 补丁</td>
+<td>2016-12-07
+</td></tr>
+<tr>
+<td>6</td>
+<td>PDX 粉丝聚会 2016</td>
+<td>在 2016 PDX FanGathering 上抢先一览新的 HoI4 Together for Victory 扩展包多人对战</td>
+<td>2016-12-02
+</td></tr>
+<tr>
+<td>5</td>
+<td>钢铁雄心 4 #3——政治与政变</td>
+<td>Johan Andersson、Dan Lind、Mats Virtanen 与 Jakob Munthe 讨论《钢铁雄心 IV》中的政治互动。</td>
+<td>2016-06-01
+</td></tr>
+<tr>
+<td>4</td>
+<td>《钢铁雄心 IV》——新手教学</td>
+<td>Jake（又名 DDRJake）用舒缓平静的声音讲解 <i>钢铁雄心 IV</i> 的入门教学</td>
+<td>2016-05-30
+</td></tr>
+<tr>
+<td>3</td>
+<td>钢铁雄心 4 #2——海军、陆军与空军力量</td>
+<td>Johan Andersson、Dan Lind、Mats Virtanen 与 Jakob Munthe 讨论不同类型的战争，以及它们在 <i>钢铁雄心 IV</i> 中的运用</td>
+<td>2016-05-12
+</td></tr>
+<tr>
+<td>2</td>
+<td>钢铁雄心 4 #1——宏大野心</td>
+<td>Johan Andersson、Dan Lind、Mats Virtanen 与 Jakob Munthe 讨论 <i>钢铁雄心</i> 系列第四作的设计与野心</td>
+<td>2016-03-15
+</td></tr>
+<tr>
+<td>1</td>
+<td>钢铁雄心 4 直播</td>
+<td>开发者对 <i>钢铁雄心 IV</i> 的早期预览，并穿插问答</td>
+<td>2014-08-18
+</td></tr></tbody></table>
+<dl><dt>实况游玩</dt></dl>
+<table class="wikitable" width="100%">
+<tbody><tr>
+<th style="min-width: 10px;">序号</th>
+<th width="30%">标题与链接</th>
+<th width="58%">描述</th>
+<th style="min-width: 75px;">起始日期</th>
+<th style="min-width: 75px;">结束日期</th></tr>
+<tr>
+<td>6</td>
+<td>指挥链</td>
+<td><i>钢铁雄心 IV</i> 的多人活动，开发者与 YouTuber 在此争夺霸主地位</td>
+<td>2017-08-16</td>
+<td>
+</td></tr>
+<tr>
+<td>5</td>
+<td>死亡或耻辱</td>
+<td>Daniel "Da9L" Sjöberg 与 Dan "Podcat" Lind 抢先一睹即将推出的 <i>钢铁雄心 IV</i> 国家包</td>
+<td>2017-04-26</td>
+<td>2017-06-15
+</td></tr>
+<tr>
+<td>4</td>
+<td>共赴胜利——发售开发者多人对战</td>
+<td>Dan 与 Daniel 带来的 <i>共赴胜利</i> 功能直播</td>
+<td>2016-12-08</td>
+<td>2016-12-14
+</td></tr>
+<tr>
+<td>3</td>
+<td>三日战争</td>
+<td>HoI4 的多人活动，开发者与 YouTuber 在此争夺霸主地位</td>
+<td>2016-06-14</td>
+<td>2016-06-16
+</td></tr>
+<tr>
+<td>2</td>
+<td>周三大战——发售前</td>
+<td>Jake 与 Daniel 展示单人战役和合作国家</td>
+<td>2016-03-17</td>
+<td>2016-06-23
+</td></tr>
+<tr>
+<td>1</td>
+<td>周三大战</td>
+<td>Daniel Sjöberg（接替 Jakob Munthe 扮演纳粹德国）对阵 Johan Andersson（扮演 Jolly England），在这场世纪之战中检验《钢铁雄心 IV》的方方面面</td>
+<td>2015-12-02</td>
+<td>2016-03-10
+</td></tr></tbody></table>
+
+<div style="margin: 5px 0px 0px; padding: 2px; border: 1px solid #aaa; text-align: center; border-collapse: collapse; font-size: 100%;">
+<div style="height: 1.6em; font-weight: bold; font-size: 105%; background-color: #efefef;"><b><a href="Hearts_of_Iron_IV.html">钢铁雄心 IV</a></b></div>
+<div style="font-size:0.9em; margin:0.5em">
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">游戏</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Achievements.html">成就</a> • <a href="Hearts_of_Iron_IV.html">特性</a> • 游戏规则 • <a href="Ironman.html">铁人模式</a></td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">指南</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Beginner's_guide.html">新手入门指南</a> • <a href="Console_commands.html">控制台指令</a> • <a href="Hotkeys.html">快捷键</a> • 地图模式 • <a href="Tutorial_videos.html">教学视频</a> • <a href="User_interface.html">用户界面</a></td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">开发</td>
+<td style="text-align: left; padding: 2px 5px;"><a class="mw-selflink selflink" href="#">开发日志</a> • <a href="Downloadable_content.html">可下载内容</a> • <a href="Patches.html">补丁</a>
+</td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">社区</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Jargon.html">术语表</a> • <a href="Modding.html">模组制作</a>
+</td></tr></tbody></table>
+</div></div>
+
+
+
+
+</div>
+</main>
+</div>
+<footer class="site-footer">
+<p>本资料库内容译自 <a href="https://hoi4.paradoxwikis.com/" rel="noreferrer">Hearts of Iron IV Wiki</a>（Paradox Interactive 社区维基），原文以 CC BY-SA 3.0 授权发布，译文沿用同一授权。仅供个人离线学习，与 Paradox Interactive 无隶属关系。</p>
+<p>原页面「Developer diaries」｜ 抓取时间 2026-09-10 ｜ 原站版本号 105093 ｜ 中文翻译进度 99%</p>
+</footer>
+</body>
+</html>

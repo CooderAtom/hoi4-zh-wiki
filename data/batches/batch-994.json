@@ -1,0 +1,926 @@
+{
+ "batch": 994,
+ "pages": [
+  "Patch 1.3.X"
+ ],
+ "chars": 14957,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "qilo4d",
+   "en": "Missiles are not shown in logistics screen anymore"
+  },
+  {
+   "k": "1dhzti4",
+   "en": "Fixes for fear trade modifiers being applied in wrong direction"
+  },
+  {
+   "k": "xxmvv",
+   "en": "Now clicking on not existing country in the managing occupied areas screen you won't go to diplomacy screen"
+  },
+  {
+   "k": "15jk298",
+   "en": "Fixed the bug when plan evaluation numbers was not matching"
+  },
+  {
+   "k": "whsz3q",
+   "en": "Fixed the bug when capital icons were not correctly shown"
+  },
+  {
+   "k": "195p0gk",
+   "en": "Fix for the tooltip on return territory"
+  },
+  {
+   "k": "1oi9csq",
+   "en": "Added clarification on non-progressing training by reason of lacking equipment and manpower"
+  },
+  {
+   "k": "1ea5ggj",
+   "en": "Now Pass button gets disabled in the peace conference if no actions left to take"
+  },
+  {
+   "k": "1dqxoit",
+   "en": "Combat log screen now will be shown on top of other screens"
+  },
+  {
+   "k": "695y53",
+   "en": "Now load game button disable at the same time as continue button"
+  },
+  {
+   "k": "vyi7cl",
+   "en": "Clarified tooltip for opening multiple info windows in the tech and focus tree screens"
+  },
+  {
+   "k": "oyutvr",
+   "en": "Political cost now is hidden when the law is taken"
+  },
+  {
+   "k": "1emmf4s",
+   "en": "Fix for the switch to next autonomy level glow (now it is actually hidden)"
+  },
+  {
+   "k": "17csfcr",
+   "en": "Fixed warscore not being calculated properly while war without majors on one side"
+  },
+  {
+   "k": "v9934s",
+   "en": "Now invalid leader picking screens disappear as army group gets deleted"
+  },
+  {
+   "k": "1xrkjwr",
+   "en": "Disabled icons while in deployment mode"
+  },
+  {
+   "k": "y6nbxq",
+   "en": "Fix for the rules not being updated on savegame load"
+  },
+  {
+   "k": "1kv52to",
+   "en": "If national focus not changing tooltip doesn't show weekly change anymore"
+  },
+  {
+   "k": "1foq8ww",
+   "en": "Fixed factory conversion button flickering while non-paused gameplay"
+  },
+  {
+   "k": "11p4a7a",
+   "en": "Fixed the bug when techtree was broken after switching country"
+  },
+  {
+   "k": "1x61agl",
+   "en": "Added ability to toggle fog of war map effect on/off"
+  },
+  {
+   "k": "faaf7e",
+   "en": "Tooltips existing lend leases for equipment now show type as well as national flavor name when these differ"
+  },
+  {
+   "k": "1klosoi",
+   "en": "Releasing nations with a lot of states no longer massively overflows popup window"
+  },
+  {
+   "k": "1te8chg",
+   "en": "Multiple rows of division types now possible to be shown in army overview"
+  },
+  {
+   "k": "e40atv",
+   "en": "Tweaked gradient borders for strategic areas so there is no weird gap between areas (more visible with mods)"
+  },
+  {
+   "k": "1cielsa",
+   "en": "Air wing reinforce limit window now has the +50/+100 buttons jump to closest multiple to avoid clicks for neat sizes, steps are also +5/+10 for carrier parked wings"
+  },
+  {
+   "k": "1nh7v9s",
+   "en": "Can now increase/decrease queued up ship production faster with ctrl/shift click (ctrl=10 at a time, shift=100 at a time)"
+  },
+  {
+   "k": "uiylxm",
+   "en": "Indian National Army focus now has correct effect description"
+  },
+  {
+   "k": "uqe19k",
+   "en": "Fixed overlap of text in options with certain languages"
+  },
+  {
+   "k": "1ehxsn7",
+   "en": "Changed shortcut for closing a bunch of production items as ctrl+click it’s easy to miss-click with other shift+click nearby"
+  },
+  {
+   "k": "1hmvxoj",
+   "en": "Fixed centering of trade scrollbar"
+  },
+  {
+   "k": "11dk7jb",
+   "en": "Achievement entry header now highlighted in orange"
+  },
+  {
+   "k": "vubeju",
+   "en": "Achievement window now movable"
+  },
+  {
+   "k": "11entbc",
+   "en": "Resistance tick indicator now doesn’t show VP stuff in states where there can’t be resistance"
+  },
+  {
+   "k": "l465w8",
+   "en": "Clicking rightmost side of savegame edit box no longer deselects editing"
+  },
+  {
+   "k": "1ikcfhx",
+   "en": "Spelling fix of Trotskyist"
+  },
+  {
+   "k": "16gezdk",
+   "en": "Added tooltip to icons displaying used combat width in the combat window ."
+  },
+  {
+   "k": "13ahtnt",
+   "en": "Added tooltip to research button explaining the 30 days grace period."
+  },
+  {
+   "k": "1grx6e",
+   "en": "Added province tooltip if there is an air base or rocket site present."
+  },
+  {
+   "k": "1cbx7qz",
+   "en": "Added state name when hovering over a naval base."
+  },
+  {
+   "k": "v8yxxi",
+   "en": "Renamed \"Small arms research time\" to \"Weapons and Equipment Research Time\""
+  },
+  {
+   "k": "1wskv4z",
+   "en": "Explained conditional effect of why we fight focus in tooltip"
+  },
+  {
+   "k": "ahhr9i",
+   "en": "Entrenchment tooltip only shows days left when unit is not fully entrenched."
+  },
+  {
+   "k": "1vhp3u0",
+   "en": "Fixed rounding issue in resource mapmode"
+  },
+  {
+   "k": "w51hab",
+   "en": "Made separate production tooltip for naval items, reflecting they don't retain efficiency."
+  },
+  {
+   "k": "14mk2dz",
+   "en": "Added war requirement to lend lease tooltip."
+  },
+  {
+   "k": "18vklls",
+   "en": "Armies view: Improved consistency across the different tooltips. Added penalty to the groupview in the bottom of the screen. Moved penalty explanation to delayed."
+  },
+  {
+   "k": "v3g3hy",
+   "en": "Added delayed tooltip to production line filter explaining Shift+click mechanic."
+  },
+  {
+   "k": "43d2ph",
+   "en": "Removed \"Support\" header from division icon tooltip when it has no support."
+  },
+  {
+   "k": "o8v1ax",
+   "en": "Changed production line tooltip to no longer lie about total output and resource efficiency to the player."
+  },
+  {
+   "k": "oipys2",
+   "en": "Maximum amount of slots is always stated. Factor modifiers not shown if slots < 0. Wasteland is now displayed in same way as other categories."
+  },
+  {
+   "k": "u4d48o",
+   "en": "Changed \"Trade Bonus\" modifier to \"Overlord trade cost\" and made it a negative modifier."
+  },
+  {
+   "k": "1rnjl4k",
+   "en": "Added \"Stop\" button to continuous focus detail screen."
+  },
+  {
+   "k": "pwmldp",
+   "en": "Added bypass button for focus if they have are mutually exclusive with another, automatically locking players in a branch."
+  },
+  {
+   "k": "1qrsz2t",
+   "en": "Moved the disband button, manpower and equipment numbers around for unit details view"
+  },
+  {
+   "k": "94x7rv",
+   "en": "A bunch of tooltips readability improved. Various changes, typo fixed, decimal points changed, etc."
+  },
+  {
+   "k": "1kyfdby",
+   "en": "added ability to toggle fog of war on/off"
+  },
+  {
+   "k": "e08pgz",
+   "en": "Changed efficiency tooltip growth to show daily values instead of weekly"
+  },
+  {
+   "k": "9m30fv",
+   "en": "Modding"
+  },
+  {
+   "k": "1l4mlu2",
+   "en": "Purged unit_base, as it did nothing apart from making scripting harder. unit_ratio is now the end all and be all of unit production in the scripting, and setting it to anything but a positive value will make the AI NOT build it."
+  },
+  {
+   "k": "rtx7fb",
+   "en": "Added ai_strategy type 'support' that can be used to manipulate a countries desire to send lend lease to another country"
+  },
+  {
+   "k": "1k0inql",
+   "en": "Dynamic state, country and global flags effect. set_global_flag = test_flag_@ROOT."
+  },
+  {
+   "k": "1b9ti7e",
+   "en": "Added triggers for date days and value to flags."
+  },
+  {
+   "k": "1b8vahm",
+   "en": "Added has_resources_amount trigger."
+  },
+  {
+   "k": "g2q7sn",
+   "en": "Added trigger has_tech_bonus. Works with specific technology or category."
+  },
+  {
+   "k": "blhe9g",
+   "en": "Added can_join_factions rule."
+  },
+  {
+   "k": "e2tkj4",
+   "en": "The AI is no longer quite as emotionally attached to modded ideas. Will now consider changing non-hardcoded ideas if the ai_will_do value is higher than the existing idea."
+  },
+  {
+   "k": "1fqw39i",
+   "en": "Added has_country_leader trigger."
+  },
+  {
+   "k": "w6lgtn",
+   "en": "Clearing script flags now removed them completely instead of setting value to zero."
+  },
+  {
+   "k": "1pyxpy3",
+   "en": "Added modify_global_flag modify_country_flag modify_state_flag effects."
+  },
+  {
+   "k": "1w20aqe",
+   "en": "Tooltips for is_core_of and is_claimed_by now work with any_state triggers. Removed state name from tooltip. Country name now uses def version."
+  },
+  {
+   "k": "1u4up25",
+   "en": "Added an on action for on_annex. Fired from both effect and peaceconference."
+  },
+  {
+   "k": "4qcq1o",
+   "en": "Console command: add_party_popularity <ideology group> <value> * ideology group has shortcuts d f n c for vanilla HOI groups."
+  },
+  {
+   "k": "vp53ae",
+   "en": "Console command: set_ruling_party <ideology group> * ideology group has shortcuts d f n c for vanilla HOI groups."
+  },
+  {
+   "k": "1sf9i5o",
+   "en": "Added timed script flags. Example: set_country_flag = { flag = GER_drunk_scientists days = 30 }."
+  },
+  {
+   "k": "1dxqvd8",
+   "en": "Added local_non_core_manpower state modifier."
+  },
+  {
+   "k": "w3mni7",
+   "en": "Added has_army_experience has_air_experience has_navy_experience triggers."
+  },
+  {
+   "k": "edeyrx",
+   "en": "Added trigger has_full_control_of_state."
+  },
+  {
+   "k": "164fx08",
+   "en": "Added scope support as right side argument for is_subject_of and is_puppet_of."
+  },
+  {
+   "k": "1cdfrla",
+   "en": "Added trigger to technology folders. Will hide tab and disable research for techs if trigger is not met."
+  },
+  {
+   "k": "1p8k9k9",
+   "en": "Added on_startup to onactions."
+  },
+  {
+   "k": "1172ugw",
+   "en": "Added count_triggers. Will return true if _amount_ of triggers in the scope is true. Same as calc_true_if on other projects."
+  },
+  {
+   "k": "1fof8ly",
+   "en": "Added set_state_name effect."
+  },
+  {
+   "k": "1k6ivfr",
+   "en": "Added reset_state_name effect. Resets state name to original."
+  },
+  {
+   "k": "1uy722l",
+   "en": "Added trigger is_staging_coup."
+  },
+  {
+   "k": "13lw7m5",
+   "en": "Added trigger has_focus_tree = <id>"
+  },
+  {
+   "k": "57u070",
+   "en": "Added has_template_ai_majority_unit trigger that uses the new ai priority instead"
+  },
+  {
+   "k": "r6rk7l",
+   "en": "Production line efficiency gain is now capped at zero for negative values so modders can zero out efficiency gain if they want"
+  },
+  {
+   "k": "luwb08",
+   "en": "Added effects for setting and resetting province names for victory points (set_province_name = { id = <province id> name = <string> } and reset_province_name = <id> )"
+  },
+  {
+   "k": "1gpbj2d",
+   "en": "Split up factory modifier into a new industrial_capacity_dockyard so dockyards get their own progression"
+  },
+  {
+   "k": "1hn2zjf",
+   "en": "Split up MAX_FACTORIES_PER_LINE define by type to MAX_CIV_FACTORIES_PER_LINE, MAX_NAV_FACTORIES_PER_LINE, MAX_MIL_FACTORIES_PER_LINE allowing different factory counts for different kinds of production/construction lines"
+  },
+  {
+   "k": "1f4x16r",
+   "en": "Added new num_divisions trigger to check actual number of divisions regardless of strength etc"
+  },
+  {
+   "k": "1s69sp",
+   "en": "pp console command can now take negative values"
+  },
+  {
+   "k": "bt6zkq",
+   "en": "ai_dump command now also lists all active strategies for a nation to help with debugging"
+  },
+  {
+   "k": "1nxotnu",
+   "en": "Added define to modify threat requirement for joining a faction when at war. JOIN_FACTION_LIMIT_CHANGE_AT_WAR."
+  },
+  {
+   "k": "1ur2pjs",
+   "en": "Database"
+  },
+  {
+   "k": "3nphs7",
+   "en": "Missing portrait for Xhemal Aranitasi of Albania. Buffed to skill 2."
+  },
+  {
+   "k": "1d0nw3o",
+   "en": "Removed duplicate destroyers from GER OOB."
+  },
+  {
+   "k": "1xyft3",
+   "en": "Afghanistan now uses generic arab leader as country leader instead of asian continent fallback."
+  },
+  {
+   "k": "1dn1c4p",
+   "en": "Moved Brest Naval base to be in the Bay of Biscay instead of English Channel"
+  },
+  {
+   "k": "1vjkwob",
+   "en": "Moved rubber from Uganda to Stanleyville"
+  },
+  {
+   "k": "14vandw",
+   "en": "Moved naval base in Belgium to VP province"
+  },
+  {
+   "k": "1v9vcv1",
+   "en": "Nudged and moved Naval bases for ITA based on beta feedback. Moved navies start position to relevant naval base."
+  },
+  {
+   "k": "1h4xah5",
+   "en": "Replaced Mao with Zhang Guotao as communist leader of China."
+  },
+  {
+   "k": "1ls395o",
+   "en": "Nudged Reykjavik VP, unit pos and naval base."
+  },
+  {
+   "k": "1h6ujxu",
+   "en": "Added rubber to states in Africa. Equatorial Africa * 4 rubber | French West Africa * 2 rubber | Gabon * 1 rubber | Central Congo * 5 rubber | Angola * 1 rubber | Portuguese Guinea * 1 rubber | Liberia * 7 rubber | Uganda * 4 rubber | Nigeria * 3 rubber | Tanganyka * 2 rubber."
+  },
+  {
+   "k": "ebcrbf",
+   "en": "Changed Cape Verde, the Azores, the Canary Islands, Bermuda, Jamaica, Cuba, Galapagos, Comora and Socotra from desert to mainly hills or plains."
+  },
+  {
+   "k": "1nw1n7n",
+   "en": "Removed naval base from 6749. 11707 naval base level 1=>2."
+  },
+  {
+   "k": "7ej5qq",
+   "en": "Changed color for D02 civil war tag."
+  },
+  {
+   "k": "kdsxo2",
+   "en": "Changed icons for generals and advisors for a lot of countries, to avoid duplicates where possible. New icons used are: \"generic_army_asia_7\", \"generic_army_asia_6\", \"generic_army_asia_5\", \"generic_army_asia_4\", \"generic_army_african_6\", \"generic_army_african_5\", \"generic_army_african_4\", \"generic_army_south_america_5\", \"generic_army_south_america_4\", \"generic_political_advisor_europe_6\", \"generic_political_advisor_europe_5\", \"generic_army_europe_6\", \"generic_army_europe_5\", \"generic_army_europe_4\"."
+  },
+  {
+   "k": "nmatgq",
+   "en": "Flavor names for transport planes"
+  },
+  {
+   "k": "1gad1z8",
+   "en": "some updates to German air oob, using historical variants"
+  },
+  {
+   "k": "kblry9",
+   "en": "Fixed an issue with localisation of event germany.118"
+  },
+  {
+   "k": "ec0qay",
+   "en": "Added flavor names for Romanian and Yugoslavian trucks"
+  },
+  {
+   "k": "jhqzwl",
+   "en": "Added events to rename Stalingrad and Leningrad"
+  },
+  {
+   "k": "2t1e5g",
+   "en": "Fixed wrong naval prefix for HOL"
+  },
+  {
+   "k": "1k69rdk",
+   "en": "Changed Romanian starting politics to better represent historical reality"
+  },
+  {
+   "k": "lt130j",
+   "en": "Added Colorado-class Battleship variant to US starting OoB"
+  },
+  {
+   "k": "1e6qchb",
+   "en": "Some minor adjustments to ENG and GRE air oob in 1939"
+  },
+  {
+   "k": "qr9slm",
+   "en": "Changed prefixes for Italian ships based on forum feedback (newly constructed ones only for the time being)"
+  },
+  {
+   "k": "gbyvqs",
+   "en": "Some minor adjustments to Romania 1939 air oob"
+  },
+  {
+   "k": "m7g3nw",
+   "en": "Added sanity checks to Italian \"War with Greece focus\" (Greece not a puppet, Italy not currently at war with Greece)"
+  },
+  {
+   "k": "1b64kg",
+   "en": "Added name list for Indonesia, enabled Dutch namelist if puppet"
+  },
+  {
+   "k": "158va2a",
+   "en": "Changed ideology for Serbia in 1939 to make it consistent with 1936 (unless someone can prove that Serbians were significantly more fascist in 39 compared to 36)"
+  },
+  {
+   "k": "hp1u2d",
+   "en": "Fixed wrong name for Dutch fascist demagogue"
+  },
+  {
+   "k": "htomew",
+   "en": "Added a number of historical plane variants to starting OoBs, including foreign-bought planes for a number of countries"
+  },
+  {
+   "k": "1c9jt7a",
+   "en": "Changed Yugoslavia starting OoB and technology"
+  },
+  {
+   "k": "1i4wmb1",
+   "en": "Fixed two cosmetic tags for Lithuania and Latvia"
+  },
+  {
+   "k": "jsxjl6",
+   "en": "Added a cosmetic tag for Czechoslovakia if Slovakia also exists (i.e. Czechoslovakia is really only the Czech republic)"
+  },
+  {
+   "k": "10nxg4r",
+   "en": "Changed name for state 457 from Arabian Desert to Eastern Desert to better reflect reality"
+  },
+  {
+   "k": "lyayvn",
+   "en": "Added cosmetic tag to Franco-British Union event"
+  },
+  {
+   "k": "e3zryo",
+   "en": "Fixed a minor issue with a Japanese cruiser being the wrong class"
+  },
+  {
+   "k": "iee7im",
+   "en": "Added news event for Chinese United Front forming"
+  },
+  {
+   "k": "1efjh0y",
+   "en": "Some adjustments to Hungarian flavor names based on beta feedback"
+  },
+  {
+   "k": "1kb2ggl",
+   "en": "Fixed two cosmetic tags for puppeted Poland (Poland now actually quite lost)"
+  },
+  {
+   "k": "19dribu",
+   "en": "Fixed issue with duplicate generic design companies for TfV countries"
+  },
+  {
+   "k": "zm1xns",
+   "en": "Removed a General that somehow got copied over from Ethiopia to a number of other countries"
+  },
+  {
+   "k": "f1ppas",
+   "en": "Removed a lot of cores from countries with overseas territory."
+  },
+  {
+   "k": "1bsvz4z",
+   "en": "Added shipnames for Malaysia"
+  },
+  {
+   "k": "1ir1gyg",
+   "en": "Gave advisor Franco his proper portrait"
+  },
+  {
+   "k": "89hl0m",
+   "en": "Changed name for puppet level SOV puppets after forum feedback"
+  },
+  {
+   "k": "1qfjk1d",
+   "en": "Restored name changes for fascist France, using Vichy France for the German puppet state"
+  },
+  {
+   "k": "5rw401",
+   "en": "Changed some focuses in SOV tree. SOV will now no longer pick anti-capitalist or anti-fascist propaganda if they are democratic or fascist. The relationship penalty will also only apply to the major powers if they are not communist"
+  },
+  {
+   "k": "tzoby0",
+   "en": "added two more on actions to add the Czech-only cosmetic tag"
+  },
+  {
+   "k": "4jjqdz",
+   "en": "Changed autogenerated portraits for Middle Eastern countries."
+  },
+  {
+   "k": "kw7c7u",
+   "en": "Added artillery to ENG starting templates in 1936/39"
+  },
+  {
+   "k": "h77b9",
+   "en": "Added 5 convoys to Manchukuo"
+  },
+  {
+   "k": "a2jpbq",
+   "en": "Added armored division template to Hungary and Sweden"
+  },
+  {
+   "k": "ffcm92",
+   "en": "fixed an issue with a portrait missing for TfV owners"
+  },
+  {
+   "k": "xwlfz4",
+   "en": "fixed an issue with the portrait of a Canadian admiral"
+  },
+  {
+   "k": "58ii06",
+   "en": "fixed a misstranslation in German localization (implied that you saved XP when creating a variant)"
+  },
+  {
+   "k": "kxxksr",
+   "en": "Balance"
+  },
+  {
+   "k": "1rm8kqw",
+   "en": "Heavy tanks gain 10% attack bonus vs forts"
+  },
+  {
+   "k": "1tlnnyz",
+   "en": "Heavy TD gain 5% attack bonus vs forts"
+  },
+  {
+   "k": "1wtw8mt",
+   "en": "Super heavy td get 30% bonus vs forts (compare 50% for SH)"
+  },
+  {
+   "k": "drtcsb",
+   "en": "Added bonus to dockyard output to difficulty sliders (20%)"
+  },
+  {
+   "k": "1uawqel",
+   "en": "Maintenance company can no longer bring bonus so high that equipment becomes invulnerable (total bonus went from +40% to +20%)"
+  },
+  {
+   "k": "wr1y93",
+   "en": "Concentrated and Dispersed industry techs now give same bonus to dockyard output (+10%)"
+  },
+  {
+   "k": "6a95r0",
+   "en": "Super heavy TD's now match combat width of other TDs"
+  },
+  {
+   "k": "1axg1zc",
+   "en": "lvl 1 light TD now has same speed as lvl 1 light tank"
+  },
+  {
+   "k": "su6h3e",
+   "en": "Added Soviet version of honoring the MR pact. From this version on it will suck to be Poland."
+  },
+  {
+   "k": "ec2l7e",
+   "en": "Germany and Soviet will no longer hand out Polish territory if owned by player Poland in their faction. Poland is now playable again."
+  },
+  {
+   "k": "1sceaqp",
+   "en": "Spread out repair speed over construction tech. All construction tech now give production_speed_buildings_factor = 0.10 industry_repair_factor = 0.10"
+  },
+  {
+   "k": "b4srru",
+   "en": "India focus tree: Naval Funding now unlocks Light Cruiser 2 tech if you don't have it completed. Added tooltip to explain the effect."
+  },
+  {
+   "k": "1bja5lg",
+   "en": "Wargoal justification now adds extra threat depending on the industrial capacity of the target country."
+  },
+  {
+   "k": "6fjlxz",
+   "en": "Added PP cost and time scaling to justifying wargoal. More justifications and wars => higher costs"
+  },
+  {
+   "k": "1k9o0ky",
+   "en": "Changed naval production continuous focus to increase dockyard output by 20% instead of reducing prices by 20% (which was exploitable)"
+  },
+  {
+   "k": "1rsha0d",
+   "en": "Blocked ideology pushers (fascist demagogue etc.) based on completed focuses for SAF, CAN and NZL (to bring them in line with AST and RAJ)"
+  },
+  {
+   "k": "2k9vof",
+   "en": "Moved Japanese cruiser Takao back to its original position after beta feedback. Another critical gameplay issue successfully resolved"
+  },
+  {
+   "k": "4zgwc3",
+   "en": "Changed one of the Sinkiang Captains of Industry to War Industrialist. Sinkiang now confirmed OP"
+  },
+  {
+   "k": "1cefs9t",
+   "en": "Now factories receive penalty for each next lacking resource across multiple lines rather than max out at 80% by line"
+  },
+  {
+   "k": "1fondn3",
+   "en": "Infrastructure now adds construction speed to the buildings with shared slots"
+  },
+  {
+   "k": "1jb11wc",
+   "en": "Change: Total Mobilization economy law now has a 20% WT limit."
+  },
+  {
+   "k": "1klwzuj",
+   "en": "Change: Increased Air Attack for Advanced Fighters to 32 and Improved Jet Fighters to 40."
+  },
+  {
+   "k": "1vc72ok",
+   "en": "Change: Production techs have been rebalanced."
+  },
+  {
+   "k": "1rrz4pi",
+   "en": "Each level in the Production track now gives 10% Production Efficiency Cap."
+  },
+  {
+   "k": "rp4bnq",
+   "en": "Flexible Line's bonus to Production Efficiency Retention has been reduced to 20%."
+  },
+  {
+   "k": "98gw3u",
+   "en": "Concentrated Industry now give 15% Factory Output bonus per level."
+  },
+  {
+   "k": "6uth7f",
+   "en": "Change: Production Efficiency Growth has been changed from being linear to slowing down as a line reaches max efficiency."
+  },
+  {
+   "k": "1q2i55k",
+   "en": "Change: Defensive values for Medium Self-Propelled Artillery has been changed to be in-line with other Self-Propelled Artillery."
+  },
+  {
+   "k": "fz4dul",
+   "en": "Change: Changing a production line to a vehicle in the same family (Pz III to StuG III) now retains 70% of the production efficiency. Changing a production line from one vehicle model to another (Pz III to Pz IV) now retains 30% production efficiency."
+  },
+  {
+   "k": "jmecrl",
+   "en": "Change: Infantry equipment build costs changed to 0.4, 0.5, 0.6 and 0.7 IC respectively."
+  }
+ ]
+}

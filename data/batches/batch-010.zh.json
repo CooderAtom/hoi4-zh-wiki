@@ -1,0 +1,933 @@
+{
+ "batch": 10,
+ "items": [
+  {
+   "k": "1lv2ye5",
+   "zh": "点击「驻防区域」按钮或按 V 键 ⟦0⟧ 以激活该模式，然后选择你的陆军将要驻扎的州。分配完成后，再次点击「驻防区域」按钮或按 V 键 ⟦1⟧ 退出该模式。被选中的师将分散到各州，并占领城市、空军基地和海军基地。这通常最适合用于防守海岸线或后方的关键地点，以防止空降。注意，与其他命令不同，如果将驻防命令分配给某支陆军的任何一部分，该陆军的其余部分就无法在不先移除驻防命令的情况下接受任何其他命令。这是一个独占命令。因此，带有驻防命令的陆军只应编入将执行该命令的部队。向该陆军添加任何新部队都会自动让它们加入驻防命令。更多细节参见 ⟦2⟧。"
+  },
+  {
+   "k": "1196g04",
+   "zh": "Ctrl"
+  },
+  {
+   "k": "rfuudn",
+   "zh": "师分配模式"
+  },
+  {
+   "k": "og4h8b",
+   "zh": "点击「师分配模式」按钮，或在按住 Ctrl ⟦0⟧ 的同时左键点击某个作战计划，将当前选中的部队分配到该计划。或者，你可以在按住 Ctrl ⟦1⟧ 的同时右键点击任意作战计划，以选中当前分配到该计划的所有部队。"
+  },
+  {
+   "k": "1r6cu39",
+   "zh": "Ctrl + H"
+  },
+  {
+   "k": "9nybi6",
+   "zh": "取消分配师模式"
+  },
+  {
+   "k": "ym4o8",
+   "zh": "点击「取消分配师模式」按钮，或在按住 Ctrl 和 H 键 ⟦0⟧ ⟦1⟧ 的同时操作，将把当前选中的师从其命令中取消分配。"
+  },
+  {
+   "k": "yvgdmk",
+   "zh": "Alt"
+  },
+  {
+   "k": "vrkfak",
+   "zh": "编辑模式"
+  },
+  {
+   "k": "dn5aw9",
+   "zh": "点击「编辑模式」按钮，或在按住 Alt ⟦0⟧ 的同时操作，即可编辑现有的作战计划。Alt ⟦1⟧ + 右键拖动可改变前线、进攻线和撤退线的长度与形状。Alt ⟦2⟧ + 左键点击可调整进攻箭头以弯曲它们或更改其起点（甚至可以把起点改到另一条进攻线的末端）。"
+  },
+  {
+   "k": "7j5hss",
+   "zh": "alt"
+  },
+  {
+   "k": "ej3pii",
+   "zh": "Del"
+  },
+  {
+   "k": "67q6ra",
+   "zh": "删除命令"
+  },
+  {
+   "k": "10z7qfh",
+   "zh": "点击「删除命令」按钮或按 Delete 键 ⟦0⟧，你可以有选择地移除当前陆军已分配的单条作战计划。右键点击「删除命令」按钮将删除当前选中陆军的所有命令。"
+  },
+  {
+   "k": "oay2cq",
+   "zh": "Delete"
+  },
+  {
+   "k": "1edthgu",
+   "zh": "师管理快捷键"
+  },
+  {
+   "k": "z7n3m4",
+   "zh": "这些按键在你当前有选中的师时生效。"
+  },
+  {
+   "k": "1rv1d1z",
+   "zh": "解散所有选中部队"
+  },
+  {
+   "k": "4h81dg",
+   "zh": "点击「解散所有选中部队」按钮以解散选中的部队。此操作会将师的士兵人力返还至可招募人口池，并将师的装备返还至库存。⟦0⟧：解散被包围（合围）的部队将永久损失其人力并永久摧毁其装备。"
+  },
+  {
+   "k": "1thlwjq",
+   "zh": "注意"
+  },
+  {
+   "k": "baqe1s",
+   "zh": "取消分配部队"
+  },
+  {
+   "k": "lzcr2c",
+   "zh": "点击「取消分配部队」按钮或按 X 键 ⟦0⟧，可将选中的师从陆军中移除。注意，此操作会保留这些师，以便重新分配到新的或不同的陆军。"
+  },
+  {
+   "k": "z81a2a",
+   "zh": "合并"
+  },
+  {
+   "k": "td2ee6",
+   "zh": "点击「合并」按钮，将选中的师合并为一个单位。此操作可用于把多个不满编、受损的师整合成更强、满编的师，且不会损失经验。多余的人力将返还至可招募人口池，多余的装备将返还至库存。注意，此操作只能对拥有相同模板的师执行。"
+  },
+  {
+   "k": "y3gx1u",
+   "zh": "更改师模板"
+  },
+  {
+   "k": "1c6m7gr",
+   "zh": "点击「更改师模板」按钮，即可从下拉菜单中把选中的师更改为其他模板。参见 ⟦0⟧。"
+  },
+  {
+   "k": "je5emr",
+   "zh": "师设计器"
+  },
+  {
+   "k": "1dkklfe",
+   "zh": "选择一半"
+  },
+  {
+   "k": "pmg7mn",
+   "zh": "点击「选择一半」按钮或按 S 键 ⟦0⟧，以尽可能均匀的方式取消选择当前选中部队的一半，但不会把它们从所属陆军中移除。多次按下可继续将选中数量减半（向上取整）。可用于从一叠部队中选中单个单位。例如：选中一叠 9 个步兵，按一次「选择一半」（取消选择 4 个，剩余 5 个被选中）。再按一次「选择一半」（取消选择 2 个，剩余 3 个被选中）。再按一次「选择一半」（取消选择 1 个，剩余 2 个被选中）。第 4 次按「选择一半」后，只剩 1 个单位被选中。对单个单位尝试「选择一半」不会产生任何效果。这可用于快速抓取一叠部队，按 ⟦1⟧ 5 或 6 次就能很快得到单个单位，并派它执行新任务。"
+  },
+  {
+   "k": "cqyh94",
+   "zh": "坚守"
+  },
+  {
+   "k": "l0yja1",
+   "zh": "点击「坚守」按钮或按 H 键 ⟦0⟧，命令部队坚守阵地，实际上会取消该部队当前已分配的任何移动或攻击命令。这不会取消它们在前线上的分配，因此如果对一支正因作战计划而移动的部队下达坚守命令，它只会短暂坚守，随后立即恢复其在作战计划中的行动。参见下一节。"
+  },
+  {
+   "k": "xzs7sd",
+   "zh": "战略调动"
+  },
+  {
+   "k": "htb4ot",
+   "zh": "在给师下达移动命令之前，点击「战略调动」按钮或按 B 键 ⟦0⟧。此后这些师会自动利用道路/桥梁（基础设施）和铁路来提高移动速度，代价是组织度下降。参见 ⟦1⟧。"
+  },
+  {
+   "k": "1suag93",
+   "zh": "Ctrl + B"
+  },
+  {
+   "k": "1isylhv",
+   "zh": "切换战略调动"
+  },
+  {
+   "k": "1ftenqp",
+   "zh": "在给师下达移动命令后，点击「战略调动」按钮或按 CTRL B ⟦0⟧ ⟦1⟧，即可开启/关闭战略调动命令。"
+  },
+  {
+   "k": "y4bz8",
+   "zh": "CTRL"
+  },
+  {
+   "k": "1xakelj",
+   "zh": "Shift"
+  },
+  {
+   "k": "1gk617e",
+   "zh": "路径点"
+  },
+  {
+   "k": "10lbiix",
+   "zh": "与许多其他策略游戏一样，按住 Shift ⟦0⟧ 右键点击可为选中的部队设置一系列路径点。它们会依次选择到达每个路径点的最佳路线。这让部队能够绕开敌军、恶劣地形或低补给区等麻烦区域。注意：查看完整路线以检查途中的危险。"
+  },
+  {
+   "k": "8zblvo",
+   "zh": "支援攻击"
+  },
+  {
+   "k": "1lcg3p3",
+   "zh": "选中一个单位后，按住 Ctrl ⟦0⟧ 并右键点击一场已有的战斗，即可「支援」该战斗。支援一场战斗会让该单位参与其中，但战斗结束后它*不会*离开所在省份进入战斗格。这对保持前线完整非常有价值。"
+  },
+  {
+   "k": "z1ink6",
+   "zh": "从已分配作战计划中移除"
+  },
+  {
+   "k": "ibxlj7",
+   "zh": "此按键组合 ⟦0⟧ ⟦1⟧ 可将当前选中的师从当前作战计划中移除，而不会把它们从当前陆军中移除。这是已知唯一能在不给师分配新作战计划的情况下，把多个师从已分配的作战计划中移除的方法。移除后，它们会成为陆军中的独立师，可以单独直接下达命令，或分配到另一个作战计划。注意，对属于带有任何驻防命令的陆军的部队，此操作无效。"
+  },
+  {
+   "k": "1c2pn4o",
+   "zh": "海军快捷键"
+  },
+  {
+   "k": "pdnyuq",
+   "zh": "将特遣舰队分配至数字键"
+  },
+  {
+   "k": "1xnly66",
+   "zh": "左键点击某支特遣舰队以选中它，或在按住 Shift ⟦0⟧ 的同时左键点击以选中多支特遣舰队。然后，在按住 Ctrl ⟦1⟧ 键的同时，按下数字键 ⟦2⟧、⟦3⟧、⟦4⟧、⟦5⟧、⟦6⟧、⟦7⟧、⟦8⟧、⟦9⟧、⟦10⟧、⟦11⟧。此过程会将所按的数字指定为快捷键，用于快速选中某支特遣舰队或特遣舰队组合。提示：连按两次数字快捷键会将地图居中到你所分配的部队上。"
+  },
+  {
+   "k": "1to58cc",
+   "zh": "海军总览"
+  },
+  {
+   "k": "190xyo",
+   "zh": "P 键 ⟦0⟧ 打开海军总览，也可通过屏幕右上角的按钮打开。"
+  },
+  {
+   "k": "6a1ocj",
+   "zh": "拆分"
+  },
+  {
+   "k": "12th5sd",
+   "zh": "D 键 ⟦0⟧ 将选中的特遣舰队拆分/分成两支特遣舰队。"
+  },
+  {
+   "k": "u2abk0",
+   "zh": "S 键 ⟦0⟧ 选中当前选中海军单位的一半。它会尽量让每支新特遣舰队中各类型舰船的数量相等。"
+  },
+  {
+   "k": "12ow72f",
+   "zh": "合并"
+  },
+  {
+   "k": "1db23qk",
+   "zh": "G 键 ⟦0⟧ 将选中的特遣舰队合并为一支特遣舰队。如果舰船不在同一省份，它们会寻找通往彼此的路线以完成合并。"
+  },
+  {
+   "k": "14cq180",
+   "zh": "海军演习"
+  },
+  {
+   "k": "1fma52x",
+   "zh": "K 键 ⟦0⟧ 命令某支特遣舰队在离其最近海军基地相邻的区域进行演习。特遣舰队中的舰员会获得舰船经验，国家则会获得海军经验，但这会消耗燃料，并可能导致舰船受损。注意：1. 舰员获得的经验不会超过「正规」2 级。2. 特遣舰队将持续演习，直到被手动停止。"
+  },
+  {
+   "k": "f3kw8b",
+   "zh": "海军演习至训练完成"
+  },
+  {
+   "k": "180eybg",
+   "zh": "按下按键组合 SHIFT K ⟦0⟧ ⟦1⟧ 会启用「海军演习至训练完成」，直到特遣舰队中所有舰船都完全训练至「正规」级别，届时特遣舰队会自动停止演习并返回其海军基地。"
+  },
+  {
+   "k": "1ga1p7r",
+   "zh": "SHIFT"
+  },
+  {
+   "k": "pfuwpj",
+   "zh": "坚守 - 返回港口"
+  },
+  {
+   "k": "h7xtqv",
+   "zh": "H 键 ⟦0⟧ 取消当前特遣舰队任务，并将特遣舰队移动到最近的港口。"
+  },
+  {
+   "k": "1bxrau4",
+   "zh": "坚守 - 原地待命"
+  },
+  {
+   "k": "1nni5i2",
+   "zh": "按下按键组合 Ctrl H ⟦0⟧ ⟦1⟧ 会取消当前特遣舰队任务，并让特遣舰队原地待命。注意：1. 在邻接陆上战斗的海域省份中坚守的主力舰将协助进行⟦2⟧。2. 在海上坚守的航空母舰可以使用其航空队执行标准空中任务。"
+  },
+  {
+   "k": "17xl3kb",
+   "zh": "舰炮支援"
+  },
+  {
+   "k": "1bw0x17",
+   "zh": "巡逻"
+  },
+  {
+   "k": "15b9df1",
+   "zh": "Z 键 ⟦0⟧ 命令某支特遣舰队在选中的区域巡逻，主要目的是发现敌方舰队。"
+  },
+  {
+   "k": "qzlcho",
+   "zh": "打击舰队"
+  },
+  {
+   "k": "ci86tj",
+   "zh": "X 键 ⟦0⟧ 命令某支特遣舰队在最近的海军基地待命，直到某支巡逻特遣舰队发现敌方特遣舰队，随后打击舰队将前往拦截。"
+  },
+  {
+   "k": "17dy7s3",
+   "zh": "袭击运输船队"
+  },
+  {
+   "k": "tt4mt1",
+   "zh": "C 键 ⟦0⟧ 命令某支特遣舰队在选中的区域袭击敌方运输船队。"
+  },
+  {
+   "k": "1rqx6xd",
+   "zh": "护航运输船队"
+  },
+  {
+   "k": "mnx5i5",
+   "zh": "V 键 ⟦0⟧ 命令某支特遣舰队在选中的区域为运输船队护航，保护它们免受敌方攻击。"
+  },
+  {
+   "k": "98qwh8",
+   "zh": "布雷"
+  },
+  {
+   "k": "1jbl4fw",
+   "zh": "B 键 ⟦0⟧ 命令某支特遣舰队在选中的区域布设水雷。"
+  },
+  {
+   "k": "1bvrd10",
+   "zh": "Shift + B"
+  },
+  {
+   "k": "1h7vzfi",
+   "zh": "扫雷"
+  },
+  {
+   "k": "o9nxxz",
+   "zh": "按下按键组合 SHIFT B ⟦0⟧ ⟦1⟧ 会命令某支特遣舰队在选中的区域搜索并清除敌方水雷。"
+  },
+  {
+   "k": "1i8omo1",
+   "zh": "海军登陆支援"
+  },
+  {
+   "k": "mcehsq",
+   "zh": "A 键 ⟦0⟧ 命令舰船为海军登陆护航，并以舰炮支援为其提供支援。"
+  },
+  {
+   "k": "1unw8nj",
+   "zh": "移除区域"
+  },
+  {
+   "k": "19w50cr",
+   "zh": "点击「移除区域」按钮或按 Delete 键 ⟦0⟧，随后你可以点击某个区域并将其从当前选中的舰队中移除。右键点击「移除区域」按钮将移除当前选中舰队的全部区域。"
+  },
+  {
+   "k": "1ovxzu8",
+   "zh": "空军快捷键"
+  },
+  {
+   "k": "1mcv1h",
+   "zh": "将航空队分配至数字键"
+  },
+  {
+   "k": "1x56qdm",
+   "zh": "左键点击某个航空队以选中它，或在按住 Shift ⟦0⟧ 的同时左键点击以选中多个航空队。然后，在按住 Ctrl ⟦1⟧ 键的同时，按下数字键 ⟦2⟧、⟦3⟧、⟦4⟧、⟦5⟧、⟦6⟧、⟦7⟧、⟦8⟧、⟦9⟧、⟦10⟧、⟦11⟧。此过程会将所按的数字指定为快捷键，用于快速选中某个航空队或航空队组合。提示：连按两次数字快捷键会将地图居中到你所分配的部队上。"
+  },
+  {
+   "k": "1p9yrhh",
+   "zh": "空军总览"
+  },
+  {
+   "k": "il3gr",
+   "zh": "L 键 ⟦0⟧ 打开空军总览，也可通过屏幕右上角的按钮打开。"
+  },
+  {
+   "k": "1qb0ghu",
+   "zh": "创建航空群"
+  },
+  {
+   "k": "c9jims",
+   "zh": "将选中的航空队合并为一个航空群。"
+  },
+  {
+   "k": "192yrv6",
+   "zh": "将选中的航空队拆分/分为两队。"
+  },
+  {
+   "k": "16nwqu3",
+   "zh": "合并航空队"
+  },
+  {
+   "k": "18s5hhu",
+   "zh": "将两个或更多选中的航空队合并为一个航空队。"
+  },
+  {
+   "k": "zll34t",
+   "zh": "合并航空群"
+  },
+  {
+   "k": "4k5raq",
+   "zh": "将两个或更多选中的航空群合并为一个航空群。"
+  },
+  {
+   "k": "l4pssm",
+   "zh": "全选/取消全选"
+  },
+  {
+   "k": "1p4h3f6",
+   "zh": "选中/取消选中给定空军基地或航空母舰中的所有航空队。"
+  },
+  {
+   "k": "7m9zzg",
+   "zh": "选中当前选中航空队的一半。"
+  },
+  {
+   "k": "d3rzmo",
+   "zh": "坚守命令"
+  },
+  {
+   "k": "14rzg9w",
+   "zh": "让选中的航空队保持坚守。"
+  },
+  {
+   "k": "1dgvk7i",
+   "zh": "从航空群中移除选中项"
+  },
+  {
+   "k": "xll20i",
+   "zh": "点击「从航空群中移除选中项」按钮或按 X 键 ⟦0⟧，以将选中的飞机从航空群中移除。注意，此操作会保留这些飞机以便日后重新分配。"
+  },
+  {
+   "k": "1bmezss",
+   "zh": "新建航空队"
+  },
+  {
+   "k": "5ky976",
+   "zh": "打开新建航空队选项，以将其添加到选中的空军基地或航空母舰。"
+  },
+  {
+   "k": "gyby76",
+   "zh": "飞行员演习"
+  },
+  {
+   "k": "x8t36x",
+   "zh": "为选中的航空队获取经验，同时增加空军经验，但会消耗燃料并提高事故风险。"
+  },
+  {
+   "k": "upiiy9",
+   "zh": "飞行员演习至训练完成"
+  },
+  {
+   "k": "nd0t6y",
+   "zh": "启用飞行员演习，直到航空队完全训练完成。"
+  },
+  {
+   "k": "isv6r0",
+   "zh": "制空权任务"
+  },
+  {
+   "k": "7qi0f4",
+   "zh": "命令选中的航空队执行⟦0⟧。"
+  },
+  {
+   "k": "evpwss",
+   "zh": "制空权任务"
+  },
+  {
+   "k": "k17emq",
+   "zh": "近距空中支援任务"
+  },
+  {
+   "k": "1551yoo",
+   "zh": "命令选中的航空队执行⟦0⟧。"
+  },
+  {
+   "k": "1em1spe",
+   "zh": "近距空中支援任务"
+  },
+  {
+   "k": "ubveiv",
+   "zh": "拦截任务"
+  },
+  {
+   "k": "1d4v5qf",
+   "zh": "拦截任务"
+  },
+  {
+   "k": "1kdybeb",
+   "zh": "战略轰炸任务"
+  },
+  {
+   "k": "8jzyjo",
+   "zh": "命令选中的航空队执行⟦0⟧。"
+  },
+  {
+   "k": "6hd6oj",
+   "zh": "战略轰炸任务"
+  },
+  {
+   "k": "1u9qeg9",
+   "zh": "对海打击任务"
+  },
+  {
+   "k": "19hffd5",
+   "zh": "对海打击任务"
+  },
+  {
+   "k": "kmejiu",
+   "zh": "港口打击任务"
+  },
+  {
+   "k": "1hxjbxy",
+   "zh": "港口打击任务"
+  },
+  {
+   "k": "1oegt5j",
+   "zh": "Ctrl + R"
+  },
+  {
+   "k": "1swks0",
+   "zh": "后勤打击任务"
+  },
+  {
+   "k": "1snxh1s",
+   "zh": "后勤打击任务"
+  },
+  {
+   "k": "7kcgny",
+   "zh": "神风打击任务"
+  },
+  {
+   "k": "dmgl4u",
+   "zh": "神风打击任务"
+  },
+  {
+   "k": "11dq3z0",
+   "zh": "空中补给任务"
+  },
+  {
+   "k": "1hz9o8s",
+   "zh": "空中补给任务"
+  },
+  {
+   "k": "b567ii",
+   "zh": "空中侦察任务"
+  },
+  {
+   "k": "1ec2jhm",
+   "zh": "空中侦察任务"
+  },
+  {
+   "k": "yewudp",
+   "zh": "海上巡逻任务"
+  },
+  {
+   "k": "1oj88kt",
+   "zh": "海上巡逻任务"
+  },
+  {
+   "k": "1hyf67b",
+   "zh": "游戏"
+  },
+  {
+   "k": "mngvdd",
+   "zh": "成就"
+  },
+  {
+   "k": "u1k6p6",
+   "zh": "特色"
+  },
+  {
+   "k": "xrnqxs",
+   "zh": "游戏规则"
+  },
+  {
+   "k": "qteedx",
+   "zh": "铁人模式"
+  },
+  {
+   "k": "cvepmw",
+   "zh": "指南"
+  },
+  {
+   "k": "bdm93l",
+   "zh": "新手指南"
+  },
+  {
+   "k": "1uzifys",
+   "zh": "控制台指令"
+  },
+  {
+   "k": "1khciow",
+   "zh": "快捷键"
+  },
+  {
+   "k": "1h8mxql",
+   "zh": "地图模式"
+  },
+  {
+   "k": "6q2ked",
+   "zh": "教学视频"
+  },
+  {
+   "k": "lshcot",
+   "zh": "用户界面"
+  },
+  {
+   "k": "190d1fu",
+   "zh": "开发"
+  },
+  {
+   "k": "sz859i",
+   "zh": "开发者日志"
+  },
+  {
+   "k": "5umivg",
+   "zh": "可下载内容"
+  },
+  {
+   "k": "1r8wvbp",
+   "zh": "补丁"
+  },
+  {
+   "k": "1n72qry",
+   "zh": "社区"
+  },
+  {
+   "k": "uet7re",
+   "zh": "术语"
+  },
+  {
+   "k": "9m30fv",
+   "zh": "模组制作"
+  },
+  {
+   "k": "a1rwdx",
+   "zh": "Qwertyui hotkeys.png"
+  },
+  {
+   "k": "icxqz8",
+   "zh": "Puzzle globe"
+  },
+  {
+   "k": "l2w8s3",
+   "zh": "Mapmodes open all button.png"
+  },
+  {
+   "k": "e6vuo4",
+   "zh": "Mapmodes all"
+  },
+  {
+   "k": "1k9ma4y",
+   "zh": "Search button.png"
+  },
+  {
+   "k": "145j4s",
+   "zh": "Default map mode button.png"
+  },
+  {
+   "k": "1taittt",
+   "zh": "Strategic Navy map mode button.png"
+  },
+  {
+   "k": "1qas2l7",
+   "zh": "Strategic Air map mode button.png"
+  },
+  {
+   "k": "1qlegv1",
+   "zh": "Operatives map mode button.png"
+  },
+  {
+   "k": "1owmz4c",
+   "zh": "Supply map mode button.png"
+  },
+  {
+   "k": "re3zcc",
+   "zh": "Terrain map mode button.png"
+  },
+  {
+   "k": "16w2snm",
+   "zh": "Resistance map mode button.png"
+  },
+  {
+   "k": "1cptpww",
+   "zh": "Compliance map mode button.png"
+  },
+  {
+   "k": "19vqfmf",
+   "zh": "Resource map mode button.png"
+  },
+  {
+   "k": "1t2o6jw",
+   "zh": "Infrastructure map mode button.png"
+  },
+  {
+   "k": "1l5zvx6",
+   "zh": "Factions map mode button.png"
+  },
+  {
+   "k": "s60oy5",
+   "zh": "States map mode button.png"
+  },
+  {
+   "k": "u9xlsj",
+   "zh": "Diplomacy map mode button.png"
+  },
+  {
+   "k": "1grwyn7",
+   "zh": "Players map mode button.png"
+  },
+  {
+   "k": "1o1wqbs",
+   "zh": "Population map mode button.png"
+  },
+  {
+   "k": "1boa2kb",
+   "zh": "Ideology map mode button.png"
+  },
+  {
+   "k": "1y9txt5",
+   "zh": "Unit counters toggle.png"
+  },
+  {
+   "k": "1032cu9",
+   "zh": "Unit color toggle.png"
+  },
+  {
+   "k": "w1vav4",
+   "zh": "Battle plans (allied) toggle.png"
+  },
+  {
+   "k": "1iub1ko",
+   "zh": "Day night toggle.png"
+  },
+  {
+   "k": "1r65k4f",
+   "zh": "Fog of war toggle.png"
+  },
+  {
+   "k": "kt5ha9",
+   "zh": "Radars toggle.png"
+  },
+  {
+   "k": "vdu9c4",
+   "zh": "Division Overview.png"
+  },
+  {
+   "k": "h46mu1",
+   "zh": "Battleplanwindow.png"
+  },
+  {
+   "k": "zdoqe0",
+   "zh": "Exercise transparent.png"
+  },
+  {
+   "k": "1mriuwv",
+   "zh": "Exercise until trained transparent.png"
+  },
+  {
+   "k": "1u1gubn",
+   "zh": "Execute battle plans balanced.png"
+  },
+  {
+   "k": "1a3sv1a",
+   "zh": "Cohesion loose.png"
+  },
+  {
+   "k": "1hqyx8x",
+   "zh": "Naval Invasion deselected.png"
+  },
+  {
+   "k": "1ixwpnh",
+   "zh": "Naval invasion with harbor button.png"
+  },
+  {
+   "k": "r8jld9",
+   "zh": "Paradrop deselected.png"
+  },
+  {
+   "k": "qswsb1",
+   "zh": "Front Line deselected.png"
+  },
+  {
+   "k": "es5qa1",
+   "zh": "Offensive Line deselected.png"
+  },
+  {
+   "k": "1z08rlv",
+   "zh": "Spearhead deselected.png"
+  },
+  {
+   "k": "1wtv3jy",
+   "zh": "Fallback line deselected.png"
+  },
+  {
+   "k": "2ildxg",
+   "zh": "Garrison Area deselected.png"
+  },
+  {
+   "k": "1b2avqm",
+   "zh": "Divisions assignment mode deselected.png"
+  },
+  {
+   "k": "4lyjwa",
+   "zh": "Unassign Divisions.png"
+  },
+  {
+   "k": "1vhbhvr",
+   "zh": "Edit mode deselected.png"
+  },
+  {
+   "k": "1nd5te9",
+   "zh": "Delete Order deselected.png"
+  },
+  {
+   "k": "1ar7q7y",
+   "zh": "Disband All Selected Units.png"
+  },
+  {
+   "k": "1axc8cl",
+   "zh": "Unassign Units.png"
+  },
+  {
+   "k": "1ogfkgj",
+   "zh": "Consolidate.png"
+  },
+  {
+   "k": "189gp2r",
+   "zh": "Change Division Template.png"
+  },
+  {
+   "k": "1q56zsr",
+   "zh": "Select half.png"
+  },
+  {
+   "k": "7r0ddx",
+   "zh": "Hold Order.png"
+  },
+  {
+   "k": "7q3tjc",
+   "zh": "Strategic redeployment.png"
+  },
+  {
+   "k": "1vvycrt",
+   "zh": "Navy Overview.png"
+  },
+  {
+   "k": "rfzxmq",
+   "zh": "Split.png"
+  },
+  {
+   "k": "j5pojy",
+   "zh": "Merge.png"
+  },
+  {
+   "k": "mkuz5h",
+   "zh": "Naval Exercises.png"
+  },
+  {
+   "k": "1u3c7vu",
+   "zh": "Naval exercises until trained.png"
+  },
+  {
+   "k": "1xcdqen",
+   "zh": "Hold Mission.png"
+  },
+  {
+   "k": "16vrunu",
+   "zh": "Patrol.png"
+  },
+  {
+   "k": "15ou3ah",
+   "zh": "Strike Force.png"
+  },
+  {
+   "k": "196il0i",
+   "zh": "Convoy Raiding.png"
+  },
+  {
+   "k": "nyopk4",
+   "zh": "Convoy Escort.png"
+  },
+  {
+   "k": "1uidcop",
+   "zh": "Minelaying.png"
+  },
+  {
+   "k": "q6wtlj",
+   "zh": "Minesweeping.png"
+  },
+  {
+   "k": "1pdmyb8",
+   "zh": "Naval Invasion Support.png"
+  },
+  {
+   "k": "pn4wcg",
+   "zh": "Air Forces.png"
+  },
+  {
+   "k": "1os3suz",
+   "zh": "Add to air group.png"
+  },
+  {
+   "k": "1nu6ltv",
+   "zh": "Air select all.png"
+  },
+  {
+   "k": "1ovytpl",
+   "zh": "New Wing.png"
+  },
+  {
+   "k": "sian8b",
+   "zh": "Pilot Exercises Mission transparent.png"
+  },
+  {
+   "k": "18e6p52",
+   "zh": "Pilot exercises until trained transparent.png"
+  },
+  {
+   "k": "1h0l76n",
+   "zh": "Air Superiority Mission transparent.png"
+  },
+  {
+   "k": "rdo1jx",
+   "zh": "Close Air Support Mission transparent.png"
+  },
+  {
+   "k": "9gu1t0",
+   "zh": "Interception Mission transparent.png"
+  },
+  {
+   "k": "17kcufk",
+   "zh": "Strategic Bombing Mission transparent.png"
+  },
+  {
+   "k": "ykqlku",
+   "zh": "Naval Strike Mission transparent.png"
+  },
+  {
+   "k": "1os1x01",
+   "zh": "Port Strike Mission transparent.png"
+  },
+  {
+   "k": "qkng6x",
+   "zh": "Kamikaze Strike Mission transparent.png"
+  },
+  {
+   "k": "dkbujz",
+   "zh": "Air Supply Mission transparent.png"
+  },
+  {
+   "k": "gkss8l",
+   "zh": "Air Recon Mission transparent.png"
+  },
+  {
+   "k": "1be6ds2",
+   "zh": "Naval patrol mission transparent.png"
+  }
+ ]
+}

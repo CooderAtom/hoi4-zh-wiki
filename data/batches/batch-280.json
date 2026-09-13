@@ -1,0 +1,1713 @@
+{
+ "batch": 280,
+ "pages": [
+  "Modifiers"
+ ],
+ "chars": 14991,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1k66rb7",
+   "en": "military_industrial_organization_design_team_assign_cost = 30"
+  },
+  {
+   "k": "1g296vg",
+   "en": "military_industrial_organization_design_team_change_cost"
+  },
+  {
+   "k": "1w2ngky",
+   "en": "Modifies the political power cost to change a design team."
+  },
+  {
+   "k": "14qtwvv",
+   "en": "military_industrial_organization_design_team_change_cost = 20"
+  },
+  {
+   "k": "15dgyy0",
+   "en": "military_industrial_organization_industrial_manufacturer_assign_cost"
+  },
+  {
+   "k": "1qw7tse",
+   "en": "Modifies the political power cost to assign an industrial manufacturer."
+  },
+  {
+   "k": "1fv4gi4",
+   "en": "military_industrial_organization_industrial_manufacturer_assign_cost = 10"
+  },
+  {
+   "k": "g7vzmb",
+   "en": "military_industrial_organization_task_capacity"
+  },
+  {
+   "k": "111af6l",
+   "en": "Modifies the amount of tasks possible to assign to the MIO."
+  },
+  {
+   "k": "qr7fzm",
+   "en": "military_industrial_organization_task_capacity = 2"
+  },
+  {
+   "k": "b4909e",
+   "en": "military_industrial_organization_size_up_requirement"
+  },
+  {
+   "k": "1t0dd5g",
+   "en": "Modifies the requirement to size up a MIO."
+  },
+  {
+   "k": "1gnt1xf",
+   "en": "military_industrial_organization_size_up_requirement = 2"
+  },
+  {
+   "k": "tbk9ll",
+   "en": "military_industrial_organization_funds_gain"
+  },
+  {
+   "k": "c6e6qw",
+   "en": "Modifies the amount of funds gained by the MIO."
+  },
+  {
+   "k": "1cgv6v9",
+   "en": "military_industrial_organization_funds_gain = 0.3"
+  },
+  {
+   "k": "whpz5b",
+   "en": "military_industrial_organization_policy_cost"
+  },
+  {
+   "k": "8a76xd",
+   "en": "Modifies the political power cost to assign a MIO policy."
+  },
+  {
+   "k": "f7n31u",
+   "en": "military_industrial_organization_policy_cost = 20"
+  },
+  {
+   "k": "1gzy59j",
+   "en": "military_industrial_organization_policy_cooldown"
+  },
+  {
+   "k": "56kyp6",
+   "en": "Modifies the cooldown between how often it's possible to change policies."
+  },
+  {
+   "k": "gccytz",
+   "en": "military_industrial_organization_policy_cooldown = 5"
+  },
+  {
+   "k": "1dhrl6d",
+   "en": "Unit leaders"
+  },
+  {
+   "k": "j6c3tz",
+   "en": "These are modifiers related to unit leaders in the country scope, rather than being in the unit leader scope."
+  },
+  {
+   "k": "k23idi",
+   "en": "female_random_army_leader_chance"
+  },
+  {
+   "k": "1biaeib",
+   "en": "Changes the chance for a randomly-generated army leader to be female."
+  },
+  {
+   "k": "z2qrg6",
+   "en": "female_random_army_leader_chance = 0.3"
+  },
+  {
+   "k": "wnimuu",
+   "en": "assign_army_leader_cp_cost"
+  },
+  {
+   "k": "1r18teh",
+   "en": "Modifies the cost to assign an army leader to an army."
+  },
+  {
+   "k": "6wgly9",
+   "en": "assign_army_leader_cp_cost = -5"
+  },
+  {
+   "k": "5u8mum",
+   "en": "army_leader_cost_factor"
+  },
+  {
+   "k": "1thvf11",
+   "en": "The cost in political power to recruit an unit leader for the land army."
+  },
+  {
+   "k": "nynoas",
+   "en": "army_leader_cost_factor = 0.5"
+  },
+  {
+   "k": "1gtq24u",
+   "en": "army_leader_start_level"
+  },
+  {
+   "k": "1au7c5i",
+   "en": "Bonus to the starting level of generic unit leaders."
+  },
+  {
+   "k": "1enjogq",
+   "en": "army_leader_start_level = 1"
+  },
+  {
+   "k": "1o9vx0p",
+   "en": "army_leader_start_attack_level"
+  },
+  {
+   "k": "143wyyd",
+   "en": "Bonus to the starting level of attack in generic unit leaders."
+  },
+  {
+   "k": "3az8fp",
+   "en": "army_leader_start_attack_level = 1"
+  },
+  {
+   "k": "15zql9l",
+   "en": "army_leader_start_defense_level"
+  },
+  {
+   "k": "7dpnnn",
+   "en": "Bonus to the starting level of defense in generic unit leaders."
+  },
+  {
+   "k": "1eu58z9",
+   "en": "army_leader_start_defense_level = 1"
+  },
+  {
+   "k": "l85wx6",
+   "en": "army_leader_start_logistics_level"
+  },
+  {
+   "k": "19n427e",
+   "en": "Bonus to the starting level of logistics in generic unit leaders."
+  },
+  {
+   "k": "hconfi",
+   "en": "army_leader_start_logistics_level = 1"
+  },
+  {
+   "k": "1apwbfk",
+   "en": "army_leader_start_planning_level"
+  },
+  {
+   "k": "1dn19h2",
+   "en": "Bonus to the starting level of planning in generic unit leaders."
+  },
+  {
+   "k": "zat98c",
+   "en": "army_leader_start_planning_level = 1"
+  },
+  {
+   "k": "12iwfjc",
+   "en": "military_leader_cost_factor"
+  },
+  {
+   "k": "1d866nv",
+   "en": "The cost in political power to recruit an unit leader."
+  },
+  {
+   "k": "15z8ndm",
+   "en": "military_leader_cost_factor = 0.5"
+  },
+  {
+   "k": "1lh2h99",
+   "en": "female_random_admiral_chance"
+  },
+  {
+   "k": "1i33un",
+   "en": "Changes the chance for a randomly-generated admiral to be female."
+  },
+  {
+   "k": "v4xzux",
+   "en": "female_random_admiral_chance = 0.3"
+  },
+  {
+   "k": "154jzcl",
+   "en": "assign_navy_leader_cp_cost"
+  },
+  {
+   "k": "11l2beb",
+   "en": "Modifies the cost to assign a navy leader to a navy."
+  },
+  {
+   "k": "1lgjv94",
+   "en": "assign_navy_leader_cp_cost = -5"
+  },
+  {
+   "k": "7oya61",
+   "en": "navy_leader_cost_factor"
+  },
+  {
+   "k": "7sip3i",
+   "en": "The cost in political power to recruit an unit leader for the land navy."
+  },
+  {
+   "k": "1d5xasz",
+   "en": "navy_leader_cost_factor = 0.5"
+  },
+  {
+   "k": "1lxfy41",
+   "en": "navy_leader_start_level"
+  },
+  {
+   "k": "8uagh9",
+   "en": "navy_leader_start_level = 1"
+  },
+  {
+   "k": "1c9ra1k",
+   "en": "navy_leader_start_attack_level"
+  },
+  {
+   "k": "1gmp7s4",
+   "en": "navy_leader_start_attack_level = 1"
+  },
+  {
+   "k": "1lwm5aj",
+   "en": "navy_leader_start_coordination_level"
+  },
+  {
+   "k": "go8xsg",
+   "en": "Bonus to the starting level of coordination in generic unit leaders."
+  },
+  {
+   "k": "zbe2br",
+   "en": "navy_leader_start_coordination_level = 1"
+  },
+  {
+   "k": "x58986",
+   "en": "navy_leader_start_defense_level"
+  },
+  {
+   "k": "1p5jb2q",
+   "en": "navy_leader_start_defense_level = 1"
+  },
+  {
+   "k": "hf9n8b",
+   "en": "navy_leader_start_maneuvering_level"
+  },
+  {
+   "k": "7wq6kc",
+   "en": "Bonus to the starting level of maneuvering in generic unit leaders."
+  },
+  {
+   "k": "1ph311z",
+   "en": "navy_leader_start_maneuvering_level = 1"
+  },
+  {
+   "k": "1g9bwbn",
+   "en": "grant_medal_cost_factor"
+  },
+  {
+   "k": "ps934z",
+   "en": "Changes the cost in command power to grant a medal to a division commander."
+  },
+  {
+   "k": "oo5w7g",
+   "en": "grant_medal_cost_factor = 0.2"
+  },
+  {
+   "k": "o0ujzy",
+   "en": "field_officer_promotion_penalty"
+  },
+  {
+   "k": "pj8tai",
+   "en": "Changes the experience penalty applied to the divisions when a commander is promoted to a field marshal."
+  },
+  {
+   "k": "5b87mp",
+   "en": "field_officer_promotion_penalty = 0.2"
+  },
+  {
+   "k": "k7il12",
+   "en": "female_divisional_commander_chance"
+  },
+  {
+   "k": "15qcz3b",
+   "en": "Changes the chance to get a female divisional commander."
+  },
+  {
+   "k": "14kp6c9",
+   "en": "female_divisional_commander_chance = 0.2"
+  },
+  {
+   "k": "9187ay",
+   "en": "If no generic female portraits are defined within ⟦0⟧ files, there will be a silhouette.",
+   "frags": 1
+  },
+  {
+   "k": "xk00o5",
+   "en": "/Hearts of Iron IV/portraits/*.txt"
+  },
+  {
+   "k": "kmznr9",
+   "en": "General combat"
+  },
+  {
+   "k": "1h7wx4s",
+   "en": "Note that most of these modifiers are not only in country scope but also in unit leader and navy leader scopes."
+  },
+  {
+   "k": "cj9281",
+   "en": "offence"
+  },
+  {
+   "k": "y9y177",
+   "en": "Modifies the attack value of our military, navy, and airforce."
+  },
+  {
+   "k": "1exfzwb",
+   "en": "offence = 0.5"
+  },
+  {
+   "k": "49u5p2",
+   "en": "Does not work in country scope, use army_attack_factor instead."
+  },
+  {
+   "k": "15ovj1f",
+   "en": "defence"
+  },
+  {
+   "k": "exlcyr",
+   "en": "Modifies the defence value of our military, navy, and airforce."
+  },
+  {
+   "k": "hsncl5",
+   "en": "defence = 0.5"
+  },
+  {
+   "k": "p3028m",
+   "en": "Does not work in country scope, use army_defence_factor instead."
+  },
+  {
+   "k": "82b0tk",
+   "en": "<Tactic>_preferred_weight_factor"
+  },
+  {
+   "k": "ir8jo3",
+   "en": "Modifies the chance for a commander to choose the specified tactic."
+  },
+  {
+   "k": "rrisdd",
+   "en": "tactic_ambush_preferred_weight_factor = 0.3"
+  },
+  {
+   "k": "1obngmh",
+   "en": "Combat tactics are defined in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "ymm484",
+   "en": "/Hearts of Iron IV/common/combat_tactics.txt"
+  },
+  {
+   "k": "1qld2zg",
+   "en": "Land combat"
+  },
+  {
+   "k": "h8qiqx",
+   "en": "Note that most of these modifiers are not only in country scope but also in unit leader scope."
+  },
+  {
+   "k": "c1ie22",
+   "en": "acclimatization_cold_climate_gain_factor"
+  },
+  {
+   "k": "tyij9d",
+   "en": "Cold acclimatization gain factor."
+  },
+  {
+   "k": "1dij1ns",
+   "en": "acclimatization_cold_climate_gain_factor = 0.5"
+  },
+  {
+   "k": "16cf9tn",
+   "en": "acclimatization_hot_climate_gain_factor"
+  },
+  {
+   "k": "iquz6w",
+   "en": "Hot acclimatization gain factor."
+  },
+  {
+   "k": "1rv624x",
+   "en": "acclimatization_hot_climate_gain_factor = 0.5"
+  },
+  {
+   "k": "1u72p76",
+   "en": "air_superiority_bonus_in_combat"
+  },
+  {
+   "k": "sfylxz",
+   "en": "The bonus in combat given from having air superiority."
+  },
+  {
+   "k": "13uclqo",
+   "en": "air_superiority_bonus_in_combat = 0.5"
+  },
+  {
+   "k": "te28j9",
+   "en": "army_attack_factor"
+  },
+  {
+   "k": "1lpa6wi",
+   "en": "The bonus to land army's attack."
+  },
+  {
+   "k": "1trksx3",
+   "en": "army_attack_factor = 0.5"
+  },
+  {
+   "k": "17xkuy3",
+   "en": "army_core_attack_factor"
+  },
+  {
+   "k": "114nrds",
+   "en": "The bonus to land army's attack on core territory."
+  },
+  {
+   "k": "987ral",
+   "en": "army_core_attack_factor = 0.1"
+  },
+  {
+   "k": "1qor85q",
+   "en": "army_claim_attack_factor"
+  },
+  {
+   "k": "1bisjb0",
+   "en": "The bonus to land army's attack on claimed territory."
+  },
+  {
+   "k": "17wyh20",
+   "en": "army_claim_attack_factor = 0.1"
+  },
+  {
+   "k": "1wd2xev",
+   "en": "army_attack_against_major_factor"
+  },
+  {
+   "k": "307kej",
+   "en": "The bonus to land army's attack against a major country."
+  },
+  {
+   "k": "1cjkj91",
+   "en": "army_attack_against_major_factor = 0.5"
+  },
+  {
+   "k": "1k21vy3",
+   "en": "army_attack_against_minor_factor"
+  },
+  {
+   "k": "pto93h",
+   "en": "The bonus to land army's attack against a non-major country."
+  },
+  {
+   "k": "9g1t5d",
+   "en": "army_attack_against_minor_factor = 0.5"
+  },
+  {
+   "k": "euujk9",
+   "en": "army_attack_speed_factor"
+  },
+  {
+   "k": "1idvsd",
+   "en": "The bonus to speed at which the land army attacks."
+  },
+  {
+   "k": "14ee8o3",
+   "en": "army_attack_speed_factor = 0.5"
+  },
+  {
+   "k": "1no3rtf",
+   "en": "army_breakthrough_against_major_factor"
+  },
+  {
+   "k": "1gbhdyz",
+   "en": "The bonus to land army's breakthrough against a major country."
+  },
+  {
+   "k": "3t62mh",
+   "en": "army_breakthrough_against_major_factor = 0.5"
+  },
+  {
+   "k": "5qnchr",
+   "en": "army_breakthrough_against_minor_factor"
+  },
+  {
+   "k": "1x3pqyl",
+   "en": "The bonus to land army's breakthrough against a non-major country."
+  },
+  {
+   "k": "1b9hrvx",
+   "en": "army_breakthrough_against_minor_factor = 0.5"
+  },
+  {
+   "k": "sei7yz",
+   "en": "army_defence_factor"
+  },
+  {
+   "k": "i53vka",
+   "en": "The bonus to land army's defence."
+  },
+  {
+   "k": "64ni29",
+   "en": "army_defence_factor = 0.5"
+  },
+  {
+   "k": "bmw3l9",
+   "en": "army_defence_against_major_factor"
+  },
+  {
+   "k": "1ujfidf",
+   "en": "The bonus to land army's defence against a major country."
+  },
+  {
+   "k": "70oplr",
+   "en": "army_defence_against_major_factor = 0.5"
+  },
+  {
+   "k": "cc5a3t",
+   "en": "army_defence_against_minor_factor"
+  },
+  {
+   "k": "agargl",
+   "en": "The bonus to land army's defence against a non-major country."
+  },
+  {
+   "k": "ifmqmb",
+   "en": "army_defence_against_minor_factor = 0.5"
+  },
+  {
+   "k": "wdh3pd",
+   "en": "army_core_defence_factor"
+  },
+  {
+   "k": "7qfggo",
+   "en": "The bonus to land army's defence on core territory."
+  },
+  {
+   "k": "uhz1af",
+   "en": "army_core_defence_factor = 0.1"
+  },
+  {
+   "k": "1wwlfxi",
+   "en": "army_claim_defence_factor"
+  },
+  {
+   "k": "1tij50k",
+   "en": "The bonus to land army's defence on claimed territory."
+  },
+  {
+   "k": "1lz6y8",
+   "en": "army_claim_defence_factor = 0.1"
+  },
+  {
+   "k": "d7yj2a",
+   "en": "army_speed_factor"
+  },
+  {
+   "k": "1jnvdaj",
+   "en": "The bonus to land army's speed."
+  },
+  {
+   "k": "1tj59k0",
+   "en": "army_speed_factor = 0.5"
+  },
+  {
+   "k": "1hvmpkq",
+   "en": "army_strength_factor"
+  },
+  {
+   "k": "ytccn5",
+   "en": "The bonus to land army's strength."
+  },
+  {
+   "k": "58kkrc",
+   "en": "army_strength_factor = 0.5"
+  },
+  {
+   "k": "1p3ys5e",
+   "en": "<unit type>_attack_factor"
+  },
+  {
+   "k": "10cheus",
+   "en": "The bonus to specified unit type's attack."
+  },
+  {
+   "k": "1yzbzw2",
+   "en": "cavalry_attack_factor = 0.5"
+  },
+  {
+   "k": "krfas9",
+   "en": "Allowed unit types are army_armor, army_artillery, army_infantry, cavalry, mechanized, motorized, special_forces"
+  },
+  {
+   "k": "u4077m",
+   "en": "<unit type>_defence_factor"
+  },
+  {
+   "k": "ixv345",
+   "en": "The bonus to the specified unit type's defence."
+  },
+  {
+   "k": "1s0cpb6",
+   "en": "army_artillery_defence_factor = 0.5"
+  },
+  {
+   "k": "12cb9xz",
+   "en": "<unit type>_speed_factor"
+  },
+  {
+   "k": "w5a8b9",
+   "en": "The bonus to specified unit type's speed."
+  },
+  {
+   "k": "8dog1w",
+   "en": "army_armor_speed_factor = 0.5"
+  },
+  {
+   "k": "gbo7qh",
+   "en": "Allowed unit types are army_armor and cavalry. Cavalry_speed_factor is currently broken and not recognized by the game."
+  },
+  {
+   "k": "szbeja",
+   "en": "modifier_army_sub_unit_<unit type>_attack_factor"
+  },
+  {
+   "k": "33lo0z",
+   "en": "modifier_army_sub_unit_armored_car_attack_factor = 0.1"
+  },
+  {
+   "k": "1j1h4dt",
+   "en": "Allowed unit types are all defined batallions, including those added through mods."
+  },
+  {
+   "k": "1r3vila",
+   "en": "modifier_army_sub_unit_<unit type>_defence_factor"
+  },
+  {
+   "k": "1jri51x",
+   "en": "modifier_army_sub_unit_armored_car_defence_factor = 0.1"
+  },
+  {
+   "k": "xw27zv",
+   "en": "modifier_army_sub_unit_<unit type>_speed_factor"
+  },
+  {
+   "k": "sgi9f8",
+   "en": "modifier_army_sub_unit_armored_car_speed_factor = 0.1"
+  },
+  {
+   "k": "1gg7zrf",
+   "en": "army_morale"
+  },
+  {
+   "k": "l44q86",
+   "en": "Modifies the division recovery rate."
+  },
+  {
+   "k": "1lr2h91",
+   "en": "army_morale = 10"
+  },
+  {
+   "k": "1fn8qtz",
+   "en": "army_morale_factor"
+  },
+  {
+   "k": "to4ffo",
+   "en": "Modifies the division recovery rate by a percentage."
+  },
+  {
+   "k": "1xwky37",
+   "en": "army_morale_factor = 0.3"
+  },
+  {
+   "k": "o70z8d",
+   "en": "army_org"
+  },
+  {
+   "k": "1d8olnz",
+   "en": "Modifies the army's organisation."
+  },
+  {
+   "k": "1tqvcdf",
+   "en": "army_org = 10"
+  },
+  {
+   "k": "lblnw1",
+   "en": "army_org_factor"
+  },
+  {
+   "k": "1af512d",
+   "en": "Modifies the army's organisation by a percentage."
+  },
+  {
+   "k": "7rz67x",
+   "en": "army_org_factor = 0.3"
+  },
+  {
+   "k": "gyj81g",
+   "en": "army_org_regain"
+  },
+  {
+   "k": "98v3ug",
+   "en": "Modifies the army's organisation regain speed by a percentage."
+  },
+  {
+   "k": "u5nodw",
+   "en": "army_org_regain = 0.3"
+  },
+  {
+   "k": "ddn2j1",
+   "en": "breakthrough_factor"
+  },
+  {
+   "k": "vpqrfd",
+   "en": "Modifies the army's breakthrough."
+  },
+  {
+   "k": "1ay509",
+   "en": "breakthrough_factor = 0.3"
+  },
+  {
+   "k": "1opnpjc",
+   "en": "cas_damage_reduction"
+  },
+  {
+   "k": "awr1oa",
+   "en": "Reduces the damage dealt by close air support."
+  },
+  {
+   "k": "1k0zubs",
+   "en": "cas_damage_reduction = 0.3"
+  },
+  {
+   "k": "obz5h0",
+   "en": "combat_width_factor"
+  },
+  {
+   "k": "12rdweu",
+   "en": "Changes our own combat width."
+  },
+  {
+   "k": "7edy5w",
+   "en": "combat_width_factor = 0.3"
+  },
+  {
+   "k": "1m8jpqq",
+   "en": "coordination_bonus"
+  },
+  {
+   "k": "1hyfljf",
+   "en": "Changes the bonus to coordination, that is how much damage is done to the primary target instead of being spread out."
+  },
+  {
+   "k": "1tvvgxu",
+   "en": "coordination_bonus = 0.3"
+  },
+  {
+   "k": "fymv4f",
+   "en": "dig_in_speed"
+  },
+  {
+   "k": "1do74ta",
+   "en": "Changes entrenchment speed."
+  },
+  {
+   "k": "s53m1i",
+   "en": "dig_in_speed = 2"
+  },
+  {
+   "k": "sxikab",
+   "en": "dig_in_speed_factor"
+  },
+  {
+   "k": "1bm510c",
+   "en": "Changes entrenchment speed by a percentage."
+  },
+  {
+   "k": "x0pi3t",
+   "en": "dig_in_speed_factor = 0.5"
+  },
+  {
+   "k": "1uo440y",
+   "en": "experience_gain_army_unit"
+  },
+  {
+   "k": "md4afs",
+   "en": "Changes experience gain by the army divisions."
+  },
+  {
+   "k": "23a6ww",
+   "en": "experience_gain_army_unit = 0.5"
+  },
+  {
+   "k": "l5sv9k",
+   "en": "experience_gain_army_unit_factor"
+  },
+  {
+   "k": "1owx9t6",
+   "en": "Changes experience gain by the army divisions by a percentage."
+  },
+  {
+   "k": "14m1ofu",
+   "en": "experience_gain_army_unit_factor = 0.5"
+  },
+  {
+   "k": "1v71z6h",
+   "en": "experience_loss_factor"
+  },
+  {
+   "k": "htvgrl",
+   "en": "Changes the loss in divisions' experience in combat."
+  },
+  {
+   "k": "qywrid",
+   "en": "experience_loss_factor = 0.3"
+  },
+  {
+   "k": "qf57pv",
+   "en": "initiative_factor"
+  },
+  {
+   "k": "12gjmp0",
+   "en": "Modifies the initiative."
+  },
+  {
+   "k": "rjc6gf",
+   "en": "initiative_factor = 0.3"
+  },
+  {
+   "k": "19kvzqi",
+   "en": "land_night_attack"
+  },
+  {
+   "k": "1a3ovxc",
+   "en": "Changes the penalty due to attacking at night."
+  },
+  {
+   "k": "1syu5uw",
+   "en": "land_night_attack = 0.5"
+  },
+  {
+   "k": "b7057w",
+   "en": "max_dig_in"
+  },
+  {
+   "k": "159djzi",
+   "en": "Changes the maximum entrenchment."
+  },
+  {
+   "k": "116o2or",
+   "en": "max_dig_in = 20"
+  },
+  {
+   "k": "150at9s",
+   "en": "Can also apply in state scope."
+  },
+  {
+   "k": "1oph09e",
+   "en": "max_dig_in_factor"
+  },
+  {
+   "k": "1bu9yuk",
+   "en": "Changes the maximum entrenchment by a percentage."
+  },
+  {
+   "k": "lkwj2o",
+   "en": "max_dig_in_factor = 0.5"
+  },
+  {
+   "k": "z6590r",
+   "en": "max_planning"
+  },
+  {
+   "k": "k5qani",
+   "en": "Changes the maximum planning."
+  },
+  {
+   "k": "1bxhf9a",
+   "en": "max_planning = 20"
+  },
+  {
+   "k": "vzcyt3",
+   "en": "max_planning_factor"
+  },
+  {
+   "k": "3zca0c",
+   "en": "Changes the maximum planning by a percentage."
+  },
+  {
+   "k": "nlihnp",
+   "en": "max_planning_factor = 0.5"
+  },
+  {
+   "k": "yolt19",
+   "en": "pocket_penalty"
+  },
+  {
+   "k": "1g2oyf0",
+   "en": "Reduces the penalty that troops take when they are encircled."
+  },
+  {
+   "k": "fst2fq",
+   "en": "pocket_penalty = 0.2"
+  },
+  {
+   "k": "fiskei",
+   "en": "recon_factor"
+  },
+  {
+   "k": "1urzh83",
+   "en": "Changes reconnaisance."
+  },
+  {
+   "k": "19gre8d",
+   "en": "recon_factor = 0.2"
+  },
+  {
+   "k": "8rt689",
+   "en": "recon_factor_while_entrenched"
+  },
+  {
+   "k": "2evibe",
+   "en": "Changes reconnaisance for entrenched divisions."
+  },
+  {
+   "k": "1rlxoci",
+   "en": "recon_factor_while_entrenched = 0.2"
+  },
+  {
+   "k": "wll34u",
+   "en": "special_forces_cap"
+  },
+  {
+   "k": "evyavl",
+   "en": "Changes the maximum amount of special forces by a percentage."
+  },
+  {
+   "k": "1yn7r4k",
+   "en": "special_forces_cap = 0.5"
+  },
+  {
+   "k": "1tr2jxu",
+   "en": "special_forces_min"
+  },
+  {
+   "k": "z2y1y5",
+   "en": "Changes the minimum amount of special forces."
+  },
+  {
+   "k": "iilnrq",
+   "en": "special_forces_min = 250"
+  },
+  {
+   "k": "106ecyu",
+   "en": "terrain_penalty_reduction"
+  },
+  {
+   "k": "17yytcz",
+   "en": "Decreases the penalties given by terrain."
+  },
+  {
+   "k": "294j86",
+   "en": "terrain_penalty_reduction = 0.3"
+  },
+  {
+   "k": "1o4msxt",
+   "en": "Only works in the unit_leader scope despite the modifier being present in vanilla national spirits at the time of writing."
+  },
+  {
+   "k": "1lkfxnn",
+   "en": "org_loss_at_low_org_factor"
+  },
+  {
+   "k": "5sagl",
+   "en": "Modifies the organisation loss for units when they have low organisation."
+  },
+  {
+   "k": "oa9vrg",
+   "en": "org_loss_at_low_org_factor = 0.2"
+  },
+  {
+   "k": "n827ct",
+   "en": "org_loss_when_moving"
+  },
+  {
+   "k": "d1ydu1",
+   "en": "Modifies the organisation loss for units when they are moving."
+  },
+  {
+   "k": "ff1us6",
+   "en": "org_loss_when_moving = 0.2"
+  },
+  {
+   "k": "icibh8",
+   "en": "planning_speed"
+  },
+  {
+   "k": "khhj1k",
+   "en": "Modifies the planning speed."
+  },
+  {
+   "k": "jy4qbz",
+   "en": "planning_speed = 0.2"
+  },
+  {
+   "k": "10e2x1d",
+   "en": "Works in state scope."
+  },
+  {
+   "k": "1pdhxmb",
+   "en": "experience_gain_<unit type>_combat_factor"
+  },
+  {
+   "k": "5mqime",
+   "en": "Modifies the experience gain in combat for the unit type."
+  },
+  {
+   "k": "fb4rex",
+   "en": "experience_gain_artillery_combat_factor = 0.3"
+  },
+  {
+   "k": "1gomhyw",
+   "en": "Units are defined in ⟦0⟧ files.",
+   "frags": 1
+  },
+  {
+   "k": "ks8zrp",
+   "en": "experience_gain_<unit type>_training_factor"
+  },
+  {
+   "k": "1xucwkg",
+   "en": "Modifies the experience gain in training for the unit type."
+  },
+  {
+   "k": "17u4tdw",
+   "en": "experience_gain_destroyer_training_factor = 0.3"
+  },
+  {
+   "k": "1y780n3",
+   "en": "Naval invasions"
+  },
+  {
+   "k": "1gi995f",
+   "en": "naval_invasion_prep_speed"
+  },
+  {
+   "k": "1ssvlrq",
+   "en": "Modifies the speed at which a naval invasion is prepared."
+  },
+  {
+   "k": "xk2g71",
+   "en": "naval_invasion_prep_speed = 10"
+  },
+  {
+   "k": "1q6x2tf",
+   "en": "Can be a targeted modifier or in unit leader scope."
+  },
+  {
+   "k": "12cyzz4",
+   "en": "naval_invasion_capacity"
+  },
+  {
+   "k": "3atcrb",
+   "en": "Modifies the amount of divisions that can have a naval invasion plan going on at the same time."
+  },
+  {
+   "k": "hkskmc",
+   "en": "naval_invasion_capacity = 10"
+  },
+  {
+   "k": "hpse1d",
+   "en": "naval_invasion_penalty"
+  },
+  {
+   "k": "1a2ujo4",
+   "en": "Modifies the penalty for naval invasions."
+  },
+  {
+   "k": "xxtaxp",
+   "en": "naval_invasion_penalty = 0.3"
+  },
+  {
+   "k": "6y5z5",
+   "en": "Is the opposite of amphibious_invasion_defence. Can also apply in state scope."
+  },
+  {
+   "k": "ji9mt1",
+   "en": "naval_invasion_planning_bonus_speed"
+  },
+  {
+   "k": "1e5ye3o",
+   "en": "Modifies the speed at which the planning bonus is accumulated during a naval invasion preparation."
+  },
+  {
+   "k": "71c6yp",
+   "en": "naval_invasion_planning_bonus_speed = 0.3"
+  },
+  {
+   "k": "124m542",
+   "en": "amphibious_invasion"
+  },
+  {
+   "k": "1gmpgx2",
+   "en": "Modifies the speed of units during naval invasions."
+  },
+  {
+   "k": "mhg0ao",
+   "en": "amphibious_invasion = 0.5"
+  },
+  {
+   "k": "cjw911",
+   "en": "amphibious_invasion_defence"
+  },
+  {
+   "k": "tt20x",
+   "en": "Modifies the penalty given by naval invasions."
+  },
+  {
+   "k": "y34spz",
+   "en": "amphibious_invasion_defence = 0.5"
+  },
+  {
+   "k": "1mvtv4b",
+   "en": "Is the opposite of naval_invasion_penalty. Can also apply in state scope."
+  },
+  {
+   "k": "1774470",
+   "en": "invasion_preparation"
+  },
+  {
+   "k": "1y3dc2d",
+   "en": "Modifies the required preparation needed to execute a naval invasion."
+  },
+  {
+   "k": "1pl5w7w",
+   "en": "invasion_preparation = 0.3"
+  },
+  {
+   "k": "j2ehsg",
+   "en": "Is the opposite of naval_invasion_prep_speed. Can be used in unit leader scope."
+  },
+  {
+   "k": "18sgox5",
+   "en": "Naval combat"
+  },
+  {
+   "k": "1s0rg05",
+   "en": "Note that most of these modifiers are not only in country scope but also in navy leader scope as well as within equipment modules."
+  },
+  {
+   "k": "259j6s",
+   "en": "convoy_escort_efficiency"
+  },
+  {
+   "k": "1srf7h9",
+   "en": "Modifies the efficiency of the convoy escort mission."
+  },
+  {
+   "k": "1pvq3tq",
+   "en": "convoy_escort_efficiency = 0.5"
+  },
+  {
+   "k": "1m99d6y",
+   "en": "convoy_raiding_efficiency_factor"
+  },
+  {
+   "k": "1hpt6bz",
+   "en": "Modifies the efficiency of the convoy raiding mission."
+  },
+  {
+   "k": "1wnyu14",
+   "en": "convoy_raiding_efficiency_factor = 0.5"
+  },
+  {
+   "k": "13pllgj",
+   "en": "convoy_retreat_speed"
+  },
+  {
+   "k": "wat5ri",
+   "en": "Modifies the speed of convoys retreating."
+  },
+  {
+   "k": "l6w94p",
+   "en": "convoy_retreat_speed = 0.5"
+  },
+  {
+   "k": "1e4m8yv",
+   "en": "critical_receive_chance"
+  },
+  {
+   "k": "11ebxfr",
+   "en": "Changes the chance for the enemy to get a critical hit on us in naval combat."
+  },
+  {
+   "k": "1dxv839",
+   "en": "critical_receive_chance = 0.5"
+  },
+  {
+   "k": "1ug0tth",
+   "en": "experience_gain_navy_unit"
+  },
+  {
+   "k": "1mw1tq",
+   "en": "Modifies the daily gain of experience by the ships."
+  },
+  {
+   "k": "1a902a6",
+   "en": "experience_gain_navy_unit = 0.02"
+  },
+  {
+   "k": "au2ltl",
+   "en": "experience_gain_navy_unit_factor"
+  },
+  {
+   "k": "1psl71n",
+   "en": "Modifies the gain of experience by the ships by a percentage."
+  },
+  {
+   "k": "guxx7p",
+   "en": "experience_gain_navy_unit_factor = 0.3"
+  },
+  {
+   "k": "1w15gwr",
+   "en": "mines_planting_by_fleets_factor"
+  },
+  {
+   "k": "57xtrt",
+   "en": "Modifies the efficiency of the mine planting mission."
+  },
+  {
+   "k": "zbzck7",
+   "en": "mines_planting_by_fleets_factor = 0.3"
+  },
+  {
+   "k": "5u64a6",
+   "en": "mines_sweeping_by_fleets_factor"
+  },
+  {
+   "k": "13vaz60",
+   "en": "Modifies the efficiency of the mine sweeping mission."
+  },
+  {
+   "k": "pgd89q",
+   "en": "mines_sweeping_by_fleets_factor = 0.3"
+  },
+  {
+   "k": "b6rw4r",
+   "en": "naval_accidents_chance"
+  },
+  {
+   "k": "1rj7k8e",
+   "en": "Modifies the chance for a ship to be accidentally sunk or damaged."
+  },
+  {
+   "k": "1fic4g7",
+   "en": "naval_accidents_chance = 0.3"
+  },
+  {
+   "k": "v2kje2",
+   "en": "navy_anti_air_attack"
+  },
+  {
+   "k": "1hsyc7b",
+   "en": "Modifies the attack against enemy airplanes for the country's ships."
+  },
+  {
+   "k": "1mye04q",
+   "en": "navy_anti_air_attack = 5"
+  },
+  {
+   "k": "1ezyg00",
+   "en": "navy_anti_air_attack_factor"
+  },
+  {
+   "k": "644fvh",
+   "en": "Modifies the attack against enemy airplanes for the country's ships by a percentage."
+  },
+  {
+   "k": "1kuzie8",
+   "en": "navy_anti_air_attack_factor = 0.3"
+  },
+  {
+   "k": "1sbmx0z",
+   "en": "naval_coordination"
+  },
+  {
+   "k": "1oldy6d",
+   "en": "Modifies how quickly the fleet can gather or disperse when a target is found or when switching missions."
+  },
+  {
+   "k": "15rcbyn",
+   "en": "naval_coordination = 0.3"
+  },
+  {
+   "k": "8jvzkr",
+   "en": "naval_critical_effect_factor"
+  },
+  {
+   "k": "1xobme0",
+   "en": "Modifies the effects of sustained critical hits on our ships."
+  },
+  {
+   "k": "1lnwkt3",
+   "en": "naval_critical_effect_factor = 0.3"
+  },
+  {
+   "k": "ura38l",
+   "en": "naval_critical_score_chance_factor"
+  },
+  {
+   "k": "cfzsrw",
+   "en": "Modifies the chance for us to get a critical hit on the enemy in naval combat."
+  },
+  {
+   "k": "142a40h",
+   "en": "naval_critical_score_chance_factor = 0.3"
+  },
+  {
+   "k": "16m4w9p",
+   "en": "naval_damage_factor"
+  },
+  {
+   "k": "m51lrx",
+   "en": "Modifies the damage dealt by our ships."
+  },
+  {
+   "k": "nvj1hl",
+   "en": "naval_damage_factor = 0.3"
+  },
+  {
+   "k": "1mijqc2",
+   "en": "naval_defense_factor"
+  },
+  {
+   "k": "1ck3exu",
+   "en": "Modifies the damage received by our ships."
+  },
+  {
+   "k": "1hu7vya",
+   "en": "naval_defense_factor = 0.3"
+  },
+  {
+   "k": "1y97ysr",
+   "en": "naval_detection"
+  },
+  {
+   "k": "1asnqm3",
+   "en": "Modifies the chance for our ships to detect submarines."
+  },
+  {
+   "k": "1aqr4sn",
+   "en": "naval_detection = 0.3"
+  },
+  {
+   "k": "1y4m47r",
+   "en": "naval_enemy_fleet_size_ratio_penalty_factor"
+  },
+  {
+   "k": "sh8v1h",
+   "en": "Modifies the penalty the enemy receives for having a larger amount of ships than us."
+  },
+  {
+   "k": "6kx6kz",
+   "en": "naval_enemy_fleet_size_ratio_penalty_factor = 0.3"
+  },
+  {
+   "k": "1k16zc4",
+   "en": "naval_enemy_positioning_in_initial_attack"
+  },
+  {
+   "k": "si4axj",
+   "en": "Modifies the positioning of the enemy during the initial naval attack."
+  },
+  {
+   "k": "nhou9q",
+   "en": "naval_enemy_positioning_in_initial_attack = 3"
+  },
+  {
+   "k": "cbofit",
+   "en": "naval_enemy_retreat_chance"
+  },
+  {
+   "k": "104c6cw",
+   "en": "Modifies the chance for the enemy to retreat."
+  },
+  {
+   "k": "545kwx",
+   "en": "naval_enemy_retreat_chance = 0.3"
+  },
+  {
+   "k": "16f3y8u",
+   "en": "naval_has_potf_in_combat_attack"
+  },
+  {
+   "k": "v1as2r",
+   "en": "Modifies the attack of the navy when fighting together with the pride of the fleet."
+  },
+  {
+   "k": "c1g3qm",
+   "en": "naval_has_potf_in_combat_attack = 0.3"
+  },
+  {
+   "k": "16813eu",
+   "en": "naval_has_potf_in_combat_defense"
+  },
+  {
+   "k": "skayzn",
+   "en": "Modifies the defense of the navy when fighting together with the pride of the fleet."
+  },
+  {
+   "k": "1tmv7sm",
+   "en": "naval_has_potf_in_combat_defense = 0.3"
+  },
+  {
+   "k": "2maiom",
+   "en": "naval_hit_chance"
+  },
+  {
+   "k": "1k98i3n",
+   "en": "Modifies the chance for the naval attacks to land."
+  },
+  {
+   "k": "1yxmeli",
+   "en": "naval_hit_chance = 0.3"
+  },
+  {
+   "k": "12nwuc2",
+   "en": "naval_mine_hit_chance"
+  },
+  {
+   "k": "12pp461",
+   "en": "Modifies the chance for a naval mine to hit."
+  },
+  {
+   "k": "ok86bm",
+   "en": "naval_mine_hit_chance = 0.3"
+  },
+  {
+   "k": "1wdyqce",
+   "en": "naval_mines_damage_factor"
+  },
+  {
+   "k": "1ii84pd",
+   "en": "Modifies the damage naval mines deal to enemy ships."
+  },
+  {
+   "k": "1bsp48e",
+   "en": "naval_mines_damage_factor = 0.3"
+  },
+  {
+   "k": "1d8h1nq",
+   "en": "naval_mines_effect_reduction"
+  },
+  {
+   "k": "1k2je69",
+   "en": "Modifies the damage enemy naval mines deal."
+  },
+  {
+   "k": "6kv9p2",
+   "en": "naval_mines_effect_reduction = 0.3"
+  },
+  {
+   "k": "1xf1ieq",
+   "en": "naval_morale"
+  },
+  {
+   "k": "14wwo2f",
+   "en": "Modifies the navy recovery rate."
+  },
+  {
+   "k": "1aikpyx",
+   "en": "naval_morale = 15"
+  }
+ ]
+}

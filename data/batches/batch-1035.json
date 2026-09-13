@@ -1,0 +1,705 @@
+{
+ "batch": 1035,
+ "pages": [
+  "Technology modding"
+ ],
+ "chars": 14501,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "8yt3px",
+   "en": "Technologies can be used to apply ⟦0⟧ and static ⟦1⟧ towards the country researching them. Additionally, technologies can unlock equipment, enable buildings to be built up to a specified level, as well as modifying the stats of the units of the country. Doctrines, while no longer researched as technologies, are still considered technologies in the in-game code, although there are some differences in their required definitions.",
+   "frags": 2
+  },
+  {
+   "k": "1yrfzhh",
+   "en": "effects"
+  },
+  {
+   "k": "i2bme1",
+   "en": "modifiers"
+  },
+  {
+   "k": "1pn4yfq",
+   "en": "Technologies themselves are defined in ⟦0⟧ files, while their categories and folders are defined in ⟦1⟧ files. The ⟦2⟧ where the technology tree is defined is ⟦3⟧, requiring edits for each new technology folder or branch within the folder. ⟦4⟧, unless the new technology requires an existing base game technology with an existing path.",
+   "frags": 5
+  },
+  {
+   "k": "gdz6ad",
+   "en": "/Hearts of Iron IV/common/technologies/*.txt"
+  },
+  {
+   "k": "ixxtud",
+   "en": "/Hearts of Iron IV/common/technology_tags/*.txt"
+  },
+  {
+   "k": "1etk36k",
+   "en": "graphical user interface file"
+  },
+  {
+   "k": "1u2dmqo",
+   "en": "/Hearts of Iron IV/interface/countrytechtreeview.gui"
+  },
+  {
+   "k": "q3r4qa",
+   "en": "This is mandatory to edit in order for new technologies to show up"
+  },
+  {
+   "k": "vars85",
+   "en": "Brief user interface"
+  },
+  {
+   "k": "1dyy9kw",
+   "en": "⟦0⟧ and ⟦1⟧ in particular define the ⟦2⟧ of technology folders as well as the items within them. In particular, this exactly is included in the interface files:",
+   "frags": 3
+  },
+  {
+   "k": "1y6d4ug",
+   "en": "/Hearts of Iron IV/interface/countrytechtreeview.gfx"
+  },
+  {
+   "k": "1u20bcv",
+   "en": "appearance"
+  },
+  {
+   "k": "7ku9wt",
+   "en": "Technology branches – a series of technologies connected with the ⟦0⟧ argument, being defined in the interface by a gridboxType formatted after the first technology that doesn't have a path defined to it. ⟦1⟧, as ⟦2⟧ assigns the gridbox of the parent to the linked technology. In particular, these are defined within a branch: The position of the first technology in the branch, or rather the position of point (0, 0) in the coordinate system used to position the technologies in the branch. The offset in pixels to use a singular unit when positioning technologies. This is in contrast to national focuses, where the offset used as a singular unit is consistent across different focus trees. The orientation to use for drawing paths as to make it look like it's going down, right, or a different direction.",
+   "frags": 3
+  },
+  {
+   "k": "osgsyp",
+   "en": "path = { ... }"
+  },
+  {
+   "k": "12h19yy",
+   "en": "This is mandatory for a technology to show up if it doesn't require any other technology"
+  },
+  {
+   "k": "10rsgfq",
+   "en": "path"
+  },
+  {
+   "k": "ozmfk9",
+   "en": "The position of the first technology in the branch, or rather the position of point (0, 0) in the coordinate system used to position the technologies in the branch."
+  },
+  {
+   "k": "1urcogr",
+   "en": "The offset in pixels to use a singular unit when positioning technologies. This is in contrast to national focuses, where the offset used as a singular unit is consistent across different focus trees."
+  },
+  {
+   "k": "1tjolz4",
+   "en": "The orientation to use for drawing paths as to make it look like it's going down, right, or a different direction."
+  },
+  {
+   "k": "gjx0t4",
+   "en": "The items – the icons used for each technology, including the background box itself. ⟦0⟧ but it may also come to play in base game folders, such as with sub-technologies. This consists of the details for each element, in particular: The background box – which GFX is used. The GFX also decides the size. This in particular is done in the /Hearts of Iron IV/interface/countrytechtreeview.gfx file. The icon of the technology – the position on the box. Ahead-of-time/technology boost icons – the position on the box, the used font, the used GFX. The name of the technology – whether it should be displayed, and if it is: where to show it and with what font. Sub-technologies – where to position them in the tree, which GFX they use. Technology-specific icons don't exist for sub-technologies, instead using a set of indices.",
+   "frags": 1
+  },
+  {
+   "k": "12vm2ch",
+   "en": "This is mandatory to edit when creating new folders,"
+  },
+  {
+   "k": "mm9rcw",
+   "en": "The background box – which GFX is used. The GFX also decides the size. This in particular is done in the ⟦0⟧ file.",
+   "frags": 1
+  },
+  {
+   "k": "1otrpt",
+   "en": "The icon of the technology – the position on the box."
+  },
+  {
+   "k": "lzlfw0",
+   "en": "Ahead-of-time/technology boost icons – the position on the box, the used font, the used GFX."
+  },
+  {
+   "k": "1dyz4qq",
+   "en": "The name of the technology – whether it should be displayed, and if it is: where to show it and with what font."
+  },
+  {
+   "k": "2lsbay",
+   "en": "Sub-technologies – where to position them in the tree, which GFX they use. Technology-specific icons don't exist for sub-technologies, instead using a set of indices."
+  },
+  {
+   "k": "689yy7",
+   "en": "The tabs in the top of the tree allowing changing between technology folders. ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "12bmuyj",
+   "en": "This is mandatory to edit when creating new folders."
+  },
+  {
+   "k": "24oms0",
+   "en": "The standard ⟦0⟧. Anything that can be done with GUI can be done to a given folder, including but not limited to: Adding icons, including the background or the stripes highlighting technologies. This is done with an iconType. Adding text to be visible on the folder, such as the years showing when each technology stops being ahead-of-time. This is done with an instantTextboxType. Creating new container windows that scripted GUI can be linked to with their parent_window_name, allowing it.",
+   "frags": 1
+  },
+  {
+   "k": "114hh7k",
+   "en": "interface information about the tree"
+  },
+  {
+   "k": "niyynt",
+   "en": "Adding icons, including the background or the stripes highlighting technologies. ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1wdr6xf",
+   "en": "This is done with an iconType"
+  },
+  {
+   "k": "14mjnt6",
+   "en": "Adding text to be visible on the folder, ⟦0⟧. ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "9zbh3i",
+   "en": "such as the years showing when each technology stops being ahead-of-time"
+  },
+  {
+   "k": "1d0la9l",
+   "en": "This is done with an instantTextboxType"
+  },
+  {
+   "k": "1bugm7u",
+   "en": "Creating new ⟦0⟧ that ⟦1⟧ can be linked to with their ⟦2⟧, allowing it.",
+   "frags": 3
+  },
+  {
+   "k": "1h425z9",
+   "en": "container windows"
+  },
+  {
+   "k": "197y8hw",
+   "en": "scripted GUI"
+  },
+  {
+   "k": "1f7idq4",
+   "en": "parent_window_name"
+  },
+  {
+   "k": "jarvql",
+   "en": "For exact technical details, see the ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1mcmsb9",
+   "en": "Graphical User Interface section"
+  },
+  {
+   "k": "16mep1j",
+   "en": "Technologies"
+  },
+  {
+   "k": "1pzp8d0",
+   "en": "Each technology is located within ⟦0⟧ files, within the ⟦1⟧ block traditionally encompassing the entire contents of the file. Like most files, the filename has no bearing on how the file is read: any technology can be in any folder without issues. Each technology is a separate block within ⟦2⟧, where the name of the block is used as a technology ID.",
+   "frags": 3
+  },
+  {
+   "k": "ld7aeg",
+   "en": "technologies = { ... }"
+  },
+  {
+   "k": "rdh136",
+   "en": "In general, a technologies file is laid out similarly to the following example:"
+  },
+  {
+   "k": "1yxhahc",
+   "en": "Each technology is hidden by default, requiring special code to be put within GUI. However, AI can still research technology even if it's hidden, so ⟦0⟧ if it's intended to be hidden. A technology can be researched as an effect with ⟦1⟧ and unresearched with ⟦2⟧, with ⟦3⟧ possibly being added in order to remove the notification given to the player. Note that while it is possible to unresearch technologies, this does not always work properly: this can fail to unresearch technologies that are mutually exclusive with other technologies and doesn't work properly ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "k4bmch",
+   "en": "it should be made impossible to research manually"
+  },
+  {
+   "k": "9pue9a",
+   "en": "set_technology = { my_technology_1 = 1 }"
+  },
+  {
+   "k": "1ej5uk9",
+   "en": "set_technology = { my_technology_1 = 0 }"
+  },
+  {
+   "k": "y9cpp5",
+   "en": "popup = no"
+  },
+  {
+   "k": "1f8vvm2",
+   "en": "those that unlock database objects"
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "1d7xn64",
+   "en": "See also: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1lc27i5",
+   "en": "There are two types of trigger blocks used in technologies. ⟦0⟧ is a trigger block checked continuosly throughout the game. If it is false, then the technology will be impossible to research through the research menu, but it will still remain possible to research via an effect and it will remain visible in the menu. This is typically ⟦1⟧ for hidden technologies in order to prevent AI from researching it.",
+   "frags": 2
+  },
+  {
+   "k": "tmojdx",
+   "en": "allow = { ... }"
+  },
+  {
+   "k": "1vw1hkl",
+   "en": "set to be never true"
+  },
+  {
+   "k": "el80fm",
+   "en": "⟦0⟧ is a trigger block that, instead, needs to be met in order for the technology to be visible. If it's not met, then any technology connected to it via ⟦1⟧ will also become invisible. If it's met, AI will also not be able to select the technology to research.",
+   "frags": 2
+  },
+  {
+   "k": "trch8o",
+   "en": "allow_branch = { ... }"
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "1lbys1s",
+   "en": "Each ⟦0⟧ is allowed to be put directly within the technology, and these will apply to the country after researching the technology. This will look as such:",
+   "frags": 1
+  },
+  {
+   "k": "y9p1hh",
+   "en": "country-scoped modifier"
+  },
+  {
+   "k": "1vq73f8",
+   "en": "This particular technology will grant +10% ⟦0⟧ gain and +20% resource extraction efficiency when researched.",
+   "frags": 1
+  },
+  {
+   "k": "hb2mn1",
+   "en": "Political Power"
+  },
+  {
+   "k": "1jljml6",
+   "en": "In addition, it's also possible to make a technology apply a bonus for specific sub-units making up land templates, ships, and the airforce. These sub-units are defined in ⟦0⟧ files. Technologies can make the bonus apply to either the sub-unit types themselves, or the categories they fall in, defined in ⟦1⟧ and specified in the sub-unit definitions. Any modifier defined within the sub-unit definitions or the equipment archetypes used by them can be applied to units, which'll apply as a multiplicative modifier towards them. It is also possible to apply this effect only on a certain terrain. This is done by putting the terrain within the scope of the sub-unit type or category. Each terrain is defined in ⟦2⟧. In addition to these terrains, ⟦3⟧ gets used for naval invasions and ⟦4⟧ gets used for river crossings. For example, the following code will increase the naval speed of destroyer-type ships by 10%, decrease the combat width of all sub-units in the category of category_all_infantry by 20%, and increase the attack of the same category when fighting in urban terrain by 15% when the technology is researched:",
+   "frags": 5
+  },
+  {
+   "k": "1ohg4hg",
+   "en": "/Hearts of Iron IV/common/units/*.txt"
+  },
+  {
+   "k": "9cinjl",
+   "en": "/Hearts of Iron IV/common/unit_tags/*.txt"
+  },
+  {
+   "k": "1lovtvu",
+   "en": "/Hearts of Iron IV/common/terrain/*.txt"
+  },
+  {
+   "k": "smxi4s",
+   "en": "amphibious"
+  },
+  {
+   "k": "jizlsh",
+   "en": "river"
+  },
+  {
+   "k": "173asma",
+   "en": "⟦0⟧ can also be used in order to make the modifiers show up in the description of the technology itself rather than in the tooltip showing up when hovering over the technology. Notably, this also applies to the effects of the technology.",
+   "frags": 1
+  },
+  {
+   "k": "puqhd7",
+   "en": "show_effect_as_desc = yes"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "djmnn6",
+   "en": "An effect block ran for the country that unlocked the equipment is ⟦0⟧. These effects will be run for the country and they will show up in the tooltip of the technology so that the player is aware of them. ⟦1⟧ WILL run for techs unlocked through effect, but NOT on techs that a country unlocks in its history file.",
+   "frags": 2
+  },
+  {
+   "k": "1bo9855",
+   "en": "on_research_complete = { ... }"
+  },
+  {
+   "k": "8b2xdm",
+   "en": "Additionally, ⟦0⟧ serves as a trigger block necessary to be fulfilled for the effects to be executed. This would be necessary to set if it is possible for the entire ⟦1⟧ to either be visible or invisible depending on circustances, as the game handles generating the tooltip poorly in this circustance. If nothing within ⟦2⟧ grants a tooltip or there's always something showing a tooltip, it is not necessary to set ⟦3⟧ This is an example of a tech with ⟦4⟧:",
+   "frags": 5
+  },
+  {
+   "k": "jcdwp",
+   "en": "on_research_complete_limit = { ... }"
+  },
+  {
+   "k": "734ie6",
+   "en": "on_research_complete_limit"
+  },
+  {
+   "k": "10932h6",
+   "en": "⟦0⟧ can also be used in order to make the effects show up in the description of the technology itself rather than in the tooltip showing up when hovering over the technology. Notably, this also applies to the modifiers of the technology.",
+   "frags": 1
+  },
+  {
+   "k": "1ore9q1",
+   "en": "Enabling objects"
+  },
+  {
+   "k": "1hx11w3",
+   "en": "Several database objects can be set to be unlocked by a technology, including equipment types, equipment modules, sub-units, and buildings. If the database object is not set to be unlocked by any technology in general, it'll be always possible to select it, while putting them in a technology will require the technology. This can be used to set these to be country-specific, such as the bicycle battalions for ⟦0⟧ and ⟦1⟧, if they're within a hidden technology only set for specific countries in their history files or other effect blocks. If one of these database objects is locked behind technology, it won't be possible to force a country to use them without having the technology: equipment variants or orders of battle will fail to be created with the specified type.",
+   "frags": 2
+  },
+  {
+   "k": "rxz7u3",
+   "en": "Netherlands"
+  },
+  {
+   "k": "193rgu3",
+   "en": "Japan"
+  },
+  {
+   "k": "1ilzzs5",
+   "en": "Equipment types are assigned with ⟦0⟧, with each equipment type within listed separated with any non-zero amount of whitespace characters. For example, ⟦1⟧ will set my_equipment_1 and my_equipment_2 to only be enabled after the technology was researched. Unique to equipment, this will also make the equipment icon be a copy from the technology icon, unless an equipment-specific icon was created in the ⟦2⟧ format.",
+   "frags": 3
+  },
+  {
+   "k": "tzsw6l",
+   "en": "enable_equipments = { ... }"
+  },
+  {
+   "k": "zsbrf4",
+   "en": "enable_equipments = { my_equipment_1 my_equipment_2 }"
+  },
+  {
+   "k": "jmy55f",
+   "en": "GFX_<equipment type>_medium"
+  },
+  {
+   "k": "1ov4t3v",
+   "en": "Sub-units are done with ⟦0⟧, and modules - with ⟦1⟧, with the same formatting as for equipment types: whitespace-separated entries within to set them to be unlocked.",
+   "frags": 2
+  },
+  {
+   "k": "70j0fp",
+   "en": "enable_subunits = { ... }"
+  },
+  {
+   "k": "1fji0bg",
+   "en": "enable_equipment_modules = { ... }"
+  },
+  {
+   "k": "gl4q9f",
+   "en": "Buildings are done with ⟦0⟧. However, the formatting in this case is different: the building is specified with ⟦1⟧ and the level with ⟦2⟧. In particular, the level will not unlock this many levels of the building, but unlock the building to be built ⟦3⟧ that level. For instance, if the building was already unlocked to level 2 from a technology researched beforehand, researching a technology with ⟦4⟧ will result in it being possible to construct up to 5 of the building in the state/province rather than 7. A full example:",
+   "frags": 5
+  },
+  {
+   "k": "nok83c",
+   "en": "enable_building = { ... }"
+  },
+  {
+   "k": "i0fvsx",
+   "en": "building = my_building"
+  },
+  {
+   "k": "pjlxqz",
+   "en": "level = 3"
+  },
+  {
+   "k": "22hthl",
+   "en": "up to"
+  },
+  {
+   "k": "r7jjwt",
+   "en": "level = 5"
+  },
+  {
+   "k": "watmnj",
+   "en": "Uniquely, it's possible to still construct buildings that aren't yet unlocked via technologies by using an ⟦0⟧ or with the starting buildings in the ⟦1⟧. This can build up to the max level specified in the ⟦2⟧. This is because the buildings are set for states themselves, and implementing it otherwise can cause buildings to be lost if the state control goes to a country that doesn't have the building researched. If desiring to make multiple buildings be unlocked by the same technology, another ⟦3⟧ block can be set in the technology. ⟦4⟧ set within the ⟦5⟧.",
+   "frags": 6
+  },
+  {
+   "k": "un2mhg",
+   "en": "effect"
+  },
+  {
+   "k": "qnt1ta",
+   "en": "state's history file"
+  },
+  {
+   "k": "1ccv2rp",
+   "en": "building definition itself"
+  },
+  {
+   "k": "1wt86fx",
+   "en": "The level within the technology cannot be higher than the building's max level"
+  },
+  {
+   "k": "1sg324t",
+   "en": "⟦0⟧ is also used to enable a combat tactic for the country that may be chosen during a land battle. These tactics are defined within ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1lyo0l7",
+   "en": "enable_tactic = my_tactic"
+  },
+  {
+   "k": "ymm484",
+   "en": "/Hearts of Iron IV/common/combat_tactics.txt"
+  },
+  {
+   "k": "1ypayi1",
+   "en": "When unresearched via an effect, this doesn't work entirely properly, rather, the database object in question will remain possible to use for the country until a restart of the game. For this reason, it's better to avoid unresearching technologies such as this and treat these database objects as being granted for forever without being possible to take away."
+  },
+  {
+   "k": "9a33wg",
+   "en": "Hidden technology examples"
+  },
+  {
+   "k": "3ihhxm",
+   "en": "The text in this section has been collapsed by default."
+  },
+  {
+   "k": "43jbi",
+   "en": "technologies = { my_technology_1 = { allow = { always = no } political_power_factor = 0.2 enable_building = { building = industrial_complex level = 20 } } my_technology_2 = { allow = { always = no } marine = { amphibious = { attack = 0.2 } } enable_equipments = { infantry_equipment_0 } enable_equipment_modules = { ship_extra_fuel_tank } enable_subunits = { marine } } my_technology_3 = { allow = { always = no } on_research_complete_limit = { has_political_power < 100 } on_research_complete = { add_political_power = 100 } } }"
+  },
+  {
+   "k": "1xa0wv8",
+   "en": "Name and icon"
+  },
+  {
+   "k": "kaioqz",
+   "en": "The name of the technology for the specified language is set by using the technology's ID as the localisation key, with description by appending ⟦0⟧ in the end. For example, this can be used as localisation for the English language within any ⟦1⟧ file for ⟦2⟧:",
+   "frags": 3
+  },
+  {
+   "k": "1sa4fyn",
+   "en": "_desc"
+  },
+  {
+   "k": "1hl77c0",
+   "en": "/Hearts of Iron IV/localisation/english/*_l_english.yml"
+  },
+  {
+   "k": "1g23xo6",
+   "en": "my_technology_1"
+  },
+  {
+   "k": "1283po4",
+   "en": "l_english"
+  },
+  {
+   "k": "18nzfbn",
+   "en": "\"My"
+  },
+  {
+   "k": "17hem7r",
+   "en": "technology\""
+  },
+  {
+   "k": "cv5vae",
+   "en": "my_technology_1_desc"
+  },
+  {
+   "k": "i1rlo1",
+   "en": "technology's"
+  },
+  {
+   "k": "1nem3v5",
+   "en": "description\""
+  }
+ ]
+}

@@ -1,0 +1,811 @@
+{
+ "batch": 958,
+ "pages": [
+  "Patch 1.13.X"
+ ],
+ "chars": 14951,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1mq3kgm",
+   "en": "Fixed bug where AI was so concentrated on constructing buildings in territory they didn't control that they forgot to build other things. (looking at you, democratic Germany)."
+  },
+  {
+   "k": "1xf1gti",
+   "en": "Fixed a bug that caused Germany to research airplane modules when they actually wanted to research radar."
+  },
+  {
+   "k": "1vdw2je",
+   "en": "AI strategy 'research_tech' can now take technology name as argument instead of only technology index (which was bug-prone)."
+  },
+  {
+   "k": "9i3jzd",
+   "en": "Fixed the auto unassignment of MIOs on production line when over task capacity."
+  },
+  {
+   "k": "121lica",
+   "en": "The game will now warn you on startup if you forget to setup a port building in the nudger for a coastal province."
+  },
+  {
+   "k": "bpme5d",
+   "en": "Added optional 'mark_older_equipment_obsolete' argument to add_equipment_variant effect."
+  },
+  {
+   "k": "ge7nj5",
+   "en": "Added debug IMGUI for seeing music player information."
+  },
+  {
+   "k": "10n0u4g",
+   "en": "Added documentation.info file to ai_templates folder."
+  },
+  {
+   "k": "1hgmf7g",
+   "en": "Fixed description of the focus Keepers of the North to emphasize the \"Nordic\" aspect of it."
+  },
+  {
+   "k": "ki5lxl",
+   "en": "Fixed the typos in tooltips related to International Market content."
+  },
+  {
+   "k": "6y0eur",
+   "en": "Added an event to proclaim Greater Denmark as well as events for Denmark to join democratic or imperial Germany."
+  },
+  {
+   "k": "it34m8",
+   "en": "Sweden is no longer known as Sweden when doing RK Nordland and The New Order."
+  },
+  {
+   "k": "v8zsga",
+   "en": "Fix a bug where resources from overseas colonies do not need convoys to be transported."
+  },
+  {
+   "k": "ugoh6x",
+   "en": "Fixed Steal Industrial Blueprints operations that were giving twice the tech bonuses."
+  },
+  {
+   "k": "chyers",
+   "en": "Fixed missing land policies for some tank MIO's."
+  },
+  {
+   "k": "avhoie",
+   "en": "Fixed issue that made Polish Foreign MIOs disappear after completing the focus Adaptive Designs."
+  },
+  {
+   "k": "5lu5nx",
+   "en": "Fix of bug where exiled templates and units were not transferred to host after the exile government ceased to exist."
+  },
+  {
+   "k": "qtsniw",
+   "en": "Implemented Norwegian tank and plane icons into the tank and plane designers."
+  },
+  {
+   "k": "1jgwil5",
+   "en": "Fixed Rikstanken icon when creating the equipment variant."
+  },
+  {
+   "k": "ngu0ee",
+   "en": "Added a version of the Danish 'Declaration of Neutrality' National Spirit for when 'By Blood Alone' is not activated. Also fixed the focus 'Securing Swedish Steel' so that Denmark doesn't puppet Sweden without sending the appropriate event."
+  },
+  {
+   "k": "aq7rt2",
+   "en": "Fix crash on Mac & Linux when adding Traits to MIO queue."
+  },
+  {
+   "k": "qc7x67",
+   "en": "Fixed a tooltip showing the wrong number for overlord drift in all languages."
+  },
+  {
+   "k": "7tni0e",
+   "en": "Showing obsolete branches will no longer overlap each other and the appropriate focuses are no longer available if you are a subject."
+  },
+  {
+   "k": "1a1sy29",
+   "en": "Fixed several issues with description texts for events and focuses for Denmark."
+  },
+  {
+   "k": "7kkjxe",
+   "en": "Added a decision to request the return of Greenland from the USA, as well as tweaked the decision to request the return of the Faroes from the UK."
+  },
+  {
+   "k": "1qpy92g",
+   "en": "Sweden: Made Rickard Sandler remove neutrality spirit, and simplified his requirements."
+  },
+  {
+   "k": "2gfqxa",
+   "en": "Sweden: Swedish volunteer corps no longer gives equipment to Finland if at war with Finland."
+  },
+  {
+   "k": "1b3adul",
+   "en": "Sweden: Fixed an issue where Germany would not blow up Swedish factories if Sweden picked Allow Landsverk to operate independently, also added a less confusing string."
+  },
+  {
+   "k": "5clm3k",
+   "en": "Fixed a rare crash when an army group is deleted due to losing the last units in its armies."
+  },
+  {
+   "k": "qdqshd",
+   "en": "Fix Divisions reinforcement, now they will be reinforced with equipment with better MIO bonuses."
+  },
+  {
+   "k": "g1f3pz",
+   "en": "Finland: Join Comintern Focus name is now more dynamic."
+  },
+  {
+   "k": "u8r7z",
+   "en": "Fix for the magic school bus counting days badly."
+  },
+  {
+   "k": "1xzqby2",
+   "en": "Finland: Join Allies Focus name is now more dynamic."
+  },
+  {
+   "k": "jap7vd",
+   "en": "Finland: Join Axis Focus name is now more dynamic."
+  },
+  {
+   "k": "10f2881",
+   "en": "Fix of exploit where players in coop could get back more equipment from the market stockpile than stored there."
+  },
+  {
+   "k": "6swl97",
+   "en": "Finland: Minor tooltip improvements for Foreign Armor and Foreign Aircraft focuses."
+  },
+  {
+   "k": "1ai5991",
+   "en": "Finland: The tooltip of the focus Approach the Soviets will no longer mention the Finnish civil war if it has already happened."
+  },
+  {
+   "k": "1mjcuv9",
+   "en": "Finland: Finnish AI will no longer accept the Soviet territorial demands in the Soviet Ultimatum when historical focus is on, unless they are a Soviet ally or puppet."
+  },
+  {
+   "k": "nerjwc",
+   "en": "Added several new state and province names if Denmark (or another \"viking\" nation\") controls certain states."
+  },
+  {
+   "k": "yu8bqy",
+   "en": "Baltics: Estonian and Latvian AIs should no longer cave in to the Soviets on historical setting, ensuring now that they will be totally integrated by the Soviet AI on historical."
+  },
+  {
+   "k": "1oxxh1n",
+   "en": "Fixed the bug where showing subsidy tooltip could cause an out of sync."
+  },
+  {
+   "k": "ehd8lw",
+   "en": "Finland: Focus Mineral Wealth Development will no longer require Finland to be in a faction, but to control (or have a puppet controlling) any Nordic state producing steel, chromium, tungsten or aluminum."
+  },
+  {
+   "k": "1vv6quw",
+   "en": "Finland: Fixed scope issues in the event chain triggered by Mineral Wealth Development, where it looked like Finland would receive Finnish aid and that Finland would grant resource rights to Finland on a state in exchange. Now the appropriate faction leader should be displayed in the events, and the events would only be triggered if Finland is in a faction but is not the faction leader."
+  },
+  {
+   "k": "1aqmo1w",
+   "en": "MIO: Soviet naval MIOs will no longer have both Man the Guns and NO-Man-the-Guns versions of Plant 370 and Mariupol Plant traits when Man the Guns is not active."
+  },
+  {
+   "k": "9olagd",
+   "en": "Finland: Fix typo in tooltip in the focus A Cry for Help."
+  },
+  {
+   "k": "1jw1u42",
+   "en": "MIO: Soviet MIO traits can no longer be taken more than once by different MIOs. Each trait can now be completed once by a single MIO."
+  },
+  {
+   "k": "1bifxe0",
+   "en": "Heavy gantry crane policy now targets the correct aircraft and MIOs."
+  },
+  {
+   "k": "fqozsn",
+   "en": "Norway: Norsk Hydro now has the Industry filter tag."
+  },
+  {
+   "k": "iqvfp",
+   "en": "Norway: Removed Political Filter tag from 'Expand Military Industry'."
+  },
+  {
+   "k": "17l30q3",
+   "en": "Balanced the AI weights for countries to accept a Danish event to join factions."
+  },
+  {
+   "k": "ulk98k",
+   "en": "Fixed crash when canceling a production line while MIO Roster screen is opened."
+  },
+  {
+   "k": "lvgfzy",
+   "en": "Jan Mayen rises to its rightful place on the world stage!"
+  },
+  {
+   "k": "9m6ycq",
+   "en": "Norway: Custom decision costs now have the icons in the right position."
+  },
+  {
+   "k": "fkb62u",
+   "en": "Sweden: Fixed several issues with the Narvik solution."
+  },
+  {
+   "k": "vo2xml",
+   "en": "Sweden: Fixed an issue where severe lack of ammunition would not give the proper maluses."
+  },
+  {
+   "k": "1kneev9",
+   "en": "Sweden: Swedish volunteer corps can no longer be taken while at war with Finland."
+  },
+  {
+   "k": "1ezjz08",
+   "en": "Sweden: Scania Vabis Armored Car MIO is now LaR DLC locked."
+  },
+  {
+   "k": "1xof3d2",
+   "en": "Greece: Stratagems no longer show for all countries."
+  },
+  {
+   "k": "1xmsyku",
+   "en": "Norway: Fixed various missing capitalizations in focuses."
+  },
+  {
+   "k": "ivcen7",
+   "en": "Norway: Power to the Royal Guard now gives proper bonuses to Special Forces."
+  },
+  {
+   "k": "1s4oe9w",
+   "en": "Norway: Doctrine tooltips now provide the name for Offensive Doctrines national focus bonuses."
+  },
+  {
+   "k": "1aeg7tr",
+   "en": "Norway: Doctrine tooltips now provide name for Rikstaken national focus bonuses."
+  },
+  {
+   "k": "15mw4j9",
+   "en": "If Denmark becomes a puppet through their National Spirit \"Declaration of Neutrality\" they will not be able to join a faction until the right criteria are met.."
+  },
+  {
+   "k": "12j1fg8",
+   "en": "Installing a plenipotentiary in puppet Denmark will no longer switch out the overlord's country leader."
+  },
+  {
+   "k": "1amgk5x",
+   "en": "Tweaked AI weights for some Occupation Balance of Power Decisions for Denmark."
+  },
+  {
+   "k": "1gl6p0n",
+   "en": "Sweden: Added localization improvements for Rationing decisions and fixed a bug where Gengas would repeat its timeout mission."
+  },
+  {
+   "k": "1m7o6c1",
+   "en": "Sweden: Fixed several lowercase errors that should have been uppercase."
+  },
+  {
+   "k": "82sk19",
+   "en": "Denmark no longer switches ideologies before installing overlord's plenipotentiary."
+  },
+  {
+   "k": "4lzrjf",
+   "en": "Adjusted some incorrect Special Forces Cap modifiers in Norway, Switzerland and the Joint Focus Tree."
+  },
+  {
+   "k": "a7fnx8",
+   "en": "Norway: Fixed issue where Quisling coup branch wouldn't hide when going monarchist."
+  },
+  {
+   "k": "k7euku",
+   "en": "Norway: Fixed issue where Trotsky would go to the Democratic side when the Communist civil war starts."
+  },
+  {
+   "k": "j5mimr",
+   "en": "Production Output bonus now works correctly."
+  },
+  {
+   "k": "1i88jmp",
+   "en": "Fixed a bug where Preemptive Invasion of Iran focus of Soviet Union caused Finland to be attacked by Allies."
+  },
+  {
+   "k": "ec9fpf",
+   "en": "Sweden: Fixed the wrong icon being used for Swedish Trucks in the production line."
+  },
+  {
+   "k": "bbayv0",
+   "en": "Sweden: Liquidate the Monarchy will now liquidate the Monarchy by removing the king advisor as it is supposed to."
+  },
+  {
+   "k": "16uiwmt",
+   "en": "Sweden: Random AI now disallows achievement #SwedishBiasCorrected."
+  },
+  {
+   "k": "wl88g9",
+   "en": "Sweden: Joining the Anti Soviet pact targets all Soviets countries they have the big Soviet Kerfuffle."
+  },
+  {
+   "k": "i0hwp1",
+   "en": "Sweden: Fixed some spirit issues with the 39 start bookmark."
+  },
+  {
+   "k": "7sgi8a",
+   "en": "Norway: Added a way to remove Christian Laake as the Norwegian Fascists."
+  },
+  {
+   "k": "1xv2fly",
+   "en": "Changed music player shuffle algorithm to weighted random (but avoiding recently played songs)."
+  },
+  {
+   "k": "5vb912",
+   "en": "Denmark: Field Marshal William Wain Prior's name is now visible."
+  },
+  {
+   "k": "1vkp8q1",
+   "en": "Denmark: Tweaked AI weights to make the AI more likely to do certain occupation decisions and event options."
+  },
+  {
+   "k": "1kcy248",
+   "en": "Forming either the North Sea or the Baltic Sea Empires now only requires that you control the Mainland of Denmark and only gives you cores on Mainland Denmark."
+  },
+  {
+   "k": "353xc7",
+   "en": "Added a custom truck production icon for Denmark."
+  },
+  {
+   "k": "11tcrmo",
+   "en": "Added \"Will lead to war\" warnings several Danish focuses."
+  },
+  {
+   "k": "vjir2f",
+   "en": "Fixed tooltip saying player could naval transfer to shoreline province without naval base."
+  },
+  {
+   "k": "ua3crv",
+   "en": "Fixed use-after-free that could lead to CTD on end of peace conference."
+  },
+  {
+   "k": "1qimqlt",
+   "en": "Fixed CTD on resync when international market is open."
+  },
+  {
+   "k": "rqpvia",
+   "en": "Fixed stat issue with tank designer comparison."
+  },
+  {
+   "k": "1wop1k6",
+   "en": "Fixed repair tooltips estimated time of completion."
+  },
+  {
+   "k": "tu60hw",
+   "en": "Allow factory conversion map icon during construction view."
+  },
+  {
+   "k": "11cmtf3",
+   "en": "Norway: Trotsky finally goes to the correct side of the Communist civil War."
+  },
+  {
+   "k": "eelwau",
+   "en": "Fixed production penalty modifier signedness. Can't be penalized from modifier without having penalty."
+  },
+  {
+   "k": "1fpxe4f",
+   "en": "Add mutually exclusive icons only if the trait is visible."
+  },
+  {
+   "k": "29l2x3",
+   "en": "Fixed CTD on steam callback during session change."
+  },
+  {
+   "k": "1o09h62",
+   "en": "Fixed issue with disabling music track enable button."
+  },
+  {
+   "k": "tw1evj",
+   "en": "Norway: Alt Democratic preparations decisions now take time to complete as intended."
+  },
+  {
+   "k": "few3bs",
+   "en": "MIO: Fixed the research category of the Submarine MIO so that it can be assigned to research of Submarine tech and related modules only."
+  },
+  {
+   "k": "1cfyloq",
+   "en": "Sweden: NDC no longer transfers its puppets’ armies to Sweden but creates 5 elite divisions for every NDC member joined, to avoid teleporting armies."
+  },
+  {
+   "k": "16vj0fh",
+   "en": "Sweden: Made it easier to invite members to the Scandinavian defense union."
+  },
+  {
+   "k": "fsgsbp",
+   "en": "Sweden: Fixed a bug where subjects would get the generic focus tree if puppeted."
+  },
+  {
+   "k": "knwv98",
+   "en": "Norway: Fixed issue where Fascist Branch would disappear if focus 'Arrest Quisling' was bypassed."
+  },
+  {
+   "k": "encluq",
+   "en": "Fixed the American handover of Greenland back to Denmark and the disappearing Greenland Patrol National Spirit."
+  },
+  {
+   "k": "lvrri2",
+   "en": "The Occupation Law National Spirit for Denmark will be removed when Denmark no longer is a subject no matter the circumstances."
+  },
+  {
+   "k": "wu0m88",
+   "en": "The Butter Front National Spirit will no longer disappear if the overlord controls mainland Denmark."
+  },
+  {
+   "k": "nayjj7",
+   "en": "Made the Telegram Crisis Event more likely to happen."
+  },
+  {
+   "k": "ex85y5",
+   "en": "Norway: Country-wide preparation decisions in preparation decisions for the Alt-democratic path will still be available during war, as long as there's Country Preparedness."
+  },
+  {
+   "k": "16cos30",
+   "en": "Norway: Made it less likely the Soviet Union will reject events sent from the Stalinist branch of the Focus Tree."
+  },
+  {
+   "k": "xutoc2",
+   "en": "Fix of bug where applying effect set_garrison_strength on state without resistance caused CTD."
+  },
+  {
+   "k": "1re4tc",
+   "en": "Fixed bug which led to players unlock mutually exclusive doctrines."
+  },
+  {
+   "k": "913isz",
+   "en": "Finland: If Arms Against Tyranny dlc is active, when Estonia causes the fascist civil war in Finland, the fascist side will get the Finnish focus tree if they win the civil war."
+  },
+  {
+   "k": "nzzqv4",
+   "en": "Denmark will now be able to join factions, drop their occupation name, and get their original Balance of Power through peace conferences if being released as independent during the right circumstances."
+  },
+  {
+   "k": "bsrhz7",
+   "en": "World tension modifiers for subjects now apply in both directions."
+  },
+  {
+   "k": "vc4qib",
+   "en": "Sweden: Fixed an issue where wargoal against the Baltics would expire."
+  },
+  {
+   "k": "1ru91fo",
+   "en": "Denmark's Focus Tree will now show all branches, including the Occupation Branch, if the setting to show obsolete branches are enabled and Denmark is a puppet."
+  },
+  {
+   "k": "1en8d5d",
+   "en": "Grumman smooth finish trait now affects CV light aircraft and naval bombers."
+  },
+  {
+   "k": "1nvmg5z",
+   "en": "Finland: Keepers of the North focus will now include Karelia if it exists, and states transferred to Finland via event will also get the compliance bonus promised in the focus."
+  },
+  {
+   "k": "1s8su17",
+   "en": "Norway - Fixed issue where Quisling has a generic portrait without Arms Against Tyranny DLC."
+  },
+  {
+   "k": "1u2ntyv",
+   "en": "Germany - Fixed issue where form Reichskommissariat Norwegen decision would require a Swedish State."
+  },
+  {
+   "k": "eq64j1",
+   "en": "Fixed issue where 'Operation Gunnerside' would not work with Arms Against Tyranny enabled."
+  },
+  {
+   "k": "1nna2z",
+   "en": "Denmark white peacing every nation its overlord is at war with when it becomes a puppet won't trigger the \"You Shall Not Pass\" achievement."
+  },
+  {
+   "k": "1t9d7e7",
+   "en": "Norway: Fixed issue in Monarchist Decisions where you should use National Interventions while demonstrating in states if more than one was active and any of them was completed earlier."
+  },
+  {
+   "k": "wmj9y8",
+   "en": "Norway: Fixed missing icon for 'Investing in Norway' National Spirit."
+  },
+  {
+   "k": "uuygu2",
+   "en": "Nordic Shared Focus Tree: Fixed missing icon for 'Economic Cooperation' National Spirit."
+  },
+  {
+   "k": "89ffsw",
+   "en": "Sweden: Fixed issue where supporting communist civil war in Norway causes the communist side to have a generic leader."
+  },
+  {
+   "k": "lwwhru",
+   "en": "Norway: Quisling will no longer trigger his coup if the country is in a civil war already, regardless of origin."
+  },
+  {
+   "k": "oaj7nr",
+   "en": "Removed World Tension limit to Rally the Nation for fascist Denmark."
+  },
+  {
+   "k": "9k9vm5",
+   "en": "Norway: Changed the Nasjonale Regjerings color so it's not so close to Soviet Union's red."
+  },
+  {
+   "k": "1csurk8",
+   "en": "Norway: Focus 'Reawaken the Permanent Revolution' now creates either the Norintern or the Joint Faction depending on conditions."
+  },
+  {
+   "k": "1etujfv",
+   "en": "Divisions can no longer get citation by performing paratroop order on own territory."
+  },
+  {
+   "k": "xxyozh",
+   "en": "Fixed marine commandos so they can retreat from coastal areas. Can click on province with naval port to move troops from a naval port. Marine commandos can now path to fallback lines."
+  },
+  {
+   "k": "q7b72l",
+   "en": "Patch 1.13.6 was released on 2023-12-12⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1btnrxc",
+   "en": "c998"
+  },
+  {
+   "k": "htqfe5",
+   "en": "reduced airframe weight curve for small airframes, with a higher effect at higher tiers"
+  },
+  {
+   "k": "1khseww",
+   "en": "increased air attack of lmg and hmg plane modules"
+  },
+  {
+   "k": "1cnt56k",
+   "en": "Finland: Tweaked AI weights for the Finnish decisions to surrender to Soviets or switch sides in the Continuation War so that Finland actually puts up a fight."
+  },
+  {
+   "k": "9cvxxq",
+   "en": "Fixed several issues with the Karelian Uprising triggered by Finland during the Soviet Civil War, the non-Stalinist side of the civil war receiving both the Karelian Uprising and National Uprising events about Karelia, Finland not always properly joining the war against the Soviet tags, and the non-Stalinist side of the Soviet civil war not being able to decide whether to declare war on Karelia (and Finland when appropriate) or be friendly to them."
+  },
+  {
+   "k": "1t4lml7",
+   "en": "Germany: Removed starting import trade from Sweden"
+  },
+  {
+   "k": "o1uv5q",
+   "en": "Can now press enter to accept a resource trade"
+  },
+  {
+   "k": "6gg172",
+   "en": "Fixed potential CTD encountered when removing all production lines"
+  },
+  {
+   "k": "16mp8v1",
+   "en": "Fixed visual bug when selecting ship refit production lines"
+  },
+  {
+   "k": "1g9fq45",
+   "en": "Added description to supply tooltip that increasing the infrastructure level increases base supply"
+  },
+  {
+   "k": "1os3a3c",
+   "en": "Replacing or upgrading MIO in Equipment Designer now updates the variant name"
+  },
+  {
+   "k": "qe1r37",
+   "en": "From now in international market the equipment cost will be rounded to 2 decimals ."
+  },
+  {
+   "k": "7v01la",
+   "en": "Stats in Equipment Designer will now update when unlocking new MIO traits depending on whether the Upgrade MIO button was pressed"
+  },
+  {
+   "k": "122i7g7",
+   "en": "MIO effect preview now works in legacy (non-modular) equipment designer"
+  },
+  {
+   "k": "dsin3a",
+   "en": "Legacy equipment designer will generate a new name for equipment if MIO upgrade is possible"
+  },
+  {
+   "k": "pku71y",
+   "en": "Add better debug info about AI research (in imgui ai_strategy window)"
+  },
+  {
+   "k": "lbz2bl",
+   "en": "Log error and prevent CTD when trying to display 3D model of a non-existent entity in the division designer view"
+  },
+  {
+   "k": "164gk7o",
+   "en": "Fix of bug where sometimes wrong 3d models of divisions were shown on map."
+  },
+  {
+   "k": "1ty1upf",
+   "en": "The decisions to form a Nordic Formable Nation are now mutually exclusive with each other"
+  },
+  {
+   "k": "rihc43",
+   "en": "Fixed errors in MIOs and production lines in the Japanese and Soviet OOBs when No Step Back dlc is not active."
+  },
+  {
+   "k": "l43z6a",
+   "en": "Implemented missing tank generic tank icons for Germany, Soviet Union and Italy in the tank designer."
+  }
+ ]
+}

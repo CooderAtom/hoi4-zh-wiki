@@ -1,0 +1,778 @@
+{
+ "batch": 425,
+ "pages": [
+  "Data structures"
+ ],
+ "chars": 14925,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "n0vxtn",
+   "en": "As far more advanced usage, it is possible to rig up the dummy tokenizable values with arbitrary localisation payloads that carry fragments of Clausewitz code which can then be pasted together in meta-effects (or triggers) to approximate true token string manipulation or at least concatenation, as there's presently no way to split strings, token or otherwise. This is probably most useful for encoding a set of suffixes that can be applied to an idea token to dynamically navigate within the custom datatype's naming scheme. For example, if the mod has a custom datatype representing positions within a government such as the Secretary of State and the Attorney General, such that it might have a base idea ⟦0⟧, a corresponding description idea (suffixed with ⟦1⟧), a singular name idea (suffixed with ⟦2⟧, carrying the name of the data value in singular form, like \"Attorney General\"), and a plural name idea (suffixed with ⟦3⟧, carrying the name in plural form, like \"Attorneys General\"), it is possible to select which name to use by having a dummy idea called ⟦4⟧ with the localisation value ⟦5⟧, and another called ⟦6⟧ with the localisation value ⟦7⟧. After that, the mod may pass one of the ⟦8⟧ ideas in a variable and then paste its ⟦9⟧ after the ⟦10⟧ of the base idea in a meta-effect/trigger to produce either ⟦11⟧ or ⟦12⟧. This is a contrived example, and is also possible to be done using a scripted localisation system with hard-coded entries to access the singular vs. plural ideas, but this approach has far more use in more complex systems where creating a scripted localisation file can prove to be far too bulky.",
+   "frags": 13
+  },
+  {
+   "k": "1qsxse2",
+   "en": "position_attorney_general"
+  },
+  {
+   "k": "1vhuu6o",
+   "en": "_description"
+  },
+  {
+   "k": "191f9eb",
+   "en": "_singular"
+  },
+  {
+   "k": "xcmhmo",
+   "en": "_plural"
+  },
+  {
+   "k": "15ttffg",
+   "en": "enum_position_name_singular"
+  },
+  {
+   "k": "1efquf7",
+   "en": "\"_singular\""
+  },
+  {
+   "k": "98hvw3",
+   "en": "enum_position_name_plural"
+  },
+  {
+   "k": "1m0i1y",
+   "en": "\"_plural\""
+  },
+  {
+   "k": "131bd2a",
+   "en": "enum_position"
+  },
+  {
+   "k": "2yyuvf",
+   "en": "token:position_attorney_general_singular"
+  },
+  {
+   "k": "nez608",
+   "en": "token:position_attorney_general_plural"
+  },
+  {
+   "k": "1szsrsd",
+   "en": "From 1.12 onwards, anything defined in ⟦0⟧ can be freely tokenized, even if defined in a totally custom enumeration block, seperate from the ones hard-coded into the game. It is therefore theoretically possible to define arbitrary tokens of a custom enum type in this file. However, for compatibility reasons, using ⟦1⟧ for custom enumeration types should be avoided, as this will ensure that the mod will not be compatible with any other mod that overwrites that file, no matter which mod gets priority on the file. As before, it's preferable to have a custom idea category with a set of dummy ideas in their own file that will not be overridden by other mods representing the values the custom enum can take on. This pattern is a useful replacement for passing around arbitrary integers that have some enumerable meaning when interpreted by code, especially if those integers are interpreted to yield names in scripted localisation, in which case this pattern can substantially remove the need for scripted localisation boilerplate by allowing defining the localised name for each enum member directly in a localisation file, as similarly to defining the localised name for an idea.",
+   "frags": 2
+  },
+  {
+   "k": "1ylofz3",
+   "en": "script_enums"
+  },
+  {
+   "k": "1sn3ctn",
+   "en": "Technically, any raw token used in the language can actually be tokenized: for instance, ⟦0⟧ (that is, a token literal of the name of the ⟦1⟧) is perfectly valid, and yields a token for which ⟦2⟧ and ⟦3⟧ both return ⟦4⟧. However, this is rarely useful (especially since it does not apply to scripted effect and trigger names), and arguably counts as a bug; it mostly just provides an interesting peek into the internals of the tokenization system, indicating that it most likely delegates to a pre-existing string de-duplication system built into the Clausewitz engine.",
+   "frags": 5
+  },
+  {
+   "k": "s6n7u0",
+   "en": "token:set_stability"
+  },
+  {
+   "k": "2u5o58",
+   "en": "set_stability effect"
+  },
+  {
+   "k": "1s4bfmn",
+   "en": "set_stability"
+  },
+  {
+   "k": "73eoci",
+   "en": "Modifier tokens"
+  },
+  {
+   "k": "ckrxj6",
+   "en": "This section is transposed from ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1l4dfhj",
+   "en": "Modifier definitions allow the creation of a custom modifier, which can be accessed as a variable when you wish to use it. After being defined, they function entirely like a new variable, being possible to read as a variable with the same ⟦0⟧ procedure. They will not have any effect by default and function only as a way to change the variable's value in an additive way with modifier blocks. Each modifier token is defined within ⟦1⟧ files as a separate code block, where the name of the code block serves as the ID of the modifier definition. There are the following arguments that can go inside of it:",
+   "frags": 2
+  },
+  {
+   "k": "1n9steh",
+   "en": "modifier@modifier_name"
+  },
+  {
+   "k": "16xbef3",
+   "en": "/Hearts of Iron IV/common/modifier_definitions/*.txt"
+  },
+  {
+   "k": "onusmr",
+   "en": "⟦0⟧ decides the colour of the modifier's value itself. There are three values, ⟦1⟧, ⟦2⟧, and ⟦3⟧. ⟦4⟧ is permamently yellow, while ⟦5⟧ turns the positive values ⟦6⟧ and negative values ⟦7⟧. ⟦8⟧ is the reversal of ⟦9⟧.",
+   "frags": 10
+  },
+  {
+   "k": "1c8h0lf",
+   "en": "color_type = good"
+  },
+  {
+   "k": "1xgxm1k",
+   "en": "good"
+  },
+  {
+   "k": "qu2kjc",
+   "en": "bad"
+  },
+  {
+   "k": "12xcnh4",
+   "en": "neutral"
+  },
+  {
+   "k": "b5mm4",
+   "en": "green"
+  },
+  {
+   "k": "i0tgik",
+   "en": "red"
+  },
+  {
+   "k": "19wa7nw",
+   "en": "⟦0⟧ decides the way the number will show up in the tooltip. There are the following values this argument can be set to: number will make the exact value of the modifier show up. 0.02 will show up like \"Modifier definition: 0.02\". percentage will make the modifier show up as a percentage on the scale from 0 to 1. 0.2 will show up like \"Modifier token: 20%\". percentage_in_hundred will make the modifier show up as a percentage on the scale from 0 to 100. 10 will show up like \"Modifier token: 10%\". yes_no shows up as a boolean: anything larger than 1 will shows up as yes, while 0 will show up as no.",
+   "frags": 1
+  },
+  {
+   "k": "1eo6a14",
+   "en": "value_type = percentage"
+  },
+  {
+   "k": "1mgxx0d",
+   "en": "⟦0⟧ will make the exact value of the modifier show up. 0.02 will show up like \"Modifier definition: 0.02\".",
+   "frags": 1
+  },
+  {
+   "k": "7q2940",
+   "en": "number"
+  },
+  {
+   "k": "1v2vsy5",
+   "en": "⟦0⟧ will make the modifier show up as a percentage on the scale from 0 to 1. 0.2 will show up like \"Modifier token: 20%\".",
+   "frags": 1
+  },
+  {
+   "k": "15zjyr9",
+   "en": "percentage"
+  },
+  {
+   "k": "du41pp",
+   "en": "⟦0⟧ will make the modifier show up as a percentage on the scale from 0 to 100. 10 will show up like \"Modifier token: 10%\".",
+   "frags": 1
+  },
+  {
+   "k": "sa1ici",
+   "en": "percentage_in_hundred"
+  },
+  {
+   "k": "mzaccy",
+   "en": "⟦0⟧ shows up as a boolean: anything larger than 1 will shows up as ⟦1⟧, while 0 will show up as ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "wp1dn6",
+   "en": "yes_no"
+  },
+  {
+   "k": "ltbyq8",
+   "en": "yes"
+  },
+  {
+   "k": "1q0bxro",
+   "en": "⟦0⟧ decides how many numbers will be shown after the period in the tooltip. For example, if it is set to 1, the tooltip will show 0.341 as if it was 0.3. Note that the game inherently does not support more than 3 decimal numbers, so it cannot be larger than 3.",
+   "frags": 1
+  },
+  {
+   "k": "10bh8hn",
+   "en": "precision = 1"
+  },
+  {
+   "k": "yv12bq",
+   "en": "⟦0⟧ decides what will be added after the value of the modifier in the tooltip. Allowed values are 'none' (Default), 'days', 'hours', and 'daily'.",
+   "frags": 1
+  },
+  {
+   "k": "1ia7jqa",
+   "en": "postfix"
+  },
+  {
+   "k": "1ol6g2i",
+   "en": "⟦0⟧ decides on the category of the modifier. By default, the category is 'all', which makes it be in every single category. Certain tooltips will only show modifiers if they belong to a certain category. It is possible to set multiple categories for the same modifier definition by defining them one after another.",
+   "frags": 1
+  },
+  {
+   "k": "1lhic1d",
+   "en": "category"
+  },
+  {
+   "k": "1nya6ul",
+   "en": "The allowed values are 'none', 'all', 'country', 'state', 'unit_leader', 'army', 'naval', 'air', 'peace', 'politics', 'ai', 'defensive', 'aggressive', 'war_production', 'military_advancements', 'military_equipment', 'autonomy', 'government_in_exile', and 'intelligence_agency'."
+  },
+  {
+   "k": "13cudmu",
+   "en": "The modifier definition's ID is also used as the ⟦0⟧ key needed to change the name of the modifier depending on the currently turned on language.",
+   "frags": 1
+  },
+  {
+   "k": "coj4nh",
+   "en": "localisation"
+  },
+  {
+   "k": "1dtivcn",
+   "en": "Using in variables"
+  },
+  {
+   "k": "152obro",
+   "en": "The function of modifier definitions is to modify the value of a game variable, which can be read by other variables. You can set a variable to be equal to the sum of all values of the same modifier token in the current scope by doing ⟦0⟧. This example will set var_name to be equal to the total value of modifier_token_name.",
+   "frags": 1
+  },
+  {
+   "k": "zj0ar9",
+   "en": "set_variable = { var_name = modifier@modifier_token_name }"
+  },
+  {
+   "k": "19g4r4c",
+   "en": "Note that, unlike countries and states, unit leaders use leader_modifier@modifier_definition_name or unit_modifier@modifier_definition_name in their scopes."
+  },
+  {
+   "k": "1j1coic",
+   "en": "Example usage of making a modifier token create civilian factories in random core states monthly, in any ⟦0⟧ file:",
+   "frags": 1
+  },
+  {
+   "k": "1jl1qqy",
+   "en": "on action"
+  },
+  {
+   "k": "sn7lfa",
+   "en": "on_actions = { on_monthly = { effect = { if = { limit = { check_variable = { modifier@modifier_definition_example > 0 } } for_loop_effect = { start = 0 end = modifier@modifier_definition_example random_owned_controlled_state = { limit = { is_core_of = ROOT free_building_slots = { building = industrial_complex size > 0 include_locked = no } } add_building_construction = { type = industrial_complex level = 1 instant_build = yes } } } } } } }"
+  },
+  {
+   "k": "14wbbvz",
+   "en": "Arrays"
+  },
+  {
+   "k": "1cqy14v",
+   "en": "Arrays are similar to variables, but they instead store a collection of variables. An array in the game is structured with indexes starting from 0. ⟦0⟧ as a variable refers to the first item of ⟦1⟧, ⟦2⟧ refers to the second item in the array, and so on. In order to obtain the total amount of items within the given array, ⟦3⟧ is used. An array is assumed to have no elements by default, if not already created, with ⟦4⟧ usually being used to create an array.",
+   "frags": 5
+  },
+  {
+   "k": "23rdk3",
+   "en": "arrayname^0"
+  },
+  {
+   "k": "ndckud",
+   "en": "arrayname"
+  },
+  {
+   "k": "1trrv4",
+   "en": "arrayname^1"
+  },
+  {
+   "k": "fhbq27",
+   "en": "arrayname^num"
+  },
+  {
+   "k": "21qj1p",
+   "en": "add_to_array or add_to_temp_array"
+  },
+  {
+   "k": "1y82v0q",
+   "en": "Temporary and regular arrays exist, with the same distinction between them as in variables: temp arrays can be set and modified in triggers and effects, are unscoped, and cleared after the effect/trigger block ends; regular arrays can only be set or modified in effects, are linked to a specific scope, and persist forever until cleared manually."
+  },
+  {
+   "k": "1njvr1z",
+   "en": "A single element of an array is considered a variable in every regard: ⟦0⟧ will set the first element to be equal to 10 (with ⟦1⟧ used for temporary arrays), ⟦2⟧ is also valid syntax, and ⟦3⟧ will print the value of the element in localisation. However, the element must already exist for it to be edited. ⟦4⟧, however a recursive scripted localisation can be used, which modifies the value of a temporary variable by one until hitting the array's size each time that it's used.",
+   "frags": 5
+  },
+  {
+   "k": "1knbrb9",
+   "en": "set_variable = { arrayname^0 = 10 }"
+  },
+  {
+   "k": "vfn24r",
+   "en": "set_temp_variable"
+  },
+  {
+   "k": "3j9j0a",
+   "en": "check_variable = { arrayname^0 > 10 }"
+  },
+  {
+   "k": "grj39w",
+   "en": "[?arrayname^0]"
+  },
+  {
+   "k": "f6cvhb",
+   "en": "There is no simple way to print an entire array in localisation"
+  },
+  {
+   "k": "19ai8fz",
+   "en": "Arguments"
+  },
+  {
+   "k": "11yce39",
+   "en": "The following arguments exist for arrays. Similarly to variables, temporary versions exist by replacing ⟦0⟧ with ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "12dwizq",
+   "en": "array"
+  },
+  {
+   "k": "1r5sbr9",
+   "en": "temp_array"
+  },
+  {
+   "k": "1ghoz7i",
+   "en": "add_to_array"
+  },
+  {
+   "k": "1pduwtd",
+   "en": "⟦0⟧ The array to modify. value = <decimal>/<variable> The variable to add. index = <integer> The index to place the variable on in the array. Optional, defaults to the end of the array.",
+   "frags": 1
+  },
+  {
+   "k": "1a7hlh8",
+   "en": "array = <array>"
+  },
+  {
+   "k": "jw7wqk",
+   "en": "index = <integer>"
+  },
+  {
+   "k": "lwkt0p",
+   "en": "add_to_array = { array = global.my_countries value = THIS.id } add_to_temp_array = { temp_states = THIS }"
+  },
+  {
+   "k": "19b9zri",
+   "en": "Adds an element to the array either at the specified index, defaulting to the end otherwise."
+  },
+  {
+   "k": "1c0f9ck",
+   "en": "add_to_array = { <array> = <value> }"
+  },
+  {
+   "k": "efcmpw",
+   "en": "remove_from_array"
+  },
+  {
+   "k": "1lsvnw8",
+   "en": "⟦0⟧ The array to modify. value = <decimal>/<variable> The variable to remove. Optional. index = <integer> The index to remove the variable from in the array. Optional.",
+   "frags": 1
+  },
+  {
+   "k": "14q1az9",
+   "en": "remove_from_array = { array = global.my_countries index = 0 } remove_from_temp_array = { temp_states = THIS }"
+  },
+  {
+   "k": "1e7b2na",
+   "en": "Removes an element from the array with the specified value or index."
+  },
+  {
+   "k": "10j5bzp",
+   "en": "Shortened version exists with ⟦0⟧. If neither value nor index are specified, then the last element is deleted.",
+   "frags": 1
+  },
+  {
+   "k": "rlxfeq",
+   "en": "remove_from_array = { <array> = <value> }"
+  },
+  {
+   "k": "6ttj0k",
+   "en": "clear_array"
+  },
+  {
+   "k": "3vm598",
+   "en": "⟦0⟧ The array to clear.",
+   "frags": 1
+  },
+  {
+   "k": "15ln7oq",
+   "en": "<array>"
+  },
+  {
+   "k": "s5qj2t",
+   "en": "clear_array = global.my_countries clear_temp_array = temp_states"
+  },
+  {
+   "k": "x3go1r",
+   "en": "Clears the array, removing every element inside."
+  },
+  {
+   "k": "4ps00r",
+   "en": "resize_array"
+  },
+  {
+   "k": "1tyz4gz",
+   "en": "⟦0⟧ The array to modify. value = <decimal>/<variable> The variable to add to the array if the size is larger than the array's current size. Optional, defaults to 0. size = <integer> The amount of elements inside of the array after the resizing.",
+   "frags": 1
+  },
+  {
+   "k": "1ch8ywb",
+   "en": "size = <integer>"
+  },
+  {
+   "k": "16jlzcm",
+   "en": "resize_array = { array = global.countries_by_states value = 10 size = global.countries^num } resize_temp_array = { temp_states = 20 }"
+  },
+  {
+   "k": "1rt5mb9",
+   "en": "Resizes the array, removing or adding elements in the end if necessary."
+  },
+  {
+   "k": "1q57yn3",
+   "en": "resize_array = { <array> = <size> }"
+  },
+  {
+   "k": "dxcdnf",
+   "en": "find_highest_in_array"
+  },
+  {
+   "k": "1l6r6wq",
+   "en": "⟦0⟧ The array to modify. value = <variable> The temporary variable where the largest value will get stored. index = <variable> The temporary variable where the index of the largest value will get stored.",
+   "frags": 1
+  },
+  {
+   "k": "do4lep",
+   "en": "value = <variable>"
+  },
+  {
+   "k": "1efjqiy",
+   "en": "index = <variable>"
+  },
+  {
+   "k": "11cje8l",
+   "en": "find_highest_in_array = { array = global.countries_by_states value = temp_largest_country index = temp_country_index }"
+  },
+  {
+   "k": "5mawqe",
+   "en": "Finds the largest value in the array and assigns its value and index to a temporary variable."
+  },
+  {
+   "k": "3tyok0",
+   "en": "Either value or index are optional to specify."
+  },
+  {
+   "k": "tfi0kf",
+   "en": "find_lowest_in_array"
+  },
+  {
+   "k": "b7f6mu",
+   "en": "⟦0⟧ The array to modify. value = <variable> The temporary variable where the smallest value will get stored. index = <variable> The temporary variable where the index of the smallest value will get stored.",
+   "frags": 1
+  },
+  {
+   "k": "1rmx0fl",
+   "en": "find_lowest_in_array = { array = global.countries_by_states value = temp_largest_country index = temp_country_index }"
+  },
+  {
+   "k": "1b9dip7",
+   "en": "Finds the smallest value in the array and assigns its value and index to a temporary variable."
+  },
+  {
+   "k": "1windxh",
+   "en": "Meanwhile, the following triggers exist that are array-related. As with variables, these are the exact same for temporary and regular variables."
+  },
+  {
+   "k": "13rddyz",
+   "en": "is_in_array"
+  },
+  {
+   "k": "l82313",
+   "en": "⟦0⟧ The array to check. value = <decimal>/<variable> The value to check for.",
+   "frags": 1
+  },
+  {
+   "k": "1is0qac",
+   "en": "is_in_array = { array = global.my_countries value = THIS.id } is_in_array = { temp_states = THIS }"
+  },
+  {
+   "k": "12ukixk",
+   "en": "Checks if any value within the array is the same as the specified value."
+  },
+  {
+   "k": "194flit",
+   "en": "is_in_array = { <array> = <value> }"
+  },
+  {
+   "k": "9q07af",
+   "en": "any_of"
+  },
+  {
+   "k": "1guzz3d",
+   "en": "⟦0⟧ The array to check. value = <variable> The name of the temporary variable where the value of the currently-selected element is stored. index = <variable> The name of the temporary variable where the index of the currently-selected element is stored. <triggers> An AND trigger block.",
+   "frags": 1
+  },
+  {
+   "k": "1oml8wk",
+   "en": "<triggers>"
+  },
+  {
+   "k": "zod6gw",
+   "en": "any_of = { array = temp_numbers value = v index = i multiply_temp_variable = { v = i } check_variable = { v > political_power } # Checks if the value multiplied by the index is larger than the political power of the country this is checked in. }"
+  },
+  {
+   "k": "mmwbfh",
+   "en": "Checks if any value within the array fulfills the triggers, halting and returning true if that's the case."
+  },
+  {
+   "k": "1cx0c5h",
+   "en": "The scope does not change from the one this is checked in by default, requiring one of ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1w5dpoo",
+   "en": "scopes"
+  },
+  {
+   "k": "zghf3h",
+   "en": "any_of_scopes"
+  },
+  {
+   "k": "19p113l",
+   "en": "⟦0⟧ The array to check. tooltip = <localisation key> The localisation key used for the trigger. <triggers> An AND trigger block.",
+   "frags": 1
+  },
+  {
+   "k": "l5isa6",
+   "en": "tooltip = <localisation key>"
+  },
+  {
+   "k": "1hox3gg",
+   "en": "any_of_scopes = { array = global.majors tooltip = has_more_states_than_any_other_major_tt NOT = { tag = PREV } check_variable = { num_owned_controlled_states > PREV.num_owned_controlled_states } }"
+  },
+  {
+   "k": "sops4i",
+   "en": "Checks if any value within the array fulfills the triggers, halting and returning true if that's the case, scoping into each element in the array."
+  },
+  {
+   "k": "1hjk2cn",
+   "en": "Appending ⟦0⟧ to the tooltip's key (such as has_more_states_than_any_other_major_tt_NOT in the example) results in the localisation key used if this any_of_scopes is put inside of ⟦1⟧. Since this changes scopes, ⟦2⟧ would, unless there's deeper scoping, refer to the scope this trigger is checked in.",
+   "frags": 3
+  },
+  {
+   "k": "49ooaz",
+   "en": "_NOT"
+  },
+  {
+   "k": "rnfewt",
+   "en": "NOT = { ... }"
+  },
+  {
+   "k": "xjsa28",
+   "en": "PREV"
+  },
+  {
+   "k": "xbp02s",
+   "en": "all_of"
+  },
+  {
+   "k": "3d0l9t",
+   "en": "all_of = { array = temp_numbers value = v index = i multiply_temp_variable = { v = i } check_variable = { v > political_power } # Checks if the value multiplied by the index is larger than the political power of the country this is checked in. }"
+  },
+  {
+   "k": "ub40k3",
+   "en": "Checks if every value within the array fulfills the triggers, halting and returning false if any one doesn't."
+  },
+  {
+   "k": "10u3npw",
+   "en": "all_of_scopes"
+  },
+  {
+   "k": "1r9d96c",
+   "en": "all_of_scopes = { array = global.majors tooltip = has_more_states_than_every_other_major_tt OR = { tag = PREV check_variable = { num_owned_controlled_states < PREV.num_owned_controlled_states } } }"
+  }
+ ]
+}

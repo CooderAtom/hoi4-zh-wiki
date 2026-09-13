@@ -1,0 +1,909 @@
+{
+ "batch": 1191,
+ "pages": [
+  "Aircraft"
+ ],
+ "chars": 3002,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "194utc3",
+   "en": "Aircraft are ⟦0⟧ that can be used to equip ⟦1⟧ and are ⟦2⟧ in military factories (or sometimes rocket sites). For details on how aircraft statistics affect air wing operation, see ⟦3⟧ and ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "1la4po7",
+   "en": "equipment"
+  },
+  {
+   "k": "1v45x7",
+   "en": "air wings"
+  },
+  {
+   "k": "hgcuz5",
+   "en": "produced"
+  },
+  {
+   "k": "k91i7i",
+   "en": "air missions"
+  },
+  {
+   "k": "1ih05u2",
+   "en": "air wing"
+  },
+  {
+   "k": "1d7ssq3",
+   "en": "All aircraft start with 80% reliability unless otherwise noted."
+  },
+  {
+   "k": "1b6gwma",
+   "en": "Fighter"
+  },
+  {
+   "k": "1lsuzcc",
+   "en": "Archetype"
+  },
+  {
+   "k": "107rbay",
+   "en": "Model"
+  },
+  {
+   "k": "t3tyj4",
+   "en": "Icon"
+  },
+  {
+   "k": "5xgri4",
+   "en": "Year"
+  },
+  {
+   "k": "1cx5onh",
+   "en": "Air Attack"
+  },
+  {
+   "k": "5oicbn",
+   "en": "Air Defense"
+  },
+  {
+   "k": "6sfq3c",
+   "en": "Agility"
+  },
+  {
+   "k": "10j1pie",
+   "en": "Max Speed"
+  },
+  {
+   "k": "1qn8i6x",
+   "en": "Range (km)"
+  },
+  {
+   "k": "md7c1i",
+   "en": "Fuel Usage"
+  },
+  {
+   "k": "16cjo1r",
+   "en": "Surface Detection"
+  },
+  {
+   "k": "xl28oe",
+   "en": "Sub Detection"
+  },
+  {
+   "k": "15xop08",
+   "en": "Naval Targeting"
+  },
+  {
+   "k": "3cieqd",
+   "en": "Naval Attack"
+  },
+  {
+   "k": "1ja3o56",
+   "en": "Air Superiority (air power)"
+  },
+  {
+   "k": "kjvoyr",
+   "en": "Man- power"
+  },
+  {
+   "k": "ww7k1t",
+   "en": "Prod Cost"
+  },
+  {
+   "k": "g25fgr",
+   "en": "Resources Per Factory"
+  },
+  {
+   "k": "q4b7s8",
+   "en": "Interwar Fighter"
+  },
+  {
+   "k": "1r6qv7k",
+   "en": "330 km/h"
+  },
+  {
+   "k": "1r091a5",
+   "en": "Fighter I"
+  },
+  {
+   "k": "1etn5qz",
+   "en": "500 km/h"
+  },
+  {
+   "k": "ug33to",
+   "en": "Fighter II"
+  },
+  {
+   "k": "kunu0v",
+   "en": "650 km/h"
+  },
+  {
+   "k": "5bcamn",
+   "en": "Fighter III"
+  },
+  {
+   "k": "19z1sjb",
+   "en": "720 km/h"
+  },
+  {
+   "k": "1eqf1zm",
+   "en": "Carrier Fighter"
+  },
+  {
+   "k": "15tmzhc",
+   "en": "297 km/h"
+  },
+  {
+   "k": "q5xh2l",
+   "en": "Carrier Fighter I"
+  },
+  {
+   "k": "10tfm65",
+   "en": "450 km/h"
+  },
+  {
+   "k": "o1dtyk",
+   "en": "Carrier Fighter II"
+  },
+  {
+   "k": "1vcihma",
+   "en": "585 km/h"
+  },
+  {
+   "k": "21j9a7",
+   "en": "Carrier Fighter III"
+  },
+  {
+   "k": "f8ji4",
+   "en": "648 km/h"
+  },
+  {
+   "k": "35c5a1",
+   "en": "Heavy Fighter"
+  },
+  {
+   "k": "1jnq7km",
+   "en": "Heavy Fighter I"
+  },
+  {
+   "k": "sz0ea5",
+   "en": "Heavy Fighter II"
+  },
+  {
+   "k": "1mcd5e4",
+   "en": "550 km/h"
+  },
+  {
+   "k": "rywmdo",
+   "en": "Heavy Fighter III"
+  },
+  {
+   "k": "zgkuk8",
+   "en": "600 km/h"
+  },
+  {
+   "k": "19cwvsd",
+   "en": "Jet Fighter"
+  },
+  {
+   "k": "pvff8a",
+   "en": "Jet Fighter I"
+  },
+  {
+   "k": "1itvyog",
+   "en": "950 km/h"
+  },
+  {
+   "k": "q2f4h5",
+   "en": "Jet Fighter II"
+  },
+  {
+   "k": "5fhru",
+   "en": "1100 km/h"
+  },
+  {
+   "k": "1jtkbj0",
+   "en": "Close air support"
+  },
+  {
+   "k": "uh7jkm",
+   "en": "Ground Attack"
+  },
+  {
+   "k": "nn88ws",
+   "en": "Close Air Support"
+  },
+  {
+   "k": "qqclkp",
+   "en": "CAS I"
+  },
+  {
+   "k": "1o8k4iu",
+   "en": "390 km/h"
+  },
+  {
+   "k": "7co6ds",
+   "en": "CAS II"
+  },
+  {
+   "k": "1liqkpn",
+   "en": "CAS III"
+  },
+  {
+   "k": "sb5njv",
+   "en": "Close Air Support (Carrier)"
+  },
+  {
+   "k": "vgmwg9",
+   "en": "Carrier CAS I"
+  },
+  {
+   "k": "1hgcucf",
+   "en": "351 km/h"
+  },
+  {
+   "k": "7qum8",
+   "en": "Carrier CAS II"
+  },
+  {
+   "k": "amu2qf",
+   "en": "405 km/h"
+  },
+  {
+   "k": "f3nfv",
+   "en": "Carrier CAS III"
+  },
+  {
+   "k": "47lvs",
+   "en": "495 km/h"
+  },
+  {
+   "k": "xtx8gi",
+   "en": "Naval bomber"
+  },
+  {
+   "k": "1hynaya",
+   "en": "Naval Bomber"
+  },
+  {
+   "k": "t184t",
+   "en": "NAV I"
+  },
+  {
+   "k": "1ikd9u5",
+   "en": "230 km/h"
+  },
+  {
+   "k": "1evukz0",
+   "en": "NAV II"
+  },
+  {
+   "k": "8rcz0x",
+   "en": "300 km/h"
+  },
+  {
+   "k": "1658fb3",
+   "en": "NAV III"
+  },
+  {
+   "k": "1w0n9ke",
+   "en": "400 km/h"
+  },
+  {
+   "k": "hqbd61",
+   "en": "Naval Bomber (Carrier)"
+  },
+  {
+   "k": "1rkvnz9",
+   "en": "Carrier Bomber I"
+  },
+  {
+   "k": "his8ib",
+   "en": "207 km/h"
+  },
+  {
+   "k": "ajmdxg",
+   "en": "Carrier Bomber II"
+  },
+  {
+   "k": "1bpzgap",
+   "en": "270 km/h"
+  },
+  {
+   "k": "96001j",
+   "en": "Carrier Bomber III"
+  },
+  {
+   "k": "iaekx3",
+   "en": "360 km/h"
+  },
+  {
+   "k": "wq85wb",
+   "en": "Tactical bomber"
+  },
+  {
+   "k": "d1hfd3",
+   "en": "Strat Bomb"
+  },
+  {
+   "k": "10ai7v",
+   "en": "Tactical Bomber"
+  },
+  {
+   "k": "1tbn37k",
+   "en": "Interwar Bomber"
+  },
+  {
+   "k": "hiy6e3",
+   "en": "250 km/h"
+  },
+  {
+   "k": "1l3k4b1",
+   "en": "Tac Bomber I"
+  },
+  {
+   "k": "1gwqw97",
+   "en": "430 km/h"
+  },
+  {
+   "k": "xg879o",
+   "en": "Tac Bomber II"
+  },
+  {
+   "k": "9kgqwa",
+   "en": "440 km/h"
+  },
+  {
+   "k": "lowbq7",
+   "en": "Tac Bomber III"
+  },
+  {
+   "k": "196jxty",
+   "en": "480 km/h"
+  },
+  {
+   "k": "swgr60",
+   "en": "Jet Tactical Bomber"
+  },
+  {
+   "k": "1l5o37w",
+   "en": "Jet Tac Bomber I"
+  },
+  {
+   "k": "6yepnr",
+   "en": "1000 km/h"
+  },
+  {
+   "k": "lu3m5b",
+   "en": "Jet Tac Bomber II"
+  },
+  {
+   "k": "6c55r0",
+   "en": "Strategic bomber"
+  },
+  {
+   "k": "1222tfg",
+   "en": "Strategic Bomber"
+  },
+  {
+   "k": "zhy79j",
+   "en": "Strat Bomber I"
+  },
+  {
+   "k": "wm2496",
+   "en": "Strat Bomber II"
+  },
+  {
+   "k": "kt4rjt",
+   "en": "Strat Bomber III"
+  },
+  {
+   "k": "lv4z35",
+   "en": "Jet Strategic Bomber"
+  },
+  {
+   "k": "10j004m",
+   "en": "Jet Strat Bomber I"
+  },
+  {
+   "k": "ykkwz1",
+   "en": "920 km/h"
+  },
+  {
+   "k": "jwvho4",
+   "en": "Interceptor"
+  },
+  {
+   "k": "tw3vo8",
+   "en": "Requires completion of Rocket Engines research."
+  },
+  {
+   "k": "1rbjfiz",
+   "en": "Reliability"
+  },
+  {
+   "k": "5sp7c1",
+   "en": "Rocket Interceptor I"
+  },
+  {
+   "k": "3cyk1k",
+   "en": "Rocket Interceptor II"
+  },
+  {
+   "k": "1hloujn",
+   "en": "Rocket Interceptor III"
+  },
+  {
+   "k": "10dzl1d",
+   "en": "1150 km/h"
+  },
+  {
+   "k": "113o52q",
+   "en": "Transport"
+  },
+  {
+   "k": "c355b7",
+   "en": "Missile"
+  },
+  {
+   "k": "17b3mun",
+   "en": "Production Cost"
+  },
+  {
+   "k": "1g79va",
+   "en": "Guided Missile I"
+  },
+  {
+   "k": "15540hg",
+   "en": "640 km/h"
+  },
+  {
+   "k": "mbwkmg",
+   "en": "None - auto generate 1 per day per rocket site"
+  },
+  {
+   "k": "fuk2nh",
+   "en": "Guided Missile II"
+  },
+  {
+   "k": "10vyvzi",
+   "en": "5760 km/h"
+  },
+  {
+   "k": "4a5i24",
+   "en": "Guided Missile III"
+  },
+  {
+   "k": "yv0iu8",
+   "en": "9999 km/h"
+  },
+  {
+   "k": "1gy57da",
+   "en": "Kamikaze"
+  },
+  {
+   "k": "ryqjux",
+   "en": "Only available for ⟦0⟧, requiring the completion of the ⟦1⟧ national focus, which requires completion of the Rocket Engines technology.",
+   "frags": 2
+  },
+  {
+   "k": "193rgu3",
+   "en": "Japan"
+  },
+  {
+   "k": "59qbev",
+   "en": "\"Strengthen the Divine Wind\""
+  },
+  {
+   "k": "p6z2td",
+   "en": "Suicide Strike Craft"
+  },
+  {
+   "k": "fbbrl3",
+   "en": "Scout plane"
+  },
+  {
+   "k": "165ac2k",
+   "en": "Scout planes are used to perform the ⟦0⟧ mission or Naval Patrol mission to add to intel gathered in the assigned air zone and to help friendly ships on patrol spot enemy ships.",
+   "frags": 1
+  },
+  {
+   "k": "jvctz8",
+   "en": "Air Recon"
+  },
+  {
+   "k": "2jmqdj",
+   "en": "Scout Plane"
+  },
+  {
+   "k": "n25b9g",
+   "en": "Scout Plane I"
+  },
+  {
+   "k": "1qmo6t3",
+   "en": "Scout Plane II"
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "iapuuo",
+   "en": "Early fighter.png"
+  },
+  {
+   "k": "16j6z97",
+   "en": "Aluminum"
+  },
+  {
+   "k": "qko68r",
+   "en": "Rubber"
+  },
+  {
+   "k": "k725gc",
+   "en": "Fighter1.png"
+  },
+  {
+   "k": "7bzth1",
+   "en": "Fighter2.png"
+  },
+  {
+   "k": "7xataa",
+   "en": "Fighter3.png"
+  },
+  {
+   "k": "8f0ijh",
+   "en": "Heavy fighter1.png"
+  },
+  {
+   "k": "tejk1w",
+   "en": "Heavy fighter2.png"
+  },
+  {
+   "k": "keot07",
+   "en": "Heavy fighter3.png"
+  },
+  {
+   "k": "12sxqdd",
+   "en": "Jet fighter1.png"
+  },
+  {
+   "k": "8qaq71",
+   "en": "Tungsten"
+  },
+  {
+   "k": "1fo02co",
+   "en": "Jet fighter2.png"
+  },
+  {
+   "k": "k7q6fc",
+   "en": "CAS1.png"
+  },
+  {
+   "k": "7cnug1",
+   "en": "CAS2.png"
+  },
+  {
+   "k": "8tp2r2",
+   "en": "CAS3.png"
+  },
+  {
+   "k": "1c1t1rg",
+   "en": "Naval bomber1.png"
+  },
+  {
+   "k": "zssm85",
+   "en": "Naval bomber2.png"
+  },
+  {
+   "k": "10nry36",
+   "en": "Naval bomber3.png"
+  },
+  {
+   "k": "1bluvw2",
+   "en": "Early bomber.png"
+  },
+  {
+   "k": "15obhqv",
+   "en": "Tactical bomber1.png"
+  },
+  {
+   "k": "30p1nu",
+   "en": "Tactical bomber2.png"
+  },
+  {
+   "k": "ncmizh",
+   "en": "Tactical bomber3.png"
+  },
+  {
+   "k": "11ytmbe",
+   "en": "Jet tactical bomber1.png"
+  },
+  {
+   "k": "coqu93",
+   "en": "Jet tactical bomber2.png"
+  },
+  {
+   "k": "6c43su",
+   "en": "Strategic bomber1.png"
+  },
+  {
+   "k": "hu023v",
+   "en": "Strategic bomber2.png"
+  },
+  {
+   "k": "ilvfyw",
+   "en": "Strategic bomber3.png"
+  },
+  {
+   "k": "1nbucad",
+   "en": "Jet strategic bomber1.png"
+  },
+  {
+   "k": "govvrz",
+   "en": "Rocket Engines.png"
+  },
+  {
+   "k": "1rgm931",
+   "en": "Improved Rocket Engines.png"
+  },
+  {
+   "k": "vzha5v",
+   "en": "Advanced Rocket Engines.png"
+  },
+  {
+   "k": "xskqtw",
+   "en": "Rocket Interceptor I.png"
+  },
+  {
+   "k": "1daib4t",
+   "en": "Rocket Interceptor II.png"
+  },
+  {
+   "k": "nb36le",
+   "en": "Rocket Interceptor III.png"
+  },
+  {
+   "k": "9rrdf",
+   "en": "Transport air.png"
+  },
+  {
+   "k": "diysn2",
+   "en": "Basic Guided Missile.png"
+  },
+  {
+   "k": "1fzrdj2",
+   "en": "Improved Guided Missile.png"
+  },
+  {
+   "k": "1eu96hc",
+   "en": "Advanced Guided Missile.png"
+  },
+  {
+   "k": "5dkhsc",
+   "en": "Flag of Japan"
+  },
+  {
+   "k": "1jdm1t2",
+   "en": "Goal generic secret weapon.png"
+  },
+  {
+   "k": "1shydoa",
+   "en": "Yokosuka MXY7 Ohka.png"
+  },
+  {
+   "k": "1h046hs",
+   "en": "Generic scout plane 1.png"
+  },
+  {
+   "k": "1wigtnd",
+   "en": "Generic scout plane 2.png"
+  }
+ ]
+}

@@ -1,0 +1,799 @@
+{
+ "batch": 1241,
+ "pages": [
+  "Equipment modding"
+ ],
+ "chars": 4892,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1xtq0ev",
+   "en": "Equipment"
+  },
+  {
+   "k": "198s3bl",
+   "en": "Equipment is found in ⟦0⟧. Equipment is split into two types, archetype and regular. Archetype equipment is used to assign more general attributes that regular equipment then inherits via the ⟦1⟧ attribute.",
+   "frags": 2
+  },
+  {
+   "k": "1eqkj7z",
+   "en": "/Hearts of Iron IV/common/units/equipment/*.txt"
+  },
+  {
+   "k": "nz0rm4",
+   "en": "archetype"
+  },
+  {
+   "k": "r7k2h9",
+   "en": "Archetype equipment follows the following format:"
+  },
+  {
+   "k": "18rirnm",
+   "en": "Regular equipment follows the following format:"
+  },
+  {
+   "k": "3qh5pd",
+   "en": "Internal Types"
+  },
+  {
+   "k": "1u26zek",
+   "en": "Land"
+  },
+  {
+   "k": "1kwv5xu",
+   "en": "anti_air"
+  },
+  {
+   "k": "1ksh6pa",
+   "en": "anti_tank"
+  },
+  {
+   "k": "1ww2klw",
+   "en": "armor"
+  },
+  {
+   "k": "h0gp4h",
+   "en": "artillery"
+  },
+  {
+   "k": "7d8myi",
+   "en": "heavy_tank_chassis"
+  },
+  {
+   "k": "cp5igw",
+   "en": "infantry"
+  },
+  {
+   "k": "1wo3ghz",
+   "en": "light_tank_chassis"
+  },
+  {
+   "k": "9quihh",
+   "en": "mechanized"
+  },
+  {
+   "k": "od34rw",
+   "en": "medium_tank_chassis"
+  },
+  {
+   "k": "o92zlk",
+   "en": "motorized"
+  },
+  {
+   "k": "1ry8sid",
+   "en": "rocket"
+  },
+  {
+   "k": "1w1igvb",
+   "en": "support_equipment"
+  },
+  {
+   "k": "1839667",
+   "en": "Naval"
+  },
+  {
+   "k": "hzca9y",
+   "en": "capital_ship"
+  },
+  {
+   "k": "1nozfg7",
+   "en": "carrier"
+  },
+  {
+   "k": "1n9jkk3",
+   "en": "convoy"
+  },
+  {
+   "k": "jpk7p1",
+   "en": "naval_transport"
+  },
+  {
+   "k": "5w6y6o",
+   "en": "screen_ship"
+  },
+  {
+   "k": "wy393r",
+   "en": "submarine"
+  },
+  {
+   "k": "15jotdj",
+   "en": "Air"
+  },
+  {
+   "k": "n8zo2l",
+   "en": "air_transport"
+  },
+  {
+   "k": "yi79q",
+   "en": "cas"
+  },
+  {
+   "k": "xof7gi",
+   "en": "fighter"
+  },
+  {
+   "k": "15rsbdg",
+   "en": "interceptor"
+  },
+  {
+   "k": "s10nxq",
+   "en": "tactical_bomber"
+  },
+  {
+   "k": "19rhp4z",
+   "en": "missile"
+  },
+  {
+   "k": "kfbx2f",
+   "en": "naval_bomber"
+  },
+  {
+   "k": "1o9e50l",
+   "en": "strat_bomber"
+  },
+  {
+   "k": "9y1fov",
+   "en": "suicide"
+  },
+  {
+   "k": "ocgot4",
+   "en": "Group By types"
+  },
+  {
+   "k": "min7t9",
+   "en": "type"
+  },
+  {
+   "k": "1hpbags",
+   "en": "Interface Categories"
+  },
+  {
+   "k": "7bprf",
+   "en": "interface_category_land"
+  },
+  {
+   "k": "1sxvn1l",
+   "en": "interface_category_armor"
+  },
+  {
+   "k": "ejgq7e",
+   "en": "interface_category_capital_ships"
+  },
+  {
+   "k": "1ydbsge",
+   "en": "interface_category_screen_ships"
+  },
+  {
+   "k": "ef1wkc",
+   "en": "interface_category_other_ships"
+  },
+  {
+   "k": "laq2me",
+   "en": "interface_category_air"
+  },
+  {
+   "k": "99tr3o",
+   "en": "Equipment Designer"
+  },
+  {
+   "k": "1soakz3",
+   "en": "Added in the ⟦0⟧, ⟦1⟧ and ⟦2⟧, equipment designer is the interface to design equipment with different modules, allowing to change type of equipment or just add additional stats to the equipment.",
+   "frags": 3
+  },
+  {
+   "k": "1hpzefz",
+   "en": "Man the Guns"
+  },
+  {
+   "k": "11r223j",
+   "en": "No Step Back"
+  },
+  {
+   "k": "xw4s3v",
+   "en": "By Blood Alone"
+  },
+  {
+   "k": "vhepny",
+   "en": "Any equipment that utilizes modules must have equipment designer set-up, if equipment designer not presented it will instead utilize upgrade system/"
+  },
+  {
+   "k": "2hcn95",
+   "en": "The game equipment designers can be found in interface/equipmentdesigner/type where type is tanks/ships/planes. ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1o6pu35",
+   "en": "The name of the file doesn't mater.Equipment linked differently."
+  },
+  {
+   "k": "16wsybr",
+   "en": "To connect designer to the equipment you need to name containerWindowType with one of 4 types:"
+  },
+  {
+   "k": "fe3sri",
+   "en": "\"equipment_designer_\" EQUIPMENT_TYPE \"_\" COUNTRY_TAG - used to specify equipment designer for specific tag and specific equipment"
+  },
+  {
+   "k": "y6lnoc",
+   "en": "\"equipment_designer_\" EQUIPMENT_ARCHETYPE \"_\" COUNTRY_TAG - used to specify equipment designer for specific tag and equipment archetype"
+  },
+  {
+   "k": "1oiqng7",
+   "en": "\"equipment_designer_\" EQUIPMENT_TYPE - used to specify designer for equipment"
+  },
+  {
+   "k": "13x42lf",
+   "en": "\"equipment_designer_\" EQUIPMENT_ARCHETYPE - used to specify equipment designer for equipment archetype"
+  },
+  {
+   "k": "1x31dwr",
+   "en": "Within these equipment designer windows for a specific piece of equipment, there is an inner container window named \"module_slots\". Each module slot that is possible for any equipment using this designer window should have its own container window inside here, using the same name as the module slot."
+  },
+  {
+   "k": "1pxeom4",
+   "en": "Inside a module slot container window, further container windows should be listed, corresponding to the modules that can be installed in that module slot.Within them, you can include the iconType elements or any other elements appropriate for displaying the associated module on the equipment for that slot"
+  },
+  {
+   "k": "95ovpp",
+   "en": "Like previously mentioned new system allows for creating a special types of equipment (e.g. Anti-tank tank or Anti-Air tank), in order to do this you need a module that allows this type, this type should be present in script_enums and must have at least one battalion using it."
+  },
+  {
+   "k": "17r95id",
+   "en": "To create equipment variant you need to use this code:"
+  },
+  {
+   "k": "snteo4",
+   "en": "<equipment_archetype>_my_variant = {"
+  },
+  {
+   "k": "1yxe4jl",
+   "en": "archetype = <equipment_archetype>"
+  },
+  {
+   "k": "71e5dy",
+   "en": "type = { innitial_type anti_air }"
+  },
+  {
+   "k": "1hxovje",
+   "en": "for_each = {"
+  },
+  {
+   "k": "7uaqzz",
+   "en": "variant_name = { find_and_replace = { \"chassis\" \"equipment\" } } # optional, set variant_name by taking what would be used as the localization key (the name of the type) and run a find-and-replace on it. Example: light_tank_aa_chassis_1 gets variant_name light_tank_aa_equipment_1."
+  },
+  {
+   "k": "143xq5n",
+   "en": "hardness = { set = 0.5 } # additional stats new type of equipment would get"
+  },
+  {
+   "k": "1pr7m1c",
+   "en": "All new variants must be present in script_enums, so if you duplicate equipment archetype with 5 variants of equipment you must specified all in scripted_enums (e.g. <equipment_archetype>_my_variant, <equipment_archetype>_my_variant_0, <equipment_archetype>_my_variant_1...)"
+  },
+  {
+   "k": "4f26x8",
+   "en": "Stats"
+  },
+  {
+   "k": "1llp4nb",
+   "en": "Equipment uses modifiers to determine which stats it confers to its assigned unit."
+  },
+  {
+   "k": "1ureq9",
+   "en": "Typically an equipment will include the following:"
+  },
+  {
+   "k": "1he1q1",
+   "en": "Note that the default ⟦0⟧ is 4, so you don't need to include it when you want equipment to confer the default ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1m5l0d",
+   "en": "maximum_speed"
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "156uzyj",
+   "en": "The following list is all the valid modifiers for use in equipment (and units):"
+  },
+  {
+   "k": "wnjk2s",
+   "en": "All"
+  },
+  {
+   "k": "19phq7s",
+   "en": "Base"
+  },
+  {
+   "k": "107am78",
+   "en": "Offensive"
+  },
+  {
+   "k": "p1fd0i",
+   "en": "Defensive"
+  },
+  {
+   "k": "10krl8m",
+   "en": "Unique"
+  },
+  {
+   "k": "jz5dfg",
+   "en": "Navy-specific"
+  },
+  {
+   "k": "zbaiw6",
+   "en": "Air-specific"
+  },
+  {
+   "k": "eukv6o",
+   "en": "Localization"
+  },
+  {
+   "k": "9o5ek2",
+   "en": "Each equipment must be localized in a ⟦0⟧ file in the ⟦1⟧ folder within your mod.",
+   "frags": 2
+  },
+  {
+   "k": "k3hsvt",
+   "en": ".yml"
+  },
+  {
+   "k": "coj4nh",
+   "en": "localisation"
+  },
+  {
+   "k": "1ssy8yd",
+   "en": "For country-specific localization, prefix with the tag:"
+  },
+  {
+   "k": "59iejl",
+   "en": "Documentation"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "bbbsh0",
+   "en": "List of modifiers"
+  },
+  {
+   "k": "gkat0o",
+   "en": "Scopes"
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "22wvcr",
+   "en": "On actions"
+  },
+  {
+   "k": "10y68xx",
+   "en": "Data structures"
+  },
+  {
+   "k": "icm958",
+   "en": "Flags"
+  },
+  {
+   "k": "1fldcnt",
+   "en": "Event targets"
+  },
+  {
+   "k": "135tw29",
+   "en": "Country tag aliases"
+  },
+  {
+   "k": "xqivz6",
+   "en": "Variables"
+  },
+  {
+   "k": "14wbbvz",
+   "en": "Arrays"
+  },
+  {
+   "k": "wdu62e",
+   "en": "Scripting"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "475d63",
+   "en": "AI focuses"
+  },
+  {
+   "k": "gpz0z1",
+   "en": "Autonomous states"
+  },
+  {
+   "k": "a6cuzg",
+   "en": "Balances of power"
+  },
+  {
+   "k": "14khzdq",
+   "en": "Bookmarks/Scenarios"
+  },
+  {
+   "k": "xrnqxs",
+   "en": "Game rules"
+  },
+  {
+   "k": "1xa6gia",
+   "en": "Buildings"
+  },
+  {
+   "k": "8657g9",
+   "en": "Characters and traits"
+  },
+  {
+   "k": "o977ej",
+   "en": "Cosmetic tags"
+  },
+  {
+   "k": "8zhvfx",
+   "en": "Countries"
+  },
+  {
+   "k": "19eysrz",
+   "en": "Divisions"
+  },
+  {
+   "k": "vwifyo",
+   "en": "Decisions"
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "e65ons",
+   "en": "Factions"
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "1cd8sst",
+   "en": "Ideologies"
+  },
+  {
+   "k": "1oopcvp",
+   "en": "Military industrial organizations"
+  },
+  {
+   "k": "k2esk3",
+   "en": "National focuses"
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "uu0bc4",
+   "en": "Scripted GUI"
+  },
+  {
+   "k": "1jzxqx9",
+   "en": "Technologies and doctrines"
+  },
+  {
+   "k": "ur18vw",
+   "en": "Units"
+  },
+  {
+   "k": "j1sac1",
+   "en": "Map"
+  },
+  {
+   "k": "5afzz",
+   "en": "States"
+  },
+  {
+   "k": "8ppvas",
+   "en": "Supply areas"
+  },
+  {
+   "k": "1v2pifw",
+   "en": "Strategic regions"
+  },
+  {
+   "k": "1cffeuu",
+   "en": "Graphical"
+  },
+  {
+   "k": "yolbkg",
+   "en": "Interface"
+  },
+  {
+   "k": "2hqnqn",
+   "en": "Graphical assets"
+  },
+  {
+   "k": "6px9my",
+   "en": "Entities"
+  },
+  {
+   "k": "1n1sxcz",
+   "en": "Posteffects"
+  },
+  {
+   "k": "1fu6htw",
+   "en": "Particles"
+  },
+  {
+   "k": "t16z95",
+   "en": "Fonts"
+  },
+  {
+   "k": "1ig52hy",
+   "en": "Cosmetic"
+  },
+  {
+   "k": "9k7pgr",
+   "en": "Portraits"
+  },
+  {
+   "k": "65pf3n",
+   "en": "Namelists"
+  },
+  {
+   "k": "ohwdis",
+   "en": "Music"
+  },
+  {
+   "k": "1dvvwok",
+   "en": "Sound"
+  },
+  {
+   "k": "ukzedx",
+   "en": "Other"
+  },
+  {
+   "k": "1uzifys",
+   "en": "Console commands"
+  },
+  {
+   "k": "1t5bxxt",
+   "en": "Troubleshooting"
+  },
+  {
+   "k": "1djsobe",
+   "en": "Mod structure"
+  },
+  {
+   "k": "pw0jjk",
+   "en": "Mods"
+  },
+  {
+   "k": "pui2ou",
+   "en": "Nudger"
+  }
+ ]
+}

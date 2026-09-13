@@ -1,0 +1,974 @@
+{
+ "batch": 142,
+ "pages": [
+  "Effect"
+ ],
+ "chars": 14279,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "lb121v",
+   "en": "add_faction_influence_ratio"
+  },
+  {
+   "k": "1o6wc0u",
+   "en": "add_faction_influence_ratio = 0.075"
+  },
+  {
+   "k": "pw3bbg",
+   "en": "Adds influence to the country based on the given ratio of the faction’s total influence."
+  },
+  {
+   "k": "h985e",
+   "en": "add_faction_influence_score"
+  },
+  {
+   "k": "qnjtaq",
+   "en": "add_faction_influence_score = 5"
+  },
+  {
+   "k": "tqwzac",
+   "en": "Adds influence to the country in the faction."
+  },
+  {
+   "k": "1nuvpx6",
+   "en": "add_faction_initiative"
+  },
+  {
+   "k": "1qmqmcu",
+   "en": "add_faction_initiative = 1"
+  },
+  {
+   "k": "1jk5s9t",
+   "en": "Adds Faction Initiative points to the current country’s faction."
+  },
+  {
+   "k": "1gyztp3",
+   "en": "add_faction_power_projection"
+  },
+  {
+   "k": "ahk1f",
+   "en": "add_faction_power_projection = 100"
+  },
+  {
+   "k": "1zu8zh",
+   "en": "Adds power projection to the faction."
+  },
+  {
+   "k": "1bb302r",
+   "en": "set_faction_upgrade"
+  },
+  {
+   "k": "dgcamx",
+   "en": "⟦0⟧ Faction upgrade id.",
+   "frags": 1
+  },
+  {
+   "k": "1mbzi9",
+   "en": "set_faction_upgrade = token"
+  },
+  {
+   "k": "ctvo5t",
+   "en": "Set either a member upgrade for the specified tag."
+  },
+  {
+   "k": "18cb1ez",
+   "en": "set_faction_member_upgrade_min"
+  },
+  {
+   "k": "1hbb32x",
+   "en": "upgrade = <string>"
+  },
+  {
+   "k": "15l5or5",
+   "en": "set_faction_member_upgrade_min = { upgrade = TOKEN_TO_FACTION_MEMBER_UPGRADE }"
+  },
+  {
+   "k": "13v800u",
+   "en": "Set a faction's minimal requirements for an faction member upgrade group."
+  },
+  {
+   "k": "jdpuge",
+   "en": "set_faction_military_unlocked"
+  },
+  {
+   "k": "kdws3m",
+   "en": "set_faction_military_unlocked = yes"
+  },
+  {
+   "k": "4iini0",
+   "en": "Sets wheter the current countries faction can make changes to the faction research section."
+  },
+  {
+   "k": "1n4mvac",
+   "en": "set_faction_research_unlocked"
+  },
+  {
+   "k": "fa1y5g",
+   "en": "set_faction_research_unlocked = yes"
+  },
+  {
+   "k": "1n691wz",
+   "en": "Autonomy"
+  },
+  {
+   "k": "76tb4u",
+   "en": "Autonomy-related country-scoped effects:"
+  },
+  {
+   "k": "1bcacb3",
+   "en": "⟦0⟧ The target country. OR target = <country> The target country. end_wars = <bool> Whether the target country will peace out in all of its non-civil wars it's participating in. Defaults to true. end_civil_wars = <bool> Whether the target country will peace out in all of its civil wars it's participating in. Defaults to true.",
+   "frags": 1
+  },
+  {
+   "k": "pp8f23",
+   "en": "end_wars = <bool>"
+  },
+  {
+   "k": "1utn8xj",
+   "en": "end_civil_wars = <bool>"
+  },
+  {
+   "k": "1mddo6m",
+   "en": "puppet = GER puppet = { target = ITA end_wars = no }"
+  },
+  {
+   "k": "1uzx88r",
+   "en": "Makes the specified country a subject of the current scope."
+  },
+  {
+   "k": "1vd3rcc",
+   "en": "The autonomous state picked is one which contains ⟦0⟧ and where ⟦1⟧ is fulfilled within the ⟦2⟧ definition, rather than necessarily being autonomy_puppet. ⟦3⟧",
+   "frags": 4
+  },
+  {
+   "k": "1tj0jgy",
+   "en": "default = yes"
+  },
+  {
+   "k": "4pxzb0",
+   "en": "allowed = { ... }"
+  },
+  {
+   "k": "1fgd4xd",
+   "en": "/Hearts of Iron IV/commmon/autonomous_states/"
+  },
+  {
+   "k": "1yau1id",
+   "en": "Results in a crash-to-desktop if the game is unable to find any such autonomous states."
+  },
+  {
+   "k": "5nqex",
+   "en": "end_puppet"
+  },
+  {
+   "k": "1ilqtog",
+   "en": "end_puppet = GER"
+  },
+  {
+   "k": "65poey",
+   "en": "Removes the subject status between the target and the current scope."
+  },
+  {
+   "k": "u69art",
+   "en": "Must be used within the overlord's scope."
+  },
+  {
+   "k": "166rv8j",
+   "en": "add_autonomy_ratio"
+  },
+  {
+   "k": "k4x78u",
+   "en": "⟦0⟧ The freedom score to add. localization = <string> The localization key for the modifier.",
+   "frags": 1
+  },
+  {
+   "k": "12dslb5",
+   "en": "value = <float>"
+  },
+  {
+   "k": "1rew1gg",
+   "en": "localization = <string>"
+  },
+  {
+   "k": "1uv9xb8",
+   "en": "add_autonomy_ratio = { value = 0.1 localization = AST_adopt_westminster }"
+  },
+  {
+   "k": "1y1wxth",
+   "en": "Adds a freedom score ratio modifier to the current scope."
+  },
+  {
+   "k": "18k5g2o",
+   "en": "Used in the subject's scope."
+  },
+  {
+   "k": "ld01c2",
+   "en": "add_autonomy_score"
+  },
+  {
+   "k": "9o5qfm",
+   "en": "add_autonomy_score = { value = 10 localization = EXAMPLE }"
+  },
+  {
+   "k": "16rkqez",
+   "en": "Adds an exact freedom score modifier to the current scope."
+  },
+  {
+   "k": "mzv7m",
+   "en": "set_autonomy"
+  },
+  {
+   "k": "knfyaw",
+   "en": "⟦0⟧ The subject country. autonomous_state = <type> The type of autonomy state to set. freedom_level = <float> The new freedom level value. Optional. end_wars = <yes/no> Will end any wars the subject is involved in. end_civil_wars = <yes/no> Will end any civil wars the subject is subject to",
+   "frags": 1
+  },
+  {
+   "k": "1efv8tq",
+   "en": "autonomous_state = <type>"
+  },
+  {
+   "k": "kp15fe",
+   "en": "end_wars = <yes/no>"
+  },
+  {
+   "k": "qeqc2m",
+   "en": "end_civil_wars = <yes/no>"
+  },
+  {
+   "k": "dzsxj9",
+   "en": "set_autonomy = { target = AST autonomous_state = autonomy_free end_wars = no end_civil_wars = no }"
+  },
+  {
+   "k": "4zfane",
+   "en": "Sets the autonomy level for the specified country, ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1whoh1y",
+   "en": "including independence"
+  },
+  {
+   "k": "1ckft4g",
+   "en": "The autonomy_free state will free the subject, ⟦0⟧ for this to have effect. The autonomy states are found in ⟦1⟧ files. Although end_wars is an optional argument defaulting to no, omitting it results in the country's occupied states returning to its control, stranding enemy units. When setting the autonomy level in the history files, it is preferable to do it before the political effects in the subject's history file scoping to the overlord's tag, to avoid overwriting.",
+   "frags": 2
+  },
+  {
+   "k": "mibers",
+   "en": "however this effect has to be executed within the scope of the target country's current overlord"
+  },
+  {
+   "k": "lucq3p",
+   "en": "Governments in exile"
+  },
+  {
+   "k": "1m6guzz",
+   "en": "Government in exile-related country-scoped effects:"
+  },
+  {
+   "k": "1bvcecj",
+   "en": "add_legitimacy"
+  },
+  {
+   "k": "c3wwh2",
+   "en": "Adds legitimacy to a government in exile."
+  },
+  {
+   "k": "q74eq5",
+   "en": "add_legitimacy = 10"
+  },
+  {
+   "k": "1qi37ct",
+   "en": "Adds legitimacy."
+  },
+  {
+   "k": "1v2edte",
+   "en": "set_legitimacy"
+  },
+  {
+   "k": "1qkt16",
+   "en": "Sets the legitimacy of governments in exile."
+  },
+  {
+   "k": "19wojsi",
+   "en": "set_legitimacy = 10"
+  },
+  {
+   "k": "17ojwuw",
+   "en": "Sets legitimacy."
+  },
+  {
+   "k": "182siv6",
+   "en": "become_exiled_in"
+  },
+  {
+   "k": "1ezylyo",
+   "en": "Makes a country a government in exile in a set country, with a set starting legitimacy."
+  },
+  {
+   "k": "1xk4pl",
+   "en": "become_exiled_in = { target = <Host tag> legitimacy = <0-100> (starting legitimacy, optional) }"
+  },
+  {
+   "k": "ho6lm2",
+   "en": "Creates a government in exile."
+  },
+  {
+   "k": "t7waut",
+   "en": "Must be fired from ROOT, the country that should be exiled, or a TAG specification must be used. This effect would not automatically force a country to capitulate."
+  },
+  {
+   "k": "mjsl4m",
+   "en": "end_exile"
+  },
+  {
+   "k": "od846h",
+   "en": "Ends a government in exile."
+  },
+  {
+   "k": "4lo0mi",
+   "en": "end_exile = yes"
+  },
+  {
+   "k": "xyya79",
+   "en": "War"
+  },
+  {
+   "k": "zyvsno",
+   "en": "War-related country-scoped effects:"
+  },
+  {
+   "k": "16ps951",
+   "en": "add_threat"
+  },
+  {
+   "k": "12v7adj",
+   "en": "⟦0⟧ The amount to change by.",
+   "frags": 1
+  },
+  {
+   "k": "13jkxbf",
+   "en": "add_threat = 10"
+  },
+  {
+   "k": "7r1451",
+   "en": "Adjusts the level of World Tension."
+  },
+  {
+   "k": "9rdk7j",
+   "en": "add_named_threat"
+  },
+  {
+   "k": "4jx9w3",
+   "en": "⟦0⟧ The amount to change by. name = <string> The localization string.",
+   "frags": 1
+  },
+  {
+   "k": "1ipc0l7",
+   "en": "threat = <int>"
+  },
+  {
+   "k": "1fdfmhe",
+   "en": "add_named_threat = { threat = 5 name = GER_rhineland }"
+  },
+  {
+   "k": "1aiod6i",
+   "en": "Adjusts the level of World Tension and adds an entry in the World Tension tooltip."
+  },
+  {
+   "k": "1gt9br8",
+   "en": "annex_country"
+  },
+  {
+   "k": "15ukibf",
+   "en": "⟦0⟧ Which country to annex. transfer_troops = yes Whether to transfer the troops of the annexed country.",
+   "frags": 1
+  },
+  {
+   "k": "1395quy",
+   "en": "transfer_troops = yes"
+  },
+  {
+   "k": "13j8n7o",
+   "en": "annex_country = { target = GER transfer_troops = yes }"
+  },
+  {
+   "k": "v8mz4f",
+   "en": "Annex the specified country for the current scope."
+  },
+  {
+   "k": "fo2asa",
+   "en": "Without transfering troops, the annexed country's divisions' equipment is lost."
+  },
+  {
+   "k": "14b0a6l",
+   "en": "add_to_war"
+  },
+  {
+   "k": "1gnd1rm",
+   "en": "⟦0⟧ The country to assist. enemy = <country> The country attacking the ally. hostility_reason = <string> Localization for the reason for joining. Optional.",
+   "frags": 1
+  },
+  {
+   "k": "sawcp8",
+   "en": "targeted_alliance = <country>"
+  },
+  {
+   "k": "12lmj98",
+   "en": "enemy = <country>"
+  },
+  {
+   "k": "192q7ph",
+   "en": "hostility_reason = <string>"
+  },
+  {
+   "k": "11j7w0g",
+   "en": "add_to_war = { targeted_alliance = PREV enemy = HUN hostility_reason = asked_to_join }"
+  },
+  {
+   "k": "1vqcdgh",
+   "en": "Forces the current scope to join the war of the specified ally against the specified enemy."
+  },
+  {
+   "k": "7bb4cc",
+   "en": "declare_war_on"
+  },
+  {
+   "k": "1gg7fur",
+   "en": "⟦0⟧ The country to attack. type = <wargoal> The wargoal to declare with. generator = { <state id> } The states to supply the wargoal (i.e. take_state_focus).",
+   "frags": 1
+  },
+  {
+   "k": "f5g7zj",
+   "en": "type = <wargoal>"
+  },
+  {
+   "k": "w7oftz",
+   "en": "generator = { <state id> }"
+  },
+  {
+   "k": "1vvninq",
+   "en": "declare_war_on = { target = GER type = annex_everything }"
+  },
+  {
+   "k": "twpadq",
+   "en": "Makes the current scope declare war on the specified country with the specified wargoal."
+  },
+  {
+   "k": "550ger",
+   "en": "Wargoal types can be found in ⟦0⟧. See also ⟦1⟧ in order to assign a war between different countries to be a civil war.",
+   "frags": 2
+  },
+  {
+   "k": "ivajk5",
+   "en": "/Hearts of Iron IV/common/wargoals/*.txt"
+  },
+  {
+   "k": "ag1ub7",
+   "en": "add_civil_war_target"
+  },
+  {
+   "k": "14nfpij",
+   "en": "white_peace"
+  },
+  {
+   "k": "190tnd",
+   "en": "⟦0⟧ The scope to white peace. OR tag = <country> / <variable> The scope to white peace. message = <localisation key> The reason for peace showing up in the pop-up.",
+   "frags": 1
+  },
+  {
+   "k": "o6762p",
+   "en": "tag = <country> / <variable>"
+  },
+  {
+   "k": "nfu6fe",
+   "en": "message = <localisation key>"
+  },
+  {
+   "k": "msqo1y",
+   "en": "white_peace = GER white_peace = { tag = GER message = my_peace_tt }"
+  },
+  {
+   "k": "1qla896",
+   "en": "Makes the current scope white peace the specified scope."
+  },
+  {
+   "k": "1251l41",
+   "en": "start_peace_conference"
+  },
+  {
+   "k": "14p72yi",
+   "en": "⟦0⟧ The scope to peace with. score_factor = <decimal> / <variable> The fraction of the total score awarded to the winners compared to regular victory. message = <localisation key> The reason for peace showing up in the pop-up. Optional. winner_scope = <scope type> Which countries should be present in the conference on the winner side alongside the current scope. Optional, defaults to LIMITED_FACTION. loser_scope = <scope type> Which countries should be present in the conference on the loser side alongside the target country. Optional, defaults to LIMITED_FACTION.",
+   "frags": 1
+  },
+  {
+   "k": "xxm72a",
+   "en": "score_factor = <decimal> / <variable>"
+  },
+  {
+   "k": "1kzrbjc",
+   "en": "winner_scope = <scope type>"
+  },
+  {
+   "k": "p2gts0",
+   "en": "loser_scope = <scope type>"
+  },
+  {
+   "k": "5vfbz8",
+   "en": "start_peace_conference = { tag = GER score_factor = 0.4 message = my_peace_tt }"
+  },
+  {
+   "k": "mk40gn",
+   "en": "Makes the current scope start a peace conference with the specified scope on the other side."
+  },
+  {
+   "k": "ti58p2",
+   "en": "Current scope is the winner, target and its subjects are the losers. Can only be used if at war with the target. A score_factor of 0.0 is equivalent to a whitepeace. ⟦0⟧ and ⟦1⟧ have the following possible values: ALL: all countries at war with the other side. FACTION: all countries in the same faction as the current scope or under its overlordship. LIMITED_FACTION: includes faction members if and only if the country is a faction leader, and includes subjects of the country. LIMITED: includes only subjects of the country.",
+   "frags": 2
+  },
+  {
+   "k": "ni2amp",
+   "en": "winner_scope"
+  },
+  {
+   "k": "1jtg5rd",
+   "en": "loser_scope"
+  },
+  {
+   "k": "1e4uez0",
+   "en": "⟦0⟧: all countries at war with the other side.",
+   "frags": 1
+  },
+  {
+   "k": "noujhg",
+   "en": "ALL"
+  },
+  {
+   "k": "17zjtjp",
+   "en": "⟦0⟧: all countries in the same faction as the current scope or under its overlordship.",
+   "frags": 1
+  },
+  {
+   "k": "1jvklbv",
+   "en": "FACTION"
+  },
+  {
+   "k": "19zb8yj",
+   "en": "⟦0⟧: includes faction members if and only if the country is a faction leader, and includes subjects of the country.",
+   "frags": 1
+  },
+  {
+   "k": "13e9tpe",
+   "en": "LIMITED_FACTION"
+  },
+  {
+   "k": "1skj3j2",
+   "en": "⟦0⟧: includes only subjects of the country.",
+   "frags": 1
+  },
+  {
+   "k": "16hx3d1",
+   "en": "LIMITED"
+  },
+  {
+   "k": "1oiucq9",
+   "en": "set_truce"
+  },
+  {
+   "k": "1xcjm3u",
+   "en": "⟦0⟧ The scope to truce with. days = <int> The duration of the truce.",
+   "frags": 1
+  },
+  {
+   "k": "1dyo153",
+   "en": "set_truce = { target = GER days = 90 }"
+  },
+  {
+   "k": "k83d5m",
+   "en": "Makes the current scope truce with the specified scope."
+  },
+  {
+   "k": "1j6aejr",
+   "en": "create_wargoal"
+  },
+  {
+   "k": "1actzxf",
+   "en": "⟦0⟧ The country to target. type = <wargoal> The wargoal to generate. generator = { <state id> } The states to supply the wargoal (i.e. take_state_focus). expire = 365 The amount of days that the wargoal will last before expiring. If unset or set to 0, will never expire.",
+   "frags": 1
+  },
+  {
+   "k": "2762qd",
+   "en": "expire = 365"
+  },
+  {
+   "k": "is1ze4",
+   "en": "create_wargoal = { type = puppet_wargoal_focus target = ROOT } create_wargoal = { type = take_state_focus target = PREV generator = { 123 321 } expire = 90 }"
+  },
+  {
+   "k": "3yhozo",
+   "en": "Grants the current scope a wargoal against the specified country."
+  },
+  {
+   "k": "adaqn2",
+   "en": "Wargoal types can be found in ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "qu45tz",
+   "en": "remove_wargoal"
+  },
+  {
+   "k": "nuqyj6",
+   "en": "⟦0⟧ The country to target. type = <wargoal> The wargoal to remove. \"all\" will remove all wargoals.",
+   "frags": 1
+  },
+  {
+   "k": "1niweom",
+   "en": "remove_wargoal = { type = all target = ROOT }"
+  },
+  {
+   "k": "k2ugdy",
+   "en": "Removes wargoals from the current scope to the specified country."
+  },
+  {
+   "k": "h4o2wj",
+   "en": "⟦0⟧ The ideology of the breakaway country. ruling_party = <ideology> Changes the ideology of the original, player-led country, if set. Optional. size = <float> The size of the breakaway country and the fraction of the original stockpile and military units it will receive by default. Optional, defaults to 0.5. army_ratio = <float> The size of the land army that the breakaway country gets. Optional, defaults to being the same as size. navy_ratio = <float> The size of the naval forces that the breakaway country gets. Optional, defaults to being the same as size. air_ratio = <float> The size of the airforce that the breakaway country gets. Optional, defaults to being the same as size. capital = <state> The capital state of the breakaway country. Optional. states = { <state> } The states included in the breakway country. Optional, defaults to random states based off size. all will result in all states that meet the filter going to the breakaway. states_filter = { <triggers> } A trigger block checked for the state that must be met to be transferred to the breakaway. Optional. keep_unit_leaders = { <unit leader id> } List of unit leaders to be kept by their legacy_id. Optional. keep_unit_leaders_trigger = { <triggers> } Trigger block checked for every unit leader that forces them to be kept if they meet the triggers. The default scope is the unit leader, ROOT is the country receiving the unit leader, while FROM is the original owner of the unit leader. Optional. keep_scientists_trigger = { <triggers> } Trigger for scientist to remain with the original country. keep_political_leader = <bool> Controls if the promoted party leader (i.e. the one that'd take power if the country were to be switched to that ideology group) of the revolting ideology group will be kept by the country or join the revolt, yes resulting in the former. Optional, defaults to false. keep_political_party_members = <bool> Controls if non-promoted party leaders of the revolting ideology group will be kept by the country or join the revolt, yes resulting in the former. Optional, defaults to false. keep_all_characters = yes If true, the revolter will have no characters from the original country transferred to them. Optional, defaults to false. <effects> An effect block executed for the breakaway country.",
+   "frags": 1
+  },
+  {
+   "k": "137iyjr",
+   "en": "original, player-led"
+  },
+  {
+   "k": "1sqyxp3",
+   "en": "size = <float>"
+  },
+  {
+   "k": "sok1q3",
+   "en": "army_ratio = <float>"
+  },
+  {
+   "k": "1ijndtq",
+   "en": "navy_ratio = <float>"
+  },
+  {
+   "k": "x6y0jw",
+   "en": "air_ratio = <float>"
+  },
+  {
+   "k": "1uo9wtd",
+   "en": "capital = <state>"
+  },
+  {
+   "k": "1ewmd3",
+   "en": "states = { <state> }"
+  },
+  {
+   "k": "5b8o90",
+   "en": "all"
+  },
+  {
+   "k": "bmqhy",
+   "en": "states_filter = { <triggers> }"
+  },
+  {
+   "k": "1m29il5",
+   "en": "keep_unit_leaders = { <unit leader id> }"
+  },
+  {
+   "k": "1fdvtbz",
+   "en": "keep_unit_leaders_trigger = { <triggers> }"
+  },
+  {
+   "k": "1hajwzb",
+   "en": "keep_scientists_trigger = { <triggers> }"
+  },
+  {
+   "k": "110sae3",
+   "en": "keep_political_leader = <bool>"
+  },
+  {
+   "k": "1xn6r5a",
+   "en": "keep_political_party_members = <bool>"
+  },
+  {
+   "k": "1subwul",
+   "en": "keep_all_characters = yes"
+  },
+  {
+   "k": "1uktj9f",
+   "en": "start_civil_war = { ruling_party = communism # Original country's ideology changes to communism ideology = ROOT # Breakaway gets old ideology of ROOT size = 0.8 capital = 282 states = { 282 533 536 555 529 530 528 } keep_unit_leaders = { 750 751 752 } keep_political_leader = yes keep_political_party_members = yes } start_civil_war = { ideology = democratic size = 0.1 states = all states_filter = { is_on_continent = europe is_capital = no } set_country_flag = TAG_my_country_tag_alias_trigger # Sets a country flag that gets used in a country tag alias. } (See country tag aliases) start_civil_war = { ideology = neutrality size = 0.1 army_ratio = 0.5 navy_ratio = 0 air_ratio = 1 keep_unit_leaders_trigger = { has_trait = my_trait_name } keep_all_characters = yes PREV = { # Original country TAG_airforce_leader = { # Character set_nationality = PREV.PREV # Transfers to breakaway } } promote_character = TAG_airforce_leader } (See usage for PREV and PREV.PREV)"
+  },
+  {
+   "k": "196thq6",
+   "en": "See country tag aliases"
+  },
+  {
+   "k": "4e5jys",
+   "en": "See usage for PREV and PREV.PREV"
+  },
+  {
+   "k": "11haa9a",
+   "en": "Starts a civil war for the current scope with the specified parameters."
+  },
+  {
+   "k": "1sbszs7",
+   "en": "⟦0⟧ would include every single state controlled by the country. ⟦1⟧. ⟦2⟧ can be used to change the capital beforehand, with ⟦3⟧ being used to set it back to the default after the civil war ends. Elections will always be disallowed for the breakaway. If the ruling_party attribute is used, the original country will have its elections disallowed. In the base game files, an on action is set up to ensure that elections get allowed if the democratic side wins the civil war. A civil war started via this effect cannot have more than two sides and the effect cannot be used in history or bookmark's effect = { ... }. For adding more sides or starting one before the game's start, this can be simulated by setting an existing war (typically originating from a dynamic country created via create_dynamic_country) as a civil war via add_civil_war_target.",
+   "frags": 4
+  },
+  {
+   "k": "6xtflv",
+   "en": "states = all"
+  },
+  {
+   "k": "15wof6k",
+   "en": "If the country's current capital state is set as one of the states that the revolt can gain, it won't fire"
+  },
+  {
+   "k": "1ayscv7",
+   "en": "on_civil_war_end"
+  },
+  {
+   "k": "1srovwj",
+   "en": "ruling_party"
+  },
+  {
+   "k": "1jl1qqy",
+   "en": "on action"
+  },
+  {
+   "k": "knle5b",
+   "en": "history"
+  },
+  {
+   "k": "18ep1c3",
+   "en": "bookmark's effect = { ... }"
+  },
+  {
+   "k": "1s371bv",
+   "en": "⟦0⟧ - The country to set as the target.",
+   "frags": 1
+  },
+  {
+   "k": "umse9o",
+   "en": "add_civil_war_target = TAG"
+  },
+  {
+   "k": "1mmfir1",
+   "en": "Sets that the war between ROOT and TAG is a civil war, resulting in the victory being the annexation of the other side and setting world tension limits on intervention."
+  },
+  {
+   "k": "u7lj8q",
+   "en": "ROOT and TAG must already be at war with each other for the effect to take place."
+  },
+  {
+   "k": "14xb6ug",
+   "en": "remove_civil_war_target"
+  },
+  {
+   "k": "of47uz",
+   "en": "remove_civil_war_target = TAG"
+  },
+  {
+   "k": "b14vi7",
+   "en": "Removes the status of the war as a civil war between the pair of countries."
+  },
+  {
+   "k": "1g3ug43",
+   "en": "The ongoing war must already be marked as a civil war, whether it was initiated by ⟦0⟧ or ⟦1⟧ was used to mark it as one.",
+   "frags": 2
+  },
+  {
+   "k": "f0d9n9",
+   "en": "transfer_units_fraction"
+  }
+ ]
+}

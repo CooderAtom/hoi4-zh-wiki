@@ -1,0 +1,535 @@
+{
+ "page": "Terrain",
+ "items": [
+  {
+   "k": "155fdzn",
+   "en": "This article describes ⟦0⟧. For naval terrain, see ⟦1⟧.",
+   "zh": ""
+  },
+  {
+   "k": "q6z2i3",
+   "en": "See also: Weather",
+   "zh": ""
+  },
+  {
+   "k": "87w9fw",
+   "en": "The ⟦0⟧ of land ⟦1⟧ can affect the movement and combat performance of units, and cause ⟦2⟧. Harsh terrain tends to favor the defender.",
+   "zh": ""
+  },
+  {
+   "k": "ogry8q",
+   "en": "Legend:",
+   "zh": ""
+  },
+  {
+   "k": "cej54s",
+   "en": "desert",
+   "zh": ""
+  },
+  {
+   "k": "1uj1hzv",
+   "en": "hills",
+   "zh": ""
+  },
+  {
+   "k": "kh4qle",
+   "en": "mountain",
+   "zh": ""
+  },
+  {
+   "k": "1mxzqfl",
+   "en": "ocean",
+   "zh": ""
+  },
+  {
+   "k": "5we7uf",
+   "en": "lakes",
+   "zh": ""
+  },
+  {
+   "k": "1lckmbk",
+   "en": "marsh",
+   "zh": ""
+  },
+  {
+   "k": "lypqw0",
+   "en": "forest",
+   "zh": ""
+  },
+  {
+   "k": "1uumbz8",
+   "en": "jungle",
+   "zh": ""
+  },
+  {
+   "k": "szprwc",
+   "en": "plains",
+   "zh": ""
+  },
+  {
+   "k": "1904vq3",
+   "en": "urban",
+   "zh": ""
+  },
+  {
+   "k": "z1nj9d",
+   "en": "Each land province has a terrain type, which is shown when the province is selected.",
+   "zh": ""
+  },
+  {
+   "k": "k9rl8p",
+   "en": "⟦0⟧ Maximum amount of battalions that can fight in a province. \"+Additional attacks\" is how much combat width will be added for each extra direction of attack into the province.",
+   "zh": ""
+  },
+  {
+   "k": "eehvql",
+   "en": "Combat width:",
+   "zh": ""
+  },
+  {
+   "k": "1rkk6xz",
+   "en": "⟦0⟧ Increases the distance units have to travel by this factor.",
+   "zh": ""
+  },
+  {
+   "k": "z5ss7p",
+   "en": "Movement cost:",
+   "zh": ""
+  },
+  {
+   "k": "ixtdvi",
+   "en": "⟦0⟧ When at war, land units moving from this terrain type suffer this amount of attrition.",
+   "zh": ""
+  },
+  {
+   "k": "mustr7",
+   "en": "Attrition:",
+   "zh": ""
+  },
+  {
+   "k": "r3hhi0",
+   "en": "⟦0⟧ Adjuster to the attacker's soft/hard attack and breakthrough when the defender is in this terrain.",
+   "zh": ""
+  },
+  {
+   "k": "njqzp",
+   "en": "Attack:",
+   "zh": ""
+  },
+  {
+   "k": "q8n933",
+   "en": "⟦0⟧ If the enemy has air superiority, their bonus is reduced by this amount.",
+   "zh": ""
+  },
+  {
+   "k": "11ehkjc",
+   "en": "Enemy air superiority:",
+   "zh": ""
+  },
+  {
+   "k": "1d6srf5",
+   "en": "⟦0⟧ The maximum level of ⟦1⟧ that can be built in the province as a baseline, can be improved through ⟦2⟧ technologies.",
+   "zh": ""
+  },
+  {
+   "k": "q1we9a",
+   "en": "Maximum fort level:",
+   "zh": ""
+  },
+  {
+   "k": "u1ridb",
+   "en": "fortification engineering",
+   "zh": ""
+  },
+  {
+   "k": "v4pk6o",
+   "en": "⟦0⟧ Army leaders may become temporarily ⟦1⟧ when at least 75% of the units they are commending are in this terrain.",
+   "zh": ""
+  },
+  {
+   "k": "g9upl2",
+   "en": "Sickness:",
+   "zh": ""
+  },
+  {
+   "k": "1e1ftt3",
+   "en": "Sick",
+   "zh": ""
+  },
+  {
+   "k": "1kr43jt",
+   "en": "⟦0⟧ Reduces the flow of ⟦1⟧ into a province with this terrain.",
+   "zh": ""
+  },
+  {
+   "k": "1y6lrbw",
+   "en": "Supply flow penalty factor:",
+   "zh": ""
+  },
+  {
+   "k": "mmlbxj",
+   "en": "hub supply",
+   "zh": ""
+  },
+  {
+   "k": "if4bo4",
+   "en": "⟦0⟧ Increases the rate of attrition for trucks used to ⟦1⟧ in this terrain.",
+   "zh": ""
+  },
+  {
+   "k": "8kbqtf",
+   "en": "Truck attrition factor:",
+   "zh": ""
+  },
+  {
+   "k": "jc5wdp",
+   "en": "motorize supply hubs",
+   "zh": ""
+  },
+  {
+   "k": "1biuksv",
+   "en": "⟦0⟧ Biases temperatures in the province by a certain amount, also affecting neighboring provinces.",
+   "zh": ""
+  },
+  {
+   "k": "pa78ys",
+   "en": "Temperature bias:",
+   "zh": ""
+  },
+  {
+   "k": "1bs3bh",
+   "en": "Movement cost",
+   "zh": ""
+  },
+  {
+   "k": "1m1ooy3",
+   "en": "Attrition (equipment loss)",
+   "zh": ""
+  },
+  {
+   "k": "h12ok2",
+   "en": "Enemy air superiority",
+   "zh": ""
+  },
+  {
+   "k": "19dzeu8",
+   "en": "Maximum fort level",
+   "zh": ""
+  },
+  {
+   "k": "1fe8g48",
+   "en": "Sickness",
+   "zh": ""
+  },
+  {
+   "k": "15c63im",
+   "en": "Supply flow penalty factor",
+   "zh": ""
+  },
+  {
+   "k": "1oy6zjf",
+   "en": "Truck attrition factor",
+   "zh": ""
+  },
+  {
+   "k": "1b49psp",
+   "en": "Temperature bias ⟦0⟧⟦1⟧",
+   "zh": ""
+  },
+  {
+   "k": "o9uabs",
+   "en": "(Degrees C)",
+   "zh": ""
+  },
+  {
+   "k": "k28unr",
+   "en": "Graphic (normal)",
+   "zh": ""
+  },
+  {
+   "k": "1oj8y1x",
+   "en": "Graphic (Winter)",
+   "zh": ""
+  },
+  {
+   "k": "15eoolc",
+   "en": "Forest",
+   "zh": ""
+  },
+  {
+   "k": "15hfyez",
+   "en": "Hills",
+   "zh": ""
+  },
+  {
+   "k": "1poe7gk",
+   "en": "Jungle",
+   "zh": ""
+  },
+  {
+   "k": "18kxsps",
+   "en": "Marsh",
+   "zh": ""
+  },
+  {
+   "k": "ntjuzg",
+   "en": "Plains",
+   "zh": ""
+  },
+  {
+   "k": "1r0tbvi",
+   "en": "Lake",
+   "zh": ""
+  },
+  {
+   "k": "1f1nnzz",
+   "en": "Paths",
+   "zh": ""
+  },
+  {
+   "k": "1dbqrdy",
+   "en": "A path between two adjacent provinces is the straight line between their centers. It is traced on a pixel grid⟦0⟧, making diagonal lines noticeably longer than north-south and east-west lines. The terrain along this path (along with its distance) determines its movement cost.",
+   "zh": ""
+  },
+  {
+   "k": "dait36",
+   "en": "The path may consist of the source and target province's terrain in varying proportions or even different terrains altogether. For example the path between two coastal mountain provinces at a fjord might consist of 40% mountain and 60% ocean, resulting in ⟦0⟧ movement cost for this path instead of ⟦1⟧ in a pure mountain range.",
+   "zh": ""
+  },
+  {
+   "k": "1e7rp10",
+   "en": "The path also determines whether direction-dependent terrain features apply.",
+   "zh": ""
+  },
+  {
+   "k": "1sukoci",
+   "en": "The path cost of amphibious landings is fixed at 24⟦0⟧ pixels (170.736 km).⟦1⟧",
+   "zh": ""
+  },
+  {
+   "k": "18o9b59",
+   "en": "Terrain features",
+   "zh": ""
+  },
+  {
+   "k": "1073e7f",
+   "en": "Terrain features can apply adjusters and modifiers in addition to the base terrain. They stack multiplicatively with base terrain values. Unlike other terrain modifiers, they only affect the attacker because many depend on the specific path the attackers take, and the defender might fight against attackers from different directions. Attack adjusters apply to the attacker's soft and hard attack, and the defense adjusters apply to their breakthrough.",
+   "zh": ""
+  },
+  {
+   "k": "1syzsdc",
+   "en": "⟦0⟧ ⟦1⟧ to attack and defense and ⟦2⟧ to movement.",
+   "zh": ""
+  },
+  {
+   "k": "lp602s",
+   "en": "Small river:",
+   "zh": ""
+  },
+  {
+   "k": "1ex3zng",
+   "en": "Large river:",
+   "zh": ""
+  },
+  {
+   "k": "ta274u",
+   "en": "⟦0⟧ ⟦1⟧ to attack and defense.",
+   "zh": ""
+  },
+  {
+   "k": "bwcwr3",
+   "en": "Amphibious landing:",
+   "zh": ""
+  },
+  {
+   "k": "1waqdr1",
+   "en": "⟦0⟧ ⟦1⟧ to attack and defense per level of the fort, up to ⟦2⟧ at level 10.",
+   "zh": ""
+  },
+  {
+   "k": "1tjtuyq",
+   "en": "Fort:",
+   "zh": ""
+  },
+  {
+   "k": "xa2tbo",
+   "en": "The river adjuster applies when a path intersects a river. If a river modifier is applied in combat, this also enables certain ⟦0⟧.",
+   "zh": ""
+  },
+  {
+   "k": "x5mefs",
+   "en": "The amphibious landing penalty applies when a unit attacks a land province from a sea province. It also applies on top of a multiplicative scaling modifier of ⟦0⟧⟦1⟧ to the attackers' soft and hard attack and ⟦2⟧⟦3⟧ to their breakthrough that slowly disappears over the course of combat.⟦4⟧ Both of these modifiers and the speed at which they disappear is affected by ⟦5⟧. The movement speed of a naval invasion is fixed to a speed of 3.557 km/h⟦6⟧⟦7⟧ that can be increased or decreased through division terrain modifiers.",
+   "zh": ""
+  },
+  {
+   "k": "ncho1k",
+   "en": "transport technologies",
+   "zh": ""
+  },
+  {
+   "k": "1m4o8mi",
+   "en": "The fort adjuster applies to ⟦0⟧ in all directions, though not to naval invasions. Flanking attacks diminish this penalty, with each additional direction of attacking reducing the effective level of a fort by 1 (i.e., effectively acting as a ⟦1⟧ adjuster). ⟦2⟧ reduce the attack when attacking in a naval invasion and when attacking across a strait.",
+   "zh": ""
+  },
+  {
+   "k": "vqc823",
+   "en": "Unit-specific adjusters",
+   "zh": ""
+  },
+  {
+   "k": "1y5y9z0",
+   "en": "Main article: List of terrain adjusters by unit",
+   "zh": ""
+  },
+  {
+   "k": "urpc3t",
+   "en": "Units may have specific adjusters in addition to the base terrain and terrain feature adjusters. The net adjuster for a division is the average of its combat battalions, plus the sum of the adjusters of its support battalions. Divisions lacking manpower have proportionately smaller bonuses and penalties.",
+   "zh": ""
+  },
+  {
+   "k": "ah0by",
+   "en": "For adjusters to regular terrain, the attack value modifies the attacker's soft attack, hard attack, and breakthrough, and the defense value modifies the defender's soft attack, hard attack, and defense.",
+   "zh": ""
+  },
+  {
+   "k": "1mwkaxu",
+   "en": "Terrain feature adjusters work differently than regular terrain modifiers, with both attack and defense value modifiers affecting attackers:",
+   "zh": ""
+  },
+  {
+   "k": "a04wjy",
+   "en": "For river adjusters, the attack value modifies the attacker's soft and hard attack, and the defense value modifies the attacker's breakthrough. Defenders cannot get river adjusters.",
+   "zh": ""
+  },
+  {
+   "k": "14qfoi",
+   "en": "For fort adjusters, the attack value modifiers the attacker's soft and hard attack, and the defense value modifiers the attacker's breakthrough and the defender's defense.",
+   "zh": ""
+  },
+  {
+   "k": "1xh6d3t",
+   "en": "For the amphibious adjusters, the attack value modifiers the attacker's soft attack, hard attack, and breakthrough, and the defense value does nothing. Defenders cannot get amphibious adjusters.",
+   "zh": ""
+  },
+  {
+   "k": "1nvprsr",
+   "en": "For attackers, these adjusters apply additively onto the base adjusters from the given terrain feature, effectively negating their penalties. Amphibious and fort attack adjusters are capped by the base penalties of their respective terrain features and cannot exceed those penalties to produce overall terrain bonuses, while river adjusters can. Fort defense modifiers also have no cap for defenders.",
+   "zh": ""
+  },
+  {
+   "k": "nekxk",
+   "en": "Units move at the slowest speed of a combat battalion, adjusted for terrain. Some support companies can also affect a division's movement speed, either increasing it in certain types of terrain and/or decreasing it as a result of being slower than the rest of the division.",
+   "zh": ""
+  },
+  {
+   "k": "1457y0z",
+   "en": "file Hearts of Iron IV\\common\\weather.txt",
+   "zh": ""
+  },
+  {
+   "k": "1yqa9ua",
+   "en": "wp:Bresenham's_line_algorithm",
+   "zh": ""
+  },
+  {
+   "k": "q7x6l1",
+   "en": "NDefines.NNavy.AMPHIBIOUS_INVADE_MOVEMENT_COST = 24",
+   "zh": ""
+  },
+  {
+   "k": "jzyq38",
+   "en": "NDefines.NGame.MAP_SCALE_PIXEL_TO_KM = 7.114",
+   "zh": ""
+  },
+  {
+   "k": "19os26i",
+   "en": "NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.3",
+   "zh": ""
+  },
+  {
+   "k": "wi1cuk",
+   "en": "NDefines.NMilitary.RIVER_CROSSING_SPEED_PENALTY = -0.25",
+   "zh": ""
+  },
+  {
+   "k": "q9m2nl",
+   "en": "NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.6",
+   "zh": ""
+  },
+  {
+   "k": "bjkgd0",
+   "en": "NDefines.NMilitary.RIVER_CROSSING_SPEED_PENALTY_LARGE = -0.5",
+   "zh": ""
+  },
+  {
+   "k": "1nmfvvd",
+   "en": "NDefines.NNavy.AMPHIBIOUS_LANDING_PENALTY = -0.5",
+   "zh": ""
+  },
+  {
+   "k": "1plwjmj",
+   "en": "NDefines.NMilitary.BASE_FORT_PENALTY = -0.15",
+   "zh": ""
+  },
+  {
+   "k": "4x7yn1",
+   "en": "NDefines.NNavy.AMPHIBIOUS_INVADE_ATTACK_LOW = 0.2",
+   "zh": ""
+  },
+  {
+   "k": "1jst2rf",
+   "en": "NDefines.NNavy.AMPHIBIOUS_INVADE_DEFEND_LOW = 1.5",
+   "zh": ""
+  },
+  {
+   "k": "1lzffag",
+   "en": "NDefines.NNavy.AMPHIBIOUS_INVADE_ATTACK_HIGH = 1",
+   "zh": ""
+  },
+  {
+   "k": "5xnebg",
+   "en": "NDefines.NNavy.AMPHIBIOUS_INVADE_DEFEND_HIGH = 1",
+   "zh": ""
+  },
+  {
+   "k": "1oyy2am",
+   "en": "NDefines.NNavy.AMPHIBIOUS_INVADE_LANDING_PENALTY_DECREASE = 3.5",
+   "zh": ""
+  },
+  {
+   "k": "qfhyyo",
+   "en": "NDefines.NNavy.AMPHIBIOUS_INVADE_SPEED_BASE = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "n658o5",
+   "en": "NMilitary.RIVER_CROSSING_PENALTY",
+   "zh": ""
+  },
+  {
+   "k": "c1jeqh",
+   "en": "NMilitary.RIVER_CROSSING_SPEED_PENALTY",
+   "zh": ""
+  },
+  {
+   "k": "ha3zd",
+   "en": "NMilitary.RIVER_CROSSING_PENALTY_LARGE",
+   "zh": ""
+  },
+  {
+   "k": "19brsal",
+   "en": "NMilitary.RIVER_CROSSING_SPEED_PENALTY_LARGE",
+   "zh": ""
+  },
+  {
+   "k": "9ge4iq",
+   "en": "NNavy.AMPHIBIOUS_LANDING_PENALTY",
+   "zh": ""
+  },
+  {
+   "k": "d97yvp",
+   "en": "NMilitary.BASE_FORT_PENALTY",
+   "zh": ""
+  }
+ ]
+}

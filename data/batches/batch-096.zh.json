@@ -1,0 +1,1121 @@
+{
+ "batch": 96,
+ "items": [
+  {
+   "k": "9z3xfd",
+   "zh": "处于防御战争中的影响"
+  },
+  {
+   "k": "9rtly3",
+   "zh": "WAR_SUPPORT_TENSION_IMPACT"
+  },
+  {
+   "k": "1cgfxxo",
+   "zh": "世界紧张度的总影响"
+  },
+  {
+   "k": "y4ttoj",
+   "zh": "MIN_STABILITY"
+  },
+  {
+   "k": "1hql4mp",
+   "zh": "MAX_STABILITY"
+  },
+  {
+   "k": "1622v3m",
+   "zh": "MIN_WAR_SUPPORT"
+  },
+  {
+   "k": "1ckxprc",
+   "zh": "MAX_WAR_SUPPORT"
+  },
+  {
+   "k": "16bytbw",
+   "zh": "FRONT_PROVINCE_SCORE"
+  },
+  {
+   "k": "tc9es9",
+   "zh": "一条前线上单个省份的最高分数。用于敌方部队警报"
+  },
+  {
+   "k": "7q7zg7",
+   "zh": "MAJOR_IC_RATIO"
+  },
+  {
+   "k": "1rnsue1",
+   "zh": "相对于其他国家被认定为主要国家所需的工厂总数差值"
+  },
+  {
+   "k": "1f2d548",
+   "zh": "MAJOR_MIN_FACTORIES"
+  },
+  {
+   "k": "q0axtp",
+   "zh": "至少需要这么多工厂才能成为主要国家"
+  },
+  {
+   "k": "oaguc1",
+   "zh": "MAX_INTELLIGENCE_DIFFERENCE"
+  },
+  {
+   "k": "1m9yml7",
+   "zh": "（旧情报系统）国家之间情报等级的最大差值"
+  },
+  {
+   "k": "cil7f2",
+   "zh": "INTEL_FROM_ALLIANCE_FACTOR"
+  },
+  {
+   "k": "17lqphr",
+   "zh": "乘以某国情报值与阵营内最高值之间的差值，以计算从阵营流入该国的情报量。0 表示阵营不提供任何贡献，1 表示该国情报值与阵营内最高值相同。"
+  },
+  {
+   "k": "14uyan2",
+   "zh": "MAX_INTELLIGENCE_DATA_DEVIATION"
+  },
+  {
+   "k": "hwv707",
+   "zh": "（旧情报系统）估算默认间谍活动数值时的最大偏差（ 0.0 - 1.0 ）"
+  },
+  {
+   "k": "13acccm",
+   "zh": "MAX_INTELLIGENCE_MILITARY_DATA_DEVIATION"
+  },
+  {
+   "k": "1lmjghx",
+   "zh": "（旧情报系统）估算敌方军事单位数量时的最大偏差（ 0.0 - 1.0 ）"
+  },
+  {
+   "k": "1mot5hb",
+   "zh": "MAX_INTELLIGENCE_NAVY_DATA_DEVIATION"
+  },
+  {
+   "k": "146nie0",
+   "zh": "（旧情报系统）估算敌方舰船数量时的最大偏差（ 0.0 - 1.0 ）"
+  },
+  {
+   "k": "1ud0mkv",
+   "zh": "MAX_INTELLIGENCE_AIR_DATA_DEVIATION"
+  },
+  {
+   "k": "jtm3vo",
+   "zh": "（旧情报系统）估算敌方飞机数量时的最大偏差（ 0.0 - 1.0 ）"
+  },
+  {
+   "k": "13vust",
+   "zh": "MAX_INTELLIGENCE_CONVOY_DATA_DEVIATION"
+  },
+  {
+   "k": "1pg7pvo",
+   "zh": "（旧情报系统）估算敌方运输船队数量时的最大偏差（ 0.0 - 1.0 ）"
+  },
+  {
+   "k": "1vpkin0",
+   "zh": "MAX_INTELLIGENCE_MANPOWER_DATA_DEVIATION"
+  },
+  {
+   "k": "p1n5hs",
+   "zh": "（旧情报系统）估算敌方总人力数量时的最大偏差（ 0.0 - 1.0 ）"
+  },
+  {
+   "k": "1vra5pe",
+   "zh": "MAX_INTELLIGENCE_FIELDED_MANPOWER_DATA_DEVIATION"
+  },
+  {
+   "k": "nert2b",
+   "zh": "（旧情报系统）估算敌方在编人力数量时的最大偏差（ 0.0 - 1.0 ）"
+  },
+  {
+   "k": "cu9qr9",
+   "zh": "MAX_INTELLIGENCE_INDUSTRY_DATA_DEVIATION"
+  },
+  {
+   "k": "kgb15e",
+   "zh": "（旧情报系统）估算敌方工业总量时的最大偏差"
+  },
+  {
+   "k": "1wrbxnp",
+   "zh": "MIN_MANPOWER_RATIO"
+  },
+  {
+   "k": "1oways8",
+   "zh": "显示人力警报所需的最低人力比例"
+  },
+  {
+   "k": "1jsjxrj",
+   "zh": "ARMY_IMPORTANCE_FACTOR"
+  },
+  {
+   "k": "1b5e93v",
+   "zh": "用于 AI 与计算的陆军系数"
+  },
+  {
+   "k": "1xof2n5",
+   "zh": "TERRAIN_IMPORTANCE_FACTOR"
+  },
+  {
+   "k": "tko13v",
+   "zh": "州战略价值的地形基础系数"
+  },
+  {
+   "k": "1us1ziu",
+   "zh": "VICTORY_POINTS_IMPORTANCE_FACTOR"
+  },
+  {
+   "k": "s1z3be",
+   "zh": "用于 AI 与计算的州胜利点重要度系数"
+  },
+  {
+   "k": "17h0ew2",
+   "zh": "BUILDING_IMPORTANCE_FACTOR"
+  },
+  {
+   "k": "1j41vdr",
+   "zh": "用于 AI 与计算的州建筑重要度系数"
+  },
+  {
+   "k": "abpmle",
+   "zh": "RESOURCE_IMPORTANCE_FACTOR"
+  },
+  {
+   "k": "jbokqb",
+   "zh": "用于 AI 与计算的州资源重要度系数"
+  },
+  {
+   "k": "jk87k5",
+   "zh": "INTERPOLATED_FRONT_STEPS_SHORT"
+  },
+  {
+   "k": "1yewpt6",
+   "zh": "性能优化——插值前线的步数。非 AI 国家获得完整插值前线，其余国家使用其优化版本。"
+  },
+  {
+   "k": "1sa8tfv",
+   "zh": "MIN_AIR_RESERVE_RATIO"
+  },
+  {
+   "k": "37bsw",
+   "zh": "显示空军预备役警报所需的最低人力比例"
+  },
+  {
+   "k": "11vimrj",
+   "zh": "POLITICAL_POWER_LOWER_CAP"
+  },
+  {
+   "k": "uknnr1",
+   "zh": "国家应拥有的政治点数下限"
+  },
+  {
+   "k": "1wytd5u",
+   "zh": "POLITICAL_POWER_UPPER_CAP"
+  },
+  {
+   "k": "ixg76f",
+   "zh": "国家应拥有的政治点数上限"
+  },
+  {
+   "k": "1fbxexg",
+   "zh": "RESISTANCE_IMPORTANT_LEVEL"
+  },
+  {
+   "k": "pi7dfe",
+   "zh": "抵抗度达到该等级时变得危险"
+  },
+  {
+   "k": "phtszd",
+   "zh": "RESISTANCE_IMPORTANT_COUNTRY_LEVEL"
+  },
+  {
+   "k": "1adohjv",
+   "zh": "一国平均抵抗度达到该等级时变得危险"
+  },
+  {
+   "k": "172lzj4",
+   "zh": "MIN_MAJOR_COUNTRIES"
+  },
+  {
+   "k": "cxzzxr",
+   "zh": "MIN_MAJOR_COUNTRIES 个工厂最多的国家将被视作主要国家"
+  },
+  {
+   "k": "15be2aw",
+   "zh": "ADDITIONAL_MAJOR_COUNTRIES_IC_RATIO"
+  },
+  {
+   "k": "1k751dk",
+   "zh": "当某国工厂数超过工厂数排名前 MIN_MAJOR_COUNTRIES 的国家平均值乘以 ADDITIONAL_MAJOR_COUNTRIES_IC_RATIO 时，该国也会被视作主要国家"
+  },
+  {
+   "k": "91lw5t",
+   "zh": "BASE_TENSION_MAJOR_COUNTRY_INDEX"
+  },
+  {
+   "k": "2lhdho",
+   "zh": "缩放产生的世界紧张度时，哪一个主要国家应被视为基准国家。0 表示工厂最多的国家，1 表示工厂数第二多的国家，依此类推。该数值必须小于 MIN_MAJOR_COUNTRIES"
+  },
+  {
+   "k": "vez4oy",
+   "zh": "MIN_NAVAL_SUPPLY_EFFICIENCY"
+  },
+  {
+   "k": "1g7y3lb",
+   "zh": "补给被视为经由海上路线从首都送达所需的最低比例"
+  },
+  {
+   "k": "s28fhj",
+   "zh": "PARADROP_AIR_SUPERIORITY_RATIO"
+  },
+  {
+   "k": "16nxd6i",
+   "zh": "执行空降所需的制空权最低比例"
+  },
+  {
+   "k": "oysh9k",
+   "zh": "STATE_VALUE_BASE"
+  },
+  {
+   "k": "uddzs7",
+   "zh": "州的基础价值（该价值用于确定和平会议等场合的花费）"
+  },
+  {
+   "k": "5tn6cq",
+   "zh": "STATE_VALUE_BUILDING_SLOTS_MULT"
+  },
+  {
+   "k": "tpuu3g",
+   "zh": "一个州中每个建筑槽位的价值"
+  },
+  {
+   "k": "692kxa",
+   "zh": "STATE_VALUE_MANPOWER_FACTOR"
+  },
+  {
+   "k": "12bn5pn",
+   "zh": "每 10k 人口按此提高州花费（因此 3.1M 变为 310，再乘以该值）"
+  },
+  {
+   "k": "1sqzlav",
+   "zh": "INVASION_REPORT_EXPERATION_DAYS"
+  },
+  {
+   "k": "rrf5xu",
+   "zh": "登陆作战报告的有效天数"
+  },
+  {
+   "k": "2lm7q",
+   "zh": "MIN_FOCUSES_FOR_CONTINUOUS"
+  },
+  {
+   "k": "vad15a",
+   "zh": "解锁持续性焦点所需的焦点数量"
+  },
+  {
+   "k": "1ukjk5t",
+   "zh": "AUTONOMOUS_TOTAL_SCORE"
+  },
+  {
+   "k": "nn0zam",
+   "zh": "自治度等级的总分数"
+  },
+  {
+   "k": "1ex2hoy",
+   "zh": "AUTONOMOUS_SPILLOVER"
+  },
+  {
+   "k": "wi1a49",
+   "zh": "可结转到下一等级的总分数"
+  },
+  {
+   "k": "1gt01v1",
+   "zh": "CIVIL_WAR_INVOLVEMENT_MIN_TENSION"
+  },
+  {
+   "k": "aajj8l",
+   "zh": "使其他国家卷入内战的世界紧张度基础值"
+  },
+  {
+   "k": "11bvrsf",
+   "zh": "UNCAPITULATE_LEVEL"
+  },
+  {
+   "k": "z1tqlw",
+   "zh": "若我们夺回这一比例的领土以及首都，则重置投降状态"
+  },
+  {
+   "k": "1lod3kl",
+   "zh": "BASE_SURRENDER_LIMIT"
+  },
+  {
+   "k": "ak6ats",
+   "zh": "国家投降所需的基础占领比例"
+  },
+  {
+   "k": "1bxdzd3",
+   "zh": "SURRENDER_LIMIT_MULT_FOR_COUNTRIES_WITH_NO_CORES"
+  },
+  {
+   "k": "1iwg6bj",
+   "zh": "不拥有核心领土的国家，其投降界限将乘以该数值"
+  },
+  {
+   "k": "cmk9i6",
+   "zh": "MIN_SURRENDER_LIMIT"
+  },
+  {
+   "k": "enrm9b",
+   "zh": "最低非强制投降界限。有效值 0-1"
+  },
+  {
+   "k": "1pay2g",
+   "zh": "BASE_MOBILIZATION_SPEED"
+  },
+  {
+   "k": "hu5idu",
+   "zh": "人力动员的基础速度 #以 1% 的 1/1000 为单位（即 0.001%）"
+  },
+  {
+   "k": "x96wv1",
+   "zh": "INTERCEPTION_WAR_SUPPORT_SCALE"
+  },
+  {
+   "k": "1ltooo",
+   "zh": "拦截对战争支持度影响的缩放系数"
+  },
+  {
+   "k": "jp387m",
+   "zh": "INTERCEPTION_BOMBING_WAR_SUPPORT_IMPACT"
+  },
+  {
+   "k": "fwe0cm",
+   "zh": "拦截对战争支持度的最大影响"
+  },
+  {
+   "k": "10bx9wx",
+   "zh": "BOMBING_WAR_SUPPORT_PENALTY_SCALE"
+  },
+  {
+   "k": "1huuwl6",
+   "zh": "轰炸机造成的破坏对战争支持度影响的缩放系数，将每周作为战争支持度惩罚累加"
+  },
+  {
+   "k": "6mq3q3",
+   "zh": "MAX_BOMBING_WEEKLY_WAR_SUPPORT_PENALTY"
+  },
+  {
+   "k": "q1xokm",
+   "zh": "每周因轰炸机造成的破坏而获得的最大惩罚"
+  },
+  {
+   "k": "1w5upbd",
+   "zh": "BOMBING_WEEKLY_WAR_SUPPORT_PENALTY_DECAY"
+  },
+  {
+   "k": "1m74lx1",
+   "zh": "轰炸机破坏所致的战争支持度惩罚的每周衰减"
+  },
+  {
+   "k": "1q2f8ba",
+   "zh": "MAX_BOMBING_WAR_SUPPORT_IMPACT"
+  },
+  {
+   "k": "1dspjew",
+   "zh": "轰炸机造成的破坏带来的最大总惩罚"
+  },
+  {
+   "k": "1xcai79",
+   "zh": "HEROES_BEING_KILLED_WAR_SUPPORT_PENALTY_SCALE"
+  },
+  {
+   "k": "cqk4q5",
+   "zh": "战斗英雄人力损失对战争支持度影响的缩放系数，将每周作为战争支持度惩罚累加"
+  },
+  {
+   "k": "1deivvj",
+   "zh": "MAX_HEROES_BEING_KILLED_WEEKLY_WAR_SUPPORT_PENALTY"
+  },
+  {
+   "k": "o0sc93",
+   "zh": "每周因战斗英雄人力损失而获得的最大惩罚"
+  },
+  {
+   "k": "6n563x",
+   "zh": "HEROES_BEING_KILLED_WEEKLY_WAR_SUPPORT_PENALTY_DECAY"
+  },
+  {
+   "k": "qh8de4",
+   "zh": "战斗英雄人力损失所致的战争支持度惩罚的每周衰减"
+  },
+  {
+   "k": "1g4smte",
+   "zh": "MAX_HEROES_BEING_KILLED_WAR_SUPPORT_IMPACT"
+  },
+  {
+   "k": "7zfx0l",
+   "zh": "战斗英雄人力损失带来的最大总惩罚"
+  },
+  {
+   "k": "850ehd",
+   "zh": "WAR_SUPPORT_FROM_CASUALTIES"
+  },
+  {
+   "k": "129qmob",
+   "zh": "计算战斗英雄阵亡的基础值（取倒数）"
+  },
+  {
+   "k": "wqnxmm",
+   "zh": "CONVOYS_BEING_RAIDED_WAR_SUPPORT_PENALTY_SCALE"
+  },
+  {
+   "k": "oy85i9",
+   "zh": "贸易运输船队遭袭对战争支持度影响的缩放系数，将每周作为战争支持度惩罚累加"
+  },
+  {
+   "k": "1gzysvc",
+   "zh": "MAX_CONVOYS_BEING_RAIDED_WEEKLY_WAR_SUPPORT_PENALTY"
+  },
+  {
+   "k": "ro5iah",
+   "zh": "每周因贸易运输船队遭袭而获得的最大惩罚"
+  },
+  {
+   "k": "ox0rgk",
+   "zh": "CONVOYS_BEING_RAIDED_WEEKLY_WAR_SUPPORT_PENALTY_DECAY"
+  },
+  {
+   "k": "183lpe4",
+   "zh": "贸易运输船队遭袭所致的战争支持度惩罚的每周衰减"
+  },
+  {
+   "k": "1mwsmih",
+   "zh": "MAX_CONVOYS_BEING_RAIDED_WAR_SUPPORT_IMPACT"
+  },
+  {
+   "k": "1tpy2yb",
+   "zh": "贸易运输船队遭袭带来的最大总惩罚"
+  },
+  {
+   "k": "1n5zyu1",
+   "zh": "FEMALE_UNIT_LEADER_BASE_CHANCE"
+  },
+  {
+   "k": "w5uz81",
+   "zh": "作为系数作用于女性部队指挥官随机化，如果你实际上没有随机头像国家领导人陆军将领海军将领空军将领特工，该值需为零"
+  },
+  {
+   "k": "1al33lp",
+   "zh": "CONVOYS_SUNK_MULTIPLIER_FOR_WAR_SUPPORT"
+  },
+  {
+   "k": "hjcwr3",
+   "zh": "一旦贸易运输船队被击沉，你的战争支持度将受到更大的负面影响"
+  },
+  {
+   "k": "1wj7uk0",
+   "zh": "CONVOYS_BEING_RAIDED_DAILY_WAR_SUPPORT_IMPACT_FROM_OVERSEA_STATES"
+  },
+  {
+   "k": "14l76ya",
+   "zh": "资源运输船队中来自我方各州的运输船队遭袭时，将根据该资源的重要程度以及运输船队的低效程度给予每日战争支持度惩罚"
+  },
+  {
+   "k": "1haagtf",
+   "zh": "CONVOYS_SUNK_MULTIPLIER_FOR_WAR_SUPPORT_FROM_OVERSEA_STATES"
+  },
+  {
+   "k": "180heg5",
+   "zh": "一旦来自我方各州的资源运输船队被击沉，你的战争支持度将受到更大的负面影响"
+  },
+  {
+   "k": "1w6d1iq",
+   "zh": "CONVOYS_BEING_RAIDED_DAILY_WAR_SUPPORT_IMPACT"
+  },
+  {
+   "k": "jehw2k",
+   "zh": "贸易运输船队遭袭时，将根据该资源的重要程度以及运输船队的低效程度给予每日战争支持度惩罚"
+  },
+  {
+   "k": "1i48wza",
+   "zh": "MAX_PROPAGANDA_STABILITY_IMPACT"
+  },
+  {
+   "k": "dp9gki",
+   "zh": "特工在他国执行宣传任务造成的最大总惩罚"
+  },
+  {
+   "k": "1tj1gdp",
+   "zh": "MAX_PROPAGANDA_WAR_SUPPORT_IMPACT"
+  },
+  {
+   "k": "3if32v",
+   "zh": "PROPAGANDA_STABILITY_DAILY_DECAY"
+  },
+  {
+   "k": "7jwlki",
+   "zh": "宣传行动每天恢复的稳定度"
+  },
+  {
+   "k": "1qwym46",
+   "zh": "PROPAGANDA_WAR_SUPPORT_DAILY_DECAY"
+  },
+  {
+   "k": "1q70d8m",
+   "zh": "战争支持度行动每天恢复的战争支持度"
+  },
+  {
+   "k": "188fpn8",
+   "zh": "NUM_DAYS_TO_FULLY_DELETE_STOCKPILED_EQUIPMENT"
+  },
+  {
+   "k": "pade97",
+   "zh": "从库存中完全删除装备所需的天数。当你删除装备时，它们会进入一个临时的隐藏池，该池仍可被缴获"
+  },
+  {
+   "k": "1dmef9h",
+   "zh": "AIR_SUPPLY_CONVERSION_SCALE"
+  },
+  {
+   "k": "1ikl4a7",
+   "zh": "飞机转换为空中补给的换算系数"
+  },
+  {
+   "k": "dqvycb",
+   "zh": "AIR_SUPPLY_DROP_EXPIRATION_HOURS"
+  },
+  {
+   "k": "375exn",
+   "zh": "空投后补给的持续小时数"
+  },
+  {
+   "k": "nujtkd",
+   "zh": "STARTING_COMMAND_POWER"
+  },
+  {
+   "k": "1irpkyj",
+   "zh": "每个国家的初始指挥点数"
+  },
+  {
+   "k": "1f862h9",
+   "zh": "BASE_MAX_COMMAND_POWER"
+  },
+  {
+   "k": "138aiig",
+   "zh": "指挥点数上限的基础值"
+  },
+  {
+   "k": "8i78su",
+   "zh": "BASE_COMMAND_POWER_GAIN"
+  },
+  {
+   "k": "xug0ra",
+   "zh": "每日指挥点数获取的基础值"
+  },
+  {
+   "k": "guav0g",
+   "zh": "AIR_VOLUNTEER_PLANES_RATIO"
+  },
+  {
+   "k": "1d2qgru",
+   "zh": "可派出志愿飞机数量与派出国空军规模之比"
+  },
+  {
+   "k": "1fcwh8",
+   "zh": "AIR_VOLUNTEER_BASES_CAPACITY_LIMIT"
+  },
+  {
+   "k": "tc1fim",
+   "zh": "可派出志愿飞机数量与接收国空军基地容量之比"
+  },
+  {
+   "k": "qv8pt8",
+   "zh": "ATTACHE_XP_SHARE"
+  },
+  {
+   "k": "o0nolh",
+   "zh": "国家从武官处获得的经验"
+  },
+  {
+   "k": "1gkj10e",
+   "zh": "SPECIAL_FORCES_CAP_BASE"
+  },
+  {
+   "k": "1bj1ybg",
+   "zh": "特种部队营的最大数量，等于非特种部队营总数乘以该值，并受国家修正影响"
+  },
+  {
+   "k": "1lrq1j9",
+   "zh": "SPECIAL_FORCES_CAP_MIN"
+  },
+  {
+   "k": "dxlnog",
+   "zh": "无论你拥有多少非特种部队营，你都至少可以拥有这么多特种部队营，该值同样可受国家修正影响"
+  },
+  {
+   "k": "1fq9aba",
+   "zh": "DAYS_OF_WAR_BEFORE_SURRENDER"
+  },
+  {
+   "k": "1mdjqyh",
+   "zh": "一场战争必须持续多少天后，其中任何一方才能投降"
+  },
+  {
+   "k": "b07plf",
+   "zh": "FUEL_LEASE_CONVOY_RATIO"
+  },
+  {
+   "k": "nw5219",
+   "zh": "每单位燃料租借所需的运输船队数量"
+  },
+  {
+   "k": "16yqveq",
+   "zh": "STARTING_FUEL_RATIO"
+  },
+  {
+   "k": "1kgpt3l",
+   "zh": "各国初始燃料与最大燃料之比"
+  },
+  {
+   "k": "4qh12y",
+   "zh": "BASE_FUEL_GAIN_PER_OIL"
+  },
+  {
+   "k": "xl3n3u",
+   "zh": "每份过剩石油每小时提供的基础燃料量"
+  },
+  {
+   "k": "1m76bbd",
+   "zh": "BASE_FUEL_GAIN"
+  },
+  {
+   "k": "go91kq",
+   "zh": "每小时获得的基础燃料量，与过剩石油无关"
+  },
+  {
+   "k": "4bpuyi",
+   "zh": "BASE_FUEL_CAPACITY"
+  },
+  {
+   "k": "4650n1",
+   "zh": "燃料容量的基础值"
+  },
+  {
+   "k": "2q1urr",
+   "zh": "SCORCHED_EARTH_STATE_COST"
+  },
+  {
+   "k": "qqymvj",
+   "zh": "焦土化一个州的政治点数花费"
+  },
+  {
+   "k": "1i09hc0",
+   "zh": "COUNTRY_MANPOWER_CAPITULATED_FREE_POOL_FACTOR"
+  },
+  {
+   "k": "eapgto",
+   "zh": "无领土的流亡国家所保留的常规人力数量的系数。"
+  },
+  {
+   "k": "f9e7i2",
+   "zh": "COUNTRY_MANPOWER_CAPITULATED_CORE_GAIN_FACTOR"
+  },
+  {
+   "k": "1fpjxst",
+   "zh": "流亡国家获得的常规人力数量的系数。来自被敌方控制的己方拥有的州。代码中州人力按 1000 的系数缩减。"
+  },
+  {
+   "k": "q3nzhi",
+   "zh": "COUNTRY_MANPOWER_CAPITULATED_NON_CORE_GAIN_FACTOR"
+  },
+  {
+   "k": "hdcex4",
+   "zh": "GIE_MAX_LEGITIMACY"
+  },
+  {
+   "k": "1fp9ahy",
+   "zh": "流亡政府的合法性上限"
+  },
+  {
+   "k": "15wnt5p",
+   "zh": "GIE_CAPITULATE_MAX_STOCKPILE_TRANSFER"
+  },
+  {
+   "k": "12xd2a8",
+   "zh": "0-1 库存转移比例。投降时根据初始合法性从 0 到该值。"
+  },
+  {
+   "k": "14qende",
+   "zh": "GIE_CAPITULATE_MIN_LEGIT_FOR_TRANSFER"
+  },
+  {
+   "k": "1kc7kot",
+   "zh": "0-100 初始合法性至少达到该值才会转移任何装备。"
+  },
+  {
+   "k": "1rjtzs2",
+   "zh": "GIE_CAPITULATION_LEGITIMACY_WARSCORE_FACTOR"
+  },
+  {
+   "k": "1cd7ksd",
+   "zh": "将战争贡献百分比乘以该系数，作为初始合法性的一部分。（0.5 表示 50 % 的战争贡献可带来 25 点额外合法性）"
+  },
+  {
+   "k": "1bgpba8",
+   "zh": "GIE_CAPITULATION_LEGITIMACY_WARLENGTH_FACTOR"
+  },
+  {
+   "k": "5pnafa",
+   "zh": "将战争持续时间（周数）乘以该系数，作为初始合法性的一部分。（1.0 表示 30 周的战争可带来 30 点额外合法性）"
+  },
+  {
+   "k": "1rndvim",
+   "zh": "GIE_WARSCORE_GAIN_LEGITIMACY_FACTOR"
+  },
+  {
+   "k": "1mp6o0",
+   "zh": "流亡政府部队获得的战争贡献转化为合法性的系数。"
+  },
+  {
+   "k": "1x3psog",
+   "zh": "GIE_HOST_CIC_FROM_LEGITIMACY_MAX"
+  },
+  {
+   "k": "mm880q",
+   "zh": "东道国将获得 0 到该值之间的 CIC。"
+  },
+  {
+   "k": "5ykuxu",
+   "zh": "GIE_HOST_MIC_FROM_LEGITIMACY_MAX"
+  },
+  {
+   "k": "c3rrag",
+   "zh": "东道国将获得 0 到该值之间的 MIC。"
+  },
+  {
+   "k": "4w4exl",
+   "zh": "GIE_HOST_DOCKYARDS_FROM_LEGITIMACY_MAX"
+  },
+  {
+   "k": "17j40gh",
+   "zh": "东道国将获得 0 到该值之间的船坞。"
+  },
+  {
+   "k": "j1d78y",
+   "zh": "GIE_VETERAN_MANPOWER_NON_CORE_GAIN_FACTOR"
+  },
+  {
+   "k": "oai772",
+   "zh": "从被敌方控制的己方拥有的州获得的人力数量的系数。代码中州人力按 1000 的系数缩减。"
+  },
+  {
+   "k": "vfhut2",
+   "zh": "GIE_VETERAN_MANPOWER_CORE_GAIN_FACTOR"
+  },
+  {
+   "k": "wjys6m",
+   "zh": "GIE_MANPOWER_TOTAL_MAX_FACTOR"
+  },
+  {
+   "k": "1nwsda5",
+   "zh": "可从己方拥有的州获得的流亡人力上限的系数。接近该上限时收益递减。代码中按 100 的系数缩减。"
+  },
+  {
+   "k": "1fr54v3",
+   "zh": "GIE_MANPOWER_RATO_OF_MAX_START_PENALTY"
+  },
+  {
+   "k": "1si4ba7",
+   "zh": "当已征召人力达到最大人力的这一比例时，开始施加惩罚。"
+  },
+  {
+   "k": "1nykix9",
+   "zh": "GIE_MANPOWER_GAIN_PENALTY_MAX"
+  },
+  {
+   "k": "1ex3qk8",
+   "zh": "流亡人力增长的最大惩罚。"
+  },
+  {
+   "k": "1uo9iud",
+   "zh": "GIE_EXILE_AIR_RECRUITMENT_LEGITIMACY"
+  },
+  {
+   "k": "74n3bw",
+   "zh": "招募流亡航空队所需的合法性"
+  },
+  {
+   "k": "1pcsm0d",
+   "zh": "GIE_EXILE_AIR_START_EXPERIENCE"
+  },
+  {
+   "k": "17nc0zh",
+   "zh": "流亡航空队的初始经验"
+  },
+  {
+   "k": "e8sb49",
+   "zh": "GIE_EXILE_TROOP_RECRUITMENT_LEGITIMACY"
+  },
+  {
+   "k": "3puskp",
+   "zh": "招募流亡部队所需的合法性"
+  },
+  {
+   "k": "114pr2l",
+   "zh": "GIE_EXILE_TROOPS_DEPLOY_TRAINING_MAX_LEVEL"
+  },
+  {
+   "k": "1vg88co",
+   "zh": "流亡部队可通过训练获得的最大经验"
+  },
+  {
+   "k": "1g93og7",
+   "zh": "GIE_EXILE_ARMY_LEADER_LEGITIMACY_LEVELS"
+  },
+  {
+   "k": "o549at",
+   "zh": "获得新陆军将领的合法性等级。"
+  },
+  {
+   "k": "164gnq6",
+   "zh": "GIE_EXILE_ARMY_LEADER_START_LEVEL"
+  },
+  {
+   "k": "okpdaw",
+   "zh": "流亡将领的初始等级"
+  },
+  {
+   "k": "owlhrq",
+   "zh": "GIE_ESCAPING_DIVISIONS_TRANSFER_DAYS"
+  },
+  {
+   "k": "ehvpu",
+   "zh": "将逃离的师移交给东道国所需的天数"
+  },
+  {
+   "k": "1lj4f7",
+   "zh": "GIE_ESCAPING_DIVISIONS_XP_BOOST"
+  },
+  {
+   "k": "7i8bkn",
+   "zh": "逃离的师会获得经验加成。只有最顽强的硬汉才会团结起来活下来，让我割下一百张纳粹头皮……或者死而后已……"
+  },
+  {
+   "k": "4zqltq",
+   "zh": "GIE_DIVISION_ATTACK_BONUS_AGAINST_OCCUPIER"
+  },
+  {
+   "k": "1howub7",
+   "zh": "对占领你核心领土者的进攻加成系数。"
+  },
+  {
+   "k": "1k3wl40",
+   "zh": "GIE_DIVISION_DEFENSE_BONUS_AGAINST_OCCUPIER"
+  },
+  {
+   "k": "jusqdt",
+   "zh": "GIE_DIVISION_ATTACK_BONUS_ON_CORE"
+  },
+  {
+   "k": "750qr2",
+   "zh": "在核心领土上作战时的进攻加成系数。"
+  },
+  {
+   "k": "ftveb3",
+   "zh": "GIE_DIVISION_DEFENSE_BONUS_ON_CORE"
+  },
+  {
+   "k": "1kfszcc",
+   "zh": "在核心领土上作战时的防御加成系数。"
+  },
+  {
+   "k": "17pqbyp",
+   "zh": "GIE_ESCAPING_DIVISIONS_EQUIPMENT_RATIO"
+  },
+  {
+   "k": "1tsbm00",
+   "zh": "逃离部队的基础装备比例。"
+  },
+  {
+   "k": "17wwxwv",
+   "zh": "GIE_ESCAPING_DIVISIONS_AMOUNT_RATIO"
+  },
+  {
+   "k": "1v87tti",
+   "zh": "成功逃离的师数量比例。随初始合法性缩放"
+  },
+  {
+   "k": "vday1l",
+   "zh": "GIE_LIBERATED_NATION_DAILY_LEGITIMACY_CHANGE"
+  },
+  {
+   "k": "k5k9iv",
+   "zh": "未投降的流亡政府若被完全解放，其合法性将每天按该数值变化。当合法性降至 0 时将自动复国。"
+  },
+  {
+   "k": "1bu6ys4",
+   "zh": "GIE_EXILE_TRANSFER_ON_LEADER_CAPITULATION_MANPOWER_FACTOR"
+  },
+  {
+   "k": "9vmdqj",
+   "zh": "当阵营领袖投降、受庇护的流亡政府被移交时，所保留流亡人力的系数。"
+  },
+  {
+   "k": "1pr00p3",
+   "zh": "GIE_CONVOY_ON_CREATION"
+  },
+  {
+   "k": "loa9rh",
+   "zh": "流亡政府成立时获得的运输船队数量。"
+  },
+  {
+   "k": "1wws329",
+   "zh": "SURRENDER_LIMIT_REDUCTION_PER_COLLABORATION"
+  },
+  {
+   "k": "81i9s2",
+   "zh": "每 1% 的合作度将按该百分比降低投降界限"
+  },
+  {
+   "k": "1eq65x2",
+   "zh": "SURRENDER_RECIPIENT_SCORE_PER_COLLABORATION"
+  },
+  {
+   "k": "ogfsjf",
+   "zh": "在游戏计算敌方向哪一国家投降时，拥有合作度的国家将获得加成"
+  },
+  {
+   "k": "18n7chg",
+   "zh": "COMPLIANCE_PER_COLLABORATION"
+  },
+  {
+   "k": "16kc5j0",
+   "zh": "每 1% 的合作度将在投降时转换为该数量的顺从度"
+  },
+  {
+   "k": "1x44kve",
+   "zh": "WILL_LEAD_TO_WAR_FOCUS_PERSISTENCE"
+  },
+  {
+   "k": "vktvh1",
+   "zh": "已导致战争的已点选焦点在被点选后仍会让 AI 按这么多天进行战争准备"
+  },
+  {
+   "k": "1ff2a3g",
+   "zh": "WILL_LEAD_TO_WAR_DECISION_PERSISTENCE"
+  },
+  {
+   "k": "jxsdek",
+   "zh": "已导致战争的决议在被点选/冷却/超时后仍会让 AI 按这么多天进行战争准备"
+  },
+  {
+   "k": "mf0l8y",
+   "zh": "ARMY_COUNT_DAILY_LERP_FOR_TRAINING_XP"
+  },
+  {
+   "k": "1oi6039",
+   "zh": "训练经验计算中使用的军队数量每日向实际数量插值逼近（若实际数量更低）"
+  },
+  {
+   "k": "1fv872v",
+   "zh": "ARMY_COUNT_DAILY_DECREASE_FOR_TRAINING_XP"
+  },
+  {
+   "k": "1thmcs",
+   "zh": "训练经验计算中使用的军队数量每日线性逼近该数值（若实际数量更低）"
+  },
+  {
+   "k": "7y9g8s",
+   "zh": "NResistance"
+  },
+  {
+   "k": "g2cws3",
+   "zh": "INITIAL_STATE_RESISTANCE"
+  },
+  {
+   "k": "2y6ewb",
+   "zh": "州被占领后的初始抵抗度百分比"
+  },
+  {
+   "k": "d059p9",
+   "zh": "INITIAL_STATE_COMPLIANCE"
+  },
+  {
+   "k": "1l9kjxl",
+   "zh": "州被占领后的初始顺从度百分比"
+  },
+  {
+   "k": "6oo6io",
+   "zh": "COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE"
+  },
+  {
+   "k": "185pnww",
+   "zh": "当州的控制者变更时适用的顺从度系数（在盟友之间转移时适用；若被原属国夺回，则顺从度归零）"
+  },
+  {
+   "k": "5embde",
+   "zh": "RESISTANCE_COOLDOWN_WHEN_DISABLED"
+  },
+  {
+   "k": "1i4ha7p",
+   "zh": "当州被其原属主夺回时的抵抗度冷却（此时顺从度归零）"
+  },
+  {
+   "k": "evwcfk",
+   "zh": "RESISTANCE_TARGET_BASE"
+  },
+  {
+   "k": "52qvmm",
+   "zh": "基础抵抗度目标百分比"
+  },
+  {
+   "k": "19q8iw8",
+   "zh": "RESISTANCE_TARGET_MODIFIER_HAS_CLAIM"
+  },
+  {
+   "k": "1qg1tgf",
+   "zh": "我们拥有宣称的州的抵抗度目标修正，单位为 %"
+  },
+  {
+   "k": "1a71c9y",
+   "zh": "RESISTANCE_TARGET_MODIFIER_PER_STABILITY_LOSS"
+  },
+  {
+   "k": "vcrscr",
+   "zh": "稳定度每低于 100% 时的抵抗度目标修正"
+  },
+  {
+   "k": "95o53i",
+   "zh": "RESISTANCE_TARGET_MODIFIER_PER_COMPLIANCE"
+  },
+  {
+   "k": "16thwoj",
+   "zh": "每 1% 顺从度的抵抗度目标修正"
+  },
+  {
+   "k": "tp3dpa",
+   "zh": "RESISTANCE_TARGET_MODIFIER_IS_AT_PEACE"
+  },
+  {
+   "k": "150bl9f",
+   "zh": "处于和平状态时的抵抗度目标修正"
+  },
+  {
+   "k": "1o3h1gl",
+   "zh": "RESISTANCE_TARGET_MODIFIER_STATE_VP"
+  },
+  {
+   "k": "ynjh1a",
+   "zh": "胜利点的抵抗度目标修正数值对。第一项为州内胜利点总数，第二项为该阈值所适用的目标修正量 0 - 5 5 - 20 20 - 50 50 - ..."
+  },
+  {
+   "k": "v6xa4y",
+   "zh": "RESISTANCE_TARGET_MODIFIER_OCCUPIED_CAPITULATED"
+  },
+  {
+   "k": "3f0mmj",
+   "zh": "敌方已投降时的抵抗度目标修正"
+  },
+  {
+   "k": "sjv2zl",
+   "zh": "RESISTANCE_TARGET_MODIFIER_OCCUPIED_IS_EXILE_MIN"
+  }
+ ]
+}

@@ -1,0 +1,907 @@
+{
+ "batch": 1055,
+ "pages": [
+  "Patch 1.12"
+ ],
+ "chars": 14925,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1w5lpmf",
+   "en": "⟦0⟧, aka \"Avalanche\", was not released officially. It was superseded by ⟦1⟧ which was released on 2022-09-27⟦2⟧ coinciding with the release of ⟦3⟧ DLC. The checksum is ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "19hoqlf",
+   "en": "Patch 1.12"
+  },
+  {
+   "k": "3uqrgy",
+   "en": "patch 1.12.1"
+  },
+  {
+   "k": "xw4s3v",
+   "en": "By Blood Alone"
+  },
+  {
+   "k": "11vtrw3",
+   "en": "45c2"
+  },
+  {
+   "k": "n9fep",
+   "en": "Features - By Blood Alone"
+  },
+  {
+   "k": "1wg7vm2",
+   "en": "Added Italian Focus Tree including numerous historical, alt history and ideological paths"
+  },
+  {
+   "k": "188zwk7",
+   "en": "Added extensive Ethiopian Focus Tree - Work with or against the invaders to bring triumph to Africa"
+  },
+  {
+   "k": "7d6qcp",
+   "en": "Added Swiss Focus tree, and numerous mechanics to balance the favor of the major factions in your vicinity"
+  },
+  {
+   "k": "1b0elmr",
+   "en": "Added Take Ships demand, and DMZ, War Reparations, Resource Rights and Dismantle Military Industry additional demands for new peace conference system"
+  },
+  {
+   "k": "1j6zhti",
+   "en": "Added aircraft designer and dozens of new modules and an overhauled air research tree"
+  },
+  {
+   "k": "1ybyfwb",
+   "en": "Added Unit Medals and Divisional Commander feature, allowing you to award medals to your unit commanders for their valor in action"
+  },
+  {
+   "k": "1mkkwkj",
+   "en": "Added Embargo diplomatic interaction, preventing your enemies from importing your resources if conditions are met"
+  },
+  {
+   "k": "198kbhg",
+   "en": "Added over 20 new unit models for Italy, Ethiopia, and Switzerland"
+  },
+  {
+   "k": "1udxn04",
+   "en": "Added 67 new plane models for various nations"
+  },
+  {
+   "k": "5o8jeh",
+   "en": "Added 12 new music tracks themed around Italy, Ethiopia, and Switzerland"
+  },
+  {
+   "k": "xkef4l",
+   "en": "Free Features - Avalanche Update"
+  },
+  {
+   "k": "z9aav3",
+   "en": "Totally overhauled Peace Conference system, working on a blind-bid premise"
+  },
+  {
+   "k": "hrh0k0",
+   "en": "Added customizable order naming scheme with many default historical operations"
+  },
+  {
+   "k": "oiwjf1",
+   "en": "Added new Air Wing organization scheme comprising static 100 size squadrons"
+  },
+  {
+   "k": "xjn0qi",
+   "en": "Air Wings can now be grouped into Air Groups"
+  },
+  {
+   "k": "8wth2b",
+   "en": "Added Air Theatre UI to manage Air groups and assignments"
+  },
+  {
+   "k": "hafc6",
+   "en": "Air wings on missions that cross multiple air regions can now be intercepted and take damage on their way between targets"
+  },
+  {
+   "k": "1uzf6io",
+   "en": "Significant rebalance of many aspects of the naval module"
+  },
+  {
+   "k": "ano7t7",
+   "en": "War support system overhauled. War support may now be lost from taking casualties, convoy raids, and being bombed"
+  },
+  {
+   "k": "uskppo",
+   "en": "War propaganda will now offset the effects of the above, and cannot be used to gain war support indefinitely"
+  },
+  {
+   "k": "1yrijr9",
+   "en": "Added new historical branches for the Italian Focus Tree"
+  },
+  {
+   "k": "1rko6ug",
+   "en": "You are now able to compare stockpiled designs against designs you are building. High intel will allow you to compare foreign designs in the same manner"
+  },
+  {
+   "k": "ytc0ip",
+   "en": "You can now view the logistics screen for your allies and subjects"
+  },
+  {
+   "k": "19rjvi1",
+   "en": "Added career profile medals, achievements, and achievement points."
+  },
+  {
+   "k": "1orz6lw",
+   "en": "Added mod support for career profile"
+  },
+  {
+   "k": "kxxksr",
+   "en": "Balance"
+  },
+  {
+   "k": "qz3gyy",
+   "en": "Reduced base ship supremacy, increase max pos penalty"
+  },
+  {
+   "k": "1ekc0jd",
+   "en": "Increased submarine visibility"
+  },
+  {
+   "k": "1bo2zp5",
+   "en": "Ship module ic cost rebalance, removed relibabilty reductions, improved rangefinders and radar"
+  },
+  {
+   "k": "s87a2t",
+   "en": "Reduced naval critical chance, increase damage randomness, increase carrier solo combat time"
+  },
+  {
+   "k": "1ddp13b",
+   "en": "Naval Speed rebalance"
+  },
+  {
+   "k": "162kbgr",
+   "en": "Added DP Gun Tech line"
+  },
+  {
+   "k": "khfqfp",
+   "en": "Cruisers can no longer have mixed primary bateries"
+  },
+  {
+   "k": "14hresj",
+   "en": "Homing torpedoe now increase hit chance instead of torpedoe attack"
+  },
+  {
+   "k": "17j2w35",
+   "en": "BB/BC armour now reduces torpedo damage and crit chance /n radar/firecontrol now modifies hit chance not attack /n rembalanced torpedoe module values and added hit chance modifiers"
+  },
+  {
+   "k": "jvg4n5",
+   "en": "Removed war propaganda against X decisions, made regular war propaganda less restrictive but halved benefit"
+  },
+  {
+   "k": "vpcvhi",
+   "en": "War support rebalanced. WS from being in defensive war now reduced so +20% from 30%. War propaganda against warmonger decisions now removed. War support now reduced by casualties. Low war support now reduces stability by up to 30% while at war. Propaganda now targets one of the three main WS reductions: convoys sunk, casualties taken, bombing received. base stability factor from being at war reduced to -20% from -30%"
+  },
+  {
+   "k": "wwxjl4",
+   "en": "Ruler traits granting weekly war support now grant flat war support"
+  },
+  {
+   "k": "6m4y6u",
+   "en": "Netherlands' War on Pacifism is now no longer possible if Shell Shocked Spectator of the Great War has been removed"
+  },
+  {
+   "k": "5cy6mk",
+   "en": "Promises of Peace decision removed"
+  },
+  {
+   "k": "1hjefwn",
+   "en": "Added Starting DP gun tech to ENG,USA,JAP,FRA. \\n updated ENG starting ships to have DP guns"
+  },
+  {
+   "k": "1dg6u3k",
+   "en": "Speed adjustments for histroical ship OOBs"
+  },
+  {
+   "k": "15tbvhz",
+   "en": "World tension from capitulation reduced to 25% of previous, world tension from various other sources rebalanced"
+  },
+  {
+   "k": "1sjuqdg",
+   "en": "Max Ace bonus from undersized wings is now 200% (from 1000%),"
+  },
+  {
+   "k": "1uks770",
+   "en": "Increase Rhineland tension generated to 8"
+  },
+  {
+   "k": "1v8zeat",
+   "en": "Added min clamp to naval spotting with define, added random encounter chance to naval spotting"
+  },
+  {
+   "k": "2qf88s",
+   "en": "Raider Doctrines no longer make you harder to hit \\n Sonar modules improved"
+  },
+  {
+   "k": "s2aeop",
+   "en": "Increase IC cost of sloped armor"
+  },
+  {
+   "k": "1or86q1",
+   "en": "A new local modifier has been added to various Indian and Chinese provinces, which adds a factor to the penalties from low supply, for non-core nations. This should make it slightly easier to defend, but can be worked around by improving networks & infra"
+  },
+  {
+   "k": "opyhli",
+   "en": "World tension is now primarily generated by claim generation and war declaration, and decays slightly faster per instance"
+  },
+  {
+   "k": "1kzscve",
+   "en": "Reduced base supply of ports from 15 to 5"
+  },
+  {
+   "k": "190wrzs",
+   "en": "Reduced supply per level of port from 5 to 3"
+  },
+  {
+   "k": "157tuo9",
+   "en": "Joining an ongoing naval battle positioning penatlies reduced"
+  },
+  {
+   "k": "yeu8ol",
+   "en": "Armor can now be penetrated by thresholds, each dealing more damage than the last, capping at 100% damage if all armor is penetrated. The number of stages and values can be controlled by defines"
+  },
+  {
+   "k": "y26q8o",
+   "en": "Increased the dig in reduction from spy networks from 1 to 5"
+  },
+  {
+   "k": "9tr2c3",
+   "en": "Reduced suppression of most of the softer occupation laws"
+  },
+  {
+   "k": "1tzfkbq",
+   "en": "Compressed variance in troop requirements between occupation laws"
+  },
+  {
+   "k": "j2jc8x",
+   "en": "Flat branch experience gain from advisors has been moved to come exclusively from branch chiefs. This addresses the inefficiencies associated with stacking your cabinet in favor of a particular branch (most players choose army advisors, while the navy and airforce are left to suffer)"
+  },
+  {
+   "k": "mpzuj",
+   "en": "Added a fuel tank module for tanks, and made base fuel hours additive with any bonuses"
+  },
+  {
+   "k": "r5uvk3",
+   "en": "The consequences of breaking the Washington Naval Treaty are now appropriately less severe"
+  },
+  {
+   "k": "m5cs2o",
+   "en": "Countries are now more likely to join factions whose faction leader is guaranteeing them if war is declared upon them"
+  },
+  {
+   "k": "1sqzrau",
+   "en": "As part of the new peace conference war participation has been reworked. notably war participation gain from strat bombing and taking casualties has been reduced"
+  },
+  {
+   "k": "5f1wrp",
+   "en": "Free France now gains claims on all of Vichy France's non-core states (mostly African colonies) to encourage the AI to demand those territories in a peacedeal even if France is not liberated"
+  },
+  {
+   "k": "1dsuiqe",
+   "en": "Logistics strike is now affected by state anti-air buildings"
+  },
+  {
+   "k": "adadtb",
+   "en": "Increased equipment combat losses from strength, increased attack penalty from low supply slightly"
+  },
+  {
+   "k": "ytf9br",
+   "en": "Reduced Ship supremacy Base to 0 from 100"
+  },
+  {
+   "k": "vj327h",
+   "en": "Yugoslavia tank conversion speed focus now grants 15% up from 5%"
+  },
+  {
+   "k": "1obpa32",
+   "en": "Yugoslavian focus 'Invite German Military Mission' now grants a 1 use speed bonus for medium tank hull technology"
+  },
+  {
+   "k": "1f1pwp8",
+   "en": "Yugoslavian focuses 'Tank Conversions' and 'Tank Licenses' now take 35 days, down from 70"
+  },
+  {
+   "k": "1de4vxc",
+   "en": "Yugoslavia now has a new 70 day focus for owners of By Blood Alone, granting the use of the 1943 Medal for Bravery, with a tag-unique bonus of 5 max entrenchment"
+  },
+  {
+   "k": "1ee18fn",
+   "en": "If Bulgaria undergoes a civil war and loses to the revolting faction, also switching to the generic focus tree, the revolting faction will lose the effects of the second national catastrophe (which they would otherwise be unable to remove)"
+  },
+  {
+   "k": "1mvvmqv",
+   "en": "Yugoslavian political advisor traits have been rebalanced, several unique entries added"
+  },
+  {
+   "k": "3z1g8a",
+   "en": "Yugoslavia can now take a focus to allow the sending of Brigadista volunteers during the SCW. This spirit will be removed upon the culmination of the SCW"
+  },
+  {
+   "k": "1dkn4iz",
+   "en": "Naval gunnery now undergoes a similar calculation to land combat for determining piercing vs armor mechanics. Critical chance is now graded against how much armor is pierced by the firing gun, and a new top end piercing threshold has been added. This should have the side effect of increasing the damage potential of super heavy caliber guns vs low armor targets when a hit is scored"
+  },
+  {
+   "k": "1wgfgfk",
+   "en": "MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE increased 0.5>0.75"
+  },
+  {
+   "k": "6l280e",
+   "en": "Increased carreir sortie rate, reduced ai carrier tf capital min value"
+  },
+  {
+   "k": "7jaypo",
+   "en": "Greatly reduced damage to trains from logistical strikes"
+  },
+  {
+   "k": "1lm8i4p",
+   "en": "Somewhat reduced damage to trucks from logistical strikes"
+  },
+  {
+   "k": "1vutvug",
+   "en": "Reduced land combat org and strength damage from air attacks"
+  },
+  {
+   "k": "1rpeokw",
+   "en": "Elevated Engineering Corps spirit now provides 20% railway gun bombardment up from 5%"
+  },
+  {
+   "k": "3t3lll",
+   "en": "World tension now increases war support by up to 40%, from 30%"
+  },
+  {
+   "k": "8yuoqh",
+   "en": "Field Hospitals now protect proportionately against war support loss from damage/casualties"
+  },
+  {
+   "k": "11ntqz9",
+   "en": "Air attack and agility factor malus added back to night time"
+  },
+  {
+   "k": "g71nzl",
+   "en": "Night flying now incurs up to -50% air attack"
+  },
+  {
+   "k": "1flejqm",
+   "en": "Changed agility damage reduction to cap sooner and be smaller overall"
+  },
+  {
+   "k": "wzkoqw",
+   "en": "Added damage increase based upon net speed and speed difference"
+  },
+  {
+   "k": "1azdv90",
+   "en": "Reduced overall damage mod in air combat from 0.3 to 0.2"
+  },
+  {
+   "k": "1c581qu",
+   "en": "Naval modifier: 'Chance to avoid critical hits' no longer increases your chance to be critically hit"
+  },
+  {
+   "k": "c5kowf",
+   "en": "Several focuses and events now use the new embargo mechanics"
+  },
+  {
+   "k": "hscy7r",
+   "en": "Added ic cost to mechanised and AC variant upgrades"
+  },
+  {
+   "k": "83adsq",
+   "en": "Reduce air experience gain from training"
+  },
+  {
+   "k": "1aes9w5",
+   "en": "Gameplay"
+  },
+  {
+   "k": "1oho6t6",
+   "en": "Mercenaries and International brigades are now removed at end of war"
+  },
+  {
+   "k": "ol1gvw",
+   "en": "Added new naval supremacy factor vaĺues for ship achetypes"
+  },
+  {
+   "k": "1sy56nb",
+   "en": "Implemented Naval supremacy factor value for supremacy calculation"
+  },
+  {
+   "k": "izsbd4",
+   "en": "Armored trains now have an anti-air stat and will deal damage to any air wings on logistics strike that are attacking them"
+  },
+  {
+   "k": "6djk4r",
+   "en": "Reworked Soviet air regions"
+  },
+  {
+   "k": "50ay13",
+   "en": "Only display the ship refitting speed and cost modifiers when MtG is active"
+  },
+  {
+   "k": "1wqj58s",
+   "en": "Convoys no longer counted as carriers when computing screening efficiency"
+  },
+  {
+   "k": "1t5rzcb",
+   "en": "All Air combat modifiers will now apply in sea regions"
+  },
+  {
+   "k": "1ngngz7",
+   "en": "Transport plane wings can now carry approx 2 divisions at max load when paradropping"
+  },
+  {
+   "k": "1h83hpk",
+   "en": "Stability & Performance"
+  },
+  {
+   "k": "17tiuqe",
+   "en": "Restructured some script in BFTB on_actions to not run expensive triggers and effects any time a state anywhere in the world changed hands"
+  },
+  {
+   "k": "iz6kw8",
+   "en": "Fixed an OOS on division_names_group"
+  },
+  {
+   "k": "100y7wg",
+   "en": "Ion Antonescu (and his copycats) will no longer randomly crash the game if they are promoted to country leader while using a general ability"
+  },
+  {
+   "k": "malzmk",
+   "en": "Fix cloud saving when there is no more space left on remote storage. Display a warning popup and do not keep a corrupt file. Also display the current available space in save menu"
+  },
+  {
+   "k": "j1g565",
+   "en": "Fix rare CTD when railway guns had no valid move destinations"
+  },
+  {
+   "k": "qgx771",
+   "en": "Fix crash from completing LaR spread communist revolution operations"
+  },
+  {
+   "k": "10kmziu",
+   "en": "Ordering a unit to move accross impassable will no longer fail if there is a path around it"
+  },
+  {
+   "k": "1niqjhe",
+   "en": "Fixed an OOS that could occur when a player hot-joins"
+  },
+  {
+   "k": "y9gfcf",
+   "en": "Clear pending events window on country tag switch"
+  },
+  {
+   "k": "1ywregw",
+   "en": "Fixed CTD in AI strategy when a leader is removed"
+  },
+  {
+   "k": "1k6obn9",
+   "en": "The game will no longer CTD if lots of players spam map pings"
+  },
+  {
+   "k": "10z4r08",
+   "en": "Now able to change move command to retreat"
+  },
+  {
+   "k": "z3tqfd",
+   "en": "Don't recreate attack order if clicking on the attack again"
+  },
+  {
+   "k": "o3hn14",
+   "en": "Exiled armies will no longer try to pathfind forever if there's no land path to go home"
+  },
+  {
+   "k": "1desgyy",
+   "en": "Naval task forces will no longer get stuck on their way to assigned regions if the path goes through provinces out of their supply range"
+  },
+  {
+   "k": "l5q6ob",
+   "en": "Fixed game not starting on some Linux installations when the steam runtime is located in a path with spaces"
+  },
+  {
+   "k": "1lqfllp",
+   "en": "Fix crash from carriers without active missions intercepting flyovers"
+  },
+  {
+   "k": "1ogici4",
+   "en": "Added new naval support tech folder, rearranged techs"
+  },
+  {
+   "k": "alr0vw",
+   "en": "Update world threat UI for tracking values"
+  },
+  {
+   "k": "earzgl",
+   "en": "Fixed some DX11 and OpenGL UI elements being 1 pixel off by making them incorrectly positioned the same way DX9 does"
+  },
+  {
+   "k": "19nsupx",
+   "en": "Added sub and surface detection to taskforce info"
+  },
+  {
+   "k": "ebkzdw",
+   "en": "Base stability and war support are now displayed in the tooltip for their respective topbar values"
+  },
+  {
+   "k": "18dgpba",
+   "en": "Added kamikaze planes to air combat details"
+  },
+  {
+   "k": "b10y0b",
+   "en": "Added unique map counter icons for carrier capable air wings to help distinguish them from land-based air wings"
+  },
+  {
+   "k": "ebhooo",
+   "en": "Fixed capping of the reliability value to 100% in the Tech Details view"
+  },
+  {
+   "k": "1ma6jzg",
+   "en": "Naval combat log now correctly displays death reason for ships killed in training accidents or having hit mines"
+  },
+  {
+   "k": "s6qiwa",
+   "en": "Prevent the bottom right corner graphic on unit counters, that indicate which ideology the unit is associated with while in a civil war, from showing when the unit is not in a civil war. Added a frame for fascism and brightened the neutral graphic"
+  },
+  {
+   "k": "5bjlvw",
+   "en": "Added custom display for railway gun effect in the tech info view"
+  },
+  {
+   "k": "9m30fv",
+   "en": "Modding"
+  },
+  {
+   "k": "swis2p",
+   "en": "Mods can write their own achievements. They will be visible in the career profile awards screen"
+  },
+  {
+   "k": "1ybqcss",
+   "en": "Treat custom commanders as an array for modding"
+  },
+  {
+   "k": "16x8dwp",
+   "en": "Removed modifiers navy_refit_speed and navy_refit_ic_cost. Use refit_speed and refit_ic_cost instead; they do the same thing"
+  },
+  {
+   "k": "1drudmq",
+   "en": "Removed modifier equipment_conversion_ic_cost. Use equipment_conversion_speed instead"
+  },
+  {
+   "k": "g8v3hw",
+   "en": "Added ImGui view \"air\" exposing data from the most recent air combat update in a region"
+  },
+  {
+   "k": "s450m9",
+   "en": "Added ImGui view \"peace_conference\" exposing AI data about victors' demands"
+  },
+  {
+   "k": "1e1ntef",
+   "en": "Tweaked and changed define DRAW_DETAILED_CUTOFF to more descriptive DRAW_COUNTRY_NAMES_CUTOFF"
+  },
+  {
+   "k": "11htix2",
+   "en": "Added effects set_occupation_law and set_occupation_law_where_available"
+  },
+  {
+   "k": "a2jkd4",
+   "en": "Added support in air_wings OOB for specifying a carrier's name as the key instead of a state ID. The OOB file containing the carrier must be loaded before the file containing the carrier air-wing"
+  },
+  {
+   "k": "5jw2je",
+   "en": "Added 3 new triggers for the new war support maluses, hooked in to propaganda decisions"
+  },
+  {
+   "k": "ave1c6",
+   "en": "Added support to trigger occupation_law for checking a country's default occupation law or the occupation law set on a country"
+  },
+  {
+   "k": "uuj64l",
+   "en": "The equipment attribute \"type\" now overrides the type of the archetype instead of adding to it"
+  },
+  {
+   "k": "jkdgg8",
+   "en": "When created and reinforced air sub-units, the equipment must now not only have a matching archetype but also at least one matching type"
+  },
+  {
+   "k": "1m2tkra",
+   "en": "Air equipment (including missiles) now define which air missions they can carry out"
+  },
+  {
+   "k": "1fy37vw",
+   "en": "Module attribute gui_category now accepts a list of categories"
+  },
+  {
+   "k": "a034xv",
+   "en": "Added support for selecting variant with version_name in effect create_production_license. If the selection criteria fails to match a variant no license will be created"
+  },
+  {
+   "k": "i1k4lc",
+   "en": "Added on-action for force-government peace actions"
+  },
+  {
+   "k": "11wucqp",
+   "en": "Ships_in_state_ports now accepts scopped variables as arguments for state"
+  },
+  {
+   "k": "1reoqb7",
+   "en": "Divisional commander rank is now persistent and moddable"
+  },
+  {
+   "k": "wh29bl",
+   "en": "Missions and targeted missions, defined as any decision with days_mission_timeout, will no longer evaluate its cancel_trigger and potentially run its cancel_effect once completed but before being removed"
+  },
+  {
+   "k": "1pzt008",
+   "en": "Fix on_add and on_remove in advisor in character database. Now they use properly the character scope"
+  },
+  {
+   "k": "1ewv2id",
+   "en": "Fixed issue where any event fired at hour 24 would not have its default option executed when it timed out without the player having selected an option"
+  },
+  {
+   "k": "122ui8r",
+   "en": "Fixed a bug where some modded maps would take too long to load and trigger issues with resource delivery routes"
+  },
+  {
+   "k": "tncvqc",
+   "en": "Fix _is_<slot> (e.g. is_air_chief) triggers so that it checks if the character not only has an advisor role for the given slot but also checks if the character is hired for it. (similar to is_political_advisor)"
+  },
+  {
+   "k": "1deumng",
+   "en": "Add trigger has_war_with_wargoal_against"
+  },
+  {
+   "k": "jkpaqi",
+   "en": "Added effect start_peace_conference"
+  },
+  {
+   "k": "1xvaama",
+   "en": "Puppet effect no longer necessarily cancels wars"
+  },
+  {
+   "k": "1wxdsz2",
+   "en": "Added effect add_units_to_division_template"
+  },
+  {
+   "k": "1ur2pjs",
+   "en": "Database"
+  },
+  {
+   "k": "16znejq",
+   "en": "Reduced XP cost of Radio II tank module to be in line with the other radios"
+  },
+  {
+   "k": "ofi1vd",
+   "en": "Split up Saudi-Arabian states"
+  },
+  {
+   "k": "1ukm6wb",
+   "en": "Split up Quebec into multiple states"
+  },
+  {
+   "k": "1pzwrow",
+   "en": "Split some states in Northern Canada"
+  },
+  {
+   "k": "xfqd6a",
+   "en": "Split up Siam into 3 different states"
+  },
+  {
+   "k": "vxu4ta",
+   "en": "Reworked Australian states"
+  },
+  {
+   "k": "19vag1m",
+   "en": "Split up South-East Asia Airzone and South India Airzone"
+  },
+  {
+   "k": "1hlpqo4",
+   "en": "Reworked Manchurian & Chinese Airzones"
+  },
+  {
+   "k": "6cb7ra",
+   "en": "Split Iran Airzone into 3"
+  },
+  {
+   "k": "1b4esx0",
+   "en": "Reworked Canadian Airzones"
+  },
+  {
+   "k": "1wvk1lv",
+   "en": "Split Arabian peninsula airzone into several zones"
+  }
+ ]
+}

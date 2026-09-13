@@ -1,0 +1,924 @@
+{
+ "batch": 889,
+ "pages": [
+  "National focus modding"
+ ],
+ "chars": 13282,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "ax00pk",
+   "en": "Additionally, ⟦0⟧ is used to execute an effect when the focus is ⟦1⟧. This has no tooltip shown to the player. This also automatically makes the focus impossible to cancel manually. It may still be cancelled automatically if set to do so, so in most cases it'd be preferable to set it to not cancel if invalid in order to prevent the effects within from firing more than once, as there is no way to execute an effect when the focus gets cancelled.",
+   "frags": 2
+  },
+  {
+   "k": "1vvh5z8",
+   "en": "select_effect = { ... }"
+  },
+  {
+   "k": "lnii5w",
+   "en": "selected"
+  },
+  {
+   "k": "10bwtvt",
+   "en": "Additionally, ⟦0⟧ is used to execute an effect when focus is ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "4vnpx0",
+   "en": "bypassed"
+  },
+  {
+   "k": "fr4zcv",
+   "en": "⟦0⟧ What this means is that any ⟦1⟧ ran within will return as false. This can be a hinderance in some cases, most commonly when using allow_branch (as the effect to refresh the check will not work properly when put within a focus). Some alternatives can be considered:",
+   "frags": 2
+  },
+  {
+   "k": "5pecir",
+   "en": "The focus is not yet marked as complete when the effects are being executed."
+  },
+  {
+   "k": "1edxa",
+   "en": "has_completed_focus check"
+  },
+  {
+   "k": "90pppw",
+   "en": "⟦0⟧. Since country flags are set immediately, as long as the setting precedes the requirement, this will work.",
+   "frags": 1
+  },
+  {
+   "k": "ogx471",
+   "en": "Country flags to track that a focus has been completed"
+  },
+  {
+   "k": "ezn1e2",
+   "en": "Delaying the effects that would require the focus to be complete. This is usually done by firing a hidden event. If done with no delay, the event will be fired ⟦0⟧ the focus is complete, resulting in no noticeable delay for the player, but still executing the effects in order.",
+   "frags": 1
+  },
+  {
+   "k": "1icgwzb",
+   "en": "right after"
+  },
+  {
+   "k": "18o2l3",
+   "en": "Forcefully marking the focus to be complete. This, for example, can be done by using ⟦0⟧ for the same focus tree with the completed focuses being kept. Doing so will not interrupt the completion reward's execution.",
+   "frags": 1
+  },
+  {
+   "k": "1el70pz",
+   "en": "load_focus_tree"
+  },
+  {
+   "k": "1lfjy0i",
+   "en": "Search filters"
+  },
+  {
+   "k": "7ib60l",
+   "en": "Search filters for each focus are set with ⟦0⟧. Within that block, each search filter that the focus has is put inside, separated by whitespace characters. For instance, the following will assign FOCUS_FILTER_MANPOWER and FOCUS_FILTER_POLITICAL to the focus: ⟦1⟧. These filters get used in the search menu in the top right of the national focus tree view.",
+   "frags": 2
+  },
+  {
+   "k": "1peumlq",
+   "en": "search_filters = { ... }"
+  },
+  {
+   "k": "eqxmee",
+   "en": "search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_POLITICAL }"
+  },
+  {
+   "k": "vuid0n",
+   "en": "A focus filter is not defined in any file, but instead they are created dynamically for each focus tree. Each one uses the sprite the same as its name but with ⟦0⟧ inserted in the beginning. For instance, this defininition within any ⟦1⟧ file would be used for FOCUS_FILTER_MY_MOD:",
+   "frags": 2
+  },
+  {
+   "k": "v3z9g5",
+   "en": "GFX_"
+  },
+  {
+   "k": "s1mxna",
+   "en": "As before with regular focus icon, the exact folder where filter icons are stored is irrelevant, as long as the texturefile specified within the sprite is correct."
+  },
+  {
+   "k": "vh95ju",
+   "en": "The localisation key used for the focus filter is the same as its name. For example, with the prior example of FOCUS_FILTER_MY_MOD, this would get defined for the English language in any ⟦0⟧ file as ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "bs5f0e",
+   "en": "FOCUS_FILTER_MY_MOD: \"My mod\""
+  },
+  {
+   "k": "1i8ib9f",
+   "en": "Internal name"
+  },
+  {
+   "k": "1r2jfvc",
+   "en": "Localised name"
+  },
+  {
+   "k": "4f76ga",
+   "en": "Notes"
+  },
+  {
+   "k": "155f6q6",
+   "en": "FOCUS_FILTER_POLITICAL"
+  },
+  {
+   "k": "1y7iy58",
+   "en": "Political"
+  },
+  {
+   "k": "1ek0vvh",
+   "en": "Typically used when gaining political power, when changing the internal political situation, or when improving diplomatic relations."
+  },
+  {
+   "k": "18fc736",
+   "en": "FOCUS_FILTER_RESEARCH"
+  },
+  {
+   "k": "pps2r0",
+   "en": "Research"
+  },
+  {
+   "k": "1t7xs00",
+   "en": "Used for tech bonuses, scientists, research sharing groups, etc."
+  },
+  {
+   "k": "9vezx5",
+   "en": "FOCUS_FILTER_INDUSTRY"
+  },
+  {
+   "k": "3g2xun",
+   "en": "Industry"
+  },
+  {
+   "k": "1t9cjh8",
+   "en": "Used for economic modifiers and gaining factories"
+  },
+  {
+   "k": "eqxbsy",
+   "en": "FOCUS_FILTER_STABILITY"
+  },
+  {
+   "k": "1px36db",
+   "en": "FOCUS_FILTER_WAR_SUPPORT"
+  },
+  {
+   "k": "mz0woq",
+   "en": "War support"
+  },
+  {
+   "k": "3btt7a",
+   "en": "FOCUS_FILTER_MANPOWER"
+  },
+  {
+   "k": "17vxw9s",
+   "en": "Manpower"
+  },
+  {
+   "k": "a5p1jd",
+   "en": "Usually used when gaining more manpower (directly or via conscription), equipment, generals, or when creating units."
+  },
+  {
+   "k": "1watt0k",
+   "en": "FOCUS_FILTER_ANNEXATION"
+  },
+  {
+   "k": "1u9sk75",
+   "en": "Territorial Expansion"
+  },
+  {
+   "k": "1poge4p",
+   "en": "Usually used in demands for territory and avoided in outright declarations of war."
+  },
+  {
+   "k": "qkmd2n",
+   "en": "FOCUS_FILTER_HISTORICAL"
+  },
+  {
+   "k": "vw6ft5",
+   "en": "Historical"
+  },
+  {
+   "k": "tjc4r0",
+   "en": "Usually used for focuses taken on the historical focus on."
+  },
+  {
+   "k": "1f15tyw",
+   "en": "FOCUS_FILTER_INTERNATIONAL_TRADE"
+  },
+  {
+   "k": "2c7pe5",
+   "en": "International Trade"
+  },
+  {
+   "k": "e02b86",
+   "en": "Usually used for focuses related to the ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "pcb04t",
+   "en": "international market"
+  },
+  {
+   "k": "11higqz",
+   "en": "FOCUS_FILTER_ARMY_XP"
+  },
+  {
+   "k": "fga5sg",
+   "en": "Army Experience"
+  },
+  {
+   "k": "4ghybm",
+   "en": "Used when gaining Army Experience or modifiers related to it."
+  },
+  {
+   "k": "o4ew9c",
+   "en": "FOCUS_FILTER_NAVY_XP"
+  },
+  {
+   "k": "m95xbn",
+   "en": "Navy Experience"
+  },
+  {
+   "k": "lx1p8t",
+   "en": "Used when gaining Navy Experience or modifiers related to it."
+  },
+  {
+   "k": "wa0x2",
+   "en": "FOCUS_FILTER_AIR_XP"
+  },
+  {
+   "k": "wzr0ih",
+   "en": "Air Experience"
+  },
+  {
+   "k": "1ut9rvr",
+   "en": "Used when gaining Air Experience or modifiers related to it."
+  },
+  {
+   "k": "y4ehfs",
+   "en": "FOCUS_FILTER_TFV_AUTONOMY"
+  },
+  {
+   "k": "1n691wz",
+   "en": "Autonomy"
+  },
+  {
+   "k": "jb58u8",
+   "en": "Used when adding or subtracting autonomy or modifiers related to it."
+  },
+  {
+   "k": "1at96wy",
+   "en": "FOCUS_FILTER_POLITICAL_CHARACTER"
+  },
+  {
+   "k": "dgrgnv",
+   "en": "Political Character"
+  },
+  {
+   "k": "8sbl5n",
+   "en": "Used for focuses about a nation’s politics"
+  },
+  {
+   "k": "e5bzpk",
+   "en": "FOCUS_FILTER_MILITARY_CHARACTER"
+  },
+  {
+   "k": "1nh82gl",
+   "en": "Military Character"
+  },
+  {
+   "k": "1eann0r",
+   "en": "Used for focuses about a nation’s military"
+  },
+  {
+   "k": "tsbj2b",
+   "en": "FOCUS_FILTER_INTERNAL_AFFAIRS"
+  },
+  {
+   "k": "17fmqv6",
+   "en": "Internal Affairs"
+  },
+  {
+   "k": "1wyth9b",
+   "en": "Used in the ⟦0⟧ and ⟦1⟧ national focus trees for focuses dealing with the internal factions.",
+   "frags": 2
+  },
+  {
+   "k": "1mclfue",
+   "en": "Bulgarian"
+  },
+  {
+   "k": "1a5e943",
+   "en": "Greek"
+  },
+  {
+   "k": "brmghm",
+   "en": "FOCUS_FILTER_FRA_POLITICAL_VIOLENCE"
+  },
+  {
+   "k": "i5htjx",
+   "en": "Political Violence"
+  },
+  {
+   "k": "1rzy3fq",
+   "en": "Used in the ⟦0⟧ national focus tree for the focuses that remove the ⟦1⟧ spirit.",
+   "frags": 2
+  },
+  {
+   "k": "ylzq91",
+   "en": "French"
+  },
+  {
+   "k": "aje4pp",
+   "en": "political violence"
+  },
+  {
+   "k": "pv1j96",
+   "en": "FOCUS_FILTER_PROPAGANDA"
+  },
+  {
+   "k": "b5dafw",
+   "en": "Propaganda"
+  },
+  {
+   "k": "1paern6",
+   "en": "Used in the ⟦0⟧ national focus tree for the focuses dealing with the propaganda system.",
+   "frags": 1
+  },
+  {
+   "k": "1sjsq3j",
+   "en": "Soviet"
+  },
+  {
+   "k": "e64bh4",
+   "en": "FOCUS_FILTER_FRA_OCCUPATION_COST"
+  },
+  {
+   "k": "4w39kk",
+   "en": "Occupation Costs"
+  },
+  {
+   "k": "mxthlj",
+   "en": "Used in the ⟦0⟧ national focus tree for the focuses dealing with the ⟦1⟧ occupation.",
+   "frags": 2
+  },
+  {
+   "k": "1f92h3u",
+   "en": "Vichy French"
+  },
+  {
+   "k": "4qfm7n",
+   "en": "German"
+  },
+  {
+   "k": "10gok82",
+   "en": "FOCUS_FILTER_CHI_INFLATION"
+  },
+  {
+   "k": "wf540p",
+   "en": "Inflation"
+  },
+  {
+   "k": "1wphqcd",
+   "en": "FOCUS_FILTER_BALANCE_OF_POWER"
+  },
+  {
+   "k": "10xi91",
+   "en": "Balance of Power"
+  },
+  {
+   "k": "jtqlji",
+   "en": "Used when implementing, modifying, or removing a balance of power"
+  },
+  {
+   "k": "foiadp",
+   "en": "FOCUS_FILTER_SWI_MILITARY_READINESS"
+  },
+  {
+   "k": "qsp5dq",
+   "en": "Military Readiness"
+  },
+  {
+   "k": "rjwxnb",
+   "en": "Used in the ⟦0⟧ focus tree for focuses dealing with Switzerland’s ‘‘Military Readiness’’ system.",
+   "frags": 1
+  },
+  {
+   "k": "jcnczk",
+   "en": "Swiss"
+  },
+  {
+   "k": "w61wa5",
+   "en": "FOCUS_FILTER_USA_CONGRESS"
+  },
+  {
+   "k": "tl5gir",
+   "en": "Congress"
+  },
+  {
+   "k": "1w9z2a4",
+   "en": "Used in the ⟦0⟧ focus tree for focuses requiring or changing support in Congress.",
+   "frags": 1
+  },
+  {
+   "k": "7tkm24",
+   "en": "United States"
+  },
+  {
+   "k": "7anvrt",
+   "en": "FOCUS_FILTER_MEX_CHURCH_AUTHORITY"
+  },
+  {
+   "k": "3a0i9j",
+   "en": "Church Authority"
+  },
+  {
+   "k": "1tfzuzk",
+   "en": "Used in the ⟦0⟧ national focus tree for focuses dealing with the church.",
+   "frags": 1
+  },
+  {
+   "k": "crjjri",
+   "en": "Mexican"
+  },
+  {
+   "k": "rsrs1g",
+   "en": "FOCUS_FILTER_MEX_CAUDILLO_REBELLION"
+  },
+  {
+   "k": "65z1qm",
+   "en": "Caudillo Rebellion"
+  },
+  {
+   "k": "1ybc41i",
+   "en": "FOCUS_FILTER_SPA_CIVIL_WAR"
+  },
+  {
+   "k": "kd7pi6",
+   "en": "Spanish Civil War"
+  },
+  {
+   "k": "19l8nkk",
+   "en": "FOCUS_FILTER_SPA_CARLIST_UPRISING"
+  },
+  {
+   "k": "sh07sg",
+   "en": "Carlist Uprising"
+  },
+  {
+   "k": "xs6xe4",
+   "en": "FOCUS_FILTER_TUR_KURDISTAN"
+  },
+  {
+   "k": "f7eloq",
+   "en": "Kurdistan"
+  },
+  {
+   "k": "vazv86",
+   "en": "Used in the ⟦0⟧ focus tree for focuses dealing with ⟦1⟧ and Kurdish resistance",
+   "frags": 2
+  },
+  {
+   "k": "1fez4gr",
+   "en": "Turkish"
+  },
+  {
+   "k": "1cika1a",
+   "en": "FOCUS_FILTER_TUR_KEMALISM"
+  },
+  {
+   "k": "1jfuic0",
+   "en": "Kemalism"
+  },
+  {
+   "k": "d30z1j",
+   "en": "FOCUS_FILTER_TUR_TRADITIONALISM"
+  },
+  {
+   "k": "1o1w6wh",
+   "en": "Traditionalism"
+  },
+  {
+   "k": "t2w33u",
+   "en": "FOCUS_FILTER_GRE_DEBT_TO_IFC"
+  },
+  {
+   "k": "1bm5gcw",
+   "en": "Debt to the I.F.C."
+  },
+  {
+   "k": "1ej654x",
+   "en": "FOCUS_FILTER_SOV_POLITICAL_PARANOIA"
+  },
+  {
+   "k": "1e83e1f",
+   "en": "Political Paranoia"
+  },
+  {
+   "k": "3kqk00",
+   "en": "FOCUS_FILTER_ITA_MISSIOLINI"
+  },
+  {
+   "k": "q1gvd",
+   "en": "Mussolini's Missions"
+  },
+  {
+   "k": "d20tqm",
+   "en": "Spelt exactly as used in-game."
+  },
+  {
+   "k": "149f05x",
+   "en": "FOCUS_FILTER_FOLKHEMMET"
+  },
+  {
+   "k": "1of6o9n",
+   "en": "Folkhemmet"
+  },
+  {
+   "k": "ny91wa",
+   "en": "In addition, it is possible to set the priority of focus filters. This is done with the ⟦0⟧ block ⟦1⟧. This priority is impossible to set to be focus tree-specific and instead is global. An entry within that block is done in the format of ⟦2⟧, where the first part decides the filter and the second part decides the priority. Focus filters with the higher priority appear earlier in the top view. By default, the game does it in the file containing the generic focus tree: ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "1fkde37",
+   "en": "search_filter_prios = { ... }"
+  },
+  {
+   "k": "1wlgs3p",
+   "en": "outside of the ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1ph4r6w",
+   "en": "FOCUS_FILTER_MY_MOD = 1200"
+  },
+  {
+   "k": "adsp8t",
+   "en": "/Hearts of Iron IV/common/national_focus/generic.txt"
+  },
+  {
+   "k": "15zmfsc",
+   "en": "Titlebar styles"
+  },
+  {
+   "k": "aumuca",
+   "en": "Styles are used for determining the picture used for the titlebar, the background on which the focus name is shown. A titlebar is set by using ⟦0⟧ in the focus.",
+   "frags": 1
+  },
+  {
+   "k": "109ep90",
+   "en": "text_icon = mod_focus_style"
+  },
+  {
+   "k": "101hr2m",
+   "en": "A style that can be used in focuses is created by using a root-level ⟦0⟧ block in a ⟦1⟧ file, by default ⟦2⟧. There are these possible attributes that can be used inside of a style:",
+   "frags": 3
+  },
+  {
+   "k": "ykx741",
+   "en": "style = { ... }"
+  },
+  {
+   "k": "20dfkm",
+   "en": "00_titlebar_styles.txt"
+  },
+  {
+   "k": "1nhlwxf",
+   "en": "⟦0⟧ is the name of the style. The argument determines what needs to be written in a focus' ⟦1⟧ to reference this style.",
+   "frags": 2
+  },
+  {
+   "k": "ek6xed",
+   "en": "name = example_style"
+  },
+  {
+   "k": "jjmp76",
+   "en": "text_icon"
+  },
+  {
+   "k": "fbp7y3",
+   "en": "⟦0⟧, if written, will make any focus without a defined ⟦1⟧ use this style. Only one style total may use this.",
+   "frags": 2
+  },
+  {
+   "k": "1wr5rhe",
+   "en": "⟦0⟧ is the sprite that gets used when the focus is unavailable.",
+   "frags": 1
+  },
+  {
+   "k": "bl7h6i",
+   "en": "unavailable = GFX_focus_unavailable_example"
+  },
+  {
+   "k": "1al6lxp",
+   "en": "⟦0⟧ is the sprite that gets used when the focus has been completed.",
+   "frags": 1
+  },
+  {
+   "k": "1c6spf1",
+   "en": "completed = GFX_focus_unavailable_example"
+  },
+  {
+   "k": "sz9kw1",
+   "en": "⟦0⟧ is the sprite that gets used when the focus is available for completion, but not yet selected.",
+   "frags": 1
+  },
+  {
+   "k": "231d77",
+   "en": "available = GFX_focus_unavailable_example"
+  },
+  {
+   "k": "u791ld",
+   "en": "⟦0⟧ is the sprite that gets used when the focus is currently in progress of being completed.",
+   "frags": 1
+  },
+  {
+   "k": "25og05",
+   "en": "current = GFX_focus_unavailable_example"
+  },
+  {
+   "k": "1lwyjm1",
+   "en": "An example style definition is as such:"
+  },
+  {
+   "k": "3n591o",
+   "en": "Example sprite definitions"
+  },
+  {
+   "k": "wquzg0",
+   "en": "spriteTypes = { spriteType = { name = GFX_focus_unavailable_example textureFile = gfx/interface/focusview/titlebar/focus_unavailable_example_bg.dds } spriteType = { name = GFX_focus_can_start_example textureFile = gfx/interface/focusview/titlebar/focus_can_start_example_bg.dds } SpriteType = { name = \"GFX_focus_current_example texturefile = gfx/interface/focusview/titlebar/focus_can_start_example_bg.dds # Usually the same as the available sprite effectFile = gfx/FX/buttonstate_onlydisable.lua animation = { animationmaskfile = gfx/interface/focusview/titlebar/focus_ongoing_mask2.dds animationtexturefile = gfx/interface/focusview/titlebar/focus_ongoing_texture.dds # <- the animated file animationrotation = -90.0 # -90 clockwise 90 counterclockwise(by default) animationlooping = yes # yes or no ;) animationtime = 20.0 # in seconds animationdelay = 0.2 # in seconds animationblendmode = add #add, multiply, overlay animationtype = rotating #scrolling, rotating, pulsing animationrotationoffset = { x = 0.0 y = 0.0 } animationtexturescale = { x = 1.0 y = 1.0 } } animation = { animationmaskfile = gfx/interface/focusview/titlebar/focus_ongoing_mask4.dds animationtexturefile = gfx/interface/focusview/titlebar/focus_ongoing_texture.dds animationrotation = 90.0 # -90 clockwise 90 counterclockwise(by default) animationlooping = yes # yes or no ;) animationtime = 15.0 # in seconds animationdelay = 0.2 # in seconds animationblendmode = add #add, multiply, overlay animationtype = rotating_ccw #scrolling, rotating, pulsing animationrotationoffset = { x = 0.0 y = 0.0 } animationtexturescale = { x = 1.0 y = 1.0 } } legacy_lazy_load = no } SpriteType = { name = GFX_focus_completed_example texturefile = gfx/interface/focusview/titlebar/focus_completed_example_bg.dds effectFile = gfx/FX/buttonstate_onlydisable.lua animation = { animationmaskfile = gfx/interface/focusview/titlebar/focus_completed_mask.dds animationtexturefile = gfx/interface/focusview/titlebar/focus_completed_texture.dds # <- the animated file animationrotation = 0.0 # -90 clockwise 90 counterclockwise(by default) animationlooping = yes # yes or no ;) animationtime = 26.0 # in seconds animationdelay = 0.0 # in seconds animationblendmode = add #add, multiply, overlay animationtype = scrolling #scrolling, rotating, pulsing animationrotationoffset = { x = 0.0 y = 0.0 } animationtexturescale = { x = 1.0 y = 1.0 } } legacy_lazy_load = no } }"
+  },
+  {
+   "k": "1ba3ey",
+   "en": "AI will do"
+  },
+  {
+   "k": "jl27n9",
+   "en": "⟦0⟧ is a ⟦1⟧ that decides the likelihood for the AI to do this focus if ⟦2⟧ is not set. By default, each focus has a score of 1. The arguments of ⟦3⟧ (changing the value), ⟦4⟧, and ⟦5⟧ (multiplying it) can be used to modify it. Within the ⟦6⟧ block, ⟦7⟧ functions as a trigger block where the prior three value-modifying arguments are also supported. The value will be modified if the triggers are true. For example, the following will result in the value of 15 for POL and a value of 5 for every other country:",
+   "frags": 8
+  },
+  {
+   "k": "1ao69lv",
+   "en": "ai_will_do = { ... }"
+  },
+  {
+   "k": "1h0qypk",
+   "en": "an AI strategy plan"
+  },
+  {
+   "k": "h5x2oo",
+   "en": "base"
+  },
+  {
+   "k": "gfk7lg",
+   "en": "add"
+  },
+  {
+   "k": "pokujq",
+   "en": "factor"
+  },
+  {
+   "k": "1xpl1mz",
+   "en": "modifier = { ... }"
+  },
+  {
+   "k": "1ovhhev",
+   "en": "An arbitrarily large amount of modifiers is possible to add to an ai_will_do, and they will apply in the order they're put in the code. It is also possible to use ⟦0⟧ within a modifier of the ai_will_do value.",
+   "frags": 1
+  },
+  {
+   "k": "bk83b6",
+   "en": "variables"
+  },
+  {
+   "k": "1gw7yh3",
+   "en": "The way that the value is evaluated for AI picking the focus is that, when picking a focus to do, it generates a random decimal value between 0 and the ai_will_do value for each of the focuses. If the evaluated focus has a prerequisite focus that the AI has just completed, the generated ai_will_do value gets multiplied by 1.5 before the game picks a focus.⟦0⟧ If the ⟦1⟧ that the country is currently following has ⟦2⟧ defined for this focus, the value gets multiplied by the specified value. Afterwards, the game picks the focus that has the highest generated value. If neither of the focuses has a value above 0, the AI will not pick any of them, instead going into continuous focuses if possible or not doing any otherwise. ⟦3⟧",
+   "frags": 4
+  },
+  {
+   "k": "wd0q6f",
+   "en": "AI strategy plan"
+  },
+  {
+   "k": "i20hef",
+   "en": "focus_factors = { ... }"
+  },
+  {
+   "k": "1u3m76o",
+   "en": "Due to that algorithm, low values are less likely to be picked than intuition suggests."
+  },
+  {
+   "k": "kfficn",
+   "en": "To reiterate, ⟦0⟧ or if none of the focuses in that order can be followed.Comparing the chances between focuses is the following:",
+   "frags": 1
+  },
+  {
+   "k": "khr6q0",
+   "en": "this is only evaluated if the ⟦0⟧ for the country doesn't have the order of the focuses set",
+   "frags": 1
+  },
+  {
+   "k": "1jlgiou",
+   "en": "Formulas for chance calculation"
+  },
+  {
+   "k": "1iit4h",
+   "en": "As the general formula can be complex to calculate without a special tool, simpler calculations for special cases can provide quite useful: whether for approximating a chance by substituting similar numbers or for calculating the exact chance if the numbers align. Each case will be provided with three paragraphs — The formula in the first paragraph, an example in the second paragraph, and a general explanation of why it applies (though not necessarily a rigorous proof) in the third paragraph. The total chance will be given on the scale of ⟦0⟧; focuses are assumed each to have a positive value, as negatives are unintended and a focus with a chance of zero will never get picked by the game's AI meaning they can be excluded from the calculation entirely; and the modifiers applying to the focus' AI will do value (e.g. from AI strategy plans or the bonus for continuing the same branch) have already been applied, as multiplying the result of the rolled dice by a number would be the same as multiplying the ends of a range by that number. In shortened form, the ai_will_do value of a focus will be referred simply as the \"focus' value\".",
+   "frags": 1
+  },
+  {
+   "k": "2d7led",
+   "en": "One focus with a large value and other focuses with the same smaller value"
+  }
+ ]
+}

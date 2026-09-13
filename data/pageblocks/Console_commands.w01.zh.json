@@ -1,0 +1,58 @@
+{
+ "page": "Console commands",
+ "batch": "Console_commands.w01",
+ "items": [
+  {
+   "k": "1a4xcsm",
+   "zh": "装备使用基础名称，例如 'ae 1000 infantry_equipment_1'。你只能添加已研发的装备。不支持海军装备。（运输船队例外：'ae 1000 convoy_1'）要添加舰船，可考虑使用 instantconstruction(ic) 或 instanttraining (it)（'ic' 或 'it' 也会影响 AI）。⟦0⟧"
+  },
+  {
+   "k": "1eljww9",
+   "zh": "要只添加你最新装备中的某一特定型号，你必须使用它给定的名称。示例：你以 'Matilda LP' 坦克为基础创建一个装甲与主炮更好的变体，并将其命名为 'Matilda LP Mk. IV'。⟦0⟧"
+  },
+  {
+   "k": "1t553kk",
+   "zh": "add_intel [<国家标签 1>] [国家标签 2] [civilian,army,navy,airforce]=[数值] ⟦0⟧"
+  },
+  {
+   "k": "fnwn4g",
+   "zh": "例：sp_add_selected_scientist_trait scientist_trait_brilliant_theorist ⟦0⟧"
+  },
+  {
+   "k": "1ibg69m",
+   "zh": "例（把玩家对法国的情报设为最大）：add_intel FRA ⟦0⟧⟦1⟧"
+  },
+  {
+   "k": "1o3pdfq",
+   "zh": "AI 使用该种子来决定其所有焦点和决议。⟦0⟧"
+  },
+  {
+   "k": "1kwb57k",
+   "zh": "例：acclimization cold_climate 75 ⟦0⟧"
+  },
+  {
+   "k": "45dimh",
+   "zh": "如果没有给出输入，默认为 1。⟦0⟧"
+  },
+  {
+   "k": "1h7rvp8",
+   "zh": "即：gain_xp seawolf ⟦0⟧ ⟦1⟧ ⟦2⟧"
+  },
+  {
+   "k": "z3k439",
+   "zh": "sp_breakthrough [<数值>] ⟦0⟧"
+  },
+  {
+   "k": "1yddetz",
+   "zh": "命令 sp_add_scientist 3 nuclear ⟦0⟧"
+  },
+  {
+   "k": "vjtaq4",
+   "zh": "例：sp_breakthrough 1 ⟦0⟧⟦1⟧"
+  },
+  {
+   "k": "1lfvhrl",
+   "zh": "civilwar fascism ENG ：⟦0⟧"
+  }
+ ]
+}

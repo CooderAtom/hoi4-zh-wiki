@@ -1,0 +1,778 @@
+{
+ "batch": 855,
+ "pages": [
+  "Patch 1.12.X"
+ ],
+ "chars": 14993,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "o5eff4",
+   "en": "Indian civil war will no longer give you 0 units if you complete a civil war focus while Free"
+  },
+  {
+   "k": "slh55s",
+   "en": "Herzegovina is now transferred to Croatia if the appropriate event option is selected by Germany"
+  },
+  {
+   "k": "11wu4kl",
+   "en": "Cairo is now required to form Arabia, and is appropriately cored by the same decision"
+  },
+  {
+   "k": "1gx2bvb",
+   "en": "Forming the ottoman empire without BftB now grants a core on Cairo. Cairo is now required and cored for the respective decisions in BftB"
+  },
+  {
+   "k": "w59fpe",
+   "en": "Constantinople and Amasya are now cored by the Form Persia decision"
+  },
+  {
+   "k": "1e3h3q1",
+   "en": "Ticino is now cored by the HRE decision"
+  },
+  {
+   "k": "a7ymiv",
+   "en": "Forming Byzantium without BftB will now appropriately grant cores on Constantinople and Amasya. Victory in Egypt and Tunis now requires and grants core on Cairo"
+  },
+  {
+   "k": "1oaac23",
+   "en": "Forming Macedonia now requires and grants cores on Istanbul, Amasya, Van, and Cairo"
+  },
+  {
+   "k": "jxf21d",
+   "en": "Decision alert should now show again if available decisions are present"
+  },
+  {
+   "k": "vuyl0c",
+   "en": "Patch 1.12.7, aka \"Operation Source\", was released as an open beta patch as part of the ⟦0⟧ patches on 2022-12-02⟦1⟧. It was officially out of open beta on 2022-12-08⟦2⟧ with the checksum ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "h1j24l",
+   "en": "b738"
+  },
+  {
+   "k": "sborw3",
+   "en": "Italian decisions Expand Regional Control in Ethiopian states no longer require any Ethiopian legitimacy value."
+  },
+  {
+   "k": "e4aq92",
+   "en": "Canadian focus 'Dollar-A-Year Men' now grants a national spirit with -33% political advisor cost. The exchange rate of dollars to political power is poor."
+  },
+  {
+   "k": "1veedqe",
+   "en": "Canadian focus 'Bits and Pieces Program' has gained an extra bit and piece, now granting 4% industrial and dockyard output, from 3%"
+  },
+  {
+   "k": "1sznopl",
+   "en": "Canadian focuses that grant army experience now grant significantly more of it"
+  },
+  {
+   "k": "195t968",
+   "en": "Fascist Canada now has the choice to offer concessions to the United Kingdom in return for Labrador and Newfoundland, which will be more likely to be accepted. Tooltips added for conditions leading to higher success chances."
+  },
+  {
+   "k": "115vteb",
+   "en": "Ships transferred as part of a Peace Conference action no longer have crew included: ship experience is reduced to 25% of what it was before the transfer"
+  },
+  {
+   "k": "3nkszt",
+   "en": "Australia has an additional shipyard focus. Each shipyard focus unlocks one of the naval designers, and naval designer traits are rebalanced."
+  },
+  {
+   "k": "3elieh",
+   "en": "All Australian focuses granting army experience now grant between 5 and 10 times more"
+  },
+  {
+   "k": "soupp0",
+   "en": "Australian focus 'Naval Auxiliary Patrol' now grants 5% core defence factor, from 3%, and 10% naval experience gain (new). Experience gain from naval focuses increased slightly."
+  },
+  {
+   "k": "pi90wf",
+   "en": "Australian Arms Production focus now grants -10% infantry equipment build cost in addition to civilian factory conversion speed."
+  },
+  {
+   "k": "1nj8ry2",
+   "en": "Added a new focus for Australia, 'Coordinate Central Bureau', which adds 2 signal company research/ahead of time bonuses, and a decryption bonus if La Resistance is owned."
+  },
+  {
+   "k": "t1qd9m",
+   "en": "Warscore contribution from lend leasing fuel and equipment roughly tripled. Warscore malus from receiving lendlease remains unchanged for now."
+  },
+  {
+   "k": "15gm007",
+   "en": "Warscore from capturing a province for the first time increased to 4, from 3, Warscore from IC damage reduced by 20%"
+  },
+  {
+   "k": "1t3geio",
+   "en": "Mengkukuo now has a starting core on Ordos. This does not come with free Ixian technology."
+  },
+  {
+   "k": "7z3sv8",
+   "en": "Taking occupied states in peace conferences is now considerably cheaper. AI is less likely to contest unoccupied states (though they still will if they have good reasons)"
+  },
+  {
+   "k": "jneres",
+   "en": "Added one new Hungarian Focus to construct a new flagship, accelerating potential naval growth a bit. Admiral Horthy can now complete his transcendence."
+  },
+  {
+   "k": "1hcczhv",
+   "en": "Plane Designer: Engine 2 speed reduced to 480/450, from 530/480"
+  },
+  {
+   "k": "t9zzmq",
+   "en": "Hungarian Aluminium production is balanced between Transdanubia and Northern Hungary. Added 1 excavation decision to improve Transdanubian bauxite production, requiring excavation II"
+  },
+  {
+   "k": "1ogzy66",
+   "en": "Added a late-game resource prospecting decision for tapping the Derna oilfield in North Transylvania."
+  },
+  {
+   "k": "u80060",
+   "en": "Added a Hungarian Focus for restarting the shipping industry, adding 3 dockyards in a coastal state"
+  },
+  {
+   "k": "qcy71t",
+   "en": "Canadian Focus 'Retool Angus Shops' now grants 2 military factories, from 1"
+  },
+  {
+   "k": "d37i38",
+   "en": "Canadian Focus 'United Shipyards' now grants 4 dockyards, from 3"
+  },
+  {
+   "k": "1dt9bel",
+   "en": "Canadian Focus 'Maritime Colonial Railway' now grants 2 Civilian Factories, from 1"
+  },
+  {
+   "k": "18w422u",
+   "en": "Canadian Focus 'Defense of Canada Regulations' now takes 35 days, from 70"
+  },
+  {
+   "k": "1lkpk4b",
+   "en": "Added approximately 40% more German random name possibilities"
+  },
+  {
+   "k": "ed0ghv",
+   "en": "Added approximately 20% more English random name possibilities"
+  },
+  {
+   "k": "13xd40d",
+   "en": "Added a new option when releasing nations. You can now choose to retain states upon which you have cores. Retained cores can still be returned to the puppet through the occupation menu."
+  },
+  {
+   "k": "7iklh4",
+   "en": "Rebalanced values for the \"Sky Supplies\" career profile medal to make it in line with new transport planes supply capabilities."
+  },
+  {
+   "k": "5wgk39",
+   "en": "Fix Career Profile Awards view for mod achievements in case of long texts"
+  },
+  {
+   "k": "1mvntut",
+   "en": "AI now puts more weight on advisor competence rather than advisor cheapness, contrary to modern business practices."
+  },
+  {
+   "k": "1l19dxs",
+   "en": "Fixed bug where AI gave super high score to the max_command_power and uncategorized modifiers while hiring advisors"
+  },
+  {
+   "k": "iwgps0",
+   "en": "Make the following triggers neutral - meaning they won't impact the outcome of the trigger block they are in: log, set_temp_variable, print_variables, round_temp_variable, clamp_temp_variable, subtract_from_temp_variable, multiply_temp_variable, divide_temp_variable, clear_temp_array, add_to_temp_array, remove_from_temp_array, resize_temp_array, find_highest_in_array, find_lowest_in_array"
+  },
+  {
+   "k": "yxu15l",
+   "en": "Fixed unlocalized armoured car technologies when researched via script."
+  },
+  {
+   "k": "l24o33",
+   "en": "Reorganise Ascari will no longer add Armoured Cars to division templates if La Resistance is not active."
+  },
+  {
+   "k": "10dnsdv",
+   "en": "Fixed typo in Balance of Power tooltip when there are no modifiers applied."
+  },
+  {
+   "k": "1p3fic6",
+   "en": "Fix checking if a country is at war with someone in your faction. Also fixes add_to_faction effect."
+  },
+  {
+   "k": "164iskd",
+   "en": "Ethiopian national spirit Aid Ethiopian Communists now shows proper localization"
+  },
+  {
+   "k": "d0qyjj",
+   "en": "Fixed wrong value for Mobilization Speed in the first range of the Italian Communist side of the Balance of Power"
+  },
+  {
+   "k": "116fmcj",
+   "en": "Random seed for the outcome of NKVD decision to assassinate Stalin is now dynamic. Nobody is safe."
+  },
+  {
+   "k": "jyuotm",
+   "en": "New divisions spawned by Italian decision Train Irregulars will now spawn when the decision finishes instead of when the decision starts."
+  },
+  {
+   "k": "19jit4l",
+   "en": "Fixed Issue where Switzerland would not take focuses that required less than Full Cantonal Power"
+  },
+  {
+   "k": "1euz8y3",
+   "en": "Decreased likelihood Switzerland will join the Allies or Axis late war."
+  },
+  {
+   "k": "1evsus1",
+   "en": "Patch 1.12.8, aka \"Operation Capital\", was released as an open beta patch as part of the ⟦0⟧ patches on 2022-12-21⟦1⟧. It was officially out of open beta on 2023-01-16⟦2⟧ with the checksum ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "58vhey",
+   "en": "9d51"
+  },
+  {
+   "k": "2a17vq",
+   "en": "Equipment variants created through focuses etc. will be created first when the technology they are based on is researched, if it's missing."
+  },
+  {
+   "k": "hx49x0",
+   "en": "Tank Design: Radio modules curve slightly changed, overall efficacy of radios reduced slightly"
+  },
+  {
+   "k": "1czgqqf",
+   "en": "Tank Design: Close Support Gun now has 10 piercing, from 12."
+  },
+  {
+   "k": "wk6ylb",
+   "en": "Tank Design: Heavy Machine Gun now has 8 soft attack from 5, and 6 piercing from 10"
+  },
+  {
+   "k": "l95ptp",
+   "en": "Tank Design: Secondary Cannon and HMG now have fewer drawbacks but higher production cost. HMG soft attack now 4, from 3, but hard attack removed"
+  },
+  {
+   "k": "i28h6a",
+   "en": "Tank Design: Additional Machineguns soft attack reduced to 1, from 2"
+  },
+  {
+   "k": "1pan9mi",
+   "en": "Tank Design: Easy Maintenance module now reduces total build cost by 5%, but requires 30 XP, from 10"
+  },
+  {
+   "k": "y34xnn",
+   "en": "Tank Design: Expanded Fuel Tanks now cost 1 IC, from 2"
+  },
+  {
+   "k": "xizpri",
+   "en": "Tank Design: Sloped Armor now increases armor by 25%, from 20"
+  },
+  {
+   "k": "1r2brqp",
+   "en": "Tank Design: Medium One-Man Turret now has 8 breakthrough, from 10, and reduces soft and hard attack by 10%, from 25%"
+  },
+  {
+   "k": "1uuqxve",
+   "en": "Tank Design: Three-Man Turret now has 24 breakthrough, from 20"
+  },
+  {
+   "k": "1oicflq",
+   "en": "Tank Design: Torsion Bar now grants 15% reliability, from 10%"
+  },
+  {
+   "k": "507rfd",
+   "en": "Tank Design: Interleaved Road Wheels no longer reduces reliability, but has doubled production cost"
+  },
+  {
+   "k": "1u07alm",
+   "en": "Tank Design: Welded armor reduced to 30% armor, from 40%"
+  },
+  {
+   "k": "ngm6gf",
+   "en": "Plane Design: Torpedo Mountings now have 14 naval strike attack from 12, -12 agility from -15, and 6 targeting from 5"
+  },
+  {
+   "k": "1rsmi61",
+   "en": "Plane Design: Reduced the lower end of plane engine IC costs; earlier planes should be a little cheaper on the whole"
+  },
+  {
+   "k": "1lcuh1g",
+   "en": "Dive brakes no longer valid for naval bombers, increased naval targeting from dive brakes from 4 to 6"
+  },
+  {
+   "k": "fpd7jb",
+   "en": "Dive brakes no longer valid with naval bomber weapons (torpedoes and guided missiles)"
+  },
+  {
+   "k": "176197z",
+   "en": "Carrier Naval strike multiplier increased, reduced naval strike detection chance from 0.7 to 0.5, reduced carrier disruption factor from 8 to 6"
+  },
+  {
+   "k": "nudckf",
+   "en": "Basic Medium chassis now 1938 tech, amphibious tank now unlocked only by 1936 light, tank armour tech dates are now 36,38,41,44, amphibious tank no longer gets medium turrets"
+  },
+  {
+   "k": "15for7w",
+   "en": "New variants received from auto-upgrades, focuses, events etc. are now highlighted in the production tab like variants received from research."
+  },
+  {
+   "k": "s52lgc",
+   "en": "In research screen for modular equipment (tank, ship, plane), stop showing a diff in stats when there is no design company attached"
+  },
+  {
+   "k": "1pwudy3",
+   "en": "Improved Tank tech tree layout"
+  },
+  {
+   "k": "jqa9xi",
+   "en": "Soviet Union no longer desires to be best buddies with Romania despite being instructed to ignore them for a while"
+  },
+  {
+   "k": "tong0o",
+   "en": "AI weights on hiring advisors now makes more sense. You should see a better split between political advisors & research bureaus, and the AI no longer saves all PP for hiring chiefs at the exclusion of all else. [This has a pretty radical effect on early AI build-up, thus there may be some imbalance in the early game in this open beta - feedback especially welcome]"
+  },
+  {
+   "k": "rjsra2",
+   "en": "AI have a higher weight on Captain of Industry advisors pre-1939"
+  },
+  {
+   "k": "jo9vsa",
+   "en": "AI military spirit selection is less deterministic"
+  },
+  {
+   "k": "1jwplr5",
+   "en": "Added property allow_without_tech to create_equipment_variant which will create the variant even if the technology it's based on is missing."
+  },
+  {
+   "k": "1nig52t",
+   "en": "Fix the way character variables in script are stored"
+  },
+  {
+   "k": "14wbz8x",
+   "en": "From now on, any trigger or effect, strictly requiring a country scope, but used in a character scope, will not work anymore"
+  },
+  {
+   "k": "1ht7o6d",
+   "en": "From now on, any trigger or effect, strictly requiring a country scope, but used in all_character, any_character, random_character, every_character, party_leader, characters_list_tooltip, will not work anymore"
+  },
+  {
+   "k": "nmpmb8",
+   "en": "Correctly retrieve variables stored in character scope for text"
+  },
+  {
+   "k": "1iv9yr",
+   "en": "Fixed tooltip function of trigger can_be_country_leader when used in country scope or all_character/any_character"
+  },
+  {
+   "k": "135lnpi",
+   "en": "Fix add_ideas and activate_advisor effects. When applied to a slot that is already filled, dismiss the currently appointed advisor before hiring the new one. Will fix crash when opening Officer corps after."
+  },
+  {
+   "k": "o06oaw",
+   "en": "In script, interpret correctly when a character token is used in input"
+  },
+  {
+   "k": "dgogum",
+   "en": "Make has_character and can_be_country_leader work with variables and keyword, and not just with a character token"
+  },
+  {
+   "k": "4t6s3g",
+   "en": "Make is_character work with variables and keyword, and not just with a character token"
+  },
+  {
+   "k": "18cz7ry",
+   "en": "Align can_be_country_leader on other character trigger and always return false if the character is retired"
+  },
+  {
+   "k": "s22lxi",
+   "en": "Fix crash in remove_advisor_role if the character had no matching advisor role"
+  },
+  {
+   "k": "1n46sau",
+   "en": "When using a character token as input for a scope, search for the closest encapsulating country scope in order to interpret it correctly"
+  },
+  {
+   "k": "1djlg37",
+   "en": "Fix crash when using add_advisor_role on a character with already a role in the same slot. Add a log error if trying to put triggers and on_action in the advisor role in add_advisor_role, those can only work if in database."
+  },
+  {
+   "k": "1m8mc8t",
+   "en": "Make set_temp_variable accept character token as input"
+  },
+  {
+   "k": "1fl4ol7",
+   "en": "Removed check on unit leader type for add_unit_leader_trait. This check is only relevant for random traits."
+  },
+  {
+   "k": "1ou36f1",
+   "en": "Make sure that advisor roles in characters duplicated during civil war keep the same idea_token"
+  },
+  {
+   "k": "6z7hht",
+   "en": "Remove check on scope for hidden_effect and effect_tooltip"
+  },
+  {
+   "k": "rmr02",
+   "en": "Added country dynamic variables : country_leader, theorist, army_chief, navy_chief, air_chief, political_advisor, high_command"
+  },
+  {
+   "k": "vtvn3l",
+   "en": "Make sure all political parties are cleaned up when a character with multiple country leader roles retires"
+  },
+  {
+   "k": "1bd3kvk",
+   "en": "Fix the tooltip for triggers inside a character scope, now the name of the character will correctly prefix the trigger tooltip"
+  },
+  {
+   "k": "2cm64a",
+   "en": "Add can_be_fired boolean flag in advisor role block in database. If at 'no', then the advisor can't be fired once hired. Warning modders : completely replaces removal_cost = -1 !"
+  },
+  {
+   "k": "19hnbt5",
+   "en": "Add trigger advisor_can_be_fired checking new flag can_be_fired in advisor role block"
+  },
+  {
+   "k": "zz0zja",
+   "en": "Add effect set_can_be_fired_in_advisor_role, setting new flag can_be_fired in advisor role block"
+  },
+  {
+   "k": "jf9mkc",
+   "en": "Fix dynamic variables when using a unit leader scope"
+  },
+  {
+   "k": "puck96",
+   "en": "Add trigger pc_is_state_claimed"
+  },
+  {
+   "k": "dyhwf0",
+   "en": "Renamed trigger pc_is_state_outside_influence_for to pc_is_state_outside_influence_for_winner"
+  },
+  {
+   "k": "wa4qsm",
+   "en": "AI now correctly evaluates the weight of the traits that an advisor has, as well as the advisor entry weights"
+  },
+  {
+   "k": "14i62i2",
+   "en": "Art"
+  },
+  {
+   "k": "1srq84l",
+   "en": "Added portraits for political advisors in Spain and Portugal"
+  },
+  {
+   "k": "9c8h0n",
+   "en": "Fix all events related to Soviet Paranoia (value was always 0)"
+  },
+  {
+   "k": "dkqmkn",
+   "en": "Fixed issue where researching a new hull, chassis or airframe would not create the default variant if any variant of that type already existed."
+  },
+  {
+   "k": "vucrxg",
+   "en": "Fixed issue where variants created through focuses etc. would get unexpected modules and upgrades as a result of there being no default variant."
+  },
+  {
+   "k": "1gglz7k",
+   "en": "Fixed typo in tooltip for Soviet Merge Plants focuses"
+  },
+  {
+   "k": "1tlkr83",
+   "en": "Fixed the manpower exploit by repeated splitting & merging of airwings."
+  },
+  {
+   "k": "18wbflv",
+   "en": "Italian Fiat 3000 and Fiat 3000B inter-war tanks will no longer be just hulls in the stockpile and will now show proper inter-war tank 2D icon."
+  },
+  {
+   "k": "n5a2jf",
+   "en": "Italian AI should no longer release puppets in Balkans on historical via decisions."
+  },
+  {
+   "k": "artqma",
+   "en": "Decaying opinion modifers (for instance from improve relation diplomatic action) will not disappear after loading a save anymore"
+  },
+  {
+   "k": "9rywmc",
+   "en": "Fixes to how AI selects target templates for upgrading"
+  },
+  {
+   "k": "9o204t",
+   "en": "Combat log tooltip now shows correct naming for losses breakdown"
+  },
+  {
+   "k": "2oeijv",
+   "en": "Admirals can no longer erroneously gain the politically_connected general trait"
+  },
+  {
+   "k": "1ua64pq",
+   "en": "Fix bug with usage of pc_is_state_outside_influence_for trigger in ai desires"
+  },
+  {
+   "k": "1j33nye",
+   "en": "Fixed issue where 'No Councilor' mission would complete right away."
+  },
+  {
+   "k": "1unmq2i",
+   "en": "Fixed issue where Democratic Unrest National Spirit in Switzerland wouldn't be removed when declaring the Alpine Protectorate."
+  },
+  {
+   "k": "dedhdt",
+   "en": "AI no longer forgets top-most production line when reducing excessive factories"
+  },
+  {
+   "k": "m0scto",
+   "en": "Fixed Thrust/Weight issues in some plane designs after latest air rebalance"
+  },
+  {
+   "k": "17q2we",
+   "en": "Fixed not considering manpower casualties in the air combat."
+  },
+  {
+   "k": "fsi3cu",
+   "en": "Unite Polynesia decision category now shows the appropriate decision category picture."
+  },
+  {
+   "k": "wkmtrw",
+   "en": "Stalinist AI should now be more inclined to kill Trotsky."
+  },
+  {
+   "k": "31jujj",
+   "en": "Cruiser Submarine icon will now be properly shown on the researched technology pop-up."
+  },
+  {
+   "k": "wrri6m",
+   "en": "Fixed Chinese general showing up with blank portrait when Nationalist China integrates Guanxi Clique army."
+  },
+  {
+   "k": "n6ll4j",
+   "en": "Patch 1.12.9 was a hotfix patch released on 2023-01-24⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "6re69u",
+   "en": "7c58"
+  },
+  {
+   "k": "7ckksv",
+   "en": "In unit history file, if a mod tries to create a ship for a country that does not have the required tech, do not create the ship."
+  },
+  {
+   "k": "1t8nzy2",
+   "en": "Patch 1.12.10, aka \"Operation Sabre\", was released as an open beta patch as part of the ⟦0⟧ patches on 2023-02-02⟦1⟧. It was officially out of open beta on 2023-02-15⟦2⟧ with the checksum ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "832313",
+   "en": "0f26"
+  },
+  {
+   "k": "1ymsk4d",
+   "en": "Feature"
+  },
+  {
+   "k": "1y3xq4k",
+   "en": "For easy and very easy difficulties, AI countries will transfer a part of their Peace Score to the human player(s)"
+  },
+  {
+   "k": "vahcnq",
+   "en": "Puppets will transfer a part of their Peace Score to their Overlord (can be disabled with custom game rules)"
+  },
+  {
+   "k": "1r6mv0y",
+   "en": "Faction members will transfer a part of their Peace Score to their Faction Leader (can be disabled with custom game rules)"
+  },
+  {
+   "k": "1rqege6",
+   "en": "Countries with a low war participation score will transfer all their Peace Score to other countries (can be disabled with custom game rules)"
+  },
+  {
+   "k": "1i4wygr",
+   "en": "Make peace score redistribution game rules disabled by default"
+  }
+ ]
+}

@@ -1,0 +1,656 @@
+{
+ "page": "Modifiers",
+ "from": 910,
+ "items": [
+  {
+   "k": "1vcfhuu",
+   "en": "enemy_operative_detection_chance",
+   "zh": ""
+  },
+  {
+   "k": "1avfyz0",
+   "en": "Changes the chance for an enemy operative to be detected.",
+   "zh": ""
+  },
+  {
+   "k": "1yvitme",
+   "en": "enemy_operative_detection_chance = 10",
+   "zh": ""
+  },
+  {
+   "k": "dhb4ok",
+   "en": "enemy_operative_detection_chance_factor",
+   "zh": ""
+  },
+  {
+   "k": "1xq0jem",
+   "en": "Changes the chance for an enemy operative to be detected by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1l04npq",
+   "en": "enemy_operative_detection_chance_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "18fqge2",
+   "en": "enemy_operative_forced_into_hiding_time_factor",
+   "zh": ""
+  },
+  {
+   "k": "iujon0",
+   "en": "Changes the chance for an enemy operative to be forced into hiding by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "kcvtso",
+   "en": "enemy_operative_forced_into_hiding_time_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "kaakdr",
+   "en": "enemy_operative_harmed_time_factor",
+   "zh": ""
+  },
+  {
+   "k": "1mup12x",
+   "en": "Changes the chance for an enemy operative to be harmed by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1y1669p",
+   "en": "enemy_operative_harmed_time_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "t7kf91",
+   "en": "enemy_operative_intel_extraction_rate",
+   "zh": ""
+  },
+  {
+   "k": "1oouvq1",
+   "en": "Changes the rate at which the enemy operatives extract our intel.",
+   "zh": ""
+  },
+  {
+   "k": "m5b6v",
+   "en": "enemy_operative_intel_extraction_rate = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "idfyir",
+   "en": "enemy_spy_negative_status_factor",
+   "zh": ""
+  },
+  {
+   "k": "jixt8j",
+   "en": "Changes the chance an enemy spy can receive a negative status.",
+   "zh": ""
+  },
+  {
+   "k": "1emzvx5",
+   "en": "enemy_spy_negative_status_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "10c73ph",
+   "en": "enemy_operative_recruitment_chance",
+   "zh": ""
+  },
+  {
+   "k": "1k90m1r",
+   "en": "Modifies the chance to recruit an enemy operative.",
+   "zh": ""
+  },
+  {
+   "k": "s4qjjl",
+   "en": "enemy_operative_recruitment_chance = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1vab4lg",
+   "en": "Cannot be used in operative scope.",
+   "zh": ""
+  },
+  {
+   "k": "1c19sns",
+   "en": "new_operative_slot_bonus",
+   "zh": ""
+  },
+  {
+   "k": "1xf61oz",
+   "en": "Modifies the operative recruitment choices.",
+   "zh": ""
+  },
+  {
+   "k": "av4odg",
+   "en": "new_operative_slot_bonus = 1",
+   "zh": ""
+  },
+  {
+   "k": "ec16wr",
+   "en": "occupied_operative_recruitment_chance",
+   "zh": ""
+  },
+  {
+   "k": "1ucb1ir",
+   "en": "Modifies the chance to get an operative from occupied territory.",
+   "zh": ""
+  },
+  {
+   "k": "148sgfr",
+   "en": "occupied_operative_recruitment_chance = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "iubk5l",
+   "en": "operative_death_on_capture_chance",
+   "zh": ""
+  },
+  {
+   "k": "1qg32le",
+   "en": "Modifies the chance for the country's operative to die on being captured.",
+   "zh": ""
+  },
+  {
+   "k": "swld05",
+   "en": "operative_death_on_capture_chance = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "on6miv",
+   "en": "operative_slot",
+   "zh": ""
+  },
+  {
+   "k": "46tv8x",
+   "en": "Modifies the amount of operative slots.",
+   "zh": ""
+  },
+  {
+   "k": "12xllrf",
+   "en": "operative_slot = 1",
+   "zh": ""
+  },
+  {
+   "k": "2y4sbe",
+   "en": "ai_badass_factor",
+   "zh": ""
+  },
+  {
+   "k": "1f24pxs",
+   "en": "AI's threat perception.",
+   "zh": ""
+  },
+  {
+   "k": "st16go",
+   "en": "ai_badass_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1or6c94",
+   "en": "ai_call_ally_desire_factor",
+   "zh": ""
+  },
+  {
+   "k": "w9eluf",
+   "en": "Chance for AI to call allies.",
+   "zh": ""
+  },
+  {
+   "k": "p67kmy",
+   "en": "ai_call_ally_desire_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "16bpbyl",
+   "en": "ai_desired_divisions_factor",
+   "zh": ""
+  },
+  {
+   "k": "71oorx",
+   "en": "The amount of divisions AI seeks to produce.",
+   "zh": ""
+  },
+  {
+   "k": "17z31vj",
+   "en": "ai_desired_divisions_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "5ci15x",
+   "en": "ai_focus_aggressive_factor",
+   "zh": ""
+  },
+  {
+   "k": "1yo58fm",
+   "en": "AI's focus on offense.",
+   "zh": ""
+  },
+  {
+   "k": "pr556f",
+   "en": "ai_focus_aggressive_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "y00ccv",
+   "en": "ai_focus_defense_factor",
+   "zh": ""
+  },
+  {
+   "k": "wwxox8",
+   "en": "AI's focus on defense.",
+   "zh": ""
+  },
+  {
+   "k": "ik2qe5",
+   "en": "ai_focus_defense_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1r4zcp8",
+   "en": "ai_focus_aviation_factor",
+   "zh": ""
+  },
+  {
+   "k": "sno9bl",
+   "en": "AI's focus on aviation.",
+   "zh": ""
+  },
+  {
+   "k": "nhylye",
+   "en": "ai_focus_aviation_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "ku6pdu",
+   "en": "ai_focus_military_advancements_factor",
+   "zh": ""
+  },
+  {
+   "k": "cviyr7",
+   "en": "AI's focus on advanced military technologies.",
+   "zh": ""
+  },
+  {
+   "k": "196yrog",
+   "en": "ai_focus_military_advancements_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "pb0ddl",
+   "en": "ai_focus_military_equipment_factor",
+   "zh": ""
+  },
+  {
+   "k": "oiknz7",
+   "en": "AI's focus on advanced military equipment.",
+   "zh": ""
+  },
+  {
+   "k": "11mv6wj",
+   "en": "ai_focus_military_equipment_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "a2krd6",
+   "en": "ai_focus_naval_air_factor",
+   "zh": ""
+  },
+  {
+   "k": "j18vv9",
+   "en": "AI's focus on building naval airforce.",
+   "zh": ""
+  },
+  {
+   "k": "zn34lk",
+   "en": "ai_focus_naval_air_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1w4skdf",
+   "en": "ai_focus_naval_factor",
+   "zh": ""
+  },
+  {
+   "k": "ydyafr",
+   "en": "AI's focus on building a navy.",
+   "zh": ""
+  },
+  {
+   "k": "1anrzi1",
+   "en": "ai_focus_naval_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "5v1b72",
+   "en": "ai_focus_peaceful_factor",
+   "zh": ""
+  },
+  {
+   "k": "14whp9h",
+   "en": "AI's focus on peaceful research and policies.",
+   "zh": ""
+  },
+  {
+   "k": "rqpvd0",
+   "en": "ai_focus_peaceful_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "102wcv5",
+   "en": "ai_focus_war_production_factor",
+   "zh": ""
+  },
+  {
+   "k": "11kfom2",
+   "en": "AI's focus on wartime production.",
+   "zh": ""
+  },
+  {
+   "k": "9920pn",
+   "en": "ai_focus_war_production_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1mg36ic",
+   "en": "ai_get_ally_desire_factor",
+   "zh": ""
+  },
+  {
+   "k": "16as0t4",
+   "en": "AI's desire to be in or expand a faction.",
+   "zh": ""
+  },
+  {
+   "k": "nd1lqm",
+   "en": "ai_get_ally_desire_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "3nske0",
+   "en": "ai_join_ally_desire_factor",
+   "zh": ""
+  },
+  {
+   "k": "taiocu",
+   "en": "AI's desire to join the wars led by allies.",
+   "zh": ""
+  },
+  {
+   "k": "6j4nka",
+   "en": "ai_join_ally_desire_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "7gqrmf",
+   "en": "ai_license_acceptance",
+   "zh": ""
+  },
+  {
+   "k": "1u09fg6",
+   "en": "AI's chance to agree licensing equipment.",
+   "zh": ""
+  },
+  {
+   "k": "1oxsnt1",
+   "en": "ai_license_acceptance = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1l6icd6",
+   "en": "Military outside of combat",
+   "zh": ""
+  },
+  {
+   "k": "jbi9ou",
+   "en": "command_power_gain",
+   "zh": ""
+  },
+  {
+   "k": "1y1u5ue",
+   "en": "Changes the daily gain of command power.",
+   "zh": ""
+  },
+  {
+   "k": "1hbmkdg",
+   "en": "command_power_gain = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "9pmojp",
+   "en": "command_power_gain_mult",
+   "zh": ""
+  },
+  {
+   "k": "1c21hpw",
+   "en": "Changes the daily gain of command power by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "a8fn4n",
+   "en": "command_power_gain_mult = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "68rh56",
+   "en": "conscription",
+   "zh": ""
+  },
+  {
+   "k": "sz3nkc",
+   "en": "Changes the recruitable percentage of the total population.",
+   "zh": ""
+  },
+  {
+   "k": "t5r3v3",
+   "en": "conscription = 0.02",
+   "zh": ""
+  },
+  {
+   "k": "1dat7kw",
+   "en": "conscription_factor",
+   "zh": ""
+  },
+  {
+   "k": "1iew2vd",
+   "en": "Changes the recruitable percentage of the total population by a percent.",
+   "zh": ""
+  },
+  {
+   "k": "1s95qps",
+   "en": "conscription_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "w116cr",
+   "en": "experience_gain_army",
+   "zh": ""
+  },
+  {
+   "k": "jhaons",
+   "en": "Modifies the daily gain of army experience.",
+   "zh": ""
+  },
+  {
+   "k": "19dq3q9",
+   "en": "experience_gain_army = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "p3q187",
+   "en": "experience_gain_army_factor",
+   "zh": ""
+  },
+  {
+   "k": "btooy1",
+   "en": "Modifies the gain of army experience by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "4oz9t1",
+   "en": "experience_gain_army_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1wwo11u",
+   "en": "experience_gain_navy",
+   "zh": ""
+  },
+  {
+   "k": "cvgqdn",
+   "en": "Modifies the daily gain of naval experience.",
+   "zh": ""
+  },
+  {
+   "k": "hwt9d3",
+   "en": "experience_gain_navy = 0.02",
+   "zh": ""
+  },
+  {
+   "k": "136pznc",
+   "en": "experience_gain_navy_factor",
+   "zh": ""
+  },
+  {
+   "k": "1dp5p74",
+   "en": "Modifies the gain of naval experience by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "wqhhzs",
+   "en": "experience_gain_navy_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "jqsrmy",
+   "en": "experience_gain_air",
+   "zh": ""
+  },
+  {
+   "k": "17561kf",
+   "en": "Modifies the daily gain of air experience.",
+   "zh": ""
+  },
+  {
+   "k": "1dcf986",
+   "en": "experience_gain_air = 0.05",
+   "zh": ""
+  },
+  {
+   "k": "mec30g",
+   "en": "experience_gain_air_factor",
+   "zh": ""
+  },
+  {
+   "k": "wazh7p",
+   "en": "Modifies the daily gain of air experience by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1lkiu4y",
+   "en": "experience_gain_air_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "nwiujj",
+   "en": "land_equipment_upgrade_xp_cost",
+   "zh": ""
+  },
+  {
+   "k": "13kyl8b",
+   "en": "Changes the experience cost to upgrade land army equipment.",
+   "zh": ""
+  },
+  {
+   "k": "ob02l7",
+   "en": "land_equipment_upgrade_xp_cost = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1tu089l",
+   "en": "land_reinforce_rate",
+   "zh": ""
+  },
+  {
+   "k": "n2i4e7",
+   "en": "Changes the rate at which reinforcements to divisions arrive.",
+   "zh": ""
+  },
+  {
+   "k": "15wvglh",
+   "en": "land_reinforce_rate = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1rx31rh",
+   "en": "max_command_power",
+   "zh": ""
+  },
+  {
+   "k": "1t9nmzi",
+   "en": "Changes maximum command power.",
+   "zh": ""
+  },
+  {
+   "k": "djnkqg",
+   "en": "max_command_power = 20",
+   "zh": ""
+  },
+  {
+   "k": "v93298",
+   "en": "max_command_power_mult",
+   "zh": ""
+  },
+  {
+   "k": "1csffbw",
+   "en": "Changes maximum command power by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "9ss8z0",
+   "en": "max_command_power_mult = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "50pbxq",
+   "en": "weekly_manpower",
+   "zh": ""
+  },
+  {
+   "k": "1jjkcna",
+   "en": "Amount of manpower gained each week.",
+   "zh": ""
+  },
+  {
+   "k": "by2wpa",
+   "en": "weekly_manpower = 1000",
+   "zh": ""
+  },
+  {
+   "k": "11qnv28",
+   "en": "naval_equipment_upgrade_xp_cost",
+   "zh": ""
+  },
+  {
+   "k": "1vrmg9",
+   "en": "Changes the naval experience cost to upgrade equipment.",
+   "zh": ""
+  },
+  {
+   "k": "11cbty8",
+   "en": "naval_equipment_upgrade_xp_cost = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1tw47h4",
+   "en": "refit_ic_cost",
+   "zh": ""
+  },
+  {
+   "k": "1ruhzhw",
+   "en": "The IC cost to refit naval equipment.",
+   "zh": ""
+  }
+ ]
+}

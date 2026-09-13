@@ -1,0 +1,709 @@
+{
+ "batch": 935,
+ "pages": [
+  "Modding"
+ ],
+ "chars": 14995,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1vb729t",
+   "en": "The script language in which the code is built always has a common structure: ⟦0⟧ (sometimes using inequality signs in case of triggers), such as ⟦1⟧, with few exceptions where the argument can be dropped. Each attribute and argument is a single word (A word character includes the ⟦2⟧ group), with whitespace characters serving as delimiters. There are two types of arguments that may include more than a single word, however:",
+   "frags": 3
+  },
+  {
+   "k": "2y8cbt",
+   "en": "<attribute> = <argument>"
+  },
+  {
+   "k": "i91v8q",
+   "en": "add_political_power = 100"
+  },
+  {
+   "k": "1a85n6k",
+   "en": "[a-zA-Z0-9_.,\\-/]"
+  },
+  {
+   "k": "12st4fy",
+   "en": "Strings are marked with quotation marks (only ⟦0⟧) on both sides. A space will not interrupt the string, but a direct newline will. If there aren't any whitespace characters inside, omitting the quotation marks will not change the result (such as ⟦1⟧ and ⟦2⟧). There are two special characters allowed to use in strings: ⟦3⟧ is used to write a quotation mark and ⟦4⟧ is used to write a backslash, a backslash may not be used in any other way. It's impossible to include a newline directly inside of a string. Occassionally the attribute itself may be enclosed in quotation marks, such as ⟦5⟧. A string can include at most 255 characters, not including the null terminator.",
+   "frags": 6
+  },
+  {
+   "k": "10pnef4",
+   "en": "date > \"1936.1.1\""
+  },
+  {
+   "k": "1gts4vm",
+   "en": "date > 1936.1.1"
+  },
+  {
+   "k": "1fdc249",
+   "en": "\"TAG\" = { has_political_power > 100 }"
+  },
+  {
+   "k": "6v4rx3",
+   "en": "Where text is intended to be displayed to the player, such as tooltips, attributes generally accept a ⟦0⟧ as the argument. This allows the shown text to change depending on the enabled language and contains more capabilities, such as not being bound to 255 characters or capabilities for text customisation (e.g. coloured text, newlines, or dynamic changes). If the game detects no defined localisation key in the enabled language's database, it will default to directly displaying the argument.",
+   "frags": 1
+  },
+  {
+   "k": "1xxf523",
+   "en": "In certain types of attributes, figure brackets are used to attach an entire block of code as the argument, which usually consists of other code in the same ⟦0⟧ format. As an example, ⟦1⟧ (as an ⟦2⟧) is an attribute of ⟦3⟧ with the argument of ⟦4⟧; that argument itself consists of an attribute of ⟦5⟧ with an argument of ⟦6⟧. In particular, this will ⟦7⟧ into a random existing country and add 10% ⟦8⟧.",
+   "frags": 9
+  },
+  {
+   "k": "1wp5f37",
+   "en": "random_country = { add_stability = 0.1 }"
+  },
+  {
+   "k": "un2mhg",
+   "en": "effect"
+  },
+  {
+   "k": "er6s13",
+   "en": "random_country"
+  },
+  {
+   "k": "180s1dg",
+   "en": "{ add_stability = 0.1 }"
+  },
+  {
+   "k": "qu7p9w",
+   "en": "add_stability"
+  },
+  {
+   "k": "wnbc3s",
+   "en": "Stability"
+  },
+  {
+   "k": "13bzw6p",
+   "en": "If the attribute doesn't support grouping together attributes, then using the opening bracket will be interpreted as the argument itself. For example, the game would interpret ⟦0⟧ as trying to transfer the state with the ID of ⟦1⟧. Afterwards, the game encounters ⟦2⟧ which'd get interpreted as ⟦3⟧, which'd get interrupted prematurely by the closing bracket. As a result, there's one more closing bracket which doesn't have a proper opening bracket, which will likely lead to a scoping error, breaking the rest of the file.",
+   "frags": 4
+  },
+  {
+   "k": "1hhrerp",
+   "en": "transfer_state = { 123 321 }"
+  },
+  {
+   "k": "1xnenr0",
+   "en": "scoping into a state"
+  },
+  {
+   "k": "17as000",
+   "en": "⟦0⟧. For example, it is always mandatory where ⟦1⟧ or ⟦2⟧ are expected, making this incorrect: ⟦3⟧. Instead, where there is no expected argument, ⟦4⟧ is commonly used as ⟦5⟧. There are few exceptions where an argument should be omitted, such as inside of ⟦6⟧.",
+   "frags": 7
+  },
+  {
+   "k": "rh8y9x",
+   "en": "Omitting the argument/equality sign is almost always erroneous"
+  },
+  {
+   "k": "1yrfzhh",
+   "en": "effects"
+  },
+  {
+   "k": "1ka34g",
+   "en": "triggers"
+  },
+  {
+   "k": "1isdn84",
+   "en": "GER = { leave_faction }"
+  },
+  {
+   "k": "ltbyq8",
+   "en": "yes"
+  },
+  {
+   "k": "1x1j5wo",
+   "en": "GER = { leave_faction = yes }"
+  },
+  {
+   "k": "1hg771q",
+   "en": "the expanded form of add_ideas"
+  },
+  {
+   "k": "s11g88",
+   "en": "Comments are marked with the ⟦0⟧ character: everything after that character until the newline will be entirely ignored by the game. For example:",
+   "frags": 1
+  },
+  {
+   "k": "1qst23e",
+   "en": "There exists no multi-lined comment block."
+  },
+  {
+   "k": "qqlw99",
+   "en": "Aside from comments and strings, newlines are treated entirely identically to spaces as delimiter characters. As a result, indenting does not matter: most files can be done on one line in total without any change in how they get interpreted. However, doing indenting properly can make detecting bracket problems much easier without using a text editor's bracket highlighting and overall makes it easier to see at a glance what each block includes within of itself and what it doesn't. This also means that an attribute's argument should never be left empty, as it'll interpret the next attribute as the argument instead. For example:"
+  },
+  {
+   "k": "tmmiy9",
+   "en": "In this case, the focus' icon attribute is set with ⟦0⟧, and next the game has no idea how to interpret ⟦1⟧. In practice, this'll lead to the focus not being at the expected position.",
+   "frags": 2
+  },
+  {
+   "k": "139mxiv",
+   "en": "icon = x"
+  },
+  {
+   "k": "trqb0",
+   "en": "There are these types of argument blocks are particularly common:"
+  },
+  {
+   "k": "1pk25v6",
+   "en": "⟦0⟧ are used in circumstances such as focus completion rewards, event options, decision effects, ⟦1⟧, country history files, and so on. They are used in order to enact a one-time change to the game's state.",
+   "frags": 2
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "f2he3f",
+   "en": "on actions"
+  },
+  {
+   "k": "1igi8dn",
+   "en": "⟦0⟧ are used in circumstances such as focus and decision availability checks, event triggers, or ⟦1⟧. They return a strictly boolean value of either true or false, without actually changing anything in the game's state.",
+   "frags": 2
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "17vkig",
+   "en": "if statements"
+  },
+  {
+   "k": "z835hp",
+   "en": "⟦0⟧ are a particular subset of triggers and effects that can be used to change for which country/state/character/division the effects are executed or triggers are checked for.",
+   "frags": 1
+  },
+  {
+   "k": "gkat0o",
+   "en": "Scopes"
+  },
+  {
+   "k": "1yc3hrm",
+   "en": "⟦0⟧ are used to apply a constant numeric change, such as the daily political power gain. Commonly, ⟦1⟧ are used to apply it to countries.",
+   "frags": 2
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "trrbwc",
+   "en": "ideas such as spirits"
+  },
+  {
+   "k": "rk131w",
+   "en": "The order in which attributes are placed may matter or not depending on the context. In particular, these are the general rules:"
+  },
+  {
+   "k": "1ji07ad",
+   "en": "The order of effects and triggers matters the most: they are executed in the order that they are placed and this decides the placing of them in the tooltip shown to the player. For example, if an effect block first contains ⟦0⟧ and then ⟦1⟧ checking for the annexed country owning a state, the if statement will always be false since the country is already annexed. In triggers, the order of execution matters for ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1gt9br8",
+   "en": "annex_country"
+  },
+  {
+   "k": "477tfo",
+   "en": "an if statement"
+  },
+  {
+   "k": "b2z37x",
+   "en": "temporary variables"
+  },
+  {
+   "k": "1da9fni",
+   "en": "The order of modifiers doesn't matter at all and their order in the tooltip is hard-coded.⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1fut8px",
+   "en": "[d]"
+  },
+  {
+   "k": "1wpkfij",
+   "en": "The order of different attributes of the same entry doesn't change the interpretation. For example, if a national focus' reward is defined before its position instead of the opposite as normally done, it won't be treated any differently."
+  },
+  {
+   "k": "l1zdno",
+   "en": "For the same type of database entries, the position in the file is used for the order in which they are created. Examples where this order is especially visible to the player are ⟦0⟧ (unless overridden with ⟦1⟧), ⟦2⟧, or ⟦3⟧. This order of creation may matter in other references. For example, in equipment, an equipment type must be assigned an existing archetype. If the archetype doesn't exist when the equipment type is created, the game will crash to desktop, even if there is a definition later in the file. Where applicable, the filename is primarily used for evaluation, with the order inside of the files being secondary. As the ASCII order is used for this, the filename beginning with 00_ is usually used to ensure that it's to be evaluated near the beginning, while beginning with zz_ is used in the opposite manner.",
+   "frags": 4
+  },
+  {
+   "k": "1tru4z4",
+   "en": "decisions"
+  },
+  {
+   "k": "15b9eyx",
+   "en": "priority"
+  },
+  {
+   "k": "1353p0y",
+   "en": "buildings"
+  },
+  {
+   "k": "qmqcod",
+   "en": "ideologies"
+  },
+  {
+   "k": "14zdo8o",
+   "en": "This order of creation may matter in other references. For example, in ⟦0⟧, an equipment type must be assigned an existing archetype. If the archetype doesn't exist when the equipment type is created, the game will crash to desktop, even if there is a definition later in the file.",
+   "frags": 1
+  },
+  {
+   "k": "1la4po7",
+   "en": "equipment"
+  },
+  {
+   "k": "qk67qg",
+   "en": "Where applicable, ⟦0⟧, with the order inside of the files being secondary. As the ASCII order is used for this, the filename beginning with ⟦1⟧ is usually used to ensure that it's to be evaluated near the beginning, while beginning with ⟦2⟧ is used in the opposite manner.",
+   "frags": 3
+  },
+  {
+   "k": "1biie5u",
+   "en": "the filename is primarily used for evaluation"
+  },
+  {
+   "k": "knaq6r",
+   "en": "For the same type of attribute in a database entry, the interpretation varies. If multiple are supported, the position in code decides the order (e.g. every ⟦0⟧ in a national focus must be met for it to be possible to complete, or every ⟦1⟧ in an event will be executed when the event is fired). Otherwise, it may pick the earliest or the latest definition of the attribute, disregarding the other ones (For example, in ⟦2⟧, the first valid ⟦3⟧ where the trigger is met will be used).",
+   "frags": 4
+  },
+  {
+   "k": "nmq2j0",
+   "en": "prerequisite = { ... }"
+  },
+  {
+   "k": "1f1jmul",
+   "en": "immediate = { ... }"
+  },
+  {
+   "k": "h0j5k9",
+   "en": "scripted localisation"
+  },
+  {
+   "k": "h5rfd5",
+   "en": "text = { ... }"
+  },
+  {
+   "k": "1he1qcz",
+   "en": "It is common for the same attribute to intentionally be duplicated with different arguments. The handling of duplicated attributes varies and isn't intended everywhere. For example, each instance of ⟦0⟧ inside of a national focus tree is treated as a separate national focus. Usually if an effect block is duplicated (such as an event's ⟦1⟧), each one gets executed in order that they are placed. Occassionally, the name of the attribute is arbitrary. For example, in ⟦2⟧, each idea (placed inside of an idea category) the attribute's name will be treated as the name of the idea.",
+   "frags": 3
+  },
+  {
+   "k": "9xmo18",
+   "en": "focus = { ... }"
+  },
+  {
+   "k": "1v73mq3",
+   "en": "ideas"
+  },
+  {
+   "k": "1uj69uj",
+   "en": "Debug mode"
+  },
+  {
+   "k": "4xmoc1",
+   "en": "The debug mode is activated using the ⟦0⟧ ⟦1⟧. In particular, there are two ways to apply it:",
+   "frags": 2
+  },
+  {
+   "k": "nkcvb",
+   "en": "launch option"
+  },
+  {
+   "k": "5k68lz",
+   "en": "The Steam properties of the game include launch options. Right-clicking on the game's entry in the list of owned games provides a menu. In the bottom of the menu is \"Properties...\", which'll show a separate window. In the bottom of the \"General\" section (opened by default) are launch options. Each launch option is entered separated with spaces, such as ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "3tvjxf",
+   "en": "-checksum -debug"
+  },
+  {
+   "k": "1h5e3d0",
+   "en": "In Windows it's possible to apply a launch option through a shortcut to the hoi4.exe or dowser.exe file in the game's directory. After creating the shortcut, right-clicking it, and going to properties, the shortcut's properties menu will open. In the \"Shortcut\" section of properties (opened by default), the \"Target\" section contains the path to the file. Launch options are inserted after the closing quote located after the filename. There must be at least one space between the quotation mark and the beginning of the launch option, and further launch options are also separated by spaces. An example \"target\" section is ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1i25c6s",
+   "en": "\"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Hearts of Iron IV\\hoi4.exe\" -debug -start_tag=ALB"
+  },
+  {
+   "k": "1ttz43g",
+   "en": "The debug mode is very useful for modding, resulting in these benefits:"
+  },
+  {
+   "k": "gngtcb",
+   "en": "⟦0⟧ - Edits to files done inside the mod folder will show up in-game without the need to use the 'reload' console command. This will also automatically add the errors in the files to the error log. ⟦1⟧, with an exception: if a file's direct path gets mentioned elsewhere within the mod, then it can still get loaded for that use in particular. Examples of that include ⟦2⟧, as ⟦3⟧ functions as a direct link to ⟦4⟧; or GFX, as ⟦5⟧ directly reference the position of the image. Although, notably, the loading of images in-game does not uncompress them properly, leading to visible distortion or black backgrounds which get fixed on a restart. Although edits to most files work, this doesn't work with ⟦6⟧, ⟦7⟧, and ⟦8⟧, although the nudge partially can be used for the latter two.",
+   "frags": 9
+  },
+  {
+   "k": "mu9aew",
+   "en": "Automatic loading"
+  },
+  {
+   "k": "elkg5o",
+   "en": "This only applies to files that existed when the game was launched"
+  },
+  {
+   "k": "1a19lbx",
+   "en": "orders of battle"
+  },
+  {
+   "k": "1obu3v7",
+   "en": "load_oob = \"TAG_my_oob\""
+  },
+  {
+   "k": "1w3y8rx",
+   "en": "/Hearts of Iron IV/history/units/TAG_my_oob.txt"
+  },
+  {
+   "k": "1rwkou5",
+   "en": "sprites"
+  },
+  {
+   "k": "akumpk",
+   "en": "⟦0⟧ - If the map is edited, there's a possibility for errors to appear. Any map-related errors will crash the game when loading with a message saying 'Some errors are present in the map defition⟦1⟧ and have been logged to error.log'. If debug mode is on, the game will continue to load properly. The map definition occurs when there is any error containing MAP_ERROR within the error log ⟦2⟧, as certain map errors do not get logged yet when the debug launch option opens the log during the main menu loading.⟦3⟧",
+   "frags": 4
+  },
+  {
+   "k": "18mzfq",
+   "en": "No map definition crash"
+  },
+  {
+   "k": "1mlhvbq",
+   "en": "sic"
+  },
+  {
+   "k": "b2hmbw",
+   "en": "after loading into a country"
+  },
+  {
+   "k": "y32wtu",
+   "en": "[c]"
+  },
+  {
+   "k": "awfjo0",
+   "en": "⟦0⟧ - Certain errors do not get logged in the log unless the debug mode is turned on. An example would be the map definition errors mentioned above, as the game crashes before getting a chance to log them. Enabling debug mode will ensure that all errors that can be logged in the error log will get logged.",
+   "frags": 1
+  },
+  {
+   "k": "dl7urc",
+   "en": "Extended error log"
+  },
+  {
+   "k": "mgwtvt",
+   "en": "⟦0⟧ - As long as there are any errors in the log, the log will automatically open when loading the game or after selecting a country. The log will also be able to get accessed by clicking on the error dog in the bottom-right corner after loading into a country, which appears each time a new error appears in the log (since files get automatically loaded-in). If the full path to the ⟦1⟧, after expanding the ⟦2⟧ in ⟦3⟧, contains any non-ASCII characters, such as non-Latin script or diacritics, then it will fail to open with \"The system cannot find the path specified\", which can be fixed by changing the folder used for the game data, moving the files if needed.",
+   "frags": 4
+  },
+  {
+   "k": "w7emmw",
+   "en": "Ease of error log opening"
+  },
+  {
+   "k": "1obio54",
+   "en": "⟦0⟧ - With debug mode turned on, an option to open the nudge will appear in the main menu. This can be useful to save time or to be able to open the nudge if the game crashes when you're trying to load into a country (This can happen if the ⟦1⟧ file references invalid states, if that file doesn't contain at least one ⟦2⟧ even if not containing anything, if ⟦3⟧, or for other reasons).",
+   "frags": 4
+  },
+  {
+   "k": "hzdfsn",
+   "en": "Ease of nudge access"
+  },
+  {
+   "k": "1op9fml",
+   "en": "/Hearts of Iron IV/tutorial/tutorial.txt"
+  },
+  {
+   "k": "ezuxec",
+   "en": "tutorial = {}"
+  },
+  {
+   "k": "kz74c7",
+   "en": "supply nodes and railways aren't set up properly"
+  },
+  {
+   "k": "u4zo5m",
+   "en": "⟦0⟧ - As long as the debug mode is turned on, hitting the ` button (Typically in the top left corner of QWERTY keyboards, used to open the console by default) in the main menu will provide information about the graphical interface used, giving the names of elements, their positions, and the sprites used by them. This is equivalent to using the \"gui\" ⟦1⟧, but the debug mode makes it possible to do in the main menu.",
+   "frags": 2
+  },
+  {
+   "k": "d69q95",
+   "en": "Graphical interface information in the main menu"
+  },
+  {
+   "k": "1psklu7",
+   "en": "console command"
+  },
+  {
+   "k": "17utp6x",
+   "en": "⟦0⟧ - With debug mode turned on, there will be additional information when hovering over the province, including its and the state it's in's IDs, tags of owner and controller, et cetera. This debug information is also given for entire countries when hovering over their flag in the country politics/diplomacy view, such as the tag, the original tag (for dynamic countries), and the ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "hk05di",
+   "en": "Expanded information"
+  },
+  {
+   "k": "1dt0o7x",
+   "en": "⟦0⟧ - Certain console commands are locked for developers only and debug mode allows the player to use them. However, note that not all console commands will become available.",
+   "frags": 1
+  },
+  {
+   "k": "4zxxie",
+   "en": "Access to more console commands"
+  },
+  {
+   "k": "1jnzjql",
+   "en": "⟦0⟧ - When hovering over a GUI element, ⟦1⟧ can be used to open a debug menu, which will allow going to the GUI file where the element is defined.",
+   "frags": 2
+  },
+  {
+   "k": "1y4bz17",
+   "en": "Ease of access to GUI files"
+  },
+  {
+   "k": "1m60m2x",
+   "en": "Ctrl+Alt+Right Click"
+  },
+  {
+   "k": "1swx8v3",
+   "en": "⟦0⟧ - The game automatically creates a savefile each time a peace conference occurs with debug.",
+   "frags": 1
+  },
+  {
+   "k": "6wag9q",
+   "en": "Automatic saving on peace deals"
+  },
+  {
+   "k": "1x7i0dh",
+   "en": "If the 'debug' console command is used, ⟦0⟧ will be available to use. If debug is turned on via ⟦1⟧, be that ⟦2⟧ or ⟦3⟧ (doesn't enable automatic loading), all benefits will be granted. However, multiplayer will be disabled and the game's performance will drop compared to not enabling it.",
+   "frags": 4
+  },
+  {
+   "k": "kdi1xu",
+   "en": "only the last 4 advantages"
+  },
+  {
+   "k": "2zi4os",
+   "en": "launch options"
+  },
+  {
+   "k": "1xyyvu5",
+   "en": "-crash_data_log"
+  },
+  {
+   "k": "mnp3mu",
+   "en": "Logs"
+  },
+  {
+   "k": "bqc3px",
+   "en": "The logs are located in the ⟦0⟧'s ⟦1⟧ folder and may be used for ⟦2⟧ the game. In particular, these are especially useful when dealing with unexpected behaviour:",
+   "frags": 3
+  },
+  {
+   "k": "9rei9o",
+   "en": "⟦0⟧ is used for duplicate definitions of ⟦1⟧ values.",
+   "frags": 2
+  },
+  {
+   "k": "vtbp0y",
+   "en": "text.log"
+  },
+  {
+   "k": "coj4nh",
+   "en": "localisation"
+  }
+ ]
+}

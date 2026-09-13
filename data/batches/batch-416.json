@@ -1,0 +1,930 @@
+{
+ "batch": 416,
+ "pages": [
+  "Austria"
+ ],
+ "chars": 14988,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "gp2fn0",
+   "en": "Armor Research Speed: +15% Artillery Research Speed: +5% Light Tank Destroyer: Hard attack: +5% Piercing: +5% Armor: +5% Reliability: +5% Medium Tank Destroyer: Hard attack: +5% Piercing: +5% Armor: +5% Reliability: +5% Heavy Tank Destroyer: Hard attack: +5% Piercing: +5% Armor: +5% Reliability: +5% By selecting this Design Company they will permanently affect capabilities on all equipment researched while they are hired."
+  },
+  {
+   "k": "rrxyh7",
+   "en": "⟦0⟧: Hard attack: +5% Piercing: +5% Armor: +5% Reliability: +5%",
+   "frags": 1
+  },
+  {
+   "k": "1qe9i4o",
+   "en": "Light Tank Destroyer"
+  },
+  {
+   "k": "1sc43a9",
+   "en": "Hard attack: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "jiakjz",
+   "en": "Piercing: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1y44yjr",
+   "en": "Medium Tank Destroyer"
+  },
+  {
+   "k": "144r5f1",
+   "en": "Heavy Tank Destroyer"
+  },
+  {
+   "k": "1mip5yd",
+   "en": "Controls state Bohemia (9)"
+  },
+  {
+   "k": "p24z7j",
+   "en": "Controls state ⟦0⟧ ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1byz5ra",
+   "en": "Bohemia"
+  },
+  {
+   "k": "f29jnx",
+   "en": "Ship designers"
+  },
+  {
+   "k": "wf97yz",
+   "en": "ELIN"
+  },
+  {
+   "k": "ep3ytw",
+   "en": "Submarine Designer"
+  },
+  {
+   "k": "1m9ckpx",
+   "en": "Submarine models Research Speed: +15% Carrier: Production cost: +10.00% Capital Ships: Production cost: +10.00% Screens: Production cost: +10.00% Submarine: Production cost: -10.00% Sub Visibility: -10.0% Surface Visibility: -10.0% Max Speed: +10% Max Range: +10% By selecting this Design Company they will permanently affect capabilities on all equipment researched while they are hired."
+  },
+  {
+   "k": "8we8nv",
+   "en": "Submarine models"
+  },
+  {
+   "k": "j9c5c9",
+   "en": "⟦0⟧: Production cost: +10.00%",
+   "frags": 1
+  },
+  {
+   "k": "7f8eqf",
+   "en": "Carrier"
+  },
+  {
+   "k": "1pvilfs",
+   "en": "Capital Ships"
+  },
+  {
+   "k": "168sbmu",
+   "en": "Screens"
+  },
+  {
+   "k": "s4dmz4",
+   "en": "⟦0⟧: Production cost: -10.00% Sub Visibility: -10.0% Surface Visibility: -10.0% Max Speed: +10% Max Range: +10%",
+   "frags": 1
+  },
+  {
+   "k": "j5r8fr",
+   "en": "Submarine"
+  },
+  {
+   "k": "213jts",
+   "en": "Sub Visibility: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "jm6o5l",
+   "en": "Surface Visibility: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "nwg6rr",
+   "en": "Max Speed: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1r4qmhd",
+   "en": "Max Range: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1igar0o",
+   "en": "Has completed focus ELIN"
+  },
+  {
+   "k": "9kiam2",
+   "en": "Stabilimento Tecnico Triestino"
+  },
+  {
+   "k": "19l7xdu",
+   "en": "Battlefleet Designer"
+  },
+  {
+   "k": "ka2i4w",
+   "en": "Heavy Cruiser models Research Speed: +15% Battlecruiser models Research Speed: +10% Capital Ships: Armor: +15% Heavy Attack: +15% Screens: Torpedo attack: +25% Sub detection: -25% By selecting this Design Company they will permanently affect capabilities on all equipment researched while they are hired."
+  },
+  {
+   "k": "w50g1j",
+   "en": "Heavy Cruiser models"
+  },
+  {
+   "k": "50qrqk",
+   "en": "Battlecruiser models"
+  },
+  {
+   "k": "hywkpe",
+   "en": "⟦0⟧: Armor: +15% Heavy Attack: +15%",
+   "frags": 1
+  },
+  {
+   "k": "1sjeb45",
+   "en": "Heavy Attack: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "7gefdc",
+   "en": "⟦0⟧: Torpedo attack: +25% Sub detection: -25%",
+   "frags": 1
+  },
+  {
+   "k": "jv8pe5",
+   "en": "Torpedo attack: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "9kafn3",
+   "en": "Sub detection: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "xxes8a",
+   "en": "Has completed focus Revive STT"
+  },
+  {
+   "k": "vh89tl",
+   "en": "Revive STT"
+  },
+  {
+   "k": "e3u33d",
+   "en": "Aircraft designers"
+  },
+  {
+   "k": "17kzq90",
+   "en": "Light Air Company"
+  },
+  {
+   "k": "nn5kt4",
+   "en": "Light Aircraft Designer"
+  },
+  {
+   "k": "1ozsbnu",
+   "en": "Fighter: Agility: +10% Max Speed: +10% Carrier Fighter: Agility: +10% Max Speed: +10% Air Research Speed: +15% By selecting this Design Company they will permanently affect capabilities on all equipment researched while they are hired."
+  },
+  {
+   "k": "hotho0",
+   "en": "⟦0⟧: Agility: +10% Max Speed: +10%",
+   "frags": 1
+  },
+  {
+   "k": "1qf8fx5",
+   "en": "Agility: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1eqf1zm",
+   "en": "Carrier Fighter"
+  },
+  {
+   "k": "15jotdj",
+   "en": "Air"
+  },
+  {
+   "k": "16rlceh",
+   "en": "Medium Air Company"
+  },
+  {
+   "k": "epevsp",
+   "en": "Medium Aircraft Designer"
+  },
+  {
+   "k": "1lhvhii",
+   "en": "Heavy Fighter: Reliability: +20% Tactical Bomber: Reliability: +20% Scout Plane: Reliability: +20% Air Research Speed: +15% By selecting this Design Company they will permanently affect capabilities on all equipment researched while they are hired."
+  },
+  {
+   "k": "ue80fu",
+   "en": "⟦0⟧: Reliability: +20%",
+   "frags": 1
+  },
+  {
+   "k": "2jmqdj",
+   "en": "Scout Plane"
+  },
+  {
+   "k": "9c7x1f",
+   "en": "Heavy Air Company"
+  },
+  {
+   "k": "94thln",
+   "en": "Heavy Aircraft Designer"
+  },
+  {
+   "k": "1ffz7e0",
+   "en": "Strategic Bomber: Strat. Bombing: +10% Air Research Speed: +15% By selecting this Design Company they will permanently affect capabilities on all equipment researched while they are hired."
+  },
+  {
+   "k": "jbvlan",
+   "en": "⟦0⟧: Strat. Bombing: +10%",
+   "frags": 1
+  },
+  {
+   "k": "1rcklhu",
+   "en": "Strat. Bombing: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "f2kalw",
+   "en": "Naval Air Company"
+  },
+  {
+   "k": "dr1qjs",
+   "en": "Naval Aircraft Designer"
+  },
+  {
+   "k": "2one6p",
+   "en": "Naval Bomber: Range: +10% Naval Attack: +10% Carrier Naval Bomber: Range: +10% Naval Attack: +10% Carrier Fighter: Range: +10% Agility: +10% Carrier Close Air Support: Range: +10% Naval Attack: +10% Air Research Speed: +15% By selecting this Design Company they will permanently affect capabilities on all equipment researched while they are hired."
+  },
+  {
+   "k": "yltu03",
+   "en": "⟦0⟧: Range: +10% Naval Attack: +10%",
+   "frags": 1
+  },
+  {
+   "k": "xn763",
+   "en": "Range: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1fxyiqi",
+   "en": "Naval Attack: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1e7yphe",
+   "en": "Carrier Naval Bomber"
+  },
+  {
+   "k": "zwtlkk",
+   "en": "⟦0⟧: Range: +10% Agility: +10%",
+   "frags": 1
+  },
+  {
+   "k": "27oszw",
+   "en": "Carrier Close Air Support"
+  },
+  {
+   "k": "1icswlu",
+   "en": "Materiel designers"
+  },
+  {
+   "k": "mym6aq",
+   "en": "Hirtenberger"
+  },
+  {
+   "k": "3mgpu2",
+   "en": "Artillery Designer"
+  },
+  {
+   "k": "1ngss31",
+   "en": "Artillery Research Speed: +15%"
+  },
+  {
+   "k": "19puzxj",
+   "en": "Visible when: If has Götterdämmerung: Has completed focus Invest in Hirtenberger Artillery"
+  },
+  {
+   "k": "1fc9nid",
+   "en": "If has ⟦0⟧: Has completed focus Invest in Hirtenberger Artillery",
+   "frags": 1
+  },
+  {
+   "k": "gjak4w",
+   "en": "Invest in Hirtenberger Artillery"
+  },
+  {
+   "k": "1i7tw0h",
+   "en": "Steyr Arms"
+  },
+  {
+   "k": "1w2h695",
+   "en": "Infantry Equipment Designer"
+  },
+  {
+   "k": "1i0usrz",
+   "en": "Weapons and Equipment Research Speed: +15%"
+  },
+  {
+   "k": "wdd8sj",
+   "en": "Weapons and Equipment"
+  },
+  {
+   "k": "ogcmfs",
+   "en": "Has completed focus Investing in Steyr Arms"
+  },
+  {
+   "k": "1exki3t",
+   "en": "Investing in Steyr Arms"
+  },
+  {
+   "k": "139gldr",
+   "en": "Gräf und Stift"
+  },
+  {
+   "k": "56sjq9",
+   "en": "Motorized Equipment Designer"
+  },
+  {
+   "k": "19z7c4g",
+   "en": "Motorization Research Speed: +15%"
+  },
+  {
+   "k": "n1vg3u",
+   "en": "Motorization"
+  },
+  {
+   "k": "1rr2w1z",
+   "en": "Has completed focus Gräf & Stift"
+  },
+  {
+   "k": "arjuq0",
+   "en": "Gräf & Stift"
+  },
+  {
+   "k": "12k8k0",
+   "en": "Österreichische Sauerwerke"
+  },
+  {
+   "k": "onua2d",
+   "en": "Has completed focus Österreichische Saurerwerke"
+  },
+  {
+   "k": "1p442l4",
+   "en": "Österreichische Saurerwerke"
+  },
+  {
+   "k": "11jburf",
+   "en": "Organizations"
+  },
+  {
+   "k": "zzyfzg",
+   "en": "⟦0⟧ has access to these ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1oopcvp",
+   "en": "Military industrial organizations"
+  },
+  {
+   "k": "10l00q5",
+   "en": "Tank organizations"
+  },
+  {
+   "k": "1v77d55",
+   "en": "Ansaldo Affected equipment: Research categories: All Light Tank Equipment, All Medium Tank Equipment Light Armor Technologies, Medium Armor Technologies Trait Bonuses: Requirements: Initial trait Standardized Production Equipment: Armor: -5% Defense: -5% Production cost: -5.00% Always available Simplified Suspension Equipment: Reliability: +5% None Crew Ergonomics Equipment: Maximum Speed: +2% Defense: +2% None Improved Tracks Equipment: Reliability: +5% Maximum Speed: +5% Requires all of the following: Simplified Suspension Visibility Improvements Equipment: Breakthrough: +5% Requires all of the following: Crew Ergonomics Standardized Components Production: Production efficiency growth: +15.00% Production resource need: -15.00% Requires all of the following: Simplified Suspension Crew Ergonomics Improved Tooling Production: Production efficiency cap: +10.00% Requires all of the following: Improved Tracks Standardized Components Visibility Improvements Mass Production Production: Production output cost: -5.00% Production efficiency growth: +10.00% Requires all of the following: Improved Tooling Mutually exclusive with: Quality Improvements Quality Improvements Equipment: Armor: +10% Defense: +10% Requires all of the following: Improved Tooling Mutually exclusive with: Mass Production Pintle-mounted Weapons Equipment: Soft attack: +2% Defense: +2% None Long-Barreled Guns Equipment: Piercing: +5% Hard attack: +5% Requires all of the following: Crew Ergonomics Pintle-mounted Weapons Anti-Tank Specialization Equipment: Armor: +5% Hard attack: +5% Requires all of the following: Long-Barreled Guns Mutually exclusive with: Infantry Support Tanks Infantry Support Tanks Equipment: Soft attack: +5% Production: Production output cost: -2.00% Requires all of the following: Long-Barreled Guns Mutually exclusive with: Anti-Tank Specialization"
+  },
+  {
+   "k": "1sz6zn1",
+   "en": "Affected equipment:"
+  },
+  {
+   "k": "18c8fcm",
+   "en": "Research categories:"
+  },
+  {
+   "k": "17t3wse",
+   "en": "All Light Tank Equipment, All Medium Tank Equipment"
+  },
+  {
+   "k": "gq8fr4",
+   "en": "Light Armor Technologies, Medium Armor Technologies"
+  },
+  {
+   "k": "5khp3f",
+   "en": "Trait"
+  },
+  {
+   "k": "1mquupa",
+   "en": "Bonuses:"
+  },
+  {
+   "k": "ram0qp",
+   "en": "Requirements:"
+  },
+  {
+   "k": "1fief6v",
+   "en": "Initial trait"
+  },
+  {
+   "k": "f9tcl9",
+   "en": "Standardized Production"
+  },
+  {
+   "k": "1tsf1kv",
+   "en": "Equipment: Armor: -5% Defense: -5% Production cost: -5.00%"
+  },
+  {
+   "k": "5t3wp4",
+   "en": "Defense: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "240o33",
+   "en": "Always available"
+  },
+  {
+   "k": "248ow",
+   "en": "Simplified Suspension"
+  },
+  {
+   "k": "1pvywpg",
+   "en": "Equipment: Reliability: +5%"
+  },
+  {
+   "k": "1c9c4y",
+   "en": "Crew Ergonomics"
+  },
+  {
+   "k": "1fmtvo6",
+   "en": "Equipment: Maximum Speed: +2% Defense: +2%"
+  },
+  {
+   "k": "yvr3rj",
+   "en": "Maximum Speed: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1sb5dz3",
+   "en": "Improved Tracks"
+  },
+  {
+   "k": "7j5amm",
+   "en": "Equipment: Reliability: +5% Maximum Speed: +5%"
+  },
+  {
+   "k": "j4af5s",
+   "en": "Requires all of the following: Simplified Suspension"
+  },
+  {
+   "k": "1am56tm",
+   "en": "Visibility Improvements"
+  },
+  {
+   "k": "jz8emu",
+   "en": "Equipment: Breakthrough: +5%"
+  },
+  {
+   "k": "jm84v2",
+   "en": "Breakthrough: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "at2t4i",
+   "en": "Requires all of the following: Crew Ergonomics"
+  },
+  {
+   "k": "9mh3x6",
+   "en": "Standardized Components"
+  },
+  {
+   "k": "r43592",
+   "en": "Production: Production efficiency growth: +15.00% Production resource need: -15.00%"
+  },
+  {
+   "k": "11xawdu",
+   "en": "Production efficiency growth"
+  },
+  {
+   "k": "1uzs4ln",
+   "en": "Production resource need: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1wiicup",
+   "en": "Requires all of the following: Simplified Suspension Crew Ergonomics"
+  },
+  {
+   "k": "1z8mkv",
+   "en": "Improved Tooling"
+  },
+  {
+   "k": "7qj1in",
+   "en": "Production: Production efficiency cap: +10.00%"
+  },
+  {
+   "k": "1nwobhb",
+   "en": "Production efficiency cap"
+  },
+  {
+   "k": "hbgedn",
+   "en": "Requires all of the following: Improved Tracks Standardized Components Visibility Improvements"
+  },
+  {
+   "k": "1s5ycxg",
+   "en": "Mass Production"
+  },
+  {
+   "k": "9hl9m2",
+   "en": "Production: Production output cost: -5.00% Production efficiency growth: +10.00%"
+  },
+  {
+   "k": "19x7z4p",
+   "en": "Production output cost: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "zgrl7m",
+   "en": "Requires all of the following: Improved Tooling Mutually exclusive with: Quality Improvements"
+  },
+  {
+   "k": "r7rgcr",
+   "en": "Quality Improvements"
+  },
+  {
+   "k": "119xef8",
+   "en": "Equipment: Armor: +10% Defense: +10%"
+  },
+  {
+   "k": "1xniejr",
+   "en": "Requires all of the following: Improved Tooling Mutually exclusive with: Mass Production"
+  },
+  {
+   "k": "1ke6lqf",
+   "en": "Pintle-mounted Weapons"
+  },
+  {
+   "k": "ahk9vn",
+   "en": "Equipment: Soft attack: +2% Defense: +2%"
+  },
+  {
+   "k": "9ai1ce",
+   "en": "Long-Barreled Guns"
+  },
+  {
+   "k": "pzwob9",
+   "en": "Equipment: Piercing: +5% Hard attack: +5%"
+  },
+  {
+   "k": "11g3lcg",
+   "en": "Requires all of the following: Crew Ergonomics Pintle-mounted Weapons"
+  },
+  {
+   "k": "9qxooh",
+   "en": "Anti-Tank Specialization"
+  },
+  {
+   "k": "1oj01lj",
+   "en": "Equipment: Armor: +5% Hard attack: +5%"
+  },
+  {
+   "k": "1gk7mba",
+   "en": "Requires all of the following: Long-Barreled Guns Mutually exclusive with: Infantry Support Tanks"
+  },
+  {
+   "k": "1v103hq",
+   "en": "Infantry Support Tanks"
+  },
+  {
+   "k": "jfhg9k",
+   "en": "Equipment: Soft attack: +5% Production: Production output cost: -2.00%"
+  },
+  {
+   "k": "sg67pl",
+   "en": "Requires all of the following: Long-Barreled Guns Mutually exclusive with: Anti-Tank Specialization"
+  },
+  {
+   "k": "7gbxab",
+   "en": "Ship organizations"
+  },
+  {
+   "k": "fkopb",
+   "en": "Stabilimento Tecnico Triestino Affected equipment: Research categories: All Battleship, All Cruiser Ships All Capital Ship Technologies, All Cruiser Technologies Trait Bonuses: Requirements: Initial trait Battle Line Shipbuilders Production: Production output: +5.00% Mio: Military Industrial Organization Research Bonus: +5% Has completed focus Revive STT Vertical Armor Belt Equipment: Armor: +5% Mutually exclusive with: Inclined Armor Belt Inclined Armor Belt Equipment: Armor: +15% Production cost: +5.00% Mutually exclusive with: Vertical Armor Belt Hardened Critical Components Equipment: Enemy Torpedo critical chance: -5% Requires one of the following: Inclined Armor Belt Vertical Armor Belt Advanced Hydrodynamic Design Equipment: Max Speed: +5% Requires all of the following: Hardened Critical Components Mutually exclusive with: Advanced Armor Design Advanced Armor Design Equipment: Armor: +5% Requires all of the following: Hardened Critical Components Mutually exclusive with: Advanced Hydrodynamic Design Optimized Anti-Aircraft Firing Arcs Equipment: Anti-air: +5% None Secondary Battery Layout Equipment: Light Attack: +5% None Gyro-Stabilized Mounts Equipment: Anti-air: +5% Light Attack: +5% Requires all of the following: Optimized Anti-Aircraft Firing Arcs Secondary Battery Layout Secondary Fire Director Control Equipment: Anti-air: +5% Light Gun hit chance: +3% Requires all of the following: Gyro-Stabilized Mounts Combat Information Center Equipment: HP: +10% Production: Production output: +5.00% Requires all of the following: Secondary Fire Director Control One of the following: Shatter-Resistant Cap Semi-Armor-Piercing Shells High Velocity Guns Mutually exclusive with: Engine Optimization Primary Battery Layout Only for: Capital Ships Equipment: Heavy Attack: +5% None Shatter-Resistant Cap Equipment: Heavy Attack: +5% Heavy piercing: +5% Requires all of the following: Primary Battery Layout Mutually exclusive with: Semi-Armor-Piercing Shells High Velocity Guns Semi-Armor-Piercing Shells Equipment: Light Attack: +5% Light piercing: +5% Requires all of the following: Primary Battery Layout Mutually exclusive with: Shatter-Resistant Cap High Velocity Guns High Velocity Guns Equipment: Light piercing: +10% Heavy piercing: +10% Production cost: +5.00% Requires all of the following: Primary Battery Layout Mutually exclusive with: Shatter-Resistant Cap Semi-Armor-Piercing Shells Engine Optimization Equipment: Max Speed: +5% Max Range: +5% Requires all of the following: Secondary Fire Director Control One of the following: Shatter-Resistant Cap Semi-Armor-Piercing Shells High Velocity Guns Mutually exclusive with: Combat Information Center Streamlined Production Equipment: Production cost: -10% Requires all of the following: Secondary Fire Director Control Hardened Critical Components ELIN Affected equipment: Research categories: Submarine All Submarine Technologies Trait Bonuses: Requirements: Initial trait Advanced Submarine Designer Equipment: Sub Visibility: -5% Surface Detection: -5% Mio: Military Industrial Organization Research Bonus: +5% Has completed focus ELIN Long Range Raiding Equipment: Sub Visibility: -3.0% Max Speed: -1% Mutually exclusive with: Decalin Fueled Torpedo Decalin Fueled Torpedo Equipment: Torpedo attack: +5% Mutually exclusive with: Long Range Raiding Efficient Fuel Engines Equipment: Max Range: +5% Requires all of the following: Long Range Raiding Highly Efficient Diesel-Electric Propulsion Systems Equipment: Max Range: +6% Requires one of the following: High-Powered Engines Efficient Fuel Engines Mutually exclusive with: Open-Cycle Propulsion High-Powered Engines Equipment: Sub Visibility: +2.0% Max Speed: +5% Requires all of the following: Decalin Fueled Torpedo Open-Cycle Propulsion Equipment: Max Speed: +5% Requires one of the following: High-Powered Engines Efficient Fuel Engines Mutually exclusive with: Highly Efficient Diesel-Electric Propulsion Systems Experimental Anechoic Tiles Equipment: Surface Visibility: -5.0% Sub Visibility: -5.0% Production cost: +5.00% Requires one of the following: Highly Efficient Diesel-Electric Propulsion Systems Open-Cycle Propulsion Improved Torpedo Detonators Equipment: Torpedo attack: +5% Requires one of the following: Highly Efficient Diesel-Electric Propulsion Systems Open-Cycle Propulsion Simplified Pressure Hull Design Production: Production output: +10.00% Requires all of the following: Experimental Anechoic Tiles Improved Torpedo Detonators Advanced Periscope Equipment: Surface detection: +3% Requires all of the following: Long Range Raiding Emergency Main Ballast Tank Blow Equipment: HP: +6% Max Speed: +1% Requires all of the following: Advanced Periscope Radar Warning Receiver Equipment: Surface detection: -3% Sub Visibility: -5.0% Requires all of the following: Advanced Periscope Crash-Dive Flood Tanks Equipment: HP: +8% Sub Visibility: -1.0% Requires all of the following: Emergency Main Ballast Tank Blow Radar Warning Receiver Submarine Mass Production Production: Production output: +7.00% Requires all of the following: Decalin Fueled Torpedo Advanced Sonar Equipment: Surface detection: +6% Sub Visibility: +2.0% Requires all of the following: Decalin Fueled Torpedo Deck Guns Equipment: HP: +8% Requires all of the following: Submarine Mass Production Advanced Sonar Large Torpedo Banks Equipment: Torpedo attack: +5% Requires all of the following: Advanced Sonar High-Capacity Mine Storage Equipment: Minelaying: +20% Requires one of the following: Deck Guns Large Torpedo Banks Visible when: The DLC Man the Guns is enabled Streamlined Production Equipment: Production cost: -5% Requires all of the following: Radar Warning Receiver Radar-Sonar integration Equipment: Surface Visibility: -5% Sub Visibility: -5% Surface Detection: +5% Requires all of the following: Experimental Anechoic Tiles"
+  },
+  {
+   "k": "1oisiyf",
+   "en": "All Battleship, All Cruiser Ships"
+  },
+  {
+   "k": "1je8n3i",
+   "en": "All Capital Ship Technologies, All Cruiser Technologies"
+  },
+  {
+   "k": "xqx29r",
+   "en": "Battle Line Shipbuilders"
+  },
+  {
+   "k": "endcbk",
+   "en": "Production: Production output: +5.00% Mio: Military Industrial Organization Research Bonus: +5%"
+  },
+  {
+   "k": "1gs1350",
+   "en": "Production output: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "vaps7",
+   "en": "Military Industrial Organization Research Bonus: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1rrntxl",
+   "en": "Vertical Armor Belt"
+  },
+  {
+   "k": "1ibgnc1",
+   "en": "Equipment: Armor: +5%"
+  },
+  {
+   "k": "1sa7y2m",
+   "en": "Mutually exclusive with: Inclined Armor Belt"
+  },
+  {
+   "k": "1qw9ia9",
+   "en": "Inclined Armor Belt"
+  },
+  {
+   "k": "oatx7r",
+   "en": "Equipment: Armor: +15% Production cost: +5.00%"
+  },
+  {
+   "k": "iziaju",
+   "en": "Mutually exclusive with: Vertical Armor Belt"
+  },
+  {
+   "k": "ofm5ax",
+   "en": "Hardened Critical Components"
+  },
+  {
+   "k": "8j52qe",
+   "en": "Equipment: Enemy Torpedo critical chance: -5%"
+  },
+  {
+   "k": "1tr7egk",
+   "en": "Enemy Torpedo critical chance: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "mk8440",
+   "en": "Requires one of the following: Inclined Armor Belt Vertical Armor Belt"
+  },
+  {
+   "k": "rgs1ns",
+   "en": "Advanced Hydrodynamic Design"
+  },
+  {
+   "k": "1cblq6n",
+   "en": "Equipment: Max Speed: +5%"
+  },
+  {
+   "k": "1wsn1b",
+   "en": "Requires all of the following: Hardened Critical Components Mutually exclusive with: Advanced Armor Design"
+  },
+  {
+   "k": "wayy6m",
+   "en": "Advanced Armor Design"
+  },
+  {
+   "k": "xn492j",
+   "en": "Requires all of the following: Hardened Critical Components Mutually exclusive with: Advanced Hydrodynamic Design"
+  },
+  {
+   "k": "kqr7ur",
+   "en": "Optimized Anti-Aircraft Firing Arcs"
+  },
+  {
+   "k": "1vra4u9",
+   "en": "Equipment: Anti-air: +5%"
+  },
+  {
+   "k": "aykikd",
+   "en": "Anti-air: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "hrdhny",
+   "en": "Secondary Battery Layout"
+  },
+  {
+   "k": "1mn8yb6",
+   "en": "Equipment: Light Attack: +5%"
+  },
+  {
+   "k": "pqh8dm",
+   "en": "Light Attack: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1bvwlwk",
+   "en": "Gyro-Stabilized Mounts"
+  },
+  {
+   "k": "7ejm28",
+   "en": "Equipment: Anti-air: +5% Light Attack: +5%"
+  }
+ ]
+}

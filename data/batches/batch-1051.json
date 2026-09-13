@@ -1,0 +1,887 @@
+{
+ "batch": 1051,
+ "pages": [
+  "Peace conference"
+ ],
+ "chars": 15000,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "xlgnvu",
+   "en": "When there is only one victorious country in the conference, the total war score is awarded to that country on the first turn."
+  },
+  {
+   "k": "qu8pu6",
+   "en": "When there are multiple victors in the conference, every victor's war score will be issued in 20% increments over five turns.⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "b6od83",
+   "en": "There is a ⟦0⟧ rate, calculated as 5% of the total war score awarded to all countries per turn. This goes into effect for any country with less than 5% war participation (assuming game rules do not redistribute their score), awarding them the minimum value until all of their score is distributed to them, potentially before the fifth turn.⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1lefnhz",
+   "en": "minimum war score per turn"
+  },
+  {
+   "k": "a9n28i",
+   "en": "War score cannot be transferred from one victor to another."
+  },
+  {
+   "k": "17fr5nt",
+   "en": "Once victors receive all of their war score, they receive no further score on subsequent turns."
+  },
+  {
+   "k": "16xbcaq",
+   "en": "An ⟦0⟧ of a single-victor conference: the ⟦1⟧ declares war on ⟦2⟧ and easily wins. The combined value of Cuba’s states is 120 points. USA is the only victor. The war score computed for the USA is: 1.35 * 120 * 1.0 = 162. All 162 points are distributed to the USA at the beginning of the conference.",
+   "frags": 3
+  },
+  {
+   "k": "1237jep",
+   "en": "An ⟦0⟧ of a multi-victor conference: ⟦1⟧, the ⟦2⟧, and ⟦3⟧ declare war on Poland and win. The combined value of Poland’s states is 1000 points. Germany has 60% war participation, Soviet Union has 36% war participation, and Lithuania has 4%. The war score computed for each victor is: Germany: 1.35 * 1000 * 0.6 = 810 Soviet Union: 1.35 * 1000 * 0.36 = 486 Lithuania: 1.35 * 1000 * 0.04 = 54",
+   "frags": 4
+  },
+  {
+   "k": "1u6wgyu",
+   "en": "The minimum score per turn rate is 1.35 * 1000 * 0.2 * 0.05 = 13.5. Germany and the Soviet Union’s war score will be distributed to them in 20% increments for the first five turns. Because Lithuania has less than 5% of the war participation, it will be given its score at the minimum war score per turn rate of 13.5 until it has all 54 of its points. The distribution to these three countries is depicted in the below table."
+  },
+  {
+   "k": "30r93l",
+   "en": "Country Turn 1 Turn 2 Turn 3 Turn 4 Turn 5 Germany 162 162 162 162 162 Soviet Union 97.2 97.2 97.2 97.2 97.2 Lithuania 13.5 13.5 13.5 13.5 0"
+  },
+  {
+   "k": "tw47yj",
+   "en": "State value"
+  },
+  {
+   "k": "uxoeaw",
+   "en": "Each state’s value is used to compute ⟦0⟧ distributed to victors as well as ⟦1⟧ and is the sum of the state’s base value, resources, ⟦2⟧, and buildings. These values may change before and after the conference, but remain static during the peace conference.",
+   "frags": 3
+  },
+  {
+   "k": "4oz3rc",
+   "en": "demand costs"
+  },
+  {
+   "k": "19uembk",
+   "en": "manpower"
+  },
+  {
+   "k": "1i4fpat",
+   "en": "Base value – Every state has a base value of 10 points.⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "awqquy",
+   "en": "Manpower – Calculated as 1 point for every 100,000 population in the state.⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1vzfnum",
+   "en": "Resources – Sum of all base resources in the state.⟦0⟧ Resources generated by buildings (e.g., oil refineries) are not included in this calculation.",
+   "frags": 1
+  },
+  {
+   "k": "1u3dv96",
+   "en": "Buildings – Sum of point values for the ⟦0⟧ plus points for each ⟦1⟧ type and level. The below table lists the values associated with state categories⟦2⟧ and buildings.⟦3⟧",
+   "frags": 4
+  },
+  {
+   "k": "1w4u2vc",
+   "en": "state's category"
+  },
+  {
+   "k": "fs2ir9",
+   "en": "building"
+  },
+  {
+   "k": "z6h0my",
+   "en": "State category"
+  },
+  {
+   "k": "1m2g8kq",
+   "en": "Value"
+  },
+  {
+   "k": "12fqnbp",
+   "en": "Building"
+  },
+  {
+   "k": "ypk7qk",
+   "en": "Wasteland"
+  },
+  {
+   "k": "7b3x92",
+   "en": "Civilian factory"
+  },
+  {
+   "k": "17j35qp",
+   "en": "Enclave"
+  },
+  {
+   "k": "17qtid0",
+   "en": "Military factory"
+  },
+  {
+   "k": "11q5ev4",
+   "en": "Tiny island"
+  },
+  {
+   "k": "4ixk0m",
+   "en": "Naval dockyard"
+  },
+  {
+   "k": "1dhx0ez",
+   "en": "Pastoral region"
+  },
+  {
+   "k": "5c0akc",
+   "en": "Petroleum refinery"
+  },
+  {
+   "k": "11qfau1",
+   "en": "Small island"
+  },
+  {
+   "k": "5tg6q",
+   "en": "Fuel silo"
+  },
+  {
+   "k": "r7samx",
+   "en": "Rural region"
+  },
+  {
+   "k": "8pq23o",
+   "en": "Rocket site"
+  },
+  {
+   "k": "jqc76t",
+   "en": "Developed rural region"
+  },
+  {
+   "k": "1s1ceam",
+   "en": "Nuclear facility"
+  },
+  {
+   "k": "1orhavr",
+   "en": "Sparse urban region"
+  },
+  {
+   "k": "1icrwoe",
+   "en": "Infrastructure"
+  },
+  {
+   "k": "nxnph5",
+   "en": "Urban region"
+  },
+  {
+   "k": "1qizwbs",
+   "en": "Air base"
+  },
+  {
+   "k": "1lzij9k",
+   "en": "Dense urban region"
+  },
+  {
+   "k": "1hjdj0w",
+   "en": "Anti air site"
+  },
+  {
+   "k": "14fuwwv",
+   "en": "Metropolis region"
+  },
+  {
+   "k": "1ktz3u",
+   "en": "Radar site"
+  },
+  {
+   "k": "1qx3xd7",
+   "en": "Megalopolis region"
+  },
+  {
+   "k": "1v5w17c",
+   "en": "As an ⟦0⟧, at the start of 1936, the German state of Rhineland has a state value of 205.5, based on the following: Base value: 10 Manpower: 6,150,000 ÷ 100,000 = 61.5 Base resources: 35 steel Buildings: 99 State category (Megalopolis): 48 Military factories: 3 * 8 = 24 Civilian factories: 4 * 5 = 20 Infrastructure: 4 * 1 = 4 Air bases: 3 * 1 = 3 Total: 10 + 61.5 + 35 + 99 = 205.5",
+   "frags": 1
+  },
+  {
+   "k": "ik3taq",
+   "en": "The computed state value is displayed in a tooltip when hovering over a demand in the peace conference; holding the ⟦0⟧ key during this hover displays a breakdown of the four constituent values. In non-⟦1⟧ games, the player can also view the state value by enabling tdebug in the ⟦2⟧ and hovering over any state.",
+   "frags": 3
+  },
+  {
+   "k": "qteedx",
+   "en": "Ironman"
+  },
+  {
+   "k": "ctgene",
+   "en": "console"
+  },
+  {
+   "k": "132ez8i",
+   "en": "Turns and demands"
+  },
+  {
+   "k": "85119q",
+   "en": "During each turn, all victors in the conference get to make demands simultaneously. Players make demands either on their own behalf or on another victor’s behalf by selecting the victor’s country tile from the Current Demands panel. If making demands on another’s behalf, only the take states type may be selected."
+  },
+  {
+   "k": "1iok82t",
+   "en": "The turn ends when each participant submits their demands; in the player’s case, this occurs upon selecting the Submit Demands button. At the end of each turn, the game evaluates all demands to determine if there are any contests. Demands submitted by only one victor are considered uncontested and are essentially granted to that victor until another victor decides to select that demand in a future turn or until the conference ends."
+  },
+  {
+   "k": "1sbae1n",
+   "en": "If multiple participants make demands on the same state (regardless of demand type) or ship, such demands become contested. The player is refunded the war score spent on any contested demands and presented with the Contested Demands window. The player can decide to continue contesting selected demands at an increased cost, at which point the refunded war score goes back into the contest."
+  },
+  {
+   "k": "sg07ba",
+   "en": "If the player decides to forfeit, they keep the refunded war score. The amount of war score refunded depends on how many turns the demand has been contested, with the score fully refunded on the first turn of contesting, but on each subsequent turn, this refund is reduced by 8% down to a low of 76%.⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "qg3drc",
+   "en": "Demand costs"
+  },
+  {
+   "k": "poiid8",
+   "en": "Demand costs for each state are computed by multiplying the state’s value by various modifiers. Costs will vary between victors for a particular demand due to the victor's characteristics, the defeated state's characteristics, and demands already made on the state. The cost cap for any single demand is 9999 points.⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "uv6n35",
+   "en": "Modifiers are factors multiplied against the state value to either increase or decrease the total cost. Factors less than 1.0 will decrease the cost, while factors greater than 1.0 will increase the cost. Thus, a modifier of 1.2 represents a 20% increase while a modifier of 0.8 represents a 20% decrease. The ⟦0⟧ displayed in the demand tooltip (i.e., the 'Multiplied by' value) is computed by multiplying all active modifiers by each other. This product is then multiplied by the ⟦1⟧ to arrive at the war score cost for the state. The breakdown of constituent cost modifiers is displayed in the demand tooltip when hovering over a demand in the peace conference by holding the ⟦2⟧ key.",
+   "frags": 3
+  },
+  {
+   "k": "pp9tyw",
+   "en": "combined cost modifier"
+  },
+  {
+   "k": "tcxgkr",
+   "en": "state value"
+  },
+  {
+   "k": "z4y2di",
+   "en": "As an ⟦0⟧: Rhineland has a state value of 205.5 and the player, as democratic ⟦1⟧, has captured it and wants to annex it. Assuming the cost modifiers in effect are Ideology (1.3), Influence (0.77), and Occupation (0.8): Combined cost modifier is: 1.3 * 0.77 * 0.8 = 0.8 Cost to take state is: 0.8 * 205.5 = 164.4",
+   "frags": 2
+  },
+  {
+   "k": "1uijy3",
+   "en": "The below table describes generic modifiers that apply regardless of demand type."
+  },
+  {
+   "k": "1cr1mz5",
+   "en": "Category"
+  },
+  {
+   "k": "sjj37t",
+   "en": "Description"
+  },
+  {
+   "k": "frrq63",
+   "en": "Influence⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1jmxzh0",
+   "en": "Ranges from 0.7 to 1.0 depending on pixel distance from the nearest of three different types of your states, with varying contribution factored from negotiator’s ⟦0⟧ (20%), nearest core (30%), and nearest controlled state (50%, including peace conference bids). For cases where one or more controlled states are directly adjacent, each adjacent state decreases the cost modifier by 0.05, which may bring the cost modifier below 0.7. Minor countries will get 35% less discount from this computation.",
+   "frags": 1
+  },
+  {
+   "k": "1qgpwa3",
+   "en": "capital"
+  },
+  {
+   "k": "zcybh9",
+   "en": "Contested⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "b734t0",
+   "en": "Starts at 1.2 once a state is contested, increasing each turn while state is contested by multiplying 1.2 by itself until no longer contested or until capped at 15."
+  },
+  {
+   "k": "lw5u1u",
+   "en": "Uncontested⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "orpaoo",
+   "en": "Starts at 1.15 once a negotiator demands a state, increasing each turn while state is uncontested by multiplying 1.15 by itself plus 0.15 each turn up to 1.6, until contested or until capped at 15."
+  },
+  {
+   "k": "15lhkga",
+   "en": "The below table describes generic modifiers whose effects depend in part on the demand type.⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "132zypi",
+   "en": "Take"
+  },
+  {
+   "k": "mntfz",
+   "en": "Puppet"
+  },
+  {
+   "k": "8pl92c",
+   "en": "Force"
+  },
+  {
+   "k": "1ton26p",
+   "en": "Liberate"
+  },
+  {
+   "k": "1xkck72",
+   "en": "Can Be Liberated"
+  },
+  {
+   "k": "1ic3bfv",
+   "en": "Core of previous owner"
+  },
+  {
+   "k": "1wn8zm2",
+   "en": "Compliance"
+  },
+  {
+   "k": "177aosc",
+   "en": "Negotiator occupies state with < 30% ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "4ch44q",
+   "en": "compliance"
+  },
+  {
+   "k": "1fu2ue5",
+   "en": "Negotiator occupies state with 30% to 70% compliance"
+  },
+  {
+   "k": "ckcld4",
+   "en": "Negotiator occupies state with > 70% compliance"
+  },
+  {
+   "k": "k6jbox",
+   "en": "Continuous Political Action"
+  },
+  {
+   "k": "1mwqz2u",
+   "en": "Loser has been puppeted or forced to change govt in a previous turn"
+  },
+  {
+   "k": "1yk28g3",
+   "en": "Core of Ally"
+  },
+  {
+   "k": "5udkjm",
+   "en": "Core of independent major country on same side as negotiator"
+  },
+  {
+   "k": "1h6svgc",
+   "en": "Defensive War"
+  },
+  {
+   "k": "1kwgku9",
+   "en": "Negotiator was in defensive war with loser"
+  },
+  {
+   "k": "1m7v93f",
+   "en": "Has Claim"
+  },
+  {
+   "k": "1nnbec4",
+   "en": "Claimed by independent beneficiary"
+  },
+  {
+   "k": "18a2mp",
+   "en": "Ideology"
+  },
+  {
+   "k": "c20d5u",
+   "en": "Negotiator is Fascist"
+  },
+  {
+   "k": "n8v4ui",
+   "en": "Negotiator is Communist"
+  },
+  {
+   "k": "exytfi",
+   "en": "Negotiator is Democratic"
+  },
+  {
+   "k": "10zv1mb",
+   "en": "Negotiator is Democratic; loser is currently Fascist or Communist"
+  },
+  {
+   "k": "q21rlm",
+   "en": "Negotiator is major and beneficiary; loser is major and either Democratic or Communist"
+  },
+  {
+   "k": "192iq3z",
+   "en": "Negotiator is major and democratic; loser is major"
+  },
+  {
+   "k": "19gvwc4",
+   "en": "Is Core"
+  },
+  {
+   "k": "1vbtlws",
+   "en": "Core of independent beneficiary"
+  },
+  {
+   "k": "1ognozr",
+   "en": "Core of puppeted beneficiary"
+  },
+  {
+   "k": "uckg0j",
+   "en": "Core of beneficiary and not core of loser"
+  },
+  {
+   "k": "dlbn6i",
+   "en": "Occupation"
+  },
+  {
+   "k": "132z0ae",
+   "en": "Negotiator occupies state with > 0 compliance"
+  },
+  {
+   "k": "ukzedx",
+   "en": "Other"
+  },
+  {
+   "k": "11wqgj1",
+   "en": "Beneficiary has dormant national identity (e.g., Ukraine)"
+  },
+  {
+   "k": "m5tj3b",
+   "en": "Not core of negotiator who has independence war goal against beneficiary"
+  },
+  {
+   "k": "3w8p07",
+   "en": "Negotiator was target of independence war goal by loser"
+  },
+  {
+   "k": "pkgutb",
+   "en": "The below table describes generic modifiers based on war goals the negotiator has on the loser.⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1gy2fz4",
+   "en": "War Goal"
+  },
+  {
+   "k": "izvbdz",
+   "en": "Take state"
+  },
+  {
+   "k": "1kfq85a",
+   "en": "Take claimed state"
+  },
+  {
+   "k": "fd1z3c",
+   "en": "Puppet (focus)"
+  },
+  {
+   "k": "1mzt4v4",
+   "en": "Take core state"
+  },
+  {
+   "k": "1km8euw",
+   "en": "Annex everything (focus/decision)"
+  },
+  {
+   "k": "kpvo8i",
+   "en": "Civil war"
+  },
+  {
+   "k": "1x8imnq",
+   "en": "Topple Government"
+  },
+  {
+   "k": "aqnxen",
+   "en": "Independence"
+  },
+  {
+   "k": "1hdh27o",
+   "en": "For take navy demands, the game lists each capital ship (carriers, battleships, and heavy cruisers) and then allots a share of the country’s screen ships (light cruisers, destroyers, and submarines) to each. The cost of each demand is the sum of the capital ship’s IC (i.e., ⟦0⟧) multiplied by 0.005⟦1⟧ and the screening ships’ IC multiplied by 0.005.⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "rkyigf",
+   "en": "production cost"
+  },
+  {
+   "k": "ow9ale",
+   "en": "As an ⟦0⟧, Germany demands a converted battleship hull carrier in the conference from the UK, which comes with 13 destroyers. The carrier has an IC cost of about 9000 while each destroyer has an IC cost of 1000. The total cost is 9000 * 0.005 + 13 * 1000 * 0.005 = 110.",
+   "frags": 1
+  },
+  {
+   "k": "brto9h",
+   "en": "Additional cost modifiers exist based on country-specific scripting, often categorized as ⟦0⟧. A major example is the Yalta Conference event which, if agreed to by both the western and Soviet leaders, results in the following cost modifiers in the eventual peace conference between the Allies, Axis, and Comintern:",
+   "frags": 1
+  },
+  {
+   "k": "q6zzyo",
+   "en": "Treaties and Conferences"
+  },
+  {
+   "k": "1hi58ld",
+   "en": "a 50% discount on West German states and 400% penalty on East German states for western major countries;"
+  },
+  {
+   "k": "imd0j0",
+   "en": "a 50% discount on East German states and 400% penalty on West German states for the Soviet Union;"
+  },
+  {
+   "k": "8zzw2z",
+   "en": "a 50% discount on liberating Austria for western major countries.⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "16ikujh",
+   "en": "These types of cost modifiers may persist after the peace conference, which may result in undesirable demand costs if conflict re-ignites over the same territory."
+  },
+  {
+   "k": "1n5w6u9",
+   "en": "Conclusion and effects"
+  },
+  {
+   "k": "mdageh",
+   "en": "The peace conference ends when all participants exit the conference; for the player this occurs upon selecting the Confirm and Exit button. The player will be pulled back into the conference if other victors contest their demands (unlikely when playing against the AI, but possible in multiplayer games)."
+  },
+  {
+   "k": "vhxzgp",
+   "en": "The world tension change for each demand is calculated as follows:"
+  },
+  {
+   "k": "1d5ysgi",
+   "en": "⟦0⟧ = 2⟦1⟧ * ln(3⟦2⟧ + 5⟦3⟧ + ⟦4⟧ + 2) ÷ 20, where: f = tension factor, depending on demand type 2 if annexing a state with no core or claim[19] 0.5 if annexing a claim[20] 0 if annexing a core[21] 1.25 if puppeting a state[22] 0.75 if changing government of a state[23] b = total number of civilian factories, military factories, docks, and rocket sites in the state v = total number of victory points in the state r = total base resources in the state",
+   "frags": 5
+  },
+  {
+   "k": "1o3wn2l",
+   "en": "Liberating states will decrease tension by an amount that varies depending on the characteristics of the negotiator and the losing country (primarily number of production buildings)⟦0⟧ multiplied by a factor of -1.0.⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "14u2au9",
+   "en": "Taking ships increases tension by 0.25 per capital ship.⟦0⟧ DMZ, resource rights, reparations, and dismantle military industry demands are calculated as 0.25 times the base threat associated with the state.⟦1⟧ All tension resulting from the peace conference, whether a net increase or decrease, is credited to the country that the enemy faction capitulated to.",
+   "frags": 2
+  },
+  {
+   "k": "mftazv",
+   "en": "Ships that are successfully bid on will retain 25% of their prior experience.⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "mw5689",
+   "en": "It is possible for defeated countries to survive the conference. This typically occurs if the victors collectively fail to demand all states of the losers. Annexed states will be in an occupied status unless they are a core of their new owners; compliance gained during long-term occupation or through collaboration missions will remain in effect after the conference. Countries that have been forced to change government will tend to have poor ⟦0⟧ of the winners, while liberated countries will tend to have a good opinion.",
+   "frags": 1
+  },
+  {
+   "k": "q67o65",
+   "en": "opinion"
+  },
+  {
+   "k": "1vesypr",
+   "en": "AI behavior"
+  },
+  {
+   "k": "uql8t8",
+   "en": "The AI employs a complex set of generic and country-specific rules when weighing its desire to make demands on states. A high-level summary of generic AI behavior in the peace conference is provided below.⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "jofq5c",
+   "en": "The AI will have a higher desire to make demands on:"
+  },
+  {
+   "k": "1jvee71",
+   "en": "Its own cores and claims"
+  },
+  {
+   "k": "16eashb",
+   "en": "States that are next to states it controls"
+  },
+  {
+   "k": "1qgzc3b",
+   "en": "Allies' cores and claims on behalf of said allies"
+  },
+  {
+   "k": "419utp",
+   "en": "States that are taken from a country with different ideology"
+  },
+  {
+   "k": "9066r1",
+   "en": "Demand types that are aligned with its ideology Fascists and Non-Aligned will tend to annex Democrats will tend to liberate or change government Communists will tend to puppet"
+  },
+  {
+   "k": "l15b48",
+   "en": "Fascists and Non-Aligned will tend to annex"
+  },
+  {
+   "k": "n17j8x",
+   "en": "Democrats will tend to liberate or change government"
+  },
+  {
+   "k": "a6o27n",
+   "en": "Communists will tend to puppet"
+  },
+  {
+   "k": "e9gj44",
+   "en": "The AI will have a lower desire to make demands on:"
+  },
+  {
+   "k": "157voz7",
+   "en": "Cores of countries liberated in an earlier turn"
+  },
+  {
+   "k": "ifgb73",
+   "en": "States that are contested"
+  },
+  {
+   "k": "8me3fd",
+   "en": "States that are already demanded by other countries"
+  },
+  {
+   "k": "10cjj1y",
+   "en": "States that are occupied by a human player"
+  },
+  {
+   "k": "6rpnsa",
+   "en": "Demands that would benefit a country of a different ideology"
+  },
+  {
+   "k": "1h26oz4",
+   "en": "Exclaves (i.e., not touching a state it controls, unless core/claim)"
+  },
+  {
+   "k": "hw2pr6",
+   "en": "States outside of its influence, except for the following: Coastal capitals Specific states (California, Cote Nord, Greater London Area, Tunisia, Suez, Indochina) Specific states (Gibraltar, Istanbul, Crimea) when taker is European Island states"
+  },
+  {
+   "k": "1ewthjd",
+   "en": "Coastal capitals"
+  },
+  {
+   "k": "krdx0a",
+   "en": "Specific states (California, Cote Nord, Greater London Area, Tunisia, Suez, Indochina)"
+  },
+  {
+   "k": "1shvwwb",
+   "en": "Specific states (Gibraltar, Istanbul, Crimea) when taker is European"
+  },
+  {
+   "k": "hqv8wu",
+   "en": "Island states"
+  },
+  {
+   "k": "zcecho",
+   "en": "AI allies' claims prior to turn 12"
+  },
+  {
+   "k": "1agrxqh",
+   "en": "In all cases, if the AI has a net 0 or less desire on a state, it will not make demands on it, even if it has the war score to do so. Puppets will generally not make demands at all unless it is on their own cores and claims, or on behalf of their overlord/allies for their cores and claims. The AI has not been observed demanding ships."
+  },
+  {
+   "k": "16iil3d",
+   "en": "In the event a contest between AI negotiators extends beyond two turns, a tie breaker function compares each negotiator's remaining war score, influence distance to the demanded state, and country score. As these factors are weighed evenly, the negotiator with the greater average of these factors is more likely to win the tie breaker.⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1h0k7yc",
+   "en": "Strategy"
+  },
+  {
+   "k": "12tsjw6",
+   "en": "The peace conference’s complex mechanics make it impossible to provide comprehensive guidelines for every scenario; however, the following techniques may prove useful depending on the makeup of the conference."
+  }
+ ]
+}

@@ -1,0 +1,584 @@
+{
+ "batch": 57,
+ "pages": [
+  "Battle plan"
+ ],
+ "chars": 14438,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "10tmays",
+   "en": "Additionally, divisions have increased breakthrough (⟦0⟧⟦1⟧) but reduced attack (⟦2⟧⟦3⟧) while being protected by their transports. These effects fade away⟦4⟧ as the landing progresses and the troops leave their landing crafts, measured by movement progress (usually ending after 48 hours⟦5⟧). The ⟦6⟧ modifier gives units a head start in this landing progress and reaching normal combat effectiveness sooner.",
+   "frags": 7
+  },
+  {
+   "k": "arreeo",
+   "en": "Amphibious Invasion Speed"
+  },
+  {
+   "k": "ee310l",
+   "en": "The ⟦0⟧ modifier primarily provided by later landing craft technologies has two separate effects:",
+   "frags": 1
+  },
+  {
+   "k": "13jgtce",
+   "en": "Invasion Defense"
+  },
+  {
+   "k": "41ajv2",
+   "en": "it is additive with the ⟦0⟧ starting breakthrough bonus, but fades away as well;",
+   "frags": 1
+  },
+  {
+   "k": "u7jaxu",
+   "en": "it multiplicatively improves the landing penalty: the effective penalty is (⟦0⟧ + ⟦1⟧) multiplied by ⟦2⟧(0, 1 − ⟦3⟧ ÷ 3.5).⟦4⟧",
+   "frags": 5
+  },
+  {
+   "k": "i2bme1",
+   "en": "modifiers"
+  },
+  {
+   "k": "1ntxi55",
+   "en": "max"
+  },
+  {
+   "k": "728b8e",
+   "en": "Post invasion"
+  },
+  {
+   "k": "l6ccqs",
+   "en": "Unless invading divisions have captured a port or a city, they might be cut off from ⟦0⟧, and need to achieve these objectives within 72 hours before supplies run out. A floating harbor will provide a temporary supply hub in the landing province, giving the invaders a few weeks to secure an alternative supply source.",
+   "frags": 1
+  },
+  {
+   "k": "15i427i",
+   "en": "supply"
+  },
+  {
+   "k": "9yaver",
+   "en": "A paradrop is a battle plan order that uses ⟦0⟧ to land one or more paradrop-capable ⟦1⟧ onto a target ⟦2⟧. The paradrop order button is available in the battle plan toolbar for an army with at least one paradrop-capable division. After selecting the button, the player must left-click the province of an ⟦3⟧ that contains a minimum of 50 transport planes and then right-click a province that is within transport range as the paradrop destination.",
+   "frags": 4
+  },
+  {
+   "k": "1n1p4ip",
+   "en": "transport planes"
+  },
+  {
+   "k": "96peof",
+   "en": "divisions"
+  },
+  {
+   "k": "71r0hx",
+   "en": "province"
+  },
+  {
+   "k": "1s8osaw",
+   "en": "air base"
+  },
+  {
+   "k": "14m6t8f",
+   "en": "Executing a paradrop order requires sufficient transport planes for the number of divisions assigned to the order (by default, 45 planes per division) and either neutral or 70% ⟦0⟧ in all required regions.",
+   "frags": 1
+  },
+  {
+   "k": "5lpege",
+   "en": "air superiority"
+  },
+  {
+   "k": "frdifg",
+   "en": "Division Template Requirements"
+  },
+  {
+   "k": "k5ndp8",
+   "en": "In order to be paradrop-capable, a division must contain only paradrop-capable battalions among its line battalions and support companies. Paradrop-capable divisions will have a checkmark on the parachute icon at the top left of the ⟦0⟧ window. Paradrop-capable battalions are indicated by a parachute symbol in their unit icons during battalion selection. Currently, only the ⟦1⟧ battalion is paradrop-capable as a line battalion. Paradrop-capable ⟦2⟧ are listed below; all other support companies are not paradrop-capable.",
+   "frags": 3
+  },
+  {
+   "k": "lhp5pv",
+   "en": "division designer"
+  },
+  {
+   "k": "z1uptm",
+   "en": "paratrooper"
+  },
+  {
+   "k": "vq27af",
+   "en": "support companies"
+  },
+  {
+   "k": "3oaemp",
+   "en": "Support Anti-Air"
+  },
+  {
+   "k": "1eg3avn",
+   "en": "Support Anti-Tank"
+  },
+  {
+   "k": "1w9qo2m",
+   "en": "Support Artillery"
+  },
+  {
+   "k": "1i3wory",
+   "en": "Support Rocket Artillery"
+  },
+  {
+   "k": "1k7l69d",
+   "en": "Cavalry Recon Detachment"
+  },
+  {
+   "k": "19obbtw",
+   "en": "Motorized Recon Company"
+  },
+  {
+   "k": "cnmgul",
+   "en": "Light Armored Recon Company"
+  },
+  {
+   "k": "1qqjt5r",
+   "en": "Engineer Company"
+  },
+  {
+   "k": "p9065s",
+   "en": "Military Police"
+  },
+  {
+   "k": "1v66itj",
+   "en": "Maintenance Company"
+  },
+  {
+   "k": "pbqib7",
+   "en": "Field Hospital"
+  },
+  {
+   "k": "d7l653",
+   "en": "Logistics Company"
+  },
+  {
+   "k": "fz6pn6",
+   "en": "Signal Company"
+  },
+  {
+   "k": "1c6hnlh",
+   "en": "Helicopter Medevac"
+  },
+  {
+   "k": "3a2o24",
+   "en": "Airborne Light Armor"
+  },
+  {
+   "k": "1sd2nii",
+   "en": "Pioneers"
+  },
+  {
+   "k": "i4ry26",
+   "en": "Recon Rangers"
+  },
+  {
+   "k": "1me64yo",
+   "en": "Transport Plane Requirements"
+  },
+  {
+   "k": "12f8tu1",
+   "en": "Creating a paradrop order requires a minimum of 50 transport planes available at the originating air base.⟦0⟧ Air bases that have this minimum will be highlighted blue during paradrop order creation. To be considered available, transports must not be assigned to other ⟦1⟧, must not be in transit, and must have sufficient fuel supply via the local ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "k91i7i",
+   "en": "air missions"
+  },
+  {
+   "k": "giamsz",
+   "en": "supply system"
+  },
+  {
+   "k": "6ywwym",
+   "en": "After order creation, executing a paradrop order requires 45 transport planes available per division⟦0⟧ assigned to the order at the departure air base. This requirement may be modified as follows:",
+   "frags": 1
+  },
+  {
+   "k": "1oz9udq",
+   "en": "Transport Planes Required"
+  },
+  {
+   "k": "j8fhrp",
+   "en": "Divisions Assigned"
+  },
+  {
+   "k": "gfrc9t",
+   "en": "Base Required"
+  },
+  {
+   "k": "9gocnv",
+   "en": "With Modifiers"
+  },
+  {
+   "k": "106qwq1",
+   "en": "Gliders"
+  },
+  {
+   "k": "nivrgf",
+   "en": "Doctrine"
+  },
+  {
+   "k": "1ohednu",
+   "en": "Gliders + Doctrine"
+  },
+  {
+   "k": "1ac5xzr",
+   "en": "If the general commanding the divisions has the ⟦0⟧ commander trait, he will have access to the ⟦1⟧ ability, which decreases the transport plane requirement by 10% (i.e., base requirement * 0.9) for seven days at the expense of 0.1 ⟦2⟧ per battalion.",
+   "frags": 3
+  },
+  {
+   "k": "urm19f",
+   "en": "Glider Planes"
+  },
+  {
+   "k": "16cohwn",
+   "en": "command power"
+  },
+  {
+   "k": "lm89cn",
+   "en": "With the DLC ⟦0⟧, the special forces doctrine Strategic Air Lift Corps reduces the transport plane requirement by 50% (i.e., base requirement * 0.5).",
+   "frags": 1
+  },
+  {
+   "k": "1sdsax",
+   "en": "If both Glider Planes and Strategic Air Lift Corps are active, their benefits stack multiplicatively (i.e., base requirement * 0.9 * 0.5). Neither modifier overrides the 50 plane minimum for a given paradrop order, but they effectively discount the planes required for two divisions and up."
+  },
+  {
+   "k": "opuob3",
+   "en": "The table at right provides a summary of transport plane requirements for up to 12 divisions given any active modifiers."
+  },
+  {
+   "k": "93e6vl",
+   "en": "If launching multiple orders from the same air base, the same transport planes will be used multiple times for different orders in waves if there are enough planes for individual orders but not enough for all orders to go simultaneously. Upon selecting the execute button, these orders will launch in waves automatically in the sequence that they were created and will continue to the last order unless the requirements for later paradrop orders are no longer met (e.g., insufficient air superiority in the required regions or insufficient planes for remaining orders due to aircraft losses). Each order takes about 4 to 8 hours to complete, so the biggest disadvantage of executing in waves with fewer planes is the extended time of the overall paradrop effort, which may give the enemy time to react."
+  },
+  {
+   "k": "14sn0v4",
+   "en": "The transport wings assigned to a paradrop order must be adequately supplied in order to take off. When transport wings lack the fuel to fly, they will be treated as unavailable upon executing the paradrop order. Reducing supply consumption in the province of the air base or improving supply infrastructure should resolve this issue."
+  },
+  {
+   "k": "fw32h7",
+   "en": "Target Province Requirement"
+  },
+  {
+   "k": "6wpaz2",
+   "en": "Each paradrop order is targeted on one destination province, whether in friendly or enemy territory. Paradrop orders targeting friendly (own or allied) territory may be executed at any time. Paradrop orders on non-allied territory require a state of war to execute."
+  },
+  {
+   "k": "k0kavy",
+   "en": "The destination province must be in range of the transport wing, which may vary depending on the technology level of the planes within the wing. In-range provinces are indicated with green highlighting during order creation after selecting the departure air base. Provinces belonging to an air region whose geographic center is outside of the transport wing's range will not be considered in range, even if the individual province is within the range ring of the transport wing."
+  },
+  {
+   "k": "16nzuhm",
+   "en": "Air Superiority Requirements"
+  },
+  {
+   "k": "exugnw",
+   "en": "There must be either neutral air or a minimum of 70% air superiority in the departure, enroute, and destination regions of paradrop orders in order to execute.⟦0⟧ Neutral air is defined as the absence of any friendly or enemy air missions in the air region.",
+   "frags": 1
+  },
+  {
+   "k": "1j6zeei",
+   "en": "If multiple paradrop orders pass through different air regions, those that have sufficient air superiority in their applicable regions will launch, while those that do not have air superiority will not launch. It is possible to have momentary air superiority in some waves but lose it in later waves. When air superiority is regained in the required regions, the pending waves will automatically launch."
+  },
+  {
+   "k": "1akdhmk",
+   "en": "Paradrop Order Interface and Tooltips"
+  },
+  {
+   "k": "pd9sth",
+   "en": "The paradrop mechanic provides several interface components that provide information about paradrop orders. Some of the information in this interface is non-intuitive, so the below guidance is provided."
+  },
+  {
+   "k": "z7yvup",
+   "en": "Execute Button – The green execute button above the army icon displays a tooltip on mouse hover with information that is common to all army orders. For paradrop orders, this tooltip will also indicate if insufficient air superiority in one or more affected regions will prevent order execution. Unlike naval invasions, there is no progress bar or countdown number as paradrop orders do not have an arbitrary preparation time and can launch as soon as assigned paratroopers are at the field along with transport planes."
+  },
+  {
+   "k": "1x8x0bw",
+   "en": "Paradrop Order Arrows – Paradrop orders appear on the map between the departure air base and the destination province. Text on the arrows display the name of the order, number of divisions, and transport planes assigned to the order. If no divisions are assigned to an order, it will appear ghosted. Prior to executing the order, the arrow will be solid and static. Upon executing, the arrow will become dashed and animated until the transport planes actually start launching, at which point it will be dashed and static. This may give the impression that the order is not working, but paratroopers should start landing in their drop-zones within a few hours."
+  },
+  {
+   "k": "8ya54p",
+   "en": "Paradrop Order Arrow Tooltip - Hovering over a paradrop arrow will display a tooltip with more detailed order information, as well as alerts if there are insufficient transport wings or the presence of division ⟦0⟧. The tooltip will not display if hovering over a body of water, only over land.",
+   "frags": 1
+  },
+  {
+   "k": "j7q1nv",
+   "en": "attrition"
+  },
+  {
+   "k": "32ptsy",
+   "en": "The insufficient transport wings alert displays before and during order execution if there are not enough transport planes available at the air base for any reason (number of planes, planes on other missions, insufficient supply, etc.). The additional required transports is indicated in terms of wing numbers, rather than individual planes, so it tends to be a vague indicator. The insufficient transport wings alert may also display in the tooltip during order execution even if there are sufficient transports and paratroopers are dropping."
+  },
+  {
+   "k": "1xm0y2f",
+   "en": "The division attrition alert indicates that the division is losing strength and will perform poorly if launched. Division attrition alone will not prevent launching the order, but presence of attrition may indicate poor supply in the area, which may prevent the transport planes from launching due to insufficient fuel."
+  },
+  {
+   "k": "pbx06r",
+   "en": "Paradrop outcomes"
+  },
+  {
+   "k": "6emnb6",
+   "en": "Once a paradrop executes, the division may suffer losses if its paradrop is disrupted. These losses will be between ⟦0⟧⟦1⟧ to ⟦2⟧⟦3⟧ of the division's strength, including ⟦4⟧⟦5⟧ to ⟦6⟧⟦7⟧ of its ⟦8⟧ and ⟦9⟧⟦10⟧ to ⟦11⟧⟦12⟧ of its equipment, with an additional potential ⟦13⟧ amount of randomness to all factors regardless of the actual amount of disruption. These losses can occur even when the target province is empty, i.e., when it does not have an enemy division in it. Based on repeated tests of the same drop (i.e., the same order form the same save file), such losses do not seem to be dependent on ⟦14⟧ (i.e., it happens even when at 100% air superiority), but ⟦15⟧ can contribute to how much a division is disrupted.⟦16⟧ Such losses also seem to occur much more frequently when the drop is at higher latitudes (e.g., in Norway or Northern China), or into coastal provinces.",
+   "frags": 17
+  },
+  {
+   "k": "17vxw9s",
+   "en": "Manpower"
+  },
+  {
+   "k": "2bf5kk",
+   "en": "Anti-air"
+  },
+  {
+   "k": "1c7984v",
+   "en": "Divisions are paradropped at ⟦0⟧ of their organization, regardless of whether they were disrupted or not. They receive a ⟦1⟧ penalty to their recovery rate for 120⟦2⟧ hours afterward. They also receive a ⟦3⟧ penalty to their attack and defense in combat for 48⟦4⟧ hours.",
+   "frags": 5
+  },
+  {
+   "k": "1rkxfcq",
+   "en": "To make paradrops more effective, a player can use the ⟦0⟧ ability with a commander who has the ⟦1⟧ trait. This allows paradropping divisions within the next 7 days to land with a lot more organization (up to ⟦2⟧) and take fewer losses from disruption, though this comes at the cost of ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "130fjyf",
+   "en": "Command power"
+  },
+  {
+   "k": "1ovu446",
+   "en": "Front line and offensive line"
+  },
+  {
+   "k": "xjg9e",
+   "en": "front line"
+  },
+  {
+   "k": "yujx66",
+   "en": "offensive line"
+  },
+  {
+   "k": "1nsl55l",
+   "en": "A Front Line is the starting point of attacks into enemy territory. A player can either assign a whole country's border as a front line by clicking on the border or a player can assign a part of a country's border as a front line by holding the right mouse button and dragging the mouse over the provinces the player wants to belong to the front line deployment area. The AI will then move all the divisions into the position that the commander assigns to that front line. They are assigned either by having them selected when the front line button is clicked or added later by selecting them and Control-Clicking on that line. A player can also create several unconnected front lines and assign divisions between them, which may be particularly useful for a ⟦0⟧ who may command an unlimited amount of ⟦1⟧ conducting various operations in different locations around the world. Divisions that are stationed at a front line that borders a non-ally will receive a planning bonus for their pre-attack preparation time. Front lines can only be positioned at a border, and the front line of battle between opposing forces counts as a border for this purpose.",
+   "frags": 2
+  },
+  {
+   "k": "12uci6l",
+   "en": "field marshal"
+  },
+  {
+   "k": "1s0ii8q",
+   "en": "An Offensive Line is a line that a player draws through enemy provinces that contain objectives for the assigned army units to move to and capture. From a front line, or from another offensive line, a player can draw one or several offensive lines or arrows that tell the AI how the player wants the selected plan's divisions to advance from the front line. The width and arc of the offensive line can be adjusted as described on the tooltip. If the mouse cursor is dragged over the offensive line or arrow the game will show the exact visualisation of how the AI will advance the divisions, step for step. ALT for edit mode and TAB to shift the arrow's base can be useful to direct the main effort."
+  },
+  {
+   "k": "19wyols",
+   "en": "The order to execute battle plans is given with the button above the commander portrait, along with a tooltip that provides information and advice from the staff regarding the battle plan. The AI then executes the battle plan until the troops reach their offensive line which has then become the new front line. If that front line has offensive line orders beyond it then the execute button has to be pressed again to resume the advance from the new front line. Pausing to rest, resupply, refit, regroup, and coordinate further plans was common between phases of a major offensive. This is also a good time to detach troops to consolidate control over occupied territory, which usually involves smaller divisions that specialize in discouraging unrest. The Garrison Area battle plan order is one used in such a situation."
+  },
+  {
+   "k": "1eripl9",
+   "en": "More examples for front line and offensive line"
+  },
+  {
+   "k": "1jwtwrc",
+   "en": "middle"
+  },
+  {
+   "k": "1f8ah88",
+   "en": "spearhead"
+  },
+  {
+   "k": "pjwbo7",
+   "en": "The spearhead order starts from a front line and can be used alongside or instead of the Offensive Line within an army. Unlike the normal battle plan that spreads out to cover its flanks and adjusts to circumstances, spearheads advance in a narrow path one province wide to their objective, exactly as it was when first defined. This makes them suitable for blitzkrieg-style armored penetrations that can capture a specific goal or work with another spearhead pincer to encircle enemy cities or armies in pockets, sealed in a ring of steel by the mobile and regular infantry divisions following behind. Encircled armies can thus be annihilated, as routed divisions which lack friendly territory to retreat to are destroyed."
+  }
+ ]
+}

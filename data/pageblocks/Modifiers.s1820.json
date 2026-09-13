@@ -1,0 +1,656 @@
+{
+ "page": "Modifiers",
+ "from": 1820,
+ "items": [
+  {
+   "k": "16cfbpy",
+   "en": "Changes the division speed for the controller of the state.",
+   "zh": ""
+  },
+  {
+   "k": "uivc4h",
+   "en": "army_speed_factor_for_controller = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1g82ffo",
+   "en": "attrition_for_controller",
+   "zh": ""
+  },
+  {
+   "k": "1weypog",
+   "en": "Changes the attrition for the controller of the state.",
+   "zh": ""
+  },
+  {
+   "k": "3ydt7i",
+   "en": "attrition_for_controller = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1dz2zcz",
+   "en": "equipment_capture_for_controller",
+   "zh": ""
+  },
+  {
+   "k": "15cbpnz",
+   "en": "Changes the equipment capture ratio by the state's controller.",
+   "zh": ""
+  },
+  {
+   "k": "1itsnen",
+   "en": "equipment_capture_for_controller = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1h1olsx",
+   "en": "equipment_capture_factor_for_controller",
+   "zh": ""
+  },
+  {
+   "k": "1r4lnm8",
+   "en": "Modifies the equipment capture ratio by the state's controller.",
+   "zh": ""
+  },
+  {
+   "k": "f81hhp",
+   "en": "equipment_capture_factor_for_controller = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "frjnc5",
+   "en": "enemy_army_speed_factor",
+   "zh": ""
+  },
+  {
+   "k": "15q05a0",
+   "en": "Modifies the speed of divisions at war with the state's owner.",
+   "zh": ""
+  },
+  {
+   "k": "82d3v5",
+   "en": "enemy_army_speed_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "13xaauj",
+   "en": "enemy_local_supplies",
+   "zh": ""
+  },
+  {
+   "k": "d32dkw",
+   "en": "Modifies the supply of divisions at war with the state's owner.",
+   "zh": ""
+  },
+  {
+   "k": "juazk7",
+   "en": "enemy_local_supplies = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "k7z2ks",
+   "en": "enemy_attrition",
+   "zh": ""
+  },
+  {
+   "k": "j1jc3f",
+   "en": "Modifies the attrition of divisions at war with the state's owner.",
+   "zh": ""
+  },
+  {
+   "k": "1xl6l58",
+   "en": "enemy_attrition = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "f4oqcm",
+   "en": "enemy_truck_attrition_factor",
+   "zh": ""
+  },
+  {
+   "k": "bmomhw",
+   "en": "Modifies the truck attrition of divisions at war with the state's owner.",
+   "zh": ""
+  },
+  {
+   "k": "1mlz91y",
+   "en": "enemy_truck_attrition_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "rmnnmw",
+   "en": "compliance_gain",
+   "zh": ""
+  },
+  {
+   "k": "uqlx2t",
+   "en": "Changes the compliance gain in the current state.",
+   "zh": ""
+  },
+  {
+   "k": "192haeo",
+   "en": "compliance_gain = 0.01",
+   "zh": ""
+  },
+  {
+   "k": "uei40b",
+   "en": "Can also go into country scope. Can also be used as a targeted modifier.",
+   "zh": ""
+  },
+  {
+   "k": "20y2xc",
+   "en": "compliance_growth",
+   "zh": ""
+  },
+  {
+   "k": "t3x8p6",
+   "en": "Changes the compliance growth speed in the current state.",
+   "zh": ""
+  },
+  {
+   "k": "1khq7gi",
+   "en": "compliance_growth = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1uw2q3g",
+   "en": "Can also go into country scope.",
+   "zh": ""
+  },
+  {
+   "k": "88l1k9",
+   "en": "disable_strategic_redeployment",
+   "zh": ""
+  },
+  {
+   "k": "1ejam95",
+   "en": "Disables strategic redeployment in the state.",
+   "zh": ""
+  },
+  {
+   "k": "ufqe2d",
+   "en": "disable_strategic_redeployment = 1",
+   "zh": ""
+  },
+  {
+   "k": "q8ya9e",
+   "en": "disable_strategic_redeployment_for_controller",
+   "zh": ""
+  },
+  {
+   "k": "enjv0v",
+   "en": "Disables strategic redeployment in the state for the controller.",
+   "zh": ""
+  },
+  {
+   "k": "16pjgxi",
+   "en": "disable_strategic_redeployment_for_controller = 1",
+   "zh": ""
+  },
+  {
+   "k": "8tuvey",
+   "en": "enemy_intel_network_gain_factor_over_occupied_tag",
+   "zh": ""
+  },
+  {
+   "k": "1ogewml",
+   "en": "Modifies enemy intel network strength gain.",
+   "zh": ""
+  },
+  {
+   "k": "1fry06y",
+   "en": "enemy_intel_network_gain_factor_over_occupied_tag = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "10jzsez",
+   "en": "local_building_slots",
+   "zh": ""
+  },
+  {
+   "k": "cyio8n",
+   "en": "Modifies amount of building slots.",
+   "zh": ""
+  },
+  {
+   "k": "10ijip6",
+   "en": "local_building_slots = 2",
+   "zh": ""
+  },
+  {
+   "k": "1ggy2jr",
+   "en": "local_building_slots_factor",
+   "zh": ""
+  },
+  {
+   "k": "usejv1",
+   "en": "Modifies amount of building slots by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1scs7gj",
+   "en": "local_building_slots_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "emkje9",
+   "en": "local_factories",
+   "zh": ""
+  },
+  {
+   "k": "z20t5m",
+   "en": "Modifies amount of available factories in the state.",
+   "zh": ""
+  },
+  {
+   "k": "gm475p",
+   "en": "local_factories = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "j5i49a",
+   "en": "local_factory_energy_consumption",
+   "zh": ""
+  },
+  {
+   "k": "13o50y2",
+   "en": "Modifies amount of energy consumed by factories in the state.",
+   "zh": ""
+  },
+  {
+   "k": "1m3z6vl",
+   "en": "local_factory_energy_consumption = 0.2",
+   "zh": ""
+  },
+  {
+   "k": "x5y2og",
+   "en": "The game file documentation incorrectly labels this as a number with zero decimals, yet the code itself uses a decimal,",
+   "zh": ""
+  },
+  {
+   "k": "1795qfo",
+   "en": "local_factory_energy_consumption_per_infrastructure",
+   "zh": ""
+  },
+  {
+   "k": "158b3n7",
+   "en": "Modifies amount of energy consumed by factories depending on the infrastructure of the state.",
+   "zh": ""
+  },
+  {
+   "k": "1ug2aqv",
+   "en": "local_factory_energy_consumption_per_infrastructure = 0.2",
+   "zh": ""
+  },
+  {
+   "k": "1utcbgy",
+   "en": "local_factory_sabotage",
+   "zh": ""
+  },
+  {
+   "k": "8wyn5y",
+   "en": "Modifies chance for factory sabotage.",
+   "zh": ""
+  },
+  {
+   "k": "xzusn6",
+   "en": "local_factory_sabotage = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "15jznm6",
+   "en": "local_intel_to_enemies",
+   "zh": ""
+  },
+  {
+   "k": "1b4acwn",
+   "en": "Modifies amount of intel to enemies.",
+   "zh": ""
+  },
+  {
+   "k": "1dauiim",
+   "en": "local_intel_to_enemies = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "ead0y8",
+   "en": "local_manpower",
+   "zh": ""
+  },
+  {
+   "k": "144i4jw",
+   "en": "Modifies amount of available manpower.",
+   "zh": ""
+  },
+  {
+   "k": "1utxdao",
+   "en": "local_manpower = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1hglm2y",
+   "en": "local_non_core_manpower",
+   "zh": ""
+  },
+  {
+   "k": "1fxyncn",
+   "en": "Modifies amount of available non-core manpower.",
+   "zh": ""
+  },
+  {
+   "k": "1d5b3lm",
+   "en": "local_non_core_manpower = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "cu4xs8",
+   "en": "local_org_regain",
+   "zh": ""
+  },
+  {
+   "k": "1sk6rij",
+   "en": "Modifies how much organisation is regained after combat.",
+   "zh": ""
+  },
+  {
+   "k": "986f0r",
+   "en": "local_org_regain = -0.3",
+   "zh": ""
+  },
+  {
+   "k": "1mgl9yl",
+   "en": "Can be used in provinces and strategic regions.",
+   "zh": ""
+  },
+  {
+   "k": "1q2q8f",
+   "en": "local_resource_gain_efficiency_per_infrastructure",
+   "zh": ""
+  },
+  {
+   "k": "pz8jwi",
+   "en": "Modifies amount of available resources gained depending on the infrastructure of the state.",
+   "zh": ""
+  },
+  {
+   "k": "ej8223",
+   "en": "local_resource_gain_efficiency_per_infrastructure = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1qrezoi",
+   "en": "local_resources",
+   "zh": ""
+  },
+  {
+   "k": "1huzxwa",
+   "en": "Modifies amount of available resources.",
+   "zh": ""
+  },
+  {
+   "k": "64kj3m",
+   "en": "local_resources = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1vp19om",
+   "en": "local_supplies",
+   "zh": ""
+  },
+  {
+   "k": "pf0b0y",
+   "en": "Modifies amount of available supplies.",
+   "zh": ""
+  },
+  {
+   "k": "w4go3a",
+   "en": "local_supplies = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "qzmo9r",
+   "en": "local_supplies_for_controller",
+   "zh": ""
+  },
+  {
+   "k": "1ehjodq",
+   "en": "Modifies amount of available supplies for the controller.",
+   "zh": ""
+  },
+  {
+   "k": "1mjermj",
+   "en": "local_supplies_for_controller = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1kbqhk5",
+   "en": "local_supply_impact_factor",
+   "zh": ""
+  },
+  {
+   "k": "u1ej6n",
+   "en": "Modifies the impact that the state's local supplies have.",
+   "zh": ""
+  },
+  {
+   "k": "1p3k09d",
+   "en": "local_supply_impact_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "hysvtz",
+   "en": "local_non_core_supply_impact_factor",
+   "zh": ""
+  },
+  {
+   "k": "wpcn1t",
+   "en": "Modifies the impact that the state's local supplies have if the state is not cored by the controller of provinces within.",
+   "zh": ""
+  },
+  {
+   "k": "1pe8upv",
+   "en": "local_non_core_supply_impact_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "18wlrmg",
+   "en": "mobilization_speed",
+   "zh": ""
+  },
+  {
+   "k": "1ci3mtv",
+   "en": "Modifies the mobilisation speed.",
+   "zh": ""
+  },
+  {
+   "k": "ajmc6w",
+   "en": "mobilization_speed = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "t8npoa",
+   "en": "non_core_manpower",
+   "zh": ""
+  },
+  {
+   "k": "sw53eu",
+   "en": "Modifies the amount of recruited non-core manpower.",
+   "zh": ""
+  },
+  {
+   "k": "4zh6bu",
+   "en": "non_core_manpower = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1ac6q6b",
+   "en": "max_fuel_building",
+   "zh": ""
+  },
+  {
+   "k": "1olg28c",
+   "en": "Modifies the amount of fuel capacity, in thousands, given to the state controller from the building.",
+   "zh": ""
+  },
+  {
+   "k": "12qm1q",
+   "en": "max_fuel_building = 1500",
+   "zh": ""
+  },
+  {
+   "k": "1o5y5dj",
+   "en": "Does not have to be in a building.",
+   "zh": ""
+  },
+  {
+   "k": "15xaoc5",
+   "en": "recruitable_population",
+   "zh": ""
+  },
+  {
+   "k": "1m5dd4v",
+   "en": "Modifies the amount of recruited manpower.",
+   "zh": ""
+  },
+  {
+   "k": "7t5aw1",
+   "en": "recruitable_population = 0.03",
+   "zh": ""
+  },
+  {
+   "k": "1kys8mx",
+   "en": "recruitable_population_factor",
+   "zh": ""
+  },
+  {
+   "k": "mlvzg5",
+   "en": "Modifies the amount of recruited manpower by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1d9ubdx",
+   "en": "recruitable_population_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1asj1ro",
+   "en": "resistance_damage_to_garrison",
+   "zh": ""
+  },
+  {
+   "k": "ulp6p6",
+   "en": "Modifies the amount of resistance damage to the garrison.",
+   "zh": ""
+  },
+  {
+   "k": "1vezgj8",
+   "en": "resistance_damage_to_garrison = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "2oisn9",
+   "en": "resistance_decay",
+   "zh": ""
+  },
+  {
+   "k": "1oz74nj",
+   "en": "Modifies the speed of resistance decay.",
+   "zh": ""
+  },
+  {
+   "k": "1q3h0mp",
+   "en": "resistance_decay = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "19bcynb",
+   "en": "resistance_garrison_penetration_chance",
+   "zh": ""
+  },
+  {
+   "k": "1q5uzf5",
+   "en": "Modifies the chance for the garrison to be penetrated.",
+   "zh": ""
+  },
+  {
+   "k": "xro0qr",
+   "en": "resistance_garrison_penetration_chance = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1lbxc8e",
+   "en": "resistance_growth",
+   "zh": ""
+  },
+  {
+   "k": "44yldv",
+   "en": "Modifies the speed of the resistance growth.",
+   "zh": ""
+  },
+  {
+   "k": "upu04e",
+   "en": "resistance_growth = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "dakojd",
+   "en": "Modifies the target of the resistance growth.",
+   "zh": ""
+  },
+  {
+   "k": "19u3x74",
+   "en": "resistance_target = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "nynxot",
+   "en": "starting_compliance",
+   "zh": ""
+  },
+  {
+   "k": "a99xfd",
+   "en": "Modifies the base compliance value.",
+   "zh": ""
+  },
+  {
+   "k": "12xvna1",
+   "en": "starting_compliance = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "10zhg50",
+   "en": "state_bunker_max_level_terrain_limit",
+   "zh": ""
+  },
+  {
+   "k": "3luokl",
+   "en": "Modifies the amount of available bunker building slots in the state.",
+   "zh": ""
+  },
+  {
+   "k": "dk5m99",
+   "en": "state_bunker_max_level_terrain_limit = 6",
+   "zh": ""
+  },
+  {
+   "k": "1tbunec",
+   "en": "state_coastal_bunker_max_level_terrain_limit",
+   "zh": ""
+  },
+  {
+   "k": "6ekbwy",
+   "en": "Modifies the amount of available coastal bunker building slots in the state.",
+   "zh": ""
+  },
+  {
+   "k": "rhkyr1",
+   "en": "state_coastal_bunker_max_level_terrain_limit = 6",
+   "zh": ""
+  },
+  {
+   "k": "6gpwcr",
+   "en": "state_production_speed_<building>_factor",
+   "zh": ""
+  }
+ ]
+}

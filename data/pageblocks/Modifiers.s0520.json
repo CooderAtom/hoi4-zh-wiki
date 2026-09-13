@@ -1,0 +1,656 @@
+{
+ "page": "Modifiers",
+ "from": 520,
+ "items": [
+  {
+   "k": "1lcvxuz",
+   "en": "equipment_upgrade_xp_cost",
+   "zh": ""
+  },
+  {
+   "k": "j5kd7m",
+   "en": "Changes the experience cost to upgrade military equipment.",
+   "zh": ""
+  },
+  {
+   "k": "19lqa01",
+   "en": "equipment_upgrade_xp_cost = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "gj4zga",
+   "en": "license_purchase_cost",
+   "zh": ""
+  },
+  {
+   "k": "81qdu4",
+   "en": "Changes the cost of licensed equipment by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1m01508",
+   "en": "license_purchase_cost = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1msuwtr",
+   "en": "Can be used as a targeted modifier.",
+   "zh": ""
+  },
+  {
+   "k": "pkyez4",
+   "en": "license_purchase_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "1bf9l4y",
+   "en": "license_purchase_cost_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "167b3vi",
+   "en": "Allowed equipment types are anti_tank_eq, artillery_eq, infantry_eq, and light_tank_eq. Can be used as a targeted modifier.",
+   "zh": ""
+  },
+  {
+   "k": "nl9lci",
+   "en": "Allowed categories are air, armor, infantry, and naval. Can be used as a targeted modifier.",
+   "zh": ""
+  },
+  {
+   "k": "1tuxds1",
+   "en": "license_tech_difference_speed",
+   "zh": ""
+  },
+  {
+   "k": "1820fih",
+   "en": "Changes the production penalty of licensed equipment by tech difference by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1v31hx7",
+   "en": "license_tech_difference_speed = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "6lw75n",
+   "en": "Also allows specifying category as license_<category>_tech_difference_speed_factor. Allowed categories are anti_tank_eq, artillery_eq, infantry_eq, and light_tank_eq. That's added in 1.6. Can be used as a targeted modifier.",
+   "zh": ""
+  },
+  {
+   "k": "f8m5x2",
+   "en": "license_production_speed",
+   "zh": ""
+  },
+  {
+   "k": "1t1g177",
+   "en": "Changes the production speed of licensed equipment by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "blmjxo",
+   "en": "license_production_speed = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1w3x9bf",
+   "en": "license_<category>_production_speed_factor",
+   "zh": ""
+  },
+  {
+   "k": "16dg2wh",
+   "en": "license_infantry_eq_production_speed_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1eep979",
+   "en": "Allowed categories are anti_tank_eq, artillery_eq, infantry_eq, and light_tank_eq. Can be used as a targeted modifier.",
+   "zh": ""
+  },
+  {
+   "k": "19h2fqw",
+   "en": "production_cost_max_<ship type>",
+   "zh": ""
+  },
+  {
+   "k": "c0ts1",
+   "en": "Modifies the maximum cost of the ship type.",
+   "zh": ""
+  },
+  {
+   "k": "1pvqr8n",
+   "en": "production_cost_max_ship_hull_light = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "m5uav9",
+   "en": "Allowed ship types in base game: convoy, ship_hull_carrier, ship_hull_cruiser, ship_hull_heavy, ship_hull_light, ship_hull_submarine",
+   "zh": ""
+  },
+  {
+   "k": "u96h7h",
+   "en": "production_factory_efficiency_gain_factor",
+   "zh": ""
+  },
+  {
+   "k": "11or6j8",
+   "en": "Production efficiency growth.",
+   "zh": ""
+  },
+  {
+   "k": "10z6v1r",
+   "en": "production_factory_efficiency_gain_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "csad2s",
+   "en": "production_factory_max_efficiency_factor",
+   "zh": ""
+  },
+  {
+   "k": "5ve4gz",
+   "en": "Production efficiency cap.",
+   "zh": ""
+  },
+  {
+   "k": "1lvxaha",
+   "en": "production_factory_max_efficiency_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "cit5wu",
+   "en": "production_factory_start_efficiency_factor",
+   "zh": ""
+  },
+  {
+   "k": "5qvnsm",
+   "en": "Production efficiency base.",
+   "zh": ""
+  },
+  {
+   "k": "12dyj44",
+   "en": "production_factory_start_efficiency_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1yu8urt",
+   "en": "These modifiers get added to the base value. So rather than a percent to the base value, they are to be understood as relative to full efficiency.",
+   "zh": ""
+  },
+  {
+   "k": "ib7npo",
+   "en": "line_change_production_efficiency_factor",
+   "zh": ""
+  },
+  {
+   "k": "1tzrgyx",
+   "en": "Production efficiency retention.",
+   "zh": ""
+  },
+  {
+   "k": "3o8i30",
+   "en": "line_change_production_efficiency_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1a2jc29",
+   "en": "production_lack_of_resource_penalty_factor",
+   "zh": ""
+  },
+  {
+   "k": "3e2n01",
+   "en": "Lack of resources penalty.",
+   "zh": ""
+  },
+  {
+   "k": "zk2vor",
+   "en": "production_lack_of_resource_penalty_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1xkydc7",
+   "en": "floating_harbor_duration",
+   "zh": ""
+  },
+  {
+   "k": "1eexzr3",
+   "en": "Modifies the duration of floating harbours.",
+   "zh": ""
+  },
+  {
+   "k": "jscmm6",
+   "en": "floating_harbor_duration = 2",
+   "zh": ""
+  },
+  {
+   "k": "4fj5yg",
+   "en": "floating_harbor_range",
+   "zh": ""
+  },
+  {
+   "k": "bxmh4e",
+   "en": "Modifies the range of floating harbours.",
+   "zh": ""
+  },
+  {
+   "k": "126fkq5",
+   "en": "floating_harbor_range = 2",
+   "zh": ""
+  },
+  {
+   "k": "1i86m0o",
+   "en": "floating_harbor_supply",
+   "zh": ""
+  },
+  {
+   "k": "1lqx8r0",
+   "en": "Modifies the supply of floating harbours.",
+   "zh": ""
+  },
+  {
+   "k": "5quabh",
+   "en": "floating_harbor_supply = 2",
+   "zh": ""
+  },
+  {
+   "k": "bvfjwv",
+   "en": "railway_gun_bombardment_factor",
+   "zh": ""
+  },
+  {
+   "k": "158zod2",
+   "en": "Modifies the bombardment of railway guns.",
+   "zh": ""
+  },
+  {
+   "k": "8zm4kr",
+   "en": "railway_gun_bombardment_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "taot4z",
+   "en": "Fuel and supply",
+   "zh": ""
+  },
+  {
+   "k": "14bqxhl",
+   "en": "base_fuel_gain",
+   "zh": ""
+  },
+  {
+   "k": "7v5jzo",
+   "en": "Changes base daily gain of fuel.",
+   "zh": ""
+  },
+  {
+   "k": "mx93bx",
+   "en": "base_fuel_gain = 100",
+   "zh": ""
+  },
+  {
+   "k": "1fjth6t",
+   "en": "base_fuel_gain_factor",
+   "zh": ""
+  },
+  {
+   "k": "1rwqlhi",
+   "en": "Changes base daily gain of fuel by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "dhf42f",
+   "en": "base_fuel_gain_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "16v01z",
+   "en": "fuel_cost",
+   "zh": ""
+  },
+  {
+   "k": "8vyxwf",
+   "en": "Changes hourly cost of fuel.",
+   "zh": ""
+  },
+  {
+   "k": "ow409v",
+   "en": "fuel_cost = 100",
+   "zh": ""
+  },
+  {
+   "k": "1afzo09",
+   "en": "fuel_gain",
+   "zh": ""
+  },
+  {
+   "k": "1mika75",
+   "en": "Changes daily gain of fuel from our controlled oil.",
+   "zh": ""
+  },
+  {
+   "k": "971jkt",
+   "en": "fuel_gain = 100",
+   "zh": ""
+  },
+  {
+   "k": "wjpyth",
+   "en": "fuel_gain_factor",
+   "zh": ""
+  },
+  {
+   "k": "14menrn",
+   "en": "Changes daily gain of fuel from our controlled oil by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1czzxhd",
+   "en": "fuel_gain_factor = 100",
+   "zh": ""
+  },
+  {
+   "k": "pginlp",
+   "en": "fuel_gain_from_states",
+   "zh": ""
+  },
+  {
+   "k": "gj1zmp",
+   "en": "Changes daily gain of fuel.",
+   "zh": ""
+  },
+  {
+   "k": "6ycci1",
+   "en": "fuel_gain_from_states = 100",
+   "zh": ""
+  },
+  {
+   "k": "a8vyn7",
+   "en": "Refineries use this modifier.",
+   "zh": ""
+  },
+  {
+   "k": "1kddfxl",
+   "en": "fuel_gain_factor_from_states",
+   "zh": ""
+  },
+  {
+   "k": "1y1891v",
+   "en": "Changes daily gain of fuel by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "fygjb7",
+   "en": "fuel_gain_factor_from_states = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "b48ez6",
+   "en": "Modifies fuel gain from refineries.",
+   "zh": ""
+  },
+  {
+   "k": "fy05xu",
+   "en": "max_fuel",
+   "zh": ""
+  },
+  {
+   "k": "16rw60a",
+   "en": "Changes maximum amount of fuel you can have.",
+   "zh": ""
+  },
+  {
+   "k": "1loxbye",
+   "en": "max_fuel = 100",
+   "zh": ""
+  },
+  {
+   "k": "1933nug",
+   "en": "max_fuel_factor",
+   "zh": ""
+  },
+  {
+   "k": "gi4fso",
+   "en": "Changes maximum amount of fuel you can have by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "5bcavs",
+   "en": "max_fuel_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "s22qrw",
+   "en": "army_fuel_capacity_factor",
+   "zh": ""
+  },
+  {
+   "k": "cj22va",
+   "en": "Modifies how much fuel a single unit can store before running out.",
+   "zh": ""
+  },
+  {
+   "k": "njuf2k",
+   "en": "army_fuel_capacity_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1okty75",
+   "en": "army_fuel_consumption_factor",
+   "zh": ""
+  },
+  {
+   "k": "1x1l4y7",
+   "en": "Modifies the rate at which the army consumes fuel.",
+   "zh": ""
+  },
+  {
+   "k": "1kv3qh9",
+   "en": "army_fuel_consumption_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1ro6kc6",
+   "en": "air_fuel_consumption_factor",
+   "zh": ""
+  },
+  {
+   "k": "h99af1",
+   "en": "Modifies the rate at which the airforce consumes fuel.",
+   "zh": ""
+  },
+  {
+   "k": "1igknl8",
+   "en": "air_fuel_consumption_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1h07uts",
+   "en": "navy_fuel_consumption_factor",
+   "zh": ""
+  },
+  {
+   "k": "hs19qs",
+   "en": "Modifies the rate at which the navy consumes fuel.",
+   "zh": ""
+  },
+  {
+   "k": "2wcbbk",
+   "en": "navy_fuel_consumption_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "i03k24",
+   "en": "supply_factor",
+   "zh": ""
+  },
+  {
+   "k": "1fguove",
+   "en": "Modifies the total amount of supply the military has.",
+   "zh": ""
+  },
+  {
+   "k": "1tomr64",
+   "en": "supply_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "vckg83",
+   "en": "supply_combat_penalties_on_core_factor",
+   "zh": ""
+  },
+  {
+   "k": "nmrwn0",
+   "en": "Modifies the penalty given by low supply when the army is on a core state.",
+   "zh": ""
+  },
+  {
+   "k": "gkzdlr",
+   "en": "supply_combat_penalties_on_core_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "15f4ynw",
+   "en": "supply_consumption_factor",
+   "zh": ""
+  },
+  {
+   "k": "100bt65",
+   "en": "Modifies the rate at which army consumes supply.",
+   "zh": ""
+  },
+  {
+   "k": "16l2o4c",
+   "en": "supply_consumption_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1xb9he7",
+   "en": "no_supply_grace",
+   "zh": ""
+  },
+  {
+   "k": "1x4u0a2",
+   "en": "Modifies the grace period for units without supply.",
+   "zh": ""
+  },
+  {
+   "k": "l5mh2h",
+   "en": "no_supply_grace = 120",
+   "zh": ""
+  },
+  {
+   "k": "a4gwgt",
+   "en": "out_of_supply_factor",
+   "zh": ""
+  },
+  {
+   "k": "qnqyie",
+   "en": "Reduces the penalty that units take when they run out of supplies.",
+   "zh": ""
+  },
+  {
+   "k": "1ley8ja",
+   "en": "out_of_supply_factor = 0.2",
+   "zh": ""
+  },
+  {
+   "k": "ewgojn",
+   "en": "Modifies the army's attrition.",
+   "zh": ""
+  },
+  {
+   "k": "ltgnif",
+   "en": "attrition = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "i7ep8v",
+   "en": "Can also be used in states or provinces.",
+   "zh": ""
+  },
+  {
+   "k": "1l0u2vr",
+   "en": "unit_upkeep_attrition_factor",
+   "zh": ""
+  },
+  {
+   "k": "uvf5jk",
+   "en": "Modifies the unit upkeep.",
+   "zh": ""
+  },
+  {
+   "k": "e7ry6r",
+   "en": "unit_upkeep_attrition_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "9tnh0g",
+   "en": "naval_attrition",
+   "zh": ""
+  },
+  {
+   "k": "1nw76y7",
+   "en": "Modifies attrition suffered by naval units.",
+   "zh": ""
+  },
+  {
+   "k": "15dapxc",
+   "en": "naval_attrition = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "4xxhr8",
+   "en": "heat_attrition",
+   "zh": ""
+  },
+  {
+   "k": "1q4f2j0",
+   "en": "Changes the attrition due to heat.",
+   "zh": ""
+  },
+  {
+   "k": "110f732",
+   "en": "heat_attrition = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "xlirsq",
+   "en": "heat_attrition_factor",
+   "zh": ""
+  },
+  {
+   "k": "j7sz26",
+   "en": "Changes the attrition due to heat by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1wlycew",
+   "en": "heat_attrition_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1fj26jj",
+   "en": "winter_attrition",
+   "zh": ""
+  },
+  {
+   "k": "uair5p",
+   "en": "Changes the attrition due to winter.",
+   "zh": ""
+  },
+  {
+   "k": "f41dl9",
+   "en": "winter_attrition = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "3x7zb7",
+   "en": "winter_attrition_factor",
+   "zh": ""
+  },
+  {
+   "k": "6bf2rj",
+   "en": "Changes the attrition due to winter by a percentage.",
+   "zh": ""
+  }
+ ]
+}

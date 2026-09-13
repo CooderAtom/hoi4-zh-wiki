@@ -1,0 +1,557 @@
+{
+ "batch": 918,
+ "pages": [
+  "Map modding"
+ ],
+ "chars": 14715,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "rwhoww",
+   "en": "In the Color Table menu, select \"Load\" and select the .ACT file saved from the corresponding base game file, then click OK."
+  },
+  {
+   "k": "ie6nox",
+   "en": "Go to \"File\" menu and click \"Save a copy\"."
+  },
+  {
+   "k": "z2t9d",
+   "en": "In the save dialog, select BMP."
+  },
+  {
+   "k": "139qv3v",
+   "en": "In the settings dialog that comes up, select \"Windows\" in format, \"8 bits\" in depth and leave the boxes unchecked, then click OK."
+  },
+  {
+   "k": "12j7gpg",
+   "en": "In newer versions of GIMP, this can be done with the \"use custom palette\" option in the Indexed mode window:"
+  },
+  {
+   "k": "1f7vgyc",
+   "en": "Open the corresponding base game file in GIMP."
+  },
+  {
+   "k": "gs8108",
+   "en": "Open the broken file in GIMP, keeping both files open."
+  },
+  {
+   "k": "glwn5y",
+   "en": "Go to Image -> Mode and change it to RGB, if it isn't already."
+  },
+  {
+   "k": "1en2g1f",
+   "en": "Go to Image -> Mode and select Indexed."
+  },
+  {
+   "k": "25u93c",
+   "en": "Select the \"Use Custom Palette\" option and click on the icon below it."
+  },
+  {
+   "k": "1dq1a7j",
+   "en": "In the dropdown list, select \"Colormap of Image#(number)...\", which is the base game file."
+  },
+  {
+   "k": "g1hgmi",
+   "en": "Click convert."
+  },
+  {
+   "k": "syp1g5",
+   "en": "Export the opened file, disabling the option to write color space information."
+  },
+  {
+   "k": "l96p68",
+   "en": "Coordinate system"
+  },
+  {
+   "k": "1d0og95",
+   "en": "Since the map is a 3D object, there are X, Y, and Z positions using a typical Cartesian coordinate system, which are commonly referred to in a multitude of map files. For disambiguation, these are the coordinates that the game uses:"
+  },
+  {
+   "k": "1sv2wcg",
+   "en": "A single X coordinate is equivalent to a single pixel within the provinces bitmap horizontally. The horizontal edges of the map are at 0, and it goes left-to-right (or west-to-east). Note that the map loops horizontally."
+  },
+  {
+   "k": "1pznxcm",
+   "en": "A single Y coordinate is equivalent to a value of 10 (in decimal) within the heightmap. A Y position of 0 is equivalent to pure black on the heightmap, while a Y position of 25.5 is equivalent to pure white on the heightmap. The water level, for example, is located at 9.5 by the Y position⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1fmbaea",
+   "en": "A single Z coordinate is equivalent to a single pixel within the provinces bitmap vertically. The lower (or southern) edge of the map is at 0, and it goes down-to-up (or south-to-north). ⟦0⟧: the position at 0 by the axis would be at the top and it going up-to-down. When wanting to know the Z coordinate, it can be useful to change the coordinate system that the editor uses (if possible) or temporarily flip the image upside down.",
+   "frags": 1
+  },
+  {
+   "k": "1j9ihd8",
+   "en": "Note that most image editors have it the other way around"
+  },
+  {
+   "k": "10pjk1m",
+   "en": "State modding"
+  },
+  {
+   "k": "1bcllzp",
+   "en": "Main article: State modding"
+  },
+  {
+   "k": "w7ud",
+   "en": "States are defined within ⟦0⟧ files, with information about the states: provinces containing them, the state category, the starting buildings and owner. The nudger works for editing states, however, there are several issues:",
+   "frags": 1
+  },
+  {
+   "k": "zj6xfi",
+   "en": "/Hearts of Iron IV/history/states/*.txt"
+  },
+  {
+   "k": "1u2ld4p",
+   "en": "If a state's name contains any special character requiring more than one byte to represent in UTF-8 (e.g. any letters outside of the English alphabet), the nudger will crash when trying to create one."
+  },
+  {
+   "k": "1xqk5so",
+   "en": "Every quote within the state's history file will get removed if a nudger edits it. This can break DLC checks (e.g. ⟦0⟧), present in base game Turkish or Chinese states.",
+   "frags": 1
+  },
+  {
+   "k": "amd4lj",
+   "en": "has_dlc = \"Waking the Tiger\""
+  },
+  {
+   "k": "17qfblt",
+   "en": "Additionally, note that the nudger dynamically updates strategic regions with states: a newly-created state will not have its provinces assigned to strategic regions and that will have to be done via the nudger. Since strategic regions are assigned for each province individually, deleting the strategic region outputs within the user directory's ⟦0⟧ folder may work, as long as the strategic region borders don't need to be adjusted, as all provinces of one state must be within the same strategic region.",
+   "frags": 1
+  },
+  {
+   "k": "1g2avij",
+   "en": "/Hearts of Iron IV/map/strategicregions/"
+  },
+  {
+   "k": "1v2pifw",
+   "en": "Strategic regions"
+  },
+  {
+   "k": "81jxf2",
+   "en": "Main article: Strategic region modding"
+  },
+  {
+   "k": "80g7re",
+   "en": "⟦0⟧ are defined within ⟦1⟧ files, where provinces are added to them individually. A province ⟦2⟧ have a strategic region. Otherwise, many interactions with that province can cause a game crash, sometimes appearing before the game can launch. The strategic regions are used for ships and airforce as regions where they can be assigned, but they also serve for assigning weather. A naval strategic region may also have ⟦3⟧ assigned with ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "az4qad",
+   "en": "/Hearts of Iron IV/map/strategicregions/*.txt"
+  },
+  {
+   "k": "1io4bhk",
+   "en": "must"
+  },
+  {
+   "k": "gred46",
+   "en": "naval terrain"
+  },
+  {
+   "k": "1r4mbir",
+   "en": "naval_terrain = terrain_name"
+  },
+  {
+   "k": "sk09wz",
+   "en": "Weather"
+  },
+  {
+   "k": "1d7xn64",
+   "en": "See also: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "8sbbcs",
+   "en": "Each strategic region has weather defined in periods, as"
+  },
+  {
+   "k": "105u0q6",
+   "en": "⟦0⟧ decides in which period the weather applies: both dates within the definition of the period are included within the period; the first number is the day, the second is the month; the count for days and months starts from 0 rather than 1.",
+   "frags": 1
+  },
+  {
+   "k": "1cinps",
+   "en": "between = { ... }"
+  },
+  {
+   "k": "11ah0ep",
+   "en": "⟦0⟧ assign the maximum and minimum temperatures for the period.",
+   "frags": 1
+  },
+  {
+   "k": "ak49xi",
+   "en": "temperature = { ... }"
+  },
+  {
+   "k": "1srzr02",
+   "en": "Most of the lines decide the chance for each province in the strategic region to have that weather type, assuming that the chance ⟦0⟧ evaluates as false. Multiple weather types can happen at the same time, and weather is calculated daily. ⟦1⟧ decides the visual appearance of snow in the region. Usually set to 0.1 in the particularly snowy periods such as winter in Northern Scandinavia.",
+   "frags": 2
+  },
+  {
+   "k": "dnl30e",
+   "en": "no_phenomenon"
+  },
+  {
+   "k": "dt6le2",
+   "en": "min_snow_level"
+  },
+  {
+   "k": "qyfqur",
+   "en": "Additionally, the ⟦0⟧ file decides the ⟦1⟧ of weather objects such as the clouds. A single entry in the file has the following layout:",
+   "frags": 2
+  },
+  {
+   "k": "1ys6k6r",
+   "en": "/Hearts of Iron IV/map/weatherpositions.txt"
+  },
+  {
+   "k": "14vfpje",
+   "en": "position"
+  },
+  {
+   "k": "tv0lzk",
+   "en": "For example, ⟦0⟧ means that the strategic region with the ID of 1 has a small weather object in the specified position. The size only has 2 values: small and large. Multiple definitions or none at all may be present for the same strategic region, however, there should be at least one definition in the file for both large and small objects to avoid a game crash.",
+   "frags": 1
+  },
+  {
+   "k": "ja9bu2",
+   "en": "1;2781.24;9.90;1571.49;small"
+  },
+  {
+   "k": "hhga62",
+   "en": "Weather is best generated with nudger in the strategic region menu."
+  },
+  {
+   "k": "jv3t7m",
+   "en": "Provinces"
+  },
+  {
+   "k": "uad2jl",
+   "en": "There are two files related to the province definitions:"
+  },
+  {
+   "k": "17w6xg5",
+   "en": "⟦0⟧, which decides how the provinces are placed on the map.",
+   "frags": 1
+  },
+  {
+   "k": "13cqcom",
+   "en": "⟦0⟧, which decides the exact details about the province: ID, RGB value to link to the map, coastal status, terrain.",
+   "frags": 1
+  },
+  {
+   "k": "1wifg52",
+   "en": "The provinces bitmap is saved as a 24-bit RGB file. Saving in 32-bit will result in a 'We do not support bitdepth at 32' error, resulting in a crash on startup. The province bitmap being saved wrong (Such as the prior 32 bitdepth or being the wrong format renamed to BMP) will result in 'X4008: floating point division by zero' errors. Due to proportions of other map files, ⟦0⟧. Due to the engine limitations, the total area of the file in pixels cannot exceed 13 238 272, approximately.",
+   "frags": 1
+  },
+  {
+   "k": "fo8eke",
+   "en": "both length and width have to be a multiple of 256"
+  },
+  {
+   "k": "148g42s",
+   "en": "An unused colour for the bitmap can be picked by using the database menu within the nudger. However, considering the sheer amount of possible colours, randomising a colour using a site such as random.org can also be used, with a chance of overlap being extremely low. If the province definitions are incomplete or incorrect, the game creates a 'corrected' copy of this file in the ⟦0⟧ to replace the CSV table for province definitions, with any incomplete or missing province definitions filled in, as ⟦1⟧ and other copies of the file in that folder. It might be necessary to delete this copy after making changes to the original file.⟦2⟧ Both of these can be used to speed up province creation by painting random colours on the map, then letting the game generate the CSV table which'll be adjusted manually once ported over to the mod.",
+   "frags": 3
+  },
+  {
+   "k": "3tohp",
+   "en": "user directory"
+  },
+  {
+   "k": "ufv28a",
+   "en": "/Hearts of Iron IV/map/definition.csv.fixed"
+  },
+  {
+   "k": "1xepy2m",
+   "en": "The previously-mentioned corrected copy of the province definition within the user directory would contain every province definition from the mod's definition.csv alongside every colour that's present on the bitmap but doesn't have a definition, which'll have a default entry as a land province with no continent and unknown terrain. This can be used with an image editor to locate any unintended colours in the provinces.bmp file. These can be the result of picking a wrong colour or of anti-aliasing being turned on when editing the map. To locate them, one can choose the colour that the newly-generated province has and paint it over a spot that's safe to paint (Such as a large sea province or a corner of the map), and then use the colour select tool with 0% tolerance/0 threshold (name for the option depends on the image editor) in order to select it. In image editors, this is commonly either a separate option (Such as in GIMP) or an option within the magic wand tool for it to have a global flood mode (Such as in Paint.net). After having located the province in question, the question of what to do with it is left up to the modder: it can be made into a separate province entirely (and so should be assigned to a state and strategic region), possibly altering its borders to fit better, or it could be removed entirely from the provinces.bmp file. In either of these cases, the spot that has been made in order to find the province should be reverted to its initial state."
+  },
+  {
+   "k": "71azt1",
+   "en": "An entry within the ⟦0⟧ follows the specified format:",
+   "frags": 1
+  },
+  {
+   "k": "1q6ykv6",
+   "en": "Example definition of these include the following:"
+  },
+  {
+   "k": "1yf7b6g",
+   "en": "The RGB values for each province should be unique in order for them to be identifiable on the bitmap and are integers on the scale from 0 to 255. ⟦0⟧ must be an integer that represents a continent. For sea provinces, it must be kept at 0, while for lakes it ⟦1⟧ be kept at 0. ⟦2⟧ is defined for each province individually here. This ⟦3⟧ change the appearance of the province, just the terrain it's assigned, which changes naval or land combat. For lake provinces, terrain must be 'lakes' while for sea provinces it must be 'ocean'. In here, the coastal status is used for both seas and land provinces. For land provinces, it means that a border with a sea province (not a lake), and for sea provinces it means that a border with a land province. This is used for determining, for example, where naval bases can be built and where they can't. If bitmap and province definition disagree on whether or not a province is coastal, such as if a land province is specified as non-coastal but still borders sea provinces or vise-versa, bitmap's results will be preferred. This does mean that there is no reason to specify the coastal status within the province definition, and it remains a leftover from before 1.11.",
+   "frags": 4
+  },
+  {
+   "k": "1iivwz4",
+   "en": "The continent"
+  },
+  {
+   "k": "1njxwg6",
+   "en": "may"
+  },
+  {
+   "k": "1am2g8e",
+   "en": "Terrain"
+  },
+  {
+   "k": "beqvmp",
+   "en": "does not"
+  },
+  {
+   "k": "sr9e4j",
+   "en": "⟦0⟧. While a gap in province IDs will not necessarily crash the game, it will instead create a different problem: each province after the gap will take on the properties of the next province by ID other than the colour on the bitmap. For example, if province 23 doesn't exist, province 24 will take on the terrain, type (land|sea|lake), coastal status, and continent of province 25, which will copy from province 26 in turn and so on. This can cause highly unintended behaviour if not crashes, so it's best to not have any province gaps: if a province is to be deleted, another one must fill the gap, such as the last province by ID.",
+   "frags": 1
+  },
+  {
+   "k": "14swo0n",
+   "en": "Province IDs should go in order"
+  },
+  {
+   "k": "hl1vav",
+   "en": "Hearts of Iron IV has a limit on province displaying. No more than 65536 different province borders can be displayed at the same time before an integer overflow causes the in-game engine to stop displaying any additional ones. In-game, this is usually hit at about 21000 provinces. In other words, ⟦0⟧, with the base game's roughly 13000-14000 provinces being an amount to aim for. More can cause the game to run more slowly and unstably. If a province borders another province several times in a disjointed manner, such as in the attached image, each one counts as a separate border.",
+   "frags": 1
+  },
+  {
+   "k": "1thqek3",
+   "en": "province amount should be kept low"
+  },
+  {
+   "k": "y6h0nv",
+   "en": "These disjointed island provinces may also cause a game crash if they're ⟦0⟧ disjoined with large distances between them. This is not anything to worry about with regular provinces, but if two share a colour by accident, this may happen. Province borders are also not drawn between provinces that are on land and those that are in a sea or a lake, according to definition.csv. If there is a particular spot or series of spots where provinces don't work, it might also be caused by a wrong province type assignment in definition.csv.",
+   "frags": 1
+  },
+  {
+   "k": "17uvg9d",
+   "en": "too"
+  },
+  {
+   "k": "ioq27q",
+   "en": "Additionally, these errors are common to encounter:"
+  },
+  {
+   "k": "19zmi5m",
+   "en": "\"Map invalid X crossing. Please fix pixels at coords\": Four provinces share a common corner. The game connects the bottom left and the top right provinces but this situation is confusing to the player and should be avoided. Keep in mind that the map loops horizontally, so this X crossing may be right at the edge of the province bitmap. The coordinate system used in the coordinates is the more traditional left-to-right then down-to-up, rather than ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "9m7g9c",
+   "en": "the one used by the game in other circumstances"
+  },
+  {
+   "k": "j9gccx",
+   "en": "\"Province X has TOO LARGE BOX. Perhaps pixels are spread around the world in provinces.bmp\": The province has a width/height of more than 1/8th of the total map width/height. This might be an indication that two provinces inadvertently share a colour, but it may also be a large province. Large provinces aren't treated stably by the game and should be avoided."
+  },
+  {
+   "k": "fe4093",
+   "en": "\"Province X has only N pixels\": The province consists of no more than NGraphics.MINIMUM_PROVINCE_SIZE_IN_PIXELS (8 by default). This is likely too small to be easily usable by the player."
+  },
+  {
+   "k": "jelo88",
+   "en": "\"Prov 12345 has no continent\": There are two common causes for the error. The province is a land province, yet its continent ID is left at zero. This also includes the auto-generated province definitions, present if a colour is found that isn't present in the definition file. If the province doesn't exist in the regular provinces.csv file, check the \"fixed\" variant created by the game in user directory. The province entry doesn't end with the Windows-style CRLF line ending. If every single province continent is broken, this is a sign that the line break is improper in the file (The Unix LF format is a common cause, as certain programs will change it in .csv files). The exact process of conversion to CRLF depends on the text editor. For example: in Visual Studio Code, this is changed with the bottom bar; in Notepad++, this is changed with the \"EOL conversion\" in the Edit menu; in Sublime Text, this is changed with the \"Line endings\" in the View menu."
+  },
+  {
+   "k": "1erra59",
+   "en": "The province is a land province, yet its continent ID is left at zero. ⟦0⟧, present if a colour is found that isn't present in the definition file. If the province doesn't exist in the regular provinces.csv file, ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "a98bpx",
+   "en": "This also includes the auto-generated province definitions"
+  },
+  {
+   "k": "1wh1o1w",
+   "en": "check the \"fixed\" variant created by the game in user directory."
+  },
+  {
+   "k": "1qj29cs",
+   "en": "The province entry doesn't end with the Windows-style CRLF line ending. If every single province continent is broken, this is a sign that the line break is improper in the file (The Unix LF format is a common cause, as certain programs will change it in .csv files). The exact process of conversion to CRLF depends on the text editor. For example: in Visual Studio Code, this is changed with the bottom bar; in Notepad++, this is changed with the \"EOL conversion\" in the Edit menu; in Sublime Text, this is changed with the \"Line endings\" in the View menu."
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+  "_comment": "Hub/nav entry -> canonical local page. Sourced from the live wiki's redirect table (verified 2026 via action=query&redirects=1). These aliases are NOT in fetched.json's redirectedFrom because the alias titles were never fetched, so without this file the index builder silently drops the entries (07-build.mjs: if (!rec) return '').",
+  "_verifiedAgainst": "https://hoi4.paradoxwikis.com/api.php?action=query&titles=...&redirects=1",
+  "_excluded": {
+    "Encirclement": "upstream page does not exist (verified missing=true), so the original Main Page link is a red link. Dropping it locally is faithful; do not map it to a real page."
+  },
+  "aliases": {
+    "Decisions": "List of Decision lists",
+    "Stability": "Government",
+    "War support": "Government",
+    "Lend-Lease": "Diplomacy",
+    "Attrition": "Attrition and accidents",
+    "Naval units": "Ship",
+    "Air units": "Aircraft designer",
+    "Technology": "Research"
+  }
+}

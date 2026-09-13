@@ -1,0 +1,1106 @@
+{
+ "page": "Console commands",
+ "chunk": 0,
+ "items": [
+  {
+   "k": "oiy1eg",
+   "en": "debug"
+  },
+  {
+   "k": "197fm0e",
+   "en": "/Hearts of Iron IV/localisation/english/"
+  },
+  {
+   "k": "17s9efo",
+   "en": "instantconstruction(ic)"
+  },
+  {
+   "k": "nh41b3",
+   "en": "instantconstruction"
+  },
+  {
+   "k": "712ani",
+   "en": "fow [Province ID]"
+  },
+  {
+   "k": "1ddi8a7",
+   "en": "fow"
+  },
+  {
+   "k": "ymhl4l",
+   "en": "fow 1234"
+  },
+  {
+   "k": "wn700q",
+   "en": "event [<event ID>]"
+  },
+  {
+   "k": "52x4v",
+   "en": "event generic.1"
+  },
+  {
+   "k": "1yj1fof",
+   "en": "event"
+  },
+  {
+   "k": "q2pfk6",
+   "en": "help [command name]"
+  },
+  {
+   "k": "tofc35",
+   "en": "tag [<Country tag>]"
+  },
+  {
+   "k": "d7izej",
+   "en": "event [<event id>] [Target country tag]"
+  },
+  {
+   "k": "8trf0c",
+   "en": "trigger = { ... }"
+  },
+  {
+   "k": "1x3bgk6",
+   "en": "finish_decision [<decision id>] or \"all\""
+  },
+  {
+   "k": "1dbl3wx",
+   "en": "add_ideas [<idea name>]"
+  },
+  {
+   "k": "1j1pq4",
+   "en": "remove_ideas [<idea name>]"
+  },
+  {
+   "k": "1qh47a",
+   "en": "energy_ratio (er) [<ratio>]"
+  },
+  {
+   "k": "1cvucqo",
+   "en": "FI [amount}"
+  },
+  {
+   "k": "1mrgrh5",
+   "en": "mastery [<mastery amount>], [track name]"
+  },
+  {
+   "k": "wat42z",
+   "en": "gain_xp [<amount>]"
+  },
+  {
+   "k": "1uut8jv",
+   "en": "gain_xp [<trait>]"
+  },
+  {
+   "k": "nefwlu",
+   "en": "gainable"
+  },
+  {
+   "k": "19rbhmi",
+   "en": "'Documents\\Paradox Interactive\\Hearts of Iron IV\\settings.txt'"
+  },
+  {
+   "k": "1syevy9",
+   "en": "'Documents\\Paradox Interactive\\Hearts of iron IV\\Save Games'"
+  },
+  {
+   "k": "nxt338",
+   "en": "max_traits=0.000"
+  },
+  {
+   "k": "1dsa5n6",
+   "en": "ANSI"
+  },
+  {
+   "k": "ax3kso",
+   "en": "cp [<amount>]"
+  },
+  {
+   "k": "1k40sgs",
+   "en": "st [<amount>]"
+  },
+  {
+   "k": "hjs3cy",
+   "en": "add_war_support(ws) [<amount>]"
+  },
+  {
+   "k": "1g705d0",
+   "en": "reduce_opinion [<country tag>]"
+  },
+  {
+   "k": "171y65j",
+   "en": "allowtraits"
+  },
+  {
+   "k": "163the9",
+   "en": "add_equipment(ae) [<equipment amount>] [<equipment name>]"
+  },
+  {
+   "k": "6l7zoy",
+   "en": "add_latest_equipment(ale) [<equipment amount>]"
+  },
+  {
+   "k": "16xzpww",
+   "en": "addfunds"
+  },
+  {
+   "k": "1c5r2hk",
+   "en": "addTaskCapacity [number]"
+  },
+  {
+   "k": "1m3ylwr",
+   "en": "\\Hearts of Iron IV\\common\\military_industrial_organization\\organizations\\<your country's tag>.txt"
+  },
+  {
+   "k": "1fnyh3s",
+   "en": "addSize [number]"
+  },
+  {
+   "k": "jsr4h4",
+   "en": "add_cic_bank [number]"
+  },
+  {
+   "k": "sidszf",
+   "en": "whitepeace(wp) [<country tags>]"
+  },
+  {
+   "k": "11whxbh",
+   "en": "teleport(tp)"
+  },
+  {
+   "k": "8jxuy6",
+   "en": "allowdiplo(adiplo,nocb)"
+  },
+  {
+   "k": "1d5ng8e",
+   "en": "debug_crash(crash)"
+  },
+  {
+   "k": "fbq4xa",
+   "en": "instantconstruction (ic)"
+  },
+  {
+   "k": "a3b0m9",
+   "en": "research [<slot id> or \"all\"]"
+  },
+  {
+   "k": "19lswnj",
+   "en": "research_on_icon_click (roic)"
+  },
+  {
+   "k": "wrr9f",
+   "en": "toggle_hidden_techs (tht)"
+  },
+  {
+   "k": "1xfx92g",
+   "en": "sp_breakthrough [<number>] sp_breakthrough [<number> optional <specialisation>] (sp_br)"
+  },
+  {
+   "k": "4oa1o5",
+   "en": "sp_fast"
+  },
+  {
+   "k": "1smqffc",
+   "en": "sp_instant"
+  },
+  {
+   "k": "psu876",
+   "en": "sp_available"
+  },
+  {
+   "k": "1r6d9lr",
+   "en": "sp_unlock_all"
+  },
+  {
+   "k": "hho3ee",
+   "en": "sp_research_all (sp_ra)"
+  },
+  {
+   "k": "t7iuev",
+   "en": "sp_prototype_reward"
+  },
+  {
+   "k": "13qqdu1",
+   "en": "sp_add_scientist sp_add_scientist [<level> (optional)] [<specialisation> (optional)]"
+  },
+  {
+   "k": "18s96hh",
+   "en": "sp_add_scientist 3 nuclear sp_add_scientist 1"
+  },
+  {
+   "k": "130s1fh",
+   "en": "sp_add_mastermind"
+  },
+  {
+   "k": "1571p1x",
+   "en": "sp_set_selected_scientist_level [<level>]"
+  },
+  {
+   "k": "1z0nkko",
+   "en": "sp_add_selected_scientist_trait [<trait>]"
+  },
+  {
+   "k": "ohm38w",
+   "en": "annex [<Target Country Tag> or \"all\"]"
+  },
+  {
+   "k": "12wy2ba",
+   "en": "puppet [<Puppeteer Country Tag>] [<Puppet Target Country Tag>]"
+  },
+  {
+   "k": "1hq4r00",
+   "en": "manpower [amount]"
+  },
+  {
+   "k": "12bl4iz",
+   "en": "add_opinion [<Country tag>]"
+  },
+  {
+   "k": "167p4s4",
+   "en": "add_legitimacy [<Country tag>] [<value>]"
+  },
+  {
+   "k": "1tvx9qh",
+   "en": "observe(spectator)"
+  },
+  {
+   "k": "1p7kgga",
+   "en": "tdebug"
+  },
+  {
+   "k": "hgwbho",
+   "en": "occupationpaint(op)"
+  },
+  {
+   "k": "1buetcl",
+   "en": "op JAP"
+  },
+  {
+   "k": "5d2100",
+   "en": "setowner [<country tag>]"
+  },
+  {
+   "k": "11fqxqc",
+   "en": "setcontroller [<country tag>] [province id]"
+  },
+  {
+   "k": "16hdd49",
+   "en": "xp [<XP amount>]"
+  },
+  {
+   "k": "1w4av5f",
+   "en": "pp(fuhrer_mana,political_power) [PP amount]"
+  },
+  {
+   "k": "5dkzkp",
+   "en": "fuel [<amount>]"
+  },
+  {
+   "k": "1iigiv1",
+   "en": "civilwar [<ideology>] [<target country tag>]"
+  },
+  {
+   "k": "9nv5h7",
+   "en": "add_party_popularity <ideology group> <value>"
+  },
+  {
+   "k": "jtiepp",
+   "en": "set_ruling_party <ideology group>"
+  },
+  {
+   "k": "1demzxd",
+   "en": "Focus.AutoComplete (fa)"
+  },
+  {
+   "k": "edud1x",
+   "en": "Focus.NoChecks"
+  },
+  {
+   "k": "1h8d8vc",
+   "en": "Focus.IgnorePrerequisites"
+  },
+  {
+   "k": "zhpy8g",
+   "en": "freefocuses (ff)"
+  },
+  {
+   "k": "1l6btgx",
+   "en": "Decision.FastRemove"
+  },
+  {
+   "k": "7aepd1",
+   "en": "Decision.NoChecks"
+  },
+  {
+   "k": "i8na9u",
+   "en": "instant_prepare"
+  },
+  {
+   "k": "dczc58",
+   "en": "instanttraining (it)"
+  },
+  {
+   "k": "9ipm83",
+   "en": "nuke [number]"
+  },
+  {
+   "k": "1twj1xg",
+   "en": "ai_accept (yesman)"
+  },
+  {
+   "k": "939uel",
+   "en": "add_core <state_id>"
+  },
+  {
+   "k": "o2fo5x",
+   "en": "Agency.Instant"
+  },
+  {
+   "k": "19xlild",
+   "en": "Agency.InstantSlotUnlock"
+  },
+  {
+   "k": "1pke3i8",
+   "en": "Agency.Autocomplete"
+  },
+  {
+   "k": "1rgs70f",
+   "en": "prevent_operative_detection"
+  },
+  {
+   "k": "qsbegm",
+   "en": "force_operative_detection"
+  },
+  {
+   "k": "14pk4dt",
+   "en": "Operation.instant"
+  },
+  {
+   "k": "1oqzv84",
+   "en": "agency.keepexcessoperatives"
+  },
+  {
+   "k": "mpvs6v",
+   "en": "deleteallunits(delall) [country]"
+  },
+  {
+   "k": "1jexvkj",
+   "en": "deleteallunits SPR"
+  },
+  {
+   "k": "wduhhv",
+   "en": "deleteallunitsbut(delallbut) [country]"
+  },
+  {
+   "k": "1s3478r",
+   "en": "delallbut SPR"
+  },
+  {
+   "k": "1sl8m6i",
+   "en": "add_autonomy [<Target Country Tag>] [num]"
+  },
+  {
+   "k": "1r3jf0z",
+   "en": "add_autonomy PHI -200"
+  },
+  {
+   "k": "n5wk1f",
+   "en": "add_intel [<Country tag 1>] [Country Tag 2] [civilian,army,navy,airforce]=[number] add_intel [<Target Country tag>] [civilian,army,navy,airforce]=[number]"
+  },
+  {
+   "k": "aoaa1n",
+   "en": "add_mines"
+  },
+  {
+   "k": "1nnnde2",
+   "en": "acclimization [<climate type>] [<number>]"
+  },
+  {
+   "k": "1m4d7vz",
+   "en": "debug_smooth"
+  },
+  {
+   "k": "ft7qc5",
+   "en": "guibounds(gui)"
+  },
+  {
+   "k": "dw6d81",
+   "en": "/Hearts of Iron IV/interface/*.gfx"
+  },
+  {
+   "k": "113msog",
+   "en": "set_var [<variable>] [<value>]"
+  },
+  {
+   "k": "ljaixd",
+   "en": "get_var [<variable>]"
+  },
+  {
+   "k": "1ozntik",
+   "en": "list_vars"
+  },
+  {
+   "k": "1yse8yt",
+   "en": "set_country_flag [<Country Flag>]"
+  },
+  {
+   "k": "r77frt",
+   "en": "set_global_flag [<Global Flag>]"
+  },
+  {
+   "k": "ls3e2d",
+   "en": "list_flags"
+  },
+  {
+   "k": "1g4k79z",
+   "en": "fast_forward [<amount of days>], [observer]"
+  },
+  {
+   "k": "s0yps5",
+   "en": "list_hidden_focuses"
+  },
+  {
+   "k": "1gcupcv",
+   "en": "show_focuses"
+  },
+  {
+   "k": "15wd1ue",
+   "en": "trigger [<scripted_trigger_name>]"
+  },
+  {
+   "k": "i563zm",
+   "en": "eval_trigger [<trigger code block>]"
+  },
+  {
+   "k": "12hrqw8",
+   "en": "eval_trigger OR = { has_completed_focus = GER_remilitarize_the_rhineland has_war_support > 0.5 }"
+  },
+  {
+   "k": "15mqbv0",
+   "en": "effect (e) [<scripted_effect_name>]"
+  },
+  {
+   "k": "1dwqw6a",
+   "en": "Executes a scripted effect, within the currently selected scope."
+  },
+  {
+   "k": "wgy8de",
+   "en": "e POL_remove_danzig_effect"
+  },
+  {
+   "k": "nlqq2y",
+   "en": "eval_effect [<effect code block>]"
+  },
+  {
+   "k": "1lqcznr",
+   "en": "eval_effect load_focus_tree = german_focus"
+  },
+  {
+   "k": "11s9rux",
+   "en": "ai [country tag...]"
+  },
+  {
+   "k": "17eutii",
+   "en": "aiview"
+  },
+  {
+   "k": "1193ko9",
+   "en": "human_ai"
+  },
+  {
+   "k": "1nqqycb",
+   "en": "/Hearts of Iron IV/logs/scripted_ai.log"
+  },
+  {
+   "k": "i0z3qn",
+   "en": "set_cosmetic_tag [<country tag>] [<cosmetic tag>]"
+  },
+  {
+   "k": "1k3plj3",
+   "en": "set_cosmetic_tag USA SOV"
+  },
+  {
+   "k": "1br9ah2",
+   "en": "reload [<type>]"
+  },
+  {
+   "k": "1ivt1a2",
+   "en": "/Hearts of Iron IV/interface/"
+  },
+  {
+   "k": "60dhu9",
+   "en": "reloadoob [<Target Country Tag>]"
+  },
+  {
+   "k": "1th1q9b",
+   "en": "reloadinterface"
+  },
+  {
+   "k": "sadata",
+   "en": "reloadtechnologies"
+  },
+  {
+   "k": "15ij3yd",
+   "en": "updateequipments"
+  },
+  {
+   "k": "nyywa1",
+   "en": "updatesubunits"
+  },
+  {
+   "k": "11xpwto",
+   "en": "update_loc [localization tag]"
+  },
+  {
+   "k": "9bb0pd",
+   "en": "error"
+  },
+  {
+   "k": "rc6rlq",
+   "en": "imgui"
+  },
+  {
+   "k": "oykjyn",
+   "en": "imgui show"
+  },
+  {
+   "k": "7j5qq6",
+   "en": "goto_province [province id]"
+  },
+  {
+   "k": "1m4jmm6",
+   "en": "goto_state [state id]"
+  },
+  {
+   "k": "r5d8tg",
+   "en": "province_ids (pid)"
+  },
+  {
+   "k": "1par2g3",
+   "en": "ShowTechBonus"
+  },
+  {
+   "k": "43ljar",
+   "en": "normals"
+  },
+  {
+   "k": "bwr8cl",
+   "en": "rendertype"
+  },
+  {
+   "k": "y5kh5z",
+   "en": "tweakergui"
+  },
+  {
+   "k": "pvbdgk",
+   "en": "time"
+  },
+  {
+   "k": "ez24sv",
+   "en": "reloadfx [Arguments: map/mapname/postfx or *.fx filename]"
+  },
+  {
+   "k": "6lj2ih",
+   "en": "particle_editor"
+  },
+  {
+   "k": "1v9f707",
+   "en": "analyzetheatres (anth)"
+  },
+  {
+   "k": "1k56gei",
+   "en": "massconquer (massc)"
+  },
+  {
+   "k": "1jrhc95",
+   "en": "aircombat (airc) [<scenario name>] [<result name>] [<province id>] [<state id with airbase>] [<state id with airbase>] [<equipment type>] [<equipment type>] [<equipment creator country>] [<equipment creator country>]"
+  },
+  {
+   "k": "17sj67l",
+   "en": "fronts"
+  },
+  {
+   "k": "1st03is",
+   "en": "ai_front_dump (aifrontdump)"
+  },
+  {
+   "k": "qt88nv",
+   "en": "traderoutes"
+  },
+  {
+   "k": "z9saw6",
+   "en": "debug_tactics"
+  },
+  {
+   "k": "1lnsrht",
+   "en": "reloadsupply (relsup)"
+  },
+  {
+   "k": "14u4fnh",
+   "en": "deltat [<speed factor>]"
+  },
+  {
+   "k": "1r2l7rv",
+   "en": "building_health (bhealth) [<building type>] [<state or prov id>] [<building level>] [<health to add>]"
+  },
+  {
+   "k": "1364sua",
+   "en": "nomapicons"
+  },
+  {
+   "k": "f8zxnv",
+   "en": "nopausetext"
+  },
+  {
+   "k": "1pwf14h",
+   "en": "nextsong"
+  },
+  {
+   "k": "1b6ves8",
+   "en": "combatsound"
+  },
+  {
+   "k": "te8s85",
+   "en": "morehumans (humans) [num]"
+  },
+  {
+   "k": "1hc62f6",
+   "en": "window (wnd) [Arguments: open/close] [window gui name]"
+  },
+  {
+   "k": "v149x4",
+   "en": "poll"
+  },
+  {
+   "k": "vzfwi1",
+   "en": "pause_in_hours"
+  },
+  {
+   "k": "fcgbtq",
+   "en": "winwars"
+  },
+  {
+   "k": "1rflsp4",
+   "en": "testevent [<Event ID>] [<Character ID>]"
+  },
+  {
+   "k": "1jnvbj5",
+   "en": "resign"
+  },
+  {
+   "k": "y4wtfh",
+   "en": "add_interest [<Country tag>]"
+  },
+  {
+   "k": "16jmrkq",
+   "en": "remove_interest [<Country tag>]"
+  },
+  {
+   "k": "4n99f",
+   "en": "add_diplo"
+  },
+  {
+   "k": "52nyxd",
+   "en": "PrintSynchStuff"
+  },
+  {
+   "k": "1mynad7",
+   "en": "SetRandomCount"
+  },
+  {
+   "k": "1b9admb",
+   "en": "ai_invasion"
+  },
+  {
+   "k": "166pqg9",
+   "en": "ai_pp_log"
+  },
+  {
+   "k": "1m5tgpn",
+   "en": "ai_idea_desire_log"
+  },
+  {
+   "k": "ef62em",
+   "en": "ai_force_template"
+  },
+  {
+   "k": "114kw90",
+   "en": "ai_force_equipment"
+  },
+  {
+   "k": "1aslktx",
+   "en": "ai_front_id"
+  },
+  {
+   "k": "mrovwt",
+   "en": "fow (debug_fow) [Province ID]"
+  },
+  {
+   "k": "1jhmbes",
+   "en": "collision (debug_collision)"
+  },
+  {
+   "k": "1b2oe62",
+   "en": "savegame"
+  },
+  {
+   "k": "7mczqo",
+   "en": "savecheck"
+  },
+  {
+   "k": "1k70zhx",
+   "en": "requestgamestate"
+  },
+  {
+   "k": "16cr8oo",
+   "en": "nudge"
+  },
+  {
+   "k": "cnl5yb",
+   "en": "mapmode [Mapmode type (int)]"
+  },
+  {
+   "k": "m934ns",
+   "en": "fullscreen"
+  },
+  {
+   "k": "5yho9n",
+   "en": "prices"
+  },
+  {
+   "k": "2w1uz9",
+   "en": "remove_core [<State ID>] [<Country Tag>]"
+  },
+  {
+   "k": "uf284y",
+   "en": "debug_zoom"
+  },
+  {
+   "k": "90dau2",
+   "en": "debug_types"
+  },
+  {
+   "k": "91gand",
+   "en": "debug_show_event_ID"
+  },
+  {
+   "k": "gl81ub",
+   "en": "debug_commands"
+  },
+  {
+   "k": "1qy2oec",
+   "en": "debug_events"
+  },
+  {
+   "k": "1ycifc2",
+   "en": "debug_dumpevents"
+  },
+  {
+   "k": "1danta2",
+   "en": "debug_diploactions"
+  },
+  {
+   "k": "xcnhyo",
+   "en": "debug_dumpdiploactions"
+  },
+  {
+   "k": "wksnp7",
+   "en": "debug_assert"
+  },
+  {
+   "k": "ygnfs9",
+   "en": "debug_nomouse"
+  },
+  {
+   "k": "ts7vke",
+   "en": "debug_terrain"
+  },
+  {
+   "k": "1keknrm",
+   "en": "debug_cities"
+  },
+  {
+   "k": "tiihzk",
+   "en": "debug_water"
+  },
+  {
+   "k": "uh8g4x",
+   "en": "debug_fronts"
+  },
+  {
+   "k": "15kotqi",
+   "en": "debug_off_front_snap (dbg_fsnap)"
+  },
+  {
+   "k": "11z911o",
+   "en": "debug_borders"
+  },
+  {
+   "k": "fqptqq",
+   "en": "debug_trees"
+  },
+  {
+   "k": "1y1t32e",
+   "en": "debug_rivers"
+  },
+  {
+   "k": "qj4hg1",
+   "en": "debug_postfx"
+  },
+  {
+   "k": "je7jxy",
+   "en": "debug_sky"
+  },
+  {
+   "k": "1j7pzw",
+   "en": "debug_bloom"
+  },
+  {
+   "k": "1n8df74",
+   "en": "debug_tooltip"
+  },
+  {
+   "k": "i5bskb",
+   "en": "debug_nuking"
+  },
+  {
+   "k": "1gdzus6",
+   "en": "flagsoutput [<path>]"
+  },
+  {
+   "k": "yhaox3",
+   "en": "cityreload"
+  },
+  {
+   "k": "jjn9g7",
+   "en": "version"
+  },
+  {
+   "k": "46f6ul",
+   "en": "debug_nogui"
+  },
+  {
+   "k": "1g8l0ej",
+   "en": "debug_volume [<Volume Delta>]"
+  },
+  {
+   "k": "cf00pt",
+   "en": "debug_lockcamera"
+  },
+  {
+   "k": "ou8cc",
+   "en": "debug_lines"
+  },
+  {
+   "k": "lpr1wq",
+   "en": "debug_entities"
+  },
+  {
+   "k": "17rtait",
+   "en": "debug_info"
+  },
+  {
+   "k": "4dcoxr",
+   "en": "debug_particle"
+  },
+  {
+   "k": "n1xjud",
+   "en": "debug_ai_budget [CountryTag]"
+  },
+  {
+   "k": "8ejuh1",
+   "en": "debug_textures"
+  },
+  {
+   "k": "e46xro",
+   "en": "debug_texture"
+  },
+  {
+   "k": "l0rlid",
+   "en": "debug_wireframe"
+  },
+  {
+   "k": "1l4sprn",
+   "en": "debug_achievements_clear"
+  },
+  {
+   "k": "ou30w",
+   "en": "moveunit [<Unit ID>] [<Province ID>]"
+  },
+  {
+   "k": "1fapbny",
+   "en": "spawnactor [<Actorname>] [<Province ID>] [<Animation> OPTIONAL]"
+  },
+  {
+   "k": "hmpwv9",
+   "en": "cameraclamp"
+  },
+  {
+   "k": "1v6naga",
+   "en": "provtooltipdebug (tdebug)"
+  },
+  {
+   "k": "1t7yncc",
+   "en": "reloadweather [<randomseed>]"
+  },
+  {
+   "k": "15gjgn9",
+   "en": "debug_air_vs_land (dbg_cas)"
+  },
+  {
+   "k": "1unyjiz",
+   "en": "mapnames"
+  },
+  {
+   "k": "1iyd6tt",
+   "en": "gbreload"
+  },
+  {
+   "k": "1b8khli",
+   "en": "gbpaint [layer] [channel]"
+  },
+  {
+   "k": "13dv7j8",
+   "en": "profilelog"
+  },
+  {
+   "k": "bvjc22",
+   "en": "run"
+  },
+  {
+   "k": "1anppgw",
+   "en": "oos"
+  },
+  {
+   "k": "1fytkm1",
+   "en": "trigger_docs (effect_docs, scripting_docs, docs)"
+  },
+  {
+   "k": "1ad0wcb",
+   "en": "threat [Threat amount]"
+  },
+  {
+   "k": "bpocpt",
+   "en": "3dstats"
+  },
+  {
+   "k": "1yo9q01",
+   "en": "hdr"
+  },
+  {
+   "k": "w4bpsd",
+   "en": "hdr_debug"
+  },
+  {
+   "k": "l1yxjp",
+   "en": "srgb"
+  },
+  {
+   "k": "1riqlss",
+   "en": "bloom"
+  },
+  {
+   "k": "1y1oefx",
+   "en": "PostEffectVolumes.Default [posteffect_values name]"
+  },
+  {
+   "k": "1s23bkx",
+   "en": "night"
+  },
+  {
+   "k": "lfe391",
+   "en": "filewatcher"
+  },
+  {
+   "k": "1ui17b9",
+   "en": "createlean"
+  },
+  {
+   "k": "1j6byls",
+   "en": "helplog"
+  },
+  {
+   "k": "14iecpp",
+   "en": "helphelp"
+  },
+  {
+   "k": "5p5pq",
+   "en": "hsv"
+  },
+  {
+   "k": "1pq5zpn",
+   "en": "tag_color"
+  },
+  {
+   "k": "m0rdte",
+   "en": "browser [url]"
+  },
+  {
+   "k": "12iodn6",
+   "en": "browser_base_url [url]"
+  },
+  {
+   "k": "1g6cw1i",
+   "en": "airealism"
+  },
+  {
+   "k": "1dh4krg",
+   "en": "instant_wargoal"
+  },
+  {
+   "k": "18q3ffu",
+   "en": "allowideas"
+  },
+  {
+   "k": "nktwgx",
+   "en": "visible"
+  },
+  {
+   "k": "b18qbn",
+   "en": "allowed"
+  },
+  {
+   "k": "gduizs",
+   "en": "release [<country tag>]"
+  },
+  {
+   "k": "1yordrq",
+   "en": "InternationalMarket.AddSubsidyForTags [<economic capacity>] [<equipment>] [<country tag>]"
+  },
+  {
+   "k": "qoed8a",
+   "en": "random_seed"
+  },
+  {
+   "k": "1279p0h",
+   "en": "eval_effect [<country tag>] = { create_faction = \"[faction name]\" }"
+  },
+  {
+   "k": "qlsp62",
+   "en": "eval_effect [<country tag>] = { dismantle_faction = yes }"
+  },
+  {
+   "k": "9e5her",
+   "en": "eval_effect [<country tag>] = { add_to_faction = [<country tag>] }"
+  },
+  {
+   "k": "11hsgd",
+   "en": "eval_effect [<country tag>] = { remove_from_faction = [<country tag>] }"
+  },
+  {
+   "k": "o3eu8l",
+   "en": "eval_effect [<country tag>] = { set_faction_name = \"[faction name]\" }"
+  },
+  {
+   "k": "knullv",
+   "en": "toggle_silhouette_portraits"
+  },
+  {
+   "k": "fsbozh",
+   "en": "armageddon"
+  },
+  {
+   "k": "5aqfnt",
+   "en": "⟦0⟧ • Triggers • ⟦1⟧ • ⟦2⟧ • ⟦3⟧ • ⟦4⟧ • ⟦5⟧ • ⟦6⟧ • ⟦7⟧ (⟦8⟧, ⟦9⟧, ⟦10⟧, ⟦11⟧, ⟦12⟧)"
+  }
+ ]
+}

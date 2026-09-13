@@ -1,0 +1,1065 @@
+{
+ "batch": 1313,
+ "pages": [
+  "Particle modding",
+  "Internal factions"
+ ],
+ "chars": 12523,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "so6edi",
+   "en": "Particles are special entities used by other entities to create visual effects such as lightning, snow, etc."
+  },
+  {
+   "k": "1rf5yng",
+   "en": "Particles are defined in ⟦0⟧ files which are found in ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "8ffwj3",
+   "en": ".asset"
+  },
+  {
+   "k": "3qo1bi",
+   "en": "/Hearts of Iron IV/gfx/particles/"
+  },
+  {
+   "k": "yzm3sf",
+   "en": "Adding a Particle"
+  },
+  {
+   "k": "qc17ts",
+   "en": "Particle Editor"
+  },
+  {
+   "k": "wwk1dg",
+   "en": "The particle editor can be accessed by adding ⟦0⟧ ⟦1⟧ to your launch options in Steam and ⟦2⟧; anything earlier will result in a non functional launcher, anything later will result in a crash upon trying to access the editor. ⟦3⟧ The particle editor can access any vanilla entity, mesh, or particle; once accessed, the vanilla particle can then be edited to fit your needs.",
+   "frags": 4
+  },
+  {
+   "k": "166co3o",
+   "en": "exclusively"
+  },
+  {
+   "k": "e7501d",
+   "en": "-editor"
+  },
+  {
+   "k": "61l7ff",
+   "en": "reverting to 1.11"
+  },
+  {
+   "k": "lnxmhw",
+   "en": "Since the particle editor can't access new particles made by the mod, it is necessary to overwrite vanilla particles, move the edited particles to your mod files, and then verify integrity after you've finished."
+  },
+  {
+   "k": "jarn9b",
+   "en": "Adding a Light"
+  },
+  {
+   "k": "jv01ja",
+   "en": "Lights are special types of particles that are referred to in entities, for example the muzzle flash of the gun during the combat animation."
+  },
+  {
+   "k": "1huqijh",
+   "en": "Here is a generic example:"
+  },
+  {
+   "k": "1u56tbi",
+   "en": "⟦0⟧ is the name of the light.",
+   "frags": 1
+  },
+  {
+   "k": "136nuue",
+   "en": "name"
+  },
+  {
+   "k": "10ykhkc",
+   "en": "⟦0⟧ is the color of the light. The values take decimal RGB.",
+   "frags": 1
+  },
+  {
+   "k": "h28rbs",
+   "en": "color"
+  },
+  {
+   "k": "1l6ykao",
+   "en": "⟦0⟧ is the intensity of the light, and the second value is whether it fades.",
+   "frags": 1
+  },
+  {
+   "k": "110ebd6",
+   "en": "intensity"
+  },
+  {
+   "k": "19vyw97",
+   "en": "⟦0⟧ is the radius of the light.",
+   "frags": 1
+  },
+  {
+   "k": "3t4er7",
+   "en": "radius"
+  },
+  {
+   "k": "gbq2sb",
+   "en": "⟦0⟧ is the falloff gradient of the light.",
+   "frags": 1
+  },
+  {
+   "k": "1jypgat",
+   "en": "falloff"
+  },
+  {
+   "k": "1ln0au4",
+   "en": "⟦0⟧ is the position of the light relative to the entity using it.",
+   "frags": 1
+  },
+  {
+   "k": "14vfpje",
+   "en": "position"
+  },
+  {
+   "k": "dn41wn",
+   "en": "⟦0⟧ is animation to play for the light.",
+   "frags": 1
+  },
+  {
+   "k": "1qi6vdp",
+   "en": "animation"
+  },
+  {
+   "k": "ia581p",
+   "en": "Animation"
+  },
+  {
+   "k": "51mfkw",
+   "en": "⟦0⟧ is the name of the animation.",
+   "frags": 1
+  },
+  {
+   "k": "1929o1d",
+   "en": "⟦0⟧ is the starting position of the curve.",
+   "frags": 1
+  },
+  {
+   "k": "s2jf1b",
+   "en": "start"
+  },
+  {
+   "k": "p8ev6r",
+   "en": "⟦0⟧ is the duration of the animation.",
+   "frags": 1
+  },
+  {
+   "k": "d7r1u5",
+   "en": "duration"
+  },
+  {
+   "k": "1dy6lha",
+   "en": "⟦0⟧ determines whether the animation is repeated.",
+   "frags": 1
+  },
+  {
+   "k": "1odmjai",
+   "en": "repeat"
+  },
+  {
+   "k": "1jzk9hh",
+   "en": "⟦0⟧ determines how multiple sources mix. Can be multiply (MUL), additive (ADD) or absolute (ABS).",
+   "frags": 1
+  },
+  {
+   "k": "1moxanf",
+   "en": "⟦0⟧ is the minimum value on the curve.",
+   "frags": 1
+  },
+  {
+   "k": "1ia3zzg",
+   "en": "minValue"
+  },
+  {
+   "k": "cj1cmp",
+   "en": "⟦0⟧ is the maximum value on the curve.",
+   "frags": 1
+  },
+  {
+   "k": "6x32yu",
+   "en": "maxValue"
+  },
+  {
+   "k": "t6w0rj",
+   "en": "⟦0⟧ is the curve used for the light; each set of two decimals denote an x and y position on the curve graph, the game uses these points to calculate a change in whatever the animation is interacting with. The amount of decimals should always be even; the max y value is determined by \"maxValue\" argument, the min y value is determined by the \"minValue\" argument, the max x value is determined by \"duration\" and the min x value is determined by \"start\". You can have as many sets of decimals as you want but the last x coordinate must match with the duration and the first must match with \"start\".",
+   "frags": 1
+  },
+  {
+   "k": "16igkk4",
+   "en": "curve"
+  },
+  {
+   "k": "59iejl",
+   "en": "Documentation"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "bbbsh0",
+   "en": "List of modifiers"
+  },
+  {
+   "k": "gkat0o",
+   "en": "Scopes"
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "22wvcr",
+   "en": "On actions"
+  },
+  {
+   "k": "10y68xx",
+   "en": "Data structures"
+  },
+  {
+   "k": "icm958",
+   "en": "Flags"
+  },
+  {
+   "k": "1fldcnt",
+   "en": "Event targets"
+  },
+  {
+   "k": "135tw29",
+   "en": "Country tag aliases"
+  },
+  {
+   "k": "xqivz6",
+   "en": "Variables"
+  },
+  {
+   "k": "14wbbvz",
+   "en": "Arrays"
+  },
+  {
+   "k": "wdu62e",
+   "en": "Scripting"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "475d63",
+   "en": "AI focuses"
+  },
+  {
+   "k": "gpz0z1",
+   "en": "Autonomous states"
+  },
+  {
+   "k": "a6cuzg",
+   "en": "Balances of power"
+  },
+  {
+   "k": "14khzdq",
+   "en": "Bookmarks/Scenarios"
+  },
+  {
+   "k": "xrnqxs",
+   "en": "Game rules"
+  },
+  {
+   "k": "1xa6gia",
+   "en": "Buildings"
+  },
+  {
+   "k": "8657g9",
+   "en": "Characters and traits"
+  },
+  {
+   "k": "o977ej",
+   "en": "Cosmetic tags"
+  },
+  {
+   "k": "8zhvfx",
+   "en": "Countries"
+  },
+  {
+   "k": "19eysrz",
+   "en": "Divisions"
+  },
+  {
+   "k": "vwifyo",
+   "en": "Decisions"
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "1xtq0ev",
+   "en": "Equipment"
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "e65ons",
+   "en": "Factions"
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "1cd8sst",
+   "en": "Ideologies"
+  },
+  {
+   "k": "1oopcvp",
+   "en": "Military industrial organizations"
+  },
+  {
+   "k": "k2esk3",
+   "en": "National focuses"
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "uu0bc4",
+   "en": "Scripted GUI"
+  },
+  {
+   "k": "1jzxqx9",
+   "en": "Technologies and doctrines"
+  },
+  {
+   "k": "ur18vw",
+   "en": "Units"
+  },
+  {
+   "k": "j1sac1",
+   "en": "Map"
+  },
+  {
+   "k": "5afzz",
+   "en": "States"
+  },
+  {
+   "k": "8ppvas",
+   "en": "Supply areas"
+  },
+  {
+   "k": "1v2pifw",
+   "en": "Strategic regions"
+  },
+  {
+   "k": "1cffeuu",
+   "en": "Graphical"
+  },
+  {
+   "k": "yolbkg",
+   "en": "Interface"
+  },
+  {
+   "k": "2hqnqn",
+   "en": "Graphical assets"
+  },
+  {
+   "k": "6px9my",
+   "en": "Entities"
+  },
+  {
+   "k": "1n1sxcz",
+   "en": "Posteffects"
+  },
+  {
+   "k": "1fu6htw",
+   "en": "Particles"
+  },
+  {
+   "k": "t16z95",
+   "en": "Fonts"
+  },
+  {
+   "k": "1ig52hy",
+   "en": "Cosmetic"
+  },
+  {
+   "k": "9k7pgr",
+   "en": "Portraits"
+  },
+  {
+   "k": "65pf3n",
+   "en": "Namelists"
+  },
+  {
+   "k": "ohwdis",
+   "en": "Music"
+  },
+  {
+   "k": "1dvvwok",
+   "en": "Sound"
+  },
+  {
+   "k": "ukzedx",
+   "en": "Other"
+  },
+  {
+   "k": "1uzifys",
+   "en": "Console commands"
+  },
+  {
+   "k": "1t5bxxt",
+   "en": "Troubleshooting"
+  },
+  {
+   "k": "1djsobe",
+   "en": "Mod structure"
+  },
+  {
+   "k": "pw0jjk",
+   "en": "Mods"
+  },
+  {
+   "k": "pui2ou",
+   "en": "Nudger"
+  },
+  {
+   "k": "10q156x",
+   "en": "⟦0⟧ are organizations that try to push their own agenda, usually against the government's wishes, so the government has to manage the, for that be for or against them. Sometimes advisors and generals are members of these factions and will only be available if their faction is friendly to the government. Factions can influence the government through ⟦1⟧ or even lead the country.",
+   "frags": 2
+  },
+  {
+   "k": "1le99t5",
+   "en": "Internal factions"
+  },
+  {
+   "k": "yt10lt",
+   "en": "national spirits"
+  },
+  {
+   "k": "7tkm24",
+   "en": "United States"
+  },
+  {
+   "k": "rptyus",
+   "en": "The ⟦0⟧ has one internal faction, ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "tl5gir",
+   "en": "Congress"
+  },
+  {
+   "k": "13dcgpk",
+   "en": "While not a private organization, the U.S. Congress functions as faction the player must manage and gain support from in order to complete some national focuses."
+  },
+  {
+   "k": "vcugn7",
+   "en": "United Kingdom"
+  },
+  {
+   "k": "9q259l",
+   "en": "The ⟦0⟧ has two internal factions: the ⟦1⟧ and the ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1rvz7ut",
+   "en": "Blackshirts"
+  },
+  {
+   "k": "16h4qtn",
+   "en": "Trade Unions"
+  },
+  {
+   "k": "13542b1",
+   "en": "The British Union of Fascists, also known as the Blackshirts, are a political party that function as a faction when attempted to be brought into power. The Blackshirts must host marches across the country to gain support at the cost of stability, if stability falls too low, a civil war may be triggered, but if enough support is gained and stability doesn’t fall to low, they can come to power."
+  },
+  {
+   "k": "59wvub",
+   "en": "The Trade Unions become active when going communist and must be appeased to continue. They’ll make demands that the government must for fill in order to go communist, but the government can ask for help from the Trade Unions as well."
+  },
+  {
+   "k": "193rgu3",
+   "en": "Japan"
+  },
+  {
+   "k": "189xa8a",
+   "en": "⟦0⟧ has two internal factions: the ⟦1⟧ and the ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "5xoqh1",
+   "en": "Imperial Army"
+  },
+  {
+   "k": "pqptko",
+   "en": "Imperial Navy"
+  },
+  {
+   "k": "b5ugrr",
+   "en": "While not political groups, the Japanese army and navy are in conflict with each other over resources, aircraft, conscription, etc. Japan is limited in all of these and need to be allocated according to the players needs."
+  },
+  {
+   "k": "1jjpogc",
+   "en": "Soviet Union"
+  },
+  {
+   "k": "o1jydm",
+   "en": "The ⟦0⟧ has four internal factions: the ⟦1⟧, the ⟦2⟧, the ⟦3⟧, and the ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "kzdxno",
+   "en": "Center"
+  },
+  {
+   "k": "d0rj2s",
+   "en": "Left Opposition"
+  },
+  {
+   "k": "t289r7",
+   "en": "Right Opposition"
+  },
+  {
+   "k": "f1yinl",
+   "en": "Exiles"
+  },
+  {
+   "k": "8of41g",
+   "en": "The Center is Stalin and his allies. Going \"The center\" path in the focus tree will purge many of your advisors and generals, but as reward you will not activate any civil wars and you will receive some sweet bonuses from politburo."
+  },
+  {
+   "k": "1f7mq4v",
+   "en": "The Left Opposition is a Trotsky and his allies. Left Opposition goal is to bring REAL communism where everyone is equal to the whole world. Trotskyist forces start with big support from the army allowing you to end the civil war faster, and after the civil war focuses allow you to spread communism around the world, as well as either bring freedom to soviet republics OR rule the SSSR as Supreme Soviet."
+  },
+  {
+   "k": "1ebgwmy",
+   "en": "The Right Opposition is a Bukharin and his allies. Right Opposition goal is to achieve freedom of workers where every worker may get a happy life as well as rich people. Bukharinist forces are weak from the start, but focuses allow you to support the spanish anarchists and have a low chance of overthrowing the government without a civil war. After the civil war is complete, you will be allowed to empower the workers to achieve zero consumer goods for a cost of a slow construction. After all that you will get 2 choices: either get more bonuses having Supreme Soviet as the ruler, or secure internal politics allowing you to receive more propaganda campaigns as well as additional research slot."
+  },
+  {
+   "k": "2nczf0",
+   "en": "Exiles is overthrown Tsarist government. Exiles goal is to return the monarchy that were overthrown by the Russian civil war. White-Russian forces have decent power from the start, having focuses to increase popularity of non-aligned and nationalism. Other focuses from pre-civil war allow you what other Oppositions do: ask foreign powers for support and sabotage infrastructure of the enemy. After civil war is started your focuses allow you to become puppet of japan, unlock few advisors, and replace politburo with \"the church\". Post civil war you may either restore old Romanov monarchy or empower Russian nationalists. Romanov restoration leads you to many choices: Pan-slavic commonwealth, Old empire and many other while Nationalism allows you return of Third Rome and Berlin-Moscow Axis."
+  },
+  {
+   "k": "hbescl",
+   "en": "Poland"
+  },
+  {
+   "k": "1owisx1",
+   "en": "⟦0⟧ has four internal factions: the ⟦1⟧, the ⟦2⟧, the ⟦3⟧, and the ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "1qdtta1",
+   "en": "Castle"
+  },
+  {
+   "k": "m4fb07",
+   "en": "Sanation Left"
+  },
+  {
+   "k": "im0g2w",
+   "en": "Sanation Right"
+  },
+  {
+   "k": "1ipps4o",
+   "en": "Peasant Union"
+  },
+  {
+   "k": "1wgklhv",
+   "en": "Yugoslavia"
+  },
+  {
+   "k": "1a68nb8",
+   "en": "⟦0⟧ has one internal faction, the ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "dq1why",
+   "en": "Ustasa"
+  },
+  {
+   "k": "yo9rz5",
+   "en": "The Ustasa are a Croatian fascist organization that wants to form an independent Croatian state. They appear when the focus to crush them is taken, in which there’s a limited time to circumvent the uprising before it happens. They also automatically rise up against the government when the Axis invade, in which they likely join. The focuses that give ⟦0⟧ autonomy also appeases them.",
+   "frags": 1
+  },
+  {
+   "k": "1kmbsam",
+   "en": "Croatia"
+  },
+  {
+   "k": "cabrx2",
+   "en": "Mexico"
+  },
+  {
+   "k": "13qi9zf",
+   "en": "⟦0⟧ has two internal factions: the ⟦1⟧ and ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "qo9ama",
+   "en": "Church"
+  },
+  {
+   "k": "kn43ir",
+   "en": "Cedillo"
+  },
+  {
+   "k": "n6b3ms",
+   "en": "The Catholic Church is an important organization in Mexican society. Giving the Church too much or to little power will cause a civil war with the opponents of the change in power, so balance must be maintained to prevent either a Second Cristero War or a Second Mexican Revolution."
+  },
+  {
+   "k": "bm3b8s",
+   "en": "General Saturnino Cedillo and his supporters plan to overthrow the government, the player must circumvent his plans by either arresting him or supporting him, in which he will become an available general and have the possibility to become leader of Mexico."
+  },
+  {
+   "k": "1s1lfqm",
+   "en": "Spain"
+  },
+  {
+   "k": "vn1hky",
+   "en": "⟦0⟧ has five internal factions: the ⟦1⟧ and, ⟦2⟧, the ⟦3⟧, the ⟦4⟧, and the ⟦5⟧.",
+   "frags": 6
+  },
+  {
+   "k": "1vd2c62",
+   "en": "Nationalists"
+  },
+  {
+   "k": "o54ocb",
+   "en": "Republicans"
+  },
+  {
+   "k": "ip2ure",
+   "en": "Carlists"
+  },
+  {
+   "k": "ipb5g3",
+   "en": "Anarchists"
+  },
+  {
+   "k": "1f31xnd",
+   "en": "Independent Communists"
+  },
+  {
+   "k": "rh2d9o",
+   "en": "Spain starts the game at the brink of civil war between the Nationalists and the Republicans, the player must choose a side and manage the country to benefit the faction chose upon the start of the civil war. Each side isn’t as united as it seems, though, as the Carlist and the Anarchists will want to rise up against the Nationalists and the Republicans respectively. It’s a similar case to the beginning of the game with the Nationalists and the Republicans, as the player must pick and support a side again. The Nationalists can integrate the Carlists via focus, but the Anarchist uprising is inevitable. If the player goes Independent Communist, they’ll replace the Anarchists and rise up instead."
+  },
+  {
+   "k": "1kl1wqi",
+   "en": "Greece"
+  },
+  {
+   "k": "143mu5c",
+   "en": "Monarchists"
+  },
+  {
+   "k": "qcktqb",
+   "en": "Communists"
+  },
+  {
+   "k": "j2rw6j",
+   "en": "Fascists"
+  },
+  {
+   "k": "r9uuql",
+   "en": "Monarchists are the supporters of the King. If you will go Monarchist path, they always will be loyal to you."
+  },
+  {
+   "k": "yppjpm",
+   "en": "Republicans are Democrats of Greece. They will be loyal if you will go democratic. Completing monarchist civil war focus will Placate the Republicans."
+  },
+  {
+   "k": "1xh70hh",
+   "en": "Communists see Greece as a workers paradise. Going Communist path will allow you to either join comintern or make your own faction."
+  },
+  {
+   "k": "16cy3o2",
+   "en": "Fascists see Greece as a militaristic state. Fascists are placated from the start, but going monarchist and then asking Fascists for support will allow you to empower them."
+  },
+  {
+   "k": "1g27va4",
+   "en": "Bulgaria"
+  },
+  {
+   "k": "pormiu",
+   "en": "⟦0⟧ has six internal factions: the ⟦1⟧, the ⟦2⟧, the ⟦3⟧, the ⟦4⟧, the ⟦5⟧, and the ⟦6⟧ (IMRO).",
+   "frags": 7
+  },
+  {
+   "k": "hgea17",
+   "en": "Zveno"
+  },
+  {
+   "k": "1xagiar",
+   "en": "Broad Socialists"
+  },
+  {
+   "k": "nhc1pn",
+   "en": "Agrarian National Union"
+  },
+  {
+   "k": "1yrzpnb",
+   "en": "National Social Movement"
+  },
+  {
+   "k": "opnv3h",
+   "en": "Fatherland Front"
+  },
+  {
+   "k": "1uxnynh",
+   "en": "Internal Macedonian Revolutionary Organization"
+  },
+  {
+   "k": "1osojiq",
+   "en": "The following applies to the first four factions:"
+  },
+  {
+   "k": "nbueoc",
+   "en": "Each faction has loyalty and popularity values ranging from 0 to 100. When loyalty reaches 100, the faction can be integrated. When popularity reaches 0, the faction can be destroyed. Decisions to befriend or fight certain factions are unlocked through the national focus tree. This corresponds roughly to what ideology Bulgaria chooses: fascist or monarchist Bulgaria cannot befriend the Broad Socialists, while communist Bulgaria cannot befriend the National Social Movement. When a faction has high popularity but low loyalty, it can cause various penalties, ranging from strikes and protests to a civil war."
+  },
+  {
+   "k": "hco86t",
+   "en": "The Fatherland front will appear either via focus when going communist, in which case they will be friendly towards the government, or by event when going fascist, in which case they will be hostile towards the government."
+  },
+  {
+   "k": "1vp9dz2",
+   "en": "The IMRO can either be fought or funded via special decisions. fighting the IMRO will remove their negative modifiers entirely, while funding them facilitates the integration of ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "kajfhu",
+   "en": "Macedonia"
+  },
+  {
+   "k": "38tzan",
+   "en": "Turkey"
+  },
+  {
+   "k": "3b3oe1",
+   "en": "⟦0⟧ has three internal factions: the ⟦1⟧, the ⟦2⟧, and the ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "1gtwrhk",
+   "en": "Kemalists"
+  },
+  {
+   "k": "hz1wtb",
+   "en": "Traditionalists"
+  },
+  {
+   "k": "vttfc8",
+   "en": "Kurds"
+  },
+  {
+   "k": "dvxkbl",
+   "en": "Kemalists are allies of Mustafa Kemal. They are Loyal from the beginning unless you will pick Ottoman focus and most of them are located in the west of the country."
+  },
+  {
+   "k": "nhagqr",
+   "en": "Traditionalists are peoples who still see Turkey as Ottoman Empire. they are enemies of the state unless you pick Ottoman focus, however they can be befriended if you complete focus \"Peace at home\" or allied via \"Nationalist\" or \"Communist\" focus. Traditionalists are located in the middle of the country and sometimes will try to infiltrate neutral regions."
+  },
+  {
+   "k": "1j4e8m0",
+   "en": "Kurds Wish for independence and located in the south-east of the country. They will launch attacks on industry at the regions however their resistance can be placated by many ways. First one is getting a core on the state. Second is having high enough compilance in all regions with kurdish resistance. Then those regions will get a core. Third is via focuses. Nationalist tree can allow Kurds to join military and having a respect leading to a befriending of Kurds. Communist usually dont have an effective unique way to Placate Kurds. And historical \"Peace at home\" Allows you to offer Kurds not go to military. This will peace out the Kurds but lead to a Great loss of Manpower."
+  },
+  {
+   "k": "azote4",
+   "en": "Lithuania"
+  },
+  {
+   "k": "qf5qiq",
+   "en": "Iron Wolfs"
+  },
+  {
+   "k": "qej46e",
+   "en": "Latvia"
+  },
+  {
+   "k": "1du9x4e",
+   "en": "Pērkonkrusts"
+  },
+  {
+   "k": "esezps",
+   "en": "Estonia"
+  },
+  {
+   "k": "1m3pfed",
+   "en": "Vapsids"
+  },
+  {
+   "k": "x4z41b",
+   "en": "Flag of United States"
+  },
+  {
+   "k": "bkuboy",
+   "en": "Flag of United Kingdom"
+  },
+  {
+   "k": "5dkhsc",
+   "en": "Flag of Japan"
+  },
+  {
+   "k": "mzg8xt",
+   "en": "Flag of Soviet Union"
+  },
+  {
+   "k": "alp93w",
+   "en": "Flag of Poland"
+  },
+  {
+   "k": "1tdgwj6",
+   "en": "Flag of Yugoslavia"
+  },
+  {
+   "k": "qlxn29",
+   "en": "Flag of Croatia"
+  },
+  {
+   "k": "16bu8kb",
+   "en": "Flag of Mexico"
+  },
+  {
+   "k": "1c9bqll",
+   "en": "Flag of Spain"
+  },
+  {
+   "k": "1b8czvf",
+   "en": "Flag of Greece"
+  },
+  {
+   "k": "yxnvct",
+   "en": "Flag of Bulgaria"
+  },
+  {
+   "k": "1bgrzel",
+   "en": "Flag of Macedonia"
+  },
+  {
+   "k": "1y90162",
+   "en": "Flag of Turkey"
+  },
+  {
+   "k": "u5bvpz",
+   "en": "Flag of Lithuania"
+  },
+  {
+   "k": "15aro5j",
+   "en": "Flag of Latvia"
+  },
+  {
+   "k": "ls3b3f",
+   "en": "Flag of Estonia"
+  }
+ ]
+}

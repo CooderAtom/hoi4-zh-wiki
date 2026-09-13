@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>补丁 1.17.X - 钢铁雄心 IV 中文离线资料库</title>
+<meta name="description" content="">
+<link rel="stylesheet" href="assets/style.css">
+<script>window.HOI4_REL="";</script>
+<script src="assets/search-index.js" defer></script>
+<script src="assets/app.js" defer></script>
+</head>
+<body data-rel="">
+<header class="topbar"><div class="topbar-inner">
+  <a class="brand" href="index.html">钢铁雄心 IV <small>中文离线资料库</small></a>
+  <nav class="topnav"><a href="index.html#getting-started">入门</a><a href="index.html#state-affairs">国家事务</a><a href="index.html#foreign-affairs">外交事务</a><a href="index.html#warfare">战争</a><a href="index.html#military">军种</a><a href="index.html#technology">科技与学说</a><a href="index.html#meta">游戏与资料</a><a href="all-pages.html">全部页面</a><a href="glossary.html">术语表</a></nav>
+  <div class="searchbox">
+    <input id="q" type="search" placeholder="搜索页面（按 / 聚焦）" autocomplete="off" aria-label="搜索">
+    <div id="search-results"></div>
+  </div>
+</div></header>
+<div class="wrap">
+<aside class="sidebar">
+      <h3>入门</h3>
+      <ul><li><a href="Beginner's_guide.html">新手入门指南</a></li><li><a href="User_interface.html">用户界面</a></li><li><a href="Mechanics.html">游戏机制</a></li><li><a href="Console_commands.html">控制台指令</a></li><li><a href="Hotkeys.html">快捷键</a></li><li><a href="Countries.html">国家</a></li><li><a href="Tutorial_videos.html">教学视频</a></li></ul>
+      <h3>国家事务</h3>
+      <ul><li><a href="Government.html">政府</a></li><li><a href="Ideas.html">理念、法令与顾问</a></li><li><a href="Officer_corps.html">军官团</a></li><li><a href="National_focus.html">国家焦点</a></li><li><a href="Research.html">科研</a></li><li><a href="Construction.html">建造</a></li><li><a href="Production.html">生产</a></li><li><a href="Events.html">事件</a></li><li><a href="List_of_Decision_lists.html">决议</a></li><li><a href="Manpower.html">人力</a></li></ul>
+      <h3>外交事务</h3>
+      <ul><li><a href="Diplomacy.html">外交</a></li><li><a href="Puppet.html">傀儡国</a></li><li><a href="Occupation.html">占领</a></li><li><a href="World_tension.html">世界紧张度</a></li><li><a href="Intelligence_agency.html">情报机构</a></li><li><a href="Trade.html">贸易</a></li><li><a href="Faction.html">阵营</a></li></ul>
+      <h3>战争</h3>
+      <ul><li><a href="Warfare.html">战争总览</a></li><li><a href="Combat_tactics.html">战斗战术</a></li><li><a href="Logistics.html">后勤</a></li><li><a href="Terrain.html">地形</a></li><li><a href="Weather.html">天气</a></li><li><a href="Battle_plan.html">作战计划</a></li><li><a href="Army_planner.html">陆军编制器</a></li><li><a href="Command_group.html">集团军</a></li><li><a href="Division.html">师</a></li><li><a href="Land_battle.html">陆战</a></li><li><a href="Naval_battle.html">海战</a></li><li><a href="Air_warfare.html">空战</a></li><li><a href="Attrition_and_accidents.html">损耗</a></li></ul>
+      <h3>军种</h3>
+      <ul><li><a href="Land_warfare.html">陆军</a></li><li><a href="Naval_warfare.html">海军</a></li><li><a href="Land_units.html">陆军单位</a></li><li><a href="Ship.html">海军单位</a></li><li><a href="Aircraft_designer.html">空军单位</a></li><li><a href="Equipment.html">装备</a></li><li><a href="Ship_designer.html">舰船设计</a></li><li><a href="Tank_designer.html">坦克设计</a></li></ul>
+      <h3>科技与学说</h3>
+      <ul><li><a href="Land_doctrine.html">陆军学说</a></li><li><a href="Naval_doctrine.html">海军学说</a></li><li><a href="Air_doctrine.html">空军学说</a></li><li><a href="Infantry_technology.html">步兵科技</a></li><li><a href="Armor_technology.html">装甲科技</a></li><li><a href="Naval_technology.html">海军科技</a></li><li><a href="Air_technology.html">空军科技</a></li><li><a href="Support_companies_technology.html">支援连科技</a></li></ul>
+      <h3>游戏与资料</h3>
+      <ul><li><a href="Achievements.html">成就</a></li><li><a href="Downloadable_content.html">可下载内容</a></li><li><a href="Patches.html">补丁</a></li><li><a href="Jargon.html">术语表</a></li><li><a href="Modding.html">模组制作</a></li><li><a href="Mods.html">模组</a></li><li><a href="Developer_diaries.html">开发日志</a></li></ul>
+      <h3>更多页面</h3>
+      <ul>
+        <li><a href="all-pages.html">全部页面索引（655）</a></li>
+        <li><a href="search.html">搜索</a></li>
+        <li><a href="glossary.html">中英术语对照表</a></li>
+      </ul>
+      <h3>1.17（122）</h3>
+      <ul><li><a href="Oman.html">阿曼</a></li><li><a href="Ethiopia.html">埃塞俄比亚</a></li><li><a href="Ireland.html">爱尔兰</a></li><li><a href="Estonia.html">爱沙尼亚</a></li><li><a href="Austria.html">奥地利</a></li><li><a href="Sultanate_of_Aussa.html">奥萨苏丹国</a></li><li><a href="Australia.html">澳大利亚</a></li><li><a href="Paraguay.html">巴拉圭</a></li><li><a href="Panama.html">巴拿马</a></li><li><a href="Bulgaria.html">保加利亚</a></li><li><a href="Paradisus_Paradoxum.html">悖论乐园（Paradisus Paradoxum）</a></li><li><a href="Icelandic_events_AAT.html">冰岛事件（AAT）</a></li><li><a href="Poland.html">波兰</a></li><li><a href="Bolivia.html">玻利维亚</a></li><li><a href="Bhutan.html">不丹</a></li><li><a href="Sichuan_Clique.html">川系</a></li><li><a href="Battle_Royale.html">大逃杀（Battle Royale）</a></li><li><a href="German_Reich.html">德意志国</a></li><li><a href="Imperial_influence.html">帝国影响力</a></li><li><a href="Reichskommissariats.html">帝国专员辖区</a></li><li><a href="Northeastern_Army.html">东北军</a></li><li><a href="East_Germany.html">东德</a></li><li><a href="Dominican_Republic.html">多米尼加</a></li><li><a href="Ecuador.html">厄瓜多尔</a></li><li><a href="Horn_of_Africa_nations.html">非洲之角国家</a></li><li><a href="Philippines.html">菲律宾</a></li><li><a href="Second_Philippine_Republic.html">菲律宾第二共和国</a></li><li><a href="Finnish_events_AAT.html">芬兰事件（AAT）</a></li><li><a href="Crush_the_Dream.html">粉碎梦想（Crush the Dream）</a></li><li><a href="Gansu_Ma.html">甘马（马家军）</a></li><li><a href="Colombia.html">哥伦比亚</a></li><li><a href="Costa_Rica.html">哥斯达黎加</a></li><li><a href="Republican_Spain.html">共和西班牙</a></li><li><a href="Cuba.html">古巴</a></li><li><a href="Cobalt_Sea.html">钴蓝海（Cobalt Sea）</a></li><li><a href="Guangxi_Clique.html">桂系</a></li><li><a href="Country_leader_traits.html">国家领导人特质</a></li><li><a href="Nationalist_Spain.html">国民西班牙</a></li><li><a href="Kumul_Khanate.html">哈密汗国</a></li><li><a href="Haiti.html">海地</a></li></ul>
+      <h3>1.16（93）</h3>
+      <ul><li><a href="_2026_and_you_get_a_canton,_everybody_gets_a_canton!.html">……你得到一个州，每个人都得到一个州！</a></li><li><a href="Otto-man.html">奥托曼（Otto-man）</a></li><li><a href="This_achievement_is_dedicated_to_the_brave_soldiers_of....html">本成就献给勇敢的士兵们……</a></li><li><a href="Iceland.html">冰岛</a></li><li><a href="United_Baltic_Duchy.html">波罗的海联合公国</a></li><li><a href="Triggers.html">触发器</a></li><li><a href="A_Great_Hunger.html">大饥荒（A Great Hunger）</a></li><li><a href="Huge-oslavia.html">大南斯拉夫（Huge-oslavia）</a></li><li><a href="Big_Entente.html">大协约（Big Entente）</a></li><li><a href="Denmark.html">丹麦</a></li><li><a href="Missile.html">导弹</a></li><li><a href="Yunnan.html">滇系</a></li><li><a href="Finland.html">芬兰</a></li><li><a href="Oh,_how_the_turntables.html">风水轮流转（Oh, how the turntables）</a></li><li><a href="Congolese_Belgium.html">刚果化的比利时（Congolese Belgium）</a></li><li><a href="Woman_in_a_High_Castle.html">高堡中的女人（Woman in a High Castle）</a></li><li><a href="International_market.html">国际市场</a></li><li><a href="Peace_conference.html">和平会议</a></li><li><a href="Nuclear_bomb.html">核弹</a></li><li><a href="Bad_Ending_-_The_whole_world_is_now_Brazil.html">坏结局——全世界都成了巴西</a></li><li><a href="Artillery_technology.html">火炮科技</a></li><li><a href="Miklos_Horthy_and_the_Habsburg_Prince.html">霍尔蒂与哈布斯堡王子（Miklos Horthy and the Habsburg Prince）</a></li><li><a href="Shanxi.html">晋系</a></li><li><a href="Experience.html">经验</a></li><li><a href="The_Legacy_of_Cyrus_the_Great.html">居鲁士大帝的遗产（The Legacy of Cyrus the Great）</a></li><li><a href="The_Dragon_Rises.html">巨龙崛起（The Dragon Rises）</a></li><li><a href="Awake_and_Angry.html">觉醒与愤怒（Awake and Angry）</a></li><li><a href="Scientist.html">科学家</a></li><li><a href="House_of_Kurds.html">库尔德人之家（House of Kurds）</a></li><li><a href="From_Tehran_with_Love.html">来自德黑兰的爱（From Tehran with Love）</a></li><li><a href="The_Lenin_Boys_are_Back_in_Town.html">列宁小子们回来了（The Lenin Boys are Back in Town）</a></li><li><a href="London_Naval_Treaty.html">伦敦海军条约</a></li><li><a href="The_Romanovs_laugh_last.html">罗曼诺夫笑到最后（The Romanovs laugh last）</a></li><li><a href="No_one_crosses_the_finnish_line.html">没人能越过芬兰线（No one crosses the finnish line）</a></li><li><a href="MEFO_Bills.html">梅福券</a></li><li><a href="Media_Mughal.html">媒体莫卧儿（Media Mughal）</a></li><li><a href="Confederacy_of_American_States.html">美利坚联盟国</a></li><li><a href="United_Netherlands_(achievement).html">尼德兰联合王国（成就）</a></li><li><a href="Norway.html">挪威</a></li><li><a href="Qinghai_Ma.html">青马（马家军）</a></li></ul>
+      <h3>1.10（39）</h3>
+      <ul><li><a href="Balkan_Problem_Solved.html">巴尔干问题已解决（Balkan Problem Solved）</a></li><li><a href="Unaligned_States_of_America.html">不结盟的美利坚合众国</a></li><li><a href="France.html">法国</a></li><li><a href="French_events_LaR.html">法国事件（LaR）</a></li><li><a href="Netherlands_events.html">荷兰事件</a></li><li><a href="Hardly_Anything_Sèvres.html">几乎没剩下什么（Hardly Anything Sèvres）</a></li><li><a href="Romania.html">罗马尼亚</a></li><li><a href="United_States.html">美国</a></li><li><a href="Internal_factions.html">内部派系</a></li><li><a href="Crusader_Kings.html">十字军之王（Crusader Kings）</a></li><li><a href="Tannu_Tuva.html">唐努乌梁海</a></li><li><a href="News_events_1.html">新闻事件 1</a></li><li><a href="News_events_2.html">新闻事件 2</a></li><li><a href="News_events_4.html">新闻事件 4</a></li><li><a href="News_events_BftB.html">新闻事件（BftB）</a></li><li><a href="News_events_WtT.html">新闻事件（WtT）</a></li><li><a href="List_of_modifiers.html">修正项列表</a></li><li><a href="Istanbul_is_Constantinople._Again..html">伊斯坦布尔又是君士坦丁堡了（Istanbul is Constantinople. Again.）</a></li><li><a href="British_Raj_events.html">英属印度事件</a></li><li><a href="Australian_events.html">Australian事件</a></li><li><a href="Autonomy_state_modding.html">Autonomy state模组制作</a></li><li><a href="Chinese_political_power_struggle_events.html">Chinese political power struggle事件</a></li><li><a href="Division_modding.html">Division模组制作</a></li><li><a href="Election_events.html">Election事件</a></li><li><a href="Equipment_modding.html">Equipment模组制作</a></li><li><a href="Ethiopian_events.html">Ethiopian事件</a></li><li><a href="General_events.html">General事件</a></li><li><a href="Generic_events.html">Generic事件</a></li><li><a href="German_events.html">German事件</a></li><li><a href="Greek_events.html">Greek事件</a></li><li><a href="Ideology_modding.html">Ideology模组制作</a></li><li><a href="Italian_events.html">Italian事件</a></li><li><a href="Low_Stability_events.html">Low Stability事件</a></li><li><a href="Manchukou_events.html">Manchukou事件</a></li><li><a href="Polish_events.html">Polish事件</a></li><li><a href="Portuguese_events.html">Portuguese事件</a></li><li><a href="Resources_modding.html">Resources模组制作</a></li><li><a href="Soviet_events.html">Soviet事件</a></li><li><a href="Strategic_region_modding.html">Strategic region模组制作</a></li></ul>
+      <h3>补丁（38）</h3>
+      <ul><li><a href="Patch_1.0.X.html">补丁 1.0.X</a></li><li><a href="Patch_1.1.html">补丁 1.1</a></li><li><a href="Patch_1.10.html">补丁 1.10</a></li><li><a href="Patch_1.10.X.html">补丁 1.10.X</a></li><li><a href="Patch_1.11.html">补丁 1.11</a></li><li><a href="Patch_1.11.X.html">补丁 1.11.X</a></li><li><a href="Patch_1.12.html">补丁 1.12</a></li><li><a href="Patch_1.12.X.html">补丁 1.12.X</a></li><li><a href="Patch_1.13.html">补丁 1.13</a></li><li><a href="Patch_1.13.X.html">补丁 1.13.X</a></li><li><a href="Patch_1.14.html">补丁 1.14</a></li><li><a href="Patch_1.14.X.html">补丁 1.14.X</a></li><li><a href="Patch_1.15.html">补丁 1.15</a></li><li><a href="Patch_1.15.X.html">补丁 1.15.X</a></li><li><a href="Patch_1.16.html">补丁 1.16</a></li><li><a href="Patch_1.16.X.html">补丁 1.16.X</a></li><li><a href="Patch_1.17.html">补丁 1.17</a></li><li><a href="Patch_1.17.X.html" class="cur">补丁 1.17.X</a></li><li><a href="Patch_1.18.html">补丁 1.18</a></li><li><a href="Patch_1.18.X.html">补丁 1.18.X</a></li><li><a href="Patch_1.19.html">补丁 1.19</a></li><li><a href="Patch_1.19.X.html">补丁 1.19.X</a></li><li><a href="Patch_1.2.html">补丁 1.2</a></li><li><a href="Patch_1.2.X.html">补丁 1.2.X</a></li><li><a href="Patch_1.3.html">补丁 1.3</a></li><li><a href="Patch_1.3.X.html">补丁 1.3.X</a></li><li><a href="Patch_1.4.html">补丁 1.4</a></li><li><a href="Patch_1.4.X.html">补丁 1.4.X</a></li><li><a href="Patch_1.5.html">补丁 1.5</a></li><li><a href="Patch_1.5.X.html">补丁 1.5.X</a></li><li><a href="Patch_1.6.html">补丁 1.6</a></li><li><a href="Patch_1.6.X.html">补丁 1.6.X</a></li><li><a href="Patch_1.7.html">补丁 1.7</a></li><li><a href="Patch_1.7.X.html">补丁 1.7.X</a></li><li><a href="Patch_1.8.html">补丁 1.8</a></li><li><a href="Patch_1.8.X.html">补丁 1.8.X</a></li><li><a href="Patch_1.9.html">补丁 1.9</a></li><li><a href="Patch_1.9.X.html">补丁 1.9.X</a></li></ul>
+      <h3>1.14（36）</h3>
+      <ul><li><a href="List_of_1936_start_legacy_deployed_destroyers.html">1936 start legacy deployed destroyers列表</a></li><li><a href="Albania.html">阿尔巴尼亚</a></li><li><a href="Argentina.html">阿根廷</a></li><li><a href="Brazil.html">巴西</a></li><li><a href="Lamento_Boliviano.html">玻利维亚悲歌（Lamento Boliviano）</a></li><li><a href="Dalmatia.html">达尔马提亚</a></li><li><a href="Free_City_of_Danzig.html">但泽自由市</a></li><li><a href="Map.html">地图</a></li><li><a href="Defines.html">定义文件</a></li><li><a href="Aircraft.html">飞机</a></li><li><a href="Vojvodina.html">伏伊伏丁那</a></li><li><a href="Independent_State_of_Croatia.html">克罗地亚独立国</a></li><li><a href="Balance_of_power.html">力量均势</a></li><li><a href="Manchukuo.html">满洲国</a></li><li><a href="Mongolia.html">蒙古</a></li><li><a href="Difficulty.html">难度</a></li><li><a href="Province.html">省份</a></li><li><a href="We_2019_re_Putting_the_Band_Back_Together.html">我们重组乐队（We’re Putting the Band Back Together）</a></li><li><a href="Siam.html">暹罗</a></li><li><a href="Jan_Mayen.html">扬马延</a></li><li><a href="Italian_State_of_East_Africa.html">意属东非</a></li><li><a href="Strategic_region.html">战略区域</a></li><li><a href="Commander_trait.html">指挥官特质</a></li><li><a href="Chile.html">智利</a></li><li><a href="Chilean_Empire.html">智利帝国（Chilean Empire）</a></li><li><a href="Bolivian_decisions.html">Bolivian决议</a></li><li><a href="Brazilian_events.html">Brazilian事件</a></li><li><a href="Chilean_decisions.html">Chilean决议</a></li><li><a href="Chilean_missions.html">Chilean任务</a></li><li><a href="Italian_decisions.html">Italian决议</a></li><li><a href="Peruvian_decisions.html">Peruvian决议</a></li><li><a href="Trial_of_Allegiance_shared_decisions.html">Trial of Allegiance shared决议</a></li><li><a href="Venezuelan_decisions.html">Venezuelan决议</a></li><li><a href="Welsh_decisions.html">Welsh决议</a></li><li><a href="Yugoslavian_decisions.html">Yugoslavian决议</a></li><li><a href="Yugoslavian_missions.html">Yugoslavian任务</a></li></ul>
+      <h3>1.11（32）</h3>
+      <ul><li><a href="Afghanistan.html">阿富汗</a></li><li><a href="Esti_is_Scandi.html">爱沙尼亚属斯堪的纳维亚（Esti is Scandi）</a></li><li><a href="Polish_events_NSB.html">波兰事件（NSB）</a></li><li><a href="Baltic_events_NSB.html">波罗的海国家事件（NSB）</a></li><li><a href="No_more_Partitions.html">不再有瓜分（No more Partitions）</a></li><li><a href="Releasable_countries.html">可释放国家</a></li><li><a href="Yugoslavian_events_DoD.html">南斯拉夫事件（DoD）</a></li><li><a href="Launch_options.html">启动参数</a></li><li><a href="Japanese_events_WtT.html">日本事件（WtT）</a></li><li><a href="It_has_my_name_on_it.html">上面写着我的名字（It has my name on it）</a></li><li><a href="Ace_pilots_events.html">王牌飞行员事件</a></li><li><a href="Siberian_Tiger.html">西伯利亚虎（Siberian Tiger）</a></li><li><a href="New_Zealand_events.html">新西兰事件</a></li><li><a href="Hungarian_events_DoD_2.html">匈牙利事件（DoD 2）</a></li><li><a href="Political_parties_and_leaders.html">政党与领导人</a></li><li><a href="Support_company.html">支援连</a></li><li><a href="AI_modding.html">AI模组制作</a></li><li><a href="Bulgarian_events.html">Bulgarian事件</a></li><li><a href="Chinese_events.html">Chinese事件</a></li><li><a href="Decision_modding.html">Decision模组制作</a></li><li><a href="Estonian_events.html">Estonian事件</a></li><li><a href="Exiled_government_decisions.html">Exiled government决议</a></li><li><a href="Exiled_government_events.html">Exiled government事件</a></li><li><a href="Foreign_influence_decisions.html">Foreign influence决议</a></li><li><a href="French_events.html">French事件</a></li><li><a href="Generic_decisions.html">Generic决议</a></li><li><a href="Idea_modding.html">Idea模组制作</a></li><li><a href="Lithuanian_events.html">Lithuanian事件</a></li><li><a href="Music_modding.html">Music模组制作</a></li><li><a href="Supply_areas_modding.html">Supply areas模组制作</a></li><li><a href="Technology_modding.html">Technology模组制作</a></li><li><a href="Turkish_events.html">Turkish事件</a></li></ul>
+      <h3>1.9（28）</h3>
+      <ul><li><a href="Don_2019_t_Die_for_Your_Country.html">别为你的国家送死（Don’t Die for Your Country）</a></li><li><a href="Formable_nations.html">可成立国家</a></li><li><a href="Recruitable_population.html">可招募人口</a></li><li><a href="Land_doctrine_2f_Sample_divisions_with_doctrine_bonuses.html">陆军学说/带学说加成的示例师</a></li><li><a href="American_events_MtG.html">美国事件（MtG）</a></li><li><a href="Mod_structure.html">模组结构</a></li><li><a href="Division_designer.html">师编制设计</a></li><li><a href="Crusader_Kings_2.html">十字军之王 2（Crusader Kings 2）</a></li><li><a href="Rule_Britannia.html">统治不列颠（Rule Britannia）</a></li><li><a href="Spanish_Civil_War_layout.html">西班牙内战版图</a></li><li><a href="Spanish_events_LaR.html">西班牙事件（LaR）</a></li><li><a href="News_events_3.html">新闻事件 3</a></li><li><a href="News_events_DoD.html">新闻事件（DoD）</a></li><li><a href="News_events_LaR.html">新闻事件（LaR）</a></li><li><a href="News_events_MtG.html">新闻事件（MtG）</a></li><li><a href="One_King,_Two_Crowns.html">一王两冠（One King, Two Crowns）</a></li><li><a href="Ideology.html">意识形态</a></li><li><a href="Chinese_events_WtT.html">中国事件（WtT）</a></li><li><a href="State.html">州</a></li><li><a href="American_events.html">American事件</a></li><li><a href="Border_conflict_events.html">Border conflict事件</a></li><li><a href="Finnish_events.html">Finnish事件</a></li><li><a href="Naval_treaty_events.html">Naval treaty事件</a></li><li><a href="Nuke_events.html">Nuke事件</a></li><li><a href="List_of_operations.html">operations列表</a></li><li><a href="Political_events.html">Political事件</a></li><li><a href="SS_recruitment_events.html">SS recruitment事件</a></li><li><a href="War_justification_events.html">War justification事件</a></li></ul>
+      <h3>1.19（27）</h3>
+      <ul><li><a href="Australia-Hungary.html">澳匈帝国</a></li><li><a href="Continuous_focus.html">持续焦点</a></li><li><a href="Danzig_queen.html">但泽女王（Danzig queen）</a></li><li><a href="National_spirit.html">国家精神</a></li><li><a href="Hail_to_the_King.html">国王万岁（Hail to the King）</a></li><li><a href="Pinot_Noirway.html">黑皮诺挪威（Pinot Noirway）</a></li><li><a href="Old_Zealand.html">旧西兰</a></li><li><a href="List_of_military_chiefs.html">军事首脑列表</a></li><li><a href="Releasable_countries_2f_Oceania.html">可释放国家/大洋洲</a></li><li><a href="Releasable_countries_2f_Asia.html">可释放国家/亚洲</a></li><li><a href="Downloadable_content_2.html">可下载内容 2</a></li><li><a href="Maphilindia.html">马来菲利印度（Maphilindia）</a></li><li><a href="America_Decolonized!.html">美国去殖民化！（America Decolonized!）</a></li><li><a href="Norway_Jose.html">挪威，何塞（Norway Jose）</a></li><li><a href="Special_forces_doctrine.html">特种部队学说</a></li><li><a href="Uralic_brothers_united.html">乌拉尔兄弟团结（Uralic brothers united）</a></li><li><a href="Cod_wars.html">鳕鱼战争（Cod wars）</a></li><li><a href="Indonesian_Princely_States.html">印度尼西亚土邦</a></li><li><a href="This_Achievement_is_Cheesy.html">这成就太俗套了（This Achievement is Cheesy）</a></li><li><a href="This_is_going_to_be_LIT.html">这要火了（This is going to be LIT）</a></li><li><a href="List_of_political_advisors.html">政治顾问列表</a></li><li><a href="List_of_commanders.html">指挥官列表</a></li><li><a href="List_of_commanders_(base_game).html">指挥官列表（原版）</a></li><li><a href="List_of_military_high_command.html">最高统帅部列表</a></li><li><a href="Afghan_events.html">Afghan事件</a></li><li><a href="Faction_modding.html">Faction模组制作</a></li><li><a href="List_of_theorists.html">theorists列表</a></li></ul>
+      <h3>1.12（26）</h3>
+      <ul><li><a href="Bulgarian_events_BftB.html">保加利亚事件（BftB）</a></li><li><a href="Nudger.html">地图编辑器</a></li><li><a href="The_Red_Sea.html">红海（The Red Sea）</a></li><li><a href="By_Beer_Alone.html">仅凭啤酒（By Beer Alone）</a></li><li><a href="List_of_default_ship_variants.html">默认舰船型号列表</a></li><li><a href="You_Shall_Not_Pass.html">你不能通过（You Shall Not Pass）</a></li><li><a href="Holy,_Roman,_and_an_Empire.html">神圣、罗马且是一个帝国（Holy, Roman, and an Empire）</a></li><li><a href="Career_profile.html">生涯档案</a></li><li><a href="The_Lion_King.html">狮子王（The Lion King）</a></li><li><a href="Crusader_Kings_IV.html">十字军之王 IV（Crusader Kings IV）</a></li><li><a href="On_actions.html">事件钩子</a></li><li><a href="Data_structures.html">数据结构</a></li><li><a href="Soviet_Union.html">苏联</a></li><li><a href="Variant.html">型号</a></li><li><a href="Hungarian_events_DoD_1.html">匈牙利事件（DoD 1）</a></li><li><a href="Italian_events_BBA.html">意大利事件（BBA）</a></li><li><a href="Character_modding.html">Character模组制作</a></li><li><a href="Decision_events.html">Decision事件</a></li><li><a href="Event_modding.html">Event模组制作</a></li><li><a href="Font_modding.html">Font模组制作</a></li><li><a href="Japanese_events.html">Japanese事件</a></li><li><a href="Map_modding.html">Map模组制作</a></li><li><a href="Occupation_events.html">Occupation事件</a></li><li><a href="Soviet_decisions.html">Soviet决议</a></li><li><a href="Swiss_events.html">Swiss事件</a></li><li><a href="Turkish_decisions.html">Turkish决议</a></li></ul>
+      <h3>1.13（25）</h3>
+      <ul><li><a href="Al-Andalus.html">安达卢斯</a></li><li><a href="The_Danelaw.html">丹麦法区（The Danelaw）</a></li><li><a href="Lone_Wolf.html">独狼（Lone Wolf）</a></li><li><a href="Cheese_your_fighter..html">给你的战斗机加奶酪（Cheese your fighter.）</a></li><li><a href="Country_creation.html">国家创建</a></li><li><a href="Sapmi_united_by_the_fire.html">火边的萨米团结（Sapmi united by the fire）</a></li><li><a href="Bearer_of_Artillery.html">火炮持有者（Bearer of Artillery）</a></li><li><a href="Caramelldansen.html">焦糖舞（Caramelldansen）</a></li><li><a href="Military_industrial_organization.html">军工组织</a></li><li><a href="The_Magic_School_Bus.html">神奇校车（The Magic School Bus）</a></li><li><a href="New_World_Order.html">世界新秩序</a></li><li><a href="The_return_of_the_king.html">王者归来（The return of the king）</a></li><li><a href="Party_like_it's_1520.html">像 1520 年那样狂欢（Party like it's 1520）</a></li><li><a href="Modifiers.html">修正项</a></li><li><a href="Scopes.html">作用域</a></li><li><a href="Balance_of_power_modding.html">Balance of power模组制作</a></li><li><a href="Bookmark_modding.html">Bookmark模组制作</a></li><li><a href="List_of_Material_Equipment_MIOs.html">Material Equipment MIOs列表</a></li><li><a href="Military_industrial_organization_modding.html">Military industrial organization模组制作</a></li><li><a href="National_focus_modding.html">National focus模组制作</a></li><li><a href="List_of_Plane_MIOs.html">Plane MIOs列表</a></li><li><a href="Political_decisions.html">Political决议</a></li><li><a href="List_of_Ship_MIOs.html">Ship MIOs列表</a></li><li><a href="State_modding.html">State模组制作</a></li><li><a href="List_of_Tank_MIOs.html">Tank MIOs列表</a></li></ul>
+      <h3>1.18（20）</h3>
+      <ul><li><a href="Belgium.html">比利时</a></li><li><a href="Protektorat_Böhmen-Mähren.html">波希米亚和摩拉维亚保护国</a></li><li><a href="30_Minutes_of_Hel.html">地狱三十分钟（30 Minutes of Hel）</a></li><li><a href="The_501st_Legion.html">第 501 军团（The 501st Legion）</a></li><li><a href="List_of_aircraft_designers.html">飞机设计商列表</a></li><li><a href="List_of_industrial_concerns.html">工业集团列表</a></li><li><a href="Galicia_and_Lodomeria.html">加利西亚和洛多梅里亚</a></li><li><a href="List_of_ship_designers.html">舰船设计商列表</a></li><li><a href="Czechoslovakia.html">捷克斯洛伐克</a></li><li><a href="Ain't_like_that_now.html">今非昔比（Ain't like that now）</a></li><li><a href="Carpatho-Ukraine.html">喀尔巴阡乌克兰</a></li><li><a href="Bad_Romeance.html">罗马式浪漫（Bad Romeance）</a></li><li><a href="Slovakia.html">斯洛伐克</a></li><li><a href="Sudetenland.html">苏台德</a></li><li><a href="List_of_tank_designers.html">坦克设计商列表</a></li><li><a href="I_didn't_hear_no_bell.html">我没听到铃声（I didn't hear no bell）</a></li><li><a href="This_time_for_Africa.html">这次为了非洲（This time for Africa）</a></li><li><a href="List_of_materiel_designers.html">装备设计商列表</a></li><li><a href="Böhmen-Mähren_decisions.html">Böhmen-Mähren决议</a></li><li><a href="Congress_decisions.html">Congress决议</a></li></ul>
+      <h3>Disambiguation（20）</h3>
+      <ul><li><a href="Minelaying.html">布雷</a></li><li><a href="Kingdom_of_Burundi.html">布隆迪王国</a></li><li><a href="Infantry_Offensive.html">步兵攻势（Infantry Offensive）</a></li><li><a href="Delay.html">迟滞（Delay）</a></li><li><a href="Elastic_Defense.html">弹性防御（Elastic Defense）</a></li><li><a href="Backhand_Blow.html">反手一击（Backhand Blow）</a></li><li><a href="Congo.html">刚果</a></li><li><a href="Naval_Strike_Torpedo_Tactics.html">海军打击鱼雷战术（Naval Strike Torpedo Tactics）</a></li><li><a href="Mechanized_Offensive.html">机械化攻势（Mechanized Offensive）</a></li><li><a href="Spirit.html">精神（消歧义）</a></li><li><a href="Submarine_Operations.html">潜艇作战（Submarine Operations）</a></li><li><a href="Minesweeping.html">扫雷</a></li><li><a href="Infiltration_Assault.html">渗透突击（Infiltration Assault）</a></li><li><a href="Trait.html">特质（消歧义）</a></li><li><a href="Spain.html">西班牙</a></li><li><a href="Reconnaissance.html">侦察（消歧义）</a></li><li><a href="Battlefleet_Concentration.html">主力舰队集中（Battlefleet Concentration）</a></li><li><a href="Organization.html">组织度（消歧义）</a></li><li><a href="Guinea_(disambiguation).html">Guinea（消歧义）</a></li><li><a href="United_Netherlands_(disambiguation).html">United Netherlands（消歧义）</a></li></ul>
+      <h3>DLC（15）</h3>
+      <ul><li><a href="Battle_for_the_Bosporus.html">博斯普鲁斯之战</a></li><li><a href="No_Compromise,_No_Surrender.html">不妥协，不投降</a></li><li><a href="La_Résistance.html">抵抗运动</a></li><li><a href="Graveyard_of_Empires.html">帝国坟场</a></li><li><a href="Arms_Against_Tyranny.html">反抗暴政</a></li><li><a href="Together_for_Victory.html">共赴胜利</a></li><li><a href="Waking_the_Tiger.html">唤醒猛虎</a></li><li><a href="Thunder_at_Our_Gates.html">雷霆临门</a></li><li><a href="Man_the_Guns.html">全民持枪</a></li><li><a href="Death_or_Dishonor.html">死亡或耻辱</a></li><li><a href="By_Blood_Alone.html">唯有鲜血</a></li><li><a href="Peace_for_Our_Time.html">我们时代的和平</a></li><li><a href="Trial_of_Allegiance.html">效忠审判</a></li><li><a href="No_Step_Back.html">一步不退</a></li><li><a href="Götterdämmerung.html">诸神黄昏</a></li></ul>
+      <h3>1.15（11）</h3>
+      <ul><li><a href="Belgian_Congo.html">比属刚果</a></li><li><a href="German_events_GD.html">德国事件（GD）</a></li><li><a href="Don_Cossack_Host.html">顿河哥萨克</a></li><li><a href="Antischluss.html">反德奥合并（Antischluss）</a></li><li><a href="Air_combat.html">空战</a></li><li><a href="Air_missions.html">空中任务</a></li><li><a href="Kuban_National_Republic.html">库班民族共和国</a></li><li><a href="Go_Ahead,_Macau_My_Day.html">来吧，澳门我的天（Go Ahead, Macau My Day）</a></li><li><a href="Special_project.html">特殊项目</a></li><li><a href="Building_modding.html">Building模组制作</a></li><li><a href="German_decisions.html">German决议</a></li></ul></aside>
+<main class="content">
+
+<h1 class="page-title">补丁 1.17.X</h1>
+<p class="subtitle">原页面：Patch 1.17.X</p>
+<div class="cov-banner">本页中文翻译进度 <b>97%</b>，未译部分暂保留英文原文。</div>
+<nav class="toc" aria-label="目录"><div class="toc-title">目录</div><ol><li class="lvl-2"><a href="#s-17v0zli">1.17</a></li><li class="lvl-2"><a href="#s-10733cp">1.17.0.1</a></li><li class="lvl-2"><a href="#s-1x0us57">1.17.1</a></li><li class="lvl-2"><a href="#s-11joevu">1.17.1.1</a></li><li class="lvl-2"><a href="#s-1xaudu6">1.17.2</a></li><li class="lvl-2"><a href="#s-1xktzj5">1.17.3</a></li><li class="lvl-2"><a href="#s-1xutl84">1.17.4</a></li><li class="lvl-2"><a href="#s-1l727il">1.17.4.1</a></li><li class="lvl-2"><a href="#s-1y4t6x3">1.17.5</a></li><li class="lvl-2"><a href="#s-ebn026">1.17.5.1</a></li><li class="lvl-2"><a href="#s-e1ned7">1.17.5.2</a></li><li class="lvl-2"><a href="#s-1p1yprf">参考资料</a></li><li class="lvl-3"><a href="#s-1ymsk4d">Feature</a></li><li class="lvl-3"><a href="#s-mp1saw">Bugfix</a></li><li class="lvl-3"><a href="#s-kxxksr">收支</a></li><li class="lvl-3"><a href="#s-1aes9w5">Gameplay</a></li><li class="lvl-3"><a href="#s-ye4dff">UI</a></li><li class="lvl-3"><a href="#s-9xx36n">AI</a></li><li class="lvl-3"><a href="#s-9m30fv">模组制作</a></li><li class="lvl-3"><a href="#s-mp1saw-2">Bugfix</a></li><li class="lvl-3"><a href="#s-kxxksr-2">收支</a></li><li class="lvl-3"><a href="#s-9xx36n-2">AI</a></li><li class="lvl-3"><a href="#s-mp1saw-3">Bugfix</a></li><li class="lvl-3"><a href="#s-kxxksr-3">收支</a></li><li class="lvl-3"><a href="#s-1aes9w5-2">Gameplay</a></li><li class="lvl-3"><a href="#s-1h83hpk">稳定性与性能</a></li><li class="lvl-3"><a href="#s-ye4dff-2">UI</a></li><li class="lvl-3"><a href="#s-9xx36n-3">AI</a></li><li class="lvl-3"><a href="#s-9m30fv-2">模组制作</a></li><li class="lvl-3"><a href="#s-mp1saw-4">Bugfix</a></li><li class="lvl-3"><a href="#s-kxxksr-4">收支</a></li><li class="lvl-3"><a href="#s-1aes9w5-3">Gameplay</a></li><li class="lvl-3"><a href="#s-9xx36n-4">AI</a></li><li class="lvl-3"><a href="#s-9m30fv-3">模组制作</a></li><li class="lvl-3"><a href="#s-mp1saw-5">Bugfix</a></li><li class="lvl-3"><a href="#s-kxxksr-5">收支</a></li><li class="lvl-3"><a href="#s-jew6h3">新功能</a></li><li class="lvl-3"><a href="#s-1aes9w5-4">Gameplay</a></li><li class="lvl-3"><a href="#s-ye4dff-3">UI</a></li><li class="lvl-3"><a href="#s-9xx36n-5">AI</a></li><li class="lvl-3"><a href="#s-9m30fv-4">模组制作</a></li><li class="lvl-3"><a href="#s-mp1saw-6">Bugfix</a></li><li class="lvl-3"><a href="#s-mp1saw-7">Bugfix</a></li><li class="lvl-3"><a href="#s-yks9dl">太平洋战舰</a></li><li class="lvl-3"><a href="#s-ye4dff-4">UI</a></li><li class="lvl-3"><a href="#s-kxxksr-6">收支</a></li><li class="lvl-3"><a href="#s-1aes9w5-5">Gameplay</a></li><li class="lvl-3"><a href="#s-13rkbwl">Performance</a></li><li class="lvl-3"><a href="#s-9xx36n-6">AI</a></li><li class="lvl-3"><a href="#s-9m30fv-5">模组制作</a></li><li class="lvl-3"><a href="#s-mp1saw-8">Bugfix</a></li><li class="lvl-3"><a href="#s-xfilws">Bugfixes</a></li><li class="lvl-3"><a href="#s-xfilws-2">Bugfixes</a></li><li class="lvl-4"><a href="#s-i6j3vw">苏联专属改动</a></li><li class="lvl-4"><a href="#s-g6drub">海军综合改动</a></li><li class="lvl-4"><a href="#s-15l44cx">空战/陆战综合改动</a></li><li class="lvl-4"><a href="#s-sufqxn">学说/精通改动</a></li><li class="lvl-4"><a href="#s-wkqkic">其他改动</a></li><li class="lvl-4"><a href="#s-1lxf6db">AI 装备</a></li><li class="lvl-4"><a href="#s-hpvire">海军 AI 改动</a></li></ol></nav>
+<div class="mw-parser-output">
+
+<p><b>补丁 1.17.X</b> 均为以 1.17 开头的全部补丁。</p>
+<h2 id="s-17v0zli" data-section="1"><span class="mw-headline" id="1.17">1.17</span></h2>
+<dl><dd><div style="margin-left:1.5em"><i>主条目：<a href="Patch_1.17.html">补丁 1.17</a></i></div></dd></dl>
+<h2 id="s-10733cp" data-section="1"><span class="mw-headline" id="1.17.0.1">1.17.0.1</span></h2>
+<p>热修复 1.17.0.1 于 2025-11-21<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup>发布，校验和为 <i>645a</i>。</p>
+<h3 id="s-1ymsk4d" data-section="1"><span class="mw-headline" id="Feature">Feature</span></h3>
+<ul><li>新增了一个「不可移动」凝聚力设置，它会关闭所有隶属于某作战计划的单位的自动调动。使用该设置时策划速度减半。Shift+D 热键现在会在作战计划界面中打开凝聚力菜单。（Arheo 通宵工作才把这个塞进去！）</li></ul>
+<h3 id="s-mp1saw" data-section="1"><span class="mw-headline" id="Bugfix">Bugfix</span></h3>
+<ul><li>修复了海军司令部窗口无法用鼠标滚轮滚动的问题</li>
+<li>修复了一个 bug：添加新海军上将时海军司令部指挥官窗口不会刷新</li>
+<li>修复了读取存档后切换到 1939 年剧本时的崩溃</li>
+<li>修复了一个错误：在没有「不妥协，不投降」时，唐努乌梁海野心极大且毫不掩饰</li>
+<li>修复了一个 bug：在没有「不妥协，不投降」时，波兰不会收到加入同盟国的邀请</li></ul>
+<h2 id="s-1x0us57" data-section="1"><span class="mw-headline" id="1.17.1">1.17.1</span></h2>
+<p>补丁 1.17.1 于 2025-11-26<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup>发布，校验和为 <i>922a</i>。</p>
+<h3 id="s-kxxksr" data-section="1"><span class="mw-headline" id="Balance">收支</span></h3>
+<ul><li>调整了蒋介石与汪精卫可以通过中国国策树获得的投降上限加成。</li>
+<li>把日本焦点「军部大臣现役武官制」的时间花费缩短到 35 天，并调整了 AI 策略计划以将其考虑在内。</li>
+<li>菲律宾：附属国……投降分支重新平衡——降低了抵抗目标，提高了对驻军的伤害。</li>
+<li>日本现在从「突袭入侵」修正中获得略微降低的精通获取惩罚。在中国若干更合适的州添加了「人口稠密农村地区」修正。</li>
+<li>日本焦点「7075 铝合金」现在在大阪提供 5 铝，而非 25% 空中突破进度，而焦点「开发新型战斗机」现在为轻型飞机提供稍大的空中突破加成与提前研究惩罚减免。</li>
+<li>放宽了「军事基础设施」阵营目标的要求。</li>
+<li>放宽了「漠不关心即是威胁」的不结盟国家数量上限。</li>
+<li>大幅降低了「红色浪潮」目标的人力需求，并提高了奖励。</li>
+<li>为「东欧安全」目标添加了更多附属国。</li>
+<li>为「一个德国」目标添加了阵营主动权奖励。</li>
+<li>降低了「建设关岛」目标的要求并提高了奖励。</li>
+<li>提高了「组织抵抗」目标的奖励。</li>
+<li>大幅提高了「保持（中国）海岸线控制权」目标的奖励。</li>
+<li>大幅提高了「赶走入侵者」目标的奖励。</li>
+<li>提高了「控制中国各首都」目标的奖励。</li>
+<li>提高了「拉拢中国」目标的奖励。</li>
+<li>民主中国的焦点「转变平衡」现在有替代要求，并且在走民主路线时，意识形态上不可用的顾问现在会被隐藏。</li>
+<li>焦点「捍卫自由事业」现在给予一个科研槽</li>
+<li>为福建省份添加了 15 点钨。</li>
+<li>「中国统一战线」阵营纲领现在在纲领完成度越低时最多给予 10% 核心防御。</li>
+<li>将中国国家精神「低效经济」的开局惩罚从 -40% 降低到 -35%。</li>
+<li>对子学说精通加成做了轻微调整。</li>
+<li>基础潜艇通气管科技从 1940 年移到 1939 年，改进型潜艇通气管从 1944 年移到 1943 年。</li>
+<li>AIP-柴油组合引擎科技从 1940 年移到 1939 年，高速瓦尔特引擎从 1944 年移到 1943 年。</li>
+<li>「改进型双用途炮组」科技从 1939 年移至 1940 年。</li>
+<li>「冰复合材料跑道」科技从 1945 年移至 1944 年。</li>
+<li>添加了关于运输船的信息：它们是支援舰特殊项目的解锁条件。</li>
+<li>制海权现在要求 60% 的控制比例，此前为 66%</li></ul>
+<h3 id="s-1aes9w5" data-section="1"><span class="mw-headline" id="Gameplay">Gameplay</span></h3>
+<ul><li>菲律宾：在与美国开战的情况下，独裁者麦克阿瑟将留在 PHI。</li>
+<li>把太原的位置移动得更贴近现实，并在该省份添加了一座 1 级陆地要塞。</li></ul>
+<h3 id="s-ye4dff" data-section="1"><span class="mw-headline" id="UI">UI</span></h3>
+<ul><li>修复了战斗结果界面中海军司令部提示框会重复显示同一名指挥官的问题。</li>
+<li>修复了被占领的海军司令部不显示在受控司令部列表中的问题</li>
+<li>修复了读取存档后海军司令部无法被占领的问题</li>
+<li>修复了学说成本减免提示框中损坏的换行。</li>
+<li>修复了「能源不足」修正不在工厂产出提示框中显示的问题。</li>
+<li>修复了「切换阵营战区」按钮始终显示通用阵营图标的问题。</li>
+<li>修复了海军地区界面内的制海权标志无法点击的问题。</li>
+<li>修复了在打开师编制器时战争总结窗口无法关闭的问题。</li>
+<li>修复了装备属性提示框在属性明细中不列出学说修正的问题。</li>
+<li>修复了添加新海军指挥官时海军司令部指挥官窗口不刷新的问题。</li>
+<li>修复了空军与海军演习无法像陆军演习那样，通过 shift+点击正确显示它们处于受经验限制的训练状态的问题。</li>
+<li>修复了请求驻军支持滑条的一些易用性问题。</li>
+<li>修复了阵营影响力提示框上缺失的国家名称。</li></ul>
+<h3 id="s-9xx36n" data-section="1"><span class="mw-headline" id="AI">AI</span></h3>
+<ul><li>日本 AI 现在会在和平会议结束时，自动将其创建的中国傀儡国合并入重组政府。</li>
+<li>改进了 AI 对舰队母港的选择。</li>
+<li>改进了海军 AI 的目标选择。</li>
+<li>意大利与英国应当在地中海互相厮杀到更符合历史的程度</li>
+<li>美国和日本现在能更恰当地在太平洋上互相打个半死</li>
+<li>AI 现在以每个海军基地为基础、而非以每个敌国为基础来评估运输船队袭击。这修复了舰队试图覆盖全世界的情况。</li>
+<li>AI 现在会更积极地把其舰队移动到其驻泊位置，减少打击舰队被卡在航程门槛之后的情况</li>
+<li>海军 AI 现在应当会根据敌人在目标制海增长地区的存在更好地逐步升级</li></ul>
+<h3 id="s-9m30fv" data-section="1"><span class="mw-headline" id="Modding">模组制作</span></h3>
+<ul><li>修复了当传入错误的子学说时 has_mastery_level 触发器崩溃的问题。</li>
+<li>修复了一些多人游戏不同步的情况。</li>
+<li>修复了同类型叠加的营加成在汇总学说描述中未被正确显示的问题。</li>
+<li>修复了「has_industry_to_become_leader」、「has_enough_influence_for_leadership」与「has_manpower_to_become_leader」触发器不支持 = no 的问题。</li>
+<li>为大型学说添加了「max_track_columns」与「max_track_rows」属性，允许动态的多行学说轨道布局。</li>
+<li>修复了切换国家后脚本化 GUI 窗口消失的问题。</li>
+<li>当学说轨道有多行时，学说选择列表现在会靠右侧对齐。</li>
+<li>naval_dominance 策略现在除了战略地区之外也接受 AI 区域作为参数。这让你可以引导 AI 更好地拆分打击舰队——但小心不要把它们摊得太薄</li></ul>
+<h3 id="s-mp1saw-2" data-section="1"><span class="mw-headline" id="Bugfix_2">Bugfix</span></h3>
+<ul><li>修复了与作战计划相关的崩溃</li>
+<li>修复了部分针对海军与空军规模的阵营目标错误地以陆军规模来衡量的问题。</li>
+<li>修复了在特定情况下已完成目标不显示的问题。</li>
+<li>修复了战区被其他任何人拥有时阵营战区显示 0 个国家的问题。</li>
+<li>中国军阀现在可以在后军阀国民党树中完成相应焦点后，获得矿业委员会工业集团。</li>
+<li>美国不会立即退出菲律宾独立战争。</li>
+<li>修复了日本可能因为在边境战争中过快击败苏联而被某项任务惩罚的问题。</li>
+<li>修复了中国共产党的人民民兵子学说无法正确解锁精通奖励的问题。</li>
+<li>新增了一个事件，为国民党中国解锁「撤退到台湾」焦点。</li>
+<li>修复了「军事研发」目标将阵营影响力施加到错误国家的问题。</li>
+<li>在选取焦点「削弱控制院」之后，中国不再出现多个用于降低同一个军阀附属国自治度的决议。在两次事件中通过两广事件成为傀儡国的广东，现在也能被那些决议正确设为目标。</li>
+<li>如果阵营领袖不是民主国家，民主日本不再能通过决议邀请国家加入其所在阵营。</li>
+<li>中国与各军阀的疏散工厂决议不应再把工厂从一个州移除后又添加回同一个州。</li>
+<li>修复了海军上将在变为不可用后未从海军司令部移除的问题。</li>
+<li>修复了中国从「猎鹰的适时俯冲」焦点获得的部分修正未正确生效的问题。</li>
+<li>修复了阵营目标中把舰船与飞机称为「营」的错误，这让水兵与飞行员们大大松了一口气——他们本在极度恐惧中担心自己会被发一把挖壕铲。</li>
+<li>修复了日本焦点「资助理化学研究所」损坏的可用性检查。</li>
+<li>修复了国民党施加的游击州修正会在接收方未与 PRC 交战时不消失的问题。</li>
+<li>「收复北方」焦点现在会给予中国所控制之指定州的核心，而不仅是它未控制的州。</li>
+<li>修复了当学说成本已降至 0 时仍会消耗成本减免的问题。</li>
+<li>将日本向中国提出白色和平的决议锁定为只能使用一次。</li>
+<li>锁定了中国在 1939 年开局触发西安事变的可能性。</li>
+<li>中国军阀通过该事件被接受加入统一战线的可能性提高了。</li>
+<li>修复了成为傀儡国后生产所得资源变为 0 的问题。</li>
+<li>修复了军阀有时会在获得足够政治点数请求加入中国统一战线之前就投降的问题。</li>
+<li>修复了英国和埃塞俄比亚国策树中几处未本地化的学说加成。</li>
+<li>修复了使用排序按钮后无法为司令部指派海军指挥官的问题。</li>
+<li>修复了如果捷克通过「整合捷克斯洛伐克」焦点被吞并，德国「但泽换斯洛伐克」焦点就无法生效的问题。</li>
+<li>修复了在未启用《帝国坟场》时，英属印度试图使用一个它并不拥有的 MIO 来生产步兵装备的问题。</li>
+<li>修复了军事顾问维尔纳·容克在应被国策树决议锁定时却被错误地提供给伊拉克的问题。</li>
+<li>修复了错误允许被分配至「袭击武器库」与「伞兵突袭」的师在准备和执行突袭期间更改其编制的错误。</li>
+<li>修复了 USA 1939 年开局错误的初始子学说。</li>
+<li>现在可以绘制依附于海军登陆命令的进攻线。</li>
+<li>在诺福克添加了一个美国海军补给枢纽。</li>
+<li>若干修复：确保蒋介石在完成「谴责封建主义」后于两广事件期间去世时，由其妻子成为国家领袖；并修复了如果通过该事件链提前成立阵线，河北-察哈尔会被邀请的问题。</li>
+<li>修复了各种单位动画异常的问题。</li>
+<li>在开启历史国策时，将中国共产党设定为始终接受加入中国统一战线的邀请。</li>
+<li>中国共产党：添加了新的游击战专家特质，专注于游击战。</li>
+<li>修复了德国内战期间使用国民党中国国策树时的崩溃</li>
+<li>修复了当你释放一个国家后，若不推进就尝试制作新装备设计时的崩溃</li>
+<li>执行现役海军任务的航母不应再每刻发送数百条网络命令（这会导致在糟糕连接上延迟更高）</li>
+<li>海军目标黑名单现在应对所有任务类型都能按预期工作</li>
+<li>修复了在 mac 上悬停边境战争地图图标时的崩溃</li>
+<li>修复了一个 bug：舰载战斗机造成了过多的伤害</li>
+<li>修复了一个漏洞：没有任何攻击战斗机的航空队仍会造成伤害</li>
+<li>修复了补充率小到无法计算时导致的崩溃</li></ul>
+<h2 id="s-11joevu" data-section="1"><span class="mw-headline" id="1.17.1.1">1.17.1.1</span></h2>
+<p>补丁 1.17.1.1 于 2025-11-27<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup>发布，校验和为 <i>e990</i>。</p>
+<h3 id="s-kxxksr-2" data-section="1"><span class="mw-headline" id="Balance_2">收支</span></h3>
+<ul><li>意大利「特种海军部队」焦点现在会把每个海军登陆计划的师容量提高 2。</li></ul>
+<h3 id="s-9xx36n-2" data-section="1"><span class="mw-headline" id="AI_2">AI</span></h3>
+<ul><li>修复了 AI 国家把其舰船拆分为许多微小特遣舰队的问题，并修复了 AI 在和平时期不把特遣舰队分配给训练的问题。</li></ul>
+<h3 id="s-mp1saw-3" data-section="1"><span class="mw-headline" id="Bugfix_3">Bugfix</span></h3>
+<ul><li>修复了一个边界情况：如果 CHI 或 PRC 退出中国统一战线（若由 PRC 在没有西安事变的情况下成立），军阀决议会触发西安事变。</li>
+<li>修复了中国军阀在选取焦点「接近日本」后不会获得相应决议的问题。</li>
+<li>本地化现在使用 64 位哈希，以降低冲突几率并解决随机的本地化 bug。</li>
+<li>修复了中国共产党「渗透冀东」事件导致的崩溃。</li>
+<li>修复了中国军阀「个人领导」焦点的描述，使其正确说明所获得的将领特质将是随机的。</li>
+<li>修复了「击败反法西斯主义者」阵营目标错误地允许斯大林回心转意并转而对抗共产国际的问题。</li>
+<li>修复了当目标设定者为不结盟时民主阵营仍可选取「向民主国家宣战」的问题。</li>
+<li>修复了开始第二局游戏后空军地图模式不显示制空权状态的问题。</li>
+<li>修复了在禁用 NCNS DLC 时，日本焦点「菊花王朝」无法正确让裕仁成为国家领袖的问题。</li>
+<li>修复了意大利「特种海军部队」焦点以过时的海军登陆容量修正为目标的问题。</li>
+<li>修复了韩语与其他本地化处于同一分组时发生的多人 OOS。</li>
+<li>修复了中国 MIO「617 厂」特质，使其正确影响现代坦克。</li>
+<li>修复了「大逃杀」成就，此前要求玩家在 1940 年前还要击败 JAP 与 CHI。</li>
+<li>修复了成就「蛇也抽了烟」缺失的不符合条件图标。</li>
+<li>修复了各种拼写错误。</li>
+<li>修复了在未启用 NCNS 时伊拉克错误地向英国授予空军基地通行权的问题。</li></ul>
+<h2 id="s-1xaudu6" data-section="1"><span class="mw-headline" id="1.17.2">1.17.2</span></h2>
+<p>补丁 1.17.2 于 2025-12-04<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup>发布，校验和为 <i>f136</i>。</p>
+<h3 id="s-kxxksr-3" data-section="1"><span class="mw-headline" id="Balance_3">收支</span></h3>
+<ul><li>新增了两座建筑，它们根据基础设施等级提供递进效果——降低能源消耗，或提高本地资源获取效率。这两座建筑在一个州内互斥。</li>
+<li>能源需求为零时现在给予零生产惩罚</li>
+<li>基础设施提供的资源从 20% 降低到 15%（注意：有了新建筑，你最终仍可能比之前获得更多）。</li>
+<li>「商用核反应堆」现在提供 -50% 州能源消耗系数，从 -25% 提升而来。</li>
+<li>「电子集团」现在使工厂能源消耗降低 10%。</li>
+<li>「工业集团」现在提供 6 点煤炭，并使煤炭获取效率提高 5%。</li>
+<li>把装备转换科技替换为能源获取效率科技。每项科技 +15% 每单位煤的能源获取。</li>
+<li>前四项「机床」科技现在额外提供 +20% 装备转换速度。</li>
+<li>通过出口资源获得的工厂现在对每工厂能源的影响更小。</li>
+<li>为每工厂能源消耗添加了上限。</li>
+<li>更新了 AI 对「采掘」及改用途科技的优先研究顺序，使其将煤炭纳入考量。</li>
+<li>「采掘」科技现在额外提供 +5% 煤炭获取效率。</li>
+<li>中国军阀在成为其国家替代意识形态的领袖时，现在会保留一个开局特质。</li>
+<li>中国共享焦点「邀请苏联顾问」现在给予一个国家精神，提升陆军经验与组织度，并使若干 NCNS 共享分支焦点的耗时与非 NCNS 版本保持一致。</li>
+<li>把「巡逻艇」与「轻型特遣舰队」子学说中的驱逐舰水面可见度加成降低到 -5%，因为它可以叠加到使它们难以被命中的程度。</li>
+<li>为国民党中国库存添加了一些轻型坦克，以反映战前的历史库存。</li>
+<li>降低了阵营中共享科学家带来的影响力获取。</li>
+<li>降低了从军阀附属国获得的 PP 收益，并使其可见。</li>
+<li>使国民党中国不再浪费地支援河北-察哈尔。</li>
+<li>交换了湖北与武汉的人口。</li></ul>
+<h3 id="s-1aes9w5-2" data-section="1"><span class="mw-headline" id="Gameplay_2">Gameplay</span></h3>
+<ul><li>BEL：阿登猎兵在启用 NCNS 后现在更新为游骑兵。国家精神也相应更新。</li>
+<li>新增了一条规则：只有阵营领袖才能设定新的阵营目标。</li>
+<li>PHI：添加了更多党派名称。</li>
+<li>新增了炸毁与修复缅甸油田的能力。</li>
+<li>添加了一个外交触发器，防止军阀 tag 释放国民党或中国共产党。</li>
+<li>PHI：美国现在会在「海洋共产主义」路线的美国干预和平结束后给予独立。你也不再需要完成《马尼拉条约》。</li>
+<li>国民党现在可以通过自治度系统继承其吞并的军阀附属国的历史国民党将领。</li>
+<li>PHI：使经验获取惩罚能更早被解除（拥有「国防法案」时为 40%）。</li>
+<li>日本在中国的傀儡政府现在可以解锁「宣抚」占领法令，而宣布实行君主制的军阀 tag 现在会为其中立与法西斯政党获得新名称。</li>
+<li>满洲国与后军阀树所使用的共享树现在有请求移交条约口岸沿海城市的选项。</li>
+<li>PHI：为工业集团添加了一些研究加成：电话公司获得电子加成，铁路公司获得工业加成。</li>
+<li>PHI：新增巴西利奥·瓦尔德斯为开局即可用的新陆军参谋长，不依赖美国或日本。</li>
+<li>使中国 AI 始终接受日本的白色和平提议。</li>
+<li>新增了中国的朱家骅、满洲国的川岛浪速与新疆的加雷金·阿普列索夫作为新顾问。</li>
+<li>为日本和蒙古添加了「陶兰事件」作为事件链与边境战争。</li>
+<li>添加了翁文灏作为中国地质学家顾问。</li>
+<li>在西孟加拉添加了大吉岭作为胜利点。</li>
+<li>添加了伊塔纳加尔作为胜利点。</li>
+<li>新增了一次针对中国长城的陆地突袭。</li>
+<li>重命名了一些陆地巡洋舰的副武器/附加武器，以避免与炮塔类型模块混淆。</li>
+<li>为游戏内教程弹窗界面添加了新的教程视频。</li></ul>
+<h3 id="s-1h83hpk" data-section="1"><span class="mw-headline" id="Stability_&amp;_Performance">稳定性与性能</span></h3>
+<ul><li>改进了 AI 更新中的核心利用率。</li>
+<li>修复了玩家在热加入多人游戏时被踢出所导致的罕见游戏状态损坏。</li>
+<li>修复了在军官团窗口点击海军司令部按钮时的崩溃。</li></ul>
+<h3 id="s-ye4dff-2" data-section="1"><span class="mw-headline" id="UI_2">UI</span></h3>
+<ul><li>工厂的顶部栏提示框现在会包含从附属国关系送出/收到的工厂（送往宗主国/从附属国收到）。</li>
+<li>修复了阵营列表窗口中过大的备用图标。</li>
+<li>修复了在选择省份时州视图被重新打开的问题。</li>
+<li>PHI：为那些缩短「国防法案」所需时间的焦点添加了更清晰的说明。</li>
+<li>为编辑非自有阵营战区时添加了提示框信息。</li>
+<li>新增了一个供各中国军阀使用的北洋军焦点图标。</li>
+<li>更新了军阀时期之后的国民党中国国策树，使用更现代、更准确的焦点图标。</li>
+<li>更新了阵营指挥官选择，以显示相关技能。</li>
+<li>拥有自定义精通条件的子学说会在子学说列表中被悬停时显示这些条件。</li>
+<li>Added an energy text icon.</li>
+<li>修复了空军任务情报的显示。</li>
+<li>小修复：在 PHI 的 Maphilindo 可成立国家中高亮显示各州。</li>
+<li>修复了「请求驻军支持」阵营行动缺失信息的问题。</li>
+<li>移除了一些不必要的学说警报。</li>
+<li>更新了新的「游击专家」特质与旧的「游击战专家」的本地化（现在分别为「游击战专家」与「反叛乱专家」）。</li>
+<li>更改了 add_faction_influence_effect 的本地化，以将可能的负阵营影响力考虑在内。</li>
+<li>调整了精通条件提示框的本地化。</li>
+<li>军阀 PRC 的外观标签现在已分配了颜色。</li>
+<li>修复了选择国家菜单中东北军的错误本地化。</li>
+<li>修复了点击不同将领时「额外补给」能力的图标会变化的问题</li></ul>
+<h3 id="s-9xx36n-3" data-section="1"><span class="mw-headline" id="AI_3">AI</span></h3>
+<ul><li>修复了 AI 未将训练特遣舰队部署到正确位置的问题。</li>
+<li>调整了若干独立后满洲 AI 焦点数值，使其在日本转民主或共产主义导致策略计划被取消时更为合理。</li>
+<li>日本现在会在 1939 年后生产舰载机。</li>
+<li>修复了海军 AI 的一个问题：RAJ 在完成「宝石成为王冠」焦点后不会使用从英国获得的舰船。</li>
+<li>AI 现在会遵守战略区域通行设置。</li>
+<li>AI 招募陆军科学家的意愿现在会在拥有陆军设施——而非核设施——时被正确检查。</li></ul>
+<h3 id="s-9m30fv-2" data-section="1"><span class="mw-headline" id="Modding_2">模组制作</span></h3>
+<ul><li>实现了整个文件夹范围的学说精通获取修正（例如 land_mastery_gain_factor）。</li>
+<li>为学说轨道实现了主动触发器，在条件未满足时阻止子学说分配与精通获取。</li>
+<li>实现了 has_any_grand_doctrine 触发器，它检查某个文件夹是否有任何已分配的大型学说。</li>
+<li>添加了修正 energy_gain_factor。</li>
+<li>Improved text for when has_manpower_to_become_leader has_industry_to_become_leader has_enough_influence_for_leadership are being implemented with = 0.</li>
+<li>添加了 ImGui 以可视化 AI 阵营战区。</li></ul>
+<h3 id="s-mp1saw-4" data-section="1"><span class="mw-headline" id="Bugfix_4">Bugfix</span></h3>
+<ul><li>新增了一个占位决议，用于显示（若受控则）可用的整合目标。</li>
+<li>修复了将军事精神描述为「因我们的学说而可用」的提示框不一致的问题。</li>
+<li>将「香淳皇后」更名为「Nagako」。</li>
+<li>修复了中国军阀在选取焦点「接近日本」后不会获得相应决议的问题。</li>
+<li>如果英国不再拥有对其国家的资源权，伊拉克现在可以跳过焦点「国有化英伊石油公司」。</li>
+<li>美国不再向中立日本发送租借，除非它们已完成焦点「成立时局委员会」。</li>
+<li>修复了各处的小拼写错误。</li>
+<li>为图兰可成立国家添加了一些缺失的州，并允许卡尔梅克成立大蒙古，后者现在也会获得相应地区的核心。</li>
+<li>中国共产党：修复了顾问康生在焦点「西方的教训」中未解锁的问题。</li>
+<li>中国共产党：修复了力量平衡决议「质疑旧传统，批判教条主义，批判前任领导层」中使用了错误的稳定度修正。</li>
+<li>中国共产党：使一个隐藏理念真正隐藏（来自「新的中央委员会」）。</li>
+<li>把在 NCNS 重做中被送到了错误州、因而就此消失的中国空军加了回来。</li>
+<li>修复了在未启用 NCNS 时外交行动「取消驻军支持」错误出现的问题。</li>
+<li>「转变平衡」与「加入国际社会」焦点要求中国独立。</li>
+<li>如果中国是附属国，「为统一中国奠定基础」现在会给予自治度。</li>
+<li>「永恒革命」现在要求中国保持独立才能创建阵营。</li>
+<li>强制攻击现在会正确地破坏那些未选取中国焦点「知己知彼」的单位的工事，此前这一效果被错误地施加给了所有人。</li>
+<li>「共产国际的一部分」焦点要求中国共产党独立才能加入阵营。</li>
+<li>修复了三处日本在作为他国附属国时仍可创建阵营的情况。</li>
+<li>PHI：现已将 Luis Taruc 变为可用一事加入到「共产党合法化」焦点的提示框中。</li>
+<li>修复了一个中国军阀焦点未正确更新其名称的问题。</li>
+<li>修复了焦点「满洲的新曙光」会给予对不存在的国家的战斗加成的问题。</li>
+<li>如果在皇道派路线中选择了该选项，雍仁现在会在帝国影响力窗口中正确地被称为摄政。</li>
+<li>PHI：艾森豪威尔与麦克阿瑟返回美国的事件现在会标明正确的国家。</li>
+<li>PHI：降低了美国召回麦克阿瑟的几率。</li>
+<li>修复了亚洲去殖民化后朝鲜抵抗修正仍然存在的问题。</li>
+<li>PHI：如果菲律宾已经独立，为「马尼拉条约」焦点添加了特殊描述。</li>
+<li>修复了在启用 NCNS DLC 时成就「大清万岁」无法完成的问题。</li>
+<li>X-Force 与 Y-Force 决议现在只能触发一次。</li>
+<li>在组建 X 部队时，军事通行权现在只会给予那些尚未拥有它的人。</li>
+<li>PHI：「争夺领导权」事件现在明确说明何塞·劳雷尔会提高「确保日本保障」焦点中获得日本支持的几率。</li>
+<li>修复了如果接收方在决议执行时已经投降，日本在印度与缅甸的傀儡政府就不会生成的问题。</li>
+<li>PHI：修复「菲律宾王国」焦点——如果存在多个西班牙版本，则无法为整个西班牙添加核心。</li>
+<li>修复了单位设计成本修正可能超过 -100% 的问题。</li>
+<li>PHI：为没有「不妥协，不投降」的玩家添加了菲律宾国家领袖名称。</li>
+<li>PHI：为没有「不妥协，不投降」的玩家添加了一名法西斯煽动家。</li>
+<li>修复了一个边界情况：如果 CHI 或 PRC 退出 CUF（若由 PRC 在没有西安事变的情况下成立），军阀决议会触发西安事变</li>
+<li>移除了「早期动员法」中意外出现的单位勋章效能修正。</li>
+<li>修复了阵营目标「加固硫磺岛」检查错误省份的问题。</li>
+<li>更换了翁文灏的顾问图标，使其具有正确的蓝色背景。</li>
+<li>修复了如果日本航母瑞鹤是通过焦点创建的，它会被叫做「Zaikaku」的问题。</li>
+<li>成就「赢家通吃」的提示框现在会正确显示中华苏维埃共和国的名称，而非中国。</li>
+<li>澄清了达成「我们的言语有核武器背书」成就的成功条件。</li>
+<li>修复了某些本意是从中国夺取领导权的军阀决议在做到之后仍然保留的问题。</li>
+<li>修复了在禁用 NCNS DLC 时，日本焦点「菊花王朝」无法正确让裕仁成为国家领袖的问题。</li>
+<li>修复了「击败反法西斯主义者」目标，使其在没有阵营成员是共产主义或民主国家时正确变为可见。</li>
+<li>修复了「击败反共分子」目标，使其在与法西斯交战时可被 AI 正确选取。</li>
+<li>修复了 1939 年剧本中三个日本师开局被标记为黑旗的问题。</li>
+<li>从中国共产党移除了「矿业委员会」工业集团。</li>
+<li>PHI：在完成「马尼拉条约」后，你现在可以邀请西班牙语系国家加入你。</li>
+<li>修复了部分阵营规则可用性显示两次的情况。</li>
+<li>PER——巴列维帝国——当法西斯树不再可用时，大卫·蒙希扎德不再作为政治顾问可见。</li>
+<li>RAJ——磨利弯刀——修复了焦点效果在此科技已被研究时仍提及获得山地步兵 I 科技的问题。</li>
+<li>AFG——为焦点「红色威胁」与「深入印度平原」添加了跳过条件。</li>
+<li>GER——修复了变为共产主义德国后摩托化师历史名称列表消失的问题。</li>
+<li>修复了海军司令部中幽灵指挥官的问题。</li>
+<li>修复了中国被包含在一项以智利为目标的决议中的问题。</li>
+<li>修复了「普遍支援」与「新学派」海军子学说，使其拥有正确的装备加成。</li>
+<li>修复了海军特遣舰队违反时空法则、同时出现在多个地点的问题。</li>
+<li>修复了日本焦点「战略攻势」未被「突袭入侵」国家精神正确阻塞的问题。</li></ul>
+<h2 id="s-1xktzj5" data-section="1"><span class="mw-headline" id="1.17.3">1.17.3</span></h2>
+<p>补丁 1.17.3 于 2025-12-10<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup>发布，校验和为 <i>f303</i>。</p>
+<h3 id="s-kxxksr-4" data-section="1"><span class="mw-headline" id="Balance_4">收支</span></h3>
+<ul><li>略微削弱了「坦克歼击车部队」子学说，降低了主动性与最大组织度</li>
+<li>略微削弱了「大突击」子学说，降低了可获得的最大组织度</li>
+<li>为坦克歼击车部队与人民民兵子学说设置了更合理的主动权加成，以避免过度叠加</li>
+<li>修改了若干国策树中的学说精通获取修正</li>
+<li>提高了阵营完成「建立海军陆战队」与「扩充我们的装甲部队」目标所需的营数量。</li>
+<li>更新了「火力集中」子学说中火炮的宽度缩减效果，使其也影响线列火箭炮。</li>
+<li>将孙立人降低到 3 级</li>
+<li>「从大家族中汲取支持」现在是一个 35 天的焦点</li>
+<li>现在在拥有「唯有鲜血」时，中国开局会多几项空军科技。</li>
+<li>将中国的基础战争支持度从 50% 降低到 32%</li>
+<li>四个国防区现在给予其州修正 210 天而非 120 天，并且现在也适用于附属国与阵营成员</li>
+<li>「直指天空之盾」现在给予 2 次类似 50% 的防空研究加成，州防空现在也会施加给附属国</li>
+<li>「海上长城」现在是一个 35 天的焦点</li>
+<li>使「一号作战」开始花费更高，并且如果未按时完成会有略微更严厉的惩罚</li>
+<li>将冬季损耗从 50% 降低到 40%</li>
+<li>提高了低经验航空队的事故几率</li>
+<li>为三个与采煤相关的 pre-ncns 焦点添加了更多煤炭，并在刚果南部添加了少量开局煤炭</li>
+<li>国民党与后军阀焦点「六十师计划」现在会显示其解锁决议的效果，并且耗时 35 天</li>
+<li>将 CAS 对兵力的伤害从 0.08 削弱到 0.05</li>
+<li>给予苏联一个精通获取减益，可通过替换「政治化军队」来移除</li></ul>
+<h3 id="s-1aes9w5-3" data-section="1"><span class="mw-headline" id="Gameplay_3">Gameplay</span></h3>
+<ul><li>为若干国家添加了游骑兵师名称列表</li>
+<li>杨森与坚赞诺布现在开局拥有国家领袖特质，而青海马家与四川军阀的领袖替换现在会正确保留其他意识形态变型的国家领袖特质与职务</li>
+<li>重做了「建立海军陆战队」目标，现在它要求任意类型的两栖营，并要求它们装备度 &gt;90%。</li>
+<li>调整了「扩充我们的装甲部队」短期目标，现在要求装甲营装备度 &gt;90%。</li>
+<li>在能够选取菲律宾焦点「太平洋之主」之前，新增了控制 50% 南岛语系所声称州的要求。</li>
+<li>使孙立人从游戏开局即可使用</li>
+<li>新增了一项决议，可投资于军官训练，以更快地提高可征募人口</li>
+<li>新增了「建立空降军」与「建立山地军」两项中期目标。</li>
+<li>新增了「生产配额」短期目标。</li>
+<li>新增了「运输船队充足度」短期目标。</li>
+<li>更新并清理了用于阵营规则的东亚国家触发器</li></ul>
+<h3 id="s-9xx36n-4" data-section="1"><span class="mw-headline" id="AI_4">AI</span></h3>
+<ul><li>修复了 AI 控制的特遣舰队有时会在毫无理由的情况下中止移动返回基地的问题</li>
+<li>如果敌人没有海军，海军 AI 将不再试图保护其海岸。这包括非战争时期，所以不再为此浪费燃料。</li>
+<li>如果存在即将到来的战争目标或世界紧张度高于 50%，使海军 AI 预先保护本土地区的海岸</li>
+<li>修复了几乎没有国家会去建立海军封锁生效所需的制海权的问题</li>
+<li>修复了 AI 每天都会创建新舰队、频繁更改舰队颜色与名称的问题</li>
+<li>改进了 AI 的特遣舰队选择，并为 AI 重新启用了运输船队护航任务</li>
+<li>日本 AI 现在会稍等一会儿再在中南半岛把越南、老挝与柬埔寨作为附属国弹出</li>
+<li>AI 不再过早建造能源与资源基础设施</li></ul>
+<h3 id="s-9m30fv-3" data-section="1"><span class="mw-headline" id="Modding_3">模组制作</span></h3>
+<ul><li>添加了对在 count_in_collection 效果中设置陆军单位/单位类别装备比例的支持</li>
+<li>added support for the count in collection to use sub unit categories and sub unit definitions</li>
+<li>count_in_collections can now look for equipment in stockpile</li></ul>
+<h3 id="s-mp1saw-5" data-section="1"><span class="mw-headline" id="Bugfix_5">Bugfix</span></h3>
+<ul><li>修复了一个漏洞：把师切换到装备被禁用或缺失的新编制时，仍可从该编制获得精通获取</li>
+<li>来自 MIO 的海军火炮命中几率加成现在会被正确应用</li>
+<li>为潜艇核打击突袭添加了新图标，并通过重命名突袭来明确这是一次潜艇突袭</li>
+<li>修复了 1939 年日本开局舰船缺失级别定义、导致出现没有任何模块的空舰船的问题。</li>
+<li>修复了 ITA 中错误的特殊项目前缀检查：「天空之王」「现代肌肉」「卡利古拉之傲」。</li>
+<li>使东北地区的人口在历史上更准确，把日本核心总人口降低了约 300 万</li>
+<li>修复了一个 bug：anti_air_4 模块不是 anti_air_3 的父级</li>
+<li>修复了齐柏林伯爵号被称为「Graf Zeppelin Class Klasse」的问题。</li>
+<li>无效的阵营战区现在会自动从阵营中移除</li>
+<li>解决了客户端在加入多人游戏前玩过单人游戏时发生的 OOS</li>
+<li>修复了一个即使不与另一方同阵营也能寻求和平统一的问题、一个陈铭枢无法正确成为民主领袖的问题，以及焦点「征服朝鲜」与「敢于取胜」的触发器错误</li>
+<li>修复了在没有「抵抗运动」时尝试使用侦察机导致的崩溃</li>
+<li>修复了 PRC 驱逐榆林驻军的决议在移除州修正后仍会保留的问题</li>
+<li>cannot replace defeat communism goal after completion</li>
+<li>修复了民主日本在吞并一个核心在亚洲之外但首都在亚洲的附属国时，可以为非亚洲州添加核心的问题</li>
+<li>要通过决议结束秘鲁-厄瓜多尔战争，现在双方参与者都必须独立，且战争必须是通过该决议开始的</li>
+<li>把「保障紧张度降低 15/40%」与「战争目标正当化减免 20/40%」阵营规则的稳定度惩罚效果改为修正。</li>
+<li>把「战争目标正当化减免 20/40%」阵营规则名称调整为更准确的「战争目标正当化紧张度减免 20/40%」。</li>
+<li>修复了中文本地化中错误的名称</li>
+<li>修复了阵营规则启用效果会运行多次的问题</li>
+<li>修复了当英国拒绝来自「殖民地学员交流」焦点的 RAJ 提议时本地化字符串损坏的问题。</li>
+<li>PRC 航母 MIO 现在提供改装加成，而不再是无法使用的装备转换加成</li>
+<li>修复了以任何新加入的军阀游玩时，成就「Pand-monium」与「Make a Man out of You」不可用的问题</li>
+<li>修复了日本可以在北萨哈林无限期勘探石油的问题</li>
+<li>修复了内陆婆罗洲虽为不可通行却仍有可用建筑位的问题</li>
+<li>图兰在成立时现在会获得托木斯克作为核心</li>
+<li>修复了自治度系统中分配租借时损坏的本地化字符串</li>
+<li>在拥有「绝不后退」时，「整编第 200 师」现在拥有可用的坦克</li>
+<li>修复了如果你在同一时刻同时对中国和日本宣战，大逃杀不会正确触发的错误</li>
+<li>菲律宾去沙漠化了，并以茂密丛林取代。1 处在中南部岛屿，1 处在东米沙鄢北部。</li>
+<li>将摩鹿加群岛的 2 处沙漠替换为丛林。</li>
+<li>为「个人卓越」子学说设置了可读的 HP 加成。</li>
+<li>修复了只有在启用 NCNS 时埃塞俄比亚才能在英国成立流亡政府的问题</li>
+<li>修复了中国游击队可以被任何人铲除、而不仅是州的控制者或其宗主的问题</li>
+<li>修复了如果由满洲国或重组政府执行，「国家神道教」稳定度提升无法正确生效的问题</li>
+<li>为菲律宾「西班牙语系示好」焦点补充了缺失的西班牙语系国家。</li>
+<li>修复了 AFG 的「重新引入战象」焦点给予「正统传承」精神后，又因随 NCNS 加入的该精神学说要求而立即将其替换为无效的问题。</li>
+<li>「宣布军事紧急状态」不再会使菲律宾出问题。</li>
+<li>更新了提示框，以正确显示被限制后的发现速度</li>
+<li>修复了一个 bug：在 DX9 下太阳反射效果损坏</li>
+<li>修复了与阵营战区相关的罕见 CTD</li>
+<li>修复了一个错误：当合作模式玩家在被踢出后重新加入服务器时，会出现多个主控制器</li></ul>
+<h2 id="s-1xutl84" data-section="1"><span class="mw-headline" id="1.17.4">1.17.4</span></h2>
+<p>补丁 1.17.4 于 2026-02-19<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup>发布，校验和为 <i>00d1</i>。</p>
+<h3 id="s-kxxksr-5" data-section="1"><span class="mw-headline" id="Balance_5">收支</span></h3>
+<ul><li>法国的「大战胜利者」国家理念现在带有 50% 精通获取惩罚</li>
+<li>日本焦点「战斗到底」现在需要 35 天，并且不再解锁一项过时的决议</li>
+<li>芬兰 AI 现在更可能选取适合自己、效果良好的子学说</li>
+<li>为广东与广西军阀新增了一个国家精神，以激励它们速推两广事件</li>
+<li>为中国军阀国家添加了一个关于军事掠夺的国家精神与焦点，以减缓生产换取略微的军事提升</li>
+<li>大清帝国现在可以使用军阀整合决议，以加快降低其傀儡国的自治度</li>
+<li>大伊拉克整合决议现在需要 14 天而非 30 天，并且以受控制的州而非拥有的州为目标</li>
+<li>长枪党西班牙的加成「消灭卡洛斯派」现在持续 90 天而非 60 天</li>
+<li>芬兰现在开局拥有其第五艘潜艇 Saukko</li>
+<li>调整了 Putschminister 特质所给予的修正</li>
+<li>调整了巴西若干开局资源的位置，并为阿克里添加了少量橡胶生产</li>
+<li>在伊斯坦布尔增加了一个船坞，以代表 Taşkızak 海军船厂</li>
+<li>土耳其——将土耳其人物 Kamil Tolon 移至政治顾问栏位</li>
+<li>土耳其——新增了两个关于第一个五年计划与文盲问题的开局理念。新增了两个早期焦点，分别用于利用苏美尔银行获得更多工业与解决文盲问题。把「批准六箭」的焦点时间缩短到 35 天。</li>
+<li>日本——与建造更多舰船相关的海军要求任务现在持续 545 天而非一年</li>
+<li>共产主义共享波罗的海焦点「革命内阁」现在需要 35 天</li>
+<li>拉脱维亚的乌贡克鲁斯特师现在是民兵，其国家精神「法西斯准军事组织」现在给予民兵攻击与防御的略微提升</li>
+<li>历史路线阿富汗现在可以向轴心国与同盟国双方寻求投资，前提是它先驱逐其所寻求投资来源国的侨民</li>
+<li>奥萨——焦点「人人皆战士」现在会解锁民兵</li>
+<li>葡萄牙——提高了从国家精神「英国影响」中获得的民主支持度</li>
+<li>罗马尼亚国家精神「铁卫团」现在提供 5% 可征募人口系数加成</li>
+<li>葡萄牙焦点「葡萄牙军团」现在也给予一次性的宪兵研究加成，并且所给予的国家精神还提供 5% 核心防御</li>
+<li>修理中的舰船如果从其母港获得的补给不足，可以抽取当地补给。这只会消耗剩余的补给</li>
+<li>降低了 1936 年英格兰开局的固定防空，以略微减少不列颠空战期间德国轰炸机的损失</li></ul>
+<h4 id="s-i6j3vw" data-section="1"><span class="mw-headline" id="Soviet_Specific_Changes">苏联专属改动</span></h4>
+<ul><li>把「战争的手段」与「优越战争机器」的焦点时长从 70 天降低到 35 天，并把 75% 的加成降低到 50%。</li>
+<li>更新了「优越战争机器」的要求，现在要求已研究基础中型坦克，而非改进型中型坦克。</li>
+<li>苏联现在以 -15% 陆军精通获取开局。可通过「战争教训」移除。大清洗会使该惩罚加重，某些焦点会使其减轻</li>
+<li>移除了 -10% 陆军经验修正</li>
+<li>苏联 AI 会更早开始建造 T34</li></ul>
+<h4 id="s-g6drub" data-section="1"><span class="mw-headline" id="Overall_Naval_Changes">海军综合改动</span></h4>
+<ul><li>海战中的最低命中几率现在为 2%，而非 0.05%</li>
+<li>打击舰队在港内时被允许修理。它们会修理到一定的实力百分比，取决于修理优先级。</li>
+<li>处于战斗中的特遣舰队不再从预备舰队获得增援。这解决了一个问题：那些舰船会迟至战斗末尾才抵达，并几乎立刻被击沉。</li>
+<li>通过把最大命中轮廓从 80 降低到 70，提高了大口径火炮的命中几率。（注：鱼雷数值*没有*从 100 改动，它在公开测试更新中被意外改动过，现在已还原）。</li>
+<li>更新了海军大学说，使更合适的加成被放到正确的轨道上</li></ul>
+<h4 id="s-15l44cx" data-section="1"><span class="mw-headline" id="Overall_Air/Ground_Combat_Changes">空战/陆战综合改动</span></h4>
+<ul><li>将对地攻击的兵力伤害从 0.05 降低到 0.035</li>
+<li>将对地攻击的组织度伤害从 0.10 降低到 0.035</li>
+<li>将对地攻击的组织度掷骰从 4 提高到 5</li>
+<li>师属防空对 CAS 的伤害现在更稳定</li>
+<li>你需要更多师属防空才能获得减少近距空中支援伤害的最大加成。要减少最多的 75%，你现在需要约 55 对空攻击</li>
+<li>师属防空在更强时能更好地抵消制空权，较弱时抵消效果也更弱。最大值约为减少 50%，此前为减少 40%。</li></ul>
+<h4 id="s-sufqxn" data-section="1"><span class="mw-headline" id="Doctrines/Mastery_Changes">学说/精通改动</span></h4>
+<ul><li>将每月精通获取上限从 50 降低到 40</li>
+<li>将装甲精通获取倍率从 4 提高到 10</li>
+<li>将炮兵精通获取倍率从 10 降低到 8</li>
+<li>「绝望防御」现在需要处于防御战争才能选取</li>
+<li>「渗透战术」现在会启用正确的战术</li>
+<li>重新排列了「火力集中」中的里程碑，使战斗宽度缩减的解锁稍晚一些</li>
+<li>在大多数情况下，各学说轨道中的整体组织度获取速率已减半。</li></ul>
+<h4 id="s-wkqkic" data-section="1"><span class="mw-headline" id="Misc_Changes">其他改动</span></h4>
+<ul><li>将工厂能源上限提高 10%（从 6 提高到 6.6）</li></ul>
+<h3 id="s-jew6h3" data-section="1"><span class="mw-headline" id="New_Feature">新功能</span></h3>
+<ul><li>你现在可以选择希望在主菜单中显示哪些背景，它们会在主菜单中每 20 秒随机更换。该按钮位于菜单右下角。</li></ul>
+<h3 id="s-1aes9w5-4" data-section="1"><span class="mw-headline" id="Gameplay_4">Gameplay</span></h3>
+<ul><li>希腊——在走专制保王路线时现在可以选取焦点「一个东正教国家」，并给予不同的加成</li>
+<li>刚果——如果在解放战争开始前已接触过巴罗策的利通加，叶塔三世现在将可作为陆军元帅使用</li>
+<li>在阿富汗历史分支中添加了用另一位王室继承人替换首相的选项</li>
+<li>大蒙古可成立国家现在包含河北-察哈尔州</li>
+<li>为国民党在空军分支中新增了一个焦点以开设 AFAMF 工厂，给予军用工厂与对轻型机体的少量加成</li>
+<li>何应钦现在会在国民党陆军分支中完成焦点「整肃腐败」后作为将领可用</li>
+<li>中国现在可以在收复后为若干满洲城市改名</li>
+<li>为日本添加了自行车师名称列表</li>
+<li>作为哈密汗国或马家军阀重建中华帝国，现在会提供不同风味/版本的外观标签</li>
+<li>为新疆的独有子分支新增了一个焦点</li>
+<li>为和田马氏添加了内政子分支</li>
+<li>为青海马家军的独有子分支新增了两个焦点</li>
+<li>为青海马家军新增了一个重建宁海军的焦点</li>
+<li>为国民党中国添加了囚禁张学良的事件</li>
+<li>为滇系添加了独有的国策树子分支</li>
+<li>君主制葡萄牙在重新统一两国后，现在可以继承若干巴西人物</li>
+<li>添加了玩家傀儡国蒙疆通过决议请求日本发动绥远战役的能力</li>
+<li>满洲国现在可以在「服从」分支中走中国领导路线时，通过决议请求吞并在中国的其他日本傀儡国</li>
+<li>新增了巴西建立并开发朗多尼亚的能力</li>
+<li>为巴西工业分支新增了一个焦点，成立多西河河谷公司以增加米纳斯吉拉斯的钢与铝</li>
+<li>为正在西化的伊朗国家添加了世俗化能力，并使不同民主领袖之间的选择更有意思</li>
+<li>完成焦点「统一库尔德斯坦」现在会给予额外的核心州</li>
+<li>法西斯土耳其现在可以在完成焦点「图兰野心」后让尼哈尔·阿特瑟兹成为其国家领袖</li>
+<li>为土耳其添加了 Etibank 作为新的工业集团</li>
+<li>更新了伊拉克军事分支使其更具风味，除其他内容外还给予它们获得内河海军加成的能力</li>
+<li>伊拉克索取叙利亚的焦点现在要求将其吞并，而非变为傀儡</li>
+<li>更新了伊拉克的库尔德斯坦分支，使其拥有更具风味的效——例如通过「佩什梅格」焦点训练民兵的能力——并添加了它们通过边境战争夺取东叙利亚的能力</li>
+<li>为伊拉克新增了一个工业集团和两名新军事顾问</li>
+<li>为伊拉克工业国策树新增了两个焦点，用于扩张棉花与水泥产业</li>
+<li>阿富汗——为阿马努拉汗路线添加了 Abdul Hadi Dawi 作为顾问</li>
+<li>维希法国现在可以使用其本应拥有的政治顾问</li>
+<li>维希法国现在不再能使用曾与自由法国并肩作战的将领</li>
+<li>为维希法国添加了 1 名新空军总司令。为维希法国添加了 2 名新最高统帅部成员</li>
+<li>为伊拉克新增了两个与逊尼派主导和什叶派动乱相关的焦点</li>
+<li>为阿富汗民主分支新增了三个焦点，用于与青年阿富汗人结盟并获得更多民主支持与顾问</li>
+<li>为伊朗添加了两个终极焦点</li>
+<li>为沙特阿拉伯和阿曼新增了两项与现代化举措相关的决议</li>
+<li>为伊拉克添加了四名新政治顾问</li>
+<li>为马家军阀添加了新的共享国家精神与联合国策树</li>
+<li>意大利——如果国王维托里奥·埃马努埃莱在以国家精神形式存在时去世，他将被翁贝托二世的国家精神版本取代</li>
+<li>在地图上添加了瓜达尔</li>
+<li>大多数海军移动命令会忽略规避区域，但仍会遵守封锁区域。这让海军可以更自由地移动</li></ul>
+<h3 id="s-ye4dff-3" data-section="1"><span class="mw-headline" id="UI_3">UI</span></h3>
+<ul><li>在能源资源提示框中显示能源消耗修正</li>
+<li>为特工大师「特工栏位」提示框添加了更多信息</li>
+<li>为 BalanceOfPower 提示框添加了「实际变化」说明</li>
+<li>为特遣舰队与舰船的「立即修理！」按钮添加了禁用状态和新的提示框</li>
+<li>日本——在国策树内嵌窗口中把鼠标悬停在天皇上方时，新增了对帝国影响力系统中各阵营存在哪些等级的解释</li>
+<li>修复了护航保护地图图标效率提示框会为舰队中每支特遣舰队重复相同信息的问题——尽管那些信息已被计入</li>
+<li>型号选择器按钮现在可以切换</li>
+<li>库存数据现在已排序。（正在生产的排在最前，然后按库存规模排序）</li>
+<li>阿富汗、伊拉克——自由阿拉伯军团与突厥斯坦军团决议现在会正确地在其决议内容中显示步兵装备花费</li>
+<li>为印度和伊朗国策树添加了焦点分支导航按钮</li>
+<li>罗马尼亚焦点「白色中队」现在拥有更合适的焦点图标</li></ul>
+<h3 id="s-9xx36n-5" data-section="1"><span class="mw-headline" id="AI_5">AI</span></h3>
+<ul><li>调整了 AI，使其仅在能源紧张时才研究煤炭效率</li>
+<li>调整了历史德国焦点以选取稍强的开局，并使历史事件更贴近其实际日期</li>
+<li>调整了苏联的焦点选取顺序，以形成更准确的历史时间线</li>
+<li>修复了日本在被傀儡化后仍会保留波茨坦会议与国防国家精神的问题，并使美国更有可能傀儡化日本、在其通过焦点投降时更不可能强行改变其政府</li>
+<li>如果中国与日本通过决议及后续事件接受和平，现在也会与 HBC 和 KUM 添加停战，且日本 AI 将更不可能攻击和挑衅中国各国</li>
+<li>马家军阀现在在游戏后期之前不会执行其互相保障焦点，而 SIK 的 AI 现在除非完全控制其拥有的所有州，否则不会成为苏联傀儡。</li>
+<li>调整了空军基地使用权的 AI 接受逻辑。AI 现在对空军基地使用权应当更不易接受，尤其是在其他意识形态方面。</li>
+<li>苏联会更早开始建造军用工厂。</li>
+<li>苏联会更早生产 T34。</li>
+<li>苏联现在在编制与生产中更依赖 T34。</li>
+<li>如有需要，苏联将重新部署远东驻军以保卫本土。</li>
+<li>在静坐战期间，德国将不再于西线发动代价高昂且收效甚微的空袭</li>
+<li>在法国被击败之前，德国将不再对英国发动空袭</li>
+<li>德国将在 1940 年 11 月中止不列颠空战，以便休整重组、为巴巴罗萨行动做准备</li>
+<li>德国为波罗的海、东波兰与乌克兰空域设置了直至 1942 年的战略空域重要性，以便德国空军专注于在边境战斗中帮助陆军突破</li>
+<li>德国不再会尽快研究两栖坦克</li>
+<li>除非有需要，各国不太可能建造新的特殊建筑</li>
+<li>把坦克装甲与引擎研究的 AI 权重正常化，总体而言它们现在会在合理的时期完成，而不是过早。</li></ul>
+<h4 id="s-1lxf6db" data-section="1"><span class="mw-headline" id="AI_Equipment">AI 装备</span></h4>
+<ul><li>更新了 T34 设计</li>
+<li>更新了喷火式设计</li>
+<li>更新了德国中型坦克与飞机设计</li></ul>
+<h4 id="s-hpvire" data-section="1"><span class="mw-headline" id="Naval_AI_Changes">海军 AI 改动</span></h4>
+<ul><li>AI 现在能更好地将其海军上将分配到各支舰队。</li>
+<li>更新了 AI 特遣舰队徽章分配，使其与编成相匹配</li>
+<li>AI 总体上会持续使用其打击舰队，直到其不再有效</li>
+<li>更好的特遣舰队编制</li>
+<li>如果可能且有必要，AI 现在会使用其预备舰队创建新的特遣舰队</li>
+<li>AI 现在会先建造所需的特遣舰队，然后再去看它是否能建造任何额外的可选特遣舰队</li>
+<li>改进了打击舰队在攻击已发现敌人时的行为</li>
+<li>改进了海军 AI 对交战规则的运用推理，并按任务添加了可脚本化数值（风险/侵略性）</li>
+<li>修复了舰船在超出母港范围时仍可执行训练任务的问题</li>
+<li>修复了特遣舰队即使母港被设在附近也不向其活动地区靠近的问题。（这应当使打击舰队更善于追上海军战斗）</li>
+<li>提高了海军登陆防御目标的重要性</li></ul>
+<h3 id="s-9m30fv-4" data-section="1"><span class="mw-headline" id="Modding_4">模组制作</span></h3>
+<ul><li>修复了触发器 is_demilitarized_zone 与 is_border_conflict 在 any_state 触发器中调用时崩溃的问题</li>
+<li>新增 `energy_ratio` 触发器，用于在国家作用域查看能源满足度，返回 0 .. 1 之间的值</li>
+<li>为 `has_resources_in_country` 触发器实现了 `only_imported`</li>
+<li>为在归一化范围内工作、却被与非归一化范围比较的触发器实现了警告</li></ul>
+<h3 id="s-mp1saw-6" data-section="1"><span class="mw-headline" id="Bugfix_6">Bugfix</span></h3>
+<ul><li>修复了一个 bug：国家事件总是掷出相同的随机数</li>
+<li>在国家之间切换标签时正确更新研究速度提示框</li>
+<li>修复了因科技加成领取而导致断言的问题</li>
+<li>修复了当 CountryA（处于流亡状态）把某单位给予 CountryB，而该单位正驻扎在 CountryC，随后 CountryC 也进入流亡时的崩溃</li>
+<li>修复了 HighCapacityElectricalGrid 提示框显示 +10% 而非 +10%/基础设施的问题</li>
+<li>若未被覆盖，阵营颜色现在会正确地动态跟随领袖颜色</li>
+<li>修复了「将归于」显示错误国家的问题</li>
+<li>修复了针对特定资源的资源权利问题</li>
+<li>如果君主主义宣称等级高于 90%，波兰 AI 将不会采取提升君主主义的决议</li>
+<li>如果约瑟夫·奥古斯特·冯·哈布斯堡成为匈牙利国家领袖，波兰现在可以获得其哈布斯堡同盟焦点</li>
+<li>索取南大西洋岛屿现在会以控制这些州的一方为目标</li>
+<li>修复了中国「加快推进政治训政」决议可以在已被丢失并重新夺回的州中重复执行的问题</li>
+<li>PHI：如果菲律宾和平完成美国干预，它实际上将获得独立。</li>
+<li>PHI：在战争期间完成《马尼拉条约》时，你不再会失去菲律宾王国或西班牙帝国 tag。</li>
+<li>修复了如果选择哈布斯堡君主，西班牙卡洛斯派不会获得正确 3D 单位模型的问题</li>
+<li>修复了意大利国策树中几处损坏的本地化</li>
+<li>修复了摩尔多瓦人物会显示为调试字符串的问题</li>
+<li>修复了阵营目标「加固冲绳」检查海军要塞是否建在错误省份、最终无法完成的问题</li>
+<li>修复了国民党在完成焦点「任命有同情心的法官」后傀儡化某军阀时，会把预定精神施加在自己而非该军阀身上的问题</li>
+<li>修复了国民党焦点「明日之海」除非控制海南，否则不会给予所承诺的海军设施的问题</li>
+<li>修复了少数焦点中错误出现的精通获取加成</li>
+<li>修复了没有「抵抗运动」时叶剑英头像不显示的问题</li>
+<li>修复了在禁用 BBA 时日本陆军阵营不影响 cas 生产成本的问题</li>
+<li>修复了在禁用 LaR 时日本装甲车设计商仍会出现的问题</li>
+<li>修复了西班牙焦点「加入同盟国」会同时向多个国家请求加入阵营、并会触发错误新闻事件的问题</li>
+<li>在启用「不妥协，不投降」时禁用了某个在日本被击败后导致统一战线被解散、从而阻塞中国焦点「战胜侵略者」的事件</li>
+<li>修复了阿富汗与英属印度攻击新疆的焦点在它们占领目标领土时不会给予对 KHM 的战争目标的问题</li>
+<li>修复了「建立海军陆战队」阵营目标在该国仅拥有两栖坦克科技时，不给予所列将领奖励的问题。</li>
+<li>自定义游戏规则——修复了立陶宛的民主 AI 策略错误使用拉脱维亚描述的问题</li>
+<li>修复了尼加拉瓜缺失两名政治顾问的问题</li>
+<li>修复了某些本应能够成立中美洲与大哥伦比亚的国家却无法成立的问题，并把巴尔塔-蒂拉斯波尔添加为所有大立陶宛与大联邦焦点的目标</li>
+<li>Fixed a few instances where event options would be unselectable for the ai due to the option being scripted with a factor = 0 rather than a base = 0</li>
+<li>修复了智利可以同时拥有多个马普切冲突精神的问题</li>
+<li>修复了用于更改毛泽东肖像的隐藏事件会退役该角色并错误地替换肖像的问题</li>
+<li>修复了组建大希腊后部分胜利点被错误命名的问题</li>
+<li>如果希腊是民主国家，埃莱夫塞里奥斯·韦尼泽洛斯去世将不再导致其国家领袖死亡——除非领袖就是韦尼泽洛斯本人</li>
+<li>修复了通过焦点解锁、本不应被转移的墨西哥角色，在其任何内战爆发时仍被转移给分离国家的问题</li>
+<li>修复了南京总统府缺失的本地化字符串</li>
+<li>修复了新疆焦点「重建国民军」会向中国发送错误事件的问题</li>
+<li>修复了在启用 NCNS 时军阀无法获得莫罗佐夫设计局的问题</li>
+<li>把子学说对摩托化支援单位的速度加成扩展为包含摩托化与卡车牵引的火箭炮。</li>
+<li>修复了本地化中大量「the the」这类简直没法玩的拼写错误</li>
+<li>修复了「扩充步兵力量」阵营目标奖励描述中缺失军官特质的问题。</li>
+<li>将多处「Poznan」改为正确的波兰语名称「Poznań」。Zwirbaum 幸福度 +1.4%。</li>
+<li>自动升级装备时，手动设置的图标与型号不会保留</li>
+<li>移除了坎昆（当时尚未建城），并替换为切图马尔</li>
+<li>修复了「Magnatron」拼写错误，正确更名为 Magnetron</li>
+<li>修复了民主日本可以多次从同一个主要国家吸引工业投资的问题</li>
+<li>修复了「军阀要求臣服」事件总会说发送者是中国、尽管实际上并非如此的问题</li>
+<li>如果澳门由其附属国控制，葡萄牙焦点「扩张中国领土」现在也可以选取</li>
+<li>修复了如果目标州中任何一个已被添加核心，立陶宛焦点「恢复大立陶宛」就会不可用的问题</li>
+<li>刚果获得「内河海军」后不再会以为自己位于南美洲</li>
+<li>奥地利不再能通过建立中央同盟来解放别国的附属国</li>
+<li>修复了日本与苏联单独媾和时，会把「全力西顾」精神给予日本而非苏联的问题</li>
+<li>修复了一个 bug：组织度获取速率加成被应用了两次</li>
+<li>修复了军阀可以要求征服已经是其他外国势力附属国的中国国家的问题</li>
+<li>RAJ——焦点「英属印度的财富」现在正确地同时包含煤炭与铬</li>
+<li>为芬兰-乌戈尔可成立国家补充了缺失的核心</li>
+<li>修复了阵营目标「扩充我们的装甲部队」的提示框，使其也包含装甲军官</li>
+<li>英属印度——修复了从焦点「工业化恒河」获得的水坝不会显示在地图上的问题</li>
+<li>修复了缅甸军事顾问费用错误的问题</li>
+<li>修复 CHI 焦点「资助海军陆战队」使用了入侵准备速度而非入侵准备时间</li>
+<li>修复了新美索不达米亚可成立国家的多个问题</li>
+<li>修复了「伟大而永恒的北欧帝国」在命名上的几个问题</li>
+<li>修复了菲律宾「改进型反坦克」的图标</li>
+<li>希腊：修复了缺失的提示框 GRE_host_soviet_bureaucrats_in_greece_tt</li>
+<li>修复了瑞典国策树中 Husqvarna 武器工厂焦点缺失法语本地化的问题。</li>
+<li>降低了战象单位的速度</li>
+<li>修复了「组建北欧理事会」中损坏的提示框本地化</li>
+<li>修复 SWE——「质疑中立」事件标题不检查当前德国领袖的问题</li>
+<li>修复「任命特工大师」——提示框显示的阵营目标奖励与实际授予的奖励不符</li>
+<li>BEL——Vandervelde 的死亡事件缺失触发器</li>
+<li>修复了事件「穆罕默德·哈桑·米尔扎的加冕」实际上不会使波斯转为中立的问题</li>
+<li>修复了菲律宾可以在其「马来菲律宾」与西班牙帝国 tag 之间反复来回切换的问题</li>
+<li>修复了克莱尔·李·陈纳德在被聘用后立即辞职的问题</li>
+<li>一个窝藏托洛茨基、却未邀请他入阁、并试图通过焦点「国际无产阶级主义」加入共产国际的墨西哥，现在会把他送往莫斯科，而不再让他永远对苏联遥不可及</li>
+<li>阿富汗——Qargha 大坝现在会出现在正确位置</li>
+<li>修复了阿拉伯国家中的女性角色其姓氏可能带有 ibn、而非语言上正确的 bint 的问题</li>
+<li>修复了由伊拉克焦点「国有化英伊石油公司」与「英伊石油扩张」添加的 AI 策略数值无法为英国正确生效的问题</li>
+<li>英属印度——作为英属印度恢复帖木儿现在也会给予其前河中地区与高加索领土的核心</li>
+<li>阿富汗——修复了若干提及声称的焦点没有告知玩家：一旦夺取，他们可以为所声称的州添加核心</li>
+<li>在选择阵营目标时，根据阵营成员之间已研究科技的平均数量，调整了完成阵营目标「发展联合研究实践」所需科技的数量。阵营在开始该阵营目标时拥有的科技越多，现在所需的科技就越少。</li>
+<li>Gunther「Adlerauge」Rall 恢复了头像——修复</li>
+<li>跳过「镇压但泽」与「取缔纳粹党」现在会移除抵抗并重命名该城市——修复</li>
+<li>挪威现在在完成「邀请外国投资」时会获得其两个地图外民用工厂</li>
+<li>修复了如果中国不是阵营领袖，民主中国的阵营邀请决议不会把目标加入阵营的问题</li>
+<li>民主中国焦点「转变平衡」现在有一个小的跳过效果以启用阵营创建</li>
+<li>阿富汗石油租让现在只提供所选州内石油的开采权</li>
+<li>民主中国——「激起共和情绪」决议不再能以军阀为目标，因为它们已是另一个民主化决议的目标</li>
+<li>修复了在游戏规则中设定乌拉圭走法西斯路线时，若干情况下会失败的问题</li>
+<li>修复了在游戏规则中设定巴拉圭走共产主义时却可能失败的问题</li>
+<li>修复了因国际市场与草案之间价格不一致而导致的 OOS</li>
+<li>修复了控制博斯普鲁斯阵营目标的奖励会在错误州建造要塞的问题</li>
+<li>土耳其——修复了在没有进行中的任务或决议时，「库尔德国家管理」决议类别会消失的问题</li>
+<li>与一国进入战争状态会移除双方施加的海军封锁。</li>
+<li>修复了一个 bug：补给系统使用的装备未被正确归还（卡车消失）</li>
+<li>修复了和平会议中的 OOS</li>
+<li>PRC——修复了在完成焦点「烧掉纸老虎」时未应用所有既定规则的问题</li>
+<li>客户端会创建导致多人游戏性能问题的海军任务指令</li>
+<li>修复了如果双方意识形态相同，墨西哥即使正在取胜也可能被其某一叛乱方吞并的问题</li>
+<li>修复了地图模式亮度。（在修复游戏渲染部分一个陈旧遗留错误时，它意外导致若干地图模式变亮。）</li>
+<li>修复了云南在切换国策树后决议可能消失的问题。</li>
+<li>修复了里夫不再能组建阿拉伯的问题</li>
+<li>修复了一个 bug：所有 AI 特遣舰队都被允许分出舰船去修理，而本应只有打击舰队可以</li>
+<li>修复了一个 bug：预备舰队无法前往修理基地</li>
+<li>修复了一个 bug：黑名单被当作白名单使用（海军目标选择选项）</li>
+<li>修复了因以不同语言运行而可能在游戏状态中出现的 OOS</li>
+<li>修复了多处进行了错误比较的触发器 bug（例如：用 60 而非 0.6）</li>
+<li>修复了解散阵营时可能发生的崩溃</li>
+<li>修复了一个漏洞：重建阵营可以让你立即获得完成这些阵营任务的奖励</li>
+<li>修复了一个 bug：制海权计算不总是正确刷新</li>
+<li>修复了海军距离被错误计算的错误，它影响了自动母港逻辑</li>
+<li>把各类国家精神与焦点中 air_superiority_bonus_in_combat 修正（它只在角色作用域生效）的用法换成了 army_bonus_air_superiority_factor。</li></ul>
+<h2 id="s-1l727il" data-section="1"><span class="mw-headline" id="1.17.4.1">1.17.4.1</span></h2>
+<p>补丁 1.17.4.1 于 2026-02-25<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup>发布，校验和为 <i>177f</i>。</p>
+<h3 id="s-mp1saw-7" data-section="1"><span class="mw-headline" id="Bugfix_7">Bugfix</span></h3>
+<ul><li>修复了一个 bug：研究加成不再被消耗（因而始终处于激活状态）</li></ul>
+<h2 id="s-1y4t6x3" data-section="1"><span class="mw-headline" id="1.17.5">1.17.5</span></h2>
+<p>补丁 1.17.5 于 2026-03-17<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">[8]</a></sup>发布，校验和为 <i>e6dc</i>。</p>
+<h3 id="s-yks9dl" data-section="1"><span class="mw-headline" id="Warships_of_the_pacific">太平洋战舰</span></h3>
+<ul><li>为以下国家新增了 30 个海军舰船 3D 模型：美国、日本、英联邦、苏联与 PRC</li>
+<li>添加了 30 个与新 3D 模型对应的 2D 图标</li>
+<li>为特定舰船型号添加了新的音效、视觉特效与动画</li></ul>
+<h3 id="s-ye4dff-4" data-section="1"><span class="mw-headline" id="UI_4">UI</span></h3>
+<ul><li>在师设计器的模型选择器中实现了一个简单的装备类别下拉菜单与重置按钮</li>
+<li>更新了装备型号排序，使特殊项目始终排在最前</li>
+<li>为装备模型排序实现了一个更灵活的池优先级系统（并移除了排序队列）</li>
+<li>为控制组管理添加了更多功能</li>
+<li>师编制器现在使用与地图上相同的型号优先级</li>
+<li>型号选择界面现在可容纳 5 个列表条目，而非 3 个</li></ul>
+<h3 id="s-kxxksr-6" data-section="1"><span class="mw-headline" id="Balance_6">收支</span></h3>
+<ul><li>修复了一处「airforce」拼写错误，并把林德伯格的领袖特质空军航程从 1% 提高到更有意义的 5%</li>
+<li>将法国从「大战胜利者」获得的精通获取减益降低到 -15%</li>
+<li>将「资助海军」焦点改为需要 35 天</li>
+<li>所有傀儡国现在都会受到阵营影响力获取惩罚，根据其类型从 -10% 到 -75% 不等</li></ul>
+<h3 id="s-1aes9w5-5" data-section="1"><span class="mw-headline" id="Gameplay_5">Gameplay</span></h3>
+<ul><li>在美国海军开局军力中把内华达级与田纳西级舰船从宾夕法尼亚级中分出。创建了独立的级别</li>
+<li>USA：「航母优先」现在会在该科技解锁时给予埃塞克斯级航母</li>
+<li>美国：「运输船队战术」现在会在特殊项目解锁时给予卡萨布兰卡级护航航母设计</li>
+<li>日本「潜艇航母」特殊项目现在会创建 I-400 设计。</li>
+<li>为澳大利亚添加了利安得级与郡级巡洋舰设计，以反映实际在役的设计。</li>
+<li>为英国添加了岸防舰科技。</li>
+<li>为英国添加了厄瑞玻斯级浅水重炮舰设计（基于岸防舰船体）。</li>
+<li>将 HMS Erebus 与 HMS Terror 加入英国的预备舰队。</li>
+<li>巴纳特州现在被纳入第二次维也纳裁决事件链中的「全特兰西瓦尼亚」选项中</li>
+<li>为日本添加了开局伞兵编制</li>
+<li>当舰队决定修理时，现在会更强烈地偏好拥有更多修理位的船坞</li>
+<li>重新平衡了来自各种来源的阵营影响力获取：战争分数与租借提高，科学家降低，同时略微提高了被动主动权获取</li>
+<li>为舰船添加了英国浅水重炮舰名称列表。</li>
+<li>为英国 1939 年书签添加了厄瑞玻斯级 1939 年改装设计。</li>
+<li>将「I-400 级」名称改为日语的「Sentoku 级」。</li>
+<li>在型号选择网格中，现在会显示各型号的缩略图</li>
+<li>成功实施海上封锁不应再限制你通过被封锁地区进行贸易的通道</li></ul>
+<h3 id="s-13rkbwl" data-section="1"><span class="mw-headline" id="Performance">Performance</span></h3>
+<ul><li>修复了「RepairNow」按钮会大量重复寻路计算的问题</li>
+<li>调整了游戏处理大型大厅的方式，以使该体验更顺畅。</li></ul>
+<h3 id="s-9xx36n-6" data-section="1"><span class="mw-headline" id="AI_6">AI</span></h3>
+<ul><li>调整了德国装备生产，使其更好地符合其编制，此外还改进了以下方面的决策：运输船队袭击、兵力集中，以及在战争即将爆发时租借或出售装备</li>
+<li>USA：改进了 AI 的海军编制及其对生产优先级的排序</li>
+<li>日本开局伞兵编制现在有 3 个伞兵营（而非 2 个）</li>
+<li>马家军阀现在在游戏后期之前不会执行其互相保障焦点，而 SIK 的 AI 现在除非完全控制其拥有的所有州，否则不会成为苏联傀儡</li>
+<li>更新 USA 策略，使其在太平洋作战表现更好</li>
+<li>比利时现在会正确解锁其「Division d'Infanterie」单位</li>
+<li>提高了研究权重，使多个海军大国研究更多海军科技</li>
+<li>AI 现在会使用「资助海军」，并会在其加成生效之前更久地等待再选择海军学说</li>
+<li>如果燃料限制允许，AI 现在会比以往更多地训练其舰船</li>
+<li>调整了 AI 对「火控方法」的研究权重</li></ul>
+<h3 id="s-9m30fv-5" data-section="1"><span class="mw-headline" id="Modding_5">模组制作</span></h3>
+<ul><li>实现了使用 '&amp;&amp;' 发送控制台命令链的支持</li>
+<li>调试时在设计商的图标选择器中显示图标权重</li>
+<li>新增了对基于 SubUnitDefinition 的图标装备池的支持</li></ul>
+<h3 id="s-mp1saw-8" data-section="1"><span class="mw-headline" id="Bugfix_8">Bugfix</span></h3>
+<ul><li>修复了捡拾来的装备会导致步兵穿上他国军装的问题</li>
+<li>修复了决议计时器不推进的问题</li>
+<li>更改了美国 jet_strat_bomber 与 jet_tac_bomber 的图标，以修复在未拥有原型载具包时出现的错误。</li>
+<li>修复了新西兰 Big Bob 超重型坦克上的悬空模型几何体</li>
+<li>修复了 BfB 以及其他 DLC 中同类坦克的坦克缩放比例</li>
+<li>修复了通过日本焦点获得的「瑞鹤」被错误称为「Zaikaku」的问题。</li>
+<li>日本导弹潜艇特殊项目不再被错误地称为「I-400 级导弹潜艇」——「I-400 潜艇母舰」这一名称已被移到日本航母潜艇特殊项目上。</li>
+<li>修复了当你正有流亡师在转移中时移除师编制可能导致的崩溃</li>
+<li>为「自由联盟」阵营目标添加了触发器，使其在不满足正确条件时不可用并可被自动完成</li>
+<li>修复了 AST 国策树中的拼写错误：'Habsbugs' -&gt; 'Habsburgs'</li>
+<li>修复了决议的一些计时问题</li>
+<li>修复了 Maphilindo 旗帜上下颠倒显示的问题</li>
+<li>修复了组建中国时两名和田马氏顾问变为不可用的问题</li>
+<li>日本——修复了焦点「东亚开发株式会社」的决议无法正确提供所承诺工厂的问题</li>
+<li>军阀——修复了共享分支中「向 X 国伸出援手」焦点在该国已不存在时仍可选取的问题</li>
+<li>巴拉圭——修复了精神「Guión Rojo」实际上不提供任何人解决的问题</li>
+<li>修复了日本战术「万岁冲锋」会从一开始就启用、而非由焦点启用的问题</li>
+<li>苏联——修复了把帕米尔交给新疆傀儡国控制会使苏联无法选取焦点「戈壁谋略」的问题</li>
+<li>修复了如果西班牙已完成焦点「人民阵线」，西班牙将领恩里克·利斯特不会获得斯大林主义同情的问题</li>
+<li>修复了一名比利时顾问与两个意大利国家精神试图在国家作用域上使用基于州的情报修正的问题</li>
+<li>奥地利：修复了戈德温·冯·布尔莫夫斯基会出现在空军司令职务却不给予空军经验的问题，他已被移到高级指挥部职务</li>
+<li>法国：修复了如果那些州由傀儡国刚果控制，焦点「壮大帝国」就会不可用的问题</li>
+<li>调整了阵营目标「发展联合研究实践」的递进要求，使其更易理解、完成也更快。</li>
+<li>更新了英国步兵武器的本地化，以使用正确的空白字符</li>
+<li>修复了一个 bug：自动重复特工行动在存档与读档之间未被正确保留</li>
+<li>修复了一个 bug：没有深水炸弹的屏卫舰仍会试图继续与潜艇作战</li>
+<li>修复了一个 bug：潜艇探测几率未被正确计算</li>
+<li>修复了部分型号错误显示或缺失的问题</li>
+<li>修复了若干拼写错误及其他小的文字问题</li></ul>
+<h2 id="s-ebn026" data-section="1"><span class="mw-headline" id="1.17.5.1">1.17.5.1</span></h2>
+<p>补丁 1.17.5.1 于 2026-03-19<sup id="cite_ref-9" class="reference"><a href="#cite_note-9">[9]</a></sup>发布，校验和为 <i>776c</i>。</p>
+<h3 id="s-xfilws" data-section="1"><span class="mw-headline" id="Bugfixes">Bugfixes</span></h3>
+<ul><li>修复了某些步兵模型顺序错误，导致一些国家显示通用 3D 模型的问题</li>
+<li>修复了在禁用 NSB 时，M24 查菲（美国）模型会首先出现在大战坦克列表中的问题</li></ul>
+<h2 id="s-e1ned7" data-section="1"><span class="mw-headline" id="1.17.5.2">1.17.5.2</span></h2>
+<p>补丁 1.17.5.2 于 2026-03-26<sup id="cite_ref-10" class="reference"><a href="#cite_note-10">[10]</a></sup>发布，校验和为 <i>cdcd</i>。</p>
+<h3 id="s-xfilws-2" data-section="1"><span class="mw-headline" id="Bugfixes_2">Bugfixes</span></h3>
+<ul><li>修复了师编制器中只显示单个支援型号的问题</li>
+<li>修复了 AI 或其他玩家更新师编制会影响你的编制更新的错误（仅界面）</li>
+<li>为多种坦克型号补充了若干缺失的坦克名称池，使其能正确显示</li>
+<li>修复了在师编制器中禁用装备后会显示调试用 3D 模型的问题</li></ul>
+<h2 id="s-1p1yprf" data-section="1"><span class="mw-headline" id="References">参考资料</span></h2>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">论坛：不妥协，不投降 | 热修复与韩语本地化，2025-11-21。</span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text">论坛：NCNS | 补丁 1.17.1，2025-11-26。</span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><a href="#cite_ref-3">↑</a></span> <span class="reference-text">论坛：NCNS 补丁 1.17.1.1，2025-11-27。</span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><a href="#cite_ref-4">↑</a></span> <span class="reference-text">论坛：NCNS | 补丁 1.17.2，2025-12-04。</span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><a href="#cite_ref-5">↑</a></span> <span class="reference-text">论坛：NCNS | 补丁 1.17.3（以及来自 Gorion 的一段话），2025-12-10。</span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><a href="#cite_ref-6">↑</a></span> <span class="reference-text">论坛：不妥协，不投降 | 补丁 1.17.4，2026-02-19。</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><a href="#cite_ref-7">↑</a></span> <span class="reference-text">论坛：（非常小的）热修复——补丁 1.17.4.1，2026-02-25。</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><a href="#cite_ref-8">↑</a></span> <span class="reference-text">论坛：太平洋战舰现已推出！，2026-03-17。</span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><a href="#cite_ref-9">↑</a></span> <span class="reference-text">论坛：太平洋战舰——热修复，1.17.5.1，2026-03-19。</span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><a href="#cite_ref-10">↑</a></span> <span class="reference-text">论坛：太平洋战舰——热修复，1.17.5.2，2026-03-26。</span>
+</li>
+</ol></div>
+
+
+
+
+</div>
+</main>
+</div>
+<footer class="site-footer">
+<p>本资料库内容译自 <a href="https://hoi4.paradoxwikis.com/" rel="noreferrer">Hearts of Iron IV Wiki</a>（Paradox Interactive 社区维基），原文以 CC BY-SA 3.0 授权发布，译文沿用同一授权。仅供个人离线学习，与 Paradox Interactive 无隶属关系。</p>
+<p>原页面「Patch 1.17.X」｜ 抓取时间 2026-09-10 ｜ 原站版本号 99312 ｜ 中文翻译进度 97%</p>
+</footer>
+</body>
+</html>

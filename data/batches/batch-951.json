@@ -1,0 +1,804 @@
+{
+ "batch": 951,
+ "pages": [
+  "Patch 1.9.X"
+ ],
+ "chars": 12634,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1kvkge",
+   "en": "added state modifiers for building & repair speed for specific building types (example state_production_speed_infrastructure_factor state_repair_speed_infrastructure_factor)"
+  },
+  {
+   "k": "1wpwgtj",
+   "en": "added is_impassable trigger"
+  },
+  {
+   "k": "eyo8ik",
+   "en": "added support for highlight_state_targets for decisions which is a script target that can be used for highlighting states. should give improved performance if used instead of highlight_states"
+  },
+  {
+   "k": "1k83vd4",
+   "en": "decision scripted guis now supports dirty var as well."
+  },
+  {
+   "k": "ehj51b",
+   "en": "event effects now accepts variables as its duration entries"
+  },
+  {
+   "k": "silfxb",
+   "en": "Enabled 3D mesh lookup based on a country's cosmetic tag before checking its true tag."
+  },
+  {
+   "k": "19g1soz",
+   "en": "added MAX_NUMBER_OF_TEXTURES define which can be increased for mods that had more than previously hardcoded 10k texture limit"
+  },
+  {
+   "k": "1h83hpk",
+   "en": "Stability & Performance"
+  },
+  {
+   "k": "u3ctxb",
+   "en": "Fixed CTD when trying to assign a front line to a selection of units where some belong to an army group and some are unassigned"
+  },
+  {
+   "k": "pekvwi",
+   "en": "Fixed CTD when the game files do not specify a strategic region for a province"
+  },
+  {
+   "k": "q2dz9m",
+   "en": "Fixed crash if the GAME_SPEED_SECONDS define is missing or too short."
+  },
+  {
+   "k": "1pw3xg5",
+   "en": "Fixed CTD caused by invalid values in game rules"
+  },
+  {
+   "k": "1fg11zw",
+   "en": "Fixed CTD when tag switching related to naval mines"
+  },
+  {
+   "k": "ot3mhh",
+   "en": "Fixed crash uploader on Linux not working"
+  },
+  {
+   "k": "yz80y3",
+   "en": "fixed a ctd when a mod removes existing gui element"
+  },
+  {
+   "k": "j01x8n",
+   "en": "Fixed CTD due to stack overflow when trying to set a tooltip handler to a window that had no guitype"
+  },
+  {
+   "k": "1d9vuh9",
+   "en": "Fixed CTD that may happen when confirming the replacement of a technology to research"
+  },
+  {
+   "k": "ve8zdr",
+   "en": "Fixed CTD that may happen when a naval invasion land in some cases"
+  },
+  {
+   "k": "1n805kf",
+   "en": "Fixed CTD that can occur when a carrier ship is tranferred between countries"
+  },
+  {
+   "k": "ygab5o",
+   "en": "Added mitigation when loading a save that has invalid access rules for carrier"
+  },
+  {
+   "k": "1fi5u6n",
+   "en": "Fixed CTD on missing static modifier definition"
+  },
+  {
+   "k": "rsaawd",
+   "en": "Fixed CTD when define NIntel::MAP_INTEL_VISIBILITY_CUTOFFS was illformed"
+  },
+  {
+   "k": "10jkmak",
+   "en": "improved performance slightly by making some adjustments to triggers (courtesy of Yard1)"
+  },
+  {
+   "k": "1vl2pra",
+   "en": "fixed some performance issues with naval invasion ai"
+  },
+  {
+   "k": "1mfra48",
+   "en": "The game will now abort if the map contains invalid data"
+  },
+  {
+   "k": "1vjlw2b",
+   "en": "Fixed CTD when accessing the airwings of a carrier that has been acquired through the annexation of a puppet"
+  },
+  {
+   "k": "1ao2c5g",
+   "en": "Fixed CTD caused by event that would kill country leaders or a country that had none"
+  },
+  {
+   "k": "1ldxutd",
+   "en": "Fixed CTD when evaluating event target with an invalid state id"
+  },
+  {
+   "k": "1hkgdo3",
+   "en": "Fixed CTD when an airbase with air volunteers was destroyed"
+  },
+  {
+   "k": "119uvrx",
+   "en": "Fixed CTD that can be caused by some moded ship equipment type"
+  },
+  {
+   "k": "19qzotr",
+   "en": "Fixed CTD caused by a task force located in a province with no sea access"
+  },
+  {
+   "k": "1uzy4vb",
+   "en": "Fixed CTD that could happen when releasing a country"
+  },
+  {
+   "k": "1dnfz9a",
+   "en": "fixed a ctd when \\n at the end of definition.csv is forgotten"
+  },
+  {
+   "k": "1snnjz3",
+   "en": "Prevent CTD when attempting to display the airwings of an airbase the player does not have access to"
+  },
+  {
+   "k": "1wq380x",
+   "en": "Fixed abort to trigger on more cases where invalid map data is detected"
+  },
+  {
+   "k": "1f6vq7l",
+   "en": "Fixed CTD on invalid naval terrain type for a strategic region"
+  },
+  {
+   "k": "12o5ooc",
+   "en": "Fixed CTD on invalid state definition"
+  },
+  {
+   "k": "10w09v6",
+   "en": "Fixed CTD that could happen when re-ordering ship names"
+  },
+  {
+   "k": "mm0ei4",
+   "en": "Fixed CTD when displaying the tooltip of the join faction diplomatic action"
+  },
+  {
+   "k": "ja634g",
+   "en": "Fixed CTD when a autonomy_state has not been correctly loaded"
+  },
+  {
+   "k": "ep4pjw",
+   "en": "fixed unnamed gui objects possibly causing crashes and added an errorlog"
+  },
+  {
+   "k": "1a5j49r",
+   "en": "Blocked execution of white_peace before game start, along with error log explanation, instead of CTD."
+  },
+  {
+   "k": "1kia4nn",
+   "en": "Fixed CTD on Windows related to flag atlas texture update"
+  },
+  {
+   "k": "190npdn",
+   "en": "Fix performance issue when creating dynamic tags from targeted decisions."
+  },
+  {
+   "k": "1471eeh",
+   "en": "fixed a bug that was leaking memory in decision scripted guis"
+  },
+  {
+   "k": "41dqoe",
+   "en": "fixed a ctd that happens when you have invalid color characters"
+  },
+  {
+   "k": "1sc8u0t",
+   "en": "fixed a ctd that can happen when loading a save that has gie with units in naval transfer"
+  },
+  {
+   "k": "16u704a",
+   "en": "fixed a crash that happens when saving when a border war ordergroup is invalid"
+  },
+  {
+   "k": "14vrk30",
+   "en": "fixed a ctd that happens during peace conf when the game tries getting tooltip for a deleted action"
+  },
+  {
+   "k": "1x9gohx",
+   "en": "Fixed CTD while loading a save game for some mods"
+  },
+  {
+   "k": "ho4iez",
+   "en": "Fixed CTD on Windows caused by the assumption of the presence of the popcnt instruction"
+  },
+  {
+   "k": "104bqv4",
+   "en": "Fixed a CTD caused by missing pie chart UI element in the diplomacy view"
+  },
+  {
+   "k": "1shthwk",
+   "en": "fixed an oos due to random variables"
+  },
+  {
+   "k": "rjn3aj",
+   "en": "1.9.2 is a bugfix patch which was released on 2020-05-06⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "bxvx1y",
+   "en": "a73d"
+  },
+  {
+   "k": "zrkw2",
+   "en": "The Bell Tolls for Us achievement should now trigger when winning the civil war."
+  },
+  {
+   "k": "hwer0v",
+   "en": "the bonuses for collaboration governments are no longer reversed so the special outcome ends up worse, also adjusted levels according to actual old default"
+  },
+  {
+   "k": "1gwelbb",
+   "en": "both outcomes on civilian tech stealing no longer gives max bonus"
+  },
+  {
+   "k": "12cl3vq",
+   "en": "Our Chief Weapon is Surprise will no longer check how many operatives you have and will correctly only check if you have done 5 coups."
+  },
+  {
+   "k": "1ag00fk",
+   "en": "fixed an issue where the British Raj could end up with no recruitable manpower if they went down the swaraj focus path (TfV only)"
+  },
+  {
+   "k": "xtqkw0",
+   "en": "Countries should no longer leave the Latin Bloc formed by Spain after a day"
+  },
+  {
+   "k": "jwrrsh",
+   "en": "fixed an issue with Carlist spain losing its 3d models after reinstating the monarchy"
+  },
+  {
+   "k": "ip3y1m",
+   "en": "fixed an issue with the Spanish unique 3d tank model not appearing correctly"
+  },
+  {
+   "k": "1inu92n",
+   "en": "fixed some issues with coordinated strike that was making them with naval bombings"
+  },
+  {
+   "k": "1e4a3sx",
+   "en": "Fix AI constantly cancelling sending expeditionary units for a player and ai"
+  },
+  {
+   "k": "tmcp3l",
+   "en": "Fixed issue with cores and resistance during and after SCW."
+  },
+  {
+   "k": "1r839uk",
+   "en": "Korea should now correctly be released if Manchukuo breaks free from japan and forces a peace settlement with them"
+  },
+  {
+   "k": "1q0pxb6",
+   "en": "fixed an issue with army training xp generation"
+  },
+  {
+   "k": "17hg7s7",
+   "en": "Fixed operative resuming their mission after an operation being able to run their mission in a quiet network"
+  },
+  {
+   "k": "31m4rl",
+   "en": "it is now possible to recruit local agents in countries occupied by a third party"
+  },
+  {
+   "k": "1aheakj",
+   "en": "Tech stealing can no longer unlock mutually exclusive techs and will let you unlock techs with less than 50% progress on them directly also"
+  },
+  {
+   "k": "1al5e3i",
+   "en": "Hinder NKVD Interference focus will be canceled if The Stalinist Doctrine is completed, fixing an edge case where player could unlock both sub-branches."
+  },
+  {
+   "k": "pwtahe",
+   "en": "Soviet now retains the old behaviour of sending volunteers to spain"
+  },
+  {
+   "k": "1kbkovc",
+   "en": "Fix end of civil war events no longer firing (initially reported on German Civil war)"
+  },
+  {
+   "k": "phqoq9",
+   "en": "Tech stealing text now matches what you always get rather than sometimes being random"
+  },
+  {
+   "k": "wyge7l",
+   "en": "Fixed an issue with the Iberian union not getting the correct 3d model"
+  },
+  {
+   "k": "12qjt3s",
+   "en": "added mil factory to china that was incorrectly set up in 1.9.1"
+  },
+  {
+   "k": "gpl5hg",
+   "en": "capture cypher operation now gives between 30-50% decrypt and requires a bit lower network."
+  },
+  {
+   "k": "1wpni4c",
+   "en": "Lowered operation duration for infiltrate Army/Navy/Air from 90 to 75"
+  },
+  {
+   "k": "ha7h7z",
+   "en": "Lowered boost resistance operation duration to 50 days from 60"
+  },
+  {
+   "k": "jf9m2m",
+   "en": "Lowered duration on targetted sabotage from 120 to 90 days"
+  },
+  {
+   "k": "1arin9c",
+   "en": "sabotage operation now also increases damage done rather than just aiding in targetting"
+  },
+  {
+   "k": "13fbs9n",
+   "en": "lowered chance for agent capture and increased chance for harm and hiding to reduce the amount of rescue missions needed"
+  },
+  {
+   "k": "1bhp5fy",
+   "en": "reduced cost increase for repeating tech steal operation from a target"
+  },
+  {
+   "k": "4r8y7y",
+   "en": "reduced cost increase for repeating sabotage operation on a target"
+  },
+  {
+   "k": "33wjig",
+   "en": "Increased weights for equipment unlocks a bit from tech stealing operation"
+  },
+  {
+   "k": "1rlrshi",
+   "en": "Carrier planes no longer suffer the range coverage penalty during coordinated strikes"
+  },
+  {
+   "k": "rbvj0p",
+   "en": "Spain will not get resistance from the states until the SCW is completely over, meaning that the second uprising has been triggered/avoided. This is also applied if a Spanish faction defeats the other Spanish tags before her second uprising happens, since the SCW will not end until the second uprising has been dealt with."
+  },
+  {
+   "k": "1lxaaiu",
+   "en": "if France backs down during the Sudeten Crisis, French guarantees on Yugoslavia will also be removed (no one believes you anymore France)"
+  },
+  {
+   "k": "yt3pru",
+   "en": "French guarantees on Yugoslavia and Czechoslovakia are now cancelled if France goes with Britain"
+  },
+  {
+   "k": "1ynbfv",
+   "en": "AI japan will no longer make Marianas a collaboration regime, similarly with Czechoslovakia which is a bit too complex to represent well with the AI here"
+  },
+  {
+   "k": "1tgb8hs",
+   "en": "AI Spanish Factions will now surrender if they do not control any state in the Iberian Peninsula, but own other territories outside of it (preventing the player from needing to execute naval invasions to win the SCW)"
+  },
+  {
+   "k": "1b4um9a",
+   "en": "The coordinated strike operation now has proper effect descriptions explaining what it does"
+  },
+  {
+   "k": "140ubzd",
+   "en": "removed a unlocalized debug tooltip when planning operations"
+  },
+  {
+   "k": "d8hm2m",
+   "en": "Removed tooltip in News Events showing up after defeating the other faction/s in the SCW before the second uprising. Added tooltip in News Events showing up after actually wining the SCW."
+  },
+  {
+   "k": "8jeyn7",
+   "en": "Fixed an issue where, under specific circumstances in some edge cases, Gibraltar cores/claims could be lost."
+  },
+  {
+   "k": "r6qa8t",
+   "en": "Fixed OOS related to different language settings between the host and client"
+  },
+  {
+   "k": "y8gy3m",
+   "en": "Fixed OOS due to differing ship name in combat result"
+  },
+  {
+   "k": "1nzy9lb",
+   "en": "Fixed OOS when joining a MP that has not LaR with a client that has LaR enable while comming back from a game with active operatives"
+  },
+  {
+   "k": "1sye3ml",
+   "en": "Added basic land and naval combat details to hourly OOS checks"
+  },
+  {
+   "k": "m8fev9",
+   "en": "Fixed save game formatting of AI strategies for managing production of army roles, to use text instead of unstable numeric IDs"
+  },
+  {
+   "k": "45416g",
+   "en": "Enabled the abort on map error for when game files are modified in the installation directory"
+  },
+  {
+   "k": "7mhotz",
+   "en": "Fixed CTD when showing the leaderboard before going back to the main menu"
+  },
+  {
+   "k": "c9wlp7",
+   "en": "Fix a CTD on related to clearing strategic air data and processing air activity"
+  },
+  {
+   "k": "54b5b7",
+   "en": "Fixed OOS caused by a client that has been kicked from or lost connection to their last game when the client has different DLC settings than the new host"
+  },
+  {
+   "k": "2tjabt",
+   "en": "Reduced the hourly tick cost of checking for out-of-syncs by calculating checksum only for existing countries, and only for technologies actively being researched."
+  },
+  {
+   "k": "1gco1oo",
+   "en": "Fixed a crash that could happen when assigning operative to an operation"
+  },
+  {
+   "k": "5qh03h",
+   "en": "Fixed OOS in naval combat when convoys are sunk in a MP with at least one client using a different language than the host"
+  },
+  {
+   "k": "1rb0rke",
+   "en": "Fixed OOS when a player asks an AI for a lend lease"
+  },
+  {
+   "k": "871u9p",
+   "en": "Fixed OOS caused by differing name of the airbase airwings participating in naval combat are coming from when a client has a different language setting than the host"
+  },
+  {
+   "k": "dywnq7",
+   "en": "1.9.3 is a bugfix patch which was released on 2020-06-04⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1nsduyk",
+   "en": "a7a4"
+  },
+  {
+   "k": "ci7hc4",
+   "en": "decreased suppression value of SP-Art battalions"
+  },
+  {
+   "k": "13wtbdx",
+   "en": "decreased suppression value of SP-AA battalions"
+  },
+  {
+   "k": "ksoh4s",
+   "en": "decreased suppression value of SP-AT battalions"
+  },
+  {
+   "k": "x0jh1v",
+   "en": "decreased research cost on destroyer hulls"
+  },
+  {
+   "k": "sta5ld",
+   "en": "decreased research cost on depth charge technologies"
+  },
+  {
+   "k": "xnqe7d",
+   "en": "increased research cost on 1940 and 1944 submarine hulls"
+  },
+  {
+   "k": "18a32uw",
+   "en": "increased research cost on torpedo module upgrades"
+  },
+  {
+   "k": "3xooqb",
+   "en": "decreased research cost of naval munitions upgrades for light and heavy guns"
+  },
+  {
+   "k": "h7dgll",
+   "en": "decreased research cost of armor schemes"
+  },
+  {
+   "k": "2nlk68",
+   "en": "increased the cost of initial radar tech, lowered cost on all other radar techs"
+  },
+  {
+   "k": "xhyhrc",
+   "en": "decreased IC cost of all ship heavy batteries"
+  },
+  {
+   "k": "1cmb3zk",
+   "en": "increased damage of all heavy ship batteries"
+  },
+  {
+   "k": "lwfaya",
+   "en": "increased piercing of all medium ship batteries"
+  },
+  {
+   "k": "p2a98w",
+   "en": "increased damage of all medium ship batteries"
+  },
+  {
+   "k": "42ivez",
+   "en": "Carrier planes no longer take area coverage penalties on their targeted/ground missions"
+  },
+  {
+   "k": "1aq706",
+   "en": "Increased carrier hull surface detection base from 20 to 26"
+  },
+  {
+   "k": "1bzycjk",
+   "en": "Added a cooldown timer after naval transfers are engaged at sea and escape to avoid stun-locking issues with many small fleets. The cooldown depends on the screening efficiency of the defenders so a defended convoy will have a longer cooldown the better defended it is"
+  },
+  {
+   "k": "hcnc2p",
+   "en": "Added an extra speed boost to convoys retreat speed when screened"
+  },
+  {
+   "k": "ecj4oe",
+   "en": "Effective carrier plane advantage in naval combat now gives penalties to positioning for the other side"
+  },
+  {
+   "k": "1cc7068",
+   "en": "Increased air-to-air damage factor in carrier battles from 5 to 6"
+  },
+  {
+   "k": "ve8ghh",
+   "en": "increase air attack targeting scoring for carriers to make them more likely targets for other carriers"
+  },
+  {
+   "k": "dbgfkp",
+   "en": "increased naval hit penalty from 10% to 20% in heavy rain"
+  },
+  {
+   "k": "1f3zrgt",
+   "en": "reduced carrier traffic penalty from 100% to 80% in heavy rain"
+  },
+  {
+   "k": "n77ga0",
+   "en": "Reduce heavy gun target signature from 90 to 80 and increased light gun target signature from 40 to 45 to make heavy guns a bit more versatile and light guns a bit slower at picking off screens"
+  },
+  {
+   "k": "1xcsnrc",
+   "en": "Patrol convoy raiding and convoy escort missions now rely on local navy position for air superiority rather than average of air zones to stop high air superiority in a zone from saving the ships from spotting in another."
+  },
+  {
+   "k": "yweakk",
+   "en": "Fixed OOS related to asking an operative to resume their mission after the operation they are assigned to completes"
+  },
+  {
+   "k": "enln4t",
+   "en": "Fixed OOS linked to technologies not being properly reset between games"
+  },
+  {
+   "k": "nab2fs",
+   "en": "Fixed OOS triggered by a country asking for manpower after a civil war"
+  },
+  {
+   "k": "y8dfs2",
+   "en": "Prevented crash when trying to respond to faction invite from a faction that no longer exists"
+  },
+  {
+   "k": "11oxvht",
+   "en": "fixed a ctd that happens when a non-existing capitulated country checks for uncapitulation"
+  },
+  {
+   "k": "1igl6wp",
+   "en": "Added play_song and scoped_play_song effects"
+  },
+  {
+   "k": "120a2kv",
+   "en": "added on_war_relation_added on action (scope is attacker, from is defender)"
+  },
+  {
+   "k": "1gsk300",
+   "en": "Made targeting weights for air-to-ship in naval combat moddable. See NAVAL_COMBAT_AIR_*_TARGET_SCORE defines."
+  },
+  {
+   "k": "u0u9lb",
+   "en": "Updated the forum link in main menu to match the new forum"
+  },
+  {
+   "k": "183d23j",
+   "en": "Bulgaria will no longer start with Flexible Navy focus completed in 1939"
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "1mteyam",
+   "en": "Forum: Patch 1.9.1 Husky Live - Checksum 6d23, 2020-04-08."
+  },
+  {
+   "k": "1wmjudk",
+   "en": "Forum: Patch 1.9.2 Husky Live - Checksum a73d, 2020-05-06."
+  },
+  {
+   "k": "7xb8aa",
+   "en": "Forum: Patch 1.9.3 Husky Live - Checksum a7a4, 2020-06-04."
+  }
+ ]
+}

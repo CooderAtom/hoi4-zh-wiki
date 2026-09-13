@@ -1,0 +1,1039 @@
+{
+ "batch": 426,
+ "pages": [
+  "Data structures"
+ ],
+ "chars": 14925,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1cemzy8",
+   "en": "Checks if every value within the array fulfills the triggers, halting and returning false if any one doesn't, scoping into each element in the array."
+  },
+  {
+   "k": "1kc5jj6",
+   "en": "Appending ⟦0⟧ to the tooltip's key (such as has_more_states_than_every_other_major_tt_NOT in the example) results in the localisation key used if this any_of_scopes is put inside of ⟦1⟧. Since this changes scopes, ⟦2⟧ would, unless there's deeper scoping, refer to the scope this trigger is checked in.",
+   "frags": 3
+  },
+  {
+   "k": "ej9e7i",
+   "en": "The following effects also exist in addition used, with arrays. While some are nominally unrelated to arrays, they are often used in conjunction."
+  },
+  {
+   "k": "jbu3n7",
+   "en": "for_each_loop"
+  },
+  {
+   "k": "16epu2w",
+   "en": "⟦0⟧ The array to check. value = <variable> The name of the temporary variable where the value of the currently-selected element is stored. index = <variable> The name of the temporary variable where the index of the currently-selected element is stored. break = <variable> The temporary variable that can be set to be not 0 to instantly break the loop. <effects> An effect block.",
+   "frags": 1
+  },
+  {
+   "k": "1ehg7gz",
+   "en": "break = <variable>"
+  },
+  {
+   "k": "1v03kiz",
+   "en": "<effects>"
+  },
+  {
+   "k": "19nickg",
+   "en": "for_each_loop = { array = temp_numbers value = v break = break random_list = { 10 = { add_political_power = v } 10 = { divide_temp_variable = { v = 100 } add_stability = v } 10 = { divide_temp_variable = { v = 100 } add_war_support = v } } }"
+  },
+  {
+   "k": "1uiidd5",
+   "en": "Runs an effect once for every element in the array."
+  },
+  {
+   "k": "1ab31pm",
+   "en": "The scope does not change from the one this is checked in by default, requiring one of ⟦0⟧. You cannot remove any elements in the array with the effects block whilst the loop is running.",
+   "frags": 1
+  },
+  {
+   "k": "orhfmy",
+   "en": "for_each_scope_loop"
+  },
+  {
+   "k": "1efmawj",
+   "en": "⟦0⟧ The array to check. break = <variable> The temporary variable that can be set to be not 0 to instantly break the loop. tooltip = <loc> If defined, the effect will output a tooltip for sub effects using this localization as title. <effects> An effect block.",
+   "frags": 1
+  },
+  {
+   "k": "gu8kaj",
+   "en": "tooltip = <loc>"
+  },
+  {
+   "k": "1jfnbd0",
+   "en": "for_each_scope_loop = { array = global.majors if = { limit = { NOT = { tag = PREV } # Not the country where the for_each_scope_loop is executed } random_owned_controlled_state = { transfer_state_to = PREV.PREV } } }"
+  },
+  {
+   "k": "zp09mv",
+   "en": "Runs the effects for every scope within the array."
+  },
+  {
+   "k": "1eykan8",
+   "en": "Equivalent to a ⟦0⟧ effect scope type, with additional ⟦1⟧. Since this changes scopes, ⟦2⟧ would, unless there's deeper scoping, refer to the scope the effect is executed in.",
+   "frags": 3
+  },
+  {
+   "k": "1v2s29z",
+   "en": "every_<...>"
+  },
+  {
+   "k": "1jvnkag",
+   "en": "break"
+  },
+  {
+   "k": "sfhyqz",
+   "en": "random_scope_in_array"
+  },
+  {
+   "k": "3bep3o",
+   "en": "⟦0⟧ The array to check. break = <variable> The temporary variable that can be set to be not 0 to instantly break the loop. limit = { <triggers> } An AND trigger block deciding which scopes can be picked. <effects> An effect block.",
+   "frags": 1
+  },
+  {
+   "k": "13kkbj4",
+   "en": "limit = { <triggers> }"
+  },
+  {
+   "k": "b6nkiy",
+   "en": "random_scope_in_array = { array = global.countries break = break limit = { is_dynamic_country = no exists = no any_state = { is_core_of = PREV # Is core of the currently-checked country } } random_core_state = { transfer_state_to = PREV # Transfers to the currently-selected country. } }"
+  },
+  {
+   "k": "jldbp4",
+   "en": "Runs the effects for a random scope within the array."
+  },
+  {
+   "k": "7fmdxh",
+   "en": "Equivalent to a ⟦0⟧ effect scope type, with additional ⟦1⟧. Since this changes scopes, ⟦2⟧ would, unless there's deeper scoping, refer to the scope this effect is executed in.",
+   "frags": 3
+  },
+  {
+   "k": "1bfe475",
+   "en": "random_<...>"
+  },
+  {
+   "k": "xwdnrr",
+   "en": "while_loop_effect"
+  },
+  {
+   "k": "183xdj9",
+   "en": "⟦0⟧ An AND trigger block deciding when the effect would repeat. break = <variable> The temporary variable that can be set to be not 0 to instantly break the loop. <effects> An effect block.",
+   "frags": 1
+  },
+  {
+   "k": "1nyjxdv",
+   "en": "while_loop_effect = { limit = { any_country = { num_owned_controlled_states > 10 } } random_country = { limit = { num_owned_controlled_states > 10 } random_other_country = { limit = { num_owned_controlled_states < 10 } PREV = { random_owned_controlled_state = { transfer_state_to = PREV.PREV } } } } }"
+  },
+  {
+   "k": "19955gj",
+   "en": "Runs the effects as long as the limit is fulfilled."
+  },
+  {
+   "k": "19tkepa",
+   "en": "The limit is only checked at the beginning and once the effect block is executed. Can't run for more than 1000 times by default⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "13blyrx",
+   "en": "for_loop_effect"
+  },
+  {
+   "k": "19brqe6",
+   "en": "⟦0⟧ The value at which the evaluation starts. Default to 0. end = <decimal>/<variable> The value at which the evaluation ends. Default to 0. compare = <compare type> How the currently-evaluated value must compare with the end for the for loop to continue. Defaults to less_than, leading to the end value never being picked. add = <variable> How much is being added to the start value for every iteration. Defaults to 1. break = <variable> The temporary variable that can be set to be not 0 to instantly break the loop. value = <variable> The name of the temporary variable where the current value of evaluation is stored. <effects> An effect block.",
+   "frags": 1
+  },
+  {
+   "k": "1081opq",
+   "en": "start = <decimal>/<variable>"
+  },
+  {
+   "k": "xn5gh",
+   "en": "end = <decimal>/<variable>"
+  },
+  {
+   "k": "1fil0e4",
+   "en": "compare = <compare type>"
+  },
+  {
+   "k": "tkd2ga",
+   "en": "end"
+  },
+  {
+   "k": "15x8yv",
+   "en": "add = <variable>"
+  },
+  {
+   "k": "s2jf1b",
+   "en": "start"
+  },
+  {
+   "k": "1uxjrgn",
+   "en": "for_loop_effect = { end = 4 value = temp if = { limit = { NOT = { count_triggers = { amount = 2 check_variable = { temparr^temp < temparr^0 } check_variable = { temparr^temp < temparr^1 } check_variable = { temparr^temp < temparr^2 } check_variable = { temparr^temp < temparr^3 } } } } add_to_array = { potential_max = temp } } }"
+  },
+  {
+   "k": "mpawcj",
+   "en": "The limit is only checked at the beginning and once the effect block is executed. Can't run for more than 1000 times by default⟦0⟧. Comparison types are the same as used in ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1cac4ua",
+   "en": "Scorers"
+  },
+  {
+   "k": "1r5fiq9",
+   "en": "Scorers are defined within ⟦0⟧ files, serving as a sorted list of targeted countries, based on how well they did in the specified ⟦1⟧. The scorer has the primary country which the scorer is used for and targeted countries.",
+   "frags": 2
+  },
+  {
+   "k": "19bzgm7",
+   "en": "/Hearts of Iron IV/common/scorers/country/*.txt"
+  },
+  {
+   "k": "1r7mbgc",
+   "en": "Each scorer is a separate block within the file, with the name of the block being the name of the scorer. The scorer then has the ⟦0⟧ block that encompasses everything else about the scorer.",
+   "frags": 1
+  },
+  {
+   "k": "1baos96",
+   "en": "targets = { ... }"
+  },
+  {
+   "k": "aozq78",
+   "en": "Scorers target countries similarly to ⟦0⟧ but with differences, with the following arguments being used within of ⟦1⟧:",
+   "frags": 2
+  },
+  {
+   "k": "jel3py",
+   "en": "targeted decisions"
+  },
+  {
+   "k": "ip94l9",
+   "en": "As with targetted decisions, ⟦0⟧ is the scope of the country being targeted by the scorer, while ROOT is the scope of the country invoking the scorer.",
+   "frags": 1
+  },
+  {
+   "k": "14zs6t1",
+   "en": "FROM"
+  },
+  {
+   "k": "15c24bx",
+   "en": "Scorers do not seem to hotreload very reliably. But, assuming you're changing an existing file rather than making a brand new one, edits to a scorer are reflected if you quit to main menu and then re-enter the game."
+  },
+  {
+   "k": "1a4khap",
+   "en": "⟦0⟧ - A list of country tags, including other ⟦1⟧ such as ⟦2⟧, that can be targeted by this scorer. Unlike targeted decisions, this seems to be comma-separated.",
+   "frags": 3
+  },
+  {
+   "k": "c8c52u",
+   "en": "targets = { TAG, TAG }"
+  },
+  {
+   "k": "kuj2v4",
+   "en": "dual scopes"
+  },
+  {
+   "k": "1ant8ik",
+   "en": "overlord"
+  },
+  {
+   "k": "1sj8iju",
+   "en": "⟦0⟧ - The array to target. The default scope is the primary country.",
+   "frags": 1
+  },
+  {
+   "k": "1y3ekv4",
+   "en": "target_array = global.majors"
+  },
+  {
+   "k": "10m196p",
+   "en": "⟦0⟧ - The trigger block which the primary country must fulfill for the target to work. In here, ROOT (default scope) is the country running the scorer. It's not clear if there's any difference between target_root_trigger and target_trigger except that target_root_trigger is presumably only run once when invoking a scorer, and FROM cannot be used within it.",
+   "frags": 1
+  },
+  {
+   "k": "15wqbv5",
+   "en": "target_root_trigger = { ... }"
+  },
+  {
+   "k": "1mmhftd",
+   "en": "It's not clear if there's any difference between ⟦0⟧ and ⟦1⟧ except that ⟦2⟧ is presumably only run once when invoking a scorer, and FROM cannot be used within it.",
+   "frags": 3
+  },
+  {
+   "k": "1aghkw6",
+   "en": "target_root_trigger"
+  },
+  {
+   "k": "uliulv",
+   "en": "target_trigger"
+  },
+  {
+   "k": "x9mtks",
+   "en": "⟦0⟧ - The trigger block that target country must fulfill for the target to work. In here, ROOT (default scope) is the country running the scorer and FROM is the potential target of the scorer.",
+   "frags": 1
+  },
+  {
+   "k": "gavaj0",
+   "en": "target_trigger = { ... }"
+  },
+  {
+   "k": "1ricj4s",
+   "en": "⟦0⟧ - If set, makes the dynamic countries possible targets. Defaults to no.",
+   "frags": 1
+  },
+  {
+   "k": "8mfv0j",
+   "en": "targets_dynamic = yes"
+  },
+  {
+   "k": "xd2a6z",
+   "en": "⟦0⟧ - If set, makes non-existing countries possible targets. Defaults to no.",
+   "frags": 1
+  },
+  {
+   "k": "p7zkhs",
+   "en": "target_non_existing = yes"
+  },
+  {
+   "k": "17jj09z",
+   "en": "⟦0⟧ - This is the MTTH block itself that ranks the countries in the list. By default, THIS (the default scope) is the target, FROM is the primary country initialising the check.",
+   "frags": 1
+  },
+  {
+   "k": "w31acm",
+   "en": "score = { ... }"
+  },
+  {
+   "k": "180wd00",
+   "en": "For example, the following is a scorer that sorts every major country depending on the amount of states they own:"
+  },
+  {
+   "k": "119s8qq",
+   "en": "After defining a scorer, there is the way to use it: an argument, similar to arrays and variables. Similarly to them, regular and temporary versions exist, which decides whether the variable/array it's writing to is regular or temporary. Both can only be used inside of country scope. Regular versions can only be used in effects, and temporary versions can be used in effects and triggers."
+  },
+  {
+   "k": "qmqmdm",
+   "en": "get_highest_scored_country"
+  },
+  {
+   "k": "1mu5hhr",
+   "en": "⟦0⟧ The scorer to use. var = <variable> The variable where the result will be stored.",
+   "frags": 1
+  },
+  {
+   "k": "6kji94",
+   "en": "scorer = <scorer>"
+  },
+  {
+   "k": "xtpnaa",
+   "en": "get_highest_scored_country = { scorer = asian_countries_owned_states_scorer var = largest_asian_country } get_highest_scored_country_temp = { scorer = asian_countries_owned_states_scorer var = largest_asian_country }"
+  },
+  {
+   "k": "35qxe9",
+   "en": "Sets the specified variable to be the highest-scoring country within the scorer, as checked for the country where this is used."
+  },
+  {
+   "k": "1779rvx",
+   "en": "get_sorted_scored_countries"
+  },
+  {
+   "k": "1a2fr70",
+   "en": "⟦0⟧ The scorer to use. array = <variable> The array where the countries will be stored. scores = <variable> The array where the scores will be stored. Optional.",
+   "frags": 1
+  },
+  {
+   "k": "1pgj9ed",
+   "en": "array = <variable>"
+  },
+  {
+   "k": "vqktex",
+   "en": "scores = <variable>"
+  },
+  {
+   "k": "1x9osp0",
+   "en": "get_sorted_scored_countries = { scorer = asian_countries_owned_states_scorer array = asian_countries_by_size scores = asian_country_size_scores } get_sorted_scored_countries_temp = { scorer = asian_countries_owned_states_scorer array = asian_countries_by_size scores = asian_country_size_scores }"
+  },
+  {
+   "k": "1dlth5y",
+   "en": "Creates two arrays of countries and their corresponding values, sorted in the ascending order."
+  },
+  {
+   "k": "sbpxzg",
+   "en": "Values with the same index are connected: in the example, ⟦0⟧ is the country that got ⟦1⟧ points in the ⟦2⟧ scorer.",
+   "frags": 3
+  },
+  {
+   "k": "pi100k",
+   "en": "asian_countries_by_size^0"
+  },
+  {
+   "k": "ii9vf6",
+   "en": "asian_countries_scores^0"
+  },
+  {
+   "k": "146fb80",
+   "en": "majors_owned_states"
+  },
+  {
+   "k": "1hyqbye",
+   "en": "Scorers can be helpful to create a sorted list of scopes by a certain element, such as political power. For example, the following can be used to find the countries with the most infantry equipment."
+  },
+  {
+   "k": "1ngdy6n",
+   "en": "Within the scorer file:"
+  },
+  {
+   "k": "jf9sv3",
+   "en": "Within an effect block:"
+  },
+  {
+   "k": "1kwlu6a",
+   "en": "Game variables"
+  },
+  {
+   "k": "mfs5tb",
+   "en": "Game variables are read-only variables that are used to read certain aspects of the game, such as the current political power that the player has. These cannot be modified using any variable-modifying argument, but they can serve as the value within them (such as ⟦0⟧ adding the amount of army experience that GER has to the ⟦1⟧ temporary variable). Some are targeted, requiring one more argument in the target's place. For example, ⟦2⟧ has a modifier token as the target, so it would be used as ⟦3⟧, where ⟦4⟧ is the name of the modifier used as the argument.",
+   "frags": 5
+  },
+  {
+   "k": "1rjhfci",
+   "en": "add_to_temp_variable = { temp = GER.army_experience }"
+  },
+  {
+   "k": "1hax0p3",
+   "en": "temp"
+  },
+  {
+   "k": "1658wgg",
+   "en": "modifier"
+  },
+  {
+   "k": "jx5f7t",
+   "en": "set_temp_variable = { temp = modifier@consumer_goods_factor }"
+  },
+  {
+   "k": "kv9fh2",
+   "en": "consumer_goods_factor"
+  },
+  {
+   "k": "t1s5td",
+   "en": "Remember that to get global-scoped game variables, it is necessary to scope into global as ⟦0⟧ rather than leaving out the scope. A list of game variables can be found within ⟦1⟧. A large portion of purely numeric ⟦2⟧ also have corresponding game variables that are not mentioned in the documentation. The following game variables exist in the game (Some duplicates are omitted):",
+   "frags": 3
+  },
+  {
+   "k": "1e7smvd",
+   "en": "global.year"
+  },
+  {
+   "k": "1pb1gz5",
+   "en": "/Hearts of Iron IV/documentation/dynamic_variables_documentation"
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "ye709x",
+   "en": "Variable"
+  },
+  {
+   "k": "12ohkdk",
+   "en": "Target"
+  },
+  {
+   "k": "1832lg7",
+   "en": "Description/Notes"
+  },
+  {
+   "k": "1cf05y4",
+   "en": "year"
+  },
+  {
+   "k": "1qybakv",
+   "en": "None."
+  },
+  {
+   "k": "1twumc8",
+   "en": "The current year, such as 1936."
+  },
+  {
+   "k": "16qmx0f",
+   "en": "The ID of the current date. This can be localised in ⟦0⟧, using the localisation functions beginning with ⟦1⟧. This variable functions by having one game hour be 0.00001, with 0 of the variable corresponding to the date 1st January -5000, 1:00.",
+   "frags": 2
+  },
+  {
+   "k": "1cmotm5",
+   "en": "a multitude of different ways"
+  },
+  {
+   "k": "2jroeu",
+   "en": "GetDateString"
+  },
+  {
+   "k": "1b9p4bb",
+   "en": "num_days"
+  },
+  {
+   "k": "19dt2ea",
+   "en": "The amount of days passed since the start of year 0. The value on the 1st of January 1936 is 706640."
+  },
+  {
+   "k": "2q0bn4",
+   "en": "difficulty"
+  },
+  {
+   "k": "1kcn80i",
+   "en": "The current difficulty value on the scale from 0 (For Civilian) to 4 (For Elite)."
+  },
+  {
+   "k": "1de38gx",
+   "en": "threat"
+  },
+  {
+   "k": "c79btq",
+   "en": "The current world tension value on the scale from 0 to 1."
+  },
+  {
+   "k": "5ba4oe",
+   "en": "pc_turn"
+  },
+  {
+   "k": "1v09iy1",
+   "en": "The turn in the currently-ongoing peace conference."
+  },
+  {
+   "k": "yv4ajv",
+   "en": "power_balance_value"
+  },
+  {
+   "k": "vhqfhs",
+   "en": "BoP, such as ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "9fk3yg",
+   "en": "@ITA_power_balance"
+  },
+  {
+   "k": "jtd93o",
+   "en": "The current value of the balance of power on the scale from -1 to 1."
+  },
+  {
+   "k": "7p1pr4",
+   "en": "power_balance_daily_change"
+  },
+  {
+   "k": "eg3cwz",
+   "en": "The current daily change in the value of the balance of power."
+  },
+  {
+   "k": "1slxx82",
+   "en": "power_balance_weekly_change"
+  },
+  {
+   "k": "1jkjtfj",
+   "en": "The current weekly change in the value of the balance of power."
+  },
+  {
+   "k": "l88of8",
+   "en": "num_of_career_profile_points"
+  },
+  {
+   "k": "tpv8o1",
+   "en": "Check amount of gained career points."
+  },
+  {
+   "k": "1mzmohd",
+   "en": "Modifier's name, such as ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1ytydyu",
+   "en": "@political_power_gain"
+  },
+  {
+   "k": "vc3xus",
+   "en": "The total value of the current ⟦0⟧ as the country has in total. Targeted modifiers have separate definitions.",
+   "frags": 1
+  },
+  {
+   "k": "3iz0ph",
+   "en": "The internal ID of the country. Equivalent to not specifying anything, like ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1kn7rp9",
+   "en": "set_temp_variable = { temp = TAG }"
+  },
+  {
+   "k": "vs3sr3",
+   "en": "max_manpower"
+  },
+  {
+   "k": "14mo6dr",
+   "en": "Total population of the country. Deprecated, recommended to use ⟦0⟧ instead as to push the necessary number for an overflow to ~2 billion from the very possible ~2 million.",
+   "frags": 1
+  },
+  {
+   "k": "1epwlkx",
+   "en": "max_manpower_k"
+  },
+  {
+   "k": "f9p4ka",
+   "en": "Total population of the country in thousands."
+  },
+  {
+   "k": "17kdkej",
+   "en": "party_popularity"
+  },
+  {
+   "k": "1kxh8j",
+   "en": "Ideology group or ⟦0⟧, such as ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1srovwj",
+   "en": "ruling_party"
+  },
+  {
+   "k": "pznuuh",
+   "en": "@ruling_party"
+  },
+  {
+   "k": "xq2oq9",
+   "en": "The popularity of the specified political party in the range from 0 to 1."
+  },
+  {
+   "k": "19b32nj",
+   "en": "party_popularity_100"
+  },
+  {
+   "k": "1eixiym",
+   "en": "@neutrality"
+  },
+  {
+   "k": "128s32x",
+   "en": "The popularity of the specified political party in the range from 0 to 100."
+  },
+  {
+   "k": "c840r1",
+   "en": "highest_party_ideology"
+  },
+  {
+   "k": "nbuwf2",
+   "en": "⟦0⟧ or nothing.",
+   "frags": 1
+  },
+  {
+   "k": "1xcjhp8",
+   "en": "exclude_ruling_party"
+  },
+  {
+   "k": "8k52n8",
+   "en": "The ideology group that has the highest party popularity within the country, optionally excluding the ruling party."
+  },
+  {
+   "k": "ojkvre",
+   "en": "highest_party_popularity"
+  },
+  {
+   "k": "1qp1cp9",
+   "en": "The popularity of the ideology group that has the highest party popularity within the country, optionally excluding the ruling party. The popularity is on the scale from 0 to 1."
+  },
+  {
+   "k": "14y76ya",
+   "en": "current_party_ideology_group"
+  },
+  {
+   "k": "1i658vi",
+   "en": "Ideology group that the country currently has."
+  },
+  {
+   "k": "1swoskd",
+   "en": "original_tag"
+  },
+  {
+   "k": "fr94gt",
+   "en": "The tag from which the current country originates. Same as the regular tag for non-dynamic countries."
+  },
+  {
+   "k": "q67o65",
+   "en": "opinion"
+  },
+  {
+   "k": "ce8cjx",
+   "en": "Country."
+  },
+  {
+   "k": "10ct9n0",
+   "en": "The opinion of the current country towards the specified one."
+  },
+  {
+   "k": "15w7b2h",
+   "en": "days_decision_timeout"
+  },
+  {
+   "k": "1wbfpo7",
+   "en": "Decision, such as ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "12hg9fg",
+   "en": "@my_decision"
+  },
+  {
+   "k": "1r6jv54",
+   "en": "The remaining amount of days for a completed decision before it gets removed."
+  },
+  {
+   "k": "uplnyb",
+   "en": "days_mission_timeout"
+  },
+  {
+   "k": "11zufv9",
+   "en": "Mission."
+  },
+  {
+   "k": "1e4m3jb",
+   "en": "The remaining amount of days for an ongoing mission before it times out."
+  },
+  {
+   "k": "1q7zs56",
+   "en": "political_power"
+  },
+  {
+   "k": "dybx9g",
+   "en": "Total current political power of the country. ⟦0⟧ can be used in the same way.",
+   "frags": 1
+  },
+  {
+   "k": "iadd6t",
+   "en": "has_political_power"
+  },
+  {
+   "k": "m1p7zo",
+   "en": "political_power_daily"
+  },
+  {
+   "k": "itl1js",
+   "en": "Current amount of daily gain of political power, equivalent to ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "14hbvwg",
+   "en": "political_power_growth"
+  },
+  {
+   "k": "ltgajs",
+   "en": "stability"
+  },
+  {
+   "k": "1xt7jjt",
+   "en": "Current stability of the country on the scale from 0 to 1. ⟦0⟧ can be used in the same way.",
+   "frags": 1
+  },
+  {
+   "k": "qbtd33",
+   "en": "has_stability"
+  },
+  {
+   "k": "4qrkq6",
+   "en": "has_war_support"
+  },
+  {
+   "k": "cp2q1h",
+   "en": "Current war support of the country on the scale from 0 to 1."
+  },
+  {
+   "k": "4ijcv",
+   "en": "has_casualties_war_support"
+  },
+  {
+   "k": "16notlh",
+   "en": "The malus from casualties towards war support on the scale from 0 to 1."
+  },
+  {
+   "k": "1m6bxme",
+   "en": "has_convoys_war_support"
+  },
+  {
+   "k": "19y2x77",
+   "en": "The malus from sunk convoys towards war support on the scale from 0 to 1."
+  },
+  {
+   "k": "15ol1mh",
+   "en": "has_bombing_war_support"
+  },
+  {
+   "k": "z9vh9j",
+   "en": "The malus from bombing towards war support on the scale from 0 to 1."
+  },
+  {
+   "k": "1iuo299",
+   "en": "The current power balance value."
+  },
+  {
+   "k": "wai41z",
+   "en": "power_balance_daily"
+  },
+  {
+   "k": "ktgqag",
+   "en": "The current daily change in power balance."
+  },
+  {
+   "k": "x2ahvh",
+   "en": "power_balance_weekly"
+  },
+  {
+   "k": "j47gus",
+   "en": "The current weekly change in power balance."
+  },
+  {
+   "k": "zxcebr",
+   "en": "The capital state of the country."
+  },
+  {
+   "k": "1g95yrz",
+   "en": "autonomy_ratio"
+  },
+  {
+   "k": "1nrsbot",
+   "en": "How close the country is to taking the next autonomy level. 0 if can be downgraded, 1 if can be upgraded, -1 if independent. ⟦0⟧ can be used in a similar way.",
+   "frags": 1
+  },
+  {
+   "k": "1s0xgbz",
+   "en": "compare_autonomy_progress_ratio"
+  },
+  {
+   "k": "3frb9v",
+   "en": "The country that the current country is a subject of."
+  },
+  {
+   "k": "1tr8cb1",
+   "en": "num_subjects"
+  },
+  {
+   "k": "1kg3k2v",
+   "en": "The number of subjects that the country has as an overlord."
+  },
+  {
+   "k": "apwuwg",
+   "en": "core_compliance"
+  },
+  {
+   "k": "svjmk0",
+   "en": "Average compliance within cores of the target country occupied by the current country."
+  },
+  {
+   "k": "1m6ipde",
+   "en": "core_resistance"
+  },
+  {
+   "k": "1p46g1i",
+   "en": "Average resistance within cores of the target country occupied by the current country."
+  },
+  {
+   "k": "1wn92mx",
+   "en": "has_collaboration"
+  },
+  {
+   "k": "1hxdh3h",
+   "en": "The collaboration of the target country with the current country within target's cores currently occupied by the current country."
+  },
+  {
+   "k": "bqlv2l",
+   "en": "faction_leader"
+  }
+ ]
+}

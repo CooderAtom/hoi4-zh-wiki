@@ -1,0 +1,796 @@
+{
+ "batch": 1077,
+ "pages": [
+  "Decision modding"
+ ],
+ "chars": 8936,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "118yh83",
+   "en": "available = { ... }"
+  },
+  {
+   "k": "rz9yk7",
+   "en": "Defaults to always being true, making it disappear instantly"
+  },
+  {
+   "k": "11k0nmy",
+   "en": "⟦0⟧, if set, turns the mission into one that where the player must select the button. If unset or set to false, then the complete effect will fire as soon as ⟦1⟧ is true.",
+   "frags": 2
+  },
+  {
+   "k": "1s76erc",
+   "en": "selectable_mission = yes"
+  },
+  {
+   "k": "c8d1ml",
+   "en": "⟦0⟧ decides on triggers that must be met for the decision to appear, assuming ⟦1⟧ was true on the game's start. This is checked daily. ⟦2⟧ The activate_mission = mission_name effect can bypass both allowed and activation, and it's usually better-optimised to use it to make the decision appear instead of relying on it being done automatically.",
+   "frags": 3
+  },
+  {
+   "k": "wbzz2m",
+   "en": "activation = { ... }"
+  },
+  {
+   "k": "1vn1zs5",
+   "en": "⟦0⟧ does nothing and shouldn't be used in missions.",
+   "frags": 1
+  },
+  {
+   "k": "sgc48p",
+   "en": "The ⟦0⟧ ⟦1⟧ can bypass both ⟦2⟧ and ⟦3⟧, and it's usually better-optimised to use it to make the decision appear instead of relying on it being done automatically.",
+   "frags": 4
+  },
+  {
+   "k": "1k9yxud",
+   "en": "⟦0⟧ changes the tooltips shown to the player on a non-selectable mission. By default or if set to false, the tooltip states that the ⟦1⟧ will complete the mission, calling ⟦2⟧ the effects if it's not completed. If set to true, ⟦3⟧ will instead change to \"Effects when failed\". This is purely graphical and may be used to better communicate to the player whether they should seek to complete the prerequisites or to avoid them being true.",
+   "frags": 4
+  },
+  {
+   "k": "ctorwz",
+   "en": "is_good = yes"
+  },
+  {
+   "k": "1lukwx0",
+   "en": "timeout_effect"
+  },
+  {
+   "k": "d9781s",
+   "en": "⟦0⟧ will make the game assume that the mission, within its ⟦1⟧ will declare war on the specified country. This is used to make the AI prepare for a declaration of war and amass its troops on the border. This will also grant a notification to the target and all of its allies that a wargoal is being justified.",
+   "frags": 2
+  },
+  {
+   "k": "u8o7bl",
+   "en": "war_with_on_timeout = TAG"
+  },
+  {
+   "k": "aop1n7",
+   "en": "Other attributes, such as ⟦0⟧ or ⟦1⟧ generally may be used inside of missions and should work how they do outside of them.",
+   "frags": 2
+  },
+  {
+   "k": "1wctbsg",
+   "en": "cancel_trigger"
+  },
+  {
+   "k": "1ruaxqt",
+   "en": "cancel_effect"
+  },
+  {
+   "k": "14n29bv",
+   "en": "Mission example"
+  },
+  {
+   "k": "6hp1rq",
+   "en": "Targeted decisions"
+  },
+  {
+   "k": "iw8yvc",
+   "en": "In addition to regular decisions that are taken by the country towards that same country, it is possible to make a decision be targeted towards a different country or group of countries. In that case, the decision will clone itself for each country that it gets targeted towards, putting the flag of the country in the bottom right of the decision's icon. The targeted country will be possible to reference in code using ⟦0⟧, while ROOT is still the country that gets the decision. ⟦1⟧ ⟦2⟧, in this case, will make the decision fire only once per each target country: a decision targeted towards BLR will not disappear if a decision of the same ID targered towards LIT gets completed. Missions, as well as regular decisions, can be made targeted.",
+   "frags": 3
+  },
+  {
+   "k": "14zs6t1",
+   "en": "FROM"
+  },
+  {
+   "k": "17f7p1z",
+   "en": "Despite what the names imply, FROM is the target of the decision rather than the country doing it."
+  },
+  {
+   "k": "16n8lvc",
+   "en": "fire_only_once"
+  },
+  {
+   "k": "1gtho76",
+   "en": "A decision becomes targeted if any way to check for a target is added within the decision:"
+  },
+  {
+   "k": "1h925jn",
+   "en": "Checking for target"
+  },
+  {
+   "k": "1ms2oe9",
+   "en": "There are several ways to limit the selection of targets. If any of these three is present in the decision, it will be marked as targeted."
+  },
+  {
+   "k": "1lvwjvs",
+   "en": "The primary way to limit the selection to a select few countries is ⟦0⟧. In that case, if you want the game to check every country with that original tag (including civil war rebellions and other types of dynamic countries), then ⟦1⟧ line of code will ensure that the game will check more than the country that the country tag truly belongs to. Additionally, by default, it's impossible to target a non-existing country. The ⟦2⟧ argument can be used to remove that restriction.",
+   "frags": 3
+  },
+  {
+   "k": "102bjew",
+   "en": "targets = { TAG TAG }"
+  },
+  {
+   "k": "8mfv0j",
+   "en": "targets_dynamic = yes"
+  },
+  {
+   "k": "p7zkhs",
+   "en": "target_non_existing = yes"
+  },
+  {
+   "k": "qr9gkj",
+   "en": "Additionally, it is possible to use ⟦0⟧ to limit a selection with ⟦1⟧, where the array must be assigned to the country. ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "8hmjf3",
+   "en": "arrays"
+  },
+  {
+   "k": "fqzkbu",
+   "en": "target_array = array_name"
+  },
+  {
+   "k": "1to22rb",
+   "en": "You can see a list of arrays automatically generated by the game here."
+  },
+  {
+   "k": "uqfcap",
+   "en": "Together with any of the previous two ways or without them, ⟦0⟧ is a trigger block evaluated daily for both FROM and ROOT, if ⟦1⟧ is evaluated as true.",
+   "frags": 2
+  },
+  {
+   "k": "gavaj0",
+   "en": "target_trigger = { ... }"
+  },
+  {
+   "k": "x237qo",
+   "en": "For targeted decisions, ⟦0⟧ is also possible to use, as a trigger block that continuously checks every day if allowed was met, required to make the decision or the entire category be visible in the decision selection screen. ⟦1⟧, being executed before ⟦2⟧ is. This exists for optimisation purposes, as it takes much less time to check the condition for one country daily than for every combination of countries.",
+   "frags": 3
+  },
+  {
+   "k": "15a65q0",
+   "en": "This checks only ROOT"
+  },
+  {
+   "k": "1rz8npv",
+   "en": "Triggers overview"
+  },
+  {
+   "k": "1ck3uep",
+   "en": "⟦0⟧ checks the country that should get this decision and only checks upon the game's start or when reloading decisions such as by loading a savegame. If false, the decision is permamently disabled.",
+   "frags": 1
+  },
+  {
+   "k": "4pxzb0",
+   "en": "allowed = { ... }"
+  },
+  {
+   "k": "tunrpg",
+   "en": "⟦0⟧ checks the country the country that should get this decision, every day. If false, the decision will not appear until the next daily check. ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "15wqbv5",
+   "en": "target_root_trigger = { ... }"
+  },
+  {
+   "k": "1imqb3z",
+   "en": "Despite only checking one country, this still makes the decision targeted."
+  },
+  {
+   "k": "112m0rl",
+   "en": "⟦0⟧ checks any countries (or states) that meet ⟦1⟧ and ⟦2⟧, if they're present. In here, ROOT (default scope) is the country that gets the decision and FROM is the potential target of the decision. This is checked daily, making the decision not appear until the next day's check if false. Putting this automatically makes the decision targeted.",
+   "frags": 3
+  },
+  {
+   "k": "1baos96",
+   "en": "targets = { ... }"
+  },
+  {
+   "k": "hfp3k9",
+   "en": "⟦0⟧ and ⟦1⟧ are checked every tick. If the decision is targeted, then FROM is checked alongside ROOT, otherwise only ROOT is checked.",
+   "frags": 2
+  },
+  {
+   "k": "1m3xswk",
+   "en": "The regular arguments of ⟦0⟧ do not work if using FROM as a target. Instead, there are alternatives for targeted decisions specifically:",
+   "frags": 1
+  },
+  {
+   "k": "20p4wf",
+   "en": "war_with_on_"
+  },
+  {
+   "k": "6n3jpc",
+   "en": "⟦0⟧ - Equivalent to ⟦1⟧ ⟦2⟧ - Equivalent to ⟦3⟧ ⟦4⟧ - Equivalent to ⟦5⟧",
+   "frags": 6
+  },
+  {
+   "k": "snkims",
+   "en": "war_with_target_on_complete = yes"
+  },
+  {
+   "k": "ardmjt",
+   "en": "war_with_on_complete = FROM"
+  },
+  {
+   "k": "n1jszr",
+   "en": "war_with_target_on_remove = yes"
+  },
+  {
+   "k": "192agzg",
+   "en": "war_with_on_remove = FROM"
+  },
+  {
+   "k": "1ybur0e",
+   "en": "war_with_target_on_timeout = yes"
+  },
+  {
+   "k": "1gnczqn",
+   "en": "war_with_on_timeout = FROM"
+  },
+  {
+   "k": "3p0m3k",
+   "en": "Additional note"
+  },
+  {
+   "k": "1epnmzd",
+   "en": "Similarly to missions, the ⟦0⟧ effect exists. If possible, it is recommended to use this effect instead of letting it automatically activate, making it never allowed. For instance, if the targeted decision activates by being at war with a country, ⟦1⟧ can be used to activate it instead of using ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1dmbsgz",
+   "en": "activate_targeted_decision = { target = TAG decision = my_decision }"
+  },
+  {
+   "k": "o8ac1b",
+   "en": "on_war_relation_added in on_actions"
+  },
+  {
+   "k": "1phwwbt",
+   "en": "target_array = enemies"
+  },
+  {
+   "k": "4x7h1v",
+   "en": "Targeted decision example"
+  },
+  {
+   "k": "8t6ecd",
+   "en": "State targeted decisions"
+  },
+  {
+   "k": "16wr5xm",
+   "en": "If the decision has ⟦0⟧ then, instead, it'll be targeted towards a state. Possible values are: yes, no, any, any_owned_state, any_controlled_state, continent_key (europe, africa, north_america...). This will only have an effect if no 'targets' are specified, else this should be set to 'any' (or 'yes') if targets are used. Unless omitted or set to \"no\", makes the decision a state targeted decision. Which states will be checked depends on value: - any (or yes): will check every state in the game against the 'target_trigger'. - any_owned_state: will check every state owned by the country. This is equivalent to adding 'is_owned_by = ROOT' in the target_trigger. - any_controlled_state: will check every state controlled by the country. This is equivalent to adding 'is_controlled_by = ROOT' in the target_trigger. - continent_key (europe, africa, north_america...): will check every state in the continent. This is equivalent to adding 'is_on_continent = xxx' in the target_trigger.",
+   "frags": 1
+  },
+  {
+   "k": "yp3m8y",
+   "en": "state_target = yes"
+  },
+  {
+   "k": "17j20sb",
+   "en": "When using explicit targets such as via ⟦0⟧ or ⟦1⟧ only ⟦2⟧ will work the others will produce an error",
+   "frags": 3
+  },
+  {
+   "k": "10bn5c6",
+   "en": "targets = {}"
+  },
+  {
+   "k": "yd8b2i",
+   "en": "target_array = yes"
+  },
+  {
+   "k": "19u59uv",
+   "en": "state_target = yes/any"
+  },
+  {
+   "k": "fmz65g",
+   "en": "Targeting still works the same way, with it having FROM as a state scope instead. ⟦0⟧ becomes ⟦1⟧ or, in case of one state total, ⟦2⟧ can be used as well.",
+   "frags": 3
+  },
+  {
+   "k": "mle4k0",
+   "en": "targets = { 123 321 }"
+  },
+  {
+   "k": "l0z5h6",
+   "en": "targets = { state = 123 }"
+  },
+  {
+   "k": "1pwzjll",
+   "en": "Decisions targeted towards states will have the icon appear over the states while the decision menu is open. To prevent confusion, a ⟦0⟧ can be added to the decision category.",
+   "frags": 1
+  },
+  {
+   "k": "15qyx9q",
+   "en": "map area"
+  },
+  {
+   "k": "9zg5j8",
+   "en": "Additionally, The argument ⟦0⟧ will determine where the targeted decisions appear in.",
+   "frags": 1
+  },
+  {
+   "k": "hhm7xl",
+   "en": "on_map_mode"
+  },
+  {
+   "k": "19g1l71",
+   "en": "⟦0⟧ will make the targeted decisions only appear on the map. ⟦1⟧ will make the targeted decisions only appear in the decisions menu. ⟦2⟧ will make the targeted decisions appear on both the map and the decisions menu.",
+   "frags": 3
+  },
+  {
+   "k": "6di8hr",
+   "en": "on_map_mode = map_only"
+  },
+  {
+   "k": "11moqsb",
+   "en": "on_map_mode = decision_view_only"
+  },
+  {
+   "k": "12fwf1y",
+   "en": "on_map_mode = map_and_decisions_view"
+  },
+  {
+   "k": "55ja69",
+   "en": "Example"
+  },
+  {
+   "k": "1odp415",
+   "en": "⟦0⟧ in ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1c2ecix",
+   "en": "CAMERA_MIN_HEIGHT = 50.0"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "524291",
+   "en": "CAMERA_MAX_HEIGHT = 3000.0"
+  },
+  {
+   "k": "59iejl",
+   "en": "Documentation"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "bbbsh0",
+   "en": "List of modifiers"
+  },
+  {
+   "k": "gkat0o",
+   "en": "Scopes"
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "22wvcr",
+   "en": "On actions"
+  },
+  {
+   "k": "10y68xx",
+   "en": "Data structures"
+  },
+  {
+   "k": "icm958",
+   "en": "Flags"
+  },
+  {
+   "k": "1fldcnt",
+   "en": "Event targets"
+  },
+  {
+   "k": "135tw29",
+   "en": "Country tag aliases"
+  },
+  {
+   "k": "xqivz6",
+   "en": "Variables"
+  },
+  {
+   "k": "14wbbvz",
+   "en": "Arrays"
+  },
+  {
+   "k": "wdu62e",
+   "en": "Scripting"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "475d63",
+   "en": "AI focuses"
+  },
+  {
+   "k": "gpz0z1",
+   "en": "Autonomous states"
+  },
+  {
+   "k": "a6cuzg",
+   "en": "Balances of power"
+  },
+  {
+   "k": "14khzdq",
+   "en": "Bookmarks/Scenarios"
+  },
+  {
+   "k": "xrnqxs",
+   "en": "Game rules"
+  },
+  {
+   "k": "1xa6gia",
+   "en": "Buildings"
+  },
+  {
+   "k": "8657g9",
+   "en": "Characters and traits"
+  },
+  {
+   "k": "o977ej",
+   "en": "Cosmetic tags"
+  },
+  {
+   "k": "8zhvfx",
+   "en": "Countries"
+  },
+  {
+   "k": "19eysrz",
+   "en": "Divisions"
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "1xtq0ev",
+   "en": "Equipment"
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "e65ons",
+   "en": "Factions"
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "1cd8sst",
+   "en": "Ideologies"
+  },
+  {
+   "k": "1oopcvp",
+   "en": "Military industrial organizations"
+  },
+  {
+   "k": "k2esk3",
+   "en": "National focuses"
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "1jzxqx9",
+   "en": "Technologies and doctrines"
+  },
+  {
+   "k": "ur18vw",
+   "en": "Units"
+  },
+  {
+   "k": "j1sac1",
+   "en": "Map"
+  },
+  {
+   "k": "5afzz",
+   "en": "States"
+  },
+  {
+   "k": "8ppvas",
+   "en": "Supply areas"
+  },
+  {
+   "k": "1v2pifw",
+   "en": "Strategic regions"
+  },
+  {
+   "k": "1cffeuu",
+   "en": "Graphical"
+  },
+  {
+   "k": "yolbkg",
+   "en": "Interface"
+  },
+  {
+   "k": "2hqnqn",
+   "en": "Graphical assets"
+  },
+  {
+   "k": "6px9my",
+   "en": "Entities"
+  },
+  {
+   "k": "1n1sxcz",
+   "en": "Posteffects"
+  },
+  {
+   "k": "1fu6htw",
+   "en": "Particles"
+  },
+  {
+   "k": "t16z95",
+   "en": "Fonts"
+  },
+  {
+   "k": "1ig52hy",
+   "en": "Cosmetic"
+  },
+  {
+   "k": "9k7pgr",
+   "en": "Portraits"
+  },
+  {
+   "k": "65pf3n",
+   "en": "Namelists"
+  },
+  {
+   "k": "ohwdis",
+   "en": "Music"
+  },
+  {
+   "k": "1dvvwok",
+   "en": "Sound"
+  },
+  {
+   "k": "ukzedx",
+   "en": "Other"
+  },
+  {
+   "k": "1uzifys",
+   "en": "Console commands"
+  },
+  {
+   "k": "1t5bxxt",
+   "en": "Troubleshooting"
+  },
+  {
+   "k": "1djsobe",
+   "en": "Mod structure"
+  },
+  {
+   "k": "pw0jjk",
+   "en": "Mods"
+  },
+  {
+   "k": "pui2ou",
+   "en": "Nudger"
+  },
+  {
+   "k": "gjjgad",
+   "en": "By using the console command or saving over a decision file with the debug mode being turned on via launch options."
+  }
+ ]
+}

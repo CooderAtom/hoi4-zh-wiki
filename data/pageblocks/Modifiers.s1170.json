@@ -1,0 +1,656 @@
+{
+ "page": "Modifiers",
+ "from": 1170,
+ "items": [
+  {
+   "k": "1enjogq",
+   "en": "army_leader_start_level = 1",
+   "zh": ""
+  },
+  {
+   "k": "1o9vx0p",
+   "en": "army_leader_start_attack_level",
+   "zh": ""
+  },
+  {
+   "k": "143wyyd",
+   "en": "Bonus to the starting level of attack in generic unit leaders.",
+   "zh": ""
+  },
+  {
+   "k": "3az8fp",
+   "en": "army_leader_start_attack_level = 1",
+   "zh": ""
+  },
+  {
+   "k": "15zql9l",
+   "en": "army_leader_start_defense_level",
+   "zh": ""
+  },
+  {
+   "k": "7dpnnn",
+   "en": "Bonus to the starting level of defense in generic unit leaders.",
+   "zh": ""
+  },
+  {
+   "k": "1eu58z9",
+   "en": "army_leader_start_defense_level = 1",
+   "zh": ""
+  },
+  {
+   "k": "l85wx6",
+   "en": "army_leader_start_logistics_level",
+   "zh": ""
+  },
+  {
+   "k": "19n427e",
+   "en": "Bonus to the starting level of logistics in generic unit leaders.",
+   "zh": ""
+  },
+  {
+   "k": "hconfi",
+   "en": "army_leader_start_logistics_level = 1",
+   "zh": ""
+  },
+  {
+   "k": "1apwbfk",
+   "en": "army_leader_start_planning_level",
+   "zh": ""
+  },
+  {
+   "k": "1dn19h2",
+   "en": "Bonus to the starting level of planning in generic unit leaders.",
+   "zh": ""
+  },
+  {
+   "k": "zat98c",
+   "en": "army_leader_start_planning_level = 1",
+   "zh": ""
+  },
+  {
+   "k": "12iwfjc",
+   "en": "military_leader_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "1d866nv",
+   "en": "The cost in political power to recruit an unit leader.",
+   "zh": ""
+  },
+  {
+   "k": "15z8ndm",
+   "en": "military_leader_cost_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1lh2h99",
+   "en": "female_random_admiral_chance",
+   "zh": ""
+  },
+  {
+   "k": "1i33un",
+   "en": "Changes the chance for a randomly-generated admiral to be female.",
+   "zh": ""
+  },
+  {
+   "k": "v4xzux",
+   "en": "female_random_admiral_chance = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "154jzcl",
+   "en": "assign_navy_leader_cp_cost",
+   "zh": ""
+  },
+  {
+   "k": "11l2beb",
+   "en": "Modifies the cost to assign a navy leader to a navy.",
+   "zh": ""
+  },
+  {
+   "k": "1lgjv94",
+   "en": "assign_navy_leader_cp_cost = -5",
+   "zh": ""
+  },
+  {
+   "k": "7oya61",
+   "en": "navy_leader_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "7sip3i",
+   "en": "The cost in political power to recruit an unit leader for the land navy.",
+   "zh": ""
+  },
+  {
+   "k": "1d5xasz",
+   "en": "navy_leader_cost_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1lxfy41",
+   "en": "navy_leader_start_level",
+   "zh": ""
+  },
+  {
+   "k": "8uagh9",
+   "en": "navy_leader_start_level = 1",
+   "zh": ""
+  },
+  {
+   "k": "1c9ra1k",
+   "en": "navy_leader_start_attack_level",
+   "zh": ""
+  },
+  {
+   "k": "1gmp7s4",
+   "en": "navy_leader_start_attack_level = 1",
+   "zh": ""
+  },
+  {
+   "k": "1lwm5aj",
+   "en": "navy_leader_start_coordination_level",
+   "zh": ""
+  },
+  {
+   "k": "go8xsg",
+   "en": "Bonus to the starting level of coordination in generic unit leaders.",
+   "zh": ""
+  },
+  {
+   "k": "zbe2br",
+   "en": "navy_leader_start_coordination_level = 1",
+   "zh": ""
+  },
+  {
+   "k": "x58986",
+   "en": "navy_leader_start_defense_level",
+   "zh": ""
+  },
+  {
+   "k": "1p5jb2q",
+   "en": "navy_leader_start_defense_level = 1",
+   "zh": ""
+  },
+  {
+   "k": "hf9n8b",
+   "en": "navy_leader_start_maneuvering_level",
+   "zh": ""
+  },
+  {
+   "k": "7wq6kc",
+   "en": "Bonus to the starting level of maneuvering in generic unit leaders.",
+   "zh": ""
+  },
+  {
+   "k": "1ph311z",
+   "en": "navy_leader_start_maneuvering_level = 1",
+   "zh": ""
+  },
+  {
+   "k": "1g9bwbn",
+   "en": "grant_medal_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "ps934z",
+   "en": "Changes the cost in command power to grant a medal to a division commander.",
+   "zh": ""
+  },
+  {
+   "k": "oo5w7g",
+   "en": "grant_medal_cost_factor = 0.2",
+   "zh": ""
+  },
+  {
+   "k": "o0ujzy",
+   "en": "field_officer_promotion_penalty",
+   "zh": ""
+  },
+  {
+   "k": "pj8tai",
+   "en": "Changes the experience penalty applied to the divisions when a commander is promoted to a field marshal.",
+   "zh": ""
+  },
+  {
+   "k": "5b87mp",
+   "en": "field_officer_promotion_penalty = 0.2",
+   "zh": ""
+  },
+  {
+   "k": "k7il12",
+   "en": "female_divisional_commander_chance",
+   "zh": ""
+  },
+  {
+   "k": "15qcz3b",
+   "en": "Changes the chance to get a female divisional commander.",
+   "zh": ""
+  },
+  {
+   "k": "14kp6c9",
+   "en": "female_divisional_commander_chance = 0.2",
+   "zh": ""
+  },
+  {
+   "k": "9187ay",
+   "en": "If no generic female portraits are defined within ⟦0⟧ files, there will be a silhouette.",
+   "zh": ""
+  },
+  {
+   "k": "xk00o5",
+   "en": "/Hearts of Iron IV/portraits/*.txt",
+   "zh": ""
+  },
+  {
+   "k": "kmznr9",
+   "en": "General combat",
+   "zh": ""
+  },
+  {
+   "k": "1h7wx4s",
+   "en": "Note that most of these modifiers are not only in country scope but also in unit leader and navy leader scopes.",
+   "zh": ""
+  },
+  {
+   "k": "cj9281",
+   "en": "offence",
+   "zh": ""
+  },
+  {
+   "k": "y9y177",
+   "en": "Modifies the attack value of our military, navy, and airforce.",
+   "zh": ""
+  },
+  {
+   "k": "1exfzwb",
+   "en": "offence = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "49u5p2",
+   "en": "Does not work in country scope, use army_attack_factor instead.",
+   "zh": ""
+  },
+  {
+   "k": "exlcyr",
+   "en": "Modifies the defence value of our military, navy, and airforce.",
+   "zh": ""
+  },
+  {
+   "k": "hsncl5",
+   "en": "defence = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "p3028m",
+   "en": "Does not work in country scope, use army_defence_factor instead.",
+   "zh": ""
+  },
+  {
+   "k": "82b0tk",
+   "en": "<Tactic>_preferred_weight_factor",
+   "zh": ""
+  },
+  {
+   "k": "ir8jo3",
+   "en": "Modifies the chance for a commander to choose the specified tactic.",
+   "zh": ""
+  },
+  {
+   "k": "rrisdd",
+   "en": "tactic_ambush_preferred_weight_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1obngmh",
+   "en": "Combat tactics are defined in ⟦0⟧.",
+   "zh": ""
+  },
+  {
+   "k": "ymm484",
+   "en": "/Hearts of Iron IV/common/combat_tactics.txt",
+   "zh": ""
+  },
+  {
+   "k": "1qld2zg",
+   "en": "Land combat",
+   "zh": ""
+  },
+  {
+   "k": "h8qiqx",
+   "en": "Note that most of these modifiers are not only in country scope but also in unit leader scope.",
+   "zh": ""
+  },
+  {
+   "k": "c1ie22",
+   "en": "acclimatization_cold_climate_gain_factor",
+   "zh": ""
+  },
+  {
+   "k": "tyij9d",
+   "en": "Cold acclimatization gain factor.",
+   "zh": ""
+  },
+  {
+   "k": "1dij1ns",
+   "en": "acclimatization_cold_climate_gain_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "16cf9tn",
+   "en": "acclimatization_hot_climate_gain_factor",
+   "zh": ""
+  },
+  {
+   "k": "iquz6w",
+   "en": "Hot acclimatization gain factor.",
+   "zh": ""
+  },
+  {
+   "k": "1rv624x",
+   "en": "acclimatization_hot_climate_gain_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1u72p76",
+   "en": "air_superiority_bonus_in_combat",
+   "zh": ""
+  },
+  {
+   "k": "sfylxz",
+   "en": "The bonus in combat given from having air superiority.",
+   "zh": ""
+  },
+  {
+   "k": "13uclqo",
+   "en": "air_superiority_bonus_in_combat = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "te28j9",
+   "en": "army_attack_factor",
+   "zh": ""
+  },
+  {
+   "k": "1lpa6wi",
+   "en": "The bonus to land army's attack.",
+   "zh": ""
+  },
+  {
+   "k": "1trksx3",
+   "en": "army_attack_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "17xkuy3",
+   "en": "army_core_attack_factor",
+   "zh": ""
+  },
+  {
+   "k": "114nrds",
+   "en": "The bonus to land army's attack on core territory.",
+   "zh": ""
+  },
+  {
+   "k": "987ral",
+   "en": "army_core_attack_factor = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "1qor85q",
+   "en": "army_claim_attack_factor",
+   "zh": ""
+  },
+  {
+   "k": "1bisjb0",
+   "en": "The bonus to land army's attack on claimed territory.",
+   "zh": ""
+  },
+  {
+   "k": "17wyh20",
+   "en": "army_claim_attack_factor = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "1wd2xev",
+   "en": "army_attack_against_major_factor",
+   "zh": ""
+  },
+  {
+   "k": "307kej",
+   "en": "The bonus to land army's attack against a major country.",
+   "zh": ""
+  },
+  {
+   "k": "1cjkj91",
+   "en": "army_attack_against_major_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1k21vy3",
+   "en": "army_attack_against_minor_factor",
+   "zh": ""
+  },
+  {
+   "k": "pto93h",
+   "en": "The bonus to land army's attack against a non-major country.",
+   "zh": ""
+  },
+  {
+   "k": "9g1t5d",
+   "en": "army_attack_against_minor_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "euujk9",
+   "en": "army_attack_speed_factor",
+   "zh": ""
+  },
+  {
+   "k": "1idvsd",
+   "en": "The bonus to speed at which the land army attacks.",
+   "zh": ""
+  },
+  {
+   "k": "14ee8o3",
+   "en": "army_attack_speed_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1no3rtf",
+   "en": "army_breakthrough_against_major_factor",
+   "zh": ""
+  },
+  {
+   "k": "1gbhdyz",
+   "en": "The bonus to land army's breakthrough against a major country.",
+   "zh": ""
+  },
+  {
+   "k": "3t62mh",
+   "en": "army_breakthrough_against_major_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "5qnchr",
+   "en": "army_breakthrough_against_minor_factor",
+   "zh": ""
+  },
+  {
+   "k": "1x3pqyl",
+   "en": "The bonus to land army's breakthrough against a non-major country.",
+   "zh": ""
+  },
+  {
+   "k": "1b9hrvx",
+   "en": "army_breakthrough_against_minor_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "sei7yz",
+   "en": "army_defence_factor",
+   "zh": ""
+  },
+  {
+   "k": "i53vka",
+   "en": "The bonus to land army's defence.",
+   "zh": ""
+  },
+  {
+   "k": "64ni29",
+   "en": "army_defence_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "bmw3l9",
+   "en": "army_defence_against_major_factor",
+   "zh": ""
+  },
+  {
+   "k": "1ujfidf",
+   "en": "The bonus to land army's defence against a major country.",
+   "zh": ""
+  },
+  {
+   "k": "70oplr",
+   "en": "army_defence_against_major_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "cc5a3t",
+   "en": "army_defence_against_minor_factor",
+   "zh": ""
+  },
+  {
+   "k": "agargl",
+   "en": "The bonus to land army's defence against a non-major country.",
+   "zh": ""
+  },
+  {
+   "k": "ifmqmb",
+   "en": "army_defence_against_minor_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "wdh3pd",
+   "en": "army_core_defence_factor",
+   "zh": ""
+  },
+  {
+   "k": "7qfggo",
+   "en": "The bonus to land army's defence on core territory.",
+   "zh": ""
+  },
+  {
+   "k": "uhz1af",
+   "en": "army_core_defence_factor = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "1wwlfxi",
+   "en": "army_claim_defence_factor",
+   "zh": ""
+  },
+  {
+   "k": "1tij50k",
+   "en": "The bonus to land army's defence on claimed territory.",
+   "zh": ""
+  },
+  {
+   "k": "1lz6y8",
+   "en": "army_claim_defence_factor = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "d7yj2a",
+   "en": "army_speed_factor",
+   "zh": ""
+  },
+  {
+   "k": "1jnvdaj",
+   "en": "The bonus to land army's speed.",
+   "zh": ""
+  },
+  {
+   "k": "1tj59k0",
+   "en": "army_speed_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1hvmpkq",
+   "en": "army_strength_factor",
+   "zh": ""
+  },
+  {
+   "k": "ytccn5",
+   "en": "The bonus to land army's strength.",
+   "zh": ""
+  },
+  {
+   "k": "58kkrc",
+   "en": "army_strength_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1p3ys5e",
+   "en": "<unit type>_attack_factor",
+   "zh": ""
+  },
+  {
+   "k": "10cheus",
+   "en": "The bonus to specified unit type's attack.",
+   "zh": ""
+  },
+  {
+   "k": "1yzbzw2",
+   "en": "cavalry_attack_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "krfas9",
+   "en": "Allowed unit types are army_armor, army_artillery, army_infantry, cavalry, mechanized, motorized, special_forces",
+   "zh": ""
+  },
+  {
+   "k": "u4077m",
+   "en": "<unit type>_defence_factor",
+   "zh": ""
+  },
+  {
+   "k": "ixv345",
+   "en": "The bonus to the specified unit type's defence.",
+   "zh": ""
+  },
+  {
+   "k": "1s0cpb6",
+   "en": "army_artillery_defence_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "12cb9xz",
+   "en": "<unit type>_speed_factor",
+   "zh": ""
+  },
+  {
+   "k": "w5a8b9",
+   "en": "The bonus to specified unit type's speed.",
+   "zh": ""
+  },
+  {
+   "k": "8dog1w",
+   "en": "army_armor_speed_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "gbo7qh",
+   "en": "Allowed unit types are army_armor and cavalry. Cavalry_speed_factor is currently broken and not recognized by the game.",
+   "zh": ""
+  },
+  {
+   "k": "szbeja",
+   "en": "modifier_army_sub_unit_<unit type>_attack_factor",
+   "zh": ""
+  }
+ ]
+}

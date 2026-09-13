@@ -1,0 +1,1957 @@
+{
+ "batch": 677,
+ "pages": [
+  "Developer diaries"
+ ],
+ "chars": 14983,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "3a769m",
+   "en": "⟦0⟧ are articles, sometimes accompanied by videos, published by ⟦1⟧ to describe the game design in detail.",
+   "frags": 2
+  },
+  {
+   "k": "sz859i",
+   "en": "Developer diaries"
+  },
+  {
+   "k": "hxfqay",
+   "en": "Paradox"
+  },
+  {
+   "k": "o8keu",
+   "en": "Upcoming DLC"
+  },
+  {
+   "k": "wckshi",
+   "en": "All developer diaries about the upcoming expansion and other DLC."
+  },
+  {
+   "k": "1etbnoa",
+   "en": "Developer Corners (Romania DLC)"
+  },
+  {
+   "k": "mtgzbw",
+   "en": "No."
+  },
+  {
+   "k": "skqstg",
+   "en": "Title and Link"
+  },
+  {
+   "k": "sjj37t",
+   "en": "Description"
+  },
+  {
+   "k": "ggjuyh",
+   "en": "Date"
+  },
+  {
+   "k": "1s5lh94",
+   "en": "Romania, an Industry Divided"
+  },
+  {
+   "k": "rlh0qi",
+   "en": "First look at Romanian industry"
+  },
+  {
+   "k": "1nxi2lp",
+   "en": "Romanian Crossroads"
+  },
+  {
+   "k": "6p8hq7",
+   "en": "First look at Romania content"
+  },
+  {
+   "k": "nqcr",
+   "en": "Developer Corners (Upcoming expansion)"
+  },
+  {
+   "k": "tggzs9",
+   "en": "Industrial Might & Military Production"
+  },
+  {
+   "k": "ho2jvs",
+   "en": "Follow-up discussion on industry and military production"
+  },
+  {
+   "k": "x6ei77",
+   "en": "Inlay Windows & Congress"
+  },
+  {
+   "k": "ord1r9",
+   "en": "Questions about focus tree inlay windows & first look at American Congress rework"
+  },
+  {
+   "k": "f5xbpj",
+   "en": "Army Quality and Expertise"
+  },
+  {
+   "k": "158fusi",
+   "en": "Questions about army quality and unit experience"
+  },
+  {
+   "k": "103qr3x",
+   "en": "National Focus Flavor"
+  },
+  {
+   "k": "mvg9md",
+   "en": "Questions about national focus flavor"
+  },
+  {
+   "k": "j93jvl",
+   "en": "Military Production"
+  },
+  {
+   "k": "1qp1bd5",
+   "en": "Questions about military production"
+  },
+  {
+   "k": "10grx1k",
+   "en": "Civilian Economy & Consumer Goods"
+  },
+  {
+   "k": "gzvczp",
+   "en": "Questions about economy laws and consumer goods"
+  },
+  {
+   "k": "17adpws",
+   "en": "Airborne Units"
+  },
+  {
+   "k": "1wk4x2c",
+   "en": "Questions about airborne units"
+  },
+  {
+   "k": "1j5ss3v",
+   "en": "Questions about Civil Wars"
+  },
+  {
+   "k": "1xobpsb",
+   "en": "Questions about civil wars"
+  },
+  {
+   "k": "913eow",
+   "en": "Thunder at Our Gates"
+  },
+  {
+   "k": "1uozzna",
+   "en": "All developer diaries about the ⟦0⟧ theater pack and patch 1.19 (aka Operation Postern).",
+   "frags": 1
+  },
+  {
+   "k": "n5w3op",
+   "en": "Patch 1.19 post release"
+  },
+  {
+   "k": "1cz2o3v",
+   "en": "Studio Gold Update September 2026"
+  },
+  {
+   "k": "qvm3u",
+   "en": "Update on patch 1.19.3 and timeline for upcoming expansions"
+  },
+  {
+   "k": "1pv1tfc",
+   "en": "Open Beta SE™ Update 3.03"
+  },
+  {
+   "k": "9missq",
+   "en": "Fourth update on the patch 1.19.3 beta branch"
+  },
+  {
+   "k": "18top4r",
+   "en": "Open Beta SE™ Update 2.5"
+  },
+  {
+   "k": "1c1u8yr",
+   "en": "Third update on the patch 1.19.3 beta branch"
+  },
+  {
+   "k": "1k8lywa",
+   "en": "Open Beta SE™ Update 2"
+  },
+  {
+   "k": "1cx978u",
+   "en": "Second update on the patch 1.19.3 beta branch"
+  },
+  {
+   "k": "r5lml6",
+   "en": "Open Beta Summer Edition™"
+  },
+  {
+   "k": "lgodpe",
+   "en": "Open beta of patch 1.19.3"
+  },
+  {
+   "k": "191mpkw",
+   "en": "Open Beta Weekend"
+  },
+  {
+   "k": "lqnzed",
+   "en": "Open beta of patch 1.19.2"
+  },
+  {
+   "k": "3n5ajl",
+   "en": "Celebrate 10 Years With Us"
+  },
+  {
+   "k": "1d53qiv",
+   "en": "10 year anniversary celebration"
+  },
+  {
+   "k": "17nu8yh",
+   "en": "Patch 1.19 (Operation Postern)"
+  },
+  {
+   "k": "4a985k",
+   "en": "Patch Notes"
+  },
+  {
+   "k": "7k0ach",
+   "en": "Changelog of patch 1.19"
+  },
+  {
+   "k": "1jx4f6k",
+   "en": "Art & Achievements"
+  },
+  {
+   "k": "jj3hix",
+   "en": "Art and Achievements for ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "18su8bj",
+   "en": "Army HQs & Special Forces"
+  },
+  {
+   "k": "1oot6ks",
+   "en": "Army HQs & Special Forces Doctrines"
+  },
+  {
+   "k": "1cdbwnb",
+   "en": "Siam"
+  },
+  {
+   "k": "1xfj9i7",
+   "en": "Overview of Siam"
+  },
+  {
+   "k": "39c344",
+   "en": "The Republic of Indonesia and the National Revolution"
+  },
+  {
+   "k": "1xojzi6",
+   "en": "Alt-Historical paths for Indonesia"
+  },
+  {
+   "k": "1166wgp",
+   "en": "The Dutch East Indies"
+  },
+  {
+   "k": "he5vs1",
+   "en": "Historical path for the Dutch East Indies and changes to the Dutch focus tree"
+  },
+  {
+   "k": "7qf256",
+   "en": "Ship Captains & Division Designer"
+  },
+  {
+   "k": "2gsoer",
+   "en": "Ship Captains and Division Designer rework"
+  },
+  {
+   "k": "1vefzs0",
+   "en": "Australia: Alt.History"
+  },
+  {
+   "k": "s9y12",
+   "en": "Alt-Historical paths for Australia"
+  },
+  {
+   "k": "1n9xcg6",
+   "en": "Australia: Until the Tide of Battle Swings"
+  },
+  {
+   "k": "1tbhkcl",
+   "en": "Historical path for Australia"
+  },
+  {
+   "k": "1mrgf2j",
+   "en": "Thunder at our Gates - Coming June 11!"
+  },
+  {
+   "k": "1hf551t",
+   "en": "Release date announcement"
+  },
+  {
+   "k": "e31tgn",
+   "en": "Developer Corners"
+  },
+  {
+   "k": "11k7vst",
+   "en": "Dev Corner 2601010"
+  },
+  {
+   "k": "1c423eh",
+   "en": "Questions about achievements"
+  },
+  {
+   "k": "dndu9g",
+   "en": "Dev Corner 2602001"
+  },
+  {
+   "k": "uehh7v",
+   "en": "Updates to the Country Selection Screen"
+  },
+  {
+   "k": "xy9wa7",
+   "en": "Dev Corner 2601009"
+  },
+  {
+   "k": "rf426t",
+   "en": "Questions about the Canberra Air Disaster"
+  },
+  {
+   "k": "xoaal8",
+   "en": "Dev Corner 2601008"
+  },
+  {
+   "k": "10h4oi3",
+   "en": "First look at Regimental Support Companies"
+  },
+  {
+   "k": "zm7ig1",
+   "en": "Dev Corner 2601007"
+  },
+  {
+   "k": "cnmuls",
+   "en": "First look at Indonesian War of Independence and Marine Commando Raids"
+  },
+  {
+   "k": "zc7wr2",
+   "en": "Dev Corner 2601006"
+  },
+  {
+   "k": "1m55w0m",
+   "en": "First look at Army HQs"
+  },
+  {
+   "k": "z28b23",
+   "en": "Dev Corner 2601005"
+  },
+  {
+   "k": "1ravmr5",
+   "en": "Questions about election UI for Australia"
+  },
+  {
+   "k": "ys8pd4",
+   "en": "Dev Corner 2601004"
+  },
+  {
+   "k": "ubqu2r",
+   "en": "Questions about Dutch East Indies content"
+  },
+  {
+   "k": "10q5x7x",
+   "en": "Dev Corner 2601003"
+  },
+  {
+   "k": "11bl6vo",
+   "en": "Questions about Australia content"
+  },
+  {
+   "k": "10g6biy",
+   "en": "Dev Corner 2601002"
+  },
+  {
+   "k": "1w6ivqq",
+   "en": "Thoughts and plans on Siam content"
+  },
+  {
+   "k": "1066ptz",
+   "en": "Dev Corner 2601001"
+  },
+  {
+   "k": "96jkqi",
+   "en": "Questions about Siam content"
+  },
+  {
+   "k": "woj59t",
+   "en": "Peace for Our Time"
+  },
+  {
+   "k": "10zli4z",
+   "en": "All developer diaries about the ⟦0⟧ focus pack and ⟦1⟧ (aka Case Green).",
+   "frags": 2
+  },
+  {
+   "k": "87lq9t",
+   "en": "patch 1.18"
+  },
+  {
+   "k": "1d7jxz8",
+   "en": "Patch 1.18 post release"
+  },
+  {
+   "k": "zzwneg",
+   "en": "HOI IV - X Anniversary Update"
+  },
+  {
+   "k": "1w3jnup",
+   "en": "10 year anniversary patch"
+  },
+  {
+   "k": "1u45tvx",
+   "en": "Patch 1.18 (Case Green)"
+  },
+  {
+   "k": "7a0oni",
+   "en": "Changelog of patch 1.18"
+  },
+  {
+   "k": "e9zyj1",
+   "en": "Art, Achievements & Miscellaneous Content"
+  },
+  {
+   "k": "1mmbud9",
+   "en": "Art and achievements of ⟦0⟧, and other content",
+   "frags": 1
+  },
+  {
+   "k": "1tqc0nt",
+   "en": "Alt-Historical Czechoslovakia & Divided Nation Rework"
+  },
+  {
+   "k": "shyfsb",
+   "en": "Fascist and Communist branches for Czechoslovakia"
+  },
+  {
+   "k": "1su8ovf",
+   "en": "Democratic & Shared Branches"
+  },
+  {
+   "k": "l6znm1",
+   "en": "Democratic and shared branches for Czechoslovakia"
+  },
+  {
+   "k": "1grrnkm",
+   "en": "RDA Peace for our Time"
+  },
+  {
+   "k": "vqgwlv",
+   "en": "Peace for Our Time release date announcement"
+  },
+  {
+   "k": "12mnkbp",
+   "en": "No Compromise, No Surrender"
+  },
+  {
+   "k": "idybkt",
+   "en": "All developer diaries about the ⟦0⟧ expansion and ⟦1⟧ (aka Musketeer).",
+   "frags": 2
+  },
+  {
+   "k": "69oif0",
+   "en": "patch 1.17"
+  },
+  {
+   "k": "1oj9kr",
+   "en": "Patch 1.17 post release"
+  },
+  {
+   "k": "1c2tyjd",
+   "en": "Warships of the Pacific"
+  },
+  {
+   "k": "14ze7xh",
+   "en": "Warships of the Pacific Cosmetic Pack"
+  },
+  {
+   "k": "1dbtw4m",
+   "en": "1.17.4 Open Beta"
+  },
+  {
+   "k": "o9yk19",
+   "en": "1.17.4 open beta patch content"
+  },
+  {
+   "k": "11xzddr",
+   "en": "Studio Gold - January Update"
+  },
+  {
+   "k": "1g2twv7",
+   "en": "Overview of future content and upcoming 1.17.4 patch"
+  },
+  {
+   "k": "71xc0w",
+   "en": "Studio Gold - December Update"
+  },
+  {
+   "k": "r2kwl9",
+   "en": "Update on progress on patch 1.17.2 and 1.17.3"
+  },
+  {
+   "k": "hggchi",
+   "en": "Upcoming Coal Adjustments"
+  },
+  {
+   "k": "1ig9zhx",
+   "en": "Overview of changes to coal and other mechanics from feedback coming in patch 1.17.1"
+  },
+  {
+   "k": "q8nwae",
+   "en": "Patch 1.17 (Musketeer)"
+  },
+  {
+   "k": "5w2o6n",
+   "en": "Changelog of patch 1.17"
+  },
+  {
+   "k": "1o9t6xo",
+   "en": "New Features"
+  },
+  {
+   "k": "1jde7gq",
+   "en": "Overview of the factions overhaul, naval changes, coal, and energy, as well as rangers"
+  },
+  {
+   "k": "1jnn54b",
+   "en": "Art and Achievements for ⟦0⟧, and new Doctrines UI",
+   "frags": 1
+  },
+  {
+   "k": "12o7m9x",
+   "en": "Philippines: Pearl of the Orient"
+  },
+  {
+   "k": "1qary7",
+   "en": "Overview of the Philippines"
+  },
+  {
+   "k": "ra5fn7",
+   "en": "Republic of China: Turning Point of History"
+  },
+  {
+   "k": "1lhile6",
+   "en": "Overview of Nationalist China"
+  },
+  {
+   "k": "n1ziev",
+   "en": "Chinese Soviet Republic: The Nation Formerly Known as Communist China"
+  },
+  {
+   "k": "6btexs",
+   "en": "Overview of the Chinese Soviet Republic (Communist China)"
+  },
+  {
+   "k": "11k0g4b",
+   "en": "Alt-Historical Japan"
+  },
+  {
+   "k": "1y23i32",
+   "en": "Alternate history paths for Japan"
+  },
+  {
+   "k": "62umyt",
+   "en": "Historical Japan"
+  },
+  {
+   "k": "1mc31w7",
+   "en": "Historical path for Japan"
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "1mgkrlh",
+   "en": "Doctrines and army spirit rework"
+  },
+  {
+   "k": "b8h36z",
+   "en": "Expansion reveal"
+  },
+  {
+   "k": "wiu39d",
+   "en": "Final Countdown: Sneak Peeks & What's Next"
+  },
+  {
+   "k": "1vwb7of",
+   "en": "Some sneak peeks and information about the upcoming base-game integration of Man the Guns"
+  },
+  {
+   "k": "10mzvmv",
+   "en": "East Asia: Charting The Strategic Narrative"
+  },
+  {
+   "k": "5rr2gb",
+   "en": "How the new game mechanics tie into the East Asia narrative"
+  },
+  {
+   "k": "1vggavw",
+   "en": "Character Building: The Faces of [REDACTED]"
+  },
+  {
+   "k": "w5zeso",
+   "en": "First look at new portraits and some new characters"
+  },
+  {
+   "k": "1wvpawz",
+   "en": "Japan's Dilemma: Internal Strife and Imperialism"
+  },
+  {
+   "k": "1q9rq7z",
+   "en": "First look at Japan rework"
+  },
+  {
+   "k": "1qeclgo",
+   "en": "The Philippines: Pearl of the Orient Seas"
+  },
+  {
+   "k": "rpe19z",
+   "en": "First look at Philippines content"
+  },
+  {
+   "k": "1ww7mhx",
+   "en": "China's War: from Resistance to Liberation"
+  },
+  {
+   "k": "23llhu",
+   "en": "First look at China rework"
+  },
+  {
+   "k": "cmt2ms",
+   "en": "Aerohydrodynamics"
+  },
+  {
+   "k": "1hyjiku",
+   "en": "Strategic locations, naval rework, jungle specialists"
+  },
+  {
+   "k": "vweaf5",
+   "en": "Reinventing Faction Dynamics Part 2"
+  },
+  {
+   "k": "1gnvwch",
+   "en": "Rework of faction mechanics - Part 2"
+  },
+  {
+   "k": "wt0fi0",
+   "en": "Thermodynamics"
+  },
+  {
+   "k": "109hopm",
+   "en": "Coal resource, factories use energy, economy of scale"
+  },
+  {
+   "k": "gcs56v",
+   "en": "Hydrodynamics"
+  },
+  {
+   "k": "1y32y0h",
+   "en": "Naval dominance, range, supply rework"
+  },
+  {
+   "k": "1j6g32e",
+   "en": "Reinventing Faction Dynamics"
+  },
+  {
+   "k": "1ftx39k",
+   "en": "Rework of faction mechanics - Part 1"
+  },
+  {
+   "k": "1nqmkyz",
+   "en": "Hearts of Iron IV Anniversary Week & Developer Corners!"
+  },
+  {
+   "k": "k34y7f",
+   "en": "Roadmap laying out future content"
+  },
+  {
+   "k": "1nysoty",
+   "en": "Graveyard of Empires"
+  },
+  {
+   "k": "ob3hcj",
+   "en": "All developer diaries about the ⟦0⟧ country pack and ⟦1⟧ (aka Countenance).",
+   "frags": 2
+  },
+  {
+   "k": "6jo43z",
+   "en": "patch 1.16"
+  },
+  {
+   "k": "18yisth",
+   "en": "Patch 1.16 (Countenance)"
+  },
+  {
+   "k": "1v7z0ed",
+   "en": "Prototype Vehicles Unit Pack"
+  },
+  {
+   "k": "1rncrcy",
+   "en": "Update from the Developers"
+  },
+  {
+   "k": "19u55mt",
+   "en": "Mini-retrospective of the lead-up to release and action to taken on feedback"
+  },
+  {
+   "k": "tns91r",
+   "en": "Release Notes"
+  },
+  {
+   "k": "10cmktk",
+   "en": "Patch notes"
+  },
+  {
+   "k": "gl6hmv",
+   "en": "Opposition Iran"
+  },
+  {
+   "k": "1ik8cub",
+   "en": "Alt-Historical path for Iran"
+  },
+  {
+   "k": "iko9b2",
+   "en": "Historical Iran & Non-Aligned Alt. History"
+  },
+  {
+   "k": "3kbwa9",
+   "en": "Historical and Non-Aligned Alt-Historical paths for Iran"
+  },
+  {
+   "k": "1jgohhc",
+   "en": "Afghanistan & Iraq"
+  },
+  {
+   "k": "ogozfl",
+   "en": "Overview of Afghanistan and Iraq"
+  },
+  {
+   "k": "zzun0i",
+   "en": "Alt-Historical RAJ"
+  },
+  {
+   "k": "m386r2",
+   "en": "Alt-Historical paths for British Raj"
+  },
+  {
+   "k": "1jjvtyk",
+   "en": "Historical Raj"
+  },
+  {
+   "k": "euvr49",
+   "en": "Historical path for British Raj"
+  },
+  {
+   "k": "u5y3tr",
+   "en": "Rundown of the development cycle's weekly plan"
+  },
+  {
+   "k": "1v2zo8a",
+   "en": "Götterdämmerung"
+  },
+  {
+   "k": "mpnkqn",
+   "en": "All developer diaries about the ⟦0⟧ expansion and ⟦1⟧ (aka Kaiser).",
+   "frags": 2
+  },
+  {
+   "k": "6tnpsy",
+   "en": "patch 1.15"
+  },
+  {
+   "k": "12lw158",
+   "en": "Patch 1.15 (Kaiser)"
+  },
+  {
+   "k": "8unsww",
+   "en": "Götterdämmerung changelog"
+  },
+  {
+   "k": "14g8hy5",
+   "en": "Changelog for the Götterdämmerung DLC"
+  },
+  {
+   "k": "jn2omj",
+   "en": "Arts & Achievements"
+  },
+  {
+   "k": "v6o37u",
+   "en": "Art for special projects and raids, focus icons, portraits, horse coat colors, as well as achievements"
+  },
+  {
+   "k": "1x2g6un",
+   "en": "Performance & Modding"
+  },
+  {
+   "k": "s87cmg",
+   "en": "Code optimization, from stabilizing performance to adding mod-friendly features"
+  },
+  {
+   "k": "qpv7m8",
+   "en": "Alt-History Germany"
+  },
+  {
+   "k": "yl608n",
+   "en": "Alternate history paths for Germany"
+  },
+  {
+   "k": "1wih3dd",
+   "en": "Congo"
+  },
+  {
+   "k": "1a6wyia",
+   "en": "History paths for Congo"
+  },
+  {
+   "k": "1k95052",
+   "en": "Belgium"
+  },
+  {
+   "k": "1wd468",
+   "en": "Belgium focus tree, national spirits, and decisions"
+  },
+  {
+   "k": "1vaqbty",
+   "en": "Raids"
+  },
+  {
+   "k": "cyleeb",
+   "en": "Raids on special facilities, dams, locks, large caliber guns, and resources, as well as nuclear raids"
+  },
+  {
+   "k": "efxlq9",
+   "en": "German Systems"
+  },
+  {
+   "k": "1is9soq",
+   "en": "Rework of MEFO Bills, the mechanics and contents surrounding the Reichskommissariats, and more"
+  },
+  {
+   "k": "1j7rzc3",
+   "en": "Small Features"
+  },
+  {
+   "k": "q2v5t9",
+   "en": "AI updates, new technologies, dams, landmarks, and more"
+  },
+  {
+   "k": "1nd9v4c",
+   "en": "Historical Germany"
+  },
+  {
+   "k": "6g5tkq",
+   "en": "Historical Germany focus tree, national spirits, and decisions"
+  },
+  {
+   "k": "1m4t2m9",
+   "en": "Hungary"
+  },
+  {
+   "k": "kqb6en",
+   "en": "Hungary focus tree, national spirits, and decisions"
+  },
+  {
+   "k": "17hdbki",
+   "en": "Special Projects"
+  },
+  {
+   "k": "1kx36k7",
+   "en": "Experimental facilities, scientists, and special projects"
+  },
+  {
+   "k": "1nhki0g",
+   "en": "Austria"
+  },
+  {
+   "k": "1tdvage",
+   "en": "Austria focus tree, national spirits, and decisions"
+  },
+  {
+   "k": "51fwbz",
+   "en": "When to expect Dev Diaries"
+  },
+  {
+   "k": "1i7hp5l",
+   "en": "Trial of Allegiance"
+  },
+  {
+   "k": "14nc5t1",
+   "en": "All developer diaries about the ⟦0⟧ country pack and ⟦1⟧ (aka Bolivar).",
+   "frags": 2
+  },
+  {
+   "k": "73nbhx",
+   "en": "patch 1.14"
+  },
+  {
+   "k": "sbd1gg",
+   "en": "Patch 1.14 post release"
+  },
+  {
+   "k": "1qgymzp",
+   "en": "Release Diary"
+  },
+  {
+   "k": "1dkq03f",
+   "en": "Release of the Content Creator Pack, alongside War Effort Update 1.14.6: Operation Badger"
+  },
+  {
+   "k": "1skaru3",
+   "en": "Content Creator Pack Soviet Union 2D Art"
+  },
+  {
+   "k": "mx691a",
+   "en": "Announcement of first-ever Content Creator Pack for ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "dmo6mc",
+   "en": "Hearts of Iron IV"
+  },
+  {
+   "k": "1o9yp8t",
+   "en": "Patch 1.14 (Bolivar)"
+  },
+  {
+   "k": "mqg6za",
+   "en": "Reception & Thoughts"
+  },
+  {
+   "k": "537hbc",
+   "en": "Reception of ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "wzh6gn",
+   "en": "Patch 1.14.1 \"Bolivar\""
+  },
+  {
+   "k": "12pz8of",
+   "en": "Changelog of patch 1.14.1"
+  },
+  {
+   "k": "sxy0l5",
+   "en": "Art and achievements of ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1g954z1",
+   "en": "Alt-History Brazil"
+  },
+  {
+   "k": "1ur1q64",
+   "en": "Alternate history paths for Brazil"
+  },
+  {
+   "k": "md09td",
+   "en": "Giant Bag of Goodies"
+  },
+  {
+   "k": "1o80v6w",
+   "en": "Paraguay and Uruguay focus trees, national spirits, and decisions, along with other new content for patch 1.14"
+  },
+  {
+   "k": "132rpt6",
+   "en": "Chile"
+  },
+  {
+   "k": "1hf9ees",
+   "en": "Chile focus tree, national spirits, and decisions"
+  },
+  {
+   "k": "1kqa232",
+   "en": "Argentina"
+  },
+  {
+   "k": "1oeml1k",
+   "en": "Argentina focus tree, national spirits, and decisions"
+  },
+  {
+   "k": "81tsqh",
+   "en": "Historical Brazil"
+  },
+  {
+   "k": "1inwugn",
+   "en": "Historical Brazil focus tree, national spirits, and decisions"
+  },
+  {
+   "k": "1gcwzb4",
+   "en": "Arms Against Tyranny"
+  },
+  {
+   "k": "p2oa6t",
+   "en": "All developer diaries about the ⟦0⟧ expansion and ⟦1⟧ (aka Stella Polaris).",
+   "frags": 2
+  },
+  {
+   "k": "55q3n4",
+   "en": "patch 1.13"
+  },
+  {
+   "k": "dd21hg",
+   "en": "Patch 1.13 (Stella Polaris)"
+  },
+  {
+   "k": "1sgbcrh",
+   "en": "Performance & Changelog"
+  },
+  {
+   "k": "17mx9hs",
+   "en": "Performance and changelog of patch 1.13"
+  },
+  {
+   "k": "6bam3x",
+   "en": "International Market"
+  },
+  {
+   "k": "mkmubf",
+   "en": "Update on the international market system"
+  },
+  {
+   "k": "58sq2u",
+   "en": "Military Industrial Organisations"
+  },
+  {
+   "k": "1w9dvyu",
+   "en": "Update on the MIO system"
+  },
+  {
+   "k": "1xmrwlc",
+   "en": "Finland Alt History"
+  },
+  {
+   "k": "19flm1e",
+   "en": "Alternate history paths for Finland"
+  },
+  {
+   "k": "s02432",
+   "en": "Modding!"
+  },
+  {
+   "k": "1k3o5s0",
+   "en": "New mod tools added in ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1e0db9y",
+   "en": "Denmark Alt History"
+  },
+  {
+   "k": "13ng980",
+   "en": "Alternate history paths for Denmark"
+  },
+  {
+   "k": "1bgrdty",
+   "en": "Sweden Alt History"
+  },
+  {
+   "k": "eh5dku",
+   "en": "Alternate history paths for Sweden"
+  },
+  {
+   "k": "194r09w",
+   "en": "Norway Alt History"
+  },
+  {
+   "k": "1kle9xg",
+   "en": "Alternate history paths for Norway"
+  },
+  {
+   "k": "a11s41",
+   "en": "Tech"
+  },
+  {
+   "k": "1hw2wyp",
+   "en": "AI for the new international market feature"
+  },
+  {
+   "k": "1jjsf2s",
+   "en": "Small Features #2"
+  },
+  {
+   "k": "6ywntg",
+   "en": "Introduction of special forces doctrines"
+  },
+  {
+   "k": "1jzz9e9",
+   "en": "Joint Focus Tree"
+  },
+  {
+   "k": "1suxrt3",
+   "en": "Introduction of joint focus trees"
+  },
+  {
+   "k": "1kdr85p",
+   "en": "Small Features #1"
+  },
+  {
+   "k": "natjtn",
+   "en": "Changes or additions to division structure, economy, and presets, as well as some QoL improvements"
+  },
+  {
+   "k": "13ad3vq",
+   "en": "3D Art!"
+  },
+  {
+   "k": "1i40dbp",
+   "en": "Behind-the-scenes look at 3D art in ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1737nra",
+   "en": "Summer Open Beta"
+  },
+  {
+   "k": "1ipinvm",
+   "en": "Beta testing some of the balance changes that come with patch 1.13"
+  },
+  {
+   "k": "rxvv63",
+   "en": "Historical Denmark"
+  },
+  {
+   "k": "idgqs5",
+   "en": "Historical Denmark focus tree, national spirits, and decisions"
+  },
+  {
+   "k": "1ko1gr1",
+   "en": "Historical Norway"
+  },
+  {
+   "k": "16u8h0r",
+   "en": "Historical Norway focus tree, national spirits, and decisions"
+  },
+  {
+   "k": "1wrq5qv",
+   "en": "Historical Sweden"
+  },
+  {
+   "k": "2hitdd",
+   "en": "Historical Sweden focus tree, national spirits, and decisions"
+  },
+  {
+   "k": "15lfcsp",
+   "en": "Historical Finland"
+  },
+  {
+   "k": "ey907f",
+   "en": "Arms Against Tyranny announcement and historical Finland content"
+  },
+  {
+   "k": "16pgs87",
+   "en": "Support Companies"
+  },
+  {
+   "k": "nrdun1",
+   "en": "Support companies rework plus accompanied land doctrine changes"
+  },
+  {
+   "k": "15xk9tv",
+   "en": "International market introduction"
+  },
+  {
+   "k": "1b6q1ys",
+   "en": "Military Industrial Orgs"
+  },
+  {
+   "k": "wnrafi",
+   "en": "Military industrial organisations introduction"
+  },
+  {
+   "k": "xw4s3v",
+   "en": "By Blood Alone"
+  },
+  {
+   "k": "hin4cr",
+   "en": "All developer diaries about the ⟦0⟧ expansion and ⟦1⟧ (aka Avalanche).",
+   "frags": 2
+  },
+  {
+   "k": "5fppc3",
+   "en": "patch 1.12"
+  },
+  {
+   "k": "18r35ib",
+   "en": "Patch 1.12 (Avalanche)"
+  },
+  {
+   "k": "1fnttbb",
+   "en": "Post-Release"
+  },
+  {
+   "k": "8466hg",
+   "en": "Post-release graphs and feedback"
+  },
+  {
+   "k": "1pqq7h",
+   "en": "Release!"
+  },
+  {
+   "k": "1d766ed",
+   "en": "Release of ⟦0⟧ and patch 1.12",
+   "frags": 1
+  },
+  {
+   "k": "ooaxkz",
+   "en": "New art and achievements for ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "11yfp9a",
+   "en": "Updated OS requirements and performance improvements of Avalanche"
+  },
+  {
+   "k": "9m30fv",
+   "en": "Modding"
+  },
+  {
+   "k": "1wnrnoh",
+   "en": "Overhauled Career Profile with Playthrough Overviews and (moddable!) in-game Awards"
+  },
+  {
+   "k": "nqtdg0",
+   "en": "Quality of Life Improvements"
+  },
+  {
+   "k": "r5hbgs",
+   "en": "Changes to war support, piercing, AI tank strategy, and more"
+  },
+  {
+   "k": "9j87ic",
+   "en": "Peace Conference Roundup"
+  },
+  {
+   "k": "i8dxqb",
+   "en": "Overview of the new peace conference system, including UI and new demand types"
+  },
+  {
+   "k": "sto5kd",
+   "en": "Division Commanders & Unit Medals"
+  },
+  {
+   "k": "gnh83z",
+   "en": "New field officers and awardable medals for divisions"
+  },
+  {
+   "k": "9efvda",
+   "en": "Plane Designer"
+  },
+  {
+   "k": "jda2na",
+   "en": "A look at the new plane designer."
+  },
+  {
+   "k": "1ebk83f",
+   "en": "Ethiopia #2"
+  },
+  {
+   "k": "oua47a",
+   "en": "A look at the alternate history branches of the new Ethiopian focus tree"
+  },
+  {
+   "k": "tc8own",
+   "en": "Switzerland #2"
+  },
+  {
+   "k": "1ogaovi",
+   "en": "A look at the alternate history branches of the new Swiss focus tree"
+  },
+  {
+   "k": "cjsaid",
+   "en": "Italy #2"
+  },
+  {
+   "k": "15pxqpw",
+   "en": "A look at the alternate history branches of the updated Italian focus tree"
+  },
+  {
+   "k": "1eljtse",
+   "en": "Ethiopia #1"
+  },
+  {
+   "k": "eobc18",
+   "en": "A look at the common and historical branches of the new Ethiopian focus tree"
+  },
+  {
+   "k": "tm8alm",
+   "en": "Switzerland #1"
+  },
+  {
+   "k": "1wdt8ue",
+   "en": "A look at the historical branch of the new Swiss focus tree"
+  },
+  {
+   "k": "bpthfg",
+   "en": "Italy #1"
+  },
+  {
+   "k": "8oc8zi",
+   "en": "A look at the common and historical branches of the updated Italian focus tree"
+  },
+  {
+   "k": "1lx37ty",
+   "en": "Designer Corners"
+  },
+  {
+   "k": "18w83gs",
+   "en": "Naval Rebalance"
+  },
+  {
+   "k": "vcisfo",
+   "en": "Goals and implementation plans for naval rebalance"
+  },
+  {
+   "k": "wav062",
+   "en": "Air Changes"
+  },
+  {
+   "k": "10k88po",
+   "en": "Open discussion for changes to Air management and combat"
+  },
+  {
+   "k": "vzowcp",
+   "en": "Peace Conference"
+  },
+  {
+   "k": "1ro97qj",
+   "en": "Open discussion for changes to peace conferences"
+  },
+  {
+   "k": "11r223j",
+   "en": "No Step Back"
+  },
+  {
+   "k": "1oxaukk",
+   "en": "All developer diaries about the ⟦0⟧ expansion and ⟦1⟧ (aka Barbarossa).",
+   "frags": 2
+  },
+  {
+   "k": "5ppb12",
+   "en": "patch 1.11"
+  },
+  {
+   "k": "vgn41t",
+   "en": "Patch 1.11 post release"
+  },
+  {
+   "k": "vgubib",
+   "en": "Telemetry and data"
+  },
+  {
+   "k": "tb0u6c",
+   "en": "Gameplay stats report"
+  },
+  {
+   "k": "1o6mqap",
+   "en": "Thoughts & roadmap"
+  },
+  {
+   "k": "1wttq3r",
+   "en": "2022 content battleplan"
+  },
+  {
+   "k": "12rocrx",
+   "en": "Patch 1.11 (Barbarossa)"
+  },
+  {
+   "k": "1wyomq3",
+   "en": "Patch Notes!"
+  },
+  {
+   "k": "1isiprn",
+   "en": "1.11 patch notes"
+  },
+  {
+   "k": "1kqccn4",
+   "en": "Bonus Diary: No Step Back Formable & New Tags"
+  },
+  {
+   "k": "bygx66",
+   "en": "A look at the new tags and formables coming with NSB"
+  },
+  {
+   "k": "yegpix",
+   "en": "No Step Back Achievements"
+  },
+  {
+   "k": "1aa1x9v",
+   "en": "New achievements for ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "12f5ose",
+   "en": "A Tech Lead's Life"
+  },
+  {
+   "k": "ndl0xp",
+   "en": "Tech support changes and a new French communist leader"
+  },
+  {
+   "k": "m5d9wm",
+   "en": "Extra Treats - Railways!"
+  },
+  {
+   "k": "1iz0fmn",
+   "en": "Overview of the railway map in ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "11dhv3q",
+   "en": "Loading Screen Art and more"
+  },
+  {
+   "k": "1ghwq1j",
+   "en": "Process of creating new loading screens, A look at some portraits and achievements of NSB"
+  },
+  {
+   "k": "163vlna",
+   "en": "Modding Changes"
+  },
+  {
+   "k": "1nwauuk",
+   "en": "Introduction of the character system, modability of NSB features"
+  },
+  {
+   "k": "1mdypse",
+   "en": "Officer Corps Recap & AI Improvements"
+  },
+  {
+   "k": "1koeaj8",
+   "en": "Recap of Officer Corps changes and introduction of AI improvements"
+  },
+  {
+   "k": "ovrr09",
+   "en": "Sub-Developer-Diary - Combat targeting iteration"
+  },
+  {
+   "k": "evlxv0",
+   "en": "Further balancing and changes to targeting"
+  },
+  {
+   "k": "z948id",
+   "en": "Poland is not yet lost - No step back AAR"
+  },
+  {
+   "k": "1ce911a",
+   "en": "Recap of CraniumMuppet's experience with Poland in the new update"
+  },
+  {
+   "k": "cig440",
+   "en": "Combat Changes & Soviet Exiles"
+  },
+  {
+   "k": "80sygm",
+   "en": "Changes to Combat and Soviet Exiles focus branch"
+  },
+  {
+   "k": "2egr8u",
+   "en": "Bag of Tricks : the Sequel"
+  },
+  {
+   "k": "aoyweb",
+   "en": "Changes to Redeployment, Scorched Earth, and General Preferred Tactics"
+  },
+  {
+   "k": "zwcq4x",
+   "en": "Railway guns never tire"
+  },
+  {
+   "k": "g6wftf",
+   "en": "New Railway Gun Land Unit Type"
+  },
+  {
+   "k": "1uqclqi",
+   "en": "Traiiiiins"
+  },
+  {
+   "k": "1l9ptxt",
+   "en": "A further look at trains, air missions to attack them, and supply distribution"
+  },
+  {
+   "k": "196nsrf",
+   "en": "Bag of Tricks #2"
+  },
+  {
+   "k": "6bq28e",
+   "en": "Changes to weather, QoL changes concerning equipment and building in allied territories / Departure of Game Director Dan \"Podcat\" Lind"
+  },
+  {
+   "k": "v6gvd4",
+   "en": "Soviet Union Exiles"
+  },
+  {
+   "k": "1665t3v",
+   "en": "New focus branches for the return of the Whites or the Tsar"
+  },
+  {
+   "k": "17i33q8",
+   "en": "Soviet Union Opposition"
+  },
+  {
+   "k": "g63pj6",
+   "en": "New focus branches for the communist opposition against Stalin"
+  },
+  {
+   "k": "ain81i",
+   "en": "Soviet Union Historical and Common Branches"
+  },
+  {
+   "k": "1brf978",
+   "en": "A look at the historical and shared parts of the new Soviet Focus Tree and new mechanics for the Soviet Union"
+  },
+  {
+   "k": "1yick54",
+   "en": "Supply and Mulberry Harbors"
+  },
+  {
+   "k": "9fcas5",
+   "en": "Deeper look at the new supply system"
+  },
+  {
+   "k": "4p7o2l",
+   "en": "Officer Corps #2"
+  },
+  {
+   "k": "1r69zjr",
+   "en": "More information about the Officer Corps"
+  },
+  {
+   "k": "j9ov50",
+   "en": "Officer Corps"
+  },
+  {
+   "k": "1c5hbpk",
+   "en": "New Officer Corps system and changes to Experience"
+  },
+  {
+   "k": "19gnege",
+   "en": "Bag of Tricks #1"
+  },
+  {
+   "k": "16xq0yj",
+   "en": "Small features and QoL improvements to the game"
+  },
+  {
+   "k": "g0jsag",
+   "en": "PDXCON - HoI Q&A Panel Transcript"
+  },
+  {
+   "k": "jes0a2",
+   "en": "PdxCon Q&A with the devs"
+  },
+  {
+   "k": "1q2a6fh",
+   "en": "PdxCon Recap and Team update"
+  },
+  {
+   "k": "1paq74z",
+   "en": "Recap of PdxCon announcements and some statistics updates"
+  },
+  {
+   "k": "4r3use",
+   "en": "The Baltic States 2/2"
+  },
+  {
+   "k": "7w8jp3",
+   "en": "More changes coming to the Baltic states"
+  },
+  {
+   "k": "14o18tu",
+   "en": "The Baltic States 1/2 and Poland 3/2"
+  },
+  {
+   "k": "1mjqgdg",
+   "en": "A first look at changes coming to the Baltic states, and more on Poland"
+  },
+  {
+   "k": "1yomqkq",
+   "en": "Combat and Stats changes"
+  },
+  {
+   "k": "97w3jn",
+   "en": "A look at changes coming to combat"
+  },
+  {
+   "k": "t7v6oi",
+   "en": "Tank Designer"
+  },
+  {
+   "k": "18jecex",
+   "en": "Look at the changes coming to tank design with the upcoming DLC"
+  },
+  {
+   "k": "10k5kwx",
+   "en": "Poland Focus Tree Rework Part 2/2"
+  },
+  {
+   "k": "cclqy1",
+   "en": "Look at the changes to the Polish tree in the upcoming DLC"
+  },
+  {
+   "k": "md4dis",
+   "en": "Poland Focus Tree Rework Part 1/2"
+  },
+  {
+   "k": "1nvrp3o",
+   "en": "Introduction of the reworked Polish focus tree coming with the free update"
+  },
+  {
+   "k": "1t1ccid",
+   "en": "Early look at supply and the coming year"
+  },
+  {
+   "k": "1r78gqj",
+   "en": "An early look at the new supply/war system"
+  },
+  {
+   "k": "hvw584",
+   "en": "Battle for the Bosporus"
+  },
+  {
+   "k": "13bl57m",
+   "en": "All developer diaries about the ⟦0⟧ country pack and ⟦1⟧ (aka Collie).",
+   "frags": 2
+  },
+  {
+   "k": "5zowq1",
+   "en": "patch 1.10"
+  },
+  {
+   "k": "kgkijg",
+   "en": "Patch 1.10 post release"
+  },
+  {
+   "k": "1laaztq",
+   "en": "5th Anniversary"
+  },
+  {
+   "k": "t0k5ru",
+   "en": "⟦0⟧ 5th Anniversary and patch",
+   "frags": 1
+  },
+  {
+   "k": "ch1zzf",
+   "en": "New year update"
+  },
+  {
+   "k": "1vm9ujq",
+   "en": "Statistics after ⟦0⟧, general view on 2021",
+   "frags": 1
+  },
+  {
+   "k": "sqprmo",
+   "en": "Telemetry"
+  },
+  {
+   "k": "1slfytl",
+   "en": "Short description of Telemetry of how player behaviour changed since the DLC release"
+  },
+  {
+   "k": "ypm9vs",
+   "en": "Patch 1.10 (Collie)"
+  },
+  {
+   "k": "1wyli2",
+   "en": "1.10 ‘Collie’"
+  },
+  {
+   "k": "1de46c6",
+   "en": "Full changelog"
+  },
+  {
+   "k": "1fr2ze9",
+   "en": "Art and Achievements"
+  },
+  {
+   "k": "uy8ps0",
+   "en": "New art, music, and achievements"
+  },
+  {
+   "k": "kdxi91",
+   "en": "Yugoslavia and Romania"
+  },
+  {
+   "k": "1e4ej5j",
+   "en": "Description of Yugoslav focus tree changes and briefly talking about pathways and talking about minor changes to Romania"
+  },
+  {
+   "k": "38tzan",
+   "en": "Turkey"
+  },
+  {
+   "k": "fsp8he",
+   "en": "Description of Turkish focus tree and briefly talking about pathways"
+  },
+  {
+   "k": "1g27va4",
+   "en": "Bulgaria"
+  },
+  {
+   "k": "kbhoiz",
+   "en": "Description of Bulgarian focus tree and briefly talking about pathways"
+  },
+  {
+   "k": "1kl1wqi",
+   "en": "Greece"
+  },
+  {
+   "k": "rra2py",
+   "en": "Description of Greek focus tree and briefly talking about pathways"
+  },
+  {
+   "k": "z1ygrj",
+   "en": "La Résistance"
+  },
+  {
+   "k": "6hcdbi",
+   "en": "All developer diaries about the ⟦0⟧ expansion and ⟦1⟧ (aka Husky).",
+   "frags": 2
+  },
+  {
+   "k": "n5gu0r",
+   "en": "patch 1.9"
+  },
+  {
+   "k": "3shcei",
+   "en": "Patch 1.9 post release"
+  },
+  {
+   "k": "50ktwf",
+   "en": "4th Anniversary + Patch 1.9.3"
+  },
+  {
+   "k": "1f0oi15",
+   "en": "⟦0⟧ 4th anniversary: Some cool data, new armor and radio packs as well as patch to celebrate!",
+   "frags": 1
+  },
+  {
+   "k": "zfy0zr",
+   "en": "Patch 1.9.2 Husky Live"
+  },
+  {
+   "k": "2rszp2",
+   "en": "Patch release and current 'work from home' status"
+  },
+  {
+   "k": "s1ufey",
+   "en": "1.9.2 Beta + The Future"
+  },
+  {
+   "k": "zf04mx",
+   "en": "Beta patch available to test"
+  },
+  {
+   "k": "1sxmp91",
+   "en": "1.9.1 Patch & Roadmap update"
+  },
+  {
+   "k": "1pvz7jd",
+   "en": "Full info about patch 1.9.1 and the roadmap for future DLCs and updates"
+  },
+  {
+   "k": "1a8nw5i",
+   "en": "1.9.1 Beta Batch Update IV"
+  },
+  {
+   "k": "4z547h",
+   "en": "Info about patch 1.9.1, 3D models and accessability"
+  },
+  {
+   "k": "bd51vu",
+   "en": "1.9.1 Beta Batch Update III"
+  }
+ ]
+}

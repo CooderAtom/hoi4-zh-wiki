@@ -1,0 +1,559 @@
+{
+ "batch": 1061,
+ "pages": [
+  "Recruitable population"
+ ],
+ "chars": 3745,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "11cf13r",
+   "en": "Manpower available = ( 100 % − 98 % + 18 % ) ⋅ ( 100 % + 20 % ) ⋅ ( conscription law + 0.5 % ) {\\displaystyle {\\text{Manpower available}}=(100\\%-98\\%+18\\%)\\cdot (100\\%+20\\%)\\cdot ({\\text{conscription law}}+0.5\\%)}"
+  },
+  {
+   "k": "p6twow",
+   "en": "Mobilization"
+  },
+  {
+   "k": "rc9cyb",
+   "en": "Changes in the recruitable population modifier and recruitable population factor do not apply instantaneously. Instead the value drifts towards the new target according to the ⟦0⟧. The base mobilization speed is ⟦1⟧ per day. For example, at 50% war support it takes 250 days to fully shift from limited to extensive conscription. War support and some national spirits can modify the base value. The recruitable population ratio only changes in steps of 0.1%/day, so it takes between a week and a month before any new manpower becomes available, depending on mobilization speed.",
+   "frags": 2
+  },
+  {
+   "k": "5dfpe3",
+   "en": "mobilization speed"
+  },
+  {
+   "k": "1wtu6h0",
+   "en": "{\\displaystyle {\\begin{aligned}{\\text{Recruitable ratio}}&=\\sum ({\\text{Recruitable Population modifier}})*\\sum ({\\text{Recruitable Population Factor modifier}})*\\sum ({\\text{non-core modifier}})*\\sum ({\\text{occupation modifier}})\\\\&=\\sum ({\\text{Recruitable Population modifier}}+{\\text{Additional Recruitable Population modifier}})*\\sum ({\\text{Recruitable Population Factor modifier}})*\\sum ({\\text{non-core modifier}})\\\\\\end{aligned}}}"
+  },
+  {
+   "k": "4mvqys",
+   "en": "Disarmed Nation.png"
+  },
+  {
+   "k": "juj2hk",
+   "en": "Volunteer Only.png"
+  },
+  {
+   "k": "1tjdn95",
+   "en": "Limited Conscription.png"
+  },
+  {
+   "k": "mz0woq",
+   "en": "War support"
+  },
+  {
+   "k": "1988j0c",
+   "en": "Extensive Conscription.png"
+  },
+  {
+   "k": "1184hxr",
+   "en": "Service by Requirement.png"
+  },
+  {
+   "k": "1wfa9uv",
+   "en": "All Adults Serve.png"
+  },
+  {
+   "k": "gd0boq",
+   "en": "Scraping the Barrel.png"
+  },
+  {
+   "k": "16166md",
+   "en": "Idea ETH chitet.png"
+  },
+  {
+   "k": "fznuy9",
+   "en": "Idea citizen militia 1.png"
+  },
+  {
+   "k": "t4cbdk",
+   "en": "Idea citizen militia 2.png"
+  },
+  {
+   "k": "aslgnb",
+   "en": "Total Mobilization.png"
+  },
+  {
+   "k": "11mkcgy",
+   "en": "Volkssturm.png"
+  },
+  {
+   "k": "39pqbi",
+   "en": "Non-Discriminatory Conscription.png"
+  },
+  {
+   "k": "tjtke9",
+   "en": "Human Wave Offensive.png"
+  },
+  {
+   "k": "1hvs7z1",
+   "en": "Generic manpower bonus.png"
+  },
+  {
+   "k": "hs2ao9",
+   "en": "Victors of the Great War.png"
+  },
+  {
+   "k": "foz0q2",
+   "en": "FRA national mobilization focus.png"
+  },
+  {
+   "k": "z1ygrj",
+   "en": "La Résistance"
+  },
+  {
+   "k": "cv88wf",
+   "en": "Idea eng imperial conscription.png"
+  },
+  {
+   "k": "zmdwpp",
+   "en": "Can send in the zombies.png"
+  },
+  {
+   "k": "8ba0dd",
+   "en": "Generic fascism drift bonus.png"
+  },
+  {
+   "k": "hy6ngw",
+   "en": "Generic intel bonus.png"
+  },
+  {
+   "k": "91vcvs",
+   "en": "Generic democratic drift bonus.png"
+  },
+  {
+   "k": "1t2l64a",
+   "en": "Triumphant will.png"
+  },
+  {
+   "k": "l8bea1",
+   "en": "Generic infantry bonus.png"
+  },
+  {
+   "k": "1l63uh2",
+   "en": "Divided Nation.png"
+  },
+  {
+   "k": "qk4swh",
+   "en": "Fortification Focus.png"
+  },
+  {
+   "k": "1t2ecej",
+   "en": "Idea hun treaty of trianon.png"
+  },
+  {
+   "k": "w91gve",
+   "en": "Idea generic communist army.png"
+  },
+  {
+   "k": "1ykx9hk",
+   "en": "Idea hun secret rearmament.png"
+  },
+  {
+   "k": "102fx55",
+   "en": "Idea generic deal with the devil.png"
+  },
+  {
+   "k": "117wbic",
+   "en": "Idea rom sentinel of motherland.png"
+  },
+  {
+   "k": "n7ge30",
+   "en": "Idea rom sentinel of motherland2.png"
+  },
+  {
+   "k": "x6irz3",
+   "en": "All yugoslavian regiments.png"
+  },
+  {
+   "k": "1ld7ilq",
+   "en": "YUG local militias.png"
+  },
+  {
+   "k": "djpcv2",
+   "en": "Idea ger rebuild the nation.png"
+  },
+  {
+   "k": "1t8g7ed",
+   "en": "Idea chi forced conscription.png"
+  },
+  {
+   "k": "haxsa6",
+   "en": "Ast all in.png"
+  },
+  {
+   "k": "1114fjg",
+   "en": "Idea usa desegregation 1.png"
+  },
+  {
+   "k": "1hpzefz",
+   "en": "Man the Guns"
+  },
+  {
+   "k": "dqjqkp",
+   "en": "Idea jap the unthinkable option.png"
+  },
+  {
+   "k": "6hv2qe",
+   "en": "Idea chi army corruption3.png"
+  },
+  {
+   "k": "16f4j4h",
+   "en": "Idea generic fascism drift 2.png"
+  },
+  {
+   "k": "1do3jax",
+   "en": "Idea hol depillarization.png"
+  },
+  {
+   "k": "gbcmdn",
+   "en": "Idea hol de vaarplicht.png"
+  },
+  {
+   "k": "7t10ej",
+   "en": "Idea generic fortify the borders.png"
+  },
+  {
+   "k": "uox011",
+   "en": "Fra deluge.png"
+  },
+  {
+   "k": "1lt2gkh",
+   "en": "Spa carlism.png"
+  },
+  {
+   "k": "1yymgnd",
+   "en": "Spa crusade against democracy.png"
+  },
+  {
+   "k": "17ixtz2",
+   "en": "Spr anarchist society.png"
+  },
+  {
+   "k": "170ehsn",
+   "en": "Spr class war.png"
+  },
+  {
+   "k": "sbq43m",
+   "en": "Idea generic political support.png"
+  },
+  {
+   "k": "hvw584",
+   "en": "Battle for the Bosporus"
+  },
+  {
+   "k": "1o5kc2n",
+   "en": "Generic reserve divisions.png"
+  },
+  {
+   "k": "hw0etx",
+   "en": "Idea mex politicised army.png"
+  },
+  {
+   "k": "14kwu51",
+   "en": "Saf soviet advisers.png"
+  },
+  {
+   "k": "nwt7wd",
+   "en": "Idea mex revolutionary army.png"
+  },
+  {
+   "k": "1hza8mz",
+   "en": "Generic production bonus.png"
+  },
+  {
+   "k": "6vuel8",
+   "en": "FRA factory strikes.png"
+  },
+  {
+   "k": "hwfb1h",
+   "en": "Idea generic army problems.png"
+  },
+  {
+   "k": "14x5eko",
+   "en": "Idea generic agrarian reform.png"
+  },
+  {
+   "k": "1wju3ot",
+   "en": "The war to end all wars.png"
+  },
+  {
+   "k": "57e8q",
+   "en": "The Great Depression.png"
+  },
+  {
+   "k": "ls9x4n",
+   "en": "Idea usa great depression 2.png"
+  },
+  {
+   "k": "os4005",
+   "en": "Idea usa desegregation 2.png"
+  },
+  {
+   "k": "10khifp",
+   "en": "Generic volunteer expedition bonus.png"
+  },
+  {
+   "k": "b7tr21",
+   "en": "Idea generic agrarian society.png"
+  },
+  {
+   "k": "w9lc2z",
+   "en": "Idea raj marginalized muslim community.png"
+  },
+  {
+   "k": "1pw6ln8",
+   "en": "Raj marginalized muslim community happy.png"
+  },
+  {
+   "k": "2qlalm",
+   "en": "Indian Gurkhas.png"
+  },
+  {
+   "k": "1n4jfrb",
+   "en": "Focus RAJ lions of the great war.png"
+  },
+  {
+   "k": "3bf2i4",
+   "en": "Tfv can conscription crisis.png"
+  },
+  {
+   "k": "kzmlry",
+   "en": "Disjointed Government.png"
+  },
+  {
+   "k": "sn3ea6",
+   "en": "Idea saf history of segregation.png"
+  },
+  {
+   "k": "g8n774",
+   "en": "Idea saf history of segregation 2.png"
+  },
+  {
+   "k": "1o62m3u",
+   "en": "Idea generic reserve divisions.png"
+  },
+  {
+   "k": "ycpygw",
+   "en": "Idea hol shell shocked spectator.png"
+  },
+  {
+   "k": "n5kfh0",
+   "en": "Idea por colonial assimilation.png"
+  },
+  {
+   "k": "1l6vyhh",
+   "en": "Idea por nation in arms.png"
+  },
+  {
+   "k": "1vgjnzf",
+   "en": "Idea por camisas azuis.png"
+  },
+  {
+   "k": "1bdcovr",
+   "en": "LOCAL_MANPOWER_ACCESSIBLE_NON_CORE_FACTOR"
+  },
+  {
+   "k": "1w9qjfo",
+   "en": "{\\displaystyle {\\text{Manpower available}}=100\\%-98\\%+18\\%\\cdot {\\text{Compliance level}}}"
+  },
+  {
+   "k": "1068ey6",
+   "en": "{\\displaystyle {\\text{Manpower available}}=(100\\%-98\\%+18\\%)\\cdot (100\\%+20\\%)\\cdot ({\\text{conscription law}}+0.5\\%)}"
+  },
+  {
+   "k": "1pay2g",
+   "en": "BASE_MOBILIZATION_SPEED"
+  }
+ ]
+}

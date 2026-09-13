@@ -1,0 +1,1277 @@
+{
+ "batch": 1030,
+ "pages": [
+  "Building modding"
+ ],
+ "chars": 14988,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "10kqsk0",
+   "en": "A building is a structure built using Civilian factories in states or provinces."
+  },
+  {
+   "k": "1xa6gia",
+   "en": "Buildings"
+  },
+  {
+   "k": "118rhx1",
+   "en": "Buildings are defined within ⟦0⟧. Each building entry lies within the ⟦1⟧ block, serving as its own block with arguments within defining the building, as this:",
+   "frags": 2
+  },
+  {
+   "k": "1sba2ga",
+   "en": "/Hearts of Iron IV/common/buildings/*.txt"
+  },
+  {
+   "k": "1tozpet",
+   "en": "buildings = { ... }"
+  },
+  {
+   "k": "t05i6w",
+   "en": "Cost"
+  },
+  {
+   "k": "fekggd",
+   "en": "Each building has a set price in industrial capacity required."
+  },
+  {
+   "k": "1arkla1",
+   "en": "This cost is defined with:"
+  },
+  {
+   "k": "18979xd",
+   "en": "⟦0⟧ - Required base cost of building.",
+   "frags": 1
+  },
+  {
+   "k": "13kyurq",
+   "en": "base_cost = <int>"
+  },
+  {
+   "k": "142hjs3",
+   "en": "⟦0⟧ - Optional additional cost per building in state/province.",
+   "frags": 1
+  },
+  {
+   "k": "14qs7n2",
+   "en": "per_level_extra_cost = <int>"
+  },
+  {
+   "k": "9talg5",
+   "en": "⟦0⟧ - Optional additional cost per building controlled by country.",
+   "frags": 1
+  },
+  {
+   "k": "1c3ht35",
+   "en": "per_controlled_building_extra_cost = <int>"
+  },
+  {
+   "k": "1vps4gf",
+   "en": "⟦0⟧ is the primary cost to build the building, added to each building level, ⟦1⟧ gets added for each building level in state or province in an arithmetic progression. With the example of 1000 base_cost and 100 per_level_extra_cost, the first level will cost 1000 IC to build, while the 5th level will cost 1400 IC, as 4 levels have been built before that. ⟦2⟧ adds additional cost per building controlled by country.",
+   "frags": 3
+  },
+  {
+   "k": "1h2ozy0",
+   "en": "base_cost"
+  },
+  {
+   "k": "92y2fk",
+   "en": "per_level_extra_cost"
+  },
+  {
+   "k": "1yj9xuf",
+   "en": "per_controlled_building_extra_cost"
+  },
+  {
+   "k": "1ue9wn7",
+   "en": "By default, each civilian factory provides 4 IC per day⟦0⟧, which can be taken into account when calculating the cost. For comparison, by default a civilian factory costs 10800 IC, while infrastructure costs 6000 IC.",
+   "frags": 1
+  },
+  {
+   "k": "iaircb",
+   "en": "Additionally, ⟦0⟧, if included, will make the building get the building speed boost from any infrastructure built in the state. Maximum infrastructure level increase buidling speed by factor of 1⟦1⟧. Dividing that value by ⟦2⟧ of infrastructure (5) gives a +20% boost per infastructure level.",
+   "frags": 3
+  },
+  {
+   "k": "mgfw5q",
+   "en": "infrastructure_construction_effect = yes"
+  },
+  {
+   "k": "b7gila",
+   "en": "level_cap"
+  },
+  {
+   "k": "1qws152",
+   "en": "Slots"
+  },
+  {
+   "k": "1pf278i",
+   "en": "In general, buildings fall into 3 categories by used building slots:"
+  },
+  {
+   "k": "1jggiay",
+   "en": "Shared, which use the same, by default, 25 shared slots⟦0⟧ for each state, such as civilian and military factories.",
+   "frags": 1
+  },
+  {
+   "k": "15mc71b",
+   "en": "Non-shared, defined for states, but using slots that are unique for each building in particular, such as infrastructure or air bases."
+  },
+  {
+   "k": "14efvhe",
+   "en": "Provincial, which get built for each province, using slots that are unique for each building in particular, such as forts or naval bases."
+  },
+  {
+   "k": "iv6g4q",
+   "en": "The 3 categories have separate zones in the country construction view where they are located."
+  },
+  {
+   "k": "592aox",
+   "en": "Slot for building is defined inside ⟦0⟧ block. Which possible parameters are:",
+   "frags": 1
+  },
+  {
+   "k": "1mazgd0",
+   "en": "⟦0⟧ - Wheter building should use shared slots for state.",
+   "frags": 1
+  },
+  {
+   "k": "1knabry",
+   "en": "shares_slots = <bool>"
+  },
+  {
+   "k": "1vui7ji",
+   "en": "⟦0⟧ - Maximum level in a state.",
+   "frags": 1
+  },
+  {
+   "k": "1xq6fo5",
+   "en": "state_max = <int>"
+  },
+  {
+   "k": "19c7gia",
+   "en": "⟦0⟧ - Maximum level in a province. Defines building as provincial.",
+   "frags": 1
+  },
+  {
+   "k": "1wv4qlq",
+   "en": "province_max = <int>"
+  },
+  {
+   "k": "1adinvn",
+   "en": "⟦0⟧ - Group of buildings, limiting all building with the same category to the same maximum used slots.",
+   "frags": 1
+  },
+  {
+   "k": "1gvmgo",
+   "en": "group_by = <string>"
+  },
+  {
+   "k": "hxrofv",
+   "en": "⟦0⟧ - Prohibits the construction of certain buildings in the same state/province.",
+   "frags": 1
+  },
+  {
+   "k": "enlh4t",
+   "en": "exclusive_with = <building_id>"
+  },
+  {
+   "k": "1uq3ttk",
+   "en": "By default building is defined as state building. If ⟦0⟧ is unspecified, it gets assumed to be 15⟦1⟧ by default.",
+   "frags": 2
+  },
+  {
+   "k": "1j51v8j",
+   "en": "state_max"
+  },
+  {
+   "k": "1eoya3w",
+   "en": "Additional maximum level limit for provincial buldings for each terrain type can be set within ⟦0⟧ files.",
+   "frags": 1
+  },
+  {
+   "k": "1lovtvu",
+   "en": "/Hearts of Iron IV/common/terrain/*.txt"
+  },
+  {
+   "k": "1he1o6b",
+   "en": "By default, all levels of the building are unlocked by default. However, if there are ⟦0⟧ that enable construction of this building to a specified level, it becomes impossible to build without obtaining at least one of these technologies. It is to be noted that the ⟦1⟧ or the ⟦2⟧ can still be used to bypass the technological limit, while still not being possible to bypass the max level total.",
+   "frags": 3
+  },
+  {
+   "k": "xuw84n",
+   "en": "technologies"
+  },
+  {
+   "k": "11809po",
+   "en": "add_building_construction effect"
+  },
+  {
+   "k": "attq9x",
+   "en": "starting state buildings"
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "esfqjk",
+   "en": "Bulding can provide modifiers to country or/and state:"
+  },
+  {
+   "k": "1l5jjqh",
+   "en": "⟦0⟧ - Accept only country modifiers.",
+   "frags": 1
+  },
+  {
+   "k": "9n8a3k",
+   "en": "country_modifiers = { modifiers = { ... } }"
+  },
+  {
+   "k": "1njlw2s",
+   "en": "⟦0⟧ - Accept only state modifiers.",
+   "frags": 1
+  },
+  {
+   "k": "1em3rjo",
+   "en": "state_modifiers = { ... }"
+  },
+  {
+   "k": "nwdlwy",
+   "en": "Country modifiers can be restricted to specific countries by ⟦0⟧ list of tags block inside ⟦1⟧. Modifiers will apply only if the controller of province/state is in the list, or if the list is empty.",
+   "frags": 2
+  },
+  {
+   "k": "5rulyn",
+   "en": "enable_for_controllers = { ... }"
+  },
+  {
+   "k": "101g3gc",
+   "en": "country_modifiers"
+  },
+  {
+   "k": "1ilpefb",
+   "en": "Adding ⟦0⟧ will make the modifiers show up in the tooltip of the building.",
+   "frags": 1
+  },
+  {
+   "k": "rucrrw",
+   "en": "show_modifier = yes"
+  },
+  {
+   "k": "1f77ush",
+   "en": "Example:"
+  },
+  {
+   "k": "1d50lgg",
+   "en": "Additional arguments"
+  },
+  {
+   "k": "evtlhv",
+   "en": "Common arguments applicable to every building:"
+  },
+  {
+   "k": "njpdtg",
+   "en": "⟦0⟧ - Limit building to specific dlc. Uses ⟦1⟧ trigger.",
+   "frags": 2
+  },
+  {
+   "k": "1puzw7m",
+   "en": "dlc_allowed = { ... }"
+  },
+  {
+   "k": "7thfo5",
+   "en": "has_dlc"
+  },
+  {
+   "k": "8ywyd7",
+   "en": "⟦0⟧ - Used to display icons for specific buildings starting from the left side of the terrain interface within the state interface.(See provinces with facilities for details.)",
+   "frags": 1
+  },
+  {
+   "k": "1ykgfgm",
+   "en": "special_icon = <int>"
+  },
+  {
+   "k": "tt5vdi",
+   "en": "⟦0⟧ - Decides the base health of a building for air bombing campaigns, which gets multiplied for each level of the building. Additionally, this also determines the price of the state to get during peace conferences or the cost in ⟦1⟧ to occupy.",
+   "frags": 2
+  },
+  {
+   "k": "54lo7s",
+   "en": "value = 3"
+  },
+  {
+   "k": "hb2mn1",
+   "en": "Political Power"
+  },
+  {
+   "k": "121dybz",
+   "en": "⟦0⟧ - Modifies the damage that this building gets from air bombing or land combat. Positive values increase it, while negatives decrease it. At 0, building can't be damaged.",
+   "frags": 1
+  },
+  {
+   "k": "ark032",
+   "en": "damage_factor = 0.3"
+  },
+  {
+   "k": "1quug4e",
+   "en": "⟦0⟧ - If set to yes, makes the building buildable by your faction members on your land.",
+   "frags": 1
+  },
+  {
+   "k": "1742np8",
+   "en": "allied_build = <bool>"
+  },
+  {
+   "k": "183utxl",
+   "en": "⟦0⟧ ⟦1⟧ - If specified, will make the building only be possible to build in either provinces that are ⟦2⟧ or states that contain any such provinces, depending on the type of the building.",
+   "frags": 3
+  },
+  {
+   "k": "yzzqhk",
+   "en": "only_costal = yes"
+  },
+  {
+   "k": "18rp0pz",
+   "en": "(sic)"
+  },
+  {
+   "k": "1weh4f5",
+   "en": "defined as coastal"
+  },
+  {
+   "k": "zz29vo",
+   "en": "⟦0⟧ - If added, will make the building impossible to build or use in states that are demilitarised zones.",
+   "frags": 1
+  },
+  {
+   "k": "ub59s0",
+   "en": "disabled_in_dmz = <bool>"
+  },
+  {
+   "k": "1fpylye",
+   "en": "⟦0⟧ - Whether building needs supply for operation.",
+   "frags": 1
+  },
+  {
+   "k": "qo94sg",
+   "en": "need_supply = <bool>"
+  },
+  {
+   "k": "z70a4o",
+   "en": "⟦0⟧ - Hides building in the construction tab if the required technology has not been researched.",
+   "frags": 1
+  },
+  {
+   "k": "xc07r6",
+   "en": "hide_if_missing_tech = <bool>"
+  },
+  {
+   "k": "7dvr9x",
+   "en": "⟦0⟧ - Custom localized tooltip when the required technology has not been researched.",
+   "frags": 1
+  },
+  {
+   "k": "oltoum",
+   "en": "missing_tech_loc = { ... }"
+  },
+  {
+   "k": "1dnsx3g",
+   "en": "need_detection = <bool>"
+  },
+  {
+   "k": "1kxxuro",
+   "en": "⟦0⟧ - Define what type of intelligence affects this building.Types of intelligence available:⟦1⟧,⟦2⟧,⟦3⟧,⟦4⟧",
+   "frags": 5
+  },
+  {
+   "k": "1obzz86",
+   "en": "detecting_intel_type = <intel_type>"
+  },
+  {
+   "k": "2262o8",
+   "en": "civilian"
+  },
+  {
+   "k": "197zpd0",
+   "en": "army"
+  },
+  {
+   "k": "yazwci",
+   "en": "airforce"
+  },
+  {
+   "k": "18o6jtd",
+   "en": "navy"
+  },
+  {
+   "k": "wirfgv",
+   "en": "⟦0⟧ - The details of the building will only appear in the terrain interface of the province when it is constructed in a province of that state.(Usually used in conjunction with the special_icon parameter mentioned above.)At the same time, the terrain interface maps of other provinces in the state will not show the icon of this building. If set to 'no', all provinces in the entire state will display the icon and detailed information of the building, but provinces without the building will show a level of 0, even though this building can only be constructed once within the same state.",
+   "frags": 1
+  },
+  {
+   "k": "1cbntlk",
+   "en": "only_display_if_exists = <bool>"
+  },
+  {
+   "k": "1smuivo",
+   "en": "⟦0⟧ - Associate the types of special projects.Defined in this path:⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1epb1k3",
+   "en": "specialization = { ... }"
+  },
+  {
+   "k": "1bt7xm5",
+   "en": "/Hearts of Iron IV/common/special_projects/specialization/specializations.txt"
+  },
+  {
+   "k": "1l10937",
+   "en": "⟦0⟧ - Building tags, used to target buildings in ⟦1⟧ and in ⟦2⟧ effect.",
+   "frags": 3
+  },
+  {
+   "k": "1vv7s3f",
+   "en": "tags = { ... }"
+  },
+  {
+   "k": "lba11i",
+   "en": "raids"
+  },
+  {
+   "k": "89vyzh",
+   "en": "damage_building"
+  },
+  {
+   "k": "h2net1",
+   "en": "⟦0⟧ - Whether building can be build manually. Default to yes.",
+   "frags": 1
+  },
+  {
+   "k": "1vo53y1",
+   "en": "is_buildable = <bool>"
+  },
+  {
+   "k": "1wblbda",
+   "en": "⟦0⟧ - Modifiers to add to province if building is damaged/destroyed. ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "146ulnh",
+   "en": "province_damage_modifiers = { ... }"
+  },
+  {
+   "k": "1n22uhi",
+   "en": "[Need confirmation]"
+  },
+  {
+   "k": "1sf4hl7",
+   "en": "⟦0⟧ - Modifiers to add to state if building is damaged/destroyed. ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "10v3ytd",
+   "en": "state_damage_modifier = { ... }"
+  },
+  {
+   "k": "x16ldk",
+   "en": "⟦0⟧ - Determine whether the building will affect energy consumption.⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "7ggmi8",
+   "en": "affects_energy = yes/no"
+  },
+  {
+   "k": "t3tyj4",
+   "en": "Icon"
+  },
+  {
+   "k": "1p0vswo",
+   "en": "The building icon is defined as ⟦0⟧. The integer shows which frame within the GFX_buildings_strip sprite gets used for this building.",
+   "frags": 1
+  },
+  {
+   "k": "10am1im",
+   "en": "icon_frame = 10"
+  },
+  {
+   "k": "x6vpxl",
+   "en": "By default, GFX_buildings_strip is defined within ⟦0⟧, however, it can be overwritten in any ⟦1⟧ which is positioned later by filename order:",
+   "frags": 2
+  },
+  {
+   "k": "l57lah",
+   "en": "/Hearts of Iron IV/interface/countrystateview.gfx"
+  },
+  {
+   "k": "dw6d81",
+   "en": "/Hearts of Iron IV/interface/*.gfx"
+  },
+  {
+   "k": "1215u9e",
+   "en": "The noOfFrames decides in how many frames the specified sprite is divided into, dividing the image horizontally into chunks of approximately equal width. If planning to add a new building icon rather than using a base game one, the building icon strip will need to be updated both in the noOfFrames and in the .dds file. By default, each building has a 46x46 resolution in pixels."
+  },
+  {
+   "k": "w8vic3",
+   "en": "Within the building construction menu, buildings are divided into 3 zones depending on their used building slots category. In order to change where they are to adjust for new or missing buildings, the elements within the possible_constructions container in ⟦0⟧ can have their positions changed.",
+   "frags": 1
+  },
+  {
+   "k": "embcwy",
+   "en": "/Hearts of Iron IV/interface/countryconstructionsview.gui"
+  },
+  {
+   "k": "hzmwb",
+   "en": "Models"
+  },
+  {
+   "k": "17e3msn",
+   "en": "Main article: Entity modding"
+  },
+  {
+   "k": "1byzxmd",
+   "en": "There are several arguments related to models within buildings. ⟦0⟧ decides how many building models should there be per state or per province (depending on the building type) defined for the building. Each building construction will add one more model. If unspecified, will have no map models. ⟦1⟧ decides how many entities are used for each building model. By default assumed to be 1. ⟦2⟧, if specified, will make the building model appear regardless whether it's covered by the fog of war or not. ⟦3⟧, if specified, will make the game use a separate model if the building has been destroyed by air bombing or occupation. ⟦4⟧, if specified, will mak",
+   "frags": 5
+  },
+  {
+   "k": "131ewbf",
+   "en": "show_on_map = 3"
+  },
+  {
+   "k": "oz9d8u",
+   "en": "show_on_map_meshes = 2"
+  },
+  {
+   "k": "libm9y",
+   "en": "always_shown = yes"
+  },
+  {
+   "k": "by2rat",
+   "en": "has_destroyed_mesh = yes"
+  },
+  {
+   "k": "ymo25",
+   "en": "centered = yes"
+  },
+  {
+   "k": "4ecdrp",
+   "en": "In order to assign an entity to a building, it must have a name of ⟦0⟧, like ⟦1⟧, within the ⟦2⟧ file. If a building is set to use several entities, then the number will get appended in the end like ⟦3⟧, starting with 1. If there's a destroyed mesh, then it'll append _destroyed in the end as ⟦4⟧",
+   "frags": 5
+  },
+  {
+   "k": "1nu61o1",
+   "en": "building_<building name>"
+  },
+  {
+   "k": "17hwdal",
+   "en": "building_my_building"
+  },
+  {
+   "k": "1cvoz6",
+   "en": "/Hearts of Iron IV/gfx/entities/*.asset"
+  },
+  {
+   "k": "9ziwx1",
+   "en": "building_my_building_1"
+  },
+  {
+   "k": "1mzvbk9",
+   "en": "building_my_building_destroyed"
+  },
+  {
+   "k": "gpwbq6",
+   "en": "The locations of building models for each state are defined in ⟦0⟧. An entry in that file is defined as such (If unspecified, assume a number with up to 2 decimal digits):",
+   "frags": 1
+  },
+  {
+   "k": "64xsxk",
+   "en": "/Hearts of Iron IV/map/buildings.txt"
+  },
+  {
+   "k": "hkv065",
+   "en": "State ID defines which state the building is located in. Even for provincial buildings, this is the ID of the state, not the province. Instead, provincial buildings have several entries per state, with the XYZ position being used by the game to know which province it's for."
+  },
+  {
+   "k": "157u7pr",
+   "en": "Building ID is defines which model is being located. While this includes each building, this also includes floating harbours as floating_harbor."
+  },
+  {
+   "k": "1ekk389",
+   "en": "X, Y, and Z position represent the position on the map of the building model using the 3-dimensional Cartesian coordinate system. The X and Z positions are equivalent to the X and Y axes on the ⟦0⟧ with 1 pixel equalling 1 unit, left-to-right and down-to-up respectively. This is also what the game uses to know which province it's for for provincial buildings. The Y position, on the scale of 0 to 25.5, can be calculated with the ⟦1⟧ by taking the colour value of the pixel at that position and making it fit on the scale of 0 to 25.5 (Such as by dividing it by 10 if it's on the scale of 0 to 255).",
+   "frags": 2
+  },
+  {
+   "k": "5zxih0",
+   "en": "province bitmap"
+  },
+  {
+   "k": "1h7eorw",
+   "en": "heightmap"
+  },
+  {
+   "k": "6mikt1",
+   "en": "Rotation is measured in radians. A rotation of 0 will result in the building model pointing in the same direction as the model is set, while positives will rotate it counter-clockwise and negatives will rotate it clockwise. A full rotation resulting in the same position as 0 is equal to the number π multiplied by 2, roughly 6.28."
+  },
+  {
+   "k": "1y0thw5",
+   "en": "Adjacent sea province is only necessary to define for naval bases and floating harbours, in order to let the game know from which sea province ships or convoys can access the land province where it is located. If the building type is not a naval base, it should be left at 0."
+  },
+  {
+   "k": "uz0uf1",
+   "en": "It is preferable to generate the building models in the building section in the nudger, rather than filling it out manually. However, note that the game will crash if the currently-existing ⟦0⟧ file is entirely empty, so there should be at least one definition, even if incorrect.",
+   "frags": 1
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "1ebw7yd",
+   "en": "Each building can accept any ⟦0⟧ within itself, applying that to the state when built. Some used in base game include ⟦1⟧, ⟦2⟧ (for anti-air) and ⟦3⟧. In case of provincial buildings, province-level modifiers are accepted instead. This can also be used with ⟦4⟧ to create a custom effect as a variable system.",
+   "frags": 5
+  },
+  {
+   "k": "1oqwx36",
+   "en": "state-scoped modifier"
+  },
+  {
+   "k": "1pr4glp",
+   "en": "local_resources_<resource>"
+  },
+  {
+   "k": "1uitsxg",
+   "en": "air_defence"
+  },
+  {
+   "k": "1rnifc2",
+   "en": "modifier tokens"
+  },
+  {
+   "k": "12hvwmh",
+   "en": "Aside from state-scoped modifiers, there are several other arguments to make the building have the same effect as a base game building or be considered one for the AI:"
+  },
+  {
+   "k": "4el6o6",
+   "en": "Name"
+  },
+  {
+   "k": "uy0v5i",
+   "en": "Examples"
+  },
+  {
+   "k": "1m2zofh",
+   "en": "Type"
+  },
+  {
+   "k": "4f76ga",
+   "en": "Notes"
+  },
+  {
+   "k": "1mlnirg",
+   "en": "military_production"
+  },
+  {
+   "k": "8vjnbe",
+   "en": "Adds the specified amount of military factories to the controller."
+  },
+  {
+   "k": "1p6qppy",
+   "en": "military_production = 0.5"
+  },
+  {
+   "k": "5wsd8c",
+   "en": "Flat."
+  },
+  {
+   "k": "1abv8o9",
+   "en": "A value that's larger than 1 will be the same as 1 factory, but it can fall between 0 and 1."
+  },
+  {
+   "k": "i81nmv",
+   "en": "general_production"
+  },
+  {
+   "k": "1ti75h0",
+   "en": "Adds the specified amount of civilian factories to the controller."
+  },
+  {
+   "k": "m7n0s5",
+   "en": "general_production = 0.5"
+  },
+  {
+   "k": "rhn7ij",
+   "en": "naval_production"
+  },
+  {
+   "k": "1vvita3",
+   "en": "Adds the specified amount of dockyards to the controller."
+  },
+  {
+   "k": "17qe18h",
+   "en": "naval_production = 0.5"
+  },
+  {
+   "k": "1h2alfy",
+   "en": "infrastructure"
+  },
+  {
+   "k": "kl02dh",
+   "en": "Makes the building be marked as infrastructure."
+  },
+  {
+   "k": "1iftoiq",
+   "en": "infrastructure = yes"
+  },
+  {
+   "k": "1q57g83",
+   "en": "Boolean."
+  },
+  {
+   "k": "2vf2tc",
+   "en": "Includes the construction speed bonus and extra resources."
+  },
+  {
+   "k": "1ydz2v1",
+   "en": "air_base"
+  },
+  {
+   "k": "1yg8s8s",
+   "en": "Makes the building be marked as an air base."
+  },
+  {
+   "k": "1r996vp",
+   "en": "air_base = yes"
+  },
+  {
+   "k": "mrbj03",
+   "en": "supply_node"
+  },
+  {
+   "k": "1rigs3m",
+   "en": "Makes the building be marked as a supply node."
+  },
+  {
+   "k": "13lhnhb",
+   "en": "supply_node = yes"
+  },
+  {
+   "k": "1qlufcp",
+   "en": "is_port"
+  },
+  {
+   "k": "1i8u7oa",
+   "en": "Makes the building be marked as a naval port."
+  },
+  {
+   "k": "1and16p",
+   "en": "is_port = yes"
+  },
+  {
+   "k": "16vv54o",
+   "en": "land_fort"
+  },
+  {
+   "k": "1roi0o8",
+   "en": "Adds that many land forts to the province."
+  },
+  {
+   "k": "1alvzk4",
+   "en": "land_fort = 1"
+  },
+  {
+   "k": "1a7k54x",
+   "en": "naval_fort"
+  },
+  {
+   "k": "1nc6jgg",
+   "en": "Adds that many coastal forts to the province."
+  },
+  {
+   "k": "1ay4pq5",
+   "en": "naval_fort = 1"
+  },
+  {
+   "k": "riv9z9",
+   "en": "refinery"
+  },
+  {
+   "k": "1hnlabc",
+   "en": "Makes the building be marked as a synthetic refinery."
+  },
+  {
+   "k": "ya8da5",
+   "en": "refinery = yes"
+  },
+  {
+   "k": "s27133",
+   "en": "fuel_silo"
+  },
+  {
+   "k": "bosbpi",
+   "en": "Makes the building be marked as a fuel silo."
+  },
+  {
+   "k": "1nejpy3",
+   "en": "fuel_silo = yes"
+  },
+  {
+   "k": "19bf7yz",
+   "en": "radar"
+  },
+  {
+   "k": "1rq5gt1",
+   "en": "Makes the building be marked as a radar station."
+  },
+  {
+   "k": "sa9d0n",
+   "en": "radar = yes"
+  },
+  {
+   "k": "1s3pon1",
+   "en": "rocket_production"
+  },
+  {
+   "k": "12nipre",
+   "en": "Defines how much progress on rocket production is done daily."
+  },
+  {
+   "k": "fccqb1",
+   "en": "rocket_production = 5"
+  },
+  {
+   "k": "1e9yhxq",
+   "en": "rocket_launch_capacity"
+  },
+  {
+   "k": "1onm22c",
+   "en": "Defines how many rockets the build can launch daily."
+  },
+  {
+   "k": "1nuwsb2",
+   "en": "rocket_launch_capacity = 5"
+  },
+  {
+   "k": "riirqs",
+   "en": "nuclear_reactor"
+  },
+  {
+   "k": "1qva0o9",
+   "en": "Makes the building be marked as a nuclear reactor."
+  },
+  {
+   "k": "1daletw",
+   "en": "nuclear_reactor = yes"
+  },
+  {
+   "k": "c1569f",
+   "en": "gun_emplacement"
+  },
+  {
+   "k": "1extezj",
+   "en": "gun_emplacement = yes"
+  },
+  {
+   "k": "55ja69",
+   "en": "Example"
+  },
+  {
+   "k": "1x5vavy",
+   "en": "Spawn point"
+  },
+  {
+   "k": "165rdwj",
+   "en": "Coordinates for each building on map by default are defined using building name. Spawn point can be defined to to use 1 position for diffrent types of buildings."
+  },
+  {
+   "k": "1mhys55",
+   "en": "Parameters:"
+  },
+  {
+   "k": "iqvhoa",
+   "en": "⟦0⟧ - Can be ⟦1⟧ or ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "min7t9",
+   "en": "type"
+  },
+  {
+   "k": "xckdti",
+   "en": "state"
+  },
+  {
+   "k": "71r0hx",
+   "en": "province"
+  },
+  {
+   "k": "9o3jxb",
+   "en": "⟦0⟧ - How many spawn points state/province should have.",
+   "frags": 1
+  },
+  {
+   "k": "114bh2b",
+   "en": "max = <int>"
+  },
+  {
+   "k": "1i0kzkb",
+   "en": "⟦0⟧ - Limit spawn point to coastal states/provinces.",
+   "frags": 1
+  },
+  {
+   "k": "16x6tl7",
+   "en": "only_costal = <bool>"
+  },
+  {
+   "k": "1hfah8z",
+   "en": "⟦0⟧ - Disable automatic positioning with nudging tool.",
+   "frags": 1
+  },
+  {
+   "k": "ttssir",
+   "en": "disable_auto_nudging = <bool>"
+  },
+  {
+   "k": "cv364k",
+   "en": "Now multiple buildings can use ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "159xq1a",
+   "en": "spawn_point = my_building_type_spawn"
+  },
+  {
+   "k": "eukv6o",
+   "en": "Localization"
+  },
+  {
+   "k": "ej2zxq",
+   "en": "Buildings use the following localization keys, using my_building as an example:"
+  },
+  {
+   "k": "830n8",
+   "en": "my_building"
+  },
+  {
+   "k": "18nzfbn",
+   "en": "\"My"
+  },
+  {
+   "k": "1pm7i7p",
+   "en": "building\""
+  },
+  {
+   "k": "1alvydo",
+   "en": "my_building_desc"
+  },
+  {
+   "k": "7ymk1r",
+   "en": "building's"
+  },
+  {
+   "k": "1nem3v5",
+   "en": "description\""
+  },
+  {
+   "k": "71weur",
+   "en": "my_building_plural"
+  },
+  {
+   "k": "rgg73k",
+   "en": "buildings\""
+  },
+  {
+   "k": "ib0kds",
+   "en": "modifier_production_speed_my_building_factor"
+  },
+  {
+   "k": "1mll1zi",
+   "en": "\"§Y$my_building$§!"
+  },
+  {
+   "k": "1lhkbd8",
+   "en": "construction"
+  },
+  {
+   "k": "3t4d1i",
+   "en": "speed\""
+  },
+  {
+   "k": "1519cc8",
+   "en": "modifier_production_speed_my_building_factor_desc"
+  },
+  {
+   "k": "1phb4z",
+   "en": "\"Modifies"
+  },
+  {
+   "k": "1dyjk0s",
+   "en": "the"
+  },
+  {
+   "k": "y9my68",
+   "en": "speed"
+  },
+  {
+   "k": "160gsxa",
+   "en": "§Y$my_building$§!"
+  },
+  {
+   "k": "1ca9h2k",
+   "en": "construction.\""
+  },
+  {
+   "k": "3s6g3y",
+   "en": "modifier_state_production_my_building_factor"
+  },
+  {
+   "k": "1moo65a",
+   "en": "modifier_state_production_my_building_factor_desc"
+  },
+  {
+   "k": "1oj91fl",
+   "en": "this"
+  },
+  {
+   "k": "nw074u",
+   "en": "state.\""
+  },
+  {
+   "k": "18w3hme",
+   "en": "The first 3 are used for the building itself in various UI elements, while the last 4 are used to localise the modifiers automatically created for each building: ⟦0⟧ and ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1v3c79t",
+   "en": "production_speed_<building>_factor"
+  },
+  {
+   "k": "6gpwcr",
+   "en": "state_production_speed_<building>_factor"
+  },
+  {
+   "k": "1amzk8q",
+   "en": "Types"
+  },
+  {
+   "k": "df94e7",
+   "en": "These are the different types of buildings in the game (Can also be found inside ⟦0⟧):",
+   "frags": 1
+  },
+  {
+   "k": "86ahq2",
+   "en": "/Hearts of Iron IV/common/buildings/00_buildings.txt"
+  },
+  {
+   "k": "1r2jfvc",
+   "en": "Localised name"
+  },
+  {
+   "k": "1i8ib9f",
+   "en": "Internal name"
+  },
+  {
+   "k": "ndx21v",
+   "en": "Maximum level"
+  },
+  {
+   "k": "1icrwoe",
+   "en": "Infrastructure"
+  },
+  {
+   "k": "146xkoq",
+   "en": "Non-shared"
+  }
+ ]
+}

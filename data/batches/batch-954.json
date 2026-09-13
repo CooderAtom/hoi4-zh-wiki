@@ -1,0 +1,874 @@
+{
+ "batch": 954,
+ "pages": [
+  "Patch 1.6.X"
+ ],
+ "chars": 14977,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1rsbr1l",
+   "en": "Improved the stacking defense behavior of dispersed industry and AA tech"
+  },
+  {
+   "k": "1feqk73",
+   "en": "Lend Leasing Convoys always free now"
+  },
+  {
+   "k": "14gfds1",
+   "en": "Set faction leaders as major nations instantly, preventing a faction from temporarily only having minors and losing wars early"
+  },
+  {
+   "k": "xuzujo",
+   "en": "Fixed an issue that allowed the US to send Britain destroyers while at war with Britain"
+  },
+  {
+   "k": "1o7q98o",
+   "en": "Getting into the US fascist civil war should no longer remove the associated national spirits"
+  },
+  {
+   "k": "gp81dx",
+   "en": "Ceylon FOB, Reclaim the Jewel in the Crown, Appeal to Imperial Loyalists, and Bring the Dominions Back into the Fold should now all bypass if all subjects have been prevented from leaving Britain after Britain switched to Fascism, using the decisions granted by the Move to Secure the Dominions focus."
+  },
+  {
+   "k": "abgq8r",
+   "en": "Added a bypass for Motion of No Confidence, in case Churchill is already leader."
+  },
+  {
+   "k": "rp7lzf",
+   "en": "Mexico will no longer load the Mexican focus tree after a civil war, if the player does not have Man the Guns."
+  },
+  {
+   "k": "prsu9n",
+   "en": "Fixed Awake and Angry and Battlecry achievements."
+  },
+  {
+   "k": "5f9x9p",
+   "en": "fixed a number of liberation events that would not fire due to checking for the wrong state ownership"
+  },
+  {
+   "k": "plc5io",
+   "en": "South Georgia is now also transferred to Argentina when returning contested territories."
+  },
+  {
+   "k": "bb3mas",
+   "en": "Ensured Case Anton properly triggers, and that the Scuttle the Fleet decision actually destroys the fleet. Also eliminated the PP cost for the Scuttle the Fleet decision, so that the AI will always take it unless you prevent them from doing so, as intended."
+  },
+  {
+   "k": "tb805g",
+   "en": "Made sure Ataturk can no longer lead armies from beyond the grave in 1939, and added idea portrait for Mannerheim"
+  },
+  {
+   "k": "y51nd2",
+   "en": "Made Dominion Development focuses be available when the Dominion in Britain's faction is the civil war faction, and not the original tag."
+  },
+  {
+   "k": "1i3az3j",
+   "en": "fixed some game data not being cleared when a dynamic tag is reused"
+  },
+  {
+   "k": "1rg3jv3",
+   "en": "The Canadian Corridor focus should no longer be available if you already control the states in question"
+  },
+  {
+   "k": "8yatyq",
+   "en": "Fixed an issue where the US would continue to demand territories in the Americas from countries that had already handed over territory or against which it has war goals"
+  },
+  {
+   "k": "xo1mk8",
+   "en": "Various specific traits have been removed from the 'random pool', ensuring random country leaders cannot spawn with them anymore."
+  },
+  {
+   "k": "1ql2pmd",
+   "en": "Made it possible (and much more likely) for Chamberlain to resign -before- the fall of France. The event can now be triggered by any Low Country or France having any surrender progress."
+  },
+  {
+   "k": "rb9unq",
+   "en": "the Canadian communist strategy plan should now be correctly labeled"
+  },
+  {
+   "k": "1rfqvb5",
+   "en": "Stopped overzealous propaganda ministers from causing diplomatic crises by riling up the populace against allied nations, all for the purpose of passing war economy legislature just a little bit sooner (and more cheaply)."
+  },
+  {
+   "k": "1qukxwm",
+   "en": "Fixes for Korean communist small flags."
+  },
+  {
+   "k": "d52gb0",
+   "en": "Added claims to the correct French states for German Carte Blanche for Alsace and French Colonies focus."
+  },
+  {
+   "k": "q0j69b",
+   "en": "US Liberty Ship national spirit should now apply correctly"
+  },
+  {
+   "k": "x6bjoc",
+   "en": "Canadian Degaussing national spirit will now apply correctly"
+  },
+  {
+   "k": "1wkflra",
+   "en": "Decolonization now peaces out subjects when they leave UK's faction."
+  },
+  {
+   "k": "1ch6hh9",
+   "en": "Adjusted A Change in Course to now have negative ideology drift for democratic support, rather than giving positive drift for the other ideologies, to prevent weird situations where it'd end up resulting in a negative drift for one of the other ideologies."
+  },
+  {
+   "k": "1dz3m1t",
+   "en": "British Raj now has the proper Marginalized Muslim Community spirit applied if Pakistan is liberated via the British Decolonization focus tree, or civil war."
+  },
+  {
+   "k": "1k2n8n5",
+   "en": "France should no longer be able to form a faction with a non-existing Czechoslovakia through the Little Entente Focus. The Focus will still be available, but will just form a new faction. Focuses further down the line will not be affected."
+  },
+  {
+   "k": "1lpanw",
+   "en": "fixed some buggy behavior with foreign division templates regarding duplication and deployment"
+  },
+  {
+   "k": "1bouyov",
+   "en": "AI can now accept a fuel incoming lend lease."
+  },
+  {
+   "k": "1vnf63j",
+   "en": "Fixed taken states not being colored properly during a peace conference"
+  },
+  {
+   "k": "v8xo82",
+   "en": "Fixed some decisions on a revolter country disapearing after loading a save"
+  },
+  {
+   "k": "itayxk",
+   "en": "Correctly change leader trait icons in army badge when switching between leaders where one has exile leader traits and the other does not."
+  },
+  {
+   "k": "agoiwx",
+   "en": "fixed naval mission assignment not working correctly with taskforces on repairs"
+  },
+  {
+   "k": "8cxlyb",
+   "en": "fixed an issue where countries occupying Manchuria would get reports about finding communist sleeper cells while allied with communist china"
+  },
+  {
+   "k": "3i0erj",
+   "en": "fixed anniversary pack not being loaded"
+  },
+  {
+   "k": "rxivna",
+   "en": "review fixes"
+  },
+  {
+   "k": "13gxqba",
+   "en": "Fixed newly created ships teleporting to the task force set as their deployment target"
+  },
+  {
+   "k": "1gtxwq8",
+   "en": "Fixed auto balance task force not working"
+  },
+  {
+   "k": "11cbi5p",
+   "en": "Fix fuel lend lease. It was full of minor bugs."
+  },
+  {
+   "k": "5ayefm",
+   "en": "Selecting a decolonized Asia in the game rules will now also grant independence to Malaya."
+  },
+  {
+   "k": "1gqijbv",
+   "en": "Fixed new Maltese fascist flag not showing up properly."
+  },
+  {
+   "k": "o9p7p5",
+   "en": "fixed two instances in US events giving incorrect amounts of party popularity"
+  },
+  {
+   "k": "1isr6zl",
+   "en": "fixed ai sending invalid commands with foreign templates"
+  },
+  {
+   "k": "9iqxfh",
+   "en": "Fixed Expose the Belly of the Bear events not being sent out, as well as having incorrect requirement triggers."
+  },
+  {
+   "k": "1m5qy7a",
+   "en": "fixed a way to create invalid paradrop orders and fixed a ctd that is caused by that"
+  },
+  {
+   "k": "10tp3rc",
+   "en": "Converted Battleship and Converted Cruiser Hulls use now the right 3D model as the best match in the Ship Designer."
+  },
+  {
+   "k": "8fic8e",
+   "en": "Fixed ships from reserve not reinforcing if the reserve task force has at least one ship repairing"
+  },
+  {
+   "k": "gehxhu",
+   "en": "locked the Silver Legion special template gained during the Fascist US civil war"
+  },
+  {
+   "k": "1gk3g9v",
+   "en": "fixed some localization issues with dynamic modifiers"
+  },
+  {
+   "k": "1omyjdy",
+   "en": "fixed stability & war support values not giving all bonuses in some cases"
+  },
+  {
+   "k": "25nuf3",
+   "en": "fixed some scripted diplomatic action issued that broke actions that requires acceptance"
+  },
+  {
+   "k": "12kuy3b",
+   "en": "moved lights of Los Angeles to correct province position"
+  },
+  {
+   "k": "63b6t0",
+   "en": "Abdicating after getting \"King's Support Forms\" will now correctly remove the beneficial spirit granted by that event."
+  },
+  {
+   "k": "1sxtn4p",
+   "en": "fixed a original_tag problem related to reusing of dynamic tags"
+  },
+  {
+   "k": "16xfdrl",
+   "en": "Now display correct naval supremacy in naval invasion tooltip."
+  },
+  {
+   "k": "8d95xc",
+   "en": "fixed a ctd while loading saves"
+  },
+  {
+   "k": "cdxqht",
+   "en": "De Gaulle will no longer be incorrectly removed as Free France's leader."
+  },
+  {
+   "k": "b9z949",
+   "en": "Added Halifax to the bypass conditions of Motion of No Confidence."
+  },
+  {
+   "k": "1k84x3q",
+   "en": "Added certain stipulations for Coerce Spain and Coerce Greece focuses."
+  },
+  {
+   "k": "5yiu5u",
+   "en": "Only one Rebuild the Nation decision will now be available if you switch ideology using a civil war."
+  },
+  {
+   "k": "wefj4x",
+   "en": "Alliance with Germany now requires Germany to be fascist only."
+  },
+  {
+   "k": "qpwus",
+   "en": "The number of factories displayed in war overview is now consistent with the number in topbar."
+  },
+  {
+   "k": "gbr1ks",
+   "en": "Fixed an effect that was deleting a division template without deleting all divisions using that template, specifically volunteers and expeditionary forces, leading to potential memory problems and crashes."
+  },
+  {
+   "k": "rxcop",
+   "en": "Fixed the game generating a definition.csv file that would override the original in case the later was missing some entries"
+  },
+  {
+   "k": "1cmzw1b",
+   "en": "Mexico without Man the Guns enabled (and therefore with no ability to nationalize the oil fields) will now have control over its own oil from the start of the game."
+  },
+  {
+   "k": "1vqgakl",
+   "en": "Fixed airwing name not being loaded from save"
+  },
+  {
+   "k": "1oj4a1",
+   "en": "Fixed DOD unique motorized icons to correctly shop up in the production tab."
+  },
+  {
+   "k": "d9iofw",
+   "en": "Fixed reserve fleet getting merged on daily tick if in the same naval base"
+  },
+  {
+   "k": "4trtbx",
+   "en": "Fixed ship name from history file not being taking into account in some circumstances when adding a production line for it"
+  },
+  {
+   "k": "1dd5ine",
+   "en": "Highlight now fit the size of dockyard grid."
+  },
+  {
+   "k": "1kvaztb",
+   "en": "Fragmenting Yugoslavia in the game setup rules should no longer result in Yugoslav units permanently being present on the map with no possibility of getting rid of them."
+  },
+  {
+   "k": "mau34t",
+   "en": "Selecting Asia Decolonized game rule will now correctly grant independence to the Philippines."
+  },
+  {
+   "k": "g05o3e",
+   "en": "Fixed mods in the userfiles overriding definition.csv getting it renamed and ignored"
+  },
+  {
+   "k": "1625lm6",
+   "en": "Fixed event option text for \"Mexican Entry Into the \" event."
+  },
+  {
+   "k": "1wzyg8i",
+   "en": "Fix troubles with Taskforce composition editor reinforcements that didn't work properly."
+  },
+  {
+   "k": "tck6wy",
+   "en": "Fixed task forces being able to refit in the middle of the sea"
+  },
+  {
+   "k": "1wfpdgz",
+   "en": "You can now remove ships form a selection with shift+click."
+  },
+  {
+   "k": "7pkbmd",
+   "en": "Corrected Putting the Raid on the Medway to Shame achievement to no longer be awarded if the UK gets into the Fascist civil war."
+  },
+  {
+   "k": "1gk2du1",
+   "en": "Corrected art for Netherlands design companies not showing up on produced equipment."
+  },
+  {
+   "k": "a7tjr2",
+   "en": "Improve equipment distribution according to priority."
+  },
+  {
+   "k": "opmorw",
+   "en": "Fixed negative amount of convoy on modifying a lend lease that has been raided"
+  },
+  {
+   "k": "1ilmxqs",
+   "en": "Fixed invalid description for the low convoy escort and convoy raiding efficiency description"
+  },
+  {
+   "k": "2xecyq",
+   "en": "Ships designs can no longer go slower than 1kn"
+  },
+  {
+   "k": "eh1ao1",
+   "en": "Reduced Japanese Torpedo Cruiser Hull sub detection to be more inline with regular cruiser hulls (before adding modules)"
+  },
+  {
+   "k": "1pjzloz",
+   "en": "Allying with the Silver Shirts can now be taken with 10% popularity of fascists, but requires a fascist demagogue in government"
+  },
+  {
+   "k": "1eqc0tb",
+   "en": "taking Neutrality Act or Limited Intervention now locks you out of the communist or fascists paths (and vice versa), as was originally intended"
+  },
+  {
+   "k": "f1z7vu",
+   "en": "It is now possible to complete the branch starting with \"Adjusted Compensation Act\" without being democratic"
+  },
+  {
+   "k": "32kisw",
+   "en": "if the countdown to the fascist civil war started from more than 30% fascist support (as opposed to taking both Ally with the Silver Shirts and Voter Registration Act), the countdown is now 280 days (up from 180 days)"
+  },
+  {
+   "k": "17q5fc0",
+   "en": "if the \"Recruit the Free Corps\" focus is finished when the civil war begins, the Free Corps will now automatically appear (this should also help the AI)"
+  },
+  {
+   "k": "1f9nisy",
+   "en": "Free Corps unit template now 9x INF (up from 5x INF)"
+  },
+  {
+   "k": "q334r5",
+   "en": "states that side with the Loyalists in the US fascist civil war will now spawn local volunteers"
+  },
+  {
+   "k": "onb77x",
+   "en": "Expand the USMC focus now gives research bonuses to Marines II and Marines III"
+  },
+  {
+   "k": "cfe5p1",
+   "en": "reduced sub and surface detection values for vanilla ships to be more in line with MtG values"
+  },
+  {
+   "k": "p7p45k",
+   "en": "rebalanced the speed of destroyers, light cruisers, and battleships in vanilla to be more in line with MtG ships"
+  },
+  {
+   "k": "10bcnqf",
+   "en": "changed a number of stat inconsistencies in vanilla ship models"
+  },
+  {
+   "k": "1uok9y8",
+   "en": "the War Powers Act in the US tree now allows the US to form its own faction"
+  },
+  {
+   "k": "1t3jmsw",
+   "en": "Reduced the effectiveness of GiE legitimacy gain decisions to one-quarter of what they were."
+  },
+  {
+   "k": "5mjde5",
+   "en": "fixed ships are going faster than intended"
+  },
+  {
+   "k": "tzd2m3",
+   "en": "Split ground and naval AA defines, and reverted the ground AA chance to hit back to its original value, so that ground AA is no longer overpowered."
+  },
+  {
+   "k": "rmatww",
+   "en": "increased hit chance of torpedo"
+  },
+  {
+   "k": "n5lk4o",
+   "en": "doubled hit chance of depth charges"
+  },
+  {
+   "k": "1w85btb",
+   "en": "tripped depth charge damage"
+  },
+  {
+   "k": "ujsd3d",
+   "en": "halved light gun attack of convoys"
+  },
+  {
+   "k": "slrvh",
+   "en": "lowered AA attack of convoys by 75%"
+  },
+  {
+   "k": "1wi31im",
+   "en": "lowered IC cost on radar and sonar for all tech levels"
+  },
+  {
+   "k": "1bm1nzn",
+   "en": "added taking sub visibility into account for naval strike"
+  },
+  {
+   "k": "dfw42h",
+   "en": "reduced the impact of deep ocean on destroyer, light cruisers, and subs"
+  },
+  {
+   "k": "10b2wok",
+   "en": "a/b/c/d and e/f/g/h British destroyers now start the game with sonar 1"
+  },
+  {
+   "k": "1skyvki",
+   "en": "reduced snorkel 1 to a 10% visibility reduction and snorkel 2 to a 20% visibility reduction"
+  },
+  {
+   "k": "17kppct",
+   "en": "naval mission efficiency will now go even lower if you don't have enough ships/taskforces for the assigned regions"
+  },
+  {
+   "k": "1oyn51l",
+   "en": "Nationalist Spain will not lose the \"recovering from the Civil War\" national spirit in historical focus mode, thus preventing them from joining the war"
+  },
+  {
+   "k": "hotlqc",
+   "en": "Atlantic Fleet Designer now adds 10% HP to Carriers"
+  },
+  {
+   "k": "16ovcr4",
+   "en": "Armor upgrade for Carriers now adds 1% HP per level (non-MtG only)"
+  },
+  {
+   "k": "g34e5h",
+   "en": "research companies research bonus 10% to 15%"
+  },
+  {
+   "k": "e6nymp",
+   "en": "doctrine ministers research bonus 7% to 10% and 10% to 15%"
+  },
+  {
+   "k": "17vncq9",
+   "en": "electron mechanical engineering research bonus 2% to 3%"
+  },
+  {
+   "k": "6ksxa1",
+   "en": "mechanical computer research bonus 3% to 4%"
+  },
+  {
+   "k": "g4xduj",
+   "en": "computing machine research bonus 3% to 5%"
+  },
+  {
+   "k": "1cm1vf2",
+   "en": "improved computing machine research bonus 5% to 8%"
+  },
+  {
+   "k": "1nsotlt",
+   "en": "advanced computing machine research bonus 5 to 8%"
+  },
+  {
+   "k": "1h2chfw",
+   "en": "focus: give refuge to scientist research bonus 3% to 5%"
+  },
+  {
+   "k": "1e6uznw",
+   "en": "Japanese Ultimate Battleship Focus now provides a free Super Heavy Battleship template and two ships of that template in various stages of completion for owners of MtG"
+  },
+  {
+   "k": "1peehab",
+   "en": "reduced fuel consumption in defensive combat (being in combat while not moving) to 1x"
+  },
+  {
+   "k": "1ky025z",
+   "en": "fuel flow through supply chunks that has reduced supply flow due to \"Control of incoming edge provinces\" will now ignore 50% of that penalty"
+  },
+  {
+   "k": "12krpwo",
+   "en": "Protected against ping-ponging Soviet AI strategy when surrender level Germany is around 10%."
+  },
+  {
+   "k": "1y3pjri",
+   "en": "Auto balance task force action now assigns an insignia to the created task forces"
+  },
+  {
+   "k": "qr3kij",
+   "en": "Added a naval mission indicator on top of the task force insignia in the navy theater and fleet bottom bar"
+  },
+  {
+   "k": "17s1n0x",
+   "en": "Added a number of tooltips and updates to research descriptions explaining the effects and intended uses of various modules to the tech tree"
+  },
+  {
+   "k": "vaj1t1",
+   "en": "Clarified the tooltip for convoy escort"
+  },
+  {
+   "k": "wz1caw",
+   "en": "enabled small battle reports icon for showing displaying battle reports of a ship"
+  },
+  {
+   "k": "gkrtu3",
+   "en": "Most task forces now get assigned an insignia reflecting their role or composition at game start"
+  },
+  {
+   "k": "6jtl2j",
+   "en": "Canceling a mission or setting the mission to Hold for a task force will now make it return to port as well as cancel its current mission. The old behavior where the task force stays put can now be achieved by using Ctrl+Click on the Hold order button or with the shortcut Ctrl+H"
+  },
+  {
+   "k": "134902p",
+   "en": "Added a shortcut to the ship designer from the ship stat view"
+  },
+  {
+   "k": "1hq6cug",
+   "en": "The ship designer now shows the refit cost from the parent design"
+  },
+  {
+   "k": "nk1h5d",
+   "en": "Splitting a task force copy the insignia settings to the created one"
+  },
+  {
+   "k": "j68an0",
+   "en": "Enabled splitting task forces when multiple are selected"
+  },
+  {
+   "k": "c1fia2",
+   "en": "Timeout added for naval accident reports of training and mine accidents"
+  },
+  {
+   "k": "nnmgb4",
+   "en": "the US Arsenal of Democracy focus should now display the correct rewards after being finished (correct rewards were already issued)"
+  },
+  {
+   "k": "19n6211",
+   "en": "fixed a missing word in a tooltip"
+  },
+  {
+   "k": "uee1ts",
+   "en": "Use the sprite of the dockyard with the wrench in the naval repair window"
+  },
+  {
+   "k": "uvs2fu",
+   "en": "Added the ability to increment or decrement the desired number of ship in the task force composition editor by 5 or 10 based on the modifier keys shift and control being held down"
+  },
+  {
+   "k": "55fkhm",
+   "en": "Japan demanding overlordship of colonies event should now properly refer to Japan, rather than the recipient's country."
+  },
+  {
+   "k": "2f24fn",
+   "en": "Added tooltips to Reach Out Across the Channel and For the Common Good focuses."
+  },
+  {
+   "k": "1c99pbf",
+   "en": "Fixed incorrect news event picture for the end of the German civil war."
+  },
+  {
+   "k": "1uc8gy9",
+   "en": "fixed round_temp_variable not updating temp vars during tooltips"
+  },
+  {
+   "k": "1fcupkv",
+   "en": "fixed naval repair window not reading correct province names"
+  },
+  {
+   "k": "1qd1l2f",
+   "en": "fixed a tooltip problem in construction view"
+  },
+  {
+   "k": "lyh0u0",
+   "en": "fixed clamp_temp_variable not updating temp vars during tooltips"
+  },
+  {
+   "k": "3bg6kb",
+   "en": "Added a yellow glow button to on map mission buttons to use for warning"
+  },
+  {
+   "k": "1dal124",
+   "en": "Added mine laying and mine sweeping icons to navy_icons.dds and highlight"
+  },
+  {
+   "k": "1pld41t",
+   "en": "Fixed overlapping text in Ally the Dominions news events."
+  },
+  {
+   "k": "1kw4rzr",
+   "en": "Show warning on mission icon when a task force seems ill-fitted for the task."
+  },
+  {
+   "k": "htgby0",
+   "en": "Use two decimal places for the modifier legitimacy_daily"
+  },
+  {
+   "k": "16ibav",
+   "en": "Changed icons of torpedo unlocks to feel more logical"
+  },
+  {
+   "k": "10nnp8u",
+   "en": "updated speed tooltip in ship designer to be consistent with the new naval combat system"
+  },
+  {
+   "k": "1rw05uz",
+   "en": "fixed a research bonus tooltip with ahead of penalty bonus"
+  },
+  {
+   "k": "ha3jlz",
+   "en": "fixed fuel icon not properly aligned to frames"
+  },
+  {
+   "k": "1cbb3i3",
+   "en": "fixed a duplicate event option in a news event"
+  },
+  {
+   "k": "3zr5wq",
+   "en": "Added strike force status to the tooltip shown when hovering hover a spotted or engaged enemy"
+  },
+  {
+   "k": "1ewo996",
+   "en": "Anti-Communist Crusader trait now correctly displays the right icon"
+  },
+  {
+   "k": "jdwpxh",
+   "en": "Minor text edit to Depillarization focus."
+  },
+  {
+   "k": "1ieqc0s",
+   "en": "fixed text overflow in US war powers act news event"
+  },
+  {
+   "k": "12zsn1z",
+   "en": "fixed a number of typos"
+  },
+  {
+   "k": "196p2r7",
+   "en": "Fixed Benelux formation news event properly referring to Netherlands' original name, rather than the new Benelux name."
+  },
+  {
+   "k": "52nn2v",
+   "en": "It is now possible to select a theater as a deployment target which will put the newly created ships in that theater's reserve fleet"
+  },
+  {
+   "k": "6sdt06",
+   "en": "Now showing the task force insignia when selecting a task force as deployment target"
+  },
+  {
+   "k": "8bo2y6",
+   "en": "Finnish neutrality party was renamed"
+  }
+ ]
+}

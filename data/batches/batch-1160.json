@@ -1,0 +1,842 @@
+{
+ "batch": 1160,
+ "pages": [
+  "Air combat"
+ ],
+ "chars": 14994,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "3hsdt2",
+   "en": "⟦0⟧ is generally simulated every ⟦1⟧⟦2⟧ hours (at 08:00, 16:00, and 24:00 local time). Each of the following phases is completed from the perspective of each country before the next phase begins.",
+   "frags": 3
+  },
+  {
+   "k": "1mfxar5",
+   "en": "Air combat"
+  },
+  {
+   "k": "762tfz",
+   "en": "Air to air combat phase"
+  },
+  {
+   "k": "6graq0",
+   "en": "In this phase, own air wings will try to attack all enemy air wings operating in the same air region, both by directly ⟦0⟧ them and in the case of enemy air wings on ground missions ⟦1⟧ them. Enemy countries are any that this country or the host country of air volunteers) is at war with.",
+   "frags": 2
+  },
+  {
+   "k": "ow1q3f",
+   "en": "damaging"
+  },
+  {
+   "k": "1s1lcut",
+   "en": "also disrupting"
+  },
+  {
+   "k": "jz54rd",
+   "en": "Sub-phase 1: Detection"
+  },
+  {
+   "k": "16ujwgg",
+   "en": "The number of friendly planes that can attack is at most ⟦0⟧ the number of detected enemy planes, so good detection is important to fully utilize available air wings, especially when the enemy has fewer planes.",
+   "frags": 1
+  },
+  {
+   "k": "afgpm5",
+   "en": "3x⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "dcwuix",
+   "en": "The detection chance determines the percentage of enemy planes in an air region that will be visible. It depends on multiple factors:"
+  },
+  {
+   "k": "ssc7ub",
+   "en": "The following factors are additive:"
+  },
+  {
+   "k": "u7vqb9",
+   "en": "Occupation: Occupying land in the strategic region enables spotting planes from the ground and yields a chance of up to ⟦0⟧ (when controlling the whole region).",
+   "frags": 1
+  },
+  {
+   "k": "zqzdby",
+   "en": "Radar: Radar coverage yields up to ⟦0⟧ detection chance (at full radar coverage)",
+   "frags": 1
+  },
+  {
+   "k": "16av3fq",
+   "en": "Air missions: Planes operating in the region yield up to ⟦0⟧ detection chance (with 3000⟦1⟧ planes, non-fighters only count at ⟦2⟧⟦3⟧ efficiency)",
+   "frags": 4
+  },
+  {
+   "k": "ucj0s2",
+   "en": "Then, depending on the time of day and weather, detection is reduced:"
+  },
+  {
+   "k": "zjzyks",
+   "en": "Night-time: modifies detection by ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "167z3ut",
+   "en": "Bad weather: modifies detection by up to ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "19sgfwt",
+   "en": "Finally the number of visible planes is further modified by the following situational factors:"
+  },
+  {
+   "k": "r7ezcz",
+   "en": "If the enemy side includes both ground missions and superiority (escorting) fighters, the latter will be ⟦0⟧. The fighters and bombers don't need to be from the same enemy country.",
+   "frags": 1
+  },
+  {
+   "k": "1kh46dl",
+   "en": "fully visible"
+  },
+  {
+   "k": "1v8pf1q",
+   "en": "Regular bombers on strategic bombing mission and carrier-based bombers can reduce their visibility with the \"Strategic bombing visibility\" modifier (e.g., from the ⟦0⟧ ⟦1⟧).",
+   "frags": 2
+  },
+  {
+   "k": "1w5oypk",
+   "en": "Infiltration Bombing"
+  },
+  {
+   "k": "uvjsof",
+   "en": "air doctrine"
+  },
+  {
+   "k": "bgtuu6",
+   "en": "Planes on close air support mission are twice as visible, though cannot have more than 100% visibility."
+  },
+  {
+   "k": "cgcm67",
+   "en": "Planes on port strikes are ten times more visible, though cannot have more than 100% visibility."
+  },
+  {
+   "k": "mpjinc",
+   "en": "Air wings sortie in descending order of air attack and agility against detected enemies, meaning more capable air wings get priority if not all planes get to participate due to limited enemy visibility."
+  },
+  {
+   "k": "1tycu4o",
+   "en": "The planes of each sortieing wing are allocated against enemy wings proportional to their visibility (against all wings for damage and against ground missions also for disruption)."
+  },
+  {
+   "k": "16o6xtm",
+   "en": "For example, if eight full wings of fighters and one CAS wing (double visibility) face an equal opponent under full detection, each wing will send 10 planes against each enemy fighter wing and 20 against the enemy CAS wing. At lower detection, the CAS wing would face fewer attackers, while the escorting fighters retain full visibility. At even lower detection (~30%), visibility would be limited enough that some planes would not be able to attack anymore, starting with the CAS and then the fighter wings with the worst stats."
+  },
+  {
+   "k": "1dnfmri",
+   "en": "Sub-phase 2: Damage"
+  },
+  {
+   "k": "1gij3yq",
+   "en": "Unless the defender's air defense is zero, the number of planes destroyed is:"
+  },
+  {
+   "k": "1ee9llw",
+   "en": "Planes destroyed = max ( ( base damage − agility mitigation + bonus from relative speed + bonus from absolute speed ) ⋅ 0.01 ⋅ carrier factor air defense , 0.001 ) {\\displaystyle {\\text{Planes destroyed}}=\\max \\left({\\frac {\\left({\\text{base damage}}-{\\text{agility mitigation}}+{\\text{bonus from relative speed}}+{\\text{bonus from absolute speed}}\\right)\\cdot 0.01\\cdot {\\text{carrier factor}}}{\\text{air defense}}},0.001\\right)}"
+  },
+  {
+   "k": "pxkvhi",
+   "en": "Where:"
+  },
+  {
+   "k": "uctxg7",
+   "en": "If the defender's air defense is zero, all planes are destroyed."
+  },
+  {
+   "k": "1g0im6p",
+   "en": "Sub-phase 3: Disruption"
+  },
+  {
+   "k": "19d8c0c",
+   "en": "Finally, air wings on air superiority or interception mission will disrupt enemy air wings on ground missions.The following components contribute to the final disruption value:"
+  },
+  {
+   "k": "yvj0do",
+   "en": "⟦0⟧: attacker's agility multiplied by 0⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "larh7",
+   "en": "agility factor"
+  },
+  {
+   "k": "1ddw1tz",
+   "en": "⟦0⟧: attacker's attack multiplied by 0⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1he5gyw",
+   "en": "attack factor"
+  },
+  {
+   "k": "107n0oe",
+   "en": "⟦0⟧: attacker's speed divided by 800⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "bp7m03",
+   "en": "speed factor"
+  },
+  {
+   "k": "1q0q2gw",
+   "en": "⟦0⟧: detection chance multiplied by 1⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "rd4bvz",
+   "en": "detection factor"
+  },
+  {
+   "k": "1hw8e6n",
+   "en": "⟦0⟧: 4⟦1⟧ for normal and 6⟦2⟧ for carrier combat (if ⟦3⟧ the attacker and defender are carrier wings)",
+   "frags": 4
+  },
+  {
+   "k": "kwy6vq",
+   "en": "carrier factor"
+  },
+  {
+   "k": "1t2fhya",
+   "en": "both"
+  },
+  {
+   "k": "430n3w",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\text{Disruption} = \\text{number of attackers} \\cdot (1 + \\text{agility factor}) \\cdot (1 + \\text{attack factor}) \\cdot (1 + \\text{speed factor}) \\cdot (1 + \\text{detection factor}) \\cdot \\text{carrier factor}}"
+  },
+  {
+   "k": "1radngt",
+   "en": "In practice, this turns out to be:"
+  },
+  {
+   "k": "f87bri",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\text{Disruption} = \\text{number of attackers} \\cdot (1 + \\text{speed factor}) \\cdot (1 + \\text{detection chance}) \\cdot \\text{carrier factor}}"
+  },
+  {
+   "k": "55vmzb",
+   "en": "This makes detection critical for disruption as it increases both the number of fighters acting against enemy bombers as well as the disruption effect of each individual one."
+  },
+  {
+   "k": "c2mpsg",
+   "en": "Escort and equipment loss phase"
+  },
+  {
+   "k": "1ffa3l7",
+   "en": "Here the aftermath of the previous phase is tallied"
+  },
+  {
+   "k": "qymmou",
+   "en": "Sub-phase 1: Protection from escorts"
+  },
+  {
+   "k": "109ygyh",
+   "en": "Fighters on air superiority/escort mission counteract the disruption that bombers received from the enemy in the disruption phase. Bombers of allied countries don't get escorted. The following components contribute to the escort's disruption reduction:"
+  },
+  {
+   "k": "1w5eioj",
+   "en": "base: 2⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "g3g5sr",
+   "en": "speed factor: speed divided by 800⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1ynvhhi",
+   "en": "agility factor: agility divided by 100⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "d77bjc",
+   "en": "attack factor: attack divided by 100⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "116t73g",
+   "en": "detection"
+  },
+  {
+   "k": "5h3ca2",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\text{disruption reduction ratio} = \\frac{ 2 \\cdot \\text{number of escorts} \\cdot \\left(1 + \\text{speed factor} \\right) \\cdot \\left(1 + \\text{agility factor} \\right) \\cdot \\left(1 + \\text{attack factor} \\right) \\cdot \\left(1 + \\text{detection} \\right) } {\\text{total disruption amount} } }"
+  },
+  {
+   "k": "v1nwec",
+   "en": "This ratio gets removed from the received disruption of all bomber wings. The number of active escort planes is not recalculated for this phase and is used as the last country in the previous phase left it in, causing some countries to have arbitrarily worse escort efficiency."
+  },
+  {
+   "k": "4hj49d",
+   "en": "Sub-phase 2: Losses from air-to-air combat"
+  },
+  {
+   "k": "118tmyt",
+   "en": "Each point of damage received in the previous phase results in the loss of one airplane. Damage is rounded statistically, e.g. 1.2 damage received causes 1 plane to be lost in 80% of combats and 2 planes in 20% of combats resulting in 1.2 average losses per sortie."
+  },
+  {
+   "k": "j4ay0n",
+   "en": "If a wing lost at least one plane and has an ⟦0⟧, there is a chance that they die as a result of the air combat.",
+   "frags": 1
+  },
+  {
+   "k": "gq83e0",
+   "en": "ace"
+  },
+  {
+   "k": "1q04skr",
+   "en": "Ground Mission Phase"
+  },
+  {
+   "k": "14qvm1j",
+   "en": "Finally, planes performing ground missions, such as close air support, strategic bombing etc, will be simulated, assuming they have survived the previous phases. The disruption value calculated from before will now reduce the effectiveness of these missions. Wings may take additional losses in this phase from state, naval, or divisional anti-air."
+  },
+  {
+   "k": "859mih",
+   "en": "All ground missions except para drop and mine planting/sweeping require the selection of a specific target. If multiple missions are selected, they are tried in the following order:"
+  },
+  {
+   "k": "1xk5w70",
+   "en": "close air support"
+  },
+  {
+   "k": "1kb3ia9",
+   "en": "strategic bombing"
+  },
+  {
+   "k": "oubrwk",
+   "en": "naval bomber/kamikaze"
+  },
+  {
+   "k": "1r18crc",
+   "en": "port strike"
+  },
+  {
+   "k": "ktouxq",
+   "en": "air supply"
+  },
+  {
+   "k": "19wgnvf",
+   "en": "Only the first category that produces a valid target is used, but a single wing can handle multiple targets within the same category in one sortie. It is not necessary to split up wings to support multiple land combats for example. But a large naval bomber wing can for example not send any remaining planes on a port strike when another part of the wing executed a naval strike."
+  },
+  {
+   "k": "1t1wmcq",
+   "en": "Night time's \"Ground Bombing Targeting\" modifier (⟦0⟧) causes a corresponding probability of the wing being unable to find their target. They are still subjected to ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "2bf5kk",
+   "en": "Anti-air"
+  },
+  {
+   "k": "a0rfsg",
+   "en": "Sub-phase 1: State anti-air"
+  },
+  {
+   "k": "186cqee",
+   "en": "Strategic bombing, port strike and air supply missions are affected by ⟦0⟧ (AA).",
+   "frags": 1
+  },
+  {
+   "k": "19zpymr",
+   "en": "State Anti-Air"
+  },
+  {
+   "k": "u41yi1",
+   "en": "The probability that a damage event occurs (C) and the number of planes destroyed (D) depend on the following components:"
+  },
+  {
+   "k": "2re0hi",
+   "en": "damage base chance: 10%⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "xorq34",
+   "en": "hit chance modifier: the \"Static Anti Air hit chance factor\" modifier (e.g., ⟦0⟧ each from ⟦1⟧, ⟦2⟧, and ⟦3⟧)",
+   "frags": 4
+  },
+  {
+   "k": "xremd6",
+   "en": "Centimetric Radar"
+  },
+  {
+   "k": "1ljjv0x",
+   "en": "Phased Array"
+  },
+  {
+   "k": "1xo9kk7",
+   "en": "Monopulse Radar"
+  },
+  {
+   "k": "1oshq1i",
+   "en": "a random number R between 0.0% and 100.0%"
+  },
+  {
+   "k": "1smlr53",
+   "en": "damage factor: 80%⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1g0o8bt",
+   "en": "anti-air factor: for air supply missions, the AA value of their target's state (even when that state is friendly) divided by the maximum AA level (5). For the other two mission types, the average AA level in enemy states in the strategic region, divided by the maximum AA level (5)."
+  },
+  {
+   "k": "1s7kaov",
+   "en": "effective number of planes"
+  },
+  {
+   "k": "y3plqy",
+   "en": "damage modifier: the \"Static Anti Air damage factor\" modifier (e.g., ⟦0⟧ each from ⟦1⟧ and ⟦2⟧)",
+   "frags": 3
+  },
+  {
+   "k": "1ykgudy",
+   "en": "Improved Anti-Air"
+  },
+  {
+   "k": "11vm594",
+   "en": "Advanced Anti-Air"
+  },
+  {
+   "k": "1kphxfu",
+   "en": "air wing's defense stat"
+  },
+  {
+   "k": "ks5luc",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle C = 10 \\% \\cdot (1 + \\text{hit chance modifier}) \\cdot \\text{anti-air factor} }"
+  },
+  {
+   "k": "96ar0g",
+   "en": "If R is smaller than C, a hit occurs with the following damage (in number of planes destroyed):"
+  },
+  {
+   "k": "18979pd",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle D = max\\left(1, \\frac{ 0.8 \\cdot \\text{anti-air factor} \\cdot \\text{number of planes} \\cdot R \\cdot (1 + \\text{damage modifier})}{C \\cdot \\text{air wing's defense} }\\right) }"
+  },
+  {
+   "k": "1a20mh1",
+   "en": "Or averaging the random number ⟦0⟧ to ⟦1⟧ :",
+   "frags": 2
+  },
+  {
+   "k": "11edq9z",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle R}"
+  },
+  {
+   "k": "rdtk31",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle C/2}"
+  },
+  {
+   "k": "186brlo",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle D = max\\left(1, \\frac{ 0.4 \\cdot \\text{anti-air factor} \\cdot \\text{number of planes} \\cdot (1 + \\text{damage modifier})}{\\text{air wing's defense} }\\right) }"
+  },
+  {
+   "k": "t5e03v",
+   "en": "Small bomber wings and especially strategic bombers (having high air defense) will be frequently affected by the minimum-one loss."
+  },
+  {
+   "k": "11xyaz7",
+   "en": "Sub-phase 2: Naval and divisional anti-air"
+  },
+  {
+   "k": "7gv7wd",
+   "en": "For air wings on close air support missions, they will have to contend with the enemy divisions' anti-air capabilities. More details are in the relevant section in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1c21qkw",
+   "en": "the air mission article"
+  },
+  {
+   "k": "1ic64ni",
+   "en": "And for air wings on naval/Kamikaze/port strike missions, they will have to contend with the enemy ships' anti-air capabilities. More details are in the relevant section in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "7wxuyg",
+   "en": "the naval battle article"
+  },
+  {
+   "k": "13soqe0",
+   "en": "Sub-phase 3: Disruption negation"
+  },
+  {
+   "k": "qt0jlo",
+   "en": "The ground mission wing can reduce any disruption left over after the escort phase further using its own stats. A factor is calculated from said stats and the disruption value obtained from the previous phases. This final \"disruption damage factor\" tells us how much of the remaining disruption is negated (or \"damaged\"). It uses the following components:"
+  },
+  {
+   "k": "164rk0d",
+   "en": "disruption: value after the escort phase"
+  },
+  {
+   "k": "12z5joc",
+   "en": "defense factor: air wing's defense divide by 200⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "myocas",
+   "en": "attack factor: air wing's attack divided by 200⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "18nhftg",
+   "en": "speed factor: air wing's speed divided by 800⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "t3yrun",
+   "en": "air wing's number of planes (not reduced by mission efficiency)"
+  },
+  {
+   "k": "uht79q",
+   "en": "The factor is defined as:"
+  },
+  {
+   "k": "1uv1okk",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\text{disruption damage factor} = 100 \\% - \\sqrt{\\frac{\\text{disruption}}{10 \\cdot \\text{number of planes} \\cdot (1 + \\text{defense factor}) \\cdot (1 + \\text{attack factor}) \\cdot (1 + \\text{speed factor})}}}"
+  },
+  {
+   "k": "1u1bg7",
+   "en": "The value that gets reported as \"Planes disrupted\" in the statistics of an air region is ⟦0⟧ accumulated over all missions and sorties in the time frame.",
+   "frags": 1
+  },
+  {
+   "k": "1r6umys",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\text{number of planes} \\cdot (1 - \\text{disruption damage factor})}"
+  },
+  {
+   "k": "ubfikf",
+   "en": "⟦0⟧ always have a disruption damage factor of 100%, negating all disruption applied against them.⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "x6qha6",
+   "en": "Guided missiles"
+  },
+  {
+   "k": "1byxumh",
+   "en": "Experience"
+  },
+  {
+   "k": "dwh5an",
+   "en": "Wings executing their missions gain experience for themselves (wing experience) and their country (country ⟦0⟧).",
+   "frags": 1
+  },
+  {
+   "k": "1t5bn15",
+   "en": "air experience"
+  },
+  {
+   "k": "ivemlk",
+   "en": "All wings taking part in air-to-air combat (not just fighters and even if they don't get selected for damage dealing) gain 0.8⟦0⟧ wing experience. This gain gets reduced if there are not enough enemy planes to allow all planes to attack. Wings completing their ground mission gain 0.28⟦1⟧ wing experience.",
+   "frags": 2
+  },
+  {
+   "k": "cb52fw",
+   "en": "All wings taking part in air-to-air combat (as described above) produce 0.0004⟦0⟧ country experience per ⟦1⟧ plane. Additionally, they gain the same amount of experience for each country attacking them. This means an air force getting attacked by multiple countries gets a multiple of experience.",
+   "frags": 2
+  },
+  {
+   "k": "1ddq3g2",
+   "en": "effective"
+  },
+  {
+   "k": "hbotc8",
+   "en": "Country air experience from other missions per effective plane:"
+  },
+  {
+   "k": "1qt7hs2",
+   "en": "Close air support: 0.0005⟦0⟧ (only counting planes actually joining land combats)",
+   "frags": 1
+  },
+  {
+   "k": "z1g05u",
+   "en": "Strategic bombing: 0.0002⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "17ex4nt",
+   "en": "Paradrop: 0.03⟦0⟧ (only counting planes actually needed for drop)",
+   "frags": 1
+  },
+  {
+   "k": "1cvdcic",
+   "en": "If the wing is lacking ⟦0⟧, both types of experience get reduced proportionally. If the wing contains aircraft produced by another country and that country currently sends any lend-lease, it gains up to 50%⟦1⟧ as much country air experience, depending on the proportion of equipment present. This shared experience is not further shared with ⟦2⟧ and does not diminish the experience of the country operating the planes.",
+   "frags": 3
+  },
+  {
+   "k": "112axt9",
+   "en": "Fuel"
+  },
+  {
+   "k": "12szijw",
+   "en": "attachés"
+  },
+  {
+   "k": "55ja69",
+   "en": "Example"
+  },
+  {
+   "k": "1l0u6cm",
+   "en": "The UK has a wing of 100 strategic bombers bombing West Germany at 90% mission efficiency. 40% of the bomber are US-made and the USA still have an active lend-lease to the UK. The bombers get intercepted by German and Italian fighters."
+  },
+  {
+   "k": "bi1w4w",
+   "en": "The UK gains the following country air experience:"
+  },
+  {
+   "k": "jvwecp",
+   "en": "from air-to-air fight: 100 * 90% * 0.001 = +0.09"
+  },
+  {
+   "k": "xagsn0",
+   "en": "from being attacked by Germany: 100 * 90% * 0.001 = +0.09"
+  },
+  {
+   "k": "1lredei",
+   "en": "from being attacked by Italy: 100 * 90% * 0.001 = +0.09"
+  },
+  {
+   "k": "2abcsp",
+   "en": "from strategic bombing: 100 * 90% * 0.0002 = +0.018"
+  },
+  {
+   "k": "1b1etvd",
+   "en": "Total: 0.288"
+  },
+  {
+   "k": "1zwnbv",
+   "en": "The USA get 50% * 40% = 20% of this experience, i.e. 0.0576."
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "69plns",
+   "en": "⟦0⟧ in ⟦1⟧, doubled because of roundtrip.",
+   "frags": 2
+  },
+  {
+   "k": "hn97f3",
+   "en": "NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 4"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "76y7b9",
+   "en": "⟦0⟧ in ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "ipbun2",
+   "en": "NDefines.NAir.COMBAT_MULTIPLANE_CAP = 3"
+  },
+  {
+   "k": "q64bdw",
+   "en": "NDefines.NAir.DETECT_CHANCE_FROM_OCCUPATION = 0.1"
+  },
+  {
+   "k": "znqdoq",
+   "en": "NDefines.NAir.DETECT_CHANCE_FROM_RADARS = 0.5"
+  },
+  {
+   "k": "fzmgep",
+   "en": "NDefines.NAir.DETECT_CHANCE_FROM_AIRCRAFTS = 0.8"
+  }
+ ]
+}

@@ -1,0 +1,922 @@
+{
+ "batch": 993,
+ "pages": [
+  "Patch 1.3.X"
+ ],
+ "chars": 14990,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1edx68e",
+   "en": "⟦0⟧ are all patches beginning with 1.3.",
+   "frags": 1
+  },
+  {
+   "k": "1d7gn3b",
+   "en": "Patch 1.3.X"
+  },
+  {
+   "k": "7ccmk2",
+   "en": "Main article: Patch 1.3"
+  },
+  {
+   "k": "nf2nqn",
+   "en": "1.3.1 is a hotfix which was released on 2016-12-21⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1dwl37d",
+   "en": "Changelog"
+  },
+  {
+   "k": "11eeugk",
+   "en": "Garrison order should now be more stable and not reassign units quite as much on changing priorities"
+  },
+  {
+   "k": "13sz16s",
+   "en": "Allied AI now more hesitant to naval invade Germany and Italy early on"
+  },
+  {
+   "k": "jvbyls",
+   "en": "Fixed some bugs restricting AI from template updates"
+  },
+  {
+   "k": "12ob2me",
+   "en": "Improved some target templates for AI"
+  },
+  {
+   "k": "12gw8pj",
+   "en": "Reduced AI tendency to suicide attack into enemy lines"
+  },
+  {
+   "k": "1wrb0uh",
+   "en": "Fixed a problem in AI where front priorities would sometimes fluctuate wildly leading to a lot of front flip-flopping"
+  },
+  {
+   "k": "1s6dcz8",
+   "en": "AI now considers distance a bit more so wont pull most of its army vs Ethiopia back early on"
+  },
+  {
+   "k": "14xjzip",
+   "en": "AI for observed country is no longer blocked from diplo responding when using human_ai"
+  },
+  {
+   "k": "1uxlg8h",
+   "en": "Improved AIs ability to prepare against enemies that they only have an ally sharing border with"
+  },
+  {
+   "k": "16fw2os",
+   "en": "Spearhead order no longer so concerned about protecting its flanks"
+  },
+  {
+   "k": "1t6ntih",
+   "en": "When a Spearhead front is split, all units stay on the front that has the spearhead order attached to it"
+  },
+  {
+   "k": "rko4l7",
+   "en": "Fixed some event picture issues"
+  },
+  {
+   "k": "qdgtuk",
+   "en": "Made the focus \"Burn the royal portraits\" available if South Africa has already broken free"
+  },
+  {
+   "k": "ignwck",
+   "en": "Fixed some setup issues with NZL tech setup in 1939"
+  },
+  {
+   "k": "1brmgb4",
+   "en": "added cosmetic tag for Soviet-controlled Finland"
+  },
+  {
+   "k": "k73zcg",
+   "en": "changed national focus to Test the USSR for Japan to account for Manchukuo existing"
+  },
+  {
+   "k": "vrz0xr",
+   "en": "Fixed a CTD in peace conferences"
+  },
+  {
+   "k": "1o1hyik",
+   "en": "Fixed an issue with map stripe coloring not updating in peace conferences"
+  },
+  {
+   "k": "13nf5ax",
+   "en": "Fixed some issues with credits"
+  },
+  {
+   "k": "f0vi7v",
+   "en": "Shortcut for spearhead order is now Shift+X rather than B which was conflicting with strategic redeployment"
+  },
+  {
+   "k": "11zj19n",
+   "en": "CTD Fix: Launcher no longer has msaa and anisotropic filtering that could cause crashes."
+  },
+  {
+   "k": "1u583gq",
+   "en": "CTD Fix: if player deleted a mod while launcher was running, and then selected it"
+  },
+  {
+   "k": "1chzcdh",
+   "en": "CTD Fix: Should no longer crash in GUI if a modder deletes the vanilla window component"
+  },
+  {
+   "k": "gsa9tg",
+   "en": "CTD Fix: Sometimes when hotjoining using manual server ID"
+  },
+  {
+   "k": "1o0yfkq",
+   "en": "CTD Fix: When using old saves or incompatible mods due to naval base positioning"
+  },
+  {
+   "k": "1gdhd1a",
+   "en": "CTD Fix: Tooltiping lend lease as it finishes could cause crashes"
+  },
+  {
+   "k": "2m08ls",
+   "en": "Fixed a crash on load with invalid mods, NOT a complete fix, its something we are looking into more for future update to help players clear their document folder of invalid cache files and corruption."
+  },
+  {
+   "k": "19hvdpk",
+   "en": "Launcher: Added a button (and a checkbox in crash report window), that offers to backup and delete all files that can potentially cause the stability problems."
+  },
+  {
+   "k": "vtyqg4",
+   "en": "Optimized ai processing of upgrades, should remove much of 1940+ performance spikes"
+  },
+  {
+   "k": "ic0f3y",
+   "en": "A fix for a trade modifier not applied correctly if not bought the DLC."
+  },
+  {
+   "k": "jp12vi",
+   "en": "Fix for RAJ Famine removal not really needing corruption squashing"
+  },
+  {
+   "k": "18mxxta",
+   "en": "Fix for Mexico Civil War inconsistencies"
+  },
+  {
+   "k": "1fea0x1",
+   "en": "Fix for missing SAF factories from focus"
+  },
+  {
+   "k": "x6dyxk",
+   "en": "Fix for missing INS convoys causing issues with trade/resource system"
+  },
+  {
+   "k": "n7ucwo",
+   "en": "Fix for missing event in CAN focus tree"
+  },
+  {
+   "k": "ggp7yy",
+   "en": "Fix for RAJ being able to pick ideology pushers without picking a path"
+  },
+  {
+   "k": "1fckxcj",
+   "en": "Fix for South Africa releasing African countries as not communist in the anti-colonialist crusade"
+  },
+  {
+   "k": "14ruu84",
+   "en": "Fixed modifier capped 0-1, so you could never lower tension for sending volunteers for a country."
+  },
+  {
+   "k": "1vtcib2",
+   "en": "Fixed script that used values outside the intended range"
+  },
+  {
+   "k": "v8ioa8",
+   "en": "Added port to Lesser Sundra Islands."
+  },
+  {
+   "k": "1js024y",
+   "en": "1.3.2 is a hotfix which was released on 2017-01-17⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "5uvfqb",
+   "en": "e13a"
+  },
+  {
+   "k": "1tcyzv9",
+   "en": "Fixed CTD when double clicking the first factory in a line superduperfast to reset factories"
+  },
+  {
+   "k": "1slr93d",
+   "en": "AI now much better at respecting airbase size limits"
+  },
+  {
+   "k": "qhnxvo",
+   "en": "Improved AI management of air missions"
+  },
+  {
+   "k": "e8f5f2",
+   "en": "Deployment is now allowed in locations where it supposed to, regardless if your capital state is not owned by you."
+  },
+  {
+   "k": "10mrid0",
+   "en": "Fixed huge slow down and eternal freeze in the peace conference."
+  },
+  {
+   "k": "r5puee",
+   "en": "Lowered air combat delay so that some areas will still see combat even though caught in extreme time zones."
+  },
+  {
+   "k": "1n8ju1v",
+   "en": "Crusader Kings 2 achievement now requires correct states"
+  },
+  {
+   "k": "30x3yj",
+   "en": "Rebalanced air combat for increased air casualties"
+  },
+  {
+   "k": "y6ak",
+   "en": "Air accidents should no longer happen in peacetime"
+  },
+  {
+   "k": "1rqhyfw",
+   "en": "Added CTD safety for voice over playing in case player has some broken sound drivers"
+  },
+  {
+   "k": "1pem76e",
+   "en": "Fixed potential CTD in clearing country resources on civil war starts"
+  },
+  {
+   "k": "ojvbik",
+   "en": "Fixed a manpower transfer issue causing units to disappear after peaceful annexation (like the Anchluss)"
+  },
+  {
+   "k": "e5i450",
+   "en": "Fixed issue with Australia demanding New Zealand causing Australia to be kicked out of any faction it is currently in"
+  },
+  {
+   "k": "u49qvl",
+   "en": "Fixed two typos in Indian focus tree/ideas"
+  },
+  {
+   "k": "lw0xnc",
+   "en": "Tech tree now refresh after switching tag (when choosing to play as new puppet) which made some achievements tricky"
+  },
+  {
+   "k": "cn6wva",
+   "en": "Transfer ship effect (like in NZL focuses) no longer sometimes transfers wrong ships (or whole fleets :D)"
+  },
+  {
+   "k": "9gwbxt",
+   "en": "French language translation fixes."
+  },
+  {
+   "k": "1v0idou",
+   "en": "Fix for Crusader Kings 2 achievement. Flags are now set from events granting them immediate freedom."
+  },
+  {
+   "k": "1d5coau",
+   "en": "Added script flags for Crusader Kings 2 achievement if SAF chooses to puppet nations."
+  },
+  {
+   "k": "17jqvbs",
+   "en": "Mil to Civ factory conversion now properly removes the military factory."
+  },
+  {
+   "k": "bwutae",
+   "en": "Japan now creates own faction and adds New Zealand to it for befriend Japan focus."
+  },
+  {
+   "k": "169il43",
+   "en": "Changed trigger for Befriend Japan to require same ideology."
+  },
+  {
+   "k": "2p13jp",
+   "en": "Only create wargoal on AST if ideology differs."
+  },
+  {
+   "k": "q66j9h",
+   "en": "Fixed has_goverment trigger doing the opposite of what it was supposed to."
+  },
+  {
+   "k": "1vx7yiu",
+   "en": "JAP will only create faction if not already in a faction."
+  },
+  {
+   "k": "1exrxm9",
+   "en": "AST will join JAP if JAP already leader of faction. AST cannot befriend JAP if JAP is in another faction."
+  },
+  {
+   "k": "114571h",
+   "en": "Fixed an issue where in civil wars the dynamic tag side would end up with no manpower in their divisions and get them disbanded"
+  },
+  {
+   "k": "f09djt",
+   "en": "1.3.3 is a patch which was released on 2017-02-23⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1a3h6c5",
+   "en": "2dd2"
+  },
+  {
+   "k": "6gifme",
+   "en": "Italy AI should now be better at picking proper units to fight in Ethiopia."
+  },
+  {
+   "k": "oam8hw",
+   "en": "AI is now inclined to ignore non-dangerous fronts while at war."
+  },
+  {
+   "k": "1fmhm72",
+   "en": "Battle plan AI should no longer \"forget\" units assigned to attack order."
+  },
+  {
+   "k": "8shrwa",
+   "en": "Made AI better at dynamically evaluating level of preparation to attack based on expected enemy strength."
+  },
+  {
+   "k": "lznogg",
+   "en": "AI should no longer be able to give units ridiculously long retreat or move orders while they are in combat."
+  },
+  {
+   "k": "zptmpe",
+   "en": "The AI should now be a lot better at handling a surrounded enemy capital."
+  },
+  {
+   "k": "17an4fa",
+   "en": "AI is less spammy with call to arms and join war requests."
+  },
+  {
+   "k": "9msl1c",
+   "en": "Battle plan AI unit distribution should now be more stable (though even further improvements would be good)."
+  },
+  {
+   "k": "1nk8x08",
+   "en": "AI will no longer declare wars on countries that control no territory, even if they technically exist in a limbo while their faction have not lost a war."
+  },
+  {
+   "k": "nckioe",
+   "en": "The AI should now be managing its theaters better."
+  },
+  {
+   "k": "1xdpj5z",
+   "en": "AI will now start considering buildup of military constructions after a while, even if peaceful and not directly threatened."
+  },
+  {
+   "k": "1bfsucv",
+   "en": "Naval AI will now attempt to use strike fleets to aid in coastal land combats if they are not on a mission to aid in a naval combat."
+  },
+  {
+   "k": "1i8obv6",
+   "en": "Some minor AI optimizations."
+  },
+  {
+   "k": "1mdsxwi",
+   "en": "AI occupation policy is now scriptable, though no scripts for this has been added."
+  },
+  {
+   "k": "2xzhy4",
+   "en": "Repaired a mistake in AI diplo for offering someone to join their faction. Threat from wrong side was used when looking at acceptance."
+  },
+  {
+   "k": "fj221q",
+   "en": "Made sure AI considers org when performing naval invasions."
+  },
+  {
+   "k": "wrh910",
+   "en": "Eat your vegetables before you get dessert: AI will no longer be declaring wars or justifying claims while in a losing war."
+  },
+  {
+   "k": "1pfw3d3",
+   "en": "The AI can now build any scripted building that is a part of an established building category."
+  },
+  {
+   "k": "f6htvk",
+   "en": "Made sure AI can not send parts of equipment. Half a ship is not particularly useful."
+  },
+  {
+   "k": "1cuqzc7",
+   "en": "Fixed a serious issue where AI would never counter resistance with area defense orders, completely ignoring conquered territory."
+  },
+  {
+   "k": "11czc4c",
+   "en": "AI is now less nervous about neighbors fighting a common enemy and not losing."
+  },
+  {
+   "k": "5yiqug",
+   "en": "Purged unit_base, as it did nothing apart from making scripting harder. unit_ratio is now the end all an be all of unit production in the scripting, and setting it to anything but a positive value will make the AI NOT build it."
+  },
+  {
+   "k": "hgkpdb",
+   "en": "AI will now remove deployment lines for types it has reached its wanted number for."
+  },
+  {
+   "k": "175vdvl",
+   "en": "Improved the code behind AI template design, so the scripting should make more sense now."
+  },
+  {
+   "k": "21yq2g",
+   "en": "Minor tweaks to terrain prio when drawing fallback line which should make the go for mountains more."
+  },
+  {
+   "k": "1t6inl2",
+   "en": "Battle plan AI is now capable of finding more complex paths to front position."
+  },
+  {
+   "k": "1mnukt3",
+   "en": "Some balancing to construction AI focused on improving military industry production."
+  },
+  {
+   "k": "xwhp7d",
+   "en": "Made AI better at calculating supply use when deciding how many divisions it can field."
+  },
+  {
+   "k": "1iguk98",
+   "en": "Made sure AI is not blocked from researching, even if only crap is left. Script can still set AI desire to 0 to block it."
+  },
+  {
+   "k": "1iymmtg",
+   "en": "Improved naval AI region evaluation and made it better at reacting more efficiently to changing situations."
+  },
+  {
+   "k": "k5k6gc",
+   "en": "AI now considers reinforcement priority for volunteer theater."
+  },
+  {
+   "k": "c9nx3s",
+   "en": "Improved deployment AI to manage lines better and improved calculation of desired number of divisions."
+  },
+  {
+   "k": "1q64n3v",
+   "en": "Added ai_strategy type 'support' that can be used to manipulate a countries desire to send lend lease to another country."
+  },
+  {
+   "k": "je2t9t",
+   "en": "Added will_lead_to_war_with when Germany demands Sudetenland. Makes AI prepare for a possible war."
+  },
+  {
+   "k": "1wfpaa7",
+   "en": "Improvements for air AI airwings picking and distribution"
+  },
+  {
+   "k": "shzow3",
+   "en": "Now air AI considers AA while prioritizing strategic bombing and defense operations"
+  },
+  {
+   "k": "ghtc5",
+   "en": "AI should no longer be so happy on naval construction over military when it had also alot of civilian industry (hello USA)"
+  },
+  {
+   "k": "1x81j9y",
+   "en": "AI can now reprioritize production lines in a few cases to deal with resource lack"
+  },
+  {
+   "k": "1pg4sjm",
+   "en": "AI us now makes use of more civilian factories when needed for trade"
+  },
+  {
+   "k": "azmvcl",
+   "en": "fixed a case where AI would get sidetracked when designing divisions of specific country type and instead attempt to make generic ones"
+  },
+  {
+   "k": "106yc3s",
+   "en": "added \"ai_priority\" on battalion types that get calculated by template, ai uses these rather than the visual representation to manage its divisions"
+  },
+  {
+   "k": "cmajtf",
+   "en": "AI is now able to send old equipment as lend lease not just its newest"
+  },
+  {
+   "k": "1wv2gsu",
+   "en": "AI can now cancel lend leases it can no longer afford or with nations it no longer make sense"
+  },
+  {
+   "k": "1w596z5",
+   "en": "made AI more careful with its stockpile and who to lend lease to"
+  },
+  {
+   "k": "k0ow64",
+   "en": "improved logic for AI's lend leasing"
+  },
+  {
+   "k": "wqb68i",
+   "en": "fixed issue where a big difference in scoring of combat width could make AI refuse to upgrade its divisions"
+  },
+  {
+   "k": "1q4q1mb",
+   "en": "USA should now lend lease soviets when they are in trouble if they have sufficient spare stockpile"
+  },
+  {
+   "k": "1e4nah3",
+   "en": "\"support\" ai strategy now lets nations lend lease away some of their stockpile buffer too"
+  },
+  {
+   "k": "17f5zx1",
+   "en": "fixed a case where AI would fail to deploy its main invasion protect fleet completely if some of the areas were out of range"
+  },
+  {
+   "k": "1mqyl8b",
+   "en": "fixed AI invadability evaluation sometimes failing on naval path checking"
+  },
+  {
+   "k": "fcb11j",
+   "en": "fixed a case where AI would try to split off fleets when it was not valid"
+  },
+  {
+   "k": "ny35bk",
+   "en": "fixed a case where AI would spam invalid naval moves"
+  },
+  {
+   "k": "18b27ke",
+   "en": "added equipment_stockpile ai strategy that lets you affect how much stockpile ai feels it needs"
+  },
+  {
+   "k": "1qojnch",
+   "en": "all nations with many divisions will now attempt to accumulate bigger stockpiles for safety"
+  },
+  {
+   "k": "1ga31dz",
+   "en": "Fixed several cases where overflow of calcualted priorities could make AI do the opposite of what it wanted to do"
+  },
+  {
+   "k": "17ak63p",
+   "en": "Now air ai calls recalculation of air priorities on joining a war"
+  },
+  {
+   "k": "thettk",
+   "en": "fixed an issue where air AI would fail to assign mission if the only acceptable one was interception"
+  },
+  {
+   "k": "xjzu8r",
+   "en": "fixed a case where Japan would ASK to join germanys wars despite doing badly with china"
+  },
+  {
+   "k": "8i5yc2",
+   "en": "nations with restrictive modifiers for joining factions (japan) now super careful about accepting calls to arms to majors (soviet) when still at war with major neighbors (china)"
+  },
+  {
+   "k": "1gkgcja",
+   "en": "ai should now no longer get stuck on super large trades and better fulfill its needs (basically skipped the full-trade logic)"
+  },
+  {
+   "k": "ux1baz",
+   "en": "AI now looks for trades in priority order of biggest lack"
+  },
+  {
+   "k": "gtof87",
+   "en": "AI now prefers trade with closer nations if naval transport required"
+  },
+  {
+   "k": "g4hhbp",
+   "en": "AI now likes trading with nations with neutral foreign policy more as they are stable"
+  },
+  {
+   "k": "1dhogfx",
+   "en": "lend lease now automatically cancels when war ends for the receiver"
+  },
+  {
+   "k": "112khd2",
+   "en": "AI is now MUCH better at looking at the equipment cost for switching more templates than just one at a time"
+  },
+  {
+   "k": "1mqe37t",
+   "en": "AI cares about infrastructure way more when placing consctruction"
+  },
+  {
+   "k": "1o6o76w",
+   "en": "AI should no longer go as happy on naval construction over military (was counting ratio also using civilian so got disproportional large naval part)"
+  },
+  {
+   "k": "u9a61c",
+   "en": "AI us now allowed to trade using more civilian factories"
+  },
+  {
+   "k": "100c8px",
+   "en": "Ai should now be much better at going for medium tank divisions. Fixed issues with width being off as well as wrong template being used when evaluatign fitness for changing out lines"
+  },
+  {
+   "k": "1up50r6",
+   "en": "rebalanced ai priorities for medium vs light armor so that ai doesnt get stuck thinking its making light when it isnt"
+  },
+  {
+   "k": "rptsct",
+   "en": "fixed a case where AI was looking at the wrong type when deciding about template upgrades and could get stuck on motorized"
+  },
+  {
+   "k": "v0sv2x",
+   "en": "AI should now show greater interest in researching excavation tech."
+  },
+  {
+   "k": "16e9jgy",
+   "en": "Tweaked templates a bit for majors to avoid getting trapped in subpar targets"
+  },
+  {
+   "k": "10ahu4t",
+   "en": "Allied AI will no longer guarantee Finland if Soviet justifies war on their claims, while Germany is the biggest threat."
+  },
+  {
+   "k": "1kr96c4",
+   "en": "fixed an issue where some scripted ai strategies would not work after updates (it was order dependant)"
+  },
+  {
+   "k": "1yto4zy",
+   "en": "added an AI sanity check to the War with the USSR focus for Germany"
+  },
+  {
+   "k": "a5vjow",
+   "en": "Reduced AI research randomness and improved info in AI research log message"
+  },
+  {
+   "k": "1hla8m7",
+   "en": "Made sure AI considers convoy count and possible delivery route before sending lend lease"
+  },
+  {
+   "k": "16e7p6g",
+   "en": "AI will now leave potentially hostile nations alone for guarantees until they have generated some actual threat giving you 1-2 smaller wars before you are sucked into the ww2 vortex (makes some minors a lot more playable)"
+  },
+  {
+   "k": "y9piyb",
+   "en": "Improved AI trade law logic selection"
+  },
+  {
+   "k": "1pm0xhp",
+   "en": "AI now has a can_upgrade_in_field trigger on templates to give it hints on when to stop producing light tanks and switch over to medium for stuff"
+  },
+  {
+   "k": "148mdw5",
+   "en": "Battleplans are now hidden during the peace conference to not obstruct the view."
+  },
+  {
+   "k": "1e0o11",
+   "en": "Players lagging behind message in multiplayer, is now replaced with an alert (tooltip shows who and how much)."
+  },
+  {
+   "k": "clcqck",
+   "en": "Added alert about having unassigned divisions."
+  },
+  {
+   "k": "1ahhsbs",
+   "en": "Added loading progress bars."
+  },
+  {
+   "k": "1spihzg",
+   "en": "When selecting a division(s), the list of all divisions automatically scrolls to show it."
+  },
+  {
+   "k": "1wqq4ry",
+   "en": "It is possible to hide ALL map counters except your units. Hotkey 'M'."
+  },
+  {
+   "k": "i1z206",
+   "en": "All the message popups that doesn't require the player choice (yes/no/etc), automatically hides after timeout, to not fill the screen with hundreds of windows. Useful when running the \"hands-off\" observing game."
+  },
+  {
+   "k": "1qfcnfu",
+   "en": "Building constructions and conversions now can be added at the top of the queue by holding ctrl and click."
+  },
+  {
+   "k": "f524qu",
+   "en": "Made save game name text field longer."
+  },
+  {
+   "k": "1tuo9kq",
+   "en": "Added stockpiling amount to production screen. Changed text to icons."
+  },
+  {
+   "k": "g6i7oh",
+   "en": "Added tooltip to US \"Destroyers for Bases\" focus to make it clear who gains certain territories"
+  },
+  {
+   "k": "1dxl63v",
+   "en": "Fixed a tooltip for the Australian focus \"A Deal with Japan\" to account for different options of territories transferred"
+  },
+  {
+   "k": "1r44ltm",
+   "en": "Fixed legibility issues in event news.199"
+  },
+  {
+   "k": "1na2qe8",
+   "en": "Fixed a tooltip issue in the SAF focus tree"
+  },
+  {
+   "k": "1mna4q8",
+   "en": "Added dockyard output modifier icon in the production screen"
+  },
+  {
+   "k": "1r5v7pg",
+   "en": "Fixed wrong division flags in the combat screen"
+  },
+  {
+   "k": "10en6v3",
+   "en": "Missiles now count as bombers in the region air screen"
+  },
+  {
+   "k": "74h241",
+   "en": "Fixed issue when multiple army groups was not shown in the volunteer theater groups"
+  },
+  {
+   "k": "dkb21u",
+   "en": "Multiple fixes for trade influence issues with not matching numbers"
+  },
+  {
+   "k": "z10ov6",
+   "en": "Tooltip in the research screen does not show ahead of time penalty if player has 100% ahead of time penalty reduction bonus"
+  },
+  {
+   "k": "15z9tdp",
+   "en": "Minor fix for army group leader tooltip, to match numbers when penalty for too many units applied"
+  },
+  {
+   "k": "1qrv3zj",
+   "en": "Arrows now gets hidden while editing the orders"
+  },
+  {
+   "k": "10kuskw",
+   "en": "Now top bar tooltip for factories also shows damaged ones"
+  }
+ ]
+}

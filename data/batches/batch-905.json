@@ -1,0 +1,943 @@
+{
+ "batch": 905,
+ "pages": [
+  "AI modding"
+ ],
+ "chars": 14942,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "10ivga1",
+   "en": "The artificial intelligence controlling countries in Hearts of Iron IV can be changed in many different aspects. This includes changing the focuses or technologies it pursues, changing how many units or buildings it should produce and of which type, where it should focus forces, which templates or variants it should aim for, and so on."
+  },
+  {
+   "k": "9c2nym",
+   "en": "MTTH blocks"
+  },
+  {
+   "k": "aqyz0g",
+   "en": "MTTH blocks, named in the game within ⟦0⟧, are a way to assign a dynamic value to some block, whether it's a ⟦1⟧, a dynamically-changing variable value (as in ⟦2⟧), a ⟦3⟧, et cetera. As MTTH blocks are spread throughout the entire game, it's incredibly important to know how one works. Its most common application, however, is assigning a base AI weight to a database entry such as a national focus or a technology.",
+   "frags": 4
+  },
+  {
+   "k": "fud0si",
+   "en": "/Hearts of Iron IV/common/mtth/"
+  },
+  {
+   "k": "131spba",
+   "en": "country = { ... } in a focus tree to assign which countries can get it"
+  },
+  {
+   "k": "dimnqo",
+   "en": "mean-time-to-happen value for an event"
+  },
+  {
+   "k": "i221v3",
+   "en": "In most cases, marked with ai_will_do, the approach taken by the game is generating a decimal number between 0 and the value of the ai_will_do block, and picking the entry with the highest value. There can be other modifiers applied after the ai_will_do value, such as the ones applied within ⟦0⟧ towards focuses and research or ⟦1⟧, which'll multiply the value you get. This can include different ai_will_do values such as what's done with country leader traits and with ideas or characters that use them. Event options, instead, use ai_chance, which uses probability-proportional-to-size sampling with a virtual roll of d00 being the final deciding factor. Due to that, in the end, an event option cannot have a probability which isn't a multiple of 1/100 to be picked, although the total sum of each option's weights can be vastly different from 100. In other words, if one option has a value of 1, while the other has a value of 999, the probability for the first option to be picked will be 1% rather than 0.1%.",
+   "frags": 2
+  },
+  {
+   "k": "13rotng",
+   "en": "AI strategy plans"
+  },
+  {
+   "k": "12lxvst",
+   "en": "the ones that get defined within ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "17lz7uy",
+   "en": "A MTTH block begins with an assumed value of 1. Further manipulations are done from that value as a starting point. There are 3 value-modifying arguments that can be done, ⟦0⟧, ⟦1⟧, and ⟦2⟧, done like ⟦3⟧, ⟦4⟧, or ⟦5⟧. ⟦6⟧ adds the specified argument to the value, ⟦7⟧ ⟦8⟧ it, and ⟦9⟧, typically done in the start before any changes, sets it to a different number entirely, akin to multiplying by 0 and adding the number. In order for an operation to apply conditionally, a ⟦10⟧ block is used. This also functions as a ⟦11⟧, with the default scope (thus also ROOT) being the country for which the MTTH block is evaluated. Depending on the MTTH block, ⟦12⟧ ⟦13⟧ The value-modifying arguments function as regular arguments, they can be put in anywhere directly within the ⟦14⟧ block with almost no difference, whether it's in the end, the beginning, or between triggers.",
+   "frags": 15
+  },
+  {
+   "k": "gfk7lg",
+   "en": "add"
+  },
+  {
+   "k": "h5x2oo",
+   "en": "base"
+  },
+  {
+   "k": "pokujq",
+   "en": "factor"
+  },
+  {
+   "k": "u6b4ye",
+   "en": "factor = 0.3"
+  },
+  {
+   "k": "1pdh518",
+   "en": "base = 10"
+  },
+  {
+   "k": "1n2e850",
+   "en": "add = 5"
+  },
+  {
+   "k": "1w9hncp",
+   "en": "multiplies"
+  },
+  {
+   "k": "1xpl1mz",
+   "en": "modifier = { ... }"
+  },
+  {
+   "k": "omg832",
+   "en": "trigger block"
+  },
+  {
+   "k": "n52y1l",
+   "en": "there may be additional scopes marked with FROM"
+  },
+  {
+   "k": "uyakvh",
+   "en": "or FROM.FROM other than the default."
+  },
+  {
+   "k": "p5pbws",
+   "en": "⟦0⟧ can be used within the value-modifying arguments as well. If using a temporary variable that is defined within the ⟦1⟧ trigger block, then the value-modifying argument of the modifier has to be after the definition of the variable in order for the variable to apply as defined. Variables can also be used outside of the ⟦2⟧ block and directly inside of the MTTH block itself.",
+   "frags": 3
+  },
+  {
+   "k": "xqivz6",
+   "en": "Variables"
+  },
+  {
+   "k": "55ja69",
+   "en": "Example"
+  },
+  {
+   "k": "86miwk",
+   "en": "Assuming that GER and FRA are major countries, the result is"
+  },
+  {
+   "k": "wmcgfz",
+   "en": "0 for GER: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1rjkb0p",
+   "en": "10.5 ⋅ 0 = 0 {\\displaystyle 10.5\\cdot 0=0}"
+  },
+  {
+   "k": "1dqwsqz",
+   "en": "74 for FRA: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1obsyqo",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle ((10.5 + 1) \\cdot 3 + 2.5) \\cdot 2 = 74}"
+  },
+  {
+   "k": "1uyow1w",
+   "en": "23 for other majors: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "b7m1j8",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle (10.5 + 1) \\cdot 2 = 23}"
+  },
+  {
+   "k": "kpugsw",
+   "en": "21 for minors: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1qzwdnf",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle 10.5 \\cdot 2 = 21}"
+  },
+  {
+   "k": "273c9n",
+   "en": "After calculating that value, the total number of civilian and military factories within the country, divided by 10 and rounded, will get added to the score. If FRA has a total of 43 civilian and military factories as it does in base game, then this will result in 4 being added to the prior 74 for a total of 78, for example."
+  },
+  {
+   "k": "sms8ug",
+   "en": "AI strategies"
+  },
+  {
+   "k": "1opur4",
+   "en": "AI strategies are used in order to pursue AI to do or avoid something. This includes diplomatic actions the AI will do, where and how exactly AI should focus and use its land army and the navy, the production lines for buildings and equipment, how AI should handle the intelligence system within the ⟦0⟧ DLC. A value within an AI strategy can be either positive or negative, and it being negative will make AI desire to do it less.",
+   "frags": 1
+  },
+  {
+   "k": "z1ygrj",
+   "en": "La Résistance"
+  },
+  {
+   "k": "1s208kw",
+   "en": "Regular AI strategies are stored in ⟦0⟧ files, however, AI strategies may be defined outside of that file. The ⟦1⟧ can add a permament AI strategy within any effect block, and ⟦2⟧ can also include AI strategies defined within of themselves. Overall, ⟦3⟧ files describe AI strategies that would enable and disable themselves automatically. Each entry within a ⟦4⟧ file is a block with the name of the AI strategy. This name can be anything, even allowing overlap between them: this will only appear in AI dumps and the player will never see it. If an AI strategy modifies the chance for AI to pick a diplomatic option with the player, it will be seen as ⟦5⟧ to the player when hovering over the option. This is an example of an AI strategy with the name of BHR_invade_qatar:",
+   "frags": 6
+  },
+  {
+   "k": "1hxaui1",
+   "en": "/Hearts of Iron IV/common/ai_strategy/*.txt"
+  },
+  {
+   "k": "7pyc12",
+   "en": "add_ai_strategy effect"
+  },
+  {
+   "k": "99zwbi",
+   "en": "COUNTRY has strategic reasons to be ..."
+  },
+  {
+   "k": "19ai8fz",
+   "en": "Arguments"
+  },
+  {
+   "k": "pqa5il",
+   "en": "These in particular are arguments for ⟦0⟧ entries, rather for AI strategy entries within them.",
+   "frags": 1
+  },
+  {
+   "k": "kxa4sl",
+   "en": "⟦0⟧ is a trigger block that's ⟦1⟧, permamently allowing or disallowing an AI strategy. Typically, only used for country checks (such as ⟦2⟧) or DLC checks that can never be unfulfilled once they are met.",
+   "frags": 3
+  },
+  {
+   "k": "4pxzb0",
+   "en": "allowed = { ... }"
+  },
+  {
+   "k": "wnhn90",
+   "en": "checked only before the game's start"
+  },
+  {
+   "k": "b1qijj",
+   "en": "tag = OMA"
+  },
+  {
+   "k": "1cst7ga",
+   "en": "⟦0⟧ is a trigger block that must be met in order to enable the AI strategy. By default, this being unmet will ⟦1⟧ cancel the AI strategy. However, ⟦2⟧ can be used as a separate argument in order to make that be no longer the case. Unlike allowed, this is checked continuously.",
+   "frags": 3
+  },
+  {
+   "k": "10ieddl",
+   "en": "enable = { ... }"
+  },
+  {
+   "k": "bkgu4q",
+   "en": "not"
+  },
+  {
+   "k": "pij0yi",
+   "en": "abort_when_not_enabled = yes"
+  },
+  {
+   "k": "1hispz3",
+   "en": "⟦0⟧ is a trigger block that must be met in order to ⟦1⟧ the AI strategy. It being unmet also prevents it from being added in the first place.",
+   "frags": 2
+  },
+  {
+   "k": "r4hrqa",
+   "en": "abort = { ... }"
+  },
+  {
+   "k": "1ox8a2l",
+   "en": "remove"
+  },
+  {
+   "k": "1xanh98",
+   "en": "⟦0⟧ is, itself, the AI strategy that would be applied. The only argument shared for every AI strategy is ⟦1⟧. ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "nrbi7q",
+   "en": "ai_strategy = { ... }"
+  },
+  {
+   "k": "sqspdn",
+   "en": "type = <AI strategy type>"
+  },
+  {
+   "k": "81kho2",
+   "en": "The rest depends on the AI strategy"
+  },
+  {
+   "k": "ioobf6",
+   "en": "In addition, reversed AI strategies exist. These are used with AI strategies that use ⟦0⟧ to target towards a specific country to swap it around: that strategy will be enabled for TAG towards the country which meets ⟦1⟧. In order to mark the AI strategy as reversed, ⟦2⟧ is used. ⟦3⟧ is an additional trigger block required to ⟦4⟧ this AI strategy. It does not have a default scope, so scoping into a country is required. An example of a reversed AI strategy is the following:",
+   "frags": 5
+  },
+  {
+   "k": "1dmprrn",
+   "en": "id = TAG"
+  },
+  {
+   "k": "1n4ij4v",
+   "en": "reversed = yes"
+  },
+  {
+   "k": "16c4si0",
+   "en": "enable_reverse = { ... }"
+  },
+  {
+   "k": "1cph7f2",
+   "en": "enable"
+  },
+  {
+   "k": "1o23ntw",
+   "en": "Without ⟦0⟧, this would make every ⟦1⟧ country support BHR. Due to that argument, the strategy is reversed: instead, BHR supports every ⟦2⟧ country.",
+   "frags": 3
+  },
+  {
+   "k": "1w5hpjd",
+   "en": "non-aligned"
+  },
+  {
+   "k": "1amzk8q",
+   "en": "Types"
+  },
+  {
+   "k": "1ilns59",
+   "en": "This list may be outdated. A list of every AI strategy can be found within base game's ⟦0⟧ file.",
+   "frags": 1
+  },
+  {
+   "k": "vllst7",
+   "en": "/Hearts of Iron IV/common/ai_strategy/documentation.info"
+  },
+  {
+   "k": "4el6o6",
+   "en": "Name"
+  },
+  {
+   "k": "1yc4h6h",
+   "en": "Parameters"
+  },
+  {
+   "k": "uy0v5i",
+   "en": "Examples"
+  },
+  {
+   "k": "sjj37t",
+   "en": "Description"
+  },
+  {
+   "k": "4f76ga",
+   "en": "Notes"
+  },
+  {
+   "k": "81zsn4",
+   "en": "alliance"
+  },
+  {
+   "k": "y64i7p",
+   "en": "⟦0⟧ The weight of the strategy. id = <country> The target of the strategy.",
+   "frags": 1
+  },
+  {
+   "k": "nuhxuo",
+   "en": "value = <int>"
+  },
+  {
+   "k": "fmulrb",
+   "en": "id = <country>"
+  },
+  {
+   "k": "hwenv3",
+   "en": "ai_strategy = { type = alliance id = USA value = -100 }"
+  },
+  {
+   "k": "cl0dgh",
+   "en": "Pursues AI to ally with a country, joining the same faction if possible."
+  },
+  {
+   "k": "1ca4htz",
+   "en": "antagonize"
+  },
+  {
+   "k": "1jbxmoo",
+   "en": "ai_strategy = { type = antagonize id = USA value = -100 }"
+  },
+  {
+   "k": "1i99vhj",
+   "en": "Pursues AI to antagonize a country, refusing most diplomatic actions with them."
+  },
+  {
+   "k": "dcl18z",
+   "en": "asking_foreign_garrison"
+  },
+  {
+   "k": "ahvt4l",
+   "en": "ai_strategy = { type = asking_foreign_garrison id = USA value = 100 }"
+  },
+  {
+   "k": "10aoryn",
+   "en": "Pursues AI to ask for foreign manpower to fulfill garrisons, from a specific country if specified."
+  },
+  {
+   "k": "nwrrk7",
+   "en": "If ⟦0⟧ is not specified, will apply towards every other country.",
+   "frags": 1
+  },
+  {
+   "k": "3dg8wo",
+   "en": "befriend"
+  },
+  {
+   "k": "l2clye",
+   "en": "ai_strategy = { type = befriend id = USA value = 100 }"
+  },
+  {
+   "k": "glmbxd",
+   "en": "Pursues AI to befriend a country, accepting most diplomatic actions with them."
+  },
+  {
+   "k": "uhady2",
+   "en": "conquer"
+  },
+  {
+   "k": "1f38l2q",
+   "en": "ai_strategy = { type = conquer id = USA value = 100 }"
+  },
+  {
+   "k": "2pdqtf",
+   "en": "Pursues AI to conquer a country, being more likely to declare war and justify wargoals."
+  },
+  {
+   "k": "15suh15",
+   "en": "This does ⟦0⟧ change how the AI will control frontlines when at war with that country.",
+   "frags": 1
+  },
+  {
+   "k": "1yv5irr",
+   "en": "consider_weak"
+  },
+  {
+   "k": "1gicrr5",
+   "en": "ai_strategy = { type = consider_weak id = USA value = 100 }"
+  },
+  {
+   "k": "1dyth49",
+   "en": "Pursues AI to consider a country more weak, decreasing hesitation for declaration of war or making alliance less likely."
+  },
+  {
+   "k": "ptotjv",
+   "en": "contain"
+  },
+  {
+   "k": "c7eamh",
+   "en": "ai_strategy = { type = contain id = USA value = 100 }"
+  },
+  {
+   "k": "13stsqg",
+   "en": "Pursues AI to contain a country, protecting any countries that it would try to antagonize or invade."
+  },
+  {
+   "k": "14m2c",
+   "en": "declare_war"
+  },
+  {
+   "k": "kw3j3s",
+   "en": "ai_strategy = { type = declare_war id = USA value = 100 }"
+  },
+  {
+   "k": "15c6gos",
+   "en": "Pursues AI to declare war on a country if a wargoal already exists."
+  },
+  {
+   "k": "4yaslg",
+   "en": "diplo_action_acceptance"
+  },
+  {
+   "k": "1y1dddd",
+   "en": "⟦0⟧ The weight of the strategy. id = <country> The target of the strategy. target = <diplomatic action> The diplomatic action to modify.",
+   "frags": 1
+  },
+  {
+   "k": "zpnv6p",
+   "en": "target = <diplomatic action>"
+  },
+  {
+   "k": "192epbz",
+   "en": "ai_strategy = { type = diplo_action_acceptance id = USA value = 100 target = join_allies }"
+  },
+  {
+   "k": "l6aqt8",
+   "en": "Pursues AI to accept a diplomatic action if a different country requests it."
+  },
+  {
+   "k": "1c2memh",
+   "en": "AI will not be more likely to propose the diplomatic action in question. Names of diplomatic actions can usually be found from localisation keys used for the title, most of the time yet not always in the ⟦0⟧ file: ⟦1⟧ means that the name of the diplomatic action for sending volunteers is ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1rz86pk",
+   "en": "/Hearts of Iron IV/localisation/english/diplomacy_l_english.yml"
+  },
+  {
+   "k": "qgqrwq",
+   "en": "DIPLOMACY_SEND_VOLUNTEERS_TITLE:0 \"Send Volunteers\""
+  },
+  {
+   "k": "mybjwj",
+   "en": "send_volunteers"
+  },
+  {
+   "k": "1k99eg5",
+   "en": "diplo_action_desire"
+  },
+  {
+   "k": "g65ijm",
+   "en": "ai_strategy = { type = diplo_action_desire id = USA value = 100 target = call_allies }"
+  },
+  {
+   "k": "8nowh8",
+   "en": "Pursues AI to request a diplomatic action towards the specified country."
+  },
+  {
+   "k": "1iskkrd",
+   "en": "AI will not be more likely to accept the diplomatic action in question if it gets proposed to them. Names of diplomatic actions can usually be found from localisation keys used for the title, most of the time yet not always in the ⟦0⟧ file: ⟦1⟧ means that the name of the diplomatic action for sending volunteers is ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "vbt2f4",
+   "en": "dont_join_wars_with"
+  },
+  {
+   "k": "ju5k35",
+   "en": "⟦0⟧ The weight of the strategy. id = <country> The target of the strategy. target_country = <country> The country against whom the war is joined.",
+   "frags": 1
+  },
+  {
+   "k": "1434gny",
+   "en": "target_country = <country>"
+  },
+  {
+   "k": "1biw6n5",
+   "en": "ai_strategy = { type = dont_join_wars_with id = USA value = 100 target_country = BHR }"
+  },
+  {
+   "k": "1iwf2ii",
+   "en": "Pursues AI to be less likely to join a war together with a specified country against a specific one."
+  },
+  {
+   "k": "114zpsy",
+   "en": "Does not make AI less likely to join a war together with a ⟦0⟧ country against target_country, even if it'll result in fighting against target_country together with the specified country.",
+   "frags": 1
+  },
+  {
+   "k": "3pcbky",
+   "en": "different"
+  },
+  {
+   "k": "z11gsj",
+   "en": "ignore"
+  },
+  {
+   "k": "5m852r",
+   "en": "ai_strategy = { type = ignore id = USA value = 100 }"
+  },
+  {
+   "k": "1ubk706",
+   "en": "Pursues AI to be less likely to accept or desire any sort of diplomatic action with this country."
+  },
+  {
+   "k": "jjgqg",
+   "en": "ignore_claim"
+  },
+  {
+   "k": "1brr9em",
+   "en": "ai_strategy = { type = ignore_claim id = USA value = 1 }"
+  },
+  {
+   "k": "1som5kk",
+   "en": "Pursues AI to ignore any claims that it has on the specified country."
+  },
+  {
+   "k": "xt5xv2",
+   "en": "The value is boolean, just set to be 1."
+  },
+  {
+   "k": "k6prik",
+   "en": "protect"
+  },
+  {
+   "k": "1nuwdxk",
+   "en": "ai_strategy = { type = protect id = USA value = 100 }"
+  },
+  {
+   "k": "nlimof",
+   "en": "Pursues AI to protect a certain country, guaranteeing them or adding to the same faction."
+  },
+  {
+   "k": "2j8n67",
+   "en": "A negative total value (taking every AI strategy into consideration) results in AI never guaranteeing that country."
+  },
+  {
+   "k": "gfr9pk",
+   "en": "support"
+  },
+  {
+   "k": "uggom8",
+   "en": "ai_strategy = { type = support id = USA value = 100 }"
+  },
+  {
+   "k": "75963b",
+   "en": "Pursues AI to support a certain country within wars, sending lend lease, volunteers, or expeditionary forces."
+  },
+  {
+   "k": "1p5iiob",
+   "en": "send_lend_lease_desire"
+  },
+  {
+   "k": "1wz1b6j",
+   "en": "ai_strategy = { type = send_lend_lease_desire id = USA value = 100 }"
+  },
+  {
+   "k": "vwtuev",
+   "en": "Pursues AI to lend-lease equipment to the specified country."
+  },
+  {
+   "k": "114brem",
+   "en": "send_volunteers_desire"
+  },
+  {
+   "k": "1easui0",
+   "en": "ai_strategy = { type = send_volunteers_desire id = USA value = 100 }"
+  },
+  {
+   "k": "h90xqu",
+   "en": "Pursues AI to send volunteers to the specified country."
+  },
+  {
+   "k": "tkk8ig",
+   "en": "invade"
+  },
+  {
+   "k": "6yjub3",
+   "en": "ai_strategy = { type = invade id = USA value = -100 }"
+  },
+  {
+   "k": "90053y",
+   "en": "Pursues AI to do naval invasions against the specified country."
+  },
+  {
+   "k": "jm343w",
+   "en": "naval_invasion_focus"
+  },
+  {
+   "k": "1x7pbgo",
+   "en": "⟦0⟧ The weight of the strategy.",
+   "frags": 1
+  },
+  {
+   "k": "1eoqlsl",
+   "en": "ai_strategy = { type = naval_invasion_focus value = 100 }"
+  },
+  {
+   "k": "1lydjtg",
+   "en": "Pursues AI to launch naval invasions."
+  },
+  {
+   "k": "1j6zhtl",
+   "en": "prepare_for_war"
+  },
+  {
+   "k": "j3mi1r",
+   "en": "ai_strategy = { type = prepare_for_war id = USA value = 100 }"
+  },
+  {
+   "k": "1abxhnq",
+   "en": "Pursues AI to prepare for a war against a specified country, moving troops to their border."
+  },
+  {
+   "k": "1tqgns5",
+   "en": "area_priority"
+  },
+  {
+   "k": "1m2wri4",
+   "en": "⟦0⟧ The weight of the strategy. id = <AI area> The AI area to prioritise.",
+   "frags": 1
+  },
+  {
+   "k": "hfc7s4",
+   "en": "id = <AI area>"
+  },
+  {
+   "k": "1akp9rg",
+   "en": "AI area"
+  },
+  {
+   "k": "i9zlw6",
+   "en": "ai_strategy = { type = area_priority id = europe value = 100 }"
+  },
+  {
+   "k": "a3ujs1",
+   "en": "Pursues AI to put more units within the specified AI area."
+  },
+  {
+   "k": "2phkkh",
+   "en": "strategic_air_importance"
+  },
+  {
+   "k": "1ojo4na",
+   "en": "⟦0⟧ The ⟦1⟧ to consider value = <int> The score added or substracted.",
+   "frags": 2
+  },
+  {
+   "k": "9mqap2",
+   "en": "id = <strategic_region>"
+  },
+  {
+   "k": "1lwvg13",
+   "en": "strategic region"
+  },
+  {
+   "k": "1apek8s",
+   "en": "ai_strategy = { type = strategic_air_importance id = 18 #English Channel value = -30000 }"
+  },
+  {
+   "k": "13lof9m",
+   "en": "Modifies the total 'Strategic Importance' score of the specified ⟦0⟧ that the AI uses to prioritize where to perform ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "v0p6l",
+   "en": "region"
+  },
+  {
+   "k": "30vhpq",
+   "en": "Air Missions"
+  },
+  {
+   "k": "1fljjpw",
+   "en": "ID of the strategic regions can be found here, in /Hearts of Iron IV/map/strategicregions/*.txt files, or alternatively in the game using console command tdebug and hovering a mouse over the specific region while in the 'Default' map mode. Current 'Strategic Importance' AI score can be found in the game using console command aiview , while in the 'observe mode' and hovering a mouse over the desired air zone, while using the 'Strategic Air' map mode. The score shown is for the currently selected TAG. AI wants to do air missions in the regions with the highest scores, and none in the regions with low or negative score. AI score numbers are large, in higher dozens of thousands or lower hundreds of thousands, so appropriate values need to be used to have any visible effect on the AI."
+  },
+  {
+   "k": "wo50li",
+   "en": "ID of the strategic regions can be found ⟦0⟧, in ⟦1⟧ files, or alternatively in the game using ⟦2⟧ ⟦3⟧ and hovering a mouse over the specific region while in the 'Default' map mode.",
+   "frags": 4
+  },
+  {
+   "k": "97y18r",
+   "en": "here"
+  },
+  {
+   "k": "az4qad",
+   "en": "/Hearts of Iron IV/map/strategicregions/*.txt"
+  },
+  {
+   "k": "1psklu7",
+   "en": "console command"
+  },
+  {
+   "k": "1p7kgga",
+   "en": "tdebug"
+  },
+  {
+   "k": "cyh28j",
+   "en": "Current 'Strategic Importance' AI score can be found in the game using ⟦0⟧ ⟦1⟧ , while in the 'observe mode' and hovering a mouse over the desired air zone, while using the 'Strategic Air' map mode. The score shown is for the currently selected TAG. AI wants to do air missions in the regions with the highest scores, and none in the regions with low or negative score.",
+   "frags": 2
+  },
+  {
+   "k": "17eutii",
+   "en": "aiview"
+  },
+  {
+   "k": "car6se",
+   "en": "AI score numbers are large, in higher dozens of thousands or lower hundreds of thousands, so appropriate values need to be used to have any visible effect on the AI."
+  },
+  {
+   "k": "bcxjdu",
+   "en": "dont_defend_ally_borders"
+  },
+  {
+   "k": "ya7shm",
+   "en": "ai_strategy = { type = dont_defend_ally_borders id = POL value = 10 }"
+  }
+ ]
+}

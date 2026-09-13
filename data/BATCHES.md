@@ -1,0 +1,1333 @@
+# Translation batches
+
+- batch-001.json  units=87  chars=14768  pages: Beginner's guide
+- batch-002.json  units=135  chars=14879  pages: Beginner's guide
+- batch-003.json  units=129  chars=14823  pages: Beginner's guide
+- batch-004.json  units=80  chars=14813  pages: Beginner's guide
+- batch-005.json  units=102  chars=2335  pages: Beginner's guide
+- batch-006.json  units=124  chars=14705  pages: User interface
+- batch-007.json  units=171  chars=11658  pages: User interface
+- batch-008.json  units=222  chars=9232  pages: Mechanics
+- batch-009.json  units=197  chars=14863  pages: Hotkeys
+- batch-010.json  units=232  chars=13842  pages: Hotkeys
+- batch-011.json  units=718  chars=14995  pages: Countries
+- batch-012.json  units=31  chars=420  pages: Countries
+- batch-013.json  units=209  chars=14871  pages: Government
+- batch-014.json  units=148  chars=3903  pages: Government
+- batch-015.json  units=212  chars=14863  pages: Ideas
+- batch-016.json  units=264  chars=14965  pages: Ideas
+- batch-017.json  units=436  chars=12108  pages: Ideas
+- batch-018.json  units=323  chars=14953  pages: Officer corps
+- batch-019.json  units=301  chars=14964  pages: Officer corps
+- batch-020.json  units=195  chars=4117  pages: Officer corps
+- batch-021.json  units=342  chars=11592  pages: National focus
+- batch-022.json  units=299  chars=14157  pages: Research
+- batch-023.json  units=197  chars=14998  pages: Research
+- batch-024.json  units=299  chars=14980  pages: Research
+- batch-025.json  units=12  chars=282  pages: Research
+- batch-026.json  units=360  chars=14977  pages: Construction
+- batch-027.json  units=124  chars=14989  pages: Construction
+- batch-028.json  units=134  chars=14965  pages: Construction
+- batch-029.json  units=187  chars=4435  pages: Construction
+- batch-030.json  units=138  chars=14793  pages: Production
+- batch-031.json  units=220  chars=14956  pages: Production
+- batch-032.json  units=192  chars=7962  pages: Production
+- batch-033.json  units=296  chars=5352  pages: Events
+- batch-034.json  units=197  chars=14740  pages: Diplomacy
+- batch-035.json  units=104  chars=2862  pages: Diplomacy
+- batch-036.json  units=121  chars=14972  pages: Puppet
+- batch-037.json  units=202  chars=14974  pages: Puppet
+- batch-038.json  units=127  chars=14892  pages: Puppet
+- batch-039.json  units=185  chars=14972  pages: Puppet
+- batch-040.json  units=200  chars=13022  pages: Puppet
+- batch-041.json  units=361  chars=12654  pages: Puppet
+- batch-042.json  units=160  chars=14440  pages: Occupation
+- batch-043.json  units=278  chars=14998  pages: Occupation
+- batch-044.json  units=28  chars=502  pages: Occupation
+- batch-045.json  units=351  chars=13203  pages: World tension
+- batch-046.json  units=320  chars=12564  pages: Intelligence agency
+- batch-047.json  units=232  chars=14819  pages: Trade
+- batch-048.json  units=228  chars=14991  pages: Warfare
+- batch-049.json  units=243  chars=11205  pages: Warfare
+- batch-050.json  units=359  chars=12331  pages: Combat tactics
+- batch-051.json  units=78  chars=14935  pages: Logistics
+- batch-052.json  units=85  chars=14982  pages: Logistics
+- batch-053.json  units=101  chars=4005  pages: Logistics
+- batch-054.json  units=222  chars=9116  pages: Terrain
+- batch-055.json  units=242  chars=12288  pages: Weather
+- batch-056.json  units=238  chars=14742  pages: Battle plan
+- batch-057.json  units=92  chars=14438  pages: Battle plan
+- batch-058.json  units=218  chars=11901  pages: Battle plan
+- batch-059.json  units=260  chars=14748  pages: Army planner, Command group
+- batch-060.json  units=120  chars=14542  pages: Division
+- batch-061.json  units=152  chars=9858  pages: Division
+- batch-062.json  units=136  chars=8250  pages: Land warfare
+- batch-063.json  units=152  chars=7937  pages: Naval warfare
+- batch-064.json  units=166  chars=14940  pages: Air warfare
+- batch-065.json  units=97  chars=1928  pages: Air warfare
+- batch-066.json  units=101  chars=13985  pages: Land units
+- batch-067.json  units=293  chars=14992  pages: Land units
+- batch-068.json  units=455  chars=14972  pages: Land units
+- batch-069.json  units=35  chars=665  pages: Land units
+- batch-070.json  units=234  chars=14998  pages: Achievements
+- batch-071.json  units=252  chars=14988  pages: Achievements
+- batch-072.json  units=203  chars=14903  pages: Achievements
+- batch-073.json  units=154  chars=14924  pages: Achievements
+- batch-074.json  units=182  chars=14979  pages: Achievements
+- batch-075.json  units=232  chars=14949  pages: Achievements
+- batch-076.json  units=240  chars=14873  pages: Achievements
+- batch-077.json  units=216  chars=14577  pages: Achievements
+- batch-078.json  units=190  chars=13629  pages: Achievements
+- batch-079.json  units=219  chars=14824  pages: Achievements
+- batch-080.json  units=206  chars=14687  pages: Achievements
+- batch-081.json  units=149  chars=14846  pages: Achievements
+- batch-082.json  units=404  chars=14966  pages: Achievements
+- batch-083.json  units=382  chars=10485  pages: Achievements
+- batch-084.json  units=265  chars=14964  pages: Console commands
+- batch-085.json  units=444  chars=13531  pages: Console commands
+- batch-086.json  units=257  chars=14833  pages: Jargon
+- batch-087.json  units=216  chars=14915  pages: Jargon
+- batch-088.json  units=23  chars=4368  pages: Jargon
+- batch-089.json  units=101  chars=14837  pages: Downloadable content
+- batch-090.json  units=94  chars=14666  pages: Downloadable content
+- batch-091.json  units=101  chars=14382  pages: Downloadable content
+- batch-092.json  units=390  chars=13562  pages: Downloadable content
+- batch-093.json  units=330  chars=7772  pages: Patches
+- batch-094.json  units=284  chars=14985  pages: Defines
+- batch-095.json  units=278  chars=14977  pages: Defines
+- batch-096.json  units=279  chars=14908  pages: Defines
+- batch-097.json  units=297  chars=14916  pages: Defines
+- batch-098.json  units=316  chars=14974  pages: Defines
+- batch-099.json  units=329  chars=14979  pages: Defines
+- batch-100.json  units=295  chars=14904  pages: Defines
+- batch-101.json  units=272  chars=14952  pages: Defines
+- batch-102.json  units=235  chars=14913  pages: Defines
+- batch-103.json  units=262  chars=14990  pages: Defines
+- batch-104.json  units=238  chars=14995  pages: Defines
+- batch-105.json  units=269  chars=14931  pages: Defines
+- batch-106.json  units=250  chars=14998  pages: Defines
+- batch-107.json  units=274  chars=14981  pages: Defines
+- batch-108.json  units=251  chars=14857  pages: Defines
+- batch-109.json  units=240  chars=14956  pages: Defines
+- batch-110.json  units=204  chars=14981  pages: Defines
+- batch-111.json  units=292  chars=14651  pages: Defines
+- batch-112.json  units=257  chars=14994  pages: Defines
+- batch-113.json  units=289  chars=14995  pages: Defines
+- batch-114.json  units=417  chars=14978  pages: Defines
+- batch-115.json  units=371  chars=14989  pages: Defines
+- batch-116.json  units=360  chars=14842  pages: Defines
+- batch-117.json  units=204  chars=7782  pages: Defines
+- batch-118.json  units=226  chars=14995  pages: German Reich
+- batch-119.json  units=414  chars=14994  pages: German Reich
+- batch-120.json  units=211  chars=14981  pages: German Reich
+- batch-121.json  units=367  chars=14999  pages: German Reich
+- batch-122.json  units=260  chars=14968  pages: German Reich
+- batch-123.json  units=74  chars=5137  pages: German Reich
+- batch-124.json  units=107  chars=14929  pages: German Reich
+- batch-125.json  units=105  chars=4870  pages: German Reich
+- batch-126.json  units=1  chars=16682  pages: German Reich
+- batch-127.json  units=307  chars=14220  pages: German Reich
+- batch-128.json  units=1  chars=23392  pages: German Reich
+- batch-129.json  units=291  chars=14946  pages: German Reich
+- batch-130.json  units=54  chars=3084  pages: German Reich
+- batch-131.json  units=1  chars=18593  pages: German Reich
+- batch-132.json  units=288  chars=14986  pages: German Reich
+- batch-133.json  units=324  chars=14796  pages: German Reich
+- batch-134.json  units=23  chars=12834  pages: German Reich
+- batch-135.json  units=417  chars=14982  pages: German Reich
+- batch-136.json  units=203  chars=4840  pages: German Reich
+- batch-137.json  units=262  chars=14994  pages: Effect
+- batch-138.json  units=276  chars=14991  pages: Effect
+- batch-139.json  units=204  chars=14784  pages: Effect
+- batch-140.json  units=238  chars=14981  pages: Effect
+- batch-141.json  units=269  chars=15000  pages: Effect
+- batch-142.json  units=187  chars=14279  pages: Effect
+- batch-143.json  units=240  chars=14954  pages: Effect
+- batch-144.json  units=205  chars=14791  pages: Effect
+- batch-145.json  units=165  chars=14933  pages: Effect
+- batch-146.json  units=208  chars=14998  pages: Effect
+- batch-147.json  units=257  chars=14997  pages: Effect
+- batch-148.json  units=150  chars=14921  pages: Effect
+- batch-149.json  units=251  chars=14463  pages: Effect
+- batch-150.json  units=260  chars=14900  pages: Effect
+- batch-151.json  units=170  chars=9545  pages: Effect
+- batch-152.json  units=448  chars=14965  pages: List of political advisors
+- batch-153.json  units=367  chars=14988  pages: List of political advisors
+- batch-154.json  units=396  chars=15000  pages: List of political advisors
+- batch-155.json  units=385  chars=14953  pages: List of political advisors
+- batch-156.json  units=397  chars=14919  pages: List of political advisors
+- batch-157.json  units=466  chars=14975  pages: List of political advisors
+- batch-158.json  units=379  chars=14981  pages: List of political advisors
+- batch-159.json  units=496  chars=13413  pages: List of political advisors
+- batch-160.json  units=523  chars=14986  pages: Soviet Union
+- batch-161.json  units=300  chars=14967  pages: Soviet Union
+- batch-162.json  units=340  chars=14980  pages: Soviet Union
+- batch-163.json  units=197  chars=8653  pages: Soviet Union
+- batch-164.json  units=119  chars=14880  pages: Soviet Union
+- batch-165.json  units=120  chars=14994  pages: Soviet Union
+- batch-166.json  units=154  chars=6784  pages: Soviet Union
+- batch-167.json  units=78  chars=14966  pages: Soviet Union
+- batch-168.json  units=110  chars=6514  pages: Soviet Union
+- batch-169.json  units=123  chars=14887  pages: Soviet Union
+- batch-170.json  units=415  chars=13878  pages: Soviet Union
+- batch-171.json  units=311  chars=14999  pages: Soviet Union
+- batch-172.json  units=262  chars=6710  pages: Soviet Union
+- batch-173.json  units=453  chars=14988  pages: Political parties and leaders
+- batch-174.json  units=555  chars=14981  pages: Political parties and leaders
+- batch-175.json  units=521  chars=14922  pages: Political parties and leaders
+- batch-176.json  units=527  chars=14986  pages: Political parties and leaders
+- batch-177.json  units=487  chars=14986  pages: Political parties and leaders
+- batch-178.json  units=456  chars=14040  pages: Political parties and leaders
+- batch-179.json  units=216  chars=14986  pages: Italy
+- batch-180.json  units=400  chars=14838  pages: Italy
+- batch-181.json  units=336  chars=14934  pages: Italy
+- batch-182.json  units=289  chars=14601  pages: Italy
+- batch-183.json  units=59  chars=4355  pages: Italy
+- batch-184.json  units=54  chars=14993  pages: Italy
+- batch-185.json  units=159  chars=7185  pages: Italy
+- batch-186.json  units=1  chars=20653  pages: Italy
+- batch-187.json  units=277  chars=14986  pages: Italy
+- batch-188.json  units=38  chars=1948  pages: Italy
+- batch-189.json  units=21  chars=14898  pages: Italy
+- batch-190.json  units=351  chars=14860  pages: Italy
+- batch-191.json  units=151  chars=14994  pages: Italy
+- batch-192.json  units=478  chars=12866  pages: Italy
+- batch-193.json  units=279  chars=14996  pages: United Kingdom
+- batch-194.json  units=500  chars=14989  pages: United Kingdom
+- batch-195.json  units=333  chars=14992  pages: United Kingdom
+- batch-196.json  units=131  chars=14999  pages: United Kingdom
+- batch-197.json  units=97  chars=4527  pages: United Kingdom
+- batch-198.json  units=85  chars=14974  pages: United Kingdom
+- batch-199.json  units=133  chars=7680  pages: United Kingdom
+- batch-200.json  units=116  chars=14961  pages: United Kingdom
+- batch-201.json  units=362  chars=14564  pages: United Kingdom
+- batch-202.json  units=147  chars=14873  pages: United Kingdom
+- batch-203.json  units=458  chars=14988  pages: United Kingdom
+- batch-204.json  units=33  chars=456  pages: United Kingdom
+- batch-205.json  units=238  chars=14999  pages: France
+- batch-206.json  units=417  chars=14999  pages: France
+- batch-207.json  units=407  chars=14977  pages: France
+- batch-208.json  units=171  chars=14993  pages: France
+- batch-209.json  units=141  chars=14961  pages: France
+- batch-210.json  units=61  chars=2842  pages: France
+- batch-211.json  units=29  chars=14946  pages: France
+- batch-212.json  units=198  chars=11740  pages: France
+- batch-213.json  units=119  chars=14913  pages: France
+- batch-214.json  units=330  chars=14949  pages: France
+- batch-215.json  units=298  chars=14978  pages: France
+- batch-216.json  units=198  chars=4448  pages: France
+- batch-217.json  units=261  chars=14835  pages: Triggers
+- batch-218.json  units=297  chars=14974  pages: Triggers
+- batch-219.json  units=332  chars=14985  pages: Triggers
+- batch-220.json  units=348  chars=14977  pages: Triggers
+- batch-221.json  units=263  chars=14891  pages: Triggers
+- batch-222.json  units=322  chars=14957  pages: Triggers
+- batch-223.json  units=351  chars=14937  pages: Triggers
+- batch-224.json  units=305  chars=14958  pages: Triggers
+- batch-225.json  units=79  chars=1744  pages: Triggers
+- batch-226.json  units=1746  chars=14993  pages: List of provinces
+- batch-227.json  units=769  chars=6894  pages: List of provinces
+- batch-228.json  units=342  chars=14994  pages: United States
+- batch-229.json  units=460  chars=14996  pages: United States
+- batch-230.json  units=183  chars=7777  pages: United States
+- batch-231.json  units=135  chars=14985  pages: United States
+- batch-232.json  units=127  chars=14993  pages: United States
+- batch-233.json  units=65  chars=3399  pages: United States
+- batch-234.json  units=32  chars=14999  pages: United States
+- batch-235.json  units=217  chars=11248  pages: United States
+- batch-236.json  units=128  chars=14899  pages: United States
+- batch-237.json  units=311  chars=14904  pages: United States
+- batch-238.json  units=41  chars=14890  pages: United States
+- batch-239.json  units=301  chars=14999  pages: United States
+- batch-240.json  units=154  chars=3245  pages: United States
+- batch-241.json  units=80  chars=14896  pages: Japan
+- batch-242.json  units=499  chars=14989  pages: Japan
+- batch-243.json  units=442  chars=13345  pages: Japan
+- batch-244.json  units=98  chars=14891  pages: Japan
+- batch-245.json  units=133  chars=6266  pages: Japan
+- batch-246.json  units=113  chars=14966  pages: Japan
+- batch-247.json  units=140  chars=14978  pages: Japan
+- batch-248.json  units=380  chars=13802  pages: Japan
+- batch-249.json  units=44  chars=14478  pages: Japan
+- batch-250.json  units=407  chars=14991  pages: Japan
+- batch-251.json  units=151  chars=2341  pages: Japan
+- batch-252.json  units=304  chars=14998  pages: British Raj
+- batch-253.json  units=449  chars=14969  pages: British Raj
+- batch-254.json  units=308  chars=14998  pages: British Raj
+- batch-255.json  units=41  chars=2069  pages: British Raj
+- batch-256.json  units=4  chars=14986  pages: British Raj
+- batch-257.json  units=167  chars=7478  pages: British Raj
+- batch-258.json  units=5  chars=14965  pages: British Raj
+- batch-259.json  units=267  chars=13406  pages: British Raj
+- batch-260.json  units=1  chars=15414  pages: British Raj
+- batch-261.json  units=282  chars=14695  pages: British Raj
+- batch-262.json  units=277  chars=14998  pages: British Raj
+- batch-263.json  units=231  chars=5611  pages: British Raj
+- batch-264.json  units=315  chars=14903  pages: Hungary
+- batch-265.json  units=461  chars=14982  pages: Hungary
+- batch-266.json  units=187  chars=14991  pages: Hungary
+- batch-267.json  units=122  chars=14973  pages: Hungary
+- batch-268.json  units=115  chars=5319  pages: Hungary
+- batch-269.json  units=1  chars=15645  pages: Hungary
+- batch-270.json  units=272  chars=13620  pages: Hungary
+- batch-271.json  units=1  chars=17827  pages: Hungary
+- batch-272.json  units=293  chars=14988  pages: Hungary
+- batch-273.json  units=130  chars=13656  pages: Hungary
+- batch-274.json  units=202  chars=14983  pages: Hungary
+- batch-275.json  units=220  chars=5966  pages: Hungary
+- batch-276.json  units=152  chars=14955  pages: Modifiers
+- batch-277.json  units=261  chars=14930  pages: Modifiers
+- batch-278.json  units=379  chars=14973  pages: Modifiers
+- batch-279.json  units=383  chars=14964  pages: Modifiers
+- batch-280.json  units=378  chars=14991  pages: Modifiers
+- batch-281.json  units=377  chars=14982  pages: Modifiers
+- batch-282.json  units=255  chars=8984  pages: Modifiers
+- batch-283.json  units=336  chars=14998  pages: Faction
+- batch-284.json  units=284  chars=14994  pages: Faction
+- batch-285.json  units=257  chars=14989  pages: Faction
+- batch-286.json  units=238  chars=14894  pages: Faction
+- batch-287.json  units=337  chars=14916  pages: Faction
+- batch-288.json  units=239  chars=14984  pages: Faction
+- batch-289.json  units=355  chars=7766  pages: Faction
+- batch-290.json  units=350  chars=14906  pages: Country leader traits
+- batch-291.json  units=304  chars=14943  pages: Country leader traits
+- batch-292.json  units=258  chars=14970  pages: Country leader traits
+- batch-293.json  units=265  chars=14941  pages: Country leader traits
+- batch-294.json  units=275  chars=14966  pages: Country leader traits
+- batch-295.json  units=219  chars=14951  pages: Country leader traits
+- batch-296.json  units=240  chars=14982  pages: Country leader traits
+- batch-297.json  units=129  chars=9023  pages: Country leader traits
+- batch-298.json  units=379  chars=14974  pages: Turkey
+- batch-299.json  units=272  chars=14994  pages: Turkey
+- batch-300.json  units=304  chars=14988  pages: Turkey
+- batch-301.json  units=179  chars=14485  pages: Turkey
+- batch-302.json  units=1  chars=15447  pages: Turkey
+- batch-303.json  units=181  chars=8781  pages: Turkey
+- batch-304.json  units=152  chars=14992  pages: Turkey
+- batch-305.json  units=336  chars=14955  pages: Turkey
+- batch-306.json  units=223  chars=5470  pages: Turkey
+- batch-307.json  units=287  chars=14973  pages: Brazil
+- batch-308.json  units=424  chars=14810  pages: Brazil
+- batch-309.json  units=1  chars=15139  pages: Brazil
+- batch-310.json  units=211  chars=8852  pages: Brazil
+- batch-311.json  units=20  chars=15000  pages: Brazil
+- batch-312.json  units=166  chars=7667  pages: Brazil
+- batch-313.json  units=1  chars=20123  pages: Brazil
+- batch-314.json  units=242  chars=13543  pages: Brazil
+- batch-315.json  units=15  chars=15000  pages: Brazil
+- batch-316.json  units=294  chars=14972  pages: Brazil
+- batch-317.json  units=334  chars=12722  pages: Brazil
+- batch-318.json  units=445  chars=14972  pages: Czechoslovakia
+- batch-319.json  units=415  chars=14681  pages: Czechoslovakia
+- batch-320.json  units=168  chars=14928  pages: Czechoslovakia
+- batch-321.json  units=107  chars=5932  pages: Czechoslovakia
+- batch-322.json  units=81  chars=14941  pages: Czechoslovakia
+- batch-323.json  units=130  chars=14982  pages: Czechoslovakia
+- batch-324.json  units=236  chars=12186  pages: Czechoslovakia
+- batch-325.json  units=399  chars=14336  pages: Czechoslovakia
+- batch-326.json  units=296  chars=14967  pages: Ethiopia
+- batch-327.json  units=366  chars=14914  pages: Ethiopia
+- batch-328.json  units=78  chars=4781  pages: Ethiopia
+- batch-329.json  units=1  chars=19928  pages: Ethiopia
+- batch-330.json  units=269  chars=12399  pages: Ethiopia
+- batch-331.json  units=102  chars=11394  pages: Ethiopia
+- batch-332.json  units=1  chars=25240  pages: Ethiopia
+- batch-333.json  units=218  chars=10534  pages: Ethiopia
+- batch-334.json  units=1  chars=31078  pages: Ethiopia
+- batch-335.json  units=279  chars=14809  pages: Ethiopia
+- batch-336.json  units=244  chars=14986  pages: Ethiopia
+- batch-337.json  units=106  chars=1781  pages: Ethiopia
+- batch-338.json  units=422  chars=14964  pages: Norway
+- batch-339.json  units=290  chars=10018  pages: Norway
+- batch-340.json  units=174  chars=14988  pages: Norway
+- batch-341.json  units=157  chars=13547  pages: Norway
+- batch-342.json  units=73  chars=14952  pages: Norway
+- batch-343.json  units=121  chars=7121  pages: Norway
+- batch-344.json  units=42  chars=14973  pages: Norway
+- batch-345.json  units=266  chars=14981  pages: Norway
+- batch-346.json  units=402  chars=12313  pages: Norway
+- batch-347.json  units=331  chars=14926  pages: Bulgaria
+- batch-348.json  units=321  chars=14679  pages: Bulgaria
+- batch-349.json  units=136  chars=14862  pages: Bulgaria
+- batch-350.json  units=52  chars=14910  pages: Bulgaria
+- batch-351.json  units=105  chars=5176  pages: Bulgaria
+- batch-352.json  units=89  chars=14984  pages: Bulgaria
+- batch-353.json  units=84  chars=3936  pages: Bulgaria
+- batch-354.json  units=35  chars=14975  pages: Bulgaria
+- batch-355.json  units=193  chars=10033  pages: Bulgaria
+- batch-356.json  units=1  chars=15926  pages: Bulgaria
+- batch-357.json  units=321  chars=14985  pages: Bulgaria
+- batch-358.json  units=237  chars=6219  pages: Bulgaria
+- batch-359.json  units=383  chars=14604  pages: Sweden
+- batch-360.json  units=404  chars=14996  pages: Sweden
+- batch-361.json  units=189  chars=14979  pages: Sweden
+- batch-362.json  units=95  chars=8094  pages: Sweden
+- batch-363.json  units=112  chars=14952  pages: Sweden
+- batch-364.json  units=325  chars=14999  pages: Sweden
+- batch-365.json  units=321  chars=8618  pages: Sweden
+- batch-366.json  units=289  chars=14991  pages: Poland
+- batch-367.json  units=477  chars=14999  pages: Poland
+- batch-368.json  units=181  chars=14908  pages: Poland
+- batch-369.json  units=118  chars=11778  pages: Poland
+- batch-370.json  units=1  chars=15452  pages: Poland
+- batch-371.json  units=302  chars=14433  pages: Poland
+- batch-372.json  units=25  chars=14874  pages: Poland
+- batch-373.json  units=160  chars=14973  pages: Poland
+- batch-374.json  units=251  chars=5914  pages: Poland
+- batch-375.json  units=279  chars=14988  pages: Finland
+- batch-376.json  units=267  chars=14964  pages: Finland
+- batch-377.json  units=364  chars=14991  pages: Finland
+- batch-378.json  units=158  chars=13831  pages: Finland
+- batch-379.json  units=107  chars=14988  pages: Finland
+- batch-380.json  units=448  chars=14978  pages: Finland
+- batch-381.json  units=154  chars=3249  pages: Finland
+- batch-382.json  units=354  chars=14919  pages: Belgium
+- batch-383.json  units=377  chars=13160  pages: Belgium
+- batch-384.json  units=131  chars=14952  pages: Belgium
+- batch-385.json  units=124  chars=8765  pages: Belgium
+- batch-386.json  units=131  chars=14911  pages: Belgium
+- batch-387.json  units=19  chars=14943  pages: Belgium
+- batch-388.json  units=275  chars=11710  pages: Belgium
+- batch-389.json  units=229  chars=14962  pages: Belgium
+- batch-390.json  units=132  chars=2004  pages: Belgium
+- batch-391.json  units=417  chars=14984  pages: Greece
+- batch-392.json  units=262  chars=8924  pages: Greece
+- batch-393.json  units=141  chars=13482  pages: Greece
+- batch-394.json  units=140  chars=14977  pages: Greece
+- batch-395.json  units=161  chars=14852  pages: Greece
+- batch-396.json  units=1  chars=15704  pages: Greece
+- batch-397.json  units=282  chars=14806  pages: Greece
+- batch-398.json  units=362  chars=9972  pages: Greece
+- batch-399.json  units=367  chars=14952  pages: Chile
+- batch-400.json  units=442  chars=14998  pages: Chile
+- batch-401.json  units=174  chars=11763  pages: Chile
+- batch-402.json  units=142  chars=14311  pages: Chile
+- batch-403.json  units=153  chars=14965  pages: Chile
+- batch-404.json  units=136  chars=14335  pages: Chile
+- batch-405.json  units=297  chars=12680  pages: Chile
+- batch-406.json  units=996  chars=14990  pages: List of commanders
+- batch-407.json  units=525  chars=14997  pages: List of commanders
+- batch-408.json  units=190  chars=13053  pages: List of commanders
+- batch-409.json  units=621  chars=14989  pages: Political parties and leaders (releasable countries)
+- batch-410.json  units=646  chars=14970  pages: Political parties and leaders (releasable countries)
+- batch-411.json  units=412  chars=9794  pages: Political parties and leaders (releasable countries)
+- batch-412.json  units=1408  chars=14995  pages: List of states
+- batch-413.json  units=269  chars=5995  pages: List of states
+- batch-414.json  units=313  chars=14813  pages: Austria
+- batch-415.json  units=403  chars=14623  pages: Austria
+- batch-416.json  units=174  chars=14988  pages: Austria
+- batch-417.json  units=194  chars=14165  pages: Austria
+- batch-418.json  units=36  chars=14973  pages: Austria
+- batch-419.json  units=348  chars=14987  pages: Austria
+- batch-420.json  units=188  chars=4573  pages: Austria
+- batch-421.json  units=135  chars=14854  pages: Data structures
+- batch-422.json  units=117  chars=14695  pages: Data structures
+- batch-423.json  units=201  chars=14979  pages: Data structures
+- batch-424.json  units=159  chars=13895  pages: Data structures
+- batch-425.json  units=137  chars=14925  pages: Data structures
+- batch-426.json  units=200  chars=14925  pages: Data structures
+- batch-427.json  units=331  chars=14966  pages: Data structures
+- batch-428.json  units=355  chars=12096  pages: Data structures
+- batch-429.json  units=404  chars=14953  pages: Iraq
+- batch-430.json  units=261  chars=14965  pages: Iraq
+- batch-431.json  units=199  chars=14978  pages: Iraq
+- batch-432.json  units=144  chars=14980  pages: Iraq
+- batch-433.json  units=78  chars=14950  pages: Iraq
+- batch-434.json  units=266  chars=14997  pages: Iraq
+- batch-435.json  units=278  chars=7397  pages: Iraq
+- batch-436.json  units=333  chars=14996  pages: Denmark
+- batch-437.json  units=371  chars=13207  pages: Denmark
+- batch-438.json  units=138  chars=11759  pages: Denmark
+- batch-439.json  units=120  chars=13554  pages: Denmark
+- batch-440.json  units=112  chars=14957  pages: Denmark
+- batch-441.json  units=343  chars=14974  pages: Denmark
+- batch-442.json  units=170  chars=3970  pages: Denmark
+- batch-443.json  units=371  chars=14994  pages: Romania
+- batch-444.json  units=227  chars=13420  pages: Romania
+- batch-445.json  units=148  chars=13854  pages: Romania
+- batch-446.json  units=126  chars=14954  pages: Romania
+- batch-447.json  units=16  chars=763  pages: Romania
+- batch-448.json  units=1  chars=15476  pages: Romania
+- batch-449.json  units=270  chars=14996  pages: Romania
+- batch-450.json  units=38  chars=14798  pages: Romania
+- batch-451.json  units=145  chars=14988  pages: Romania
+- batch-452.json  units=237  chars=5815  pages: Romania
+- batch-453.json  units=387  chars=14993  pages: Argentina
+- batch-454.json  units=367  chars=15000  pages: Argentina
+- batch-455.json  units=151  chars=12514  pages: Argentina
+- batch-456.json  units=97  chars=10861  pages: Argentina
+- batch-457.json  units=94  chars=14998  pages: Argentina
+- batch-458.json  units=339  chars=15000  pages: Argentina
+- batch-459.json  units=135  chars=3291  pages: Argentina
+- batch-460.json  units=567  chars=14988  pages: Australia
+- batch-461.json  units=207  chars=14989  pages: Australia
+- batch-462.json  units=109  chars=8213  pages: Australia
+- batch-463.json  units=108  chars=14959  pages: Australia
+- batch-464.json  units=218  chars=15000  pages: Australia
+- batch-465.json  units=328  chars=13387  pages: Australia
+- batch-466.json  units=426  chars=14988  pages: Netherlands
+- batch-467.json  units=273  chars=10320  pages: Netherlands
+- batch-468.json  units=111  chars=9666  pages: Netherlands
+- batch-469.json  units=97  chars=10607  pages: Netherlands
+- batch-470.json  units=154  chars=14969  pages: Netherlands
+- batch-471.json  units=333  chars=14968  pages: Netherlands
+- batch-472.json  units=133  chars=2150  pages: Netherlands
+- batch-473.json  units=449  chars=14987  pages: Dominion of Canada
+- batch-474.json  units=291  chars=14978  pages: Dominion of Canada
+- batch-475.json  units=76  chars=14986  pages: Dominion of Canada
+- batch-476.json  units=130  chars=7471  pages: Dominion of Canada
+- batch-477.json  units=105  chars=14978  pages: Dominion of Canada
+- batch-478.json  units=343  chars=14953  pages: Dominion of Canada
+- batch-479.json  units=102  chars=1900  pages: Dominion of Canada
+- batch-480.json  units=295  chars=14996  pages: Belgian Congo
+- batch-481.json  units=337  chars=13521  pages: Belgian Congo
+- batch-482.json  units=114  chars=9482  pages: Belgian Congo
+- batch-483.json  units=90  chars=14994  pages: Belgian Congo
+- batch-484.json  units=109  chars=5824  pages: Belgian Congo
+- batch-485.json  units=49  chars=14989  pages: Belgian Congo
+- batch-486.json  units=296  chars=14991  pages: Belgian Congo
+- batch-487.json  units=198  chars=5605  pages: Belgian Congo
+- batch-488.json  units=162  chars=14882  pages: China
+- batch-489.json  units=552  chars=14991  pages: China
+- batch-490.json  units=302  chars=14993  pages: China
+- batch-491.json  units=68  chars=14867  pages: China
+- batch-492.json  units=148  chars=14973  pages: China
+- batch-493.json  units=253  chars=5054  pages: China
+- batch-494.json  units=196  chars=14987  pages: Special project
+- batch-495.json  units=255  chars=14960  pages: Special project
+- batch-496.json  units=292  chars=14795  pages: Special project
+- batch-497.json  units=246  chars=14980  pages: Special project
+- batch-498.json  units=213  chars=14994  pages: Special project
+- batch-499.json  units=283  chars=9359  pages: Special project
+- batch-500.json  units=404  chars=14956  pages: Mexico
+- batch-501.json  units=262  chars=14984  pages: Mexico
+- batch-502.json  units=231  chars=14802  pages: Mexico
+- batch-503.json  units=93  chars=14996  pages: Mexico
+- batch-504.json  units=222  chars=14999  pages: Mexico
+- batch-505.json  units=264  chars=7343  pages: Mexico
+- batch-506.json  units=400  chars=14996  pages: Iran
+- batch-507.json  units=254  chars=14895  pages: Iran
+- batch-508.json  units=175  chars=12449  pages: Iran
+- batch-509.json  units=136  chars=14996  pages: Iran
+- batch-510.json  units=396  chars=12831  pages: Iran
+- batch-511.json  units=372  chars=14978  pages: Protektorat Böhmen-Mähren
+- batch-512.json  units=183  chars=10553  pages: Protektorat Böhmen-Mähren
+- batch-513.json  units=155  chars=12868  pages: Protektorat Böhmen-Mähren
+- batch-514.json  units=81  chars=14941  pages: Protektorat Böhmen-Mähren
+- batch-515.json  units=130  chars=14982  pages: Protektorat Böhmen-Mähren
+- batch-516.json  units=288  chars=14983  pages: Protektorat Böhmen-Mähren
+- batch-517.json  units=128  chars=4087  pages: Protektorat Böhmen-Mähren
+- batch-518.json  units=467  chars=14905  pages: Yugoslavia
+- batch-519.json  units=156  chars=9967  pages: Yugoslavia
+- batch-520.json  units=118  chars=14889  pages: Yugoslavia
+- batch-521.json  units=141  chars=14991  pages: Yugoslavia
+- batch-522.json  units=322  chars=14982  pages: Yugoslavia
+- batch-523.json  units=133  chars=2003  pages: Yugoslavia
+- batch-524.json  units=460  chars=14924  pages: Slovakia
+- batch-525.json  units=188  chars=13882  pages: Slovakia
+- batch-526.json  units=86  chars=14997  pages: Slovakia
+- batch-527.json  units=132  chars=15000  pages: Slovakia
+- batch-528.json  units=405  chars=14984  pages: Slovakia
+- batch-529.json  units=43  chars=599  pages: Slovakia
+- batch-530.json  units=461  chars=14987  pages: Dutch East Indies
+- batch-531.json  units=275  chars=14999  pages: Dutch East Indies
+- batch-532.json  units=140  chars=14924  pages: Dutch East Indies
+- batch-533.json  units=417  chars=14942  pages: Dutch East Indies
+- batch-534.json  units=495  chars=14945  pages: New Zealand
+- batch-535.json  units=187  chars=14934  pages: New Zealand
+- batch-536.json  units=93  chars=7296  pages: New Zealand
+- batch-537.json  units=97  chars=14970  pages: New Zealand
+- batch-538.json  units=254  chars=14983  pages: New Zealand
+- batch-539.json  units=161  chars=4489  pages: New Zealand
+- batch-540.json  units=544  chars=14990  pages: Portugal
+- batch-541.json  units=173  chars=14130  pages: Portugal
+- batch-542.json  units=101  chars=14917  pages: Portugal
+- batch-543.json  units=178  chars=14254  pages: Portugal
+- batch-544.json  units=291  chars=12002  pages: Portugal
+- batch-545.json  units=501  chars=14946  pages: Siam
+- batch-546.json  units=203  chars=14542  pages: Siam
+- batch-547.json  units=153  chars=14974  pages: Siam
+- batch-548.json  units=219  chars=14976  pages: Siam
+- batch-549.json  units=211  chars=4946  pages: Siam
+- batch-550.json  units=495  chars=14986  pages: Philippines
+- batch-551.json  units=232  chars=13366  pages: Philippines
+- batch-552.json  units=93  chars=14954  pages: Philippines
+- batch-553.json  units=310  chars=15000  pages: Philippines
+- batch-554.json  units=149  chars=2253  pages: Philippines
+- batch-555.json  units=332  chars=14991  pages: National spirit
+- batch-556.json  units=291  chars=14333  pages: National spirit
+- batch-557.json  units=302  chars=14990  pages: National spirit
+- batch-558.json  units=344  chars=9214  pages: National spirit
+- batch-559.json  units=335  chars=14990  pages: Afghanistan
+- batch-560.json  units=363  chars=14983  pages: Afghanistan
+- batch-561.json  units=56  chars=5662  pages: Afghanistan
+- batch-562.json  units=92  chars=14932  pages: Afghanistan
+- batch-563.json  units=419  chars=13904  pages: Afghanistan
+- batch-564.json  units=401  chars=14994  pages: Lithuania
+- batch-565.json  units=175  chars=10100  pages: Lithuania
+- batch-566.json  units=103  chars=11124  pages: Lithuania
+- batch-567.json  units=109  chars=14934  pages: Lithuania
+- batch-568.json  units=169  chars=14688  pages: Lithuania
+- batch-569.json  units=284  chars=11941  pages: Lithuania
+- batch-570.json  units=486  chars=14672  pages: South Africa
+- batch-571.json  units=139  chars=10960  pages: South Africa
+- batch-572.json  units=88  chars=8175  pages: South Africa
+- batch-573.json  units=114  chars=14998  pages: South Africa
+- batch-574.json  units=403  chars=13977  pages: South Africa
+- batch-575.json  units=229  chars=14971  pages: Chinese Soviet Republic
+- batch-576.json  units=445  chars=14923  pages: Chinese Soviet Republic
+- batch-577.json  units=211  chars=14984  pages: Chinese Soviet Republic
+- batch-578.json  units=257  chars=14999  pages: Chinese Soviet Republic
+- batch-579.json  units=87  chars=1240  pages: Chinese Soviet Republic
+- batch-580.json  units=231  chars=14925  pages: Land doctrine
+- batch-581.json  units=169  chars=14899  pages: Land doctrine
+- batch-582.json  units=204  chars=14986  pages: Land doctrine
+- batch-583.json  units=194  chars=14572  pages: Land doctrine
+- batch-584.json  units=419  chars=12063  pages: Land doctrine
+- batch-585.json  units=457  chars=14981  pages: Switzerland
+- batch-586.json  units=165  chars=14985  pages: Switzerland
+- batch-587.json  units=90  chars=4960  pages: Switzerland
+- batch-588.json  units=50  chars=14969  pages: Switzerland
+- batch-589.json  units=286  chars=14992  pages: Switzerland
+- batch-590.json  units=165  chars=3803  pages: Switzerland
+- batch-591.json  units=300  chars=14973  pages: List of industrial concerns
+- batch-592.json  units=288  chars=14862  pages: List of industrial concerns
+- batch-593.json  units=317  chars=14991  pages: List of industrial concerns
+- batch-594.json  units=300  chars=8251  pages: List of industrial concerns
+- batch-595.json  units=423  chars=14932  pages: Latvia
+- batch-596.json  units=138  chars=14936  pages: Latvia
+- batch-597.json  units=100  chars=14935  pages: Latvia
+- batch-598.json  units=369  chars=14981  pages: Latvia
+- batch-599.json  units=123  chars=1996  pages: Latvia
+- batch-600.json  units=416  chars=14931  pages: Manchukuo
+- batch-601.json  units=314  chars=14839  pages: Manchukuo
+- batch-602.json  units=50  chars=14171  pages: Manchukuo
+- batch-603.json  units=62  chars=14994  pages: Manchukuo
+- batch-604.json  units=295  chars=5896  pages: Manchukuo
+- batch-605.json  units=413  chars=14221  pages: Estonia
+- batch-606.json  units=136  chars=14946  pages: Estonia
+- batch-607.json  units=79  chars=4277  pages: Estonia
+- batch-608.json  units=66  chars=14980  pages: Estonia
+- batch-609.json  units=230  chars=14977  pages: Estonia
+- batch-610.json  units=210  chars=5326  pages: Estonia
+- batch-611.json  units=408  chars=14996  pages: Iceland
+- batch-612.json  units=211  chars=15000  pages: Iceland
+- batch-613.json  units=143  chars=14957  pages: Iceland
+- batch-614.json  units=256  chars=14997  pages: Iceland
+- batch-615.json  units=105  chars=1471  pages: Iceland
+- batch-616.json  units=228  chars=14792  pages: Formable nations/Europe
+- batch-617.json  units=171  chars=14733  pages: Formable nations/Europe
+- batch-618.json  units=105  chars=14900  pages: Formable nations/Europe
+- batch-619.json  units=74  chars=14960  pages: Formable nations/Europe
+- batch-620.json  units=103  chars=14546  pages: Formable nations/Europe
+- batch-621.json  units=110  chars=14974  pages: Formable nations/Europe
+- batch-622.json  units=292  chars=12700  pages: Formable nations/Europe
+- batch-623.json  units=307  chars=14983  pages: Republican Spain
+- batch-624.json  units=316  chars=14887  pages: Republican Spain
+- batch-625.json  units=179  chars=13710  pages: Republican Spain
+- batch-626.json  units=253  chars=7269  pages: Republican Spain
+- batch-627.json  units=698  chars=14957  pages: List of military chiefs
+- batch-628.json  units=343  chars=5456  pages: List of military chiefs
+- batch-629.json  units=399  chars=14884  pages: Albania
+- batch-630.json  units=148  chars=12351  pages: Albania
+- batch-631.json  units=153  chars=14974  pages: Albania
+- batch-632.json  units=198  chars=14976  pages: Albania
+- batch-633.json  units=128  chars=2449  pages: Albania
+- batch-634.json  units=697  chars=14996  pages: List of military high command
+- batch-635.json  units=321  chars=5544  pages: List of military high command
+- batch-636.json  units=484  chars=14993  pages: List of modifiers
+- batch-637.json  units=445  chars=14911  pages: List of modifiers
+- batch-638.json  units=73  chars=9529  pages: List of modifiers
+- batch-639.json  units=439  chars=13238  pages: Bolivia
+- batch-640.json  units=146  chars=12326  pages: Bolivia
+- batch-641.json  units=153  chars=14974  pages: Bolivia
+- batch-642.json  units=161  chars=14973  pages: Bolivia
+- batch-643.json  units=94  chars=1967  pages: Bolivia
+- batch-644.json  units=407  chars=14905  pages: Uruguay
+- batch-645.json  units=184  chars=13845  pages: Uruguay
+- batch-646.json  units=153  chars=14974  pages: Uruguay
+- batch-647.json  units=242  chars=7788  pages: Uruguay
+- batch-648.json  units=476  chars=14981  pages: Italian State of East Africa
+- batch-649.json  units=97  chars=8863  pages: Italian State of East Africa
+- batch-650.json  units=149  chars=14837  pages: Italian State of East Africa
+- batch-651.json  units=258  chars=12848  pages: Italian State of East Africa
+- batch-652.json  units=482  chars=14850  pages: Qinghai Ma
+- batch-653.json  units=300  chars=14984  pages: Qinghai Ma
+- batch-654.json  units=196  chars=3728  pages: Qinghai Ma
+- batch-655.json  units=550  chars=14988  pages: Releasable countries/Europe
+- batch-656.json  units=415  chars=14991  pages: Releasable countries/Europe
+- batch-657.json  units=13  chars=175  pages: Releasable countries/Europe
+- batch-658.json  units=448  chars=14993  pages: Paraguay
+- batch-659.json  units=149  chars=12393  pages: Paraguay
+- batch-660.json  units=153  chars=14974  pages: Paraguay
+- batch-661.json  units=223  chars=9411  pages: Paraguay
+- batch-662.json  units=880  chars=14995  pages: Releasable countries
+- batch-663.json  units=92  chars=2194  pages: Releasable countries
+- batch-664.json  units=371  chars=13672  pages: Colombia
+- batch-665.json  units=148  chars=12351  pages: Colombia
+- batch-666.json  units=153  chars=14974  pages: Colombia
+- batch-667.json  units=279  chars=14999  pages: Colombia
+- batch-668.json  units=18  chars=259  pages: Colombia
+- batch-669.json  units=404  chars=14991  pages: British Burma
+- batch-670.json  units=89  chars=8426  pages: British Burma
+- batch-671.json  units=153  chars=14974  pages: British Burma
+- batch-672.json  units=314  chars=10186  pages: British Burma
+- batch-673.json  units=425  chars=14644  pages: Mongolia
+- batch-674.json  units=89  chars=8426  pages: Mongolia
+- batch-675.json  units=153  chars=14997  pages: Mongolia
+- batch-676.json  units=290  chars=8916  pages: Mongolia
+- batch-677.json  units=433  chars=14983  pages: Developer diaries
+- batch-678.json  units=398  chars=14983  pages: Developer diaries
+- batch-679.json  units=122  chars=4277  pages: Developer diaries
+- batch-680.json  units=457  chars=14996  pages: Sinkiang
+- batch-681.json  units=341  chars=14989  pages: Sinkiang
+- batch-682.json  units=145  chars=2384  pages: Sinkiang
+- batch-683.json  units=647  chars=14991  pages: Releasable countries/Soviet Union
+- batch-684.json  units=294  chars=7361  pages: Releasable countries/Soviet Union
+- batch-685.json  units=410  chars=14967  pages: Peru
+- batch-686.json  units=118  chars=9752  pages: Peru
+- batch-687.json  units=153  chars=14974  pages: Peru
+- batch-688.json  units=259  chars=8660  pages: Peru
+- batch-689.json  units=392  chars=14914  pages: British Malaya
+- batch-690.json  units=105  chars=9117  pages: British Malaya
+- batch-691.json  units=153  chars=14986  pages: British Malaya
+- batch-692.json  units=284  chars=10898  pages: British Malaya
+- batch-693.json  units=362  chars=14980  pages: Sheikhdom of Kuwait
+- batch-694.json  units=104  chars=14936  pages: Sheikhdom of Kuwait
+- batch-695.json  units=274  chars=14998  pages: Sheikhdom of Kuwait
+- batch-696.json  units=187  chars=4156  pages: Sheikhdom of Kuwait
+- batch-697.json  units=374  chars=14175  pages: Lebanese Republic
+- batch-698.json  units=89  chars=8426  pages: Lebanese Republic
+- batch-699.json  units=153  chars=14974  pages: Lebanese Republic
+- batch-700.json  units=308  chars=12522  pages: Lebanese Republic
+- batch-701.json  units=355  chars=14867  pages: Commander trait
+- batch-702.json  units=295  chars=14976  pages: Commander trait
+- batch-703.json  units=270  chars=6813  pages: Commander trait
+- batch-704.json  units=375  chars=14981  pages: Mandatory Palestine
+- batch-705.json  units=103  chars=14884  pages: Mandatory Palestine
+- batch-706.json  units=254  chars=14988  pages: Mandatory Palestine
+- batch-707.json  units=188  chars=4232  pages: Mandatory Palestine
+- batch-708.json  units=385  chars=14164  pages: Tibet
+- batch-709.json  units=89  chars=8426  pages: Tibet
+- batch-710.json  units=153  chars=14974  pages: Tibet
+- batch-711.json  units=287  chars=10245  pages: Tibet
+- batch-712.json  units=405  chars=14098  pages: Luxembourg
+- batch-713.json  units=89  chars=8426  pages: Luxembourg
+- batch-714.json  units=153  chars=14974  pages: Luxembourg
+- batch-715.json  units=262  chars=9483  pages: Luxembourg
+- batch-716.json  units=320  chars=14992  pages: Naval doctrine
+- batch-717.json  units=340  chars=14952  pages: Naval doctrine
+- batch-718.json  units=248  chars=6276  pages: Naval doctrine
+- batch-719.json  units=380  chars=14109  pages: Oman
+- batch-720.json  units=89  chars=8426  pages: Oman
+- batch-721.json  units=153  chars=14974  pages: Oman
+- batch-722.json  units=284  chars=13207  pages: Oman
+- batch-723.json  units=365  chars=14998  pages: Ireland
+- batch-724.json  units=109  chars=9293  pages: Ireland
+- batch-725.json  units=153  chars=14974  pages: Ireland
+- batch-726.json  units=276  chars=10096  pages: Ireland
+- batch-727.json  units=484  chars=14881  pages: Shanxi
+- batch-728.json  units=419  chars=14537  pages: Shanxi
+- batch-729.json  units=463  chars=14986  pages: Guangxi Clique
+- batch-730.json  units=246  chars=14983  pages: Guangxi Clique
+- batch-731.json  units=191  chars=3595  pages: Guangxi Clique
+- batch-732.json  units=373  chars=13759  pages: Bhutan
+- batch-733.json  units=89  chars=8426  pages: Bhutan
+- batch-734.json  units=153  chars=14993  pages: Bhutan
+- batch-735.json  units=283  chars=9434  pages: Bhutan
+- batch-736.json  units=353  chars=13937  pages: Independent State of Croatia
+- batch-737.json  units=89  chars=8426  pages: Independent State of Croatia
+- batch-738.json  units=153  chars=14974  pages: Independent State of Croatia
+- batch-739.json  units=196  chars=14987  pages: Independent State of Croatia
+- batch-740.json  units=103  chars=1507  pages: Independent State of Croatia
+- batch-741.json  units=388  chars=13700  pages: Republic of Syria
+- batch-742.json  units=89  chars=8426  pages: Republic of Syria
+- batch-743.json  units=153  chars=14974  pages: Republic of Syria
+- batch-744.json  units=261  chars=8800  pages: Republic of Syria
+- batch-745.json  units=371  chars=13992  pages: Yemen
+- batch-746.json  units=89  chars=8426  pages: Yemen
+- batch-747.json  units=153  chars=14974  pages: Yemen
+- batch-748.json  units=278  chars=9134  pages: Yemen
+- batch-749.json  units=498  chars=14999  pages: Yunnan
+- batch-750.json  units=387  chars=11567  pages: Yunnan
+- batch-751.json  units=370  chars=14976  pages: Tannu Tuva
+- batch-752.json  units=100  chars=14986  pages: Tannu Tuva
+- batch-753.json  units=395  chars=14995  pages: Tannu Tuva
+- batch-754.json  units=16  chars=236  pages: Tannu Tuva
+- batch-755.json  units=416  chars=14418  pages: Ecuador
+- batch-756.json  units=89  chars=8426  pages: Ecuador
+- batch-757.json  units=153  chars=14974  pages: Ecuador
+- batch-758.json  units=218  chars=11201  pages: Ecuador
+- batch-759.json  units=354  chars=13865  pages: Saudi Arabia
+- batch-760.json  units=89  chars=8426  pages: Saudi Arabia
+- batch-761.json  units=153  chars=14974  pages: Saudi Arabia
+- batch-762.json  units=280  chars=9559  pages: Saudi Arabia
+- batch-763.json  units=164  chars=14775  pages: Infantry technology
+- batch-764.json  units=244  chars=14974  pages: Infantry technology
+- batch-765.json  units=463  chars=14759  pages: Infantry technology
+- batch-766.json  units=383  chars=14948  pages: Nepal
+- batch-767.json  units=96  chars=14866  pages: Nepal
+- batch-768.json  units=391  chars=14982  pages: Nepal
+- batch-769.json  units=366  chars=13746  pages: Emirate of Transjordan
+- batch-770.json  units=89  chars=8426  pages: Emirate of Transjordan
+- batch-771.json  units=153  chars=14974  pages: Emirate of Transjordan
+- batch-772.json  units=261  chars=10019  pages: Emirate of Transjordan
+- batch-773.json  units=403  chars=14769  pages: Venezuela
+- batch-774.json  units=89  chars=8426  pages: Venezuela
+- batch-775.json  units=153  chars=14974  pages: Venezuela
+- batch-776.json  units=223  chars=7291  pages: Venezuela
+- batch-777.json  units=829  chars=14994  pages: List of commanders (base game)
+- batch-778.json  units=38  chars=1814  pages: List of commanders (base game)
+- batch-779.json  units=405  chars=14974  pages: Panama
+- batch-780.json  units=91  chars=8543  pages: Panama
+- batch-781.json  units=153  chars=14974  pages: Panama
+- batch-782.json  units=218  chars=10659  pages: Panama
+- batch-783.json  units=178  chars=14653  pages: Localisation
+- batch-784.json  units=183  chars=14904  pages: Localisation
+- batch-785.json  units=313  chars=14995  pages: Localisation
+- batch-786.json  units=168  chars=8803  pages: Localisation
+- batch-787.json  units=390  chars=14213  pages: Honduras
+- batch-788.json  units=89  chars=8426  pages: Honduras
+- batch-789.json  units=153  chars=14974  pages: Honduras
+- batch-790.json  units=200  chars=7216  pages: Honduras
+- batch-791.json  units=452  chars=14998  pages: Reichskommissariats
+- batch-792.json  units=376  chars=11234  pages: Reichskommissariats
+- batch-793.json  units=367  chars=14029  pages: Sultanate of Aussa
+- batch-794.json  units=89  chars=8426  pages: Sultanate of Aussa
+- batch-795.json  units=153  chars=14974  pages: Sultanate of Aussa
+- batch-796.json  units=217  chars=9259  pages: Sultanate of Aussa
+- batch-797.json  units=376  chars=14755  pages: Cuba
+- batch-798.json  units=89  chars=8426  pages: Cuba
+- batch-799.json  units=153  chars=14974  pages: Cuba
+- batch-800.json  units=206  chars=7842  pages: Cuba
+- batch-801.json  units=379  chars=14478  pages: Guatemala
+- batch-802.json  units=89  chars=8426  pages: Guatemala
+- batch-803.json  units=153  chars=14974  pages: Guatemala
+- batch-804.json  units=203  chars=7276  pages: Guatemala
+- batch-805.json  units=382  chars=14993  pages: Liberia
+- batch-806.json  units=103  chars=14963  pages: Liberia
+- batch-807.json  units=245  chars=14988  pages: Liberia
+- batch-808.json  units=94  chars=1879  pages: Liberia
+- batch-809.json  units=390  chars=14983  pages: Dominican Republic
+- batch-810.json  units=103  chars=14963  pages: Dominican Republic
+- batch-811.json  units=330  chars=13755  pages: Dominican Republic
+- batch-812.json  units=373  chars=13915  pages: El Salvador
+- batch-813.json  units=89  chars=8426  pages: El Salvador
+- batch-814.json  units=153  chars=14974  pages: El Salvador
+- batch-815.json  units=201  chars=7368  pages: El Salvador
+- batch-816.json  units=376  chars=13771  pages: Costa Rica
+- batch-817.json  units=89  chars=8426  pages: Costa Rica
+- batch-818.json  units=153  chars=14974  pages: Costa Rica
+- batch-819.json  units=193  chars=7208  pages: Costa Rica
+- batch-820.json  units=366  chars=13750  pages: Haiti
+- batch-821.json  units=89  chars=8426  pages: Haiti
+- batch-822.json  units=153  chars=14974  pages: Haiti
+- batch-823.json  units=201  chars=6848  pages: Haiti
+- batch-824.json  units=367  chars=13396  pages: Nicaragua
+- batch-825.json  units=89  chars=8426  pages: Nicaragua
+- batch-826.json  units=153  chars=14974  pages: Nicaragua
+- batch-827.json  units=200  chars=7311  pages: Nicaragua
+- batch-828.json  units=443  chars=14983  pages: Formable nations
+- batch-829.json  units=362  chars=8269  pages: Formable nations
+- batch-830.json  units=223  chars=14657  pages: Scopes
+- batch-831.json  units=260  chars=14937  pages: Scopes
+- batch-832.json  units=174  chars=14961  pages: Scopes
+- batch-833.json  units=143  chars=7777  pages: Scopes
+- batch-834.json  units=370  chars=14575  pages: Vojvodina
+- batch-835.json  units=92  chars=14944  pages: Vojvodina
+- batch-836.json  units=330  chars=14779  pages: Vojvodina
+- batch-837.json  units=511  chars=14921  pages: List of Factions
+- batch-838.json  units=262  chars=14983  pages: List of Factions
+- batch-839.json  units=11  chars=275  pages: List of Factions
+- batch-840.json  units=353  chars=14989  pages: Second Philippine Republic
+- batch-841.json  units=94  chars=14970  pages: Second Philippine Republic
+- batch-842.json  units=308  chars=14997  pages: Second Philippine Republic
+- batch-843.json  units=23  chars=528  pages: Second Philippine Republic
+- batch-844.json  units=426  chars=14986  pages: Reorganized National Government of the Republic of China
+- batch-845.json  units=265  chars=14986  pages: Reorganized National Government of the Republic of China
+- batch-846.json  units=82  chars=1984  pages: Reorganized National Government of the Republic of China
+- batch-847.json  units=274  chars=14881  pages: List of materiel designers
+- batch-848.json  units=361  chars=14995  pages: List of materiel designers
+- batch-849.json  units=137  chars=2840  pages: List of materiel designers
+- batch-850.json  units=408  chars=14932  pages: Khotan Ma
+- batch-851.json  units=360  chars=12846  pages: Khotan Ma
+- batch-852.json  units=168  chars=14940  pages: Patch 1.12.X
+- batch-853.json  units=148  chars=14959  pages: Patch 1.12.X
+- batch-854.json  units=146  chars=14932  pages: Patch 1.12.X
+- batch-855.json  units=144  chars=14993  pages: Patch 1.12.X
+- batch-856.json  units=153  chars=13467  pages: Patch 1.12.X
+- batch-857.json  units=253  chars=14620  pages: Formable nations/Asia
+- batch-858.json  units=190  chars=14912  pages: Formable nations/Asia
+- batch-859.json  units=312  chars=8884  pages: Formable nations/Asia
+- batch-860.json  units=434  chars=14968  pages: Ningxia Ma
+- batch-861.json  units=313  chars=11102  pages: Ningxia Ma
+- batch-862.json  units=338  chars=14794  pages: Kumul Khanate
+- batch-863.json  units=294  chars=14972  pages: Kumul Khanate
+- batch-864.json  units=112  chars=1751  pages: Kumul Khanate
+- batch-865.json  units=743  chars=8932  pages: List of 1936 start legacy deployed destroyers
+- batch-866.json  units=227  chars=14940  pages: Custom difficulty
+- batch-867.json  units=171  chars=14971  pages: Custom difficulty
+- batch-868.json  units=161  chars=14869  pages: Custom difficulty
+- batch-869.json  units=182  chars=11100  pages: Custom difficulty
+- batch-870.json  units=398  chars=14987  pages: Guangdong Clique
+- batch-871.json  units=314  chars=14997  pages: Guangdong Clique
+- batch-872.json  units=29  chars=454  pages: Guangdong Clique
+- batch-873.json  units=435  chars=14966  pages: Gansu Ma
+- batch-874.json  units=300  chars=10732  pages: Gansu Ma
+- batch-875.json  units=325  chars=14981  pages: Air doctrine
+- batch-876.json  units=406  chars=11232  pages: Air doctrine
+- batch-877.json  units=160  chars=14912  pages: Patch 1.17.X
+- batch-878.json  units=164  chars=14951  pages: Patch 1.17.X
+- batch-879.json  units=157  chars=14858  pages: Patch 1.17.X
+- batch-880.json  units=156  chars=14990  pages: Patch 1.17.X
+- batch-881.json  units=94  chars=7868  pages: Patch 1.17.X
+- batch-882.json  units=427  chars=14966  pages: Sichuan Clique
+- batch-883.json  units=304  chars=14175  pages: Sichuan Clique
+- batch-884.json  units=324  chars=14997  pages: Northeastern Army
+- batch-885.json  units=289  chars=14995  pages: Northeastern Army
+- batch-886.json  units=115  chars=1672  pages: Northeastern Army
+- batch-887.json  units=148  chars=14726  pages: National focus modding
+- batch-888.json  units=102  chars=14561  pages: National focus modding
+- batch-889.json  units=173  chars=13282  pages: National focus modding
+- batch-890.json  units=22  chars=14871  pages: National focus modding
+- batch-891.json  units=29  chars=14726  pages: National focus modding
+- batch-892.json  units=119  chars=14937  pages: National focus modding
+- batch-893.json  units=129  chars=4851  pages: National focus modding
+- batch-894.json  units=301  chars=13718  pages: Dalmatia
+- batch-895.json  units=92  chars=14944  pages: Dalmatia
+- batch-896.json  units=326  chars=14863  pages: Dalmatia
+- batch-897.json  units=451  chars=14996  pages: Hebei-Chahar
+- batch-898.json  units=259  chars=8950  pages: Hebei-Chahar
+- batch-899.json  units=438  chars=14925  pages: Shandong Clique
+- batch-900.json  units=266  chars=9511  pages: Shandong Clique
+- batch-901.json  units=228  chars=14965  pages: Intel
+- batch-902.json  units=137  chars=14996  pages: Intel
+- batch-903.json  units=198  chars=14857  pages: Intel
+- batch-904.json  units=132  chars=4750  pages: Intel
+- batch-905.json  units=178  chars=14942  pages: AI modding
+- batch-906.json  units=178  chars=14995  pages: AI modding
+- batch-907.json  units=157  chars=14891  pages: AI modding
+- batch-908.json  units=102  chars=14990  pages: AI modding
+- batch-909.json  units=79  chars=2543  pages: AI modding
+- batch-910.json  units=237  chars=14831  pages: List of aircraft designers
+- batch-911.json  units=171  chars=14947  pages: List of aircraft designers
+- batch-912.json  units=284  chars=7777  pages: List of aircraft designers
+- batch-913.json  units=201  chars=14197  pages: Nationalist Spain
+- batch-914.json  units=271  chars=14117  pages: Nationalist Spain
+- batch-915.json  units=211  chars=5449  pages: Nationalist Spain
+- batch-916.json  units=681  chars=14071  pages: Releasable countries/Africa
+- batch-917.json  units=125  chars=14979  pages: Map modding
+- batch-918.json  units=84  chars=14715  pages: Map modding
+- batch-919.json  units=179  chars=14945  pages: Map modding
+- batch-920.json  units=135  chars=14130  pages: Map modding
+- batch-921.json  units=157  chars=10043  pages: Map modding
+- batch-922.json  units=179  chars=14950  pages: Patch 1.16.X
+- batch-923.json  units=172  chars=14936  pages: Patch 1.16.X
+- batch-924.json  units=151  chars=14875  pages: Patch 1.16.X
+- batch-925.json  units=138  chars=14776  pages: Patch 1.16.X
+- batch-926.json  units=37  chars=3251  pages: Patch 1.16.X
+- batch-927.json  units=519  chars=14905  pages: Historical ship variants
+- batch-928.json  units=155  chars=8536  pages: Historical ship variants
+- batch-929.json  units=546  chars=14986  pages: Releasable countries/Asia
+- batch-930.json  units=117  chars=1741  pages: Releasable countries/Asia
+- batch-931.json  units=449  chars=15000  pages: Mengjiang
+- batch-932.json  units=207  chars=5236  pages: Mengjiang
+- batch-933.json  units=105  chars=14967  pages: Modding
+- batch-934.json  units=141  chars=14886  pages: Modding
+- batch-935.json  units=119  chars=14995  pages: Modding
+- batch-936.json  units=103  chars=14501  pages: Modding
+- batch-937.json  units=164  chars=14968  pages: Modding
+- batch-938.json  units=3  chars=109  pages: Modding
+- batch-939.json  units=225  chars=14989  pages: Character modding
+- batch-940.json  units=202  chars=14982  pages: Character modding
+- batch-941.json  units=205  chars=8165  pages: Character modding
+- batch-942.json  units=380  chars=14997  pages: List of Tank MIOs
+- batch-943.json  units=248  chars=9815  pages: List of Tank MIOs
+- batch-944.json  units=157  chars=14853  pages: Patch 1.5
+- batch-945.json  units=174  chars=14978  pages: Patch 1.5
+- batch-946.json  units=152  chars=14818  pages: Patch 1.5
+- batch-947.json  units=138  chars=11221  pages: Patch 1.5
+- batch-948.json  units=156  chars=14837  pages: Patch 1.9.X
+- batch-949.json  units=153  chars=14919  pages: Patch 1.9.X
+- batch-950.json  units=157  chars=14966  pages: Patch 1.9.X
+- batch-951.json  units=151  chars=12634  pages: Patch 1.9.X
+- batch-952.json  units=153  chars=14962  pages: Patch 1.6.X
+- batch-953.json  units=159  chars=14968  pages: Patch 1.6.X
+- batch-954.json  units=169  chars=14977  pages: Patch 1.6.X
+- batch-955.json  units=130  chars=11622  pages: Patch 1.6.X
+- batch-956.json  units=166  chars=14974  pages: Patch 1.13.X
+- batch-957.json  units=161  chars=14871  pages: Patch 1.13.X
+- batch-958.json  units=153  chars=14951  pages: Patch 1.13.X
+- batch-959.json  units=126  chars=13080  pages: Patch 1.13.X
+- batch-960.json  units=597  chars=12433  pages: Ship designer
+- batch-961.json  units=226  chars=14937  pages: Patch 1.6
+- batch-962.json  units=186  chars=14934  pages: Patch 1.6
+- batch-963.json  units=184  chars=12816  pages: Patch 1.6
+- batch-964.json  units=236  chars=14776  pages: List of ship designers
+- batch-965.json  units=272  chars=14983  pages: List of ship designers
+- batch-966.json  units=83  chars=1853  pages: List of ship designers
+- batch-967.json  units=147  chars=14906  pages: Country creation
+- batch-968.json  units=160  chars=14436  pages: Country creation
+- batch-969.json  units=158  chars=14810  pages: Country creation
+- batch-970.json  units=120  chars=4896  pages: Country creation
+- batch-971.json  units=510  chars=14982  pages: Tank designer
+- batch-972.json  units=71  chars=2022  pages: Tank designer
+- batch-973.json  units=364  chars=14976  pages: Experience
+- batch-974.json  units=211  chars=4157  pages: Experience
+- batch-975.json  units=573  chars=10211  pages: List of theorists
+- batch-976.json  units=217  chars=14846  pages: List of tank designers
+- batch-977.json  units=280  chars=14996  pages: List of tank designers
+- batch-978.json  units=75  chars=1522  pages: List of tank designers
+- batch-979.json  units=307  chars=14880  pages: List of Plane MIOs
+- batch-980.json  units=262  chars=12376  pages: List of Plane MIOs
+- batch-981.json  units=183  chars=14926  pages: Patch 1.9
+- batch-982.json  units=173  chars=14861  pages: Patch 1.9
+- batch-983.json  units=170  chars=14961  pages: Patch 1.9
+- batch-984.json  units=4  chars=214  pages: Patch 1.9
+- batch-985.json  units=162  chars=14998  pages: Naval technology
+- batch-986.json  units=367  chars=12955  pages: Naval technology
+- batch-987.json  units=358  chars=14975  pages: Ideology
+- batch-988.json  units=165  chars=2966  pages: Ideology
+- batch-989.json  units=519  chars=12635  pages: Aircraft designer
+- batch-990.json  units=172  chars=14988  pages: Patch 1.11.X
+- batch-991.json  units=163  chars=14959  pages: Patch 1.11.X
+- batch-992.json  units=167  chars=14725  pages: Patch 1.11.X
+- batch-993.json  units=180  chars=14990  pages: Patch 1.3.X
+- batch-994.json  units=182  chars=14957  pages: Patch 1.3.X
+- batch-995.json  units=137  chars=11533  pages: Patch 1.3.X
+- batch-996.json  units=487  chars=9575  pages: Strategic region
+- batch-997.json  units=241  chars=14861  pages: Special forces doctrine
+- batch-998.json  units=242  chars=8033  pages: Special forces doctrine
+- batch-999.json  units=482  chars=14397  pages: Amerindian Nations
+- batch-1000.json  units=156  chars=14973  pages: Naval technology (Basic)
+- batch-1001.json  units=325  chars=9756  pages: Naval technology (Basic)
+- batch-1002.json  units=171  chars=14996  pages: Patch 1.14.X
+- batch-1003.json  units=119  chars=14848  pages: Patch 1.14.X
+- batch-1004.json  units=125  chars=14870  pages: Patch 1.14.X
+- batch-1005.json  units=57  chars=6018  pages: Patch 1.14.X
+- batch-1006.json  units=203  chars=14939  pages: Support companies technology
+- batch-1007.json  units=266  chars=8679  pages: Support companies technology
+- batch-1008.json  units=212  chars=14780  pages: Artillery technology
+- batch-1009.json  units=251  chars=7352  pages: Artillery technology
+- batch-1010.json  units=251  chars=14976  pages: On actions
+- batch-1011.json  units=208  chars=9022  pages: On actions
+- batch-1012.json  units=457  chars=7769  pages: Province
+- batch-1013.json  units=348  chars=14866  pages: List of Ship MIOs
+- batch-1014.json  units=105  chars=4642  pages: List of Ship MIOs
+- batch-1015.json  units=170  chars=14945  pages: Naval support technology
+- batch-1016.json  units=281  chars=8515  pages: Naval support technology
+- batch-1017.json  units=163  chars=14798  pages: Patch 1.11
+- batch-1018.json  units=150  chars=14955  pages: Patch 1.11
+- batch-1019.json  units=134  chars=12635  pages: Patch 1.11
+- batch-1020.json  units=214  chars=14730  pages: Balance of power
+- batch-1021.json  units=230  chars=12518  pages: Balance of power
+- batch-1022.json  units=182  chars=14926  pages: Patch 1.5.X
+- batch-1023.json  units=164  chars=14971  pages: Patch 1.5.X
+- batch-1024.json  units=94  chars=9882  pages: Patch 1.5.X
+- batch-1025.json  units=170  chars=14994  pages: Armor technology (Basic)
+- batch-1026.json  units=267  chars=10209  pages: Armor technology (Basic)
+- batch-1027.json  units=186  chars=14731  pages: Naval battle
+- batch-1028.json  units=96  chars=14933  pages: Naval battle
+- batch-1029.json  units=153  chars=9550  pages: Naval battle
+- batch-1030.json  units=256  chars=14988  pages: Building modding
+- batch-1031.json  units=166  chars=3039  pages: Building modding
+- batch-1032.json  units=204  chars=14846  pages: Faction modding
+- batch-1033.json  units=216  chars=11932  pages: Faction modding
+- batch-1034.json  units=414  chars=8622  pages: Indian Princely States
+- batch-1035.json  units=119  chars=14501  pages: Technology modding
+- batch-1036.json  units=132  chars=14957  pages: Technology modding
+- batch-1037.json  units=78  chars=14274  pages: Technology modding
+- batch-1038.json  units=78  chars=2865  pages: Technology modding
+- batch-1039.json  units=248  chars=14933  pages: Commander
+- batch-1040.json  units=157  chars=5613  pages: Commander
+- batch-1041.json  units=401  chars=8097  pages: List of operatives
+- batch-1042.json  units=207  chars=15000  pages: Armor technology
+- batch-1043.json  units=190  chars=4342  pages: Armor technology
+- batch-1044.json  units=263  chars=14963  pages: Raid
+- batch-1045.json  units=134  chars=4348  pages: Raid
+- batch-1046.json  units=228  chars=14967  pages: Engineering technology
+- batch-1047.json  units=166  chars=3562  pages: Engineering technology
+- batch-1048.json  units=237  chars=14775  pages: Interface modding
+- batch-1049.json  units=157  chars=3921  pages: Interface modding
+- batch-1050.json  units=101  chars=14903  pages: Peace conference
+- batch-1051.json  units=164  chars=15000  pages: Peace conference
+- batch-1052.json  units=127  chars=7079  pages: Peace conference
+- batch-1053.json  units=192  chars=14992  pages: Military industrial organization
+- batch-1054.json  units=190  chars=6684  pages: Military industrial organization
+- batch-1055.json  units=177  chars=14925  pages: Patch 1.12
+- batch-1056.json  units=176  chars=14947  pages: Patch 1.12
+- batch-1057.json  units=25  chars=2204  pages: Patch 1.12
+- batch-1058.json  units=333  chars=15000  pages: List of Material Equipment MIOs
+- batch-1059.json  units=44  chars=1727  pages: List of Material Equipment MIOs
+- batch-1060.json  units=282  chars=14850  pages: Recruitable population
+- batch-1061.json  units=90  chars=3745  pages: Recruitable population
+- batch-1062.json  units=216  chars=14993  pages: Military industrial organization modding
+- batch-1063.json  units=151  chars=4229  pages: Military industrial organization modding
+- batch-1064.json  units=117  chars=14449  pages: Idea modding
+- batch-1065.json  units=231  chars=14999  pages: Idea modding
+- batch-1066.json  units=14  chars=130  pages: Idea modding
+- batch-1067.json  units=355  chars=14092  pages: Releasable countries/Americas
+- batch-1068.json  units=351  chars=12737  pages: Map
+- batch-1069.json  units=350  chars=11433  pages: Equipment
+- batch-1070.json  units=182  chars=14999  pages: State modding
+- batch-1071.json  units=159  chars=3406  pages: State modding
+- batch-1072.json  units=172  chars=14925  pages: Patch 1.4
+- batch-1073.json  units=165  chars=14613  pages: Patch 1.4
+- batch-1074.json  units=332  chars=6585  pages: Releasable countries/Oceania
+- batch-1075.json  units=331  chars=11348  pages: Continuous focus
+- batch-1076.json  units=186  chars=14994  pages: Decision modding
+- batch-1077.json  units=143  chars=8936  pages: Decision modding
+- batch-1078.json  units=139  chars=14969  pages: Event modding
+- batch-1079.json  units=97  chars=14109  pages: Event modding
+- batch-1080.json  units=91  chars=5174  pages: Event modding
+- batch-1081.json  units=327  chars=11737  pages: Operations
+- batch-1082.json  units=195  chars=14905  pages: Patch 1.3
+- batch-1083.json  units=130  chars=10145  pages: Patch 1.3
+- batch-1084.json  units=152  chars=14619  pages: Downloadable content 2
+- batch-1085.json  units=172  chars=10958  pages: Downloadable content 2
+- batch-1086.json  units=300  chars=14988  pages: Air technology (Basic)
+- batch-1087.json  units=23  chars=566  pages: Air technology (Basic)
+- batch-1088.json  units=188  chars=14877  pages: Vic2ToHoI4: Focus Trees
+- batch-1089.json  units=132  chars=7625  pages: Vic2ToHoI4: Focus Trees
+- batch-1090.json  units=281  chars=14985  pages: Industry technology
+- batch-1091.json  units=38  chars=863  pages: Industry technology
+- batch-1092.json  units=231  chars=14997  pages: Formable nations/Africa
+- batch-1093.json  units=87  chars=1318  pages: Formable nations/Africa
+- batch-1094.json  units=214  chars=14986  pages: Victoria 2 to Hearts of Iron IV converter
+- batch-1095.json  units=104  chars=3118  pages: Victoria 2 to Hearts of Iron IV converter
+- batch-1096.json  units=313  chars=13353  pages: Air technology
+- batch-1097.json  units=171  chars=14889  pages: Ship
+- batch-1098.json  units=142  chars=6565  pages: Ship
+- batch-1099.json  units=117  chars=14989  pages: Cod wars
+- batch-1100.json  units=194  chars=14371  pages: Cod wars
+- batch-1101.json  units=304  chars=13074  pages: State
+- batch-1102.json  units=156  chars=14859  pages: Air missions
+- batch-1103.json  units=147  chars=7699  pages: Air missions
+- batch-1104.json  units=76  chars=14481  pages: America Decolonized!
+- batch-1105.json  units=70  chars=14844  pages: America Decolonized!
+- batch-1106.json  units=154  chars=8925  pages: America Decolonized!
+- batch-1107.json  units=172  chars=14984  pages: Patch 1.18.X
+- batch-1108.json  units=128  chars=11763  pages: Patch 1.18.X
+- batch-1109.json  units=163  chars=14958  pages: Patch 1.19.X
+- batch-1110.json  units=137  chars=13530  pages: Patch 1.19.X
+- batch-1111.json  units=217  chars=14890  pages: Scripted GUI modding
+- batch-1112.json  units=77  chars=1502  pages: Scripted GUI modding
+- batch-1113.json  units=253  chars=14998  pages: Confederacy of American States
+- batch-1114.json  units=39  chars=1048  pages: Confederacy of American States
+- batch-1115.json  units=290  chars=6785  pages: Indonesian Princely States
+- batch-1116.json  units=289  chars=7684  pages: Horn of Africa nations
+- batch-1117.json  units=284  chars=12127  pages: Carpatho-Ukraine
+- batch-1118.json  units=282  chars=14259  pages: Formable nations/South America
+- batch-1119.json  units=277  chars=10555  pages: Operatives
+- batch-1120.json  units=275  chars=5691  pages: List of Decision lists
+- batch-1121.json  units=155  chars=14997  pages: Patch 1.10.X
+- batch-1122.json  units=120  chars=10985  pages: Patch 1.10.X
+- batch-1123.json  units=273  chars=14709  pages: Free France
+- batch-1124.json  units=173  chars=14976  pages: Al-Andalus
+- batch-1125.json  units=99  chars=2279  pages: Al-Andalus
+- batch-1126.json  units=272  chars=11126  pages: Hearts of Iron IV
+- batch-1127.json  units=270  chars=5568  pages: List of scientists
+- batch-1128.json  units=224  chars=14996  pages: Vichy France
+- batch-1129.json  units=42  chars=579  pages: Vichy France
+- batch-1130.json  units=192  chars=14414  pages: Troubleshooting
+- batch-1131.json  units=73  chars=2845  pages: Troubleshooting
+- batch-1132.json  units=260  chars=14997  pages: Attrition and accidents
+- batch-1133.json  units=2  chars=24  pages: Attrition and accidents
+- batch-1134.json  units=194  chars=14912  pages: Patch 1.4.X
+- batch-1135.json  units=67  chars=5485  pages: Patch 1.4.X
+- batch-1136.json  units=260  chars=11181  pages: Career profile
+- batch-1137.json  units=156  chars=14982  pages: Patch 1.19
+- batch-1138.json  units=98  chars=9505  pages: Patch 1.19
+- batch-1139.json  units=206  chars=14960  pages: Patch 1.2
+- batch-1140.json  units=46  chars=3333  pages: Patch 1.2
+- batch-1141.json  units=250  chars=9532  pages: List of default ship variants
+- batch-1142.json  units=199  chars=14988  pages: Patch 1.1
+- batch-1143.json  units=51  chars=2843  pages: Patch 1.1
+- batch-1144.json  units=173  chars=14711  pages: Autonomy state modding
+- batch-1145.json  units=73  chars=1765  pages: Autonomy state modding
+- batch-1146.json  units=245  chars=13941  pages: Jan Mayen
+- batch-1147.json  units=206  chars=14768  pages: MEFO Bills
+- batch-1148.json  units=35  chars=6424  pages: MEFO Bills
+- batch-1149.json  units=158  chars=14984  pages: Balance of power modding
+- batch-1150.json  units=82  chars=2182  pages: Balance of power modding
+- batch-1151.json  units=238  chars=14443  pages: Division modding
+- batch-1152.json  units=237  chars=4745  pages: Resource prospecting decisions
+- batch-1153.json  units=234  chars=4714  pages: List of intelligence agencies
+- batch-1154.json  units=114  chars=14983  pages: Bookmark modding
+- batch-1155.json  units=118  chars=6567  pages: Bookmark modding
+- batch-1156.json  units=185  chars=14976  pages: Patch 1.13
+- batch-1157.json  units=45  chars=4000  pages: Patch 1.13
+- batch-1158.json  units=181  chars=15000  pages: Australia-Hungary
+- batch-1159.json  units=48  chars=898  pages: Australia-Hungary
+- batch-1160.json  units=150  chars=14994  pages: Air combat
+- batch-1161.json  units=74  chars=2693  pages: Air combat
+- batch-1162.json  units=127  chars=14932  pages: Land battle
+- batch-1163.json  units=97  chars=4143  pages: Land battle
+- batch-1164.json  units=224  chars=8912  pages: Scientist
+- batch-1165.json  units=90  chars=14940  pages: No one crosses the finnish line
+- batch-1166.json  units=123  chars=2507  pages: No one crosses the finnish line
+- batch-1167.json  units=184  chars=14988  pages: Patch 1.17
+- batch-1168.json  units=28  chars=2427  pages: Patch 1.17
+- batch-1169.json  units=155  chars=14995  pages: Patch 1.15.X
+- batch-1170.json  units=56  chars=5000  pages: Patch 1.15.X
+- batch-1171.json  units=210  chars=10395  pages: Formable nations/North America
+- batch-1172.json  units=204  chars=8998  pages: This time for Africa
+- batch-1173.json  units=201  chars=8421  pages: United Baltic Duchy
+- batch-1174.json  units=200  chars=9192  pages: Don Cossack Host
+- batch-1175.json  units=200  chars=11127  pages: This achievement is dedicated to the brave soldiers of...
+- batch-1176.json  units=199  chars=11669  pages: Font modding
+- batch-1177.json  units=198  chars=9616  pages: Holy, Roman, and an Empire
+- batch-1178.json  units=96  chars=14894  pages: Nudger
+- batch-1179.json  units=102  chars=7937  pages: Nudger
+- batch-1180.json  units=193  chars=6978  pages: Graphical asset modding
+- batch-1181.json  units=77  chars=14999  pages: Bad Ending - The whole world is now Brazil
+- batch-1182.json  units=114  chars=2063  pages: Bad Ending - The whole world is now Brazil
+- batch-1183.json  units=165  chars=14980  pages: Patch 1.15
+- batch-1184.json  units=24  chars=2853  pages: Patch 1.15
+- batch-1185.json  units=188  chars=14356  pages: Media Mughal
+- batch-1186.json  units=186  chars=9022  pages: The Legacy of Cyrus the Great
+- batch-1187.json  units=184  chars=8720  pages: Fuel
+- batch-1188.json  units=181  chars=8121  pages: Caramelldansen
+- batch-1189.json  units=179  chars=12384  pages: Patch 1.7
+- batch-1190.json  units=178  chars=9527  pages: Crusader Kings 2
+- batch-1191.json  units=177  chars=3002  pages: Aircraft
+- batch-1192.json  units=177  chars=10484  pages: Pinot Noirway
+- batch-1193.json  units=176  chars=7887  pages: House of Kurds
+- batch-1194.json  units=176  chars=8932  pages: Kuban National Republic
+- batch-1195.json  units=174  chars=4938  pages: Brentry
+- batch-1196.json  units=174  chars=8527  pages: One King, Two Crowns
+- batch-1197.json  units=173  chars=9154  pages: Free City of Danzig
+- batch-1198.json  units=172  chars=13726  pages: Cheese your fighter.
+- batch-1199.json  units=170  chars=5276  pages: War goal
+- batch-1200.json  units=169  chars=9697  pages: Chilean Empire
+- batch-1201.json  units=168  chars=14807  pages: List of operations
+- batch-1202.json  units=168  chars=8876  pages: Nuclear bomb
+- batch-1203.json  units=167  chars=7582  pages: Imperial influence
+- batch-1204.json  units=167  chars=10233  pages: Missions
+- batch-1205.json  units=167  chars=4944  pages: New World Order
+- batch-1206.json  units=166  chars=4693  pages: True Blitzkrieg
+- batch-1207.json  units=165  chars=11112  pages: Hail to the Qing
+- batch-1208.json  units=165  chars=5971  pages: Siberian Tiger
+- batch-1209.json  units=164  chars=6668  pages: Antischluss
+- batch-1210.json  units=164  chars=9113  pages: Uralic brothers united
+- batch-1211.json  units=163  chars=7005  pages: Death or Dishonor or Cake
+- batch-1212.json  units=161  chars=8486  pages: Treading the Narrow Path
+- batch-1213.json  units=160  chars=4343  pages: Czechmate
+- batch-1214.json  units=160  chars=11777  pages: Naval missions
+- batch-1215.json  units=160  chars=9050  pages: This Achievement is Cheesy
+- batch-1216.json  units=160  chars=4750  pages: You Shall Not Pass
+- batch-1217.json  units=159  chars=4552  pages: Entity modding
+- batch-1218.json  units=158  chars=5637  pages: Danzig queen
+- batch-1219.json  units=157  chars=6996  pages: Battlecry
+- batch-1220.json  units=157  chars=10882  pages: Division designer
+- batch-1221.json  units=157  chars=5847  pages: East Germany
+- batch-1222.json  units=157  chars=7855  pages: The People Have Stood Up!
+- batch-1223.json  units=156  chars=7191  pages: Missile
+- batch-1224.json  units=156  chars=9283  pages: Sudetenland
+- batch-1225.json  units=156  chars=4828  pages: The Soviet Onion
+- batch-1226.json  units=156  chars=3896  pages: Unit modding
+- batch-1227.json  units=155  chars=5436  pages: Norway Jose
+- batch-1228.json  units=155  chars=5489  pages: Rule Britannia
+- batch-1229.json  units=155  chars=4934  pages: This is going to be LIT
+- batch-1230.json  units=154  chars=6025  pages: Governments in exile
+- batch-1231.json  units=154  chars=8936  pages: Huge-oslavia
+- batch-1232.json  units=154  chars=9291  pages: I didn't hear no bell
+- batch-1233.json  units=154  chars=6398  pages: That's Sikh!
+- batch-1234.json  units=153  chars=7623  pages: 30 Minutes of Hel
+- batch-1235.json  units=152  chars=6724  pages: Bad Romeance
+- batch-1236.json  units=152  chars=6893  pages: Man the Guns
+- batch-1237.json  units=152  chars=4440  pages: Oil Sheiks
+- batch-1238.json  units=151  chars=7795  pages: Turkish decisions
+- batch-1239.json  units=151  chars=5706  pages: West Germany
+- batch-1240.json  units=150  chars=9327  pages: International market
+- batch-1241.json  units=149  chars=4892  pages: Equipment modding
+- batch-1242.json  units=149  chars=5149  pages: Miklos Horthy and the Habsburg Prince
+- batch-1243.json  units=149  chars=5231  pages: William Wallis
+- batch-1244.json  units=148  chars=4180  pages: Tour de France
+- batch-1245.json  units=148  chars=6725  pages: Woman in a High Castle
+- batch-1246.json  units=147  chars=6511  pages: Bearer of Artillery
+- batch-1247.json  units=144  chars=2690  pages: Hearts of Iron 4 Wiki
+- batch-1248.json  units=143  chars=6023  pages: Emirate of Pashtunistan
+- batch-1249.json  units=143  chars=5163  pages: Go Ahead, Macau My Day
+- batch-1250.json  units=142  chars=7417  pages: Cosmetic tag modding
+- batch-1251.json  units=142  chars=5265  pages: Neither Death nor Dishonor
+- batch-1252.json  units=141  chars=5200  pages: Balkan Problem Solved
+- batch-1253.json  units=141  chars=3998  pages: The Lion King
+- batch-1254.json  units=141  chars=4337  pages: The True Successor
+- batch-1255.json  units=140  chars=7780  pages: Galicia and Lodomeria
+- batch-1256.json  units=140  chars=6841  pages: Manpower
+- batch-1257.json  units=140  chars=4795  pages: The Magic School Bus
+- batch-1258.json  units=140  chars=7327  pages: …and you get a canton, everybody gets a canton!
+- batch-1259.json  units=139  chars=4120  pages: Otto-man
+- batch-1260.json  units=139  chars=4540  pages: Our Other Place in the Sun
+- batch-1261.json  units=139  chars=7673  pages: The Dragon Swallowed the Sun
+- batch-1262.json  units=139  chars=7509  pages: Waking the Tiger
+- batch-1263.json  units=138  chars=3464  pages: Big Entente
+- batch-1264.json  units=138  chars=3450  pages: Lamento Boliviano
+- batch-1265.json  units=138  chars=7974  pages: Navy
+- batch-1266.json  units=138  chars=3193  pages: United Netherlands (achievement)
+- batch-1267.json  units=137  chars=3641  pages: Esti is Scandi
+- batch-1268.json  units=137  chars=7565  pages: Khorasan
+- batch-1269.json  units=136  chars=2866  pages: List of aces
+- batch-1270.json  units=136  chars=5264  pages: The 501st Legion
+- batch-1271.json  units=136  chars=10713  pages: Unaligned States of America
+- batch-1272.json  units=135  chars=3701  pages: Lone Wolf
+- batch-1273.json  units=135  chars=3278  pages: Sapmi united by the fire
+- batch-1274.json  units=134  chars=3987  pages: A Great Hunger
+- batch-1275.json  units=134  chars=4224  pages: Crusader Kings IV
+- batch-1276.json  units=134  chars=2960  pages: It has my name on it
+- batch-1277.json  units=104  chars=14481  pages: Support company
+- batch-1278.json  units=30  chars=13321  pages: Support company
+- batch-1279.json  units=133  chars=4642  pages: Don’t Die for Your Country
+- batch-1280.json  units=133  chars=8010  pages: Mughal West Britain Company
+- batch-1281.json  units=133  chars=3565  pages: My Ships Don't Lie
+- batch-1282.json  units=132  chars=3897  pages: Ain't like that now
+- batch-1283.json  units=132  chars=4754  pages: Crush the Dream
+- batch-1284.json  units=132  chars=5441  pages: London Naval Treaty
+- batch-1285.json  units=132  chars=3990  pages: No more Partitions
+- batch-1286.json  units=132  chars=3533  pages: Sound modding
+- batch-1287.json  units=132  chars=6756  pages: Spanish Civil War layout
+- batch-1288.json  units=131  chars=6364  pages: Mod structure
+- batch-1289.json  units=260  chars=9405  pages: Battle Royale, By Beer Alone
+- batch-1290.json  units=130  chars=13072  pages: Civil war
+- batch-1291.json  units=260  chars=7359  pages: Hardly Anything Sèvres, Its all coming together
+- batch-1292.json  units=130  chars=14255  pages: Patch 1.18
+- batch-1293.json  units=259  chars=9457  pages: Sunrise Invasion, Bullseye
+- batch-1294.json  units=256  chars=6945  pages: Congolese Belgium, Istanbul is Constantinople. Again.
+- batch-1295.json  units=256  chars=5958  pages: The Lenin Boys are Back in Town, The Sun Will Never Set
+- batch-1296.json  units=254  chars=7004  pages: Ancient Formable Nations, Awake and Angry
+- batch-1297.json  units=254  chars=7512  pages: Cobalt Sea, Crusader Kings
+- batch-1298.json  units=254  chars=11412  pages: Indian Partisans, Party like it's 1520
+- batch-1299.json  units=254  chars=10234  pages: The Dragon Rises, We’re Putting the Band Back Together
+- batch-1300.json  units=251  chars=8215  pages: La Résistance, The Red Sea
+- batch-1301.json  units=125  chars=11065  pages: War participation
+- batch-1302.json  units=248  chars=11189  pages: Ideology modding, The Munich Disagreement
+- batch-1303.json  units=245  chars=8822  pages: Hail to the King, The Danelaw
+- batch-1304.json  units=240  chars=7341  pages: From Tehran with Love, The return of the king
+- batch-1305.json  units=238  chars=6015  pages: The Romanovs laugh last, List of terrain adjusters by unit
+- batch-1306.json  units=235  chars=8525  pages: Together for Victory, Formable nations/Oceania
+- batch-1307.json  units=234  chars=8082  pages: Paradisus Paradoxum, Variant
+- batch-1308.json  units=232  chars=12239  pages: Maphilindia, No Step Back
+- batch-1309.json  units=226  chars=8228  pages: Achievement modding, Old Zealand
+- batch-1310.json  units=226  chars=6198  pages: Posteffect modding, The Neverending Story
+- batch-1311.json  units=224  chars=5929  pages: Land units by unit, Oh, how the turntables
+- batch-1312.json  units=214  chars=11441  pages: Patch 1.14, Contact us
+- batch-1313.json  units=209  chars=12523  pages: Particle modding, Internal factions
+- batch-1314.json  units=191  chars=8727  pages: AI focuses, No Compromise, No Surrender
+- batch-1315.json  units=186  chars=8420  pages: Music modding, Arms Against Tyranny
+- batch-1316.json  units=184  chars=6167  pages: Strategic region modding, Thunder at Our Gates
+- batch-1317.json  units=181  chars=6222  pages: Doctrine modding, By Blood Alone
+- batch-1318.json  units=178  chars=6481  pages: Intelligence agency modding, Resources modding
+- batch-1319.json  units=254  chars=5333  pages: Main Page/links, Portrait modding, Namelist modding
+- batch-1320.json  units=232  chars=14531  pages: Border war, Supply areas modding, Launch options
+- batch-1321.json  units=220  chars=12468  pages: Death or Dishonor, Historical divisions, Difficulty
+- batch-1322.json  units=216  chars=10232  pages: Götterdämmerung, Land units by year, Patch 1.10
+- batch-1323.json  units=185  chars=12803  pages: Victoria 3 to Hearts of Iron IV converter, Trial of Allegiance, The Road to 56
+- batch-1324.json  units=218  chars=11891  pages: Patch 1.16, Graveyard of Empires, Patch 1.8, Battle for the Bosporus
+- batch-1325.json  units=258  chars=14883  pages: Paradox, Peace for Our Time, Soviet events, Ironman, Patch 1.7.X, The Second Sino-Japanese War
+- batch-1326.json  units=243  chars=13875  pages: Bulgarian events BftB, Patch 1.0.X, French events LaR, Land doctrine/Sample divisions with doctrine bonuses, Kaiserreich, Tutorial videos … (+2)
+- batch-1327.json  units=243  chars=6163  pages: Main Page/news, American events MtG, Turkish events, Mexican events, List of design companies, Romanian events DoD … (+6)
+- batch-1328.json  units=256  chars=13320  pages: Generic decisions, German events, Chinese events WtT, Hungarian events DoD 1, Patch 1.8.X, Reconnaissance … (+12)
+- batch-1329.json  units=253  chars=7661  pages: News events 3, Czechoslovakian decisions, Hungarian events DoD 2, News events 1, News events WtT, Political decisions … (+20)
+- batch-1330.json  units=257  chars=7065  pages: Backhand Blow, Battlefleet Concentration, British Raj events, Canadian events, Elastic Defense, Infantry Offensive … (+31)
+- batch-1331.json  units=158  chars=5745  pages: Election events, Finnish events, Generic events AAT, German events GD, German events WtT, Greek events … (+36)

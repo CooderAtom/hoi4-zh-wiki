@@ -1,0 +1,811 @@
+{
+ "batch": 61,
+ "pages": [
+  "Division"
+ ],
+ "chars": 9858,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "102bdse",
+   "en": "The overall division unit type is indicated by its default division icon. Battalions all have one or more tags that indicate their type. The division type is determined by multiplying an internal \"priority\" weight by the number of battalions of each type, and taking the type with the highest score as the exemplar unit that defines the division type. If there are multiple unit types with the same weighted priority, the first (top, left) unit in the template is used to determine the exemplar type."
+  },
+  {
+   "k": "7eqpl4",
+   "en": "In the game files, unit type priority weights are found in the unit definition files in the ...\\common\\units\\ directory. Those values are reproduced here for reference."
+  },
+  {
+   "k": "t3mdrb",
+   "en": "Unit"
+  },
+  {
+   "k": "1ryxjjd",
+   "en": "Priority"
+  },
+  {
+   "k": "1amzk8q",
+   "en": "Types"
+  },
+  {
+   "k": "1a08bpw",
+   "en": "Anti-Air"
+  },
+  {
+   "k": "v16zy1",
+   "en": "Infantry Anti-Air"
+  },
+  {
+   "k": "16jbfog",
+   "en": "Anti-Tank"
+  },
+  {
+   "k": "4vqizf",
+   "en": "Infantry Anti-Tank"
+  },
+  {
+   "k": "3qwbiw",
+   "en": "Amphibious Mechanized"
+  },
+  {
+   "k": "n784l1",
+   "en": "Mechanized"
+  },
+  {
+   "k": "fxf05w",
+   "en": "Amphibious Tank"
+  },
+  {
+   "k": "10tp7xw",
+   "en": "Armor"
+  },
+  {
+   "k": "111b9k7",
+   "en": "Armored Car"
+  },
+  {
+   "k": "1d2kspk",
+   "en": "Motorized"
+  },
+  {
+   "k": "1r47f81",
+   "en": "Artillery"
+  },
+  {
+   "k": "qt9986",
+   "en": "Infantry Artillery"
+  },
+  {
+   "k": "1m8mzph",
+   "en": "Cavalry"
+  },
+  {
+   "k": "1z021n6",
+   "en": "Infantry Cavalry"
+  },
+  {
+   "k": "1e5oanb",
+   "en": "Infantry Support"
+  },
+  {
+   "k": "w054ns",
+   "en": "Heavy SP Anti-Air"
+  },
+  {
+   "k": "s2aox9",
+   "en": "Armor Anti-Air"
+  },
+  {
+   "k": "10uahf9",
+   "en": "Heavy SP Artillery"
+  },
+  {
+   "k": "j99au2",
+   "en": "Armor Artillery"
+  },
+  {
+   "k": "1qr70g0",
+   "en": "Heavy Tank"
+  },
+  {
+   "k": "144r5f1",
+   "en": "Heavy Tank Destroyer"
+  },
+  {
+   "k": "dywn2v",
+   "en": "Armor Anti-Tank"
+  },
+  {
+   "k": "1m32jfk",
+   "en": "Infantry"
+  },
+  {
+   "k": "1eho6sb",
+   "en": "Light SP Anti-Air"
+  },
+  {
+   "k": "4t6dgs",
+   "en": "Light SP Artillery"
+  },
+  {
+   "k": "1i6wsf5",
+   "en": "Light Tank"
+  },
+  {
+   "k": "1qe9i4o",
+   "en": "Light Tank Destroyer"
+  },
+  {
+   "k": "1xonxwc",
+   "en": "Marines"
+  },
+  {
+   "k": "9cwgeh",
+   "en": "Infantry Special Forces"
+  },
+  {
+   "k": "1hl9h6",
+   "en": "Mechanized Infantry"
+  },
+  {
+   "k": "1xl9cc2",
+   "en": "Medium SP Anti-Air"
+  },
+  {
+   "k": "1l3rn65",
+   "en": "Armor anti-Air"
+  },
+  {
+   "k": "vjo0pf",
+   "en": "Medium SP Artillery"
+  },
+  {
+   "k": "znbvzu",
+   "en": "Medium Tank"
+  },
+  {
+   "k": "1y44yjr",
+   "en": "Medium Tank Destroyer"
+  },
+  {
+   "k": "sge2xa",
+   "en": "Modern SP Anti-Air"
+  },
+  {
+   "k": "dn6l4f",
+   "en": "Modern SP Artillery"
+  },
+  {
+   "k": "1jr9uhi",
+   "en": "Modern Tank"
+  },
+  {
+   "k": "1h53mt7",
+   "en": "Modern Tank Destroyer"
+  },
+  {
+   "k": "1o5fg01",
+   "en": "Motorized Anti-Air"
+  },
+  {
+   "k": "14lw61v",
+   "en": "Motorized Anti-Tank"
+  },
+  {
+   "k": "1uorcj2",
+   "en": "Motorized Artillery"
+  },
+  {
+   "k": "1agypw1",
+   "en": "Motorized Infantry"
+  },
+  {
+   "k": "kq8p9a",
+   "en": "Motorized Rocket Artillery"
+  },
+  {
+   "k": "13ogbba",
+   "en": "Artillery Motorized Rocket"
+  },
+  {
+   "k": "zg71i7",
+   "en": "Mountaineers"
+  },
+  {
+   "k": "qz6xaj",
+   "en": "Paratroopers"
+  },
+  {
+   "k": "1vw2nmr",
+   "en": "Recon Company"
+  },
+  {
+   "k": "1kpwnmn",
+   "en": "Rocket Artillery"
+  },
+  {
+   "k": "58gfif",
+   "en": "Super Heavy SP Anti-Air"
+  },
+  {
+   "k": "ci1liw",
+   "en": "Super Heavy SP Artillery"
+  },
+  {
+   "k": "ecg4kc",
+   "en": "Super Heavy Tank Destroyer"
+  },
+  {
+   "k": "11sipp6",
+   "en": "Super-Heavy Tank"
+  },
+  {
+   "k": "1vn23n1",
+   "en": "Truck-drawn Rocket Artillery"
+  },
+  {
+   "k": "sq2i25",
+   "en": "Division Examples"
+  },
+  {
+   "k": "emdht7",
+   "en": "⟦0⟧ from 1939-1944",
+   "frags": 1
+  },
+  {
+   "k": "nyqkp9",
+   "en": "Historical Divisions"
+  },
+  {
+   "k": "1h0k7yc",
+   "en": "Strategy"
+  },
+  {
+   "k": "1345498",
+   "en": "The below is ⟦0⟧ player suggested strategies for ⟦1⟧. Bear in mind, due to the dynamic nature of the game, it may unfold differently for other players.",
+   "frags": 2
+  },
+  {
+   "k": "27ek6d",
+   "en": "Stat optimizations"
+  },
+  {
+   "k": "thmlaf",
+   "en": "Often it is necessary to optimize a Division for a certain, likely battlefield or role. Doing so requires the mixing of the right Battalions and Companies."
+  },
+  {
+   "k": "1bfm6zv",
+   "en": "Understrength stats"
+  },
+  {
+   "k": "agwa4e",
+   "en": "When a division is understrength its stats are reduced in the principle of how many troops are present to operate how much available equipment. When out of combat the overall \"Current Fighting Strength\" ratio is determined by taking the minimum of the manpower ratio and the cost-weighted equipment ratio. The stats of the division are the stats of all its battalions and companies combined in ways described above, which are calculated differently from the overall strength ratio. For each battalion (company) the equipment stats are scaled by the lower one of the manpower ratio and the unweighted equipment ratio for each type of equipment the battalion uses, and the subunit stats (including terrain modifiers but excluding organization, recovery rate, and combat width) are scaled by the manpower ratio only, unless the battalion (company) uses \"essential\" equipment, in which case all the stats are further scaled by the cost-weighted ratio of the respective essential equipment. All the equipment of all support companies and the mechanized battalion is essential, except that infantry equipment is not essential to the engineers company."
+  },
+  {
+   "k": "kthxb3",
+   "en": "Organization & recovery"
+  },
+  {
+   "k": "12aiuav",
+   "en": "This is perhaps the single most important stat. And there are two groups of battalions that are good at it: foot infantry and all mobile infantry."
+  },
+  {
+   "k": "wys9wf",
+   "en": "Tanks, artillery and support companies are the parts that are lacking, sometimes severely so. So you need to bring just enough manpower into the mix, to have an effective fighting force. However, note that a lot of doctrines actually offset those penalties for some specific elements, allowing you to use them much more freely."
+  },
+  {
+   "k": "1yp3xla",
+   "en": "Maximum speed"
+  },
+  {
+   "k": "j745q7",
+   "en": "If you want anything more than the 4 km/h of an Infantry Batallion, you have to limit yourself to a combination of Tank and Mobile Battalions that suits your needs. Even just a pure mobile infantry. Artillery has to be limited to support companies, and/or provided by motorized/tank variants."
+  },
+  {
+   "k": "10ldzg8",
+   "en": "Suppression"
+  },
+  {
+   "k": "vw4ej2",
+   "en": "Most infantry provides 1 to 1.5, while tanks provide 2.5 and artillery/Anti-Tanks provide 0."
+  },
+  {
+   "k": "1he012y",
+   "en": "However, the cavalry and bicycle infantry provides 2 which can be buffed further with a Military Police Support Company. Yes, there is actually something Cavalry is good at - playing police! Do mind that they cost more supply and equipment, however. Considering that losses due to resistance are calculated by manpower factored vs (1-hardness), soft units like infantry and cavalry employed see a nation suffer higher casualties compared to light tanks or armoured cars."
+  },
+  {
+   "k": "1rbjfiz",
+   "en": "Reliability"
+  },
+  {
+   "k": "17nbx01",
+   "en": "This is the average of all equipment. For a lot of cheap equipment (Infantry Gear, Support Gear, Motorized) the 80% default is enough. However mechanized and tank divisions can benefit a lot from it, as they have the most expensive equipment."
+  },
+  {
+   "k": "107udzk",
+   "en": "Aside from investing XP into the reliability, the Maintenance company helps."
+  },
+  {
+   "k": "7l1zjb",
+   "en": "Soft attack"
+  },
+  {
+   "k": "yd6raw",
+   "en": "Infantry already provides plenty of soft attack/width. 1 Artillery easily provides 3 Infantry Battalions worth of Soft attack for half their width. Even light tanks and Mechanized lean more towards the Hard Attack side."
+  },
+  {
+   "k": "aqprj4",
+   "en": "Hard attack"
+  },
+  {
+   "k": "1cuhzu0",
+   "en": "While everything - even the Infantry equipment - has some Hard attack, usually the soft/hard ratio is in favor of killing infantry."
+  },
+  {
+   "k": "5rg8sj",
+   "en": "Tanks shift the balance more onto the side of hard, the heavier the better. Anything with Piercing will also do good Hard Attack. AA can also be somewhat effective at dealing hard attack, being half the damage of a AT Gun."
+  },
+  {
+   "k": "sdjise",
+   "en": "Air might also be an option."
+  },
+  {
+   "k": "1wd4mct",
+   "en": "Air attack"
+  },
+  {
+   "k": "1yc80mu",
+   "en": "Obviously AA is good at this. It seems unlikely that Armor, Hardness, Defense or Breakthrough has any effect."
+  },
+  {
+   "k": "fc2ybl",
+   "en": "Breakthrough"
+  },
+  {
+   "k": "179mq78",
+   "en": "Simply put, tanks are the best at this stat. Heavier is generally better, but the Modern beats the superheavy. Artillery also provides a decent bit, but of course mechanized Infantry the most aside from tanks."
+  },
+  {
+   "k": "1y4gvsj",
+   "en": "Defense"
+  },
+  {
+   "k": "1oauwoh",
+   "en": "Infantry is the top thing here. The need for mobility limits the buffs from support weapons passive research. Mechanized Infantry actually adds its defense to the equipment derived one, easily beating 80 per Battalion."
+  },
+  {
+   "k": "z5tiyg",
+   "en": "As history has shown, tanks are not good defensive battalions (unless you can get an armor advantage)."
+  },
+  {
+   "k": "yi3mov",
+   "en": "Incorrect. For example one armor battalion with an armor of 70 and one Infantry with an armor of 0 will give you an armor of 49 for the whole division and with 2 infantry battalions you will get 41.9."
+  },
+  {
+   "k": "85xl2t",
+   "en": "If your armor can exceed the enemy's piercing, then relevant combat bonuses await. 40% of the armor value is determined by the single highest armor battalion, so throw in a single very high armor battalion for that. The rest depends on the average values; try going for high-level mechanized Infantry to provide a high \"baseline\"."
+  },
+  {
+   "k": "4d6t2m",
+   "en": "Piercing"
+  },
+  {
+   "k": "17kcix0",
+   "en": "If the enemy fields heavy armor, then you need heavy piercing. Piercing works like Armor in that the highest value matters (40%), so always try to throw in one battalion of something powerful."
+  },
+  {
+   "k": "6prenm",
+   "en": "AT guns provide the best piercing, up until the T2 Heavy Tank becomes available (1941). The T2 heavy tank actually has better AP than contemporary AT guns, especially on the Tank Destroyer (tank hunter) variant. Still, as you can field 2 AT guns per 2 width, that might still be enough to increase the average to what you need."
+  },
+  {
+   "k": "1ngryt2",
+   "en": "The other 60% is provided by the weighted average of all battalions, and will mostly come from Infantry equipment (either Infantry gear or Mechanized). Do get the passive \"Infantry Anti-Tank\" upgrades, as they apply to both and can double the piercing values."
+  },
+  {
+   "k": "g7haak",
+   "en": "Do be careful of mixing any AT gun companies with line battalions of either AT guns or tanks. This is because AT companies have lower piercing which will lower the overall average division piercing and Organization."
+  },
+  {
+   "k": "1qfcwog",
+   "en": "Hardness rating"
+  },
+  {
+   "k": "10es9r6",
+   "en": "This is entirely based on how mechanized the army is. If you want a high value, then mix heavy tanks with higher mechanized infantry."
+  },
+  {
+   "k": "erwsml",
+   "en": "Forts"
+  },
+  {
+   "k": "yzjy78",
+   "en": "The Heavy Tank, Engineer Company and all Artillery except AA provides some bonuses. Super heavy tanks and to a lesser extent super heavy tank destroyers have by far the highest bonus. However, this uniquely has no penalties (as those are already rolled into the fortification mechanic itself)."
+  },
+  {
+   "k": "1jvoslf",
+   "en": "Amphibious assault"
+  },
+  {
+   "k": "11d73ps",
+   "en": "Or \"how to win D-Day\"."
+  },
+  {
+   "k": "1c33mpd",
+   "en": "As their name implies, amphibious tanks and Marines are best for the job,with the amphibious tanks being better, followed by baseline infantry. All artillery Battalions suffer penalties as do Tanks based on heaviness. The engineer Company provides a huge bonus."
+  },
+  {
+   "k": "gj04q",
+   "en": "You will be dependent on Support companies for many strategic needs."
+  },
+  {
+   "k": "or93dy",
+   "en": "Rivers"
+  },
+  {
+   "k": "1qlmn93",
+   "en": "Every River is a little Amphibious assault. Units suffer half the penalty of Amphibious Assaults, but it is applied to movement as well. The only additional exception here is the Cavalry which actually performs worse than baseline infantry. Still, if an overrun is wanted, then it might be worth it."
+  },
+  {
+   "k": "qg4us0",
+   "en": "Hill & mountain assault"
+  },
+  {
+   "k": "1omelfg",
+   "en": "The first choice of course are Mountaineers. Of the tanks, the lighter ones have a lower penalty. Mobile Battalions of all kinds also perform with lower penalties. All Infantry battalions only suffer movement penalties at worst."
+  },
+  {
+   "k": "194awwf",
+   "en": "External guides"
+  },
+  {
+   "k": "k8xw4g",
+   "en": "Beginner's Guide to Unit Types & Division Design"
+  },
+  {
+   "k": "46x2ht",
+   "en": "\"Why 40 Width Divisions Are Better Than 20 Width\" - A discussion on sizing."
+  },
+  {
+   "k": "j4vzu9",
+   "en": "Warfare"
+  },
+  {
+   "k": "1pmis96",
+   "en": "Land warfare"
+  },
+  {
+   "k": "gl2sa2",
+   "en": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ • ⟦3⟧ • ⟦4⟧ • ⟦5⟧ • ⟦6⟧ • ⟦7⟧ • ⟦8⟧ (also ⟦9⟧) • ⟦10⟧ • ⟦11⟧ • Special forces doctrine",
+   "frags": 12
+  },
+  {
+   "k": "1ikn79l",
+   "en": "Command group"
+  },
+  {
+   "k": "1kdpnrf",
+   "en": "Land units"
+  },
+  {
+   "k": "s6v7w2",
+   "en": "Tank designer"
+  },
+  {
+   "k": "67a45e",
+   "en": "Battle plan"
+  },
+  {
+   "k": "1pcnmim",
+   "en": "Land battle"
+  },
+  {
+   "k": "g2pgjm",
+   "en": "Infantry technology"
+  },
+  {
+   "k": "1rjf55b",
+   "en": "Support companies technology"
+  },
+  {
+   "k": "qg8ocm",
+   "en": "Armor technology"
+  },
+  {
+   "k": "vmbvr7",
+   "en": "without No Step Back"
+  },
+  {
+   "k": "qjz56x",
+   "en": "Artillery technology"
+  },
+  {
+   "k": "1cs1oqe",
+   "en": "Land doctrine"
+  },
+  {
+   "k": "p5a2y1",
+   "en": "Naval warfare"
+  },
+  {
+   "k": "1md36pp",
+   "en": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ (⟦3⟧) • ⟦4⟧ • ⟦5⟧ • ⟦6⟧ (also ⟦7⟧) • ⟦8⟧ • ⟦9⟧",
+   "frags": 10
+  },
+  {
+   "k": "9w638x",
+   "en": "Navy"
+  },
+  {
+   "k": "ccmhen",
+   "en": "Ship"
+  },
+  {
+   "k": "ov8z8s",
+   "en": "Ship designer"
+  },
+  {
+   "k": "uqska2",
+   "en": "London Naval Treaty"
+  },
+  {
+   "k": "1hvovva",
+   "en": "Naval missions"
+  },
+  {
+   "k": "1r6vn7z",
+   "en": "Naval battle"
+  },
+  {
+   "k": "1qb81nb",
+   "en": "Naval technology"
+  },
+  {
+   "k": "pw04bf",
+   "en": "without Man the Guns"
+  },
+  {
+   "k": "1oxxu4y",
+   "en": "Naval support technology"
+  },
+  {
+   "k": "jh80qf",
+   "en": "Naval doctrine"
+  },
+  {
+   "k": "gik2td",
+   "en": "Air warfare"
+  },
+  {
+   "k": "dkfq17",
+   "en": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ • ⟦3⟧ (also ⟦4⟧) • ⟦5⟧ • ⟦6⟧",
+   "frags": 7
+  },
+  {
+   "k": "ep0yao",
+   "en": "Aircraft designer"
+  },
+  {
+   "k": "poltvy",
+   "en": "Air missions"
+  },
+  {
+   "k": "1mfxar5",
+   "en": "Air combat"
+  },
+  {
+   "k": "9cafof",
+   "en": "Air technology"
+  },
+  {
+   "k": "wetszz",
+   "en": "without By Blood Alone"
+  },
+  {
+   "k": "pv8y7",
+   "en": "Air doctrine"
+  },
+  {
+   "k": "1ra2mls",
+   "en": "Missiles"
+  },
+  {
+   "k": "x63bw0",
+   "en": "Army experience"
+  },
+  {
+   "k": "1gqpavl",
+   "en": "Division designer companies.png"
+  },
+  {
+   "k": "1ipcegz",
+   "en": "Hardness Bar.jpg"
+  }
+ ]
+}

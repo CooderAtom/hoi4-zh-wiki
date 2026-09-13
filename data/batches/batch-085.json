@@ -1,0 +1,1986 @@
+{
+ "batch": 85,
+ "pages": [
+  "Console commands"
+ ],
+ "chars": 13531,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "yghwxk",
+   "en": "Also grants the name of the sprite and the interface element the player is hovering on, allowing to find the location of the image by ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "r4n62i",
+   "en": "searching every ⟦0⟧ file at the same time.",
+   "frags": 1
+  },
+  {
+   "k": "dw6d81",
+   "en": "/Hearts of Iron IV/interface/*.gfx"
+  },
+  {
+   "k": "113msog",
+   "en": "set_var [<variable>] [<value>]"
+  },
+  {
+   "k": "ggppsj",
+   "en": "Changes the value of a variable to the specified value."
+  },
+  {
+   "k": "ljaixd",
+   "en": "get_var [<variable>]"
+  },
+  {
+   "k": "aocgpa",
+   "en": "Shows the value of a variable in the console"
+  },
+  {
+   "k": "1ozntik",
+   "en": "list_vars"
+  },
+  {
+   "k": "cxiwqo",
+   "en": "Lists the variables set in the selected scope and their values."
+  },
+  {
+   "k": "1yse8yt",
+   "en": "set_country_flag [<Country Flag>]"
+  },
+  {
+   "k": "c4ls1z",
+   "en": "Adds a country flag to currently played nation."
+  },
+  {
+   "k": "kqy1iy",
+   "en": "Does not work if you put another nations tag in the command such as \"set_country_flag flag AUS\", even if it says in console that it does."
+  },
+  {
+   "k": "r77frt",
+   "en": "set_global_flag [<Global Flag>]"
+  },
+  {
+   "k": "1w9mb29",
+   "en": "Adds a global flag."
+  },
+  {
+   "k": "ls3e2d",
+   "en": "list_flags"
+  },
+  {
+   "k": "1kmqztj",
+   "en": "Lists currently active flags in the console windows."
+  },
+  {
+   "k": "1l8bm3v",
+   "en": "Context senstive if nothing (global_flag), country (country_flag) or state (state_flag) is selected when entering this command."
+  },
+  {
+   "k": "1g4k79z",
+   "en": "fast_forward [<amount of days>], [observer]"
+  },
+  {
+   "k": "c8c3mb",
+   "en": "Fast forward a set amount of days."
+  },
+  {
+   "k": "s0yps5",
+   "en": "list_hidden_focuses"
+  },
+  {
+   "k": "qhsr52",
+   "en": "Lists all of the hidden focuses from a country."
+  },
+  {
+   "k": "1gcupcv",
+   "en": "show_focuses"
+  },
+  {
+   "k": "an8nc7",
+   "en": "Shows all the hidden focuses."
+  },
+  {
+   "k": "15wd1ue",
+   "en": "trigger [<scripted_trigger_name>]"
+  },
+  {
+   "k": "uok0c",
+   "en": "Checks if a scripted trigger is true or not."
+  },
+  {
+   "k": "i563zm",
+   "en": "eval_trigger [<trigger code block>]"
+  },
+  {
+   "k": "1iq4y7",
+   "en": "Checks if the trigger code following the command is true or not, within the currently selected scope."
+  },
+  {
+   "k": "vm6hem",
+   "en": "Example: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "12hrqw8",
+   "en": "eval_trigger OR = { has_completed_focus = GER_remilitarize_the_rhineland has_war_support > 0.5 }"
+  },
+  {
+   "k": "15mqbv0",
+   "en": "effect (e) [<scripted_effect_name>]"
+  },
+  {
+   "k": "1sbz1kq",
+   "en": "Executes a ⟦0⟧, within the currently selected scope.",
+   "frags": 1
+  },
+  {
+   "k": "yuleew",
+   "en": "scripted effect"
+  },
+  {
+   "k": "rsdenp",
+   "en": "Example: ⟦0⟧ on a state will execute that effect on the state.",
+   "frags": 1
+  },
+  {
+   "k": "wgy8de",
+   "en": "e POL_remove_danzig_effect"
+  },
+  {
+   "k": "nlqq2y",
+   "en": "eval_effect [<effect code block>]"
+  },
+  {
+   "k": "fdaaly",
+   "en": "Executes the effect code following the command, within the currently selected scope."
+  },
+  {
+   "k": "gdkkv9",
+   "en": "Example: ⟦0⟧ would switch the country currently selected to the German focus tree.",
+   "frags": 1
+  },
+  {
+   "k": "1lqcznr",
+   "en": "eval_effect load_focus_tree = german_focus"
+  },
+  {
+   "k": "11s9rux",
+   "en": "ai [country tag...]"
+  },
+  {
+   "k": "1pv2r6y",
+   "en": "Toggles the AI on or off"
+  },
+  {
+   "k": "yvqnj7",
+   "en": "Without parameters toggles the AI for all countries. With parameters, toggles exceptions for those countries from the general rule. Can be used to confirm if a crash is AI-related."
+  },
+  {
+   "k": "17eutii",
+   "en": "aiview"
+  },
+  {
+   "k": "13xc3t9",
+   "en": "Enable AI debug info"
+  },
+  {
+   "k": "1193ko9",
+   "en": "human_ai"
+  },
+  {
+   "k": "elhjes",
+   "en": "Makes the AI control the country currently led by the player while the player also remains in control."
+  },
+  {
+   "k": "c2odkd",
+   "en": "AI will also create logs within ⟦0⟧ in the ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1nqqycb",
+   "en": "/Hearts of Iron IV/logs/scripted_ai.log"
+  },
+  {
+   "k": "3tohp",
+   "en": "user directory"
+  },
+  {
+   "k": "i0z3qn",
+   "en": "set_cosmetic_tag [<country tag>] [<cosmetic tag>]"
+  },
+  {
+   "k": "12qqzcb",
+   "en": "changes the name and flag of the country"
+  },
+  {
+   "k": "1k3plj3",
+   "en": "set_cosmetic_tag USA SOV"
+  },
+  {
+   "k": "1br9ah2",
+   "en": "reload [<type>]"
+  },
+  {
+   "k": "1lcnwzd",
+   "en": "Reloads files of a given type. Also accepts individual files within the ⟦0⟧ folder. Equivalent to the effect done automatically when saving over a file with debug mode turned on via launch options.",
+   "frags": 1
+  },
+  {
+   "k": "1ivt1a2",
+   "en": "/Hearts of Iron IV/interface/"
+  },
+  {
+   "k": "21g2o8",
+   "en": "reload loc (reloads localisation files) reload focus (reloads focuses) reload landcombat.gui (reloads land combat interface)"
+  },
+  {
+   "k": "1bxua8i",
+   "en": "reload loc (reloads localisation files)"
+  },
+  {
+   "k": "1g2kjv1",
+   "en": "reload focus (reloads focuses)"
+  },
+  {
+   "k": "9iaqr9",
+   "en": "reload landcombat.gui (reloads land combat interface)"
+  },
+  {
+   "k": "60dhu9",
+   "en": "reloadoob [<Target Country Tag>]"
+  },
+  {
+   "k": "1nnfnyf",
+   "en": "Reloads orders of battle."
+  },
+  {
+   "k": "1th1q9b",
+   "en": "reloadinterface"
+  },
+  {
+   "k": "11myv8",
+   "en": "Reloads the entire interface"
+  },
+  {
+   "k": "sadata",
+   "en": "reloadtechnologies"
+  },
+  {
+   "k": "1q333qx",
+   "en": "Reloads the technology database"
+  },
+  {
+   "k": "15ij3yd",
+   "en": "updateequipments"
+  },
+  {
+   "k": "1vqtlq7",
+   "en": "Updates the equipment database"
+  },
+  {
+   "k": "nyywa1",
+   "en": "updatesubunits"
+  },
+  {
+   "k": "1wqw62z",
+   "en": "Updates the subunit database"
+  },
+  {
+   "k": "11xpwto",
+   "en": "update_loc [localization tag]"
+  },
+  {
+   "k": "11gh2z7",
+   "en": "Updates the localization tag file"
+  },
+  {
+   "k": "9bb0pd",
+   "en": "error"
+  },
+  {
+   "k": "11j9vul",
+   "en": "Opens the error log file."
+  },
+  {
+   "k": "ckimpd",
+   "en": "If there are special characters in the folder path, this won't work. Equivalent to pressing on the error dog if enabling debug mode in launch options."
+  },
+  {
+   "k": "rc6rlq",
+   "en": "imgui"
+  },
+  {
+   "k": "bla2tw",
+   "en": "Controls ImGui UIs. Use ⟦0⟧ to list the available subcommands. These UIs cover a wide variety of useful modding tools, such as script profiling, AI debugging, and listing characters.",
+   "frags": 1
+  },
+  {
+   "k": "oykjyn",
+   "en": "imgui show"
+  },
+  {
+   "k": "7j5qq6",
+   "en": "goto_province [province id]"
+  },
+  {
+   "k": "c1b8l6",
+   "en": "Moves the camera position to the specified province."
+  },
+  {
+   "k": "1m4jmm6",
+   "en": "goto_state [state id]"
+  },
+  {
+   "k": "7wrzc9",
+   "en": "Moves the camera position to the specified state."
+  },
+  {
+   "k": "4bgvrl",
+   "en": "Other in-game commands"
+  },
+  {
+   "k": "r5d8tg",
+   "en": "province_ids (pid)"
+  },
+  {
+   "k": "1pdgui6",
+   "en": "Show province IDs on the map"
+  },
+  {
+   "k": "1par2g3",
+   "en": "ShowTechBonus"
+  },
+  {
+   "k": "1cenkax",
+   "en": "Unknown what it does, however with the name we can make a guess it has to do something with tech bonuses."
+  },
+  {
+   "k": "18oerzr",
+   "en": "Only for developers."
+  },
+  {
+   "k": "43ljar",
+   "en": "normals"
+  },
+  {
+   "k": "tjugm3",
+   "en": "Unknown what it does."
+  },
+  {
+   "k": "bwr8cl",
+   "en": "rendertype"
+  },
+  {
+   "k": "g5ajfz",
+   "en": "Reports what render backend is used"
+  },
+  {
+   "k": "y5kh5z",
+   "en": "tweakergui"
+  },
+  {
+   "k": "1jslyey",
+   "en": "Spawns a tweaker GUI"
+  },
+  {
+   "k": "pvbdgk",
+   "en": "time"
+  },
+  {
+   "k": "8q62wy",
+   "en": "What time is it?"
+  },
+  {
+   "k": "ez24sv",
+   "en": "reloadfx [Arguments: map/mapname/postfx or *.fx filename]"
+  },
+  {
+   "k": "qkzvr3",
+   "en": "Reloads the shader"
+  },
+  {
+   "k": "6lj2ih",
+   "en": "particle_editor"
+  },
+  {
+   "k": "1rpnbj1",
+   "en": "Spawns a particle editor"
+  },
+  {
+   "k": "1v9f707",
+   "en": "analyzetheatres (anth)"
+  },
+  {
+   "k": "1nu7bg1",
+   "en": "Analyze theatres for errors."
+  },
+  {
+   "k": "1k56gei",
+   "en": "massconquer (massc)"
+  },
+  {
+   "k": "19abc0v",
+   "en": "Mass conquer tool. Requires direct province names."
+  },
+  {
+   "k": "1jrhc95",
+   "en": "aircombat (airc) [<scenario name>] [<result name>] [<province id>] [<state id with airbase>] [<state id with airbase>] [<equipment type>] [<equipment type>] [<equipment creator country>] [<equipment creator country>]"
+  },
+  {
+   "k": "1c43yra",
+   "en": "Spawns an air combat in desired location."
+  },
+  {
+   "k": "17sj67l",
+   "en": "fronts"
+  },
+  {
+   "k": "ay6x3x",
+   "en": "Toggle visibility of the foreign fronts"
+  },
+  {
+   "k": "1st03is",
+   "en": "ai_front_dump (aifrontdump)"
+  },
+  {
+   "k": "1h7k2rp",
+   "en": "Dump AI front data to log file, needs to have a unit selected"
+  },
+  {
+   "k": "qt88nv",
+   "en": "traderoutes"
+  },
+  {
+   "k": "12ycgbg",
+   "en": "Toggle visibility of trade routes"
+  },
+  {
+   "k": "z9saw6",
+   "en": "debug_tactics"
+  },
+  {
+   "k": "1wcpgsq",
+   "en": "Toggle visibility of debug tooltip for tactics"
+  },
+  {
+   "k": "1lnsrht",
+   "en": "reloadsupply (relsup)"
+  },
+  {
+   "k": "1lx1utt",
+   "en": "Reinitializes the supply systems."
+  },
+  {
+   "k": "14u4fnh",
+   "en": "deltat [<speed factor>]"
+  },
+  {
+   "k": "105c4cw",
+   "en": "control animation speeds"
+  },
+  {
+   "k": "1r2l7rv",
+   "en": "building_health (bhealth) [<building type>] [<state or prov id>] [<building level>] [<health to add>]"
+  },
+  {
+   "k": "1w3q4m",
+   "en": "Changes specified building health"
+  },
+  {
+   "k": "1364sua",
+   "en": "nomapicons"
+  },
+  {
+   "k": "1r4z2ko",
+   "en": "Toggles map icons."
+  },
+  {
+   "k": "f8zxnv",
+   "en": "nopausetext"
+  },
+  {
+   "k": "8a2t10",
+   "en": "Toggles the pausebanner for nicer screenshots."
+  },
+  {
+   "k": "1pwf14h",
+   "en": "nextsong"
+  },
+  {
+   "k": "49t6g1",
+   "en": "Changes the currently playing soundtrack."
+  },
+  {
+   "k": "1b6ves8",
+   "en": "combatsound"
+  },
+  {
+   "k": "1yo6xmb",
+   "en": "How often does the combat view give a random sound? 0-50"
+  },
+  {
+   "k": "te8s85",
+   "en": "morehumans (humans) [num]"
+  },
+  {
+   "k": "ub4c4k",
+   "en": "Adds more humans"
+  },
+  {
+   "k": "1hc62f6",
+   "en": "window (wnd) [Arguments: open/close] [window gui name]"
+  },
+  {
+   "k": "x2lsan",
+   "en": "Opens or closes the specified window"
+  },
+  {
+   "k": "v149x4",
+   "en": "poll"
+  },
+  {
+   "k": "18w0fw",
+   "en": "Polls valid Events"
+  },
+  {
+   "k": "vzfwi1",
+   "en": "pause_in_hours"
+  },
+  {
+   "k": "11p1g68",
+   "en": "Pauses the game after X hours have passed after command is called"
+  },
+  {
+   "k": "fcgbtq",
+   "en": "winwars"
+  },
+  {
+   "k": "1uav1w6",
+   "en": "Gives max war score in all wars for the country"
+  },
+  {
+   "k": "m552pq",
+   "en": "Command no longer exists as of patch 1.9.1"
+  },
+  {
+   "k": "1rflsp4",
+   "en": "testevent [<Event ID>] [<Character ID>]"
+  },
+  {
+   "k": "6cs5s0",
+   "en": "Tests an event without triggering it"
+  },
+  {
+   "k": "1jnvbj5",
+   "en": "resign"
+  },
+  {
+   "k": "z3cbsm",
+   "en": "Resign from the game"
+  },
+  {
+   "k": "y4wtfh",
+   "en": "add_interest [<Country tag>]"
+  },
+  {
+   "k": "24k5aa",
+   "en": "Add specified country tag to your interest"
+  },
+  {
+   "k": "16jmrkq",
+   "en": "remove_interest [<Country tag>]"
+  },
+  {
+   "k": "12lsu49",
+   "en": "Removes specified country tag from your interest"
+  },
+  {
+   "k": "4n99f",
+   "en": "add_diplo"
+  },
+  {
+   "k": "1w7jiad",
+   "en": "Adds diplomatic entroute"
+  },
+  {
+   "k": "52nyxd",
+   "en": "PrintSynchStuff"
+  },
+  {
+   "k": "13wiflr",
+   "en": "Prints random count and seed"
+  },
+  {
+   "k": "1mynad7",
+   "en": "SetRandomCount"
+  },
+  {
+   "k": "1wimnhj",
+   "en": "Sets the random count to 0 or arg"
+  },
+  {
+   "k": "1b9admb",
+   "en": "ai_invasion"
+  },
+  {
+   "k": "iog1u2",
+   "en": "Toggles AI AI naval invasions"
+  },
+  {
+   "k": "166pqg9",
+   "en": "ai_pp_log"
+  },
+  {
+   "k": "1djhzc8",
+   "en": "Prints AI use of PP to log"
+  },
+  {
+   "k": "1m5tgpn",
+   "en": "ai_idea_desire_log"
+  },
+  {
+   "k": "9kyjt9",
+   "en": "Prints AI desire for ideas to log. For current country only"
+  },
+  {
+   "k": "ef62em",
+   "en": "ai_force_template"
+  },
+  {
+   "k": "8avw7i",
+   "en": "Force the AI to only spend army XP on template design"
+  },
+  {
+   "k": "114kw90",
+   "en": "ai_force_equipment"
+  },
+  {
+   "k": "14u7py4",
+   "en": "Force the AI to only spend army XP on equipment design"
+  },
+  {
+   "k": "1aslktx",
+   "en": "ai_front_id"
+  },
+  {
+   "k": "1j5x974",
+   "en": "Get the address of selected group's front debug ID"
+  },
+  {
+   "k": "mrovwt",
+   "en": "fow (debug_fow) [Province ID]"
+  },
+  {
+   "k": "169np8m",
+   "en": "Turns off fog of war, only within a province if specified."
+  },
+  {
+   "k": "1jhmbes",
+   "en": "collision (debug_collision)"
+  },
+  {
+   "k": "5nre9j",
+   "en": "Toggles debug display of normals/bounding boxes/collision"
+  },
+  {
+   "k": "1b2oe62",
+   "en": "savegame"
+  },
+  {
+   "k": "1779lxa",
+   "en": "Creates a savefile."
+  },
+  {
+   "k": "7mczqo",
+   "en": "savecheck"
+  },
+  {
+   "k": "1qj31bf",
+   "en": "Makes a save file (Test_01), loads the save file, makes a new savegame (Test_02). Those save files should look the same."
+  },
+  {
+   "k": "23nfn1",
+   "en": "Shows your IP"
+  },
+  {
+   "k": "1k70zhx",
+   "en": "requestgamestate"
+  },
+  {
+   "k": "1sfxy8h",
+   "en": "Requests the gamestate from host"
+  },
+  {
+   "k": "16cr8oo",
+   "en": "nudge"
+  },
+  {
+   "k": "zrzcjq",
+   "en": "Go to the nudge tool"
+  },
+  {
+   "k": "cnl5yb",
+   "en": "mapmode [Mapmode type (int)]"
+  },
+  {
+   "k": "187fgtm",
+   "en": "Change mapmode."
+  },
+  {
+   "k": "m934ns",
+   "en": "fullscreen"
+  },
+  {
+   "k": "c73n8j",
+   "en": "Toggles fullscreen"
+  },
+  {
+   "k": "5yho9n",
+   "en": "prices"
+  },
+  {
+   "k": "fpp8zi",
+   "en": "Price Info"
+  },
+  {
+   "k": "2w1uz9",
+   "en": "remove_core [<State ID>] [<Country Tag>]"
+  },
+  {
+   "k": "sdfwdy",
+   "en": "Remove core."
+  },
+  {
+   "k": "13xu36v",
+   "en": "Command does not work"
+  },
+  {
+   "k": "uf284y",
+   "en": "debug_zoom"
+  },
+  {
+   "k": "npinx1",
+   "en": "Zooms in the game"
+  },
+  {
+   "k": "90dau2",
+   "en": "debug_types"
+  },
+  {
+   "k": "1xz16ch",
+   "en": "Will print the data type for all dynamic reference objects. Can only be used if using RTTI."
+  },
+  {
+   "k": "91gand",
+   "en": "debug_show_event_ID"
+  },
+  {
+   "k": "1ykkbsi",
+   "en": "Shows event ID"
+  },
+  {
+   "k": "gl81ub",
+   "en": "debug_commands"
+  },
+  {
+   "k": "ipq3ti",
+   "en": "Printing commandcount to message.log"
+  },
+  {
+   "k": "1qy2oec",
+   "en": "debug_events"
+  },
+  {
+   "k": "yscg59",
+   "en": "Start Counting events"
+  },
+  {
+   "k": "1ycifc2",
+   "en": "debug_dumpevents"
+  },
+  {
+   "k": "129lcs6",
+   "en": "Dump Event data to game log"
+  },
+  {
+   "k": "1danta2",
+   "en": "debug_diploactions"
+  },
+  {
+   "k": "lqr99d",
+   "en": "Start Counting diplomatic actions"
+  },
+  {
+   "k": "xcnhyo",
+   "en": "debug_dumpdiploactions"
+  },
+  {
+   "k": "c66m2m",
+   "en": "Dump diplomatic action data to game log"
+  },
+  {
+   "k": "wksnp7",
+   "en": "debug_assert"
+  },
+  {
+   "k": "1f9z2pw",
+   "en": "Toggles asserts on/off"
+  },
+  {
+   "k": "ygnfs9",
+   "en": "debug_nomouse"
+  },
+  {
+   "k": "1da1m4c",
+   "en": "Toggles mouse scrollwheel on/off"
+  },
+  {
+   "k": "ts7vke",
+   "en": "debug_terrain"
+  },
+  {
+   "k": "konzc2",
+   "en": "Toggles Terrain on/off"
+  },
+  {
+   "k": "1keknrm",
+   "en": "debug_cities"
+  },
+  {
+   "k": "1xdi7uh",
+   "en": "Toggles Cities painting mode on/off"
+  },
+  {
+   "k": "tiihzk",
+   "en": "debug_water"
+  },
+  {
+   "k": "1f1k5n4",
+   "en": "Toggles Water on/off"
+  },
+  {
+   "k": "uh8g4x",
+   "en": "debug_fronts"
+  },
+  {
+   "k": "l1mfda",
+   "en": "Toggles interpolated fronts debug"
+  },
+  {
+   "k": "15kotqi",
+   "en": "debug_off_front_snap (dbg_fsnap)"
+  },
+  {
+   "k": "g2vuby",
+   "en": "Toggles offensive fronts snapping debug"
+  },
+  {
+   "k": "11z911o",
+   "en": "debug_borders"
+  },
+  {
+   "k": "1e0dy4s",
+   "en": "Toggles Borders on/off"
+  },
+  {
+   "k": "fqptqq",
+   "en": "debug_trees"
+  },
+  {
+   "k": "1qbayam",
+   "en": "Toggles Trees on/off"
+  },
+  {
+   "k": "1y1t32e",
+   "en": "debug_rivers"
+  },
+  {
+   "k": "10gyyjk",
+   "en": "Toggles Rivers on/off"
+  },
+  {
+   "k": "qj4hg1",
+   "en": "debug_postfx"
+  },
+  {
+   "k": "b0bqe9",
+   "en": "Toggles PostFX on/off"
+  },
+  {
+   "k": "je7jxy",
+   "en": "debug_sky"
+  },
+  {
+   "k": "qpo8tm",
+   "en": "Toggles Sky on/off"
+  },
+  {
+   "k": "1j7pzw",
+   "en": "debug_bloom"
+  },
+  {
+   "k": "99439s",
+   "en": "Toggles Bloom on/off"
+  },
+  {
+   "k": "1n8df74",
+   "en": "debug_tooltip"
+  },
+  {
+   "k": "9kepal",
+   "en": "Toggles Tooltips on/off"
+  },
+  {
+   "k": "i5bskb",
+   "en": "debug_nuking"
+  },
+  {
+   "k": "166mmq8",
+   "en": "Allows to nuke every province without checking any conditions."
+  },
+  {
+   "k": "2zbwz",
+   "en": "Command no longer exists as of patch 1.15.1"
+  },
+  {
+   "k": "1gdzus6",
+   "en": "flagsoutput [<path>]"
+  },
+  {
+   "k": "nj6fw8",
+   "en": "Creates texture atlas files from memory."
+  },
+  {
+   "k": "yhaox3",
+   "en": "cityreload"
+  },
+  {
+   "k": "127o5ql",
+   "en": "Reloads the cities"
+  },
+  {
+   "k": "jjn9g7",
+   "en": "version"
+  },
+  {
+   "k": "ecm4t9",
+   "en": "Show current game version"
+  },
+  {
+   "k": "46f6ul",
+   "en": "debug_nogui"
+  },
+  {
+   "k": "1d62yb4",
+   "en": "Toggles GUI on/off"
+  },
+  {
+   "k": "1g8l0ej",
+   "en": "debug_volume [<Volume Delta>]"
+  },
+  {
+   "k": "1fju5sy",
+   "en": "Modifies music volume"
+  },
+  {
+   "k": "cf00pt",
+   "en": "debug_lockcamera"
+  },
+  {
+   "k": "2iydyw",
+   "en": "Toggles Camera locked on/off"
+  },
+  {
+   "k": "ou8cc",
+   "en": "debug_lines"
+  },
+  {
+   "k": "tqutlk",
+   "en": "Toggles Debuglines"
+  },
+  {
+   "k": "lpr1wq",
+   "en": "debug_entities"
+  },
+  {
+   "k": "1k2yry0",
+   "en": "Toggles Debug entities"
+  },
+  {
+   "k": "17rtait",
+   "en": "debug_info"
+  },
+  {
+   "k": "4dcoxr",
+   "en": "debug_particle"
+  },
+  {
+   "k": "sodwse",
+   "en": "Toggles Particles Debug info"
+  },
+  {
+   "k": "n1xjud",
+   "en": "debug_ai_budget [CountryTag]"
+  },
+  {
+   "k": "1wut9l9",
+   "en": "Show ai budget data"
+  },
+  {
+   "k": "8ejuh1",
+   "en": "debug_textures"
+  },
+  {
+   "k": "1b9rctg",
+   "en": "Writes Texture info to application debug log"
+  },
+  {
+   "k": "e46xro",
+   "en": "debug_texture"
+  },
+  {
+   "k": "14fbgc0",
+   "en": "draws textures like bloom"
+  },
+  {
+   "k": "l0rlid",
+   "en": "debug_wireframe"
+  },
+  {
+   "k": "1tbrmy8",
+   "en": "Toggles forced wireframe on/off"
+  },
+  {
+   "k": "1l4sprn",
+   "en": "debug_achievements_clear"
+  },
+  {
+   "k": "1hx5qoe",
+   "en": "Clear all achievements and user stats"
+  },
+  {
+   "k": "ou30w",
+   "en": "moveunit [<Unit ID>] [<Province ID>]"
+  },
+  {
+   "k": "1hozjoe",
+   "en": "Moves a unit to a province"
+  },
+  {
+   "k": "1fapbny",
+   "en": "spawnactor [<Actorname>] [<Province ID>] [<Animation> OPTIONAL]"
+  },
+  {
+   "k": "1ynten4",
+   "en": "Spawns an actor with an optional animation"
+  },
+  {
+   "k": "hmpwv9",
+   "en": "cameraclamp"
+  },
+  {
+   "k": "1td76sx",
+   "en": "Toggles the camera clamping"
+  },
+  {
+   "k": "1v6naga",
+   "en": "provtooltipdebug (tdebug)"
+  },
+  {
+   "k": "lzpjc0",
+   "en": "Toggles the debug info in province tooltip"
+  },
+  {
+   "k": "1t7yncc",
+   "en": "reloadweather [<randomseed>]"
+  },
+  {
+   "k": "uuc8y5",
+   "en": "Reload and regenerate weather"
+  },
+  {
+   "k": "f1wd5f",
+   "en": "weather"
+  },
+  {
+   "k": "1dngtjc",
+   "en": "Toggle weather simulation"
+  },
+  {
+   "k": "15gjgn9",
+   "en": "debug_air_vs_land (dbg_cas)"
+  },
+  {
+   "k": "1tzv1g",
+   "en": "Toggle debug mode for air vs land combat."
+  },
+  {
+   "k": "1unyjiz",
+   "en": "mapnames"
+  },
+  {
+   "k": "oqg3l3",
+   "en": "Toggle map names"
+  },
+  {
+   "k": "1iyd6tt",
+   "en": "gbreload"
+  },
+  {
+   "k": "gcogqw",
+   "en": "Reloads gradient borders"
+  },
+  {
+   "k": "1b8khli",
+   "en": "gbpaint [layer] [channel]"
+  },
+  {
+   "k": "8bx0o",
+   "en": "Toggles gradient border painting"
+  },
+  {
+   "k": "13dv7j8",
+   "en": "profilelog"
+  },
+  {
+   "k": "i3r0k",
+   "en": "Prints out the profiling informations into time.log"
+  },
+  {
+   "k": "bvjc22",
+   "en": "run"
+  },
+  {
+   "k": "7afu5t",
+   "en": "Runs the specified file with list of commands"
+  },
+  {
+   "k": "1anppgw",
+   "en": "oos"
+  },
+  {
+   "k": "1qevmix",
+   "en": "Out of Synch"
+  },
+  {
+   "k": "1fytkm1",
+   "en": "trigger_docs (effect_docs, scripting_docs, docs)"
+  },
+  {
+   "k": "ef5l1r",
+   "en": "Print docs for triggers, effects, and variables"
+  },
+  {
+   "k": "1rw818t",
+   "en": "Documentation for triggers/effects printed to game.log file"
+  },
+  {
+   "k": "1ad0wcb",
+   "en": "threat [Threat amount]"
+  },
+  {
+   "k": "el3ni9",
+   "en": "Adds or show threat level of the current tag, which is the world tension generated by the tag."
+  },
+  {
+   "k": "1r4aixr",
+   "en": "Positive values will add to the world tension generated by the active tag, while negative values will subtract from the world tension generated by the active tag, with corresponding entries in the world tension history log. By tag-switching, it is possible to raise or lower the world tension generated by any particular country. If one does \"threat 999999999\" it will reset the world tension to 0."
+  },
+  {
+   "k": "bpocpt",
+   "en": "3dstats"
+  },
+  {
+   "k": "12u8072",
+   "en": "Toggles 3D Stats"
+  },
+  {
+   "k": "1yo9q01",
+   "en": "hdr"
+  },
+  {
+   "k": "y5213c",
+   "en": "Toggles hdr"
+  },
+  {
+   "k": "w4bpsd",
+   "en": "hdr_debug"
+  },
+  {
+   "k": "1p6hptc",
+   "en": "Toggles hdr debugging"
+  },
+  {
+   "k": "l1yxjp",
+   "en": "srgb"
+  },
+  {
+   "k": "1s4weti",
+   "en": "Toggles sRGB"
+  },
+  {
+   "k": "1riqlss",
+   "en": "bloom"
+  },
+  {
+   "k": "1dku4h",
+   "en": "Toggles bloom"
+  },
+  {
+   "k": "1y1oefx",
+   "en": "PostEffectVolumes.Default [posteffect_values name]"
+  },
+  {
+   "k": "15d7q9k",
+   "en": "Toggles default posteffect values"
+  },
+  {
+   "k": "1s23bkx",
+   "en": "night"
+  },
+  {
+   "k": "lkjbt4",
+   "en": "Toggles night"
+  },
+  {
+   "k": "m0ps8l",
+   "en": "*as of 1.01 this does not seem to work (filed under developer-only command) This command can be emulated via the day/night loop option at the bottom right toolbar (shortcut key 'N')"
+  },
+  {
+   "k": "lfe391",
+   "en": "filewatcher"
+  },
+  {
+   "k": "1orjydk",
+   "en": "Toggles filewatcher"
+  },
+  {
+   "k": "1ui17b9",
+   "en": "createlean"
+  },
+  {
+   "k": "1goozk9",
+   "en": "Create LEAN textures"
+  },
+  {
+   "k": "1j6byls",
+   "en": "helplog"
+  },
+  {
+   "k": "px54l9",
+   "en": "Print out all console commands to game.log file."
+  },
+  {
+   "k": "14iecpp",
+   "en": "helphelp"
+  },
+  {
+   "k": "1su6frx",
+   "en": "Double Rainbow help."
+  },
+  {
+   "k": "5p5pq",
+   "en": "hsv"
+  },
+  {
+   "k": "1k70p2q",
+   "en": "Converts RGB to HSV"
+  },
+  {
+   "k": "1pq5zpn",
+   "en": "tag_color"
+  },
+  {
+   "k": "1lbk99h",
+   "en": "Test setting a country's color"
+  },
+  {
+   "k": "m0rdte",
+   "en": "browser [url]"
+  },
+  {
+   "k": "1mxp208",
+   "en": "Show browser window"
+  },
+  {
+   "k": "12iodn6",
+   "en": "browser_base_url [url]"
+  },
+  {
+   "k": "1jllfmd",
+   "en": "Set browser base url"
+  },
+  {
+   "k": "1g6cw1i",
+   "en": "airealism"
+  },
+  {
+   "k": "1wek2p0",
+   "en": "Enable realistic AI"
+  },
+  {
+   "k": "jtlz81",
+   "en": "An easter egg making the AI smacktalk in chats. Useless since unactivable in multiplayer and chat unactivable in singleplayer.⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1dh4krg",
+   "en": "instant_wargoal"
+  },
+  {
+   "k": "1divmr2",
+   "en": "Will allow instant justificatiion of war goals on countries"
+  },
+  {
+   "k": "18q3ffu",
+   "en": "allowideas"
+  },
+  {
+   "k": "wwypl3",
+   "en": "Allows the player to pick any idea even if normally unavailable"
+  },
+  {
+   "k": "jaigx3",
+   "en": "This overrides the ⟦0⟧ and ⟦1⟧ triggers of ideas, but not the ⟦2⟧ trigger",
+   "frags": 3
+  },
+  {
+   "k": "skramw",
+   "en": "available"
+  },
+  {
+   "k": "nktwgx",
+   "en": "visible"
+  },
+  {
+   "k": "b18qbn",
+   "en": "allowed"
+  },
+  {
+   "k": "gduizs",
+   "en": "release [<country tag>]"
+  },
+  {
+   "k": "1k9plam",
+   "en": "Releases a country or releasable nation"
+  },
+  {
+   "k": "16phz08",
+   "en": "release slv releases Slovenia"
+  },
+  {
+   "k": "1yordrq",
+   "en": "InternationalMarket.AddSubsidyForTags [<economic capacity>] [<equipment>] [<country tag>]"
+  },
+  {
+   "k": "5paqvn",
+   "en": "Adds a subsidy for the player to buy off from a specified country."
+  },
+  {
+   "k": "m6oc7",
+   "en": "ex (Adds a subsidy for the player to be able to help buy German sold light tanks for up to 5k EC): InternationalMarket.AddSubsidyForTags 5000 light_tank_chassis GER"
+  },
+  {
+   "k": "qoed8a",
+   "en": "random_seed"
+  },
+  {
+   "k": "11tk1w",
+   "en": "Randomises the current seed the game is using"
+  },
+  {
+   "k": "1kejpvw",
+   "en": "The AI uses this seed to decide all their focuses and decisions. You can use this to generate a more favourable outcome to any ai action you dislike (e.g. you want to ally with country)"
+  },
+  {
+   "k": "1279p0h",
+   "en": "eval_effect [<country tag>] = { create_faction = \"[faction name]\" }"
+  },
+  {
+   "k": "118w9st",
+   "en": "Creates a faction with a specified name"
+  },
+  {
+   "k": "hm6r57",
+   "en": "The leader of the faction will be the inserted country tag"
+  },
+  {
+   "k": "qlsp62",
+   "en": "eval_effect [<country tag>] = { dismantle_faction = yes }"
+  },
+  {
+   "k": "aov7jt",
+   "en": "Deletes the faction of specified country"
+  },
+  {
+   "k": "9e5her",
+   "en": "eval_effect [<country tag>] = { add_to_faction = [<country tag>] }"
+  },
+  {
+   "k": "1ez58p6",
+   "en": "Adds a country to a faction"
+  },
+  {
+   "k": "1l4sorr",
+   "en": "The second tag is the country which will join the first tag's faction"
+  },
+  {
+   "k": "11hsgd",
+   "en": "eval_effect [<country tag>] = { remove_from_faction = [<country tag>] }"
+  },
+  {
+   "k": "1xzaqq",
+   "en": "Removes a country from a faction"
+  },
+  {
+   "k": "1dmcm6c",
+   "en": "The second tag is the country which will be removed from the first tag's faction"
+  },
+  {
+   "k": "o3eu8l",
+   "en": "eval_effect [<country tag>] = { set_faction_name = \"[faction name]\" }"
+  },
+  {
+   "k": "1jjaaov",
+   "en": "Renames the faction of the specified country"
+  },
+  {
+   "k": "knullv",
+   "en": "toggle_silhouette_portraits"
+  },
+  {
+   "k": "1u5zerr",
+   "en": "Enables and disables silhouette portraits."
+  },
+  {
+   "k": "fsbozh",
+   "en": "armageddon"
+  },
+  {
+   "k": "1qpoze4",
+   "en": "Causes 100% damage to all state/shared/provincial buildings and facilities every state in every country."
+  },
+  {
+   "k": "aeset3",
+   "en": "Although the nuke detonation animation is played for all states, it does not give the ⟦0⟧ state modifier.",
+   "frags": 1
+  },
+  {
+   "k": "t5ev1q",
+   "en": "Nuclear Fallout"
+  },
+  {
+   "k": "100lpyn",
+   "en": "See also"
+  },
+  {
+   "k": "9m30fv",
+   "en": "Modding"
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "1dgha7p",
+   "en": "A comment of podcat about the command been found https://www.reddit.com/r/hoi4/comments/6cb8vh/the_secrets_of_hoi4/dhtdr4x/"
+  },
+  {
+   "k": "59iejl",
+   "en": "Documentation"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "bbbsh0",
+   "en": "List of modifiers"
+  },
+  {
+   "k": "gkat0o",
+   "en": "Scopes"
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "22wvcr",
+   "en": "On actions"
+  },
+  {
+   "k": "10y68xx",
+   "en": "Data structures"
+  },
+  {
+   "k": "icm958",
+   "en": "Flags"
+  },
+  {
+   "k": "1fldcnt",
+   "en": "Event targets"
+  },
+  {
+   "k": "135tw29",
+   "en": "Country tag aliases"
+  },
+  {
+   "k": "xqivz6",
+   "en": "Variables"
+  },
+  {
+   "k": "14wbbvz",
+   "en": "Arrays"
+  },
+  {
+   "k": "wdu62e",
+   "en": "Scripting"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "475d63",
+   "en": "AI focuses"
+  },
+  {
+   "k": "gpz0z1",
+   "en": "Autonomous states"
+  },
+  {
+   "k": "a6cuzg",
+   "en": "Balances of power"
+  },
+  {
+   "k": "14khzdq",
+   "en": "Bookmarks/Scenarios"
+  },
+  {
+   "k": "xrnqxs",
+   "en": "Game rules"
+  },
+  {
+   "k": "1xa6gia",
+   "en": "Buildings"
+  },
+  {
+   "k": "8657g9",
+   "en": "Characters and traits"
+  },
+  {
+   "k": "o977ej",
+   "en": "Cosmetic tags"
+  },
+  {
+   "k": "8zhvfx",
+   "en": "Countries"
+  },
+  {
+   "k": "19eysrz",
+   "en": "Divisions"
+  },
+  {
+   "k": "vwifyo",
+   "en": "Decisions"
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "1xtq0ev",
+   "en": "Equipment"
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "e65ons",
+   "en": "Factions"
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "1cd8sst",
+   "en": "Ideologies"
+  },
+  {
+   "k": "1oopcvp",
+   "en": "Military industrial organizations"
+  },
+  {
+   "k": "k2esk3",
+   "en": "National focuses"
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "uu0bc4",
+   "en": "Scripted GUI"
+  },
+  {
+   "k": "1jzxqx9",
+   "en": "Technologies and doctrines"
+  },
+  {
+   "k": "ur18vw",
+   "en": "Units"
+  },
+  {
+   "k": "j1sac1",
+   "en": "Map"
+  },
+  {
+   "k": "5afzz",
+   "en": "States"
+  },
+  {
+   "k": "8ppvas",
+   "en": "Supply areas"
+  },
+  {
+   "k": "1v2pifw",
+   "en": "Strategic regions"
+  },
+  {
+   "k": "1cffeuu",
+   "en": "Graphical"
+  },
+  {
+   "k": "yolbkg",
+   "en": "Interface"
+  },
+  {
+   "k": "2hqnqn",
+   "en": "Graphical assets"
+  },
+  {
+   "k": "6px9my",
+   "en": "Entities"
+  },
+  {
+   "k": "1n1sxcz",
+   "en": "Posteffects"
+  },
+  {
+   "k": "1fu6htw",
+   "en": "Particles"
+  },
+  {
+   "k": "t16z95",
+   "en": "Fonts"
+  },
+  {
+   "k": "1ig52hy",
+   "en": "Cosmetic"
+  },
+  {
+   "k": "9k7pgr",
+   "en": "Portraits"
+  },
+  {
+   "k": "65pf3n",
+   "en": "Namelists"
+  },
+  {
+   "k": "ohwdis",
+   "en": "Music"
+  },
+  {
+   "k": "1dvvwok",
+   "en": "Sound"
+  },
+  {
+   "k": "ukzedx",
+   "en": "Other"
+  },
+  {
+   "k": "1uzifys",
+   "en": "Console commands"
+  },
+  {
+   "k": "1t5bxxt",
+   "en": "Troubleshooting"
+  },
+  {
+   "k": "1djsobe",
+   "en": "Mod structure"
+  },
+  {
+   "k": "pw0jjk",
+   "en": "Mods"
+  },
+  {
+   "k": "pui2ou",
+   "en": "Nudger"
+  },
+  {
+   "k": "1hyf67b",
+   "en": "Game"
+  },
+  {
+   "k": "u1k6p6",
+   "en": "Features"
+  },
+  {
+   "k": "qteedx",
+   "en": "Ironman"
+  },
+  {
+   "k": "cvepmw",
+   "en": "Guides"
+  },
+  {
+   "k": "bdm93l",
+   "en": "Beginner's guide"
+  },
+  {
+   "k": "1khciow",
+   "en": "Hotkeys"
+  },
+  {
+   "k": "1h8mxql",
+   "en": "Map modes"
+  },
+  {
+   "k": "6q2ked",
+   "en": "Tutorial videos"
+  },
+  {
+   "k": "lshcot",
+   "en": "User interface"
+  },
+  {
+   "k": "190d1fu",
+   "en": "Development"
+  },
+  {
+   "k": "sz859i",
+   "en": "Developer diaries"
+  },
+  {
+   "k": "5umivg",
+   "en": "Downloadable content"
+  },
+  {
+   "k": "1r8wvbp",
+   "en": "Patches"
+  },
+  {
+   "k": "1n72qry",
+   "en": "Community"
+  },
+  {
+   "k": "uet7re",
+   "en": "Jargon"
+  }
+ ]
+}

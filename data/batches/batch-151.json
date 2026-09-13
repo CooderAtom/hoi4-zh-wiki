@@ -1,0 +1,905 @@
+{
+ "batch": 151,
+ "pages": [
+  "Effect"
+ ],
+ "chars": 9545,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "17nz1bx",
+   "en": "Within the tooltip, only effects that would be executed are shown. The effects within an unfulfilled if statement (or an ⟦0⟧/⟦1⟧ that's not read due to the if statement being met) will be hidden from the player, and so will the trigger. In order to avoid player confusion, ⟦2⟧, such as being used within an ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "psil13",
+   "en": "custom effect tooltips can be used to tell the player what this effect block would do"
+  },
+  {
+   "k": "6hkv3s",
+   "en": "Random effects"
+  },
+  {
+   "k": "faxmjp",
+   "en": "If you want an effect to have a random chance to be done or have nothing happen otherwise, the ⟦0⟧ block is the simplest way to accomplish that:",
+   "frags": 1
+  },
+  {
+   "k": "1hp635h",
+   "en": "random = { ... }"
+  },
+  {
+   "k": "25fn2h",
+   "en": "This in particular will have an 80% chance to add 40% stability and 30% war support and, accordingly, a 20% chance to do nothing. The chance here is on the scale from 0 to 100."
+  },
+  {
+   "k": "zkgdny",
+   "en": "If you want the game to choose between effect blocks, random_list can be used instead. For example, if you wanted an effect to randomly given the player one out of four bonuses, you'd do the following:"
+  },
+  {
+   "k": "wop93o",
+   "en": "The number is not the chance, but the weight for each option, as they don't have to add up to 100 or any number. An option with the weight of 20 is twice as likely to be picked as the option with the chance of 10, for instance. In total, the probability for an option to be picked is equal to the weight of the option divided by the sum of all weights."
+  },
+  {
+   "k": "2k8s02",
+   "en": "It is also possible to use modifiers (akin to ⟦0⟧) to affect the weight of each possible random effect or to use ⟦1⟧ as chances.",
+   "frags": 2
+  },
+  {
+   "k": "9c2nym",
+   "en": "MTTH blocks"
+  },
+  {
+   "k": "mkenke",
+   "en": "If the country flag inward_perfect_flag is set, it'll multiply the above chance of 30 by 1.3 to get 39. Meanwhile, ⟦0⟧ will take the value of the according temp variable or the current scope's variable as the weight of the option.",
+   "frags": 1
+  },
+  {
+   "k": "1oab7gc",
+   "en": "my_variable"
+  },
+  {
+   "k": "1k30fdc",
+   "en": "Note that if you want to create a repeatable decision including a random list, by default the same decision will pick the same random result every time it is triggered in a game. You can reverse this behaviour by including the following line in the decision block:"
+  },
+  {
+   "k": "mw8pvg",
+   "en": "⟦0⟧. Elsewhere, random seed is unfixed by default, making this argument unnecessary to set to \"no\".",
+   "frags": 1
+  },
+  {
+   "k": "19abb33",
+   "en": "This is only for decisions"
+  },
+  {
+   "k": "11rw06p",
+   "en": "Tooltip manipulation"
+  },
+  {
+   "k": "1p2krqb",
+   "en": "The \"tooltip\" in this case refers to the text shown to the player in-game that explains what the effect block changes within the game, such as \"⟦0⟧ ⟦1⟧\".",
+   "frags": 2
+  },
+  {
+   "k": "1xps99t",
+   "en": "There are 3 ways to edit the tooltip within an effect block:"
+  },
+  {
+   "k": "31fman",
+   "en": "⟦0⟧ is used in order to hide the effects within from the tooltip, making their execution not get shown to the player.",
+   "frags": 1
+  },
+  {
+   "k": "egu480",
+   "en": "hidden_effect = { ... }"
+  },
+  {
+   "k": "1b6favc",
+   "en": "⟦0⟧ is, instead, used in order to put the effects into the tooltip without actually executing them.",
+   "frags": 1
+  },
+  {
+   "k": "19qewm7",
+   "en": "effect_tooltip = { ... }"
+  },
+  {
+   "k": "7pxfz3",
+   "en": "⟦0⟧ is used in order to put an arbitrary paragraph of text as an effect that will get executed.",
+   "frags": 1
+  },
+  {
+   "k": "jwtaw6",
+   "en": "custom_effect_tooltip = my_localisation_key"
+  },
+  {
+   "k": "dp61o",
+   "en": "For example, this sample ⟦0⟧ utilises all three:",
+   "frags": 1
+  },
+  {
+   "k": "1q9t535",
+   "en": "focus' completion reward"
+  },
+  {
+   "k": "1oenh3o",
+   "en": "In this case, send_event_to_subjects_tt and reject_war_tt are localisation keys defined within any ⟦0⟧ file encoded with UTF-8-BOM, assuming the English language.",
+   "frags": 1
+  },
+  {
+   "k": "1hl77c0",
+   "en": "/Hearts of Iron IV/localisation/english/*_l_english.yml"
+  },
+  {
+   "k": "teu57x",
+   "en": "In-game, this will appear as such:"
+  },
+  {
+   "k": "1s0l6uc",
+   "en": "Effect: Sends a demand to our every subject. If they agree, we get the following for each subject: Political Power: +100 If they reject the demand, we gain a wargoal against them."
+  },
+  {
+   "k": "p68d4k",
+   "en": "Noticably, the effect that fires the country event gets hidden from the tooltip. After completing the focus, the only thing that happens is that every subject country receives an event with the ID of ⟦0⟧, the country does not immediately gain 100 political power.",
+   "frags": 1
+  },
+  {
+   "k": "p0iqf9",
+   "en": "my_event.1"
+  },
+  {
+   "k": "1tu12e6",
+   "en": "Meta effects"
+  },
+  {
+   "k": "1ovmc2p",
+   "en": "Meta effects allow you to use non-dynamic effects (the ones that do not accept modifiers and can only use static tokens or constant values) as if they were accepting variables."
+  },
+  {
+   "k": "1t7o1zw",
+   "en": "In the effect shown above, amount of equipment added is dynamic and can be set using the variable \"eq_amount\". However, this effect does not let you use a variable as equipment type. You can not store \"infantry_equipment_2\" in a variable and use it here."
+  },
+  {
+   "k": "1vf6mvy",
+   "en": "However, meta effects will let you use variables and scripted localization within them to build effects as if they were texts and run them. Let's make previous effect accept equipment type and equipment level as variables stored in \"eq_type\" and \"eq_level\"."
+  },
+  {
+   "k": "19ldvo0",
+   "en": "As you can see, we have created a meta_effect that takes two arguments. These arguments will be used replacing the parameters [EQ_TYPE] and [EQ_LEVEL] inside the meta effect. EQ_LEVEL will be replaced by [?eq_level|.0] which is the integer value of eq_level (in this case 2.000 becomes 2). EQ_TYPE is a bit more complicated, it is being replaced by a scripted localization. This scripted localization will check eq_type variable and depending on its value it will return the key token for the equipment. If it is 0, it will return \"infantry_equipment\". If it is 1, it will return \"artillery_equipment\"."
+  },
+  {
+   "k": "3fsyi1",
+   "en": "So the final result is [EQ_TYPE] is being replaced by \"artillery_equipment\" and [EQ_LEVEL] is being replaced by \"2\" and in the end our effect will be built as:"
+  },
+  {
+   "k": "b72swd",
+   "en": "which will give you 10 artillery_equipment_2."
+  },
+  {
+   "k": "3tgpjr",
+   "en": "debug = yes can be added to meta effects. Which will print the final effect to game.log when the effect is executed and make debugging easier."
+  },
+  {
+   "k": "huvvzl",
+   "en": "Scripted effects"
+  },
+  {
+   "k": "i1dwly",
+   "en": "Scripted effects serve a similar purpose to functions in that they can be defined in ⟦0⟧ and then used elsewhere as a shortened version. ⟦1⟧ and requires being used as an effect elsewhere to be executed. Alongside that, the game allows the creation of custom console commands, which are scripted effects.",
+   "frags": 2
+  },
+  {
+   "k": "2miod4",
+   "en": "/Hearts of Iron IV/common/scripted_effects/*.txt"
+  },
+  {
+   "k": "1u48hiu",
+   "en": "A scripted effect will never run by itself"
+  },
+  {
+   "k": "rl4uee",
+   "en": "A scripted effect is defined simply as"
+  },
+  {
+   "k": "b70jmq",
+   "en": "This example can be used as an effect in regular code as ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "17maqvp",
+   "en": "scripted_effect_name = yes"
+  },
+  {
+   "k": "11jvunw",
+   "en": "Scripted effects can be accessed in console by typing ⟦0⟧ to run them.",
+   "frags": 1
+  },
+  {
+   "k": "1s2lqck",
+   "en": "e scripted_effect_name"
+  },
+  {
+   "k": "ovtaie",
+   "en": "To create a custom console command, the scripted effect's name should begin with ⟦0⟧. The console command itself does not include ⟦1⟧, so ⟦2⟧ would be run in console as ⟦3⟧ In custom console commands, the country running the command is FROM, while ROOT is the selected country, state, or character. Anything entered after the console command, separated by spaces like ⟦4⟧ is added to the 'args' temp ⟦5⟧. An example of a scripted effect which will transfer every state entered as an argument to the country that runs the console command is",
+   "frags": 6
+  },
+  {
+   "k": "y383uy",
+   "en": "d_test_command"
+  },
+  {
+   "k": "1408jpb",
+   "en": "test_command"
+  },
+  {
+   "k": "tlt0ix",
+   "en": "test_command 123 321 GER"
+  },
+  {
+   "k": "12dwizq",
+   "en": "array"
+  },
+  {
+   "k": "101anbk",
+   "en": "used like ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "wrwet9",
+   "en": "transfer_states 123 321"
+  },
+  {
+   "k": "j9n9w9",
+   "en": "Useful scripted effects"
+  },
+  {
+   "k": "abifgm",
+   "en": "These scripted effects are defined in base game and might be useful to keep in the mod to cut down on the amount of code. As scripted effects, all of these use a boolean value as argument."
+  },
+  {
+   "k": "rpvfkb",
+   "en": "Scope"
+  },
+  {
+   "k": "i2k2u9",
+   "en": "instantiate_collaboration_government"
+  },
+  {
+   "k": "b4uep5",
+   "en": "instantiate_collaboration_government = yes"
+  },
+  {
+   "k": "17543sy",
+   "en": "Creates a collaboration government, with the current scope as overlord."
+  },
+  {
+   "k": "zocvwd",
+   "en": "The target of the collaboration government is stored in the ⟦0⟧ ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "zxmfqz",
+   "en": "country_to_initiate"
+  },
+  {
+   "k": "76zxet",
+   "en": "temp variable"
+  },
+  {
+   "k": "1izv8q7",
+   "en": "add_potential_special_forces_tree"
+  },
+  {
+   "k": "k7t3e3",
+   "en": "add_potential_special_forces_tree = yes"
+  },
+  {
+   "k": "1k2kcqh",
+   "en": "Adds 1 special forces branch specialism"
+  },
+  {
+   "k": "17580nn",
+   "en": "upgrade_economy_law"
+  },
+  {
+   "k": "1g9kby7",
+   "en": "upgrade_economy_law = yes"
+  },
+  {
+   "k": "2jxb74",
+   "en": "Switches the economy law one level towards total mobilisation."
+  },
+  {
+   "k": "203ysx",
+   "en": "If already on total mobilisation, adds 150 ⟦0⟧. Must be adjusted manually for new laws.",
+   "frags": 1
+  },
+  {
+   "k": "9i7hz5",
+   "en": "gain_random_agency_upgrade"
+  },
+  {
+   "k": "1hhi021",
+   "en": "gain_random_agency_upgrade = yes"
+  },
+  {
+   "k": "1xyg0ep",
+   "en": "Grants a random available intelligence agency upgrade."
+  },
+  {
+   "k": "avrqb9",
+   "en": "Only results in an agency being created if one doesn't exist."
+  },
+  {
+   "k": "1mlkbxd",
+   "en": "add_ruling_to_dem"
+  },
+  {
+   "k": "xr152h",
+   "en": "add_ruling_to_dem = yes"
+  },
+  {
+   "k": "mcbkbb",
+   "en": "All of the ruling party's popularity gets added to the ⟦0⟧ ideology group.",
+   "frags": 1
+  },
+  {
+   "k": "gj53pi",
+   "en": "Democratic"
+  },
+  {
+   "k": "eo7kfz",
+   "en": "Requires manual adjustment if new ideologies are added. See also: ⟦0⟧, ⟦1⟧, ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "16f8af9",
+   "en": "add_ruling_to_fas"
+  },
+  {
+   "k": "ufbn3e",
+   "en": "add_ruling_to_com"
+  },
+  {
+   "k": "c3zmfj",
+   "en": "add_ruling_to_neu"
+  },
+  {
+   "k": "1u4msnv",
+   "en": "remove_any_country_role_from_character"
+  },
+  {
+   "k": "umav1j",
+   "en": "remove_any_country_role_from_character = yes"
+  },
+  {
+   "k": "1ip2ss4",
+   "en": "Removes all advisor roles from the current scope."
+  },
+  {
+   "k": "f979qq",
+   "en": "Requires manual adjustment if new slots are added."
+  },
+  {
+   "k": "hr7pxw",
+   "en": "increase_state_category"
+  },
+  {
+   "k": "36gnzo",
+   "en": "increase_state_category = yes"
+  },
+  {
+   "k": "dndr4l",
+   "en": "Changes the ⟦0⟧ to the next one that contains more building slots.",
+   "frags": 1
+  },
+  {
+   "k": "zksxju",
+   "en": "state category"
+  },
+  {
+   "k": "1238com",
+   "en": "Has no effect on small islands, megalopolises, or ⟦0⟧ (Dense Urban Region). ⟦1⟧ (Urban Region) gets upgraded straight to Metropolis, skipping ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "7glvba",
+   "en": "large_city"
+  },
+  {
+   "k": "3tiqte",
+   "en": "city"
+  },
+  {
+   "k": "8frf54",
+   "en": "lerp"
+  },
+  {
+   "k": "13li50t",
+   "en": "Any"
+  },
+  {
+   "k": "1l9asd4",
+   "en": "lerp = yes"
+  },
+  {
+   "k": "vkwp30",
+   "en": "Creates the ⟦0⟧ regular variable with ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1imkrg4",
+   "en": "lerp_result"
+  },
+  {
+   "k": "ayq54o",
+   "en": "r e s u l t := a + ( b − a ) ⋅ x {\\displaystyle result:=a+(b-a)\\cdot x}"
+  },
+  {
+   "k": "89xulx",
+   "en": "⟦0⟧, ⟦1⟧, and ⟦2⟧ are stored as ⟦3⟧, ⟦4⟧, ⟦5⟧ ⟦6⟧. ⟦7⟧ is clamped between 0 and 1.",
+   "frags": 8
+  },
+  {
+   "k": "vp0w1q",
+   "en": "a {\\displaystyle a}"
+  },
+  {
+   "k": "4i2q4k",
+   "en": "b {\\displaystyle b}"
+  },
+  {
+   "k": "12mdtnd",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle x}"
+  },
+  {
+   "k": "h8xxy4",
+   "en": "lerp_a"
+  },
+  {
+   "k": "i2wr11",
+   "en": "lerp_b"
+  },
+  {
+   "k": "fb0q3b",
+   "en": "lerp_x"
+  },
+  {
+   "k": "sov6le",
+   "en": "temp variables"
+  },
+  {
+   "k": "1bkbo9j",
+   "en": "store_core_states_on_game_start"
+  },
+  {
+   "k": "1fd0d1v",
+   "en": "store_core_states_on_game_start = yes"
+  },
+  {
+   "k": "1eqft7f",
+   "en": "Stores the current core states of the current scope in an ⟦0⟧ in ROOT's scope.",
+   "frags": 1
+  },
+  {
+   "k": "hxdb66",
+   "en": "The created array will be named ⟦0⟧. Intended to be called in ⟦1⟧ only once.",
+   "frags": 2
+  },
+  {
+   "k": "1jh8jfd",
+   "en": "core_states_at_game_start"
+  },
+  {
+   "k": "1xulrbx",
+   "en": "country history"
+  },
+  {
+   "k": "59iejl",
+   "en": "Documentation"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "bbbsh0",
+   "en": "List of modifiers"
+  },
+  {
+   "k": "22wvcr",
+   "en": "On actions"
+  },
+  {
+   "k": "10y68xx",
+   "en": "Data structures"
+  },
+  {
+   "k": "icm958",
+   "en": "Flags"
+  },
+  {
+   "k": "1fldcnt",
+   "en": "Event targets"
+  },
+  {
+   "k": "135tw29",
+   "en": "Country tag aliases"
+  },
+  {
+   "k": "wdu62e",
+   "en": "Scripting"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "475d63",
+   "en": "AI focuses"
+  },
+  {
+   "k": "gpz0z1",
+   "en": "Autonomous states"
+  },
+  {
+   "k": "a6cuzg",
+   "en": "Balances of power"
+  },
+  {
+   "k": "14khzdq",
+   "en": "Bookmarks/Scenarios"
+  },
+  {
+   "k": "xrnqxs",
+   "en": "Game rules"
+  },
+  {
+   "k": "8657g9",
+   "en": "Characters and traits"
+  },
+  {
+   "k": "o977ej",
+   "en": "Cosmetic tags"
+  },
+  {
+   "k": "8zhvfx",
+   "en": "Countries"
+  },
+  {
+   "k": "19eysrz",
+   "en": "Divisions"
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "e65ons",
+   "en": "Factions"
+  },
+  {
+   "k": "1cd8sst",
+   "en": "Ideologies"
+  },
+  {
+   "k": "1oopcvp",
+   "en": "Military industrial organizations"
+  },
+  {
+   "k": "uu0bc4",
+   "en": "Scripted GUI"
+  },
+  {
+   "k": "1jzxqx9",
+   "en": "Technologies and doctrines"
+  },
+  {
+   "k": "j1sac1",
+   "en": "Map"
+  },
+  {
+   "k": "8ppvas",
+   "en": "Supply areas"
+  },
+  {
+   "k": "1v2pifw",
+   "en": "Strategic regions"
+  },
+  {
+   "k": "1cffeuu",
+   "en": "Graphical"
+  },
+  {
+   "k": "yolbkg",
+   "en": "Interface"
+  },
+  {
+   "k": "2hqnqn",
+   "en": "Graphical assets"
+  },
+  {
+   "k": "6px9my",
+   "en": "Entities"
+  },
+  {
+   "k": "1n1sxcz",
+   "en": "Posteffects"
+  },
+  {
+   "k": "1fu6htw",
+   "en": "Particles"
+  },
+  {
+   "k": "t16z95",
+   "en": "Fonts"
+  },
+  {
+   "k": "1ig52hy",
+   "en": "Cosmetic"
+  },
+  {
+   "k": "9k7pgr",
+   "en": "Portraits"
+  },
+  {
+   "k": "65pf3n",
+   "en": "Namelists"
+  },
+  {
+   "k": "ohwdis",
+   "en": "Music"
+  },
+  {
+   "k": "1dvvwok",
+   "en": "Sound"
+  },
+  {
+   "k": "ukzedx",
+   "en": "Other"
+  },
+  {
+   "k": "1uzifys",
+   "en": "Console commands"
+  },
+  {
+   "k": "1t5bxxt",
+   "en": "Troubleshooting"
+  },
+  {
+   "k": "1djsobe",
+   "en": "Mod structure"
+  },
+  {
+   "k": "pw0jjk",
+   "en": "Mods"
+  },
+  {
+   "k": "pui2ou",
+   "en": "Nudger"
+  },
+  {
+   "k": "c7zmoh",
+   "en": "Flag of Germany"
+  },
+  {
+   "k": "15j0q8v",
+   "en": "Used in triggers within abilities, combat tactics, and unit leader traits."
+  },
+  {
+   "k": "9ax39e",
+   "en": "Same as portrait_path"
+  },
+  {
+   "k": "8a6zvh",
+   "en": "{\\displaystyle result:=a+(b-a)\\cdot x}"
+  },
+  {
+   "k": "1mohsx9",
+   "en": "{\\displaystyle a}"
+  },
+  {
+   "k": "1moenfa",
+   "en": "{\\displaystyle b}"
+  }
+ ]
+}

@@ -1,0 +1,2063 @@
+{
+ "batch": 68,
+ "pages": [
+  "Land units"
+ ],
+ "chars": 14972,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "sijeup",
+   "en": "Support, helicopter, all army"
+  },
+  {
+   "k": "1qqjt5r",
+   "en": "Engineer Company"
+  },
+  {
+   "k": "mmfvpz",
+   "en": "+2 Max Entrench., Various ⟦0⟧ bonuses, Blocks other engineers, +0.2 Leg Infantry Max Entrech.",
+   "frags": 1
+  },
+  {
+   "k": "7mw4p9",
+   "en": "10 Infantry Equipment, 30 Support Equipment"
+  },
+  {
+   "k": "1073e6",
+   "en": "-50% Soft Atk. +10% Defence +50% Breakthrough"
+  },
+  {
+   "k": "w2jr9x",
+   "en": "Armored Engineer Company"
+  },
+  {
+   "k": "1cpd79m",
+   "en": "+3 Max Entrench., Various ⟦0⟧ bonuses, Cannot ⟦1⟧, Blocks other engineers, +0.05 Tanks & Armor Variants Breakthrough, +0.2 All Infantry Max Entrech.",
+   "frags": 2
+  },
+  {
+   "k": "7anmpe",
+   "en": "30 Armored Support Equipment, 15 Support Equipment"
+  },
+  {
+   "k": "1buh83",
+   "en": "-50% Soft Atk. +15% Defence +100% Breakthrough"
+  },
+  {
+   "k": "f8rk8",
+   "en": "Front line, support, tank, all armour, all army"
+  },
+  {
+   "k": "10c33wi",
+   "en": "Assault Engineer Company"
+  },
+  {
+   "k": "6h32wj",
+   "en": "+2 Max Entrench., Various ⟦0⟧ bonuses, Cannot ⟦1⟧, Blocks other engineers, +10% Leg Infantry Breakthrough",
+   "frags": 2
+  },
+  {
+   "k": "142n08n",
+   "en": "20 Armored Support Equipment, 20 Support Equipment"
+  },
+  {
+   "k": "1s5jd51",
+   "en": "-50% Soft Atk. +10% Defence +150% Breakthrough"
+  },
+  {
+   "k": "1sd2nii",
+   "en": "Pioneers"
+  },
+  {
+   "k": "1h6ri1h",
+   "en": "+2.5 Max Entrench., Various wet ⟦0⟧ bonuses, Blocks other engineers, +15% All Marines Breakthrough",
+   "frags": 1
+  },
+  {
+   "k": "d75cy",
+   "en": "10 Infantry Equipment, 40 Support Equipment"
+  },
+  {
+   "k": "1p3d0xe",
+   "en": "+10% Defence, +50% Breakthrough, -50% Soft attack"
+  },
+  {
+   "k": "uqcoj8",
+   "en": "Front line, support, all army, marines"
+  },
+  {
+   "k": "oec6jj",
+   "en": "Jungle Pioneers"
+  },
+  {
+   "k": "113or1v",
+   "en": "+2 Max Entrench., +300% Hot acclimatization gain rate, Various ⟦0⟧ bonuses, Blocks other engineers",
+   "frags": 1
+  },
+  {
+   "k": "rrdg47",
+   "en": "+30% Breakthrough +5% Defence"
+  },
+  {
+   "k": "pbqib7",
+   "en": "Field Hospital"
+  },
+  {
+   "k": "1erzl9i",
+   "en": "+20% ⟦0⟧ trickleback, -15% ⟦1⟧ loss from casualties, Blocks Helicopter Med-Evac, +10% All Infantry HP",
+   "frags": 2
+  },
+  {
+   "k": "1j6qxtc",
+   "en": "20 Motorized, 30 Support Equipment"
+  },
+  {
+   "k": "b42iui",
+   "en": "Helicopter Med-Evac"
+  },
+  {
+   "k": "1mumhxq",
+   "en": "+25% ⟦0⟧ trickleback, -10% ⟦1⟧ loss from casualties, Blocks Field Hospital, Blocks Helicopter Brigade, +5% All Infantry HP, +10% All Infantry Recovery Rate",
+   "frags": 2
+  },
+  {
+   "k": "1qquz8z",
+   "en": "15 Motorized, 30 Support Equipment, 15 Helicopter"
+  },
+  {
+   "k": "1q53m09",
+   "en": "Support, all army, helicopter"
+  },
+  {
+   "k": "d7l653",
+   "en": "Logistics Company"
+  },
+  {
+   "k": "vq1whn",
+   "en": "-10% Supply Consumption, -5% Fuel Consumption, Blocks Helicopter Transports"
+  },
+  {
+   "k": "ysj8i6",
+   "en": "10 Motorized, 20 Support Equipment"
+  },
+  {
+   "k": "tb4gua",
+   "en": "Helicopter Transports"
+  },
+  {
+   "k": "8xdz8t",
+   "en": "-10% Supply Consumption, Various ⟦0⟧ movement bonuses, Blocks Logistics Company, Blocks Helicopter Brigade",
+   "frags": 1
+  },
+  {
+   "k": "u9kdw",
+   "en": "10 Motorized, 20 Support Equipment, 10 Helicopter"
+  },
+  {
+   "k": "1v66itj",
+   "en": "Maintenance Company"
+  },
+  {
+   "k": "hnb2b3",
+   "en": "+5% Reliability, ⟦0⟧, Blocks Armored Maintenance Company",
+   "frags": 1
+  },
+  {
+   "k": "1fe7hsn",
+   "en": "25 Support Equipment"
+  },
+  {
+   "k": "6tofbd",
+   "en": "Armored Maintenance Company"
+  },
+  {
+   "k": "16pc3p3",
+   "en": "+2% Reliability, ⟦0⟧, +10% Equipment Recovery, Cannot ⟦1⟧, Blocks Maintenance Company, +0.1 Tanks & Armor Variants HP",
+   "frags": 2
+  },
+  {
+   "k": "ob950b",
+   "en": "+10% Equipment Capture Ratio"
+  },
+  {
+   "k": "1wgohj7",
+   "en": "20 Armored Support Equipment, 15 Support Equipment"
+  },
+  {
+   "k": "kx3o89",
+   "en": "Support, tank, all armour, all army"
+  },
+  {
+   "k": "p9065s",
+   "en": "Military Police"
+  },
+  {
+   "k": "z5n187",
+   "en": "+20% Suppression, Blocks Motorized Military Police, +20% All Infantry Recovery Rate"
+  },
+  {
+   "k": "18qx3jj",
+   "en": "Motorized Military Police"
+  },
+  {
+   "k": "15d45np",
+   "en": "+30% Suppression, +1 Recon, Cannot ⟦0⟧, Blocks Military Police, +20% All Infantry Recovery Rate, +20% Mot. & Mech. Infantry Suppression",
+   "frags": 1
+  },
+  {
+   "k": "3g5t4a",
+   "en": "20 Infantry Equipment, 5 Support Equipment, 20 Military Motorcycle"
+  },
+  {
+   "k": "fz6pn6",
+   "en": "Signal Company"
+  },
+  {
+   "k": "10qyluz",
+   "en": "⟦0⟧, Blocks Armored Signal Company",
+   "frags": 1
+  },
+  {
+   "k": "m75dyg",
+   "en": "+10% Initiative"
+  },
+  {
+   "k": "z5tkp8",
+   "en": "Armored Signal Company"
+  },
+  {
+   "k": "1889hgj",
+   "en": "⟦0⟧, Cannot ⟦1⟧, Blocks Signal Company, +5% Tanks & Armor Variants Breakthrough",
+   "frags": 2
+  },
+  {
+   "k": "1lbvvy6",
+   "en": "+12% Initiative"
+  },
+  {
+   "k": "9fm9rx",
+   "en": "Super Heavy Tank"
+  },
+  {
+   "k": "1apgnl3",
+   "en": "Speed affects division, Various ⟦0⟧ penalties, ⟦1⟧ attack bonus, Cannot ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "1ahawi4",
+   "en": "Fort"
+  },
+  {
+   "k": "4qttb6",
+   "en": "20 Super Heavy Tanks"
+  },
+  {
+   "k": "kta3mu",
+   "en": "Tank, support, front line, all armour, all army"
+  },
+  {
+   "k": "ci1liw",
+   "en": "Super Heavy SP Artillery"
+  },
+  {
+   "k": "lm8w0g",
+   "en": "Speed affects division, Various ⟦0⟧ penalties, Cannot ⟦1⟧, Unaffected by support company bonuses",
+   "frags": 2
+  },
+  {
+   "k": "156zomr",
+   "en": "20 SH SP Artillery"
+  },
+  {
+   "k": "1550xfk",
+   "en": "-25% Breakthrough"
+  },
+  {
+   "k": "ecg4kc",
+   "en": "Super Heavy Tank Destroyer"
+  },
+  {
+   "k": "1z03cjp",
+   "en": "20 SH. Tank Destroyer"
+  },
+  {
+   "k": "14r7sbt",
+   "en": "Super Heavy TD"
+  },
+  {
+   "k": "58gfif",
+   "en": "Super Heavy SP Anti-Air"
+  },
+  {
+   "k": "1birn9c",
+   "en": "20 SH. SP Anti-Air"
+  },
+  {
+   "k": "1vtb4lx",
+   "en": "-35% Breakthrough"
+  },
+  {
+   "k": "yz6as4",
+   "en": "All armour, all army, anti air"
+  },
+  {
+   "k": "trla5r",
+   "en": "Land Cruiser"
+  },
+  {
+   "k": "16ypmq",
+   "en": "1 Land Cruiser"
+  },
+  {
+   "k": "ms6fr3",
+   "en": "Light Flame Tank Company"
+  },
+  {
+   "k": "1ekawaj",
+   "en": "Speed affects division, Various ⟦0⟧ attack bonuses, ⟦1⟧ movement bonus, Cannot ⟦2⟧, Blocks other flame tank companies, +5% All Infantry Breakthrough",
+   "frags": 3
+  },
+  {
+   "k": "1ntf3el",
+   "en": "15 Light Flame Tanks"
+  },
+  {
+   "k": "1i6ab29",
+   "en": "-75% Hard Atk., Defence, Armour -50% Soft Atk., Breakthrough"
+  },
+  {
+   "k": "1chp1h4",
+   "en": "Medium Flame Tank Company"
+  },
+  {
+   "k": "130krq4",
+   "en": "15 Medium Flame Tanks"
+  },
+  {
+   "k": "77i3de",
+   "en": "-70% Hard Atk., Defence, Armour -45% Soft Atk., Breakthrough"
+  },
+  {
+   "k": "156ese6",
+   "en": "Heavy Flame Tank Company"
+  },
+  {
+   "k": "1hl1em",
+   "en": "15 Heavy Flame Tanks"
+  },
+  {
+   "k": "yeql51",
+   "en": "-62.5% Hard Atk., Defence, Armour -40% Soft Atk., Breakthrough"
+  },
+  {
+   "k": "1gyft6",
+   "en": "Assault Battalion"
+  },
+  {
+   "k": "672zbk",
+   "en": "Unaffected by support company bonuses"
+  },
+  {
+   "k": "nb73kt",
+   "en": "+10% Soft Atk. +30% Breakthrough"
+  },
+  {
+   "k": "y8aad9",
+   "en": "All army"
+  },
+  {
+   "k": "7q25x8",
+   "en": "Winter Logistics Company"
+  },
+  {
+   "k": "13le9c8",
+   "en": "+300% Cold acclimatization gain rate, Various snow bonuses"
+  },
+  {
+   "k": "18dwp10",
+   "en": "-50% Breakthrough, Soft Atk., Hard Atk., & Armor"
+  },
+  {
+   "k": "18qo8pq",
+   "en": "Sturmtruppe Battalion"
+  },
+  {
+   "k": "1olw2em",
+   "en": "⟦0⟧ & ⟦1⟧ attack bonuses, Unaffected by support company bonuses",
+   "frags": 2
+  },
+  {
+   "k": "jyh4jf",
+   "en": "Urban"
+  },
+  {
+   "k": "1ettt1k",
+   "en": "150 Infantry Equipment, 10 Support Equipment"
+  },
+  {
+   "k": "7e1g1e",
+   "en": "+10% Soft attack"
+  },
+  {
+   "k": "9kun2m",
+   "en": "Railway Artillery"
+  },
+  {
+   "k": "4vps38",
+   "en": "⟦0⟧, sometimes referred to as ⟦1⟧, are different from other units in a lot of ways.",
+   "frags": 2
+  },
+  {
+   "k": "1hswaem",
+   "en": "Railway artillery"
+  },
+  {
+   "k": "ifgrcz",
+   "en": "railway guns"
+  },
+  {
+   "k": "1ddi5tj",
+   "en": "Production of railway artillery is similar to the production of ⟦0⟧ in which the equipment and the unit are essentially one and the same. When one railway artillery piece is produced, it automatically gets deployed in the nation's capital.",
+   "frags": 1
+  },
+  {
+   "k": "onnch0",
+   "en": "ships"
+  },
+  {
+   "k": "1i0c0if",
+   "en": "Railway artillery movement on land is limited to only on railway lines. Railway artillery can be transported over water by first manually moving it to a railway-connected port before embarking it to another port. Embarked railway artillery ignores ⟦0⟧, so care must be taken to move them in ways where they avoid sea zones that the player wishes them to avoid.",
+   "frags": 1
+  },
+  {
+   "k": "1r7yb9a",
+   "en": "naval access level settings"
+  },
+  {
+   "k": "179tm5i",
+   "en": "Railway artillery cannot be assigned to any commanders directly, though like air wings, they can be assigned to land units and will follow their assigned units as best as they can. They can also be assigned to control groups, just like other land units."
+  },
+  {
+   "k": "17mm61",
+   "en": "Railway artillery doesn't attack other units directly, it instead applies a debuff to nearby enemy units engaged in combat, similar to ⟦0⟧. If a railway artillery unit has been recently moved, its bombardment bonus will decrease for 24 hours⟦1⟧ and take some time to recover. If multiple railway artillery are in range of a single battle, only the one with the greatest bombardment will take part.",
+   "frags": 2
+  },
+  {
+   "k": "17xl3kb",
+   "en": "shore bombardment"
+  },
+  {
+   "k": "j559tv",
+   "en": "Railway artillery are affected by ⟦0⟧, including both their movement speed (which decreases to up to ⟦1⟧ in low supply) and their bombardment. Unlike other land units, supply for railway artillery cannot be motorized at a unit- or army-level, so supply hubs must be motorized manually.",
+   "frags": 2
+  },
+  {
+   "k": "157a5f9",
+   "en": "Railway artillery can be damaged by enemy ⟦0⟧ and ⟦1⟧ air missions that target ⟦2⟧. ⟦3⟧ of damage from ⟦4⟧ missions spills over onto railway artillery in the state, while ⟦5⟧ of damage from ⟦6⟧ missions spills over onto railway artillery in the state. Damaged railway guns must be repaired with ⟦7⟧ and will appear in a country's ⟦8⟧ queue.",
+   "frags": 9
+  },
+  {
+   "k": "1e5ryh6",
+   "en": "Logistics Strike"
+  },
+  {
+   "k": "rd8cx",
+   "en": "Strategic Bombing"
+  },
+  {
+   "k": "rd9j81",
+   "en": "Railways"
+  },
+  {
+   "k": "w0z8n2",
+   "en": "Civilian factories"
+  },
+  {
+   "k": "1lhkbd8",
+   "en": "construction"
+  },
+  {
+   "k": "18v8c3j",
+   "en": "Railway artillery can be captured when it is overrun or when its controlling country is capitulates or is annexed. When they are overrun, railway artillery have a ⟦0⟧ chance of being captured. This can be increased with higher Equipment Capture Ratio on the overrunning unit. When their controlling country capitulates or is annexed, ⟦1⟧⟦2⟧ of their railway artillery pieces are transferred to their new owners.",
+   "frags": 3
+  },
+  {
+   "k": "1w175xn",
+   "en": "Graphic"
+  },
+  {
+   "k": "1ycvejq",
+   "en": "Bombardment"
+  },
+  {
+   "k": "12mee49",
+   "en": "Range⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1o9gvex",
+   "en": "Enemy Fort Effectiveness⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "c1xpvl",
+   "en": "Enemy Entrenchment Effectiveness⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "gs0kiv",
+   "en": "Enemy Suppression⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1qjlb6p",
+   "en": "⟦0⟧ per Factory",
+   "frags": 1
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "ht7h42",
+   "en": "Railway Gun"
+  },
+  {
+   "k": "1v8qxvf",
+   "en": "5 km/h"
+  },
+  {
+   "k": "h2tkg7",
+   "en": "240 km"
+  },
+  {
+   "k": "15noja1",
+   "en": "1 Railway Gun"
+  },
+  {
+   "k": "1c10t9v",
+   "en": "Super-Heavy Railway Gun"
+  },
+  {
+   "k": "1a7qmgx",
+   "en": "3 km/h"
+  },
+  {
+   "k": "1p3qa7s",
+   "en": "360 km"
+  },
+  {
+   "k": "1008n4o",
+   "en": "1 Super-Heavy Railway Gun"
+  },
+  {
+   "k": "t24ruo",
+   "en": "Main article: Equipment"
+  },
+  {
+   "k": "2b6k60",
+   "en": "Equipment is produced by ⟦0⟧ Lines. All units use Equipment of some sort. An Equipment Type is a more abstract grouping, such as Medium Tanks. A Division that has a ⟦1⟧ that uses Medium Tanks can use any type of Medium Tank Equipment to fill its Equipment needs. The statistics of a unit are determined by the statistics of its equipment types. This may be modified by the unit itself; for example, ⟦2⟧ typically get penalties to most combat statistics.",
+   "frags": 3
+  },
+  {
+   "k": "128dyd6",
+   "en": "Production"
+  },
+  {
+   "k": "kct2c4",
+   "en": "Division template"
+  },
+  {
+   "k": "hg8gdr",
+   "en": "support units"
+  },
+  {
+   "k": "p6i9jh",
+   "en": "Division examples"
+  },
+  {
+   "k": "1ob9s4t",
+   "en": "Historical divisions"
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "76y7b9",
+   "en": "⟦0⟧ in ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1f0kuqn",
+   "en": "NDefines.NMilitary.HOURLY_ORG_MOVEMENT_IMPACT = -0.2"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "1odp415",
+   "en": "⟦0⟧ in ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1y3lfzx",
+   "en": "NDefines.NMilitary.ZERO_ORG_MOVEMENT_MODIFIER = -0.8"
+  },
+  {
+   "k": "17j1haz",
+   "en": "⟦0⟧ and ⟦1⟧ in ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "5r0g3a",
+   "en": "NDefines.NMilitary.PIERCING_THRESHOLD_DAMAGE_VALUES = { 1, 0.8, 0.65, 0.5 }"
+  },
+  {
+   "k": "xfefc9",
+   "en": "NDefines.NMilitary.PIERCING_THRESHOLDS = { 1, 0.75, 0.5, 0 }"
+  },
+  {
+   "k": "swo1uz",
+   "en": "NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_ON_SOFT_DICE_SIZE = 6"
+  },
+  {
+   "k": "1q78pew",
+   "en": "NDefines.NMilitary.ARMOR_VS_AVERAGE = 0.4"
+  },
+  {
+   "k": "15cubak",
+   "en": "NDefines.NMilitary.PEN_VS_AVERAGE = 0.4"
+  },
+  {
+   "k": "1ee6cg0",
+   "en": "NDefines.NMilitary.ARMY_INITIATIVE_REINFORCE_FACTOR = 0.25"
+  },
+  {
+   "k": "ztd0e5",
+   "en": "NDefines.NMilitary.FUEL_CAPACITY_DEFAULT_HOURS = 96"
+  },
+  {
+   "k": "1jrr21c",
+   "en": "Exclusive to the Netherlands. Unlocked via ⟦0⟧, ⟦1⟧, ⟦2⟧, ⟦3⟧, or ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "hlldox",
+   "en": "Japan’s Bicycle Battalions national focus"
+  },
+  {
+   "k": "1bodl2d",
+   "en": "Italy’s Bersaglieri national focus"
+  },
+  {
+   "k": "aay8bf",
+   "en": "Finland’s Establish Jaeger Movement national focus"
+  },
+  {
+   "k": "wfroc2",
+   "en": "Sweden’s Militärcykel national focus"
+  },
+  {
+   "k": "19jcr9g",
+   "en": "Brazil’s Establish Caloi Factory national focus"
+  },
+  {
+   "k": "m0fux2",
+   "en": "Unlocked via the ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "7cp9zt",
+   "en": "Soviet Union’s Penal Battalions national focus"
+  },
+  {
+   "k": "18thic6",
+   "en": "Exclusive to ⟦0⟧ from start of the game. With ⟦1⟧ dlc also for ⟦2⟧, ⟦3⟧, ⟦4⟧, ⟦5⟧, ⟦6⟧, ⟦7⟧, ⟦8⟧, ⟦9⟧, ⟦10⟧, ⟦11⟧, ⟦12⟧, ⟦13⟧, ⟦14⟧, ⟦15⟧, ⟦16⟧, ⟦17⟧, ⟦18⟧, and all countries in european Italy. ⟦19⟧ can unlock via ⟦20⟧, ⟦21⟧ can unlock via ⟦22⟧ and ⟦23⟧, ⟦24⟧ can unlock via ⟦25⟧.",
+   "frags": 26
+  },
+  {
+   "k": "1lvj7n4",
+   "en": "Aussa"
+  },
+  {
+   "k": "hvw584",
+   "en": "Battle for the Bosporus"
+  },
+  {
+   "k": "fm1xfx",
+   "en": "British Raj"
+  },
+  {
+   "k": "1nwdpmw",
+   "en": "Egypt"
+  },
+  {
+   "k": "y6f35m",
+   "en": "France"
+  },
+  {
+   "k": "1gdgowo",
+   "en": "Iraq"
+  },
+  {
+   "k": "eg9p8s",
+   "en": "Italy"
+  },
+  {
+   "k": "1tzenzj",
+   "en": "Jordan"
+  },
+  {
+   "k": "wa1w6w",
+   "en": "Kuwait"
+  },
+  {
+   "k": "1xwr4x6",
+   "en": "Lebanon"
+  },
+  {
+   "k": "vstvuq",
+   "en": "Oman"
+  },
+  {
+   "k": "1ynageg",
+   "en": "Palestine"
+  },
+  {
+   "k": "23p38e",
+   "en": "Qatar"
+  },
+  {
+   "k": "pccj5r",
+   "en": "Saudi Arabia"
+  },
+  {
+   "k": "1s1lfqm",
+   "en": "Spain"
+  },
+  {
+   "k": "3nr3wz",
+   "en": "Syria"
+  },
+  {
+   "k": "1o6exq6",
+   "en": "United Arab Emirates"
+  },
+  {
+   "k": "vcugn7",
+   "en": "United Kingdom"
+  },
+  {
+   "k": "5h1qg9",
+   "en": "Yemen"
+  },
+  {
+   "k": "i87c38",
+   "en": "German Reich"
+  },
+  {
+   "k": "1jxa2l9",
+   "en": "Weltpolitik"
+  },
+  {
+   "k": "38tzan",
+   "en": "Turkey"
+  },
+  {
+   "k": "6anjhn",
+   "en": "Desert Camel Corps"
+  },
+  {
+   "k": "a4o9rb",
+   "en": "The Tuz Gölü Training Facility"
+  },
+  {
+   "k": "4bedm6",
+   "en": "Ethiopia"
+  },
+  {
+   "k": "185yicb",
+   "en": "Animal Husbandry"
+  },
+  {
+   "k": "1980b1q",
+   "en": "⟦0⟧ can unlock via ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "13edggr",
+   "en": "Elephants for the Modern Age"
+  },
+  {
+   "k": "1bhn3nk",
+   "en": "forum:1395828"
+  },
+  {
+   "k": "qkuq3f",
+   "en": "⟦0⟧ from game files in folder \\Hearts of Iron IV\\common\\units\\equipment",
+   "frags": 1
+  },
+  {
+   "k": "1yi5qwg",
+   "en": "railway_gun_hours_between_redistribution"
+  },
+  {
+   "k": "llng3e",
+   "en": "NDefines.NRailwayGun.OUT_OF_SUPPLY_SPEED = -0.8"
+  },
+  {
+   "k": "1xj5fj3",
+   "en": "NDefines.NAir.SECONDARY_DAMAGE_LOGISTICS = 1"
+  },
+  {
+   "k": "2jyy9h",
+   "en": "NDefines.NAir.SECONDARY_DAMAGE_STRAT = 0.2"
+  },
+  {
+   "k": "39upok",
+   "en": "NDefines.NRailwayGun.BASE_CAPTURE_CHANCE = 0.2"
+  },
+  {
+   "k": "q06o5w",
+   "en": "railway_gun_annex_ratio"
+  },
+  {
+   "k": "1q2vquo",
+   "en": "NDefines.NRailwayGun.RAILWAY_GUN_POSSIBLE_RANGES = { 30, 15, 45 }"
+  },
+  {
+   "k": "17niorg",
+   "en": "NDefines.NRailwayGun.ATTACK_TO_FORTS_MODIFIER_FACTOR = 1.333"
+  },
+  {
+   "k": "1foi425",
+   "en": "NDefines.NRailwayGun.ATTACK_TO_ENTRENCHMENT_MODIFIER_FACTOR = 0.8"
+  },
+  {
+   "k": "ttvpfz",
+   "en": "NDefines.NRailwayGun.ATTACK_TO_BOMBARDMENT_MODIFIER_FACTOR = 0.4"
+  },
+  {
+   "k": "j4vzu9",
+   "en": "Warfare"
+  },
+  {
+   "k": "1pmis96",
+   "en": "Land warfare"
+  },
+  {
+   "k": "gl2sa2",
+   "en": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ • ⟦3⟧ • ⟦4⟧ • ⟦5⟧ • ⟦6⟧ • ⟦7⟧ • ⟦8⟧ (also ⟦9⟧) • ⟦10⟧ • ⟦11⟧ • Special forces doctrine",
+   "frags": 12
+  },
+  {
+   "k": "1ikn79l",
+   "en": "Command group"
+  },
+  {
+   "k": "1kdpnrf",
+   "en": "Land units"
+  },
+  {
+   "k": "s6v7w2",
+   "en": "Tank designer"
+  },
+  {
+   "k": "67a45e",
+   "en": "Battle plan"
+  },
+  {
+   "k": "1pcnmim",
+   "en": "Land battle"
+  },
+  {
+   "k": "g2pgjm",
+   "en": "Infantry technology"
+  },
+  {
+   "k": "1rjf55b",
+   "en": "Support companies technology"
+  },
+  {
+   "k": "qg8ocm",
+   "en": "Armor technology"
+  },
+  {
+   "k": "vmbvr7",
+   "en": "without No Step Back"
+  },
+  {
+   "k": "qjz56x",
+   "en": "Artillery technology"
+  },
+  {
+   "k": "1cs1oqe",
+   "en": "Land doctrine"
+  },
+  {
+   "k": "p5a2y1",
+   "en": "Naval warfare"
+  },
+  {
+   "k": "1md36pp",
+   "en": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ (⟦3⟧) • ⟦4⟧ • ⟦5⟧ • ⟦6⟧ (also ⟦7⟧) • ⟦8⟧ • ⟦9⟧",
+   "frags": 10
+  },
+  {
+   "k": "9w638x",
+   "en": "Navy"
+  },
+  {
+   "k": "ccmhen",
+   "en": "Ship"
+  },
+  {
+   "k": "ov8z8s",
+   "en": "Ship designer"
+  },
+  {
+   "k": "uqska2",
+   "en": "London Naval Treaty"
+  },
+  {
+   "k": "1hvovva",
+   "en": "Naval missions"
+  },
+  {
+   "k": "1r6vn7z",
+   "en": "Naval battle"
+  },
+  {
+   "k": "1qb81nb",
+   "en": "Naval technology"
+  },
+  {
+   "k": "pw04bf",
+   "en": "without Man the Guns"
+  },
+  {
+   "k": "1oxxu4y",
+   "en": "Naval support technology"
+  },
+  {
+   "k": "jh80qf",
+   "en": "Naval doctrine"
+  },
+  {
+   "k": "gik2td",
+   "en": "Air warfare"
+  },
+  {
+   "k": "dkfq17",
+   "en": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ • ⟦3⟧ (also ⟦4⟧) • ⟦5⟧ • ⟦6⟧",
+   "frags": 7
+  },
+  {
+   "k": "ep0yao",
+   "en": "Aircraft designer"
+  },
+  {
+   "k": "poltvy",
+   "en": "Air missions"
+  },
+  {
+   "k": "1mfxar5",
+   "en": "Air combat"
+  },
+  {
+   "k": "9cafof",
+   "en": "Air technology"
+  },
+  {
+   "k": "wetszz",
+   "en": "without By Blood Alone"
+  },
+  {
+   "k": "pv8y7",
+   "en": "Air doctrine"
+  },
+  {
+   "k": "1ra2mls",
+   "en": "Missiles"
+  },
+  {
+   "k": "1d3wr3i",
+   "en": "Politics"
+  },
+  {
+   "k": "10glfs6",
+   "en": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ • ⟦3⟧ • ⟦4⟧ • ⟦5⟧ • ⟦6⟧ • ⟦7⟧ • World tension • ⟦8⟧ • ⟦9⟧ • ⟦10⟧",
+   "frags": 11
+  },
+  {
+   "k": "18a2mp",
+   "en": "Ideology"
+  },
+  {
+   "k": "2eq77f",
+   "en": "Faction"
+  },
+  {
+   "k": "m1c2qr",
+   "en": "National focus"
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "zc9cvq",
+   "en": "Government"
+  },
+  {
+   "k": "mntfz",
+   "en": "Puppet"
+  },
+  {
+   "k": "lucq3p",
+   "en": "Governments in exile"
+  },
+  {
+   "k": "1ftjdix",
+   "en": "Diplomacy"
+  },
+  {
+   "k": "kpvo8i",
+   "en": "Civil war"
+  },
+  {
+   "k": "q2j1tx",
+   "en": "Balance of power"
+  },
+  {
+   "k": "1winv95",
+   "en": "Trade"
+  },
+  {
+   "k": "j6p9kc",
+   "en": "Construction"
+  },
+  {
+   "k": "yq3f6s",
+   "en": "Military industrial organization"
+  },
+  {
+   "k": "iqjybx",
+   "en": "International market"
+  },
+  {
+   "k": "1f6tz4t",
+   "en": "Research and technology"
+  },
+  {
+   "k": "sk9ul6",
+   "en": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ • ⟦3⟧ (also ⟦4⟧) • ⟦5⟧ • ⟦6⟧ • Special forces doctrine • ⟦7⟧ (also ⟦8⟧) • ⟦9⟧ • ⟦10⟧ • ⟦11⟧ (also ⟦12⟧) • ⟦13⟧ • ⟦14⟧ • ⟦15⟧ • Special project • ⟦16⟧",
+   "frags": 17
+  },
+  {
+   "k": "pps2r0",
+   "en": "Research"
+  },
+  {
+   "k": "5qpdw2",
+   "en": "Engineering technology"
+  },
+  {
+   "k": "4fh35j",
+   "en": "Industry technology"
+  },
+  {
+   "k": "1pa6tqp",
+   "en": "Scientist"
+  },
+  {
+   "k": "1chrrlx",
+   "en": "Military and warfare"
+  },
+  {
+   "k": "curxny",
+   "en": "Warfare • ⟦0⟧ • ⟦1⟧ • ⟦2⟧ • ⟦3⟧ • ⟦4⟧ • ⟦5⟧ • ⟦6⟧ • ⟦7⟧ • ⟦8⟧ • ⟦9⟧ • ⟦10⟧ • ⟦11⟧ (⟦12⟧) • ⟦13⟧ • ⟦14⟧ • ⟦15⟧ • ⟦16⟧ • ⟦17⟧ • ⟦18⟧ • ⟦19⟧ • ⟦20⟧ • ⟦21⟧ • ⟦22⟧",
+   "frags": 23
+  },
+  {
+   "k": "1u062g9",
+   "en": "Peace conference"
+  },
+  {
+   "k": "je5emr",
+   "en": "Division designer"
+  },
+  {
+   "k": "6e8jnk",
+   "en": "Army planner"
+  },
+  {
+   "k": "qkms9x",
+   "en": "Commander"
+  },
+  {
+   "k": "6hztxg",
+   "en": "Officer corps"
+  },
+  {
+   "k": "146p7sg",
+   "en": "Logistics"
+  },
+  {
+   "k": "xmcd8r",
+   "en": "Nuclear bomb"
+  },
+  {
+   "k": "5hwjw1",
+   "en": "Raid"
+  },
+  {
+   "k": "1y7baae",
+   "en": "Espionage"
+  },
+  {
+   "k": "1mkuf87",
+   "en": "Intel"
+  },
+  {
+   "k": "edpl0h",
+   "en": "Intelligence agency"
+  },
+  {
+   "k": "kqpju7",
+   "en": "Operatives"
+  },
+  {
+   "k": "gmp1ge",
+   "en": "Missions"
+  },
+  {
+   "k": "1ahoaq7",
+   "en": "Operations"
+  },
+  {
+   "k": "j1sac1",
+   "en": "Map"
+  },
+  {
+   "k": "wfrlrn",
+   "en": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ • Weather • ⟦3⟧",
+   "frags": 4
+  },
+  {
+   "k": "15zdv1h",
+   "en": "Province"
+  },
+  {
+   "k": "8awmmu",
+   "en": "State"
+  },
+  {
+   "k": "qusmdm",
+   "en": "Events and Decisions"
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "vwifyo",
+   "en": "Decisions"
+  },
+  {
+   "k": "15ckcdb",
+   "en": "NMilitary.ARMOR_VS_AVERAGE"
+  },
+  {
+   "k": "12xvc0r",
+   "en": "NMilitary.PEN_VS_AVERAGE"
+  },
+  {
+   "k": "31mze",
+   "en": "Medium tank"
+  },
+  {
+   "k": "16lhprx",
+   "en": "Super heavy tank"
+  },
+  {
+   "k": "1b8hswe",
+   "en": "For land doctrine and other effects."
+  },
+  {
+   "k": "ft3ll1",
+   "en": "Infantry.png"
+  },
+  {
+   "k": "63dvqn",
+   "en": "NATO infantry.png"
+  },
+  {
+   "k": "150pr61",
+   "en": "Bicycle Battalion.png"
+  },
+  {
+   "k": "y1tjz1",
+   "en": "NATO bicycle.png"
+  },
+  {
+   "k": "nr3mpe",
+   "en": "Penal Battalion.png"
+  },
+  {
+   "k": "anemoq",
+   "en": "NATO penal.png"
+  },
+  {
+   "k": "1l8dlmq",
+   "en": "Irregular infantry.png"
+  },
+  {
+   "k": "wav4xo",
+   "en": "NATO Irregular infantry.png"
+  },
+  {
+   "k": "153f3en",
+   "en": "Militia.png"
+  },
+  {
+   "k": "1k0m8rh",
+   "en": "NATO Militia.png"
+  },
+  {
+   "k": "1wqgwue",
+   "en": "Mountaineers.png"
+  },
+  {
+   "k": "1hvw8gh",
+   "en": "NATO mountain.png"
+  },
+  {
+   "k": "t6vm6",
+   "en": "Marine.png"
+  },
+  {
+   "k": "h1ml2o",
+   "en": "NATO marine.png"
+  },
+  {
+   "k": "qdotji",
+   "en": "Marine commando.png"
+  },
+  {
+   "k": "nk392k",
+   "en": "NATO Marine commando.png"
+  },
+  {
+   "k": "16ywyvo",
+   "en": "Paratroop.png"
+  },
+  {
+   "k": "sh89xu",
+   "en": "NATO paratroop.png"
+  },
+  {
+   "k": "pw6e9o",
+   "en": "Rangers.png"
+  },
+  {
+   "k": "1l7ygae",
+   "en": "NATO Rangers.png"
+  },
+  {
+   "k": "1auiwkg",
+   "en": "Cavalry.png"
+  },
+  {
+   "k": "1c9ansi",
+   "en": "NATO cavalry.png"
+  },
+  {
+   "k": "138u8cx",
+   "en": "Camelry.png"
+  },
+  {
+   "k": "smm20f",
+   "en": "NATO camelry.png"
+  },
+  {
+   "k": "w4xzzo",
+   "en": "Elephantry.png"
+  },
+  {
+   "k": "1r7cjhy",
+   "en": "NATO Elephantry.png"
+  },
+  {
+   "k": "bht3r1",
+   "en": "Motorized.png"
+  },
+  {
+   "k": "htcqhf",
+   "en": "NATO motorized.png"
+  },
+  {
+   "k": "1jl0sog",
+   "en": "Mechanized.png"
+  },
+  {
+   "k": "m6xvh2",
+   "en": "NATO mechanized.png"
+  },
+  {
+   "k": "2ypl48",
+   "en": "Amtrac.png"
+  },
+  {
+   "k": "1ayc9iy",
+   "en": "NATO amtrac.png"
+  },
+  {
+   "k": "h71tv2",
+   "en": "Armored Car.png"
+  },
+  {
+   "k": "jf57ps",
+   "en": "NATO armored car.png"
+  },
+  {
+   "k": "z8ro11",
+   "en": "Anti-tank.png"
+  },
+  {
+   "k": "73mm5z",
+   "en": "NATO anti-tank.png"
+  },
+  {
+   "k": "13drfgh",
+   "en": "Anti-air.png"
+  },
+  {
+   "k": "2792v7",
+   "en": "NATO anti-air.png"
+  },
+  {
+   "k": "1tjygh0",
+   "en": "Artillery.png"
+  },
+  {
+   "k": "npgz1e",
+   "en": "NATO artillery.png"
+  },
+  {
+   "k": "f4w2qu",
+   "en": "Rocket artillery.png"
+  },
+  {
+   "k": "13iev4o",
+   "en": "NATO rocket artillery.png"
+  },
+  {
+   "k": "44w33f",
+   "en": "Yes they are not artillery but that does nothing."
+  },
+  {
+   "k": "qsmdr6",
+   "en": "Motorized anti-tank.png"
+  },
+  {
+   "k": "1p1vbfo",
+   "en": "NATO motorized anti-tank.png"
+  },
+  {
+   "k": "gyiw50",
+   "en": "Motorized anti-air.png"
+  },
+  {
+   "k": "11g4ccm",
+   "en": "NATO motorized anti-air.png"
+  },
+  {
+   "k": "1dmfr6v",
+   "en": "Motorized artillery.png"
+  },
+  {
+   "k": "160p6md",
+   "en": "NATO motorized artillery.png"
+  },
+  {
+   "k": "qy25k8",
+   "en": "Truck-drawn rocket artillery.png"
+  },
+  {
+   "k": "zdclrz",
+   "en": "NATO truck rocket brigade.png"
+  },
+  {
+   "k": "ow3e5x",
+   "en": "Motorized rocket brigade.png"
+  },
+  {
+   "k": "11ts3eb",
+   "en": "NATO motorized rocket brigade.png"
+  },
+  {
+   "k": "x0qodw",
+   "en": "Light tank.png"
+  },
+  {
+   "k": "1r5pgki",
+   "en": "NATO light tank.png"
+  },
+  {
+   "k": "120brej",
+   "en": "Medium tank.png"
+  },
+  {
+   "k": "q9qobt",
+   "en": "NATO medium tank.png"
+  },
+  {
+   "k": "dz61hh",
+   "en": "Heavy tank.png"
+  },
+  {
+   "k": "1av6hto",
+   "en": "NATO heavy armor.png"
+  },
+  {
+   "k": "mh3ykv",
+   "en": "Modern tank.png"
+  },
+  {
+   "k": "9e2l1m",
+   "en": "NATO modern armor.png"
+  },
+  {
+   "k": "pl599d",
+   "en": "Amphibious Tank.png"
+  },
+  {
+   "k": "179aver",
+   "en": "NATO Amphibious Tank.png"
+  },
+  {
+   "k": "2osl09",
+   "en": "Light Amphibious Tank.png"
+  },
+  {
+   "k": "o8mu6n",
+   "en": "NATO Light Amphibious Tank.png"
+  },
+  {
+   "k": "746iys",
+   "en": "Medium Amphibious Tank.png"
+  },
+  {
+   "k": "gvt8n6",
+   "en": "NATO Medium Amphibious Tank.png"
+  },
+  {
+   "k": "1jvxxam",
+   "en": "Heavy Amphibious Tank.png"
+  },
+  {
+   "k": "xcmidg",
+   "en": "NATO Heavy Amphibious Tank.png"
+  },
+  {
+   "k": "dnx1m7",
+   "en": "Light tank anti-tank.png"
+  },
+  {
+   "k": "mrvjnl",
+   "en": "NATO light tank anti-tank.png"
+  },
+  {
+   "k": "1kb66jg",
+   "en": "Medium tank anti-tank.png"
+  },
+  {
+   "k": "1ax9kfq",
+   "en": "NATO medium tank anti-tank.png"
+  },
+  {
+   "k": "19wr93u",
+   "en": "Heavy tank anti-tank.png"
+  },
+  {
+   "k": "wh4g5j",
+   "en": "NATO heavy armor anti-tank.png"
+  },
+  {
+   "k": "rrl860",
+   "en": "Modern tank anti-tank.png"
+  },
+  {
+   "k": "iezgft",
+   "en": "NATO modern armor anti-tank.png"
+  },
+  {
+   "k": "1teshxm",
+   "en": "Light tank artillery.png"
+  },
+  {
+   "k": "1mpd0uw",
+   "en": "NATO light tank artillery.png"
+  },
+  {
+   "k": "1yqmqi5",
+   "en": "Medium tank artillery.png"
+  },
+  {
+   "k": "17mw7er",
+   "en": "NATO medium tank artillery.png"
+  },
+  {
+   "k": "1godtdb",
+   "en": "Heavy tank artillery.png"
+  },
+  {
+   "k": "19pxrhu",
+   "en": "NATO heavy armor artillery.png"
+  },
+  {
+   "k": "12u3a9",
+   "en": "Modern tank artillery.png"
+  },
+  {
+   "k": "1i2zu3k",
+   "en": "NATO modern armor artillery.png"
+  },
+  {
+   "k": "tgfdh7",
+   "en": "Light tank anti-air.png"
+  },
+  {
+   "k": "1j3efth",
+   "en": "NATO light tank anti-air.png"
+  },
+  {
+   "k": "1fc0kny",
+   "en": "Medium tank anti-air.png"
+  },
+  {
+   "k": "15t5wps",
+   "en": "NATO medium tank anti-air.png"
+  },
+  {
+   "k": "8a2jd8",
+   "en": "Heavy tank anti-air.png"
+  },
+  {
+   "k": "lzqkfn",
+   "en": "NATO heavy armor anti-air.png"
+  },
+  {
+   "k": "1mjv2du",
+   "en": "Modern tank anti-air.png"
+  },
+  {
+   "k": "1ktfyy5",
+   "en": "NATO modern armor anti-air.png"
+  },
+  {
+   "k": "1ynsy2a",
+   "en": "Support anti-tank.png"
+  },
+  {
+   "k": "1iegjig",
+   "en": "NATO support anti-tank.png"
+  },
+  {
+   "k": "13pzg4k",
+   "en": "Support anti-air.png"
+  },
+  {
+   "k": "162784i",
+   "en": "NATO support anti-air.png"
+  },
+  {
+   "k": "190dgzb",
+   "en": "Support artillery.png"
+  },
+  {
+   "k": "1b9hms1",
+   "en": "NATO support artillery.png"
+  },
+  {
+   "k": "1et729z",
+   "en": "Support rocket artillery.png"
+  },
+  {
+   "k": "1i2tex1",
+   "en": "NATO support rocket artillery.png"
+  },
+  {
+   "k": "zhkcag",
+   "en": "Super heavy artillery.png"
+  },
+  {
+   "k": "7h70cq",
+   "en": "NATO super heavy artillery.png"
+  },
+  {
+   "k": "1ksp9gp",
+   "en": "Self propelled super heavy artillery.png"
+  },
+  {
+   "k": "i6fsdr",
+   "en": "NATO self propelled super heavy artillery.png"
+  },
+  {
+   "k": "1uk5y9",
+   "en": "Recon.png"
+  },
+  {
+   "k": "1jichzz",
+   "en": "NATO recon.png"
+  },
+  {
+   "k": "9619vr",
+   "en": "Recon Rangers.png"
+  },
+  {
+   "k": "1lf86ft",
+   "en": "NATO Recon Rangers.png"
+  },
+  {
+   "k": "19uucel",
+   "en": "Long range patrol.png"
+  },
+  {
+   "k": "10vrz3f",
+   "en": "NATO Long range patrol.png"
+  },
+  {
+   "k": "1ajlih1",
+   "en": "Additive"
+  },
+  {
+   "k": "1le4sly",
+   "en": "Motorized Recon.png"
+  },
+  {
+   "k": "o2h178",
+   "en": "NATO Motorized Recon.png"
+  },
+  {
+   "k": "1ba0ctd",
+   "en": "Armored Car Recon.png"
+  },
+  {
+   "k": "14jnq3",
+   "en": "NATO Armored Car Recon.png"
+  },
+  {
+   "k": "tuik2v",
+   "en": "Light Tank Recon.png"
+  },
+  {
+   "k": "b4lehp",
+   "en": "NATO Light Tank Recon.png"
+  },
+  {
+   "k": "1qz78vv",
+   "en": "Airborne armored recon.png"
+  },
+  {
+   "k": "1qzugb1",
+   "en": "NATO Airborne armored recon.png"
+  },
+  {
+   "k": "jjni9a",
+   "en": "Helicopter recon.png"
+  },
+  {
+   "k": "7gkd4k",
+   "en": "NATO helicopter recon.png"
+  },
+  {
+   "k": "3cujm5",
+   "en": "Helicopter brigade.png"
+  },
+  {
+   "k": "h5zt7r",
+   "en": "NATO helicopter brigade.png"
+  },
+  {
+   "k": "s0eql",
+   "en": "Engineer.png"
+  },
+  {
+   "k": "1cz2awf",
+   "en": "NATO engineer.png"
+  },
+  {
+   "k": "7a024b",
+   "en": "Armored engineer.png"
+  },
+  {
+   "k": "1u50rz5",
+   "en": "NATO armored engineer.png"
+  },
+  {
+   "k": "576gr0",
+   "en": "Assault engineer.png"
+  },
+  {
+   "k": "3ci2ry",
+   "en": "NATO assault engineer.png"
+  },
+  {
+   "k": "owkykr",
+   "en": "Pioneers.png"
+  },
+  {
+   "k": "1x4d4jx",
+   "en": "NATO Pioneers.png"
+  },
+  {
+   "k": "1wv7352",
+   "en": "Jungle pioneers.png"
+  },
+  {
+   "k": "17o5a8",
+   "en": "NATO jungle pioneers.png"
+  },
+  {
+   "k": "1we58du",
+   "en": "Field hospital.png"
+  },
+  {
+   "k": "12xnqvc",
+   "en": "NATO field hospital.png"
+  },
+  {
+   "k": "xt244z",
+   "en": "Helicopter field hospital.png"
+  },
+  {
+   "k": "4acb0h",
+   "en": "NATO helicopter field hospital.png"
+  },
+  {
+   "k": "6p6psu",
+   "en": "Logistics company.png"
+  },
+  {
+   "k": "17abup8",
+   "en": "NATO logistics company.png"
+  },
+  {
+   "k": "1nowdmo",
+   "en": "Helicopter transport.png"
+  },
+  {
+   "k": "1yvd902",
+   "en": "NATO helicopter transport.png"
+  },
+  {
+   "k": "1gfsium",
+   "en": "Maintenance company.png"
+  },
+  {
+   "k": "1v6hw3c",
+   "en": "NATO maintenance company.png"
+  },
+  {
+   "k": "1e51awv",
+   "en": "Armored maintenance.png"
+  },
+  {
+   "k": "vfog15",
+   "en": "NATO armored maintenance.png"
+  },
+  {
+   "k": "sa29hx",
+   "en": "Military police.png"
+  },
+  {
+   "k": "ejcyn3",
+   "en": "NATO military police.png"
+  },
+  {
+   "k": "1w4sbhy",
+   "en": "Motorized military police.png"
+  },
+  {
+   "k": "ioe3mw",
+   "en": "NATO motorized military police.png"
+  },
+  {
+   "k": "a7w6fn",
+   "en": "Signal company.png"
+  },
+  {
+   "k": "46beul",
+   "en": "NATO signal company.png"
+  },
+  {
+   "k": "1ftukpq",
+   "en": "Armored signal.png"
+  },
+  {
+   "k": "u15qw",
+   "en": "NATO armored signal.png"
+  },
+  {
+   "k": "gqtl7c",
+   "en": "Super heavy tank.png"
+  },
+  {
+   "k": "1qj3xsj",
+   "en": "NATO super heavy armor.png"
+  },
+  {
+   "k": "1buxymm",
+   "en": "Super heavy tank artillery.png"
+  },
+  {
+   "k": "1pxf2th",
+   "en": "NATO super heavy armor artillery.png"
+  },
+  {
+   "k": "12i69pn",
+   "en": "Super heavy tank anti-tank.png"
+  },
+  {
+   "k": "f1cb50",
+   "en": "NATO super heavy armor anti-tank.png"
+  },
+  {
+   "k": "1b01kwf",
+   "en": "Super heavy tank anti-air.png"
+  },
+  {
+   "k": "h291za",
+   "en": "NATO super heavy armor anti-air.png"
+  },
+  {
+   "k": "sd2x1y",
+   "en": "Land cruiser.png"
+  },
+  {
+   "k": "ki8sqc",
+   "en": "NATO land cruiser.png"
+  },
+  {
+   "k": "1axw3wd",
+   "en": "Light Flame Tank.png"
+  },
+  {
+   "k": "1dxzfuv",
+   "en": "NATO Light Flame Tank.png"
+  },
+  {
+   "k": "86d5ne",
+   "en": "Medium Flame Tank.png"
+  },
+  {
+   "k": "1w9u5ak",
+   "en": "NATO Medium Flame Tank.png"
+  },
+  {
+   "k": "koh9s8",
+   "en": "Heavy Flame Tank.png"
+  },
+  {
+   "k": "awy6sa",
+   "en": "NATO Heavy Flame Tank.png"
+  },
+  {
+   "k": "1v00980",
+   "en": "Blackshirt assault battalion.png"
+  }
+ ]
+}

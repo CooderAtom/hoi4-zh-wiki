@@ -1,0 +1,810 @@
+{
+ "batch": 949,
+ "pages": [
+  "Patch 1.9.X"
+ ],
+ "chars": 14919,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1dys5ov",
+   "en": "Improved cleanup of unneeded leaders in script, and added a failsafe in the Temporal Continuum Matrix, both of which are aimed to prevent Franco or Mola from entering into our world from an alternate dimension and wage a war against themselves. Also prevented Primo de Rivera from rising from the dead."
+  },
+  {
+   "k": "u29jzq",
+   "en": "Radar technology for Czechoslovakia will now use the correct localisation"
+  },
+  {
+   "k": "w6ywme",
+   "en": "The tutorial should now correctly refer to Ethiopia"
+  },
+  {
+   "k": "18wsgwi",
+   "en": "fixed some countries not having illusive gentleman minister"
+  },
+  {
+   "k": "1hu3jvf",
+   "en": "fixed an issue with a focus bypassing when it shouldn't"
+  },
+  {
+   "k": "1c0xpaw",
+   "en": "air continuous focus now also helps with scout planes"
+  },
+  {
+   "k": "8m4bei",
+   "en": "fixed naval supremacy from intel being off by a hundred"
+  },
+  {
+   "k": "1mf6l43",
+   "en": "fixed a typo in a French idea"
+  },
+  {
+   "k": "ta3u",
+   "en": "Czechoslovakia's Focuses should now work as designed."
+  },
+  {
+   "k": "1pxqat3",
+   "en": "Fixed incorrect advisor traits for 101 country tags"
+  },
+  {
+   "k": "1vbl4gz",
+   "en": "New Zealand will now gain access to a decision to request control of Pacific Islands upon completion of the \"Maori Volunteers\" focus."
+  },
+  {
+   "k": "z5ywpa",
+   "en": "It will no longer be possible for Wang Ming or Zhang Lan to rule multiple countries"
+  },
+  {
+   "k": "7pca8w",
+   "en": "The Social Democracy focus for Communist China will now enable elections"
+  },
+  {
+   "k": "5y35kq",
+   "en": "Britain should now accept joining the Ententes through the French focus"
+  },
+  {
+   "k": "1w8o2no",
+   "en": "Improvements to the form Polynesia decision: New Zealand can now request control of Pacific islands from their faction members"
+  },
+  {
+   "k": "ggy82n",
+   "en": "Various operative sound fixes"
+  },
+  {
+   "k": "1y29qy3",
+   "en": "fixed a loc issue when describing compliance requirements for creating collaboration regimes"
+  },
+  {
+   "k": "1i686g7",
+   "en": "disabled anarchist ideology for randomly generated neutral country leaders"
+  },
+  {
+   "k": "z7n8y1",
+   "en": "Chinese Warlords should be able to become Communist"
+  },
+  {
+   "k": "1u8819c",
+   "en": "Communists in the Government now also completes Increase Arms Production, allowing them to move down the Stalinist branch even if they started out as Republicans."
+  },
+  {
+   "k": "vveown",
+   "en": "War propaganda mission can now always be taken as long as there is intelligence network strength on targeted state"
+  },
+  {
+   "k": "4mjtr6",
+   "en": "British Coerce Spain focus no longer influences Anarchist Spain."
+  },
+  {
+   "k": "1clhya0",
+   "en": "Fixed a DLC check issue with base game only lend lease"
+  },
+  {
+   "k": "118e0r1",
+   "en": "fixed historical unit leaders getting their genders randomly assigned if not specified"
+  },
+  {
+   "k": "m5mbdk",
+   "en": "Allow Portugal to remove the Unstable Republic national spirit when taking focuses 'Join the Axis' and 'Honor Anglo-Portuguese Alliance'"
+  },
+  {
+   "k": "ud3ms8",
+   "en": "The Stalinist Doctrine and Anti-Fascist Unity are now only 35 days, making it possible for the Stalinists to reach Anti-Fascist Unity before the Anarchists rise up."
+  },
+  {
+   "k": "1jfzrlf",
+   "en": "fixed a broken trigger in the Expand the Burma Road decision."
+  },
+  {
+   "k": "9wwf4h",
+   "en": "1939 Spain start will now correctly have cores on historically Nationalist territory, and resistance will be correctly initialized on Republican states, allowing for re-coring via the decision system, as intended. Also removed cores of a superfluous Nationalist Spain tag."
+  },
+  {
+   "k": "cx7tq9",
+   "en": "Fixed issues with the Spanish Civil War ending news events giving seemingly randomized combinations of titles and event texts. They should now properly reflect the SCW ending situation."
+  },
+  {
+   "k": "14zjt8z",
+   "en": "fixed intel network max planning penalty not applying to enemy"
+  },
+  {
+   "k": "14ku6kv",
+   "en": "Fixed the Fascist Referendum decision incorrectly being available for the Carlists. Also made requirements more stringent for the Referendum decisions for all other Spanish factions."
+  },
+  {
+   "k": "h7yrmx",
+   "en": "fixed two game rules not working (Volunteers freely available and Hungary set to go Communist)"
+  },
+  {
+   "k": "1os7imu",
+   "en": "Taking any focus that removes or reduces 'autonomy' in Galicia, Pais Vasco, or Catalunya, while not controlling some of these states, will now remove or reduce 'autonomy' of these states when you take control of them."
+  },
+  {
+   "k": "1xyb1i6",
+   "en": "Updated Belarusian division names with proper spellings"
+  },
+  {
+   "k": "18xwcxi",
+   "en": "Fixed an issue where formable nations decisions category was using an incorrect asset"
+  },
+  {
+   "k": "5jhyax",
+   "en": "Galicia should now have appropriate historical party leaders"
+  },
+  {
+   "k": "haypys",
+   "en": "If Portugal joins the SCW, but their allied Spanish faction is defeated, this faction will now be recreated when Portugal wins, rather than result in a peace conference upon conclusion of the SCW."
+  },
+  {
+   "k": "16na0rc",
+   "en": "fixed an issue that prevented Vichy Produce Airplane Parts spirit from correctly applying to Germany"
+  },
+  {
+   "k": "1ki3slg",
+   "en": "Fixed Bulgarian Ships using generic Portuguese names for Submarines and Destroyers."
+  },
+  {
+   "k": "klwqcd",
+   "en": "Fixed an earlier fix for Expand Soviet Aid. It should now only bypass when having taken The Stalinist Doctrine and the civil war has ended, instead of always."
+  },
+  {
+   "k": "tq55pe",
+   "en": "The \"Join the French\" focus in the Dutch focus tree now takes new French focuses into account"
+  },
+  {
+   "k": "ndljep",
+   "en": "fixed some declare war pop up description issues"
+  },
+  {
+   "k": "100sq9p",
+   "en": "France can no longer start border wars over her colonies if at war with the controller of those colonies"
+  },
+  {
+   "k": "1d6swdj",
+   "en": "Fixed an issue where, when the SCW starts, the other side did not have any cores on any of the Spanish states.Now both sides (Nationalists and Republicans) should have cores on all Spanish states upon the start of the SCW."
+  },
+  {
+   "k": "1bgaq7t",
+   "en": "Fixed an issue where Spanish Civil War factions did not have their cores initialized correctly, resulting in erroneous minimum surrender limit calculation. This resulted in Republican Spain having a surrender limit or 40%, rather than the intended limit of 15%. Together with the adjustment to the minimum surrender limit in the Death Before Surrender spirit for the Republicans, this should mean Republican Spain is much more difficult to capitulate now."
+  },
+  {
+   "k": "1fii86o",
+   "en": "The Iberian Pact is now bypassed if Portugal is already in a faction."
+  },
+  {
+   "k": "12q18nt",
+   "en": "Updated Portuguese Anarchism and Regional Defense Council of Iberia bypass and available triggers. Portuguese Anarchism should now bypass if you own their European states, ensuring you cannot get stuck on this focus as long as you do. Regional Defense Council of Iberia requires ownership of these same states."
+  },
+  {
+   "k": "1o7elwk",
+   "en": "Ensured the Independence War news event for Spain shows the correct localization (it was referring to the wrong nation)."
+  },
+  {
+   "k": "1awxgiz",
+   "en": "Reworked AI weights on Limited Self-Rule and Lusotropicalism. Portugal AI will not choose Limited Self-Rule while ruling party is non-aligned or fascist."
+  },
+  {
+   "k": "v5zi23",
+   "en": "Prevent Nationalist Spain from joining factions on historical mode."
+  },
+  {
+   "k": "1mh6wp8",
+   "en": "Portuguese dynamic tags will get Portuguese Focus Tree after wining civil war."
+  },
+  {
+   "k": "1q1gy8k",
+   "en": "Swapped Porto and Guarda Region Type."
+  },
+  {
+   "k": "1t89b0n",
+   "en": "Adjusted Portuguese population in Lisbon, Beja and Santarem states."
+  },
+  {
+   "k": "7gpykm",
+   "en": "Fixed Portuguese and Brazilian infantry division name to Divisão de Infantaria."
+  },
+  {
+   "k": "1ylx4y6",
+   "en": "Fixed bug with Purchase Ships decision, checking for the wrong DD technologies if MTG was active (which could lead to Portugal getting Basic Destroyers regardless of ITA/ENG DD hull research)."
+  },
+  {
+   "k": "mzeqwu",
+   "en": "\"Continue the Public Works\" and \"Roads, Bridges and Dams\" will add an extra building slot and infrastructure in Santarem. \"A New Industry\" and \"Textile Industry\" will add an extra civilian factory in Santarem."
+  },
+  {
+   "k": "1ce2jzc",
+   "en": "Swapped Alfredo da Silva's and Duarte Pacheco's advisor traits."
+  },
+  {
+   "k": "1qfkp4k",
+   "en": "Portuguese puppets will not get opinion penalty with Portugal upon completion of The Fifth Empire focus."
+  },
+  {
+   "k": "1y66p9h",
+   "en": "Join the Comintern, Join the Allies, Honor Anglo-Portuguese Alliance, Join the Axis and The Royal Iberian Alliance focuses now require Portugal to not be in a faction and will get canceled if so."
+  },
+  {
+   "k": "1d38k0p",
+   "en": "Completing Estado Novo focus will now lock Alvaro Cunhal as political advisor."
+  },
+  {
+   "k": "1upjg20",
+   "en": "Fixed issue with the chance of ships revolting during Navy Mutiny event."
+  },
+  {
+   "k": "4xb0af",
+   "en": "Renamed Franco's old portrait to prevent it from being used unintentionally by the game."
+  },
+  {
+   "k": "5e1brp",
+   "en": "Units now correctly divide units into fallback orders that originate in friendly territory and pass through neutral territory."
+  },
+  {
+   "k": "1655m1p",
+   "en": "army templates with >10 terrain adjusters will now create a scrollbar in template editor guis so all can be visible"
+  },
+  {
+   "k": "11ord0z",
+   "en": "Random generated female aces now get properly gender flagged"
+  },
+  {
+   "k": "1li335z",
+   "en": "Made ideas database loading more resilient to script error"
+  },
+  {
+   "k": "kpzcmc",
+   "en": "fixed a case where you can steal ships"
+  },
+  {
+   "k": "15tad8",
+   "en": "fixed sometimes not getting used factories back when canceling an operation"
+  },
+  {
+   "k": "31jhqh",
+   "en": "Made the distribution of states for the Carlist and Anarchist uprisings more reasonable, especially when finishing the SCW early and therefore owning a lot of states before rising up as the Anarchists."
+  },
+  {
+   "k": "1afq5ta",
+   "en": "Requesting Foreign Manpower Garrison support no longer overflows."
+  },
+  {
+   "k": "50gf9",
+   "en": "Fixed an issue where territory wasn't assigned properly in the Japan surrender to China"
+  },
+  {
+   "k": "fnnuny",
+   "en": "fixed a rare edge case where Communist China could attempt to infiltrate itself"
+  },
+  {
+   "k": "1tgk79",
+   "en": "Lina Odena is now properly considered female when being referred to in text. Also updated her name to have the proper diacritics."
+  },
+  {
+   "k": "2i6orq",
+   "en": "fixed usa fascist party popularity being set incorrectly after civil war"
+  },
+  {
+   "k": "1yxv6js",
+   "en": "annexed countries will be removed from wars now"
+  },
+  {
+   "k": "18htk8j",
+   "en": "fixed access relations getting cancelled after a while"
+  },
+  {
+   "k": "89k1ty",
+   "en": "fixed factory tooltips in country occupation view"
+  },
+  {
+   "k": "rzwq9h",
+   "en": "fixed collaboration government not having a proper name in some cases"
+  },
+  {
+   "k": "ql0g7l",
+   "en": "Fix targeted legitimacy daily decision not giving 0.05 legitimacy"
+  },
+  {
+   "k": "yyvdaj",
+   "en": "fixed propaganda against warmonger decision not having lower cost against neighbors"
+  },
+  {
+   "k": "zafayt",
+   "en": "Fix Missing localization tag for synthetic refineries when hovering over state resources"
+  },
+  {
+   "k": "f74y3k",
+   "en": "Fix steal naval blueprint removing civilian instead of a navy infiltration token"
+  },
+  {
+   "k": "1qigytp",
+   "en": "invalid operations (target is now ally etc) are now cancelled even if they are prepared"
+  },
+  {
+   "k": "dvh7fr",
+   "en": "France should now only be able to invite a country once into the non-intervention committee"
+  },
+  {
+   "k": "135ayad",
+   "en": "fixed two incorrect tags in a French focus"
+  },
+  {
+   "k": "lfjgbk",
+   "en": "fixed an issue preventing Paul von Lettow-Vorbeck from being recruited"
+  },
+  {
+   "k": "m795gs",
+   "en": "Wilno will now become a core when forming the United Baltic States or Poland Lithuania"
+  },
+  {
+   "k": "1b0oiuc",
+   "en": "Nationalist Spain will no longer be offered to move their capital to Madrid if their capital is already Madrid"
+  },
+  {
+   "k": "16xqk4j",
+   "en": "Carlist Spain should now have access to a naval advisor"
+  },
+  {
+   "k": "rvp5yj",
+   "en": "Solved issue with the end of SCW news event having multiple event options"
+  },
+  {
+   "k": "1adi5pk",
+   "en": "fixed missing text in the Italian focus Develop the Benghasi Oil Fields"
+  },
+  {
+   "k": "10oplow",
+   "en": "Mexico should no longer be able to send shipments to Spain if the war is over"
+  },
+  {
+   "k": "1vytbuy",
+   "en": "Tooltip for Alan Turing should now make more sense"
+  },
+  {
+   "k": "1vkousl",
+   "en": "it is no longer possible to run an operation to capture cyphers if the target country is already fully decrypted"
+  },
+  {
+   "k": "4r4ype",
+   "en": "fixed not properly creating collaborations in some cases involving states that are controlled but not owned"
+  },
+  {
+   "k": "18oqk0d",
+   "en": "Fixed an exploit that allows you to control another country that was being controlled Back in the previous Game"
+  },
+  {
+   "k": "1i8egol",
+   "en": "fixed missing icon and description for a hidden tech"
+  },
+  {
+   "k": "1lbsriq",
+   "en": "fixed activate_targeted_decision & remove_targeted_decision not working properly for some cases of state targeted decisions"
+  },
+  {
+   "k": "j8te2t",
+   "en": "Dynamic tag equipment and tech names fallback to original/base country tag"
+  },
+  {
+   "k": "o1wz2",
+   "en": "Fixed scope so that Navarra, if owned by the Carlists, will become their capital during Fascist Crackdown and Carlist Uprising events."
+  },
+  {
+   "k": "slez9y",
+   "en": "Fix saving and reloading remove research bonus already applied to a research."
+  },
+  {
+   "k": "lmyozm",
+   "en": "fixed a rare case where a recently freed collaboration government could peacefully annex the original country if both existed at the same time"
+  },
+  {
+   "k": "1y96ch",
+   "en": "fixed a case where countries not joining peace conferences when there are multiple different wars the enemy is in"
+  },
+  {
+   "k": "19edfoj",
+   "en": "fixed a rare case where Italy would not correctly join the Allies if France was already part of the Allies and Italy agreed to join the Stresa Front"
+  },
+  {
+   "k": "1knkt12",
+   "en": "Fixed the Paradox account initialization to detect the active session passed to the game from the launcher."
+  },
+  {
+   "k": "1ts4t5f",
+   "en": "fixed Reichskommissariat Ukraine not properly puppeting Ukraina"
+  },
+  {
+   "k": "1stnyh7",
+   "en": "Fixed an issue with tech stealing operation where players with MTG could be stealing old useless techs"
+  },
+  {
+   "k": "1rudh3p",
+   "en": "fixed civil war flags not being cleared when country is annexed by an effect and causing script issues"
+  },
+  {
+   "k": "1kvq20w",
+   "en": "fixed some occupation modifiers wrongly being applied after loading a save game"
+  },
+  {
+   "k": "z7zq1t",
+   "en": "impassable terrains no longer has resistance"
+  },
+  {
+   "k": "rnfhnk",
+   "en": "fixed some issues with resources that was causing inconsistencies with the last added resource type"
+  },
+  {
+   "k": "2vyfvo",
+   "en": "\"Give up Baleares\" and \"Refuse to Give up Baleares\" events are now fired to Italy instead of Spain."
+  },
+  {
+   "k": "u8cvmr",
+   "en": "fixed china uprising decision not working in some cases"
+  },
+  {
+   "k": "qs2jxn",
+   "en": "France should no longer abandon all bonds of fellowship by leaving their faction if they decide to support the Czechs together with Britain, because IT IS NOT THIS DAY"
+  },
+  {
+   "k": "u5zolg",
+   "en": "The EU should now correctly gain cores on Belgium and the Netherlands, Byzanthium and Imperium Romanum now also both gain cores on new states that were previously missing"
+  },
+  {
+   "k": "4cg1dv",
+   "en": "Airwing duplication now also copies missions as well as the \"auto turn off\" training setting"
+  },
+  {
+   "k": "2slhi8",
+   "en": "fixed some bugs that was changing resistance country (by cancelling and recreating resistance) not working"
+  },
+  {
+   "k": "o2av5o",
+   "en": "Evade Blockade decisions will now be properly removed after a country capitulates."
+  },
+  {
+   "k": "129dcim",
+   "en": "Germany and Soviet air volunteers can fight each other in the civil war"
+  },
+  {
+   "k": "18nmygs",
+   "en": "Fix a case where carrier combat disruption was not working"
+  },
+  {
+   "k": "13bop19",
+   "en": "Gibraltar will not generate resistance to any Spanish nation if it is transferred during the SCW."
+  },
+  {
+   "k": "fni0ys",
+   "en": "Fix instigate workers revolution britain not working properly"
+  },
+  {
+   "k": "1px7wuc",
+   "en": "fixed arguments not being passed to effects when using the effect console command"
+  },
+  {
+   "k": "1amyqj4",
+   "en": "Fixed issue with Spanish cores at the end of the SCW. Now the SCW winner will get resistance in the initial states of the \"major\" (SPD/SPA) Spanish enemy, until they get cored via decisions."
+  },
+  {
+   "k": "lbwyf1",
+   "en": "Fixed annexation effects not being triggered after defeating non-anarchist Portugal."
+  },
+  {
+   "k": "1r8kd2l",
+   "en": "French Coup operations should now correctly display their potential outcomes"
+  },
+  {
+   "k": "vta5wf",
+   "en": "fixed air mission icons in intel ledger air map mode having wrong frame"
+  },
+  {
+   "k": "vit5c2",
+   "en": "Fixed a typo in Belarusian spelling and cleaned up spacing."
+  },
+  {
+   "k": "15iz947",
+   "en": "The Chinese \"Communist threat defeated\" event is now suppressed after firing once until a new Communist infiltration is detected (WtT only)"
+  },
+  {
+   "k": "trmk0",
+   "en": "fixed remove_unit_leader effect not working correctly in some cases"
+  },
+  {
+   "k": "4n84bc",
+   "en": "Fixed \"Expand Garrison Control in Burgos\" decision not increasing garrison control for the Republicans"
+  },
+  {
+   "k": "4wo9ka",
+   "en": "UI & Graphics"
+  },
+  {
+   "k": "8ysqh5",
+   "en": "removed horrible yellow text in the description of an operation phase"
+  },
+  {
+   "k": "5wzr07",
+   "en": "moved air research window elements a bit so it will fir 1920 width resolutions"
+  },
+  {
+   "k": "1bkr4dp",
+   "en": "assigned f10 to faction map mode (you can take screen shot of map using ctrl + f10)"
+  },
+  {
+   "k": "hmzphn",
+   "en": "Achievements should now have much more readable descriptions"
+  },
+  {
+   "k": "id66ng",
+   "en": "Fix infinite production of ships not assigning names properly in the UI"
+  },
+  {
+   "k": "jmj465",
+   "en": "Ensured the Abdication Crisis timed mission will now appear at the top of its decision category, for convenience."
+  },
+  {
+   "k": "1iyphkf",
+   "en": "Fixed the Boost Ideology window to work with more than 4 ideologies"
+  },
+  {
+   "k": "1m9lne9",
+   "en": "The list of aces to pick from is now sorted to have compatible and free aces at the top"
+  },
+  {
+   "k": "j8qlj",
+   "en": "Releasing puppet no longer creates a new operative slot that disappears again after unpausing"
+  },
+  {
+   "k": "1d4oyc4",
+   "en": "fixed some graphical issues with frontlines"
+  },
+  {
+   "k": "12bd871",
+   "en": "fixed operative nationality flags not properly positioned when there are more than 2"
+  },
+  {
+   "k": "1hw3a2x",
+   "en": "Reduced excessive digits in percentages in various occupation tooltips"
+  },
+  {
+   "k": "xouxgb",
+   "en": "improved operative slot tooltips to see where you are gaining your slots from"
+  },
+  {
+   "k": "16a680f",
+   "en": "During peace conference, collaboration events are delayed until after and non-news events are hidden"
+  },
+  {
+   "k": "tedquu",
+   "en": "Operatives can be disbanded to free up operative slots and recruit different operatives"
+  },
+  {
+   "k": "1m9px8y",
+   "en": "French Focuses bypassed by not having an inefficient economy now correctly display that fact"
+  },
+  {
+   "k": "dtolj8",
+   "en": "fixed is_on_continent trigger tooltip being reversed"
+  },
+  {
+   "k": "12nqbmg",
+   "en": "Fix units when retreating towards a tile while in multiple combats has a wrong arrow visually"
+  },
+  {
+   "k": "1hpn852",
+   "en": "Clear all province colors when switching to root out resistance map mode"
+  },
+  {
+   "k": "9q3jvu",
+   "en": "Unified achievements tooltips during game setup and in-game so that the in-game button shows the same details as game setup."
+  },
+  {
+   "k": "a1xfd",
+   "en": "Corrected achievement UI to be disabled when not logged in with necessary accounts, with explanation added to tooltip."
+  }
+ ]
+}

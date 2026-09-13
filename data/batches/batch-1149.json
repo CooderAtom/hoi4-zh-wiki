@@ -1,0 +1,871 @@
+{
+ "batch": 1149,
+ "pages": [
+  "Balance of power modding"
+ ],
+ "chars": 14984,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "n3v1ge",
+   "en": "A ⟦0⟧ (also internally referred to as bop or power balance) is typically used to represent a conflict between two sides, using a progress bar divided into distinct sections and decisions to push it towards some side for benefits. These are defined in ⟦1⟧ files.",
+   "frags": 2
+  },
+  {
+   "k": "1ag1tyd",
+   "en": "balance of power"
+  },
+  {
+   "k": "1bb8pm2",
+   "en": "/Hearts of Iron IV/common/bop/*.txt"
+  },
+  {
+   "k": "8luoy9",
+   "en": "Each balance of power consists of 2 or more sides. While a balance of power can contain more than 2 sides, at any time the player may only see 2 which are chosen in the effect to initialise the balance of power. To track the current balance, a single value is used, which can range from -1 to 1 with up to 3 decimal points. The ⟦0⟧ range is used for the left side, ⟦1⟧ is used for the right side. A side having power only has a cosmetic impact, changing the icon and the text used in scripted localisation. A side isn't inherently set as being left or right, instead it is assigned which side is on which half when the power balance is initialised.",
+   "frags": 2
+  },
+  {
+   "k": "1oovycg",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle [-1; 0)}"
+  },
+  {
+   "k": "172leh7",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle [0; 1]}"
+  },
+  {
+   "k": "13ogloe",
+   "en": "Depending on the value, the country is placed in some range representing the exact degree of power on a certain side. This is usually used to grant certain ⟦0⟧ or to execute an ⟦1⟧ upon entering it. Most ranges are placed inside of sides, making it only possible to enter when that side is active. A range may also not be assigned to any side and be always visible, usually used for a single \"balanced\" range in the middle. A range being assigned to a side only means that it'll be visible when the range is active, and a side may have ranges on both halves of the balance at the same time. Entering a range defined on a certain side does not necessitate that the balance is tipped in favour of that side. For example, if a side is set as a left side and yet it includes a range of ⟦2⟧ , then if the value is at 0.2, then the balance will be tipped towards the right side visually, but it will still be inside of that range.",
+   "frags": 3
+  },
+  {
+   "k": "i2bme1",
+   "en": "modifiers"
+  },
+  {
+   "k": "un2mhg",
+   "en": "effect"
+  },
+  {
+   "k": "107gqp5",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle [0.1, 0.3)}"
+  },
+  {
+   "k": "kegx2e",
+   "en": "⟦0⟧ If 2 countries are assigned the same BoP, then the value of the balance will always be exactly the same between both countries. If both of these countries have modifiers pushing the BoP to some side daily or weekly, the effects of these modifiers will stack.",
+   "frags": 1
+  },
+  {
+   "k": "99eu84",
+   "en": "A balance of power is tracked globally."
+  },
+  {
+   "k": "gnhg29",
+   "en": "Code structure"
+  },
+  {
+   "k": "1ez5uf2",
+   "en": "Balances of power are created in any ⟦0⟧ file. A BoP is defined as a root-level block, where the name of the block determines the unique ID of the BoP. In case of duplicates, the error.log entry ⟦1⟧ is generated and the game will prioritise the one that was ⟦2⟧, determined using the filename and order in files. There are no strictly mandatory arguments, however it is preferred to have at least 2 sides as the UI is built on the assumption that there is always a left and a right side active. In particular, these arguments exist:",
+   "frags": 3
+  },
+  {
+   "k": "1irdmti",
+   "en": "Template ID duplicate: bop_name"
+  },
+  {
+   "k": "1ieoi5x",
+   "en": "created later"
+  },
+  {
+   "k": "1nl0z15",
+   "en": "⟦0⟧ is the default value of the BoP. If unset, defaults to 0.",
+   "frags": 1
+  },
+  {
+   "k": "8ogzmb",
+   "en": "intial_value = -0.1"
+  },
+  {
+   "k": "1ycxh45",
+   "en": "⟦0⟧ is the default left side of the BoP.",
+   "frags": 1
+  },
+  {
+   "k": "nve670",
+   "en": "left_side = side_id"
+  },
+  {
+   "k": "eum9as",
+   "en": "⟦0⟧ is the default right side of the BoP.",
+   "frags": 1
+  },
+  {
+   "k": "12ukhqn",
+   "en": "right_side = side_id"
+  },
+  {
+   "k": "1jtfqe6",
+   "en": "The default values are used when the BoP is first initialised with ⟦0⟧ (unless overwritten by its arguments) or when that same effect includes ⟦1⟧ to reset it.",
+   "frags": 2
+  },
+  {
+   "k": "lv9lfu",
+   "en": "set_power_balance"
+  },
+  {
+   "k": "1hmzwdt",
+   "en": "set_default = yes"
+  },
+  {
+   "k": "13la38x",
+   "en": "⟦0⟧ will move that ⟦1⟧ category to the balance of power view. In particular, this ensures that it's impossible to access the decision category in any way other than by the balance of power. Any trigger blocks in the decision category, such as ⟦2⟧, are still checked for the country with the BoP, however.",
+   "frags": 3
+  },
+  {
+   "k": "luf90v",
+   "en": "decision_category = TAG_example_category"
+  },
+  {
+   "k": "uwpqsj",
+   "en": "decision"
+  },
+  {
+   "k": "4pxzb0",
+   "en": "allowed = { ... }"
+  },
+  {
+   "k": "6aowsf",
+   "en": "In addition, ⟦0⟧ and ⟦1⟧ are possible with more detail.",
+   "frags": 2
+  },
+  {
+   "k": "1wioey1",
+   "en": "side = { ... }"
+  },
+  {
+   "k": "1c60i85",
+   "en": "range = { ... }"
+  },
+  {
+   "k": "16u1tvi",
+   "en": "Side"
+  },
+  {
+   "k": "1xdyix9",
+   "en": "Each side is defined using a ⟦0⟧ block in the balance of power. In particular, these arguments exist:",
+   "frags": 1
+  },
+  {
+   "k": "1v26y3c",
+   "en": "⟦0⟧ is the identifier used for the side. There should not be overlap in the same BoP, however overlap may exist between different BoPs. In case of overlap in the same BoP, only the first-created side will be used with a ⟦1⟧ entry in error.log.",
+   "frags": 2
+  },
+  {
+   "k": "1fgkwvy",
+   "en": "id = side_id"
+  },
+  {
+   "k": "lcee5h",
+   "en": "Side ID duplicate: side_id"
+  },
+  {
+   "k": "zeynh2",
+   "en": "⟦0⟧ is the spriteType used as the image to represent the side. If undefined or if the spriteType doesn't exist, the icon will not be created with no default to replace it.",
+   "frags": 1
+  },
+  {
+   "k": "dcw5hj",
+   "en": "icon = GFX_idea_unknown"
+  },
+  {
+   "k": "1nf2d4r",
+   "en": "General sprite overview"
+  },
+  {
+   "k": "1rilf8e",
+   "en": "For loading GFX, the game uses the sprite system. Sprites are code definitions that attach a name to an image file, as well as optionally adding additional information, such as animation, the amount of frames, the way that the image will be loaded, and so on. This means ⟦0⟧, a sprite has to use that image file as well. Sprites are defined in any /Hearts of Iron IV/interface/*.gfx file (this is separate from gfx/interface/), opened with a text editor. To create a new .gfx file, a text file can be created and renamed to change the extension (on Windows, the Windows Explorer needs to show the extensions, which it doesn't by default). In particular, sprites are defined within a spriteTypes = { ... } block, as to separate from fonts and map arrows also defined in that folder, while the simplest sprite with the least mandatory properties is a spriteType = { ... }. The simplest sprite definition looks like the following: spriteTypes = { spriteType = { name = GFX_first_sprite # In some cases, beginning with GFX_ is mandatory for it to work. texturefile = gfx/interface/folder/filename.dds # The folder and filename don't matter, as long as they are correct } # Only the forward slash '/' (can be doubled as '//') can be used to separate folders. spriteType = { # The image doesn't have to be .dds, as .tga and .png are acceptable. name = GFX_second_sprite texturefile = gfx/interface/folder2/filename2.dds noOfFrames = 2 # Splits the image into 2 halves, which may be switched between dynamically in GUI } } In this case, this creates a sprite with the name of GFX_first_sprite and attaches the /Hearts of Iron IV/gfx/interface/folder/filename.dds image to it, and a second sprite similarly. The second sprite will be split into 2 frames: this is decided by having the left half of the image as the first frame and the right half as the second frame (more frames would further split the image horizontally). This doesn't make the sprite animated, just turns on the option to switch between the two halves as needed. GFX_second_sprite:1 serves as a reference to the first frame, and GUI can be set up to change the shown frame depending on context, such as with radio stations. In order to add animation, a frameAnimatedSpriteType is used. It's never mandatory to copy a base game file to change a sprite. If there are duplicate definitions of a sprite with the same name in different files, the game will prioritise the one that would be evaluated later, based on the filename, and the older sprite will be ignored in entirety. This can be ensured by beginning the replacement file's name with a symbol late in the ASCII character table. Typically the lowercase letter 'z' is used for this purpose. For example, to change the amount of frames in GFX_idea_traits_strip to 10, it is possible to define a sprite with that name with 10 frames in the mod's modname/interface/zz_replace.gfx file instead of copying over the base game file. Since most .gfx files define integral parts of the user interface, copying them over can lead to the mod's loaded files missing sprites upon a major game update, which would appear in-game as the default image, which is the error dog by default. As to ease the burden of needing to check the interface files, it's best to never copy over .gfx files, unless more additions would be actively harmful to the mod, such as with interface/subuniticons.gfx",
+   "frags": 1
+  },
+  {
+   "k": "omkt9e",
+   "en": "placing an image into the gfx folder isn't enough for it to work"
+  },
+  {
+   "k": "dw6d81",
+   "en": "/Hearts of Iron IV/interface/*.gfx"
+  },
+  {
+   "k": "19ysi25",
+   "en": "gfx/interface/"
+  },
+  {
+   "k": "1jps0eu",
+   "en": "spriteTypes = { ... }"
+  },
+  {
+   "k": "1ol5nbr",
+   "en": "spriteType = { ... }"
+  },
+  {
+   "k": "1q6dtuz",
+   "en": "GFX_first_sprite"
+  },
+  {
+   "k": "rrc6od",
+   "en": "/Hearts of Iron IV/gfx/interface/folder/filename.dds"
+  },
+  {
+   "k": "16lafuq",
+   "en": "GFX_second_sprite:1"
+  },
+  {
+   "k": "1ikm53m",
+   "en": "frameAnimatedSpriteType"
+  },
+  {
+   "k": "1mb7tko",
+   "en": "It's never mandatory to copy a base game file to change a sprite"
+  },
+  {
+   "k": "1m92bk4",
+   "en": "evaluated later, based on the filename"
+  },
+  {
+   "k": "18pqn1r",
+   "en": "GFX_idea_traits_strip"
+  },
+  {
+   "k": "1ll4can",
+   "en": "modname/interface/zz_replace.gfx"
+  },
+  {
+   "k": "1k7hn62",
+   "en": "interface/subuniticons.gfx"
+  },
+  {
+   "k": "1xrx0v1",
+   "en": "⟦0⟧ is a range set to exist if and only if that side is active.",
+   "frags": 1
+  },
+  {
+   "k": "198uyr6",
+   "en": "Range"
+  },
+  {
+   "k": "cnc4xp",
+   "en": "A range is defined as a ⟦0⟧ block which may exist either directly in the BoP or inside of a ⟦1⟧. This is used to determine when the range will be visible to the player: a range directly in a BoP is always visible, while a range in a side will only be visible if that side is visible. There are 3 mandatory attributes:",
+   "frags": 2
+  },
+  {
+   "k": "1f1sn6i",
+   "en": "⟦0⟧ is used to assign an ID to the specified range. There shouldn't be duplicates across the entire BoP (even in different sides), but there may be between different BoPs. A duplicate will be marked with a ⟦1⟧ entry in error.log. In this case, the game will still display each range with the same ID that is not in a disabled side. However, this can cause issues with strict non-equal comparison when using ⟦2⟧: in particular, the game will only recognise the range that's placed furthest to the left. For example, if there are duplicate ⟦3⟧ on intervals of ⟦4⟧ and ⟦5⟧ , then a strict equilibrium will be recognised as being to the right of ⟦6⟧, but not to the left of it.",
+   "frags": 7
+  },
+  {
+   "k": "zfwd96",
+   "en": "id = range_id"
+  },
+  {
+   "k": "1w95x2j",
+   "en": "Range ID duplicate: range_id"
+  },
+  {
+   "k": "1y7p6cs",
+   "en": "is_power_balance_in_range"
+  },
+  {
+   "k": "1e8kvwa",
+   "en": "range_id"
+  },
+  {
+   "k": "p765lz",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle [-0.3, -0.1)}"
+  },
+  {
+   "k": "oke2pn",
+   "en": "⟦0⟧ is the minimum value in the range's interval. If the value is exactly at this point, this range will be applied.",
+   "frags": 1
+  },
+  {
+   "k": "1xr21t4",
+   "en": "min = -0.1"
+  },
+  {
+   "k": "1h7rx1i",
+   "en": "⟦0⟧ is the maximum value in the range's interval. If the value is exactly at this point, this range will be applied if and only if max is set to 1. Otherwise, the exact point is excluded from the interval.",
+   "frags": 1
+  },
+  {
+   "k": "1k49nmn",
+   "en": "max = 0.1"
+  },
+  {
+   "k": "lfqvzr",
+   "en": "There are also blocks that decide which impact exactly a range has on the country when the value is inside that. In particular:"
+  },
+  {
+   "k": "lz6gwu",
+   "en": "⟦0⟧ decides on the ⟦1⟧ applying to the country when the value is in that range.",
+   "frags": 2
+  },
+  {
+   "k": "1xpl1mz",
+   "en": "modifier = { ... }"
+  },
+  {
+   "k": "1au7izw",
+   "en": "rule = { ... }"
+  },
+  {
+   "k": "1scnitc",
+   "en": "game rules"
+  },
+  {
+   "k": "ekaz9f",
+   "en": "⟦0⟧ executes ⟦1⟧ the instant that the value enters this range.",
+   "frags": 2
+  },
+  {
+   "k": "fdoyj7",
+   "en": "on_activate = { ... }"
+  },
+  {
+   "k": "1yrfzhh",
+   "en": "effects"
+  },
+  {
+   "k": "1a5fy17",
+   "en": "⟦0⟧ executes ⟦1⟧ the instant that the value exits this range.",
+   "frags": 2
+  },
+  {
+   "k": "asg4z8",
+   "en": "on_deactivate = { ... }"
+  },
+  {
+   "k": "55ja69",
+   "en": "Example"
+  },
+  {
+   "k": "1j6x47b",
+   "en": "Implementation"
+  },
+  {
+   "k": "12ell4k",
+   "en": "As a balance of power isn't inherently assigned to any country, it must be manually initialised. This is done using the ⟦0⟧ ⟦1⟧. For example, this is the most bare-bones way to initialise the BoP, which will set it to the default:",
+   "frags": 2
+  },
+  {
+   "k": "1k8lfpy",
+   "en": "The effect can also be used to change details about the currently-active balance of power, such as changing the sides or the value:"
+  },
+  {
+   "k": "wgm781",
+   "en": "If necessary to reset it completely to the default, ⟦0⟧ will do so.",
+   "frags": 1
+  },
+  {
+   "k": "14ty8ei",
+   "en": "As an effect, it can be used in any effect block. If it should be initialised at the game's start, this is usually done in ⟦0⟧, alternatively it can be initialised when needed, such as in a focus reward or an event option.",
+   "frags": 1
+  },
+  {
+   "k": "1xulrbx",
+   "en": "country history"
+  },
+  {
+   "k": "xmrccv",
+   "en": "Balance of power modifiers"
+  },
+  {
+   "k": "1d7xn64",
+   "en": "See also: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "10rt0iy",
+   "en": "Balance of power modifiers are ⟦0⟧ that are applied directly to a balance of power, from which they are cloned to each country that has the BoP assigned. As static modifiers, they're defined in any ⟦1⟧ file. They typically include within of themselves only the ⟦2⟧ and/or ⟦3⟧ modifiers in order to gradually tip the balance towards one side. These modifiers will be shown in the tooltip when hovering over the current value.",
+   "frags": 4
+  },
+  {
+   "k": "111vv3p",
+   "en": "static modifiers"
+  },
+  {
+   "k": "oewe2p",
+   "en": "/Hearts of Iron IV/common/modifiers/*.txt"
+  },
+  {
+   "k": "wai41z",
+   "en": "power_balance_daily"
+  },
+  {
+   "k": "x2ahvh",
+   "en": "power_balance_weekly"
+  },
+  {
+   "k": "7cp2mb",
+   "en": "An example of a BoP modifier is as such:"
+  },
+  {
+   "k": "1kmibwz",
+   "en": "Balance of power modifiers are added via ⟦0⟧ as such:",
+   "frags": 1
+  },
+  {
+   "k": "4ona2r",
+   "en": "the add_power_balance_modifier effect"
+  },
+  {
+   "k": "11krsi4",
+   "en": "⟦0⟧, with the same syntax, or ⟦1⟧ can be used to remove these from the country.",
+   "frags": 2
+  },
+  {
+   "k": "hhu5eo",
+   "en": "The remove_power_balance_modifier effect"
+  },
+  {
+   "k": "bize51",
+   "en": "remove_all_power_balance_modifiers"
+  },
+  {
+   "k": "1eanguj",
+   "en": "Since these are duplicated to each country that has the BoP, the weekly or daily effect for each modifier will increase for each country that is assigned the BoP. For example, if the BoP is assigned to 3 countries, ⟦0⟧ in a BoP modifier will, in practice, make the balance get pushed by 3% to the right in total daily.",
+   "frags": 1
+  },
+  {
+   "k": "160gy85",
+   "en": "power_balance_daily = 0.01"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "eau79p",
+   "en": "Parts of this section are transcluded from ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1s4304i",
+   "en": "Other than ⟦0⟧, these effects exist which can be used to modify a balance of power:",
+   "frags": 1
+  },
+  {
+   "k": "1x07rck",
+   "en": "Balance of power-related country-scoped effects:"
+  },
+  {
+   "k": "4el6o6",
+   "en": "Name"
+  },
+  {
+   "k": "1yc4h6h",
+   "en": "Parameters"
+  },
+  {
+   "k": "uy0v5i",
+   "en": "Examples"
+  },
+  {
+   "k": "sjj37t",
+   "en": "Description"
+  },
+  {
+   "k": "4f76ga",
+   "en": "Notes"
+  },
+  {
+   "k": "10iy1qt",
+   "en": "Version Added"
+  },
+  {
+   "k": "hlp7w",
+   "en": "remove_power_balance"
+  },
+  {
+   "k": "eabgqp",
+   "en": "⟦0⟧ Balance of power to modify.",
+   "frags": 1
+  },
+  {
+   "k": "1r0dm25",
+   "en": "id = <BoP ID>"
+  },
+  {
+   "k": "1qpo13b",
+   "en": "remove_power_balance = { id = my_bop }"
+  },
+  {
+   "k": "qo5ssy",
+   "en": "Removes the balance of power in entirety."
+  },
+  {
+   "k": "6m1tmn",
+   "en": "add_power_balance_value"
+  },
+  {
+   "k": "1ar264s",
+   "en": "⟦0⟧ Balance of power to modify. value = <decimal> The value to add. tooltip_side = <BoP side ID> The side to show in the tooltip. Optional.",
+   "frags": 1
+  },
+  {
+   "k": "vxb306",
+   "en": "value = <decimal>"
+  },
+  {
+   "k": "46fh3k",
+   "en": "tooltip_side = <BoP side ID>"
+  },
+  {
+   "k": "1ug7nnc",
+   "en": "add_power_balance_value = { id = my_bop value = -0.1 tooltip_side = my_bop_side }"
+  },
+  {
+   "k": "11p5srd",
+   "en": "Pushes the balance of power towards one side."
+  },
+  {
+   "k": "15lax0j",
+   "en": "add_power_balance_modifier"
+  },
+  {
+   "k": "1csfszn",
+   "en": "⟦0⟧ Balance of power to modify. modifier = <static modifier> The static modifier to apply.",
+   "frags": 1
+  },
+  {
+   "k": "1lqa404",
+   "en": "modifier = <static modifier>"
+  },
+  {
+   "k": "3ln690",
+   "en": "static modifier"
+  },
+  {
+   "k": "eu9sph",
+   "en": "add_power_balance_modifier = { id = my_bop modifier = my_static_modifier }"
+  },
+  {
+   "k": "1y0eflp",
+   "en": "Applies a balance of power modifier."
+  },
+  {
+   "k": "1uxww7g",
+   "en": "remove_power_balance_modifier"
+  },
+  {
+   "k": "uwsp4e",
+   "en": "remove_power_balance_modifier = { id = my_bop modifier = my_static_modifier }"
+  },
+  {
+   "k": "1q5iv44",
+   "en": "Cancels a balance of power modifier."
+  },
+  {
+   "k": "i0cp5m",
+   "en": "remove_all_power_balance_modifiers = { id = my_bop }"
+  },
+  {
+   "k": "ixlj6f",
+   "en": "Cancels all balance of power modifiers."
+  },
+  {
+   "k": "10y35ba",
+   "en": "set_power_balance_gfx"
+  },
+  {
+   "k": "skmn37",
+   "en": "⟦0⟧ Balance of power to modify. side = <BoP side ID> The side whose GFX to change. gfx = <sprite> The sprite to change the GFX to.",
+   "frags": 1
+  },
+  {
+   "k": "o4h7s8",
+   "en": "side = <BoP side ID>"
+  },
+  {
+   "k": "ammsdo",
+   "en": "gfx = <sprite>"
+  },
+  {
+   "k": "1sd9f3o",
+   "en": "set_power_balance_gfx = { id = my_bop side = my_bop_side gfx = GFX_my_bop_side_new }"
+  },
+  {
+   "k": "1auc05q",
+   "en": "Changes the appearance of one of the sides within the balance of power."
+  },
+  {
+   "k": "1ms22dx",
+   "en": "Sprites are defined within ⟦0⟧ files.",
+   "frags": 1
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "1ml1z9o",
+   "en": "These triggers exist for checking the state of a balance of power. Some of these can only be used in country scope."
+  },
+  {
+   "k": "27cze2",
+   "en": "has_power_balance"
+  },
+  {
+   "k": "qr45n7",
+   "en": "⟦0⟧ The balance to check for.",
+   "frags": 1
+  },
+  {
+   "k": "138dmzx",
+   "en": "id = <bop ID>"
+  },
+  {
+   "k": "mf1tos",
+   "en": "has_power_balance = { id = TAG_my_bop }"
+  },
+  {
+   "k": "11rx96c",
+   "en": "Checks if the current scope has the specified balance of power active."
+  },
+  {
+   "k": "v42253",
+   "en": "has_any_power_balance"
+  },
+  {
+   "k": "i8lesi",
+   "en": "⟦0⟧ Boolean.",
+   "frags": 1
+  },
+  {
+   "k": "1n24uqb",
+   "en": "<bool>"
+  },
+  {
+   "k": "g1hsur",
+   "en": "has_any_power_balance = yes"
+  },
+  {
+   "k": "5ckl59",
+   "en": "Checks if the current scope has any balance of power active."
+  },
+  {
+   "k": "yv4ajv",
+   "en": "power_balance_value"
+  },
+  {
+   "k": "3vxflb",
+   "en": "⟦0⟧ The balance to check in. value = <float> The value to check for.",
+   "frags": 1
+  },
+  {
+   "k": "12dslb5",
+   "en": "value = <float>"
+  },
+  {
+   "k": "czvu0h",
+   "en": "power_balance_value = { id = TAG_my_bop value > 0.7 }"
+  },
+  {
+   "k": "rifez9",
+   "en": "Checks if the current scope has the specified value within the balance of power."
+  },
+  {
+   "k": "mkh3ot",
+   "en": "Either =, >, or < operators are allowed."
+  },
+  {
+   "k": "7p1pr4",
+   "en": "power_balance_daily_change"
+  }
+ ]
+}

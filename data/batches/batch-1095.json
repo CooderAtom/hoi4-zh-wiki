@@ -1,0 +1,624 @@
+{
+ "batch": 1095,
+ "pages": [
+  "Victoria 2 to Hearts of Iron IV converter"
+ ],
+ "chars": 3118,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1od7l9f",
+   "en": "Oil-Driven Ships"
+  },
+  {
+   "k": "x38w5",
+   "en": "early_destroyer (⟦0⟧) early_submarine (deprecated) Transport Ship",
+   "frags": 1
+  },
+  {
+   "k": "86suol",
+   "en": "Advanced Cruisers"
+  },
+  {
+   "k": "1iq2sip",
+   "en": "early_light_cruiser (⟦0⟧)",
+   "frags": 1
+  },
+  {
+   "k": "1johylu",
+   "en": "Modern Cruisers"
+  },
+  {
+   "k": "qkxo7m",
+   "en": "early_heavy_cruiser (⟦0⟧)",
+   "frags": 1
+  },
+  {
+   "k": "182tyxa",
+   "en": "Advanced Battleships"
+  },
+  {
+   "k": "9xrz6o",
+   "en": "early_battlecruiser (⟦0⟧)",
+   "frags": 1
+  },
+  {
+   "k": "1gngjmf",
+   "en": "Modern Battleships"
+  },
+  {
+   "k": "38pqr7",
+   "en": "early_battleship (⟦0⟧)",
+   "frags": 1
+  },
+  {
+   "k": "vwrl7",
+   "en": "Synthetic Polymers"
+  },
+  {
+   "k": "1h21qr4",
+   "en": "Synthetic Oil Experiments"
+  },
+  {
+   "k": "8lj19t",
+   "en": "Research Slots"
+  },
+  {
+   "k": "1xrmu9q",
+   "en": "Most nations are converted with two research slots. But Great Powers from Vic2 get four instead."
+  },
+  {
+   "k": "1x5lv8d",
+   "en": "Related Links: 1 2 3 4"
+  },
+  {
+   "k": "1ftjdix",
+   "en": "Diplomacy"
+  },
+  {
+   "k": "e65ons",
+   "en": "Factions"
+  },
+  {
+   "k": "1nhqzlw",
+   "en": "If the \"Create Factions\" option is enabled, Vic2 great powers' alliances are converted to factions with names based on leader culture and ideology defined in configurables/factions_mappings.txt. In order to form a faction, the two countries must have appropriate ideologies:"
+  },
+  {
+   "k": "gae6c4",
+   "en": "Subjects"
+  },
+  {
+   "k": "1bcrncy",
+   "en": "⟦0⟧ are converted according to definitions in configurables/regions.txt. Their ⟦1⟧ is determined based on these conditions:",
+   "frags": 2
+  },
+  {
+   "k": "17cwnz5",
+   "en": "autonomy level"
+  },
+  {
+   "k": "uog1a9",
+   "en": "Autonomy level"
+  },
+  {
+   "k": "b1tjvv",
+   "en": "Blocked status"
+  },
+  {
+   "k": "1n4atsq",
+   "en": "Level definition"
+  },
+  {
+   "k": "f03hn2",
+   "en": "Dominion"
+  },
+  {
+   "k": "1y7m083",
+   "en": "Subject's capital region is NOT blocked for master's capital region"
+  },
+  {
+   "k": "5sijyy",
+   "en": "level = autonomy_dominion"
+  },
+  {
+   "k": "9y34qn",
+   "en": "Colony"
+  },
+  {
+   "k": "1cofqy3",
+   "en": "level = autonomy_colony"
+  },
+  {
+   "k": "mntfz",
+   "en": "Puppet"
+  },
+  {
+   "k": "55uy82",
+   "en": "Subject's capital region IS blocked for master's capital region"
+  },
+  {
+   "k": "1o7jvf6",
+   "en": "Integrated Puppet"
+  },
+  {
+   "k": "22nhg7",
+   "en": "level = autonomy_integrated_puppet"
+  },
+  {
+   "k": "auvfwv",
+   "en": "Without ⟦0⟧ all subjects are converted as puppets.",
+   "frags": 1
+  },
+  {
+   "k": "1mtqtby",
+   "en": "Together for Victory"
+  },
+  {
+   "k": "9ih4lo",
+   "en": "Leader portraits"
+  },
+  {
+   "k": "1dlr7em",
+   "en": "Leader portraits are generated according to the Vic2 culture group of the country."
+  },
+  {
+   "k": "bqg3th",
+   "en": "Leaders"
+  },
+  {
+   "k": "e94rc0",
+   "en": "Countries get a generated entry in the name file based on Vic2 primary culture and also get a generated leader on start."
+  },
+  {
+   "k": "gzb5u1",
+   "en": "Commanders and spies"
+  },
+  {
+   "k": "yrfpy",
+   "en": "Commanders and operatives are generated."
+  },
+  {
+   "k": "sxtytt",
+   "en": "Military related items"
+  },
+  {
+   "k": "uj5w5x",
+   "en": "Conversion of military units has barely been discussed so far."
+  },
+  {
+   "k": "1re9qn9",
+   "en": "Division templates"
+  },
+  {
+   "k": "1xp3hit",
+   "en": "TBD"
+  },
+  {
+   "k": "y5ny05",
+   "en": "Unit Conversion"
+  },
+  {
+   "k": "1buveac",
+   "en": "Sometime units fade with conversion. Land units are converted under this scheme:"
+  },
+  {
+   "k": "ihqo2y",
+   "en": "Vic2 army type"
+  },
+  {
+   "k": "10u0exi",
+   "en": "Hoi4 army type"
+  },
+  {
+   "k": "t1z3rq",
+   "en": "Irregular"
+  },
+  {
+   "k": "1v3ifi2",
+   "en": "Militia brigade"
+  },
+  {
+   "k": "1m32jfk",
+   "en": "Infantry"
+  },
+  {
+   "k": "17hb3qw",
+   "en": "Infantry brigade"
+  },
+  {
+   "k": "1tbmq7s",
+   "en": "Engineer"
+  },
+  {
+   "k": "1rclcbi",
+   "en": "⟦0⟧ Engineer brigade, ⟦1⟧ Infantry brigade",
+   "frags": 2
+  },
+  {
+   "k": "o47ah0",
+   "en": "Half"
+  },
+  {
+   "k": "1nl13fo",
+   "en": "half"
+  },
+  {
+   "k": "1m575se",
+   "en": "Guard"
+  },
+  {
+   "k": "1khby4g",
+   "en": "Motorized brigade"
+  },
+  {
+   "k": "1r47f81",
+   "en": "Artillery"
+  },
+  {
+   "k": "glzos9",
+   "en": "⟦0⟧ Artillery brigade, ⟦1⟧ Anti-tank brigade, ⟦2⟧ Anti-air brigade",
+   "frags": 3
+  },
+  {
+   "k": "1m8mzph",
+   "en": "Cavalry"
+  },
+  {
+   "k": "nekoyl",
+   "en": "Cavalry brigade"
+  },
+  {
+   "k": "80n6i7",
+   "en": "Hussars, Cuirassiers and Dragoons"
+  },
+  {
+   "k": "13mh6zt",
+   "en": "Tank"
+  },
+  {
+   "k": "532mh0",
+   "en": "Armor brigade"
+  },
+  {
+   "k": "181xa7p",
+   "en": "Plane"
+  },
+  {
+   "k": "14nbpiz",
+   "en": "⟦0⟧ Interceptor, ⟦1⟧ Tactical bomber",
+   "frags": 2
+  },
+  {
+   "k": "14wzsxf",
+   "en": "Navy Conversion"
+  },
+  {
+   "k": "gh8mog",
+   "en": "Sometime navies are not converted and vanish. But if not, they're converted following this scheme:"
+  },
+  {
+   "k": "13hgbb9",
+   "en": "Vic2 navy type"
+  },
+  {
+   "k": "1j8b7o9",
+   "en": "Hoi4 navy type"
+  },
+  {
+   "k": "bbigzh",
+   "en": "Man'o'wars and Frigates"
+  },
+  {
+   "k": "cgn86i",
+   "en": "Nothing"
+  },
+  {
+   "k": "w1qfgp",
+   "en": "Ironclad"
+  },
+  {
+   "k": "h0noiw",
+   "en": "Light Cruiser"
+  },
+  {
+   "k": "1946h7h",
+   "en": "Battleship"
+  },
+  {
+   "k": "37ad5f",
+   "en": "Heavy Cruiser"
+  },
+  {
+   "k": "8o80xs",
+   "en": "Dreadnought"
+  },
+  {
+   "k": "ys4ezh",
+   "en": "Commerce raider"
+  },
+  {
+   "k": "32gueu",
+   "en": "Destroyer"
+  },
+  {
+   "k": "1d8112t",
+   "en": "Monitors and Cruisers"
+  },
+  {
+   "k": "79fj87",
+   "en": "Clipper and Steam Transports"
+  },
+  {
+   "k": "113o52q",
+   "en": "Transport"
+  },
+  {
+   "k": "w798kk",
+   "en": "Air Force Conversion"
+  },
+  {
+   "k": "1d1ue7n",
+   "en": "AI/Events Conversion"
+  },
+  {
+   "k": "1ovguiv",
+   "en": "AI is currently just generic AI. Opinions are converted as modifiers. Only general events have been left, Vanilla flavor ones have been removed."
+  },
+  {
+   "k": "18m1hrq",
+   "en": "Vic2 Mods"
+  },
+  {
+   "k": "wd09ag",
+   "en": "The converter is designed to work with Vic2 mods, including games converted from EU4 to Vic2. Other mods may also work. Conversion games, PDM games, and HPM games all seem to work."
+  },
+  {
+   "k": "1kmvwuy",
+   "en": "HoI4 Mods"
+  },
+  {
+   "k": "w2kkxy",
+   "en": "There may be support for combining the converter's output with other HoI4 mods. But this will be a low priority, and currently this is completely untested."
+  },
+  {
+   "k": "mzg8xt",
+   "en": "Flag of Soviet Union"
+  },
+  {
+   "k": "yvqz91",
+   "en": "Flag of German Reich"
+  },
+  {
+   "k": "h98jgi",
+   "en": "West Germany.png"
+  },
+  {
+   "k": "18gboz7",
+   "en": "Unknown Ideology"
+  },
+  {
+   "k": "ymutu2",
+   "en": "cavalry recon"
+  },
+  {
+   "k": "2tl48v",
+   "en": "Engineer company"
+  },
+  {
+   "k": "11laf9j",
+   "en": "Marine"
+  },
+  {
+   "k": "ah6xnf",
+   "en": "Oil"
+  },
+  {
+   "k": "1dudzcg",
+   "en": "Yes"
+  },
+  {
+   "k": "110v1wi",
+   "en": "Autonomy dominion icon.png"
+  },
+  {
+   "k": "pb06td",
+   "en": "Autonomy colony icon.png"
+  },
+  {
+   "k": "asns2h",
+   "en": "Autonomy puppet icon.png"
+  },
+  {
+   "k": "14ub98e",
+   "en": "Autonomy integrated puppet icon.png"
+  }
+ ]
+}

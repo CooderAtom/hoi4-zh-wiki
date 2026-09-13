@@ -1,0 +1,656 @@
+{
+ "page": "Modifiers",
+ "from": 390,
+ "items": [
+  {
+   "k": "iwx2xr",
+   "en": "Changes opinion gain from the 'Improve relations' diplomatic action by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "vjpmnf",
+   "en": "opinion_gain_monthly_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "t0f03z",
+   "en": "opinion_gain_monthly_same_ideology",
+   "zh": ""
+  },
+  {
+   "k": "8pkjju",
+   "en": "Changes opinion gain from the 'Improve relations' diplomatic action for countries of the same ideology.",
+   "zh": ""
+  },
+  {
+   "k": "1qpmq7",
+   "en": "opinion_gain_monthly_same_ideology = 5",
+   "zh": ""
+  },
+  {
+   "k": "dssrxv",
+   "en": "opinion_gain_monthly_same_ideology_factor",
+   "zh": ""
+  },
+  {
+   "k": "kludfs",
+   "en": "Changes opinion gain from the 'Improve relations' diplomatic action for countries of the same ideology by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1an5a33",
+   "en": "opinion_gain_monthly_same_ideology_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "g5arim",
+   "en": "request_lease_tension",
+   "zh": ""
+  },
+  {
+   "k": "pm71s4",
+   "en": "Necessary world tension for the country to request lend-lease.",
+   "zh": ""
+  },
+  {
+   "k": "hrhaym",
+   "en": "request_lease_tension = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1balrej",
+   "en": "annex_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "12di6ym",
+   "en": "Modifies the cost in victory points to annex states in peace deals.",
+   "zh": ""
+  },
+  {
+   "k": "it6a71",
+   "en": "annex_cost_factor = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "1fes9uv",
+   "en": "Partially deprecated, please instead use common/peace_conference/cost_modifiers",
+   "zh": ""
+  },
+  {
+   "k": "14vg6kp",
+   "en": "puppet_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "1kf6z5g",
+   "en": "Modifies the cost in victory points per state to puppet countries in peace deals.",
+   "zh": ""
+  },
+  {
+   "k": "d3z1in",
+   "en": "puppet_cost_factor = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "1fldoc3",
+   "en": "send_volunteer_divisions_required",
+   "zh": ""
+  },
+  {
+   "k": "1wxgt0m",
+   "en": "Changes the number of divisions needed to send volunteers.",
+   "zh": ""
+  },
+  {
+   "k": "1943yuy",
+   "en": "send_volunteer_divisions_required = -0.3",
+   "zh": ""
+  },
+  {
+   "k": "ou093c",
+   "en": "send_volunteer_factor",
+   "zh": ""
+  },
+  {
+   "k": "133v2qz",
+   "en": "Changes the number of divisions the country can send as volunteers by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1g6apmw",
+   "en": "send_volunteer_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "15r2hum",
+   "en": "send_volunteer_size",
+   "zh": ""
+  },
+  {
+   "k": "7rjtyx",
+   "en": "Changes the number of divisions the country can send as volunteers.",
+   "zh": ""
+  },
+  {
+   "k": "1strg0u",
+   "en": "send_volunteer_size = 5",
+   "zh": ""
+  },
+  {
+   "k": "rhpi5y",
+   "en": "send_volunteers_tension",
+   "zh": ""
+  },
+  {
+   "k": "1xqh9jk",
+   "en": "Changes the world tension necessary for the country to send volunteers.",
+   "zh": ""
+  },
+  {
+   "k": "6200d3",
+   "en": "send_volunteers_tension = -0.1",
+   "zh": ""
+  },
+  {
+   "k": "1p9j3el",
+   "en": "air_volunteer_cap",
+   "zh": ""
+  },
+  {
+   "k": "ynh1c3",
+   "en": "Changes the amount of airforce you can send as volunteers.",
+   "zh": ""
+  },
+  {
+   "k": "1nx3qdl",
+   "en": "air_volunteer_cap = 100",
+   "zh": ""
+  },
+  {
+   "k": "a1c390",
+   "en": "embargo_threshold_factor",
+   "zh": ""
+  },
+  {
+   "k": "4e3l6w",
+   "en": "Changes the necessary world tension level in order to be able to embargo a country.",
+   "zh": ""
+  },
+  {
+   "k": "14zmx8n",
+   "en": "embargo_threshold_factor = 0.2",
+   "zh": ""
+  },
+  {
+   "k": "pmrrjs",
+   "en": "embargo_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "h34s16",
+   "en": "Changes the cost in political power to send an embargo.",
+   "zh": ""
+  },
+  {
+   "k": "nvrhzs",
+   "en": "embargo_cost_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "rg0wdj",
+   "en": "autonomy_gain",
+   "zh": ""
+  },
+  {
+   "k": "1go5c2",
+   "en": "Daily gain of autonomy.",
+   "zh": ""
+  },
+  {
+   "k": "1d7fut1",
+   "en": "autonomy_gain = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1k72uvy",
+   "en": "A positive number increase total autonomy, meaning the SUBJECT can be free faster. A negative number decrease total autonomy, meaning the OVERLORD can annex the manpower-slaves faster.",
+   "zh": ""
+  },
+  {
+   "k": "1wycn43",
+   "en": "autonomy_gain_global_factor",
+   "zh": ""
+  },
+  {
+   "k": "1oi3jv2",
+   "en": "Modifies all gain of autonomy by a subject.",
+   "zh": ""
+  },
+  {
+   "k": "1j1wvyx",
+   "en": "autonomy_gain_global_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "vbkaz7",
+   "en": "subjects_autonomy_gain",
+   "zh": ""
+  },
+  {
+   "k": "und72o",
+   "en": "Daily gain of autonomy in our subjects.",
+   "zh": ""
+  },
+  {
+   "k": "19etux5",
+   "en": "subjects_autonomy_gain = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "la2qdc",
+   "en": "autonomy_gain_ll_to_overlord",
+   "zh": ""
+  },
+  {
+   "k": "ndypf1",
+   "en": "Modifies gain of autonomy from lend-leasing to the overlord.",
+   "zh": ""
+  },
+  {
+   "k": "emheqa",
+   "en": "autonomy_gain_ll_to_overlord = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1h31p3y",
+   "en": "autonomy_gain_ll_to_overlord_factor",
+   "zh": ""
+  },
+  {
+   "k": "67z1tb",
+   "en": "Modifies gain of autonomy from lend-leasing to the overlord by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "19ouces",
+   "en": "autonomy_gain_ll_to_overlord_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "cl2e4z",
+   "en": "autonomy_gain_ll_to_subject",
+   "zh": ""
+  },
+  {
+   "k": "dimcbi",
+   "en": "Modifies loss of autonomy from lend-leasing to the subject.",
+   "zh": ""
+  },
+  {
+   "k": "7bz0p5",
+   "en": "autonomy_gain_ll_to_subject = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1stop9r",
+   "en": "autonomy_gain_ll_to_subject_factor",
+   "zh": ""
+  },
+  {
+   "k": "1k0p3fg",
+   "en": "Modifies loss of autonomy from lend-leasing to the subject by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1a8p8jh",
+   "en": "autonomy_gain_ll_to_subject_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "2ub9va",
+   "en": "autonomy_gain_trade",
+   "zh": ""
+  },
+  {
+   "k": "1ndlmh",
+   "en": "Modifies gain of autonomy from the overlord trading with the subject.",
+   "zh": ""
+  },
+  {
+   "k": "1ha6pws",
+   "en": "autonomy_gain_trade = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1sngtfo",
+   "en": "autonomy_gain_trade_factor",
+   "zh": ""
+  },
+  {
+   "k": "17tfiaz",
+   "en": "Modifies gain of autonomy from the overlord trading with the subject by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1m0fuda",
+   "en": "autonomy_gain_trade_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "8c88h4",
+   "en": "autonomy_gain_warscore",
+   "zh": ""
+  },
+  {
+   "k": "10hreg5",
+   "en": "Modifies gain of autonomy from the subject gaining warscore.",
+   "zh": ""
+  },
+  {
+   "k": "b47kwq",
+   "en": "autonomy_gain_warscore = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "7r6uba",
+   "en": "autonomy_gain_warscore_factor",
+   "zh": ""
+  },
+  {
+   "k": "1nin9mv",
+   "en": "Modifies gain of autonomy from the subject gaining warscore by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "wtlalo",
+   "en": "autonomy_gain_warscore_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1iiyri1",
+   "en": "autonomy_manpower_share",
+   "zh": ""
+  },
+  {
+   "k": "1cpqp1w",
+   "en": "Modifies the amount of manpower the overlord can use from the subject.",
+   "zh": ""
+  },
+  {
+   "k": "7yvs1f",
+   "en": "autonomy_manpower_share = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "qnm1qc",
+   "en": "can_master_build_for_us",
+   "zh": ""
+  },
+  {
+   "k": "14fohdy",
+   "en": "Makes the overlord be able to build in the subject.",
+   "zh": ""
+  },
+  {
+   "k": "cq9rw8",
+   "en": "can_master_build_for_us = 1",
+   "zh": ""
+  },
+  {
+   "k": "1f86hwk",
+   "en": "cic_to_overlord_factor",
+   "zh": ""
+  },
+  {
+   "k": "1hb62t7",
+   "en": "Modifies the amount of the subject's civilian industry that goes to the overlord.",
+   "zh": ""
+  },
+  {
+   "k": "1sgy4lg",
+   "en": "cic_to_overlord_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1e29k0u",
+   "en": "mic_to_overlord_factor",
+   "zh": ""
+  },
+  {
+   "k": "1wfm8r1",
+   "en": "Modifies the amount of the subject's military industry that goes to the overlord.",
+   "zh": ""
+  },
+  {
+   "k": "1ne3nn2",
+   "en": "mic_to_overlord_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "sb6uhq",
+   "en": "extra_trade_to_overlord_factor",
+   "zh": ""
+  },
+  {
+   "k": "13g1zff",
+   "en": "Modifies the amount of the subject's resources that the overlord can receive via trade.",
+   "zh": ""
+  },
+  {
+   "k": "1y9cz3i",
+   "en": "extra_trade_to_overlord_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "ptwolc",
+   "en": "license_subject_master_purchase_cost",
+   "zh": ""
+  },
+  {
+   "k": "1b3c390",
+   "en": "Modifies the cost of licensed production from the overlord.",
+   "zh": ""
+  },
+  {
+   "k": "h9jcgw",
+   "en": "license_subject_master_purchase_cost = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1nzcvkj",
+   "en": "master_build_autonomy_factor",
+   "zh": ""
+  },
+  {
+   "k": "1omkn6o",
+   "en": "Modifies loss of autonomy from the overlord building in subject's states by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "q4g6y7",
+   "en": "master_build_autonomy_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "b0tx3s",
+   "en": "master_ideology_drift",
+   "zh": ""
+  },
+  {
+   "k": "jtpy4h",
+   "en": "Changes daily gain of the overlord's ideology in the country.",
+   "zh": ""
+  },
+  {
+   "k": "1fpnycm",
+   "en": "master_ideology_drift = 0.03",
+   "zh": ""
+  },
+  {
+   "k": "nfinjv",
+   "en": "overlord_trade_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "1mhwigm",
+   "en": "Modifies the cost of trade between the overlord and the subject in civilian factories.",
+   "zh": ""
+  },
+  {
+   "k": "10bc06a",
+   "en": "overlord_trade_cost_factor = -0.3",
+   "zh": ""
+  },
+  {
+   "k": "15vh4ey",
+   "en": "dockyard_donations",
+   "zh": ""
+  },
+  {
+   "k": "caw50j",
+   "en": "Amount of dockyards donated.",
+   "zh": ""
+  },
+  {
+   "k": "1qhibp7",
+   "en": "dockyard_donations = 2",
+   "zh": ""
+  },
+  {
+   "k": "fecn83",
+   "en": "industrial_factory_donations",
+   "zh": ""
+  },
+  {
+   "k": "1yto6fm",
+   "en": "Amount of civilian factories donated.",
+   "zh": ""
+  },
+  {
+   "k": "wc4j02",
+   "en": "industrial_factory_donations = 2",
+   "zh": ""
+  },
+  {
+   "k": "175u15r",
+   "en": "military_factory_donations",
+   "zh": ""
+  },
+  {
+   "k": "1h2fmfo",
+   "en": "Amount of military factories donated.",
+   "zh": ""
+  },
+  {
+   "k": "otclt2",
+   "en": "military_factory_donations = 2",
+   "zh": ""
+  },
+  {
+   "k": "idf77i",
+   "en": "exile_manpower_factor",
+   "zh": ""
+  },
+  {
+   "k": "1cxatn6",
+   "en": "Amount of manpower given to the host country.",
+   "zh": ""
+  },
+  {
+   "k": "1ym4wj8",
+   "en": "exile_manpower_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1tjal34",
+   "en": "exiled_government_weekly_manpower",
+   "zh": ""
+  },
+  {
+   "k": "11dd2vl",
+   "en": "Amount of weekly manpower given to the host country.",
+   "zh": ""
+  },
+  {
+   "k": "17j3vfg",
+   "en": "exiled_government_weekly_manpower = 100",
+   "zh": ""
+  },
+  {
+   "k": "1uyzhgx",
+   "en": "legitimacy_daily",
+   "zh": ""
+  },
+  {
+   "k": "uf9no5",
+   "en": "Changes the amount of legitimacy gained daily.",
+   "zh": ""
+  },
+  {
+   "k": "1qzwh4d",
+   "en": "legitimacy_daily = 1",
+   "zh": ""
+  },
+  {
+   "k": "dbdx1r",
+   "en": "legitimacy_gain_factor",
+   "zh": ""
+  },
+  {
+   "k": "h7mnxz",
+   "en": "Changes the amount of legitimacy gained daily by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1v5v2o3",
+   "en": "legitimacy_gain_factor = 1",
+   "zh": ""
+  },
+  {
+   "k": "10d4kju",
+   "en": "equipment_capture",
+   "zh": ""
+  },
+  {
+   "k": "1qdd48o",
+   "en": "Changes the combat equipment capture ratio.",
+   "zh": ""
+  },
+  {
+   "k": "2z6cnh",
+   "en": "equipment_capture = 0.2",
+   "zh": ""
+  },
+  {
+   "k": "pfilnk",
+   "en": "equipment_capture_factor",
+   "zh": ""
+  },
+  {
+   "k": "rynxc9",
+   "en": "Modifies the combat equipment capture ratio.",
+   "zh": ""
+  },
+  {
+   "k": "9pvzw2",
+   "en": "equipment_capture_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "jlo5iw",
+   "en": "equipment_conversion_speed",
+   "zh": ""
+  },
+  {
+   "k": "5a0ucm",
+   "en": "Changes the speed at which equipment is converted.",
+   "zh": ""
+  },
+  {
+   "k": "3mitca",
+   "en": "equipment_conversion_speed = 0.5",
+   "zh": ""
+  }
+ ]
+}

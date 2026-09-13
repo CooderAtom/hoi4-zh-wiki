@@ -1,0 +1,935 @@
+{
+ "batch": 1144,
+ "pages": [
+  "Autonomy state modding"
+ ],
+ "chars": 14711,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "15sjkf1",
+   "en": "Different levels of the ⟦0⟧ are defined in ⟦1⟧, and new ones can be created.",
+   "frags": 2
+  },
+  {
+   "k": "zpg25k",
+   "en": "autonomy system"
+  },
+  {
+   "k": "er0iz0",
+   "en": "/Hearts of Iron IV/common/autonomous_states/*.txt"
+  },
+  {
+   "k": "19ai8fz",
+   "en": "Arguments"
+  },
+  {
+   "k": "czgqbj",
+   "en": "⟦0⟧ is the ID of the autonomy state, unique to each one. It is necessary to define to distinguish it from other autonomy states.",
+   "frags": 1
+  },
+  {
+   "k": "czfyfd",
+   "en": "⟦0⟧: If true, the game will attempt to make the 'puppet' option in peace deals as well as the 'puppet' effect use this autonomy state among other default autonomy states. By default, set to no.",
+   "frags": 1
+  },
+  {
+   "k": "14unowu",
+   "en": "default"
+  },
+  {
+   "k": "he324h",
+   "en": "⟦0⟧ decides whether the subject is a puppet or not, making is_puppet and is_puppet_of triggers true in that case. By default, set to no.",
+   "frags": 1
+  },
+  {
+   "k": "od511o",
+   "en": "is_puppet"
+  },
+  {
+   "k": "1k1ak2e",
+   "en": "⟦0⟧ makes the subject have the same country color as the overlord.",
+   "frags": 1
+  },
+  {
+   "k": "1ck7u08",
+   "en": "use_overlord_color"
+  },
+  {
+   "k": "1jvhlje",
+   "en": "⟦0⟧ decides the order in which autonomy states are placed. The autonomy states with lower freedom levels have less autonomy than those with higher when the game places the autonomy states for the subject to lose or gain a level. This also decides how many autonomy points the subject needs to gain or lose a level, calculated by the difference between freedom levels multiplied by 5000⟦1⟧. As such, it would take 500 points to go from an autonomous state with the min_freedom_level of 0.1 to being annexed.",
+   "frags": 2
+  },
+  {
+   "k": "1m24tpj",
+   "en": "min_freedom_level"
+  },
+  {
+   "k": "13bxt2f",
+   "en": "⟦0⟧ decides how large of a portion of the subject's manpower the overlord can use in colonial divisions.",
+   "frags": 1
+  },
+  {
+   "k": "1e9ywuo",
+   "en": "manpower_influence"
+  },
+  {
+   "k": "vzws8o",
+   "en": "⟦0⟧ sets the game rules for the subject to either yes or no.",
+   "frags": 1
+  },
+  {
+   "k": "1xyyndf",
+   "en": "rule"
+  },
+  {
+   "k": "z3tatx",
+   "en": "Game rule list"
+  },
+  {
+   "k": "1ojc642",
+   "en": "The following game rules exist as possible options: Internal name Localised name Notes can_access_market Can access International Market (Puppets and Overlords can always access each other's market) can_be_spymaster Can be Spy Master can_boost_other_ideologies Can boost popularity of other ideologies can_boost_own_ideology Can boost own party popularity in other countries can_create_collaboration_government Can create collaboration governments can_create_factions Can Create Factions can_declare_war_on_same_ideology Can declare war on country with the same ideology group without a war goal can_declare_war_without_wargoal_when_in_war Can declare war on a neighbor without a wargoal when at war with a major can_decline_call_to_war Can decline call to war can_force_government Can force government of another country to adopt the same ideology can_generate_female_aces Women in your country are allowed to become military pilots can_generate_female_country_leaders Can generate female country leaders can_generate_female_unit_leaders Can generate female unit leaders can_guarantee_other_ideologies Can guarantee other ideologies can_join_factions Can join factions can_join_factions_not_allowed_diplomacy Country's name is not allowed to join factions can_join_opposite_factions Can Join Factions led by another Ideology can_lower_tension Lowers World Tension with Guarantees can_not_build_buildings CAN_NOT_BUILD_BUILDINGS Doesn't seem to work. can_not_declare_war Can not declare wars Prevents generating wargoals, but not using existing ones. can_occupy_non_war Can hold territory owned by a country they are not at war with can_only_justify_war_on_threat_country Can justify war goals against a country that have not generated world tension can_puppet Can puppet a country can_send_volunteers Can send volunteer forces can_use_kamikaze_pilots Can use kamikaze pilots contributes_operatives Contributes Operatives to Spy Master: Yes Only has an effect for subjects. units_deployed_to_overlord Control over deployed units go to overlord Only has an effect for subjects."
+  },
+  {
+   "k": "1i8ib9f",
+   "en": "Internal name"
+  },
+  {
+   "k": "1r2jfvc",
+   "en": "Localised name"
+  },
+  {
+   "k": "4f76ga",
+   "en": "Notes"
+  },
+  {
+   "k": "ysd05d",
+   "en": "can_access_market"
+  },
+  {
+   "k": "1rt6t9s",
+   "en": "Can access International Market (⟦0⟧ and ⟦1⟧ can always access each other's market)",
+   "frags": 2
+  },
+  {
+   "k": "lq1vxw",
+   "en": "Puppets"
+  },
+  {
+   "k": "seq10d",
+   "en": "Overlords"
+  },
+  {
+   "k": "euy81c",
+   "en": "can_be_spymaster"
+  },
+  {
+   "k": "bjrqau",
+   "en": "Can be Spy Master"
+  },
+  {
+   "k": "wbdy9d",
+   "en": "can_boost_other_ideologies"
+  },
+  {
+   "k": "1kxo3sk",
+   "en": "Can boost popularity of other ideologies"
+  },
+  {
+   "k": "zubfjv",
+   "en": "can_boost_own_ideology"
+  },
+  {
+   "k": "36f7tg",
+   "en": "Can boost own party popularity in other countries"
+  },
+  {
+   "k": "190hafy",
+   "en": "can_create_collaboration_government"
+  },
+  {
+   "k": "1d9y00u",
+   "en": "Can create collaboration governments"
+  },
+  {
+   "k": "o23f72",
+   "en": "can_create_factions"
+  },
+  {
+   "k": "18y7irc",
+   "en": "Can Create Factions"
+  },
+  {
+   "k": "f87qmb",
+   "en": "can_declare_war_on_same_ideology"
+  },
+  {
+   "k": "1r9kzc6",
+   "en": "Can declare war on country with the same ideology group without a war goal"
+  },
+  {
+   "k": "146u0j8",
+   "en": "can_declare_war_without_wargoal_when_in_war"
+  },
+  {
+   "k": "14kvbu2",
+   "en": "Can declare war on a neighbor without a wargoal when at war with a major"
+  },
+  {
+   "k": "16ymnae",
+   "en": "can_decline_call_to_war"
+  },
+  {
+   "k": "10gxgc0",
+   "en": "Can decline call to war"
+  },
+  {
+   "k": "ki8wnh",
+   "en": "can_force_government"
+  },
+  {
+   "k": "6fsg1n",
+   "en": "Can force government of another country to adopt the same ideology"
+  },
+  {
+   "k": "1d1j773",
+   "en": "can_generate_female_aces"
+  },
+  {
+   "k": "1q068xf",
+   "en": "Women in your country are allowed to become military pilots"
+  },
+  {
+   "k": "18ftglu",
+   "en": "can_generate_female_country_leaders"
+  },
+  {
+   "k": "1hb2v14",
+   "en": "Can generate female country leaders"
+  },
+  {
+   "k": "1y1aq6s",
+   "en": "can_generate_female_unit_leaders"
+  },
+  {
+   "k": "6uxi64",
+   "en": "Can generate female unit leaders"
+  },
+  {
+   "k": "15tjnea",
+   "en": "can_guarantee_other_ideologies"
+  },
+  {
+   "k": "1fni33n",
+   "en": "Can guarantee other ideologies"
+  },
+  {
+   "k": "kmsa9q",
+   "en": "can_join_factions"
+  },
+  {
+   "k": "1diowfk",
+   "en": "Can join factions"
+  },
+  {
+   "k": "1hif8f6",
+   "en": "can_join_factions_not_allowed_diplomacy"
+  },
+  {
+   "k": "a60x4n",
+   "en": "⟦0⟧ is not allowed to join factions",
+   "frags": 1
+  },
+  {
+   "k": "1i83cvm",
+   "en": "Country's name"
+  },
+  {
+   "k": "dorzii",
+   "en": "can_join_opposite_factions"
+  },
+  {
+   "k": "1nb868j",
+   "en": "Can Join Factions led by another Ideology"
+  },
+  {
+   "k": "171ceqe",
+   "en": "can_lower_tension"
+  },
+  {
+   "k": "qx9ssm",
+   "en": "Lowers World Tension with Guarantees"
+  },
+  {
+   "k": "72n4cm",
+   "en": "can_not_build_buildings"
+  },
+  {
+   "k": "17pk406",
+   "en": "CAN_NOT_BUILD_BUILDINGS"
+  },
+  {
+   "k": "1n220lf",
+   "en": "Doesn't seem to work."
+  },
+  {
+   "k": "16zd87n",
+   "en": "can_not_declare_war"
+  },
+  {
+   "k": "1545cax",
+   "en": "Can not declare wars"
+  },
+  {
+   "k": "wh6asu",
+   "en": "Prevents generating wargoals, but not using existing ones."
+  },
+  {
+   "k": "72qyri",
+   "en": "can_occupy_non_war"
+  },
+  {
+   "k": "vonqk5",
+   "en": "Can hold territory owned by a country they are not at war with"
+  },
+  {
+   "k": "vc1vzu",
+   "en": "can_only_justify_war_on_threat_country"
+  },
+  {
+   "k": "1c9uoyy",
+   "en": "Can justify war goals against a country that have not generated world tension"
+  },
+  {
+   "k": "aha2nw",
+   "en": "can_puppet"
+  },
+  {
+   "k": "z5o600",
+   "en": "Can puppet a country"
+  },
+  {
+   "k": "elvyfm",
+   "en": "can_send_volunteers"
+  },
+  {
+   "k": "zv0y4p",
+   "en": "Can send volunteer forces"
+  },
+  {
+   "k": "uy8kup",
+   "en": "can_use_kamikaze_pilots"
+  },
+  {
+   "k": "cxwytw",
+   "en": "Can use kamikaze pilots"
+  },
+  {
+   "k": "1bjn3w6",
+   "en": "contributes_operatives"
+  },
+  {
+   "k": "12zz5pp",
+   "en": "Contributes Operatives to Spy Master: Yes"
+  },
+  {
+   "k": "1jo0ac1",
+   "en": "Only has an effect for subjects."
+  },
+  {
+   "k": "101k4rv",
+   "en": "units_deployed_to_overlord"
+  },
+  {
+   "k": "15tuyrb",
+   "en": "Control over deployed units go to overlord"
+  },
+  {
+   "k": "1g1tsd0",
+   "en": "⟦0⟧ sets the modifier for the subject. All country ⟦1⟧ can apply.",
+   "frags": 2
+  },
+  {
+   "k": "1658wgg",
+   "en": "modifier"
+  },
+  {
+   "k": "i2bme1",
+   "en": "modifiers"
+  },
+  {
+   "k": "3l8rno",
+   "en": "⟦0⟧ decides whether or not the AI subject focuses on gaining a higher autonomy. If set to 0, AI will never gain an autonomy level through the autonomy system.",
+   "frags": 1
+  },
+  {
+   "k": "i02iuy",
+   "en": "ai_subject_wants_higher"
+  },
+  {
+   "k": "1ke204o",
+   "en": "⟦0⟧ decides whether or not the AI overlord focuses on gaining a lower autonomy for the subject. If set to 0, AI will never decrease the autonomy level through the autonomy system.",
+   "frags": 1
+  },
+  {
+   "k": "1fzo1jj",
+   "en": "ai_overlord_wants_lower"
+  },
+  {
+   "k": "xghjm8",
+   "en": "⟦0⟧ decides the triggers when the AI overlord garrisons the subject's territory as if it was their own land.",
+   "frags": 1
+  },
+  {
+   "k": "4muz9n",
+   "en": "ai_overlord_wants_garrison"
+  },
+  {
+   "k": "vf4nh1",
+   "en": "⟦0⟧ are the necessary triggers the subject must meet for the autonomy state to apply. The OVERLORD scope can be used to scope into the overlord.",
+   "frags": 1
+  },
+  {
+   "k": "b18qbn",
+   "en": "allowed"
+  },
+  {
+   "k": "1cq5lxs",
+   "en": "⟦0⟧ decides the chance for a potential overlord to puppet the country in the peace deal, where ROOT is the subject and FROM is the overlord.",
+   "frags": 1
+  },
+  {
+   "k": "7wzl9",
+   "en": "use_for_peace_conference_weight"
+  },
+  {
+   "k": "xdabyd",
+   "en": "⟦0⟧ sets the necessary triggers the subject must meet to be able to gain a level through the autonomy system.",
+   "frags": 1
+  },
+  {
+   "k": "z3ehcc",
+   "en": "can_take_level"
+  },
+  {
+   "k": "1wwwyud",
+   "en": "⟦0⟧ sets the necessary triggers the subject must meet for the overlord to be able to decrease the autonomy level through the autonomy system.",
+   "frags": 1
+  },
+  {
+   "k": "cpu73i",
+   "en": "can_lose_level"
+  },
+  {
+   "k": "nolqhi",
+   "en": "⟦0⟧ is the initial freedom level of the country that gets set to this autonomy after a peace conference on a scale from 0 to 1. If not specified, assumed to be 0.5.",
+   "frags": 1
+  },
+  {
+   "k": "v2hy6",
+   "en": "peace_conference_initial_freedom"
+  },
+  {
+   "k": "1p5p3hi",
+   "en": "⟦0⟧ decides which autonomy levels a country with this autonomous state can change to, alongside autonomy_free. If not specified, all levels will be allowed.",
+   "frags": 1
+  },
+  {
+   "k": "wnlk8e",
+   "en": "allowed_levels_filter"
+  },
+  {
+   "k": "t3tyj4",
+   "en": "Icon"
+  },
+  {
+   "k": "1nf2d4r",
+   "en": "General sprite overview"
+  },
+  {
+   "k": "1rilf8e",
+   "en": "For loading GFX, the game uses the sprite system. Sprites are code definitions that attach a name to an image file, as well as optionally adding additional information, such as animation, the amount of frames, the way that the image will be loaded, and so on. This means ⟦0⟧, a sprite has to use that image file as well. Sprites are defined in any /Hearts of Iron IV/interface/*.gfx file (this is separate from gfx/interface/), opened with a text editor. To create a new .gfx file, a text file can be created and renamed to change the extension (on Windows, the Windows Explorer needs to show the extensions, which it doesn't by default). In particular, sprites are defined within a spriteTypes = { ... } block, as to separate from fonts and map arrows also defined in that folder, while the simplest sprite with the least mandatory properties is a spriteType = { ... }. The simplest sprite definition looks like the following: spriteTypes = { spriteType = { name = GFX_first_sprite # In some cases, beginning with GFX_ is mandatory for it to work. texturefile = gfx/interface/folder/filename.dds # The folder and filename don't matter, as long as they are correct } # Only the forward slash '/' (can be doubled as '//') can be used to separate folders. spriteType = { # The image doesn't have to be .dds, as .tga and .png are acceptable. name = GFX_second_sprite texturefile = gfx/interface/folder2/filename2.dds noOfFrames = 2 # Splits the image into 2 halves, which may be switched between dynamically in GUI } } In this case, this creates a sprite with the name of GFX_first_sprite and attaches the /Hearts of Iron IV/gfx/interface/folder/filename.dds image to it, and a second sprite similarly. The second sprite will be split into 2 frames: this is decided by having the left half of the image as the first frame and the right half as the second frame (more frames would further split the image horizontally). This doesn't make the sprite animated, just turns on the option to switch between the two halves as needed. GFX_second_sprite:1 serves as a reference to the first frame, and GUI can be set up to change the shown frame depending on context, such as with radio stations. In order to add animation, a frameAnimatedSpriteType is used. It's never mandatory to copy a base game file to change a sprite. If there are duplicate definitions of a sprite with the same name in different files, the game will prioritise the one that would be evaluated later, based on the filename, and the older sprite will be ignored in entirety. This can be ensured by beginning the replacement file's name with a symbol late in the ASCII character table. Typically the lowercase letter 'z' is used for this purpose. For example, to change the amount of frames in GFX_idea_traits_strip to 10, it is possible to define a sprite with that name with 10 frames in the mod's modname/interface/zz_replace.gfx file instead of copying over the base game file. Since most .gfx files define integral parts of the user interface, copying them over can lead to the mod's loaded files missing sprites upon a major game update, which would appear in-game as the default image, which is the error dog by default. As to ease the burden of needing to check the interface files, it's best to never copy over .gfx files, unless more additions would be actively harmful to the mod, such as with interface/subuniticons.gfx",
+   "frags": 1
+  },
+  {
+   "k": "omkt9e",
+   "en": "placing an image into the gfx folder isn't enough for it to work"
+  },
+  {
+   "k": "dw6d81",
+   "en": "/Hearts of Iron IV/interface/*.gfx"
+  },
+  {
+   "k": "19ysi25",
+   "en": "gfx/interface/"
+  },
+  {
+   "k": "1jps0eu",
+   "en": "spriteTypes = { ... }"
+  },
+  {
+   "k": "1ol5nbr",
+   "en": "spriteType = { ... }"
+  },
+  {
+   "k": "1q6dtuz",
+   "en": "GFX_first_sprite"
+  },
+  {
+   "k": "rrc6od",
+   "en": "/Hearts of Iron IV/gfx/interface/folder/filename.dds"
+  },
+  {
+   "k": "16lafuq",
+   "en": "GFX_second_sprite:1"
+  },
+  {
+   "k": "1ikm53m",
+   "en": "frameAnimatedSpriteType"
+  },
+  {
+   "k": "1mb7tko",
+   "en": "It's never mandatory to copy a base game file to change a sprite"
+  },
+  {
+   "k": "1m92bk4",
+   "en": "evaluated later, based on the filename"
+  },
+  {
+   "k": "18pqn1r",
+   "en": "GFX_idea_traits_strip"
+  },
+  {
+   "k": "1ll4can",
+   "en": "modname/interface/zz_replace.gfx"
+  },
+  {
+   "k": "1k7hn62",
+   "en": "interface/subuniticons.gfx"
+  },
+  {
+   "k": "158c0s1",
+   "en": "For the icon, the game will use a sprite named in the format of ⟦0⟧. An ⟦1⟧ file containing such a definition may look like the following:",
+   "frags": 2
+  },
+  {
+   "k": "51z9bq",
+   "en": "GFX_<autonomy state>_icon"
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "h7mhqt",
+   "en": "The localisation is set in an .yml file in the localisation/ folder. Using the prior example of autonomy_mod_new, a localisation entry will look like ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1ly7cak",
+   "en": "autonomy_mod_new:0 \"Mod's new autonomy state\""
+  },
+  {
+   "k": "edd0kn",
+   "en": "It is possible to set a country-specific entry. An entry with ⟦0⟧ will make Germany have that name if its autonomy level is autonomy_mod_new. Similarly, ⟦1⟧ will make the United Kingdom have that name if its overlord is France and the autonomy state is autonomy_mod_new.",
+   "frags": 2
+  },
+  {
+   "k": "18ba5t",
+   "en": "GER_autonomy_mod_new:0 \"New mod Germany\""
+  },
+  {
+   "k": "44zheg",
+   "en": "ENG_FRA_autonomy_mod_new:0 \"New mod French UK\""
+  },
+  {
+   "k": "55ja69",
+   "en": "Example"
+  },
+  {
+   "k": "wve6b4",
+   "en": "Related defines"
+  },
+  {
+   "k": "s6o5af",
+   "en": "Certain ⟦0⟧ affect the autonomy system in a certain way. These are:",
+   "frags": 1
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "jebhm",
+   "en": "⟦0⟧ (0) Base autonomy gain from the overlord purchasing the subject's resources through trade.",
+   "frags": 1
+  },
+  {
+   "k": "1p8eufb",
+   "en": "RESOURCE_SENT_AUTONOMY_DAILY_BASE"
+  },
+  {
+   "k": "dgyh8b",
+   "en": "⟦0⟧ (0.005) Autonomy gain multiplier from the overlord purchasing the subject's resources through trade.",
+   "frags": 1
+  },
+  {
+   "k": "upknj1",
+   "en": "RESOURCE_SENT_AUTONOMY_DAILY_FACTOR"
+  },
+  {
+   "k": "ov14d9",
+   "en": "⟦0⟧ (0) Base autonomy gain from the subject gaining war score in a war.",
+   "frags": 1
+  },
+  {
+   "k": "piqilp",
+   "en": "WAR_SCORE_AUTONOMY_BASE"
+  },
+  {
+   "k": "1srqqj9",
+   "en": "⟦0⟧ (0.6) Autonomy gain multiplier from the subject gaining war score in a war.",
+   "frags": 1
+  },
+  {
+   "k": "kk2gmz",
+   "en": "WAR_SCORE_AUTONOMY_FACTOR"
+  },
+  {
+   "k": "1obg510",
+   "en": "⟦0⟧ (0) Base autonomy gain from the subject lend-leasing to the overlord.",
+   "frags": 1
+  },
+  {
+   "k": "xkc33i",
+   "en": "LL_TO_OVERLORD_AUTONOMY_DAILY_BASE"
+  },
+  {
+   "k": "6173jv",
+   "en": "⟦0⟧ (0.05) Autonomy gain multiplier from the subject lend-leasing to the overlord.",
+   "frags": 1
+  },
+  {
+   "k": "1u8aajw",
+   "en": "LL_TO_OVERLORD_AUTONOMY_DAILY_FACTOR"
+  },
+  {
+   "k": "12jckp4",
+   "en": "⟦0⟧ (0) Base autonomy gain from the overlord lend-leasing to the subject. Must be negative in order to lose autonomy.",
+   "frags": 1
+  },
+  {
+   "k": "1g8uie5",
+   "en": "LL_TO_PUPPET_AUTONOMY_DAILY_BASE"
+  },
+  {
+   "k": "11rm2iu",
+   "en": "⟦0⟧ (-0.01) Autonomy gain multiplier from the overlord lend-leasing to the subject. Must be negative in order to lose autonomy.",
+   "frags": 1
+  },
+  {
+   "k": "sl7gwb",
+   "en": "LL_TO_PUPPET_AUTONOMY_DAILY_FACTOR"
+  },
+  {
+   "k": "bn4z4s",
+   "en": "⟦0⟧ (0.5) Upon the overlord capitulating, the subject receives a large gain to the autonomy progress.",
+   "frags": 1
+  },
+  {
+   "k": "ehr690",
+   "en": "AUTONOMY_FREEDOM_FROM_CAPITULATE"
+  },
+  {
+   "k": "r2bxli",
+   "en": "⟦0⟧ (-0.05) Base autonomy gain from the overlord sending an attache to the subject. Must be negative in order to lose autonomy.",
+   "frags": 1
+  },
+  {
+   "k": "o7mil6",
+   "en": "ATTACHE_TO_SUBJECT_EFFECT"
+  },
+  {
+   "k": "cvxe0f",
+   "en": "⟦0⟧ (0.05) Base autonomy gain from the subject sending an attache to the overlord.",
+   "frags": 1
+  },
+  {
+   "k": "5p43hx",
+   "en": "ATTACHE_TO_OVERLORD_EFFECT"
+  },
+  {
+   "k": "13k8n0s",
+   "en": "⟦0⟧ (50) The cost in political power to change between autonomy states.",
+   "frags": 1
+  },
+  {
+   "k": "18svet0",
+   "en": "AUTONOMY_LEVEL_CHANGE_PP_COST_BASE"
+  },
+  {
+   "k": "7phen3",
+   "en": "⟦0⟧ (300) The cost in political power to annex a subject.",
+   "frags": 1
+  },
+  {
+   "k": "16hs9n5",
+   "en": "AUTONOMY_LEVEL_CHANGE_PP_ANNEX"
+  },
+  {
+   "k": "16m3cnm",
+   "en": "⟦0⟧ (300) The cost in political power to gain independence as a subject.",
+   "frags": 1
+  },
+  {
+   "k": "1vqprg7",
+   "en": "AUTONOMY_LEVEL_CHANGE_PP_FREE"
+  },
+  {
+   "k": "1nltwm9",
+   "en": "⟦0⟧ (10) The maximum difference between the current freedom score and the cap for the next or previous level allowed for changing.",
+   "frags": 1
+  },
+  {
+   "k": "14q1kay",
+   "en": "MAX_SCORE_DIFF_TO_CHANGE_AUTONOMY"
+  },
+  {
+   "k": "3jivd7",
+   "en": "⟦0⟧ (-0.7) Autonomy gain multiplier from the overlord building in the subject's states. Must be negative in order to lose autonomy.",
+   "frags": 1
+  },
+  {
+   "k": "10jfo4z",
+   "en": "MASTER_BUILD_AUTONOMY_FACTOR"
+  },
+  {
+   "k": "16soacg",
+   "en": "⟦0⟧ (5000) The total amount of autonomy points between the country's annexation and independence.",
+   "frags": 1
+  },
+  {
+   "k": "1ukjk5t",
+   "en": "AUTONOMOUS_TOTAL_SCORE"
+  },
+  {
+   "k": "1r3yyp7",
+   "en": "⟦0⟧ (0.025) The amount that can be saved between levels.",
+   "frags": 1
+  },
+  {
+   "k": "1ex2hoy",
+   "en": "AUTONOMOUS_SPILLOVER"
+  },
+  {
+   "k": "126tvmx",
+   "en": "Additional notes"
+  },
+  {
+   "k": "108ndg2",
+   "en": "For a country to start the game as a subject, this can be done using the ⟦0⟧ effect in the history files. When doing this, it is preferable to do it in the subject's history file scoping to the overlord's tag, as shown below.",
+   "frags": 1
+  },
+  {
+   "k": "mzv7m",
+   "en": "set_autonomy"
+  },
+  {
+   "k": "nibof0",
+   "en": "Autonomy effects are known to overwrite the political setup of a country, both in terms of leaders, ruling party and popularities. Therefore it has to be placed in the lines before recruiting characters and defining politics. Setting the autonomy level in the overlord's history file is one of the main sources of issues of ideologies being incorrect, due to the overwriting political definitions for the same reason. This happens due to the loading order, ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "chp5cn",
+   "en": "but it is not recommended to make changes to the countries' loading order for this purpose."
+  }
+ ]
+}

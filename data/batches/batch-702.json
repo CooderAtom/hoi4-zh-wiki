@@ -1,0 +1,1458 @@
+{
+ "batch": 702,
+ "pages": [
+  "Commander trait"
+ ],
+ "chars": 14976,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "16jndck",
+   "en": "Terrain Penalty Reduction: ⟦0⟧ (Applied after summing all other terrain modifiers, not applied to ⟦1⟧) Cold acclimation gain factor: ⟦2⟧ Hot acclimation gain factor: ⟦3⟧",
+   "frags": 4
+  },
+  {
+   "k": "pouavh",
+   "en": "terrain features"
+  },
+  {
+   "k": "10gy2bt",
+   "en": "At least 2 of the following: Desert Fox Swamp Fox Mountaineer Hill Fighter Jungle Rat Ranger Urban Assault Specialist"
+  },
+  {
+   "k": "fh043w",
+   "en": "Winter Expert"
+  },
+  {
+   "k": "57tz6e",
+   "en": "Hard earned experience has taught this leader how to fight in harsh winter conditions."
+  },
+  {
+   "k": "a7u8xw",
+   "en": "Cold acclimation gain factor: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "qvsbww",
+   "en": "Status traits"
+  },
+  {
+   "k": "1ctgu5b",
+   "en": "These traits are gained temporarily."
+  },
+  {
+   "k": "1e1ftt3",
+   "en": "Sick"
+  },
+  {
+   "k": "1f5gq62",
+   "en": "Confined to a bed due to severe sickness."
+  },
+  {
+   "k": "1ty4f6x",
+   "en": "Skill bonus factor: ⟦0⟧ Cannot use abilities",
+   "frags": 1
+  },
+  {
+   "k": "1r3646l",
+   "en": "Can be randomly gained by commanders who have not gotten this trait in the past 180 days and 75% of whose commanded divisions who are in ⟦0⟧, ⟦1⟧, or ⟦2⟧ terrain. Base chance to gain is 2% per day. Expires after 30 days.",
+   "frags": 3
+  },
+  {
+   "k": "1ng0c7t",
+   "en": "Wounded"
+  },
+  {
+   "k": "75nnnd",
+   "en": "A bad wound will take some time to recover from."
+  },
+  {
+   "k": "2tw0e0",
+   "en": "Can be randomly gained by commanders after they have won or lost a battle. Base chance to gain is 0.1% if the commander won the battle and 0.5% if they have lost the battle, though this can be modified by traits. Expires after 90 days."
+  },
+  {
+   "k": "1g2hd2w",
+   "en": "Reassigned"
+  },
+  {
+   "k": "1l8kgbk",
+   "en": "This leader is returning from a far-away post the government had assigned him to to keep him from plotting."
+  },
+  {
+   "k": "102rkm1",
+   "en": "With ⟦0⟧, given to reassigned commanders of ⟦1⟧ at the start of the Spanish Civil War. Expires after 60 days. Appears for 2 commanders of Siam for 4 years after completing the focus Sideline Disloyal Officers",
+   "frags": 2
+  },
+  {
+   "k": "z1ygrj",
+   "en": "La Résistance"
+  },
+  {
+   "k": "xlub90",
+   "en": "Nationalist Spain"
+  },
+  {
+   "k": "1cdbwnb",
+   "en": "Siam"
+  },
+  {
+   "k": "elacow",
+   "en": "Sideline Disloyal Officers"
+  },
+  {
+   "k": "9w1u6s",
+   "en": "Disgruntled"
+  },
+  {
+   "k": "18zrgb5",
+   "en": "This man is not happy and makes no secret of it."
+  },
+  {
+   "k": "1l215zt",
+   "en": "Attack: ⟦0⟧ Defense: ⟦1⟧ Planning: ⟦2⟧ Logistics: ⟦3⟧",
+   "frags": 4
+  },
+  {
+   "k": "1w3dyer",
+   "en": "Not used by the game."
+  },
+  {
+   "k": "8ub2mf",
+   "en": "Demoted"
+  },
+  {
+   "k": "gv8hhb",
+   "en": "Being demoted won't make anyone happy and this leader is no exception."
+  },
+  {
+   "k": "17r382j",
+   "en": "Substance Abuser"
+  },
+  {
+   "k": "teviry",
+   "en": "Addiction can be a bad thing, but it's really under control. Really."
+  },
+  {
+   "k": "2y83qx",
+   "en": "Appears for ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "jsxvce",
+   "en": "Substance Addict"
+  },
+  {
+   "k": "1gs24fk",
+   "en": "This man's addiction is clearly affecting his judgement, and not in a good way."
+  },
+  {
+   "k": "1aeoys8",
+   "en": "With ⟦0⟧, appears on a random eligible commander of a random country every month after ⟦1⟧ completes ⟦2⟧ and convinces at least one country to accept the opium trade. In practice, because only commanders with ⟦3⟧ are eligible for this trait, only the single commander for ⟦4⟧ with ⟦5⟧ can get this trait.",
+   "frags": 6
+  },
+  {
+   "k": "1nysoty",
+   "en": "Graveyard of Empires"
+  },
+  {
+   "k": "5uiq64",
+   "en": "Third Opium War"
+  },
+  {
+   "k": "mjuiis",
+   "en": "Hidden Sympathies"
+  },
+  {
+   "k": "2ymifh",
+   "en": "This general has voiced some disloyal opinions in private spheres, and will most likely lend his support to insurrections started by subversive elements."
+  },
+  {
+   "k": "j3e908",
+   "en": "Assigned to a random owned general after completing the ⟦0⟧ decision when preparing for a generic civil war. These generals are guaranteed to join the player's side in the civil war.",
+   "frags": 1
+  },
+  {
+   "k": "zpgjww",
+   "en": "Lower Army Command Loyalty"
+  },
+  {
+   "k": "181whoj",
+   "en": "Recently Promoted"
+  },
+  {
+   "k": "yo89em",
+   "en": "Adjusting to the responsibilities of the new rank."
+  },
+  {
+   "k": "chidq0",
+   "en": "Gained when upgrading a general to field marshal. Expires after 100 days."
+  },
+  {
+   "k": "16v07qs",
+   "en": "Motivated"
+  },
+  {
+   "k": "1e1y7pt",
+   "en": "A competent man is good. If he is motivated, then that is better"
+  },
+  {
+   "k": "1m70hph",
+   "en": "Gained after completing faction goal ⟦0⟧. Expires after 270 days.",
+   "frags": 1
+  },
+  {
+   "k": "p90tjo",
+   "en": "Subjugate the Faction"
+  },
+  {
+   "k": "eorvj8",
+   "en": "Wounded by Rioters"
+  },
+  {
+   "k": "2y3m1x",
+   "en": "This general has been wounded trying to contain rioters"
+  },
+  {
+   "k": "166vh9q",
+   "en": "With ⟦0⟧, can be randomly gained by commanders of ⟦1⟧ as part of the riots in response to low ⟦2⟧ with ⟦3⟧. Expires after 120 days.",
+   "frags": 4
+  },
+  {
+   "k": "wnbc3s",
+   "en": "Stability"
+  },
+  {
+   "k": "1wv5qge",
+   "en": "Hungersköld"
+  },
+  {
+   "k": "aaluv7",
+   "en": "Disillusioned with the government"
+  },
+  {
+   "k": "4oyd6a",
+   "en": "This general is severely disillusioned with the government"
+  },
+  {
+   "k": "n2qb0e",
+   "en": "With ⟦0⟧, can be randomly gained by commanders of ⟦1⟧ as part of the riots in response to low ⟦2⟧ with ⟦3⟧. Expires after 270 days.",
+   "frags": 4
+  },
+  {
+   "k": "1ij1m3q",
+   "en": "Determined"
+  },
+  {
+   "k": "u3unmf",
+   "en": "Can be temporarily added for ⟦0⟧ via Agitprop decision when ⟦1⟧ is active. Appears for British Raj when Graveyard of Empires is active. Appears for Indonesia and Siam when Thunder at Our Gates is active.",
+   "frags": 2
+  },
+  {
+   "k": "kb4wyx",
+   "en": "Indonesia"
+  },
+  {
+   "k": "913eow",
+   "en": "Thunder at Our Gates"
+  },
+  {
+   "k": "t8ejzh",
+   "en": "Admiral"
+  },
+  {
+   "k": "9fastf",
+   "en": "These traits can not be gained through experience. Conversely, they are the only traits that can appear on newly hired admirals."
+  },
+  {
+   "k": "kmlxme",
+   "en": "⟦0⟧ Leader experience gain",
+   "frags": 1
+  },
+  {
+   "k": "1wq1ngb",
+   "en": "Gentlemanly"
+  },
+  {
+   "k": "aw9nkq",
+   "en": "This officer instills a sense of respect in subordinates and enemies alike."
+  },
+  {
+   "k": "1b9ku0i",
+   "en": "Navy Organization: ⟦0⟧ Enemy Retreat Chance: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1ubgxsz",
+   "en": "Gunnery Expert"
+  },
+  {
+   "k": "ole2lg",
+   "en": "This officer has studied the fine art of ballistics."
+  },
+  {
+   "k": "1oe39z4",
+   "en": "Ironside"
+  },
+  {
+   "k": "1ce80nd",
+   "en": "Grand Fleet"
+  },
+  {
+   "k": "1ueikh6",
+   "en": "Cuts Corners"
+  },
+  {
+   "k": "4vh9be",
+   "en": "What's the worst that could happen?"
+  },
+  {
+   "k": "1przim7",
+   "en": "Damage: ⟦0⟧ Defense: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "k0nhv7",
+   "en": "Chief Engineer"
+  },
+  {
+   "k": "xb51cv",
+   "en": "This officer knows how the ship actually works."
+  },
+  {
+   "k": "10vlvvu",
+   "en": "Chance to Receive Critical Hit: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1uedlq1",
+   "en": "This Admiral has a knack for giving the right quote to the right person."
+  },
+  {
+   "k": "otdg1s",
+   "en": "⟦0⟧ Fleet Attack and Defense if commanding the Pride of the Fleet",
+   "frags": 1
+  },
+  {
+   "k": "j9uidy",
+   "en": "Bold"
+  },
+  {
+   "k": "1h3i4y8",
+   "en": "The difference between a bold attack and a stupid attack is that the bold attack succeeds."
+  },
+  {
+   "k": "zzyi3e",
+   "en": "Naval Speed: ⟦0⟧ Damage: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1waeht5",
+   "en": "⟦0⟧ Commander Experience Gain",
+   "frags": 1
+  },
+  {
+   "k": "124jgf2",
+   "en": "Battleship Adherent"
+  },
+  {
+   "k": "13mkv68",
+   "en": "Naval air power will never become a viable alternative to big guns."
+  },
+  {
+   "k": "vm3ohg",
+   "en": "Naval AA attack: ⟦0⟧ Capital Ship Attack: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1lq9rf8",
+   "en": "Aviation Enthusiast"
+  },
+  {
+   "k": "x9zasp",
+   "en": "Naval air power is the superior alternative to big guns."
+  },
+  {
+   "k": "1axlctt",
+   "en": "Air Controller"
+  },
+  {
+   "k": "11zhqcq",
+   "en": "Integrated Air Arm"
+  },
+  {
+   "k": "1oojbfn",
+   "en": "Caustic Personality"
+  },
+  {
+   "k": "j2du3c",
+   "en": "This officer is a bit more salty than most people."
+  },
+  {
+   "k": "hwh5e1",
+   "en": "Number of ships in the first contact: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "14f8fxc",
+   "en": "Craven"
+  },
+  {
+   "k": "1kwxwx5",
+   "en": "\"Engage the enemy less closely. A lot less closely.\""
+  },
+  {
+   "k": "17mvvd0",
+   "en": "Retreat Decision Chance: ⟦0⟧ Damage: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1bv6w06",
+   "en": "Naval Lineage"
+  },
+  {
+   "k": "1s0v4nb",
+   "en": "It takes 3 years to build a ship. It takes 300 years to build a tradition."
+  },
+  {
+   "k": "se5xoz",
+   "en": "Retreat Decision Chance: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1uxkwqe",
+   "en": "Retreat Decision Chance: ⟦0⟧ Attack: ⟦1⟧ Defense: ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "14jeckf",
+   "en": "Can appear for ⟦0⟧ with ⟦1⟧. Assigned to random admirals as the result of purge events and focuses. Is removed after having completed Lessons of War.",
+   "frags": 2
+  },
+  {
+   "k": "6avyw",
+   "en": "Assigned to random admirals as the result of purge events and focuses."
+  },
+  {
+   "k": "wmu8po",
+   "en": "Blockade Runner"
+  },
+  {
+   "k": "1su6g0u",
+   "en": "Able to rapidly Disengage from Naval Combat."
+  },
+  {
+   "k": "1rfjlhi",
+   "en": "⟦0⟧ Retreat decision chance ⟦1⟧ Fleet speed while retreating ⟦2⟧ Convoy speed while retreating",
+   "frags": 3
+  },
+  {
+   "k": "azt6qu",
+   "en": "Have a task force in combat where every ship in it has over 32 knots speed."
+  },
+  {
+   "k": "md9jzp",
+   "en": "Convoy Warfare"
+  },
+  {
+   "k": "9r32r8",
+   "en": "Sea Wolf"
+  },
+  {
+   "k": "4lt8gu",
+   "en": "The Sea Wolf is particularly skilled in Convoy Raiding"
+  },
+  {
+   "k": "14lck40",
+   "en": "⟦0⟧ Submarine Attack",
+   "frags": 1
+  },
+  {
+   "k": "k80he2",
+   "en": "More than 80% submarines in fleet."
+  },
+  {
+   "k": "11ewvgo",
+   "en": "Spotter"
+  },
+  {
+   "k": "1jgu13p",
+   "en": "The Spotter pays special attention to keeping an eye out for enemy fleets."
+  },
+  {
+   "k": "16vutb7",
+   "en": "⟦0⟧ Spotting speed",
+   "frags": 1
+  },
+  {
+   "k": "1ymo7bg",
+   "en": "Spotting the enemy."
+  },
+  {
+   "k": "1bpbwnt",
+   "en": "Fleet Protector"
+  },
+  {
+   "k": "13tm9ig",
+   "en": "An expert in keeping small ships away from the big ships."
+  },
+  {
+   "k": "1bfd341",
+   "en": "⟦0⟧ Screening efficiency",
+   "frags": 1
+  },
+  {
+   "k": "ri6c2j",
+   "en": "More than 50% ⟦0⟧ in fleet.",
+   "frags": 1
+  },
+  {
+   "k": "hgkbio",
+   "en": "screening vessels"
+  },
+  {
+   "k": "wpj8xu",
+   "en": "Superior Tactician"
+  },
+  {
+   "k": "tbdoww",
+   "en": "A master of Fleet Positioning."
+  },
+  {
+   "k": "1skm8rt",
+   "en": "⟦0⟧ Positioning",
+   "frags": 1
+  },
+  {
+   "k": "1gq2cif",
+   "en": "Having the advantage in combat."
+  },
+  {
+   "k": "1e7rqaf",
+   "en": "An expert in the nascent field of naval aviation, the Air Controller is a natural choice to command carriers."
+  },
+  {
+   "k": "m05trv",
+   "en": "⟦0⟧ Sortie efficiency ⟦1⟧ Naval Air Targeting from Carriers",
+   "frags": 2
+  },
+  {
+   "k": "ee54cj",
+   "en": "Has carrier with air wings on a mission or carrier has air wings in combat it is a part of."
+  },
+  {
+   "k": "e6el2d",
+   "en": "Determined to defend our home waters with the most powerful ships our navy can muster."
+  },
+  {
+   "k": "viera1",
+   "en": "⟦0⟧ Capital Ship Armor",
+   "frags": 1
+  },
+  {
+   "k": "w4q7ni",
+   "en": "Commanding or fighting ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1pvilfs",
+   "en": "Capital Ships"
+  },
+  {
+   "k": "e9bj9k",
+   "en": "Cold Water Expert"
+  },
+  {
+   "k": "kaoo0j",
+   "en": "This officer has spent a lot of time in arctic waters and learned how to avoid most of the icebergs."
+  },
+  {
+   "k": "1h7pfog",
+   "en": "Attrition: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1bu1g85",
+   "en": "While weather is ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "61tiwm",
+   "en": "Arctic Water"
+  },
+  {
+   "k": "16a3twm",
+   "en": "Inshore Fighter"
+  },
+  {
+   "k": "1kjyjyh",
+   "en": "An expert in fighting close to shore, this officer understands how to hide behind islands and in fjords to rain destruction upon the enemy."
+  },
+  {
+   "k": "1fr4hpa",
+   "en": "⟦0⟧: Movement: +10% Attack: +10% Defense: +10%",
+   "frags": 1
+  },
+  {
+   "k": "1k9ok7a",
+   "en": "Fjords and Archipelagos"
+  },
+  {
+   "k": "1fwt7ao",
+   "en": "Fighting in terrain: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1w2751y",
+   "en": "Blue Water Expert"
+  },
+  {
+   "k": "c5ncj",
+   "en": "This officer is an expert in fighting on the high seas."
+  },
+  {
+   "k": "1oiplq1",
+   "en": "Deep Ocean"
+  },
+  {
+   "k": "1jm4hfx",
+   "en": "Green Water Expert"
+  },
+  {
+   "k": "nothy1",
+   "en": "Fighting in shallow waters has its own challenges. This officer has mastered them."
+  },
+  {
+   "k": "dikyps",
+   "en": "Shallow Sea"
+  },
+  {
+   "k": "13h8y00",
+   "en": "Admirals may get traits assigned if they have the prerequisite earned traits. Assigning traits cost 15 ⟦0⟧. There is, however, no experience requirement for these traits. The maximum of assignable traits depends on the admiral's level.",
+   "frags": 1
+  },
+  {
+   "k": "16cohwn",
+   "en": "command power"
+  },
+  {
+   "k": "hpls7u",
+   "en": "Concealment Expert"
+  },
+  {
+   "k": "zbemkf",
+   "en": "This officer has completed the government-mandated training course on how not to be seen."
+  },
+  {
+   "k": "1ost0ve",
+   "en": "Visibility: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "l9s1qr",
+   "en": "Lone Wolf"
+  },
+  {
+   "k": "1clc6c3",
+   "en": "While organising a large fleet is a difficult task, so is using a small force to its maximum potential."
+  },
+  {
+   "k": "3gzitm",
+   "en": "Enemy fleet size penalty: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1khayhm",
+   "en": "Silent Hunter"
+  },
+  {
+   "k": "jz3xs6",
+   "en": "A master of stealth, this submarine officer has learned how to escape his pursuers."
+  },
+  {
+   "k": "1pdonx0",
+   "en": "Torpedo reveal chance: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "wb4esi",
+   "en": "Lancer"
+  },
+  {
+   "k": "o7qjjt",
+   "en": "This officer knows torpedoes like no other, and is able to get the most out of them."
+  },
+  {
+   "k": "1akvmvi",
+   "en": "Torpedo Screen Penetration ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "16q3d1s",
+   "en": "At least 1 of the following: Sea Wolf Spotter Fleet Protector Superior Tactician"
+  },
+  {
+   "k": "fxqtj1",
+   "en": "Search Pattern Expert"
+  },
+  {
+   "k": "zsh86t",
+   "en": "Information is ammunition!"
+  },
+  {
+   "k": "1puvmm3",
+   "en": "Spotting Speed: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "zdvq6f",
+   "en": "Destroyer Leader"
+  },
+  {
+   "k": "esrr2t",
+   "en": "Balancing boldness and discretion, this officer has become the ideal commander for light forces."
+  },
+  {
+   "k": "1fvq1rs",
+   "en": "Destroyer: Visibility: -10% Naval Damage: +10% Torpedo hit chance: +10%"
+  },
+  {
+   "k": "u35ijd",
+   "en": "Naval Damage: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "tl77uc",
+   "en": "Torpedo hit chance: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1axikzo",
+   "en": "Cruiser Captain"
+  },
+  {
+   "k": "1rm2rug",
+   "en": "This officer has shown great skill in operating cruisers."
+  },
+  {
+   "k": "uvbt7k",
+   "en": "Light Cruiser: Naval Speed: +10% Naval Damage: +10% Heavy Cruiser: Naval Speed: +10% Naval Damage: +10%"
+  },
+  {
+   "k": "1xtqmu1",
+   "en": "Naval Speed: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "12yk97w",
+   "en": "Mine Craft"
+  },
+  {
+   "k": "1j41y58",
+   "en": "All sailors know the terror of these creeping weapons, the low hiss of the fuse, and the sudden BLAST!"
+  },
+  {
+   "k": "29jahv",
+   "en": "Naval minelaying efficiency ⟦0⟧ Naval minesweeping efficiency: ⟦1⟧ Naval mines avoidance: ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "1cl7off",
+   "en": "Flight Deck Manager"
+  },
+  {
+   "k": "1327mjt",
+   "en": "Launching a plane from the deck of a ship is fairly simple. It's launching the other two dozen at the same time that's the problem."
+  },
+  {
+   "k": "1jsnakp",
+   "en": "Sortie Efficiency: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1l864k7",
+   "en": "Ground Pounder"
+  },
+  {
+   "k": "1jhagao",
+   "en": "Shooting at a stationary target on land with naval artillery is almost unsporting. Almost."
+  },
+  {
+   "k": "1k7ltcq",
+   "en": "Shore Bombardement Bonus: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1q3p7do",
+   "en": "Big Guns Expert"
+  },
+  {
+   "k": "1hi5sw8",
+   "en": "This officer likes big guns and is incapable of lying."
+  },
+  {
+   "k": "1i91f6u",
+   "en": "Capital Ship Attack: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "vg0e8x",
+   "en": "Safety First"
+  },
+  {
+   "k": "1gfaw4i",
+   "en": "There is nothing wrong with our bloody ships. Not today, not tommorrow, not ever!"
+  },
+  {
+   "k": "86norj",
+   "en": "Smoke Screen Specialist"
+  },
+  {
+   "k": "ijh9p4",
+   "en": "Used correctly, smoking can in fact save lives."
+  },
+  {
+   "k": "1n9uhzh",
+   "en": "Retreat Decision Chance ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "gzmbmg",
+   "en": "Torpedo Expert"
+  },
+  {
+   "k": "17emr3b",
+   "en": "Hitting a ship moving at a speed of 25 knots with a relative angle of 72 degrees at a distance of 8 kilometers is really just a bit of simple math."
+  },
+  {
+   "k": "nt8bi0",
+   "en": "Loading Drill Master"
+  },
+  {
+   "k": "yj5s2s",
+   "en": "\"Shoot them again, they're not dead yet!\""
+  },
+  {
+   "k": "z67d06",
+   "en": "Torpedo cooldown: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "11l2qc9",
+   "en": "Hunter-Killer"
+  },
+  {
+   "k": "1mqxhzm",
+   "en": "In the deadly game of cat and mouse, this officer is most certainly the cat."
+  },
+  {
+   "k": "17h291b",
+   "en": "Submarine Attack: ⟦0⟧ Submarine Detection: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1rgqnfc",
+   "en": "Fly Swatter"
+  },
+  {
+   "k": "8ndto7",
+   "en": "Realizing the danger posed to even our most powerful ships by airplanes, the Fly Swatter swiftly disposes of anything that flies."
+  },
+  {
+   "k": "1a9m12y",
+   "en": "⟦0⟧ Naval AA attack",
+   "frags": 1
+  },
+  {
+   "k": "g6sc9y",
+   "en": "Fighter Director"
+  },
+  {
+   "k": "vqcnpg",
+   "en": "This officer ensures friendly - or at least neutral - skies."
+  },
+  {
+   "k": "1rqwq9p",
+   "en": "Fighters sortie efficiency: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "cm5fru",
+   "en": "Dive Bomber"
+  },
+  {
+   "k": "ymrpa7",
+   "en": "Torpedo Bomber"
+  },
+  {
+   "k": "6gbjyu",
+   "en": "An expert in the use of dive bombers."
+  },
+  {
+   "k": "1clgoej",
+   "en": "Close Air Support (Carrier): Air Support Mission Efficiency: +10% Ground attack factor: +10%"
+  },
+  {
+   "k": "ywvj9g",
+   "en": "Air Support Mission Efficiency: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1yt0joq",
+   "en": "Ground attack factor: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1oig6nl",
+   "en": "Bombs make holes that let in air. Torpedoes make holes that let in water. Guess which sinks a ship faster?"
+  },
+  {
+   "k": "lt48nk",
+   "en": "Naval Bomber (Carrier): Naval Mission Efficiency: +10% Naval Bombing: +10% Naval Targeting: +5%"
+  },
+  {
+   "k": "sho03f",
+   "en": "Naval Mission Efficiency: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1v5nr38",
+   "en": "Naval Bombing: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "18u3t95",
+   "en": "Naval Targeting: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "ygiyhn",
+   "en": "Marksman"
+  },
+  {
+   "k": "fj1pv5",
+   "en": "\"Put the next salvo half a meter aft, right into their magazine.\""
+  },
+  {
+   "k": "y0kanh",
+   "en": "Chance to score Critical hit: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "12pc7pl",
+   "en": "Crisis Magician"
+  },
+  {
+   "k": "1auwe93",
+   "en": "\"Condenser Tubes are broken, Captain. Repairs will take at least 6 weeks. But I can do it in 3 hours.\""
+  },
+  {
+   "k": "16qnqs8",
+   "en": "Effects of sustained Critical Hits: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "p11n5g",
+   "en": "Can be temporarily added for ⟦0⟧ via Agitprop decision when ⟦1⟧ is active.",
+   "frags": 2
+  },
+  {
+   "k": "juwz6x",
+   "en": "Political traits"
+  },
+  {
+   "k": "1q9ahty",
+   "en": "These traits can not be gained through experience and do not affect subordinate unit leaders. They also have no immediate effects on the abilities of the leader. They usually only determine with what side of a civil war the leader will side, but some also indicate which leaders are affected or improved by the completion of certain ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "26f65v",
+   "en": "national focuses"
+  },
+  {
+   "k": "fr8408",
+   "en": "Nationalist Sympathies"
+  },
+  {
+   "k": "17a1iph",
+   "en": "This leader harbors sympathies for the Nationalist cause."
+  },
+  {
+   "k": "15zsbvh",
+   "en": "Appears for ⟦0⟧ when ⟦1⟧ is active. Characters with this trait will stay loyal to the nationalist rebels in the civil war.",
+   "frags": 2
+  },
+  {
+   "k": "1s1lfqm",
+   "en": "Spain"
+  },
+  {
+   "k": "1n7fy3t",
+   "en": "Characters with this trait will stay loyal to the nationalist rebels in the civil war."
+  },
+  {
+   "k": "1haq3im",
+   "en": "Falangist Loyalties"
+  },
+  {
+   "k": "1s79l6n",
+   "en": "This leader is loyal to the Falange."
+  },
+  {
+   "k": "5q8fm9",
+   "en": "Appears for ⟦0⟧ when ⟦1⟧ is active. Characters with this trait will side with the fascist faction in the civil war.",
+   "frags": 2
+  },
+  {
+   "k": "lcw0r1",
+   "en": "Characters with this trait will side with the fascist faction in the civil war."
+  },
+  {
+   "k": "1f2efir",
+   "en": "Carlist Loyalties"
+  },
+  {
+   "k": "smp7zo",
+   "en": "This leader is loyal to the Carlists."
+  },
+  {
+   "k": "1494ycc",
+   "en": "Appears for ⟦0⟧ when ⟦1⟧ is active. Characters with this trait will stay loyal to the Carlist non-aligned faction in the civil war.",
+   "frags": 2
+  },
+  {
+   "k": "25mn5c",
+   "en": "Characters with this trait will stay loyal to the Carlist non-aligned faction in the civil war."
+  },
+  {
+   "k": "1uabq5k",
+   "en": "Republican Loyalties"
+  },
+  {
+   "k": "ha5n6",
+   "en": "This leader is loyal to the democratic Republican government."
+  },
+  {
+   "k": "9c3oo2",
+   "en": "Appears for ⟦0⟧ when ⟦1⟧ is active. Characters with this trait will stay loyal to the Republican government in the civil war.",
+   "frags": 2
+  },
+  {
+   "k": "1vjnzxy",
+   "en": "Characters with this trait will stay loyal to the Republican government in the civil war."
+  },
+  {
+   "k": "1pr1ou",
+   "en": "Stalinist Loyalties"
+  },
+  {
+   "k": "1f3qbgw",
+   "en": "This leader is loyal to the Stalinist communists."
+  },
+  {
+   "k": "117uekz",
+   "en": "Appears for ⟦0⟧ when ⟦1⟧ is active. Characters with this trait will side with the Stalinist faction in the civil war.",
+   "frags": 2
+  },
+  {
+   "k": "1yhiy7",
+   "en": "Characters with this trait will side with the Stalinist faction in the civil war."
+  },
+  {
+   "k": "1s4zq9t",
+   "en": "Anti-Stalinist Loyalties"
+  },
+  {
+   "k": "h4fhqr",
+   "en": "This leader is loyal to the anti-Stalinist communists."
+  },
+  {
+   "k": "lfzajr",
+   "en": "Appears for ⟦0⟧ when ⟦1⟧ is active. Characters with this trait will side with the anarchists & POUM in the civil war.",
+   "frags": 2
+  },
+  {
+   "k": "1khzfgz",
+   "en": "Characters with this trait will side with the anarchists & POUM in the civil war."
+  },
+  {
+   "k": "1ywsxdb",
+   "en": "Zveno Member"
+  },
+  {
+   "k": "1bpmsq",
+   "en": "This leader is a member of the Zveno and will side with this faction if conflict breaks out."
+  },
+  {
+   "k": "rs6z44",
+   "en": "Appears for ⟦0⟧ when ⟦1⟧ is active. Won't be gained by new unit leaders if Zveno faction is destroyed.",
+   "frags": 2
+  },
+  {
+   "k": "1g27va4",
+   "en": "Bulgaria"
+  },
+  {
+   "k": "hvw584",
+   "en": "Battle for the Bosporus"
+  },
+  {
+   "k": "p67aw0",
+   "en": "Won't be gained by new unit leaders if Zveno faction is destroyed."
+  },
+  {
+   "k": "1wb4yqi",
+   "en": "Tsar Loyalist"
+  },
+  {
+   "k": "196kxx8",
+   "en": "This leader is loyal to the Tsar and will side with the monarchist government if conflict breaks out."
+  },
+  {
+   "k": "15k29nn",
+   "en": "Appears for ⟦0⟧ when ⟦1⟧ is active.",
+   "frags": 2
+  },
+  {
+   "k": "1ha9zw5",
+   "en": "Fatherland Front Sympathizer"
+  },
+  {
+   "k": "qhhd28",
+   "en": "This leader harbors sympathies for the Fatherland Front and will side with this organization if conflict breaks out."
+  },
+  {
+   "k": "1btgnvu",
+   "en": "Kemalist Champion"
+  },
+  {
+   "k": "p4h3fz",
+   "en": "This leader is a staunch adherent to the tenets of Kemalism and will fight to defend those principles."
+  },
+  {
+   "k": "1q6kei",
+   "en": "Appears for ⟦0⟧ when ⟦1⟧ is active. Characters with this trait side with the Kemalist faction in the event of a civil war.",
+   "frags": 2
+  },
+  {
+   "k": "38tzan",
+   "en": "Turkey"
+  },
+  {
+   "k": "lhy4z2",
+   "en": "Characters with this trait side with the Kemalist faction in the event of a civil war."
+  },
+  {
+   "k": "185abu1",
+   "en": "Staunch Monarchist"
+  },
+  {
+   "k": "1cui1b",
+   "en": "This leader respects and reveres the monarchy as a Greek institution."
+  },
+  {
+   "k": "sgi9no",
+   "en": "Appears for ⟦0⟧ when ⟦1⟧ is active. Generals with this trait stay loyal to the royalist faction during civil wars.",
+   "frags": 2
+  },
+  {
+   "k": "1kl1wqi",
+   "en": "Greece"
+  },
+  {
+   "k": "pyc6bc",
+   "en": "Generals with this trait stay loyal to the royalist faction during civil wars."
+  },
+  {
+   "k": "1tbq75b",
+   "en": "Venezelist Loyalist"
+  },
+  {
+   "k": "5gtsuq",
+   "en": "This leader is a believer in the political doctrines of the arch-republican Eleftherios Venizelos."
+  },
+  {
+   "k": "1rwxbi2",
+   "en": "Appears for ⟦0⟧ when ⟦1⟧ is active. Generals with this trait stay loyal to the republican faction during civil wars.",
+   "frags": 2
+  },
+  {
+   "k": "192uffq",
+   "en": "Generals with this trait stay loyal to the republican faction during civil wars."
+  },
+  {
+   "k": "185sg8y",
+   "en": "Marxist Acolyte"
+  },
+  {
+   "k": "i2oimz",
+   "en": "This leader is a communist who believes in the theories espoused by Karl Marx."
+  },
+  {
+   "k": "17crz84",
+   "en": "Appears for ⟦0⟧ when ⟦1⟧ is active. Generals with this trait stay loyal to the communist faction during civil wars.",
+   "frags": 2
+  },
+  {
+   "k": "y9j4iw",
+   "en": "Generals with this trait stay loyal to the communist faction during civil wars."
+  },
+  {
+   "k": "vircie",
+   "en": "Fascist Sympathizer"
+  },
+  {
+   "k": "udi2nl",
+   "en": "This leader is sympathetic to the tenets of fascism."
+  },
+  {
+   "k": "18ano2w",
+   "en": "Appears for ⟦0⟧ when ⟦1⟧ is active. Generals with this trait stay loyal to the fascist faction during civil wars.",
+   "frags": 2
+  },
+  {
+   "k": "mlmkcc",
+   "en": "Generals with this trait stay loyal to the fascist faction during civil wars."
+  },
+  {
+   "k": "1rybigt",
+   "en": "Russian Empire Veteran"
+  },
+  {
+   "k": "8yrpxd",
+   "en": "Former member of the Imperial Russian army."
+  },
+  {
+   "k": "1qxonc5",
+   "en": "Is not attainable in-game (?)"
+  },
+  {
+   "k": "81ny0k",
+   "en": "Veteran Anti-Bolshevik"
+  },
+  {
+   "k": "1kn1dfd",
+   "en": "Has fought against communist elements and will do so again."
+  },
+  {
+   "k": "l0opxn",
+   "en": "Appears for ⟦0⟧, ⟦1⟧, and ⟦2⟧ when ⟦3⟧ is active.",
+   "frags": 4
+  },
+  {
+   "k": "esezps",
+   "en": "Estonia"
+  },
+  {
+   "k": "qej46e",
+   "en": "Latvia"
+  },
+  {
+   "k": "azote4",
+   "en": "Lithuania"
+  },
+  {
+   "k": "e1xq1g",
+   "en": "Sanation Left Leader"
+  },
+  {
+   "k": "bwv6o1",
+   "en": "Supporter of Walery Sławek and the Sanation Left."
+  },
+  {
+   "k": "hbescl",
+   "en": "Poland"
+  },
+  {
+   "k": "9tvnzd",
+   "en": "Sanation Right Leader"
+  }
+ ]
+}

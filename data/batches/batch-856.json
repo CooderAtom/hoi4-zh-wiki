@@ -1,0 +1,814 @@
+{
+ "batch": 856,
+ "pages": [
+  "Patch 1.12.X"
+ ],
+ "chars": 13467,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "2m64s1",
+   "en": "Prussia of the Balkans rebalanced slightly, and more of the modifiers now scale as the spirit is upgraded"
+  },
+  {
+   "k": "hzbyv4",
+   "en": "Bulgaria now begins with the Mountaineers tech unlocked"
+  },
+  {
+   "k": "13ohq8m",
+   "en": "Bulgaria: National Railway Lines now take 35 days, from 70. Added two mutually exclusive focuses after this, choosing between exploiting aluminium resources (16 Aluminium) or natural gold deposits (stability + civ)"
+  },
+  {
+   "k": "dgj1bs",
+   "en": "Integrated designers navy spirit no longer gives double bonus and only gives research bonus for ship modules now"
+  },
+  {
+   "k": "1dn0eum",
+   "en": "Romania: several new focuses added which enable the possibility to manipulate which country leader will run the fascist party"
+  },
+  {
+   "k": "1cva4hd",
+   "en": "all countries will now build carrier aircraft if they have carriers, countries with low military factories are less likely to spend too much on fighters"
+  },
+  {
+   "k": "18tv4se",
+   "en": "increased carrier aircraft wanted buffer for countries with carriers to 1.5x total deck space"
+  },
+  {
+   "k": "14fvwpz",
+   "en": "Fixed various issues with tech tree on different resolutions"
+  },
+  {
+   "k": "bdyfgk",
+   "en": "Bulgaria's default UI colour (used for allegiance/country unit banners) is now the same as their starting country colour"
+  },
+  {
+   "k": "7zsfrs",
+   "en": "Main menu Social Media buttons update"
+  },
+  {
+   "k": "2usmb3",
+   "en": "Added some scripted AI desires for land doctrines"
+  },
+  {
+   "k": "1m8gw1h",
+   "en": "Fixed bug in how AI prioritises its construction queue"
+  },
+  {
+   "k": "18rpxip",
+   "en": "Stop AI from queueing up more naval bases and railways if they are already waiting to be upgraded"
+  },
+  {
+   "k": "14xsqlg",
+   "en": "Italy will now be much less active on the French front for the first months of the war, unless France are losing badly, or Germany is under threat"
+  },
+  {
+   "k": "wwdk2",
+   "en": "AI will check if it should afford the monthly cost of Improve Relations before attempting it"
+  },
+  {
+   "k": "jdjs0j",
+   "en": "USA colorado class battleships now obsolete in 1936"
+  },
+  {
+   "k": "jakw39",
+   "en": "add is_hired_as_advisor = yes/no trigger"
+  },
+  {
+   "k": "16zjxms",
+   "en": "Make has_resources_in_country accept extracted and buildings parameters"
+  },
+  {
+   "k": "1g3lbb4",
+   "en": "Add get_supply_vehicles and get_supply_vehicles_temp effects and triggers to check the number of trucks and trains"
+  },
+  {
+   "k": "u7c3me",
+   "en": "Make the following triggers neutral - meaning they won't impact the outcome of the trigger block they are in : log, set_temp_variable, print_variables, round_temp_variable, clamp_temp_variable, subtract_from_temp_variable, multiply_temp_variable, divide_temp_variable, clear_temp_array, add_to_temp_array, remove_from_temp_array, resize_temp_array, find_highest_in_array, find_lowest_in_array"
+  },
+  {
+   "k": "xfilws",
+   "en": "Bugfixes"
+  },
+  {
+   "k": "riev5o",
+   "en": "Improved requirement tooltips for Mare Nostrum decision."
+  },
+  {
+   "k": "1srt5zi",
+   "en": "Random country selection disabled when loading ironman saves"
+  },
+  {
+   "k": "14nth5t",
+   "en": "Fixed incorrect dates for 1938 engine and armour techs"
+  },
+  {
+   "k": "1ox3wvt",
+   "en": "Bulgaria's unit names now use the spelling 'Diviziya', from 'Divizija'"
+  },
+  {
+   "k": "1476q8s",
+   "en": "Fixed issue in which Germany would get twice the amount of research bonuses via the focus \"Treaty with the USSR\""
+  },
+  {
+   "k": "19nizo4",
+   "en": "early cruiser hull no longer unlocks cruiser armour"
+  },
+  {
+   "k": "1ujoyf5",
+   "en": "Aircraft Bomb tech now unlocks torpedoes"
+  },
+  {
+   "k": "14lin9f",
+   "en": "Fixed incorrect role settings for amphibious drive module"
+  },
+  {
+   "k": "1tk6cp6",
+   "en": "Fixing typo in Adopting Rumantsch country flag in Switzerland"
+  },
+  {
+   "k": "1rodvz1",
+   "en": "fixed incorrect templates for RO.57 aircraft"
+  },
+  {
+   "k": "1lnxiqa",
+   "en": "Fix the capture and subsequent consequences for operatives when they get spotted on offensive missions"
+  },
+  {
+   "k": "314eks",
+   "en": "Small fixes to Romanian focus tree additions"
+  },
+  {
+   "k": "7w3jl6",
+   "en": "Patch 1.12.11, aka \"Operation Pike\", was released as an open beta patch as part of the ⟦0⟧ patches on 2023-03-02⟦1⟧. It was officially out of open beta on 2023-03-09⟦2⟧ with the checksum ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "4d37u3",
+   "en": "92f5"
+  },
+  {
+   "k": "134sjsa",
+   "en": "German, Japanese and British trees will now hide obsolete branches if the related game rule is turned on."
+  },
+  {
+   "k": "w9jsit",
+   "en": "French and USA focus trees will now hide obsolete branches if the related game rule is turned on."
+  },
+  {
+   "k": "127ga38",
+   "en": "Added a new alt-history branch to Canada's Communist path, allowing further reduction of the Great Depression, wargoals on the United States, and various other benefits, at the cost of being unable to join or create factions"
+  },
+  {
+   "k": "ud8ooh",
+   "en": "Germany now begin with 80 transport planes, from 4"
+  },
+  {
+   "k": "1aes9w5",
+   "en": "Gameplay"
+  },
+  {
+   "k": "1icety3",
+   "en": "Tweaked Ethiopian Balance of Power, to decrease risk of country collapse"
+  },
+  {
+   "k": "1nl0l37",
+   "en": "Made coring decision for Italo-Ethiopian empire available when controlling, rather than owning, states"
+  },
+  {
+   "k": "jirf9s",
+   "en": "Made it possible to move capital to Jerusalem after Axum for Ethiopia"
+  },
+  {
+   "k": "1nymr7k",
+   "en": "Made it possible for Ethiopia to collaborate with Italy as Monarchy as well as Fascist"
+  },
+  {
+   "k": "16fwabf",
+   "en": "Improved Regional Supply depots National Spirit for Ethiopia"
+  },
+  {
+   "k": "135w58",
+   "en": "Made multiple investments at the same time possible for Ethiopia"
+  },
+  {
+   "k": "pp8bo",
+   "en": "Added camelry to Sultanate of Aussa"
+  },
+  {
+   "k": "16u1dgl",
+   "en": "Now the disabling of construction of railway lines on the map will remove them from construction UI."
+  },
+  {
+   "k": "1oj5t8k",
+   "en": "Delete-building button should now be visible/usable on UI-scaled clients"
+  },
+  {
+   "k": "1vh0lf1",
+   "en": "Now, if you hover mouse over an invasion arrow, the whole path will be visible even if it is overlapped by another one."
+  },
+  {
+   "k": "17wins9",
+   "en": "Visual improvement of the create faction window."
+  },
+  {
+   "k": "137v2sp",
+   "en": "Now the army theater groups will show the reinforcement priority."
+  },
+  {
+   "k": "nzzjr0",
+   "en": "Removed deprecated trigger pc_is_state_outside_influence_for"
+  },
+  {
+   "k": "vepe3p",
+   "en": "State level production speed modifiers now have the correct loc keys"
+  },
+  {
+   "k": "16qpzl4",
+   "en": "Changed the \"repair_speed_infrastructure_factor\" modifier description to accurately reflect its actual effect"
+  },
+  {
+   "k": "gp5009",
+   "en": "Fixed creation of unbuildable plane variants by create_equipment_variant effect."
+  },
+  {
+   "k": "9ef2ll",
+   "en": "Focus tree screen will now properly refresh when something changes the display - like when the player chooses a branch and it hides the other ones."
+  },
+  {
+   "k": "3qfshi",
+   "en": "Fixed the exploit of ignoring the special forces cap when changing army templates."
+  },
+  {
+   "k": "1j86iet",
+   "en": "Game rule \"Show Obsolete Branches in Focus Tree\" no longer requires any DLC."
+  },
+  {
+   "k": "yng4hj",
+   "en": "Motorized rocket artillery fuel usage increased from 0.12 to 1.2 to be in line with Trucks"
+  },
+  {
+   "k": "1ags2wd",
+   "en": "Fixed the missing description for all none-Italian countries receiving the end News Event for the Fate of Mussolini Event chain"
+  },
+  {
+   "k": "1i1ioum",
+   "en": "USA no longer hires both communist and fascist advisors without DLCs"
+  },
+  {
+   "k": "1w18nbh",
+   "en": "Events and focuses which invite all un-faction-ed countries of a specific ideology to a faction will no longer target subjects (this affects Spain and the Soviet Union currently)"
+  },
+  {
+   "k": "z2xwdm",
+   "en": "Fixed issue in which Italian Aircraft Designer CRDA-CANT would require the wrong Naval Designer to be active. It now requires CRDA Naval Designer as intended."
+  },
+  {
+   "k": "16v2czj",
+   "en": "Octavian Goga will now correctly become country leader on completion of the National Christian Party focus."
+  },
+  {
+   "k": "1o81evb",
+   "en": "The name of peace conferences will appear in the correct language after language changes during peace conferences."
+  },
+  {
+   "k": "1gw1qj3",
+   "en": "Fixed issue so that now Italian partisan general Ada Gobetti is properly cautious."
+  },
+  {
+   "k": "1q16dy",
+   "en": "Obsolete Soviet AI plan \"Alternate\" has now been purged."
+  },
+  {
+   "k": "147cptq",
+   "en": "Build Cost equipment stat modifiers now display the correct color for a bonus (green for negative, red for positive)"
+  },
+  {
+   "k": "1ootf9m",
+   "en": "Fixed extra word in Alpine Supremacy description"
+  },
+  {
+   "k": "4jvmdd",
+   "en": "Fixed typo in Bulgarian Re-integration Campaign"
+  },
+  {
+   "k": "63r90q",
+   "en": "Fixed issue with Costanzo Ciano Light Cruiser Class granted by Italian focus Flotta d'Evasione when Man the Guns DLC was not active."
+  },
+  {
+   "k": "178mn0n",
+   "en": "Fixes to Canada's communist's path focuses"
+  },
+  {
+   "k": "3cflwj",
+   "en": "Patch 1.12.12, aka \"Operation Cockpit\", was released as an open beta patch as part of the ⟦0⟧ patches on 2023-04-06⟦1⟧. It was officially out of open beta on 2023-04-12⟦2⟧ with the checksum ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "182ephy",
+   "en": "a266"
+  },
+  {
+   "k": "1o46n9j",
+   "en": "Canadian Focuses 'National Steel Car' and 'Send in the Zombies' are no longer mutually exclusive. If Great Depression has already been removed, the focus on \"War Fuelled Economy\" and \"Reactivate the Farmers Unity League\" will grant a significant temporary construction speed boost."
+  },
+  {
+   "k": "1l8rh41",
+   "en": "Canadian focuses regarding the repatriation of Newfoundland are now available to the recently added Communist path"
+  },
+  {
+   "k": "vs7gi9",
+   "en": "Divisional Commanders: XP requirements for level thresholds and for gaining an aptitude trait have been reduced across the board by 20-50%"
+  },
+  {
+   "k": "62822p",
+   "en": "Divisional Commanders: XP gain from combat increased by 33%"
+  },
+  {
+   "k": "1ggr2rt",
+   "en": "decreased HIT_PROFILE_SPEED_FACTOR from 2 to 0.5 this will make ships speed affect hit profiles less"
+  },
+  {
+   "k": "k09xbj",
+   "en": "Air accident base chance increased from 0.05 to 0.1, accident chance multiplier increased from 0.5 to 1, accident effect multiplier increased from 0.005 to 0.01 ace death chance increased from 0.003 to 0.005"
+  },
+  {
+   "k": "znanc7",
+   "en": "Air wing XP game from training per day increased from 3 to 7 since Air accidents are more common, air exercises xp adjusted to match"
+  },
+  {
+   "k": "16hlcmg",
+   "en": "increased supply per transport plane to 0.01 from 0.002"
+  },
+  {
+   "k": "1llsos3",
+   "en": "Now the discord and the Instagram tooltips will have correct localization."
+  },
+  {
+   "k": "1rk7zvi",
+   "en": "Added link to Instagram and Discord to the in-game menu."
+  },
+  {
+   "k": "1td8qix",
+   "en": "Fixed the Portuguese Great War tank not appearing in the tech tree without NSB."
+  },
+  {
+   "k": "1pz2ems",
+   "en": "Re-introduced many tank icons for most countries that were screwed by No Step Back. Tank icons in the non-NSB generic tree will now appear in the Tank Designer with NSB."
+  },
+  {
+   "k": "1ivjfdk",
+   "en": "Improved the way country-specific tank icons appear in the tank designer, based on tech."
+  },
+  {
+   "k": "rrakm1",
+   "en": "Turkey will no longer be able to ask again for investment to a country until the country has accepted the portfolio and finishes the decision to invest in Turkey."
+  },
+  {
+   "k": "qbx56o",
+   "en": "Fixed issues with equipment bonuses to Carriers provided by Italian focus Refit Civilian Ships."
+  },
+  {
+   "k": "8mzmce",
+   "en": "Fixed issue with Italian focuses Standardization and Specialization so that they provide bonuses to aircraft as promised."
+  },
+  {
+   "k": "hh3y3",
+   "en": "Fixed issue in which Australian designer Cockatoo Docks and Engineer was not providing any real bonuses to Heavy Cruisers."
+  },
+  {
+   "k": "16pnuvf",
+   "en": "Super Heavy Battleship armour now reduces Torpedo critical chance instead of increasing it"
+  },
+  {
+   "k": "1vv8z99",
+   "en": "Fix for Flying Tigers without BBA"
+  },
+  {
+   "k": "uj1w09",
+   "en": "Remove duplicated delimiter in focus-tree tooltips"
+  },
+  {
+   "k": "gwjs19",
+   "en": "Fixed wrong positioning of British focus \"Embargo The Soviet Union\" when hiding obsolete branches and Global Defense focus has been taken."
+  },
+  {
+   "k": "1n0c8fm",
+   "en": "Fixed disappearing icons in the division designer when NATO symbols are used"
+  },
+  {
+   "k": "nh6yo7",
+   "en": "Names in trade views are now updated when the country changes ideology"
+  },
+  {
+   "k": "1n677nw",
+   "en": "Soviet Marti Class cruiser will now have the minelayer role."
+  },
+  {
+   "k": "xdqk01",
+   "en": "The Linguist trait should now work"
+  },
+  {
+   "k": "bpfvdh",
+   "en": "Fixed wrong naming of peace conference after load game during the peace conference."
+  },
+  {
+   "k": "c3042w",
+   "en": "Fixed issues with misplaced focus branches in UK and USA focus trees when the Hide Obsolete Branches custom rule was set as \"Show\"."
+  },
+  {
+   "k": "1mqjsvr",
+   "en": "Fixed a few Czech Designers having their icons broken when Death or Dishonor DLC was not active."
+  },
+  {
+   "k": "cywqhx",
+   "en": "Fixed a Dutch Designer having its icon broken when Man the Guns DLC was not active."
+  },
+  {
+   "k": "5xuh1w",
+   "en": "removed erroneous leader trait XP stats from the engineering school's army spirit. It now grants a global initiative factor"
+  },
+  {
+   "k": "1t158fo",
+   "en": "Fixed issues with dynamic textures on DX11 with older drivers / Windows releases"
+  },
+  {
+   "k": "shoaod",
+   "en": "Fixed handling of X1R5G5B5 and A1R5G5B5 textures on DX11 when not supported by graphics drivers or older Windows versions"
+  },
+  {
+   "k": "1y76e9j",
+   "en": "Added Black Sea cores missing from the Polish Fascist branch after selecting the national focus \"Decide Post-War Borders\"."
+  },
+  {
+   "k": "1tq78j9",
+   "en": "Added checks to Hungarian focus \"Renew the Rome Protocols\" to make sure Austria and Italy exist and are independent."
+  },
+  {
+   "k": "1xgzyr0",
+   "en": "Made it harder to do the Anschluss swap exploit."
+  },
+  {
+   "k": "1bl4nov",
+   "en": "Anschluss fix v2. You now need >40k inf eq in the standing army to do it"
+  },
+  {
+   "k": "1botouj",
+   "en": "Fixed localization for poland.26 event."
+  },
+  {
+   "k": "razp8l",
+   "en": "Series of bug fixes focused on Interface and Localization."
+  },
+  {
+   "k": "17tx8to",
+   "en": "Patch 1.12.13, aka \"Operation Alpha\", was released as an open beta patch as part of the ⟦0⟧ patches on 2023-05-05⟦1⟧. It was officially out of open beta on 2023-05-16⟦2⟧ with the checksum ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "hveppj",
+   "en": "b721"
+  },
+  {
+   "k": "eukv6o",
+   "en": "Localization"
+  },
+  {
+   "k": "151jfun",
+   "en": "Added Simplified Chinese language support."
+  },
+  {
+   "k": "1aq40fs",
+   "en": "Lord Halifax now has two leader traits and reduces the requirements with the British Raj when forming the Imperial Federation/Commonwealth of Nations."
+  },
+  {
+   "k": "6ldgp7",
+   "en": "If Lord Halifax is used to annex the British Raj as part of the Imperial Federation, India will suffer increased resistance."
+  },
+  {
+   "k": "wf1rdf",
+   "en": "Fixed non-MTG ships having incorrect base speeds."
+  },
+  {
+   "k": "1hk6sra",
+   "en": "Increased biggest speed and agility factor diff by 1.0, increasing the maximum effect of these stats on air combat."
+  },
+  {
+   "k": "i4qfgq",
+   "en": "Available medals are now present on army screens for Divisional Commanders."
+  },
+  {
+   "k": "nmqjm6",
+   "en": "Added a new Hearts of Iron IV YouTube channel link to menus."
+  },
+  {
+   "k": "11q1o59",
+   "en": "Added effect remove_civil_war_target."
+  },
+  {
+   "k": "5erbdr",
+   "en": "Fixed an issue in the Pressure Government event chain for Italy and the Soviets in which the feedback event communicating the target's choice was sent to the target instead of the sender."
+  },
+  {
+   "k": "1liv6th",
+   "en": "Playing as a released country is now persistent over saves in ironman."
+  },
+  {
+   "k": "1ky8lox",
+   "en": "Observers now retain the observed country on hotjoin and resynch."
+  },
+  {
+   "k": "qulwe6",
+   "en": "Fixed License Production Access not being restored when reloading a save file."
+  },
+  {
+   "k": "16isxf8",
+   "en": "Democratic Italy can now send volunteers to Spain after completing the Aid for Spanish Republic focus."
+  },
+  {
+   "k": "155h2vh",
+   "en": "Fix for Belgium Congo sometimes flipping to Germany after Belgium capitulates."
+  },
+  {
+   "k": "1uncz4l",
+   "en": "Patch 1.12.14 was released hotfix on 2023-05-23⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "29l9nz",
+   "en": "Available medal icon no longer shows up if BBA is not owned"
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "bjrn7j",
+   "en": "Forum: Avalanche 1.12.2 - By Blood Alone - Checksum e45c, 2022-09-30."
+  },
+  {
+   "k": "1vv6xnf",
+   "en": "Forum: Avalanche 1.12.3 - By Blood Alone - Checksum 6b16, 2022-10-06."
+  },
+  {
+   "k": "puqjh9",
+   "en": "Forum: Open Beta Patch 1.12.4 (Steam Only) - Checksum cb16, 2022-10-18."
+  },
+  {
+   "k": "1r5u7p5",
+   "en": "Forum: Avalanche 1.12.5 OPEN BETA - By Blood Alone - Checksum 18aa - UPDATED, 2022-11-03."
+  },
+  {
+   "k": "h69fc9",
+   "en": "Forum: 'War Effort' patches and 1.12.6 Open Beta, 2022-11-11."
+  },
+  {
+   "k": "xv00a8",
+   "en": "Forum: War Effort - Operation Tungsten [1.12.6 - Checksum a6ba] , 2022-11-24."
+  },
+  {
+   "k": "vryuap",
+   "en": "Forum: War Effort - Operation Source [1.12.7 OPEN BETA] , 2022-12-02."
+  },
+  {
+   "k": "4asem3",
+   "en": "Forum: War Effort - Operation Source [1.12.7 - Checksum b738] , 2022-12-08."
+  },
+  {
+   "k": "15ha510",
+   "en": "Forum: War Effort - Operation Capital [1.12.8 OPEN BETA] , 2022-12-21."
+  },
+  {
+   "k": "1ojpc4i",
+   "en": "Forum: War Effort - Operation Capital [1.12.8 - Checksum 9d51] , 2023-01-16."
+  },
+  {
+   "k": "1480m4d",
+   "en": "Forum: 1.12.9 Hotfix Patch - (STEAM ONLY), 2023-01-24."
+  },
+  {
+   "k": "1few2mo",
+   "en": "Forum: War Effort - Open Beta & Developer Diary!, 2023-02-02."
+  },
+  {
+   "k": "1w46sf7",
+   "en": "Forum: Operation Sabre Patch 1.12.10 Checksum 0f26, 2023-02-15."
+  },
+  {
+   "k": "5kodbh",
+   "en": "Forum: War Effort - Operation Pike Open Beta [1.12.11 - Checksum 66ce], 2023-03-02."
+  },
+  {
+   "k": "shz9br",
+   "en": "Forum: War Effort - Operation Pike Patch 1.12.11 Checksum 92f5, 2023-03-09."
+  },
+  {
+   "k": "1cv7wfd",
+   "en": "Forum: War Effort - Operation Cockpit [1.12.12 OPEN BETA] , 2023-04-06."
+  },
+  {
+   "k": "1b958hf",
+   "en": "Forum: War Effort - Operation Cockpit [1.12.12 - Checksum a266] , 2023-04-12."
+  },
+  {
+   "k": "uom8a1",
+   "en": "Forum: War Effort - Operation Alpha Open Beta [1.12.13] , 2023-05-05."
+  },
+  {
+   "k": "jqkf3c",
+   "en": "Forum: Operation Alpha - War Effort Initiative [1.12.13 Checksum b721] , 2023-05-16."
+  },
+  {
+   "k": "1tqsc4",
+   "en": "Steam Forum: Patch 1.12.14 Medals Hotfix, 2023-05-23."
+  }
+ ]
+}

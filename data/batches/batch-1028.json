@@ -1,0 +1,614 @@
+{
+ "batch": 1028,
+ "pages": [
+  "Naval battle"
+ ],
+ "chars": 14933,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1g1xj5z",
+   "en": "The number of external planes is limited to: <sum of all enemy ships' current HP> * 0.05⟦0⟧ * (1 + 0.2⟦1⟧ * <combat days>). But at least 20⟦2⟧ planes can always join. The number of planes eligible for joining naval combat is the total planes assigned on ⟦3⟧ mission multiplied by ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "sjss8n",
+   "en": "Naval Strike"
+  },
+  {
+   "k": "1l3xm6i",
+   "en": "Mission Efficiency"
+  },
+  {
+   "k": "1nnp1oo",
+   "en": "Phase 0: Air combat and disruption"
+  },
+  {
+   "k": "atht30",
+   "en": "Main article: Air combat"
+  },
+  {
+   "k": "nq446b",
+   "en": "If there are enemy fighters present in the air zone where the naval strike or port strike is taking place, they can engage in ⟦0⟧ and potentially disrupt the bombers before they even reach their ship targets. See the dedicated article on ⟦1⟧ for more information.",
+   "frags": 2
+  },
+  {
+   "k": "1ses80h",
+   "en": "air combat"
+  },
+  {
+   "k": "1m2c5t6",
+   "en": "Phase 1: Naval strike target selection"
+  },
+  {
+   "k": "ri2z87",
+   "en": "The naval strike target of an undisrupted bomber wing is randomly selected from a weighted distribution of all enemy ships. The base weight is each ship's maximum HP, excluding hidden submarines. This gets scaled depending on ship type:"
+  },
+  {
+   "k": "1upjkl0",
+   "en": "Submarine: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "18q7oof",
+   "en": "10x⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "pqihbi",
+   "en": "Screen: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "9sv9vk",
+   "en": "Capital Ship: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1463l7",
+   "en": "50x⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "13gds7o",
+   "en": "Carrier: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "drc9gi",
+   "en": "200x⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "852n3z",
+   "en": "The weight of damaged ships gets increased by up to ⟦0⟧ as they approach 0% HP. If a ship's anti-air (AA) attack is below 5,⟦1⟧ the weight is increased by ⟦2⟧. For example, convoys have only 0.2 AA attack, increasing their score by 5 * (5 - 0.2) = ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "1lzgxcu",
+   "en": "(5 * (5 - <AA>))x"
+  },
+  {
+   "k": "w5cykx",
+   "en": "24x"
+  },
+  {
+   "k": "1a8atn4",
+   "en": "It can potentially be a viable strategy to deliberately have low amounts of AA on certain ships, potentially even no AA. When operating alongside more valuable ships that have a high weight of being selected for naval attack, e.g., fleet carriers, less valuable ships with low to no AA can potentially draw attention away from these valuable ships, thus increasing those ships' survivability at the cost of their own."
+  },
+  {
+   "k": "u7dg2v",
+   "en": "Phase 2: Ship anti-air defense"
+  },
+  {
+   "k": "12qpdkr",
+   "en": "When a ship gets targeted by an air wing, that ship and that ship alone will try to defend itself by shooting back preemptively. Against non-kamikaze air wings, the ship's chance to successfully preemptively retaliate is:⟦0⟧ ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1wtxe0y",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle 20 \\% \\cdot \\text{max}\\left(0.9 - 0.02 \\cdot \\text{average air wing plane agility}, 0.01\\right)}"
+  },
+  {
+   "k": "hbzow6",
+   "en": "If the ship succeeds in its preemptive defense, it destroys <AA> * 1%⟦0⟧ of them, rounded stochastically to a full number of planes. The planes' speed and air defense stats do not matter in this case.",
+   "frags": 1
+  },
+  {
+   "k": "lski50",
+   "en": "If the planes are performing kamikaze attacks, the ship will always successfully preemptively retaliate,⟦0⟧ its AA attack gets increased by ⟦1⟧,⟦2⟧ and the losses are increased by ⟦3⟧.⟦4⟧",
+   "frags": 5
+  },
+  {
+   "k": "wz1cjz",
+   "en": "[b]"
+  },
+  {
+   "k": "b8xtd",
+   "en": "It is important to note that only the ship that is being targeted can fire back with its AA against enemy aircraft. This makes AA far less valuable on ships that are not expected to be targeted by enemy aircraft, e.g., screening ships in a battle fleet composed of larger capital ships and/or carriers."
+  },
+  {
+   "k": "yqq1df",
+   "en": "Phase 3: Naval strike attack and damage"
+  },
+  {
+   "k": "1jq8oer",
+   "en": "If any planes remain after the ship shoots at them, they perform the naval strike. If they are based on a carrier that is taking part in a naval battle with the target, their damage is increased by ⟦0⟧.⟦1⟧ The ratio of planes that actually hit the ship is ⟦2⟧ ⟦3⟧ (capped between 0% and 100%). The ship's speed and armor do not matter in this case.",
+   "frags": 4
+  },
+  {
+   "k": "1ghaofi",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\frac{ \\text{naval targeting} } {10} \\cdot 30 \\% }"
+  },
+  {
+   "k": "1uzb5jr",
+   "en": "The both the target ship's AA attack (unless it is a convoy) and the combined AA of all ships in the battle reduces the damage dealt. The total amount of damage reduction is:⟦0⟧ ⟦1⟧ For convoys, ⟦2⟧ , but convoy AA is included in ⟦3⟧ . Note that ⟦4⟧ is also included in ⟦5⟧ .",
+   "frags": 6
+  },
+  {
+   "k": "vozsdh",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\text{max}\\left(-18 \\% \\cdot \\left(\\text{targeted ship's AA} + 0.25 \\cdot \\text{sum of AA of all ships fighting on same side}\\right)^{ 0.225 }, -75 \\% \\right)}"
+  },
+  {
+   "k": "1rbldw3",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\text{targeted ship's AA} = 0}"
+  },
+  {
+   "k": "ap0byl",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\text{sum of AA of all ships fighting on same side}}"
+  },
+  {
+   "k": "1e9ksd6",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\text{targeted ship's AA}}"
+  },
+  {
+   "k": "ut9k5r",
+   "en": "Critical hits are calculated the same way as for a ship's torpedo. See ⟦0⟧ for more information.",
+   "frags": 1
+  },
+  {
+   "k": "14o8b6",
+   "en": "If the naval battle was a port strike, the naval base gets damaged proportionately to the damage dealt against the ship."
+  },
+  {
+   "k": "lmf2z3",
+   "en": "It is important to note that the AA of the targeted ship counts ⟦0⟧ more for AA damage reduction purposes than ships in the rest of the fleet, and that the damage reduction effect increases very slowly with additional AA thanks to the exponent in the formula. This makes AA far less valuable on ships that are not expected to be targeted by enemy aircraft, e.g., screening ships in a battle fleet composed of larger capital ships and/or carriers.",
+   "frags": 1
+  },
+  {
+   "k": "7xhy0x",
+   "en": "Carrier-specific mechanics"
+  },
+  {
+   "k": "oxgfnl",
+   "en": "Initial stage"
+  },
+  {
+   "k": "8o8o2j",
+   "en": "When a naval battle starts, screens can only attack after ⟦0⟧ hours, and capital ships can only attack after ⟦1⟧ hours, but carriers can attack from hour ⟦2⟧.⟦3⟧ This coincides with the 6⟦4⟧ hours referred to as the 'Initial Stage' by modifiers like the ⟦5⟧ ⟦6⟧ spirit. It also lines up with carrier aircraft being able to sortie every 6⟦7⟧ hours (OBSOLETE, it is currently 8 hours, starting close to high noon), though they are unable to sortie at night without something like the ⟦8⟧ ⟦9⟧ spirit.",
+   "frags": 10
+  },
+  {
+   "k": "1y39ut7",
+   "en": "Surprise Attacks"
+  },
+  {
+   "k": "11z09dk",
+   "en": "For a fleet with a far more significant carrier force compared to the enemy fleet, these opening, carrier-only combat stages can produce a devastating alpha strike that can start a snowball effect of the enemy fleet dealing less damage as a result of reduced organization, which then causes their organization to fall faster than the allied fleets', reducing their damage even further. However, if the battle starts at night or in a ⟦0⟧, this initial stage can be wasted because carrier traffic will be severely reduced or non-existent during the stage.",
+   "frags": 1
+  },
+  {
+   "k": "s784s6",
+   "en": "Storm"
+  },
+  {
+   "k": "b6cbgg",
+   "en": "Carrier light attack restrictions"
+  },
+  {
+   "k": "1qsy9wf",
+   "en": "It is important to note that while carriers can have light attack from equipping ⟦0⟧, carriers will not use their light attack to fire at ships in the enemy carrier group/line. This includes enemy carriers, but also enemy convoys. Among other things, this makes 'battlecarrier' designs (heavily armored carrier designs bristling with light attack, sacrificing deck space) even less effective than what one might expect, especially at ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "t88uqk",
+   "en": "secondary batteries"
+  },
+  {
+   "k": "nzbeqr",
+   "en": "convoy raiding"
+  },
+  {
+   "k": "1uf9qf4",
+   "en": "Carrier veterancies"
+  },
+  {
+   "k": "n36lzd",
+   "en": "Like other ships, carriers can gain (or lose) ⟦0⟧, leading to them gaining or losing veterancy levels that can give various bonuses and penalties. Unlike other ships, however, carriers do not receive any benefits to their damage from veterancy levels, receiving sortie efficiency penalties and bonuses instead.",
+   "frags": 1
+  },
+  {
+   "k": "14rskrt",
+   "en": "experience"
+  },
+  {
+   "k": "1d2pve7",
+   "en": "Instead, it is the carrier air wings stationed on carriers whose ⟦0⟧ levels and veterancy can affect the damage by carriers. Especially as newly deployed air wings start at ⟦1⟧ veterancy, and because carrier-based air wings can lose veterancy in naval battles very quickly because of how much bigger losses are relative to their wing size, it can be very important to train air wings stationed on carriers before sending them into engagements. ⟦2⟧ can also be assigned to carrier air wings and affect their combat performance.",
+   "frags": 3
+  },
+  {
+   "k": "1azd270",
+   "en": "Green"
+  },
+  {
+   "k": "1ig6grl",
+   "en": "Aces"
+  },
+  {
+   "k": "7c2q4o",
+   "en": "Sortie efficiency"
+  },
+  {
+   "k": "trslh1",
+   "en": "⟦0⟧ dictates what percentage of the aircraft on a given carrier can actually fly in both ⟦1⟧ and during naval battles. Carriers have a base sortie efficiency of ⟦2⟧,⟦3⟧ with doctrines like ⟦4⟧ and ⟦5⟧ being the main source of increases to it. ⟦6⟧ and ⟦7⟧ doctrines are able to provide up to ⟦8⟧ additional sortie efficiency, while ⟦9⟧ doctrines can provide a full ⟦10⟧. Political advisors, national spirits, ⟦11⟧, admiral ⟦12⟧, and admiral traits like ⟦13⟧ and ⟦14⟧ can all provide additional sortie efficiency, as can having full ⟦15⟧. Sortie efficiency of over 100% does not make existing planes more effective, so it does nothing unless the carrier is overcrowded.",
+   "frags": 16
+  },
+  {
+   "k": "k91i7i",
+   "en": "air missions"
+  },
+  {
+   "k": "bzoa2k",
+   "en": "Carrier Primacy"
+  },
+  {
+   "k": "nojnet",
+   "en": "Floating Airfield"
+  },
+  {
+   "k": "fxxql5",
+   "en": "Fleet In Being"
+  },
+  {
+   "k": "1utd7kn",
+   "en": "Trade Interdiction"
+  },
+  {
+   "k": "11c8w82",
+   "en": "Base Strike"
+  },
+  {
+   "k": "1lw9ibg",
+   "en": "ship veterancy"
+  },
+  {
+   "k": "ts88rd",
+   "en": "skill levels"
+  },
+  {
+   "k": "1axlctt",
+   "en": "Air Controller"
+  },
+  {
+   "k": "1cl7off",
+   "en": "Flight Deck Manager"
+  },
+  {
+   "k": "1mpkz0m",
+   "en": "Carriers have a maximum capacity for aircraft and, similar to land-based ⟦0⟧, this capacity can be exceeded at the cost of a ⟦1⟧ penalty to how many aircraft can actually fly from the carrier for every ⟦2⟧ that its deck space is exceeded. Overcrowding penalties can be reduced directly by the ⟦3⟧ naval doctrine, but they can also be mitigated and even outright negated by having a sortie efficiency of over 100%.",
+   "frags": 4
+  },
+  {
+   "k": "1p7ntz5",
+   "en": "Air bases"
+  },
+  {
+   "k": "hccwer",
+   "en": "Massed Strikes"
+  },
+  {
+   "k": "1ya7gc3",
+   "en": "For example, if a carrier has deck space for 80 aircraft, but is hosting 10 air wings of 10 aircraft each for a total of 100 aircraft, it would normally be exceeding its capacity by ⟦0⟧, thus reducing the amount of aircraft that can sortie from it by ⟦1⟧. With ⟦2⟧ total sortie efficiency, only ⟦3⟧ of its 100 aircraft = ⟦4⟧ aircraft could fly. However, if the carrier has ⟦5⟧ total sortie efficiency through various sources, it is able to sortie ⟦6⟧ more aircraft than normal. The two effects counteract each other, allowing ⟦7⟧ of the carrier's 100 aircraft = ⟦8⟧ aircraft to fly.",
+   "frags": 9
+  },
+  {
+   "k": "1a6zkpo",
+   "en": "Carrier stacking penalty"
+  },
+  {
+   "k": "1i97q8i",
+   "en": "Each carrier exceeding ⟦0⟧⟦1⟧ per side causes ⟦2⟧ of that side's carrier wings to be unable to target enemy ships in naval battles. This scales up to ⟦3⟧ of that side's carrier wings being unable to target ships. The number of wings that are able to target enemy ships is always rounded down, and unlike other penalties affecting carrier wings, each carrier plane type counts as a single wing for this penalty. The penalty is different from sortie efficiency, which affects the mission efficiency of carrier-based planes based on how many planes there are stationed on a single carrier. Aircraft that are unable to target enemy ships will still fly, allowing them to get shot down by enemy fighters.",
+   "frags": 4
+  },
+  {
+   "k": "1uf3wax",
+   "en": "(unrecognized define \"NDefines.NNavy.CARRIER_STACK_PENALTY\" for ⟦0⟧)",
+   "frags": 1
+  },
+  {
+   "k": "6conyr",
+   "en": "Module:Defines"
+  },
+  {
+   "k": "g2dupp",
+   "en": "(unrecognized define \"NDefines.NNavy.CARRIER_STACK_PENALTY_EFFECT\" for ⟦0⟧)",
+   "frags": 1
+  },
+  {
+   "k": "1s394wy",
+   "en": "As carrier-based fighters never target ships, this penalty never affects carrier-based fighters."
+  },
+  {
+   "k": "1rsfnhh",
+   "en": "The penalty is applied to carriers from the bottom of the ship list upwards, meaning air wings from carriers near or at the top of the list are more likely to be able to target enemy ships than those at or near the bottom. Fighter air wings on any carrier will always operate as though the penalty does not exist, so when expecting to have more than ⟦0⟧ carriers in a single naval battle, it is better to put fighter air wings on the carriers listed lower in the task force and naval bomber air wings on the carriers listed at the top of the task force's ship list.",
+   "frags": 1
+  },
+  {
+   "k": "cj8250",
+   "en": "In general, this penalty also generally discourages fielding lots of cheaper escort carriers (carriers with just one or two hangar spaces, usually converted from outdated cruisers), as -998 or more escort carriers will suffer the same penalties as the same number of full carriers, even though the escort carriers have far less deck space than the full carriers."
+  },
+  {
+   "k": "1f77ush",
+   "en": "Example:"
+  },
+  {
+   "k": "1xfk8eu",
+   "en": "You have 6 carriers in a battle with the following air wings ordered in the following way:"
+  },
+  {
+   "k": "117mb8f",
+   "en": "Carrier 1: 8x 10 Carrier Bombers"
+  },
+  {
+   "k": "1ataak",
+   "en": "Carrier 2: 8x 10 Carrier Bombers"
+  },
+  {
+   "k": "y0ie6x",
+   "en": "Carrier 3: 8x 10 Carrier Bombers"
+  },
+  {
+   "k": "1aqyslg",
+   "en": "Carrier 4: 6x 10 Carrier Bombers"
+  },
+  {
+   "k": "6ex8ns",
+   "en": "Carrier 5: 5x 10 Carrier Bombers, 1x 10 Carrier Fighters"
+  },
+  {
+   "k": "1kou2ws",
+   "en": "Carrier 6: 1x 10 Carrier Bombers, 1x 10 Carrier Close Air Support, 1x 10 Carrier Fighters"
+  },
+  {
+   "k": "138zkz1",
+   "en": "With 6 carriers, the carrier overstacking penalty prevents -100399500% of all carrier wings from targeting enemy ships, rounded down. For this penalty, the first four carriers count as having only 1 air wing each. The 5th carrier counts as having 2 air wings and the 6th carrier counts as having 3 air wings. This gives a total of 9 carrier air wings. -100399500% of 9 is 9035964 air wings, and which rounds down to 9035964 air wings that can target enemy ships. These wings are counted from those based on the first carrier in the list going downward. This means that the naval bombers on the first 5 carriers will operate as normal, while the naval bombers and CAS on carrier number 6 will not launch attacks at enemy ships, but they will still take off and be vulnerable to enemy fighters. The carrier fighters on carriers number 5 and 6 are unaffected by the penalty, and so will fly and can target enemy aircraft regardless."
+  },
+  {
+   "k": "11vaejn",
+   "en": "Carrier capable aircraft"
+  },
+  {
+   "k": "kh4stg",
+   "en": "In order to be able to base aircraft on an aircraft carrier, carrier capable models must be produced. When playing without ⟦0⟧ and its ⟦1⟧, the land-based version of an aircraft must first be researched, then the carrier-capable version is researched separately. This is done by clicking the aircraft carrier button on the aircraft type in the air research tab. This can only be done for Fighters, Close Air Support, and Naval Bombers. The carrier-capable version has a different model name than the land-based version, as well as different artwork and different stats. If you don't intend to use aircraft carriers, you do not need to research carrier-capable planes.",
+   "frags": 2
+  },
+  {
+   "k": "xw4s3v",
+   "en": "By Blood Alone"
+  },
+  {
+   "k": "1pr1pxc",
+   "en": "aircraft designer"
+  },
+  {
+   "k": "11pfx70",
+   "en": "With ⟦0⟧'s ⟦1⟧, researching any light airframe also grants access to its carrier-capable version, from which a buildable variant (fighter, naval bomber, or CAS) may be created.",
+   "frags": 2
+  },
+  {
+   "k": "1ipisg5",
+   "en": "When a new carrier is produced, the planes that will be based on it by default can be customized as part of the carrier production line in the naval section using dockyards. Once finished, the carrier will be filled by the most up-to-date models that are available in the country's stockpile. Replacements and reinforcements to these wings will need to be produced using ⟦0⟧ and can otherwise be manipulated by first selecting the carrier(s) and then clicking the little airplane button next to their location on the map, similar to a land-based ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "182gqps",
+   "en": "Military factories"
+  },
+  {
+   "k": "1qizwbs",
+   "en": "Air base"
+  },
+  {
+   "k": "b0gjq6",
+   "en": "When an aircraft carrier is part of a fleet that is on patrol in one or more regions, then the wings based on it are shown as on a carrier mission. They will operate as a Carrier Air Group and automatically take part in any naval combat that the fleet engages in. There is no need to give them any specific orders if they are intended to be used in this way."
+  }
+ ]
+}

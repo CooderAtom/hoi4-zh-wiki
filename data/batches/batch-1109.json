@@ -1,0 +1,854 @@
+{
+ "batch": 1109,
+ "pages": [
+  "Patch 1.19.X"
+ ],
+ "chars": 14958,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "g84mk5",
+   "en": "⟦0⟧ are all patches beginning with 1.19.",
+   "frags": 1
+  },
+  {
+   "k": "jmfc6g",
+   "en": "Patch 1.19.X"
+  },
+  {
+   "k": "1f5dkdr",
+   "en": "Main article: Patch 1.19"
+  },
+  {
+   "k": "hdegwd",
+   "en": "Patch 1.19.0.1 was released on 2026-06-12⟦0⟧ with checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "ay4r9o",
+   "en": "44cf"
+  },
+  {
+   "k": "1h83hpk",
+   "en": "Stability & Performance"
+  },
+  {
+   "k": "qptt3m",
+   "en": "Fixed a CTD when Army HQ units were destroyed in combat under specific conditions (risks happening in, for example, a 4-way Spanish civil war)."
+  },
+  {
+   "k": "xfilws",
+   "en": "Bugfixes"
+  },
+  {
+   "k": "1b1vvs8",
+   "en": "Main menu icon for TaoG now correctly shows ownership."
+  },
+  {
+   "k": "hbdrjo",
+   "en": "Patch 1.19.1 was released on 2026-06-17⟦0⟧ with checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1w18mbx",
+   "en": "31fb"
+  },
+  {
+   "k": "kxxksr",
+   "en": "Balance"
+  },
+  {
+   "k": "gmc5bt",
+   "en": "Blockade Runner admiral trait requirement reduced from 37 to 32 knots to allow for support and repair ships."
+  },
+  {
+   "k": "17q38eu",
+   "en": "The Grand Assault milestone 'Forward Command Posts' supply reduction was reduced from -0.05 to -0.01"
+  },
+  {
+   "k": "cvlsgv",
+   "en": "INS/HOL: Significantly reduced the factories required for the focus 'The Industrialized Colony'."
+  },
+  {
+   "k": "10t11u1",
+   "en": "INS/HOL: Significantly reduced the factories required for the focus 'The Soetardjo Act'."
+  },
+  {
+   "k": "1hk9bf6",
+   "en": "INS/HOL: The focus 'The Republic of Indonesia' no longer requires a minimum number of civs, mils, and dockyards, and instead only checks your factory count, regardless of which type. Also reduced the factories required to take the focus."
+  },
+  {
+   "k": "226v9s",
+   "en": "INS/HOL: The focus 'Economic Integration' now requires a minimum of 50 factories of any type, instead of 45 civilian factories specifically"
+  },
+  {
+   "k": "w1um7e",
+   "en": "AST: Changed focus length from 70 to 35 for several focuses, and swapped a few icons."
+  },
+  {
+   "k": "dvranz",
+   "en": "AST: Tweaked the values of Decisions and National Spirits for the Fascist branch."
+  },
+  {
+   "k": "xc2ib8",
+   "en": "AST: Locking default advisor to die in Air Crash event."
+  },
+  {
+   "k": "16i7mbg",
+   "en": "AST: Fixed a bug with the small portrait of John Lavarack showing the wrong portrait."
+  },
+  {
+   "k": "12rdbcl",
+   "en": "AST: The 'Governor General' Advisor Trait has had a balance tweak lowering the Democracy drift from 0.10 to 0.05 and adding -5% consumer goods factor."
+  },
+  {
+   "k": "1j2u35t",
+   "en": "AST: Rebalanced Australia's various population growth modifiers"
+  },
+  {
+   "k": "bsvpbs",
+   "en": "AST: Democratic branch autonomy gain has been increased from 0.1 to 0.3."
+  },
+  {
+   "k": "14x9cgo",
+   "en": "AST: Fascist autonomy gain has been increased from 0.1 to 0.3."
+  },
+  {
+   "k": "kicx17",
+   "en": "AST: Edited advisor Richard Dixon available check, added leader trait to focus Eastern Focus, and tweaked prereqs of focus The Pacific Pact"
+  },
+  {
+   "k": "6m7hfq",
+   "en": "AST: Toned down the tech rushing capability through 'Lee-Enfield No.1 Mk III*' and 'Owen Gun' focuses."
+  },
+  {
+   "k": "fhso2",
+   "en": "AST: Added MILS to fascist focuses 'Walls Like Uluru' and 'Crush the Gates' + spirit National Defense modifier tweaks"
+  },
+  {
+   "k": "1a5im28",
+   "en": "AST: Decision Call On Fascist now has a dynamic cost."
+  },
+  {
+   "k": "1tkviqk",
+   "en": "AST: Upgraded the focus 'Coastwatchers' with Air Wing Experience Loss When Killed reduction, and Naval Auxiliary Patrol with Casualties on Sink reduction to represent the many airmen and sailors saved by these two organisations."
+  },
+  {
+   "k": "wbmwnp",
+   "en": "SIA: Slightly increased the probability that asking for the return of territories goes in Siams favor"
+  },
+  {
+   "k": "4lzs2y",
+   "en": "SIA: German Tank Studies now grants +5% piercing bonus instead of a -10% build cost reduction."
+  },
+  {
+   "k": "y3k7dr",
+   "en": "SIA: American Tank Studies now only grants its attack bonus instead of -5% build cost reduction as well."
+  },
+  {
+   "k": "ehf5ke",
+   "en": "ABDACOM focuses are now mostly 35 days (first and last are 70 day)."
+  },
+  {
+   "k": "14vfpck",
+   "en": "SIA: 'Asian Democratic Compact' now only counts non-puppets that are in your faction."
+  },
+  {
+   "k": "mcl3c6",
+   "en": "SIA: Unconventional Tank Construction now grants -15% build cost instead of -20% and -10% reliability instead of -15%."
+  },
+  {
+   "k": "1aes9w5",
+   "en": "Gameplay"
+  },
+  {
+   "k": "kbt4e3",
+   "en": "INS: Militia unit upgrades now increase the success chance of Indonesian raids."
+  },
+  {
+   "k": "1ailhqv",
+   "en": "INS: Indonesia now gets events after finishing a militia base decision."
+  },
+  {
+   "k": "ydmp17",
+   "en": "INS: Clarified an Indonesian tooltip in the declaration of independence focus."
+  },
+  {
+   "k": "7gnj2s",
+   "en": "AST: Rebalanced AI weight to focus a little more on air."
+  },
+  {
+   "k": "1189j9a",
+   "en": "AST: Tweaking Democratic and Communist volunteer focus effects."
+  },
+  {
+   "k": "1vcoueb",
+   "en": "AST: Australian Communists no longer need to deal with the Cabinet Trust following the Canberra Air Disaster. Their government has already changed."
+  },
+  {
+   "k": "1raw2wx",
+   "en": "AST: Refunding UAP/ALP advisors when they're removed; Counting completed Castle Crumbling mission as election win; Adding party votes modifier to Castle Crumbling mission fail"
+  },
+  {
+   "k": "grsyr8",
+   "en": "SIA: 'Army of Siam' is now a dynamic modifier instead of a National Spirit to reduce spirit bloat."
+  },
+  {
+   "k": "vgw5yc",
+   "en": "SIA: Added decisions to Develop Northern Malaya and Eastern Burma."
+  },
+  {
+   "k": "1doe2sb",
+   "en": "SIA: Finishing the 'Triangular Defense network' now gives a flat +10% Compliance boost to any occupied territory."
+  },
+  {
+   "k": "sydb1j",
+   "en": "SIA: Kedah is now renamed to Syburi if cored by Siam."
+  },
+  {
+   "k": "ftt244",
+   "en": "SIA: Recover Indochina and Demand the return of lost territory are no longer mutually exclusive"
+  },
+  {
+   "k": "117xstj",
+   "en": "SIA: Thailand is now evil red instead of blue when Siam turns to Thailand."
+  },
+  {
+   "k": "lyr3qj",
+   "en": "PHI: Added Sergio Osmena as a country leader option after Manuel Quezon's death."
+  },
+  {
+   "k": "mheq0r",
+   "en": "Shift + Clicking a Commander while assigning to an Army will now also automatically start deploying them in the field with an HQ."
+  },
+  {
+   "k": "5mgl0g",
+   "en": "AST: Added mission to Australia First Movement decisions to visualize and keep track of the insufficient funds timer."
+  },
+  {
+   "k": "16rngbw",
+   "en": "AST: Tooltip for locked Air Crash advisor to show he's available only if Canberra Air Disaster hasn't happened."
+  },
+  {
+   "k": "pvxy9t",
+   "en": "Pending Commander now shows up as a smaller portrait when re-assigning them to another army."
+  },
+  {
+   "k": "vg8e90",
+   "en": "Allow queuing the HQ deployment of en-route Commanders."
+  },
+  {
+   "k": "6fgjp5",
+   "en": "Armies with deployed HQ can now change Commander, who will wait for the HQ to be withdrawn."
+  },
+  {
+   "k": "1q7xtm8",
+   "en": "Indonesian AI will be heavily encouraged to switch to a different leader after completing the focus 'A Democratic Indonesia', if Indonesia's leader is still a governor general."
+  },
+  {
+   "k": "smpcgj",
+   "en": "Fixed a bug where the AI could be over-eager with their lendlease offers, they will now keep in mind the amount of available convoys you have in their offer."
+  },
+  {
+   "k": "9m30fv",
+   "en": "Modding"
+  },
+  {
+   "k": "qgyxqq",
+   "en": "Add impassable_ignored_links for impassable states, a list of state IDs that will be ignored when computing the owner and controller of an impassable state"
+  },
+  {
+   "k": "1l2pija",
+   "en": "Added a few common math functions pow, sqrt, cos, sin, tan, exp and log"
+  },
+  {
+   "k": "mp1saw",
+   "en": "Bugfix"
+  },
+  {
+   "k": "1ltju9l",
+   "en": "INS: Fixed several incorrect equipment names for Indonesian mechanized and armored cars."
+  },
+  {
+   "k": "b6ldnr",
+   "en": "INS: The mission 'Moestopo demands promotion for his efforts' no longer gives +2 levels without the relevant skill increases."
+  },
+  {
+   "k": "v2d853",
+   "en": "INS: Fixed a broken modifier added by the Indonesian 'Arm the Students' focus."
+  },
+  {
+   "k": "1x2cll9",
+   "en": "INS: Fixed a broken command power modifier given by the Indonesian 'Laskar Rakyat' focus."
+  },
+  {
+   "k": "1vsk32p",
+   "en": "INS: Indonesia can no longer use democratic elections (which don't work) after forming the Netherlands-Indonesia Union."
+  },
+  {
+   "k": "l5nt30",
+   "en": "INS: The focus 'A Democratic Indonesia' will no longer reset the country leader to Cornelis even if Tjarda was chosen to replace him"
+  },
+  {
+   "k": "1ijibwe",
+   "en": "INS: The Netherlands-Indonesia Union will now transfer all characters, including advisors."
+  },
+  {
+   "k": "1f0t26v",
+   "en": "INS: Indonesia can no longer access the Volksraad when independent."
+  },
+  {
+   "k": "1pongyv",
+   "en": "INS: No longer display an inaccurate icon for the M23 Vickers"
+  },
+  {
+   "k": "1cfk3yd",
+   "en": "INS: Fixed unlocalized string in Indonesian democratic elections tooltip."
+  },
+  {
+   "k": "ks1tx7",
+   "en": "INS/HOL: Fixed a missing icon in Dutch spirit 'Agricultural Taxes'."
+  },
+  {
+   "k": "1iu259b",
+   "en": "AST: Setting and clearing flag in Vichy territory requests for decisions Vichy Out of Africa."
+  },
+  {
+   "k": "6agwfz",
+   "en": "AST: Removing effect for focus Under the Rule of Canberra that gave puppet to puppet; instead it annexes the states that are owned by an AI player"
+  },
+  {
+   "k": "10hwn9r",
+   "en": "AST: Applying A Sound Voice trait which failed earlier in the decision A Sound Voice"
+  },
+  {
+   "k": "dm4szd",
+   "en": "AST: Adding a is_coastal check to several focuses that gave coastal forts"
+  },
+  {
+   "k": "w0xvq7",
+   "en": "AST: NCNS disabled fallbacks to focuses giving Faction effects"
+  },
+  {
+   "k": "7tlnyk",
+   "en": "AST: Australia now must own Nauru for The Phosphate Commission focus."
+  },
+  {
+   "k": "1kmh6cm",
+   "en": "AST: Australia now has a level 2 rail connection all the way from Canberra to Alice Springs if they complete both 'Standard Gauge Line to Darwin' and 'Alice Springs' focuses."
+  },
+  {
+   "k": "1eu44b0",
+   "en": "AST: Changed Naval Engineer (Percival McNeil) icon to be more relevant."
+  },
+  {
+   "k": "rrw6ml",
+   "en": "AST: Added TAOG/Non-TAOG DLC checks for Custom Game Rules / AI Behavior to prevent displaying a double set"
+  },
+  {
+   "k": "7c8ilb",
+   "en": "AST: Fixed a bug where communist Australia had a hard time ending civil wars."
+  },
+  {
+   "k": "s6p6wj",
+   "en": "AST: Hidden Australia's prospect decision which were TAOG only (they never worked, but showed up in the list)."
+  },
+  {
+   "k": "1hvot4u",
+   "en": "SIA: Fixed a bug that would cause Yellow Dossier events to fire after 'Spring the Trap' was completed."
+  },
+  {
+   "k": "1gx3rf5",
+   "en": "SIA: Fixed a bug where you could get a wargoal against yourself if you controlled parts of Indochina while asking France to return it."
+  },
+  {
+   "k": "54sf0g",
+   "en": "SIA: Pridi now gets his Civilian Wing Leader correctly when completing Secure the state."
+  },
+  {
+   "k": "1005qui",
+   "en": "SIA: Replaced an inappropriately themed focus icon."
+  },
+  {
+   "k": "11ahtbz",
+   "en": "Tooltip for maximum command power now correctly shows the name of the advisors."
+  },
+  {
+   "k": "1r0hl7y",
+   "en": "Added missing spriteType entry for event picture and switched out two event pictures."
+  },
+  {
+   "k": "1py2702",
+   "en": "Sir Mohammed Iqbal and Agha Khan III will now be unhired when Pakistan starts existing."
+  },
+  {
+   "k": "1s6up7j",
+   "en": "Load and continue buttons in main menu now correctly displays cosmetic flags"
+  },
+  {
+   "k": "7vea9x",
+   "en": "Fix a bug where deployed Generals were able to be deployed as Field Marshals."
+  },
+  {
+   "k": "1q238xn",
+   "en": "Fixed a bug where Commander Abilities cost was affected by a general's planning skill"
+  },
+  {
+   "k": "5zrs8e",
+   "en": "Fix an issue where Czechs puppets would trigger the Sudetenland Crisis."
+  },
+  {
+   "k": "1u7i8ps",
+   "en": "Fixed a missing localisation string (Mt. Isa Mines)."
+  },
+  {
+   "k": "14tvpe2",
+   "en": "Fixed a bug where Special Forces doctrines were shown to everyone, even if you didn't own the relevant DLC. (AAT or NCNS)."
+  },
+  {
+   "k": "9ejcd7",
+   "en": "Fixed a bug where Commander Ability cost was determined by number of divisions instead of number of battalions"
+  },
+  {
+   "k": "1nenfwo",
+   "en": "Fixed an issue where dynamic countries could be created without valid Army HQ templates, causing a crash."
+  },
+  {
+   "k": "mrhujo",
+   "en": "Patch 1.19.2 was released on 2026-06-30⟦0⟧ with checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1896jhs",
+   "en": "d245"
+  },
+  {
+   "k": "pny5vn",
+   "en": "Expeditionary Leader trait Non-Core Attack and Defence reduced from +15% to +10%."
+  },
+  {
+   "k": "1qb4d1y",
+   "en": "Tuned down the \"Spirit of St. Bernard\" spirit, which in combination with other things could give 105% casualty trickleback and unending armies of resurrected zombie Swiss."
+  },
+  {
+   "k": "3i9iy8",
+   "en": "INS: Feint uprisings now cost more manpower (2500 > 5000), but less infantry equipment (2500 > 1500)."
+  },
+  {
+   "k": "10g28qr",
+   "en": "INS: Indonesia will now core all of their starting states in the revolution"
+  },
+  {
+   "k": "a9nsov",
+   "en": "AST: Decreased Non-Core Attack / Defence values by roughly half on the 'Australian Military Forces' National Spirit ."
+  },
+  {
+   "k": "yyjhyo",
+   "en": "AST: Decreased Citizen Army penalty to non-core Attack and Defence from -25% to -15%."
+  },
+  {
+   "k": "1qanx2",
+   "en": "AST: Rebalanced the Australian Air Branch, decreasing especially their mission efficiency."
+  },
+  {
+   "k": "199c1mn",
+   "en": "SIA: Increased Siam's starting stability from 19% to 29%."
+  },
+  {
+   "k": "ylb53g",
+   "en": "SIA: Reduced Build cost IC for 'Unconventional Tank Designs' from -15% to -10%."
+  },
+  {
+   "k": "1wop5zk",
+   "en": "SIA: Removed Reliability penalty for 'Unconventional Tank Designs' and added a -5% Soft attack penalty instead."
+  },
+  {
+   "k": "qpfywu",
+   "en": "SIA: Reduced compliance gain from full Civilian support from 10% to 5%."
+  },
+  {
+   "k": "1yxl02b",
+   "en": "SIA: Reduced compliance gain from the Focus 'Built to Withstand Every Flame' from 10% to 5%."
+  },
+  {
+   "k": "1l38xeu",
+   "en": "SIA: Reduced Research speed, Production efficiency cap, Defense, Organization, Entrenchment and Output by on average ~1% gained from Asian Democratic Compact per faction member."
+  },
+  {
+   "k": "yulxqw",
+   "en": "Updated tooltip for \"Establish the ABDACOM\" shared focus to make it more clear that only faction members are eligible to receive invites to join the ABDACOM."
+  },
+  {
+   "k": "11mdm2m",
+   "en": "Fixed the description for the focus \"Reestablish the Guominjun\" to not make the rather bold claim that Sinkiang was led by Moustache Man in the 1939 start."
+  },
+  {
+   "k": "1orck3y",
+   "en": "A subject owning a single state no longer creates a 'new war participant' popup when joining a war."
+  },
+  {
+   "k": "9mqksd",
+   "en": "Added a new event sound tickbox to disable/enable scripted event sounds. For example speeches."
+  },
+  {
+   "k": "t6ei8q",
+   "en": "The new releasable nations in Indonesia now also have access to the Nusantara/Greater Indonesia formable decision category"
+  },
+  {
+   "k": "f9h2of",
+   "en": "Added joint focus tree icons to ABDACOM focuses."
+  },
+  {
+   "k": "mmzdmi",
+   "en": "INS: Clarified the effect of the Focus 'Privately Owned Military Industry'."
+  },
+  {
+   "k": "1iniujy",
+   "en": "INS: The Indonesian focus 'The Timor Issue' will now dynamically switch icons & loc if Timor is independent."
+  },
+  {
+   "k": "1dsb0ae",
+   "en": "INS: Indonesia can now core East Timor using Unity in Diversity decisions."
+  },
+  {
+   "k": "1r7a8a7",
+   "en": "INS: Indonesian decision \"Order a Ceasefire\" now requires escalation 2+"
+  },
+  {
+   "k": "t0tw8o",
+   "en": "INS: Allow an Indonesian-formed Netherlands-Indonesia union to take most Dutch economic focuses from the joint tree."
+  },
+  {
+   "k": "18okxhu",
+   "en": "INS: Added a decision for the Netherlands-Indonesia Union to move its capital to Amsterdam or Batavia."
+  },
+  {
+   "k": "276q3",
+   "en": "INS: Hollandia will now be renamed to Jayapura if Indonesia is independent."
+  },
+  {
+   "k": "18ul2gm",
+   "en": "INS: Added a small naval branch for the Dutch East Indies joint tree, which is available during peacetime."
+  },
+  {
+   "k": "1g4k9fo",
+   "en": "AST: Added the Australasia formable."
+  },
+  {
+   "k": "1llupxu",
+   "en": "AST: The Focus 'Reclaim the Lost Territory' now transfers all land, naval, and air forces to Australia."
+  },
+  {
+   "k": "11o325a",
+   "en": "AST: The Focus 'Singapore Strategy' is now available if either ENG or AST controls Singapore, instead of only ENG."
+  },
+  {
+   "k": "1pdwamm",
+   "en": "AST: The 'Alice Springs' Focus has been reduced to 35 days."
+  },
+  {
+   "k": "1vhf0xf",
+   "en": "AST: Australian Infantry Divisions now have the proper division icon."
+  },
+  {
+   "k": "1n4vzof",
+   "en": "AST: A. Ruthven set as leader if monarchist UK starts uprising in Australia."
+  },
+  {
+   "k": "y6d5h2",
+   "en": "SIA: Added a decision to increase the Civil/Military wings approval of you if they are rebellious at the cost of a temporary negative National Spirit."
+  },
+  {
+   "k": "nqryg6",
+   "en": "SIA: A civil war triggered through the Khana Ratsadon only happens once now. If they become rebellious again a negative spirit is applied instead."
+  },
+  {
+   "k": "1nrfcu6",
+   "en": "SIA: the Royal Palace Directive focus now unlocks a decision to increase the Military/Civil wing opinion of you, without pissing the other party off. This has a 365 day timeout."
+  },
+  {
+   "k": "6lgyzh",
+   "en": "SIA: Added a new focus in the Pan-Thaiism branch that allows you to end the factionalism of the Khana Ratsadon if both the Civil and Military wing approve of you for 270 days. This focus shuts off the Khana Ratsadon system and merges the civilian and military wing spirits."
+  },
+  {
+   "k": "9px62o",
+   "en": "SIA: Added the king of the white elephant as a Movie poster decision, giving weekly stability."
+  },
+  {
+   "k": "1596h6z",
+   "en": "SIA: Removed increasing cost for theater decisions."
+  },
+  {
+   "k": "1l75ud3",
+   "en": "AST: Decision 'Scorch the North' gives effect when specific states are naval invaded instead of when at war."
+  },
+  {
+   "k": "pekhc8",
+   "en": "SIA: Added option to pick a new leader when the Seri Thai Takes over, Phin Choonhavan or Khuang Aphaiwong."
+  },
+  {
+   "k": "oi7bys",
+   "en": "SIA: Added options to sway individuals via decisions for the Seri Thai. Each general increases the strength of the civil war for your side by 5%."
+  },
+  {
+   "k": "56b09h",
+   "en": "SIA: The Seri Thai civil war can now be avoided if the combined civil war strength for the player is over 80% (5%/general swayed + total democratic support)."
+  },
+  {
+   "k": "11u5gw8",
+   "en": "SIA: In the Seri Thai branch the Focus 'Prepare to Drop' now gives a special forces National Spirit."
+  },
+  {
+   "k": "1qhyz4t",
+   "en": "SIA: Rising up as the Seri Thai against Japan now seizes some valuables, giving a temporary bonus."
+  },
+  {
+   "k": "2hposj",
+   "en": "SIA: Made the requirement for forming the Greater Thai empire more clear."
+  },
+  {
+   "k": "18d91db",
+   "en": "SIA: Starting a limited war now requires the territory to be adjacent to yours."
+  },
+  {
+   "k": "110s0gv",
+   "en": "SIA: When agricultural tax reduction is removed you now gain a one time tech bonus for industry."
+  },
+  {
+   "k": "ufu6je",
+   "en": "CTD: Fixed a crash that occurred when calling 'gain_xp' command on a fleet without an Admiral."
+  },
+  {
+   "k": "1ann8hz",
+   "en": "CTD: Fix a crash that occurred when assigning a deployed Field Marshal to an Army Group"
+  },
+  {
+   "k": "h1a4su",
+   "en": "OOS: Fixed a late-game gamestate OOS caused by MIOs."
+  },
+  {
+   "k": "1bcg372",
+   "en": "OOS: Fixed an OOS that happened if a client had previously played an ahistorical game in the same session before joining a historical MP game."
+  },
+  {
+   "k": "mvop7g",
+   "en": "The Division Designer click-shortcuts now also apply to HQ templates."
+  },
+  {
+   "k": "hlktq",
+   "en": "Fixed an issue where Division Designer dropdown items buttons did not have the right size."
+  },
+  {
+   "k": "bqrnc7",
+   "en": "Added dams to the States & Construction mapmodes."
+  },
+  {
+   "k": "15l8nbe",
+   "en": "Fixed wrong interactions and tooltips for Generals while assigning a leader to an Army Group."
+  },
+  {
+   "k": "htwn4y",
+   "en": "Now showing all manpower modifiers in tooltips even if they sum up to a neutral number."
+  },
+  {
+   "k": "1esmljw",
+   "en": "Divisions with multiple active commander abilities now show them all instead of just one."
+  },
+  {
+   "k": "uc8a4u",
+   "en": "Divisions with an active ability that is being nerfed because of late joiners show that reduction."
+  },
+  {
+   "k": "dcem9j",
+   "en": "Fixed Assign Commander tooltips with TAOG disabled."
+  }
+ ]
+}

@@ -1,0 +1,1107 @@
+{
+ "batch": 1033,
+ "pages": [
+  "Faction modding"
+ ],
+ "chars": 11932,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "gvbdoi",
+   "en": "Manifests - global, continuous goal that used to give faction a modifier or a rule depending on the conditions. They are defined in ⟦0⟧ Example of those conditions can be conquered land or countries that have your ideology. In comparison to goals you can't change manifest in game also manifests is set in templates of faction and every faction supposed to have one.",
+   "frags": 1
+  },
+  {
+   "k": "136gyfe",
+   "en": "⟦0⟧ - id of your manifest, must be unique.",
+   "frags": 1
+  },
+  {
+   "k": "1m4yvqs",
+   "en": "manifest_id"
+  },
+  {
+   "k": "kptvtn",
+   "en": "⟦0⟧ - decide whether it's goal or ⟦1⟧. By default set to no (so it's a goal). Mandatory for manifests",
+   "frags": 2
+  },
+  {
+   "k": "yy4c4z",
+   "en": "is_manifest = yes"
+  },
+  {
+   "k": "79u6hy",
+   "en": "Progress"
+  },
+  {
+   "k": "1a55c2c",
+   "en": "Manifests only other arguments is ⟦0⟧ and regular ⟦1⟧, to see about ⟦2⟧ check this section ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "1kc18p2",
+   "en": "progress"
+  },
+  {
+   "k": "1q55lx6",
+   "en": "progression based goal"
+  },
+  {
+   "k": "185l3j6",
+   "en": "⟦0⟧ = { } - is a block where you can add multiple progress_sections. Basically worse version of ratio progress. Don't use it",
+   "frags": 1
+  },
+  {
+   "k": "yw29rw",
+   "en": "Example code of manifest"
+  },
+  {
+   "k": "1mb9jqo",
+   "en": "Rules - set of regulations used inside of faction. Rules can define how faction operates, as well as just give modifiers based on current rule applied. Rules have their own type and groups. Types define in which situation the rule is applicable and what scope will be used. Groups used to combine same purpose rule into one category. ⟦0⟧. Rules can be defined in ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "jec9mr",
+   "en": "Rule won't show up unless it's added to at least one rule group"
+  },
+  {
+   "k": "1wurtsb",
+   "en": "\"common/factions/rules/any_name.txt.\""
+  },
+  {
+   "k": "1rp7gfm",
+   "en": "Syntax"
+  },
+  {
+   "k": "1q45ejr",
+   "en": "⟦0⟧ - id of your rule, must be unique.",
+   "frags": 1
+  },
+  {
+   "k": "1wz7s3b",
+   "en": "faction_rule_id = { }"
+  },
+  {
+   "k": "17y7viq",
+   "en": "⟦0⟧ - decides type of your rule, can be anything but game uses these predetermined tokens for in game faction rules.",
+   "frags": 1
+  },
+  {
+   "k": "lh1jec",
+   "en": "type = type_token"
+  },
+  {
+   "k": "15ju58z",
+   "en": "Special type_tokens"
+  },
+  {
+   "k": "ieyeh6",
+   "en": "value"
+  },
+  {
+   "k": "1ileosd",
+   "en": "defintion"
+  },
+  {
+   "k": "1w5dpoo",
+   "en": "scopes"
+  },
+  {
+   "k": "12vrfcm",
+   "en": "joining_rule"
+  },
+  {
+   "k": "1tit08x",
+   "en": "Checks whether a country can join the faction"
+  },
+  {
+   "k": "19a23lk",
+   "en": "ROOT = joining country, FROM = faction leader"
+  },
+  {
+   "k": "167qj91",
+   "en": "war_declaration_rule"
+  },
+  {
+   "k": "1bc1jgn",
+   "en": "Checks who can declare wars"
+  },
+  {
+   "k": "1g6vvr2",
+   "en": "ROOT = country declaring the war, FROM = target country"
+  },
+  {
+   "k": "1oru7xl",
+   "en": "call_to_war_rule"
+  },
+  {
+   "k": "g8gvcd",
+   "en": "Checks who can call to war"
+  },
+  {
+   "k": "16t2k6e",
+   "en": "ROOT = country calling to the war, FROM = target country"
+  },
+  {
+   "k": "1f0szjv",
+   "en": "member_rules"
+  },
+  {
+   "k": "3ergak",
+   "en": "Checks whether a member can change faction goals (note documentation might be wrong)"
+  },
+  {
+   "k": "12wuqlb",
+   "en": "ROOT = faction leader"
+  },
+  {
+   "k": "agbvar",
+   "en": "change_leader_rules"
+  },
+  {
+   "k": "1hy2bne",
+   "en": "Checks which country can become the faction leader"
+  },
+  {
+   "k": "1osnm4h",
+   "en": "ROOT = country that becomes the faction leader"
+  },
+  {
+   "k": "1avv3mg",
+   "en": "peace_conference_rules"
+  },
+  {
+   "k": "14vfr5v",
+   "en": "Supposed to contain a list of peace_action_modifiers to apply during a peace conferences"
+  },
+  {
+   "k": "16a9ee0",
+   "en": "⟦0⟧- is a ⟦1⟧ block that continuously checks every frame if a condition was met, required to make the rule to be visible in the rule list screen.",
+   "frags": 2
+  },
+  {
+   "k": "1rggdyr",
+   "en": "⟦0⟧ - is a ⟦1⟧ block that continuously checks every frame if a condition was met, required to make the rule available to be chosen in the rules list. If conditions aren't met the rule wouldn't be possible to select, but difference with visible is that it will still be visible and display why it's not available to be selected when hovered over.",
+   "frags": 2
+  },
+  {
+   "k": "kyas2u",
+   "en": "⟦0⟧ - is a ⟦1⟧ block that decides if the rule can be removed, if currently active. Default scope is faction leader. By default is true, so rule is allowed to be deleted.",
+   "frags": 2
+  },
+  {
+   "k": "2nad53",
+   "en": "can_remove = { }"
+  },
+  {
+   "k": "15u8wr9",
+   "en": "⟦0⟧ - is a ⟦1⟧ block that used to define the rule. For example is_major = yes inside the block will make it so only major countries would allow to use this rule.",
+   "frags": 2
+  },
+  {
+   "k": "ddf1zy",
+   "en": "trigger = { }"
+  },
+  {
+   "k": "rkww3e",
+   "en": "⟦0⟧ - special ⟦1⟧ block that used to define whether government in exile allowed in faction or not.",
+   "frags": 2
+  },
+  {
+   "k": "1hokchd",
+   "en": "government_in_exile_allowed_trigger = { }"
+  },
+  {
+   "k": "1scm2eo",
+   "en": "⟦0⟧ - special ⟦1⟧ block that used to define who can be kicked out of faction. Works exactly same as trigger but used to define who can be exiled from faction.",
+   "frags": 2
+  },
+  {
+   "k": "1nt8h6c",
+   "en": "dismiss_member_trigger = { }"
+  },
+  {
+   "k": "1s45w8g",
+   "en": "Modifier"
+  },
+  {
+   "k": "xe703h",
+   "en": "⟦0⟧ - ⟦1⟧ a block that all members gets while a rule is active.",
+   "frags": 2
+  },
+  {
+   "k": "1936kac",
+   "en": "⟦0⟧ - special block that gets available if peace_conference_rules type is active. Used to apply modifier during peace conferences. Peace action modifiers can be found in ⟦1⟧ ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "1gxac9o",
+   "en": "peace_action_modifiers = { }"
+  },
+  {
+   "k": "1wpeoel",
+   "en": "\"common/peace_conference/cost_modifiers\""
+  },
+  {
+   "k": "1fvdi8o",
+   "en": "Enable trigger will not run for the modifier - the modifier is enabled as long as the rule is active."
+  },
+  {
+   "k": "uq3mgk",
+   "en": "Effect"
+  },
+  {
+   "k": "16cc0mq",
+   "en": "⟦0⟧ - is an ⟦1⟧ block that executes effects for the rule.",
+   "frags": 2
+  },
+  {
+   "k": "1s8m5wt",
+   "en": "effect = { }"
+  },
+  {
+   "k": "10mqyay",
+   "en": "AI block"
+  },
+  {
+   "k": "1s94048",
+   "en": "⟦0⟧ decides on how likely ai will chose this rule, works exactly same as all other ai_will_do blocks in the game. For more information check ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "1tkeww4",
+   "en": "To learn more check ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "f2liy1",
+   "en": "Rule groups"
+  },
+  {
+   "k": "s44f16",
+   "en": "Rule groups - used to combine same purpose rule into one category. They are defined \"common/factions/rules/groups\". It's recommended to have all rules inside one group of same type. However it's not mandatory. Also it's not required for one group to contain all rules of same type."
+  },
+  {
+   "k": "1yfld8c",
+   "en": "⟦0⟧ - id of your group, must be unique.",
+   "frags": 1
+  },
+  {
+   "k": "t3s7f9",
+   "en": "group_id = { }"
+  },
+  {
+   "k": "1mqfqai",
+   "en": "⟦0⟧ - used to define rule that's would be used by default in group",
+   "frags": 1
+  },
+  {
+   "k": "12t3hcc",
+   "en": "default_rule = rule_id"
+  },
+  {
+   "k": "3hno2m",
+   "en": "⟦0⟧ - list of rules in this group, you can define rules right there which is not recommend.",
+   "frags": 1
+  },
+  {
+   "k": "12yfep5",
+   "en": "rules = { }"
+  },
+  {
+   "k": "y5l5fy",
+   "en": "Rules:"
+  },
+  {
+   "k": "z8uert",
+   "en": "Rule Groups:"
+  },
+  {
+   "k": "6cvqqg",
+   "en": "rule_group_my_custom_rules_1 = { default_rule = my_rule_id rules = { my_rule_id } }"
+  },
+  {
+   "k": "1bon9pe",
+   "en": "rule_group_my_custom_rules_2 = { rules = { my_rule_2_id } }"
+  },
+  {
+   "k": "1v1cxbf",
+   "en": "Members upgrades - is mechanic used in factions, that can be changed by faction leader. Only thing it's impacts how much manpower each faction members contributes towards shared manpower pool that can be used to garrison needed manpower. ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "13s4q3i",
+   "en": "It's recommended to have 4 members upgrade in one group, since it's default value that interface made for."
+  },
+  {
+   "k": "6ikkk4",
+   "en": "⟦0⟧ - id of member upgrade, should be unique, block used to create new instance",
+   "frags": 1
+  },
+  {
+   "k": "101scu0",
+   "en": "member upgrade_id = { }"
+  },
+  {
+   "k": "yoiu86",
+   "en": "⟦0⟧ - ⟦1⟧ key for visible name of faction member upgrade. Not required, by default used group name",
+   "frags": 2
+  },
+  {
+   "k": "15svkg1",
+   "en": "⟦0⟧ - ⟦1⟧ key for a visible description of faction member upgrade. Not required, by default used group description",
+   "frags": 2
+  },
+  {
+   "k": "1y0h3h8",
+   "en": "⟦0⟧ - the icon that will be displayed while active. Will override the group's icon",
+   "frags": 1
+  },
+  {
+   "k": "1rvwmpc",
+   "en": "icon"
+  },
+  {
+   "k": "10ks6vm",
+   "en": "⟦0⟧ - The amount of faction initiative that it cost to replace this upgrade with another",
+   "frags": 1
+  },
+  {
+   "k": "eyx8zh",
+   "en": "upgrade_cost"
+  },
+  {
+   "k": "a1ezsk",
+   "en": "⟦0⟧ - A numerical value to dictate the amount manpower country contributes",
+   "frags": 1
+  },
+  {
+   "k": "18ndah0",
+   "en": "bonus"
+  },
+  {
+   "k": "1ihp9o",
+   "en": "Group"
+  },
+  {
+   "k": "196vfm8",
+   "en": "⟦0⟧ - id of member upgrades group, should be unique, block used to create new instance",
+   "frags": 1
+  },
+  {
+   "k": "14fhiiz",
+   "en": "⟦0⟧ - ⟦1⟧ key for visible name of faction member upgrade.",
+   "frags": 2
+  },
+  {
+   "k": "1sl6t84",
+   "en": "⟦0⟧ - ⟦1⟧ key for visible description of faction member upgrade",
+   "frags": 2
+  },
+  {
+   "k": "f4gqfd",
+   "en": "⟦0⟧ - The icon that will be displayed while active.",
+   "frags": 1
+  },
+  {
+   "k": "1086omx",
+   "en": "⟦0⟧ - The faction upgrades within this group, this list will be sorted on their bonus",
+   "frags": 1
+  },
+  {
+   "k": "1dar3n9",
+   "en": "upgrades = { }"
+  },
+  {
+   "k": "orzyew",
+   "en": "⟦0⟧ - Currently only supported type, others won't show up, can be used to overwrite default one.",
+   "frags": 1
+  },
+  {
+   "k": "9gvmtr",
+   "en": "upgrade_type = faction_member_upgrade_manpower"
+  },
+  {
+   "k": "5ylpki",
+   "en": "⟦0⟧ - used to set default member upgrade. ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1gdks3q",
+   "en": "default_upgrade = upgrade_id"
+  },
+  {
+   "k": "1cfmhv2",
+   "en": "Note: upgrade that chosen as default should be included in upgrades block"
+  },
+  {
+   "k": "it5x1k",
+   "en": "Templates"
+  },
+  {
+   "k": "11c2jyw",
+   "en": "Faction templates - the way to combine all mentioned above things, plus add customization (name, icon). Templates can be used for two purposes, first: make predetermined faction template (e.g. Axis, Allies, Comintern), second: create a blank template for faction (e.g. fascist countries faction, south-American countries faction)."
+  },
+  {
+   "k": "fjsaem",
+   "en": "⟦0⟧ - ⟦1⟧ key for a visible name of faction.",
+   "frags": 2
+  },
+  {
+   "k": "19c44z8",
+   "en": "⟦0⟧ - [GFX definition or direct path to image] - logo of the faction visible in the game. ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "b1nkid",
+   "en": "Note: factions logo icons are strip of two logos in one file with size of 200x100, with each taking 100 pixels, so interface definition of logo must contain noOfFrames = 2, as any other image of game with stripped frames. As well as logo must have miniature definition with same name and addition _miniature at the end."
+  },
+  {
+   "k": "1ixazzr",
+   "en": "⟦0⟧ - color of faction used in faction map mode, by default uses faction leader color, must be specified in RGB as in other parts of the game.",
+   "frags": 1
+  },
+  {
+   "k": "19p38dt",
+   "en": "color = { }"
+  },
+  {
+   "k": "1py0p9y",
+   "en": "⟦0⟧ - setting that allows this faction leader to join another faction, if set to yes leader can't leave faction unless he dismantles it, if set to no leader can leave, previous faction get destroyed and all members get invited to the new faction",
+   "frags": 1
+  },
+  {
+   "k": "1phqogn",
+   "en": "can_leader_join_other_factions = { yes/no }"
+  },
+  {
+   "k": "fanf32",
+   "en": "⟦0⟧- is a ⟦1⟧ block that continuously checks every frame if a condition was met, required to make the template to be visible in the faction creation screen. ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "1jt53br",
+   "en": "If left empty template won't show up in faction creation screen"
+  },
+  {
+   "k": "1hkpida",
+   "en": "⟦0⟧ - is a ⟦1⟧ block that continuously checks every frame if a condition was met, required to make the template to be chosen in the faction creation screen. If conditions aren't met the template wouldn't be possible to select, but difference with visible is that it will still be visible and display why it's not available to be selected when hovered over.",
+   "frags": 2
+  },
+  {
+   "k": "lf12ab",
+   "en": "Manifest,rules,goals"
+  },
+  {
+   "k": "171p7d8",
+   "en": "⟦0⟧ - faction manifest set for this faction. For more info see ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "g174lk",
+   "en": "manifest = manifest_id"
+  },
+  {
+   "k": "1hjegj",
+   "en": "⟦0⟧ - a block where you can set the default goals, there's could be only 3 goals of different types, goals can be defined inside the block or can be specified existing goal id. For more info see ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1im22t6",
+   "en": "goals = { }"
+  },
+  {
+   "k": "497wvv",
+   "en": "⟦0⟧ - a block where you can set the default rules of faction, this block overrides default rules in the group. For more info see ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "2xvu53",
+   "en": "default_rules = { }"
+  },
+  {
+   "k": "17icgdc",
+   "en": "rules"
+  },
+  {
+   "k": "1g7piyv",
+   "en": "Triggers and Effects"
+  },
+  {
+   "k": "1i8u4gq",
+   "en": "List of faction-related effects"
+  },
+  {
+   "k": "13l5m4g",
+   "en": "create_faction - creates a faction without a template (OBSOLETE)"
+  },
+  {
+   "k": "vbyauf",
+   "en": "create_faction_from_template - the new fancy way of creating factions"
+  },
+  {
+   "k": "1smaj8s",
+   "en": "dismantle_faction - dismantles faction"
+  },
+  {
+   "k": "188f3hx",
+   "en": "set_faction_leader - changes faction's leader"
+  },
+  {
+   "k": "ry6dk3",
+   "en": "set_faction_spymaster - changes faction's spymaster"
+  },
+  {
+   "k": "9wqpax",
+   "en": "set_faction_name - changes faction's name"
+  },
+  {
+   "k": "mfk1f9",
+   "en": "add_to_faction - adds a country to a faction"
+  },
+  {
+   "k": "3t67yp",
+   "en": "remove_from_faction - removes a country from a faction"
+  },
+  {
+   "k": "9sk1n7",
+   "en": "leave_faction - removes the current country from faction"
+  },
+  {
+   "k": "mnhzai",
+   "en": "set_faction_rule - sets a rule on a faction"
+  },
+  {
+   "k": "1inh3pu",
+   "en": "set_faction_manifest - changes faction's manifest (main goal)"
+  },
+  {
+   "k": "ieaad8",
+   "en": "add_faction_goal - adds a goal to a faction"
+  },
+  {
+   "k": "1kf7g0v",
+   "en": "remove_faction_goal - removes a goal from a faction"
+  },
+  {
+   "k": "u094xp",
+   "en": "add_faction_initiative - adds FI to faction"
+  },
+  {
+   "k": "p7a431",
+   "en": "add_faction_power_projection - adds power to the faction"
+  },
+  {
+   "k": "oef4f8",
+   "en": "add_faction_influence_score - adds influence to the country in the faction"
+  },
+  {
+   "k": "1g4jttz",
+   "en": "add_faction_influence_ratio - adds influence to the country based on the given ratio of the faction's total influence"
+  },
+  {
+   "k": "vtmry9",
+   "en": "List of faction-related triggers"
+  },
+  {
+   "k": "zyjw5a",
+   "en": "faction_manifest_fulfillment - compares the current country faction's manifest fulfillmens to a value"
+  },
+  {
+   "k": "1vo80bv",
+   "en": "has_faction_template - checks if the current country is in a faction created from a template"
+  },
+  {
+   "k": "13o17sy",
+   "en": "faction_power_projection - compares the current country faction's power to a value"
+  },
+  {
+   "k": "skd74e",
+   "en": "faction_influence_score - checks influence value of current country in the faction"
+  },
+  {
+   "k": "1nhtdmv",
+   "en": "faction_influence_ratio - checks influence ratio of current country in the faction"
+  },
+  {
+   "k": "4lgldc",
+   "en": "faction_influence_rank - checks influence rank in the faction of the current country"
+  },
+  {
+   "k": "1baiicf",
+   "en": "has_faction_goal - checks if the current country's faction has an active or completed goal"
+  },
+  {
+   "k": "ihkaze",
+   "en": "has_completed_faction_goal - checks if the current country's faction has completed a goal"
+  },
+  {
+   "k": "11xhm96",
+   "en": "faction_goal_fulfillment - checks goal fulfillment for the current country's faction"
+  },
+  {
+   "k": "qsqjjc",
+   "en": "has_manpower_to_become_leader - checks if the current country exceeds the current faction leader and its subjects in deployed manpower"
+  },
+  {
+   "k": "1yanqbb",
+   "en": "has_industry_to_become_leader - checks if the current country exceeds the faction leader in number of factories"
+  },
+  {
+   "k": "1yc725u",
+   "en": "List of faction-related modifiers"
+  },
+  {
+   "k": "12t87z1",
+   "en": "faction_influence_war_score_factor - war score modifier for faction influence"
+  },
+  {
+   "k": "14aunwl",
+   "en": "faction_influence_industrial_capacity_factor - industrial capacity modifier for faction influence"
+  },
+  {
+   "k": "582y98",
+   "en": "faction_influence_garrison_support_provider_factor - garrison support provider modifier for faction influence"
+  },
+  {
+   "k": "1vhi1bo",
+   "en": "faction_influence_garrison_support_reciver_factor - garrison support reciver modifier for faction influence"
+  },
+  {
+   "k": "wey6q0",
+   "en": "faction_influence_expeditionary_force_provider_factor - expeditionary force provider modifier for faction influence"
+  },
+  {
+   "k": "1ewaory",
+   "en": "faction_influence_expeditionary_force_reciver_factor - expeditionary force reciver modifier for faction influence"
+  },
+  {
+   "k": "59iejl",
+   "en": "Documentation"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "bbbsh0",
+   "en": "List of modifiers"
+  },
+  {
+   "k": "gkat0o",
+   "en": "Scopes"
+  },
+  {
+   "k": "22wvcr",
+   "en": "On actions"
+  },
+  {
+   "k": "10y68xx",
+   "en": "Data structures"
+  },
+  {
+   "k": "icm958",
+   "en": "Flags"
+  },
+  {
+   "k": "1fldcnt",
+   "en": "Event targets"
+  },
+  {
+   "k": "135tw29",
+   "en": "Country tag aliases"
+  },
+  {
+   "k": "xqivz6",
+   "en": "Variables"
+  },
+  {
+   "k": "14wbbvz",
+   "en": "Arrays"
+  },
+  {
+   "k": "wdu62e",
+   "en": "Scripting"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "475d63",
+   "en": "AI focuses"
+  },
+  {
+   "k": "gpz0z1",
+   "en": "Autonomous states"
+  },
+  {
+   "k": "a6cuzg",
+   "en": "Balances of power"
+  },
+  {
+   "k": "14khzdq",
+   "en": "Bookmarks/Scenarios"
+  },
+  {
+   "k": "xrnqxs",
+   "en": "Game rules"
+  },
+  {
+   "k": "1xa6gia",
+   "en": "Buildings"
+  },
+  {
+   "k": "8657g9",
+   "en": "Characters and traits"
+  },
+  {
+   "k": "o977ej",
+   "en": "Cosmetic tags"
+  },
+  {
+   "k": "8zhvfx",
+   "en": "Countries"
+  },
+  {
+   "k": "19eysrz",
+   "en": "Divisions"
+  },
+  {
+   "k": "vwifyo",
+   "en": "Decisions"
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "1xtq0ev",
+   "en": "Equipment"
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "e65ons",
+   "en": "Factions"
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "1cd8sst",
+   "en": "Ideologies"
+  },
+  {
+   "k": "1oopcvp",
+   "en": "Military industrial organizations"
+  },
+  {
+   "k": "k2esk3",
+   "en": "National focuses"
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "uu0bc4",
+   "en": "Scripted GUI"
+  },
+  {
+   "k": "1jzxqx9",
+   "en": "Technologies and doctrines"
+  },
+  {
+   "k": "ur18vw",
+   "en": "Units"
+  },
+  {
+   "k": "j1sac1",
+   "en": "Map"
+  },
+  {
+   "k": "5afzz",
+   "en": "States"
+  },
+  {
+   "k": "8ppvas",
+   "en": "Supply areas"
+  },
+  {
+   "k": "1v2pifw",
+   "en": "Strategic regions"
+  },
+  {
+   "k": "1cffeuu",
+   "en": "Graphical"
+  },
+  {
+   "k": "yolbkg",
+   "en": "Interface"
+  },
+  {
+   "k": "2hqnqn",
+   "en": "Graphical assets"
+  },
+  {
+   "k": "6px9my",
+   "en": "Entities"
+  },
+  {
+   "k": "1n1sxcz",
+   "en": "Posteffects"
+  },
+  {
+   "k": "1fu6htw",
+   "en": "Particles"
+  },
+  {
+   "k": "t16z95",
+   "en": "Fonts"
+  },
+  {
+   "k": "1ig52hy",
+   "en": "Cosmetic"
+  },
+  {
+   "k": "9k7pgr",
+   "en": "Portraits"
+  },
+  {
+   "k": "65pf3n",
+   "en": "Namelists"
+  },
+  {
+   "k": "ohwdis",
+   "en": "Music"
+  },
+  {
+   "k": "1dvvwok",
+   "en": "Sound"
+  },
+  {
+   "k": "ukzedx",
+   "en": "Other"
+  },
+  {
+   "k": "1uzifys",
+   "en": "Console commands"
+  },
+  {
+   "k": "1t5bxxt",
+   "en": "Troubleshooting"
+  },
+  {
+   "k": "1djsobe",
+   "en": "Mod structure"
+  },
+  {
+   "k": "pw0jjk",
+   "en": "Mods"
+  },
+  {
+   "k": "pui2ou",
+   "en": "Nudger"
+  }
+ ]
+}

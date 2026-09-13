@@ -1,0 +1,1514 @@
+{
+ "batch": 99,
+ "pages": [
+  "Defines"
+ ],
+ "chars": 14979,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "10oswyd",
+   "en": "Organisation value (in %) after unit being dropped, regardless if failed, disrupted, or successful."
+  },
+  {
+   "k": "s59btv",
+   "en": "PARACHUTE_ORG_REGAIN_PENALTY_DURATION"
+  },
+  {
+   "k": "swup7s",
+   "en": "penalty in org regain after being parachuted. Value is in hours."
+  },
+  {
+   "k": "yklzfd",
+   "en": "PARACHUTE_ORG_REGAIN_PENALTY_MULT"
+  },
+  {
+   "k": "15ar4uh",
+   "en": "penalty to org regain after being parachuted."
+  },
+  {
+   "k": "p1hep2",
+   "en": "SHIP_MORALE_TO_ORG_REGAIN_BASE"
+  },
+  {
+   "k": "ta345j",
+   "en": "Base org regain per hour"
+  },
+  {
+   "k": "764d0c",
+   "en": "BASE_NIGHT_ATTACK_PENALTY"
+  },
+  {
+   "k": "1g3mqhj",
+   "en": "EXILE_EQUIPMENT"
+  },
+  {
+   "k": "1aqz5jw",
+   "en": "Amount of equipment to keep"
+  },
+  {
+   "k": "144j8ft",
+   "en": "EXILE_ORG"
+  },
+  {
+   "k": "yuju4a",
+   "en": "Amount of org to keep"
+  },
+  {
+   "k": "14n4hll",
+   "en": "EXPERIENCE_LOSS_FACTOR"
+  },
+  {
+   "k": "2r51f5",
+   "en": "percentage of experienced solders who die when manpower is removed"
+  },
+  {
+   "k": "1sjg068",
+   "en": "EQUIPMENT_COMBAT_LOSS_FACTOR"
+  },
+  {
+   "k": "s6pb92",
+   "en": "% of equipment lost to strength ratio in combat, so some % is returned if below 1"
+  },
+  {
+   "k": "1kntu07",
+   "en": "SUPPLY_USE_FACTOR_MOVING"
+  },
+  {
+   "k": "10i3dv3",
+   "en": "Deprecated/Unused"
+  },
+  {
+   "k": "nriu0",
+   "en": "SUPPLY_USE_FACTOR_INACTIVE"
+  },
+  {
+   "k": "14kb389",
+   "en": "SUPPLY_GRACE"
+  },
+  {
+   "k": "oizepr",
+   "en": "troops always carry 3 days of food and supply"
+  },
+  {
+   "k": "1ol49he",
+   "en": "SUPPLY_GRACE_MAX_REDUCE_PER_HOUR"
+  },
+  {
+   "k": "16chqoq",
+   "en": "supply grace is not decreased instantly when it is buffed temporarily and buff is removed"
+  },
+  {
+   "k": "i0owhl",
+   "en": "SUPPLY_ORG_MAX_CAP"
+  },
+  {
+   "k": "f6t528",
+   "en": "Max organization is factored by this if completely out of supply"
+  },
+  {
+   "k": "4ek3ui",
+   "en": "MAX_OUT_OF_SUPPLY_DAYS"
+  },
+  {
+   "k": "k1p4ps",
+   "en": "how many days of shitty supply until max penalty achieved"
+  },
+  {
+   "k": "110ih5m",
+   "en": "OUT_OF_SUPPLY_ATTRITION"
+  },
+  {
+   "k": "538shf",
+   "en": "max attrition when out of supply"
+  },
+  {
+   "k": "omkru5",
+   "en": "OUT_OF_SUPPLY_SPEED"
+  },
+  {
+   "k": "16exgjg",
+   "en": "max speed reduction from supply"
+  },
+  {
+   "k": "10mymyc",
+   "en": "NON_CORE_SUPPLY_SPEED"
+  },
+  {
+   "k": "4bmb1w",
+   "en": "we are not running on our own VP supply so need to steal stuff along the way"
+  },
+  {
+   "k": "hk1mvz",
+   "en": "NON_CORE_SUPPLY_AIR_SPEED"
+  },
+  {
+   "k": "1o8ifcn",
+   "en": "we are not running on our own VP supply so need to steal stuff along the way, a bit less due to air supply"
+  },
+  {
+   "k": "1m2lcjo",
+   "en": "OUT_OF_SUPPLY_MORALE"
+  },
+  {
+   "k": "1ian3dt",
+   "en": "max org regain reduction from supply"
+  },
+  {
+   "k": "1nt4lt4",
+   "en": "TRAINING_ATTRITION"
+  },
+  {
+   "k": "1y8cc88",
+   "en": "amount of extra attrition from being in training"
+  },
+  {
+   "k": "9h7plg",
+   "en": "TRAINING_MIN_STRENGTH"
+  },
+  {
+   "k": "odt566",
+   "en": "if strength is less than this, the unit will pause training until it's been reinforced"
+  },
+  {
+   "k": "19ttxul",
+   "en": "TRAINING_MAX_DAILY_COUNTRY_EXP"
+  },
+  {
+   "k": "1udevub",
+   "en": "Maximum army XP gained per day from training"
+  },
+  {
+   "k": "4bs2px",
+   "en": "AIR_SUPPORT_BASE"
+  },
+  {
+   "k": "4a139q",
+   "en": "CAS bonus factor for air support moddifier for land unit in combat"
+  },
+  {
+   "k": "1kemma9",
+   "en": "LOW_SUPPLY"
+  },
+  {
+   "k": "1tstfdt",
+   "en": "When the supply status of an unit becomes low."
+  },
+  {
+   "k": "vefm7d",
+   "en": "BORDER_WAR_ATTRITION_FACTOR"
+  },
+  {
+   "k": "ybhhpj",
+   "en": "How much of borderwar balance of power makes it into attrition"
+  },
+  {
+   "k": "jjire3",
+   "en": "BORDER_WAR_VICTORY"
+  },
+  {
+   "k": "1vllasf",
+   "en": "At wich border war balance of power is victory declared"
+  },
+  {
+   "k": "g0mfnz",
+   "en": "REINFORCE_CHANCE"
+  },
+  {
+   "k": "4xxcr1",
+   "en": "base chance to join combat from back line when empty"
+  },
+  {
+   "k": "1n0nkfu",
+   "en": "SPEED_REINFORCEMENT_BONUS"
+  },
+  {
+   "k": "pylnk3",
+   "en": "chance to join combat bonus by each 100% larger than infantry base (up to 200%)"
+  },
+  {
+   "k": "tqafqw",
+   "en": "OVERSEAS_LOSE_EQUIPMENT_FACTOR"
+  },
+  {
+   "k": "asok1c",
+   "en": "percentage of equipment lost disbanded overseas"
+  },
+  {
+   "k": "v87s55",
+   "en": "NAVAL_TRANSFER_DISBAND_MANPOWER_FACTOR"
+  },
+  {
+   "k": "fb82qk",
+   "en": "percentage of manpower returned when a naval transfering unit is disbanded"
+  },
+  {
+   "k": "1666omg",
+   "en": "ENCIRCLED_DISBAND_MANPOWER_FACTOR"
+  },
+  {
+   "k": "pd4qtg",
+   "en": "percentage of manpower returned when an encircled unit is disbanded"
+  },
+  {
+   "k": "1p6wb99",
+   "en": "ORG_LOSS_FACTOR_ON_CONQUER"
+  },
+  {
+   "k": "1o0mph3",
+   "en": "percentage of (max) org loss on takign enemy province"
+  },
+  {
+   "k": "1gcql8d",
+   "en": "LOW_ORG_FOR_ATTACK"
+  },
+  {
+   "k": "16dg3p4",
+   "en": "at what org % we start affecting speed when doign hostile moves. scales down ZERO_ORG_MOVEMENT_MODIFIER"
+  },
+  {
+   "k": "1k4jl6p",
+   "en": "PLANNING_DECAY"
+  },
+  {
+   "k": "lm85vs",
+   "en": "PLAYER_ORDER_PLANNING_DECAY"
+  },
+  {
+   "k": "xl1c8b",
+   "en": "Amount of planning lost due to player manual order"
+  },
+  {
+   "k": "lld2i",
+   "en": "PLANNING_GAIN"
+  },
+  {
+   "k": "1gskulh",
+   "en": "NAVAL_INVASION_PLANNING_BONUS_GAIN"
+  },
+  {
+   "k": "2q7fnw",
+   "en": "Planning Bonus gain per day for naval invasions"
+  },
+  {
+   "k": "1k1fuk",
+   "en": "NAVAL_INVASION_PLANNING_BONUS_MALUS"
+  },
+  {
+   "k": "wvqdwu",
+   "en": "Malus in percentage for the planning bonus gain for naval invasions"
+  },
+  {
+   "k": "10pxl6t",
+   "en": "PLANNING_MAX"
+  },
+  {
+   "k": "jvlh5b",
+   "en": "can get more from techs"
+  },
+  {
+   "k": "7spe1y",
+   "en": "CIVILWAR_ORGANIZATION_FACTOR"
+  },
+  {
+   "k": "u509yo",
+   "en": "Multiplier of org for both sides when civilwar."
+  },
+  {
+   "k": "9hmbp3",
+   "en": "PLAN_CONSIDERED_GOOD"
+  },
+  {
+   "k": "pldhon",
+   "en": "Plan evaluations above this value are considered more or less safe"
+  },
+  {
+   "k": "1nxctn5",
+   "en": "PLAN_CONSIDERED_BAD"
+  },
+  {
+   "k": "udo4yr",
+   "en": "Plan evaluations below this value are considered unsafe"
+  },
+  {
+   "k": "1wkx0w7",
+   "en": "PLAN_MIN_AUTOMATED_EMPTY_POCKET_SIZE"
+  },
+  {
+   "k": "1ygy6ef",
+   "en": "The battle plan system will only automatically attack provinces in pockets that has no resistance and are no bigger than these many provinces"
+  },
+  {
+   "k": "jlq2ny",
+   "en": "PLAN_SPREAD_ATTACK_WEIGHT"
+  },
+  {
+   "k": "11b7ldm",
+   "en": "The higher the value, the less it should crowd provinces with multiple attacks."
+  },
+  {
+   "k": "1t308ed",
+   "en": "PLAN_NEIGHBORING_ENEMY_PROVINCE_FACTOR"
+  },
+  {
+   "k": "j4hxxz",
+   "en": "When calculating the importance of provinces, it takes number of enemy provinces into account, factored by this"
+  },
+  {
+   "k": "1rj5tp4",
+   "en": "PLAN_PROVINCE_BASE_IMPORTANCE"
+  },
+  {
+   "k": "111d847",
+   "en": "Used when calculating the calue of front and defense area provinces for the battle plan system"
+  },
+  {
+   "k": "173fbt4",
+   "en": "PLAN_PROVINCE_LOW_VP_IMPORTANCE_AREA"
+  },
+  {
+   "k": "humwk1",
+   "en": "Used when calculating the value of defense area in the battle plan system"
+  },
+  {
+   "k": "17gnm0n",
+   "en": "PLAN_PROVINCE_MEDIUM_VP_IMPORTANCE_AREA"
+  },
+  {
+   "k": "1fwt8ze",
+   "en": "PLAN_PROVINCE_HIGH_VP_IMPORTANCE_AREA"
+  },
+  {
+   "k": "1jjl9it",
+   "en": "PLAN_PROVINCE_CAPITAL_IMPORTANCE_AREA"
+  },
+  {
+   "k": "1xieftp",
+   "en": "Used when calculating the balue of defense area in the battle plan system"
+  },
+  {
+   "k": "1wezjdr",
+   "en": "MIN_VP_NEEDED_FOR_DEFENSE_ORDER_ASSIGNMENTS"
+  },
+  {
+   "k": "1lsdxij",
+   "en": "If a province has more than this VP, unit controller will try to assign units that prov"
+  },
+  {
+   "k": "1e52wuk",
+   "en": "PLAN_PROVINCE_LOW_VP_IMPORTANCE_FRONT"
+  },
+  {
+   "k": "xe4obj",
+   "en": "Used when calculating the calue of fronts in the battle plan system"
+  },
+  {
+   "k": "drgb1x",
+   "en": "PLAN_PROVINCE_MEDIUM_VP_IMPORTANCE_FRONT"
+  },
+  {
+   "k": "19txj1q",
+   "en": "PLAN_PROVINCE_HIGH_VP_IMPORTANCE_FRONT"
+  },
+  {
+   "k": "1ncaaqb",
+   "en": "PLAN_SHARED_FRONT_PROV_IMPORTANCE_FACTOR"
+  },
+  {
+   "k": "e3nuq2",
+   "en": "If fornt orders share end provinces, they should each have a somewhat reduced prio due to it being shared."
+  },
+  {
+   "k": "1tts736",
+   "en": "PLAN_PORVINCE_PORT_BASE_IMPORTANCE"
+  },
+  {
+   "k": "puung3",
+   "en": "Added importance for area defense province with a port"
+  },
+  {
+   "k": "1ar89xu",
+   "en": "PLAN_PORVINCE_PORT_LEVEL_FACTOR"
+  },
+  {
+   "k": "40ab95",
+   "en": "Bonus factor for port level"
+  },
+  {
+   "k": "1d4da3t",
+   "en": "PLAN_PORVINCE_AIRFIELD_BASE_IMPORTANCE"
+  },
+  {
+   "k": "5iw01f",
+   "en": "Added importance for area defense province with air field"
+  },
+  {
+   "k": "ageg2r",
+   "en": "PLAN_PORVINCE_AIRFIELD_POPULATED_FACTOR"
+  },
+  {
+   "k": "184tpa9",
+   "en": "Bonus factor when an airfield has planes on it"
+  },
+  {
+   "k": "1l5c5dv",
+   "en": "PLAN_PORVINCE_AIRFIELD_LEVEL_FACTOR"
+  },
+  {
+   "k": "1tu5rpa",
+   "en": "Bonus factor for airfield level"
+  },
+  {
+   "k": "1d2fsso",
+   "en": "PLAN_PORVINCE_RESISTANCE_BASE_IMPORTANCE"
+  },
+  {
+   "k": "1gbf7mi",
+   "en": "Used when calculating the calue of defense area provinces for the battle plan system (factored by resistance level)"
+  },
+  {
+   "k": "1g0vn2e",
+   "en": "PLAN_PROVINCE_VP_PORT_FACTOR"
+  },
+  {
+   "k": "4b0z2m",
+   "en": "PLAN_AREA_DEFENSE_ENEMY_CONTROLLER_SCORE"
+  },
+  {
+   "k": "iw92no",
+   "en": "These need to result in province value > 1.0 for it to matter. Score applied to provinces in the defense area order controlled by enemies"
+  },
+  {
+   "k": "1jclroh",
+   "en": "PLAN_AREA_DEFENSE_ENEMY_UNIT_FACTOR"
+  },
+  {
+   "k": "rcfxlf",
+   "en": "Factor applied to province score in area defense order per enemy unit in that province"
+  },
+  {
+   "k": "ssrami",
+   "en": "PLAN_AREA_DEFENSE_FORT_IMPORTANCE"
+  },
+  {
+   "k": "tlfl36",
+   "en": "Used when calculating the value of defense area provinces for the battle plan system, works as multipliers on the rest"
+  },
+  {
+   "k": "1cy337y",
+   "en": "PLAN_AREA_DEFENSE_COASTAL_FORT_IMPORTANCE"
+  },
+  {
+   "k": "11eqph4",
+   "en": "Used when calculating the value of defense area provinces for the battle plan system"
+  },
+  {
+   "k": "q700z9",
+   "en": "PLAN_AREA_DEFENSE_COAST_NO_FORT_IMPORTANCE"
+  },
+  {
+   "k": "1uakdx6",
+   "en": "PLAN_AREA_DEFENSE_HAS_RAIL_IMPORTANCE"
+  },
+  {
+   "k": "14exn39",
+   "en": "PLAN_AREA_DEFENSE_HAS_SUPPLY_NODE"
+  },
+  {
+   "k": "1dodxen",
+   "en": "PLAN_STICKINESS_FACTOR"
+  },
+  {
+   "k": "zhc2e6",
+   "en": "Factor used in unitcontroller when prioritizing units for locations"
+  },
+  {
+   "k": "cpaxue",
+   "en": "PLAN_PROVINCE_PRIO_DISTRIBUTION_MIN"
+  },
+  {
+   "k": "12qkoiv",
+   "en": "Lowest fraction of divisions that will be distributed based on province priority"
+  },
+  {
+   "k": "qlii4k",
+   "en": "PLAN_PROVINCE_PRIO_DISTRIBUTION_MAX"
+  },
+  {
+   "k": "1afkbfv",
+   "en": "Highest fraction of divisions that will be distributed based on province priority"
+  },
+  {
+   "k": "a5ixbf",
+   "en": "PLAN_PROVINCE_PRIO_DISTRIBUTION_DPP_HIGH"
+  },
+  {
+   "k": "fktuqg",
+   "en": "At what divisions per province should we use PLAN_PROVINCE_PRIO_DISTRIBUTION_MIN"
+  },
+  {
+   "k": "ulbh6f",
+   "en": "PLAN_PROVINCE_PRIO_DISTRIBUTION_DPP_LOW"
+  },
+  {
+   "k": "lpcjle",
+   "en": "At what divisions per province should we use PLAN_PROVINCE_PRIO_DISTRIBUTION_MAX"
+  },
+  {
+   "k": "12ejh35",
+   "en": "PLAN_EXECUTE_CAREFUL_LIMIT"
+  },
+  {
+   "k": "1amedl4",
+   "en": "When looking for an attach target, this score limit is required in the battle plan to consider province for attack"
+  },
+  {
+   "k": "1j10nu7",
+   "en": "PLAN_EXECUTE_BALANCED_LIMIT"
+  },
+  {
+   "k": "3du6ut",
+   "en": "PLAN_EXECUTE_RUSH"
+  },
+  {
+   "k": "fop4cw",
+   "en": "PLAN_EXECUTE_CAREFUL_MAX_FORT"
+  },
+  {
+   "k": "oz1b3w",
+   "en": "If execution mode is set to careful, units will not attack provinces with fort levels greater than or equal to this"
+  },
+  {
+   "k": "phaqtv",
+   "en": "PLAN_EXECUTE_SUPPLY_CHECK"
+  },
+  {
+   "k": "vduozp",
+   "en": "order by EExecutionType: careful, balanced, rush, <skip>, rush_weak for each execution mode how careful should we be with supply (1.0 means full required supply available, zero is no limit)."
+  },
+  {
+   "k": "1bay6sy",
+   "en": "PLAN_MAX_PROGRESS_TO_JOIN"
+  },
+  {
+   "k": "pcj5sa",
+   "en": "If Lower progress than this, probably needs support"
+  },
+  {
+   "k": "1rcgx8x",
+   "en": "PLAN_COHESION_WEIGHTS"
+  },
+  {
+   "k": "2pywlu",
+   "en": "for each cohesion setting, how keen on relocating from distance should we be? (default 1.0), higher weight = shorter max distance"
+  },
+  {
+   "k": "3lqd7u",
+   "en": "PLAN_COHESION_DISTANCE_MAX_WHEN_LEFT_BEHIND"
+  },
+  {
+   "k": "12d0nmy",
+   "en": "Unused and deprecated - will be removed in next major version."
+  },
+  {
+   "k": "53ayd9",
+   "en": "PLAN_BLITZ_OPTIMISM"
+  },
+  {
+   "k": "1k7bqkr",
+   "en": "Additional combat balance value in favor of blitzing side when considering targets (not a combat bonus, just offsets planning)"
+  },
+  {
+   "k": "1c6jj4j",
+   "en": "MIN_BALANCE_SCORE_TO_PROCEED_ATTACK"
+  },
+  {
+   "k": "1xxbjvw",
+   "en": "A combat balance score of less than this will prevent auto attacking"
+  },
+  {
+   "k": "1xdshmd",
+   "en": "DYNAMIC_MODIFIER_ATTACK_BIAS"
+  },
+  {
+   "k": "oyma6p",
+   "en": "This factors the weighting bias of dynamic attack modifiers"
+  },
+  {
+   "k": "c3x18i",
+   "en": "FLANKED_PROVINCES_COUNT"
+  },
+  {
+   "k": "19kwblg",
+   "en": "Attacker has to attack from that many provinces for the attack to be considered as flanking"
+  },
+  {
+   "k": "4i2rcr",
+   "en": "NUKE_MIN_DAMAGE_PERCENT"
+  },
+  {
+   "k": "nt8351",
+   "en": "Minimum damage from nukes as a percentage of current strength/organisation"
+  },
+  {
+   "k": "1184hqx",
+   "en": "NUKE_MAX_DAMAGE_PERCENT"
+  },
+  {
+   "k": "dbkkbs",
+   "en": "EQUIPMENT_REPLACEMENT_RATIO"
+  },
+  {
+   "k": "yee0hy",
+   "en": "Equipment min ratio after blocking the equipment type"
+  },
+  {
+   "k": "swjsik",
+   "en": "NUKE_DELAY_HOURS"
+  },
+  {
+   "k": "z8lqv0",
+   "en": "How many hours does it take for the nuclear drop to happen"
+  },
+  {
+   "k": "txki6o",
+   "en": "PARADROP_PENALTY"
+  },
+  {
+   "k": "8frj9k",
+   "en": "Combat penalty when recently paradropped"
+  },
+  {
+   "k": "1bkcura",
+   "en": "PARADROP_HOURS"
+  },
+  {
+   "k": "1x9g6fh",
+   "en": "time paratroopers suffer penalties in combat"
+  },
+  {
+   "k": "2tj9zc",
+   "en": "COMBAT_SUPPLY_LACK_ATTACKER_ATTACK"
+  },
+  {
+   "k": "184stoz",
+   "en": "attack combat penalty for attacker if out of supply"
+  },
+  {
+   "k": "1c1oqcg",
+   "en": "COMBAT_SUPPLY_LACK_ATTACKER_DEFEND"
+  },
+  {
+   "k": "678wxb",
+   "en": "defend combat penalty for attacker if out of supply"
+  },
+  {
+   "k": "1y620w",
+   "en": "COMBAT_SUPPLY_LACK_DEFENDER_ATTACK"
+  },
+  {
+   "k": "eof1dz",
+   "en": "attack combat penalty for defender if out of supply"
+  },
+  {
+   "k": "14sy48o",
+   "en": "COMBAT_SUPPLY_LACK_DEFENDER_DEFEND"
+  },
+  {
+   "k": "10myt1f",
+   "en": "defend combat penalty for defender if out of supply"
+  },
+  {
+   "k": "iaiui1",
+   "en": "COMBAT_STACKING_START"
+  },
+  {
+   "k": "u31k8t",
+   "en": "at what nr of divisions stacking penalty starts"
+  },
+  {
+   "k": "vn0wef",
+   "en": "COMBAT_STACKING_EXTRA"
+  },
+  {
+   "k": "k63b3h",
+   "en": "extra stacking from directions"
+  },
+  {
+   "k": "1qvmkd8",
+   "en": "COMBAT_STACKING_PENALTY"
+  },
+  {
+   "k": "lmaqjh",
+   "en": "how much stackign penalty per division"
+  },
+  {
+   "k": "1vm513p",
+   "en": "COMBAT_OVER_WIDTH_PENALTY"
+  },
+  {
+   "k": "14yb156",
+   "en": "over combat width penalty per %."
+  },
+  {
+   "k": "17b6y2o",
+   "en": "COMBAT_OVER_WIDTH_PENALTY_MAX"
+  },
+  {
+   "k": "yp8sp9",
+   "en": "over combat width max (when you cant join no more)."
+  },
+  {
+   "k": "7ovjhy",
+   "en": "RETREAT_SPEED_FACTOR"
+  },
+  {
+   "k": "aqybb2",
+   "en": "speed bonus when retreating"
+  },
+  {
+   "k": "1qfh9n5",
+   "en": "WITHDRAWING_SPEED_FACTOR"
+  },
+  {
+   "k": "12qlttr",
+   "en": "speed bonus when withdrawing"
+  },
+  {
+   "k": "1q8a93k",
+   "en": "STRATEGIC_SPEED_INFRA_BASE"
+  },
+  {
+   "k": "1vig2h6",
+   "en": "Base speed of strategic redeployment when not on railways"
+  },
+  {
+   "k": "2a12v5",
+   "en": "STRATEGIC_SPEED_INFRA_MAX"
+  },
+  {
+   "k": "1rjo5rn",
+   "en": "Additional speed of strategic redeployment on max-level infrastructure"
+  },
+  {
+   "k": "mkwifi",
+   "en": "STRATEGIC_SPEED_RAIL_BASE"
+  },
+  {
+   "k": "sr3em3",
+   "en": "Base speed of strategic redeployment when on railways"
+  },
+  {
+   "k": "xvi5or",
+   "en": "STRATEGIC_SPEED_RAIL_MAX"
+  },
+  {
+   "k": "j11aww",
+   "en": "Additional speed of strategic redeployment on max-level railways"
+  },
+  {
+   "k": "1sjft69",
+   "en": "STRATEGIC_REDEPLOY_ORG_RATIO"
+  },
+  {
+   "k": "1l8obo8",
+   "en": "Ratio of max org while strategic redeployment"
+  },
+  {
+   "k": "1izkezj",
+   "en": "BATALION_NOT_CHANGED_EXPERIENCE_DROP"
+  },
+  {
+   "k": "yuz01q",
+   "en": "Division experience drop if unit has same batalion"
+  },
+  {
+   "k": "1md43od",
+   "en": "BATALION_CHANGED_EXPERIENCE_DROP"
+  },
+  {
+   "k": "10g48gf",
+   "en": "Division experience drop if unit has different batalion"
+  },
+  {
+   "k": "re88a2",
+   "en": "ARMOR_VS_AVERAGE"
+  },
+  {
+   "k": "zty2vv",
+   "en": "how to weight in highest armor & pen vs the division average"
+  },
+  {
+   "k": "wajb5y",
+   "en": "PEN_VS_AVERAGE"
+  },
+  {
+   "k": "r0zv7v",
+   "en": "LAND_EQUIPMENT_BASE_COST"
+  },
+  {
+   "k": "bebvtw",
+   "en": "Cost in XP to upgrade a piece of equipment one level is base + ( total levels * ramp )"
+  },
+  {
+   "k": "8voeqs",
+   "en": "LAND_EQUIPMENT_RAMP_COST"
+  },
+  {
+   "k": "tbc0ew",
+   "en": "NAVAL_EQUIPMENT_BASE_COST"
+  },
+  {
+   "k": "ie6obn",
+   "en": "NAVAL_EQUIPMENT_RAMP_COST"
+  },
+  {
+   "k": "plyn34",
+   "en": "AIR_EQUIPMENT_BASE_COST"
+  },
+  {
+   "k": "1ulh2sb",
+   "en": "AIR_EQUIPMENT_RAMP_COST"
+  },
+  {
+   "k": "y5j28p",
+   "en": "FASTER_ORG_REGAIN_LEVEL"
+  },
+  {
+   "k": "x5734r",
+   "en": "FASTER_ORG_REGAIN_MULT"
+  },
+  {
+   "k": "18wgg98",
+   "en": "SLOWER_ORG_REGAIN_LEVEL"
+  },
+  {
+   "k": "jjejok",
+   "en": "SLOWER_ORG_REGAIN_MULT"
+  },
+  {
+   "k": "43qfzm",
+   "en": "DISBAND_MANPOWER_LOSS"
+  },
+  {
+   "k": "xnnsui",
+   "en": "MIN_DIVISION_DEPLOYMENT_TRAINING"
+  },
+  {
+   "k": "z1edb1",
+   "en": "Min level of division training"
+  },
+  {
+   "k": "15z0hoe",
+   "en": "FRONTLINE_EXPANSION_FACTOR"
+  },
+  {
+   "k": "30715t",
+   "en": "When attacking along a frontline, how much should units spread out as they advance. 0.0 means head (more or less) directly to the drawn frontline, with no distractions"
+  },
+  {
+   "k": "j4ufec",
+   "en": "FRONT_MIN_PATH_TO_REDEPLOY"
+  },
+  {
+   "k": "kh99j8",
+   "en": "If a units path is at least this long to reach its front location, it will strategically redeploy."
+  },
+  {
+   "k": "1s9kmw9",
+   "en": "ARMY_INITIATIVE_REINFORCE_FACTOR"
+  },
+  {
+   "k": "uvi3mi",
+   "en": "scales initiative for reinforce chance"
+  },
+  {
+   "k": "15g3d1m",
+   "en": "BASE_CAPTURE_EQUIPMENT_RATIO"
+  },
+  {
+   "k": "136fv57",
+   "en": "after a successful land combat, ratio of the equipments that are being captured/salvaged from enemy's lost equipment"
+  },
+  {
+   "k": "kzhxce",
+   "en": "ACCLIMATIZATION_IN_COMBAT_SPEED_FACTOR"
+  },
+  {
+   "k": "3hj0ne",
+   "en": "Acclimatization speed multiplier while being in combat."
+  },
+  {
+   "k": "13mucvb",
+   "en": "ACCLIMATIZATION_SPEED_GAIN"
+  },
+  {
+   "k": "15vm89m",
+   "en": "A variable used to balance the overall speed of gaining the acclimatization"
+  },
+  {
+   "k": "1atknlr",
+   "en": "ACCLIMATIZATION_LOSS_SPEED_FACTOR"
+  },
+  {
+   "k": "tpzq0y",
+   "en": "Loosing one acclimatization while being under affect of the opposite climate should cause it to drop down much faster than gaining."
+  },
+  {
+   "k": "1behmvb",
+   "en": "PROMOTE_LEADER_CP_COST"
+  },
+  {
+   "k": "19dutqa",
+   "en": "cost of promoting a leader"
+  },
+  {
+   "k": "xgj3p2",
+   "en": "FIELD_MARSHAL_ARMY_BONUS_RATIO"
+  },
+  {
+   "k": "8w7lfy",
+   "en": "ratio to apply regular bonuses FM bonuses to armies"
+  },
+  {
+   "k": "1wg26l3",
+   "en": "FIELD_MARSHAL_XP_RATIO"
+  },
+  {
+   "k": "1xbjtic",
+   "en": "xp gain ratio for army group leaders"
+  },
+  {
+   "k": "13y27yg",
+   "en": "GARRISON_ORDER_ARMY_CAP_FACTOR"
+  },
+  {
+   "k": "q4vmzn",
+   "en": "armies gets increased cap when they are garrisoned"
+  },
+  {
+   "k": "1wdurcz",
+   "en": "COMMANDER_LEVEL_UP_STAT_COUNT"
+  },
+  {
+   "k": "1ic1r5e",
+   "en": "num stats gained on level up"
+  },
+  {
+   "k": "ooi4t",
+   "en": "COMMANDER_LEVEL_UP_STAT_WEIGHTS"
+  },
+  {
+   "k": "5o9kuj",
+   "en": "level up stat random base weights attack, defense, planning, logistics"
+  },
+  {
+   "k": "1yijimj",
+   "en": "NAVY_LEADER_LEVEL_UP_STAT_WEIGHTS"
+  },
+  {
+   "k": "kldlp9",
+   "en": "level up stat random base weights attack, defense, maneuvering, coordination"
+  },
+  {
+   "k": "yeu6hq",
+   "en": "UNIT_LEADER_INITIAL_TRAIT_SLOT"
+  },
+  {
+   "k": "4qy1gl",
+   "en": "trait slot for 0 level leader field marshal corps commander navy general operative"
+  },
+  {
+   "k": "1a7d3i",
+   "en": "UNIT_LEADER_TRAIT_SLOT_PER_LEVEL"
+  },
+  {
+   "k": "1eqtac8",
+   "en": "num extra traits on each level field marshal corps commander navy general operative"
+  },
+  {
+   "k": "1i1qw4l",
+   "en": "UNIT_LEADER_USE_NONLINEAR_XP_GAIN"
+  },
+  {
+   "k": "1802n0h",
+   "en": "Whether unit leader XP gain is scaled by 1/<nr_of_traits>"
+  },
+  {
+   "k": "fktv7j",
+   "en": "HOURS_REQ_REJOIN_BORDER_WAR_FOR_INJURED_UNITS"
+  },
+  {
+   "k": "xc9oq8",
+   "en": "minimum hours required for units to rejoin border wars, values below zero will make units never return"
+  },
+  {
+   "k": "v3ajj4",
+   "en": "NEW_COMMANDER_RANDOM_PERSONALITY_TRAIT_CHANCES"
+  },
+  {
+   "k": "1bmwpr5",
+   "en": "chances to gain a personality trait for new generals 50% for first trait 15% for second trait after that"
+  },
+  {
+   "k": "12oswsa",
+   "en": "NEW_COMMANDER_RANDOM_BASIC_TRAIT_CHANCES"
+  },
+  {
+   "k": "6imzdf",
+   "en": "chances to gain a basic trait for new generals"
+  },
+  {
+   "k": "1bhxr1k",
+   "en": "NEW_COMMANDER_RANDOM_STATUS_TRAIT_CHANCES"
+  },
+  {
+   "k": "3jluyx",
+   "en": "chances to gain a status trait for new generals"
+  },
+  {
+   "k": "hrs88d",
+   "en": "NEW_OPERATIVE_RANDOM_PERSONALITY_TRAIT_CHANCES"
+  },
+  {
+   "k": "f0ddob",
+   "en": "chances to gain a personality trait for new operatives 50% for first trait 10% for second trait after that"
+  },
+  {
+   "k": "1szk4wj",
+   "en": "NEW_OPERATIVE_RANDOM_BASIC_TRAIT_CHANCES"
+  },
+  {
+   "k": "kcec2l",
+   "en": "chances to gain a basic trait for new operatives 25% for first trait 5% for second trait after that"
+  },
+  {
+   "k": "1wkq1gv",
+   "en": "NEW_OPERATIVE_RANDOM_STATUS_TRAIT_CHANCES"
+  },
+  {
+   "k": "8jvxh6",
+   "en": "chances to gain a status trait for new operatives"
+  },
+  {
+   "k": "1pm13ky",
+   "en": "NEW_COMMANDER_RANDOM_SKILL_CHANCES"
+  },
+  {
+   "k": "1hmrwxf",
+   "en": "chances to give a random stat skill for new operatives?"
+  },
+  {
+   "k": "iglpdw",
+   "en": "NEW_NAVY_LEADER_RANDOM_SKILL_CHANCES"
+  },
+  {
+   "k": "45qmib",
+   "en": "chances to give a random stat skill point for a new admiral"
+  },
+  {
+   "k": "1oy7now",
+   "en": "UNIT_LEADER_MODIFIER_COOLDOWN_ON_GROUP_CHANGE"
+  },
+  {
+   "k": "1wbsy5g",
+   "en": "time in days for a unit leader to regain its modifiers"
+  },
+  {
+   "k": "1syudqw",
+   "en": "UNIT_LEADER_ASSIGN_TRAIT_COST"
+  },
+  {
+   "k": "kpgbzs",
+   "en": "cost to assign a new trait to a unit leader"
+  },
+  {
+   "k": "1c7e7gn",
+   "en": "ATTACHED_WINGS_ORDER_UPDATE_DAYS"
+  },
+  {
+   "k": "17pjlbk",
+   "en": "Days untill the attached wing will update the order"
+  },
+  {
+   "k": "xxghvw",
+   "en": "BORDER_WAR_WIN_DAYS_AGAINST_EMPTY_OPPONENTS"
+  },
+  {
+   "k": "1lzyhtb",
+   "en": "border wars will be automatically won if no opponent shows up for this duration"
+  },
+  {
+   "k": "vlbqdf",
+   "en": "MAX_RELATIVE_COMBAT_DAMAGE_TO_MODIFY_XP"
+  },
+  {
+   "k": "tlpq6i",
+   "en": "you gain more XP if you are doing more damage relative to enemy, this is the max relative amount to gain following RATe"
+  },
+  {
+   "k": "b055we",
+   "en": "XP_GAIN_FACTOR_FOR_MAX_RELATIVE_COMBAT_DAMAGE"
+  },
+  {
+   "k": "1bwpant",
+   "en": "XP factor scaling for max relative combat damage"
+  },
+  {
+   "k": "kbl9ot",
+   "en": "XP_DECAY_RATE_PER_HOUR_IN_COMBAT"
+  },
+  {
+   "k": "t0vg01",
+   "en": "you get reduced XP as combat drags"
+  },
+  {
+   "k": "1ml9ycg",
+   "en": "MIN_XP_RATE_TO_DECAY"
+  },
+  {
+   "k": "1canix8",
+   "en": "minimum XP factor for dragged combats"
+  },
+  {
+   "k": "1j7enig",
+   "en": "XP_GAIN_PER_OVERRUN_UNIT"
+  },
+  {
+   "k": "mz33q8",
+   "en": "fixed XP gain per overrun unit"
+  },
+  {
+   "k": "4ir8h5",
+   "en": "XP_GAIN_FOR_SHATTERING"
+  },
+  {
+   "k": "1mulkjp",
+   "en": "fixed XP gain per shattered unit"
+  },
+  {
+   "k": "qaelkb",
+   "en": "UNIT_UPKEEP_ATTRITION"
+  },
+  {
+   "k": "amiko3",
+   "en": "Constant attrition value applied to armies."
+  },
+  {
+   "k": "279tik",
+   "en": "FUEL_PENALTY_START_RATIO"
+  },
+  {
+   "k": "13s9ary",
+   "en": "ratio of fuel in an army to start getting penalties"
+  },
+  {
+   "k": "kf4bq",
+   "en": "SURPLUS_SUPPLY_RATIO_FOR_ZERO_FUEL_FLOW"
+  },
+  {
+   "k": "1x4zdhx",
+   "en": "if a supply chunk has more supply needed than this ratio + 1 compared to its max supply flow, the units inside the chiunk will get no fuel"
+  },
+  {
+   "k": "196ahfi",
+   "en": "ARMY_MAX_FUEL_FLOW_MULT"
+  },
+  {
+   "k": "14a4jdn",
+   "en": "max fuel ratio that an army can get per hour, multiplied by supply situation"
+  },
+  {
+   "k": "flyu1u",
+   "en": "ARMY_FUEL_COST_MULT"
+  },
+  {
+   "k": "pkno2j",
+   "en": "fuel cost multiplier for all army related stuff"
+  },
+  {
+   "k": "fzfjkl",
+   "en": "ARMY_COMBAT_FUEL_MULT"
+  },
+  {
+   "k": "1ma0tqg",
+   "en": "fuel consumption ratio in combat (plus ARMY_MOVEMENT_FUEL_MULT if you are also moving. ie offensive combat)"
+  },
+  {
+   "k": "1q2cm0v",
+   "en": "ARMY_TRAINING_FUEL_MULT"
+  },
+  {
+   "k": "qwhfh2",
+   "en": "fuel consumption ratio while training"
+  },
+  {
+   "k": "ndq7aw",
+   "en": "ARMY_MOVEMENT_FUEL_MULT"
+  },
+  {
+   "k": "r16q0e",
+   "en": "fuel consumption ratio while moving"
+  },
+  {
+   "k": "1b1ijyj",
+   "en": "ARMY_NAVAL_TRANSFER_FUEL_MULT"
+  },
+  {
+   "k": "1rpuict",
+   "en": "fuel consumption ratio while naval transferring"
+  },
+  {
+   "k": "576lsp",
+   "en": "ARMY_STRATEGIC_DEPLOYMENT_FUEL_MULT"
+  },
+  {
+   "k": "3l73s0",
+   "en": "fuel consumption ratio while doing strategic deployment"
+  },
+  {
+   "k": "s5gho3",
+   "en": "ARMY_IDLE_FUEL_MULT"
+  },
+  {
+   "k": "1as5q23",
+   "en": "fuel consumption ratio while just existing"
+  },
+  {
+   "k": "1g5wnru",
+   "en": "FUEL_EFFICIENCY_RAID_MULTIPLIER"
+  },
+  {
+   "k": "148o56o",
+   "en": "convoy raid multiplier for fuel sunk"
+  },
+  {
+   "k": "wie4ns",
+   "en": "FUEL_FLOW_PENALTY_FOR_SUPPLY_CHUNK_EDGE_RATIO"
+  },
+  {
+   "k": "1hfz9pw",
+   "en": "supply flow that is limited by control of incoming edge provinces will have lesser effect on fuel flow"
+  },
+  {
+   "k": "12dpiqo",
+   "en": "OUT_OF_FUEL_EQUIPMENT_MULT"
+  },
+  {
+   "k": "15v7j8t",
+   "en": "ratio of the stats that you get from equipments that uses fuel and you lack it"
+  },
+  {
+   "k": "68s5t",
+   "en": "OUT_OF_FUEL_SPEED_MULT"
+  },
+  {
+   "k": "1c48x2z",
+   "en": "speed mult that armies get when out of fuel"
+  },
+  {
+   "k": "im5cn",
+   "en": "OUT_OF_FUEL_TRAINING_XP_GAIN_MULT"
+  },
+  {
+   "k": "9qe7n2",
+   "en": "xp gain mult from training when a unit is out of fuel"
+  },
+  {
+   "k": "z2n3r8",
+   "en": "FUEL_CAPACITY_DEFAULT_HOURS"
+  },
+  {
+   "k": "h1y2ca",
+   "en": "default capacity if not specified"
+  }
+ ]
+}

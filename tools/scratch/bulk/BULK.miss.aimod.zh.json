@@ -1,0 +1,142 @@
+{
+ "items": [
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "1ifa6jw",
+   "zh": "该值是一个 AI 权重，用于按权重随机选择要建造什么。AI 会收集所有数值非零的 build_building 策略（包括动态生成的策略），然后从中选择一个。⟦0⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "ot2rtb",
+   "zh": "促使 AI 在指定的州（如果该建筑以省份为单位，则为指定的省份）内建造特定建筑。⟦0⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "1gwush5",
+   "zh": "AI 会持续建造指定建筑，直到达到目标值（并优先于其他建造项目）。⟦0⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "4ufpqq",
+   "zh": "数值 1 对应 1 座军用工厂。各装备原型的类型定义于⟦0⟧文件中，这些文件位于⟦1⟧内。⟦2⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "1mdrciz",
+   "zh": "促使 AI 为指定⟦0⟧的装备在生产线上保持最低数量的工厂。⟦1⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "mxlhyw",
+   "zh": "AI 的和平会议行为在⟦0⟧文件中定义。⟦1⟧⟦2⟧ ⟦3⟧ ⟦4⟧⟦5⟧ ⟦6⟧ ⟦7⟧⟦8⟧ 示例：⟦9⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "1anmkrf",
+   "zh": "AI 的和平会议行为在⟦0⟧文件中定义。⟦1⟧⟦2⟧⟦3⟧⟦4⟧ ⟦5⟧ ⟦6⟧ 示例：⟦7⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "ugkaav",
+   "zh": "⟦0⟧ 指定 AI 应追求的变体。具体来说，以下参数放在它内部：⟦1⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "49z2va",
+   "zh": "⟦0⟧ 是装备应具备的模块列表，具体包括：⟦1⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "phpb1m",
+   "zh": "⟦0⟧ 是该设计应具备的升级列表，具体包括：⟦1⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "1m91yie",
+   "zh": "⟦0⟧ 目标模板的「核心内容」：模板的实际内容。⟦1⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "a882u5",
+   "zh": "所有参数都是可选的，只需指定其中一个。⟦0⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "rjjlkt",
+   "zh": "在默认兵力集中比例之上追加的系数。⟦0⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "19xrw1l",
+   "zh": "⟦0⟧ 要针对的国家。可以指定多个。⟦1⟧⟦2⟧⟦3⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "pqmhry",
+   "zh": "⟦0⟧ 允许为某个模块槽位指定更多细节：⟦1⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "mwbfoh",
+   "zh": "参见⟦0⟧中的 FORCE_CONCENTRATION_UNIT_RATIO_BASE。⟦1⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "jyixxb",
+   "zh": "基础游戏中的用法包括以下几种：⟦0⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "13y6857",
+   "zh": "所用的目标是⟦0⟧中的角色。⟦1⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "dlsapo",
+   "zh": "⟦0⟧ 要缓冲的单位数量。⟦1⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "1a1qquf",
+   "zh": "⟦0⟧ 该策略的权重。⟦1⟧⟦2⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "s9cx4y",
+   "zh": "⟦0⟧ 该策略的权重。⟦1⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "13htnap",
+   "zh": "⟦0⟧ 要作为目标的州。⟦1⟧⟦2⟧"
+  },
+  {
+   "page": "AI modding",
+   "slug": "AI_modding",
+   "k": "1up7ah4",
+   "zh": "⟦0⟧ 要考虑的⟦1⟧ ⟦2⟧"
+  }
+ ]
+}

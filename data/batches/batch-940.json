@@ -1,0 +1,1055 @@
+{
+ "batch": 940,
+ "pages": [
+  "Character modding"
+ ],
+ "chars": 14982,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "z51ota",
+   "en": "A different character is already recruited as the party leader. In other words, in case of overlap between political parties in different characters, the game will place the first-recruited one as the party leader."
+  },
+  {
+   "k": "1e7pail",
+   "en": "A randomly-generated character is forced to be created prior to recruitment. This can be caused by a different character being fired from their slot as the political party leader (such as if the leader needs to change between start dates) or, in some cases, by ⟦0⟧. It's best to recruit characters before setting the political information for the country.",
+   "frags": 1
+  },
+  {
+   "k": "11mebe8",
+   "en": "set_politics = { ... }"
+  },
+  {
+   "k": "nzjxns",
+   "en": "In case of differences between startdates, use the ⟦0⟧ effect to ensure the new character becomes leader.",
+   "frags": 1
+  },
+  {
+   "k": "7g9axf",
+   "en": "promote_character"
+  },
+  {
+   "k": "1dhrl6d",
+   "en": "Unit leaders"
+  },
+  {
+   "k": "1bk3xau",
+   "en": "Unit leaders include corps commanders, field marshals, and admirals. Respectively, these use ⟦0⟧, ⟦1⟧, and ⟦2⟧ blocks for definition, which are similar in structure.",
+   "frags": 3
+  },
+  {
+   "k": "1140kck",
+   "en": "corps_commander = { ... }"
+  },
+  {
+   "k": "13gcx2p",
+   "en": "field_marshal = { ... }"
+  },
+  {
+   "k": "143zhc",
+   "en": "navy_leader = { ... }"
+  },
+  {
+   "k": "1jdzeli",
+   "en": "⟦0⟧ is the list of ⟦1⟧ assigned to the unit leader, defined in ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "c744vl",
+   "en": "unit leader traits"
+  },
+  {
+   "k": "1xjc449",
+   "en": "/Hearts of Iron IV/common/unit_leader/*.txt"
+  },
+  {
+   "k": "139b3we",
+   "en": "⟦0⟧ is the overall skill level of the unit leader. In addition, specific skills also can be set, with ⟦1⟧ and ⟦2⟧ being shared across all unit leaders, ⟦3⟧ and ⟦4⟧ being only for army leaders, and ⟦5⟧ and ⟦6⟧ being only for navy leaders. To put what each skill level grants to the leader in more detail:",
+   "frags": 7
+  },
+  {
+   "k": "yp1eop",
+   "en": "skill = 4"
+  },
+  {
+   "k": "17mxfg9",
+   "en": "attack_skill = 3"
+  },
+  {
+   "k": "153cgt8",
+   "en": "defense_skill = 2"
+  },
+  {
+   "k": "16mrni2",
+   "en": "planning_skill = 5"
+  },
+  {
+   "k": "pkxlvv",
+   "en": "logistics_skill = 6"
+  },
+  {
+   "k": "tfvt1q",
+   "en": "coordination_skill = 3"
+  },
+  {
+   "k": "1rocn9w",
+   "en": "maneuvering_skill = 5"
+  },
+  {
+   "k": "1tb9ev8",
+   "en": "Unit leader type"
+  },
+  {
+   "k": "kbr0g1",
+   "en": "Effect per level"
+  },
+  {
+   "k": "1k2kmd2",
+   "en": "skill"
+  },
+  {
+   "k": "v0wv6e",
+   "en": "Skill"
+  },
+  {
+   "k": "1fvzoui",
+   "en": "Any unit leader"
+  },
+  {
+   "k": "1oc9z3c",
+   "en": "Army leaders: Nothing Navy leaders: +5% hit chance, +2% fleet coordination."
+  },
+  {
+   "k": "19md12q",
+   "en": "+2% fleet coordination"
+  },
+  {
+   "k": "1474j4v",
+   "en": "attack_skill"
+  },
+  {
+   "k": "12r189p",
+   "en": "Attack"
+  },
+  {
+   "k": "1k1gtlf",
+   "en": "Army leaders: +2.5% offense Navy leaders: +5% damage"
+  },
+  {
+   "k": "4exbgp",
+   "en": "defense_skill"
+  },
+  {
+   "k": "1y4gvsj",
+   "en": "Defense"
+  },
+  {
+   "k": "19f1ojc",
+   "en": "Army leaders: +2.5% defense Navy leaders: +5% defense"
+  },
+  {
+   "k": "ui59dm",
+   "en": "planning_skill"
+  },
+  {
+   "k": "1vvl51g",
+   "en": "Planning"
+  },
+  {
+   "k": "1997h94",
+   "en": "Army leaders only"
+  },
+  {
+   "k": "iq7qzy",
+   "en": "+5% planning speed +2% max bonus from planning"
+  },
+  {
+   "k": "54hnku",
+   "en": "logistics_skill"
+  },
+  {
+   "k": "146p7sg",
+   "en": "Logistics"
+  },
+  {
+   "k": "km5b4e",
+   "en": "-2.5% supply consumption"
+  },
+  {
+   "k": "19sm104",
+   "en": "maneuvering_skill"
+  },
+  {
+   "k": "1zqe2i",
+   "en": "Maneuvering"
+  },
+  {
+   "k": "8bd7kn",
+   "en": "Navy leaders only"
+  },
+  {
+   "k": "1tin08e",
+   "en": "+2.5% positioning +1% naval retreat speed"
+  },
+  {
+   "k": "r3h0ac",
+   "en": "coordination_skill"
+  },
+  {
+   "k": "sqhdwa",
+   "en": "Coordination"
+  },
+  {
+   "k": "lsp6w",
+   "en": "⟦0⟧ is a leftover from the pre-NSB country leader system, making the leader have the specified ID for the ⟦1⟧, the ⟦2⟧, and elsewhere. Unnecessary and should be omitted, use character specific triggers instead.",
+   "frags": 3
+  },
+  {
+   "k": "1f3joxm",
+   "en": "legacy_id = 100"
+  },
+  {
+   "k": "1gpz9l1",
+   "en": "has_id trigger"
+  },
+  {
+   "k": "g8m1va",
+   "en": "has_unit_leader trigger"
+  },
+  {
+   "k": "b6x2od",
+   "en": "⟦0⟧ is a trigger block that the character must fulfill in order for the unit leader to be visible and possible to pick. Additionally, country-scoped triggers are also supported, which'll assume the country that recruited the character. Unnecessary in most cases, as it's possible to ⟦1⟧ within an effect block mid-game.",
+   "frags": 2
+  },
+  {
+   "k": "1hsbcef",
+   "en": "create the unit leader role"
+  },
+  {
+   "k": "8a9vfo",
+   "en": "Examples:"
+  },
+  {
+   "k": "5i4r46",
+   "en": "Scientists"
+  },
+  {
+   "k": "1tw9whr",
+   "en": "To give the character the role of a scientist, the ⟦0⟧ block can be added. It's structure is in principle the same as for ⟦1⟧ etc. They use scientist traits instead of commander traits (as expected), and instead of merely having a skill level they assign a skill level to one of the specializations (four types in the basegame, but there might be more types added by some mods). While adding more than one specialization doesn't produce an error, any specializations beyond the first one are ignored by the game.",
+   "frags": 2
+  },
+  {
+   "k": "12v4701",
+   "en": "scientist"
+  },
+  {
+   "k": "iwq5n",
+   "en": "corps_commander"
+  },
+  {
+   "k": "kg7pdx",
+   "en": "⟦0⟧ The description of scientists doesn't show up.",
+   "frags": 1
+  },
+  {
+   "k": "1tun9v8",
+   "en": "Known bug:"
+  },
+  {
+   "k": "suomh6",
+   "en": "Full example"
+  },
+  {
+   "k": "1cxcbtb",
+   "en": "Within any ⟦0⟧ file",
+   "frags": 1
+  },
+  {
+   "k": "12mxui7",
+   "en": "Within any ⟦0⟧ file:",
+   "frags": 1
+  },
+  {
+   "k": "1md895c",
+   "en": "/Hearts of Iron IV/history/countries/*.txt"
+  },
+  {
+   "k": "bvvzyr",
+   "en": "Instances"
+  },
+  {
+   "k": "1470kyz",
+   "en": "It is also possible for a character to have a different definition depending on set preconditions checked at the game's start. This is done with ⟦0⟧. The character will take on every instance where ⟦1⟧ is true ⟦2⟧. For example, this can be used to make the character to have a different role depending on which DLCs the player has enabled:",
+   "frags": 3
+  },
+  {
+   "k": "1bld5hh",
+   "en": "instance = { ... }"
+  },
+  {
+   "k": "4pxzb0",
+   "en": "allowed = { ... }"
+  },
+  {
+   "k": "3fjp25",
+   "en": "at the game's start"
+  },
+  {
+   "k": "1msnmn8",
+   "en": "Due to its purpose, each instance must have an ⟦0⟧ block and the character must have multiple instances to work properly. If the character only has a single pre-determined state, then the instance should be omitted.",
+   "frags": 1
+  },
+  {
+   "k": "b18qbn",
+   "en": "allowed"
+  },
+  {
+   "k": "15gq6xz",
+   "en": "After being created, a character is mandatory to be assigned to a country. Since the filenames are only used for organisation purposes, this is done within the country's history file (in ⟦0⟧) as such:",
+   "frags": 1
+  },
+  {
+   "k": "b8tje0",
+   "en": "⟦0⟧. The recruitment will fail if the effect is placed as the last line in the file: there must be at least one line after the recruitment, even if it's empty.",
+   "frags": 1
+  },
+  {
+   "k": "12cic3c",
+   "en": "If this is not done, the character cannot ever be used"
+  },
+  {
+   "k": "axvm61",
+   "en": "For characters with a country leader role, the first character recruited from each ideology group will start as country leader for the party of that ideology. For example, let's say that the country history file has the following:"
+  },
+  {
+   "k": "lbdkh0",
+   "en": "In this case, TAG_liberal_leader will be the leader of the democratic ideology/party and thus the starting country leader. TAG_marxist_leader will be the leader of the communist party, TAG_centrist_leader will be the leader of the non-aligned party and TAG_falangist_leader will be the leader of the fascist party."
+  },
+  {
+   "k": "1xzead4",
+   "en": "The characters TAG_stalinist_leader, TAG_conservative_leader, TAG_despotic_leader and TAG_rexist_leader do not start as leaders in this case and will remain only as possible leaders to be used later on. For this reason, it is not necessary for country leader characters to be defined without the role, as long as their ideology group has another character as leader."
+  },
+  {
+   "k": "1l0zxgu",
+   "en": "Characters that are recruited but not currently the leader of their party, such as the TAG_conservative_leader above can later be promoted to leader using the ⟦0⟧ effect. Retiring the previous leader or removing their role is not necessary. Example:",
+   "frags": 1
+  },
+  {
+   "k": "6cwrxs",
+   "en": "If an ideology group is intended to start with a generic country leader, but get a new character country leader later on, it's possible to define this leader as an initially empty character, such as the following:"
+  },
+  {
+   "k": "98y5ku",
+   "en": "⟦0⟧ After doing so, this character can be ⟦1⟧ a role within an effect block using the effect ⟦2⟧. For example, this completion reward for a focus makes a character lead the democratic party:",
+   "frags": 3
+  },
+  {
+   "k": "1dlxlfy",
+   "en": "This character should still be recruited with ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1o3wrg9",
+   "en": "recruit_character = TAG_new_leader"
+  },
+  {
+   "k": "1imz9ti",
+   "en": "given"
+  },
+  {
+   "k": "1mp7qbc",
+   "en": "If a character is intended to be removed from the game \"permanently\", as in death or retirement, ⟦0⟧ (country scope) and ⟦1⟧ (character scope) can be used. This is basically a reverse effect of ⟦2⟧, the character will be dismissed from the country completely. However, this effect is not actually permanent, the character can be re-added to the game using the effect ⟦3⟧ and all their roles will be retained. For scoping purposes, the character is located in the same country as before.",
+   "frags": 4
+  },
+  {
+   "k": "dwj4y2",
+   "en": "retire_character"
+  },
+  {
+   "k": "80rx86",
+   "en": "retire"
+  },
+  {
+   "k": "86xob6",
+   "en": "set_nationality"
+  },
+  {
+   "k": "6s0y28",
+   "en": "Removing a character is not always needed. For example when another character is set to become country leader, using the effect ⟦0⟧ is enough already as the old leader will not affect it in any way. The effect ⟦1⟧ can also be used the remove the leader role from a character, and other roles will also have effects that can be used.",
+   "frags": 2
+  },
+  {
+   "k": "1ybl64x",
+   "en": "remove_country_leader_role"
+  },
+  {
+   "k": "1jzkx1t",
+   "en": "It is not recommended to use effects such as ⟦0⟧, ⟦1⟧, ⟦2⟧ and ⟦3⟧, as these effects will affect ⟦4⟧ that is currently the leader without further confirmation, instead of being able to specify who should be removed.",
+   "frags": 5
+  },
+  {
+   "k": "ci2ldw",
+   "en": "kill_country_leader"
+  },
+  {
+   "k": "t6sw45",
+   "en": "retire_country_leader"
+  },
+  {
+   "k": "js47um",
+   "en": "kill_ideology_leader"
+  },
+  {
+   "k": "mkkcn9",
+   "en": "retire_ideology_leader"
+  },
+  {
+   "k": "b41fz2",
+   "en": "any character"
+  },
+  {
+   "k": "uvzan3",
+   "en": "When dealing with characters, ⟦0⟧ and ⟦1⟧ will behave exactly the same way as ⟦2⟧, meaning the character is dismissed and can be re-added with ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "ltgxnj",
+   "en": "As for ⟦0⟧ and ⟦1⟧, these effects will only remove the leader from the \"line of succession\" of their political party, meaning the next character recruited will be promoted to leader of the party. The old leader will not be removed and will retain all their roles, being able to come back using ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "fzevt5",
+   "en": "Other effects on this topic include ⟦0⟧, ⟦1⟧, ⟦2⟧, ⟦3⟧, and others.",
+   "frags": 4
+  },
+  {
+   "k": "1ayuhgg",
+   "en": "Advisor roles created with ⟦0⟧ cannot contain script, such as ⟦1⟧, ⟦2⟧, ⟦3⟧. It is recommended instead to use ⟦4⟧ with an appropriate ⟦5⟧ for creating advisors that should not be visible at game start. For the same reason, it is not recommended to use ⟦6⟧ on advisors that contain script, as all the triggers and effects will be lost and cannot be added back if needed later on. Usage of these effects should be reserved for characters with more static roles, as in have no conditions or other script.",
+   "frags": 7
+  },
+  {
+   "k": "118yh83",
+   "en": "available = { ... }"
+  },
+  {
+   "k": "wj82kj",
+   "en": "trigger"
+  },
+  {
+   "k": "10dwswj",
+   "en": "remove_advisor_role"
+  },
+  {
+   "k": "8ko0zk",
+   "en": "In order to hire an advisor to be within their proper slot, ⟦0⟧ is used as such:",
+   "frags": 1
+  },
+  {
+   "k": "1s2xf57",
+   "en": "activate_advisor"
+  },
+  {
+   "k": "la1akm",
+   "en": "Where ⟦0⟧ is the ⟦1⟧ defined in the character's advisor role. As an effect, this works within country history files as well.",
+   "frags": 2
+  },
+  {
+   "k": "1iyld71",
+   "en": "TAG_character_name_token"
+  },
+  {
+   "k": "880rw4",
+   "en": "idea_token"
+  },
+  {
+   "k": "1b4o5py",
+   "en": "Portraits of characters, both small and large, can be changed later in game using the effect ⟦0⟧, which works both in character scope and country scope. The same rules as on ⟦1⟧ apply. For example:",
+   "frags": 2
+  },
+  {
+   "k": "1768wh5",
+   "en": "The special case of generate_character"
+  },
+  {
+   "k": "9g4l1p",
+   "en": "The effect ⟦0⟧ is used to create generic characters, such as the generic advisors present in the base game. ⟦1⟧ Example:",
+   "frags": 2
+  },
+  {
+   "k": "ikjhsg",
+   "en": "These have limitations and should not be used as a replacement for regular characters."
+  },
+  {
+   "k": "zivwic",
+   "en": "Although this effect is usually known as being exclusive to history files, it is possible to create the characters mid-game:"
+  },
+  {
+   "k": "8ntuyh",
+   "en": "First step is creating the full effect in the history file, such as the example above. This will be used as a \"template\"."
+  },
+  {
+   "k": "aski7w",
+   "en": "For the in-game effect, ⟦0⟧ is used.",
+   "frags": 1
+  },
+  {
+   "k": "8899fo",
+   "en": "generate_character = { token_base = character_token_base }"
+  },
+  {
+   "k": "3ttfzi",
+   "en": "The first step recruiting the character beforehand can be bypassed by adding a false trigger in the code, such as the following:"
+  },
+  {
+   "k": "5coqys",
+   "en": "Due to the always false trigger, the character will not be recruited by any country, but the template will still work. This character can be added to the game later with the effect:"
+  },
+  {
+   "k": "1f856jk",
+   "en": "⟦0⟧ Using the full effect directly mid-game will not work.",
+   "frags": 1
+  },
+  {
+   "k": "xhu65",
+   "en": "The effect will fail if the \"template\" does not exist in the history files."
+  },
+  {
+   "k": "1daj5m7",
+   "en": "Country leader traits"
+  },
+  {
+   "k": "xfu1jt",
+   "en": "\"Trait modding\" redirects here. For unit leader traits, see ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1w3hw9x",
+   "en": "Despite their name, country leader traits can be applied to either advisors, ideas, or country leaders. Country leader traits are defined in any ⟦0⟧ file. The traits' modifiers will apply to the country that has the character or idea on which the trait is applied. Traits in the file are contained within the ⟦1⟧ block, and will not work otherwise.",
+   "frags": 2
+  },
+  {
+   "k": "x0mued",
+   "en": "/Hearts of Iron IV/common/country_leader/*.txt"
+  },
+  {
+   "k": "9rpjuf",
+   "en": "leader_traits = { ... }"
+  },
+  {
+   "k": "ksptvc",
+   "en": "An example trait file is defined as following:"
+  },
+  {
+   "k": "19ar7oy",
+   "en": "Within country leader traits, these are the arguments that are used:"
+  },
+  {
+   "k": "1md9p05",
+   "en": "⟦0⟧ decides whether there's a possibility that a randomly-created country leader can appear with this trait.",
+   "frags": 1
+  },
+  {
+   "k": "1f1zvko",
+   "en": "random = no"
+  },
+  {
+   "k": "em2p18",
+   "en": "⟦0⟧ decides the sprite that appears in the bottom left of an advisor that has this trait. This must be a number, which corresponds with the frame of the ⟦1⟧ spriteType, defined within ⟦2⟧ by default. Optional.",
+   "frags": 3
+  },
+  {
+   "k": "1xx4p28",
+   "en": "sprite = 1"
+  },
+  {
+   "k": "18pqn1r",
+   "en": "GFX_idea_traits_strip"
+  },
+  {
+   "k": "etbo01",
+   "en": "⟦0⟧ is a ⟦1⟧ that modifies the chance for AI to pick an advisor or idea that has this trait assigned. 1 by default.",
+   "frags": 2
+  },
+  {
+   "k": "jnhaco",
+   "en": "ai_will_do"
+  },
+  {
+   "k": "1d2j64p",
+   "en": "MTTH block"
+  },
+  {
+   "k": "1bwxhqq",
+   "en": "⟦0⟧ determines the price of the political advisor to which this trait is assigned in ⟦1⟧. Mainly applied to military advisors.",
+   "frags": 2
+  },
+  {
+   "k": "1r7xndh",
+   "en": "command_cap"
+  },
+  {
+   "k": "130fjyf",
+   "en": "Command power"
+  },
+  {
+   "k": "1nviswg",
+   "en": "Additionally, ⟦0⟧: ⟦1⟧ and ⟦2⟧ - can be used within traits alongside regular modifiers, in the exact same manner as within ideas. The same does not apply to ⟦3⟧ and ⟦4⟧, however.",
+   "frags": 5
+  },
+  {
+   "k": "aibybo",
+   "en": "special modifier types that can be used in ideas"
+  },
+  {
+   "k": "20t6u8",
+   "en": "targeted_modifier = { ... }"
+  },
+  {
+   "k": "15u2w2o",
+   "en": "equipment_bonus = { ... }"
+  },
+  {
+   "k": "jy65cz",
+   "en": "research_bonus = { ... }"
+  },
+  {
+   "k": "1au7izw",
+   "en": "rule = { ... }"
+  },
+  {
+   "k": "vzof3u",
+   "en": "Localisation is defined by using the trait's name as a localisation key within any localisation file, with an entry as ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "2950y0",
+   "en": "my_trait: \"My trait\""
+  },
+  {
+   "k": "1vrb7ss",
+   "en": "Sprite"
+  },
+  {
+   "k": "129j6d6",
+   "en": "The ⟦0⟧ argument decides shown on the paper for the advisor when an advisor has this. This uses the ⟦1⟧ ⟦2⟧, which can be defined in any ⟦3⟧ file, by default ⟦4⟧. However, it's generally better to avoid overlap in files from the base game to decrease the needed amount of work to make the mod be up to date. Instead, it's possible to overwrite the sprite in a new file. In particular, in case of there being defined several spriteTypes with the same name, the game picks the one that was evaluated later. The filename is used to order the files for the evaluation, using ASCII order, so a file later in that order may contain an overriding sprite. For example, it may be ⟦5⟧, since \"x\" is later than \"i\" in the ASCII alphabet. This may be its contents:",
+   "frags": 6
+  },
+  {
+   "k": "1e53k5y",
+   "en": "ideas.gfx"
+  },
+  {
+   "k": "10ol6jo",
+   "en": "interface/xyz_override.gfx"
+  },
+  {
+   "k": "1jfwkou",
+   "en": "⟦0⟧ decides on the number of sections that the file is separated into, always horizontally. For example, with 3, it'd be divided into the left third (frame 1), middle third (frame 2), and the right third (frame 3). This is used in the ⟦1⟧ of the trait: ⟦2⟧ would pick frame 1 and thus the left third, while ⟦3⟧ will pick the right third.",
+   "frags": 4
+  },
+  {
+   "k": "ze7hbt",
+   "en": "noOfFrames"
+  },
+  {
+   "k": "101dk4c",
+   "en": "sprite"
+  },
+  {
+   "k": "1yh3wg6",
+   "en": "sprite = 3"
+  },
+  {
+   "k": "1xpun1w",
+   "en": "In particular, these are the important notes:"
+  },
+  {
+   "k": "piozvs",
+   "en": "⟦0⟧ if the image is changed from the base game's default",
+   "frags": 1
+  },
+  {
+   "k": "1d84igx",
+   "en": "It is mandatory to change the noOfFrames"
+  },
+  {
+   "k": "zltsva",
+   "en": "⟦0⟧ in most cases. If the image for the trait strip is edited, it will not break the mod as much upon game updates to keep it copied, however any newly-added sprites will become unusable unless manually ported over, which can be avoided by just using a different file for new sprites.",
+   "frags": 1
+  },
+  {
+   "k": "ahwc5c",
+   "en": "Base game's ⟦0⟧ should not exist within the mod",
+   "frags": 1
+  },
+  {
+   "k": "19c8tzl",
+   "en": "Unit leader traits"
+  },
+  {
+   "k": "kcm93d",
+   "en": "Units leader traits are defined in any ⟦0⟧ file, possible to assign to unit leader characters of any type as well as operatives. Each one is defined within the ⟦1⟧ block as a separate entry with the name of the trait's ID.",
+   "frags": 2
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "bs49oj",
+   "en": "Localisation is defined by using the trait's name as a localisation key within any localisation file, with an entry as ⟦0⟧. A description can be added by appending ⟦1⟧ to the end as ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1sa4fyn",
+   "en": "_desc"
+  },
+  {
+   "k": "17qlrp2",
+   "en": "my_trait_desc: \"My description\""
+  },
+  {
+   "k": "1jqhvu0",
+   "en": "GFX"
+  },
+  {
+   "k": "qc107h",
+   "en": "The picture is defined in any ⟦0⟧ file as a spriteType with the name of ⟦1⟧. As an example with a trait of the name ⟦2⟧, a sprite definition with the name of ⟦3⟧ will be used. The ⟦4⟧ file containing the sprite will have these contents:",
+   "frags": 5
+  },
+  {
+   "k": "1ge9fkd",
+   "en": "GFX_trait_<trait's name>"
+  },
+  {
+   "k": "mwrmhq",
+   "en": "not_polish_person"
+  },
+  {
+   "k": "9uli6h",
+   "en": "GFX_trait_not_polish_person"
+  },
+  {
+   "k": "1k7t2xv",
+   "en": "General arguments"
+  },
+  {
+   "k": "fy72ae",
+   "en": "Argument"
+  },
+  {
+   "k": "ogencu",
+   "en": "Value type"
+  },
+  {
+   "k": "55ja69",
+   "en": "Example"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "1hevplj",
+   "en": "Type(s)"
+  },
+  {
+   "k": "16jt480",
+   "en": "type = corps_commander type = { land navy }"
+  },
+  {
+   "k": "w0j1nv",
+   "en": "Assigns a type to the trait, which gets used to assign which characters are able to receive it."
+  },
+  {
+   "k": "1wy7fnd",
+   "en": "The types include ⟦0⟧, ⟦1⟧, ⟦2⟧, ⟦3⟧, ⟦4⟧, and ⟦5⟧",
+   "frags": 6
+  },
+  {
+   "k": "uhwqe4",
+   "en": "land"
+  },
+  {
+   "k": "lrzqw6",
+   "en": "operative"
+  },
+  {
+   "k": "1e01qee",
+   "en": "field_marshal"
+  },
+  {
+   "k": "omkzw4",
+   "en": "trait_type"
+  },
+  {
+   "k": "16ti0rd",
+   "en": "Trait type"
+  },
+  {
+   "k": "1by5il7",
+   "en": "trait_type = assignable_trait"
+  },
+  {
+   "k": "fxzxva",
+   "en": "Assigns a type to the trait, which gets used to assign where it's positioned on the user interface, as well as deciding if and when it's possible to assign."
+  },
+  {
+   "k": "1vkg7p6",
+   "en": "The types include ⟦0⟧ (for operatives), ⟦1⟧, ⟦2⟧, ⟦3⟧, ⟦4⟧, ⟦5⟧, and ⟦6⟧",
+   "frags": 7
+  },
+  {
+   "k": "kkr0x6",
+   "en": "basic_trait"
+  },
+  {
+   "k": "lninq8",
+   "en": "personality_trait"
+  },
+  {
+   "k": "1iz1bun",
+   "en": "assignable_trait"
+  },
+  {
+   "k": "rwq4h8",
+   "en": "basic_terrain_trait"
+  },
+  {
+   "k": "ze6b79",
+   "en": "assignable_terrain_trait"
+  },
+  {
+   "k": "1g83sys",
+   "en": "status_trait"
+  },
+  {
+   "k": "7wisxk",
+   "en": "exile"
+  },
+  {
+   "k": "b7ddfr",
+   "en": "show_in_combat"
+  },
+  {
+   "k": "1tn5u8v",
+   "en": "Boolean"
+  },
+  {
+   "k": "vn015v",
+   "en": "show_in_combat = yes"
+  },
+  {
+   "k": "1vv3v5c",
+   "en": "Makes this specified trait show up in the combat menu among other bonuses."
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "shhozh",
+   "en": "allowed = { FROM = { tag = POL } }"
+  },
+  {
+   "k": "12v8job",
+   "en": "Triggers that are checked when trying to assign the trait to a unit leader, making it fail to assign if false. Checked in the scope of the unit leader."
+  },
+  {
+   "k": "d6rl0u",
+   "en": "FROM is the country that recruited the character."
+  },
+  {
+   "k": "u2mhcx",
+   "en": "ai_will_do = { base = 3 modifier = { FROM = { tag = POL } } }"
+  }
+ ]
+}

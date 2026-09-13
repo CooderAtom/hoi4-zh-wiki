@@ -1,0 +1,757 @@
+{
+ "batch": 1162,
+ "pages": [
+  "Land battle"
+ ],
+ "chars": 14932,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1dduyja",
+   "en": "A ⟦0⟧ is a combat in the defending ⟦1⟧' ⟦2⟧ initiated by attacking divisions trying to move into the province. It is resolved in one-hour-turns, with divisions dealing damage against automatically selected enemy divisions. The battle is won by either side when the opponent runs out of frontline divisions able to continue fighting. If the attacker wins, the defender's units are forced to retreat to another province (or shatter if they have nowhere to retreat).",
+   "frags": 3
+  },
+  {
+   "k": "vaopi6",
+   "en": "land battle"
+  },
+  {
+   "k": "96peof",
+   "en": "divisions"
+  },
+  {
+   "k": "71r0hx",
+   "en": "province"
+  },
+  {
+   "k": "qsqw5i",
+   "en": "Tactics"
+  },
+  {
+   "k": "h362p",
+   "en": "Main article: Combat tactics"
+  },
+  {
+   "k": "13fag55",
+   "en": "Tactics are automatically selected by the leading generals. They provide damage, movement speed, and base combat width modifiers in the battle."
+  },
+  {
+   "k": "1m41vt1",
+   "en": "Combat width"
+  },
+  {
+   "k": "1el8u9u",
+   "en": "The maximum concentration of force of both sides in a battle is limited by its combat width. The available width is increased if attackers are engaging from multiple provinces (flanking). Paradrops will add another flanking direction, as will naval invasions. Base width, and subsequently flanking width, is dependent on ⟦0⟧ where the combat is taking place.",
+   "frags": 1
+  },
+  {
+   "k": "wf9ma6",
+   "en": "terrain"
+  },
+  {
+   "k": "q6kmz7",
+   "en": "The combat width of a division is the total width of its battalions. Most battalions have a combat width of two, artillery (including motorized and self-propelled) guns have a combat width of three. Anti-tank and anti-air battalions (including motorized) have a combat width of one. Support companies occupy no combat width. (See also ⟦0⟧.) The Vast Offensives and Human Wave Offensive technologies from mutually exclusive branches of the Mass Assault doctrine tree reduce the width of ordinary infantry battalions by 0.4, meaning 25% more infantry battalions can fit in the same infantry frontage. The Holding the Line technology from the Mountaineers Special Forces doctrine tree reduces the width of mountaineer battalions by 0.2.",
+   "frags": 1
+  },
+  {
+   "k": "h6rzgt",
+   "en": "Land_units#Unit_types"
+  },
+  {
+   "k": "33wy4b",
+   "en": "At the start of a battle or when reinforcing (see below), divisions will be added from the reserve to the frontline unless the combat width has already been filled or the combat width penalty would exceed ⟦0⟧.⟦1⟧ The combat width penalty is calculated as ⟦2⟧⟦3⟧ * (total_width - battle_width) / battle_width.",
+   "frags": 4
+  },
+  {
+   "k": "8a9vfo",
+   "en": "Examples:"
+  },
+  {
+   "k": "1tmej7j",
+   "en": "In an 80-width ⟦0⟧ battle, it is possible to have 106 total width (penalty of -32.5%), but not 107 (penalty of -33.75%).",
+   "frags": 1
+  },
+  {
+   "k": "jyh4jf",
+   "en": "Urban"
+  },
+  {
+   "k": "1pzjf6w",
+   "en": "In a 70-width ⟦0⟧ battle, the last out of 8 divisions of 10-widths will remain in reserve, because the combat width is already filled, even though the combat width penalty would only be ≈ -14.29% (from -100% * (80-70)/70).",
+   "frags": 1
+  },
+  {
+   "k": "ntjuzg",
+   "en": "Plains"
+  },
+  {
+   "k": "1nsuloo",
+   "en": "Reserves"
+  },
+  {
+   "k": "15onszr",
+   "en": "Divisions that initially did not fit into the combat width or that join the combat after it has already started end up in reserves. While in reserve, these units do not take or deal damage, do not regain organization and do not increase their entrenchment or preparation bonuses. They do provide recon and anti-air capabilities though."
+  },
+  {
+   "k": "1sl4ljw",
+   "en": "One unit in reserve has a chance to join combat every hour as long as there is combat width available. The base chance to join is only 2%⟦0⟧ per hour (so mean time to join is about 35 hours). This chance is greatly improved by having Radio researched, by division speed, doctrine tech, and having a signals company attached to the division.",
+   "frags": 1
+  },
+  {
+   "k": "14n4j86",
+   "en": "As a defender, try providing reserves in a timely manner so they have time to reinforce the frontline and are not forced to retreat and potentially be overrun. If fighting at full width with fresh reserves, consider manually retreating your defending units that are very low on organization one at a time one province away from the front so they can recover and reserves can fill in. Otherwise, you run a risk that all frontline troops get low on organization and retreat at the same time, giving reserves no chance to reinforce."
+  },
+  {
+   "k": "1ot0auk",
+   "en": "If you are on the attacking side, consider not attacking with more units than can fit into combat width so that the rest, instead of waiting in reserve, can recover organization and gain the planning bonus. When you do have reserves and width available (if they caught up, or a division runs out of organization) and all defender units are already fighting, instead of waiting for reinforcement, it can be useful to stop the combat and attack again so all your units join immediately."
+  },
+  {
+   "k": "kcrj8q",
+   "en": "Attacks"
+  },
+  {
+   "k": "1t087sm",
+   "en": "When encountering a target of a particular hardness, the ⟦0⟧ and ⟦1⟧ stats of the damage dealing division are combined to produce a number of attacks against the target. The more ⟦2⟧ the target has, the more hard attack factors into the number of attacks and vice versa. For example, a division with 0% hardness receives all soft attacks and none of the hard attacks while a division with 25% hardness would receive 25% of the hard attacks and 75% of the soft attacks.",
+   "frags": 3
+  },
+  {
+   "k": "puhwxz",
+   "en": "soft attack"
+  },
+  {
+   "k": "1wjswe8",
+   "en": "hard attack"
+  },
+  {
+   "k": "guqezr",
+   "en": "hardness"
+  },
+  {
+   "k": "p8p3eo",
+   "en": "Defenses"
+  },
+  {
+   "k": "1nrsbim",
+   "en": "The target of damage has a number of defenses to partially protect it. For divisions on the defender's side this is the ⟦0⟧ stat, on the attacker's side it is ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1y4gvsj",
+   "en": "Defense"
+  },
+  {
+   "k": "fc2ybl",
+   "en": "Breakthrough"
+  },
+  {
+   "k": "8vzfne",
+   "en": "Damage dealing"
+  },
+  {
+   "k": "1k2jnai",
+   "en": "In damage dealing, the number of attacks is ⟦0⟧ and the number of defenses is ⟦1⟧⟦2⟧. Both attacks and defenses reset every hour.",
+   "frags": 3
+  },
+  {
+   "k": "1vdj6i7",
+   "en": "round(hardness modified attack / 10)"
+  },
+  {
+   "k": "3kdijq",
+   "en": "round(defense / 10)"
+  },
+  {
+   "k": "1c7xjnc",
+   "en": "Each attack has the potential to be a hit (causes HP and organization damage) or a miss (no effect on HP and organization). After each attack, the defending unit removes one defense (if it has some left). The hit chance depends on whether the defender had any defenses left. If it did, the hit chance is ⟦0⟧.⟦1⟧ Without any defenses left, the chance increases to ⟦2⟧.⟦3⟧",
+   "frags": 4
+  },
+  {
+   "k": "17k457i",
+   "en": "For each hit, the amount of possible damage done is randomly determined by a die. For HP damage, the dice size is 2⟦0⟧ and for organization damage, it is 4⟦1⟧. The exact amount of damage done to HP and organization per hit is calculated by multiplying the obtained die rolls with the damage modifiers (base modifiers of ⟦2⟧ for strength and ⟦3⟧ for organization, ⟦4⟧ attack modifiers, and armor reduction).⟦5⟧ Other modifiers affect the number of attacks, thus the number of hits, but not the amount of resulting damage ⟦6⟧ hit.",
+   "frags": 7
+  },
+  {
+   "k": "17vg8zm",
+   "en": "0.06x⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1egswzu",
+   "en": "0.053x⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "11wu1ly",
+   "en": "tactics"
+  },
+  {
+   "k": "trqois",
+   "en": "per"
+  },
+  {
+   "k": "1es4get",
+   "en": "When armored units target a unit that has insufficient piercing, the organization dice size is increased to 6⟦0⟧, representing the ability of the armored unit to move more freely under fire, obtain better positioning and thus deal more damage. This means an unpierced armored unit on average does 3.5 organization damage per hit instead of 2.5, a ⟦1⟧ increase.",
+   "frags": 2
+  },
+  {
+   "k": "3hzfmc",
+   "en": "As a unit takes HP damage in combat, its damage output gets scaled down. The scaling is rounded to multiples of 10%, e.g. for strength less than 100% but greater or equal to 90%, the damage output is scaled by 90%. Note that damage done to a unit's HP does not change the other stats of the unit before the combat is finished."
+  },
+  {
+   "k": "m9r39q",
+   "en": "To summarize the above with an example: an armored division with 1000 soft attack vs an infantry division with 500 defense stat."
+  },
+  {
+   "k": "1lmt854",
+   "en": "50 attacks against defense have a 10% hit chance."
+  },
+  {
+   "k": "ttxf75",
+   "en": "50 attacks against no defense have 40% hit chance."
+  },
+  {
+   "k": "gaib0v",
+   "en": "On average, the infantry division is hit 50 * 0.1 + 50 * 0.4 = 25 times."
+  },
+  {
+   "k": "18r0qkn",
+   "en": "For each organization die roll, 3.5 is expected."
+  },
+  {
+   "k": "1xm1rec",
+   "en": "The armored division is damaged to slightly less than 100% HP and so has a 90% damage scaling factor."
+  },
+  {
+   "k": "lvjwtz",
+   "en": "In total, the armored division is expected to deal 25 * 3.5 * 90% * 0.053 = 4.17375 organization damage per hour. For a regular infantry division with 50-60 organization, the combat is expected to finish in about half a day."
+  },
+  {
+   "k": "1q4dd9c",
+   "en": "Targeting"
+  },
+  {
+   "k": "a5v99l",
+   "en": "Divisions do not attack enemies uniformly. Each division has an \"Engagement Width\"⟦0⟧ of twice⟦1⟧ its own combat width, used to create a list of targets. Enemy divisions are added in a random order, rejecting any that would cause the list of targets to exceed the engagement width. If none of the enemy division fit, one is picked randomly.",
+   "frags": 2
+  },
+  {
+   "k": "otrek9",
+   "en": "For example, a 36 width division has an engagement width of 72. Its list of targets could include five 14 width divisions (5*14 < 72) but if it were to encounter five 15 width divisions it would only engage four of them at a time (5*15 > 72). Whenever there is a pool of targets where none of them fit into the engagement width of the one picking the targets, one will be chosen randomly. If there are any targets that don't fit into the engagement width, and some others that do, the ones that do not fit are ignored and targets will only be chosen from those that do fit into the engagement width."
+  },
+  {
+   "k": "1vs3t0j",
+   "en": "The attacks are split into an uncoordinated and coordinated part. Uncoordinated attacks are spread between all targets in the engagement width according to their respective width. One selected priority target additionally receives all of the coordinated attacks, increasing the chance to overcome its defenses."
+  },
+  {
+   "k": "1dqdwxb",
+   "en": "The coordinated share is 35%⟦0⟧ + Coordination × (1 + Initiative).⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1s5gsp7",
+   "en": "Initiative is a division stat that is usually gained from the ⟦0⟧, though it can also be gained from other sources.",
+   "frags": 1
+  },
+  {
+   "k": "13gscjm",
+   "en": "Signal companies"
+  },
+  {
+   "k": "vdsjqy",
+   "en": "Coordination is a global stat that is usually gained from researching ⟦0⟧ and ⟦1⟧, but can also be gained from certain ⟦2⟧ and ⟦3⟧ spirits.",
+   "frags": 4
+  },
+  {
+   "k": "1ro1olq",
+   "en": "Radio technologies"
+  },
+  {
+   "k": "e8nufn",
+   "en": "RADAR technologies"
+  },
+  {
+   "k": "wogy4f",
+   "en": "land doctrines"
+  },
+  {
+   "k": "1aimk2s",
+   "en": "officer corps"
+  },
+  {
+   "k": "1bo1ogf",
+   "en": "The priority target is chosen by⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1a6qyts",
+   "en": "considering how hardness affects the number of ⟦0⟧ the attacker would have against the target, with a slight bias for hard attacks⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "w80mxv",
+   "en": "effective attacks"
+  },
+  {
+   "k": "1bdotni",
+   "en": "⟦0⟧ targets: if armor exceeds the attacker's piercing, the rating is halved",
+   "frags": 1
+  },
+  {
+   "k": "11v36cs",
+   "en": "avoiding armored"
+  },
+  {
+   "k": "1wwoil3",
+   "en": "favoring ⟦0⟧: based on the formula ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "iagc5f",
+   "en": "low organizaton"
+  },
+  {
+   "k": "ox512g",
+   "en": "100 % − org ratio / 4 {\\displaystyle 100\\%-{\\text{org ratio}}/4}"
+  },
+  {
+   "k": "1rlkpzs",
+   "en": "E.g. a 36 width division with 1000 attacks has five 14 width divisions with 200 defense on its list of targets. There are no additional modifiers to coordination in play. 650 attacks will then be allocated to the split attack. Each enemy division will receive 130 of those. The remaining 350 that was partitioned off with then be applied to whichever is considered the best target. If there are no other divisions left to be assigning attacks, the attacks are then compared to defences and resolved as hits. The 4 sub-targets will each receive 130 attacks compared to their 200 defense, while the primary target will receive 480 compared to 200 defense. If there was a second attacking division that had the exact same distribution, the sub-targets would each receive 260 hits against 200 defense, and the primary would get 960 against 200 defense."
+  },
+  {
+   "k": "gfevzl",
+   "en": "Collateral damage"
+  },
+  {
+   "k": "1ojgxom",
+   "en": "Infrastructure in the state and fortifications in the province receive damage based on the attacker's attacks. The amount scales with the attacker's number of attacks, soft attack component and damage scaling factor. Damage against fortifications only occurs with a probability of 5%⟦0⟧ while ⟦1⟧ always gets damaged. Attacks by close air support do not cause collateral damage.",
+   "frags": 2
+  },
+  {
+   "k": "1icrwoe",
+   "en": "Infrastructure"
+  },
+  {
+   "k": "83v2p6",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\text{collateral damage} = 0.1 \\cdot \\text{soft attack} \\cdot \\#\\text{ of attacks} \\cdot \\text{damage dealing factor}}"
+  },
+  {
+   "k": "16ure3r",
+   "en": "The damage against infrastructure gets scaled further as described in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "185lpay",
+   "en": "Construction#Damage_and_repair"
+  },
+  {
+   "k": "16qcjvv",
+   "en": "The Siege Artillery ability doubles both the probability and the damage against land forts."
+  },
+  {
+   "k": "cfxqf1",
+   "en": "Combat factors"
+  },
+  {
+   "k": "wxo6si",
+   "en": "The following factors modify the number of attacks and/or defenses a unit has in combat (list is not exhaustive). All factors stack multiplicatively, so it is possible to reach very low or high values depending the tactical situation."
+  },
+  {
+   "k": "16xp6r8",
+   "en": "Terrain: the attacker receives attack and breakthrough penalties in rough terrain, up to ⟦0⟧ (even more with heavy units)",
+   "frags": 1
+  },
+  {
+   "k": "8ryx93",
+   "en": "River crossing: penalty of ⟦0⟧ or ⟦1⟧ for attacker attack and breakthrough depending on the river size",
+   "frags": 2
+  },
+  {
+   "k": "1rwgbo4",
+   "en": "Night: penalty of ⟦0⟧ for attacks of both sides, mitigatable with ⟦1⟧ bonuses",
+   "frags": 2
+  },
+  {
+   "k": "8iaikq",
+   "en": "Land Night Attack"
+  },
+  {
+   "k": "rmm34f",
+   "en": "Fort: penalty for attacker attack and breakthrough of ⟦0⟧ per fort level. Each extra attacking direction cancels out one fort level, but not the last level.",
+   "frags": 1
+  },
+  {
+   "k": "y8ol3p",
+   "en": "Encirclement: penalty for defender ⟦0⟧ if all surrounding land provinces are enemy-controlled (excluding islands)",
+   "frags": 1
+  },
+  {
+   "k": "j55q7",
+   "en": "Enemy air superiority: up to ⟦0⟧ penalty for whichever side is facing hostile ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "5lpege",
+   "en": "air superiority"
+  },
+  {
+   "k": "v6hb7a",
+   "en": "Low supply: scaling attack/defense penalties up to ⟦0⟧/⟦1⟧ and ⟦2⟧/⟦3⟧ for the attacker and defender, respectively",
+   "frags": 4
+  },
+  {
+   "k": "6iphrr",
+   "en": "Exceeding combat width penalty: ⟦0⟧⟦1⟧ per extra percent of combat width, up to ⟦2⟧⟦3⟧",
+   "frags": 4
+  },
+  {
+   "k": "p4j0ws",
+   "en": "Stacking penalty for having too many divisions in combat: ⟦0⟧ per division over the stacking limit. The stacking limit is 5⟦1⟧, plus 3⟦2⟧ per flanking direction.",
+   "frags": 3
+  },
+  {
+   "k": "wboaeg",
+   "en": "In multiple combats: ⟦0⟧ for a division that is in multiple combats (e.g. attacking while being attacked)",
+   "frags": 1
+  },
+  {
+   "k": "17w1pte",
+   "en": "Paradrop penalty: ⟦0⟧ combat penalty for 48⟦1⟧ hours after being paradropped",
+   "frags": 2
+  },
+  {
+   "k": "1pjw3n2",
+   "en": "Amphibious penalty: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1qzce3a",
+   "en": "Commander skill: ⟦0⟧ per skill point for both attack and defense",
+   "frags": 1
+  },
+  {
+   "k": "10tj91e",
+   "en": "Planning bonus: up to ⟦0⟧ for the attacker, which can be further improved by a doctrine to ⟦1⟧ or more",
+   "frags": 2
+  },
+  {
+   "k": "1uggb8i",
+   "en": "Entrenchment: ⟦0⟧ for the defender per each point built",
+   "frags": 1
+  },
+  {
+   "k": "1qmnqtz",
+   "en": "Air support: bonus to attack and defense (in addition to direct damage support planes do)"
+  },
+  {
+   "k": "19mq0k6",
+   "en": "Country bonus"
+  },
+  {
+   "k": "1lfcetz",
+   "en": "Division experience: ⟦0⟧ for ⟦1⟧, ⟦2⟧ for ⟦3⟧, ⟦4⟧ for ⟦5⟧, ⟦6⟧ for ⟦7⟧, and ⟦8⟧ for ⟦9⟧⟦10⟧",
+   "frags": 11
+  },
+  {
+   "k": "1azd270",
+   "en": "Green"
+  },
+  {
+   "k": "sfh44g",
+   "en": "Trained"
+  },
+  {
+   "k": "1s6jws7",
+   "en": "Regular"
+  },
+  {
+   "k": "u2duk9",
+   "en": "Seasoned"
+  },
+  {
+   "k": "kmmyit",
+   "en": "Veterans"
+  },
+  {
+   "k": "x3wtzj",
+   "en": "Intel advantage: up to ⟦0⟧ from army intel advantage (starting at 5⟦1⟧ and maxing out at 50⟦2⟧ intel advantage)",
+   "frags": 3
+  },
+  {
+   "k": "c3eh2j",
+   "en": "Tactics: +20% from breakthrough as an example."
+  },
+  {
+   "k": "1c75x24",
+   "en": "For example:"
+  },
+  {
+   "k": "1vs13ra",
+   "en": "experience ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "12dung7",
+   "en": "entrenchment ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1dj0z41",
+   "en": "terrain ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1bbew1a",
+   "en": "country ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "vgxc13",
+   "en": "commander skill ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1toxw2o",
+   "en": "results in a modifier of ⟦0⟧ to base stats (1.75*1.4*1.2*1.4*1.35=5.56)",
+   "frags": 1
+  },
+  {
+   "k": "owb1ey",
+   "en": "The final factor is capped at 1% if the multiplied value is lower."
+  },
+  {
+   "k": "of8i1c",
+   "en": "Equipment damage"
+  },
+  {
+   "k": "1we62m0",
+   "en": "After the battle ends, the ratio of HP lost is translated into equipment and manpower losses with a factor of 70%.⟦0⟧ The stats of the unit are locked during the combat if the template is unchanged, and are only updated after the combat.",
+   "frags": 1
+  },
+  {
+   "k": "1kxceb5",
+   "en": "Equipment capture"
+  },
+  {
+   "k": "1hmlxyy",
+   "en": "The winning side of the battle can capture a portion of the enemy's lost equipment if they have the Equipment Capture Ratio (ECR) stat. The default value for this stat is ⟦0⟧,⟦1⟧ but can be gained through the use of ⟦2⟧, the ⟦3⟧ ⟦4⟧ trait, and various ⟦5⟧. Each division gets access to a portion of the enemy losses according to its manpower times its ECR and recovers equipment according to its ECR. For example, if the winning side of a battle has one division with 10000 ⟦6⟧ and 5% ECR and another division with 20000 ⟦7⟧ and 10% ECR, the former will recover 20% * 5% = 1% of the enemy's lost equipment while the latter will recover 80% * 10% = 8% (80% vs. 20% due to having 4 times the manpower times ECR).",
+   "frags": 8
+  },
+  {
+   "k": "12u2f9b",
+   "en": "Maintenance companies"
+  },
+  {
+   "k": "162dvvf",
+   "en": "Scavenger"
+  },
+  {
+   "k": "a6tffv",
+   "en": "general"
+  },
+  {
+   "k": "yt10lt",
+   "en": "national spirits"
+  },
+  {
+   "k": "17vxw9s",
+   "en": "Manpower"
+  },
+  {
+   "k": "1l1hyhi",
+   "en": "Equipment recovery"
+  },
+  {
+   "k": "1jijfoz",
+   "en": "The winning side recovers a portion of its own equipment based on its reliability. Each division recovers ⟦0⟧ ⟦1⟧ of its lost equipment, including shot down air support planes. With enough divisions, the total recovery ratio can exceed 100%.⟦2⟧ For example, 15 divisions successfully attacking with 90% reliability infantry equipment will in total recover ⟦3⟧ of the equipment they lost.",
+   "frags": 4
+  }
+ ]
+}

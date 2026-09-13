@@ -1,0 +1,656 @@
+{
+ "page": "Modifiers",
+ "from": 1300,
+ "items": [
+  {
+   "k": "33lo0z",
+   "en": "modifier_army_sub_unit_armored_car_attack_factor = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "1j1h4dt",
+   "en": "Allowed unit types are all defined batallions, including those added through mods.",
+   "zh": ""
+  },
+  {
+   "k": "1r3vila",
+   "en": "modifier_army_sub_unit_<unit type>_defence_factor",
+   "zh": ""
+  },
+  {
+   "k": "1jri51x",
+   "en": "modifier_army_sub_unit_armored_car_defence_factor = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "xw27zv",
+   "en": "modifier_army_sub_unit_<unit type>_speed_factor",
+   "zh": ""
+  },
+  {
+   "k": "sgi9f8",
+   "en": "modifier_army_sub_unit_armored_car_speed_factor = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "1gg7zrf",
+   "en": "army_morale",
+   "zh": ""
+  },
+  {
+   "k": "l44q86",
+   "en": "Modifies the division recovery rate.",
+   "zh": ""
+  },
+  {
+   "k": "1lr2h91",
+   "en": "army_morale = 10",
+   "zh": ""
+  },
+  {
+   "k": "1fn8qtz",
+   "en": "army_morale_factor",
+   "zh": ""
+  },
+  {
+   "k": "to4ffo",
+   "en": "Modifies the division recovery rate by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1xwky37",
+   "en": "army_morale_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "o70z8d",
+   "en": "army_org",
+   "zh": ""
+  },
+  {
+   "k": "1d8olnz",
+   "en": "Modifies the army's organisation.",
+   "zh": ""
+  },
+  {
+   "k": "1tqvcdf",
+   "en": "army_org = 10",
+   "zh": ""
+  },
+  {
+   "k": "lblnw1",
+   "en": "army_org_factor",
+   "zh": ""
+  },
+  {
+   "k": "1af512d",
+   "en": "Modifies the army's organisation by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "7rz67x",
+   "en": "army_org_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "gyj81g",
+   "en": "army_org_regain",
+   "zh": ""
+  },
+  {
+   "k": "98v3ug",
+   "en": "Modifies the army's organisation regain speed by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "u5nodw",
+   "en": "army_org_regain = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "ddn2j1",
+   "en": "breakthrough_factor",
+   "zh": ""
+  },
+  {
+   "k": "vpqrfd",
+   "en": "Modifies the army's breakthrough.",
+   "zh": ""
+  },
+  {
+   "k": "1ay509",
+   "en": "breakthrough_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1opnpjc",
+   "en": "cas_damage_reduction",
+   "zh": ""
+  },
+  {
+   "k": "awr1oa",
+   "en": "Reduces the damage dealt by close air support.",
+   "zh": ""
+  },
+  {
+   "k": "1k0zubs",
+   "en": "cas_damage_reduction = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "obz5h0",
+   "en": "combat_width_factor",
+   "zh": ""
+  },
+  {
+   "k": "12rdweu",
+   "en": "Changes our own combat width.",
+   "zh": ""
+  },
+  {
+   "k": "7edy5w",
+   "en": "combat_width_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1m8jpqq",
+   "en": "coordination_bonus",
+   "zh": ""
+  },
+  {
+   "k": "1hyfljf",
+   "en": "Changes the bonus to coordination, that is how much damage is done to the primary target instead of being spread out.",
+   "zh": ""
+  },
+  {
+   "k": "1tvvgxu",
+   "en": "coordination_bonus = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "fymv4f",
+   "en": "dig_in_speed",
+   "zh": ""
+  },
+  {
+   "k": "1do74ta",
+   "en": "Changes entrenchment speed.",
+   "zh": ""
+  },
+  {
+   "k": "s53m1i",
+   "en": "dig_in_speed = 2",
+   "zh": ""
+  },
+  {
+   "k": "sxikab",
+   "en": "dig_in_speed_factor",
+   "zh": ""
+  },
+  {
+   "k": "1bm510c",
+   "en": "Changes entrenchment speed by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "x0pi3t",
+   "en": "dig_in_speed_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1uo440y",
+   "en": "experience_gain_army_unit",
+   "zh": ""
+  },
+  {
+   "k": "md4afs",
+   "en": "Changes experience gain by the army divisions.",
+   "zh": ""
+  },
+  {
+   "k": "23a6ww",
+   "en": "experience_gain_army_unit = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "l5sv9k",
+   "en": "experience_gain_army_unit_factor",
+   "zh": ""
+  },
+  {
+   "k": "1owx9t6",
+   "en": "Changes experience gain by the army divisions by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "14m1ofu",
+   "en": "experience_gain_army_unit_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1v71z6h",
+   "en": "experience_loss_factor",
+   "zh": ""
+  },
+  {
+   "k": "htvgrl",
+   "en": "Changes the loss in divisions' experience in combat.",
+   "zh": ""
+  },
+  {
+   "k": "qywrid",
+   "en": "experience_loss_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "qf57pv",
+   "en": "initiative_factor",
+   "zh": ""
+  },
+  {
+   "k": "12gjmp0",
+   "en": "Modifies the initiative.",
+   "zh": ""
+  },
+  {
+   "k": "rjc6gf",
+   "en": "initiative_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "19kvzqi",
+   "en": "land_night_attack",
+   "zh": ""
+  },
+  {
+   "k": "1a3ovxc",
+   "en": "Changes the penalty due to attacking at night.",
+   "zh": ""
+  },
+  {
+   "k": "1syu5uw",
+   "en": "land_night_attack = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "b7057w",
+   "en": "max_dig_in",
+   "zh": ""
+  },
+  {
+   "k": "159djzi",
+   "en": "Changes the maximum entrenchment.",
+   "zh": ""
+  },
+  {
+   "k": "116o2or",
+   "en": "max_dig_in = 20",
+   "zh": ""
+  },
+  {
+   "k": "150at9s",
+   "en": "Can also apply in state scope.",
+   "zh": ""
+  },
+  {
+   "k": "1oph09e",
+   "en": "max_dig_in_factor",
+   "zh": ""
+  },
+  {
+   "k": "1bu9yuk",
+   "en": "Changes the maximum entrenchment by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "lkwj2o",
+   "en": "max_dig_in_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "z6590r",
+   "en": "max_planning",
+   "zh": ""
+  },
+  {
+   "k": "k5qani",
+   "en": "Changes the maximum planning.",
+   "zh": ""
+  },
+  {
+   "k": "1bxhf9a",
+   "en": "max_planning = 20",
+   "zh": ""
+  },
+  {
+   "k": "vzcyt3",
+   "en": "max_planning_factor",
+   "zh": ""
+  },
+  {
+   "k": "3zca0c",
+   "en": "Changes the maximum planning by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "nlihnp",
+   "en": "max_planning_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "yolt19",
+   "en": "pocket_penalty",
+   "zh": ""
+  },
+  {
+   "k": "1g2oyf0",
+   "en": "Reduces the penalty that troops take when they are encircled.",
+   "zh": ""
+  },
+  {
+   "k": "fst2fq",
+   "en": "pocket_penalty = 0.2",
+   "zh": ""
+  },
+  {
+   "k": "fiskei",
+   "en": "recon_factor",
+   "zh": ""
+  },
+  {
+   "k": "1urzh83",
+   "en": "Changes reconnaisance.",
+   "zh": ""
+  },
+  {
+   "k": "19gre8d",
+   "en": "recon_factor = 0.2",
+   "zh": ""
+  },
+  {
+   "k": "8rt689",
+   "en": "recon_factor_while_entrenched",
+   "zh": ""
+  },
+  {
+   "k": "2evibe",
+   "en": "Changes reconnaisance for entrenched divisions.",
+   "zh": ""
+  },
+  {
+   "k": "1rlxoci",
+   "en": "recon_factor_while_entrenched = 0.2",
+   "zh": ""
+  },
+  {
+   "k": "wll34u",
+   "en": "special_forces_cap",
+   "zh": ""
+  },
+  {
+   "k": "evyavl",
+   "en": "Changes the maximum amount of special forces by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1yn7r4k",
+   "en": "special_forces_cap = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1tr2jxu",
+   "en": "special_forces_min",
+   "zh": ""
+  },
+  {
+   "k": "z2y1y5",
+   "en": "Changes the minimum amount of special forces.",
+   "zh": ""
+  },
+  {
+   "k": "iilnrq",
+   "en": "special_forces_min = 250",
+   "zh": ""
+  },
+  {
+   "k": "106ecyu",
+   "en": "terrain_penalty_reduction",
+   "zh": ""
+  },
+  {
+   "k": "17yytcz",
+   "en": "Decreases the penalties given by terrain.",
+   "zh": ""
+  },
+  {
+   "k": "294j86",
+   "en": "terrain_penalty_reduction = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1o4msxt",
+   "en": "Only works in the unit_leader scope despite the modifier being present in vanilla national spirits at the time of writing.",
+   "zh": ""
+  },
+  {
+   "k": "1lkfxnn",
+   "en": "org_loss_at_low_org_factor",
+   "zh": ""
+  },
+  {
+   "k": "5sagl",
+   "en": "Modifies the organisation loss for units when they have low organisation.",
+   "zh": ""
+  },
+  {
+   "k": "oa9vrg",
+   "en": "org_loss_at_low_org_factor = 0.2",
+   "zh": ""
+  },
+  {
+   "k": "n827ct",
+   "en": "org_loss_when_moving",
+   "zh": ""
+  },
+  {
+   "k": "d1ydu1",
+   "en": "Modifies the organisation loss for units when they are moving.",
+   "zh": ""
+  },
+  {
+   "k": "ff1us6",
+   "en": "org_loss_when_moving = 0.2",
+   "zh": ""
+  },
+  {
+   "k": "icibh8",
+   "en": "planning_speed",
+   "zh": ""
+  },
+  {
+   "k": "khhj1k",
+   "en": "Modifies the planning speed.",
+   "zh": ""
+  },
+  {
+   "k": "jy4qbz",
+   "en": "planning_speed = 0.2",
+   "zh": ""
+  },
+  {
+   "k": "10e2x1d",
+   "en": "Works in state scope.",
+   "zh": ""
+  },
+  {
+   "k": "1pdhxmb",
+   "en": "experience_gain_<unit type>_combat_factor",
+   "zh": ""
+  },
+  {
+   "k": "5mqime",
+   "en": "Modifies the experience gain in combat for the unit type.",
+   "zh": ""
+  },
+  {
+   "k": "fb4rex",
+   "en": "experience_gain_artillery_combat_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1gomhyw",
+   "en": "Units are defined in ⟦0⟧ files.",
+   "zh": ""
+  },
+  {
+   "k": "ks8zrp",
+   "en": "experience_gain_<unit type>_training_factor",
+   "zh": ""
+  },
+  {
+   "k": "1xucwkg",
+   "en": "Modifies the experience gain in training for the unit type.",
+   "zh": ""
+  },
+  {
+   "k": "17u4tdw",
+   "en": "experience_gain_destroyer_training_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1y780n3",
+   "en": "Naval invasions",
+   "zh": ""
+  },
+  {
+   "k": "1gi995f",
+   "en": "naval_invasion_prep_speed",
+   "zh": ""
+  },
+  {
+   "k": "1ssvlrq",
+   "en": "Modifies the speed at which a naval invasion is prepared.",
+   "zh": ""
+  },
+  {
+   "k": "xk2g71",
+   "en": "naval_invasion_prep_speed = 10",
+   "zh": ""
+  },
+  {
+   "k": "1q6x2tf",
+   "en": "Can be a targeted modifier or in unit leader scope.",
+   "zh": ""
+  },
+  {
+   "k": "12cyzz4",
+   "en": "naval_invasion_capacity",
+   "zh": ""
+  },
+  {
+   "k": "3atcrb",
+   "en": "Modifies the amount of divisions that can have a naval invasion plan going on at the same time.",
+   "zh": ""
+  },
+  {
+   "k": "hkskmc",
+   "en": "naval_invasion_capacity = 10",
+   "zh": ""
+  },
+  {
+   "k": "hpse1d",
+   "en": "naval_invasion_penalty",
+   "zh": ""
+  },
+  {
+   "k": "1a2ujo4",
+   "en": "Modifies the penalty for naval invasions.",
+   "zh": ""
+  },
+  {
+   "k": "xxtaxp",
+   "en": "naval_invasion_penalty = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "6y5z5",
+   "en": "Is the opposite of amphibious_invasion_defence. Can also apply in state scope.",
+   "zh": ""
+  },
+  {
+   "k": "ji9mt1",
+   "en": "naval_invasion_planning_bonus_speed",
+   "zh": ""
+  },
+  {
+   "k": "1e5ye3o",
+   "en": "Modifies the speed at which the planning bonus is accumulated during a naval invasion preparation.",
+   "zh": ""
+  },
+  {
+   "k": "71c6yp",
+   "en": "naval_invasion_planning_bonus_speed = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "124m542",
+   "en": "amphibious_invasion",
+   "zh": ""
+  },
+  {
+   "k": "1gmpgx2",
+   "en": "Modifies the speed of units during naval invasions.",
+   "zh": ""
+  },
+  {
+   "k": "mhg0ao",
+   "en": "amphibious_invasion = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "cjw911",
+   "en": "amphibious_invasion_defence",
+   "zh": ""
+  },
+  {
+   "k": "tt20x",
+   "en": "Modifies the penalty given by naval invasions.",
+   "zh": ""
+  },
+  {
+   "k": "y34spz",
+   "en": "amphibious_invasion_defence = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1mvtv4b",
+   "en": "Is the opposite of naval_invasion_penalty. Can also apply in state scope.",
+   "zh": ""
+  },
+  {
+   "k": "1774470",
+   "en": "invasion_preparation",
+   "zh": ""
+  },
+  {
+   "k": "1y3dc2d",
+   "en": "Modifies the required preparation needed to execute a naval invasion.",
+   "zh": ""
+  },
+  {
+   "k": "1pl5w7w",
+   "en": "invasion_preparation = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "j2ehsg",
+   "en": "Is the opposite of naval_invasion_prep_speed. Can be used in unit leader scope.",
+   "zh": ""
+  },
+  {
+   "k": "1s0rg05",
+   "en": "Note that most of these modifiers are not only in country scope but also in navy leader scope as well as within equipment modules.",
+   "zh": ""
+  }
+ ]
+}

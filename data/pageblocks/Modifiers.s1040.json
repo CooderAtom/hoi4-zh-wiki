@@ -1,0 +1,656 @@
+{
+ "page": "Modifiers",
+ "from": 1040,
+ "items": [
+  {
+   "k": "5yhm53",
+   "en": "refit_ic_cost = 20",
+   "zh": ""
+  },
+  {
+   "k": "10fxowb",
+   "en": "refit_speed",
+   "zh": ""
+  },
+  {
+   "k": "174pom",
+   "en": "The speed at which naval equipment is refitted.",
+   "zh": ""
+  },
+  {
+   "k": "6dnzgh",
+   "en": "refit_speed = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "hiw554",
+   "en": "air_equipment_upgrade_xp_cost",
+   "zh": ""
+  },
+  {
+   "k": "109dmd9",
+   "en": "Changes the air experience cost to upgrade equipment.",
+   "zh": ""
+  },
+  {
+   "k": "1y7p03e",
+   "en": "air_equipment_upgrade_xp_cost = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "mvuenx",
+   "en": "training_time_factor",
+   "zh": ""
+  },
+  {
+   "k": "v7qy57",
+   "en": "Modifies the training time for both army and navy.",
+   "zh": ""
+  },
+  {
+   "k": "19h96eh",
+   "en": "training_time_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "ql416j",
+   "en": "minimum_training_level",
+   "zh": ""
+  },
+  {
+   "k": "vnlund",
+   "en": "Changes training level necessary for the unit to deploy.",
+   "zh": ""
+  },
+  {
+   "k": "1tw3ldj",
+   "en": "minimum_training_level = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "19f9qmg",
+   "en": "max_training",
+   "zh": ""
+  },
+  {
+   "k": "jjux40",
+   "en": "Modifies the required experience to achieve full training.",
+   "zh": ""
+  },
+  {
+   "k": "1tdusnf",
+   "en": "max_training = -0.3",
+   "zh": ""
+  },
+  {
+   "k": "1w1poar",
+   "en": "training_time_army_factor",
+   "zh": ""
+  },
+  {
+   "k": "yltg0u",
+   "en": "Modifies the training time for the army.",
+   "zh": ""
+  },
+  {
+   "k": "7xllq7",
+   "en": "training_time_army_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "np8bfy",
+   "en": "special_forces_training_time_factor",
+   "zh": ""
+  },
+  {
+   "k": "12h7n0r",
+   "en": "Changes the time it takes to train special forces.",
+   "zh": ""
+  },
+  {
+   "k": "w6etwe",
+   "en": "special_forces_training_time_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1hy5f9",
+   "en": "<land/air/naval>_doctrine_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "ejozn4",
+   "en": "Changes the cost of buying a new doctrine of the specified type.",
+   "zh": ""
+  },
+  {
+   "k": "gzcnkk",
+   "en": "land_doctrine_cost_factor = -0.05",
+   "zh": ""
+  },
+  {
+   "k": "1l89g89",
+   "en": "<doctrine category>_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "1vot4bz",
+   "en": "Modifies the cost of buying a new doctrine of the specified category.",
+   "zh": ""
+  },
+  {
+   "k": "scxxyl",
+   "en": "cat_mobile_warfare_cost_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "11djo15",
+   "en": "Doctrines are defined in ⟦0⟧.",
+   "zh": ""
+  },
+  {
+   "k": "gdz6ad",
+   "en": "/Hearts of Iron IV/common/technologies/*.txt",
+   "zh": ""
+  },
+  {
+   "k": "1x5b706",
+   "en": "<land/air/naval>_mastery_gain_factor",
+   "zh": ""
+  },
+  {
+   "k": "i95f51",
+   "en": "Modifies the speed at which mastery in a given doctrine folder is gained.",
+   "zh": ""
+  },
+  {
+   "k": "jx4yhz",
+   "en": "land_mastery_gain_factor = 0.15",
+   "zh": ""
+  },
+  {
+   "k": "192p2fc",
+   "en": "Doctrine tracks are defined in ⟦0⟧.",
+   "zh": ""
+  },
+  {
+   "k": "ctumf9",
+   "en": "/Hearts of Iron IV/common/doctrines/folders",
+   "zh": ""
+  },
+  {
+   "k": "uqp1wu",
+   "en": "<doctrine track>_track_mastery_gain_factor",
+   "zh": ""
+  },
+  {
+   "k": "13y3vpw",
+   "en": "Modifies the speed at which mastery of a given track is gained.",
+   "zh": ""
+  },
+  {
+   "k": "7niqr",
+   "en": "operations_track_mastery_gain_factor = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "8zvtyl",
+   "en": "Doctrine tracks are defined in ⟦0⟧. currently existing tracks are Army: infantry,combat_support,armorandoperations Air: fighter_aircraft,strike_aircraft,medium_aircraftandheavy_aircraft Navy: capital_ships,carriers,screensandsubmarines",
+   "zh": ""
+  },
+  {
+   "k": "kr8gvg",
+   "en": "/Hearts of Iron IV/common/doctrines/tracks",
+   "zh": ""
+  },
+  {
+   "k": "tnpyl5",
+   "en": "combat_support",
+   "zh": ""
+  },
+  {
+   "k": "1o3smd9",
+   "en": "fighter_aircraft",
+   "zh": ""
+  },
+  {
+   "k": "fvfuwe",
+   "en": "strike_aircraft",
+   "zh": ""
+  },
+  {
+   "k": "ykry1t",
+   "en": "medium_aircraft",
+   "zh": ""
+  },
+  {
+   "k": "j3v7vv",
+   "en": "heavy_aircraft",
+   "zh": ""
+  },
+  {
+   "k": "xxqw4v",
+   "en": "capital_ships",
+   "zh": ""
+  },
+  {
+   "k": "dtwrf0",
+   "en": "carriers",
+   "zh": ""
+  },
+  {
+   "k": "sqqmh2",
+   "en": "screens",
+   "zh": ""
+  },
+  {
+   "k": "o71wbg",
+   "en": "choose_preferred_tactics_cost",
+   "zh": ""
+  },
+  {
+   "k": "11w8zbs",
+   "en": "Changes the cost to choose a preferred tactic.",
+   "zh": ""
+  },
+  {
+   "k": "1kk0mwc",
+   "en": "choose_preferred_tactics_cost = 5",
+   "zh": ""
+  },
+  {
+   "k": "1i2dxxp",
+   "en": "command_abilities_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "lfp4f6",
+   "en": "Changes the cost to choose a command ability.",
+   "zh": ""
+  },
+  {
+   "k": "g668i8",
+   "en": "command_abilities_cost_factor = -0.3",
+   "zh": ""
+  },
+  {
+   "k": "1anvaqr",
+   "en": "transport_capacity",
+   "zh": ""
+  },
+  {
+   "k": "1w85ba0",
+   "en": "Modifies how many convoys units require to be transported over sea.",
+   "zh": ""
+  },
+  {
+   "k": "1co7m3j",
+   "en": "transport_capacity = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1nwf06j",
+   "en": "paratroopers_special_forces_contribution_factor",
+   "zh": ""
+  },
+  {
+   "k": "q9tpgg",
+   "en": "Modifies how much paratroopers contribute to the limit of special forces on a template.",
+   "zh": ""
+  },
+  {
+   "k": "93kcef",
+   "en": "paratroopers_special_forces_contribution_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "3102e",
+   "en": "marines_special_forces_contribution_factor",
+   "zh": ""
+  },
+  {
+   "k": "azik0v",
+   "en": "Modifies how much marines contribute to the limit of special forces on a template.",
+   "zh": ""
+  },
+  {
+   "k": "1nk4ijq",
+   "en": "marines_special_forces_contribution_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "169onn3",
+   "en": "mountaineers_special_forces_contribution_factor",
+   "zh": ""
+  },
+  {
+   "k": "1bz2gk8",
+   "en": "Modifies how much mountaineers contribute to the limit of special forces on a template.",
+   "zh": ""
+  },
+  {
+   "k": "18wibpn",
+   "en": "mountaineers_special_forces_contribution_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "jujel9",
+   "en": "rangers_special_forces_contribution_factor",
+   "zh": ""
+  },
+  {
+   "k": "11kb5us",
+   "en": "Modifies how much rangers contribute to the limit of special forces on a template.",
+   "zh": ""
+  },
+  {
+   "k": "1n2odc9",
+   "en": "rangers_special_forces_contribution_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "wh9ees",
+   "en": "special_forces_cap_flat",
+   "zh": ""
+  },
+  {
+   "k": "14erdni",
+   "en": "Modifies how many special forces sub-units can be put into a single template.",
+   "zh": ""
+  },
+  {
+   "k": "12m86o8",
+   "en": "special_forces_cap_flat = 10",
+   "zh": ""
+  },
+  {
+   "k": "1pl6cb2",
+   "en": "additional_brigade_column_size",
+   "zh": ""
+  },
+  {
+   "k": "1geolwz",
+   "en": "Changes the amount of maximum unlocked slots on each brigade column in division templates.",
+   "zh": ""
+  },
+  {
+   "k": "5xdwre",
+   "en": "additional_brigade_column_size = 1",
+   "zh": ""
+  },
+  {
+   "k": "apd5ft",
+   "en": "unit_<unit type>_design_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "195on4",
+   "en": "Modifies how much experience it costs to add a brigade of the specified type to a template.",
+   "zh": ""
+  },
+  {
+   "k": "11jchqq",
+   "en": "unit_artillery_brigade_design_cost_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "4htwbl",
+   "en": "Brigades are defined in ⟦0⟧",
+   "zh": ""
+  },
+  {
+   "k": "1ohg4hg",
+   "en": "/Hearts of Iron IV/common/units/*.txt",
+   "zh": ""
+  },
+  {
+   "k": "1mis8l",
+   "en": "<equipment archetype>_design_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "z6l8t1",
+   "en": "Modifies how much experience it costs to add upgrades or modules to a specified equipment archetype.",
+   "zh": ""
+  },
+  {
+   "k": "1xo866s",
+   "en": "strat_bomber_equipment_design_cost_factor = 0.3 ship_hull_heavy_design_cost_factor = -0.2",
+   "zh": ""
+  },
+  {
+   "k": "hs7g3y",
+   "en": "Equipment archetypes are defined in ⟦0⟧",
+   "zh": ""
+  },
+  {
+   "k": "1eqkj7z",
+   "en": "/Hearts of Iron IV/common/units/equipment/*.txt",
+   "zh": ""
+  },
+  {
+   "k": "60vx9t",
+   "en": "module_<module type>_design_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "r3ik1j",
+   "en": "Modifies how much experience it costs to add a module of the specified type to equipment.",
+   "zh": ""
+  },
+  {
+   "k": "2v89tm",
+   "en": "module_tank_torsion_bar_suspension_design_cost_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "axg0d3",
+   "en": "Modules are defined in ⟦0⟧",
+   "zh": ""
+  },
+  {
+   "k": "1tv2ikl",
+   "en": "/Hearts of Iron IV/common/units/equipment/modules/*.txt",
+   "zh": ""
+  },
+  {
+   "k": "9b7zjp",
+   "en": "These are modifiers related to military industrial organisations.",
+   "zh": ""
+  },
+  {
+   "k": "gjewvm",
+   "en": "military_industrial_organization_research_bonus",
+   "zh": ""
+  },
+  {
+   "k": "1nxcauc",
+   "en": "Modifies the research bonus granted by MIOs.",
+   "zh": ""
+  },
+  {
+   "k": "nq0q1u",
+   "en": "military_industrial_organization_research_bonus = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "tq8lw7",
+   "en": "military_industrial_organization_design_team_assign_cost",
+   "zh": ""
+  },
+  {
+   "k": "v2vzoh",
+   "en": "Modifies the political power cost to assign a design team.",
+   "zh": ""
+  },
+  {
+   "k": "1k66rb7",
+   "en": "military_industrial_organization_design_team_assign_cost = 30",
+   "zh": ""
+  },
+  {
+   "k": "1g296vg",
+   "en": "military_industrial_organization_design_team_change_cost",
+   "zh": ""
+  },
+  {
+   "k": "1w2ngky",
+   "en": "Modifies the political power cost to change a design team.",
+   "zh": ""
+  },
+  {
+   "k": "14qtwvv",
+   "en": "military_industrial_organization_design_team_change_cost = 20",
+   "zh": ""
+  },
+  {
+   "k": "15dgyy0",
+   "en": "military_industrial_organization_industrial_manufacturer_assign_cost",
+   "zh": ""
+  },
+  {
+   "k": "1qw7tse",
+   "en": "Modifies the political power cost to assign an industrial manufacturer.",
+   "zh": ""
+  },
+  {
+   "k": "1fv4gi4",
+   "en": "military_industrial_organization_industrial_manufacturer_assign_cost = 10",
+   "zh": ""
+  },
+  {
+   "k": "g7vzmb",
+   "en": "military_industrial_organization_task_capacity",
+   "zh": ""
+  },
+  {
+   "k": "111af6l",
+   "en": "Modifies the amount of tasks possible to assign to the MIO.",
+   "zh": ""
+  },
+  {
+   "k": "qr7fzm",
+   "en": "military_industrial_organization_task_capacity = 2",
+   "zh": ""
+  },
+  {
+   "k": "b4909e",
+   "en": "military_industrial_organization_size_up_requirement",
+   "zh": ""
+  },
+  {
+   "k": "1t0dd5g",
+   "en": "Modifies the requirement to size up a MIO.",
+   "zh": ""
+  },
+  {
+   "k": "1gnt1xf",
+   "en": "military_industrial_organization_size_up_requirement = 2",
+   "zh": ""
+  },
+  {
+   "k": "tbk9ll",
+   "en": "military_industrial_organization_funds_gain",
+   "zh": ""
+  },
+  {
+   "k": "c6e6qw",
+   "en": "Modifies the amount of funds gained by the MIO.",
+   "zh": ""
+  },
+  {
+   "k": "1cgv6v9",
+   "en": "military_industrial_organization_funds_gain = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "whpz5b",
+   "en": "military_industrial_organization_policy_cost",
+   "zh": ""
+  },
+  {
+   "k": "8a76xd",
+   "en": "Modifies the political power cost to assign a MIO policy.",
+   "zh": ""
+  },
+  {
+   "k": "f7n31u",
+   "en": "military_industrial_organization_policy_cost = 20",
+   "zh": ""
+  },
+  {
+   "k": "1gzy59j",
+   "en": "military_industrial_organization_policy_cooldown",
+   "zh": ""
+  },
+  {
+   "k": "56kyp6",
+   "en": "Modifies the cooldown between how often it's possible to change policies.",
+   "zh": ""
+  },
+  {
+   "k": "gccytz",
+   "en": "military_industrial_organization_policy_cooldown = 5",
+   "zh": ""
+  },
+  {
+   "k": "j6c3tz",
+   "en": "These are modifiers related to unit leaders in the country scope, rather than being in the unit leader scope.",
+   "zh": ""
+  },
+  {
+   "k": "k23idi",
+   "en": "female_random_army_leader_chance",
+   "zh": ""
+  },
+  {
+   "k": "1biaeib",
+   "en": "Changes the chance for a randomly-generated army leader to be female.",
+   "zh": ""
+  },
+  {
+   "k": "z2qrg6",
+   "en": "female_random_army_leader_chance = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "wnimuu",
+   "en": "assign_army_leader_cp_cost",
+   "zh": ""
+  },
+  {
+   "k": "1r18teh",
+   "en": "Modifies the cost to assign an army leader to an army.",
+   "zh": ""
+  },
+  {
+   "k": "6wgly9",
+   "en": "assign_army_leader_cp_cost = -5",
+   "zh": ""
+  },
+  {
+   "k": "5u8mum",
+   "en": "army_leader_cost_factor",
+   "zh": ""
+  },
+  {
+   "k": "1thvf11",
+   "en": "The cost in political power to recruit an unit leader for the land army.",
+   "zh": ""
+  },
+  {
+   "k": "nynoas",
+   "en": "army_leader_cost_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1gtq24u",
+   "en": "army_leader_start_level",
+   "zh": ""
+  },
+  {
+   "k": "1au7c5i",
+   "en": "Bonus to the starting level of generic unit leaders.",
+   "zh": ""
+  }
+ ]
+}

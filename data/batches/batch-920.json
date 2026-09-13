@@ -1,0 +1,761 @@
+{
+ "batch": 920,
+ "pages": [
+  "Map modding"
+ ],
+ "chars": 14130,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "zwrjcd",
+   "en": "This order means that, for example, ⟦0⟧ within a graphical definition will result in the rightmost lower-middle tile being chosed assuming the default 4x4 arrangement. atlas0 is the regular texture map, for the textures that will get assigned on the terrain, while atlas_normal0 is a normal map, which gets used to assign vectors perpendicular to each point on the texture which get used when shading the map.",
+   "frags": 1
+  },
+  {
+   "k": "1020tjv",
+   "en": "texture = 11"
+  },
+  {
+   "k": "15z3p9j",
+   "en": "The files atlas1 and atlas2, as well as atlas_normal1 and atlas_normal2 serve for farther zoom levels: the game uses lower-quality textures when the camera is more zoomed-out or with different graphics settings to save on performance. atlas1 has each of its dimensions at half-size of atlas0, and atlas2 has them at the quarter-size of atlas0."
+  },
+  {
+   "k": "ia539m",
+   "en": "For the game to read the file, mipmaps must be generated and DXT5 must be the compression algorithm used."
+  },
+  {
+   "k": "bnpmow",
+   "en": "Height map"
+  },
+  {
+   "k": "e7qwiv",
+   "en": "⟦0⟧ is used in order to determine the height of a given position on the map. A minimum value (or pure black) translates to a height of 0 by the Y axis, while the maximum value (or pure white) translates to a height of 25.5 by the Y axis. The sea level is set at the height of 9.5 by default⟦1⟧, and so anything below the value of 95 (on the scale from 0 to 255) will be shown as underwater, while everything above 95 will be shown as above water. Water is always at the constant height.",
+   "frags": 2
+  },
+  {
+   "k": "eyu4xn",
+   "en": "It should be preferred to create smooth transitions in pixel's values in order to create more smooth-looking transitions. In addition to the heightmap, the ⟦0⟧ also contributes to smoothness.",
+   "frags": 1
+  },
+  {
+   "k": "m5ia34",
+   "en": "Normal map"
+  },
+  {
+   "k": "pqr6r7",
+   "en": "Heightmap has the same image dimensions as the provinces bitmap and is saved as a ⟦0⟧ image.",
+   "frags": 1
+  },
+  {
+   "k": "9gtkpv",
+   "en": "8-bit greyscale/indexed greyscale"
+  },
+  {
+   "k": "1p739a6",
+   "en": "⟦0⟧ is a a normal map saved in the 24-bit RGB format, deciding on the exact slope of each pixel within the 3D rendering of the map. This is used in the lighting calculations. The red channel decides on the X value of the vector from -1 to 1: a value of 0 is pointing to the left (West) as much as possible while a value of 255 is pointing to the right (East) as much as possible. The green channel decides on the Y value of the vector from -1 to 1: a value of 0 is pointing to the bottom (South) as much as possible, while a value of 255 is pointing to the top (North) as much as possible. The blue channel decides on the Z value of the vector from 0 to -1: a value of 128 corresponds to 0, meaning it is not pointing at the viewer but rather perpendicularly depending on the X and Y values, while a value of 255 corresponds to -1, which means it's pointing at the viewer as much as possible.",
+   "frags": 1
+  },
+  {
+   "k": "1djn5rc",
+   "en": "There are several tools that can be used in order to generate a normal map from a heightmap. Some include:"
+  },
+  {
+   "k": "u10wk",
+   "en": "NVIDIA's Texture Tools Exporter for Photoshop Open the heightmap and change the image mode to RGB, save a copy menu -> select the NVIDIA exporter's DDS format. In Image Type, select \"Normal Map : Tangent Space\". In \"Height Source\", select either \"Max RGB\" or \"Average RGB\" and in \"Height Generation\", check \"Wrap\" and \"Invert Y\". The \"Filter Type\" can be changed at will, look at the preview to see the results. \"Scale\" is the most important factor that will change the general look of the map, as this controls the intensity of the Normal Map. The larger the Scale, the \"bumpier\" the map becomes. At lower levels, this makes the generated map empty. Set \"Alpha Field\" to \"Unchanged\" and check \"Normalize\". Then open the saved DDS file and export to the BMP format."
+  },
+  {
+   "k": "1a9p4ca",
+   "en": "NVIDIA's Texture Tools standalone app Works the same way as the screen in the Photoshop plugin."
+  },
+  {
+   "k": "7na8n1",
+   "en": "Within older versions of Photoshop CC, Filter -> 3D -> Generate Normal Map. The 3D features of Photoshop were discontinued in 2021 and fully removed in 2024. The last fully working version was 2021 v22.2."
+  },
+  {
+   "k": "11ibwit",
+   "en": "Within GIMP, using the normal map plugin Download the plugin, open the heightmap, change image mode to RGB, Filter -> Map -> Normal, and invert the Y axis."
+  },
+  {
+   "k": "or93dy",
+   "en": "Rivers"
+  },
+  {
+   "k": "1kpiqo9",
+   "en": "⟦0⟧ is an 8-bit indexed bitmap file that decides the positioning of rivers. Rivers ⟦1⟧ be exactly one pixel thick and only go in orthogonal directions: pixels do not connect diagonally. As the river counts as a level 1 railway⟦2⟧, particularly long rivers can cause the game to slow down or run unstably. The river map is a 8-bit indexed bitmap with the same dimensions as the provinces bitmap.",
+   "frags": 3
+  },
+  {
+   "k": "139fy29",
+   "en": "To correctly render, each river must have exactly one, by default green, start marker. In this case a river is taken as a single contiguous block of river pixels: those connected with red flow-in or yellow flow-out sources count as the same river as the main flow. ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "195a49t",
+   "en": "Only the 'main branch' of the river should have the green source pixel, any branch connected to it via the red flow-in shouldn't have it."
+  },
+  {
+   "k": "17onz4h",
+   "en": "Colours used in ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1chtu17",
+   "en": "Index"
+  },
+  {
+   "k": "16ctpih",
+   "en": "Function"
+  },
+  {
+   "k": "1bi5b9z",
+   "en": "The source of a river"
+  },
+  {
+   "k": "1h93tfn",
+   "en": "Flow-in source. Used to join multiple 'source' paths into one river."
+  },
+  {
+   "k": "imru6c",
+   "en": "Flow-out source. Used to branch outwards from one river."
+  },
+  {
+   "k": "1vlrkld",
+   "en": "River with narrowest texture."
+  },
+  {
+   "k": "1wx6htp",
+   "en": "River with narrow texture"
+  },
+  {
+   "k": "bc544p",
+   "en": "River with wide texture."
+  },
+  {
+   "k": "1yfavlo",
+   "en": "River with widest texture."
+  },
+  {
+   "k": "6w8pto",
+   "en": "By default, indexes 0⟦0⟧ up to including 6⟦1⟧ are treated as small rivers for game mechanics, indexes up to including 11⟦2⟧ as large rivers. Pixels with any other index within the file do not get read in-game and serve as 'comments', usually used to signify the land province outlines to make it easier to place rivers.",
+   "frags": 3
+  },
+  {
+   "k": "v5o91z",
+   "en": "If the ⟦0⟧ connecting the centres of two provinces overlaps at least one river pixel, it is considered a river crossing. If it intersects multiple river pixels of different types, the crossing type is implementation defined. To avoid player confusion, province paths should either clearly cut or stay clear of a river.",
+   "frags": 1
+  },
+  {
+   "k": "10rsgfq",
+   "en": "path"
+  },
+  {
+   "k": "zef078",
+   "en": "A possible error to encounter is ⟦0⟧. This can ⟦1⟧: the rivers.bmp file will be loaded regardless and, unlike other map errors, this does not prevent the game from loading without debug mode. This error is caused by GIMP: editing in Photoshop does not produce this. By default, ⟦2⟧ is set to say that the colourmap has 0 colours despite the fact that the colourmap still contains 256 colours. This is to ensure that the game does not spend time reading colours within the BMP file and instead skips straight to the bitmap itself. GIMP instead sets the DIB header to say that there are 256 colours in the palette, which is unexpected by the game. This cannot be fixed within GIMP itself, however, assuming that the rivers bitmap is otherwise correct (Saved in 8-bit indexed mode with BITMAPINFOHEADER) this can also be fixed by opening the rivers bitmap within a hex editor and changing two values: addresses ⟦3⟧ and ⟦4⟧ should both be ⟦5⟧ instead of ⟦6⟧ as set by GIMP.",
+   "frags": 7
+  },
+  {
+   "k": "uwgs4i",
+   "en": "MAP_ERROR: Palette in rivers.bmp is probably not correct"
+  },
+  {
+   "k": "1wf29vi",
+   "en": "entirely be ignored"
+  },
+  {
+   "k": "132vbt0",
+   "en": "the DIB header"
+  },
+  {
+   "k": "14i5b7",
+   "en": "00 00 00 2F"
+  },
+  {
+   "k": "1gokycy",
+   "en": "Trees"
+  },
+  {
+   "k": "konpkh",
+   "en": "⟦0⟧ is a 8-bit indexed bitmap that decides on the position of tree models on the map. The resolution of the map decides on the density of trees, by default each side is ⟦1⟧ of the provinces bitmap.",
+   "frags": 2
+  },
+  {
+   "k": "v99p9q",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\frac{75}{256}}"
+  },
+  {
+   "k": "vynmjw",
+   "en": "The map decides on the positions of pdxmesh objects. A sprite with the ID of 14 will cause the pdxmesh with the name of ⟦0⟧ to spawn on that location, for example:",
+   "frags": 1
+  },
+  {
+   "k": "1ckkf6u",
+   "en": "mapobject_14"
+  },
+  {
+   "k": "1n5ym0q",
+   "en": "This definition would be within a ⟦0⟧ file within the ⟦1⟧ block. By default, these tree types exist within the base game:",
+   "frags": 2
+  },
+  {
+   "k": "1ug4yyd",
+   "en": "/Hearts of Iron IV/gfx/entities/*.gfx"
+  },
+  {
+   "k": "t1irok",
+   "en": "objectTypes = { ... }"
+  },
+  {
+   "k": "15371vb",
+   "en": "List of trees:"
+  },
+  {
+   "k": "1ro9w1y",
+   "en": "colourmap ID"
+  },
+  {
+   "k": "xlevrc",
+   "en": "Tree Type/Density"
+  },
+  {
+   "k": "vl15y7",
+   "en": "Sparse Palm"
+  },
+  {
+   "k": "6fackg",
+   "en": "Dense Palm"
+  },
+  {
+   "k": "135b716",
+   "en": "Sparse Forest"
+  },
+  {
+   "k": "d5i1ft",
+   "en": "Dense Forest"
+  },
+  {
+   "k": "1knbfyb",
+   "en": "Impassable Jungle"
+  },
+  {
+   "k": "84tvgq",
+   "en": "Sparse Jungle"
+  },
+  {
+   "k": "pvg9x5",
+   "en": "Dense Jungle"
+  },
+  {
+   "k": "1f64irg",
+   "en": "Colour maps"
+  },
+  {
+   "k": "5i3vjs",
+   "en": "The colourmap files define the overall colour tint applied to the map. Without a colourmap file, all land will appear the same overall colour, regardless of terrain type. They should be saved in the .DDS format, using the 8.8.8.8 ARGB 32-bit profile with no mipmaps."
+  },
+  {
+   "k": "1nfo14g",
+   "en": "Water"
+  },
+  {
+   "k": "1qgyyma",
+   "en": "⟦0⟧ is used to give tint to the ⟦1⟧. Each of its dimensions is halved compared to the provinces bitmap. Similarly applies for the water colourmaps 1 and 2: they are the same but with the dimensions halved compared to the previous level. This is for performance reasons as to make the game use lower-quality textures when zoomed out or with different graphics settings.",
+   "frags": 2
+  },
+  {
+   "k": "kgxbtc",
+   "en": "water"
+  },
+  {
+   "k": "6vxl45",
+   "en": "RGB and city lights"
+  },
+  {
+   "k": "b4t216",
+   "en": "⟦0⟧ serves two purposes. The RGB channels define the default colouring of the map, which gets modified by terrain. When making changes to the terrain or height map, this colour map should be updated too to reflect the changes visually. The alpha channel is used for city lights at night: more opacity means stronger night lights. The file should use half of the vertical and horizontal resolution of the provinces bitmap. Editing this colourmap in particular would be much easier if the alpha channel should be separated from the RGB channels, as these serve different purposes. The process to do so depends on the image editor.",
+   "frags": 1
+  },
+  {
+   "k": "1a4fjr9",
+   "en": "In GIMP it is done by adding a layer mask with the setting of \"Transfer layer's alpha channel\" selected, which'll allow editing the alpha channel by editing the mask and the RGB channels by editing the now non-transparent layer."
+  },
+  {
+   "k": "h34jes",
+   "en": "In Photoshop it is done by using the channels tab. The channel being edited is the one that is both selected and set to visible. To visualize the edits on each channel separately, one must be both selected and set to visible, and the other must be set to not visible. When opening the dds file with the NVIDIA plugin, the box \"Load Alpha as Channel Instead of Transparency\" must be checked."
+  },
+  {
+   "k": "1lofs4w",
+   "en": "⟦0⟧, since it does not allow separate usage of the RGB and Alpha channels. The channels can't be visualized separately and the edits are applied to all channels at once, rather than allowing to edit each channel separately.",
+   "frags": 1
+  },
+  {
+   "k": "1f7p54a",
+   "en": "Paint.net cannot be used to edit this colourmap"
+  },
+  {
+   "k": "1xa6gia",
+   "en": "Buildings"
+  },
+  {
+   "k": "tyty7h",
+   "en": "Since the ⟦0⟧, there is only one primary file for buildings in the map folder: ⟦1⟧, which primarily decides the position of building models in each state. An entry in that file is defined as such (If unspecified, assume a number with up to 2 decimal digits):",
+   "frags": 2
+  },
+  {
+   "k": "hkv065",
+   "en": "State ID defines which state the building is located in. Even for provincial buildings, this is the ID of the state, not the province. Instead, provincial buildings have several entries per state, with the XYZ position being used by the game to know which province it's for."
+  },
+  {
+   "k": "1w2degn",
+   "en": "Building ID defines which model is being located. While this includes each building, this also includes floating harbours as floating_harbor."
+  },
+  {
+   "k": "1qkmbf1",
+   "en": "X, Y, and Z position represent the position on the map of the building model using the ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1i4rm8g",
+   "en": "coordinate system"
+  },
+  {
+   "k": "6mikt1",
+   "en": "Rotation is measured in radians. A rotation of 0 will result in the building model pointing in the same direction as the model is set, while positives will rotate it counter-clockwise and negatives will rotate it clockwise. A full rotation resulting in the same position as 0 is equal to the number π multiplied by 2, roughly 6.28."
+  },
+  {
+   "k": "1y0thw5",
+   "en": "Adjacent sea province is only necessary to define for naval bases and floating harbours, in order to let the game know from which sea province ships or convoys can access the land province where it is located. If the building type is not a naval base, it should be left at 0."
+  },
+  {
+   "k": "1ht95cl",
+   "en": "It is preferable to generate the building models in the building section in the nudger, rather than filling it out manually. However, note that the game will crash if the currently-existing ⟦0⟧ file is entirely empty. The content of the file doesn't matter for this, as long as it's not entirely empty.",
+   "frags": 1
+  },
+  {
+   "k": "199ac1",
+   "en": "⟦0⟧ once any province with one would be evaluated by AI or tried to be used as a naval base. This represents as a crash with the ⟦1⟧ a few hours into the game, fixed by turning off AI. This is because the building definition is used not only for the model of the naval base, but also for assigning the sea province that the port goes out into. If there is no definition, the game fails at evaluating the spot where the navy would be placed, resulting in an infinite loop that eats the RAM and the CPU leading to a crash.",
+   "frags": 2
+  },
+  {
+   "k": "11hpvx4",
+   "en": "If some naval base or floating harbour is missing a definition within this file, the game will crash"
+  },
+  {
+   "k": "1yrq0xo",
+   "en": "client_ping or hourly_ping last read file"
+  },
+  {
+   "k": "wk4w7f",
+   "en": "Unit model and victory point positions"
+  },
+  {
+   "k": "yr4qtb",
+   "en": "The ⟦0⟧ file decides on the positions of unit models and victory points within each individual province. This is edited via the ⟦1⟧ menu in nudger. In particular, this decides the position of the victory point on the map if one is present within the province. Whether one is present, how it's called, and how much it's worth is decided within ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "t3mdrb",
+   "en": "Unit"
+  },
+  {
+   "k": "g87xiw",
+   "en": "state history files and localisation"
+  },
+  {
+   "k": "1yuaeob",
+   "en": "An entry in the file has the following formatting:"
+  },
+  {
+   "k": "kzr0sl",
+   "en": "Province ID assigns to which province the model is aimed for."
+  },
+  {
+   "k": "e41t3s",
+   "en": "Rotation is done in radians, 0 being the default state and positives rotating it counterclockwise."
+  },
+  {
+   "k": "hzk3sl",
+   "en": "The offset is used for the animation in order to make it so that the animations of units within provinces are not directly happening at the same time, but have a delay."
+  },
+  {
+   "k": "169baqk",
+   "en": "Type is an integer from 0 to 38 assigning a purpose."
+  },
+  {
+   "k": "103s0iy",
+   "en": "List of unitstacks types:"
+  },
+  {
+   "k": "1hcs62n",
+   "en": "Standstill"
+  },
+  {
+   "k": "1qnqwpb",
+   "en": "Moving 0"
+  },
+  {
+   "k": "ko8yio",
+   "en": "Different numbers represent different needed levels of rotation"
+  },
+  {
+   "k": "1qdrb0c",
+   "en": "Moving 1"
+  },
+  {
+   "k": "1r7q439",
+   "en": "Moving 2"
+  },
+  {
+   "k": "1qxqiea",
+   "en": "Moving 3"
+  },
+  {
+   "k": "1pjshxf",
+   "en": "Moving 4"
+  },
+  {
+   "k": "1p9sw8g",
+   "en": "Moving 5"
+  },
+  {
+   "k": "1q3rpbd",
+   "en": "Moving 6"
+  },
+  {
+   "k": "1pts3me",
+   "en": "Moving 7"
+  },
+  {
+   "k": "1tdb1vn",
+   "en": "Attacking"
+  },
+  {
+   "k": "43rrgf",
+   "en": "Defending"
+  },
+  {
+   "k": "1rv43kk",
+   "en": "Disembarck 0"
+  },
+  {
+   "k": "1s53p9j",
+   "en": "Disembarck 1"
+  },
+  {
+   "k": "1sf3ayi",
+   "en": "Disembarck 2"
+  },
+  {
+   "k": "1sp2wnh",
+   "en": "Disembarck 3"
+  },
+  {
+   "k": "1qr5oso",
+   "en": "Disembarck 4"
+  },
+  {
+   "k": "1r15ahn",
+   "en": "Disembarck 5"
+  },
+  {
+   "k": "1rb4w6m",
+   "en": "Disembarck 6"
+  },
+  {
+   "k": "1rl4hvl",
+   "en": "Disembarck 7"
+  },
+  {
+   "k": "px493x",
+   "en": "Ship in port"
+  },
+  {
+   "k": "jw0wh5",
+   "en": "Ship in port moving"
+  },
+  {
+   "k": "1m59rum",
+   "en": "Standstill RG"
+  },
+  {
+   "k": "ra7mow",
+   "en": "RG stands for regrouping"
+  },
+  {
+   "k": "zoxyry",
+   "en": "Moving 0 RG"
+  },
+  {
+   "k": "kkq6vj",
+   "en": "Different numbers represent different needed levels of rotation. RG stands for regrouping"
+  },
+  {
+   "k": "ymibqn",
+   "en": "Moving 1 RG"
+  },
+  {
+   "k": "132m1k0",
+   "en": "Moving 2 RG"
+  },
+  {
+   "k": "1i0b4g1",
+   "en": "Moving 3 RG"
+  },
+  {
+   "k": "jyo61u",
+   "en": "Moving 4 RG"
+  },
+  {
+   "k": "essgb7",
+   "en": "Moving 5 RG"
+  },
+  {
+   "k": "1mijt84",
+   "en": "Moving 6 RG"
+  },
+  {
+   "k": "if7cgl",
+   "en": "Moving 7 RG"
+  },
+  {
+   "k": "rknet3",
+   "en": "Disembarck 0 RG"
+  },
+  {
+   "k": "etlos6",
+   "en": "Disembarck 1 RG"
+  },
+  {
+   "k": "1u4gudl",
+   "en": "Disembarck 2 RG"
+  },
+  {
+   "k": "1doxr0o",
+   "en": "Disembarck 3 RG"
+  },
+  {
+   "k": "179ggkb",
+   "en": "Disembarck 4 RG"
+  },
+  {
+   "k": "f3glze",
+   "en": "Disembarck 5 RG"
+  },
+  {
+   "k": "1ee71nh",
+   "en": "Disembarck 6 RG"
+  },
+  {
+   "k": "1x4tb30",
+   "en": "Disembarck 7 RG"
+  },
+  {
+   "k": "qpm2iv",
+   "en": "Victory point"
+  },
+  {
+   "k": "qp4vbl",
+   "en": "Adjacencies"
+  },
+  {
+   "k": "z57e4n",
+   "en": "The adjacencies file is ⟦0⟧. This decides the relationships between borders of provinces, allowing to create borders between non-directly adjacent provinces (such as strait crossings), block the border between two directly adjacent provinces (making it impassable), or otherwise set up adjacency rules that make crossing the border limited (such as the Gibraltar strait).",
+   "frags": 1
+  },
+  {
+   "k": "o7magk",
+   "en": "The following format is used for adjacencies:"
+  },
+  {
+   "k": "wtx7dv",
+   "en": "For example, these are valid adjacencies:"
+  }
+ ]
+}

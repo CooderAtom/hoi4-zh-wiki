@@ -1,0 +1,768 @@
+{
+ "batch": 28,
+ "pages": [
+  "Construction"
+ ],
+ "chars": 14965,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "jtioiz",
+   "en": "Australian national spirit Great Depression (present at start) Chinese national spirit Hyper Inflation (from a focus that increases inflation) Greek national spirit Foreign Monopolies (present at start) Romanian national spirit Supplementary Budget (gained by event)"
+  },
+  {
+   "k": "1sgesqh",
+   "en": "⟦0⟧ national spirit Hyper Inflation (from a focus that increases inflation)",
+   "frags": 1
+  },
+  {
+   "k": "xgk093",
+   "en": "⟦0⟧ national spirit Foreign Monopolies (present at start)",
+   "frags": 1
+  },
+  {
+   "k": "ejxfpf",
+   "en": "⟦0⟧ national spirit Supplementary Budget (gained by event)",
+   "frags": 1
+  },
+  {
+   "k": "fzk4az",
+   "en": "Partial Mobilization"
+  },
+  {
+   "k": "dirkzy",
+   "en": "Canadian national spirit Great Depression (present at start) Chinese national spirit Economic Collapse (from a focus that increases inflation) Romanian national spirit Embezzlement Scandal (gained by event) United States national spirit Slow Recovery (from a focus that reduces the effect of the Great Depression)"
+  },
+  {
+   "k": "96uzj5",
+   "en": "⟦0⟧ national spirit Economic Collapse (from a focus that increases inflation)",
+   "frags": 1
+  },
+  {
+   "k": "7a3mnl",
+   "en": "⟦0⟧ national spirit Embezzlement Scandal (gained by event)",
+   "frags": 1
+  },
+  {
+   "k": "bqqg7q",
+   "en": "⟦0⟧ national spirit Slow Recovery (from a focus that reduces the effect of the Great Depression)",
+   "frags": 1
+  },
+  {
+   "k": "b6zr6d",
+   "en": "Early Mobilization"
+  },
+  {
+   "k": "1oklj4r",
+   "en": "The Great Depression"
+  },
+  {
+   "k": "16lyj6o",
+   "en": "Civilian Economy"
+  },
+  {
+   "k": "1a0nex",
+   "en": "⟦0⟧ as economy law ( ⟦1⟧ only, present at 1939 start)",
+   "frags": 2
+  },
+  {
+   "k": "120t6vr",
+   "en": "Isolation"
+  },
+  {
+   "k": "osh8ob",
+   "en": "⟦0⟧ as economy law ( ⟦1⟧ only, present at start)",
+   "frags": 2
+  },
+  {
+   "k": "15dyp2g",
+   "en": "Undisturbed Isolation"
+  },
+  {
+   "k": "xrn65e",
+   "en": "⟦0⟧ can gain -3% consumer goods at ⟦1⟧ with its spirits, but will not gain additional factories by this.",
+   "frags": 2
+  },
+  {
+   "k": "1ckcs88",
+   "en": "South Africa"
+  },
+  {
+   "k": "55ja69",
+   "en": "Example"
+  },
+  {
+   "k": "t66ab3",
+   "en": "Suppose the ⟦0⟧ is enabled and no other modifiers apply, meaning that the final consumer goods need is 30%. A country has 50 ⟦1⟧, 50 ⟦2⟧, and 20 ⟦3⟧. It will then have to allocate 30 ⟦4⟧ to produce consumer goods, leaving it with 15 that it can use freely.",
+   "frags": 5
+  },
+  {
+   "k": "1ioagda",
+   "en": "civilian factories"
+  },
+  {
+   "k": "y72qhc",
+   "en": "Consumer goods factories factor"
+  },
+  {
+   "k": "1mpocbu",
+   "en": "Consumer Goods Factories factor (CGFF) is an additional factor that is available in some countries, most notably ⟦0⟧. It is the additional percentages of consumer goods in porportion to the current consumer goods factories. The number is multiplicative, not additive.",
+   "frags": 1
+  },
+  {
+   "k": "alybni",
+   "en": "Germany"
+  },
+  {
+   "k": "1qro8e5",
+   "en": "The following is the formula regarding CGFF:"
+  },
+  {
+   "k": "1jld3d8",
+   "en": "Total Consumer Goods = Consumer Goods granted by Economy Law ⋅ ( 1 + CGFF ) {\\displaystyle {\\text{Total Consumer Goods}}={\\text{Consumer Goods granted by Economy Law}}\\cdot (1+{\\text{CGFF}})}"
+  },
+  {
+   "k": "17hbntt",
+   "en": "Suppose a country with ⟦0⟧, meaning a consumer goods need of ⟦1⟧, and has ⟦2⟧ CGFF. It will have a final consumer goods need of 30% x (1+10%) = ⟦3⟧, not 40%. This means if it had 100 total factories, 33 civilian factories will be allocated to producing consumer goods.",
+   "frags": 4
+  },
+  {
+   "k": "1gnn6cz",
+   "en": "In some cases CGFF can go into the negatives. Similar what happens with positive CGFF, this will reduce the current consumer goods need multiplicatively. If the same example country with ⟦0⟧ had ⟦1⟧ CGFF instead, its final consumer goods need would be 30% x (1-10%) = ⟦2⟧, not 20%.",
+   "frags": 3
+  },
+  {
+   "k": "qi5l8k",
+   "en": "Multiple sources of CGFF stack multiplicatively with each other. This means that multiple smaller sources of positive CGFF can have a greater effect than a single, larger source of positive CGFF. Inversely, a single large source of negative CGFF will have a greater effect than multiple smaller sources of negative CGFF."
+  },
+  {
+   "k": "1u5xhd0",
+   "en": "Output"
+  },
+  {
+   "k": "1y102e6",
+   "en": "The civilian factory output of each civilian factory employed in construction is 4⟦0⟧ per day. Construction Speed modifies the output for the building of all constructions.",
+   "frags": 1
+  },
+  {
+   "k": "1kehojb",
+   "en": "Country Specific"
+  },
+  {
+   "k": "1jnm945",
+   "en": "Free Trade"
+  },
+  {
+   "k": "1c7uoep",
+   "en": "trade law"
+  },
+  {
+   "k": "1gizkvl",
+   "en": "Export Focus as trade law Construction I Construction II Construction III Construction IV Construction V"
+  },
+  {
+   "k": "1yvjxim",
+   "en": "⟦0⟧ as trade law",
+   "frags": 1
+  },
+  {
+   "k": "1q1yljb",
+   "en": "Export Focus"
+  },
+  {
+   "k": "1potkgn",
+   "en": "Construction I"
+  },
+  {
+   "k": "17vs7ne",
+   "en": "Construction II"
+  },
+  {
+   "k": "1tj1sp5",
+   "en": "Construction III"
+  },
+  {
+   "k": "zu3qj7",
+   "en": "Construction IV"
+  },
+  {
+   "k": "1r2rkxi",
+   "en": "Construction V"
+  },
+  {
+   "k": "1shviny",
+   "en": "New Zealand national spirit The Worker's Party New Zealand national spirit In the Darkness Soviet national spirit Worker's Culture"
+  },
+  {
+   "k": "1sl6dmg",
+   "en": "national spirit"
+  },
+  {
+   "k": "1j9q16g",
+   "en": "The Worker's Party"
+  },
+  {
+   "k": "9w7h3w",
+   "en": "In the Darkness"
+  },
+  {
+   "k": "36tcxf",
+   "en": "Worker's Culture"
+  },
+  {
+   "k": "1d14w56",
+   "en": "Limited Exports"
+  },
+  {
+   "k": "1qc2d9y",
+   "en": "Service by Requirement"
+  },
+  {
+   "k": "a215y",
+   "en": "conscription law"
+  },
+  {
+   "k": "qtfr3f",
+   "en": "⟦0⟧ as conscription law",
+   "frags": 1
+  },
+  {
+   "k": "gevg7i",
+   "en": "All Adults Serve"
+  },
+  {
+   "k": "1w87gwb",
+   "en": "Scraping the Barrel"
+  },
+  {
+   "k": "fkinwn",
+   "en": "There are also modifiers which only affect a single type of building. These are, primarily, the ⟦0⟧ (Captain of Industry, Fortification Engineer, Quartermaster General and War Industrialist) but can also be one of many other ⟦1⟧ activated by ⟦2⟧ or ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "7mhbtx",
+   "en": "political advisors"
+  },
+  {
+   "k": "589chw",
+   "en": "events"
+  },
+  {
+   "k": "j8gmc9",
+   "en": "Efficiency of additional civilian factories"
+  },
+  {
+   "k": "w46z0b",
+   "en": "The return on investment of building an additional Civilian Factory will depend on the ⟦0⟧ bonus as well the Economy Law currently in place, or expected in the future. The higher the Construction Speed bonus is, the more Output will be done by the newly built Civilian Factory and the faster it will accumulate an Output equal to its cost, 10800. This variable is the time, in days, required to recover the cost of building the factory, or payback time.",
+   "frags": 1
+  },
+  {
+   "k": "1qpajn3",
+   "en": "Construction Speed"
+  },
+  {
+   "k": "1jusang",
+   "en": "A country's ⟦0⟧ will, in addition to sometimes affecting civilian factory construction speed, also dictate what ratio of civilian factories are used for fulfilling consumer goods needs vs. for free use as output, ⟦1⟧, etc. The higher this ratio is, the longer the payback time of newly built civilian factories will be, as there is a greater likelihood that a newly built civilian factory will be allocated to producing consumer goods instead of having useful output. The payback time of a new civilian factory is given by the following formula:",
+   "frags": 2
+  },
+  {
+   "k": "84lten",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\text{Payback Time} = \\frac{10800}{\\text{Infrastructure Modifier} \\cdot5 \\cdot (1 + \\text{Construction Speed Bonus}) \\cdot \\left(1 - \\frac{\\text{Consumer Goods Factories}}{100}\\right)}}"
+  },
+  {
+   "k": "gtnxb7",
+   "en": "Construction speed modifiers range between ⟦0⟧ and ⟦1⟧. Except for the lowest two modifiers, they all have multiple combinations to be achieved. In fact, there are 320 possible combinations of variables affecting civilian factory construction speed outside of national spirits and unique laws. The infrastructure bonus ranges from ⟦2⟧ at zero infrastructure to ⟦3⟧⟦4⟧ at max infrastructure.",
+   "frags": 5
+  },
+  {
+   "k": "1klldtt",
+   "en": "For a typical state with 4 infrastructure, and therefore an infrastructure construction speed modifier of 1.8x, we can generate the following payback table."
+  },
+  {
+   "k": "1yjlym2",
+   "en": "Payback Time with 4/5 Infrastructure (Days)"
+  },
+  {
+   "k": "1s2t5kr",
+   "en": "Economy Law"
+  },
+  {
+   "k": "1h68qbj",
+   "en": "Minimum (-70%)"
+  },
+  {
+   "k": "zgretp",
+   "en": "Maximum (+65%)"
+  },
+  {
+   "k": "19bjy8v",
+   "en": "Minimal Construction Speed is ⟦0⟧ for Undisturbed Isolation and goes up to ⟦1⟧ with Partial Mobilization. Maximum Speed is ⟦2⟧ for Undisturbed Isolation and ⟦3⟧ with Partial Mobilization. All Values are rounded up to full days.",
+   "frags": 4
+  },
+  {
+   "k": "dpjegd",
+   "en": "The ideal time to switch from building civilian factories to military factories to have the most equipment by a target time is given by the following formula:"
+  },
+  {
+   "k": "1uhnc7a",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\text{Switch Time} = \\text{Target Time} - \\frac{2}{ln(2)} \\cdot \\text{Payback Time}}"
+  },
+  {
+   "k": "1q2d1xk",
+   "en": "For example, for a Payback Time of 800 and a target time of January of 1944, one should switch from building civilian factories to military factories in September of 1937."
+  },
+  {
+   "k": "1ltvxjg",
+   "en": "Additionally, because it's possible to assign up to 15 civilian factories (when available) to the construction of a new civilian factory, the number of days it will take to build a new one is given by the following formula:"
+  },
+  {
+   "k": "41xqe9",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\text{Build Time} = \\frac{10800}{\\#\\text{Factories} \\cdot 5 \\cdot \\text{Infrastructure Modifier} \\cdot \\left(1 + \\frac{\\text{SpeedBonus}}{100}\\right)}}"
+  },
+  {
+   "k": "zqs0lk",
+   "en": "Infrastructure level"
+  },
+  {
+   "k": "dcdnna",
+   "en": "Construction speed of all buildings depends on the level of infrastructure in the state. Construction speed is multiplied by"
+  },
+  {
+   "k": "1umzrsi",
+   "en": "Where the INFRA_MAX_CONSTRUCTION_COST_EFFECT in ⟦0⟧ defaults to 1,⟦1⟧ and Maximum Infrastructure Level defaults to 5 in ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1v92mf6",
+   "en": "/Hearts of Iron IV/common/defines/00_defines.lua"
+  },
+  {
+   "k": "86ahq2",
+   "en": "/Hearts of Iron IV/common/buildings/00_buildings.txt"
+  },
+  {
+   "k": "fyje7v",
+   "en": "For example, at 3/5 infrastructure in a state, construction speed in that state is multiplied by ⟦0⟧. In the Construction UI, this bonus is displayed for each State as a colored percentage next to an Infrastructure road icon. This bonus is applied after bonuses from tech, advisors, and national spirits, making 1 level of infrastructure a more powerful bonus than, e.g., a War Industrialist.",
+   "frags": 1
+  },
+  {
+   "k": "1pvmvl4",
+   "en": "1.6x"
+  },
+  {
+   "k": "ghymu",
+   "en": "It is usually recommended to allocate an infrastructure/civilian factory building phase for your nation before subsequently militarizing by building military factories and naval dockyards. However, the scope of civilian factory building can be reduced substantially if early warfare is planned or expected, and/or if newly built dockyards are meant to produce ships with very long production times."
+  },
+  {
+   "k": "z6u6do",
+   "en": "Due to the construction boost from infrastructure, the most efficient method involves filling all building slots one state at a time. This can be done by prioritizing states with higher starting infrastructure levels. The mechanics of the game encourages players to concentrate industry in central, high-infrastructure areas, although this must be balanced against the increased vulnerability of having all of one's industry in one place. It is common for all building slots to be filled before the game ends, this represents the in-game factory cap for the respective territory."
+  },
+  {
+   "k": "p8ydmd",
+   "en": "Optimal Infrastructure Level for Construction Cost for Buildings in State"
+  },
+  {
+   "k": "1dpjej2",
+   "en": "Optimal Infrastructure Level"
+  },
+  {
+   "k": "6fm0o2",
+   "en": "Minimum Construction Cost (E/%) for any building"
+  },
+  {
+   "k": "h5wk76",
+   "en": "Cost in terms of military factories"
+  },
+  {
+   "k": "n6rf8k",
+   "en": "Cost in terms of civilian factories (G)"
+  },
+  {
+   "k": "1hk1ke1",
+   "en": "The construction cost value needed to justify infrastructure is further modified by the construction speed."
+  },
+  {
+   "k": "13wba2",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\text{Modified Construction Cost} = \\text{Required Construction Cost} \\cdot \\text{Construction Speed Modifier}}"
+  },
+  {
+   "k": "f54f6w",
+   "en": "Construction Speed Modifier"
+  },
+  {
+   "k": "15lc1di",
+   "en": "A higher construction speed, which is always beneficial, also causes the infrastructure construction boost to be less viable."
+  },
+  {
+   "k": "d4op51",
+   "en": "The total amount of ⟦0⟧ can also be increased by building infrastructure. Each level of infrastructure gives a resource increase of ⟦1⟧⟦2⟧ to the total of all extracted resources in a state; this does not include resources produced by ⟦3⟧. There are five (5) levels of infrastructure; building all of them will give a ⟦4⟧ bonus to the total amount of extracted resources.",
+   "frags": 5
+  },
+  {
+   "k": "vb2rqq",
+   "en": "resources"
+  },
+  {
+   "k": "4e0dxw",
+   "en": "Synthetic refineries"
+  },
+  {
+   "k": "eqebzj",
+   "en": "The infrastructure level also affects land unit ⟦0⟧ recovery rates per the following table:",
+   "frags": 1
+  },
+  {
+   "k": "1em9zvu",
+   "en": "organization"
+  },
+  {
+   "k": "lp6td",
+   "en": "Organization recovery rate"
+  },
+  {
+   "k": "1tuxnq8",
+   "en": "Once a state's Infrastructure reaches maximum (level 5), a building slot can be added to that state using a decision called “Region-wide Industrial Integration” that costs 100 PP. This decision can only be taken once per state."
+  },
+  {
+   "k": "13vhujb",
+   "en": "Factory conversion"
+  },
+  {
+   "k": "1tkxfyl",
+   "en": "⟦0⟧ can be converted into ⟦1⟧ for base cost of 4000,⟦2⟧ and ⟦3⟧ can be converted into ⟦4⟧ for base cost of 9000.⟦5⟧ The base cost is modified by ⟦6⟧ and can be futher modified by ⟦7⟧ and ⟦8⟧. To convert a factory, simply click on the corresponding state and hover over the factory that is to be converted. Alternatiely, use the convert button in the construction tab, and conversions will appear in the tab, just like any other building project.",
+   "frags": 9
+  },
+  {
+   "k": "hl9n88",
+   "en": "economy laws"
+  },
+  {
+   "k": "1tsdzca",
+   "en": "Damage and repair"
+  },
+  {
+   "k": "98r7gy",
+   "en": "Each building level has 100⟦0⟧ ⟦1⟧. They may get damaged by ⟦2⟧ (naval bases), ⟦3⟧ (infrastructure, forts), ⟦4⟧ (factories), ⟦5⟧, or explicit events (like the ⟦6⟧'s ⟦7⟧ to move factories to the Urals). ⟦8⟧ can destroy multiple or all levels of a building at once, for details see ⟦9⟧.",
+   "frags": 10
+  },
+  {
+   "k": "12xkhkh",
+   "en": "port strikes"
+  },
+  {
+   "k": "18tcvy4",
+   "en": "land combat"
+  },
+  {
+   "k": "60wqo0",
+   "en": "resistance"
+  },
+  {
+   "k": "uwpqsj",
+   "en": "decision"
+  },
+  {
+   "k": "filzhk",
+   "en": "Nuclear bombs"
+  },
+  {
+   "k": "yuks3l",
+   "en": "nuclear bomb effects"
+  },
+  {
+   "k": "1ig7m05",
+   "en": "The damage from land combat (against infrastructure) and strategic bombing gets scaled by the building's damage factor (air base and radar: 0.5, anti-air: 0.1, 1 otherwise) and the squared ratio of the currently undamaged building levels to the maximum level. For example, a level-3 anti-air building (maximum level 5) where one level is already partially damaged only receives ⟦0⟧ of incoming damage from strategic bombing.",
+   "frags": 1
+  },
+  {
+   "k": "uh2oaz",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\left(2/5\\right)^2 \\cdot 0.1 = 1.6\\%}"
+  },
+  {
+   "k": "19xsv02",
+   "en": "A single military factory in a state (or in other words a level-1 military factory) receives ⟦0⟧ while 15 military factories receive ⟦1⟧ . High-level factories and infrastructure will generally get damaged ⟦2⟧ more quickly from these two damage sources than lower levels.",
+   "frags": 3
+  },
+  {
+   "k": "us86mc",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\left(1/20\\right)^2 = 0.25\\%}"
+  },
+  {
+   "k": "1k6mdso",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\left(15/20\\right)^2 = 56.25\\%}"
+  },
+  {
+   "k": "1m1if0c",
+   "en": "much"
+  },
+  {
+   "k": "19sw6mp",
+   "en": "Anti-air provides damage resistance from bomber-type attacks (port strikes and strategic bombing) depending on the level of anti-air in the containing state and researched anti-air technologies. Dispersed Industry provides an alternative source of damage resistance but only for factories and not stacking with anti-air. The maximum of the two is used for factories."
+  },
+  {
+   "k": "i22g8h",
+   "en": "All damaged buildings appear in the construction list. The speed of factories assigned to a repair line gets a bonus of ⟦0⟧ plus any Factory Repair Speed bonuses (e.g., from ⟦1⟧ or the ⟦2⟧, infrastructure levels). Even when no factories are assigned, the speed of the line is 1⟦3⟧⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "ndbchi",
+   "en": "construction technologies"
+  },
+  {
+   "k": "w0zogg",
+   "en": "Construction Repair continuous focus"
+  },
+  {
+   "k": "kmodhl",
+   "en": "The resulting daily repair progress is ⟦0⟧ , rounded to the nearest full percent. So when no factories are assigned, repairs will still progress by 1% per day. Assigning just a few factories to repair an expensive building may also produce just 1% progress per day, effectively wasting the output of those factories.",
+   "frags": 1
+  },
+  {
+   "k": "1j8ngta",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\text{median}(1\\%, \\text{speed} / \\text{building cost} \\cdot 100\\%, 100\\%)}"
+  },
+  {
+   "k": "14hz763",
+   "en": "Notes and References"
+  },
+  {
+   "k": "vz99is",
+   "en": "⟦0⟧ ⟦1⟧ ⟦2⟧ can increase this building's production by ⟦3⟧ after completing ⟦4⟧ or by ⟦5⟧ after completing ⟦6⟧. ⟦7⟧ ⟦8⟧ ⟦9⟧ can increase this building's production by ⟦10⟧ after appointing William Rhodes Davis as a political advisor.",
+   "frags": 11
+  },
+  {
+   "k": "kzsyt3",
+   "en": "Industrial Expansion"
+  },
+  {
+   "k": "17db1kz",
+   "en": "Establish Buna-Werke"
+  },
+  {
+   "k": "cdniao",
+   "en": "From game file \\Hearts of Iron IV\\common\\buildings\\00_buildings.txt"
+  },
+  {
+   "k": "76y7b9",
+   "en": "⟦0⟧ in ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1pa9nme",
+   "en": "NDefines.NSupply.INFRA_TO_SUPPLY = 0.3"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "1p813qf",
+   "en": "NDefines.NMilitary.INFRASTRUCTURE_MOVEMENT_SPEED_IMPACT = -0.05"
+  },
+  {
+   "k": "1bx1o8u",
+   "en": "NDefines.NMilitary.INFRA_ORG_IMPACT = 0.5"
+  },
+  {
+   "k": "1thzwrz",
+   "en": "⟦0⟧ and ⟦1⟧ in ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1he7aiv",
+   "en": "NDefines.NMilitary.STRATEGIC_SPEED_INFRA_BASE = 5"
+  },
+  {
+   "k": "1hz7aao",
+   "en": "NDefines.NMilitary.STRATEGIC_SPEED_INFRA_MAX = 10"
+  }
+ ]
+}

@@ -1,0 +1,1009 @@
+{
+ "batch": 149,
+ "items": [
+  {
+   "k": "16stcbm",
+   "zh": "remove_building = { type = arms_factory level = 5 } remove_building = { tag = facility level = 1 }"
+  },
+  {
+   "k": "6ra4kd",
+   "zh": "移除当前州中指定的建筑。对于共享建筑，level 决定数量；对于其他建筑，它表示实际等级。"
+  },
+  {
+   "k": "m2vp2k",
+   "zh": "construct_building_in_random_province"
+  },
+  {
+   "k": "pl7hmx",
+   "zh": "⟦0⟧ 要建造的建筑。"
+  },
+  {
+   "k": "1pjzbn9",
+   "zh": "<building> = <int>"
+  },
+  {
+   "k": "meyxyk",
+   "zh": "65 = { construct_building_in_random_province = { land_facility = 1 } }"
+  },
+  {
+   "k": "cct9de",
+   "zh": "在州作用域内的随机省份设置建筑等级。"
+  },
+  {
+   "k": "qvidd4",
+   "zh": "抵抗度与顺从度"
+  },
+  {
+   "k": "1rvjw96",
+   "zh": "与抵抗度相关的州作用域效果："
+  },
+  {
+   "k": "1nqgbe6",
+   "zh": "add_compliance"
+  },
+  {
+   "k": "2wrbak",
+   "zh": "add_compliance = 30"
+  },
+  {
+   "k": "zl8z0p",
+   "zh": "为指定的州添加顺从度。"
+  },
+  {
+   "k": "11ssocc",
+   "zh": "add_resistance"
+  },
+  {
+   "k": "1kpkzoi",
+   "zh": "add_resistance = 30"
+  },
+  {
+   "k": "1faftpv",
+   "zh": "为指定的州添加抵抗度。"
+  },
+  {
+   "k": "e9t0ks",
+   "zh": "add_resistance_target"
+  },
+  {
+   "k": "106m502",
+   "zh": "add_resistance_target = 30"
+  },
+  {
+   "k": "4s2o77",
+   "zh": "提高指定州的抵抗度目标。"
+  },
+  {
+   "k": "11aipef",
+   "zh": "⟦0⟧ 该目标增加的 ID。 ⟦1⟧ 抵抗度目标提高的数量。 ⟦2⟧ 仅当被占领国家为指定作用域时才会应用该提高。 ⟦3⟧ 仅当占领者为指定作用域时才会应用该提高。 ⟦4⟧ 若设置，抵抗度目标只会在指定的天数内提高。 ⟦5⟧ 在抵抗度目标工具提示中显示的工具提示。"
+  },
+  {
+   "k": "1hc06s2",
+   "zh": "amount = <int>/<variable>"
+  },
+  {
+   "k": "ca3dt2",
+   "zh": "occupied = <country>"
+  },
+  {
+   "k": "6bscgo",
+   "zh": "occupier = <country>"
+  },
+  {
+   "k": "19hzavn",
+   "zh": "days = <int>/<variable>"
+  },
+  {
+   "k": "11o8yd8",
+   "zh": "add_resistance_target = { id = 123 amount = 30 occupied = ENG occupier = GER days = 365 tooltip = my_localisation_key }"
+  },
+  {
+   "k": "jjbxlt",
+   "zh": "cancel_resistance"
+  },
+  {
+   "k": "16p2lih",
+   "zh": "cancel_resistance = yes"
+  },
+  {
+   "k": "14etpvg",
+   "zh": "取消当前州的抵抗度活动。"
+  },
+  {
+   "k": "jlpx39",
+   "zh": "force_disable_resistance"
+  },
+  {
+   "k": "1nqakf8",
+   "zh": "force_disable_resistance = GER"
+  },
+  {
+   "k": "1m70ccu",
+   "zh": "当占领者为指定国家时，禁用作用域州的抵抗度。"
+  },
+  {
+   "k": "7v6990",
+   "zh": "⟦0⟧ 若设为 yes，将清除抵抗度。 ⟦1⟧ 若占领者为指定作用域，抵抗度将被禁用。 ⟦2⟧ 若被占领国家为指定作用域，抵抗度将被禁用。"
+  },
+  {
+   "k": "xf01pd",
+   "zh": "clear = <bool>"
+  },
+  {
+   "k": "1f0ck5v",
+   "zh": "force_disable_resistance = { clear = yes occupier = GER occupied = ENG }"
+  },
+  {
+   "k": "1yvcjhq",
+   "zh": "force_enable_resistance"
+  },
+  {
+   "k": "1xwzoen",
+   "zh": "force_enable_resistance = GER"
+  },
+  {
+   "k": "s4rf9t",
+   "zh": "当占领者为指定国家时，启用作用域州的抵抗度。"
+  },
+  {
+   "k": "an1o77",
+   "zh": "它本身不会启动抵抗度，只会移除那些强制禁用抵抗度的检查。与⟦0⟧配合使用即可立即启动抵抗度。"
+  },
+  {
+   "k": "gxwt7p",
+   "zh": "start_resistance"
+  },
+  {
+   "k": "css1wm",
+   "zh": "⟦0⟧ 若设为 yes，将清除抵抗度。 ⟦1⟧ 若占领者为指定作用域，抵抗度将被启用。 ⟦2⟧ 若被占领国家为指定作用域，抵抗度将被启用。"
+  },
+  {
+   "k": "jfgnw0",
+   "zh": "force_enable_resistance = { clear = yes occupier = GER occupied = ENG }"
+  },
+  {
+   "k": "smpopt",
+   "zh": "remove_resistance_target"
+  },
+  {
+   "k": "1u63lnh",
+   "zh": "⟦0⟧ 要移除的抵抗度目标的 id。（必须通过 add_resistance_target 设置）"
+  },
+  {
+   "k": "1jnoj0l",
+   "zh": "remove_resistance_target = 30"
+  },
+  {
+   "k": "1buhic2",
+   "zh": "移除指定州中已设置的抵抗度目标提高。"
+  },
+  {
+   "k": "1anajil",
+   "zh": "没有工具提示。"
+  },
+  {
+   "k": "1gf3ben",
+   "zh": "set_compliance"
+  },
+  {
+   "k": "1cx3gy9",
+   "zh": "⟦0⟧ 要将顺从度设置为的数量。"
+  },
+  {
+   "k": "1tw54i3",
+   "zh": "set_compliance = 30"
+  },
+  {
+   "k": "11f9o7g",
+   "zh": "设置指定州的顺从度。"
+  },
+  {
+   "k": "qgi4rt",
+   "zh": "set_resistance"
+  },
+  {
+   "k": "ol8e8j",
+   "zh": "⟦0⟧ 要将抵抗度设置为的数量。"
+  },
+  {
+   "k": "wh9d7x",
+   "zh": "set_resistance = 30"
+  },
+  {
+   "k": "1v8j2fa",
+   "zh": "设置指定州的抵抗度。"
+  },
+  {
+   "k": "1im4qgt",
+   "zh": "该州应已启用抵抗度，可以通过⟦0⟧或游戏内流程启用。控制权变更后，抵抗度有时需要过一个 tick 才会开始，因此最好在紧接该效果执行之前交给该国的州上执行，例如在国家历史文件中执行时。"
+  },
+  {
+   "k": "wq674k",
+   "zh": "⟦0⟧ 是否启动抵抗度。若以国家作为参数，则该州只有在被目标国家占领时才会启动抵抗度。"
+  },
+  {
+   "k": "1l2ie6c",
+   "zh": "<bool>/<country>"
+  },
+  {
+   "k": "nomaaz",
+   "zh": "start_resistance = POL start_resistance = yes"
+  },
+  {
+   "k": "1oei0sa",
+   "zh": "在指定的州启动抵抗度。"
+  },
+  {
+   "k": "q2rjyp",
+   "zh": "若用于通常无法启动抵抗度的州，请与⟦0⟧配合使用。"
+  },
+  {
+   "k": "1ft04hz",
+   "zh": "set_garrison_strength"
+  },
+  {
+   "k": "itww8v",
+   "zh": "⟦0⟧ 新的驻军强度。"
+  },
+  {
+   "k": "1piht3p",
+   "zh": "set_garrison_strength = 0.5"
+  },
+  {
+   "k": "1pezjo8",
+   "zh": "设置指定州驻军的强度。"
+  },
+  {
+   "k": "q8irdr",
+   "zh": "GER = { every_controlled_state = { set_occupation_law = military_governor_occupation } } # 更改 GER 每个受控州的占领法令。"
+  },
+  {
+   "k": "kijy19",
+   "zh": "设置该州的占领法令。"
+  },
+  {
+   "k": "1e311g6",
+   "zh": "⟦0⟧ 将是更改其占领法令的国家。若 PREV 不是国家，则不会有任何变化。若 PREV 未占领该州，则在占领之前不会发生任何事。若使用⟦1⟧，则重置为该国的占领所设置的法令。也可在国家作用域中使用。"
+  },
+  {
+   "k": "1vaqbty",
+   "zh": "突袭"
+  },
+  {
+   "k": "1118rl2",
+   "zh": "与突袭相关的州作用域效果："
+  },
+  {
+   "k": "1b920h4",
+   "zh": "raid_reduce_project_progress_ratio"
+  },
+  {
+   "k": "1f6x7j2",
+   "zh": "⟦0⟧ 要减少的数值。"
+  },
+  {
+   "k": "13aphnn",
+   "zh": "<float>"
+  },
+  {
+   "k": "1mjzbym",
+   "zh": "raid_reduce_project_progress_ratio = 0.1"
+  },
+  {
+   "k": "1pqozi9",
+   "zh": "减少州内特殊项目的进度。根作用域为突袭实例作用域。输入值为完成特殊项目所需总进度的比例，即 0 到 1 之间的小数。"
+  },
+  {
+   "k": "1hqd6cl",
+   "zh": "通用角色作用域效果："
+  },
+  {
+   "k": "1dhxj12",
+   "zh": "set_character_flag"
+  },
+  {
+   "k": "ckzn08",
+   "zh": "⟦0⟧ 用于标识该角色旗标的唯一字符串。或者 flag = <flag> 要设置的旗标。days = <int> 将旗标设为持续指定的天数。可选。value = <int> 旗标的新值，取值范围为 -2 147 483 648 到 2 147 483 647。"
+  },
+  {
+   "k": "1pqlfgj",
+   "zh": "set_character_flag = my_flag set_character_flag = { flag = my_flag days = 123 value = 1 }"
+  },
+  {
+   "k": "pbif23",
+   "zh": "定义一个角色旗标。"
+  },
+  {
+   "k": "vjwvdi",
+   "zh": "⟦0⟧ 要使用的名称。"
+  },
+  {
+   "k": "1hqakke",
+   "zh": "<localisation key>"
+  },
+  {
+   "k": "1dsgo16",
+   "zh": "set_character_name = GER_my_cool_flag"
+  },
+  {
+   "k": "11ltgbn",
+   "zh": "将角色的名称更改为指定本地化键的值。"
+  },
+  {
+   "k": "rtarkm",
+   "zh": "modify_character_flag"
+  },
+  {
+   "k": "1bsch2w",
+   "zh": "modify_character_flag = { flag = my_flag value = 3 }"
+  },
+  {
+   "k": "1gn7lbz",
+   "zh": "clr_character_flag"
+  },
+  {
+   "k": "17xfb6u",
+   "zh": "clr_character_flag = <bool>"
+  },
+  {
+   "k": "1x61sh3",
+   "zh": "清除一个角色旗标"
+  },
+  {
+   "k": "80rx86",
+   "zh": "retire"
+  },
+  {
+   "k": "dsrroy",
+   "zh": "⟦0⟧ 布尔值>"
+  },
+  {
+   "k": "1k433u2",
+   "zh": "retire = yes"
+  },
+  {
+   "k": "e4hgpe",
+   "zh": "使当前角色退役（将其移除）。"
+  },
+  {
+   "k": "1gpqt97",
+   "zh": "set_nationality = GER"
+  },
+  {
+   "k": "vlnuak",
+   "zh": "将当前角色切换到指定国家，并把该角色交给该国。"
+  },
+  {
+   "k": "10yfsf8",
+   "zh": "set_portraits"
+  },
+  {
+   "k": "1valwea",
+   "zh": "⟦0⟧ 角色名称。若在角色作用域中则可选。陆军作用域：small = <sprite> 用作顾问的立绘。large = <sprite> 用作将领的立绘。角色作用域：large = <sprite> 用作国家领袖的立绘。"
+  },
+  {
+   "k": "1gh9lxk",
+   "zh": "陆军作用域"
+  },
+  {
+   "k": "1p9vu4w",
+   "zh": "small = <sprite>"
+  },
+  {
+   "k": "19yytvs",
+   "zh": "large = <sprite>"
+  },
+  {
+   "k": "1f6p1f7",
+   "zh": "set_portraits = { character = my_character army = { small =\"MySmallCharacterGFX\" } civilian = { large =\"MyLargeCharacterGFX\" } }"
+  },
+  {
+   "k": "c16b06",
+   "zh": "更改角色的指定立绘。"
+  },
+  {
+   "k": "ycr7lv",
+   "zh": "⟦0⟧ 角色的槽位。顾问必需。ideology = <sub-ideology> 角色的意识形态类型。国家领袖必需。trait = <trait> 要添加的特质。"
+  },
+  {
+   "k": "17rag39",
+   "zh": "add_trait = { slot = political_advisor trait = really_good_boss } add_trait = { ideology = liberalism trait = field_of_gar }"
+  },
+  {
+   "k": "nkvuhz",
+   "zh": "意识形态类型指赋予角色的意识形态组下的子类型，社区术语中通常称为次意识形态。角色槽位可以是角色的名称或 id。推荐使用名称，因为 1.11 版本已使 id 过时。"
+  },
+  {
+   "k": "98i59q",
+   "zh": "⟦0⟧ 角色的槽位。顾问必需。ideology = <sub-ideology> 角色的意识形态类型。国家领袖必需。trait = <trait> 要移除的特质。"
+  },
+  {
+   "k": "ka97uz",
+   "zh": "remove_trait = { slot = political_advisor trait = really_good_boss } remove_trait = { ideology = liberalism trait = field_of_gar }"
+  },
+  {
+   "k": "h2qoxe",
+   "zh": "add_corps_commander_role = { skill = 4 attack_skill = 2 defense_skill = 3 planning_skill = 3 logistics_skill = 5 }"
+  },
+  {
+   "k": "m8077l",
+   "zh": "add_field_marshal_role = { skill = 4 attack_skill = 2 defense_skill = 3 planning_skill = 3 logistics_skill = 5 }"
+  },
+  {
+   "k": "hybcnx",
+   "zh": "add_naval_commander_role = { skill = 4 attack_skill = 2 defense_skill = 3 planning_skill = 3 logistics_skill = 5 }"
+  },
+  {
+   "k": "1517bpe",
+   "zh": "add_country_leader_role = { character = GER_character_token promote_leader = yes country_leader = { ideology = fascism_type expire = \"1965.1.1.1\" traits = { war_industrialist } } }"
+  },
+  {
+   "k": "k4p5ch",
+   "zh": "若该角色在意识形态组中已拥有国家领袖身份，则不会产生任何作用。"
+  },
+  {
+   "k": "1d11btg",
+   "zh": "⟦0⟧ 布尔值。或者 <ideology type> 国家领袖身份使用的意识形态类型。"
+  },
+  {
+   "k": "1iftq19",
+   "zh": "<ideology type>"
+  },
+  {
+   "k": "xejlzs",
+   "zh": "promote_character = yes promote_character = liberalism"
+  },
+  {
+   "k": "1oz04xt",
+   "zh": "若该角色拥有多个国家领袖身份，则必须指定意识形态类型。意识形态类型指赋予角色的意识形态组下的子类型，社区术语中通常称为次意识形态。"
+  },
+  {
+   "k": "obrm56",
+   "zh": "⟦0⟧ 角色的意识形态类型。"
+  },
+  {
+   "k": "jv9upz",
+   "zh": "remove_country_leader_role = { ideology = socialism }"
+  },
+  {
+   "k": "bbz827",
+   "zh": "意识形态类型指赋予角色的意识形态组下的子类型，社区术语中通常称为次意识形态。"
+  },
+  {
+   "k": "1j6q95a",
+   "zh": "⟦0⟧ ⟦1⟧ activate = <bool> 将激活该顾问（执行该指令时直接将其加入该国政府）。可选，默认为 false。"
+  },
+  {
+   "k": "y9erqv",
+   "zh": "add_advisor_role = { activate = yes advisor = { slot = air_chief cost = 50 idea_token = GER_character_token_air_chief traits = { air_chief_ground_support_2 } } }"
+  },
+  {
+   "k": "1qazxtt",
+   "zh": "以这种方式创建的顾问定义中不能添加触发器和效果块（例如⟦0⟧和⟦1⟧）。"
+  },
+  {
+   "k": "1jk01dc",
+   "zh": "⟦0⟧ 要从中移除顾问的槽位。"
+  },
+  {
+   "k": "10lv4v7",
+   "zh": "remove_advisor_role = { slot = political_advisor }"
+  },
+  {
+   "k": "1veqjps",
+   "zh": "add_scientist_role = { scientist = { desc = desc_loc_key traits = { scientist_trait_token ... } skills = { specialization_token = 2 ... } } }"
+  },
+  {
+   "k": "v1bvr3",
+   "zh": "科学家身份的格式与角色数据库中相同。除了 visible 触发器外，通过效果创建的科学家身份不能拥有触发器。也可在国家作用域中使用。"
+  },
+  {
+   "k": "19htef5",
+   "zh": "remove_scientist_role = yes"
+  },
+  {
+   "k": "1b2sm58",
+   "zh": "add_scientist_level"
+  },
+  {
+   "k": "1ae5azq",
+   "zh": "⟦0⟧ 要添加的等级。specialization = <specialization> 要添加的专业方向。"
+  },
+  {
+   "k": "7g622s",
+   "zh": "specialization = <specialization>"
+  },
+  {
+   "k": "6d246o",
+   "zh": "add_scientist_level = { level = 2 specialization = specialization_nuclear }"
+  },
+  {
+   "k": "1lk5jsw",
+   "zh": "为作用域中的科学家角色添加特殊项目专业方向的等级。"
+  },
+  {
+   "k": "8opk4j",
+   "zh": "injure_scientist_for_days"
+  },
+  {
+   "k": "mdq00u",
+   "zh": "⟦0⟧ 应用受伤的天数。"
+  },
+  {
+   "k": "2u9zhj",
+   "zh": "injure_scientist_for_days = 12"
+  },
+  {
+   "k": "1l5q70k",
+   "zh": "使作用域中的科学家角色受伤 x 天。"
+  },
+  {
+   "k": "kw4j0i",
+   "zh": "add_scientist_trait"
+  },
+  {
+   "k": "1u9wko",
+   "zh": "⟦0⟧ 要添加的特质。"
+  },
+  {
+   "k": "1hv504g",
+   "zh": "add_scientist_trait = my_trait_token"
+  },
+  {
+   "k": "7sdcpl",
+   "zh": "为作用域中的科学家角色添加一个特质。"
+  },
+  {
+   "k": "a06ee",
+   "zh": "add_scientist_xp"
+  },
+  {
+   "k": "1upjf19",
+   "zh": "⟦0⟧ 要添加的经验。specialization = <specialization> 要添加的专业方向。"
+  },
+  {
+   "k": "1yvkym4",
+   "zh": "experience = <int> / <variable>"
+  },
+  {
+   "k": "1w0b6ag",
+   "zh": "add_scientist_xp = { experience = 2 specialization = specialization_nuclear }"
+  },
+  {
+   "k": "dbt53f",
+   "zh": "为作用域中的科学家角色添加特殊项目专业方向的经验。"
+  },
+  {
+   "k": "1bzqtd2",
+   "zh": "⟦0⟧ 要修改的角色的槽位。value = <bool> 要设置的值。"
+  },
+  {
+   "k": "6lonee",
+   "zh": "set_can_be_fired_in_advisor_role = { slot = political_advisor value = no }"
+  },
+  {
+   "k": "xdimtl",
+   "zh": "这些只能用于单位指挥官类型的角色。"
+  },
+  {
+   "k": "pt0yx",
+   "zh": "通用单位指挥官作用域效果："
+  },
+  {
+   "k": "ro74y6",
+   "zh": "unit_leader_event"
+  },
+  {
+   "k": "y78nq4",
+   "zh": "unit_leader_event = { id = my_event.1 days = 10 random = 50 random_days = 10 }"
+  },
+  {
+   "k": "vifs3m",
+   "zh": "为当前单位指挥官的所有者触发指定事件。"
+  },
+  {
+   "k": "e31xt7",
+   "zh": "使用显示当前单位指挥官立绘的特殊界面。在无需反复检查触发器的情况下，random 可作为比 mean_time_to_happen 更轻量的替代方式来安排事件。"
+  },
+  {
+   "k": "1okmch",
+   "zh": "set_unit_leader_flag"
+  },
+  {
+   "k": "oj2v0s",
+   "zh": "⟦0⟧ 用于标识该单位指挥官旗标的唯一字符串。"
+  },
+  {
+   "k": "iuk4qn",
+   "zh": "set_unit_leader_flag = my_flag"
+  },
+  {
+   "k": "1sgxha3",
+   "zh": "定义一个单位指挥官旗标。"
+  },
+  {
+   "k": "a7631f",
+   "zh": "已弃用。请改用⟦0⟧。不显示工具提示。"
+  },
+  {
+   "k": "1cmn6h8",
+   "zh": "clr_unit_leader_flag"
+  },
+  {
+   "k": "dry8ss",
+   "zh": "⟦0⟧ 要清除的单位指挥官旗标的唯一字符串。"
+  },
+  {
+   "k": "1sy6bt6",
+   "zh": "clr_unit_leader_flag = my_flag"
+  },
+  {
+   "k": "1uchiuq",
+   "zh": "清除已定义的单位指挥官旗标。"
+  },
+  {
+   "k": "1yvfmap",
+   "zh": "modify_unit_leader_flag"
+  },
+  {
+   "k": "v0vgjl",
+   "zh": "modify_unit_leader_flag = { flag = my_flag value = 3 }"
+  },
+  {
+   "k": "9miqqd",
+   "zh": "该旗标必须已经设置。已弃用。请改用⟦0⟧。"
+  },
+  {
+   "k": "1sa5e25",
+   "zh": "promote_leader"
+  },
+  {
+   "k": "nwuvg8",
+   "zh": "⟦0⟧ 布尔值"
+  },
+  {
+   "k": "dfgkh1",
+   "zh": "promote_leader = yes"
+  },
+  {
+   "k": "4faq5y",
+   "zh": "将当前单位指挥官晋升为元帅（若为指挥官）。"
+  },
+  {
+   "k": "fkyylz",
+   "zh": "demote_leader"
+  },
+  {
+   "k": "6409tf",
+   "zh": "demote_leader = yes"
+  },
+  {
+   "k": "z2pwgc",
+   "zh": "将当前单位指挥官降为指挥官（若为元帅）。"
+  },
+  {
+   "k": "1wch9yi",
+   "zh": "add_unit_leader_trait"
+  },
+  {
+   "k": "1gtwe5e",
+   "zh": "add_unit_leader_trait = old_guard"
+  },
+  {
+   "k": "1wgkdly",
+   "zh": "为当前单位指挥官添加指定的特质。"
+  },
+  {
+   "k": "1nmwdpz",
+   "zh": "remove_unit_leader_trait"
+  },
+  {
+   "k": "1742ce7",
+   "zh": "remove_unit_leader_trait = old_guard"
+  },
+  {
+   "k": "ojlsby",
+   "zh": "移除当前单位指挥官的指定特质。"
+  },
+  {
+   "k": "bhobrl",
+   "zh": "add_random_trait"
+  },
+  {
+   "k": "uju6wa",
+   "zh": "add_random_trait = { old_guard brilliant_strategist inflexible_strategist }"
+  },
+  {
+   "k": "9pnenh",
+   "zh": "从列表中为该角色随机添加一个特质。"
+  },
+  {
+   "k": "1lkbdy2",
+   "zh": "add_timed_unit_leader_trait"
+  },
+  {
+   "k": "zwnng5",
+   "zh": "⟦0⟧ 要添加的特质。days = <int> 该特质的持续时间。"
+  },
+  {
+   "k": "z0iut7",
+   "zh": "add_timed_unit_leader_trait = { trait = wounded days = 90 }"
+  },
+  {
+   "k": "mmnin8",
+   "zh": "为当前单位指挥官添加指定持续时间的指定特质。"
+  },
+  {
+   "k": "zqoh9h",
+   "zh": "replace_unit_leader_trait"
+  },
+  {
+   "k": "1sk3ynm",
+   "zh": "⟦0⟧ 要替换的特质。replace = <trait> 要添加的新特质。"
+  },
+  {
+   "k": "agmume",
+   "zh": "replace = <trait>"
+  },
+  {
+   "k": "14amxo1",
+   "zh": "replace_unit_leader_trait = { trait = old_guard replace = brilliant_strategist }"
+  },
+  {
+   "k": "1rf3yx8",
+   "zh": "将指定的特质替换为新特质。"
+  },
+  {
+   "k": "e836mh",
+   "zh": "特质可在⟦0⟧文件中找到。警告：该效果极易出错。它无法正确替换特质，并且容易导致崩溃。请改用 remove_unit_leader_trait 和 add_unit_leader_trait。"
+  },
+  {
+   "k": "zjkagf",
+   "zh": "警告："
+  },
+  {
+   "k": "11lh14a",
+   "zh": "remove_exile_tag"
+  },
+  {
+   "k": "s6ay46",
+   "zh": "移除陆军指挥官的流亡标签，使其不再被视为流亡指挥官。"
+  },
+  {
+   "k": "ovgcpq",
+   "zh": "remove_exile_tag = yes"
+  },
+  {
+   "k": "14g1pae",
+   "zh": "移除指挥官的流亡标签。"
+  },
+  {
+   "k": "1t0ed4j",
+   "zh": "gain_xp"
+  },
+  {
+   "k": "1tp8xtf",
+   "zh": "gain_xp = 5"
+  },
+  {
+   "k": "1805ekm",
+   "zh": "为当前单位指挥官增加经验，若满足条件则晋升到下一技能等级。"
+  },
+  {
+   "k": "1upcvcq",
+   "zh": "不能使用负值。"
+  },
+  {
+   "k": "2d6lcc",
+   "zh": "remove_unit_leader = yes"
+  },
+  {
+   "k": "1bid00j",
+   "zh": "移除当前单位指挥官。"
+  },
+  {
+   "k": "1oedql",
+   "zh": "remove_unit_leader_role = yes"
+  },
+  {
+   "k": "1460jzm",
+   "zh": "移除该角色的所有单位指挥官身份"
+  },
+  {
+   "k": "cmler9",
+   "zh": "这些只能用于国家领袖类型的角色。"
+  },
+  {
+   "k": "yrpnav",
+   "zh": "国家领袖作用域效果："
+  },
+  {
+   "k": "u2rt7a",
+   "zh": "⟦0⟧ 要添加的特质。或者：ideology = <sub-ideology> 要添加特质的国家领袖身份的次意识形态。trait = <trait> 要添加的特质。"
+  },
+  {
+   "k": "1801hlt",
+   "zh": "add_country_leader_trait = nationalist_symbol add_country_leader_trait = { ideology = marxism trait = anti_communist }"
+  },
+  {
+   "k": "hmhzxe",
+   "zh": "为当前角色添加指定的特质。"
+  },
+  {
+   "k": "1dpm8jj",
+   "zh": "特质可在⟦0⟧文件中找到。⟦1⟧"
+  },
+  {
+   "k": "e40ooh",
+   "zh": "前者仅在该角色只有一个国家领袖身份时适用。"
+  },
+  {
+   "k": "1cxqcq4",
+   "zh": "⟦0⟧ 要移除的特质。或者：ideology = <sub-ideology> 要为其添加特质的国家领袖身份的次意识形态。trait = <trait> 要移除的特质。"
+  },
+  {
+   "k": "3hb9yp",
+   "zh": "remove_country_leader_trait = nationalist_symbol remove_country_leader_trait = { ideology = marxism trait = anti_communist }"
+  },
+  {
+   "k": "1h6nsa",
+   "zh": "从当前角色移除指定的特质。"
+  },
+  {
+   "k": "10yqtvb",
+   "zh": "⟦0⟧ 要移除的特质 add = <trait> 要添加的特质 ideology = <sub-ideology> 要交换特质的领袖的次意识形态。"
+  },
+  {
+   "k": "y0u5s0",
+   "zh": "remove = <trait>"
+  },
+  {
+   "k": "1hovdf5",
+   "zh": "add = <trait>"
+  },
+  {
+   "k": "115e89q",
+   "zh": "swap_country_leader_traits = { remove = nationalist_symbol add = anti_communist ideology = marxism }"
+  },
+  {
+   "k": "1egd9tq",
+   "zh": "交换当前角色的特质。"
+  },
+  {
+   "k": "1tdani6",
+   "zh": "在国家作用域中使用⟦0⟧。"
+  },
+  {
+   "k": "s5a5vl",
+   "zh": "战斗"
+  },
+  {
+   "k": "167s7ct",
+   "zh": "与战斗相关的单位指挥官作用域效果："
+  },
+  {
+   "k": "1wa14ji",
+   "zh": "supply_units"
+  },
+  {
+   "k": "1f16wil",
+   "zh": "⟦0⟧ 补给的小时数。"
+  },
+  {
+   "k": "1anzji1",
+   "zh": "supply_units = 24"
+  },
+  {
+   "k": "9bapj3",
+   "zh": "为当前单位指挥官率领的部队添加指定小时数的补给。"
+  },
+  {
+   "k": "xfia5e",
+   "zh": "add_max_trait"
+  },
+  {
+   "k": "3wz4bq",
+   "zh": "add_max_trait = 1"
+  },
+  {
+   "k": "oiwa6p",
+   "zh": "为当前单位指挥官添加指定数量的可分配特质槽位。"
+  },
+  {
+   "k": "ng0n67",
+   "zh": "add_skill_level"
+  },
+  {
+   "k": "121h2wm",
+   "zh": "⟦0⟧ 要添加的技能。"
+  },
+  {
+   "k": "14823gj",
+   "zh": "add_skill_level = 1"
+  },
+  {
+   "k": "1g6z48e",
+   "zh": "为当前单位指挥官增加技能。"
+  },
+  {
+   "k": "18vi5ys",
+   "zh": "add_logistics"
+  },
+  {
+   "k": "1owqrgj",
+   "zh": "⟦0⟧ 要添加多少技能等级。"
+  },
+  {
+   "k": "1ci7548",
+   "zh": "add_logistics = 1"
+  },
+  {
+   "k": "8l1kyd",
+   "zh": "为当前单位指挥官增加后勤技能。"
+  },
+  {
+   "k": "12xzwpk",
+   "zh": "add_planning"
+  },
+  {
+   "k": "s6vzac",
+   "zh": "add_planning = 1"
+  },
+  {
+   "k": "wyeeht",
+   "zh": "为当前单位指挥官增加计划技能。"
+  },
+  {
+   "k": "114y753",
+   "zh": "add_defense"
+  },
+  {
+   "k": "43ur2j",
+   "zh": "add_defense = 1"
+  },
+  {
+   "k": "kjn5fa",
+   "zh": "为当前单位指挥官增加防御技能。"
+  },
+  {
+   "k": "165k6x5",
+   "zh": "add_attack"
+  },
+  {
+   "k": "16nnfrp",
+   "zh": "add_attack = 1"
+  },
+  {
+   "k": "n1maiw",
+   "zh": "为当前单位指挥官增加攻击技能。"
+  },
+  {
+   "k": "jf8jni",
+   "zh": "add_coordination"
+  },
+  {
+   "k": "11zzozu",
+   "zh": "add_coordination = 1"
+  },
+  {
+   "k": "15nq0ch",
+   "zh": "为当前海军指挥官增加协同技能。"
+  },
+  {
+   "k": "1s131bm",
+   "zh": "add_maneuver"
+  },
+  {
+   "k": "1gviyra",
+   "zh": "add_maneuver = 1"
+  },
+  {
+   "k": "16kzdyd",
+   "zh": "为当前海军指挥官增加机动技能。"
+  },
+  {
+   "k": "scd9mc",
+   "zh": "add_temporary_buff_to_units"
+  }
+ ]
+}

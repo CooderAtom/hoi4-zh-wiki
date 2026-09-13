@@ -1,0 +1,977 @@
+{
+ "batch": 1134,
+ "pages": [
+  "Patch 1.4.X"
+ ],
+ "chars": 14912,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1625xx9",
+   "en": "⟦0⟧ are all patches beginning with 1.4.",
+   "frags": 1
+  },
+  {
+   "k": "8xaqyy",
+   "en": "Patch 1.4.X"
+  },
+  {
+   "k": "5yem37",
+   "en": "Main article: Patch 1.4"
+  },
+  {
+   "k": "537fu4",
+   "en": "1.4.1 is a hotfix which was released on 2017-06-29⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "18pyxdy",
+   "en": "6e42"
+  },
+  {
+   "k": "bm1m7s",
+   "en": "Highlights & Important"
+  },
+  {
+   "k": "c30kcl",
+   "en": "Units getting pushed back in naval invasions are now removed from the order so they won't automatically try it again (no more ping pong)"
+  },
+  {
+   "k": "1g0q5yn",
+   "en": "Fixed the Stug tech icon to have correct barrel length"
+  },
+  {
+   "k": "11i9vce",
+   "en": "Major rewrite of air combat system (the underlying stuff), should now have less wierd special cases and be easier to balance"
+  },
+  {
+   "k": "18hki6a",
+   "en": "Fixed issue where generic leaders would be replaced randomly in the world due to mistake in focus tree"
+  },
+  {
+   "k": "17yvipq",
+   "en": "Each wing of CAS should now be able to attack more than one combat removing the need to split them up in small wings"
+  },
+  {
+   "k": "141tnxh",
+   "en": "Its now possible to mark even base (Mk 0) equipment as obsolete, also equipment conversion will only convert foreign and obsolete equipment, so you have much more control now."
+  },
+  {
+   "k": "rehlwh",
+   "en": "Fixed a case where Chinese AI would delete units incorrectly due to supply evaluation"
+  },
+  {
+   "k": "1do2u1",
+   "en": "Fixed case where AI would think that it was being encircled and would pile up its divisions in few provinces and abandon fronts"
+  },
+  {
+   "k": "1gasnyn",
+   "en": "Took care of another situation that cause indecisive units"
+  },
+  {
+   "k": "atnkc0",
+   "en": "Made AI respect waiting after already sending lend lease requests"
+  },
+  {
+   "k": "9snqoq",
+   "en": "A fix for front abandonment that makes it spread out the units being taken from other fronts"
+  },
+  {
+   "k": "st8rjv",
+   "en": "Several tweaks to allied AI to avoid \"suicide invasions\" agaisnt axis nations before they are at war with soviets"
+  },
+  {
+   "k": "ahapj1",
+   "en": "Germany no longer wastes time prepping naval invasiosn vs france just before it takes around maginot"
+  },
+  {
+   "k": "12yppx1",
+   "en": "Made sure AI cannot pick event options with weight 0 if another option with higher score exists"
+  },
+  {
+   "k": "1gbo6zv",
+   "en": "AI now considers enemies as obstacles when planning invasions on nations its not yet at war with when comparing fleets leading for less wasted preparation"
+  },
+  {
+   "k": "1o4b23r",
+   "en": "ai can now cancel invasions that are bad if started during a time they were ok"
+  },
+  {
+   "k": "1vhh04m",
+   "en": "Fix for case where Germany would use too aggressive stance versus maginot line again"
+  },
+  {
+   "k": "1cffmnb",
+   "en": "Air AI can now evaluate zones for bombing and such more than 1-2 zones away"
+  },
+  {
+   "k": "mjz371",
+   "en": "Tweaked ai_chance for all CZE events to be saner"
+  },
+  {
+   "k": "ucu9rv",
+   "en": "If CZE exists when Germany demands Danzig from poland, they will now be very interested in joining the war rather than waiting for Germany to get around to beating them"
+  },
+  {
+   "k": "mvdbd7",
+   "en": "fixed ai scoring for volunteer only manpower law that meant hungary (maybe others?) could get stuck on Disarmed Nation."
+  },
+  {
+   "k": "mnyhxs",
+   "en": "lowered prioritiy more for doctrines for ai if already researching one"
+  },
+  {
+   "k": "1p5znbj",
+   "en": "fixes for ai strategy files referencing the wrong focuses"
+  },
+  {
+   "k": "1hgmh5w",
+   "en": "Tweaks to ai research weights, now considers 1940 fighters more important"
+  },
+  {
+   "k": "11vuvuq",
+   "en": "Spanish civil war spirit about recovery now has higher penalty for AI evaluation to join factions"
+  },
+  {
+   "k": "rs3req",
+   "en": "Fixed a case where AI would use the wrong execution mode and be overly aggressive when attackign maginot line"
+  },
+  {
+   "k": "iazvpw",
+   "en": "AI should now be more active with CAS usage"
+  },
+  {
+   "k": "6foaaz",
+   "en": "Fixed an issue where AI would not assign NAV to sea zones"
+  },
+  {
+   "k": "18ko3xe",
+   "en": "Fixed UI bug that made GER to never show tech bonuses"
+  },
+  {
+   "k": "14ewqq6",
+   "en": "Splitted \"In Combat: x83\" tooltip into two. Now In Combat shows default combat speed (x33) and movement gain from tactics is shown separately"
+  },
+  {
+   "k": "1bh1btq",
+   "en": "Double click in army list now deselects previous selection if shift is down"
+  },
+  {
+   "k": "1u5x6fr",
+   "en": "Mission icons on the map should now include port strike"
+  },
+  {
+   "k": "djpv7h",
+   "en": "Movement bonus from tactics were being shown in damage tooltip of a unit in battle window, remove it from tooltip."
+  },
+  {
+   "k": "6ybzwq",
+   "en": "Added missing localization for base strike research bonuses"
+  },
+  {
+   "k": "ewm6lu",
+   "en": "Can now unassign aces with right-click like tooltip says"
+  },
+  {
+   "k": "h6mfe9",
+   "en": "Added a new text icon for cost in license production screen"
+  },
+  {
+   "k": "1rm4vd1",
+   "en": "Added tooltip for air wing state"
+  },
+  {
+   "k": "7ldx6u",
+   "en": "Create airwing interface properly resets the right side when all planes are removed"
+  },
+  {
+   "k": "19pk18h",
+   "en": "Tweaked license tooltip in production view to be somewhat clearer"
+  },
+  {
+   "k": "1utl1d6",
+   "en": "Changed Hungary 1936 bookmark to highlight restoration of Austria-Hungary"
+  },
+  {
+   "k": "1ceb2vw",
+   "en": "The person who unpaused the game is now shown in pause tooltip (if someone keeps unpausing annoyingly in MP)"
+  },
+  {
+   "k": "63421i",
+   "en": "Changed license production cost icon in tool-tip"
+  },
+  {
+   "k": "1lwr3i0",
+   "en": "Added description in add new air wing tool-tip"
+  },
+  {
+   "k": "1utwmne",
+   "en": "fixed color issue for Israel"
+  },
+  {
+   "k": "7iy9at",
+   "en": "fixed color issue with Korea"
+  },
+  {
+   "k": "1chov93",
+   "en": "Encirclement loses now displays on combat log. Manpower lost in convoys (which is shot by navy forces) now displayed as \"Losses to enemy navy\" in combat log tooltip."
+  },
+  {
+   "k": "124666d",
+   "en": "Added overrun casualties to combat log."
+  },
+  {
+   "k": "1c8hkm4",
+   "en": "Fixed air stats showing too small in wing detail view"
+  },
+  {
+   "k": "x5ijr3",
+   "en": "fix for CZE civil war not being advertised enough in focus tooltip"
+  },
+  {
+   "k": "nh8nam",
+   "en": "added two more portraits (Japanese communist leader, Ecuador historical leader)"
+  },
+  {
+   "k": "1i4dpt5",
+   "en": "Now you can mark all of the equipment as obsolete (even if base type) and equipment conversion is only done for obsolete equipment"
+  },
+  {
+   "k": "9m30fv",
+   "en": "Modding"
+  },
+  {
+   "k": "1ryotud",
+   "en": "Fixed a problem with the format for build_army strategy"
+  },
+  {
+   "k": "ifdrte",
+   "en": "Fixed issue where scripted amounts for force_equipment_variants did nothing"
+  },
+  {
+   "k": "dxtlrg",
+   "en": "Added has_carrier_airwings_in_own_combat trigger for combatants"
+  },
+  {
+   "k": "1ur2pjs",
+   "en": "Database"
+  },
+  {
+   "k": "101xccs",
+   "en": "Added missing localization for UNITS_VIEW_WINGS_COUNT in French"
+  },
+  {
+   "k": "sji666",
+   "en": "Fixed missing faces for Congo"
+  },
+  {
+   "k": "1ua8gic",
+   "en": "Fixed a misspelled loc string in war goals"
+  },
+  {
+   "k": "140ew8c",
+   "en": "Fixed some issues with ship names in 00_GER_names"
+  },
+  {
+   "k": "14cui21",
+   "en": "Made dead sea a lake"
+  },
+  {
+   "k": "1fwybiy",
+   "en": "Fixed a number of mistakes and inconsistencies in German OoB"
+  },
+  {
+   "k": "p0114m",
+   "en": "Improved several items of flavor text for CZE focuses"
+  },
+  {
+   "k": "1jvw4e2",
+   "en": "added HMS Dreadnought to Royal Navy ship names"
+  },
+  {
+   "k": "qe5mxu",
+   "en": "added cosmetic tag for Hungary if it elects a King but then changes ideology away from neutral (democratic, fascist branch)"
+  },
+  {
+   "k": "1nrwnw1",
+   "en": "fix for a missing event picture gfx that has been in since launch and wasn't noticed"
+  },
+  {
+   "k": "u3wlst",
+   "en": "fix for US missing air wing names for jets"
+  },
+  {
+   "k": "8cxd2w",
+   "en": "East/west germany now get nicer colors and dont bug out"
+  },
+  {
+   "k": "5hhdkg",
+   "en": "Fixed incorrect portrait for Horthy when admiral"
+  },
+  {
+   "k": "1xfjilg",
+   "en": "fixed an issue with news event 311 refering to the wrong country"
+  },
+  {
+   "k": "10hfm8m",
+   "en": "Added 4 new portraits for South america for historical leaders for Peru, Chile, Colombia, Paraguay"
+  },
+  {
+   "k": "1jrrf6u",
+   "en": "Added new portrait for Bulgarian fascist leader"
+  },
+  {
+   "k": "12hspv",
+   "en": "Hooked in three new portraits for Baltic leaders (Police is still hunting for the set of identical triplets that were impersonating them)"
+  },
+  {
+   "k": "1ayzze8",
+   "en": "Added proper Slovenian and Slovakian flags (honestly at this point I dont even know which one is correct /Podcat)"
+  },
+  {
+   "k": "rpy0d9",
+   "en": "Added pdxcon magic winner portrait to generic soviet portrait list"
+  },
+  {
+   "k": "1pkkque",
+   "en": "Dramatically improved communist Korea by using DPRK (best Korea) flag AGAIN"
+  },
+  {
+   "k": "132xb70",
+   "en": "Fixed 2 missing images in Romanian/hungarian events"
+  },
+  {
+   "k": "89werg",
+   "en": "Added 4 new portraits (Iraq and Oman historical leaders, Italian and Japanese democratic leaders)"
+  },
+  {
+   "k": "e4s3sw",
+   "en": "Added renaming of YUG unaligned party to 'Monarchists' after Peter II takes the throne."
+  },
+  {
+   "k": "14xu7q1",
+   "en": "Renamed Czech Export Focus national spirits to not resemble Export Focus law."
+  },
+  {
+   "k": "13s6ed4",
+   "en": "Reenabled flavor names for German puppets for people without DoD in a cold and calculating move designed to maximize profits"
+  },
+  {
+   "k": "kxxksr",
+   "en": "Balance"
+  },
+  {
+   "k": "1756m89",
+   "en": "Lowered the amount of ground based planes that can enter naval combats over time"
+  },
+  {
+   "k": "xxv91z",
+   "en": "Reduced cost for giving core states back to our puppets"
+  },
+  {
+   "k": "o3al4l",
+   "en": "Slightly increased fascist support in Hungary fascist king chain"
+  },
+  {
+   "k": "1bjwdwm",
+   "en": "Rebalance of additional building slots for Serbian rail network focus"
+  },
+  {
+   "k": "13iyfa2",
+   "en": "Fixed a balance issue with Integrated/Serbian rail network focuses in Yugoslav tree"
+  },
+  {
+   "k": "2fjo9p",
+   "en": "Fix for air accidents being scaled depending on the number of wing"
+  },
+  {
+   "k": "1nezfgx",
+   "en": "Increased manpower requirements for CZE alliance with Germany focuses by 50k each"
+  },
+  {
+   "k": "14uengx",
+   "en": "fix for Romania being able to appoint a government friendly to a faction they are at war with"
+  },
+  {
+   "k": "gerhgj",
+   "en": "locked CZE political ideology pushers behind appropriate focuses"
+  },
+  {
+   "k": "twzo60",
+   "en": "lowered CZE fighter output boost"
+  },
+  {
+   "k": "1cr35ot",
+   "en": "rebalanced tech sharing group bonuses for CZE to be more in line with everyone else"
+  },
+  {
+   "k": "1llzkds",
+   "en": "tactical bombers can now pick the naval strike mission"
+  },
+  {
+   "k": "4ge9t8",
+   "en": "Added building slots and infrastructure to balanced industry path for CZE, toned down the export focus spirits"
+  },
+  {
+   "k": "mp1saw",
+   "en": "Bugfix"
+  },
+  {
+   "k": "1habl4l",
+   "en": "Fixed the bug when conversion could not convert last pieces of equipment"
+  },
+  {
+   "k": "1jxv6mx",
+   "en": "Removed Demand Transnistria from the Romanian historical focus list. Romania should no longer think attacking the soviet union is a great idea"
+  },
+  {
+   "k": "13ds9bk",
+   "en": "Fixed bug where technologies was not updated in case of unlocking tech from another technology folder"
+  },
+  {
+   "k": "7wp73f",
+   "en": "Fixed bug where some modifiers were not applied to airplanes after loading a save"
+  },
+  {
+   "k": "bitnoz",
+   "en": "Fix for Soft Attack/Hard Attack values ignoring some combat bonuses in battle gui"
+  },
+  {
+   "k": "han9ki",
+   "en": "Overriding an idea with custom name, now overrides the modifier name as well, instead of using idea ID as key"
+  },
+  {
+   "k": "1tthknd",
+   "en": "Fix for trade path not being recalculated when strait control has changed"
+  },
+  {
+   "k": "1oh98zm",
+   "en": "Fixed for a potential issue if CZE becomes a puppet of AH that may lead to intra-faction warfare"
+  },
+  {
+   "k": "mxxdc6",
+   "en": "Fix for dual mediation events in Transylvania chain (RIP Katya's sanity)"
+  },
+  {
+   "k": "m3l1kg",
+   "en": "Germany should now only leave the Romanian Tech group if Romania is in a faction germany is not in"
+  },
+  {
+   "k": "u6x401",
+   "en": "Changed the Sudetenland failsafe event to give the war goal against the controller of Sudetenland (was hardcoded to CZE)"
+  },
+  {
+   "k": "11k9rlp",
+   "en": "changed \"His Majesty' loyal government\" to work even if Hungary did not roll over in the event"
+  },
+  {
+   "k": "ekrbdz",
+   "en": "Fixed Horty not being leader of Hungary at gamestart without DoD"
+  },
+  {
+   "k": "1bkbri4",
+   "en": "Fixed an issue where Germany could be stuck with the Demand Sudetenland focus under some circumstances"
+  },
+  {
+   "k": "15ow9nv",
+   "en": "Made the demand Transylvania event chain remove the correct core (North Transylvania) for Romania if they instantly fold."
+  },
+  {
+   "k": "19a942z",
+   "en": "Fixed a bug where generic unit names would not work if starting letters were the same for different generics"
+  },
+  {
+   "k": "qmxug0",
+   "en": "Fixed an issue where existing airwing names were never returned to the pool"
+  },
+  {
+   "k": "10gyo4n",
+   "en": "Fixed a bug where traded away resources decreased amount of factories available for trade"
+  },
+  {
+   "k": "kgo7m0",
+   "en": "Fixed CZE only being angry with Allies if they decide not to fight over Southern Slovakia (CZE now always angry, all the time)"
+  },
+  {
+   "k": "qc87i3",
+   "en": "Fix for Zalozie not being transfered if Soviet union honors MR pact"
+  },
+  {
+   "k": "x8y49r",
+   "en": "Added a number of sanity checks for AH reclamaition focuses (must not be in faction with owners of claimed provinces)"
+  },
+  {
+   "k": "1lpwmhu",
+   "en": "fixed an issue where the Ljubljana award could give out states not owned by Germany or Yugoslavia"
+  },
+  {
+   "k": "yq2r6f",
+   "en": "\"Death or Dishonor or Cake\" achievement now has a tooltip that tells the player to have Carol II as the country leader."
+  },
+  {
+   "k": "rvkee6",
+   "en": "Fix for Yugoslavia being allowed to try and buy planes from a country they are at war with"
+  },
+  {
+   "k": "1ipe3g5",
+   "en": "Blocked vanilla YUG coup event if player has DoD"
+  },
+  {
+   "k": "yxfn8l",
+   "en": "Fix for Yugoslavia spawning Croatia even if they did not own the territory"
+  },
+  {
+   "k": "r5yhwl",
+   "en": "Fix for Czech-Slovak civil war not actually being between Czechs and Slovaks"
+  },
+  {
+   "k": "kide4e",
+   "en": "Fixed issue where aid event from Sweden to Hungary after getting democratic king would fire more than once"
+  },
+  {
+   "k": "171tsrf",
+   "en": "Equipment conversion now properly converts to variants from older equipment"
+  },
+  {
+   "k": "4j5ygn",
+   "en": "Fixed bug where planes set on CAS mission could join naval battles without using naval strike mission"
+  },
+  {
+   "k": "ouqung",
+   "en": "Fix for two missing locs in Romania"
+  },
+  {
+   "k": "1oigbmx",
+   "en": "Overlord of CZE telling Germany to get bent during Sudetenland crisis now removes both CZE and Overlord from faction with Germany"
+  },
+  {
+   "k": "1k32bg3",
+   "en": "Fixed an issue where democratic Romania could not even handle King Carol II right now (or ever, really)"
+  },
+  {
+   "k": "bfpa5n",
+   "en": "Fix for AH not being able to justify wargoals due to world tension being too low"
+  },
+  {
+   "k": "6zgo8h",
+   "en": "Fixed France being able to take CZE into their faction if they do little entente and AH puppets CZE"
+  },
+  {
+   "k": "1aw8vb",
+   "en": "Austria-Hungary should now get Banat if Romania folds in the event chain"
+  },
+  {
+   "k": "i1woi3",
+   "en": "Fixed an issue where Romania could steal CZE from out under Austria-Hungary by creating the Cordon Sanitaire"
+  },
+  {
+   "k": "12a5wmy",
+   "en": "Fixed fixedpoint overflow in peace conference which could give small nations lots of extra points"
+  },
+  {
+   "k": "1tna85f",
+   "en": "Tweaked occupation rules fix for impassible zones, now it uses core and ownership prios"
+  },
+  {
+   "k": "131fy6q",
+   "en": "Removed retire_country_leader from generic focus tree"
+  },
+  {
+   "k": "1cvyblw",
+   "en": "Fixed the bug when merging of airwings didn't update air wing manpower properly"
+  },
+  {
+   "k": "17rh8a4",
+   "en": "Fixed a few issues with yugoslavian historical focus list referencing focuses that no longer exist"
+  },
+  {
+   "k": "1k0ywdm",
+   "en": "Fixed Bordergore if Hungary not in a position to gain state 73 in fate of CZE event chain (should go to SLO, now actually does)"
+  },
+  {
+   "k": "1hi1m51",
+   "en": "Fix for volunteers transfers ending up in the impassible states"
+  },
+  {
+   "k": "11ym1s9",
+   "en": "fixed a localisation issue with a Hungarian event"
+  },
+  {
+   "k": "1g7vzp8",
+   "en": "added an effect for German leaning focus"
+  },
+  {
+   "k": "1hd4yqs",
+   "en": "fixed a bug with CZE \"Sudden Shipyard\" focus which would have required the rest of Europe to sink into the sea to work"
+  },
+  {
+   "k": "9k7gk6",
+   "en": "refusing the Sudetenland now kicks CZE out of the axis (was originally only handled in failsafe event)"
+  },
+  {
+   "k": "yo2508",
+   "en": "fix for Yugoslavia not actually leaving axis when they should be leaving axis in coup event (still some issues with automatic faction joining if Yugoslavia and Germany are in a war together)"
+  },
+  {
+   "k": "1f66i31",
+   "en": "Slovenian and Slovakian flags now has proper med and small flags"
+  },
+  {
+   "k": "1c2fl81",
+   "en": "fixed dual event options for CZE news events (turns out countries are in a faction with themselves, who knew?)"
+  },
+  {
+   "k": "1vw4ist",
+   "en": "fix for logic bug in event DOD_hungary.1"
+  },
+  {
+   "k": "pvganu",
+   "en": "fix for incorrect Romanian Admiral's portrait"
+  },
+  {
+   "k": "134vrik",
+   "en": "fixed an issue with Hungarian Pact of Rome faction dragging Italy into a faction against its will"
+  },
+  {
+   "k": "5sh62q",
+   "en": "fix for a number of text inconsitencies in news events"
+  },
+  {
+   "k": "8ohaou",
+   "en": "Design companies now stick to licensed equipment"
+  },
+  {
+   "k": "8j8ark",
+   "en": "fixed a Romanian division being assigned to Hungary"
+  },
+  {
+   "k": "1rqmk7l",
+   "en": "Updated script for Invite German Advisors. Germany now correctly removed when Romania joins another faction."
+  },
+  {
+   "k": "1esicm6",
+   "en": "Planes are able to attack several ground targets at the same time now rather than one per wing"
+  },
+  {
+   "k": "1i6h4nm",
+   "en": "TfV trees checking for an autonomy level will now accept DoD autonomy levels as well"
+  },
+  {
+   "k": "13534ro",
+   "en": "Supply areas now ignores impassable states while building the connection graph"
+  },
+  {
+   "k": "fg40en",
+   "en": "added missing localisation for a number of tech sharing group descriptions"
+  },
+  {
+   "k": "19npsbp",
+   "en": "Navy leader can now gain the air_controller trait by having carrier airplanes in combat."
+  },
+  {
+   "k": "1mfd2iz",
+   "en": "Now rockets does not cancel their mission in case of non of the rockets left"
+  },
+  {
+   "k": "a6d80x",
+   "en": "Foreign equipment now qualifies again for conversion"
+  },
+  {
+   "k": "10otsh2",
+   "en": "Who counts as attacker and defender in paradrops should no longer be country order dependent (sorry french paratroopers)"
+  },
+  {
+   "k": "l4na7",
+   "en": "Ensured hungarian mediator events revert to 'rebuffed twice' outcome when no eligible mediators can be found."
+  },
+  {
+   "k": "1bgdrc1",
+   "en": "Fixed YUG being freed when they are a puppet of GER and get the anti-German coup."
+  },
+  {
+   "k": "ozk20o",
+   "en": "Fixed anti-German coup not switching YUG ideology to unaligned when picking that option."
+  },
+  {
+   "k": "oxi77t",
+   "en": "Removed fascist requirement from Second Vienna Award focus"
+  },
+  {
+   "k": "1ykdcwz",
+   "en": "abandoning the czechs during Munich now cancels any guarantees and tells the ai to stop caring about CZE (to avoid renewing the guarantee right away)"
+  },
+  {
+   "k": "azwbv2",
+   "en": "fixed military access being given to the wrong country in a Romanian event"
+  },
+  {
+   "k": "1qd2f54",
+   "en": "fixed a number of faction joining focuses to prevent intra-faction warfare"
+  },
+  {
+   "k": "1iyjy3f",
+   "en": "fixed issue where air wings without assigned region would lose their set mission"
+  },
+  {
+   "k": "1h83hpk",
+   "en": "Stability & Performance"
+  },
+  {
+   "k": "1bzsph4",
+   "en": "Added safety code for terrain calculation when loading broken mod files (could lead to deleted units)"
+  },
+  {
+   "k": "x1gc9u",
+   "en": "Fixed stack out of bounds issue when generating unit names"
+  },
+  {
+   "k": "1vqt0ma",
+   "en": "Fix for CTD in the airview details view"
+  },
+  {
+   "k": "4irtbm",
+   "en": "Fixed CTD while tooltiping port strike air wing mission entry"
+  },
+  {
+   "k": "ezymzv",
+   "en": "Fix for CTD when airbase were removed or deleted while being selected"
+  },
+  {
+   "k": "1y404y2",
+   "en": "Fixed a possible null pointer exception"
+  },
+  {
+   "k": "1oh571z",
+   "en": "Fixing CTD in air interface"
+  },
+  {
+   "k": "3cxgcx",
+   "en": "Increased the size of atlas used for the country flags on map to fix glitches"
+  },
+  {
+   "k": "vyrrwz",
+   "en": "Fixed CTD when AI tried to evaluate returning expeditionaries for someone with no homeland"
+  },
+  {
+   "k": "1t73f4e",
+   "en": "Fixed CTD in mods related to naval base assignment"
+  },
+  {
+   "k": "109ikzy",
+   "en": "Fixed a CTD related to hotjoining in while selecting airbases"
+  },
+  {
+   "k": "u0pt8o",
+   "en": "Fixed a case where savegames would keep growing and becoming huge"
+  },
+  {
+   "k": "1hp09p",
+   "en": "Fixed a cross plaform out of synch"
+  },
+  {
+   "k": "k6ypkf",
+   "en": "Fixed a multithread related out of synch in multiplayer"
+  },
+  {
+   "k": "t1zff9",
+   "en": "1.4.2 is a hotfix which was released on 2017-08-21⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1q7x84c",
+   "en": "a48d"
+  },
+  {
+   "k": "1e2ogk9",
+   "en": "Added AI strategy to avoid some naval strategic regions"
+  }
+ ]
+}

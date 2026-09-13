@@ -1,0 +1,1001 @@
+{
+ "batch": 1088,
+ "pages": [
+  "Vic2ToHoI4: Focus Trees"
+ ],
+ "chars": 14877,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1pbm5j0",
+   "en": "All countries, like in Vanilla, would start with Generic National Focus. But a special focus tree is created for each of the great powers of Vic2."
+  },
+  {
+   "k": "18z1m7u",
+   "en": "Generic Focus Tree"
+  },
+  {
+   "k": "hmn9nj",
+   "en": "The generic focus tree has 5 main branches:"
+  },
+  {
+   "k": "gy6u3t",
+   "en": "⟦0⟧ gives army experience and research bonuses to army research.",
+   "frags": 1
+  },
+  {
+   "k": "o6pluq",
+   "en": "Army Effort"
+  },
+  {
+   "k": "1u9lwuk",
+   "en": "⟦0⟧ gives air experience, builds air bases, and research bonuses to air research.",
+   "frags": 1
+  },
+  {
+   "k": "5pdzdc",
+   "en": "Aviation Effort"
+  },
+  {
+   "k": "knbru8",
+   "en": "⟦0⟧ gives navy experience, builds naval dockyards, and research bonuses to navy research.",
+   "frags": 1
+  },
+  {
+   "k": "1eqneo7",
+   "en": "Naval Effort"
+  },
+  {
+   "k": "1k1utam",
+   "en": "⟦0⟧ builds civilian and military factories (usually even if building slots are already full), infrastructure and grants extra research slots.",
+   "frags": 1
+  },
+  {
+   "k": "1qzcjpw",
+   "en": "Industrial Effort"
+  },
+  {
+   "k": "x6udt8",
+   "en": "⟦0⟧ gives the country choices on which political path they will take.",
+   "frags": 1
+  },
+  {
+   "k": "tlb8gq",
+   "en": "Political Effort"
+  },
+  {
+   "k": "1jch4eq",
+   "en": "With the exception of ⟦0⟧, these branches are identical to ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1xf6sik",
+   "en": "Vanilla generic focus trees"
+  },
+  {
+   "k": "1kjnvus",
+   "en": "There are 2 additional branches dynamically generated by the Converter in the ⟦0⟧ section:",
+   "frags": 1
+  },
+  {
+   "k": "1ed9tnz",
+   "en": "Generating reconquest wars"
+  },
+  {
+   "k": "qjebpg",
+   "en": "⟦0⟧ starts wars to take core states, gives some political power and ideas to help prepare for war",
+   "frags": 1
+  },
+  {
+   "k": "1jlxdsw",
+   "en": "Reclaim Cores"
+  },
+  {
+   "k": "1sjeqva",
+   "en": "⟦0⟧ adds claims on neighbors, starts wars to take claimed states and gives some war support and manpower",
+   "frags": 1
+  },
+  {
+   "k": "1fzzegl",
+   "en": "Territorial Disputes"
+  },
+  {
+   "k": "tdp0tp",
+   "en": "They are added to all the countries that don't get their ⟦0⟧ (either because they are not a Great Power or player country, or because no targets could be acquired for their generation), provided there are potential target countries.",
+   "frags": 1
+  },
+  {
+   "k": "1qw2xs",
+   "en": "special focus tree"
+  },
+  {
+   "k": "cv6fb9",
+   "en": "Victoria 2 allies, subjects and overlords are ineligible to become target countries for these branches. Also, ⟦0⟧ target countries are ineligible as targets for ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "z33gn4",
+   "en": "The number of sub-branches varies. A sub-branch will be generated for each target identified for ⟦0⟧ branch. If the number of target countries for ⟦1⟧ is greater than or equal to 4, then only 1 ⟦2⟧ branch will be generated. Otherwise, the combined number of these branches will amount to 5.",
+   "frags": 3
+  },
+  {
+   "k": "3zbpv1",
+   "en": "Depending on the selected ⟦0⟧ option, the Converter can add or remove branches compared to ⟦1⟧. The 2 new branches that can be created for converter ideologies are:",
+   "frags": 2
+  },
+  {
+   "k": "15r8hqv",
+   "en": "ideologies conversion"
+  },
+  {
+   "k": "asp2t1",
+   "en": "Vanilla generic focuses"
+  },
+  {
+   "k": "pr8jck",
+   "en": "Absolutism focus"
+  },
+  {
+   "k": "1rpfmaw",
+   "en": "Radicalism focus"
+  },
+  {
+   "k": "d9y6jo",
+   "en": "Error: Image is invalid or non-existent."
+  },
+  {
+   "k": "1g9augj",
+   "en": "Focus"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "ejz9b4",
+   "en": "Prerequisites"
+  },
+  {
+   "k": "sjj37t",
+   "en": "Description"
+  },
+  {
+   "k": "1ltlw0k",
+   "en": "Absolutism Focus"
+  },
+  {
+   "k": "1rfqeu7",
+   "en": "gets the national spirit for 720 days:"
+  },
+  {
+   "k": "1anlcxe",
+   "en": "gets the ⟦0⟧ for ⟦1⟧ days:",
+   "frags": 2
+  },
+  {
+   "k": "1sl6dmg",
+   "en": "national spirit"
+  },
+  {
+   "k": "177tbxf",
+   "en": "Collectivist Ethos Mutually exclusive with: Nationalism Focus Internationalism Focus Radicalism Focus Additional prerequisites: ↓One of the following must be true: Current ruling party is Absolutist. Current ruling party is Non-aligned."
+  },
+  {
+   "k": "1c4aqsa",
+   "en": "Nationalism Focus"
+  },
+  {
+   "k": "xn6ta",
+   "en": "Internationalism Focus"
+  },
+  {
+   "k": "12nrv48",
+   "en": "Radicalism Focus"
+  },
+  {
+   "k": "1p8maej",
+   "en": "Additional prerequisites:"
+  },
+  {
+   "k": "i13lf3",
+   "en": "↓One of the following must be true:"
+  },
+  {
+   "k": "3s9335",
+   "en": "Current ruling party is Absolutist."
+  },
+  {
+   "k": "rqtwm8",
+   "en": "Current ruling party is ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1v9ykyx",
+   "en": "Non-aligned"
+  },
+  {
+   "k": "1en924l",
+   "en": "The ruling dynasty has stood the test of time. We embrace the leadership of our monarch."
+  },
+  {
+   "k": "fo076m",
+   "en": "Royal Dictatorship"
+  },
+  {
+   "k": "16t0mx0",
+   "en": "Political Power: +200 Change in popularity of Absolutist: +20% gets the national spirit:"
+  },
+  {
+   "k": "hb2mn1",
+   "en": "Political Power"
+  },
+  {
+   "k": "uq4qhb",
+   "en": "Change in popularity of Absolutist: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "5orwyy",
+   "en": "gets the ⟦0⟧:",
+   "frags": 1
+  },
+  {
+   "k": "1lbe16f",
+   "en": "In times of uncertainty in the world we can fall back on our monarch. The state and the best citizen in it shall become one again."
+  },
+  {
+   "k": "1tox31x",
+   "en": "Royal Army Tradition"
+  },
+  {
+   "k": "6ojinz",
+   "en": "Army experience: +40"
+  },
+  {
+   "k": "x63bw0",
+   "en": "Army experience"
+  },
+  {
+   "k": "1na6w3s",
+   "en": "No other army in the world can match ours in experience. Our military academies shall provide lessons which were paid in blood dating back centuries."
+  },
+  {
+   "k": "1707eo2",
+   "en": "Historical Claims"
+  },
+  {
+   "k": "13f53au",
+   "en": "gets the national spirit:"
+  },
+  {
+   "k": "1haq5xv",
+   "en": "The convoluted family ties of nobility connect the whole world. If our historians look long enough, we can justify almost any claim."
+  },
+  {
+   "k": "koc2i",
+   "en": "Collectivist Ethos Mutually exclusive with: Nationalism Focus Internationalism Focus Absolutism Focus Additional prerequisites: ↓One of the following must be true: Current ruling party is Radicalism Radical. Current ruling party is Non-aligned."
+  },
+  {
+   "k": "1qarp3a",
+   "en": "Current ruling party is Radicalism Radical."
+  },
+  {
+   "k": "102jubs",
+   "en": "Governments hinder the flow of wealth and knowledge. With a minimum government our people reaches its full potential."
+  },
+  {
+   "k": "bejbsc",
+   "en": "Private Channels"
+  },
+  {
+   "k": "m9yj48",
+   "en": "Any country: Trade relations with this country changed by +15"
+  },
+  {
+   "k": "118qp6g",
+   "en": "Trade relations with this country changed by ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "15w1l8c",
+   "en": "Modern industry blurs the lines between nations. Even from enemy countries our companies can acquire required resources through their own channels."
+  },
+  {
+   "k": "wwh684",
+   "en": "Hard-fought Market"
+  },
+  {
+   "k": "1pyl75r",
+   "en": "Without a corrupt government only the best manufacturers can sell their products. True competition leads to maximum efficiency."
+  },
+  {
+   "k": "pwhjnl",
+   "en": "The Army Provides"
+  },
+  {
+   "k": "ztslza",
+   "en": "The need of our industry for manpower may vary. The army is a constant provider for their hard-working soldiers and their families."
+  },
+  {
+   "k": "r8lai2",
+   "en": "⟦0⟧ (aka ⟦1⟧) is designed to give the country war focuses for retaking core states not owned by it. After the ⟦2⟧ focus is selected, non-Fascist countries will get a modifier decreasing ⟦3⟧ and increasing the popularity of ⟦4⟧ ideology, until all the sub-branches have been completed, representing the Victoria 2 mechanism that drives countries with high revanchism towards ⟦5⟧, while making them more unstable through potential rebellions. As the progress down the branch continues, the ruling party popularity will increase, depending on the number of core provinces that would potentially be reclaimed.",
+   "frags": 6
+  },
+  {
+   "k": "1m1ztq2",
+   "en": "Reconquest Branch"
+  },
+  {
+   "k": "wnbc3s",
+   "en": "Stability"
+  },
+  {
+   "k": "it8sfu",
+   "en": "Fascist"
+  },
+  {
+   "k": "cfhxhh",
+   "en": "Fascism"
+  },
+  {
+   "k": "emsmd9",
+   "en": "The impact of number of core provinces to reclaim is represented in the table below by ⟦0⟧ and ⟦1⟧ variables, which are calculated according to these formulas:",
+   "frags": 2
+  },
+  {
+   "k": "xyj3fl",
+   "en": "X = Y 1 + Y 2 + ⋯ + Y i {\\displaystyle X=Y_{1}+Y_{2}+\\cdots +Y_{i}}"
+  },
+  {
+   "k": "g673sj",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle Y=min(P_{1},10)+min(P_{2},10)+\\cdots +min(P_{n},10)}"
+  },
+  {
+   "k": "55ja69",
+   "en": "Example"
+  },
+  {
+   "k": "1kqa232",
+   "en": "Argentina"
+  },
+  {
+   "k": "1bmch0m",
+   "en": "⟦0⟧ - owns 2 ⟦1⟧ core provinces in a single state: ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "15btnwt",
+   "en": "Paraguay"
+  },
+  {
+   "k": "1lu8guy",
+   "en": "Argentine"
+  },
+  {
+   "k": "drw1v4",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle Y_{Paraguay}=2}"
+  },
+  {
+   "k": "1ehv2ah",
+   "en": "⟦0⟧ - owns 14 ⟦1⟧ core provinces in a single state: ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "12wx54r",
+   "en": "Bolivia"
+  },
+  {
+   "k": "yxqbh",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle Y_{Bolivia}=10}"
+  },
+  {
+   "k": "a2kgis",
+   "en": "⟦0⟧ - owns 9 ⟦1⟧ core provinces in one state and 12 in another: ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "132rpt6",
+   "en": "Chile"
+  },
+  {
+   "k": "1spsvgn",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle Y_{Chile}=9+10=19}"
+  },
+  {
+   "k": "1ydctuc",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle X=Y_{Paraguay}+Y_{Bolivia}+Y_{Chile}=2+10+19=31}"
+  },
+  {
+   "k": "1ncgqfz",
+   "en": "When selected gets the national spirit: When completed: -50% Revanchism Revanchism Political Power: +150 gets the national spirit:"
+  },
+  {
+   "k": "t2g0gr",
+   "en": "When selected gets the ⟦0⟧:",
+   "frags": 1
+  },
+  {
+   "k": "1locljf",
+   "en": "When completed: -50% Revanchism Revanchism Political Power: +150 gets the national spirit:"
+  },
+  {
+   "k": "11id2as",
+   "en": "⟦0⟧ Revanchism Revanchism",
+   "frags": 1
+  },
+  {
+   "k": "kpm0r",
+   "en": "Is fully independent"
+  },
+  {
+   "k": "129lexb",
+   "en": "By all means necessary, we must recover the land unlawfully taken from us in the past."
+  },
+  {
+   "k": "1tcqz3w",
+   "en": "Raise Matter"
+  },
+  {
+   "k": "1ifw2tf",
+   "en": "If current ruling party is Fascist Change in popularity of Fascism: +0.1 * Y% If current ruling party is not Fascist Change in popularity of Fascism: -0.1 * Y% Political Power: +150 gets the national spirit for 180 days: The following will bypass the focus: ↓One of the following must be true: Is a subject of another country Is at war with target country Is in Faction with target country Target country does not own a state that is core of this country"
+  },
+  {
+   "k": "1q0u8xy",
+   "en": "If current ruling party is ⟦0⟧ Change in popularity of Fascism: +0.1 * Y%",
+   "frags": 1
+  },
+  {
+   "k": "1ul6cex",
+   "en": "Change in popularity of ⟦0⟧: ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1xwnprd",
+   "en": "+0.1 * Y%"
+  },
+  {
+   "k": "2h0jre",
+   "en": "If current ruling party is ⟦0⟧ ⟦1⟧ Change in popularity of Fascism: -0.1 * Y%",
+   "frags": 2
+  },
+  {
+   "k": "bkgu4q",
+   "en": "not"
+  },
+  {
+   "k": "1kpdppr",
+   "en": "-0.1 * Y%"
+  },
+  {
+   "k": "mrxx1d",
+   "en": "⟦0⟧ Is a subject of another country Is at war with target country Is in Faction with target country Target country does not own a state that is core of this country",
+   "frags": 1
+  },
+  {
+   "k": "8u05oe",
+   "en": "Is a subject of another country"
+  },
+  {
+   "k": "w6slnj",
+   "en": "Is at war with target country"
+  },
+  {
+   "k": "m4azwv",
+   "en": "Is in Faction with target country"
+  },
+  {
+   "k": "svqim1",
+   "en": "Target country does ⟦0⟧ own a state that is core of this country",
+   "frags": 1
+  },
+  {
+   "k": "1lcqaad",
+   "en": "Reclaim Cores Additional prerequisites: date is after Victoria 2 truce expiry date Is not at war with target country Is not in Faction with target country"
+  },
+  {
+   "k": "6bhuk",
+   "en": "date is after Victoria 2 truce expiry date"
+  },
+  {
+   "k": "1gmgdwm",
+   "en": "Is ⟦0⟧ at war with target country",
+   "frags": 1
+  },
+  {
+   "k": "q3zmi",
+   "en": "Is ⟦0⟧ in Faction with target country",
+   "frags": 1
+  },
+  {
+   "k": "19r9wxz",
+   "en": "By raising the matter of [$TARGET.GetName] holding our core territory and gaining support for it in the Parliament, we ensure that any action taken on our part in this direction has a valid legal foundation."
+  },
+  {
+   "k": "1389e6b",
+   "en": "Build Public Support"
+  },
+  {
+   "k": "o9hfwd",
+   "en": "If current ruling party is Fascist Change in popularity of Fascism: +0.1 * Y% If current ruling party is not Fascist Change in popularity of Fascism: -0.1 * Y% Gain base War support: +2 * Y% Political Power: +150 gets the national spirit for 180 days: The following will bypass the focus: ↓One of the following must be true: Is a subject of another country Is at war with target country Is in Faction with target country Target country does not own a state that is core of this country"
+  },
+  {
+   "k": "7r1203",
+   "en": "Gain base War support: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "3rsyzw",
+   "en": "+2 * Y%"
+  },
+  {
+   "k": "qhynex",
+   "en": "Raise Matter Additional prerequisites: date is after Victoria 2 truce expiry date Is not at war with target country Is not in Faction with target country"
+  },
+  {
+   "k": "1wj42k4",
+   "en": "We should use force only as a last resort. If it does come to that, we should make sure that we have the support of the wider public."
+  },
+  {
+   "k": "1yknut0",
+   "en": "Territory or War"
+  },
+  {
+   "k": "5uudpy",
+   "en": "gets the national spirit for 180 days: World Tension is increased by 1.0 Target country Gets event Ultimatum The following will bypass the focus: ↓One of the following must be true: Is a subject of another country Is at war with target country Is in Faction with target country Target country does not own a state that is core of this country Target country does not own a state other than the capital"
+  },
+  {
+   "k": "1hmsm1f",
+   "en": "World Tension is increased by ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "uvdf9x",
+   "en": "Target country Gets event Ultimatum"
+  },
+  {
+   "k": "6bdzdb",
+   "en": "Gets event ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "s4ucm9",
+   "en": "Ultimatum"
+  },
+  {
+   "k": "1f9m9ik",
+   "en": "⟦0⟧ Is a subject of another country Is at war with target country Is in Faction with target country Target country does not own a state that is core of this country Target country does not own a state other than the capital",
+   "frags": 1
+  },
+  {
+   "k": "1pujeak",
+   "en": "Target country does ⟦0⟧ own a state other than the capital",
+   "frags": 1
+  },
+  {
+   "k": "15mybnx",
+   "en": "Build Public Support Additional prerequisites: date is after Victoria 2 truce expiry date Is not in Faction with target country Target country has full control of this country's cores"
+  },
+  {
+   "k": "11vdjfh",
+   "en": "Target country has full control of this country's cores"
+  },
+  {
+   "k": "ezaxnq",
+   "en": "Send an ultimatum to [$TARGET.GetName] - return our land or we'll take it by force!"
+  },
+  {
+   "k": "1xk889k",
+   "en": "War Plan"
+  },
+  {
+   "k": "iobwar",
+   "en": "gets the national spirit for 180 days: World Tension is increased by 1.0 One of 4 options will happen: Command Power: +25.0 Manpower: +10,000 Base War support: +25% Army experience: +10 The following will bypass the focus: ↓One of the following must be true: Is a subject of another country Is at war with target country Is in Faction with target country Target country does not own a state that is core of this country"
+  },
+  {
+   "k": "10xmb3q",
+   "en": "One of ⟦0⟧ options will happen: Command Power: +25.0 Manpower: +10,000 Base War support: +25% Army experience: +10",
+   "frags": 1
+  },
+  {
+   "k": "dxlykk",
+   "en": "Command Power: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "17vxw9s",
+   "en": "Manpower"
+  },
+  {
+   "k": "1dv0iii",
+   "en": "Base War support: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1uy7rnh",
+   "en": "Territory or War Additional prerequisites: date is after Victoria 2 truce expiry date Is not in Faction with target country At peace"
+  },
+  {
+   "k": "15mw9n6",
+   "en": "At peace"
+  },
+  {
+   "k": "jqblt8",
+   "en": "We know it, they know it - war is inevitable. They'll certainly be prepared and we must make sure we are as well."
+  },
+  {
+   "k": "13js0iz",
+   "en": "Declare War"
+  },
+  {
+   "k": "syj4im",
+   "en": "Declares war on target country with Take Core State War goal World Tension is increased by 1.0 The following will bypass the focus: ↓One of the following must be true: Is a subject of another country Is at war with target country Is in Faction with target country Target country does not own a state that is core of this country"
+  },
+  {
+   "k": "18fi6yg",
+   "en": "Declares war on target country with ⟦0⟧ War goal",
+   "frags": 1
+  },
+  {
+   "k": "54gffk",
+   "en": "Take Core State"
+  },
+  {
+   "k": "110xec1",
+   "en": "War Plan Additional prerequisites: date is after Victoria 2 truce expiry date Is not in Faction with target country At peace"
+  },
+  {
+   "k": "4x9rr",
+   "en": "All that is left to do is a formal declaration of war."
+  },
+  {
+   "k": "tm1ve2",
+   "en": "End Revanchism"
+  },
+  {
+   "k": "pynyu2",
+   "en": "gets the national spirit: Modify the national spirit:"
+  },
+  {
+   "k": "bbn8jn",
+   "en": "Modify the ⟦0⟧:",
+   "frags": 1
+  },
+  {
+   "k": "2aq7ek",
+   "en": "Declare War Additional prerequisites: ↓One of the following must be true: Is in Faction with target country Target country does not own a state that is core of this country Is not at war with target country"
+  },
+  {
+   "k": "alsfii",
+   "en": "⟦0⟧ Is in Faction with target country Target country does not own a state that is core of this country",
+   "frags": 1
+  },
+  {
+   "k": "txauxr",
+   "en": "We have successfully reclaimed our core territory from [$TARGET.GetName]."
+  },
+  {
+   "k": "198fg0f",
+   "en": "⟦0⟧ branch war targets are determined based on Victoria 2 AI conquer province strategies (player country included). Province strategy values are summed up by owner countries to get the total value for potential targets, after which countries with value less than 10% of the top target value are discarded.",
+   "frags": 1
+  },
+  {
+   "k": "1ro8sl2",
+   "en": "The ⟦0⟧ will be the state containing the Victoria 2 province most desired by the AI. If the country already had ⟦1⟧ on target country, those states will be used as War goal.",
+   "frags": 2
+  },
+  {
+   "k": "red7ct",
+   "en": "target state"
+  },
+  {
+   "k": "1p73cb8",
+   "en": "claims"
+  },
+  {
+   "k": "8rh8ut",
+   "en": "Availability date variable ⟦0⟧ in the table below is calculated according to the following formula:",
+   "frags": 1
+  },
+  {
+   "k": "101otya",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle X = 1936.1.1 + {{200 + Rel} \\over 8} \\text{ months}}"
+  },
+  {
+   "k": "1fas2db",
+   "en": "⟦0⟧ - Victoria 2 relations value (from ⟦1⟧ to ⟦2⟧)",
+   "frags": 3
+  },
+  {
+   "k": "1bl15w4",
+   "en": "Rel"
+  },
+  {
+   "k": "p9un8k",
+   "en": "Territorial Dispute"
+  },
+  {
+   "k": "61f0qa",
+   "en": "Base War support: +5%"
+  },
+  {
+   "k": "1f8rfz",
+   "en": "date is after Victoria 2 truce expiry date Is fully independent At peace Target country: Exists Not allies or subjects of one another Owns the target state"
+  },
+  {
+   "k": "32hrhl",
+   "en": "Target country: Exists Not allies or subjects of one another Owns the target state"
+  },
+  {
+   "k": "4dtof1",
+   "en": "Exists"
+  },
+  {
+   "k": "171jrh0",
+   "en": "Not allies or subjects of one another"
+  },
+  {
+   "k": "8kjk1o",
+   "en": "Owns the ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "18lyqnz",
+   "en": "Pushing for the resolution of the [$TARGET.GetAdjective] territorial disputes is likely to go our way. We should however be prepared for war."
+  },
+  {
+   "k": "1df5s8w",
+   "en": "Assert Claims"
+  },
+  {
+   "k": "k3k6z4",
+   "en": "Gains claim on target state World Tension is increased by 3.0"
+  },
+  {
+   "k": "f50u6j",
+   "en": "Gains claim on ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1jsu60t",
+   "en": "Territorial Dispute Additional prerequisites: date is after X and Victoria 2 truce expiry date Is fully independent At peace Target country: Exists Not allies or subjects of one another Owns the target state"
+  },
+  {
+   "k": "ff9me2",
+   "en": "date is after ⟦0⟧ and Victoria 2 truce expiry date",
+   "frags": 1
+  },
+  {
+   "k": "16dm3ik",
+   "en": "Before we invade [$TARGET.GetName], we must ensure that the world understands our war is justified."
+  },
+  {
+   "k": "3fmx5t",
+   "en": "Prepare for War"
+  },
+  {
+   "k": "1dtg3mm",
+   "en": "Manpower: +10,000"
+  },
+  {
+   "k": "4zqbxr",
+   "en": "Assert Claims Additional prerequisites: Is fully independent At peace Target country: Exists Not allies or subjects of one another Owns the target state"
+  },
+  {
+   "k": "1py0orl",
+   "en": "Neighbor War"
+  },
+  {
+   "k": "ov6r77",
+   "en": "Declares war on target country with Conquer (Focus) War goal"
+  },
+  {
+   "k": "10ndb31",
+   "en": "Conquer (Focus)"
+  },
+  {
+   "k": "g324ig",
+   "en": "Prepare for War Additional prerequisites: Is fully independent At peace Target country: Exists Not allies or subjects of one another Owns the target state"
+  },
+  {
+   "k": "fm32mh",
+   "en": "Special Focus Trees"
+  },
+  {
+   "k": "rb3vpp",
+   "en": "During the \"Generating major wars\" section of the conversion process, Great Powers and player countries get their special focus trees, depending on their government ⟦0⟧. At the moment, non-aligned countries never receive special trees, they are left with the generic one.",
+   "frags": 1
+  },
+  {
+   "k": "1e4ff75",
+   "en": "ideology"
+  }
+ ]
+}

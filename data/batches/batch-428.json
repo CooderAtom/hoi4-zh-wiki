@@ -1,0 +1,1642 @@
+{
+ "batch": 428,
+ "pages": [
+  "Data structures"
+ ],
+ "chars": 12096,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "c10cc1",
+   "en": "ai_strategy_force_defend_ally_borders"
+  },
+  {
+   "k": "ka7bug",
+   "en": "force_defend_ally_borders"
+  },
+  {
+   "k": "13na7a8",
+   "en": "ai_strategy_ignore"
+  },
+  {
+   "k": "z11gsj",
+   "en": "ignore"
+  },
+  {
+   "k": "1gfb7b",
+   "en": "ai_strategy_ignore_claim"
+  },
+  {
+   "k": "jjgqg",
+   "en": "ignore_claim"
+  },
+  {
+   "k": "1oobi5d",
+   "en": "ai_strategy_influence"
+  },
+  {
+   "k": "15drgjc",
+   "en": "influence"
+  },
+  {
+   "k": "uxyblz",
+   "en": "ai_strategy_invade"
+  },
+  {
+   "k": "tkk8ig",
+   "en": "invade"
+  },
+  {
+   "k": "1no4aes",
+   "en": "ai_strategy_occupation_policy"
+  },
+  {
+   "k": "gqb0a9",
+   "en": "occupation_policy"
+  },
+  {
+   "k": "aojgpo",
+   "en": "ai_strategy_prepare_for_war"
+  },
+  {
+   "k": "1j6zhtl",
+   "en": "prepare_for_war"
+  },
+  {
+   "k": "6qmtgl",
+   "en": "ai_strategy_protect"
+  },
+  {
+   "k": "k6prik",
+   "en": "protect"
+  },
+  {
+   "k": "b21vqt",
+   "en": "ai_strategy_send_volunteers_desire"
+  },
+  {
+   "k": "114brem",
+   "en": "send_volunteers_desire"
+  },
+  {
+   "k": "cczx25",
+   "en": "ai_strategy_support"
+  },
+  {
+   "k": "gfr9pk",
+   "en": "support"
+  },
+  {
+   "k": "1nll9yb",
+   "en": "ai_irrationality"
+  },
+  {
+   "k": "khtqpw",
+   "en": "The AI's irrationality value."
+  },
+  {
+   "k": "1ut5h6g",
+   "en": "ai_wants_divisions"
+  },
+  {
+   "k": "ebxl52",
+   "en": "The total amount of divisions that the AI aims for."
+  },
+  {
+   "k": "f2n23t",
+   "en": "The internal ID of the state. While regular ⟦0⟧ would still work as a pointer to the state, this can remove ambiguity within the code whether the number is used as a state ID or the number that refers to the state with the state ID of 123. ⟦1⟧ defined with ⟦2⟧ in the file, typically returns some negative number instead. For fetching the state ID, a ⟦3⟧ using ⟦4⟧ can be used.",
+   "frags": 5
+  },
+  {
+   "k": "22e76w",
+   "en": "set_variable = { my_state_pointer = 123 }"
+  },
+  {
+   "k": "rdcbgz",
+   "en": "Not the same value as the state ID"
+  },
+  {
+   "k": "1vukxo9",
+   "en": "id=123"
+  },
+  {
+   "k": "1bz2216",
+   "en": "the GetID namespace"
+  },
+  {
+   "k": "1ynk3y4",
+   "en": "building_level"
+  },
+  {
+   "k": "nfap7j",
+   "en": "Building such as ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1diaovm",
+   "en": "@nuclear_reactor"
+  },
+  {
+   "k": "10we2m2",
+   "en": "The level of a building with the target type."
+  },
+  {
+   "k": "1sky8re",
+   "en": "arms_factory_level"
+  },
+  {
+   "k": "2r93tr",
+   "en": "Military factory level in the state"
+  },
+  {
+   "k": "1vvwul0",
+   "en": "industrial_complex_level"
+  },
+  {
+   "k": "11739c1",
+   "en": "civilian factory level in the state"
+  },
+  {
+   "k": "1lncmab",
+   "en": "infrastructure_level"
+  },
+  {
+   "k": "5lw34p",
+   "en": "infrastructure level in the state"
+  },
+  {
+   "k": "1e6zvjs",
+   "en": "damaged_building_level"
+  },
+  {
+   "k": "r2islz",
+   "en": "@industrial_complex"
+  },
+  {
+   "k": "d5hosb",
+   "en": "Damaged building level of a building with target type."
+  },
+  {
+   "k": "e6mgo4",
+   "en": "non_damaged_building_level"
+  },
+  {
+   "k": "1xs67gp",
+   "en": "@arms_factory"
+  },
+  {
+   "k": "2nl95",
+   "en": "Non-damaged building level of a building with target type."
+  },
+  {
+   "k": "1e1x11d",
+   "en": "controller"
+  },
+  {
+   "k": "1wrx3i6",
+   "en": "Controller of the state."
+  },
+  {
+   "k": "1w39mfo",
+   "en": "owner"
+  },
+  {
+   "k": "xwlob3",
+   "en": "Owner of the state."
+  },
+  {
+   "k": "hvyaaa",
+   "en": "distance_to"
+  },
+  {
+   "k": "1mowdrc",
+   "en": "State."
+  },
+  {
+   "k": "k9nqtl",
+   "en": "Distance between the current state and the target state."
+  },
+  {
+   "k": "1uj275l",
+   "en": "Resource type such as ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1anxw1j",
+   "en": "@chromium"
+  },
+  {
+   "k": "l0kw21",
+   "en": "Amount of the resource produced within state."
+  },
+  {
+   "k": "4ch44q",
+   "en": "compliance"
+  },
+  {
+   "k": "2phya0",
+   "en": "Current compliance level of the state."
+  },
+  {
+   "k": "1phuk6i",
+   "en": "compliance_speed"
+  },
+  {
+   "k": "1sng0tt",
+   "en": "Current compliance speed of the state."
+  },
+  {
+   "k": "197rf0e",
+   "en": "days_since_last_strategic_bombing"
+  },
+  {
+   "k": "a4d9jj",
+   "en": "Amount of days since the state was last strategic bombed."
+  },
+  {
+   "k": "60wqo0",
+   "en": "resistance"
+  },
+  {
+   "k": "p0upsm",
+   "en": "Current resistance level of the state. On the scale from 0 to 100."
+  },
+  {
+   "k": "1y0u20o",
+   "en": "resistance_speed"
+  },
+  {
+   "k": "1n6dypf",
+   "en": "Current resistance speed of the state."
+  },
+  {
+   "k": "1vasi1c",
+   "en": "resistance_target"
+  },
+  {
+   "k": "nw9b5f",
+   "en": "Current resistance target of the state. On the scale from 0 to 100."
+  },
+  {
+   "k": "1yu7ndo",
+   "en": "state_population"
+  },
+  {
+   "k": "thh56h",
+   "en": "Current population of the state. Recommended to use ⟦0⟧ when possible to push the necessary number for an overflow to ~2 billion from the very possible ~2 million.",
+   "frags": 1
+  },
+  {
+   "k": "l4w312",
+   "en": "state_population_k"
+  },
+  {
+   "k": "q1cdv2",
+   "en": "Current population of the state in thousands."
+  },
+  {
+   "k": "1yune7p",
+   "en": "state_and_terrain_strategic_value"
+  },
+  {
+   "k": "1j62tue",
+   "en": "Current state and terrain strategic value, decided by buildings and terrain of provinces."
+  },
+  {
+   "k": "16ws4ax",
+   "en": "state_strategic_value"
+  },
+  {
+   "k": "pbt91u",
+   "en": "Current state strategic value, decided by buildings."
+  },
+  {
+   "k": "odjfou",
+   "en": "State flag such as ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "pv9krd",
+   "en": "The current number of remaining days for a state flag. Must be targeted with a ⟦0⟧ rather than a ⟦1⟧ with the position of the target and the variable being swapped unlike in most other game variables, e.g. ⟦2⟧. The value of the variable cannot be directly passed into another variable; instead, a ⟦3⟧ must be used.",
+   "frags": 4
+  },
+  {
+   "k": "pf72h0",
+   "en": "leader_modifier"
+  },
+  {
+   "k": "1cqetuc",
+   "en": "@navy_max_range"
+  },
+  {
+   "k": "1uptka7",
+   "en": "The total value of the specified ⟦0⟧ as the unit leader has in total, applied towards the leader. This is represented with ⟦1⟧ in ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "ke9917",
+   "en": "non_shared_modifier = { ... }"
+  },
+  {
+   "k": "c744vl",
+   "en": "unit leader traits"
+  },
+  {
+   "k": "1cqzmnl",
+   "en": "unit_modifier"
+  },
+  {
+   "k": "slebam",
+   "en": "Modifier type, such as ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1y7g41f",
+   "en": "@army_attack_factor"
+  },
+  {
+   "k": "wgezyf",
+   "en": "The total value of the specified ⟦0⟧ as the unit leader has in total, applied towards the units. This is represented with ⟦1⟧ in ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "u8j94f",
+   "en": "sum_unit_terrain_modifier"
+  },
+  {
+   "k": "13m8s7j",
+   "en": "@sickness_chance"
+  },
+  {
+   "k": "1gk6jep",
+   "en": "The total sum of the modifier value applied by each province that this unit leader has divisions on."
+  },
+  {
+   "k": "1dj6n7k",
+   "en": "army_attack_level"
+  },
+  {
+   "k": "7xsmud",
+   "en": "The attack level of the leader."
+  },
+  {
+   "k": "1kc8b66",
+   "en": "army_defense_level"
+  },
+  {
+   "k": "2ns0ul",
+   "en": "The defense level of the leader."
+  },
+  {
+   "k": "3g41p0",
+   "en": "attack_level"
+  },
+  {
+   "k": "1ag9ej2",
+   "en": "The attack level of the leader. ⟦0⟧ exists as a synonym.",
+   "frags": 1
+  },
+  {
+   "k": "1rfftmu",
+   "en": "attack_skill_level"
+  },
+  {
+   "k": "wwfg8v",
+   "en": "coordination_level"
+  },
+  {
+   "k": "lm8o5w",
+   "en": "The coordination level of the leader."
+  },
+  {
+   "k": "7tm62",
+   "en": "defense_level"
+  },
+  {
+   "k": "46yd1y",
+   "en": "The defense level of the leader. ⟦0⟧ exists as a synonym.",
+   "frags": 1
+  },
+  {
+   "k": "13icsk0",
+   "en": "defense_skill_level"
+  },
+  {
+   "k": "boo5t1",
+   "en": "logistics_level"
+  },
+  {
+   "k": "1qkdibp",
+   "en": "The logistics level of the leader. ⟦0⟧ exists as a synonym.",
+   "frags": 1
+  },
+  {
+   "k": "1u2filf",
+   "en": "logistics_skill_level"
+  },
+  {
+   "k": "1ewtc67",
+   "en": "maneuvering_level"
+  },
+  {
+   "k": "2f9hly",
+   "en": "The maneuvering level of the leader."
+  },
+  {
+   "k": "14j69op",
+   "en": "planning_level"
+  },
+  {
+   "k": "1bx28of",
+   "en": "The planning level of the leader. ⟦0⟧ exists as a synonym.",
+   "frags": 1
+  },
+  {
+   "k": "1xf6ipr",
+   "en": "planning_skill_level"
+  },
+  {
+   "k": "fvxv3f",
+   "en": "skill_level"
+  },
+  {
+   "k": "cdujar",
+   "en": "The general skill level of the leader. ⟦0⟧ exists as a synonym.",
+   "frags": 1
+  },
+  {
+   "k": "1k2kmd2",
+   "en": "skill"
+  },
+  {
+   "k": "1is7lb0",
+   "en": "average_stats"
+  },
+  {
+   "k": "1j5gt1t",
+   "en": "The average stats of the unit leader."
+  },
+  {
+   "k": "1neynmr",
+   "en": "avg_combat_status"
+  },
+  {
+   "k": "4o8vey",
+   "en": "The average status of each engagement that units led by the leader are participating in."
+  },
+  {
+   "k": "3ztud1",
+   "en": "avg_defensive_combat_status"
+  },
+  {
+   "k": "11ynuzv",
+   "en": "The average status of each defensive engagement that units led by the leader are participating in."
+  },
+  {
+   "k": "1b2obs3",
+   "en": "avg_offensive_combat_status"
+  },
+  {
+   "k": "al0xgx",
+   "en": "The average status of each offensive engagement that units led by the leader are participating in."
+  },
+  {
+   "k": "qjnfni",
+   "en": "avg_unit_planning_ratio"
+  },
+  {
+   "k": "914jdn",
+   "en": "The average ratio of planning bonus that each unit has."
+  },
+  {
+   "k": "1ee6fui",
+   "en": "avg_units_acclimation"
+  },
+  {
+   "k": "1pgmvz1",
+   "en": "Acclimatization type, such as ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1kcguju",
+   "en": "@hot_climate"
+  },
+  {
+   "k": "f5fp5n",
+   "en": "Average unit acclimatization for the specified climate, which is defined in ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "qlp2n3",
+   "en": "/Hearts of Iron IV/common/acclimatation.txt"
+  },
+  {
+   "k": "opp5hl",
+   "en": "has_orders_group"
+  },
+  {
+   "k": "vp5ibq",
+   "en": "Returns 1 if the general has any order groups assigned to them, 0 otherwise."
+  },
+  {
+   "k": "f7a3eh",
+   "en": "num_traits"
+  },
+  {
+   "k": "17vrqou",
+   "en": "Amount of traits that the unit leader has."
+  },
+  {
+   "k": "vbo3n0",
+   "en": "num_assigned_traits"
+  },
+  {
+   "k": "k2n6it",
+   "en": "Amount of assigned traits the leader has."
+  },
+  {
+   "k": "1qejvka",
+   "en": "num_basic_traits"
+  },
+  {
+   "k": "12gnw10",
+   "en": "Amount of basic traits that the unit leader has."
+  },
+  {
+   "k": "1h1yte8",
+   "en": "num_personality_traits"
+  },
+  {
+   "k": "cz7zk2",
+   "en": "Amount of personality traits that the unit leader has."
+  },
+  {
+   "k": "1wv36ti",
+   "en": "num_status_traits"
+  },
+  {
+   "k": "jvpxmo",
+   "en": "Amount of status traits that the unit leader has."
+  },
+  {
+   "k": "6qzgve",
+   "en": "num_max_traits"
+  },
+  {
+   "k": "8bgvz0",
+   "en": "Amount of maximum assignable traits the leader can have."
+  },
+  {
+   "k": "1f140eb",
+   "en": "num_terrain_traits"
+  },
+  {
+   "k": "139xzu5",
+   "en": "Amount of terrain traits that the unit leader has."
+  },
+  {
+   "k": "11vokh4",
+   "en": "Amount of battalions that the army leader has within units under their control."
+  },
+  {
+   "k": "24slkz",
+   "en": "Subunit type such as ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1ddnma0",
+   "en": "@artillery_brigade"
+  },
+  {
+   "k": "1g2r3wq",
+   "en": "Amount of battalions with sub unit type, sub unit type is defined in target, example: num_battalions_with_type@light_armor"
+  },
+  {
+   "k": "1bwyv5p",
+   "en": "num_battle_plans"
+  },
+  {
+   "k": "itg22o",
+   "en": "Amount of battle plans that the unit leader is assigned to."
+  },
+  {
+   "k": "gldbcu",
+   "en": "num_orders_groups"
+  },
+  {
+   "k": "1ua3r38",
+   "en": "Number of order groups assigned to the unit leader."
+  },
+  {
+   "k": "1o57i85",
+   "en": "@light_tank_chassis"
+  },
+  {
+   "k": "17pkrnf",
+   "en": "Amount of equipment fulfilled within units led by the unit leader."
+  },
+  {
+   "k": "rii3vy",
+   "en": "num_target_equipment"
+  },
+  {
+   "k": "evvlo3",
+   "en": "Equipment type or archetype such as ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1h2ivzf",
+   "en": "@anti_tank_equipment"
+  },
+  {
+   "k": "8fog9t",
+   "en": "Amount of equipment required within units led by the unit leader."
+  },
+  {
+   "k": "1tjh33d",
+   "en": "num_units_with_type"
+  },
+  {
+   "k": "15lug4c",
+   "en": "@modern_armor"
+  },
+  {
+   "k": "ysybol",
+   "en": "The amount of units controlled by the unit leader that are predominantly filled with subunits that are assigned the specified type."
+  },
+  {
+   "k": "ka5zoy",
+   "en": "num_armored"
+  },
+  {
+   "k": "1dr9674",
+   "en": "The amount of units controlled by the unit leader that are predominantly filled with subunits that are assigned the ⟦0⟧ type.",
+   "frags": 1
+  },
+  {
+   "k": "mystol",
+   "en": "armored"
+  },
+  {
+   "k": "1qefumq",
+   "en": "num_artillery"
+  },
+  {
+   "k": "h0gp4h",
+   "en": "artillery"
+  },
+  {
+   "k": "8dd04u",
+   "en": "num_cavalry"
+  },
+  {
+   "k": "18qlajp",
+   "en": "cavalry"
+  },
+  {
+   "k": "ein6kd",
+   "en": "num_infantry"
+  },
+  {
+   "k": "cp5igw",
+   "en": "infantry"
+  },
+  {
+   "k": "108fxnc",
+   "en": "num_mechanized"
+  },
+  {
+   "k": "9quihh",
+   "en": "mechanized"
+  },
+  {
+   "k": "eb12gr",
+   "en": "num_motorized"
+  },
+  {
+   "k": "o92zlk",
+   "en": "motorized"
+  },
+  {
+   "k": "hk7z1o",
+   "en": "num_rocket"
+  },
+  {
+   "k": "1ry8sid",
+   "en": "rocket"
+  },
+  {
+   "k": "1qk7m3b",
+   "en": "num_special"
+  },
+  {
+   "k": "1oa2yi8",
+   "en": "special"
+  },
+  {
+   "k": "1sfphqm",
+   "en": "Amount of ships controlled by the unit leader"
+  },
+  {
+   "k": "u8xbpg",
+   "en": "@destroyer"
+  },
+  {
+   "k": "chrefr",
+   "en": "Amount of ships controlled by the unit leader, ship type is defined in target, example: num_ships_with_type@carrier"
+  },
+  {
+   "k": "5pgbwb",
+   "en": "num_units"
+  },
+  {
+   "k": "sac4f0",
+   "en": "Amount of units controlled by the unit leader."
+  },
+  {
+   "k": "1mpkpad",
+   "en": "num_units_crossing_river"
+  },
+  {
+   "k": "1sprejq",
+   "en": "Amount of units currently passing through a river."
+  },
+  {
+   "k": "1ttsak",
+   "en": "num_units_in_combat"
+  },
+  {
+   "k": "djmhp6",
+   "en": "Amount of units currently fighting under control of this unit leader."
+  },
+  {
+   "k": "1wmjdhz",
+   "en": "num_units_defensive_combats"
+  },
+  {
+   "k": "mmipp2",
+   "en": "Amount of units in defensive combat under control of this unit leader."
+  },
+  {
+   "k": "h56gbl",
+   "en": "num_units_defensive_combats_on"
+  },
+  {
+   "k": "dzfp7h",
+   "en": "Provincial terrain, such as ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1xzj7vi",
+   "en": "@marsh"
+  },
+  {
+   "k": "1z7gmm",
+   "en": "Amount of units that are currently defensively fighting on the specified terrain under control of this unit leader."
+  },
+  {
+   "k": "1w4o91",
+   "en": "num_units_offensive_combats"
+  },
+  {
+   "k": "12mpp0o",
+   "en": "Amount of units in offensive combat under control of this unit leader."
+  },
+  {
+   "k": "1952zf5",
+   "en": "num_units_offensive_combats_against"
+  },
+  {
+   "k": "1e1hf4h",
+   "en": "Provincial terrain type such as ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "4gmaat",
+   "en": "@urban"
+  },
+  {
+   "k": "an0h8w",
+   "en": "Amount of units that are currently offensively fighting on the specified terrain under control of this unit leader."
+  },
+  {
+   "k": "61kn2h",
+   "en": "num_units_in_state"
+  },
+  {
+   "k": "qmrfv4",
+   "en": "Amount of units controlled by the unit leader within the target state."
+  },
+  {
+   "k": "1jrvtdp",
+   "en": "num_units_on_climate"
+  },
+  {
+   "k": "odklax",
+   "en": "@cold_climate"
+  },
+  {
+   "k": "1pqpofi",
+   "en": "Amount of units under control of the unit leader that are on provinces with a climate that requires the specified acclimatization type."
+  },
+  {
+   "k": "1x5l5w7",
+   "en": "unit_ratio_ready_for_plan"
+  },
+  {
+   "k": "grv44a",
+   "en": "The percentage of units, on the scale from 0 to 1, under control of this unit leader that have the full planning bonus."
+  },
+  {
+   "k": "1intxsa",
+   "en": "intel_yield_factor_on_capture"
+  },
+  {
+   "k": "mk237d",
+   "en": "The rate at which intel is extracted from this operative by an enemy country."
+  },
+  {
+   "k": "vefalf",
+   "en": "operation_country"
+  },
+  {
+   "k": "1bgjne8",
+   "en": "The country that the operative is assigned to work in. 0 if not assigned to a country."
+  },
+  {
+   "k": "qqtla4",
+   "en": "operation_state"
+  },
+  {
+   "k": "v3l05t",
+   "en": "The state that the operative is assigned to work in. 0 if not assigned to a country."
+  },
+  {
+   "k": "g7w5c3",
+   "en": "operation_type"
+  },
+  {
+   "k": "fiwg2j",
+   "en": "The operation that the operative to work on."
+  },
+  {
+   "k": "hxob2u",
+   "en": "operative_captor"
+  },
+  {
+   "k": "11ta7eq",
+   "en": "The country that the operative is captured by."
+  },
+  {
+   "k": "na07uz",
+   "en": "own_capture_chance_factor"
+  },
+  {
+   "k": "udjgyp",
+   "en": "The chance that the operative has to be captured."
+  },
+  {
+   "k": "1que7zk",
+   "en": "own_forced_into_hiding_time_factor"
+  },
+  {
+   "k": "18dvjf",
+   "en": "The chance that the operative has to be forced into hiding."
+  },
+  {
+   "k": "18y9jeh",
+   "en": "own_harmed_time_factor"
+  },
+  {
+   "k": "zomxiy",
+   "en": "The chance that the operative has to be harmed."
+  },
+  {
+   "k": "1xt2xwz",
+   "en": "Modifier name, such as ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "vsq6l0",
+   "en": "@military_industrial_organization_research_bonus"
+  },
+  {
+   "k": "157zjls",
+   "en": "The total value of the modifier applied to the MIO."
+  },
+  {
+   "k": "7iar6w",
+   "en": "research_bonus"
+  },
+  {
+   "k": "qfc08h",
+   "en": "Research bonus of the MIO when assigned to a research slot."
+  },
+  {
+   "k": "9vvq70",
+   "en": "size"
+  },
+  {
+   "k": "37zge1",
+   "en": "Size of the MIO."
+  },
+  {
+   "k": "niozrb",
+   "en": "funds"
+  },
+  {
+   "k": "1eggfy8",
+   "en": "Total MIO funds."
+  },
+  {
+   "k": "21y2bz",
+   "en": "number_of_currently_assigned_tasks"
+  },
+  {
+   "k": "ey29xs",
+   "en": "Amount of tasks that the MIO is assigned to."
+  },
+  {
+   "k": "1i5wrlw",
+   "en": "max_task_capacity"
+  },
+  {
+   "k": "1h3mbo7",
+   "en": "Maximum task capacity of the MIO."
+  },
+  {
+   "k": "1ae7uvo",
+   "en": "number_of_unlocked_traits"
+  },
+  {
+   "k": "1kuluy2",
+   "en": "Unlocked traits in the MIO."
+  },
+  {
+   "k": "lrx172",
+   "en": "number_of_unused_trait_points"
+  },
+  {
+   "k": "1sbyq21",
+   "en": "Unused trait points in the MIO."
+  },
+  {
+   "k": "1j00ikv",
+   "en": "Game arrays"
+  },
+  {
+   "k": "6bldxi",
+   "en": "Array"
+  },
+  {
+   "k": "14rgvkd",
+   "en": "countries"
+  },
+  {
+   "k": "4q2lbn",
+   "en": "Every single country, regardless if they exist or not, including the ⟦0⟧ even if they do not have an original tag defined.",
+   "frags": 1
+  },
+  {
+   "k": "199rpa3",
+   "en": "50 dynamic countries"
+  },
+  {
+   "k": "1fa53cz",
+   "en": "majors"
+  },
+  {
+   "k": "1519ynk",
+   "en": "Every country that is currently major."
+  },
+  {
+   "k": "1fqdcnz",
+   "en": "states"
+  },
+  {
+   "k": "pvexni",
+   "en": "Every state that exists in the game."
+  },
+  {
+   "k": "7itkdm",
+   "en": "ideology_groups"
+  },
+  {
+   "k": "25asck",
+   "en": "Every ideology group that exists in the game."
+  },
+  {
+   "k": "zmj0hb",
+   "en": "operations"
+  },
+  {
+   "k": "13nungy",
+   "en": "Every operation that exists in the game."
+  },
+  {
+   "k": "g82muf",
+   "en": "province_controllers"
+  },
+  {
+   "k": "qvm8yq",
+   "en": "An array of controller countries for each province. In this case, the province ID serves as the index: the controller of province 1234 is province_controllers^1234."
+  },
+  {
+   "k": "ngat2n",
+   "en": "technology"
+  },
+  {
+   "k": "hlayt2",
+   "en": "Every technology in the game."
+  },
+  {
+   "k": "9yptsv",
+   "en": "allies"
+  },
+  {
+   "k": "ecka20",
+   "en": "Countries that are considered an ally, including fellow faction members, subjects, and the overlord."
+  },
+  {
+   "k": "1rdfo09",
+   "en": "army_leaders"
+  },
+  {
+   "k": "y1owqz",
+   "en": "Army leaders recruited by the country."
+  },
+  {
+   "k": "nty62z",
+   "en": "enemies"
+  },
+  {
+   "k": "20i2l7",
+   "en": "Countries that the current country is at war with."
+  },
+  {
+   "k": "1ryhpy8",
+   "en": "enemies_of_allies"
+  },
+  {
+   "k": "115xy12",
+   "en": "Countries that are considered an ally of any country that is at war with the current country."
+  },
+  {
+   "k": "118ic9j",
+   "en": "faction_members"
+  },
+  {
+   "k": "5u7248",
+   "en": "Countries that are in the same faction as this one."
+  },
+  {
+   "k": "1a2h6qk",
+   "en": "occupied_countries"
+  },
+  {
+   "k": "1j6ru8x",
+   "en": "Countries that are currently occupied by this one."
+  },
+  {
+   "k": "5q6jxw",
+   "en": "subjects"
+  },
+  {
+   "k": "kqvlwz",
+   "en": "Countries that are subject to this one."
+  },
+  {
+   "k": "1x5ofbw",
+   "en": "owned_controlled_states"
+  },
+  {
+   "k": "y35lnt",
+   "en": "States that are owned and controlled by the current country."
+  },
+  {
+   "k": "z98h05",
+   "en": "owned_states"
+  },
+  {
+   "k": "1dhai6k",
+   "en": "States that are owned, but not necessarily controlled, by the current country."
+  },
+  {
+   "k": "efnpui",
+   "en": "potential_and_current_enemies"
+  },
+  {
+   "k": "sis0vv",
+   "en": "Countries that are considered enemies and that 'may' become enemies (due to being an ally of an enemy or by having a wargoal)"
+  },
+  {
+   "k": "170coqy",
+   "en": "controlled_states"
+  },
+  {
+   "k": "b1jau0",
+   "en": "States that are controlled, but not necessarily owned, by the current country."
+  },
+  {
+   "k": "ovr47p",
+   "en": "core_states"
+  },
+  {
+   "k": "bwzfr5",
+   "en": "States that are considered national territory of the current country."
+  },
+  {
+   "k": "pjvpu0",
+   "en": "neighbors"
+  },
+  {
+   "k": "g3yask",
+   "en": "Countries that are considered neighbours to the current country, having at least one border within controlled provinces."
+  },
+  {
+   "k": "st75pq",
+   "en": "neighbors_owned"
+  },
+  {
+   "k": "1fjck7d",
+   "en": "Countries that are considered neighbours to the current country, having at least one owned state that borders any state that the current country owns."
+  },
+  {
+   "k": "o03atf",
+   "en": "researched_techs"
+  },
+  {
+   "k": "1keuslq",
+   "en": "Technologies that were researched by the current country."
+  },
+  {
+   "k": "l0evic",
+   "en": "navy_leaders"
+  },
+  {
+   "k": "1nggynq",
+   "en": "Navy leaders recruited by the country."
+  },
+  {
+   "k": "9vi1zj",
+   "en": "operatives"
+  },
+  {
+   "k": "t84j0u",
+   "en": "Operatives recruited by the country."
+  },
+  {
+   "k": "r8u11t",
+   "en": "exiles"
+  },
+  {
+   "k": "133oa1e",
+   "en": "The exiled governments that the current country is hosting."
+  },
+  {
+   "k": "1ic3d23",
+   "en": "core_countries"
+  },
+  {
+   "k": "1vyx252",
+   "en": "Countries that consider this state to be national territory."
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "1odp415",
+   "en": "⟦0⟧ in ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "pw412u",
+   "en": "NDefines.NGame.EVENT_TIMEOUT_DEFAULT = 13"
+  },
+  {
+   "k": "1mbj1kj",
+   "en": "NDefines.NAI.FOCUS_TREE_CONTINUE_FACTOR = 1.5"
+  },
+  {
+   "k": "1huxv1o",
+   "en": "NDefines.NGame.END_DATE = \"1949.1.1.1\""
+  },
+  {
+   "k": "x52jw8",
+   "en": "NDefines.NMilitary.UNIT_EXP_LEVELS = { 0.1, 0.3, 0.75, 0.9 }"
+  },
+  {
+   "k": "x0s6e5",
+   "en": "NDefines.NGame.MAX_EFFECT_ITERATION = 1000"
+  },
+  {
+   "k": "59iejl",
+   "en": "Documentation"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "bbbsh0",
+   "en": "List of modifiers"
+  },
+  {
+   "k": "gkat0o",
+   "en": "Scopes"
+  },
+  {
+   "k": "22wvcr",
+   "en": "On actions"
+  },
+  {
+   "k": "10y68xx",
+   "en": "Data structures"
+  },
+  {
+   "k": "wdu62e",
+   "en": "Scripting"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "475d63",
+   "en": "AI focuses"
+  },
+  {
+   "k": "gpz0z1",
+   "en": "Autonomous states"
+  },
+  {
+   "k": "a6cuzg",
+   "en": "Balances of power"
+  },
+  {
+   "k": "14khzdq",
+   "en": "Bookmarks/Scenarios"
+  },
+  {
+   "k": "xrnqxs",
+   "en": "Game rules"
+  },
+  {
+   "k": "8657g9",
+   "en": "Characters and traits"
+  },
+  {
+   "k": "o977ej",
+   "en": "Cosmetic tags"
+  },
+  {
+   "k": "8zhvfx",
+   "en": "Countries"
+  },
+  {
+   "k": "19eysrz",
+   "en": "Divisions"
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "1xtq0ev",
+   "en": "Equipment"
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "e65ons",
+   "en": "Factions"
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "1cd8sst",
+   "en": "Ideologies"
+  },
+  {
+   "k": "1oopcvp",
+   "en": "Military industrial organizations"
+  },
+  {
+   "k": "k2esk3",
+   "en": "National focuses"
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "uu0bc4",
+   "en": "Scripted GUI"
+  },
+  {
+   "k": "1jzxqx9",
+   "en": "Technologies and doctrines"
+  },
+  {
+   "k": "ur18vw",
+   "en": "Units"
+  },
+  {
+   "k": "j1sac1",
+   "en": "Map"
+  },
+  {
+   "k": "5afzz",
+   "en": "States"
+  },
+  {
+   "k": "8ppvas",
+   "en": "Supply areas"
+  },
+  {
+   "k": "1v2pifw",
+   "en": "Strategic regions"
+  },
+  {
+   "k": "1cffeuu",
+   "en": "Graphical"
+  },
+  {
+   "k": "yolbkg",
+   "en": "Interface"
+  },
+  {
+   "k": "2hqnqn",
+   "en": "Graphical assets"
+  },
+  {
+   "k": "6px9my",
+   "en": "Entities"
+  },
+  {
+   "k": "1n1sxcz",
+   "en": "Posteffects"
+  },
+  {
+   "k": "1fu6htw",
+   "en": "Particles"
+  },
+  {
+   "k": "t16z95",
+   "en": "Fonts"
+  },
+  {
+   "k": "1ig52hy",
+   "en": "Cosmetic"
+  },
+  {
+   "k": "9k7pgr",
+   "en": "Portraits"
+  },
+  {
+   "k": "65pf3n",
+   "en": "Namelists"
+  },
+  {
+   "k": "ohwdis",
+   "en": "Music"
+  },
+  {
+   "k": "1dvvwok",
+   "en": "Sound"
+  },
+  {
+   "k": "ukzedx",
+   "en": "Other"
+  },
+  {
+   "k": "1uzifys",
+   "en": "Console commands"
+  },
+  {
+   "k": "1t5bxxt",
+   "en": "Troubleshooting"
+  },
+  {
+   "k": "1djsobe",
+   "en": "Mod structure"
+  },
+  {
+   "k": "pw0jjk",
+   "en": "Mods"
+  },
+  {
+   "k": "pui2ou",
+   "en": "Nudger"
+  },
+  {
+   "k": "107ow5c",
+   "en": "They are present in the base game defines file due to the fact that NDefines is one single large array, and when defining an array with members, the members are separated with commas. However, separate commands are not separated with commas."
+  },
+  {
+   "k": "1dudzcg",
+   "en": "Yes"
+  },
+  {
+   "k": "f1l55n",
+   "en": "By default as defined in common/country_tags/zz_dynamic_countries.txt"
+  }
+ ]
+}

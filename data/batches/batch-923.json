@@ -1,0 +1,886 @@
+{
+ "batch": 923,
+ "pages": [
+  "Patch 1.16.X"
+ ],
+ "chars": 14936,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "npbvq9",
+   "en": "Light One-Man Turret Production Cost Increased from 0.5 IC to 1 IC"
+  },
+  {
+   "k": "r4g2f7",
+   "en": "Light Two-Man Turret Production Cost Increased from 0.75 IC to 1.25 IC"
+  },
+  {
+   "k": "1e43to",
+   "en": "Light Three-Man Turret Production Cost Increased from 1 IC to 1.5 IC"
+  },
+  {
+   "k": "14uqc2x",
+   "en": "Light Superfixed Structure Production Cost Increased from 0.75 IC to 1 IC"
+  },
+  {
+   "k": "kaa5f5",
+   "en": "Inter-War Medium Tank Chassis Production Cost Increased from 2.5 IC to 3.5 IC"
+  },
+  {
+   "k": "1h6etot",
+   "en": "Basic Medium Tank Chassis Production Cost Increased from 2.5 IC to 3.75 IC"
+  },
+  {
+   "k": "16iils8",
+   "en": "Improved Medium Tank Chassis Production Cost Increased from 3.2 IC to 4 IC"
+  },
+  {
+   "k": "1ycdtqm",
+   "en": "Advanced Medium Tank Chassis Production Cost Increased from 4 IC to 4.25 IC"
+  },
+  {
+   "k": "aqyt09",
+   "en": "Medium One-Man Turret Production Cost Increased from 1 IC to 1.25 IC"
+  },
+  {
+   "k": "18wgwlh",
+   "en": "Medium One-Man Turret Soft Attack and Hard Attack Penalty reduced from -10% to -5%"
+  },
+  {
+   "k": "eeiwrd",
+   "en": "Medium Two-Man Turret Production Cost Increased from 1.5 IC to 1.75 IC"
+  },
+  {
+   "k": "5g9mj9",
+   "en": "Medium Three-Man Turret Production Cost Increased from 2 IC to 2.25 IC"
+  },
+  {
+   "k": "fggkgk",
+   "en": "Inter-War Heavy Tank Chassis Production Cost decreased from 10 IC to 9 IC"
+  },
+  {
+   "k": "dbd0ek",
+   "en": "Improved Heavy Tank Chassis Production Cost increased from 10 IC to 11 IC"
+  },
+  {
+   "k": "sxcf0e",
+   "en": "Self-Propelled Anti-Air Artillery now benefits from Anti-Air Upgrade Technology, providing +15%/+10%/+5% Air Attack per perspective technology"
+  },
+  {
+   "k": "1a179af",
+   "en": "Ship Hull Balance Changes"
+  },
+  {
+   "k": "1dbfz6m",
+   "en": "Light Hull 1 - Submarine Detection increased from 1 to 2.5"
+  },
+  {
+   "k": "1h8pirt",
+   "en": "Light Hull 2 - Submarine Detection increased from 1 to 3"
+  },
+  {
+   "k": "14oqq6r",
+   "en": "Light Hull 3 - Submarine Detection increased from 1 to 3.5"
+  },
+  {
+   "k": "r1hzd6",
+   "en": "Light Hull 4 - Submarine Detection increased from 1 to 4"
+  },
+  {
+   "k": "dti4t7",
+   "en": "Cruiser Hull 2 - Submarine Detection increased from 1 to 1.5"
+  },
+  {
+   "k": "1z2qpc",
+   "en": "Cruiser Hull 3 - Submarine Detection increased from 1 to 2"
+  },
+  {
+   "k": "1dumff8",
+   "en": "Cruiser Hull 4 - Submarine Detection increased from 1 to 2.5"
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "1bs2t41",
+   "en": "Mobile Infantry Doctrine now also provides +10% Max Speed for the Armored Car Recon Company"
+  },
+  {
+   "k": "7nsop2",
+   "en": "Mobile Infantry Doctrine now also provides +10% Max Speed for the Motorized Recon Company"
+  },
+  {
+   "k": "1el0tm",
+   "en": "Mobile Infantry Doctrine now also provides +15% Max Speed for the Cavalry Recon Company"
+  },
+  {
+   "k": "1goawd3",
+   "en": "Breakthrough Priority Doctrine now also provides +5% Breakthrough to Mounted Infantry"
+  },
+  {
+   "k": "ukzedx",
+   "en": "Other"
+  },
+  {
+   "k": "3ctmlq",
+   "en": "The Spirits of the Army \"Bayonet Strength\" and \"Overwhelming Firepower\" now also affect the cost of Bicycle Battalions"
+  },
+  {
+   "k": "pwrwb4",
+   "en": "Added leader traits to Estonian alternate-ideology country leaders, and fixed the name of Johannes Käbin"
+  },
+  {
+   "k": "52x3nw",
+   "en": "Decreased the chance that Sweden refuses request for resource rights from Germany"
+  },
+  {
+   "k": "16tj628",
+   "en": "Nerfed princely subjugation, it removes compliance faster than before and gives less boost to resources and factories"
+  },
+  {
+   "k": "2omdf4",
+   "en": "MIO Tank Manufacturer - Standardized Production Trait Production Cost Reduction Increased from -3% to -5%"
+  },
+  {
+   "k": "1sw8l0f",
+   "en": "Added policies to the Submarine and Assault Gun MIOs"
+  },
+  {
+   "k": "9c856a",
+   "en": "Added the Assembly Line Optimisers Policy to most materiel MIOs"
+  },
+  {
+   "k": "1ql77hb",
+   "en": "Britain's starting Tank, Plane and Ship production now has MIO designers assigned"
+  },
+  {
+   "k": "16185gf",
+   "en": "Reichskommissariat subject type now reduces Resistance Target by 10%"
+  },
+  {
+   "k": "ljwf7",
+   "en": "Congo is now actually able to gain compliance when having Pierre Ryckmans as their leader, provided that they use civilian oversight"
+  },
+  {
+   "k": "kyxf1g",
+   "en": "Italy now gets an event warning them in advance when getting closer to their leaders deposition in the Balance of Power"
+  },
+  {
+   "k": "1j0stc",
+   "en": "The Chilean focus \"Protect Easter Island\" now only targets independent nations"
+  },
+  {
+   "k": "hxvvnb",
+   "en": "The Netherlands now inherits the puppets of Belgium and Luxembourg if annexed through the Benelux Unification decision"
+  },
+  {
+   "k": "16zui0j",
+   "en": "Countries at war only with Government in Exile countries can no longer call to arms, or be joined in war"
+  },
+  {
+   "k": "3kw17a",
+   "en": "Carlist Spain can now select the Habsburg pretender as their king if playing with Götterdämmerung enabled"
+  },
+  {
+   "k": "fb1ouq",
+   "en": "Reworked the \"Greater Indonesia\" formable nation"
+  },
+  {
+   "k": "555pvb",
+   "en": "Reworked the Arabia formable"
+  },
+  {
+   "k": "9cf1jn",
+   "en": "Added Supersonic Jets, Motherships and Intercontinental Bombers to MIOs"
+  },
+  {
+   "k": "14jr3y2",
+   "en": "Infrastructure level 0 now gives -25% movement speed penalty instead of -95% movement speed penalty"
+  },
+  {
+   "k": "1r0n9z9",
+   "en": "Electrification of Ethiopia decisions for Italy can now be taken in parallel."
+  },
+  {
+   "k": "npwibm",
+   "en": "Added text icons for airborne light armor, jungle pioneer supports, long range patrol support and winter logistic support"
+  },
+  {
+   "k": "ybh6t2",
+   "en": "Many more Formable Nation categories now have unique pictures and descriptions"
+  },
+  {
+   "k": "1nrekg1",
+   "en": "Fixed tooltip for the achievement Woman in the High Castle"
+  },
+  {
+   "k": "xgg8a9",
+   "en": "Adjusted several focus icons to show the right flags and country borders"
+  },
+  {
+   "k": "1aah9lb",
+   "en": "Added country flags to player names in the in-game chat in multiplayer"
+  },
+  {
+   "k": "11pyd1v",
+   "en": "Fix certain UI elements in the country selection menu being off-screen on high resolutions"
+  },
+  {
+   "k": "4pk6ih",
+   "en": "Added information of how the number of allowed Air Wings are calculated to the Send Air Volunteers tooltip"
+  },
+  {
+   "k": "drphi4",
+   "en": "Add tiebreaker for peace conference contests between AI countries"
+  },
+  {
+   "k": "1493lgn",
+   "en": "AI Portugal no longer gets into a civil war when going down their Monarchist path"
+  },
+  {
+   "k": "jcofq0",
+   "en": "AI countries will now start researching Super Heavies somewhat later"
+  },
+  {
+   "k": "uel3yg",
+   "en": "The Danish AI will now switch government earlier when going down their Monarchist strategy plan"
+  },
+  {
+   "k": "2c6kf",
+   "en": "German AI will create a few divisions with flame tanks if you have No Step Back and Assault engineers if you have Götterdämmerung"
+  },
+  {
+   "k": "5ex42t",
+   "en": "Germany no longer gets stuck with von Mackensen as their leader when set to go Monarchist"
+  },
+  {
+   "k": "1m5kbqf",
+   "en": "Add a check to detect duplicate province building blocks overriding each other in state history files"
+  },
+  {
+   "k": "1ddt5gv",
+   "en": "Add front_role_override for division templates which lets you customize which type of front it gets assigned to"
+  },
+  {
+   "k": "ko72oz",
+   "en": "The load_focus_tree effect can now copy completed focus from an existing country with the copy_completed_from parameter"
+  },
+  {
+   "k": "19ihpsq",
+   "en": "Fixed the index when removing added resistance targets"
+  },
+  {
+   "k": "1ejndm0",
+   "en": "Graphics"
+  },
+  {
+   "k": "16ztv94",
+   "en": "Uruguay and Paraguay now have their own unique Army, Navy and Airforce National Spirits"
+  },
+  {
+   "k": "zsft6g",
+   "en": "Fixed problem with missing 3D models on DirectX9"
+  },
+  {
+   "k": "mp1saw",
+   "en": "Bugfix"
+  },
+  {
+   "k": "1natw7f",
+   "en": "Multiplayer: Fixed CTD when trying to Join Game through Steam"
+  },
+  {
+   "k": "owiwxc",
+   "en": "Multiplayer: Fix the Ready button being unclickable after loading a save file (forcing you to switch back and forth to another country)"
+  },
+  {
+   "k": "b05vxm",
+   "en": "Multiplayer: Fixed an issue where players would be unable to send chat messages in the lobby if their DLC configuration differed from the host"
+  },
+  {
+   "k": "luqsh3",
+   "en": "Fixed an issue where merging airwings could cause XP to be lost"
+  },
+  {
+   "k": "1lycvl5",
+   "en": "Fixed issue where reaching end game screen in multiple games in a row would cause a CTD"
+  },
+  {
+   "k": "1i47ax2",
+   "en": "Fixed an issue where resuming into a deleted Ironman save game would cause a non-functional Back button in the load game window"
+  },
+  {
+   "k": "151qyb2",
+   "en": "Fixed calculations for unit leaders cost regarding spirit Academy Scholarships"
+  },
+  {
+   "k": "18eepol",
+   "en": "Added bypasses for multiple German focuses in case France does not exist"
+  },
+  {
+   "k": "1is5g5p",
+   "en": "Fixed CTD when loading a game for a country that does not exist in current game"
+  },
+  {
+   "k": "1ifyacz",
+   "en": "Fixed portrait for field marshal disappearing for volunteer forces"
+  },
+  {
+   "k": "1tkuetw",
+   "en": "Greek focus \"Realign with the Central Powers\" is now properly blocked when GTD is not active"
+  },
+  {
+   "k": "1eccj6y",
+   "en": "Fixed issue with equipment temporarily losing stats when a game was loaded"
+  },
+  {
+   "k": "einbnl",
+   "en": "Fixed decreased air accident chance modifier not being applied correctly"
+  },
+  {
+   "k": "1mfpd7o",
+   "en": "Germany can now select a Local Collaborator for Reichskommissariat Großbritannien"
+  },
+  {
+   "k": "z20imd",
+   "en": "Fixed a bug where troops could be withdrawn over frontline"
+  },
+  {
+   "k": "1c9nto9",
+   "en": "Fixed specialization and trait icons being offset on experimental facility card"
+  },
+  {
+   "k": "1q4qslh",
+   "en": "Fixed an issue where dismissing certain Special Project notifications could prevent future notifications of the same type from appearing"
+  },
+  {
+   "k": "16pcku8",
+   "en": "Fixed a flickering issue when starting a new Ironman game"
+  },
+  {
+   "k": "ey985w",
+   "en": "Fixed privacy page not being displayed on Linux"
+  },
+  {
+   "k": "1aycmwr",
+   "en": "Fixed issue where division commander would change portrait if sent as volunteer"
+  },
+  {
+   "k": "1hzddx3",
+   "en": "Legacy of the Naval Arms Race gets removed if other participants do not exist"
+  },
+  {
+   "k": "1deoct9",
+   "en": "Removed Esc as the keyboard shortcut for Details in the Focus Completed pop-up"
+  },
+  {
+   "k": "v7r3hn",
+   "en": "EU leaders now have to be faction leaders to propose federalization or invite to faction via the \"Development of the European Union\" system"
+  },
+  {
+   "k": "979zui",
+   "en": "Hungary can now take \"Partial Mobilization\" if it has either taken the focus \"Secret Rearmament\" or removed the \"Treaty of Trianon\", even when AAT is disabled"
+  },
+  {
+   "k": "74iprh",
+   "en": "Fixed broken localization string in requirements for Bulgarian advisor Georgi Ivanov Kyoseivanov"
+  },
+  {
+   "k": "1olsh3y",
+   "en": "The British decision \"The Macdonald Proposal\" can no longer be taken repeatedly"
+  },
+  {
+   "k": "4vlzog",
+   "en": "National Spirit \"Colonial Returns\" is now removed from Belgium if Congo is no longer their puppet"
+  },
+  {
+   "k": "1ovsk9a",
+   "en": "Removed misleading tooltip in \"Gain Schutzbund Support\" when taken as a democratic nation"
+  },
+  {
+   "k": "11fcsoj",
+   "en": "Licensed equipment can no longer be assigned MIOs"
+  },
+  {
+   "k": "18ol11l",
+   "en": "Fixed a typo in the UK focus \"Expand the Secret Intelligence Service\""
+  },
+  {
+   "k": "1fdexwx",
+   "en": "Removed reference to Jim Corbett from the British Raj focus \"Rally The Indian Left\" (he is actually unlocked by the focus \"Lobby Parliament\")"
+  },
+  {
+   "k": "lj98si",
+   "en": "Denmark will no longer get any generic Election Event, with the one exception of \"Wartime Exception\" which can now trigger the ordinary Danish election event"
+  },
+  {
+   "k": "52ri1w",
+   "en": "Fixed an issue where the Soviet army focus \"Military Political Advisors\" was broken when playing as Monarchist or Fascist Russia"
+  },
+  {
+   "k": "ufcxh5",
+   "en": "Fixed German advisor Franz Seldte's name in the Japanese version"
+  },
+  {
+   "k": "lehi0w",
+   "en": "When Democratic Germany is in a faction and takes the focus \"Shared RnD Programs\", the research bonus immediately increases based on the number of faction members, and Germany won't lose any research bonus until the total amount of faction members are below 10"
+  },
+  {
+   "k": "8kchn9",
+   "en": "Germany will now start with Westwallen constructed with level 2 forts in the 1939 Scenario, and forts have also been removed from a province in the Westwallen decision, since that province does not border another country"
+  },
+  {
+   "k": "1hg6yks",
+   "en": "Fixed multiple instances where the EU decision system could become locked"
+  },
+  {
+   "k": "1g6o8f3",
+   "en": "Removes an errant \"c\" in the MIO trait Anti-Vehicle Landmines"
+  },
+  {
+   "k": "1n4dlj5",
+   "en": "Congo can now bypass the focuses to seek German and Soviet support if none of the countries exist"
+  },
+  {
+   "k": "7sarxu",
+   "en": "Fixes broken logic in Argentina's \"Arma Maravillosa\" which prevented effects from firing"
+  },
+  {
+   "k": "dv427f",
+   "en": "The Additional decisions unlocked for East Africa no longer disappear when Latin Africa has been formed first"
+  },
+  {
+   "k": "9f9ks8",
+   "en": "Gdynia is included in “Integrate Poland” decision for monarchist Russia"
+  },
+  {
+   "k": "yiy5i2",
+   "en": "The Italian focus \"Italian Irredentism\" now correctly targets the state Var instead of Asir-Makkah"
+  },
+  {
+   "k": "1nqrzai",
+   "en": "Added the missing South Sudetenland to the effects of the non-Götterdämmerrung focus Restore Austria-Hungary for Hungary"
+  },
+  {
+   "k": "k44cm2",
+   "en": "Added some missing states to the effect of the event from \"Rekindle Imperial Sentiment\" when Austria-Hungary is reformed through it"
+  },
+  {
+   "k": "es2byg",
+   "en": "Request Austrian Occupation now gives fascist Switzerland control over south-eastern Austria"
+  },
+  {
+   "k": "rhutrs",
+   "en": "Bulgaria can now access the Treaty of Craiova focus through the new Second Vienna Award event"
+  },
+  {
+   "k": "1wee8wn",
+   "en": "The Japanese focus \"Exchange the Exiles\" now properly displays what will happen if Manchukuo accepts the trade"
+  },
+  {
+   "k": "1qaq2vq",
+   "en": "Belgian decision to Boost Factory Worker's Unions now give proper production modifiers, also fixed a minor typo in decision name"
+  },
+  {
+   "k": "3ffeiv",
+   "en": "The Congolese Evolue events will now also happen if it was Belgium that completed the focus \"Chefs Coutumiers\""
+  },
+  {
+   "k": "o7xzn0",
+   "en": "Diversify Elite Forces decision now works correctly when Trial of Allegiance or Götterdämmerung are disabled"
+  },
+  {
+   "k": "1pwojq3",
+   "en": "Fixed CTD that could occur due to invalid division template"
+  },
+  {
+   "k": "17r2ele",
+   "en": "Added missing localization on Guided Missiles and Nuclear Missiles"
+  },
+  {
+   "k": "k8z9ml",
+   "en": "Himmler will now complete the Inner Circle Focus Strengthen the Waffen-SS in the 140 days as stated in the Focus"
+  },
+  {
+   "k": "phbrqk",
+   "en": "Naval Arms Race achievement now only triggers when being Germany or in faction with Germany"
+  },
+  {
+   "k": "jd9dil",
+   "en": "It will no longer be possible for Germany to have both \"Economy of Conquest\" and \"Recovering Economy\" National Spirits at the same time"
+  },
+  {
+   "k": "1g6fdiz",
+   "en": "Rocket Propelled Bombs module now properly adds 12 weight instead of 2 for Port Strikes"
+  },
+  {
+   "k": "1qc64r3",
+   "en": "Sweden's decision to blow up the mines now has a visible trigger that targets the correct states"
+  },
+  {
+   "k": "1q4vbmx",
+   "en": "Added missing victory points to Western Indian States, Qandahar and Maymanah"
+  },
+  {
+   "k": "r6gzhz",
+   "en": "The German focus \"First Vienna Award\" can now be bypassed if Hungary is either Democratic or Communist"
+  },
+  {
+   "k": "4l7s2t",
+   "en": "Fixed a false start up error by changing the order for raid database loading"
+  },
+  {
+   "k": "e38x69",
+   "en": "Fixed incorrect Soviet Tree offset when NSB is turned off"
+  },
+  {
+   "k": "1l19rwj",
+   "en": "The Congolese Independence War now works as intended if Congo has switched ideology before declaring it"
+  },
+  {
+   "k": "5kbbo5",
+   "en": "Helicopter MIO traits Tandem and Single Rotor are now in the right columns"
+  },
+  {
+   "k": "1w55cgn",
+   "en": "The German leader trait \"The Supreme Leader\" will no longer reduce your own autonomy, but instead reduce your puppets'"
+  },
+  {
+   "k": "1yxkoyu",
+   "en": "Fixed portrait for Belgian advisor Leon Degrelle to fit in his frames"
+  },
+  {
+   "k": "13jfehd",
+   "en": "Removed non-functional Production Efficiency Gain modifier from one of the traits for the Finnish Crichton-Vulcan Naval MIO"
+  },
+  {
+   "k": "1to3rxh",
+   "en": "Fixed several instances where the German Navy's name wouldn't change despite the nation's ideology having done so"
+  },
+  {
+   "k": "13k7m0b",
+   "en": "The German focus \"Effective Operations\" now modifies the National Spirit \"Intelligence Wing\" without La Resistance"
+  },
+  {
+   "k": "1ontc4v",
+   "en": "Fixed CTD that could occur when attempting to spawn railway guns"
+  },
+  {
+   "k": "1bie598",
+   "en": "Removed the Gradual War Escalation mission for Italy when BBA is disabled, since the effect is only intended to work when the DLC is enabled"
+  },
+  {
+   "k": "18900dt",
+   "en": "Spanish Field Marshal Máté Zalka now uses the correct portrait"
+  },
+  {
+   "k": "1ynhifq",
+   "en": "Norway can no longer invite countries' subjects to their faction, and can no longer join factions through focuses while being a puppet of another nation"
+  },
+  {
+   "k": "954ae7",
+   "en": "Peacefully annexing Poland as Germany will no longer trigger sabotage events"
+  },
+  {
+   "k": "1krll1b",
+   "en": "Fixed an issue where the focus \"The Steel Lions\" would give a tank template with tanks that didn't have any main armament"
+  },
+  {
+   "k": "10anyjd",
+   "en": "AI Italy can no longer go down two land doctrines at the same time"
+  },
+  {
+   "k": "s3ikt1",
+   "en": "Fixed a typo in the German Politburo national spirit"
+  },
+  {
+   "k": "1bzxr2d",
+   "en": "Germany's \"The Blitz\" AI strategies will now activate as intended"
+  },
+  {
+   "k": "1aaqimz",
+   "en": "Fixed an issue where Slovakia would not get their tank template in the Fate of Czechoslovakia event"
+  },
+  {
+   "k": "16cdkbm",
+   "en": "Expand Regional Control decisions in Ethiopia are now available if Ethiopia's host isn't in a faction"
+  },
+  {
+   "k": "xo1a1y",
+   "en": "Fixed an issue where the German focus \"Embrace Democratic Institutions\" was not granting the correct effect"
+  },
+  {
+   "k": "lvvnnl",
+   "en": "Fixes missing ship silhouettes for Modern Battleship and Modern Carrier"
+  },
+  {
+   "k": "1yaq6p6",
+   "en": "Super Heavy Battleship Armor now is properly highlighted in the Ship Designer View"
+  },
+  {
+   "k": "1fexdf6",
+   "en": "Added missing focus description to the Swiss focus \"Fly over the Mountains\""
+  },
+  {
+   "k": "1rkrlxm",
+   "en": "Removes a redundant \"the\" in the Canadian focus \"Spirit of the True Revolution\""
+  },
+  {
+   "k": "1f2ghpz",
+   "en": "Added missing states to the formable nation decision \"Unite the Turks\""
+  },
+  {
+   "k": "r66ae3",
+   "en": "Removed Ethiopia flavored event if you're not playing Ethiopia"
+  },
+  {
+   "k": "2wh7hq",
+   "en": "Fixed an issue where the Yugoslav national spirit \"Armed Neutrality\" didn't have a functioning icon"
+  },
+  {
+   "k": "znu0fg",
+   "en": "The Romanian focus \"Force Abdication\" no longer tries to remove a National Spirit if it isn't present"
+  },
+  {
+   "k": "1uxrxya",
+   "en": "Fixed an issue where a few character names and surnames did not start with a capital letter"
+  },
+  {
+   "k": "sixtmh",
+   "en": "Removed a duplicated trigger in the \"Will Abort if:\" section of the British mission \"Trade Unions Demand Minister Appointment\""
+  },
+  {
+   "k": "1k25a3k",
+   "en": "Fixed an issue where a paratroop invasion could draw a map arrow around the globe"
+  },
+  {
+   "k": "1ghfrt2",
+   "en": "Italy will no longer Balkanize themselves after their civil war"
+  },
+  {
+   "k": "1ol881u",
+   "en": "Fixed Bogdan Filov's name being \"Bogdar\" in Russian localization"
+  },
+  {
+   "k": "hwpaqo",
+   "en": "Salvador Abascal can now be chosen in the 1940 election for Mexico"
+  },
+  {
+   "k": "1mwyofi",
+   "en": "The events from the Polish focus \"Enforce Baltic Socialism\" are now sent to all Baltic states, instead of just one"
+  },
+  {
+   "k": "h01z7e",
+   "en": "Fixed an erroneous tooltip in the Turkish Chester Concession event chain"
+  },
+  {
+   "k": "1pqq3z",
+   "en": "Fixes focuses in the Baltic states to avoid factions being created or joined while the Baltics are subject states"
+  },
+  {
+   "k": "1k1zsns",
+   "en": "Iceland no longer get a war goal against themselves if their claim to Greenland is rejected"
+  },
+  {
+   "k": "jtddvx",
+   "en": "Fixed a typo in the New Zealander focus \"Rule Them All\""
+  },
+  {
+   "k": "1ricz8h",
+   "en": "Fix unlocalized string for Bomber Command focus doctrine bonus"
+  },
+  {
+   "k": "pg4myb",
+   "en": "Changed localization in Swiss focus to work for country selection screen"
+  }
+ ]
+}

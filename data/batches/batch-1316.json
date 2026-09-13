@@ -1,0 +1,958 @@
+{
+ "batch": 1316,
+ "pages": [
+  "Strategic region modding",
+  "Thunder at Our Gates"
+ ],
+ "chars": 6167,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "8bit72",
+   "en": "⟦0⟧ are defined in ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1v2pifw",
+   "en": "Strategic regions"
+  },
+  {
+   "k": "az4qad",
+   "en": "/Hearts of Iron IV/map/strategicregions/*.txt"
+  },
+  {
+   "k": "1wpx7g2",
+   "en": "Each strategic region is typically stored in it's own file, although you can store multiple strategic region definitions within the same file, as the ID is defined within the strategic region definition, rather than the file title."
+  },
+  {
+   "k": "67vtch",
+   "en": "Here is a generic example of a strategic region:"
+  },
+  {
+   "k": "1wdrpbr",
+   "en": "⟦0⟧ defines the numerical id used by the strategic region. The strategic region IDs must be added sequentially, skipping numbers will cause crashes.",
+   "frags": 1
+  },
+  {
+   "k": "1nbq1sl",
+   "en": "⟦0⟧ defines the localization key the strategic region uses. You can use a non-localized string (i.e. \"Paris\"), but it is best practice to use localized strings.",
+   "frags": 1
+  },
+  {
+   "k": "136nuue",
+   "en": "name"
+  },
+  {
+   "k": "6d9znn",
+   "en": "⟦0⟧ scope defines which provinces the strategic region is composed over.",
+   "frags": 1
+  },
+  {
+   "k": "ecabk2",
+   "en": "provinces"
+  },
+  {
+   "k": "1pcqb9m",
+   "en": "⟦0⟧ scope determines the weather within the provinces covered by the strategic region.",
+   "frags": 1
+  },
+  {
+   "k": "f1wd5f",
+   "en": "weather"
+  },
+  {
+   "k": "sk09wz",
+   "en": "Weather"
+  },
+  {
+   "k": "83on8d",
+   "en": "Each strategic region has a ⟦0⟧ scope that determines how the weather changes for provinces within it.",
+   "frags": 1
+  },
+  {
+   "k": "1cj68bp",
+   "en": "Each weather system is defined within a ⟦0⟧ scope within the ⟦1⟧ scope.",
+   "frags": 2
+  },
+  {
+   "k": "16o4lqc",
+   "en": "period"
+  },
+  {
+   "k": "1oqlz3a",
+   "en": "⟦0⟧ scope determines when the weather system occurs, the notation is ⟦1⟧, i.e. ⟦2⟧ means the weather system occurs between the 1st of January and the 31st, including these days. Note that the first day and the first month are marked as 0, not as 1.",
+   "frags": 3
+  },
+  {
+   "k": "19rfre7",
+   "en": "between"
+  },
+  {
+   "k": "cu4udj",
+   "en": "day.month day.month"
+  },
+  {
+   "k": "1l0bxj5",
+   "en": "⟦0⟧ scope determines the minimum and maximum temperature for the weather system.",
+   "frags": 1
+  },
+  {
+   "k": "1swu911",
+   "en": "temperature"
+  },
+  {
+   "k": "22fkca",
+   "en": "⟦0⟧ (This is no longer used since version 1.11, set all temperature ranges via temperature)",
+   "frags": 1
+  },
+  {
+   "k": "1huy01n",
+   "en": "⟦0⟧ scope determines the minimum and maximum temperature variability during day and night for the weather system.",
+   "frags": 1
+  },
+  {
+   "k": "1xwxgqd",
+   "en": "temperature_day_night"
+  },
+  {
+   "k": "1ckkj5h",
+   "en": "⟦0⟧ scope determines the minimum amount of snow that is always present in the weather system. Typically only used for areas with year-round snow.",
+   "frags": 1
+  },
+  {
+   "k": "dt6le2",
+   "en": "min_snow_level"
+  },
+  {
+   "k": "kxwjnr",
+   "en": "Each of the weather states are given a weight, determining how likely the state will occur within the weather system. The weather states can be found in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "2s3gxq",
+   "en": "/Hearts of Iron IV/common/weather.txt"
+  },
+  {
+   "k": "1tzrfh7",
+   "en": "Tips"
+  },
+  {
+   "k": "1unu67n",
+   "en": "When placing strategic regions, the provinces they are compose of should be contiguous. This means islands are normally part of a ⟦0⟧ strategic region.",
+   "frags": 1
+  },
+  {
+   "k": "1fdflak",
+   "en": "sea"
+  },
+  {
+   "k": "59iejl",
+   "en": "Documentation"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "bbbsh0",
+   "en": "List of modifiers"
+  },
+  {
+   "k": "gkat0o",
+   "en": "Scopes"
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "22wvcr",
+   "en": "On actions"
+  },
+  {
+   "k": "10y68xx",
+   "en": "Data structures"
+  },
+  {
+   "k": "icm958",
+   "en": "Flags"
+  },
+  {
+   "k": "1fldcnt",
+   "en": "Event targets"
+  },
+  {
+   "k": "135tw29",
+   "en": "Country tag aliases"
+  },
+  {
+   "k": "xqivz6",
+   "en": "Variables"
+  },
+  {
+   "k": "14wbbvz",
+   "en": "Arrays"
+  },
+  {
+   "k": "wdu62e",
+   "en": "Scripting"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "475d63",
+   "en": "AI focuses"
+  },
+  {
+   "k": "gpz0z1",
+   "en": "Autonomous states"
+  },
+  {
+   "k": "a6cuzg",
+   "en": "Balances of power"
+  },
+  {
+   "k": "14khzdq",
+   "en": "Bookmarks/Scenarios"
+  },
+  {
+   "k": "xrnqxs",
+   "en": "Game rules"
+  },
+  {
+   "k": "1xa6gia",
+   "en": "Buildings"
+  },
+  {
+   "k": "8657g9",
+   "en": "Characters and traits"
+  },
+  {
+   "k": "o977ej",
+   "en": "Cosmetic tags"
+  },
+  {
+   "k": "8zhvfx",
+   "en": "Countries"
+  },
+  {
+   "k": "19eysrz",
+   "en": "Divisions"
+  },
+  {
+   "k": "vwifyo",
+   "en": "Decisions"
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "1xtq0ev",
+   "en": "Equipment"
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "e65ons",
+   "en": "Factions"
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "1cd8sst",
+   "en": "Ideologies"
+  },
+  {
+   "k": "1oopcvp",
+   "en": "Military industrial organizations"
+  },
+  {
+   "k": "k2esk3",
+   "en": "National focuses"
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "uu0bc4",
+   "en": "Scripted GUI"
+  },
+  {
+   "k": "1jzxqx9",
+   "en": "Technologies and doctrines"
+  },
+  {
+   "k": "ur18vw",
+   "en": "Units"
+  },
+  {
+   "k": "j1sac1",
+   "en": "Map"
+  },
+  {
+   "k": "5afzz",
+   "en": "States"
+  },
+  {
+   "k": "8ppvas",
+   "en": "Supply areas"
+  },
+  {
+   "k": "1cffeuu",
+   "en": "Graphical"
+  },
+  {
+   "k": "yolbkg",
+   "en": "Interface"
+  },
+  {
+   "k": "2hqnqn",
+   "en": "Graphical assets"
+  },
+  {
+   "k": "6px9my",
+   "en": "Entities"
+  },
+  {
+   "k": "1n1sxcz",
+   "en": "Posteffects"
+  },
+  {
+   "k": "1fu6htw",
+   "en": "Particles"
+  },
+  {
+   "k": "t16z95",
+   "en": "Fonts"
+  },
+  {
+   "k": "1ig52hy",
+   "en": "Cosmetic"
+  },
+  {
+   "k": "9k7pgr",
+   "en": "Portraits"
+  },
+  {
+   "k": "65pf3n",
+   "en": "Namelists"
+  },
+  {
+   "k": "ohwdis",
+   "en": "Music"
+  },
+  {
+   "k": "1dvvwok",
+   "en": "Sound"
+  },
+  {
+   "k": "ukzedx",
+   "en": "Other"
+  },
+  {
+   "k": "1uzifys",
+   "en": "Console commands"
+  },
+  {
+   "k": "1t5bxxt",
+   "en": "Troubleshooting"
+  },
+  {
+   "k": "1djsobe",
+   "en": "Mod structure"
+  },
+  {
+   "k": "pw0jjk",
+   "en": "Mods"
+  },
+  {
+   "k": "pui2ou",
+   "en": "Nudger"
+  },
+  {
+   "k": "1qo9pmu",
+   "en": "⟦0⟧ is the 1st ⟦1⟧ for ⟦2⟧. It was announced on 2025-09-25 and was released on 2026-06-11⟦3⟧, coinciding with patch 1.19.",
+   "frags": 4
+  },
+  {
+   "k": "913eow",
+   "en": "Thunder at Our Gates"
+  },
+  {
+   "k": "idxawv",
+   "en": "theater pack"
+  },
+  {
+   "k": "dmo6mc",
+   "en": "Hearts of Iron IV"
+  },
+  {
+   "k": "15d2oo1",
+   "en": "Expansion features"
+  },
+  {
+   "k": "1ga6f0v",
+   "en": "Step into the heart of command in ⟦0⟧, a Theater Pack for ⟦1⟧. Expand on the art of organizing a campaign with new features such as military headquarters and navy captains, as well as unique new content for nations caught between rival empires; Australia, Siam and Indonesia.",
+   "frags": 2
+  },
+  {
+   "k": "147w8q4",
+   "en": "Features include:"
+  },
+  {
+   "k": "10wrtgs",
+   "en": "⟦0⟧: Support your Allies across the world and hold fast as the last bastion against Japan in the Pacific, or make use of your unstable political climate to change your course entirely.",
+   "frags": 1
+  },
+  {
+   "k": "ncgoxn",
+   "en": "Australia Focus Tree"
+  },
+  {
+   "k": "1gdumxj",
+   "en": "⟦0⟧: Turn rival nations into pawns, exploit the great powers and carve out your own empire in Southeast Asia.",
+   "frags": 1
+  },
+  {
+   "k": "1a5199d",
+   "en": "Siam Focus Tree"
+  },
+  {
+   "k": "16d03r",
+   "en": "⟦0⟧: Steer the course of Indonesia’s future; remain under Dutch rule, or seize the moment to fight for independence alone, or under a new patron.",
+   "frags": 1
+  },
+  {
+   "k": "1cqbf7f",
+   "en": "Indonesia Focus Tree"
+  },
+  {
+   "k": "765e22",
+   "en": "⟦0⟧: Deploy your generals where they matter. Wield local command and support your troops through synergies with updated command abilities, proximity, and new division design features.",
+   "frags": 1
+  },
+  {
+   "k": "1a0fv3e",
+   "en": "Military HQs"
+  },
+  {
+   "k": "j120m7",
+   "en": "⟦0⟧: Named captains lead your ships, where they earn skills and can be promoted to admirals to command your fleets.",
+   "frags": 1
+  },
+  {
+   "k": "bcdgkw",
+   "en": "Ship Captains"
+  },
+  {
+   "k": "rknizx",
+   "en": "Videos"
+  },
+  {
+   "k": "1xx798e",
+   "en": "Cinematic trailers"
+  },
+  {
+   "k": "lfz2yn",
+   "en": "Video diaries"
+  },
+  {
+   "k": "m7u66t",
+   "en": "Devs play"
+  },
+  {
+   "k": "sz859i",
+   "en": "Developer diaries"
+  },
+  {
+   "k": "o4jbad",
+   "en": "Main article: Developer diaries"
+  },
+  {
+   "k": "1uozzna",
+   "en": "All developer diaries about the ⟦0⟧ theater pack and patch 1.19 (aka Operation Postern).",
+   "frags": 1
+  },
+  {
+   "k": "n5w3op",
+   "en": "Patch 1.19 post release"
+  },
+  {
+   "k": "mtgzbw",
+   "en": "No."
+  },
+  {
+   "k": "skqstg",
+   "en": "Title and Link"
+  },
+  {
+   "k": "sjj37t",
+   "en": "Description"
+  },
+  {
+   "k": "ggjuyh",
+   "en": "Date"
+  },
+  {
+   "k": "1cz2o3v",
+   "en": "Studio Gold Update September 2026"
+  },
+  {
+   "k": "qvm3u",
+   "en": "Update on patch 1.19.3 and timeline for upcoming expansions"
+  },
+  {
+   "k": "1pv1tfc",
+   "en": "Open Beta SE™ Update 3.03"
+  },
+  {
+   "k": "9missq",
+   "en": "Fourth update on the patch 1.19.3 beta branch"
+  },
+  {
+   "k": "18top4r",
+   "en": "Open Beta SE™ Update 2.5"
+  },
+  {
+   "k": "1c1u8yr",
+   "en": "Third update on the patch 1.19.3 beta branch"
+  },
+  {
+   "k": "1k8lywa",
+   "en": "Open Beta SE™ Update 2"
+  },
+  {
+   "k": "1cx978u",
+   "en": "Second update on the patch 1.19.3 beta branch"
+  },
+  {
+   "k": "r5lml6",
+   "en": "Open Beta Summer Edition™"
+  },
+  {
+   "k": "lgodpe",
+   "en": "Open beta of patch 1.19.3"
+  },
+  {
+   "k": "191mpkw",
+   "en": "Open Beta Weekend"
+  },
+  {
+   "k": "lqnzed",
+   "en": "Open beta of patch 1.19.2"
+  },
+  {
+   "k": "3n5ajl",
+   "en": "Celebrate 10 Years With Us"
+  },
+  {
+   "k": "1d53qiv",
+   "en": "10 year anniversary celebration"
+  },
+  {
+   "k": "17nu8yh",
+   "en": "Patch 1.19 (Operation Postern)"
+  },
+  {
+   "k": "4a985k",
+   "en": "Patch Notes"
+  },
+  {
+   "k": "7k0ach",
+   "en": "Changelog of patch 1.19"
+  },
+  {
+   "k": "1jx4f6k",
+   "en": "Art & Achievements"
+  },
+  {
+   "k": "jj3hix",
+   "en": "Art and Achievements for ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "18su8bj",
+   "en": "Army HQs & Special Forces"
+  },
+  {
+   "k": "1oot6ks",
+   "en": "Army HQs & Special Forces Doctrines"
+  },
+  {
+   "k": "1cdbwnb",
+   "en": "Siam"
+  },
+  {
+   "k": "1xfj9i7",
+   "en": "Overview of Siam"
+  },
+  {
+   "k": "39c344",
+   "en": "The Republic of Indonesia and the National Revolution"
+  },
+  {
+   "k": "1xojzi6",
+   "en": "Alt-Historical paths for Indonesia"
+  },
+  {
+   "k": "1166wgp",
+   "en": "The Dutch East Indies"
+  },
+  {
+   "k": "he5vs1",
+   "en": "Historical path for the Dutch East Indies and changes to the Dutch focus tree"
+  },
+  {
+   "k": "7qf256",
+   "en": "Ship Captains & Division Designer"
+  },
+  {
+   "k": "2gsoer",
+   "en": "Ship Captains and Division Designer rework"
+  },
+  {
+   "k": "1vefzs0",
+   "en": "Australia: Alt.History"
+  },
+  {
+   "k": "s9y12",
+   "en": "Alt-Historical paths for Australia"
+  },
+  {
+   "k": "1n9xcg6",
+   "en": "Australia: Until the Tide of Battle Swings"
+  },
+  {
+   "k": "1tbhkcl",
+   "en": "Historical path for Australia"
+  },
+  {
+   "k": "1mrgf2j",
+   "en": "Thunder at our Gates - Coming June 11!"
+  },
+  {
+   "k": "1hf551t",
+   "en": "Release date announcement"
+  },
+  {
+   "k": "e31tgn",
+   "en": "Developer Corners"
+  },
+  {
+   "k": "11k7vst",
+   "en": "Dev Corner 2601010"
+  },
+  {
+   "k": "1c423eh",
+   "en": "Questions about achievements"
+  },
+  {
+   "k": "dndu9g",
+   "en": "Dev Corner 2602001"
+  },
+  {
+   "k": "uehh7v",
+   "en": "Updates to the Country Selection Screen"
+  },
+  {
+   "k": "xy9wa7",
+   "en": "Dev Corner 2601009"
+  },
+  {
+   "k": "rf426t",
+   "en": "Questions about the Canberra Air Disaster"
+  },
+  {
+   "k": "xoaal8",
+   "en": "Dev Corner 2601008"
+  },
+  {
+   "k": "10h4oi3",
+   "en": "First look at Regimental Support Companies"
+  },
+  {
+   "k": "zm7ig1",
+   "en": "Dev Corner 2601007"
+  },
+  {
+   "k": "cnmuls",
+   "en": "First look at Indonesian War of Independence and Marine Commando Raids"
+  },
+  {
+   "k": "zc7wr2",
+   "en": "Dev Corner 2601006"
+  },
+  {
+   "k": "1m55w0m",
+   "en": "First look at Army HQs"
+  },
+  {
+   "k": "z28b23",
+   "en": "Dev Corner 2601005"
+  },
+  {
+   "k": "1ravmr5",
+   "en": "Questions about election UI for Australia"
+  },
+  {
+   "k": "ys8pd4",
+   "en": "Dev Corner 2601004"
+  },
+  {
+   "k": "ubqu2r",
+   "en": "Questions about Dutch East Indies content"
+  },
+  {
+   "k": "10q5x7x",
+   "en": "Dev Corner 2601003"
+  },
+  {
+   "k": "11bl6vo",
+   "en": "Questions about Australia content"
+  },
+  {
+   "k": "10g6biy",
+   "en": "Dev Corner 2601002"
+  },
+  {
+   "k": "1w6ivqq",
+   "en": "Thoughts and plans on Siam content"
+  },
+  {
+   "k": "1066ptz",
+   "en": "Dev Corner 2601001"
+  },
+  {
+   "k": "96jkqi",
+   "en": "Questions about Siam content"
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "8p02g4",
+   "en": "Forum, Thunder at our Gates - Coming June 11!, 2026-05-12."
+  },
+  {
+   "k": "593a6e",
+   "en": "Flag of Australia"
+  },
+  {
+   "k": "bve2xu",
+   "en": "Flag of Siam"
+  },
+  {
+   "k": "1abotun",
+   "en": "Flag of Republic of Indonesia"
+  }
+ ]
+}

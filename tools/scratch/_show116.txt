@@ -1,0 +1,131 @@
+﻿=== Patch 1.16.X (130) [file Patch_1.16.X.pr0000.json] ===
+kzz3dl [] :: India: the Princely Breakaway State can now get more territorial concessions during the Mughal uprising, subdivided into Southern, Eastern, Northern, Central and Western India. Controlling all states in an area will let the Mughal side keep them at the end, instantly coring them.
+1w9rqg4 [] :: Targeted decision cancel_effect will now execute if the target is invalidated but also happens to be a valid country with no provinces, this should resolve various issues with targeted decisions such as European Union invitations locking themselves into an invalid state
+lehi0w [] :: When Democratic Germany is in a faction and takes the focus "Shared RnD Programs", the research bonus immediately increases based on the number of faction members, and Germany won't lose any research bonus until the total amount of faction members are below 10
+s29zbo [] :: India: Reworked how to flip communist as India. Now unlocks infiltration decisions to undermine the independence movement and the British, which reduces threshold to flip communist and boost communist support, instead of using the Autonomy system
+quohr7 [] :: The state modifier "Resistant to Occupation" given to states conquered from India is no longer permanently reapplied in states if India gets capitulated, modifier also doesn't reapply if it was previously removed or the state was given willingly
+58xyka [] :: Upgrading MIO on equipment no longer costs XP. Choosing to upgrade equipment via the checkbox or by using the MIO queue will automatically update any production lines producing said equipment for no additional cost or production efficiency loss.
+njoynl [] :: New 3D models added for prototype vehicles for Australia, Belgium, Canada, Czech Republic, United Kingdom, France, Germany, Netherlands, Italy, Japan, Poland, Soviet Union, and USA. See: Dev Diary - Prototype Vehicles Unit Pack
+xo0bxj [] :: Prevented dynamic state modifiers to speed from a) setting their value instead of adding, and b) applying twice. This resolves issues with certain mechanics such as Ethiopia's Decentralization system setting unit speed to 1km
+8kchn9 [] :: Germany will now start with Westwallen constructed with level 2 forts in the 1939 Scenario, and forts have also been removed from a province in the Westwallen decision, since that province does not border another country
+9945i4 [] :: Iran: Focus "Clash of The Titans" is now visible from game start, and is available even if Greece hasn't formed Byzantium yet, but doing so while Greek Byzantine exists will offer a healthy attack bonus
+1cld72z [] :: Artillery Equipment Technologies now provide bonus to the Armored Car Battalions; +10% Soft Attack from Artillery, +10% Hard Attack from Anti-Air Artillery, and +10% Piercing from Anti-Tank Artillery
+1ofj4cy [] :: India: The "Anti-Imperialist Zeal" national spirit granted by the focus "The Sun Sets" now also gives attack and defense bonuses against France and the USA, matching the bonuses targeting the UK
+1orshn6 [] :: Pakistan and Bangladesh will no longer be counted as Princely States that break away from the Raj when declaring war as the Mughal Empire after having completed the focus "Revolt of the Princes"
+152w7h0 [] :: You will no longer lose your own core states when gaining Tajikistan or Turkmenistan as allies when declaring war on the Soviets after having completed the focus "Alliance with Turkic Peoples"
+1wiank8 [] :: Country leaders for new subject nations added in Graveyard of Empires, such as Palestine, Kuwait, Jordan, etc., now display their unique portraits even if Graveyard of Empires is disabled
+1fao9zt [] :: Germany's Communist Influence sprit that it can apply to other countries will no longer cause a civil war when timed out if the amount of communist support in the country is insufficient
+12twisk [] :: Added "count" functionality for all any_object triggers. It will evaluate true if at least "count" items fulfill the child triggers. The count field will support scoped variables
+lgytk7 [] :: The Focus 'Socialist Coup' can now be bypassed if they are already Communist, and the coup can be performed peacefully if there is more than 60% Communism support in the country
+1c5b5oi [] :: Fixed a bug that was hiding the last two focuses in the Swear Fealty branch that appear if a joint Anglo-Soviet invasion happened. These focuses will now appear as intended.
+1h1dqo4 [] :: Partial fix for RK resistance management and compliance: RKs now correctly get their intended 25% compliance as part of the leader installation event after they're created.
+tfr3na [] :: India: Added North-Central and Western-Central India as areas targeted during the Mughal Uprising, giving the Mughal side more options for conquests during the civil war
+121b8j0 [] :: The redundant words "Chassis", "Airframe", and "Hull" have been removed from most instances of equipment designer templates. These classifications were already implied.
+1xp4gkk [] :: Foreign countries (usually Japan) will no longer lose control of British Malayan territories if they transfer allegiance to Australia through the Australian focus tree
+1delme0 [] :: Afghanistan: The decision "Alliance with the Turkic People" will no longer be locked saying "Establishing a Resistance cell in progress" after a decision is aborted
+8xc8p [] :: India: Renamed Train Robberies to the Peoples Railways, it no longer gives Train Robberies spirit, instead adds an optional decision and alters the railway focuses
+1t1gqfh [] :: Added an extra event as part of the Fight For Iran branch where allies of the faction leader will peace out if the leader chooses to accept the peace negotiations
+fziqrw [] :: Removed hostile armor speed factor from German Blitzkrieg operational planning modifier; this modifier only half-worked by virtue of a bug that has now been fixed
+177h9kz [] :: India: The ruling party of the Mughal Empire and British Raj are no longer flipped (Mughals getting GB and RAJ getting Mughal Court) after starting the civil war
+1mifoln [] :: Border wars now start immediately with all lines fighting, rather than starting in reserve. Units also don't rejoin the battle if they have already fought before
+1xkcdl [] :: Completing the focuses "The Memphis Initiative" and "Glory of Cyrus the Great" will now allow Iran to get cores on all of the Middle East, Egypt and Afghanistan
+myymc2 [] :: Added a focus for Afghanistan to gain the support of former Basmachi Movement members in the fascist branch, enabling for easier conquest of Soviet Central Asia
+1vcvusl [] :: The Achievement "Cradle of Civilization" now only requires level 5 infrastructure in all core states that are *not* impassable, preventing potential softlocking
+19gp09 [] :: Added more places in the alt-history branches for Germany to lower the Consumer Goods Factory Factors if they have either the MEFO Bills or Economy of Conquest
+979zui [] :: Hungary can now take "Partial Mobilization" if it has either taken the focus "Secret Rearmament" or removed the "Treaty of Trianon", even when AAT is disabled
+mcbkg [] :: Iran: Fixed a bug where the Islamic Revolution leader would not become country leader if a civil war was started in the "Strengthen Iranian Parliament" focus
+lj98si [] :: Denmark will no longer get any generic Election Event, with the one exception of "Wartime Exception" which can now trigger the ordinary Danish election event
+7qkn6i [] :: Fixed a bug where production was not recalculated when taking decisions. This fixes instances of bugs such as MEFO bills failing to update when they should
+7f6es6 [] :: The national spirit "War Taxes" can no longer be lowered when not at war, now resets after a war ends, and can no longer be exploited to go above the limit
+bzhxzn [] :: India: Forward Bloc now removes the occupation law No Garrison until independence is achieved through the focus Give Me Blood And I Will Grant You Freedom
+5zouha [] :: Fixed the "Agrarian Society" national spirit sometimes not having an effect for India when the Princely Breakaway State or East India Company was created
+16kcvuv [] :: Turkish focus "Expand the Saadabad Pact" will now invite other signatories automatically with GOE enabled, but only if they share an ideology with Turkey
+s6iiwv [] :: India: the Communist party will now be renamed to Communist Party of India when completing either of the focuses "Indian Socialism" or "Soviet Influence"
+zer94j [] :: Updated how air volunteers work. They now will always add the bonus from the modifier, making the intended behaviour of "Legion Condor" work as expected
+1ynhifq [] :: Norway can no longer invite countries' subjects to their faction, and can no longer join factions through focuses while being a puppet of another nation
+1g1x9zg [] :: The Shared Chinese focus "Experimental Mechanised Unit" now only gives a subsidy towards the supporting nation, and not both the Soviets and the Germans
+1at18qc [] :: Iranian focus "Diversify Industry" now gives "Fuel Storage" as well, if not already unlocked, to prevent getting "Synthetic Oil Experiments" before that
+14w8alp [] :: After taking the focus "The Enemy of My Enemy" Japan will only come to help and invade the Andamans for India if the two are not at war with each other
+24mc2z [] :: Lowered the chances of the more obscure paths being taken by GoE countries if the game rules are set to non-historical or the country is set to random
+1dkoybc [] :: Added an event that fires off if the Soviet Union are in control of Iranian Kurdish territory, which will release Kurdistan as the Republic of Mahabad
+1m485gz [] :: Syria & Lebanon will no longer be able to chose to support vichy france or free france if they are occupied/owned by an unrelated country such as Iraq
+pen994 [] :: Non-NSB Improved Medium Tank, Advanced Medium Tank, Improved Medium Tank Destroyer and Advanced Medium Tank Destroyers now have hardness value of 90%
+10i3yc [] :: "Urge Violence against the British"-decisions now cost 13pp (down from 20pp), reduces compliance by -10%, and increases resistance by 50% (from 35%)
+wge4vx [] :: Added a focus accessible to the non-aligned/democratic branches about constructing a national identity, gaining strong bonuses after some investment
+tqdwnn [] :: When the East India Company is formed while India is a subject of a nation other than the UK, Britain will no longer become the overlord of the Raj
+yrx3uq [] :: The event chain from the focus "A Foothold in the Indus" now grants a war goal instead of automatically declaring war if India rejects the demands
+cwzarv [] :: Turkish focus "Reinstate the Darülfünûn-u Şahâne" no longer bypasses when you are not in a faction, locking you out of a research slot permanently
+1aubxlx [] :: The army branch now contains two focuses relating to utilizing Camels in the military, with one of the focuses requiring Battle for the Bosphorus
+sxcf0e [] :: Self-Propelled Anti-Air Artillery now benefits from Anti-Air Upgrade Technology, providing +15%/+10%/+5% Air Attack per perspective technology
+b05vxm [] :: Multiplayer: Fixed an issue where players would be unable to send chat messages in the lobby if their DLC configuration differed from the host
+1fdexwx [] :: Removed reference to Jim Corbett from the British Raj focus "Rally The Indian Left" (he is actually unlocked by the focus "Lobby Parliament")
+1bie598 [] :: Removed the Gradual War Escalation mission for Italy when BBA is disabled, since the effect is only intended to work when the DLC is enabled
+2fvl78 [] :: Fixed an instance where if the UK decolonized at the same time as the Mughals broke away they would instantly white peace with the other RAJ
+qz9skr [] :: Afghanistan: The focus "Approach Foreign Intelligence Services" no longer attempts to create two separate agencies when playing as communist
+v7r3hn [] :: EU leaders now have to be faction leaders to propose federalization or invite to faction via the "Development of the European Union" system
+yz7i1p [] :: India: AI will now be more friendly towards Kingmaker India, being more likely to want to be in an alliance with them and accept volunteers
+1gi8ijc [] :: Added bypass to Revolt of the Princes if you already control all of India. Bypass gives the manpower and War Support you would normally get
+1vqg7k [] :: Afghanistan: The decision "Exploit Turko-Persian Heritage" no longer gets soft-locked if a country gets annexed during a pending invitation
+xjg6d4 [] :: The focus "Prepare for Operation Countenance" no longer creates a supply hub in Farah and Herat even if Afghanistan does not control them
+iht0bq [] :: The tooltips for the event options in the events "Widespread protests" and "Religious Violence" now display the correct compliance values
+1dnnwll [] :: Added formable "Mesopotamia" for Kurdistan, Iraq, Syria, Palestine, and Egypt, to allow for the restoration of the Cradle of Civilization
+1l12t1x [] :: Fixed issue with political branches in British Raj that could potentially hide them even when the custom rule option was set to NOT HIDE.
+17r2is0 [] :: The turkish focus "Taking over Defense of the Gulf" will no longer allow Britain to transfer states it does not own and control to Turkey
+1k8iqv2 [] :: Iran: Allowed Organize Protests or Establish Local Opposition Groups to be bypassed if any of the focuses starting a civil war are taken
+1q4qslh [] :: Fixed an issue where dismissing certain Special Project notifications could prevent future notifications of the same type from appearing
+99ioom [] :: Afghanistan: Fixed an issue in the 1939 start where Afghanistan started with some focuses completed despite missing their parent focuses
+1vg2nye [] :: Added a strong capstone focus to the Nufus branch that references the historical title of the Royal Afghan Army; Prussians of the Orient
+owiwxc [] :: Multiplayer: Fix the Ready button being unclickable after loading a save file (forcing you to switch back and forth to another country)
+jd9dil [] :: It will no longer be possible for Germany to have both "Economy of Conquest" and "Recovering Economy" National Spirits at the same time
+15i7g8z [] :: Iranian focus "Soviet-Iranian Oil Collaboration" will no longer add the oil to a hardcoded state that doesnt correlate with the tooltip
+dv6vtj [] :: Iranian focus branch "The Fight for Iran" will no longer partially disappear when wars end even when you already completed the focuses
+d1r7lj [] :: Iran: Adjusted focus branch offsets for the Iranian focus tree and how the Saadabad Pact branch accounts for collapsing focus branches
+112zz1p [] :: Fixed issue with ship weather penalty reduction also reducing positive modifiers (this will mostly affect destroyers - by quite a lot)
+7jjln5 [] :: Negative versions of the "Marginalized Muslim Community" national spirit is no longer retained by India after the split with Pakistan
+cy74vy [] :: Changed display of matching MIOs in production line creation from "available / total" to just "total" due to obsolete differentiation
+3ia7lq [] :: The focus "Special Operations Executive" no longer rewards an unusable cost reduction for paratroopers doctrine when AAT is disabled
+ljwf7 [] :: Congo is now actually able to gain compliance when having Pierre Ryckmans as their leader, provided that they use civilian oversight
+ecfw0n [] :: Afghanistan: There are now more ways of increasing democracy support, making it easier to avoid the civil war in the democratic path
+yoiq7g [] :: Iraq: Assures that none of the four members of the Golden Square join the Kurdish side when the focus "Launch a Revolt" is completed
+1dlchj [] :: Naval Aircraft MIO archetype now actually adds Naval Attack / Naval Targeting / Sub Detection and Surface Detection to their planes.
+5cjoze [] :: Added an event chain for Syria and Lebanon that allows them to side with Vichy/Free France or declare independence when Paris falls
+k44cm2 [] :: Added some missing states to the effect of the event from "Rekindle Imperial Sentiment" when Austria-Hungary is reformed through it
+1aaircx [] :: You can no longer start the indian focus "Hegemony of the Subcontinent" that requires you to own pakistan right before india splits
+1pxey34 [] :: National spirits for Army, Navy and Air force in Iraq now updates their name based on whether Iraq is Iraq, or has become Kurdistan
+9nd9ub [] :: Fixed a bug that would cause the first variant of equipment to always be called "Mk0" regardless of country-specific naming scheme
+1sdyytc [] :: Afghanistan: Added a new focus for the Afghan Democratic branch to gain more democratic support as well as unlock two new advisors
+1xgn2eb [] :: Fixed an issue where MIO selection persists across different equipment windows, which allowed using MIO for unsupported equipment.
+jk3317 [] :: Overlords capitulating now always gives half progress to next autonomy level, disregarding of which autonomy level it currently is
+2c6kf [] :: German AI will create a few divisions with flame tanks if you have No Step Back and Assault engineers if you have Götterdämmerung
+xjf71c [] :: Iran no longer donates resource rights to Germany for states they do not control in focus "Donate Oil Fields to the German Reich"
+k27m45 [] :: India: Removed War Support modifier, reduced Party Popularity and added 60 Political Power to the focus "All Indian Kishan Sabha"
+164ra4r [] :: India: The British Raj no longer loses certain spirits after separating from the East India Company or Princely Breakaway States
+52ri1w [] :: Fixed an issue where the Soviet army focus "Military Political Advisors" was broken when playing as Monarchist or Fascist Russia
+1qaq2vq [] :: Belgian decision to Boost Factory Worker's Unions now give proper production modifiers, also fixed a minor typo in decision name
+12cjhf2 [] :: Fixed several instances where countries with focus trees from Götterdämmerung could join or create factions while being subjects
+16mojdf [] :: India: Princely Subjugation now increases resistance target by 60% (from 20%) and reduces damage to garrison by -10% (from +50%)
+1ryfe64 [] :: India: Aden no longer gets returned to the Raj after the Mughal Uprising if it was previously handed over to the United Kingdom
+blqmsb [] :: Fixed an instance where the civil war started by the focus "Give Me Blood And I Will Grant You Freedom" would not end correctly
+1i47ax2 [] :: Fixed an issue where resuming into a deleted Ironman save game would cause a non-functional Back button in the load game window
+17v2egn [] :: Iraq: The focus "Propose Syrian Unification" can now be taken even if Syria is a puppet of Vichy France rather than Free France
+sixtmh [] :: Removed a duplicated trigger in the "Will Abort if:" section of the British mission "Trade Unions Demand Minister Appointment"
+1t4b8dh [] :: Iran: Added a focus under the Fight For Iran path that allows Iran to reinstate the Qajar dynasty if they are a British puppet
+1iwkioa [] :: Iranian focus "Persian Gulf Hegemony" no longer says it gives you an annex war goal even though it gives you a puppet war goal
+11bg7yw [] :: India: The "Conquer Afghanistan" focus no longer attempts to give a special forces doctrine discount when you do not have AAT
+qjpgpc [] :: The correct country name will now be used if "India Fragmentation Status" is set to "British Raj Fragmented" in game settings
+19hou4e [] :: Adds a tooltip clarifying that weapons granted from "Secure Weapons" Will be given upon completion of focus "Mughal Uprising"
+kr94wl [] :: Fixed an instance where the "Election Season"-event would sometimes list a leader as retiring before being made leader again
+1m8p75m [] :: Adjusted several Iranian focuses from 70 to 35 days, with minor tweaks to some of them as a result of the time being lowered
+n452wb [] :: Afghanistan: Added a country leader to the communist path, as well as a Field Marshal and German General to the fascist path
+159kopo [] :: India: the AI will now take the decision to become independent when it is available, if it is going down the communist path
+13jfehd [] :: Removed non-functional Production Efficiency Gain modifier from one of the traits for the Finnish Crichton-Vulcan Naval MIO
+a34vf4 [] :: India: Adds a National Spirit that slowly erodes the autonomy of the Princely states if Raj takes the focus "Mughal Court"
+1krll1b [] :: Fixed an issue where the focus "The Steel Lions" would give a tank template with tanks that didn't have any main armament
+9tzh5r [] :: Added new focuses to the Nufus military branch, to gain a larger army, and potentially seek mutual guarantees with Turkey
+107sq4e [] :: Afghanistan - Fixed the recruitable population modifier not applying correctly from the trait "The Last of the Bukharans"
+1nqrzai [] :: Added the missing South Sudetenland to the effects of the non-Götterdämmerrung focus Restore Austria-Hungary for Hungary
+qc7tar [] :: Iranian Decision "Soviet-Iranian Oil Collaboration" no longer only adds oil to Azerbaijan, despite mentioning two states
+1txj7qq [] :: India: The decision to integrate the Princely States can now be taken even if the Princely states are puppets of the Raj
+kyxf1g [] :: Italy now gets an event warning them in advance when getting closer to their leaders deposition in the Balance of Power
+ko72oz [] :: The load_focus_tree effect can now copy completed focus from an existing country with the copy_completed_from parameter
+1pj1d6b [] :: Mexico's Triumph of Synarchism now sends an event which lets the recipient choose to accept or counteract the influence

@@ -1,0 +1,789 @@
+{
+ "batch": 30,
+ "pages": [
+  "Production"
+ ],
+ "chars": 14793,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1jlhjk6",
+   "en": "⟦0⟧ refers to the manufacturing of ⟦1⟧ such as tanks, guns, planes and ships used by the military to conduct a country's war. The construction of buildings in states and provinces, including both military installations and economic development, is known as ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "128dyd6",
+   "en": "Production"
+  },
+  {
+   "k": "1la4po7",
+   "en": "equipment"
+  },
+  {
+   "k": "1lhkbd8",
+   "en": "construction"
+  },
+  {
+   "k": "lrf2w1",
+   "en": "Factories"
+  },
+  {
+   "k": "1lp5hyl",
+   "en": "There are three types of factories:"
+  },
+  {
+   "k": "x0wqo8",
+   "en": "⟦0⟧: Used for ⟦1⟧ (including repair), ⟦2⟧, ⟦3⟧, purchasing equipment licenses, the ⟦4⟧ (with ), and ⟦5⟧ and their upgrades (with ). These have a base output of ⟦6⟧ and powered output of ⟦7⟧ ⟦8⟧ per day.",
+   "frags": 9
+  },
+  {
+   "k": "w0z8n2",
+   "en": "Civilian factories"
+  },
+  {
+   "k": "mj7kgp",
+   "en": "trade"
+  },
+  {
+   "k": "1sdxuuj",
+   "en": "consumer goods"
+  },
+  {
+   "k": "pcb04t",
+   "en": "international market"
+  },
+  {
+   "k": "1skel5p",
+   "en": "Intelligence agencies"
+  },
+  {
+   "k": "11a8rx6",
+   "en": "industrial capacity"
+  },
+  {
+   "k": "13rgryn",
+   "en": "⟦0⟧: Produce land and air-based ⟦1⟧, including for infantry, artillery, tanks, air wings, and railways. These have a base output of ⟦2⟧ and powered output of ⟦3⟧ per day. This is multiplied by both ⟦4⟧ modifiers and by ⟦5⟧, both of which are applied independently of one another. For example, a powered factory at 50% Production efficiency with +10% Factory output from having Export Focus and -21.8% Factory output due to low Stability, the production of each Military factory would be 4.5 ⋅ 0.5 ⋅ ( 1 + 0.1 − 0.218 ) = 1.9845 {\\displaystyle 4.5\\cdot 0.5\\cdot {(1+0.1-0.218)}=1.9845} per day.",
+   "frags": 6
+  },
+  {
+   "k": "182gqps",
+   "en": "Military factories"
+  },
+  {
+   "k": "1lh2moq",
+   "en": "Factory output"
+  },
+  {
+   "k": "1np34kr",
+   "en": "Production efficiency"
+  },
+  {
+   "k": "18onqvh",
+   "en": "For example, a powered factory at ⟦0⟧ ⟦1⟧ with ⟦2⟧ ⟦3⟧ from having ⟦4⟧ and ⟦5⟧ ⟦6⟧ due to low ⟦7⟧, the production of each ⟦8⟧ would be ⟦9⟧ per day.",
+   "frags": 10
+  },
+  {
+   "k": "1q1yljb",
+   "en": "Export Focus"
+  },
+  {
+   "k": "wnbc3s",
+   "en": "Stability"
+  },
+  {
+   "k": "17qtid0",
+   "en": "Military factory"
+  },
+  {
+   "k": "19iofl",
+   "en": "4.5 ⋅ 0.5 ⋅ ( 1 + 0.1 − 0.218 ) = 1.9845 {\\displaystyle 4.5\\cdot 0.5\\cdot {(1+0.1-0.218)}=1.9845}"
+  },
+  {
+   "k": "139rfm0",
+   "en": "⟦0⟧: Produce ships, submarines, convoys, and other naval ⟦1⟧. These have a base output of ⟦2⟧ and powered output of ⟦3⟧ per day. This is multiplied by ⟦4⟧ modifiers; naval dockyards are not affected by production efficiency.",
+   "frags": 5
+  },
+  {
+   "k": "14o5cov",
+   "en": "Naval dockyards"
+  },
+  {
+   "k": "9iag23",
+   "en": "Dockyard output"
+  },
+  {
+   "k": "13bq2la",
+   "en": "The main output modifiers for ⟦0⟧ and ⟦1⟧ are ⟦2⟧ and ⟦3⟧, while ⟦4⟧ are mainly affected by ⟦5⟧ and ⟦6⟧.",
+   "frags": 7
+  },
+  {
+   "k": "fdhcz4",
+   "en": "production technologies"
+  },
+  {
+   "k": "12kt4mn",
+   "en": "industry technologies"
+  },
+  {
+   "k": "ndbchi",
+   "en": "construction technologies"
+  },
+  {
+   "k": "hl9n88",
+   "en": "economy laws"
+  },
+  {
+   "k": "slprmd",
+   "en": "Production lines"
+  },
+  {
+   "k": "n43fec",
+   "en": "For production by ⟦0⟧, see ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "1tf30v6",
+   "en": "Production of military and naval ⟦0⟧ is organized into production lines, each of which produces a single type of equipment at a time using assigned ⟦1⟧ for land- and air-based equipment and ⟦2⟧ for naval equipment. Up to 150⟦3⟧ factories may be assigned to a single production line, but a country can operate multiple lines producing the same item.",
+   "frags": 4
+  },
+  {
+   "k": "ok2k8r",
+   "en": "Ship production lines have a maximum number of dockyards that can be assigned. No more than 5⟦0⟧ ⟦1⟧ can work on producing a capital ship at once; this limit is 10⟦2⟧ for screen ships and submarines, 15⟦3⟧ for convoys, and 5⟦4⟧ for ⟦5⟧.",
+   "frags": 6
+  },
+  {
+   "k": "1rjacyc",
+   "en": "floating harbors"
+  },
+  {
+   "k": "m87f4m",
+   "en": "Some special land units may also have a limited number of military factories per line: 5⟦0⟧ each for ⟦1⟧ (including super-heavy ones), super-heavy howitzers (including self-propelled ones), and land cruisers.",
+   "frags": 2
+  },
+  {
+   "k": "ifgrcz",
+   "en": "railway guns"
+  },
+  {
+   "k": "1kcac1i",
+   "en": "Production line UI"
+  },
+  {
+   "k": "ik1azh",
+   "en": "Item name and position in queue"
+  },
+  {
+   "k": "1dvztfs",
+   "en": "The ⟦0⟧ (MIO) producing the item",
+   "frags": 1
+  },
+  {
+   "k": "1a1ljes",
+   "en": "military industrial organization"
+  },
+  {
+   "k": "1yi2gb4",
+   "en": "Number of factories assigned to the item"
+  },
+  {
+   "k": "cwtt3d",
+   "en": "Delete this production line"
+  },
+  {
+   "k": "1kazv4h",
+   "en": "Move the production line up and down the priority queue. It is also possible to drag and drop the top of the box."
+  },
+  {
+   "k": "1psgmbm",
+   "en": "Toggle ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1suyj8o",
+   "en": "equipment conversion mode"
+  },
+  {
+   "k": "1t75u86",
+   "en": "Item's specialized role, if applicable (tank destroyer in this case)"
+  },
+  {
+   "k": "1ja6694",
+   "en": "The MIO used to design the variant. Upwards arrow indicates a new version of the MIO can be applied. (Without the Arms against Tyranny DLC, this shows the design company.)"
+  },
+  {
+   "k": "1qaajr5",
+   "en": "Whether production is being used for reinforcements, upgrading fielded units, or sent to stockpile. The number shows how many items of the equipment type are needed or in stock."
+  },
+  {
+   "k": "ud9wc",
+   "en": "⟦0⟧ consumed by this production line; red indicates a shortage",
+   "frags": 1
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "hbzvaq",
+   "en": "Many of the elements on the box have tooltips that can be inspected for further details."
+  },
+  {
+   "k": "1udwp2q",
+   "en": "Each production line has its own efficiency level which determines how good it is at producing its current ⟦0⟧. The higher the efficiency, the faster the production line produces equipment, up to a maximum value. Running the same production line continuously gradually increases its efficiency.",
+   "frags": 1
+  },
+  {
+   "k": "woa7xr",
+   "en": "Production efficiency starts at a base (10%⟦0⟧ without modifiers) and increases each day up to a production efficiency cap (50%⟦1⟧ without modifiers). All of these can potentially be increased by ⟦2⟧, ⟦3⟧, and ⟦4⟧. The base production efficiency growth per day is:",
+   "frags": 5
+  },
+  {
+   "k": "f2711z",
+   "en": "industry technology"
+  },
+  {
+   "k": "rfgyq4",
+   "en": "research"
+  },
+  {
+   "k": "26f65v",
+   "en": "national focuses"
+  },
+  {
+   "k": "1948rmh",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\text{production efficiency growth per day}= 0.001 \\frac{\\left( \\text{production efficiency cap} \\right)^2}{\\text{current production efficiency}}}"
+  },
+  {
+   "k": "14utejm",
+   "en": "(All quantities can be expressed in terms of percent or as a fraction, as long as they are expressed in the same terms everywhere.)"
+  },
+  {
+   "k": "96i1c9",
+   "en": "The minimum possible base growth per day is thus about 0.05% (near the starting cap of 50%), and the maximum 1% (100% cap & 10% current efficiency)."
+  },
+  {
+   "k": "1rk2jza",
+   "en": "Alternatively, the relative time in days to reach a particular level of production efficiency is given by"
+  },
+  {
+   "k": "3m3h2n",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle t = 500 \\left( \\frac{\\text{production efficiency}}{\\text{production efficiency cap}} \\right)^2}"
+  },
+  {
+   "k": "drp15y",
+   "en": "For example, going from 25% of the cap to 75% of the cap takes ⟦0⟧ days.",
+   "frags": 1
+  },
+  {
+   "k": "dnu8yf",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle 500 \\cdot (0.75/1.00)^2 - 500 \\cdot (0.25/1.00)^2 = 250}"
+  },
+  {
+   "k": "326rus",
+   "en": "Therefore it takes at most 500 days for a fully-supplied line to reach the cap. (500 days is the theoretical total time to grow from 0% efficiency to the 100% limit (without any adjustments), serving as the basic constant in the formula.)This represents a shortfall of at most 166.6 factory-days of output relative to a factory running at cap for the same period."
+  },
+  {
+   "k": "1kvy9jk",
+   "en": "Production efficiency is tracked separately for each factory. Adding one or more new factories to an existing production line reduces production efficiency of the added factories. It is important to know that the ⟦0⟧ - what they are making has not changed. Only the new factory has minimum efficiency.",
+   "frags": 1
+  },
+  {
+   "k": "q2g4fv",
+   "en": "factories already in the line do not lose efficiency"
+  },
+  {
+   "k": "1n0z2hx",
+   "en": "Caution: When military factories are lost or damaged and total factory count declines, the loss comes off the bottom of the list and those factories lose their efficiency. A wise precaution is to move your high-priority and high-efficiency production lines up in the list."
+  },
+  {
+   "k": "nls24p",
+   "en": "While all ⟦0⟧ are affected by production efficiency, there are some, special equipment types that are unaffected by passive ⟦1⟧, most notably, ⟦2⟧.⟦3⟧ The only way to increase the production efficiency of these lines is to increase their base production efficiency.",
+   "frags": 4
+  },
+  {
+   "k": "11xawdu",
+   "en": "Production efficiency growth"
+  },
+  {
+   "k": "8x3iil",
+   "en": "Production efficiency retention"
+  },
+  {
+   "k": "1k1ol94",
+   "en": "Switching a production line to a related type of equipment not only cancels production of the previous unit and the time spent on it, it also reduces the line's production efficiency. The decrease depends on how drastic the change is, with the player getting to keep a greater percentage of the line's previous efficiency based on how drastic the change is:"
+  },
+  {
+   "k": "1cmxbi6",
+   "en": "Retain ⟦0⟧: Different ⟦1⟧ of the same model (e.g. Panzer III Ausf. F → Panzer III Ausf. G [variants of the German medium tank 1], this also includes switching from license production to own production of the same equipment type, e.g. Italian Fighter II C.202 Folgore to German Fighter II FW190)",
+   "frags": 2
+  },
+  {
+   "k": "1i4mu12",
+   "en": "variant"
+  },
+  {
+   "k": "44is7v",
+   "en": "Retain ⟦0⟧: Different model of the same chassis (e.g. Panzer III → StuG III [German medium tank 1 to German medium tank destroyer 1])",
+   "frags": 1
+  },
+  {
+   "k": "10v7y31",
+   "en": "Retain ⟦0⟧: Direct ⟦1⟧ or direct ⟦2⟧ of equipment of the same type (e.g. Panzer III → Panzer IV [German medium tank 1 to German medium tank 2])",
+   "frags": 3
+  },
+  {
+   "k": "1p7fwc7",
+   "en": "upgrade"
+  },
+  {
+   "k": "1rm7pok",
+   "en": "downgrade"
+  },
+  {
+   "k": "w6asgl",
+   "en": "Retain ⟦0⟧: Indirect ⟦1⟧ or indirect ⟦2⟧ of equipment of the same type (e.g. Panzer III → Panther [German medium tank 1 to German medium tank 3])",
+   "frags": 3
+  },
+  {
+   "k": "38o90t",
+   "en": "Retain ⟦0⟧⟦1⟧: Any other change (e.g. Infantry Equipment 1 to Towed Artillery 1)",
+   "frags": 2
+  },
+  {
+   "k": "o9ris0",
+   "en": "Except for changing of variant, which always results in a loss of 10%, these effects can be reduced by researching:"
+  },
+  {
+   "k": "zbsk0f",
+   "en": "Dispersed industry I"
+  },
+  {
+   "k": "wi1z76",
+   "en": "Dispersed industry II"
+  },
+  {
+   "k": "18sqi8x",
+   "en": "Dispersed industry III"
+  },
+  {
+   "k": "11rufdn",
+   "en": "Dispersed industry IV"
+  },
+  {
+   "k": "w9wxdq",
+   "en": "Dispersed industry V"
+  },
+  {
+   "k": "1d64u48",
+   "en": "Flexible line"
+  },
+  {
+   "k": "1aigfjr",
+   "en": "Each tech provides a production efficiency retention bonus, which serves to limit the production efficiency loss when switching production lines."
+  },
+  {
+   "k": "148z4nm",
+   "en": "Some ⟦0⟧ and unique ⟦1⟧ can also provide additional ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "yt10lt",
+   "en": "national spirits"
+  },
+  {
+   "k": "7mhbtx",
+   "en": "political advisors"
+  },
+  {
+   "k": "fknuj4",
+   "en": "Switching a production line back to the old equipment it was producing not only does not undo the production efficiency loss from having switched lines. Production efficiency retention is based purely on the equipment differences between the currently produced equipment and the equipment being switched to."
+  },
+  {
+   "k": "pbiwd",
+   "en": "Calculating production efficiency with retention bonus"
+  },
+  {
+   "k": "1irow6x",
+   "en": "When a production line is switched while having Dispersed Industry unlocked and/or Flexible Line unlocked, the new Production Efficiency is not the result of a simple addition of the efficiency retention (listed in ⟦0⟧ in the previous section) and the Production Efficiency Retention bonus obtained from the technologies. As the in-game modifier describes, the retention bonus is applied as a percentage of the loss in production efficiency (e.g. 10% retention incurs a 90% loss, so a 10% bonus would reduce the loss by 10% of 90% or 9%. This would give you a new retention of 19%.)",
+   "frags": 1
+  },
+  {
+   "k": "i0tgik",
+   "en": "red"
+  },
+  {
+   "k": "az0liu",
+   "en": "The new Production Efficiency can be calculated in three steps. First, determine the bonus efficiency by multiplying the retention modifier and the efficiency loss. Second, add that product to the original efficiency retention (listed in ⟦0⟧ in the previous section). This is you new efficiency retention. Finally, multiply your current production efficiency and your new efficiency retention. This is your new production efficiency.",
+   "frags": 1
+  },
+  {
+   "k": "c2tafl",
+   "en": "Note that a base production efficiency (default 10%⟦0⟧) superior to this result will supersede it.",
+   "frags": 1
+  },
+  {
+   "k": "di77wf",
+   "en": "It is possible to express these three steps into one formula that will compute the new production efficiency:"
+  },
+  {
+   "k": "1t7x5yb",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\text{Production Efficiency with Retention} = \\text{CPE} \\cdot \\left( \\text{RET} + \\left(1 - \\text{RET} \\right) \\cdot \\text{BON} \\right) }"
+  },
+  {
+   "k": "14gwhko",
+   "en": "Where"
+  },
+  {
+   "k": "lnjdih",
+   "en": "CPE: Current Production Efficiency;"
+  },
+  {
+   "k": "17epnhj",
+   "en": "RET: Retention (the values in ⟦0⟧ above, or 10% for any other production switch);",
+   "frags": 1
+  },
+  {
+   "k": "1fb75ue",
+   "en": "BON: Efficiency retention bonus obtained through Dispersed Industry I to V or Flexible Line."
+  },
+  {
+   "k": "wp9lux",
+   "en": "With this formula, we can see that bonus (BON) is more effective with lower retention (RET)."
+  },
+  {
+   "k": "o4c2vm",
+   "en": "To summarize, the real production efficiency will be given by ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "t9pw6j",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle \\text{Real Production Efficiency} = \\max\\left( \\text{Production Efficiency with Retention, Base Production Efficiency} \\right)}"
+  },
+  {
+   "k": "4xh40r",
+   "en": "For ships"
+  },
+  {
+   "k": "f88pym",
+   "en": "Ships, submarines, and convoys are produced in ⟦0⟧, which do not have production efficiency. Instead, every dockyard produces a constant 2⟦1⟧ per day, modified by ⟦2⟧ modifiers. Hence, if a dockyard production line is changed to a different ship, all progress on the incomplete ship is lost, but the dockyards will immediately operate at full efficiency on the new production line.",
+   "frags": 3
+  },
+  {
+   "k": "1r8nf4",
+   "en": "Also unlike land-based equipment, repairing ships requires allocating ⟦0⟧ for the purpose. Each dockyard can repair up to one ship at a time, and the maximum amount of dockyards allowed to repair ships at a time can be modified in the production screen. Dockyards that are currently repairing ships are removed from active production lines until they are done repairing.",
+   "frags": 1
+  },
+  {
+   "k": "6ricvp",
+   "en": "Equipment conversion"
+  },
+  {
+   "k": "aygfkt",
+   "en": "A production line can be set to produce an item by converting obsolete or foreign (captured, ⟦0⟧, license-built, or ⟦1⟧) equipment of the same chassis. This can be done at any time (assuming input items are available) by clicking the button in the bottom-left of the production line's box, and incurs no loss of production efficiency. When the line runs out of equipment to convert it will automatically revert to production from raw materials.",
+   "frags": 2
+  },
+  {
+   "k": "1vi27qd",
+   "en": "lend-leased"
+  },
+  {
+   "k": "1rlanhu",
+   "en": "purchased"
+  },
+  {
+   "k": "1miu8su",
+   "en": "Equipment conversion can be used for things such as converting tanks to tank destroyers, or upgrading old ⟦0⟧ and ⟦1⟧ designs with new modules. It is generally faster than production from scratch (depending on the number of changes made to the design), and can be sped up further with the ⟦2⟧. Strategic resources are only consumed to the extent the new design requires them and the old one did not.",
+   "frags": 3
+  },
+  {
+   "k": "3dft6x",
+   "en": "tank"
+  },
+  {
+   "k": "1weh94j",
+   "en": "aircraft"
+  },
+  {
+   "k": "1uit3nl",
+   "en": "equipment conversion technologies"
+  },
+  {
+   "k": "1vqdb3j",
+   "en": "Ships can also be refitted to a new design from the task force panel in a similar manner. Each ship must be refitted individually, requiring significant dockyard time (particularly for engine and armor replacements). To refit a foreign ship taken in a peace conference, a new design must be created from the design tab of the ship's info panel; however this may sometimes fail to create a valid refit target.⟦0⟧ Once a refit is started, it can be safely canceled until it is at least 20%⟦1⟧ complete, after which cancelling a refit requires scuttling the ship.",
+   "frags": 2
+  },
+  {
+   "k": "151u68q",
+   "en": "In order to convert existing equipment, the existing design must be:⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "10999od",
+   "en": "Marked as decommissioned (automatic for foreign equipment)."
+  },
+  {
+   "k": "1mf4rnh",
+   "en": "Has the same chassis as the new target design (e.g. a 1934 light tank can not become a 1936 light tank)."
+  },
+  {
+   "k": "1cd70vc",
+   "en": "Foreign equipment has additional quirks outlined by the table below:"
+  },
+  {
+   "k": "9z3f7m",
+   "en": "Conversion target"
+  },
+  {
+   "k": "1wfzmf1",
+   "en": "Converts domestic designs​"
+  },
+  {
+   "k": "1iqvpbq",
+   "en": "Converts foreign designs"
+  },
+  {
+   "k": "7xopj5",
+   "en": "Domestic design, same model⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1dudzcg",
+   "en": "Yes"
+  },
+  {
+   "k": "1mkxnaz",
+   "en": "Foreign license, same model"
+  },
+  {
+   "k": "4i38qy",
+   "en": "Only with tank / ship / aircraft designers⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "cd73lj",
+   "en": "Domestic design, different model"
+  },
+  {
+   "k": "uvq7ms",
+   "en": "Foreign license, different model"
+  },
+  {
+   "k": "1dwik89",
+   "en": "Conversion cost formula: ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "p6prmi",
+   "en": "(base_chassis_cost * (0.9 - tech) + new_module_cost) * prod_modifiers + dismantle_costs"
+  },
+  {
+   "k": "ch9b0m",
+   "en": "Note that for the equipment designers, the base chassis cost is not shown in the research or production screens (those have modules priced in), but is seen in the tooltip for production cost in the designer itself."
+  },
+  {
+   "k": "wzzaok",
+   "en": "Production modifiers come from armor types and modules."
+  },
+  {
+   "k": "e3aoap",
+   "en": "The dismantle cost is paid any time a module changes from the old design, including moving slots."
+  },
+  {
+   "k": "1b5tga2",
+   "en": "Refit cost formula for ships: ⟦0⟧. This also applies to carrier conversions.",
+   "frags": 1
+  },
+  {
+   "k": "1d23qds",
+   "en": "old_design_cost * (0.2 + newly_added_module_prod_modifiers) + (module_upgrade_cost if available, new_module_cost if not) * prod_modifiers + dismantle_costs"
+  }
+ ]
+}

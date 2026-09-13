@@ -1,0 +1,1035 @@
+{
+ "batch": 423,
+ "pages": [
+  "Data structures"
+ ],
+ "chars": 14979,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "z8i6tv",
+   "en": "Variables have a unique way for applying colouring, also allowing extra formatting characters. These are applied after a pipe placed at the end of the variable's name, such as ⟦0⟧ that will turn the colour of the variable ⟦1⟧ red. If no colouring is applied, it will use the same colour as regular text: the §-colour block, textbox's ⟦2⟧, or the font's default colour in that order.",
+   "frags": 3
+  },
+  {
+   "k": "bw63e7",
+   "en": "[?my_variable|R]"
+  },
+  {
+   "k": "1oab7gc",
+   "en": "my_variable"
+  },
+  {
+   "k": "ksb3kg",
+   "en": "text_color_mode"
+  },
+  {
+   "k": "1mnyhfq",
+   "en": "The list of formatting characters that are restricted to variables only are the following:"
+  },
+  {
+   "k": "xoaiok",
+   "en": "Code"
+  },
+  {
+   "k": "uq3mgk",
+   "en": "Effect"
+  },
+  {
+   "k": "1d8iqk5",
+   "en": "Converts the variable to SI units—appends \"K\" or \"M\" and divides the variable appropriately, such as 65 536 becoming 65.53K and 1 500 000 becoming 1.50M. Displays 2 decimals after the dot by default."
+  },
+  {
+   "k": "jqhzc7",
+   "en": "Same as *."
+  },
+  {
+   "k": "628tyj",
+   "en": "Prefixes the variable with ⟦0⟧ if the value is positive or ⟦1⟧ if it is negative.",
+   "frags": 2
+  },
+  {
+   "k": "bts9jc",
+   "en": "Controls the number of decimals to display. Due to the nature of the game's variables, there are no more than 5 decimals that can be shown. Using any digit greater than 5 will instead have the same result as 5."
+  },
+  {
+   "k": "kwstfc",
+   "en": "Converts the variable to percentage, multiplying by 100 and appending a %. By default, will show 2 digits after the decimal point, though the second digit will always be 0."
+  },
+  {
+   "k": "21st2g",
+   "en": "Appends a percentage to the end of the variable without multiplying by 100."
+  },
+  {
+   "k": "176nffk",
+   "en": "Colours the variable green if positive, yellow if zero, red if negative."
+  },
+  {
+   "k": "1v81axc",
+   "en": "Colours the variable red if positive, yellow if zero, green if negative."
+  },
+  {
+   "k": "1vfujlu",
+   "en": "Any unrecognised symbols will neither change how the variable is localised nor get recognised as an error in-game. For example, it's common practice in the base game to prepend a dot before the digit used to control the amount of displayed digits as ⟦0⟧. In case of overlap between mutually-exclusive rules, the last-used one will be prioritised. However, static colouring has a lower priority than dynamic colouring (e.g. ⟦1⟧ will be treated as ⟦2⟧), and using ⟦3⟧ will also override ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "1i0vjcc",
+   "en": "[?var|.1]"
+  },
+  {
+   "k": "ymzvpj",
+   "en": "[?var|+Y]"
+  },
+  {
+   "k": "175a38s",
+   "en": "[?var|+]"
+  },
+  {
+   "k": "19cde0y",
+   "en": "Some examples of formatting characters in usage:"
+  },
+  {
+   "k": "1283po4",
+   "en": "l_english"
+  },
+  {
+   "k": "ct2hvh",
+   "en": "loc_key"
+  },
+  {
+   "k": "z6xxnq",
+   "en": "\"Democratic"
+  },
+  {
+   "k": "q5cgwn",
+   "en": "party"
+  },
+  {
+   "k": "1uwvlfw",
+   "en": "popularity:"
+  },
+  {
+   "k": "kmq4i7",
+   "en": "[?party_popularity@democracy|%G0]\""
+  },
+  {
+   "k": "1w4wfdo",
+   "en": "loc_key_2"
+  },
+  {
+   "k": "1fhpg0",
+   "en": "\"Modifier"
+  },
+  {
+   "k": "qa6nuc",
+   "en": "token's"
+  },
+  {
+   "k": "trl6fk",
+   "en": "value:"
+  },
+  {
+   "k": "1uyf7i7",
+   "en": "[?modifier@my_modifier|.1%%+]\""
+  },
+  {
+   "k": "1jetzoi",
+   "en": "pol_power_trigger_tt"
+  },
+  {
+   "k": "1bspsir",
+   "en": "\"Has"
+  },
+  {
+   "k": "1sgpk2o",
+   "en": "more"
+  },
+  {
+   "k": "1rkd8gq",
+   "en": "than"
+  },
+  {
+   "k": "9t8r2c",
+   "en": "[?var_name|Y]"
+  },
+  {
+   "k": "x1sssc",
+   "en": "political"
+  },
+  {
+   "k": "13u6tt8",
+   "en": "power\""
+  },
+  {
+   "k": "n9au3p",
+   "en": "Within these examples, the first string depicts the current scope's democratic popularity as a percentage multiplied by 100 (%), in green (G), rounded to a whole number with 0 decimals (0). The second string displays the ⟦0⟧ ⟦1⟧'s value as a 'good' number (+ making it green if positive, red if negative), with a percentage sign appended in the end (%%) and rounded to a number with one decimal (.1). The third string displays the variable in yellow colouring (as is common in the base game's tooltips), leaving it unchanged otherwise.",
+   "frags": 2
+  },
+  {
+   "k": "yfwic5",
+   "en": "my_modifier"
+  },
+  {
+   "k": "1hmwnad",
+   "en": "modifier token"
+  },
+  {
+   "k": "1p7wz8g",
+   "en": "By default, variable-related arguments such as ⟦0⟧ or ⟦1⟧ do not have a tooltip. For ⟦2⟧ of these arguments, such as ⟦3⟧, it is possible to set a tooltip with an optional ⟦4⟧ argument within. Others, such as ⟦5⟧, do not support this and a custom tooltip must be used instead, whether it's for ⟦6⟧ or for ⟦7⟧.",
+   "frags": 8
+  },
+  {
+   "k": "15htnak",
+   "en": "set_variable"
+  },
+  {
+   "k": "1vj1qpd",
+   "en": "some"
+  },
+  {
+   "k": "17itexc",
+   "en": "add_to_temp_variable"
+  },
+  {
+   "k": "1h62z6l",
+   "en": "tooltip = localisation_key"
+  },
+  {
+   "k": "1yrfzhh",
+   "en": "effects"
+  },
+  {
+   "k": "1ka34g",
+   "en": "triggers"
+  },
+  {
+   "k": "a95e96",
+   "en": "This tooltip argument is notable since the value of that localisation key allows using two ⟦0⟧ marked with dollar signs: ⟦1⟧ and ⟦2⟧. ⟦3⟧ represents the variable's value before the operation, while ⟦4⟧ represents the variable's value after the operation. This can be used to let the player know the current and/or the potential value of the variable in the same localisation key without taking up more space with ⟦5⟧.",
+   "frags": 6
+  },
+  {
+   "k": "1me7f9u",
+   "en": "strictly-internal variables"
+  },
+  {
+   "k": "587acq",
+   "en": "$LEFT$"
+  },
+  {
+   "k": "leq50p",
+   "en": "$RIGHT$"
+  },
+  {
+   "k": "kzedbt",
+   "en": "Here's an example of it being done:"
+  },
+  {
+   "k": "1ysvfsh",
+   "en": "This is the effect itself. Within localisation, this would be done:"
+  },
+  {
+   "k": "yletzv",
+   "en": "Additional usage"
+  },
+  {
+   "k": "1g9t8pl",
+   "en": "By default, an unset variable is equal to zero when checked. However, the game also provides a null coalescing operator for variables, used with a question mark. For example, ⟦0⟧ within a decision will result in the cost of the decision being the same as var_name for the country. However, if that variable was never set or was cleared beforehand, then the decision will cost 100 ⟦1⟧ instead of 0.",
+   "frags": 2
+  },
+  {
+   "k": "1yygc4",
+   "en": "cost = var_name?100"
+  },
+  {
+   "k": "hb2mn1",
+   "en": "Political Power"
+  },
+  {
+   "k": "o921mz",
+   "en": "Similarly to flags, a variable can be set as targeted by appending the target with ⟦0⟧. However, there are differences: in variables this does not append the target's ID to the name but stores it as a separate variable, as well as it being possible to target far more than countries, but also, for example, states or ideology groups. A variable reference ⟦1⟧ would resolve to a variable named ⟦2⟧. If called in a scope where PREV⟦3⟧, a variable reference ⟦4⟧ would resolve to a variable named ⟦5⟧. This can even be applied to temporary variables. You can also target variables using the syntax ⟦6⟧, regardless of the type of their value: be it country, state, token, even a raw integer. Variables targeting tokenizable types such as ideology groups and ideas provides a powerful alternative to scoped variables for associating a set of variable fields together, enabling one to get around the fact that ideas, ideologies, etc. do not have their own scopes. Generally, when you target a token, it is pasted in as its underlying integer ID (a number in the ten-thousands, usually), but this generally works fine, because it's consistent; the only problem is it's not human-readable. In general, variable targeting is substantially more optimized than meta-effect/trigger token pasting, not to mention more readable and understandable, so should be preferred wherever feasible.",
+   "frags": 7
+  },
+  {
+   "k": "1opbmqn",
+   "en": "var_name_@GER"
+  },
+  {
+   "k": "c74gtt",
+   "en": "var_name_GER"
+  },
+  {
+   "k": "eb8uml",
+   "en": "= { tag = ENG }"
+  },
+  {
+   "k": "tyql6",
+   "en": "var_name_@PREV"
+  },
+  {
+   "k": "iw35cn",
+   "en": "var_name_ENG"
+  },
+  {
+   "k": "hhqat",
+   "en": "var_name_@var:target_var_name"
+  },
+  {
+   "k": "1rvpbpk",
+   "en": "It is technically possible, under some circumstances, to use multiple target specifiers in one variable name, usually strung together back-to-back at the end of the name, like ⟦0⟧. However, this is extremely inconsistent, and the exact rules that govern how it behaves are currently an open question.",
+   "frags": 1
+  },
+  {
+   "k": "7u1q59",
+   "en": "var_name_@THIS_@PREV"
+  },
+  {
+   "k": "1k24bhm",
+   "en": "Operators"
+  },
+  {
+   "k": "r9sqc2",
+   "en": "The following is a list of variable-related effects and triggers. Variable-modifying effects have an equivalent for temporary variables, with ⟦0⟧ being used instead of ⟦1⟧, and these temporary variable operators are also valid triggers, as described above. Every operator can be used with variables that do not exist, assuming a value of 0 unless a null-coalescing operator is used.",
+   "frags": 2
+  },
+  {
+   "k": "4f76ga",
+   "en": "Notes"
+  },
+  {
+   "k": "t8y5b8",
+   "en": "⟦0⟧ The variable to modify or create. value = <decimal>/<variable> The value to set the variable to. tooltip = localisation_keyLocalisation used by the operation. Optional.",
+   "frags": 1
+  },
+  {
+   "k": "102u06l",
+   "en": "var = <variable>"
+  },
+  {
+   "k": "vkqef5",
+   "en": "value = <decimal>/<variable>"
+  },
+  {
+   "k": "equkb3",
+   "en": "set_variable = { var = my_variable value = 100 tooltip = set_var_to_100_tt } set_temp_variable = { temp_var = ROOT.overlord }"
+  },
+  {
+   "k": "16qjq9d",
+   "en": "Sets a variable's value to the specified amount, creating it if not defined."
+  },
+  {
+   "k": "qx2j4q",
+   "en": "Shortened version exists with ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1wrqjop",
+   "en": "set_variable = { <variable> = <value> }"
+  },
+  {
+   "k": "pwrt36",
+   "en": "set_variable_to_random"
+  },
+  {
+   "k": "18zg4n0",
+   "en": "⟦0⟧ The variable to modify or create. min = <decimal> The minimum possible value, defaults to 0. max = <decimal> The maximum possible value, defaults to 1. integer = <bool> Sets if the variable must be an integer or if it can be decimal. Defaults to false.",
+   "frags": 1
+  },
+  {
+   "k": "1clt0r3",
+   "en": "min = <decimal>"
+  },
+  {
+   "k": "ae2ryh",
+   "en": "max = <decimal>"
+  },
+  {
+   "k": "o0cv9k",
+   "en": "integer = <bool>"
+  },
+  {
+   "k": "1io4bhk",
+   "en": "must"
+  },
+  {
+   "k": "19tjtkh",
+   "en": "set_variable_to_random = { var = random_num max = 11 integer = yes } set_temp_variable_to_random = my_var"
+  },
+  {
+   "k": "crk5cy",
+   "en": "Sets a variable's value to the specified amount, creating it if not defined. The result will be greater than or equal than the minimum and strictly less than the maximum."
+  },
+  {
+   "k": "130mn2c",
+   "en": "Shortened version exists with ⟦0⟧, setting it to a decimal between 0 and 1. Can be used in triggers.",
+   "frags": 1
+  },
+  {
+   "k": "mq6hg9",
+   "en": "set_variable_to_random = <variable>"
+  },
+  {
+   "k": "lkib7f",
+   "en": "clear_variable"
+  },
+  {
+   "k": "blhni2",
+   "en": "⟦0⟧ Variable to clear.",
+   "frags": 1
+  },
+  {
+   "k": "1ytxl23",
+   "en": "<variable>"
+  },
+  {
+   "k": "hjnqxb",
+   "en": "clear_variable = my_variable"
+  },
+  {
+   "k": "1a3oq5r",
+   "en": "Clears the value from the memory entirely."
+  },
+  {
+   "k": "183hhht",
+   "en": "Can only be used on regular variables."
+  },
+  {
+   "k": "9x8e7w",
+   "en": "⟦0⟧ Variable to compare. value = <decimal>/<variable> The value to compare the variable to. compare = <compare type>/<variable> The comparison type. Variants are equals, not_equals, less_than, less_than_or_equals, greater_than, and greater_than_or_equals. Defaults to greater_than_or_equals.",
+   "frags": 1
+  },
+  {
+   "k": "1bpt2rr",
+   "en": "compare = <compare type>/<variable>"
+  },
+  {
+   "k": "mjg61g",
+   "en": "equals"
+  },
+  {
+   "k": "ye8ulu",
+   "en": "not_equals"
+  },
+  {
+   "k": "1nzt7ga",
+   "en": "less_than"
+  },
+  {
+   "k": "1eujwfq",
+   "en": "less_than_or_equals"
+  },
+  {
+   "k": "1b2e0jt",
+   "en": "greater_than"
+  },
+  {
+   "k": "1ohfcj5",
+   "en": "greater_than_or_equals"
+  },
+  {
+   "k": "2m7wcq",
+   "en": "check_variable = { var = my_var value = 10 compare = greater_than_or_equals } check_variable = { var_name > 10 }"
+  },
+  {
+   "k": "17taskx",
+   "en": "Compares the value of a variable. Used as a trigger."
+  },
+  {
+   "k": "uuoref",
+   "en": "Temporary and regular formatting use the exact same formatting. Shortened variant exists as ⟦0⟧, where the operator in the middle is an equality sign (=), greater than sign (>), or a lesser than sign (<). The comparison type is always strict in this case: ⟦1⟧ will come up as false if ⟦2⟧ is exactly 10.",
+   "frags": 3
+  },
+  {
+   "k": "o6oalm",
+   "en": "check_variable = { <variable> < <value> }"
+  },
+  {
+   "k": "w7x909",
+   "en": "check_variable = { var_name > 10 }"
+  },
+  {
+   "k": "1qg68uk",
+   "en": "has_variable"
+  },
+  {
+   "k": "ip8bcd",
+   "en": "⟦0⟧ Variable to check.",
+   "frags": 1
+  },
+  {
+   "k": "1m6rf48",
+   "en": "has_variable = my_variable"
+  },
+  {
+   "k": "bb2493",
+   "en": "Checks if the value was set, regardless of its amount. Used as a trigger."
+  },
+  {
+   "k": "6xxu0l",
+   "en": "A variable is considered set even if its value is 0, as long as it wasn't cleared."
+  },
+  {
+   "k": "19wp9h9",
+   "en": "add_to_variable"
+  },
+  {
+   "k": "o9nf30",
+   "en": "⟦0⟧ The variable to add to. value = <decimal>/<variable> The value to add to the variable. tooltip = localisation_keyLocalisation used by the operation. Optional.",
+   "frags": 1
+  },
+  {
+   "k": "1i4nyec",
+   "en": "add_to_variable = { var = my_variable value = 100 tooltip = add_100_to_var_tt } add_to_temp_variable = { temp_var = num_owned_states }"
+  },
+  {
+   "k": "1pgpma7",
+   "en": "Increases a variable's value by the specified amount, creating it if not defined."
+  },
+  {
+   "k": "1ekqhcq",
+   "en": "add_to_variable = { <variable> = <value> }"
+  },
+  {
+   "k": "1avli0v",
+   "en": "subtract_from_variable"
+  },
+  {
+   "k": "14b5r22",
+   "en": "⟦0⟧ The variable to subtract from. value = <decimal>/<variable> The value to subtract from the variable. tooltip = localisation_keyLocalisation used by the operation. Optional.",
+   "frags": 1
+  },
+  {
+   "k": "1nizw3s",
+   "en": "subtract_from_variable = { var = my_variable value = 100 tooltip = sub_100_from_var_tt } subtract_from_temp_variable = { temp_var = num_owned_states }"
+  },
+  {
+   "k": "1ypccy3",
+   "en": "Decreases a variable's value by the specified amount, creating it if not defined."
+  },
+  {
+   "k": "14g0y9g",
+   "en": "Shortened version exists with ⟦0⟧. Equivalent to adding a negative amount.",
+   "frags": 1
+  },
+  {
+   "k": "9ri1v0",
+   "en": "subtract_from_variable = { <variable> = <value> }"
+  },
+  {
+   "k": "lcvlh6",
+   "en": "multiply_variable"
+  },
+  {
+   "k": "ad9fvr",
+   "en": "⟦0⟧ The variable to multiply. value = <decimal>/<variable> The value to multiply the variable by. tooltip = localisation_keyLocalisation used by the operation. Optional.",
+   "frags": 1
+  },
+  {
+   "k": "8sgiad",
+   "en": "multiply_variable = { var = my_variable value = 100 tooltip = multiply_var_by_100_tt } multiply_temp_variable = { temp_var = num_owned_states }"
+  },
+  {
+   "k": "34ipgd",
+   "en": "Multiplies a variable's value by the specified amount."
+  },
+  {
+   "k": "nvfhnb",
+   "en": "multiply_variable = { <variable> = <value> }"
+  },
+  {
+   "k": "pyh9y5",
+   "en": "divide_variable"
+  },
+  {
+   "k": "12hjki3",
+   "en": "⟦0⟧ The variable to divide. value = <decimal>/<variable> The value to divide the variable by. tooltip = localisation_keyLocalisation used by the operation. Optional.",
+   "frags": 1
+  },
+  {
+   "k": "1ysqsb0",
+   "en": "divide_variable = { var = my_variable value = 100 tooltip = divide_var_by_100_tt } divide_temp_variable = { temp_var = num_owned_states }"
+  },
+  {
+   "k": "ykwk9p",
+   "en": "Divides a variable's value by the specified amount."
+  },
+  {
+   "k": "h3oji2",
+   "en": "divide_variable = { <variable> = <value> }"
+  },
+  {
+   "k": "4muww0",
+   "en": "modulo_variable"
+  },
+  {
+   "k": "qqdbvn",
+   "en": "⟦0⟧ The variable to modulo. value = <decimal>/<variable> The value to modulo the variable by. tooltip = localisation_keyLocalisation used by the operation. Optional.",
+   "frags": 1
+  },
+  {
+   "k": "fmhivr",
+   "en": "modulo_variable = { var = my_variable value = 50 tooltip = get_modulo_of_var_by_50_tt } modulo_temp_variable = { temp_var = num_controlled_states }"
+  },
+  {
+   "k": "1jrcye1",
+   "en": "Makes the variable become the remainder of Euclidean division of the variable by the specified value."
+  },
+  {
+   "k": "17j3bv9",
+   "en": "modulo_variable = { <variable> = <value> }"
+  },
+  {
+   "k": "1w7tnb8",
+   "en": "round_variable"
+  },
+  {
+   "k": "1293ikw",
+   "en": "⟦0⟧ The variable to round.",
+   "frags": 1
+  },
+  {
+   "k": "oepavz",
+   "en": "round_variable = my_variable round_temp_variable = temp"
+  },
+  {
+   "k": "1lni91k",
+   "en": "Rounds the variable towards the closest integer value."
+  },
+  {
+   "k": "10pt7uy",
+   "en": "If exactly between two integers (Such as 1.5), the option with lager absolute val gets chosen ( if -1.5,will be -2 )."
+  },
+  {
+   "k": "1x5h4v5",
+   "en": "clamp_variable"
+  },
+  {
+   "k": "9a1z9l",
+   "en": "⟦0⟧ The variable to clamp. min = <decimal>/<variable> The minimum value of the variable after the clamp. max = <decimal>/<variable> The maximum value of the variable after the clamp.",
+   "frags": 1
+  },
+  {
+   "k": "181niu",
+   "en": "min = <decimal>/<variable>"
+  },
+  {
+   "k": "1pmz66o",
+   "en": "max = <decimal>/<variable>"
+  },
+  {
+   "k": "1ho6qlo",
+   "en": "clamp_variable = { var = my_var min = 0 } clamp_temp_variable = { var = my_var min = 0 }"
+  },
+  {
+   "k": "1ctivel",
+   "en": "Clamps the variable to ensure its value is between the two specified numbers, raising to the minimum if smaller or lowering to the maximum if larger."
+  },
+  {
+   "k": "1nh9buz",
+   "en": "Either min or max can be omitted, in which case it'll not be checked. Does nothing if the variable is already in the range between min and max. ⟦0⟧, it can still go beyond the minimum or the maximum after the clamp.",
+   "frags": 1
+  },
+  {
+   "k": "1r62mk5",
+   "en": "This only changes the current value of the variable"
+  },
+  {
+   "k": "1vfj3tm",
+   "en": "career_profile_set_temp_playthrough_variable"
+  },
+  {
+   "k": "18blgcg",
+   "en": "⟦0⟧ The variable to modify or create. value = <decimal>/<variable> The value to set the variable to.",
+   "frags": 1
+  },
+  {
+   "k": "yd2075",
+   "en": "career_profile_set_temp_playthrough_variable = { sum = rocket_sites_built_1936 }"
+  },
+  {
+   "k": "rjz28l",
+   "en": "Sets a temporary variable to a value or another variable."
+  },
+  {
+   "k": "7klwvy",
+   "en": "career_profile_set_temp_variable"
+  },
+  {
+   "k": "hcuu3k",
+   "en": "career_profile_set_temp_variable = { var = num_dogs value = num_dogs_in_career_profile }"
+  },
+  {
+   "k": "hzudcg",
+   "en": "Math expressions"
+  },
+  {
+   "k": "uksdci",
+   "en": "Calculations with extensive number of steps and complex usage of temporary variables may be simplified with the usage of math expressions."
+  },
+  {
+   "k": "16il87g",
+   "en": "Math expressions is a block of consecutive math functions that gets executed on the given value. Template for building a math expression looks like this:"
+  },
+  {
+   "k": "5hape8",
+   "en": "{ value = 0 add = 1 }"
+  },
+  {
+   "k": "1eojvri",
+   "en": "value parameter is used as the default value, on which all the following functions are used."
+  },
+  {
+   "k": "mgi208",
+   "en": "add is a function name that is being executed on the value parameter. There could be multiple functions in one math expression, but there's no priorities for functions, thus they get executed by an order they are given in a block."
+  },
+  {
+   "k": "lfcbzm",
+   "en": "⟦0⟧ this block results in ⟦1⟧, not ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "gsf2tv",
+   "en": "{ value = 0 add = 2 multiply = 3 }"
+  },
+  {
+   "k": "qzx3j6",
+   "en": "This whole block could be used in any of the short-hand variable operations given above. For example:"
+  },
+  {
+   "k": "1jzb3ow",
+   "en": "For the boolean functions, ⟦0⟧ is considered ⟦1⟧, with ⟦2⟧ considered ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "lk2v39",
+   "en": "true"
+  },
+  {
+   "k": "324swo",
+   "en": "false"
+  },
+  {
+   "k": "1diben7",
+   "en": "⟦0⟧ results in ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "19bal3p",
+   "en": "{ value = 10 less_than = 3 }"
+  },
+  {
+   "k": "10ldjue",
+   "en": "Math functions"
+  },
+  {
+   "k": "1raozdp",
+   "en": "Below is the list of all existing math functions in the game."
+  },
+  {
+   "k": "19pifzz",
+   "en": "Returns 1 if the accumulator is less than the value, otherwise 0."
+  },
+  {
+   "k": "1uoh3yi",
+   "en": "{ value = 2 less_than = 10 }"
+  },
+  {
+   "k": "1th7oi4",
+   "en": "Returns 1 if the accumulator is greater than the value, otherwise 0."
+  },
+  {
+   "k": "4ztnw1",
+   "en": "{ value = 2 greater_than = 10 }"
+  },
+  {
+   "k": "gfk7lg",
+   "en": "add"
+  },
+  {
+   "k": "1rytp5x",
+   "en": "Adds a value to the accumulator."
+  },
+  {
+   "k": "kvaysg",
+   "en": "{ value = 2 add = 10 }"
+  },
+  {
+   "k": "47gkh2",
+   "en": "and"
+  },
+  {
+   "k": "1ltenaz",
+   "en": "Returns 1 if both the accumulator and the value are non-zero, otherwise 0."
+  },
+  {
+   "k": "h5l119",
+   "en": "{ value = 1 and = 1 }"
+  },
+  {
+   "k": "1sn8hr",
+   "en": "atan"
+  },
+  {
+   "k": "itpfp0",
+   "en": "Sets the accumulator to the arctangent of itself. The result is expressed in radians."
+  },
+  {
+   "k": "1gvymls",
+   "en": "{ value = 1 atan = yes }"
+  },
+  {
+   "k": "1veyfod",
+   "en": "This is computed with a numerical approximation and may be off by a few hundredths of a radian. Follow with ⟦0⟧ if you need an exact result.",
+   "frags": 1
+  },
+  {
+   "k": "tvqrif",
+   "en": "round = yes"
+  },
+  {
+   "k": "1ghdud3",
+   "en": "atan2"
+  },
+  {
+   "k": "88ive1",
+   "en": "Sets the accumulator to the quadrant-aware arctangent atan2(y, x), where the accumulator is y and the value is x. The result is expressed in radians."
+  },
+  {
+   "k": "16lm2pc",
+   "en": "{ value = 1 atan2 = 1 }"
+  },
+  {
+   "k": "vx1zua",
+   "en": "This is computed with a numerical approximation and may be off by a few hundredths of a radian; follow with ⟦0⟧ if you need an exact result. The degenerate case atan2(0, 0) returns roughly pi/2 rather than 0.",
+   "frags": 1
+  },
+  {
+   "k": "1anxscc",
+   "en": "clamp"
+  },
+  {
+   "k": "zeyznx",
+   "en": "Clamps the accumulator between a minimum and maximum bound. Note that arguments are order sensitive."
+  },
+  {
+   "k": "11p6hn8",
+   "en": "{ value = num_units clamp = { min = 0 max = 100 } }"
+  },
+  {
+   "k": "1xspdwc",
+   "en": "cos"
+  },
+  {
+   "k": "7il5pi",
+   "en": "Sets the accumulator to the cosine of itself. The angle is expressed in radians."
+  },
+  {
+   "k": "ybtuwg",
+   "en": "{ value = 0 cos = yes }"
+  },
+  {
+   "k": "r04c4w",
+   "en": "divide"
+  },
+  {
+   "k": "1frxq9r",
+   "en": "Divides the accumulator by a value."
+  },
+  {
+   "k": "1xd8z4r",
+   "en": "{ value = 100 divide = 5 }"
+  },
+  {
+   "k": "csda76",
+   "en": "Returns 1 if the accumulator equals the value, otherwise 0."
+  }
+ ]
+}

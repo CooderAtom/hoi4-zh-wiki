@@ -1,0 +1,3516 @@
+{
+ "batch": 777,
+ "pages": [
+  "List of commanders (base game)"
+ ],
+ "chars": 14994,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "6e66en",
+   "en": "For a list of commanders available with all DLC enabled, see ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "14yg6xr",
+   "en": "This is a list of all predefined ⟦0⟧ in the base game (no ⟦1⟧ enabled).",
+   "frags": 2
+  },
+  {
+   "k": "1jukle",
+   "en": "commanders"
+  },
+  {
+   "k": "8n4wne",
+   "en": "DLC"
+  },
+  {
+   "k": "1d5dplm",
+   "en": "Field Marshals"
+  },
+  {
+   "k": "1diicx",
+   "en": "Country"
+  },
+  {
+   "k": "4el6o6",
+   "en": "Name"
+  },
+  {
+   "k": "v0wv6e",
+   "en": "Skill"
+  },
+  {
+   "k": "nh58l5",
+   "en": "ATK"
+  },
+  {
+   "k": "kjr0rw",
+   "en": "DEF"
+  },
+  {
+   "k": "1w8lded",
+   "en": "PLN"
+  },
+  {
+   "k": "1hvir75",
+   "en": "LOG"
+  },
+  {
+   "k": "1lyzbjc",
+   "en": "Traits"
+  },
+  {
+   "k": "1k16eyz",
+   "en": "Albania"
+  },
+  {
+   "k": "pc46q2",
+   "en": "Xhemal Aranitasi"
+  },
+  {
+   "k": "1kqa232",
+   "en": "Argentina"
+  },
+  {
+   "k": "1x2eb08",
+   "en": "Arturo Rawson"
+  },
+  {
+   "k": "1xvsbq0",
+   "en": "Defensive Doctrine"
+  },
+  {
+   "k": "1lvj7n4",
+   "en": "Aussa"
+  },
+  {
+   "k": "8h42yl",
+   "en": "Mohamed Yayyo"
+  },
+  {
+   "k": "1weh2rw",
+   "en": "Politically Connected"
+  },
+  {
+   "k": "694bf5",
+   "en": "Irregulars Officer"
+  },
+  {
+   "k": "12zjhif",
+   "en": "Bavaria"
+  },
+  {
+   "k": "1h3h1kp",
+   "en": "Ruprecht von Wittelsbach"
+  },
+  {
+   "k": "1x2th0r",
+   "en": "Old Guard"
+  },
+  {
+   "k": "2k6fxv",
+   "en": "Thorough Planner"
+  },
+  {
+   "k": "13de2m2",
+   "en": "Organizer"
+  },
+  {
+   "k": "1vkuk80",
+   "en": "Böhmen-Mähren"
+  },
+  {
+   "k": "trcu3b",
+   "en": "Erich Friderici"
+  },
+  {
+   "k": "3d4d3s",
+   "en": "Cautious"
+  },
+  {
+   "k": "wvqx9y",
+   "en": "Infantry Officer"
+  },
+  {
+   "k": "1g27va4",
+   "en": "Bulgaria"
+  },
+  {
+   "k": "1wgfvbq",
+   "en": "Georgi Nikolov Popov"
+  },
+  {
+   "k": "psd8fv",
+   "en": "Canada"
+  },
+  {
+   "k": "k9s3oo",
+   "en": "Charles Foulkes"
+  },
+  {
+   "k": "15auucw",
+   "en": "China"
+  },
+  {
+   "k": "1tiqne1",
+   "en": "Hsueh Yueh"
+  },
+  {
+   "k": "15qy6tm",
+   "en": "Brilliant Strategist"
+  },
+  {
+   "k": "129xsyn",
+   "en": "Reckless"
+  },
+  {
+   "k": "13acxkb",
+   "en": "War Hero"
+  },
+  {
+   "k": "et0ihq",
+   "en": "Offensive Doctrine"
+  },
+  {
+   "k": "g5xma4",
+   "en": "Zhang Xueliang"
+  },
+  {
+   "k": "8eaarh",
+   "en": "Communist China"
+  },
+  {
+   "k": "12krrr7",
+   "en": "Mao Zedong"
+  },
+  {
+   "k": "1kmbsam",
+   "en": "Croatia"
+  },
+  {
+   "k": "16x0n5f",
+   "en": "Ante Pavelić"
+  },
+  {
+   "k": "6k57hk",
+   "en": "Harsh Leader"
+  },
+  {
+   "k": "176n750",
+   "en": "Slavko Kvaternik"
+  },
+  {
+   "k": "hjh5mx",
+   "en": "Aggressive Assaulter"
+  },
+  {
+   "k": "16bk97p",
+   "en": "Czechoslovakia"
+  },
+  {
+   "k": "9b8iew",
+   "en": "Josef Šnejdárek"
+  },
+  {
+   "k": "jolq55",
+   "en": "Desert Fox"
+  },
+  {
+   "k": "ilelco",
+   "en": "Vojtěch Luža"
+  },
+  {
+   "k": "1vnv057",
+   "en": "Fast Planner"
+  },
+  {
+   "k": "1ett6es",
+   "en": "Don Host"
+  },
+  {
+   "k": "1j7klop",
+   "en": "Vladimir Sidorin"
+  },
+  {
+   "k": "16f4jqy",
+   "en": "Cavalry Leader"
+  },
+  {
+   "k": "1e9s0zk",
+   "en": "Ranger"
+  },
+  {
+   "k": "1m2w1ti",
+   "en": "Dutch East Indies"
+  },
+  {
+   "k": "1d4su01",
+   "en": "Hein ter Poorten"
+  },
+  {
+   "k": "1gou7vh",
+   "en": "Loyalty to the Netherlands"
+  },
+  {
+   "k": "1jeaown",
+   "en": "Logistics Wizard"
+  },
+  {
+   "k": "rkh2c5",
+   "en": "Charismatic"
+  },
+  {
+   "k": "m59cub",
+   "en": "Finland"
+  },
+  {
+   "k": "1d3ugmk",
+   "en": "Carl G. Mannerheim"
+  },
+  {
+   "k": "1qmzjtt",
+   "en": "Inflexible Strategist"
+  },
+  {
+   "k": "96se8g",
+   "en": "Trickster"
+  },
+  {
+   "k": "1o90qwd",
+   "en": "Winter Specialist"
+  },
+  {
+   "k": "y6f35m",
+   "en": "France"
+  },
+  {
+   "k": "1dlh7jb",
+   "en": "Alphonse Georges"
+  },
+  {
+   "k": "1q1pnp3",
+   "en": "Antoine-Marie-Benoît Besson"
+  },
+  {
+   "k": "co3lfe",
+   "en": "Maurice Gamelin"
+  },
+  {
+   "k": "wriekt",
+   "en": "Career Officer"
+  },
+  {
+   "k": "1hoxpwf",
+   "en": "Maxime Weygand"
+  },
+  {
+   "k": "3btncf",
+   "en": "Georgia"
+  },
+  {
+   "k": "i87c38",
+   "en": "German Reich"
+  },
+  {
+   "k": "z9knx7",
+   "en": "Giorgi Kvinitadze"
+  },
+  {
+   "k": "xu43c1",
+   "en": "Infantry Leader"
+  },
+  {
+   "k": "1osi40",
+   "en": "August von Mackensen"
+  },
+  {
+   "k": "1okj3i4",
+   "en": "Organization First"
+  },
+  {
+   "k": "1m8rlmn",
+   "en": "Heinrich Himmler"
+  },
+  {
+   "k": "1itjkbk",
+   "en": "Militia Officer"
+  },
+  {
+   "k": "6oza17",
+   "en": "Werner von Blomberg"
+  },
+  {
+   "k": "ie2c7b",
+   "en": "Guangxi Clique"
+  },
+  {
+   "k": "d72jxf",
+   "en": "Li Zongren"
+  },
+  {
+   "k": "1m4t2m9",
+   "en": "Hungary"
+  },
+  {
+   "k": "uyxjmc",
+   "en": "Ferenc Feketehalmy-Czeydner"
+  },
+  {
+   "k": "eg9p8s",
+   "en": "Italy"
+  },
+  {
+   "k": "10mpptj",
+   "en": "Benito Mussolini"
+  },
+  {
+   "k": "1ce0kbr",
+   "en": "Media Personality"
+  },
+  {
+   "k": "1wdctk3",
+   "en": "Emilio De Bono"
+  },
+  {
+   "k": "19d8hue",
+   "en": "Italo Balbo"
+  },
+  {
+   "k": "17kgsl7",
+   "en": "Pietro Badoglio"
+  },
+  {
+   "k": "1rrsk9b",
+   "en": "Rodolfo Graziani"
+  },
+  {
+   "k": "193rgu3",
+   "en": "Japan"
+  },
+  {
+   "k": "123pu0x",
+   "en": "Prince Kan'in Kotohito"
+  },
+  {
+   "k": "1e6gk91",
+   "en": "Royal Lineage"
+  },
+  {
+   "k": "43gpw",
+   "en": "Samurai Lineage"
+  },
+  {
+   "k": "71q0hn",
+   "en": "Prince Nashimoto Morimasa"
+  },
+  {
+   "k": "190e9zl",
+   "en": "Yasuhito"
+  },
+  {
+   "k": "1ilees",
+   "en": "Kuban Host"
+  },
+  {
+   "k": "1j6vquw",
+   "en": "Ivanis Vasily Nikolaevich"
+  },
+  {
+   "k": "tl74bz",
+   "en": "Hill Fighter"
+  },
+  {
+   "k": "f7eloq",
+   "en": "Kurdistan"
+  },
+  {
+   "k": "1g7236l",
+   "en": "Îhsan Nûrî Paşa"
+  },
+  {
+   "k": "1doti4n",
+   "en": "Commando"
+  },
+  {
+   "k": "15sv9hw",
+   "en": "Unyielding Defender"
+  },
+  {
+   "k": "wa1w6w",
+   "en": "Kuwait"
+  },
+  {
+   "k": "m5znj7",
+   "en": "Ahmad Al-Jaber Al-Sabah"
+  },
+  {
+   "k": "1jx8yqr",
+   "en": "Cavalry Officer"
+  },
+  {
+   "k": "qej46e",
+   "en": "Latvia"
+  },
+  {
+   "k": "14d6qda",
+   "en": "Mārtiņš Peniķis"
+  },
+  {
+   "k": "2k5pih",
+   "en": "Luxembourg"
+  },
+  {
+   "k": "16wgzkd",
+   "en": "Prince Félix of Luxembourg"
+  },
+  {
+   "k": "ip4qjz",
+   "en": "Mengjiang"
+  },
+  {
+   "k": "gzns7g",
+   "en": "Prince Demchugdongrub"
+  },
+  {
+   "k": "cabrx2",
+   "en": "Mexico"
+  },
+  {
+   "k": "3bq01h",
+   "en": "Lázaro Cárdenas"
+  },
+  {
+   "k": "14ug2x8",
+   "en": "Plutarco E. Calles"
+  },
+  {
+   "k": "19jn664",
+   "en": "Saturino Cedillo Martínez"
+  },
+  {
+   "k": "d0jxyj",
+   "en": "Mongolia"
+  },
+  {
+   "k": "u3plho",
+   "en": "Khorloogiin Choibalsan"
+  },
+  {
+   "k": "rxz7u3",
+   "en": "Netherlands"
+  },
+  {
+   "k": "675tp3",
+   "en": "Henri Winkelman"
+  },
+  {
+   "k": "xah0wx",
+   "en": "Izaak Reijnders"
+  },
+  {
+   "k": "hbescl",
+   "en": "Poland"
+  },
+  {
+   "k": "1b622ws",
+   "en": "Edward Rydz-Śmigły"
+  },
+  {
+   "k": "9tvnzd",
+   "en": "Sanation Right Leader"
+  },
+  {
+   "k": "2ufreq",
+   "en": "Władysław Sikorski"
+  },
+  {
+   "k": "e1xq1g",
+   "en": "Sanation Left Leader"
+  },
+  {
+   "k": "17dojuo",
+   "en": "Romania"
+  },
+  {
+   "k": "17ia2md",
+   "en": "Ion Antonescu"
+  },
+  {
+   "k": "is9n7m",
+   "en": "Petre Dumitrescu"
+  },
+  {
+   "k": "1xpo2pa",
+   "en": "Shanxi"
+  },
+  {
+   "k": "1dh8sfy",
+   "en": "Yan Xishan"
+  },
+  {
+   "k": "i2496q",
+   "en": "Random"
+  },
+  {
+   "k": "1apefkn",
+   "en": "Sinkiang"
+  },
+  {
+   "k": "19h43qr",
+   "en": "Sheng Shicai"
+  },
+  {
+   "k": "1jjpogc",
+   "en": "Soviet Union"
+  },
+  {
+   "k": "t7demj",
+   "en": "Aleksandr Yegorov"
+  },
+  {
+   "k": "lo2m5u",
+   "en": "Iosif Stalin"
+  },
+  {
+   "k": "1kzwe92",
+   "en": "Lev Trotsky"
+  },
+  {
+   "k": "11ol64w",
+   "en": "Kliment Voroshilov"
+  },
+  {
+   "k": "1oxcszq",
+   "en": "Mikhail Tukhachevsky"
+  },
+  {
+   "k": "94y7hg",
+   "en": "Semyon Budyonny"
+  },
+  {
+   "k": "1j5m2yt",
+   "en": "Vasily Blyukher"
+  },
+  {
+   "k": "38tzan",
+   "en": "Turkey"
+  },
+  {
+   "k": "1c20ztb",
+   "en": "Mustafa Kemal Atatürk"
+  },
+  {
+   "k": "1sdukza",
+   "en": "Ukraine"
+  },
+  {
+   "k": "1j849bl",
+   "en": "Mykhailo Pavlenko"
+  },
+  {
+   "k": "vcugn7",
+   "en": "United Kingdom"
+  },
+  {
+   "k": "1tdzgtz",
+   "en": "Alan Brooke"
+  },
+  {
+   "k": "ujerm0",
+   "en": "Bernard Montgomery"
+  },
+  {
+   "k": "7tkm24",
+   "en": "United States"
+  },
+  {
+   "k": "1tpeo47",
+   "en": "Douglas MacArthur"
+  },
+  {
+   "k": "4pkj1y",
+   "en": "Xibei San Ma"
+  },
+  {
+   "k": "1bfgi76",
+   "en": "Ma Bufang"
+  },
+  {
+   "k": "1wgklhv",
+   "en": "Yugoslavia"
+  },
+  {
+   "k": "dv65u1",
+   "en": "Danilo Kalafatović"
+  },
+  {
+   "k": "1lkbbhs",
+   "en": "Milutin Nedić"
+  },
+  {
+   "k": "146yn1s",
+   "en": "Yunnan"
+  },
+  {
+   "k": "zjwk5f",
+   "en": "Long Yun"
+  },
+  {
+   "k": "1qi1dd4",
+   "en": "Generals"
+  },
+  {
+   "k": "bj54wx",
+   "en": "Afghanistan"
+  },
+  {
+   "k": "yi1v2j",
+   "en": "Sardar Shah Wali Khan"
+  },
+  {
+   "k": "3w3oq4",
+   "en": "Juan Pistarini"
+  },
+  {
+   "k": "1c1903t",
+   "en": "Urban Assault Specialist"
+  },
+  {
+   "k": "12iq3vk",
+   "en": "Fortress Buster"
+  },
+  {
+   "k": "s9z0ix",
+   "en": "Australia"
+  },
+  {
+   "k": "12hyl4v",
+   "en": "Alan Vasey"
+  },
+  {
+   "k": "d7jdw2",
+   "en": "Henry Wynter"
+  },
+  {
+   "k": "d4x1ct",
+   "en": "Horace Robertson"
+  },
+  {
+   "k": "vzr1r9",
+   "en": "Iven Mackay"
+  },
+  {
+   "k": "dde7d5",
+   "en": "John Northcott"
+  },
+  {
+   "k": "11ox2uy",
+   "en": "Armor Officer"
+  },
+  {
+   "k": "1vbtrls",
+   "en": "Leslie Morshead"
+  },
+  {
+   "k": "64fa79",
+   "en": "Thomas Blamey"
+  },
+  {
+   "k": "1nhki0g",
+   "en": "Austria"
+  },
+  {
+   "k": "12mp0xw",
+   "en": "Karl Eglseer"
+  },
+  {
+   "k": "14j9iwm",
+   "en": "Mountaineer"
+  },
+  {
+   "k": "1k95052",
+   "en": "Belgium"
+  },
+  {
+   "k": "kjp007",
+   "en": "M.C.L. Keyaerts"
+  },
+  {
+   "k": "bosivm",
+   "en": "Jaroslav Eminger"
+  },
+  {
+   "k": "zo0mt3",
+   "en": "Brazil"
+  },
+  {
+   "k": "9hzxhk",
+   "en": "Eurico Gaspar Dutra"
+  },
+  {
+   "k": "1x5vs3f",
+   "en": "Mascarenhas de Morais"
+  },
+  {
+   "k": "ew2mrz",
+   "en": "Jungle Rat"
+  },
+  {
+   "k": "fm1xfx",
+   "en": "British Raj"
+  },
+  {
+   "k": "rn9u3n",
+   "en": "Douglas Gracey"
+  },
+  {
+   "k": "dpy68p",
+   "en": "Loyalty to Britain"
+  },
+  {
+   "k": "65e09m",
+   "en": "Skilled Staffer"
+  },
+  {
+   "k": "woujcn",
+   "en": "Frank Messervy"
+  },
+  {
+   "k": "130fs9j",
+   "en": "Jayanto Nath Chaudhuri"
+  },
+  {
+   "k": "xvwdka",
+   "en": "Panzer Leader"
+  },
+  {
+   "k": "uip78z",
+   "en": "Kodandera Madappa Cariappa"
+  },
+  {
+   "k": "1wj55b4",
+   "en": "Kodandera Subayya Thimayya"
+  },
+  {
+   "k": "optmbu",
+   "en": "Lakshmi Sahgal"
+  },
+  {
+   "k": "1aeq9mi",
+   "en": "Noel Beresford-Peirse"
+  },
+  {
+   "k": "189v7x2",
+   "en": "Orde Wingate"
+  },
+  {
+   "k": "1qr72s1",
+   "en": "Vasil Tenev Boydev"
+  },
+  {
+   "k": "1bqn02o",
+   "en": "Bert Hoffmeister"
+  },
+  {
+   "k": "ljfrls",
+   "en": "Percival John Montague"
+  },
+  {
+   "k": "fltg1a",
+   "en": "Thomas Victor Anderson"
+  },
+  {
+   "k": "132rpt6",
+   "en": "Chile"
+  },
+  {
+   "k": "6xlk6r",
+   "en": "Oscar Escudero Otárola"
+  },
+  {
+   "k": "1c6drtv",
+   "en": "Aleksandr Cherepanov"
+  },
+  {
+   "k": "1d83bj1",
+   "en": "Alexander von Falkenhausen"
+  },
+  {
+   "k": "5kpdzg",
+   "en": "Charles Berger"
+  },
+  {
+   "k": "vqn36c",
+   "en": "Fu Zuoyi"
+  },
+  {
+   "k": "14bxpaa",
+   "en": "Gu Zhutong"
+  },
+  {
+   "k": "1t7n1md",
+   "en": "He Yingqin"
+  },
+  {
+   "k": "7b7h2r",
+   "en": "Hu Zongnan"
+  },
+  {
+   "k": "1yfed68",
+   "en": "Joseph Stilwell"
+  },
+  {
+   "k": "11jc889",
+   "en": "Sun Li Jen"
+  },
+  {
+   "k": "gbs9km",
+   "en": "Tai An-lan"
+  },
+  {
+   "k": "22ovdm",
+   "en": "Tu Yu-ming"
+  },
+  {
+   "k": "8rgp4k",
+   "en": "Wang Yao-wu"
+  },
+  {
+   "k": "9uobvs",
+   "en": "Wei Lihuang"
+  },
+  {
+   "k": "ju0lfm",
+   "en": "Zhu Shaoliang"
+  },
+  {
+   "k": "1oqmutr",
+   "en": "Colombia"
+  },
+  {
+   "k": "7xcu80",
+   "en": "Gustavo Rojas Pinilla"
+  },
+  {
+   "k": "15yvpo9",
+   "en": "Chen Yi"
+  },
+  {
+   "k": "9i5ybt",
+   "en": "Lin Biao"
+  },
+  {
+   "k": "1ndj35h",
+   "en": "Peng Dehuai"
+  },
+  {
+   "k": "50bzl9",
+   "en": "Zhu De"
+  },
+  {
+   "k": "z7jjy5",
+   "en": "Miroslav Friedrich Navratil"
+  },
+  {
+   "k": "zqmh6q",
+   "en": "Richard Tesařík"
+  },
+  {
+   "k": "kdy5sh",
+   "en": "Sergej Vojcechovský"
+  },
+  {
+   "k": "itga65",
+   "en": "Denmark"
+  },
+  {
+   "k": "ys1626",
+   "en": "Wilhelm Wain Prior"
+  },
+  {
+   "k": "5oaiwu",
+   "en": "Murk Boerstra"
+  },
+  {
+   "k": "4bedm6",
+   "en": "Ethiopia"
+  },
+  {
+   "k": "5ecd0n",
+   "en": "Seyoum Mengesha"
+  },
+  {
+   "k": "q7pqgy",
+   "en": "Aarne Juutilainen"
+  },
+  {
+   "k": "1w5076d",
+   "en": "Aarne Sihvo"
+  },
+  {
+   "k": "1di1i30",
+   "en": "Aksel Airo"
+  },
+  {
+   "k": "17rt3lh",
+   "en": "Erik Heinrichs"
+  },
+  {
+   "k": "1o0ziqq",
+   "en": "Veteran Jaeger"
+  },
+  {
+   "k": "9kd2l3",
+   "en": "Erkki Raappana"
+  },
+  {
+   "k": "1qt82se",
+   "en": "Skirmisher"
+  },
+  {
+   "k": "7k0dkl",
+   "en": "Fanni Luukkonen"
+  },
+  {
+   "k": "1kvh0d7",
+   "en": "Hannu Hannuksela"
+  },
+  {
+   "k": "7ms6xn",
+   "en": "Hjalmar Siilasvuo"
+  },
+  {
+   "k": "1tbmq7s",
+   "en": "Engineer"
+  },
+  {
+   "k": "162dvvf",
+   "en": "Scavenger"
+  },
+  {
+   "k": "1qqbgw9",
+   "en": "Juho Heiskanen"
+  },
+  {
+   "k": "vzzr2l",
+   "en": "Karl Oesch"
+  },
+  {
+   "k": "1ds5erg",
+   "en": "Matti Aarnio"
+  },
+  {
+   "k": "1vjrkjl",
+   "en": "Paavo Talvela"
+  },
+  {
+   "k": "1fifdw1",
+   "en": "Ruben Lagus"
+  },
+  {
+   "k": "4zv2dm",
+   "en": "Taavetti Laatikainen"
+  },
+  {
+   "k": "r86ar0",
+   "en": "Vilho Petter Nenonen"
+  },
+  {
+   "k": "1yiad7v",
+   "en": "Wiljo Einar Tuompo"
+  },
+  {
+   "k": "u0fqmx",
+   "en": "Woldemar Hägglund"
+  },
+  {
+   "k": "1p75e99",
+   "en": "Alphonse Juin"
+  },
+  {
+   "k": "1qu0nc8",
+   "en": "Charles De Gaulle"
+  },
+  {
+   "k": "qp9ycx",
+   "en": "Charles Huntziger"
+  },
+  {
+   "k": "7r6l7x",
+   "en": "Gaston-Henri Billotte"
+  },
+  {
+   "k": "185j613",
+   "en": "Henri Giraud"
+  },
+  {
+   "k": "vxwr2y",
+   "en": "Henry Freydenberg"
+  },
+  {
+   "k": "1kzj7yl",
+   "en": "Jean de Lattre de Tassigny"
+  },
+  {
+   "k": "soe3cm",
+   "en": "Philippe Leclerc"
+  },
+  {
+   "k": "1e6f5wd",
+   "en": "René Olry"
+  },
+  {
+   "k": "1t3jney",
+   "en": "Shalva Maglakelidze"
+  },
+  {
+   "k": "61d8u8",
+   "en": "Albert Kesselring"
+  },
+  {
+   "k": "1wzusto",
+   "en": "Alfred Jodl"
+  },
+  {
+   "k": "bozx7m",
+   "en": "Andrey Shkuro"
+  },
+  {
+   "k": "x6h0kh",
+   "en": "Bronislaw Kaminski"
+  },
+  {
+   "k": "1cghve2",
+   "en": "Erich von Manstein"
+  },
+  {
+   "k": "1v6aauq",
+   "en": "Ernst-Eberhard Hell"
+  },
+  {
+   "k": "62psb0",
+   "en": "Erwin Rommel"
+  },
+  {
+   "k": "n6wctd",
+   "en": "Erwin von Witzleben"
+  },
+  {
+   "k": "e0m1i3",
+   "en": "Ewald von Kleist"
+  },
+  {
+   "k": "436ewb",
+   "en": "Fedor von Bock"
+  },
+  {
+   "k": "y8cw3z",
+   "en": "Felix Steiner"
+  },
+  {
+   "k": "1gwx0yv",
+   "en": "Friedrich Paulus"
+  },
+  {
+   "k": "13cx5m",
+   "en": "Friedrich Schulz"
+  },
+  {
+   "k": "77px7l",
+   "en": "Georg von Küchler"
+  },
+  {
+   "k": "1jrpne9",
+   "en": "Georg-Hans Reinhardt"
+  },
+  {
+   "k": "me9zvz",
+   "en": "Gerd von Rundstedt"
+  },
+  {
+   "k": "1djpoa3",
+   "en": "Gotthard Heinrici"
+  },
+  {
+   "k": "lysxmq",
+   "en": "Günther von Kluge"
+  },
+  {
+   "k": "14hvl0q",
+   "en": "Hans Krebs"
+  },
+  {
+   "k": "13erzeh",
+   "en": "Hasso von Manteuffel"
+  },
+  {
+   "k": "1pdmdny",
+   "en": "Heinz Guderian"
+  },
+  {
+   "k": "1mgr3yj",
+   "en": "Hermann Hoth"
+  },
+  {
+   "k": "yj6xxl",
+   "en": "Johannes Blaskowitz"
+  },
+  {
+   "k": "1t1cvm0",
+   "en": "Konstantin Voskoboinik"
+  },
+  {
+   "k": "yof1h0",
+   "en": "Kurt Student"
+  },
+  {
+   "k": "7ap2k2",
+   "en": "Maximilian von Weichs"
+  },
+  {
+   "k": "1n54xzo",
+   "en": "Oswald Lutz"
+  },
+  {
+   "k": "1h0bkbn",
+   "en": "Combined Arms Expert"
+  },
+  {
+   "k": "1qywwek",
+   "en": "Paul Hausser"
+  },
+  {
+   "k": "1xw08gg",
+   "en": "Paul von Lettow-Vorbeck"
+  },
+  {
+   "k": "11ncpsd",
+   "en": "Pyotr Krasnov"
+  },
+  {
+   "k": "n7fw37",
+   "en": "Sepp Dietrich"
+  },
+  {
+   "k": "146yh6h",
+   "en": "Walter Krüger"
+  },
+  {
+   "k": "mq8spz",
+   "en": "Walter Model"
+  },
+  {
+   "k": "w57ol1",
+   "en": "Walther Nehring"
+  },
+  {
+   "k": "rinlu4",
+   "en": "Werner von Fritsch"
+  },
+  {
+   "k": "rb8yxd",
+   "en": "Wilhelm List"
+  },
+  {
+   "k": "15vg7z4",
+   "en": "Wilhelm Ritter von Leeb"
+  },
+  {
+   "k": "1kl1wqi",
+   "en": "Greece"
+  },
+  {
+   "k": "n4jtge",
+   "en": "Markos Drakos"
+  },
+  {
+   "k": "hhqqmz",
+   "en": "Bai Chongxi"
+  },
+  {
+   "k": "qnfkqv",
+   "en": "Géza Lakatos"
+  },
+  {
+   "k": "1xa2hox",
+   "en": "Iván Hindy"
+  },
+  {
+   "k": "x3520x",
+   "en": "Károly Beregfy"
+  },
+  {
+   "k": "py5clc",
+   "en": "Lajos Veress"
+  },
+  {
+   "k": "1it1d39",
+   "en": "Iceland"
+  },
+  {
+   "k": "1n2fv2c",
+   "en": "Björn Sveinsson Björnsson"
+  },
+  {
+   "k": "1kjaqb9",
+   "en": "Iran"
+  },
+  {
+   "k": "13uxdoy",
+   "en": "Hasan Arfa"
+  },
+  {
+   "k": "5yh8gs",
+   "en": "Ireland"
+  },
+  {
+   "k": "1iyauaz",
+   "en": "Michael Costello"
+  },
+  {
+   "k": "x7ejol",
+   "en": "Alessandro Pirzio Biroli"
+  },
+  {
+   "k": "1nisf5m",
+   "en": "Alfredo Guzzoni"
+  },
+  {
+   "k": "9x9ln8",
+   "en": "Amedeo Guillet"
+  },
+  {
+   "k": "p9dq8c",
+   "en": "Annibale Bergonzoli"
+  },
+  {
+   "k": "wcgb9v",
+   "en": "Carlo Geloso"
+  },
+  {
+   "k": "vu1wv5",
+   "en": "Carlo Vecchiarelli"
+  },
+  {
+   "k": "eg0h2s",
+   "en": "Ettore Baldassarre"
+  },
+  {
+   "k": "12pn7az",
+   "en": "Ettore Bastico"
+  },
+  {
+   "k": "mlp8zl",
+   "en": "Ezio Rosi"
+  },
+  {
+   "k": "xazmgo",
+   "en": "Francesco Zingales"
+  },
+  {
+   "k": "1lomt2x",
+   "en": "Giovanni Messe"
+  },
+  {
+   "k": "97itig",
+   "en": "Giuseppe Tellera"
+  },
+  {
+   "k": "291kud",
+   "en": "Hamid Idris Awate"
+  },
+  {
+   "k": "1yq4t0m",
+   "en": "Ascari Officer"
+  },
+  {
+   "k": "au5v9l",
+   "en": "Guerilla Fighter"
+  },
+  {
+   "k": "vcq9ai",
+   "en": "Ibrahim Farag Mohammed"
+  },
+  {
+   "k": "rl8kn2",
+   "en": "Invader"
+  },
+  {
+   "k": "7p9abb",
+   "en": "Italo Gariboldi"
+  },
+  {
+   "k": "40o5y6",
+   "en": "Luigi Longo"
+  },
+  {
+   "k": "ev1r2p",
+   "en": "Mario Berti"
+  },
+  {
+   "k": "1bter0o",
+   "en": "Mario Roatta"
+  },
+  {
+   "k": "egk7cc",
+   "en": "Mario Robotti"
+  },
+  {
+   "k": "36acd6",
+   "en": "Mario Vercellino"
+  },
+  {
+   "k": "qiheoc",
+   "en": "Pietro Pintor"
+  },
+  {
+   "k": "1wdm3qg",
+   "en": "Prince Adalberto"
+  },
+  {
+   "k": "iuhxry",
+   "en": "Prince Umberto"
+  },
+  {
+   "k": "1b1w2mn",
+   "en": "Sebastiano Visconti Prasca"
+  },
+  {
+   "k": "je3ch7",
+   "en": "Ubaldo Soddu"
+  },
+  {
+   "k": "aob9kl",
+   "en": "Ugo Cavallero"
+  },
+  {
+   "k": "1hpayt7",
+   "en": "Vittorio Ambrosio"
+  },
+  {
+   "k": "1pywsze",
+   "en": "Akira Mutō"
+  },
+  {
+   "k": "1ir36he",
+   "en": "Harukichi Hyakutake"
+  },
+  {
+   "k": "5rzkha",
+   "en": "Hatazō Adachi"
+  },
+  {
+   "k": "e7lzbj",
+   "en": "Hayao Tada"
+  },
+  {
+   "k": "1kp3wkh",
+   "en": "Hideki Tōjō"
+  },
+  {
+   "k": "133o5sq",
+   "en": "Hideo Iwakuro"
+  },
+  {
+   "k": "1mjs6e1",
+   "en": "Hitoshi Imamura"
+  },
+  {
+   "k": "e4o1aa",
+   "en": "Hisaichi Terauchi"
+  },
+  {
+   "k": "2lax82",
+   "en": "Iwane Matsui"
+  },
+  {
+   "k": "3ttws1",
+   "en": "Jō Iimura"
+  },
+  {
+   "k": "1mecfh2",
+   "en": "Kanji Ishiwara"
+  },
+  {
+   "k": "pq86rr",
+   "en": "Keisuke Fujie"
+  },
+  {
+   "k": "hpz2da",
+   "en": "Kenji Doihara"
+  },
+  {
+   "k": "17r382j",
+   "en": "Substance Abuser"
+  },
+  {
+   "k": "41h8ky",
+   "en": "Kenkichi Ueda"
+  },
+  {
+   "k": "1xnwsso",
+   "en": "Kiichirō Higuchi"
+  },
+  {
+   "k": "1d3m628",
+   "en": "Kuniaki Koiso"
+  },
+  {
+   "k": "10la8ob",
+   "en": "Masaharu Homma"
+  },
+  {
+   "k": "9c8cy7",
+   "en": "Masakazu Kawabe"
+  },
+  {
+   "k": "eqgvp0",
+   "en": "Masanobu Tsuji"
+  },
+  {
+   "k": "xllnbc",
+   "en": "harsh Leader"
+  },
+  {
+   "k": "gq13dc",
+   "en": "Masatane Kanda"
+  },
+  {
+   "k": "95fal",
+   "en": "Michitarō Komatsubara"
+  },
+  {
+   "k": "2mel82",
+   "en": "Naruhiko Higashikuni"
+  },
+  {
+   "k": "zkjr3x",
+   "en": "Otozō Yamada"
+  },
+  {
+   "k": "1ecetwn",
+   "en": "Prince Tsuneyoshi Takeda"
+  },
+  {
+   "k": "yj4gsg",
+   "en": "Prince Yasuhiko Asaka"
+  },
+  {
+   "k": "415vrq",
+   "en": "Rikichi Andō"
+  },
+  {
+   "k": "yr0fn9",
+   "en": "Sadao Araki"
+  },
+  {
+   "k": "1x8m1o6",
+   "en": "Kodoha Sympathiser"
+  },
+  {
+   "k": "ks9m8f",
+   "en": "Seishirō Itagaki"
+  },
+  {
+   "k": "1lu5k42",
+   "en": "Senjūrō Hayashi"
+  },
+  {
+   "k": "15dxex4",
+   "en": "Shigeru Honjō"
+  },
+  {
+   "k": "p6xd47",
+   "en": "Shizuichi Tanaka"
+  },
+  {
+   "k": "e4wnxa",
+   "en": "Shunroku Hata"
+  },
+  {
+   "k": "1t8aouk",
+   "en": "Tadaichi Wakamatsu"
+  },
+  {
+   "k": "chqlmz",
+   "en": "Takashi Sakai"
+  },
+  {
+   "k": "1cd1irv",
+   "en": "Tomoyuki Yamashita"
+  },
+  {
+   "k": "1wdu0iz",
+   "en": "Toshizō Nishio"
+  },
+  {
+   "k": "hc6tds",
+   "en": "Yasuji Okamura"
+  },
+  {
+   "k": "qiaj95",
+   "en": "Yoshijirō Umezu"
+  },
+  {
+   "k": "5ar5tv",
+   "en": "Yoshitoshi Tokugawa"
+  },
+  {
+   "k": "1vb26nq",
+   "en": "Karelia"
+  },
+  {
+   "k": "154msf4",
+   "en": "Jalmari Takkinen"
+  },
+  {
+   "k": "1d92zrf",
+   "en": "Ferzende Begê Hesenî"
+  },
+  {
+   "k": "a0yab3",
+   "en": "Hermanis Buks"
+  },
+  {
+   "k": "1mioy5q",
+   "en": "Guillaume Konsbruck"
+  },
+  {
+   "k": "8gy7fo",
+   "en": "Émile Speller"
+  },
+  {
+   "k": "11tcwh4",
+   "en": "Manchukuo"
+  },
+  {
+   "k": "1m5bck8",
+   "en": "Ma Zhanshan"
+  },
+  {
+   "k": "dg63w6",
+   "en": "Jonjurjab"
+  },
+  {
+   "k": "17b7sag",
+   "en": "Urzhin Garmaev"
+  },
+  {
+   "k": "fh043w",
+   "en": "Winter Expert"
+  },
+  {
+   "k": "1fk03tf",
+   "en": "Yoshiko Kawashima"
+  },
+  {
+   "k": "1609j3i",
+   "en": "Yu Zhishan"
+  },
+  {
+   "k": "110dc4z",
+   "en": "Zhang Haipeng"
+  },
+  {
+   "k": "v0cif9",
+   "en": "Zhang Jinghui"
+  },
+  {
+   "k": "15by6cg",
+   "en": "Altanochir"
+  },
+  {
+   "k": "1azr8io",
+   "en": "Jodbajab"
+  },
+  {
+   "k": "lcdwk4",
+   "en": "Li Shouxin"
+  },
+  {
+   "k": "1bg830i",
+   "en": "Abelardo L. Rodríguez"
+  },
+  {
+   "k": "1imrcsp",
+   "en": "Gildardo Magaña"
+  },
+  {
+   "k": "13872y8",
+   "en": "Heliodoro Charis"
+  },
+  {
+   "k": "jip3hp",
+   "en": "Jesús Degollado Guízar"
+  },
+  {
+   "k": "wmwwx1",
+   "en": "José Gonzalo Escobar"
+  },
+  {
+   "k": "1kwxo12",
+   "en": "Luis Farell"
+  },
+  {
+   "k": "fzrhi4",
+   "en": "Manuel Ávila Camacho"
+  },
+  {
+   "k": "151idhz",
+   "en": "Manuel Pérez Treviño"
+  },
+  {
+   "k": "1sqawtb",
+   "en": "Pablo Gonzáles Garza"
+  },
+  {
+   "k": "1hrf68z",
+   "en": "Montenegro"
+  },
+  {
+   "k": "w4jr0j",
+   "en": "Blažo Đukanović"
+  },
+  {
+   "k": "1aac4x0",
+   "en": "Blažo Jovanović"
+  },
+  {
+   "k": "ydremy",
+   "en": "Krsto Popović"
+  },
+  {
+   "k": "1qbznnl",
+   "en": "Fanny Schoonheyt"
+  },
+  {
+   "k": "1szst9n",
+   "en": "Godfried van Voorst tot Voorst"
+  },
+  {
+   "k": "7saaja",
+   "en": "Petrus Wilhelmus Best"
+  },
+  {
+   "k": "1f8ucbz",
+   "en": "Prins Bernhard"
+  },
+  {
+   "k": "9y7am8",
+   "en": "New Zealand"
+  },
+  {
+   "k": "7d0hun",
+   "en": "Bernard Freyberg"
+  },
+  {
+   "k": "qniifh",
+   "en": "Robert Row"
+  },
+  {
+   "k": "11h1jku",
+   "en": "William Stevens"
+  },
+  {
+   "k": "1p64buf",
+   "en": "Norway"
+  },
+  {
+   "k": "1azo9f8",
+   "en": "Carl Gustav Fleischer"
+  },
+  {
+   "k": "k1aab",
+   "en": "Willhelm von Tangen Hansteen"
+  },
+  {
+   "k": "1q3iajg",
+   "en": "Otto Ruge"
+  },
+  {
+   "k": "1flvp0i",
+   "en": "Pakistan"
+  },
+  {
+   "k": "16ib846",
+   "en": "Akbar Khan"
+  },
+  {
+   "k": "nxklnm",
+   "en": "Iftikhar Khan Janjua"
+  },
+  {
+   "k": "jeqqu0",
+   "en": "Muhammad Zia-ul-Haq"
+  },
+  {
+   "k": "vbxw79",
+   "en": "Bolesław Wieniawa-Długoszowski"
+  },
+  {
+   "k": "12pu3wp",
+   "en": "Józef Haller"
+  },
+  {
+   "k": "anmd9g",
+   "en": "Kazimierz Sosnkowski"
+  },
+  {
+   "k": "9hzed7",
+   "en": "Lucjan Żeligowski"
+  },
+  {
+   "k": "r8f8la",
+   "en": "Marian Kukiel"
+  },
+  {
+   "k": "zwzhq",
+   "en": "Roman Abraham"
+  },
+  {
+   "k": "17b6yj",
+   "en": "Stanisław Kopański"
+  },
+  {
+   "k": "tv3gn0",
+   "en": "Stanisław Sosabowski"
+  },
+  {
+   "k": "6vtzr1",
+   "en": "Tadeusz Kutrzeba"
+  },
+  {
+   "k": "uneyc9",
+   "en": "Wincenty Kowalski"
+  },
+  {
+   "k": "aebdg9",
+   "en": "Witold Pilecki"
+  },
+  {
+   "k": "v51msk",
+   "en": "Władysław Anders"
+  },
+  {
+   "k": "3v5zhz",
+   "en": "Władysław Bortnowski"
+  },
+  {
+   "k": "12e6aht",
+   "en": "Wojtek"
+  },
+  {
+   "k": "12zelvf",
+   "en": "Bearer of Artillery"
+  },
+  {
+   "k": "1bjv03m",
+   "en": "Prussia"
+  },
+  {
+   "k": "1sqjikv",
+   "en": "Prince Eitel Friedrich"
+  },
+  {
+   "k": "1h66gzw",
+   "en": "Barbu Paraianu"
+  },
+  {
+   "k": "1ifxcpt",
+   "en": "Constantin Sanatescu"
+  },
+  {
+   "k": "mld4eo",
+   "en": "Infantry Expert"
+  },
+  {
+   "k": "89olej",
+   "en": "Gheorghe Avramescu"
+  },
+  {
+   "k": "190ol3b",
+   "en": "Ioan Mihail Racovita"
+  },
+  {
+   "k": "10rorld",
+   "en": "Wang Jingguo"
+  },
+  {
+   "k": "1q90m7n",
+   "en": "Chiang Yu-fen"
+  },
+  {
+   "k": "1lt51ah",
+   "en": "Slovakia"
+  },
+  {
+   "k": "lmik07",
+   "en": "Jozef Turanec"
+  },
+  {
+   "k": "1ckcs88",
+   "en": "South Africa"
+  },
+  {
+   "k": "8pmtqt",
+   "en": "George Edwin Brink"
+  },
+  {
+   "k": "oy7iha",
+   "en": "Aleksandr Gorbatov"
+  },
+  {
+   "k": "xl5nud",
+   "en": "Aleksandr Vasilevsky"
+  },
+  {
+   "k": "15mz6b3",
+   "en": "Andrey Grechko"
+  },
+  {
+   "k": "14dzywc",
+   "en": "Andrey Yeryomenko"
+  },
+  {
+   "k": "vfpgqf",
+   "en": "Boris Shaposhnikov"
+  },
+  {
+   "k": "anc933",
+   "en": "Dmitry Lelyushenko"
+  },
+  {
+   "k": "zvcbnj",
+   "en": "Enrique Líster"
+  },
+  {
+   "k": "fr06mg",
+   "en": "Filipp Golikov"
+  },
+  {
+   "k": "17oeolo",
+   "en": "Georgy Zakharov"
+  },
+  {
+   "k": "sxo4in",
+   "en": "Georgy Zhukov"
+  },
+  {
+   "k": "1nceopg",
+   "en": "Grigory Kulik"
+  },
+  {
+   "k": "nb8hl2",
+   "en": "Issa Pliyev"
+  },
+  {
+   "k": "cg1mf0",
+   "en": "Ivan Chernyakhovsky"
+  },
+  {
+   "k": "fopi1y",
+   "en": "Ivan Fedyuninsky"
+  },
+  {
+   "k": "13howu",
+   "en": "Ivan Konev"
+  },
+  {
+   "k": "dscofq",
+   "en": "Kirill Meretskov"
+  },
+  {
+   "k": "1qdnyl2",
+   "en": "Kirill Moskalenko"
+  },
+  {
+   "k": "cxxi8d",
+   "en": "Konstantin Rokossovsky"
+  },
+  {
+   "k": "1wtzfer",
+   "en": "Kuzma Galitsky"
+  },
+  {
+   "k": "1bmj0ei",
+   "en": "Leonid Govorov"
+  },
+  {
+   "k": "1x4obx5",
+   "en": "Lev Dovator"
+  },
+  {
+   "k": "1cz1hr0",
+   "en": "Maks Reyter"
+  },
+  {
+   "k": "tqfas0",
+   "en": "Maksim Purkayev"
+  },
+  {
+   "k": "xxfonu",
+   "en": "Markian Popov"
+  },
+  {
+   "k": "1c7ncgt",
+   "en": "Nikandr Chibisov"
+  },
+  {
+   "k": "vwak81",
+   "en": "Nikolay Berzarin"
+  },
+  {
+   "k": "16bht8x",
+   "en": "Nikolay Vatutin"
+  },
+  {
+   "k": "wcmu1z",
+   "en": "Pavel Rybalko"
+  },
+  {
+   "k": "drbd4v",
+   "en": "Panzer Expert"
+  },
+  {
+   "k": "13xx7et",
+   "en": "Rodion Malinovsky"
+  },
+  {
+   "k": "75uddf",
+   "en": "Semyon Timoshenko"
+  },
+  {
+   "k": "1p4ipum",
+   "en": "Sidor Kovpak"
+  },
+  {
+   "k": "1671b50",
+   "en": "Vasily Chuykov"
+  },
+  {
+   "k": "czoqc5",
+   "en": "Vasily Korzh"
+  },
+  {
+   "k": "lahim4",
+   "en": "Vasily Kuznetsov"
+  },
+  {
+   "k": "10s7z0h",
+   "en": "Vitaly Primakov"
+  },
+  {
+   "k": "1lj4yvt",
+   "en": "Yakov Cherevichenko"
+  },
+  {
+   "k": "r0zck1",
+   "en": "Andrey Vlasov"
+  },
+  {
+   "k": "19z080z",
+   "en": "Republican Spain"
+  },
+  {
+   "k": "1pyo70n",
+   "en": "José Asensio Torrado"
+  },
+  {
+   "k": "17s5uor",
+   "en": "Vicente Rojo Lluch"
+  },
+  {
+   "k": "1he15ql",
+   "en": "Sweden"
+  },
+  {
+   "k": "12dipi0",
+   "en": "Erik af Edholm"
+  },
+  {
+   "k": "1nb7swn",
+   "en": "Folke Högberg"
+  },
+  {
+   "k": "1787j8i",
+   "en": "Switzerland"
+  },
+  {
+   "k": "1633ybk",
+   "en": "Henri Guisan"
+  },
+  {
+   "k": "1gxg1qt",
+   "en": "Tibet"
+  },
+  {
+   "k": "67579s",
+   "en": "Tsarong Dasang Dramdul"
+  },
+  {
+   "k": "178nku9",
+   "en": "Cemil Cahit Toydemir"
+  },
+  {
+   "k": "1n705gs",
+   "en": "Nazmi Solok"
+  },
+  {
+   "k": "zqj57n",
+   "en": "Salih Omurtak"
+  },
+  {
+   "k": "1slro8h",
+   "en": "Pavlo Shandruk"
+  },
+  {
+   "k": "ewmupj",
+   "en": "Alan Cunningham"
+  },
+  {
+   "k": "1vffopa",
+   "en": "Archibald Wavell"
+  },
+  {
+   "k": "68xrmd",
+   "en": "Arthur Percival"
+  },
+  {
+   "k": "hdcots",
+   "en": "Brian Horrocks"
+  },
+  {
+   "k": "1s4lx96",
+   "en": "Claude Auchinleck"
+  },
+  {
+   "k": "vgt7s5",
+   "en": "George Giffard"
+  },
+  {
+   "k": "1n4dhzr",
+   "en": "Harold Alexander"
+  },
+  {
+   "k": "f9l1zm",
+   "en": "Henry Pownall"
+  },
+  {
+   "k": "1gy2slv",
+   "en": "Henry Wilson"
+  },
+  {
+   "k": "11n10is",
+   "en": "Jack Churchill"
+  },
+  {
+   "k": "46h3f2",
+   "en": "Inspirational Bagpiper"
+  },
+  {
+   "k": "z81v2n",
+   "en": "Jackie Smyth"
+  },
+  {
+   "k": "12umiro",
+   "en": "Jock Campbell"
+  },
+  {
+   "k": "7x10li",
+   "en": "John Vereker"
+  },
+  {
+   "k": "1ncv9d1",
+   "en": "Merton Beckwith-Smith"
+  },
+  {
+   "k": "1hn5tl0",
+   "en": "Miles Dempsey"
+  },
+  {
+   "k": "80menn",
+   "en": "Neil Ritchie"
+  },
+  {
+   "k": "186478g",
+   "en": "Oliver Leese"
+  },
+  {
+   "k": "8suaxp",
+   "en": "Richard O'Connor"
+  },
+  {
+   "k": "1cfwpg3",
+   "en": "Thomas Jacomb Hutton"
+  },
+  {
+   "k": "183nn87",
+   "en": "Tom Moore"
+  },
+  {
+   "k": "1hzc3ts",
+   "en": "William Gott"
+  },
+  {
+   "k": "1tnhq39",
+   "en": "William Platt"
+  },
+  {
+   "k": "1c4e7i3",
+   "en": "William Slim"
+  },
+  {
+   "k": "jsulmf",
+   "en": "Alexander Patch"
+  },
+  {
+   "k": "q1eodb",
+   "en": "Alexander Vandegrift"
+  },
+  {
+   "k": "1236lgb",
+   "en": "Clarence Huebner"
+  },
+  {
+   "k": "6fhhpg",
+   "en": "Courtney Hodges"
+  },
+  {
+   "k": "1x8iu5r",
+   "en": "Dwight D. Eisenhower"
+  },
+  {
+   "k": "591svm",
+   "en": "Edward Brooks"
+  },
+  {
+   "k": "e5y2c4",
+   "en": "Fritz Kuhn"
+  },
+  {
+   "k": "8ufg59",
+   "en": "Geoffrey Keyes"
+  },
+  {
+   "k": "c1wfh1",
+   "en": "George S. Patton"
+  },
+  {
+   "k": "bgz7ys",
+   "en": "J. Lawton Collins"
+  },
+  {
+   "k": "y4u92q",
+   "en": "Jonathan Wainwright"
+  },
+  {
+   "k": "1se9zvg",
+   "en": "Leonard Gerow"
+  },
+  {
+   "k": "obiflf",
+   "en": "Leslie McNair"
+  },
+  {
+   "k": "13vyojk",
+   "en": "Lloyd Fredendall"
+  },
+  {
+   "k": "1rwvexf",
+   "en": "Lucian Truscott"
+  },
+  {
+   "k": "o64svt",
+   "en": "Mark Clark"
+  },
+  {
+   "k": "1pjrri",
+   "en": "Maurice Rose"
+  },
+  {
+   "k": "zz25l7",
+   "en": "Omar Bradley"
+  },
+  {
+   "k": "8z4sya",
+   "en": "Oscar Griswold"
+  },
+  {
+   "k": "1vkvd69",
+   "en": "Russell Hartle"
+  },
+  {
+   "k": "16pzxpd",
+   "en": "Walter Krueger"
+  },
+  {
+   "k": "mduwhl",
+   "en": "William Simpson"
+  },
+  {
+   "k": "1wmcf9s",
+   "en": "Ma Hongbin"
+  },
+  {
+   "k": "zisyda",
+   "en": "Boris Shteifon"
+  },
+  {
+   "k": "14i0xqo",
+   "en": "Ivan Gošnjak"
+  },
+  {
+   "k": "1grvdz0",
+   "en": "Josef Depre"
+  },
+  {
+   "k": "w0c7fi",
+   "en": "Petar Kosić"
+  },
+  {
+   "k": "1f1l0yb",
+   "en": "Vasily Flug"
+  },
+  {
+   "k": "jrjc34",
+   "en": "Vladimir Čukavac"
+  },
+  {
+   "k": "1uqhdlx",
+   "en": "Lu Han"
+  },
+  {
+   "k": "12umigm",
+   "en": "Dubious Loyalty"
+  },
+  {
+   "k": "1fjqwe2",
+   "en": "Admirals"
+  },
+  {
+   "k": "ne8ixo",
+   "en": "MNV"
+  },
+  {
+   "k": "hlch8v",
+   "en": "COR"
+  },
+  {
+   "k": "bej8jb",
+   "en": "Harold Farncomb"
+  },
+  {
+   "k": "1ubgxsz",
+   "en": "Gunnery Expert"
+  },
+  {
+   "k": "n4cjlh",
+   "en": "Victor Crutchley"
+  },
+  {
+   "k": "j9uidy",
+   "en": "Bold"
+  },
+  {
+   "k": "hpuggc",
+   "en": "Georges Timmermans"
+  },
+  {
+   "k": "vcu963",
+   "en": "Augusto Rademaker"
+  },
+  {
+   "k": "1ly2hza",
+   "en": "Herbert Fitzherbert"
+  },
+  {
+   "k": "q1iygs",
+   "en": "H.T. Baillie-Grohman"
+  },
+  {
+   "k": "11ewvgo",
+   "en": "Spotter"
+  },
+  {
+   "k": "1sot9dg",
+   "en": "Harry DeWolf"
+  },
+  {
+   "k": "wpj8xu",
+   "en": "Superior Tactician"
+  },
+  {
+   "k": "kah5kf",
+   "en": "James D. Prentice"
+  },
+  {
+   "k": "ikzm0f",
+   "en": "Leonard W. Murray"
+  },
+  {
+   "k": "ir08p",
+   "en": "Đuro Jakčin"
+  },
+  {
+   "k": "wmu8po",
+   "en": "Blockade Runner"
+  },
+  {
+   "k": "10rklwx",
+   "en": "Karel Pavala"
+  },
+  {
+   "k": "16a3twm",
+   "en": "Inshore Fighter"
+  },
+  {
+   "k": "87ktec",
+   "en": "Ragnar Hakola"
+  },
+  {
+   "k": "1rqlqne",
+   "en": "Svante Sundman"
+  },
+  {
+   "k": "e9bj9k",
+   "en": "Cold Water Expert"
+  },
+  {
+   "k": "atjj8y",
+   "en": "François Darlan"
+  },
+  {
+   "k": "1bv6w06",
+   "en": "Naval Lineage"
+  },
+  {
+   "k": "ii07m7",
+   "en": "Jean de Laborde"
+  },
+  {
+   "k": "1lq9rf8",
+   "en": "Aviation Enthusiast"
+  },
+  {
+   "k": "17msxi7",
+   "en": "Jean-Marie Charles Abrial"
+  },
+  {
+   "k": "k0nhv7",
+   "en": "Chief Engineer"
+  },
+  {
+   "k": "1jsihr7",
+   "en": "Jean-Pierre Esteva"
+  },
+  {
+   "k": "dwkud8",
+   "en": "René-Émile Godfroy"
+  },
+  {
+   "k": "1wq1ngb",
+   "en": "Gentlemanly"
+  },
+  {
+   "k": "124jgf2",
+   "en": "Battleship Adherent"
+  },
+  {
+   "k": "11waa2p",
+   "en": "Alfred Saalwächter"
+  },
+  {
+   "k": "rr0kyt",
+   "en": "Erich Raeder"
+  },
+  {
+   "k": "1xjg3s9",
+   "en": "Günther Lütjens"
+  },
+  {
+   "k": "1ucoxjf",
+   "en": "Hermann Boehm"
+  },
+  {
+   "k": "14f8fxc",
+   "en": "Craven"
+  },
+  {
+   "k": "brdqqc",
+   "en": "Karl Dönitz"
+  },
+  {
+   "k": "9r32r8",
+   "en": "Sea Wolf"
+  },
+  {
+   "k": "2rqbf3",
+   "en": "Rolf Carls"
+  },
+  {
+   "k": "1oe39z4",
+   "en": "Ironside"
+  },
+  {
+   "k": "9gsmm",
+   "en": "Wilhelm Marschall"
+  },
+  {
+   "k": "19txr7q",
+   "en": "Miklós Horthy"
+  },
+  {
+   "k": "2xp8hl",
+   "en": "Alberto Da Zara"
+  },
+  {
+   "k": "1673aes",
+   "en": "Angelo Iachino"
+  },
+  {
+   "k": "1z0fc1i",
+   "en": "Carlo Bergamini"
+  },
+  {
+   "k": "1wpun9a",
+   "en": "Giuseppe Fioravanzo"
+  },
+  {
+   "k": "170adk1",
+   "en": "Giuseppe di Bartalo"
+  },
+  {
+   "k": "1bpbwnt",
+   "en": "Fleet Protector"
+  },
+  {
+   "k": "kxd9yt",
+   "en": "Inigo Campioni"
+  },
+  {
+   "k": "nbaqt",
+   "en": "Junio Valerio Borghese"
+  },
+  {
+   "k": "1ueikh6",
+   "en": "Cuts Corners"
+  },
+  {
+   "k": "1khayhm",
+   "en": "Silent Hunter"
+  },
+  {
+   "k": "1ilv7l7",
+   "en": "Prince Aimone"
+  },
+  {
+   "k": "1yqwgal",
+   "en": "Chūichi Nagumo"
+  },
+  {
+   "k": "wb4esi",
+   "en": "Lancer"
+  },
+  {
+   "k": "b0ogf2",
+   "en": "Gengo Hyakutake"
+  },
+  {
+   "k": "sx2566",
+   "en": "Hiroaki Abe"
+  },
+  {
+   "k": "8agwai",
+   "en": "Isoroku Yamamoto"
+  },
+  {
+   "k": "1axlctt",
+   "en": "Air Controller"
+  },
+  {
+   "k": "1cl7off",
+   "en": "Flight Deck Manager"
+  },
+  {
+   "k": "xd3i2a",
+   "en": "Jisaburo Ozawa"
+  },
+  {
+   "k": "1ujt7fk",
+   "en": "Kiyoshi Hasegawa"
+  },
+  {
+   "k": "dvghs0",
+   "en": "Masafumi Arima"
+  },
+  {
+   "k": "1t61lkp",
+   "en": "Mineichi Koga"
+  },
+  {
+   "k": "ofqzh7",
+   "en": "Mitsumasa Yonai"
+  },
+  {
+   "k": "x03y5f",
+   "en": "Nobutake Kondō"
+  },
+  {
+   "k": "1rgqnfc",
+   "en": "Fly Swatter"
+  },
+  {
+   "k": "yf56gz",
+   "en": "Shigeyoshi Inoue"
+  },
+  {
+   "k": "1hgrw7m",
+   "en": "Soemu Toyoda"
+  },
+  {
+   "k": "1jy14l9",
+   "en": "Tadashige Daigo"
+  },
+  {
+   "k": "15f53b2",
+   "en": "Takeo Takagi"
+  },
+  {
+   "k": "c0iesq",
+   "en": "Tamon Yamaguchi"
+  },
+  {
+   "k": "viniid",
+   "en": "Teijirō Toyoda"
+  },
+  {
+   "k": "6o9vxb",
+   "en": "Yuzuru Hiraga"
+  },
+  {
+   "k": "12qpszt",
+   "en": "Zengo Yoshida"
+  },
+  {
+   "k": "stuzth",
+   "en": "Heriberto Jara Corona"
+  },
+  {
+   "k": "1fv7ytr",
+   "en": "Othón P. Blanco Núñez de Cáceres"
+  },
+  {
+   "k": "1h2tiid",
+   "en": "Conrad Helfrich"
+  },
+  {
+   "k": "1fbrof3",
+   "en": "Johannes Theodorus Furstner"
+  },
+  {
+   "k": "1oojbfn",
+   "en": "Caustic Personality"
+  },
+  {
+   "k": "1ilfvh8",
+   "en": "Karel Doorman"
+  },
+  {
+   "k": "1yj97ti",
+   "en": "Edmund Rupert Drummond"
+  },
+  {
+   "k": "1i77qkf",
+   "en": "Peter Phipps"
+  },
+  {
+   "k": "10ests0",
+   "en": "Carsten Tank-Nielsen"
+  },
+  {
+   "k": "17ma1nc",
+   "en": "Edgar Otto"
+  },
+  {
+   "k": "7h5e3x",
+   "en": "Elias Corneliussen"
+  },
+  {
+   "k": "19ztsfz",
+   "en": "Henry Diesen"
+  },
+  {
+   "k": "12yk97w",
+   "en": "Mine Craft"
+  },
+  {
+   "k": "p7rxme",
+   "en": "Jakob von der Lippe"
+  },
+  {
+   "k": "1q3p7do",
+   "en": "Big Guns Expert"
+  },
+  {
+   "k": "yokm1w",
+   "en": "Józef Unrug"
+  },
+  {
+   "k": "cqwne2",
+   "en": "Karol Korytowski"
+  },
+  {
+   "k": "1tufjz5",
+   "en": "Stefan Frankowski"
+  },
+  {
+   "k": "1i4v2wz",
+   "en": "Horia Macellariu"
+  },
+  {
+   "k": "1i3jaup",
+   "en": "Guy Hallifax"
+  },
+  {
+   "k": "1gaije2",
+   "en": "Arseny Golovko"
+  },
+  {
+   "k": "1isma5k",
+   "en": "Filipp Oktyabrsky"
+  },
+  {
+   "k": "1l864k7",
+   "en": "Ground Pounder"
+  },
+  {
+   "k": "1jc2kum",
+   "en": "Gordey Levchenko"
+  },
+  {
+   "k": "1jm4hfx",
+   "en": "Green Water Expert"
+  },
+  {
+   "k": "k3ig0l",
+   "en": "Sergey Gorshkov"
+  },
+  {
+   "k": "1frhkvz",
+   "en": "Vladimir Kasatonov"
+  },
+  {
+   "k": "asc3lo",
+   "en": "Claes Lindström"
+  },
+  {
+   "k": "1iivzsw",
+   "en": "Rauf Orbay"
+  },
+  {
+   "k": "tjtiz7",
+   "en": "Algernon Willis"
+  },
+  {
+   "k": "ye5q7a",
+   "en": "Andrew Cunningham"
+  },
+  {
+   "k": "1vulrqc",
+   "en": "Arthur Power"
+  },
+  {
+   "k": "1vo858k",
+   "en": "Bernard Rawlings"
+  },
+  {
+   "k": "wrkhmr",
+   "en": "Bruce Fraser"
+  },
+  {
+   "k": "rlj4a",
+   "en": "Charles Forbes"
+  },
+  {
+   "k": "1tk161f",
+   "en": "Henry Harwood"
+  },
+  {
+   "k": "ssvhw3",
+   "en": "James Fownes Somerville"
+  },
+  {
+   "k": "5faw7i",
+   "en": "John Cunningham"
+  },
+  {
+   "k": "15wz2rj",
+   "en": "John Tovey"
+  },
+  {
+   "k": "1yv16f6",
+   "en": "Arleigh Burke"
+  },
+  {
+   "k": "s1ra09",
+   "en": "Charles M. Cooke, Jr."
+  },
+  {
+   "k": "1gss6tn",
+   "en": "Chester W. Nimitz"
+  },
+  {
+   "k": "1w2751y",
+   "en": "Blue Water Expert"
+  },
+  {
+   "k": "8kaufr",
+   "en": "Ernest King"
+  },
+  {
+   "k": "1fj5c3p",
+   "en": "Frank Jack Fletcher"
+  },
+  {
+   "k": "7bnzda",
+   "en": "Harold Rainsford Stark"
+  },
+  {
+   "k": "mng6xx",
+   "en": "Raymond A. Spruance"
+  },
+  {
+   "k": "1rjha7o",
+   "en": "William Halsey, Jr."
+  },
+  {
+   "k": "oiywys",
+   "en": "Marijan Polić"
+  },
+  {
+   "k": "6xqe3x",
+   "en": "Lists of Characters"
+  },
+  {
+   "k": "1d3wr3i",
+   "en": "Politics"
+  },
+  {
+   "k": "5aye87",
+   "en": "Country leaders"
+  },
+  {
+   "k": "1ty5ouu",
+   "en": "(releasable countries)"
+  },
+  {
+   "k": "76vged",
+   "en": "Political advisors"
+  },
+  {
+   "k": "b9sn92",
+   "en": "Military"
+  },
+  {
+   "k": "1ig6grl",
+   "en": "Aces"
+  },
+  {
+   "k": "16onrvm",
+   "en": "Commanders"
+  },
+  {
+   "k": "1xcyhkn",
+   "en": "(base game)"
+  },
+  {
+   "k": "8bbhts",
+   "en": "Military chiefs"
+  },
+  {
+   "k": "cpkfzz",
+   "en": "Military high command"
+  },
+  {
+   "k": "1kwi6n8",
+   "en": "Theorists"
+  },
+  {
+   "k": "1uk4gev",
+   "en": "Miscellaneous"
+  },
+  {
+   "k": "kqpju7",
+   "en": "Operatives"
+  },
+  {
+   "k": "5i4r46",
+   "en": "Scientists"
+  },
+  {
+   "k": "12yh0f5",
+   "en": "Commander skill.png"
+  },
+  {
+   "k": "ewy7zw",
+   "en": "Trait attack.png"
+  },
+  {
+   "k": "1tou0xa",
+   "en": "Trait defense.png"
+  },
+  {
+   "k": "1rranb1",
+   "en": "Trait planning.png"
+  },
+  {
+   "k": "1gx0dq9",
+   "en": "Trait logistics.png"
+  },
+  {
+   "k": "3247zo",
+   "en": "Flag of Albania"
+  },
+  {
+   "k": "1xlonpd",
+   "en": "Flag of Argentina"
+  },
+  {
+   "k": "iye8w0",
+   "en": "Not available if Communist government type"
+  },
+  {
+   "k": "1ls4eaz",
+   "en": "Flag of Aussa"
+  },
+  {
+   "k": "1n9jlw4",
+   "en": "Only available if Non-Aligned government type"
+  },
+  {
+   "k": "p92kh0",
+   "en": "Flag of Bavaria"
+  },
+  {
+   "k": "1x2kfri",
+   "en": "Only available if Non-Aligned government type."
+  },
+  {
+   "k": "kdhu1g",
+   "en": "Flag of Protektorat Böhmen-Mähren"
+  },
+  {
+   "k": "yxnvct",
+   "en": "Flag of Bulgaria"
+  },
+  {
+   "k": "164fhyy",
+   "en": "Flag of Canada"
+  },
+  {
+   "k": "10c67nv",
+   "en": "Flag of China"
+  },
+  {
+   "k": "1hoeff6",
+   "en": "Flag of Communist China"
+  },
+  {
+   "k": "qlxn29",
+   "en": "Flag of Croatia"
+  },
+  {
+   "k": "f0m5x2",
+   "en": "Only available if country leader"
+  },
+  {
+   "k": "1a9wcn8",
+   "en": "Flag of Czechoslovakia"
+  },
+  {
+   "k": "ppk4jl",
+   "en": "Flag of Don Host"
+  },
+  {
+   "k": "9t4xz9",
+   "en": "Flag of Dutch East Indies"
+  },
+  {
+   "k": "p7yux8",
+   "en": "Flag of Finland"
+  },
+  {
+   "k": "1dbl5b7",
+   "en": "Flag of France"
+  },
+  {
+   "k": "1s9bokk",
+   "en": "Flag of Georgia"
+  },
+  {
+   "k": "yvqz91",
+   "en": "Flag of German Reich"
+  },
+  {
+   "k": "ju3co3",
+   "en": "Only available if Non-Aligned government type and has not yet retired"
+  },
+  {
+   "k": "15oap40",
+   "en": "Available after completing Hegemony of the SS focus"
+  },
+  {
+   "k": "vshl",
+   "en": "Not available after completing Reorganize the Wehrmacht focus"
+  },
+  {
+   "k": "1nlknfu",
+   "en": "Flag of Guangxi Clique"
+  },
+  {
+   "k": "iximbc",
+   "en": "Flag of Kingdom of Hungary"
+  },
+  {
+   "k": "3xiv23",
+   "en": "Flag of Italy"
+  },
+  {
+   "k": "1cqc0cy",
+   "en": "Available after completing Capo Supremo focus"
+  },
+  {
+   "k": "1bxulz",
+   "en": "Only available if Fascist government type"
+  },
+  {
+   "k": "5dkhsc",
+   "en": "Flag of Japan"
+  },
+  {
+   "k": "7gee21",
+   "en": "Flag of Kuban Host"
+  },
+  {
+   "k": "1o28no1",
+   "en": "Flag of Kurdistan"
+  },
+  {
+   "k": "1hl3hg5",
+   "en": "Flag of Kuwait"
+  },
+  {
+   "k": "15aro5j",
+   "en": "Flag of Latvia"
+  },
+  {
+   "k": "1fzgrhw",
+   "en": "Flag of Luxembourg"
+  },
+  {
+   "k": "11otlms",
+   "en": "Flag of Mengjiang"
+  },
+  {
+   "k": "16bu8kb",
+   "en": "Flag of Mexico"
+  },
+  {
+   "k": "teu8y5",
+   "en": "Only available if Jefe Máximo focus is taken"
+  },
+  {
+   "k": "1519uw3",
+   "en": "Only available if Support General Cedillo focus is taken"
+  },
+  {
+   "k": "xa4n4a",
+   "en": "Flag of Mongolia"
+  },
+  {
+   "k": "d9rc0g",
+   "en": "Flag of Netherlands"
+  },
+  {
+   "k": "wu1n0w",
+   "en": "Only available if Appoint New Supreme Commander focus is taken"
+  },
+  {
+   "k": "r0jiw9",
+   "en": "Not available if Appoint New Supreme Commander focus is taken"
+  },
+  {
+   "k": "alp93w",
+   "en": "Flag of Poland"
+  },
+  {
+   "k": "1jfx753",
+   "en": "Flag of Romania"
+  },
+  {
+   "k": "164u4ir",
+   "en": "Flag of Shanxi"
+  },
+  {
+   "k": "1vkg1z9",
+   "en": "Available after completing Personal Leadership focus"
+  },
+  {
+   "k": "163tmdb",
+   "en": "One of either: Old Guard, Brilliant Strategist, Cavalry Officer, Politically Connected, Career Officer, Infantry Officer or War Hero"
+  },
+  {
+   "k": "7l9z9e",
+   "en": "Flag of Sinkiang"
+  },
+  {
+   "k": "mzg8xt",
+   "en": "Flag of Soviet Union"
+  },
+  {
+   "k": "1qwnftj",
+   "en": "Only available if Great Commander focus is taken"
+  },
+  {
+   "k": "hajltx",
+   "en": "Only available if Builder of the Red Army focus is taken"
+  },
+  {
+   "k": "1y90162",
+   "en": "Flag of Turkey"
+  },
+  {
+   "k": "1yzcs6k",
+   "en": "Only available if Recall Atatürk to Active Service decision is taken"
+  },
+  {
+   "k": "1vb2izx",
+   "en": "Flag of Ukraine"
+  },
+  {
+   "k": "bkuboy",
+   "en": "Flag of United Kingdom"
+  },
+  {
+   "k": "1c4evni",
+   "en": "Not available after completing Eliminate the Upper Class focus"
+  },
+  {
+   "k": "x4z41b",
+   "en": "Flag of United States"
+  },
+  {
+   "k": "1iaal83",
+   "en": "Flag of Xibei San Ma"
+  },
+  {
+   "k": "1tdgwj6",
+   "en": "Flag of Yugoslavia"
+  },
+  {
+   "k": "1etp3bt",
+   "en": "Flag of Yunnan"
+  },
+  {
+   "k": "rjqpna",
+   "en": "Flag of Afghanistan"
+  },
+  {
+   "k": "593a6e",
+   "en": "Flag of Australia"
+  },
+  {
+   "k": "1muxhca",
+   "en": "Available after completing Promote Reservists focus"
+  },
+  {
+   "k": "1por3w7",
+   "en": "Flag of Austria"
+  },
+  {
+   "k": "15b6pj9",
+   "en": "Flag of Belgium"
+  },
+  {
+   "k": "1a9voq2",
+   "en": "Flag of Brazil"
+  },
+  {
+   "k": "yucl0u",
+   "en": "Flag of British Raj"
+  },
+  {
+   "k": "3hjcyq",
+   "en": "Not available after entering a war with Britain or if Royal Indian Navy Mutiny focus is completed, unless Keep British Generals was completed before"
+  },
+  {
+   "k": "l41tcu",
+   "en": "Only available after completing An Indian Sandhurst focus"
+  },
+  {
+   "k": "evhfj8",
+   "en": "Available after completing Rani of Jhansi focus"
+  },
+  {
+   "k": "ui52m6",
+   "en": "Available after completing Chindits focus (non-GoE version)"
+  },
+  {
+   "k": "12k9c7l",
+   "en": "Flag of Chile"
+  },
+  {
+   "k": "1axh5sy",
+   "en": "Available after completing Invite Soviet Advisers focus"
+  },
+  {
+   "k": "1uj8q5o",
+   "en": "Available after completing Give Falkenhausen Citizenship focus"
+  },
+  {
+   "k": "henmar",
+   "en": "Available after completing French Military Mission focus"
+  },
+  {
+   "k": "b8ry51",
+   "en": "Only available after completing the focus 'Crackdown on Corruption'"
+  },
+  {
+   "k": "46ul5f",
+   "en": "Available after completing the focus 'Chinese Expeditionary Force' and USA accepts"
+  },
+  {
+   "k": "1u9uw2",
+   "en": "Flag of Colombia"
+  },
+  {
+   "k": "d8by42",
+   "en": "Flag of Denmark"
+  },
+  {
+   "k": "ukkis3",
+   "en": "Flag of Ethiopia"
+  },
+  {
+   "k": "1q2d4g9",
+   "en": "Only available if Non-Aligned government type or completing Amedeo's Feast of Maskal focus"
+  },
+  {
+   "k": "t1xuth",
+   "en": "Available after completing Political Unity, Social-Democracy or Cooperate with Social Democrats focuses and is not Fascist government type"
+  },
+  {
+   "k": "1al06az",
+   "en": "Available after completing Sissi focus"
+  },
+  {
+   "k": "12ftb3s",
+   "en": "Only available after completing Arm the Lotta Svärd focus and is not Communist government type"
+  },
+  {
+   "k": "2mqbul",
+   "en": "Available after completing Jaeger Movement focus"
+  },
+  {
+   "k": "57jq5k",
+   "en": "Available after completing Motti Tactics focus"
+  },
+  {
+   "k": "1nw5y68",
+   "en": "Only available after completing Union of Finnish Brothers in Arms focus and is not Communist government type"
+  },
+  {
+   "k": "lh82bv",
+   "en": "Available after completing National Armor Foucs focus"
+  },
+  {
+   "k": "eqvkhc",
+   "en": "Available after Befriend Japan or Create Asian Reichskommisariats focuses"
+  },
+  {
+   "k": "160hhkf",
+   "en": "Available after completing Ally the Russian White Movement or War With the USSR focuses"
+  },
+  {
+   "k": "hnxei8",
+   "en": "Available as long as the Lokot Autonomy exists, and is not Communist government type"
+  },
+  {
+   "k": "1k9dvlw",
+   "en": "Available after completing Lessons of the Great War focus"
+  },
+  {
+   "k": "1hyouxo",
+   "en": "Available after completing Adopt New Panzer Doctrine focus"
+  },
+  {
+   "k": "18pxozm",
+   "en": "Available after completing Strengthen the Waffen-SS focus or if the German Civil War has started"
+  },
+  {
+   "k": "16ahvtv",
+   "en": "Available after accepting Hans Krebs Recalled from the Soviet Union event"
+  },
+  {
+   "k": "1rkm6zh",
+   "en": "Available after completing Panzer Troops School focus"
+  },
+  {
+   "k": "1reeomq",
+   "en": "Available after completing Bribe Senior Officers focus or if the German Civil War has started"
+  },
+  {
+   "k": "kixdk9",
+   "en": "Available after completing Fallschirmjäger focus"
+  },
+  {
+   "k": "1160c4a",
+   "en": "Available after recalled via decision, available after taking Monarchist Sentiment focus"
+  },
+  {
+   "k": "1b8czvf",
+   "en": "Flag of Greece"
+  },
+  {
+   "k": "urzroi",
+   "en": "Flag of Iceland"
+  },
+  {
+   "k": "17hol1k",
+   "en": "Flag of Iran"
+  },
+  {
+   "k": "1nljr57",
+   "en": "Flag of Ireland"
+  },
+  {
+   "k": "12y2bl4",
+   "en": "Available after completing Comandante Diavolo focus"
+  },
+  {
+   "k": "1sh26lh",
+   "en": "Only available after completing Army Leaders focus and is not Communist government type"
+  },
+  {
+   "k": "33dtrw",
+   "en": "Available after completing Strengthen Ascari Corps"
+  },
+  {
+   "k": "1udwf98",
+   "en": "Available after completing Strengthen Ascari Corps and Forza Navale Speciale focuses"
+  },
+  {
+   "k": "1j1ij0v",
+   "en": "Only available if Communist government type"
+  },
+  {
+   "k": "xv85k5",
+   "en": "Only available if promoted via decision"
+  },
+  {
+   "k": "1xqgycy",
+   "en": "Not available after completing the focus"
+  },
+  {
+   "k": "12ejgqt",
+   "en": "Not available if Communist or Democratic"
+  },
+  {
+   "k": "12ix7ic",
+   "en": "Not available after completing the focus 'Purge the Kodoha Faction'"
+  },
+  {
+   "k": "rg6ggh",
+   "en": "Flag of Karelia"
+  }
+ ]
+}

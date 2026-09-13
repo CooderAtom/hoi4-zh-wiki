@@ -1,0 +1,1386 @@
+{
+ "batch": 97,
+ "pages": [
+  "Defines"
+ ],
+ "chars": 14916,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1k4iqp2",
+   "en": "min & max resistance target modifier resistance target modifier for exile countries. interpolated using legitimacy"
+  },
+  {
+   "k": "6xjq33",
+   "en": "RESISTANCE_TARGET_MODIFIER_OCCUPIED_IS_EXILE_MAX"
+  },
+  {
+   "k": "gf0lyx",
+   "en": "RESISTANCE_TARGET_MODIFIER_POP_LOW"
+  },
+  {
+   "k": "2vh0mp",
+   "en": "how much we reduce the resistance target"
+  },
+  {
+   "k": "3jqa6g",
+   "en": "RESISTANCE_TARGET_MODIFIER_POP_VERY_LOW"
+  },
+  {
+   "k": "r14hg7",
+   "en": "RESISTANCE_POP_LOW_CUTOFF"
+  },
+  {
+   "k": "8jkv7c",
+   "en": "RESISTANCE_POP_VERY_LOW_CUTOFF"
+  },
+  {
+   "k": "17ntea6",
+   "en": "RESISTANCE_TARGET_MIN_CAP_FOR_NON_COMPLIANCE"
+  },
+  {
+   "k": "17nugw8",
+   "en": "min resistance target will be capped to this percentage for non-compliance sources"
+  },
+  {
+   "k": "xekrv7",
+   "en": "RESISTANCE_DECAY_BASE"
+  },
+  {
+   "k": "aiy9qn",
+   "en": "base resistance decay"
+  },
+  {
+   "k": "8mhs6y",
+   "en": "RESISTANCE_DECAY_MIN"
+  },
+  {
+   "k": "1f856ra",
+   "en": "min resistance decay"
+  },
+  {
+   "k": "kasixc",
+   "en": "RESISTANCE_DECAY_MAX"
+  },
+  {
+   "k": "2c2ozz",
+   "en": "nax resistance decay"
+  },
+  {
+   "k": "1ft1fhv",
+   "en": "RESISTANCE_DECAY_MODIFIER_HAS_CLAIM"
+  },
+  {
+   "k": "lm6iyv",
+   "en": "resistance decay modifier for our claims"
+  },
+  {
+   "k": "155i2us",
+   "en": "RESISTANCE_DECAY_MODIFIER_FACTORS"
+  },
+  {
+   "k": "yawxa2",
+   "en": "resistance decay modifier when resistance hits a certain percentage below 10% it has a -50% modifier on decay below 20% it has a -25% modifier on decay"
+  },
+  {
+   "k": "17cnpve",
+   "en": "MIN_DAMAGE_TO_GARRISONS_MODIFIER"
+  },
+  {
+   "k": "aay3f1",
+   "en": "modifier that applies to losses from resistance attack to garrisons at most can be reduced to this amount"
+  },
+  {
+   "k": "dgv1e6",
+   "en": "RESISTANCE_GROWTH_BASE"
+  },
+  {
+   "k": "hf63o4",
+   "en": "base resistance grow"
+  },
+  {
+   "k": "gz7ilx",
+   "en": "RESISTANCE_GROWTH_MIN"
+  },
+  {
+   "k": "10ti6ln",
+   "en": "min resistance grow"
+  },
+  {
+   "k": "sni9cb",
+   "en": "RESISTANCE_GROWTH_MAX"
+  },
+  {
+   "k": "1u20dtd",
+   "en": "max resistance grow"
+  },
+  {
+   "k": "1eikzhs",
+   "en": "COMPLIANCE_GROWTH_BASE"
+  },
+  {
+   "k": "55j2ha",
+   "en": "base compliance grow"
+  },
+  {
+   "k": "esboa7",
+   "en": "COMPLIANCE_GROWTH_MIN"
+  },
+  {
+   "k": "krlc9d",
+   "en": "min compliance grow"
+  },
+  {
+   "k": "9rre75",
+   "en": "COMPLIANCE_GROWTH_MAX"
+  },
+  {
+   "k": "14wtn7n",
+   "en": "max compliance grow"
+  },
+  {
+   "k": "mh8qpy",
+   "en": "COMPLIANCE_GROWTH_IS_AT_PEACE"
+  },
+  {
+   "k": "1hxs02x",
+   "en": "compliance growth buff at peace"
+  },
+  {
+   "k": "twoxn4",
+   "en": "COMPLIANCE_GROWTH_HAS_CLAIM"
+  },
+  {
+   "k": "1h5kalz",
+   "en": "compliance growth buff if state has a claim"
+  },
+  {
+   "k": "w6g5ga",
+   "en": "COMPLIANCE_DECAY_AT_MAX_COMPLIANCE"
+  },
+  {
+   "k": "10xda1r",
+   "en": "as compliance increases, it gets a decay rate depending on its value. compliance should stabilize at some value until its growth changes"
+  },
+  {
+   "k": "1w5g6i6",
+   "en": "COMPLIANCE_DECAY_PER_EXILE_LEGITIMACY"
+  },
+  {
+   "k": "nbmukq",
+   "en": "higher legitimacy will give higher decay to compliance"
+  },
+  {
+   "k": "y55fb0",
+   "en": "RESISTANCE_RATIO_DIFF_TO_SPREAD"
+  },
+  {
+   "k": "yc3jvt",
+   "en": "resistance diff between two neighbour states will spread by this ratio ( from highest resistance states to lower ones and it will only spread once to a state)"
+  },
+  {
+   "k": "wvkspy",
+   "en": "RESISTANCE_ACTIVITY_CHANCE_AT_MAX_RESISTANCE"
+  },
+  {
+   "k": "1wp3ylr",
+   "en": "RESISTANCE_ACTIVITY_MIN_GARRISON_PENETRATE_CHANCE"
+  },
+  {
+   "k": "1vegkc1",
+   "en": "RESISTANCE_TARGET_TO_REENABLE_RESISTANCE"
+  },
+  {
+   "k": "1iqolye",
+   "en": "resistance will be disabled once it reaches zero and will not be reenabled until resistance target reaches above this value"
+  },
+  {
+   "k": "1ymb8u",
+   "en": "GARRISON_LOG_MAX_MONTHS"
+  },
+  {
+   "k": "la0cmc",
+   "en": "NO_COMPLIANCE_GAIN_ENABLE_LIMIT"
+  },
+  {
+   "k": "yyyq8f",
+   "en": "at least this ratio of no garrison law should be active in order to no compliance gain to take effect"
+  },
+  {
+   "k": "4jkmvc",
+   "en": "GARRISON_MANPOWER_MIN_DELIVERY_SPEED"
+  },
+  {
+   "k": "wywshw",
+   "en": "Minimum base delivery speed if the chunk can't be calculated."
+  },
+  {
+   "k": "1u3q822",
+   "en": "GARRISON_MANPOWER_REINFORCEMENT_SPEED"
+  },
+  {
+   "k": "5btb9r",
+   "en": "Modifier for garrison manpower reinforcement. This value is the maximum to be delivered which is then modified by distance"
+  },
+  {
+   "k": "19le2k0",
+   "en": "GARRISON_EQUIPMENT_DELIVERY_SPEED"
+  },
+  {
+   "k": "gipb3a",
+   "en": "Modifier for garrison equipment reinforcement speed"
+  },
+  {
+   "k": "1h31fc3",
+   "en": "GARRISON_STR_POW_MANPOWER"
+  },
+  {
+   "k": "1uc6g5f",
+   "en": "Scales impact of manpower deficiency by raising that deficiency to the number here. Formula: efficiency = 1.0 - manpower_deficiency^GARRISON_STR_POW_MANPOWER"
+  },
+  {
+   "k": "epbwo6",
+   "en": "GARRISON_STR_POW_EQUIPMENT"
+  },
+  {
+   "k": "jpfl40",
+   "en": "Scales impact of euqipment deficiency by raising that deficiency to the number here. Formula: efficiency = 1.0 - equipment_deficiency^GARRISON_STR_POW_EQUIPMENT"
+  },
+  {
+   "k": "1jtc7ox",
+   "en": "SUPPRESSION_NEEDED_BY_RESISTANCE_POINT"
+  },
+  {
+   "k": "p7mn50",
+   "en": "Number of suppression point we need for each 1% of resistance"
+  },
+  {
+   "k": "1fk7pbt",
+   "en": "SUPPRESSION_NEEDED_LOWER_CAP"
+  },
+  {
+   "k": "bil6vi",
+   "en": "if resistance is lower than this value then we always act as though it is at the define for the purpose of suppresion requirements"
+  },
+  {
+   "k": "1wfiss",
+   "en": "SUPPRESSION_NEEDED_UPPER_CAP"
+  },
+  {
+   "k": "16d1xdx",
+   "en": "if resistance is greater than this value then we always act as though it is at the define for the purpose of suppresion requirements"
+  },
+  {
+   "k": "17upf9q",
+   "en": "GARRISON_MANPOWER_LOST_BY_ATTACK"
+  },
+  {
+   "k": "1furcjb",
+   "en": "Ratio of manpower lost by garrison at each attack on garrison (this number will be reduced by the hardness of garrison template)"
+  },
+  {
+   "k": "atyhrn",
+   "en": "GARRISON_EQUIPMENT_LOST_BY_ATTACK"
+  },
+  {
+   "k": "x20x8a",
+   "en": "Ratio of equipment lost by garrison at each attack on garrison (this number will be reduced by the hardness of garrison template)"
+  },
+  {
+   "k": "1hetkrh",
+   "en": "MAXIMUM_GARRISON_HARDNESS_WHEN_ATTACKED"
+  },
+  {
+   "k": "kfqw79",
+   "en": "Cap to be sure that garrison will suffer lost in attack, even with a almost 100% hardness"
+  },
+  {
+   "k": "b3ma12",
+   "en": "FOREIGN_MANPOWER_MIN_THRESHOLD"
+  },
+  {
+   "k": "159a4lm",
+   "en": "The minimum number of Manpower that AI will accept to give at once, in order to avoid many weird little transfer."
+  },
+  {
+   "k": "fxh393",
+   "en": "MANPOWER_BUFFER_TO_NOT_GIVE_MINOR"
+  },
+  {
+   "k": "1qsvqe2",
+   "en": "To determine how much AI can give as foreign manpower, we calculate how much manpower we use, and add this buffer. The result is what we want to keep, for minor countries. So higher this number is, lower we will give Manpower."
+  },
+  {
+   "k": "zemm5n",
+   "en": "MANPOWER_BUFFER_TO_NOT_GIVE_MAJOR"
+  },
+  {
+   "k": "1jx8oym",
+   "en": "To determine how much AI can give as foreign manpower, we calculate how much manpower we use, and add this buffer. The result is what we want to keep, for major countries. So higher this number is, lower we will give Manpower."
+  },
+  {
+   "k": "a8oxqt",
+   "en": "MAX_GARRISON_RATIO_WE_AGREE_TO_SUPPORT"
+  },
+  {
+   "k": "78o1lt",
+   "en": "The part of the manpower needed by the foreign garrison, that AI will agree to support with our manpower. If negative number, AI will not take into consideration the need, and just calculate how much they can give."
+  },
+  {
+   "k": "1cexj0y",
+   "en": "FOREIGN_MANPOWER_AI_COOLDOWN_DAYS"
+  },
+  {
+   "k": "12ypf3s",
+   "en": "Number of days after an AI give us manpower before the AI accept to give more."
+  },
+  {
+   "k": "4swzgc",
+   "en": "INITIAL_HISTORY_RESISTANCE"
+  },
+  {
+   "k": "16iwenm",
+   "en": "resistance value for initial colony states"
+  },
+  {
+   "k": "pz6dwu",
+   "en": "INITIAL_HISTORY_COMPLIANCE"
+  },
+  {
+   "k": "q78hns",
+   "en": "compliance value for initial colony states"
+  },
+  {
+   "k": "1q2hdqf",
+   "en": "INITIAL_GARRISON_STRENGTH"
+  },
+  {
+   "k": "zxiuqa",
+   "en": "garrison value for initial colony states"
+  },
+  {
+   "k": "1jzfipn",
+   "en": "STATE_COMPLIANCE_DECAY_FOR_LOST_STATES"
+  },
+  {
+   "k": "13smvn4",
+   "en": "daily compliance decay for the states you lost control of"
+  },
+  {
+   "k": "n3pts6",
+   "en": "NProduction"
+  },
+  {
+   "k": "1q5u6v9",
+   "en": "MAX_EQUIPMENT_RESOURCES_NEED"
+  },
+  {
+   "k": "1d50pd",
+   "en": "Max number of different strategic resources an equipment can be dependent on."
+  },
+  {
+   "k": "92msw",
+   "en": "MAX_CIV_FACTORIES_PER_LINE"
+  },
+  {
+   "k": "mvue53",
+   "en": "Max number of factories that can be assigned a single production line."
+  },
+  {
+   "k": "1wo6c3n",
+   "en": "DEFAULT_MAX_NAV_FACTORIES_PER_LINE"
+  },
+  {
+   "k": "52clr7",
+   "en": "FLOATING_HARBOR_MAX_NAV_FACTORIES_PER_LINE"
+  },
+  {
+   "k": "540km8",
+   "en": "CONVOY_MAX_NAV_FACTORIES_PER_LINE"
+  },
+  {
+   "k": "7hj1d7",
+   "en": "CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE"
+  },
+  {
+   "k": "1hgazzc",
+   "en": "MAX_MIL_FACTORIES_PER_LINE"
+  },
+  {
+   "k": "wohusv",
+   "en": "RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE"
+  },
+  {
+   "k": "141jkkf",
+   "en": "RAILWAY_GUN_REPAIR_SPEED"
+  },
+  {
+   "k": "1npqjde",
+   "en": "Railway gun strength repair speed per factory"
+  },
+  {
+   "k": "8ps1aw",
+   "en": "EFFICIENCY_LOSS_PER_UNUSED_DAY"
+  },
+  {
+   "k": "1f4qch",
+   "en": "Daily loss of efficiency for unused factory slots ( efficiency is tracked per factory slot in the production line )"
+  },
+  {
+   "k": "1lzg5kk",
+   "en": "RESOURCE_PENALTY_WARNING_CRITICAL_RATIO"
+  },
+  {
+   "k": "5d3k6s",
+   "en": "Switch to red progress bar if penalty is over threshold"
+  },
+  {
+   "k": "rn4bop",
+   "en": "BASE_FACTORY_SPEED"
+  },
+  {
+   "k": "14f7cuz",
+   "en": "Base factory speed multiplier (how much hoi3 style IC each factory gives)."
+  },
+  {
+   "k": "1dix26o",
+   "en": "BASE_FACTORY_SPEED_MIL"
+  },
+  {
+   "k": "shba6j",
+   "en": "BASE_FACTORY_SPEED_NAV"
+  },
+  {
+   "k": "1bfso4w",
+   "en": "BASE_FACTORY_START_EFFICIENCY_FACTOR"
+  },
+  {
+   "k": "wbwbkb",
+   "en": "Base start efficiency for factories expressed in %."
+  },
+  {
+   "k": "wkpdhy",
+   "en": "BASE_FACTORY_MAX_EFFICIENCY_FACTOR"
+  },
+  {
+   "k": "jj0bap",
+   "en": "Base max efficiency for factories expressed in %."
+  },
+  {
+   "k": "1jga10n",
+   "en": "BASE_FACTORY_EFFICIENCY_GAIN"
+  },
+  {
+   "k": "5r6dsu",
+   "en": "Base efficiency factor."
+  },
+  {
+   "k": "1j372rq",
+   "en": "BASE_FACTORY_EFFICIENCY_BALANCE_FACTOR"
+  },
+  {
+   "k": "dkeqz8",
+   "en": "Factory efficiency balancing factor"
+  },
+  {
+   "k": "11bhpwg",
+   "en": "BASE_FACTORY_EFFICIENCY_VARIANT_CHANGE_FACTOR"
+  },
+  {
+   "k": "1mkr51y",
+   "en": "Base factor for changing production variants in %."
+  },
+  {
+   "k": "1121pd1",
+   "en": "BASE_FACTORY_EFFICIENCY_PARENT_CHANGE_FACTOR"
+  },
+  {
+   "k": "1xn5qek",
+   "en": "Base factor for changing production parent<->children in %."
+  },
+  {
+   "k": "vr7jb9",
+   "en": "BASE_FACTORY_EFFICIENCY_FAMILY_CHANGE_FACTOR"
+  },
+  {
+   "k": "940xhe",
+   "en": "Base factor for changing production with same family in %."
+  },
+  {
+   "k": "t9o7qy",
+   "en": "BASE_FACTORY_EFFICIENCY_ARCHETYPE_CHANGE_FACTOR"
+  },
+  {
+   "k": "1wiphep",
+   "en": "Base factor for changing production with same archetype in %."
+  },
+  {
+   "k": "2nh9m3",
+   "en": "EQUIPMENT_BASE_LEND_LEASE_WEIGHT"
+  },
+  {
+   "k": "1uwoc35",
+   "en": "Base equipment lend lease weight"
+  },
+  {
+   "k": "sawfxh",
+   "en": "EQUIPMENT_LEND_LEASE_WEIGHT_FACTOR"
+  },
+  {
+   "k": "1j9frvy",
+   "en": "Base equipment lend lease factor"
+  },
+  {
+   "k": "1rnu3sj",
+   "en": "LEND_LEASE_DELIVERY_TOTAL_DAYS"
+  },
+  {
+   "k": "mtcyf0",
+   "en": "Nr of days between lend lease deliveries"
+  },
+  {
+   "k": "k6ecip",
+   "en": "ANNEX_STOCKPILES_RATIO"
+  },
+  {
+   "k": "jks7kv",
+   "en": "How much stockpiled equipment will be transferred on annexation"
+  },
+  {
+   "k": "i8y635",
+   "en": "ANNEX_FIELD_EQUIPMENT_RATIO"
+  },
+  {
+   "k": "1eti0lv",
+   "en": "How much equipment from deployed divisions will be transferred on annexation"
+  },
+  {
+   "k": "1yec8um",
+   "en": "ANNEX_FUEL_RATIO"
+  },
+  {
+   "k": "19mil3d",
+   "en": "How much fuel will be transferred on annexation"
+  },
+  {
+   "k": "1j2f4h5",
+   "en": "ANNEX_CONVOYS_RATIO"
+  },
+  {
+   "k": "8k6o64",
+   "en": "How many convoys will be transferred on annexation"
+  },
+  {
+   "k": "1wyc56u",
+   "en": "MIN_POSSIBLE_TRAINING_MANPOWER"
+  },
+  {
+   "k": "1hq6jgj",
+   "en": "How many deployment lines minimum can be training"
+  },
+  {
+   "k": "yceokd",
+   "en": "MIN_FIELD_TO_TRAINING_MANPOWER_RATIO"
+  },
+  {
+   "k": "12a5wo1",
+   "en": "Ratio which % of army in field can be trained"
+  },
+  {
+   "k": "14ecxpt",
+   "en": "CAPITULATE_STOCKPILES_RATIO"
+  },
+  {
+   "k": "1ua8bh",
+   "en": "How much equipment from deployed divisions will be transferred on capitulation"
+  },
+  {
+   "k": "1gc4ha6",
+   "en": "CAPITULATE_FUEL_RATIO"
+  },
+  {
+   "k": "jt6vav",
+   "en": "How much fuel will be transferred on capitulation"
+  },
+  {
+   "k": "1h5jg80",
+   "en": "INFRA_MAX_CONSTRUCTION_COST_EFFECT"
+  },
+  {
+   "k": "17e98v5",
+   "en": "Building in a state with higher infrastructure will reduce the cost of shared buildings."
+  },
+  {
+   "k": "1lnlwt3",
+   "en": "PRODUCTION_RESOURCE_LACK_PENALTY"
+  },
+  {
+   "k": "i8ile",
+   "en": "Penalty decrease while lack of resource per factory"
+  },
+  {
+   "k": "1u3tmll",
+   "en": "CIC_BANK_SPEED_BOOST_FACTOR"
+  },
+  {
+   "k": "10ek44b",
+   "en": "The CIC bank can boost production speed with this factor (0.5 means 50 %)"
+  },
+  {
+   "k": "ilvpno",
+   "en": "MIN_LICENSE_ACTIVE_DAYS"
+  },
+  {
+   "k": "1k128wa",
+   "en": "Min days for license to be active"
+  },
+  {
+   "k": "o3dyx7",
+   "en": "BASE_LICENSE_IC_COST"
+  },
+  {
+   "k": "crcq21",
+   "en": "Base IC cost for lended license"
+  },
+  {
+   "k": "1ezo9gu",
+   "en": "LICENSE_IC_COST_YEAR_INCREASE"
+  },
+  {
+   "k": "1iv4o7h",
+   "en": "IC cost equipment for every year of equipment after 1936"
+  },
+  {
+   "k": "1bt41cl",
+   "en": "LICENSE_EQUIPMENT_BASE_SPEED"
+  },
+  {
+   "k": "1bidguv",
+   "en": "base MIC speed modifier for licensed equipment"
+  },
+  {
+   "k": "1sucx2c",
+   "en": "LICENSE_EQUIPMENT_TECH_SPEED_PER_YEAR"
+  },
+  {
+   "k": "1kc2k8v",
+   "en": "MIC speed modifier for licensed equipment for each year of difference between actual and latest equipment"
+  },
+  {
+   "k": "1eu2dq8",
+   "en": "LICENSE_EQUIPMENT_TECH_SPEED_MAX_YEARS"
+  },
+  {
+   "k": "1ufmwnh",
+   "en": "Maximum years for MIC speed modifier"
+  },
+  {
+   "k": "hihozy",
+   "en": "LICENSE_EQUIPMENT_SPEED_NOT_FACTION"
+  },
+  {
+   "k": "a9mbk0",
+   "en": "MIC speed modifier for licensed equipment for not being in faction"
+  },
+  {
+   "k": "82sohd",
+   "en": "LICENSE_EQUIPMENT_UPGRADE_XP_FACTOR"
+  },
+  {
+   "k": "10l7227",
+   "en": "XP cost for upgrading licensed equipment"
+  },
+  {
+   "k": "bzu6kb",
+   "en": "LICENSE_EQUIPMENT_SPEED_NO_LICENSE"
+  },
+  {
+   "k": "9oxwbe",
+   "en": "Penalty for producing non licensed equipment"
+  },
+  {
+   "k": "1epoz8d",
+   "en": "CONVERSION_SPEED_BONUS"
+  },
+  {
+   "k": "7adbyb",
+   "en": "Modifier to the production speed when converting equipment"
+  },
+  {
+   "k": "1qxeasz",
+   "en": "EQUIPMENT_MODULE_ADD_XP_COST"
+  },
+  {
+   "k": "ijvnrh",
+   "en": "XP cost for adding a new equipment module in an empty slot when creating an equipment variant."
+  },
+  {
+   "k": "vj3ahg",
+   "en": "EQUIPMENT_MODULE_REPLACE_XP_COST"
+  },
+  {
+   "k": "10wj0j2",
+   "en": "XP cost for replacing one equipment module with an unrelated module when creating an equipment variant."
+  },
+  {
+   "k": "6vzpj",
+   "en": "EQUIPMENT_MODULE_CONVERT_XP_COST"
+  },
+  {
+   "k": "1j1sk12",
+   "en": "XP cost for converting one equipment module to a related module when creating an equipment variant."
+  },
+  {
+   "k": "1wgydqa",
+   "en": "EQUIPMENT_MODULE_REMOVE_XP_COST"
+  },
+  {
+   "k": "hb4swv",
+   "en": "XP cost for removing an equipment module and leaving the slot empty when creating an equipment variant."
+  },
+  {
+   "k": "1h7v3g",
+   "en": "BASE_NAVAL_EQUIPMENT_CONVERSION_IC_COST_FACTOR"
+  },
+  {
+   "k": "12x0wdg",
+   "en": "Fraction of the hull industry cost which is always included in the refitting cost."
+  },
+  {
+   "k": "14hr5gv",
+   "en": "BASE_LAND_EQUIPMENT_CONVERSION_IC_COST_FACTOR"
+  },
+  {
+   "k": "18zu7kp",
+   "en": "Fraction of the chassis industry cost which is always included in the conversion cost."
+  },
+  {
+   "k": "e0l9sb",
+   "en": "MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR"
+  },
+  {
+   "k": "1iqrrrg",
+   "en": "Minimum fraction of a naval equipment's strategic resource cost that any conversion will cost."
+  },
+  {
+   "k": "1arcoeu",
+   "en": "MIN_LAND_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR"
+  },
+  {
+   "k": "igxq0d",
+   "en": "Minimum fraction of a land equipment's strategic resource cost that any conversion will cost."
+  },
+  {
+   "k": "1t70bem",
+   "en": "SHIP_REFIT_MAX_PROGRESS_TO_CANCEL"
+  },
+  {
+   "k": "j933s9",
+   "en": "Maximum refitting progress % that we still allow to cancel wihtout having to scuttle the ship."
+  },
+  {
+   "k": "9os8pk",
+   "en": "SHIP_REFIT_DAMAGE_TO_PROGRESS_FACTOR"
+  },
+  {
+   "k": "1xvb03l",
+   "en": "When a ship is being damaged (for example port strike) while refitting, the damage is transferred to the production line progress instead. This variable is used to balance it."
+  },
+  {
+   "k": "10afbk0",
+   "en": "MINIMUM_NUMBER_OF_FACTORIES_TAKEN_BY_CONSUMER_GOODS_VALUE"
+  },
+  {
+   "k": "b0ywbb",
+   "en": "The minimum number of factories we have to put on consumer goods, by value."
+  },
+  {
+   "k": "1bv5vqo",
+   "en": "MINIMUM_NUMBER_OF_FACTORIES_TAKEN_BY_CONSUMER_GOODS_PERCENT"
+  },
+  {
+   "k": "55fe3h",
+   "en": "The minimum number of factories we have to put on consumer goods, in percent."
+  },
+  {
+   "k": "19kj4mk",
+   "en": "INITIAL_ALLOWED_FACTORY_RATIO_FOR_REPAIRS"
+  },
+  {
+   "k": "5ipbtl",
+   "en": "max % of factories allowed on autorepairs"
+  },
+  {
+   "k": "1886s9x",
+   "en": "NMarket"
+  },
+  {
+   "k": "1wk4ch7",
+   "en": "PURCHASE_CONTRACT_DELIVERY_TOTAL_DAYS"
+  },
+  {
+   "k": "17e4op9",
+   "en": "Number of days between purchase contract deliveries"
+  },
+  {
+   "k": "1i56ju1",
+   "en": "IC_TO_CIC_FACTOR"
+  },
+  {
+   "k": "1ixcftv",
+   "en": "The factor for mapping IC cost to CIC cost. Should be a positive number."
+  },
+  {
+   "k": "1i60cr4",
+   "en": "MAX_CIV_FACTORIES_PER_CONTRACT"
+  },
+  {
+   "k": "14mvhei",
+   "en": "Max number of factories that can be assigned for paying single contract."
+  },
+  {
+   "k": "1x2pxo8",
+   "en": "LOW_PRICE_LEVEL_FACTOR"
+  },
+  {
+   "k": "ljamqc",
+   "en": "The factor of base equipment price for low price level. Should be in range (0,1]"
+  },
+  {
+   "k": "144q3qk",
+   "en": "HIGH_PRICE_LEVEL_FACTOR"
+  },
+  {
+   "k": "6a30qb",
+   "en": "The factor of base equipment price for high price level. Should be more than 1."
+  },
+  {
+   "k": "rntdae",
+   "en": "MIN_DELIVERY_LIMIT_WARNING_UI"
+  },
+  {
+   "k": "1ob602w",
+   "en": "The delivery percentage under we want to let player know the contract is inefficient. [0,1]"
+  },
+  {
+   "k": "13qxtrr",
+   "en": "PURCHASE_CONTRACT_SUBSIDY_BONUS_SPEED_FACTOR"
+  },
+  {
+   "k": "lieum1",
+   "en": "The factor of speed bonus from subsidies"
+  },
+  {
+   "k": "m5fn4x",
+   "en": "CONVOY_WEIGHT_OVERRIDE"
+  },
+  {
+   "k": "9lk15n",
+   "en": "Overrides the default lend leas weight of convoys for international market"
+  },
+  {
+   "k": "vv9vvd",
+   "en": "REQUEST_AUTOMATION_AUTO_ACCEPT_MARKET_ACCESS_DEFAULT"
+  },
+  {
+   "k": "xzl1gr",
+   "en": "Whether by default should accept market access requests from other countries."
+  },
+  {
+   "k": "1go249r",
+   "en": "REQUEST_AUTOMATION_AUTO_SEND_MARKET_ACCESS_DEFAULT"
+  },
+  {
+   "k": "sbcbri",
+   "en": "Whether by default should send market access requests to other countries."
+  },
+  {
+   "k": "1f59nzd",
+   "en": "REQUEST_AUTOMATION_AUTO_ACCEPT_PURCHASE_DEFAULT"
+  },
+  {
+   "k": "324swo",
+   "en": "false"
+  },
+  {
+   "k": "f6shqm",
+   "en": "Whether by default should accept purchase requests from other countries."
+  },
+  {
+   "k": "1h5zlcq",
+   "en": "CONTRACT_ESTIMATE_AVERAGE_CONVOY_COUNT_ALPHA"
+  },
+  {
+   "k": "1oh25yz",
+   "en": "How strong effect should have the daily convoy count on the average (1.0 means it will use only the new number as average)"
+  },
+  {
+   "k": "1kgw6kd",
+   "en": "CONTRACT_ESTIMATE_AVERAGE_DAILY_PRODUCTION_ALPHA"
+  },
+  {
+   "k": "88ggrt",
+   "en": "How strong effect should have the daily production on the average (1.0 means it will use only the new number as average)"
+  },
+  {
+   "k": "tme1na",
+   "en": "CONTRACT_ESTIMATE_AVERAGE_CONVOY_COUNT_SNAP_LIMIT"
+  },
+  {
+   "k": "1tz5y81",
+   "en": "If the difference between current and estimated available convoy count is smaller then this value, we will use the current value for calculations."
+  },
+  {
+   "k": "10pi9an",
+   "en": "CONTRACT_ESTIMATE_AVERAGE_DAILY_PRODUCTION_SNAP_LIMIT"
+  },
+  {
+   "k": "717qfp",
+   "en": "If the difference between current and estimated daily production is smaller then this value, we will use the current value for calculations."
+  },
+  {
+   "k": "1nn173e",
+   "en": "CONTRACT_ESTIMATE_AVERAGE_CONVOY_SUNK_MULTIPLIER_ALPHA"
+  },
+  {
+   "k": "14li4uu",
+   "en": "How strong effect should have the daily sunk efficiency on the average (1.0 means it will use only the new number as average)"
+  },
+  {
+   "k": "8mbiue",
+   "en": "CONTRACT_ESTIMATE_AVERAGE_CONVOY_SUNK_MULTIPLIER_SNAP_LIMIT"
+  },
+  {
+   "k": "1vixi70",
+   "en": "If the difference between current and estimated sunk efficiency convoy count is smaller then this value, we will use the current value for calculations."
+  },
+  {
+   "k": "1o0yxw4",
+   "en": "WARNING_CONVOYS_SUNK_MAX_DAYS"
+  },
+  {
+   "k": "7i9xgo",
+   "en": "The contracts will show sunk convoy message if there was sunk convoy in this amount of days"
+  },
+  {
+   "k": "10ar8ir",
+   "en": "NTechnology"
+  },
+  {
+   "k": "91q0xl",
+   "en": "MAX_SUBTECHS"
+  },
+  {
+   "k": "13i9x02",
+   "en": "Max number of sub technologies a technology can have."
+  },
+  {
+   "k": "1gsw4qq",
+   "en": "BASE_RESEARCH_POINTS_SAVED"
+  },
+  {
+   "k": "4oafqy",
+   "en": "Base amount of research points a country can save per slot."
+  },
+  {
+   "k": "k1fhc6",
+   "en": "BASE_YEAR_AHEAD_PENALTY_FACTOR"
+  },
+  {
+   "k": "diwd91",
+   "en": "Base year ahead penalty"
+  },
+  {
+   "k": "mud3dn",
+   "en": "BASE_TECH_COST"
+  },
+  {
+   "k": "l3srs2",
+   "en": "Base cost for a tech. multiplied with tech cost and ahead of time penalties"
+  },
+  {
+   "k": "1lsxumx",
+   "en": "MAX_TECH_SHARING_BONUS"
+  },
+  {
+   "k": "ft6nj9",
+   "en": "Max technology sharing bonus that can be applied instantly"
+  },
+  {
+   "k": "cl2r83",
+   "en": "LICENSE_PRODUCTION_TECH_BONUS"
+  },
+  {
+   "k": "8vlmrq",
+   "en": "License production tech bonus"
+  },
+  {
+   "k": "l8bbo4",
+   "en": "DEFAULT_XP_UNLOCK_RESEARCH_COST"
+  },
+  {
+   "k": "hl1s3r",
+   "en": "default xp cost of a research to unlock directly"
+  },
+  {
+   "k": "f5c43j",
+   "en": "DEFAULT_XP_BOOST_RESEARCH_COST"
+  },
+  {
+   "k": "153r7eh",
+   "en": "default xp cost of a research to speed up the process"
+  },
+  {
+   "k": "1o1h101",
+   "en": "DEFAULT_XP_BOOST_RESEARCH_BONUS"
+  },
+  {
+   "k": "1thutoc",
+   "en": "default boost research bonus gained when xp is used to research an item"
+  },
+  {
+   "k": "id4uop",
+   "en": "MIN_RESEARCH_SPEED"
+  },
+  {
+   "k": "ejjzwq",
+   "en": "research speed can't go below this value"
+  },
+  {
+   "k": "nowg72",
+   "en": "USE_BONUS_REGRET_TIMER"
+  },
+  {
+   "k": "18kngp2",
+   "en": "Number of days the player has to regret using a limited tech bonus"
+  },
+  {
+   "k": "5smuxu",
+   "en": "NPolitics"
+  },
+  {
+   "k": "1qs0qwk",
+   "en": "BASE_LEADER_TRAITS"
+  },
+  {
+   "k": "3uno3j",
+   "en": "Base amount of leader traits."
+  },
+  {
+   "k": "kwb4go",
+   "en": "MAX_RANDOM_LEADERS"
+  },
+  {
+   "k": "j947sh",
+   "en": "Maximum amount random leader to have per party."
+  },
+  {
+   "k": "sgbxsf",
+   "en": "BASE_POLITICAL_POWER_INCREASE"
+  },
+  {
+   "k": "xa9wa9",
+   "en": "Weekly increase of PP."
+  },
+  {
+   "k": "mg29ow",
+   "en": "ARMY_LEADER_COST"
+  },
+  {
+   "k": "1vjt759",
+   "en": "command power cost for recruiting new leaders, 'this value' * number_of_existing_leaders_of_type"
+  },
+  {
+   "k": "i46lmd",
+   "en": "NAVY_LEADER_COST"
+  },
+  {
+   "k": "wbvb7f",
+   "en": "ARMY_LEADER_MAX_COST"
+  },
+  {
+   "k": "12kt91f",
+   "en": "max cost BEFORE modifiers"
+  },
+  {
+   "k": "9wsnru",
+   "en": "NAVY_LEADER_MAX_COST"
+  },
+  {
+   "k": "1ev09xr",
+   "en": "LEADER_TRAITS_XP_SHOW"
+  },
+  {
+   "k": "1dq57t1",
+   "en": "Amount of XP a trait needs to be shown in tooltips of a leader."
+  },
+  {
+   "k": "5n43w7",
+   "en": "REVOLTER_PARTY_POPULARITY"
+  },
+  {
+   "k": "s2p3i6",
+   "en": "Revolter party loses 80% popularity when the civil war breaks out"
+  },
+  {
+   "k": "1wmo4re",
+   "en": "MIN_OVERTHROWN_GOVERNMENT_SUPPORT_RATIO"
+  },
+  {
+   "k": "1ouhi3z",
+   "en": "Min possible support for new government after puppeting the government"
+  },
+  {
+   "k": "dv8bem",
+   "en": "NUM_OCCUPATION_POLICIES"
+  },
+  {
+   "k": "8itcss",
+   "en": "Number of potential occupation policies"
+  },
+  {
+   "k": "12adoor",
+   "en": "DEFAULT_OCCUPATION_POLICY"
+  },
+  {
+   "k": "fv2x8j",
+   "en": "Defaullt value for occupation policy"
+  },
+  {
+   "k": "1p1wfz9",
+   "en": "INSTANT_WIN_REVOLTER_POPULARITY_RATIO"
+  },
+  {
+   "k": "12fio4a",
+   "en": "Min party popularity for instant win in one province state"
+  },
+  {
+   "k": "bmy9e2",
+   "en": "INSTANT_WIN_POPULARITY_WIN"
+  },
+  {
+   "k": "pv0gww",
+   "en": "New party popularity"
+  },
+  {
+   "k": "1r8kbqm",
+   "en": "NBuildings"
+  },
+  {
+   "k": "gmkklv",
+   "en": "ANTI_AIR_SUPERIORITY_MULT"
+  },
+  {
+   "k": "6g4dwn",
+   "en": "How much air superiority reduction to the enemy does our AA guns? Normally each building level = -1 reduction. With this multiplier."
+  },
+  {
+   "k": "cfdu07",
+   "en": "SAM_MISSION_SUPERIORITY"
+  },
+  {
+   "k": "1etw5va",
+   "en": "How much air superiority each SAM mission gives per rocket wing performing SAM missions."
+  },
+  {
+   "k": "1kei3mw",
+   "en": "MAX_BUILDING_LEVELS"
+  },
+  {
+   "k": "1jxp3iv",
+   "en": "Max levels a building can have."
+  },
+  {
+   "k": "vqh5oa",
+   "en": "AIRBASE_CAPACITY_MULT"
+  }
+ ]
+}

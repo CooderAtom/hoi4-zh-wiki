@@ -1,0 +1,1195 @@
+{
+ "batch": 1326,
+ "pages": [
+  "Bulgarian events BftB",
+  "Patch 1.0.X",
+  "French events LaR",
+  "Land doctrine/Sample divisions with doctrine bonuses",
+  "Kaiserreich",
+  "Tutorial videos",
+  "Mods",
+  "Soviet events NSB 2"
+ ],
+ "chars": 13875,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "opol8y",
+   "en": "This is a list of ⟦0⟧ ⟦1⟧ ⟦2⟧ (from ⟦3⟧).",
+   "frags": 4
+  },
+  {
+   "k": "5b8o90",
+   "en": "all"
+  },
+  {
+   "k": "2sfaae",
+   "en": "Bulgaria's"
+  },
+  {
+   "k": "589chw",
+   "en": "events"
+  },
+  {
+   "k": "1jgd3wk",
+   "en": "/Hearts of Iron IV/events/BFTB_Bulgaria.txt"
+  },
+  {
+   "k": "1jm1vuk",
+   "en": "Internal Factions (hidden)"
+  },
+  {
+   "k": "1jokdu1",
+   "en": "Internal Factions"
+  },
+  {
+   "k": "1hd1k8s",
+   "en": "IMRO"
+  },
+  {
+   "k": "1v3oeav",
+   "en": "Events for controllers of ⟦0⟧, ⟦1⟧ and ⟦2⟧. Usually ⟦3⟧ and ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "kajfhu",
+   "en": "Macedonia"
+  },
+  {
+   "k": "hynvzw",
+   "en": "Thrace"
+  },
+  {
+   "k": "pjkbyj",
+   "en": "Central Macedonia"
+  },
+  {
+   "k": "1u4dg22",
+   "en": "Kingdom of Greece"
+  },
+  {
+   "k": "1wgklhv",
+   "en": "Yugoslavia"
+  },
+  {
+   "k": "lmg4ot",
+   "en": "Tsar Boris III"
+  },
+  {
+   "k": "opnv3h",
+   "en": "Fatherland Front"
+  },
+  {
+   "k": "128ee1z",
+   "en": "Rearment"
+  },
+  {
+   "k": "jz7nm",
+   "en": "Nationaliyation"
+  },
+  {
+   "k": "ukzedx",
+   "en": "Other"
+  },
+  {
+   "k": "klojid",
+   "en": "Axis Events"
+  },
+  {
+   "k": "i1n732",
+   "en": "Purchase Equipment"
+  },
+  {
+   "k": "kimygc",
+   "en": "SCW"
+  },
+  {
+   "k": "r2crgs",
+   "en": "Soviet Influance"
+  },
+  {
+   "k": "123nctw",
+   "en": "Yugoslavian Influance"
+  },
+  {
+   "k": "h1ta03",
+   "en": "Balkan Federation"
+  },
+  {
+   "k": "1oyq6t7",
+   "en": "Fate of the Balkans"
+  },
+  {
+   "k": "16ugjlu",
+   "en": "Political Leaders"
+  },
+  {
+   "k": "1g4c6wg",
+   "en": "Greek Influance"
+  },
+  {
+   "k": "8j6wdn",
+   "en": "British Influance"
+  },
+  {
+   "k": "106916v",
+   "en": "Democratic Events"
+  },
+  {
+   "k": "1tfweml",
+   "en": "There is a lot to do"
+  },
+  {
+   "k": "yxnvct",
+   "en": "Flag of Bulgaria"
+  },
+  {
+   "k": "qru5j1",
+   "en": "Flag of Kingdom of Greece"
+  },
+  {
+   "k": "1tdgwj6",
+   "en": "Flag of Yugoslavia"
+  },
+  {
+   "k": "6jzmqh",
+   "en": "⟦0⟧ are all patches beginning with 1.0.",
+   "frags": 1
+  },
+  {
+   "k": "19q2phi",
+   "en": "Patch 1.0.X"
+  },
+  {
+   "k": "1i7mwv1",
+   "en": "1.0 was the release version, and as such had no changelog."
+  },
+  {
+   "k": "emd1dm",
+   "en": "1.0.1 is a hotfix which was released on 2016-06-13⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1kvme0t",
+   "en": "f680"
+  },
+  {
+   "k": "1h83hpk",
+   "en": "Stability & Performance"
+  },
+  {
+   "k": "1psbegn",
+   "en": "Fixed several rare CTDs."
+  },
+  {
+   "k": "4przmw",
+   "en": "Late-game performance optimizations."
+  },
+  {
+   "k": "15wzt40",
+   "en": "Large peace conference resolutions are now faster and also properly indicate that they are active to non-participants."
+  },
+  {
+   "k": "wk9ymm",
+   "en": "Added GUI scaling option for people with very small or very high resolution displays (experimental)."
+  },
+  {
+   "k": "wvhfpl",
+   "en": "Added a max framerate limiting system (defaults to 75fps) to help people with the combination of bad cooling, great graphics cards and very high screen refresh. If you are one of these with heat issues I would love to hear if this solved it (changing max_frame_rate in settings can let you remove its effect by making it higher, or go lower if you still have issues)"
+  },
+  {
+   "k": "1aes9w5",
+   "en": "Gameplay"
+  },
+  {
+   "k": "skwqfx",
+   "en": "Fixed an issue with deploying troops during spanish civil war when continuing savegames."
+  },
+  {
+   "k": "1xpkquj",
+   "en": "Can now zoom in and out using PgUp and PgDown buttons on keyboard."
+  },
+  {
+   "k": "16wyesc",
+   "en": "Stopped an exploit where player could redirect a naval transfer into an invasion without preparation."
+  },
+  {
+   "k": "19zghjm",
+   "en": "Fixed a case where fleets who found themselves outside base range would be instantly deleted."
+  },
+  {
+   "k": "110hxl6",
+   "en": "Fixed some highlighting issues in tutorial."
+  },
+  {
+   "k": "1hnv6ua",
+   "en": "Content"
+  },
+  {
+   "k": "1rsz5yo",
+   "en": "Added 9 new unique nation leader portraits. Fanny Jabcovsky (Argentina), Lord Linlithgow (British Raj), Li Zongren (Guangxi), Manuel Luis Quezon (Philippines), Armand Calines (Romania), Gheorghe Tatarescu (Romania), Sheng Shicai (Sinkiang), Milan Grol (Yugoslavia), Milan Stojadinovic (Yugoslavia)"
+  },
+  {
+   "k": "91a45g",
+   "en": "Fanny Jabcovsky (⟦0⟧), Lord Linlithgow (⟦1⟧), Li Zongren (⟦2⟧), Manuel Luis Quezon (⟦3⟧), Armand Calines (⟦4⟧), Gheorghe Tatarescu (⟦5⟧), Sheng Shicai (⟦6⟧), Milan Grol (⟦7⟧), Milan Stojadinovic (⟦8⟧)",
+   "frags": 9
+  },
+  {
+   "k": "1kqa232",
+   "en": "Argentina"
+  },
+  {
+   "k": "fm1xfx",
+   "en": "British Raj"
+  },
+  {
+   "k": "1hdkdxg",
+   "en": "Guangxi"
+  },
+  {
+   "k": "1338jsc",
+   "en": "Philippines"
+  },
+  {
+   "k": "17dojuo",
+   "en": "Romania"
+  },
+  {
+   "k": "1apefkn",
+   "en": "Sinkiang"
+  },
+  {
+   "k": "1wgklhv",
+   "en": "Yugoslavia"
+  },
+  {
+   "k": "1f7m42j",
+   "en": "Improved some VP/state names in China."
+  },
+  {
+   "k": "10dqvas",
+   "en": "Improved a lot of alternate ideology nation names and party/leader names."
+  },
+  {
+   "k": "1x7qpoq",
+   "en": "France can now send volunteers to Spain if they choose the Support Nationalists focus."
+  },
+  {
+   "k": "1kmlwoj",
+   "en": "Fixed many localization issues, both in english and other languages."
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "19enj71",
+   "en": "Forum: HOI4 1.0.1 Hotfix patch, 2016-06-13"
+  },
+  {
+   "k": "yjo8pv",
+   "en": "This is a list of all ⟦0⟧'s ⟦1⟧ (from ⟦2⟧).",
+   "frags": 3
+  },
+  {
+   "k": "y6f35m",
+   "en": "France"
+  },
+  {
+   "k": "589chw",
+   "en": "events"
+  },
+  {
+   "k": "1qap9f9",
+   "en": "/Hearts of Iron IV/events/LaR_France.txt"
+  },
+  {
+   "k": "1gtbf5e",
+   "en": "Congress of Paris id 1 - 6"
+  },
+  {
+   "k": "qrezm2",
+   "en": "Political Violence id 1 - 4"
+  },
+  {
+   "k": "1hialaz",
+   "en": "French Union id 1 - 11"
+  },
+  {
+   "k": "1r8q6gb",
+   "en": "Syria Intervention id 1 - 31"
+  },
+  {
+   "k": "1dkmjcv",
+   "en": "Indochina Intervention id 1 - 12"
+  },
+  {
+   "k": "1g604el",
+   "en": "Central Africa Intervention id 1 - 12"
+  },
+  {
+   "k": "3bh4u9",
+   "en": "West Africa Intervention id 1 - 12"
+  },
+  {
+   "k": "1fioyy9",
+   "en": "Compensate Italy id 1 - 12"
+  },
+  {
+   "k": "astwqm",
+   "en": "Intervention in Greece id 1 - 12"
+  },
+  {
+   "k": "13v4xut",
+   "en": "Dominate the Middle East id 1 - 12"
+  },
+  {
+   "k": "1hk1z5t",
+   "en": "Spheres of Influence id 1 - 12"
+  },
+  {
+   "k": "fvwrdv",
+   "en": "Align Belgium id 1 - 12"
+  },
+  {
+   "k": "1pd9ss2",
+   "en": "Split Belgium id 1 - 12"
+  },
+  {
+   "k": "12bj729",
+   "en": "Concession to Italy id 1 - 12"
+  },
+  {
+   "k": "qhly4e",
+   "en": "Ratify the Stresa Front id 1 - 12"
+  },
+  {
+   "k": "1fl7le0",
+   "en": "Franco-Soviet Treaty id 1 - 12"
+  },
+  {
+   "k": "19af93b",
+   "en": "End the Occupation id 1 - 6"
+  },
+  {
+   "k": "1q5k3of",
+   "en": "Low Stability Civil War id 1 - 12"
+  },
+  {
+   "k": "9le5vc",
+   "en": "Worker Shortage id 1 - 12"
+  },
+  {
+   "k": "ws74ma",
+   "en": "Arms Purchases id 1 - 12"
+  },
+  {
+   "k": "18v81x2",
+   "en": "Volunteers to Spain id 1 - 3"
+  },
+  {
+   "k": "rih4h6",
+   "en": "Non-Intervention id 1 - 12"
+  },
+  {
+   "k": "12nq9ht",
+   "en": "Communist Support id 1 - 12"
+  },
+  {
+   "k": "16j0ko9",
+   "en": "Appeal to Overseas Territories id 1 - 12"
+  },
+  {
+   "k": "180545k",
+   "en": "Vichy Reunification id 1 - 3"
+  },
+  {
+   "k": "1otwjrp",
+   "en": "Inefficient Economy id 1"
+  },
+  {
+   "k": "ub85vu",
+   "en": "Reconnect to the Balkans id 1 - 5"
+  },
+  {
+   "k": "1dbl5b7",
+   "en": "Flag of France"
+  },
+  {
+   "k": "1d7xn64",
+   "en": "See also: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "8fwash",
+   "en": "Below are a few example 20 combat width divisions with 1939 technologies applied. Note that Mass Assault doctrine reduces the width of infantry battalions, so the resulting division may be under 20 width. You can either use more battalions in the template to compensate, or let the game fill the front with more divisions. Either way, the specific numbers shown below may be slightly deceptive in case of Mass Assault."
+  },
+  {
+   "k": "jig2rc",
+   "en": "All divisions have support companies: engineer, artillery, anti-tank, and anti-air."
+  },
+  {
+   "k": "16a3u36",
+   "en": "10x Infantry (1939) Table"
+  },
+  {
+   "k": "zcojl4",
+   "en": "Doctrine with Variation"
+  },
+  {
+   "k": "z5hpwe",
+   "en": "Base Values"
+  },
+  {
+   "k": "1qne5pg",
+   "en": "Max. Planning (Attacker)"
+  },
+  {
+   "k": "1kcbqw8",
+   "en": "Max. Entrenchment (Defender)"
+  },
+  {
+   "k": "1a7h91j",
+   "en": "Soft Attack"
+  },
+  {
+   "k": "5khn0g",
+   "en": "Hard Attack"
+  },
+  {
+   "k": "fc2ybl",
+   "en": "Breakthrough"
+  },
+  {
+   "k": "1y4gvsj",
+   "en": "Defense"
+  },
+  {
+   "k": "16et4ql",
+   "en": "Avg. Org."
+  },
+  {
+   "k": "tukn3b",
+   "en": "Mobile Warfare L&L"
+  },
+  {
+   "k": "mmuz21",
+   "en": "Mobile Warfare L&R"
+  },
+  {
+   "k": "1308aux",
+   "en": "Mobile Warfare R&L"
+  },
+  {
+   "k": "1a7xyw7",
+   "en": "Mobile Warfare R&R"
+  },
+  {
+   "k": "swtrnt",
+   "en": "Superior Firepower L&L"
+  },
+  {
+   "k": "r8w5hz",
+   "en": "Superior Firepower L&R"
+  },
+  {
+   "k": "tiebbr",
+   "en": "Superior Firepower R&L"
+  },
+  {
+   "k": "v6bxhl",
+   "en": "Superior Firepower R&R"
+  },
+  {
+   "k": "ensivi",
+   "en": "Grand Battleplan L"
+  },
+  {
+   "k": "8k19m4",
+   "en": "Grand Battleplan R"
+  },
+  {
+   "k": "1awrkyy",
+   "en": "Mass Assault L"
+  },
+  {
+   "k": "1bgqscw",
+   "en": "Mass Assault R"
+  },
+  {
+   "k": "1ne40bd",
+   "en": "10x Motorized Infantry (1939) Table"
+  },
+  {
+   "k": "16ogtc9",
+   "en": "7x Infantry (1939) 2x Artillery (1939) Table"
+  },
+  {
+   "k": "1l6h7fb",
+   "en": "7x Motorized Infantry (1939) 2x Motorized Rocket Artillery (1939) Table"
+  },
+  {
+   "k": "1eh6n6g",
+   "en": "3x Motorized Infantry (1939) 7x Medium Tank (1939) Table"
+  },
+  {
+   "k": "10gf145",
+   "en": "3x Motorized Infantry (1939) 4x Medium Tank (1939) 2x Medium SP Artillery Table"
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "zxdd0e",
+   "en": "Kaiserreich is an alternate history ⟦0⟧ for Darkest Hour and Hearts of Iron IV. The point of divergence in this mod is the Central Power victory over the Entente in the first World War. It can be downloaded from this forum thread or on the Steam Workshop.",
+   "frags": 1
+  },
+  {
+   "k": "1xiqtyb",
+   "en": "Total Conversion Mod"
+  },
+  {
+   "k": "u1k6p6",
+   "en": "Features"
+  },
+  {
+   "k": "15uy0oo",
+   "en": "An immersive alternative history scenario"
+  },
+  {
+   "k": "ixntpt",
+   "en": "A completely new political system including party popularity and ministers"
+  },
+  {
+   "k": "1chlxlb",
+   "en": "A reworked map with new states and provinces"
+  },
+  {
+   "k": "pr8z4n",
+   "en": "Ten different ideologies"
+  },
+  {
+   "k": "1jh998a",
+   "en": "Tens of thousands of new events that offer a wide range of different possibilities"
+  },
+  {
+   "k": "10kf2pc",
+   "en": "Hundreds of decisions both generic and nation specific"
+  },
+  {
+   "k": "1lrg529",
+   "en": "Over 100 focus trees including dynamic trees that change during the game"
+  },
+  {
+   "k": "1fcdw6q",
+   "en": "Coloured portraits for every country leader and military leader"
+  },
+  {
+   "k": "pwrsrl",
+   "en": "Hundreds of companies and ministers for all countries"
+  },
+  {
+   "k": "1i95m0j",
+   "en": "Custom UI giving more options and more information"
+  },
+  {
+   "k": "gnk4bd",
+   "en": "Thousands of handmade GFX for ideas, focuses and more"
+  },
+  {
+   "k": "i183wk",
+   "en": "Dozens of 3D models"
+  },
+  {
+   "k": "shhfyo",
+   "en": "Planned features"
+  },
+  {
+   "k": "1tdg9ms",
+   "en": "Even more events, decisions and other content"
+  },
+  {
+   "k": "19lfmlt",
+   "en": "Focus trees for every starting nation"
+  },
+  {
+   "k": "16fnzf4",
+   "en": "Reworked and improved older trees"
+  },
+  {
+   "k": "yugfpb",
+   "en": "History"
+  },
+  {
+   "k": "1nnbjkd",
+   "en": "The history of the Kaiserreich timeline is the same as our timeline until 1917, when the Kaiser ultimately decides not to restart unrestricted submarine warfare. Without the help of the United States, the French military is unable to push the Germans back, eventually collapsing under a German offensive and capitulating to the Germans. As the Central Powers and the Entente were now either unwilling or unable to destroy the other, the Central Powers first divided the spoils of war, then offered a \"Peace with Honour\" to the Entente, ending the Weltkrieg on November 11, 1921."
+  },
+  {
+   "k": "b5ebpx",
+   "en": "After fighting a brutal seven-year war with nothing to show for it, both France and Great Britain fall to syndicalist (a branch of socialism) rebellions. The Commune of France and the Union of Britain are formed, while the exiled governments escape to North Africa and Canada respectively. When Britain falls, some territories such as Gibraltar, Cyprus, and Malta are seized by other countries. Australia and New Zealand form the Australasian Confederation. India splits into three: the loyalist Dominion of India in the west, syndicalist Bharatiyan Commune in the east, and independent Princely Federation in the South. South Africa stays loyal but later votes to leave the Entente. The various island colonies of Britain and France join to form the Caribbean Federation."
+  },
+  {
+   "k": "pw84ze",
+   "en": "In the decades since the Weltkrieg, the world has been an unstable and violent place. The Russian socialist revolution is crushed by the White Russians with the help of German troops. However, during the revolution, a number of new states have formed or were created. These include the United Baltic Duchy, Lithuania, White Ruthenia, the Kingdom of Ukraine, the Don-Kuban Union, the Alash Autonomy, and Transamur. China has been split into multiple pieces as well. There is the reformed Qing Empire, the Fengtian Government, the League Of Eight Provinces, the Legation Cities, the Ma, and Yunnan Cliques, Shangqing, and Tibet. Italy is split into various states, but following a French-backed Syndicalist uprising in the north which forms the Socialist Republic of Italy, the Pope seizes land surrounding Rome, and Republicans declare their own state in the northeast. As a result, the Kingdom of the Two Sicilies was the only one of the balkanized Italian states to remain, and the former ruling House of Savoy fled to Sardinia."
+  },
+  {
+   "k": "1cfg5qy",
+   "en": "In the Americas, Woodrow Wilson does not run for a second term, and the Republican Leonard Wood is elected as president and is reelected before dying in his second term. He is succeeded by Herbert Hoover, who presides over the 1929 crash of the New York Stock Exchange and the start of the Great Depression. The Great Depression only affects the Americas, as most of the world now revolves around the Berlin Stock Exchange. The Mexican government is overthrown by syndicalist Zapatistas. A syndicalist Centroamerica causes its neighbors in Central America to form the United Provinces. Argentina wins a war against Bolivia and Brazil and annexes Paraguay and Uruguay to form the Federation of La Plata."
+  },
+  {
+   "k": "qf47hl",
+   "en": "Events during the early game"
+  },
+  {
+   "k": "1gdjxoi",
+   "en": "Black Monday - The 1936 of the Berlin Stock Exchange triggers a global economic depression, devastating Germany's economy and rippling across the entire Weltkrieg-torn world."
+  },
+  {
+   "k": "pizn5e",
+   "en": "Second American Civil War - Following the controversial 1936 election, the United States descends into chaos as the Workers' Congress of America, the American Union State, and the Pacific States of America each break away in response to federal collapse, military overreach, or populist revolt."
+  },
+  {
+   "k": "skrqkl",
+   "en": "Spanish Civil War - The Iberian Peninsula fractures as competing visions for Spain’s future clash: Republican loyalists, the anarcho-syndicalist CNT-FAI, and the traditionalist Carlists all take up arms against the embattled monarchy or each other, depending on how early conflicts unfold."
+  },
+  {
+   "k": "1lahj8f",
+   "en": "Collapse of the League of Eight Provinces - Upon the death of Sun Chuanfang, the fragile unity of the LEP disintegrates. Warlordism returns to Southern China, with rival cliques, reformists, and the KMT vying for control over the future of the Chinese heartland."
+  },
+  {
+   "k": "mhjwqw",
+   "en": "The Second Weldkrieg, (WW2) Starts with a War between Syndicalist France and Germany causes a war between The 3rd International and the Reichpakt, which leads to a war between the following faction: The 3rd International is at war with the Reichpakt and the Entente. The Reichpakt is at war with the 3rd International, The Moscow accords, and the Entente. The Entente is at war with The 3rd International and the Reichpakt. The Moscow Accords are at war with the Reichpakt."
+  },
+  {
+   "k": "lbe7q5",
+   "en": "The below is a collection of PDX video tutorials for ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "dmo6mc",
+   "en": "Hearts of Iron IV"
+  },
+  {
+   "k": "1apndzy",
+   "en": "No Compromise, No Surrender tutorials"
+  },
+  {
+   "k": "129g3n7",
+   "en": "Arms Against Tyranny tutorials"
+  },
+  {
+   "k": "bbxl5s",
+   "en": "By Blood Alone tutorials"
+  },
+  {
+   "k": "16fxzfg",
+   "en": "No Step Back tutorials"
+  },
+  {
+   "k": "1ymsxng",
+   "en": "La Résistance tutorials"
+  },
+  {
+   "k": "e0jx0c",
+   "en": "Man the Guns tutorials"
+  },
+  {
+   "k": "1q4f2qy",
+   "en": "Hearts of Iron 4 tutorials"
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "1hyf67b",
+   "en": "Game"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "u1k6p6",
+   "en": "Features"
+  },
+  {
+   "k": "xrnqxs",
+   "en": "Game rules"
+  },
+  {
+   "k": "qteedx",
+   "en": "Ironman"
+  },
+  {
+   "k": "cvepmw",
+   "en": "Guides"
+  },
+  {
+   "k": "bdm93l",
+   "en": "Beginner's guide"
+  },
+  {
+   "k": "1uzifys",
+   "en": "Console commands"
+  },
+  {
+   "k": "1khciow",
+   "en": "Hotkeys"
+  },
+  {
+   "k": "1h8mxql",
+   "en": "Map modes"
+  },
+  {
+   "k": "6q2ked",
+   "en": "Tutorial videos"
+  },
+  {
+   "k": "lshcot",
+   "en": "User interface"
+  },
+  {
+   "k": "190d1fu",
+   "en": "Development"
+  },
+  {
+   "k": "sz859i",
+   "en": "Developer diaries"
+  },
+  {
+   "k": "5umivg",
+   "en": "Downloadable content"
+  },
+  {
+   "k": "1r8wvbp",
+   "en": "Patches"
+  },
+  {
+   "k": "1n72qry",
+   "en": "Community"
+  },
+  {
+   "k": "uet7re",
+   "en": "Jargon"
+  },
+  {
+   "k": "9m30fv",
+   "en": "Modding"
+  },
+  {
+   "k": "1dozq5p",
+   "en": "For information on the structure and making of mods, see ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "qo6gg9",
+   "en": "A ⟦0⟧, short for ⟦1⟧, is an alteration of the game files to change the game's functionality. It also makes it more fun. You can add cheats like EasyBuff or Go back to WW1 in The Great War Redux.",
+   "frags": 2
+  },
+  {
+   "k": "j1lzc3",
+   "en": "Mod"
+  },
+  {
+   "k": "1oobu71",
+   "en": "modification"
+  },
+  {
+   "k": "1rnz7o1",
+   "en": "Good practice"
+  },
+  {
+   "k": "171nf1e",
+   "en": "Make sure that your mod contains a good description of what it does, as well as having a good front page image."
+  },
+  {
+   "k": "lbh0zx",
+   "en": "Installation"
+  },
+  {
+   "k": "1dtse59",
+   "en": "Mods can be installed manually from sources such as the Paradox Forums, installed automatically from Paradox Mods by the launcher or via the Steam Workshop."
+  },
+  {
+   "k": "1mz6z8q",
+   "en": "The folder that stores mods for the game is:"
+  },
+  {
+   "k": "10screr",
+   "en": "Windows: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "b5e90r",
+   "en": "...\\Documents\\Paradox Interactive\\Hearts of Iron IV\\mod\\"
+  },
+  {
+   "k": "1m12czz",
+   "en": "GNU/Linux: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1q2keaf",
+   "en": "~/.local/share/Paradox Interactive/Hearts of Iron IV/mod/"
+  },
+  {
+   "k": "1o5d4ix",
+   "en": "Mac: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "16be4zy",
+   "en": "~/Documents/Paradox Interactive/Hearts of Iron IV/mod/"
+  },
+  {
+   "k": "116eaef",
+   "en": "Manually downloaded mods should include a ⟦0⟧ text file along with a folder. If so, the files can simply be dropped into the mod folder. If one is downloading a newer version of a mod they already have installed, one should remove the older files first.",
+   "frags": 1
+  },
+  {
+   "k": "1gvd9y7",
+   "en": ".mod"
+  },
+  {
+   "k": "1p125s2",
+   "en": "Mod lists"
+  },
+  {
+   "k": "1ylfy3x",
+   "en": "Paradox official mod list"
+  },
+  {
+   "k": "qqjlak",
+   "en": "Mods with Wiki pages"
+  },
+  {
+   "k": "m3p3t3",
+   "en": "Wiki pages for modifications are the responsibility of the modification team, not the Paradox wiki team"
+  },
+  {
+   "k": "3mqckv",
+   "en": "Ancient Formable Nations"
+  },
+  {
+   "k": "1vcqdkt",
+   "en": "Equestria At War"
+  },
+  {
+   "k": "24htpt",
+   "en": "HOI4 ULTRA (Historical Industry Project)"
+  },
+  {
+   "k": "1da8g49",
+   "en": "Kaiserreich"
+  },
+  {
+   "k": "g222e6",
+   "en": "The Road to 56"
+  },
+  {
+   "k": "jhsegk",
+   "en": "Victoria 2 to Hearts of Iron IV converter"
+  },
+  {
+   "k": "9xu0op",
+   "en": "Victoria 3 to Hearts of Iron IV converter"
+  },
+  {
+   "k": "z0tcex",
+   "en": "This is a partial list of the ⟦0⟧'s ⟦1⟧ (from ⟦2⟧). The other portion of the event list can be found ⟦3⟧",
+   "frags": 4
+  },
+  {
+   "k": "1jjpogc",
+   "en": "Soviet Union"
+  },
+  {
+   "k": "589chw",
+   "en": "events"
+  },
+  {
+   "k": "wzvfcc",
+   "en": "/Hearts of Iron IV/events/NSB_Soviet.txt"
+  },
+  {
+   "k": "97y18r",
+   "en": "here"
+  },
+  {
+   "k": "1nrhbqq",
+   "en": "Soviet Communist Civil War (id 001 - 010)"
+  },
+  {
+   "k": "bu1k9z",
+   "en": "Other 2"
+  },
+  {
+   "k": "1u5t8wn",
+   "en": "Shared Soviet Civil War Events (id 001 - 010)"
+  },
+  {
+   "k": "ve6gz5",
+   "en": "Foreign Concessions (id 100 - 124)"
+  },
+  {
+   "k": "j7jtd7",
+   "en": "Shared Soviet Civil War Events 2 (id 125 - 129)"
+  },
+  {
+   "k": "1c4udvu",
+   "en": "Nationalist Uprisings (id 000 - 004)"
+  },
+  {
+   "k": "72ew1d",
+   "en": "Reconvene the Zemsky Sobor (id 1 - 33)"
+  },
+  {
+   "k": "4f76ga",
+   "en": "Notes"
+  },
+  {
+   "k": "12czhq1",
+   "en": "Sets global flag ⟦0⟧ If we are exiles: Gains military access from ⟦1⟧ Disables political paranoia Deletes \"NKVD Pogranichnaya Diviziya\" divisions",
+   "frags": 2
+  },
+  {
+   "k": "jyqmlb",
+   "en": "SOV_soviet_civil_war"
+  },
+  {
+   "k": "11tcwh4",
+   "en": "Manchukuo"
+  },
+  {
+   "k": "6lngb3",
+   "en": "Loses border war with ⟦0⟧ Dismantles current faction Starts civil war against ⟦1⟧ Party ⟦2⟧ creates division template \"Gvardia\" with 9 Infantry regiments and Support Artillery ⟦3⟧ creates 2 \"Gvardia\" divisions in the capital If NKVD is aligned: Creates 13 \"NKVD Pogranichnaya Diviziya\" divisions in the capital If Head of NKVD is aligned: Creates 4 \"NKVD Pogranichnaya Diviziya\" divisions in random owned states ⟦4⟧ creates all unaligned \"NKVD Pogranichnaya Diviziya\" divisions If Communist Opposition: unlocks template \"NKVD Pogranichnaya Diviziya\" else: deletes template and divisions \"NKVD Pogranichnaya Diviziya\" Moves capital to secret headquarters or random owned state that isnt ⟦5⟧ Chita gains Supply Hub and 4 Victory Points if ⟦6⟧ is capital If is AI and Army Support is less than 55%: Increases Army Support by 25% ⟦7⟧ gains ⟦8⟧:",
+   "frags": 9
+  },
+  {
+   "k": "193rgu3",
+   "en": "Japan"
+  },
+  {
+   "k": "1ltkhsy",
+   "en": "Communist"
+  },
+  {
+   "k": "1i27ru9",
+   "en": "Stalinists"
+  },
+  {
+   "k": "1ohpv92",
+   "en": "Moscow (219)"
+  },
+  {
+   "k": "vr75sx",
+   "en": "Chita (563)"
+  },
+  {
+   "k": "1sl6dmg",
+   "en": "national spirit"
+  },
+  {
+   "k": "mzg8xt",
+   "en": "Flag of Soviet Union"
+  },
+  {
+   "k": "eigak3",
+   "en": "Flag of Manchukuo"
+  },
+  {
+   "k": "5dkhsc",
+   "en": "Flag of Japan"
+  }
+ ]
+}

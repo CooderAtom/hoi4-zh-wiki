@@ -1,0 +1,1354 @@
+{
+ "batch": 113,
+ "pages": [
+  "Defines"
+ ],
+ "chars": 14995,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "9lecch",
+   "en": "DEFAULT_STOP_PROJECT_DAYS"
+  },
+  {
+   "k": "ctecry",
+   "en": "The amount of days it takes for a cancelled project to be stopped."
+  },
+  {
+   "k": "tapemy",
+   "en": "DAYS_TO_REMOVE_SCIENTIST"
+  },
+  {
+   "k": "1xtu9bh",
+   "en": "Amount of days needed for a scientist to be unassigned."
+  },
+  {
+   "k": "1uwbwku",
+   "en": "DISMANTLE_FACILITY_DAYS"
+  },
+  {
+   "k": "1jgbkx6",
+   "en": "Amount of days needed to dismantle a facility."
+  },
+  {
+   "k": "85vnwa",
+   "en": "PROTOTYPE_PHASE_MAX_PROGRESS"
+  },
+  {
+   "k": "4kh4sz",
+   "en": "the number of progress points needed to finish the prototype phase and complete the project"
+  },
+  {
+   "k": "1pun65w",
+   "en": "MINIMUM_PROJECT_SPEED_FACTOR_FROM_SUPPLY"
+  },
+  {
+   "k": "7g5jiu",
+   "en": "Minimum special project research speed based on supply"
+  },
+  {
+   "k": "e3oacs",
+   "en": "NEEDED_SUPPLY_FOR_FULL_SPEED_PROJECT"
+  },
+  {
+   "k": "14nrd23",
+   "en": "Supply needed in province to get full research speed for special project"
+  },
+  {
+   "k": "qll8qh",
+   "en": "MINIMUM_PROJECT_SPEED_FACTOR_FROM_RESOURCE_SHORTAGE"
+  },
+  {
+   "k": "ivosqk",
+   "en": "Minimum special project research speed factor based on resource shortage^M"
+  },
+  {
+   "k": "r5spbh",
+   "en": "ITERATION_REWARD_DEFAULT_WEIGHT"
+  },
+  {
+   "k": "1c4brn2",
+   "en": "If no weight is specified, set it to 1.0"
+  },
+  {
+   "k": "aysclz",
+   "en": "DEFAULT_PROJECT_COMPLETION_SCIENTIST_EXPERIENCE_GAIN"
+  },
+  {
+   "k": "1xflm3v",
+   "en": "Default experience gain for assigned scientist when a project is completed"
+  },
+  {
+   "k": "17pkafn",
+   "en": "SCIENTIST_INJURED_FACTOR"
+  },
+  {
+   "k": "1xthdaf",
+   "en": "A factor to reduce the amount of progress gained in a program with attached injured scientist. E.g. 0.5 reduces the progress by 50%"
+  },
+  {
+   "k": "18q7on5",
+   "en": "RECRUIT_SCIENTIST_ONE_TRAIT_CHANCE"
+  },
+  {
+   "k": "1scs28",
+   "en": "Chance to get one trait when creating a scientist. E.g. 0.35 = 35% chance to get a trait"
+  },
+  {
+   "k": "x61uij",
+   "en": "SCIENTIST_BASIC_RESEARCH_DAILY_XP_GAIN"
+  },
+  {
+   "k": "edyss0",
+   "en": "Daily experience gain for doing basic research"
+  },
+  {
+   "k": "1mqrgpw",
+   "en": "RECRUIT_SCIENTIST_COST"
+  },
+  {
+   "k": "6bgvhb",
+   "en": "pp cost if no available scientist pp cost if 1 available scientist pp cost if 2 available scientist pp cost if more than 2 available scientist"
+  },
+  {
+   "k": "xs3icr",
+   "en": "Amount of pp to hire a scientist based on available scientist"
+  },
+  {
+   "k": "ju7exv",
+   "en": "SCIENTIST_SKILL_LEVEL_THRESHOLDS"
+  },
+  {
+   "k": "zeg8ep",
+   "en": "to go from level 0 to level 1 to go from level 1 to level 2 to go from level 2 to level 3 ... Max level = Array size"
+  },
+  {
+   "k": "pzma0l",
+   "en": "Threshold for scientist to level up"
+  },
+  {
+   "k": "1dk8jv2",
+   "en": "SCIENTIST_SKILL_LEVEL_SPEED_MODIFIER"
+  },
+  {
+   "k": "1re7bf8",
+   "en": "-1.0 means -100% also name loc key is SCIENTIST_SKILL_LEVEL_NAME_0 -0.05 means -5% also name loc key is SCIENTIST_SKILL_LEVEL_NAME_1 0 means no change also name loc key is SCIENTIST_SKILL_LEVEL_NAME_2 0.15 means +15% ... -- Size MUST be SCIENTIST_SKILL_LEVEL_THRESHOLDS's size + 1"
+  },
+  {
+   "k": "1cvnufs",
+   "en": "Bonus to apply to daily phase progress according to the skill level of the scientist"
+  },
+  {
+   "k": "5n96mf",
+   "en": "PROJECT_LOSS_FACTOR_ON_CAPTURE"
+  },
+  {
+   "k": "1ukq2h5",
+   "en": "Factor of lost progress on project when facility is captured"
+  },
+  {
+   "k": "14k38pf",
+   "en": "PROJECT_CAPTURE_GAIN_RATIO"
+  },
+  {
+   "k": "gkjuun",
+   "en": "Ratio of difference from captured facilities ongoing project to receive to the captors' progress"
+  },
+  {
+   "k": "1l885me",
+   "en": "PROJECT_CAPTURE_BREAKTHROUGH_PROGRESS"
+  },
+  {
+   "k": "1frzuu8",
+   "en": "Ratio of breakthrough progress on capture to the captor for the facilities specialization"
+  },
+  {
+   "k": "1yq9cv8",
+   "en": "PROJECT_CAPTURE_DIMINISHING_RETURN"
+  },
+  {
+   "k": "voqd8",
+   "en": "Reduced amount of gain when capturing a facility with a project you already gained. Will apply the factor each time a capture occurs. 0.6 means a reduction of 60% on next project capture."
+  },
+  {
+   "k": "swxhdg",
+   "en": "BASIC_RESEARCH_TECHNOLOGY_BONUS_FACTOR"
+  },
+  {
+   "k": "162gcey",
+   "en": "Bonus research factor applied to technologies per scientist skill level when performing basic research in a matching facility."
+  },
+  {
+   "k": "ryum37",
+   "en": "BASIC_RESEARCH_TECHNOLOGY_BONUS_DIMINISHING_RETURN_FACTOR"
+  },
+  {
+   "k": "14lxnbs",
+   "en": "Diminishing return on BASIC_RESEARCH_TECHNOLOGY_BONUS_FACTOR for each extra scientist performing basic research for multiple facilities."
+  },
+  {
+   "k": "doddkw",
+   "en": "BREAKTHROUGH_DAILY_TECHNOLOGY_GAIN"
+  },
+  {
+   "k": "pzuj0n",
+   "en": "Amount in 1/100th percentage. E.g. 25 = 0.25%"
+  },
+  {
+   "k": "7pcft2",
+   "en": "BREAKTHROUGH_DAILY_SCIENTIST_SKILL_GAIN"
+  },
+  {
+   "k": "1tu7o9h",
+   "en": "Amount in 1/100th percentage gained per skill when doing basic research. E.g. 5 = 0.05% per skill level."
+  },
+  {
+   "k": "fh37f8",
+   "en": "BREAKTHROUGH_DAILY_ROCKET_SITE_GAIN"
+  },
+  {
+   "k": "1blgzwd",
+   "en": "Amount in 1/100th percentage gained per rocket site level. E.g. 1 = 0.01% per rocket site level."
+  },
+  {
+   "k": "58v1ir",
+   "en": "BREAKTHROUGH_DAILY_NUCLEAR_REACTOR_GAIN"
+  },
+  {
+   "k": "clso4f",
+   "en": "Amount in 1/100th percentage gained per nuclear reactor. E.g. 2 = 0.02% per nuclear reactor."
+  },
+  {
+   "k": "x9kydp",
+   "en": "BREAKTHROUGH_GAIN_ANIMATION_SPEED_MAX"
+  },
+  {
+   "k": "1cw9ct5",
+   "en": "The animation for gaining breakthrough progress is a ratio of this value and current daily gain."
+  },
+  {
+   "k": "kignaq",
+   "en": "NRaids"
+  },
+  {
+   "k": "909hka",
+   "en": "BASE_DAYS_TO_PREPARE"
+  },
+  {
+   "k": "1426hh8",
+   "en": "Base number of days required to complete raid preparation phase"
+  },
+  {
+   "k": "wco3u7",
+   "en": "MAX_STATE_TARGETS_TO_EVALUATE_PER_HOUR"
+  },
+  {
+   "k": "16vb5lq",
+   "en": "PERFORMANCE (HOURLY TICK) : higher number = faster state target re-evaulation + lower performance"
+  },
+  {
+   "k": "1404tw6",
+   "en": "RAID_TARGET_ITEM_POOL_SIZE"
+  },
+  {
+   "k": "1rlshmn",
+   "en": "PERFORMANCE (UI) : number of entries to reserve in the raid target item pool"
+  },
+  {
+   "k": "e6yhe1",
+   "en": "RAID_TYPE_ICON_ITEM_POOL_SIZE"
+  },
+  {
+   "k": "1sqkgpp",
+   "en": "PERFORMANCE (UI) : number of entries to reserve in the raid type icon item pool"
+  },
+  {
+   "k": "fvhs87",
+   "en": "RAID_LOW_RISK_SETTING_DISASTER_MODIFIER"
+  },
+  {
+   "k": "fkv0xk",
+   "en": "How much the disaster risk is modified when the dial is set to \"low\""
+  },
+  {
+   "k": "1dfar34",
+   "en": "RAID_MEDIUM_RISK_SETTING_DISASTER_MODIFIER"
+  },
+  {
+   "k": "o4cbzj",
+   "en": "How much the disaster risk is modified when the dial is set to \"medium\""
+  },
+  {
+   "k": "v49dv1",
+   "en": "RAID_HIGH_RISK_SETTING_DISASTER_MODIFIER"
+  },
+  {
+   "k": "58o22a",
+   "en": "How much the disaster risk is modified when the dial is set to \"high\""
+  },
+  {
+   "k": "16kyb7",
+   "en": "RAID_SUCCESS_MODIFIER_THRESHOLD_BAD"
+  },
+  {
+   "k": "j02r9e",
+   "en": "If a success chance modifier is below this value, it will be displayed in red"
+  },
+  {
+   "k": "2req7j",
+   "en": "RAID_SUCCESS_MODIFIER_THRESHOLD_NEUTRAL"
+  },
+  {
+   "k": "1fom5o7",
+   "en": "If a success chance modifier is below this value, it will be displayed in yellow"
+  },
+  {
+   "k": "13r9kjw",
+   "en": "MAX_DETECTED_TARGETS_PER_HOUR"
+  },
+  {
+   "k": "1b2y90x",
+   "en": "PERFORMANCE (HOURLY TICK) : max number of targets to be detected per hour, NOTE : keep this low because detection is checked against every country!"
+  },
+  {
+   "k": "1fzbdb3",
+   "en": "RAID_DEFAULT_TARGET_COOLDOWN_DAYS"
+  },
+  {
+   "k": "1hhneb9",
+   "en": "The default cooldown (in days) for raiding the same target, can be overriden for specific raid types through script"
+  },
+  {
+   "k": "up42o2",
+   "en": "RAID_UNIT_SPEED_MULTIPLIER"
+  },
+  {
+   "k": "11r52bc",
+   "en": "Global speed control"
+  },
+  {
+   "k": "1wsnh77",
+   "en": "BASE_NAVAL_COMMANDO_RAID_DISTANCE"
+  },
+  {
+   "k": "1lpd98a",
+   "en": "Max distance in kilometers"
+  },
+  {
+   "k": "1kyg60n",
+   "en": "RAID_LOW_RISK_SETTING_SUCCESS_MODIFIER"
+  },
+  {
+   "k": "e7vvpp",
+   "en": "How much the success chance is modified when the dial is set to \"low\""
+  },
+  {
+   "k": "3c8zte",
+   "en": "RAID_MEDIUM_RISK_SETTING_SUCCESS_MODIFIER"
+  },
+  {
+   "k": "1u8vmox",
+   "en": "RAID_HIGH_RISK_SETTING_SUCCESS_MODIFIER"
+  },
+  {
+   "k": "1xtu6nj",
+   "en": "TARGET_DETECTION_INTEL_TRESHOLD"
+  },
+  {
+   "k": "1jd07ot",
+   "en": "How much intel is needed for a target to be detected?"
+  },
+  {
+   "k": "47t30w",
+   "en": "TARGET_INTEL_PER_CIVILIAN_INTEL_OVER_COUNTRY"
+  },
+  {
+   "k": "1e8w8ss",
+   "en": "Intel level over target country is scaled by this value"
+  },
+  {
+   "k": "tgzpj8",
+   "en": "TARGET_INTEL_PER_ARMY_INTEL_OVER_COUNTRY"
+  },
+  {
+   "k": "yjfdl7",
+   "en": "TARGET_INTEL_PER_NAVY_INTEL_OVER_COUNTRY"
+  },
+  {
+   "k": "1e4poiy",
+   "en": "TARGET_INTEL_PER_AIRFORCE_INTEL_OVER_COUNTRY"
+  },
+  {
+   "k": "1ic0yny",
+   "en": "TARGET_INTEL_PER_NETWORK_STRENGTH"
+  },
+  {
+   "k": "zdrdbj",
+   "en": "Intel network strength in target state is scaled by this value"
+  },
+  {
+   "k": "7gdqm6",
+   "en": "TARGET_INTEL_FROM_CONTROLLED_NEIGHBOUR_STATES"
+  },
+  {
+   "k": "1tx3ko6",
+   "en": "Flat bonus for having control over at least one neighbour state"
+  },
+  {
+   "k": "k4lqfm",
+   "en": "TARGET_INTEL_PER_AIR_SUPERIORITY"
+  },
+  {
+   "k": "c4d0qb",
+   "en": "Air superiority over target region is scaled by this value"
+  },
+  {
+   "k": "191qk8k",
+   "en": "TARGET_INTEL_FROM_DECRYPTION"
+  },
+  {
+   "k": "1rbw7tz",
+   "en": "Flat bonus for having fully decrypted their ciphers"
+  },
+  {
+   "k": "p9j94i",
+   "en": "TARGET_INTEL_PENALTY_PER_ENEMY_COUNTER_INTEL"
+  },
+  {
+   "k": "2du6jb",
+   "en": "Enemy counter intel is scaled by this value"
+  },
+  {
+   "k": "1ug44i6",
+   "en": "RAID_OUTCOME_REPORT_DAYS_TO_LIVE"
+  },
+  {
+   "k": "7n6uw2",
+   "en": "How many days after a raid has ended will the raid outcome report be visible on the map before being automatically dismissed"
+  },
+  {
+   "k": "egvhut",
+   "en": "NUCLEAR_BOMB_PRODUCTION_SCALE"
+  },
+  {
+   "k": "18emrz",
+   "en": "+1 nuclear_production gives 1 nuke per 7 years"
+  },
+  {
+   "k": "6repxs",
+   "en": "THERMONUCLEAR_BOMB_PRODUCTION_SCALE"
+  },
+  {
+   "k": "ewulh",
+   "en": "NUCLEAR_BOMB_MIN_DAMAGE_PERCENT"
+  },
+  {
+   "k": "1mxf7sv",
+   "en": "NUCLEAR_BOMB_MAX_DAMAGE_PERCENT"
+  },
+  {
+   "k": "1c6vobo",
+   "en": "THERMONUCLEAR_BOMB_MIN_DAMAGE_PERCENT"
+  },
+  {
+   "k": "139jxqu",
+   "en": "THERMONUCLEAR_BOMB_MAX_DAMAGE_PERCENT"
+  },
+  {
+   "k": "1bc90fn",
+   "en": "NUCLEAR_RAID_CATEGORY_NAME"
+  },
+  {
+   "k": "tw3r7r",
+   "en": "\"nuclear_raids\""
+  },
+  {
+   "k": "y6bnd8",
+   "en": "The raid category to activate when clicking on the \"nuclear\" mission button for a rocket"
+  },
+  {
+   "k": "1lhh5m5",
+   "en": "ARMY_TRANSFER_MOVE_SAFELY"
+  },
+  {
+   "k": "1gfze5m",
+   "en": "Whether to move safely when transferring divisions to the raid source"
+  },
+  {
+   "k": "10il41z",
+   "en": "ARMY_TRANSFER_AVOID_ENEMY"
+  },
+  {
+   "k": "fkuncu",
+   "en": "Whether to avoid enemy when transferring divisions to the raid source"
+  },
+  {
+   "k": "1ys5nwy",
+   "en": "MAX_TARGETS_TO_UPDATE_PER_FRAME"
+  },
+  {
+   "k": "6ccd5y",
+   "en": "PERFORMANCE (FRAME) : max raid targets to evaluate per frame (affects raid map icon refresh rate)"
+  },
+  {
+   "k": "196byfp",
+   "en": "NWiki"
+  },
+  {
+   "k": "1enlnr2",
+   "en": "BASE_URL"
+  },
+  {
+   "k": "cg386u",
+   "en": "https://hoi4.paradoxwikis.com/"
+  },
+  {
+   "k": "ee0xi4",
+   "en": "FORUM_URL"
+  },
+  {
+   "k": "4p8gdb",
+   "en": "\"https://forum.paradoxplaza.com/forum/index.php?forums/hearts-of-iron-iv.844/\""
+  },
+  {
+   "k": "m3823e",
+   "en": "NMapMode"
+  },
+  {
+   "k": "1vndxp4",
+   "en": "FABRICATE_CLAIM_SELECTED_SECONDARY_COLOR"
+  },
+  {
+   "k": "qbznjl",
+   "en": "FABRICATE_CLAIM_TARGET_COUNTRY_SECONDARY_COLOR"
+  },
+  {
+   "k": "1enzh39",
+   "en": "FABRICATE_CLAIM_NON_TARGET_COUNTRY_SECONDARY_COLOR"
+  },
+  {
+   "k": "139qugu",
+   "en": "FABRICATE_CLAIM_ALREADY_CLAIM_SECONDARY_COLOR"
+  },
+  {
+   "k": "1fw8p93",
+   "en": "FABRICATE_CLAIM_ALREADY_CORE_SECONDARY_COLOR"
+  },
+  {
+   "k": "rbktp4",
+   "en": "CONSTRUCTION_MAP_MODE_BUILDING_DEFAULT_COLOR"
+  },
+  {
+   "k": "rxtepf",
+   "en": "Color of states/provinces that can't be built on"
+  },
+  {
+   "k": "1t72zrm",
+   "en": "CONSTRUCTION_MAP_MODE_BUILDING_MAX_LEVEL_COLOR"
+  },
+  {
+   "k": "aul80j",
+   "en": "Color of states/provinces where current building level is maxed out (max is current max level, not final max level) of a building type"
+  },
+  {
+   "k": "1qmss52",
+   "en": "CONSTRUCTION_MAP_MODE_BUILDING_LEVEL_LOW_COLOR"
+  },
+  {
+   "k": "1q03c8b",
+   "en": "CONSTRUCTION_MAP_MODE_BUILDING_LEVEL_HI_COLOR"
+  },
+  {
+   "k": "owkg3s",
+   "en": "CONSTRUCTION_MAP_MODE_BUILDING_MAX_AMOUNT_QUEUED_COLOR"
+  },
+  {
+   "k": "ekxe4v",
+   "en": "Color of states/provinces when building queue is maxed of a building type"
+  },
+  {
+   "k": "3heqze",
+   "en": "CONSTRUCTION_MAP_MODE_BUILDING_QUEUED_COLOR"
+  },
+  {
+   "k": "9yh1ob",
+   "en": "Color of states/provinces when building queue contains one or more of a building type."
+  },
+  {
+   "k": "1ibqnmw",
+   "en": "MAP_MODE_MANPOWER_RANGE_MAX"
+  },
+  {
+   "k": "1lxi7d2",
+   "en": "When a state has that much manpower, it will be colored with the color MAP_MODE_MANPOWER_RANGE_COLOR_TO. Everything below that will have an interpolated color."
+  },
+  {
+   "k": "1l8ka0m",
+   "en": "MAP_MODE_MANPOWER_RANGE_COLOR_FROM"
+  },
+  {
+   "k": "1abrpii",
+   "en": "Color range for manpower map mode."
+  },
+  {
+   "k": "dn0hfr",
+   "en": "MAP_MODE_MANPOWER_RANGE_COLOR_TO"
+  },
+  {
+   "k": "mrgta7",
+   "en": "MAP_MODE_INFRA_RANGE_COLOR_FROM"
+  },
+  {
+   "k": "bptpzk",
+   "en": "Color range for infrastructure map mode."
+  },
+  {
+   "k": "14pszwu",
+   "en": "MAP_MODE_INFRA_RANGE_COLOR_TO"
+  },
+  {
+   "k": "iqi4dl",
+   "en": "MAP_MODE_IDEOLOGY_COLOR_TRANSPARENCY"
+  },
+  {
+   "k": "1c7i77z",
+   "en": "In the Ideology map mode, the colors on the map are taken from the scriptable file 00_ideologies.txt for each group. We use them in the interfaces (pie-charts) where transparency is not used, but 100% opaque looks bad on the map. This is a variable to control the transparency of the color."
+  },
+  {
+   "k": "keadwh",
+   "en": "CONSTRUCTION_MAP_MODE_TRANSPARENCY_OVERRIDE"
+  },
+  {
+   "k": "usvsfv",
+   "en": "When you use gradient borders to defeat the purpose of gradient borders. Larger than 248 seems to make the transparency stronger?"
+  },
+  {
+   "k": "1ng4jaf",
+   "en": "PEACE_CONFERENCE_CURRENT_SELECTED_SECONDARY_COLOR"
+  },
+  {
+   "k": "1evqnf4",
+   "en": "PEACE_CONFERENCE_SELECTABLE_SECONDARY_COLOR"
+  },
+  {
+   "k": "h4368n",
+   "en": "PEACE_CONFERENCE_CONTESTED_SECONDARY_COLOR"
+  },
+  {
+   "k": "18u4kc5",
+   "en": "PEACE_CONFERENCE_CHANGE_TARGET_TAG_SECONDARY_COLOR"
+  },
+  {
+   "k": "1ry07no",
+   "en": "PEACE_CONFERENCE_DIFFERENT_STACKABLE_SECONDARY_COLOR"
+  },
+  {
+   "k": "1fomdnx",
+   "en": "FACTIONS_COLOR_NOT_MEMBER"
+  },
+  {
+   "k": "l5ik42",
+   "en": "FACTIONS_MEMBER_TRANSPARENCY"
+  },
+  {
+   "k": "1aohp5c",
+   "en": "PLAYER_MAPMODE_NOT_SELECTED_COUNTRY_TRANSPARENCY"
+  },
+  {
+   "k": "1nk65gf",
+   "en": "How much is the country colors faded out, for countries that are not occupied by the any player."
+  },
+  {
+   "k": "nfwkge",
+   "en": "SELECTED_COUNTRY_HIGHLIGHT_THICKNESS_MULT"
+  },
+  {
+   "k": "11djf94",
+   "en": "When a country is selected (blinking/highlighted) it's borders becomes a bit thicker, to make stand out even more. 1.0 is default thickness."
+  },
+  {
+   "k": "1tvab2s",
+   "en": "STRATEGIC_MODE_COUNTRY_COLOR_STRIPES_TRANSP"
+  },
+  {
+   "k": "1izqlun",
+   "en": "STRATEGIC_MODE_ENEMY_STRIPES_COLOR"
+  },
+  {
+   "k": "z6bftd",
+   "en": "STRATEGIC_MODE_OUR_STRIPES_COLOR"
+  },
+  {
+   "k": "7qyz2d",
+   "en": "STRATEGIC_MODE_ALLY_STRIPES_COLOR"
+  },
+  {
+   "k": "1myhpr4",
+   "en": "RADAR_RANGE_STRIPES_COLOR"
+  },
+  {
+   "k": "1uy9mu5",
+   "en": "RADAR_RANGE_COLOR"
+  },
+  {
+   "k": "186ratx",
+   "en": "RADAR_RANGE_ALLIED_COLOR"
+  },
+  {
+   "k": "krza3f",
+   "en": "RADAR_RANGE_SELECTED_COLOR"
+  },
+  {
+   "k": "xjohje",
+   "en": "RADAR_ROTATION_SPEED"
+  },
+  {
+   "k": "gtekuo",
+   "en": "AIR_RANGE_CAN_ASSIGN_MISSION_STRIPES_COLOR"
+  },
+  {
+   "k": "174zkng",
+   "en": "Stripes over the regions indicating if the currently selected air wings can have assigned mission there or not."
+  },
+  {
+   "k": "1ipyrib",
+   "en": "AIR_RANGE_CANNOT_ASSIGN_MISSION_STRIPES_COLOR"
+  },
+  {
+   "k": "t3wiz9",
+   "en": "AIR_RANGE_INDICATOR_DEFAULT_COLOR"
+  },
+  {
+   "k": "1qsuj5y",
+   "en": "On map circle indicating the air wings range."
+  },
+  {
+   "k": "6fi9m4",
+   "en": "AIR_RANGE_INDICATOR_NO_WINGS_COLOR"
+  },
+  {
+   "k": "6j1726",
+   "en": "Same as above, but for air wings with no airplanes."
+  },
+  {
+   "k": "1a8qrnm",
+   "en": "AIR_RANGE_INDICATOR_ROTATION_SPEED"
+  },
+  {
+   "k": "11fem87",
+   "en": "How quickly is that indicator rotating"
+  },
+  {
+   "k": "1886sof",
+   "en": "AIR_MISSION_ARROW_ACTIVE_COLOR"
+  },
+  {
+   "k": "gys273",
+   "en": "Color of the arrow drawn in the strategic air map mode, between the air base and the region for the active missions"
+  },
+  {
+   "k": "cheydm",
+   "en": "AIR_MISSION_ARROW_NONACTIVE_COLOR"
+  },
+  {
+   "k": "1pe4g8p",
+   "en": "Same as above, but for non active missions (when no air wing has any mission active)"
+  },
+  {
+   "k": "j8zt5o",
+   "en": "AIR_MISSION_ARROW_SELECTED_COLOR"
+  },
+  {
+   "k": "1uoefmc",
+   "en": "Same as above, but for currently selected air wings/air bases."
+  },
+  {
+   "k": "1j77w3t",
+   "en": "AIR_TRANSFER_ARROW_COLOR"
+  },
+  {
+   "k": "pare8x",
+   "en": "Same as above, but for the arrows drawn between airbases for current transfers"
+  },
+  {
+   "k": "16nbpk9",
+   "en": "NAVAL_REGION_ACCESS_AVOID_COLOR"
+  },
+  {
+   "k": "1qmb0hy",
+   "en": "Color for the map stripes on naval regions that has set an access level = AVOID"
+  },
+  {
+   "k": "5kie31",
+   "en": "NAVAL_REGION_ACCESS_BLOCK_COLOR"
+  },
+  {
+   "k": "2k1noa",
+   "en": "Color for the map stripes on naval regions that has set an access level = BLOCK"
+  },
+  {
+   "k": "1yksxf5",
+   "en": "NAVAL_REGION_FADE_WHEN_FLEET_SELECTED"
+  },
+  {
+   "k": "1n09bed",
+   "en": "How much all region borders (except those with mission assigned to it) are faded out, when a fleet is selected."
+  },
+  {
+   "k": "1euz9cu",
+   "en": "AIR_REGION_FADE_WHEN_WING_SELECTED"
+  },
+  {
+   "k": "m7w54r",
+   "en": "UI_CONFIGURABLE_SLOT_FROM"
+  },
+  {
+   "k": "usxkmq",
+   "en": "Mapmode slots range that may be configurable. Indices are 0-based (first slot is 0)"
+  },
+  {
+   "k": "kdp4mq",
+   "en": "UI_CONFIGURABLE_SLOT_TO"
+  },
+  {
+   "k": "supa56",
+   "en": "MAP_MODE_TERRAIN_TRANSPARENCY"
+  },
+  {
+   "k": "qsysir",
+   "en": "How much transparent are the province colors in the simplified terrain map mode"
+  },
+  {
+   "k": "tiqkjf",
+   "en": "MAP_MODE_NAVAL_TERRAIN_TRANSPARENCY"
+  },
+  {
+   "k": "1smnhfe",
+   "en": "How much transparent are the SEA province colors in the simplified terrain map mode"
+  },
+  {
+   "k": "10xen8",
+   "en": "MAP_MODE_INTEL_NETWORK_STRENGTH_COLOR_LOW"
+  },
+  {
+   "k": "10mqbi3",
+   "en": "Color of a state with the lowest intel network strength"
+  },
+  {
+   "k": "19ddapq",
+   "en": "MAP_MODE_INTEL_NETWORK_STRENGTH_COLOR_HIGH"
+  },
+  {
+   "k": "108trbj",
+   "en": "MAP_MODE_INTEL_NETWORK_STRENGTH_QUIET_COLOR_LOW"
+  },
+  {
+   "k": "24o4mn",
+   "en": "Color of a state with the lowest intel network strength in a quiet network"
+  },
+  {
+   "k": "1b2g403",
+   "en": "MAP_MODE_INTEL_NETWORK_STRENGTH_QUIET_COLOR_HIGH"
+  },
+  {
+   "k": "h6d96u",
+   "en": "Color of a state with the highest possible intel network strength in a quiet network"
+  },
+  {
+   "k": "1bozjfj",
+   "en": "MAP_MODE_INTEL_MAX_HORIZONTAL_STACK"
+  },
+  {
+   "k": "1h8he6v",
+   "en": "How many intel icons can be shown before the More icon appears for Operations"
+  },
+  {
+   "k": "1julfx7",
+   "en": "RAILWAY_GUN_RANGE_INDICATOR_DEFAULT_COLOR"
+  },
+  {
+   "k": "1d94626",
+   "en": "On map circle indicating the railway gun bombardment range."
+  },
+  {
+   "k": "16h0svw",
+   "en": "RAILWAY_GUN_RANGE_INDICATOR_ROTATION_SPEED"
+  },
+  {
+   "k": "idtlvn",
+   "en": "How fast the indicator is rotating."
+  },
+  {
+   "k": "1uldaeu",
+   "en": "RAILWAY_GUN_RANGE_STRIPES_COLOR"
+  },
+  {
+   "k": "qwbea6",
+   "en": "Color of the railway gun range stripes (when hovered)"
+  },
+  {
+   "k": "15w338p",
+   "en": "OCCUPATION_MAP_MODE_COUNTRY_STRIPE_ALPHA"
+  },
+  {
+   "k": "1l7kl7r",
+   "en": "alpha of occupied country stripes in occupation map mode"
+  },
+  {
+   "k": "1tfesrp",
+   "en": "OPERATIVE_MAP_MODE_INVALID_COUNTRY_TARGET_TRANSPARENCY"
+  },
+  {
+   "k": "vczxxt",
+   "en": "alpha of country which cannot be targeted by the selected operative mission"
+  },
+  {
+   "k": "7getmh",
+   "en": "SUPPLY_MAP_MODE_COUNTRY_BORDER_CAMERA_DISTANCE"
+  },
+  {
+   "k": "15v0mqs",
+   "en": "SUPPLY_MAP_MODE_COUNTRY_BORDER_OUTLINE_CUTOFF"
+  },
+  {
+   "k": "lh2dx6",
+   "en": "GRADIENT_BORDERS_THICKNESS_SUPPLY_COUNTRY_BORDER"
+  },
+  {
+   "k": "1dyl0ju",
+   "en": "SUPPLY_COUNTRY_BORDER_PLAYER_COLOR"
+  },
+  {
+   "k": "1syjp6b",
+   "en": "SUPPLY_COUNTRY_BORDER_FRIEND_COLOR"
+  },
+  {
+   "k": "1kcpwy9",
+   "en": "SUPPLY_COUNTRY_BORDER_ACCESS_COLOR"
+  },
+  {
+   "k": "1hvpxcb",
+   "en": "SUPPLY_MAP_MODE_REACH_COLOR"
+  },
+  {
+   "k": "qdb88e",
+   "en": "(last shown when supply flow is >= SUPPLY_MAP_MODE_BEST_FLOW_DISPLAY) #990066 dark purple #332B85 dark purple blue #0A2B99 dark blue #215CA6 blue #1C8FBF light blue #40B5C2 teal #78CCBA light teal #99D199 light green"
+  },
+  {
+   "k": "pyli92",
+   "en": "SUPPLY_MAP_MODE_BEST_FLOW_DISPLAY"
+  },
+  {
+   "k": "1oscb74",
+   "en": "Which supply cap availibility corresponds to best heatmap color"
+  },
+  {
+   "k": "159jj6m",
+   "en": "SUPPLY_MAP_MODE_STATUS_COLOR"
+  },
+  {
+   "k": "18ahrlt",
+   "en": "#E60000 red #FA661A orange #CCA333 mustard"
+  },
+  {
+   "k": "bjcizw",
+   "en": "SUPPLY_STATUS_DISPLAY_THRESHOLD"
+  },
+  {
+   "k": "dux5ky",
+   "en": "at what average supply status we move to show status colors instead of flow"
+  },
+  {
+   "k": "1ay4r9n",
+   "en": "SUPPLY_HOVERED_STATE_COLOR_INDEX"
+  },
+  {
+   "k": "d9ten9",
+   "en": "Border color of hovered state. Refers to the colors in BORDER_COLOR_CUSTOM_HIGHLIGHTS."
+  },
+  {
+   "k": "1m6q28g",
+   "en": "SUPPLY_HOVERED_PROVINCE_COLOR_INDEX"
+  },
+  {
+   "k": "pijuxq",
+   "en": "Border color of hovered province. Refers to the colors in BORDER_COLOR_CUSTOM_HIGHLIGHTS."
+  },
+  {
+   "k": "2equxo",
+   "en": "PEACE_HOVERED_STATE_COLOR_INDEX"
+  },
+  {
+   "k": "y325dm",
+   "en": "Border color of hovered state in Peace conference. Refers to the colors in BORDER_COLOR_CUSTOM_HIGHLIGHTS."
+  },
+  {
+   "k": "k8anvu",
+   "en": "PEACE_CLAIMED_STATE_COLOR_INDEX"
+  },
+  {
+   "k": "qca611",
+   "en": "Border color of claimed states in Peace conference. Refers to the colors in BORDER_COLOR_CUSTOM_HIGHLIGHTS."
+  },
+  {
+   "k": "d48i4z",
+   "en": "SELECTION_HOVERED_STATE_COLOR_INDEX_CONTROLLED"
+  },
+  {
+   "k": "1r2hs2y",
+   "en": "Border color of hovered controlled states in various select mapmodes. Refers to the colors in BORDER_COLOR_CUSTOM_HIGHLIGHTS."
+  },
+  {
+   "k": "1tc8b1r",
+   "en": "SELECTION_HOVERED_STATE_COLOR_INDEX_FOREIGN"
+  },
+  {
+   "k": "612nr8",
+   "en": "Border color of hovered foreign states in various select mapmodes. Refers to the colors in BORDER_COLOR_CUSTOM_HIGHLIGHTS."
+  },
+  {
+   "k": "19yizcx",
+   "en": "NMapIcons"
+  },
+  {
+   "k": "1tuzwt7",
+   "en": "TOP_MAP_ICON"
+  },
+  {
+   "k": "1fdrua8",
+   "en": "INTERPOLATION_SNAP_DISTANCE"
+  },
+  {
+   "k": "1behyuf",
+   "en": "INTEL_MAP_MODE_MAP_ICON_OFFSET"
+  },
+  {
+   "k": "1dctbr7",
+   "en": "Control the offset of the intel map mode map icon (counterintelligence, operatives and operations)"
+  },
+  {
+   "k": "mblxb5",
+   "en": "COARSE_RAILWAY_GUN_POSITION_OFFSET"
+  },
+  {
+   "k": "kbt054",
+   "en": "Coarse railway gun icons will have their world centers offset by this offset"
+  },
+  {
+   "k": "1dj4mgc",
+   "en": "DEFAULT_PRIORITY_UNITS_STACK"
+  },
+  {
+   "k": "1od7crk",
+   "en": "DEFAULT_PRIORITY_UNITS_STACK_GROUP"
+  },
+  {
+   "k": "leqdac",
+   "en": "DEFAULT_PRIORITY_VICTORY_POINTS"
+  },
+  {
+   "k": "85uhu8",
+   "en": "DEFAULT_PRIORITY_RESOURCE"
+  },
+  {
+   "k": "uckyaq",
+   "en": "DEFAULT_PRIORITY_CONSTRUCTION_INFO"
+  },
+  {
+   "k": "dkjnjs",
+   "en": "DEFAULT_PRIORITY_AIR_BASE"
+  },
+  {
+   "k": "q3gb1m",
+   "en": "DEFAULT_PRIORITY_ROCKET_SITE"
+  },
+  {
+   "k": "1ny1zs4",
+   "en": "DEFAULT_PRIORITY_NAVAL_BASE"
+  },
+  {
+   "k": "dssc0d",
+   "en": "DEFAULT_PRIORITY_NAVAL_COMBAT"
+  },
+  {
+   "k": "kfeu5g",
+   "en": "DEFAULT_PRIORITY_NAVAL_COMBAT_RESULTS"
+  },
+  {
+   "k": "s1ip4u",
+   "en": "DEFAULT_PRIORITY_LAND_COMBAT"
+  },
+  {
+   "k": "h7xhgt",
+   "en": "DEFAULT_PRIORITY_NAVAL_MISSION"
+  },
+  {
+   "k": "1u0s4zd",
+   "en": "DEFAULT_PRIORITY_AIR_MISSION"
+  },
+  {
+   "k": "1ato3jj",
+   "en": "DEFAULT_PRIORITY_SUPPLY"
+  },
+  {
+   "k": "106k5zo",
+   "en": "DEFAULT_PRIORITY_CAPITAL"
+  },
+  {
+   "k": "1tg1s7u",
+   "en": "DEFAULT_PRIORITY_PEACE_COST"
+  },
+  {
+   "k": "cguqah",
+   "en": "DEFAULT_PRIORITY_ADJACENCY_RULE"
+  },
+  {
+   "k": "o3dqzn",
+   "en": "DEFAULT_PRIORITY_NAVAL_MINES"
+  },
+  {
+   "k": "1hcog01",
+   "en": "DEFAULT_PRIORITY_NAVAL_ACCIDENTS"
+  },
+  {
+   "k": "q0ccgj",
+   "en": "STATES_PRIORITY_UNITS_STACK"
+  },
+  {
+   "k": "ezkwlz",
+   "en": "STATES_PRIORITY_UNITS_STACK_GROUP"
+  },
+  {
+   "k": "ngkil5",
+   "en": "STATES_PRIORITY_VICTORY_POINTS"
+  },
+  {
+   "k": "1g7eh11",
+   "en": "STATES_PRIORITY_RESOURCE"
+  },
+  {
+   "k": "enqq9",
+   "en": "STATES_PRIORITY_CONSTRUCTION_INFO"
+  },
+  {
+   "k": "1w45ihp",
+   "en": "STATES_PRIORITY_AIR_BASE"
+  },
+  {
+   "k": "dd2oal",
+   "en": "STATES_PRIORITY_ROCKET_SITE"
+  },
+  {
+   "k": "1uxjmn9",
+   "en": "STATES_PRIORITY_NAVAL_BASE"
+  },
+  {
+   "k": "61gd2o",
+   "en": "STATES_PRIORITY_NAVAL_COMBAT"
+  },
+  {
+   "k": "1tvtlt9",
+   "en": "STATES_PRIORITY_NAVAL_COMBAT_RESULTS"
+  },
+  {
+   "k": "165uznx",
+   "en": "STATES_PRIORITY_LAND_COMBAT"
+  },
+  {
+   "k": "c356em",
+   "en": "STATES_PRIORITY_NAVAL_MISSION"
+  },
+  {
+   "k": "fvg8cm",
+   "en": "STATES_PRIORITY_AIR_MISSION"
+  }
+ ]
+}

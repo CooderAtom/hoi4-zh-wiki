@@ -1,0 +1,851 @@
+{
+ "batch": 991,
+ "pages": [
+  "Patch 1.11.X"
+ ],
+ "chars": 14959,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1wvsnmj",
+   "en": "Fixed the wrong Bulgarian deomcratic leader appearing with BftB"
+  },
+  {
+   "k": "sxhr5w",
+   "en": "Fixed missing portrait for mexican advisors Othón P. Blanco Núñez de Cáceres and Antonio Cárdenas Rodríguez"
+  },
+  {
+   "k": "i9385e",
+   "en": "Danzig Decisions are now available without No Step Back"
+  },
+  {
+   "k": "1glhxq2",
+   "en": "Mexico Characters Dionisio Encina, Valentín Campa and Jesús Degollado Guízar now become party leaders when their respective events trigger."
+  },
+  {
+   "k": "p3mb8w",
+   "en": "Fixed missing Spanish political advisors and one chief of army when LaR was not active."
+  },
+  {
+   "k": "1xdtgmt",
+   "en": "Fixed some decisions in Lithuania, Poland and Estonia where it was possible to start them without the required available civilian factories."
+  },
+  {
+   "k": "1d51hqx",
+   "en": "Fixed several mismatches in the Tutorial texts in Portuguese and Polish."
+  },
+  {
+   "k": "1c4mk0e",
+   "en": "Beriya is not Stalin, therefore he can no longer access Stalin's Cult of Personality."
+  },
+  {
+   "k": "13ni75f",
+   "en": "Fixed tooltip in Soviet focus Increase Aircraft Production. The player doesn't need to know about the weird stuff that is going on behind the scenes."
+  },
+  {
+   "k": "1e5ki7e",
+   "en": "Fixed an issue where units could get stuck in exile"
+  },
+  {
+   "k": "6pewqq",
+   "en": "Italy now starts with the appropriate focuses completed in the 1939 bookmark."
+  },
+  {
+   "k": "1s1c5zz",
+   "en": "Adding missing Loc for POL Danzig resistance modifier."
+  },
+  {
+   "k": "1i96go",
+   "en": "Changing the name of a State Modifier in SOV so it doesn't get the description from the decision with the same name and show an untranslated loc."
+  },
+  {
+   "k": "15o03g6",
+   "en": "added missing detailed description for supply mapmode."
+  },
+  {
+   "k": "oovc2o",
+   "en": "Trotsky can now be properly assassinated even when the player deactivates the News Events popup"
+  },
+  {
+   "k": "1hwsytj",
+   "en": "Communist China will now respect their decision to accept the tribute increasement for at least 90 days."
+  },
+  {
+   "k": "1nyb6p8",
+   "en": "Fixed monarchist decisions in Poland and Lithuania so they cannot make other countries into Personal Unions if they're puppets of another country."
+  },
+  {
+   "k": "se72uh",
+   "en": "Fixed wrong event being sent back to the Soviet Union resulting in Stalin refusing his own demands."
+  },
+  {
+   "k": "ltcb3e",
+   "en": "Spain will no longer conspire against their Soviet overlord after losing their War of Independence."
+  },
+  {
+   "k": "1rts14u",
+   "en": "Adjusted the effect for the Sanation Right irritation so when it's meant to increase over 4 and it's AI Non-historical it just keeps the spirit but when it's the player, a civil war starts."
+  },
+  {
+   "k": "1osf7so",
+   "en": "Changed the Dutch focus Wilhelminism so it bypasses when The Netherlands and Germany are in a faction and both have Non-Aligned Governments."
+  },
+  {
+   "k": "1tpatjn",
+   "en": "Changing Neutrality and Fascism drift of Lithuanian advisor from positive to negative to make it match the historical character."
+  },
+  {
+   "k": "1nyludg",
+   "en": "Adjusting Soviet decision 'The Enemy is Treacherous' so it's not visible when the player doesn't have La Resistance."
+  },
+  {
+   "k": "1k1wh2g",
+   "en": "Added missing focus to the Polish historical AI plan. Danzig or War will now remove POL-LIT guarantee"
+  },
+  {
+   "k": "nhht2",
+   "en": "Adjusting the True Enemy event for the baltic countries so it places forts in the correct provinces."
+  },
+  {
+   "k": "16fdpvu",
+   "en": "Fixed Kazim Orbay's multiple problems."
+  },
+  {
+   "k": "1tshit3",
+   "en": "Fixed issue where Lithuania can continue boosting monarchist support in Poland even after they have a king. Other adjustments to these decisions."
+  },
+  {
+   "k": "du7g39",
+   "en": "Changes to Romanian ideas so they transfer correctly when Poland triggers a civil war in Romania"
+  },
+  {
+   "k": "1xtjxgf",
+   "en": "Made Vapsid Marches in Estonia and Finland not visible after they're completed regardless of ideology. Also adjusted the balance of one of the Estonian marches"
+  },
+  {
+   "k": "r1nbmr",
+   "en": "Fix of dlc and non-dlc portraits from WTT for MAN and CHI"
+  },
+  {
+   "k": "cmfwe4",
+   "en": "The Montreux Convention event chain now allows and blocks the appropriate countries depending on the results of the events."
+  },
+  {
+   "k": "pkzb0w",
+   "en": "Fix civil war effect posing messages without updating country names"
+  },
+  {
+   "k": "1ecw7rd",
+   "en": "Fix various supply map/volunteer UI issues"
+  },
+  {
+   "k": "1g0rpqo",
+   "en": "Poland now starts with embargoed economy in 1939 as they haven't completed the focus to remove it yet"
+  },
+  {
+   "k": "12ms4r8",
+   "en": "Fix replacing template companies costing double"
+  },
+  {
+   "k": "w2nsys",
+   "en": "Fix Government in Exile supply hubs not connecting to allied supply before they controled enough territory to be assigned a capital"
+  },
+  {
+   "k": "196f5f3",
+   "en": "Fix building conversion double counting slot consumption while being built"
+  },
+  {
+   "k": "ahrd32",
+   "en": "Made the Polish Decision Categories for dealing with the Peasant Strike, Sanation and Inviting Foreign Motors be available without No Step Back"
+  },
+  {
+   "k": "1usjc2m",
+   "en": "Leadership of the Axis now remains with the German Reich when civil war starts"
+  },
+  {
+   "k": "1hlwasx",
+   "en": "Fix AI not assigned requested units to naval invasion armies, which could leave them idle wherever they happened to be standing"
+  },
+  {
+   "k": "1doaoim",
+   "en": "Fixed the Wilhelmina idea so it has the correct portrait."
+  },
+  {
+   "k": "1qj9fn9",
+   "en": "fixed an issue where French and Japanese Heavy tank chassis icons were in the wrong spot in the tech tree"
+  },
+  {
+   "k": "gv4s3h",
+   "en": "Adjusted the Iron Wolf appeasement decisions in Lithuania so it's not as easy to get locked out of the rest of the branch."
+  },
+  {
+   "k": "17415zn",
+   "en": "Puppeted Russia can now take Pacify the Rim focus even if they have sold Vladivostok, making it possible to progress to the independence war focus."
+  },
+  {
+   "k": "158apuz",
+   "en": "Fix river supply connections sometimes getting absurd boosts to supply flow"
+  },
+  {
+   "k": "zjyl37",
+   "en": "a number of triggers were broken due to translated character names not registering correctly. These have been fixed. This should only affect non-English players (Russian in particular)."
+  },
+  {
+   "k": "az3elm",
+   "en": "Removed condition from the Bring Old Trotskyists Back focus to stop players from sometimes getting locked out of the Permanent Revolution section of the Left Opposition focus tree."
+  },
+  {
+   "k": "lja3gi",
+   "en": "Improved AI weights for Prospecting decisions."
+  },
+  {
+   "k": "11inb1b",
+   "en": "Baltic AI will no longer reject Soviet ultimatum on historical due to a major country guaranteeing them."
+  },
+  {
+   "k": "vtmjyk",
+   "en": "Added missing Soviet focuses to 1939 Bookmark"
+  },
+  {
+   "k": "1tdqbc7",
+   "en": "Focuses and decisions will now work correctly when checking for a character that has a different name spelling in non-english"
+  },
+  {
+   "k": "1mosezz",
+   "en": "Volunteers will no longer be lost when returning"
+  },
+  {
+   "k": "vbveoh",
+   "en": "Russia can now properly form the Pan-slavic union"
+  },
+  {
+   "k": "8y20or",
+   "en": "The AI will no longer cheat and try to use Military Spirits if No Step Back is not enabled"
+  },
+  {
+   "k": "pv60u",
+   "en": "Fixed issue where exiled characters didn't return after a successful coup"
+  },
+  {
+   "k": "uk9prg",
+   "en": "Translate localization key for all character name, not just unit leaders"
+  },
+  {
+   "k": "atpige",
+   "en": "In the tank designer, the top/default entry in the model selection list is now the expected one for super heavy, modern and amphibious chassis."
+  },
+  {
+   "k": "1f206xl",
+   "en": "The tank model displayed in the tech details view is now of the expected tech level."
+  },
+  {
+   "k": "ef0137",
+   "en": "Comintern is now dissolved when starting the Soviet civil war"
+  },
+  {
+   "k": "mzxmnh",
+   "en": "Fix rare crash where logistics strike targetted consumer whose cached status was invalid"
+  },
+  {
+   "k": "13gjvzu",
+   "en": "Fix PREV (etc) keyword when it references a character."
+  },
+  {
+   "k": "uhqkf6",
+   "en": "Super heavy and modern tank designs will now get a proper default icon when playing with NSB active."
+  },
+  {
+   "k": "11rrlr9",
+   "en": "Missing glyphs for Turkish and Latvian names are now back. Also fixed non-breaking spaces showing up as '?' in French and Russian translations."
+  },
+  {
+   "k": "1bvp9z0",
+   "en": "Units in naval transfer will no longer trigger 'low supply' theater alert"
+  },
+  {
+   "k": "1giv4ci",
+   "en": "Poland is no longer able to complete the April Constitution while being a puppet"
+  },
+  {
+   "k": "16cpusy",
+   "en": "Fallback lines now work correctly for volunteers"
+  },
+  {
+   "k": "kez6l9",
+   "en": "Yoshiko Kawashima uses correct picture when being a general when having the WTT dlc"
+  },
+  {
+   "k": "85q20n",
+   "en": "Fixed several issues with Soviet and Russian national spirits in the Russian civil war, such as spirits being added to the wrong side, not providing the intended modifiers or being duplicated."
+  },
+  {
+   "k": "1r570xu",
+   "en": "Fixed error spam about missing 3d assets for axis tanks"
+  },
+  {
+   "k": "1l60ed9",
+   "en": "Fixed issues in Poland and the Baltics where they could annex or puppet a player's country without warning."
+  },
+  {
+   "k": "z0ec0k",
+   "en": "Fixed exploit by adding another exploit"
+  },
+  {
+   "k": "9yphbd",
+   "en": "Fixed create_country_leader where the created character would have a random name rather than the input one."
+  },
+  {
+   "k": "1shdbx6",
+   "en": "With NSB active, equipment conversion is now possible between any tank designs based on the same chassis. It's however not possible to convert tanks to self-propelled variants of a higher tech level as is possible with NSB inactive."
+  },
+  {
+   "k": "1l0o5lp",
+   "en": "Vehicles like tanks will now be able to draw and refuel during the invasion step while landing"
+  },
+  {
+   "k": "1efu792",
+   "en": "Fix calculation of num_units and num_battle_plans for unit leaders"
+  },
+  {
+   "k": "13jmowb",
+   "en": "Fix for focuses being locked for Romanov branch."
+  },
+  {
+   "k": "1s3jcqz",
+   "en": "Added extra building slots to certain focuses providing factories or dockyards in the Polish, French and Soviet focus trees."
+  },
+  {
+   "k": "1roq43w",
+   "en": "Fixed Georgios Kosmidis not becoming the fascist leader in the appropriate Greek event."
+  },
+  {
+   "k": "15y0emi",
+   "en": "Controlling slovakia will now allow poland to bypass either of the Demand Slovakia focuses"
+  },
+  {
+   "k": "1hbwsqk",
+   "en": "Cag night fighting acronym now correctly capitalized"
+  },
+  {
+   "k": "1snllrq",
+   "en": "fix some allied supply issues"
+  },
+  {
+   "k": "1ssoxer",
+   "en": "Empire of Brazil will no longer embrace fascism."
+  },
+  {
+   "k": "jjz2t",
+   "en": "Democratic Germany focuses no longer invite foreign subjects to faction, causing subjects to lose subject status"
+  },
+  {
+   "k": "y3aqet",
+   "en": "Corgis are not people with a mustache and a tie."
+  },
+  {
+   "k": "129ojdy",
+   "en": "Both Australian and New Zealand volunteers National Spirits will now reduce required world tension and required divisions to send volunteers."
+  },
+  {
+   "k": "f5vnev",
+   "en": "Improved triggers for Iberian Summit decisions."
+  },
+  {
+   "k": "hwflj",
+   "en": "Fixed issue where Polish regent would be retired after capitulation."
+  },
+  {
+   "k": "icqwon",
+   "en": "Dynamic Modifiers and Weather modifiers now apply to CAS ground attack stats"
+  },
+  {
+   "k": "1ffxboq",
+   "en": "Fixed news of an Anarchist uprising spreading, despite said uprising not having materialized. Anarchists should now no longer be all talk, no action."
+  },
+  {
+   "k": "mayyml",
+   "en": "Fixed research exploit"
+  },
+  {
+   "k": "di4j4b",
+   "en": "Corrected pre-SCW division counter values in the preparation phase, to properly reflect the reality of unit counts for each side once the SCW begins."
+  },
+  {
+   "k": "hfqf66",
+   "en": "Fixed an OOS when starting a MP game after returning to menu from another game"
+  },
+  {
+   "k": "79d08t",
+   "en": "Added back in the option to rename equipment variants of types lacking upgrades like Artillery and Convoys."
+  },
+  {
+   "k": "18fzt6e",
+   "en": "Seek a Defensive Pact with Allies News event no longer has Stalin in it if he is no longer the leader of the Soviet union"
+  },
+  {
+   "k": "18boago",
+   "en": "Naval spotting speed is no longer scaled by ... naval base repair speed(?), and spotting speed bonuses no longer increase the speed at which you lose a fleet"
+  },
+  {
+   "k": "yrmrro",
+   "en": "Fixed missing portraits in Baltics and Poland when playing without No Step Back enabled"
+  },
+  {
+   "k": "1t4ahm2",
+   "en": "The first tank design for each specialized role can now be modified instead of automatically being saved as a new design."
+  },
+  {
+   "k": "10c3zrm",
+   "en": "Improved AI weights in Lithuanian fascist characters (Voldemaras and Alantas) and added AI weights to Hungarian communist revolutionary (Laszlo Rajk) so that the AI prioritizes these characters when taking the relevant paths."
+  },
+  {
+   "k": "13anr9j",
+   "en": "Fixed capitulation progress requirement for Poland's 'Prepare for the Inevitable' branch."
+  },
+  {
+   "k": "1it3ks2",
+   "en": "Soviet ultimatum decisions will no longer be available if the target country is someone else's subject."
+  },
+  {
+   "k": "jz5egu",
+   "en": "Fixed issue where some focuses would not lead to war with the right country if there was more than one Soviet Union or Stalinist Soviet Union didn't exist."
+  },
+  {
+   "k": "1ccnvob",
+   "en": "Fixed issue where Polish Focus 'Demand Lithuania' wouldn't get bypassed when it should've"
+  },
+  {
+   "k": "1rpe311",
+   "en": "Fixed one cause of CTD on starting nudger with bad map setup (primarily the case in certain map mods)"
+  },
+  {
+   "k": "18d6936",
+   "en": "Fixed scope where we use character scope only when needed, and country scope otherwise"
+  },
+  {
+   "k": "pe8rt6",
+   "en": "Fixed long party name (short party name was displayed)"
+  },
+  {
+   "k": "gyttc2",
+   "en": "In civil war, when copying retired characters from target country to the revolter, skip characters that are actually active in the revolter country. Avoid having the character in a double state of active and retired at the same time, confusing most effects and triggers."
+  },
+  {
+   "k": "15x4ud8",
+   "en": "Austria, Belgium and Switzerland now have correct scripted start stability again"
+  },
+  {
+   "k": "8bj70c",
+   "en": "Fixed typo in focus Policy of Individual Security"
+  },
+  {
+   "k": "7btv8y",
+   "en": "Lev Trotsky now returns to Soviet Union when completing Return Democracy to the Party."
+  },
+  {
+   "k": "nw9sy0",
+   "en": "Fixed Placeholder loc in the tutorial in Polish and Portuguese."
+  },
+  {
+   "k": "yh53yw",
+   "en": "Fixed Command Power tooltip losing the names of advisors affecting it when reloading a savegame"
+  },
+  {
+   "k": "44qqv9",
+   "en": "Fixed missing assets for german tanks DLC"
+  },
+  {
+   "k": "1awc3mz",
+   "en": "Patch 1.11.5 was released on 2022-01-27⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1ub5maf",
+   "en": "7e1e"
+  },
+  {
+   "k": "ntufnx",
+   "en": "Majors will now send volunteers to the Spanish Civil War even without La Resistance"
+  },
+  {
+   "k": "1muclzq",
+   "en": "AI will no longer consider enemy lakes to be dangerous"
+  },
+  {
+   "k": "zub0t0",
+   "en": "AI has learned the definition of insanity and will now try to avoid attacking in same place if previous invasion failed"
+  },
+  {
+   "k": "jypw7y",
+   "en": "AI will be more careful with their attacks if they start running out of manpower"
+  },
+  {
+   "k": "1ihb2dp",
+   "en": "AI now assigns free aces to valid existing wings instead of only when creating new wings"
+  },
+  {
+   "k": "1i1ruy8",
+   "en": "AI is now significantly less likely to release collaboration governments unless they have narrative reasons to do so"
+  },
+  {
+   "k": "136ozqi",
+   "en": "Supply map mode allows normal interactions with naval unit counters and doesn't hide fleet windows"
+  },
+  {
+   "k": "l0nbu0",
+   "en": "Fixed ship stats details pages not showing correct supply usage"
+  },
+  {
+   "k": "1j08sbo",
+   "en": "Fixed UI elements highlighting spurriously when tech template would unlock equipment which isn't included in current DLC profile"
+  },
+  {
+   "k": "xzbxf3",
+   "en": "Fixed Army and Navy view windows opening on top of each other"
+  },
+  {
+   "k": "vsppib",
+   "en": "Fixed shift+k shortcut for training air/navy"
+  },
+  {
+   "k": "1nyy46c",
+   "en": "Decision map icons with CP costs no longer overlap unreadably"
+  },
+  {
+   "k": "gigtaz",
+   "en": "Fixed rail upgrade buttons sometimes not being generated. Buttons now line up with rails connecting to naval bases."
+  },
+  {
+   "k": "1slge06",
+   "en": "Fixed Railway Gun supply icon never showing up and being in the wrong place when it did"
+  },
+  {
+   "k": "19g5oge",
+   "en": "Fixed naval unit counters not showing low supply icon"
+  },
+  {
+   "k": "8d32x8",
+   "en": "Naval battle screen now correctly shows admiral portraits"
+  },
+  {
+   "k": "14aknux",
+   "en": "Fixed operative map icons not getting frame mask applied"
+  },
+  {
+   "k": "54wmof",
+   "en": "Updated equipment conversion and ship refitting tooltips to use accurate language and include the relevant values and modifiers."
+  },
+  {
+   "k": "lz2wvx",
+   "en": "Hold units command now applies to all selected units when mixed armies are selected"
+  },
+  {
+   "k": "1ys48a6",
+   "en": "Supply bottleneck tooltip should now include undersized ports"
+  },
+  {
+   "k": "1rd2z2f",
+   "en": "The Race for Germany achievement will no longer fail if the player does not control Luxembourg at the time of German surrender (it's complicated)"
+  },
+  {
+   "k": "1d6876t",
+   "en": "Non-NSB tanks will now have their correct fuel usage again. It was fun while it lasted!"
+  },
+  {
+   "k": "icu3ws",
+   "en": "Brazil should no longer have access to non-NSB tanks with NSB active"
+  },
+  {
+   "k": "ykbu04",
+   "en": "Added on_capitualtion_immediate on_action. This will be executed at the very start of the capitulation process, where on_capitulation is played in the middle of the process, which can bias the triggers result."
+  },
+  {
+   "k": "ap6it0",
+   "en": "Added multiplicative modifier equipment_conversion_ic_cost which reduces conversion IC cost for non-naval equipment edited with the equipment designer (i.e. tanks when NSB is active)."
+  },
+  {
+   "k": "1c93c6n",
+   "en": "Game will now try to reconcile provinces declared as coastal without bordering a seazone (and vice versa). Check your error log!"
+  },
+  {
+   "k": "1qelv8y",
+   "en": "Invalid buildings (like naval bases in landlocked provinces) in history setup will now be ignored and reported in error log."
+  },
+  {
+   "k": "vv2ws",
+   "en": "Modifiers declared in advisor character entries should now properly apply and persist between saves"
+  },
+  {
+   "k": "1ca02a7",
+   "en": "Made set_character_name also work for unit leaders"
+  },
+  {
+   "k": "1h77yrw",
+   "en": "Fixed a CTD when going over the building state cap with off-map buildings"
+  },
+  {
+   "k": "1d5os1",
+   "en": "Blitzkrieg Theorist advisors now have increased base cost"
+  },
+  {
+   "k": "yxwnzj",
+   "en": "Smooth talking charmer now reduces maintenance cost for improving relations."
+  },
+  {
+   "k": "g8gppx",
+   "en": "Backroom Backstabber no longer grants political power factor, and instead grants subverseive activities cost; drift defence factor buffed to 0.25"
+  },
+  {
+   "k": "ny2m51",
+   "en": "Compassionate Gentlemen now reduce resistance damage to garrisons in addition to monthly opinion gain"
+  },
+  {
+   "k": "1k2ftl9",
+   "en": "Ideological Crusader now grants party popularity stability modifier in addition to old effects"
+  },
+  {
+   "k": "1tnclj2",
+   "en": "Armaments Organizer now increases supply hub construction -speed- by 10%"
+  },
+  {
+   "k": "1git8zd",
+   "en": "Balance changes for armor and varient units"
+  },
+  {
+   "k": "1obgdb7",
+   "en": "Moved High velocity 2 to antitank_4 tech"
+  },
+  {
+   "k": "9nbdg0",
+   "en": "Increase mot equipments to 36 for mot AT"
+  },
+  {
+   "k": "puk0nk",
+   "en": "Halved motorised breakthrough and hardness"
+  },
+  {
+   "k": "usm53",
+   "en": "Reduced AT gun piercing"
+  },
+  {
+   "k": "87uhpp",
+   "en": "Added missing tungsten cost to mot rocket arty"
+  },
+  {
+   "k": "l4oyvi",
+   "en": "Total rebalance of tanks"
+  },
+  {
+   "k": "5rtpwe",
+   "en": "Tank weapons now based on turret weight class"
+  },
+  {
+   "k": "1olomyl",
+   "en": "Fixed player/ai list not being properly reset when going back to menu, triggering OOS on new games"
+  },
+  {
+   "k": "1z0gzj5",
+   "en": "Significantly improved game startup time"
+  },
+  {
+   "k": "1ejndm0",
+   "en": "Graphics"
+  },
+  {
+   "k": "2itthe",
+   "en": "Fixed naval fort model luminance problem"
+  },
+  {
+   "k": "17u329n",
+   "en": "Fixed issue where Danzig could get stuck with negative modifier when Polish Danzig focuses were getting bypassed."
+  }
+ ]
+}

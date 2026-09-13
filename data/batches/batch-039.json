@@ -1,0 +1,998 @@
+{
+ "batch": 39,
+ "pages": [
+  "Puppet"
+ ],
+ "chars": 14972,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1wtutrq",
+   "en": "⟦0⟧: Mittelafrika (Satellite/Dominion) Reichsland Mittelafrika (Colony) Reichsprotectorat Mittelafrika (Reichsprotectorate/Puppet) Deutch-Mittelafrika (Reichskommissariat/Integrated Puppet)",
+   "frags": 1
+  },
+  {
+   "k": "1agul3g",
+   "en": "Mittelafrika (Satellite/Dominion)"
+  },
+  {
+   "k": "5gn2me",
+   "en": "Reichsland Mittelafrika (Colony)"
+  },
+  {
+   "k": "1j77ltt",
+   "en": "Reichsprotectorat Mittelafrika (Reichsprotectorate/Puppet)"
+  },
+  {
+   "k": "14lweuv",
+   "en": "Deutch-Mittelafrika (Reichskommissariat/Integrated Puppet)"
+  },
+  {
+   "k": "14pdmny",
+   "en": "⟦0⟧: Nordafrika (Satellite/Dominion) Reichsland Nordafrika (Colony) Reichsprotectorat Nordafrika (Reichsprotectorate/Puppet) Deutch-Nordafrika (Reichskommissariat/Integrated Puppet)",
+   "frags": 1
+  },
+  {
+   "k": "1nqinm2",
+   "en": "Libya"
+  },
+  {
+   "k": "f6bhhy",
+   "en": "Nordafrika (Satellite/Dominion)"
+  },
+  {
+   "k": "1ajpjf8",
+   "en": "Reichsland Nordafrika (Colony)"
+  },
+  {
+   "k": "1nuy8t3",
+   "en": "Reichsprotectorat Nordafrika (Reichsprotectorate/Puppet)"
+  },
+  {
+   "k": "12jngst",
+   "en": "Deutch-Nordafrika (Reichskommissariat/Integrated Puppet)"
+  },
+  {
+   "k": "1olaao8",
+   "en": "⟦0⟧: Reichsgau Danzig (Fascist)",
+   "frags": 1
+  },
+  {
+   "k": "r3060q",
+   "en": "Free City of Danzig"
+  },
+  {
+   "k": "x6qxab",
+   "en": "Reichsgau Danzig (Fascist)"
+  },
+  {
+   "k": "osygcr",
+   "en": "⟦0⟧: Teilbezirk Taurien (Fascist)",
+   "frags": 1
+  },
+  {
+   "k": "6hdjj0",
+   "en": "Crimea"
+  },
+  {
+   "k": "2dq6ko",
+   "en": "Teilbezirk Taurien (Fascist)"
+  },
+  {
+   "k": "1lcu27l",
+   "en": "⟦0⟧: Reichskommissariat Wolga Deutschland (Fascist)",
+   "frags": 1
+  },
+  {
+   "k": "j4ousy",
+   "en": "Republic of Volga Germany"
+  },
+  {
+   "k": "1bn4mb6",
+   "en": "Reichskommissariat Wolga Deutschland (Fascist)"
+  },
+  {
+   "k": "u5fug6",
+   "en": "⟦0⟧: Reichskommissariat Muscovien (Reichskommissariat/Integrated Puppet)",
+   "frags": 1
+  },
+  {
+   "k": "1jjpogc",
+   "en": "Soviet Union"
+  },
+  {
+   "k": "wz5omr",
+   "en": "Reichskommissariat Muscovien (Reichskommissariat/Integrated Puppet)"
+  },
+  {
+   "k": "19drvzi",
+   "en": "⟦0⟧: Schweizerische Reichsprotektorat (Fascist) Schweizerische Eidgenossenschaft (Democratic)",
+   "frags": 1
+  },
+  {
+   "k": "q4p59i",
+   "en": "Schweizerische Reichsprotektorat (Fascist)"
+  },
+  {
+   "k": "1l7ku94",
+   "en": "Schweizerische Eidgenossenschaft (Democratic)"
+  },
+  {
+   "k": "9c9dbt",
+   "en": "⟦0⟧: Chinese Reichsprotectorate (Puppet/Reichsprotectorate)",
+   "frags": 1
+  },
+  {
+   "k": "14fydmi",
+   "en": "Chinese Reichsprotectorate (Puppet/Reichsprotectorate)"
+  },
+  {
+   "k": "1scwnsn",
+   "en": "⟦0⟧: Reichsprotektorat Uruguay (Fascist) (Only via peace conference) Kolonie Uruguay (Democratic/Communist) (Only via peace conference) Deutsch-Uruguay (Non-Aligned) (Only via peace conference)",
+   "frags": 1
+  },
+  {
+   "k": "1ny9qg7",
+   "en": "Uruguay"
+  },
+  {
+   "k": "ukjmd",
+   "en": "Reichsprotektorat Uruguay (Fascist) (Only via peace conference)"
+  },
+  {
+   "k": "1xallxj",
+   "en": "Kolonie Uruguay (Democratic/Communist) (Only via peace conference)"
+  },
+  {
+   "k": "qsz2ri",
+   "en": "Deutsch-Uruguay (Non-Aligned) (Only via peace conference)"
+  },
+  {
+   "k": "106sqwa",
+   "en": "⟦0⟧ Subjects: Germany Soviet Occupation Zone of Germany (Puppet) (Communist) United Kingdom British Soviet Socialist Republic (Communist) Poland Polish Soviet Socialist Republic (Communist) Republic of Ukraine: Ukrainian People's Republic (Dominion) (Communist) Ukrainian Socialist Republic (Colony) (Communist) Ukrainian Independent SSR (Puppet) (Communist) Ukrainian SSR (Integrated Puppet) (Communist) Belarus: Belarussian People's Republic (Dominion) (Communist) Socialist Republic of Byelorussia (Colony) (Communist) Byelorussian Independent SSR (Puppet) (Communist) Byelorussian SSR (Integrated Puppet) (Communist) Estonia: Estonian People's Republic (Dominion) (Communist) Socialist Republic of Estonia (Colony) (Communist) Estonian Independent SSR (Puppet) (Communist) Estonian SSR (Integrated Puppet) (Communist) Lithuania: Lithuanian People's Republic (Dominion) (Communist) Socialist Republic of Lithuania (Colony) (Communist) Lithuanian Independent SSR (Puppet) (Communist) Lithuanian SSR (Integrated Puppet) (Communist) Latvia: Latvian People's Republic (Dominion) (Communist) Socialist Republic of Latvia (Colony) (Communist) Latvian Independent SSR (Puppet) (Communist) Latvian SSR (Integrated Puppet) (Communist) Finland: Finnish People's Republic (Dominion) (Communist) Socialist Republic of Finnland (Colony) (Communist) (sic) Finnish Democratic Republic (Puppet) (Communist) Finnish SSR (Integrated Puppet) (Communist) Altai: Gorno-Altai Autonomous Soviet Socialist Republic (Communist) Kalmykia: Kalmyk Autonomous Soviet Socialist Republic (Communist) Karelia: Karelian Autonomous Soviet Socialist Republic (Communist) Crimea: Crimean Autonomous Soviet Socialist Republic (Communist) Tatarstan: Tatar Autonomous Soviet Socialist Republic (Communist) Chechen-Ingush Republic: Checheno-Ingush Autonomous Soviet Socialist Republic (Communist) Mountainous Republic of Dagestan: Dagestan Autonomous Soviet Socialist Republic (Communist) Republic of Buryatia: Buryat-Mongol Autonomous Soviet Socialist Republic (Communist) Far Eastern Republic: The Far Eastern Soviet Republic (Communist) Chukotka Republic: Chukotka National Okrug (Communist) Sakha Republic: Yakut Autonomous Soviet Socialist Republic (Communist) Vladivostok Independent Republic: Primorsky Krai (Communist) Republic of Karakalpakstan: Karakalpak Autonomous Soviet Socialist Republic (Communist) Taymyria: Taymyr Dolgano-Nenets National Okrug (Communist) Yamalian Republic: Yamalo-Nenets National Okrug (Communist) Ostyak-Vogul National Republic: Ostyak-Vogul National Okrug (Communist) Nenetsia: Nenets National Okrug (Communist) Komi Republic: Komi Autonomous Soviet Socialist Republic (Communist) Abkhazia: Abkhaz Autonomous Soviet Socialist Republic (Communist) Federal Republic of Kabardins and Karachay-Balkars: Kabardino-Balkarian Autonomous Soviet Socialist Republic (Communist) North Ossetia-Alania: North Ossetian Autonomous Soviet Socialist Republic (Communist) Republic of Volga Germany: Volga German Autonomous Soviet Socialist Republic (Communist) Bashkortostan: Bashkir Autonomous Soviet Socialist Republic (Communist) Bukharan Jadidist Republic: Bukharan People's Soviet Republic (Communist) Khivan Jadidist Republic: Khorezm People's Soviet Republic (Communist) Chuvashia: Chuvash Autonomous Soviet Socialist Republic (Communist) Mari El: Mari Autonomous Soviet Socialist Republic (Communist) Udmurtia: Udmurt Autonomous Soviet Socialist Republic (Communist) Sinkiang: Soviet Socialist Republic of Sinkiang (Communist) Khakassia: Khakas Autnomous Oblast (Communist) Don Republic: Don Soviet Republic (Communist) Kuban Republic: Kuban Soviet Republic (Communist) Turkestan: Turkestan Autonomous Soviet Socialist Republic (Communist) Mountainous Republic of the Northern Caucasus: Mountain Autonomous Soviet Socialist Republic (Communist) Transcaucasia: Transcaucasian Socialist Federative Soviet Republic (Communist) Siberia: Siberian Federative Soviet Socialist Republic (Communist) Idel-Ural State: Idel Ural Federative Soviet Socialist Republic (Communist) Switzerland: Swiss Union (Communist) Khotan Ma: Dungan Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "4t3epg",
+   "en": "⟦0⟧ Soviet Occupation Zone of Germany (Puppet) (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "16sa5ul",
+   "en": "Soviet Occupation Zone of Germany (Puppet) (Communist)"
+  },
+  {
+   "k": "isbkmi",
+   "en": "⟦0⟧ British Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "ch1rjp",
+   "en": "British Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "kktmp8",
+   "en": "⟦0⟧ Polish Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "wlranl",
+   "en": "Polish Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "gqwuxw",
+   "en": "⟦0⟧: Ukrainian People's Republic (Dominion) (Communist) Ukrainian Socialist Republic (Colony) (Communist) Ukrainian Independent SSR (Puppet) (Communist) Ukrainian SSR (Integrated Puppet) (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "1cif12o",
+   "en": "Ukrainian People's Republic (Dominion) (Communist)"
+  },
+  {
+   "k": "7gww35",
+   "en": "Ukrainian Socialist Republic (Colony) (Communist)"
+  },
+  {
+   "k": "1cigewc",
+   "en": "Ukrainian Independent SSR (Puppet) (Communist)"
+  },
+  {
+   "k": "1hzaiyd",
+   "en": "Ukrainian SSR (Integrated Puppet) (Communist)"
+  },
+  {
+   "k": "igld4i",
+   "en": "⟦0⟧: Belarussian People's Republic (Dominion) (Communist) Socialist Republic of Byelorussia (Colony) (Communist) Byelorussian Independent SSR (Puppet) (Communist) Byelorussian SSR (Integrated Puppet) (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "umkv7f",
+   "en": "Belarussian People's Republic (Dominion) (Communist)"
+  },
+  {
+   "k": "nbre58",
+   "en": "Socialist Republic of Byelorussia (Colony) (Communist)"
+  },
+  {
+   "k": "uig0he",
+   "en": "Byelorussian Independent SSR (Puppet) (Communist)"
+  },
+  {
+   "k": "5s4b8n",
+   "en": "Byelorussian SSR (Integrated Puppet) (Communist)"
+  },
+  {
+   "k": "z1djxx",
+   "en": "⟦0⟧: Estonian People's Republic (Dominion) (Communist) Socialist Republic of Estonia (Colony) (Communist) Estonian Independent SSR (Puppet) (Communist) Estonian SSR (Integrated Puppet) (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "1rxr505",
+   "en": "Estonian People's Republic (Dominion) (Communist)"
+  },
+  {
+   "k": "k7uwa9",
+   "en": "Socialist Republic of Estonia (Colony) (Communist)"
+  },
+  {
+   "k": "anh4zd",
+   "en": "Estonian Independent SSR (Puppet) (Communist)"
+  },
+  {
+   "k": "vv8y92",
+   "en": "Estonian SSR (Integrated Puppet) (Communist)"
+  },
+  {
+   "k": "g6u5it",
+   "en": "⟦0⟧: Lithuanian People's Republic (Dominion) (Communist) Socialist Republic of Lithuania (Colony) (Communist) Lithuanian Independent SSR (Puppet) (Communist) Lithuanian SSR (Integrated Puppet) (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "hfb1a1",
+   "en": "Lithuanian People's Republic (Dominion) (Communist)"
+  },
+  {
+   "k": "q84uol",
+   "en": "Socialist Republic of Lithuania (Colony) (Communist)"
+  },
+  {
+   "k": "47mapp",
+   "en": "Lithuanian Independent SSR (Puppet) (Communist)"
+  },
+  {
+   "k": "1jt415e",
+   "en": "Lithuanian SSR (Integrated Puppet) (Communist)"
+  },
+  {
+   "k": "kzxad",
+   "en": "⟦0⟧: Latvian People's Republic (Dominion) (Communist) Socialist Republic of Latvia (Colony) (Communist) Latvian Independent SSR (Puppet) (Communist) Latvian SSR (Integrated Puppet) (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "wc2ud3",
+   "en": "Latvian People's Republic (Dominion) (Communist)"
+  },
+  {
+   "k": "1fvshdn",
+   "en": "Socialist Republic of Latvia (Colony) (Communist)"
+  },
+  {
+   "k": "ly2mcb",
+   "en": "Latvian Independent SSR (Puppet) (Communist)"
+  },
+  {
+   "k": "ogds98",
+   "en": "Latvian SSR (Integrated Puppet) (Communist)"
+  },
+  {
+   "k": "7yuu5z",
+   "en": "⟦0⟧: Finnish People's Republic (Dominion) (Communist) Socialist Republic of Finnland (Colony) (Communist) (sic) Finnish Democratic Republic (Puppet) (Communist) Finnish SSR (Integrated Puppet) (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "1usfbx7",
+   "en": "Finnish People's Republic (Dominion) (Communist)"
+  },
+  {
+   "k": "1jes75q",
+   "en": "Socialist Republic of Finnland (Colony) (Communist) (sic)"
+  },
+  {
+   "k": "bq1ss6",
+   "en": "Finnish Democratic Republic (Puppet) (Communist)"
+  },
+  {
+   "k": "2t6m4o",
+   "en": "Finnish SSR (Integrated Puppet) (Communist)"
+  },
+  {
+   "k": "759eda",
+   "en": "⟦0⟧: Gorno-Altai Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "1fhp8zu",
+   "en": "Altai"
+  },
+  {
+   "k": "11jsj8d",
+   "en": "Gorno-Altai Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "h9tupe",
+   "en": "⟦0⟧: Kalmyk Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "7abx6w",
+   "en": "Kalmykia"
+  },
+  {
+   "k": "ioa4f3",
+   "en": "Kalmyk Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "bvg1gk",
+   "en": "⟦0⟧: Karelian Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "1vb26nq",
+   "en": "Karelia"
+  },
+  {
+   "k": "lbw771",
+   "en": "Karelian Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "15k4pvo",
+   "en": "⟦0⟧: Crimean Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "qvz7cz",
+   "en": "Crimean Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "1w2z535",
+   "en": "⟦0⟧: Tatar Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "1wa2gnp",
+   "en": "Tatarstan"
+  },
+  {
+   "k": "u7wdoy",
+   "en": "Tatar Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "opeb85",
+   "en": "⟦0⟧: Checheno-Ingush Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "9cdpxg",
+   "en": "Chechen-Ingush Republic"
+  },
+  {
+   "k": "17gp50m",
+   "en": "Checheno-Ingush Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "1b3cxye",
+   "en": "⟦0⟧: Dagestan Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "x14vit",
+   "en": "Mountainous Republic of Dagestan"
+  },
+  {
+   "k": "gifjdf",
+   "en": "Dagestan Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "eotjrv",
+   "en": "⟦0⟧: Buryat-Mongol Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "g01ufd",
+   "en": "Republic of Buryatia"
+  },
+  {
+   "k": "17x5mc0",
+   "en": "Buryat-Mongol Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "nb61sm",
+   "en": "⟦0⟧: The Far Eastern Soviet Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "1hpfplq",
+   "en": "Far Eastern Republic"
+  },
+  {
+   "k": "d7wj7b",
+   "en": "The Far Eastern Soviet Republic (Communist)"
+  },
+  {
+   "k": "1g0ftr8",
+   "en": "⟦0⟧: Chukotka National Okrug (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "1vhdbyz",
+   "en": "Chukotka Republic"
+  },
+  {
+   "k": "1g58a2x",
+   "en": "Chukotka National Okrug (Communist)"
+  },
+  {
+   "k": "f5a8y1",
+   "en": "⟦0⟧: Yakut Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "806l4r",
+   "en": "Sakha Republic"
+  },
+  {
+   "k": "1pzuloa",
+   "en": "Yakut Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "sraguj",
+   "en": "⟦0⟧: Primorsky Krai (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "yqt47n",
+   "en": "Vladivostok Independent Republic"
+  },
+  {
+   "k": "18ktb64",
+   "en": "Primorsky Krai (Communist)"
+  },
+  {
+   "k": "nhi0c8",
+   "en": "⟦0⟧: Karakalpak Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "i1w1tb",
+   "en": "Republic of Karakalpakstan"
+  },
+  {
+   "k": "12oyu61",
+   "en": "Karakalpak Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "6737u4",
+   "en": "⟦0⟧: Taymyr Dolgano-Nenets National Okrug (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "j1pj9",
+   "en": "Taymyria"
+  },
+  {
+   "k": "1xgdidf",
+   "en": "Taymyr Dolgano-Nenets National Okrug (Communist)"
+  },
+  {
+   "k": "1r8eotb",
+   "en": "⟦0⟧: Yamalo-Nenets National Okrug (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "15w2ywb",
+   "en": "Yamalian Republic"
+  },
+  {
+   "k": "1xigjbo",
+   "en": "Yamalo-Nenets National Okrug (Communist)"
+  },
+  {
+   "k": "lnr7a3",
+   "en": "⟦0⟧: Ostyak-Vogul National Okrug (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "kccjq2",
+   "en": "Ostyak-Vogul National Republic"
+  },
+  {
+   "k": "2g7yum",
+   "en": "Ostyak-Vogul National Okrug (Communist)"
+  },
+  {
+   "k": "9rj5hv",
+   "en": "⟦0⟧: Nenets National Okrug (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "6zmf56",
+   "en": "Nenetsia"
+  },
+  {
+   "k": "eqxgtu",
+   "en": "Nenets National Okrug (Communist)"
+  },
+  {
+   "k": "m303a7",
+   "en": "⟦0⟧: Komi Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "698hlj",
+   "en": "Komi Republic"
+  },
+  {
+   "k": "gotb1m",
+   "en": "Komi Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "618gs2",
+   "en": "⟦0⟧: Abkhaz Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "2m437w",
+   "en": "Abkhazia"
+  },
+  {
+   "k": "1yh2ffv",
+   "en": "Abkhaz Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "10n1gis",
+   "en": "⟦0⟧: Kabardino-Balkarian Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "1ak1tt4",
+   "en": "Federal Republic of Kabardins and Karachay-Balkars"
+  },
+  {
+   "k": "f6xg1n",
+   "en": "Kabardino-Balkarian Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "pivtqe",
+   "en": "⟦0⟧: North Ossetian Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "10oph2j",
+   "en": "North Ossetia-Alania"
+  },
+  {
+   "k": "17dxtt7",
+   "en": "North Ossetian Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "xefg20",
+   "en": "⟦0⟧: Volga German Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "1xl10dd",
+   "en": "Volga German Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "fdp27z",
+   "en": "⟦0⟧: Bashkir Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "em4fec",
+   "en": "Bashkortostan"
+  },
+  {
+   "k": "1fizafw",
+   "en": "Bashkir Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "m8r8e3",
+   "en": "⟦0⟧: Bukharan People's Soviet Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "i0m9ip",
+   "en": "Bukharan Jadidist Republic"
+  },
+  {
+   "k": "1fy3tbq",
+   "en": "Bukharan People's Soviet Republic (Communist)"
+  },
+  {
+   "k": "chv3kt",
+   "en": "⟦0⟧: Khorezm People's Soviet Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "60avv8",
+   "en": "Khivan Jadidist Republic"
+  },
+  {
+   "k": "12c8j4y",
+   "en": "Khorezm People's Soviet Republic (Communist)"
+  },
+  {
+   "k": "c2vn2n",
+   "en": "⟦0⟧: Chuvash Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "qzf7rd",
+   "en": "Chuvashia"
+  },
+  {
+   "k": "owrkxg",
+   "en": "Chuvash Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "hvr0tu",
+   "en": "⟦0⟧: Mari Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "ufvynv",
+   "en": "Mari El"
+  },
+  {
+   "k": "m56is3",
+   "en": "Mari Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "1pmncdg",
+   "en": "⟦0⟧: Udmurt Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "1ah8opm",
+   "en": "Udmurtia"
+  },
+  {
+   "k": "1ngugop",
+   "en": "Udmurt Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "4pwl8e",
+   "en": "⟦0⟧: Soviet Socialist Republic of Sinkiang (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "19tg03n",
+   "en": "Soviet Socialist Republic of Sinkiang (Communist)"
+  },
+  {
+   "k": "1ioqrox",
+   "en": "⟦0⟧: Khakas Autnomous Oblast (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "1yajqvd",
+   "en": "Khakassia"
+  },
+  {
+   "k": "10wkbao",
+   "en": "Khakas Autnomous Oblast (Communist)"
+  },
+  {
+   "k": "1pd0v8l",
+   "en": "⟦0⟧: Don Soviet Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "18yajxu",
+   "en": "Don Republic"
+  },
+  {
+   "k": "11dpoyw",
+   "en": "Don Soviet Republic (Communist)"
+  },
+  {
+   "k": "qkfurt",
+   "en": "⟦0⟧: Kuban Soviet Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "9a78j6",
+   "en": "Kuban Republic"
+  },
+  {
+   "k": "1sblx60",
+   "en": "Kuban Soviet Republic (Communist)"
+  },
+  {
+   "k": "1vcnq66",
+   "en": "⟦0⟧: Turkestan Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "14bxqxs",
+   "en": "Turkestan"
+  },
+  {
+   "k": "1n2gh05",
+   "en": "Turkestan Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "1s5sqyq",
+   "en": "⟦0⟧: Mountain Autonomous Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "6pqehr",
+   "en": "Mountainous Republic of the Northern Caucasus"
+  },
+  {
+   "k": "16xibzb",
+   "en": "Mountain Autonomous Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "17hivuw",
+   "en": "⟦0⟧: Transcaucasian Socialist Federative Soviet Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "dzl4e3",
+   "en": "Transcaucasia"
+  },
+  {
+   "k": "dbq3h1",
+   "en": "Transcaucasian Socialist Federative Soviet Republic (Communist)"
+  },
+  {
+   "k": "15zcx1n",
+   "en": "⟦0⟧: Siberian Federative Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "1o6rtv4",
+   "en": "Siberia"
+  },
+  {
+   "k": "1r2c9na",
+   "en": "Siberian Federative Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "j82oiw",
+   "en": "⟦0⟧: Idel Ural Federative Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "kggkhz",
+   "en": "Idel-Ural State"
+  },
+  {
+   "k": "1lw3xob",
+   "en": "Idel Ural Federative Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "1tu89bu",
+   "en": "⟦0⟧: Swiss Union (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "1xfefur",
+   "en": "Swiss Union (Communist)"
+  },
+  {
+   "k": "fd9rzg",
+   "en": "⟦0⟧: Dungan Soviet Socialist Republic (Communist)",
+   "frags": 1
+  },
+  {
+   "k": "zykiwn",
+   "en": "Dungan Soviet Socialist Republic (Communist)"
+  },
+  {
+   "k": "lj1xu2",
+   "en": "⟦0⟧ subjects: Albania Protectorate of Albania (Fascist) Aussa Aussa Governorate (Fascist) Bosnia Protectorate of Bosnia (Fascist) Governorate of Sarajevo (Fascist, without Herzegovina) Crimea: Regno Bosporano (Fascist) Dalmatia Province of Illyria (Fascist) Ethiopia Kingdom of Ethiopia (Dominion/Satellite) (Fascist) Grand Duchy of Ethiopia (Colony) (Fascist) Governorate of Ethiopia (Puppet/Reichsprotectorate) (Fascist) Italian East Africa (Integrated Puppet/Reichskommissariat) (Fascist) Gojjam (Fascist) (If Reach out to the Italians and Declare for Italy focuses have been completed by Ethiopia) Jimma (Fascist) (If Reach out to the Italians and Declare for Italy focuses have been completed by Ethiopia) Herzegovina Governorate of Mostar (Fascist) Italian State of East Africa Italian East Africa (Fascist/Non-Aligned) Italian East Africa Company (Democratic) Kosovo Governorate of Prishtina (Fascist) Kingdom of Libya Kingdom of Libya (Dominion/Satellite) (Fascist) Libya (Colony) (Fascist) Cyrenica (Puppet/Reichsprotectorate) (Fascist) (sic) Italian North Africa (Integrated Puppet/Reichskommissariat) (Fascist) Macedonia Protectorate of Macedonia (Fascist) Montenegro Governorate of Montenegro (Fascist) Serbia Protectorate of Serbia (Fascist) Slovenia Province of Ljubljana (Fascist) Switzerland Protettorato Svizzero (Fascist) Repubblica Svizzera (Democratic) Transylvania Dacian Protectorate (Fascist) Gambela: Jimma (Fascist) (If Topple Amhara Rulers focus has been completed by Italy) Benishangul-Gumuz Nation: Gojjam (Fascist) (If Topple Amhara Rulers focus has been completed by Italy)",
+   "frags": 1
+  },
+  {
+   "k": "1unjfor",
+   "en": "Italian"
+  },
+  {
+   "k": "14li2eb",
+   "en": "⟦0⟧ Protectorate of Albania (Fascist)",
+   "frags": 1
+  }
+ ]
+}

@@ -1,0 +1,1053 @@
+{
+ "batch": 137,
+ "items": [
+  {
+   "k": "5h88pa",
+   "zh": "效果（也称指令，Commands）用于在特定作用域内动态影响游戏。它们是对游戏当前状态的一次性改动，⟦0⟧。与之相对，⟦1⟧ 用于对游戏状态施加可量化的持续、永久影响。效果块不能直接施加修正，但可以添加能够施加修正的东西，最常见的是通过 ⟦2⟧。"
+  },
+  {
+   "k": "19kx7yp",
+   "zh": "无法产生持久影响"
+  },
+  {
+   "k": "i2bme1",
+   "zh": "修正"
+  },
+  {
+   "k": "1pxfxbz",
+   "zh": "add_ideas"
+  },
+  {
+   "k": "yeb5t0",
+   "zh": "效果在游戏中用于众多作用域，最常见的可编辑效果块是 ⟦0⟧、⟦1⟧ 和 ⟦2⟧。"
+  },
+  {
+   "k": "jtnsz3",
+   "zh": "国家焦点奖励"
+  },
+  {
+   "k": "1tqwqwt",
+   "zh": "事件选项"
+  },
+  {
+   "k": "1o0k315",
+   "zh": "决议效果"
+  },
+  {
+   "k": "122x1az",
+   "zh": "注意，某些效果可以从变量取值，例如 ⟦0⟧。这在效果的参数中标注为 ⟦1⟧。有关变量效果的说明，请参见 ⟦2⟧。"
+  },
+  {
+   "k": "1wz76d8",
+   "zh": "add_manpower = var:my_var"
+  },
+  {
+   "k": "1ytxl23",
+   "zh": "<variable>"
+  },
+  {
+   "k": "xqivz6",
+   "zh": "变量"
+  },
+  {
+   "k": "1434wcj",
+   "zh": "效果列表可能已经过时。完整但未排序的效果列表可在 ⟦0⟧ 或 ⟦1⟧ 中找到。"
+  },
+  {
+   "k": "1csgls3",
+   "zh": "/Hearts of Iron IV/documentation/effects_documentation.html"
+  },
+  {
+   "k": "1fe2fkn",
+   "zh": "/Hearts of Iron IV/documentation/effects_documentation.md"
+  },
+  {
+   "k": "gkat0o",
+   "zh": "作用域"
+  },
+  {
+   "k": "1vr4zwt",
+   "zh": "主条目：作用域"
+  },
+  {
+   "k": "1j85woy",
+   "zh": "作用域是一种特殊的效果类型，用于修改作为所执行效果上下文的那一实体，例如 ⟦0⟧ 为 ⟦1⟧ 增加150政治点数。"
+  },
+  {
+   "k": "6h7lxc",
+   "zh": "GER = { add_political_power = 150 }"
+  },
+  {
+   "k": "alybni",
+   "zh": "Germany"
+  },
+  {
+   "k": "1z7pu9",
+   "zh": "效果作用域"
+  },
+  {
+   "k": "1fmimi8",
+   "zh": "这些只能用作 ⟦0⟧；若试图将其用作 ⟦1⟧，将不会发生任何事。"
+  },
+  {
+   "k": "1yrfzhh",
+   "zh": "效果"
+  },
+  {
+   "k": "1ka34g",
+   "zh": "触发器"
+  },
+  {
+   "k": "1rb8gfl",
+   "zh": "效果作用域："
+  },
+  {
+   "k": "4el6o6",
+   "zh": "名称"
+  },
+  {
+   "k": "w7a5ag",
+   "zh": "用法"
+  },
+  {
+   "k": "662f80",
+   "zh": "目标类型"
+  },
+  {
+   "k": "55ja69",
+   "zh": "示例"
+  },
+  {
+   "k": "sjj37t",
+   "zh": "描述"
+  },
+  {
+   "k": "10iy1qt",
+   "zh": "加入版本"
+  },
+  {
+   "k": "nxvlmj",
+   "zh": "every_possible_country"
+  },
+  {
+   "k": "12b0usw",
+   "zh": "始终可用"
+  },
+  {
+   "k": "1diicx",
+   "zh": "国家"
+  },
+  {
+   "k": "skb5kk",
+   "zh": "every_possible_country = { ... }"
+  },
+  {
+   "k": "45mg8f",
+   "zh": "对符合限制条件的每个国家执行子效果，包括不存在的国家。"
+  },
+  {
+   "k": "us64l",
+   "zh": "every_country"
+  },
+  {
+   "k": "96hsly",
+   "zh": "every_country = { … }"
+  },
+  {
+   "k": "1wxjo8v",
+   "zh": "对符合限制条件的每个国家执行其中包含的效果。"
+  },
+  {
+   "k": "er6s13",
+   "zh": "random_country"
+  },
+  {
+   "k": "11oc73c",
+   "zh": "random_country = { … }"
+  },
+  {
+   "k": "1vvyp14",
+   "zh": "对符合限制条件的一个随机国家执行其中包含的效果。"
+  },
+  {
+   "k": "sz5w8w",
+   "zh": "every_other_country"
+  },
+  {
+   "k": "1sc2iky",
+   "zh": "仅限国家作用域内"
+  },
+  {
+   "k": "1h86b5b",
+   "zh": "every_other_country = { … }"
+  },
+  {
+   "k": "911cr5",
+   "zh": "对符合限制条件且与包含此效果的所在国家不同的每个国家执行其中包含的效果。"
+  },
+  {
+   "k": "1koqx2u",
+   "zh": "random_other_country"
+  },
+  {
+   "k": "15hlkp1",
+   "zh": "random_other_country = { … }"
+  },
+  {
+   "k": "eq4icq",
+   "zh": "对符合限制条件且与包含此效果的所在国家不同的一个随机国家执行其中包含的效果。"
+  },
+  {
+   "k": "qhj4s7",
+   "zh": "every_country_with_original_tag"
+  },
+  {
+   "k": "17sqokr",
+   "zh": "every_country_with_original_tag = { original_tag_to_check = TAG #required … #effects to run }"
+  },
+  {
+   "k": "74v08",
+   "zh": "对符合限制条件且拥有指定原始标签的每个国家执行其中包含的效果。"
+  },
+  {
+   "k": "1iumcp1",
+   "zh": "random_country_with_original_tag"
+  },
+  {
+   "k": "g9w1y1",
+   "zh": "random_country_with_original_tag = { original_tag_to_check = TAG #required … #effects to run }"
+  },
+  {
+   "k": "tl2na5",
+   "zh": "对符合限制条件且拥有指定原始标签的一个随机国家执行其中包含的效果。"
+  },
+  {
+   "k": "xo8kwy",
+   "zh": "every_neighbor_country"
+  },
+  {
+   "k": "1f7wgex",
+   "zh": "every_neighbor_country = { … }"
+  },
+  {
+   "k": "16lgmfu",
+   "zh": "对符合限制条件且与包含此效果的所在国家接壤的每个国家执行其中包含的效果。"
+  },
+  {
+   "k": "7nrl8g",
+   "zh": "random_neighbor_country"
+  },
+  {
+   "k": "1d3x1v3",
+   "zh": "random_neighbor_country = { … }"
+  },
+  {
+   "k": "thyr83",
+   "zh": "对符合限制条件且与包含此效果的所在国家接壤的一个随机国家执行其中包含的效果。"
+  },
+  {
+   "k": "1p5cc98",
+   "zh": "every_occupied_country"
+  },
+  {
+   "k": "5kf0bn",
+   "zh": "every_occupied_country = { … }"
+  },
+  {
+   "k": "f9kr23",
+   "zh": "对符合限制条件且其核心州中有被包含此效果的所在国家控制的每个国家执行其中包含的效果。"
+  },
+  {
+   "k": "1ggypn6",
+   "zh": "random_occupied_country"
+  },
+  {
+   "k": "1wd3r1l",
+   "zh": "random_occupied_country = { … }"
+  },
+  {
+   "k": "2ummb6",
+   "zh": "对符合限制条件且其核心州中有被包含此效果的所在国家控制的一个随机国家执行其中包含的效果。"
+  },
+  {
+   "k": "10zl9uv",
+   "zh": "every_allied_country"
+  },
+  {
+   "k": "189eld4",
+   "zh": "every_allied_country = { … }"
+  },
+  {
+   "k": "xz9jrc",
+   "zh": "对符合 `limit` 触发器的每个同盟国家执行子效果，该国家须与当前作用域中的国家不同（若指定了 `random_select_amount`，则为该数量的随机国家）。"
+  },
+  {
+   "k": "egwvj5",
+   "zh": "random_allied_country"
+  },
+  {
+   "k": "bxoi62",
+   "zh": "random_allied_country = { … }"
+  },
+  {
+   "k": "1v48ejx",
+   "zh": "对符合 `limit` 触发器、且与当前作用域中的国家不同的一个随机同盟国家执行子效果。"
+  },
+  {
+   "k": "krka8q",
+   "zh": "every_enemy_country"
+  },
+  {
+   "k": "8sbzc1",
+   "zh": "every_enemy_country = { … }"
+  },
+  {
+   "k": "1djevko",
+   "zh": "对符合限制条件且与包含此效果的所在国家处于战争状态的每个国家执行其中包含的效果。"
+  },
+  {
+   "k": "1xoepcs",
+   "zh": "random_enemy_country"
+  },
+  {
+   "k": "1c1xkr7",
+   "zh": "random_enemy_country = { … }"
+  },
+  {
+   "k": "129n2nf",
+   "zh": "对符合限制条件且与包含此效果的所在国家处于战争状态的一个随机国家执行其中包含的效果。"
+  },
+  {
+   "k": "19vmxoe",
+   "zh": "every_subject_country"
+  },
+  {
+   "k": "1kpyyv1",
+   "zh": "every_subject_country = { … }"
+  },
+  {
+   "k": "1g3tkwl",
+   "zh": "对符合限制条件且为包含此效果的所在国家的附属国的每个国家执行其中包含的效果。"
+  },
+  {
+   "k": "14x19rw",
+   "zh": "random_subject_country"
+  },
+  {
+   "k": "p8r3jn",
+   "zh": "random_subject_country = { … }"
+  },
+  {
+   "k": "etbycw",
+   "zh": "对符合限制条件且为包含此效果的所在国家的附属国的一个随机国家执行其中包含的效果。"
+  },
+  {
+   "k": "37kboy",
+   "zh": "every_faction_member"
+  },
+  {
+   "k": "1gsszrd",
+   "zh": "every_faction_member = { … }"
+  },
+  {
+   "k": "kob11j",
+   "zh": "对当前作用域国家所在阵营的每个阵营成员执行子效果；若该国没有阵营，则仅对自身生效。"
+  },
+  {
+   "k": "1rx981e",
+   "zh": "every_state"
+  },
+  {
+   "k": "8awmmu",
+   "zh": "州"
+  },
+  {
+   "k": "lruthl",
+   "zh": "every_state = { … }"
+  },
+  {
+   "k": "1w7cr78",
+   "zh": "对符合限制条件的每个州执行其中包含的效果。"
+  },
+  {
+   "k": "1dwl0qw",
+   "zh": "random_state"
+  },
+  {
+   "k": "oct2rt",
+   "zh": "random_state = { prioritize = { 123 321 } #optional … #effects to run }"
+  },
+  {
+   "k": "1rlx077",
+   "zh": "对符合限制条件的一个随机州执行其中包含的效果。"
+  },
+  {
+   "k": "4x3hfx",
+   "zh": "every_neighbor_state"
+  },
+  {
+   "k": "38a0s7",
+   "zh": "仅限州作用域内"
+  },
+  {
+   "k": "1wfye1a",
+   "zh": "every_neighbor_state = { … }"
+  },
+  {
+   "k": "1tcpx51",
+   "zh": "对符合限制条件且与包含此效果的所在州相邻的每个州执行其中包含的效果。"
+  },
+  {
+   "k": "1ra3slr",
+   "zh": "random_neighbor_state"
+  },
+  {
+   "k": "1mldev4",
+   "zh": "random_neighbor_state = { … }"
+  },
+  {
+   "k": "1ixg44",
+   "zh": "对符合限制条件且与包含此效果的所在州相邻的一个随机州执行其中包含的效果。不支持 ⟦0⟧。"
+  },
+  {
+   "k": "1lq987b",
+   "zh": "prioritizing"
+  },
+  {
+   "k": "6jhx34",
+   "zh": "every_owned_state"
+  },
+  {
+   "k": "1edjb5b",
+   "zh": "every_owned_state = { … }"
+  },
+  {
+   "k": "1ymyffe",
+   "zh": "对符合限制条件且由包含此效果的所在国家拥有的每个州执行其中包含的效果。"
+  },
+  {
+   "k": "gkucwe",
+   "zh": "random_owned_state"
+  },
+  {
+   "k": "8dozt3",
+   "zh": "random_owned_state = { prioritize = { 123 321 } #optional … #effects to run }"
+  },
+  {
+   "k": "1k19k23",
+   "zh": "对符合限制条件且由包含此效果的所在国家拥有的一个随机州执行其中包含的效果。"
+  },
+  {
+   "k": "1twjumo",
+   "zh": "every_core_state"
+  },
+  {
+   "k": "idgty7",
+   "zh": "every_core_state = { … }"
+  },
+  {
+   "k": "1ejjvcx",
+   "zh": "对符合限制条件且为包含此效果的所在国家核心州的每个州执行其中包含的效果。"
+  },
+  {
+   "k": "1s7ned6",
+   "zh": "random_core_state"
+  },
+  {
+   "k": "1qh8zwr",
+   "zh": "random_core_state = { prioritize = { 123 321 } #optional … #effects to run }"
+  },
+  {
+   "k": "1dfwnv2",
+   "zh": "对符合限制条件且为包含此效果的所在国家核心州的一个随机州执行其中包含的效果。"
+  },
+  {
+   "k": "1o3mend",
+   "zh": "every_controlled_state"
+  },
+  {
+   "k": "did7xu",
+   "zh": "every_controlled_state = { … }"
+  },
+  {
+   "k": "1dko6nx",
+   "zh": "对符合限制条件且由包含此效果的所在国家控制的每个州执行其中包含的效果。"
+  },
+  {
+   "k": "5snjrv",
+   "zh": "random_controlled_state"
+  },
+  {
+   "k": "1d8akxc",
+   "zh": "random_controlled_state = { prioritize = { 123 321 } #optional … #effects to run }"
+  },
+  {
+   "k": "1poh9ii",
+   "zh": "对符合限制条件且由包含此效果的所在国家控制的一个随机州执行其中包含的效果。"
+  },
+  {
+   "k": "1c83kud",
+   "zh": "random_owned_controlled_state"
+  },
+  {
+   "k": "o9uwbu",
+   "zh": "random_owned_controlled_state = { prioritize = { 123 321 } #optional … #effects to run }"
+  },
+  {
+   "k": "6hs6zq",
+   "zh": "对符合限制条件且由包含此效果的所在国家拥有并控制的一个随机州执行其中包含的效果。"
+  },
+  {
+   "k": "17epfu5",
+   "zh": "every_unit_leader"
+  },
+  {
+   "k": "15a7o78",
+   "zh": "单位指挥官"
+  },
+  {
+   "k": "1j31zvy",
+   "zh": "every_unit_leader = { … }"
+  },
+  {
+   "k": "j9ul71",
+   "zh": "对符合限制条件且由包含此效果的所在国家招募的每个单位指挥官（军长、元帅、海军上将）执行其中包含的效果。"
+  },
+  {
+   "k": "1kr3e8j",
+   "zh": "random_unit_leader"
+  },
+  {
+   "k": "t19kho",
+   "zh": "random_unit_leader = { … }"
+  },
+  {
+   "k": "10slxh6",
+   "zh": "对符合限制条件且由包含此效果的所在国家招募的一个随机单位指挥官（军长、元帅、海军上将）执行其中包含的效果。"
+  },
+  {
+   "k": "1bj4qd0",
+   "zh": "every_army_leader"
+  },
+  {
+   "k": "uh7u4p",
+   "zh": "对符合限制条件且由包含此效果的所在国家招募的每个陆军将领执行其中包含的效果。"
+  },
+  {
+   "k": "1njbqfe",
+   "zh": "random_army_leader"
+  },
+  {
+   "k": "3lgusx",
+   "zh": "random_army_leader = { … }"
+  },
+  {
+   "k": "1j8g1g4",
+   "zh": "对符合限制条件且由包含此效果的所在国家招募的一个随机陆军将领执行其中包含的效果。"
+  },
+  {
+   "k": "1dpf7g6",
+   "zh": "global_every_army_leader"
+  },
+  {
+   "k": "1kp6sn9",
+   "zh": "global_every_army_leader = { … }"
+  },
+  {
+   "k": "a64u6u",
+   "zh": "对符合限制条件的每个陆军将领执行其中包含的效果。除非确有必要使用 global_every_army_leader，否则优先使用 every_army_leader。"
+  },
+  {
+   "k": "908sob",
+   "zh": "every_navy_leader"
+  },
+  {
+   "k": "9u7uxw",
+   "zh": "every_navy_leader = { … }"
+  },
+  {
+   "k": "1ocp58c",
+   "zh": "对符合限制条件且由包含此效果的所在国家招募的每个海军将领执行其中包含的效果。"
+  },
+  {
+   "k": "1rtgjg5",
+   "zh": "random_navy_leader"
+  },
+  {
+   "k": "d1avom",
+   "zh": "random_navy_leader = { … }"
+  },
+  {
+   "k": "1ls2dp5",
+   "zh": "对符合限制条件且由包含此效果的所在国家招募的一个随机海军将领执行其中包含的效果。"
+  },
+  {
+   "k": "bwhaya",
+   "zh": "every_operative"
+  },
+  {
+   "k": "1utiz5t",
+   "zh": "仅限国家作用域或行动内"
+  },
+  {
+   "k": "7znq86",
+   "zh": "特工"
+  },
+  {
+   "k": "1xbfds9",
+   "zh": "every_operative = { … }"
+  },
+  {
+   "k": "iyj19o",
+   "zh": "对符合限制条件且由包含此效果的所在国家招募的每个特工执行其中包含的效果。"
+  },
+  {
+   "k": "7eebvc",
+   "zh": "random_operative"
+  },
+  {
+   "k": "1395sn",
+   "zh": "random_operative = { … }"
+  },
+  {
+   "k": "1slybuh",
+   "zh": "对符合限制条件且由包含此效果的所在国家招募的一个随机特工执行其中包含的效果。"
+  },
+  {
+   "k": "1wmgb9w",
+   "zh": "every_character"
+  },
+  {
+   "k": "1tlu2eo",
+   "zh": "角色"
+  },
+  {
+   "k": "1u0p7yz",
+   "zh": "every_character = { … }"
+  },
+  {
+   "k": "1qh2hiu",
+   "zh": "对符合限制条件且由包含此效果的所在国家招募的每个角色执行其中包含的效果。"
+  },
+  {
+   "k": "1lh9sge",
+   "zh": "random_character"
+  },
+  {
+   "k": "p2r5nx",
+   "zh": "random_character = { … }"
+  },
+  {
+   "k": "1dfa39v",
+   "zh": "对符合限制条件且由包含此效果的所在国家招募的一个随机角色执行其中包含的效果。"
+  },
+  {
+   "k": "9p3owp",
+   "zh": "every_country_division"
+  },
+  {
+   "k": "1a192x2",
+   "zh": "师"
+  },
+  {
+   "k": "hg6qte",
+   "zh": "every_country_division = { … }"
+  },
+  {
+   "k": "8bljqr",
+   "zh": "对符合限制条件且由当前国家拥有的每个师执行其中包含的效果。"
+  },
+  {
+   "k": "13scgkj",
+   "zh": "random_country_division"
+  },
+  {
+   "k": "1mrizqk",
+   "zh": "random_country_division = { … }"
+  },
+  {
+   "k": "14n5vzm",
+   "zh": "对符合限制条件且由当前国家拥有的一个随机师执行其中包含的效果。"
+  },
+  {
+   "k": "tiqc6g",
+   "zh": "every_state_division"
+  },
+  {
+   "k": "wkuux3",
+   "zh": "every_state_division = { … }"
+  },
+  {
+   "k": "1vfxo2b",
+   "zh": "对符合限制条件且位于当前州内的每个师执行其中包含的效果。"
+  },
+  {
+   "k": "11kr5au",
+   "zh": "random_state_division"
+  },
+  {
+   "k": "1qx7u79",
+   "zh": "random_state_division = { … }"
+  },
+  {
+   "k": "16jf0xa",
+   "zh": "对符合限制条件且位于当前州内的一个随机师执行其中包含的效果。"
+  },
+  {
+   "k": "1auulju",
+   "zh": "every_military_industrial_organization"
+  },
+  {
+   "k": "3okz6s",
+   "zh": "军工组织"
+  },
+  {
+   "k": "2ld4rl",
+   "zh": "every_military_industrial_organization = { … }"
+  },
+  {
+   "k": "xvzy7b",
+   "zh": "对当前国家内符合限制条件的每个军工组织执行其中包含的效果。"
+  },
+  {
+   "k": "1ufgzj0",
+   "zh": "random_military_industrial_organization"
+  },
+  {
+   "k": "1oz70wj",
+   "zh": "random_military_industrial_organization = { … }"
+  },
+  {
+   "k": "6yttom",
+   "zh": "对当前国家内符合限制条件的一个随机军工组织执行其中包含的效果。"
+  },
+  {
+   "k": "qn133h",
+   "zh": "every_purchase_contract"
+  },
+  {
+   "k": "jfje10",
+   "zh": "采购合同"
+  },
+  {
+   "k": "jni4by",
+   "zh": "every_purchase_contract = { … }"
+  },
+  {
+   "k": "eb8y13",
+   "zh": "对当前国家内符合限制条件的每份采购合同执行其中包含的效果。"
+  },
+  {
+   "k": "1rdt9cz",
+   "zh": "random_purchase_contract"
+  },
+  {
+   "k": "1nzp73g",
+   "zh": "random_purchase_contract = { … }"
+  },
+  {
+   "k": "1y8ujau",
+   "zh": "对当前国家内符合限制条件的一份随机采购合同执行其中包含的效果。"
+  },
+  {
+   "k": "o3d81x",
+   "zh": "every_scientist"
+  },
+  {
+   "k": "15hv312",
+   "zh": "every_scientist = { … }"
+  },
+  {
+   "k": "h7llk2",
+   "zh": "对当前作用域国家中符合 \"limit\" 触发器的每个科学家执行子效果（若指定了 \"random_select_amount\"，则为该数量的随机角色）。"
+  },
+  {
+   "k": "c8yd0v",
+   "zh": "random_scientist"
+  },
+  {
+   "k": "iai540",
+   "zh": "random_scientist = { … }"
+  },
+  {
+   "k": "19efacv",
+   "zh": "对符合 \"limit\" 触发器的随机科学家执行子效果。"
+  },
+  {
+   "k": "5hxmii",
+   "zh": "every_active_scientist"
+  },
+  {
+   "k": "73o001",
+   "zh": "every_active_scientist = { … }"
+  },
+  {
+   "k": "1eobllc",
+   "zh": "对当前作用域国家中符合 \"limit\" 触发器.title 的每个在职科学家执行子效果（若指定了 \"random_select_amount\"，则为该数量的随机角色）。"
+  },
+  {
+   "k": "oau8ek",
+   "zh": "random_active_scientist"
+  },
+  {
+   "k": "1e71pb7",
+   "zh": "random_active_scientist = { … }"
+  },
+  {
+   "k": "5tujrd",
+   "zh": "party_leader"
+  },
+  {
+   "k": "fntevq",
+   "zh": "party_leader = { limit = { has_ideology = liberalism } set_nationality = BHR }"
+  },
+  {
+   "k": "a6ncdp",
+   "zh": "对具有指定意识形态类型的政党领袖执行效果。limit 中必须包含 ⟦0⟧，且其指向具体的意识形态类型（例如 Despotic），而非包含该类型的组（例如 Non-Aligned）。所选角色必须是对应该意识形态组的政党领袖。"
+  },
+  {
+   "k": "15j99jg",
+   "zh": "has_ideology"
+  },
+  {
+   "k": "i2j93q",
+   "zh": "every_collection_element"
+  },
+  {
+   "k": "1pg4d64",
+   "zh": "集合/任意"
+  },
+  {
+   "k": "11grvpt",
+   "zh": "every_collection_element = { input = { input = collection_id # This can be a collection name or an inline definition of a collection limit = { # Trigger - limit effect execution to a subset of elements } } # Effects to be executed }"
+  },
+  {
+   "k": "1aji3zo",
+   "zh": "对集合的所有元素施加任意效果。要了解更多关于集合的信息，请参见 ⟦0⟧ 中的文档。"
+  },
+  {
+   "k": "d33ldd",
+   "zh": "/Hearts of Iron IV/common/collections"
+  },
+  {
+   "k": "83h7uu",
+   "zh": "⟦0⟧ 其中一些作用域可能没有符合条件的国家/州。"
+  },
+  {
+   "k": "1s26rd1",
+   "zh": "注意："
+  },
+  {
+   "k": "ox226g",
+   "zh": "会改变作用域的效果"
+  },
+  {
+   "k": "1yz6mjd",
+   "zh": "会改变作用域的效果包括以下几种："
+  },
+  {
+   "k": "g27rt8",
+   "zh": "⟦0⟧，它将作用域改为叛乱中的动态国家。"
+  },
+  {
+   "k": "hgxhf6",
+   "zh": "start_civil_war"
+  },
+  {
+   "k": "1ix07hc",
+   "zh": "⟦0⟧，它将作用域改为新创建的动态国家。"
+  },
+  {
+   "k": "ls408m",
+   "zh": "create_dynamic_country"
+  },
+  {
+   "k": "1nhdo80",
+   "zh": "双重作用域"
+  },
+  {
+   "k": "19okt9r",
+   "zh": "以下作用域既可用作效果作用域，也可用作触发器作用域；有些还可作为某些效果和触发器的右侧目标使用。若可作为目标使用，会在表中标注。"
+  },
+  {
+   "k": "rijzma",
+   "zh": "部分双重作用域的作用域会随使用位置而变化，例如变量可被设为任何内容。"
+  },
+  {
+   "k": "nlj1gu",
+   "zh": "双重作用域："
+  },
+  {
+   "k": "1bnizko",
+   "zh": "可作为目标使用"
+  },
+  {
+   "k": "6pr25v",
+   "zh": "TAG"
+  },
+  {
+   "k": "11oy8p",
+   "zh": "国家作用域"
+  },
+  {
+   "k": "8422d2",
+   "zh": "SOV = { country_event = my_event.1 }"
+  },
+  {
+   "k": "zrxegk",
+   "zh": "由标签或标签别名定义的国家。标签别名定义在 ⟦0⟧ 中，用于在国家的实际标签之外指代特定国家（例如内战中的一方）。若使用确切标签的国家不存在，但存在源自该指定标签的动态国家，则作用域将指向该动态国家。"
+  },
+  {
+   "k": "xw2z46",
+   "zh": "/Hearts of Iron IV/common/country_tag_aliases"
+  },
+  {
+   "k": "ldf7ja",
+   "zh": "<state_id>"
+  },
+  {
+   "k": "1axdv2u",
+   "zh": "州作用域"
+  },
+  {
+   "k": "1otx40x",
+   "zh": "123 = { transfer_state_to = SCO }"
+  },
+  {
+   "k": "cup9pa",
+   "zh": "由此id定义的州。"
+  },
+  {
+   "k": "1yvu9sc",
+   "zh": "<character>"
+  },
+  {
+   "k": "fuj72e",
+   "zh": "不在角色作用域内"
+  },
+  {
+   "k": "1o514z8",
+   "zh": "角色作用域"
+  },
+  {
+   "k": "5gv8oi",
+   "zh": "ENG_theodore_makhno = { set_nationality = UKR }"
+  },
+  {
+   "k": "1itywpl",
+   "zh": "在1.12.8之前的游戏版本中，该角色必须已被此作用域所属国家招募。"
+  },
+  {
+   "k": "1mexu11",
+   "zh": "mio:<MIO>"
+  },
+  {
+   "k": "1svxbxk",
+   "zh": "军工组织作用域"
+  },
+  {
+   "k": "qmjqvk",
+   "zh": "mio:AST_cockatoo_doe_organization = { … }"
+  },
+  {
+   "k": "v22v7z",
+   "zh": "由该ID标识的军工组织，定义于 ⟦0⟧ 文件中。"
+  },
+  {
+   "k": "589haz",
+   "zh": "/Hearts of Iron IV/common/military_industrial_organization/organizations/*.txt"
+  },
+  {
+   "k": "1f5hvjp",
+   "zh": "sp:<special_project>"
+  },
+  {
+   "k": "fib28d",
+   "zh": "特殊项目作用域"
+  },
+  {
+   "k": "g3mz2q",
+   "zh": "sp:sp_land_flamethrower_tank = { … }"
+  },
+  {
+   "k": "1vf48z6",
+   "zh": "由该ID标识的特殊项目，定义于 ⟦0⟧ 文件中。"
+  },
+  {
+   "k": "1g5uwqq",
+   "zh": "/Hearts of Iron IV/common/special_projects/projects/*.txt"
+  },
+  {
+   "k": "8eqlqd",
+   "zh": "ROOT"
+  },
+  {
+   "k": "1sfns3e",
+   "zh": "取决于用法"
+  },
+  {
+   "k": "sy3jzl",
+   "zh": "ENG = { FRA = { GER = { declare_war_on = { target = ROOT type = annex_everything } } } } #GER declares war on ENG (if there is no scope before ENG)"
+  },
+  {
+   "k": "cl4ojx",
+   "zh": "指向所在块的根节点，这是每个块固有的属性。最常见的情况是，它就是默认作用域：例如 ROOT ⟦0⟧ 始终指向执行该焦点的国家，ROOT ⟦1⟧ 始终指向收到该事件的国家。不过，某些块会区分默认作用域与 ROOT，例如 ⟦2⟧ 或 ⟦3⟧。若某个块没有定义 ROOT（例如 ⟦4⟧），则无法使用它。"
+  },
+  {
+   "k": "n2nskp",
+   "zh": "在国家焦点内"
+  },
+  {
+   "k": "10bd9w5",
+   "zh": "在事件内"
+  },
+  {
+   "k": "1dduequ",
+   "zh": "某些脚本化GUI上下文"
+  },
+  {
+   "k": "1ynkaax",
+   "zh": "某些 on actions"
+  },
+  {
+   "k": "1a9zont",
+   "zh": "on actions 中的 on_startup"
+  },
+  {
+   "k": "17g13pd",
+   "zh": "THIS"
+  },
+  {
+   "k": "1kmhfsb",
+   "zh": "set_temp_variable = { target_country = THIS }"
+  },
+  {
+   "k": "1ax2353",
+   "zh": "指向使用它的当前作用域。例如，在 ⟦0⟧ 中使用时，它指向当前正在判定的州。主要用于 ⟦1⟧（如示例中，省略它将无法工作）或 ⟦2⟧（必须指定某个作用域）。较少见的情况下，在使用 ⟦3⟧ 时它有助于作用域操作。由于省略它不会改变代码的解释方式，除这些情况外几乎没有使用场景。"
+  },
+  {
+   "k": "bk83b6",
+   "zh": "变量"
+  },
+  {
+   "k": "10krnwf",
+   "zh": "内置本地化指令"
+  },
+  {
+   "k": "xjsa28",
+   "zh": "PREV"
+  },
+  {
+   "k": "byib9b",
+   "zh": "FRA = { random_country = { GER = { declare_war_on = { target = PREV type = annex_everything } } } } #Germany declares war on random_country"
+  },
+  {
+   "k": "1g85fhg",
+   "zh": "指向包含当前作用域的那个作用域。在默认假定作用域与 ROOT 不同的情况下（例如州事件或某些 on_actions）可能有额外用法。可无限链式调用，如 PREV.PREV。⟦0⟧：向玩家显示的内容并不总是与现实相符。另见：PREV 用法。"
+  },
+  {
+   "k": "12cyzen",
+   "zh": "通常会导致提示框显示异常"
+  }
+ ]
+}

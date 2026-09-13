@@ -1,0 +1,656 @@
+{
+ "page": "Modifiers",
+ "from": 1690,
+ "items": [
+  {
+   "k": "185ti6k",
+   "en": "air_bombing_targetting",
+   "zh": ""
+  },
+  {
+   "k": "ub37jw",
+   "en": "Modifies targetting for ground bombing.",
+   "zh": ""
+  },
+  {
+   "k": "18k4jxi",
+   "en": "air_bombing_targetting = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "5jb71j",
+   "en": "air_cas_efficiency",
+   "zh": ""
+  },
+  {
+   "k": "bptbd4",
+   "en": "Modifies efficiency of close-air-support.",
+   "zh": ""
+  },
+  {
+   "k": "8chmid",
+   "en": "air_cas_efficiency = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1r4gks1",
+   "en": "air_cas_present_factor",
+   "zh": ""
+  },
+  {
+   "k": "1crt82t",
+   "en": "Modifies impact of close-air-support in land combat.",
+   "zh": ""
+  },
+  {
+   "k": "19lwnuz",
+   "en": "air_cas_present_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1inyheg",
+   "en": "air_escort_efficiency",
+   "zh": ""
+  },
+  {
+   "k": "z63wdl",
+   "en": "Modifies ability of planes in dogfights.",
+   "zh": ""
+  },
+  {
+   "k": "106f9ka",
+   "en": "air_escort_efficiency = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "sd2aci",
+   "en": "air_home_defence_factor",
+   "zh": ""
+  },
+  {
+   "k": "1do0omb",
+   "en": "Modifies the defence of airplanes when defending states in the home region (Connected to the country's capital by land)",
+   "zh": ""
+  },
+  {
+   "k": "5y83cw",
+   "en": "air_home_defence_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "7tdb3u",
+   "en": "air_intercept_efficiency",
+   "zh": ""
+  },
+  {
+   "k": "1ekpcps",
+   "en": "Modifies the efficiency of air interception.",
+   "zh": ""
+  },
+  {
+   "k": "173k7mg",
+   "en": "air_intercept_efficiency = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "12xceal",
+   "en": "air_manpower_requirement_factor",
+   "zh": ""
+  },
+  {
+   "k": "1g1bv3t",
+   "en": "Modifies the manpower required to deploy an airplane.",
+   "zh": ""
+  },
+  {
+   "k": "14fv7ma",
+   "en": "air_manpower_requirement_factor = -0.5",
+   "zh": ""
+  },
+  {
+   "k": "2heehg",
+   "en": "air_maximum_speed_factor",
+   "zh": ""
+  },
+  {
+   "k": "1lou82a",
+   "en": "Modifies the maximum speed of the airforce.",
+   "zh": ""
+  },
+  {
+   "k": "14pmum",
+   "en": "air_maximum_speed_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1c5ko5m",
+   "en": "air_mission_efficiency",
+   "zh": ""
+  },
+  {
+   "k": "1moe3kz",
+   "en": "Modifies the efficiency of airplanes in missions.",
+   "zh": ""
+  },
+  {
+   "k": "5857m0",
+   "en": "air_mission_efficiency = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "km54hv",
+   "en": "air_mission_xp_gain_factor",
+   "zh": ""
+  },
+  {
+   "k": "1naxtxs",
+   "en": "Modifies the experience gain for airplanes for doing missions.",
+   "zh": ""
+  },
+  {
+   "k": "10drhzt",
+   "en": "air_mission_xp_gain_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "wiq1tv",
+   "en": "air_nav_efficiency",
+   "zh": ""
+  },
+  {
+   "k": "18x6gdb",
+   "en": "Modifies the efficiency of airplanes doing port strike and naval bombing missions.",
+   "zh": ""
+  },
+  {
+   "k": "3j3gd5",
+   "en": "air_nav_efficiency = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1at9uis",
+   "en": "air_night_penalty",
+   "zh": ""
+  },
+  {
+   "k": "1ghqfhj",
+   "en": "Modifies the penalty the airforce receives while at night.",
+   "zh": ""
+  },
+  {
+   "k": "xrp6m",
+   "en": "air_night_penalty = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "5lsrsj",
+   "en": "air_power_projection_factor",
+   "zh": ""
+  },
+  {
+   "k": "bl8ol2",
+   "en": "Modifies the power projection given out by the airplanes.",
+   "zh": ""
+  },
+  {
+   "k": "8hg9d5",
+   "en": "air_power_projection_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "15k4g0x",
+   "en": "air_range_factor",
+   "zh": ""
+  },
+  {
+   "k": "darnxk",
+   "en": "Modifies the range of the airplanes.",
+   "zh": ""
+  },
+  {
+   "k": "1g4zrx7",
+   "en": "air_range_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "122tqif",
+   "en": "air_strategic_bomber_bombing_factor",
+   "zh": ""
+  },
+  {
+   "k": "88xr4d",
+   "en": "Modifies the efficiency of the strategic bombing mission.",
+   "zh": ""
+  },
+  {
+   "k": "ysjpk5",
+   "en": "air_strategic_bomber_bombing_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1ode9o3",
+   "en": "air_strategic_bomber_night_penalty",
+   "zh": ""
+  },
+  {
+   "k": "asmck3",
+   "en": "Modifies the penalty for the strategic bombing mission while at night.",
+   "zh": ""
+  },
+  {
+   "k": "brbjmx",
+   "en": "air_strategic_bomber_night_penalty = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "16lprmt",
+   "en": "air_superiority_detect_factor",
+   "zh": ""
+  },
+  {
+   "k": "mkz9ha",
+   "en": "Modifies the chance to detect enemy planes while on the air superiority mission. Displays as Fighter Detection.",
+   "zh": ""
+  },
+  {
+   "k": "nzi0c7",
+   "en": "air_superiority_detect_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1m97y97",
+   "en": "air_superiority_efficiency",
+   "zh": ""
+  },
+  {
+   "k": "1ugjp3w",
+   "en": "Modifies the efficiency of the air superiority mission.",
+   "zh": ""
+  },
+  {
+   "k": "1j0oyzl",
+   "en": "air_superiority_efficiency = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "r56v6r",
+   "en": "air_training_xp_gain_factor",
+   "zh": ""
+  },
+  {
+   "k": "jgdm0p",
+   "en": "Modifies the air experience gain from training.",
+   "zh": ""
+  },
+  {
+   "k": "ejrfsp",
+   "en": "air_training_xp_gain_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "yb2wms",
+   "en": "air_untrained_pilots_penalty_factor",
+   "zh": ""
+  },
+  {
+   "k": "1a0tr4d",
+   "en": "Modifies the penalty given to airplanes which don't have enough experience.",
+   "zh": ""
+  },
+  {
+   "k": "fsgmku",
+   "en": "air_untrained_pilots_penalty_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "fglldm",
+   "en": "air_weather_penalty",
+   "zh": ""
+  },
+  {
+   "k": "1qkf3tl",
+   "en": "Modifies the penalty the airplanes receive because of weather.",
+   "zh": ""
+  },
+  {
+   "k": "mnsk2g",
+   "en": "air_weather_penalty = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "16n9fq5",
+   "en": "air_wing_xp_loss_when_killed_factor",
+   "zh": ""
+  },
+  {
+   "k": "x4x8iw",
+   "en": "Modifies the experience loss of airplanes due to airplanes being shot down.",
+   "zh": ""
+  },
+  {
+   "k": "10g7xf3",
+   "en": "air_wing_xp_loss_when_killed_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1jb94qp",
+   "en": "army_bonus_air_superiority_factor",
+   "zh": ""
+  },
+  {
+   "k": "1v9jxba",
+   "en": "Modifies the bonus to land combat from air superiority.",
+   "zh": ""
+  },
+  {
+   "k": "1g8yxq3",
+   "en": "army_bonus_air_superiority_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1hv66na",
+   "en": "enemy_army_bonus_air_superiority_factor",
+   "zh": ""
+  },
+  {
+   "k": "oblco0",
+   "en": "Modifies the effect to land combat from enemy air superiority.",
+   "zh": ""
+  },
+  {
+   "k": "zdwcqk",
+   "en": "enemy_army_bonus_air_superiority_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1b3ljzr",
+   "en": "ground_attack_factor",
+   "zh": ""
+  },
+  {
+   "k": "1rm78z9",
+   "en": "Modifies the bonus to airplane attack on enemy divisions by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "122t99h",
+   "en": "ground_attack_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "pnyg6s",
+   "en": "mines_planting_by_air_factor",
+   "zh": ""
+  },
+  {
+   "k": "1ktox9",
+   "en": "Modifies efficiency of airplanes planting mines.",
+   "zh": ""
+  },
+  {
+   "k": "1b1j6ku",
+   "en": "mines_planting_by_air_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "pr9lb",
+   "en": "mines_sweeping_by_air_factor",
+   "zh": ""
+  },
+  {
+   "k": "yzfe64",
+   "en": "Modifies efficiency of airplanes sweeping mines.",
+   "zh": ""
+  },
+  {
+   "k": "12wt97h",
+   "en": "mines_sweeping_by_air_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1it254j",
+   "en": "strategic_bomb_visibility",
+   "zh": ""
+  },
+  {
+   "k": "1bcev6m",
+   "en": "Modifies the chance for the enemy to detect our strategic bombers.",
+   "zh": ""
+  },
+  {
+   "k": "13f9g6h",
+   "en": "strategic_bomb_visibility = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1vytouo",
+   "en": "rocket_attack_factor",
+   "zh": ""
+  },
+  {
+   "k": "1g4gctj",
+   "en": "Modifies the attack given to rockets.",
+   "zh": ""
+  },
+  {
+   "k": "ggncw2",
+   "en": "rocket_attack_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "14ynjvf",
+   "en": "Targeted modifiers",
+   "zh": ""
+  },
+  {
+   "k": "8ofovb",
+   "en": "These modifiers are targeted, meaning that they must be used in a block for targeted modifiers rather than regular modifiers. These include ⟦0⟧ in ideas, traits, advisors, and decisions; ⟦1⟧. A ⟦2⟧ block is structured as such:",
+   "zh": ""
+  },
+  {
+   "k": "20t6u8",
+   "en": "targeted_modifier = { ... }",
+   "zh": ""
+  },
+  {
+   "k": "y7qcpf",
+   "en": "relation modifiers",
+   "zh": ""
+  },
+  {
+   "k": "tby8wv",
+   "en": "targeted_modifier",
+   "zh": ""
+  },
+  {
+   "k": "5vfuwm",
+   "en": "⟦0⟧ in ideas, advisors, and decisions; as such it will not work when it's put inside of ⟦1⟧.",
+   "zh": ""
+  },
+  {
+   "k": "1bef77z",
+   "en": "This is a completely separate block from ⟦0⟧",
+   "zh": ""
+  },
+  {
+   "k": "1xpl1mz",
+   "en": "modifier = { ... }",
+   "zh": ""
+  },
+  {
+   "k": "15mzwmq",
+   "en": "extra_trade_to_target_factor",
+   "zh": ""
+  },
+  {
+   "k": "1soqyug",
+   "en": "Adds extra produced resources available for trade to target country.",
+   "zh": ""
+  },
+  {
+   "k": "3qslf4",
+   "en": "extra_trade_to_target_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "xqnynx",
+   "en": "generate_wargoal_tension_against",
+   "zh": ""
+  },
+  {
+   "k": "16431by",
+   "en": "Changes world tension necessary for us to justify against the target country.",
+   "zh": ""
+  },
+  {
+   "k": "17fch8v",
+   "en": "generate_wargoal_tension_against = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "4a29gs",
+   "en": "cic_to_target_factor",
+   "zh": ""
+  },
+  {
+   "k": "mleqfh",
+   "en": "Gives a portion of the country's civilian industry to the specified target.",
+   "zh": ""
+  },
+  {
+   "k": "5bs41y",
+   "en": "cic_to_target_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "12hxu42",
+   "en": "mic_to_target_factor",
+   "zh": ""
+  },
+  {
+   "k": "1teeli3",
+   "en": "Gives a portion of the country's military industry to the specified target.",
+   "zh": ""
+  },
+  {
+   "k": "x63i9c",
+   "en": "mic_to_target_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "14ssbg9",
+   "en": "trade_cost_for_target_factor",
+   "zh": ""
+  },
+  {
+   "k": "7gt2ec",
+   "en": "The cost for the targeted country to purchase this country's resources.",
+   "zh": ""
+  },
+  {
+   "k": "bae3g3",
+   "en": "trade_cost_for_target_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "18x3sge",
+   "en": "targeted_legitimacy_daily",
+   "zh": ""
+  },
+  {
+   "k": "1jq1co8",
+   "en": "Changes daily gain of legitimacy of the target country.",
+   "zh": ""
+  },
+  {
+   "k": "1ro7yzo",
+   "en": "targeted_legitimacy_daily = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1on05jp",
+   "en": "attack_bonus_against",
+   "zh": ""
+  },
+  {
+   "k": "210jjg",
+   "en": "Gives an attack bonus against the armies of the specified country.",
+   "zh": ""
+  },
+  {
+   "k": "wuwn9j",
+   "en": "attack_bonus_against = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1b4e7bl",
+   "en": "Due to a bug, this will not apply to units that are defending.",
+   "zh": ""
+  },
+  {
+   "k": "1oyh8gm",
+   "en": "attack_bonus_against_cores",
+   "zh": ""
+  },
+  {
+   "k": "1rorfbs",
+   "en": "Gives an attack bonus against the armies of the specified country on its core territory.",
+   "zh": ""
+  },
+  {
+   "k": "1plchak",
+   "en": "attack_bonus_against_cores = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "rv7gbt",
+   "en": "breakthrough_bonus_against",
+   "zh": ""
+  },
+  {
+   "k": "1qarx9q",
+   "en": "Gives a breakthrough bonus against the armies of the specified country.",
+   "zh": ""
+  },
+  {
+   "k": "39yvr7",
+   "en": "breakthrough_bonus_against = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "rf0u5j",
+   "en": "defense_bonus_against",
+   "zh": ""
+  },
+  {
+   "k": "1pvreb2",
+   "en": "Gives a defense bonus against the armies of the specified country.",
+   "zh": ""
+  },
+  {
+   "k": "18xgn79",
+   "en": "defense_bonus_against = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "5hvnyd",
+   "en": "Due to a bug, this will not apply to units that are attacking.",
+   "zh": ""
+  },
+  {
+   "k": "xfl2e0",
+   "en": "Several country-scoped modifiers (such as a portion of those in the ⟦0⟧) unlisted here can go into state scope. A large portion of state-scoped modifiers can go into province scope.",
+   "zh": ""
+  },
+  {
+   "k": "c7a5ub",
+   "en": "land combat section",
+   "zh": ""
+  },
+  {
+   "k": "8msunf",
+   "en": "army_speed_factor_for_controller",
+   "zh": ""
+  }
+ ]
+}

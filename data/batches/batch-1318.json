@@ -1,0 +1,927 @@
+{
+ "batch": 1318,
+ "pages": [
+  "Intelligence agency modding",
+  "Resources modding"
+ ],
+ "chars": 6481,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "er299k",
+   "en": "Cosmetically, country-specific ⟦0⟧ are used in mods only as a localisation and graphical interface, but this guide can also be used on creating generic intelligence agencies.",
+   "frags": 1
+  },
+  {
+   "k": "6uep6l",
+   "en": "intelligence agencies"
+  },
+  {
+   "k": "qrnhq8",
+   "en": "Agency file"
+  },
+  {
+   "k": "xemtek",
+   "en": "Intelligence agencies' cosmetics are defined and toggled for countries in it's respective definition in the agencies file, in ⟦0⟧. By default, this is the ⟦1⟧ file. It is not recommended to overwrite the vanilla file, and instead to create a new one, for readability and to allow your mod to work better with future updates, DLCs, and other mods. An example for an intelligence agency definition is as follows:",
+   "frags": 2
+  },
+  {
+   "k": "hosbjy",
+   "en": "<yourmod>/common/intelligence_agencies"
+  },
+  {
+   "k": "1w23oe3",
+   "en": "00_intelligence_agencies.txt"
+  },
+  {
+   "k": "hd5o91",
+   "en": "The ⟦0⟧ definition can list either hardcoded strings or localisation scopes (Vanilla files are typically hardcoded). They list out all the possible, random, names that can be given to the intelligence agency. These names are used when you call ⟦1⟧, unless another name is provided in the effect. In this example, either Hugin or Munin are used as the intelligence agency name, which is randomly picked when the effect is called.",
+   "frags": 2
+  },
+  {
+   "k": "1s2cwi7",
+   "en": "names"
+  },
+  {
+   "k": "18vvrkh",
+   "en": "create_intelligence_agency"
+  },
+  {
+   "k": "1xj1c0n",
+   "en": "The ⟦0⟧ definition contains the trigger for the intelligence agency to be the default choice of any nation. For example, when you choose to create an intelligence agency when playing as ⟦1⟧, it defaults with the MI6 icon and either 'SIS' or 'MI6' as it's title, which you can then edit from there.",
+   "frags": 2
+  },
+  {
+   "k": "14unowu",
+   "en": "default"
+  },
+  {
+   "k": "73ja66",
+   "en": "the United Kingdom"
+  },
+  {
+   "k": "25cjpe",
+   "en": "The ⟦0⟧ definition contains the trigger for the intelligence agency to be a choice you can make when creating it manually. This only works with the icon, due to how the intelligence agency system works. For example, if you wanted to create a new generic intelligence agency icon, you could define it like so:",
+   "frags": 1
+  },
+  {
+   "k": "skramw",
+   "en": "available"
+  },
+  {
+   "k": "106esib",
+   "en": "Despite it being only a new icon, you must give it at least one possible name, or else the definition won't be valid."
+  },
+  {
+   "k": "1jqhvu0",
+   "en": "GFX"
+  },
+  {
+   "k": "ja0d6a",
+   "en": "The GFX for the intelligence agencies is slightly more complicated than the standard icon; when you select an intelligence agencies' icon, the selection effect is ⟦0⟧. This means that you must create two frames when defining your icon in a .gfx file, an example of such is as follows:",
+   "frags": 1
+  },
+  {
+   "k": "19e7r3a",
+   "en": "not automatically generated"
+  },
+  {
+   "k": "1ut2zdv",
+   "en": "The ⟦0⟧ property means the number of times the sprite icon is split along the X axis, in this case: twice. In terms of intelligence agencies, you do not need to do more than define ⟦1⟧ and to create both your frames for your sprite icon.",
+   "frags": 2
+  },
+  {
+   "k": "ze7hbt",
+   "en": "noOfFrames"
+  },
+  {
+   "k": "x9hmwr",
+   "en": "The image size of an intelligence agency logo is ⟦0⟧ by ⟦1⟧ (x by y). This means the mid-point between your two icon frames should be at 117 pixels along the X axis. The frame on the left should be your unedited, actual intelligence agency icon. The frame on the right should be your icon when it is selected in the intelligence agency creation screen. In vanilla, this means a 2-pixel thick stroke/border with a gradient from white down to the main colour of your agency, and a strong, quickly-fading drop shadow. Once you are sure this is all correct, your GFX definition should be as well.",
+   "frags": 2
+  },
+  {
+   "k": "vz2q1m",
+   "en": "234px"
+  },
+  {
+   "k": "lc7p7m",
+   "en": "119px"
+  },
+  {
+   "k": "5soyfs",
+   "en": "By default, .gfx files for intelligence agencies are stored in ⟦0⟧, and the sprite icons are stored in ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "xkzg4d",
+   "en": "interface/countryintelligenceagencyview.gfx"
+  },
+  {
+   "k": "dc4v3b",
+   "en": "gfx/interface/operatives/agencies"
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "59iejl",
+   "en": "Documentation"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "bbbsh0",
+   "en": "List of modifiers"
+  },
+  {
+   "k": "gkat0o",
+   "en": "Scopes"
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "22wvcr",
+   "en": "On actions"
+  },
+  {
+   "k": "10y68xx",
+   "en": "Data structures"
+  },
+  {
+   "k": "icm958",
+   "en": "Flags"
+  },
+  {
+   "k": "1fldcnt",
+   "en": "Event targets"
+  },
+  {
+   "k": "135tw29",
+   "en": "Country tag aliases"
+  },
+  {
+   "k": "xqivz6",
+   "en": "Variables"
+  },
+  {
+   "k": "14wbbvz",
+   "en": "Arrays"
+  },
+  {
+   "k": "wdu62e",
+   "en": "Scripting"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "475d63",
+   "en": "AI focuses"
+  },
+  {
+   "k": "gpz0z1",
+   "en": "Autonomous states"
+  },
+  {
+   "k": "a6cuzg",
+   "en": "Balances of power"
+  },
+  {
+   "k": "14khzdq",
+   "en": "Bookmarks/Scenarios"
+  },
+  {
+   "k": "xrnqxs",
+   "en": "Game rules"
+  },
+  {
+   "k": "1xa6gia",
+   "en": "Buildings"
+  },
+  {
+   "k": "8657g9",
+   "en": "Characters and traits"
+  },
+  {
+   "k": "o977ej",
+   "en": "Cosmetic tags"
+  },
+  {
+   "k": "8zhvfx",
+   "en": "Countries"
+  },
+  {
+   "k": "19eysrz",
+   "en": "Divisions"
+  },
+  {
+   "k": "vwifyo",
+   "en": "Decisions"
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "1xtq0ev",
+   "en": "Equipment"
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "e65ons",
+   "en": "Factions"
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "1cd8sst",
+   "en": "Ideologies"
+  },
+  {
+   "k": "1oopcvp",
+   "en": "Military industrial organizations"
+  },
+  {
+   "k": "k2esk3",
+   "en": "National focuses"
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "uu0bc4",
+   "en": "Scripted GUI"
+  },
+  {
+   "k": "1jzxqx9",
+   "en": "Technologies and doctrines"
+  },
+  {
+   "k": "ur18vw",
+   "en": "Units"
+  },
+  {
+   "k": "j1sac1",
+   "en": "Map"
+  },
+  {
+   "k": "5afzz",
+   "en": "States"
+  },
+  {
+   "k": "8ppvas",
+   "en": "Supply areas"
+  },
+  {
+   "k": "1v2pifw",
+   "en": "Strategic regions"
+  },
+  {
+   "k": "1cffeuu",
+   "en": "Graphical"
+  },
+  {
+   "k": "yolbkg",
+   "en": "Interface"
+  },
+  {
+   "k": "2hqnqn",
+   "en": "Graphical assets"
+  },
+  {
+   "k": "6px9my",
+   "en": "Entities"
+  },
+  {
+   "k": "1n1sxcz",
+   "en": "Posteffects"
+  },
+  {
+   "k": "1fu6htw",
+   "en": "Particles"
+  },
+  {
+   "k": "t16z95",
+   "en": "Fonts"
+  },
+  {
+   "k": "1ig52hy",
+   "en": "Cosmetic"
+  },
+  {
+   "k": "9k7pgr",
+   "en": "Portraits"
+  },
+  {
+   "k": "65pf3n",
+   "en": "Namelists"
+  },
+  {
+   "k": "ohwdis",
+   "en": "Music"
+  },
+  {
+   "k": "1dvvwok",
+   "en": "Sound"
+  },
+  {
+   "k": "ukzedx",
+   "en": "Other"
+  },
+  {
+   "k": "1uzifys",
+   "en": "Console commands"
+  },
+  {
+   "k": "1t5bxxt",
+   "en": "Troubleshooting"
+  },
+  {
+   "k": "1djsobe",
+   "en": "Mod structure"
+  },
+  {
+   "k": "pw0jjk",
+   "en": "Mods"
+  },
+  {
+   "k": "pui2ou",
+   "en": "Nudger"
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "6dekwe",
+   "en": "The resources used by the game are found in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1yezcz2",
+   "en": "/Hearts of Iron IV/common/resources/00_resources.txt"
+  },
+  {
+   "k": "usxy8r",
+   "en": "The resource file follows this format:"
+  },
+  {
+   "k": "130e37h",
+   "en": "Icon frame"
+  },
+  {
+   "k": "162ezpg",
+   "en": "Icon frame controls which frame from the resource image strip is used for the resource icon. A 'frame' is the 27 by 27 pixel square the icon occupies in the image."
+  },
+  {
+   "k": "14ok5ex",
+   "en": "The resource image strip is defined by the ⟦0⟧ spritetype, which points to ⟦1⟧ by default. By default 1 will refer to the Oil icon, 2 to Aluminium, etc.",
+   "frags": 2
+  },
+  {
+   "k": "1eq6kzj",
+   "en": "GFX_resources_strip"
+  },
+  {
+   "k": "79285x",
+   "en": "/Hearts of Iron IV/gfx/interface/resources_strip.dds"
+  },
+  {
+   "k": "1izr6qk",
+   "en": "The icons are defined in ⟦0⟧. Their definition must be changed if you're adding or removing resources:",
+   "frags": 1
+  },
+  {
+   "k": "1baqpxe",
+   "en": "/Hearts of Iron IV/interface/general_stuff.gfx"
+  },
+  {
+   "k": "5qna1g",
+   "en": "The number of frames strictly corresponds to the amount of resources."
+  },
+  {
+   "k": "seogp2",
+   "en": "CIC"
+  },
+  {
+   "k": "h11ze0",
+   "en": "CIC defines the amount of resources needed to trade for 1 Civilian Factory. By default, this is 0.125, meaning 8 units of that resource are traded for 1 factory. Value can not be larger than 1."
+  },
+  {
+   "k": "4bcxog",
+   "en": "Convoys"
+  },
+  {
+   "k": "6nlm2v",
+   "en": "Convoys controls the maximum amount of this resource a single convoy carries. By default, this is 0.1, meaning a convoy can carry 10 of the resource."
+  },
+  {
+   "k": "eukv6o",
+   "en": "Localization"
+  },
+  {
+   "k": "1bsk3bp",
+   "en": "Localisation is defined in ⟦0⟧ with the following localization keys:",
+   "frags": 1
+  },
+  {
+   "k": "12ubbdo",
+   "en": "/Hearts of Iron IV/localisation/production_l_<language>.yml"
+  },
+  {
+   "k": "yolbkg",
+   "en": "Interface"
+  },
+  {
+   "k": "1khe4n8",
+   "en": "If implementing different resources, you will need to edit the interface so the game understands how to display the new resource. ⟦0⟧ is the relevant file here.",
+   "frags": 1
+  },
+  {
+   "k": "qi1p1t",
+   "en": "/Hearts of Iron IV/interface/countryproductionlineview.gui"
+  },
+  {
+   "k": "qgyy5i",
+   "en": "Each resource is utilised two GUI elements: ⟦0⟧ and ⟦1⟧, which are found under the ⟦2⟧ windowtype.",
+   "frags": 3
+  },
+  {
+   "k": "1rdh5v1",
+   "en": "<resource>_icon"
+  },
+  {
+   "k": "1pwz6s5",
+   "en": "<resource>_value"
+  },
+  {
+   "k": "vb2rqq",
+   "en": "resources"
+  },
+  {
+   "k": "126tvmx",
+   "en": "Additional notes"
+  },
+  {
+   "k": "19b4oy0",
+   "en": "A fuel can also correspond to the fuel dynamic, however only one resource at a time can do that. This is decided by the FUEL_RESOURCE ⟦0⟧. Infrastructure's bonus on resource gain is decided by the INFRASTRUCTURE_RESOURCE_BONUS define and applies to all resources the same.",
+   "frags": 1
+  },
+  {
+   "k": "tl1176",
+   "en": "define"
+  },
+  {
+   "k": "59iejl",
+   "en": "Documentation"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "bbbsh0",
+   "en": "List of modifiers"
+  },
+  {
+   "k": "gkat0o",
+   "en": "Scopes"
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "22wvcr",
+   "en": "On actions"
+  },
+  {
+   "k": "10y68xx",
+   "en": "Data structures"
+  },
+  {
+   "k": "icm958",
+   "en": "Flags"
+  },
+  {
+   "k": "1fldcnt",
+   "en": "Event targets"
+  },
+  {
+   "k": "135tw29",
+   "en": "Country tag aliases"
+  },
+  {
+   "k": "xqivz6",
+   "en": "Variables"
+  },
+  {
+   "k": "14wbbvz",
+   "en": "Arrays"
+  },
+  {
+   "k": "wdu62e",
+   "en": "Scripting"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "475d63",
+   "en": "AI focuses"
+  },
+  {
+   "k": "gpz0z1",
+   "en": "Autonomous states"
+  },
+  {
+   "k": "a6cuzg",
+   "en": "Balances of power"
+  },
+  {
+   "k": "14khzdq",
+   "en": "Bookmarks/Scenarios"
+  },
+  {
+   "k": "xrnqxs",
+   "en": "Game rules"
+  },
+  {
+   "k": "1xa6gia",
+   "en": "Buildings"
+  },
+  {
+   "k": "8657g9",
+   "en": "Characters and traits"
+  },
+  {
+   "k": "o977ej",
+   "en": "Cosmetic tags"
+  },
+  {
+   "k": "8zhvfx",
+   "en": "Countries"
+  },
+  {
+   "k": "19eysrz",
+   "en": "Divisions"
+  },
+  {
+   "k": "vwifyo",
+   "en": "Decisions"
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "1xtq0ev",
+   "en": "Equipment"
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "e65ons",
+   "en": "Factions"
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "1cd8sst",
+   "en": "Ideologies"
+  },
+  {
+   "k": "1oopcvp",
+   "en": "Military industrial organizations"
+  },
+  {
+   "k": "k2esk3",
+   "en": "National focuses"
+  },
+  {
+   "k": "uu0bc4",
+   "en": "Scripted GUI"
+  },
+  {
+   "k": "1jzxqx9",
+   "en": "Technologies and doctrines"
+  },
+  {
+   "k": "ur18vw",
+   "en": "Units"
+  },
+  {
+   "k": "j1sac1",
+   "en": "Map"
+  },
+  {
+   "k": "5afzz",
+   "en": "States"
+  },
+  {
+   "k": "8ppvas",
+   "en": "Supply areas"
+  },
+  {
+   "k": "1v2pifw",
+   "en": "Strategic regions"
+  },
+  {
+   "k": "1cffeuu",
+   "en": "Graphical"
+  },
+  {
+   "k": "2hqnqn",
+   "en": "Graphical assets"
+  },
+  {
+   "k": "6px9my",
+   "en": "Entities"
+  },
+  {
+   "k": "1n1sxcz",
+   "en": "Posteffects"
+  },
+  {
+   "k": "1fu6htw",
+   "en": "Particles"
+  },
+  {
+   "k": "t16z95",
+   "en": "Fonts"
+  },
+  {
+   "k": "1ig52hy",
+   "en": "Cosmetic"
+  },
+  {
+   "k": "9k7pgr",
+   "en": "Portraits"
+  },
+  {
+   "k": "65pf3n",
+   "en": "Namelists"
+  },
+  {
+   "k": "ohwdis",
+   "en": "Music"
+  },
+  {
+   "k": "1dvvwok",
+   "en": "Sound"
+  },
+  {
+   "k": "ukzedx",
+   "en": "Other"
+  },
+  {
+   "k": "1uzifys",
+   "en": "Console commands"
+  },
+  {
+   "k": "1t5bxxt",
+   "en": "Troubleshooting"
+  },
+  {
+   "k": "1djsobe",
+   "en": "Mod structure"
+  },
+  {
+   "k": "pw0jjk",
+   "en": "Mods"
+  },
+  {
+   "k": "pui2ou",
+   "en": "Nudger"
+  }
+ ]
+}

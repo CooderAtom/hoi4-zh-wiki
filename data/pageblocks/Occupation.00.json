@@ -1,0 +1,998 @@
+{
+ "page": "Occupation",
+ "chunk": 0,
+ "items": [
+  {
+   "k": "t3a7p2",
+   "en": "For the pre-1.9 occupation system see a previous version of this page."
+  },
+  {
+   "k": "z1tc00",
+   "en": "States are divided into three main categories based on resistance: core states (also known in-game as national territory), occupied states, and colony states. Occupied states have resistance enabled, while colony states do not. If a core state has resistance turned on (whether if the requirement to enable resistance is changed in a mod or an effect forces it to be enabled, such as with the ⟦0⟧ operation), it will be listed as an occupied state, while still not having the mali that apply to non-core states such as with manpower or building slots."
+  },
+  {
+   "k": "dr7fll",
+   "en": "\"Instigate Workers Revolution in Britain\""
+  },
+  {
+   "k": "1tly819",
+   "en": "If a state does not have resistance at the start of the game, then it will remain disabled unless the state changes hands⟦0⟧ or another mechanic enables it (such as various ⟦1⟧ decisions that enable resistance in certain colonial states in Africa and Arabia)."
+  },
+  {
+   "k": "yv85j4",
+   "en": "Ethiopian"
+  },
+  {
+   "k": "8v26pg",
+   "en": "If a state changes hands or resistance already exists, the game decides daily whether it should continue by checking the following conditions:⟦0⟧"
+  },
+  {
+   "k": "11xm71l",
+   "en": "The state is not impassable"
+  },
+  {
+   "k": "1k5ilgo",
+   "en": "The state is not a core of the controller country"
+  },
+  {
+   "k": "14sqc4f",
+   "en": "Either any country has a core on this country or the state was owned by ⟦0⟧ at the game's start and is occupied by a country originating from Spain, after the civil war has ended."
+  },
+  {
+   "k": "s45k3k",
+   "en": "Occupied states have two values attached to them: ⟦0⟧ and ⟦1⟧."
+  },
+  {
+   "k": "1cho7wv",
+   "en": "The resistance system is based on the resistance strength, which slowly grows or decays towards the resistance target."
+  },
+  {
+   "k": "l0xc2p",
+   "en": "Resistance strength"
+  },
+  {
+   "k": "3sc1ii",
+   "en": "Resistance strength measures the severity of the populace's resistance to the controller's occupation of the state. Upon the state being captured, the initial resistance is set to 1%,⟦0⟧ from where it rises or falls to the ⟦1⟧. If the state shouldn't have resistance any longer, the resistance decays towards 0 by -0.25%⟦2⟧ per day. The resistance strength is capped between 0.01%⟦3⟧ and 100%.⟦4⟧ It affects the debuffs applied to the state, frequency, and severity of resistance actions. When resistance strength reaches certain thresholds, various debuffs begin to apply on a per-state basis:⟦5⟧"
+  },
+  {
+   "k": "1c0y3kj",
+   "en": "Resistance level needed"
+  },
+  {
+   "k": "1bi4a31",
+   "en": "Organized Resistance"
+  },
+  {
+   "k": "1o15lti",
+   "en": "Garrison Penetration Chance: +50%"
+  },
+  {
+   "k": "1ceswqc",
+   "en": "Garrison Penetration Chance: ⟦0⟧"
+  },
+  {
+   "k": "zg9maf",
+   "en": "Emboldened Resistance"
+  },
+  {
+   "k": "1fh6bhw",
+   "en": "Damage to Garrisons: +100%"
+  },
+  {
+   "k": "uuqrza",
+   "en": "Uprising"
+  },
+  {
+   "k": "72kthm",
+   "en": "Divisions speed: -50% (Only for the controller) Strategic Redeployment Disabled: Yes Local Supplies: -50% (Only for the controller) Division Attrition: +30% (Only for the controller)"
+  },
+  {
+   "k": "18qf4fc",
+   "en": "Divisions speed: ⟦0⟧ (Only for the controller)"
+  },
+  {
+   "k": "1l7cn1g",
+   "en": "Strategic Redeployment Disabled: ⟦0⟧"
+  },
+  {
+   "k": "ltbrph",
+   "en": "Local Supplies: ⟦0⟧ (Only for the controller)"
+  },
+  {
+   "k": "6m3966",
+   "en": "Division Attrition: ⟦0⟧ (Only for the controller)"
+  },
+  {
+   "k": "1xi225l",
+   "en": "Rebellion"
+  },
+  {
+   "k": "tunjm5",
+   "en": "Local Factories: -3% Resistance will declare independence on the core states that are being occupied. (Fires the rebellion event in 1 hour) Occupied states will declare independence. This changes their control to the rebelling country (it will be re-established if it doesn't exist or is at peace with the occupier) and grants divisions to it (2–6 per state, based on factory amount)."
+  },
+  {
+   "k": "1biswin",
+   "en": "Local Factories: ⟦0⟧"
+  },
+  {
+   "k": "1kgabvn",
+   "en": "Resistance will declare independence on the core states that are being occupied. (Fires ⟦0⟧ in 1 hour) Occupied states will declare independence. This changes their control to the rebelling country (it will be re-established if it doesn't exist or is at peace with the occupier) and grants divisions to it (2–6 per state, based on factory amount)."
+  },
+  {
+   "k": "1nk3iw6",
+   "en": "the rebellion event"
+  },
+  {
+   "k": "ux97e4",
+   "en": "Occupied states will declare independence. This changes their control to the rebelling country (it will be re-established if it doesn't exist or is at peace with the occupier) and grants divisions to it (2–6 per state, based on factory amount)."
+  },
+  {
+   "k": "1u2bbuc",
+   "en": "Resistance target reflects a potential amount of unrest in the state. The resistance slowly trends towards this value. The following values that modify it:"
+  },
+  {
+   "k": "1iwi72v",
+   "en": "Resistance Target base: ⟦0⟧"
+  },
+  {
+   "k": "rpf2fj",
+   "en": "Target country has capitulated⟦0⟧: ⟦1⟧"
+  },
+  {
+   "k": "wzat1w",
+   "en": "[a]"
+  },
+  {
+   "k": "dx1vjv",
+   "en": "Target country has a ⟦0⟧: ⟦1⟧ plus ⟦2⟧ per ⟦3⟧ of the ⟦4⟧, up to a total of ⟦5⟧ at 100% ⟦6⟧"
+  },
+  {
+   "k": "1d2vblq",
+   "en": "government in exile"
+  },
+  {
+   "k": "137ymbz",
+   "en": "legitimacy"
+  },
+  {
+   "k": "131nsdj",
+   "en": "Controller has a claim: ⟦0⟧"
+  },
+  {
+   "k": "t68l2j",
+   "en": "Controller is at peace: ⟦0⟧"
+  },
+  {
+   "k": "o5bo9d",
+   "en": "Victory points in state:⟦0⟧ 0–4 VP: 0% 5–19 VP: +5% 20–49 VP: +10% 50+ VP: +20%"
+  },
+  {
+   "k": "10q9zyv",
+   "en": "0–4 VP: ⟦0⟧"
+  },
+  {
+   "k": "dgaqck",
+   "en": "5–19 VP: ⟦0⟧"
+  },
+  {
+   "k": "ysaxe4",
+   "en": "20–49 VP: ⟦0⟧"
+  },
+  {
+   "k": "iari5u",
+   "en": "50+ VP: ⟦0⟧"
+  },
+  {
+   "k": "q9qfba",
+   "en": "From compliance in state: ⟦0⟧ for each percent of compliance, up to ⟦1⟧."
+  },
+  {
+   "k": "fx95j3",
+   "en": "From controller stability: ⟦0⟧ for each percent of Stability below 100% (up to ⟦1⟧ at 0% Stability)"
+  },
+  {
+   "k": "1ftxwef",
+   "en": "Less than 1000⟦0⟧ state population: ⟦1⟧"
+  },
+  {
+   "k": "1du7e2u",
+   "en": "Between 1000⟦0⟧ and 10000⟦1⟧ state population: ⟦2⟧"
+  },
+  {
+   "k": "1aerxc7",
+   "en": "Modifiers or effects, such as the following:⟦0⟧ Compassionate Gentleman political advisor: -5% Root out resistance mission: Base -10%,[20] increased by upgrading the agency or assigning more agents. Each subsequent agent is only 50%x as efficient as the previous one. Occupation laws: -75% to +40%[21] Continuous focus \"Resistance Suppression\": -5%[22] Enemy intelligence operations: +10% or +20% (with bonus) on a successful Strengthen Resistance operation[c] or +10% (with bonus) on a successful Make Resistance Contacts operation.[23]"
+  },
+  {
+   "k": "wz1cjz",
+   "en": "[b]"
+  },
+  {
+   "k": "te1ema",
+   "en": "Compassionate Gentleman political advisor: ⟦0⟧"
+  },
+  {
+   "k": "cy263d",
+   "en": "⟦0⟧: Base ⟦1⟧,⟦2⟧ increased by upgrading the agency or assigning more agents. Each subsequent agent is only ⟦3⟧ as efficient as the previous one."
+  },
+  {
+   "k": "1irtos8",
+   "en": "Root out resistance mission"
+  },
+  {
+   "k": "x2e6w5",
+   "en": "50%x"
+  },
+  {
+   "k": "1yyf1aw",
+   "en": "⟦0⟧: ⟦1⟧ to ⟦2⟧⟦3⟧"
+  },
+  {
+   "k": "9837gf",
+   "en": "Occupation laws"
+  },
+  {
+   "k": "112sfdr",
+   "en": "⟦0⟧ \"Resistance Suppression\": ⟦1⟧⟦2⟧"
+  },
+  {
+   "k": "i3a7hy",
+   "en": "Enemy intelligence ⟦0⟧: ⟦1⟧ or ⟦2⟧ (with bonus) on a successful ⟦3⟧ operation⟦4⟧ or ⟦5⟧ (with bonus) on a successful ⟦6⟧ operation.⟦7⟧"
+  },
+  {
+   "k": "1uxwnsk",
+   "en": "Strengthen Resistance"
+  },
+  {
+   "k": "y32wtu",
+   "en": "[c]"
+  },
+  {
+   "k": "14z17yd",
+   "en": "Make Resistance Contacts"
+  },
+  {
+   "k": "h0jsdv",
+   "en": "Spread from a neighbouring state with a higher resistance target, as ⟦0⟧ of the difference. Only one state can be selected to have the spread from, and it picks the highest one. In this case, the difference is calculated between this state's resistance target (before the spread) and the neighbouring state's either resistance target without the spread or only the spread that it received. For example, a state with a 70% resistance target neighbouring a state with a 10% resistance target will increase the latter's total target to 40% by adding half of the difference between 10% and 70%. If another state with a 10% resistance target borders the state now with a 40% target, it will raise to 20% through half of the difference between the 10% base and the 30% spread from the first state."
+  },
+  {
+   "k": "s3vtgj",
+   "en": "For example, a state with a 70% resistance target neighbouring a state with a 10% resistance target will increase the latter's total target to 40% by adding half of the difference between 10% and 70%. If another state with a 10% resistance target borders the state now with a 40% target, it will raise to 20% through half of the difference between the 10% base and the 30% spread from the first state."
+  },
+  {
+   "k": "1btmed2",
+   "en": "The resistance target can only fall down to 10%⟦0⟧ with most of these modifiers, only compliance can push it down further to 0. If resistance falls to 0, then the resistance will only be re-enabled once the resistance target reaches 10%⟦1⟧."
+  },
+  {
+   "k": "1645ons",
+   "en": "Resistance growth and decay"
+  },
+  {
+   "k": "bk89lc",
+   "en": "If the resistance strength doesn't match up with the resistance target, it will gradually change towards the resistance target. If the resistance strength is rising, this is ⟦0⟧; if it is falling, this is ⟦1⟧. By default, resistance growth increases it by ⟦2⟧ per day, while resistance decay decreases it by ⟦3⟧ per day. Further modifiers to them are applied multiplicatively."
+  },
+  {
+   "k": "4tzra",
+   "en": "resistance decay"
+  },
+  {
+   "k": "148gonf",
+   "en": "If the country has a claim on the occupied state, the resistance decay is increased by ⟦0⟧. Below 10 resistance strength, decay is changed by ⟦1⟧, while below 20 strength, decay is changed by ⟦2⟧.⟦3⟧"
+  },
+  {
+   "k": "1fgz1pp",
+   "en": "In terms of modifiers, there are the following ways to change it:⟦0⟧"
+  },
+  {
+   "k": "1ejfgdp",
+   "en": "The ⟦0⟧ ⟦1⟧ for governments in exile increases the resistance growth by ⟦2⟧ within the core states of the country with the spirit."
+  },
+  {
+   "k": "15ka92r",
+   "en": "\"Weapons for the Resistance\""
+  },
+  {
+   "k": "1yuhti0",
+   "en": "The ⟦0⟧ land doctrine in the Mass Assault doctrine branch increases the resistance growth by ⟦1⟧ within the core states of the country with the doctrine."
+  },
+  {
+   "k": "2qvlvw",
+   "en": "Guerrilla Warfare"
+  },
+  {
+   "k": "7a95g1",
+   "en": "The ⟦0⟧ occupation law available to ⟦1⟧ increases the resistance decay by ⟦2⟧ in the states where it's applied to."
+  },
+  {
+   "k": "j2rw6j",
+   "en": "Fascists"
+  },
+  {
+   "k": "74xlj1",
+   "en": "Resistance activity"
+  },
+  {
+   "k": "blwlif",
+   "en": "Each day that resistance is active, the game rolls for resistance activity. The chance for resistance activity to happen in a state increases by ⟦0⟧ per ⟦1⟧ of resistance in that state, up to a maximum of ⟦2⟧ at ⟦3⟧ resistance.⟦4⟧"
+  },
+  {
+   "k": "1as71h2",
+   "en": "Whenever resistance activity happens in a state, local partisans will attack and destroy ⟦0⟧ of the state garrison's equipment and ⟦1⟧ of the state garrison's manpower. Equipment losses are applied to all currently used equipment by the garrison based on the garrison's current fulfillment rate and are rounded up for all equipment types. ⟦2⟧ increases the potential damage to both equipment and manpower. Certain ⟦3⟧, ⟦4⟧, political advisors, and ⟦5⟧ can increase or decrease the amount of damage dealt to garrisons in certain occupied states. The garrison template's hardness reduces both types of damage by ⟦6⟧ per ⟦7⟧ hardness, capped at a maximum of ⟦8⟧ at ⟦9⟧ hardness or more. This reduction occurs regardless of the actual equipment the garrison has available.⟦10⟧ For example, a garrison template with a ⟦11⟧ battalion will have its damage reduced even if the country has no heavy tanks to fulfill their garrisons' equipment request. It also stacks additively with other sources of garrison damage reduction up to a maximum total damage reduction of ⟦12⟧.⟦13⟧ This can mean that additional garrison hardness is effectively wasted when enough damage reduction sources from ⟦14⟧, ⟦15⟧, political advisors, etc. is present."
+  },
+  {
+   "k": "wj7cdb",
+   "en": "occupation laws"
+  },
+  {
+   "k": "4k6nrm",
+   "en": "In addition to damage to garrisons, there is a chance that resistance activity will \"penetrate\" the garrison and cause damage to local ⟦0⟧, ⟦1⟧, or ⟦2⟧. The base chance is ⟦3⟧ per resistance activity, but this can be increased through ⟦4⟧. Certain unique ⟦5⟧ and political advisors can reduce garrison penetration chance."
+  },
+  {
+   "k": "19n47i7",
+   "en": "Compliance is a representation of a non-core territory's population's loyalty to the occupying regime. The in-game number represents the proportion of people in the local population that are loyalists."
+  },
+  {
+   "k": "t5pk2n",
+   "en": "Compliance is calculated on a per-state basis with its own local effects while providing overall bonuses for occupied land when reaching a certain average threshold."
+  },
+  {
+   "k": "v05u18",
+   "en": "Compliance in an occupied state starts at ⟦0⟧. Once a state capitulates or is annexed, if a ⟦1⟧ has been prepared beforehand, starting compliance in all of its original states will increase to the country's collaboration percentage. Non-core states at the beginning of the game start with 70%⟦2⟧ compliance by default. If a non-core state switches owners, its new owner will receive ⟦3⟧⟦4⟧ of the old owner's compliance in that state."
+  },
+  {
+   "k": "3imixl",
+   "en": "collaboration government"
+  },
+  {
+   "k": "1d048f2",
+   "en": "0.5x"
+  },
+  {
+   "k": "q75v6j",
+   "en": "Compliance base gain is ⟦0⟧ per day by default, but it is modified by occupation laws, some national spirits, and leader traits. The following values that modify it:"
+  },
+  {
+   "k": "h6ftdf",
+   "en": "(Previous) Controller has (temporarily) lost control of the state: ⟦0⟧ per day for controller"
+  },
+  {
+   "k": "16t29az",
+   "en": "Modifiers or effects, such as the following:⟦0⟧ Occupation laws: -0.11% to +0.03% per day[21] No Garrison occupation law: Compliance gain disabled"
+  },
+  {
+   "k": "se7fwv",
+   "en": "⟦0⟧: ⟦1⟧ to ⟦2⟧ per day⟦3⟧"
+  },
+  {
+   "k": "1r35b0n",
+   "en": "⟦0⟧ occupation law: Compliance gain ⟦1⟧"
+  },
+  {
+   "k": "1ug0ov",
+   "en": "No Garrison"
+  },
+  {
+   "k": "eex8g5",
+   "en": "disabled"
+  },
+  {
+   "k": "a9gf2j",
+   "en": "Compliance gain can be increased by compliance growth from the following sources:"
+  },
+  {
+   "k": "duuy04",
+   "en": "Modifiers or effects, such as the following:⟦0⟧ Compassionate Gentleman political advisor: +2%"
+  },
+  {
+   "k": "9tei73",
+   "en": "This is counteracted by compliance decay. There are two main sources of compliance decay, both of which are applied after compliance growth modifiers have been incorporated into compliance gain:"
+  },
+  {
+   "k": "aywt3h",
+   "en": "Existing compliance: ⟦0⟧ per day per existing compliance, up to ⟦1⟧ per day at 100% compliance"
+  },
+  {
+   "k": "1drfz06",
+   "en": "State is a core of a country with a ⟦0⟧: ⟦1⟧ per day per ⟦2⟧ of the ⟦3⟧, up to ⟦4⟧ per day at 100% ⟦5⟧"
+  },
+  {
+   "k": "1in6e9s",
+   "en": "Setting up a ⟦0⟧ switches the occupied states to a puppet state and dispenses with resistance, making compliance unnecessary."
+  },
+  {
+   "k": "16r2r5r",
+   "en": "Compliance and industry"
+  },
+  {
+   "k": "q2xj2b",
+   "en": "Compliance provides bonuses to available factories (⟦0⟧, ⟦1⟧, ⟦2⟧) within a state. The formula looks like this:"
+  },
+  {
+   "k": "11nk8w2",
+   "en": "(Refineries are unaffected by this. They will always produce the maximum amount of fuel and rubber, depending on technology, same applies for fuel silos)"
+  },
+  {
+   "k": "1n4e9b6",
+   "en": "The same applies to the resources and manpower provided by the occupied states:"
+  },
+  {
+   "k": "1z0xo7a",
+   "en": "The average level of compliance between states also provides flat percentage bonuses:"
+  },
+  {
+   "k": "1r46dhl",
+   "en": "Compliance level needed"
+  },
+  {
+   "k": "pg0o06",
+   "en": "Informants"
+  },
+  {
+   "k": "15pdx9j",
+   "en": "Enemy operative detection chance offset: ⟦0⟧"
+  },
+  {
+   "k": "dg07tt",
+   "en": "Local Police Force"
+  },
+  {
+   "k": "wgknxa",
+   "en": "Required Garrisons: -25% Additional Recruitable Population: +0.5%"
+  },
+  {
+   "k": "1nsbl7f",
+   "en": "Reorganized Workforce"
+  },
+  {
+   "k": "1i31iag",
+   "en": "Local Resources: +10% Local factories: +10%"
+  },
+  {
+   "k": "1s9x845",
+   "en": "Volunteer Program"
+  },
+  {
+   "k": "1c9hrwh",
+   "en": "A New Regime"
+  },
+  {
+   "k": "64ka3z",
+   "en": "Triggers event to establish a Collaboration Government"
+  },
+  {
+   "k": "zn5co1",
+   "en": "A state at 100% Compliance will provide 100% of its factories, 105% of its resources, and 40.5% of its manpower to its occupier by default, thanks to the modifiers listed above."
+  },
+  {
+   "k": "yajm6p",
+   "en": "The following can also affect the amount of factories, resources, and manpower that an occupied state provides:"
+  },
+  {
+   "k": "ar3t4x",
+   "en": "Prince of Terror political advisor: ⟦0⟧ manpower from non-core states"
+  },
+  {
+   "k": "17fbj86",
+   "en": "⟦0⟧:⟦1⟧ Local Factories: -35% to +60% Local Resources: -35% to +60% Local Manpower: +0% to +8%"
+  },
+  {
+   "k": "sbhf52",
+   "en": "Local Factories: ⟦0⟧ to ⟦1⟧"
+  },
+  {
+   "k": "oc5n35",
+   "en": "Local Resources: ⟦0⟧ to ⟦1⟧"
+  },
+  {
+   "k": "18doegp",
+   "en": "Local Manpower: ⟦0⟧ to ⟦1⟧"
+  },
+  {
+   "k": "1pyfoq4",
+   "en": "While having access to more than 100% of a state's factories or resources is usually temporary because compliance decay will outgrow compliance gain, there are some situations where this is not the case. Certain ⟦0⟧, political advisors, and decisions on certain countries can result in a compliance gain that overwhelms the additional compliance decay created by more extractive ⟦1⟧. In particular, the ⟦2⟧, ⟦3⟧-exclusive ⟦4⟧, and ⟦5⟧-specific ⟦6⟧ occupation laws all provide additional factories and resources while having low enough compliance gain reduction that they can be easily overwhelmed by additional sources of compliance gain."
+  },
+  {
+   "k": "wp3669",
+   "en": "Secret Police"
+  },
+  {
+   "k": "1sicpa4",
+   "en": "Colonial Police"
+  },
+  {
+   "k": "39lfl0",
+   "en": "Fractional industry"
+  },
+  {
+   "k": "130zxdu",
+   "en": "Fractional factories and resources are rounded down for each individual factory and resource type. On game startup, they are also grouped by tag and have a different rounding procedure, but this is corrected a few days into the game, when factories from occupation are first recalculated."
+  },
+  {
+   "k": "klurw4",
+   "en": "For example, the ⟦0⟧ in 1936 occupies many different states at 70% compliance, giving them access to 80% of those states' factories. This includes 1 ⟦1⟧ from the Western Indian States, 1 ⟦2⟧ from Mysore, 2 ⟦3⟧ from Hyderabad, and 2 ⟦4⟧ from Pakistan. This nominally adds up to 0.8 military factories and 4 civilian factories from occupied states, which should round down to 0 military factories and 4 civilian factories. In practice, the ⟦5⟧ only receives 0 military factories and 3 civilian factories from occupation on 1st Jan 1936 because of the previously mentioned different rounding methods, but a few days afterward, their factory counts from occupation are recalculated, and they receive the proper 0 military factories and 4 civilian factories."
+  },
+  {
+   "k": "ttevw9",
+   "en": "Collaboration government"
+  },
+  {
+   "k": "bq0nvw",
+   "en": "The collaboration value represents the local population's willingness to cooperate with and aid the occupiers. Collaboration is necessary for curbing and eliminating resistance. There are two stages of collaboration: local collaboration and collaboration governments. Local collaboration is gained through the \"create a collaboration government\" covert operation and provides the following effects:"
+  },
+  {
+   "k": "1vcoeol",
+   "en": "Increases initial starting compliance in occupied states by 30-45% per use, up to a maximum of ⟦0⟧ collaboration (as an example, 70% collaboration will give you 70% compliance)"
+  },
+  {
+   "k": "1knwb3q",
+   "en": "Decreases the surrender progress threshold needed for capitulation"
+  },
+  {
+   "k": "w83jfh",
+   "en": "The current amount of collaboration can be seen in the \"collaboration governments\" tab on the country screen."
+  },
+  {
+   "k": "tgfoc3",
+   "en": "If the average local collaboration in all occupied states rises to 80%, the occupying nation will be given the opportunity to install a collaboration government formed from loyal and sympathetic local civilians, to administer and govern the occupied territories. ⟦0⟧ that a democratic country cannot create collaboration governments. The collaboration government itself is a special type of puppet, available with La Résistance DLC and it has the following puppet rules:"
+  },
+  {
+   "k": "nx1feu",
+   "en": "Can declare wars"
+  },
+  {
+   "k": "19dzjns",
+   "en": "Contributes Operatives to Spy Master"
+  },
+  {
+   "k": "14pk4qr",
+   "en": "Master can build constructions on the subject's territory"
+  },
+  {
+   "k": "teqgyb",
+   "en": "Technology sharing bonus ⟦0⟧"
+  },
+  {
+   "k": "rsfj2i",
+   "en": "Extra trade to overlord: ⟦0⟧"
+  },
+  {
+   "k": "ts9npf",
+   "en": "Once created, the collaboration government is a separate tag and will be given the Generic national focus tree for use, unless the opposing country for the cores doesn't exist. Additionally, the collaboration government will also gain cores on every state that is a core state of the country the collaboration government is meant to represent, regardless of what territory the collaboration government actually controls."
+  },
+  {
+   "k": "bsnxn1",
+   "en": "The collaboration government will adopt the puppet master's color and will also use the puppet master's adjective in its name to represent the close connection between the two governments. However, the puppet will be granted the research progress of the country it is meant to represent. If you are creating a collaboration government of a tag that is using the generic tree by default, your collaborationist government also inherits the generic tree progression, despite the continued existence of that country."
+  },
+  {
+   "k": "e4w5jd",
+   "en": "For example, if ⟦0⟧ creates a collaboration government representing ⟦1⟧ in East Hebei (which starts off controlled by ⟦2⟧), the collaboration government will be named \"Japanese China\" and gain cores on every Chinese core state, while being of the same map color as Japan. If, however, ⟦3⟧ did not exist when the collaboration government was formed, the collaboration government will assume the role of ⟦4⟧, including the focus tree."
+  },
+  {
+   "k": "j8z0vg",
+   "en": "Currently, Compliance will only be checked from one tag per state. If the state's owner has a core on it, the owner will be the target of compliance, otherwise, it's the leftmost flag in the list of the cores. This can be checked by annexing the Chinese Warlords: ⟦0⟧ is given a core before the warlords, meaning the resistance will be directed towards them."
+  },
+  {
+   "k": "m3q2ql",
+   "en": "For example, if ⟦0⟧ creates a collaboration network in Communist China, the collaboration will be counted from Communist China towards ⟦1⟧ for the state of Shaanxi only. They can then immediately be released as a collaboration government since the Communist Chinese collaboration is NOT checked for the other Japanese-owned states in China, as their collaboration is counted from ⟦2⟧ toward ⟦3⟧. When released they will only receive the provinces from which their compliance is calculated but retain their other cores."
+  },
+  {
+   "k": "u88soa",
+   "en": "This mechanic prevents the formation of some pre-existing tags that are another nation's core. ex: Macedonia, Croatia, Occitania, Algeria, etc. They cannot be formed into collaboration governments (unless released, attacked, and annexed), only released as regular puppets. this also prevents the formation of a collaboration government from provinces in which the releasing nation has cores, these provinces will, however, be released with an eventual collaboration government. An example of this is if Italy creates a Yugoslavian collaboration government, they would then lose control and their core on Istria which would be ceded to the collaboration government in ⟦0⟧."
+  },
+  {
+   "k": "knxm0p",
+   "en": "Since a collaboration government has cores on its territory, the puppet master will not need to garrison the territory and resistance will not form."
+  },
+  {
+   "k": "16jzgun",
+   "en": "Collaboration governments cannot be created from an existing puppet, neither can they themselves increase their own autonomy status when controlled by A.I. However, when controlled by a player, they can increase their own autonomy status and become a regular puppet, allowing them to eventually become independent through the normal puppet autonomy ladder."
+  },
+  {
+   "k": "1di3dmv",
+   "en": "In order to combat resistance and police the population, occupied states will need to be garrisoned by military troops to perform police duties. The in-game Garrison represents this and can be assigned from the Occupied Territories tab."
+  },
+  {
+   "k": "n4xo4i",
+   "en": "The divisions needed to staff the garrisons are not visible on the map and are allocated and get their equipment automatically. The equipment allocation can be set via the Recruit & deploy dialog."
+  },
+  {
+   "k": "7rtw0m",
+   "en": "Occupation laws are scaled with Garrison Efficiency. If a Garrison reinforcement order is not fulfilled, all effects from the occupation law will be scaled by this value:⟦0⟧"
+  },
+  {
+   "k": "14gdznu",
+   "en": "For every point of resistance, the occupying country will require 0.75⟦0⟧ points of suppression in each state. However, even if resistance strength is lower than 10%⟦1⟧, the number of garrisons needed will remain as if it was 10%. The same mechanic applies when resistance strength rises above 50%⟦2⟧, capping the amount of suppression needed for states with high resistance."
+  },
+  {
+   "k": "pmk2fs",
+   "en": "Occupation laws can be selected in a country's occupied, i.e., non-core, territories. They can be assigned on a country-wide, per-occupied-country, or per-state basis. They regulate the resistance targets, compliance generation rates, amounts of industry and resources available to the player in their applied states. Some occupation laws can also give several other, unique advantages."
+  },
+  {
+   "k": "t4wmim",
+   "en": "Required Garrisons"
+  },
+  {
+   "k": "gtt2fr",
+   "en": "Damage to Garrisons"
+  },
+  {
+   "k": "ofja3h",
+   "en": "Local Resources"
+  },
+  {
+   "k": "1cb5qxq",
+   "en": "Local Factories"
+  },
+  {
+   "k": "2giyoa",
+   "en": "Additional effects"
+  },
+  {
+   "k": "6a7512",
+   "en": "Compliance change disabled"
+  },
+  {
+   "k": "iaspo7",
+   "en": "Civilian Oversight"
+  },
+  {
+   "k": "bg7x3o",
+   "en": "Enemy intel network strength gain: -25% Enemy operative detection chance offset: +1%"
+  },
+  {
+   "k": "b8f1i0",
+   "en": "Military Governor"
+  },
+  {
+   "k": "qwirea",
+   "en": "Local Manpower ⟦0⟧"
+  },
+  {
+   "k": "1dhmy72",
+   "en": "Forced Labor"
+  },
+  {
+   "k": "1o08127",
+   "en": "Civilian Factory Repair Speed: +25% Resource Sabotage Chance: -25% Resource Sabotage Duration: -25%"
+  },
+  {
+   "k": "1mzaqvo",
+   "en": "Harsh Quotas"
+  },
+  {
+   "k": "o9a2ob",
+   "en": "Military Factory Repair Speed: +25% Civilian Factory Repair Speed: +25% Military Factory Sabotage Chance: -25% Civilian Factory Sabotage Chance: -25%"
+  },
+  {
+   "k": "aghwo9",
+   "en": "Martial Law"
+  },
+  {
+   "k": "1r9zoui",
+   "en": "Resistance Decay Speed: ⟦0⟧"
+  },
+  {
+   "k": "jsij5m",
+   "en": "Exclusive to Fascists"
+  },
+  {
+   "k": "1vftdtq",
+   "en": "Exclusive to Communists"
+  },
+  {
+   "k": "1izsqwx",
+   "en": "Exclusive to Democracies"
+  },
+  {
+   "k": "4p342w",
+   "en": "Reconciliation"
+  },
+  {
+   "k": "1ppe10x",
+   "en": "Exclusive to ⟦0⟧ with ⟦1⟧ on Kurdish core states and only if completed either A Common Destiny for All of Turkey or Permit Regional Elections."
+  },
+  {
+   "k": "p802i4",
+   "en": "Exclusive to ⟦0⟧ with ⟦1⟧ on African states and only if Ministry of Italian Africa is complete. Also available for ⟦2⟧ core states if Albanian Fascist Militia is complete."
+  },
+  {
+   "k": "1cgcqmj",
+   "en": "Colonial Police (Improved)"
+  },
+  {
+   "k": "1jv5cw",
+   "en": "Exclusive to ⟦0⟧ with ⟦1⟧ on African states and only if Regional Development is complete. Also available for ⟦2⟧ core states if Albanian Fascist Militia is complete."
+  },
+  {
+   "k": "4553b3",
+   "en": "Colonial Police (Final)"
+  },
+  {
+   "k": "77t961",
+   "en": "Exclusive to ⟦0⟧ with ⟦1⟧ on African states and only if Polizia dell'Africa Italiana is complete. Also available for ⟦2⟧ core states if Albanian Fascist Militia is complete."
+  },
+  {
+   "k": "1n3j0yx",
+   "en": "Secretaries General"
+  },
+  {
+   "k": "1vze4p5",
+   "en": "Exclusive to occupiers of ⟦0⟧ with Götterdämmerung on their core states and only if they have completed Secretaries General."
+  },
+  {
+   "k": "4sxnip",
+   "en": "Independent Rule"
+  },
+  {
+   "k": "1mfca9l",
+   "en": "Exclusive to ⟦0⟧ with ⟦1⟧ on princely states and only if Princely States Policy is complete."
+  },
+  {
+   "k": "1ujrzji",
+   "en": "Princely Subjugation"
+  },
+  {
+   "k": "12qww9g",
+   "en": "Senbu"
+  },
+  {
+   "k": "eln9a3",
+   "en": "Exclusive to ⟦0⟧ with ⟦1⟧ on Chinese states and only if Invest in Senbu is complete."
+  },
+  {
+   "k": "ll7tyg",
+   "en": "East Asian Exploitation"
+  },
+  {
+   "k": "cacnc9",
+   "en": "Exclusive to Japan with No Compromise, No Surrender on Asian states and only if The Greater East Asia Co-Prosperity Sphere is complete and the option \"The Emperors supreme Authority must always come first!\" has been chosen."
+  },
+  {
+   "k": "jxrecl",
+   "en": "East Asian Prosperity"
+  },
+  {
+   "k": "16hawgd",
+   "en": "Exclusive to ⟦0⟧ with ⟦1⟧ on Asian states and only if The Greater East Asia Co-Prosperity Sphere is complete and the option \"We must pursue Prosperity for all Asian states\" has been chosen."
+  },
+  {
+   "k": "65vezf",
+   "en": "References and notes"
+  },
+  {
+   "k": "1cpf5ss",
+   "en": "⟦0⟧ ⟦1⟧ Stricter than capitulation: the target must not control any states. ⟦2⟧ ⟦3⟧ There is a large quantity of effects and modifiers that modify this, with a lot being country-specific. Only effects and/or modifiers that can modify it when playing any country have been selected here. ⟦4⟧ ⟦5⟧ If the country initiating the operation has completed the Export Saboteurs ⟦6⟧, the bonus-less resistance target changes to ⟦7⟧."
+  },
+  {
+   "k": "txurxc",
+   "en": "The ⟦0⟧ scripted trigger, by default in ⟦1⟧"
+  },
+  {
+   "k": "z5nwg8",
+   "en": "should_initiate_resistance"
+  },
+  {
+   "k": "g4kuf5",
+   "en": "/Hearts of Iron IV/common/scripted_triggers/00_resistance_initiate_triggers.txt"
+  },
+  {
+   "k": "1cpoby2",
+   "en": "NDefines.NResistance.INITIAL_STATE_RESISTANCE = 1"
+  },
+  {
+   "k": "1j2bx8a",
+   "en": "NDefines.NResistance.RESISTANCE_COOLDOWN_WHEN_DISABLED = -0.25"
+  },
+  {
+   "k": "11bmsnt",
+   "en": "NDefines.NResistance.RESISTANCE_DECAY_MIN = 0.01"
+  },
+  {
+   "k": "7xxp04",
+   "en": "NDefines.NResistance.RESISTANCE_GROWTH_MAX = 100"
+  },
+  {
+   "k": "g63nyp",
+   "en": "As decided by the ⟦0⟧ files."
+  },
+  {
+   "k": "g0sk4b",
+   "en": "/Hearts of Iron IV/common/resistance_compliance_modifiers/*.txt"
+  },
+  {
+   "k": "33mx6y",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_BASE = 35"
+  },
+  {
+   "k": "omsshf",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_OCCUPIED_CAPITULATED = 10"
+  },
+  {
+   "k": "6mv1vp",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_OCCUPIED_IS_EXILE_MIN = 2"
+  },
+  {
+   "k": "wogb1t",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_OCCUPIED_IS_EXILE_MAX = 20"
+  },
+  {
+   "k": "1a7cxrg",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_HAS_CLAIM = -5"
+  },
+  {
+   "k": "1o0zloy",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_IS_AT_PEACE = -10"
+  },
+  {
+   "k": "12obagh",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_STATE_VP = { 0, 0, 5, 5, 20, 10, 50, 20 }"
+  },
+  {
+   "k": "dnn5zm",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_PER_COMPLIANCE = -0.5"
+  },
+  {
+   "k": "17dy66e",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_PER_STABILITY_LOSS = 0.2"
+  },
+  {
+   "k": "1czcqmj",
+   "en": "NDefines.NResistance.RESISTANCE_POP_VERY_LOW_CUTOFF = 1000"
+  },
+  {
+   "k": "ne7wpy",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_POP_VERY_LOW = -50"
+  },
+  {
+   "k": "1wkj08o",
+   "en": "NDefines.NResistance.RESISTANCE_POP_LOW_CUTOFF = 10000"
+  },
+  {
+   "k": "nkik1u",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_POP_LOW = -20"
+  },
+  {
+   "k": "1kzc275",
+   "en": "⟦0⟧ in static modifiers"
+  },
+  {
+   "k": "bhtd7h",
+   "en": "root_out_resistance_mission_modifier"
+  },
+  {
+   "k": "t3n0m1",
+   "en": "Various ⟦0⟧ in ⟦1⟧ files"
+  },
+  {
+   "k": "1rp8k7m",
+   "en": "/Hearts of Iron IV/common/occupation_laws/*.txt"
+  },
+  {
+   "k": "1vsy4jq",
+   "en": "continuous_suppression"
+  },
+  {
+   "k": "gqyxf0",
+   "en": "/Hearts of Iron IV/common/continuous_focus/generic.txt"
+  },
+  {
+   "k": "yji3te",
+   "en": "Various ⟦0⟧ in ⟦1⟧"
+  },
+  {
+   "k": "1pgzd5l",
+   "en": "/Hearts of Iron IV/common/operations/*.txt"
+  },
+  {
+   "k": "4krzzt",
+   "en": "NDefines.NResistance.RESISTANCE_RATIO_DIFF_TO_SPREAD = 0.5"
+  },
+  {
+   "k": "1r35re1",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MIN_CAP_FOR_NON_COMPLIANCE = 10"
+  },
+  {
+   "k": "116edkc",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_TO_REENABLE_RESISTANCE = 10"
+  },
+  {
+   "k": "1it66hw",
+   "en": "NDefines.NResistance.RESISTANCE_GROWTH_BASE = 0.2"
+  },
+  {
+   "k": "dyb5q2",
+   "en": "NDefines.NResistance.RESISTANCE_DECAY_BASE = 0.1"
+  },
+  {
+   "k": "18rfw90",
+   "en": "NDefines.NResistance.RESISTANCE_DECAY_MODIFIER_HAS_CLAIM = 25"
+  },
+  {
+   "k": "1v31bbj",
+   "en": "NDefines.NResistance.RESISTANCE_DECAY_MODIFIER_FACTORS = { 10, -50, 20, -25 }"
+  },
+  {
+   "k": "wgct0o",
+   "en": "NDefines.NResistance.RESISTANCE_ACTIVITY_CHANCE_AT_MAX_RESISTANCE = 0.312"
+  },
+  {
+   "k": "1jqgznh",
+   "en": "NDefines.NResistance.GARRISON_EQUIPMENT_LOST_BY_ATTACK = 0.02"
+  },
+  {
+   "k": "1islzg5",
+   "en": "NDefines.NResistance.GARRISON_MANPOWER_LOST_BY_ATTACK = 0.016"
+  },
+  {
+   "k": "n8lbck",
+   "en": "NDefines.NResistance.MAXIMUM_GARRISON_HARDNESS_WHEN_ATTACKED = 0.9"
+  },
+  {
+   "k": "wenzcu",
+   "en": "forumpost:30311297"
+  },
+  {
+   "k": "10xrn5",
+   "en": "NDefines.NResistance.MIN_DAMAGE_TO_GARRISONS_MODIFIER = 0.1"
+  },
+  {
+   "k": "jv93ox",
+   "en": "NDefines.NResistance.RESISTANCE_ACTIVITY_MIN_GARRISON_PENETRATE_CHANCE = 0.02"
+  },
+  {
+   "k": "1qkt7m3",
+   "en": "NDefines.NResistance.INITIAL_STATE_COMPLIANCE = 0"
+  },
+  {
+   "k": "1och69j",
+   "en": "NDefines.NResistance.INITIAL_HISTORY_COMPLIANCE = 70"
+  },
+  {
+   "k": "kwvrnm",
+   "en": "NDefines.NResistance.COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE = -0.5"
+  },
+  {
+   "k": "1fvpvjg",
+   "en": "NDefines.NResistance.COMPLIANCE_GROWTH_BASE = 0.075"
+  },
+  {
+   "k": "jw24aa",
+   "en": "NDefines.NResistance.STATE_COMPLIANCE_DECAY_FOR_LOST_STATES = 0.05"
+  },
+  {
+   "k": "1prg5wb",
+   "en": "NDefines.NResistance.COMPLIANCE_GROWTH_HAS_CLAIM = 5"
+  },
+  {
+   "k": "1kh7lzj",
+   "en": "NDefines.NResistance.COMPLIANCE_GROWTH_IS_AT_PEACE = 10"
+  },
+  {
+   "k": "eaooky",
+   "en": "NDefines.NResistance.COMPLIANCE_DECAY_AT_MAX_COMPLIANCE = -0.083"
+  },
+  {
+   "k": "pfqav7",
+   "en": "NDefines.NResistance.COMPLIANCE_DECAY_PER_EXILE_LEGITIMACY = -0.015"
+  },
+  {
+   "k": "nanmml",
+   "en": "NDefines.NResistance.GARRISON_STR_POW_MANPOWER = 2"
+  },
+  {
+   "k": "1nl8nvt",
+   "en": "NDefines.NResistance.GARRISON_STR_POW_EQUIPMENT = 3"
+  },
+  {
+   "k": "oxq743",
+   "en": "NDefines.NResistance.SUPPRESSION_NEEDED_BY_RESISTANCE_POINT = 0.75"
+  },
+  {
+   "k": "li7cp4",
+   "en": "NDefines.NResistance.SUPPRESSION_NEEDED_LOWER_CAP = 10"
+  },
+  {
+   "k": "17fhxgf",
+   "en": "NDefines.NResistance.SUPPRESSION_NEEDED_UPPER_CAP = 50"
+  }
+ ]
+}

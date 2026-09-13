@@ -1,0 +1,818 @@
+{
+ "batch": 928,
+ "pages": [
+  "Historical ship variants"
+ ],
+ "chars": 8536,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "11cxn5f",
+   "en": "Heavy Battery III, 2x Anti-Air I, Fire Control 0, 2x Secondary Battery II, Battleship Armor II, Floatplane Catapult"
+  },
+  {
+   "k": "1maew0k",
+   "en": "Light Battery I, Anti-Air I, Fire Control 0, Torpedo Launcher I, Minelaying Rails"
+  },
+  {
+   "k": "25jvmb",
+   "en": "2x Heavy Cruiser Battery I, Anti-Air I, Fire Control 0, Secondary Battery, Cruiser Armor II"
+  },
+  {
+   "k": "qgzgw3",
+   "en": "Light Cruiser Battery I, Anti-Air I, Fire Control 0, Torpedo Launcher I, Minelaying Rails"
+  },
+  {
+   "k": "1l9yn27",
+   "en": "Heavy Battery I, Anti-Air I, Fire Control 0, Secondary Battery I, Battleship Armor I"
+  },
+  {
+   "k": "67baqy",
+   "en": "Secondary Engine I"
+  },
+  {
+   "k": "1ytsgnb",
+   "en": "Midget Submarine"
+  },
+  {
+   "k": "1yez1h0",
+   "en": "Light Battery I, Anti-Air I, Fire Control 0, Torpedo Launcher I, Minelaying Rails, Depth Charge I"
+  },
+  {
+   "k": "huw9j",
+   "en": "Light Battery I, Torpedo Launcher I, Minelaying Rails, Depth Charge I"
+  },
+  {
+   "k": "1rc96ob",
+   "en": "2x Light Cruiser Battery II, Anti-Air II, Fire Control 0, Torpedo Launcher I, Floatplane Catapult"
+  },
+  {
+   "k": "pkswnx",
+   "en": "2x Light Cruiser Battery II, Anti-Air II, Anti-Air I, Fire Control 0, Torpedo Launcher I, Floatplane Catapult"
+  },
+  {
+   "k": "cqeapt",
+   "en": "2x Light Cruiser Battery II, 2x Anti-Air II, Fire Control 0, Torpedo Launcher I, Improved Floatplane Catapult"
+  },
+  {
+   "k": "19y7s83",
+   "en": "2x Light Cruiser Battery III, 2x Anti-Air II, Fire Control 0, Cruiser Armor I, Torpedo Launcher I, Improved Floatplane Catapult"
+  },
+  {
+   "k": "1rvnj22",
+   "en": "Heavy Cruiser Battery I, 2x Anti-Air I, Fire Control 0, 2x Secondary Battery I, Cruiser Armor II"
+  },
+  {
+   "k": "1wpg2is",
+   "en": "2x Heavy Engine Battery I, 2x Anti-Air I, Fire Control 0, Cruiser Armor I, Floatplane Catapult"
+  },
+  {
+   "k": "182m8mo",
+   "en": "2x Heavy Cruiser Battery I, 2x Anti-Air I, Fire Control 0, Cruiser Armor II, Floatplane Catapult"
+  },
+  {
+   "k": "13grtdj",
+   "en": "2x Heavy Cruiser Battery I, 2x Anti-Air I, Fire Control 0, Cruiser Armor I, Floatplane Catapult"
+  },
+  {
+   "k": "1g3wfnj",
+   "en": "Heavy Engine III"
+  },
+  {
+   "k": "r9zq26",
+   "en": "2x Heavy Battery II, 2x Anti-Air I, Fire Control 0, 2x Secondary Battery II, Battleship Armor II, Improved Floatplane Catapult"
+  },
+  {
+   "k": "xv2sgu",
+   "en": "2x Heavy Battery I, 3x Anti-Air I, Fire Control 0, 2x Secondary Battery I, Battleship Armor I"
+  },
+  {
+   "k": "gltgp1",
+   "en": "Improved Submarine"
+  },
+  {
+   "k": "a91yfi",
+   "en": "Submarine Engine III"
+  },
+  {
+   "k": "1ceun0l",
+   "en": "2x Torpedo Tubes II, Minelaying Tubes"
+  },
+  {
+   "k": "1fkg5yc",
+   "en": "Anti-Air I, Fire Control 0, Torpedo Launcher I, Minelaying Rails, Depth Charge I"
+  },
+  {
+   "k": "1vsp6s0",
+   "en": "Light Battery I, Anti-Air I, Fire Control 0, 2x Minelaying Rails"
+  },
+  {
+   "k": "1jyg0bq",
+   "en": "2x Light Cruiser Battery, Anti-Air I, Fire Control 0, Floatplane Catapult"
+  },
+  {
+   "k": "12a5brb",
+   "en": "Light Cruiser Battery I, Anti-Air I, Fire Control 0, Floatplane Catapult"
+  },
+  {
+   "k": "ocplhs",
+   "en": "Light Cruiser Battery II, Anti-Air I, Fire Control 0, Torpedo Launcher I, Floatplane Catapult"
+  },
+  {
+   "k": "v233gp",
+   "en": "Light Cruiser Battery I, Fire Control 0, Cruiser Armor II, Torpedo Launcher I, Floatplane Catapult"
+  },
+  {
+   "k": "58ee3h",
+   "en": "Heavy Battery I, Anti-Air I, Fire Control 0, Secondary Battery I, Cruiser Armor II"
+  },
+  {
+   "k": "1gwc152",
+   "en": "Light Battery I, Anti-Air I, Fire Control 0, Torpedo Launcher I, 2x Minelaying Rails"
+  },
+  {
+   "k": "vwgdby",
+   "en": "2x Torpedo Launcher II"
+  },
+  {
+   "k": "7i9scr",
+   "en": "Light Battery II, Anti-Air I, Fire Control 0, 2x Minelaying Rails"
+  },
+  {
+   "k": "1xc7hhn",
+   "en": "Submarine Engine"
+  },
+  {
+   "k": "gzovcl",
+   "en": "Torpedo Tubes II, Minelaying Tubes"
+  },
+  {
+   "k": "1v3mve3",
+   "en": "2x Torpedo Tubes II, Mienlaying Tubes"
+  },
+  {
+   "k": "d305ge",
+   "en": "Light Battery II, Anti-Air I, Fire Control 0, Torpedo Tubes I, Depth Charge I"
+  },
+  {
+   "k": "10tom1p",
+   "en": "Light Battery II, Fire Control 0, Depth Charge I"
+  },
+  {
+   "k": "nodc1z",
+   "en": "Light Battery II, Anti-Air I, Fire Control 0, Depth Charge I"
+  },
+  {
+   "k": "6vpakm",
+   "en": "Light Battery II, 2x Anti-Air I, Torpedo Launcher I, Depth Charge I"
+  },
+  {
+   "k": "1b5etyb",
+   "en": "2x Light Cruiser Battery I, Fire Control 0, Minelaying Rails"
+  },
+  {
+   "k": "ijhqoj",
+   "en": "2x Light Cruiser Battery I, Anti-Air I, Fire Control 0, Torpedo Launcher I, Minelaying Rails"
+  },
+  {
+   "k": "vafif8",
+   "en": "2x Heavy Cruiser Battery II, 2x Anti-Air I, Fire Control 0, Cruiser Armor I, Floatplane Catapult"
+  },
+  {
+   "k": "ch2hwv",
+   "en": "2x Heavy Battery I, Anti-Air I, Fire Control 0, Secondary Battery I, Battleship Armor I"
+  },
+  {
+   "k": "19bqa6b",
+   "en": "2x Torpedo Launcher I"
+  },
+  {
+   "k": "2m6b0o",
+   "en": "Light Battery I, Anti-Air I, Light Engine I, Torpedo Launcher I, Depth Charge I"
+  },
+  {
+   "k": "saehtm",
+   "en": "Light Battery I, Anti-Air I, Light Engine I, Minelaying Rails, Depth Charge I"
+  },
+  {
+   "k": "1g31b9j",
+   "en": "Light Battery II, Anti-Air I, Fire Control 0, Minelaying Rails, Depth Charge I"
+  },
+  {
+   "k": "1uljidn",
+   "en": "2x Light Cruiser Battery I, Anti-Air I, Light Engine I, Torpedo Launcher I"
+  },
+  {
+   "k": "1qmbjhg",
+   "en": "Light Cruiser Battery I, Anti-Air I, Fire Control 0, Cruiser Armor I, 2x Torpedo Launcher I"
+  },
+  {
+   "k": "ta9zkk",
+   "en": "2x Light Cruiser Battery I, Anti-Air I, Fire Control 0, Cruiser Armor I, 2x Torpedo Launcher I"
+  },
+  {
+   "k": "1d97xme",
+   "en": "2x Heavy Cruiser Battery I, Anti-Air I, Fire Control 0, Depth Charge I"
+  },
+  {
+   "k": "lm2yud",
+   "en": "Light Battery I, Anti-Air I, Fire Control 0, Torpedo Tubes I, Minelaying Rails, Depth Charge I"
+  },
+  {
+   "k": "1hzrk3h",
+   "en": "Light Cruiser Battery I, Anti-Air I, Fire Control 0, Torpedo Launcher I, Floatplane Catapult"
+  },
+  {
+   "k": "nytnox",
+   "en": "2x Heavy Cruiser Battery I, Anti-Air I, Fire Control 0, Secondary Battery I, Cruiser Armor I"
+  },
+  {
+   "k": "m41nnv",
+   "en": "Heavy Battery I, Heavy Cruiser Battery I, Anti-Air I, Fire Control 0, 2x Secondary Battery I, Cruiser Armor II"
+  },
+  {
+   "k": "15xms4u",
+   "en": "Dual-Purpose Main Battery II, Fire Control 0, Hydrophones, 2x Torpedo Launcher I, Depth Charge I"
+  },
+  {
+   "k": "154sz9e",
+   "en": "Dual-Purpose Main Battery I, Anti-Air I, Fire Control 0, Torpedo Launcher I, Depth Charge I"
+  },
+  {
+   "k": "1e4lhbm",
+   "en": "Dual-Purpose Main Battery II, Light Battery II, Anti-Air I, Fire Control 0, Active Sonar, Torpedo Launcher I, Depth Charge II"
+  },
+  {
+   "k": "1l83xpj",
+   "en": "Dual-Purpose Main Battery II, Anti-Air I, Fire Control 0, Torpedo Launcher II, Torpedo Launcher I, Depth Charge II"
+  },
+  {
+   "k": "1se143n",
+   "en": "Light Cruiser Battery I, Fire Control 0, Dual-Purpose Secondary Battery I, Cruiser Armor I, Torpedo Launcher I"
+  },
+  {
+   "k": "q6b17l",
+   "en": "2x Light Cruiser Battery I, Anti-Air I, Fire Control 0, Dual-Purpose Secondary Battery I, Cruiser Armor I, 2x Torpedo Launcher I"
+  },
+  {
+   "k": "1qhlny5",
+   "en": "2x Light Cruiser Battery II, Anti-Air II, Fire Control 0, Dual-Purpose Secondary Battery I, Cruiser Armor I, Torpedo Launcher I, Floatplane Catapult"
+  },
+  {
+   "k": "1vzsiki",
+   "en": "Light Cruiser Armor I, Anti-Air I, Fire Control 0, Dual-Purpose Secondary Battery II, 3x Minelaying Rails"
+  },
+  {
+   "k": "1k1mwe6",
+   "en": "2x Light Cruiser Battery II, 2x Anti-Air II, Fire Control 0, Dual-Purpose Secondary Battery II, Secondary Battery II, Cruiser Armor II, Torpedo Launcher I"
+  },
+  {
+   "k": "17kb0yr",
+   "en": "2x Dual-Purpose Main Battery III, 2x Anti-Air I, Fire Control I, Dual-Purpose Secondary Battery III, Cruiser Armor I, Torpedo Launcher I"
+  },
+  {
+   "k": "1sykju6",
+   "en": "Improved Cruiser"
+  },
+  {
+   "k": "nsupwy",
+   "en": "2x Light Cruiser Battery, 3x Anti-Air I, Fire Control I, Dual-Purpose Secondary Battery II, Cruiser Armor II, Torpedo Launcher I"
+  },
+  {
+   "k": "1fvujem",
+   "en": "Heavy Cruiser Battery I, Anti-Air II, Fire Control 0, Secondary Battery I, Cruiser Armor I, Torpedo Launcher I"
+  },
+  {
+   "k": "1duzash",
+   "en": "2x Heavy Cruiser Battery II, Anti-Air I, Fire Control 0, Dual-Purpose Secondary Battery I, Cruiser Armor I, Torpedo Launcher I, Floatplane Catapult"
+  },
+  {
+   "k": "1m248pd",
+   "en": "Heavy Cruiser Battery II, Anti-Air I, Fire Control 0, Dual-Purpose Secondary Battery I, Cruiser Armor I, Torpedo Launcher I, Floatplane Catapult"
+  },
+  {
+   "k": "9uxj1g",
+   "en": "Heavy Battery I, 2x Anti-Air I, Fire Control I, Dual-Purpose Secondary Battery I, Secondary Battery I, Battlecruiser Armor I, Floatplane Catapult"
+  },
+  {
+   "k": "19m1q9c",
+   "en": "2x Heavy Battery I, 2x Anti-Air I, Fire Control I, Dual-Purpose Secondary Battery II, Secondary Battery I, Battlecruiser Armor II"
+  },
+  {
+   "k": "1cb2mnz",
+   "en": "2x Heavy Battery II, 2x Anti-Air I, Fire Control I, Dual-Purpose Secondary Battery I, Secondary Battery II, Battlecruiser Armor II"
+  },
+  {
+   "k": "1xhl72a",
+   "en": "2x Heavy Battery II, Anti-Air I, Fire Control I, Dual-Purpose Secondary Battery I, Secondary Battery II, Battleship Armor II"
+  },
+  {
+   "k": "1wpupi4",
+   "en": "2x Heavy Battery I, Anti-Air I, Fire Control I, Dual-Purpose Secondary Battery I, Secondary Battery I, Battleship Armor I, Floatplane Launcher I"
+  },
+  {
+   "k": "1ekd5qk",
+   "en": "2x Heavy Battery I, Anti-Air I, Fire Control I, 2x Secondary Battery I, Battleship Armor I"
+  },
+  {
+   "k": "1kr41io",
+   "en": "2x Heavy Battery II, 2x Anti-Air II, Fire Control II, Radar II, 2x Dual-Purpose Secondary Battery III, Battleship Armor II, Floatplane Catapult I"
+  },
+  {
+   "k": "10vo4n4",
+   "en": "2x Heavy Battery III, Anti-Air II, Anti-Air I, Fire Control II, 2x Dual-Purpose Secondary Battery III, Battleship Armor II, Floatplane Catapult"
+  },
+  {
+   "k": "nmzi3j",
+   "en": "2x Hangar Space, Anti-Air I, Dual-Purpose Secondary Battery I"
+  },
+  {
+   "k": "50mim",
+   "en": "Hangar Space, Anti-Air I, Secondary Battery I"
+  },
+  {
+   "k": "t2cskc",
+   "en": "3x Hangar Space, Anti-Air I, Dual-Purpose Secondary Battery I"
+  },
+  {
+   "k": "1gd8pxr",
+   "en": "3x Hangar Space, Anti-Air I, Dual-Purpose Secondary Battery II"
+  },
+  {
+   "k": "5ob7fs",
+   "en": "3x Hangar Space, Anti-Air I, Dual-Purpose Secondary Battery I, Flight Deck Armor"
+  },
+  {
+   "k": "pjyrv",
+   "en": "Oceania"
+  },
+  {
+   "k": "s9z0ix",
+   "en": "Australia"
+  },
+  {
+   "k": "b1l43r",
+   "en": "V/W Class"
+  },
+  {
+   "k": "16jac1k",
+   "en": "Arunta Class^"
+  },
+  {
+   "k": "1yvv24x",
+   "en": "Town Class*"
+  },
+  {
+   "k": "1t0ccj9",
+   "en": "Sydney Class"
+  },
+  {
+   "k": "1yj6le7",
+   "en": "Canberra Class"
+  },
+  {
+   "k": "zmqwam",
+   "en": "Danae Class"
+  },
+  {
+   "k": "9y7am8",
+   "en": "New Zealand"
+  },
+  {
+   "k": "1u3qr7u",
+   "en": "Leander Class^"
+  },
+  {
+   "k": "2ht4zk",
+   "en": "2x Light Cruiser Battery II, Anti-Air II, Fire Control 0, Cruiser Armor I, Torpedo Launcher I, Floatplane Catapult"
+  },
+  {
+   "k": "35ectr",
+   "en": "2x Heavy Cruiser Battery II, Anti-Air I, Fire Control 0, Secondary Battery I, Cruiser Armor II, Torpedo Launcher I, Floatplane Catapult"
+  },
+  {
+   "k": "1brk983",
+   "en": "Light Cruiser Battery I, Anti-Air I, Fire Control 0, 2x Torpedo Launcher I"
+  },
+  {
+   "k": "vhnssn",
+   "en": "Organisation"
+  },
+  {
+   "k": "vquev",
+   "en": "Speed [kn]"
+  },
+  {
+   "k": "1xbx7de",
+   "en": "Range [km]"
+  },
+  {
+   "k": "eroyro",
+   "en": "Reliability [%]"
+  },
+  {
+   "k": "112axt9",
+   "en": "Fuel"
+  },
+  {
+   "k": "oa7h",
+   "en": "Supply use"
+  },
+  {
+   "k": "tih3zc",
+   "en": "Surface Visibility"
+  },
+  {
+   "k": "16cjo1r",
+   "en": "Surface Detection"
+  },
+  {
+   "k": "zraeq3",
+   "en": "Sub Visibility"
+  },
+  {
+   "k": "xl28oe",
+   "en": "Sub Detection"
+  },
+  {
+   "k": "157upl1",
+   "en": "Light Attack"
+  },
+  {
+   "k": "1atezh2",
+   "en": "Light Piercing"
+  },
+  {
+   "k": "4wxo3g",
+   "en": "Heavy Attack"
+  },
+  {
+   "k": "1ow5obj",
+   "en": "Heavy Piercing"
+  },
+  {
+   "k": "smq7tj",
+   "en": "Depth Charges"
+  },
+  {
+   "k": "98qwh8",
+   "en": "Minelaying"
+  },
+  {
+   "k": "1h7vzfi",
+   "en": "Minesweeping"
+  },
+  {
+   "k": "1a08bpw",
+   "en": "Anti-Air"
+  },
+  {
+   "k": "164fhyy",
+   "en": "Flag of Canada"
+  },
+  {
+   "k": "16bu8kb",
+   "en": "Flag of Mexico"
+  },
+  {
+   "k": "x4z41b",
+   "en": "Flag of United States"
+  },
+  {
+   "k": "1mhraaf",
+   "en": "Naval production cost"
+  },
+  {
+   "k": "7u9tvz",
+   "en": "Production cost"
+  },
+  {
+   "k": "1giyv4b",
+   "en": "Resources per factory"
+  },
+  {
+   "k": "17vxw9s",
+   "en": "Manpower"
+  },
+  {
+   "k": "1ea4gpw",
+   "en": "Steel"
+  },
+  {
+   "k": "443fm9",
+   "en": "Chromium"
+  },
+  {
+   "k": "1xlonpd",
+   "en": "Flag of Argentina"
+  },
+  {
+   "k": "1a9voq2",
+   "en": "Flag of Brazil"
+  },
+  {
+   "k": "12k9c7l",
+   "en": "Flag of Chile"
+  },
+  {
+   "k": "1u9uw2",
+   "en": "Flag of Colombia"
+  },
+  {
+   "k": "1a58eu6",
+   "en": "Flag of Peru"
+  },
+  {
+   "k": "1voe02w",
+   "en": "Flag of Uruguay"
+  },
+  {
+   "k": "10c67nv",
+   "en": "Flag of China"
+  },
+  {
+   "k": "5dkhsc",
+   "en": "Flag of Japan"
+  },
+  {
+   "k": "1lu63wr",
+   "en": "Flag of Philippines"
+  },
+  {
+   "k": "bve2xu",
+   "en": "Flag of Siam"
+  },
+  {
+   "k": "1y90162",
+   "en": "Flag of Turkey"
+  },
+  {
+   "k": "d8by42",
+   "en": "Flag of Denmark"
+  },
+  {
+   "k": "ls3b3f",
+   "en": "Flag of Estonia"
+  },
+  {
+   "k": "p7yux8",
+   "en": "Flag of Finland"
+  },
+  {
+   "k": "1dbl5b7",
+   "en": "Flag of France"
+  },
+  {
+   "k": "c7zmoh",
+   "en": "Flag of Germany"
+  },
+  {
+   "k": "1b8czvf",
+   "en": "Flag of Greece"
+  },
+  {
+   "k": "3xiv23",
+   "en": "Flag of Italy"
+  },
+  {
+   "k": "15aro5j",
+   "en": "Flag of Latvia"
+  },
+  {
+   "k": "d9rc0g",
+   "en": "Flag of Netherlands"
+  },
+  {
+   "k": "fmkrcm",
+   "en": "Flag of Norway"
+  },
+  {
+   "k": "alp93w",
+   "en": "Flag of Poland"
+  },
+  {
+   "k": "10b4hte",
+   "en": "Flag of Portugal"
+  },
+  {
+   "k": "1jfx753",
+   "en": "Flag of Romania"
+  },
+  {
+   "k": "mzg8xt",
+   "en": "Flag of Soviet Union"
+  },
+  {
+   "k": "1c9bqll",
+   "en": "Flag of Spain"
+  },
+  {
+   "k": "dzkvs4",
+   "en": "Flag of Sweden"
+  },
+  {
+   "k": "bkuboy",
+   "en": "Flag of United Kingdom"
+  },
+  {
+   "k": "1tdgwj6",
+   "en": "Flag of Yugoslavia"
+  },
+  {
+   "k": "593a6e",
+   "en": "Flag of Australia"
+  },
+  {
+   "k": "1r070l7",
+   "en": "Flag of New Zealand"
+  }
+ ]
+}

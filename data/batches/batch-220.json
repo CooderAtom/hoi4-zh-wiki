@@ -1,0 +1,1624 @@
+{
+ "batch": 220,
+ "pages": [
+  "Triggers"
+ ],
+ "chars": 14977,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1fungep",
+   "en": "Checks if the current scope has been guaranteed by the specified country."
+  },
+  {
+   "k": "33taou",
+   "en": "has_guaranteed"
+  },
+  {
+   "k": "yp341r",
+   "en": "has_guaranteed = GER"
+  },
+  {
+   "k": "8fa04s",
+   "en": "Checks if the current scope has guaranteed the specified country."
+  },
+  {
+   "k": "t48gle",
+   "en": "has_military_access_to"
+  },
+  {
+   "k": "12q3j63",
+   "en": "has_military_access_to = GER"
+  },
+  {
+   "k": "1s4wbbm",
+   "en": "Checks if the current scope has military access to the specified country."
+  },
+  {
+   "k": "v25qek",
+   "en": "gives_military_access_to"
+  },
+  {
+   "k": "b8xfc5",
+   "en": "gives_military_access_to = GER"
+  },
+  {
+   "k": "zkxgv6",
+   "en": "Checks if the current scope gives military to the specified country."
+  },
+  {
+   "k": "1b4jfno",
+   "en": "is_neighbor_of"
+  },
+  {
+   "k": "1oq7t4d",
+   "en": "is_neighbor_of = GER"
+  },
+  {
+   "k": "j4s4z6",
+   "en": "Checks if the current scope is a neighbor of the specified country."
+  },
+  {
+   "k": "5shxr4",
+   "en": "is_owner_neighbor_of"
+  },
+  {
+   "k": "19qg569",
+   "en": "is_owner_neighbor_of = GER"
+  },
+  {
+   "k": "1hzavh9",
+   "en": "Checks if the current scope is a neighbor of the specified country with their core territory only."
+  },
+  {
+   "k": "d690l8",
+   "en": "is_puppet_of"
+  },
+  {
+   "k": "yc7sdx",
+   "en": "is_puppet_of = GER"
+  },
+  {
+   "k": "1mkt53a",
+   "en": "Checks if the current scope is a puppet of the specified country."
+  },
+  {
+   "k": "3i3opa",
+   "en": "A \"puppet\" is an autonomous state that has ⟦0⟧ in its definition within ⟦1⟧. For any subject type, see ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1apz1xo",
+   "en": "is_puppet = yes"
+  },
+  {
+   "k": "12nives",
+   "en": "/Hearts of Iron IV/common/autonomous_states/"
+  },
+  {
+   "k": "14x6zh6",
+   "en": "is_subject_of"
+  },
+  {
+   "k": "1tsq9mb",
+   "en": "is_subject_of = GER"
+  },
+  {
+   "k": "q53niq",
+   "en": "Checks if the current scope is a subject of the specified scope."
+  },
+  {
+   "k": "od511o",
+   "en": "is_puppet"
+  },
+  {
+   "k": "1vspx2u",
+   "en": "Returns true if the current country is a puppet."
+  },
+  {
+   "k": "1vtdhs2",
+   "en": "is_subject"
+  },
+  {
+   "k": "1u1vdqu",
+   "en": "is_subject = yes"
+  },
+  {
+   "k": "wze8q2",
+   "en": "Checks if the current scope is a subject."
+  },
+  {
+   "k": "jf4vrw",
+   "en": "has_subject"
+  },
+  {
+   "k": "ftfzf3",
+   "en": "has_subject = GRE"
+  },
+  {
+   "k": "1av7ag5",
+   "en": "Checks if the country has for subject the given country."
+  },
+  {
+   "k": "1tr8cb1",
+   "en": "num_subjects"
+  },
+  {
+   "k": "1nrjxk6",
+   "en": "num_subjects > 3"
+  },
+  {
+   "k": "18queb0",
+   "en": "Checks if the current scope has the specified amount of subjects."
+  },
+  {
+   "k": "1opis94",
+   "en": "has_autonomy_state"
+  },
+  {
+   "k": "1mdbydy",
+   "en": "⟦0⟧ The autonomy state to check for.",
+   "frags": 1
+  },
+  {
+   "k": "mxu04z",
+   "en": "has_autonomy_state = autonomy_dominion"
+  },
+  {
+   "k": "1ewv26q",
+   "en": "Checks if the current scope is in the specified autonomous state."
+  },
+  {
+   "k": "qrmq3p",
+   "en": "compare_autonomy_state"
+  },
+  {
+   "k": "1rak9xr",
+   "en": "compare_autonomy_state > autonomy_dominion"
+  },
+  {
+   "k": "jyj0yv",
+   "en": "Checks if the current scope's autonomy state ⟦0⟧ is less or greater than that of the specified autonomy state. The special value \"autonomy_free\" compares as greater than any autonomy state. If the current scope is not a subject, it is treated as greater than any autonomy state (including \"autonomy_free\"). With ⟦1⟧, checks if the current scope is in the specified autonomous state.",
+   "frags": 2
+  },
+  {
+   "k": "1m24tpj",
+   "en": "min_freedom_level"
+  },
+  {
+   "k": "1s0xgbz",
+   "en": "compare_autonomy_progress_ratio"
+  },
+  {
+   "k": "et7miw",
+   "en": "compare_autonomy_progress_ratio > 0.5"
+  },
+  {
+   "k": "1aku5u1",
+   "en": "Checks if the current scope autonomy progress is at the specified ratio. If the current scope is not a subject, the ratio is 1."
+  },
+  {
+   "k": "x14ekq",
+   "en": "has_opinion_modifier"
+  },
+  {
+   "k": "zmopyi",
+   "en": "⟦0⟧ The opinion modifier to check for.",
+   "frags": 1
+  },
+  {
+   "k": "19za99z",
+   "en": "has_opinion_modifier = my_modifier"
+  },
+  {
+   "k": "hk5lo7",
+   "en": "Checks if the current scope has the specified opinion modifier."
+  },
+  {
+   "k": "1hhxnli",
+   "en": "has_opinion"
+  },
+  {
+   "k": "1srh8u8",
+   "en": "⟦0⟧ The country to check for. value = <float> The amount to check for.",
+   "frags": 1
+  },
+  {
+   "k": "amwasl",
+   "en": "target = <scope>"
+  },
+  {
+   "k": "1p094tn",
+   "en": "has_opinion = { target = GER value > 50 }"
+  },
+  {
+   "k": "19z4g1f",
+   "en": "Checks if the current scope has the specified opinion of the target country."
+  },
+  {
+   "k": "tfdijs",
+   "en": "has_relation_modifier"
+  },
+  {
+   "k": "7hajui",
+   "en": "⟦0⟧ The country to check for. modifier = <modifier> The modifier to check for.",
+   "frags": 1
+  },
+  {
+   "k": "1ut4in0",
+   "en": "modifier = <modifier>"
+  },
+  {
+   "k": "13izhmd",
+   "en": "has_relation_modifier = { target = GER modifier = my_modifier }"
+  },
+  {
+   "k": "1p7euii",
+   "en": "Checks if the current scope has the specified relation modifier with the specified country."
+  },
+  {
+   "k": "11w4yaa",
+   "en": "has_legitimacy"
+  },
+  {
+   "k": "hrfpd5",
+   "en": "⟦0⟧ Amount to check.",
+   "frags": 1
+  },
+  {
+   "k": "1uizx2t",
+   "en": "has_legitimacy > 50"
+  },
+  {
+   "k": "x71tem",
+   "en": "Checks how much legitimacy the current government in exile has."
+  },
+  {
+   "k": "6xstxc",
+   "en": "Must use either > or < operators. Legitimacy ranges from 0 to 100."
+  },
+  {
+   "k": "1wqv8s4",
+   "en": "is_exile_host"
+  },
+  {
+   "k": "1w5lyj8",
+   "en": "is_exile_host = yes"
+  },
+  {
+   "k": "3nwcvl",
+   "en": "Checks if the current country is hosting an exile."
+  },
+  {
+   "k": "1hq78io",
+   "en": "is_hosting_exile"
+  },
+  {
+   "k": "101bsb4",
+   "en": "⟦0⟧ Country.",
+   "frags": 1
+  },
+  {
+   "k": "xniuut",
+   "en": "<tag>"
+  },
+  {
+   "k": "1s6tf2c",
+   "en": "is_hosting_exile = POL"
+  },
+  {
+   "k": "1ghrtvj",
+   "en": "Checks if the current country is hosting a specific exile."
+  },
+  {
+   "k": "1lpwhid",
+   "en": "is_government_in_exile"
+  },
+  {
+   "k": "1uf23a5",
+   "en": "is_government_in_exile = yes"
+  },
+  {
+   "k": "6lkgmh",
+   "en": "Checks if the current country is exiled in a different country."
+  },
+  {
+   "k": "hod8rz",
+   "en": "is_exiled_in"
+  },
+  {
+   "k": "1vsblsa",
+   "en": "⟦0⟧ Country to be exiled in.",
+   "frags": 1
+  },
+  {
+   "k": "iienzn",
+   "en": "is_exiled_in = POL"
+  },
+  {
+   "k": "mwxzvu",
+   "en": "Checks if the current country is exiled in a specific country."
+  },
+  {
+   "k": "w43qpv",
+   "en": "received_expeditionary_forces"
+  },
+  {
+   "k": "ppbk9s",
+   "en": "⟦0⟧ Country which sent forces. value <> <int> Amount of forces.",
+   "frags": 1
+  },
+  {
+   "k": "gxdcup",
+   "en": "sender = <tag>"
+  },
+  {
+   "k": "nnzslt",
+   "en": "value <> <int>"
+  },
+  {
+   "k": "1pgv9dd",
+   "en": "received_expeditionary_forces = { sender = POL value > 10 }"
+  },
+  {
+   "k": "1dl8nhb",
+   "en": "Checks if the current country received X units in expeditions from the specified country."
+  },
+  {
+   "k": "117ybd3",
+   "en": "can_declare_war_on"
+  },
+  {
+   "k": "1whwkoz",
+   "en": "⟦0⟧ Country to check.",
+   "frags": 1
+  },
+  {
+   "k": "14zpjv",
+   "en": "can_declare_war_on = POL"
+  },
+  {
+   "k": "s6m6vq",
+   "en": "Checks if the current scope is able to declare war on the specified country."
+  },
+  {
+   "k": "1nwkobt",
+   "en": "foreign_manpower"
+  },
+  {
+   "k": "1ytea78",
+   "en": "foreign_manpower > 10000"
+  },
+  {
+   "k": "btutct",
+   "en": "Checks how much foreign manpower we have received for garrisoning."
+  },
+  {
+   "k": "1cwwerq",
+   "en": "is_embargoed_by"
+  },
+  {
+   "k": "13m0rve",
+   "en": "is_embargoed_by = USA"
+  },
+  {
+   "k": "j6ihmz",
+   "en": "Checks if the current scope is embargoed by the specified country."
+  },
+  {
+   "k": "1s9rufl",
+   "en": "is_embargoing"
+  },
+  {
+   "k": "18y94to",
+   "en": "is_embargoing = CUB"
+  },
+  {
+   "k": "1plotjh",
+   "en": "Checks if the current scope is embargoing the specified country."
+  },
+  {
+   "k": "1y6fanc",
+   "en": "has_market_access_with"
+  },
+  {
+   "k": "15jtjx",
+   "en": "has_market_access_with = CUB"
+  },
+  {
+   "k": "1l5zryg",
+   "en": "Checks if the current scope has market access with the specified country."
+  },
+  {
+   "k": "2eq77f",
+   "en": "Faction"
+  },
+  {
+   "k": "us8ph2",
+   "en": "is_in_faction"
+  },
+  {
+   "k": "hp15pm",
+   "en": "is_in_faction = yes"
+  },
+  {
+   "k": "4otqbh",
+   "en": "Checks if the current scope is in a faction."
+  },
+  {
+   "k": "3ukxlf",
+   "en": "is_in_faction_with"
+  },
+  {
+   "k": "1fl5uvq",
+   "en": "is_in_faction_with = GER is_in_faction_with = var:country"
+  },
+  {
+   "k": "1aqiu52",
+   "en": "Checks if the current scope is in a faction with the specified country."
+  },
+  {
+   "k": "1dqzaaq",
+   "en": "is_faction_leader"
+  },
+  {
+   "k": "ei9nqu",
+   "en": "is_faction_leader = yes"
+  },
+  {
+   "k": "1xm5f8x",
+   "en": "Checks if the current scope is the leader of a faction."
+  },
+  {
+   "k": "e6yews",
+   "en": "num_faction_members"
+  },
+  {
+   "k": "15plyxf",
+   "en": "<int> / <variable>"
+  },
+  {
+   "k": "1atvegh",
+   "en": "num_faction_members > 1"
+  },
+  {
+   "k": "1ht0z0a",
+   "en": "Checks if the faction of the current scope has the specified amount of members."
+  },
+  {
+   "k": "odm1cz",
+   "en": "has_manpower_to_become_leader"
+  },
+  {
+   "k": "nwuvg8",
+   "en": "⟦0⟧ Boolean",
+   "frags": 1
+  },
+  {
+   "k": "q3cy9b",
+   "en": "has_manpower_to_become_leader = yes"
+  },
+  {
+   "k": "1ovsx35",
+   "en": "Checks if the current country exceeds the current faction leader and its subjects in deployed manpower."
+  },
+  {
+   "k": "vun35y",
+   "en": "has_industry_to_become_leader"
+  },
+  {
+   "k": "1x750ey",
+   "en": "has_industry_to_become_leader = yes"
+  },
+  {
+   "k": "nxjzh5",
+   "en": "Checks if the current country exceeds the faction leader in number of factories."
+  },
+  {
+   "k": "16exlp2",
+   "en": "has_enough_influence_for_leadership"
+  },
+  {
+   "k": "1815t8q",
+   "en": "has_enough_influence_for_leadership = yes"
+  },
+  {
+   "k": "185rbc6",
+   "en": "Checks if the current country has enough political influence to become faction leader."
+  },
+  {
+   "k": "1ba2gvz",
+   "en": "has_faction_template"
+  },
+  {
+   "k": "gx30xv",
+   "en": "⟦0⟧ Faction template id.",
+   "frags": 1
+  },
+  {
+   "k": "17bzswz",
+   "en": "<template_id>"
+  },
+  {
+   "k": "mavphb",
+   "en": "has_faction_template = faction_template_chinese_united_front"
+  },
+  {
+   "k": "c3jd8a",
+   "en": "Checks if the current country is in a faction with a template."
+  },
+  {
+   "k": "kerzqt",
+   "en": "has_active_rule"
+  },
+  {
+   "k": "11qu6cv",
+   "en": "⟦0⟧ Faction rule id.",
+   "frags": 1
+  },
+  {
+   "k": "1ijb14n",
+   "en": "<rule_id>"
+  },
+  {
+   "k": "3gzm3i",
+   "en": "has_active_rule = government_in_exile_allowed"
+  },
+  {
+   "k": "1sf2jrp",
+   "en": "Checks if the country's faction has a specific active rule."
+  },
+  {
+   "k": "wasgya",
+   "en": "has_faction_goal"
+  },
+  {
+   "k": "tvczai",
+   "en": "⟦0⟧ Faction goal id.",
+   "frags": 1
+  },
+  {
+   "k": "1qsk2ji",
+   "en": "<goal_id>"
+  },
+  {
+   "k": "1ca3zw8",
+   "en": "has_faction_goal = faction_goal_resource_control"
+  },
+  {
+   "k": "69ixzq",
+   "en": "Checks if the country's faction has an active or completed goal."
+  },
+  {
+   "k": "fb44fk",
+   "en": "has_completed_faction_goal"
+  },
+  {
+   "k": "19arpgi",
+   "en": "has_completed_faction_goal = faction_goal_resource_control"
+  },
+  {
+   "k": "kqtvxk",
+   "en": "Checks if the country's faction has successfully completed a goal."
+  },
+  {
+   "k": "tdge2q",
+   "en": "faction_goal_fulfillment"
+  },
+  {
+   "k": "55jtpq",
+   "en": "⟦0⟧ Faction goal id. value = <float> / <variable> The amount to check for.",
+   "frags": 1
+  },
+  {
+   "k": "rwleyc",
+   "en": "goal = <goal_id>"
+  },
+  {
+   "k": "ruqvtd",
+   "en": "faction_goal_fulfillment = { goal = faction_goal_resource_control value > 0.85 } faction_goal_fulfillment = { goal = faction_goal_resource_control value > 0.5 value < 0.85 }"
+  },
+  {
+   "k": "1isvs7s",
+   "en": "Checks fulfillment of a faction goal for the current country's faction."
+  },
+  {
+   "k": "12zf1l5",
+   "en": "Value supports > and <, can accept variables, can be repeated multiple times."
+  },
+  {
+   "k": "iacvjw",
+   "en": "faction_manifest_fulfillment"
+  },
+  {
+   "k": "1j36mca",
+   "en": "faction_manifest_fulfillment > 0.95"
+  },
+  {
+   "k": "1yi5wov",
+   "en": "Checks manifest fulfillment value of current country's faction manifest."
+  },
+  {
+   "k": "olmtmd",
+   "en": "faction_upgrade_level"
+  },
+  {
+   "k": "1fmouoh",
+   "en": "⟦0⟧ Faction upgrade token.",
+   "frags": 1
+  },
+  {
+   "k": "1owefer",
+   "en": "<upgrade_token>"
+  },
+  {
+   "k": "113g69d",
+   "en": "faction_upgrade_level > upgrade_token"
+  },
+  {
+   "k": "eh8npl",
+   "en": "Checks the active faction member upgrade against the specified upgrade."
+  },
+  {
+   "k": "ij0eje",
+   "en": "Works with >, <, ="
+  },
+  {
+   "k": "ghdxej",
+   "en": "faction_power_projection"
+  },
+  {
+   "k": "1arai82",
+   "en": "faction_power_projection > 100"
+  },
+  {
+   "k": "zab82t",
+   "en": "Checks power value of current country's faction projection."
+  },
+  {
+   "k": "8h7hfm",
+   "en": "faction_influence_rank"
+  },
+  {
+   "k": "zogtal",
+   "en": "faction_influence_rank < 5"
+  },
+  {
+   "k": "1vlcu8w",
+   "en": "Checks influence rank in the faction of the current country."
+  },
+  {
+   "k": "egy70n",
+   "en": "faction_influence_ratio"
+  },
+  {
+   "k": "ipjdxo",
+   "en": "faction_influence_ratio > 0.1"
+  },
+  {
+   "k": "1924t24",
+   "en": "Checks influence ratio of current country in the faction."
+  },
+  {
+   "k": "1ti32qe",
+   "en": "faction_influence_score"
+  },
+  {
+   "k": "16ztovj",
+   "en": "faction_influence_score > 100"
+  },
+  {
+   "k": "ks50jq",
+   "en": "Checks influence value of current country in the faction."
+  },
+  {
+   "k": "1nd0kcx",
+   "en": "can_assign_supportive_scientist_to_faction"
+  },
+  {
+   "k": "o5pnm9",
+   "en": "⟦0⟧ Specialization.",
+   "frags": 1
+  },
+  {
+   "k": "yfit8s",
+   "en": "<specialization>"
+  },
+  {
+   "k": "1ol2mtt",
+   "en": "can_assign_supportive_scientist_to_faction = specialization_land"
+  },
+  {
+   "k": "8u44cy",
+   "en": "Checks if the faction from the country in scope has a free slot for a supportive scientist for the country with the specialization type."
+  },
+  {
+   "k": "nnyis",
+   "en": "has_faction_research_unlocked"
+  },
+  {
+   "k": "bx8ero",
+   "en": "has_faction_research_unlocked = yes"
+  },
+  {
+   "k": "12g1c5s",
+   "en": "Whether the faction has unlocked the research."
+  },
+  {
+   "k": "hxe0em",
+   "en": "has_faction_military_unlocked"
+  },
+  {
+   "k": "1e543xe",
+   "en": "has_faction_military_unlocked = yes"
+  },
+  {
+   "k": "qho55w",
+   "en": "Whether the faction has unlocked the military operations."
+  },
+  {
+   "k": "l0h6cx",
+   "en": "compare_ideology_with_faction"
+  },
+  {
+   "k": "1k52yig",
+   "en": "⟦0⟧ The amount to check for. leader = <tag> Country to check.",
+   "frags": 1
+  },
+  {
+   "k": "1cmgh5d",
+   "en": "leader = <tag>"
+  },
+  {
+   "k": "1c8x92w",
+   "en": "compare_ideology_with_faction = { value > 0.5 leader = FROM }"
+  },
+  {
+   "k": "lz0ydh",
+   "en": "Compares the ideology support of the country's ruling party for the ideology of the faction it wants to join."
+  },
+  {
+   "k": "hji2ub",
+   "en": "Tooltip is visible only if 'leader' is in faction."
+  },
+  {
+   "k": "xyya79",
+   "en": "War"
+  },
+  {
+   "k": "12nuqoe",
+   "en": "has_war"
+  },
+  {
+   "k": "e5hihu",
+   "en": "has_war = yes"
+  },
+  {
+   "k": "mbk29k",
+   "en": "Checks if the current scope is at war."
+  },
+  {
+   "k": "lj9xjf",
+   "en": "has_war_with"
+  },
+  {
+   "k": "11j1io6",
+   "en": "has_war_with = GER has_war_with = var:country"
+  },
+  {
+   "k": "7dupst",
+   "en": "Checks if the current scope is at war with the specified country."
+  },
+  {
+   "k": "gl3kp7",
+   "en": "has_offensive_war_with"
+  },
+  {
+   "k": "6aqai2",
+   "en": "has_offensive_war_with = GER"
+  },
+  {
+   "k": "1mys0sm",
+   "en": "Checks if the current scope is in an offensive war against the specified country."
+  },
+  {
+   "k": "10j3ys2",
+   "en": "has_offensive_war_without_friend"
+  },
+  {
+   "k": "1dhk36j",
+   "en": "has_offensive_war_without_friend = GER"
+  },
+  {
+   "k": "1s7ne12",
+   "en": "Is country at offensive war without specific ally present."
+  },
+  {
+   "k": "k3hr01",
+   "en": "has_defensive_war_with"
+  },
+  {
+   "k": "1ggirmw",
+   "en": "has_defensive_war_with = GER"
+  },
+  {
+   "k": "1mbc3ec",
+   "en": "Checks if the current scope is in an defensive war against the specified country."
+  },
+  {
+   "k": "14l4k5q",
+   "en": "has_offensive_war"
+  },
+  {
+   "k": "17y1cgy",
+   "en": "has_offensive_war = yes"
+  },
+  {
+   "k": "19i3n2y",
+   "en": "Checks if the current scope is in an offensive war."
+  },
+  {
+   "k": "q47xq8",
+   "en": "has_defensive_war"
+  },
+  {
+   "k": "1mgq1hs",
+   "en": "has_defensive_war = yes"
+  },
+  {
+   "k": "19vaep8",
+   "en": "Checks if the current scope is in a defensive war."
+  },
+  {
+   "k": "a8o3vq",
+   "en": "has_war_together_with"
+  },
+  {
+   "k": "12mgxpz",
+   "en": "has_war_together_with = GER"
+  },
+  {
+   "k": "9oti44",
+   "en": "Checks if the current scope is in a war alongside the specified country."
+  },
+  {
+   "k": "1td93ll",
+   "en": "has_war_with_major"
+  },
+  {
+   "k": "1ejs5q9",
+   "en": "has_war_with_major = yes"
+  },
+  {
+   "k": "dfpbms",
+   "en": "Checks if the current scope is at war with any other country that is considered major."
+  },
+  {
+   "k": "1qrt6ed",
+   "en": "has_war_with_wargoal_against"
+  },
+  {
+   "k": "8dxjsh",
+   "en": "⟦0⟧ The country to check for. type = <wargoal> The wargoal to check for. Optional.",
+   "frags": 1
+  },
+  {
+   "k": "1n6gjq",
+   "en": "target = <scope> / <variable>"
+  },
+  {
+   "k": "f5g7zj",
+   "en": "type = <wargoal>"
+  },
+  {
+   "k": "1lmjoqh",
+   "en": "has_war_with_wargoal_against = { target = ENG type = independence_wargoal }"
+  },
+  {
+   "k": "ykd624",
+   "en": "Checks if the current scope is at war with the specified country with the specified wargoal being active."
+  },
+  {
+   "k": "8ek01g",
+   "en": "Wargoals are stored within ⟦0⟧ files. If no wargoal is specified, checks for ⟦1⟧ wargoal. Joining an ally in their war does not count as a wargoal.",
+   "frags": 2
+  },
+  {
+   "k": "ivajk5",
+   "en": "/Hearts of Iron IV/common/wargoals/*.txt"
+  },
+  {
+   "k": "c951l9",
+   "en": "any"
+  },
+  {
+   "k": "1bv3et5",
+   "en": "surrender_progress"
+  },
+  {
+   "k": "10efqdq",
+   "en": "surrender_progress > 0.1"
+  },
+  {
+   "k": "1t75zjs",
+   "en": "Checks if the current scope has the specified amount of surrender progress."
+  },
+  {
+   "k": "1npz6j5",
+   "en": "any_war_score"
+  },
+  {
+   "k": "1j6nrk4",
+   "en": "any_war_score > 10"
+  },
+  {
+   "k": "1tu5s96",
+   "en": "Highest warscore value can be approximated by interating a variable by 1 for as long as any_war_score is greater than the variable. Checking with less than appears broken as a warscore of 0 is sometimes erroneously reported."
+  },
+  {
+   "k": "fl0an8",
+   "en": "has_capitulated"
+  },
+  {
+   "k": "m8v2uc",
+   "en": "has_capitulated = yes"
+  },
+  {
+   "k": "tkqp7l",
+   "en": "Checks if the current scope has capitulated."
+  },
+  {
+   "k": "wybgw",
+   "en": "days_since_capitulated"
+  },
+  {
+   "k": "s0i6qm",
+   "en": "⟦0⟧ Amount of days.",
+   "frags": 1
+  },
+  {
+   "k": "14eas2f",
+   "en": "days_since_capitulated > 10"
+  },
+  {
+   "k": "h86rm3",
+   "en": "Checks the amount of days since the target last capitulated."
+  },
+  {
+   "k": "7md307",
+   "en": "If the target never capitulated, the amount of days is extremely large. Recommended to combine with has_capitulated."
+  },
+  {
+   "k": "csc6yc",
+   "en": "has_border_war_with"
+  },
+  {
+   "k": "1qedqhp",
+   "en": "has_border_war_with = GER"
+  },
+  {
+   "k": "1jygmu5",
+   "en": "Checks if the current scope has a border war with the specified country."
+  },
+  {
+   "k": "pfzwck",
+   "en": "has_border_war_between"
+  },
+  {
+   "k": "onq77n",
+   "en": "⟦0⟧ The state to check for. defender = <scope> / <variable> The state to check for.",
+   "frags": 1
+  },
+  {
+   "k": "6g8bw4",
+   "en": "attacker = <scope> / <variable>"
+  },
+  {
+   "k": "1y0hjw0",
+   "en": "defender = <scope> / <variable>"
+  },
+  {
+   "k": "1rxuyim",
+   "en": "has_border_war_between = { attacker = 1 defender = 2 }"
+  },
+  {
+   "k": "p7n0sb",
+   "en": "Checks if there is a border war between the two specified states."
+  },
+  {
+   "k": "1tio8zv",
+   "en": "has_border_war"
+  },
+  {
+   "k": "lvx6uv",
+   "en": "has_border_war = yes"
+  },
+  {
+   "k": "g7sa7i",
+   "en": "Checks if the current scope has a border war active."
+  },
+  {
+   "k": "f8igkc",
+   "en": "has_added_tension_amount"
+  },
+  {
+   "k": "u8yq0j",
+   "en": "has_added_tension_amount > 10"
+  },
+  {
+   "k": "ewq0de",
+   "en": "Checks if the current scope has caused the specified amount of World Tension."
+  },
+  {
+   "k": "ei51y5",
+   "en": "has_wargoal_against"
+  },
+  {
+   "k": "j8372k",
+   "en": "has_wargoal_against = GER"
+  },
+  {
+   "k": "1ph7dd0",
+   "en": "Checks if the current scope has any wargoal against the specified country."
+  },
+  {
+   "k": "1i7pncm",
+   "en": "⟦0⟧ The country to check for. type = <string> The type of wargoal to check for.",
+   "frags": 1
+  },
+  {
+   "k": "1kmt8cv",
+   "en": "type = <string>"
+  },
+  {
+   "k": "1d0jn32",
+   "en": "has_wargoal_against = { target = FROM type = take_state }"
+  },
+  {
+   "k": "1sxbc6l",
+   "en": "Checks if the current scope has a specific wargoal type against the specified country."
+  },
+  {
+   "k": "1cyx384",
+   "en": "is_justifying_wargoal_against"
+  },
+  {
+   "k": "161byil",
+   "en": "is_justifying_wargoal_against = GER"
+  },
+  {
+   "k": "116wgtn",
+   "en": "Checks if the current scope is justifying a wargoal against the specified country."
+  },
+  {
+   "k": "d2bgvb",
+   "en": "has_annex_war_goal"
+  },
+  {
+   "k": "rhwvy6",
+   "en": "has_annex_war_goal = GER"
+  },
+  {
+   "k": "1ubihp5",
+   "en": "Checks if the current scope has the Annex wargoal against the specified country."
+  },
+  {
+   "k": "1t70pkq",
+   "en": "any_claim"
+  },
+  {
+   "k": "1y0rxzi",
+   "en": "any_claim = yes"
+  },
+  {
+   "k": "k8x9u7",
+   "en": "Will return true if Is (manually) justifying on another country Is being (manually) justified on Has wargoal on another country Another country has wargoal on the current country"
+  },
+  {
+   "k": "2o9dh3",
+   "en": "Is (manually) justifying on another country"
+  },
+  {
+   "k": "1iqvur0",
+   "en": "Is being (manually) justified on"
+  },
+  {
+   "k": "dtke3a",
+   "en": "Has wargoal on another country"
+  },
+  {
+   "k": "5ge90w",
+   "en": "Another country has wargoal on the current country"
+  },
+  {
+   "k": "4bmq0c",
+   "en": "Misleading name. In-game the localization says \"Active or generating war goals related to [TAG.GetNameDefCap]\""
+  },
+  {
+   "k": "1hhnb3r",
+   "en": "is_in_peace_conference"
+  },
+  {
+   "k": "js47zn",
+   "en": "is_in_peace_conference = yes"
+  },
+  {
+   "k": "xqq5zj",
+   "en": "Checks if the current scope is in a peace conference."
+  },
+  {
+   "k": "1v50s36",
+   "en": "Please test this in-game for 1.12."
+  },
+  {
+   "k": "1v13nio",
+   "en": "controls_province"
+  },
+  {
+   "k": "gqrrbh",
+   "en": "⟦0⟧ The province to check for.",
+   "frags": 1
+  },
+  {
+   "k": "i79jtk",
+   "en": "<id>"
+  },
+  {
+   "k": "vnepg6",
+   "en": "controls_province = 1239"
+  },
+  {
+   "k": "3hooie",
+   "en": "Checks if the current scope has control of the specified province."
+  },
+  {
+   "k": "1v7xoqh",
+   "en": "longest_war_length"
+  },
+  {
+   "k": "ahhpie",
+   "en": "⟦0⟧ Amount of months.",
+   "frags": 1
+  },
+  {
+   "k": "57yf2y",
+   "en": "longest_war_length > 3"
+  },
+  {
+   "k": "1rakab8",
+   "en": "Checks how long a country has been at war, in months."
+  },
+  {
+   "k": "lsyh5j",
+   "en": "war_length_with"
+  },
+  {
+   "k": "rerfzi",
+   "en": "⟦0⟧ Target country. months = <int> Amounth of months.",
+   "frags": 1
+  },
+  {
+   "k": "18kvfcr",
+   "en": "tag = <scope> / <variable>"
+  },
+  {
+   "k": "qdqvfs",
+   "en": "months = <int>"
+  },
+  {
+   "k": "11q8smf",
+   "en": "war_length_with = { tag = GER months > 3 }"
+  },
+  {
+   "k": "jywpd6",
+   "en": "Checks how long a country has been at war with specific country, in months."
+  },
+  {
+   "k": "1q0l0pi",
+   "en": "has_truce_with"
+  },
+  {
+   "k": "74z0tj",
+   "en": "has_truce_with = GER"
+  },
+  {
+   "k": "6zwwgc",
+   "en": "Checks if the country has truce with the specified country."
+  },
+  {
+   "k": "73w32y",
+   "en": "has_naval_control"
+  },
+  {
+   "k": "fhbxhd",
+   "en": "⟦0⟧ The region to check in.",
+   "frags": 1
+  },
+  {
+   "k": "1aklq3x",
+   "en": "<id> / <variable>"
+  },
+  {
+   "k": "12rlcyw",
+   "en": "has_naval_control = 16"
+  },
+  {
+   "k": "dy9jna",
+   "en": "Checks if friendly nations and country scope together has enough naval dominance to assert control in strategic region."
+  },
+  {
+   "k": "1qk8b2t",
+   "en": "has_enemy_naval_control"
+  },
+  {
+   "k": "1idsfzh",
+   "en": "has_enemy_naval_control = 16"
+  },
+  {
+   "k": "1s3phvs",
+   "en": "Checks if any enemy has enough naval dominance to assert control in certain strategic region."
+  },
+  {
+   "k": "pdtg1o",
+   "en": "These are state-related triggers in the country scope, not ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1l0n4my",
+   "en": "state-scoped triggers"
+  },
+  {
+   "k": "117a6ql",
+   "en": "controls_state"
+  },
+  {
+   "k": "1rgqn0y",
+   "en": "⟦0⟧ The state to check for.",
+   "frags": 1
+  },
+  {
+   "k": "17f1dzn",
+   "en": "controls_state = 39 controls_state = var:state"
+  },
+  {
+   "k": "1duisdh",
+   "en": "Checks if the current scope has control of the specified state."
+  },
+  {
+   "k": "o2ypxu",
+   "en": "owns_state"
+  },
+  {
+   "k": "1jh1okr",
+   "en": "owns_state = 39"
+  },
+  {
+   "k": "1hqtn9s",
+   "en": "Checks if the current scope owns the specified state."
+  },
+  {
+   "k": "njyr37",
+   "en": "num_of_controlled_states"
+  },
+  {
+   "k": "1dkd8zi",
+   "en": "num_of_controlled_states > 5"
+  },
+  {
+   "k": "1hyo4j9",
+   "en": "Checks if the current scope has the specified amount of controlled states."
+  },
+  {
+   "k": "rcmckn",
+   "en": "num_occupied_states"
+  },
+  {
+   "k": "17s9uz6",
+   "en": "num_occupied_states > 5"
+  },
+  {
+   "k": "1f556j",
+   "en": "Checks if the current scope has the specified amount of occupied states."
+  },
+  {
+   "k": "mitw5z",
+   "en": "has_full_control_of_state"
+  },
+  {
+   "k": "amhd3c",
+   "en": "has_full_control_of_state = 39"
+  },
+  {
+   "k": "nalnwb",
+   "en": "Checks if the current scope has total control (100% occupation) of the specified state."
+  },
+  {
+   "k": "1dn1d29",
+   "en": "has_resources_rights"
+  },
+  {
+   "k": "1mb02yu",
+   "en": "⟦0⟧ The state to check in. Mandatory if used in country scope. resources = { <resource> <...> <resource> } Resources to check for. Optional, defaults to any if unset.",
+   "frags": 1
+  },
+  {
+   "k": "bl2eyk",
+   "en": "state = <scope> / <variable>"
+  },
+  {
+   "k": "9b0dez",
+   "en": "resources = { <resource> <...> <resource> }"
+  },
+  {
+   "k": "1ea1i1p",
+   "en": "has_resources_rights = { state = 123 resources = { oil steel } }"
+  },
+  {
+   "k": "jyc87l",
+   "en": "Checks if there are any resource rights with the specified parameters."
+  },
+  {
+   "k": "15y1ava",
+   "en": "Can be used in either state or country scope. Always returns false if the state has no resources. Can also be used in state scope."
+  },
+  {
+   "k": "apwuwg",
+   "en": "core_compliance"
+  },
+  {
+   "k": "1su9i9y",
+   "en": "⟦0⟧ The country for which to check compliance. value = <int> The value to check for.",
+   "frags": 1
+  },
+  {
+   "k": "1xq8mmq",
+   "en": "occupied_country_tag = <TAG>"
+  },
+  {
+   "k": "irjvhe",
+   "en": "core_compliance = { occupied_country_tag = ITA value > 10 }"
+  },
+  {
+   "k": "17hn48s",
+   "en": "Compares the average compliance of core states of the specified country within controlled states of the current scope."
+  },
+  {
+   "k": "1m6ipde",
+   "en": "core_resistance"
+  },
+  {
+   "k": "m9pxwo",
+   "en": "⟦0⟧ The country for which to check resistance. value = <int> The value to check for.",
+   "frags": 1
+  },
+  {
+   "k": "cdl8w0",
+   "en": "core_resistance = { occupied_country_tag = ITA value > 10 }"
+  },
+  {
+   "k": "32bx8m",
+   "en": "Compares the average resistance of core states of the specified country within controlled states of the current scope."
+  },
+  {
+   "k": "58f77x",
+   "en": "garrison_manpower_need"
+  },
+  {
+   "k": "18ikmkg",
+   "en": "garrison_manpower_need > 10000"
+  },
+  {
+   "k": "169ob4k",
+   "en": "Checks how much garrison manpower we need for resistance in controlled states."
+  },
+  {
+   "k": "goohp",
+   "en": "has_core_occupation_modifier"
+  },
+  {
+   "k": "198dsbi",
+   "en": "⟦0⟧ The country to check. modifier = <token>The modifier to check.",
+   "frags": 1
+  },
+  {
+   "k": "1qr0gob",
+   "en": "occupied_country_tag = <scope> / <variable>"
+  },
+  {
+   "k": "a779wi",
+   "en": "modifier = <token>"
+  },
+  {
+   "k": "1il0epk",
+   "en": "has_core_occupation_modifier = { occupied_country_tag = ITA modifier = token }"
+  }
+ ]
+}

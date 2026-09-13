@@ -1,0 +1,773 @@
+{
+ "batch": 32,
+ "items": [
+  {
+   "k": "5ftle2",
+   "zh": "火箭炮 支援火箭炮 卡车牵引火箭炮"
+  },
+  {
+   "k": "1i3wory",
+   "zh": "支援火箭炮"
+  },
+  {
+   "k": "15pq8l6",
+   "zh": "超重型自行防空炮"
+  },
+  {
+   "k": "58gfif",
+   "zh": "超重型自行防空炮"
+  },
+  {
+   "k": "81nsff",
+   "zh": "超重型自行火炮"
+  },
+  {
+   "k": "ci1liw",
+   "zh": "超重型自行火炮"
+  },
+  {
+   "k": "pmd1j1",
+   "zh": "超重型坦克歼击车"
+  },
+  {
+   "k": "ecg4kc",
+   "zh": "超重型坦克歼击车"
+  },
+  {
+   "k": "9fm9rx",
+   "zh": "超重型坦克"
+  },
+  {
+   "k": "16lhprx",
+   "zh": "超重型坦克"
+  },
+  {
+   "k": "1jqa1ss",
+   "zh": "自行车营 工兵连 先锋工兵 丛林先锋工兵 或 骑兵侦察 摩托化侦察 侦察游骑兵 远程巡逻队 军事警察 维修连 野战医院 后勤连 通信连 突击营 冬季后勤"
+  },
+  {
+   "k": "1gzbh9j",
+   "zh": "维修连"
+  },
+  {
+   "k": "1sbupdi",
+   "zh": "生产许可"
+  },
+  {
+   "k": "1104pul",
+   "zh": "国家可以付费获得已研究某项科技的国家提供的生产许可。涉及 1936 年科技或更早（1936 年前）科技的许可，基础费用为 ⟦0⟧ ⟦1⟧。民用工厂归被许可装备所属的国家。科技年份每超过 1936 年一年，许可费用就增加 ⟦2⟧ ⟦3⟧。例如，许可牵引火炮（1936 年装备）需要 ⟦4⟧ ⟦5⟧，许可改进型火炮（1939 年装备）需要 ⟦6⟧ ⟦7⟧，许可先进火炮（1942 年装备）需要 ⟦8⟧ ⟦9⟧。许可一旦获得，在 30⟦10⟧ 天内无法取消。"
+  },
+  {
+   "k": "7b3x92",
+   "zh": "民用工厂"
+  },
+  {
+   "k": "14317da",
+   "zh": "拥有某种装备的许可，还会为解锁该装备国产（非许可）版本的科技提供 ⟦0⟧ ⟦1⟧。对于使用设计商的装备，例如 ⟦2⟧（配合 ⟦3⟧）、⟦4⟧ 和 ⟦5⟧（配合 ⟦6⟧），只有许可设计的基础底盘、舰体或机体所对应的科技才能获得该加成。"
+  },
+  {
+   "k": "klujvz",
+   "zh": "科研速度"
+  },
+  {
+   "k": "86y5qm",
+   "zh": "坦克"
+  },
+  {
+   "k": "onnch0",
+   "zh": "舰船"
+  },
+  {
+   "k": "8pvs8j",
+   "zh": "与他国关系良好的国家可以请求对方许可，以生产外国装备。AI 控制的国家愿意许可出去的装备类型取决于双方关系和科技先进程度。例如，⟦0⟧ 可能不愿许可其最新坦克或战斗机设计，但乐意向友好或中立国家提供二号坦克（Panzer II）。⟦1⟧ 也可能提供获得许可的途径。"
+  },
+  {
+   "k": "alybni",
+   "zh": "德国"
+  },
+  {
+   "k": "k2esk3",
+   "zh": "国家焦点"
+  },
+  {
+   "k": "fzw37j",
+   "zh": "生产外国装备的效率不如生产玩家自己的设计。以下生产惩罚会以乘法方式作用于 ⟦0⟧ 或 ⟦1⟧："
+  },
+  {
+   "k": "1e5zy6y",
+   "zh": "来自其他 ⟦0⟧ 成员的许可装备：⟦1⟧"
+  },
+  {
+   "k": "cu27vf",
+   "zh": "阵营"
+  },
+  {
+   "k": "14dm971",
+   "zh": "来自非 ⟦0⟧ 成员的许可装备：⟦1⟧⟦2⟧"
+  },
+  {
+   "k": "1soq0i",
+   "zh": "未获得生产该外国装备的许可：⟦0⟧"
+  },
+  {
+   "k": "d7a9s5",
+   "zh": "外国装备“超前时代”：每超前一年额外 ⟦0⟧，最多为 ⟦1⟧⟦2⟧"
+  },
+  {
+   "k": "okv678",
+   "zh": "某些 ⟦0⟧ 会提供许可生产加成，可抵消这些惩罚，例如 ⟦1⟧ 或 ⟦2⟧。尤其是 ⟦3⟧ 可以让 ⟦4⟧ 以比生产自研装备更快的速度生产许可装备。"
+  },
+  {
+   "k": "dfhuxu",
+   "zh": "许可德国装备"
+  },
+  {
+   "k": "5yqw6k",
+   "zh": "与日本交好"
+  },
+  {
+   "k": "1x18mk6",
+   "zh": "大规模许可计划"
+  },
+  {
+   "k": "1m4t2m9",
+   "zh": "匈牙利"
+  },
+  {
+   "k": "v58vco",
+   "zh": "与创建非许可装备相比，创建许可装备的 ⟦0⟧ 需要 ⟦1⟧ 的 ⟦2⟧。"
+  },
+  {
+   "k": "14gs80a",
+   "zh": "2x⟦0⟧"
+  },
+  {
+   "k": "14rskrt",
+   "zh": "经验"
+  },
+  {
+   "k": "g4v2gz",
+   "zh": "许可装备时，施加于原装备的 ⟦0⟧ 和 ⟦1⟧ 不会将其加成转移到许可装备上。不过，来自 ⟦2⟧、⟦3⟧ 和/或 ⟦4⟧ 的全国性加成若影响原装备的生产成本，则会随许可一并转移。"
+  },
+  {
+   "k": "1emgqq8",
+   "zh": "设计公司"
+  },
+  {
+   "k": "ebum6t",
+   "zh": "军工组织"
+  },
+  {
+   "k": "1q7l7sa",
+   "zh": "飞机生产"
+  },
+  {
+   "k": "1ar6vnc",
+   "zh": "启用 ⟦0⟧ 时，⟦1⟧ 无法直接分配到外国装备的生产线，因此无法将自身生产加成应用于这些生产线，也无法通过管理这些生产线积累资金和经验。"
+  },
+  {
+   "k": "1gcwzb4",
+   "zh": "对抗暴政"
+  },
+  {
+   "k": "lla0k0",
+   "zh": "在游戏版本 v1.16.9 中，游戏还存在一组错误：许可 ⟦0⟧ 的部件模块可以被应用到国产的非许可舰体上并使用而不受惩罚，即使该国并未拥有相应的适当科技。只要加载许可仍然有效的存档，就可能出现这种情况。⟦1⟧ 对于 ⟦2⟧（配合 ⟦3⟧）和 ⟦4⟧（配合 ⟦5⟧）的类似错误也有非正式的报告。⟦6⟧"
+  },
+  {
+   "k": "ak5krw",
+   "zh": "舰船设计"
+  },
+  {
+   "k": "1y5qrsu",
+   "zh": "坦克设计"
+  },
+  {
+   "k": "ipato0",
+   "zh": "飞机设计"
+  },
+  {
+   "k": "1p1yprf",
+   "zh": "参考文献"
+  },
+  {
+   "k": "76y7b9",
+   "zh": "⟦0⟧，见 ⟦1⟧。"
+  },
+  {
+   "k": "10uqb0x",
+   "zh": "NDefines.NProduction.BASE_FACTORY_SPEED = 4"
+  },
+  {
+   "k": "spbafn",
+   "zh": "定义文件"
+  },
+  {
+   "k": "1dz0jf3",
+   "zh": "NDefines.NProduction.POWERED_FACTORY_SPEED = 5"
+  },
+  {
+   "k": "5klf6o",
+   "zh": "NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 3.5"
+  },
+  {
+   "k": "qbi8u4",
+   "zh": "NDefines.NProduction.POWERED_FACTORY_SPEED_MIL = 4.5"
+  },
+  {
+   "k": "5rrjft",
+   "zh": "NDefines.NProduction.BASE_FACTORY_SPEED_NAV = 2"
+  },
+  {
+   "k": "1p21l99",
+   "zh": "NDefines.NProduction.POWERED_FACTORY_SPEED_NAV = 2.5"
+  },
+  {
+   "k": "pum2uq",
+   "zh": "NDefines.NProduction.MAX_MIL_FACTORIES_PER_LINE = 150"
+  },
+  {
+   "k": "1tpxtzy",
+   "zh": "NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 5"
+  },
+  {
+   "k": "e7hae0",
+   "zh": "NDefines.NProduction.DEFAULT_MAX_NAV_FACTORIES_PER_LINE = 10"
+  },
+  {
+   "k": "zcn79o",
+   "zh": "NDefines.NProduction.CONVOY_MAX_NAV_FACTORIES_PER_LINE = 15"
+  },
+  {
+   "k": "mxgk7c",
+   "zh": "NDefines.NProduction.FLOATING_HARBOR_MAX_NAV_FACTORIES_PER_LINE = 5"
+  },
+  {
+   "k": "144pv4s",
+   "zh": "NDefines.NProduction.RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE = 5"
+  },
+  {
+   "k": "r7zosd",
+   "zh": "NDefines.NProduction.BASE_FACTORY_START_EFFICIENCY_FACTOR = 10"
+  },
+  {
+   "k": "13ssbvv",
+   "zh": "NDefines.NProduction.BASE_FACTORY_MAX_EFFICIENCY_FACTOR = 50"
+  },
+  {
+   "k": "mgds2f",
+   "zh": "forumpost:29341015"
+  },
+  {
+   "k": "x1e8fz",
+   "zh": "NDefines.NProduction.BASE_FACTORY_EFFICIENCY_VARIANT_CHANGE_FACTOR = 90"
+  },
+  {
+   "k": "4rsj9s",
+   "zh": "NDefines.NProduction.BASE_FACTORY_EFFICIENCY_FAMILY_CHANGE_FACTOR = 70"
+  },
+  {
+   "k": "1cjjih8",
+   "zh": "NDefines.NProduction.BASE_FACTORY_EFFICIENCY_PARENT_CHANGE_FACTOR = 30"
+  },
+  {
+   "k": "1r3dnte",
+   "zh": "NDefines.NProduction.BASE_FACTORY_EFFICIENCY_ARCHETYPE_CHANGE_FACTOR = 20"
+  },
+  {
+   "k": "er7d6n",
+   "zh": "NDefines.NProduction.BASE_FACTORY_EFFICIENCY_BALANCE_FACTOR = 0.1"
+  },
+  {
+   "k": "15t03ua",
+   "zh": "“改装俘获的舰船并不总是有效” Paradox 论坛"
+  },
+  {
+   "k": "1gpq1s4",
+   "zh": "NDefines.NProduction.SHIP_REFIT_MAX_PROGRESS_TO_CANCEL = 0.2"
+  },
+  {
+   "k": "1ru08ct",
+   "zh": "“坦克/飞机的改装与转换有何限制？” Paradox 论坛"
+  },
+  {
+   "k": "1pocpsn",
+   "zh": "NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS = 0.15"
+  },
+  {
+   "k": "13mlgdp",
+   "zh": "引用错误：无效的 ⟦0⟧ 标签；未为名为 ⟦1⟧ 的引用提供文本"
+  },
+  {
+   "k": "5fpiq6",
+   "zh": "<ref>"
+  },
+  {
+   "k": "ttpajn",
+   "zh": "00_buildings"
+  },
+  {
+   "k": "mk7vrz",
+   "zh": "NDefines.NBuildings.SUPPLY_ROUTE_RESOURCE_BONUS = 0.2"
+  },
+  {
+   "k": "nrevmd",
+   "zh": "NDefines.NProduction.PRODUCTION_RESOURCE_LACK_PENALTY = -0.05"
+  },
+  {
+   "k": "6dvv4",
+   "zh": "NDefines.NProduction.BASE_LICENSE_IC_COST = 1"
+  },
+  {
+   "k": "1ckouzb",
+   "zh": "NDefines.NProduction.LICENSE_IC_COST_YEAR_INCREASE = 1"
+  },
+  {
+   "k": "47nxb9",
+   "zh": "NDefines.NProduction.MIN_LICENSE_ACTIVE_DAYS = 30"
+  },
+  {
+   "k": "u5f83k",
+   "zh": "NDefines.NTechnology.LICENSE_PRODUCTION_TECH_BONUS = 0.2"
+  },
+  {
+   "k": "kep4kl",
+   "zh": "NDefines.NProduction.LICENSE_EQUIPMENT_BASE_SPEED = -0.25"
+  },
+  {
+   "k": "1thzwrz",
+   "zh": "⟦0⟧ 和 ⟦1⟧，见 ⟦2⟧。"
+  },
+  {
+   "k": "169z7dc",
+   "zh": "NDefines.NProduction.LICENSE_EQUIPMENT_SPEED_NOT_FACTION = -0.1"
+  },
+  {
+   "k": "1avebip",
+   "zh": "NDefines.NProduction.LICENSE_EQUIPMENT_SPEED_NO_LICENSE = -0.5"
+  },
+  {
+   "k": "1viwqfs",
+   "zh": "NDefines.NProduction.LICENSE_EQUIPMENT_TECH_SPEED_PER_YEAR = -0.05"
+  },
+  {
+   "k": "1itmb0",
+   "zh": "NDefines.NProduction.LICENSE_EQUIPMENT_TECH_SPEED_MAX_YEARS = 4"
+  },
+  {
+   "k": "13u19it",
+   "zh": "NDefines.NProduction.LICENSE_EQUIPMENT_UPGRADE_XP_FACTOR = 2"
+  },
+  {
+   "k": "12w7qcj",
+   "zh": "forumpost:30239181"
+  },
+  {
+   "k": "1lqflhd",
+   "zh": "需要验证"
+  },
+  {
+   "k": "1d3wr3i",
+   "zh": "政治"
+  },
+  {
+   "k": "10glfs6",
+   "zh": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ • ⟦3⟧ • ⟦4⟧ • ⟦5⟧ • ⟦6⟧ • ⟦7⟧ • 世界紧张度 • ⟦8⟧ • ⟦9⟧ • ⟦10⟧"
+  },
+  {
+   "k": "18a2mp",
+   "zh": "意识形态"
+  },
+  {
+   "k": "2eq77f",
+   "zh": "阵营"
+  },
+  {
+   "k": "m1c2qr",
+   "zh": "国家焦点"
+  },
+  {
+   "k": "z4qa23",
+   "zh": "理念"
+  },
+  {
+   "k": "zc9cvq",
+   "zh": "政府"
+  },
+  {
+   "k": "mntfz",
+   "zh": "傀儡国"
+  },
+  {
+   "k": "lucq3p",
+   "zh": "流亡政府"
+  },
+  {
+   "k": "1ftjdix",
+   "zh": "外交"
+  },
+  {
+   "k": "kpvo8i",
+   "zh": "内战"
+  },
+  {
+   "k": "dlbn6i",
+   "zh": "占领"
+  },
+  {
+   "k": "q2j1tx",
+   "zh": "权力平衡"
+  },
+  {
+   "k": "j6p9kc",
+   "zh": "建造"
+  },
+  {
+   "k": "yq3f6s",
+   "zh": "军工组织"
+  },
+  {
+   "k": "iqjybx",
+   "zh": "国际市场"
+  },
+  {
+   "k": "1f6tz4t",
+   "zh": "科研与科技"
+  },
+  {
+   "k": "sk9ul6",
+   "zh": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ • ⟦3⟧（亦为 ⟦4⟧） • ⟦5⟧ • ⟦6⟧ • 特种部队学说 • ⟦7⟧（亦为 ⟦8⟧） • ⟦9⟧ • ⟦10⟧ • ⟦11⟧（亦为 ⟦12⟧） • ⟦13⟧ • ⟦14⟧ • ⟦15⟧ • 特殊项目 • ⟦16⟧"
+  },
+  {
+   "k": "pps2r0",
+   "zh": "科研"
+  },
+  {
+   "k": "g2pgjm",
+   "zh": "步兵科技"
+  },
+  {
+   "k": "1rjf55b",
+   "zh": "支援连科技"
+  },
+  {
+   "k": "qg8ocm",
+   "zh": "装甲科技"
+  },
+  {
+   "k": "vmbvr7",
+   "zh": "未启用《绝不后退》时"
+  },
+  {
+   "k": "qjz56x",
+   "zh": "火炮科技"
+  },
+  {
+   "k": "1cs1oqe",
+   "zh": "陆军学说"
+  },
+  {
+   "k": "1qb81nb",
+   "zh": "海军科技"
+  },
+  {
+   "k": "pw04bf",
+   "zh": "未启用《炮手就位》时"
+  },
+  {
+   "k": "1oxxu4y",
+   "zh": "海军支援科技"
+  },
+  {
+   "k": "jh80qf",
+   "zh": "海军学说"
+  },
+  {
+   "k": "9cafof",
+   "zh": "空军科技"
+  },
+  {
+   "k": "wetszz",
+   "zh": "未启用《以血盟誓》时"
+  },
+  {
+   "k": "pv8y7",
+   "zh": "空军学说"
+  },
+  {
+   "k": "5qpdw2",
+   "zh": "工程科技"
+  },
+  {
+   "k": "4fh35j",
+   "zh": "工业科技"
+  },
+  {
+   "k": "1pa6tqp",
+   "zh": "科学家"
+  },
+  {
+   "k": "1chrrlx",
+   "zh": "军事与战争"
+  },
+  {
+   "k": "curxny",
+   "zh": "战争 • ⟦0⟧ • ⟦1⟧ • ⟦2⟧ • ⟦3⟧ • ⟦4⟧ • ⟦5⟧ • ⟦6⟧ • ⟦7⟧ • ⟦8⟧ • ⟦9⟧ • ⟦10⟧ • ⟦11⟧（⟦12⟧） • ⟦13⟧ • ⟦14⟧ • ⟦15⟧ • ⟦16⟧ • ⟦17⟧ • ⟦18⟧ • ⟦19⟧ • ⟦20⟧ • ⟦21⟧ • ⟦22⟧"
+  },
+  {
+   "k": "1u062g9",
+   "zh": "和平会议"
+  },
+  {
+   "k": "1kdpnrf",
+   "zh": "陆军单位"
+  },
+  {
+   "k": "1pmis96",
+   "zh": "陆战"
+  },
+  {
+   "k": "je5emr",
+   "zh": "师编制器"
+  },
+  {
+   "k": "s6v7w2",
+   "zh": "坦克设计器"
+  },
+  {
+   "k": "6e8jnk",
+   "zh": "陆军编制器"
+  },
+  {
+   "k": "1ikn79l",
+   "zh": "指挥群"
+  },
+  {
+   "k": "qkms9x",
+   "zh": "指挥官"
+  },
+  {
+   "k": "67a45e",
+   "zh": "作战计划"
+  },
+  {
+   "k": "1b77qg4",
+   "zh": "战斗战术"
+  },
+  {
+   "k": "ccmhen",
+   "zh": "舰船"
+  },
+  {
+   "k": "ov8z8s",
+   "zh": "舰船设计器"
+  },
+  {
+   "k": "uqska2",
+   "zh": "伦敦海军条约"
+  },
+  {
+   "k": "p5a2y1",
+   "zh": "海战"
+  },
+  {
+   "k": "ep0yao",
+   "zh": "飞机设计器"
+  },
+  {
+   "k": "gik2td",
+   "zh": "空战"
+  },
+  {
+   "k": "1byxumh",
+   "zh": "经验"
+  },
+  {
+   "k": "6hztxg",
+   "zh": "军官团"
+  },
+  {
+   "k": "o1qgz4",
+   "zh": "损耗与事故"
+  },
+  {
+   "k": "146p7sg",
+   "zh": "后勤"
+  },
+  {
+   "k": "17vxw9s",
+   "zh": "人力"
+  },
+  {
+   "k": "xmcd8r",
+   "zh": "核弹"
+  },
+  {
+   "k": "5hwjw1",
+   "zh": "突袭"
+  },
+  {
+   "k": "1y7baae",
+   "zh": "间谍活动"
+  },
+  {
+   "k": "1mkuf87",
+   "zh": "情报"
+  },
+  {
+   "k": "edpl0h",
+   "zh": "情报机构"
+  },
+  {
+   "k": "kqpju7",
+   "zh": "特工"
+  },
+  {
+   "k": "gmp1ge",
+   "zh": "任务"
+  },
+  {
+   "k": "1ahoaq7",
+   "zh": "行动"
+  },
+  {
+   "k": "j1sac1",
+   "zh": "地图"
+  },
+  {
+   "k": "wfrlrn",
+   "zh": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ • 天气 • ⟦3⟧"
+  },
+  {
+   "k": "15zdv1h",
+   "zh": "省份"
+  },
+  {
+   "k": "1am2g8e",
+   "zh": "地形"
+  },
+  {
+   "k": "8awmmu",
+   "zh": "州"
+  },
+  {
+   "k": "qusmdm",
+   "zh": "事件与决议"
+  },
+  {
+   "k": "217z8",
+   "zh": "事件"
+  },
+  {
+   "k": "vwifyo",
+   "zh": "决议"
+  },
+  {
+   "k": "1ws88qm",
+   "zh": "Equipment.png"
+  },
+  {
+   "k": "z1ygrj",
+   "zh": "抵抗运动"
+  },
+  {
+   "k": "1bcl9mi",
+   "zh": "工业产能"
+  },
+  {
+   "k": "1yrk244",
+   "zh": "{\\displaystyle 4.5\\cdot 0.5\\cdot {(1+0.1-0.218)}=1.9845}"
+  },
+  {
+   "k": "1v2zo8a",
+   "zh": "诸神黄昏"
+  },
+  {
+   "k": "qqtljw",
+   "zh": "Production line legend sketch v2.png"
+  },
+  {
+   "k": "1gow1q0",
+   "zh": "thumb.php?f=Factory ramp losses.png&width=600"
+  },
+  {
+   "k": "uhmuw1",
+   "zh": "装备转换科技"
+  },
+  {
+   "k": "4jckka",
+   "zh": "Oil.png"
+  },
+  {
+   "k": "qfgz0a",
+   "zh": "Aluminum.png"
+  },
+  {
+   "k": "1l3ebtm",
+   "zh": "Rubber.png"
+  },
+  {
+   "k": "9mjhmg",
+   "zh": "Tungsten.png"
+  },
+  {
+   "k": "ahzwgh",
+   "zh": "Steel.png"
+  },
+  {
+   "k": "1j8l42s",
+   "zh": "Chromium.png"
+  },
+  {
+   "k": "gcv2hn",
+   "zh": "Coal.png"
+  },
+  {
+   "k": "1ar8iec",
+   "zh": "「后勤」按钮"
+  },
+  {
+   "k": "14w9lzm",
+   "zh": "轻型装甲侦察"
+  },
+  {
+   "k": "11laf9j",
+   "zh": "海军陆战队"
+  },
+  {
+   "k": "nivzd3",
+   "zh": "海军陆战队突击队"
+  },
+  {
+   "k": "1i7hp5l",
+   "zh": "效忠试炼"
+  },
+  {
+   "k": "ymutu2",
+   "zh": "骑兵侦察"
+  },
+  {
+   "k": "124keq7",
+   "zh": "摩托化侦察"
+  },
+  {
+   "k": "1hym71k",
+   "zh": "远程巡逻队"
+  },
+  {
+   "k": "10k9ne2",
+   "zh": "装甲侦察"
+  },
+  {
+   "k": "6633gv",
+   "zh": "科研速度"
+  },
+  {
+   "k": "c7zmoh",
+   "zh": "德国国旗"
+  },
+  {
+   "k": "anjqbm",
+   "zh": "匈牙利国旗"
+  }
+ ]
+}

@@ -1,0 +1,957 @@
+{
+ "batch": 1323,
+ "pages": [
+  "Victoria 3 to Hearts of Iron IV converter",
+  "Trial of Allegiance",
+  "The Road to 56"
+ ],
+ "chars": 12803,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "19ingxr",
+   "en": "The Vic3 to HoI4 converter is a ⟦0⟧ that takes a Victoria 3 save and generates an HoI4 scenario from it. It can be downloaded from this forum thread. It is compatible with outputs from other converters, allowing the player to play a continuous ⟦1⟧ from Imperator to HoI4. This is a continuation of the ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "mlnjd3",
+   "en": "tool"
+  },
+  {
+   "k": "1tgvxul",
+   "en": "megacampaign"
+  },
+  {
+   "k": "1tnpodb",
+   "en": "Vic2 to HoI4 Converter project"
+  },
+  {
+   "k": "1ubkemk",
+   "en": "Versions"
+  },
+  {
+   "k": "1l691th",
+   "en": "Recent versions and changelogs"
+  },
+  {
+   "k": "1skxicu",
+   "en": "0.8 - Halsey"
+  },
+  {
+   "k": "13ol63k",
+   "en": "0.7 - de Gaulle"
+  },
+  {
+   "k": "635xmn",
+   "en": "0.6 - Fioravanzo"
+  },
+  {
+   "k": "1j3hvf2",
+   "en": "0.5 - Eisenhower"
+  },
+  {
+   "k": "1t0pvcy",
+   "en": "0.4 - Doorman"
+  },
+  {
+   "k": "g55wql",
+   "en": "0.3 - Chen"
+  },
+  {
+   "k": "wlw4qm",
+   "en": "0.2 - Blamey"
+  },
+  {
+   "k": "6731kc",
+   "en": "0.1 - Anders"
+  },
+  {
+   "k": "16ynbyq",
+   "en": "Features and conversion mechanics"
+  },
+  {
+   "k": "1lga7t7",
+   "en": "Here is a general list of Converter capabilities and conversion mechanic explanations. For more information feel free to ask for clarifications on forums or take a peek at the code. ⟦0⟧ The converter includes a ⟦1⟧ folder that contains all data files with rules it uses during conversion. These files are there for a reason - so the user can view them and modify them according to specific needs. Do not be shy to hack away and change them so the conversion fits expected goals.",
+   "frags": 2
+  },
+  {
+   "k": "k8kizp",
+   "en": "Note:"
+  },
+  {
+   "k": "2xtg72",
+   "en": "configurables/"
+  },
+  {
+   "k": "lon3a9",
+   "en": "Requirements"
+  },
+  {
+   "k": "1m821w6",
+   "en": "Victoria 3, latest version. DLCs are optional."
+  },
+  {
+   "k": "14ihpdu",
+   "en": "Hearts of Iron 4, latest version. DLCs are optional."
+  },
+  {
+   "k": "7qoekt",
+   "en": "Incoming savegames"
+  },
+  {
+   "k": "bn00iu",
+   "en": "Converter supports compressed save games."
+  },
+  {
+   "k": "t1r8ff",
+   "en": "Ironman saves are supported."
+  },
+  {
+   "k": "1mdgju7",
+   "en": "Outgoing mod"
+  },
+  {
+   "k": "15rqfrg",
+   "en": "Converter will produce a Hearts of Iron 4 mod."
+  },
+  {
+   "k": "hjto8n",
+   "en": "On Windows, and using the front-end, the mod will be copied to Hoi4 mod/ directory."
+  },
+  {
+   "k": "qpqdye",
+   "en": "Without front-end (running the converter manually) or on other OS-es, mod will be exported to converter's output/ folder, and will have to be moved by user."
+  },
+  {
+   "k": "1rpp3em",
+   "en": "Bookmarks"
+  },
+  {
+   "k": "ww4r7a",
+   "en": "Converted mod supports one bookmark: 1936."
+  },
+  {
+   "k": "8zlt9k",
+   "en": "Conversion-date bookmarks can be quite early, chaining converters from CK2 onward, one can play a 769 game in Hoi4 engine, though aside for the novelty that is a horrible idea."
+  },
+  {
+   "k": "a7hji9",
+   "en": "Converting earlier than 1936 will cause penalties in manpower levels, industrial footprint, and converted technologies, and is not recommended."
+  },
+  {
+   "k": "8zhvfx",
+   "en": "Countries"
+  },
+  {
+   "k": "1opokpk",
+   "en": "Countries are currently a blank-slate conversion and only keep their name, color, and land. This will be improved soon."
+  },
+  {
+   "k": "12y0jd5",
+   "en": "Technologies are converted according to configurables/tech_mappings.txt."
+  },
+  {
+   "k": "5afzz",
+   "en": "States"
+  },
+  {
+   "k": "1jwf8sl",
+   "en": "States are converted from Vic3's states, but islands and other disconnected provinces may be split into their own states. Wastelands are split into separate states."
+  },
+  {
+   "k": "10nh00u",
+   "en": "Resources are distributed according to configurables/resources.txt."
+  },
+  {
+   "k": "1vixzaj",
+   "en": "Victory points are assigned to each of the significant provinces defined by Vic3. The point values are determined by the type of significant province. This will be changed soon."
+  },
+  {
+   "k": "xstcuj",
+   "en": "Manpower is simply the Vic3 population."
+  },
+  {
+   "k": "g0eja7",
+   "en": "Industry is converted as one factory per 100,000 employed workers. If there are more than twelve factories in a state, they will be given to the owner's next state so that they don't go beyond HoI4's maximum."
+  },
+  {
+   "k": "odpr5w",
+   "en": "The smallest state category that can handle the number of converted factories is assigned."
+  },
+  {
+   "k": "1ptp732",
+   "en": "Militaries"
+  },
+  {
+   "k": "q095wd",
+   "en": "Militaries are not currently converted."
+  },
+  {
+   "k": "56342q",
+   "en": "Wars"
+  },
+  {
+   "k": "12pp3lp",
+   "en": "Wars are currently not converted."
+  },
+  {
+   "k": "ddorze",
+   "en": "Other mods"
+  },
+  {
+   "k": "148gifn",
+   "en": "The converter is designed to work with Vic3 mods, including games converted from EU4 to Vic3. Other mods may also work."
+  },
+  {
+   "k": "ce4xid",
+   "en": "There may be future support for combining the converter's output with other HoI4 mods. But this will be a low priority, and currently this is completely untested."
+  },
+  {
+   "k": "hfim9n",
+   "en": "FAQ"
+  },
+  {
+   "k": "kjomsn",
+   "en": "Q: I used a mod, will the converter work with it? A: It depends on what the mod changed. Your best bet is to simply try (and let us know how it went). As far as we can tell, it does work well with games converted from EU4."
+  },
+  {
+   "k": "1oz4sx6",
+   "en": "Q: The converter says \"Saving Configuration: Failed!\" How do I fix it? A: Disable your antivirus or allowlist the converter."
+  },
+  {
+   "k": "1am5yzf",
+   "en": "Helping with development"
+  },
+  {
+   "k": "1t62kck",
+   "en": "If you wish to help with development, there are plenty of ways to do so. Descriptions of needs follow."
+  },
+  {
+   "k": "1jrnjc8",
+   "en": "Programmers:"
+  },
+  {
+   "k": "hvt7nt",
+   "en": "We can always use more programmers. The converter itself is in C++, and the tools that go with it are in C# and C++."
+  },
+  {
+   "k": "1nbw9bx",
+   "en": "Map-staring experts"
+  },
+  {
+   "k": "t9ttnl",
+   "en": "Province mappings always need more work. The order that HoI4 provinces are linked make a difference for where things like VPs end up, so if you can update province mappings (and send me the file) for areas you know, that'd be helpful."
+  },
+  {
+   "k": "1riz5en",
+   "en": "Testers:"
+  },
+  {
+   "k": "jfndbh",
+   "en": "Catching bugs and oddities earlier means they get fixed earlier. I try to release test versions of the converter on the forum for testing, so running those and looking things over is helpful. And if you have professional experience in testing, well, I'm sure we could be doing things far better. Tell me how!"
+  },
+  {
+   "k": "1x9h07z",
+   "en": "Modders:"
+  },
+  {
+   "k": "13nakdv",
+   "en": "We can always use help figuring out how things work, and how we can do them better. If you know how to mod HoI4, we can use your help figuring it out. As well, there's always more room for flavor events, decisions, and the like."
+  },
+  {
+   "k": "62oxl2",
+   "en": "Everyone:"
+  },
+  {
+   "k": "1hw6qpz",
+   "en": "We can always handle more discussion on how things are converted over on the forum thread. And your encouragement helps more than you know."
+  },
+  {
+   "k": "1bckzt6",
+   "en": "⟦0⟧ is the 4th ⟦1⟧ for ⟦2⟧. It was announced on 2024-01-25⟦3⟧, and was released on 2024-03-07. The country pack coincides with patch 1.14 (Bolivar).",
+   "frags": 4
+  },
+  {
+   "k": "1i7hp5l",
+   "en": "Trial of Allegiance"
+  },
+  {
+   "k": "125s3y6",
+   "en": "country pack"
+  },
+  {
+   "k": "dmo6mc",
+   "en": "Hearts of Iron IV"
+  },
+  {
+   "k": "1gb78jh",
+   "en": "Country pack features"
+  },
+  {
+   "k": "nm6fqz",
+   "en": "Write new alternate histories of the globe’s most dramatic conflict in ⟦0⟧, a new country pack for ⟦1⟧. Explore and dominate a world where the strife of the Second World War threatens the safety and security of South American nations. Build a regional superpower to counter the rising global powers, or join the war early, taking your chances with one of the major ideological blocs. South America is rich in resources and manpower - can you lead Argentina, Brazil or Chile to a glorious alternate future?",
+   "frags": 2
+  },
+  {
+   "k": "147w8q4",
+   "en": "Features include:"
+  },
+  {
+   "k": "1th4hip",
+   "en": "⟦0⟧: Challenged by a decade of internal strife and constitutional crises, Brazil can follow the historical path as a late but valuable member of the Allied cause. Alternately, seek continental hegemony under a new government with new priorities.",
+   "frags": 1
+  },
+  {
+   "k": "10sbczd",
+   "en": "National Focus Tree for ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "zo0mt3",
+   "en": "Brazil"
+  },
+  {
+   "k": "17fe98g",
+   "en": "⟦0⟧: Rife with corruption, revolts and worker unrest, Argentina presents a difficult political challenge. Once you’ve settled the problems at home, you can contribute more on the world stage and help this nation reach its full potential.",
+   "frags": 1
+  },
+  {
+   "k": "1kqa232",
+   "en": "Argentina"
+  },
+  {
+   "k": "1fsrkxr",
+   "en": "⟦0⟧: Chile is a vigorous republic with a radical tradition that must face domestic fascist parties, the embers of ethnic unrest and the imposing influence of the United States. Chart a course of equality and renewal, rallying under the banner of continental unity.",
+   "frags": 1
+  },
+  {
+   "k": "132rpt6",
+   "en": "Chile"
+  },
+  {
+   "k": "19iavmn",
+   "en": "⟦0⟧: Minor content as well as several new releasable and formable nations.",
+   "frags": 1
+  },
+  {
+   "k": "qofc77",
+   "en": "⟦0⟧ and ⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "15btnwt",
+   "en": "Paraguay"
+  },
+  {
+   "k": "1ny9qg7",
+   "en": "Uruguay"
+  },
+  {
+   "k": "7hn9jw",
+   "en": "⟦0⟧: New 3D unit sprites for the Brazilian army, as well as new unique 2D art for National Focus trees and units",
+   "frags": 1
+  },
+  {
+   "k": "dpijq0",
+   "en": "New Art"
+  },
+  {
+   "k": "1vw8q6t",
+   "en": "⟦0⟧: Six new songs, with two each for the major nations in the pack.",
+   "frags": 1
+  },
+  {
+   "k": "133sari",
+   "en": "New Music"
+  },
+  {
+   "k": "mf7atc",
+   "en": "⟦0⟧: Voiceovers in Brazilian Portuguese, Argentinian Spanish and Chilean Spanish.",
+   "frags": 1
+  },
+  {
+   "k": "3gsa22",
+   "en": "New Voiceovers"
+  },
+  {
+   "k": "rknizx",
+   "en": "Videos"
+  },
+  {
+   "k": "1xx798e",
+   "en": "Cinematic trailers"
+  },
+  {
+   "k": "lfz2yn",
+   "en": "Video diaries"
+  },
+  {
+   "k": "sz859i",
+   "en": "Developer diaries"
+  },
+  {
+   "k": "o4jbad",
+   "en": "Main article: Developer diaries"
+  },
+  {
+   "k": "14nc5t1",
+   "en": "All developer diaries about the ⟦0⟧ country pack and ⟦1⟧ (aka Bolivar).",
+   "frags": 2
+  },
+  {
+   "k": "73nbhx",
+   "en": "patch 1.14"
+  },
+  {
+   "k": "sbd1gg",
+   "en": "Patch 1.14 post release"
+  },
+  {
+   "k": "mtgzbw",
+   "en": "No."
+  },
+  {
+   "k": "skqstg",
+   "en": "Title and Link"
+  },
+  {
+   "k": "sjj37t",
+   "en": "Description"
+  },
+  {
+   "k": "ggjuyh",
+   "en": "Date"
+  },
+  {
+   "k": "1qgymzp",
+   "en": "Release Diary"
+  },
+  {
+   "k": "1dkq03f",
+   "en": "Release of the Content Creator Pack, alongside War Effort Update 1.14.6: Operation Badger"
+  },
+  {
+   "k": "1skaru3",
+   "en": "Content Creator Pack Soviet Union 2D Art"
+  },
+  {
+   "k": "mx691a",
+   "en": "Announcement of first-ever Content Creator Pack for ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1o9yp8t",
+   "en": "Patch 1.14 (Bolivar)"
+  },
+  {
+   "k": "mqg6za",
+   "en": "Reception & Thoughts"
+  },
+  {
+   "k": "537hbc",
+   "en": "Reception of ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "wzh6gn",
+   "en": "Patch 1.14.1 \"Bolivar\""
+  },
+  {
+   "k": "12pz8of",
+   "en": "Changelog of patch 1.14.1"
+  },
+  {
+   "k": "1jx4f6k",
+   "en": "Art & Achievements"
+  },
+  {
+   "k": "sxy0l5",
+   "en": "Art and achievements of ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1g954z1",
+   "en": "Alt-History Brazil"
+  },
+  {
+   "k": "1ur1q64",
+   "en": "Alternate history paths for Brazil"
+  },
+  {
+   "k": "md09td",
+   "en": "Giant Bag of Goodies"
+  },
+  {
+   "k": "1o80v6w",
+   "en": "Paraguay and Uruguay focus trees, national spirits, and decisions, along with other new content for patch 1.14"
+  },
+  {
+   "k": "1hf9ees",
+   "en": "Chile focus tree, national spirits, and decisions"
+  },
+  {
+   "k": "1oeml1k",
+   "en": "Argentina focus tree, national spirits, and decisions"
+  },
+  {
+   "k": "81tsqh",
+   "en": "Historical Brazil"
+  },
+  {
+   "k": "1inwugn",
+   "en": "Historical Brazil focus tree, national spirits, and decisions"
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "qfr65g",
+   "en": "Forum, Historical Brazil, 2024-01-25."
+  },
+  {
+   "k": "1a9voq2",
+   "en": "Flag of Brazil"
+  },
+  {
+   "k": "1xlonpd",
+   "en": "Flag of Argentina"
+  },
+  {
+   "k": "12k9c7l",
+   "en": "Flag of Chile"
+  },
+  {
+   "k": "b7tszs",
+   "en": "Flag of Paraguay"
+  },
+  {
+   "k": "1voe02w",
+   "en": "Flag of Uruguay"
+  },
+  {
+   "k": "g384i",
+   "en": "The Road to 56 is a vanilla-like major overhaul mod for Hearts of Iron IV, overhauling and expanding its content as late as 1956."
+  },
+  {
+   "k": "u1k6p6",
+   "en": "Features"
+  },
+  {
+   "k": "444xjh",
+   "en": "New focus trees or improvements for almost all starting nations, and overhauls of vanilla ones."
+  },
+  {
+   "k": "5o5fnq",
+   "en": "Technologies to do until as late as 1959 with a new dedicated specialization and mechanization tab."
+  },
+  {
+   "k": "tctbcq",
+   "en": "New troop experience system."
+  },
+  {
+   "k": "149w61b",
+   "en": "New governmental laws in the country tab."
+  },
+  {
+   "k": "1spyu11",
+   "en": "Expanded game rules including switching between base game and Road to 56 trees, and player control over peace conferences."
+  },
+  {
+   "k": "j22750",
+   "en": "Many behind the curtains bug-fixes and improvements to things like the AI compared to the base game."
+  },
+  {
+   "k": "ubxgha",
+   "en": "Dedicated Art in the style of Vanilla, ranging from portraits, focuses, and spirits to all sorts of different icons."
+  },
+  {
+   "k": "68q6en",
+   "en": "Further information"
+  },
+  {
+   "k": "1iywv6g",
+   "en": "Steam Workshop"
+  },
+  {
+   "k": "dc9l2b",
+   "en": "Paradox Mods"
+  },
+  {
+   "k": "m3h842",
+   "en": "Github"
+  },
+  {
+   "k": "njl9c0",
+   "en": "Official Discord"
+  },
+  {
+   "k": "1ma4g4t",
+   "en": "Mod Wiki"
+  },
+  {
+   "k": "15cuzoi",
+   "en": "Patreon"
+  },
+  {
+   "k": "4bvg51",
+   "en": "Credits"
+  },
+  {
+   "k": "14fld6k",
+   "en": "Road to 56 has been authored by many people, especially as its Github is public. Current notable people:"
+  },
+  {
+   "k": "1bplr2b",
+   "en": "Team Leads"
+  },
+  {
+   "k": "rnspb1",
+   "en": "Greatexperiment (Original Creator)"
+  },
+  {
+   "k": "151hyp8",
+   "en": "Abbus"
+  },
+  {
+   "k": "7xadow",
+   "en": "Thinking Waffle"
+  },
+  {
+   "k": "k57esl",
+   "en": "Lord Alfie"
+  },
+  {
+   "k": "o3jp6l",
+   "en": "The Brit"
+  },
+  {
+   "k": "1ocy3oe",
+   "en": "Fantom"
+  },
+  {
+   "k": "g02bay",
+   "en": "marijn211"
+  },
+  {
+   "k": "1rjko01",
+   "en": "BiccyThiccy"
+  },
+  {
+   "k": "iw2cc7",
+   "en": "Artists"
+  },
+  {
+   "k": "8bhfu8",
+   "en": "Ghost"
+  },
+  {
+   "k": "wc3qkl",
+   "en": "Arvidus"
+  },
+  {
+   "k": "1q57rzr",
+   "en": "Vinctories"
+  },
+  {
+   "k": "3cbbdm",
+   "en": "Egzs"
+  },
+  {
+   "k": "ydykze",
+   "en": "Developers"
+  },
+  {
+   "k": "odanqx",
+   "en": "Llutozz"
+  },
+  {
+   "k": "76893w",
+   "en": "Featherus"
+  },
+  {
+   "k": "sfulzq",
+   "en": "Abraxsas/Lemuel Sora"
+  },
+  {
+   "k": "6r6gqm",
+   "en": "SpicyAlfredo"
+  },
+  {
+   "k": "1ely89d",
+   "en": "General information"
+  },
+  {
+   "k": "1qy8yhg",
+   "en": "All of our developers and contributors can be found in our Official Discord Server and if you ever wish to support The Road to 56 Project to unleash its best potential, you can always become a Patreon!"
+  },
+  {
+   "k": "9bwqfj",
+   "en": "We are all working alone on separate projects but we always count on our fellow team members to help us out when we are in dire need of help or inspiration. All the features are always checked by a different member and run through multiple balance factors so that we ensure each addition to the mod is as balanced as possible."
+  },
+  {
+   "k": "1u1dkqs",
+   "en": "The mod also includes custom Achievements that are currently being developed. Achievements such as:"
+  },
+  {
+   "k": "gzllcu",
+   "en": "Banana America - As Fascist Honduras puppet the USA"
+  },
+  {
+   "k": "oog9bf",
+   "en": "It's 1527 All Over Again - This one I am really not sure of. How do we represent Rome being sacked in an icon? Habsburgs"
+  },
+  {
+   "k": "auakqy",
+   "en": "That's not what I meant by Anschluss - As Austria, refuse Anschluss and capitulate Germany."
+  },
+  {
+   "k": "w9ajs8",
+   "en": "Hibernia Rules the Waves - As Ireland build a battleship and ensure the UK has no capital ships."
+  },
+  {
+   "k": "1s9e23k",
+   "en": "A Truly International City - As Danzig, control a state on every continent."
+  },
+  {
+   "k": "klr4dr",
+   "en": "Anyone Want Some Freedom? - As the USA, control all oil-producing states in the Middle East."
+  },
+  {
+   "k": "8n5bn9",
+   "en": "You Canute do that! - As Denmark, restore the North Sea Empire."
+  },
+  {
+   "k": "w793xx",
+   "en": "Bringing the Revolution Home - Win the German civil war as the communists, and don't ally with the Soviet Union."
+  },
+  {
+   "k": "ahxz9d",
+   "en": "Finlands Sak är Vår - As Sweden, join Finland in the Winter War and force the Soviet Union to capitulate."
+  },
+  {
+   "k": "116kj4i",
+   "en": "Guess who's back - As Mongolia, restore Genden to power after he is imprisoned."
+  },
+  {
+   "k": "aq1np1",
+   "en": "And many more achievements are on their way!"
+  },
+  {
+   "k": "1q5p5h4",
+   "en": "Off-course all of these being said, the mod is also lucky to have a dedicated Artist group that is working tirelessly and around to clock to provide the highest quality of icons in any form possible. From portraits to focus icons, the mod takes the benefits of the Vanilla style, and improves upon them, from attempting new techniques and sometimes overcoming the vanilla style in certain ways. Previews of the mentioned art styles can be found below showcasing some of the focuses and portraits that were made specifically for the mod."
+  },
+  {
+   "k": "yugfpb",
+   "en": "History"
+  },
+  {
+   "k": "1ujyy49",
+   "en": "Road to 56 was originally a released as a ‘mod pack’ in December of 2016 that contained Greatexperiments personal mods and some of the communities’ most popular country-specific mods at the time. It was operated from December 2016 till the Fall of 2018 as a ‘mod-pack.’ During this time Thinking_Waffle joined the development team, having previously developed a stand-alone country mod that was included in Road to 56. JudgeAlfred joined the mod team during this period as well. The mod would periodically update its content from the outside mods that comprised the mod pack and doing maintenance to make sure the content worked well together. This period of the mod’s life is known as ‘old-school’ or ‘legacy’ Road to 56. This is the period of time where the stigma’s of the mod being horrible unbalance and buggy took root because admittedly it was. Starting in the fall of 2018, the mod saw a large influx of new developers and artists who would help set the new course for the mod. As in the fall of 2018, the development team decided to stop updating the mod with outside content, and the last update that included content that was made outside the internal development team occurred in March 2019. From the fall of 2018 onward, the internal development team made new content in-house for the mod and work tirelessly to bring old content within the mod up to the communities’ high standards. This work has accumulated in Road to 56 becoming the most played Hearts of Iron 4 mod as well as the most subscribed to item on it’s the Hoi4 steam workshop. The hard work and hours spent on the mod was recognized when during PDXCON 2019 Thinking_Waffle stepped on stage to accept the 'Outstanding Modding Achievement' for the Road to 56 team."
+  },
+  {
+   "k": "ykjvh5",
+   "en": "Rt56 first Achievements!"
+  },
+  {
+   "k": "u2yhfl",
+   "en": "Icons of Ghost"
+  },
+  {
+   "k": "k6iflc",
+   "en": "Portraits of Wa"
+  },
+  {
+   "k": "2jmd2e",
+   "en": "Portraits of Vinc"
+  }
+ ]
+}

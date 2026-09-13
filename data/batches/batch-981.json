@@ -1,0 +1,931 @@
+{
+ "batch": 981,
+ "pages": [
+  "Patch 1.9"
+ ],
+ "chars": 14926,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "79hprx",
+   "en": "Patch 1.9, aka \"Husky\", was released on 2020-02-25⟦0⟧ coinciding with the release of ⟦1⟧ DLC. The checksum is ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "z1ygrj",
+   "en": "La Résistance"
+  },
+  {
+   "k": "1k0xojo",
+   "en": "ab9e"
+  },
+  {
+   "k": "1fdqyfa",
+   "en": "La Resistance Expansion"
+  },
+  {
+   "k": "bdxnnb",
+   "en": "New national focus tree for France"
+  },
+  {
+   "k": "1cemhxx",
+   "en": "New national focus tree for Spain"
+  },
+  {
+   "k": "1fskvxi",
+   "en": "New national focus tree for Portugal"
+  },
+  {
+   "k": "1ocfjsy",
+   "en": "Espionage Agency & Code Cracking"
+  },
+  {
+   "k": "1vrmejz",
+   "en": "Operatives that can perform missions and operations"
+  },
+  {
+   "k": "1wos8zg",
+   "en": "Scout planes"
+  },
+  {
+   "k": "13jcpfi",
+   "en": "Armored Cars + special recon company"
+  },
+  {
+   "k": "rgayu6",
+   "en": "Collaboration Governments"
+  },
+  {
+   "k": "18koxdc",
+   "en": "New Intel system and Intel Ledger"
+  },
+  {
+   "k": "7rp9i9",
+   "en": "Free Features and Important"
+  },
+  {
+   "k": "1of5cpg",
+   "en": "Revamped Resistance system with offmap garrisons"
+  },
+  {
+   "k": "1v2zxsg",
+   "en": "Added zooming feature for focus trees"
+  },
+  {
+   "k": "7u4c3g",
+   "en": "Added search functionality and filters for focus trees"
+  },
+  {
+   "k": "srsvki",
+   "en": "new recon support companies"
+  },
+  {
+   "k": "vk25tb",
+   "en": "Neutral ideology can now be externally boosted"
+  },
+  {
+   "k": "ou0plb",
+   "en": "MEFO bills will now auto-renew and player can decide ahead of time if they want to opt out"
+  },
+  {
+   "k": "1uzi1jc",
+   "en": "New mapmodes for resistance & Compliance"
+  },
+  {
+   "k": "1ecn251",
+   "en": "Licensing now requires permission to be seen"
+  },
+  {
+   "k": "15r26vx",
+   "en": "New Spanish Fragmentation game rule, Spain Fragmented: Galicia, the Basque Country, and Catalonia will exist as independent states at game start"
+  },
+  {
+   "k": "13y53ro",
+   "en": "New Spanish Fragmentation game rule, 11th of November: splits Spain into Castille, Aragon, Navarra, Galicia, and the Emirate of Granada at game start."
+  },
+  {
+   "k": "oburfr",
+   "en": "New Oceania Colonization Status game rule, Oceania Decolonised: all releasable nations in Oceania will be independent at game start"
+  },
+  {
+   "k": "1dzjgzf",
+   "en": "New Oceania Colonization Status game rule, Polynesian Empire: all Polynesian nations will be united into a single state at game start with extra factories and dockyards."
+  },
+  {
+   "k": "1fyzft3",
+   "en": "New country tags in Oceania: Tahiti, the Mariana Federation, the Federated States of Micronesia, the Solomon Islands, Samoa, and Hawai’i."
+  },
+  {
+   "k": "1775ea3",
+   "en": "Error dog has a new change of clothes"
+  },
+  {
+   "k": "kxxksr",
+   "en": "Balance"
+  },
+  {
+   "k": "16yw988",
+   "en": "xp gained on air wings in combat now scale with actual amount of planes in combat"
+  },
+  {
+   "k": "1m4tbwq",
+   "en": "air superiority formula now linear instead of square with respect to planes. e.g plane amounts matter less"
+  },
+  {
+   "k": "5hioh7",
+   "en": "Air superiority now scales from 0 to max penalty for enemy from the 50/50 state rather than giving the side with >1% advantage most of the benefit right away"
+  },
+  {
+   "k": "1u4x88z",
+   "en": "Various industry buildup focuses for romania now prioritize better or historical states for their location"
+  },
+  {
+   "k": "1h7ayoc",
+   "en": "improved penetration of all medium ship guns"
+  },
+  {
+   "k": "1kojb2w",
+   "en": "Frequency of tactics picking in combat is now doubled"
+  },
+  {
+   "k": "wuqjsk",
+   "en": "Entering close combat tactic phase is now a lot less likely unless in urban fighting"
+  },
+  {
+   "k": "1vueiz8",
+   "en": "Superior Firepower tech soft attack bonus changed from 20% to 10%"
+  },
+  {
+   "k": "1it8mxz",
+   "en": "Shock and Awe tech soft attack gets an additional 5% soft attack to all fighting battalions"
+  },
+  {
+   "k": "1lglj1w",
+   "en": "Mobile Defense tech defense bonus changed from 20% to 10%"
+  },
+  {
+   "k": "w8mi8o",
+   "en": "lowered requirements for support rocket artillery equipment to be in line with normal artillery equipment/mechanized.txt"
+  },
+  {
+   "k": "1eac7el",
+   "en": "removed hardness modifier from mech and added those benefits into base stats"
+  },
+  {
+   "k": "1wsyiys",
+   "en": "increased armor on amph tank 1 from 10 to 20"
+  },
+  {
+   "k": "1iwidic",
+   "en": "increased armor on amph tank 2 from 60 to 80"
+  },
+  {
+   "k": "14gdksk",
+   "en": "reduced effectiveness of heavy armor amphibious assault from 20% to 10%"
+  },
+  {
+   "k": "j0qocs",
+   "en": "reduced effectiveness of medium armor amphibious assault from 30% to 20%"
+  },
+  {
+   "k": "1ky93zb",
+   "en": "Researches can no longer claim two different research bonuses at the same time if they only have one of ahead of time and research bonuses each"
+  },
+  {
+   "k": "1hhn4g8",
+   "en": "Made the lack of fuel penalty on torpedoes -80% rather than -50%"
+  },
+  {
+   "k": "988l4f",
+   "en": "Australia can now take the Advisory War Council focus if at war"
+  },
+  {
+   "k": "nk8422",
+   "en": "Tech bonuses in the Italian Focus tree now apply to categories rather than specific techs (thanks xMer!)"
+  },
+  {
+   "k": "16cuqyj",
+   "en": "Rebalanced carrier fighter disruption and fixed bugs with its calculation"
+  },
+  {
+   "k": "h5fwl6",
+   "en": "lowered base mil factory output by 10%"
+  },
+  {
+   "k": "1mndosq",
+   "en": "Increased Panzerschiff HP from 100 to 220 to make them more inline with heavy cruisers"
+  },
+  {
+   "k": "1smvcst",
+   "en": "CSA can now core multiple territories at once"
+  },
+  {
+   "k": "jtx29m",
+   "en": "Japan now gains wargoals on Indochina if France rejects Japanese demands"
+  },
+  {
+   "k": "19bdk38",
+   "en": "Czech war college bonus improved"
+  },
+  {
+   "k": "1a6h0xb",
+   "en": "lowered screen ratio for navies from 4 to 3"
+  },
+  {
+   "k": "1x2etk3",
+   "en": "added a suppression value of 3 to all tanks"
+  },
+  {
+   "k": "19wqnvn",
+   "en": "Austria Hungary now gets -40% tension needed for justification"
+  },
+  {
+   "k": "13qn2co",
+   "en": "changed IC cost of infantry equipment 0 to 0.43"
+  },
+  {
+   "k": "1pigk1a",
+   "en": "lowered IC cost of infantry equipment 2 to 0.58"
+  },
+  {
+   "k": "60d415",
+   "en": "lowered IC cost of infantry equipment 3 to 0.69"
+  },
+  {
+   "k": "4pdslz",
+   "en": "increased malus from \"war to end all wars\" UK spirit to 30% to account for extra manpower from colonies"
+  },
+  {
+   "k": "1o0ppoh",
+   "en": "lowered manpower requirement on germanys Anchluss focus slightly"
+  },
+  {
+   "k": "1u4dpaa",
+   "en": "reduced air wing experience gain from 2nd and 3rd level reformer air chief"
+  },
+  {
+   "k": "euf8kv",
+   "en": "reduced ship experience gains from naval combat by ~20%"
+  },
+  {
+   "k": "x56bl3",
+   "en": "increased bombing reduction from 12% to 15% for dispersed industry 1"
+  },
+  {
+   "k": "r6simw",
+   "en": "decreased bombing reduction from 12% to 10% for dispersed industry 2, 3, 4, and 5"
+  },
+  {
+   "k": "6qi5sz",
+   "en": "reduced loss in stability from no further appeasement branch of UK focuses from losses of 15 stability to losses of 10 stability"
+  },
+  {
+   "k": "9s1t6l",
+   "en": "reduced experience gains for airwings to 5% from 10% in air doctrines"
+  },
+  {
+   "k": "mp1saw",
+   "en": "Bugfix"
+  },
+  {
+   "k": "hh611u",
+   "en": "Fixed a civil war revolters not getting correct focus tree"
+  },
+  {
+   "k": "1g4aftb",
+   "en": "Units moving to a valid retreat location will now prefer going there rather than a random other province if attacked"
+  },
+  {
+   "k": "omy6v8",
+   "en": "xp for ground attacks was also applied to air superiority missions. Now its reserved to ground missions where there are targets. Base xp gain from combat adjusted up accordingly"
+  },
+  {
+   "k": "rf9o4t",
+   "en": "The fuel cost when having multiple air missions active is now the highest, not the average which let you run air superiority at a discount"
+  },
+  {
+   "k": "t45cwq",
+   "en": "Fixed issues with limit syntax in romania focus tree for forced abdication which would ignore most ideologies"
+  },
+  {
+   "k": "h0hpvq",
+   "en": "removed cost factor for taking states on democracies (which did nothing)"
+  },
+  {
+   "k": "1i95158",
+   "en": "trade opinion modifier from smooth talking charmer etc now works"
+  },
+  {
+   "k": "oxmsm3",
+   "en": "Fixed a problem with editing child front sizes in army group order"
+  },
+  {
+   "k": "13bt35q",
+   "en": "Fixed a case where armies are teleporting in between provinces when there is nowhere else to escape"
+  },
+  {
+   "k": "5p7kmd",
+   "en": "effect _is_border_war_ now also checks for field marshal and not just the involvement of a general"
+  },
+  {
+   "k": "1jupp5p",
+   "en": "Securitate focus for romania now properly gives spirit to the nation"
+  },
+  {
+   "k": "114wmvm",
+   "en": "Fixed a ctd related to expeditionary forces"
+  },
+  {
+   "k": "1an67j7",
+   "en": "Fixed an issue while deploying units to overlord as subject and trying to assign them to an order in deployment queue"
+  },
+  {
+   "k": "1twc0li",
+   "en": "Bypassing focuses is now disabled if a mutually exclusive one is in progress"
+  },
+  {
+   "k": "1pw92i1",
+   "en": "Fixed tooltips for default has_idea trigger"
+  },
+  {
+   "k": "9stsid",
+   "en": "Improve relations action now uses your \"compromise gentleman\" modifiers as well as target's when you try to improve relations"
+  },
+  {
+   "k": "wmnp0i",
+   "en": "Countries with no owned cores is now uses owned states for surrender level check now (previously you had to occupy all provinces)"
+  },
+  {
+   "k": "s199fr",
+   "en": "Update the tooltip of taken ideas, to not display \"remove idea\" when irrelevant."
+  },
+  {
+   "k": "nkfhic",
+   "en": "Fixed country list in diplomacy window showing wrong opinion values in some cases"
+  },
+  {
+   "k": "kqop98",
+   "en": "Fixed some mp exploits"
+  },
+  {
+   "k": "n7szl7",
+   "en": "Fixed white peace effect not immediately finalizing the peace conf (which was causing glitches to ITA on \"colonized africa\" start)"
+  },
+  {
+   "k": "9jzbh9",
+   "en": "Fixed a case where units stucks at sea due to invalid invasions"
+  },
+  {
+   "k": "qdle8h",
+   "en": "Portrait for MEX leader Luis maria Martinez has been fixed"
+  },
+  {
+   "k": "v9y4dc",
+   "en": "Fixed event effects with random delays that were probably intended to be delayed by days, not by hours, by using the new random_days field."
+  },
+  {
+   "k": "qqwm69",
+   "en": "Fixed the effects of simultaneous event choices for one country, produced by the same event type but from other source countries, which were previously randomly failing to all execute, depending on the order in which the player responded to the events."
+  },
+  {
+   "k": "1ocof6p",
+   "en": "Refactoring pending event system to use an ID, so that removal is guaranteed to remove the correct pending event entry."
+  },
+  {
+   "k": "s447v0",
+   "en": "Fixed some cosmetic tag inconsistencies that was resulting in wrong names"
+  },
+  {
+   "k": "ho70lv",
+   "en": "limited intervention focus now unlocks actually sending volunteers for the US"
+  },
+  {
+   "k": "120wbwa",
+   "en": "Fixed game crashing in weird ways if a mod tries reusing an id"
+  },
+  {
+   "k": "1bct9v8",
+   "en": "Fix a bug about research bonus not being correctly saved, if the research just started."
+  },
+  {
+   "k": "1a1on4y",
+   "en": "Fixed an issue where the US AI set to use the alternate democratic focus while historical focuses were set to on would break the AI completely"
+  },
+  {
+   "k": "f0htpj",
+   "en": "Fixed scripted localized idea modifiers not showing correctly in tooltips"
+  },
+  {
+   "k": "2mac8e",
+   "en": "Czech Security Council focus now correctly applies spirit to all faction members"
+  },
+  {
+   "k": "id3bgn",
+   "en": "Fixed \"ignite civil war decision\" for single state countries. it flips the ruling party now"
+  },
+  {
+   "k": "170vdxa",
+   "en": "Unit controller no longer cancels combats against heavy forts if the order is initiated by player"
+  },
+  {
+   "k": "ts8sp5",
+   "en": "Fixed research bonus not showing in some circumstances on starting tech"
+  },
+  {
+   "k": "e2ign5",
+   "en": "Fixed removing province level constructions on puppets not properly showing up in map"
+  },
+  {
+   "k": "1bk3y1r",
+   "en": "Fixed an issue where some artillery pieces were not categorized properly in script"
+  },
+  {
+   "k": "e9clrn",
+   "en": "Fix a bug with the province modifiers not been correcty added to the tooltip."
+  },
+  {
+   "k": "19abmya",
+   "en": "Fixed incosistent task force behavior regarding automatic reinforcement after a save load for task forces with detached task forces"
+  },
+  {
+   "k": "q6v09d",
+   "en": "tech sharing focuses for Chinese warlords and Japan-Germany in the Japanese tree now properly work if player only has Waking the Tiger and no other DLC"
+  },
+  {
+   "k": "1plbrhn",
+   "en": "Italy should now start with the correct level of floatplane launcher in 1936 if MtG is enabled"
+  },
+  {
+   "k": "1vphane",
+   "en": "Fix missing tooltip 'Cancel production of all deployment lines' button on Recruit & Deploy"
+  },
+  {
+   "k": "1e7zptp",
+   "en": "Fix inconsistent amounts of oil between trade and tooltip icons"
+  },
+  {
+   "k": "19a29o0",
+   "en": "Fixed camera rotating sidewards when research window is opened during left key is pressed (how did they found that bug)"
+  },
+  {
+   "k": "17ctt8g",
+   "en": "Fixed holding esc breaking the gui"
+  },
+  {
+   "k": "qfxnm3",
+   "en": "Fixed SOV not getting correct research bonuses from GER in 39 start"
+  },
+  {
+   "k": "1yhhwji",
+   "en": "Fixed country colors not being reset after exiting and starting a new game"
+  },
+  {
+   "k": "1xvrhfn",
+   "en": "Fix not keeping the correct selection when justifying multiple war goals on different states"
+  },
+  {
+   "k": "1tug1pt",
+   "en": "transient and carrier air missions no longer suffer from reassignment penalty as player can not control that."
+  },
+  {
+   "k": "kfd8b5",
+   "en": "carrier fighters should now get a correct amount of XP gain when in carrier battles"
+  },
+  {
+   "k": "15j25j9",
+   "en": "planes should not do kamikaze inside carrier battles unless specifically told to"
+  },
+  {
+   "k": "ttlhwm",
+   "en": "The Dutch focus \"protect the colonies\" will now only bypass if the Netherlands has none of their original colonies"
+  },
+  {
+   "k": "qexzk",
+   "en": "Fixed aces killed on actions not being fired"
+  },
+  {
+   "k": "4xr0gn",
+   "en": "Fixed localization getting broken after removal of duplicate entries"
+  },
+  {
+   "k": "1inqqm1",
+   "en": "Fixed being able to ignore exilatation status in some cases"
+  },
+  {
+   "k": "pmiuv1",
+   "en": "dynamic tags will now not get random names on their national spirits or if they have cosmetic tags on anything."
+  },
+  {
+   "k": "ex32u1",
+   "en": "Japan will no longer suffer from the Marco Polo Bridge Incident while at peace with China"
+  },
+  {
+   "k": "15o8tdh",
+   "en": "The Netherlands will no longer bypass protecting their colonies unless they don't have any."
+  },
+  {
+   "k": "1qyp37j",
+   "en": "China will no longer be able to gain independence due to the PRC inviting them into a faction."
+  },
+  {
+   "k": "1dgikj0",
+   "en": "Mexico will now have access to the generic changing of ideology decisions for those who do not own Man the Guns"
+  },
+  {
+   "k": "n7kmao",
+   "en": "It should no longer be possible for nations that aren't Mexico to have access to Mexican-exclusive decisions."
+  },
+  {
+   "k": "1w9dlta",
+   "en": "Fix effect swap_ideas generating a tooltip for targeted modifier when the difference is empty"
+  },
+  {
+   "k": "1lyx22i",
+   "en": "Forced the display of the min_export modifier when it is zero and changed its number of decimals to 0"
+  },
+  {
+   "k": "w9lw6m",
+   "en": "Fixed parsing of command line that could fail to trim spaces from recently added command line options."
+  },
+  {
+   "k": "14ahjp4",
+   "en": "start_save command line option fixed to allow embedded hyphens, or to be surrounded by double quotes and potentially contain spaces."
+  },
+  {
+   "k": "1pmfa36",
+   "en": "Civil war's will not spread to a degree on core states where they would remove the other side completely"
+  },
+  {
+   "k": "4166q4",
+   "en": "Fixed volunteer armies to more consistently use their recipient country when checking the validity of potential orders, instead of using the sending country."
+  },
+  {
+   "k": "1876kaf",
+   "en": "Fixed offensive order planning in the case of having multiple independent enemies with adjacent controller areas."
+  },
+  {
+   "k": "b8cj46",
+   "en": "Countries should now only be able to dismantle the Maginot once"
+  },
+  {
+   "k": "1phcupf",
+   "en": "Cleaned up some localisation for the US remaining neutral in diplomatic reponses"
+  },
+  {
+   "k": "dynm88",
+   "en": "Anti-Communist Sweep will now tell you what it does in the tooltip."
+  },
+  {
+   "k": "1p6owwj",
+   "en": "MEFO bills will now be removed if Germany is at war even if they were called in as an ally"
+  },
+  {
+   "k": "3ljlc7",
+   "en": "Colonisers should no longer have units trapped forever on islands if the player chooses to decolonise in the game options."
+  },
+  {
+   "k": "z239qo",
+   "en": "The news events \"Liberation of Poland/Warsaw/London\" will no longer occur if Germany makes peace with or puppets the target countries."
+  },
+  {
+   "k": "v8yvz3",
+   "en": "Canada should now be able to invite the USA to the North American Alliance"
+  },
+  {
+   "k": "1dbkxf9",
+   "en": "Germany will no longer get the option to honour the Molotov-Ribbentrop pact if they don't own any of Poland."
+  },
+  {
+   "k": "kybw4j",
+   "en": "Britain can now only appeal to Imperial loyalists if the country exists."
+  },
+  {
+   "k": "y9gzfk",
+   "en": "UK can now bypass securing the colonies if they have no colonies"
+  },
+  {
+   "k": "1khn7ak",
+   "en": "Playing as Yugoslavia with the Yugoslavia Fragmented game rule will no longer result in a game over"
+  },
+  {
+   "k": "1dig2m7",
+   "en": "Releasable countries should no longer have advisors named \"Democratic Reformer\" \"Communist Revolutionary\" or \"Facist Demagogue\" and should now have advisors with dynamically generated names"
+  },
+  {
+   "k": "30qr8x",
+   "en": "Fixed issue where alert numbers for decisions would not update on new game"
+  },
+  {
+   "k": "1lj2np",
+   "en": "Fixed some character space advancement issues in Russian and regular fonts"
+  },
+  {
+   "k": "ner0dl",
+   "en": "Gannan has been moved into the same supply region as the rest of XSM"
+  },
+  {
+   "k": "ucxs9h",
+   "en": "US Housing focus now states it will apply to \"five random states\""
+  },
+  {
+   "k": "1rpuqaz",
+   "en": "British air defence focus now refers to South-East England instead of Cornwall"
+  },
+  {
+   "k": "1dh3p32",
+   "en": "Manchuko will now be able to declare war for independence whoever their overlord happens to be"
+  },
+  {
+   "k": "1m172nz",
+   "en": "Tooltip made less confusing for expanding the Burma road"
+  },
+  {
+   "k": "1w0mxj2",
+   "en": "Rundstedt is no longer an offensive expert and is now an Urban Assault Specialist"
+  },
+  {
+   "k": "bqq3cr",
+   "en": "Chinese Warlords will no longer fight their evil clone when fighting a civil war"
+  },
+  {
+   "k": "1j5bgv7",
+   "en": "Tooltip for suppressing subjects has been made less confusing"
+  },
+  {
+   "k": "1conasn",
+   "en": "Fixed being able to assign airwing to a region well beyond their range by canceling the transfer to another airbase"
+  },
+  {
+   "k": "schdpe",
+   "en": "India and Pakistan will no longer go to war 100% of the time"
+  },
+  {
+   "k": "1df8rcv",
+   "en": "Fixed revoking the guarantee of a country involved in a defensive war allowing to bypass the malus applied when declining the call to arms"
+  },
+  {
+   "k": "1dq3trb",
+   "en": "Fixed South American supply areas."
+  },
+  {
+   "k": "1qfxw17",
+   "en": "Switzerland's capital is now considered Urban terrain."
+  },
+  {
+   "k": "1k1yqjs",
+   "en": "Fixed change government also selecting supervised state"
+  },
+  {
+   "k": "1kbjy6x",
+   "en": "Fascists and Communists can now join and create factions at exactly 0 world tension"
+  },
+  {
+   "k": "pfab1l",
+   "en": "Japan now gets a truce with all Chinese countries upon losing the war in China"
+  },
+  {
+   "k": "eukcv3",
+   "en": "Yugoslavia will no longer join a faction if they are already in a faction"
+  },
+  {
+   "k": "1fw20kf",
+   "en": "Fixed instances of adding relations to self which was resulting in ctds"
+  },
+  {
+   "k": "dnn3lu",
+   "en": "Recalculate country major status due to taking over faction leadership after peace conference starts, so that inappropriate white peace and other peace conference weirdness does not happen when the last major in a faction with minors capitulates."
+  },
+  {
+   "k": "4m98fb",
+   "en": "Hide \"amphibious\" tank title in the research window if you don't have MTG."
+  },
+  {
+   "k": "x87zln",
+   "en": "Fixed volunteers not being visible as the receiver if they are on provinces not controlled by the receiver"
+  },
+  {
+   "k": "y0rlcq",
+   "en": "British dominions should now get proper country names, flags, and colours upon starting a civilwar"
+  },
+  {
+   "k": "qqnfvc",
+   "en": "Manchukuo bandit evens will check against correct provincial buildings"
+  },
+  {
+   "k": "wqolnm",
+   "en": "The Raj should only have its British flag if it is a puppet of Britain."
+  },
+  {
+   "k": "6d6c15",
+   "en": "Fixed a spelling issue in Ivan Konev's description"
+  },
+  {
+   "k": "1271jr9",
+   "en": "Fixed naval mines indicator not being centered on the strategic region when there are no naval mission in that region"
+  },
+  {
+   "k": "4hotcg",
+   "en": "Fixed saving to steam cloud freezing the game"
+  },
+  {
+   "k": "1d5xiuy",
+   "en": "Fixed an issue with invalid leaders traits being allowed for picking randomly"
+  },
+  {
+   "k": "1f6lw9c",
+   "en": "Fixed an issue in the Romanian focus tree where the 'All Parties Must End' focus incorrectly added a democratic drift instead of non-aligned drift."
+  },
+  {
+   "k": "1nlgbor",
+   "en": "If pasting in whole of Tolstoy's \"War and Peace\" into MP chat the game will no longer crash"
+  }
+ ]
+}

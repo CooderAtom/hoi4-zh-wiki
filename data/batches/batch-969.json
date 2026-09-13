@@ -1,0 +1,879 @@
+{
+ "batch": 969,
+ "pages": [
+  "Country creation"
+ ],
+ "chars": 14810,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "5ohgv1",
+   "en": "These localisation keys may unintentionally make the country name be something unexpected. For example, the base game ⟦0⟧ national spirit ⟦1⟧ gets used as the country's name when it gets a leader with the ⟦2⟧ ideology type, making it have the name of \"Liberalism\". To find such instances, ⟦3⟧. By searching for the country's unintended name surrounded by quotes (in this case, ⟦4⟧) in all of the loaded localisation files (usually the mod and the base game), the file with the root cause can be found to know the localisation key. From this key, every instance of the database entry with the overlapping name can be found and edited with another folder search, with the localisation key either deleted by copying over the entire file if necessary or ⟦5⟧.",
+   "frags": 6
+  },
+  {
+   "k": "1fez4gr",
+   "en": "Turkish"
+  },
+  {
+   "k": "mbkoml",
+   "en": "TUR_liberalism"
+  },
+  {
+   "k": "1qfe4f9",
+   "en": "liberalism"
+  },
+  {
+   "k": "2fbuu6",
+   "en": "most text editors have capacity to search entire folders"
+  },
+  {
+   "k": "18qhr45",
+   "en": "\"Liberalism\""
+  },
+  {
+   "k": "ixipcl",
+   "en": "replaced without copying the file"
+  },
+  {
+   "k": "yj1uoj",
+   "en": "Other localisation"
+  },
+  {
+   "k": "1hcrhlf",
+   "en": "Other than the country name, there are certain other aspects of localisation that are commonly used to provide country-specific flair. Same as the name, this can go into any ⟦0⟧ file with the UTF-8-BOM encoding:",
+   "frags": 1
+  },
+  {
+   "k": "1hl77c0",
+   "en": "/Hearts of Iron IV/localisation/english/*_l_english.yml"
+  },
+  {
+   "k": "d0ndti",
+   "en": "Party names. More strictly, parties are country-specific names for ideology group that show up near the pie chart in the politics and diplomacy menus, whose names can also be accessed elsewhere with ⟦0⟧. A party uses up to 2 localisation keys: the regular name that appears in the piechart and the optional long name, which appears when hovering over the party name. If the long name is undefined, it will re-use the regular name.",
+   "frags": 1
+  },
+  {
+   "k": "1bj4b23",
+   "en": "localisation namespaces"
+  },
+  {
+   "k": "1lwj4rc",
+   "en": "A localisation key for the regular name follows the ⟦0⟧ format, while the long name uses the ⟦1⟧ format.",
+   "frags": 2
+  },
+  {
+   "k": "1ud2fuw",
+   "en": "Equipment: In order to rename an equipment type for a country, the localisation key used for it needs to be prefixed with the country's tag (separated with an underscore), such as ⟦0⟧. Equipment may also have an optional short name, by appending ⟦1⟧ to the key. Equipment is defined in ⟦2⟧ files, where the IDs can be obtained. The same also works for equipment modules.",
+   "frags": 3
+  },
+  {
+   "k": "gcqkti",
+   "en": "TAG_infantry_equipment_1"
+  },
+  {
+   "k": "fncwyw",
+   "en": "_short"
+  },
+  {
+   "k": "1eqkj7z",
+   "en": "/Hearts of Iron IV/common/units/equipment/*.txt"
+  },
+  {
+   "k": "w96y7s",
+   "en": "Some other localisation keys that support similar country prefixing, such as division experience titles or idea/advisor names. Example localisation file with party/equipment renaming:"
+  },
+  {
+   "k": "154thau",
+   "en": "SCO_communism_party"
+  },
+  {
+   "k": "1p37u0x",
+   "en": "\"SCP\""
+  },
+  {
+   "k": "yw3zit",
+   "en": "SCO_communism_party_long"
+  },
+  {
+   "k": "ypzrx0",
+   "en": "\"Scottish"
+  },
+  {
+   "k": "1ltkhsy",
+   "en": "Communist"
+  },
+  {
+   "k": "1ray6mn",
+   "en": "Party\""
+  },
+  {
+   "k": "13yfrsf",
+   "en": "SCO_neutrality_party"
+  },
+  {
+   "k": "14mc1wl",
+   "en": "\"True"
+  },
+  {
+   "k": "1yrpvgb",
+   "en": "Scotsman\""
+  },
+  {
+   "k": "1hsgswd",
+   "en": "# The long name will re-use this"
+  },
+  {
+   "k": "1wcqd7q",
+   "en": "SCO_artillery_equipment"
+  },
+  {
+   "k": "e745q3",
+   "en": "\"Armata"
+  },
+  {
+   "k": "vgyceb",
+   "en": "75mm"
+  },
+  {
+   "k": "1jzjcji",
+   "en": "wz."
+  },
+  {
+   "k": "1wuarjm",
+   "en": "St.\""
+  },
+  {
+   "k": "1ryhghn",
+   "en": "SCO_artillery_equipment_short"
+  },
+  {
+   "k": "2lfwkj",
+   "en": "\"75mm"
+  },
+  {
+   "k": "1hm9he3",
+   "en": "Starting characters"
+  },
+  {
+   "k": "1dgewyj",
+   "en": "Main article: Character modding"
+  },
+  {
+   "k": "1kqv7pb",
+   "en": "Characters are defined in any file in the ⟦0⟧ folder. An example of a file within that folder, with just a country leader, is the following:",
+   "frags": 1
+  },
+  {
+   "k": "19la35h",
+   "en": "/Hearts of Iron IV/common/characters/"
+  },
+  {
+   "k": "goilbr",
+   "en": "The ⟦0⟧ defined for the country leader must be an ⟦1⟧, rather than an ideology group such as ⟦2⟧. A list of ideology types across groups, alongside more information, can be found on the ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "1e4ff75",
+   "en": "ideology"
+  },
+  {
+   "k": "138hzej",
+   "en": "ideology type"
+  },
+  {
+   "k": "2ba8di",
+   "en": "democratic"
+  },
+  {
+   "k": "p6jsl7",
+   "en": "dedicated character modding article"
+  },
+  {
+   "k": "1dba5al",
+   "en": "The picture used is a spriteType, defined in any ⟦0⟧ file. It is recommended to use a new file for this purpose instead of overwriting the base game files. An example of how a new file can look like is the following:",
+   "frags": 1
+  },
+  {
+   "k": "dw6d81",
+   "en": "/Hearts of Iron IV/interface/*.gfx"
+  },
+  {
+   "k": "1qzv2qk",
+   "en": "The name picked for the character depending on the language set when launching the game is defined within ⟦0⟧. In particular, for English, this would be in any ⟦1⟧ file as this: ⟦2⟧. The description when hovering over the character can be added by appending ⟦3⟧ to the character's name, as ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "1nh7umn",
+   "en": "/Hearts of Iron IV/localisation/"
+  },
+  {
+   "k": "1p7a2y4",
+   "en": "SCO_ronald_mcdonald:0 \"Ronald McDonald\""
+  },
+  {
+   "k": "1sa4fyn",
+   "en": "_desc"
+  },
+  {
+   "k": "kzrh97",
+   "en": "SCO_ronald_mcdonald_desc:0 \"Insert description here\""
+  },
+  {
+   "k": "owe2in",
+   "en": "In order to appear, a character ⟦0⟧ be recruited in the history file of the country. This is done with the ⟦1⟧ effect, as the following:",
+   "frags": 2
+  },
+  {
+   "k": "1io4bhk",
+   "en": "must"
+  },
+  {
+   "k": "1tto3d9",
+   "en": "recruit_character"
+  },
+  {
+   "k": "5na8k",
+   "en": "If multiple country leaders fall under the same political party, the game will place the first-recruited one as its leader. Since ⟦0⟧ forces a leader of the specified ideology group to come to power, any characters recruited after a ⟦1⟧ block will not immediately become country leader since the country already has one: ⟦2⟧. Corps commanders, field marshals, admirals, and advisors are also regarded as characters in the in-game code, and are added similarly: ⟦3⟧ and then recruited in ⟦4⟧",
+   "frags": 5
+  },
+  {
+   "k": "11mebe8",
+   "en": "set_politics = { ... }"
+  },
+  {
+   "k": "17q0wen",
+   "en": "set_politics"
+  },
+  {
+   "k": "ufwuf3",
+   "en": "recruitment of the intended country leader must be before setting politics"
+  },
+  {
+   "k": "lk9h5k",
+   "en": "defined in the characters file"
+  },
+  {
+   "k": "tzio0w",
+   "en": "/Hearts of Iron IV/history/countries/TAG*.txt"
+  },
+  {
+   "k": "t0ak6p",
+   "en": "Parts of this section are transcluded from ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1f3w1kz",
+   "en": "If the country will exist at the start, an order of battle is necessary for the country to have an army. Orders of battle are used for establishing the starting military of the country, and they are generally separated into land, naval, and air branches, since enabling the ⟦0⟧ and ⟦1⟧ DLCs requires separate definitions for the navy and the air force respectively that are not compatible with the DLC being disabled.",
+   "frags": 2
+  },
+  {
+   "k": "odiecx",
+   "en": "⟦0⟧ The filename is irrelevant, as long as it matches up with the one given in the country history file.",
+   "frags": 1
+  },
+  {
+   "k": "w6cny7",
+   "en": "⟦0⟧ in order for the units to show up.",
+   "frags": 1
+  },
+  {
+   "k": "ii8y2y",
+   "en": "Each order of battle must be loaded, usually in country history,"
+  },
+  {
+   "k": "1ac1v21",
+   "en": "The internal names for sub-units can be found in ⟦0⟧ files, ⟦1⟧. For the sake of briefness, naval and air branches will be covered in the main article of ⟦2⟧ instead.",
+   "frags": 3
+  },
+  {
+   "k": "1ohg4hg",
+   "en": "/Hearts of Iron IV/common/units/*.txt"
+  },
+  {
+   "k": "18m3cv9",
+   "en": "localisation can be checked as well"
+  },
+  {
+   "k": "i7p3je",
+   "en": "Division modding"
+  },
+  {
+   "k": "kct2c4",
+   "en": "Division template"
+  },
+  {
+   "k": "14k1hzl",
+   "en": "Land units require a template of some sort, which assigns the necessary information. The template definition is equivalent to the ⟦0⟧ effect internally. A simple template can be defined as such:",
+   "frags": 1
+  },
+  {
+   "k": "9csbzd",
+   "en": "division_template"
+  },
+  {
+   "k": "9g6k7f",
+   "en": "⟦0⟧ is the name of the division template as it shows up in the template selection. This will also get used for creating or modifying units.",
+   "frags": 1
+  },
+  {
+   "k": "1h8emcn",
+   "en": "name = \"\""
+  },
+  {
+   "k": "1rbpsqb",
+   "en": "⟦0⟧ and ⟦1⟧ decide the sub-units of the template, meaning ⟦2⟧ and ⟦3⟧ respectively. In particular: subunit = { x = 0 y = 0 } decides the placement of the specified sub-unit. The coordinates represent the Cartesian coordinate system, where (0,0) is the top-left corner, x goes left-to-right, and y goes up-to-down. For a unit to be placed as a support company, it must have group = support in its definition, and to be placed in combat battalions, it must have a different group. The group cannot change in a single y column.",
+   "frags": 4
+  },
+  {
+   "k": "1c8hrdm",
+   "en": "regiments = { ... }"
+  },
+  {
+   "k": "176234z",
+   "en": "support = { ... }"
+  },
+  {
+   "k": "1x7a684",
+   "en": "combat battalions"
+  },
+  {
+   "k": "vq27af",
+   "en": "support companies"
+  },
+  {
+   "k": "timn2",
+   "en": "⟦0⟧ decides the placement of the specified sub-unit. The coordinates represent the Cartesian coordinate system, where (0,0) is the top-left corner, x goes left-to-right, and y goes up-to-down. For a unit to be placed as a support company, it must have ⟦1⟧ in its definition, and to be placed in combat battalions, it must have a different group. The group cannot change in a single y column.",
+   "frags": 2
+  },
+  {
+   "k": "12yemyt",
+   "en": "subunit = { x = 0 y = 0 }"
+  },
+  {
+   "k": "8bicqc",
+   "en": "group = support"
+  },
+  {
+   "k": "1bnopxt",
+   "en": "By default, the combat battalions have 5 columns and 5 rows, while the support companies have 1 column and 5 rows.[3] The max index is one less than the total amount."
+  },
+  {
+   "k": "kastxf",
+   "en": "There are other arguments that can be used in a division template, as outlined in ⟦0⟧. The most common one to include is ⟦1⟧: this forcefully changes the name group used for new divisions, defined in ⟦2⟧ files. This is used to automatically generate names and numeration for new divisions, such as a division newly created by the player being named \"1st 'Big Red One' Division\". If not set, the template automatically picks the name group based on the sub-units.",
+   "frags": 3
+  },
+  {
+   "k": "g5oyi5",
+   "en": "division_names_group = USA_INF_01"
+  },
+  {
+   "k": "1kfm3dw",
+   "en": "/Hearts of Iron IV/common/units/names_divisions/*.txt"
+  },
+  {
+   "k": "1rf4bd1",
+   "en": "Division placement"
+  },
+  {
+   "k": "w5bzd5",
+   "en": "The ⟦0⟧ block is used for positioning land and naval divisions. In particular, a land division placement is done via ⟦1⟧:",
+   "frags": 2
+  },
+  {
+   "k": "qjtr8f",
+   "en": "units = { ... }"
+  },
+  {
+   "k": "wyv9td",
+   "en": "division = { ... }"
+  },
+  {
+   "k": "1bdto1k",
+   "en": "For the division naming, there are two mutually-exclusive ways to do so:"
+  },
+  {
+   "k": "1g7vnsk",
+   "en": "⟦0⟧ directly changes the name of the division to the given string.",
+   "frags": 1
+  },
+  {
+   "k": "i1d8rw",
+   "en": "name = \"Unit's name\""
+  },
+  {
+   "k": "1h74mkc",
+   "en": "⟦0⟧ instead uses the name group assigned to the division template: is_name_ordered = yes is mandatory to include. name_order = 35 sets the number that gets used for the numeration. If the name group's ordered = { ... } includes this number, that entry gets used. Otherwise, the fallback_name is used.",
+   "frags": 1
+  },
+  {
+   "k": "y1r8xn",
+   "en": "division_name = { ... }"
+  },
+  {
+   "k": "gv6xp2",
+   "en": "⟦0⟧ is mandatory to include.",
+   "frags": 1
+  },
+  {
+   "k": "1vw3c3f",
+   "en": "is_name_ordered = yes"
+  },
+  {
+   "k": "1cqttu",
+   "en": "⟦0⟧ sets the number that gets used for the numeration. If the name group's ⟦1⟧ includes this number, that entry gets used. Otherwise, the ⟦2⟧ is used.",
+   "frags": 3
+  },
+  {
+   "k": "qaathm",
+   "en": "name_order = 35"
+  },
+  {
+   "k": "1nb8u2p",
+   "en": "ordered = { ... }"
+  },
+  {
+   "k": "81v95z",
+   "en": "fallback_name"
+  },
+  {
+   "k": "640jwz",
+   "en": "There are these mandatory arguments in addition to the name:"
+  },
+  {
+   "k": "iner85",
+   "en": "⟦0⟧ is the province where the unit should be positioned.",
+   "frags": 1
+  },
+  {
+   "k": "1ipqv13",
+   "en": "location = 1234"
+  },
+  {
+   "k": "1da3ibx",
+   "en": "⟦0⟧ is the name of the template that the unit should use. Generally best to limit to the one that's defined in the same file.",
+   "frags": 1
+  },
+  {
+   "k": "1y0r1d4",
+   "en": "There are also optional arguments:"
+  },
+  {
+   "k": "1n2k0p0",
+   "en": "⟦0⟧ sets the experience level of the division (from Greens to Veterans) in the range from 0 to 1. If unset, defaults to 0. The experience level boundaries in the base game are ⟦1⟧.⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "1j52bad",
+   "en": "start_experience_factor = 0.2"
+  },
+  {
+   "k": "1um3bwt",
+   "en": "⟦0⟧ decides the starting equipment level of the division, not deciding on the manpower. The equipment is not subtracted from the reserves of the country. If unset, defaults to 1.",
+   "frags": 1
+  },
+  {
+   "k": "11rstlo",
+   "en": "start_equipment_factor = 0.5"
+  },
+  {
+   "k": "150jefy",
+   "en": "⟦0⟧ decides the starting manpower level of the division. If unset, then it's automatically subtracted from the reserves of the country until the highest possible level.",
+   "frags": 1
+  },
+  {
+   "k": "fshhcd",
+   "en": "start_manpower_factor = 0.3"
+  },
+  {
+   "k": "5xxie",
+   "en": "⟦0⟧ is a set of equipment types that the division should use, replacing the default. Each entry in there is ⟦1⟧, which may include: owner = TAG is the owner of the equipment that should be used. This should be the same as the country which gets the order of battle. creator = TAG is the original creator of the equipment that should be used. This is used to determine the variants, and it defaults to the owner if not specified. amount = 14 is how much of the equipment should be there. The rest of required equipment within the archetype will remain ungiven. version_name = \"Variant's name\" is the name of the equipment variant that should be used. If the equipment type requires a variant to use, such as tanks in No Step Back, this is mandatory. Otherwise, this is optional.",
+   "frags": 2
+  },
+  {
+   "k": "41myhp",
+   "en": "force_equipment_variants = { ... }"
+  },
+  {
+   "k": "myluuj",
+   "en": "equipment_type = { ... }"
+  },
+  {
+   "k": "1r8j1tk",
+   "en": "⟦0⟧ is the owner of the equipment that should be used. This should be the same as the country which gets the order of battle.",
+   "frags": 1
+  },
+  {
+   "k": "eutyi7",
+   "en": "owner = TAG"
+  },
+  {
+   "k": "1nmbhex",
+   "en": "⟦0⟧ is the original creator of the equipment that should be used. This is used to determine the variants, and it defaults to the owner if not specified.",
+   "frags": 1
+  },
+  {
+   "k": "uyu9nc",
+   "en": "creator = TAG"
+  },
+  {
+   "k": "59oyop",
+   "en": "⟦0⟧ is how much of the equipment should be there. The rest of required equipment within the archetype will remain ungiven.",
+   "frags": 1
+  },
+  {
+   "k": "1ba69f7",
+   "en": "amount = 14"
+  },
+  {
+   "k": "l57563",
+   "en": "⟦0⟧ is the name of the equipment variant that should be used. If the equipment type requires a variant to use, such as tanks in ⟦1⟧, this is mandatory. Otherwise, this is optional.",
+   "frags": 2
+  },
+  {
+   "k": "204fvu",
+   "en": "version_name = \"Variant's name\""
+  },
+  {
+   "k": "ih51si",
+   "en": "⟦0⟧ is a ⟦1⟧ that will be used for the divisional commander if promoted to a commander or the ⟦2⟧ system is used. In particular, these attributes are common inside: name = loc_key is the localisation key to be used as the division commander's name. portraits = { army = { large = \"GFX_portrait_SCO_character\" small = \"GFX_idea_SCO_character\" } } is the portrait that the division commander must use. The large portrait will be used for the corps commander promotion and the small portrait will be used for the officer corps system. If both are unset, randomly generates a portrait. If the large is set, the small portrait will default to the name of large portrait with _small appended to the end.",
+   "frags": 3
+  },
+  {
+   "k": "sc1grm",
+   "en": "officer = { ... }"
+  },
+  {
+   "k": "1iidzv5",
+   "en": "character definition"
+  },
+  {
+   "k": "1aimk2s",
+   "en": "officer corps"
+  },
+  {
+   "k": "kxafho",
+   "en": "⟦0⟧ is the ⟦1⟧ key to be used as the division commander's name.",
+   "frags": 2
+  },
+  {
+   "k": "4aixx7",
+   "en": "name = loc_key"
+  },
+  {
+   "k": "1074kqi",
+   "en": "⟦0⟧ is the portrait that the division commander must use. The large portrait will be used for the corps commander promotion and the small portrait will be used for the officer corps system. If both are unset, ⟦1⟧. If the large is set, the small portrait will default to the name of large portrait with _small appended to the end.",
+   "frags": 2
+  },
+  {
+   "k": "8fl54y",
+   "en": "portraits = { army = { large = \"GFX_portrait_SCO_character\" small = \"GFX_idea_SCO_character\" } }"
+  },
+  {
+   "k": "1lgjwgt",
+   "en": "randomly generates a portrait"
+  },
+  {
+   "k": "1sovmlm",
+   "en": "Equipment production"
+  },
+  {
+   "k": "1q8l1lu",
+   "en": "Main article: Effect § add_equipment_production"
+  },
+  {
+   "k": "1t6l6m",
+   "en": "The equipment production is simulated using the ⟦0⟧ block. This is a regular ⟦1⟧ block, any effect can be used here. Usually, the production is added in this manner:",
+   "frags": 2
+  },
+  {
+   "k": "7i73ph",
+   "en": "instant_effect = { ... }"
+  },
+  {
+   "k": "1y4iwc5",
+   "en": "The ⟦0⟧ has these attributes:",
+   "frags": 1
+  },
+  {
+   "k": "qlvl94",
+   "en": "add_equipment_production = { ... }"
+  },
+  {
+   "k": "1c18vac",
+   "en": "⟦0⟧ decides on which equipment specifically should be made, in particular: creator = TAG is the creator of the equipment. Usually it's the same person who makes the equipment, but it may be different for lend-leases. type = infantry_equipment_0 is the exact equipment type that should be produced. The technology to unlock it, if needed, must be researched by the creator. Equipment can be found in /Hearts of Iron IV/common/units/equipment/*.txt files. version_name = \"Variant name\" is the variant that should be used for equipment, usually defined in country history. This is mandatory if the equipment requires a variant to produce, such as ships in Man the Guns or airplanes in By Blood Alone. Otherwise, it's optional.",
+   "frags": 1
+  },
+  {
+   "k": "8ntzbs",
+   "en": "equipment = { ... }"
+  },
+  {
+   "k": "uwzo06",
+   "en": "⟦0⟧ is the creator of the equipment. Usually it's the same person who makes the equipment, but it may be different for lend-leases.",
+   "frags": 1
+  },
+  {
+   "k": "2c9edv",
+   "en": "⟦0⟧ is the exact equipment type that should be produced. The technology to unlock it, if needed, must be researched by the creator. Equipment can be found in ⟦1⟧ files.",
+   "frags": 2
+  },
+  {
+   "k": "o9xshn",
+   "en": "type = infantry_equipment_0"
+  },
+  {
+   "k": "m2cb4v",
+   "en": "⟦0⟧ is the variant that should be used for equipment, ⟦1⟧. This is mandatory if the equipment requires a variant to produce, such as ships in ⟦2⟧ or airplanes in ⟦3⟧. Otherwise, it's optional.",
+   "frags": 4
+  },
+  {
+   "k": "y7apvc",
+   "en": "version_name = \"Variant name\""
+  },
+  {
+   "k": "7o8ujs",
+   "en": "usually defined in country history"
+  },
+  {
+   "k": "12t6kqs",
+   "en": "⟦0⟧ is the amount of military factories or dockyards that should be dedicated towards producing this equipment type. If unfulfilled, the factories will be assigned into the queue.",
+   "frags": 1
+  },
+  {
+   "k": "1dhcxnq",
+   "en": "requested_factories = 1"
+  },
+  {
+   "k": "kzweo1",
+   "en": "⟦0⟧ is used to assign the current amount of progress towards a single piece of equipment being finished. This is usually changed for expensive equipment, such as battleships.",
+   "frags": 1
+  },
+  {
+   "k": "mkgqdl",
+   "en": "progress = 0.2"
+  },
+  {
+   "k": "wk8l7d",
+   "en": "⟦0⟧ is, with 0 as 0% and 100 as 100%, the ⟦1⟧ which the factories should have immediately.",
+   "frags": 2
+  },
+  {
+   "k": "md5sro",
+   "en": "efficiency = 100"
+  },
+  {
+   "k": "1valgln",
+   "en": "production efficiency"
+  },
+  {
+   "k": "x2d328",
+   "en": "Character names"
+  },
+  {
+   "k": "14shwkl",
+   "en": "Character names are used for randomly-generated characters. This includes but is not limited to generic advisors, division commanders, newly-created unit leaders, or generic country leaders. Any ⟦0⟧ file can be used as the file, and each country's entry is marked by being a block with the name of the country's tag (with ⟦1⟧ or a ⟦2⟧ also being possible). An example entry looks like this:",
+   "frags": 3
+  },
+  {
+   "k": "sh8qpj",
+   "en": "/Hearts of Iron IV/common/names/*.txt"
+  },
+  {
+   "k": "14unowu",
+   "en": "default"
+  },
+  {
+   "k": "n81kya",
+   "en": "This will assign these names to TAG. In particular:"
+  }
+ ]
+}

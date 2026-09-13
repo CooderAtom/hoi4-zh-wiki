@@ -1,0 +1,1065 @@
+{
+ "batch": 84,
+ "items": [
+  {
+   "k": "19nnefr",
+   "zh": "本页面列出了可输入控制台窗口的指令代码。控制台窗口是一个特殊的调试窗口，在非铁人模式下按 ⟦0⟧ 、⟦1⟧ 或波浪号（~）即可打开（按键因键盘布局而异）。按上、下方向键可翻阅此前执行过的指令。许多指令可通过重复输入来关闭，但有时需要重新加载存档或退出游戏。请注意，许多指令会随每个 DLC 的推出而出现或消失，因此其中一些可能无法使用。模组也可能为游戏引入指令，更常见的是引入标签，以增强其玩法。"
+  },
+  {
+   "k": "psuryr",
+   "zh": "另需注意，按设计，指令在铁人模式游戏中可能无法使用。"
+  },
+  {
+   "k": "w9xd3k",
+   "zh": "指令列表"
+  },
+  {
+   "k": "1jk8d60",
+   "zh": "按 Shift+2、§、~、\\、`、\"、º、^ 或 ALT+2+1，或 Shift+3 可打开控制台（按键因键盘布局而异）"
+  },
+  {
+   "k": "4wfh8q",
+   "zh": "内部 ID"
+  },
+  {
+   "k": "1d7xn64",
+   "zh": "另见：⟦0⟧"
+  },
+  {
+   "k": "16nh7bz",
+   "zh": "控制台指令使用内部 ID，可通过多种不同方式获取。"
+  },
+  {
+   "k": "16cl5hg",
+   "zh": "查看内部 ID 的一个简便方法是调试模式。⟦0⟧ 作为控制台指令可开启调试模式，将鼠标悬停在某些数据库条目上时可提供相关信息，例如国家焦点、国家精神（以及法令、设计商等其他理念）或科技；悬停在一个省份上时，还可获取该州与省份的 ID，以及其所属国家的三字母国家标签。⟦1⟧"
+  },
+  {
+   "k": "oiy1eg",
+   "zh": "debug"
+  },
+  {
+   "k": "15tt0k7",
+   "zh": "请注意，在进行模组制作时，该控制台指令并不能实现启动选项的全部功能，无法作为其替代。"
+  },
+  {
+   "k": "3ghtts",
+   "zh": "如果无法做到，使用本地化文件是另一种方法。为此，请先找到游戏所在文件夹，然后进入 ⟦0⟧ 文件夹。其中的每个文件都包含本地化键，并为其分配了实际在游戏中显示的值。使用非默认的文本编辑器还可以使用“在文件中搜索”功能（例如 Notepad++、Sublime Text 或 Visual Studio Code 中），从而同时搜索每一个本地化文件，以找到指定的值。"
+  },
+  {
+   "k": "197fm0e",
+   "zh": "/Hearts of Iron IV/localisation/english/"
+  },
+  {
+   "k": "rimk89",
+   "zh": "消歧义"
+  },
+  {
+   "k": "1vkxta2",
+   "zh": "在本文中，指令内使用了 3 种括号："
+  },
+  {
+   "k": "1rt4zul",
+   "zh": "像 ⟦0⟧ 这样的圆括号用于表示别名，即控制台指令的替代名称。在此例中，使用 ⟦1⟧ 或 ⟦2⟧ 在游戏中的效果相同。"
+  },
+  {
+   "k": "17s9efo",
+   "zh": "instantconstruction(ic)"
+  },
+  {
+   "k": "nh41b3",
+   "zh": "instantconstruction"
+  },
+  {
+   "k": "1pjabc",
+   "zh": "像 ⟦0⟧ 这样的方括号表示 ⟦1⟧ 参数。在此例中，⟦2⟧ 和 ⟦3⟧ 都能生效，但效果可能不同。"
+  },
+  {
+   "k": "712ani",
+   "zh": "fow [Province ID]"
+  },
+  {
+   "k": "kgw9o9",
+   "zh": "可选"
+  },
+  {
+   "k": "1ddi8a7",
+   "zh": "fow"
+  },
+  {
+   "k": "ymhl4l",
+   "zh": "fow 1234"
+  },
+  {
+   "k": "10usdgf",
+   "zh": "像 ⟦0⟧ 这样方括号与尖括号组合使用，表示 ⟦1⟧ 参数。在此例中，⟦2⟧ 会生效，但 ⟦3⟧ 不会。"
+  },
+  {
+   "k": "wn700q",
+   "zh": "event [<event ID>]"
+  },
+  {
+   "k": "v0i2t4",
+   "zh": "必填"
+  },
+  {
+   "k": "52x4v",
+   "zh": "event generic.1"
+  },
+  {
+   "k": "1yj1fof",
+   "zh": "event"
+  },
+  {
+   "k": "mbtrw5",
+   "zh": "术语表"
+  },
+  {
+   "k": "1g8ffm2",
+   "zh": "MIO 是 Military Industrial Organizations（军事工业组织）的缩写"
+  },
+  {
+   "k": "1h7uoff",
+   "zh": "实用指令"
+  },
+  {
+   "k": "1j2mkia",
+   "zh": "指令"
+  },
+  {
+   "k": "uq3mgk",
+   "zh": "效果"
+  },
+  {
+   "k": "7q4w1j",
+   "zh": "示例/备注"
+  },
+  {
+   "k": "q2pfk6",
+   "zh": "help [command name]"
+  },
+  {
+   "k": "16ycnfp",
+   "zh": "打印所有控制台指令或某条指令的说明。"
+  },
+  {
+   "k": "tofc35",
+   "zh": "tag [<Country tag>]"
+  },
+  {
+   "k": "1vwp16k",
+   "zh": "切换玩家所控制的国家。"
+  },
+  {
+   "k": "d7izej",
+   "zh": "event [<event id>] [Target country tag]"
+  },
+  {
+   "k": "1nhpaa8",
+   "zh": "执行一个事件"
+  },
+  {
+   "k": "16713tr",
+   "zh": "⟦0⟧ 可用于告知事件的 ID。如果该事件带有 ⟦1⟧ 块，它会说明哪些触发条件已满足、哪些未满足。"
+  },
+  {
+   "k": "184x1mf",
+   "zh": "事件页面"
+  },
+  {
+   "k": "8trf0c",
+   "zh": "trigger = { ... }"
+  },
+  {
+   "k": "1x3bgk6",
+   "zh": "finish_decision [<decision id>] or \"all\""
+  },
+  {
+   "k": "16mhih0",
+   "zh": "立即完成限时任务。"
+  },
+  {
+   "k": "1dbl3wx",
+   "zh": "add_ideas [<idea name>]"
+  },
+  {
+   "k": "127vqoa",
+   "zh": "为国家添加理念，ID 为 <id>。也可用于替换法令。"
+  },
+  {
+   "k": "1j1pq4",
+   "zh": "remove_ideas [<idea name>]"
+  },
+  {
+   "k": "l9pgcn",
+   "zh": "移除国家理念。"
+  },
+  {
+   "k": "1qh47a",
+   "zh": "energy_ratio (er) [<ratio>]"
+  },
+  {
+   "k": "opnuu4",
+   "zh": "为不消耗煤炭的工厂设置能源比率，取值 0 到 1。"
+  },
+  {
+   "k": "1cvucqo",
+   "zh": "FI [amount}"
+  },
+  {
+   "k": "d3pdw8",
+   "zh": "增加阵营倡议"
+  },
+  {
+   "k": "1lkfg38",
+   "zh": "FI 5 增加 5 点阵营倡议"
+  },
+  {
+   "k": "1mrgrh5",
+   "zh": "mastery [<mastery amount>], [track name]"
+  },
+  {
+   "k": "1er1sv5",
+   "zh": "给予学说精通度，可全局给予或给予特定分支。"
+  },
+  {
+   "k": "wat42z",
+   "zh": "gain_xp [<amount>]"
+  },
+  {
+   "k": "1fguf5o",
+   "zh": "为选中的领袖/将领/海军上将增加经验"
+  },
+  {
+   "k": "1ed1xtq",
+   "zh": "gain_xp 100000（等级上限为 9）"
+  },
+  {
+   "k": "1uut8jv",
+   "zh": "gain_xp [<trait>]"
+  },
+  {
+   "k": "12f027z",
+   "zh": "为选中的领袖/将领/海军上将添加 ⟦0⟧ 特质"
+  },
+  {
+   "k": "nefwlu",
+   "zh": "gainable"
+  },
+  {
+   "k": "1hmrdt4",
+   "zh": "例如：gain_xp seawolf 备注 要使其对新建的通用海军上将生效：1. 用文本编辑器打开 'Documents\\Paradox Interactive\\Hearts of Iron IV\\settings.txt'，将 \"save_as_binary=yes\" 改为 \"save_as_binary=no\"。2. 启动游戏，载入存档并另存为新文件，退出游戏。3. 打开 'Documents\\Paradox Interactive\\Hearts of iron IV\\Save Games'，打开新创建的存档文件，搜索（CTRL-F）你新建的通用海军上将的名字。4. 向下几行找到 max_traits=0.000，在其后面添加以下代码块 in_progress={ seawolf=0.000 superior_tactician=0.000 spotter=0.000 fly_swatter=0.000 ironside=0.000 air_controller=0.000 }。5. 确保以 ANSI 编码格式保存文件。6. 启动游戏，载入存档，使用 gain_xp 指令，尽情享受。（可选：在 settings.txt 中重新开启二进制化）"
+  },
+  {
+   "k": "5mau71",
+   "zh": "备注"
+  },
+  {
+   "k": "19rbhmi",
+   "zh": "'Documents\\Paradox Interactive\\Hearts of Iron IV\\settings.txt'"
+  },
+  {
+   "k": "1syevy9",
+   "zh": "'Documents\\Paradox Interactive\\Hearts of iron IV\\Save Games'"
+  },
+  {
+   "k": "nxt338",
+   "zh": "max_traits=0.000"
+  },
+  {
+   "k": "1dsa5n6",
+   "zh": "ANSI"
+  },
+  {
+   "k": "ax3kso",
+   "zh": "cp [<amount>]"
+  },
+  {
+   "k": "1xou83h",
+   "zh": "增加指挥点数"
+  },
+  {
+   "k": "142kqc5",
+   "zh": "cp 100（上限为 100）"
+  },
+  {
+   "k": "1k40sgs",
+   "zh": "st [<amount>]"
+  },
+  {
+   "k": "wmsl2",
+   "zh": "增加稳定度"
+  },
+  {
+   "k": "14002w9",
+   "zh": "st 100（上限为 100）"
+  },
+  {
+   "k": "hjs3cy",
+   "zh": "add_war_support(ws) [<amount>]"
+  },
+  {
+   "k": "gv38as",
+   "zh": "增加战争支持度"
+  },
+  {
+   "k": "1kdvvtg",
+   "zh": "ws 100（上限为 100）"
+  },
+  {
+   "k": "1g705d0",
+   "zh": "reduce_opinion [<country tag>]"
+  },
+  {
+   "k": "1c3t83f",
+   "zh": "降低对标签国家/来自标签国家的意见。"
+  },
+  {
+   "k": "171y65j",
+   "zh": "allowtraits"
+  },
+  {
+   "k": "1qqicv2",
+   "zh": "允许自由分配将领特质"
+  },
+  {
+   "k": "163the9",
+   "zh": "add_equipment(ae) [<equipment amount>] [<equipment name>]"
+  },
+  {
+   "k": "1u53i0x",
+   "zh": "增加装备"
+  },
+  {
+   "k": "1w72scb",
+   "zh": "装备使用基础名称，因此写作 'ae 1000 infantry_equipment_1'。只能添加已研发的装备。不支持海军装备。（运输船队例外：'ae 1000 convoy_1'）要添加舰船，可考虑使用 instantconstruction(ic) 或 instanttraining (it)（'ic' 或 'it' 也会影响 AI）。要添加改装装备，必须用其给定名称来指定。示例：你基于 'Matilda LP' 坦克创建了一个装甲和主炮更好的改型，并将其命名为 'Matilda LP Mk. IV'。此时使用 'add_equipment 1000 Matilda LP Mk. IV'。"
+  },
+  {
+   "k": "6l7zoy",
+   "zh": "add_latest_equipment(ale) [<equipment amount>]"
+  },
+  {
+   "k": "182asuw",
+   "zh": "给予玩家一定数量的最新型号装备"
+  },
+  {
+   "k": "138lg49",
+   "zh": "要只添加你最新装备中的某一特定类型，必须用其给定名称来指定。示例：你基于 'Matilda LP' 坦克创建了一个装甲和主炮更好的改型，并将其命名为 'Matilda LP Mk. IV'。此时使用 'add_latest_equipment 1000 Matilda LP Mk. IV'。"
+  },
+  {
+   "k": "16xzpww",
+   "zh": "addfunds"
+  },
+  {
+   "k": "qehgo3",
+   "zh": "为所有 MIO 增加资金"
+  },
+  {
+   "k": "f5yuji",
+   "zh": "为每个 MIO（军事工业组织）增加 1000 资金"
+  },
+  {
+   "k": "1c5r2hk",
+   "zh": "addTaskCapacity [number]"
+  },
+  {
+   "k": "1mauk3c",
+   "zh": "为所有 MIO 增加任务容量"
+  },
+  {
+   "k": "1ithsid",
+   "zh": "若未给出输入值，默认为 1。要只给某个特定 MIO 增加任务容量，你需要在该文件中找到 MIO 的 id：\\Hearts of Iron IV\\common\\military_industrial_organization\\organizations\\<your country's tag>.txt 然后使用 addTaskCapacity [<MIO id>] [number]"
+  },
+  {
+   "k": "1m3ylwr",
+   "zh": "\\Hearts of Iron IV\\common\\military_industrial_organization\\organizations\\<your country's tag>.txt"
+  },
+  {
+   "k": "1fnyh3s",
+   "zh": "addSize [number]"
+  },
+  {
+   "k": "esaw1e",
+   "zh": "为所有 MIO 增加特质点数"
+  },
+  {
+   "k": "1kf7dw1",
+   "zh": "若未给出输入值，默认为 1。要只给某个特定 MIO 增加特质点数，你需要在该文件中找到 MIO 的 id：\\Hearts of Iron IV\\common\\military_industrial_organization\\organizations\\<your country's tag>.txt 然后使用 addSize [<MIO id>] [number]"
+  },
+  {
+   "k": "jsr4h4",
+   "zh": "add_cic_bank [number]"
+  },
+  {
+   "k": "157wmad",
+   "zh": "为玩家增加国际市场中的经济产能盈余"
+  },
+  {
+   "k": "1pu60n0",
+   "zh": "若未给出输入值，默认为 1"
+  },
+  {
+   "k": "sidszf",
+   "zh": "whitepeace(wp) [<country tags>]"
+  },
+  {
+   "k": "q5a9rz",
+   "zh": "与指定国家白和。"
+  },
+  {
+   "k": "11whxbh",
+   "zh": "teleport(tp)"
+  },
+  {
+   "k": "ejfa9o",
+   "zh": "激活传送工具"
+  },
+  {
+   "k": "1lj2ihv",
+   "zh": "可将单位传送到你指定的任何位置（选中单位后右键点击某个省份）"
+  },
+  {
+   "k": "8jxuy6",
+   "zh": "allowdiplo(adiplo,nocb)"
+  },
+  {
+   "k": "mglrv3",
+   "zh": "允许使用所有外交行动，不受规则限制。（无需战争目标制造即可宣战）"
+  },
+  {
+   "k": "s2j0fl",
+   "zh": "这很可能是想要开战时最有效的方式 ⟦0⟧ 需要等待战争目标制造完成。如果你只想要瞬间制造战争目标而不需要它附带的其他选项，则使用 (instant_wargoal)。"
+  },
+  {
+   "k": "hqqig3",
+   "zh": "无需"
+  },
+  {
+   "k": "1d5ng8e",
+   "zh": "debug_crash(crash)"
+  },
+  {
+   "k": "h20izv",
+   "zh": "使游戏崩溃。"
+  },
+  {
+   "k": "fbq4xa",
+   "zh": "instantconstruction (ic)"
+  },
+  {
+   "k": "ttcdgn",
+   "zh": "切换瞬间建造作弊。"
+  },
+  {
+   "k": "tb5m8l",
+   "zh": "影响 AI。舰船也会瞬间建成。"
+  },
+  {
+   "k": "a3b0m9",
+   "zh": "research [<slot id> or \"all\"]"
+  },
+  {
+   "k": "1gi100q",
+   "zh": "从科研槽或全部科研槽研究一项科技。"
+  },
+  {
+   "k": "qr6djo",
+   "zh": "research all 将瞬间研究所有科技"
+  },
+  {
+   "k": "19lswnj",
+   "zh": "research_on_icon_click (roic)"
+  },
+  {
+   "k": "5a1son",
+   "zh": "点击科技树图标时研究一项科技"
+  },
+  {
+   "k": "alysef",
+   "zh": "允许你研究没有前置条件的项目，或两项互斥的项目"
+  },
+  {
+   "k": "wrr9f",
+   "zh": "toggle_hidden_techs (tht)"
+  },
+  {
+   "k": "j337sl",
+   "zh": "切换显示/隐藏所有隐藏科技。"
+  },
+  {
+   "k": "1xfx92g",
+   "zh": "sp_breakthrough [<number>] sp_breakthrough [<number> optional <specialisation>] (sp_br)"
+  },
+  {
+   "k": "t1o879",
+   "zh": "为所有设施增加特殊项目突破点数。"
+  },
+  {
+   "k": "rsd7vy",
+   "zh": "例：sp_breakthrough 1 例：sp_br 20 specialization_land 专精类型有：specialization_land、specialization_air、specialization_naval、specialization_nuclear（模组添加的专精位于 Mod Path\\common\\special_projects\\specialization）"
+  },
+  {
+   "k": "4oa1o5",
+   "zh": "sp_fast"
+  },
+  {
+   "k": "1ljswmr",
+   "zh": "跳过原型阶段，推进特殊项目的迭代阶段"
+  },
+  {
+   "k": "1smqffc",
+   "zh": "sp_instant"
+  },
+  {
+   "k": "lnwycy",
+   "zh": "自动完成当前特殊项目"
+  },
+  {
+   "k": "psu876",
+   "zh": "sp_available"
+  },
+  {
+   "k": "ji8hzf",
+   "zh": "解锁/锁定所有科研前置条件未满足的特殊项目"
+  },
+  {
+   "k": "5q0f7l",
+   "zh": "例如：无需研究 \"Atomic Research\" 科技即可解锁核能特殊项目"
+  },
+  {
+   "k": "1r6d9lr",
+   "zh": "sp_unlock_all"
+  },
+  {
+   "k": "7o1p33",
+   "zh": "所有特殊项目始终可见且可用。无论触发条件是否返回真，也无论前置项目是否完成。"
+  },
+  {
+   "k": "hho3ee",
+   "zh": "sp_research_all (sp_ra)"
+  },
+  {
+   "k": "wiwuyr",
+   "zh": "研究所有特殊项目。如果不存在科学家，会创建一个；否则会随机挑选一名。"
+  },
+  {
+   "k": "t7iuev",
+   "zh": "sp_prototype_reward"
+  },
+  {
+   "k": "t05agw",
+   "zh": "在项目进行期间触发指定的原型奖励。"
+  },
+  {
+   "k": "13qqdu1",
+   "zh": "sp_add_scientist sp_add_scientist [<level> (optional)] [<specialisation> (optional)]"
+  },
+  {
+   "k": "1r6o2zb",
+   "zh": "添加一名无专精或指定专精/技能等级的通用科学家"
+  },
+  {
+   "k": "18s96hh",
+   "zh": "sp_add_scientist 3 nuclear sp_add_scientist 1"
+  },
+  {
+   "k": "130s1fh",
+   "zh": "sp_add_mastermind"
+  },
+  {
+   "k": "adjjox",
+   "zh": "添加一名拥有全部专精且技能等级为满级的通用科学家"
+  },
+  {
+   "k": "1571p1x",
+   "zh": "sp_set_selected_scientist_level [<level>]"
+  },
+  {
+   "k": "axua8e",
+   "zh": "设置科学家的等级"
+  },
+  {
+   "k": "1w031bh",
+   "zh": "必须已打开带有已指派科学家的设施界面"
+  },
+  {
+   "k": "1z0nkko",
+   "zh": "sp_add_selected_scientist_trait [<trait>]"
+  },
+  {
+   "k": "6xsu6w",
+   "zh": "为科学家添加指定特质"
+  },
+  {
+   "k": "roozme",
+   "zh": "例：sp_add_selected_scientist_trait scientist_trait_brilliant_theorist 为选中的科学家添加天才科学家特质。必须已打开带有已指派科学家的设施界面 特质位于 \"Hearts of Iron IV\\common\\scientist_traits\\00_traits.txt\""
+  },
+  {
+   "k": "ohm38w",
+   "zh": "annex [<Target Country Tag> or \"all\"]"
+  },
+  {
+   "k": "pnx3xk",
+   "zh": "开始吞并/吞并指定标签"
+  },
+  {
+   "k": "cxbd46",
+   "zh": "annex USA 或 annex d01 或 annex all"
+  },
+  {
+   "k": "12wy2ba",
+   "zh": "puppet [<Puppeteer Country Tag>] [<Puppet Target Country Tag>]"
+  },
+  {
+   "k": "ux0mem",
+   "zh": "将目标国家变为傀儡国的傀儡国"
+  },
+  {
+   "k": "88rbmj",
+   "zh": "puppet GER CZE（捷克斯洛伐克成为德意志国的傀儡国）"
+  },
+  {
+   "k": "1hq4r00",
+   "zh": "manpower [amount]"
+  },
+  {
+   "k": "1a82ur0",
+   "zh": "为玩家增加人力"
+  },
+  {
+   "k": "g41q77",
+   "zh": "若未指定数字，默认为 1000 万。"
+  },
+  {
+   "k": "12bl4iz",
+   "zh": "add_opinion [<Country tag>]"
+  },
+  {
+   "k": "161u25s",
+   "zh": "增加对标签国家/来自标签国家的意见"
+  },
+  {
+   "k": "168b1el",
+   "zh": "为目标国家增加 100 意见（硬编码数值）并双向生效（例如 add_opinion ENG）。成功调用后会打印 \"<country> have 100 more opinion about you\"，并在外交界面中显示为 \"cheat_opinion_modified_good\""
+  },
+  {
+   "k": "167p4s4",
+   "zh": "add_legitimacy [<Country tag>] [<value>]"
+  },
+  {
+   "k": "bzw6bq",
+   "zh": "为指定标签增加合法性。"
+  },
+  {
+   "k": "8ab5we",
+   "zh": "示例：add_legitimacy POL 22"
+  },
+  {
+   "k": "1tvx9qh",
+   "zh": "observe(spectator)"
+  },
+  {
+   "k": "1ggy7rf",
+   "zh": "切换为不控制任何国家，且不再显示消息或暂停游戏。但这也会干扰 AI 的表现，因此如果未使用观察模式，它并不能很好地反映 AI 的行为。"
+  },
+  {
+   "k": "1p7kgga",
+   "zh": "tdebug"
+  },
+  {
+   "k": "nj35jb",
+   "zh": "切换调试信息"
+  },
+  {
+   "k": "1ycog15",
+   "zh": "有助于查找国家标签和 ID"
+  },
+  {
+   "k": "hgwbho",
+   "zh": "occupationpaint(op)"
+  },
+  {
+   "k": "3tlh1b",
+   "zh": "切换占领涂色。若与国家标签一起使用，会占领其全部拥有的（而非控制的）领土，"
+  },
+  {
+   "k": "1buetcl",
+   "zh": "op JAP"
+  },
+  {
+   "k": "5d2100",
+   "zh": "setowner [<country tag>]"
+  },
+  {
+   "k": "1dns9xm",
+   "zh": "设置州的所有者"
+  },
+  {
+   "k": "1gp3v6p",
+   "zh": "选择你希望设为所有者的州。点击该州即可选中。你需要通过点击来选定州，州 id 已不再可用。"
+  },
+  {
+   "k": "11fqxqc",
+   "zh": "setcontroller [<country tag>] [province id]"
+  },
+  {
+   "k": "f0p3ts",
+   "zh": "设置省份控制者"
+  },
+  {
+   "k": "16hdd49",
+   "zh": "xp [<XP amount>]"
+  },
+  {
+   "k": "j9ksgb",
+   "zh": "为玩家提供陆军、海军和空军经验"
+  },
+  {
+   "k": "1lcqo31",
+   "zh": "每天可使用一次"
+  },
+  {
+   "k": "1w4av5f",
+   "zh": "pp(fuhrer_mana,political_power) [PP amount]"
+  },
+  {
+   "k": "1vebq7y",
+   "zh": "为玩家增加（或移除）政治点数"
+  },
+  {
+   "k": "1lh0yx8",
+   "zh": "若未设置数值，默认为 1000。"
+  },
+  {
+   "k": "5dkzkp",
+   "zh": "fuel [<amount>]"
+  },
+  {
+   "k": "f48t0j",
+   "zh": "增加燃油"
+  },
+  {
+   "k": "1c83u55",
+   "zh": "fuel 100000（上限为你的储存容量，增加过多会导致燃油减少）"
+  },
+  {
+   "k": "1iigiv1",
+   "zh": "civilwar [<ideology>] [<target country tag>]"
+  },
+  {
+   "k": "g4aj4z",
+   "zh": "引发一场内战"
+  },
+  {
+   "k": "fcu88g",
+   "zh": "civilwar fascism ENG ：其他可用意识形态 \"communism\" \"democratic\" \"neutrality\""
+  },
+  {
+   "k": "9nv5h7",
+   "zh": "add_party_popularity <ideology group> <value>"
+  },
+  {
+   "k": "cczles",
+   "zh": "增加政党支持度"
+  },
+  {
+   "k": "57kkum",
+   "zh": "意识形态组在原版 HOI 各派系中有快捷方式 d f n c。"
+  },
+  {
+   "k": "jtiepp",
+   "zh": "set_ruling_party <ideology group>"
+  },
+  {
+   "k": "4mpcil",
+   "zh": "设置执政党"
+  },
+  {
+   "k": "1demzxd",
+   "zh": "Focus.AutoComplete (fa)"
+  },
+  {
+   "k": "1e5c4mf",
+   "zh": "使国家焦点可以瞬间完成"
+  },
+  {
+   "k": "hsjkvx",
+   "zh": "影响 AI"
+  },
+  {
+   "k": "edud1x",
+   "zh": "Focus.NoChecks"
+  },
+  {
+   "k": "1g4xb0g",
+   "zh": "忽略焦点需求"
+  },
+  {
+   "k": "1h8d8vc",
+   "zh": "Focus.IgnorePrerequisites"
+  },
+  {
+   "k": "1bcd4kn",
+   "zh": "忽略焦点前置条件"
+  },
+  {
+   "k": "1xvcq83",
+   "zh": "允许你在国策树的中段直接开始一个焦点。影响 AI"
+  },
+  {
+   "k": "zhpy8g",
+   "zh": "freefocuses (ff)"
+  },
+  {
+   "k": "s9hfb5",
+   "zh": "允许自由激活任意焦点"
+  },
+  {
+   "k": "1ysx10i",
+   "zh": "⟦0⟧、⟦1⟧ 与 ⟦2⟧ 的组合。"
+  },
+  {
+   "k": "1l6btgx",
+   "zh": "Decision.FastRemove"
+  },
+  {
+   "k": "1dm8l3w",
+   "zh": "将决议缩短至 1 天"
+  },
+  {
+   "k": "7aepd1",
+   "zh": "Decision.NoChecks"
+  },
+  {
+   "k": "aumg6q",
+   "zh": "忽略决议需求"
+  },
+  {
+   "k": "15nzveo",
+   "zh": "同时禁用花费，影响 AI"
+  },
+  {
+   "k": "i8na9u",
+   "zh": "instant_prepare"
+  },
+  {
+   "k": "wq64pr",
+   "zh": "瞬间完成海军登陆准备"
+  },
+  {
+   "k": "1cx4pgs",
+   "zh": "仅在调试模式下有效。"
+  },
+  {
+   "k": "dczc58",
+   "zh": "instanttraining (it)"
+  },
+  {
+   "k": "32e8ti",
+   "zh": "瞬间训练师与舰船"
+  },
+  {
+   "k": "9ipm83",
+   "zh": "nuke [number]"
+  },
+  {
+   "k": "zctmm3",
+   "zh": "增加核弹"
+  },
+  {
+   "k": "dbim9h",
+   "zh": "添加 100 或 1000"
+  },
+  {
+   "k": "1twj1xg",
+   "zh": "ai_accept (yesman)"
+  },
+  {
+   "k": "1vk9si1",
+   "zh": "AI 将接受所有外交提议"
+  },
+  {
+   "k": "939uel",
+   "zh": "add_core <state_id>"
+  },
+  {
+   "k": "15m30b9",
+   "zh": "添加核心"
+  },
+  {
+   "k": "o2fo5x",
+   "zh": "Agency.Instant"
+  },
+  {
+   "k": "1fd97ok",
+   "zh": "使一切与情报机构相关的事务变为瞬间完成。"
+  },
+  {
+   "k": "6r9owy",
+   "zh": "等同于 Operation.Instant、IntelNetwork.Instant、Agency.InstantSlotUnlock 和 Agency.Autocomplete 的组合"
+  },
+  {
+   "k": "19xlild",
+   "zh": "Agency.InstantSlotUnlock"
+  },
+  {
+   "k": "1mrydf8",
+   "zh": "移除特工招募之间的等待时间"
+  },
+  {
+   "k": "1pke3i8",
+   "zh": "Agency.Autocomplete"
+  },
+  {
+   "k": "15ytnzd",
+   "zh": "瞬间完成情报机构升级"
+  },
+  {
+   "k": "1rgs70f",
+   "zh": "prevent_operative_detection"
+  },
+  {
+   "k": "58xkp0",
+   "zh": "你的特工/间谍将不再被侦测到"
+  },
+  {
+   "k": "qsbegm",
+   "zh": "force_operative_detection"
+  },
+  {
+   "k": "sybnny",
+   "zh": "你的特工/间谍将被侦测到"
+  },
+  {
+   "k": "14pk4dt",
+   "zh": "Operation.instant"
+  },
+  {
+   "k": "1fc01bf",
+   "zh": "瞬间完成所有行动"
+  },
+  {
+   "k": "1oqzv84",
+   "zh": "agency.keepexcessoperatives"
+  },
+  {
+   "k": "mpvs6v",
+   "zh": "deleteallunits(delall) [country]"
+  },
+  {
+   "k": "lb29vw",
+   "zh": "删除指定国家的所有陆军和舰队。"
+  },
+  {
+   "k": "1jexvkj",
+   "zh": "deleteallunits SPR"
+  },
+  {
+   "k": "wduhhv",
+   "zh": "deleteallunitsbut(delallbut) [country]"
+  },
+  {
+   "k": "1xpwv48",
+   "zh": "删除所有国家的陆军和舰队，但保留其中一个国家。"
+  },
+  {
+   "k": "1s3478r",
+   "zh": "delallbut SPR"
+  },
+  {
+   "k": "1sl8m6i",
+   "zh": "add_autonomy [<Target Country Tag>] [num]"
+  },
+  {
+   "k": "11msimv",
+   "zh": "改变一个国家的自治度等级"
+  },
+  {
+   "k": "1r3jf0z",
+   "zh": "add_autonomy PHI -200"
+  },
+  {
+   "k": "60wqo0",
+   "zh": "resistance"
+  },
+  {
+   "k": "t3gul",
+   "zh": "按设定数值提高所选省份的抵抗度"
+  },
+  {
+   "k": "bs1hmk",
+   "zh": "例：（在柏林选中其中一个省份）resistance 100"
+  },
+  {
+   "k": "4ch44q",
+   "zh": "compliance"
+  },
+  {
+   "k": "192znwg",
+   "zh": "按设定数值提高游戏中所选省份的顺从度"
+  },
+  {
+   "k": "4474o5",
+   "zh": "例：（在但泽选中其中一个省份）compliance 100"
+  },
+  {
+   "k": "n5wk1f",
+   "zh": "add_intel [<Country tag 1>] [Country Tag 2] [civilian,army,navy,airforce]=[number] add_intel [<Target Country tag>] [civilian,army,navy,airforce]=[number]"
+  },
+  {
+   "k": "bs0kry",
+   "zh": "设置第一个标签对第二个标签所拥有的输入情报。所设置的情报数值为静态值（在游戏剩余时间内永久生效）。"
+  },
+  {
+   "k": "1g6219v",
+   "zh": "例（将玩家对法国的情报设为最大值）：add_intel FRA 例（将德国对美国拥有的陆军情报设为 20%）：add_intel GER USA army=20 例（将玩家对日本拥有的空军和民用情报分别设为 90% 和 76%）：add_intel JAP airforce=90 civilian=76"
+  },
+  {
+   "k": "aoaa1n",
+   "zh": "add_mines"
+  },
+  {
+   "k": "186fz2h",
+   "zh": "将玩家在所选区域拥有的海军水雷设为最大"
+  },
+  {
+   "k": "1nnnde2",
+   "zh": "acclimization [<climate type>] [<number>]"
+  },
+  {
+   "k": "1r0gref",
+   "zh": "将所选师的适应性设置为指定气候类型及其百分比（降低寒冷/炎热天气或温度减益带来的惩罚）"
+  },
+  {
+   "k": "1m1la5v",
+   "zh": "例：acclimization cold_climate 75 例：acclimization hot_climate 20 注意，这会将相反气候类型的适应性重置为 0%"
+  },
+  {
+   "k": "1m4d7vz",
+   "zh": "debug_smooth"
+  },
+  {
+   "k": "1tu0mke",
+   "zh": "切换帧平滑"
+  },
+  {
+   "k": "3ossfy",
+   "zh": "可显著提升游戏速度，视系统而定通常在 10 到 35 之间"
+  },
+  {
+   "k": "1wgks86",
+   "zh": "对模组制作有用的指令"
+  },
+  {
+   "k": "1qystht",
+   "zh": "前文提到的若干其他指令，例如 ⟦0⟧，在模组制作中也很有用。"
+  },
+  {
+   "k": "ft7qc5",
+   "zh": "guibounds(gui)"
+  },
+  {
+   "k": "1fgwpcd",
+   "zh": "切换 GUI 边界调试，便于测试不同的窗口尺寸。"
+  }
+ ]
+}

@@ -1,0 +1,915 @@
+{
+ "batch": 1189,
+ "pages": [
+  "Patch 1.7"
+ ],
+ "chars": 12384,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1t5vade",
+   "en": "Patch 1.7, aka \"Hydra\", was released on 2019-04-06⟦0⟧. The checksum is ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "tz3v6j",
+   "en": "d12e"
+  },
+  {
+   "k": "9gx5q1",
+   "en": "Feature & Important"
+  },
+  {
+   "k": "mow0jr",
+   "en": "Game is now 64-bit"
+  },
+  {
+   "k": "qe6pjb",
+   "en": "Frontlines have been reworked to where army fronts link together under army groups and playing army group only has more UI support to reduce clutter."
+  },
+  {
+   "k": "mp1saw",
+   "en": "Bugfix"
+  },
+  {
+   "k": "1adtfg",
+   "en": "Withdraw from Contested Territories now is available to be taken if any contested territory is still held by Britain, and takes into account the possibility of having traded Newfoundland to the USA for destroyers."
+  },
+  {
+   "k": "1h1gtup",
+   "en": "Fixed the En Route penalty for admirals that are unassigned before being re-assigned."
+  },
+  {
+   "k": "1e6a3b4",
+   "en": "disabled an event that merges two countries together with same original tag & ideology if either of them are puppet"
+  },
+  {
+   "k": "1prd03u",
+   "en": "Admiral combat XP no longer limited if more than 24 ships in fleet"
+  },
+  {
+   "k": "14ef7op",
+   "en": "execute orders button now executes only move order of ag front (Not attached fronts) for ag groups"
+  },
+  {
+   "k": "a7lq27",
+   "en": "Fixed task force fulfillment getting out of sync on save load"
+  },
+  {
+   "k": "lxmcn2",
+   "en": "You are no longer able to draw spearheads/offensive lines without a proper frontline."
+  },
+  {
+   "k": "pkhvzr",
+   "en": "You should no longer be unable to remove ship modules"
+  },
+  {
+   "k": "1k8inwf",
+   "en": "You are no longer able to draw offensive lines from a garrison order."
+  },
+  {
+   "k": "16sisi7",
+   "en": "Fixed convoy distribution issues on naval supply paths"
+  },
+  {
+   "k": "15skmwf",
+   "en": "Initialized ships with zero manpower so that they consume country manpower correctly when production completes."
+  },
+  {
+   "k": "1q98ke5",
+   "en": "Block exploiting researching of tech if mutually exclusive tech has already been researched."
+  },
+  {
+   "k": "bpnik9",
+   "en": "Fixed ship production to correctly set manpower and subtract that from the country manpower pool when a ship is completed."
+  },
+  {
+   "k": "l01xfk",
+   "en": "Adjusted the requirements for the Treading the Narrow Path achievement to now only check for control of the Holland, Friesland, and Brabant states (rather than any Dutch core state)."
+  },
+  {
+   "k": "i436r9",
+   "en": "Operation Fork and Invade Ireland decisions are no longer repeatable."
+  },
+  {
+   "k": "1jvz9k7",
+   "en": "Italian Spanish-Italian Alliance and Befriend Portugal focuses now require being in a faction and correctly invite Spain and/or Portugal into Italy's faction, rather than try to join theirs."
+  },
+  {
+   "k": "clksv3",
+   "en": "Fixed add/remove core effects adding dynamic tags as cores"
+  },
+  {
+   "k": "1rkd2vn",
+   "en": "Fixed an issue where very large fleets of submarines got negative range and couldnt be assigned to missions"
+  },
+  {
+   "k": "1wi8cwh",
+   "en": "Properly transfer faction leadership now for players without Man the Guns, when a faction member is removed from the faction"
+  },
+  {
+   "k": "1k37abe",
+   "en": "Properly transfer faction leadership to the annexing country if they are part of the same faction"
+  },
+  {
+   "k": "1mpfjbj",
+   "en": "Fixed an issue where China could not integrate the warlords"
+  },
+  {
+   "k": "1cgty1n",
+   "en": "Tech sharing now unlocked in DoD as well as intended with it using the feature in its focus trees"
+  },
+  {
+   "k": "e3qbmv",
+   "en": "Strategy to have Axis minors avoid factions with Japan had a chance of updating too late. Nations should now beware of Japan as long as fascism is high enough to give it time to activate."
+  },
+  {
+   "k": "kxxksr",
+   "en": "Balance"
+  },
+  {
+   "k": "jfqzlc",
+   "en": "Convoy Raiding and Sub Balance"
+  },
+  {
+   "k": "1b1i8pz",
+   "en": "Submarines now get to fire while retreating"
+  },
+  {
+   "k": "1c8nig7",
+   "en": "Heavily reduced the chance of sub reveal on torpedo firing"
+  },
+  {
+   "k": "1p70j0w",
+   "en": "Added carrier sub detection increase of 25% to escort carriers doctrine research"
+  },
+  {
+   "k": "12qtfv8",
+   "en": "Added carrier sub detection increase of 25% and improved sub detection of destroyers and cruisers by 5% each in integrated convoy defense doctrine research"
+  },
+  {
+   "k": "11xg3by",
+   "en": "Gave carriers sub detection of 5"
+  },
+  {
+   "k": "1b4tao",
+   "en": "Reduced sub surface detection in wolf packs doctrine from 15% to 10%"
+  },
+  {
+   "k": "1yk0qas",
+   "en": "Increased sub detection of ship radar 3 from 4 to 5"
+  },
+  {
+   "k": "1d1b91j",
+   "en": "Increased sub detection of ship radar 4 from 8 to 10"
+  },
+  {
+   "k": "1xie3ur",
+   "en": "Increased sub detection of ship sonar 2 from 6.5 to 7"
+  },
+  {
+   "k": "ctydxm",
+   "en": "Increased the number of regions convoy defense TFs can cover to 5 base"
+  },
+  {
+   "k": "ftnujr",
+   "en": "We now count convoy presence in each region rather than by individual route for mission escorting efficiency"
+  },
+  {
+   "k": "9oegs7",
+   "en": "Updated passive sub reveal chance per combat tick to have a generally higher chance of revealing subs"
+  },
+  {
+   "k": "nq00sn",
+   "en": "Added increasing passive sub detection in combat by a power of a scripted value in order to make large differences in detection and visibility more pronounced"
+  },
+  {
+   "k": "epxeyu",
+   "en": "Increased hit profile of torpedoes to 145, reducing their accuracy"
+  },
+  {
+   "k": "1ol5oha",
+   "en": "Increased visibility of convoys from 10 to 14"
+  },
+  {
+   "k": "1hc1z06",
+   "en": "Lowered sub hidden escape speed from 0.25 to 0.18"
+  },
+  {
+   "k": "193m0sn",
+   "en": "Added an increase to sub visibility as part of the positioning penalty in naval combat"
+  },
+  {
+   "k": "slv98k",
+   "en": "Lowered depth charges hit chance mult from 1.8 to 1.1"
+  },
+  {
+   "k": "1maow79",
+   "en": "Lowered hit profile for depth charges from 120.0 to 100.0"
+  },
+  {
+   "k": "13r6bih",
+   "en": "Increased hide time on subs from 12 to 16"
+  },
+  {
+   "k": "hborx7",
+   "en": "Increased sub base reveal chance from 0.4 to 0.5"
+  },
+  {
+   "k": "1daxat",
+   "en": "Increased visibility of t4 sub from 10.0 to 12.0"
+  },
+  {
+   "k": "18faev6",
+   "en": "Reduced diceroll chance, based upon spotting stats, to find trade convoys at sea"
+  },
+  {
+   "k": "24z325",
+   "en": "Ship Module Balance"
+  },
+  {
+   "k": "hy0yp8",
+   "en": "A general initiative to remove inconsistencies and give better balance to modules"
+  },
+  {
+   "k": "2pjjqv",
+   "en": "Halved reliability penalties of fire control modules"
+  },
+  {
+   "k": "kkiyhc",
+   "en": "Lessened speed reduction debuffs from ship AA modules"
+  },
+  {
+   "k": "jkrkpy",
+   "en": "Light battery 1 added speed reduction of 1.0%"
+  },
+  {
+   "k": "1324yez",
+   "en": "Light battery 2 added speed reduction of 1.0%"
+  },
+  {
+   "k": "14ozl08",
+   "en": "Light battery 3 added speed reduction of 1.0%"
+  },
+  {
+   "k": "ih6v1p",
+   "en": "Light battery 4 added speed reduction of 1.0%"
+  },
+  {
+   "k": "u8fu5i",
+   "en": "Light battery DP added speed reduction of 2.0%"
+  },
+  {
+   "k": "uc43gr",
+   "en": "Light-Medium Battery changed speed reduction to 3.0%"
+  },
+  {
+   "k": "18p7vsg",
+   "en": "Light-Medium Battery changed speed reduction to 4.0%"
+  },
+  {
+   "k": "47e7sh",
+   "en": "Light-Medium Battery changed speed reduction to 5.0%"
+  },
+  {
+   "k": "tqqv2c",
+   "en": "Medium Battery 1 changed speed reduction to 4.0%"
+  },
+  {
+   "k": "1w1rmjm",
+   "en": "Medium Battery 1 changed speed reduction to 6.0%"
+  },
+  {
+   "k": "5h75qj",
+   "en": "Medium Battery 1 changed speed reduction to 7.0%"
+  },
+  {
+   "k": "5i70a0",
+   "en": "Medium Battery 1 changed speed reduction to 8.0%"
+  },
+  {
+   "k": "u6gc8p",
+   "en": "Heavy battery 1 added speed reduction of 5.0%"
+  },
+  {
+   "k": "1dwjguj",
+   "en": "Heavy battery 2 changed speed reduction to 8.0%"
+  },
+  {
+   "k": "1y1393x",
+   "en": "Heavy battery 3 changed speed reduction to 9.0%"
+  },
+  {
+   "k": "1wap9kg",
+   "en": "Heavy battery 4 changed speed reduction to 10%"
+  },
+  {
+   "k": "887oi2",
+   "en": "Secondaries 1 added speed reduction of 2.0%"
+  },
+  {
+   "k": "1e1q9er",
+   "en": "Secondaries 2 added speed reduction of 2.0%"
+  },
+  {
+   "k": "knmf9e",
+   "en": "DP Secondaries added speed reduction of 3.0%"
+  },
+  {
+   "k": "pgqkzm",
+   "en": "Added speed reduction to all ship torpedo modules of 1.0%"
+  },
+  {
+   "k": "oye7jf",
+   "en": "Changed speed reduction of all AA modules to 1.0%"
+  },
+  {
+   "k": "66mdb1",
+   "en": "Added speed reduction to mine sweepers of 2.0%"
+  },
+  {
+   "k": "q26xln",
+   "en": "Added speed reduction to mine layers of 2.0%"
+  },
+  {
+   "k": "1vbtpkh",
+   "en": "Increased light ship engine 1 speed by 0.01"
+  },
+  {
+   "k": "jw76i3",
+   "en": "Increased light ship engine 2, 3 and 4 speed by 0.02"
+  },
+  {
+   "k": "y301gw",
+   "en": "Increased heavy ship engine 1 speed to 7"
+  },
+  {
+   "k": "1oftmwt",
+   "en": "Less Bloody Naval Combat"
+  },
+  {
+   "k": "1lewmf7",
+   "en": "Lowered naval damage scaling from 1.0 to 0.6"
+  },
+  {
+   "k": "1f3hqrq",
+   "en": "Lowered naval org damage scaling from 1.6 to 1.0"
+  },
+  {
+   "k": "1d80vw2",
+   "en": "Lowered base escape speed for all ships from 0.65 to 0.45"
+  },
+  {
+   "k": "1vum1vd",
+   "en": "Increased speed based escape speed from ships to 0.95 from 0.75"
+  },
+  {
+   "k": "61zvwj",
+   "en": "Removed focus targeting from fleeing ships"
+  },
+  {
+   "k": "2w722f",
+   "en": "General Naval Balance"
+  },
+  {
+   "k": "5pr61t",
+   "en": "Carriers, capital ships and subs now get to fire before screen ships at different intervals of the start of battles (carriers get the most) to model their better weapon projection"
+  },
+  {
+   "k": "1cpu0a0",
+   "en": "Gave fleet in being doctrine some extra surface detection to destroyers and light cruisers"
+  },
+  {
+   "k": "1ac7cb7",
+   "en": "Improved sortie efficiency from floating airfield doctrine research from 10% to 20%"
+  },
+  {
+   "k": "15dvohs",
+   "en": "Damaged convoys now add up at the end of combat and diceroll if they die to make convoy raiding/air attacks less binary"
+  },
+  {
+   "k": "13zkt2e",
+   "en": "Ship anti air kills now diceroll when calculating kills rather always killing something which works badly with convoys with their numerous, yet low damage."
+  },
+  {
+   "k": "ypztn9",
+   "en": "Added a balance factor to make actual unit transfers more resilient to 1-tick naval strikes"
+  },
+  {
+   "k": "1v1on1h",
+   "en": "Tweaked hit chance for ship AA to be more resonable for small damage numbers"
+  },
+  {
+   "k": "7wxh87",
+   "en": "Reduced detection values for spotting unit transfers to avoid long naval transfers getting extremely slowed down too easily by the enemy."
+  },
+  {
+   "k": "vewjlp",
+   "en": "Other Balance"
+  },
+  {
+   "k": "1kmjxjr",
+   "en": "Increased army fuel cost mult from 0.4 to 0.5"
+  },
+  {
+   "k": "sl6zgm",
+   "en": "Increased air fuel cost mult from 0.32 to 0.35"
+  },
+  {
+   "k": "1d9vhgv",
+   "en": "Decreased xp from air to air and air to ground combat"
+  },
+  {
+   "k": "1ieb2un",
+   "en": "Reduced air defence of strat bombers at all tiers"
+  },
+  {
+   "k": "97cln9",
+   "en": "Government in exile will now always get few convoys when exile start"
+  },
+  {
+   "k": "y5na7b",
+   "en": "Manchukuo now correctly gains benefits from buffing Japan in the custom game difficulty settings"
+  },
+  {
+   "k": "1os9sb7",
+   "en": "Fixed exploit letting you gain mission efficiency while training"
+  },
+  {
+   "k": "1n9caiv",
+   "en": "Text edit boxes fixed to not lose focus at inappropriate moments, including the console window when tag switching."
+  },
+  {
+   "k": "1oizp0f",
+   "en": "Splitting a task force now replicates the mission"
+  },
+  {
+   "k": "kcbgto",
+   "en": "Takao Gato should now have the correct portrait with DoD disabled"
+  },
+  {
+   "k": "1fo5rti",
+   "en": "Fixed erroneous localisation in Yugoslav request for airplanes sale event."
+  },
+  {
+   "k": "o7kwoj",
+   "en": "fixed a decision displaying an empty string for a hidden event"
+  },
+  {
+   "k": "1exqhi5",
+   "en": "We now filter out convoy attacks that do not kill convoys, and nothing else is damaged from becoming naval battle reports"
+  },
+  {
+   "k": "12uzxdo",
+   "en": "Improved feedback in naval mines tooltip"
+  },
+  {
+   "k": "aprjww",
+   "en": "fixed issues with tooltips for equipment variants with no parents"
+  },
+  {
+   "k": "vnvn9e",
+   "en": "We now display the correct number of decision possible to take in a tooltip (issue with costs)"
+  },
+  {
+   "k": "zzpadp",
+   "en": "Cleaned up tooltip of technology bonus"
+  },
+  {
+   "k": "xnr7wb",
+   "en": "Tooltip corrections on production window"
+  },
+  {
+   "k": "19piwnd",
+   "en": "Fixed various issues in naval tooltips"
+  },
+  {
+   "k": "1gs9kyc",
+   "en": "Fixed several texts for ship refitting"
+  },
+  {
+   "k": "cslgij",
+   "en": "Naval regions are now correctly deselected when you open the construction view, even from the alert bar."
+  },
+  {
+   "k": "8lxwxo",
+   "en": "Display IC of armor module for ships in the tooltip"
+  },
+  {
+   "k": "fo34cw",
+   "en": "Fixed wrong information about design company in tooltip of ship hull"
+  },
+  {
+   "k": "1txlxap",
+   "en": "We now close transfer ships window when the original task force is deselected."
+  },
+  {
+   "k": "si3pha",
+   "en": "Always hide tech change confirmation box when closing research window."
+  },
+  {
+   "k": "1ka21tq",
+   "en": "When selecting units that are all grouped under the same army group color it will now also select the AG to make working with divisions easier"
+  },
+  {
+   "k": "135tcmb",
+   "en": "The button pause in top bar will be correctly updated if the player opens game menu during a peace conference."
+  },
+  {
+   "k": "1g4iwiv",
+   "en": "Made the tooltip on sea zone if a fleet is selected or a taskforce is selected more consistent."
+  },
+  {
+   "k": "r1l3du",
+   "en": "Increased amount of selected mapicons that are allowed to be shown expanded to work better with new fronts"
+  },
+  {
+   "k": "12kdsbo",
+   "en": "fixed army groups being left selected when you create a new group when only some units are selected"
+  },
+  {
+   "k": "ld7225",
+   "en": "fixed a case where order delete mode is wrongfully being cancelled if your current selection has no orders"
+  },
+  {
+   "k": "fnrqoq",
+   "en": "you can assign new deployments to army groups orders now"
+  },
+  {
+   "k": "iw7bm6",
+   "en": "Fuel returns to UI list for other countries after lend-lease requesting from a country"
+  },
+  {
+   "k": "vs9gdp",
+   "en": "Netherlands AI will now prioritize taking \"Cave with X\" focuses, if the target country is a player and has successfully raised their Trade Influence high enough to enable the NL to take it."
+  },
+  {
+   "k": "1r2ri7a",
+   "en": "ai will care more about non-capital areas if its capital is safe"
+  },
+  {
+   "k": "1w6vfdj",
+   "en": "Ai invasion scoring now looks at particular invasion point or best score for areas within controller area of target rather than... first province"
+  },
+  {
+   "k": "1vozfys",
+   "en": "US Ai should no longer pick ideology advisors in historical mode"
+  },
+  {
+   "k": "1ubqz0s",
+   "en": "Told AI not to blow up the Suez Canal if there are no enemy troops nearby"
+  },
+  {
+   "k": "k5vvpm",
+   "en": "improved ai GER & ITA strategy against SOV that shares the borders"
+  },
+  {
+   "k": "1pb2e",
+   "en": "Made AI creates the order groups at the same time it creates the army within to help reduce shuffling of divisions along the frontline"
+  },
+  {
+   "k": "1btcj1m",
+   "en": "Fixed lingering numeric overflow in AI equipment calculation during multiplication of large numbers."
+  },
+  {
+   "k": "1tca8ih",
+   "en": "fixed ai reordering its army groups when the front flips"
+  },
+  {
+   "k": "ric9pr",
+   "en": "fixed unit shuffling when units are assigned to a front that only borders a lake"
+  },
+  {
+   "k": "819abk",
+   "en": "Improved AI acceptance of fuel lend lease for GiE."
+  },
+  {
+   "k": "1im8k6g",
+   "en": "Soviet AI should new try to manage its defense priority strategy better"
+  },
+  {
+   "k": "9tjers",
+   "en": "France will now never fight remilitarization of the Rhineland on historical mode"
+  },
+  {
+   "k": "1y3pcyn",
+   "en": "Ensured AI will not unintentionally end up in ideological civil wars due to political events fired at high ideology support."
+  },
+  {
+   "k": "9m30fv",
+   "en": "Modding"
+  },
+  {
+   "k": "1esss0r",
+   "en": "gfx files are reloadable now (!!!!!!)"
+  },
+  {
+   "k": "hybsms",
+   "en": "added some temp variables for peace conf triggers"
+  },
+  {
+   "k": "9ofd63",
+   "en": "added global.majors & global.countries game variable arrays"
+  },
+  {
+   "k": "k5mps4",
+   "en": "fixed attack_level & defense_level triggers not working"
+  },
+  {
+   "k": "r5xeg0",
+   "en": "New on_action: assume_faction_leadership"
+  },
+  {
+   "k": "do7dh7",
+   "en": "Added on_war and on_peace on_actions being called when starting or ending any war relation"
+  },
+  {
+   "k": "10ib7i2",
+   "en": "new effect: set_popularities"
+  },
+  {
+   "k": "1c3j6j8",
+   "en": "Portrait pools are now appended for countries instead of replaced"
+  },
+  {
+   "k": "1dgocx5",
+   "en": "is_core_of now always checks original tags"
+  },
+  {
+   "k": "trlob9",
+   "en": "Updated the is_exiled_leader_from trigger to allow the same basic scope targets as has_attache_from."
+  },
+  {
+   "k": "qy4w94",
+   "en": "In debug mode the detailed side panels of naval battles will show a very rough cost comparison of losses"
+  },
+  {
+   "k": "cgmwpt",
+   "en": "Fixed some scope issues with meta_trigger and for_each_scope trigger/effects"
+  },
+  {
+   "k": "fah0vv",
+   "en": "Fixed scripted UI AIs being disabled"
+  },
+  {
+   "k": "1ur2pjs",
+   "en": "Database"
+  },
+  {
+   "k": "vudryz",
+   "en": "tweaked Italian name list for ships"
+  },
+  {
+   "k": "1luk29l",
+   "en": "Fixed an issue where Imperial Germany could not give names to its submarines"
+  },
+  {
+   "k": "fypwhz",
+   "en": "fixed some inconsistencies in ship naming in the non-MtG 1936 Italy naval OoB"
+  },
+  {
+   "k": "zymo1i",
+   "en": "enabled Chinese naming lists for ships for all Chinese factions"
+  },
+  {
+   "k": "1fuxt2w",
+   "en": "cleaned up some scripts in New Zealand"
+  },
+  {
+   "k": "1h83hpk",
+   "en": "Stability & Performance"
+  },
+  {
+   "k": "1rqpoz0",
+   "en": "Updated the automatic crash reporter"
+  },
+  {
+   "k": "aa52m3",
+   "en": "Improved performance of a number of scripted triggers based on the work of Antoni Baum (Yard1)"
+  },
+  {
+   "k": "i0fb49",
+   "en": "Stopped triggering the OS at game start about the game not responding to user inputs"
+  },
+  {
+   "k": "3cgr6r",
+   "en": "CTD fix when triyng to puppet a nation that is at war"
+  },
+  {
+   "k": "lv2cua",
+   "en": "Circular Reference CTD for relative_position_id in national focus fixed"
+  },
+  {
+   "k": "1vcwiz",
+   "en": "You can now scuttle a carrier without crashing the game"
+  },
+  {
+   "k": "18crm85",
+   "en": "Fixed crashes with meta_trigger and meta_effect when they were created in multiple threads simultaneously."
+  },
+  {
+   "k": "100lpyn",
+   "en": "See also"
+  },
+  {
+   "k": "1r8wvbp",
+   "en": "Patches"
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "yl874",
+   "en": "Forum: Patch 1.7 Hydra Live - Checksum d12e, 2019-04-06"
+  }
+ ]
+}

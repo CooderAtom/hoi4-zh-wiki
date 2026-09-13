@@ -1,0 +1,1193 @@
+{
+ "batch": 97,
+ "items": [
+  {
+   "k": "1k4iqp2",
+   "zh": "流亡国家抵抗度目标修正的最小值与最大值。使用合法性进行插值"
+  },
+  {
+   "k": "6xjq33",
+   "zh": "RESISTANCE_TARGET_MODIFIER_OCCUPIED_IS_EXILE_MAX"
+  },
+  {
+   "k": "gf0lyx",
+   "zh": "RESISTANCE_TARGET_MODIFIER_POP_LOW"
+  },
+  {
+   "k": "2vh0mp",
+   "zh": "我们将抵抗度目标降低多少"
+  },
+  {
+   "k": "3jqa6g",
+   "zh": "RESISTANCE_TARGET_MODIFIER_POP_VERY_LOW"
+  },
+  {
+   "k": "r14hg7",
+   "zh": "RESISTANCE_POP_LOW_CUTOFF"
+  },
+  {
+   "k": "8jkv7c",
+   "zh": "RESISTANCE_POP_VERY_LOW_CUTOFF"
+  },
+  {
+   "k": "17ntea6",
+   "zh": "RESISTANCE_TARGET_MIN_CAP_FOR_NON_COMPLIANCE"
+  },
+  {
+   "k": "17nugw8",
+   "zh": "对于非顺从度来源，最低抵抗度目标将被限制到该百分比"
+  },
+  {
+   "k": "xekrv7",
+   "zh": "RESISTANCE_DECAY_BASE"
+  },
+  {
+   "k": "aiy9qn",
+   "zh": "基础抵抗度衰减"
+  },
+  {
+   "k": "8mhs6y",
+   "zh": "RESISTANCE_DECAY_MIN"
+  },
+  {
+   "k": "1f856ra",
+   "zh": "最小抵抗度衰减"
+  },
+  {
+   "k": "kasixc",
+   "zh": "RESISTANCE_DECAY_MAX"
+  },
+  {
+   "k": "2c2ozz",
+   "zh": "最大抵抗度衰减"
+  },
+  {
+   "k": "1ft1fhv",
+   "zh": "RESISTANCE_DECAY_MODIFIER_HAS_CLAIM"
+  },
+  {
+   "k": "lm6iyv",
+   "zh": "我方宣称的抵抗度衰减修正"
+  },
+  {
+   "k": "155i2us",
+   "zh": "RESISTANCE_DECAY_MODIFIER_FACTORS"
+  },
+  {
+   "k": "yawxa2",
+   "zh": "抵抗度衰减修正：当抵抗度低于 10% 时衰减获得 -50% 修正，低于 20% 时衰减获得 -25% 修正"
+  },
+  {
+   "k": "17cnpve",
+   "zh": "MIN_DAMAGE_TO_GARRISONS_MODIFIER"
+  },
+  {
+   "k": "aay3f1",
+   "zh": "适用于抵抗度攻击对驻军造成的损失的修正，最多可降低到该数值"
+  },
+  {
+   "k": "dgv1e6",
+   "zh": "RESISTANCE_GROWTH_BASE"
+  },
+  {
+   "k": "hf63o4",
+   "zh": "基础抵抗度增长"
+  },
+  {
+   "k": "gz7ilx",
+   "zh": "RESISTANCE_GROWTH_MIN"
+  },
+  {
+   "k": "10ti6ln",
+   "zh": "最小抵抗度增长"
+  },
+  {
+   "k": "sni9cb",
+   "zh": "RESISTANCE_GROWTH_MAX"
+  },
+  {
+   "k": "1u20dtd",
+   "zh": "最大抵抗度增长"
+  },
+  {
+   "k": "1eikzhs",
+   "zh": "COMPLIANCE_GROWTH_BASE"
+  },
+  {
+   "k": "55j2ha",
+   "zh": "基础顺从度增长"
+  },
+  {
+   "k": "esboa7",
+   "zh": "COMPLIANCE_GROWTH_MIN"
+  },
+  {
+   "k": "krlc9d",
+   "zh": "最小顺从度增长"
+  },
+  {
+   "k": "9rre75",
+   "zh": "COMPLIANCE_GROWTH_MAX"
+  },
+  {
+   "k": "14wtn7n",
+   "zh": "最大顺从度增长"
+  },
+  {
+   "k": "mh8qpy",
+   "zh": "COMPLIANCE_GROWTH_IS_AT_PEACE"
+  },
+  {
+   "k": "1hxs02x",
+   "zh": "和平时期的顺从度增长加成"
+  },
+  {
+   "k": "twoxn4",
+   "zh": "COMPLIANCE_GROWTH_HAS_CLAIM"
+  },
+  {
+   "k": "1h5kalz",
+   "zh": "州拥有宣称时的顺从度增长加成"
+  },
+  {
+   "k": "w6g5ga",
+   "zh": "COMPLIANCE_DECAY_AT_MAX_COMPLIANCE"
+  },
+  {
+   "k": "10xda1r",
+   "zh": "随着顺从度提高，其衰减速度取决于其数值。顺从度应在某个数值上稳定下来，直到其增长发生变化"
+  },
+  {
+   "k": "1w5g6i6",
+   "zh": "COMPLIANCE_DECAY_PER_EXILE_LEGITIMACY"
+  },
+  {
+   "k": "nbmukq",
+   "zh": "合法性越高，顺从度的衰减越大"
+  },
+  {
+   "k": "y55fb0",
+   "zh": "RESISTANCE_RATIO_DIFF_TO_SPREAD"
+  },
+  {
+   "k": "yc3jvt",
+   "zh": "两个相邻州之间的抵抗度差值将按该比例扩散（从抵抗度最高的州向较低的州扩散，且每个州只会被扩散一次）"
+  },
+  {
+   "k": "wvkspy",
+   "zh": "RESISTANCE_ACTIVITY_CHANCE_AT_MAX_RESISTANCE"
+  },
+  {
+   "k": "1wp3ylr",
+   "zh": "RESISTANCE_ACTIVITY_MIN_GARRISON_PENETRATE_CHANCE"
+  },
+  {
+   "k": "1vegkc1",
+   "zh": "RESISTANCE_TARGET_TO_REENABLE_RESISTANCE"
+  },
+  {
+   "k": "1iqolye",
+   "zh": "抵抗度降至零后将被停用，直到抵抗度目标升到该数值以上才会重新启用"
+  },
+  {
+   "k": "1ymb8u",
+   "zh": "GARRISON_LOG_MAX_MONTHS"
+  },
+  {
+   "k": "la0cmc",
+   "zh": "NO_COMPLIANCE_GAIN_ENABLE_LIMIT"
+  },
+  {
+   "k": "yyyq8f",
+   "zh": "至少要有该比例的无驻军法令处于生效状态，无顺从度增长才会生效"
+  },
+  {
+   "k": "4jkmvc",
+   "zh": "GARRISON_MANPOWER_MIN_DELIVERY_SPEED"
+  },
+  {
+   "k": "wywshw",
+   "zh": "无法计算该批次时的最低基础投送速度。"
+  },
+  {
+   "k": "1u3q822",
+   "zh": "GARRISON_MANPOWER_REINFORCEMENT_SPEED"
+  },
+  {
+   "k": "5btb9r",
+   "zh": "驻军人力补充的修正。该值为可投送的最大值，之后会按距离进行修正"
+  },
+  {
+   "k": "19le2k0",
+   "zh": "GARRISON_EQUIPMENT_DELIVERY_SPEED"
+  },
+  {
+   "k": "gipb3a",
+   "zh": "驻军装备补充速度的修正"
+  },
+  {
+   "k": "1h31fc3",
+   "zh": "GARRISON_STR_POW_MANPOWER"
+  },
+  {
+   "k": "1uc6g5f",
+   "zh": "通过将人力缺额提升到该数值的幂来缩放人力缺额的影响。公式：efficiency = 1.0 - manpower_deficiency^GARRISON_STR_POW_MANPOWER"
+  },
+  {
+   "k": "epbwo6",
+   "zh": "GARRISON_STR_POW_EQUIPMENT"
+  },
+  {
+   "k": "jpfl40",
+   "zh": "通过将装备缺额提升到该数值的幂来缩放装备缺额的影响。公式：efficiency = 1.0 - equipment_deficiency^GARRISON_STR_POW_EQUIPMENT"
+  },
+  {
+   "k": "1jtc7ox",
+   "zh": "SUPPRESSION_NEEDED_BY_RESISTANCE_POINT"
+  },
+  {
+   "k": "p7mn50",
+   "zh": "每 1% 抵抗度所需的镇压点数"
+  },
+  {
+   "k": "1fk7pbt",
+   "zh": "SUPPRESSION_NEEDED_LOWER_CAP"
+  },
+  {
+   "k": "bil6vi",
+   "zh": "若抵抗度低于该数值，则在计算镇压需求时始终视其处于该 define 值"
+  },
+  {
+   "k": "1wfiss",
+   "zh": "SUPPRESSION_NEEDED_UPPER_CAP"
+  },
+  {
+   "k": "16d1xdx",
+   "zh": "若抵抗度高于该数值，则在计算镇压需求时始终视其处于该 define 值"
+  },
+  {
+   "k": "17upf9q",
+   "zh": "GARRISON_MANPOWER_LOST_BY_ATTACK"
+  },
+  {
+   "k": "1furcjb",
+   "zh": "驻军每次遭袭时损失的人力比例（该数值会被驻军编制的硬度降低）"
+  },
+  {
+   "k": "atyhrn",
+   "zh": "GARRISON_EQUIPMENT_LOST_BY_ATTACK"
+  },
+  {
+   "k": "x20x8a",
+   "zh": "驻军每次遭袭时损失的装备比例（该数值会被驻军编制的硬度降低）"
+  },
+  {
+   "k": "1hetkrh",
+   "zh": "MAXIMUM_GARRISON_HARDNESS_WHEN_ATTACKED"
+  },
+  {
+   "k": "kfqw79",
+   "zh": "用于确保驻军在遭袭时仍会遭受损失的上限，即使硬度接近 100%"
+  },
+  {
+   "k": "b3ma12",
+   "zh": "FOREIGN_MANPOWER_MIN_THRESHOLD"
+  },
+  {
+   "k": "159a4lm",
+   "zh": "AI 一次性愿意提供的最少人力数量，以避免许多奇怪的小额转移。"
+  },
+  {
+   "k": "fxh393",
+   "zh": "MANPOWER_BUFFER_TO_NOT_GIVE_MINOR"
+  },
+  {
+   "k": "1qsvqe2",
+   "zh": "为确定 AI 可以提供多少外国人力，我们计算自身使用的人力并加上该缓冲值。其结果是我们希望保留的人力，适用于小国。因此该数值越高，我们提供的人力越少。"
+  },
+  {
+   "k": "zemm5n",
+   "zh": "MANPOWER_BUFFER_TO_NOT_GIVE_MAJOR"
+  },
+  {
+   "k": "1jx8oym",
+   "zh": "为确定 AI 可以提供多少外国人力，我们计算自身使用的人力并加上该缓冲值。其结果是我们希望保留的人力，适用于主要国家。因此该数值越高，我们提供的人力越少。"
+  },
+  {
+   "k": "a8oxqt",
+   "zh": "MAX_GARRISON_RATIO_WE_AGREE_TO_SUPPORT"
+  },
+  {
+   "k": "78o1lt",
+   "zh": "外国驻军所需人力中，AI 同意用我们的人力支援的部分。若为负数，AI 将不考虑该需求，只计算自己能提供多少。"
+  },
+  {
+   "k": "1cexj0y",
+   "zh": "FOREIGN_MANPOWER_AI_COOLDOWN_DAYS"
+  },
+  {
+   "k": "12ypf3s",
+   "zh": "AI 向我们提供人力后，需经过多少天 AI 才会同意提供更多。"
+  },
+  {
+   "k": "4swzgc",
+   "zh": "INITIAL_HISTORY_RESISTANCE"
+  },
+  {
+   "k": "16iwenm",
+   "zh": "初始殖民地州的抵抗度数值"
+  },
+  {
+   "k": "pz6dwu",
+   "zh": "INITIAL_HISTORY_COMPLIANCE"
+  },
+  {
+   "k": "q78hns",
+   "zh": "初始殖民地州的顺从度数值"
+  },
+  {
+   "k": "1q2hdqf",
+   "zh": "INITIAL_GARRISON_STRENGTH"
+  },
+  {
+   "k": "zxiuqa",
+   "zh": "初始殖民地州的驻军数值"
+  },
+  {
+   "k": "1jzfipn",
+   "zh": "STATE_COMPLIANCE_DECAY_FOR_LOST_STATES"
+  },
+  {
+   "k": "13smvn4",
+   "zh": "失去控制的州的每日顺从度衰减"
+  },
+  {
+   "k": "n3pts6",
+   "zh": "NProduction"
+  },
+  {
+   "k": "1q5u6v9",
+   "zh": "MAX_EQUIPMENT_RESOURCES_NEED"
+  },
+  {
+   "k": "1d50pd",
+   "zh": "一种装备可以依赖的不同战略资源的最大数量。"
+  },
+  {
+   "k": "92msw",
+   "zh": "MAX_CIV_FACTORIES_PER_LINE"
+  },
+  {
+   "k": "mvue53",
+   "zh": "可分配给单条生产线的工厂最大数量。"
+  },
+  {
+   "k": "1wo6c3n",
+   "zh": "DEFAULT_MAX_NAV_FACTORIES_PER_LINE"
+  },
+  {
+   "k": "52clr7",
+   "zh": "FLOATING_HARBOR_MAX_NAV_FACTORIES_PER_LINE"
+  },
+  {
+   "k": "540km8",
+   "zh": "CONVOY_MAX_NAV_FACTORIES_PER_LINE"
+  },
+  {
+   "k": "7hj1d7",
+   "zh": "CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE"
+  },
+  {
+   "k": "1hgazzc",
+   "zh": "MAX_MIL_FACTORIES_PER_LINE"
+  },
+  {
+   "k": "wohusv",
+   "zh": "RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE"
+  },
+  {
+   "k": "141jkkf",
+   "zh": "RAILWAY_GUN_REPAIR_SPEED"
+  },
+  {
+   "k": "1npqjde",
+   "zh": "每个工厂的列车炮兵力修复速度"
+  },
+  {
+   "k": "8ps1aw",
+   "zh": "EFFICIENCY_LOSS_PER_UNUSED_DAY"
+  },
+  {
+   "k": "1f4qch",
+   "zh": "未使用工厂槽位的每日效率损失（效率是按生产线中的每个工厂槽位追踪的）"
+  },
+  {
+   "k": "1lzg5kk",
+   "zh": "RESOURCE_PENALTY_WARNING_CRITICAL_RATIO"
+  },
+  {
+   "k": "5d3k6s",
+   "zh": "若惩罚超过阈值，进度条将切换为红色"
+  },
+  {
+   "k": "rn4bop",
+   "zh": "BASE_FACTORY_SPEED"
+  },
+  {
+   "k": "14f7cuz",
+   "zh": "基础工厂速度倍率（每个工厂提供多少 hoi3 式 IC）。"
+  },
+  {
+   "k": "1dix26o",
+   "zh": "BASE_FACTORY_SPEED_MIL"
+  },
+  {
+   "k": "shba6j",
+   "zh": "BASE_FACTORY_SPEED_NAV"
+  },
+  {
+   "k": "1bfso4w",
+   "zh": "BASE_FACTORY_START_EFFICIENCY_FACTOR"
+  },
+  {
+   "k": "wbwbkb",
+   "zh": "工厂的基础初始效率，以 % 表示。"
+  },
+  {
+   "k": "wkpdhy",
+   "zh": "BASE_FACTORY_MAX_EFFICIENCY_FACTOR"
+  },
+  {
+   "k": "jj0bap",
+   "zh": "工厂的基础最大效率，以 % 表示。"
+  },
+  {
+   "k": "1jga10n",
+   "zh": "BASE_FACTORY_EFFICIENCY_GAIN"
+  },
+  {
+   "k": "5r6dsu",
+   "zh": "基础效率系数。"
+  },
+  {
+   "k": "1j372rq",
+   "zh": "BASE_FACTORY_EFFICIENCY_BALANCE_FACTOR"
+  },
+  {
+   "k": "dkeqz8",
+   "zh": "工厂效率平衡系数"
+  },
+  {
+   "k": "11bhpwg",
+   "zh": "BASE_FACTORY_EFFICIENCY_VARIANT_CHANGE_FACTOR"
+  },
+  {
+   "k": "1mkr51y",
+   "zh": "切换生产改型的基础系数，以 % 表示。"
+  },
+  {
+   "k": "1121pd1",
+   "zh": "BASE_FACTORY_EFFICIENCY_PARENT_CHANGE_FACTOR"
+  },
+  {
+   "k": "1xn5qek",
+   "zh": "切换生产父代<->子代的基础系数，以 % 表示。"
+  },
+  {
+   "k": "vr7jb9",
+   "zh": "BASE_FACTORY_EFFICIENCY_FAMILY_CHANGE_FACTOR"
+  },
+  {
+   "k": "940xhe",
+   "zh": "切换为同一系列生产的基础系数，以 % 表示。"
+  },
+  {
+   "k": "t9o7qy",
+   "zh": "BASE_FACTORY_EFFICIENCY_ARCHETYPE_CHANGE_FACTOR"
+  },
+  {
+   "k": "1wiphep",
+   "zh": "切换为同一原型生产的基础系数，以 % 表示。"
+  },
+  {
+   "k": "2nh9m3",
+   "zh": "EQUIPMENT_BASE_LEND_LEASE_WEIGHT"
+  },
+  {
+   "k": "1uwoc35",
+   "zh": "基础装备租借权重"
+  },
+  {
+   "k": "sawfxh",
+   "zh": "EQUIPMENT_LEND_LEASE_WEIGHT_FACTOR"
+  },
+  {
+   "k": "1j9frvy",
+   "zh": "基础装备租借系数"
+  },
+  {
+   "k": "1rnu3sj",
+   "zh": "LEND_LEASE_DELIVERY_TOTAL_DAYS"
+  },
+  {
+   "k": "mtcyf0",
+   "zh": "租借交付之间的间隔天数"
+  },
+  {
+   "k": "k6ecip",
+   "zh": "ANNEX_STOCKPILES_RATIO"
+  },
+  {
+   "k": "jks7kv",
+   "zh": "吞并时将转移多少库存装备"
+  },
+  {
+   "k": "i8y635",
+   "zh": "ANNEX_FIELD_EQUIPMENT_RATIO"
+  },
+  {
+   "k": "1eti0lv",
+   "zh": "吞并时将从已部署的师转移多少装备"
+  },
+  {
+   "k": "1yec8um",
+   "zh": "ANNEX_FUEL_RATIO"
+  },
+  {
+   "k": "19mil3d",
+   "zh": "吞并时将转移多少燃料"
+  },
+  {
+   "k": "1j2f4h5",
+   "zh": "ANNEX_CONVOYS_RATIO"
+  },
+  {
+   "k": "8k6o64",
+   "zh": "吞并时将转移多少运输船队"
+  },
+  {
+   "k": "1wyc56u",
+   "zh": "MIN_POSSIBLE_TRAINING_MANPOWER"
+  },
+  {
+   "k": "1hq6jgj",
+   "zh": "最少可有多少条部署线在进行训练"
+  },
+  {
+   "k": "yceokd",
+   "zh": "MIN_FIELD_TO_TRAINING_MANPOWER_RATIO"
+  },
+  {
+   "k": "12a5wo1",
+   "zh": "在外陆军可接受训练的比例 %"
+  },
+  {
+   "k": "14ecxpt",
+   "zh": "CAPITULATE_STOCKPILES_RATIO"
+  },
+  {
+   "k": "1ua8bh",
+   "zh": "投降时将从已部署的师转移多少装备"
+  },
+  {
+   "k": "1gc4ha6",
+   "zh": "CAPITULATE_FUEL_RATIO"
+  },
+  {
+   "k": "jt6vav",
+   "zh": "投降时将转移多少燃料"
+  },
+  {
+   "k": "1h5jg80",
+   "zh": "INFRA_MAX_CONSTRUCTION_COST_EFFECT"
+  },
+  {
+   "k": "17e98v5",
+   "zh": "在基础设施更高的州建造将降低共用建筑的花费。"
+  },
+  {
+   "k": "1lnlwt3",
+   "zh": "PRODUCTION_RESOURCE_LACK_PENALTY"
+  },
+  {
+   "k": "i8ile",
+   "zh": "每个工厂缺乏资源时的惩罚降低量"
+  },
+  {
+   "k": "1u3tmll",
+   "zh": "CIC_BANK_SPEED_BOOST_FACTOR"
+  },
+  {
+   "k": "10ek44b",
+   "zh": "CIC 储备可按该系数提升生产速度（0.5 表示 50 %）"
+  },
+  {
+   "k": "ilvpno",
+   "zh": "MIN_LICENSE_ACTIVE_DAYS"
+  },
+  {
+   "k": "1k128wa",
+   "zh": "许可生效的最少天数"
+  },
+  {
+   "k": "o3dyx7",
+   "zh": "BASE_LICENSE_IC_COST"
+  },
+  {
+   "k": "crcq21",
+   "zh": "租借许可的基础 IC 花费"
+  },
+  {
+   "k": "1ezo9gu",
+   "zh": "LICENSE_IC_COST_YEAR_INCREASE"
+  },
+  {
+   "k": "1iv4o7h",
+   "zh": "装备年份在 1936 年之后每过一年装备的 IC 花费"
+  },
+  {
+   "k": "1bt41cl",
+   "zh": "LICENSE_EQUIPMENT_BASE_SPEED"
+  },
+  {
+   "k": "1bidguv",
+   "zh": "授权装备的基础 MIC 速度修正"
+  },
+  {
+   "k": "1sucx2c",
+   "zh": "LICENSE_EQUIPMENT_TECH_SPEED_PER_YEAR"
+  },
+  {
+   "k": "1kc2k8v",
+   "zh": "实际装备与最新装备每相差一年时，授权装备的 MIC 速度修正"
+  },
+  {
+   "k": "1eu2dq8",
+   "zh": "LICENSE_EQUIPMENT_TECH_SPEED_MAX_YEARS"
+  },
+  {
+   "k": "1ufmwnh",
+   "zh": "MIC 速度修正适用的最大年数"
+  },
+  {
+   "k": "hihozy",
+   "zh": "LICENSE_EQUIPMENT_SPEED_NOT_FACTION"
+  },
+  {
+   "k": "a9mbk0",
+   "zh": "不处于同一阵营时授权装备的 MIC 速度修正"
+  },
+  {
+   "k": "82sohd",
+   "zh": "LICENSE_EQUIPMENT_UPGRADE_XP_FACTOR"
+  },
+  {
+   "k": "10l7227",
+   "zh": "升级授权装备的经验花费"
+  },
+  {
+   "k": "bzu6kb",
+   "zh": "LICENSE_EQUIPMENT_SPEED_NO_LICENSE"
+  },
+  {
+   "k": "9oxwbe",
+   "zh": "生产无授权装备的惩罚"
+  },
+  {
+   "k": "1epoz8d",
+   "zh": "CONVERSION_SPEED_BONUS"
+  },
+  {
+   "k": "7adbyb",
+   "zh": "改装装备时生产速度的修正"
+  },
+  {
+   "k": "1qxeasz",
+   "zh": "EQUIPMENT_MODULE_ADD_XP_COST"
+  },
+  {
+   "k": "ijvnrh",
+   "zh": "创建装备改型时，在空槽位中添加新装备模块的经验花费。"
+  },
+  {
+   "k": "vj3ahg",
+   "zh": "EQUIPMENT_MODULE_REPLACE_XP_COST"
+  },
+  {
+   "k": "10wj0j2",
+   "zh": "创建装备改型时，用一个不相关模块替换某个装备模块的经验花费。"
+  },
+  {
+   "k": "6vzpj",
+   "zh": "EQUIPMENT_MODULE_CONVERT_XP_COST"
+  },
+  {
+   "k": "1j1sk12",
+   "zh": "创建装备改型时，将某个装备模块转换为相关模块的经验花费。"
+  },
+  {
+   "k": "1wgydqa",
+   "zh": "EQUIPMENT_MODULE_REMOVE_XP_COST"
+  },
+  {
+   "k": "hb4swv",
+   "zh": "创建装备改型时，移除某个装备模块并让槽位空置的经验花费。"
+  },
+  {
+   "k": "1h7v3g",
+   "zh": "BASE_NAVAL_EQUIPMENT_CONVERSION_IC_COST_FACTOR"
+  },
+  {
+   "k": "12x0wdg",
+   "zh": "始终计入改装花费的船体工业花费比例。"
+  },
+  {
+   "k": "14hr5gv",
+   "zh": "BASE_LAND_EQUIPMENT_CONVERSION_IC_COST_FACTOR"
+  },
+  {
+   "k": "18zu7kp",
+   "zh": "始终计入改装花费的底盘工业花费比例。"
+  },
+  {
+   "k": "e0l9sb",
+   "zh": "MIN_NAVAL_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR"
+  },
+  {
+   "k": "1iqrrrg",
+   "zh": "任何改装都至少需要花费的海军装备战略资源花费的最低比例。"
+  },
+  {
+   "k": "1arcoeu",
+   "zh": "MIN_LAND_EQUIPMENT_CONVERSION_RESOURCE_COST_FACTOR"
+  },
+  {
+   "k": "igxq0d",
+   "zh": "任何改装都至少需要花费的陆军装备战略资源花费的最低比例。"
+  },
+  {
+   "k": "1t70bem",
+   "zh": "SHIP_REFIT_MAX_PROGRESS_TO_CANCEL"
+  },
+  {
+   "k": "j933s9",
+   "zh": "在无需自沉舰船的情况下仍允许取消改装的最大改装进度 %。"
+  },
+  {
+   "k": "9os8pk",
+   "zh": "SHIP_REFIT_DAMAGE_TO_PROGRESS_FACTOR"
+  },
+  {
+   "k": "1xvb03l",
+   "zh": "当舰船在改装期间受损（例如港口打击）时，伤害会转而计入生产线进度。该变量用于平衡这一效果。"
+  },
+  {
+   "k": "10afbk0",
+   "zh": "MINIMUM_NUMBER_OF_FACTORIES_TAKEN_BY_CONSUMER_GOODS_VALUE"
+  },
+  {
+   "k": "b0ywbb",
+   "zh": "我们必须投入消费品生产的工厂数量下限，按数值计。"
+  },
+  {
+   "k": "1bv5vqo",
+   "zh": "MINIMUM_NUMBER_OF_FACTORIES_TAKEN_BY_CONSUMER_GOODS_PERCENT"
+  },
+  {
+   "k": "55fe3h",
+   "zh": "我们必须投入消费品生产的工厂数量下限，按百分比计。"
+  },
+  {
+   "k": "19kj4mk",
+   "zh": "INITIAL_ALLOWED_FACTORY_RATIO_FOR_REPAIRS"
+  },
+  {
+   "k": "5ipbtl",
+   "zh": "允许用于自动修复的工厂最大百分比"
+  },
+  {
+   "k": "1886s9x",
+   "zh": "NMarket"
+  },
+  {
+   "k": "1wk4ch7",
+   "zh": "PURCHASE_CONTRACT_DELIVERY_TOTAL_DAYS"
+  },
+  {
+   "k": "17e4op9",
+   "zh": "采购合同交付之间的间隔天数"
+  },
+  {
+   "k": "1i56ju1",
+   "zh": "IC_TO_CIC_FACTOR"
+  },
+  {
+   "k": "1ixcftv",
+   "zh": "用于将 IC 花费映射为 CIC 花费的系数。应为正数。"
+  },
+  {
+   "k": "1i60cr4",
+   "zh": "MAX_CIV_FACTORIES_PER_CONTRACT"
+  },
+  {
+   "k": "14mvhei",
+   "zh": "可用于支付单份合同的工厂最大数量。"
+  },
+  {
+   "k": "1x2pxo8",
+   "zh": "LOW_PRICE_LEVEL_FACTOR"
+  },
+  {
+   "k": "ljamqc",
+   "zh": "低价位等级的装备基础价格系数。应处于 (0,1] 区间内"
+  },
+  {
+   "k": "144q3qk",
+   "zh": "HIGH_PRICE_LEVEL_FACTOR"
+  },
+  {
+   "k": "6a30qb",
+   "zh": "高价位等级的装备基础价格系数。应大于 1。"
+  },
+  {
+   "k": "rntdae",
+   "zh": "MIN_DELIVERY_LIMIT_WARNING_UI"
+  },
+  {
+   "k": "1ob602w",
+   "zh": "低于该交付百分比时，我们希望让玩家知道该合同效率低下。[0,1]"
+  },
+  {
+   "k": "13qxtrr",
+   "zh": "PURCHASE_CONTRACT_SUBSIDY_BONUS_SPEED_FACTOR"
+  },
+  {
+   "k": "lieum1",
+   "zh": "补贴带来的速度加成系数"
+  },
+  {
+   "k": "m5fn4x",
+   "zh": "CONVOY_WEIGHT_OVERRIDE"
+  },
+  {
+   "k": "9lk15n",
+   "zh": "覆盖国际市场中运输船队的默认租借权重"
+  },
+  {
+   "k": "vv9vvd",
+   "zh": "REQUEST_AUTOMATION_AUTO_ACCEPT_MARKET_ACCESS_DEFAULT"
+  },
+  {
+   "k": "xzl1gr",
+   "zh": "默认是否应接受其他国家的市场准入请求。"
+  },
+  {
+   "k": "1go249r",
+   "zh": "REQUEST_AUTOMATION_AUTO_SEND_MARKET_ACCESS_DEFAULT"
+  },
+  {
+   "k": "sbcbri",
+   "zh": "默认是否应向其他国家发送市场准入请求。"
+  },
+  {
+   "k": "1f59nzd",
+   "zh": "REQUEST_AUTOMATION_AUTO_ACCEPT_PURCHASE_DEFAULT"
+  },
+  {
+   "k": "324swo",
+   "zh": "false"
+  },
+  {
+   "k": "f6shqm",
+   "zh": "默认是否应接受其他国家的采购请求。"
+  },
+  {
+   "k": "1h5zlcq",
+   "zh": "CONTRACT_ESTIMATE_AVERAGE_CONVOY_COUNT_ALPHA"
+  },
+  {
+   "k": "1oh25yz",
+   "zh": "每日运输船队数量对平均值的影响强度（1.0 表示只使用新数值作为平均值）"
+  },
+  {
+   "k": "1kgw6kd",
+   "zh": "CONTRACT_ESTIMATE_AVERAGE_DAILY_PRODUCTION_ALPHA"
+  },
+  {
+   "k": "88ggrt",
+   "zh": "每日产量对平均值的影响强度（1.0 表示只使用新数值作为平均值）"
+  },
+  {
+   "k": "tme1na",
+   "zh": "CONTRACT_ESTIMATE_AVERAGE_CONVOY_COUNT_SNAP_LIMIT"
+  },
+  {
+   "k": "1tz5y81",
+   "zh": "若当前可用运输船队数量与估算值之差小于该数值，我们将使用当前值进行计算。"
+  },
+  {
+   "k": "10pi9an",
+   "zh": "CONTRACT_ESTIMATE_AVERAGE_DAILY_PRODUCTION_SNAP_LIMIT"
+  },
+  {
+   "k": "717qfp",
+   "zh": "若当前每日产量与估算值之差小于该数值，我们将使用当前值进行计算。"
+  },
+  {
+   "k": "1nn173e",
+   "zh": "CONTRACT_ESTIMATE_AVERAGE_CONVOY_SUNK_MULTIPLIER_ALPHA"
+  },
+  {
+   "k": "14li4uu",
+   "zh": "每日被击沉效率对平均值的影响强度（1.0 表示只使用新数值作为平均值）"
+  },
+  {
+   "k": "8mbiue",
+   "zh": "CONTRACT_ESTIMATE_AVERAGE_CONVOY_SUNK_MULTIPLIER_SNAP_LIMIT"
+  },
+  {
+   "k": "1vixi70",
+   "zh": "若当前被击沉效率对应的运输船队数量与估算值之差小于该数值，我们将使用当前值进行计算。"
+  },
+  {
+   "k": "1o0yxw4",
+   "zh": "WARNING_CONVOYS_SUNK_MAX_DAYS"
+  },
+  {
+   "k": "7i9xgo",
+   "zh": "若在这么多天内出现运输船队被击沉，合同将显示运输船队被击沉消息"
+  },
+  {
+   "k": "10ar8ir",
+   "zh": "NTechnology"
+  },
+  {
+   "k": "91q0xl",
+   "zh": "MAX_SUBTECHS"
+  },
+  {
+   "k": "13i9x02",
+   "zh": "一项科技可以拥有的子科技最大数量。"
+  },
+  {
+   "k": "1gsw4qq",
+   "zh": "BASE_RESEARCH_POINTS_SAVED"
+  },
+  {
+   "k": "4oafqy",
+   "zh": "每个科研槽国家可保存的基础科研点数。"
+  },
+  {
+   "k": "k1fhc6",
+   "zh": "BASE_YEAR_AHEAD_PENALTY_FACTOR"
+  },
+  {
+   "k": "diwd91",
+   "zh": "基础超前研究惩罚"
+  },
+  {
+   "k": "mud3dn",
+   "zh": "BASE_TECH_COST"
+  },
+  {
+   "k": "l3srs2",
+   "zh": "一项科技的基础花费。会乘以科技花费与超前研究惩罚"
+  },
+  {
+   "k": "1lsxumx",
+   "zh": "MAX_TECH_SHARING_BONUS"
+  },
+  {
+   "k": "ft6nj9",
+   "zh": "可立即应用的最大科技共享加成"
+  },
+  {
+   "k": "cl2r83",
+   "zh": "LICENSE_PRODUCTION_TECH_BONUS"
+  },
+  {
+   "k": "8vlmrq",
+   "zh": "许可生产技术加成"
+  },
+  {
+   "k": "l8bbo4",
+   "zh": "DEFAULT_XP_UNLOCK_RESEARCH_COST"
+  },
+  {
+   "k": "hl1s3r",
+   "zh": "直接解锁一项科研的默认经验花费"
+  },
+  {
+   "k": "f5c43j",
+   "zh": "DEFAULT_XP_BOOST_RESEARCH_COST"
+  },
+  {
+   "k": "153r7eh",
+   "zh": "加速科研进程的默认经验花费"
+  },
+  {
+   "k": "1o1h101",
+   "zh": "DEFAULT_XP_BOOST_RESEARCH_BONUS"
+  },
+  {
+   "k": "1thutoc",
+   "zh": "使用经验研究某个项目时获得的默认研究加成"
+  },
+  {
+   "k": "id4uop",
+   "zh": "MIN_RESEARCH_SPEED"
+  },
+  {
+   "k": "ejjzwq",
+   "zh": "科研速度不能低于该数值"
+  },
+  {
+   "k": "nowg72",
+   "zh": "USE_BONUS_REGRET_TIMER"
+  },
+  {
+   "k": "18kngp2",
+   "zh": "玩家在使用了有限科技加成后可以反悔的天数"
+  },
+  {
+   "k": "5smuxu",
+   "zh": "NPolitics"
+  },
+  {
+   "k": "1qs0qwk",
+   "zh": "BASE_LEADER_TRAITS"
+  },
+  {
+   "k": "3uno3j",
+   "zh": "将领特质的基础数量。"
+  },
+  {
+   "k": "kwb4go",
+   "zh": "MAX_RANDOM_LEADERS"
+  },
+  {
+   "k": "j947sh",
+   "zh": "每个政党可拥有的随机领导人最大数量。"
+  },
+  {
+   "k": "sgbxsf",
+   "zh": "BASE_POLITICAL_POWER_INCREASE"
+  },
+  {
+   "k": "xa9wa9",
+   "zh": "每周政治点数增长量。"
+  },
+  {
+   "k": "mg29ow",
+   "zh": "ARMY_LEADER_COST"
+  },
+  {
+   "k": "1vjt759",
+   "zh": "招募新将领的指挥点数花费，即「该数值」 * number_of_existing_leaders_of_type"
+  },
+  {
+   "k": "i46lmd",
+   "zh": "NAVY_LEADER_COST"
+  },
+  {
+   "k": "wbvb7f",
+   "zh": "ARMY_LEADER_MAX_COST"
+  },
+  {
+   "k": "12kt91f",
+   "zh": "修正之前的花费上限"
+  },
+  {
+   "k": "9wsnru",
+   "zh": "NAVY_LEADER_MAX_COST"
+  },
+  {
+   "k": "1ev09xr",
+   "zh": "LEADER_TRAITS_XP_SHOW"
+  },
+  {
+   "k": "1dq57t1",
+   "zh": "特质需要在将领提示框中显示所需的经验值。"
+  },
+  {
+   "k": "5n43w7",
+   "zh": "REVOLTER_PARTY_POPULARITY"
+  },
+  {
+   "k": "s2p3i6",
+   "zh": "内战爆发时叛军政党失去 80% 支持率"
+  },
+  {
+   "k": "1wmo4re",
+   "zh": "MIN_OVERTHROWN_GOVERNMENT_SUPPORT_RATIO"
+  },
+  {
+   "k": "1ouhi3z",
+   "zh": "傀儡化政府后新政府可获得的最低支持率"
+  },
+  {
+   "k": "dv8bem",
+   "zh": "NUM_OCCUPATION_POLICIES"
+  },
+  {
+   "k": "8itcss",
+   "zh": "可能的占领政策数量"
+  },
+  {
+   "k": "12adoor",
+   "zh": "DEFAULT_OCCUPATION_POLICY"
+  },
+  {
+   "k": "fv2x8j",
+   "zh": "占领政策的默认值"
+  },
+  {
+   "k": "1p1wfz9",
+   "zh": "INSTANT_WIN_REVOLTER_POPULARITY_RATIO"
+  },
+  {
+   "k": "12fio4a",
+   "zh": "在单省份州中立即获胜所需的最低政党支持率"
+  },
+  {
+   "k": "bmy9e2",
+   "zh": "INSTANT_WIN_POPULARITY_WIN"
+  },
+  {
+   "k": "pv0gww",
+   "zh": "新的政党支持率"
+  },
+  {
+   "k": "1r8kbqm",
+   "zh": "NBuildings"
+  },
+  {
+   "k": "gmkklv",
+   "zh": "ANTI_AIR_SUPERIORITY_MULT"
+  },
+  {
+   "k": "6g4dwn",
+   "zh": "我方防空炮能降低敌方多少制空权？通常每级建筑 = -1 削减。乘以该系数。"
+  },
+  {
+   "k": "cfdu07",
+   "zh": "SAM_MISSION_SUPERIORITY"
+  },
+  {
+   "k": "1etw5va",
+   "zh": "每支执行 SAM 任务的火箭航空队提供多少制空权。"
+  },
+  {
+   "k": "1kei3mw",
+   "zh": "MAX_BUILDING_LEVELS"
+  },
+  {
+   "k": "1jxp3iv",
+   "zh": "建筑可拥有的最大等级。"
+  },
+  {
+   "k": "vqh5oa",
+   "zh": "AIRBASE_CAPACITY_MULT"
+  }
+ ]
+}

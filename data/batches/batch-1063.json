@@ -1,0 +1,802 @@
+{
+ "batch": 1063,
+ "pages": [
+  "Military industrial organization modding"
+ ],
+ "chars": 4229,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1nne90",
+   "en": "entrenchment"
+  },
+  {
+   "k": "175j5tm",
+   "en": "fuel_capacity"
+  },
+  {
+   "k": "1yn5uv8",
+   "en": "Ships"
+  },
+  {
+   "k": "1ttn466",
+   "en": "lg_armor_piercing"
+  },
+  {
+   "k": "xfpa1l",
+   "en": "lg_attack"
+  },
+  {
+   "k": "c5t7tm",
+   "en": "hg_armor_piercing"
+  },
+  {
+   "k": "1o2hnt1",
+   "en": "hg_attack"
+  },
+  {
+   "k": "1pvhhsd",
+   "en": "torpedo_attack"
+  },
+  {
+   "k": "10jj9x6",
+   "en": "sub_attack"
+  },
+  {
+   "k": "1td7lr3",
+   "en": "anti_air_attack"
+  },
+  {
+   "k": "148wxs",
+   "en": "surface_detection"
+  },
+  {
+   "k": "1uk6t09",
+   "en": "sub_detection"
+  },
+  {
+   "k": "p9dosu",
+   "en": "sub_visibility"
+  },
+  {
+   "k": "1eta269",
+   "en": "surface_visibility"
+  },
+  {
+   "k": "ge9gej",
+   "en": "naval_speed"
+  },
+  {
+   "k": "opxgut",
+   "en": "naval_range"
+  },
+  {
+   "k": "1qne9w3",
+   "en": "max_strength"
+  },
+  {
+   "k": "j8jg75",
+   "en": "fuel_consumption"
+  },
+  {
+   "k": "19uembk",
+   "en": "manpower"
+  },
+  {
+   "k": "16rkm9j",
+   "en": "naval_supremacy_factor"
+  },
+  {
+   "k": "ltx2qp",
+   "en": "naval_torpedo_enemy_critical_chance_factor"
+  },
+  {
+   "k": "1l72kxf",
+   "en": "naval_torpedo_damage_reduction_factor"
+  },
+  {
+   "k": "1nyg7bd",
+   "en": "carrier_size"
+  },
+  {
+   "k": "w938wg",
+   "en": "mines_sweeping"
+  },
+  {
+   "k": "2y9ykb",
+   "en": "mines_planting"
+  },
+  {
+   "k": "yr9sos",
+   "en": "naval_torpedo_hit_chance_factor"
+  },
+  {
+   "k": "1em0y0m",
+   "en": "naval_light_gun_hit_chance_factor"
+  },
+  {
+   "k": "1w5ns39",
+   "en": "naval_heavy_gun_hit_chance_factor"
+  },
+  {
+   "k": "wzw92q",
+   "en": "Planes"
+  },
+  {
+   "k": "1my6uf9",
+   "en": "air_superiority"
+  },
+  {
+   "k": "20dl3r",
+   "en": "naval_strike_attack"
+  },
+  {
+   "k": "1m3t3vi",
+   "en": "naval_strike_targetting"
+  },
+  {
+   "k": "vb2rqq",
+   "en": "resources"
+  },
+  {
+   "k": "1lthmpf",
+   "en": "thrust"
+  },
+  {
+   "k": "mdd4u1",
+   "en": "weight"
+  },
+  {
+   "k": "18ygx1p",
+   "en": "air_range"
+  },
+  {
+   "k": "1bq48vr",
+   "en": "air_agility"
+  },
+  {
+   "k": "58j4hw",
+   "en": "air_attack"
+  },
+  {
+   "k": "1uitsxg",
+   "en": "air_defence"
+  },
+  {
+   "k": "1408dv4",
+   "en": "air_ground_attack"
+  },
+  {
+   "k": "1emlh1c",
+   "en": "air_bombing"
+  },
+  {
+   "k": "qt02bb",
+   "en": "night_penalty"
+  },
+  {
+   "k": "thjlrg",
+   "en": "Production Boni"
+  },
+  {
+   "k": "wbw6z6",
+   "en": "All production boni apply to the production lines the MIO has been attached to."
+  },
+  {
+   "k": "2fe1bo",
+   "en": "production_cost_factor"
+  },
+  {
+   "k": "1lbirwz",
+   "en": "Reduces the production cost."
+  },
+  {
+   "k": "5cp1s8",
+   "en": "production_cost_factor = 0.05"
+  },
+  {
+   "k": "1woqspj",
+   "en": "production_capacity_factor"
+  },
+  {
+   "k": "xo1ybo",
+   "en": "Increases the production output, accelerating the # items produced per day."
+  },
+  {
+   "k": "1pvv0l5",
+   "en": "production_capacity_factor = 0.1"
+  },
+  {
+   "k": "44pkvh",
+   "en": "production_efficiency_cap_factor"
+  },
+  {
+   "k": "1gc9ski",
+   "en": "Increase the maximum production efficiency. Keep in mind, ships don't have that ..."
+  },
+  {
+   "k": "1nao0iu",
+   "en": "production_efficiency_cap_factor = 0.2"
+  },
+  {
+   "k": "1bh0fyi",
+   "en": "production_efficiency_gain_factor"
+  },
+  {
+   "k": "7h1ch4",
+   "en": "Increase the rate, at which the production efficiency increases. Keep in mind, ships don't have that ..."
+  },
+  {
+   "k": "h0pyz",
+   "en": "production_efficiency_gain_factor = 0.24"
+  },
+  {
+   "k": "105egpa",
+   "en": "production_resource_need_factor"
+  },
+  {
+   "k": "aemgym",
+   "en": "Change the amount of raw resources (Iron, Tungsten, Chromium, ...) needed."
+  },
+  {
+   "k": "e7zsf",
+   "en": "production_resource_need_factor = -0.1"
+  },
+  {
+   "k": "1yr7jlh",
+   "en": "production_resource_penalty_factor"
+  },
+  {
+   "k": "1re7m0y",
+   "en": "Modify the penalty the production line suffers from not having enough resources."
+  },
+  {
+   "k": "9gi8xq",
+   "en": "production_resource_penalty_factor = -0.1"
+  },
+  {
+   "k": "13w4hs7",
+   "en": "production_conversion_speed_factor"
+  },
+  {
+   "k": "845g7o",
+   "en": "Change the speed, at which equipment conversions are performed."
+  },
+  {
+   "k": "awbro5",
+   "en": "production_conversion_speed_factor = 0.5"
+  },
+  {
+   "k": "5p87q4",
+   "en": "Organization Boni"
+  },
+  {
+   "k": "1e0fn14",
+   "en": "Organization Boni apply to the MIO globally and not to a specific equipment line / product. As such they cannot be constrained."
+  },
+  {
+   "k": "gjewvm",
+   "en": "military_industrial_organization_research_bonus"
+  },
+  {
+   "k": "1ur03q7",
+   "en": "A flat increase to the research bonus percentage applied by the MIO. If previously it gave 20% bonus and receives a \"0.1\" bonus here, it will then give a 30% bonus to research."
+  },
+  {
+   "k": "n61inw",
+   "en": "military_industrial_organization_research_bonus = 0.1"
+  },
+  {
+   "k": "tq8lw7",
+   "en": "military_industrial_organization_design_team_assign_cost"
+  },
+  {
+   "k": "1hqlb1p",
+   "en": "Modifier over how much it costs to assign an MIO in the Tank/Aircraft/Ship designer."
+  },
+  {
+   "k": "b572ld",
+   "en": "military_industrial_organization_design_team_assign_cost = -0.2"
+  },
+  {
+   "k": "1g296vg",
+   "en": "military_industrial_organization_design_team_change_cost"
+  },
+  {
+   "k": "nxt3pg",
+   "en": "Modifier over how much it costs to pull the latest changes from an already assigned MIO for a given Tank/Aircraft/Ship design."
+  },
+  {
+   "k": "1wrased",
+   "en": "military_industrial_organization_design_team_change_cost = -0.1"
+  },
+  {
+   "k": "15dgyy0",
+   "en": "military_industrial_organization_industrial_manufacturer_assign_cost"
+  },
+  {
+   "k": "pazeaq",
+   "en": "How much does it cost to assign a MIO to an industrial (that is non-designer) production line."
+  },
+  {
+   "k": "1ycw2qg",
+   "en": "military_industrial_organization_industrial_manufacturer_assign_cost = -0.2"
+  },
+  {
+   "k": "g7vzmb",
+   "en": "military_industrial_organization_task_capacity"
+  },
+  {
+   "k": "1pg32cm",
+   "en": "Flat increase to the number of tasks an MOI can be assigned to in parallel."
+  },
+  {
+   "k": "pd9fir",
+   "en": "military_industrial_organization_task_capacity = 5"
+  },
+  {
+   "k": "b4909e",
+   "en": "military_industrial_organization_size_up_requirement"
+  },
+  {
+   "k": "4s4xkw",
+   "en": "Modifies the funds it takes to level up an MIO, effectively accelerating the rate at which you unlock traits. Consider applying this if you design a MIO with an above-average number of traits."
+  },
+  {
+   "k": "6b1tvn",
+   "en": "military_industrial_organization_size_up_requirement = -0.1"
+  },
+  {
+   "k": "tbk9ll",
+   "en": "military_industrial_organization_funds_gain"
+  },
+  {
+   "k": "o1kyz5",
+   "en": "Modifies the rate at which funds are obtained, which are then used to level the MIO and unlock molre traits. Another lever to increase the levelling rate of an MIO."
+  },
+  {
+   "k": "1c6vl6a",
+   "en": "military_industrial_organization_funds_gain = 0.2"
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "59iejl",
+   "en": "Documentation"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "bbbsh0",
+   "en": "List of modifiers"
+  },
+  {
+   "k": "gkat0o",
+   "en": "Scopes"
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "22wvcr",
+   "en": "On actions"
+  },
+  {
+   "k": "10y68xx",
+   "en": "Data structures"
+  },
+  {
+   "k": "icm958",
+   "en": "Flags"
+  },
+  {
+   "k": "1fldcnt",
+   "en": "Event targets"
+  },
+  {
+   "k": "135tw29",
+   "en": "Country tag aliases"
+  },
+  {
+   "k": "xqivz6",
+   "en": "Variables"
+  },
+  {
+   "k": "14wbbvz",
+   "en": "Arrays"
+  },
+  {
+   "k": "wdu62e",
+   "en": "Scripting"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "475d63",
+   "en": "AI focuses"
+  },
+  {
+   "k": "gpz0z1",
+   "en": "Autonomous states"
+  },
+  {
+   "k": "a6cuzg",
+   "en": "Balances of power"
+  },
+  {
+   "k": "14khzdq",
+   "en": "Bookmarks/Scenarios"
+  },
+  {
+   "k": "xrnqxs",
+   "en": "Game rules"
+  },
+  {
+   "k": "1xa6gia",
+   "en": "Buildings"
+  },
+  {
+   "k": "8657g9",
+   "en": "Characters and traits"
+  },
+  {
+   "k": "o977ej",
+   "en": "Cosmetic tags"
+  },
+  {
+   "k": "8zhvfx",
+   "en": "Countries"
+  },
+  {
+   "k": "19eysrz",
+   "en": "Divisions"
+  },
+  {
+   "k": "vwifyo",
+   "en": "Decisions"
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "1xtq0ev",
+   "en": "Equipment"
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "e65ons",
+   "en": "Factions"
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "1cd8sst",
+   "en": "Ideologies"
+  },
+  {
+   "k": "1oopcvp",
+   "en": "Military industrial organizations"
+  },
+  {
+   "k": "k2esk3",
+   "en": "National focuses"
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "uu0bc4",
+   "en": "Scripted GUI"
+  },
+  {
+   "k": "1jzxqx9",
+   "en": "Technologies and doctrines"
+  },
+  {
+   "k": "ur18vw",
+   "en": "Units"
+  },
+  {
+   "k": "j1sac1",
+   "en": "Map"
+  },
+  {
+   "k": "5afzz",
+   "en": "States"
+  },
+  {
+   "k": "8ppvas",
+   "en": "Supply areas"
+  },
+  {
+   "k": "1v2pifw",
+   "en": "Strategic regions"
+  },
+  {
+   "k": "1cffeuu",
+   "en": "Graphical"
+  },
+  {
+   "k": "yolbkg",
+   "en": "Interface"
+  },
+  {
+   "k": "2hqnqn",
+   "en": "Graphical assets"
+  },
+  {
+   "k": "6px9my",
+   "en": "Entities"
+  },
+  {
+   "k": "1n1sxcz",
+   "en": "Posteffects"
+  },
+  {
+   "k": "1fu6htw",
+   "en": "Particles"
+  },
+  {
+   "k": "t16z95",
+   "en": "Fonts"
+  },
+  {
+   "k": "1ig52hy",
+   "en": "Cosmetic"
+  },
+  {
+   "k": "9k7pgr",
+   "en": "Portraits"
+  },
+  {
+   "k": "65pf3n",
+   "en": "Namelists"
+  },
+  {
+   "k": "ohwdis",
+   "en": "Music"
+  },
+  {
+   "k": "1dvvwok",
+   "en": "Sound"
+  },
+  {
+   "k": "ukzedx",
+   "en": "Other"
+  },
+  {
+   "k": "1uzifys",
+   "en": "Console commands"
+  },
+  {
+   "k": "1t5bxxt",
+   "en": "Troubleshooting"
+  },
+  {
+   "k": "1djsobe",
+   "en": "Mod structure"
+  },
+  {
+   "k": "pw0jjk",
+   "en": "Mods"
+  },
+  {
+   "k": "pui2ou",
+   "en": "Nudger"
+  }
+ ]
+}

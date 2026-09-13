@@ -1,0 +1,690 @@
+{
+ "batch": 1155,
+ "pages": [
+  "Bookmark modding"
+ ],
+ "chars": 6567,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "rzrtga",
+   "en": "⟦0⟧ is the ⟦1⟧ that gets used for the setting.",
+   "frags": 2
+  },
+  {
+   "k": "1oz6re5",
+   "en": "modifier = diff_strong_ai_generic"
+  },
+  {
+   "k": "4p9u08",
+   "en": "⟦0⟧ is a list of country tags that should have the modifier applied.",
+   "frags": 1
+  },
+  {
+   "k": "bi1f05",
+   "en": "countries = { ABC DEF GHI }"
+  },
+  {
+   "k": "1o2kx8r",
+   "en": "⟦0⟧ is how much the modifier should be multiplied to on the maximum scale. This scales linearly depending on which value the player chose out of 5 total positions the slider can take, from 0 to the number in the attribute. For example, if the static modifier contains ⟦1⟧ and the multiplier is set to 2.0, each position of the slider from left to right will respectively give the country 0%, 20%, 40%, 60%, and 80% ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "7k53t",
+   "en": "multiplier = 2.0"
+  },
+  {
+   "k": "o6nh1b",
+   "en": "stability_factor = 0.4"
+  },
+  {
+   "k": "wnbc3s",
+   "en": "Stability"
+  },
+  {
+   "k": "18xxxnu",
+   "en": "The sliders are positioned in the order ⟦0⟧. In particular, the files in the folder are sorted using the ASCII character order, then the sliders are added in the order that they are defined in the files.",
+   "frags": 1
+  },
+  {
+   "k": "a2sivm",
+   "en": "Example file structure:"
+  },
+  {
+   "k": "whgxlu",
+   "en": "Game rules apply allow the player to choose an option among the selection of a few choices before the game's start, defined in ⟦0⟧ files. For any new game rules, this will ⟦1⟧ change how the ⟦2⟧ evaluates, which can be used in ⟦3⟧ to give a different result based on the game rule.",
+   "frags": 4
+  },
+  {
+   "k": "17qey2f",
+   "en": "only"
+  },
+  {
+   "k": "1ksrbqx",
+   "en": "has_game_rule trigger"
+  },
+  {
+   "k": "10bpvbf",
+   "en": "conditional statements"
+  },
+  {
+   "k": "p2px09",
+   "en": "There are these three general categories of game rules that exist in the base game:"
+  },
+  {
+   "k": "1qegzk8",
+   "en": "One-time change in-game: This usually changes some aspect of the world immediately after the game starts, using ⟦0⟧. For example, the \"nation fragmentation\" game rules fall into this category.",
+   "frags": 1
+  },
+  {
+   "k": "grumh2",
+   "en": "the on_startup on action"
+  },
+  {
+   "k": "121t7lq",
+   "en": "Mechanical change: This changes how some mechanic works by continuously checking for the game rule being set in-game. For example, the game rule to hide obsolete ⟦0⟧ branches does so by including a check for the game rule being set in the ⟦1⟧. These two subsets are particularly notable:",
+   "frags": 2
+  },
+  {
+   "k": "106vgj",
+   "en": "national focus"
+  },
+  {
+   "k": "11rdtzo",
+   "en": "allow_branch of the national focuses to hide"
+  },
+  {
+   "k": "xt39ci",
+   "en": "Diplomatic actions: these game rules modify the prerequisites necessary to execute a diplomatic action. These are usually handled with diplomacy scripted triggers, though occassionally there is distinction that's purely hard-coded (Usually this is the difference between the \"Limited\" and \"Free\" options). AI behaviour: these game rules are checked for within AI strategy plans and enable one to choose a random focus path. The \"random\" option is typically handled by setting a country flag using random_list within the the on_startup on action."
+  },
+  {
+   "k": "1ir3e47",
+   "en": "Entirely hard-coded game rules: Some game rules' values are checked directly in the game's binary and thus are unmoddable for the most part with the exception of deleting them or some options of them. For example, the game rule that changes the maximum level of land forts falls under this category."
+  },
+  {
+   "k": "t5sb69",
+   "en": "Each game rule is defined as a separate root-level block within the ⟦0⟧ file, where the ID of the game rule is the name of this block. These attributes can be used:",
+   "frags": 1
+  },
+  {
+   "k": "1vmso5g",
+   "en": "common/game_rules/"
+  },
+  {
+   "k": "1kcmtra",
+   "en": "⟦0⟧ is the ⟦1⟧ key used as the name of the game rule shown to the player. In particular, the localisation values for this usually include ⟦2⟧ or ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "vgkdon",
+   "en": "flags of countries"
+  },
+  {
+   "k": "qcasrw",
+   "en": "text icons"
+  },
+  {
+   "k": "19tz78t",
+   "en": "⟦0⟧ is the group where this game rule is positioned. ⟦1⟧ and will be automatically created if any game rule uses this group. The group ID also serves as the ⟦2⟧ key used for the name in the currently-enabled language.",
+   "frags": 3
+  },
+  {
+   "k": "12yn1uo",
+   "en": "group = group_id"
+  },
+  {
+   "k": "1bysp8c",
+   "en": "A group needs no other definition"
+  },
+  {
+   "k": "15pedic",
+   "en": "⟦0⟧ is the ⟦1⟧ used as the icon of the game rule. In the base game, these link to images approximately 32x32 pixels large.",
+   "frags": 2
+  },
+  {
+   "k": "8l8b",
+   "en": "icon = GFX_example_sprite"
+  },
+  {
+   "k": "16k9azi",
+   "en": "⟦0⟧ is the DLC required for the game rule to be ⟦1⟧. If the DLC isn't enabled, then the game rule will not be created entirely, which may also manifest in additional entries in error.log when evaluating trigger blocks that reference the game rule. Optional, defaults to the game rule requiring no DLC.",
+   "frags": 2
+  },
+  {
+   "k": "v52jjb",
+   "en": "required_dlc = \"Wojtek Expansion Pack\""
+  },
+  {
+   "k": "dupnej",
+   "en": "created"
+  },
+  {
+   "k": "1dgq6cq",
+   "en": "⟦0⟧ opposite to ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "wivz3v",
+   "en": "exclude_dlc"
+  },
+  {
+   "k": "1ag8636",
+   "en": "required_dlc"
+  },
+  {
+   "k": "1o35cqz",
+   "en": "⟦0⟧ and ⟦1⟧ are used to define options of the game rule, with the latter being automatically selected by default. These can be replicated multiple times. In particular, these have the following attributes: name = option_name is the ID of the option used for the has_game_rule trigger and occassionally hard-coded checks. text = loc_key the localisation key deciding the name of the game rule shown to the player. desc = loc_key the localisation key deciding the text shown to the player when they hover over the option. allow_achievements = yes makes a game rule not disable achievements upon being selected. Since modifying game rules inherently changes the checksum from the base game, which disables achievements, this will not result in any change in a mod. Only works inside of option = { ... }, as the default option already allows achievements.",
+   "frags": 2
+  },
+  {
+   "k": "k6o6xj",
+   "en": "option = { ... }"
+  },
+  {
+   "k": "xqu3vt",
+   "en": "default = { ... }"
+  },
+  {
+   "k": "ejzxuv",
+   "en": "⟦0⟧ is the ID of the option used for the ⟦1⟧ and occassionally hard-coded checks.",
+   "frags": 2
+  },
+  {
+   "k": "1c0n0wk",
+   "en": "name = option_name"
+  },
+  {
+   "k": "och2xv",
+   "en": "⟦0⟧ the ⟦1⟧ key deciding the name of the game rule shown to the player.",
+   "frags": 2
+  },
+  {
+   "k": "1non4oj",
+   "en": "text = loc_key"
+  },
+  {
+   "k": "fryu6t",
+   "en": "⟦0⟧ the ⟦1⟧ key deciding the text shown to the player when they hover over the option.",
+   "frags": 2
+  },
+  {
+   "k": "wa2oio",
+   "en": "⟦0⟧ makes a game rule not disable achievements upon being selected. Since modifying game rules inherently changes the ⟦1⟧ from the base game, which disables achievements, this will not result in any change in a mod. Only works inside of ⟦2⟧, as the default option already allows achievements.",
+   "frags": 3
+  },
+  {
+   "k": "grqkdr",
+   "en": "allow_achievements = yes"
+  },
+  {
+   "k": "qnrmvm",
+   "en": "checksum"
+  },
+  {
+   "k": "65vezf",
+   "en": "References and notes"
+  },
+  {
+   "k": "1a2xoup",
+   "en": "⟦0⟧ ⟦1⟧ The difficulty itself applies a ⟦2⟧ to every country. There can only be 5 (though others can be hidden from the UI, it will still be possible to select them as the last selected difficulty carries over across savefiles), and different modifiers are granted to the players and AI. In particular, ⟦3⟧ to ⟦4⟧ are given to the player-led countries, and ⟦5⟧ to ⟦6⟧ are given to the AI-led countries.",
+   "frags": 7
+  },
+  {
+   "k": "1xnskti",
+   "en": "diff_very_easy_player"
+  },
+  {
+   "k": "1c1arrf",
+   "en": "diff_very_hard_player"
+  },
+  {
+   "k": "kuhcm9",
+   "en": "diff_very_easy_ai"
+  },
+  {
+   "k": "15l1t7k",
+   "en": "diff_very_hard_ai"
+  },
+  {
+   "k": "ca1gwg",
+   "en": "Decided by the max slots in the ⟦0⟧ gridbox in ⟦1⟧, by default defined in ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "pyvpjg",
+   "en": "ideas_grid"
+  },
+  {
+   "k": "1fcrqjo",
+   "en": "focus_grid"
+  },
+  {
+   "k": "59iejl",
+   "en": "Documentation"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "bbbsh0",
+   "en": "List of modifiers"
+  },
+  {
+   "k": "gkat0o",
+   "en": "Scopes"
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "22wvcr",
+   "en": "On actions"
+  },
+  {
+   "k": "10y68xx",
+   "en": "Data structures"
+  },
+  {
+   "k": "icm958",
+   "en": "Flags"
+  },
+  {
+   "k": "1fldcnt",
+   "en": "Event targets"
+  },
+  {
+   "k": "135tw29",
+   "en": "Country tag aliases"
+  },
+  {
+   "k": "xqivz6",
+   "en": "Variables"
+  },
+  {
+   "k": "14wbbvz",
+   "en": "Arrays"
+  },
+  {
+   "k": "wdu62e",
+   "en": "Scripting"
+  },
+  {
+   "k": "mngvdd",
+   "en": "Achievements"
+  },
+  {
+   "k": "475d63",
+   "en": "AI focuses"
+  },
+  {
+   "k": "gpz0z1",
+   "en": "Autonomous states"
+  },
+  {
+   "k": "a6cuzg",
+   "en": "Balances of power"
+  },
+  {
+   "k": "14khzdq",
+   "en": "Bookmarks/Scenarios"
+  },
+  {
+   "k": "1xa6gia",
+   "en": "Buildings"
+  },
+  {
+   "k": "8657g9",
+   "en": "Characters and traits"
+  },
+  {
+   "k": "o977ej",
+   "en": "Cosmetic tags"
+  },
+  {
+   "k": "8zhvfx",
+   "en": "Countries"
+  },
+  {
+   "k": "19eysrz",
+   "en": "Divisions"
+  },
+  {
+   "k": "vwifyo",
+   "en": "Decisions"
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "1xtq0ev",
+   "en": "Equipment"
+  },
+  {
+   "k": "217z8",
+   "en": "Events"
+  },
+  {
+   "k": "e65ons",
+   "en": "Factions"
+  },
+  {
+   "k": "z4qa23",
+   "en": "Ideas"
+  },
+  {
+   "k": "1cd8sst",
+   "en": "Ideologies"
+  },
+  {
+   "k": "1oopcvp",
+   "en": "Military industrial organizations"
+  },
+  {
+   "k": "k2esk3",
+   "en": "National focuses"
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "uu0bc4",
+   "en": "Scripted GUI"
+  },
+  {
+   "k": "1jzxqx9",
+   "en": "Technologies and doctrines"
+  },
+  {
+   "k": "ur18vw",
+   "en": "Units"
+  },
+  {
+   "k": "j1sac1",
+   "en": "Map"
+  },
+  {
+   "k": "5afzz",
+   "en": "States"
+  },
+  {
+   "k": "8ppvas",
+   "en": "Supply areas"
+  },
+  {
+   "k": "1v2pifw",
+   "en": "Strategic regions"
+  },
+  {
+   "k": "1cffeuu",
+   "en": "Graphical"
+  },
+  {
+   "k": "yolbkg",
+   "en": "Interface"
+  },
+  {
+   "k": "2hqnqn",
+   "en": "Graphical assets"
+  },
+  {
+   "k": "6px9my",
+   "en": "Entities"
+  },
+  {
+   "k": "1n1sxcz",
+   "en": "Posteffects"
+  },
+  {
+   "k": "1fu6htw",
+   "en": "Particles"
+  },
+  {
+   "k": "t16z95",
+   "en": "Fonts"
+  },
+  {
+   "k": "1ig52hy",
+   "en": "Cosmetic"
+  },
+  {
+   "k": "9k7pgr",
+   "en": "Portraits"
+  },
+  {
+   "k": "65pf3n",
+   "en": "Namelists"
+  },
+  {
+   "k": "ohwdis",
+   "en": "Music"
+  },
+  {
+   "k": "1dvvwok",
+   "en": "Sound"
+  },
+  {
+   "k": "ukzedx",
+   "en": "Other"
+  },
+  {
+   "k": "1uzifys",
+   "en": "Console commands"
+  },
+  {
+   "k": "1t5bxxt",
+   "en": "Troubleshooting"
+  },
+  {
+   "k": "1djsobe",
+   "en": "Mod structure"
+  },
+  {
+   "k": "pw0jjk",
+   "en": "Mods"
+  },
+  {
+   "k": "pui2ou",
+   "en": "Nudger"
+  }
+ ]
+}

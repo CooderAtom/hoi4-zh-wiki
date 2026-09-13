@@ -1,0 +1,763 @@
+{
+ "batch": 1036,
+ "pages": [
+  "Technology modding"
+ ],
+ "chars": 14957,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "o5u996",
+   "en": "If a technology does ⟦0⟧ have a name defined, it gets 'borrowed' from the equipment that the technology unlocks. This would also make the description the same as the equipment's description, if one is present. This does allow making the names be country-specific by prepending it to the beginning, separated with an underscore. For example, if the technology unlocks ⟦1⟧, then this within any ⟦2⟧ file will make the technology (and equipment) have the name of ⟦3⟧ for ⟦4⟧ and ⟦5⟧ for every other country:",
+   "frags": 6
+  },
+  {
+   "k": "bkgu4q",
+   "en": "not"
+  },
+  {
+   "k": "2ib7bk",
+   "en": "my_equipment_1"
+  },
+  {
+   "k": "nunr4e",
+   "en": "My Honduran equipment"
+  },
+  {
+   "k": "sv02wd",
+   "en": "Honduras"
+  },
+  {
+   "k": "9ts7cj",
+   "en": "My equipment"
+  },
+  {
+   "k": "45page",
+   "en": "HON_my_equipment_1"
+  },
+  {
+   "k": "ktbls6",
+   "en": "Honduran"
+  },
+  {
+   "k": "1mgqrtb",
+   "en": "equipment\""
+  },
+  {
+   "k": "kthv66",
+   "en": "The icon is defined as a spriteType within any ⟦0⟧ file, by prepending the name of the technology with ⟦1⟧ and appending ⟦2⟧ to the end. For example, the following will result in an icon for ⟦3⟧:",
+   "frags": 4
+  },
+  {
+   "k": "dw6d81",
+   "en": "/Hearts of Iron IV/interface/*.gfx"
+  },
+  {
+   "k": "v3z9g5",
+   "en": "GFX_"
+  },
+  {
+   "k": "qy1kf9",
+   "en": "_medium"
+  },
+  {
+   "k": "y538bi",
+   "en": "Here it is the other way around compared to names: if the equipment doesn't have a unique icon defined, then it will use the one defined by the technology. The country-specific equipment and technology icons are done with inserting the country tag between GFX and the name of the technology, still separated with underscores, as ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1mt97c",
+   "en": "name = GFX_HON_my_technology_1_medium"
+  },
+  {
+   "k": "zbb2ai",
+   "en": "Technology's cost"
+  },
+  {
+   "k": "11x4sbw",
+   "en": "There are two primary arguments that modify the cost to a technology."
+  },
+  {
+   "k": "u6j53p",
+   "en": "⟦0⟧ assigns the base research cost for this technology. For comparison, a value of 1 is equal to 100 days worth of research assuming fully default research speed with no modifiers⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "gbq5ps",
+   "en": "research_cost = 1"
+  },
+  {
+   "k": "1uwrwwu",
+   "en": "⟦0⟧ assigns the year at which the technology is intended to be researched. Each year in advance adds +200% to the technology's cost⟦1⟧, applied smoothly depending on the amount of days left. This does not modify the start year shown in the top of the technology folder for some of the folders, this is ⟦2⟧",
+   "frags": 3
+  },
+  {
+   "k": "14v7fts",
+   "en": "start_year = 1935"
+  },
+  {
+   "k": "13mquj7",
+   "en": "defined within the interface file of the folder."
+  },
+  {
+   "k": "mhpra",
+   "en": "Additionally, it's possible to make the cost be modified by ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "i9kski",
+   "en": "other technologies pathing to it"
+  },
+  {
+   "k": "1quewx6",
+   "en": "Position"
+  },
+  {
+   "k": "19a3k35",
+   "en": "In order to connect a technology to a different one within the tree, ⟦0⟧ is used as such in the technology from which ⟦1⟧:",
+   "frags": 2
+  },
+  {
+   "k": "15usumj",
+   "en": "the branch originates"
+  },
+  {
+   "k": "5espef",
+   "en": "In here, the technology where the path leads is specified with leads_to_tech. The path will be created in every folder that contains both of these technologies. This also leads to adding that technology to this technology's tree branch gridbox in every mutual folder. ⟦0⟧ The gridbox is used in order to assign the information used by the ⟦1⟧ block later on: the position of the coordinate origin on the screen, the size in pixels that one unit of x and y represent, and in which direction they aim (used for drawing the path). Add the argument ⟦2⟧ into the path block for secondary paths (such as light cruiser techs leading to heavy cruiser techs without MTG) to prevent the ⟦3⟧ error.",
+   "frags": 4
+  },
+  {
+   "k": "17ljp3i",
+   "en": "If a technology doesn't have any other technology as a requirement using path in any folder where it's placed, then ⟦0⟧ Otherwise, the technology branch will never appear in-game.",
+   "frags": 1
+  },
+  {
+   "k": "1ehdft0",
+   "en": "it must have a separate gridboxType definition within the folder's container window."
+  },
+  {
+   "k": "5h3fny",
+   "en": "folder = { ... }"
+  },
+  {
+   "k": "1mw5c2u",
+   "en": "ignore_for_layout = yes"
+  },
+  {
+   "k": "1ycbd49",
+   "en": "Found multiple potential grid boxes for tech"
+  },
+  {
+   "k": "k3f1t7",
+   "en": "A pathing automatically makes the latter technology require the former. If a technology has several technologies connecting to it via path, then at least one of the technologies leading to it must be researched. If there are multiple technologies leading to this one within the same folder, the technology will use the same gridbox used in the technology pathing to it that was defined the earliest. research_cost_coeff can be used to decrease the cost if needed: if this technology is researched, the technology it paths towards will have this cost multiplied by the research_cost_coeff. This can be used if multiple technologies path to the same technology to make it faster to research if a more 'advanced' technology was researched."
+  },
+  {
+   "k": "1dnu6oc",
+   "en": "Having assigned the technology to a branch, whether by having a different one path to it or by having created a gridboxType definition in the interface file, it is possible to define the exact position of the item with folder:"
+  },
+  {
+   "k": "175ztr1",
+   "en": "In this, the name refers to the folder. The position is in sets of coordinates defined by the slotsize of the gridbox that this technology is assigned to via the path. For example, within the gridbox's definition, ⟦0⟧ would mean that a single unit of either x or y represents 70 pixels in the GUI in the appropriate direction. The direction of x and y depends on the format of the gridbox: a \"LEFT\" format means that x goes up-to-down while y goes left-to-right, while an \"UP\" format would mean that x goes left-to-right while y goes up-to-down. The origin point (i.e. where the technology would be at ⟦1⟧) is assigned by the ⟦2⟧ within the gridbox's definition in the interface file, which uses pixels and is positioned relative to the top-left corner of the window.",
+   "frags": 3
+  },
+  {
+   "k": "fkvniw",
+   "en": "slotsize = { width = 70 height = 70 }"
+  },
+  {
+   "k": "7rv1fg",
+   "en": "x = 0 y = 0"
+  },
+  {
+   "k": "1qh4q4k",
+   "en": "position = { x = 100 y = 100 }"
+  },
+  {
+   "k": "1e69917",
+   "en": "Defining multiple folders for the same technology is done by having multiple of the ⟦0⟧ within the technology. For each folder, the technology must have a gridbox assigned to show up in one of the two ways.",
+   "frags": 1
+  },
+  {
+   "k": "xsr2y",
+   "en": "In order to have a technology as a dependency without having to draw a path, ⟦0⟧ can be used as such:",
+   "frags": 1
+  },
+  {
+   "k": "s39jds",
+   "en": "dependencies"
+  },
+  {
+   "k": "1g1l3ep",
+   "en": "Since this doesn't draw a path, this does not assign the currently-defined technology to the gridbox of either of two technologies. Additionally, this also serves as an AND statement unlike the path that serves as an OR statement: every dependency must be researched to complete this technology, alongside at least one of the paths leading to this technology if there's one."
+  },
+  {
+   "k": "kcctb1",
+   "en": "Additionally, ⟦0⟧ is used to make the technology be mutually-exclusive with every technology specified within. The technologies within are separated with any whitespace characters, such as ⟦1⟧. A XOR should be in every mutually-exclusive technology, specifying the others, having it in just one of technologies isn't enough.",
+   "frags": 2
+  },
+  {
+   "k": "1qw0y3t",
+   "en": "XOR = { ... }"
+  },
+  {
+   "k": "1wwnxke",
+   "en": "XOR = { my_technology_1 my_technology_2 }"
+  },
+  {
+   "k": "1mg4kqi",
+   "en": "Sub-technologies"
+  },
+  {
+   "k": "1ce03tk",
+   "en": "A technology can have specified technologies assigned as sub-technologies by using ⟦0⟧, where every listed technology is a sub-technology. The block contains technologies separated with whitespace characters, such as ⟦1⟧. This also assigns them the indexes of 0 and 1 respectively, ⟦2⟧. If desiring to use a container of a sub-technology with a different index, ⟦3⟧ can overwrite it within the definition of the sub-technology itself. For example, setting it to be 2 will make the game treat it as if it's a third sub-technology that the item has, even if it's the first one, which'll move it to the according position and give it the according icon.",
+   "frags": 4
+  },
+  {
+   "k": "g6l1h7",
+   "en": "sub_technologies = { ... }"
+  },
+  {
+   "k": "1taer4o",
+   "en": "sub_technologies = { my_technology_1 my_technology_2 }"
+  },
+  {
+   "k": "1m8glm8",
+   "en": "which get used in determining which container exactly to use"
+  },
+  {
+   "k": "1rytc4p",
+   "en": "sub_tech_index = 1"
+  },
+  {
+   "k": "42s36j",
+   "en": "As a sub-technology item is directly assigned to each technology folder item as a separate container, the sub-technologies do not need their own gridbox definition and neither do they need the folder argument."
+  },
+  {
+   "k": "1upw6fh",
+   "en": "Categories"
+  },
+  {
+   "k": "1e20wnl",
+   "en": "A technology can have categories assigned to it with ⟦0⟧, where each category is separated with whitespace characters as ⟦1⟧. The player never sees the category for each technology, but it does have certain uses, including but not limited to:",
+   "frags": 2
+  },
+  {
+   "k": "vplpoe",
+   "en": "categories = { ... }"
+  },
+  {
+   "k": "1rmvznh",
+   "en": "categories = { my_category_1 my_category_2 }"
+  },
+  {
+   "k": "dp8gs2",
+   "en": "⟦0⟧. It's possible to make AI prioritise taking technologies within specific categories, such as within AI focuses or AI strategy plans.",
+   "frags": 1
+  },
+  {
+   "k": "1eb02b7",
+   "en": "AI modding"
+  },
+  {
+   "k": "kaysnz",
+   "en": "⟦0⟧. ⟦1⟧ is a special argument argument within idea, characters, and country leader traits that allows modifying the speed of researching a specific technology category.",
+   "frags": 2
+  },
+  {
+   "k": "xzbknc",
+   "en": "research_bonus = { my_category_1 = 0.1 }"
+  },
+  {
+   "k": "h0cp13",
+   "en": "⟦0⟧, that can grant a one-use bonus for each technology within the specified folder.",
+   "frags": 1
+  },
+  {
+   "k": "1din9jh",
+   "en": "the add_tech_bonus effect"
+  },
+  {
+   "k": "sd7z0x",
+   "en": "⟦0⟧, which can be limited to only apply towards specified technologies.",
+   "frags": 1
+  },
+  {
+   "k": "1vyef4x",
+   "en": "Technology sharing groups"
+  },
+  {
+   "k": "1bz123z",
+   "en": "Technology categories are defined within a ⟦0⟧ block within ⟦1⟧ files, where each category is separated with whitespace characters, no other info being assigned to it. For localisation, there are two keys assigned. Taking my_category_1 as an example, it'd have the localisation of this:",
+   "frags": 2
+  },
+  {
+   "k": "89wu8v",
+   "en": "technology_categories = { ... }"
+  },
+  {
+   "k": "rp4qt3",
+   "en": "In particular, the first one, the same as the category's name, is used for most cases (such as the one-time bonuses and technology sharing groups), while the second one, with _research appended in the end, is used for the research_bonus-type modifiers."
+  },
+  {
+   "k": "136dl8z",
+   "en": "Experience costs"
+  },
+  {
+   "k": "lt9rr7",
+   "en": "In order to assign an experience type to a technology, ⟦0⟧ is used. This has 3 types: army, navy, and air. This assigns a particular experience type to the technology.",
+   "frags": 1
+  },
+  {
+   "k": "docwy8",
+   "en": "xp_research_type = army"
+  },
+  {
+   "k": "okez02",
+   "en": "After this, there are two types of experience costs that can be used:"
+  },
+  {
+   "k": "n0p2q0",
+   "en": "⟦0⟧ and ⟦1⟧ can be used to make the technology be ⟦2⟧ by experience. This is done with the naval folder with ⟦3⟧, for example.",
+   "frags": 4
+  },
+  {
+   "k": "jgijbg",
+   "en": "xp_boost_cost = 40"
+  },
+  {
+   "k": "1sx9e",
+   "en": "xp_research_bonus = 1.5"
+  },
+  {
+   "k": "1w42ujh",
+   "en": "boosted"
+  },
+  {
+   "k": "1hpzefz",
+   "en": "Man the Guns"
+  },
+  {
+   "k": "t9s2wm",
+   "en": "⟦0⟧ makes the experience cost fully grant the technology. This in particular was commonly done with doctrines.",
+   "frags": 1
+  },
+  {
+   "k": "148tbgy",
+   "en": "xp_unlock_cost = 100"
+  },
+  {
+   "k": "1gaaggv",
+   "en": "AI weighting"
+  },
+  {
+   "k": "1v4a2et",
+   "en": "In order for the AI to research any technology, you MUST include at least one of its categories in any ⟦0⟧ ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1f5pca",
+   "en": "/Hearts of Iron IV/common/ai_focuses/*.txt"
+  },
+  {
+   "k": "1bf856r",
+   "en": "file"
+  },
+  {
+   "k": "f9lifs",
+   "en": "⟦0⟧ is a ⟦1⟧ that decides the likelihood for the AI to do this focus if ⟦2⟧ is not set. By default, each technology has a score of 1. The arguments of ⟦3⟧ (changing the value), ⟦4⟧, and ⟦5⟧ (multiplying it) can be used to modify it. Within the ⟦6⟧ block, ⟦7⟧ functions as a trigger block where the prior three value-modifying arguments are also supported. The value will be modified if the triggers are true. For example, the following will result in the value of 3 for POL and a value of 1 for every other country:",
+   "frags": 8
+  },
+  {
+   "k": "1ao69lv",
+   "en": "ai_will_do = { ... }"
+  },
+  {
+   "k": "1d2j64p",
+   "en": "MTTH block"
+  },
+  {
+   "k": "1h0qypk",
+   "en": "an AI strategy plan"
+  },
+  {
+   "k": "h5x2oo",
+   "en": "base"
+  },
+  {
+   "k": "gfk7lg",
+   "en": "add"
+  },
+  {
+   "k": "pokujq",
+   "en": "factor"
+  },
+  {
+   "k": "1xpl1mz",
+   "en": "modifier = { ... }"
+  },
+  {
+   "k": "1ovhhev",
+   "en": "An arbitrarily large amount of modifiers is possible to add to an ai_will_do, and they will apply in the order they're put in the code. It is also possible to use ⟦0⟧ within a modifier of the ai_will_do value.",
+   "frags": 1
+  },
+  {
+   "k": "bk83b6",
+   "en": "variables"
+  },
+  {
+   "k": "qcne0",
+   "en": "The way that the value is evaluated for AI picking the technology is that, every 7 days⟦0⟧, it generates a random decimal value between 0 and the ai_will_do value for each of the technologies. There are several modifiers additionally, in order to make the AI take the cost, bonuses, and ahead-of-time into considerations. A lot of AI modifiers that apply to every single technology can be changed within ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1xedfqr",
+   "en": "defines"
+  },
+  {
+   "k": "qgykiz",
+   "en": "Additionally, ⟦0⟧ can be used to make the AI prioritise this technology less or more if it has the specified focus. This includes resources, sub-units, offensive and defensive, or sub-unit categories.",
+   "frags": 1
+  },
+  {
+   "k": "1hu6hg",
+   "en": "ai_research_weights = { offensive = -1.0 }"
+  },
+  {
+   "k": "iu6a78",
+   "en": "Doctrines"
+  },
+  {
+   "k": "nn0ku7",
+   "en": "In order to mark a technology as a doctrine, it must have ⟦0⟧. It also will have to be within a technology folder that's assigned to hold doctrines.",
+   "frags": 1
+  },
+  {
+   "k": "1frzbzv",
+   "en": "doctrine = yes"
+  },
+  {
+   "k": "pqj3gg",
+   "en": "⟦0⟧ is also defined within the first doctrine of the branch in order to let the player know the name of the doctrine branch when hovering over the icon (e.g. ⟦1⟧ or ⟦2⟧). This is a localisation key that gets assigned a value for each language within any ⟦3⟧ file.",
+   "frags": 4
+  },
+  {
+   "k": "1m8glfp",
+   "en": "doctrine_name = my_doctrine_name"
+  },
+  {
+   "k": "5hmnrp",
+   "en": "Strategic destruction"
+  },
+  {
+   "k": "wnulma",
+   "en": "Grand battleplan"
+  },
+  {
+   "k": "1nh7umn",
+   "en": "/Hearts of Iron IV/localisation/"
+  },
+  {
+   "k": "1vakwcc",
+   "en": "Additional"
+  },
+  {
+   "k": "1d5ucsx",
+   "en": "⟦0⟧ is used in order to make the equipment icon show up when hovering over the technology in the tree. This can be useful for technologies which use an icon that's not the same as the equipment that it unlocks, such as the landing craft or rocket engine technologies in base game.",
+   "frags": 1
+  },
+  {
+   "k": "h1tnf1",
+   "en": "show_equipment_icon = yes"
+  },
+  {
+   "k": "1va5h7v",
+   "en": "⟦0⟧ is used in order to force the game to use this technology to use the small item for this particular technology even if it unlocks equipment. Keep in mind that if there is no small item defined, all technologies will use the regular item, so this would only be useful if equipment-unlocking technologies in the folder are split between small and regular items.",
+   "frags": 1
+  },
+  {
+   "k": "kzflyg",
+   "en": "force_use_small_tech_layout = yes"
+  },
+  {
+   "k": "14de5j9",
+   "en": "⟦0⟧ provides additional text when hovering over the technology. ⟦1⟧, rather than overwriting it. This is a localisation key that gets assigned a value for each language within any ⟦2⟧ file.",
+   "frags": 3
+  },
+  {
+   "k": "bux67u",
+   "en": "desc = MY_TECHNOLOGY_SPECIAL"
+  },
+  {
+   "k": "sialsg",
+   "en": "This is in addition to the technology's actual description"
+  },
+  {
+   "k": "uy0v5i",
+   "en": "Examples"
+  },
+  {
+   "k": "288nln",
+   "en": "technologies = { my_technology_1 = { research_cost = 1 start_year = 1937 folder = { name = my_folder position = { x = 0 y = 0 } # Same as gridbox } allow_branch = { has_dlc = \"Wojtek Expansion Pack\" } path = { leads_to_tech = my_technology_3 research_cost_coeff = 1 } path = { leads_to_tech = my_technology_4 research_cost_coeff = 1 } xor = { my_technology_2 } categories = { my_category_1 } ai_research_weights = { defensive = 1 } army_attack_factor = 0.1 } my_technology_2 = { research_cost = 1.5 start_year = 1937 folder = { name = my_folder position = { x = 0 y = 0 } # Same as gridbox } xor = { my_technology_1 } categories = { my_category_2 } ai_research_weights = { offensive = 1 } enable_equipment_modules = { my_module_1 } enable_subunits = { my_subunit_1 } } my_technology_3 = { research_cost = 1 start_year = 1938 folder = { name = my_folder position = { x = -1 y = 1 } } path = { leads_to_tech = my_technology_5 research_cost_coeff = 1 } enable_equipments = { my_equipment_1 } force_use_small_tech_layout = yes show_equipment_icon = yes categories = { my_category_1 } } my_technology_4 = { research_cost = 1.5 start_year = 1939 folder = { name = my_folder position = { x = 1 y = 1 } } path = { leads_to_tech = my_technology_5 research_cost_coeff = 0.8 # Make the technology faster to research if this one was researched and not just my_technology_3 } enable_equipments = { my_equipment_2 } categories = { my_category_1 } } my_technology_5 = { research_cost = 1.75 start_year = 1940 folder = { name = my_folder position = { x = 0 y = 2 } } categories = { my_category_1 } enable_building = { building = my_building level = 1 } sub_technologies = { my_technology_6 } } my_technology_6 = { allow = { has_built = { type = my_building value > 3 } } research_cost = 0.8 start_year = 1941 categories = { my_category_1 } enable_building = { building = my_building level = 3 } } }"
+  },
+  {
+   "k": "ncx7re",
+   "en": "Folders"
+  },
+  {
+   "k": "1irwoy4",
+   "en": "Folders are defined as blocks within the ⟦0⟧ block in ⟦1⟧ files, where the name of the block within is used as the folder's ID. In particular, there are 3 arguments that can go into folders:",
+   "frags": 2
+  },
+  {
+   "k": "jvchyu",
+   "en": "technology_folders = { ... }"
+  },
+  {
+   "k": "14i9b8x",
+   "en": "⟦0⟧ is a trigger block that must be met for the folder to be ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1jf3t3n",
+   "en": "available = { has_dlc = \"Poland: United and Ready\" }"
+  },
+  {
+   "k": "nktwgx",
+   "en": "visible"
+  },
+  {
+   "k": "1m4zwgy",
+   "en": "⟦0⟧ is the intelligence ledger to which the folder is assigned to. Possible values are ⟦1⟧, ⟦2⟧, ⟦3⟧, ⟦4⟧ (Appearing on each of the prior ledgers), ⟦5⟧, ⟦6⟧, and ⟦7⟧.",
+   "frags": 8
+  },
+  {
+   "k": "zpuy14",
+   "en": "ledger = army"
+  },
+  {
+   "k": "197zpd0",
+   "en": "army"
+  },
+  {
+   "k": "e7dxjr",
+   "en": "air"
+  },
+  {
+   "k": "18o6jtd",
+   "en": "navy"
+  },
+  {
+   "k": "ycuxi",
+   "en": "military"
+  },
+  {
+   "k": "2262o8",
+   "en": "civilian"
+  },
+  {
+   "k": "5b8o90",
+   "en": "all"
+  },
+  {
+   "k": "1wa75fd",
+   "en": "hidden"
+  },
+  {
+   "k": "fgbz08",
+   "en": "⟦0⟧, if specified, marks the folder as being a doctrine folder. Defaults to false if left out.",
+   "frags": 1
+  },
+  {
+   "k": "qw1d9g",
+   "en": "The localisation key used for the name of the technology is the same as the folder's name, while the description is the name with _desc appended. For example,"
+  }
+ ]
+}

@@ -1,0 +1,1254 @@
+{
+ "batch": 1048,
+ "pages": [
+  "Interface modding"
+ ],
+ "chars": 14775,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1mwo0bs",
+   "en": "The graphical user interface elements are defined within ⟦0⟧ files, as typical code formatting. The files only decide on the positions of how elements are arranged, ⟦1⟧ is used to assign effects to newly-created interface elements.",
+   "frags": 2
+  },
+  {
+   "k": "kbj8vh",
+   "en": "/Hearts of Iron IV/interface/*.gui"
+  },
+  {
+   "k": "197y8hw",
+   "en": "scripted GUI"
+  },
+  {
+   "k": "thnxru",
+   "en": "Overview"
+  },
+  {
+   "k": "1jcbyxz",
+   "en": "The interface consists of ⟦0⟧ and elements within them. Each element, other than containers, must reside in a container. Containers can be nested in other elements to organise their positions. Gridboxes are used to clone the same container several times, with different details specified for each one. Newly-added elements can have their effects defined in ⟦1⟧, while the effects of base game's GUI are hard-coded, that is, it's impossible to modify what it does directly.",
+   "frags": 2
+  },
+  {
+   "k": "1c3vx1n",
+   "en": "container windows (or containers)"
+  },
+  {
+   "k": "1etufty",
+   "en": "The elements are shown in the order that they are defined in the file: what's placed later will be shown on top of what's placed earlier. The files are contained within a ⟦0⟧ block overarching the entire file.",
+   "frags": 1
+  },
+  {
+   "k": "x70ht6",
+   "en": "guiTypes = { ... }"
+  },
+  {
+   "k": "1fbgrgi",
+   "en": "Constants"
+  },
+  {
+   "k": "1pogoni",
+   "en": "This section is transcluded from ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1ewg182",
+   "en": "Constants serve as a way to use the same value with a reference. The constants are marked with the ⟦0⟧ symbol when defining or using them. An example definition is the following:",
+   "frags": 1
+  },
+  {
+   "k": "1fqk9fu",
+   "en": "This can later be used in the file as, for example, ⟦0⟧. These definitions can be in any point of the file.",
+   "frags": 1
+  },
+  {
+   "k": "1da19dr",
+   "en": "cost = @CONSTANT_1"
+  },
+  {
+   "k": "pzf82v",
+   "en": "Constants are available in the vast majority of game files, including most, if not all, *.txt and *.gui files. Constants can be used as a way to link several values to be the same if they can easily be changed at any point in the development. However, constants that store a string for its value can only be used in triggers and the attributes of elements and windows, trying to use them in an effect will result in an \"invalid database object for effect/trigger\" error. For example, if there is a large decision system where every decision is intended to have the same cost, then these constants may be used if the political power cost gets changed mid-development for better balance. Another example would be a scripted GUI container: if a large multitude of elements are to be at the same X or Y position, it might be worth it to link them to be a constant in case their position could be changed for better appearance or to fit in another GUI element."
+  },
+  {
+   "k": "1yjxkd6",
+   "en": "Example ⟦0⟧ that utilises constants:",
+   "frags": 1
+  },
+  {
+   "k": "1npqgv",
+   "en": "decision file"
+  },
+  {
+   "k": "enckx",
+   "en": "Containers"
+  },
+  {
+   "k": "8lknoy",
+   "en": "Containers are used to group together elements and associate them with an internal function, written as a ⟦0⟧ block.",
+   "frags": 1
+  },
+  {
+   "k": "1srxhcf",
+   "en": "containerWindowType = { ... }"
+  },
+  {
+   "k": "1gyazs2",
+   "en": "New containers that are independent (not inside of any other container) will not show up in-game by default. For one to show up, it is required for it to be tied to a function, such as ⟦0⟧, which decides where it should show and when. In some cases, new containers can be created for the internally-defined functions, such as ⟦1⟧ or ⟦2⟧. In most cases, however, a scripted GUI would be required to make a new container show up.",
+   "frags": 3
+  },
+  {
+   "k": "1liuras",
+   "en": "new technology folders"
+  },
+  {
+   "k": "1awpwpa",
+   "en": "getting a music station to show up"
+  },
+  {
+   "k": "17gr16g",
+   "en": "If a container is defined within another container, it will appear at the same time as the window containing it unless more information is defined within the function. A scripted GUI cannot be assigned to such a container, however. In some cases, it's not necessary for a container to be visible to be useful, for example, an empty container can be used as an anchor, that is, used as the ⟦0⟧ for Scripted GUI to place another container on the same place as the anchor is defined. This can allow placing containers with higher precision than normally possible with ⟦1⟧, allowing the parent window to have elements drawn on top of the scripted GUI.",
+   "frags": 2
+  },
+  {
+   "k": "10mxvue",
+   "en": "parent window name"
+  },
+  {
+   "k": "1f7idq4",
+   "en": "parent_window_name"
+  },
+  {
+   "k": "19ai8fz",
+   "en": "Arguments"
+  },
+  {
+   "k": "1cllr0p",
+   "en": "The following attributes are commonly used:"
+  },
+  {
+   "k": "145i2hu",
+   "en": "⟦0⟧ – The name of the container, used to tie a function to the container. Independent containers must have unique names. While nested containers may have name overlap when defined in different independent containers, it's still preferable to avoid overlap, such as to ensure unambiguity when using ⟦1⟧ in scripted GUI.",
+   "frags": 2
+  },
+  {
+   "k": "cormx1",
+   "en": "name = \"my_container\""
+  },
+  {
+   "k": "2xucel",
+   "en": "⟦0⟧ – The bounding box for the container. If this container is placed inside of another one, either directly or through a gridbox, then only this size is used to create the scrollbar, without taking into account elements inside. This boundary also sets the size that the scrollbar must use. Either in pixels or in percentages relative to the size of the parent container (the entire screen if independent).",
+   "frags": 1
+  },
+  {
+   "k": "24t9fi",
+   "en": "size = { height = 300 width = 100%% }"
+  },
+  {
+   "k": "1t7pg8e",
+   "en": "⟦0⟧ – The background of the container. This is required for a scrollbar to work, as otherwise the boundaries will get ignored. There are the following arguments inside: name = \"Background\" – The name for handling the background in other functions. Commonly just set to \"Background\". spriteType = \"GFX_tiled_window\" or quadTextureSprite = \"GFX_tiled_window_transparent\" – Refers to a corneredTileSpriteType definition that would automatically get resized to fit the container's set size.",
+   "frags": 1
+  },
+  {
+   "k": "1540i4u",
+   "en": "background = { ... }"
+  },
+  {
+   "k": "120slot",
+   "en": "⟦0⟧ – The name for handling the background in other functions. Commonly just set to \"Background\".",
+   "frags": 1
+  },
+  {
+   "k": "1r7s5k3",
+   "en": "name = \"Background\""
+  },
+  {
+   "k": "1k2bbn",
+   "en": "⟦0⟧ or ⟦1⟧ – Refers to a ⟦2⟧ definition that would automatically get resized to fit the container's set size.",
+   "frags": 3
+  },
+  {
+   "k": "25pg1a",
+   "en": "spriteType = \"GFX_tiled_window\""
+  },
+  {
+   "k": "up9nf9",
+   "en": "quadTextureSprite = \"GFX_tiled_window_transparent\""
+  },
+  {
+   "k": "gcte4s",
+   "en": "corneredTileSpriteType"
+  },
+  {
+   "k": "11zf5lk",
+   "en": "⟦0⟧ – If true (and if a background exists), the elements inside of the container will not be able to go outside of the boundary box, and what doesn't fit will get cropped. Defaults to true. This being true is mandatory for a scrollbar to work.",
+   "frags": 1
+  },
+  {
+   "k": "14eknrf",
+   "en": "clipping = yes"
+  },
+  {
+   "k": "1e6t21t",
+   "en": "⟦0⟧ – The position of the container in pixels relative to the set orientation and set origo.",
+   "frags": 1
+  },
+  {
+   "k": "1qh4q4k",
+   "en": "position = { x = 100 y = 100 }"
+  },
+  {
+   "k": "30k8ga",
+   "en": "⟦0⟧ – Sets the origin that the position is measured relative to, such as ⟦1⟧, ⟦2⟧, or ⟦3⟧ for the screen.",
+   "frags": 4
+  },
+  {
+   "k": "1isr1lf",
+   "en": "orientation = center"
+  },
+  {
+   "k": "dlt3jt",
+   "en": "upper_left"
+  },
+  {
+   "k": "acarg1",
+   "en": "center_down"
+  },
+  {
+   "k": "1dvyw97",
+   "en": "lower_right"
+  },
+  {
+   "k": "1ophvli",
+   "en": "⟦0⟧ – Sets the origin that the position is measured relative to, such as ⟦1⟧, ⟦2⟧, or ⟦3⟧ for the element.",
+   "frags": 4
+  },
+  {
+   "k": "138qtqn",
+   "en": "origo = center"
+  },
+  {
+   "k": "9pdyex",
+   "en": "⟦0⟧ – If set, the container can be moved by the player with their cursor.",
+   "frags": 1
+  },
+  {
+   "k": "11j7hv0",
+   "en": "moveable = yes"
+  },
+  {
+   "k": "196beb1",
+   "en": "⟦0⟧ – If set, the container will be considered to cover the entire screen.",
+   "frags": 1
+  },
+  {
+   "k": "10zpzt4",
+   "en": "fullScreen = yes"
+  },
+  {
+   "k": "1uxpq4z",
+   "en": "Animation can be assigned to containers with these attributes:"
+  },
+  {
+   "k": "lfmj0a",
+   "en": "⟦0⟧ – The screen position where the container will show up to the player after the 'show' animation finishes.",
+   "frags": 1
+  },
+  {
+   "k": "gna4ry",
+   "en": "show_position = { x = 300 y = 100 }"
+  },
+  {
+   "k": "157wkqq",
+   "en": "⟦0⟧ – The screen position the container aims for during the 'hide' animation.",
+   "frags": 1
+  },
+  {
+   "k": "dghafn",
+   "en": "hide_position = { x = 100 y = 100 }"
+  },
+  {
+   "k": "1333k8y",
+   "en": "⟦0⟧ – The animation type used to show the container (⟦1⟧ or ⟦2⟧).",
+   "frags": 3
+  },
+  {
+   "k": "1jl95ie",
+   "en": "show_animation_type = linear"
+  },
+  {
+   "k": "yztrtt",
+   "en": "decelerated"
+  },
+  {
+   "k": "1lpvdts",
+   "en": "linear"
+  },
+  {
+   "k": "1ssdxpn",
+   "en": "⟦0⟧ – The animation type used to hide the container (⟦1⟧ or ⟦2⟧).",
+   "frags": 3
+  },
+  {
+   "k": "1lfrr35",
+   "en": "hide_animation_type = accelerated"
+  },
+  {
+   "k": "1ecclbw",
+   "en": "accelerated"
+  },
+  {
+   "k": "xuxa3y",
+   "en": "⟦0⟧ – The animation if both show and hide animations are supposed to be the same (⟦1⟧, ⟦2⟧, or ⟦3⟧).",
+   "frags": 4
+  },
+  {
+   "k": "rulc3r",
+   "en": "animation_type = decelerated"
+  },
+  {
+   "k": "oalf9g",
+   "en": "⟦0⟧ – The animation time in milliseconds.",
+   "frags": 1
+  },
+  {
+   "k": "k2mqwx",
+   "en": "animation_time = 1000"
+  },
+  {
+   "k": "uox3yi",
+   "en": "⟦0⟧ – The ⟦1⟧ to play during the 'show' animation.",
+   "frags": 2
+  },
+  {
+   "k": "hwz2iw",
+   "en": "show_sound = menu_open_window"
+  },
+  {
+   "k": "3wdeac",
+   "en": "sound"
+  },
+  {
+   "k": "zv79wv",
+   "en": "⟦0⟧ – The ⟦1⟧ to play during the 'hide' animation.",
+   "frags": 2
+  },
+  {
+   "k": "r4nf7z",
+   "en": "hide_sound = menu_close_window"
+  },
+  {
+   "k": "tufq8i",
+   "en": "⟦0⟧ – The time it takes for the container to fade in, in milliseconds.",
+   "frags": 1
+  },
+  {
+   "k": "nulncb",
+   "en": "fade_time = 300"
+  },
+  {
+   "k": "6ii3vl",
+   "en": "⟦0⟧ – The type of fade in: either ⟦1⟧ or ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1g46cac",
+   "en": "fade_type = linear"
+  },
+  {
+   "k": "1hp5b70",
+   "en": "Scrolling"
+  },
+  {
+   "k": "1lqkozv",
+   "en": "Scrolling can be done via scrollbars. If scrollbars are enabled, it's also possible to enabled it with dragging the screen. Since the game has to know what should be inside of the container, there are some attributes which must be used in the container. ⟦0⟧ has to be defined using pixels instead of percentage values (for directions where scrolling is enabled) to ensure that it doesn't stretch to fit all elements. ⟦1⟧ should be true (or unset, making it default to true). A ⟦2⟧ also has to be defined for the container, since it establishes the boundaries.",
+   "frags": 3
+  },
+  {
+   "k": "4isli7",
+   "en": "size = { ... }"
+  },
+  {
+   "k": "1p07icm",
+   "en": "Scrollbars use ⟦0⟧ definitions. If this definition is inside of a container, in which case it will be automatically assigned to the container without needing to assign it manually, however it can't be used for any other container. If the definition is entirely independent, it will not be assigned to any by default, but can be re-used in multiple containers.",
+   "frags": 1
+  },
+  {
+   "k": "100af8e",
+   "en": "extendedScrollbarType"
+  },
+  {
+   "k": "lp7a3h",
+   "en": "In particular, these arguments enable scrolling, assuming the conditions are fulfilled:"
+  },
+  {
+   "k": "1q5uyhn",
+   "en": "⟦0⟧ assigns an external ExtendedScrollbarType to act as the vertical scrollbar. The scrollbar can't have ⟦1⟧ in its definition.",
+   "frags": 2
+  },
+  {
+   "k": "18p9tno",
+   "en": "verticalScrollbar = scrollbar_name"
+  },
+  {
+   "k": "971a35",
+   "en": "horizontal = yes"
+  },
+  {
+   "k": "u3u4al",
+   "en": "⟦0⟧ assigns an external ExtendedScrollbarType to act as the horizontal scrollbar. The scrollbar must have ⟦1⟧ in its definition.",
+   "frags": 2
+  },
+  {
+   "k": "1jc29s2",
+   "en": "horizontalScrollbar = scrollbar_name"
+  },
+  {
+   "k": "1r70n9g",
+   "en": "⟦0⟧ enables drag scrolling. The drag scrolling will only work if there exists a scrollbar for the same axis. The direction represent the mouse button that the scrolling can be done with, however only ⟦1⟧ seems to work in-game. If there's only one button, it can be shortened as ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1n5ra4w",
+   "en": "drag_scroll = { left middle right }"
+  },
+  {
+   "k": "52pxm8",
+   "en": "left"
+  },
+  {
+   "k": "1nc7d3b",
+   "en": "drag_scroll = left"
+  },
+  {
+   "k": "1udbjz3",
+   "en": "In addition, there are optional attributes that can be used to refine the scrollbar:"
+  },
+  {
+   "k": "15jvf3a",
+   "en": "⟦0⟧ is used to determine the margins of the container. These areas will be taken as the border of the window, unaffected by the scrollbar; only what's inside of the margin's border will be modified by the scrollbar.",
+   "frags": 1
+  },
+  {
+   "k": "1ro6pg7",
+   "en": "margin = { top = 10 bottom = 10 left = 20 right = 20 }"
+  },
+  {
+   "k": "3xiqn4",
+   "en": "⟦0⟧ – By default, a scrollbar will not appear if it isn't necessary due to all elements being inside of the container's ⟦1⟧. If this is set to false, then it will always appear.",
+   "frags": 2
+  },
+  {
+   "k": "m9gaju",
+   "en": "autohide_scrollbars = no"
+  },
+  {
+   "k": "9vvq70",
+   "en": "size"
+  },
+  {
+   "k": "180j45w",
+   "en": "⟦0⟧ determines how much a single mouse scroll will affect the scrollbar.",
+   "frags": 1
+  },
+  {
+   "k": "1ebksmz",
+   "en": "scroll_wheel_factor = 40"
+  },
+  {
+   "k": "nf6z3t",
+   "en": "⟦0⟧ enables a smoother scrolling animation.",
+   "frags": 1
+  },
+  {
+   "k": "3f0yj",
+   "en": "smooth_scrolling = yes"
+  },
+  {
+   "k": "1tbq9n5",
+   "en": "scrollbarType"
+  },
+  {
+   "k": "yhbuco",
+   "en": "The ⟦0⟧ is used to define which elements a scrollbar is composed of.",
+   "frags": 1
+  },
+  {
+   "k": "1v0d7e3",
+   "en": "The following attributes are used:"
+  },
+  {
+   "k": "vruged",
+   "en": "⟦0⟧ - The scrollbar name.",
+   "frags": 1
+  },
+  {
+   "k": "136nuue",
+   "en": "name"
+  },
+  {
+   "k": "1v8vw16",
+   "en": "⟦0⟧ - The button element to use as the scrollbar slider.",
+   "frags": 1
+  },
+  {
+   "k": "uphibg",
+   "en": "slider"
+  },
+  {
+   "k": "10mx7mr",
+   "en": "⟦0⟧ - The button element to use as the scrollbar tracker.",
+   "frags": 1
+  },
+  {
+   "k": "y70c3g",
+   "en": "track"
+  },
+  {
+   "k": "19hxsjr",
+   "en": "⟦0⟧ - The button element to use as the scrollbar left increment button.",
+   "frags": 1
+  },
+  {
+   "k": "lmsf7o",
+   "en": "leftbutton"
+  },
+  {
+   "k": "hzogiu",
+   "en": "⟦0⟧ - The button element to use as the scrollbar right increment button.",
+   "frags": 1
+  },
+  {
+   "k": "16cau1d",
+   "en": "rightbutton"
+  },
+  {
+   "k": "12kjog9",
+   "en": "⟦0⟧ - The screen position of the scrollbar.",
+   "frags": 1
+  },
+  {
+   "k": "14vfpje",
+   "en": "position"
+  },
+  {
+   "k": "znbhlr",
+   "en": "⟦0⟧ - The bounding box for the scrollbar.",
+   "frags": 1
+  },
+  {
+   "k": "awmmo2",
+   "en": "⟦0⟧ - The priority the scrollbar has over other elements.",
+   "frags": 1
+  },
+  {
+   "k": "15b9eyx",
+   "en": "priority"
+  },
+  {
+   "k": "1oa28ti",
+   "en": "⟦0⟧ - The bounding box for border of the scrollbar.",
+   "frags": 1
+  },
+  {
+   "k": "srhbn2",
+   "en": "borderSize"
+  },
+  {
+   "k": "ffzj04",
+   "en": "⟦0⟧ - The maximum value the scrollbar moves to (used to control the increments).",
+   "frags": 1
+  },
+  {
+   "k": "6x32yu",
+   "en": "maxValue"
+  },
+  {
+   "k": "1ntzuke",
+   "en": "⟦0⟧ - The minimum value the scrollbar moves to (used to control the increments).",
+   "frags": 1
+  },
+  {
+   "k": "1ia3zzg",
+   "en": "minValue"
+  },
+  {
+   "k": "yuepa4",
+   "en": "⟦0⟧ - The size of increments using the increment button.",
+   "frags": 1
+  },
+  {
+   "k": "1ytheva",
+   "en": "stepSize"
+  },
+  {
+   "k": "y72w17",
+   "en": "⟦0⟧ - The initial size the slider for the scrollbar starts at.",
+   "frags": 1
+  },
+  {
+   "k": "sa7nas",
+   "en": "startValue"
+  },
+  {
+   "k": "1b6miti",
+   "en": "⟦0⟧ - Sets whether the scrollbar is horizontal (1) or vertical (0).",
+   "frags": 1
+  },
+  {
+   "k": "nn4oyx",
+   "en": "horizontal"
+  },
+  {
+   "k": "m4elo",
+   "en": "Elements"
+  },
+  {
+   "k": "181dov6",
+   "en": "There are multiple element types used within containers. All elements must be used within containers, they will not work outside of one."
+  },
+  {
+   "k": "66e03t",
+   "en": "Elements will inherit the orientation of the containers they are located in unless the orientation is specified for the element itself."
+  },
+  {
+   "k": "7paqjz",
+   "en": "The following elements can be freely added and are usable with scripted GUIs."
+  },
+  {
+   "k": "5xlcqn",
+   "en": "⟦0⟧ - Used for static images.",
+   "frags": 1
+  },
+  {
+   "k": "1n97tnc",
+   "en": "iconType"
+  },
+  {
+   "k": "9m7984",
+   "en": "⟦0⟧ - Used for text.",
+   "frags": 1
+  },
+  {
+   "k": "apdix2",
+   "en": "instantTextBoxType"
+  },
+  {
+   "k": "1xb57yq",
+   "en": "⟦0⟧ - Used for buttons",
+   "frags": 1
+  },
+  {
+   "k": "19unz21",
+   "en": "buttonType"
+  },
+  {
+   "k": "a8uz5t",
+   "en": "The following elements do rely on internal code. You can add new elements, they will not be populated with data."
+  },
+  {
+   "k": "1g5r5cl",
+   "en": "⟦0⟧ - Used for smooth scrollable lists.",
+   "frags": 1
+  },
+  {
+   "k": "1fc2n8g",
+   "en": "smoothListboxType"
+  },
+  {
+   "k": "1xa8245",
+   "en": "⟦0⟧ - Used for scrollable lists.",
+   "frags": 1
+  },
+  {
+   "k": "sey8r2",
+   "en": "listboxType"
+  },
+  {
+   "k": "mej9ka",
+   "en": "⟦0⟧ - Used for checkboxes.",
+   "frags": 1
+  },
+  {
+   "k": "1a9pww",
+   "en": "checkboxType"
+  },
+  {
+   "k": "jf3on6",
+   "en": "⟦0⟧ - Used for overlapping many elements.",
+   "frags": 1
+  },
+  {
+   "k": "30lmge",
+   "en": "OverlappingElementsBoxType"
+  },
+  {
+   "k": "gcogmx",
+   "en": "⟦0⟧ - Used for editable textboxes.",
+   "frags": 1
+  },
+  {
+   "k": "7bbb1a",
+   "en": "editBoxType"
+  },
+  {
+   "k": "1dlbmev",
+   "en": "⟦0⟧ - Used for to display country flags.",
+   "frags": 1
+  },
+  {
+   "k": "dudrjs",
+   "en": "shieldtype"
+  },
+  {
+   "k": "139u5m9",
+   "en": "The following elements are legacy:"
+  },
+  {
+   "k": "i0pr67",
+   "en": "⟦0⟧ - Same as ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "54chks",
+   "en": "guiButtonType"
+  },
+  {
+   "k": "d5tj0j",
+   "en": "textBoxType"
+  },
+  {
+   "k": "gdy58s",
+   "en": "eu3dialogtype"
+  },
+  {
+   "k": "bq2dlh",
+   "en": "windowType"
+  },
+  {
+   "k": "3uwxn2",
+   "en": "⟦0⟧ - Only used within ⟦1⟧. Different elements are used for flags in more recent files.",
+   "frags": 2
+  },
+  {
+   "k": "kzjq4w",
+   "en": "The ⟦0⟧ element is used to add images to the interface. It's usage overlaps with ⟦1⟧, which is similar but operates as a button.",
+   "frags": 2
+  },
+  {
+   "k": "1j9ux22",
+   "en": "⟦0⟧ - The icon name.",
+   "frags": 1
+  },
+  {
+   "k": "54hwlq",
+   "en": "⟦0⟧ - The screen position of the icon.",
+   "frags": 1
+  },
+  {
+   "k": "zusi9b",
+   "en": "⟦0⟧ - Sets the orientation origin for the ⟦1⟧ attribute.",
+   "frags": 2
+  },
+  {
+   "k": "1iqhyqp",
+   "en": "orientation"
+  },
+  {
+   "k": "ajt0bk",
+   "en": "⟦0⟧ - The image to use for the icon. Refers to a ⟦1⟧ definition.",
+   "frags": 2
+  },
+  {
+   "k": "1ylynkk",
+   "en": "spriteType"
+  },
+  {
+   "k": "9n96dn",
+   "en": "⟦0⟧ - The image to use for the icon. Refers to a dynamic ⟦1⟧ definitions (i.e. flags) or multi-frame ⟦2⟧ definitions.",
+   "frags": 3
+  },
+  {
+   "k": "zt573c",
+   "en": "quadTextureSprite"
+  },
+  {
+   "k": "15ecuz7",
+   "en": "⟦0⟧ - Which frame to use for the icon when using a multi-frame image.",
+   "frags": 1
+  },
+  {
+   "k": "1ma1ehy",
+   "en": "frame"
+  },
+  {
+   "k": "1tw871z",
+   "en": "⟦0⟧ - Forces the icon to allow click through, i.e. clicking on an element behind another element.",
+   "frags": 1
+  },
+  {
+   "k": "iekyli",
+   "en": "alwaystransparent"
+  },
+  {
+   "k": "tiv2cb",
+   "en": "⟦0⟧ - Set the hint key the icon uses to display a hint tooltip with when hovered over.",
+   "frags": 1
+  },
+  {
+   "k": "1tha3g3",
+   "en": "hint_tag"
+  },
+  {
+   "k": "k1v59u",
+   "en": "⟦0⟧ - The tooltip that is shown when hovering over the button.",
+   "frags": 1
+  },
+  {
+   "k": "1jtre4n",
+   "en": "pdx_tooltip"
+  },
+  {
+   "k": "kum5kz",
+   "en": "⟦0⟧ - Sets the delayed tooltip to display to the player. Takes a localization key.",
+   "frags": 1
+  },
+  {
+   "k": "goip6u",
+   "en": "pdx_tooltip_delayed"
+  },
+  {
+   "k": "qrgaxi",
+   "en": "⟦0⟧ - Sets whether the position is from the center of the icon.",
+   "frags": 1
+  },
+  {
+   "k": "1nfuss7",
+   "en": "centerposition"
+  },
+  {
+   "k": "ojjoy0",
+   "en": "The ⟦0⟧ element is used to add text to the interface. In some instances, the text for the element is generated internally (i.e. ⟦1⟧). In these instances you cannot edit the text unless it is exposed in an localized string.",
+   "frags": 2
+  },
+  {
+   "k": "u2uqhg",
+   "en": "regiment_count"
+  },
+  {
+   "k": "1sil0rb",
+   "en": "⟦0⟧ - The textbox name.",
+   "frags": 1
+  },
+  {
+   "k": "4crb8r",
+   "en": "⟦0⟧ - The screen position of the textbox.",
+   "frags": 1
+  },
+  {
+   "k": "zg3f6o",
+   "en": "⟦0⟧ - The text displayed by the textbox.",
+   "frags": 1
+  },
+  {
+   "k": "1gourem",
+   "en": "text"
+  },
+  {
+   "k": "mszjdi",
+   "en": "⟦0⟧ - The font to use for the text.",
+   "frags": 1
+  },
+  {
+   "k": "awltw0",
+   "en": "font"
+  },
+  {
+   "k": "1swr23u",
+   "en": "⟦0⟧ - The total width in pixels at which text is displayed.",
+   "frags": 1
+  },
+  {
+   "k": "j715gz",
+   "en": "maxWidth"
+  },
+  {
+   "k": "fo7oy9",
+   "en": "⟦0⟧ - The total height in pixels at which text is displayed.",
+   "frags": 1
+  },
+  {
+   "k": "10yqbhq",
+   "en": "maxHeight"
+  },
+  {
+   "k": "1une6xf",
+   "en": "⟦0⟧ - How the text is aligned.",
+   "frags": 1
+  },
+  {
+   "k": "1fi25aq",
+   "en": "format"
+  },
+  {
+   "k": "1orz43v",
+   "en": "⟦0⟧ - Whether the textbox should truncate text that exceeds its limits.",
+   "frags": 1
+  },
+  {
+   "k": "12l9j3c",
+   "en": "fixedsize"
+  },
+  {
+   "k": "ynlxud",
+   "en": "⟦0⟧ - The bounding box for the border of the textbox.",
+   "frags": 1
+  },
+  {
+   "k": "wbvq9x",
+   "en": "⟦0⟧ - Forces the text to allow click through, i.e. clicking on an element behind another element.",
+   "frags": 1
+  },
+  {
+   "k": "eqqolt",
+   "en": "⟦0⟧ - which kind of scrollbar to use (for example standardtext_slider)",
+   "frags": 1
+  },
+  {
+   "k": "bv3u2h",
+   "en": "⟦0⟧ - Sets the tooltip to display to the player. Takes a localization key.",
+   "frags": 1
+  },
+  {
+   "k": "1lc8icl",
+   "en": "The following attributes are rarely or never used:"
+  },
+  {
+   "k": "1az0ea5",
+   "en": "⟦0⟧ - Never used for anything.",
+   "frags": 1
+  },
+  {
+   "k": "1lti76",
+   "en": "textureFile"
+  },
+  {
+   "k": "zf4f2m",
+   "en": "Valid ⟦0⟧ values:",
+   "frags": 1
+  },
+  {
+   "k": "1jezyc",
+   "en": "center"
+  },
+  {
+   "k": "xjidwl",
+   "en": "right"
+  },
+  {
+   "k": "1682p9",
+   "en": "The ⟦0⟧ element is used to add buttons to the interface. Buttons are composed of an image and text, so they operate in a similar manner to ⟦1⟧ and ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1sj1yv5",
+   "en": "guiButtonType'"
+  },
+  {
+   "k": "1x0oan7",
+   "en": "⟦0⟧ - The button name.",
+   "frags": 1
+  },
+  {
+   "k": "19f3709",
+   "en": "⟦0⟧ - The screen position of the button.",
+   "frags": 1
+  },
+  {
+   "k": "1frmb8b",
+   "en": "⟦0⟧ - The image to use for the button. Refers to a ⟦1⟧ definition.",
+   "frags": 2
+  },
+  {
+   "k": "vk9aj2",
+   "en": "⟦0⟧ - The image to use for the button. Refers to a dynamic ⟦1⟧ definitions (i.e. flags) or multi-frame ⟦2⟧ definitions.",
+   "frags": 3
+  },
+  {
+   "k": "13tp89e",
+   "en": "⟦0⟧ - Which frame to use for the button when using a multi-frame image.",
+   "frags": 1
+  },
+  {
+   "k": "jwehle",
+   "en": "⟦0⟧ - Forces the button to allow click through, i.e. clicking on an element behind another element.",
+   "frags": 1
+  },
+  {
+   "k": "co3fro",
+   "en": "⟦0⟧ - The text displayed by the button.",
+   "frags": 1
+  },
+  {
+   "k": "f4h82q",
+   "en": "buttonText"
+  },
+  {
+   "k": "1vn821j",
+   "en": "⟦0⟧ - The font to display the button text in.",
+   "frags": 1
+  },
+  {
+   "k": "1iky75o",
+   "en": "buttonFont"
+  },
+  {
+   "k": "q856g7",
+   "en": "⟦0⟧ - The shortcut to add for this button.",
+   "frags": 1
+  },
+  {
+   "k": "17unwxf",
+   "en": "shortcut"
+  },
+  {
+   "k": "15sqim6",
+   "en": "⟦0⟧ - The sound to use when clicked.",
+   "frags": 1
+  },
+  {
+   "k": "mkiprq",
+   "en": "clicksound"
+  },
+  {
+   "k": "1cfb9m5",
+   "en": "⟦0⟧ - The sound to play when hovered over.",
+   "frags": 1
+  },
+  {
+   "k": "1xnbfva",
+   "en": "oversound"
+  },
+  {
+   "k": "13gkp9q",
+   "en": "⟦0⟧ - Scales the button size.",
+   "frags": 1
+  },
+  {
+   "k": "108fh4h",
+   "en": "scale"
+  },
+  {
+   "k": "1rhezok",
+   "en": "⟦0⟧ - URL to open in browser",
+   "frags": 1
+  },
+  {
+   "k": "ee0r42",
+   "en": "web_link"
+  },
+  {
+   "k": "s10v2w",
+   "en": "⟦0⟧ - Never used.",
+   "frags": 1
+  },
+  {
+   "k": "1pvf5ww",
+   "en": "tooltip"
+  },
+  {
+   "k": "1jnrucn",
+   "en": "tooltipText"
+  },
+  {
+   "k": "tu9e77",
+   "en": "delayedTooltipText"
+  }
+ ]
+}

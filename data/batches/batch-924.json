@@ -1,0 +1,804 @@
+{
+ "batch": 924,
+ "pages": [
+  "Patch 1.16.X"
+ ],
+ "chars": 14875,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "126cyno",
+   "en": "The Danish focus \"Side with the Unions\" no longer has a doubled effect if Denmark is communist"
+  },
+  {
+   "k": "yfmjlk",
+   "en": "The tooltip for the Swedish advisor Birger Furugård is not duplicated anymore"
+  },
+  {
+   "k": "1w0fgox",
+   "en": "Fixes duplicated localization in Russian focus \"Capital of the Tsars\""
+  },
+  {
+   "k": "16hykmf",
+   "en": "Balancing Act focus and decisions will no longer mention subsidies with AAT disabled"
+  },
+  {
+   "k": "12cjhf2",
+   "en": "Fixed several instances where countries with focus trees from Götterdämmerung could join or create factions while being subjects"
+  },
+  {
+   "k": "dtjs4q",
+   "en": "Lindolfo Collor can't be both a country leader and advisor at the same time"
+  },
+  {
+   "k": "1g1x9zg",
+   "en": "The Shared Chinese focus \"Experimental Mechanised Unit\" now only gives a subsidy towards the supporting nation, and not both the Soviets and the Germans"
+  },
+  {
+   "k": "19gt89n",
+   "en": "Translated the names for Polish Monarchist Parties to Polish to better conform to the rest of the party names"
+  },
+  {
+   "k": "d00aah",
+   "en": "Greek Staunch Monarchist trait description improved"
+  },
+  {
+   "k": "1su4dh6",
+   "en": "Removed empty space in the Political Instability National Focus displayed on Nation Selection Screen for Greece"
+  },
+  {
+   "k": "1pj1d6b",
+   "en": "Mexico's Triumph of Synarchism now sends an event which lets the recipient choose to accept or counteract the influence"
+  },
+  {
+   "k": "109z6mo",
+   "en": "Assault Aviation Theorists now reduce cost of Naval Strike Torpedo Tactics"
+  },
+  {
+   "k": "iqy1pv",
+   "en": "Fixed multiple instances where incorrect models and icons would be selected for Generic and German airplane designs"
+  },
+  {
+   "k": "42i15d",
+   "en": "Fixed an issue where a newly added construction item could not be dragged in the construction queue"
+  },
+  {
+   "k": "1sdqyl9",
+   "en": "Tooltip for creating a Military Advisor updated to specify you can have one and not multiple traits"
+  },
+  {
+   "k": "1rt6dcr",
+   "en": "Abebe Aregai has correct trait when not running La Resistance"
+  },
+  {
+   "k": "4174i1",
+   "en": "Focus \"Specialized Military Equipment\" now gives the correct equipment with No Step Back enabled"
+  },
+  {
+   "k": "glls28",
+   "en": "Added missing module and highlight for the Anechoic Tiles in the Ship Designer Window"
+  },
+  {
+   "k": "m756ef",
+   "en": "Fixed an issue where War Reparations from peace conferences could be lost on reloading a save"
+  },
+  {
+   "k": "1m3ckuc",
+   "en": "Fixed a bug with some MIO windows showing connection lines for non-existent traits"
+  },
+  {
+   "k": "1ijkymr",
+   "en": "Removed duplicate AI rules for India, and hid Together for Victory ones if you have GoE enabled"
+  },
+  {
+   "k": "2fvl78",
+   "en": "Fixed an instance where if the UK decolonized at the same time as the Mughals broke away they would instantly white peace with the other RAJ"
+  },
+  {
+   "k": "1trzxno",
+   "en": "The event \"The East Coast joins the Rebellion\" now moves the capital to Richmond"
+  },
+  {
+   "k": "e3k0jq",
+   "en": "Fixed some typos in Army spirits"
+  },
+  {
+   "k": "98x5o2",
+   "en": "Fixed incorrect mention of \"armies\" in Commander traits, where it should be \"divisions\""
+  },
+  {
+   "k": "lrjhvr",
+   "en": "Hotfix 1.16.4, aka \"Manoeuvre CHIRO\", was released on 2025-03-28⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1ckx89c",
+   "en": "639e"
+  },
+  {
+   "k": "bxju8o",
+   "en": "Fixed so that you can retreat to friendly controlled provinces even if they are not owned by friends"
+  },
+  {
+   "k": "u3dvzh",
+   "en": "Patch 1.16.5, aka \"Operation EAR\", was released on 2025-04-28⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1sdxweo",
+   "en": "b65d"
+  },
+  {
+   "k": "7w7don",
+   "en": "Shareable Equipment Designs"
+  },
+  {
+   "k": "10vy819",
+   "en": "Tank, Plane and Ship designs can now be saved between playthroughs"
+  },
+  {
+   "k": "1tfllhb",
+   "en": "Tank, Plane and Ship designs can now be exported to and imported from clipboard"
+  },
+  {
+   "k": "1bkhtjs",
+   "en": "Added a focus for Iraq to trade resource rights for oil to Germany in exchange for significant military aid"
+  },
+  {
+   "k": "1mpbj5m",
+   "en": "Iraq now unlocks a decision to intentionally overflow its irrigation systems and dams for a limited time"
+  },
+  {
+   "k": "h6wern",
+   "en": "Rebalanced indian national spirit \"Growing Hindu Nationalism\" to give +0.7% weekly war support rather than +1%"
+  },
+  {
+   "k": "wnglxo",
+   "en": "India: Reduced special forces cap gained from Kingmaker from 30% to 4%"
+  },
+  {
+   "k": "dtx2rc",
+   "en": "India: Reduced volunteer size from Kingmaker from 6 to 5"
+  },
+  {
+   "k": "172ssau",
+   "en": "India: Reduced cost of Reserve Bank of India from 150pp to 100pp"
+  },
+  {
+   "k": "ecfw0n",
+   "en": "Afghanistan: There are now more ways of increasing democracy support, making it easier to avoid the civil war in the democratic path"
+  },
+  {
+   "k": "imjswt",
+   "en": "India: Reduced several focuses in the India focus tree to 35 days"
+  },
+  {
+   "k": "cqot4z",
+   "en": "India: Heavy Industry now gives 6 tungsten in capital state"
+  },
+  {
+   "k": "hheaqc",
+   "en": "India: Seek Financial Aid from the USSR now gives 5 oil, 4 Tungsten and 6 steel in capital state"
+  },
+  {
+   "k": "1mny0tu",
+   "en": "India: Increased Resistance gained from Violence against the British to 60% (from 50%)"
+  },
+  {
+   "k": "16mojdf",
+   "en": "India: Princely Subjugation now increases resistance target by 60% (from 20%) and reduces damage to garrison by -10% (from +50%)"
+  },
+  {
+   "k": "1ofj4cy",
+   "en": "India: The \"Anti-Imperialist Zeal\" national spirit granted by the focus \"The Sun Sets\" now also gives attack and defense bonuses against France and the USA, matching the bonuses targeting the UK"
+  },
+  {
+   "k": "1f9vlyp",
+   "en": "India: Reduced the \"Father of Pakistan\" trait from 50% surrender limit to 25%"
+  },
+  {
+   "k": "11s306t",
+   "en": "Iran: Added +75 Political Power and +5% Communist Party Popularity to the Iranian focus \"Soviet Alignment\""
+  },
+  {
+   "k": "f4t3yx",
+   "en": "Soviet AI will now make use of Heavy Tanks"
+  },
+  {
+   "k": "1te9ce4",
+   "en": "Fixed bug where more equipment got recovered than lost due to reliability"
+  },
+  {
+   "k": "19gp09",
+   "en": "Added more places in the alt-history branches for Germany to lower the Consumer Goods Factory Factors if they have either the MEFO Bills or Economy of Conquest"
+  },
+  {
+   "k": "1guqb0",
+   "en": "Germany: Reduced chance of AI Lithuania and Poland giving up territory to Germany in the Brest-Litovsk Path"
+  },
+  {
+   "k": "24mc2z",
+   "en": "Lowered the chances of the more obscure paths being taken by GoE countries if the game rules are set to non-historical or the country is set to random"
+  },
+  {
+   "k": "1m8p75m",
+   "en": "Adjusted several Iranian focuses from 70 to 35 days, with minor tweaks to some of them as a result of the time being lowered"
+  },
+  {
+   "k": "w4mm0q",
+   "en": "India: \"Rally the Indian Left\" now takes 35 days (down from 70)"
+  },
+  {
+   "k": "12j72mq",
+   "en": "Added the Saadbad Pact shared focus branch to Afghanistan, Iraq, Iran and Turkey"
+  },
+  {
+   "k": "v5ci7j",
+   "en": "Added a new 'Loyalty to the UK' branch to the Raj"
+  },
+  {
+   "k": "16kcvuv",
+   "en": "Turkish focus \"Expand the Saadabad Pact\" will now invite other signatories automatically with GOE enabled, but only if they share an ideology with Turkey"
+  },
+  {
+   "k": "8mesk6",
+   "en": "India: Kingmaker now unlocks anti democratic/unaligned raids"
+  },
+  {
+   "k": "su9vtd",
+   "en": "India: Kingmaker now allows joining opposite factions"
+  },
+  {
+   "k": "yz7i1p",
+   "en": "India: AI will now be more friendly towards Kingmaker India, being more likely to want to be in an alliance with them and accept volunteers"
+  },
+  {
+   "k": "1t4b8dh",
+   "en": "Iran: Added a focus under the Fight For Iran path that allows Iran to reinstate the Qajar dynasty if they are a British puppet"
+  },
+  {
+   "k": "1dkoybc",
+   "en": "Added an event that fires off if the Soviet Union are in control of Iranian Kurdish territory, which will release Kurdistan as the Republic of Mahabad"
+  },
+  {
+   "k": "dajz89",
+   "en": "India: Added new communist branches for India"
+  },
+  {
+   "k": "tfr3na",
+   "en": "India: Added North-Central and Western-Central India as areas targeted during the Mughal Uprising, giving the Mughal side more options for conquests during the civil war"
+  },
+  {
+   "k": "m6tctf",
+   "en": "India: The focus \"Revolt of the Princes\" now gives a spirit that makes it easier to annex the princely states"
+  },
+  {
+   "k": "1xzr7t1",
+   "en": "India: Improved descriptions of several Indian focuses"
+  },
+  {
+   "k": "1rrb2hg",
+   "en": "India: the focus \"Royal Navy Mutiny\" now removes the Marginalized Muslim Community spirit"
+  },
+  {
+   "k": "1aueeo8",
+   "en": "Iran: Added two new generals"
+  },
+  {
+   "k": "s6iiwv",
+   "en": "India: the Communist party will now be renamed to Communist Party of India when completing either of the focuses \"Indian Socialism\" or \"Soviet Influence\""
+  },
+  {
+   "k": "kswu1h",
+   "en": "Added new focuses to the Iranian Communist Path to make the Soviet & Iranian Socialism branches stand out"
+  },
+  {
+   "k": "myymc2",
+   "en": "Added a focus for Afghanistan to gain the support of former Basmachi Movement members in the fascist branch, enabling for easier conquest of Soviet Central Asia"
+  },
+  {
+   "k": "1t1gqfh",
+   "en": "Added an extra event as part of the Fight For Iran branch where allies of the faction leader will peace out if the leader chooses to accept the peace negotiations"
+  },
+  {
+   "k": "ymmvym",
+   "en": "Added historical Generals Haj Ali Razmara and Assadollah Hosseinpoor to Iran"
+  },
+  {
+   "k": "1nhplfk",
+   "en": "Added political advisors Abdolsamad Kambakhsh, Rokneddin Mokhtari and Karim Buzarjomehri to Iran"
+  },
+  {
+   "k": "9945i4",
+   "en": "Iran: Focus \"Clash of The Titans\" is now visible from game start, and is available even if Greece hasn't formed Byzantium yet, but doing so while Greek Byzantine exists will offer a healthy attack bonus"
+  },
+  {
+   "k": "sbsu1o",
+   "en": "Added two new focuses to give democratic Iran the chance to get scientists, facilities and breakthrough progress"
+  },
+  {
+   "k": "n452wb",
+   "en": "Afghanistan: Added a country leader to the communist path, as well as a Field Marshal and German General to the fascist path"
+  },
+  {
+   "k": "17dtpwy",
+   "en": "Added more resource variety in GoE nations, such as Chromium, Steel, etc."
+  },
+  {
+   "k": "kzz3dl",
+   "en": "India: the Princely Breakaway State can now get more territorial concessions during the Mughal uprising, subdivided into Southern, Eastern, Northern, Central and Western India. Controlling all states in an area will let the Mughal side keep them at the end, instantly coring them."
+  },
+  {
+   "k": "1gi8ijc",
+   "en": "Added bypass to Revolt of the Princes if you already control all of India. Bypass gives the manpower and War Support you would normally get"
+  },
+  {
+   "k": "1it7fgl",
+   "en": "Added a way to core the princely states with the Akhand Bharat decisions"
+  },
+  {
+   "k": "1ar9u15",
+   "en": "Added the United Maghreb as a new formable nation"
+  },
+  {
+   "k": "1gupo23",
+   "en": "Added custom agency icons for British Raj, Pakistan and Bangladesh"
+  },
+  {
+   "k": "6ic5gh",
+   "en": "The Turkmen and Tajik states in Afghanistan are now cores of their respective tags"
+  },
+  {
+   "k": "1sdyytc",
+   "en": "Afghanistan: Added a new focus for the Afghan Democratic branch to gain more democratic support as well as unlock two new advisors"
+  },
+  {
+   "k": "xabdqz",
+   "en": "Iraq: Added Ma'ruf al-Rusafi as an advisor"
+  },
+  {
+   "k": "1czu3g1",
+   "en": "Iraq: Added four focuses to the Kurdistan path for Iraq, allowing Kurdistan to go communist and join the comintern"
+  },
+  {
+   "k": "s29zbo",
+   "en": "India: Reworked how to flip communist as India. Now unlocks infiltration decisions to undermine the independence movement and the British, which reduces threshold to flip communist and boost communist support, instead of using the Autonomy system"
+  },
+  {
+   "k": "8xc8p",
+   "en": "India: Renamed Train Robberies to the Peoples Railways, it no longer gives Train Robberies spirit, instead adds an optional decision and alters the railway focuses"
+  },
+  {
+   "k": "1vg37k",
+   "en": "India: Subhas Chandra Bose can now become an advisor for Communist India if he is swayed"
+  },
+  {
+   "k": "1dnnwll",
+   "en": "Added formable \"Mesopotamia\" for Kurdistan, Iraq, Syria, Palestine, and Egypt, to allow for the restoration of the Cradle of Civilization"
+  },
+  {
+   "k": "6mxzij",
+   "en": "Afghanistan: Reworked the tooltip for the focus \"Retire the Uncles\" to be more readable"
+  },
+  {
+   "k": "1h83hpk",
+   "en": "Stability & Performance"
+  },
+  {
+   "k": "yyr142",
+   "en": "Improved AI performance for diplomacy"
+  },
+  {
+   "k": "1gndh0v",
+   "en": "Improve performance of French and Russian localization"
+  },
+  {
+   "k": "q0a8xw",
+   "en": "Fixed an error causing the EIC buying states to become locked out"
+  },
+  {
+   "k": "1x8qc5u",
+   "en": "ENG: Expand the Secret Intelligence Service typo fix (it's no-longer the Greta War)."
+  },
+  {
+   "k": "ohpdol",
+   "en": "Removed RAJ_jim_corbett from focus."
+  },
+  {
+   "k": "1xh5ex0",
+   "en": "Fixed bug with MIO window showing connection lines for non-existent traits"
+  },
+  {
+   "k": "1c5b5oi",
+   "en": "Fixed a bug that was hiding the last two focuses in the Swear Fealty branch that appear if a joint Anglo-Soviet invasion happened. These focuses will now appear as intended."
+  },
+  {
+   "k": "ky96vs",
+   "en": "Fixed an issue where Soviets would steal states from Kurdistan when Iran selected Swear Fealty to the Invaders"
+  },
+  {
+   "k": "oym16c",
+   "en": "Fixes broken implementation of icon for Raj's National Spirit \"Army Cargo Prioritization\""
+  },
+  {
+   "k": "lrcvj9",
+   "en": "Generals loyal to Pakistan or Britain will now be removed from the Raj upon completion of \"Royal Indian Navy Mutiny\""
+  },
+  {
+   "k": "nrzqhl",
+   "en": "Declaring war on another member of the Saadabad Pact will no longer display a tooltip so large it goes off the screen"
+  },
+  {
+   "k": "15du2qs",
+   "en": "The Raj can now join the Allies via the focus \"Pledge for the Allies\""
+  },
+  {
+   "k": "1g4ukhx",
+   "en": "Forming mesopotamia did not give you a core on Alexandria, despite it being a required state"
+  },
+  {
+   "k": "19hou4e",
+   "en": "Adds a tooltip clarifying that weapons granted from \"Secure Weapons\" Will be given upon completion of focus \"Mughal Uprising\""
+  },
+  {
+   "k": "nginug",
+   "en": "Indian focus Jugantar now bypasses if you are at war with pakistan"
+  },
+  {
+   "k": "qw88jn",
+   "en": "Fixes missing country name in focus description of Raj's focus \"Seek Financial Aid from the Soviet Union\""
+  },
+  {
+   "k": "dv6vtj",
+   "en": "Iranian focus branch \"The Fight for Iran\" will no longer partially disappear when wars end even when you already completed the focuses"
+  },
+  {
+   "k": "14w8alp",
+   "en": "After taking the focus \"The Enemy of My Enemy\" Japan will only come to help and invade the Andamans for India if the two are not at war with each other"
+  },
+  {
+   "k": "15i7g8z",
+   "en": "Iranian focus \"Soviet-Iranian Oil Collaboration\" will no longer add the oil to a hardcoded state that doesnt correlate with the tooltip"
+  },
+  {
+   "k": "xntuyx",
+   "en": "The decisions to change the direction of \"Azad Hind Radio\" propaganda can no longer be taken at the same time"
+  },
+  {
+   "k": "79yul9",
+   "en": "Afghanistani kabul conference decisions are no longer missing certain regions from claimable state decisions"
+  },
+  {
+   "k": "xwbber",
+   "en": "The doctrine cost reduction from the Raj's focus \"Special Operations Executive\" now shares its name with the focus"
+  },
+  {
+   "k": "za7w20",
+   "en": "India: Fixed Bose not getting his trait when flipping fascist"
+  },
+  {
+   "k": "1eq6hac",
+   "en": "India: Fixed Princely subjugation and independent rule icons"
+  },
+  {
+   "k": "jfukmm",
+   "en": "Iran can now get cores on South Baluchistan via the focus \"The Memphis Initiative\""
+  },
+  {
+   "k": "2sgw8",
+   "en": "Iranian kurdish uprising is no longer always triggered as communist even if Iran has a different ideology"
+  },
+  {
+   "k": "1at18qc",
+   "en": "Iranian focus \"Diversify Industry\" now gives \"Fuel Storage\" as well, if not already unlocked, to prevent getting \"Synthetic Oil Experiments\" before that"
+  },
+  {
+   "k": "7iiy8b",
+   "en": "Indian national spirit \"The Pakistan Movement\" no longer grants a non-functioning weekly war support gain"
+  },
+  {
+   "k": "bc211t",
+   "en": "Iranian focus \"Swear Fealty to the Invaders\" will no longer sometimes send several events to the same country"
+  },
+  {
+   "k": "1aaircx",
+   "en": "You can no longer start the indian focus \"Hegemony of the Subcontinent\" that requires you to own pakistan right before india splits"
+  },
+  {
+   "k": "1dylaon",
+   "en": "Iraqi focus \"Propose Syrian Unification\" will no longer create a nonsensical tooltip"
+  },
+  {
+   "k": "vawt0t",
+   "en": "Iranian AI will no longer take the focus \"Push for Negotiations\" when it is winning"
+  },
+  {
+   "k": "or663i",
+   "en": "Fixed issue with subunit modifiers for marines on attack, defense, organization and speed not being applied properly."
+  },
+  {
+   "k": "xjf71c",
+   "en": "Iran no longer donates resource rights to Germany for states they do not control in focus \"Donate Oil Fields to the German Reich\""
+  },
+  {
+   "k": "1iwkioa",
+   "en": "Iranian focus \"Persian Gulf Hegemony\" no longer says it gives you an annex war goal even though it gives you a puppet war goal"
+  },
+  {
+   "k": "ggw5m",
+   "en": "Democratic Iran now has a way to remove the Kurdish and Azerbaijani resistance National Spirits"
+  },
+  {
+   "k": "sepald",
+   "en": "Turkish focus \"Expanding the Saadabad Pact\" can now be taken with GOE if you are not in a faction"
+  },
+  {
+   "k": "1qai3u6",
+   "en": "India: Fixed an instance where democratic India could not join factions"
+  },
+  {
+   "k": "x78tco",
+   "en": "Austria: Fixed cancel trigger being visible on anti fascist raids for everyone when it just targeted Austria"
+  },
+  {
+   "k": "chnuua",
+   "en": "Makes sure the right leader is assigned to Iran if they go down the route of the Islamic Revolution"
+  },
+  {
+   "k": "1aeq9ti",
+   "en": "Fixed broken event picture in Norwegian investment event."
+  },
+  {
+   "k": "13ovmfc",
+   "en": "Afghan decisions \"Exploit Turko-Persian Heritage\" now show up on the map as they should"
+  },
+  {
+   "k": "13vt81p",
+   "en": "Makes sure Atatürk dies even though very few focuses have been completed"
+  },
+  {
+   "k": "o9m0rq",
+   "en": "Annexing or puppeting Afghanistan as Iran will now remove the \"Afghan Helmand River Projects\" spirit(s)"
+  },
+  {
+   "k": "1vcvusl",
+   "en": "The Achievement \"Cradle of Civilization\" now only requires level 5 infrastructure in all core states that are *not* impassable, preventing potential softlocking"
+  },
+  {
+   "k": "qc7tar",
+   "en": "Iranian Decision \"Soviet-Iranian Oil Collaboration\" no longer only adds oil to Azerbaijan, despite mentioning two states"
+  },
+  {
+   "k": "tt0ibf",
+   "en": "Iraqi state modifier \"Kurdish Resistance\" will no longer remain in the state if Kurdistan owns it"
+  },
+  {
+   "k": "1l12t1x",
+   "en": "Fixed issue with political branches in British Raj that could potentially hide them even when the custom rule option was set to NOT HIDE."
+  },
+  {
+   "k": "1m485gz",
+   "en": "Syria & Lebanon will no longer be able to chose to support vichy france or free france if they are occupied/owned by an unrelated country such as Iraq"
+  },
+  {
+   "k": "1pxey34",
+   "en": "National spirits for Army, Navy and Air force in Iraq now updates their name based on whether Iraq is Iraq, or has become Kurdistan"
+  },
+  {
+   "k": "1ehnxi2",
+   "en": "Subjects can no longer have collaboration puppets"
+  },
+  {
+   "k": "1ga5gpe",
+   "en": "Fixed broken tooltip for collaboration government"
+  },
+  {
+   "k": "1eenmn3",
+   "en": "Fixes an issue where decisions with the default cost of Political Power did not display the text icon"
+  },
+  {
+   "k": "gmd3rn",
+   "en": "Iraq: The Constitutional Monarchy path no longer uses the country name \"Iraqi Republic\""
+  },
+  {
+   "k": "r7fpan",
+   "en": "Iran: Iranian focus \"Soviet Alignment\" now bypasses if Iran is already in a faction"
+  },
+  {
+   "k": "5qdzmn",
+   "en": "India: Subhas Chandra Bose no longer loses his country leader traits if India turns communist"
+  },
+  {
+   "k": "16oprrh",
+   "en": "The USSR can no longer take the focus \"Preemptive Invasion of Iran\" if they are in a faction with Iran"
+  }
+ ]
+}

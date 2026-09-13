@@ -1,0 +1,526 @@
+{
+ "page": "Modifiers",
+ "batch": 10,
+ "items": [
+  {
+   "k": "33lo0z",
+   "zh": "modifier_army_sub_unit_armored_car_attack_factor = 0.1"
+  },
+  {
+   "k": "1j1h4dt",
+   "zh": "允许的单位类型为所有已定义的营，包括通过 mod 添加的营。"
+  },
+  {
+   "k": "1r3vila",
+   "zh": "modifier_army_sub_unit_<unit type>_defence_factor"
+  },
+  {
+   "k": "1jri51x",
+   "zh": "modifier_army_sub_unit_armored_car_defence_factor = 0.1"
+  },
+  {
+   "k": "xw27zv",
+   "zh": "modifier_army_sub_unit_<unit type>_speed_factor"
+  },
+  {
+   "k": "sgi9f8",
+   "zh": "modifier_army_sub_unit_armored_car_speed_factor = 0.1"
+  },
+  {
+   "k": "1gg7zrf",
+   "zh": "army_morale"
+  },
+  {
+   "k": "l44q86",
+   "zh": "修改师的恢复速度。"
+  },
+  {
+   "k": "1lr2h91",
+   "zh": "army_morale = 10"
+  },
+  {
+   "k": "1fn8qtz",
+   "zh": "army_morale_factor"
+  },
+  {
+   "k": "to4ffo",
+   "zh": "按百分比修改师的恢复速度。"
+  },
+  {
+   "k": "1xwky37",
+   "zh": "army_morale_factor = 0.3"
+  },
+  {
+   "k": "o70z8d",
+   "zh": "army_org"
+  },
+  {
+   "k": "1d8olnz",
+   "zh": "修改陆军的组织度。"
+  },
+  {
+   "k": "1tqvcdf",
+   "zh": "army_org = 10"
+  },
+  {
+   "k": "lblnw1",
+   "zh": "army_org_factor"
+  },
+  {
+   "k": "1af512d",
+   "zh": "按百分比修改陆军的组织度。"
+  },
+  {
+   "k": "7rz67x",
+   "zh": "army_org_factor = 0.3"
+  },
+  {
+   "k": "gyj81g",
+   "zh": "army_org_regain"
+  },
+  {
+   "k": "98v3ug",
+   "zh": "按百分比修改陆军组织度的恢复速度。"
+  },
+  {
+   "k": "u5nodw",
+   "zh": "army_org_regain = 0.3"
+  },
+  {
+   "k": "ddn2j1",
+   "zh": "breakthrough_factor"
+  },
+  {
+   "k": "vpqrfd",
+   "zh": "修改陆军的突破。"
+  },
+  {
+   "k": "1ay509",
+   "zh": "breakthrough_factor = 0.3"
+  },
+  {
+   "k": "1opnpjc",
+   "zh": "cas_damage_reduction"
+  },
+  {
+   "k": "awr1oa",
+   "zh": "降低近距离空中支援造成的伤害。"
+  },
+  {
+   "k": "1k0zubs",
+   "zh": "cas_damage_reduction = 0.3"
+  },
+  {
+   "k": "obz5h0",
+   "zh": "combat_width_factor"
+  },
+  {
+   "k": "12rdweu",
+   "zh": "改变我方自身的战斗宽度。"
+  },
+  {
+   "k": "7edy5w",
+   "zh": "combat_width_factor = 0.3"
+  },
+  {
+   "k": "1m8jpqq",
+   "zh": "coordination_bonus"
+  },
+  {
+   "k": "1hyfljf",
+   "zh": "改变协调加成，即有多少伤害作用于主要目标而不是被分散到各处。"
+  },
+  {
+   "k": "1tvvgxu",
+   "zh": "coordination_bonus = 0.3"
+  },
+  {
+   "k": "fymv4f",
+   "zh": "dig_in_speed"
+  },
+  {
+   "k": "1do74ta",
+   "zh": "改变构筑工事的速度。"
+  },
+  {
+   "k": "s53m1i",
+   "zh": "dig_in_speed = 2"
+  },
+  {
+   "k": "sxikab",
+   "zh": "dig_in_speed_factor"
+  },
+  {
+   "k": "1bm510c",
+   "zh": "按百分比改变构筑工事的速度。"
+  },
+  {
+   "k": "x0pi3t",
+   "zh": "dig_in_speed_factor = 0.5"
+  },
+  {
+   "k": "1uo440y",
+   "zh": "experience_gain_army_unit"
+  },
+  {
+   "k": "md4afs",
+   "zh": "改变陆军各师获得的经验。"
+  },
+  {
+   "k": "23a6ww",
+   "zh": "experience_gain_army_unit = 0.5"
+  },
+  {
+   "k": "l5sv9k",
+   "zh": "experience_gain_army_unit_factor"
+  },
+  {
+   "k": "1owx9t6",
+   "zh": "按百分比改变陆军各师获得的经验。"
+  },
+  {
+   "k": "14m1ofu",
+   "zh": "experience_gain_army_unit_factor = 0.5"
+  },
+  {
+   "k": "1v71z6h",
+   "zh": "experience_loss_factor"
+  },
+  {
+   "k": "htvgrl",
+   "zh": "改变各师在战斗中损失的经验。"
+  },
+  {
+   "k": "qywrid",
+   "zh": "experience_loss_factor = 0.3"
+  },
+  {
+   "k": "qf57pv",
+   "zh": "initiative_factor"
+  },
+  {
+   "k": "12gjmp0",
+   "zh": "修改主动性。"
+  },
+  {
+   "k": "rjc6gf",
+   "zh": "initiative_factor = 0.3"
+  },
+  {
+   "k": "19kvzqi",
+   "zh": "land_night_attack"
+  },
+  {
+   "k": "1a3ovxc",
+   "zh": "改变夜间进攻所受的惩罚。"
+  },
+  {
+   "k": "1syu5uw",
+   "zh": "land_night_attack = 0.5"
+  },
+  {
+   "k": "b7057w",
+   "zh": "max_dig_in"
+  },
+  {
+   "k": "159djzi",
+   "zh": "改变最大工事值。"
+  },
+  {
+   "k": "116o2or",
+   "zh": "max_dig_in = 20"
+  },
+  {
+   "k": "150at9s",
+   "zh": "也适用于州作用域。"
+  },
+  {
+   "k": "1oph09e",
+   "zh": "max_dig_in_factor"
+  },
+  {
+   "k": "1bu9yuk",
+   "zh": "按百分比改变最大工事值。"
+  },
+  {
+   "k": "lkwj2o",
+   "zh": "max_dig_in_factor = 0.5"
+  },
+  {
+   "k": "z6590r",
+   "zh": "max_planning"
+  },
+  {
+   "k": "k5qani",
+   "zh": "改变最大计划值。"
+  },
+  {
+   "k": "1bxhf9a",
+   "zh": "max_planning = 20"
+  },
+  {
+   "k": "vzcyt3",
+   "zh": "max_planning_factor"
+  },
+  {
+   "k": "3zca0c",
+   "zh": "按百分比改变最大计划值。"
+  },
+  {
+   "k": "nlihnp",
+   "zh": "max_planning_factor = 0.5"
+  },
+  {
+   "k": "yolt19",
+   "zh": "pocket_penalty"
+  },
+  {
+   "k": "1g2oyf0",
+   "zh": "降低部队被包围时受到的惩罚。"
+  },
+  {
+   "k": "fst2fq",
+   "zh": "pocket_penalty = 0.2"
+  },
+  {
+   "k": "fiskei",
+   "zh": "recon_factor"
+  },
+  {
+   "k": "1urzh83",
+   "zh": "改变侦察能力。"
+  },
+  {
+   "k": "19gre8d",
+   "zh": "recon_factor = 0.2"
+  },
+  {
+   "k": "8rt689",
+   "zh": "recon_factor_while_entrenched"
+  },
+  {
+   "k": "2evibe",
+   "zh": "改变已构筑工事的师的侦察能力。"
+  },
+  {
+   "k": "1rlxoci",
+   "zh": "recon_factor_while_entrenched = 0.2"
+  },
+  {
+   "k": "wll34u",
+   "zh": "special_forces_cap"
+  },
+  {
+   "k": "evyavl",
+   "zh": "按百分比改变特种部队的最大数量。"
+  },
+  {
+   "k": "1yn7r4k",
+   "zh": "special_forces_cap = 0.5"
+  },
+  {
+   "k": "1tr2jxu",
+   "zh": "special_forces_min"
+  },
+  {
+   "k": "z2y1y5",
+   "zh": "改变特种部队的最小数量。"
+  },
+  {
+   "k": "iilnrq",
+   "zh": "special_forces_min = 250"
+  },
+  {
+   "k": "106ecyu",
+   "zh": "terrain_penalty_reduction"
+  },
+  {
+   "k": "17yytcz",
+   "zh": "降低地形造成的惩罚。"
+  },
+  {
+   "k": "294j86",
+   "zh": "terrain_penalty_reduction = 0.3"
+  },
+  {
+   "k": "1o4msxt",
+   "zh": "尽管该修正出现在原版国家精神中，但它只在单位指挥官作用域中生效。"
+  },
+  {
+   "k": "1lkfxnn",
+   "zh": "org_loss_at_low_org_factor"
+  },
+  {
+   "k": "5sagl",
+   "zh": "修改单位在低组织度时的组织度损失。"
+  },
+  {
+   "k": "oa9vrg",
+   "zh": "org_loss_at_low_org_factor = 0.2"
+  },
+  {
+   "k": "n827ct",
+   "zh": "org_loss_when_moving"
+  },
+  {
+   "k": "d1ydu1",
+   "zh": "修改单位移动时的组织度损失。"
+  },
+  {
+   "k": "ff1us6",
+   "zh": "org_loss_when_moving = 0.2"
+  },
+  {
+   "k": "icibh8",
+   "zh": "planning_speed"
+  },
+  {
+   "k": "khhj1k",
+   "zh": "修改计划速度。"
+  },
+  {
+   "k": "jy4qbz",
+   "zh": "planning_speed = 0.2"
+  },
+  {
+   "k": "10e2x1d",
+   "zh": "在州作用域中有效。"
+  },
+  {
+   "k": "1pdhxmb",
+   "zh": "experience_gain_<unit type>_combat_factor"
+  },
+  {
+   "k": "5mqime",
+   "zh": "修改该单位类型在战斗中的经验增益。"
+  },
+  {
+   "k": "fb4rex",
+   "zh": "experience_gain_artillery_combat_factor = 0.3"
+  },
+  {
+   "k": "1gomhyw",
+   "zh": "单位定义于⟦0⟧文件中。"
+  },
+  {
+   "k": "ks8zrp",
+   "zh": "experience_gain_<unit type>_training_factor"
+  },
+  {
+   "k": "1xucwkg",
+   "zh": "修改该单位类型在训练中的经验增益。"
+  },
+  {
+   "k": "17u4tdw",
+   "zh": "experience_gain_destroyer_training_factor = 0.3"
+  },
+  {
+   "k": "1y780n3",
+   "zh": "海军入侵"
+  },
+  {
+   "k": "1gi995f",
+   "zh": "naval_invasion_prep_speed"
+  },
+  {
+   "k": "1ssvlrq",
+   "zh": "修改海军入侵的准备速度。"
+  },
+  {
+   "k": "xk2g71",
+   "zh": "naval_invasion_prep_speed = 10"
+  },
+  {
+   "k": "1q6x2tf",
+   "zh": "可作为定向修正，也可用于单位指挥官作用域。"
+  },
+  {
+   "k": "12cyzz4",
+   "zh": "naval_invasion_capacity"
+  },
+  {
+   "k": "3atcrb",
+   "zh": "修改同时可以有多少个师进行海军入侵计划。"
+  },
+  {
+   "k": "hkskmc",
+   "zh": "naval_invasion_capacity = 10"
+  },
+  {
+   "k": "hpse1d",
+   "zh": "naval_invasion_penalty"
+  },
+  {
+   "k": "1a2ujo4",
+   "zh": "修改海军入侵的惩罚。"
+  },
+  {
+   "k": "xxtaxp",
+   "zh": "naval_invasion_penalty = 0.3"
+  },
+  {
+   "k": "6y5z5",
+   "zh": "与 amphibious_invasion_defence 相反。也适用于州作用域。"
+  },
+  {
+   "k": "ji9mt1",
+   "zh": "naval_invasion_planning_bonus_speed"
+  },
+  {
+   "k": "1e5ye3o",
+   "zh": "修改海军入侵准备期间计划加成的累积速度。"
+  },
+  {
+   "k": "71c6yp",
+   "zh": "naval_invasion_planning_bonus_speed = 0.3"
+  },
+  {
+   "k": "124m542",
+   "zh": "amphibious_invasion"
+  },
+  {
+   "k": "1gmpgx2",
+   "zh": "修改海军入侵期间单位的速度。"
+  },
+  {
+   "k": "mhg0ao",
+   "zh": "amphibious_invasion = 0.5"
+  },
+  {
+   "k": "cjw911",
+   "zh": "amphibious_invasion_defence"
+  },
+  {
+   "k": "tt20x",
+   "zh": "修改海军入侵所带来的惩罚。"
+  },
+  {
+   "k": "y34spz",
+   "zh": "amphibious_invasion_defence = 0.5"
+  },
+  {
+   "k": "1mvtv4b",
+   "zh": "与 naval_invasion_penalty 相反。也适用于州作用域。"
+  },
+  {
+   "k": "1774470",
+   "zh": "invasion_preparation"
+  },
+  {
+   "k": "1y3dc2d",
+   "zh": "修改执行海军入侵所需的准备量。"
+  },
+  {
+   "k": "1pl5w7w",
+   "zh": "invasion_preparation = 0.3"
+  },
+  {
+   "k": "j2ehsg",
+   "zh": "与 naval_invasion_prep_speed 相反。可用于单位指挥官作用域。"
+  },
+  {
+   "k": "1s0rg05",
+   "zh": "请注意，这些修正大多不仅存在于国家作用域，也存在于海军指挥官作用域以及装备模块中。"
+  }
+ ]
+}

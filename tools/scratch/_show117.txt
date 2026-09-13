@@ -1,0 +1,131 @@
+﻿=== Patch 1.17.X (130) [file Patch_1.17.X.pr0000.json] ===
+1m4dvo5 [] :: Fixed wrong special project prefix-checks in ITA - King of the Skies, Modern Musculus, Caligulas Pride.
+17sb7p0 [] :: fixed broken localization strings if the UK rejects the Raj offer from "Colonial Cadet Exchange" focus.
+ryn68v [] :: Added `energy_ratio` trigger to see the energy fulfillment on a country scope, returning between 0 .. 1
+1tebkh2 [] :: Fixed an issue where the Japanese army faction wasn't affecting cas production cost if BBA was disabled
+1li2efx [] :: Fixed "Declare War on Democracy" being available to democratic factions if goal setter is Non-Aligned.
+13c6en1 [] :: Fixed "Generalized Support" and "The New School" naval subdoctrines to have correct equipment bonuses.
+14dihy3 [] :: Germany will break off the Battle of Britain in November 1940 to recover and reorganize for Barbarossa
+1tfe4gd [] :: Fixed a bug where all AI task forces where allowed to split off repairs, instead of just strike forces
+1f63neq [] :: Fixed an exploit where recreating factions allowed you to instantly get the reward for completing them
+1uu16ui [] :: Portugal - Boosted the amount of democratic support gained from the national spirit British Influence
+elq1iz [] :: Fixed an issue where the Sinkiang focus Reestablish the Guominjun would send the wrong event to China
+9znkbs [] :: Fixed a bug where, without "No Compromise, No Surrender", Poland would not get invited to the allies
+c0z3pj [] :: Made doctrine selection list anchor on the right side if there are multiple rows of doctrine tracks.
+trdwud [] :: Fixed some modifiers for China not applying correctly from "The Well-timed Swoop of a Falcon" focus.
+187kffp [] :: Set Communist China to always accept invites to the Chinese United Front with historical focuses on.
+19daqa9 [] :: Gave Soviet Union a negative to mastery gain that can be removed by replacing "Politicized Military"
+121qyti [] :: Fixed issue where very few countries would build dominance where required for naval blockade to work
+1vaxyi5 [] :: Fixed an issue where you could have ships do training mission when outside the range of the homebase
+bfdzjl [] :: Localization uses 64 bit hash now to reduce collision chances and resolve random localization bugs.
+1poepd5 [] :: Renamed some land cruiser secondary/additional weapons to avoid confusion with turret type modules.
+s7t66j [] :: PHI: Added better clarification for the focuses that reduce the time taken by National Defense Act.
+vx4bao [] :: Phi: You can now invite Hispanic nations to join you after you have completed the Treaty of Manila.
+cc6fc0 [] :: Added a decision to invest in your officer training to increase your recruit able population faster
+go1y34 [] :: Reduced 1936 starting static AA in England to slightly reduce German bomber losses during the Blitz
+6yzqf5 [] :: Fixed triggers is_demilitarized_zone and is_border_conflict crashing when used in any_state trigger
+609m3i [] :: Increased research weights causing various navy heavy countries to research more naval technologies
+6rl7l7 [] :: Fixed an issue where a debug 3D model would show after disabling equipment in the division designer
+wk8cpl [] :: Lowered the starting malus of the Chinese National Spirit "Inefficient Economy" from -40% to -35%.
+9wdf1x [] :: Updated the AI research priorities for Excavation and re-purposed techs to take coal into account.
+cdo02o [] :: Fixed an issue where Korean resistance modifiers would still be present when Asia was decolonised.
+13t6wo4 [] :: GER - Fixed Motorized Division historical name list disappearing after becoming Communist Germany.
+93ss1s [] :: Fixed an issue that caused Ethiopia to only be able to become exiled in the UK if NCNS was enabled
+tpldda [] :: Fix Appoint a Spy Master - Tooltip displays faction goal rewards other than those actually granted
+j5ikwo [] :: Fixed tooltip of naval headquarters in combat results screen having multiples of the same leader.
+aac4rg [] :: Added some light tanks to the Nationalist China stockpile to reflect prewar historical inventory.
+rtla9g [] :: Fixed three instances where Japan could create a faction while being a subject of another nation.
+7s52uh [] :: PHI: Luis Taruc becoming available now added to the "Legalize the Communist Party" focus tooltip.
+66i9hf [] :: PHI: Added Philippine country leader names for those who do not have No Compromise, No Surrender.
+1bcpquo [] :: Added two new focuses to the Iraqi industrial tree for expanding the Cotton and Cement Industries
+p1r4ls [] :: The PRC Carrier MIO now gives a refitting bonus instead of a non-usable equipment conversion one
+1sajdcg [] :: The Japanese focus Finish the Fight now takes 35 days and no longer unlocks an obsolete decision
+1cvtqx8 [] :: Fix for OOS caused by international markets having a difference in prices compared to the drafts
+jn5zps [] :: When a fleet decides to repair, it will favor dockyards with more repair slots more strongly now
+57dyqt [] :: Commercial Nuclear Reactors now grant -50% state energy consumption factor, improved from -25%.
+6f9e31 [] :: First four Machine Tools technologies now additionally provide +20% Equipment Conversion Speed.
+9n5yzn [] :: Custom Game Rules - Fixed Democratic AI Strategy of Lithuania wrongly using Latvian description
+aqptsg [] :: Fixed a bug where equipment used by supply system was not properly return (disappearing trucks)
+6asl1n [] :: Fixed various trigger bugs where the incorrect comparison was made (example: 60 instead of 0.6)
+r5r0rw [] :: Fixed a bug where the Naval HQ naval leader window would not update when you add a new admiral
+u7zic5 [] :: Fixed the diplomatic action "Cancel Garrison Support" wrongly showing up without NCNS enabled.
+14jnrca [] :: Tweaked the order of focus selection for soviets to create a more accurate historical timeline
+s863jz [] :: Germany will refrain from costly and ineffective air attacks in the west during the Phoney War
+189p9fn [] :: Fixed Air map mode not showing the air superiority state after starting a second playthrough.
+17fug4z [] :: Fixed "Defeat of Anti-Communists" goal to correctly be taken by AI when at war with fascists.
+1xfgy8s [] :: Fixed an issue where three Japanese divisions would start black-flagged in the 1939 scenario.
+1xh8cip [] :: Changed numerous cases of "Poznan" to correct Polish name "Poznań". Zwirbaum happiness +1.4%.
+kpful [] :: Fixed an issue where scavenged equipment caused infantry to wear uniform from another country
+1ywrznz [] :: Fixed a bug where auto repeat spy operations was not correctly persisted between save & loads
+1sejig3 [] :: Updated the post-warlord Nationalist China tree to use more modern and accurate focus icons.
+1lm1gt0 [] :: Fixed inconsistent tooltips describing military spirits as "available due to our doctrines".
+eydcd [] :: Communist China: Fixed advisor Kang Sheng not being unlocked in focus "Lessons of the West".
+16ax3dj [] :: AFG - Added a bypass condition to the focus "The Red Threat" and "Into the Plains of India".
+i30o8m [] :: Nerfed "Tank Destroyer Force" subdoctrine slightly by lowering initiative & max organization
+1q1qnzq [] :: Fixed an issue where Paraguay could fail to go communist when set to do so in the game rules
+85q7m4 [] :: Fixed naval task forces violating the laws of spacetime by being in several places at once.
+1q0lwsk [] :: Resolved an OOS happening of the client had played single player before joining the MP game
+1wt8xp2 [] :: The Romanian national spirit Iron Guard now grants a 5% recruitable population factor bonus
+15kvcc0 [] :: Fixed not being able to assign a naval commander to an HQ if you used the sorting buttons.
+s6keuz [] :: Added "Establish an Airborne Corps" and "Establish a Mountaineer Corps" medium-term Goals.
+81z93i [] :: Fixed an issue where Interior Borneo had building slots available despite being impassable
+12gkusf [] :: Monarchist Portugal can now inherit a few Brazilian characters when reuniting the kingdoms
+19ci4se [] :: Fixed an issue where the Japanese Armored Car designer could show up when LaR was disabled
+ym7647 [] :: The AI will now train their ships more than previously, if possible due to fuel restraints
+1dlfa1b [] :: PHI: Made the experience gain penalty reservable earlier (40% with National Defense Act).
+c0x214 [] :: Fixed a rare game state corruption when a player is kicked during hot-joining an MP game.
+p4wa78 [] :: "Eternal Revolution" now requires China to be independent to be able to create a faction.
+xwlha4 [] :: Adds disabled states and new tooltips for 'Repair Now!' buttons for task forces and ships
+kc5no4 [] :: Polish AI will not take boost monarchism decisions if monarchism claim level is above 90%
+1avxawm [] :: Paraguay - Fixed an issue where the spirit Guión Rojo wouldn't actually give any manpower
+19h0wmb [] :: Chinese Warlords are more likely to be accepted into the United Front through the event.
+758xrv [] :: Implemented folder-wide doctrine mastery gain modifiers (e.g. land_mastery_gain_factor).
+1er8cx6 [] :: Fixed an issue where Chile could have multiple Mapuche Conflict spirits at the same time
+ofyt9k [] :: Fixed an issue where warlords couldn't get the Morozov Design Bureau if NCNS was enabled
+1bxwmr3 [] :: Fixed missing officer trait in "expand infantry forces" faction goal reward description.
+117nowe [] :: Drastically reduced manpower requirement for “The Red Tide” goal, and increased reward.
+9x6a4f [] :: Fixed and issue where resources from production would become 0 after becoming a puppet.
+lc7xcu [] :: Nerfed "Grand Assault" subdoctrine slightly by reducing the maximum organization gained
+19n52c4 [] :: Overall org gain rate has been halved in most instances in the various doctrine tracks.
+110qwzi [] :: Added two new decisions for Saudi Arabia and Oman relating to modernization initiatives
+1qpj2xq [] :: Norway will now gain their two off map civs when completing "Invite Foreign investment"
+1wvzjxn [] :: Fixed admirals not being removed from naval headquarters after being made unavailable.
+1vo7tzv [] :: Fixed airbase access incorrectly being granted by Iraq to the UK without NCNS enabled.
+wy6vib [] :: The Falangist Spanish bonus Eliminate the Carlists now lasts for 90 days instead of 60
+gt96ma [] :: Stockpile data is now sorted. (Actively produced first, then sorted on stockpile size)
+v6lxzv [] :: Added Leander and County class cruiser designs to Australia to reflect active designs.
+25h07v [] :: Fixed a bug where screens without depth charges would try and keep fighting submarines
+eo18og [] :: Drastically increased rewards for “Maintain Control of the (Chinese) Coastline” goal.
+1vl99ba [] :: Fixed the Naval Dominance flag inside of the naval region screen not being clickable.
+52960y [] :: Fixed war summary window not being closeable while having the division designer open.
+13owybh [] :: Communist China: Added new guerilla warfare expert trait focused on guerilla warfare.
+1in6az [] :: Fixed the icon of Extra Supplies ability changing when clicking on different generals
+kmtqyh [] :: "Lay the Foundation for a United China" will now give autonomy if China is a subject.
+1vqk688 [] :: PHI: Added a Fascist Demagogue for those who do not have No Compromise, No Surrender.
+p186le [] :: Removed the unintended Unit Medal Effectiveness modifier from Early Mobilization Law.
+q9bq0r [] :: Fixed an issue where some vps would be incorrectly named after forming Greater Greece
+vq0zyy [] :: Austria can no longer liberate other people's subjects by creating the Central Powers
+1dhrw5m [] :: Made adjustments to how the game handles large lobbies to smooth out that experience.
+vv0lmf [] :: Fixed "Zuikaku" provided through a Japanese focus incorrectly being called "Zaikaku".
+gsvh6g [] :: Fixed “Lack of Energy” modifier not displaying inside of the Factory Output Tooltip.
+33gsjm [] :: Fixed a crash in the “has_mastery_level” trigger if a bad sub doctrine was provided.
+2et52j [] :: Fixed some faction goals for naval and air size wrongly measuring army size instead.
+1sme82e [] :: Fixed a few unlocalized doctrine bonuses from the British and Ethiopian focus trees.
+ou99ng [] :: Fixed an exploit where airwings with zero attacking fighters would still deal damage
+1id26o6 [] :: France's "Victors of the Great War" national idea now has a 50% mastery gain penalty
+4mp9wd [] :: Faction color now correctly follows the leader's color dynamically if not overridden
+c55ucf [] :: Fixed equipment stat tooltips not listing doctrine modifiers in the stat breakdown.
+h6vw7y [] :: Fixed a multiplayer OOS when Korean and other localizations were in the same group.
+1huis3v [] :: Communist China: Made a hidden idea actually hidden (from A New Central Committee).
+1ikokef [] :: Fix tooltip for faction goal Expand Our Armored Force to also include Armor Officer
+2diwd4 [] :: Fixed missing French loc for Husqvarna weapons factory focus in Swedish focus tree.
+1jkuobg [] :: Fixed an issue where Yunnan's decisions could disappear after switching focus tree.
+1isr0nc [] :: Reduced the mastery gain debuff France gets from "Victors of the Great War" to -15%
+1wl7p1o [] :: USA: improved the AI's naval templates and their prioritisation of which to produce
+3kg0a4 [] :: Increased “Indifference is a Threat” non-aligned country limit to be more lenient.
+1wh3i5n [] :: Fixed the “switch faction theater” button always showing the generic faction icon.
+4pm1uj [] :: the US and Japan should beat each other to death in the Pacific to a better degree
+1ngzl3i [] :: Fixed Faction Theaters showing 0 countries if the Theater is owned by anyone else.
+1rdcdt5 [] :: Fixed a broken availability check for the Japanese focus Fund the RIKEN Institute.
+10rz2d0 [] :: Factories gained from exporting resources now impacts the energy per factory less.
+7jl3ao [] :: Added the Tauran Incident as an event chain and border war for Japan and Mongolia.

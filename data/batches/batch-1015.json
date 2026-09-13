@@ -1,0 +1,880 @@
+{
+ "batch": 1015,
+ "pages": [
+  "Naval support technology"
+ ],
+ "chars": 14945,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "d1z1t7",
+   "en": "The naval support research tree includes all technologies which are not direct derivatives of ship hulls. For the most part, these technologies include new or improved naval weaponry, but also includes technologies for improving troop transports used during naval invasions and a few technologies for reducing the effect of incoming critical hits and for sweeping waters of hostile mines."
+  },
+  {
+   "k": "1yfrxv",
+   "en": "With the introduction of special projects in ⟦0⟧ and the accompanying ⟦1⟧, all naval support technologies now also generate naval engineering breakthrough progress while being researched.",
+   "frags": 2
+  },
+  {
+   "k": "1v2zo8a",
+   "en": "Götterdämmerung"
+  },
+  {
+   "k": "1avmr2a",
+   "en": "Patch 1.15"
+  },
+  {
+   "k": "16d80gz",
+   "en": "Naval support research tree"
+  },
+  {
+   "k": "7axpm1",
+   "en": "Armaments"
+  },
+  {
+   "k": "1gngdbq",
+   "en": "Batteries"
+  },
+  {
+   "k": "15c5osv",
+   "en": "Technology"
+  },
+  {
+   "k": "5xgri4",
+   "en": "Year"
+  },
+  {
+   "k": "2wurb5",
+   "en": "Base time"
+  },
+  {
+   "k": "ejz9b4",
+   "en": "Prerequisites"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "1mck34q",
+   "en": "Naval GunneryBasic design for the training and elevation mechanics of naval guns."
+  },
+  {
+   "k": "14wjyfs",
+   "en": "110 days"
+  },
+  {
+   "k": "ugovxa",
+   "en": "Unlocks 85 mm RF. Cannon Light attack: 1.0 Light piercing: 1.0 Max speed: -1% Production cost: 90 1 17 cm Cannon Heavy attack: 6.0 Heavy piercing: 22.0 Max speed: -4% HP: +40% Production cost: 650 14.5 cm Cannon Light attack: 4.0 Light piercing: 5.5 Max speed: -3% HP: 20.0 Production cost: 300 1 28 cm Cannon Heavy attack: 14.0 Heavy piercing: 31.0 Max speed: -5% Production cost: 1550 75mm RF. Cannon Light attack: 3.0 Light piercing: 5.5 Max speed: -2% Production cost: 180"
+  },
+  {
+   "k": "ot7eya",
+   "en": "Unlocks"
+  },
+  {
+   "k": "1smup9j",
+   "en": "85 mm RF. Cannon"
+  },
+  {
+   "k": "lcjb9p",
+   "en": "Light attack:"
+  },
+  {
+   "k": "1nft7fo",
+   "en": "Light piercing:"
+  },
+  {
+   "k": "1cizwl0",
+   "en": "Max speed:"
+  },
+  {
+   "k": "dpxy3z",
+   "en": "Production cost:"
+  },
+  {
+   "k": "u8599o",
+   "en": "17 cm Cannon"
+  },
+  {
+   "k": "ew24lu",
+   "en": "Heavy attack:"
+  },
+  {
+   "k": "1frbk67",
+   "en": "Heavy piercing:"
+  },
+  {
+   "k": "18sot1p",
+   "en": "HP:"
+  },
+  {
+   "k": "1tdyalk",
+   "en": "14.5 cm Cannon"
+  },
+  {
+   "k": "mi3lka",
+   "en": "28 cm Cannon"
+  },
+  {
+   "k": "16hgofq",
+   "en": "75mm RF. Cannon"
+  },
+  {
+   "k": "g7qq7h",
+   "en": "Basic Light BatteryAn open, powered mount for a small-caliber gun for use on smaller ships. Mounting this module increases Light Gun Attack, which helps in engaging enemy Screening Ships."
+  },
+  {
+   "k": "a8g48h",
+   "en": "Naval Gunnery"
+  },
+  {
+   "k": "1c4pdpe",
+   "en": "Unlocks 105 mm RF. Cannon Light attack: 1.5 Light piercing: 2.0 Max speed: -2% Production cost: 120"
+  },
+  {
+   "k": "19t577a",
+   "en": "105 mm RF. Cannon"
+  },
+  {
+   "k": "19qtmyd",
+   "en": "Basic Medium BatteryA powered turret with two or three guns of medium caliber for use on cruisers. Mounting a Light Medium Battery module increases Light Gun Attack, which helps in engaging enemy Screening Ships. Mounting a Medium Battery module increases Heavy Gun Attack, which helps with engaging enemy Capital Ships."
+  },
+  {
+   "k": "4vypwj",
+   "en": "Unlocks 1 19 cm Cannon Heavy attack: 8.0 Heavy piercing: 25.0 Max speed: -6% HP: +40% Production cost: 700 15 cm Cannon Light attack: 5.0 Light piercing: 7.0 Max speed: -4% HP: 20.0 Production cost: 350 120mm RF. Cannon Light attack: 4.0 Light piercing: 7.0 Max speed: -3% Production cost: 240"
+  },
+  {
+   "k": "18s3ria",
+   "en": "19 cm Cannon"
+  },
+  {
+   "k": "129jm6u",
+   "en": "15 cm Cannon"
+  },
+  {
+   "k": "suobaj",
+   "en": "120mm RF. Cannon"
+  },
+  {
+   "k": "znetsk",
+   "en": "Basic Heavy BatteryA gigantic turret housing massive guns under heavy armor. Mounting a Heavy Battery module increases a ship's Heavy Gun Attack, improving performance against enemy Capital Ships."
+  },
+  {
+   "k": "e0ada3",
+   "en": "Unlocks 1 30.5 cm Cannon Heavy attack: 18.0 Heavy piercing: 36.0 Max speed: -6% Production cost: 1650 1 1 46 cm Cannon Heavy attack: 27.0 Heavy piercing: 45.0 Max speed: -8% Production cost: 2000"
+  },
+  {
+   "k": "404za2",
+   "en": "30.5 cm Cannon"
+  },
+  {
+   "k": "1qan13m",
+   "en": "46 cm Cannon"
+  },
+  {
+   "k": "11usf7v",
+   "en": "Improved Light BatteryA closed, powered mount for a small-caliber gun gives the crew some protection from the elements and shell splinters. Mounting this module increases Light Gun Attack, which helps in engaging enemy Screening Ships."
+  },
+  {
+   "k": "dzitm8",
+   "en": "Small-Caliber Semi-Armor Piercing Shell"
+  },
+  {
+   "k": "11aj47j",
+   "en": "Unlocks 127 mm RF. Cannon Light attack: 2.0 Light piercing: 2.5 Max speed: -3% Production cost: 150"
+  },
+  {
+   "k": "1i6it8q",
+   "en": "127 mm RF. Cannon"
+  },
+  {
+   "k": "1fvv3xj",
+   "en": "Improved Medium BatteryAn improved turret layout allows faster loading while better armor improves survivability. Mounting a Light Medium Battery module increases Light Gun Attack, which helps in engaging enemy Screening Ships. Mounting a Medium Battery module increases Heavy Gun Attack, which helps with engaging enemy Capital Ships."
+  },
+  {
+   "k": "1hz01eq",
+   "en": "Armor-Piercing Capped Medium Shell"
+  },
+  {
+   "k": "19h8oca",
+   "en": "Unlocks 2 20.3 cm Cannon Heavy attack: 10.0 Heavy piercing: 29.0 Max speed: -7% HP: +40% Production cost: 725 1 15.5 cm Cannon Light attack: 6.0 Light piercing: 8.0 Max speed: -5% HP: 20.0 Production cost: 375"
+  },
+  {
+   "k": "1w59jup",
+   "en": "20.3 cm Cannon"
+  },
+  {
+   "k": "oynzhr",
+   "en": "15.5 cm Cannon"
+  },
+  {
+   "k": "22m72g",
+   "en": "Improved Heavy BatteryPower Rammers increase the loading speed of heavy guns while automatic flash-tight doors improve safety. Mounting a Heavy Battery module increases a ship's Heavy Gun Attack, improving performance against enemy Capital Ships."
+  },
+  {
+   "k": "6gs0k3",
+   "en": "Armor-Piercing Capped Shell"
+  },
+  {
+   "k": "126x6ol",
+   "en": "Unlocks 1 38 cm Cannon Heavy attack: 22.0 Heavy piercing: 40.0 Max speed: -7% Production cost: 1750"
+  },
+  {
+   "k": "4xoltr",
+   "en": "38 cm Cannon"
+  },
+  {
+   "k": "17gv15y",
+   "en": "Advanced Light BatteryAn advanced twin mount brings significantly more firepower to bear under armored protection. Mounting this module increases Light Gun Attack, which helps in engaging enemy Screening Ships."
+  },
+  {
+   "k": "11045r",
+   "en": "Small-Caliber Armor Piercing Shell"
+  },
+  {
+   "k": "1ghmszy",
+   "en": "Unlocks 130 mm RF. Cannon Light attack: 3.0 Light piercing: 2.5 Max speed: -2% Production cost: 175"
+  },
+  {
+   "k": "ybencq",
+   "en": "130 mm RF. Cannon"
+  },
+  {
+   "k": "1u0ed0w",
+   "en": "Advanced Medium BatteryBy integrating power loading and remote power control, modern cruisers can reach rates of fire and accuracy that was hitherto considered impossible. Mounting a Light Medium Battery module increases Light Gun Attack, which helps in engaging enemy Screening Ships. Mounting a Medium Battery module increases Heavy Gun Attack, which helps with engaging enemy Capital Ships."
+  },
+  {
+   "k": "15c6kf6",
+   "en": "Medium-Caliber Semi-Armor Piercing Shell"
+  },
+  {
+   "k": "6ry8cx",
+   "en": "Unlocks 2 20.3 cm Auto-Loading Cannon Heavy attack: 12.0 Heavy piercing: 34.0 Max speed: -8% HP: +40% Production cost: 800 1 15.5 cm Auto-Loading Cannon Light attack: 7.5 Light piercing: 9.0 Max speed: -6% HP: 20.0 Production cost: 425"
+  },
+  {
+   "k": "l4mzur",
+   "en": "20.3 cm Auto-Loading Cannon"
+  },
+  {
+   "k": "1f5fgph",
+   "en": "15.5 cm Auto-Loading Cannon"
+  },
+  {
+   "k": "1jak83m",
+   "en": "Advanced Heavy BatteryImproved Recoil Reduction Mechanisms and delay coils reduce interference of shells in flight and dramatically increase accuracy. Mounting a Heavy Battery module increases a ship's Heavy Gun Attack, improving performance against enemy Capital Ships."
+  },
+  {
+   "k": "1knxeni",
+   "en": "Super-Heavy Armor Piercing Shell"
+  },
+  {
+   "k": "1dsqddk",
+   "en": "Unlocks 1 1 40.6 cm Cannon Heavy attack: 26.0 Heavy piercing: 45.0 Max speed: -8% Production cost: 1850"
+  },
+  {
+   "k": "1gz5b3o",
+   "en": "40.6 cm Cannon"
+  },
+  {
+   "k": "1jht0nq",
+   "en": "Shells"
+  },
+  {
+   "k": "eloulx",
+   "en": "Small-Caliber Semi-Armor Piercing ShellA compromise between armor-piercing performance and explosive power, this shell does significantly more damage after punching through the weak armor of light ships."
+  },
+  {
+   "k": "1bb8puq",
+   "en": "55 days"
+  },
+  {
+   "k": "1q0mgd4",
+   "en": "Basic Light Battery"
+  },
+  {
+   "k": "ooalri",
+   "en": "Upgrades Destroyers, Light Cruisers, Heavy Cruisers, Battleships, Battlecruisers, Carriers Light attack: +5% Light piercing: +5%"
+  },
+  {
+   "k": "invlnw",
+   "en": "Upgrades"
+  },
+  {
+   "k": "19b54s",
+   "en": "Destroyers, Light Cruisers, Heavy Cruisers, Battleships, Battlecruisers, Carriers"
+  },
+  {
+   "k": "hu5sgi",
+   "en": "Small-Caliber Armor Piercing ShellA proper armor-piercing shell for small caliber guns gives destroyers and other light ships a fighting chance against armored opponents."
+  },
+  {
+   "k": "iett3s",
+   "en": "Improved Light Battery"
+  },
+  {
+   "k": "6n3h0f",
+   "en": "Armor-Piercing Capped Medium ShellBy fitting a ballistic hood, shells can be made more aerodynamic while still maintaining their armor-piercing performance."
+  },
+  {
+   "k": "1lrqpl1",
+   "en": "Basic Medium Battery"
+  },
+  {
+   "k": "v9cxv7",
+   "en": "Upgrades Light Cruisers Light attack: +5% Light piercing: +5% Heavy Cruisers Heavy attack: +5% Heavy piercing: +5%"
+  },
+  {
+   "k": "bdem81",
+   "en": "Light Cruisers"
+  },
+  {
+   "k": "12nxwrk",
+   "en": "Heavy Cruisers"
+  },
+  {
+   "k": "pipnv7",
+   "en": "Medium-Caliber Semi-Armor Piercing ShellA compromise between armor-piercing performance and explosive power, this shell does significantly more damage after punching through the weak armor of light ships."
+  },
+  {
+   "k": "2wssp1",
+   "en": "Improved Medium Battery"
+  },
+  {
+   "k": "xfq5xa",
+   "en": "Armor-Piercing Capped ShellBy fitting a ballistic hood, shells can be made more aerodynamic while still maintaining their armor-piercing performance."
+  },
+  {
+   "k": "j188wn",
+   "en": "Basic Heavy Battery"
+  },
+  {
+   "k": "ppvt3e",
+   "en": "Upgrades Battleships, Battlecruisers Heavy attack: +5% Heavy piercing: +5%"
+  },
+  {
+   "k": "niesh8",
+   "en": "Battleships, Battlecruisers"
+  },
+  {
+   "k": "210s0o",
+   "en": "Super-Heavy Armor Piercing ShellWeighing well over a ton, these massive shells strike with unprecedented power and pose a dire threat to even the heaviest armor."
+  },
+  {
+   "k": "1c3imvr",
+   "en": "Improved Heavy Battery"
+  },
+  {
+   "k": "1xzmbud",
+   "en": "Dual-Purpose Batteries"
+  },
+  {
+   "k": "138hezb",
+   "en": "Basic Dual-Purpose BatteryCombining anti-ship and anti-air guns in a single mount allows for more flexibility and saves weight. Mounting this module increases Light Gun Attack, which helps in engaging enemy Screening Ships. These modules also increase Anti-Air Attack. Mounting a Secondary Battery Module gives a Cruiser, Carrier, or Heavy Ship a small amount of Light Gun Attack and allows it to engage a second target."
+  },
+  {
+   "k": "t2shw",
+   "en": "Unlocks 1 113mm Dual-Purpose Battery Light attack: 1.5 Light piercing: 1.0 Anti-Air: 2.0 Max speed: -2% Production cost: 130 113mm Dual-Purpose Secondary Battery Light attack: 3.0 Light piercing: 4.0 Anti-Air: 2.0 Max speed: -1% Production cost: 240 1 100mm Dual-Purpose Battery Light attack: 1.0 Light piercing: 0.5 Anti-Air: 1.0 Max speed: -1% Production cost: 100 100mm Dual-Purpose Secondary Battery Light attack: 2.0 Light piercing: 3.0 Anti-Air: 1.0 Max speed: -1% Production cost: 180"
+  },
+  {
+   "k": "1xsljnq",
+   "en": "113mm Dual-Purpose Battery"
+  },
+  {
+   "k": "w1kffu",
+   "en": "Anti-Air:"
+  },
+  {
+   "k": "1rmp3io",
+   "en": "113mm Dual-Purpose Secondary Battery"
+  },
+  {
+   "k": "1pi5f86",
+   "en": "100mm Dual-Purpose Battery"
+  },
+  {
+   "k": "vsfzgg",
+   "en": "100mm Dual-Purpose Secondary Battery"
+  },
+  {
+   "k": "9dq9m7",
+   "en": "Improved Dual-Purpose BatteryPowered fully enclosed Twin gun mounts greatly increase firepower and protection while saving weight. Mounting this module increases Light Gun Attack, which helps in engaging enemy Screening Ships. These modules also increase Anti-Air Attack. Mounting a Secondary Battery Module gives a Cruiser, Carrier, or Heavy Ship a small amount of Light Gun Attack and allows it to engage a second target."
+  },
+  {
+   "k": "5uojr3",
+   "en": "Basic Dual-Purpose Battery"
+  },
+  {
+   "k": "yir4gu",
+   "en": "Unlocks 1 127mm Dual-Purpose Battery Light attack: 2.0 Light piercing: 1.7 Anti-Air: 3.0 Max speed: -3% Production cost: 160 127mm Dual-Purpose Secondary Battery Light attack: 4.0 Light piercing: 7.0 Anti-Air: 2.5 Max speed: -3% Production cost: 300"
+  },
+  {
+   "k": "pc64dv",
+   "en": "127mm Dual-Purpose Battery"
+  },
+  {
+   "k": "1dfxqh5",
+   "en": "127mm Dual-Purpose Secondary Battery"
+  },
+  {
+   "k": "fvynlc",
+   "en": "Advanced Dual-Purpose BatteryAutomated Rapid fire enclosed gun mounts greatly increase firepower. Mounting this module increases Light Gun Attack, which helps in engaging enemy Screening Ships. These modules also increase Anti-Air Attack. Mounting a Secondary Battery Module gives a Cruiser, Carrier, or Heavy Ship a small amount of Light Gun Attack and allows it to engage a second target."
+  },
+  {
+   "k": "gp3mbj",
+   "en": "Improved Dual-Purpose Battery"
+  },
+  {
+   "k": "9zd0fh",
+   "en": "Unlocks 1 127mm RF. Dual-Purpose Battery Light attack: 2.5 Light piercing: 1.7 Anti-Air: 4.0 Max speed: -4% Production cost: 185 127mm RF. Dual-Purpose Secondary Battery Light attack: 4.5 Light piercing: 7.0 Anti-Air: 3.0 Max speed: -3% Production cost: 360"
+  },
+  {
+   "k": "3hpfxh",
+   "en": "127mm RF. Dual-Purpose Battery"
+  },
+  {
+   "k": "fm37ef",
+   "en": "127mm RF. Dual-Purpose Secondary Battery"
+  },
+  {
+   "k": "1masrvo",
+   "en": "Advanced Medium Dual-Purpose BatteryAutomatic loading Rapid fire Medium enclosed gun Batteries greatly increase firepower. Mounting a Light Medium Battery increases Light Gun Attack, which helps in engaging enemy Screening Ships. This module also increases Anti-Air Attack."
+  },
+  {
+   "k": "i5ao7o",
+   "en": "165 days"
+  },
+  {
+   "k": "fcz0tw",
+   "en": "Unlocks 152m RF. Dual-Purpose Battery Light attack: 7.5 Light piercing: 8.0 Anti-Air: 4.5 Max speed: -6% HP: 20.0 Production cost: 450"
+  },
+  {
+   "k": "154dgvg",
+   "en": "152m RF. Dual-Purpose Battery"
+  },
+  {
+   "k": "yd2v58",
+   "en": "Torpedoes"
+  },
+  {
+   "k": "a1m96b",
+   "en": "Ship-Based Torpedo Launchers"
+  },
+  {
+   "k": "1a4qi30",
+   "en": "Basic TorpedoA self-propelled weapon with an explosive warhead that runs on a pre-determined course until it hits the target below the waterline. Mounting this module on Light Ships or Cruisers allows them to do significant damage to enemy Capital Ships."
+  },
+  {
+   "k": "4hrfo2",
+   "en": "220 days"
+  },
+  {
+   "k": "hztxfo",
+   "en": "Unlocks 3x 450mm Torpedo Launcher Torpedo attack: 18.0 Max speed: -1% Production cost: 90"
+  },
+  {
+   "k": "1expjse",
+   "en": "3x 450mm Torpedo Launcher"
+  },
+  {
+   "k": "qjkbqy",
+   "en": "Torpedo attack:"
+  },
+  {
+   "k": "rn4ngc",
+   "en": "Improved Ship Torpedo LauncherStronger motors allow more tubes to be installed in a single mount and be trained on target faster. Mounting this module on Light Ships or Cruisers allows them to do significant damage to enemy Capital Ships."
+  },
+  {
+   "k": "10ppn2y",
+   "en": "Basic Torpedo"
+  },
+  {
+   "k": "frqqh6",
+   "en": "Unlocks 4x 450mm Torpedo Launcher Torpedo attack: 24.0 Max speed: -2% Torpedo hit chance: +1% Production cost: 120"
+  },
+  {
+   "k": "btzkfn",
+   "en": "4x 450mm Torpedo Launcher"
+  },
+  {
+   "k": "a9y3zr",
+   "en": "Torpedo hit chance:"
+  },
+  {
+   "k": "1cxyy9j",
+   "en": "Advanced Ship Torpedo LauncherLarger diameter tubes allow for bigger torpedoes with heavier warheads. Mounting this module on Light Ships or Cruisers allows them to do significant damage to enemy Capital Ships."
+  },
+  {
+   "k": "1rqqrjm",
+   "en": "Improved Ship Torpedo Launcher"
+  },
+  {
+   "k": "1ta87zp",
+   "en": "Unlocks 3x 533mm Torpedo Launcher Torpedo attack: 30.0 Max speed: -3% Torpedo hit chance: +1.5% Production cost: 150"
+  },
+  {
+   "k": "4a2bua",
+   "en": "3x 533mm Torpedo Launcher"
+  },
+  {
+   "k": "ccr509",
+   "en": "Modern Ship Torpedo LauncherPowerful compressed air charges allow heavier torpedoes to be launched at higher speeds. Mounting this module on Light Ships or Cruisers allows them to do significant damage to enemy Capital Ships."
+  },
+  {
+   "k": "14m9llo",
+   "en": "Advanced Ship Torpedo Launcher"
+  },
+  {
+   "k": "1o66aaw",
+   "en": "Unlocks 4x 533mm Torpedo Launcher Torpedo attack: 36.0 Max speed: -4% Torpedo hit chance: +2% Production cost: 180"
+  },
+  {
+   "k": "1mkd3lf",
+   "en": "4x 533mm Torpedo Launcher"
+  },
+  {
+   "k": "oekmpq",
+   "en": "Torpedo Warfare"
+  },
+  {
+   "k": "9bqzxa",
+   "en": "Optional Bonus"
+  },
+  {
+   "k": "lx7z6u",
+   "en": "Magnetic DetonatorA new detonator detects the shift in the earth's magnetic field when the torpedo passes under the target. An explosion directly under a ship causes much more damage and often breaks the keel of the target, sinking it instantly."
+  },
+  {
+   "k": "1994ht8",
+   "en": "275 days"
+  },
+  {
+   "k": "1maqvho",
+   "en": "50 for ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "19bhwtv",
+   "en": "Upgrades Destroyers, Submarines, Light Cruisers, Heavy Cruisers Torpedo attack: +20%"
+  },
+  {
+   "k": "uqo503",
+   "en": "Destroyers, Submarines, Light Cruisers, Heavy Cruisers"
+  },
+  {
+   "k": "dcdt1o",
+   "en": "Homing TorpedoEquipped with an accoustic detector, the torpedo can home in on the biggest source of noise ahead of it - usually the target."
+  },
+  {
+   "k": "16p0rfb",
+   "en": "Magnetic Detonator"
+  },
+  {
+   "k": "7r9m1p",
+   "en": "Upgrades Destroyers, Submarines, Light Cruisers, Heavy Cruisers Torpedo hit chance: +10%"
+  },
+  {
+   "k": "l7b8pa",
+   "en": "Electric TorpedoInstead of leaving an easily-detected trail of bubbles, a torpedo with an electrical engine remains practically invisible until it hits. This also means that there is no trail leading back to the launching submarine."
+  },
+  {
+   "k": "1v9bdf2",
+   "en": "Global stats Torpedo reveal chance: -25%"
+  },
+  {
+   "k": "aucne1",
+   "en": "Global stats"
+  },
+  {
+   "k": "8rhaaf",
+   "en": "Torpedo reveal chance:"
+  },
+  {
+   "k": "psmdhh",
+   "en": "Damage Control"
+  },
+  {
+   "k": "13vxxpn",
+   "en": "Fire Fighting DrillsEvery member of a ship's crew, from the Captain down to the simple sailor, must be able to help in containing and fighting fires onboard the ship."
+  },
+  {
+   "k": "18p96rt",
+   "en": "Global stats Chance to receive critical hit: -10% Effects of sustained critical hits: -10%"
+  },
+  {
+   "k": "1arqvpp",
+   "en": "Chance to receive critical hit:"
+  },
+  {
+   "k": "p8x53v",
+   "en": "Effects of sustained critical hits:"
+  },
+  {
+   "k": "12li3i7",
+   "en": "Separate Fire MainsBy separating the main water lines around the ship, the probability of a hit rendering the ship completely unable to fight fires is much reduced."
+  },
+  {
+   "k": "1ugff2h",
+   "en": "Fire Fighting Drills"
+  },
+  {
+   "k": "16j2ogv",
+   "en": "Diesel-powered Emergency PumpsWith heavy pumps usually dependent on the main engines for power, a single and fairly light hit in the engine room may render the ship unable to stay afloat."
+  },
+  {
+   "k": "lvzfly",
+   "en": "Separate Fire Mains"
+  },
+  {
+   "k": "v93fx6",
+   "en": "Fire Control Methods"
+  },
+  {
+   "k": "1f7v14v",
+   "en": "Bracket ShootingTo hit the target, the first step is to straddle it by firing a few guns at a time until the impacts hit on both sides of the target."
+  },
+  {
+   "k": "z624zo",
+   "en": "Upgrades Battleships, Battlecruisers Light attack: +5% Heavy attack: +5%"
+  },
+  {
+   "k": "eyutlj",
+   "en": "Ladder ShootingInstead of firing over the target and losing track of the impacts behind the enemy ship, shots are deliberately dropped short of the target and the distance between impact and target measured to determine the range."
+  },
+  {
+   "k": "qa84ic",
+   "en": "Bracket Shooting"
+  },
+  {
+   "k": "wb2o0m",
+   "en": "Upgrades Battleships, Battlecruisers Light attack: +10% Heavy attack: +10% Heavy Cruisers Light attack: +5% Heavy attack: +5%"
+  },
+  {
+   "k": "p04fo5",
+   "en": "Shell DyesAdding small color packages to the shells when they are fired colors the impacts around the target and allows multiple ships to engage the same target without being confused by each other's impacts."
+  },
+  {
+   "k": "xobw16",
+   "en": "Ladder Shooting"
+  },
+  {
+   "k": "1ibs3jt",
+   "en": "Upgrades Battleships, Battlecruisers Light attack: +15% Heavy attack: +15% Heavy Cruisers, Light Cruisers Light attack: +10% Heavy attack: +10% Destroyers Light attack: +5% Heavy attack: +5%"
+  },
+  {
+   "k": "1un0x8w",
+   "en": "Heavy Cruisers, Light Cruisers"
+  },
+  {
+   "k": "1u04j8f",
+   "en": "Destroyers"
+  },
+  {
+   "k": "i4b07n",
+   "en": "Transports"
+  },
+  {
+   "k": "1dn4l26",
+   "en": "Transport ShipShip designed solely for troop movement, without any defensive capabilities."
+  },
+  {
+   "k": "312fwq",
+   "en": "Global stats Troop convoy requirements: -33% Naval invasion capacity: +10"
+  },
+  {
+   "k": "1aucwtt",
+   "en": "Troop convoy requirements:"
+  },
+  {
+   "k": "9ia2fg",
+   "en": "Naval invasion capacity:"
+  }
+ ]
+}

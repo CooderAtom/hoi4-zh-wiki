@@ -1,0 +1,718 @@
+{
+ "batch": 955,
+ "pages": [
+  "Patch 1.6.X"
+ ],
+ "chars": 11622,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1o9hx4m",
+   "en": "Task forces created through the Move Ships Window now copy the insignia from the original task force"
+  },
+  {
+   "k": "1ujr8cy",
+   "en": "Fixed timed decision showing 999 instead of a progressbar"
+  },
+  {
+   "k": "vk2f14",
+   "en": "Dive bomber trait in admiral skill tree now correctly identifies bonus as only applying to carrier planes"
+  },
+  {
+   "k": "1d6lw4i",
+   "en": "Minor loc fix to Dutch Trade Neutrality news event option text."
+  },
+  {
+   "k": "1bh3oz3",
+   "en": "Added list of required module slots that are empty to the save button tooltip when designing a ship"
+  },
+  {
+   "k": "12vba7h",
+   "en": "Fixed invalid 'no mission set' warning on a task force with a mission but currently refitting or repairing"
+  },
+  {
+   "k": "ai5j6w",
+   "en": "Typo fix in the Netherlands bookmark description."
+  },
+  {
+   "k": "1oncmuk",
+   "en": "ai will now check enemy's neighbors for calculating how many units it should assign to a front"
+  },
+  {
+   "k": "1y6tb7f",
+   "en": "ai will now produce ships 1 by 1 and should be able to switch lines when a ship is done"
+  },
+  {
+   "k": "1oz1k8n",
+   "en": "ai will trade with its puppets even if they have generated wargoals before"
+  },
+  {
+   "k": "th3hn9",
+   "en": "AI now correctly check if a new political advisor is available before engaging him."
+  },
+  {
+   "k": "1woyxnx",
+   "en": "fixed targeted (reverse) ai strategies breaking strategies inside ai plans"
+  },
+  {
+   "k": "1kwyixf",
+   "en": "Ensured AI USA will no longer panic upon entering a war and instantly blow up the Panama canal. Also made rebuilding the Suez and Panama canals drastically cheaper and faster, and updated requirements and AI values for all decisions related to the canals."
+  },
+  {
+   "k": "1gzttkj",
+   "en": "ai will be aware of disconnected regions while assigning missions and will try not to exceed number of taskforces while creating region islands"
+  },
+  {
+   "k": "ey0cl4",
+   "en": "added AI strategies for Italy and Germany to not ally China if Japan goes Tripartite Pact"
+  },
+  {
+   "k": "1v3338b",
+   "en": "Improved AI planning and coordination of naval invasions."
+  },
+  {
+   "k": "1dhkigr",
+   "en": "Use a new system for AI acceptance of incoming lend leas request, based on stockpile and not on production lines."
+  },
+  {
+   "k": "1q01kt0",
+   "en": "Fix the problem with AI canceling incoming lend lease 24h after acceptance."
+  },
+  {
+   "k": "13l4jy0",
+   "en": "Made AI much more conservative with PP when it comes to using GiE decisions."
+  },
+  {
+   "k": "h99jtm",
+   "en": "Drastically increased chance for AI Churchill to take the various Speech decisions, and thus allow USA to help."
+  },
+  {
+   "k": "19d737o",
+   "en": "Ai Kaiser Germany should no longer side with Romania against Austria-Hungary in the Transylvania event chain"
+  },
+  {
+   "k": "15kh0aj",
+   "en": "ai commits more naval bases to repairs now"
+  },
+  {
+   "k": "1z0d42a",
+   "en": "Britain should now care more about Africa as well as other area prio tweaks"
+  },
+  {
+   "k": "bjzagy",
+   "en": "ENG will avoid channel if it is at war with GER"
+  },
+  {
+   "k": "n2pcd6",
+   "en": "British AI should now pick ministers better to make use of Stanley Baldwin (a first in British history)"
+  },
+  {
+   "k": "1x6y7xb",
+   "en": "British AI should no longer take early mobilization if it has better use of the political power"
+  },
+  {
+   "k": "29qml7",
+   "en": "British AI should no longer waste pp on resource prospecting if it has better things to do"
+  },
+  {
+   "k": "1186wg1",
+   "en": "British AI should no longer offer refuge to German scientist until a certain amount of time has passed"
+  },
+  {
+   "k": "myu08m",
+   "en": "Italy alternate fascist plan will now result in Italy First, rather than Pact of Steel"
+  },
+  {
+   "k": "1apmueg",
+   "en": "Both sides of the Suez Canal are now considered part of Africa for the purpose of AI calculations (still separate for all other purposes)"
+  },
+  {
+   "k": "1mttiuz",
+   "en": "blocked ai from creating naval missions in blocked regions"
+  },
+  {
+   "k": "8abwq8",
+   "en": "naval_avoid_region >= 600 will disable regions for missions as well now. Germany disables the channel if ENG is still a threat"
+  },
+  {
+   "k": "1bt57ai",
+   "en": "historical Yugoslavian AI will no longer take Greater Yugoslavia"
+  },
+  {
+   "k": "1ubjhp3",
+   "en": "added an AI strategy to Hungary to prevent them from joining the axis before it is historical if historical focuses are on"
+  },
+  {
+   "k": "34s3nb",
+   "en": "ai is now less reluctant/random about upgrading its ship designs"
+  },
+  {
+   "k": "q2gvvk",
+   "en": "fixed a bug preventing the Soviet AI from researching Fighters II"
+  },
+  {
+   "k": "xvtjod",
+   "en": "the Soviet union will no longer pick the War with Japan focus while fighting with Germany"
+  },
+  {
+   "k": "15tlkr4",
+   "en": "ai will care more about home fronts that have actual enemies if surrender process is >0 and less about other non dangerous fronts"
+  },
+  {
+   "k": "l0fovx",
+   "en": "ai won't care about guarantees that are guaranteeing an enemy that has offensive war against us or a war that started long ago"
+  },
+  {
+   "k": "1u2oqt7",
+   "en": "Improved UK historical focus selection order"
+  },
+  {
+   "k": "p92fgt",
+   "en": "Japan will now avoid too aggressive early invasions"
+  },
+  {
+   "k": "1p8eheq",
+   "en": "fixed AI keeping old garrison orders that are no longer our & our friends' lands"
+  },
+  {
+   "k": "cz8g2y",
+   "en": "Germany will prioritize Suez less if it hasn't defeated the Soviets"
+  },
+  {
+   "k": "oyhh3q",
+   "en": "Japan now does invasions a little earlier versus China"
+  },
+  {
+   "k": "17kbxim",
+   "en": "Fixed China(s) not building units"
+  },
+  {
+   "k": "4yskjs",
+   "en": "Split Scandinavia priorities off from Europe and set UK to wait longer to take back Norway"
+  },
+  {
+   "k": "bki32h",
+   "en": "Soviets will now not waste production on silos"
+  },
+  {
+   "k": "18ysk4c",
+   "en": "The AI of major naval powers should now be building more screens"
+  },
+  {
+   "k": "1mbhksd",
+   "en": "The Chinese AI will no longer try to reserve rifles for the showdown with the hated enemy no.1 (Nationalists/Communists) while at war with hated enemy no.2 (Japan)"
+  },
+  {
+   "k": "1atx9bo",
+   "en": "Germany will no longer invite Nationalist Spain to the Axis on historical mode, unless the time is after 1942, they're in a war with UK, and are winning rather heavily."
+  },
+  {
+   "k": "1sla5a5",
+   "en": "Gracefully handle improper backslash escaped characters in localization without corrupting data that can lead to a crash."
+  },
+  {
+   "k": "18uxcty",
+   "en": "Fix a CTD when some game objects were deleted in a thread, instead of being marked for deletion later in the main thread."
+  },
+  {
+   "k": "v5rgv5",
+   "en": "Protected against a buffer overflow."
+  },
+  {
+   "k": "2x1cbs",
+   "en": "Detected and skipped a certain type of invalid mipmap data in dds files."
+  },
+  {
+   "k": "ib31yy",
+   "en": "Fixed CTD when reordering pinned strategic regions"
+  },
+  {
+   "k": "yliclo",
+   "en": "Reset the deployment target of an exile nation's naval production lines when its navy is transferred, so that they do not target the recipient's task forces."
+  },
+  {
+   "k": "12m6hyu",
+   "en": "Fixed miscellaneous null pointer crashes."
+  },
+  {
+   "k": "ro34hc",
+   "en": "decisions now can accept an array for target (target_array = \"array_name\")."
+  },
+  {
+   "k": "1xqpycr",
+   "en": "added neighbors & neighbors_owned country arrays"
+  },
+  {
+   "k": "xiscdc",
+   "en": "added exiles country array"
+  },
+  {
+   "k": "1f40x2p",
+   "en": "added host country variable"
+  },
+  {
+   "k": "1gstsu8",
+   "en": "decisions now can accept a list of country tags/variables that stores countries as targets (targets = { ENG GER })"
+  },
+  {
+   "k": "11djy6m",
+   "en": "changed max scripted loc depth to a define and increased to 30"
+  },
+  {
+   "k": "2qdqlu",
+   "en": "moved scripted diplomatic action's initiator to root scope"
+  },
+  {
+   "k": "1cndmg9",
+   "en": "texts of buttons in scripted guis are dynamic and populated by scripted loc now"
+  },
+  {
+   "k": "k1w5qc",
+   "en": "value of global.date variable can be used in scripted localizations using GetDateString/GetDateStringShortMonth/GetDateStringNoHour/GetDateStringNoHourLong methods on it"
+  },
+  {
+   "k": "r6c432",
+   "en": "added enable_reverse trigger for reverse strategies that is checked for main country once before checking for targets."
+  },
+  {
+   "k": "14fokqz",
+   "en": "added targets = { ENG GER } & target_array = array_name support for reverse ai strategies to limit which countries they will be targetting"
+  },
+  {
+   "k": "1a8e0pj",
+   "en": "fixed scaled scripted gui buttons being reverted to no scale if they are assigned to textures"
+  },
+  {
+   "k": "fnhb4r",
+   "en": "in nested if triggers/effects if = { if = {} else = {} } else/else_if part is now attached to second if instead of first"
+  },
+  {
+   "k": "orv3tg",
+   "en": "scripted diplomatic actions without acceptance now calls execute effect when sent"
+  },
+  {
+   "k": "kpq6sy",
+   "en": "added a temp scope before visible trigger of scripted guis so the temp vars will be shared from visible to all other triggers/scripted locs"
+  },
+  {
+   "k": "kh9p4i",
+   "en": "added is_valid_root trigger for targeted decision. this is checked before checking all targets and if false, will skip that targeted decision completely"
+  },
+  {
+   "k": "131nycd",
+   "en": "added game variables fuel_k & max_fuel_k"
+  },
+  {
+   "k": "5wohtg",
+   "en": "fixed example of scripted diplo actions & fixed some string problems"
+  },
+  {
+   "k": "1g5azwu",
+   "en": "ai will now ignore pp strategies while deciding to send scripted diplo actions"
+  },
+  {
+   "k": "92wqj9",
+   "en": "fixed some localization issues with scripted diplo actions"
+  },
+  {
+   "k": "15jbb19",
+   "en": "Added new flag to Fascist Malta to go with the new name."
+  },
+  {
+   "k": "fnpvm5",
+   "en": "Added Ataturk and Mannerheim as Turkish and Finnish field marshals."
+  },
+  {
+   "k": "16o12ze",
+   "en": "Added new cosmetic tag for Russia if it has lost all its releasable nations, and added two new events to apply/remove this cosmetic tag."
+  },
+  {
+   "k": "1bdkiuy",
+   "en": "MAL and INS now start with the correct techs unlocked for players with MtG"
+  },
+  {
+   "k": "btviic",
+   "en": "removed naval starting techs for ICE"
+  },
+  {
+   "k": "knhfxq",
+   "en": "Added countdown timer for when the True Communist coup occurs after switching to Communism as Britain, but not having decolonized within the required 2 years. The event starting the civil war is now fired through this mission, rather than as a MTTH. This, in addition to another tooltip added to the referendum decision, should hopefully make it more clear to the player what they can expect."
+  },
+  {
+   "k": "1o5dk21",
+   "en": "gave a number of ships in most major navies some starting experience"
+  },
+  {
+   "k": "8t7c22",
+   "en": "Adjusted some ideology drift spirits in the British, German, and Italian focus trees to be timed."
+  },
+  {
+   "k": "kd0f7u",
+   "en": "Gave Netherlands Marines tech at game start."
+  },
+  {
+   "k": "gy7hzh",
+   "en": "Removed hard-scripted ideologies for nations released via the UK Decolonization tree. Released nations now will always have the UK's ideology."
+  },
+  {
+   "k": "ybtmbw",
+   "en": "Hjalmar Schacht now costs only 75pp, to make up for the fact he is more limited in his availability."
+  },
+  {
+   "k": "mjoirx",
+   "en": "French Redoubtable Class Submarine no longer considered obsolete"
+  },
+  {
+   "k": "13ci6ax",
+   "en": "The democratic side in the fascist US civil war should no longer be locked to the fascist branch of the focus tree"
+  },
+  {
+   "k": "1asslqf",
+   "en": "Reduced MTTH value for Chamberlain Resigns event."
+  },
+  {
+   "k": "18963st",
+   "en": "Added news events informing other nations that the Dominions declare independence based on the British domestic political situation."
+  },
+  {
+   "k": "ssvfr",
+   "en": "Renamed Bulgaria Democratic leader and party."
+  },
+  {
+   "k": "kdruxz",
+   "en": "added Xian Yuan as a naval theorist to Manchukuo"
+  },
+  {
+   "k": "sctkgv",
+   "en": "moved British Ark Royal Class to 1936 start, added Ark Royal to starting building queue (laid down September 1935)"
+  },
+  {
+   "k": "jwoenu",
+   "en": "added a few more namelists for Britain and France based on community contribution"
+  },
+  {
+   "k": "h0hv94",
+   "en": "added and tweaked a number of ship name lists"
+  },
+  {
+   "k": "biuy5y",
+   "en": "Added new decision and events allowing for the peaceful unification of the Low Countries, if the Benelux has been formed."
+  },
+  {
+   "k": "1ys33e7",
+   "en": "New (democratic-only) flag for Benelux Federation"
+  },
+  {
+   "k": "16h1mlp",
+   "en": "Tweaked Chamberlain resigns event to now require Poland to have fallen, and slightly increased the required surrender progress required for Denmark, Norway, the Low Countries, or France."
+  },
+  {
+   "k": "t2gplg",
+   "en": "The US now correctly starts with 2 Yorktown Carriers under construction in 1936 (MtG only due to balance concerns)"
+  },
+  {
+   "k": "15v0yvd",
+   "en": "Italy now correctly has two Littoria-Class Battleships under construction in 1936 (MtG only)"
+  },
+  {
+   "k": "eipqv3",
+   "en": "changed some starting technologies for Italy"
+  },
+  {
+   "k": "271wwm",
+   "en": "France now starts with 1 Richelieu Class Battleship under construction in 1936 (Richelieu) and two more under construction in 1939 (Jean Bart and Clemenceau) (MtG only)"
+  },
+  {
+   "k": "aoqy6h",
+   "en": "added HMS Aurora to British starting construction (MtG only)"
+  },
+  {
+   "k": "1rkekv4",
+   "en": "moved Town Class Light Cruiser template to 1936 start, added 5 ships to British starting construction in 1936"
+  },
+  {
+   "k": "1xd6dup",
+   "en": "Added Marines division template to HOL"
+  },
+  {
+   "k": "19kz5hr",
+   "en": "Added portrait for Ataturk"
+  },
+  {
+   "k": "1xyz8yj",
+   "en": "added and tweaked a number of division name lists for various countries"
+  },
+  {
+   "k": "191mdm",
+   "en": "Commonwealth Ties can now be taken if UK is overlord of Dominion civil war factions, as well (and applies the relationship boost to those countries)."
+  },
+  {
+   "k": "rwi84p",
+   "en": "Adjusted requirement for Imperial Conference to no longer be impossible if UK accepts Destroyers for Bases offer from USA."
+  },
+  {
+   "k": "13ae2ua",
+   "en": "removed the claim Romania gets on Bulgaria from the relevant event"
+  },
+  {
+   "k": "gxqki2",
+   "en": "Reach out to the Ware Group is now available for both democratic and communist governments"
+  },
+  {
+   "k": "1yf4hph",
+   "en": "Removed Atatürk as a starting field marshal and instead added a decision to recruit him if Turkey is in a defensive war, also assigned to him his new field marshal portrait"
+  },
+  {
+   "k": "v2eu3q",
+   "en": "Added foreign language loc and an on_action trigger for Turkish civil wars."
+  },
+  {
+   "k": "1mf7hd8",
+   "en": "Added Admiral Hipper to German starting construction (MtG only)"
+  },
+  {
+   "k": "3ryp1u",
+   "en": "Added two Kirov-Class Cruisers to Soviet starting construction (MtG only)"
+  },
+  {
+   "k": "1qocekv",
+   "en": "Added USS Vincennes and USS Wichita to US starting production (MtG only)"
+  },
+  {
+   "k": "1o14cje",
+   "en": "Added two light cruisers to Italian starting construction (MtG only)"
+  },
+  {
+   "k": "6ru47n",
+   "en": "Central Powers will now invite Bulgaria if they exist, are AI, and are non-aligned."
+  },
+  {
+   "k": "i015vb",
+   "en": "Adjusted Vojvodina state population, and added cores to it in the Hungarian focus tree."
+  },
+  {
+   "k": "1e4wve9",
+   "en": "Central Powers focus now sends event invites to the various potential nations, giving them a choice rather than automatically adding them to the faction."
+  },
+  {
+   "k": "1cg3cz7",
+   "en": "Removed two duplicate ship templates in the 1939 start"
+  },
+  {
+   "k": "7mktz0",
+   "en": "Further adjusted cores granted in Hungarian focus tree (for Vojvodina and West Banat)."
+  },
+  {
+   "k": "19sgylp",
+   "en": "Reclassified existing Kongo-Class ships as Battlecruisers (MtG only)"
+  },
+  {
+   "k": "1j3difk",
+   "en": "Moved Kuching to its proper location, and added a new Brunei Victory Point to where Kuching used to be located."
+  },
+  {
+   "k": "15pvl0n",
+   "en": "King's Party is now renamed into Queen's Party under appropriate circumstances."
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "36ohs4",
+   "en": "Forum: Patch 1.6.1 Ironclad Live - Checksum 55d5, 2019-03-13"
+  },
+  {
+   "k": "1s24et2",
+   "en": "Forum: Patch 1.6.1 Ironclad Live - Checksum 55d5, 2019-04-03"
+  }
+ ]
+}

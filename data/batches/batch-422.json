@@ -1,0 +1,694 @@
+{
+ "batch": 422,
+ "pages": [
+  "Data structures"
+ ],
+ "chars": 14695,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "ghzolj",
+   "en": "Assuming no other events, this event target will only exist within this effect block and the event mod_event.0 (Where it can be used in its corresponding trigger or effect blocks). If the event mod_event.0 fires another event within a corresponding effect block, this event target will exist in that event as well, meaning that this carries over to the entire mod_event.0-starting event chain. For example, the generic event ⟦0⟧ uses this with demanded_prov_target as the event target. In order to make ROOT demand the state 123 from TAG using this, this effect block will be used:",
+   "frags": 1
+  },
+  {
+   "k": "us3ps9",
+   "en": "generic.23 ([From.GetNameDefCap] Demands Control of [demanded_prov_target.GetName])"
+  },
+  {
+   "k": "1wpvqtt",
+   "en": "Event targets can be used in ⟦0⟧ effect blocks, they are called event targets only because they carry over to events. However, there are a few effect blocks, such as scripted diplomatic actions, where event targets are impossible to set.",
+   "frags": 1
+  },
+  {
+   "k": "1xqeur6",
+   "en": "most"
+  },
+  {
+   "k": "135tw29",
+   "en": "Country tag aliases"
+  },
+  {
+   "k": "ub11od",
+   "en": "Country tag aliases are somewhat similar to event targets: they are used as pointers towards a specific scope, a single alias can point towards a single scope, and a single scope can have several aliases. However, there are differences. Primarily, country tag aliases can only point towards countries (as per the name) and they are set and cleared entirely automatically without any manual involvement. A country tag alias can point towards a non-existing country."
+  },
+  {
+   "k": "auha4r",
+   "en": "Country tag aliases are stored within ⟦0⟧ files. Each country tag alias is stored as a separate block within the file, with the name of the block being the name of the alias. Additionally, the country tag aliases serve as a trigger block, so any trigger can be used within. These are the arguments that can be used within:",
+   "frags": 1
+  },
+  {
+   "k": "l11w7p",
+   "en": "/Hearts of Iron IV/common/country_tag_aliases/*.txt"
+  },
+  {
+   "k": "1e9c22d",
+   "en": "⟦0⟧ - This will make sure that the country tag alias is equivalent to the country that the specified ⟦1⟧ points to, in this case ⟦2⟧ assigned to the global scope.",
+   "frags": 3
+  },
+  {
+   "k": "1n1jvro",
+   "en": "variable = global.var_name"
+  },
+  {
+   "k": "6zwyrp",
+   "en": "variable"
+  },
+  {
+   "k": "r6wy2g",
+   "en": "var_name"
+  },
+  {
+   "k": "15ds59p",
+   "en": "⟦0⟧ - This will make sure that the country tag alias is equivalent to the country that the specified ⟦1⟧ event target points to, in this case ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1fglx8p",
+   "en": "event_target = my_event_target"
+  },
+  {
+   "k": "1eoi7mf",
+   "en": "regular"
+  },
+  {
+   "k": "1nrv2aj",
+   "en": "global_event_target = my_event_target"
+  },
+  {
+   "k": "8bmg8e",
+   "en": "global"
+  },
+  {
+   "k": "1hbc53j",
+   "en": "⟦0⟧ - This puts every country that originates from TAG (created with ⟦1⟧ or ⟦2⟧) as a possible target for the alias. In this case, further specification is needed with triggers. This is equivalent to the ⟦3⟧, but this is treated as an argument here as it does make certain errors go away.",
+   "frags": 4
+  },
+  {
+   "k": "16x8v1u",
+   "en": "original_tag = TAG"
+  },
+  {
+   "k": "ls408m",
+   "en": "create_dynamic_country"
+  },
+  {
+   "k": "1xkz7ux",
+   "en": "original_tag trigger"
+  },
+  {
+   "k": "1yqr2wl",
+   "en": "⟦0⟧ - This is a whitespace-separated list of country tags that the country tag alias can select. In this case, further specification is needed with triggers.",
+   "frags": 1
+  },
+  {
+   "k": "l82z9l",
+   "en": "targets = { ABC DEF GHI }"
+  },
+  {
+   "k": "18r0a5g",
+   "en": "⟦0⟧ - This puts every country that's within the specified array (⟦1⟧ in the global scope in this case) as a possible target for the country tag alias. In this case, further specification is needed with triggers.",
+   "frags": 2
+  },
+  {
+   "k": "7wxifa",
+   "en": "target_array = global.my_array"
+  },
+  {
+   "k": "fqg3qx",
+   "en": "my_array"
+  },
+  {
+   "k": "1sclz8v",
+   "en": "⟦0⟧ - This is a ⟦1⟧ evaluated for each country. The country which has the highest total score will be picked for the country tag alias, provided the conditions imposed by every other argument are met.",
+   "frags": 2
+  },
+  {
+   "k": "1l01z8r",
+   "en": "country_score = { ... }"
+  },
+  {
+   "k": "1d2j64p",
+   "en": "MTTH block"
+  },
+  {
+   "k": "8zfpgy",
+   "en": "⟦0⟧ - This is what the country tag alias will point to if no country fulfills the conditions specified within triggers or other arguments.",
+   "frags": 1
+  },
+  {
+   "k": "1szrmd0",
+   "en": "fallback = TAG"
+  },
+  {
+   "k": "6vr479",
+   "en": "Here are some examples of country tag aliases:"
+  },
+  {
+   "k": "1dp0tpc",
+   "en": "This is most commonly used with ⟦0⟧ or ⟦1⟧. For example:",
+   "frags": 2
+  },
+  {
+   "k": "11a6tpm",
+   "en": "In order for this country tag alias to get used for side A of the civil war, it must have the country flag set. This is usually done directly in the effect that spawns it:"
+  },
+  {
+   "k": "z3uw7i",
+   "en": "After doing this, it's possible to use ⟦0⟧ as if it's a regular country tag, e.g. ⟦1⟧ or ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "6nosvd",
+   "en": "SDA"
+  },
+  {
+   "k": "1dk0189",
+   "en": "SDA = { add_political_power = 100 }"
+  },
+  {
+   "k": "1easf9d",
+   "en": "transfer_state_to = SDA"
+  },
+  {
+   "k": "6x2964",
+   "en": "separate from the method above another easier method to give custom tag to a dynamic d## country eg d04 (this method does not require a flag to be set)"
+  },
+  {
+   "k": "16zbi37",
+   "en": "in common\\country_tag_aliases\\tag_aliases.txt add"
+  },
+  {
+   "k": "ax74of",
+   "en": "The INA tag above will be functional without any other changes e.g. ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "a2isyl",
+   "en": "INA = { add_political_power = 100 }"
+  },
+  {
+   "k": "19do8dz",
+   "en": "using a limit"
+  },
+  {
+   "k": "g52hhk",
+   "en": "To Change a Dynamic country Name the name file you need is \\localisation\\countries_cosmetic_l_english.yml"
+  },
+  {
+   "k": "130ggtu",
+   "en": "add the below lines (rename inside \" \" to suit your needs)"
+  },
+  {
+   "k": "1po9ubj",
+   "en": "A variable within Hearts of Iron IV is defined by appending a signed 32-bit integer ranging from -2 147 483 648 to 2 147 483 648 to another integer ranging from 0 to 99 999, representing the whole number and fractional parts of the variable respectively as ⟦0⟧. As such, it effectively ranges from -2 147 483 648.99 999 to 2 147 483 647.99 999. Adding further amounts above or below the variable will result in an overflow, causing the value go from the maximum to the minimum or vice-versa. Additionally, this means that the highest level of accuracy achievable using the variable system is to the closest 0.00001, and any levels of precision beyond this will be truncated.",
+   "frags": 1
+  },
+  {
+   "k": "14gqyfe",
+   "en": "<whole numbers>.<decimals>"
+  },
+  {
+   "k": "1p64dqv",
+   "en": "Variables are not stored within any particular file and can be created dynamically with any ⟦0⟧ or (temporary variables-only) ⟦1⟧. Each database object (such as countries, states, ideas, or even equipment types) has a unique internal numeric ID, which can be assigned to a variable. For example, setting a variable's value to a country tag will make it take on the ID of the tag, and then the variable will be taken as a country when used as a target or as a scope. For ⟦2⟧, a ⟦3⟧ prefix is necessary when assigning a literal, for example: ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "wj82kj",
+   "en": "trigger"
+  },
+  {
+   "k": "l3fnyb",
+   "en": "tokenizable database types"
+  },
+  {
+   "k": "1iczi54",
+   "en": "token:"
+  },
+  {
+   "k": "cu966k",
+   "en": "var_name = token:some_idea_name"
+  },
+  {
+   "k": "1o6ikzs",
+   "en": "When using a variable as a scope, the ⟦0⟧ prefix is needed, however in some cases the prefix is optional: most notably when using it as the target of an effect or trigger. For example, in ⟦1⟧, the ⟦2⟧ can be omitted with no difference (For some cases, there will be logged errors, yet it will work in-game), but in ⟦3⟧ the ⟦4⟧ is ⟦5⟧. Despite functioning similarly to a scope, the ⟦6⟧ prefix is optional when a variable is used as a weight inside of ⟦7⟧. Same as with event targets, using variables in localisation for namespaces does not require the ⟦8⟧ prefix, such as ⟦9⟧. A good rule of thumb is that when passing a variable in a place where a raw token (rather than, say, a quoted string, a number, or a numeric state ID) is acceptable, it must usually be prefixed with ⟦10⟧ so that the parser can distinguish whether the token being passed is meant to reference a database object or a variable. If ⟦11⟧ is absent in a location where it should be present, the code may work, but the game will often complain in the error log. In general, it is best to err on the side of caution in this regard, as what may result in a merely-complaining error in one context, might result in an effect-nullifying, or worse, trigger-falsifying, error in another context. However, ⟦12⟧ is always optional in variable and array manipulation operators (including ⟦13⟧), and so it can be elided in those operators for readability's sake.",
+   "frags": 14
+  },
+  {
+   "k": "1ydu40c",
+   "en": "var:"
+  },
+  {
+   "k": "1pymzu5",
+   "en": "transfer_state = var:my_state_variable"
+  },
+  {
+   "k": "8fdgdb",
+   "en": "var:my_country_variable = { transfer_state = 123 }"
+  },
+  {
+   "k": "v0i2t4",
+   "en": "mandatory"
+  },
+  {
+   "k": "jspe6n",
+   "en": "random_list"
+  },
+  {
+   "k": "1pt6v42",
+   "en": "[?var_name.GetName]"
+  },
+  {
+   "k": "1m6ezt4",
+   "en": "check_variable"
+  },
+  {
+   "k": "me1ixo",
+   "en": "Within their names, variables can have any word character, i.e. the 26 English letters (Either lowercase or uppercase), underscores, and the decimal digits from 0 to 9. However, a variable name cannot ⟦0⟧ with a decimal digit, so a name like ⟦1⟧ is invalid. This requirement common in many programming languages, and is implemented here for the same reason that the ⟦2⟧ prefix exists: so that the parser can determine what syntactic type a token will be from the first (few) characters, and therefore doesn't have to worry about backtracking as much. In addition, it is recommended to avoid any names by variables that are already used for something else. For example, naming a variable ⟦3⟧ can prevent any subsequent usage of the ⟦4⟧ within the internal code. A common naming convention to avoid overlap is to add a prefix signifying where it's used, such as the country's tag (⟦5⟧) or the name of the mechanic (Usually shortened like ⟦6⟧).",
+   "frags": 7
+  },
+  {
+   "k": "swvkou",
+   "en": "begin"
+  },
+  {
+   "k": "zeeptr",
+   "en": "123_my_variable"
+  },
+  {
+   "k": "1qgpwa3",
+   "en": "capital"
+  },
+  {
+   "k": "idul51",
+   "en": "game variable with the same name"
+  },
+  {
+   "k": "rrhvbz",
+   "en": "POL_capital"
+  },
+  {
+   "k": "wpffhb",
+   "en": "PC_capital"
+  },
+  {
+   "k": "1wvi9fg",
+   "en": "Variable types"
+  },
+  {
+   "k": "13qk0rv",
+   "en": "There are two types of variables: regular and temporary. There are the following differences between the two:"
+  },
+  {
+   "k": "szb4b5",
+   "en": "Different effects are used to set and modify regular and temporary variables. Typically, the difference is just in changing ⟦0⟧ to ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "lpvs5k",
+   "en": "temp_variable"
+  },
+  {
+   "k": "gbeb3d",
+   "en": "Temporary variables only exist within the effect or trigger block where they're defined, similarly to regular event targets (although without carrying over to events). This does not mean they don't survive outside of the scope where they're defined, but the '⟦0⟧ effect block, such as a focus reward or an event option. Meanwhile, regular variables exist forever. Note that this, however, does not always function properly in regards to scripted effects or triggers: temporary variables defined within of them may not still exist outside of them within the same effect/trigger block. However, a temporary variable defined before the scripted effect or trigger's usage will always carry on into it and get modified properly within.",
+   "frags": 1
+  },
+  {
+   "k": "1dq8dak",
+   "en": "entire"
+  },
+  {
+   "k": "16digx9",
+   "en": "Due to the previous point, ⟦0⟧ as well as in effect blocks. This enables them to be computed as-needed in scripted triggers called from the ⟦1⟧ block of scripted localizations. Meanwhile, regular variables are restricted to only being defined in effect blocks.",
+   "frags": 2
+  },
+  {
+   "k": "1jel0xg",
+   "en": "temporary variables can be defined and modified in trigger blocks"
+  },
+  {
+   "k": "1gzzfjn",
+   "en": "Temporary variables are unscoped: they will remain the same regardless of in which scope they're defined and where they're checked. Meanwhile, regular variables are restricted to scopes, so that the variable has different values depending on which scope it's checked in, such as how different countries may have different stability values."
+  },
+  {
+   "k": "j0pgbw",
+   "en": "Scoping"
+  },
+  {
+   "k": "128rpa3",
+   "en": "⟦0⟧ They can and must be assigned to countries, states, characters, and to the global scope. If nothing else is specified, the current scope, or ⟦1⟧, is used as the scope of the variable. For example, ⟦2⟧ will set the variable with the name of my_var within the scope of ABC. ⟦3⟧ would then come up as false, since it checks for the variable only within CBA, while the variable is set in ABC.",
+   "frags": 4
+  },
+  {
+   "k": "v9t5y6",
+   "en": "Scoping only exists for regular variables."
+  },
+  {
+   "k": "17g13pd",
+   "en": "THIS"
+  },
+  {
+   "k": "1c779ps",
+   "en": "ABC = { set_variable = { my_var = 1 } }"
+  },
+  {
+   "k": "39hl8",
+   "en": "CBA = { check_variable = { my_var = 1 } }"
+  },
+  {
+   "k": "5fhcmb",
+   "en": "The scope where the variable is read can be changed by prepending any ⟦0⟧ that can be used as a target and can be used in any scope (For example, character scopes can not be prepended before variable because character scopes are not any-scoping scopes, which means they can not be used in other character scopes.) before the variable's name, separated with a dot, such as ⟦1⟧ being the value of ⟦2⟧ as checked for ⟦3⟧ or ⟦4⟧. This also includes ⟦5⟧ in order to assign it globally, ⟦6⟧. Other variables, if pointing to a scope, can also be used, but the ⟦7⟧ is unneeded. Variables must be chained using the ⟦8⟧ separator (rather than the usual dot), such as ⟦9⟧ being the variable ⟦10⟧ as it's assigned to the capital state of the country ABC, where ⟦11⟧ is a built-in variable pointing to the capital state of the country. Note that the scope specifier preceding ⟦12⟧ is separated from it by a ⟦13⟧ since it is a static (that is, non-variable) scope. The way to intuit this syntax is that the whole ⟦14⟧ clause forms a variable scope specifier, in which ⟦15⟧ is accessed.",
+   "frags": 16
+  },
+  {
+   "k": "6fvir7",
+   "en": "dual scope"
+  },
+  {
+   "k": "kw5lh2",
+   "en": "PREV.PREV.var_name"
+  },
+  {
+   "k": "pv64fz",
+   "en": "PREV.PREV"
+  },
+  {
+   "k": "ot12ir",
+   "en": "event_target:my_event_target.var_name"
+  },
+  {
+   "k": "1jqc553",
+   "en": "which is necessary to scope into global"
+  },
+  {
+   "k": "1orw9ao",
+   "en": "ABC.capital:var_name"
+  },
+  {
+   "k": "1mh31ad",
+   "en": "ABC.capital"
+  },
+  {
+   "k": "dfnbg3",
+   "en": "Here are some examples of scoped variable references:"
+  },
+  {
+   "k": "17hde1i",
+   "en": "In practice, scoping to distinguish variables may look like this:"
+  },
+  {
+   "k": "1f2d62r",
+   "en": "In this case, each state has a ⟦0⟧ variable which is equal to the population in thousands if it's a core of the owner at the time of being set and it's divided by 10 otherwise. Each country will also have a ⟦1⟧ variable, which sums up the weighted manpower of each state. Despite having the same name, these variables are completely unrelated to each other due to one being country-level and the other being state-level.",
+   "frags": 2
+  },
+  {
+   "k": "1s0mmfc",
+   "en": "weighted_manpower"
+  },
+  {
+   "k": "kmo6k",
+   "en": "Trigger usage"
+  },
+  {
+   "k": "1na81vm",
+   "en": "⟦0⟧ Regular variables can only be used in effects, while temporary can be used in both triggers and effects.",
+   "frags": 1
+  },
+  {
+   "k": "kwfb6",
+   "en": "Only temporary variables can be modified within a trigger block."
+  },
+  {
+   "k": "1bu8iju",
+   "en": "However, there's one aspect of triggers that's important to know: ⟦0⟧ each scope stops evaluating. If a scope stops evaluating, then the variable will not be modified anymore. In general, ⟦1⟧ that can select multiple targets are divided into two groups: ⟦2⟧ and ⟦3⟧. The first group, requiring all targets to meet triggers, evaluates each target in order and stops when it encounters one where the triggers aren't met. The second group, requiring any target to meet triggers, evaluates each target and stops when it encounters a true one. Empty trigger blocks are considered true by default, so one would instantly stop the validation of the second group (⟦4⟧ triggers). For this reason, ⟦5⟧, then the proper usage for modifying temp variables would be an ⟦6⟧ that modifies the variable if the limit is met with no other triggers that can come up as true or false coming up.",
+   "frags": 7
+  },
+  {
+   "k": "zd8bh5",
+   "en": "when"
+  },
+  {
+   "k": "17bhc4c",
+   "en": "trigger scopes"
+  },
+  {
+   "k": "1vldlbv",
+   "en": "all_<scope type>"
+  },
+  {
+   "k": "e1xuq8",
+   "en": "any_<scope type>"
+  },
+  {
+   "k": "166h74m",
+   "en": "any_"
+  },
+  {
+   "k": "1665vk2",
+   "en": "since scope limits are not supported in trigger scopes"
+  },
+  {
+   "k": "18l8sqj",
+   "en": "if statement"
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "t0ak6p",
+   "en": "Parts of this section are transcluded from ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1x35a2y",
+   "en": "In order to display the value of a variable in localisation, ⟦0⟧ is used, with the question mark signifying that it's a variable. ⟦1⟧ in order to distinguish the variable from the event targets. For example, such a localisation value will work: ⟦2⟧ By default, the scope where this is used gets assumed. Scoping works the same way as it does with variables regularly: ⟦3⟧ When the variable is a scope by itself, the question mark is still mandatory to use to distinguish from event targets: ⟦4⟧. ⟦5⟧, otherwise it will appear exactly as in the localisation file. List of such UI elements and necessary conditions for them to support dynamic localisation can be found in ⟦6⟧.",
+   "frags": 7
+  },
+  {
+   "k": "xgp4o5",
+   "en": "[?var_name]"
+  },
+  {
+   "k": "4ej0s0",
+   "en": "The question mark is mandatory"
+  },
+  {
+   "k": "fixbje",
+   "en": "var_value_tt: \"There are [?num_of_dogs] dog(s) in the country\""
+  },
+  {
+   "k": "12wpkcx",
+   "en": "GER_var_value_tt: \"There are [?GER.num_of_dogs] dog(s) in [GER.GetNameWithFlag]\""
+  },
+  {
+   "k": "96lsy9",
+   "en": "target_tt: \"The target country is [?target_country.GetName]\""
+  },
+  {
+   "k": "m9e1vb",
+   "en": "Variables can only be displayed in UI that supports dynamic localisation"
+  },
+  {
+   "k": "1jgcyis",
+   "en": "Localisation § Namespaces"
+  },
+  {
+   "k": "8cmocq",
+   "en": "If the variable points to a certain address with more localised text, such as a country, namespaces can be used in the same manner as with a regular tag or event target: ⟦0⟧ Question marks are still mandatory to include in this case.",
+   "frags": 1
+  },
+  {
+   "k": "128usq7",
+   "en": "most_dogs_tt: \"[?most_dogs.GetNameDefCap] has the most dogs out of any country.\""
+  }
+ ]
+}

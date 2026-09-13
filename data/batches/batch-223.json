@@ -1,0 +1,1635 @@
+{
+ "batch": 223,
+ "pages": [
+  "Triggers"
+ ],
+ "chars": 14937,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "2ob1lg",
+   "en": "Checks if the current scope is part of a border war."
+  },
+  {
+   "k": "xf7ux7",
+   "en": "is_in_home_area"
+  },
+  {
+   "k": "9pbtiv",
+   "en": "is_in_home_area = yes"
+  },
+  {
+   "k": "44b72a",
+   "en": "Checks if the current scope is connected to the capital state over land. The scope needs to be owned as well for the statement for it to be true."
+  },
+  {
+   "k": "8yfo2x",
+   "en": "is_coastal"
+  },
+  {
+   "k": "wy9t01",
+   "en": "is_coastal = yes"
+  },
+  {
+   "k": "1n24z90",
+   "en": "Checks if the current scope is a coastal state."
+  },
+  {
+   "k": "tlq1d4",
+   "en": "is_one_state_island"
+  },
+  {
+   "k": "knnpqw",
+   "en": "is_one_state_island = yes"
+  },
+  {
+   "k": "10nfg0y",
+   "en": "Checks if the current scope is a coastal state with no adjacent land states."
+  },
+  {
+   "k": "9lkn7g",
+   "en": "An adjacent land state may be connected via a naval crossing."
+  },
+  {
+   "k": "1k0b75",
+   "en": "is_island_state"
+  },
+  {
+   "k": "xnkggp",
+   "en": "is_island_state = yes"
+  },
+  {
+   "k": "cw272m",
+   "en": "Checks if the current scope is a state where every province has no land neighbour."
+  },
+  {
+   "k": "cg1cc",
+   "en": "An adjacent land division may be connected via a naval crossing."
+  },
+  {
+   "k": "1td4y84",
+   "en": "is_on_continent"
+  },
+  {
+   "k": "11j70m3",
+   "en": "⟦0⟧ The continent to check for.",
+   "frags": 1
+  },
+  {
+   "k": "1azjnsb",
+   "en": "is_on_continent = europe"
+  },
+  {
+   "k": "uke6hx",
+   "en": "Checks if the current scope is on the specified continent."
+  },
+  {
+   "k": "5jcsi0",
+   "en": "Continents are found in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1h60s21",
+   "en": "/Hearts of Iron IV/map/continent.txt"
+  },
+  {
+   "k": "dp9472",
+   "en": "is_on_same_continent_as = FRA"
+  },
+  {
+   "k": "bihk57",
+   "en": "Checks if the scope state is on the same continent as the given state. The capital state is used for given country tag."
+  },
+  {
+   "k": "rueds7",
+   "en": "Can also be used in country scope."
+  },
+  {
+   "k": "18ukjs2",
+   "en": "impassable"
+  },
+  {
+   "k": "1atdbg6",
+   "en": "impassable = yes"
+  },
+  {
+   "k": "zofe2o",
+   "en": "Checks if the current scope is impassable."
+  },
+  {
+   "k": "mlb2ai",
+   "en": "has_state_category"
+  },
+  {
+   "k": "qkguyx",
+   "en": "⟦0⟧ The category to check for.",
+   "frags": 1
+  },
+  {
+   "k": "q0flol",
+   "en": "has_state_category = rural"
+  },
+  {
+   "k": "1pe9l5u",
+   "en": "Checks if the current scope has the specified category."
+  },
+  {
+   "k": "14wc26q",
+   "en": "State categories are found in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "dse909",
+   "en": "/Hearts of Iron IV/common/state_category/*.txt"
+  },
+  {
+   "k": "16ws4ax",
+   "en": "state_strategic_value"
+  },
+  {
+   "k": "1wx3kik",
+   "en": "state_strategic_value > 10"
+  },
+  {
+   "k": "18cu90r",
+   "en": "Checks if the current scope has the specified strategic value."
+  },
+  {
+   "k": "1yune7p",
+   "en": "state_and_terrain_strategic_value"
+  },
+  {
+   "k": "1u6traw",
+   "en": "state_and_terrain_strategic_value > 10"
+  },
+  {
+   "k": "1rqub24",
+   "en": "Checks if the current scope has the specified state and terrain strategic value."
+  },
+  {
+   "k": "1hj52xo",
+   "en": "num_owned_neighbour_states"
+  },
+  {
+   "k": "1txwtl5",
+   "en": "owner = <scope>"
+  },
+  {
+   "k": "iyffs8",
+   "en": "num_owned_neighbour_states = { owner = GER count > 2 }"
+  },
+  {
+   "k": "w6z17c",
+   "en": "Checks if the current scope has the specified amount of neighbor states belonging to the specified country."
+  },
+  {
+   "k": "hvyaaa",
+   "en": "distance_to"
+  },
+  {
+   "k": "kssa81",
+   "en": "⟦0⟧ The distance to check for. target = <scope> The state to compare against.",
+   "frags": 1
+  },
+  {
+   "k": "1r5t2c2",
+   "en": "distance_to = { value > 1000 target = 49 }"
+  },
+  {
+   "k": "1ddtkbq",
+   "en": "Checks if the current scope is at the specified distance from the specified state."
+  },
+  {
+   "k": "1g8xjlu",
+   "en": "Must use either > or < operators for distance."
+  },
+  {
+   "k": "1cz6v3u",
+   "en": "ships_in_area"
+  },
+  {
+   "k": "zp44l7",
+   "en": "⟦0⟧ The strategic region to check for. size = <int> The amount to check for.",
+   "frags": 1
+  },
+  {
+   "k": "rbnm6i",
+   "en": "area = <int>"
+  },
+  {
+   "k": "5ha7i6",
+   "en": "ships_in_area = { area = 104 size > 14 }"
+  },
+  {
+   "k": "1sxc8w8",
+   "en": "Checks if the current scope has the specified amount of ships in the specified strategic region."
+  },
+  {
+   "k": "h7lpov",
+   "en": "Must use either > or < operators for amount. Can also be used in country scope."
+  },
+  {
+   "k": "ytgp4m",
+   "en": "has_resources_amount"
+  },
+  {
+   "k": "1p35v7q",
+   "en": "⟦0⟧ The resource to check for. amount = <int> The amount to check for. delivered = <bool> If specified, checks the amount after the modifiers are applied rather than the base resource value.",
+   "frags": 1
+  },
+  {
+   "k": "1r154af",
+   "en": "resource = <string>"
+  },
+  {
+   "k": "4lbfli",
+   "en": "delivered = <bool>"
+  },
+  {
+   "k": "1mjcqjj",
+   "en": "has_resources_amount = { resource = oil amount > 10 delivered = yes }"
+  },
+  {
+   "k": "17fuf0f",
+   "en": "Must use either > or < operators for amount."
+  },
+  {
+   "k": "tt20a",
+   "en": "⟦0⟧ The receiver of the resource rights. Mandatory if used in state scope. resources = { <resource> <...> <resource> } Resources to check for. Optional, defaults to any if unset.",
+   "frags": 1
+  },
+  {
+   "k": "uxuyst",
+   "en": "receiver = <scope>"
+  },
+  {
+   "k": "1buv4x4",
+   "en": "has_resources_rights = { receiver = POL resources = { oil steel } }"
+  },
+  {
+   "k": "19nnd9r",
+   "en": "Can be used in either state or country scope. Always returns false if the state has no resources. Can also be used in country scope."
+  },
+  {
+   "k": "197rf0e",
+   "en": "days_since_last_strategic_bombing"
+  },
+  {
+   "k": "1l34h1r",
+   "en": "days_since_last_strategic_bombing < 10"
+  },
+  {
+   "k": "1on082c",
+   "en": "Checks how many days have passed since the last strategic bombing of the state."
+  },
+  {
+   "k": "104qpis",
+   "en": "has_railway_connection"
+  },
+  {
+   "k": "43p9ju",
+   "en": "⟦0⟧ The states to check. <id> The provinces to check. Optional.",
+   "frags": 1
+  },
+  {
+   "k": "kxvwso",
+   "en": "has_railway_connection = { start_state = 10 target_state = 90 } has_railway_connection = { start_province = 402 target_province = 9400 }"
+  },
+  {
+   "k": "1hkmqeb",
+   "en": "has_railway_connection = { start_province = 402 target_province = 9400 }"
+  },
+  {
+   "k": "1mi6z4g",
+   "en": "Returns true if the states are connected by a railway. Can also check provinces."
+  },
+  {
+   "k": "5lgpoi",
+   "en": "can_build_railway"
+  },
+  {
+   "k": "17xybpu",
+   "en": "can_build_railway = { start_state = 10 target_state = 90 } can_build_railway = { start_province = 402 target_province = 9400 }"
+  },
+  {
+   "k": "cnhsq1",
+   "en": "can_build_railway = { start_province = 402 target_province = 9400 }"
+  },
+  {
+   "k": "n2gl3x",
+   "en": "Returns true if a railway can be built between states. Can also check for provinces."
+  },
+  {
+   "k": "1igsbui",
+   "en": "has_railway_level"
+  },
+  {
+   "k": "l7lcfc",
+   "en": "⟦0⟧ The states to check. <int> Railway level.",
+   "frags": 1
+  },
+  {
+   "k": "rjmvep",
+   "en": "has_railway_level = { state = 114 level = 5 }"
+  },
+  {
+   "k": "do23gk",
+   "en": "Checks if a state contains a railway at or above the specified level."
+  },
+  {
+   "k": "1eqtbra",
+   "en": "Works with level 1, 2, 3, 4 or 5. Level 0 does not work."
+  },
+  {
+   "k": "kuj805",
+   "en": "pc_does_state_stack_demilitarized"
+  },
+  {
+   "k": "1v6p8ot",
+   "en": "pc_does_state_stack_demilitarized = yes"
+  },
+  {
+   "k": "7fry89",
+   "en": "Checks if the current scope was demilitarised during a current or previously-ended peace conference."
+  },
+  {
+   "k": "jyk74z",
+   "en": "pc_does_state_stack_dismantled"
+  },
+  {
+   "k": "1o36r3j",
+   "en": "pc_does_state_stack_dismantled = yes"
+  },
+  {
+   "k": "1dht1wi",
+   "en": "Checks if the current scope was dismantled during a current or previously-ended peace conference."
+  },
+  {
+   "k": "bc5u19",
+   "en": "pc_is_state_claimed"
+  },
+  {
+   "k": "46azk5",
+   "en": "pc_is_state_claimed = yes"
+  },
+  {
+   "k": "1v3r5ke",
+   "en": "Checks if the current scope was claimed by any country during the peace conference."
+  },
+  {
+   "k": "ckqx6r",
+   "en": "Can only be used within peace conferences."
+  },
+  {
+   "k": "5uw5vj",
+   "en": "pc_is_state_claimed_by"
+  },
+  {
+   "k": "11p6h88",
+   "en": "pc_is_state_claimed_by = BHR"
+  },
+  {
+   "k": "1gv79i3",
+   "en": "Checks if the current scope was claimed by the specified country during the peace conference. Note, that \"claim\" in this context, while includes, is NOT limited to outright taking: forcing government, puppeting and liberating will render that trigger true as well. If one looks specifically for states taken by victors for themselves, ⟦0⟧ should be used.",
+   "frags": 1
+  },
+  {
+   "k": "z60o3p",
+   "en": "pc_is_state_claimed_and_taken_by"
+  },
+  {
+   "k": "15bhgxy",
+   "en": "pc_is_state_claimed_and_taken_by = SOV"
+  },
+  {
+   "k": "9z8b3x",
+   "en": "Checks if the current scope was claimed with \"Take State\" action (i.e. annexed) by the specified country during the peace conference."
+  },
+  {
+   "k": "erfac7",
+   "en": "pc_is_state_outside_influence_for_winner"
+  },
+  {
+   "k": "1q5n5i8",
+   "en": "pc_is_state_outside_influence_for_winner = ROOT"
+  },
+  {
+   "k": "eq3y3x",
+   "en": "Checks if the current state is outside of the influence of the specified winner country."
+  },
+  {
+   "k": "3hbog7",
+   "en": "⟦0⟧ Was called pc_is_state_outside_influence_for prior to 1.12.8.",
+   "frags": 1
+  },
+  {
+   "k": "5ba4oe",
+   "en": "pc_turn"
+  },
+  {
+   "k": "1amvugq",
+   "en": "⟦0⟧ The amount of turns to check for.",
+   "frags": 1
+  },
+  {
+   "k": "11m6gkm",
+   "en": "pc_turn > 20"
+  },
+  {
+   "k": "19y58p6",
+   "en": "Compares the amount of turns that have passed during the peace conference with a number."
+  },
+  {
+   "k": "1itaz1c",
+   "en": "can_construct_building"
+  },
+  {
+   "k": "18oifj0",
+   "en": "⟦0⟧The type of building.",
+   "frags": 1
+  },
+  {
+   "k": "1vnfmsf",
+   "en": "<build type>"
+  },
+  {
+   "k": "1xd0rpc",
+   "en": "can_construct_building = bunker"
+  },
+  {
+   "k": "10gqm7y",
+   "en": "Checks if the country (as ROOT) and state in scope can build a building in the state."
+  },
+  {
+   "k": "1u78ahk",
+   "en": "<country> / <variable>"
+  },
+  {
+   "k": "19xe9p4",
+   "en": "has_contested_owner = GER"
+  },
+  {
+   "k": "18lbjgo",
+   "en": "Resistance and Compliance"
+  },
+  {
+   "k": "4ch44q",
+   "en": "compliance"
+  },
+  {
+   "k": "1o87x0t",
+   "en": "compliance > 50"
+  },
+  {
+   "k": "1nt243w",
+   "en": "Compares the compliance value of the current scope with the given value."
+  },
+  {
+   "k": "1phuk6i",
+   "en": "compliance_speed"
+  },
+  {
+   "k": "scd9il",
+   "en": "compliance_speed > 50"
+  },
+  {
+   "k": "zpscqq",
+   "en": "Compares the compliance speed of the current scope with the given value."
+  },
+  {
+   "k": "iwv3sa",
+   "en": "has_active_resistance"
+  },
+  {
+   "k": "1fuoqqm",
+   "en": "has_active_resistance = yes"
+  },
+  {
+   "k": "crc9v6",
+   "en": "Checks if the current scope has non-zero resistance."
+  },
+  {
+   "k": "1dy570p",
+   "en": "has_resistance"
+  },
+  {
+   "k": "1t6vu7l",
+   "en": "has_resistance = yes"
+  },
+  {
+   "k": "mz91g8",
+   "en": "Checks if the current scope has resistance."
+  },
+  {
+   "k": "60wqo0",
+   "en": "resistance"
+  },
+  {
+   "k": "ynav8j",
+   "en": "resistance > 50"
+  },
+  {
+   "k": "re79yu",
+   "en": "Compares the resistance value of the current scope with the given value."
+  },
+  {
+   "k": "1y0u20o",
+   "en": "resistance_speed"
+  },
+  {
+   "k": "htre4b",
+   "en": "resistance_speed > 50"
+  },
+  {
+   "k": "qlovhg",
+   "en": "Compares the resistance speed of the current scope with the given value."
+  },
+  {
+   "k": "1vasi1c",
+   "en": "resistance_target"
+  },
+  {
+   "k": "uvyxpv",
+   "en": "resistance_target > 50"
+  },
+  {
+   "k": "hyz62r",
+   "en": "Compares the target resistance value of the current scope with the given value."
+  },
+  {
+   "k": "11iezb1",
+   "en": "has_occupation_modifier"
+  },
+  {
+   "k": "yl39oy",
+   "en": "⟦0⟧ The occupation modifier to check.",
+   "frags": 1
+  },
+  {
+   "k": "slztor",
+   "en": "has_occupation_modifier = modifier_name"
+  },
+  {
+   "k": "bf9jpc",
+   "en": "Checks if the current scope has an occupation modifier, changing resistance/compliance."
+  },
+  {
+   "k": "6hmsfn",
+   "en": "⟦0⟧ The occupation law to check.",
+   "frags": 1
+  },
+  {
+   "k": "1g4vios",
+   "en": "occupation_law = law_name"
+  },
+  {
+   "k": "aag4uj",
+   "en": "Checks if the current scope has an occupation law."
+  },
+  {
+   "k": "f8uqdf",
+   "en": "occupied_country_tag"
+  },
+  {
+   "k": "eodvyz",
+   "en": "⟦0⟧ The occupation tag to check.",
+   "frags": 1
+  },
+  {
+   "k": "f5yslb",
+   "en": "occupied_country_tag = POL"
+  },
+  {
+   "k": "1k4zlo3",
+   "en": "Checks which country creates resistance."
+  },
+  {
+   "k": "q9zg95",
+   "en": "is_character"
+  },
+  {
+   "k": "4vn9t2",
+   "en": "⟦0⟧ Character ID.",
+   "frags": 1
+  },
+  {
+   "k": "1046eva",
+   "en": "is_character = POL_test_character"
+  },
+  {
+   "k": "1dzld6g",
+   "en": "Checks if the current character's token matches up with the specified one."
+  },
+  {
+   "k": "1b5706y",
+   "en": "can_be_country_leader = yes"
+  },
+  {
+   "k": "1cownsr",
+   "en": "Checks if the character in the current scope has a country leader role, active or non-active."
+  },
+  {
+   "k": "uyeu2g",
+   "en": "is_country_leader"
+  },
+  {
+   "k": "nhz8co",
+   "en": "is_country_leader = yes"
+  },
+  {
+   "k": "625uuc",
+   "en": "Checks if the character in the current scope is the active country leader."
+  },
+  {
+   "k": "93d5qs",
+   "en": "is_unit_leader"
+  },
+  {
+   "k": "1k5lcfo",
+   "en": "is_unit_leader = yes"
+  },
+  {
+   "k": "mubfk4",
+   "en": "Checks if the character in the current scope has an active unit leader (Army/Navy leader) role."
+  },
+  {
+   "k": "7d1g8a",
+   "en": "is_advisor"
+  },
+  {
+   "k": "1b7itb2",
+   "en": "is_advisor = yes"
+  },
+  {
+   "k": "1cxzsrw",
+   "en": "Checks if the character in the current scope has an advisor role (includes advisors/theorists/high command)."
+  },
+  {
+   "k": "1d2byf4",
+   "en": "is_air_chief"
+  },
+  {
+   "k": "1xxwx3k",
+   "en": "is_air_chief = yes"
+  },
+  {
+   "k": "kqc0xj",
+   "en": "Checks if the character in the current scope is selected as an air chief."
+  },
+  {
+   "k": "eq2j7n",
+   "en": "Prior to 1.12, checked if the character had a role within the slot, regardless of being selected."
+  },
+  {
+   "k": "raookp",
+   "en": "is_army_chief"
+  },
+  {
+   "k": "yepiz5",
+   "en": "is_army_chief = yes"
+  },
+  {
+   "k": "8wd7hg",
+   "en": "Checks if the character in the current scope is selected as an army chief."
+  },
+  {
+   "k": "h5m1il",
+   "en": "is_army_leader"
+  },
+  {
+   "k": "lc4e05",
+   "en": "is_army_leader = yes"
+  },
+  {
+   "k": "cp9dz",
+   "en": "Checks if the character in the current scope has an army leader (General/Field Marshal) role."
+  },
+  {
+   "k": "w1780o",
+   "en": "is_navy_chief"
+  },
+  {
+   "k": "1uefk4o",
+   "en": "is_navy_chief = yes"
+  },
+  {
+   "k": "5wi7jd",
+   "en": "Checks if the character in the current scope is selected as a navy chief."
+  },
+  {
+   "k": "r7m8pe",
+   "en": "is_navy_leader"
+  },
+  {
+   "k": "f6g03q",
+   "en": "is_navy_leader = yes"
+  },
+  {
+   "k": "avqw3p",
+   "en": "Checks if the character in the current scope has an navy leader (Admiral) role."
+  },
+  {
+   "k": "l6jgww",
+   "en": "is_high_command"
+  },
+  {
+   "k": "14d180",
+   "en": "is_high_command = yes"
+  },
+  {
+   "k": "gzvhi6",
+   "en": "Checks if the character in the current scope is selected as high command."
+  },
+  {
+   "k": "ncahw6",
+   "en": "is_corps_commander"
+  },
+  {
+   "k": "1o6qjii",
+   "en": "is_corps_commander = yes"
+  },
+  {
+   "k": "1hja5wi",
+   "en": "Checks if the character in the current scope is a corps commander."
+  },
+  {
+   "k": "yr36wj",
+   "en": "is_operative"
+  },
+  {
+   "k": "jr4rxb",
+   "en": "is_operative = yes"
+  },
+  {
+   "k": "1vopc3c",
+   "en": "Checks if the character in the current scope is an operative."
+  },
+  {
+   "k": "13974oe",
+   "en": "is_political_advisor"
+  },
+  {
+   "k": "1v86erm",
+   "en": "is_political_advisor = yes"
+  },
+  {
+   "k": "162aw7n",
+   "en": "Checks if the character in the current scope is selected as a political advisor."
+  },
+  {
+   "k": "14clvns",
+   "en": "is_theorist"
+  },
+  {
+   "k": "10xkz7c",
+   "en": "is_theorist = yes"
+  },
+  {
+   "k": "1ma5bo",
+   "en": "Checks if the character in the current scope is selected as a theorist."
+  },
+  {
+   "k": "ezw39i",
+   "en": "is_character_slot"
+  },
+  {
+   "k": "193beog",
+   "en": "⟦0⟧ The advisor slot to check.",
+   "frags": 1
+  },
+  {
+   "k": "1v93qi1",
+   "en": "is_character_slot = political_advisor"
+  },
+  {
+   "k": "154qxrm",
+   "en": "Checks if the character in the current scope has a role within the specified character slot"
+  },
+  {
+   "k": "1fvv8fo",
+   "en": "Character slots are defined within ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1i2c8x0",
+   "en": "has_air_ledger"
+  },
+  {
+   "k": "1nhf2ec",
+   "en": "has_air_ledger = yes"
+  },
+  {
+   "k": "l3b906",
+   "en": "Checks if the character in the current scope has an air ledger."
+  },
+  {
+   "k": "yij107",
+   "en": "has_army_ledger"
+  },
+  {
+   "k": "ccufv7",
+   "en": "has_army_ledger = yes"
+  },
+  {
+   "k": "12fx835",
+   "en": "Checks if the character in the current scope has an army ledger."
+  },
+  {
+   "k": "158dnkc",
+   "en": "has_navy_ledger"
+  },
+  {
+   "k": "1sutll8",
+   "en": "has_navy_ledger = yes"
+  },
+  {
+   "k": "baqxys",
+   "en": "Checks if the character in the current scope has an navy ledger."
+  },
+  {
+   "k": "1n4sz1y",
+   "en": "has_character_flag"
+  },
+  {
+   "k": "1neh0fk",
+   "en": "has_character_flag = my_flag"
+  },
+  {
+   "k": "1v622e4",
+   "en": "has_character_flag = { flag = my_flag days > 30 date > 1936.6.1 value > 0 }"
+  },
+  {
+   "k": "1lgrcyo",
+   "en": "has_trait"
+  },
+  {
+   "k": "p3y4k5",
+   "en": "<trait>"
+  },
+  {
+   "k": "1rn5w9a",
+   "en": "has_trait = really_good_boss"
+  },
+  {
+   "k": "ec8nse",
+   "en": "Checks if the current scope has the specified trait."
+  },
+  {
+   "k": "7i3z3t",
+   "en": "has_id"
+  },
+  {
+   "k": "scmcsl",
+   "en": "has_id = 1"
+  },
+  {
+   "k": "5cshmv",
+   "en": "Checks if the current character has the specificed ID."
+  },
+  {
+   "k": "37smxc",
+   "en": "Advisors"
+  },
+  {
+   "k": "1dwhvk2",
+   "en": "These triggers are to be used specifically for advisors."
+  },
+  {
+   "k": "1hlwjju",
+   "en": "is_hired_as_advisor"
+  },
+  {
+   "k": "fdrdxq",
+   "en": "is_hired_as_advisor = yes"
+  },
+  {
+   "k": "q9lbrl",
+   "en": "Checks if the current character is activated as an advisor in any slot."
+  },
+  {
+   "k": "1uc1c35",
+   "en": "not_already_hired_except_as"
+  },
+  {
+   "k": "4b7n8l",
+   "en": "⟦0⟧ The slot to check in.",
+   "frags": 1
+  },
+  {
+   "k": "186bc6z",
+   "en": "<slot>"
+  },
+  {
+   "k": "1keajdq",
+   "en": "not_already_hired_except_as = political_advisor"
+  },
+  {
+   "k": "5146rf",
+   "en": "Checks if the current character is not hired, with the exception of the specified slot."
+  },
+  {
+   "k": "atcwb1",
+   "en": "advisor_can_be_fired"
+  },
+  {
+   "k": "uwixmp",
+   "en": "⟦0⟧ Boolean. OR slot = <slot> The slot to check in.",
+   "frags": 1
+  },
+  {
+   "k": "1q31w90",
+   "en": "slot = <slot>"
+  },
+  {
+   "k": "1floo0r",
+   "en": "advisor_can_be_fired = no advisor_can_be_fired = { slot = political_advisor }"
+  },
+  {
+   "k": "dtwdjp",
+   "en": "Checks if the current character's ⟦0⟧ attribute is set or not within a certain slot.",
+   "frags": 1
+  },
+  {
+   "k": "szwo4",
+   "en": "can_be_fired"
+  },
+  {
+   "k": "iri3e",
+   "en": "If an advisor is available in multiple slots, the long version is mandatory to use."
+  },
+  {
+   "k": "1el1mv1",
+   "en": "has_advisor_role"
+  },
+  {
+   "k": "imj4qq",
+   "en": "has_advisor_role = political_advisor"
+  },
+  {
+   "k": "44nugw",
+   "en": "Checks if the character in scope has an advisor role for the given slot."
+  },
+  {
+   "k": "x4asjg",
+   "en": "Possible ⟦0⟧ role slots.",
+   "frags": 1
+  },
+  {
+   "k": "eb8so3",
+   "en": "advisor"
+  },
+  {
+   "k": "5aye87",
+   "en": "Country leaders"
+  },
+  {
+   "k": "w5mywz",
+   "en": "These triggers are to be used specifically for country leaders."
+  },
+  {
+   "k": "15j99jg",
+   "en": "has_ideology"
+  },
+  {
+   "k": "19obtjw",
+   "en": "⟦0⟧ The sub-ideology to check for.",
+   "frags": 1
+  },
+  {
+   "k": "1qhk9d",
+   "en": "has_ideology = liberalism"
+  },
+  {
+   "k": "k959id",
+   "en": "Checks if the current character has the specificed sub-ideology assigned."
+  },
+  {
+   "k": "i4jcm8",
+   "en": "has_ideology_group"
+  },
+  {
+   "k": "1y30g1l",
+   "en": "⟦0⟧ The ideology to check for.",
+   "frags": 1
+  },
+  {
+   "k": "vh9w5i",
+   "en": "has_ideology_group = democratic"
+  },
+  {
+   "k": "103kmu0",
+   "en": "Checks if the current character has the specificed ideology assigned."
+  },
+  {
+   "k": "1dhrl6d",
+   "en": "Unit leaders"
+  },
+  {
+   "k": "rfwy6g",
+   "en": "These triggers are to be used specifically for unit leaders, i.e. generals and admirals."
+  },
+  {
+   "k": "1hzqn29",
+   "en": "has_unit_leader_flag"
+  },
+  {
+   "k": "is5pwf",
+   "en": "has_unit_leader_flag = my_flag"
+  },
+  {
+   "k": "1m85fjc",
+   "en": "Deprecated. Use has_character_flag instead."
+  },
+  {
+   "k": "8fwp15",
+   "en": "has_unit_leader_flag = { flag = my_flag days > 30 date > 1936.6.1 value > 0 }"
+  },
+  {
+   "k": "bhngx7",
+   "en": "Deprecated. Use has_character_flag instead. If not set, the value comparison is ⟦0⟧. ⟦1⟧ is limited between -32768 and 32767.",
+   "frags": 2
+  },
+  {
+   "k": "m162tk",
+   "en": "is_leading_army"
+  },
+  {
+   "k": "x7ycqg",
+   "en": "is_leading_army = yes"
+  },
+  {
+   "k": "1boddc3",
+   "en": "Checks if the current scope is leading a single army."
+  },
+  {
+   "k": "68k0jg",
+   "en": "is_leading_army_group"
+  },
+  {
+   "k": "16xzg9o",
+   "en": "is_leading_army_group = yes"
+  },
+  {
+   "k": "1pvdqww",
+   "en": "Checks if the current scope is leading an army group."
+  },
+  {
+   "k": "5qysqp",
+   "en": "is_leading_volunteer_group"
+  },
+  {
+   "k": "5cf9ms",
+   "en": "⟦0⟧ Country tag.",
+   "frags": 1
+  },
+  {
+   "k": "122xtpl",
+   "en": "is_leading_volunteer_group = POL"
+  },
+  {
+   "k": "g8wkaf",
+   "en": "Checks if the current scope is leading a volunteer army within the specified country."
+  },
+  {
+   "k": "auqit2",
+   "en": "If the target country is in a civil war, this will only be valid for one side."
+  },
+  {
+   "k": "1oxo9mh",
+   "en": "is_leading_volunteer_group_with_original_country"
+  },
+  {
+   "k": "17krycx",
+   "en": "is_leading_volunteer_group_with_original_country = POL"
+  },
+  {
+   "k": "1rrs9v4",
+   "en": "Checks if the current scope is leading a volunteer army within a country of the specified original tag."
+  },
+  {
+   "k": "n29ljx",
+   "en": "If the target country is in a civil war, this will only be valid for each side."
+  },
+  {
+   "k": "iasv43",
+   "en": "is_field_marshal"
+  },
+  {
+   "k": "4qbn9r",
+   "en": "is_field_marshal = yes"
+  },
+  {
+   "k": "ndkij8",
+   "en": "Checks if the current scope is a Field Marshal."
+  },
+  {
+   "k": "jgwoo6",
+   "en": "is_assigned"
+  },
+  {
+   "k": "1bph88q",
+   "en": "is_assigned = yes"
+  },
+  {
+   "k": "81vawh",
+   "en": "Checks if the current scope is an assigned unit leader."
+  },
+  {
+   "k": "it1a9l",
+   "en": "can_select_trait"
+  },
+  {
+   "k": "pan4p8",
+   "en": "can_select_trait = offensive_doctrine"
+  },
+  {
+   "k": "1f7xi8i",
+   "en": "Checks if the current scope can select the specified trait."
+  },
+  {
+   "k": "1g8detu",
+   "en": "has_ability"
+  },
+  {
+   "k": "1a76t2x",
+   "en": "⟦0⟧ The ability to check for.",
+   "frags": 1
+  },
+  {
+   "k": "xwfgwo",
+   "en": "has_ability = glider_planes"
+  },
+  {
+   "k": "8z2hqd",
+   "en": "Checks if the current scope has the specified unit leader ability."
+  },
+  {
+   "k": "1k2kmd2",
+   "en": "skill"
+  },
+  {
+   "k": "1ir6tuf",
+   "en": "skill > 1"
+  },
+  {
+   "k": "19fslvt",
+   "en": "Checks if the current scope has a Skill above the specified amount."
+  },
+  {
+   "k": "c66vn4",
+   "en": "skill_advantage"
+  },
+  {
+   "k": "1nas4n1",
+   "en": "skill_advantage > 1"
+  },
+  {
+   "k": "vbwvfk",
+   "en": "Checks if the current scope has a Skill advantage above the specified amount in against an enemy unit leader whilst in combat."
+  },
+  {
+   "k": "1xf6ipr",
+   "en": "planning_skill_level"
+  },
+  {
+   "k": "tmphe6",
+   "en": "planning_skill_level > 1"
+  },
+  {
+   "k": "1iemakc",
+   "en": "Checks if the current scope has a Planning skill above the specified amount."
+  },
+  {
+   "k": "1u2filf",
+   "en": "logistics_skill_level"
+  },
+  {
+   "k": "1kqvvbe",
+   "en": "logistics_skill_level > 1"
+  },
+  {
+   "k": "1u71aq",
+   "en": "Checks if the current scope has a Logistics skill above the specified amount."
+  },
+  {
+   "k": "13icsk0",
+   "en": "defense_skill_level"
+  },
+  {
+   "k": "114w2l",
+   "en": "defense_skill_level > 1"
+  },
+  {
+   "k": "vhe5h5",
+   "en": "Checks if the current scope has a Defense skill above the specified amount."
+  },
+  {
+   "k": "1rfftmu",
+   "en": "attack_skill_level"
+  },
+  {
+   "k": "17bx2lj",
+   "en": "attack_skill_level > 1"
+  },
+  {
+   "k": "zy7xkp",
+   "en": "Checks if the current scope has a Attack skill above the specified amount."
+  },
+  {
+   "k": "1is7lb0",
+   "en": "average_stats"
+  },
+  {
+   "k": "op7rkt",
+   "en": "average_stats > 5"
+  },
+  {
+   "k": "1nj7s60",
+   "en": "Checks if the current scope has an average skill above the specified amount."
+  },
+  {
+   "k": "1iyngyx",
+   "en": "is_border_war"
+  },
+  {
+   "k": "xtr501",
+   "en": "is_border_war = yes"
+  },
+  {
+   "k": "tnkizf",
+   "en": "Checks if the current socpe is in a border war."
+  },
+  {
+   "k": "5pgbwb",
+   "en": "num_units"
+  },
+  {
+   "k": "apht9i",
+   "en": "num_units > 5"
+  },
+  {
+   "k": "vn6z60",
+   "en": "Checks if the current scope is commanding the specified amount of divisions."
+  },
+  {
+   "k": "e57wlt",
+   "en": "is_exiled_leader"
+  },
+  {
+   "k": "141sh6h",
+   "en": "is_exiled_leader = yes"
+  },
+  {
+   "k": "35tdog",
+   "en": "Checks if the current scope is a general from an exiled country."
+  },
+  {
+   "k": "n7puby",
+   "en": "is_exiled_leader_from"
+  },
+  {
+   "k": "1d0plem",
+   "en": "is_exiled_leader_from = POL"
+  },
+  {
+   "k": "7tjp4y",
+   "en": "Checks if the current scope is a general from the specified exiled country."
+  },
+  {
+   "k": "krphs1",
+   "en": "Checks if the current scope is female."
+  },
+  {
+   "k": "alcjxc",
+   "en": "Works for aces."
+  },
+  {
+   "k": "cv1sef",
+   "en": "is_leading_army_in_province"
+  },
+  {
+   "k": "q8uski",
+   "en": "<province id>"
+  },
+  {
+   "k": "1iy8hic",
+   "en": "is_leading_army_in_province = 1234"
+  },
+  {
+   "k": "q1u7dm",
+   "en": "Checks if the current unit leader is leading an army that has any division in a specific province"
+  },
+  {
+   "k": "kqpju7",
+   "en": "Operatives"
+  },
+  {
+   "k": "kmhmfd",
+   "en": "These triggers only work for operatives."
+  },
+  {
+   "k": "1eyn9pu",
+   "en": "has_nationality"
+  },
+  {
+   "k": "wz3ql8",
+   "en": "⟦0⟧ The nationality to check.",
+   "frags": 1
+  },
+  {
+   "k": "t7q5yy",
+   "en": "has_nationality = POL"
+  },
+  {
+   "k": "1q5v04p",
+   "en": "Checks if the current operative has the nationality."
+  },
+  {
+   "k": "25gzs6",
+   "en": "is_operative_captured"
+  },
+  {
+   "k": "1035ayi",
+   "en": "is_operative_captured = yes"
+  },
+  {
+   "k": "2v0093",
+   "en": "Checks if the current scope is captured."
+  },
+  {
+   "k": "1l72hqz",
+   "en": "operative_leader_mission"
+  },
+  {
+   "k": "o2hiek",
+   "en": "⟦0⟧ Mission.",
+   "frags": 1
+  },
+  {
+   "k": "agoad8",
+   "en": "operative_leader_mission = mission_name"
+  },
+  {
+   "k": "mgbk7a",
+   "en": "Checks if the current scope is on the given mission."
+  },
+  {
+   "k": "18kn2pk",
+   "en": "operative_leader_operation"
+  },
+  {
+   "k": "1vujie9",
+   "en": "⟦0⟧ Operation.",
+   "frags": 1
+  },
+  {
+   "k": "cywax4",
+   "en": "operative_leader_operation = operation_name"
+  },
+  {
+   "k": "19ofjyb",
+   "en": "Checks if the current scope is on the given operation."
+  },
+  {
+   "k": "5i4r46",
+   "en": "Scientists"
+  },
+  {
+   "k": "1yqrerm",
+   "en": "These triggers only work for scientists."
+  },
+  {
+   "k": "1hayzu7",
+   "en": "has_scientist_level"
+  },
+  {
+   "k": "1sy7xkz",
+   "en": "⟦0⟧ Level to check. specialization = <specialization_token> Specialization.",
+   "frags": 1
+  },
+  {
+   "k": "gomzcy",
+   "en": "has_scientist_level = { level > 2 specialization = specialization_nuclear }"
+  },
+  {
+   "k": "1eipa8l",
+   "en": "Checks if the scientist of the character in scope matches the skill level condition for a specialization. Supports < > = operators."
+  },
+  {
+   "k": "d59dn5",
+   "en": "is_active_scientist"
+  },
+  {
+   "k": "17zdfzn",
+   "en": "is_scientist_active = yes"
+  },
+  {
+   "k": "ztsy7l",
+   "en": "Checks if the scientist of the character in scope is assigned to a project."
+  },
+  {
+   "k": "1836pqq",
+   "en": "is_scientist_injured"
+  },
+  {
+   "k": "11uyjpi",
+   "en": "is_scientist_injured = yes"
+  },
+  {
+   "k": "wadvs3",
+   "en": "Checks if the scientist of the character in scope is injured."
+  },
+  {
+   "k": "s5a5vl",
+   "en": "Combat"
+  }
+ ]
+}

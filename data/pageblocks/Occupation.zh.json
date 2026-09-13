@@ -1,0 +1,1241 @@
+{
+ "page": "Occupation",
+ "batch": 0,
+ "items": [
+  {
+   "k": "t3a7p2",
+   "zh": "关于 1.9 版本之前的占领系统，请参阅本页面的旧版本。",
+   "en": "For the pre-1.9 occupation system see a previous version of this page."
+  },
+  {
+   "k": "z1tc00",
+   "zh": "各州按抵抗度分为三大类：核心州（游戏内也称本国领土）、被占领州和殖民地州。被占领州启用了抵抗，而殖民地州没有。如果某个核心州开启了抵抗（无论是通过 mod 修改了启用抵抗的条件，还是通过效果强制启用，例如⟦0⟧行动），它会被列为被占领州，但仍不会承受适用于非核心州的人力或建筑槽位等惩罚。",
+   "en": "States are divided into three main categories based on resistance: core states (also known in-game as national territory), occupied states, and colony states. Occupied states have resistance enabled, while colony states do not. If a core state has resistance turned on (whether if the requirement to enable resistance is changed in a mod or an effect forces it to be enabled, such as with the ⟦0⟧ operation), it will be listed as an occupied state, while still not having the mali that apply to non-core states such as with manpower or building slots."
+  },
+  {
+   "k": "dr7fll",
+   "zh": "“在不列颠煽动工人革命”",
+   "en": "\"Instigate Workers Revolution in Britain\""
+  },
+  {
+   "k": "1tly819",
+   "zh": "如果某个州在游戏开始时没有抵抗，那么它将一直处于禁用状态，除非该州⟦0⟧易主，或另一机制将其启用（例如各种⟦1⟧决议会在非洲和阿拉伯的某些殖民地州启用抵抗）。",
+   "en": "If a state does not have resistance at the start of the game, then it will remain disabled unless the state changes hands⟦0⟧ or another mechanic enables it (such as various ⟦1⟧ decisions that enable resistance in certain colonial states in Africa and Arabia)."
+  },
+  {
+   "k": "yv85j4",
+   "zh": "埃塞俄比亚",
+   "en": "Ethiopian"
+  },
+  {
+   "k": "8v26pg",
+   "zh": "如果某个州易主，或者抵抗已经存在，游戏每天都会通过检查以下条件来决定它是否继续存在：⟦0⟧",
+   "en": "If a state changes hands or resistance already exists, the game decides daily whether it should continue by checking the following conditions:⟦0⟧"
+  },
+  {
+   "k": "11xm71l",
+   "zh": "该州不是不可通行地形",
+   "en": "The state is not impassable"
+  },
+  {
+   "k": "1k5ilgo",
+   "zh": "该州不是控制国的核心州",
+   "en": "The state is not a core of the controller country"
+  },
+  {
+   "k": "14sqc4f",
+   "zh": "要么有任何国家以该国为声称核心，要么该州在游戏开始时属于⟦0⟧，并且在内战结束后被一个源自西班牙的国家占领。",
+   "en": "Either any country has a core on this country or the state was owned by ⟦0⟧ at the game's start and is occupied by a country originating from Spain, after the civil war has ended."
+  },
+  {
+   "k": "s45k3k",
+   "zh": "被占领州有两个相关数值：⟦0⟧和⟦1⟧。",
+   "en": "Occupied states have two values attached to them: ⟦0⟧ and ⟦1⟧."
+  },
+  {
+   "k": "1cho7wv",
+   "zh": "抵抗系统基于抵抗强度，抵抗强度会缓慢地朝抵抗目标增长或衰减。",
+   "en": "The resistance system is based on the resistance strength, which slowly grows or decays towards the resistance target."
+  },
+  {
+   "k": "l0xc2p",
+   "zh": "抵抗强度",
+   "en": "Resistance strength"
+  },
+  {
+   "k": "3sc1ii",
+   "zh": "抵抗强度衡量民众对控制国占领该州的抵抗程度。该州被占领时，初始抵抗度设为 1%，⟦0⟧此后它会朝⟦1⟧上升或下降。如果该州不应再有抵抗，抵抗会以每天 -0.25%⟦2⟧的速度衰减至 0。抵抗强度被限制在 0.01%⟦3⟧至 100% 之间。⟦4⟧它会影响施加于该州的减益、抵抗行动的频率与严重程度。当抵抗强度达到某些阈值时，各种减益会按州开始生效：⟦5⟧",
+   "en": "Resistance strength measures the severity of the populace's resistance to the controller's occupation of the state. Upon the state being captured, the initial resistance is set to 1%,⟦0⟧ from where it rises or falls to the ⟦1⟧. If the state shouldn't have resistance any longer, the resistance decays towards 0 by -0.25%⟦2⟧ per day. The resistance strength is capped between 0.01%⟦3⟧ and 100%.⟦4⟧ It affects the debuffs applied to the state, frequency, and severity of resistance actions. When resistance strength reaches certain thresholds, various debuffs begin to apply on a per-state basis:⟦5⟧"
+  },
+  {
+   "k": "1c0y3kj",
+   "zh": "所需抵抗等级",
+   "en": "Resistance level needed"
+  },
+  {
+   "k": "1bi4a31",
+   "zh": "有组织的抵抗",
+   "en": "Organized Resistance"
+  },
+  {
+   "k": "1o15lti",
+   "zh": "驻军被突破几率：+50%",
+   "en": "Garrison Penetration Chance: +50%"
+  },
+  {
+   "k": "1ceswqc",
+   "zh": "驻军被突破几率：⟦0⟧",
+   "en": "Garrison Penetration Chance: ⟦0⟧"
+  },
+  {
+   "k": "zg9maf",
+   "zh": "壮大的抵抗",
+   "en": "Emboldened Resistance"
+  },
+  {
+   "k": "1fh6bhw",
+   "zh": "驻军所受伤害：+100%",
+   "en": "Damage to Garrisons: +100%"
+  },
+  {
+   "k": "uuqrza",
+   "zh": "起事",
+   "en": "Uprising"
+  },
+  {
+   "k": "72kthm",
+   "zh": "师移动速度：-50%（仅对控制国）战略重新部署被禁用：是 本地补给：-50%（仅对控制国）师损耗：+30%（仅对控制国）",
+   "en": "Divisions speed: -50% (Only for the controller) Strategic Redeployment Disabled: Yes Local Supplies: -50% (Only for the controller) Division Attrition: +30% (Only for the controller)"
+  },
+  {
+   "k": "18qf4fc",
+   "zh": "师移动速度：⟦0⟧（仅对控制国）",
+   "en": "Divisions speed: ⟦0⟧ (Only for the controller)"
+  },
+  {
+   "k": "1l7cn1g",
+   "zh": "战略重新部署被禁用：⟦0⟧",
+   "en": "Strategic Redeployment Disabled: ⟦0⟧"
+  },
+  {
+   "k": "ltbrph",
+   "zh": "本地补给：⟦0⟧（仅对控制国）",
+   "en": "Local Supplies: ⟦0⟧ (Only for the controller)"
+  },
+  {
+   "k": "6m3966",
+   "zh": "师损耗：⟦0⟧（仅对控制国）",
+   "en": "Division Attrition: ⟦0⟧ (Only for the controller)"
+  },
+  {
+   "k": "1xi225l",
+   "zh": "叛乱",
+   "en": "Rebellion"
+  },
+  {
+   "k": "tunjm5",
+   "zh": "本地工厂：-3% 抵抗将在被占领的核心州上宣布独立。（1 小时后触发叛乱事件）被占领州将宣布独立。这会把它们的控制权移交给叛乱国（若该国不存在或与占领国处于和平状态，则会重新建立），并给予其师（每州 2–6 个，取决于工厂数量）。",
+   "en": "Local Factories: -3% Resistance will declare independence on the core states that are being occupied. (Fires the rebellion event in 1 hour) Occupied states will declare independence. This changes their control to the rebelling country (it will be re-established if it doesn't exist or is at peace with the occupier) and grants divisions to it (2–6 per state, based on factory amount)."
+  },
+  {
+   "k": "1biswin",
+   "zh": "本地工厂：⟦0⟧",
+   "en": "Local Factories: ⟦0⟧"
+  },
+  {
+   "k": "1kgabvn",
+   "zh": "抵抗将在被占领的核心州上宣布独立。（1 小时后触发⟦0⟧）被占领州将宣布独立。这会把它们的控制权移交给叛乱国（若该国不存在或与占领国处于和平状态，则会重新建立），并给予其师（每州 2–6 个，取决于工厂数量）。",
+   "en": "Resistance will declare independence on the core states that are being occupied. (Fires ⟦0⟧ in 1 hour) Occupied states will declare independence. This changes their control to the rebelling country (it will be re-established if it doesn't exist or is at peace with the occupier) and grants divisions to it (2–6 per state, based on factory amount)."
+  },
+  {
+   "k": "1nk3iw6",
+   "zh": "叛乱事件",
+   "en": "the rebellion event"
+  },
+  {
+   "k": "ux97e4",
+   "zh": "被占领州将宣布独立。这会把它们的控制权移交给叛乱国（若该国不存在或与占领国处于和平状态，则会重新建立），并给予其师（每州 2–6 个，取决于工厂数量）。",
+   "en": "Occupied states will declare independence. This changes their control to the rebelling country (it will be re-established if it doesn't exist or is at peace with the occupier) and grants divisions to it (2–6 per state, based on factory amount)."
+  },
+  {
+   "k": "1iwi72v",
+   "zh": "抵抗目标基础值：⟦0⟧",
+   "en": "Resistance Target base: ⟦0⟧"
+  },
+  {
+   "k": "rpf2fj",
+   "zh": "目标国已投降⟦0⟧：⟦1⟧",
+   "en": "Target country has capitulated⟦0⟧: ⟦1⟧"
+  },
+  {
+   "k": "wzat1w",
+   "zh": "[a]",
+   "en": "[a]"
+  },
+  {
+   "k": "dx1vjv",
+   "zh": "目标国拥有⟦0⟧：⟦1⟧，再加上⟦2⟧，每⟦3⟧的⟦4⟧，最多总计⟦5⟧，在 100%⟦6⟧时",
+   "en": "Target country has a ⟦0⟧: ⟦1⟧ plus ⟦2⟧ per ⟦3⟧ of the ⟦4⟧, up to a total of ⟦5⟧ at 100% ⟦6⟧"
+  },
+  {
+   "k": "i3a7hy",
+   "zh": "⟦0⟧敌方情报：⟦1⟧或⟦2⟧（带加成），在成功的⟦3⟧行动中⟦4⟧；或⟦5⟧（带加成），在成功的⟦6⟧行动中。⟦7⟧",
+   "en": "Enemy intelligence ⟦0⟧: ⟦1⟧ or ⟦2⟧ (with bonus) on a successful ⟦3⟧ operation⟦4⟧ or ⟦5⟧ (with bonus) on a successful ⟦6⟧ operation.⟦7⟧"
+  },
+  {
+   "k": "7a95g1",
+   "zh": "⟦0⟧占领法令⟦1⟧可使⟦2⟧在其适用州内的抵抗衰减提高。",
+   "en": "The ⟦0⟧ occupation law available to ⟦1⟧ increases the resistance decay by ⟦2⟧ in the states where it's applied to."
+  },
+  {
+   "k": "blwlif",
+   "zh": "在抵抗存在的每一天，游戏都会判定是否发生抵抗活动。某州发生抵抗活动的几率按⟦0⟧提高，每⟦1⟧抵抗，最高为⟦2⟧，在⟦3⟧抵抗时。⟦4⟧",
+   "en": "Each day that resistance is active, the game rolls for resistance activity. The chance for resistance activity to happen in a state increases by ⟦0⟧ per ⟦1⟧ of resistance in that state, up to a maximum of ⟦2⟧ at ⟦3⟧ resistance.⟦4⟧"
+  },
+  {
+   "k": "1as71h2",
+   "zh": "每当某州发生抵抗活动，当地游击队会攻击并摧毁该州驻军装备的⟦0⟧和该州驻军人力的⟦1⟧。装备损失按驻军当前满足率施加于驻军当前使用的所有装备，并对所有装备类型向上取整。⟦2⟧会同时增加对装备和人力的潜在伤害。某些⟦3⟧、⟦4⟧、政治顾问和⟦5⟧可以增减在某些被占领州对驻军造成的伤害。驻军编制的硬度会按⟦6⟧减少两类伤害，每⟦7⟧硬度，最多减少⟦8⟧，在硬度达到或超过⟦9⟧时。无论驻军实际拥有多少装备，这种减免都会生效。⟦10⟧例如，一个含⟦11⟧营的驻军编制即使该国没有重型坦克来满足驻军的装备请求，其伤害也会被减免。它还会与其他驻军伤害减免来源加算叠加，总伤害减免上限为⟦12⟧。⟦13⟧这意味着当来自⟦14⟧、⟦15⟧、政治顾问等的伤害减免来源足够多时，额外的驻军硬度实际上会被浪费。",
+   "en": "Whenever resistance activity happens in a state, local partisans will attack and destroy ⟦0⟧ of the state garrison's equipment and ⟦1⟧ of the state garrison's manpower. Equipment losses are applied to all currently used equipment by the garrison based on the garrison's current fulfillment rate and are rounded up for all equipment types. ⟦2⟧ increases the potential damage to both equipment and manpower. Certain ⟦3⟧, ⟦4⟧, political advisors, and ⟦5⟧ can increase or decrease the amount of damage dealt to garrisons in certain occupied states. The garrison template's hardness reduces both types of damage by ⟦6⟧ per ⟦7⟧ hardness, capped at a maximum of ⟦8⟧ at ⟦9⟧ hardness or more. This reduction occurs regardless of the actual equipment the garrison has available.⟦10⟧ For example, a garrison template with a ⟦11⟧ battalion will have its damage reduced even if the country has no heavy tanks to fulfill their garrisons' equipment request. It also stacks additively with other sources of garrison damage reduction up to a maximum total damage reduction of ⟦12⟧.⟦13⟧ This can mean that additional garrison hardness is effectively wasted when enough damage reduction sources from ⟦14⟧, ⟦15⟧, political advisors, etc. is present."
+  },
+  {
+   "k": "1drfz06",
+   "zh": "该州是具有⟦0⟧的国家的核心州：每天⟦1⟧，每⟦2⟧的⟦3⟧，每天最多⟦4⟧，在 100%⟦5⟧时",
+   "en": "State is a core of a country with a ⟦0⟧: ⟦1⟧ per day per ⟦2⟧ of the ⟦3⟧, up to ⟦4⟧ per day at 100% ⟦5⟧"
+  },
+  {
+   "k": "e4w5jd",
+   "zh": "例如，如果⟦0⟧建立一个代表⟦1⟧的合作政府于冀东（开局由⟦2⟧控制），该合作政府将被命名为“日本中国”，并在每一个中国核心州上获得核心，同时地图颜色与日本相同。但如果建立合作政府时⟦3⟧并不存在，合作政府将取代⟦4⟧的角色，包括其国策树。",
+   "en": "For example, if ⟦0⟧ creates a collaboration government representing ⟦1⟧ in East Hebei (which starts off controlled by ⟦2⟧), the collaboration government will be named \"Japanese China\" and gain cores on every Chinese core state, while being of the same map color as Japan. If, however, ⟦3⟧ did not exist when the collaboration government was formed, the collaboration government will assume the role of ⟦4⟧, including the focus tree."
+  },
+  {
+   "k": "t3n0m1",
+   "zh": "⟦0⟧（各种），位于⟦1⟧文件中",
+   "en": "Various ⟦0⟧ in ⟦1⟧ files"
+  },
+  {
+   "k": "yji3te",
+   "zh": "⟦0⟧（各种），位于⟦1⟧中",
+   "en": "Various ⟦0⟧ in ⟦1⟧"
+  },
+  {
+   "k": "1d2vblq",
+   "zh": "流亡政府",
+   "en": "government in exile"
+  },
+  {
+   "k": "137ymbz",
+   "zh": "合法性",
+   "en": "legitimacy"
+  },
+  {
+   "k": "131nsdj",
+   "zh": "控制国拥有声称：⟦0⟧",
+   "en": "Controller has a claim: ⟦0⟧"
+  },
+  {
+   "k": "t68l2j",
+   "zh": "控制国处于和平状态：⟦0⟧",
+   "en": "Controller is at peace: ⟦0⟧"
+  },
+  {
+   "k": "o5bo9d",
+   "zh": "州内胜利点：⟦0⟧ 0–4 VP：0% 5–19 VP：+5% 20–49 VP：+10% 50+ VP：+20%",
+   "en": "Victory points in state:⟦0⟧ 0–4 VP: 0% 5–19 VP: +5% 20–49 VP: +10% 50+ VP: +20%"
+  },
+  {
+   "k": "10q9zyv",
+   "zh": "0–4 VP：⟦0⟧",
+   "en": "0–4 VP: ⟦0⟧"
+  },
+  {
+   "k": "dgaqck",
+   "zh": "5–19 VP：⟦0⟧",
+   "en": "5–19 VP: ⟦0⟧"
+  },
+  {
+   "k": "ysaxe4",
+   "zh": "20–49 VP：⟦0⟧",
+   "en": "20–49 VP: ⟦0⟧"
+  },
+  {
+   "k": "iari5u",
+   "zh": "50+ VP：⟦0⟧",
+   "en": "50+ VP: ⟦0⟧"
+  },
+  {
+   "k": "q9qfba",
+   "zh": "来自州内顺从度：每 1% 顺从度提供⟦0⟧，最多⟦1⟧。",
+   "en": "From compliance in state: ⟦0⟧ for each percent of compliance, up to ⟦1⟧."
+  },
+  {
+   "k": "fx95j3",
+   "zh": "来自控制国稳定度：稳定度每低于 100% 一个百分点提供⟦0⟧（0% 稳定度时最多⟦1⟧）",
+   "en": "From controller stability: ⟦0⟧ for each percent of Stability below 100% (up to ⟦1⟧ at 0% Stability)"
+  },
+  {
+   "k": "1ftxwef",
+   "zh": "州人口少于 1000⟦0⟧：⟦1⟧",
+   "en": "Less than 1000⟦0⟧ state population: ⟦1⟧"
+  },
+  {
+   "k": "1du7e2u",
+   "zh": "州人口在 1000⟦0⟧至 10000⟦1⟧之间：⟦2⟧",
+   "en": "Between 1000⟦0⟧ and 10000⟦1⟧ state population: ⟦2⟧"
+  },
+  {
+   "k": "1aerxc7",
+   "zh": "修正或效果，例如以下各项：⟦0⟧ 仁慈绅士政治顾问：-5% 铲除抵抗任务：基础 -10%，[20] 可通过升级机构或指派更多特工来提高。此后每名特工的效率只有前一名特工的 50%。占领法令：-75% 至 +40%[21] 持续焦点“镇压抵抗”：-5%[22] 敌方情报行动：成功的“强化抵抗”行动提供 +10% 或 +20%（带加成）[c]，成功的“建立抵抗联系”行动提供 +10%（带加成）。[23]",
+   "en": "Modifiers or effects, such as the following:⟦0⟧ Compassionate Gentleman political advisor: -5% Root out resistance mission: Base -10%,[20] increased by upgrading the agency or assigning more agents. Each subsequent agent is only 50%x as efficient as the previous one. Occupation laws: -75% to +40%[21] Continuous focus \"Resistance Suppression\": -5%[22] Enemy intelligence operations: +10% or +20% (with bonus) on a successful Strengthen Resistance operation[c] or +10% (with bonus) on a successful Make Resistance Contacts operation.[23]"
+  },
+  {
+   "k": "wz1cjz",
+   "zh": "[b]",
+   "en": "[b]"
+  },
+  {
+   "k": "te1ema",
+   "zh": "仁慈绅士政治顾问：⟦0⟧",
+   "en": "Compassionate Gentleman political advisor: ⟦0⟧"
+  },
+  {
+   "k": "cy263d",
+   "zh": "⟦0⟧：基础⟦1⟧，⟦2⟧可通过升级机构或指派更多特工来提高。此后每名特工的效率只有前一名特工的⟦3⟧。",
+   "en": "⟦0⟧: Base ⟦1⟧,⟦2⟧ increased by upgrading the agency or assigning more agents. Each subsequent agent is only ⟦3⟧ as efficient as the previous one."
+  },
+  {
+   "k": "1irtos8",
+   "zh": "铲除抵抗任务",
+   "en": "Root out resistance mission"
+  },
+  {
+   "k": "x2e6w5",
+   "zh": "50%",
+   "en": "50%x"
+  },
+  {
+   "k": "1yyf1aw",
+   "zh": "⟦0⟧：⟦1⟧ 至 ⟦2⟧⟦3⟧",
+   "en": "⟦0⟧: ⟦1⟧ to ⟦2⟧⟦3⟧"
+  },
+  {
+   "k": "9837gf",
+   "zh": "占领法令",
+   "en": "Occupation laws"
+  },
+  {
+   "k": "112sfdr",
+   "zh": "⟦0⟧“镇压抵抗”：⟦1⟧⟦2⟧",
+   "en": "⟦0⟧ \"Resistance Suppression\": ⟦1⟧⟦2⟧"
+  },
+  {
+   "k": "1uxwnsk",
+   "zh": "强化抵抗",
+   "en": "Strengthen Resistance"
+  },
+  {
+   "k": "y32wtu",
+   "zh": "[c]",
+   "en": "[c]"
+  },
+  {
+   "k": "14z17yd",
+   "zh": "建立抵抗联系",
+   "en": "Make Resistance Contacts"
+  },
+  {
+   "k": "h0jsdv",
+   "zh": "从抵抗目标更高的相邻州扩散而来，扩散量为差值的⟦0⟧。只能选择一个州作为扩散来源，系统会挑选最高的那一个。此时，差值按本州抵抗目标（扩散前）与相邻州在无扩散时的抵抗目标、或仅计算其获得的扩散量之间的差额计算。例如，一个抵抗目标为 70% 的州与一个抵抗目标为 10% 的州相邻，会把后者总目标提高到 40%，即加上 10% 与 70% 差值的一半。如果另一个抵抗目标为 10% 的州与现在目标为 40% 的州相邻，它会通过 10% 基础值与来自第一个州的 30% 扩散量之间差值的一半，提高到 20%。",
+   "en": "Spread from a neighbouring state with a higher resistance target, as ⟦0⟧ of the difference. Only one state can be selected to have the spread from, and it picks the highest one. In this case, the difference is calculated between this state's resistance target (before the spread) and the neighbouring state's either resistance target without the spread or only the spread that it received. For example, a state with a 70% resistance target neighbouring a state with a 10% resistance target will increase the latter's total target to 40% by adding half of the difference between 10% and 70%. If another state with a 10% resistance target borders the state now with a 40% target, it will raise to 20% through half of the difference between the 10% base and the 30% spread from the first state."
+  },
+  {
+   "k": "s3vtgj",
+   "zh": "例如，一个抵抗目标为 70% 的州与一个抵抗目标为 10% 的州相邻，会把后者总目标提高到 40%，即加上 10% 与 70% 差值的一半。如果另一个抵抗目标为 10% 的州与现在目标为 40% 的州相邻，它会通过 10% 基础值与来自第一个州的 30% 扩散量之间差值的一半，提高到 20%。",
+   "en": "For example, a state with a 70% resistance target neighbouring a state with a 10% resistance target will increase the latter's total target to 40% by adding half of the difference between 10% and 70%. If another state with a 10% resistance target borders the state now with a 40% target, it will raise to 20% through half of the difference between the 10% base and the 30% spread from the first state."
+  },
+  {
+   "k": "1btmed2",
+   "zh": "在大多数这些修正的作用下，抵抗目标最多只能降到 10%⟦0⟧，只有顺从度才能把它进一步压到 0。如果抵抗降到 0，那么只有抵抗目标重新达到 10%⟦1⟧时抵抗才会再次启用。",
+   "en": "The resistance target can only fall down to 10%⟦0⟧ with most of these modifiers, only compliance can push it down further to 0. If resistance falls to 0, then the resistance will only be re-enabled once the resistance target reaches 10%⟦1⟧."
+  },
+  {
+   "k": "1645ons",
+   "zh": "抵抗的增长与衰减",
+   "en": "Resistance growth and decay"
+  },
+  {
+   "k": "bk89lc",
+   "zh": "如果抵抗强度与抵抗目标不符，它会逐渐朝抵抗目标变化。若抵抗强度在上升，这称为⟦0⟧；若在下降，则称为⟦1⟧。默认情况下，抵抗增长每天使其增加⟦2⟧，抵抗衰减每天使其减少⟦3⟧。对它们的进一步修正以乘法方式生效。",
+   "en": "If the resistance strength doesn't match up with the resistance target, it will gradually change towards the resistance target. If the resistance strength is rising, this is ⟦0⟧; if it is falling, this is ⟦1⟧. By default, resistance growth increases it by ⟦2⟧ per day, while resistance decay decreases it by ⟦3⟧ per day. Further modifiers to them are applied multiplicatively."
+  },
+  {
+   "k": "4tzra",
+   "zh": "抵抗衰减",
+   "en": "resistance decay"
+  },
+  {
+   "k": "148gonf",
+   "zh": "如果该国对被占领州拥有声称，抵抗衰减会提高⟦0⟧。抵抗强度低于 10 时，衰减变化为⟦1⟧；强度低于 20 时，衰减变化为⟦2⟧。⟦3⟧",
+   "en": "If the country has a claim on the occupied state, the resistance decay is increased by ⟦0⟧. Below 10 resistance strength, decay is changed by ⟦1⟧, while below 20 strength, decay is changed by ⟦2⟧.⟦3⟧"
+  },
+  {
+   "k": "1fgz1pp",
+   "zh": "在修正方面，有以下几种改变它的方式：⟦0⟧",
+   "en": "In terms of modifiers, there are the following ways to change it:⟦0⟧"
+  },
+  {
+   "k": "1ejfgdp",
+   "zh": "流亡政府的⟦0⟧⟦1⟧会使拥有该精神的国家的核心州内抵抗增长提高⟦2⟧。",
+   "en": "The ⟦0⟧ ⟦1⟧ for governments in exile increases the resistance growth by ⟦2⟧ within the core states of the country with the spirit."
+  },
+  {
+   "k": "15ka92r",
+   "zh": "“援助抵抗的武器”",
+   "en": "\"Weapons for the Resistance\""
+  },
+  {
+   "k": "1yuhti0",
+   "zh": "大规模突击学说分支中的⟦0⟧陆军学说会使拥有该学说的国家的核心州内抵抗增长提高⟦1⟧。",
+   "en": "The ⟦0⟧ land doctrine in the Mass Assault doctrine branch increases the resistance growth by ⟦1⟧ within the core states of the country with the doctrine."
+  },
+  {
+   "k": "2qvlvw",
+   "zh": "游击战",
+   "en": "Guerrilla Warfare"
+  },
+  {
+   "k": "j2rw6j",
+   "zh": "法西斯主义者",
+   "en": "Fascists"
+  },
+  {
+   "k": "74xlj1",
+   "zh": "抵抗活动",
+   "en": "Resistance activity"
+  },
+  {
+   "k": "wj7cdb",
+   "zh": "占领法令",
+   "en": "occupation laws"
+  },
+  {
+   "k": "4k6nrm",
+   "zh": "除了对驻军造成伤害之外，抵抗活动还有几率“突破”驻军，对当地的⟦0⟧、⟦1⟧或⟦2⟧造成破坏。基础几率为每次抵抗活动⟦3⟧，但可以通过⟦4⟧提高。某些独特的⟦5⟧和政治顾问可以降低驻军被突破的几率。",
+   "en": "In addition to damage to garrisons, there is a chance that resistance activity will \"penetrate\" the garrison and cause damage to local ⟦0⟧, ⟦1⟧, or ⟦2⟧. The base chance is ⟦3⟧ per resistance activity, but this can be increased through ⟦4⟧. Certain unique ⟦5⟧ and political advisors can reduce garrison penetration chance."
+  },
+  {
+   "k": "19n47i7",
+   "zh": "顺从度体现非核心领土民众对占领政权的忠诚程度。游戏内的数值代表当地人口中忠于占领者的比例。",
+   "en": "Compliance is a representation of a non-core territory's population's loyalty to the occupying regime. The in-game number represents the proportion of people in the local population that are loyalists."
+  },
+  {
+   "k": "t5pk2n",
+   "zh": "顺从度按州单独计算并带有各自的本地效果，同时在达到某个平均阈值时为被占领土地提供整体加成。",
+   "en": "Compliance is calculated on a per-state basis with its own local effects while providing overall bonuses for occupied land when reaching a certain average threshold."
+  },
+  {
+   "k": "v05u18",
+   "zh": "被占领州的顺从度初始为⟦0⟧。一旦某州投降或被吞并，如果事先已准备好⟦1⟧，其所有原有州的初始顺从度将提高到该国的合作度百分比。游戏开始时的非核心州默认以 70%⟦2⟧顺从度起步。如果非核心州更换所有者，新所有者将获得原所有者在该州顺从度的⟦3⟧⟦4⟧。",
+   "en": "Compliance in an occupied state starts at ⟦0⟧. Once a state capitulates or is annexed, if a ⟦1⟧ has been prepared beforehand, starting compliance in all of its original states will increase to the country's collaboration percentage. Non-core states at the beginning of the game start with 70%⟦2⟧ compliance by default. If a non-core state switches owners, its new owner will receive ⟦3⟧⟦4⟧ of the old owner's compliance in that state."
+  },
+  {
+   "k": "3imixl",
+   "zh": "合作政府",
+   "en": "collaboration government"
+  },
+  {
+   "k": "1d048f2",
+   "zh": "0.5 倍",
+   "en": "0.5x"
+  },
+  {
+   "k": "q75v6j",
+   "zh": "顺从度基础增长默认为每天⟦0⟧，但会受到占领法令、某些国家精神和领袖特质的修正。以下数值会修改它：",
+   "en": "Compliance base gain is ⟦0⟧ per day by default, but it is modified by occupation laws, some national spirits, and leader traits. The following values that modify it:"
+  },
+  {
+   "k": "h6ftdf",
+   "zh": "（前任）控制国（暂时）失去对该州的控制：控制国每天⟦0⟧",
+   "en": "(Previous) Controller has (temporarily) lost control of the state: ⟦0⟧ per day for controller"
+  },
+  {
+   "k": "16t29az",
+   "zh": "修正或效果，例如以下各项：⟦0⟧ 占领法令：每天 -0.11% 至 +0.03%[21] “无驻军”占领法令：顺从度增长被禁用",
+   "en": "Modifiers or effects, such as the following:⟦0⟧ Occupation laws: -0.11% to +0.03% per day[21] No Garrison occupation law: Compliance gain disabled"
+  },
+  {
+   "k": "se7fwv",
+   "zh": "⟦0⟧：每天⟦1⟧ 至 ⟦2⟧⟦3⟧",
+   "en": "⟦0⟧: ⟦1⟧ to ⟦2⟧ per day⟦3⟧"
+  },
+  {
+   "k": "1r35b0n",
+   "zh": "⟦0⟧占领法令：顺从度增长⟦1⟧",
+   "en": "⟦0⟧ occupation law: Compliance gain ⟦1⟧"
+  },
+  {
+   "k": "1ug0ov",
+   "zh": "无驻军",
+   "en": "No Garrison"
+  },
+  {
+   "k": "eex8g5",
+   "zh": "被禁用",
+   "en": "disabled"
+  },
+  {
+   "k": "a9gf2j",
+   "zh": "顺从度增长可以通过以下来源的顺从度增长来提高：",
+   "en": "Compliance gain can be increased by compliance growth from the following sources:"
+  },
+  {
+   "k": "duuy04",
+   "zh": "修正或效果，例如以下各项：⟦0⟧ 仁慈绅士政治顾问：+2%",
+   "en": "Modifiers or effects, such as the following:⟦0⟧ Compassionate Gentleman political advisor: +2%"
+  },
+  {
+   "k": "9tei73",
+   "zh": "它会受到顺从度衰减的抵消。顺从度衰减有两个主要来源，两者都在顺从度增长修正被计入顺从度增长之后才应用：",
+   "en": "This is counteracted by compliance decay. There are two main sources of compliance decay, both of which are applied after compliance growth modifiers have been incorporated into compliance gain:"
+  },
+  {
+   "k": "aywt3h",
+   "zh": "现有顺从度：每点现有顺从度每天⟦0⟧，100% 顺从度时每天最多⟦1⟧",
+   "en": "Existing compliance: ⟦0⟧ per day per existing compliance, up to ⟦1⟧ per day at 100% compliance"
+  },
+  {
+   "k": "1in6e9s",
+   "zh": "建立⟦0⟧会把被占领州转为傀儡国并免除抵抗，从而使顺从度变得不必要。",
+   "en": "Setting up a ⟦0⟧ switches the occupied states to a puppet state and dispenses with resistance, making compliance unnecessary."
+  },
+  {
+   "k": "16r2r5r",
+   "zh": "顺从度与工业",
+   "en": "Compliance and industry"
+  },
+  {
+   "k": "q2xj2b",
+   "zh": "顺从度为州内可用工厂（⟦0⟧、⟦1⟧、⟦2⟧）提供加成。公式如下：",
+   "en": "Compliance provides bonuses to available factories (⟦0⟧, ⟦1⟧, ⟦2⟧) within a state. The formula looks like this:"
+  },
+  {
+   "k": "11nk8w2",
+   "zh": "（炼油厂不受此影响，它们始终按科技水平产出最大数量的燃料和橡胶，燃料储罐同理）",
+   "en": "(Refineries are unaffected by this. They will always produce the maximum amount of fuel and rubber, depending on technology, same applies for fuel silos)"
+  },
+  {
+   "k": "1n4e9b6",
+   "zh": "被占领州提供的资源与人力也是如此：",
+   "en": "The same applies to the resources and manpower provided by the occupied states:"
+  },
+  {
+   "k": "1z0xo7a",
+   "zh": "各州之间的平均顺从度水平还会提供固定百分比加成：",
+   "en": "The average level of compliance between states also provides flat percentage bonuses:"
+  },
+  {
+   "k": "1r46dhl",
+   "zh": "所需顺从度等级",
+   "en": "Compliance level needed"
+  },
+  {
+   "k": "pg0o06",
+   "zh": "线人",
+   "en": "Informants"
+  },
+  {
+   "k": "15pdx9j",
+   "zh": "敌方特工被发现几率偏移：⟦0⟧",
+   "en": "Enemy operative detection chance offset: ⟦0⟧"
+  },
+  {
+   "k": "dg07tt",
+   "zh": "地方警察部队",
+   "en": "Local Police Force"
+  },
+  {
+   "k": "wgknxa",
+   "zh": "所需驻军：-25% 额外可招募人口：+0.5%",
+   "en": "Required Garrisons: -25% Additional Recruitable Population: +0.5%"
+  },
+  {
+   "k": "1nsbl7f",
+   "zh": "重组劳动力",
+   "en": "Reorganized Workforce"
+  },
+  {
+   "k": "1i31iag",
+   "zh": "本地资源：+10% 本地工厂：+10%",
+   "en": "Local Resources: +10% Local factories: +10%"
+  },
+  {
+   "k": "1s9x845",
+   "zh": "志愿计划",
+   "en": "Volunteer Program"
+  },
+  {
+   "k": "1c9hrwh",
+   "zh": "新政权",
+   "en": "A New Regime"
+  },
+  {
+   "k": "64ka3z",
+   "zh": "触发事件以建立合作政府",
+   "en": "Triggers event to establish a Collaboration Government"
+  },
+  {
+   "k": "zn5co1",
+   "zh": "得益于上述修正，处于 100% 顺从度的州默认会向占领国提供其 100% 的工厂、105% 的资源和 40.5% 的人力。",
+   "en": "A state at 100% Compliance will provide 100% of its factories, 105% of its resources, and 40.5% of its manpower to its occupier by default, thanks to the modifiers listed above."
+  },
+  {
+   "k": "yajm6p",
+   "zh": "以下因素也会影响被占领州所提供的工厂、资源和人力数量：",
+   "en": "The following can also affect the amount of factories, resources, and manpower that an occupied state provides:"
+  },
+  {
+   "k": "ar3t4x",
+   "zh": "恐怖亲王政治顾问：来自非核心州的⟦0⟧人力",
+   "en": "Prince of Terror political advisor: ⟦0⟧ manpower from non-core states"
+  },
+  {
+   "k": "17fbj86",
+   "zh": "⟦0⟧：⟦1⟧ 本地工厂：-35% 至 +60% 本地资源：-35% 至 +60% 本地人力：+0% 至 +8%",
+   "en": "⟦0⟧:⟦1⟧ Local Factories: -35% to +60% Local Resources: -35% to +60% Local Manpower: +0% to +8%"
+  },
+  {
+   "k": "sbhf52",
+   "zh": "本地工厂：⟦0⟧ 至 ⟦1⟧",
+   "en": "Local Factories: ⟦0⟧ to ⟦1⟧"
+  },
+  {
+   "k": "oc5n35",
+   "zh": "本地资源：⟦0⟧ 至 ⟦1⟧",
+   "en": "Local Resources: ⟦0⟧ to ⟦1⟧"
+  },
+  {
+   "k": "18doegp",
+   "zh": "本地人力：⟦0⟧ 至 ⟦1⟧",
+   "en": "Local Manpower: ⟦0⟧ to ⟦1⟧"
+  },
+  {
+   "k": "1pyfoq4",
+   "zh": "虽然能获得超过某州 100% 的工厂或资源通常是暂时现象，因为顺从度衰减最终会超过顺从度增长，但在某些情况下并非如此。某些⟦0⟧、政治顾问以及针对特定国家的决议可以使顺从度增长压倒更具掠夺性的⟦1⟧所带来的额外顺从度衰减。尤其是⟦2⟧、⟦3⟧专属的⟦4⟧以及⟦5⟧特有的⟦6⟧占领法令，它们都提供额外的工厂和资源，同时顺从度增长削减足够低，很容易被额外的顺从度增长来源所压倒。",
+   "en": "While having access to more than 100% of a state's factories or resources is usually temporary because compliance decay will outgrow compliance gain, there are some situations where this is not the case. Certain ⟦0⟧, political advisors, and decisions on certain countries can result in a compliance gain that overwhelms the additional compliance decay created by more extractive ⟦1⟧. In particular, the ⟦2⟧, ⟦3⟧-exclusive ⟦4⟧, and ⟦5⟧-specific ⟦6⟧ occupation laws all provide additional factories and resources while having low enough compliance gain reduction that they can be easily overwhelmed by additional sources of compliance gain."
+  },
+  {
+   "k": "wp3669",
+   "zh": "秘密警察",
+   "en": "Secret Police"
+  },
+  {
+   "k": "1sicpa4",
+   "zh": "殖民地警察",
+   "en": "Colonial Police"
+  },
+  {
+   "k": "39lfl0",
+   "zh": "小数工业",
+   "en": "Fractional industry"
+  },
+  {
+   "k": "130zxdu",
+   "zh": "小数工厂和资源会按每座工厂和每种资源类型向下取整。在游戏启动时，它们还会按 tag 分组并采用不同的取整方式，但游戏进行几天后、占领所得的工厂首次重新计算时，这一点就会被修正。",
+   "en": "Fractional factories and resources are rounded down for each individual factory and resource type. On game startup, they are also grouped by tag and have a different rounding procedure, but this is corrected a few days into the game, when factories from occupation are first recalculated."
+  },
+  {
+   "k": "klurw4",
+   "zh": "例如，1936 年的⟦0⟧以 70% 顺从度占领许多不同的州，从而可以使用这些州 80% 的工厂。这包括来自西印度诸邦的 1 座⟦1⟧、来自迈索尔的 1 座⟦2⟧、来自海得拉巴的 2 座⟦3⟧以及来自巴基斯坦的 2 座⟦4⟧。名义上这合计为来自被占领州的 0.8 座军用工厂和 4 座民用工厂，应向下取整为 0 座军用工厂和 4 座民用工厂。实际上，由于前述不同的取整方式，⟦5⟧在 1936 年 1 月 1 日只从占领中获得 0 座军用工厂和 3 座民用工厂，但几天之后其占领所得工厂数会重新计算，它们便会得到应得的 0 座军用工厂和 4 座民用工厂。",
+   "en": "For example, the ⟦0⟧ in 1936 occupies many different states at 70% compliance, giving them access to 80% of those states' factories. This includes 1 ⟦1⟧ from the Western Indian States, 1 ⟦2⟧ from Mysore, 2 ⟦3⟧ from Hyderabad, and 2 ⟦4⟧ from Pakistan. This nominally adds up to 0.8 military factories and 4 civilian factories from occupied states, which should round down to 0 military factories and 4 civilian factories. In practice, the ⟦5⟧ only receives 0 military factories and 3 civilian factories from occupation on 1st Jan 1936 because of the previously mentioned different rounding methods, but a few days afterward, their factory counts from occupation are recalculated, and they receive the proper 0 military factories and 4 civilian factories."
+  },
+  {
+   "k": "ttevw9",
+   "zh": "合作政府",
+   "en": "Collaboration government"
+  },
+  {
+   "k": "bq0nvw",
+   "zh": "合作度数值代表当地民众与占领者合作并提供协助的意愿。合作是遏制并消除抵抗的必要条件。合作分为两个阶段：地方合作与合作政府。地方合作通过“建立合作政府”秘密行动获得，并提供以下效果：",
+   "en": "The collaboration value represents the local population's willingness to cooperate with and aid the occupiers. Collaboration is necessary for curbing and eliminating resistance. There are two stages of collaboration: local collaboration and collaboration governments. Local collaboration is gained through the \"create a collaboration government\" covert operation and provides the following effects:"
+  },
+  {
+   "k": "1vcoeol",
+   "zh": "每次使用使被占领州的初始顺从度提高 30–45%，最高可达⟦0⟧合作度（例如 70% 合作度会给你 70% 顺从度）",
+   "en": "Increases initial starting compliance in occupied states by 30-45% per use, up to a maximum of ⟦0⟧ collaboration (as an example, 70% collaboration will give you 70% compliance)"
+  },
+  {
+   "k": "1knwb3q",
+   "zh": "降低投降所需的投降进度阈值",
+   "en": "Decreases the surrender progress threshold needed for capitulation"
+  },
+  {
+   "k": "w83jfh",
+   "zh": "当前合作度数值可在国家界面的“合作政府”标签页中查看。",
+   "en": "The current amount of collaboration can be seen in the \"collaboration governments\" tab on the country screen."
+  },
+  {
+   "k": "tgfoc3",
+   "zh": "如果所有被占领州的平均地方合作度升到 80%，占领国将有机会扶植一个由忠诚且同情的当地平民组成的合作政府，来管理和治理被占领土。⟦0⟧民主国家不能建立合作政府。合作政府本身是一种特殊类型的傀儡国，需拥有《抵抗运动》DLC，并具有以下傀儡规则：",
+   "en": "If the average local collaboration in all occupied states rises to 80%, the occupying nation will be given the opportunity to install a collaboration government formed from loyal and sympathetic local civilians, to administer and govern the occupied territories. ⟦0⟧ that a democratic country cannot create collaboration governments. The collaboration government itself is a special type of puppet, available with La Résistance DLC and it has the following puppet rules:"
+  },
+  {
+   "k": "nx1feu",
+   "zh": "可以宣战",
+   "en": "Can declare wars"
+  },
+  {
+   "k": "19dzjns",
+   "zh": "向间谍首脑提供特工",
+   "en": "Contributes Operatives to Spy Master"
+  },
+  {
+   "k": "14pk4qr",
+   "zh": "宗主国可在附属国领土上建造建筑",
+   "en": "Master can build constructions on the subject's territory"
+  },
+  {
+   "k": "teqgyb",
+   "zh": "科技共享加成⟦0⟧",
+   "en": "Technology sharing bonus ⟦0⟧"
+  },
+  {
+   "k": "rsfj2i",
+   "zh": "对宗主国的额外贸易：⟦0⟧",
+   "en": "Extra trade to overlord: ⟦0⟧"
+  },
+  {
+   "k": "ts9npf",
+   "zh": "一旦建立，合作政府就是一个独立的 tag，并会获得通用国策树供其使用，除非其核心州对应的对立国不存在。此外，合作政府还会在其旨在代表的国家的每一个核心州上获得核心，无论合作政府实际控制哪些领土。",
+   "en": "Once created, the collaboration government is a separate tag and will be given the Generic national focus tree for use, unless the opposing country for the cores doesn't exist. Additionally, the collaboration government will also gain cores on every state that is a core state of the country the collaboration government is meant to represent, regardless of what territory the collaboration government actually controls."
+  },
+  {
+   "k": "bsnxn1",
+   "zh": "合作政府会采用宗主国的颜色，并在其名称中使用宗主国的形容词，以体现两国政府之间的紧密联系。不过，该傀儡国会获得它旨在代表的国家的科研进度。如果你为一个默认使用通用国策树的 tag 建立合作政府，你的合作政府也会继承通用国策树的进度，即使该国依然存在。",
+   "en": "The collaboration government will adopt the puppet master's color and will also use the puppet master's adjective in its name to represent the close connection between the two governments. However, the puppet will be granted the research progress of the country it is meant to represent. If you are creating a collaboration government of a tag that is using the generic tree by default, your collaborationist government also inherits the generic tree progression, despite the continued existence of that country."
+  },
+  {
+   "k": "j8z0vg",
+   "zh": "目前，每个州的顺从度只会从一个 tag 进行检查。如果该州的所有者对其拥有核心，则所有者就是顺从度的目标；否则就取核心列表中排在最左侧的旗帜。可以通过吞并中国军阀来验证这一点：⟦0⟧会先于军阀们获得核心，这意味着抵抗将针对它们。",
+   "en": "Currently, Compliance will only be checked from one tag per state. If the state's owner has a core on it, the owner will be the target of compliance, otherwise, it's the leftmost flag in the list of the cores. This can be checked by annexing the Chinese Warlords: ⟦0⟧ is given a core before the warlords, meaning the resistance will be directed towards them."
+  },
+  {
+   "k": "m3q2ql",
+   "zh": "例如，如果⟦0⟧在中国共产党境内建立合作网络，那么仅对陕西州而言，合作度会从中国共产党计入⟦1⟧。随后它们可以立即被释放为合作政府，因为中国共产党在日占中国其他州中的合作度不会被检查，那些州的合作度是从⟦2⟧计入⟦3⟧的。释放时它们只会获得据以计算其顺从度的省份，但仍保留其他核心。",
+   "en": "For example, if ⟦0⟧ creates a collaboration network in Communist China, the collaboration will be counted from Communist China towards ⟦1⟧ for the state of Shaanxi only. They can then immediately be released as a collaboration government since the Communist Chinese collaboration is NOT checked for the other Japanese-owned states in China, as their collaboration is counted from ⟦2⟧ toward ⟦3⟧. When released they will only receive the provinces from which their compliance is calculated but retain their other cores."
+  },
+  {
+   "k": "u88soa",
+   "zh": "这一机制会阻止某些作为他国核心的既有 tag 成立，例如马其顿、克罗地亚、奥克西塔尼亚、阿尔及利亚等。它们无法被组建为合作政府（除非被释放、攻击并吞并），只能作为普通傀儡国释放。这也会阻止在释放国拥有核心的省份中组建合作政府，不过这些省份最终会随合作政府一同被释放。举例来说，如果意大利建立一个南斯拉夫合作政府，那么它将失去对伊斯特拉的控制权和核心，该地会在⟦0⟧中割让给合作政府。",
+   "en": "This mechanic prevents the formation of some pre-existing tags that are another nation's core. ex: Macedonia, Croatia, Occitania, Algeria, etc. They cannot be formed into collaboration governments (unless released, attacked, and annexed), only released as regular puppets. this also prevents the formation of a collaboration government from provinces in which the releasing nation has cores, these provinces will, however, be released with an eventual collaboration government. An example of this is if Italy creates a Yugoslavian collaboration government, they would then lose control and their core on Istria which would be ceded to the collaboration government in ⟦0⟧."
+  },
+  {
+   "k": "knxm0p",
+   "zh": "由于合作政府在其领土上拥有核心，宗主国无需驻军该领土，抵抗也不会形成。",
+   "en": "Since a collaboration government has cores on its territory, the puppet master will not need to garrison the territory and resistance will not form."
+  },
+  {
+   "k": "16jzgun",
+   "zh": "合作政府无法由现有傀儡国建立，在由 AI 控制时它们自身也无法提升自治度。但在由玩家控制时，它们可以提高自身自治度并成为普通傀儡国，从而最终通过正常的傀儡自治阶梯获得独立。",
+   "en": "Collaboration governments cannot be created from an existing puppet, neither can they themselves increase their own autonomy status when controlled by A.I. However, when controlled by a player, they can increase their own autonomy status and become a regular puppet, allowing them to eventually become independent through the normal puppet autonomy ladder."
+  },
+  {
+   "k": "1di3dmv",
+   "zh": "为了对抗抵抗并维持治安，被占领州需要由军事部队驻守以执行警察任务。游戏内的驻军即体现这一点，可从“被占领土”标签页进行指派。",
+   "en": "In order to combat resistance and police the population, occupied states will need to be garrisoned by military troops to perform police duties. The in-game Garrison represents this and can be assigned from the Occupied Territories tab."
+  },
+  {
+   "k": "n4xo4i",
+   "zh": "用于填充驻军的师不会显示在地图上，它们会被自动分配并自动获得装备。装备分配可通过“招募与部署”对话框设置。",
+   "en": "The divisions needed to staff the garrisons are not visible on the map and are allocated and get their equipment automatically. The equipment allocation can be set via the Recruit & deploy dialog."
+  },
+  {
+   "k": "7rtw0m",
+   "zh": "占领法令的效果按驻军效率缩放。如果驻军补充命令未得到满足，占领法令的所有效果都会按该数值缩放：⟦0⟧",
+   "en": "Occupation laws are scaled with Garrison Efficiency. If a Garrison reinforcement order is not fulfilled, all effects from the occupation law will be scaled by this value:⟦0⟧"
+  },
+  {
+   "k": "14gdznu",
+   "zh": "每一点抵抗，占领国在每个州都需要 0.75⟦0⟧点镇压。不过即使抵抗强度低于 10%⟦1⟧，所需驻军数量仍按 10% 计算。当抵抗强度升到 50%⟦2⟧以上时也是同样机制，从而为高抵抗州所需的镇压量设定了上限。",
+   "en": "For every point of resistance, the occupying country will require 0.75⟦0⟧ points of suppression in each state. However, even if resistance strength is lower than 10%⟦1⟧, the number of garrisons needed will remain as if it was 10%. The same mechanic applies when resistance strength rises above 50%⟦2⟧, capping the amount of suppression needed for states with high resistance."
+  },
+  {
+   "k": "pmk2fs",
+   "zh": "占领法令可以在一个国家的被占领（即非核心）领土中选择。它们可以按全国、按被占领国或按州指派。它们调节抵抗目标、顺从度生成速率、以及玩家在其适用州内可获得的工业与资源数量。某些占领法令还会提供若干其他独特优势。",
+   "en": "Occupation laws can be selected in a country's occupied, i.e., non-core, territories. They can be assigned on a country-wide, per-occupied-country, or per-state basis. They regulate the resistance targets, compliance generation rates, amounts of industry and resources available to the player in their applied states. Some occupation laws can also give several other, unique advantages."
+  },
+  {
+   "k": "t4wmim",
+   "zh": "所需驻军",
+   "en": "Required Garrisons"
+  },
+  {
+   "k": "gtt2fr",
+   "zh": "驻军所受伤害",
+   "en": "Damage to Garrisons"
+  },
+  {
+   "k": "ofja3h",
+   "zh": "本地资源",
+   "en": "Local Resources"
+  },
+  {
+   "k": "1cb5qxq",
+   "zh": "本地工厂",
+   "en": "Local Factories"
+  },
+  {
+   "k": "2giyoa",
+   "zh": "额外效果",
+   "en": "Additional effects"
+  },
+  {
+   "k": "6a7512",
+   "zh": "顺从度变动被禁用",
+   "en": "Compliance change disabled"
+  },
+  {
+   "k": "iaspo7",
+   "zh": "文官监督",
+   "en": "Civilian Oversight"
+  },
+  {
+   "k": "bg7x3o",
+   "zh": "敌方情报网强度增长：-25% 敌方特工被发现几率偏移：+1%",
+   "en": "Enemy intel network strength gain: -25% Enemy operative detection chance offset: +1%"
+  },
+  {
+   "k": "b8f1i0",
+   "zh": "军事总督",
+   "en": "Military Governor"
+  },
+  {
+   "k": "qwirea",
+   "zh": "本地人力⟦0⟧",
+   "en": "Local Manpower ⟦0⟧"
+  },
+  {
+   "k": "1dhmy72",
+   "zh": "强制劳动",
+   "en": "Forced Labor"
+  },
+  {
+   "k": "1o08127",
+   "zh": "民用工厂修复速度：+25% 资源破坏几率：-25% 资源破坏持续时间：-25%",
+   "en": "Civilian Factory Repair Speed: +25% Resource Sabotage Chance: -25% Resource Sabotage Duration: -25%"
+  },
+  {
+   "k": "1mzaqvo",
+   "zh": "严苛配额",
+   "en": "Harsh Quotas"
+  },
+  {
+   "k": "o9a2ob",
+   "zh": "军用工厂修复速度：+25% 民用工厂修复速度：+25% 军用工厂破坏几率：-25% 民用工厂破坏几率：-25%",
+   "en": "Military Factory Repair Speed: +25% Civilian Factory Repair Speed: +25% Military Factory Sabotage Chance: -25% Civilian Factory Sabotage Chance: -25%"
+  },
+  {
+   "k": "aghwo9",
+   "zh": "军事管制",
+   "en": "Martial Law"
+  },
+  {
+   "k": "1r9zoui",
+   "zh": "抵抗衰减速度：⟦0⟧",
+   "en": "Resistance Decay Speed: ⟦0⟧"
+  },
+  {
+   "k": "jsij5m",
+   "zh": "法西斯主义者专属",
+   "en": "Exclusive to Fascists"
+  },
+  {
+   "k": "1vftdtq",
+   "zh": "共产主义者专属",
+   "en": "Exclusive to Communists"
+  },
+  {
+   "k": "1izsqwx",
+   "zh": "民主国家专属",
+   "en": "Exclusive to Democracies"
+  },
+  {
+   "k": "4p342w",
+   "zh": "和解",
+   "en": "Reconciliation"
+  },
+  {
+   "k": "1ppe10x",
+   "zh": "仅⟦0⟧在⟦1⟧下、于库尔德核心州可用，且必须完成“所有人的共同命运：土耳其”或“允许地区选举”。",
+   "en": "Exclusive to ⟦0⟧ with ⟦1⟧ on Kurdish core states and only if completed either A Common Destiny for All of Turkey or Permit Regional Elections."
+  },
+  {
+   "k": "p802i4",
+   "zh": "仅⟦0⟧在⟦1⟧下、于非洲各州可用，且必须完成“意大利非洲部”。若完成“阿尔巴尼亚法西斯民兵”，⟦2⟧核心州也可用。",
+   "en": "Exclusive to ⟦0⟧ with ⟦1⟧ on African states and only if Ministry of Italian Africa is complete. Also available for ⟦2⟧ core states if Albanian Fascist Militia is complete."
+  },
+  {
+   "k": "1cgcqmj",
+   "zh": "殖民地警察（改进）",
+   "en": "Colonial Police (Improved)"
+  },
+  {
+   "k": "1jv5cw",
+   "zh": "仅⟦0⟧在⟦1⟧下、于非洲各州可用，且必须完成“区域发展”。若完成“阿尔巴尼亚法西斯民兵”，⟦2⟧核心州也可用。",
+   "en": "Exclusive to ⟦0⟧ with ⟦1⟧ on African states and only if Regional Development is complete. Also available for ⟦2⟧ core states if Albanian Fascist Militia is complete."
+  },
+  {
+   "k": "4553b3",
+   "zh": "殖民地警察（最终）",
+   "en": "Colonial Police (Final)"
+  },
+  {
+   "k": "77t961",
+   "zh": "仅⟦0⟧在⟦1⟧下、于非洲各州可用，且必须完成“意属非洲警察”。若完成“阿尔巴尼亚法西斯民兵”，⟦2⟧核心州也可用。",
+   "en": "Exclusive to ⟦0⟧ with ⟦1⟧ on African states and only if Polizia dell'Africa Italiana is complete. Also available for ⟦2⟧ core states if Albanian Fascist Militia is complete."
+  },
+  {
+   "k": "1n3j0yx",
+   "zh": "总书记们",
+   "en": "Secretaries General"
+  },
+  {
+   "k": "1vze4p5",
+   "zh": "仅⟦0⟧的占领者在其核心州上、启用《诸神黄昏》时可用，且必须完成“总书记们”。",
+   "en": "Exclusive to occupiers of ⟦0⟧ with Götterdämmerung on their core states and only if they have completed Secretaries General."
+  },
+  {
+   "k": "4sxnip",
+   "zh": "独立统治",
+   "en": "Independent Rule"
+  },
+  {
+   "k": "1mfca9l",
+   "zh": "仅⟦0⟧在⟦1⟧下、于土邦可用，且必须完成“土邦政策”。",
+   "en": "Exclusive to ⟦0⟧ with ⟦1⟧ on princely states and only if Princely States Policy is complete."
+  },
+  {
+   "k": "1ujrzji",
+   "zh": "土邦征服",
+   "en": "Princely Subjugation"
+  },
+  {
+   "k": "12qww9g",
+   "zh": "宣抚",
+   "en": "Senbu"
+  },
+  {
+   "k": "eln9a3",
+   "zh": "仅⟦0⟧在⟦1⟧下、于中国各州可用，且必须完成“投资宣抚工作”。",
+   "en": "Exclusive to ⟦0⟧ with ⟦1⟧ on Chinese states and only if Invest in Senbu is complete."
+  },
+  {
+   "k": "ll7tyg",
+   "zh": "东亚掠夺",
+   "en": "East Asian Exploitation"
+  },
+  {
+   "k": "cacnc9",
+   "zh": "仅日本在《不妥协，不投降》下、于亚洲各州可用，且必须完成“大东亚共荣圈”并选择“天皇的最高权威必须永远居于首位！”这一选项。",
+   "en": "Exclusive to Japan with No Compromise, No Surrender on Asian states and only if The Greater East Asia Co-Prosperity Sphere is complete and the option \"The Emperors supreme Authority must always come first!\" has been chosen."
+  },
+  {
+   "k": "jxrecl",
+   "zh": "东亚繁荣",
+   "en": "East Asian Prosperity"
+  },
+  {
+   "k": "16hawgd",
+   "zh": "仅⟦0⟧在⟦1⟧下、于亚洲各州可用，且必须完成“大东亚共荣圈”并选择“我们必须为所有亚洲州追求繁荣”这一选项。",
+   "en": "Exclusive to ⟦0⟧ with ⟦1⟧ on Asian states and only if The Greater East Asia Co-Prosperity Sphere is complete and the option \"We must pursue Prosperity for all Asian states\" has been chosen."
+  },
+  {
+   "k": "65vezf",
+   "zh": "参考文献与注释",
+   "en": "References and notes"
+  },
+  {
+   "k": "1cpf5ss",
+   "zh": "⟦0⟧⟦1⟧ 比投降更严格：目标不得控制任何州。⟦2⟧⟦3⟧ 有大量效果和修正会修改它，其中许多是特定国家专属的。此处只选取了在任何国家游玩时都能修改它的效果和／或修正。⟦4⟧⟦5⟧ 如果发起该行动的国家已完成“出口破坏者”⟦6⟧，无加成时的抵抗目标会变为⟦7⟧。",
+   "en": "⟦0⟧ ⟦1⟧ Stricter than capitulation: the target must not control any states. ⟦2⟧ ⟦3⟧ There is a large quantity of effects and modifiers that modify this, with a lot being country-specific. Only effects and/or modifiers that can modify it when playing any country have been selected here. ⟦4⟧ ⟦5⟧ If the country initiating the operation has completed the Export Saboteurs ⟦6⟧, the bonus-less resistance target changes to ⟦7⟧."
+  },
+  {
+   "k": "txurxc",
+   "zh": "⟦0⟧脚本触发器，默认位于⟦1⟧",
+   "en": "The ⟦0⟧ scripted trigger, by default in ⟦1⟧"
+  },
+  {
+   "k": "z5nwg8",
+   "zh": "should_initiate_resistance",
+   "en": "should_initiate_resistance"
+  },
+  {
+   "k": "g4kuf5",
+   "zh": "/Hearts of Iron IV/common/scripted_triggers/00_resistance_initiate_triggers.txt",
+   "en": "/Hearts of Iron IV/common/scripted_triggers/00_resistance_initiate_triggers.txt"
+  },
+  {
+   "k": "1cpoby2",
+   "zh": "NDefines.NResistance.INITIAL_STATE_RESISTANCE = 1",
+   "en": "NDefines.NResistance.INITIAL_STATE_RESISTANCE = 1"
+  },
+  {
+   "k": "1j2bx8a",
+   "zh": "NDefines.NResistance.RESISTANCE_COOLDOWN_WHEN_DISABLED = -0.25",
+   "en": "NDefines.NResistance.RESISTANCE_COOLDOWN_WHEN_DISABLED = -0.25"
+  },
+  {
+   "k": "11bmsnt",
+   "zh": "NDefines.NResistance.RESISTANCE_DECAY_MIN = 0.01",
+   "en": "NDefines.NResistance.RESISTANCE_DECAY_MIN = 0.01"
+  },
+  {
+   "k": "7xxp04",
+   "zh": "NDefines.NResistance.RESISTANCE_GROWTH_MAX = 100",
+   "en": "NDefines.NResistance.RESISTANCE_GROWTH_MAX = 100"
+  },
+  {
+   "k": "g63nyp",
+   "zh": "由⟦0⟧文件决定。",
+   "en": "As decided by the ⟦0⟧ files."
+  },
+  {
+   "k": "g0sk4b",
+   "zh": "/Hearts of Iron IV/common/resistance_compliance_modifiers/*.txt",
+   "en": "/Hearts of Iron IV/common/resistance_compliance_modifiers/*.txt"
+  },
+  {
+   "k": "33mx6y",
+   "zh": "NDefines.NResistance.RESISTANCE_TARGET_BASE = 35",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_BASE = 35"
+  },
+  {
+   "k": "omsshf",
+   "zh": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_OCCUPIED_CAPITULATED = 10",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_OCCUPIED_CAPITULATED = 10"
+  },
+  {
+   "k": "6mv1vp",
+   "zh": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_OCCUPIED_IS_EXILE_MIN = 2",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_OCCUPIED_IS_EXILE_MIN = 2"
+  },
+  {
+   "k": "wogb1t",
+   "zh": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_OCCUPIED_IS_EXILE_MAX = 20",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_OCCUPIED_IS_EXILE_MAX = 20"
+  },
+  {
+   "k": "1a7cxrg",
+   "zh": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_HAS_CLAIM = -5",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_HAS_CLAIM = -5"
+  },
+  {
+   "k": "1o0zloy",
+   "zh": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_IS_AT_PEACE = -10",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_IS_AT_PEACE = -10"
+  },
+  {
+   "k": "12obagh",
+   "zh": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_STATE_VP = { 0, 0, 5, 5, 20, 10, 50, 20 }",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_STATE_VP = { 0, 0, 5, 5, 20, 10, 50, 20 }"
+  },
+  {
+   "k": "dnn5zm",
+   "zh": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_PER_COMPLIANCE = -0.5",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_PER_COMPLIANCE = -0.5"
+  },
+  {
+   "k": "17dy66e",
+   "zh": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_PER_STABILITY_LOSS = 0.2",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_PER_STABILITY_LOSS = 0.2"
+  },
+  {
+   "k": "1czcqmj",
+   "zh": "NDefines.NResistance.RESISTANCE_POP_VERY_LOW_CUTOFF = 1000",
+   "en": "NDefines.NResistance.RESISTANCE_POP_VERY_LOW_CUTOFF = 1000"
+  },
+  {
+   "k": "ne7wpy",
+   "zh": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_POP_VERY_LOW = -50",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_POP_VERY_LOW = -50"
+  },
+  {
+   "k": "1wkj08o",
+   "zh": "NDefines.NResistance.RESISTANCE_POP_LOW_CUTOFF = 10000",
+   "en": "NDefines.NResistance.RESISTANCE_POP_LOW_CUTOFF = 10000"
+  },
+  {
+   "k": "nkik1u",
+   "zh": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_POP_LOW = -20",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_POP_LOW = -20"
+  },
+  {
+   "k": "1kzc275",
+   "zh": "静态修正中的⟦0⟧",
+   "en": "⟦0⟧ in static modifiers"
+  },
+  {
+   "k": "bhtd7h",
+   "zh": "root_out_resistance_mission_modifier",
+   "en": "root_out_resistance_mission_modifier"
+  },
+  {
+   "k": "1rp8k7m",
+   "zh": "/Hearts of Iron IV/common/occupation_laws/*.txt",
+   "en": "/Hearts of Iron IV/common/occupation_laws/*.txt"
+  },
+  {
+   "k": "1vsy4jq",
+   "zh": "continuous_suppression",
+   "en": "continuous_suppression"
+  },
+  {
+   "k": "gqyxf0",
+   "zh": "/Hearts of Iron IV/common/continuous_focus/generic.txt",
+   "en": "/Hearts of Iron IV/common/continuous_focus/generic.txt"
+  },
+  {
+   "k": "1pgzd5l",
+   "zh": "/Hearts of Iron IV/common/operations/*.txt",
+   "en": "/Hearts of Iron IV/common/operations/*.txt"
+  },
+  {
+   "k": "4krzzt",
+   "zh": "NDefines.NResistance.RESISTANCE_RATIO_DIFF_TO_SPREAD = 0.5",
+   "en": "NDefines.NResistance.RESISTANCE_RATIO_DIFF_TO_SPREAD = 0.5"
+  },
+  {
+   "k": "1r35re1",
+   "zh": "NDefines.NResistance.RESISTANCE_TARGET_MIN_CAP_FOR_NON_COMPLIANCE = 10",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MIN_CAP_FOR_NON_COMPLIANCE = 10"
+  },
+  {
+   "k": "116edkc",
+   "zh": "NDefines.NResistance.RESISTANCE_TARGET_TO_REENABLE_RESISTANCE = 10",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_TO_REENABLE_RESISTANCE = 10"
+  },
+  {
+   "k": "1it66hw",
+   "zh": "NDefines.NResistance.RESISTANCE_GROWTH_BASE = 0.2",
+   "en": "NDefines.NResistance.RESISTANCE_GROWTH_BASE = 0.2"
+  },
+  {
+   "k": "dyb5q2",
+   "zh": "NDefines.NResistance.RESISTANCE_DECAY_BASE = 0.1",
+   "en": "NDefines.NResistance.RESISTANCE_DECAY_BASE = 0.1"
+  },
+  {
+   "k": "18rfw90",
+   "zh": "NDefines.NResistance.RESISTANCE_DECAY_MODIFIER_HAS_CLAIM = 25",
+   "en": "NDefines.NResistance.RESISTANCE_DECAY_MODIFIER_HAS_CLAIM = 25"
+  },
+  {
+   "k": "1v31bbj",
+   "zh": "NDefines.NResistance.RESISTANCE_DECAY_MODIFIER_FACTORS = { 10, -50, 20, -25 }",
+   "en": "NDefines.NResistance.RESISTANCE_DECAY_MODIFIER_FACTORS = { 10, -50, 20, -25 }"
+  },
+  {
+   "k": "wgct0o",
+   "zh": "NDefines.NResistance.RESISTANCE_ACTIVITY_CHANCE_AT_MAX_RESISTANCE = 0.312",
+   "en": "NDefines.NResistance.RESISTANCE_ACTIVITY_CHANCE_AT_MAX_RESISTANCE = 0.312"
+  },
+  {
+   "k": "1jqgznh",
+   "zh": "NDefines.NResistance.GARRISON_EQUIPMENT_LOST_BY_ATTACK = 0.02",
+   "en": "NDefines.NResistance.GARRISON_EQUIPMENT_LOST_BY_ATTACK = 0.02"
+  },
+  {
+   "k": "1islzg5",
+   "zh": "NDefines.NResistance.GARRISON_MANPOWER_LOST_BY_ATTACK = 0.016",
+   "en": "NDefines.NResistance.GARRISON_MANPOWER_LOST_BY_ATTACK = 0.016"
+  },
+  {
+   "k": "n8lbck",
+   "zh": "NDefines.NResistance.MAXIMUM_GARRISON_HARDNESS_WHEN_ATTACKED = 0.9",
+   "en": "NDefines.NResistance.MAXIMUM_GARRISON_HARDNESS_WHEN_ATTACKED = 0.9"
+  },
+  {
+   "k": "wenzcu",
+   "zh": "forumpost:30311297",
+   "en": "forumpost:30311297"
+  },
+  {
+   "k": "10xrn5",
+   "zh": "NDefines.NResistance.MIN_DAMAGE_TO_GARRISONS_MODIFIER = 0.1",
+   "en": "NDefines.NResistance.MIN_DAMAGE_TO_GARRISONS_MODIFIER = 0.1"
+  },
+  {
+   "k": "jv93ox",
+   "zh": "NDefines.NResistance.RESISTANCE_ACTIVITY_MIN_GARRISON_PENETRATE_CHANCE = 0.02",
+   "en": "NDefines.NResistance.RESISTANCE_ACTIVITY_MIN_GARRISON_PENETRATE_CHANCE = 0.02"
+  },
+  {
+   "k": "1qkt7m3",
+   "zh": "NDefines.NResistance.INITIAL_STATE_COMPLIANCE = 0",
+   "en": "NDefines.NResistance.INITIAL_STATE_COMPLIANCE = 0"
+  },
+  {
+   "k": "1och69j",
+   "zh": "NDefines.NResistance.INITIAL_HISTORY_COMPLIANCE = 70",
+   "en": "NDefines.NResistance.INITIAL_HISTORY_COMPLIANCE = 70"
+  },
+  {
+   "k": "kwvrnm",
+   "zh": "NDefines.NResistance.COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE = -0.5",
+   "en": "NDefines.NResistance.COMPLIANCE_FACTOR_ON_STATE_CONTROLLER_CHANGE = -0.5"
+  },
+  {
+   "k": "1fvpvjg",
+   "zh": "NDefines.NResistance.COMPLIANCE_GROWTH_BASE = 0.075",
+   "en": "NDefines.NResistance.COMPLIANCE_GROWTH_BASE = 0.075"
+  },
+  {
+   "k": "jw24aa",
+   "zh": "NDefines.NResistance.STATE_COMPLIANCE_DECAY_FOR_LOST_STATES = 0.05",
+   "en": "NDefines.NResistance.STATE_COMPLIANCE_DECAY_FOR_LOST_STATES = 0.05"
+  },
+  {
+   "k": "1prg5wb",
+   "zh": "NDefines.NResistance.COMPLIANCE_GROWTH_HAS_CLAIM = 5",
+   "en": "NDefines.NResistance.COMPLIANCE_GROWTH_HAS_CLAIM = 5"
+  },
+  {
+   "k": "1kh7lzj",
+   "zh": "NDefines.NResistance.COMPLIANCE_GROWTH_IS_AT_PEACE = 10",
+   "en": "NDefines.NResistance.COMPLIANCE_GROWTH_IS_AT_PEACE = 10"
+  },
+  {
+   "k": "eaooky",
+   "zh": "NDefines.NResistance.COMPLIANCE_DECAY_AT_MAX_COMPLIANCE = -0.083",
+   "en": "NDefines.NResistance.COMPLIANCE_DECAY_AT_MAX_COMPLIANCE = -0.083"
+  },
+  {
+   "k": "pfqav7",
+   "zh": "NDefines.NResistance.COMPLIANCE_DECAY_PER_EXILE_LEGITIMACY = -0.015",
+   "en": "NDefines.NResistance.COMPLIANCE_DECAY_PER_EXILE_LEGITIMACY = -0.015"
+  },
+  {
+   "k": "nanmml",
+   "zh": "NDefines.NResistance.GARRISON_STR_POW_MANPOWER = 2",
+   "en": "NDefines.NResistance.GARRISON_STR_POW_MANPOWER = 2"
+  },
+  {
+   "k": "1nl8nvt",
+   "zh": "NDefines.NResistance.GARRISON_STR_POW_EQUIPMENT = 3",
+   "en": "NDefines.NResistance.GARRISON_STR_POW_EQUIPMENT = 3"
+  },
+  {
+   "k": "oxq743",
+   "zh": "NDefines.NResistance.SUPPRESSION_NEEDED_BY_RESISTANCE_POINT = 0.75",
+   "en": "NDefines.NResistance.SUPPRESSION_NEEDED_BY_RESISTANCE_POINT = 0.75"
+  },
+  {
+   "k": "li7cp4",
+   "zh": "NDefines.NResistance.SUPPRESSION_NEEDED_LOWER_CAP = 10",
+   "en": "NDefines.NResistance.SUPPRESSION_NEEDED_LOWER_CAP = 10"
+  },
+  {
+   "k": "17fhxgf",
+   "zh": "NDefines.NResistance.SUPPRESSION_NEEDED_UPPER_CAP = 50",
+   "en": "NDefines.NResistance.SUPPRESSION_NEEDED_UPPER_CAP = 50"
+  }
+ ]
+}

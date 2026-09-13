@@ -1,0 +1,812 @@
+{
+ "batch": 952,
+ "pages": [
+  "Patch 1.6.X"
+ ],
+ "chars": 14962,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "ff1sbz",
+   "en": "⟦0⟧ are all patches beginning with 1.6.",
+   "frags": 1
+  },
+  {
+   "k": "f11qr8",
+   "en": "Patch 1.6.X"
+  },
+  {
+   "k": "6idth5",
+   "en": "Main article: Patch 1.6"
+  },
+  {
+   "k": "tp3548",
+   "en": "1.6.1 is a hotfix which was released on 2019-03-13⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "jeyt0c",
+   "en": "55d5"
+  },
+  {
+   "k": "177ytcu",
+   "en": "Feature and Important"
+  },
+  {
+   "k": "8250tp",
+   "en": "New task force composition editor interface with much nicer flow"
+  },
+  {
+   "k": "15xgu5f",
+   "en": "Added a reserve button to Fleet bottom bar."
+  },
+  {
+   "k": "vzv5rz",
+   "en": "Unlocking new ship hulls will now provide a variant with the same modules as on the best equipment variant of the previous ship hull level, to the extent possible, and hide the empty hull as obsolete in that case."
+  },
+  {
+   "k": "1ogltav",
+   "en": "ctrl b now toggles strategic deployment for selected units"
+  },
+  {
+   "k": "foe69f",
+   "en": "key k now toggles air training (kamikaze is moved to ctrl b)"
+  },
+  {
+   "k": "epo2ro",
+   "en": "FM won't be able to activate abilities if it is already active for all child groups"
+  },
+  {
+   "k": "1yoqkb2",
+   "en": "Taskforces with automatic split on will split into multiple taskforces if there is no naval base that can repair all ships at once"
+  },
+  {
+   "k": "vs684p",
+   "en": "Sinking enemy ships will now award war participation"
+  },
+  {
+   "k": "mp1saw",
+   "en": "Bugfix"
+  },
+  {
+   "k": "33jaza",
+   "en": "Underpaid, Undersexed, and Under Eisenhower achievement now correctly requires a 1936 start date."
+  },
+  {
+   "k": "juakz6",
+   "en": "Fixed an issue where several British focuses were bypassed and canceled at the same time."
+  },
+  {
+   "k": "1cq5gfl",
+   "en": "Removed duplicate \"Remove country leader\" in Towards Indian Independence focus."
+  },
+  {
+   "k": "13w8ycb",
+   "en": "Fixed an issue where you could not take 'War on Pacifism\" decisions to get rid of national spirit if you had above 80% war support."
+  },
+  {
+   "k": "ii87cu",
+   "en": "fixed an issue where Manchukuo could demand Japan become their puppet while still being a subject of Japan."
+  },
+  {
+   "k": "epi4g9",
+   "en": "Cave to the Germans, Maintain Trade Neutrality, and Cave to the British focuses can no longer be bypassed while one of the other mutually exclusive paths are in progress (thereby unlocking multiple political paths)."
+  },
+  {
+   "k": "t99awn",
+   "en": "The United Kingdom can now progress to the end of the Decolonisation tree, even if India has already declared independence."
+  },
+  {
+   "k": "qry877",
+   "en": "MacArthur will no longer lead the Loyalists while also fighting as a field marshal for the Constitutionalists."
+  },
+  {
+   "k": "6qajel",
+   "en": "Canada will no longer be subject to continued British communist pressure after Britain accepts the USA's demand to stand down."
+  },
+  {
+   "k": "ff9am8",
+   "en": "Anti-German Speech decision now correctly checks whether any German civil war faction is fascist, and does not show duplicate decisions in case Germany is in a civil war."
+  },
+  {
+   "k": "19159rj",
+   "en": "fixed an issue with Reichskommissariats Ostland and Ukraine behaving weirdly"
+  },
+  {
+   "k": "1msub0s",
+   "en": "'Expose the Belly of the Bear' will no longer cancel if some of the criteria is true."
+  },
+  {
+   "k": "rcvazp",
+   "en": "The focus 'Expand the MLD' will now automatically bypass if the Netherlands or its subject does not control Java."
+  },
+  {
+   "k": "fb6th9",
+   "en": "Australia can now invite King Edward VIII to Australia if they decide to stand by the King in the event of him pushing his marriage forwards. The focus can now also be bypassed if Australia becomes fully independent and is not in the Allies."
+  },
+  {
+   "k": "1lkm045",
+   "en": "Fixed Secure the Dominions decisions still being visible if you secured them via civil war instead."
+  },
+  {
+   "k": "e8lk81",
+   "en": "The subject of a country can't stay at war anymore if its overlord capitulate (if no faction)"
+  },
+  {
+   "k": "nnm3qr",
+   "en": "Fixed a single port being naval strikes multiple times within the same tick creating confusion"
+  },
+  {
+   "k": "udwpv3",
+   "en": "all units of an army will be assigned to newly created garrison orders now"
+  },
+  {
+   "k": "crbizg",
+   "en": "During peace conference, you can now satellite a subject even if its overlord is annexed or puppeted."
+  },
+  {
+   "k": "ruvpq1",
+   "en": "joining a faction now cancels received guarantees"
+  },
+  {
+   "k": "1ujszfr",
+   "en": "Lithuania's 'Move Capital to Vilnius' decision can only be taken once."
+  },
+  {
+   "k": "13z7k5x",
+   "en": "End of the British Civil War will no longer cause Canada to rename whichever faction it is in to Commonwealth of Nations if they went ahistorical."
+  },
+  {
+   "k": "1buflxm",
+   "en": "fixed tutorial 10 not advancing if no units are selected"
+  },
+  {
+   "k": "1czqv92",
+   "en": "Unintended dynamic tag victors of the UK, Mexico, and USA civil war(s) now load their original focus trees upon victory."
+  },
+  {
+   "k": "1myhn3v",
+   "en": "fixed submarine models not being shown in naval combat"
+  },
+  {
+   "k": "3bhh74",
+   "en": "You can now move a repairing taskforce from a naval base to another without canceling repairing."
+  },
+  {
+   "k": "3lizlb",
+   "en": "Fixed attache not working when the recipient has less than 100PP and 50CP"
+  },
+  {
+   "k": "1dzjazv",
+   "en": "German Integrate War Economies focus now sends events rather than applying effects immediately, giving players a chance to decline to avoid being puppeted."
+  },
+  {
+   "k": "vpy6d1",
+   "en": "Decolonize Asia game rule now releases Korea, Manchukuo, and Mengkukuo, and transfers other continental states to China."
+  },
+  {
+   "k": "183qay0",
+   "en": "Heavy cruisers are now considered as capital ships in the production line."
+  },
+  {
+   "k": "12l8e1b",
+   "en": "the nation building decisions now correctly add a national spirit to execute their effect"
+  },
+  {
+   "k": "15ctycv",
+   "en": "Fixed Treading the Narrow Path achievement to correctly not be awarded if you lost one of your starting states."
+  },
+  {
+   "k": "jgd1js",
+   "en": "Fixed easter egg event to now be possible to fire."
+  },
+  {
+   "k": "18pyuvm",
+   "en": "George VI national spirit is now properly removed when finishing The Fate of the Royal Family focus."
+  },
+  {
+   "k": "1ofj6t1",
+   "en": "You can now train colonial divisions using colonial manpower, even if master doesn't have manpower."
+  },
+  {
+   "k": "1r01jt2",
+   "en": "The Imperial Federation focus should now be available even if you don't own Together for Victory"
+  },
+  {
+   "k": "2eh2gg",
+   "en": "Focuses and events relating to the Imperial Federation now takes into account various combinations of DLCs the player may or may not own."
+  },
+  {
+   "k": "1ta4faw",
+   "en": "fixed repair queue reordering not working"
+  },
+  {
+   "k": "wf5z2w",
+   "en": "Removed faction requirement of Dutch Strength over Blood focus."
+  },
+  {
+   "k": "117q1uv",
+   "en": "Made it impossible to begin the Abdication event chain if you have also gone down a mutually-exclusive branch that would prevent you from resolving the negative effects from that event chain (such as Fallen Government) by selecting the King's Party focus, or vice-versa."
+  },
+  {
+   "k": "1rfhwl9",
+   "en": "Winning the Blackshirt civil war will now reimburse one George V king to the player."
+  },
+  {
+   "k": "petds4",
+   "en": "the gun upgrade for ships now increases light and heavy attack for players without MtG"
+  },
+  {
+   "k": "ahdq9k",
+   "en": "Resolved the hash conflict that resulted in the oddly specific case of Macedonia, puppeted by Chad, receiving a news event option text as a country name (\"This messes with our plans...\")"
+  },
+  {
+   "k": "i9rsa0",
+   "en": "Re-enabled releasing Egypt as UK, but only when in Ironman mode (for the Freegypt achievement)."
+  },
+  {
+   "k": "1d21epd",
+   "en": "German focus Break the Anglo-French Colonial Hegemony now correctly gives a claim on Cameroon instead of Gabon, and on Rwanda and Burundi, as well as wargoals on these nations if they exist, or on Belgium if it still owns Rwanda and/or Burundi."
+  },
+  {
+   "k": "igtpt7",
+   "en": "British Decolonization focuses are now available as long as you control one of the required states, and bypass if you don't own any. Dutch Decolonization focus is similarly bypassed if you don't own any of the areas or control them as subjects."
+  },
+  {
+   "k": "v50y02",
+   "en": "fixed an issue where the Loyalists in the fascist Civil War would not get the correct flag"
+  },
+  {
+   "k": "sqkdwf",
+   "en": "Honor the Confederacy focus is now correctly available for unaligned US"
+  },
+  {
+   "k": "hiqhhd",
+   "en": "South Africa Secure Interests in Africa focus now takes into account new tags."
+  },
+  {
+   "k": "paaqqu",
+   "en": "Fixed Battlecry and Awake and Angry being completed immediately upon unpause."
+  },
+  {
+   "k": "zv6voy",
+   "en": "fixed a trigger in election events that had the date reversed"
+  },
+  {
+   "k": "b3e2f4",
+   "en": "Prevented puppetting the original faction leaders from awarding the Assuming Direct Control achievement."
+  },
+  {
+   "k": "16kcfcn",
+   "en": "Merging an active and reserve taskforce will now always merge into active"
+  },
+  {
+   "k": "y7frqa",
+   "en": "Don't remove unit from province when transfert ownership (when a GiE is reinstalled for example)"
+  },
+  {
+   "k": "fgfe0r",
+   "en": "Fixed ship design filter by sub unit resetting when a new equipment was added to the list"
+  },
+  {
+   "k": "yl38n0",
+   "en": "Achievement fix for Pride and Prejudice"
+  },
+  {
+   "k": "1kajcqo",
+   "en": "fixed an issue with continuing the game past 1948 when going for achivements"
+  },
+  {
+   "k": "13jnbv9",
+   "en": "Made Tora Tora Tora mission reward for Japan appear correctly as a completion reward, rather than a failure penalty."
+  },
+  {
+   "k": "11lsxhn",
+   "en": "Imperial Federation can now be achieved even if you annexed some of the Dominions, as long as you control all of their cores. Imperial Conference proposals will also correctly unlock once all involved parties have responded, taking into account that some may not exist anymore."
+  },
+  {
+   "k": "gdj20f",
+   "en": "Fixed a single state misbehaving when releasing Reichskommissariat Ostland while at peace"
+  },
+  {
+   "k": "6xarkj",
+   "en": "Fixed light cruiser battery 4 module having less light attack than previous module"
+  },
+  {
+   "k": "ctsn2l",
+   "en": "UK theorist J.F.C. Fuller now properly gives 7% doctrine research bonus."
+  },
+  {
+   "k": "z6mxjc",
+   "en": "Fixed the Dutch military tree to no longer be incorrectly hidden if you don't own DOD. Instead, it correctly only hides a single focus."
+  },
+  {
+   "k": "13q82ye",
+   "en": "ENG Decolonizing while having finished Three Nation Solution will grant RAJ the improved Muslim Community Marginalized trait. Also, TFV trees will now take into account the possibility of having been decolonized by Britain, and, if they are still in a faction with ENG, allow them to take focuses that would otherwise require them to still be a subject."
+  },
+  {
+   "k": "1nj8jq7",
+   "en": "Ensured that it is no longer possible to 'game the system' by, as a Dominion, promising loyalty to the king in the event for the Abdication Crisis, only to subsequently go down the independence path in a TfV focus tree. Promising loyalty now locks you into the pro-Britain path of the tree."
+  },
+  {
+   "k": "y0sc2a",
+   "en": "HOL focus Colonial Shipbuilding now only requires control, rather than total control, of the relevant states. This should make it more possible to be taken once at war with Japan."
+  },
+  {
+   "k": "jj61s8",
+   "en": "Fixed carrier deck size not being updated after refitting"
+  },
+  {
+   "k": "1p2ymv8",
+   "en": "The Naval treaty should no longer be removed if Japan goes to war with China specifically"
+  },
+  {
+   "k": "zd5dh0",
+   "en": "British decolonization tree now takes into account not owning TfV."
+  },
+  {
+   "k": "1bwe6ko",
+   "en": "Double-clicking on enemy task force icons no longer lets you select their fleets and disband them"
+  },
+  {
+   "k": "1trmfin",
+   "en": "Fixed reconquered and re-puppeted dominions declaring independence from Fascist Britain a second time."
+  },
+  {
+   "k": "f2rug1",
+   "en": "De Gaulle should no longer be able to play 4D chess and rule both Vichy France and Free France."
+  },
+  {
+   "k": "1wzp16r",
+   "en": "Trotsky should no longer be able to lead an uprising in the Soviet Union while also ruling Mexico."
+  },
+  {
+   "k": "9afq0l",
+   "en": "Added new states in West Africa to correctly be owned by Vichy France upon formation."
+  },
+  {
+   "k": "iddbdw",
+   "en": "Prevented various strange AI behaviours from occurring, such as Stalin allying Trotskyite Mexico."
+  },
+  {
+   "k": "1yi83j2",
+   "en": "McArthur should no longer be able to lead armies on the Democratic side of the US civil war, while leading the Fascist side. De Gaulle should now no longer be available as a general for Vichy France."
+  },
+  {
+   "k": "16o412g",
+   "en": "Updated Waking the Tiger DLC to pull in portrait fixes that were missed earlier."
+  },
+  {
+   "k": "g01jr2",
+   "en": "Fixed country neighbors not properly rebuilt on controller changes and triggers like any_neighbour_country etc not working properly in some cases"
+  },
+  {
+   "k": "hw0mel",
+   "en": "It is now possible to build torpedo cruisers without Man the Guns again"
+  },
+  {
+   "k": "auacgm",
+   "en": "Fixed 3D model viewer entities making noises in Germany"
+  },
+  {
+   "k": "e718ww",
+   "en": "Repair naval bases will now be scored based on actual path rather than map distance while searching for naval bases to repair"
+  },
+  {
+   "k": "1eakmkn",
+   "en": "Fixed the deficit of a task force in regard to its reinforcement target being miscalculated in some cases leading to no reinforcement until at least one ship of the missing kind join the task force."
+  },
+  {
+   "k": "1oaa88q",
+   "en": "Fixed a bug where the ships in surplus would be miscalculated leading to a infinite loop of a ship detaching to be assigned to reserve on one tick and joining back on the next one."
+  },
+  {
+   "k": "xbb2zy",
+   "en": "Fixed requested expeditionaries not being assigned to fallback orders"
+  },
+  {
+   "k": "7oweme",
+   "en": "Fixed an issue where the AI could get stuck and stop production of non-convoy ships if Man the Guns was not enabled"
+  },
+  {
+   "k": "m8b253",
+   "en": "AI will now correctly always reject requests to integrate exiled navies if they have more than 75 ships, and will also always accept if they have fewer than 25 ships."
+  },
+  {
+   "k": "f27e52",
+   "en": "Added AI strategies to certain UK and Netherlands focus tree paths to avoid making weird allies."
+  },
+  {
+   "k": "5nqyym",
+   "en": "AI now use correctly all their dockyards"
+  },
+  {
+   "k": "uz8fz5",
+   "en": "ai will build units considering ally & subject supply chunks as well, added a strat for JAP since it will be fighting mostly on subjects"
+  },
+  {
+   "k": "1v5tm2p",
+   "en": "AI is not a bit less reluctant to cancel convoy defense missions now if it is trading for fuel"
+  },
+  {
+   "k": "x2w92u",
+   "en": "AI will assign more screens to convoy missions if it is being raided a lot"
+  },
+  {
+   "k": "nfiig1",
+   "en": "AI will prio mine sweeping more if it has mines assigned next to owned regions"
+  },
+  {
+   "k": "7rjeyv",
+   "en": "US and ENG AI should now be able to build a specialized anti-submarine destroyer design for convoy work"
+  },
+  {
+   "k": "un621l",
+   "en": "the US AI will now be granted the correct advisors from script when set to go fascist/communist"
+  },
+  {
+   "k": "jq3po1",
+   "en": "US AI will now not take resource decisions unless it has political power to spare"
+  },
+  {
+   "k": "14k64ei",
+   "en": "AI now takes convoy losses and mine threat into account when designing ships and building counters. Losses to convoys also increase desire of AI to build more convoys"
+  },
+  {
+   "k": "gil7uz",
+   "en": "Fixed occasionally incorrect rendering of national focus tree lines."
+  },
+  {
+   "k": "1ioqy9w",
+   "en": "reformulated subtracting factories from production line tooltip to be more consistent with the way the English language has developed since 1912"
+  },
+  {
+   "k": "1exkmia",
+   "en": "Added more grandiose language into the Second American Civil War victory event texts for both sides."
+  },
+  {
+   "k": "wi22e",
+   "en": "Added tooltip text for fascist mobilization of National Guard."
+  },
+  {
+   "k": "du44k2",
+   "en": "Added custom tooltip to Anti-Bolshevist Aid focus to prevent the United States from appearing like it plans to send weapons to itself."
+  },
+  {
+   "k": "13as3vt",
+   "en": "Removed unnecessary space between the title and article of the American fascist victory news event."
+  },
+  {
+   "k": "y9aexo",
+   "en": "Made civil war victory event title dynamic so the event reads appropriately even if you are still non-aligned."
+  },
+  {
+   "k": "as7cjk",
+   "en": "Mexico will now receive the event notifying it of its acceptance into a faction instead of its faction sponsor getting the acceptance event instead."
+  },
+  {
+   "k": "6sp2d7",
+   "en": "Shortened Commonwealth of Nations formation event text so that it no longer overlaps with the selectable event button."
+  },
+  {
+   "k": "18xg6xl",
+   "en": "fixed a number of inconsistencies in the German Loc"
+  },
+  {
+   "k": "1m3bo3y",
+   "en": "Disabled all air mission buttons for air wings on a carrier in port"
+  },
+  {
+   "k": "10v4moc",
+   "en": "All countries in Europe now have fascist, communist, and democratic political party names."
+  },
+  {
+   "k": "x6w9nu",
+   "en": "Added text icon for Legitimacy."
+  },
+  {
+   "k": "12dq9l2",
+   "en": "minor grammar fixing and removal of redundant text"
+  },
+  {
+   "k": "w1jemy",
+   "en": "added an explanatory tooltip to a US decision"
+  },
+  {
+   "k": "1j5uvgb",
+   "en": "Generic Air Theorists now have proper localisation."
+  },
+  {
+   "k": "k3d52r",
+   "en": "Always display mission efficiency of the relevant mission on the naval mission map icon"
+  },
+  {
+   "k": "f91aq3",
+   "en": "scroll bar works again on right side theatre view now"
+  },
+  {
+   "k": "1yx10j5",
+   "en": "achievement tooltip at start of the game now mentions \"most achievements are disabled\" on 39 start"
+  },
+  {
+   "k": "1oumw36",
+   "en": "Fixed duplicate pop-ups on some diplomatic action when handled by AI"
+  },
+  {
+   "k": "5jgv5b",
+   "en": "Display correct type and number of ships in naval overview"
+  },
+  {
+   "k": "63rlve",
+   "en": "it is possible to request expeditionaries for fallback orders now"
+  },
+  {
+   "k": "32hejw",
+   "en": "Corrected tooltip for the Shadow Scheme focus to no longer refer to defensive wars only."
+  },
+  {
+   "k": "mb10ka",
+   "en": "Fixed the tooltip of the Japanese decision 'Demand Indochina'"
+  },
+  {
+   "k": "1mk28as",
+   "en": "fixed taskforces on never repair setting having inconsistent guis about which ships are being repaired"
+  },
+  {
+   "k": "12y9qcg",
+   "en": "US warplan focuses should now correctly display the effects of the decisions they unlock"
+  },
+  {
+   "k": "1fwuq9d",
+   "en": "Rename ship designer save button to match division designer"
+  },
+  {
+   "k": "16oetb6",
+   "en": "fixed a small typo in a news event"
+  },
+  {
+   "k": "1v1sxj6",
+   "en": "fixed a typo in a technology"
+  },
+  {
+   "k": "k3c2gk",
+   "en": "Fixed event option text for Edward VIII and Wallis Simpson death news event for countries other than UK itself."
+  },
+  {
+   "k": "s4skhz",
+   "en": "Fixed move window refering to ships by hull type. Now refering to them by sub unit name."
+  },
+  {
+   "k": "cw7kpm",
+   "en": "Fixed hook to proper module icon for DP secondary batteries in ship designer"
+  },
+  {
+   "k": "10yt7i6",
+   "en": "Changed theater icon for moving to combat to be the same as the text icon going_to_combat"
+  },
+  {
+   "k": "1iwvrbw",
+   "en": "Fixed a cropping issue with one of the achievement images"
+  },
+  {
+   "k": "9350lt",
+   "en": "Made decision progress bar on map a bit bigger so it is more visible"
+  },
+  {
+   "k": "xy3iwu",
+   "en": "Adjusted colors on mapmode buttons"
+  },
+  {
+   "k": "1dzihep",
+   "en": "Added Capital Ship icon to heavy and carrier ship hulls technologies"
+  },
+  {
+   "k": "1ey5fyp",
+   "en": "Improved the fuel consumption feedback for navies"
+  },
+  {
+   "k": "v8pzl6",
+   "en": "Added the ship role icon and task force insignia to the detailed ship entry"
+  },
+  {
+   "k": "2649vy",
+   "en": "detailed ship entries now show the current ship activity and clicking on the ship open the history if there are new entries"
+  },
+  {
+   "k": "aqc6m5",
+   "en": "Added custom icons for game rules for foreign policy, covert actions and gameplay rules"
+  },
+  {
+   "k": "y49tjr",
+   "en": "Clarified some tooltips related to patrol and strike force missions"
+  }
+ ]
+}

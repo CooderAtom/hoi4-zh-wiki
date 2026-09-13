@@ -1,0 +1,629 @@
+{
+ "batch": 888,
+ "pages": [
+  "National focus modding"
+ ],
+ "chars": 14561,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "102apxi",
+   "en": "Neither prerequisites nor mutual exclusivity require the other focus to be in the same focus tree. This means that it can be used with ⟦0⟧ to declare a regular, non-shared focus as mutually exclusive or a prerequisite without any errors, even when used in a focus tree not containing that focus.",
+   "frags": 1
+  },
+  {
+   "k": "10dc4jh",
+   "en": "The difference between prerequisites and using ⟦0⟧ within the ⟦1⟧ block is that the prerequisites show up as lines within the national focus tree view and show up separately from other triggers in the tooltip of a focus.",
+   "frags": 2
+  },
+  {
+   "k": "1vlbxh8",
+   "en": "There is an issue that leads to prerequisite lines not working properly: duplicate focus IDs within different focus trees. In this case, the game can take the position of the focuses as the ones within the different focus tree that contains the same focuses, leading to them appearing to link towards empty spaces or start inside of them. This can also break the path-generating algorithm and make it use the wrong turn sprites, which will show up broken even in trees that don't have any duplicates. In order to avoid this, duplicate focus IDs must be avoided. A simple way to decrease the chance drastically is to preface the focus IDs with the country tag (such as ⟦0⟧) or something else that's unique for the focus tree (Such as ⟦1⟧ for a shared regional tree). If the same focus tree should be used for several countries, this can be done by only having one focus tree where the ⟦2⟧ of the tree is set up so that the desire to use it is the highest for several countries instead of just one; if the same focus tree branch should be used within several different focus trees, then ⟦3⟧ can achieve exactly that.",
+   "frags": 4
+  },
+  {
+   "k": "1o3ide4",
+   "en": "REGION_focus_name"
+  },
+  {
+   "k": "d3xzcr",
+   "en": "Additionally, the game intends for a focus' prerequisite to be placed above the focus that requires it and it is unable to correctly generate the path to the focus otherwise, which will show up as having a path that uses the wrong sprites in the 90° turns."
+  },
+  {
+   "k": "t05i6w",
+   "en": "Cost"
+  },
+  {
+   "k": "natboc",
+   "en": "Another important aspect of the focus is ⟦0⟧. This sets how long the focus takes to complete. By default, a cost of 1 is taken to be 7 \"points\",⟦1⟧ of which by default 1 is completed daily, although it's possible to set different speeds depending if the country is at war or at peace.⟦2⟧ In other words, a cost of 1 represents a week by default. This behaviour can be changed via the ⟦3⟧ file. Decimals within cost are supported, and it will get rounded down to a whole day in the game.",
+   "frags": 4
+  },
+  {
+   "k": "1ggiiwv",
+   "en": "cost = 8"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "woyjj1",
+   "en": "Focus cost can be changed on a per focus basis via the ⟦0⟧ effect. Examples are provided ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "a9xcv9",
+   "en": "reduce_focus_completion_cost"
+  },
+  {
+   "k": "97y18r",
+   "en": "here"
+  },
+  {
+   "k": "t3tyj4",
+   "en": "Icon"
+  },
+  {
+   "k": "1nf2d4r",
+   "en": "General sprite overview"
+  },
+  {
+   "k": "1rilf8e",
+   "en": "For loading GFX, the game uses the sprite system. Sprites are code definitions that attach a name to an image file, as well as optionally adding additional information, such as animation, the amount of frames, the way that the image will be loaded, and so on. This means ⟦0⟧, a sprite has to use that image file as well. Sprites are defined in any /Hearts of Iron IV/interface/*.gfx file (this is separate from gfx/interface/), opened with a text editor. To create a new .gfx file, a text file can be created and renamed to change the extension (on Windows, the Windows Explorer needs to show the extensions, which it doesn't by default). In particular, sprites are defined within a spriteTypes = { ... } block, as to separate from fonts and map arrows also defined in that folder, while the simplest sprite with the least mandatory properties is a spriteType = { ... }. The simplest sprite definition looks like the following: spriteTypes = { spriteType = { name = GFX_first_sprite # In some cases, beginning with GFX_ is mandatory for it to work. texturefile = gfx/interface/folder/filename.dds # The folder and filename don't matter, as long as they are correct } # Only the forward slash '/' (can be doubled as '//') can be used to separate folders. spriteType = { # The image doesn't have to be .dds, as .tga and .png are acceptable. name = GFX_second_sprite texturefile = gfx/interface/folder2/filename2.dds noOfFrames = 2 # Splits the image into 2 halves, which may be switched between dynamically in GUI } } In this case, this creates a sprite with the name of GFX_first_sprite and attaches the /Hearts of Iron IV/gfx/interface/folder/filename.dds image to it, and a second sprite similarly. The second sprite will be split into 2 frames: this is decided by having the left half of the image as the first frame and the right half as the second frame (more frames would further split the image horizontally). This doesn't make the sprite animated, just turns on the option to switch between the two halves as needed. GFX_second_sprite:1 serves as a reference to the first frame, and GUI can be set up to change the shown frame depending on context, such as with radio stations. In order to add animation, a frameAnimatedSpriteType is used. It's never mandatory to copy a base game file to change a sprite. If there are duplicate definitions of a sprite with the same name in different files, the game will prioritise the one that would be evaluated later, based on the filename, and the older sprite will be ignored in entirety. This can be ensured by beginning the replacement file's name with a symbol late in the ASCII character table. Typically the lowercase letter 'z' is used for this purpose. For example, to change the amount of frames in GFX_idea_traits_strip to 10, it is possible to define a sprite with that name with 10 frames in the mod's modname/interface/zz_replace.gfx file instead of copying over the base game file. Since most .gfx files define integral parts of the user interface, copying them over can lead to the mod's loaded files missing sprites upon a major game update, which would appear in-game as the default image, which is the error dog by default. As to ease the burden of needing to check the interface files, it's best to never copy over .gfx files, unless more additions would be actively harmful to the mod, such as with interface/subuniticons.gfx",
+   "frags": 1
+  },
+  {
+   "k": "omkt9e",
+   "en": "placing an image into the gfx folder isn't enough for it to work"
+  },
+  {
+   "k": "dw6d81",
+   "en": "/Hearts of Iron IV/interface/*.gfx"
+  },
+  {
+   "k": "19ysi25",
+   "en": "gfx/interface/"
+  },
+  {
+   "k": "1jps0eu",
+   "en": "spriteTypes = { ... }"
+  },
+  {
+   "k": "1ol5nbr",
+   "en": "spriteType = { ... }"
+  },
+  {
+   "k": "1q6dtuz",
+   "en": "GFX_first_sprite"
+  },
+  {
+   "k": "rrc6od",
+   "en": "/Hearts of Iron IV/gfx/interface/folder/filename.dds"
+  },
+  {
+   "k": "16lafuq",
+   "en": "GFX_second_sprite:1"
+  },
+  {
+   "k": "1ikm53m",
+   "en": "frameAnimatedSpriteType"
+  },
+  {
+   "k": "1mb7tko",
+   "en": "It's never mandatory to copy a base game file to change a sprite"
+  },
+  {
+   "k": "1m92bk4",
+   "en": "evaluated later, based on the filename"
+  },
+  {
+   "k": "18pqn1r",
+   "en": "GFX_idea_traits_strip"
+  },
+  {
+   "k": "1ll4can",
+   "en": "modname/interface/zz_replace.gfx"
+  },
+  {
+   "k": "1k7hn62",
+   "en": "interface/subuniticons.gfx"
+  },
+  {
+   "k": "x8bpzw",
+   "en": "Within a focus, an icon is assigned with the line of ⟦0⟧. This assigns two sprites to the focus, in particular:",
+   "frags": 1
+  },
+  {
+   "k": "pwfjph",
+   "en": "icon = GFX_focus_icon"
+  },
+  {
+   "k": "j8jde9",
+   "en": "Regular sprite, with the name of ⟦0⟧. This is used in the focus description view and in the focus tree view when the focus is unavailable, is being completed, or has been completed.",
+   "frags": 1
+  },
+  {
+   "k": "cnfpmd",
+   "en": "GFX_focus_icon"
+  },
+  {
+   "k": "9nolkv",
+   "en": "Sprite for the shine animation, with the name of ⟦0⟧ (With _shine at the end). This is used in the focus tree view for focuses that are currently available and in the country politics and diplomacy views for the focus currently being complete. Since the game ⟦1⟧, putting the spriteType definition into a file with ⟦2⟧ in the filename isn't either necessary or sufficient. Only the name of the sprite is used, which must be the same as the regular sprite with _shine appended to the end. ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "1xvd4rd",
+   "en": "GFX_focus_icon_shine"
+  },
+  {
+   "k": "15ou8zj",
+   "en": "doesn't use filenames in evaluation"
+  },
+  {
+   "k": "e68nik",
+   "en": "shine"
+  },
+  {
+   "k": "8d5t6v",
+   "en": "The most common mistake when the shine doesn't work is not following this naming rule"
+  },
+  {
+   "k": "1qcnvwo",
+   "en": "If one of these is undefined or is defined incorrectly, the missing focus icon will be used instead of the appropriate sprite, however the working sprite will continue to be used. If the texturefile links to a non-existing file, whether it's the folder path that's incorrect⟦0⟧ or the filename, including the extension, the focus icon will appear as fully transparent. By default, the base game stores images for focus icons in the ⟦1⟧ folder and sprites in the ⟦2⟧ and ⟦3⟧ files. Since there's no reason to copy the files to the mod and doing so will lead to needing to update the file after a major update to use new sprites, it's best to create a new file in the folder for sprite definitions. The following is an example of an interface file that defines both of the sprites:",
+   "frags": 4
+  },
+  {
+   "k": "wzpmnk",
+   "en": "[e]"
+  },
+  {
+   "k": "3un3pj",
+   "en": "/Hearts of Iron IV/gfx/interface/goals/"
+  },
+  {
+   "k": "1s3elgq",
+   "en": "interface/goals.gfx"
+  },
+  {
+   "k": "1u2djmy",
+   "en": "interface/goals_shine.gfx"
+  },
+  {
+   "k": "10gaqow",
+   "en": "Example interface file"
+  },
+  {
+   "k": "1t7qz98",
+   "en": "spriteTypes = { spriteType = { name = GFX_focus_icon texturefile = gfx/interface/goals/filename.dds } spriteType = { name = GFX_focus_icon_shine # Change the name, note to keep _shine in the end texturefile = gfx/interface/goals/filename.dds # Change to the focus icon effectFile = gfx/FX/buttonstate.lua animation = { animationmaskfile = gfx/interface/goals/filename.dds # Change to the focus icon animationtexturefile = gfx/interface/goals/shine_overlay.dds animationrotation = -90.0 animationlooping = no animationtime = 0.75 animationdelay = 0 animationblendmode = \"add\" animationtype = \"scrolling\" animationrotationoffset = { x = 0.0 y = 0.0 } animationtexturescale = { x = 1.0 y = 1.0 } } animation = { animationmaskfile = gfx/interface/goals/filename.dds # Change to the focus icon animationtexturefile = gfx/interface/goals/shine_overlay.dds animationrotation = 90.0 animationlooping = no animationtime = 0.75 animationdelay = 0 animationblendmode = \"add\" animationtype = \"scrolling\" animationrotationoffset = { x = 0.0 y = 0.0 } animationtexturescale = { x = 1.0 y = 1.0 } } legacy_lazy_load = no } }"
+  },
+  {
+   "k": "totk7m",
+   "en": "When copying from the template, note to change the ⟦0⟧ in each animation within the sprite with the shine alongside the ⟦1⟧ and ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "kex9dz",
+   "en": "animationmaskfile"
+  },
+  {
+   "k": "1163r7m",
+   "en": "texturefile"
+  },
+  {
+   "k": "136nuue",
+   "en": "name"
+  },
+  {
+   "k": "va24uo",
+   "en": "Dynamic appearance"
+  },
+  {
+   "k": "9iv8sw",
+   "en": "⟦0⟧ allows the title and icon of the focus to be dynamic. In particular, it allows using ⟦1⟧ in focus titles and a dynamic icon. If false or unset, it will still allow using them, but instead it will pick one at the game's start and never change it.",
+   "frags": 2
+  },
+  {
+   "k": "17sic5e",
+   "en": "dynamic = yes"
+  },
+  {
+   "k": "h0j5k9",
+   "en": "scripted localisation"
+  },
+  {
+   "k": "je489",
+   "en": "Dynamic icons are treated similarly to events' titles or descriptions: instead of a single ⟦0⟧ a focus can contain multiple assets in the one ⟦1⟧ parentheses at the same time, each with a unique trigger. The first possible icon will get used in the focus. An ⟦2⟧ consists of a GFX_asset_name ⟦3⟧ with a trigger inside, which must be fulfilled by the country for the icon to be selectable. To set a default icon you need to put ⟦4⟧ in ⟦5⟧ parentheses.",
+   "frags": 6
+  },
+  {
+   "k": "1vzozbu",
+   "en": "icon = GFX_focus_example"
+  },
+  {
+   "k": "m2yqp7",
+   "en": "icon = { ... }"
+  },
+  {
+   "k": "k21uce",
+   "en": "GFX_focus_example = yes"
+  },
+  {
+   "k": "ia1ly7",
+   "en": "An example dynamic focus definition, with all other optional arguments omitted:"
+  },
+  {
+   "k": "1yvn1io",
+   "en": "Triggers"
+  },
+  {
+   "k": "1d7xn64",
+   "en": "See also: ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "cwii7n",
+   "en": "In order to take the focus, aside from the focus prerequisites, the conditions within the ⟦0⟧ block must be met. This functions as an ⟦1⟧, so each of the triggers must be true to fulfilled. ⟦2⟧ can be used to check for conditions for other countries or within states. By default, the scope is of the country doing the focus. For example, this example requires the country to have more than 10% ⟦3⟧ and for the state 294 to be owned by the ⟦4⟧:",
+   "frags": 5
+  },
+  {
+   "k": "isjn87",
+   "en": "AND block"
+  },
+  {
+   "k": "gkat0o",
+   "en": "Scopes"
+  },
+  {
+   "k": "wnbc3s",
+   "en": "Stability"
+  },
+  {
+   "k": "1r03n4n",
+   "en": "Republic of Qatar"
+  },
+  {
+   "k": "qbi64v",
+   "en": "⟦0⟧ is similar, but for bypassing the focus. Bypassing a focus marks the focus as complete, but does not grant its effects within the completion reward, instead focus can have ⟦1⟧, focus can have ⟦2⟧ to prevent bypassing focus automaticly. The exact same applies as to ⟦3⟧: it's an AND block that assumes the country doing the focus by default. ⟦4⟧ can be used to make the focus automatically bypass as soon as the ⟦5⟧ block is not met without needing to port over the triggers.",
+   "frags": 6
+  },
+  {
+   "k": "10bv7um",
+   "en": "bypass = { ... }"
+  },
+  {
+   "k": "z8lkhw",
+   "en": "bypass_effect = { ... }"
+  },
+  {
+   "k": "zb67qn",
+   "en": "enable_automatic_bypass = no"
+  },
+  {
+   "k": "skramw",
+   "en": "available"
+  },
+  {
+   "k": "hzsdxg",
+   "en": "bypass_if_unavailable = yes"
+  },
+  {
+   "k": "fi2h5x",
+   "en": "⟦0⟧ is used to tell when the focus should be visible. ⟦1⟧. However, this check also can be refreshed mid-session with the ⟦2⟧⟦3⟧, making the focus visible or invisible depending on if it's true or not. By default, a focus will also be disallowed if either of the parent focuses (as set by prerequisites) is disallowed. However, a focus containing ⟦4⟧ within its definition will only check its own allowed status, still showing up if it has disallowed parents. This means that if a branch is set to be disallowed under certain conditions, the first focus in any sub-branch that has its own conditions for being allowed must also contain the parent branch's condition within of itself, while other focuses may not have any ⟦5⟧ defined at all due to it being inherited from parents.",
+   "frags": 6
+  },
+  {
+   "k": "trch8o",
+   "en": "allow_branch = { ... }"
+  },
+  {
+   "k": "1mhhigs",
+   "en": "This is only checked when the focus tree is first loaded"
+  },
+  {
+   "k": "19aebuv",
+   "en": "allow_branch"
+  },
+  {
+   "k": "8sntk9",
+   "en": "⟦0⟧ sets the focus to be possible to complete while being capitulated. By default, this is set to false.",
+   "frags": 1
+  },
+  {
+   "k": "t63m7d",
+   "en": "available_if_capitulated = yes"
+  },
+  {
+   "k": "1b7pija",
+   "en": "⟦0⟧ and ⟦1⟧ decide how to treat the focus if the ⟦2⟧ block becomes false while doing it. By default, these are true and false respectively. If both are set to false, the focus would pause when the ⟦3⟧ block is false. This will not remove the gain_focus ⟦4⟧, which by default results in costing 1 ⟦5⟧ per day when doing the focus.",
+   "frags": 6
+  },
+  {
+   "k": "13u6lhr",
+   "en": "cancel_if_invalid = no"
+  },
+  {
+   "k": "31ipka",
+   "en": "continue_if_invalid = yes"
+  },
+  {
+   "k": "3ln690",
+   "en": "static modifier"
+  },
+  {
+   "k": "hb2mn1",
+   "en": "Political Power"
+  },
+  {
+   "k": "1gftrzy",
+   "en": "⟦0⟧ decides additional conditions which would cancel the focus if met. This is usually paired with ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1e31kus",
+   "en": "cancel = { ... }"
+  },
+  {
+   "k": "u67d6o",
+   "en": "⟦0⟧ decides when the AI is able to pick this focus with the historical focus turned on. This does not ensure it picks this focus, rather prevents it from picking it when false. This takes priority over the order of focuses granted within ⟦1⟧: if the AI were to do this focus next by the plan, yet ⟦2⟧ is false and historical focus is turned on, then it won't be able to.",
+   "frags": 3
+  },
+  {
+   "k": "1y474gb",
+   "en": "historical_ai = { ... }"
+  },
+  {
+   "k": "13rotng",
+   "en": "AI strategy plans"
+  },
+  {
+   "k": "oqv3et",
+   "en": "Effects"
+  },
+  {
+   "k": "bjpee5",
+   "en": "The primary reward of the focus is done with ⟦0⟧. This executes each ⟦1⟧ within the specified ⟦2⟧ in order that they are put in the file. The assumed scope is the country doing the focus. For example, this would add 100 ⟦3⟧ to the country doing the focus and fire the ⟦4⟧ country event to ⟦5⟧:",
+   "frags": 6
+  },
+  {
+   "k": "grkd5s",
+   "en": "completion_reward = { ... }"
+  },
+  {
+   "k": "un2mhg",
+   "en": "effect"
+  },
+  {
+   "k": "1w5dpoo",
+   "en": "scopes"
+  },
+  {
+   "k": "oqj4qa",
+   "en": "my_event.0"
+  },
+  {
+   "k": "vstvuq",
+   "en": "Oman"
+  },
+  {
+   "k": "2s1sky",
+   "en": "The tooltip of the focus can be changed with ⟦0⟧, ⟦1⟧. This would be equivalent to putting the contents of the reward inside of ⟦2⟧ and using ⟦3⟧ in the same reward. This can be useful if the tooltip of the reward appears cluttered. For instance, using ⟦4⟧ thrice with the same effect in each one can result in a cluttered tooltip, as each state and its effects would appear individually. But if, instead, the code ⟦5⟧ for each state in the reward and, in the tooltip, uses ⟦6⟧ limited to the ones that have the state flag, it'll show the same effect being executed for 3 states at the same time, cutting it into a third of what it was.",
+   "frags": 7
+  },
+  {
+   "k": "8xds75",
+   "en": "complete_tooltip = { ... }"
+  },
+  {
+   "k": "n8dtm8",
+   "en": "which is also an effect block"
+  },
+  {
+   "k": "7rio4f",
+   "en": "hidden_effect"
+  },
+  {
+   "k": "10vutr0",
+   "en": "effect_tooltip"
+  },
+  {
+   "k": "1c83kud",
+   "en": "random_owned_controlled_state"
+  },
+  {
+   "k": "jp5hpc",
+   "en": "sets a state flag"
+  },
+  {
+   "k": "1rx981e",
+   "en": "every_state"
+  }
+ ]
+}

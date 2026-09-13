@@ -1,0 +1,656 @@
+{
+ "page": "Modifiers",
+ "from": 650,
+ "items": [
+  {
+   "k": "19pqgrd",
+   "en": "winter_attrition_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "t0zp9l",
+   "en": "extra_marine_supply_grace",
+   "zh": ""
+  },
+  {
+   "k": "1l51xqd",
+   "en": "Changes the supply grace given to marines.",
+   "zh": ""
+  },
+  {
+   "k": "1eppych",
+   "en": "extra_marine_supply_grace = 96",
+   "zh": ""
+  },
+  {
+   "k": "1xjvuqw",
+   "en": "extra_paratrooper_supply_grace",
+   "zh": ""
+  },
+  {
+   "k": "pvjd0q",
+   "en": "Changes the supply grace given to paratroopers.",
+   "zh": ""
+  },
+  {
+   "k": "1m4stpa",
+   "en": "extra_paratrooper_supply_grace = 96",
+   "zh": ""
+  },
+  {
+   "k": "1s6eyme",
+   "en": "special_forces_no_supply_grace",
+   "zh": ""
+  },
+  {
+   "k": "qjnxzz",
+   "en": "Changes the supply grace period for special forces.",
+   "zh": ""
+  },
+  {
+   "k": "di539c",
+   "en": "special_forces_no_supply_grace = 120",
+   "zh": ""
+  },
+  {
+   "k": "6qsjc2",
+   "en": "special_forces_out_of_supply_factor",
+   "zh": ""
+  },
+  {
+   "k": "qtllbq",
+   "en": "Changes the penalty for special forces out of supply.",
+   "zh": ""
+  },
+  {
+   "k": "1gctoxe",
+   "en": "special_forces_out_of_supply_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "19933ej",
+   "en": "truck_attrition",
+   "zh": ""
+  },
+  {
+   "k": "o5ar65",
+   "en": "Changes the attrition supply trucks suffer from.",
+   "zh": ""
+  },
+  {
+   "k": "4lrjrx",
+   "en": "truck_attrition = 3",
+   "zh": ""
+  },
+  {
+   "k": "kovq4n",
+   "en": "truck_attrition_factor",
+   "zh": ""
+  },
+  {
+   "k": "1h78are",
+   "en": "Modifies the attrition supply trucks suffer from.",
+   "zh": ""
+  },
+  {
+   "k": "ul086b",
+   "en": "truck_attrition_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1lqu7x2",
+   "en": "production_speed_buildings_factor",
+   "zh": ""
+  },
+  {
+   "k": "59hk7e",
+   "en": "Changes the construction speed of all buildings.",
+   "zh": ""
+  },
+  {
+   "k": "1mqkjkc",
+   "en": "production_speed_buildings_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1v3c79t",
+   "en": "production_speed_<building>_factor",
+   "zh": ""
+  },
+  {
+   "k": "1tml539",
+   "en": "Changes the construction speed of a specific building.",
+   "zh": ""
+  },
+  {
+   "k": "3gqwap",
+   "en": "production_speed_industrial_complex_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "gorzel",
+   "en": "production_cost_<building>_factor",
+   "zh": ""
+  },
+  {
+   "k": "mlkvz3",
+   "en": "Changes the base cost of a specific building.",
+   "zh": ""
+  },
+  {
+   "k": "iwj2a8",
+   "en": "production_cost_industrial_complex_factor = -0.1",
+   "zh": ""
+  },
+  {
+   "k": "6gdbvw",
+   "en": "Localization is missing and must be added yourself.",
+   "zh": ""
+  },
+  {
+   "k": "1kmy72x",
+   "en": "Unknown",
+   "zh": ""
+  },
+  {
+   "k": "1vrnhtd",
+   "en": "civilian_factory_use",
+   "zh": ""
+  },
+  {
+   "k": "17psiq1",
+   "en": "Uses the specified amount of civilian factory as a special project.",
+   "zh": ""
+  },
+  {
+   "k": "1iohbuv",
+   "en": "civilian_factory_use = 3",
+   "zh": ""
+  },
+  {
+   "k": "kv9fh2",
+   "en": "consumer_goods_factor",
+   "zh": ""
+  },
+  {
+   "k": "ynfvz",
+   "en": "Modifies the percentage of factories used for consumer goods.",
+   "zh": ""
+  },
+  {
+   "k": "1kuxjnk",
+   "en": "consumer_goods_factor = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "16a8r53",
+   "en": "Multiplicative.",
+   "zh": ""
+  },
+  {
+   "k": "1i1h2i2",
+   "en": "The modifier adds multiplicatively. For example, ⟦0⟧ and ⟦1⟧ will, in total, multiply the consumer goods value by ⟦2⟧ .",
+   "zh": ""
+  },
+  {
+   "k": "1lyvyfg",
+   "en": "consumer_goods_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "wswk4r",
+   "en": "consumer_goods_factor = -0.5",
+   "zh": ""
+  },
+  {
+   "k": "f0mb9q",
+   "en": "Failed to parse (SVG (MathML can be enabled via browser plugin): Invalid response (\"Math extension cannot connect to Restbase.\") from server \"https://en.wikipedia.org/api/rest_v1/\":): {\\displaystyle (1 - 0.5)(1 + 0.5) = 0.5 \\cdot 1.5 = 0.75}",
+   "zh": ""
+  },
+  {
+   "k": "8c0557",
+   "en": "consumer_goods_expected_value",
+   "zh": ""
+  },
+  {
+   "k": "1pzxxax",
+   "en": "Sets the baseline percentage of expected consumer goods.",
+   "zh": ""
+  },
+  {
+   "k": "vpssb1",
+   "en": "consumer_goods_expected_value = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "16ebksy",
+   "en": "Used to be only updated when the economic law was changed. Now gets updated normaly.",
+   "zh": ""
+  },
+  {
+   "k": "1m2daev",
+   "en": "conversion_cost_civ_to_mil_factor",
+   "zh": ""
+  },
+  {
+   "k": "wihqwp",
+   "en": "Changes the cost to convert civilian factories to military factories.",
+   "zh": ""
+  },
+  {
+   "k": "9isxzm",
+   "en": "conversion_cost_civ_to_mil_factor = 0.4",
+   "zh": ""
+  },
+  {
+   "k": "1p8iedz",
+   "en": "conversion_cost_mil_to_civ_factor",
+   "zh": ""
+  },
+  {
+   "k": "nhwepx",
+   "en": "Changes the cost to convert military factories to civilian factories.",
+   "zh": ""
+  },
+  {
+   "k": "inejn6",
+   "en": "conversion_cost_mil_to_civ_factor = 0.4",
+   "zh": ""
+  },
+  {
+   "k": "13cgulx",
+   "en": "global_building_slots",
+   "zh": ""
+  },
+  {
+   "k": "zy9h7v",
+   "en": "Changes amount of building slots in our every state.",
+   "zh": ""
+  },
+  {
+   "k": "1il56ll",
+   "en": "global_building_slots = 1",
+   "zh": ""
+  },
+  {
+   "k": "18a6ku1",
+   "en": "global_building_slots_factor",
+   "zh": ""
+  },
+  {
+   "k": "7m17hd",
+   "en": "Changes amount of building slots in our every state by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "hy3wbp",
+   "en": "global_building_slots_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "uevt1n",
+   "en": "industrial_capacity_dockyard",
+   "zh": ""
+  },
+  {
+   "k": "1nma1dr",
+   "en": "Dockyard output.",
+   "zh": ""
+  },
+  {
+   "k": "ykrbhj",
+   "en": "industrial_capacity_dockyard = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "18ypsfm",
+   "en": "industrial_capacity_factory",
+   "zh": ""
+  },
+  {
+   "k": "1ik3qh9",
+   "en": "Military factory output.",
+   "zh": ""
+  },
+  {
+   "k": "1kbcnj6",
+   "en": "industrial_capacity_factory = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1ovh7wi",
+   "en": "industry_air_damage_factor",
+   "zh": ""
+  },
+  {
+   "k": "1pfuujv",
+   "en": "Amount of damage our factories receive from air bombings.",
+   "zh": ""
+  },
+  {
+   "k": "1vtgxn6",
+   "en": "industry_air_damage_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1szxd8o",
+   "en": "industry_free_repair_factor",
+   "zh": ""
+  },
+  {
+   "k": "wtxs78",
+   "en": "Changes the speed at which buildings repair themselves without factories assigned.",
+   "zh": ""
+  },
+  {
+   "k": "r1vfd4",
+   "en": "industry_free_repair_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "rnvpy1",
+   "en": "industry_repair_factor",
+   "zh": ""
+  },
+  {
+   "k": "2wp0lf",
+   "en": "Changes the speed at which buildings are repaired.",
+   "zh": ""
+  },
+  {
+   "k": "1hvaps5",
+   "en": "industry_repair_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1jyt0xl",
+   "en": "production_oil_factor",
+   "zh": ""
+  },
+  {
+   "k": "1k327z",
+   "en": "Synthetic oil gain.",
+   "zh": ""
+  },
+  {
+   "k": "17jotf7",
+   "en": "production_oil_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1fbwb8j",
+   "en": "repair_speed_<building>_factor",
+   "zh": ""
+  },
+  {
+   "k": "o2jewt",
+   "en": "Changes the repair speed of a specific building.",
+   "zh": ""
+  },
+  {
+   "k": "z81hex",
+   "en": "repair_speed_arms_factory_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "11swtwp",
+   "en": "supply_node_range",
+   "zh": ""
+  },
+  {
+   "k": "1e7v7da",
+   "en": "Increases the effective range of supply nodes.",
+   "zh": ""
+  },
+  {
+   "k": "1y1maa7",
+   "en": "supply_node_range = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "1uw952x",
+   "en": "static_anti_air_damage_factor",
+   "zh": ""
+  },
+  {
+   "k": "5411gx",
+   "en": "Modifies the damage done to planes by the anti-air buildings.",
+   "zh": ""
+  },
+  {
+   "k": "1p33xa7",
+   "en": "static_anti_air_damage_factor = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "quihyo",
+   "en": "static_anti_air_hit_chance_factor",
+   "zh": ""
+  },
+  {
+   "k": "gf552z",
+   "en": "Modifies the chance for the anti-air buildings to hit enemy planes.",
+   "zh": ""
+  },
+  {
+   "k": "1ex73py",
+   "en": "static_anti_air_hit_chance_factor = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "1ggi8fs",
+   "en": "tech_air_damage_factor",
+   "zh": ""
+  },
+  {
+   "k": "xbw5pd",
+   "en": "Modifies the damage done to the country's planes by enemy anti-air buildings.",
+   "zh": ""
+  },
+  {
+   "k": "1fzs1ry",
+   "en": "tech_air_damage_factor = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "a8dpfu",
+   "en": "cic_construction_boost",
+   "zh": ""
+  },
+  {
+   "k": "13ylml8",
+   "en": "Modifies the base construction speed from civilian factories.",
+   "zh": ""
+  },
+  {
+   "k": "11079hw",
+   "en": "cic_construction_boost = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "a92yow",
+   "en": "cic_construction_boost_factor",
+   "zh": ""
+  },
+  {
+   "k": "5rlayn",
+   "en": "Modifies the modifier to the base construction speed from civilian factories.",
+   "zh": ""
+  },
+  {
+   "k": "1sy9352",
+   "en": "cic_construction_boost_factor = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "192hpb5",
+   "en": "land_bunker_effectiveness_factor",
+   "zh": ""
+  },
+  {
+   "k": "10376vx",
+   "en": "Modifies the effectiveness of land forts in defence.",
+   "zh": ""
+  },
+  {
+   "k": "1fzyxt3",
+   "en": "land_bunker_effectiveness_factor = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "14xnojp",
+   "en": "coastal_bunker_effectiveness_factor",
+   "zh": ""
+  },
+  {
+   "k": "18wihzd",
+   "en": "Modifies the effectiveness of coastal forts in defence.",
+   "zh": ""
+  },
+  {
+   "k": "18wqpqj",
+   "en": "coastal_bunker_effectiveness_factor = 0.1",
+   "zh": ""
+  },
+  {
+   "k": "8wtgfl",
+   "en": "compliance_growth_on_our_occupied_states",
+   "zh": ""
+  },
+  {
+   "k": "181m8uc",
+   "en": "Changes the compliance growth speed on the country's controlled states.",
+   "zh": ""
+  },
+  {
+   "k": "1npqmtn",
+   "en": "compliance_growth_on_our_occupied_states = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "efbuai",
+   "en": "no_compliance_gain",
+   "zh": ""
+  },
+  {
+   "k": "5m5502",
+   "en": "Disables the compliance gain on our controlled states.",
+   "zh": ""
+  },
+  {
+   "k": "1f1gcem",
+   "en": "no_compliance_gain = 1",
+   "zh": ""
+  },
+  {
+   "k": "177mhja",
+   "en": "required_garrison_factor",
+   "zh": ""
+  },
+  {
+   "k": "va5upw",
+   "en": "Changes the required garrison in our occupied states.",
+   "zh": ""
+  },
+  {
+   "k": "51lc7w",
+   "en": "required_garrison_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "n1mzno",
+   "en": "resistance_activity",
+   "zh": ""
+  },
+  {
+   "k": "18mtham",
+   "en": "Changes the chance for resistance activity to occur on our occupied states.",
+   "zh": ""
+  },
+  {
+   "k": "1fpwake",
+   "en": "resistance_activity = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "5hs71x",
+   "en": "resistance_damage_to_garrison_on_our_occupied_states",
+   "zh": ""
+  },
+  {
+   "k": "8e46pj",
+   "en": "Changes the resistance damage to the garrison in our occupied states.",
+   "zh": ""
+  },
+  {
+   "k": "179valj",
+   "en": "resistance_damage_to_garrison_on_our_occupied_states = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "104my86",
+   "en": "resistance_decay_on_our_occupied_states",
+   "zh": ""
+  },
+  {
+   "k": "3nej5z",
+   "en": "Changes the resistance decay in our occupied states.",
+   "zh": ""
+  },
+  {
+   "k": "wso5uk",
+   "en": "resistance_decay_on_our_occupied_states = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "4dclxj",
+   "en": "resistance_growth_on_our_occupied_states",
+   "zh": ""
+  },
+  {
+   "k": "g50kt5",
+   "en": "Changes the resistance growth speed in our occupied states.",
+   "zh": ""
+  },
+  {
+   "k": "1ifl4gl",
+   "en": "resistance_growth_on_our_occupied_states = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1wu9hm9",
+   "en": "resistance_target_on_our_occupied_states",
+   "zh": ""
+  },
+  {
+   "k": "vqh494",
+   "en": "Changes the resistance target in our occupied states.",
+   "zh": ""
+  },
+  {
+   "k": "fsi6j",
+   "en": "resistance_target_on_our_occupied_states = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1vasi1c",
+   "en": "resistance_target",
+   "zh": ""
+  },
+  {
+   "k": "1tlu6yn",
+   "en": "Changes the resistance target in foreign states occupied by us",
+   "zh": ""
+  },
+  {
+   "k": "1bi1jcy",
+   "en": "resistance_target = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "pnk9s8",
+   "en": "Percentual",
+   "zh": ""
+  }
+ ]
+}

@@ -1,0 +1,656 @@
+{
+ "page": "Modifiers",
+ "from": 1430,
+ "items": [
+  {
+   "k": "259j6s",
+   "en": "convoy_escort_efficiency",
+   "zh": ""
+  },
+  {
+   "k": "1srf7h9",
+   "en": "Modifies the efficiency of the convoy escort mission.",
+   "zh": ""
+  },
+  {
+   "k": "1pvq3tq",
+   "en": "convoy_escort_efficiency = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1m99d6y",
+   "en": "convoy_raiding_efficiency_factor",
+   "zh": ""
+  },
+  {
+   "k": "1hpt6bz",
+   "en": "Modifies the efficiency of the convoy raiding mission.",
+   "zh": ""
+  },
+  {
+   "k": "1wnyu14",
+   "en": "convoy_raiding_efficiency_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "13pllgj",
+   "en": "convoy_retreat_speed",
+   "zh": ""
+  },
+  {
+   "k": "wat5ri",
+   "en": "Modifies the speed of convoys retreating.",
+   "zh": ""
+  },
+  {
+   "k": "l6w94p",
+   "en": "convoy_retreat_speed = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1e4m8yv",
+   "en": "critical_receive_chance",
+   "zh": ""
+  },
+  {
+   "k": "11ebxfr",
+   "en": "Changes the chance for the enemy to get a critical hit on us in naval combat.",
+   "zh": ""
+  },
+  {
+   "k": "1dxv839",
+   "en": "critical_receive_chance = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1ug0tth",
+   "en": "experience_gain_navy_unit",
+   "zh": ""
+  },
+  {
+   "k": "1mw1tq",
+   "en": "Modifies the daily gain of experience by the ships.",
+   "zh": ""
+  },
+  {
+   "k": "1a902a6",
+   "en": "experience_gain_navy_unit = 0.02",
+   "zh": ""
+  },
+  {
+   "k": "au2ltl",
+   "en": "experience_gain_navy_unit_factor",
+   "zh": ""
+  },
+  {
+   "k": "1psl71n",
+   "en": "Modifies the gain of experience by the ships by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "guxx7p",
+   "en": "experience_gain_navy_unit_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1w15gwr",
+   "en": "mines_planting_by_fleets_factor",
+   "zh": ""
+  },
+  {
+   "k": "57xtrt",
+   "en": "Modifies the efficiency of the mine planting mission.",
+   "zh": ""
+  },
+  {
+   "k": "zbzck7",
+   "en": "mines_planting_by_fleets_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "5u64a6",
+   "en": "mines_sweeping_by_fleets_factor",
+   "zh": ""
+  },
+  {
+   "k": "13vaz60",
+   "en": "Modifies the efficiency of the mine sweeping mission.",
+   "zh": ""
+  },
+  {
+   "k": "pgd89q",
+   "en": "mines_sweeping_by_fleets_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "b6rw4r",
+   "en": "naval_accidents_chance",
+   "zh": ""
+  },
+  {
+   "k": "1rj7k8e",
+   "en": "Modifies the chance for a ship to be accidentally sunk or damaged.",
+   "zh": ""
+  },
+  {
+   "k": "1fic4g7",
+   "en": "naval_accidents_chance = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "v2kje2",
+   "en": "navy_anti_air_attack",
+   "zh": ""
+  },
+  {
+   "k": "1hsyc7b",
+   "en": "Modifies the attack against enemy airplanes for the country's ships.",
+   "zh": ""
+  },
+  {
+   "k": "1mye04q",
+   "en": "navy_anti_air_attack = 5",
+   "zh": ""
+  },
+  {
+   "k": "1ezyg00",
+   "en": "navy_anti_air_attack_factor",
+   "zh": ""
+  },
+  {
+   "k": "644fvh",
+   "en": "Modifies the attack against enemy airplanes for the country's ships by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1kuzie8",
+   "en": "navy_anti_air_attack_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1sbmx0z",
+   "en": "naval_coordination",
+   "zh": ""
+  },
+  {
+   "k": "1oldy6d",
+   "en": "Modifies how quickly the fleet can gather or disperse when a target is found or when switching missions.",
+   "zh": ""
+  },
+  {
+   "k": "15rcbyn",
+   "en": "naval_coordination = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "8jvzkr",
+   "en": "naval_critical_effect_factor",
+   "zh": ""
+  },
+  {
+   "k": "1xobme0",
+   "en": "Modifies the effects of sustained critical hits on our ships.",
+   "zh": ""
+  },
+  {
+   "k": "1lnwkt3",
+   "en": "naval_critical_effect_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "ura38l",
+   "en": "naval_critical_score_chance_factor",
+   "zh": ""
+  },
+  {
+   "k": "cfzsrw",
+   "en": "Modifies the chance for us to get a critical hit on the enemy in naval combat.",
+   "zh": ""
+  },
+  {
+   "k": "142a40h",
+   "en": "naval_critical_score_chance_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "16m4w9p",
+   "en": "naval_damage_factor",
+   "zh": ""
+  },
+  {
+   "k": "m51lrx",
+   "en": "Modifies the damage dealt by our ships.",
+   "zh": ""
+  },
+  {
+   "k": "nvj1hl",
+   "en": "naval_damage_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1mijqc2",
+   "en": "naval_defense_factor",
+   "zh": ""
+  },
+  {
+   "k": "1ck3exu",
+   "en": "Modifies the damage received by our ships.",
+   "zh": ""
+  },
+  {
+   "k": "1hu7vya",
+   "en": "naval_defense_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1y97ysr",
+   "en": "naval_detection",
+   "zh": ""
+  },
+  {
+   "k": "1asnqm3",
+   "en": "Modifies the chance for our ships to detect submarines.",
+   "zh": ""
+  },
+  {
+   "k": "1aqr4sn",
+   "en": "naval_detection = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1y4m47r",
+   "en": "naval_enemy_fleet_size_ratio_penalty_factor",
+   "zh": ""
+  },
+  {
+   "k": "sh8v1h",
+   "en": "Modifies the penalty the enemy receives for having a larger amount of ships than us.",
+   "zh": ""
+  },
+  {
+   "k": "6kx6kz",
+   "en": "naval_enemy_fleet_size_ratio_penalty_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1k16zc4",
+   "en": "naval_enemy_positioning_in_initial_attack",
+   "zh": ""
+  },
+  {
+   "k": "si4axj",
+   "en": "Modifies the positioning of the enemy during the initial naval attack.",
+   "zh": ""
+  },
+  {
+   "k": "nhou9q",
+   "en": "naval_enemy_positioning_in_initial_attack = 3",
+   "zh": ""
+  },
+  {
+   "k": "cbofit",
+   "en": "naval_enemy_retreat_chance",
+   "zh": ""
+  },
+  {
+   "k": "104c6cw",
+   "en": "Modifies the chance for the enemy to retreat.",
+   "zh": ""
+  },
+  {
+   "k": "545kwx",
+   "en": "naval_enemy_retreat_chance = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "16f3y8u",
+   "en": "naval_has_potf_in_combat_attack",
+   "zh": ""
+  },
+  {
+   "k": "v1as2r",
+   "en": "Modifies the attack of the navy when fighting together with the pride of the fleet.",
+   "zh": ""
+  },
+  {
+   "k": "c1g3qm",
+   "en": "naval_has_potf_in_combat_attack = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "16813eu",
+   "en": "naval_has_potf_in_combat_defense",
+   "zh": ""
+  },
+  {
+   "k": "skayzn",
+   "en": "Modifies the defense of the navy when fighting together with the pride of the fleet.",
+   "zh": ""
+  },
+  {
+   "k": "1tmv7sm",
+   "en": "naval_has_potf_in_combat_defense = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "2maiom",
+   "en": "naval_hit_chance",
+   "zh": ""
+  },
+  {
+   "k": "1k98i3n",
+   "en": "Modifies the chance for the naval attacks to land.",
+   "zh": ""
+  },
+  {
+   "k": "1yxmeli",
+   "en": "naval_hit_chance = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "12nwuc2",
+   "en": "naval_mine_hit_chance",
+   "zh": ""
+  },
+  {
+   "k": "12pp461",
+   "en": "Modifies the chance for a naval mine to hit.",
+   "zh": ""
+  },
+  {
+   "k": "ok86bm",
+   "en": "naval_mine_hit_chance = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1wdyqce",
+   "en": "naval_mines_damage_factor",
+   "zh": ""
+  },
+  {
+   "k": "1ii84pd",
+   "en": "Modifies the damage naval mines deal to enemy ships.",
+   "zh": ""
+  },
+  {
+   "k": "1bsp48e",
+   "en": "naval_mines_damage_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1d8h1nq",
+   "en": "naval_mines_effect_reduction",
+   "zh": ""
+  },
+  {
+   "k": "1k2je69",
+   "en": "Modifies the damage enemy naval mines deal.",
+   "zh": ""
+  },
+  {
+   "k": "6kv9p2",
+   "en": "naval_mines_effect_reduction = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1xf1ieq",
+   "en": "naval_morale",
+   "zh": ""
+  },
+  {
+   "k": "14wwo2f",
+   "en": "Modifies the navy recovery rate.",
+   "zh": ""
+  },
+  {
+   "k": "1aikpyx",
+   "en": "naval_morale = 15",
+   "zh": ""
+  },
+  {
+   "k": "i66u54",
+   "en": "naval_morale_factor",
+   "zh": ""
+  },
+  {
+   "k": "pgs565",
+   "en": "Modifies the navy recovery rate by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1mp3zg8",
+   "en": "naval_morale_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "3gus8z",
+   "en": "naval_night_attack",
+   "zh": ""
+  },
+  {
+   "k": "1c0d0xz",
+   "en": "Modifies the damage dealt by the country's ships at night.",
+   "zh": ""
+  },
+  {
+   "k": "zheqgv",
+   "en": "naval_night_attack = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "pjlvrc",
+   "en": "naval_retreat_chance",
+   "zh": ""
+  },
+  {
+   "k": "1un4emj",
+   "en": "Modifies the chance for the country's ships to retreat.",
+   "zh": ""
+  },
+  {
+   "k": "14tnvpk",
+   "en": "naval_retreat_chance = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "kbinoj",
+   "en": "naval_retreat_chance_after_initial_combat",
+   "zh": ""
+  },
+  {
+   "k": "bav5fj",
+   "en": "Modifies the chance for the country's ships to retreat after initial combat.",
+   "zh": ""
+  },
+  {
+   "k": "uu28kf",
+   "en": "naval_retreat_chance_after_initial_combat = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "597j1j",
+   "en": "naval_retreat_speed",
+   "zh": ""
+  },
+  {
+   "k": "qsli4",
+   "en": "Modifies the speed at which the country's ships retreat.",
+   "zh": ""
+  },
+  {
+   "k": "1pa2yrn",
+   "en": "naval_retreat_speed = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1u9jv9e",
+   "en": "naval_retreat_speed_after_initial_combat",
+   "zh": ""
+  },
+  {
+   "k": "1wsslpp",
+   "en": "Modifies the speed at which the country's ships to retreat after initial combat.",
+   "zh": ""
+  },
+  {
+   "k": "1nba6fm",
+   "en": "naval_retreat_speed_after_initial_combat = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1pz79ef",
+   "en": "naval_speed_factor",
+   "zh": ""
+  },
+  {
+   "k": "1hj6zp6",
+   "en": "Modifies the speed of the country's ships.",
+   "zh": ""
+  },
+  {
+   "k": "bel89f",
+   "en": "naval_speed_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "16nqz3k",
+   "en": "navy_org",
+   "zh": ""
+  },
+  {
+   "k": "10ojfvm",
+   "en": "Modifies the navy's organisation.",
+   "zh": ""
+  },
+  {
+   "k": "19q1k38",
+   "en": "navy_org = 10",
+   "zh": ""
+  },
+  {
+   "k": "1cykn7y",
+   "en": "navy_org_factor",
+   "zh": ""
+  },
+  {
+   "k": "1qb7eeo",
+   "en": "Modifies the navy's organisation by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "po3r7i",
+   "en": "navy_org_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1kpnveu",
+   "en": "navy_max_range",
+   "zh": ""
+  },
+  {
+   "k": "16aioul",
+   "en": "Modifies the navy's maximum range.",
+   "zh": ""
+  },
+  {
+   "k": "ya8brq",
+   "en": "navy_max_range = 10",
+   "zh": ""
+  },
+  {
+   "k": "1fnpkno",
+   "en": "navy_max_range_factor",
+   "zh": ""
+  },
+  {
+   "k": "gc3dsf",
+   "en": "Modifies the navy's maximum range by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "t01fkk",
+   "en": "navy_max_range_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1u18u45",
+   "en": "naval_torpedo_cooldown_factor",
+   "zh": ""
+  },
+  {
+   "k": "wzkxg6",
+   "en": "Modifies the rate at which the country's ships can fire torpedos.",
+   "zh": ""
+  },
+  {
+   "k": "c007pd",
+   "en": "naval_torpedo_cooldown_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "yr9sos",
+   "en": "naval_torpedo_hit_chance_factor",
+   "zh": ""
+  },
+  {
+   "k": "1ridwhc",
+   "en": "Modifies the likelihood for country's torpedos to hit enemy ships.",
+   "zh": ""
+  },
+  {
+   "k": "1dtf924",
+   "en": "naval_torpedo_hit_chance_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1o6242k",
+   "en": "naval_torpedo_reveal_chance_factor",
+   "zh": ""
+  },
+  {
+   "k": "udnv45",
+   "en": "Modifies the chance that the country's submarines reveal themselves when firing torpedos.",
+   "zh": ""
+  },
+  {
+   "k": "15muekc",
+   "en": "naval_torpedo_reveal_chance_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "n5mtf8",
+   "en": "naval_torpedo_screen_penetration_factor",
+   "zh": ""
+  },
+  {
+   "k": "1mvvly6",
+   "en": "Modifies the rate at which the country's torpedos penalise enemy screening.",
+   "zh": ""
+  },
+  {
+   "k": "nu2sdw",
+   "en": "naval_torpedo_screen_penetration_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1l72kxf",
+   "en": "naval_torpedo_damage_reduction_factor",
+   "zh": ""
+  },
+  {
+   "k": "uaghz8",
+   "en": "Modifies the damage at which enemy torpedos damage the country's ships.",
+   "zh": ""
+  },
+  {
+   "k": "1e46rtb",
+   "en": "naval_torpedo_damage_reduction_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "ltx2qp",
+   "en": "naval_torpedo_enemy_critical_chance_factor",
+   "zh": ""
+  }
+ ]
+}

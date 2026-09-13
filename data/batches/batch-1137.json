@@ -1,0 +1,823 @@
+{
+ "batch": 1137,
+ "pages": [
+  "Patch 1.19"
+ ],
+ "chars": 14982,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "19719yl",
+   "en": "Patch 1.19 was released alongside ⟦0⟧ on 2026-06-10⟦1⟧ with checksum ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "1d5hbt6",
+   "en": "Thunder at our Gates‎"
+  },
+  {
+   "k": "qzo1qq",
+   "en": "eb7e"
+  },
+  {
+   "k": "b2dt9j",
+   "en": "Thunder at our Gates features"
+  },
+  {
+   "k": "i6fszb",
+   "en": "Added new Focus tree for Australia and a new Democratic Election system."
+  },
+  {
+   "k": "zv564i",
+   "en": "Added new Focus tree for Siam."
+  },
+  {
+   "k": "klcpx7",
+   "en": "Added new Focus tree for The Dutch East-Indies."
+  },
+  {
+   "k": "14gv94u",
+   "en": "Updated states in South-East Asia."
+  },
+  {
+   "k": "1wxs4k3",
+   "en": "Added new VO for Australia, Siam, and The Dutch East-Indies."
+  },
+  {
+   "k": "1wn9vnw",
+   "en": "Added 6 new Music Tracks."
+  },
+  {
+   "k": "farcs7",
+   "en": "Added 50 new and revamped airplane models"
+  },
+  {
+   "k": "1tv3wap",
+   "en": "Added 4 new and revamped ground vehicle models."
+  },
+  {
+   "k": "1yip5e9",
+   "en": "Added 21 new and revamped tank models."
+  },
+  {
+   "k": "1qgr3jb",
+   "en": "Added 3 new infantry models."
+  },
+  {
+   "k": "1r7enwt",
+   "en": "Added 14 Army HQ commander models including 3 generic cultural variants."
+  },
+  {
+   "k": "1kwti01",
+   "en": "Introducing Army HQs which allows for the deployment of generals into the field to provide additional support to their army."
+  },
+  {
+   "k": "n1zatv",
+   "en": "Deployed Army HQs can be assigned to specific orders and buff troops accordingly."
+  },
+  {
+   "k": "5awkxo",
+   "en": "Added 11 unique HQ support companies that allows for tailoring Army HQs to different needs."
+  },
+  {
+   "k": "muwffy",
+   "en": "Added 5 new commander abilities that are unlocked through HQ support companies."
+  },
+  {
+   "k": "inm4uy",
+   "en": "Added Dispersed Operations doctrine for Thunder at our Gates, focusing on hardening logistics & reduce the effect of enemy air power."
+  },
+  {
+   "k": "gdgyzf",
+   "en": "Added Ship Captains to Naval vessels and the ability to grant them medals and promote them to become Admirals."
+  },
+  {
+   "k": "1pu9jgh",
+   "en": "Added 8 Historical Ship Captains in both bookmarks for all Major countries (and Australia!)."
+  },
+  {
+   "k": "112534e",
+   "en": "Free Features & Models"
+  },
+  {
+   "k": "gfl41i",
+   "en": "Added a new row for Regimental Support to the Division Designer."
+  },
+  {
+   "k": "1sayvmw",
+   "en": "Added 12 Regimental support companies that are unlocked through techs and synergise with the doctrine system"
+  },
+  {
+   "k": "rabak5",
+   "en": "Added the new Doctrine system for Special Forces."
+  },
+  {
+   "k": "p0d4i8",
+   "en": "Added 3 revamped Infantry models, and 2 Artillery models for the Commonwealth"
+  },
+  {
+   "k": "1x2554r",
+   "en": "Added 2 revamped tank models."
+  },
+  {
+   "k": "18mkik2",
+   "en": "Added 4 revamped ground vehicle models."
+  },
+  {
+   "k": "11vkput",
+   "en": "New Zealand received several new Focuses, Advisors and Industrial Concerns."
+  },
+  {
+   "k": "kxxksr",
+   "en": "Balance"
+  },
+  {
+   "k": "b8p2hr",
+   "en": "The Pearl Harbor raid now has a lower base success chance, but it is improved by taking the focus 'Form the Kido Butai'."
+  },
+  {
+   "k": "8lhjt7",
+   "en": "Command powers daily costs now scale with amount of battalions affected."
+  },
+  {
+   "k": "12q6ea",
+   "en": "The negative effects of failing the 'People's Trust' mission as the PRC are now better displayed in the tooltip, and have been merged into one National Spirit."
+  },
+  {
+   "k": "hpnhyy",
+   "en": "Split the Japanese Home Islands airzone into Northern, Central, and Southern Japan."
+  },
+  {
+   "k": "1vjtn65",
+   "en": "Manchukuo: Improved the trait the leader gains when completing the focus 'Claim the Mandate of Heaven'."
+  },
+  {
+   "k": "14ijjop",
+   "en": "The UK is now less likely to select a faction rule that reduces the tension needed to guarantee other nations when playing on historical."
+  },
+  {
+   "k": "1d181oj",
+   "en": "Commercial Nuclear Reactor will now contribute 0.01% Daily Breakthrough towards 'Physics/Nuclear' category. (As it already contributed to the production of the Nuclear Bombs, it will now also be listed in the respective tooltip)."
+  },
+  {
+   "k": "1j2bcnz",
+   "en": "Iran no longer gains redundant research bonuses when going down the Negotiate with America / Establish the Iranian Nuclear Program focuses, instead getting breakthrough points."
+  },
+  {
+   "k": "rh0xnn",
+   "en": "Rejigged the Mexican AI strategy plans so that they build up and prepare more before they eventually go to war with the USA and the Allies."
+  },
+  {
+   "k": "1co4ufq",
+   "en": "Supervised States can now decline being called into a war, to represent the difference between regular puppets and democratized governments."
+  },
+  {
+   "k": "6rnkem",
+   "en": "Continuous Offensives: All armour additionally gains +10% breakthrough."
+  },
+  {
+   "k": "lqjccl",
+   "en": "Self-Sufficient Battalion: Armored signal battalion_mult on tank destroyers nerfed: AP attack reduced from +20% to +10%."
+  },
+  {
+   "k": "oct4wr",
+   "en": "Artillery Groups: Support artillery now also benefits, gaining +5% soft attack and +10% breakthrough."
+  },
+  {
+   "k": "zf30u1",
+   "en": "Pakfront: Anti-tank brigade +20% defense moved to Emplacement Rotation & +20% soft attack moved to Weakpoint Studies"
+  },
+  {
+   "k": "osv6id",
+   "en": "Multirole Support Vehicles: Moved all SP-vehicle bonuses to regimental-support equivalents."
+  },
+  {
+   "k": "72xt2q",
+   "en": "Shoot and Scoot: All three SP categories had max organisation reduced from +10 to +5 and recovery rate from +20% to +15%. SP artillery additionally gains +5% soft attack; SP anti-air additionally gains +5% anti-air; tank destroyers' hard attack reduced from +15% to +5%."
+  },
+  {
+   "k": "1afao2i",
+   "en": "Integrated Support Batteries: Support artillery soft attack nerfed from +10% to +5%; anti-tank and anti-air support companies now also benefit (+20 max organisation, +5% AP and +5% hard attack for anti-tank, +5% air attack for anti-air)."
+  },
+  {
+   "k": "m8o5me",
+   "en": "Breaking Out: Army-wide soft attack nerfed from +20% to +15%."
+  },
+  {
+   "k": "1rpk7cz",
+   "en": "Combined Arms Integration: Removed +4 max organisation for tanks; removed +10% air attack for anti-air support company (migrated to anti-air battery)."
+  },
+  {
+   "k": "eyj796",
+   "en": "\"Quick Decision Offensive Warfare\" Militia now gets 1.5% Initiative bonus instead of 1%"
+  },
+  {
+   "k": "1aes9w5",
+   "en": "Gameplay"
+  },
+  {
+   "k": "1bxulzo",
+   "en": "Added in more critical states for ships: Leaking Pressure Hull, Leaking Battery, Jammed Torpedo Tube, Broken Diesel Engines, Broken Bilge Pump, Shortcircuited Radar, Leaking Fuel Tanks, Reactor Coolant Loss, and Fire Direction Breakdown."
+  },
+  {
+   "k": "186hfh9",
+   "en": "Inflexible strategist is now Stubborn Defender."
+  },
+  {
+   "k": "1fxqh3t",
+   "en": "UK: Reworked the Fortify East Asia focus tree branch."
+  },
+  {
+   "k": "hgijjc",
+   "en": "Clarified tooltip for Dominions on effects of accepting Imperial Federation."
+  },
+  {
+   "k": "1f6146d",
+   "en": "UK: Changed 'Blackshirt replace dominion government' decisions to send event instead of changing dominion ideology unilaterally."
+  },
+  {
+   "k": "qnbo03",
+   "en": "Fascist China now has access to the Sino-German Technical Mission tank MIO after approaching Western Powers."
+  },
+  {
+   "k": "b7elvz",
+   "en": "Iraq forming the Hashemite Arab Federation will now annex any subject included in their newly gained core territories."
+  },
+  {
+   "k": "1be03l7",
+   "en": "Brazil: Pedro Gastão can now take over the throne when his father dies."
+  },
+  {
+   "k": "11tizt4",
+   "en": "Portugal: Added focuses regarding the Asian colonies to the colonial branch."
+  },
+  {
+   "k": "hf1x2l",
+   "en": "The two Japanese focuses locked behind having Yamakawa Kikue as the country leader can now also be taken if she is hired as an advisor, which she can be if her husband is the country leader."
+  },
+  {
+   "k": "cku6l",
+   "en": "Added the ability for all releasable nations within the British Raj as well as Nepal and Bhutan to unite the Indian subcontinent into a formable nation."
+  },
+  {
+   "k": "1rdibhp",
+   "en": "Raid units are now sorted on success rate rather than distance to raid source."
+  },
+  {
+   "k": "1cqppfk",
+   "en": "When sending multiple armies as volunteers, they will be preserved instead of combined into one."
+  },
+  {
+   "k": "aaavct",
+   "en": "Torpedo Mountings and Anti-Ship Guided Missile - they are considered one family, and as such Upgrade Option in the Plane Designer will upgrade them Torpedo Mounting I -> Torpedo Mounting II -> Torpedo Mounting III -> Anti-Ship Guided Missile"
+  },
+  {
+   "k": "1h83hpk",
+   "en": "Stability & Performance"
+  },
+  {
+   "k": "zjf7nk",
+   "en": "Reduced save file size from provinces."
+  },
+  {
+   "k": "17bqrqg",
+   "en": "Trade system now use more cores."
+  },
+  {
+   "k": "1txf1eg",
+   "en": "Optimized Naval HQ calculations & reduced pathfinding for Army HQ."
+  },
+  {
+   "k": "xu5foe",
+   "en": "Tweaked the Ship Details window: moved manpower, display fuel consumption, removed Terrain tab."
+  },
+  {
+   "k": "1fyz5j5",
+   "en": "Move the Naval HQ button to the Navy Overview screen."
+  },
+  {
+   "k": "1yixozh",
+   "en": "Shows en-route duration on generals in 'Select Commander' window."
+  },
+  {
+   "k": "17td0c2",
+   "en": "Added the ability to Shift+Click on a template icon to open the division designer for that template from the Army List view and Unit Details view."
+  },
+  {
+   "k": "1k8o66p",
+   "en": "Added filters to the Country Selection Screen for unplayed countries and the various continents."
+  },
+  {
+   "k": "12ye04k",
+   "en": "Added arrows to the Italian BoP decision names to indicate which direction they will push the Balance in."
+  },
+  {
+   "k": "12ec5i0",
+   "en": "The Indian focus 'Princely States Policy' now shows the effects of the unlocked laws upfront, and if taken by an ai the Independent Rule law is now automatically applied."
+  },
+  {
+   "k": "5fx5hj",
+   "en": "Map Arrows that are too short will now display the arrow head anyway."
+  },
+  {
+   "k": "4h7s30",
+   "en": "Hovering a province will now show the information about the province control instead of the state's."
+  },
+  {
+   "k": "fqwl4",
+   "en": "Added a small optimization for borderwars where the AI tried and failed interacting with it while technically not allowed to do so. (AKA: Made the AI stop trying (and failing) to cheat in border wars)."
+  },
+  {
+   "k": "13kiur9",
+   "en": "Added script support for changing Taskforce ship target settings."
+  },
+  {
+   "k": "1y2pfuq",
+   "en": "Updated the Japanese AI to be more willing to attack islands to their south when they are going historical."
+  },
+  {
+   "k": "th0wqr",
+   "en": "Stop AI continuously exchanging Army Groups Field Marshals while they are in combat."
+  },
+  {
+   "k": "sblo2r",
+   "en": "Stop AI creating Frontlines they cannot reach (because of a demilitarized zone for example)."
+  },
+  {
+   "k": "94kjjs",
+   "en": "Made the AI verify that they don't have access to special research facilities before building another one of them."
+  },
+  {
+   "k": "15j8ogk",
+   "en": "Made United Kingdom more competent at defending egypt and attacking Tripoli, and Iraq."
+  },
+  {
+   "k": "19glklo",
+   "en": "Germany will produce slightly more light tanks, and produce less trains overall."
+  },
+  {
+   "k": "5ndi5l",
+   "en": "Italy will use its airforce more in Africa and keep a strong presence in North-Africa, even when its attacking Yugoslavia, and Greece. They also no longer will reinforce mindlessly in the Sub-Saharan region."
+  },
+  {
+   "k": "wwor1a",
+   "en": "AI is more keen on training their Air Wings."
+  },
+  {
+   "k": "nbb9eu",
+   "en": "Added basic infantry template to Iraq."
+  },
+  {
+   "k": "xorby0",
+   "en": "Added early tank destroyer variants to Soviets, USA and Germany."
+  },
+  {
+   "k": "1ngnyq",
+   "en": "Soviets and Germans have updated AT and armored templates. The AI will also more likely prioritize templates that need updating."
+  },
+  {
+   "k": "vut15r",
+   "en": "An AI hosting governments in exile no longer stops upgrading its own division templates as a side effect of refreshing exile templates."
+  },
+  {
+   "k": "8rv0pb",
+   "en": "The UK is encouraged to help with air in north africa if needed."
+  },
+  {
+   "k": "1g4g4ot",
+   "en": "AI is better at filling their carriers with airplanes, even if they can't field the best, they will reuse old equipment."
+  },
+  {
+   "k": "4dkkob",
+   "en": "Increased UK naval dominance in the Mediterranean for better naval invasions."
+  },
+  {
+   "k": "9m30fv",
+   "en": "Modding"
+  },
+  {
+   "k": "9j57g7",
+   "en": "Add support for subdoctrines being assignable to multiple different doctrine track types."
+  },
+  {
+   "k": "bn9tw9",
+   "en": "Add allow_in_multiple_tracks property for subdoctrines, which determines whether one subdoctrine can be added to multiple tracks simultaneously (default is no)."
+  },
+  {
+   "k": "bvgcei",
+   "en": "Decision's war_with_on_remove/timeout/complete are now scoped variables."
+  },
+  {
+   "k": "12sd7on",
+   "en": "reduce_focus_completion_cost now correctly localizes dynamic text in its description."
+  },
+  {
+   "k": "1gmihoh",
+   "en": "Add unlock_subunit effect which unlocks a subunit for a country."
+  },
+  {
+   "k": "1iycpte",
+   "en": "Add ship_modifiers to medals."
+  },
+  {
+   "k": "k86epy",
+   "en": "Add captured_army_leader as a raid target type."
+  },
+  {
+   "k": "1unga8h",
+   "en": "Implement xor property for subdoctrines which makes subdoctrines mutually exclusive between separate tracks."
+  },
+  {
+   "k": "pyncho",
+   "en": "Add officer_xp field to unit medals."
+  },
+  {
+   "k": "1v40aat",
+   "en": "Removes support for 'add_temporary_buff_to_units' and adds new 'unit_modifiers' to cover these use cases. All Army HQ abilities now use 'unit_modifiers'."
+  },
+  {
+   "k": "oigv59",
+   "en": "focus_count command now also shows you a summary of the focuses and the days it takes to complete them."
+  },
+  {
+   "k": "xe0unm",
+   "en": "Add modifier for casualty_trickleback."
+  },
+  {
+   "k": "15sn97q",
+   "en": "Add avg_unit_entrenchment_ratio scripting scope."
+  },
+  {
+   "k": "14t2wj0",
+   "en": "Added ai template weighting to imgui show ai_templates."
+  },
+  {
+   "k": "1dycocw",
+   "en": "Add is_leader_visible trigger to check whether the given unit leader is visible for its owner."
+  },
+  {
+   "k": "1409t84",
+   "en": "Add ai_min_success_chance raid type property to override AI launch threshold."
+  },
+  {
+   "k": "2kralj",
+   "en": "Add max_distance raid type property capping source-to-target path length."
+  },
+  {
+   "k": "mp1saw",
+   "en": "Bugfix"
+  },
+  {
+   "k": "1ivq1iq",
+   "en": "Fixed an issue where multiple Pacific releasable tags were missing generic military advisors."
+  },
+  {
+   "k": "cbmifq",
+   "en": "Fixed some timing issues with decisions."
+  },
+  {
+   "k": "1ifwk06",
+   "en": "UK: Fixed Dominions getting event to leave Commonwealth when UK goes fascist/communist even if a dominion has the same ideology."
+  },
+  {
+   "k": "vshn15",
+   "en": "Chile: Fixed an issue where taking the focus 'Treading the Straight Line' would break Ibanez' small portrait."
+  },
+  {
+   "k": "l3i8r4",
+   "en": "PRC: The MIO Dalian Shipbuilding Company now properly requires control of Dalian rather than Liaoning."
+  },
+  {
+   "k": "gb1t65",
+   "en": "Romania: Fixed a broken AI weight in the event King Carol's Lifestyle - 'King bans critical book'."
+  },
+  {
+   "k": "15vgee6",
+   "en": "Added missing unit namelists for new Chinese Warlord states."
+  },
+  {
+   "k": "5durun",
+   "en": "Fixed an issue where the Japanese AI would sometimes puppet or liberate states out of its own core territory at the end of their Civil War."
+  },
+  {
+   "k": "1cpg61l",
+   "en": "Fixed an instance where the Brazilian monarchist civil war triggered by Portugal would cease 1 day after."
+  },
+  {
+   "k": "ejr809",
+   "en": "Nils Flyg can now join the German Reich again, let the reddit confusion continue!"
+  },
+  {
+   "k": "19sy6kt",
+   "en": "Fixed an issue where some warlord leaders wouldn't be promoted through the Personal Leadership focus."
+  },
+  {
+   "k": "a9av0q",
+   "en": "Fixed an issue where Iraq could become permanently locked out of their decisions to invite nation to the Hashemite Arab Federation if they ended up at war with them or they disappeared while the targeted decision was still ongoing."
+  },
+  {
+   "k": "1v6wkca",
+   "en": "Fixed an issue where the 'Manchuko People's Army' and 'People's Liberation Army' National Spirits didn't give any Recruitable Population Factor."
+  },
+  {
+   "k": "18hc5q2",
+   "en": "The British Raj will now drop their 'Raj' cosmetic tag at the end of a peace conference if they are either independent or a subject of a different nation than the UK."
+  },
+  {
+   "k": "52jgus",
+   "en": "Re-added an airbase that had been accidentally removed for the 1939 scenario and fixed an issue where the Warlord focuses 'An Autonomous Tibet' and 'Conquer Tibet' wouldn't properly bypass."
+  },
+  {
+   "k": "urcztv",
+   "en": "Fixed an issue where the Republic of Congo focus would not bypass if Congo was at war."
+  },
+  {
+   "k": "lflokq",
+   "en": "Fixed an issue where the available tooltip would appear twice for the Radio Propaganda decision if not playing as Brazil or Afghanistan."
+  },
+  {
+   "k": "1vbflkn",
+   "en": "Fixed two instances where the Stresa Front could be ratified while Italy was a subject of a foreign power."
+  },
+  {
+   "k": "1ly4x1i",
+   "en": "Japan: If the pressure Siam focus isn't available due to them being in another faction, Japan will now pivot to their focus Occupy Siam."
+  },
+  {
+   "k": "1pxlhp8",
+   "en": "Fixed 700+ typos across the game."
+  },
+  {
+   "k": "k9ygjl",
+   "en": "Fixed fascist Latvia decision to incite civil war in Estonia, Lithuania, and Poland."
+  },
+  {
+   "k": "12jblhs",
+   "en": "Fixed an issue where the visual representation of the Naval HQ range did not match the range of the buff."
+  },
+  {
+   "k": "1ur2fr",
+   "en": "Fixed an issue where Afghanistan would be forced into a faction with Germany despite being in its own one when completing either 'Into the Plains of the British Raj' or 'The Red Threat'."
+  },
+  {
+   "k": "5wjk59",
+   "en": "Fixed an issue where the Japanese focus 'Hasten the Integration of Taiwan' wasn't bypassable."
+  },
+  {
+   "k": "ubj3el",
+   "en": "Fixed multiple instances of VPs being scripted in the incorrect states."
+  },
+  {
+   "k": "1537o2y",
+   "en": "Raj: Fixed an issue where the Mughals could puppet existing countries when having the Princes Revolt against British India if they held a core of theirs. Also fixed a few characters not being correctly recruited, who are now available for the path."
+  },
+  {
+   "k": "1bq60xe",
+   "en": "Fixed Balance Of Power transferring to new country after reusing a dynamic country tag."
+  },
+  {
+   "k": "1ar9ag2",
+   "en": "'And the Snake Smoked' achievement now requires you to be in the Allies, and requires germany to be capitulated or no longer exist."
+  },
+  {
+   "k": "qsgt9w",
+   "en": "Nordic support collaboration tech now correctly reduces experience loss instead of increasing it."
+  },
+  {
+   "k": "kytgpi",
+   "en": "Fixed a bug where Canadian & Italian focus tree still referred to 'medium gun batteries'."
+  },
+  {
+   "k": "gzfzu0",
+   "en": "Fixed an issue where the decision 'Diversify Elite Forces' checked for an implicit 'and' instead of 'or', causing it to not show up correctly."
+  },
+  {
+   "k": "ktso4b",
+   "en": "Added missing upgrades and MIO trait support for amphibious mechanized equipment."
+  },
+  {
+   "k": "1azol14",
+   "en": "If Sweden joins the Winter War as a result of the Finnish focus 'A Cry for Help', it is no longer considered an offensive war."
+  },
+  {
+   "k": "798lnx",
+   "en": "Axel Pehrsson Bramstorp and Gösta Bagge no longer keep the trait 'Minority opposition party in power' after being re-elected in the 1936 general election."
+  },
+  {
+   "k": "94pofq",
+   "en": "Fixed an issue where in the Swedish focus, 'The Åland Issu', Finland would refuse to cede Åland if Sweden was much stronger, contrary to what the focus describes."
+  },
+  {
+   "k": "1fqxxzk",
+   "en": "Transport Plane 3 Technology - now has the same 1945 Year for both BBA and non-BBA technology."
+  },
+  {
+   "k": "n5482n",
+   "en": "Take Control of the Executive Yaum now properly updates autonomy of Warlord Puppets."
+  },
+  {
+   "k": "16qcobz",
+   "en": "Nuclear Production Tooltip now counts all the buildings with nuclear_reactor = yes."
+  },
+  {
+   "k": "1m0yd8j",
+   "en": "Fire Concentration Subdoctrine will now properly provide +5% Defense Bonus as well as +5 Organization to the Line Artillery Unit Category in the Initial unlock."
+  },
+  {
+   "k": "1sa0c2",
+   "en": "Change Mountain Gun tech localisation to reflect that it is not only Indian."
+  },
+  {
+   "k": "1jdumyi",
+   "en": "Fixed an issue where the Indian focus 'Kingmaker' would grant two non-functioning rules changes."
+  }
+ ]
+}

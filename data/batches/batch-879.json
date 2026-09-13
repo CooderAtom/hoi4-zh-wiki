@@ -1,0 +1,827 @@
+{
+ "batch": 879,
+ "pages": [
+  "Patch 1.17.X"
+ ],
+ "chars": 14858,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "b49aj7",
+   "en": "count_in_collections can now look for equipment in stockpile"
+  },
+  {
+   "k": "1kum6y1",
+   "en": "Fix an exploit where switching a division to a new template with disabled or missing equipment could still allow mastery gain from that template"
+  },
+  {
+   "k": "8n8h8d",
+   "en": "Naval gun hit chance bonuses from MIOs are now applied correctly"
+  },
+  {
+   "k": "9ix5iv",
+   "en": "Added new icons for the Submarine Nuclear Strike Raids and clarified that it is a submarine raid by renaming the raids"
+  },
+  {
+   "k": "xkkrkb",
+   "en": "Fixed missing class definitions on 1939 Japanese starting ships, leading to empty ships with no modules."
+  },
+  {
+   "k": "1m4dvo5",
+   "en": "Fixed wrong special project prefix-checks in ITA - King of the Skies, Modern Musculus, Caligulas Pride."
+  },
+  {
+   "k": "j9l2ly",
+   "en": "Made the population of the Tohoku region more historically accurate, lowering the total Japanese core population by about 3 million"
+  },
+  {
+   "k": "1kidosj",
+   "en": "Fixed a bug where the anti_air_4 module was not the parent of anti_air_3"
+  },
+  {
+   "k": "1tawksd",
+   "en": "Fixed Graf Zeppelin being called the \"Graf Zeppelin Class Klasse\"."
+  },
+  {
+   "k": "15ltja0",
+   "en": "Invalid faction theaters are now automatically removed from the faction"
+  },
+  {
+   "k": "1q0lwsk",
+   "en": "Resolved an OOS happening of the client had played single player before joining the MP game"
+  },
+  {
+   "k": "8t8yqh",
+   "en": "Fixed an issue where peaceful reunification could be sought even if not in a faction with the other side, an issue where Chen Mingshu would not properly become the democratic leader, and incorrect triggers for the focuses Subjugate Korea and Dare to Win"
+  },
+  {
+   "k": "49e4r8",
+   "en": "Crash when trying to use recon planes when you do not have La Resistance"
+  },
+  {
+   "k": "c1js31",
+   "en": "Fixed an issue where the PRC decision to oust the Yulin Garrison would stay after removing the state modifier"
+  },
+  {
+   "k": "1b60z4i",
+   "en": "cannot replace defeat communism goal after completion"
+  },
+  {
+   "k": "6819nf",
+   "en": "Fixed an issue where democratic Japan could core non-asian states if annexing a subject with cores outside of Asia but with a capital in it"
+  },
+  {
+   "k": "1716t1v",
+   "en": "To end the Peru-Ecuador war through decisions, both participants now need to be independent, and the war has to have started through the decision"
+  },
+  {
+   "k": "xqdcrw",
+   "en": "Changed stability penalty effects for the \"Guarantee Tension Reduction 15/40%\" and \"Justify Wargoal Reduction 20/40%\" Faction Rules to now be modifiers instead."
+  },
+  {
+   "k": "15whciw",
+   "en": "Adjusted \"Justify Wargoal Reduction 20/40%\" Faction Rule names to the more accurate \"Justify Wargoal Tension Reduction 20/40%\"."
+  },
+  {
+   "k": "1hlc2sr",
+   "en": "Fixed incorrect names in chinese localization"
+  },
+  {
+   "k": "12nhukn",
+   "en": "Faction rule enable effects running multiple times"
+  },
+  {
+   "k": "17sb7p0",
+   "en": "fixed broken localization strings if the UK rejects the Raj offer from \"Colonial Cadet Exchange\" focus."
+  },
+  {
+   "k": "p1r4ls",
+   "en": "The PRC Carrier MIO now gives a refitting bonus instead of a non-usable equipment conversion one"
+  },
+  {
+   "k": "12g6b0b",
+   "en": "Fixed an issue where the achievements Pand-monium and Make a Man out of You weren't available if playing as any of the newly added warlords"
+  },
+  {
+   "k": "1iqbzaf",
+   "en": "Fixed an issue where Japan could prospect for oil in North Sakhalin indefinitely"
+  },
+  {
+   "k": "81z93i",
+   "en": "Fixed an issue where Interior Borneo had building slots available despite being impassable"
+  },
+  {
+   "k": "1s6uyqp",
+   "en": "Turan now gains a core on Tomsk when formed"
+  },
+  {
+   "k": "15tx0qz",
+   "en": "Fixed broken loc string in autonomy system for when allocating lend lease"
+  },
+  {
+   "k": "j0olmt",
+   "en": "Organise the 200th division now have functional tanks when owning No Step Back"
+  },
+  {
+   "k": "1rzhyv9",
+   "en": "Fixed a bug where Battle Royale would not trigger correctly if you declared war on both China and Japan on the same tick"
+  },
+  {
+   "k": "j0fi4u",
+   "en": "De-desertified the Philippines, and replaced them with lush jungle. 1x southern Central Islands, 1x northern Eastern Visayas."
+  },
+  {
+   "k": "ocjg14",
+   "en": "Replaced 2x desert in the Moluccas with Jungle."
+  },
+  {
+   "k": "1d7rkgt",
+   "en": "Sets a readable HP bonus to the individual excellence subdoctrine."
+  },
+  {
+   "k": "93ss1s",
+   "en": "Fixed an issue that caused Ethiopia to only be able to become exiled in the UK if NCNS was enabled"
+  },
+  {
+   "k": "uclyj9",
+   "en": "Fixed an issue where Chinese guerillas could be rooted out by anyone, and not only the controller or overlord of the controller of a state"
+  },
+  {
+   "k": "qvipaj",
+   "en": "Fixed an issue where the State Shintoism stability improvement wouldn't be properly applied if done by Manchukuo or the Reorganised Government"
+  },
+  {
+   "k": "kxak59",
+   "en": "added missing Hispanic countries to the Phillipines \"Hispanic Overtures\" focus."
+  },
+  {
+   "k": "bhtb06",
+   "en": "Fixed AFG's \"Reintroduce War Elephants\" focus granting the Proper Heritage spirit, then immediately replacing it as invalid due to doctrine requirements for the spirit added with NCNS."
+  },
+  {
+   "k": "yymjnf",
+   "en": "Declare Military Emergency no longer breaks the Philippines."
+  },
+  {
+   "k": "y4gbpe",
+   "en": "Updated tooltip to correctly show the clamped spotting speed"
+  },
+  {
+   "k": "ekm1gj",
+   "en": "Fixed a bug where in DX9 the sun's reflection was broken"
+  },
+  {
+   "k": "1g8czt1",
+   "en": "Fixed a rare CTD related to faction theaters"
+  },
+  {
+   "k": "1mpyv1q",
+   "en": "Fixed a bug when a co-op player rejoins the server after being kicked, there would be several main controllers"
+  },
+  {
+   "k": "olwoup",
+   "en": "Patch 1.17.4 was released on 2026-02-19⟦0⟧ with checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "gohadq",
+   "en": "00d1"
+  },
+  {
+   "k": "1id26o6",
+   "en": "France's \"Victors of the Great War\" national idea now has a 50% mastery gain penalty"
+  },
+  {
+   "k": "1sajdcg",
+   "en": "The Japanese focus Finish the Fight now takes 35 days and no longer unlocks an obsolete decision"
+  },
+  {
+   "k": "1nbrc34",
+   "en": "The Finnish AI is now more likely to pick subdoctrines that fit/work well for them"
+  },
+  {
+   "k": "1pk020b",
+   "en": "Added a new national spirit for the Guangdong and Guangxi cliques to incentivise them rushing the Liangguang Incident"
+  },
+  {
+   "k": "1gchzsa",
+   "en": "Added a national spirit and focus for the Chinese Warlord States regarding Military Looting to slow down production in exchange for a slight military boost"
+  },
+  {
+   "k": "o8t20l",
+   "en": "The Qing Empire now has access to the warlord integration decisions to speed up the lowering of their puppets' autonomy"
+  },
+  {
+   "k": "4lmftx",
+   "en": "The Greater Iraq integration decisions now take 14 days instead of 30, and target controlled states instead of owned"
+  },
+  {
+   "k": "wy6vib",
+   "en": "The Falangist Spanish bonus Eliminate the Carlists now lasts for 90 days instead of 60"
+  },
+  {
+   "k": "18q14jw",
+   "en": "Finland now starts with its fifth submarine, the Saukko"
+  },
+  {
+   "k": "159zosh",
+   "en": "Adjusted the modifiers granted by the Putschminister trait"
+  },
+  {
+   "k": "1kqpzra",
+   "en": "Adjusted the location of some starting resources in Brazil, and adding a small amount of rubber production to Acre"
+  },
+  {
+   "k": "1pa7vxz",
+   "en": "Added one dockyard in Istanbul to represent the Taşkızak Naval Shipyard"
+  },
+  {
+   "k": "1rob96w",
+   "en": "Turkey - Moved the Turkish character Kamil Tolon to the political advisor slot"
+  },
+  {
+   "k": "887i8t",
+   "en": "Turkey - Added two new starting ideas regarding the first five year plan and illiteracy. Added two new early-game focuses for utilising Sümerbank for more industry and tackling the illiteracy. Reduced the focus time for Ratify the Six Arrows to 35 days."
+  },
+  {
+   "k": "1qsttrv",
+   "en": "Japan - the missions for Naval Demands relating to building more ships now last 545 days instead of one year"
+  },
+  {
+   "k": "1ggofas",
+   "en": "The communist shared Baltic focus A Revolutionary Cabinet now takes 35 days"
+  },
+  {
+   "k": "1m3d3bp",
+   "en": "Latvian Ugonkrusts divisions are now militias and their national spirit fascist paramilitaries now gives a slight boost to militia attack and defense"
+  },
+  {
+   "k": "1d6xkto",
+   "en": "Historical Afghanistan can now seek investments from both the Axis and the Allies, provided that they expel the nationals of the one they sought investments from first"
+  },
+  {
+   "k": "yo563f",
+   "en": "Aussa - The focus Every Man a Warrior now unlocks militias"
+  },
+  {
+   "k": "1uu16ui",
+   "en": "Portugal - Boosted the amount of democratic support gained from the national spirit British Influence"
+  },
+  {
+   "k": "1wt8xp2",
+   "en": "The Romanian national spirit Iron Guard now grants a 5% recruitable population factor bonus"
+  },
+  {
+   "k": "crttxw",
+   "en": "The Portuguese focus Portuguese Legion now also grants a one time research bonus to military police, and the national spirit granted also gives 5% core defence"
+  },
+  {
+   "k": "1yywzyt",
+   "en": "Repairing ships can draw local supply if not enough is available from their homebase. This will only ever eat up leftover supply"
+  },
+  {
+   "k": "go1y34",
+   "en": "Reduced 1936 starting static AA in England to slightly reduce German bomber losses during the Blitz"
+  },
+  {
+   "k": "i6j3vw",
+   "en": "Soviet Specific Changes"
+  },
+  {
+   "k": "1rfsaik",
+   "en": "Lowered focus duration of \"The Means to Wage War\" and \"Superior War Machines\" from 70 to 35 days, and reduced the 75% bonuses to 50%."
+  },
+  {
+   "k": "1q2k6uc",
+   "en": "Updated Superior War Machines requirements now to require basic medium tanks researched, rather than improved medium tanks."
+  },
+  {
+   "k": "1ejade9",
+   "en": "Soviet Union now starts with -15% land mastery gain. Can be removed with Lessons of war. Purges makes the malus worse, some focuses makes it better"
+  },
+  {
+   "k": "76qxrg",
+   "en": "Removed -10% army xp modifier"
+  },
+  {
+   "k": "ormu2k",
+   "en": "AI Soviet will start building T34 earlier"
+  },
+  {
+   "k": "g6drub",
+   "en": "Overall Naval Changes"
+  },
+  {
+   "k": "1s9tvfx",
+   "en": "Minimum chance to hit during a naval battle is now 2% instead of 0.05%"
+  },
+  {
+   "k": "155k6ro",
+   "en": "Strike forces are allowed to repair if they are in harbour. They will repair up to a certain strength percentage, depending on the repair priority."
+  },
+  {
+   "k": "1mh9ppd",
+   "en": "Taskforces that are in combat are no longer reinforced from the reserve fleet. This solves an issue where those ships would arrive late to the battle and almost instantly killed."
+  },
+  {
+   "k": "1f45awr",
+   "en": "Increased chance to hit for big guns by decreasing the maximum hit profile from 80 to 70. (Note: torpedo value is *not* changed from 100, this did get accidently changed in the open beta update, but has been reverted)."
+  },
+  {
+   "k": "kdycqn",
+   "en": "Updated naval grand doctrines to have the more fitting bonus to the correct track"
+  },
+  {
+   "k": "15l44cx",
+   "en": "Overall Air/Ground Combat Changes"
+  },
+  {
+   "k": "1l2z2bz",
+   "en": "Decreased air to ground strength damage from 0.05 to 0.035"
+  },
+  {
+   "k": "b2l9fj",
+   "en": "Decreased air to ground organization damage from 0.10 to 0.035"
+  },
+  {
+   "k": "1fzdgv6",
+   "en": "Increased air to ground organization dice roll from 4 to 5"
+  },
+  {
+   "k": "7u8pty",
+   "en": "Division AA damage to CAS is more consistent"
+  },
+  {
+   "k": "1pqyn8q",
+   "en": "You require more division AA to get the maximum bonus to reduce cas damage. To reduce by the maximum 75% you need now ~55 anti air attack"
+  },
+  {
+   "k": "1fhq7sw",
+   "en": "Division AA negated air superiority better when it is stronger, and weaker when it is not as strong. The maximum is around 50% decrease, versus 40% decrease previously."
+  },
+  {
+   "k": "sufqxn",
+   "en": "Doctrines/Mastery Changes"
+  },
+  {
+   "k": "1jv9i88",
+   "en": "Reduced max monthly mastery gain from 50 to 40"
+  },
+  {
+   "k": "qlw26z",
+   "en": "Increased Armor mastery gain multiplier from 4 to 10"
+  },
+  {
+   "k": "9iiap8",
+   "en": "Decreased artillery mastery gain multiplier from 10 to 8"
+  },
+  {
+   "k": "lt383l",
+   "en": "\"Desperate Defense\" now requires a defense war to be able to be picked"
+  },
+  {
+   "k": "m1uqzz",
+   "en": "\"Infiltration Tactics\" now enables the correct tactic to be used"
+  },
+  {
+   "k": "17wkjk8",
+   "en": "Reordered milestones in \"Fire Concentration\" so that the combat width reduction is unlocked slightly later"
+  },
+  {
+   "k": "19n52c4",
+   "en": "Overall org gain rate has been halved in most instances in the various doctrine tracks."
+  },
+  {
+   "k": "wkqkic",
+   "en": "Misc Changes"
+  },
+  {
+   "k": "1i40u5d",
+   "en": "Increased Energy Cap For Factories by 10% (from 6 to 6.6)"
+  },
+  {
+   "k": "jew6h3",
+   "en": "New Feature"
+  },
+  {
+   "k": "p2qesj",
+   "en": "You can now select which backgrounds you want to have shown in the main menu, they will be randomly chosen every 20 seconds while in the main menu. The button can be found in the bottom right of the menu."
+  },
+  {
+   "k": "pztga8",
+   "en": "Greece - The focus An Orthodox State can now be taken when going down the absolutist royalist path, and grants different bonuses"
+  },
+  {
+   "k": "kkrg92",
+   "en": "Congo - If the Barotse Litunga has been approached before the war for liberation commences, Yeta III will now become available as a field marshal"
+  },
+  {
+   "k": "1rg3ta",
+   "en": "Added the option in the Afghan historical branch to swap out the Prime Minister for another Royal Successor"
+  },
+  {
+   "k": "13axa7g",
+   "en": "The Greater Mongolian formable nation now includes the state of Hebei-Chahar"
+  },
+  {
+   "k": "8flvgy",
+   "en": "Added a new focus for Nationalist China in the air branch to open AFAMF factories, granting military factories and a small bonus to light airframes"
+  },
+  {
+   "k": "1sh5r59",
+   "en": "He Yingqin now becomes available as a general for Nationalist China after completing the focus Crackdown on Corruption in the army branch"
+  },
+  {
+   "k": "1dw4z94",
+   "en": "China can now rename a few Manchurian cities after recapturing them"
+  },
+  {
+   "k": "5bam3s",
+   "en": "Added a Bicycle division name list for Japan"
+  },
+  {
+   "k": "1fr460d",
+   "en": "Reforming the Chinese Empire as the Kumul Khanate or Ma Cliques now provides different flavour/versions of the cosmetic tag"
+  },
+  {
+   "k": "ul124p",
+   "en": "Added an additional focus to Sinkiang's unique sub branch"
+  },
+  {
+   "k": "1uvi1z4",
+   "en": "Added an internal politics sub branch to Khotan Ma"
+  },
+  {
+   "k": "e9jure",
+   "en": "Added two additional focuses to the Qinghai Ma's unique sub branch"
+  },
+  {
+   "k": "5q80qp",
+   "en": "Added a focus for the Qinghai Ma to rebuild the Ninghai Army"
+  },
+  {
+   "k": "tnh8nl",
+   "en": "Adding in event for imprisoning Zhang Xueliang as Nationalist China"
+  },
+  {
+   "k": "gu7i63",
+   "en": "Added a unique focus tree sub branch for the Yunnan Clique"
+  },
+  {
+   "k": "12gkusf",
+   "en": "Monarchist Portugal can now inherit a few Brazilian characters when reuniting the kingdoms"
+  },
+  {
+   "k": "d3g691",
+   "en": "Added the ability for a player puppet Mengkukuo to ask Japan through a decision to launch Suiyuan Campaign"
+  },
+  {
+   "k": "afa3bg",
+   "en": "Manchukuo can now request the annexation of other Japanese puppets in China through decisions when going down the Chinese Leadership path in the Obedience branch"
+  },
+  {
+   "k": "jdwos0",
+   "en": "Added the ability for Brazil to establish and develop Rondônia"
+  },
+  {
+   "k": "ltkauj",
+   "en": "Added a new focus to the Brazilian industrial branch to found the Companhia Vale do Rio Doce to increase steel and aluminium in Minas Gerais"
+  },
+  {
+   "k": "4tke3o",
+   "en": "Added the ability for a westernising Iranian state to secularise, and made the choice between the different democratic leaders more interesting"
+  },
+  {
+   "k": "tpznh2",
+   "en": "Completing the focus Unified Kurdistan now grants additional core states"
+  },
+  {
+   "k": "17ckbae",
+   "en": "Fascist Turkey can now make Nihal Atsız their country leader after completing the focus Turanist Ambition"
+  },
+  {
+   "k": "10h0v2a",
+   "en": "Added Etibank as a new industrial concern for Turkey"
+  },
+  {
+   "k": "s2m5f4",
+   "en": "Updated the Iraqi Military Branch to be more flavorful, giving them the ability to gain the river navy bonus among other things"
+  },
+  {
+   "k": "1mypq87",
+   "en": "The Iraqi focuses demanding Syria now demand they get annexed instead of puppeted"
+  },
+  {
+   "k": "1phf9hx",
+   "en": "Updated the Kurdistan branch for Iraq to have more flavourful effects such as the ability to train militias from the Peshmerga focus, and added the ability for them to take Eastern Syria through a border war"
+  },
+  {
+   "k": "1k4asda",
+   "en": "Added a new industrial concern and two new military advisors for Iraq"
+  },
+  {
+   "k": "1bcpquo",
+   "en": "Added two new focuses to the Iraqi industrial tree for expanding the Cotton and Cement Industries"
+  },
+  {
+   "k": "dc1e71",
+   "en": "Afghanistan - Added Abdul Hadi Dawi as an advisor for the Amanullah Khan branch"
+  },
+  {
+   "k": "qjdrfr",
+   "en": "Vichy France now has access to the political advisors it should have"
+  },
+  {
+   "k": "1ri8xu3",
+   "en": "Vichy France now no longer has access to Generals who fought with Free France"
+  },
+  {
+   "k": "v73wlv",
+   "en": "Added one new Air Chief to Vichy France. Added 2 new High Command to Vichy France"
+  },
+  {
+   "k": "y8ur6c",
+   "en": "Added two more focuses to Iraq regarding the Sunni Dominance and Shia Unrest"
+  },
+  {
+   "k": "lyz4om",
+   "en": "Added three new focus for Afghanistan in the democratic branch to Ally the Young Afghans and gain more democratic support and advisors"
+  },
+  {
+   "k": "1opthiv",
+   "en": "Added two capstone focuses to Iran"
+  },
+  {
+   "k": "110qwzi",
+   "en": "Added two new decisions for Saudi Arabia and Oman relating to modernization initiatives"
+  },
+  {
+   "k": "1b1cixd",
+   "en": "Added four new political advisors for Iraq"
+  },
+  {
+   "k": "1o36e1",
+   "en": "Added a new shared national spirit and joint focus tree for the Ma Cliques"
+  },
+  {
+   "k": "1uq1tqn",
+   "en": "Italy - if King Vittorio Emanuelle died while being a national spirit, he will be replaced by a national spirit version of Umberto II"
+  },
+  {
+   "k": "14k1z4l",
+   "en": "Added Gwadar to the map"
+  },
+  {
+   "k": "1c6r10s",
+   "en": "Most navy move commands will ignore avoided areas, but still respect blocked areas. This allows navies to move a bit more freely"
+  },
+  {
+   "k": "oh3fm3",
+   "en": "Show energy consumption modifiers in energy resource tooltip"
+  },
+  {
+   "k": "1ck9o8e",
+   "en": "Adds more info to Spymaster 'operatives slot' tooltip"
+  },
+  {
+   "k": "6de9c7",
+   "en": "Adds an 'effective change' clause to the BalanceOfPower tooltip"
+  },
+  {
+   "k": "xwlha4",
+   "en": "Adds disabled states and new tooltips for 'Repair Now!' buttons for task forces and ships"
+  },
+  {
+   "k": "1m6djn6",
+   "en": "Japan - Added an explanation of which levels exist for the factions in the Imperial Influence system when hovering over the Emperor in the focus tree inlay window"
+  },
+  {
+   "k": "1bp4uhg",
+   "en": "Fixed issue where convoy protection map icon efficiency tooltip would repeat the same info for every task force in a fleet, though already accounted for"
+  },
+  {
+   "k": "1kwgs9n",
+   "en": "Model Selector buttons now toggles"
+  },
+  {
+   "k": "gt96ma",
+   "en": "Stockpile data is now sorted. (Actively produced first, then sorted on stockpile size)"
+  },
+  {
+   "k": "yk5290",
+   "en": "Afghanistan, Iraq - the Free Arabian and Turkestan Legion decisions now properly show their infantry equipment cost as part of the decision"
+  },
+  {
+   "k": "18gd3mk",
+   "en": "Added focus branch navigation button to the Indian and Iranian focus trees"
+  },
+  {
+   "k": "6ldd1f",
+   "en": "The Romanian focus White Squadron now has a more appropriate focus icon"
+  },
+  {
+   "k": "127nf1p",
+   "en": "Tweaked AI to only research coal efficiency if they are struggling with energy"
+  },
+  {
+   "k": "9u0i8n",
+   "en": "Tweaked historical german focuses to pick slightly stronger start and align historical events closer to their actual dates"
+  },
+  {
+   "k": "14jnrca",
+   "en": "Tweaked the order of focus selection for soviets to create a more accurate historical timeline"
+  },
+  {
+   "k": "16dgwvk",
+   "en": "Fixed issues where Japan would keep the Potsdam Conference and National Defense State spirits after being puppeted, and made the US more likely to puppet Japan and less likely to force change their government when they surrender through their focus"
+  }
+ ]
+}

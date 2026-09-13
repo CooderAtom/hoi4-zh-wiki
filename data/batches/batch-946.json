@@ -1,0 +1,806 @@
+{
+ "batch": 946,
+ "pages": [
+  "Patch 1.5"
+ ],
+ "chars": 14818,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1qdehgi",
+   "en": "Yugoslavia \"Orthodox Church Support\" now gives +25% PP instead of only +0.25."
+  },
+  {
+   "k": "1n2qrl7",
+   "en": "Germany now correctly already possesses the technology to build the \"Admiral Hipper\" cruiser class in 1936."
+  },
+  {
+   "k": "9r6dos",
+   "en": "Certain German advisers and military leaders now require a fascist government."
+  },
+  {
+   "k": "189g89m",
+   "en": "Poland, Romania, and the Baltics now take guarantees and alliances into consideration when on the receiving end of Soviet pressure."
+  },
+  {
+   "k": "17wyvs1",
+   "en": "Germany now starts with, and can extend, MEFO bills for rapid military build-up."
+  },
+  {
+   "k": "1wwv1ga",
+   "en": "\"Anschluss\", \"Fate of Czechoslovakia\", and \"Fate of Yugoslavia\" focuses now simulate capture of gold reserves by reducing MEFO bills cost."
+  },
+  {
+   "k": "vgw99j",
+   "en": "Adjusted 1939 start date to take into account MEFO bills and the new German focus tree."
+  },
+  {
+   "k": "t34chm",
+   "en": "Adjusted old trees to take into account the possibility of Germany going anything other than Fascist."
+  },
+  {
+   "k": "1kbv5l2",
+   "en": "Non-aligned Vichy France is now possible."
+  },
+  {
+   "k": "hs7b5q",
+   "en": "Adjusted the areas and forces Vichy France starts with to be more historically accurate."
+  },
+  {
+   "k": "3b84eo",
+   "en": "Refusing Japanese demands as China, in the Marco Polo Bridge Incident event, now gives a wargoal to Japan."
+  },
+  {
+   "k": "9iedae",
+   "en": "Accepting Japanese demands as China, in the Marco Polo Bridge Incident event, now gives Japan a claim on Shanghai and a brief truce."
+  },
+  {
+   "k": "ol493c",
+   "en": "Spanish Civil War ending events now remove the 'locked' divisions that were spawned at its start."
+  },
+  {
+   "k": "121aq1e",
+   "en": "Civil Wars now give some positive effects upon their conclusion that makes them overall less detrimental to a nation."
+  },
+  {
+   "k": "h8akyc",
+   "en": "French Spanish Civil War intervention focuses are now only 35 days long."
+  },
+  {
+   "k": "h1die5",
+   "en": "Leftist France is now more likely to take the Spanish Civil War intervention focuses."
+  },
+  {
+   "k": "1kr99yn",
+   "en": "Austria is now slightly less likely to go fascist."
+  },
+  {
+   "k": "1guplzz",
+   "en": "Added a minimum number of days of a war before anyone can surrender ( they can still capitulate whenever unless they would happen at the same time )"
+  },
+  {
+   "k": "1jf66xh",
+   "en": "Removed block preventing declarations of war that would lead to 3-way wars (...and let slip the dogs of waaaar!)"
+  },
+  {
+   "k": "ufkp16",
+   "en": "Reduced air wing deployment time from 5 days to 2 days."
+  },
+  {
+   "k": "f8ejjp",
+   "en": "Also reduced the acclimatization gain speed by about 8x, because after recent changes it was ultra fast."
+  },
+  {
+   "k": "14u2e47",
+   "en": "Locked Maori volunteers division template."
+  },
+  {
+   "k": "2aqlyq",
+   "en": "Reichskommissariats and Reichsprotektorats now have a -50%/-25% penalty to recruitable population"
+  },
+  {
+   "k": "1tdngoy",
+   "en": "Hongkong is now a core of PRC"
+  },
+  {
+   "k": "1i9eek3",
+   "en": "added a starting general for each of the Chinese warlords"
+  },
+  {
+   "k": "19pf307",
+   "en": "added a generic special forces bonus to the special forces focus in the generic tree"
+  },
+  {
+   "k": "7xobcl",
+   "en": "changed British rearmament focuses to no longer give factories in the most god-forsaken corners of the world"
+  },
+  {
+   "k": "qji2dd",
+   "en": "Reworked a number of states in China, splitting up larger states into smaller ones. Overall number of population and number of factory slots has been adjusted accordingly"
+  },
+  {
+   "k": "14991uk",
+   "en": "Added German general Felix Steiner. Mit dem Angriff Steiners wird das alles in Ordnung kommen!"
+  },
+  {
+   "k": "pj29i7",
+   "en": "removed a number of duplicate Manchurian Divisions from the Japanese OOB"
+  },
+  {
+   "k": "1kopqnl",
+   "en": "added a trait to Chiang Kai-Shek to give him +40% stability if in a defensive war (adds up to +10% stability after base stability hit)"
+  },
+  {
+   "k": "1yzixm1",
+   "en": "added decisions for Japan to surrender after losing the Asian mainland or getting nuked twice"
+  },
+  {
+   "k": "8hju20",
+   "en": "made a number of Japanese states non-core to avoid them being selected for factory placement in focuses"
+  },
+  {
+   "k": "4x38ny",
+   "en": "Franco-British Union now gives Britain all French generals"
+  },
+  {
+   "k": "11d60wl",
+   "en": "reduced war support for minor nations to prevent them from building giant armies"
+  },
+  {
+   "k": "1cpywut",
+   "en": "Anschluss and Restoring AH peacefully now transfers all generals of those countries to the respective new owner"
+  },
+  {
+   "k": "19xtzo3",
+   "en": "Swapped France's historical order of FRA_alpine_forts and FRA_naval_doctrine focuses to give France a slightly better chance against Italy."
+  },
+  {
+   "k": "i6p90k",
+   "en": "Backhand Blow tactic is now locked (unlocked by Deep Battle and Modern Blitzkrieg doctrine trees)."
+  },
+  {
+   "k": "d8x9zo",
+   "en": "Tactical Withdrawal tactic is now locked (unlocked by the Superior Firepower trees)."
+  },
+  {
+   "k": "1qbgp0p",
+   "en": "Chinese divisions which started at untrained now start at trained so players aren't inclined to disband them and train them from scratch (losing their unique names and wasting everyone's time)"
+  },
+  {
+   "k": "1074as1",
+   "en": "Hungary's DOD focus tree is now more responsive to countries being at war * diplomatic demands for territory will be bypassed if they are at war."
+  },
+  {
+   "k": "1l4izo0",
+   "en": "USA will now support nations fighting against extremism"
+  },
+  {
+   "k": "1i96p4i",
+   "en": "Rebalanced starting military factories for Japan"
+  },
+  {
+   "k": "c18ume",
+   "en": "World tension generated from sending land volunteers reduced (Air volunteers do not affect WT)."
+  },
+  {
+   "k": "12xhokw",
+   "en": "Base max planning reduced to 30%"
+  },
+  {
+   "k": "10xibly",
+   "en": "Grand Battle Plan doctrine tree planning bonuses reduced"
+  },
+  {
+   "k": "104i4xj",
+   "en": "Urban Assault Specialist now costs 500 xp (was 700)."
+  },
+  {
+   "k": "14yvf52",
+   "en": "Commando now also gains XP when fighting in hot climates."
+  },
+  {
+   "k": "1p51ve7",
+   "en": "Leaders that had the Panzer Leader trait now have the Armor Officer trait"
+  },
+  {
+   "k": "nvulvl",
+   "en": "German starting industry has been reduced to account for the MEFO bills that will pay for German industry buildup. It all makes sense in the end."
+  },
+  {
+   "k": "1wysg2k",
+   "en": "Soviet Purged Officers idea now has impact on training and factories as well to slow down Soviet somewhat. their effect on volunteers is also a bit more flat"
+  },
+  {
+   "k": "128bgi9",
+   "en": "Officers Purged spirit in soviet union now impacts how many volunteers can be sent abroad based on army size (decaying in effect by level)"
+  },
+  {
+   "k": "194ayvk",
+   "en": "Continuous air production focus now gives 10% bonus rather than 20%"
+  },
+  {
+   "k": "197rt93",
+   "en": "Superior firepowers techs under Shock & Awe now only apply to infantry and artillery and with reduced bonuses"
+  },
+  {
+   "k": "iyunlq",
+   "en": "Upgraded soviet NKVD spirit now gives 5% reinforcement rate bonus rather than 30%"
+  },
+  {
+   "k": "1mc5lq7",
+   "en": "The Deep battle branch in Mass assault now give a total of +10% reinforcement rate"
+  },
+  {
+   "k": "6oa0ro",
+   "en": "The Mass Mobilization branch in Mass assault now give a total of +20% reinforcement rate with most of it coming from Human Wave Offensive"
+  },
+  {
+   "k": "1njjeqn",
+   "en": "increased air attack for towed '36 anti-air from 17 to 19"
+  },
+  {
+   "k": "1j7cs61",
+   "en": "Made extreme weather modifiers stronger (except attrition) including increased supply usage from extreme heat"
+  },
+  {
+   "k": "17vzod2",
+   "en": "Made Walter Model more defensive"
+  },
+  {
+   "k": "1n4trqp",
+   "en": "Lowered cost of mechanized to 8/10/12 from 12/13/14 to make them more attractive"
+  },
+  {
+   "k": "flbsf6",
+   "en": "Added timed en-route penalty while switching generals"
+  },
+  {
+   "k": "p286e2",
+   "en": "Rebalanced Soft Attack:"
+  },
+  {
+   "k": "jvn6wx",
+   "en": "removed hidden bonuses to line artillery and tanks"
+  },
+  {
+   "k": "19yy9ow",
+   "en": "reduced number of guns in support artillery to 12"
+  },
+  {
+   "k": "r2n15u",
+   "en": "support arty now 10% less penalty compared to regular"
+  },
+  {
+   "k": "l1mw40",
+   "en": "artillery soft attack reduced between 15-30% depending on level (from 1.4 base)"
+  },
+  {
+   "k": "lkm8kf",
+   "en": "Self propelled arty soft attack reduced 20-30% depending on level (from 1.4 base)"
+  },
+  {
+   "k": "36h5r8",
+   "en": "tank soft attack reduced 13-20% depending on model (from 1.4 base)"
+  },
+  {
+   "k": "mp1saw",
+   "en": "Bugfix"
+  },
+  {
+   "k": "is7mr1",
+   "en": "Combat leader portraits are now always properly updated."
+  },
+  {
+   "k": "we6f82",
+   "en": "Fixed highlighting of taken army leaders in leader selection window."
+  },
+  {
+   "k": "vfuu7v",
+   "en": "Fixed disappearing attack orders when editing."
+  },
+  {
+   "k": "9118rc",
+   "en": "Fixed some modifier localizations."
+  },
+  {
+   "k": "niavzh",
+   "en": "Fixed booboo that made units, in certain situations, withdraw from combats they should remain in."
+  },
+  {
+   "k": "lepiup",
+   "en": "Portraits for leaders at the bottom now reload correctly."
+  },
+  {
+   "k": "c1mjmr",
+   "en": "Removed the extra bit on top of the leader portraits in the bottom view for the create buttons."
+  },
+  {
+   "k": "146u86p",
+   "en": "Fixed problem where it was not possible to create a new army from a selection of divisions already in an army."
+  },
+  {
+   "k": "vg4tp4",
+   "en": "Fixed an issue with disappearing fronts and orders."
+  },
+  {
+   "k": "asna6a",
+   "en": "Decreased max width of national focus detail view's prerequisite panel to having the same padding on the right as on the left, preventing text from occasionally overlapping the visual frame a little bit."
+  },
+  {
+   "k": "15kxah9",
+   "en": "Fixed the tooltip estimation of a naval transfer's chance of getting intercepted along the way. Used probabilistic math to determine overall chance that none of the random checks for interception will pass over the whole path, affected by movement speed since the checks occur hourly, and subtract that from 100% to get chance of interception."
+  },
+  {
+   "k": "14cldsa",
+   "en": "Fixed naval supply paths to correctly take into account actual versus needed convoy counts when determining convoy efficiency."
+  },
+  {
+   "k": "gufmaj",
+   "en": "A navy told to retreat to a distant province will no longer have its path truncated to just one province, and if it successfully retreats, it will clear its retreat flag and switch to normal movement as soon as it moves out of the original province where combat was taking place."
+  },
+  {
+   "k": "2aeiyj",
+   "en": "Prevented divisions being transported over water from being given a new destination while their transport ships are in combat; this prevents the exploit of letting them magically escape from combat."
+  },
+  {
+   "k": "jkir9s",
+   "en": "Fixed alignment of a couple of tutorial glow rectangles."
+  },
+  {
+   "k": "dgubt3",
+   "en": "Fixed main menu background so that it preserves its aspect ratio even when enlarged to fill a 4K monitor."
+  },
+  {
+   "k": "11f8vny",
+   "en": "Removed potential for mismatch of casualty count display in war dialog and tooltips."
+  },
+  {
+   "k": "bdylo2",
+   "en": "Fake News will now no longer report Bulgaria \"Accepted Romanian Demands\", when Bulgaria in fact rejected them."
+  },
+  {
+   "k": "52w4p1",
+   "en": "\"Pressure Yugoslavia\" events will now check whether Yugoslavia is at war."
+  },
+  {
+   "k": "tnqwxf",
+   "en": "Romanian Communist Revolutionary minister is now locked behind the 'Appoint Soviet Friendly Government' focus."
+  },
+  {
+   "k": "dc86lx",
+   "en": "Czechoslovak focus \"Knowledge Sharing Teams\" now correctly gives the 5th research slot if you have 4 research slots already."
+  },
+  {
+   "k": "1g1zct3",
+   "en": "Fixed typos and other text errors."
+  },
+  {
+   "k": "gekkwy",
+   "en": "Fixed even more typos and text errors."
+  },
+  {
+   "k": "aiszu7",
+   "en": "Fixed more typos than we are willing to admit. (wait you just did! /Podcat)"
+  },
+  {
+   "k": "1jq6ei6",
+   "en": "Fake News now no longer reports on \"Germany being under attack\", if Germany is only in a civil war."
+  },
+  {
+   "k": "13m0cwq",
+   "en": "Clarified the tooltips for German naval focuses."
+  },
+  {
+   "k": "1vcy6wv",
+   "en": "Nations will no longer be pulled out of a faction when invited to another through a focus."
+  },
+  {
+   "k": "11hrfkw",
+   "en": "The 1936 Olympics will no longer occur during a German civil war."
+  },
+  {
+   "k": "mdzsyu",
+   "en": "Hindenburg no longer travels to the USA if Germany is in a civil war."
+  },
+  {
+   "k": "1vemxic",
+   "en": "Fixed issue where you could not occupy territory from countries after they had a civil war"
+  },
+  {
+   "k": "16p9oww",
+   "en": "Fixed a bunch of issues with colonial flags in division deployment"
+  },
+  {
+   "k": "pm5au7",
+   "en": "Fixed a case where volunteers would sometimes count twice in calculations"
+  },
+  {
+   "k": "13giy19",
+   "en": "Fixed bug where supply areas did not take edge control into account when building the path to the capital"
+  },
+  {
+   "k": "2xryq9",
+   "en": "Fixed an issue where event flags would not be properly read in binary saves"
+  },
+  {
+   "k": "12uyffv",
+   "en": "Hid a bug that caused rebasing airplane icons in east asia to appear far below the ground ( note, this only hides the bug by clamping the icon height to the water level, it does not fix the actual problem )"
+  },
+  {
+   "k": "1p6379f",
+   "en": "Only majors in your faction that are at war with the country you are about to surrender to counts towards preventing minors from surrendering when they have major faction members who are still fighting ( previously faction members who were NOT in the war would also count )"
+  },
+  {
+   "k": "1sl2738",
+   "en": "Might possibly have fixed an issue where the capitulation flag in the war overview screen was not shown/hidden correctly"
+  },
+  {
+   "k": "1wbicf0",
+   "en": "Ships in navies set to never auto-repair no longer flee if their strength drops below 99%. They now flee at 10% like if auto-repair is set to low"
+  },
+  {
+   "k": "3xg701",
+   "en": "Fixed issue where casualties would not go the correct country when killing volunteers"
+  },
+  {
+   "k": "12grjww",
+   "en": "Fixed an issue where war merged and warscore was lost for one side"
+  },
+  {
+   "k": "52nios",
+   "en": "Combat tactics that are setup to end a combat phase will now correctly end the phase"
+  },
+  {
+   "k": "c4g3si",
+   "en": "Several bug fixes in battleplans about: shrinking defensive lines, over-expanding defensive lines, and other overall messups."
+  },
+  {
+   "k": "jejf3s",
+   "en": "Fixed issues with defensive lines leaving gaps, and misbehaving when mixed army and army group's def.lines along the same front."
+  },
+  {
+   "k": "1gbtjzp",
+   "en": "3d fleets should be now better at avoiding swimming through the ground."
+  },
+  {
+   "k": "1hyndbq",
+   "en": "3d fleets are now no longer so oversized."
+  },
+  {
+   "k": "1h0379q",
+   "en": "Made the radar circle effect prettier (more precise), and less annoying when there is lots of them overlapping each other."
+  },
+  {
+   "k": "1tlx1tt",
+   "en": "Crazy amount of fixes has been done to the new custom division names system."
+  },
+  {
+   "k": "1qmecuq",
+   "en": "The movement arrow has now different color, when withdrawing."
+  },
+  {
+   "k": "9ok2ea",
+   "en": "Movement arrows are now using normal maps (against static lighting for simplicity)."
+  },
+  {
+   "k": "uf1kfp",
+   "en": "Fixed combat withdrawing speed (no longer ultra slow, nearly stand still)."
+  },
+  {
+   "k": "1jjs6i8",
+   "en": "Fixed naval combat retreating, so it finally works correctly (using the in-combat retreating mechanics, before actually moving the fleet away)."
+  },
+  {
+   "k": "apulz6",
+   "en": "Fixed drawing movement arrows in OpenGL."
+  },
+  {
+   "k": "eu9wt8",
+   "en": "Fixed the custom texture override functionality so now it properly supports swapping textures for complex assets (that has more than 1 mesh). Feature used by the new feature of soldiers changing their camo."
+  },
+  {
+   "k": "1qb9prv",
+   "en": "Fixed bug in strategic air superiority map colors, and land combats having air superiority penalty on both sides."
+  },
+  {
+   "k": "wgk651",
+   "en": "Fixed bug in which the bonuses from tech to the acclimatization didn't worked."
+  },
+  {
+   "k": "1w2kohd",
+   "en": "Fixed eternal problem of units being stuck in the naval transportation. Solves also the problem of units standing forever idle in the source ports."
+  },
+  {
+   "k": "1jok9ck",
+   "en": "Fixed the behaviour of the units being navaly transported that can't reach their destination (bcoz for example impassable areas), will try to return home, before giving up and staying idle on the sea."
+  },
+  {
+   "k": "qxr3zq",
+   "en": "Fixed issue with the theater data not being cleared after sending back the volunteers home."
+  },
+  {
+   "k": "136j68w",
+   "en": "Fixed issues with battleplan freakouts for volunteers."
+  },
+  {
+   "k": "1ykygy5",
+   "en": "When game was launched with \"hoi4.exe -start_tag=ABC\" it's now possible to go back to main menu without being pushed back to the game."
+  },
+  {
+   "k": "1qermth",
+   "en": "Fixed badly offset rivers map."
+  },
+  {
+   "k": "1l7eqo0",
+   "en": "Fixed acclimatization console message from command \"acc\", so the confirmation values are between 0-100%."
+  },
+  {
+   "k": "1jrf1it",
+   "en": "Historical division names > Interface bug > In division template editor, tooltiping names no longer gives tooltip from elements underneath."
+  },
+  {
+   "k": "1l6lla4",
+   "en": "Historical division names > Fixed bug with missing names in the depl.lines after loading the save."
+  },
+  {
+   "k": "mduxo0",
+   "en": "Fixed very old issue with defensive lines being drawn with incorrect thickness offset."
+  },
+  {
+   "k": "1kwoir2",
+   "en": "Several fixes to the battleplan system related to the new level of the orders from the Army Groups."
+  },
+  {
+   "k": "uivom",
+   "en": "Defensive lines no longer changes color to \"beige\" when holding ALT."
+  },
+  {
+   "k": "1dhw56z",
+   "en": "No longer drawing frontlines when editing def.lines by holding ALT. Looks much cleaner."
+  },
+  {
+   "k": "11ioisd",
+   "en": "Production lines > Fixed bug that Click on Add new ship construction, added it always at the top instead of the bottom. Also made the scrollbar arrows up/down more responsive."
+  },
+  {
+   "k": "4v82f",
+   "en": "Production lines > Fixed bug in lines being stuck (drag'n drop stopped working + many dangerous malfunctions happened) after adding new line at the top by holding SHIFT."
+  },
+  {
+   "k": "thw5jj",
+   "en": "Production lines > Fixed bug in not being able to assign any naval factories, caused by adding drag'n drop feature."
+  },
+  {
+   "k": "dcdl6x",
+   "en": "Plenty of general fixes in drag'n drop of elements in production view."
+  },
+  {
+   "k": "m0wtjs",
+   "en": "Fixed bug with disappearing Army group's battleplans."
+  },
+  {
+   "k": "1k5tmcj",
+   "en": "The game checksum now should be ALWAYS the same in the launcher as in the game. The cheating prohibition is no longer done by breaking the checksum version, but via the interface instead * the multiplayer button is locked, and the tooltip explains why."
+  },
+  {
+   "k": "1kgak1w",
+   "en": "Setting the 1st option from the screen refresh rates list, actually does set that refresh rate."
+  },
+  {
+   "k": "jij5ok",
+   "en": "Right click with Alt+Ctrl and click to \"Open\" to open a interface element in the external editor, didn't worked on OSX until now."
+  },
+  {
+   "k": "tnx7si",
+   "en": "Fixed an issue where some diplomatic actions that does not require a response would have REPLYTEXT as localisation or an empty background."
+  },
+  {
+   "k": "1a5thbr",
+   "en": "Fixed a crash when using set_autonomy_state on a country and its overlord in the same effect."
+  },
+  {
+   "k": "ov7hj7",
+   "en": "Australian NF 'Support the Centre Party' and 'Empower the Workers' now requires colony/protectorate or higher instead of exact level."
+  },
+  {
+   "k": "13fa0kg",
+   "en": "Carriers now recalculate their airbase capacity when changing owner."
+  },
+  {
+   "k": "y3ktjx",
+   "en": "Fixed tooltip for supply consumption modifier showing as bad when negative."
+  },
+  {
+   "k": "6hbivn",
+   "en": "Fixed \"Wrong root scope in has_government trigger.\" going in the error log when a country had a civil war."
+  }
+ ]
+}

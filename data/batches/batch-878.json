@@ -1,0 +1,855 @@
+{
+ "batch": 878,
+ "pages": [
+  "Patch 1.17.X"
+ ],
+ "chars": 14951,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "aac4rg",
+   "en": "Added some light tanks to the Nationalist China stockpile to reflect prewar historical inventory."
+  },
+  {
+   "k": "dvd6i4",
+   "en": "Reduced influence gain from shared scientists in faction."
+  },
+  {
+   "k": "1nmv8ff",
+   "en": "Lowering and making PP gain from warlord subjects visible."
+  },
+  {
+   "k": "t3im35",
+   "en": "Made Nationalist China not wastefully send support to Hebei-Chahar."
+  },
+  {
+   "k": "177b5p0",
+   "en": "Swapped the populations of Hubei and Wuhan."
+  },
+  {
+   "k": "6p8fq3",
+   "en": "BEL: Chasseurs Ardennais now updated to be rangers with NCNS. National Spirit also updated accordingly."
+  },
+  {
+   "k": "cdac2n",
+   "en": "Added a new rule so that only the faction leader can set new faction goals."
+  },
+  {
+   "k": "1kgrhel",
+   "en": "PHI: Added more party names."
+  },
+  {
+   "k": "1vzqm0",
+   "en": "Added the ability to blow up and repair the oil fields in Burma."
+  },
+  {
+   "k": "sxq956",
+   "en": "Added a diplomatic trigger that prevents the warlord tags from releasing Nationalist or Communist China."
+  },
+  {
+   "k": "19potx8",
+   "en": "PHI: USA will now grant independence after the peaceful conclusion of the American Intervention from the Maritime Communism path. You no longer need to complete Treaty of Manila too."
+  },
+  {
+   "k": "171qzpm",
+   "en": "Nationalist China can now inherit historical Kuomintang generals from warlord subjects they annex through the autonomy system."
+  },
+  {
+   "k": "1dlfa1b",
+   "en": "PHI: Made the experience gain penalty reservable earlier (40% with National Defense Act)."
+  },
+  {
+   "k": "1f6ifw9",
+   "en": "Japanese puppet governments in China can now unlock the Senbu occupation law, and warlord tags that declare a monarchy now get new names for their non-aligned and fascist political parties."
+  },
+  {
+   "k": "1ad0n15",
+   "en": "The shared tree used by Manchukuo and the post-warlord trees now has the option to ask for handover of the treaty port coastal cities."
+  },
+  {
+   "k": "1b36x6g",
+   "en": "PHI: Added some research bonuses to the industrial concerns: Electronic to the Telephone Company, and Industrial to the Railroad Company."
+  },
+  {
+   "k": "anr5yd",
+   "en": "PHI: Added Basilio Valdes as a new Chief of Army available from the start, and not reliant on US or Japan."
+  },
+  {
+   "k": "qwwqcg",
+   "en": "Made it so Chinese AI always accepts white peace offers from Japan."
+  },
+  {
+   "k": "1de5xl4",
+   "en": "Added Zhu Jiahua for China, Kawashima Naniwa for Manchukuo and Garegin Apresov for Sinkiang as new advisors."
+  },
+  {
+   "k": "7jl3ao",
+   "en": "Added the Tauran Incident as an event chain and border war for Japan and Mongolia."
+  },
+  {
+   "k": "1uy01c5",
+   "en": "Added Weng Wenhao as a Chinese geologist advisor."
+  },
+  {
+   "k": "johk8w",
+   "en": "Added Darjeeling as a VP in West Bengal."
+  },
+  {
+   "k": "1pcqgix",
+   "en": "Added Itanagar as a VP."
+  },
+  {
+   "k": "1td432g",
+   "en": "Added a land raid against the Great Wall of China."
+  },
+  {
+   "k": "1poepd5",
+   "en": "Renamed some land cruiser secondary/additional weapons to avoid confusion with turret type modules."
+  },
+  {
+   "k": "7vc7o0",
+   "en": "Added new tutorial video to the in-game tutorial popup screen."
+  },
+  {
+   "k": "1h83hpk",
+   "en": "Stability & Performance"
+  },
+  {
+   "k": "s3vg8h",
+   "en": "Improved core utilization in AI updates."
+  },
+  {
+   "k": "c0x214",
+   "en": "Fixed a rare game state corruption when a player is kicked during hot-joining an MP game."
+  },
+  {
+   "k": "udeu6u",
+   "en": "Fixed a crash with clicking the naval HQ button on the Officer Corps window."
+  },
+  {
+   "k": "fko160",
+   "en": "Top bar tooltip for Factories will now include Factories sent/received from Subject Relations (Send to Overlord/Received from Subjects)."
+  },
+  {
+   "k": "1ne1ruz",
+   "en": "Fixed an oversized fallback icon in the factions list window."
+  },
+  {
+   "k": "10qrnpv",
+   "en": "Fixed reopened state view while selecting a province."
+  },
+  {
+   "k": "s7t66j",
+   "en": "PHI: Added better clarification for the focuses that reduce the time taken by National Defense Act."
+  },
+  {
+   "k": "19eou0n",
+   "en": "Added tooltip information when editing un-owned faction theaters."
+  },
+  {
+   "k": "1vqf9zs",
+   "en": "Added a new Beiyang Army focus icon used by the various Chinese warlords."
+  },
+  {
+   "k": "1sejig3",
+   "en": "Updated the post-warlord Nationalist China tree to use more modern and accurate focus icons."
+  },
+  {
+   "k": "1eq1hmg",
+   "en": "Update to faction commander selection to show relevant skills."
+  },
+  {
+   "k": "zy9bqs",
+   "en": "Subdoctrines that have custom mastery conditions will display them when hovered over in the subdoctrine list."
+  },
+  {
+   "k": "1p4dk9u",
+   "en": "Added an energy text icon."
+  },
+  {
+   "k": "ha5dck",
+   "en": "Fixed display of air mission intel."
+  },
+  {
+   "k": "nsjgl8",
+   "en": "Small fix highlighted states in PHI Maphilindo formables."
+  },
+  {
+   "k": "1nw53et",
+   "en": "Fixed missing information on request garrison support. faction action."
+  },
+  {
+   "k": "1e0c5kv",
+   "en": "Removed some unnecessary doctrines alerts."
+  },
+  {
+   "k": "115k5ik",
+   "en": "Updated localization for the new Guerrilla Expert trait and old Guerrilla Warfare Expert (now \"Guerilla Warfare Expert\" and \"Counter Insurgency Expert\", respectively)."
+  },
+  {
+   "k": "eh7zyc",
+   "en": "Changed add_faction_influence_effect localization to take into account possible negative faction influence."
+  },
+  {
+   "k": "1z0dlm0",
+   "en": "Adjusted loc for mastery condition tooltips."
+  },
+  {
+   "k": "18k7xf9",
+   "en": "The Warlord PRC cosmetic tag now has a color assigned to it."
+  },
+  {
+   "k": "17w6z6a",
+   "en": "Fixed wrong localization in select country menu for Northeastern Army."
+  },
+  {
+   "k": "1in6az",
+   "en": "Fixed the icon of Extra Supplies ability changing when clicking on different generals"
+  },
+  {
+   "k": "13d38ax",
+   "en": "Fixed issue with AI not putting training task forces in the correct locations."
+  },
+  {
+   "k": "lxou0z",
+   "en": "Adjusted some post-independence Manchu AI focus values to be more reasonable if the strategy plan was cancelled due to Japan going democratic or communist."
+  },
+  {
+   "k": "fwadgu",
+   "en": "Japan will now produce carrier planes post 1939."
+  },
+  {
+   "k": "153zlyn",
+   "en": "Fixed an issue with naval AI where RAJ would not use the ships received from the UK following \"The Jewel Becomes the Crown\" focus."
+  },
+  {
+   "k": "1agdz0i",
+   "en": "AI will now respect strategic region access settings."
+  },
+  {
+   "k": "1gr7jx1",
+   "en": "The AI desire to recruit land scientists will now properly be checked when possessing a land facility, rather than a nuclear one."
+  },
+  {
+   "k": "758xrv",
+   "en": "Implemented folder-wide doctrine mastery gain modifiers (e.g. land_mastery_gain_factor)."
+  },
+  {
+   "k": "19cgct",
+   "en": "Implemented active trigger for doctrine tracks, preventing subdoctrine assignment and mastery gain if not fulfilled."
+  },
+  {
+   "k": "17wvlnm",
+   "en": "Implemented has_any_grand_doctrine trigger, which checks if a certain folder has any assigned grand doctrine."
+  },
+  {
+   "k": "3y3qew",
+   "en": "Added modifier energy_gain_factor."
+  },
+  {
+   "k": "1tyw3on",
+   "en": "Improved text for when has_manpower_to_become_leader has_industry_to_become_leader has_enough_influence_for_leadership are being implemented with = 0."
+  },
+  {
+   "k": "1t12wmj",
+   "en": "Added ImGui to visualize AI faction theaters."
+  },
+  {
+   "k": "1l2iif3",
+   "en": "Added dummy decision to show available integration targets if controlled."
+  },
+  {
+   "k": "1lm1gt0",
+   "en": "Fixed inconsistent tooltips describing military spirits as \"available due to our doctrines\"."
+  },
+  {
+   "k": "k8145j",
+   "en": "Renamed Empress Nagako to just \"Nagako\"."
+  },
+  {
+   "k": "1byb0de",
+   "en": "Iraq can now bypass the focus \"Nationalize the Anglo-Iraqi Oil Company\" if the UK no longer has the resource rights to their country."
+  },
+  {
+   "k": "saw90a",
+   "en": "The US will no longer send lend-lease to non-aligned Japan except if they have done the focus \"Form the Jikyoku Iinkai\"."
+  },
+  {
+   "k": "c3f2",
+   "en": "Fixed minor typos here and there."
+  },
+  {
+   "k": "7wuj9a",
+   "en": "Added some missing states to the Turan formable, and allowed Kalmykia to form Greater Mongolia, which now also gains a core on the respective region."
+  },
+  {
+   "k": "eydcd",
+   "en": "Communist China: Fixed advisor Kang Sheng not being unlocked in focus \"Lessons of the West\"."
+  },
+  {
+   "k": "1njvjlh",
+   "en": "Communist China: Fixed incorrect stability modifier used in BoP decision Question Old Traditions, Criticize Dogmatism, Criticize The Former Leadership."
+  },
+  {
+   "k": "1huis3v",
+   "en": "Communist China: Made a hidden idea actually hidden (from A New Central Committee)."
+  },
+  {
+   "k": "1ui9nfq",
+   "en": "Added back the Chinese air force that was sent to the wrong states in the NCNS reworks, and blinked out of existence as a result."
+  },
+  {
+   "k": "u7zic5",
+   "en": "Fixed the diplomatic action \"Cancel Garrison Support\" wrongly showing up without NCNS enabled."
+  },
+  {
+   "k": "ujmhi4",
+   "en": "\"Shifting the Balance\" and \"Joining the International Community\" focus requires China to be independent."
+  },
+  {
+   "k": "kmtqyh",
+   "en": "\"Lay the Foundation for a United China\" will now give autonomy if China is a subject."
+  },
+  {
+   "k": "p4wa78",
+   "en": "\"Eternal Revolution\" now requires China to be independent to be able to create a faction."
+  },
+  {
+   "k": "zq26p3",
+   "en": "Force attack will now correctly ruin the entrenchment of those who haven't taken the Chinese focus \"Know Thy Enemy\", was previously wrongly applied to everyone."
+  },
+  {
+   "k": "tsp4xc",
+   "en": "\"Part of the Comintern\" focus requires Communist China to be be independent to be able to join a faction."
+  },
+  {
+   "k": "rtla9g",
+   "en": "Fixed three instances where Japan could create a faction while being a subject of another nation."
+  },
+  {
+   "k": "7s52uh",
+   "en": "PHI: Luis Taruc becoming available now added to the \"Legalize the Communist Party\" focus tooltip."
+  },
+  {
+   "k": "iwc5yv",
+   "en": "Fixed a Chinese warlord focus not updating its name correctly."
+  },
+  {
+   "k": "1p6tehd",
+   "en": "Fixed an issue where the focus \"A New Dawn Over Manchuria\" would give combat bonuses against a non-existent country."
+  },
+  {
+   "k": "1fc8yr9",
+   "en": "Yasuhito will now properly be referred to as the Sesshō in the Imperial Influence window if that option was selected in the Kodoha path."
+  },
+  {
+   "k": "1w39dq5",
+   "en": "PHI: Eisenhower and MacArthur return to USA event now states correct country."
+  },
+  {
+   "k": "1izinb9",
+   "en": "PHI: Reduced chance USA will recall MacArthur."
+  },
+  {
+   "k": "cdo02o",
+   "en": "Fixed an issue where Korean resistance modifiers would still be present when Asia was decolonised."
+  },
+  {
+   "k": "9y7kku",
+   "en": "PHI: Added special description to the \"Treaty of Manila\" focus if the Philippines is already independent."
+  },
+  {
+   "k": "135w7oe",
+   "en": "Fixed an issue where the achievement \"Hail to the Qing\" couldn't be completed with the NCNS dlc enabled."
+  },
+  {
+   "k": "1wpvosi",
+   "en": "X-Force and Y-Force decisions can now only be fired once."
+  },
+  {
+   "k": "6knqpw",
+   "en": "Military access will now only be given to those that one doesn't already have it to when forming the X-force."
+  },
+  {
+   "k": "f2e005",
+   "en": "PHI: \"Scramble for Leadership\" event now makes clear that José Laurel increases the chance for Japanese support in \"Secure Japanese Guarantees\" focus."
+  },
+  {
+   "k": "wvmtu1",
+   "en": "Fixed an issue where the Japanese puppet governments in India and Burma wouldn't spawn if the recipient had capitulated by the time the decision was taken."
+  },
+  {
+   "k": "1qrzled",
+   "en": "PHI: Fixed \"Reino de Filipinas\" focus - Whole Spain cannot be cored if more than one flavour of Spain exists."
+  },
+  {
+   "k": "1nt9v30",
+   "en": "Fixed an issue where unit design cost modifiers could go beyond -100%."
+  },
+  {
+   "k": "66i9hf",
+   "en": "PHI: Added Philippine country leader names for those who do not have No Compromise, No Surrender."
+  },
+  {
+   "k": "1vqk688",
+   "en": "PHI: Added a Fascist Demagogue for those who do not have No Compromise, No Surrender."
+  },
+  {
+   "k": "179ceny",
+   "en": "Fixed an edge case where Xian incident would trigger from warlord decision if CHI or PRC leaves the CUF, if formed by PRC without Xian incident"
+  },
+  {
+   "k": "p186le",
+   "en": "Removed the unintended Unit Medal Effectiveness modifier from Early Mobilization Law."
+  },
+  {
+   "k": "10fslvh",
+   "en": "Fixed the faction goal \"Fortify Iwo Jima\" checking wrong province."
+  },
+  {
+   "k": "1jkvpe6",
+   "en": "Switched out the advisor icon for Weng Wenhao to have the proper blue background."
+  },
+  {
+   "k": "1v011rk",
+   "en": "Fixed an issue where the Japanese carrier Zuikaku would be called \"Zaikaku\" if created through a focus."
+  },
+  {
+   "k": "1yehqfd",
+   "en": "The tooltip for the achievement \"The Winner Takes it All\" now correctly displays The Chinese Soviet Republic's name instead of China."
+  },
+  {
+   "k": "129x7f6",
+   "en": "Clarified the success conditions to achieve the \"Our Words are Backed with Nuclear Weapons\" achievement."
+  },
+  {
+   "k": "rusmza",
+   "en": "Fixed an issue where some warlord decisions meant to take over leadership from China stayed even after doing so."
+  },
+  {
+   "k": "1s0atro",
+   "en": "Fixed an issue where the Japanese focus \"The Chrysanthemum Throne\" would not properly make Hirohito the country leader if the NCNS dlc was disabled."
+  },
+  {
+   "k": "1soxeud",
+   "en": "Fixed \"Defeat of Anti-Fascists\" goal to correctly become visible when no faction members are communist or democratic."
+  },
+  {
+   "k": "17fug4z",
+   "en": "Fixed \"Defeat of Anti-Communists\" goal to correctly be taken by AI when at war with fascists."
+  },
+  {
+   "k": "1xfgy8s",
+   "en": "Fixed an issue where three Japanese divisions would start black-flagged in the 1939 scenario."
+  },
+  {
+   "k": "1dz274k",
+   "en": "Removed the Mining Commission industrial concern from Communist China."
+  },
+  {
+   "k": "vx4bao",
+   "en": "Phi: You can now invite Hispanic nations to join you after you have completed the Treaty of Manila."
+  },
+  {
+   "k": "u5kh56",
+   "en": "Fixed some cases of faction rule availability displaying twice."
+  },
+  {
+   "k": "c520jq",
+   "en": "PER - The Pahlavi Imperium - David Monshizadeh no longer remains visible as Political Advisor when fascist tree is no longer available."
+  },
+  {
+   "k": "pnhfj4",
+   "en": "RAJ - Sharpen the Tulwar - Fixed focus effect that still mentions receiving Mountain Infantry I technology, when the technology is already researched."
+  },
+  {
+   "k": "16ax3dj",
+   "en": "AFG - Added a bypass condition to the focus \"The Red Threat\" and \"Into the Plains of India\"."
+  },
+  {
+   "k": "13t6wo4",
+   "en": "GER - Fixed Motorized Division historical name list disappearing after becoming Communist Germany."
+  },
+  {
+   "k": "16h3ggk",
+   "en": "Fixed an issue with ghost leaders in naval HQ."
+  },
+  {
+   "k": "11fjkk6",
+   "en": "Fixed an issue with China being part of a decision targeting Chile."
+  },
+  {
+   "k": "13c6en1",
+   "en": "Fixed \"Generalized Support\" and \"The New School\" naval subdoctrines to have correct equipment bonuses."
+  },
+  {
+   "k": "85q7m4",
+   "en": "Fixed naval task forces violating the laws of spacetime by being in several places at once."
+  },
+  {
+   "k": "1n3dk1k",
+   "en": "Fixed an issue where the Japanese focus 'Strategic Offensives\" wasn't being properly blocked by the 'Surprise Invasion' national spirit."
+  },
+  {
+   "k": "40mcc2",
+   "en": "Patch 1.17.3, was released on 2025-12-10⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "9hg9ej",
+   "en": "f303"
+  },
+  {
+   "k": "i30o8m",
+   "en": "Nerfed \"Tank Destroyer Force\" subdoctrine slightly by lowering initiative & max organization"
+  },
+  {
+   "k": "lc7xcu",
+   "en": "Nerfed \"Grand Assault\" subdoctrine slightly by reducing the maximum organization gained"
+  },
+  {
+   "k": "1t2fm7w",
+   "en": "Sets a more reasonable initiative buff on Tank destroyer force and People's militia subdoctrines to avoid overstacking"
+  },
+  {
+   "k": "1a6g67f",
+   "en": "Changes to doctrine mastery gain modifiers in several focus trees"
+  },
+  {
+   "k": "1yv9wl5",
+   "en": "Increased the number of battalions required by a faction to complete the \"Establish a Marine Corps\" and \"Expand Our Armored Forces\" Goals."
+  },
+  {
+   "k": "1ewkl8n",
+   "en": "updated the width reduction effect on artillery from the Fire Concentration subdoctrine to also affect line rocket artillery."
+  },
+  {
+   "k": "114arsa",
+   "en": "Lowered Sun Li Jen to a level 3"
+  },
+  {
+   "k": "1g7801s",
+   "en": "Draw Support from the Big Families is now a 35 day focus"
+  },
+  {
+   "k": "uj19oe",
+   "en": "Now when owning By Blood Alone China starts with a couple more air techs."
+  },
+  {
+   "k": "l9s803",
+   "en": "Lower base war support for China from 50% to 32%"
+  },
+  {
+   "k": "3u80ct",
+   "en": "The 4 Defense Areas now give their state modifier for 210 days instead of 120 and now applies to subjects and faction members"
+  },
+  {
+   "k": "mkitud",
+   "en": "A Shield Towards the Sky now gives 2 research bonuses a la 50% for Anti-Air and state AA now gets applied to subjects as well"
+  },
+  {
+   "k": "10io4w5",
+   "en": "A Wall into the Sea is now a 35 day focus"
+  },
+  {
+   "k": "2dc1gc",
+   "en": "Made operation Ichi-go more expensive to start, and have slightly harsher penalties if not completed in time"
+  },
+  {
+   "k": "q7gnuu",
+   "en": "Lowered winter attrition from 50% to 40%"
+  },
+  {
+   "k": "650r9n",
+   "en": "Increased accident chance on low experience airwings"
+  },
+  {
+   "k": "4mormq",
+   "en": "Added more coal to three pre-ncns focuses related to coal mining, and added a small amount of starting coal in the southern Congo"
+  },
+  {
+   "k": "17pb6h3",
+   "en": "The Nationalist Chinese and post-warlord focus \"60-Divisions Plan\" now displays the effect of the decision it unlocks, and takes 35 days"
+  },
+  {
+   "k": "m3aq67",
+   "en": "Nerfed CAS damage to strength from 0.08 to 0.05"
+  },
+  {
+   "k": "19daqa9",
+   "en": "Gave Soviet Union a negative to mastery gain that can be removed by replacing \"Politicized Military\""
+  },
+  {
+   "k": "11m1xuc",
+   "en": "Added Ranger divisional namelists for a number of countries"
+  },
+  {
+   "k": "17sz8kn",
+   "en": "Yang Sen and Jamphel Yeshe Gyaltsen now start with country leader traits, and country leader swap for Qinghai Ma and the Sichuan Clique now properly preserve the country leader traits and roles for other ideology variants"
+  },
+  {
+   "k": "4rr503",
+   "en": "Reworked \"Establish a Marine Corps\" Goal to now require any type of Amphibious battalions, and to require them to be >90% equipped."
+  },
+  {
+   "k": "1mchy24",
+   "en": "Adjusted \"Expand Our Armored Forces\" short-term Goal to now require the armored battalions to be >90% equipped."
+  },
+  {
+   "k": "882i52",
+   "en": "Added a requirement to control 50% of Austronesian claimed states before being able to take the Philippine \"Masters of the Pacific\" focus."
+  },
+  {
+   "k": "1jc1fwd",
+   "en": "Made Sun Li Jen available from game start"
+  },
+  {
+   "k": "cc6fc0",
+   "en": "Added a decision to invest in your officer training to increase your recruit able population faster"
+  },
+  {
+   "k": "s6keuz",
+   "en": "Added \"Establish an Airborne Corps\" and \"Establish a Mountaineer Corps\" medium-term Goals."
+  },
+  {
+   "k": "14xmyy6",
+   "en": "Added the \"Production Quotas\" short-term Goal."
+  },
+  {
+   "k": "1q4tfb0",
+   "en": "Added the \"Convoy Sufficiency\" short-term Goal."
+  },
+  {
+   "k": "q8zsy0",
+   "en": "Updated and cleaned up the East Asian Country trigger for faction rules"
+  },
+  {
+   "k": "twmygx",
+   "en": "Fixed an issue where AI controlled taskforces would sometimes abort a movement to go back to base, when there was no reason to"
+  },
+  {
+   "k": "343gip",
+   "en": "Naval AI will no longer try to protect its coast if the enemy has no navy. This includes when not at war, so no more wasting fuel on that."
+  },
+  {
+   "k": "15dm3fv",
+   "en": "Made Naval AI pre-emptively protect the coast of home area if there are incoming war goals or world tension is above 50%"
+  },
+  {
+   "k": "121qyti",
+   "en": "Fixed issue where very few countries would build dominance where required for naval blockade to work"
+  },
+  {
+   "k": "rmbebj",
+   "en": "Fixed issue where AI would create new fleets every day, changing colors and names of the fleets very often"
+  },
+  {
+   "k": "11fkl7i",
+   "en": "Improved AI taskforce selection and re-enabled convoy escort mission for AI"
+  },
+  {
+   "k": "1g7j2gf",
+   "en": "The Japanese Ai will now wait a little bit before popping out Vietnam, Laos and Cambodia as subjects in Indochina"
+  },
+  {
+   "k": "y8u5xc",
+   "en": "AI no longer builds energy & resource infrastructure too early"
+  },
+  {
+   "k": "zepicc",
+   "en": "Added support for setting the equipment ratio's for land units / unit categories in the count_in_collection effect"
+  },
+  {
+   "k": "1uyugrr",
+   "en": "added support for the count in collection to use sub unit categories and sub unit definitions"
+  }
+ ]
+}

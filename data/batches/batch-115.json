@@ -1,0 +1,1682 @@
+{
+ "batch": 115,
+ "pages": [
+  "Defines"
+ ],
+ "chars": 14989,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "1gdebcm",
+   "en": "STRAT_BOMBER_FIREBOMB_THRESHOLD"
+  },
+  {
+   "k": "1uo1467",
+   "en": "If a strategic bomber has a strat_bomber value >= this, then the firebombing animation will be used"
+  },
+  {
+   "k": "2v2c3l",
+   "en": "STRAT_BOMBER_CARPETBOMB_THRESHOLD"
+  },
+  {
+   "k": "1e8zrnb",
+   "en": "If a strategic bomber has a strat_bomber value >= this, then the carpet-bombing animation will be used"
+  },
+  {
+   "k": "6lhzv",
+   "en": "BOMBERS_DIVISION_FACTOR"
+  },
+  {
+   "k": "qb0eoh",
+   "en": "Number of bombers in a strategic region will be divided by this factor."
+  },
+  {
+   "k": "1rb9zak",
+   "en": "MISSILES_DIVISION_FACTOR"
+  },
+  {
+   "k": "1l8umxf",
+   "en": "Number of missiles shown in a strategic region will be divided by this factor."
+  },
+  {
+   "k": "10xzrvn",
+   "en": "FIGHTERS_DIVISION_FACTOR"
+  },
+  {
+   "k": "10b3n64",
+   "en": "SCOUT_PLANE_DIVISION_FACTOR"
+  },
+  {
+   "k": "f5965y",
+   "en": "TRANSPORT_DIVISION_FACTOR"
+  },
+  {
+   "k": "lhhxzh",
+   "en": "MAX_MISSILE_BOMBING_SCENARIOS"
+  },
+  {
+   "k": "lvqhvs",
+   "en": "Max number of missile bombing scenarios in a strategic region."
+  },
+  {
+   "k": "1r8gp4k",
+   "en": "MAX_PATROL_SCENARIOS"
+  },
+  {
+   "k": "3stoe0",
+   "en": "Max number of patrol scenarios in a strategic region."
+  },
+  {
+   "k": "1yqevoq",
+   "en": "MAX_BOMBING_SCENARIOS"
+  },
+  {
+   "k": "1lzuf2x",
+   "en": "Max number of bombings scenarios in a strategic region."
+  },
+  {
+   "k": "iww383",
+   "en": "MAX_DOGFIGHTS_SCENARIOS"
+  },
+  {
+   "k": "fksqyu",
+   "en": "Max number of dogfight scenarios in a strategic region."
+  },
+  {
+   "k": "5dul3n",
+   "en": "MAX_TRANSPORT_SCENARIOS"
+  },
+  {
+   "k": "jzt29z",
+   "en": "Max number of transport scenarios in a strategic region"
+  },
+  {
+   "k": "nf1xdw",
+   "en": "MAX_TRAINING_SCENARIOS"
+  },
+  {
+   "k": "1wgxfoi",
+   "en": "Max number of training scenarios in a strategic region"
+  },
+  {
+   "k": "1sc237k",
+   "en": "MAX_SCOUT_SCENARIOS"
+  },
+  {
+   "k": "1dw6o41",
+   "en": "COUNTER_MODE_ALLEGIANCE_OURS"
+  },
+  {
+   "k": "4l9yph",
+   "en": "COUNTER_MODE_ALLEGIANCE_ALLIED"
+  },
+  {
+   "k": "lrac6y",
+   "en": "COUNTER_MODE_ALLEGIANCE_ENEMY"
+  },
+  {
+   "k": "1sg17bo",
+   "en": "COUNTER_MODE_ALLEGIANCE_OTHER"
+  },
+  {
+   "k": "yhyxfe",
+   "en": "MAX_NUMBER_OF_TEXTURES"
+  },
+  {
+   "k": "1bx1zbv",
+   "en": "increase if you have more than this textures"
+  },
+  {
+   "k": "1ih1x2t",
+   "en": "MIN_TRAIN_WAGON_COUNT"
+  },
+  {
+   "k": "u5fg07",
+   "en": "MAX_TRAIN_WAGON_COUNT"
+  },
+  {
+   "k": "l5xj7m",
+   "en": "RAILWAY_BRIDGE_ENTITY"
+  },
+  {
+   "k": "giigw0",
+   "en": "\"bridge_railway_entity\""
+  },
+  {
+   "k": "1jqie66",
+   "en": "RAILWAY_BRIDGE_LARGE_ENTITY"
+  },
+  {
+   "k": "1udg82c",
+   "en": "\"bridge_railway_large_entity\""
+  },
+  {
+   "k": "d6rksu",
+   "en": "RAILWAY_Y_OFFSET"
+  },
+  {
+   "k": "1c0pwb1",
+   "en": "Railways are offset by this amount vertically from the map"
+  },
+  {
+   "k": "1dtr9yu",
+   "en": "RAILWAY_BRIDGE_Y_OFFSET"
+  },
+  {
+   "k": "9q8y76",
+   "en": "Railway bridges are offset by this amount vertically from the map"
+  },
+  {
+   "k": "15xvnxj",
+   "en": "RAILWAY_BRIDGE_WIDTH"
+  },
+  {
+   "k": "rbvdkl",
+   "en": "Railways will have straight segments of this length for regular bridges"
+  },
+  {
+   "k": "1meepc3",
+   "en": "RAILWAY_BRIDGE_LARGE_WIDTH"
+  },
+  {
+   "k": "bdufqq",
+   "en": "Railways will have straight segments of this length for large bridges"
+  },
+  {
+   "k": "1blv0lw",
+   "en": "RAILWAY_BRIDGE_GAP_WIDTH"
+  },
+  {
+   "k": "c9siq0",
+   "en": "Railways will have gaps of this length for regular bridges"
+  },
+  {
+   "k": "11n9h8k",
+   "en": "RAILWAY_BRIDGE_GAP_LARGE_WIDTH"
+  },
+  {
+   "k": "1s85fwn",
+   "en": "Railways will have gaps of this length for large bridges"
+  },
+  {
+   "k": "744t0",
+   "en": "TRAIN_MAP_SPEED"
+  },
+  {
+   "k": "1mxfn2m",
+   "en": "Trains will move at this relative speed. This has no gameplay implications. Changing this value (originally 4.0) may cause audio effects to lose sync with animation."
+  },
+  {
+   "k": "qqt363",
+   "en": "TUNNELBANA_TIMETABLE"
+  },
+  {
+   "k": "1u94q3",
+   "en": "Frequency range in milliseconds for regular train service. Adjust this if changing speed to avoid LONGTRAIN"
+  },
+  {
+   "k": "1arxgz7",
+   "en": "MAX_MESHES_LOADED_PER_FRAME"
+  },
+  {
+   "k": "1x8kyh4",
+   "en": "MESH_POPUP_SCALE_UP_SPEED"
+  },
+  {
+   "k": "6ec12p",
+   "en": "MESH_POPUP_SCALE_DOWN_SPEED"
+  },
+  {
+   "k": "pmdmqk",
+   "en": "SHIP_POPUP_SCALE_DOWN_SPEED"
+  },
+  {
+   "k": "znqgd9",
+   "en": "PORT_SHIP_OFFSET"
+  },
+  {
+   "k": "jfh8o6",
+   "en": "SHIP_IN_PORT_SCALE"
+  },
+  {
+   "k": "hy9ul5",
+   "en": "MAP_BUILDINGS_SHRINK_DISTANCE"
+  },
+  {
+   "k": "1yf5ijs",
+   "en": "CITY_SPRAWL_SHRINK_DISTANCE"
+  },
+  {
+   "k": "cuxwbe",
+   "en": "Start shrinking at this distance"
+  },
+  {
+   "k": "1fuiht7",
+   "en": "DRAW_MAP_OBJECTS_CUTOFF"
+  },
+  {
+   "k": "1a1rpbv",
+   "en": "Remove map objects at this distance"
+  },
+  {
+   "k": "1k91owa",
+   "en": "PROVINCE_NAME_DRAW_DISTANCE"
+  },
+  {
+   "k": "hh36kh",
+   "en": "Remove province names beyond this distance"
+  },
+  {
+   "k": "1gi0kyr",
+   "en": "DIRECTION_POINTER_DRAW_DISTANCE"
+  },
+  {
+   "k": "1h76584",
+   "en": "Direction pointer arrow will not be drawn beyond this distance"
+  },
+  {
+   "k": "1hw0td1",
+   "en": "DIRECTION_POINTER_INTERPOLATION_SPEED"
+  },
+  {
+   "k": "c2fk5p",
+   "en": "How fast the arrow is interpolating"
+  },
+  {
+   "k": "1hz5tu",
+   "en": "DIRECTION_POINTER_SCREEN_AREA_MAX"
+  },
+  {
+   "k": "1xfezk",
+   "en": "The moment when the arrow snaps to the province (value is in DOT PRODUCT) 0.9-0.99"
+  },
+  {
+   "k": "1lix8qw",
+   "en": "DIRECTION_POINTER_SCREEN_AREA_MIN"
+  },
+  {
+   "k": "17b3kld",
+   "en": "The moment when the arrow starts getting closer to the target before it snaps."
+  },
+  {
+   "k": "1nqohxj",
+   "en": "DIRECTION_POINTER_SIZE_MIN"
+  },
+  {
+   "k": "vwwwdc",
+   "en": "Size of the arrow interpolated dependly on camera distance"
+  },
+  {
+   "k": "110cind",
+   "en": "DIRECTION_POINTER_SIZE_MAX"
+  },
+  {
+   "k": "n6osus",
+   "en": "DIRECTION_POINTER_GROUND_OFFSET"
+  },
+  {
+   "k": "2x3sng",
+   "en": "Offset Y above the ground for arrow to point at"
+  },
+  {
+   "k": "1ub3nyu",
+   "en": "LIGHT_DIRECTION_X"
+  },
+  {
+   "k": "1ul39nt",
+   "en": "LIGHT_DIRECTION_Y"
+  },
+  {
+   "k": "1tr4gkw",
+   "en": "LIGHT_DIRECTION_Z"
+  },
+  {
+   "k": "xzpvqx",
+   "en": "LIGHT_SHADOW_DIRECTION_X"
+  },
+  {
+   "k": "xpqa1y",
+   "en": "LIGHT_SHADOW_DIRECTION_Y"
+  },
+  {
+   "k": "xfqocz",
+   "en": "LIGHT_SHADOW_DIRECTION_Z"
+  },
+  {
+   "k": "13m05ks",
+   "en": "LIGHT_HDR_RANGE"
+  },
+  {
+   "k": "1ry5jmc",
+   "en": "BORDER_WIDTH"
+  },
+  {
+   "k": "omf84y",
+   "en": "PROVINCE_BORDER_FADE_NEAR"
+  },
+  {
+   "k": "1fbljk1",
+   "en": "PROVINCE_BORDER_FADE_FAR"
+  },
+  {
+   "k": "13yegdj",
+   "en": "STATE_BORDER_FADE_NEAR"
+  },
+  {
+   "k": "184v7dy",
+   "en": "STATE_BORDER_FADE_FAR"
+  },
+  {
+   "k": "1altg11",
+   "en": "LAND_UNIT_MOVEMENT_SPEED"
+  },
+  {
+   "k": "xvhv5m",
+   "en": "NAVAL_UNIT_MOVEMENT_SPEED"
+  },
+  {
+   "k": "v6kfhe",
+   "en": "ARROW_MOVEMENT_SPEED"
+  },
+  {
+   "k": "b6zzrz",
+   "en": "DRAW_COUNTRY_NAMES_CUTOFF"
+  },
+  {
+   "k": "14ctcph",
+   "en": "Cutoff for drawing country names on the map"
+  },
+  {
+   "k": "1b8y102",
+   "en": "TRADEROUTE_SMOOTHNESS"
+  },
+  {
+   "k": "18gb2e2",
+   "en": "TRADEROUTE_SMOOTHEN_PASSES"
+  },
+  {
+   "k": "2vsvuq",
+   "en": "SUPPLYFLOW_SMOOTHNESS"
+  },
+  {
+   "k": "1xqhfpm",
+   "en": "SUPPLYFLOW_SMOOTHEN_PASSES"
+  },
+  {
+   "k": "1jtw1a8",
+   "en": "SNAPPED_OFF_FRONT_SMOOTHNESS"
+  },
+  {
+   "k": "1bh009w",
+   "en": "SNAPPED_OFF_FRONT_SMOOTHEN_PASSES"
+  },
+  {
+   "k": "203bqf",
+   "en": "ROOT_FRONT_SMOOTHNESS"
+  },
+  {
+   "k": "xb1hqt",
+   "en": "ROOT_FRONT_SMOOTHEN_PASSES"
+  },
+  {
+   "k": "1ju02np",
+   "en": "ROOT_FRONT_OFFSET"
+  },
+  {
+   "k": "17bqk4d",
+   "en": "How far the defensive line is offset from the front."
+  },
+  {
+   "k": "1jkd3u2",
+   "en": "ROOT_FRONT_MAX_INTERSECTION_TESTS_FRONT"
+  },
+  {
+   "k": "1hazd15",
+   "en": "How many points before the current one to check for intersections against (optimization)"
+  },
+  {
+   "k": "112uswd",
+   "en": "ROOT_FRONT_MAX_INTERSECTION_TESTS_ORDER"
+  },
+  {
+   "k": "1f8tybt",
+   "en": "ORDER_FRONT_MAX_OFFSETS"
+  },
+  {
+   "k": "e9u87n",
+   "en": "Max amount, the overlapping defensive lines can offset from the border."
+  },
+  {
+   "k": "whfxqt",
+   "en": "ORDER_FRONT_SMOOTHNESS"
+  },
+  {
+   "k": "17ualr",
+   "en": "ORDER_FRONT_SMOOTHEN_PASSES"
+  },
+  {
+   "k": "985loz",
+   "en": "ORDER_MOVE_SMOOTHNESS"
+  },
+  {
+   "k": "6vbdux",
+   "en": "ORDER_MOVE_SMOOTHEN_PASSES"
+  },
+  {
+   "k": "1fckhlv",
+   "en": "UNIT_TURN_SPEED"
+  },
+  {
+   "k": "78830p",
+   "en": "BORDER_COLOR_SELECTION_STATE_R"
+  },
+  {
+   "k": "3md902",
+   "en": "BORDER_COLOR_SELECTION_STATE_G"
+  },
+  {
+   "k": "2sefx5",
+   "en": "BORDER_COLOR_SELECTION_STATE_B"
+  },
+  {
+   "k": "1yfmu8",
+   "en": "BORDER_COLOR_SELECTION_STATE_A"
+  },
+  {
+   "k": "1nkifzd",
+   "en": "BORDER_COLOR_SELECTION_SUPPLY_AREA_R"
+  },
+  {
+   "k": "1jynlyq",
+   "en": "BORDER_COLOR_SELECTION_SUPPLY_AREA_G"
+  },
+  {
+   "k": "1j4osvt",
+   "en": "BORDER_COLOR_SELECTION_SUPPLY_AREA_B"
+  },
+  {
+   "k": "1iapzsw",
+   "en": "BORDER_COLOR_SELECTION_SUPPLY_AREA_A"
+  },
+  {
+   "k": "1seo077",
+   "en": "BORDER_COLOR_SELECTION_ADJACENCY_RULE_AREA_R"
+  },
+  {
+   "k": "1ost66k",
+   "en": "BORDER_COLOR_SELECTION_ADJACENCY_RULE_AREA_G"
+  },
+  {
+   "k": "1nyud3n",
+   "en": "BORDER_COLOR_SELECTION_ADJACENCY_RULE_AREA_B"
+  },
+  {
+   "k": "1o8tysm",
+   "en": "BORDER_COLOR_SELECTION_ADJACENCY_RULE_AREA_A"
+  },
+  {
+   "k": "13p4gt4",
+   "en": "BORDER_COLOR_SELECTION_BUILDING_AREA_R"
+  },
+  {
+   "k": "19iw4dj",
+   "en": "BORDER_COLOR_SELECTION_BUILDING_AREA_G"
+  },
+  {
+   "k": "184y3wo",
+   "en": "BORDER_COLOR_SELECTION_BUILDING_AREA_B"
+  },
+  {
+   "k": "18ywwzl",
+   "en": "BORDER_COLOR_SELECTION_BUILDING_AREA_A"
+  },
+  {
+   "k": "ma43zy",
+   "en": "BORDER_COLOR_SELECTION_PROVINCE_R"
+  },
+  {
+   "k": "s3vrkd",
+   "en": "BORDER_COLOR_SELECTION_PROVINCE_G"
+  },
+  {
+   "k": "qpxr3i",
+   "en": "BORDER_COLOR_SELECTION_PROVINCE_B"
+  },
+  {
+   "k": "qfy5ej",
+   "en": "BORDER_COLOR_SELECTION_PROVINCE_A"
+  },
+  {
+   "k": "129mpbp",
+   "en": "BORDER_COLOR_CUSTOM_HIGHLIGHTS"
+  },
+  {
+   "k": "sgdys5",
+   "en": "[[ Groups of 4 numbers are RGBA. If two colors are both active on a border, (because one province is part of a group using one color, and the other province is part of another group), then the color that comes first in this list is the color that will be used. ]] 0: mouse hover 1: bad, while active 2: good, while active 3: bad, while passive 4: good, while passive 5: controlled, neutral positive 6: not ours, neutral negative"
+  },
+  {
+   "k": "izf9j8",
+   "en": "BORDER_COLOR_TUTORIAL_HIGHLIGHT_R"
+  },
+  {
+   "k": "mla3jv",
+   "en": "BORDER_COLOR_TUTORIAL_HIGHLIGHT_G"
+  },
+  {
+   "k": "nf8wms",
+   "en": "BORDER_COLOR_TUTORIAL_HIGHLIGHT_B"
+  },
+  {
+   "k": "o97ppp",
+   "en": "BORDER_COLOR_TUTORIAL_HIGHLIGHT_A"
+  },
+  {
+   "k": "12jt2iu",
+   "en": "BORDER_COLOR_DEMILITARIZED_R"
+  },
+  {
+   "k": "18dkq39",
+   "en": "BORDER_COLOR_DEMILITARIZED_G"
+  },
+  {
+   "k": "16zmpme",
+   "en": "BORDER_COLOR_DEMILITARIZED_B"
+  },
+  {
+   "k": "16pn3xf",
+   "en": "BORDER_COLOR_DEMILITARIZED_A"
+  },
+  {
+   "k": "1hqtq4a",
+   "en": "BORDER_COLOR_BORDER_CONFLICT_EDGE_R"
+  },
+  {
+   "k": "1ch19xt",
+   "en": "BORDER_COLOR_BORDER_CONFLICT_EDGE_G"
+  },
+  {
+   "k": "1db030q",
+   "en": "BORDER_COLOR_BORDER_CONFLICT_EDGE_B"
+  },
+  {
+   "k": "1d10hbr",
+   "en": "BORDER_COLOR_BORDER_CONFLICT_EDGE_A"
+  },
+  {
+   "k": "j8f8x2",
+   "en": "BORDER_COLOR_BORDER_CONFLICT_NON_EDGE_R"
+  },
+  {
+   "k": "p26whh",
+   "en": "BORDER_COLOR_BORDER_CONFLICT_NON_EDGE_G"
+  },
+  {
+   "k": "no8w0m",
+   "en": "BORDER_COLOR_BORDER_CONFLICT_NON_EDGE_B"
+  },
+  {
+   "k": "ne9abn",
+   "en": "BORDER_COLOR_BORDER_CONFLICT_NON_EDGE_A"
+  },
+  {
+   "k": "1fdzp6w",
+   "en": "DRAW_REFRACTIONS_CUTOFF"
+  },
+  {
+   "k": "1jii2jz",
+   "en": "DRAW_SHADOWS_CUTOFF"
+  },
+  {
+   "k": "1pc8tcp",
+   "en": "DRAW_SHADOWS_FADE_LENGTH"
+  },
+  {
+   "k": "2nha84",
+   "en": "DRAW_FOW_CUTOFF"
+  },
+  {
+   "k": "6yxr8",
+   "en": "DRAW_FOW_FADE_LENGTH"
+  },
+  {
+   "k": "7dg81f",
+   "en": "GRADIENT_BORDERS_FIELD_COUNTRY_REFRESH"
+  },
+  {
+   "k": "1dl7dxb",
+   "en": "When country changes it's size by X provinces, then it refresh it's thickness and rebuilds all provinces"
+  },
+  {
+   "k": "13apisq",
+   "en": "GRADIENT_BORDERS_FIELD_COUNTRY_LOW"
+  },
+  {
+   "k": "tg1o2",
+   "en": "country area in sum of pixels ..."
+  },
+  {
+   "k": "badfl0",
+   "en": "GRADIENT_BORDERS_FIELD_COUNTRY_HIGH"
+  },
+  {
+   "k": "1mcx6to",
+   "en": "... the value is squared, so fe. country of size 100x100pix = 10000"
+  },
+  {
+   "k": "1btkza0",
+   "en": "GRADIENT_BORDERS_THICKNESS_COUNTRY_LOW"
+  },
+  {
+   "k": "1cqavbh",
+   "en": "thickness in pixels"
+  },
+  {
+   "k": "6fcj1p",
+   "en": "GRADIENT_BORDERS_COUNTRY_CENTER_THICKNESS"
+  },
+  {
+   "k": "e3ike",
+   "en": "The center gradient is linear 1/255 per pixel for this many pixels"
+  },
+  {
+   "k": "u9frlm",
+   "en": "GRADIENT_BORDERS_THICKNESS_COUNTRY_HIGH"
+  },
+  {
+   "k": "12lh3um",
+   "en": "GRADIENT_BORDERS_THICKNESS_STATE"
+  },
+  {
+   "k": "1h72m0",
+   "en": "GRADIENT_BORDERS_THICKNESS_RESISTANCE"
+  },
+  {
+   "k": "lxqrsh",
+   "en": "GRADIENT_BORDERS_THICKNESS_INTEL_LEDGER"
+  },
+  {
+   "k": "y6d2b2",
+   "en": "GRADIENT_BORDERS_THICKNESS_SUPPLY_AREA_A"
+  },
+  {
+   "k": "xwdgm3",
+   "en": "GRADIENT_BORDERS_THICKNESS_SUPPLY_AREA_B"
+  },
+  {
+   "k": "v1ctgz",
+   "en": "GRADIENT_BORDERS_THICKNESS_STRATEGIC_REGIONS"
+  },
+  {
+   "k": "y2exip",
+   "en": "GRADIENT_BORDERS_THICKNESS_DIPLOMACY"
+  },
+  {
+   "k": "1x400co",
+   "en": "GRADIENT_BORDERS_THICKNESS_DIPLOMACY_ON_INTEL_LEDGER"
+  },
+  {
+   "k": "uykuik",
+   "en": "GRADIENT_BORDERS_THICKNESS_PEACE_CONFERENCE_A"
+  },
+  {
+   "k": "16pudb2",
+   "en": "transparency at 0 up until A"
+  },
+  {
+   "k": "vsjnlh",
+   "en": "GRADIENT_BORDERS_THICKNESS_PEACE_CONFERENCE_B"
+  },
+  {
+   "k": "gjhjlb",
+   "en": "increasing transparency up to 100% when at B"
+  },
+  {
+   "k": "1q22i95",
+   "en": "GRADIENT_BORDERS_OUTLINE_CUTOFF_COUNTRY"
+  },
+  {
+   "k": "1jbyuxw",
+   "en": "Magic number to balance cutoff on edges without neighbor"
+  },
+  {
+   "k": "8osd69",
+   "en": "GRADIENT_BORDERS_OUTLINE_CUTOFF_DIPLOMACY"
+  },
+  {
+   "k": "1sdrz9k",
+   "en": "GRADIENT_BORDERS_OUTLINE_CUTOFF_DIPLOMACY_ON_INTEL_LEDGER"
+  },
+  {
+   "k": "1vmm7ge",
+   "en": "GRADIENT_BORDERS_OUTLINE_CUTOFF_STATE"
+  },
+  {
+   "k": "185s72e",
+   "en": "GRADIENT_BORDERS_OUTLINE_CUTOFF_SUPPLY_AREA"
+  },
+  {
+   "k": "56m1mb",
+   "en": "GRADIENT_BORDERS_OUTLINE_CUTOFF_STRATEGIC_REGIONS"
+  },
+  {
+   "k": "11wd8qg",
+   "en": "GRADIENT_BORDERS_OUTLINE_CUTOFF_RESISTANCE"
+  },
+  {
+   "k": "32a6yo",
+   "en": "GRADIENT_BORDERS_OUTLINE_CUTOFF_FACTIONS"
+  },
+  {
+   "k": "jsgkhd",
+   "en": "GRADIENT_BORDERS_OUTLINE_CUTOFF_INTEL_LEDGER"
+  },
+  {
+   "k": "u3gsrs",
+   "en": "GRADIENT_BORDERS_OUTLINE_CUTOFF_PEACE_CONFERENCE"
+  },
+  {
+   "k": "mrsq8r",
+   "en": "GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_COUNTRY"
+  },
+  {
+   "k": "t1exy",
+   "en": "0 to 1 value for override filling when camera zooms in/out. 0 = override disabled"
+  },
+  {
+   "k": "bzqjdw",
+   "en": "GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_STATE"
+  },
+  {
+   "k": "x1asec",
+   "en": "GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_SUPPLY_AREA"
+  },
+  {
+   "k": "2w5nv9",
+   "en": "GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_STRATEGIC_REGIONS"
+  },
+  {
+   "k": "1wuwy5u",
+   "en": "GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_RESISTANCE"
+  },
+  {
+   "k": "1ofclgy",
+   "en": "GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_FACTIONS"
+  },
+  {
+   "k": "1n1198",
+   "en": "GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_TERRAIN"
+  },
+  {
+   "k": "aeolt3",
+   "en": "GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_INTEL_LEDGER"
+  },
+  {
+   "k": "1f1g7jv",
+   "en": "GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_DIPLOMACY"
+  },
+  {
+   "k": "1kk5pfu",
+   "en": "GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_DIPLOMACY_ON_INTEL_LEDGER"
+  },
+  {
+   "k": "qergai",
+   "en": "GRADIENT_BORDERS_CAMERA_DISTANCE_OVERRIDE_PEACE_CONFERENCE"
+  },
+  {
+   "k": "1dq4buh",
+   "en": "GRADIENT_BORDERS_ACTIVATE_FOR_PEACE_CONFERENCE"
+  },
+  {
+   "k": "jg3gpa",
+   "en": "GRADIENT_BORDERS_ONE_COLOR_FOR_PEACE_CONFERENCE"
+  },
+  {
+   "k": "4w4l6x",
+   "en": "all gradient will have this color. if { -1.0, -1.0, -1.0, -1.0 } then use Negotiator MapColor"
+  },
+  {
+   "k": "4u0d7t",
+   "en": "GRADIENT_BORDERS_OPTIMIZATION_RANGE"
+  },
+  {
+   "k": "5kwr0g",
+   "en": "smaller value = faster gradient borders but may have artifacts on large provinces (value to balance)"
+  },
+  {
+   "k": "xj56go",
+   "en": "GRADIENT_BORDERS_REFRESH_FREQ"
+  },
+  {
+   "k": "bnkgzi",
+   "en": "how frequent is gradient borders repainting (optimization for high-speed gameplay)"
+  },
+  {
+   "k": "x29q5y",
+   "en": "STRATEGIC_AIR_COLOR_BAD"
+  },
+  {
+   "k": "joxdoc",
+   "en": "rgb"
+  },
+  {
+   "k": "1gifz9u",
+   "en": "STRATEGIC_AIR_COLOR_GOOD"
+  },
+  {
+   "k": "1yjpbfi",
+   "en": "STRATEGIC_AIR_COLOR_AVERAGE"
+  },
+  {
+   "k": "zuposi",
+   "en": "STRATEGIC_AIR_COLOR_NEUTRAL"
+  },
+  {
+   "k": "1boageb",
+   "en": "STRATEGIC_AIR_COLOR_GOOD_WHILE_HIGHLIGHTING_HOLD"
+  },
+  {
+   "k": "12jx9c7",
+   "en": "STRATEGIC_AIR_COLOR_AVERAGE_WHILE_HIGHLIGHTING_HOLD"
+  },
+  {
+   "k": "w21vbn",
+   "en": "STRATEGIC_AIR_COLOR_NEUTRAL_WHILE_HIGHLIGHTING_HOLD"
+  },
+  {
+   "k": "dj3g8q",
+   "en": "STRATEGIC_NAVY_COLOR_NEUTRAL"
+  },
+  {
+   "k": "11wcagn",
+   "en": "zones without missions"
+  },
+  {
+   "k": "1v1jbx6",
+   "en": "STRATEGIC_NAVY_COLOR_ON_HOLD"
+  },
+  {
+   "k": "wzkpfx",
+   "en": "zones with only hold mission"
+  },
+  {
+   "k": "cf92lg",
+   "en": "STRATEGIC_NAVY_COLOR_ON_HOLD_HIGHLIGHTED"
+  },
+  {
+   "k": "g9sip0",
+   "en": "zones with with only hold missions with taskforces selected"
+  },
+  {
+   "k": "ftzg9a",
+   "en": "STRATEGIC_NAVY_COLOR_BAD"
+  },
+  {
+   "k": "g2oytp",
+   "en": "zones has missions with bad suppremacy"
+  },
+  {
+   "k": "11m442i",
+   "en": "STRATEGIC_NAVY_COLOR_GOOD"
+  },
+  {
+   "k": "1a0xe6h",
+   "en": "zones has missions with good suppremacy"
+  },
+  {
+   "k": "1v7t2l2",
+   "en": "STRATEGIC_NAVY_COLOR_AVERAGE"
+  },
+  {
+   "k": "4y1pkt",
+   "en": "zones has missions with average suppremacy"
+  },
+  {
+   "k": "1g6jel9",
+   "en": "STRATEGIC_NAVY_NO_TASKFORCES_ASSIGNED"
+  },
+  {
+   "k": "115jt6s",
+   "en": "zones has fleets assigned to them but no no taskforce can reach it or not enough taskforce to cover that region"
+  },
+  {
+   "k": "55847r",
+   "en": "STRATEGIC_NAVY_COLOR_BAD_WHILE_HIGHLIGHTING_HOLD"
+  },
+  {
+   "k": "2yc649",
+   "en": "zones has missions with bad suppremacy on highlighted regions with a hold mission selected"
+  },
+  {
+   "k": "sf482j",
+   "en": "STRATEGIC_NAVY_COLOR_GOOD_WHILE_HIGHLIGHTING_HOLD"
+  },
+  {
+   "k": "js2zw5",
+   "en": "zones has missions with good suppremacy on highlighted regions with a hold mission selected"
+  },
+  {
+   "k": "292kcv",
+   "en": "STRATEGIC_NAVY_COLOR_AVERAGE_WHILE_HIGHLIGHTING_HOLD"
+  },
+  {
+   "k": "u47p1l",
+   "en": "zones has missions with average suppremacy on highlighted regions with a hold mission selected"
+  },
+  {
+   "k": "1yukoab",
+   "en": "RESISTANCE_COLOR_NONE"
+  },
+  {
+   "k": "1nntep3",
+   "en": "rgba"
+  },
+  {
+   "k": "157nvk0",
+   "en": "RESISTANCE_COLOR_GOOD"
+  },
+  {
+   "k": "st7x8g",
+   "en": "RESISTANCE_COLOR_AVERAGE"
+  },
+  {
+   "k": "162v834",
+   "en": "RESISTANCE_COLOR_BAD"
+  },
+  {
+   "k": "nc8679",
+   "en": "CONSTRUCTION_CONVERSION_COLOR"
+  },
+  {
+   "k": "1l7vhpx",
+   "en": "CONSTRUCTION_CONVERSION_IN_PROGRESS_COLOR"
+  },
+  {
+   "k": "fv04wh",
+   "en": "VIRTUAL_BATTLEPLANS_COLOR"
+  },
+  {
+   "k": "h18yd3",
+   "en": "ALLIED_BATTLEPLANS_COLOR"
+  },
+  {
+   "k": "14zyeu2",
+   "en": "OFFENSIVE_PING_CIRCLE_COLOR"
+  },
+  {
+   "k": "ivf6gg",
+   "en": "DEFENSIVE_PING_CIRCLE_COLOR"
+  },
+  {
+   "k": "tp7iwz",
+   "en": "GMT_OFFSET"
+  },
+  {
+   "k": "fhy3h4",
+   "en": "X position on map, of Greenwitch GMT+0 (see also in shader daynight.fxh)"
+  },
+  {
+   "k": "1fbqjp4",
+   "en": "DAY_NIGHT_FEATHER"
+  },
+  {
+   "k": "m5vq4a",
+   "en": "Feather value between complete darkness and the day (see also in shader daynight.fxh)"
+  },
+  {
+   "k": "1h7q70d",
+   "en": "SOUTH_POLE_OFFSET"
+  },
+  {
+   "k": "cdy0h6",
+   "en": "Our map is missing big parts of globe on north and south (see also in shader daynight.fxh)"
+  },
+  {
+   "k": "16ylwe3",
+   "en": "NORTH_POLE_OFFSET"
+  },
+  {
+   "k": "2pjg4p",
+   "en": "COUNTRY_FLAG_TEX_WIDTH"
+  },
+  {
+   "k": "10030sf",
+   "en": "Expected texture size"
+  },
+  {
+   "k": "1jo8eew",
+   "en": "COUNTRY_FLAG_TEX_HEIGHT"
+  },
+  {
+   "k": "otcxzb",
+   "en": "Tweak dependly on amount of countries. Must be power of 2. No more then 2048."
+  },
+  {
+   "k": "1a3zhub",
+   "en": "COUNTRY_FLAG_MEDIUM_TEX_WIDTH"
+  },
+  {
+   "k": "1h8h7u6",
+   "en": "COUNTRY_FLAG_MEDIUM_TEX_HEIGHT"
+  },
+  {
+   "k": "r3h8zb",
+   "en": "COUNTRY_FLAG_MEDIUM_TEX_MAX_SIZE"
+  },
+  {
+   "k": "3bcynp",
+   "en": "COUNTRY_FLAG_SMALL_TEX_WIDTH"
+  },
+  {
+   "k": "1s87n0",
+   "en": "COUNTRY_FLAG_SMALL_TEX_HEIGHT"
+  },
+  {
+   "k": "1pc10ut",
+   "en": "COUNTRY_FLAG_SMALL_TEX_MAX_SIZE"
+  },
+  {
+   "k": "1yec536",
+   "en": "VICTORY_POINT_LEVELS"
+  },
+  {
+   "k": "tm7s7e",
+   "en": "VICTORY_POINT_MAP_ICON_AFTER"
+  },
+  {
+   "k": "34zynn",
+   "en": "After this amount of VP the map icon becomes bigger dot."
+  },
+  {
+   "k": "wrzui1",
+   "en": "VICTORY_POINT_MAP_ICON_CAPITAL_CUTOFF_MAX"
+  },
+  {
+   "k": "p1do65",
+   "en": "Capitals are special snowflakes, they need their own number"
+  },
+  {
+   "k": "1sj288d",
+   "en": "VICTORY_POINT_MAP_ICON_TEXT_CUTOFF"
+  },
+  {
+   "k": "eqxiwx",
+   "en": "At what camera distance the VP name text disappears."
+  },
+  {
+   "k": "kmrgn6",
+   "en": "VICTORY_POINT_MAP_ICON_TEXT_CUTOFF_MIN"
+  },
+  {
+   "k": "1kncdhc",
+   "en": "Min range for victory point text"
+  },
+  {
+   "k": "ei8rs8",
+   "en": "VICTORY_POINT_MAP_ICON_TEXT_CUTOFF_MAX"
+  },
+  {
+   "k": "14vzunq",
+   "en": "Max range for victory point text"
+  },
+  {
+   "k": "1nus9he",
+   "en": "VICTORY_POINT_MAP_ICON_DOT_CUTOFF_MIN"
+  },
+  {
+   "k": "11g4c76",
+   "en": "Min range for victory point dot"
+  },
+  {
+   "k": "1hq9kmg",
+   "en": "VICTORY_POINT_MAP_ICON_DOT_CUTOFF_MAX"
+  },
+  {
+   "k": "16bbce1",
+   "en": "VICTORY_POINT_MAP_ICON_MAX_VICTORY_POINTS_FOR_PERCENT"
+  },
+  {
+   "k": "1qa8fob",
+   "en": "Default max value for point on the above range. It doesn't matter much if the VP value exceeds this, it'll be treated as max."
+  },
+  {
+   "k": "w7y4",
+   "en": "AIRBASE_ICON_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "z63xdj",
+   "en": "At what distance air bases are hidden"
+  },
+  {
+   "k": "noxmtg",
+   "en": "NAVALBASE_ICON_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "13bmpan",
+   "en": "1300, -- At what distance naval bases are hidden"
+  },
+  {
+   "k": "1r8wx57",
+   "en": "RADAR_ICON_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "137f0wf",
+   "en": "At what distance the radars are hidden"
+  },
+  {
+   "k": "6bwpf2",
+   "en": "RESOURCE_MAP_ICON_TEXT_CUTOFF"
+  },
+  {
+   "k": "9rdoa0",
+   "en": "At what camera distance the resource name/amount text disappears."
+  },
+  {
+   "k": "1y585a4",
+   "en": "RESISTANCE_MAP_ICON_MODIFIERS_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "f9fhbj",
+   "en": "At what camera distance the resistance/compliance map icon modifiers are hidden"
+  },
+  {
+   "k": "s7tzvt",
+   "en": "RESISTANCE_MAP_ICON_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "1ekz31g",
+   "en": "At what camera distance the resistance/compliance map icons are hidden"
+  },
+  {
+   "k": "ejoig9",
+   "en": "PROVINCE_ANIM_TEXT_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "10e6pgr",
+   "en": "CAPITAL_ICON_CUTOFF"
+  },
+  {
+   "k": "1spzz88",
+   "en": "At what camera distance capital icons disappears"
+  },
+  {
+   "k": "l3s42m",
+   "en": "UNITS_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "iaxumu",
+   "en": "SHIPS_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "10aafef",
+   "en": "UNIT_ARROW_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "1q9m2df",
+   "en": "UNITS_ICONS_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "132lh62",
+   "en": "NAVAL_COMBAT_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "1kadowq",
+   "en": "ADJACENCY_RULE_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "w5m8d7",
+   "en": "LAND_COMBAT_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "jux6wo",
+   "en": "PROV_CONSTRUCTION_ICON_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "8u4y38",
+   "en": "STATE_CONSTRUCTION_ICON_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "892a58",
+   "en": "DECISION_MAP_ICON_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "q20u25",
+   "en": "DECISION_MAP_ICON_DEPTH_PRIORITY"
+  },
+  {
+   "k": "qpdo3h",
+   "en": "NAVAL_MISSION_TASK_FORCES_GROUP_BY_ALLEGIANCE_CUTOFF"
+  },
+  {
+   "k": "mz9jv9",
+   "en": "NAVAL_MISSION_ICONS_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "cz8gg2",
+   "en": "NAVAL_MINES_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "8fl49q",
+   "en": "CRYPTOLOGY_MAP_ICON_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "15j8rvd",
+   "en": "PEACE_CONFERENCE_MAP_ICON_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "1ewx3t4",
+   "en": "NAVAL_MINES_CLUMPING"
+  },
+  {
+   "k": "h0onev",
+   "en": "The higher value, the more likely the 3d naval mines will clamp together"
+  },
+  {
+   "k": "9nuhvy",
+   "en": "NAVAL_MINES_CLUMP_NEAR_TERRITORY"
+  },
+  {
+   "k": "ukckro",
+   "en": "Higher chance to spawn 3d naval mine near our territory"
+  },
+  {
+   "k": "xdhh2q",
+   "en": "NAVAL_MINES_COUNT_TO_VISUAL_ASPECT"
+  },
+  {
+   "k": "1r57vjj",
+   "en": "How many in-game-naval-mines is one visual 3d naval mine?"
+  },
+  {
+   "k": "kbp5cu",
+   "en": "MAP_ICONS_GROUP_CAM_DISTANCE"
+  },
+  {
+   "k": "ytre1o",
+   "en": "camera distance at which the icons begin to group up"
+  },
+  {
+   "k": "17wr3ww",
+   "en": "MAP_ICONS_STATE_GROUP_CAM_DISTANCE"
+  },
+  {
+   "k": "1h2ewmm",
+   "en": "Camera distance at which the icons begin to group up on state level"
+  },
+  {
+   "k": "pgi4l1",
+   "en": "MAP_ICONS_STRATEGIC_GROUP_CAM_DISTANCE"
+  },
+  {
+   "k": "1yh8lzy",
+   "en": "second camera distance at which the icons begin to group up"
+  },
+  {
+   "k": "1pbocsv",
+   "en": "MAP_ICONS_STRATEGIC_AREA_HUGE"
+  },
+  {
+   "k": "jhxskg",
+   "en": "MAP_ICONS_STATE_HUGE"
+  },
+  {
+   "k": "g4szjo",
+   "en": "MAPICON_GROUP_PASSES"
+  },
+  {
+   "k": "napvt7",
+   "en": "how many mapicons get processed per frame for grouping. more = quicker response, fewer = better performance"
+  },
+  {
+   "k": "1htfnhp",
+   "en": "MAP_ICONS_GROUP_SPLIT_SELECTED_LIMIT"
+  },
+  {
+   "k": "k1yswo",
+   "en": "Maximum number of units selected that will cause icon stacks to split"
+  },
+  {
+   "k": "8v0dzz",
+   "en": "MAP_ICONS_COARSE_COUNTRY_GROUPING_DISTANCE"
+  },
+  {
+   "k": "mi676n",
+   "en": "Distance at which icon grouping becomes very coarse and merges different types of units"
+  },
+  {
+   "k": "1d9tiiq",
+   "en": "MAP_ICONS_COARSE_COUNTRY_GROUPING_DISTANCE_STRATEGIC"
+  },
+  {
+   "k": "1l3yrqg",
+   "en": "Distance at which icon grouping becomes very coarse and merges different types of units for strategic mapmodes"
+  },
+  {
+   "k": "vqgjtt",
+   "en": "RIVER_FADE_FROM"
+  },
+  {
+   "k": "12ec4fz",
+   "en": "the last river endings got faded out, X distance from the ending..."
+  },
+  {
+   "k": "5xuzko",
+   "en": "RIVER_FADE_TO"
+  },
+  {
+   "k": "164fnjx",
+   "en": "TOOLTIP_DELAYED_DELAY"
+  },
+  {
+   "k": "1e4ofjc",
+   "en": "How long before showing delayed tooltip."
+  },
+  {
+   "k": "x7nask",
+   "en": "TOOLTIP_SHOW_DELAY"
+  },
+  {
+   "k": "1izemwx",
+   "en": "TOOLTIP_HIDE_DELAY"
+  },
+  {
+   "k": "1p692ax",
+   "en": "INTEL_LEDGER_CIVILIAN_ICON_STATE_CUTOFF"
+  },
+  {
+   "k": "l4rfdu",
+   "en": "INTEL_LEDGER_CIVILIAN_ICON_REGION_CUTOFF"
+  },
+  {
+   "k": "oeaz8m",
+   "en": "RAILWAY_CAMERA_CUTOFF"
+  },
+  {
+   "k": "1yww553",
+   "en": "railways are cut off above this camera height"
+  },
+  {
+   "k": "gma9ja",
+   "en": "RAILWAY_CAMERA_CUTOFF_SPEED"
+  },
+  {
+   "k": "1bliy5g",
+   "en": "railways fade in/out speed"
+  },
+  {
+   "k": "1pol1c3",
+   "en": "DIVISION_NAMES_GROUP_MAX_TOOLTIP_ENTRIES"
+  },
+  {
+   "k": "1rhorm8",
+   "en": "Max entries to display the names in the tooltip, when mouse over the division-names-group in the division template designer."
+  },
+  {
+   "k": "1nzyhwm",
+   "en": "NAMES_GROUP_MAX_NAME_LIST_ENTRIES"
+  },
+  {
+   "k": "x9jdfx",
+   "en": "Max example name entries in ship and railway gun name list in production menu"
+  },
+  {
+   "k": "lx8l1h",
+   "en": "WEATHER_DISTANCE_CUTOFF"
+  },
+  {
+   "k": "jt36xj",
+   "en": "At what distance weather effects are hidden"
+  },
+  {
+   "k": "16zjd5f",
+   "en": "WEATHER_DISTANCE_FADE_LENGTH"
+  },
+  {
+   "k": "1o348h2",
+   "en": "How far the fade out distance should be"
+  },
+  {
+   "k": "1yj3swt",
+   "en": "WEATHER_ZOOM_IN_CUTOFF"
+  },
+  {
+   "k": "hu3rb",
+   "en": "At what distance weather effects are faded out the most when zooming in"
+  },
+  {
+   "k": "19x6yln",
+   "en": "WEATHER_ZOOM_IN_FADE_LENGTH"
+  },
+  {
+   "k": "14299g8",
+   "en": "How far the zoom in fade out distance should be"
+  },
+  {
+   "k": "ex9qa4",
+   "en": "WEATHER_ZOOM_IN_FADE_FACTOR"
+  },
+  {
+   "k": "17d38sr",
+   "en": "How much the weather effects should fade out when maximum zoomed in"
+  },
+  {
+   "k": "1lwkus4",
+   "en": "WEATHER_PLAYBACK_RATE"
+  },
+  {
+   "k": "5tiv8c",
+   "en": "Playback rate at maximum distance"
+  },
+  {
+   "k": "ronlus",
+   "en": "WEATHER_PLAYBACK_RATE_CUTOFF"
+  },
+  {
+   "k": "1hag4uv",
+   "en": "Playback rate maximum distance"
+  },
+  {
+   "k": "12uo3op",
+   "en": "WEATHER_PLAYBACK_RATE_LENGTH"
+  },
+  {
+   "k": "94fdis",
+   "en": "For how long to fade between normal playback rate and maximum distance playback rate"
+  },
+  {
+   "k": "rtr23i",
+   "en": "POSTEFFECT_PER_PROVINCE_MIN_SNOW"
+  },
+  {
+   "k": "1wvlb7c",
+   "en": "POSTEFFECT_PER_PROVINCE_MAX_SNOW"
+  }
+ ]
+}

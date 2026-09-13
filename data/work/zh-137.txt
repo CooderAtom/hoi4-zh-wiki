@@ -1,0 +1,262 @@
+效果（也称指令，Commands）用于在特定作用域内动态影响游戏。它们是对游戏当前状态的一次性改动，⟦0⟧。与之相对，⟦1⟧ 用于对游戏状态施加可量化的持续、永久影响。效果块不能直接施加修正，但可以添加能够施加修正的东西，最常见的是通过 ⟦2⟧。
+无法产生持久影响
+修正
+add_ideas
+效果在游戏中用于众多作用域，最常见的可编辑效果块是 ⟦0⟧、⟦1⟧ 和 ⟦2⟧。
+国家焦点奖励
+事件选项
+决议效果
+注意，某些效果可以从变量取值，例如 ⟦0⟧。这在效果的参数中标注为 ⟦1⟧。有关变量效果的说明，请参见 ⟦2⟧。
+add_manpower = var:my_var
+<variable>
+变量
+效果列表可能已经过时。完整但未排序的效果列表可在 ⟦0⟧ 或 ⟦1⟧ 中找到。
+/Hearts of Iron IV/documentation/effects_documentation.html
+/Hearts of Iron IV/documentation/effects_documentation.md
+作用域
+主条目：作用域
+作用域是一种特殊的效果类型，用于修改作为所执行效果上下文的那一实体，例如 ⟦0⟧ 为 ⟦1⟧ 增加150政治点数。
+GER = { add_political_power = 150 }
+Germany
+效果作用域
+这些只能用作 ⟦0⟧；若试图将其用作 ⟦1⟧，将不会发生任何事。
+效果
+触发器
+效果作用域：
+名称
+用法
+目标类型
+示例
+描述
+加入版本
+every_possible_country
+始终可用
+国家
+every_possible_country = { ... }
+对符合限制条件的每个国家执行子效果，包括不存在的国家。
+every_country
+every_country = { … }
+对符合限制条件的每个国家执行其中包含的效果。
+random_country
+random_country = { … }
+对符合限制条件的一个随机国家执行其中包含的效果。
+every_other_country
+仅限国家作用域内
+every_other_country = { … }
+对符合限制条件且与包含此效果的所在国家不同的每个国家执行其中包含的效果。
+random_other_country
+random_other_country = { … }
+对符合限制条件且与包含此效果的所在国家不同的一个随机国家执行其中包含的效果。
+every_country_with_original_tag
+every_country_with_original_tag = { original_tag_to_check = TAG #required … #effects to run }
+对符合限制条件且拥有指定原始标签的每个国家执行其中包含的效果。
+random_country_with_original_tag
+random_country_with_original_tag = { original_tag_to_check = TAG #required … #effects to run }
+对符合限制条件且拥有指定原始标签的一个随机国家执行其中包含的效果。
+every_neighbor_country
+every_neighbor_country = { … }
+对符合限制条件且与包含此效果的所在国家接壤的每个国家执行其中包含的效果。
+random_neighbor_country
+random_neighbor_country = { … }
+对符合限制条件且与包含此效果的所在国家接壤的一个随机国家执行其中包含的效果。
+every_occupied_country
+every_occupied_country = { … }
+对符合限制条件且其核心州中有被包含此效果的所在国家控制的每个国家执行其中包含的效果。
+random_occupied_country
+random_occupied_country = { … }
+对符合限制条件且其核心州中有被包含此效果的所在国家控制的一个随机国家执行其中包含的效果。
+every_allied_country
+every_allied_country = { … }
+对符合 `limit` 触发器的每个同盟国家执行子效果，该国家须与当前作用域中的国家不同（若指定了 `random_select_amount`，则为该数量的随机国家）。
+random_allied_country
+random_allied_country = { … }
+对符合 `limit` 触发器、且与当前作用域中的国家不同的一个随机同盟国家执行子效果。
+every_enemy_country
+every_enemy_country = { … }
+对符合限制条件且与包含此效果的所在国家处于战争状态的每个国家执行其中包含的效果。
+random_enemy_country
+random_enemy_country = { … }
+对符合限制条件且与包含此效果的所在国家处于战争状态的一个随机国家执行其中包含的效果。
+every_subject_country
+every_subject_country = { … }
+对符合限制条件且为包含此效果的所在国家的附属国的每个国家执行其中包含的效果。
+random_subject_country
+random_subject_country = { … }
+对符合限制条件且为包含此效果的所在国家的附属国的一个随机国家执行其中包含的效果。
+every_faction_member
+every_faction_member = { … }
+对当前作用域国家所在阵营的每个阵营成员执行子效果；若该国没有阵营，则仅对自身生效。
+every_state
+州
+every_state = { … }
+对符合限制条件的每个州执行其中包含的效果。
+random_state
+random_state = { prioritize = { 123 321 } #optional … #effects to run }
+对符合限制条件的一个随机州执行其中包含的效果。
+every_neighbor_state
+仅限州作用域内
+every_neighbor_state = { … }
+对符合限制条件且与包含此效果的所在州相邻的每个州执行其中包含的效果。
+random_neighbor_state
+random_neighbor_state = { … }
+对符合限制条件且与包含此效果的所在州相邻的一个随机州执行其中包含的效果。不支持 ⟦0⟧。
+prioritizing
+every_owned_state
+every_owned_state = { … }
+对符合限制条件且由包含此效果的所在国家拥有的每个州执行其中包含的效果。
+random_owned_state
+random_owned_state = { prioritize = { 123 321 } #optional … #effects to run }
+对符合限制条件且由包含此效果的所在国家拥有的一个随机州执行其中包含的效果。
+every_core_state
+every_core_state = { … }
+对符合限制条件且为包含此效果的所在国家核心州的每个州执行其中包含的效果。
+random_core_state
+random_core_state = { prioritize = { 123 321 } #optional … #effects to run }
+对符合限制条件且为包含此效果的所在国家核心州的一个随机州执行其中包含的效果。
+every_controlled_state
+every_controlled_state = { … }
+对符合限制条件且由包含此效果的所在国家控制的每个州执行其中包含的效果。
+random_controlled_state
+random_controlled_state = { prioritize = { 123 321 } #optional … #effects to run }
+对符合限制条件且由包含此效果的所在国家控制的一个随机州执行其中包含的效果。
+random_owned_controlled_state
+random_owned_controlled_state = { prioritize = { 123 321 } #optional … #effects to run }
+对符合限制条件且由包含此效果的所在国家拥有并控制的一个随机州执行其中包含的效果。
+every_unit_leader
+单位指挥官
+every_unit_leader = { … }
+对符合限制条件且由包含此效果的所在国家招募的每个单位指挥官（军长、元帅、海军上将）执行其中包含的效果。
+random_unit_leader
+random_unit_leader = { … }
+对符合限制条件且由包含此效果的所在国家招募的一个随机单位指挥官（军长、元帅、海军上将）执行其中包含的效果。
+every_army_leader
+对符合限制条件且由包含此效果的所在国家招募的每个陆军将领执行其中包含的效果。
+random_army_leader
+random_army_leader = { … }
+对符合限制条件且由包含此效果的所在国家招募的一个随机陆军将领执行其中包含的效果。
+global_every_army_leader
+global_every_army_leader = { … }
+对符合限制条件的每个陆军将领执行其中包含的效果。除非确有必要使用 global_every_army_leader，否则优先使用 every_army_leader。
+every_navy_leader
+every_navy_leader = { … }
+对符合限制条件且由包含此效果的所在国家招募的每个海军将领执行其中包含的效果。
+random_navy_leader
+random_navy_leader = { … }
+对符合限制条件且由包含此效果的所在国家招募的一个随机海军将领执行其中包含的效果。
+every_operative
+仅限国家作用域或行动内
+特工
+every_operative = { … }
+对符合限制条件且由包含此效果的所在国家招募的每个特工执行其中包含的效果。
+random_operative
+random_operative = { … }
+对符合限制条件且由包含此效果的所在国家招募的一个随机特工执行其中包含的效果。
+every_character
+角色
+every_character = { … }
+对符合限制条件且由包含此效果的所在国家招募的每个角色执行其中包含的效果。
+random_character
+random_character = { … }
+对符合限制条件且由包含此效果的所在国家招募的一个随机角色执行其中包含的效果。
+every_country_division
+师
+every_country_division = { … }
+对符合限制条件且由当前国家拥有的每个师执行其中包含的效果。
+random_country_division
+random_country_division = { … }
+对符合限制条件且由当前国家拥有的一个随机师执行其中包含的效果。
+every_state_division
+every_state_division = { … }
+对符合限制条件且位于当前州内的每个师执行其中包含的效果。
+random_state_division
+random_state_division = { … }
+对符合限制条件且位于当前州内的一个随机师执行其中包含的效果。
+every_military_industrial_organization
+军工组织
+every_military_industrial_organization = { … }
+对当前国家内符合限制条件的每个军工组织执行其中包含的效果。
+random_military_industrial_organization
+random_military_industrial_organization = { … }
+对当前国家内符合限制条件的一个随机军工组织执行其中包含的效果。
+every_purchase_contract
+采购合同
+every_purchase_contract = { … }
+对当前国家内符合限制条件的每份采购合同执行其中包含的效果。
+random_purchase_contract
+random_purchase_contract = { … }
+对当前国家内符合限制条件的一份随机采购合同执行其中包含的效果。
+every_scientist
+every_scientist = { … }
+对当前作用域国家中符合 "limit" 触发器的每个科学家执行子效果（若指定了 "random_select_amount"，则为该数量的随机角色）。
+random_scientist
+random_scientist = { … }
+对符合 "limit" 触发器的随机科学家执行子效果。
+every_active_scientist
+every_active_scientist = { … }
+对当前作用域国家中符合 "limit" 触发器.title 的每个在职科学家执行子效果（若指定了 "random_select_amount"，则为该数量的随机角色）。
+random_active_scientist
+random_active_scientist = { … }
+party_leader
+party_leader = { limit = { has_ideology = liberalism } set_nationality = BHR }
+对具有指定意识形态类型的政党领袖执行效果。limit 中必须包含 ⟦0⟧，且其指向具体的意识形态类型（例如 Despotic），而非包含该类型的组（例如 Non-Aligned）。所选角色必须是对应该意识形态组的政党领袖。
+has_ideology
+every_collection_element
+集合/任意
+every_collection_element = { input = { input = collection_id # This can be a collection name or an inline definition of a collection limit = { # Trigger - limit effect execution to a subset of elements } } # Effects to be executed }
+对集合的所有元素施加任意效果。要了解更多关于集合的信息，请参见 ⟦0⟧ 中的文档。
+/Hearts of Iron IV/common/collections
+⟦0⟧ 其中一些作用域可能没有符合条件的国家/州。
+注意：
+会改变作用域的效果
+会改变作用域的效果包括以下几种：
+⟦0⟧，它将作用域改为叛乱中的动态国家。
+start_civil_war
+⟦0⟧，它将作用域改为新创建的动态国家。
+create_dynamic_country
+双重作用域
+以下作用域既可用作效果作用域，也可用作触发器作用域；有些还可作为某些效果和触发器的右侧目标使用。若可作为目标使用，会在表中标注。
+部分双重作用域的作用域会随使用位置而变化，例如变量可被设为任何内容。
+双重作用域：
+可作为目标使用
+TAG
+国家作用域
+SOV = { country_event = my_event.1 }
+由标签或标签别名定义的国家。标签别名定义在 ⟦0⟧ 中，用于在国家的实际标签之外指代特定国家（例如内战中的一方）。若使用确切标签的国家不存在，但存在源自该指定标签的动态国家，则作用域将指向该动态国家。
+/Hearts of Iron IV/common/country_tag_aliases
+<state_id>
+州作用域
+123 = { transfer_state_to = SCO }
+由此id定义的州。
+<character>
+不在角色作用域内
+角色作用域
+ENG_theodore_makhno = { set_nationality = UKR }
+在1.12.8之前的游戏版本中，该角色必须已被此作用域所属国家招募。
+mio:<MIO>
+军工组织作用域
+mio:AST_cockatoo_doe_organization = { … }
+由该ID标识的军工组织，定义于 ⟦0⟧ 文件中。
+/Hearts of Iron IV/common/military_industrial_organization/organizations/*.txt
+sp:<special_project>
+特殊项目作用域
+sp:sp_land_flamethrower_tank = { … }
+由该ID标识的特殊项目，定义于 ⟦0⟧ 文件中。
+/Hearts of Iron IV/common/special_projects/projects/*.txt
+ROOT
+取决于用法
+ENG = { FRA = { GER = { declare_war_on = { target = ROOT type = annex_everything } } } } #GER declares war on ENG (if there is no scope before ENG)
+指向所在块的根节点，这是每个块固有的属性。最常见的情况是，它就是默认作用域：例如 ROOT ⟦0⟧ 始终指向执行该焦点的国家，ROOT ⟦1⟧ 始终指向收到该事件的国家。不过，某些块会区分默认作用域与 ROOT，例如 ⟦2⟧ 或 ⟦3⟧。若某个块没有定义 ROOT（例如 ⟦4⟧），则无法使用它。
+在国家焦点内
+在事件内
+某些脚本化GUI上下文
+某些 on actions
+on actions 中的 on_startup
+THIS
+set_temp_variable = { target_country = THIS }
+指向使用它的当前作用域。例如，在 ⟦0⟧ 中使用时，它指向当前正在判定的州。主要用于 ⟦1⟧（如示例中，省略它将无法工作）或 ⟦2⟧（必须指定某个作用域）。较少见的情况下，在使用 ⟦3⟧ 时它有助于作用域操作。由于省略它不会改变代码的解释方式，除这些情况外几乎没有使用场景。
+变量
+内置本地化指令
+PREV
+FRA = { random_country = { GER = { declare_war_on = { target = PREV type = annex_everything } } } } #Germany declares war on random_country
+指向包含当前作用域的那个作用域。在默认假定作用域与 ROOT 不同的情况下（例如州事件或某些 on_actions）可能有额外用法。可无限链式调用，如 PREV.PREV。⟦0⟧：向玩家显示的内容并不总是与现实相符。另见：PREV 用法。
+通常会导致提示框显示异常

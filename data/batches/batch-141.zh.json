@@ -1,0 +1,1081 @@
+{
+ "batch": 141,
+ "items": [
+  {
+   "k": "18d17cz",
+   "zh": "⟦0⟧ 要设置的政党。elections_allowed = <bool> 是否允许选举。可选。last_election = <date> 上次选举的时间。可选。election_frequency = <int> 选举每隔多少个月举行一次。可选。long_name = <string> 该国新执政党的全名，悬停时显示。可选。name = <string> 该国新执政党的名称。可选。"
+  },
+  {
+   "k": "15mxrai",
+   "zh": "ruling_party = <ideology>"
+  },
+  {
+   "k": "1twajgf",
+   "zh": "elections_allowed = <bool>"
+  },
+  {
+   "k": "1ovyeog",
+   "zh": "last_election = <date>"
+  },
+  {
+   "k": "1rjanyp",
+   "zh": "election_frequency = <int>"
+  },
+  {
+   "k": "12oi1oh",
+   "zh": "long_name = <string>"
+  },
+  {
+   "k": "1m5ctrk",
+   "zh": "set_politics = { ruling_party = democratic elections_allowed = no last_election = \"1935.12.17\" election_frequency = 48 long_name = TAG_party_long name = TAG_party }"
+  },
+  {
+   "k": "ah2ew0",
+   "zh": "设置该国的政治状态，包括执政党与选举。"
+  },
+  {
+   "k": "170pztt",
+   "zh": "1.7 之前包含用于指派政党支持率的 ⟦0⟧，该功能已移至 ⟦1⟧"
+  },
+  {
+   "k": "1ajyngw",
+   "zh": "parties = { ... }"
+  },
+  {
+   "k": "ouehv3",
+   "zh": "set_popularities"
+  },
+  {
+   "k": "ujd8ug",
+   "zh": "1.0（1.7 更新）"
+  },
+  {
+   "k": "cvykuv",
+   "zh": "⟦0⟧ 要设置的支持率。"
+  },
+  {
+   "k": "1uxo3wo",
+   "zh": "<ideology> = <int>/<variable>"
+  },
+  {
+   "k": "w86hi1",
+   "zh": "set_popularities = { democratic = 50 neutrality = 15 fascism = 30 communism = 5 }"
+  },
+  {
+   "k": "1ih5qls",
+   "zh": "设置当前作用域各政党的支持率。"
+  },
+  {
+   "k": "1nypuqa",
+   "zh": "各支持率之和必须为 100，否则该指令不会生效。"
+  },
+  {
+   "k": "1ijmh2i",
+   "zh": "add_popularity"
+  },
+  {
+   "k": "bz5aaa",
+   "zh": "⟦0⟧ 要改变的政党。若使用 tag，则采用该 tag 的执政党。popularity = <int> / <variable> 要改变的支持率数量。"
+  },
+  {
+   "k": "exk2pl",
+   "zh": "ideology = <ideology/tag>"
+  },
+  {
+   "k": "17n8x89",
+   "zh": "popularity = <int> / <variable>"
+  },
+  {
+   "k": "1syp9vi",
+   "zh": "add_popularity = { ideology = fascism popularity = -0.5 }"
+  },
+  {
+   "k": "ow1bj4",
+   "zh": "调整当前作用域中指定政党的支持率。"
+  },
+  {
+   "k": "6uwt1t",
+   "zh": "使用的数值为 0 到 1。可使用 ideology = ROOT 来提升当前执政党的支持率。"
+  },
+  {
+   "k": "zoqgf4",
+   "zh": "set_political_party"
+  },
+  {
+   "k": "3v4eoh",
+   "zh": "⟦0⟧ 要改变的政党。popularity = <int> 要设置的支持率数量。"
+  },
+  {
+   "k": "1ouqbo4",
+   "zh": "ideology = <ideology>"
+  },
+  {
+   "k": "jx4zz0",
+   "zh": "popularity = <int>"
+  },
+  {
+   "k": "est1nl",
+   "zh": "set_political_party = { ideology = fascism popularity = 50 }"
+  },
+  {
+   "k": "ujzxte",
+   "zh": "设置当前作用域中指定政党的支持率。"
+  },
+  {
+   "k": "1qorz6u",
+   "zh": "set_party_name"
+  },
+  {
+   "k": "c9gpze",
+   "zh": "⟦0⟧ 要改变的政党。long_name = <string> 该政党的新全名。name = <string> 该政党的新简称。"
+  },
+  {
+   "k": "1kn5w5j",
+   "zh": "set_party_name = { ideology = neutrality long_name = GER_neutrality_party_kaiserreich_long name = GER_neutrality_party_kaiserreich }"
+  },
+  {
+   "k": "1uvf00w",
+   "zh": "更改当前作用域中指定政党的名称。"
+  },
+  {
+   "k": "ycd19a",
+   "zh": "名称显示在国家政治/外交视图中，全名则在悬停于该政党时显示在提示框中。"
+  },
+  {
+   "k": "1yupnui",
+   "zh": "hold_election"
+  },
+  {
+   "k": "5k6hm0",
+   "zh": "⟦0⟧ 要为其举行选举的国家。"
+  },
+  {
+   "k": "836jwn",
+   "zh": "<country>"
+  },
+  {
+   "k": "s0ueyv",
+   "zh": "hold_election = ROOT"
+  },
+  {
+   "k": "16cytcs",
+   "zh": "为当前作用域执行 ⟦0⟧ 的 on action 中的事件。"
+  },
+  {
+   "k": "14uzh6y",
+   "zh": "on_new_term_election"
+  },
+  {
+   "k": "q2j1tx",
+   "zh": "权力平衡"
+  },
+  {
+   "k": "1n77xdx",
+   "zh": "权力平衡定义于 ⟦0⟧ 文件中。"
+  },
+  {
+   "k": "1bb8pm2",
+   "zh": "/Hearts of Iron IV/common/bop/*.txt"
+  },
+  {
+   "k": "1x07rck",
+   "zh": "与权力平衡相关的国家作用域效果："
+  },
+  {
+   "k": "lv9lfu",
+   "zh": "set_power_balance"
+  },
+  {
+   "k": "1hh1ect",
+   "zh": "⟦0⟧ 要设置/修改的权力平衡。left_side = <BoP side ID> 权力平衡的左侧。right_side = <BoP side ID> 权力平衡的右侧。set_default = <bool> 将权力平衡重置为文件中定义的初始状态。可选，默认为 false。set_value = <decimal> 权力平衡的新数值。可选，默认不改变数值。"
+  },
+  {
+   "k": "1r0dm25",
+   "zh": "id = <BoP ID>"
+  },
+  {
+   "k": "1ndools",
+   "zh": "left_side = <BoP side ID>"
+  },
+  {
+   "k": "9s0zmj",
+   "zh": "right_side = <BoP side ID>"
+  },
+  {
+   "k": "1l0uok4",
+   "zh": "set_default = <bool>"
+  },
+  {
+   "k": "gayr9",
+   "zh": "set_value = <decimal>"
+  },
+  {
+   "k": "shz8d7",
+   "zh": "set_power_balance = { id = my_bop left_side = my_bop_left_side right_side = my_bop_right_side }"
+  },
+  {
+   "k": "10knqun",
+   "zh": "设置新的权力平衡或编辑已有的权力平衡。"
+  },
+  {
+   "k": "fhg1v6",
+   "zh": "这是权力平衡得以显示的必要条件。对于默认状态，会直接读取权力平衡内的 ⟦0⟧、⟦1⟧ 和 ⟦2⟧。"
+  },
+  {
+   "k": "1bt3aul",
+   "zh": "initial_value"
+  },
+  {
+   "k": "1uv4nye",
+   "zh": "left_side"
+  },
+  {
+   "k": "2xxj1",
+   "zh": "right_side"
+  },
+  {
+   "k": "hlp7w",
+   "zh": "remove_power_balance"
+  },
+  {
+   "k": "eabgqp",
+   "zh": "⟦0⟧ 要修改的权力平衡。"
+  },
+  {
+   "k": "1qpo13b",
+   "zh": "remove_power_balance = { id = my_bop }"
+  },
+  {
+   "k": "qo5ssy",
+   "zh": "完全移除该权力平衡。"
+  },
+  {
+   "k": "6m1tmn",
+   "zh": "add_power_balance_value"
+  },
+  {
+   "k": "1ar264s",
+   "zh": "⟦0⟧ 要修改的权力平衡。value = <decimal> 要添加的数值。tooltip_side = <BoP side ID> 在提示框中显示的一侧。可选。"
+  },
+  {
+   "k": "vxb306",
+   "zh": "value = <decimal>"
+  },
+  {
+   "k": "46fh3k",
+   "zh": "tooltip_side = <BoP side ID>"
+  },
+  {
+   "k": "1ug7nnc",
+   "zh": "add_power_balance_value = { id = my_bop value = -0.1 tooltip_side = my_bop_side }"
+  },
+  {
+   "k": "11p5srd",
+   "zh": "将权力平衡推向某一侧。"
+  },
+  {
+   "k": "15lax0j",
+   "zh": "add_power_balance_modifier"
+  },
+  {
+   "k": "1csfszn",
+   "zh": "⟦0⟧ 要修改的权力平衡。modifier = <static modifier> 要应用的静态修正。"
+  },
+  {
+   "k": "1lqa404",
+   "zh": "modifier = <static modifier>"
+  },
+  {
+   "k": "3ln690",
+   "zh": "静态修正"
+  },
+  {
+   "k": "eu9sph",
+   "zh": "add_power_balance_modifier = { id = my_bop modifier = my_static_modifier }"
+  },
+  {
+   "k": "1y0eflp",
+   "zh": "应用一个权力平衡修正。"
+  },
+  {
+   "k": "1uxww7g",
+   "zh": "remove_power_balance_modifier"
+  },
+  {
+   "k": "uwsp4e",
+   "zh": "remove_power_balance_modifier = { id = my_bop modifier = my_static_modifier }"
+  },
+  {
+   "k": "1q5iv44",
+   "zh": "取消一个权力平衡修正。"
+  },
+  {
+   "k": "bize51",
+   "zh": "remove_all_power_balance_modifiers"
+  },
+  {
+   "k": "i0cp5m",
+   "zh": "remove_all_power_balance_modifiers = { id = my_bop }"
+  },
+  {
+   "k": "ixlj6f",
+   "zh": "取消所有权力平衡修正。"
+  },
+  {
+   "k": "10y35ba",
+   "zh": "set_power_balance_gfx"
+  },
+  {
+   "k": "skmn37",
+   "zh": "⟦0⟧ 要修改的权力平衡。side = <BoP side ID> 要更改 GFX 的一侧。gfx = <sprite> 要将 GFX 更改为的 sprite。"
+  },
+  {
+   "k": "o4h7s8",
+   "zh": "side = <BoP side ID>"
+  },
+  {
+   "k": "ammsdo",
+   "zh": "gfx = <sprite>"
+  },
+  {
+   "k": "1sd9f3o",
+   "zh": "set_power_balance_gfx = { id = my_bop side = my_bop_side gfx = GFX_my_bop_side_new }"
+  },
+  {
+   "k": "1auc05q",
+   "zh": "更改权力平衡中某一侧的外观。"
+  },
+  {
+   "k": "1ms22dx",
+   "zh": "Sprite 定义于 ⟦0⟧ 文件中。"
+  },
+  {
+   "k": "dw6d81",
+   "zh": "/Hearts of Iron IV/interface/*.gfx"
+  },
+  {
+   "k": "1ftjdix",
+   "zh": "外交"
+  },
+  {
+   "k": "1kllynl",
+   "zh": "set_major"
+  },
+  {
+   "k": "1mxhavt",
+   "zh": "set_major = yes"
+  },
+  {
+   "k": "18b42i0",
+   "zh": "使当前作用域成为主要国家。"
+  },
+  {
+   "k": "4hyb9a",
+   "zh": "release"
+  },
+  {
+   "k": "1q5u57w",
+   "zh": "⟦0⟧ 目标国家。"
+  },
+  {
+   "k": "1qkph27",
+   "zh": "release = GER"
+  },
+  {
+   "k": "6w4a04",
+   "zh": "在当前国家拥有的州内，将指定的不存在国家释放为自由国家。"
+  },
+  {
+   "k": "1rk883p",
+   "zh": "若该国家已存在，该效果不会产生任何作用。指定国家拥有核心的所有州都会交给它。若当前国家在转移给该获释国家的州上拥有核心，该核心将会失去。若想把附庸国变为独立国家，请使用 set_autonomy。拥有但未控制的州会转移给该获释国家，但不会由其控制。"
+  },
+  {
+   "k": "1gv6znd",
+   "zh": "release_on_controlled"
+  },
+  {
+   "k": "1muarls",
+   "zh": "release_on_controlled = GER"
+  },
+  {
+   "k": "6w4xd9",
+   "zh": "在当前国家控制的州内，将指定的不存在国家释放为自由国家。"
+  },
+  {
+   "k": "1woteoc",
+   "zh": "若该国家已存在，该效果不会产生任何作用。指定国家拥有核心的所有州都会交给它。若当前国家在转移给该获释国家的州上拥有核心，该核心将会失去。"
+  },
+  {
+   "k": "tf6ud",
+   "zh": "release_puppet"
+  },
+  {
+   "k": "2k8w5g",
+   "zh": "release_puppet = GER"
+  },
+  {
+   "k": "mjopzw",
+   "zh": "在当前国家拥有的州内，将指定的不存在国家释放为当前作用域的傀儡国。"
+  },
+  {
+   "k": "qumx4v",
+   "zh": "若该国家已存在，该效果不会产生任何作用。指定国家拥有核心的所有州都会交给它。若当前国家在转移给该获释国家的州上拥有核心，该核心将会失去。拥有但未控制的州会转移给该获释国家，但不会由其控制。"
+  },
+  {
+   "k": "x45fr6",
+   "zh": "release_puppet_on_controlled"
+  },
+  {
+   "k": "bhucaz",
+   "zh": "release_puppet_on_controlled = GER"
+  },
+  {
+   "k": "1b384ud",
+   "zh": "在当前国家控制的州内，将指定的不存在国家释放为当前作用域的傀儡国。"
+  },
+  {
+   "k": "12n4zd1",
+   "zh": "release_autonomy"
+  },
+  {
+   "k": "126osmu",
+   "zh": "⟦0⟧ 附庸国。autonomy_state = <type> 要设置的自治状态类型。freedom_level = <float> 新的自由等级数值。可选。"
+  },
+  {
+   "k": "1jh3bb4",
+   "zh": "target = <country> / <variable>"
+  },
+  {
+   "k": "3jauv4",
+   "zh": "autonomy_state = <type>"
+  },
+  {
+   "k": "lo95zv",
+   "zh": "freedom_level = <float>"
+  },
+  {
+   "k": "17vnvb6",
+   "zh": "release_autonomy = { target = VIN autonomy_state = autonomy_puppet freedom_level = 0.5 }"
+  },
+  {
+   "k": "1hpkk12",
+   "zh": "在当前国家拥有的州内，将指定的不存在国家释放为当前作用域指定自治状态的附庸国。"
+  },
+  {
+   "k": "18otvqw",
+   "zh": "若该国家已存在，该效果不会产生任何作用。指定国家拥有核心的所有州都会交给它。若当前国家在转移给该获释国家的州上拥有核心，该核心将会失去。拥有但未控制的州会转移给该获释国家，但不会由其控制。自治状态见 ⟦0⟧。"
+  },
+  {
+   "k": "er0iz0",
+   "zh": "/Hearts of Iron IV/common/autonomous_states/*.txt"
+  },
+  {
+   "k": "16942lx",
+   "zh": "give_guarantee"
+  },
+  {
+   "k": "1shdz10",
+   "zh": "give_guarantee = GER"
+  },
+  {
+   "k": "16tbjhg",
+   "zh": "当前作用域保障目标国家的独立。"
+  },
+  {
+   "k": "dvlj2z",
+   "zh": "可使用 ⟦0⟧ 效果将其移除。"
+  },
+  {
+   "k": "s0rgjo",
+   "zh": "diplomatic_relation"
+  },
+  {
+   "k": "buf0f9",
+   "zh": "give_military_access"
+  },
+  {
+   "k": "drs5dw",
+   "zh": "give_military_access = GER"
+  },
+  {
+   "k": "1vljep8",
+   "zh": "当前作用域给予目标国家军事通行权。"
+  },
+  {
+   "k": "1i989ij",
+   "zh": "recall_attache"
+  },
+  {
+   "k": "17r5p5h",
+   "zh": "⟦0⟧ 派驻有武官的目标国家。"
+  },
+  {
+   "k": "za2osq",
+   "zh": "recall_attache = GER"
+  },
+  {
+   "k": "us0f72",
+   "zh": "从指定国家召回当前作用域的武官。"
+  },
+  {
+   "k": "cwd5o7",
+   "zh": "⟦0⟧ 要改变与 ROOT 关系的目标国家。relation = <type> 要改变的关系。active = <bool> 该关系是建立还是中断。"
+  },
+  {
+   "k": "15ias8e",
+   "zh": "country = <country>"
+  },
+  {
+   "k": "cuixfc",
+   "zh": "relation = <type>"
+  },
+  {
+   "k": "itgxue",
+   "zh": "active = <bool>"
+  },
+  {
+   "k": "1fn910b",
+   "zh": "diplomatic_relation = { country = SOV relation = guarantee active = no }"
+  },
+  {
+   "k": "84ft2l",
+   "zh": "用于定义当前作用域与目标作用域国家之间的外交关系。"
+  },
+  {
+   "k": "z629ij",
+   "zh": "可能的关系：non_aggression_pact guarantee puppet military_access docking_rights embargo air_base_access"
+  },
+  {
+   "k": "snfpde",
+   "zh": "non_aggression_pact"
+  },
+  {
+   "k": "12y527d",
+   "zh": "guarantee"
+  },
+  {
+   "k": "1rva567",
+   "zh": "puppet"
+  },
+  {
+   "k": "17r0e0x",
+   "zh": "military_access"
+  },
+  {
+   "k": "2f89tg",
+   "zh": "docking_rights"
+  },
+  {
+   "k": "jx35w6",
+   "zh": "embargo"
+  },
+  {
+   "k": "1xtv62o",
+   "zh": "air_base_access"
+  },
+  {
+   "k": "1h17y9j",
+   "zh": "add_opinion_modifier"
+  },
+  {
+   "k": "1qrz3f3",
+   "zh": "⟦0⟧ 目标国家。modifier = <modifier> 要添加的舆论修正。"
+  },
+  {
+   "k": "1ut4in0",
+   "zh": "modifier = <modifier>"
+  },
+  {
+   "k": "6ptrim",
+   "zh": "add_opinion_modifier = { target = GER modifier = faction_traitor }"
+  },
+  {
+   "k": "17l3pvz",
+   "zh": "当前作用域获得指定的舆论修正 ⟦0⟧。也可在 ⟦1⟧ 中的舆论 <modifier> 内加入 'trade = yes' 来修改贸易关系。若与贸易 opinion_modifier 一起使用，行为会反转，即目标国家获得对 ⟦2⟧ 的贸易舆论。"
+  },
+  {
+   "k": "qemen9",
+   "zh": "对目标作用域"
+  },
+  {
+   "k": "1d1ri90",
+   "zh": "/Hearts of Iron IV/common/opinion_modifiers/*.txt"
+  },
+  {
+   "k": "1vjspje",
+   "zh": "当前作用域"
+  },
+  {
+   "k": "3euasf",
+   "zh": "舆论修正见 ⟦0⟧。"
+  },
+  {
+   "k": "6t91j0",
+   "zh": "remove_opinion_modifier"
+  },
+  {
+   "k": "1cbd6sa",
+   "zh": "⟦0⟧ 目标国家。modifier = <modifier> 要移除的舆论修正。"
+  },
+  {
+   "k": "x0diud",
+   "zh": "remove_opinion_modifier = { target = GER modifier = faction_traitor }"
+  },
+  {
+   "k": "opxzls",
+   "zh": "当前作用域失去指定的舆论修正 ⟦0⟧。"
+  },
+  {
+   "k": "snduwc",
+   "zh": "reverse_add_opinion_modifier"
+  },
+  {
+   "k": "5zscph",
+   "zh": "reverse_add_opinion_modifier = { target = GER modifier = faction_traitor }"
+  },
+  {
+   "k": "7nm7pa",
+   "zh": "目标作用域获得指定的舆论修正 ⟦0⟧。"
+  },
+  {
+   "k": "1rr2q1l",
+   "zh": "对当前作用域"
+  },
+  {
+   "k": "1awbm7h",
+   "zh": "舆论修正见 ⟦0⟧。当你不确定当前作用域会是什么时很有用。"
+  },
+  {
+   "k": "19tzf7n",
+   "zh": "add_relation_modifier"
+  },
+  {
+   "k": "1crnach",
+   "zh": "⟦0⟧ 目标国家。modifier = <modifier> 要添加的关系修正。"
+  },
+  {
+   "k": "1pon3t0",
+   "zh": "add_relation_modifier = { target = SWE modifier = HUN_dynastic_ties_license }"
+  },
+  {
+   "k": "1jwsv5g",
+   "zh": "当前作用域获得指定的关系修正 ⟦0⟧。"
+  },
+  {
+   "k": "gi5s2f",
+   "zh": "关系修正见 ⟦0⟧ 文件，用于施加带有非固定目标的 ⟦1⟧。若要改变某国的外交舆论，见 ⟦2⟧。"
+  },
+  {
+   "k": "oewe2p",
+   "zh": "/Hearts of Iron IV/common/modifiers/*.txt"
+  },
+  {
+   "k": "u7o2q2",
+   "zh": "目标修正"
+  },
+  {
+   "k": "172mnbm",
+   "zh": "remove_relation_modifier"
+  },
+  {
+   "k": "4zzw90",
+   "zh": "⟦0⟧ 目标国家。modifier = <modifier> 要移除的关系修正。"
+  },
+  {
+   "k": "1a8k2wd",
+   "zh": "remove_relation_modifier = { target = SWE modifier = HUN_dynastic_ties_license }"
+  },
+  {
+   "k": "1r868lv",
+   "zh": "当前作用域失去对 ⟦0⟧ 的指定关系修正。"
+  },
+  {
+   "k": "1m9fj66",
+   "zh": "关系修正见 ⟦0⟧，用于施加带有非固定目标的 ⟦1⟧。若要改变某国的外交舆论，见 ⟦2⟧。"
+  },
+  {
+   "k": "1t79y2q",
+   "zh": "add_collaboration"
+  },
+  {
+   "k": "npb80g",
+   "zh": "⟦0⟧ 目标国家。value = <0-1> 要添加多少合作度。"
+  },
+  {
+   "k": "1o35jdd",
+   "zh": "value = <0-1>"
+  },
+  {
+   "k": "13n2fa8",
+   "zh": "add_collaboration = { target = TAG value = 0.3 }"
+  },
+  {
+   "k": "1c8n1au",
+   "zh": "增加 TAG 与当前作用域国家的合作度。"
+  },
+  {
+   "k": "jp51ix",
+   "zh": "set_collaboration"
+  },
+  {
+   "k": "1a6frz5",
+   "zh": "⟦0⟧ 目标国家。value = <0-1> 将设置多少合作度。"
+  },
+  {
+   "k": "12chpyd",
+   "zh": "set_collaboration = { target = TAG value = 0.3 }"
+  },
+  {
+   "k": "9mm8dg",
+   "zh": "设置 TAG 与当前作用域国家的合作度。"
+  },
+  {
+   "k": "kwiacf",
+   "zh": "recall_volunteers_from"
+  },
+  {
+   "k": "xniuut",
+   "zh": "<tag>"
+  },
+  {
+   "k": "13qvvwb",
+   "zh": "recall_volunteers_from = SPR"
+  },
+  {
+   "k": "135ww42",
+   "zh": "将派往指定国家的志愿军召回当前国家。"
+  },
+  {
+   "k": "19iz5kc",
+   "zh": "set_occupation_law"
+  },
+  {
+   "k": "7ho3fg",
+   "zh": "⟦0⟧ 由前一作用域或 ⟦1⟧ 颁布的新占领法令。"
+  },
+  {
+   "k": "5xkju8",
+   "zh": "<law ID>"
+  },
+  {
+   "k": "h7h9ex",
+   "zh": "default_law"
+  },
+  {
+   "k": "q39zow",
+   "zh": "USA = { GER = { set_occupation_law = foreign_civilian_oversight } } # 更改美国对德国的占领法令。 USA = { USA = { set_occupation_law = default_law } } # 将美国的默认占领法令改回默认值。"
+  },
+  {
+   "k": "1whu4eo",
+   "zh": "设置该国的占领法令。"
+  },
+  {
+   "k": "1n04jz4",
+   "zh": "⟦0⟧ 将是其占领法令被更改的国家。若 PREV 不是国家，则不会发生任何变化。若 PREV 是同一个国家，则更改默认占领法令。若 PREV 不同，default_law 会把该国专属法令重置为全局默认值，否则会把默认法令重置为定义中带有 ⟦1⟧ 的占领法令。也可在州作用域使用。"
+  },
+  {
+   "k": "8rokuu",
+   "zh": "starting_law = yes"
+  },
+  {
+   "k": "pozu44",
+   "zh": "set_occupation_law_where_available"
+  },
+  {
+   "k": "soa4ja",
+   "zh": "USA = { GER = { set_occupation_law_where_available = foreign_civilian_oversight } } # 在可能的情况下更改美国对德国的占领法令。 USA = { USA = { set_occupation_law_where_available = default_law } } # 在可能的情况下将美国的默认占领法令改回默认值。"
+  },
+  {
+   "k": "125tckl",
+   "zh": "与 ⟦0⟧ 相同，区别在于若该法令无法设置，则会尝试每一个更小的子集：若默认值不可行，则尝试每一个被占领国家；若该国法令无法更改，则尝试该国境内的每一个州。"
+  },
+  {
+   "k": "1knc8rp",
+   "zh": "send_embargo"
+  },
+  {
+   "k": "qg57d6",
+   "zh": "send_embargo = ITA"
+  },
+  {
+   "k": "1lgixar",
+   "zh": "对目标国家实施禁运。"
+  },
+  {
+   "k": "f7ik6",
+   "zh": "break_embargo"
+  },
+  {
+   "k": "1tu4pwx",
+   "zh": "break_embargo = ITA"
+  },
+  {
+   "k": "1xdqz2p",
+   "zh": "停止对目标国家实施禁运。"
+  },
+  {
+   "k": "1nbxga6",
+   "zh": "自 1.14.7 起，该效果忽略国家作用域，始终作用于 ROOT，因此可改用 ⟦0⟧ 效果来解除其他国家的禁运。"
+  },
+  {
+   "k": "14n5jyo",
+   "zh": "give_market_access"
+  },
+  {
+   "k": "z44ixf",
+   "zh": "give_market_access = ITA"
+  },
+  {
+   "k": "3itiy3",
+   "zh": "开放两国之间的市场准入。"
+  },
+  {
+   "k": "2eq77f",
+   "zh": "阵营"
+  },
+  {
+   "k": "1o9hw2u",
+   "zh": "与阵营相关的国家作用域效果："
+  },
+  {
+   "k": "go9u2i",
+   "zh": "create_faction"
+  },
+  {
+   "k": "8wd53e",
+   "zh": "⟦0⟧ 阵营的名称。"
+  },
+  {
+   "k": "cj4ty3",
+   "zh": "<loc_key>"
+  },
+  {
+   "k": "a728bk",
+   "zh": "create_faction = MY_FACTION_NAME"
+  },
+  {
+   "k": "5p229e",
+   "zh": "为当前作用域创建一个指定名称的阵营。当前作用域及其所有附庸国自动加入该阵营。"
+  },
+  {
+   "k": "rmtud8",
+   "zh": "已过时，请使用 ⟦0⟧。"
+  },
+  {
+   "k": "c5bfy",
+   "zh": "create_faction_from_template"
+  },
+  {
+   "k": "ijtvyc",
+   "zh": "⟦0⟧ 阵营模板 id。或 template = <string> 阵营的模板。name = <loc_key> 阵营的名称。icon = <sprite> 阵营的图标。color = <int> 阵营的颜色，RGB 格式。"
+  },
+  {
+   "k": "1jlxo0d",
+   "zh": "name = <loc_key>"
+  },
+  {
+   "k": "5m0hwk",
+   "zh": "icon = <sprite>"
+  },
+  {
+   "k": "1fsygiu",
+   "zh": "color = <int>"
+  },
+  {
+   "k": "qrq9jn",
+   "zh": "create_faction_from_template = faction_template_GER_mitteleuropa_alliance create_faction_from_template = { template = faction_template_defensive_democratic name = AUS_alpine_federation icon = GFX_faction_logo_generic_2 color = { 100 100 150 } }"
+  },
+  {
+   "k": "onladm",
+   "zh": "从模板创建阵营，可选择自定义名称、图标和颜色。"
+  },
+  {
+   "k": "174yw0j",
+   "zh": "add_to_faction"
+  },
+  {
+   "k": "hj93d5",
+   "zh": "⟦0⟧ 要加入当前作用域阵营的国家 TAG。"
+  },
+  {
+   "k": "coj1w5",
+   "zh": "<TAG>"
+  },
+  {
+   "k": "p9r88y",
+   "zh": "add_to_faction = GER"
+  },
+  {
+   "k": "51vjql",
+   "zh": "将该国家加入当前作用域的阵营。"
+  },
+  {
+   "k": "1p1dx5z",
+   "zh": "dismantle_faction"
+  },
+  {
+   "k": "1upil6r",
+   "zh": "dismantle_faction = yes"
+  },
+  {
+   "k": "mdeud9",
+   "zh": "解散当前作用域的阵营。"
+  },
+  {
+   "k": "1qvh6v7",
+   "zh": "leave_faction"
+  },
+  {
+   "k": "1e6cdn3",
+   "zh": "leave_faction = yes"
+  },
+  {
+   "k": "6ol1bj",
+   "zh": "使当前作用域退出其所属的阵营。"
+  },
+  {
+   "k": "16gicg1",
+   "zh": "remove_from_faction"
+  },
+  {
+   "k": "1e3xct9",
+   "zh": "<scope>"
+  },
+  {
+   "k": "1aersmw",
+   "zh": "remove_from_faction = GER"
+  },
+  {
+   "k": "1rm2evg",
+   "zh": "将指定作用域从当前作用域领导的阵营中移除。"
+  },
+  {
+   "k": "eg8r9u",
+   "zh": "set_faction_name"
+  },
+  {
+   "k": "1k3mhbc",
+   "zh": "将某个本地化名称设为阵营名称。"
+  },
+  {
+   "k": "1ncj2r6",
+   "zh": "set_faction_name = SOME_LOC_KEY"
+  },
+  {
+   "k": "1sjkcxg",
+   "zh": "更改阵营名称。"
+  },
+  {
+   "k": "cr65m0",
+   "zh": "set_faction_leader"
+  },
+  {
+   "k": "4ibkyy",
+   "zh": "⟦0⟧布尔值。"
+  },
+  {
+   "k": "rxqpaw",
+   "zh": "set_faction_leader = yes"
+  },
+  {
+   "k": "jy5d5y",
+   "zh": "将当前国家设为阵营领袖。"
+  },
+  {
+   "k": "vq0lb3",
+   "zh": "set_faction_spymaster"
+  },
+  {
+   "k": "wtwshn",
+   "zh": "set_faction_spymaster = yes"
+  },
+  {
+   "k": "sk1h07",
+   "zh": "将当前国家设为阵营间谍大师。"
+  },
+  {
+   "k": "9aoytb",
+   "zh": "set_faction_rule"
+  },
+  {
+   "k": "11qu6cv",
+   "zh": "⟦0⟧ 阵营规则 id。"
+  },
+  {
+   "k": "gudq7i",
+   "zh": "set_faction_rule = rule_id"
+  },
+  {
+   "k": "120tana",
+   "zh": "在该国所属阵营上设置一条规则。"
+  },
+  {
+   "k": "kdpy40",
+   "zh": "set_faction_manifest"
+  },
+  {
+   "k": "aluil4",
+   "zh": "⟦0⟧ 阵营宣言 id。"
+  },
+  {
+   "k": "1hentvz",
+   "zh": "set_faction_manifest = faction_manifest_id"
+  },
+  {
+   "k": "awsgdb",
+   "zh": "更改当前国家的阵营宣言，原有宣言会被移除。"
+  },
+  {
+   "k": "1w2wnj7",
+   "zh": "add_faction_goal"
+  },
+  {
+   "k": "1rqx06y",
+   "zh": "⟦0⟧ 阵营的目标。"
+  },
+  {
+   "k": "6in1gg",
+   "zh": "add_faction_goal = faction_goal_an_armored_fist"
+  },
+  {
+   "k": "1man65c",
+   "zh": "为当前国家的阵营添加一个目标。"
+  },
+  {
+   "k": "sj05a8",
+   "zh": "remove_faction_goal"
+  },
+  {
+   "k": "3u34to",
+   "zh": "remove_faction_goal = faction_goal_secure_the_oil_supply"
+  },
+  {
+   "k": "193nomr",
+   "zh": "从当前国家的阵营中移除一个目标。"
+  },
+  {
+   "k": "ieaifc",
+   "zh": "add_faction_goal_slot"
+  },
+  {
+   "k": "1s9gkaj",
+   "zh": "⟦0⟧ 阵营目标的类别。value = <int> / <variable> 阵营目标槽位的数值。"
+  },
+  {
+   "k": "7zi3x7",
+   "zh": "category = <string>"
+  },
+  {
+   "k": "1bi5trp",
+   "zh": "value = <int> / <variable>"
+  },
+  {
+   "k": "1vtu10s",
+   "zh": "add_faction_goal_slot = { category = short_term value = 1 }"
+  },
+  {
+   "k": "1dypl5b",
+   "zh": "为阵营的特定类别添加额外的目标槽位。"
+  }
+ ]
+}

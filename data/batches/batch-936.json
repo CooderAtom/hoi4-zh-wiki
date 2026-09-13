@@ -1,0 +1,641 @@
+{
+ "batch": 936,
+ "pages": [
+  "Modding"
+ ],
+ "chars": 14501,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "jxx9y1",
+   "en": "⟦0⟧ is information that's logged in the middle of the game. In particular, \"log\" (either as an ⟦1⟧ or a ⟦2⟧) outputs its logs into this file.",
+   "frags": 3
+  },
+  {
+   "k": "51fisb",
+   "en": "game.log"
+  },
+  {
+   "k": "wj82kj",
+   "en": "trigger"
+  },
+  {
+   "k": "14h2opy",
+   "en": "⟦0⟧ logs what the game developers have foreseen as potential errors that may occur when modding the game. As such, it usually omits crash-causing errors, detailing potential unexpected behaviour instead. However, it can be useful for ⟦1⟧ crashes either way, since that unexpected behaviour may sometimes lead to crashes (e.g. an \"⟦2⟧\" error may lead to an uncontrolled state being transferred, causing a crash). ⟦3⟧, otherwise the game will fail to open.⟦4⟧ Some of the MAP_ERROR errors only appear after selecting a country and starting a playthrough.",
+   "frags": 5
+  },
+  {
+   "k": "dqpqy1",
+   "en": "error.log"
+  },
+  {
+   "k": "gkxea9",
+   "en": "invalid event target"
+  },
+  {
+   "k": "15cspm8",
+   "en": "Every error marked with MAP_ERROR requires the debug mode to appear"
+  },
+  {
+   "k": "131gxzk",
+   "en": "⟦0⟧ details the system-generated information, usually to do with graphics. With the ⟦1⟧ ⟦2⟧, it also generates an output for the checksum, which may be compared with a different user's checksum to find out where exactly the difference is.",
+   "frags": 3
+  },
+  {
+   "k": "i9pw0s",
+   "en": "system.log"
+  },
+  {
+   "k": "lc8niz",
+   "en": "-checksum"
+  },
+  {
+   "k": "17ojrsd",
+   "en": "Localisation"
+  },
+  {
+   "k": "n1oh98",
+   "en": "Main article: Localisation"
+  },
+  {
+   "k": "1e826oj",
+   "en": "Names depending on language are defined within ⟦0⟧. Taking only the English language into consideration, the ⟦1⟧ folder is used. A file within must end with ⟦2⟧ in the filename to work properly, including the extension that is hidden by default within the Windows File Explorer. The file must be encoded in the UTF-8 encoding with the byte-order mark included, usually called UTF-8-BOM. The exact details on conversion depend on the text editor. The first line in the file is ⟦3⟧ to assign it to that database.",
+   "frags": 4
+  },
+  {
+   "k": "1vgudit",
+   "en": "/Hearts of Iron IV/localisation/english"
+  },
+  {
+   "k": "xaq9yd",
+   "en": "_l_english.yml"
+  },
+  {
+   "k": "ueigsq",
+   "en": "l_english:"
+  },
+  {
+   "k": "1b5zaj3",
+   "en": "A localisation entry is structured as ⟦0⟧. In here, the first part before the colon is referred to as the localisation key, the ending part in quotes is referred to as the localisation key's value, and the number in-between is the version number. The version number is purely a comment and isn't read by the game, and it can be omitted entirely. ⟦1⟧, and it's better to use new files rather than copying over base game files. While it is theoretically possible to avoid using localisation in many cases, localisation has advantages over using strings directly:",
+   "frags": 2
+  },
+  {
+   "k": "1ec1pbn",
+   "en": "localisation_key:0 \"Value of the key\""
+  },
+  {
+   "k": "1hzeki2",
+   "en": "Any localisation file can be used for any localisation"
+  },
+  {
+   "k": "go3cuz",
+   "en": "Text customisation support. This necessarily includes newlines and coloured text, which never work inside of strings. In some cases, dynamic localisation as marked with square brackets as e.g. ⟦0⟧ will work with localisation, but not in strings.",
+   "frags": 1
+  },
+  {
+   "k": "1djbxoa",
+   "en": "[TAG.GetName]"
+  },
+  {
+   "k": "p0k54e",
+   "en": "Multiple language support. Even if the mod is only intended to only be within English or a different language, it is better to allow the option to be open for potential sub-mods. While it is still possible to make translation sub-mods to mods that don't use localisation, it becomes much harder to keep it up-to-date (As more than just localisation files need to be changed in this case) and changes the checksum (Making it impossible to have a multiplayer session between those that have the translation sub-mod and those that don't)."
+  },
+  {
+   "k": "1yy0i7g",
+   "en": "Strings have a character limit of at most 255 visible characters, making it impractical to use them on large chunks of text such as descriptions."
+  },
+  {
+   "k": "fdty28",
+   "en": "Non-ASCII characters, such as umlauts and other diacritics are unsupported by strings in multiple files, such as country leader traits or adjacency rules. Non-ASCII support is usually marked by the file having the byte order mark (usually noted as a separate encoding with UTF-8-BOM), which causes the game to fail to load the file if not directly supported."
+  },
+  {
+   "k": "1jqhvu0",
+   "en": "GFX"
+  },
+  {
+   "k": "1vqwyth",
+   "en": "Main article: Graphical asset modding"
+  },
+  {
+   "k": "bz3mzg",
+   "en": "Most of the time, images are stored in the DDS format, typically ARGB8 (or A8R8G8B8. depending on the image editor) without mipmaps. The exact format doesn't strictly matter, however: most image files can be saved in either DDS, TGA, PNG, or BMP; as long as information in the sprite is correct. Main exceptions to this include the ⟦0⟧ that must be 32-bit TGA files without RLE encoding and bottom-left origin point, and files in the map folder.",
+   "frags": 1
+  },
+  {
+   "k": "vmfxpa",
+   "en": "flags representing countries"
+  },
+  {
+   "k": "ne9jne",
+   "en": "A sprite is used to add extra information to an image file (such as a sprite's name, loading type, the amount of frames, or animation), and are required for an image to be shown in the graphical user interface. Sprites are defined in the ⟦0⟧ files opened with a text editor. Note that the folder is not related to ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1c17fpx",
+   "en": "Sprites are defined within the ⟦0⟧ block and have different definitions, such as a simple ⟦1⟧, a ⟦2⟧ that can be used with an arbitrary size, stretching to fit taking corners into consideration, a ⟦3⟧ that allows creating an animation sequence rather than being limited to scripted ones that can be done in ⟦4⟧s, and so on. A simplest possible sprite file consists of the following:",
+   "frags": 5
+  },
+  {
+   "k": "1jps0eu",
+   "en": "spriteTypes = { ... }"
+  },
+  {
+   "k": "1ylynkk",
+   "en": "spriteType"
+  },
+  {
+   "k": "gcte4s",
+   "en": "corneredTileSpriteType"
+  },
+  {
+   "k": "1ikm53m",
+   "en": "frameAnimatedSpriteType"
+  },
+  {
+   "k": "e19wug",
+   "en": "This assigns the ⟦0⟧ file to have the ⟦1⟧ sprite in-game. This sprite can then be used in the graphical user interface, such as a decision or a focus icon (⟦2⟧). The only images that do not have any definition within interface files are:",
+   "frags": 3
+  },
+  {
+   "k": "rrc6od",
+   "en": "/Hearts of Iron IV/gfx/interface/folder/filename.dds"
+  },
+  {
+   "k": "zgwmgl",
+   "en": "GFX_my_sprite_name"
+  },
+  {
+   "k": "x8c8p2",
+   "en": "Note that focus icons must also have a separate sprite for the shine animation"
+  },
+  {
+   "k": "1iwc64",
+   "en": "Flags used for countries in ⟦0⟧ and its subfolders.",
+   "frags": 1
+  },
+  {
+   "k": "r5nhwe",
+   "en": "/Hearts of Iron IV/gfx/flags/"
+  },
+  {
+   "k": "1889bl3",
+   "en": "Loading screens within ⟦0⟧. Note that, however, the main menu background usually stored in that folder ⟦1⟧ defined as a sprite.",
+   "frags": 2
+  },
+  {
+   "k": "14l86gk",
+   "en": "/Hearts of Iron IV/gfx/loadingscreens/"
+  },
+  {
+   "k": "qav321",
+   "en": "⟦0⟧. They ⟦1⟧ use a sprite as a definition, but they're the only place in the game which doesn't have it as a mandatory requirement, accepting direct links to the file as an alternative.",
+   "frags": 2
+  },
+  {
+   "k": "17ucfk",
+   "en": "Character portraits"
+  },
+  {
+   "k": "1njxwg6",
+   "en": "may"
+  },
+  {
+   "k": "upovad",
+   "en": "There are also potential errors that may occur related to sprites:"
+  },
+  {
+   "k": "satabr",
+   "en": "A sprite is entirely transparent: This is an indication that the sprite exists, but the image within can't be loaded. This occurs if the ⟦0⟧ is defined to a file that doesn't exist (The folder path or the filename may not correspond with the file itself) or if the image itself is corrupted. This is usually accompanied with a ⟦1⟧ error.",
+   "frags": 2
+  },
+  {
+   "k": "1163r7m",
+   "en": "texturefile"
+  },
+  {
+   "k": "bvvzyr",
+   "en": "Instances"
+  },
+  {
+   "k": "e4ooql",
+   "en": "A sprite is replaced with the default image: This is an indication that there is something wrong with the sprite itself rather than the image: the game links to a non-existing sprite somewhere. This is typically a typo within the sprite's name or a failure to follow a name format (Such as omitting _shine from the end of a ⟦0⟧). Ensure that the sprite exists and has the right name.⟦1⟧",
+   "frags": 2
+  },
+  {
+   "k": "cyu07i",
+   "en": "national focus icon's shine sprite"
+  },
+  {
+   "k": "wzpmnk",
+   "en": "[e]"
+  },
+  {
+   "k": "1opbm29",
+   "en": "The character uses a randomly-generated portrait: This is an indication of either of the previous two problems: a character with an invalid sprite or a missing file will have their portrait randomised."
+  },
+  {
+   "k": "1djsobe",
+   "en": "Mod structure"
+  },
+  {
+   "k": "98ge0b",
+   "en": "The .mod file extension doesn't show up in the Windows File Explorer by default, which can make finding the files mentioned here more difficult. Ensure that file extensions are set to show up."
+  },
+  {
+   "k": "e0z1uo",
+   "en": "Unless stated otherwise, this section assumes that the files are in the ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1keebzc",
+   "en": "There are two descriptor files with the .mod extension associated with each mod:"
+  },
+  {
+   "k": "15d0fm",
+   "en": "The user-specific descriptor file, that assigns the information used for loading the mod. In particular, the path to the folder storing the mod must be defined only here, since it can differ depending on the user. They are stored within the user directory's ⟦0⟧ folder, where the filename decides the order in which they will be loaded (unless overwritten by dependencies). The filename can't contain spaces. For example, ⟦1⟧ or ⟦2⟧ are user-specific descriptors.",
+   "frags": 3
+  },
+  {
+   "k": "ohu3hq",
+   "en": "/Hearts of Iron IV/mod/ugc_1234567890.mod"
+  },
+  {
+   "k": "5c4yog",
+   "en": "/Hearts of Iron IV/mod/modname.mod"
+  },
+  {
+   "k": "rmk4tk",
+   "en": "The mod-specific descriptor file, that assigns the information that the mod has that should be shared regardless of the user. This file must be called ⟦0⟧ and is located within the primary folder of the path, i.e. the folder specified in the path within the file above. For example, ⟦1⟧ or ⟦2⟧ are mod-specific descriptors.",
+   "frags": 3
+  },
+  {
+   "k": "yxebv2",
+   "en": "descriptor.mod"
+  },
+  {
+   "k": "1573l6x",
+   "en": "/Hearts of Iron IV/mod/my mod/descriptor.mod"
+  },
+  {
+   "k": "1mfm81j",
+   "en": "../steam/steamapps/workshop/content/394360/1234567890/descriptor.mod"
+  },
+  {
+   "k": "1oybklp",
+   "en": "The two descriptors are intended to have mostly identical information, aside from the fact that only the user-specific file should have a ⟦0⟧ entry within its definition, since this isn't shared across different users and can vary significantly. The launcher enforces this for arguments that can be defined in the launcher, however other arguments such as ⟦1⟧ will not get automatically ported over.",
+   "frags": 2
+  },
+  {
+   "k": "178ycro",
+   "en": "The launcher can be used to create a pair of descriptors: the menu accessed via \"All installed mods\" -> \"Upload mod\" -> \"Create a mod\" is used for this purpose. This doesn't allow freedom in the location of the folder used as the mod folder and doesn't provide all arguments possible to include within a mod descriptor, so manually editing the descriptors in the output may be necessary to add other mod attributes or change the folder location."
+  },
+  {
+   "k": "1pwpvj9",
+   "en": "In addition, these files within the user directory are also used when loading mods:"
+  },
+  {
+   "k": "1tzlzl9",
+   "en": "⟦0⟧ provides a list of enabled mods (in the form of a list of shortened paths to the .mod files, as in ⟦1⟧) and disabled DLCs while opening the game. While this gets automatically changed by the launcher before the game's launch, this allows toggling off and on different mods without using the launcher. If there are multiple ⟦2⟧ definitions, the game will use the first-defined definition, allowing a set of playlists without using the launcher.",
+   "frags": 3
+  },
+  {
+   "k": "kp194s",
+   "en": "/Hearts of Iron IV/dlc_load.json"
+  },
+  {
+   "k": "sio7ot",
+   "en": "\"mod/modname.mod\""
+  },
+  {
+   "k": "960i12",
+   "en": "enabled_mods"
+  },
+  {
+   "k": "8in7cb",
+   "en": "⟦0⟧ or ⟦1⟧ is a SQLite database that is used to generate the mod information and playsets within the launcher. Occassionally, the launcher may fail to update existing mods (e.g. an \"invalid path\" error may remain eternally even after the path is fixed or a new user-specific mod descriptor may fail to get detected), and a deletion of this file allows to re-generate the playsets. After the file is deleted, the game will pick up every user-specific mod descriptor and recreate the list of mods using each one. Mods hosted on Steam workshop and Paradox mods will be automatically added to the default playset; local mods will remain in the \"All installed mods\" list but not be assigned to any playset by default.",
+   "frags": 2
+  },
+  {
+   "k": "1nap0rl",
+   "en": "/Hearts of Iron IV/launcher-v2.sqlite"
+  },
+  {
+   "k": "1x11pue",
+   "en": "/Hearts of Iron IV/launcher-v2_openbeta.sqlite"
+  },
+  {
+   "k": "13gdv6q",
+   "en": "Descriptor contents"
+  },
+  {
+   "k": "xogw53",
+   "en": "Most .mod files contain content similar to this, which is possible to set within the launcher:"
+  },
+  {
+   "k": "d4pqvs",
+   "en": "These are the following arguments:"
+  },
+  {
+   "k": "ld4jv9",
+   "en": "⟦0⟧ is the name of the mod, as it appears in the launcher. This also gets used within the ⟦1⟧ attribute of mods. The name must be unique in comparison to other installed mods.",
+   "frags": 2
+  },
+  {
+   "k": "136nuue",
+   "en": "name"
+  },
+  {
+   "k": "s39jds",
+   "en": "dependencies"
+  },
+  {
+   "k": "fpbzd3",
+   "en": "⟦0⟧ is used to defined the location of the mod folder. For local mods, entering ⟦1⟧ as a shortened location will automatically prepend the user directory's location after opening the launcher. Any folder can be used to store a mod, however ⟦2⟧. If the path contains non-ASCII characters, such as diacritics or non-Latin scripts, the mod will fail to be loaded. The folder separator is strictly a forward slash \"/\". This should only be present in the user-specific file.",
+   "frags": 3
+  },
+  {
+   "k": "hkwdlm",
+   "en": "path = \"mod/modname/"
+  },
+  {
+   "k": "nr1zqb",
+   "en": "only ASCII characters can be used within the path"
+  },
+  {
+   "k": "1uf7gpv",
+   "en": "⟦0⟧ is the filename of the picture that's assigned to the mod. This will appear in the launcher for mods of the Steam and Paradox nature, and also as the thumbnail in Steam Workshop and Paradox Mods. The image must be contained within the root directory of the mod (defined via ⟦1⟧) and must be less than 1MB in size. This must be defined after the name of the mod. ⟦2⟧ even with this defined.",
+   "frags": 3
+  },
+  {
+   "k": "dnba89",
+   "en": "picture"
+  },
+  {
+   "k": "1u7ht4d",
+   "en": "Local mods will not have a picture in the launcher"
+  },
+  {
+   "k": "ivwqm0",
+   "en": "⟦0⟧ is a string that's shown near the mod's name in the launcher as the mod's version. Any string is accepted and grants no change.",
+   "frags": 1
+  },
+  {
+   "k": "jjn9g7",
+   "en": "version"
+  },
+  {
+   "k": "1yhis6o",
+   "en": "⟦0⟧ is used to determine for which version of the game the mod is meant for, granting the 'out of date' marker in the launcher otherwise. The last number of the version can be replaced with an asterisk, which will signify that the mod will work on any minor update within that major update.",
+   "frags": 1
+  },
+  {
+   "k": "4719am",
+   "en": "supported_version"
+  },
+  {
+   "k": "11tiwll",
+   "en": "⟦0⟧ is a list of tags that get used within the Steam Workshop and Paradox Mods.",
+   "frags": 1
+  },
+  {
+   "k": "1vq54f4",
+   "en": "tags"
+  },
+  {
+   "k": "ugnna1",
+   "en": "⟦0⟧ is used to attach a Steam Workshop or a Paradox Mods item to the mod, as to enable updating it within the launcher.",
+   "frags": 1
+  },
+  {
+   "k": "n3mtga",
+   "en": "remote_file_id"
+  },
+  {
+   "k": "hql1jh",
+   "en": "These arguments aren't possible to set within the launcher and can only be added directly:"
+  },
+  {
+   "k": "10cqs6y",
+   "en": "⟦0⟧ changes the folder where the game stores saves. This prevents loading a save made in base game and mods with a different ⟦1⟧ entry and, vise-versa, prevents saves made in this mod to be loaded in the base game or mods with a different ⟦2⟧ entry.",
+   "frags": 3
+  },
+  {
+   "k": "8xhtg6",
+   "en": "user_dir"
+  },
+  {
+   "k": "bkuk7a",
+   "en": "⟦0⟧ changes the ⟦1⟧, in particular forcing this mod to be loaded after every mod listed in this attribute. This doesn't make this mod require the listed mods to work. Changing the load order will ensure that any ⟦2⟧ within the dependency mod will leave this mod's files untouched and that this mod's files will overwrite the dependency mod's files in case of overlapping filenames. ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "1srdcke",
+   "en": "order in which mods will be loaded"
+  },
+  {
+   "k": "57t4hm",
+   "en": "Necessary for sub-mods to work correctly"
+  },
+  {
+   "k": "1prsfs",
+   "en": "⟦0⟧ is used in order to unload every previously-loaded file during the main menu loading within the specified folder. This only applies to files directly within that folder, any sub-folders will left untouched. ⟦1⟧: anything higher in the load order than the mod will be loaded in the exact same way, anything lower than the mod will first get loaded before getting unloaded (e.g. the error where a file will get loaded twice if there's one with a filename differing only by capitalisation will still be present even if one of the files is intended to be replaced with replace_path), anything loaded after the main menu will still get loaded from \"replaced\" folders. ⟦2⟧: if a file fails to overwrite another mod's file, it will still not do so with this attribute used; instead, ⟦3⟧ is used in the mod's attributes to change the load order. In case the mod fails to overwrite base game's files, this will never solve the problem: ensure that the folder you're writing to is indeed the mod's folder rather than, for example, the user directory or a backup of the mod; in case of flags, the game may occassionally fail to make the mod's ⟦4⟧ folder overwrite the base game which can be solved by creating another mod and moving the files there.",
+   "frags": 5
+  },
+  {
+   "k": "1mqcpyv",
+   "en": "This does not force the mod to replace the folder's contents"
+  },
+  {
+   "k": "1iz1bpi",
+   "en": "This doesn't change the load order"
+  }
+ ]
+}

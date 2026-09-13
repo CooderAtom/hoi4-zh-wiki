@@ -1,0 +1,746 @@
+{
+ "batch": 1110,
+ "pages": [
+  "Patch 1.19.X"
+ ],
+ "chars": 13530,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "l81xm3",
+   "en": "ITA: Introduced historical Italian fighter designs for the AI to build."
+  },
+  {
+   "k": "k1u08f",
+   "en": "GER: Introduced some intermediate plane variants for the improved_small_airframe."
+  },
+  {
+   "k": "137exic",
+   "en": "ENG: The UK will build more synthetic refineries to safeguard their supply of rubber. (autarky is king)"
+  },
+  {
+   "k": "15wzf4m",
+   "en": "USA: Added home guard defense logic to protect the continent once the Axis become a threat."
+  },
+  {
+   "k": "ouek8c",
+   "en": "JAP: Japan is more likely to naval invade Borneo now."
+  },
+  {
+   "k": "1yi48hk",
+   "en": "ENG: The UK will be more likely to take 'Gateway to Europe' decisions on Historical mode."
+  },
+  {
+   "k": "bwefck",
+   "en": "INS: Indonesia’s AI will have a higher risk tolerance for raids if the only alternative is cancelling them."
+  },
+  {
+   "k": "ip73ul",
+   "en": "Updated script documentation following the addition of new math functions."
+  },
+  {
+   "k": "neswyo",
+   "en": "Added logical AND, OR, XOR and NOT math expression functions."
+  },
+  {
+   "k": "1u00s7w",
+   "en": "Added a lerp function to the math expressions."
+  },
+  {
+   "k": "15wobsk",
+   "en": "Add 'always_show_on_actions_tooltip' bool field on Advisors to avoid 'on_add and on_remove' effect tooltips being lost when the advisor has a trait with a custom tooltip."
+  },
+  {
+   "k": "1qkd81j",
+   "en": "Added support for scripted 'unit_animations' on raid types."
+  },
+  {
+   "k": "1t1h16j",
+   "en": "Added atan and atan2 math functions"
+  },
+  {
+   "k": "oipq9s",
+   "en": "Fixed a bug where pending hot-joins didn't show up in the UI to be accepted."
+  },
+  {
+   "k": "uq2bt3",
+   "en": "Fixed bug where clients could join the lobby directly, instead of hot-joining once the host loaded into the map."
+  },
+  {
+   "k": "hgq2z2",
+   "en": "AST: Changed incorrect value in the tooltip of the mission 'Final Reforms'."
+  },
+  {
+   "k": "1664ddl",
+   "en": "Fixed a bug where a leader's description would appear twice."
+  },
+  {
+   "k": "mosy4g",
+   "en": "Fixed an issue where Volunteers would not come back when Air Base Access is enabled."
+  },
+  {
+   "k": "1omviel",
+   "en": "ICE: Fixed 'Reclaiming the Empire' focus for Iceland to be doable again after a war with the owner of Greenland is concluded."
+  },
+  {
+   "k": "1t7psmz",
+   "en": "Fixed a case where Romania could snatch Bulgarian territory from a third party occupying them totally via the 'Puppet Romania' focus. Now Bulgaria is required to be at peace for this focus."
+  },
+  {
+   "k": "o87s4e",
+   "en": "Fixed a bug where a spearhead or offensive line order was not advancing to destination tiles"
+  },
+  {
+   "k": "y91ovc",
+   "en": "When writing a file, it's now guarded by a try/catch and will error when unable to write."
+  },
+  {
+   "k": "1b56sah",
+   "en": "AST: The Focus 'World Peace' will now actually allow sending Volunteers to the Spanish Republicans rather than Nationalists."
+  },
+  {
+   "k": "1pj69st",
+   "en": "AST: Australia now gains the 'Liverpool Dockworker' uprising from 'Out of the Den'."
+  },
+  {
+   "k": "muaybt",
+   "en": "AST: The Focus 'Lang is Right' shows the right tooltip (it is -0.05 Political Power Cost instead of -0.05%). Colour is also now green for good."
+  },
+  {
+   "k": "1sy98v2",
+   "en": "AST: Fixed missing localisation in Smuggle Arms decisions, and made the Irish and Northern Irish smuggling use the same timer."
+  },
+  {
+   "k": "29t5ne",
+   "en": "AST: The Focuses 'Liberate the Colonies' and 'Red Solidarity' now have a tooltip to show what they do."
+  },
+  {
+   "k": "p9losr",
+   "en": "AST: The Focus 'Join the Comintern' has a better tooltip explaining what is going on. Australia's faction will only merge into the Comintern, if Australia is the faction leader."
+  },
+  {
+   "k": "obvp4t",
+   "en": "SIA: Fixed an issue where you could demand to release your own territories."
+  },
+  {
+   "k": "r0wtkz",
+   "en": "INS: Fixed a bug where Indonesia could have two resource trades."
+  },
+  {
+   "k": "10tva9c",
+   "en": "INS: Fixed a bug where Indonesia would suddenly become the Republic of Indonesia again after forming the Netherlands-Indonesia Union."
+  },
+  {
+   "k": "3hvs2v",
+   "en": "INS: Fixed certain characters not appearing for the Netherlands-Indonesia Union."
+  },
+  {
+   "k": "1qgi4y",
+   "en": "INS: Fixed a bug where Indonesia could start a new volksraad decision before clearing the event, allowing the same decision to be taken twice."
+  },
+  {
+   "k": "z6hqsp",
+   "en": "INS: Fixed a typo in the Focus description 'Women in the Military'."
+  },
+  {
+   "k": "sd29vs",
+   "en": "INS: Fixed a typo in the Focus 'Women's Sufferage'."
+  },
+  {
+   "k": "e6rof9",
+   "en": "INS: Fixed a typo in the Focus description 'Continue the Hybrid Politics'."
+  },
+  {
+   "k": "13j2ul6",
+   "en": "INS: Fixed several Focuses occasionally attempting to target Interior Borneo."
+  },
+  {
+   "k": "p8almk",
+   "en": "SIA: Fixed missing tech names for tech bonuses."
+  },
+  {
+   "k": "1b4laiu",
+   "en": "HOL: The Focus 'Continue the War in Batavia' now moves the capital to Batavia instead of Bandung."
+  },
+  {
+   "k": "17g6qi5",
+   "en": "Fix Army Leaders cloned for a Civil War still thinking they are deployed with the Army of the original Leader."
+  },
+  {
+   "k": "1awegnv",
+   "en": "Fixed a bug where infiltration tokens disappear when loading saves."
+  },
+  {
+   "k": "1hiic8w",
+   "en": "Fixed an issue where Army HQs became the default garrison garrison template if all other templates were locked."
+  },
+  {
+   "k": "10byuln",
+   "en": "AST: 'The Phosphate Commission' now requires both owning and controlling Nauru."
+  },
+  {
+   "k": "au5qbg",
+   "en": "INS: Indonesia's leader will no longer reset after peacefully gaining independence."
+  },
+  {
+   "k": "1k3qp0g",
+   "en": "AST: The National Spirit 'Nauru Pact' tooltip has been edited so its effects alter depending on GER being in the faction or not."
+  },
+  {
+   "k": "1mqj5zk",
+   "en": "AST: Phosphate Commission spirit is now being removed by completing the Focus ‘Nauru's Return to German Hands’, instead of being removed by the event, making the effect clearer."
+  },
+  {
+   "k": "6i6v52",
+   "en": "AST: Added fallbacks for effects of event Nauru's Return to German Hands to cover if Australia is subject to the UK but not in the same faction or if not subject at all."
+  },
+  {
+   "k": "1u9fkk6",
+   "en": "AST: Event Nauru's Return to German Hands either gives a German Guarantee or adds Australia to the German faction, not both."
+  },
+  {
+   "k": "4d4bzb",
+   "en": "JAP: After being defeated in the war, Japan is now discouraged from joining the Axis."
+  },
+  {
+   "k": "dpgrcn",
+   "en": "Fixed a bug where lobbies with more than 20 players would struggle with more people connecting to the game"
+  },
+  {
+   "k": "11rmxjb",
+   "en": "SIA: Fixed a bug where the Allies could decline Siam's offer to join from the Seri Thai."
+  },
+  {
+   "k": "1rnuaz4",
+   "en": "SIA: Fixed a bug that caused the Seri Thai to not add intel bonus properly"
+  },
+  {
+   "k": "1rf2ttl",
+   "en": "SIA: Fixed a bug that caused players without La Resistance DLC to not get a proper bonus from the Seri Thai OSS Focus"
+  },
+  {
+   "k": "qz0vc2",
+   "en": "AST: The Focus 'Defying American Interference': Added fallbacks if the Philippines are no longer a subject of the USA."
+  },
+  {
+   "k": "11d5qod",
+   "en": "AST: The Focus 'Defying American Interference': Added event chain asking JAP to guarantee AST if they're not in the same faction, and updated tooltips for the focus and its event chains."
+  },
+  {
+   "k": "8occqz",
+   "en": "AST: Changed event images for AST_diplomatic_events.73, AST_diplomatic_events.76"
+  },
+  {
+   "k": "1gqr8m2",
+   "en": "INS: The Indonesian communist branch will no longer create a generic faction with the 'Strength in Unity' manifest."
+  },
+  {
+   "k": "1b8hfr",
+   "en": "INS: The Indonesian AI will no longer wait before establishing a revolutionary HQ, and will be far less likely to build the HQ in Papua."
+  },
+  {
+   "k": "1r524yi",
+   "en": "Fix the commander skill bonus modifier not being properly applied"
+  },
+  {
+   "k": "3uvu7l",
+   "en": "JAP: Fixed Japan's 'Strike the Southern Road' Focus being unreachable if Siam no longer existed."
+  },
+  {
+   "k": "ez0qw0",
+   "en": "HOL: The Netherlands will no longer sometimes cave to the British when going communist or fascist."
+  },
+  {
+   "k": "6733e5",
+   "en": "AST: Added TAOG check to event The 1938 Sesquicentenary (AST_political_events.6)"
+  },
+  {
+   "k": "7i3xty",
+   "en": "SIA: Fixed an incorrect tooltip in the Seri Thai Branch."
+  },
+  {
+   "k": "19rprqc",
+   "en": "HOL: The Netherlands will now be invited to the Allies despite being at war with Indonesia after getting invaded by Germany."
+  },
+  {
+   "k": "xuysys",
+   "en": "Fix issue where militia raid unit models were in an idle pose while displayed above the raid arrow."
+  },
+  {
+   "k": "1k6r4ys",
+   "en": "HOL: Fixed bug where the Netherlands would not get the 'Obtain Foreign Colonial Investments' decisions after completing the required focus."
+  },
+  {
+   "k": "1uwyyrh",
+   "en": "AST: Focus Done Meddling will no longer flood error log on hovering over it."
+  },
+  {
+   "k": "1on1xz3",
+   "en": "Remove incorrect tooltip which falsely claimed an advisor would be unlocked."
+  },
+  {
+   "k": "is0r0l",
+   "en": "Fix AI constantly deploying and withdrawing Army HQs under Field Marshals."
+  },
+  {
+   "k": "gcuhdm",
+   "en": "INS: Indonesia can no longer take the 'Purge the Opportunists' Focus, which creates a faction, if Indonesia is puppeted."
+  },
+  {
+   "k": "1xshl2d",
+   "en": "INS: Fixed an issue where the Indonesian National Revolution ending would sometimes not whitepeace the rest of the Allies."
+  },
+  {
+   "k": "epcf3u",
+   "en": "Fixed some missing idea icons - for Design Companies and others, amongst them AST_kirov, BEL_kirov, smb_organization_of_american_states_member"
+  },
+  {
+   "k": "1ews9hf",
+   "en": "AST: Set to correct Fascist cosmetic tag when becoming independent manually."
+  },
+  {
+   "k": "yy0j9d",
+   "en": "SIA: Fixed an issue where changing laws would not properly adjust the Khana Ratsadon."
+  },
+  {
+   "k": "f992vf",
+   "en": "AST: Renamed the Bristol Blenheim to the Bristol Blenheim Mk IF (this variant replaced the bomb bay for extra under-carriage guns)."
+  },
+  {
+   "k": "dgwhdo",
+   "en": "SIA: Advisors when playing without Thunder at Our Gates enabled should no longer be displayed as question mark placeholder."
+  },
+  {
+   "k": "x891ud",
+   "en": "AST: Added tooltip for Planned Extraction to show this focus will give access to the endless Pilbara steel decision."
+  },
+  {
+   "k": "x8i7wh",
+   "en": "AST: Mount Isa Industrial Concern will now display correctly when upgraded through Planned Extraction."
+  },
+  {
+   "k": "6tjebq",
+   "en": "Division Designer should now save correctly restricted equipment types"
+  },
+  {
+   "k": "jbuh5q",
+   "en": "Fixed the crash that could happen due to the spy operative mastering ability to be in two countries at the same time"
+  },
+  {
+   "k": "gz5nio",
+   "en": "Fixed the tooltip for the Maphilindia achievement"
+  },
+  {
+   "k": "3jhqw4",
+   "en": "Fixed the Treaty of Saadabad focus branch overlapping the Kurdish focus tree as Iraq when obsolete focus branches are shown"
+  },
+  {
+   "k": "ndte6z",
+   "en": "AST: Event The Prime Minister Succumbs localization has been fixed to reference correct character"
+  },
+  {
+   "k": "1mp0flo",
+   "en": "Fixes Czechoslovakia not puppeting Hungary after taking the Neutralize Hungarian Threat Focus and capitulating Hungary."
+  },
+  {
+   "k": "jsy8fm",
+   "en": "Sync HQ deploy template and CP reservation when retemplating a deployed HQ"
+  },
+  {
+   "k": "36h2kn",
+   "en": "Anzac Achievement is now correctly only triggered by generals and field marshals"
+  },
+  {
+   "k": "15uokzt",
+   "en": "Event Loyalties to Britain: Added triggers to hide old options if the Dominion is on the same ideological path as ENG, making it unavailable to leave the Commonwealth through event; Added new option with triggers to show if the Dominion is on the same ideological path as ENG."
+  },
+  {
+   "k": "1cfrvvf",
+   "en": "ENG: Fixed an issue where the United Kingdom wouldn't Bypass the focuses Secure Iraq and Secure Iran when they already had them as their puppets or were at war with them"
+  },
+  {
+   "k": "qwlzj0",
+   "en": "Give Control of State action should now display why you can't give control of a state in a specific condition, instead of allowing it to be done, but failing to properly act."
+  },
+  {
+   "k": "1uxigls",
+   "en": "AST: Fixed an issue so the Focuses 'Done Meddling’ & 'The Ultimate Overseas Duty' don't reset war participation."
+  },
+  {
+   "k": "hq3eo6",
+   "en": "INS: Fixed an issue where the Indonesian Volksraad would be inaccessible after a veto."
+  },
+  {
+   "k": "wlaztb",
+   "en": "INS: Conrad Helfrich is no longer unavailable as a Chief of Navy for Indonesia"
+  },
+  {
+   "k": "11t6mj5",
+   "en": "HOL: the National Spirit 'Profitable Colony' is no longer removed immediately upon being added"
+  },
+  {
+   "k": "df916f",
+   "en": "HOL: The achievement 'Bevrijding' is no longer impossible with TAOG enabled."
+  },
+  {
+   "k": "1j70767",
+   "en": "SIA: Fixed 2 planes not showing up in the tech tree without BBA."
+  },
+  {
+   "k": "10vlrtd",
+   "en": "AST: Updated Expéditionnaire Français en Extrême-Orient name to CEFEO."
+  },
+  {
+   "k": "s9hga4",
+   "en": "Heavy Armor HQ Security is now capable of exercising instead of relaxing all day in their Tanks."
+  },
+  {
+   "k": "ocd8r0",
+   "en": "The Regimental Support Rocket Battery no longer affects division speed."
+  },
+  {
+   "k": "1spe9y2",
+   "en": "GER: German focus 'Around Maginot' now targets an Indonesian-formed Netherlands-Indonesia Union."
+  },
+  {
+   "k": "1ektyc1",
+   "en": "INS: Fixed a missing loc string in an Indonesian event"
+  },
+  {
+   "k": "1q74o6n",
+   "en": "INS: Indonesia no longer needs to control impassable states such as Interior Borneo in order to win the revolution"
+  },
+  {
+   "k": "14e3937",
+   "en": "AST: Now has access to their second Special Forces branch via the Marines focus."
+  },
+  {
+   "k": "apdzef",
+   "en": "SIA: Fixed an issue which caused a limited war to white peace without transfer instead of correctly transferring states if France capitulated while the limited war was ongoing."
+  },
+  {
+   "k": "ajixlb",
+   "en": "SIA: Removed a redundant requirement in the Focus 'Spread Democratic Sentiment In Universities'."
+  },
+  {
+   "k": "dpbe5w",
+   "en": "AST: Failsafes for mission 'Organize a Strike' and spirit 'Strike Ongoing' to cancel both when completing the Focus 'All for One, One for All'."
+  },
+  {
+   "k": "384tfb",
+   "en": "AST: Removed misplaced trigger on 'Strike Ongoing' which made it cancel if not owning Nauru."
+  },
+  {
+   "k": "s71d8y",
+   "en": "AST: Fixed so advisors Milford, Northcott, Jeffrey, Goble & Burnett get discount from Relief of Command/Independent Air Force,"
+  },
+  {
+   "k": "guhv4c",
+   "en": "ETH: The Focus 'Freedom at Gunpoint' now will only take African states and leaves the rest alone."
+  },
+  {
+   "k": "109j56g",
+   "en": "AST: The Focus 'The Irish Anti-Britain Pact' now correctly grants Australia military access and docking rights through Ireland."
+  },
+  {
+   "k": "jl8qj9",
+   "en": "AST: Decisions Vichy Out of Africa is now removed by the Focus 'Undeniably Ours', not 'Done Meddling'."
+  },
+  {
+   "k": "miljtf",
+   "en": "ABDACOM: Vichy France no longer has access to the ABDACOM joint focus tree."
+  },
+  {
+   "k": "1dyvhmy",
+   "en": "INS: Indonesia will no longer lose Dutch generals when having completed ‘Volksraad Compromises’."
+  },
+  {
+   "k": "khgiws",
+   "en": "INS: Made it so that Indonesia cannot side with Japanese invaders if the Focus 'The Industrialized Colony' has been completed, making it no longer possible to gain 7 research slots as Indonesia."
+  },
+  {
+   "k": "n3mjew",
+   "en": "Block disbanding armies with a deployed HQ, preventing an exploit"
+  },
+  {
+   "k": "1pxha7",
+   "en": "GER: Decision Reichskommissariat Australasian required states has been adjusted to match map changes."
+  },
+  {
+   "k": "6o17w3",
+   "en": "SIA: The 'Artillery Enthusiast' trait now no longer applies to the Self-Propelled Artillery."
+  },
+  {
+   "k": "dzjte2",
+   "en": "SIA: Fixed an issue where limited wars would cause France to not be able to join a faction."
+  },
+  {
+   "k": "10cn6b1",
+   "en": "SIA: King of the White Elephant propaganda poster tooltip and its effect on Weekly Stability have been fixed."
+  },
+  {
+   "k": "912me0",
+   "en": "Fixes the conflicting available tooltip for 'The Between the Seas Concept' to be clearer"
+  },
+  {
+   "k": "b8mdtq",
+   "en": "GER: Bougainville added to focus Break the Anglo-French Colonial Hegemony"
+  },
+  {
+   "k": "1dk8meq",
+   "en": "Bougainville has now been included in effects that target the state for GER, JAP, PHI (i.e.: focuses that take control of pacific islands etc.)."
+  },
+  {
+   "k": "oxwxjv",
+   "en": "Fixes issue where division templates used in a garrison could be edited to have zero suppression."
+  },
+  {
+   "k": "aaft44",
+   "en": "RAJ: Loc typo for displaying current resistance in string currentStateResistance."
+  },
+  {
+   "k": "1ghzh2i",
+   "en": "AST: Communist Civil War should no longer happen if Australia is already Communist."
+  },
+  {
+   "k": "1mkykll",
+   "en": "Fix Shift+Click allowing Spain to deploy locked HQ templates."
+  },
+  {
+   "k": "n0w2zq",
+   "en": "SIA: Fixed a bug where the Asian democratic compact wasn't updating correctly. It will now always be updated once at the end of each month."
+  },
+  {
+   "k": "r8lxud",
+   "en": "SIA: You now need to be a faction leader to get updated bonuses from the 'Asian Democratic Compact'."
+  },
+  {
+   "k": "1le8gpy",
+   "en": "SIA: Fixed tooltip for 'Asian Democratic compact'."
+  },
+  {
+   "k": "knkw2c",
+   "en": "SIA: Fixed an issue where invite country to Asian Democratic Compact wasn't showing"
+  },
+  {
+   "k": "gohnuv",
+   "en": "ETH: Fixes Ethiopia being able to annex colonial powers through the Horn of Africa decisions if the colonial powers moved their capitals there."
+  },
+  {
+   "k": "a6dofm",
+   "en": "AST: Focus completion time increase/decrease in event Halfway to Federal Election & decision Final Reforms has been edited to match"
+  },
+  {
+   "k": "1w7nsow",
+   "en": "INS: Fixed typo in Murk Boerstra's name."
+  },
+  {
+   "k": "15l7wqi",
+   "en": "INS: Fixed typo in the Focus 'Overallwagen' -> 'Overvalwagen'."
+  },
+  {
+   "k": "1p1yprf",
+   "en": "References"
+  },
+  {
+   "k": "z32ib",
+   "en": "Forum: Thunder at our Gates - Hotfix 1.19.0.1, 2026-06-12."
+  },
+  {
+   "k": "7gj2zb",
+   "en": "Forum: Thunder at our Gates | Patch 1.19.1, 2026-06-17."
+  },
+  {
+   "k": "b894dh",
+   "en": "Forum: Thunder at our Gates | Patch 1.19.2, 2026-06-30."
+  }
+ ]
+}

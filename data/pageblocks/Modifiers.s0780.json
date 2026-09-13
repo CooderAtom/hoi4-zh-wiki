@@ -1,0 +1,656 @@
+{
+ "page": "Modifiers",
+ "from": 780,
+ "items": [
+  {
+   "k": "8ufeg7",
+   "en": "agency_upgrade_time",
+   "zh": ""
+  },
+  {
+   "k": "pwp79a",
+   "en": "Changes the time it takes to upgrade the agency",
+   "zh": ""
+  },
+  {
+   "k": "810vqt",
+   "en": "agency_upgrade_time = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "3d37sk",
+   "en": "decryption",
+   "zh": ""
+  },
+  {
+   "k": "1u5p6lm",
+   "en": "Changes the decription capability of the country.",
+   "zh": ""
+  },
+  {
+   "k": "hhqyaw",
+   "en": "decryption = 1",
+   "zh": ""
+  },
+  {
+   "k": "1m2lwhf",
+   "en": "Only works with the La Résistance DLC disabled.",
+   "zh": ""
+  },
+  {
+   "k": "11kvlhm",
+   "en": "decryption_factor",
+   "zh": ""
+  },
+  {
+   "k": "onflq0",
+   "en": "Changes the decription capability of the country by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "exfjm0",
+   "en": "decryption_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1xr7ks",
+   "en": "encryption",
+   "zh": ""
+  },
+  {
+   "k": "xiatzq",
+   "en": "Changes the encryption capability of the country.",
+   "zh": ""
+  },
+  {
+   "k": "19ks6ow",
+   "en": "encryption = 1",
+   "zh": ""
+  },
+  {
+   "k": "6csz5u",
+   "en": "encryption_factor",
+   "zh": ""
+  },
+  {
+   "k": "gh119w",
+   "en": "Changes the encryption capability of the country by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "ow9odc",
+   "en": "encryption_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "ljpug0",
+   "en": "<type>_intel_decryption_bonus",
+   "zh": ""
+  },
+  {
+   "k": "xwgomw",
+   "en": "Adds a cipher bonus to the specified intel.",
+   "zh": ""
+  },
+  {
+   "k": "av1f6f",
+   "en": "civilian_intel_decryption_bonus = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "11a1up9",
+   "en": "Types are: airforce, army, civilian, navy.",
+   "zh": ""
+  },
+  {
+   "k": "1ioyz2e",
+   "en": "<type>_intel_factor",
+   "zh": ""
+  },
+  {
+   "k": "3edb49",
+   "en": "Modifies the intelligence you receive of the specified type.",
+   "zh": ""
+  },
+  {
+   "k": "1wuccj6",
+   "en": "navy_intel_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1eimec6",
+   "en": "<type>_intel_to_others",
+   "zh": ""
+  },
+  {
+   "k": "10a8cv1",
+   "en": "Changes the amount of intel other countries will receive of the specified type.",
+   "zh": ""
+  },
+  {
+   "k": "11264t7",
+   "en": "civilian_intel_to_others = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1kxl1ko",
+   "en": "female_random_operative_chance",
+   "zh": ""
+  },
+  {
+   "k": "158laow",
+   "en": "Changes the chance for a randomly-generated operative to be female.",
+   "zh": ""
+  },
+  {
+   "k": "7wft20",
+   "en": "female_random_operative_chance = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "111ay83",
+   "en": "foreign_subversive_activites",
+   "zh": ""
+  },
+  {
+   "k": "1swff5b",
+   "en": "Changes efficiency of foreign subversive activities.",
+   "zh": ""
+  },
+  {
+   "k": "1skbuf3",
+   "en": "foreign_subversive_activites = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "15iqhak",
+   "en": "intel_network_gain",
+   "zh": ""
+  },
+  {
+   "k": "tppnzl",
+   "en": "Changes gain of intel network strength.",
+   "zh": ""
+  },
+  {
+   "k": "1r4u7o0",
+   "en": "intel_network_gain = 1",
+   "zh": ""
+  },
+  {
+   "k": "l1sg6q",
+   "en": "intel_network_gain_factor",
+   "zh": ""
+  },
+  {
+   "k": "10qr0rn",
+   "en": "Changes gain of intel network strength by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "ze2e0g",
+   "en": "intel_network_gain_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1sx5omb",
+   "en": "subversive_activites_upkeep",
+   "zh": ""
+  },
+  {
+   "k": "19tcy8m",
+   "en": "Changes the cost of subversive activities.",
+   "zh": ""
+  },
+  {
+   "k": "1hzzdx5",
+   "en": "subversive_activites_upkeep = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "y7l0jm",
+   "en": "operation_cost",
+   "zh": ""
+  },
+  {
+   "k": "j8ejpb",
+   "en": "Changes the cost of operations.",
+   "zh": ""
+  },
+  {
+   "k": "g38yhs",
+   "en": "operation_cost = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "14c18hx",
+   "en": "Dynamically created by operations with the ⟦0⟧ block. This one is used by each base game operation to modify the operation cost.",
+   "zh": ""
+  },
+  {
+   "k": "g3y8wy",
+   "en": "cost_modifiers = { ... }",
+   "zh": ""
+  },
+  {
+   "k": "xutnnt",
+   "en": "operation_outcome",
+   "zh": ""
+  },
+  {
+   "k": "bfdd9b",
+   "en": "Changes the efficiency of operations.",
+   "zh": ""
+  },
+  {
+   "k": "u8aktf",
+   "en": "operation_outcome = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "d2rup7",
+   "en": "Dynamically created by operations with the ⟦0⟧ block. This one is used by ⟦1⟧ to modify the operation's outcome chance.",
+   "zh": ""
+  },
+  {
+   "k": "1iblpk5",
+   "en": "outcome_modifiers = { ... }",
+   "zh": ""
+  },
+  {
+   "k": "dfqetg",
+   "en": "each base game operation",
+   "zh": ""
+  },
+  {
+   "k": "qofong",
+   "en": "operation_risk",
+   "zh": ""
+  },
+  {
+   "k": "4o7n4l",
+   "en": "Changes the risk of operations.",
+   "zh": ""
+  },
+  {
+   "k": "g8m0iu",
+   "en": "operation_risk = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "z7j7eo",
+   "en": "Dynamically created by operations with the ⟦0⟧ block. This one is used by ⟦1⟧ to modify the operation risk.",
+   "zh": ""
+  },
+  {
+   "k": "16gse74",
+   "en": "risk_modifiers = { ... }",
+   "zh": ""
+  },
+  {
+   "k": "1odv4se",
+   "en": "<operation>_cost",
+   "zh": ""
+  },
+  {
+   "k": "6wduzj",
+   "en": "Changes the cost of the specified operation.",
+   "zh": ""
+  },
+  {
+   "k": "rqygxf",
+   "en": "operation_infiltrate_cost = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1vaiqda",
+   "en": "Operations are defined in ⟦0⟧. Dynamically created by operations with the ⟦1⟧ block.",
+   "zh": ""
+  },
+  {
+   "k": "1pgzd5l",
+   "en": "/Hearts of Iron IV/common/operations/*.txt",
+   "zh": ""
+  },
+  {
+   "k": "1yo4fal",
+   "en": "<operation>_outcome",
+   "zh": ""
+  },
+  {
+   "k": "1jthetb",
+   "en": "Changes the efficiency of the specified operation.",
+   "zh": ""
+  },
+  {
+   "k": "tjm02j",
+   "en": "operation_coup_government_outcome = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "clkhi1",
+   "en": "Operations are defined in ⟦0⟧. Dynamically created by operations with the ⟦1⟧ block. Note that target_sabotage uses target_sabotage_factor rather than target_sabotage_outcome.",
+   "zh": ""
+  },
+  {
+   "k": "1izsiqw",
+   "en": "<operation>_risk",
+   "zh": ""
+  },
+  {
+   "k": "13nur5t",
+   "en": "Changes the risk of the specified operation.",
+   "zh": ""
+  },
+  {
+   "k": "1p9e0qz",
+   "en": "operation_make_resistance_contacts_risk = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1u6qcxf",
+   "en": "<mission>_factor",
+   "zh": ""
+  },
+  {
+   "k": "1d48yk5",
+   "en": "Modifies the effect of the specified mission.",
+   "zh": ""
+  },
+  {
+   "k": "114dd50",
+   "en": "boost_ideology_mission_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "b7rf5u",
+   "en": "Types are: boost_ideology_mission, boost_resistance, control_trade_mission, diplomatic_pressure_mission, propaganda_mission, root_out_resistance_effectiveness.",
+   "zh": ""
+  },
+  {
+   "k": "s68kjd",
+   "en": "commando_trait_chance_factor",
+   "zh": ""
+  },
+  {
+   "k": "hd17ov",
+   "en": "Modifies the chance for an operative to get the commando trait when hired.",
+   "zh": ""
+  },
+  {
+   "k": "s9p2ib",
+   "en": "commando_trait_chance_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "v7snfl",
+   "en": "crypto_department_enabled",
+   "zh": ""
+  },
+  {
+   "k": "111j6lp",
+   "en": "Enables the crypto department.",
+   "zh": ""
+  },
+  {
+   "k": "p1oqjh",
+   "en": "crypto_department_enabled = 1",
+   "zh": ""
+  },
+  {
+   "k": "ws7m3s",
+   "en": "crypto_strength",
+   "zh": ""
+  },
+  {
+   "k": "1h4mwsk",
+   "en": "Modifies the cryptology level.",
+   "zh": ""
+  },
+  {
+   "k": "1yoq5ro",
+   "en": "crypto_strength = 1",
+   "zh": ""
+  },
+  {
+   "k": "iw9yjb",
+   "en": "La Résistance DLC enabled.",
+   "zh": ""
+  },
+  {
+   "k": "15hxp8y",
+   "en": "decryption_power",
+   "zh": ""
+  },
+  {
+   "k": "1nrgahi",
+   "en": "Modifies the decryption power.",
+   "zh": ""
+  },
+  {
+   "k": "1rz08ba",
+   "en": "decryption_power = 1",
+   "zh": ""
+  },
+  {
+   "k": "hifbso",
+   "en": "decryption_power_factor",
+   "zh": ""
+  },
+  {
+   "k": "1t5pl2s",
+   "en": "Modifies the decryption power by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1di2714",
+   "en": "decryption_power_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1rx7saq",
+   "en": "defense_impact_on_blueprint_stealing",
+   "zh": ""
+  },
+  {
+   "k": "1vmubwa",
+   "en": "Modifies the impact of enemy defense on the blueprint stealing operation.",
+   "zh": ""
+  },
+  {
+   "k": "1ap6ple",
+   "en": "defense_impact_on_blueprint_stealing = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "12ys81p",
+   "en": "intel_from_combat_factor",
+   "zh": ""
+  },
+  {
+   "k": "1p5fuyb",
+   "en": "Modifies the intelligence gained from combat.",
+   "zh": ""
+  },
+  {
+   "k": "uy4qsp",
+   "en": "intel_from_combat_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "85l8rn",
+   "en": "intel_from_operatives_factor",
+   "zh": ""
+  },
+  {
+   "k": "66omfl",
+   "en": "Modifies the intelligence gained from operatives and infiltrated assets.",
+   "zh": ""
+  },
+  {
+   "k": "2wrjtr",
+   "en": "intel_from_operatives_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "17bq1qa",
+   "en": "Modifies the intelligence network gain.",
+   "zh": ""
+  },
+  {
+   "k": "1dn7o3w",
+   "en": "intel_network_gain = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "y7hccw",
+   "en": "Modifies the intelligence network gain by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "112006a",
+   "en": "intel_network_gain_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "148k4cr",
+   "en": "intelligence_agency_defense",
+   "zh": ""
+  },
+  {
+   "k": "171vlbj",
+   "en": "Modifies the counter intelligence.",
+   "zh": ""
+  },
+  {
+   "k": "fgxmp3",
+   "en": "intelligence_agency_defense = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1sejmzn",
+   "en": "root_out_resistance_effectiveness_factor",
+   "zh": ""
+  },
+  {
+   "k": "1ttmkr2",
+   "en": "Modifies the effectiveness of rooting out resistance.",
+   "zh": ""
+  },
+  {
+   "k": "x3fsm7",
+   "en": "root_out_resistance_effectiveness_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "s7nm8z",
+   "en": "These can be used in both the country scope and operative scope, such as traits, unless specified otherwise.",
+   "zh": ""
+  },
+  {
+   "k": "1qt712x",
+   "en": "own_operative_capture_chance_factor",
+   "zh": ""
+  },
+  {
+   "k": "a4va7i",
+   "en": "Changes the chance for our operatives to be captured.",
+   "zh": ""
+  },
+  {
+   "k": "a2xc8j",
+   "en": "own_operative_capture_chance_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1pyhh22",
+   "en": "own_operative_detection_chance",
+   "zh": ""
+  },
+  {
+   "k": "vfgi72",
+   "en": "Changes the chance for our operatives to be detected.",
+   "zh": ""
+  },
+  {
+   "k": "t0qrfe",
+   "en": "own_operative_detection_chance = 10",
+   "zh": ""
+  },
+  {
+   "k": "igug4w",
+   "en": "own_operative_detection_chance_factor",
+   "zh": ""
+  },
+  {
+   "k": "vh4i1o",
+   "en": "Changes the chance for our operatives to be detected by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "1ktui02",
+   "en": "own_operative_detection_chance_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "zvzp1q",
+   "en": "own_operative_forced_into_hiding_time_factor",
+   "zh": ""
+  },
+  {
+   "k": "12tuh26",
+   "en": "Changes the chance for our operatives to be forced into hiding by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "12xcx44",
+   "en": "own_operative_forced_into_hiding_time_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "xaa6aj",
+   "en": "own_operative_harmed_time_factor",
+   "zh": ""
+  },
+  {
+   "k": "11l24tz",
+   "en": "Changes the chance for our operatives to be harmed by a percentage.",
+   "zh": ""
+  },
+  {
+   "k": "l5hy9d",
+   "en": "own_operative_harmed_time_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "fgd0p",
+   "en": "own_operative_intel_extraction_rate",
+   "zh": ""
+  },
+  {
+   "k": "a93cb2",
+   "en": "Changes the rate at which our operatives extract enemy intel.",
+   "zh": ""
+  },
+  {
+   "k": "nmmfgj",
+   "en": "own_operative_intel_extraction_rate = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1yxhf0t",
+   "en": "enemy_operative_capture_chance_factor",
+   "zh": ""
+  },
+  {
+   "k": "3i9vu0",
+   "en": "Changes the chance for an enemy operative to be captured.",
+   "zh": ""
+  },
+  {
+   "k": "1x0dfb3",
+   "en": "enemy_operative_capture_chance_factor = 0.5",
+   "zh": ""
+  }
+ ]
+}

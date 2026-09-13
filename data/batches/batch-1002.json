@@ -1,0 +1,886 @@
+{
+ "batch": 1002,
+ "pages": [
+  "Patch 1.14.X"
+ ],
+ "chars": 14996,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "6tl8oc",
+   "en": "⟦0⟧ are all patches beginning with 1.14.",
+   "frags": 1
+  },
+  {
+   "k": "m2hbv",
+   "en": "Patch 1.14.X"
+  },
+  {
+   "k": "1fzcdgo",
+   "en": "Main article: Patch 1.14"
+  },
+  {
+   "k": "wbj11b",
+   "en": "Patch 1.14 was never released publicly. Patch 1.14.1 was the officially release."
+  },
+  {
+   "k": "exwpgi",
+   "en": "Patch 1.14.2 was released on 2024-03-13⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "12ocyk6",
+   "en": "fbf7"
+  },
+  {
+   "k": "h8dwn7",
+   "en": "Bugfix & Gameplay Additions"
+  },
+  {
+   "k": "1rz2kqq",
+   "en": "Presets in the equipment designer should not be blocked because of so-called negative stats"
+  },
+  {
+   "k": "hq7ume",
+   "en": "Blockade runner now requires fighting with at least one >37 knot ship"
+  },
+  {
+   "k": "2c15og",
+   "en": "Added a decision for fascist Chile after completing the focus \"Forge a New Chilean Identity\" to change the national flag to the Patria Vieja based one, due to popular demand."
+  },
+  {
+   "k": "6db4gn",
+   "en": "Added Felipe Molas López as advisor for Paraguay"
+  },
+  {
+   "k": "y0yggk",
+   "en": "Valentino Riroko Tuki's trait has been buffed, and RAP now gains slightly more things when released and chosen to be played as a part of the Araucanian-Chilean civil war."
+  },
+  {
+   "k": "10a70rq",
+   "en": "Blockade runner is now actually obtainable"
+  },
+  {
+   "k": "kbzbu4",
+   "en": "Flourishing economy for Paraguay no longer expires"
+  },
+  {
+   "k": "1jmmikr",
+   "en": "Revenge for the Triple Alliance and Rekindle old gripes now gives wargoals against both actors in a civil war if BRA or ARG is in a civil war"
+  },
+  {
+   "k": "1rjrpio",
+   "en": "Fixed an issue where two designer companies for Chile wouldn't have icons with AAT disabled."
+  },
+  {
+   "k": "1uiak0k",
+   "en": "Fixed a bug where Bartolome Blanche would go to the revolting side in the Araucanian civil war despite the non-aligned side still meeting all the requirements to keep him."
+  },
+  {
+   "k": "wfvyi6",
+   "en": "Fixed an issue where taking any of the Promote Spanish Immigration decisions as Chile would permanently block the player from taking any further immigration decisions."
+  },
+  {
+   "k": "1i7b7os",
+   "en": "Support the Spanish republicans no longer spams the error folder"
+  },
+  {
+   "k": "1x9fif0",
+   "en": "Historical AI behavior setting for Uruguay no longer disallows achievements"
+  },
+  {
+   "k": "1r0pasl",
+   "en": "Fixed an issue where Paraguay could take a focus before taking the prerequisite focus"
+  },
+  {
+   "k": "lja7wl",
+   "en": "You no longer require French Somaliland for the Chilean empire achivement"
+  },
+  {
+   "k": "1ytt58a",
+   "en": "USA should no longer guarantee Monroe countries in addition to having the Monroe spirit if Trial of Allegiance is on, unless Tension is > 90%"
+  },
+  {
+   "k": "gkfc1d",
+   "en": "Replaced some Uruguayan spirit icons with nicer ones"
+  },
+  {
+   "k": "1f6hnyh",
+   "en": "Italy now joins the war when France proper is being invaded by Axis troops, or on the historical date"
+  },
+  {
+   "k": "gnvij6",
+   "en": "Reshuffled priorities for building slots for URG/PAR to make it less likely that the capital hits the 25 slot limit"
+  },
+  {
+   "k": "mi9dmy",
+   "en": "Paraguay river navy gets properly removed upon capitulation"
+  },
+  {
+   "k": "lr6j47",
+   "en": "Fixed Oscar Escudero Otárola having his name backwards"
+  },
+  {
+   "k": "1ivigo2",
+   "en": "'Reach out to Soviets' in the Argentina tree now checks if the Soviet Union is communist."
+  },
+  {
+   "k": "guvcll",
+   "en": "Election event will now only fire if Brazil has completed 'Repeal the National Security Laws'"
+  },
+  {
+   "k": "bp0hyw",
+   "en": "Made the requirements to get Senor Hilter slightly easier."
+  },
+  {
+   "k": "5nr7e1",
+   "en": "Added the correct Mechanized tech icons for Brazil"
+  },
+  {
+   "k": "1j6c9ia",
+   "en": "Fixed an issue where Argentina and Chile could not use their modern small aircraft icon for carrier aircraft."
+  },
+  {
+   "k": "ip03z4",
+   "en": "Added a fix so you can now see that Prestes will become country leader with the 'Align with Moscow' trait."
+  },
+  {
+   "k": "pxy2w7",
+   "en": "Added a check to Argentina's 'Support the Spanish Republicans' focus so it can only be taken if the Spanish Republic exists."
+  },
+  {
+   "k": "m4q13r",
+   "en": "some more portrait tweaks for minvervino, valentino and dartnell"
+  },
+  {
+   "k": "1jszy51",
+   "en": "Added a check to the Juan Peron focus to make sure he is still recruited. Also added tooltip to event to make it more apparent he will not be available."
+  },
+  {
+   "k": "8hqq0e",
+   "en": "Argentina can now peace out all UK allies when taking the Falklands"
+  },
+  {
+   "k": "crxbos",
+   "en": "Modified requirements for 'Revise Treaty of Roca-Runciman' in Argentina focus tree. Now accessible to communists after civil war."
+  },
+  {
+   "k": "ugrajj",
+   "en": "New Edelman portrait added and minor tweaks to previously existing portraits"
+  },
+  {
+   "k": "1y2k9i5",
+   "en": "Fix for the Cisplatine war achievement not working."
+  },
+  {
+   "k": "1m776wn",
+   "en": "Fixed snake smoked achievement file names."
+  },
+  {
+   "k": "1gfk1ov",
+   "en": "Nerfed some of the recruitable population and supply in Communist Argentina"
+  },
+  {
+   "k": "nqkngh",
+   "en": "Merged two instances of a duplicated Brazilian admiral/advisor"
+  },
+  {
+   "k": "skll08",
+   "en": "Added fix to prevent elections from firing if Vargas is still country leader"
+  },
+  {
+   "k": "10mb2wt",
+   "en": "Eugenio Gomez portrait updated to show the right person"
+  },
+  {
+   "k": "10cl28s",
+   "en": "Neglected state and Cangaco state modifiers will now be removed when another country owns the state."
+  },
+  {
+   "k": "1yqdrj6",
+   "en": "Fixed an issue that was preventing players from inviting countries to the Org of American states faction and made it easier to see how to integrate countries into US of South America."
+  },
+  {
+   "k": "1w5usv3",
+   "en": "Updated some focuses that were not adding cores to new states."
+  },
+  {
+   "k": "6fm3g",
+   "en": "Added a fix to make sure that Support the Spanish Nationalists isn't available if they win the civil war"
+  },
+  {
+   "k": "t6ps9y",
+   "en": "Added chief of army for those without ToA for Argentina"
+  },
+  {
+   "k": "qrmur9",
+   "en": "Made Fascist demagogue advisors available from game start in Argentina"
+  },
+  {
+   "k": "19x3ldu",
+   "en": "Brazil and Argentina now have full access to their respective intel agency icons"
+  },
+  {
+   "k": "xcwb9w",
+   "en": "Improved tooltip for Align with Moscow focus"
+  },
+  {
+   "k": "12rfkvx",
+   "en": "Beneath the shadow of the Triple Alliance and Rekindle old gripes no longer instantly white peace PAR/URG, giving them the option of continuing the war without being teleported back"
+  },
+  {
+   "k": "1yetx1w",
+   "en": "Fixed confusing Tooltip for blockade runner"
+  },
+  {
+   "k": "1y5u5l6",
+   "en": "Peru can no longer go to war with Ecuador if subject"
+  },
+  {
+   "k": "bj628c",
+   "en": "Chile can no longer create their own faction is subject"
+  },
+  {
+   "k": "pm68qh",
+   "en": "Mexico can no longer invite Peru to their faction if they are at war with Ecuador"
+  },
+  {
+   "k": "1ldb7eq",
+   "en": "Normandy is now part of Chile's decisions to core France"
+  },
+  {
+   "k": "1jy0mz9",
+   "en": "Manuel A. Rodriguez no longer has a duplicated localization key and is recruited when ToA is disabled."
+  },
+  {
+   "k": "1nowk04",
+   "en": "Added fix that prevents players from taking \"Demand Compensation From Spain\" if Spain does not own Equatorial Guinea"
+  },
+  {
+   "k": "2c9cx2",
+   "en": "Fixed an issue with Argentina's starting plane having the wrong icon."
+  },
+  {
+   "k": "1q8fdom",
+   "en": "Fixed a bug where \"TAG makes aggressive moves on Uruguay\" event fires twice"
+  },
+  {
+   "k": "h7g7m0",
+   "en": "URSAL focus now grants cores to Brazil"
+  },
+  {
+   "k": "oyg6iv",
+   "en": "Fixed a bug which required reloading the game to show hidden Senor Hilter focuses"
+  },
+  {
+   "k": "inl42a",
+   "en": "AI now motorizes supply hubs if needed, even if they are controlled by allies or puppets"
+  },
+  {
+   "k": "h2i12x",
+   "en": "The ai should no longer be as willing to send volunteers to the Kingdom of Araucania and Patagonia for all of eternity."
+  },
+  {
+   "k": "vwg0v5",
+   "en": "Limiting some italy ai strategies for only when in faction with germany"
+  },
+  {
+   "k": "9m30fv",
+   "en": "Modding"
+  },
+  {
+   "k": "19o478b",
+   "en": "Removed the check on negative stats that disabled create_equipment_variant and AI equipment creation"
+  },
+  {
+   "k": "1h83hpk",
+   "en": "Stability & Performance"
+  },
+  {
+   "k": "1jt6ljj",
+   "en": "Improve performance in resource computation."
+  },
+  {
+   "k": "wiff6a",
+   "en": "Various minor optimisations across the game (infrastructure etc)"
+  },
+  {
+   "k": "p85rym",
+   "en": "Patch 1.14.3 was released on 2024-03-21⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "d999l3",
+   "en": "21de"
+  },
+  {
+   "k": "kxxksr",
+   "en": "Balance"
+  },
+  {
+   "k": "1dzcs6r",
+   "en": "South America Shared: Reduced Maximum Command Power Increase from Joint Operations Command (from 30% to 15%)"
+  },
+  {
+   "k": "1f1he9r",
+   "en": "South America Shared: Reduced the org and core defense gain of strength of the common solider to 4% (from 5%). Also reduced the infantry bonus gained"
+  },
+  {
+   "k": "1in8lv2",
+   "en": "South America Shared: Reduced attack modifier for Spearhead tanks specialization from 10% to 3.5%"
+  },
+  {
+   "k": "1jgyzev",
+   "en": "South America Shared: Reduced specializing in heavy guns attack for artillery from 10% to 3.5%"
+  },
+  {
+   "k": "jpbie0",
+   "en": "South America Shared: Reduced specializing in heavy guns AA production reduction cost from 20% to 6%"
+  },
+  {
+   "k": "1b26cn6",
+   "en": "South America Shared: Reduced specializing in heavy guns AT production reduction cost from 25% to 15%"
+  },
+  {
+   "k": "87g518",
+   "en": "South America Shared: Removed Recruitable pop factor from Increase Conscription focus"
+  },
+  {
+   "k": "1ltea8x",
+   "en": "Reduced division defense from increased army professionalism from 10% to 5%. attack and org from 5% to 4%. Reduced traning time from +25% penalty to +15% penalty"
+  },
+  {
+   "k": "hkeuke",
+   "en": "Argentina: Reduced Women in the industry and state unions max efficiency factor bonus from 15% and 10% (25% total) to 7.5% (15% max)"
+  },
+  {
+   "k": "xb2nkn",
+   "en": "Argentina: Reduced regulated salaries efficiency cap from 15% to 7.5%"
+  },
+  {
+   "k": "s5jrca",
+   "en": "Argentina: Reduced daily xp gain from US army training to 0.1xp/d (from 0.2xp/d)"
+  },
+  {
+   "k": "1ju1ibk",
+   "en": "Argentina: Reduced maintain neutrality spirit stability (from 10% to 5%) and efficiency cap (from 10% to 5%)"
+  },
+  {
+   "k": "opoqiu",
+   "en": "Argentina: Reduced our own path spirit recruitable pop factor from 30% to 15%"
+  },
+  {
+   "k": "kkb4lq",
+   "en": "Argentina: Reduced spirit of the conquistadors attack (from 20% to 6%)"
+  },
+  {
+   "k": "1194vg6",
+   "en": "Argentina: Reduced Argentine Nationalism conscription factor (from 15% to 7%) and Civilian construction speed (from 10% to 6%)"
+  },
+  {
+   "k": "g7dqz6",
+   "en": "Argentina: increased war division temp manpower gain from 50 weekly to 250 weekly"
+  },
+  {
+   "k": "16n38vk",
+   "en": "Chile: Replaced mapuche social classes weekly stability with a flat stability factor"
+  },
+  {
+   "k": "14gjar0",
+   "en": "Chile: Elena Caffarena gives a flat stability factor instead of a weekly stability"
+  },
+  {
+   "k": "7s9wis",
+   "en": "Chile: Reduced Embrace Indigenous Corporatism Factory output (from 10% to 5%)"
+  },
+  {
+   "k": "9rs0pd",
+   "en": "Chile: Expand the agricultural field gives 1 additional build slot (from 3 to 4)"
+  },
+  {
+   "k": "1m9lgwc",
+   "en": "Old Guard for Army now gives 0.2 army XP daily (from 0.3) due to costing only 50pp"
+  },
+  {
+   "k": "7y8wk1",
+   "en": "Chile: Gabriela Mistral - Reduced PP gain (from 20% to 15%)"
+  },
+  {
+   "k": "1qbk1tm",
+   "en": "Chile: Transport Minister no longer gives civ construction speed. Increase railway and hub construction speed (from 10% to 15%)"
+  },
+  {
+   "k": "vtl3er",
+   "en": "Chile: Minister of Trade development - Reduced Trade law cost factor (from -30% to -15%) and consumer goods factor (from -10% to -5%)"
+  },
+  {
+   "k": "1i2mg1w",
+   "en": "Chile: Father of Industrialization - Reduced Construction bonus (From 15% to 7%)"
+  },
+  {
+   "k": "1qviw6d",
+   "en": "Chile: Minister of Defense - Reduced MIL construction speed (from 15% to 10%). Reduced Defense on core territory (from 10% to 6%)"
+  },
+  {
+   "k": "6o9t6y",
+   "en": "TOA Shared Minister of Defense - Reduced mil construction speed (from 10% to 7.5%)"
+  },
+  {
+   "k": "159mlyk",
+   "en": "Chile: Reduced merchant marine manufacturer discount on convoy production (from -50% to -20%) and reduced their reliability gained (from +30% to +10%)"
+  },
+  {
+   "k": "1gn205w",
+   "en": "Chile: Unified in spirit - Reduced Org gain (from 10% to 5%)"
+  },
+  {
+   "k": "1ojgwrp",
+   "en": "Chile: Reduced Army attack of Patagonian Giants to 5% (from 10%), defense to 8% (from 10%) and breakthrough to 8% (from 10%)"
+  },
+  {
+   "k": "1t8ng3z",
+   "en": "Chile: Reduced the miners representative building speed (from 10% to 6%) and its max efficiency factor (from 10% to 5%)"
+  },
+  {
+   "k": "3zaomz",
+   "en": "Chile: Reduced conservative businessman civilian speed (from 15% to 10%) and its max efficiency factor (from 10% to 5%)"
+  },
+  {
+   "k": "orwvf1",
+   "en": "TOA Shared: Reduced the minister of lands and colonizaition non* core* manpower to 4% (from 10%) and 6% (from 15%) from version 2. Increased global building slots gained (from 5% to 15%, and 25% for version 2)"
+  },
+  {
+   "k": "chfhfc",
+   "en": "Chile: Reduced Minister of Economy and commerce trade laws cost (from -50% to -25%)"
+  },
+  {
+   "k": "snyx7t",
+   "en": "Chile: Reduced defender of araucanian soverighnty factory output (8% from 15%)"
+  },
+  {
+   "k": "1t5ztv8",
+   "en": "Chile: Reduced president of the central bank consumer goods reduction (to -5% from -10%)"
+  },
+  {
+   "k": "y8zu40",
+   "en": "TOA: Reduced social economist consumer goods factor reduction (from -15% to -7%)"
+  },
+  {
+   "k": "zaajxl",
+   "en": "Chile: Apostlic prefect of Araucania reduced factory output bonus (from 10% to 6%)"
+  },
+  {
+   "k": "19ighiy",
+   "en": "Chile: Reduced Emperor Of France and the Americas attack core factor (from 15% to 5%) and core defense (from 20% to 10%), war support (from 15% to 10%), and stability (from 15% to 10%)"
+  },
+  {
+   "k": "14tavpo",
+   "en": "Chile: Reduced Carabineros de Chile army core attack (from 10% to 5%) and core defense (from 15% to 7%)"
+  },
+  {
+   "k": "tcwlfe",
+   "en": "Chile: Reduced Christian Democrat pp gain (from 15% to 10%)"
+  },
+  {
+   "k": "1etxlo7",
+   "en": "Chile: Reduced Laizzes faire civ construction speed (from 20% to 10%). Reduces law cost reduction (from -50% to -25%)"
+  },
+  {
+   "k": "1u4rlwp",
+   "en": "Chile: Reduced High Quality Nitrate bonus (from 10% attack to 5% attack)"
+  },
+  {
+   "k": "1s1ni22",
+   "en": "Chile: Utilize Famae Mil reduced by 1"
+  },
+  {
+   "k": "ybxu69",
+   "en": "Chile: Reduced Carabineros de Chile Core attack (from 10% to 5%) and core defense (from 15% to 10%)"
+  },
+  {
+   "k": "1l3uzmk",
+   "en": "Chile: Reduced factory output from opressed working class (from 20% to 10%) and consumer goods (from -15% to -10%)."
+  },
+  {
+   "k": "m9473g",
+   "en": "Chile: Reduced Francoist Model Defense (from 10% to 5%) and factory output (from 10% to 5%)"
+  },
+  {
+   "k": "13iv0hh",
+   "en": "Chile: Reduced Max attack bonus gain from Pan historic rhetoric (from 10% to 6%) and defense (from 10% to 6%)"
+  },
+  {
+   "k": "thu5nv",
+   "en": "Reduced max attack bonus gain from the francoist model (from max 10% attack to max 5% attack) and defense (from max 10% to max 5%)"
+  },
+  {
+   "k": "1bpvf96",
+   "en": "Shared focus tree: Reduced arty attack gained from heavy Guns industries (from 10% to 5%) and defense (from 15% to 10%). Gives 1 research boost instead of 2"
+  },
+  {
+   "k": "1yybti",
+   "en": "Chile: Spirit of the conquistadors now gives 6% breakthrough instead of 10% attack"
+  },
+  {
+   "k": "1sgch3q",
+   "en": "Chile: Fascist Theologian gives 8% pp instead of 15%. Other stats unchanged"
+  },
+  {
+   "k": "u7rmfn",
+   "en": "Chile: Reduced the true enemy factory output gain (from 10% to 5%)"
+  },
+  {
+   "k": "1wj1ii0",
+   "en": "Paraguay: Reduced Flourishing Economy (from 20% output to 15%)"
+  },
+  {
+   "k": "1aes9w5",
+   "en": "Gameplay"
+  },
+  {
+   "k": "ij6kzw",
+   "en": "Brazil now has updated infantry equipment names and icons."
+  },
+  {
+   "k": "1s4dcs8",
+   "en": "Added an extra flag for US of Brazil"
+  },
+  {
+   "k": "siilwu",
+   "en": "Added some extra flags for forming the United Kingdom/Empires of Brazil/Portugal and altered an event so that Brazil can now annex Portugal rather than puppet them to form the United Kingdoms."
+  },
+  {
+   "k": "lqgd9a",
+   "en": "Changed some icons for Uruguay & Paraguay"
+  },
+  {
+   "k": "17f3uah",
+   "en": "AI no longer overwrites other countries' supply node motorization settings"
+  },
+  {
+   "k": "67ob9l",
+   "en": "Fix bug where on_ruling_party_changed sometimes didn't get the correct old_ideology_token"
+  },
+  {
+   "k": "1ubmdbw",
+   "en": "Adding on_ruling_party_change_immediate on* action as a deprecated and unsafe backwards* compatibility for mods that rely on that behavior"
+  },
+  {
+   "k": "mp1saw",
+   "en": "Bugfix"
+  },
+  {
+   "k": "97sr8s",
+   "en": "Added missing text for America Decolonized achievement"
+  },
+  {
+   "k": "1qdtxc5",
+   "en": "Fixed a typo for the DEF name for Nordic Defence council"
+  },
+  {
+   "k": "1buqp9f",
+   "en": "Fixed a rare crash caused by government in exile eating resources without freeing them"
+  },
+  {
+   "k": "1vd0clo",
+   "en": "Fixed an issue where the Chilean communist focus \"Propose Closer Cooperation\" wouldn't properly be able to target your subjects, thus preventing you from annexing the way you were meant to be able to."
+  },
+  {
+   "k": "16uf1y3",
+   "en": "Fixed an issue causing the Swedish AI to enable all strategy plans"
+  },
+  {
+   "k": "x7mafq",
+   "en": "\"Brazil/Argentina makes aggressive moves on Uruguay\" event no longer triggers when TOA is disabled"
+  },
+  {
+   "k": "nbgdlh",
+   "en": "Fixed bugs where research agreements would kick out members for both Argentina and the Soviets"
+  },
+  {
+   "k": "m48d5l",
+   "en": "Fixed a bug for the fascist demagogue causing \"Fascism on the rise\" decisions to appear"
+  },
+  {
+   "k": "q3o7vi",
+   "en": "Fixed a bug where Argentina would retain wargoal on UK after taking the Falkland and South Georgia islands"
+  },
+  {
+   "k": "2bzhv7",
+   "en": "Fixed a bunch of local_resources modifiers in state scope that should have been state_resources"
+  },
+  {
+   "k": "w3yhyf",
+   "en": "An attempt to maintain our neutrality bypasses if you are communist"
+  },
+  {
+   "k": "1lxv62t",
+   "en": "Added missing flags for America do Sul formable (Brazil focus tree)"
+  },
+  {
+   "k": "1xsdimv",
+   "en": "Brazil - 'Anuae!' national focus now gives a locked template to prevent an exploit."
+  },
+  {
+   "k": "1old3l8",
+   "en": "Brazil - 'The International Crisis' national focus now sets the game rule 'can send volunteers' for Brazil."
+  },
+  {
+   "k": "15et15n",
+   "en": "Uruguay: Removed ghost focus in Uruguay"
+  },
+  {
+   "k": "1pzbftf",
+   "en": "Paraguay: Fixed being able to take Mass Drafts before adopt minority languages"
+  },
+  {
+   "k": "915iei",
+   "en": "Fixed an issue where Paraguay could join cominterm despite not being allowed to"
+  },
+  {
+   "k": "5pdcxt",
+   "en": "Generic \"join\" faction events can no longer be used to bypass \"can_join_faction = no\" rules"
+  },
+  {
+   "k": "1ypgubn",
+   "en": "Brazil - AI Brazil will join Allies on historical instead of sometimes ending up in the Comintern."
+  },
+  {
+   "k": "14yzj2c",
+   "en": "Removed a character for Argentina which was causing problems with the fascist path."
+  },
+  {
+   "k": "1tr0byd",
+   "en": "Removed slot in Nigers impassable terrain. Niger proper now is rural"
+  },
+  {
+   "k": "1xqm1nt",
+   "en": "Patch 1.14.5 was released on 2024-04-23⟦0⟧ with the checksum ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "wigabu",
+   "en": "d40a"
+  },
+  {
+   "k": "no6r6d",
+   "en": "USA MIO: Changed description of North American Aviation and Lockheed to better describe their roles."
+  },
+  {
+   "k": "opqa0y",
+   "en": "USA MIO: Added new variants to Douglas, Detroit Arsenal, Brooklyn Naval Yard and Norfolk Naval Yard"
+  },
+  {
+   "k": "js67vo",
+   "en": "USA MIO: Switched Norfolk Naval Yard to Escort and Brooklyn Naval Yard to Taskforce"
+  },
+  {
+   "k": "1rmz74z",
+   "en": "USA MIO: Changed Electric Boat Company from Raiding Fleet to Submarine Designer"
+  },
+  {
+   "k": "1gj348v",
+   "en": "Updated Paraguay and Uruguay with more accurate victory points"
+  },
+  {
+   "k": "ou8226",
+   "en": "The Chilean decision to release the Inuit now grants them cores on Attu Island and the Chuckchi Peninsula, as well as ownership of them if they are controlled by Chile or one of their subjects."
+  },
+  {
+   "k": "1v72los",
+   "en": "Fixed multiple issues with the Canadian focus \"The Newfoundland Act\". The focus now has a clearer available tooltip. It should also be able to be taken in the patriation path, as the \"demanded patriation\" opinion modifier is now set to last for three years, instead of indefinitely."
+  },
+  {
+   "k": "i4wr4p",
+   "en": "Fixed various issues with the final focuses in the shared Chinese focus tree, adding is_subject = no as well as a check for Japan not being a subject in the \"Dominate Japan\" focus."
+  }
+ ]
+}

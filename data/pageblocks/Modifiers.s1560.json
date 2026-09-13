@@ -1,0 +1,656 @@
+{
+ "page": "Modifiers",
+ "from": 1560,
+ "items": [
+  {
+   "k": "gpb7fl",
+   "en": "Modifies the chance for an enemy torpedo to get a cricical hit against the country's ships.",
+   "zh": ""
+  },
+  {
+   "k": "n8s13h",
+   "en": "naval_torpedo_enemy_critical_chance_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1em0y0m",
+   "en": "naval_light_gun_hit_chance_factor",
+   "zh": ""
+  },
+  {
+   "k": "jdnbo4",
+   "en": "Modifies the chance for the country's naval light guns to hit enemy ships.",
+   "zh": ""
+  },
+  {
+   "k": "8l775y",
+   "en": "naval_light_gun_hit_chance_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1w5ns39",
+   "en": "naval_heavy_gun_hit_chance_factor",
+   "zh": ""
+  },
+  {
+   "k": "1ik39a1",
+   "en": "Modifies the chance for the country's naval heavy guns to hit enemy ships.",
+   "zh": ""
+  },
+  {
+   "k": "fbimpt",
+   "en": "naval_heavy_gun_hit_chance_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1g37ua8",
+   "en": "navy_capital_ship_attack_factor",
+   "zh": ""
+  },
+  {
+   "k": "1do58xd",
+   "en": "Modifies the attack of the country's capital ships.",
+   "zh": ""
+  },
+  {
+   "k": "1kxkxao",
+   "en": "navy_capital_ship_attack_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1f2qac0",
+   "en": "navy_capital_ship_defence_factor",
+   "zh": ""
+  },
+  {
+   "k": "jxriu9",
+   "en": "Modifies the defence of the country's capital ships.",
+   "zh": ""
+  },
+  {
+   "k": "k2sok0",
+   "en": "navy_capital_ship_defence_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "clt38v",
+   "en": "navy_screen_attack_factor",
+   "zh": ""
+  },
+  {
+   "k": "1kgk0f5",
+   "en": "Modifies the attack of the country's screening ships.",
+   "zh": ""
+  },
+  {
+   "k": "xxs72j",
+   "en": "navy_screen_attack_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1vjo59p",
+   "en": "navy_screen_defence_factor",
+   "zh": ""
+  },
+  {
+   "k": "1lz6kgh",
+   "en": "Modifies the defence of the country's screening ships.",
+   "zh": ""
+  },
+  {
+   "k": "15xt5vd",
+   "en": "navy_screen_defence_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1pkhr",
+   "en": "navy_submarine_attack_factor",
+   "zh": ""
+  },
+  {
+   "k": "1n7mzcj",
+   "en": "Modifies the attack of the country's submarines.",
+   "zh": ""
+  },
+  {
+   "k": "1j4uynv",
+   "en": "navy_submarine_attack_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1j1d23h",
+   "en": "navy_submarine_defence_factor",
+   "zh": ""
+  },
+  {
+   "k": "77i17n",
+   "en": "Modifies the defence of the country's submarines.",
+   "zh": ""
+  },
+  {
+   "k": "3dpio9",
+   "en": "navy_submarine_defence_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1swt5v4",
+   "en": "navy_submarine_detection_factor",
+   "zh": ""
+  },
+  {
+   "k": "652wm1",
+   "en": "Modifies the country's detection of enemy submarines.",
+   "zh": ""
+  },
+  {
+   "k": "7ykir4",
+   "en": "navy_submarine_detection_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1shd9aq",
+   "en": "navy_visibility",
+   "zh": ""
+  },
+  {
+   "k": "1tq8l34",
+   "en": "Modifies the visibility of the country's navy.",
+   "zh": ""
+  },
+  {
+   "k": "jgntfm",
+   "en": "navy_visibility = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "sgvvs",
+   "en": "navy_weather_penalty",
+   "zh": ""
+  },
+  {
+   "k": "1bsju02",
+   "en": "Modifies the penalty the country's navy gets during poor weather.",
+   "zh": ""
+  },
+  {
+   "k": "1i19vhk",
+   "en": "navy_weather_penalty = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "3t6257",
+   "en": "night_spotting_chance",
+   "zh": ""
+  },
+  {
+   "k": "14pqhyv",
+   "en": "Modifies the chance for the country's navy to spot the enemy at night.",
+   "zh": ""
+  },
+  {
+   "k": "1tvt047",
+   "en": "night_spotting_chance = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "n7oe46",
+   "en": "positioning",
+   "zh": ""
+  },
+  {
+   "k": "1ct3roj",
+   "en": "Modifies the positioning of the country's navy.",
+   "zh": ""
+  },
+  {
+   "k": "10mce9y",
+   "en": "positioning = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "hpv6uq",
+   "en": "repair_speed_factor",
+   "zh": ""
+  },
+  {
+   "k": "2fmrba",
+   "en": "Modifies the speed at which the dockyards repair the navy.",
+   "zh": ""
+  },
+  {
+   "k": "re7peq",
+   "en": "repair_speed_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "5f1ufl",
+   "en": "screening_efficiency",
+   "zh": ""
+  },
+  {
+   "k": "olhb8y",
+   "en": "Modifies the efficiency screen ships operate.",
+   "zh": ""
+  },
+  {
+   "k": "82g53x",
+   "en": "screening_efficiency = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "146arwa",
+   "en": "screening_without_screens",
+   "zh": ""
+  },
+  {
+   "k": "ctbyq0",
+   "en": "Modifies the base screening without any screen ships assigned.",
+   "zh": ""
+  },
+  {
+   "k": "vhjya2",
+   "en": "screening_without_screens = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "nzm5wg",
+   "en": "ships_at_battle_start",
+   "zh": ""
+  },
+  {
+   "k": "16g2xly",
+   "en": "Modifies the number of ships at first contact.",
+   "zh": ""
+  },
+  {
+   "k": "wt0xfk",
+   "en": "ships_at_battle_start = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "xg4tq",
+   "en": "spotting_chance",
+   "zh": ""
+  },
+  {
+   "k": "1s3n01u",
+   "en": "Modifies the chance to spot enemy ships.",
+   "zh": ""
+  },
+  {
+   "k": "o0soym",
+   "en": "spotting_chance = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1g4lssq",
+   "en": "strike_force_movement_org_loss",
+   "zh": ""
+  },
+  {
+   "k": "in46l1",
+   "en": "Modifies the organisation loss from movement during the strike force mission.",
+   "zh": ""
+  },
+  {
+   "k": "13qeq62",
+   "en": "strike_force_movement_org_loss = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "badmjl",
+   "en": "sub_retreat_speed",
+   "zh": ""
+  },
+  {
+   "k": "hj6f5w",
+   "en": "Modifies the retreat speed of submarines.",
+   "zh": ""
+  },
+  {
+   "k": "1vxwybx",
+   "en": "sub_retreat_speed = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1c17ux0",
+   "en": "submarine_attack",
+   "zh": ""
+  },
+  {
+   "k": "1pua0xw",
+   "en": "Modifies the attack of submarines.",
+   "zh": ""
+  },
+  {
+   "k": "1edbx7o",
+   "en": "submarine_attack = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "laym20",
+   "en": "Carriers and their planes",
+   "zh": ""
+  },
+  {
+   "k": "3hg791",
+   "en": "navy_carrier_air_agility_factor",
+   "zh": ""
+  },
+  {
+   "k": "163cini",
+   "en": "Modifies the agility of airplanes executing tasks from carriers.",
+   "zh": ""
+  },
+  {
+   "k": "d3mh4x",
+   "en": "navy_carrier_air_agility_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "17s460k",
+   "en": "navy_carrier_air_attack_factor",
+   "zh": ""
+  },
+  {
+   "k": "1d6pcux",
+   "en": "Modifies the attack of airplanes executing tasks from carriers.",
+   "zh": ""
+  },
+  {
+   "k": "19xxpv8",
+   "en": "navy_carrier_air_attack_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1fh765r",
+   "en": "navy_carrier_air_targetting_factor",
+   "zh": ""
+  },
+  {
+   "k": "yf1w6",
+   "en": "Modifies the targeting of airplanes executing tasks from carriers.",
+   "zh": ""
+  },
+  {
+   "k": "dxnnd7",
+   "en": "navy_carrier_air_targetting_factor = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "qbwy3t",
+   "en": "air_carrier_night_penalty_reduction_factor",
+   "zh": ""
+  },
+  {
+   "k": "1xydsd4",
+   "en": "Modifies the reduction of the night penalty for air carriers.",
+   "zh": ""
+  },
+  {
+   "k": "10smsn7",
+   "en": "air_carrier_night_penalty_reduction_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1azncu0",
+   "en": "carrier_capacity_penalty_reduction",
+   "zh": ""
+  },
+  {
+   "k": "19838b8",
+   "en": "Modifies the penalty given by overcrowding a carrier with planes.",
+   "zh": ""
+  },
+  {
+   "k": "17xif2i",
+   "en": "carrier_capacity_penalty_reduction = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1lajmr5",
+   "en": "carrier_traffic",
+   "zh": ""
+  },
+  {
+   "k": "1izf6ev",
+   "en": "Modifies the traffic of carriers.",
+   "zh": ""
+  },
+  {
+   "k": "n2j1xn",
+   "en": "carrier_traffic = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "t3vrmh",
+   "en": "sortie_efficiency",
+   "zh": ""
+  },
+  {
+   "k": "18vybxp",
+   "en": "Modifies the speed when refueling and rearming planes on the carrier during the battle.",
+   "zh": ""
+  },
+  {
+   "k": "krbf5x",
+   "en": "sortie_efficiency = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "1r81wie",
+   "en": "carrier_sortie_hours_delay",
+   "zh": ""
+  },
+  {
+   "k": "1bkswnu",
+   "en": "Modifies the delay in hours for refueling and rearming planes on the carrier.",
+   "zh": ""
+  },
+  {
+   "k": "dre2xr",
+   "en": "carrier_sortie_hours_delay = 2",
+   "zh": ""
+  },
+  {
+   "k": "8k43r4",
+   "en": "carrier_night_traffic",
+   "zh": ""
+  },
+  {
+   "k": "1k4ullw",
+   "en": "Modifies the traffic of carriers at night.",
+   "zh": ""
+  },
+  {
+   "k": "1pmxbki",
+   "en": "carrier_night_traffic = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "wettx7",
+   "en": "fighter_sortie_efficiency",
+   "zh": ""
+  },
+  {
+   "k": "1yujbgi",
+   "en": "Modifies the speed when refueling and rearming fighter planes on the carrier during the battle.",
+   "zh": ""
+  },
+  {
+   "k": "1o31w3b",
+   "en": "fighter_sortie_efficiency = 0.3",
+   "zh": ""
+  },
+  {
+   "k": "fb3ld9",
+   "en": "Note that most of these modifiers are not only in country scope but also in ace scope.",
+   "zh": ""
+  },
+  {
+   "k": "1dy0c7g",
+   "en": "air_accidents_factor",
+   "zh": ""
+  },
+  {
+   "k": "7wbeno",
+   "en": "Modifies the chance for air accidents to happen.",
+   "zh": ""
+  },
+  {
+   "k": "16t0606",
+   "en": "air_accidents_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "jkaugr",
+   "en": "air_ace_bonuses_factor",
+   "zh": ""
+  },
+  {
+   "k": "aag12g",
+   "en": "Modifies the bonuses the aces grant.",
+   "zh": ""
+  },
+  {
+   "k": "zb1501",
+   "en": "air_ace_bonuses_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1sseoan",
+   "en": "air_ace_generation_chance_factor",
+   "zh": ""
+  },
+  {
+   "k": "1d9frzz",
+   "en": "Modifies the chance for aces to appear.",
+   "zh": ""
+  },
+  {
+   "k": "55mcj1",
+   "en": "air_ace_generation_chance_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1prui05",
+   "en": "ace_effectiveness_factor",
+   "zh": ""
+  },
+  {
+   "k": "1or1rbt",
+   "en": "Modifies the effectiveness of aces",
+   "zh": ""
+  },
+  {
+   "k": "1i6qoqf",
+   "en": "ace_effectiveness_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "15d4vm3",
+   "en": "air_agility_factor",
+   "zh": ""
+  },
+  {
+   "k": "1h5ji7y",
+   "en": "Modifies the agility of the country's airplanes.",
+   "zh": ""
+  },
+  {
+   "k": "1r7y51d",
+   "en": "air_agility_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1v5xw7u",
+   "en": "air_attack_factor",
+   "zh": ""
+  },
+  {
+   "k": "1n44h1x",
+   "en": "Modifies the attack of the country's airplanes.",
+   "zh": ""
+  },
+  {
+   "k": "kqff20",
+   "en": "air_attack_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "to3fnu",
+   "en": "air_defence_factor",
+   "zh": ""
+  },
+  {
+   "k": "3d1fut",
+   "en": "Modifies the defence of the country's airplanes.",
+   "zh": ""
+  },
+  {
+   "k": "x72lqg",
+   "en": "air_defence_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "1rsx0vs",
+   "en": "air_interception_detect_factor",
+   "zh": ""
+  },
+  {
+   "k": "14mbhgp",
+   "en": "Modifies the chance of detecting an enemy plane while on interception mission.",
+   "zh": ""
+  },
+  {
+   "k": "83m762",
+   "en": "air_interception_detect_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "u642po",
+   "en": "naval_strike_targetting_factor",
+   "zh": ""
+  },
+  {
+   "k": "1j92gor",
+   "en": "Modifies the ability of planes to target their objectives when executing naval strikes.",
+   "zh": ""
+  },
+  {
+   "k": "1v0kat2",
+   "en": "naval_strike_targetting_factor = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "ryfwcx",
+   "en": "port_strike",
+   "zh": ""
+  },
+  {
+   "k": "4c4z6s",
+   "en": "Modifies the damage done by planes on the port strike mission.",
+   "zh": ""
+  },
+  {
+   "k": "9veduz",
+   "en": "port_strike = 0.5",
+   "zh": ""
+  },
+  {
+   "k": "o1n4dw",
+   "en": "air_close_air_support_org_damage_factor",
+   "zh": ""
+  },
+  {
+   "k": "1ms5tmi",
+   "en": "Modifies the damage to division organisation by planes on the close air support mission.",
+   "zh": ""
+  },
+  {
+   "k": "1yyi74e",
+   "en": "air_close_air_support_org_damage_factor = 0.5",
+   "zh": ""
+  }
+ ]
+}

@@ -1,0 +1,826 @@
+{
+ "batch": 1029,
+ "pages": [
+  "Naval battle"
+ ],
+ "chars": 9550,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "19t1jtm",
+   "en": "If you want to use ⟦0⟧ and use the air wings to operate standard ⟦1⟧, then they will no longer operate automatically as a Carrier Air Group and if the carrier fleet is engaged by the enemy, it may not have air cover. The player should be careful to make sure that it is properly protected. One might place a fighter wing on an interception mission in the region where the carrier fleet is located, but send a bomber wing to target an adjoining region, for example, to support an amphibious landing. In order to send carrier-based air wings on standard ⟦2⟧, including ⟦3⟧ to help train them up for battle, their carrier(s) must be at sea (not in a port) and must not be on any ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "1vr5jwo",
+   "en": "carriers as floating air bases"
+  },
+  {
+   "k": "clh0i",
+   "en": "pilot exercises"
+  },
+  {
+   "k": "1f18ngh",
+   "en": "naval mission"
+  },
+  {
+   "k": "98cthp",
+   "en": "Detailed naval combat results"
+  },
+  {
+   "k": "1glz193",
+   "en": "It is possible to get detailed and valuable information on the impact of various elements of the player's fleet during a naval combat, once that combat has finished. After bringing up the naval combat results screen, access the detailed information by pressing the detailed naval combat results button, indicated in the picture on the left. This button acts like a toggle, so once it has been pressed in the current session, the naval combat results will automatically display the detailed results unless the detailed naval combat results button is pressed again."
+  },
+  {
+   "k": "cr4fy8",
+   "en": "Once it has been pressed, it will bring up a column of information on either side of the summary naval combat results window, showing the impact of each unit or air wing (both carrier or land-based) on the battle - see the example to the right. In this case, the battle didn't include an air component, but the player can see from the sample results screen shown below that, for the Italians, the heavy cruiser Marco Polo delivered the final hits to the British destroyers Wishart and Wrestler, but it was assisted in sinking them by a number of other Italian ships, including Giuseppe La Masa, Giacinto Carini and Castelfidardo. On the British side, the heavy cruiser Effingham finished off two enemy destroyers (Curtatone and Castelfidardo) but the light cruiser Caledon did almost as much damage (only delivering the final hit on one enemy ship)."
+  },
+  {
+   "k": "sflg59",
+   "en": "As will often be the case, in this example there is more information available in the detailed results than can fit on-screen in the columns. To view the performance of the rest of the vessels involved in an encounter where the detailed results won't all fit on screen at one time, use the scrollbars on the side of the detailed naval results column."
+  },
+  {
+   "k": "1ynssvf",
+   "en": "Notes and references"
+  },
+  {
+   "k": "fcx5y4",
+   "en": "⟦0⟧ ⟦1⟧ These values are hardcoded into the game's executable and cannot be modified. ⟦2⟧ ⟦3⟧ This makes the ⟦4⟧ ⟦5⟧ irrelevant.",
+   "frags": 6
+  },
+  {
+   "k": "p3k1gy",
+   "en": "Define"
+  },
+  {
+   "k": "1tqcxpn",
+   "en": "NDefines.NAir.BASE_KAMIKAZE_TARGETING = 2"
+  },
+  {
+   "k": "76y7b9",
+   "en": "⟦0⟧ in ⟦1⟧.",
+   "frags": 2
+  },
+  {
+   "k": "1r3iacc",
+   "en": "NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CAPITALS = 3"
+  },
+  {
+   "k": "spbafn",
+   "en": "Defines"
+  },
+  {
+   "k": "13kdvrc",
+   "en": "NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS = 0.5"
+  },
+  {
+   "k": "14k8lwc",
+   "en": "NDefines.NNavy.CAPITAL_RATIO_FOR_FULL_SCREENING_FOR_CARRIERS = 1"
+  },
+  {
+   "k": "nktfme",
+   "en": "NDefines.NNavy.CAPITAL_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS = 0.25"
+  },
+  {
+   "k": "17o3xg",
+   "en": "NDefines.NNavy.SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING = 0.5"
+  },
+  {
+   "k": "1j4j679",
+   "en": "NDefines.NNavy.BASE_GUN_COOLDOWNS[1] = 1"
+  },
+  {
+   "k": "1auoz9v",
+   "en": "NDefines.NNavy.BASE_GUN_COOLDOWNS[3] = 1"
+  },
+  {
+   "k": "nrzzs5",
+   "en": "NDefines.NNavy.BASE_GUN_COOLDOWNS[2] = 4"
+  },
+  {
+   "k": "uk12id",
+   "en": "NDefines.NNavy.SUBMARINE_HIDE_TIMEOUT = 20"
+  },
+  {
+   "k": "1vxwl14",
+   "en": "NDefines.NNavy.SUBMARINE_REVEALED_TIMEOUT = 16"
+  },
+  {
+   "k": "1c7xzoz",
+   "en": "NDefines.NNavy.SUBMARINE_BASE_TORPEDO_REVEAL_CHANCE = 0.035"
+  },
+  {
+   "k": "iuso7t",
+   "en": "NDefines.NNavy.SUBMARINE_REVEAL_ON_MINIMUM_POSITIONING = 2"
+  },
+  {
+   "k": "1bv2v0g",
+   "en": "Function ⟦0⟧ in ⟦1⟧ as of version ⟦2⟧. The define comment is wrong about detection mattering.",
+   "frags": 3
+  },
+  {
+   "k": "3ye2k9",
+   "en": "ProcessFightingWithGun()"
+  },
+  {
+   "k": "1y9b6j8",
+   "en": "combatnaval.cpp"
+  },
+  {
+   "k": "15qdgpd",
+   "en": "⟦0⟧, ⟦1⟧, and ⟦2⟧ in ⟦3⟧, and function ⟦4⟧ in ⟦5⟧ as of version ⟦6⟧. The define comments are wrong about how detection is incorporated.",
+   "frags": 7
+  },
+  {
+   "k": "vzoycl",
+   "en": "NDefines.NNavy.SUBMARINE_REVEAL_BASE_CHANCE = 11"
+  },
+  {
+   "k": "1qkex60",
+   "en": "NDefines.NNavy.SUBMARINE_REVEAL_POW = 3"
+  },
+  {
+   "k": "6c7pv5",
+   "en": "NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_FACTOR = 0"
+  },
+  {
+   "k": "1b46cqu",
+   "en": "HourlyUpdate()"
+  },
+  {
+   "k": "1kqpolu",
+   "en": "NDefines.NNavy.COMBAT_BASE_HIT_CHANCE = 0.1"
+  },
+  {
+   "k": "1thzwrz",
+   "en": "⟦0⟧ and ⟦1⟧ in ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "wnvrwx",
+   "en": "NDefines.NNavy.DEPTH_CHARGES_HIT_CHANCE_MULT = 1.1"
+  },
+  {
+   "k": "jhz7qs",
+   "en": "NDefines.NNavy.COMBAT_LOW_MANPOWER_HIT_CHANCE_PENALTY = -0.25"
+  },
+  {
+   "k": "bmub9h",
+   "en": "NDefines.NNavy.COMBAT_LOW_ORG_HIT_CHANCE_PENALTY = -0.5"
+  },
+  {
+   "k": "shq4zh",
+   "en": "⟦0⟧, ⟦1⟧, and ⟦2⟧ in ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "15m2w81",
+   "en": "NDefines.NNavy.HIT_PROFILE_MULT = 100"
+  },
+  {
+   "k": "1nzhoja",
+   "en": "NDefines.NNavy.HIT_PROFILE_SPEED_FACTOR = 0.5"
+  },
+  {
+   "k": "1c9bv6t",
+   "en": "NDefines.NNavy.HIT_PROFILE_SPEED_BASE = 20"
+  },
+  {
+   "k": "1lqflhd",
+   "en": "needs verification"
+  },
+  {
+   "k": "1j26jd9",
+   "en": "NDefines.NNavy.CONVOY_HIT_PROFILE = 85"
+  },
+  {
+   "k": "11p93p",
+   "en": "NDefines.NNavy.GUN_HIT_PROFILES[3] = 45"
+  },
+  {
+   "k": "8hgxhv",
+   "en": "NDefines.NNavy.GUN_HIT_PROFILES[1] = 70"
+  },
+  {
+   "k": "1khvz98",
+   "en": "NDefines.NNavy.GUN_HIT_PROFILES[2] = 100"
+  },
+  {
+   "k": "r43052",
+   "en": "NDefines.NNavy.DEPTH_CHARGES_HIT_PROFILE = 100"
+  },
+  {
+   "k": "nlagpa",
+   "en": "⟦0⟧ in ⟦1⟧, and function ⟦2⟧ in ⟦3⟧ as of version ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "4yae5s",
+   "en": "NDefines.NNavy.COMBAT_MIN_HIT_CHANCE = 0.02"
+  },
+  {
+   "k": "13n3u01",
+   "en": "CalcGunInfo()"
+  },
+  {
+   "k": "9pqyre",
+   "en": "NDefines.NNavy.NAVY_PIERCING_THRESHOLDS = { 2, 1, 0.75, 0.5, 0.1, 0 }"
+  },
+  {
+   "k": "1v3buu8",
+   "en": "NDefines.NNavy.NAVY_PIERCING_THRESHOLD_DAMAGE_VALUES = { 1, 1, 0.7, 0.4, 0.3, 0.1 }"
+  },
+  {
+   "k": "1kv054u",
+   "en": "NDefines.NNavy.NAVY_PIERCING_THRESHOLD_CRITICAL_VALUES = { 2, 1, 0.75, 0.5, 0.1, 0 }"
+  },
+  {
+   "k": "10prqqj",
+   "en": "NDefines.NNavy.DAMAGE_PENALTY_ON_MINIMUM_POSITIONING = 0.5"
+  },
+  {
+   "k": "nyse2r",
+   "en": "⟦0⟧ in ⟦1⟧, multiplied by a random number between ⟦2⟧ and ⟦3⟧, per function ⟦4⟧ in ⟦5⟧ as of version ⟦6⟧. The define comment is wrong about randomness subtracting from max (base) damage.",
+   "frags": 7
+  },
+  {
+   "k": "qizcag",
+   "en": "NDefines.NNavy.COMBAT_DAMAGE_RANDOMNESS = 0.5"
+  },
+  {
+   "k": "xn3mig",
+   "en": "ProcessShootingAtTarget()"
+  },
+  {
+   "k": "13wz3gw",
+   "en": "NDefines.NNavy.COMBAT_DAMAGE_TO_STR_FACTOR = 0.6"
+  },
+  {
+   "k": "o3pzxs",
+   "en": "NDefines.NNavy.COMBAT_DAMAGE_TO_ORG_FACTOR = 1"
+  },
+  {
+   "k": "1g97a5g",
+   "en": "NDefines.NNavy.COMBAT_TORPEDO_CRITICAL_CHANCE = 0.1"
+  },
+  {
+   "k": "p47n7w",
+   "en": "NDefines.NNavy.COMBAT_BASE_CRITICAL_CHANCE = 0.05"
+  },
+  {
+   "k": "v0nr8d",
+   "en": "NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT = 0.1"
+  },
+  {
+   "k": "1v9186l",
+   "en": "NDefines.NNavy.CHANCE_TO_DAMAGE_PART_ON_CRITICAL_HIT_FROM_AIR = 0.1"
+  },
+  {
+   "k": "1p08712",
+   "en": "NDefines.NNavy.COMBAT_CRITICAL_DAMAGE_MULT = 5"
+  },
+  {
+   "k": "jbrbbr",
+   "en": "NDefines.NNavy.COMBAT_TORPEDO_CRITICAL_DAMAGE_MULT = 2"
+  },
+  {
+   "k": "hn97f3",
+   "en": "NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 4"
+  },
+  {
+   "k": "1rlnt85",
+   "en": "NDefines.NAir.CARRIER_HOURS_DELAY_AFTER_EACH_COMBAT = 3"
+  },
+  {
+   "k": "1wzmlh3",
+   "en": "NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO = 0.05"
+  },
+  {
+   "k": "vxdfqv",
+   "en": "NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_JOIN_RATIO_PER_DAY = 0.2"
+  },
+  {
+   "k": "99u31n",
+   "en": "NDefines.NAir.NAVAL_COMBAT_EXTERNAL_PLANES_MIN_CAP = 20"
+  },
+  {
+   "k": "1q2mq0v",
+   "en": "NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_TARGET_SCALE = 10"
+  },
+  {
+   "k": "b4jajx",
+   "en": "NDefines.NNavy.NAVAL_COMBAT_AIR_SCREEN_TARGET_SCALE = 10"
+  },
+  {
+   "k": "6tnnzx",
+   "en": "NDefines.NNavy.NAVAL_COMBAT_AIR_CAPITAL_TARGET_SCALE = 50"
+  },
+  {
+   "k": "1dvrequ",
+   "en": "NDefines.NNavy.NAVAL_COMBAT_AIR_CARRIER_TARGET_SCALE = 200"
+  },
+  {
+   "k": "11zkh9w",
+   "en": "NDefines.NNavy.NAVAL_COMBAT_AIR_STRENGTH_TARGET_SCORE = 5"
+  },
+  {
+   "k": "ivct80",
+   "en": "NDefines.NNavy.NAVAL_COMBAT_AIR_LOW_AA_TARGET_SCORE = 5"
+  },
+  {
+   "k": "16x2qtg",
+   "en": "⟦0⟧ and ⟦1⟧ and ⟦2⟧ in ⟦3⟧.",
+   "frags": 4
+  },
+  {
+   "k": "257vbm",
+   "en": "NDefines.NNavy.ANTI_AIR_TARGETTING_TO_CHANCE = 0.2"
+  },
+  {
+   "k": "1tz726m",
+   "en": "NDefines.NNavy.ANTI_AIR_TARGETING = 0.9"
+  },
+  {
+   "k": "16s6482",
+   "en": "NDefines.NAir.AIR_AGILITY_TO_NAVAL_STRIKE_AGILITY = 0.02"
+  },
+  {
+   "k": "14eikw8",
+   "en": "NDefines.NNavy.ANTI_AIR_ATTACK_TO_AMOUNT = 0.01"
+  },
+  {
+   "k": "1l865fn",
+   "en": "NDefines.NAir.BASE_KAMIKAZE_DAMAGE = 2"
+  },
+  {
+   "k": "kw9bd0",
+   "en": "NDefines.NAir.AIR_NAVAL_KAMIKAZE_LOSSES_MULT = 4"
+  },
+  {
+   "k": "1dgdyvb",
+   "en": "NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 10"
+  },
+  {
+   "k": "1pz0lub",
+   "en": "NDefines.NAir.NAVAL_STRIKE_TARGETTING_TO_AMOUNT = 0.3"
+  },
+  {
+   "k": "1ecxdq6",
+   "en": "⟦0⟧, ⟦1⟧, ⟦2⟧, and ⟦3⟧ in ⟦4⟧.",
+   "frags": 5
+  },
+  {
+   "k": "ceathv",
+   "en": "NDefines.NNavy.ANTI_AIR_MULT_ON_INCOMING_AIR_DAMAGE = 0.18"
+  },
+  {
+   "k": "1kcmriw",
+   "en": "NDefines.NNavy.SHIP_TO_FLEET_ANTI_AIR_RATIO = 0.25"
+  },
+  {
+   "k": "aoe56b",
+   "en": "NDefines.NNavy.ANTI_AIR_POW_ON_INCOMING_AIR_DAMAGE = 0.225"
+  },
+  {
+   "k": "zwdqw6",
+   "en": "NDefines.NNavy.MAX_ANTI_AIR_REDUCTION_EFFECT_ON_INCOMING_AIR_DAMAGE = 0.75"
+  },
+  {
+   "k": "utvgyd",
+   "en": "NDefines.NNavy.ALL_SHIPS_ACTIVATE_TIME = 8"
+  },
+  {
+   "k": "13dnisc",
+   "en": "NDefines.NNavy.CAPITAL_ONLY_COMBAT_ACTIVATE_TIME = 6"
+  },
+  {
+   "k": "1c4afza",
+   "en": "NDefines.NNavy.CARRIER_ONLY_COMBAT_ACTIVATE_TIME = 0"
+  },
+  {
+   "k": "1blvnjc",
+   "en": "NDefines.NNavy.COMBAT_INITIAL_DURATION = 6"
+  },
+  {
+   "k": "3dqdea",
+   "en": "NDefines.NNavy.BASE_CARRIER_SORTIE_EFFICIENCY = 0.5"
+  },
+  {
+   "k": "m8jyh2",
+   "en": "NDefines.NAir.CAPACITY_PENALTY = 2"
+  },
+  {
+   "k": "1eck4hk",
+   "en": "NDefines.NNavy.CARRIER_STACK_PENALTY = ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "1xjq1yc",
+   "en": "NDefines.NNavy.CARRIER_STACK_PENALTY_EFFECT = ⟦0⟧",
+   "frags": 1
+  },
+  {
+   "k": "j4vzu9",
+   "en": "Warfare"
+  },
+  {
+   "k": "1pmis96",
+   "en": "Land warfare"
+  },
+  {
+   "k": "gl2sa2",
+   "en": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ • ⟦3⟧ • ⟦4⟧ • ⟦5⟧ • ⟦6⟧ • ⟦7⟧ • ⟦8⟧ (also ⟦9⟧) • ⟦10⟧ • ⟦11⟧ • Special forces doctrine",
+   "frags": 12
+  },
+  {
+   "k": "1ikn79l",
+   "en": "Command group"
+  },
+  {
+   "k": "1a192x2",
+   "en": "Division"
+  },
+  {
+   "k": "1kdpnrf",
+   "en": "Land units"
+  },
+  {
+   "k": "s6v7w2",
+   "en": "Tank designer"
+  },
+  {
+   "k": "67a45e",
+   "en": "Battle plan"
+  },
+  {
+   "k": "1pcnmim",
+   "en": "Land battle"
+  },
+  {
+   "k": "g2pgjm",
+   "en": "Infantry technology"
+  },
+  {
+   "k": "1rjf55b",
+   "en": "Support companies technology"
+  },
+  {
+   "k": "qg8ocm",
+   "en": "Armor technology"
+  },
+  {
+   "k": "vmbvr7",
+   "en": "without No Step Back"
+  },
+  {
+   "k": "qjz56x",
+   "en": "Artillery technology"
+  },
+  {
+   "k": "1cs1oqe",
+   "en": "Land doctrine"
+  },
+  {
+   "k": "p5a2y1",
+   "en": "Naval warfare"
+  },
+  {
+   "k": "1md36pp",
+   "en": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ (⟦3⟧) • ⟦4⟧ • ⟦5⟧ • ⟦6⟧ (also ⟦7⟧) • ⟦8⟧ • ⟦9⟧",
+   "frags": 10
+  },
+  {
+   "k": "9w638x",
+   "en": "Navy"
+  },
+  {
+   "k": "ccmhen",
+   "en": "Ship"
+  },
+  {
+   "k": "ov8z8s",
+   "en": "Ship designer"
+  },
+  {
+   "k": "uqska2",
+   "en": "London Naval Treaty"
+  },
+  {
+   "k": "1hvovva",
+   "en": "Naval missions"
+  },
+  {
+   "k": "1r6vn7z",
+   "en": "Naval battle"
+  },
+  {
+   "k": "1qb81nb",
+   "en": "Naval technology"
+  },
+  {
+   "k": "pw04bf",
+   "en": "without Man the Guns"
+  },
+  {
+   "k": "1oxxu4y",
+   "en": "Naval support technology"
+  },
+  {
+   "k": "jh80qf",
+   "en": "Naval doctrine"
+  },
+  {
+   "k": "gik2td",
+   "en": "Air warfare"
+  },
+  {
+   "k": "dkfq17",
+   "en": "⟦0⟧ • ⟦1⟧ • ⟦2⟧ • ⟦3⟧ (also ⟦4⟧) • ⟦5⟧ • ⟦6⟧",
+   "frags": 7
+  },
+  {
+   "k": "ep0yao",
+   "en": "Aircraft designer"
+  },
+  {
+   "k": "poltvy",
+   "en": "Air missions"
+  },
+  {
+   "k": "1mfxar5",
+   "en": "Air combat"
+  },
+  {
+   "k": "9cafof",
+   "en": "Air technology"
+  },
+  {
+   "k": "wetszz",
+   "en": "without By Blood Alone"
+  },
+  {
+   "k": "pv8y7",
+   "en": "Air doctrine"
+  },
+  {
+   "k": "1ra2mls",
+   "en": "Missiles"
+  },
+  {
+   "k": "iwys1f",
+   "en": "{\\displaystyle \\left(100\\%+{\\text{torpedo reveal chance factor}}\\right)\\cdot 3.5\\%\\cdot {\\frac {\\max \\left({\\text{sub visibility}},0\\right)}{100}}\\cdot \\left(300\\%-2\\cdot {\\text{positioning}}\\right)}"
+  },
+  {
+   "k": "3fkwez",
+   "en": "{\\displaystyle {\\text{hourly passive reveal chance}}=0.001\\%\\cdot \\max \\left({\\text{round}}\\left(\\left(\\min \\left({\\text{detection factor}},2\\right)\\cdot 11\\right)^{3}\\right),1\\right)}"
+  },
+  {
+   "k": "17srqna",
+   "en": "{\\displaystyle {\\text{detection factor}}=0\\%\\cdot {\\text{enemy air sub detection}}+{\\frac {\\text{average enemy ship sub detection}}{100}}+{\\frac {\\max \\left({\\text{sub visibility}},0\\right)}{100}}\\cdot \\left(300\\%-2\\cdot {\\text{positioning}}\\right)}"
+  },
+  {
+   "k": "1dazjnz",
+   "en": "A graph showing how light gun hit chance is modified by the targeted ship's visibility and max speed. The green lines represent different max speeds ranging from 0 to 55 knots."
+  },
+  {
+   "k": "1qcrto2",
+   "en": "A graph showing how heavy gun hit chance is modified by the targeted ship's visibility and max speed. The red lines represent different max speeds ranging from 0 to 55 knots."
+  },
+  {
+   "k": "f9oq97",
+   "en": "A graph showing how torpedo and depth charge hit chance is modified by the targeted ship's visibility and max speed. The blue lines represent different max speeds ranging from 0 to 55 knots."
+  },
+  {
+   "k": "1byzd3k",
+   "en": "{\\displaystyle {\\text{hitProfile}}_{\\text{ship}}={\\frac {100\\cdot {\\text{visibility}}}{0.5\\cdot {\\text{speed}}+20}}}"
+  },
+  {
+   "k": "348umj",
+   "en": "Navalcombat critical damage 5.png"
+  },
+  {
+   "k": "1jtqgim",
+   "en": "Navalcombat critical damage 6.png"
+  },
+  {
+   "k": "1qo7uxd",
+   "en": "Navalcombat critical damage 7.png"
+  },
+  {
+   "k": "1v1h4wa",
+   "en": "Navalcombat critical damage 2.png"
+  },
+  {
+   "k": "mhc4u5",
+   "en": "Navalcombat critical damage 3.png"
+  },
+  {
+   "k": "3w48hk",
+   "en": "Navalcombat critical damage 4.png"
+  },
+  {
+   "k": "1ymw6gv",
+   "en": "not 4x because its AA is also part of the second term for the sum of all ships' AA"
+  },
+  {
+   "k": "kxowqc",
+   "en": "thumb.php?f=Navalize button.jpg&width=300"
+  },
+  {
+   "k": "1938yxz",
+   "en": "thumb.php?f=Detail naval combat results button.jpg&width=300"
+  },
+  {
+   "k": "1llru4o",
+   "en": "thumb.php?f=Detailed naval combat results.jpg&width=300"
+  }
+ ]
+}

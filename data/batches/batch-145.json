@@ -1,0 +1,883 @@
+{
+ "batch": 145,
+ "pages": [
+  "Effect"
+ ],
+ "chars": 14933,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "ajpv8r",
+   "en": "⟦0⟧ The name of the variant. type = <equipment> The equipment type the variant is of. parent_version = <int> Ordering for multiple variants of the same equipment. 0 is the oldest, 1 is the second-oldest, etc. Optional, 0 by default. show_position = <bool> Dynamic equipment version numbering. If disabled removes the suffix from the equipment name. Numbering linked to parent_version. Optional, yes by default. obsolete = <bool> Whether the equipment variant is flagged as obsolete within the GUI and for AI. Optional, no by default. mark_older_equipment_obsolete = <bool> Marks all older (non-chassis) equipment variants as obsolete as long as the following matches: Archetype, niche, mission set (for planes). Optional, defaults to false. name_group = <name group> The name group used for equipment. Stored in /Hearts of Iron IV/common/units/names_ships. Optional, can only be defined for ships. role_icon_index = <int>/auto Index of the role icon that will be used, as an integer. If set to \"auto\", will pick automatically. If set to 0, will be unset. Optional, only can be defined for ships. model = <model name> Model that will be used by the equipment on the world map. Optional. icon = <sprite> The icon that will be used by equipment. Stored as a spriteType within /Hearts of Iron IV/interface/*.gfx. Optional. design_team = mio:<MIO> The military industrial organisation that should be set as the designer of the equipment. Optional. allow_without_tech = <bool> If set, bypasses the requirement that the equipment that the variant is for must be unlocked through research. Optional, defaults to false. Upgrade scope <upgrade> = <amount> The upgrades configuration for the variant. Module scope <slot> = <module> The modules configuration for the variant.",
+   "frags": 1
+  },
+  {
+   "k": "17kkbc0",
+   "en": "parent_version = <int>"
+  },
+  {
+   "k": "ytgb39",
+   "en": "show_position = <bool>"
+  },
+  {
+   "k": "19ugt1m",
+   "en": "parent_version"
+  },
+  {
+   "k": "1oit5f1",
+   "en": "obsolete = <bool>"
+  },
+  {
+   "k": "1vxbw4r",
+   "en": "mark_older_equipment_obsolete = <bool>"
+  },
+  {
+   "k": "1ypfwjd",
+   "en": "name_group = <name group>"
+  },
+  {
+   "k": "8fwo68",
+   "en": "/Hearts of Iron IV/common/units/names_ships"
+  },
+  {
+   "k": "oxj5wk",
+   "en": "role_icon_index = <int>/auto"
+  },
+  {
+   "k": "ca4ce1",
+   "en": "model = <model name>"
+  },
+  {
+   "k": "43f5w4",
+   "en": "design_team = mio:<MIO>"
+  },
+  {
+   "k": "gsq835",
+   "en": "military industrial organisation"
+  },
+  {
+   "k": "cd6z59",
+   "en": "allow_without_tech = <bool>"
+  },
+  {
+   "k": "4png4b",
+   "en": "Upgrade scope"
+  },
+  {
+   "k": "bt2w4g",
+   "en": "<upgrade> = <amount>"
+  },
+  {
+   "k": "116wth",
+   "en": "Module scope"
+  },
+  {
+   "k": "rh87b6",
+   "en": "<slot> = <module>"
+  },
+  {
+   "k": "vtd6xy",
+   "en": "create_equipment_variant = { name = \"Vetehinen Class\" type = ship_hull_submarine_1 name_group = FIN_SS_HISTORICAL role_icon_index = 1 modules = { fixed_ship_torpedo_slot = ship_torpedo_sub_1 fixed_ship_engine_slot = sub_ship_engine_1 rear_1_custom_slot = ship_mine_layer_sub } } create_equipment_variant = { name = \"He 112\" type = fighter_equipment_0 obsolete = yes upgrades = { plane_gun_upgrade = 1 plane_range_upgrade = 1 } } create_equipment_variant = { name = \"Light Tank Mk. IV\" type = light_tank_chassis_1 parent_version = 1 modules = { main_armament_slot = tank_heavy_machine_gun } upgrades = { tank_nsb_engine_upgrade = 2 } icon = \"GFX_ENG_basic_light_tank_medium\" model = ENG_MKIV_light_tank_entity design_team = mio:ENG_vauxhall_organization }"
+  },
+  {
+   "k": "1tuo55r",
+   "en": "Creates the specified equipment variant for the current scope."
+  },
+  {
+   "k": "s9zrlk",
+   "en": "Role icons for ships are defined in ⟦0⟧. Upgrades are defined within /Hearts of Iron IV/common/units/equipment/upgrades/*.txt. Equipment types, including module slots for them, are defined within /Hearts of Iron IV/common/units/equipment/*.txt. Equipment modules are defined within /Hearts of Iron IV/common/units/equipment/modules/*.txt.",
+   "frags": 1
+  },
+  {
+   "k": "cqkg71",
+   "en": "/Hearts of Iron IV/gfx/army_icons/army_icons.txt"
+  },
+  {
+   "k": "8edls3",
+   "en": "/Hearts of Iron IV/common/units/equipment/upgrades/*.txt"
+  },
+  {
+   "k": "1eqkj7z",
+   "en": "/Hearts of Iron IV/common/units/equipment/*.txt"
+  },
+  {
+   "k": "1tv2ikl",
+   "en": "/Hearts of Iron IV/common/units/equipment/modules/*.txt"
+  },
+  {
+   "k": "1y38yev",
+   "en": "add_equipment_production"
+  },
+  {
+   "k": "13tuzur",
+   "en": "⟦0⟧ The amount to produce before automatically stopping. Optional. requested_factories = <int> The number of factories to assigned initially. Optional. progress = <float> The initial production progress. Optional. efficiency = <float> The initial production efficiency. Optional. name = <string> The name that'll be used for the equipment, such as with ships. Optional. industrial_manufacturer = mio:<MIO> The military industrial organisation that's set as the equipment's designer. Equipment scope type = <equipment> The name of the equipment to produce. creator = <country> The country which is producing the equipment. Used if root scope isn't producer. Optional. version_name = <string>The name of the variant to produce. Optional.",
+   "frags": 1
+  },
+  {
+   "k": "1rlv9fs",
+   "en": "requested_factories = <int>"
+  },
+  {
+   "k": "1oinyg5",
+   "en": "progress = <float>"
+  },
+  {
+   "k": "9hqa23",
+   "en": "efficiency = <float>"
+  },
+  {
+   "k": "1a2cmdv",
+   "en": "industrial_manufacturer = mio:<MIO>"
+  },
+  {
+   "k": "227fbk",
+   "en": "creator = <country>"
+  },
+  {
+   "k": "1bkhfo5",
+   "en": "version_name = <string>"
+  },
+  {
+   "k": "ns9qao",
+   "en": "add_equipment_production = { equipment = { type = light_cruiser_2 } requested_factories = 1 progress = 0.95 amount = 1 }"
+  },
+  {
+   "k": "18y0kg3",
+   "en": "Starts a production line for the specified equipment for the current scope."
+  },
+  {
+   "k": "wjq8ji",
+   "en": "add_design_template_bonus"
+  },
+  {
+   "k": "1j52w3u",
+   "en": "⟦0⟧ Name. uses = <int> The amount of times the discount can be used. cost_factor = <float> Discount. equipment = <equipment> Can be equipment type and archetype.",
+   "frags": 1
+  },
+  {
+   "k": "1stef3a",
+   "en": "equipment = <equipment>"
+  },
+  {
+   "k": "107x5n1",
+   "en": "add_design_template_bonus = { name = air_equipment uses = 1 cost_factor = 0.75 equipment = small_plane_airframe equipment = medium_plane_airframe equipment = large_plane_airframe }"
+  },
+  {
+   "k": "fwtg0f",
+   "en": "Add free bonus design discount to given types with a set of uses."
+  },
+  {
+   "k": "n6r9tb",
+   "en": "The value for ⟦0⟧ and ⟦1⟧ can either be an absolute value or a script constant. Can use several equipment types, where 1 is mandatory.",
+   "frags": 2
+  },
+  {
+   "k": "r1lpc5",
+   "en": "uses"
+  },
+  {
+   "k": "u4cg06",
+   "en": "cost_factor"
+  },
+  {
+   "k": "iq3w83",
+   "en": "add_equipment_bonus"
+  },
+  {
+   "k": "5k0ylq",
+   "en": "⟦0⟧ Optional, special project scope for using special project name. If not set, the name will be used. name = <loc_key> Name. bonus = { ... } Bonus.",
+   "frags": 1
+  },
+  {
+   "k": "csduyt",
+   "en": "project = <>"
+  },
+  {
+   "k": "1hhg087",
+   "en": "bonus = { ... }"
+  },
+  {
+   "k": "rvf8bn",
+   "en": "add_equipment_bonus = { project = FROM bonus = { armor = { # Type of equipment armor_value = 3 soft_attack = 3 instant = yes } small_plane_naval_bomber_airframe = { air_range = 0.1 naval_strike_attack = 0.1 } } }"
+  },
+  {
+   "k": "r3x6be",
+   "en": "Adds the specified equipment bonuses to the country. As description the given loc key or the name of given special project will be used. Same usage as in Ideas/National spirits."
+  },
+  {
+   "k": "u38cql",
+   "en": "set_equipment_version_number"
+  },
+  {
+   "k": "1sxwml9",
+   "en": "⟦0⟧ Equipment type. version = <int> Version to set.",
+   "frags": 1
+  },
+  {
+   "k": "u30raw",
+   "en": "set_equipment_version_number = { type = small_plane_airframe_1 version = 4 }"
+  },
+  {
+   "k": "yfox8x",
+   "en": "Changes current version number for a given equipment type to N. The next equipment variant created from that type will have version number N+1."
+  },
+  {
+   "k": "1g3dd27",
+   "en": "Set \"Variant max version\" to specified version. Provides no tooltip."
+  },
+  {
+   "k": "b9sn92",
+   "en": "Military"
+  },
+  {
+   "k": "1b63sw7",
+   "en": "Military-related country-scoped effects:"
+  },
+  {
+   "k": "1tn6jv9",
+   "en": "destroy_ships"
+  },
+  {
+   "k": "1likhp2",
+   "en": "⟦0⟧ The type of ship to destroy. count = <int> or all The amount to destroy.",
+   "frags": 1
+  },
+  {
+   "k": "1rwjxxu",
+   "en": "type = <ship>"
+  },
+  {
+   "k": "k61dhs",
+   "en": "count = <int> or all"
+  },
+  {
+   "k": "1xmii5b",
+   "en": "destroy_ships = { type = destroyer count = all }"
+  },
+  {
+   "k": "1j1pgov",
+   "en": "Destroys the specified type and amount of ships controlled by the current scope."
+  },
+  {
+   "k": "18orvcn",
+   "en": "transfer_navy"
+  },
+  {
+   "k": "kcz5yb",
+   "en": "target = <country> The target country."
+  },
+  {
+   "k": "gz83k0",
+   "en": "transfer_navy = { target = GER }"
+  },
+  {
+   "k": "smv0bz",
+   "en": "Transfers the current scope navy to the specified country."
+  },
+  {
+   "k": "f7d99t",
+   "en": "transfer_ship"
+  },
+  {
+   "k": "16eau6b",
+   "en": "⟦0⟧ The type of ship to transfer. target = <country> The target country. prefer_name = <string> Name of ship in origin navy that will preferably be transferred to target navy. Optional. exclude_refitting = <bool> Determines whether ships that are being refitted will be transferred. Optional.",
+   "frags": 1
+  },
+  {
+   "k": "xdoxit",
+   "en": "prefer_name = <string>"
+  },
+  {
+   "k": "7cvmd5",
+   "en": "exclude_refitting = <bool>"
+  },
+  {
+   "k": "1lkm0y8",
+   "en": "transfer_ship = { prefer_name = \"HMS Achilles\" type = light_cruiser target = NZL exclude_refitting = no }"
+  },
+  {
+   "k": "1udte83",
+   "en": "Transfers the specified type of ship from the current scope to the specified country."
+  },
+  {
+   "k": "v1u16k",
+   "en": "create_ship"
+  },
+  {
+   "k": "194xs0m",
+   "en": "⟦0⟧ The type of ship to create. equipment_variant = <string> The equipment variant to use. creator = <country> The country that created this ship. Optional. name = <string> Name of the ship. Optional. amount = <int> The amount of ships to create. Optional, defaults to 1.",
+   "frags": 1
+  },
+  {
+   "k": "19x7ver",
+   "en": "equipment_variant = <string>"
+  },
+  {
+   "k": "pfepax",
+   "en": "FRA = { create_ship = { type = ship_hull_submarine_1 equipment_variant = \"S Class\" creator = ENG name = \"My ship name\" } }"
+  },
+  {
+   "k": "1bzu9fr",
+   "en": "Create a ship from another country and assign it to the reserve fleet. If not set, it will be the scoped country."
+  },
+  {
+   "k": "aoaa1n",
+   "en": "add_mines"
+  },
+  {
+   "k": "1w3zl1r",
+   "en": "Add mines to a strategic region for the current country."
+  },
+  {
+   "k": "1sa6bqt",
+   "en": "add_mines = { region = 42 amount = 100 }"
+  },
+  {
+   "k": "1cq22bm",
+   "en": "Add mines to a strategic region."
+  },
+  {
+   "k": "1xu0jms",
+   "en": "add_ace"
+  },
+  {
+   "k": "uikrmn",
+   "en": "⟦0⟧ The name of the ace. surname = <string> The surname of the ace. callsign = <string> The callsign of the ace. type = <type> The ace type. is_female = <bool> The gender of the ace.",
+   "frags": 1
+  },
+  {
+   "k": "de0pnq",
+   "en": "surname = <string>"
+  },
+  {
+   "k": "p9th4",
+   "en": "callsign = <string>"
+  },
+  {
+   "k": "axhp5d",
+   "en": "is_female = <bool>"
+  },
+  {
+   "k": "1ji06gv",
+   "en": "add_ace = { name = \"Amelia\" surname = \"Earhart\" callsign = \"Revenant\" type = fighter_genius is_female = yes }"
+  },
+  {
+   "k": "qabb4s",
+   "en": "Adds an ace for the current scope."
+  },
+  {
+   "k": "sxeh9v",
+   "en": "Ace types found in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "zh2u7n",
+   "en": "/Hearts of Iron IV/common/aces/*.txt"
+  },
+  {
+   "k": "1lz5bem",
+   "en": "unlock_tactic"
+  },
+  {
+   "k": "1thg08z",
+   "en": "⟦0⟧ Tactic to unlock.",
+   "frags": 1
+  },
+  {
+   "k": "eqei11",
+   "en": "unlock_tactic = tactic_masterful_blitz"
+  },
+  {
+   "k": "1ertsmt",
+   "en": "Unlocks the specified combat tactic for the country."
+  },
+  {
+   "k": "nivrgf",
+   "en": "Doctrine"
+  },
+  {
+   "k": "14aostu",
+   "en": "Doctrine-related country-scoped effects:"
+  },
+  {
+   "k": "3reeq7",
+   "en": "add_doctrine_cost_reduction"
+  },
+  {
+   "k": "bg0edd",
+   "en": "⟦0⟧ Optional tooltip showing why the doctrine has reduced cost in the doctrine menu. cost_reduction = <float> Percentage of cost reduced. uses = <int> Number of times the cost reduction can be used. category = <doctrine category> Which doctrine category the cost reduction will apply to. (Ex: land_doctrine, air_doctrine.)",
+   "frags": 1
+  },
+  {
+   "k": "7oia49",
+   "en": "cost_reduction = <float>"
+  },
+  {
+   "k": "3p1hka",
+   "en": "category = <doctrine category>"
+  },
+  {
+   "k": "d4vgcr",
+   "en": "land_doctrine"
+  },
+  {
+   "k": "1xhille",
+   "en": "air_doctrine"
+  },
+  {
+   "k": "cqadm9",
+   "en": "add_doctrine_cost_reduction = { cost_reduction = 0.5 uses = 2 category = land_doctrine }"
+  },
+  {
+   "k": "jdx6rl",
+   "en": "Adds a limited use cost reduction for doctrines."
+  },
+  {
+   "k": "hxzcq8",
+   "en": "For a general doctrine cost reduction, see \"<land/air/naval>_doctrine_cost_factor\" in ⟦0⟧.",
+   "frags": 1
+  },
+  {
+   "k": "1j81rqx",
+   "en": "Modifiers"
+  },
+  {
+   "k": "wjvsx6",
+   "en": "add_mastery"
+  },
+  {
+   "k": "1k4tg5a",
+   "en": "⟦0⟧ Amount of mastery to add. folder = <string> Optional - will filter by tracks in the specified folder. grand_doctrine = <string> Optional - will filter by tracks in folders with the specified grand doctrine. sub_doctrine = <string> Optional - will filter by tracks with the specified subdoctrine. track = <string> Optional - will filter by tracks of the specified type. index = <int> Optional - will filter by the track index within the folder (0-indexed).",
+   "frags": 1
+  },
+  {
+   "k": "fwanb3",
+   "en": "folder = <string>"
+  },
+  {
+   "k": "yqtyoo",
+   "en": "grand_doctrine = <string>"
+  },
+  {
+   "k": "tkifr4",
+   "en": "sub_doctrine = <string>"
+  },
+  {
+   "k": "spawk4",
+   "en": "track = <string>"
+  },
+  {
+   "k": "1thnc31",
+   "en": "index = <int>"
+  },
+  {
+   "k": "1dygut3",
+   "en": "add_mastery = { amount = 100 # FILTERS: folder = land grand_doctrine = mobile_warfare sub_doctrine = mobile_infantry track = infantry index = 1 }"
+  },
+  {
+   "k": "1njc4qi",
+   "en": "Adds doctrine mastery."
+  },
+  {
+   "k": "1yqfn9j",
+   "en": "You can use flexible filters to have this effect apply to all tracks that match the specified folder, grand doctrine, subdoctrine or specific track. If a certain filter is not present, it will be counted as a pass. For example, you can add mastery to all active tracks in all folders by not specifying any filters at all."
+  },
+  {
+   "k": "gjfmdo",
+   "en": "add_daily_mastery"
+  },
+  {
+   "k": "1wzl6x9",
+   "en": "⟦0⟧ Amount of mastery to add per day. days = <int> Number of days to apply the daily mastery gain for. name = <loc_key> Loc key - will be used in descriptions to show the source of the mastery gain. folder = <string> Optional - will filter by tracks in the specified folder. grand_doctrine = <string> Optional - will filter by tracks in folders with the specified grand doctrine. sub_doctrine = <string> Optional - will filter by tracks with the specified subdoctrine. track = <string> Optional - will filter by tracks of the specified type. index = <int> Optional - will filter by the track index within the folder (0-indexed).",
+   "frags": 1
+  },
+  {
+   "k": "12tj8ge",
+   "en": "amount = <float>"
+  },
+  {
+   "k": "nctylj",
+   "en": "add_daily_mastery = { amount = 0.5 days = 90 name = CHI_military_affairs_commission_sea # FILTERS: folder = land grand_doctrine = mobile_warfare sub_doctrine = mobile_infantry track = infantry index = 1 }"
+  },
+  {
+   "k": "1yykhch",
+   "en": "Adds doctrine mastery daily for a certain duration."
+  },
+  {
+   "k": "1kxd6xu",
+   "en": "add_mastery_bonus"
+  },
+  {
+   "k": "1beh0t",
+   "en": "⟦0⟧ Bonus factor, e.g. 0.1 = +10% days = <int> Number of days to apply the bonus mastery gain for. name = <loc_key> Loc key - will be used in descriptions to show the source of the mastery gain. folder = <string> Optional - will filter by tracks in the specified folder. grand_doctrine = <string> Optional - will filter by tracks in folders with the specified grand doctrine. sub_doctrine = <string> Optional - will filter by tracks with the specified subdoctrine. track = <string> Optional - will filter by tracks of the specified type. index = <int> Optional - will filter by the track index within the folder (0-indexed).",
+   "frags": 1
+  },
+  {
+   "k": "19dqcoe",
+   "en": "add_mastery_bonus = { bonus = 0.5 days = 90 name = CHI_military_affairs_commission_sea # FILTERS: folder = land grand_doctrine = mobile_warfare sub_doctrine = mobile_infantry track = infantry index = 1 }"
+  },
+  {
+   "k": "132riwe",
+   "en": "Get a bonus to doctrine mastery gain for a certain duration."
+  },
+  {
+   "k": "j9u8q1",
+   "en": "set_grand_doctrine"
+  },
+  {
+   "k": "kdxom9",
+   "en": "⟦0⟧ Grand doctrine id.",
+   "frags": 1
+  },
+  {
+   "k": "a5da6p",
+   "en": "set_grand_doctrine = mobile_warfare"
+  },
+  {
+   "k": "19vedzy",
+   "en": "Activate (unlock and assign) the specified grand doctrine."
+  },
+  {
+   "k": "j1uftp",
+   "en": "set_sub_doctrine"
+  },
+  {
+   "k": "6u3sko",
+   "en": "⟦0⟧ Subdoctrine id. OR sub_doctrine = <string> Subdoctrine id. folder = <string> Optional, in case you need to specify the folder. track = <int> Optional, in case you need to specify the track index within the folder. Note that this is the track index (starting with 0) among ALL the tracks in the folder, not just the ones that match the subdoctrine. So in a case where a grand doctrine has the tracks: 'infantry - armor - armor - operations', you would use track = 1 to refer to the first armor track, and track = 2 to refer to the second armor track.",
+   "frags": 1
+  },
+  {
+   "k": "4q5oya",
+   "en": "track = <int>"
+  },
+  {
+   "k": "1j1pc7u",
+   "en": "set_sub_doctrine = mobile_infantry set_sub_doctrine = { sub_doctrine = mobile_infantry folder = land track = 1 }"
+  },
+  {
+   "k": "1ckrq1q",
+   "en": "Activate (unlock and assign) the specified subdoctrine."
+  },
+  {
+   "k": "1ufob1i",
+   "en": "By default, the subdoctrine is assigned to the first matching track that the system can find. However, you can also specify a specific folder and track index to assign the subdoctrine to, in case the same track appears in multiple folders, or multiple times in the same folder."
+  },
+  {
+   "k": "1cb84wy",
+   "en": "Intelligence"
+  },
+  {
+   "k": "11s0dcr",
+   "en": "Intelligence-related country-scoped effects:"
+  },
+  {
+   "k": "18vvrkh",
+   "en": "create_intelligence_agency"
+  },
+  {
+   "k": "1jpo561",
+   "en": "⟦0⟧ The name of the intelligence agency. (Optional) icon = <sprite> The icon of the intelligence agency. (Optional)",
+   "frags": 1
+  },
+  {
+   "k": "1lmgg1q",
+   "en": "create_intelligence_agency = { name = \"A.G.E.N.C.Y\" icon = GFX_intelligence_agency_logo_agency } create_intelligence_agency = yes"
+  },
+  {
+   "k": "13zl5ar",
+   "en": "Creates an Intelligence Agency."
+  },
+  {
+   "k": "17yjgb1",
+   "en": "Both parameters are not required, thus you can call the effect with just ⟦0⟧. This will check if any specific intelligence agency cosmetics should be used for the nation, and if not it uses the default.",
+   "frags": 1
+  },
+  {
+   "k": "5da6pl",
+   "en": "create_intelligence_agency = yes"
+  },
+  {
+   "k": "y43wan",
+   "en": "upgrade_intelligence_agency"
+  },
+  {
+   "k": "1n801q2",
+   "en": "Allows to unlock automatically an intelligence agency upgrade"
+  },
+  {
+   "k": "1ftb903",
+   "en": "upgrade_intelligence_agency = upgrade_form_department upgrade_intelligence_agency = <upgrade>"
+  },
+  {
+   "k": "215y7f",
+   "en": "Unlocks an Intelligence Agency Upgrade."
+  },
+  {
+   "k": "zef07d",
+   "en": "Upgrades can be found in common/intelligence_agency_upgrades"
+  },
+  {
+   "k": "1cxfv6w",
+   "en": "add_decryption"
+  },
+  {
+   "k": "18z4tm3",
+   "en": "⟦0⟧ Towards which country to add decryption. amount = <int> How much decryption to add in flat numbers. ratio = <0-1> How much decryption ratio to add.",
+   "frags": 1
+  },
+  {
+   "k": "ydn79p",
+   "en": "target = <tag>"
+  },
+  {
+   "k": "adsbcn",
+   "en": "ratio = <0-1>"
+  },
+  {
+   "k": "1olbs74",
+   "en": "add_decryption = { target = GER amount = 300 } add_decryption = { target = GER ratio = 0.5 }"
+  },
+  {
+   "k": "1xmnknw",
+   "en": "Adds decryption towards the target country"
+  },
+  {
+   "k": "1hy9s36",
+   "en": "⟦0⟧ and ⟦1⟧ arguments are mutually exclusive.",
+   "frags": 2
+  },
+  {
+   "k": "1hkj344",
+   "en": "ratio"
+  },
+  {
+   "k": "1hr1s57",
+   "en": "add_intel"
+  },
+  {
+   "k": "i7wogw",
+   "en": "⟦0⟧ Towards which country to add intelligence. civilian_intel = <int> How much civilian intel to add. army_intel = <int> How much army intel to add. navy_intel = <int> How much navy intel to add. airforce_intel = <int> How much airforce intel to add.",
+   "frags": 1
+  },
+  {
+   "k": "klwyfl",
+   "en": "civilian_intel = <int>"
+  },
+  {
+   "k": "1l6b1bh",
+   "en": "army_intel = <int>"
+  },
+  {
+   "k": "gxnwww",
+   "en": "navy_intel = <int>"
+  },
+  {
+   "k": "8dmsl7",
+   "en": "airforce_intel = <int>"
+  },
+  {
+   "k": "xvrjw7",
+   "en": "add_intel = { target = GER civilian_intel = 3 army_intel = 2 navy_intel = 1 airforce_intel = 2 }"
+  },
+  {
+   "k": "1kz2rtk",
+   "en": "Adds the specified amount of intel towards the specified country."
+  },
+  {
+   "k": "4c9693",
+   "en": "If an intel argument is left out, 0 is assumed."
+  },
+  {
+   "k": "a6nn70",
+   "en": "add_operation_token"
+  }
+ ]
+}

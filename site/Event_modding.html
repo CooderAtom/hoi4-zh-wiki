@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Event模组制作 - 钢铁雄心 IV 中文离线资料库</title>
+<meta name="description" content="">
+<link rel="stylesheet" href="assets/style.css">
+<script>window.HOI4_REL="";</script>
+<script src="assets/search-index.js" defer></script>
+<script src="assets/app.js" defer></script>
+</head>
+<body data-rel="">
+<header class="topbar"><div class="topbar-inner">
+  <a class="brand" href="index.html">钢铁雄心 IV <small>中文离线资料库</small></a>
+  <nav class="topnav"><a href="index.html#getting-started">入门</a><a href="index.html#state-affairs">国家事务</a><a href="index.html#foreign-affairs">外交事务</a><a href="index.html#warfare">战争</a><a href="index.html#military">军种</a><a href="index.html#technology">科技与学说</a><a href="index.html#meta">游戏与资料</a><a href="all-pages.html">全部页面</a><a href="glossary.html">术语表</a></nav>
+  <div class="searchbox">
+    <input id="q" type="search" placeholder="搜索页面（按 / 聚焦）" autocomplete="off" aria-label="搜索">
+    <div id="search-results"></div>
+  </div>
+</div></header>
+<div class="wrap">
+<aside class="sidebar">
+      <h3>入门</h3>
+      <ul><li><a href="Beginner's_guide.html">新手入门指南</a></li><li><a href="User_interface.html">用户界面</a></li><li><a href="Mechanics.html">游戏机制</a></li><li><a href="Console_commands.html">控制台指令</a></li><li><a href="Hotkeys.html">快捷键</a></li><li><a href="Countries.html">国家</a></li><li><a href="Tutorial_videos.html">教学视频</a></li></ul>
+      <h3>国家事务</h3>
+      <ul><li><a href="Government.html">政府</a></li><li><a href="Ideas.html">理念、法令与顾问</a></li><li><a href="Officer_corps.html">军官团</a></li><li><a href="National_focus.html">国家焦点</a></li><li><a href="Research.html">科研</a></li><li><a href="Construction.html">建造</a></li><li><a href="Production.html">生产</a></li><li><a href="Events.html">事件</a></li><li><a href="List_of_Decision_lists.html">决议</a></li><li><a href="Manpower.html">人力</a></li></ul>
+      <h3>外交事务</h3>
+      <ul><li><a href="Diplomacy.html">外交</a></li><li><a href="Puppet.html">傀儡国</a></li><li><a href="Occupation.html">占领</a></li><li><a href="World_tension.html">世界紧张度</a></li><li><a href="Intelligence_agency.html">情报机构</a></li><li><a href="Trade.html">贸易</a></li><li><a href="Faction.html">阵营</a></li></ul>
+      <h3>战争</h3>
+      <ul><li><a href="Warfare.html">战争总览</a></li><li><a href="Combat_tactics.html">战斗战术</a></li><li><a href="Logistics.html">后勤</a></li><li><a href="Terrain.html">地形</a></li><li><a href="Weather.html">天气</a></li><li><a href="Battle_plan.html">作战计划</a></li><li><a href="Army_planner.html">陆军编制器</a></li><li><a href="Command_group.html">集团军</a></li><li><a href="Division.html">师</a></li><li><a href="Land_battle.html">陆战</a></li><li><a href="Naval_battle.html">海战</a></li><li><a href="Air_warfare.html">空战</a></li><li><a href="Attrition_and_accidents.html">损耗</a></li></ul>
+      <h3>军种</h3>
+      <ul><li><a href="Land_warfare.html">陆军</a></li><li><a href="Naval_warfare.html">海军</a></li><li><a href="Land_units.html">陆军单位</a></li><li><a href="Ship.html">海军单位</a></li><li><a href="Aircraft_designer.html">空军单位</a></li><li><a href="Equipment.html">装备</a></li><li><a href="Ship_designer.html">舰船设计</a></li><li><a href="Tank_designer.html">坦克设计</a></li></ul>
+      <h3>科技与学说</h3>
+      <ul><li><a href="Land_doctrine.html">陆军学说</a></li><li><a href="Naval_doctrine.html">海军学说</a></li><li><a href="Air_doctrine.html">空军学说</a></li><li><a href="Infantry_technology.html">步兵科技</a></li><li><a href="Armor_technology.html">装甲科技</a></li><li><a href="Naval_technology.html">海军科技</a></li><li><a href="Air_technology.html">空军科技</a></li><li><a href="Support_companies_technology.html">支援连科技</a></li></ul>
+      <h3>游戏与资料</h3>
+      <ul><li><a href="Achievements.html">成就</a></li><li><a href="Downloadable_content.html">可下载内容</a></li><li><a href="Patches.html">补丁</a></li><li><a href="Jargon.html">术语表</a></li><li><a href="Modding.html">模组制作</a></li><li><a href="Mods.html">模组</a></li><li><a href="Developer_diaries.html">开发日志</a></li></ul>
+      <h3>更多页面</h3>
+      <ul>
+        <li><a href="all-pages.html">全部页面索引（655）</a></li>
+        <li><a href="search.html">搜索</a></li>
+        <li><a href="glossary.html">中英术语对照表</a></li>
+      </ul>
+      <h3>1.17（122）</h3>
+      <ul><li><a href="Oman.html">阿曼</a></li><li><a href="Ethiopia.html">埃塞俄比亚</a></li><li><a href="Ireland.html">爱尔兰</a></li><li><a href="Estonia.html">爱沙尼亚</a></li><li><a href="Austria.html">奥地利</a></li><li><a href="Sultanate_of_Aussa.html">奥萨苏丹国</a></li><li><a href="Australia.html">澳大利亚</a></li><li><a href="Paraguay.html">巴拉圭</a></li><li><a href="Panama.html">巴拿马</a></li><li><a href="Bulgaria.html">保加利亚</a></li><li><a href="Paradisus_Paradoxum.html">悖论乐园（Paradisus Paradoxum）</a></li><li><a href="Icelandic_events_AAT.html">冰岛事件（AAT）</a></li><li><a href="Poland.html">波兰</a></li><li><a href="Bolivia.html">玻利维亚</a></li><li><a href="Bhutan.html">不丹</a></li><li><a href="Sichuan_Clique.html">川系</a></li><li><a href="Battle_Royale.html">大逃杀（Battle Royale）</a></li><li><a href="German_Reich.html">德意志国</a></li><li><a href="Imperial_influence.html">帝国影响力</a></li><li><a href="Reichskommissariats.html">帝国专员辖区</a></li><li><a href="Northeastern_Army.html">东北军</a></li><li><a href="East_Germany.html">东德</a></li><li><a href="Dominican_Republic.html">多米尼加</a></li><li><a href="Ecuador.html">厄瓜多尔</a></li><li><a href="Horn_of_Africa_nations.html">非洲之角国家</a></li><li><a href="Philippines.html">菲律宾</a></li><li><a href="Second_Philippine_Republic.html">菲律宾第二共和国</a></li><li><a href="Finnish_events_AAT.html">芬兰事件（AAT）</a></li><li><a href="Crush_the_Dream.html">粉碎梦想（Crush the Dream）</a></li><li><a href="Gansu_Ma.html">甘马（马家军）</a></li><li><a href="Colombia.html">哥伦比亚</a></li><li><a href="Costa_Rica.html">哥斯达黎加</a></li><li><a href="Republican_Spain.html">共和西班牙</a></li><li><a href="Cuba.html">古巴</a></li><li><a href="Cobalt_Sea.html">钴蓝海（Cobalt Sea）</a></li><li><a href="Guangxi_Clique.html">桂系</a></li><li><a href="Country_leader_traits.html">国家领导人特质</a></li><li><a href="Nationalist_Spain.html">国民西班牙</a></li><li><a href="Kumul_Khanate.html">哈密汗国</a></li><li><a href="Haiti.html">海地</a></li></ul>
+      <h3>1.16（93）</h3>
+      <ul><li><a href="_2026_and_you_get_a_canton,_everybody_gets_a_canton!.html">……你得到一个州，每个人都得到一个州！</a></li><li><a href="Otto-man.html">奥托曼（Otto-man）</a></li><li><a href="This_achievement_is_dedicated_to_the_brave_soldiers_of....html">本成就献给勇敢的士兵们……</a></li><li><a href="Iceland.html">冰岛</a></li><li><a href="United_Baltic_Duchy.html">波罗的海联合公国</a></li><li><a href="Triggers.html">触发器</a></li><li><a href="A_Great_Hunger.html">大饥荒（A Great Hunger）</a></li><li><a href="Huge-oslavia.html">大南斯拉夫（Huge-oslavia）</a></li><li><a href="Big_Entente.html">大协约（Big Entente）</a></li><li><a href="Denmark.html">丹麦</a></li><li><a href="Missile.html">导弹</a></li><li><a href="Yunnan.html">滇系</a></li><li><a href="Finland.html">芬兰</a></li><li><a href="Oh,_how_the_turntables.html">风水轮流转（Oh, how the turntables）</a></li><li><a href="Congolese_Belgium.html">刚果化的比利时（Congolese Belgium）</a></li><li><a href="Woman_in_a_High_Castle.html">高堡中的女人（Woman in a High Castle）</a></li><li><a href="International_market.html">国际市场</a></li><li><a href="Peace_conference.html">和平会议</a></li><li><a href="Nuclear_bomb.html">核弹</a></li><li><a href="Bad_Ending_-_The_whole_world_is_now_Brazil.html">坏结局——全世界都成了巴西</a></li><li><a href="Artillery_technology.html">火炮科技</a></li><li><a href="Miklos_Horthy_and_the_Habsburg_Prince.html">霍尔蒂与哈布斯堡王子（Miklos Horthy and the Habsburg Prince）</a></li><li><a href="Shanxi.html">晋系</a></li><li><a href="Experience.html">经验</a></li><li><a href="The_Legacy_of_Cyrus_the_Great.html">居鲁士大帝的遗产（The Legacy of Cyrus the Great）</a></li><li><a href="The_Dragon_Rises.html">巨龙崛起（The Dragon Rises）</a></li><li><a href="Awake_and_Angry.html">觉醒与愤怒（Awake and Angry）</a></li><li><a href="Scientist.html">科学家</a></li><li><a href="House_of_Kurds.html">库尔德人之家（House of Kurds）</a></li><li><a href="From_Tehran_with_Love.html">来自德黑兰的爱（From Tehran with Love）</a></li><li><a href="The_Lenin_Boys_are_Back_in_Town.html">列宁小子们回来了（The Lenin Boys are Back in Town）</a></li><li><a href="London_Naval_Treaty.html">伦敦海军条约</a></li><li><a href="The_Romanovs_laugh_last.html">罗曼诺夫笑到最后（The Romanovs laugh last）</a></li><li><a href="No_one_crosses_the_finnish_line.html">没人能越过芬兰线（No one crosses the finnish line）</a></li><li><a href="MEFO_Bills.html">梅福券</a></li><li><a href="Media_Mughal.html">媒体莫卧儿（Media Mughal）</a></li><li><a href="Confederacy_of_American_States.html">美利坚联盟国</a></li><li><a href="United_Netherlands_(achievement).html">尼德兰联合王国（成就）</a></li><li><a href="Norway.html">挪威</a></li><li><a href="Qinghai_Ma.html">青马（马家军）</a></li></ul>
+      <h3>1.10（39）</h3>
+      <ul><li><a href="Balkan_Problem_Solved.html">巴尔干问题已解决（Balkan Problem Solved）</a></li><li><a href="Unaligned_States_of_America.html">不结盟的美利坚合众国</a></li><li><a href="France.html">法国</a></li><li><a href="French_events_LaR.html">法国事件（LaR）</a></li><li><a href="Netherlands_events.html">荷兰事件</a></li><li><a href="Hardly_Anything_Sèvres.html">几乎没剩下什么（Hardly Anything Sèvres）</a></li><li><a href="Romania.html">罗马尼亚</a></li><li><a href="United_States.html">美国</a></li><li><a href="Internal_factions.html">内部派系</a></li><li><a href="Crusader_Kings.html">十字军之王（Crusader Kings）</a></li><li><a href="Tannu_Tuva.html">唐努乌梁海</a></li><li><a href="News_events_1.html">新闻事件 1</a></li><li><a href="News_events_2.html">新闻事件 2</a></li><li><a href="News_events_4.html">新闻事件 4</a></li><li><a href="News_events_BftB.html">新闻事件（BftB）</a></li><li><a href="News_events_WtT.html">新闻事件（WtT）</a></li><li><a href="List_of_modifiers.html">修正项列表</a></li><li><a href="Istanbul_is_Constantinople._Again..html">伊斯坦布尔又是君士坦丁堡了（Istanbul is Constantinople. Again.）</a></li><li><a href="British_Raj_events.html">英属印度事件</a></li><li><a href="Australian_events.html">Australian事件</a></li><li><a href="Autonomy_state_modding.html">Autonomy state模组制作</a></li><li><a href="Chinese_political_power_struggle_events.html">Chinese political power struggle事件</a></li><li><a href="Division_modding.html">Division模组制作</a></li><li><a href="Election_events.html">Election事件</a></li><li><a href="Equipment_modding.html">Equipment模组制作</a></li><li><a href="Ethiopian_events.html">Ethiopian事件</a></li><li><a href="General_events.html">General事件</a></li><li><a href="Generic_events.html">Generic事件</a></li><li><a href="German_events.html">German事件</a></li><li><a href="Greek_events.html">Greek事件</a></li><li><a href="Ideology_modding.html">Ideology模组制作</a></li><li><a href="Italian_events.html">Italian事件</a></li><li><a href="Low_Stability_events.html">Low Stability事件</a></li><li><a href="Manchukou_events.html">Manchukou事件</a></li><li><a href="Polish_events.html">Polish事件</a></li><li><a href="Portuguese_events.html">Portuguese事件</a></li><li><a href="Resources_modding.html">Resources模组制作</a></li><li><a href="Soviet_events.html">Soviet事件</a></li><li><a href="Strategic_region_modding.html">Strategic region模组制作</a></li></ul>
+      <h3>补丁（38）</h3>
+      <ul><li><a href="Patch_1.0.X.html">补丁 1.0.X</a></li><li><a href="Patch_1.1.html">补丁 1.1</a></li><li><a href="Patch_1.10.html">补丁 1.10</a></li><li><a href="Patch_1.10.X.html">补丁 1.10.X</a></li><li><a href="Patch_1.11.html">补丁 1.11</a></li><li><a href="Patch_1.11.X.html">补丁 1.11.X</a></li><li><a href="Patch_1.12.html">补丁 1.12</a></li><li><a href="Patch_1.12.X.html">补丁 1.12.X</a></li><li><a href="Patch_1.13.html">补丁 1.13</a></li><li><a href="Patch_1.13.X.html">补丁 1.13.X</a></li><li><a href="Patch_1.14.html">补丁 1.14</a></li><li><a href="Patch_1.14.X.html">补丁 1.14.X</a></li><li><a href="Patch_1.15.html">补丁 1.15</a></li><li><a href="Patch_1.15.X.html">补丁 1.15.X</a></li><li><a href="Patch_1.16.html">补丁 1.16</a></li><li><a href="Patch_1.16.X.html">补丁 1.16.X</a></li><li><a href="Patch_1.17.html">补丁 1.17</a></li><li><a href="Patch_1.17.X.html">补丁 1.17.X</a></li><li><a href="Patch_1.18.html">补丁 1.18</a></li><li><a href="Patch_1.18.X.html">补丁 1.18.X</a></li><li><a href="Patch_1.19.html">补丁 1.19</a></li><li><a href="Patch_1.19.X.html">补丁 1.19.X</a></li><li><a href="Patch_1.2.html">补丁 1.2</a></li><li><a href="Patch_1.2.X.html">补丁 1.2.X</a></li><li><a href="Patch_1.3.html">补丁 1.3</a></li><li><a href="Patch_1.3.X.html">补丁 1.3.X</a></li><li><a href="Patch_1.4.html">补丁 1.4</a></li><li><a href="Patch_1.4.X.html">补丁 1.4.X</a></li><li><a href="Patch_1.5.html">补丁 1.5</a></li><li><a href="Patch_1.5.X.html">补丁 1.5.X</a></li><li><a href="Patch_1.6.html">补丁 1.6</a></li><li><a href="Patch_1.6.X.html">补丁 1.6.X</a></li><li><a href="Patch_1.7.html">补丁 1.7</a></li><li><a href="Patch_1.7.X.html">补丁 1.7.X</a></li><li><a href="Patch_1.8.html">补丁 1.8</a></li><li><a href="Patch_1.8.X.html">补丁 1.8.X</a></li><li><a href="Patch_1.9.html">补丁 1.9</a></li><li><a href="Patch_1.9.X.html">补丁 1.9.X</a></li></ul>
+      <h3>1.14（36）</h3>
+      <ul><li><a href="List_of_1936_start_legacy_deployed_destroyers.html">1936 start legacy deployed destroyers列表</a></li><li><a href="Albania.html">阿尔巴尼亚</a></li><li><a href="Argentina.html">阿根廷</a></li><li><a href="Brazil.html">巴西</a></li><li><a href="Lamento_Boliviano.html">玻利维亚悲歌（Lamento Boliviano）</a></li><li><a href="Dalmatia.html">达尔马提亚</a></li><li><a href="Free_City_of_Danzig.html">但泽自由市</a></li><li><a href="Map.html">地图</a></li><li><a href="Defines.html">定义文件</a></li><li><a href="Aircraft.html">飞机</a></li><li><a href="Vojvodina.html">伏伊伏丁那</a></li><li><a href="Independent_State_of_Croatia.html">克罗地亚独立国</a></li><li><a href="Balance_of_power.html">力量均势</a></li><li><a href="Manchukuo.html">满洲国</a></li><li><a href="Mongolia.html">蒙古</a></li><li><a href="Difficulty.html">难度</a></li><li><a href="Province.html">省份</a></li><li><a href="We_2019_re_Putting_the_Band_Back_Together.html">我们重组乐队（We’re Putting the Band Back Together）</a></li><li><a href="Siam.html">暹罗</a></li><li><a href="Jan_Mayen.html">扬马延</a></li><li><a href="Italian_State_of_East_Africa.html">意属东非</a></li><li><a href="Strategic_region.html">战略区域</a></li><li><a href="Commander_trait.html">指挥官特质</a></li><li><a href="Chile.html">智利</a></li><li><a href="Chilean_Empire.html">智利帝国（Chilean Empire）</a></li><li><a href="Bolivian_decisions.html">Bolivian决议</a></li><li><a href="Brazilian_events.html">Brazilian事件</a></li><li><a href="Chilean_decisions.html">Chilean决议</a></li><li><a href="Chilean_missions.html">Chilean任务</a></li><li><a href="Italian_decisions.html">Italian决议</a></li><li><a href="Peruvian_decisions.html">Peruvian决议</a></li><li><a href="Trial_of_Allegiance_shared_decisions.html">Trial of Allegiance shared决议</a></li><li><a href="Venezuelan_decisions.html">Venezuelan决议</a></li><li><a href="Welsh_decisions.html">Welsh决议</a></li><li><a href="Yugoslavian_decisions.html">Yugoslavian决议</a></li><li><a href="Yugoslavian_missions.html">Yugoslavian任务</a></li></ul>
+      <h3>1.11（32）</h3>
+      <ul><li><a href="Afghanistan.html">阿富汗</a></li><li><a href="Esti_is_Scandi.html">爱沙尼亚属斯堪的纳维亚（Esti is Scandi）</a></li><li><a href="Polish_events_NSB.html">波兰事件（NSB）</a></li><li><a href="Baltic_events_NSB.html">波罗的海国家事件（NSB）</a></li><li><a href="No_more_Partitions.html">不再有瓜分（No more Partitions）</a></li><li><a href="Releasable_countries.html">可释放国家</a></li><li><a href="Yugoslavian_events_DoD.html">南斯拉夫事件（DoD）</a></li><li><a href="Launch_options.html">启动参数</a></li><li><a href="Japanese_events_WtT.html">日本事件（WtT）</a></li><li><a href="It_has_my_name_on_it.html">上面写着我的名字（It has my name on it）</a></li><li><a href="Ace_pilots_events.html">王牌飞行员事件</a></li><li><a href="Siberian_Tiger.html">西伯利亚虎（Siberian Tiger）</a></li><li><a href="New_Zealand_events.html">新西兰事件</a></li><li><a href="Hungarian_events_DoD_2.html">匈牙利事件（DoD 2）</a></li><li><a href="Political_parties_and_leaders.html">政党与领导人</a></li><li><a href="Support_company.html">支援连</a></li><li><a href="AI_modding.html">AI模组制作</a></li><li><a href="Bulgarian_events.html">Bulgarian事件</a></li><li><a href="Chinese_events.html">Chinese事件</a></li><li><a href="Decision_modding.html">Decision模组制作</a></li><li><a href="Estonian_events.html">Estonian事件</a></li><li><a href="Exiled_government_decisions.html">Exiled government决议</a></li><li><a href="Exiled_government_events.html">Exiled government事件</a></li><li><a href="Foreign_influence_decisions.html">Foreign influence决议</a></li><li><a href="French_events.html">French事件</a></li><li><a href="Generic_decisions.html">Generic决议</a></li><li><a href="Idea_modding.html">Idea模组制作</a></li><li><a href="Lithuanian_events.html">Lithuanian事件</a></li><li><a href="Music_modding.html">Music模组制作</a></li><li><a href="Supply_areas_modding.html">Supply areas模组制作</a></li><li><a href="Technology_modding.html">Technology模组制作</a></li><li><a href="Turkish_events.html">Turkish事件</a></li></ul>
+      <h3>1.9（28）</h3>
+      <ul><li><a href="Don_2019_t_Die_for_Your_Country.html">别为你的国家送死（Don’t Die for Your Country）</a></li><li><a href="Formable_nations.html">可成立国家</a></li><li><a href="Recruitable_population.html">可招募人口</a></li><li><a href="Land_doctrine_2f_Sample_divisions_with_doctrine_bonuses.html">陆军学说/带学说加成的示例师</a></li><li><a href="American_events_MtG.html">美国事件（MtG）</a></li><li><a href="Mod_structure.html">模组结构</a></li><li><a href="Division_designer.html">师编制设计</a></li><li><a href="Crusader_Kings_2.html">十字军之王 2（Crusader Kings 2）</a></li><li><a href="Rule_Britannia.html">统治不列颠（Rule Britannia）</a></li><li><a href="Spanish_Civil_War_layout.html">西班牙内战版图</a></li><li><a href="Spanish_events_LaR.html">西班牙事件（LaR）</a></li><li><a href="News_events_3.html">新闻事件 3</a></li><li><a href="News_events_DoD.html">新闻事件（DoD）</a></li><li><a href="News_events_LaR.html">新闻事件（LaR）</a></li><li><a href="News_events_MtG.html">新闻事件（MtG）</a></li><li><a href="One_King,_Two_Crowns.html">一王两冠（One King, Two Crowns）</a></li><li><a href="Ideology.html">意识形态</a></li><li><a href="Chinese_events_WtT.html">中国事件（WtT）</a></li><li><a href="State.html">州</a></li><li><a href="American_events.html">American事件</a></li><li><a href="Border_conflict_events.html">Border conflict事件</a></li><li><a href="Finnish_events.html">Finnish事件</a></li><li><a href="Naval_treaty_events.html">Naval treaty事件</a></li><li><a href="Nuke_events.html">Nuke事件</a></li><li><a href="List_of_operations.html">operations列表</a></li><li><a href="Political_events.html">Political事件</a></li><li><a href="SS_recruitment_events.html">SS recruitment事件</a></li><li><a href="War_justification_events.html">War justification事件</a></li></ul>
+      <h3>1.19（27）</h3>
+      <ul><li><a href="Australia-Hungary.html">澳匈帝国</a></li><li><a href="Continuous_focus.html">持续焦点</a></li><li><a href="Danzig_queen.html">但泽女王（Danzig queen）</a></li><li><a href="National_spirit.html">国家精神</a></li><li><a href="Hail_to_the_King.html">国王万岁（Hail to the King）</a></li><li><a href="Pinot_Noirway.html">黑皮诺挪威（Pinot Noirway）</a></li><li><a href="Old_Zealand.html">旧西兰</a></li><li><a href="List_of_military_chiefs.html">军事首脑列表</a></li><li><a href="Releasable_countries_2f_Oceania.html">可释放国家/大洋洲</a></li><li><a href="Releasable_countries_2f_Asia.html">可释放国家/亚洲</a></li><li><a href="Downloadable_content_2.html">可下载内容 2</a></li><li><a href="Maphilindia.html">马来菲利印度（Maphilindia）</a></li><li><a href="America_Decolonized!.html">美国去殖民化！（America Decolonized!）</a></li><li><a href="Norway_Jose.html">挪威，何塞（Norway Jose）</a></li><li><a href="Special_forces_doctrine.html">特种部队学说</a></li><li><a href="Uralic_brothers_united.html">乌拉尔兄弟团结（Uralic brothers united）</a></li><li><a href="Cod_wars.html">鳕鱼战争（Cod wars）</a></li><li><a href="Indonesian_Princely_States.html">印度尼西亚土邦</a></li><li><a href="This_Achievement_is_Cheesy.html">这成就太俗套了（This Achievement is Cheesy）</a></li><li><a href="This_is_going_to_be_LIT.html">这要火了（This is going to be LIT）</a></li><li><a href="List_of_political_advisors.html">政治顾问列表</a></li><li><a href="List_of_commanders.html">指挥官列表</a></li><li><a href="List_of_commanders_(base_game).html">指挥官列表（原版）</a></li><li><a href="List_of_military_high_command.html">最高统帅部列表</a></li><li><a href="Afghan_events.html">Afghan事件</a></li><li><a href="Faction_modding.html">Faction模组制作</a></li><li><a href="List_of_theorists.html">theorists列表</a></li></ul>
+      <h3>1.12（26）</h3>
+      <ul><li><a href="Bulgarian_events_BftB.html">保加利亚事件（BftB）</a></li><li><a href="Nudger.html">地图编辑器</a></li><li><a href="The_Red_Sea.html">红海（The Red Sea）</a></li><li><a href="By_Beer_Alone.html">仅凭啤酒（By Beer Alone）</a></li><li><a href="List_of_default_ship_variants.html">默认舰船型号列表</a></li><li><a href="You_Shall_Not_Pass.html">你不能通过（You Shall Not Pass）</a></li><li><a href="Holy,_Roman,_and_an_Empire.html">神圣、罗马且是一个帝国（Holy, Roman, and an Empire）</a></li><li><a href="Career_profile.html">生涯档案</a></li><li><a href="The_Lion_King.html">狮子王（The Lion King）</a></li><li><a href="Crusader_Kings_IV.html">十字军之王 IV（Crusader Kings IV）</a></li><li><a href="On_actions.html">事件钩子</a></li><li><a href="Data_structures.html">数据结构</a></li><li><a href="Soviet_Union.html">苏联</a></li><li><a href="Variant.html">型号</a></li><li><a href="Hungarian_events_DoD_1.html">匈牙利事件（DoD 1）</a></li><li><a href="Italian_events_BBA.html">意大利事件（BBA）</a></li><li><a href="Character_modding.html">Character模组制作</a></li><li><a href="Decision_events.html">Decision事件</a></li><li><a href="Event_modding.html" class="cur">Event模组制作</a></li><li><a href="Font_modding.html">Font模组制作</a></li><li><a href="Japanese_events.html">Japanese事件</a></li><li><a href="Map_modding.html">Map模组制作</a></li><li><a href="Occupation_events.html">Occupation事件</a></li><li><a href="Soviet_decisions.html">Soviet决议</a></li><li><a href="Swiss_events.html">Swiss事件</a></li><li><a href="Turkish_decisions.html">Turkish决议</a></li></ul>
+      <h3>1.13（25）</h3>
+      <ul><li><a href="Al-Andalus.html">安达卢斯</a></li><li><a href="The_Danelaw.html">丹麦法区（The Danelaw）</a></li><li><a href="Lone_Wolf.html">独狼（Lone Wolf）</a></li><li><a href="Cheese_your_fighter..html">给你的战斗机加奶酪（Cheese your fighter.）</a></li><li><a href="Country_creation.html">国家创建</a></li><li><a href="Sapmi_united_by_the_fire.html">火边的萨米团结（Sapmi united by the fire）</a></li><li><a href="Bearer_of_Artillery.html">火炮持有者（Bearer of Artillery）</a></li><li><a href="Caramelldansen.html">焦糖舞（Caramelldansen）</a></li><li><a href="Military_industrial_organization.html">军工组织</a></li><li><a href="The_Magic_School_Bus.html">神奇校车（The Magic School Bus）</a></li><li><a href="New_World_Order.html">世界新秩序</a></li><li><a href="The_return_of_the_king.html">王者归来（The return of the king）</a></li><li><a href="Party_like_it's_1520.html">像 1520 年那样狂欢（Party like it's 1520）</a></li><li><a href="Modifiers.html">修正项</a></li><li><a href="Scopes.html">作用域</a></li><li><a href="Balance_of_power_modding.html">Balance of power模组制作</a></li><li><a href="Bookmark_modding.html">Bookmark模组制作</a></li><li><a href="List_of_Material_Equipment_MIOs.html">Material Equipment MIOs列表</a></li><li><a href="Military_industrial_organization_modding.html">Military industrial organization模组制作</a></li><li><a href="National_focus_modding.html">National focus模组制作</a></li><li><a href="List_of_Plane_MIOs.html">Plane MIOs列表</a></li><li><a href="Political_decisions.html">Political决议</a></li><li><a href="List_of_Ship_MIOs.html">Ship MIOs列表</a></li><li><a href="State_modding.html">State模组制作</a></li><li><a href="List_of_Tank_MIOs.html">Tank MIOs列表</a></li></ul>
+      <h3>1.18（20）</h3>
+      <ul><li><a href="Belgium.html">比利时</a></li><li><a href="Protektorat_Böhmen-Mähren.html">波希米亚和摩拉维亚保护国</a></li><li><a href="30_Minutes_of_Hel.html">地狱三十分钟（30 Minutes of Hel）</a></li><li><a href="The_501st_Legion.html">第 501 军团（The 501st Legion）</a></li><li><a href="List_of_aircraft_designers.html">飞机设计商列表</a></li><li><a href="List_of_industrial_concerns.html">工业集团列表</a></li><li><a href="Galicia_and_Lodomeria.html">加利西亚和洛多梅里亚</a></li><li><a href="List_of_ship_designers.html">舰船设计商列表</a></li><li><a href="Czechoslovakia.html">捷克斯洛伐克</a></li><li><a href="Ain't_like_that_now.html">今非昔比（Ain't like that now）</a></li><li><a href="Carpatho-Ukraine.html">喀尔巴阡乌克兰</a></li><li><a href="Bad_Romeance.html">罗马式浪漫（Bad Romeance）</a></li><li><a href="Slovakia.html">斯洛伐克</a></li><li><a href="Sudetenland.html">苏台德</a></li><li><a href="List_of_tank_designers.html">坦克设计商列表</a></li><li><a href="I_didn't_hear_no_bell.html">我没听到铃声（I didn't hear no bell）</a></li><li><a href="This_time_for_Africa.html">这次为了非洲（This time for Africa）</a></li><li><a href="List_of_materiel_designers.html">装备设计商列表</a></li><li><a href="Böhmen-Mähren_decisions.html">Böhmen-Mähren决议</a></li><li><a href="Congress_decisions.html">Congress决议</a></li></ul>
+      <h3>Disambiguation（20）</h3>
+      <ul><li><a href="Minelaying.html">布雷</a></li><li><a href="Kingdom_of_Burundi.html">布隆迪王国</a></li><li><a href="Infantry_Offensive.html">步兵攻势（Infantry Offensive）</a></li><li><a href="Delay.html">迟滞（Delay）</a></li><li><a href="Elastic_Defense.html">弹性防御（Elastic Defense）</a></li><li><a href="Backhand_Blow.html">反手一击（Backhand Blow）</a></li><li><a href="Congo.html">刚果</a></li><li><a href="Naval_Strike_Torpedo_Tactics.html">海军打击鱼雷战术（Naval Strike Torpedo Tactics）</a></li><li><a href="Mechanized_Offensive.html">机械化攻势（Mechanized Offensive）</a></li><li><a href="Spirit.html">精神（消歧义）</a></li><li><a href="Submarine_Operations.html">潜艇作战（Submarine Operations）</a></li><li><a href="Minesweeping.html">扫雷</a></li><li><a href="Infiltration_Assault.html">渗透突击（Infiltration Assault）</a></li><li><a href="Trait.html">特质（消歧义）</a></li><li><a href="Spain.html">西班牙</a></li><li><a href="Reconnaissance.html">侦察（消歧义）</a></li><li><a href="Battlefleet_Concentration.html">主力舰队集中（Battlefleet Concentration）</a></li><li><a href="Organization.html">组织度（消歧义）</a></li><li><a href="Guinea_(disambiguation).html">Guinea（消歧义）</a></li><li><a href="United_Netherlands_(disambiguation).html">United Netherlands（消歧义）</a></li></ul>
+      <h3>DLC（15）</h3>
+      <ul><li><a href="Battle_for_the_Bosporus.html">博斯普鲁斯之战</a></li><li><a href="No_Compromise,_No_Surrender.html">不妥协，不投降</a></li><li><a href="La_Résistance.html">抵抗运动</a></li><li><a href="Graveyard_of_Empires.html">帝国坟场</a></li><li><a href="Arms_Against_Tyranny.html">反抗暴政</a></li><li><a href="Together_for_Victory.html">共赴胜利</a></li><li><a href="Waking_the_Tiger.html">唤醒猛虎</a></li><li><a href="Thunder_at_Our_Gates.html">雷霆临门</a></li><li><a href="Man_the_Guns.html">全民持枪</a></li><li><a href="Death_or_Dishonor.html">死亡或耻辱</a></li><li><a href="By_Blood_Alone.html">唯有鲜血</a></li><li><a href="Peace_for_Our_Time.html">我们时代的和平</a></li><li><a href="Trial_of_Allegiance.html">效忠审判</a></li><li><a href="No_Step_Back.html">一步不退</a></li><li><a href="Götterdämmerung.html">诸神黄昏</a></li></ul>
+      <h3>1.15（11）</h3>
+      <ul><li><a href="Belgian_Congo.html">比属刚果</a></li><li><a href="German_events_GD.html">德国事件（GD）</a></li><li><a href="Don_Cossack_Host.html">顿河哥萨克</a></li><li><a href="Antischluss.html">反德奥合并（Antischluss）</a></li><li><a href="Air_combat.html">空战</a></li><li><a href="Air_missions.html">空中任务</a></li><li><a href="Kuban_National_Republic.html">库班民族共和国</a></li><li><a href="Go_Ahead,_Macau_My_Day.html">来吧，澳门我的天（Go Ahead, Macau My Day）</a></li><li><a href="Special_project.html">特殊项目</a></li><li><a href="Building_modding.html">Building模组制作</a></li><li><a href="German_decisions.html">German决议</a></li></ul></aside>
+<main class="content">
+
+<h1 class="page-title">Event模组制作</h1>
+<p class="subtitle">原页面：Event modding</p>
+<div class="cov-banner">本页中文翻译进度 <b>21%</b>，未译部分暂保留英文原文。</div>
+<nav class="toc" aria-label="目录"><div class="toc-title">目录</div><ol><li class="lvl-2"><a href="#s-18zx5ks">Event creation</a></li><li class="lvl-2"><a href="#s-uq3mgk">效果</a></li><li class="lvl-2"><a href="#s-1qknwjp">常见错误</a></li><li class="lvl-2"><a href="#s-125qjet">Event file example</a></li><li class="lvl-2"><a href="#s-1ynssvf">注释与参考文献</a></li><li class="lvl-3"><a href="#s-nhgac7">ID rules</a></li><li class="lvl-3"><a href="#s-17ojrsd">本地化文件</a></li><li class="lvl-3"><a href="#s-qdvq5l">Picture</a></li><li class="lvl-3"><a href="#s-rx6uet">Triggering</a></li><li class="lvl-3"><a href="#s-ertn45">选项</a></li><li class="lvl-3"><a href="#s-1d50lgg">Additional arguments</a></li><li class="lvl-3"><a href="#s-11tnybn">Unlogged errors</a></li><li class="lvl-3"><a href="#s-3p3gj2">Unintuitive logged errors</a></li><li class="lvl-3"><a href="#s-9p8jrn">Integration with on actions</a></li><li class="lvl-3"><a href="#s-qiqpsn">Integration with history</a></li></ol></nav>
+<div class="mw-parser-output">
+<p><a href="Events.html">事件</a> are defined in the <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/events/</span> folder. There are several types of events, changing the appearance or the target of the events.
+</p><p>The list of event types includes <code>country_event</code>, <code>news_event</code>, <code>state_event</code>, <code>unit_leader_event</code>, and <code>operative_leader_event</code>. 
+</p><p>In each event type, the ROOT <a href="Scopes.html">scope</a> refers to the country getting the event, however, the default assumed scope, also known as THIS, is not always purely the country. In state events, operative leader events, and unit leader events, the assumed scope is <i>both</i> the country and the event-specific scope type, accepting effects for either scope, sorting them at will. In case of overlap between something being possible for the country or the other scope (e.g. <code>add_manpower</code> being both a state- and country-scoped effect), the country is preferred.<br>
+Due to this confusion, it is recommended to avoid state events as they appear identical to country events (事件目标 can be used within country events aimed to a specific state instead), however unit leader and operative leader events can be unavoidable due to their distinct appearance. <b>There is nearly no difference between event types</b>, with the exception of appearance, default scopes, and the fact that news event can have their pop-up disabled (However, the country will still get them). If the player country gets an event and doesn't pick a choice, the first option will get assumed by default.
+</p><p>When <a href="Effect.html">fired using an effect</a>, the game ports over the regular event targets existing in the previous effect block to the event, as well as the ROOT scope of the block, which becomes FROM within the event. The previous effect block's FROM scopes get shifted one level down, with the effect block's FROM becoming FROM.FROM, previous FROM.FROM becoming FROM.FROM.FROM, and et cetera. Due to this, FROM is commonly called the 'sender' of the event in jargon, making FROM.FROM the sender to the sender. Although this does not always apply, as FROM.FROM can be something else entirely, e.g. <a href="On_actions.html">an additional scope within on actions</a> or <a href="Decision_modding.html">the target of a decision</a>. Importantly, it's what the FROM block of the effect block that fired it is, which depends on where it's fired exactly.<br>
+This does not happen if the event gets fired using an on action's random_events block: the same scoping rules as in the regular on action apply.
+</p><p>A country that doesn't exist may still get events <a href="#Effect">if fired via an effect</a>, but any other method doesn't work. However, if there's a time delay set in the effect that fires it, the timers in each delayed_event<sup id="ref_a" class="reference"><a href="#cnote_a">[a]</a></sup> will not decrease. This effectively puts any events with a time delay onto a backlog of the country, put on hold until it gets released. For example, if BHR doesn't exist when <code>BHR = { country_event = { id = event.0 days = 1 } }</code> is executed, then the event will only fire a day after BHR starts existing. This also applies to the original recipient of major events.
+</p>
+
+<h2 id="s-18zx5ks" data-section="1"><span class="mw-headline" id="Event_creation">Event creation</span></h2>
+<p>Each event is contained within a code block corresponding to the event type, such as <code>country_event</code> or <code>news_event</code>. Within the event, a mandatory line is <code>id</code>, corresponding to the event's ID, such as <code>id = my_event.123</code>.
+</p>
+<h3 id="s-nhgac7" data-section="1"><span class="mw-headline" id="ID_rules">ID rules</span></h3>
+<p>Within an event file, all events have to have an ID in the format of <code>&lt;namespace&gt;.&lt;integer ID&gt;</code>. For example, in an event <code>my_event.123</code>, the namespace will be "my_event", while the ID is "123". 
+</p><p><b>A namespace must be first created</b> before defining any events that use it. This is done with the line <code>add_namespace = my_event</code> <b>which must be outside of any event</b>. If a namespace is not defined, then the event ID will be considered a malformed token, leading it to not working in-game. The event namespace consists of word characters (e.g. letters of the English alphabet or underscores). This includes dots: <code>add_namespace = my_event.subtopic</code> can be used for events of the type of <code>id = my_event.subtopic.1</code>. The numeric ID will be taken to be everything after the last dot converted to an integer, or 0 if the conversion fails.
+</p><p>Internal IDs are defined for events by assigning an ID to each namespace (IDs are assigned in the order in the code, files being loaded by filename in the 角色 order), with the first-defined namespace being assigned an ID of 10, incrementing it by 1 for each next created namespace, multiplying it by 100000, and adding the integer ID. If the ID after the namespace fails conversion to an integer, then it'll default to 0. For this reason, every event with a non-integer ID will be considered the same event, so <b>the ID of the event after the namespace must be an integer</b>.
+</p>
+<h3 id="s-17ojrsd" data-section="1"><span class="mw-headline" id="Localisation">本地化文件</span></h3>
+<p>The lines <code>title</code>和<code>desc</code> are used to assign a <a href="Localisation.html">本地化</a> key to the event, creating its title and description depending on the current language of the game. An example line is <code>title = my_event.123.t</code> or <code>desc = my_event_description</code>. An event is required to have a title or a description unless it is hidden.
+</p><p>Localisation is defined in the <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/localisation/english/</span> folder for the English language. It is preferable to use a new file in the folder instead of overwriting any base game files. The newly-created file will have to end with <code>_l_english.yml</code> in its filename (Note that it is a lowercase L, not an uppercase i) for it to be loaded properly. Additionally, it has to use the UTF-8-BOM text encoding. Exact details on how to change the encoding depend on the text editor used. Within the file, assuming that <code>l_english:</code> is already added as the first line, localisation can be added as such:
+</p>
+<pre> my_event.123.t: "My event title"
+ my_event_description: "My event description"</pre>
+<p>It is also possible to add multiple titles and descriptions to an event, making it choose one depending on conditions. This is done as the following:
+</p>
+<pre>title = {
+    text = my_event.123.t.a
+    trigger = {
+        tag = ENG
+    }
+}
+title = {
+    text = my_event.123.t.b
+}</pre><p>The game will choose the first localisation key where the conditions are met. In this case, the event title will use the my_event.123.t.a localisation key if the country receiving the event has the tag of ENG, and every other country will have the event title use the my_event.123.t.b localisation key. <code>trigger</code> is a trigger block, requiring all of the triggers inside to be true by default. The formatting for event descriptions is the same, with <code>title</code> changed for <code>desc</code>.
+</p><h3 id="s-qdvq5l" data-section="1"><span class="mw-headline" id="Picture">Picture</span></h3>
+<p>In order to add a picture to be shown for the event, the <code>picture</code> argument is used with the name of the sprite leading to the file of the picture, such as <code>picture = GFX_my_sprite</code>.
+</p><p>Sprites are defined in any <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/interface/*.gfx</span> file, by default using eventpictures.gfx, opened within any text editor. It is recommended to create a new file in the folder instead of using a base game file in the mod for update compatibility reasons.<br>
+Within the <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/interface/*.gfx</span> file of your choice, the following lines can be added within the <code>spriteTypes = { ... }</code> block to define a sprite:
+</p>
+<pre>spriteType = {
+    name = "GFX_my_sprite"
+    texturefile = "gfx/event_pictures/my_event_picture.dds"
+}</pre>
+<p>After creating this sprite, the file <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">&lt;yourmod&gt;/gfx/event_pictures/my_event_picture.dds</span> can be used within an event as <code>picture = GFX_my_sprite</code>
+</p><p>Picture can be made dynamic, using <a href="Localisation.html">scripted localisation</a>. To achieve this, one must use <code>picture = "[SomeScriptedLocalisationTitle]"</code>, with actual event pictures defined in scripted localisation (as its <code>localization_key</code> variants), for example
+</p>
+<pre>defined_text = { 
+	name = SomeScriptedLocalisationTitle
+	text = { 
+		trigger = { 
+			(conditions...)
+		}
+		localization_key = GFX_my_alternate_sprite
+	}
+	text = { 
+		trigger = { 
+			(other conditions...)
+		}
+		localization_key = GFX_my_another_alternate_sprite
+	}
+	(...)
+	# Default picture
+	text = { 
+		localization_key = GFX_my_sprite
+	}
+}
+</pre>
+<h3 id="s-rx6uet" data-section="1"><span class="mw-headline" id="Triggering">Triggering</span></h3>
+<p>The <code>trigger = { ... }</code> block of <a href="Triggers.html">触发器</a> is used to declare conditions that must be met so that the event is possible to appear. If it's false, there's no way to fire the event aside from using <a href="Console_commands.html">the console command</a>. This will look like the following:
+</p>
+<pre>trigger = {
+    tag = GER
+    has_political_power &gt; 100
+}</pre>
+<p>If the event is fired in console, the trigger will be written into it as the contents of a regular trigger tooltip, highlighting which conditions were met and which were not.
+</p><p>By default, the event will fire automatically. This consists of the trigger being checked every 20&nbsp;days.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup> If it is true, it changes to checking the <code>mean_time_to_happen = { ... }</code> daily. That is a modified MTTH block: it is evaluated for a country and returns an amount of days; if the returned amount of days is <span class="math-inline">M</span> the chance for an event to fire on that day is <span class="math-inline">: 1-2^-(1)/(M)</span>
+, making this a median time to happen. If the trigger is false on a daily check, it reverts to checking the trigger every 20 days.
+</p><p><code>mean_time_to_happen = { ... }</code> has the attributes of <code>days</code>, <code>months</code>, and <code>years</code> to decide the base amount of days. A month is interpreted as being 30 days, a year is interpreted as being 365 days. If the amount of days should be dynamic, <code>modifier&nbsp;=&nbsp;{&nbsp;...&nbsp;}</code> serves as a trigger block with additional attributes of <code>add = 123</code> (adding that amount of days) and <code>factor = 0.2</code> (multiplying the amount of days by the specified number). The modifiers are evaluated in the order that they're placed in, and they support variables in the argument. An example mean time to happen looks like the following:
+</p>
+<pre>mean_time_to_happen = {
+    days = 10
+    years = 1  # 375 days as the base.
+    modifier = {
+        factor = 0.2        #  Takes 20% as much to fire for POL, or 75 days.
+        tag = POL
+    }
+}</pre>
+<p>The automatic firing can be disabled by adding <code>is_triggered_only = yes</code> into the event. This doesn't prevent any other way to fire the event, whether by the <a href="#Effect">effect used to do so</a>, an on action's <code>random_events</code>, <a href="Effect.html">a border war</a>, or anything else. This is entirely unrelated to <code>trigger = { ... }</code>: the conditions within must still be fulfilled for either of these to be possible to fire an event. If the <a href="#Effect">effect used to fire an event</a> (e.g. country_event or state_event) is set with a delay, then the trigger must be true when the event is intended to be fired. 
+</p><p><code>fire_only_once = yes</code> makes the event impossible to fire more than once. This is checked within the event itself: a country getting the event will also prevent any other country from receiving it. This is bypassed by using <a href="Console_commands.html">the console command</a>.
+</p><p><code>major = yes</code> is used to make the event fire for every country once any country receives it. <b>This is done in every news event</b>, since news events are purely a graphical reskin of country events. In case of overlap with <code>fire_only_once = yes</code>, the latter will take priority and remove any effect of the event being major, making it only appear for the country receiving it for the first time. Countries other than the first country receiving it will ignore <code>trigger = { ... }</code>. To make only some countries get the event shown while it's still major, <code>show_major = { ... }</code> is used as a trigger block that makes the event show up only if it's true. If <code>fire_for_sender = no</code> is also added, the event will fire for every country that meets <code>show_major</code> aside from the country that was intended to receive it.
+</p>
+<h3 id="s-ertn45" data-section="1"><span class="mw-headline" id="Options">选项</span></h3>
+<p>An event option is added with an <code>option = { ... }</code> block. An event option is an <a href="Effect.html">effect</a> block, with a few extra options:
+</p><p><code>name</code> decides the localisation key used for the option, such as <code>name = my_option_name</code>. It is not possible to make the option name depend on the triggers in the same way it's possible for event titles, instead, completely different event options can be used, disabling each one with a name that shouldn't be used.
+</p><p><code>trigger = { ... }</code> is a trigger block, deciding when the option is visible to be picked. If the trigger is false at the time of being fired, it will not appear until the event is fired again. Additionally, for major events, <code>original_recipient_only = yes</code> can be used to ensure that only the country that fired the event has this option available, with others not having it.
+</p><p><code>ai_chance = { ... }</code> is a block deciding the <a href="AI_modding.html">AI chance</a> for event options: deciding in a proportional way which option to pick. The AI chance in event options do not have to add up to 100, as it is proportional. It is structured in a near-identical way to the mean time to happen. If unset, assumed to be 1. The probability of each option is its weight divided by the sum of all option weights. If all options have a weight of zero, the first one is chosen. The randomized choice is made by rolling a d100, so options can't have an effective non-zero probability below 1%. The choice remains consistent across reloads, based on unique game seed, in-game time, country, and unit leader.
+</p><p>As a MTTH block, the attributes are in the form of <code>基础=10</code>, <code>factor = 0.1</code>, <code>add = 10</code>, with <code>modifier = { ... }</code> serving as trigger blocks:
+</p>
+<pre>ai_chance = {
+    base = 10.5
+
+    # If the country is Germany, set the value to 0,
+    # causing an early end of the evaluation.
+    modifier = { tag = GER factor = 0 }
+    modifier = { is_major = yes add = 1 }
+    modifier = {
+        factor = 3
+        add = 2.5
+        tag = FRA
+    }
+    factor = 2
+}</pre>
+<h3 id="s-1d50lgg" data-section="1"><span class="mw-headline" id="Additional_arguments">Additional arguments</span></h3>
+<p><code>immediate = { ... }</code> is an <a href="Effect.html">effect</a> block, executed as soon as the event is fired, before an option is chosen by the player. This can also be used for AI: AI only picks an option after the event triggers are evaluated for every other country, while immediate is executed immediately, before evaluating other events. This can be used in mean-time-to-happen type major events: by making the immediate set a global flag, which is required to be unset in the event trigger, this will prevent it from being fired more than once for each country, but it is preferable to avoid mean-time-to-happen events in entirety. Note that the effect will appear in the tooltip after the event's description, so the <a href="Effect.html">hidden_effect</a> flow tool can be helpful.
+</p><p><code>after = { ... }</code> is an <a href="Effect.html">effect</a> block, executed at the end of the event after an option is chosen by the player (as opposed to "immediate"). Introduced with War Effort | Patch 1.16.9
+</p><p><code>timeout_days = 20</code> sets the amount of days that the player has to pick an option before the first option is automatically selected. This can be used to make the event be more or less urgent than default. If unset, assumed to be 13&nbsp;days.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup>
+</p><p><code>hidden = yes</code> will make an event hidden. A hidden event does not need a title or a description. The first defined option, if one is present, will be automatically picked upon being fired. Hidden events can be useful instead of <a href="Effect.html">scripted effects</a> to delay the execution of an effect block by a period of time or to utilise the FROM scope.
+</p><p><code>minor_flavor = yes</code> marks the event as being a minor flavour event. This does not change its appearance or change its effects, but allows turning off the pop-up within the game's decision menu.
+</p>
+<h2 id="s-uq3mgk" data-section="1"><span class="mw-headline" id="Effect">效果</span></h2>
+<p>Any <a href="Effect.html">效果块</a> can be used to fire an event, such as focus rewards, <a href="#Options">事件选项</a>, or decision effects. This is usually paired with <code>is_triggered_only = yes</code> within the event as to disable automatic firing.
+</p><p>In its simplest way, this is done with the effect of <code>country_event = my_event.1</code> (or <code>news_event = my_event.1</code>), which'll instantly fire the event for the scoped country. As country and news events are the exact same thing under the surface, both shortened effects can be used for either country and news events, with there being no difference between them whatsoever.<br>
+However, more options can be added primarily for setting up the delay. Additionally, expanded versions are mandatory for state and operative leader events.
+</p><p>A more complex effect to fire is <code>country_event = { id = my_event.1 days = 100 random_days = 123 }</code>. This'll fire the event in 100 to 223 (<span class="math-inline">: 100 + 123</span>
+) days. There are the following arguments that can go into the effect (All of them are optional with one exception):
+</p>
+<ul><li><code>id = my_event.1</code> — The ID of the event to fire. This is mandatory as to let the game know which event to fire.</li>
+<li><code>hours = 1</code>|<code>days = 2</code>|<code>months = 3</code> — The lower bound on the needed time that the event will fire in. In this case, a month is treated as exactly 30 days. If multiple of these are used, the game will add them up together (e.g. the example with 1 hour, 2 days, and 3 months will fire in 92 days and 1 hour).</li>
+<li><code>random_hours = 1</code>|<code>random_days = 2</code> — This sets the upper bound on the needed time that the event will fire in. The game selects a random amount (uniform distribution) of days and hours between 0 and the set amount, including both ends, and adds them to the delay to fire the event. Similarly to above, if both are specified, the game will add them together. <code>random = 123</code> also serves as an equivalent for <code>random_hours = 123</code>.</li>
+<li><code>tooltip = my_event.1.t</code> — This decides what the name of the event that would fire would be displayed as in localisation. Defaults to the event's name, this may be useful if the title may change between the effect to fire it and its actual appearance.</li></ul>
+<p>Example effect using several of these parameters:
+</p>
+<pre>country_event = {
+    id = my_event.1
+    hours = 12
+    random_hours = 6
+    days = 2
+    tooltip = another_event.1.t
+}</pre>
+<p>The optional delay is incredibly useful, as hidden events can be used to create a delay between an effect block's execution and the actual application of effects without the player detecting anything. This can also be used to make the events appear more "natural": news events can have a delay of a few hours (typically around 6-12) in order to simulate the time it takes for the news agencies to report on the event. Similarly can be done with other event types to simulate waiting a few hours for a diplomatic response, rather than it being unnaturally instant.<br>
+<code>trigger = { ... }</code> of the event gets checked when it would fire, meaning that it's also possible to <a href="On_actions.html">fire the event on startup of the game</a> with a needed delay to get it on a specific day, then use the event's trigger to simulate additional requirements.
+</p><p>Additionally, there are these event type-specific arguments:
+</p>
+<ul><li><code>trigger_for = TAG</code> (Unique to state events) — The country for which the event will fire for. This is mandatory as state events are to be fired in state scope. This can also be replaced with <code>controller</code>, <code>owner</code>, <code>occupied</code>, or a <a href="Scopes.html">dual scope that can be used as a target</a>, such as ROOT or FROM.</li>
+<li><code>originator = TAG</code> (Unique to operative leader events) — The country which serves as the originator of the event (i.e. FROM). Defaults to the operative's owner if unset.</li>
+<li><code>recipient = TAG</code> (Unique to operative leader events) — The country which would receive the event. Defaults to the operative's owner if unset.</li>
+<li><code>set_root = TAG</code> (Unique to operative leader events) — Changes the scope of ROOT within the dynamic localisation of the event, without actually changing it in code.</li>
+<li><code>set_from = TAG</code> (Unique to operative leader events) — Changes the scope of FROM within the dynamic localisation of the event, without actually changing it in code.</li>
+<li><code>set_from_from = TAG</code> (Unique to operative leader events) — Changes the scope of FROM.FROM within the dynamic localisation of the event, without actually changing it in code.</li></ul>
+<h2 id="s-1qknwjp" data-section="1"><span class="mw-headline" id="Common_mistakes">常见错误</span></h2>
+<p>Some errors are quite common to make when beginning to make events, whether it's poor practice or if it would prevent the event from working in entirely. Some of them may be hard to notice when modding, with the event seemingly working fine, such as the error that prevents news events from being fired for more than one country.<br>
+This covers some of them, as well as the less intuitive errors in the log.
+</p>
+<h3 id="s-11tnybn" data-section="1"><span class="mw-headline" id="Unlogged_errors">Unlogged errors</span></h3>
+<ul><li><b>Leaving an event as triggered only when it's to be fired automatically</b> (<i>Event never fires</i>) – <code>is_triggered_only = yes</code> disables the automatic firing of the event, instead enforcing <a href="Effect.html">using the effect to do so</a>. Therefore, if it is left in within an event intended to fire automatically, the event will never do so.<br></li></ul>
+<dl><dd>Note that <code>trigger = { ... }</code> can still co-exist with <code>is_triggered_only = yes</code>, so an event with both <code>is_triggered_only = yes</code>和<code>trigger = { ... }</code> may still be correct. Valid usages of them at the same time include the event being triggered via an on action's <code>random_events</code> or the effect firing it has a delay (where the trigger would check if when the event is to be received), along others.</dd></dl>
+<table class="eu4box-inline mw-collapsible mw-collapsed" style="width:100%; padding: 1px;">
+
+<tbody><tr>
+<th style="font-size:115%; text-align:left; padding:0.5em">Example event with this issue and a correction to it
+</th></tr>
+<tr>
+<td style="border: solid 1px Silver; padding: 0.6em; background: White;">
+<p><b>Broken:</b>
+</p>
+<pre>country_event = {
+    id = my_event.1
+    title = my_event.1.t
+    desc = my_event.1.desc
+    
+    trigger = {
+        tag = GHA
+        has_stability &gt; 0.9
+    }
+    fire_only_once = yes
+    is_triggered_only = yes  # Will make the event never automatically trigger.
+    
+    option = {
+        name = my_event.1.a
+        add_war_support = 0.2
+    }
+}</pre>
+<p><b>Corrected:</b>
+</p>
+<pre>country_event = {
+    id = my_event.1
+    title = my_event.1.t
+    desc = my_event.1.desc
+    
+    trigger = {
+        tag = GHA
+        has_stability &gt; 0.9
+    }
+    fire_only_once = yes
+    
+    option = {
+        name = my_event.1.a
+        add_war_support = 0.2
+    }
+}</pre>
+</td></tr></tbody></table>
+<p><br>
+</p>
+<ul><li><b>Not checking the country in the trigger for country-specific auto-triggered events</b> (<i>Event fires for the wrong country/never fires</i>) – The events are not assigned to countries in any way (namespaces and filenames serve a purely organisational purpose), and each event trigger is checked for each country in order specified in the tag list.</li></ul>
+<dl><dd>In the provided example, the event requires ITA to have more than 123 political power, upon which the country receiving the event would annex AUS. However, once ITA has that much, this trigger would be true <i>regardless</i> of where it's checked. The first country in the taglist by default is GER, and so it'll be the first country where the triggers are checked. In practice, this event will result in GER annexing AUS rather than ITA.</dd>
+<dd>In the correction, a change is made: first it checks that the country that would receive the event is ITA, and only then then it checks that it has more than enough political power. This makes sure that no other countries can receive this event. Specifying the tag is unnecessary if the trigger itself already implies a certain tag (e.g. <code>has_completed_focus</code> with a tag-specific focus tree), but is needed otherwise.</dd></dl>
+<table class="eu4box-inline mw-collapsible mw-collapsed" style="width:100%; padding: 1px;">
+
+<tbody><tr>
+<th style="font-size:115%; text-align:left; padding:0.5em">Example event with this issue and a correction to it
+</th></tr>
+<tr>
+<td style="border: solid 1px Silver; padding: 0.6em; background: White;">
+<pre>country_event = {
+    id = my_event.1     # Broken event 
+    title = my_event.1.t
+    desc = my_event.1.desc
+    
+    trigger = {
+        ITA = { has_political_power &gt; 123 }  # Either true within every country's scope or for none 
+    }                                        # First fires for GER, since it's true in GER's scope and GER is the first country.
+    fire_only_once = yes
+
+    option = {
+        name = my_event.1.a
+        annex_country = { target = AUS }     # Results in GER annexing AUS instead of ITA as intended.
+    }
+}
+country_event = {
+    id = my_event.2     # Fixed version
+    title = my_event.2.t
+    desc = my_event.2.desc
+    
+    trigger = {
+        tag = ITA                       # Checks that the country is ITA
+        has_political_power &gt; 123       # Checks current political power of ITA (as any other country is disqualified by the previous trigger)
+    }
+    fire_only_once = yes
+
+    option = {
+        name = my_event.2.a
+        annex_country = { target = AUS }
+    }
+}
+</pre>
+</td></tr></tbody></table>
+<p><br>
+</p>
+<ul><li><b>Unnecessarily using auto-triggered events instead of ones that are triggered only</b> (<i>Poor practice/optimisation</i>) – This is more of a poor practice than an error. In general, if an event's condition can be triggered with an effect, it should be.</li></ul>
+<dl><dd>The example is the most obvious way of doing this: a <a href="Triggers.html">has_completed_focus check</a> instead of firing it directly in the focus. However, other such cases can occur, e.g. when a war starts between two countries, when a state gets occupied, or for firing one on a specific date. It's best practice to check <a href="On_actions.html">on actions</a> before creating an automatically-triggered event to see if they can be made to replicate.</dd>
+<dd>Firing it via an effect has a purpose of being instant instead of having to wait up to 20 days. If so desired, a delay of a few hours can be added to make it appear more natural to the player. Additionally, it serves as a way to optimise the modification, as this reduces the amount of trigger checks repeatedly done. Events with a large mean-time-to-happen are particularly awful for performance and can be replaced with an effect block firing one with a large delay created with random_days within the effect in some cases.</dd></dl>
+<table class="eu4box-inline mw-collapsible mw-collapsed" style="width:100%; padding: 1px;">
+
+<tbody><tr>
+<th style="font-size:115%; text-align:left; padding:0.5em">Example event with this issue and a correction to it
+</th></tr>
+<tr>
+<td style="border: solid 1px Silver; padding: 0.6em; background: White;">
+<p><b>Broken event:</b>
+</p>
+<pre>country_event = {
+    id = my_event.1
+    title = my_event.1.t
+    desc = my_event.1.desc
+    
+    trigger = {
+        has_completed_focus = TAG_focus_name
+    }
+    fire_only_once = yes
+    
+    option = {
+        name = my_event.1.a
+    }
+}</pre>
+<p><b>Corrected event and focus:</b>
+</p>
+<pre>country_event = {
+    id = my_event.1
+    title = my_event.1.t
+    desc = my_event.1.desc
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = my_event.1.a
+    }
+}</pre>
+<pre>focus = {
+    id = TAG_focus_name
+    x = 5
+    y = 0
+    icon = GFX_focus_icon_name
+
+    cost = 8
+    search_filters = { FOCUS_FILTER_POLITICAL }
+
+    completion_reward = {
+        country_event = { id = my_event.1 hours = 6 random_hours = 3 }  # Fires the event in 6-9 hours.
+    }
+}</pre>
+</td></tr></tbody></table>
+<p><br>
+</p>
+<ul><li><b>Tight bounds on date triggers</b> (<i>Event never fires</i>)/<b>Auto-triggered event intended to be fired at a specific date</b> (<i>Event fires later than intended</i>)&nbsp;– The <code>trigger = { ... }</code> block is checked every 20 days by default, and this isn't possible to change for just one event in particular. If the date triggers are set with tight upper and lower bounds (e.g. <code>date &gt; 1936.1.1</code>和<code>date &lt; 1936.1.3</code>), it's very likely that the event will never fire, as this will not force the game to check the trigger at that date, but just prevent it from firing the event if the range is never checked, as the game doesn't see into the future and cannot predict that the trigger will be true or false at some point. Similarly, just placing a <code>date &gt; 1936.1.1</code> will not ensure the event will be fired at exactly the second of January, but it may be anywhere between the 2nd and 21st (though it will be the same day on each reset).</li></ul>
+<dl><dd>In order to fire an event at a certain date, it's best to fire it on startup with the needed delay, setting the event to never fire by itself with <code>is_triggered_only = yes</code> and optionally adding additional prerequisites for it to appear within <code>trigger = { ... }</code>, which would be checked at the moment the event is intended to appear. For the calculation of the amount of days to be correct, leap days must be ignored as the game doesn't contain them.<br></dd>
+<dd>Any effect block executed before or during startup can be used. An example using the <a href="On_actions.html">on_startup on action</a> exists <a href="#Integration_with_on_actions">further down the article</a>.</dd></dl>
+<table class="eu4box-inline mw-collapsible mw-collapsed" style="width:100%; padding: 1px;">
+
+<tbody><tr>
+<th style="font-size:115%; text-align:left; padding:0.5em">Example event with this issue and a correction to it
+</th></tr>
+<tr>
+<td style="border: solid 1px Silver; padding: 0.6em; background: White;">
+<p><b>Broken event</b>:
+</p>
+<pre>country_event = {
+    id = my_event.1
+    title = my_event.1.t
+    desc = my_event.1.desc
+    
+    trigger = {
+        tag = POL
+        NOT = { has_completed_focus = POL_my_focus }
+        date &gt; 1936.2.11 # If the event trigger check happens on the 1st of February and the 21st of February,
+        date &lt; 1936.2.13 # at least one of the date checks will always be false and the event will never trigger
+    }
+    
+    option = {
+        name = my_event.1.a
+    }
+}</pre>
+<b>Correction</b>: <div style="columns:100px 2; column-gap: 10px;-webkit-columns:100px 2; -webkit-column-gap: 10px;-moz-columns:100px 2; -moz-column-gap: 10px;">
+<p>Event:
+</p>
+<pre>country_event = {
+    id = my_event.1
+    title = my_event.1.t
+    desc = my_event.1.desc
+    
+    is_triggered_only = yes # To prevent the 20-day range from causing a delay
+    trigger = {
+        NOT = { has_completed_focus = POL_my_focus }
+    }
+    
+    option = {
+        name = my_event.1.a
+    }
+}</pre>
+<p>In any <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/common/on_actions/*.txt</span> file:
+</p>
+<pre>on_actions = {
+    on_startup = {
+        effect = { 
+            POL = {
+                country_event = { id = my_event.1 days = 42 } # 12th of February 1936, if on the first start date
+            }
+        }
+    }
+}</pre>
+</div>
+</td></tr></tbody></table>
+<p><br>
+</p>
+<ul><li><b>Setting a news event to fire only once or not setting one as major</b> (<i>News event only fires for one country</i>) – An event requires <code>major = yes</code> in order to appear for every country. News events are purely a reskin of country events and are not set to fire for every country by default, so this line is mandatory. Alongside that, events that fire only once don't appear more than once <i>globally</i> rather than per country. The event appearing for more than one country counts as it firing once again, so setting an event to fire only once will lead to only one country getting the news event instead of every one as intended.</li></ul>
+<table class="eu4box-inline mw-collapsible mw-collapsed" style="width:100%; padding: 1px;">
+
+<tbody><tr>
+<th style="font-size:115%; text-align:left; padding:0.5em">Example events with this issue
+</th></tr>
+<tr>
+<td style="border: solid 1px Silver; padding: 0.6em; background: White;">
+<pre>news_event = {
+    id = my_event.1
+    title = my_event.1.t
+    desc = my_event.1.desc
+    
+    is_triggered_only = yes     # Missing 'major = yes', only will fire for one country.
+    
+    option = {
+        name = my_event.1.a
+    }
+}
+news_event = {
+    id = my_event.2
+    title = my_event.2.t
+    desc = my_event.2.desc
+    
+    is_triggered_only = yes
+    major = yes
+    fire_only_once = yes        # Fires only once, only will file for one country. Remove this line to fix.
+    
+    option = {
+        name = my_event.2.a
+    }
+}
+</pre>
+</td></tr></tbody></table>
+<p><br>
+</p>
+<h3 id="s-3p3gj2" data-section="1"><span class="mw-headline" id="Unintuitive_logged_errors">Unintuitive logged errors</span></h3>
+<ul><li><b>Event is triggered only, but does not have a 1 base-factor.</b> – This occurs when there are contradictory arguments within an event about whether it's allowed to be fired automatically or if it can only be fired manually. In particular, <span style="white-space:nowrap"><code>mean_time_to_happen = { ... }</code></span> only has an effect when the event can only be fired automatically. However, if the event is triggered only, it cannot be fired automatically, resulting in the error being created.</li></ul>
+<table class="eu4box-inline mw-collapsible mw-collapsed" style="width:100%; padding: 1px;">
+
+<tbody><tr>
+<th style="font-size:115%; text-align:left; padding:0.5em">Example event with this issue
+</th></tr>
+<tr>
+<td style="border: solid 1px Silver; padding: 0.6em; background: White;">
+<pre>country_event = {
+    id = my_event.1
+    hidden = yes
+    
+    is_triggered_only = yes
+    mean_time_to_happen = {
+        days = 1
+    }
+}</pre>
+</td></tr></tbody></table>
+<p><br>
+</p>
+<ul><li><b>Event is set to trigger every day.</b> —— 当该事件满足以下全部条件时会出现：<ul><li>The event is possible to be fired automatically. In other words, <code>is_triggered_only = yes</code> is <b>不</b> present in the event.</li>
+<li>The event has a mean time to happen of 1 or less days. If it is omitted, it counts as 1 day.</li>
+<li>The event can fire more than once. In other words, <code>fire_only_once = yes</code> is <b>不</b> present in the event.</li></ul></li></ul>
+<dl><dd>This error warns the player that the event may fire every day once the <code>trigger = { ... }</code> evaluates as true in a check that happens every 20 days. In order to remove the error, either of the three necessary clauses can be made to be not true for the event. For example, in a lot of cases, it is possible to make the event not be fired automatically and use an effect block to fire it instead, <a href="On_actions.html">such as by using on actions</a>.</dd></dl>
+<table class="eu4box-inline mw-collapsible mw-collapsed" style="width:100%; padding: 1px;">
+
+<tbody><tr>
+<th style="font-size:115%; text-align:left; padding:0.5em">Example event with this issue
+</th></tr>
+<tr>
+<td style="border: solid 1px Silver; padding: 0.6em; background: White;">
+<pre>country_event = {
+    id = my_event.1
+    hidden = yes
+    
+    is_triggered_only = no  # Changing to yes will fix the error
+    fire_only_once = no     # Changing to yes will fix the error
+    trigger = {
+        tag = BHR
+        controls_state = 123
+    }
+    mean_time_to_happen = {
+        days = 1            # Changing to 2 or more will fix the error
+    }
+}</pre>
+</td></tr></tbody></table>
+<p><br>
+</p>
+<ul><li><b>Malformed token: event_id.123, near line</b> on a line specifying the event ID – This occurs if <a href="#ID_rules">the event namespace was not added as needed</a>.</li></ul>
+<table class="eu4box-inline mw-collapsible mw-collapsed" style="width:100%; padding: 1px;">
+
+<tbody><tr>
+<th style="font-size:115%; text-align:left; padding:0.5em">Example event file
+</th></tr>
+<tr>
+<td style="border: solid 1px Silver; padding: 0.6em; background: White;">
+<pre>add_namespace = my_event # Not having this line will cause the issue.
+country_event = {
+    id = my_event.1
+    hidden = yes
+    
+    is_triggered_only = yes
+}</pre>
+</td></tr></tbody></table>
+<p><br>
+</p>
+<ul><li><b>Failed to create id 12300000 50. Already exists in game. This might crash the game. Reverse id lookup: id 12300000 = my_namespace.0</b> —— 注意，这实际上是同一个错误被拆成两条，而不是乍看之下的两个不同错误。这意味着该内部事件 ID 被 2 个或更多事件使用。出现该错误的原因有以下几种：<ul><li>Putting 2 events with the exact same ID by error – <code>id = my_namespace.0</code> is included in two events at once. This is self-explanatory.</li>
+<li>Using non-integers as the numeric ID after the namespace – One event has <code>id = my_namespace.abc</code>, the other has <code>id = my_namespace.cba</code>. <a href="#ID_rules">Due to how the game generates internal IDs</a>, a non-numeric ID is not supported, always becoming the number 0. As such, these are the exact same ID, even if they appear different.</li>
+<li>Using a numeric ID not smaller than 100000 – Two events across different namespaces got assigned the same internal IDs. By the virtue of how the game generates internal IDs, each namespace is assigned 100000 numeric IDs, from 0 to 99999. Anything larger than that will start encroaching to other namespaces' IDs. The game fully allows numbers this large as the numeric IDs, so the event might work, but the duplicate internal ID means that there is a pair of events that are treated as the same event, meaning one of them will fire the other one instead.</li></ul></li></ul>
+<dl><dd>Since the reverse id lookup is not always provided, the way to tell if this is event-related is the second number: <code>50</code> signifies that it's event-related, while a different number means a different database entry, e.g. <code>54</code> means country leader IDs and <code>55</code> means unit leader IDs, the numeric legacy IDs which are unneeded due to the <a href="Character_modding.html">1.11-introduced character system</a></dd></dl>
+<table class="eu4box-inline mw-collapsible mw-collapsed" style="width:100%; padding: 1px;">
+
+<tbody><tr>
+<th style="font-size:115%; text-align:left; padding:0.5em">Example event file with this issue
+</th></tr>
+<tr>
+<td style="border: solid 1px Silver; padding: 0.6em; background: White;">
+<pre>add_namespace = prev_event
+add_namespace = my_event        # Let this namespace have an ID of 321 in calculations, meaning the previous one has an ID of 320.
+country_event = {
+    id = my_event.1
+    hidden = yes
+}
+country_event = {
+    id = my_event.1             #  Creates "Failed to create id 32100001 50. Reverse id lookup: id 32100001 = my_event.1"   
+    hidden = yes
+}
+country_event = {
+    id = my_event.abc
+    hidden = yes
+}
+country_event = {
+    id = my_event.letters       #  Creates "Failed to create id 32100000 50. Reverse id lookup: id 32100000 = my_event.abc"   
+    hidden = yes
+}
+country_event = {
+    id = prev_event.100001      #  Creates "Failed to create id 32100001 50. Reverse id lookup: id 32100001 = my_event.1"   
+    hidden = yes
+}
+</pre>
+</td></tr></tbody></table>
+<p><br>
+</p>
+<h2 id="s-125qjet" data-section="1"><span class="mw-headline" id="Event_file_example">Event file example</span></h2>
+<pre>add_namespace = my_event
+add_namespace = my_hidden_event
+
+country_event = {
+    id = my_event.1
+    title = my_event.1.t
+    desc = my_event.1.desc
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = my_event.1.a
+        add_political_power = 100
+    }
+}
+
+add_namespace = my_news_event
+news_event = {
+    id = my_news_event.1
+    title = {
+        text = my_news_event.1.t.a
+        trigger = {
+            tag = POL
+        }
+    }
+    title = {
+        text = my_event.1.t
+    }
+    desc = {
+        text = my_news_event.1.desc.a
+        trigger = {
+            tag = POL
+        }
+    }
+    desc = {
+        text = my_event.1.desc
+    }
+    
+    picture = GFX_my_news_event_picture
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        name = my_news_event.1.a
+        trigger = {
+            tag = POL
+        }
+    }
+    
+    option = {
+        name = my_news_event.1.b
+        trigger = {
+            NOT = { tag = POL }
+        }
+    }
+    
+    option = {
+        name = my_news_event.1.c
+        original_recipient_only = yes
+    }
+}
+
+country_event = {
+    id = my_hidden_event.1
+    
+    trigger = {
+        has_country_flag = event_happened
+        country_exists = BHR
+    }
+    
+    mean_time_to_happen = {
+        days = 10
+        months = 2
+        years = 1
+        modifier = {
+            base = 300
+            country_exists = QAT
+        }
+        modifier = {
+            add = 10
+            country_exists = OMA
+        }
+    }
+    
+    fire_only_once = yes
+    hidden = yes
+    
+    immediate = {
+        random_country = {
+            limit = {
+                is_neighbor_of = BHR
+            }
+            annex_country = {
+                target = BHR
+                transfer_troops = yes
+            }
+        }
+    }
+}
+
+state_event = {
+    id = my_event.2
+    title = my_event.2.t
+    desc = my_event.2.desc
+    picture = GFX_my_event_picture
+    
+    trigger = {
+        ROOT = {
+            has_country_flag = fire_this_event
+        }
+    }
+    is_triggered_only = yes
+    
+    option = {
+        name = my_event.2.a
+        transfer_state_to = ROOT
+    }
+    
+    option = {
+        name = my_event.2.b
+        ai_chance = {
+            base = 0        # Never pick this option.
+        }
+        transfer_state_to = FROM
+    }
+}</pre>
+<h3 id="s-9p8jrn" data-section="1"><span class="mw-headline" id="Integration_with_on_actions">Integration with on actions</span></h3>
+<div style="margin-left:1.5em"><i>另见：<a href="On_actions.html">事件钩子</a></i></div>
+<p>These events are the primary types to trigger via on_actions:
+</p>
+<pre>add_namespace = on_action_events
+news_event = {      # City capture news event
+    id = on_action_events.1
+    title = on_action_events.1.t    # Fall of Giza
+    desc = on_action_events.1.desc
+    
+    is_triggered_only = yes
+    major = yes
+    
+    option = {
+        trigger = {
+            OR = {
+                tag = EGY
+                is_in_faction_with = EGY 
+                is_subject_of = EGY
+            }
+        }
+        name = on_action_events.1.a
+    }
+    
+    option = {
+        trigger = {
+            NOT = {
+                tag = EGY
+                is_in_faction_with = EGY 
+                is_subject_of = EGY
+            }
+        }
+        name = on_action_events.1.b
+    }
+}
+
+country_event = {       # Fired on a specific day if circumstances are met
+    id = on_action_events.2
+    title = on_action_events.2.t
+    desc = on_action_events.2.desc
+    
+    is_triggered_only = yes                     # Prevents from firing automatically.
+    trigger = {
+        has_completed_focus = BHR_focus_name    # If the focus isn't completed, will never fire.
+    }
+    
+    option = {
+        name = on_action_events.2
+    }
+}
+
+country_event = {       # Other types of on_actions
+    id = on_action_events.3 # In this case, a prompt on annexing a country with an option to release it.
+    title = on_action_events.3.t
+    desc = on_action_events.3.desc
+    
+    is_triggered_only = yes                     # Prevents from firing automatically.  
+    
+    trigger = {     # If all core states of FROM are cored or claimed by ROOT, should never appear.
+        NOT = {     # Triggered within on_annex's random_events = { ... }, so has the same FROM as the on_action
+            any_state = {
+                NOT = {
+                    is_core_of = ROOT
+                    is_claimed_by = ROOT
+                }
+                is_core_of = FROM
+            }
+        }
+        FROM = {
+            NOT = {
+                tag = GER       # Has separate event
+            }
+        }
+    }
+    
+    option = {
+        name = on_action_events.3.a   # "Release [FROM.GetName] as puppet"
+        every_owned_state = {
+            limit = {
+                is_core_of = FROM 
+                NOT = {
+                    is_core_of = ROOT
+                    is_claimed_by = ROOT
+                }
+            }
+            transfer_state_to = FROM
+        }
+        if = {
+            limit = {
+                has_dlc = "Together for Victory"
+            }
+            set_autonomy = {
+                target = FROM
+                autonomy_state = autonomy_integrated_puppet
+            }
+        }
+        else = {
+            puppet = FROM
+        }
+    }
+    
+    option = {
+        name = on_action_events.3.b # "Don't release [FROM.GetName]"
+        add_stability = -0.1
+        add_war_support = -0.1
+    }
+}</pre>
+<p>In order to fire this, code has to be created within any <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/common/on_actions/*.txt</span> file, sometimes paired with <a href="Data_structures.html">boolean flags</a> to prevent them from being fired more than once if fire_only_once is impossible. In the above example, this would be used:
+</p>
+<pre>on_actions = {
+    on_state_control_changed = {
+        effect = {
+            if = {
+                limit = {
+                    FROM.FROM = {
+                        state = 999 # Custom state ID. Will crash the game if doesn't exist.
+                    }
+                    NOT = {
+                        has_global_flag = giza_fall # To prevent from firing twice.
+                    }                               # Due to 'major = yes', a fire_only_once will NOT work
+                }
+                news_event = { id = on_action_events.1 hours = 6 random_hours = 3 } # Fires in 6-9 hours to feel more natural.
+            }
+        }
+    }
+    on_startup = {
+        effect = {
+            BHR = {
+                country_event = { 
+                    id = on_action_events.2 
+                    days = 357  
+                    random_days = 7     # Fires in the last week of 1936, assuming default start date.
+                }
+            }
+        }
+    }
+    on_annex = {
+        random_events = {
+            1 = on_action_events.3
+        }
+    }
+}</pre>
+<h3 id="s-qiqpsn" data-section="1"><span class="mw-headline" id="Integration_with_history">Integration with history</span></h3>
+<div style="margin-left:1.5em"><i>另见：<a href="Country_creation.html">国家创建#历史</a></i></div>
+<p>Alternatively, you can fire the event inside <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/history/countries/*.txt</span> file:
+</p>
+<pre># history/countries/BHR - Bahrain.txt
+# Other code is omitted
+country_event = { 
+	id = on_action_events.2 
+	days = 357  
+	random_days = 7     # Fires in the last week of 1936, assuming default start date.
+}</pre>
+<h2 id="s-1ynssvf" data-section="1"><span class="mw-headline" id="Notes_and_references">注释与参考文献</span></h2>
+<p><span id="cnote_a"><b><a href="#ref_a">^</a></b></span>&nbsp;<b>a:</b>&nbsp;<code>delayed_event</code> is used for tracking events that are to be fired with a time delay in the save games (as they're formatted with <code>save_as_binary=no</code> in <span class="inline-sup" style="background-color:#f9f9f9; color:DarkSlateGray; border:1px solid #dcdcdc; font-family: monospace,Courier; white-space:nowrap">/Hearts of Iron IV/settings.txt</span>). This is used for every single event type, such as country events or state events.<br>
+</p>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text"><code>NDefines.NCountry.EVENT_PROCESS_OFFSET = 20</code> 中的 <a href="Defines.html">定义文件</a>。</span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text"><code>NDefines.NGame.EVENT_TIMEOUT_DEFAULT = 13</code> 中的 <a href="Defines.html">定义文件</a>。</span>
+</li>
+</ol></div>
+<p>Note that when editing defines, it is far preferable to use an <a href="Defines.html">override file</a> than copying over the entire file, as defines are edited commonly even in 'minor' updates, which can cause crashes when the game updates.
+</p>
+
+<div style="margin: 5px 0px 0px; padding: 2px; border: 1px solid #aaa; text-align: center; border-collapse: collapse; font-size: 100%;">
+<div style="height: 1.6em; font-weight: bold; font-size: 105%; background-color: #efefef;"><b><a href="Modding.html">模组制作</a></b></div>
+<div style="font-size:0.9em; margin:0.5em">
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">文档</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Effect.html">效果</a> • 触发器 • <a href="Defines.html">定义文件</a> • <a href="Modifiers.html">修正项</a> • <a href="List_of_modifiers.html">修正项列表</a> • <a href="Scopes.html">作用域</a> • <a href="Localisation.html">本地化文件</a> • <a href="On_actions.html">事件钩子</a> • <a href="Data_structures.html">数据结构</a>（<a href="Data_structures.html">标记</a>、<a href="Data_structures.html">事件目标</a>、<a href="Data_structures.html">国家标签别名</a>、<a href="Data_structures.html">变量</a>、<a href="Data_structures.html">数组</a>）</td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">脚本</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Achievement_modding.html">成就</a> • <a href="AI_modding.html">AI</a> • <a href="AI_focuses.html">AI 焦点</a> • <a href="Autonomy_state_modding.html">自治领</a> • <a href="Balance_of_power_modding.html">力量均势</a> • <a href="Bookmark_modding.html">书签/剧本</a> (<a href="Bookmark_modding.html">游戏规则</a>) • <a href="Building_modding.html">建筑</a> • <a href="Character_modding.html">角色与特质</a> • <a href="Cosmetic_tag_modding.html">外观标签</a> • <a href="Country_creation.html">国家</a> • <a href="Division_modding.html">师</a> • <a href="Decision_modding.html">决议</a> • <a href="Doctrine_modding.html">学说</a> • <a href="Equipment_modding.html">装备</a> • <a class="mw-selflink selflink" href="#">事件</a> • <a href="Faction_modding.html">阵营</a> • <a href="Idea_modding.html">理念</a> • <a href="Ideology_modding.html">意识形态</a> • <a href="Military_industrial_organization_modding.html">军事工业组织</a> • <a href="National_focus_modding.html">国策</a> • <a href="Resources_modding.html">资源</a> • <a href="Scripted_GUI_modding.html">脚本化 GUI</a> • <a href="Technology_modding.html">科技与学说</a> • <a href="Unit_modding.html">单位</a>
+</td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">地图</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Map_modding.html">地图</a> • <a href="State_modding.html">州</a> • <a href="Supply_areas_modding.html">补给区域</a> • <a href="Strategic_region_modding.html">战略区域</a>
+</td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">图形</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Interface_modding.html">界面</a> • <a href="Graphical_asset_modding.html">图形资源</a> • <a href="Entity_modding.html">实体</a> • <a href="Posteffect_modding.html">后期特效</a> • <a href="Particle_modding.html">粒子</a> • <a href="Font_modding.html">字体</a>
+</td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">外观</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Portrait_modding.html">肖像</a> • <a href="Namelist_modding.html">名称列表</a> • <a href="Music_modding.html">音乐</a> • <a href="Sound_modding.html">音效</a>
+</td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">其他</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="Console_commands.html">控制台指令</a> • <a href="Troubleshooting.html">疑难排查</a> • <a href="Mod_structure.html">模组结构</a> • <a href="Mods.html">模组</a> • <a href="Nudger.html">地图编辑器</a>
+</td></tr></tbody></table>
+</div></div>
+
+
+
+
+</div>
+</main>
+</div>
+<footer class="site-footer">
+<p>本资料库内容译自 <a href="https://hoi4.paradoxwikis.com/" rel="noreferrer">Hearts of Iron IV Wiki</a>（Paradox Interactive 社区维基），原文以 CC BY-SA 3.0 授权发布，译文沿用同一授权。仅供个人离线学习，与 Paradox Interactive 无隶属关系。</p>
+<p>原页面「Event modding」｜ 抓取时间 2026-09-10 ｜ 原站版本号 102070 ｜ 中文翻译进度 21%</p>
+</footer>
+</body>
+</html>

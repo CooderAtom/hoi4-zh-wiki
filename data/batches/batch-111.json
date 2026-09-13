@@ -1,0 +1,1366 @@
+{
+ "batch": 111,
+ "pages": [
+  "Defines"
+ ],
+ "chars": 14651,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "cm3k59",
+   "en": "Dynamic pool AIR_COMBAT"
+  },
+  {
+   "k": "1966qv1",
+   "en": "DYNAMIC_INTEL_SOURCE_AIR_COMBAT_MULT_DECAY"
+  },
+  {
+   "k": "1x23av3",
+   "en": "DYNAMIC_INTEL_SOURCE_AIR_COMBAT_AGGREGAT_LOG_FACTOR"
+  },
+  {
+   "k": "1dy05on",
+   "en": "DYNAMIC_INTEL_SOURCE_AIR_COMBAT_AGGREGAT_DIVISOR"
+  },
+  {
+   "k": "pszvyt",
+   "en": "DYNAMIC_INTEL_SOURCE_AIR_COMBAT_MAXIMUMS"
+  },
+  {
+   "k": "1z69hv",
+   "en": "DYNAMIC_INTEL_SOURCE_AIR_COMBAT_ABSOLUTE_MAXIMUMS"
+  },
+  {
+   "k": "1yohbd7",
+   "en": "DYNAMIC_INTEL_SOURCE_AIR_RECON_FLAT_DECAY"
+  },
+  {
+   "k": "1ochow8",
+   "en": "Dynamic pool AIR_RECON"
+  },
+  {
+   "k": "1rosq5e",
+   "en": "DYNAMIC_INTEL_SOURCE_AIR_RECON_MULT_DECAY"
+  },
+  {
+   "k": "1vhg4pi",
+   "en": "DYNAMIC_INTEL_SOURCE_AIR_RECON_AGGREGAT_LOG_FACTOR"
+  },
+  {
+   "k": "kzx32c",
+   "en": "DYNAMIC_INTEL_SOURCE_AIR_RECON_AGGREGAT_DIVISOR"
+  },
+  {
+   "k": "g6ea22",
+   "en": "DYNAMIC_INTEL_SOURCE_AIR_RECON_MAXIMUMS"
+  },
+  {
+   "k": "14rsb7a",
+   "en": "DYNAMIC_INTEL_SOURCE_AIR_RECON_ABSOLUTE_MAXIMUMS"
+  },
+  {
+   "k": "jsrhe3",
+   "en": "DYNAMIC_INTEL_SOURCE_CAPTURED_OPERATIVE_FLAT_DECAY"
+  },
+  {
+   "k": "1rwngq8",
+   "en": "Dynamic pool CAPTURED_OPERATIVE"
+  },
+  {
+   "k": "ct2w6a",
+   "en": "DYNAMIC_INTEL_SOURCE_CAPTURED_OPERATIVE_MULT_DECAY"
+  },
+  {
+   "k": "77fniu",
+   "en": "DYNAMIC_INTEL_SOURCE_CAPTURED_OPERATIVE_AGGREGAT_LOG_FACTOR"
+  },
+  {
+   "k": "rxkq10",
+   "en": "DYNAMIC_INTEL_SOURCE_CAPTURED_OPERATIVE_AGGREGAT_DIVISOR"
+  },
+  {
+   "k": "nl1h0q",
+   "en": "DYNAMIC_INTEL_SOURCE_CAPTURED_OPERATIVE_MAXIMUMS"
+  },
+  {
+   "k": "1tc088m",
+   "en": "DYNAMIC_INTEL_SOURCE_CAPTURED_OPERATIVE_ABSOLUTE_MAXIMUMS"
+  },
+  {
+   "k": "zgqknh",
+   "en": "LAND_COMBAT_ARMY_INTEL_OVER_OPPONENT_PER_INSTANCE"
+  },
+  {
+   "k": "i7s5kz",
+   "en": "if the opponent has any division present, flat intel value generated py a participant against an opponent"
+  },
+  {
+   "k": "1j46po0",
+   "en": "LAND_COMBAT_ARMY_INTEL_OVER_OPPONENT_PER_COMITTED_DIVISIONS"
+  },
+  {
+   "k": "1pbbsxa",
+   "en": "multiplied to the number of comitted divisions of the opponent"
+  },
+  {
+   "k": "1o37jut",
+   "en": "LAND_COMBAT_ARMY_INTEL_OVER_OPPONENT_PER_RESERVE_DIVISIONS"
+  },
+  {
+   "k": "1uyvosf",
+   "en": "same for divisions in reserve"
+  },
+  {
+   "k": "1vqsoko",
+   "en": "LAND_COMBAT_ARMY_INTEL_OVER_OPPONENT_PER_RETREATING_DIVISIONS"
+  },
+  {
+   "k": "1ikb0zh",
+   "en": "same for retreating divisions"
+  },
+  {
+   "k": "1b6titu",
+   "en": "LAND_COMBAT_ARMY_INTEL_FACTOR"
+  },
+  {
+   "k": "q3bwil",
+   "en": "factor applied once all values have been added together"
+  },
+  {
+   "k": "1rq2gd6",
+   "en": "LAND_COMBAT_AIR_INTEL_OVER_OPPONENT_PER_INSTANCE"
+  },
+  {
+   "k": "1v54b63",
+   "en": "if the opponent has any plane active in the, flat intel value generated by a participant against that opponent"
+  },
+  {
+   "k": "1eleb3x",
+   "en": "LAND_COMBAT_AIR_INTEL_OVER_OPPONENT_PER_PLANE"
+  },
+  {
+   "k": "awcs58",
+   "en": "multiplied to the number of plane that opponent has in the combat"
+  },
+  {
+   "k": "1jr4fx",
+   "en": "LAND_COMBAT_AIR_INTEL_FACTOR"
+  },
+  {
+   "k": "1b7ao3n",
+   "en": "RECON_INTEL_BONUS"
+  },
+  {
+   "k": "fkv6ja",
+   "en": "each recon gives this bonus to overall gathered land intel in combat"
+  },
+  {
+   "k": "w1lhkv",
+   "en": "NAVAL_COMBAT_NAVY_INTEL_OVER_OPPONENT_PER_INSTANCE"
+  },
+  {
+   "k": "vx31k4",
+   "en": "NAVAL_COMBAT_NAVY_INTEL_OVER_OPPONENT_PER_SUBMARINE"
+  },
+  {
+   "k": "zulzkn",
+   "en": "NAVAL_COMBAT_NAVY_INTEL_OVER_OPPONENT_PER_SCREEN_SHIP"
+  },
+  {
+   "k": "125gwmr",
+   "en": "NAVAL_COMBAT_NAVY_INTEL_OVER_OPPONENT_PER_CAPITAL_SHIP"
+  },
+  {
+   "k": "1l0n9sx",
+   "en": "NAVAL_COMBAT_NAVY_INTEL_OVER_OPPONENT_PER_INTERNAL_PLANES"
+  },
+  {
+   "k": "gmmoa0",
+   "en": "NAVAL_COMBAT_NAVY_INTEL_FACTOR"
+  },
+  {
+   "k": "1sosyc",
+   "en": "NAVAL_COMBAT_CIVILIAN_INTEL_OVER_OPPONENT_PER_INSTANCE"
+  },
+  {
+   "k": "143hzle",
+   "en": "NAVAL_COMBAT_CIVILIAN_INTEL_OVER_OPPONENT_PER_TRADE_CONVOY"
+  },
+  {
+   "k": "31vqtv",
+   "en": "NAVAL_COMBAT_CIVILIAN_INTEL_FACTOR"
+  },
+  {
+   "k": "ui6zj4",
+   "en": "NAVAL_COMBAT_ARMY_INTEL_OVER_OPPONENT_PER_INSTANCE"
+  },
+  {
+   "k": "11e51kz",
+   "en": "NAVAL_COMBAT_ARMY_INTEL_OVER_OPPONENT_PER_TRANSFER_CONVOY"
+  },
+  {
+   "k": "vfpd3z",
+   "en": "NAVAL_COMBAT_ARMY_INTEL_FACTOR"
+  },
+  {
+   "k": "1fwhot5",
+   "en": "NAVAL_COMBAT_AIR_INTEL_OVER_OPPONENT_PER_INSTANCE"
+  },
+  {
+   "k": "cohtov",
+   "en": "NAVAL_COMBAT_AIR_INTEL_OVER_OPPONENT_PER_INTERNAL_PLANES"
+  },
+  {
+   "k": "hxpkj5",
+   "en": "NAVAL_COMBAT_AIR_INTEL_OVER_OPPONENT_PER_EXTERNAL_PLANES"
+  },
+  {
+   "k": "1o75jcu",
+   "en": "NAVAL_COMBAT_AIR_INTEL_FACTOR"
+  },
+  {
+   "k": "1oh941n",
+   "en": "NAVY_INTEL_BASE_SPOTTING_BONUS_MIN_INTEL_FOR_BONUS"
+  },
+  {
+   "k": "j94j8e",
+   "en": "at least this intel diff is needed for start applying BASE_SPOTTING_FROM_DECRYPTION bonus"
+  },
+  {
+   "k": "b78fvd",
+   "en": "NAVY_INTEL_BASE_SPOTTING_BONUS_MAX_INTEL_FOR_BONUS"
+  },
+  {
+   "k": "1jgjks9",
+   "en": "at this intel BASE_SPOTTING_FROM_DECRYPTION will be applied fully"
+  },
+  {
+   "k": "1f1usw8",
+   "en": "NAVY_INTEL_MINE_DAMAGE_REDUCTION_FACTOR_MIN_INTEL_FOR_BONUS"
+  },
+  {
+   "k": "ei05x7",
+   "en": "at least this intel diff is needed for start applying NAVAL_MINES_INTEL_DIFF_FACTOR bonus"
+  },
+  {
+   "k": "1cowrha",
+   "en": "NAVY_INTEL_MINE_DAMAGE_REDUCTION_FACTOR_MAX_INTEL_FOR_BONUS"
+  },
+  {
+   "k": "1hybx6h",
+   "en": "t this intel NAVAL_MINES_INTEL_DIFF_FACTOR will be applied fully"
+  },
+  {
+   "k": "yt8qim",
+   "en": "AIR_COMBAT_AIR_INTEL_PER_INSTANCE"
+  },
+  {
+   "k": "f1etz1",
+   "en": "AIR_COMBAT_AIR_INTEL_PER_OPPONENT_PLANE"
+  },
+  {
+   "k": "avm6me",
+   "en": "AIR_COMBAT_AIR_INTEL_FACTOR"
+  },
+  {
+   "k": "pdkmzq",
+   "en": "INTEL_NETWORK_NATIONAL_COVERAGE_FACTOR"
+  },
+  {
+   "k": "19pd5ac",
+   "en": "multiplied to the national coverage to deduce the fraction of the maximum value listed below that will be added to the intel against the network's target"
+  },
+  {
+   "k": "x4ij55",
+   "en": "INTEL_NETWORK_NATIONAL_COVERAGE_NAVAL_BASE_FACTOR"
+  },
+  {
+   "k": "z2fzh3",
+   "en": "factor used instead of above in case you dont cover naval bases etc"
+  },
+  {
+   "k": "4e6dmi",
+   "en": "INTEL_NETWORK_MAX_CIVILIAN_INTEL"
+  },
+  {
+   "k": "sqxh28",
+   "en": "the maximum intel values that an intel network will provide against a target"
+  },
+  {
+   "k": "dt0svy",
+   "en": "INTEL_NETWORK_MAX_ARMY_INTEL"
+  },
+  {
+   "k": "i87t7z",
+   "en": "INTEL_NETWORK_MAX_NAVY_INTEL"
+  },
+  {
+   "k": "k3s8z7",
+   "en": "only apply if the network encompass a naval base controlled by the network's target"
+  },
+  {
+   "k": "kwdtj8",
+   "en": "INTEL_NETWORK_MAX_AIRFORCE_INTEL"
+  },
+  {
+   "k": "qchuhp",
+   "en": "RADAR_LEVEL_INTEL_FACTOR"
+  },
+  {
+   "k": "j9yw0k",
+   "en": "Multiplied to the radar level to tell the fraction of intel per covered province we get. The radar level is computed as BuildingLevel / MaxBuildingLevel."
+  },
+  {
+   "k": "1j2aujl",
+   "en": "RADAR_INTEL_STACKING_FACTOR"
+  },
+  {
+   "k": "57s2p3",
+   "en": "Used when multiple radars cover the same province"
+  },
+  {
+   "k": "ifyugg",
+   "en": "RADAR_BASE_INTEL_VALUES_FOR_COUNTRY_COVERAGE_PERCENTAGE"
+  },
+  {
+   "k": "1i902vd",
+   "en": "Values are the same order as in COUNTRY_LEVEL_INTEL_MAXIMUMS Multiplied by the total radar efficiency over the provinces of a specific country divided by the number of provinces controlled by that same country."
+  },
+  {
+   "k": "vo1zdu",
+   "en": "RADAR_BASE_INTEL_VALUES_FOR_COVERED_LAND_PROVINCES"
+  },
+  {
+   "k": "eysw9k",
+   "en": "Values are the same order as in COUNTRY_LEVEL_INTEL_MAXIMUMS Multiplied by the total radar efficiency of the provinces of a specific country divided by the individual radar's percentage of covered provinces."
+  },
+  {
+   "k": "18if3ca",
+   "en": "RADAR_BASE_INTEL_VALUES_FOR_COVERED_SEA_PROVINCES"
+  },
+  {
+   "k": "1l3zuqq",
+   "en": "Values are the same order as in COUNTRY_LEVEL_INTEL_MAXIMUMS Multiplied by the total radar efficiency of the provinces covered by the radar for each strategic region that has convoy routes and multiplied by the fraction of convoy that country has going through the region (excluding the convoys of the radar's owner)"
+  },
+  {
+   "k": "fz5iv7",
+   "en": "RADAR_NAVY_INTEL_FACTOR_PER_SHIP_TYPE"
+  },
+  {
+   "k": "1fsr8vh",
+   "en": "Navy intel value factored to the fraction of the country's ships in the sea zone covered by the radar, by ship type Submarine Screen ship Capital ship Carrier ship"
+  },
+  {
+   "k": "11rji4e",
+   "en": "CAPTURED_OPERATIVE_MAX_FACTOR"
+  },
+  {
+   "k": "fcq3dk",
+   "en": "Define the maximum of the randomized factor, before the factor from operative is applied"
+  },
+  {
+   "k": "14jffls",
+   "en": "CAPTURED_OPERATIVE_MIN_FACTOR"
+  },
+  {
+   "k": "1d6r7cm",
+   "en": "Define the minimum of the randomized factor, before the factor from operative is applied"
+  },
+  {
+   "k": "dxhx8o",
+   "en": "CAPTURED_OPERATIVE_INTEL_YIELD"
+  },
+  {
+   "k": "15upx0r",
+   "en": "Values are the same order as in COUNTRY_LEVEL_INTEL_MAXIMUMS Daily base intel yield from an operative, before the factors defined above are applied"
+  },
+  {
+   "k": "6f6yua",
+   "en": "RECON_PLANE_INTEL_BASE"
+  },
+  {
+   "k": "1ejzhde",
+   "en": "intel base amount for a strategic area per plane"
+  },
+  {
+   "k": "12rh0p2",
+   "en": "RECON_PLANE_LAND_DISTRIBUTION"
+  },
+  {
+   "k": "95czmx",
+   "en": "controls for land and sea zones how much of each intel typee is given (civ, army, navy, air)"
+  },
+  {
+   "k": "jb1d2o",
+   "en": "RECON_PLANE_SEA_DISTRIBUTION"
+  },
+  {
+   "k": "1mual60",
+   "en": "LAND_SPOT_DECAY"
+  },
+  {
+   "k": "19inmot",
+   "en": "NAVAL_SPOT_DECAY"
+  },
+  {
+   "k": "14jb39c",
+   "en": "ENCRYPTION_DECRYPTION_INTEL_FACTORS"
+  },
+  {
+   "k": "15ft3nt",
+   "en": "Factored to ( 1 + A.decryption ) / ( 1 + B.encryption ) to determine the intel A has over B when legacy encryption and decryption modifier are used. Note that if A.decryption is zero, the result is forced to zero In the ame order as COUNTRY_LEVEL_INTEL_MAXIMUMS"
+  },
+  {
+   "k": "gk87yo",
+   "en": "CIVILIAN_PRODUCTION_RANGE_INTEL_MIN"
+  },
+  {
+   "k": "ec6se4",
+   "en": "intel ledger defines minimum value to show fuzzy factory counts below this you will get ???"
+  },
+  {
+   "k": "drkrfe",
+   "en": "CIVILIAN_PRODUCTION_RANGE_INTEL_MAX"
+  },
+  {
+   "k": "ch3448",
+   "en": "maximum value to show fuzzy factory counts. above this you will get full count"
+  },
+  {
+   "k": "1dnbarn",
+   "en": "CIVILIAN_PRODUCTION_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "195d9qy",
+   "en": "range of intel values at lowest intel"
+  },
+  {
+   "k": "17q6uyr",
+   "en": "CIVILIAN_FUEL_RANGE_INTEL_MIN"
+  },
+  {
+   "k": "1i4yh5d",
+   "en": "minimum value to show fuzzy factory counts below this you will get ???"
+  },
+  {
+   "k": "1mqcu0t",
+   "en": "CIVILIAN_FUEL_RANGE_INTEL_MAX"
+  },
+  {
+   "k": "1v0djtg",
+   "en": "CIVILIAN_FUEL_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "2hyuza",
+   "en": "CIVILIAN_MANPOWER_RANGE_INTEL_MIN"
+  },
+  {
+   "k": "ge6f9g",
+   "en": "CIVILIAN_MANPOWER_RANGE_INTEL_MAX"
+  },
+  {
+   "k": "12956zx",
+   "en": "CIVILIAN_MANPOWER_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "1wnowxi",
+   "en": "CIVILIAN_CONVOYS_RANGE_INTEL_MIN"
+  },
+  {
+   "k": "1vd1te5",
+   "en": "CIVILIAN_CONVOYS_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "1ioqn7r",
+   "en": "CIVILIAN_TRUCKS_RANGE_INTEL_MIN"
+  },
+  {
+   "k": "vygvjd",
+   "en": "CIVILIAN_TRUCKS_RANGE_INTEL_MAX"
+  },
+  {
+   "k": "17jdgmg",
+   "en": "CIVILIAN_TRUCKS_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "73fj1g",
+   "en": "CIVILIAN_TRAINS_RANGE_INTEL_MIN"
+  },
+  {
+   "k": "b01ecm",
+   "en": "CIVILIAN_TRAINS_RANGE_INTEL_MAX"
+  },
+  {
+   "k": "1mtpdyv",
+   "en": "CIVILIAN_TRAINS_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "1tu01lw",
+   "en": "CIVILIAN_SUPPLY_RANGE_INTEL_MIN"
+  },
+  {
+   "k": "1xqlwx2",
+   "en": "CIVILIAN_SUPPLY_RANGE_INTEL_MAX"
+  },
+  {
+   "k": "9didbr",
+   "en": "CIVILIAN_SUPPLY_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "winzdg",
+   "en": "CIVILIAN_TRADE_SHOW_TRADE_AMOUNTS"
+  },
+  {
+   "k": "17eqbpa",
+   "en": "minimum value to show how much a country trades a resource"
+  },
+  {
+   "k": "84ouis",
+   "en": "CIVILIAN_TRADE_SHOW_TRADE_PARTNERS"
+  },
+  {
+   "k": "1aia1o8",
+   "en": "minimum value to show who a country trades with"
+  },
+  {
+   "k": "edmyct",
+   "en": "CIVILIAN_MIN_INTEL_FOR_RESOURCE_ROUTES_TOOLTIPS"
+  },
+  {
+   "k": "1kzgx70",
+   "en": "minimum value to show convoy routes for resource transfer"
+  },
+  {
+   "k": "17nhaqg",
+   "en": "CIVILIAN_MIN_INTEL_FOR_TRADE_ROUTES"
+  },
+  {
+   "k": "19rmj7n",
+   "en": "minimum value to show trade routes on map"
+  },
+  {
+   "k": "lw43tr",
+   "en": "CIVILIAN_MIN_INTEL_FOR_RESOURCE_ORIGIN_ROUTES"
+  },
+  {
+   "k": "1o9bsri",
+   "en": "minimum value to show resource transfers to mainland on map"
+  },
+  {
+   "k": "1811dw5",
+   "en": "ARMY_MIN_INTEL_FOR_SUPPLY_ROUTES"
+  },
+  {
+   "k": "1dimy5l",
+   "en": "minimum value to show convoy routes for supply transfer"
+  },
+  {
+   "k": "1m2w5oi",
+   "en": "ARMY_MIN_INTEL_FOR_SUPPLY_ROUTES_TOOLTIPS"
+  },
+  {
+   "k": "nmevhw",
+   "en": "minimum value to show convoy route tooltips for supply transfer"
+  },
+  {
+   "k": "10u6nbr",
+   "en": "CIVILIAN_INTEL_NEEDED_TO_SHOW_ANTI_AIR_REDUCTION"
+  },
+  {
+   "k": "b9ixig",
+   "en": "minimum value to show anti air damage reduction"
+  },
+  {
+   "k": "1dd0sln",
+   "en": "CIVILIAN_INTEL_NEEDED_TO_SHOW_FOCUS_TREE"
+  },
+  {
+   "k": "uhqk9a",
+   "en": "min required intel to focus tree with taken focuses"
+  },
+  {
+   "k": "9gxqvk",
+   "en": "CIVILIAN_INTEL_NEEDED_TO_SHOW_CURRENT_FOCUS"
+  },
+  {
+   "k": "cerd2s",
+   "en": "min required intel to show currently focus"
+  },
+  {
+   "k": "vfak8e",
+   "en": "CIVILIAN_INTEL_NEEDED_TO_SHOW_CURRENT_FOCUS_PROGRESS"
+  },
+  {
+   "k": "5uvztq",
+   "en": "min required intel to show current focus progress"
+  },
+  {
+   "k": "1epv1dg",
+   "en": "CIVILIAN_MIN_INTEL_TO_SHOW_INDUSTRY_GRAPH"
+  },
+  {
+   "k": "1n0be9r",
+   "en": "CIVILIAN_MIN_INTEL_TO_SHOW_CONVOYS_GRAPH"
+  },
+  {
+   "k": "z07ya8",
+   "en": "CIVILIAN_MIN_INTEL_TO_SHOW_BOMBERS_GRAPH"
+  },
+  {
+   "k": "wnvy02",
+   "en": "CIVILIAN_MIN_INTEL_TO_SHOW_TRUCKS_GRAPH"
+  },
+  {
+   "k": "ymt31d",
+   "en": "CIVILIAN_MIN_INTEL_TO_SHOW_TRAINS_GRAPH"
+  },
+  {
+   "k": "1gi7l4",
+   "en": "CIVILIAN_MIN_INTEL_TO_SHOW_RAIL_STAUS"
+  },
+  {
+   "k": "1w3h9kg",
+   "en": "when mousing over supply map mode, shows damage/construction status"
+  },
+  {
+   "k": "1ndab5q",
+   "en": "OLD_TECH_COUNT_NUM_DAYS"
+  },
+  {
+   "k": "byq0h8",
+   "en": "num days after researched to consider a tech as \"old\""
+  },
+  {
+   "k": "1qtmwy4",
+   "en": "INTEL_TO_SHOW_TECH_COUNT"
+  },
+  {
+   "k": "1f6885m",
+   "en": "minimum value to show current tech count and current doctrine"
+  },
+  {
+   "k": "fn6gn7",
+   "en": "INTEL_TO_SHOW_PREVIOUSLY_RESEARCHED"
+  },
+  {
+   "k": "16ty806",
+   "en": "minimum value to show previously researched tech"
+  },
+  {
+   "k": "10owdpf",
+   "en": "INTEL_TO_SHOW_CURRENTLY_RESEARCHED"
+  },
+  {
+   "k": "1n773fp",
+   "en": "minimum value to show currently being researched tech"
+  },
+  {
+   "k": "1wj27s8",
+   "en": "INTEL_TO_SHOW_IDEAS"
+  },
+  {
+   "k": "14iwbx6",
+   "en": "ARMY_ARMY_COUNT_RANGE_INTEL_MIN"
+  },
+  {
+   "k": "golxv4",
+   "en": "ARMY_ARMY_COUNT_RANGE_INTEL_MAX"
+  },
+  {
+   "k": "kbxvaf",
+   "en": "ARMY_ARMY_COUNT_RANGE_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "5b4f9e",
+   "en": "ARMY_SPECIAL_FORCES_COUNT_RANGE_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "73q7fr",
+   "en": "ARMY_DEPLOYED_MANPOWER_COUNT_RANGE_INTEL_MIN"
+  },
+  {
+   "k": "jvzcy1",
+   "en": "ARMY_DEPLOYED_MANPOWER_COUNT_RANGE_INTEL_MAX"
+  },
+  {
+   "k": "t6cjiy",
+   "en": "ARMY_DEPLOYED_MANPOWER_COUNT_RANGE_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "1mrxq87",
+   "en": "ARMY_MIN_INTEL_TO_SHOW_EQUIPMENT_RATIO"
+  },
+  {
+   "k": "v8kw35",
+   "en": "ARMY_MIN_INTEL_TO_SHOW_BASIC_TEMPLATE_INFO"
+  },
+  {
+   "k": "1vhb8au",
+   "en": "ARMY_TEMPLATE_UNIT_COUNT_INTEL_MIN"
+  },
+  {
+   "k": "1iqkxzo",
+   "en": "ARMY_TEMPLATE_UNIT_COUNT_INTEL_MAX"
+  },
+  {
+   "k": "ipoclv",
+   "en": "ARMY_TEMPLATE_UNIT_COUNT_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "1mqlmps",
+   "en": "ARMY_MIN_INTEL_TO_SHOW_EXACT_TEMPLATE_INFO"
+  },
+  {
+   "k": "1ldws3d",
+   "en": "ARMY_STOCKPILE_COUNT_INTEL_MIN"
+  },
+  {
+   "k": "934pef",
+   "en": "ARMY_STOCKPILE_COUNT_INTEL_MAX"
+  },
+  {
+   "k": "85r6u0",
+   "en": "ARMY_STOCKPILE_COUNT_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "l5gtlb",
+   "en": "ARMY_MIN_INTEL_TO_SHOW_EQUIPMENT_DESIGN_DETAILS"
+  },
+  {
+   "k": "1t642f7",
+   "en": "ARMY_MIN_INTEL_RATIO_NEEDED_FOR_DISPLAYING_FAKE_ENEMY_INTEL_IN_LEDGER"
+  },
+  {
+   "k": "d1dqc",
+   "en": "ARMY_MIN_INTEL_RATIO_NEEDED_FOR_REVEALING_FAKE_ENEMY_INTEL"
+  },
+  {
+   "k": "18ykgwd",
+   "en": "ARMY_INTEL_COMBAT_BONUS_MAX_BONUS"
+  },
+  {
+   "k": "1cxzfw7",
+   "en": "max combat bonus that will apply when intel is high enough"
+  },
+  {
+   "k": "1a6s4gr",
+   "en": "ARMY_INTEL_COMBAT_BONUS_FACTOR_ATTACK"
+  },
+  {
+   "k": "1s2qq8y",
+   "en": "multiplier for attack value of intel combat bonus"
+  },
+  {
+   "k": "of9pmx",
+   "en": "ARMY_INTEL_COMBAT_BONUS_FACTOR_DEFENSE"
+  },
+  {
+   "k": "plcxe4",
+   "en": "multiplier for defense value of intel combat bonus"
+  },
+  {
+   "k": "14k44uc",
+   "en": "ARMY_INTEL_COMBAT_BONUS_MIN_INTEL_FOR_BONUS"
+  },
+  {
+   "k": "1rzspv9",
+   "en": "min intel needed to start applying ARMY_INTEL_COMBAT_BONUS_MAX_BONUS"
+  },
+  {
+   "k": "1m4897m",
+   "en": "ARMY_INTEL_COMBAT_BONUS_MAX_INTEL_FOR_BONUS"
+  },
+  {
+   "k": "1e60ayj",
+   "en": "intel needed to fully apply ARMY_INTEL_COMBAT_BONUS_MAX_BONUS"
+  },
+  {
+   "k": "18eocct",
+   "en": "NAVAL_SUPREMACY_INTEL_LOW"
+  },
+  {
+   "k": "14ciwnn",
+   "en": "we need more intel than this to get any supremacy"
+  },
+  {
+   "k": "3shgb0",
+   "en": "NAVAL_SUPREMACY_INTEL_LOW_SUPREMACY_PENALTY_START"
+  },
+  {
+   "k": "1xn14vt",
+   "en": "supremacy is reduced to NAVAL_SUPREMACY_INTEL_LOW_SUPREMACY_MIN_PENALTY at or below this intel"
+  },
+  {
+   "k": "1t64m24",
+   "en": "NAVAL_SUPREMACY_INTEL_LOW_SUPREMACY_MIN_PENALTY"
+  },
+  {
+   "k": "1nx1w0k",
+   "en": "you get this much supremacy at NAVAL_SUPREMACY_INTEL_LOW_SUPREMACY_PENALTY_START and scales up to 1 at NAVAL_SUPREMACY_INTEL_LOW"
+  },
+  {
+   "k": "v15k7a",
+   "en": "NAVY_FLEET_COUNT_INTEL_MIN"
+  },
+  {
+   "k": "iahhhw",
+   "en": "NAVY_FLEET_COUNT_INTEL_MAX"
+  },
+  {
+   "k": "1hzhz83",
+   "en": "NAVY_FLEET_COUNT_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "982gt6",
+   "en": "NAVY_TASKFORCE_COUNT_INTEL_MIN"
+  },
+  {
+   "k": "1keycc0",
+   "en": "NAVY_TASKFORCE_COUNT_INTEL_MAX"
+  },
+  {
+   "k": "1yfqxnr",
+   "en": "NAVY_TASKFORCE_COUNT_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "bxaxu0",
+   "en": "NAVY_SHIP_COUNT_INTEL_MIN"
+  },
+  {
+   "k": "qxgww2",
+   "en": "NAVY_SHIP_COUNT_INTEL_MAX"
+  },
+  {
+   "k": "1i6bj3t",
+   "en": "NAVY_SHIP_COUNT_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "1y0u3ya",
+   "en": "NAVY_MIN_INTEL_TO_SHOW_EXISTING_CATEGORY_TYPES"
+  },
+  {
+   "k": "1sqh5gw",
+   "en": "this is about disaplying ships by class category"
+  },
+  {
+   "k": "8tgvqd",
+   "en": "NAVY_SHIP_TYPE_COUNT_INTEL_MIN"
+  },
+  {
+   "k": "13u2zyz",
+   "en": "this range is used both when for disaplying counts by class and counts by variant"
+  },
+  {
+   "k": "1svxtuj",
+   "en": "NAVY_SHIP_TYPE_COUNT_INTEL_MAX"
+  },
+  {
+   "k": "1j160b8",
+   "en": "NAVY_SHIP_TYPE_COUNT_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "1iq10jn",
+   "en": "NAVY_MIN_INTEL_TO_SHOW_SHIP_CLASSES"
+  },
+  {
+   "k": "vbtfgo",
+   "en": "this unclocks the display of a given variant"
+  },
+  {
+   "k": "mmp5wq",
+   "en": "NAVY_DEPLOYED_MANPOWER_COUNT_RANGE_INTEL_MIN"
+  },
+  {
+   "k": "pfcmg0",
+   "en": "NAVY_DEPLOYED_MANPOWER_COUNT_RANGE_INTEL_MAX"
+  },
+  {
+   "k": "1cidolz",
+   "en": "NAVY_DEPLOYED_MANPOWER_COUNT_RANGE_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "w3004i",
+   "en": "NAVY_MIN_INTEL_TO_SHOW_SHIP_DESIGN_DETAILS"
+  },
+  {
+   "k": "1u14nun",
+   "en": "AIR_AIRWING_COUNT_INTEL_MIN"
+  },
+  {
+   "k": "1g4x3kh",
+   "en": "AIR_AIRWING_COUNT_INTEL_MAX"
+  },
+  {
+   "k": "1z0f2aa",
+   "en": "AIR_AIRWING_COUNT_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "2d2mts",
+   "en": "AIR_MIN_INTEL_TO_SHOW_AIRWING_CLASSES"
+  },
+  {
+   "k": "1qqon24",
+   "en": "AIR_WING_TYPE_COUNT_INTEL_MIN"
+  },
+  {
+   "k": "1lq4cz2",
+   "en": "AIR_WING_TYPE_COUNT_INTEL_MAX"
+  },
+  {
+   "k": "pmv2ot",
+   "en": "AIR_WING_TYPE_COUNT_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "u83jis",
+   "en": "AIR_DEPLOYED_MANPOWER_COUNT_RANGE_INTEL_MIN"
+  },
+  {
+   "k": "170cp12",
+   "en": "AIR_DEPLOYED_MANPOWER_COUNT_RANGE_INTEL_MAX"
+  },
+  {
+   "k": "db3imt",
+   "en": "AIR_DEPLOYED_MANPOWER_COUNT_RANGE_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "1elui4e",
+   "en": "CIVILIAN_MAPICON_INDUSTRY_COUNT_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "1q3t4la",
+   "en": "MAP_INTEL_VISIBILITY_CUTOFFS"
+  },
+  {
+   "k": "1upq0vo",
+   "en": "how much map intel is gained with intel over a country. first number is threshold, second is amount of intel map intel gained"
+  },
+  {
+   "k": "142al5j",
+   "en": "ARMY_AVG_ARMOR_INTEL_MIN"
+  },
+  {
+   "k": "jipr53",
+   "en": "these are used in some triggers"
+  },
+  {
+   "k": "17ywggp",
+   "en": "ARMY_AVG_ARMOR_INTEL_MAX"
+  },
+  {
+   "k": "152wtgl",
+   "en": "ARMY_AVG_ARMOR_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "1ssvc39",
+   "en": "ARMY_MAX_ARMOR_INTEL_MIN"
+  },
+  {
+   "k": "5g20uj",
+   "en": "ARMY_MAX_ARMOR_INTEL_MAX"
+  },
+  {
+   "k": "1c0wmlr",
+   "en": "ARMY_MAX_ARMOR_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "6kgqpb",
+   "en": "ARMY_AVG_PIERCING_INTEL_MIN"
+  },
+  {
+   "k": "1jwgm9",
+   "en": "ARMY_AVG_PIERCING_INTEL_MAX"
+  },
+  {
+   "k": "qr7xvh",
+   "en": "ARMY_AVG_PIERCING_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "kpobbh",
+   "en": "ARMY_MAX_PIERCING_INTEL_MIN"
+  },
+  {
+   "k": "wcg6ur",
+   "en": "ARMY_MAX_PIERCING_INTEL_MAX"
+  },
+  {
+   "k": "1rrlwyv",
+   "en": "ARMY_MAX_PIERCING_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "lu0rfs",
+   "en": "NAVY_MAPICON_MISSION_COUNT_INTEL_MIN"
+  },
+  {
+   "k": "1wv2bqc",
+   "en": "~ min intel to show assigned naval missions"
+  },
+  {
+   "k": "1bllpe",
+   "en": "NAVY_MAPICON_MISSION_COUNT_INTEL_MAX"
+  },
+  {
+   "k": "1w5fpex",
+   "en": "min intel to show assigned naval missions with perfect accuracy, and taskforces count"
+  },
+  {
+   "k": "1bzru6f",
+   "en": "NAVY_MAPICON_SHOW_ALL_NAVAL_PORTS"
+  },
+  {
+   "k": "hmz3hx",
+   "en": "min intel to show all naval ports (otherwise you will only see nearby ones)"
+  },
+  {
+   "k": "1qa1a6g",
+   "en": "NAVY_MAPICON_NAVAL_PORT_VISIBILITY_DETAIL_THRESHOLDS"
+  },
+  {
+   "k": "yqmmo7",
+   "en": "how detailed the post tooltips will be for no intel show port level show fuzzy taskforce count show full taskforce count show taskforce details"
+  },
+  {
+   "k": "12xi8vg",
+   "en": "NAVY_MAPICON_NAVAL_PORT_TASKFORCE_FUZZY_THRESHOLD"
+  },
+  {
+   "k": "scnp1u",
+   "en": "AIR_MAPICON_MISSION_COUNT_INTEL_MIN"
+  },
+  {
+   "k": "7yd7gh",
+   "en": "AIR_SUPERIORITY CAS INTERCEPTION STRATEGIC_BOMBER NAVAL_BOMBER DROP_NUKE PARADROP NAVAL_KAMIKAZE PORT_STRIKE ATTACK_LOGISTICS AIR_SUPPLY TRAINING NAVAL_MINES_PLANTING NAVAL_MINES_SWEEPING RECON NAVAL_PATROL"
+  },
+  {
+   "k": "dchpzs",
+   "en": "AIR_MAPICON_MISSION_COUNT_INTEL_MAX"
+  },
+  {
+   "k": "eciy67",
+   "en": "AIR_MAPICON_MISSION_COUNT_INTEL_RANGE_AT_LOWEST_INTEL"
+  },
+  {
+   "k": "31t3y1",
+   "en": "AIR_MAPICON_SHOW_ALL_AIR_PORTS"
+  },
+  {
+   "k": "1126mst",
+   "en": "min intel to show all air ports (otherwise you will only see nearby ones)"
+  },
+  {
+   "k": "1v2a542",
+   "en": "AIR_MAPICON_AIR_PORT_VISIBILITY_DETAIL_THRESHOLDS"
+  },
+  {
+   "k": "1tmki2p",
+   "en": "how detailed the post tooltips will be for no intel show fuzzy air plane count show full air count show air plane details"
+  },
+  {
+   "k": "1we8800",
+   "en": "AIR_MAPICON_AIR_PORT_PLANE_FUZZY_THRESHOLD"
+  },
+  {
+   "k": "1bpnt9m",
+   "en": "AIR_MIN_INTEL_TO_SHOW_EQUIPMENT_DESIGN_DETAILS"
+  },
+  {
+   "k": "octuw8",
+   "en": "~intel ledger defines"
+  },
+  {
+   "k": "xxek3o",
+   "en": "NCharacter"
+  },
+  {
+   "k": "m9fm7e",
+   "en": "OFFICER_CORP_ADVISOR_ENTRIES_IN_MENU"
+  },
+  {
+   "k": "1hqf3zy",
+   "en": "{ \"high_command\", \"theorist\", \"army_chief\", \"air_chief\", \"navy_chief\" }"
+  },
+  {
+   "k": "1b5chq7",
+   "en": "OFFICER_CORP_HIGH_COMMAND_SLOTS_IN_MENU"
+  },
+  {
+   "k": "1nguk9a",
+   "en": "For Alert manager to count the number of High Command Slots in the UI"
+  },
+  {
+   "k": "1gzel1p",
+   "en": "POLITICAL_ADVISOR_SLOTS_IN_MENU"
+  },
+  {
+   "k": "1epydj0",
+   "en": "For Alert manager to count the number of Political Advisor Slots in the UI"
+  },
+  {
+   "k": "113t3vq",
+   "en": "DEFAULT_PP_COST_FOR_MILITARY_ADVISOR"
+  },
+  {
+   "k": "kdkf7c",
+   "en": "When an advisor does not have cost assigned this is the default used"
+  },
+  {
+   "k": "l08e96",
+   "en": "DEFAULT_PP_COST_FOR_POLITICAL_ADVISOR"
+  },
+  {
+   "k": "1rrndmb",
+   "en": "DEFAULT_CP_COST_FOR_ADVISOR"
+  },
+  {
+   "k": "1jzd0ol",
+   "en": "For Starting Advisors"
+  },
+  {
+   "k": "48lk9e",
+   "en": "DEFAULT_CP_COST_FOR_DYNAMIC_ADVISORS"
+  },
+  {
+   "k": "1bp5l1m",
+   "en": "For Advisors created during gameplay"
+  },
+  {
+   "k": "psfkov",
+   "en": "ADVISOR_PROMOTION_COST"
+  },
+  {
+   "k": "1xo6an6",
+   "en": "Cost to promote someone to advisor"
+  },
+  {
+   "k": "vlv190",
+   "en": "COUNTRY_LEADER_BASE_EXPIRE_YEAR_LENGTH"
+  },
+  {
+   "k": "1yni880",
+   "en": "When creating a dynamic country leader if an expire date is not set it will have 5 years as a base expiration date"
+  },
+  {
+   "k": "1mzlqnh",
+   "en": "COUNTRY_LEADER_BASE_RANDOM_MAX_YEAR_LENGTH"
+  },
+  {
+   "k": "6nzfrl",
+   "en": "Max random value added to COUNTRY_LEADER_BASE_EXPIRE_YEAR_LENGTH"
+  },
+  {
+   "k": "1n536bn",
+   "en": "SPECIALIST_ADVISOR_MIN_RANK"
+  },
+  {
+   "k": "jegrgw",
+   "en": "EXPERT_ADVISOR_MIN_RANK"
+  },
+  {
+   "k": "6q3y33",
+   "en": "GENIUS_ADVISOR_MIN_RANK"
+  },
+  {
+   "k": "sdn2ii",
+   "en": "NSupply"
+  },
+  {
+   "k": "senc2s",
+   "en": "MAX_RAILWAY_LEVEL"
+  },
+  {
+   "k": "5wtasy",
+   "en": "update railway texture as well, each frame corresponds to a level"
+  },
+  {
+   "k": "18vjttx",
+   "en": "CAPITAL_SUPPLY_BASE"
+  }
+ ]
+}

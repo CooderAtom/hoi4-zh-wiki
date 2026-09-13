@@ -1,0 +1,238 @@
+{
+ "page": "Government",
+ "chunk": 0,
+ "items": [
+  {
+   "k": "1w59o2x",
+   "en": "Improving relations is initiated at the cost of 10 political power, and costs a base rate of .2 political power per day for a country with a matching ideology. If the improving relations action is taken with the target being a separate ideology, the cost per day is 0.4 political power. For example, if Germany was improving relations with fascist ⟦0⟧ it would cost .2 political power per day, but improving relations with the democratic ⟦1⟧ would cost .4 political power per day."
+  },
+  {
+   "k": "1piaa5x",
+   "en": "Decisions act as a middle ground between national focuses and ⟦0⟧. The outcomes vary between instantaneous or timed effects."
+  },
+  {
+   "k": "ado0tr",
+   "en": "Shift+Q"
+  },
+  {
+   "k": "1cq3tr",
+   "en": "Elections occur in most Democracies and some Non-Aligned countries, along with ⟦0⟧(), ⟦1⟧() and ⟦2⟧() at the start of the game. Communist ⟦3⟧, communist/fascist ⟦4⟧, fascist ⟦5⟧, and Communist China can have elections via their national focus. The length of time between an election depends on the country, ranging from one to eight years between elections."
+  },
+  {
+   "k": "eks1u3",
+   "en": "Stability is expressed as a percentage from 0% to 100%⟦0⟧, and represents the people's support for the current government. Stability has various effects. At high stability, the nation receives production bonuses. At low stability, various crises can ravage the nation. Details below."
+  },
+  {
+   "k": "1ugf4ch",
+   "en": "Further, stability affects resistance targets in occupied territories from 0% at 100% up to ⟦0⟧ at 0%.⟦1⟧"
+  },
+  {
+   "k": "uusdck",
+   "en": "⟦0⟧ from having \"Popular Figurehead\" ruler trait or political advisor (both can be stacked together)"
+  },
+  {
+   "k": "1838vwb",
+   "en": "Command power Gain: ⟦0⟧⟦1⟧"
+  },
+  {
+   "k": "j619vj",
+   "en": "Command power Gain: ⟦0⟧"
+  },
+  {
+   "k": "1yj3kjq",
+   "en": "Command power (CP) represents the ability of the government to bypass the chain of command and directly influence the military. Command power is capped at 80,⟦0⟧ however, both the growth and the cap can be increased by Doctrines, ⟦1⟧, and ⟦2⟧. Hiring ⟦3⟧ and ⟦4⟧ will also increase the cap, and the country's War support also affects Command power growth."
+  },
+  {
+   "k": "1fx2ib7",
+   "en": "CP Cost"
+  },
+  {
+   "k": "1eyb6pz",
+   "en": "40Command power is only a base cost, it can be further modified by personality traits."
+  },
+  {
+   "k": "14ii0bx",
+   "en": "Command power is used and allocated so long as the mission is active."
+  },
+  {
+   "k": "inuljf",
+   "en": "Command power is used and allocated so long the command is active and there are planes operating in the air zone."
+  },
+  {
+   "k": "prmtkj",
+   "en": "An ⟦0⟧ is a technical expert on a country's diplomatic staff at a foreign capital that can be sent to a country currently at war by a country currently not at war. Sending an attaché will result in higher military cooperation and give benefits to both countries. It costs the sending country 100⟦1⟧ ⟦2⟧ and 50⟦3⟧ Command power to send the attaché, of which the 50 is constantly allocated to maintain the attaché."
+  },
+  {
+   "k": "2xkj58",
+   "en": "NDefines.NCountry.POLITICAL_POWER_LOWER_CAP = -500"
+  },
+  {
+   "k": "w7o3r7",
+   "en": "NDefines.NCountry.POLITICAL_POWER_UPPER_CAP = 2000"
+  },
+  {
+   "k": "1iw5dq7",
+   "en": "NDefines.NPolitics.BASE_POLITICAL_POWER_INCREASE = 2"
+  },
+  {
+   "k": "nkfciu",
+   "en": "NDefines.NCountry.MIN_STABILITY = 0"
+  },
+  {
+   "k": "132wuj7",
+   "en": "NDefines.NCountry.MAX_STABILITY = 1"
+  },
+  {
+   "k": "1feomti",
+   "en": "NDefines.NCountry.DEFAULT_STABILITY = 0.5"
+  },
+  {
+   "k": "1c0he2s",
+   "en": "⟦0⟧ and ⟦1⟧ in Static modifiers."
+  },
+  {
+   "k": "ghhi0w",
+   "en": "stability_good_modifier"
+  },
+  {
+   "k": "ofhaio",
+   "en": "stability_bad_modifier"
+  },
+  {
+   "k": "17dy66e",
+   "en": "NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_PER_STABILITY_LOSS = 0.2"
+  },
+  {
+   "k": "b5gbq1",
+   "en": "NDefines.NCountry.BASE_STABILITY_WAR_FACTOR = -0.2"
+  },
+  {
+   "k": "1ewxwxt",
+   "en": "⟦0⟧ in Static modifiers"
+  },
+  {
+   "k": "1kqnpwq",
+   "en": "war_support_during_war"
+  },
+  {
+   "k": "rv1g66",
+   "en": "NDefines.NCountry.BASE_STABILITY_PARTY_POPULARITY_FACTOR = 0.15"
+  },
+  {
+   "k": "mbb9pf",
+   "en": "NDefines.NCountry.MIN_WAR_SUPPORT = 0"
+  },
+  {
+   "k": "1m3qhiy",
+   "en": "NDefines.NCountry.MAX_WAR_SUPPORT = 1"
+  },
+  {
+   "k": "ae03rf",
+   "en": "NDefines.NCountry.DEFAULT_WAR_SUPPORT = 0.5"
+  },
+  {
+   "k": "y5ency",
+   "en": "⟦0⟧ and ⟦1⟧ in Static modifiers"
+  },
+  {
+   "k": "1visr9l",
+   "en": "war_support_good_modifier"
+  },
+  {
+   "k": "83m57j",
+   "en": "war_support_bad_modifier"
+  },
+  {
+   "k": "rj7gg0",
+   "en": "NDefines.NCountry.BASE_MAX_COMMAND_POWER = 80"
+  },
+  {
+   "k": "ypmjk8",
+   "en": "NDefines.NMilitary.UNIT_LEADER_ASSIGN_TRAIT_COST = 15"
+  },
+  {
+   "k": "eidhfb",
+   "en": "NDefines.NPolitics.ARMY_LEADER_COST = 5"
+  },
+  {
+   "k": "gexop9",
+   "en": "NDefines.NPolitics.ARMY_LEADER_MAX_COST = 80"
+  },
+  {
+   "k": "16zc7f2",
+   "en": "NDefines.NPolitics.NAVY_LEADER_COST = 5"
+  },
+  {
+   "k": "ubob6i",
+   "en": "NDefines.NPolitics.NAVY_LEADER_MAX_COST = 80"
+  },
+  {
+   "k": "1j3y579",
+   "en": "NDefines.NMilitary.PROMOTE_LEADER_CP_COST = 40"
+  },
+  {
+   "k": "ybn10w",
+   "en": "NDefines.NDiplomacy.BASE_SEND_ATTACHE_CP_COST = 50"
+  },
+  {
+   "k": "d8hidt",
+   "en": "NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.01"
+  },
+  {
+   "k": "yffzwq",
+   "en": "NDefines.NAir.MISSION_COMMAND_POWER_COSTS[11] = 0.05"
+  },
+  {
+   "k": "1i1ip9m",
+   "en": "NDefines.NAir.AIR_MORE_GROUND_CREWS_BOOST = 0.1"
+  },
+  {
+   "k": "1q1ki33",
+   "en": "NDefines.NAir.AIR_MORE_GROUND_CREWS_COST = 20"
+  },
+  {
+   "k": "631pke",
+   "en": "NDefines.NDiplomacy.BASE_SEND_ATTACHE_COST = 100"
+  },
+  {
+   "k": "fcvitb",
+   "en": "NDefines.NCountry.ATTACHE_XP_SHARE = 0.15"
+  },
+  {
+   "k": "1o34koa",
+   "en": "attache_sent"
+  },
+  {
+   "k": "hiyvmv",
+   "en": "Hearts of Iron IV\\common\\modifiers\\00_static_modifiers.txt"
+  },
+  {
+   "k": "cd0usx",
+   "en": "NDefines.NDiplomacy.ATTACHE_TO_OVERLORD_EFFECT = 0.05"
+  },
+  {
+   "k": "19ogc0l",
+   "en": "received_attache"
+  },
+  {
+   "k": "ybgejz",
+   "en": "Hearts of Iron IV\\common\\ideas\\zzz_generic.txt"
+  },
+  {
+   "k": "19grv8l",
+   "en": "NDefines.NDiplomacy.ATTACHE_TO_SUBJECT_EFFECT = -0.05"
+  },
+  {
+   "k": "14algub",
+   "en": "NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_OPINION_TRASHHOLD = 20"
+  },
+  {
+   "k": "w7iek1",
+   "en": "NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_BASE = 50"
+  },
+  {
+   "k": "n4ld1h",
+   "en": "⟦0⟧ • Decisions"
+  }
+ ]
+}

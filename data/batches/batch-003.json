@@ -1,0 +1,756 @@
+{
+ "batch": 3,
+ "pages": [
+  "Beginner's guide"
+ ],
+ "chars": 14823,
+ "glossary": {
+  "note": "钢铁雄心4 术语对照表。翻译时严格遵守，保证全站译名一致。",
+  "terms": {
+   "Hearts of Iron IV": "钢铁雄心 IV",
+   "political power": "政治点数",
+   "command power": "指挥点数",
+   "stability": "稳定度",
+   "war support": "战争支持度",
+   "world tension": "世界紧张度",
+   "national focus": "国家焦点",
+   "focus tree": "国策树",
+   "national spirit": "国家精神",
+   "idea": "理念",
+   "law": "法令",
+   "advisor": "顾问",
+   "government": "政府",
+   "ideology": "意识形态",
+   "democracy": "民主主义",
+   "fascism": "法西斯主义",
+   "communism": "共产主义",
+   "neutrality": "中立主义",
+   "election": "选举",
+   "coup": "政变",
+   "civil war": "内战",
+   "research": "科研",
+   "research slot": "科研槽",
+   "technology": "科技",
+   "doctrine": "学说",
+   "land doctrine": "陆军学说",
+   "naval doctrine": "海军学说",
+   "air doctrine": "空军学说",
+   "construction": "建造",
+   "civilian factory": "民用工厂",
+   "military factory": "军用工厂",
+   "dockyard": "船坞",
+   "infrastructure": "基础设施",
+   "production": "生产",
+   "production efficiency": "生产效率",
+   "consumer goods": "消费品",
+   "resource": "资源",
+   "steel": "钢铁",
+   "aluminium": "铝",
+   "chromium": "铬",
+   "tungsten": "钨",
+   "rubber": "橡胶",
+   "oil": "石油",
+   "manpower": "人力",
+   "division": "师",
+   "brigade": "旅",
+   "regiment": "团",
+   "battalion": "营",
+   "support company": "支援连",
+   "combat width": "战斗宽度",
+   "organisation": "组织度",
+   "organization": "组织度",
+   "strength": "兵力",
+   "experience": "经验",
+   "army experience": "陆军经验",
+   "navy experience": "海军经验",
+   "air experience": "空军经验",
+   "entrenchment": "构筑工事",
+   "planning bonus": "计划加成",
+   "battle plan": "作战计划",
+   "army planner": "陆军编制器",
+   "command group": "指挥群",
+   "general": "将领",
+   "field marshal": "元帅",
+   "commander": "指挥官",
+   "trait": "特质",
+   "officer corps": "军官团",
+   "land warfare": "陆战",
+   "naval warfare": "海战",
+   "air warfare": "空战",
+   "combat tactics": "战斗战术",
+   "tactic": "战术",
+   "logistics": "后勤",
+   "supply": "补给",
+   "supply hub": "补给中心",
+   "terrain": "地形",
+   "weather": "天气",
+   "attrition": "损耗",
+   "encirclement": "包围",
+   "naval invasion": "海军登陆",
+   "convoy": "运输船队",
+   "naval supremacy": "制海权",
+   "air superiority": "制空权",
+   "air wing": "航空队",
+   "cas": "近距空中支援",
+   "close air support": "近距空中支援",
+   "strategic bombing": "战略轰炸",
+   "diplomacy": "外交",
+   "diplomatic": "外交",
+   "faction": "阵营",
+   "guarantee": "保障独立",
+   "non-aggression pact": "互不侵犯条约",
+   "lend-lease": "租借",
+   "volunteer": "志愿军",
+   "expeditionary force": "远征军",
+   "puppet": "傀儡国",
+   "autonomy": "自治度",
+   "occupation": "占领",
+   "compliance": "顺从度",
+   "resistance": "抵抗度",
+   "garrison": "驻军",
+   "trade": "贸易",
+   "intelligence agency": "情报机构",
+   "espionage": "间谍活动",
+   "operative": "特工",
+   "decryption": "解密",
+   "achievement": "成就",
+   "console command": "控制台指令",
+   "modding": "模组制作",
+   "mod": "模组",
+   "patch": "补丁",
+   "downloadable content": "可下载内容",
+   "DLC": "DLC",
+   "focus": "焦点",
+   "decision": "决议",
+   "event": "事件",
+   "mission": "任务",
+   "state": "州",
+   "province": "省份",
+   "victory point": "胜利点",
+   "capitulation": "投降",
+   "peace conference": "和平会议",
+   "war goal": "战争目标",
+   "justify war goal": "制造战争目标",
+   "justification": "战争目标制造",
+   "equipment": "装备",
+   "template": "模板",
+   "designer": "设计商",
+   "ship": "舰船",
+   "tank": "坦克",
+   "aircraft": "飞机",
+   "infantry": "步兵",
+   "motorised": "摩托化",
+   "motorized": "摩托化",
+   "mechanised": "机械化",
+   "mechanized": "机械化",
+   "artillery": "火炮",
+   "anti-air": "防空",
+   "anti-tank": "反坦克",
+   "fighter": "战斗机",
+   "bomber": "轰炸机",
+   "submarine": "潜艇",
+   "destroyer": "驱逐舰",
+   "cruiser": "巡洋舰",
+   "battleship": "战列舰",
+   "carrier": "航空母舰",
+   "airbase": "空军基地",
+   "naval base": "海军基地",
+   "radar": "雷达",
+   "rocket site": "火箭基地",
+   "nuclear": "核",
+   "attache": "武官",
+   "attaché": "武官",
+   "guarantee independence": "保障独立",
+   "high command": "最高统帅部",
+   "theatre": "战区",
+   "theater": "战区",
+   "front line": "前线",
+   "offensive line": "进攻线",
+   "fallback line": "撤退线",
+   "spearhead": "突击",
+   "garrison area": "驻防区域",
+   "conquer": "征服",
+   "annex": "吞并",
+   "release": "释放",
+   "compliance gain": "顺从度增长",
+   "resistance target": "抵抗度目标",
+   "war score": "战争贡献",
+   "great power": "列强",
+   "major power": "主要国家",
+   "minor": "小国",
+   "faction leader": "阵营领袖",
+   "faction member": "阵营成员",
+   "volunteers": "志愿军",
+   "air volunteer": "空军志愿军"
+  },
+  "style": {
+   "register": "游戏指南体，简体中文，简洁直陈，不用敬语，不用『您』。",
+   "numbers": "数字、百分比、游戏内数值原样保留（如 10%、+5%）。",
+   "placeholders": "⟦0⟧ ⟦1⟧ 等占位符必须原样保留且不得增删、不得调换顺序；它们代表图标或链接。",
+   "markup": "不要输出 HTML 标签；保留原文的换行与项目符号结构。",
+   "properNouns": "国家、人物、舰名等专有名词使用通用中文译名（如 German Reich → 德意志国，Adolf Hitler → 阿道夫·希特勒）；Paradox 未汉化的专有名词可保留英文并加中文注释。",
+   "consistency": "同一英文术语在全站必须使用同一译名。"
+  }
+ },
+ "instructions": "Translate every \"en\" string into Simplified Chinese (zh-Hans), game-guide register. Follow glossary.json strictly. Keep ⟦0⟧-style placeholders, numbers, units and wiki markup exactly. Return only {\"items\":[{\"k\":\"...\",\"zh\":\"...\"}]} with the same k values.",
+ "units": [
+  {
+   "k": "eq6iho",
+   "en": "Resources are found in certain locations on the map and are not evenly distributed. Almost always it will be necessary to trade for what is needed."
+  },
+  {
+   "k": "v418x6",
+   "en": "To trade for a resource, click on the name of the country and move the slider to determine how much is being trading for. Resources are typically traded in units of 8. Each trade, unless conducted over land, requires a minimum of 1 convoy vessel plus additional convoys depending on naval distance and total quantity of resources."
+  },
+  {
+   "k": "y5czy7",
+   "en": "Every eight units of a resource imported will also cost a civilian factory, with that productive power going to the nation that is being traded with. Therefore, exports will make a country's industry stronger as civilian factory \"power\" is pulled from other nations, but a lot of imports will make a country weaker due to the loss of civilian factory \"power\". However, it may be necessary to import resources to keep the war machine running at optimal efficiency. Tip: trading with puppets gains considerably more than 8 resources per civilian factory traded."
+  },
+  {
+   "k": "19w165l",
+   "en": "The gray button with the excavator opens the ⟦0⟧ menu. This is where tasks will be assigned to the civilian factories - building infrastructure, new factories, defenses, and so on.",
+   "frags": 1
+  },
+  {
+   "k": "1lhkbd8",
+   "en": "construction"
+  },
+  {
+   "k": "bohwvv",
+   "en": "⟦0⟧ make all the improvements to a State. The number of factories available for construction will depend on the size of the nation, how many factories are being dedicated to providing consumer goods for the country (the Economy Law), and how many factories that are “traded” for strategic resources. The number of civilian factories can be increased by building more, but be careful since each province can only support a certain number of factories. A maximum of fifteen factories can be devoted to a single construction project, and any left over will work on the next item in the queue.",
+   "frags": 1
+  },
+  {
+   "k": "w0z8n2",
+   "en": "Civilian factories"
+  },
+  {
+   "k": "em5jd2",
+   "en": "There are three categories of structure that can be built with civilian factories."
+  },
+  {
+   "k": "1qcq7va",
+   "en": "State structures:"
+  },
+  {
+   "k": "amhgvg",
+   "en": "These constructions improve the state without using up one of the shared building slots. Instead, each type of improvement here has its own level and maximum."
+  },
+  {
+   "k": "6sk3tz",
+   "en": "⟦0⟧: Each state has an infrastructure rating that determines how easy it is to supply units in the state, how quickly military units can move through the state, how quickly shared buildings can be constructed, and increases resource output.",
+   "frags": 1
+  },
+  {
+   "k": "1icrwoe",
+   "en": "Infrastructure"
+  },
+  {
+   "k": "1dczy8j",
+   "en": "⟦0⟧: The larger the air base, the more planes it can effectively field. Air bases house military aircraft.",
+   "frags": 1
+  },
+  {
+   "k": "1qizwbs",
+   "en": "Air base"
+  },
+  {
+   "k": "n7ras9",
+   "en": "⟦0⟧: Helps defend a state from enemy aircraft attempting to strategic bomb installations such as refineries, factories, infrastructure, etc.",
+   "frags": 1
+  },
+  {
+   "k": "2bf5kk",
+   "en": "Anti-air"
+  },
+  {
+   "k": "x9ijjn",
+   "en": "⟦0⟧: Helps the air force detect and engage enemy air wings, increases detection of nearby enemy fleets at sea, and gains intel on enemy troops in nearby states.",
+   "frags": 1
+  },
+  {
+   "k": "hz4b13",
+   "en": "Radar station"
+  },
+  {
+   "k": "s31jtg",
+   "en": "Shared structures:"
+  },
+  {
+   "k": "1n41ox7",
+   "en": "The number of shared structures that can be built is limited by the number of slots available in that State. The number of slots can be increased by researching Industry technologies."
+  },
+  {
+   "k": "15m784w",
+   "en": "⟦0⟧: Used to produce weapons, equipment, planes, and vehicles.",
+   "frags": 1
+  },
+  {
+   "k": "17qtid0",
+   "en": "Military factory"
+  },
+  {
+   "k": "1u7ylhy",
+   "en": "⟦0⟧: Used to produce and improve a nation's military/industrial capacity.",
+   "frags": 1
+  },
+  {
+   "k": "7b3x92",
+   "en": "Civilian factory"
+  },
+  {
+   "k": "d92mo5",
+   "en": "⟦0⟧: Produce synthetic fuel and rubber, especially useful to nations that lack either.",
+   "frags": 1
+  },
+  {
+   "k": "koadgg",
+   "en": "Synthetic refinery"
+  },
+  {
+   "k": "1n2i3h4",
+   "en": "⟦0⟧: Used to produce ships and convoys. Can only be built in coastal states.",
+   "frags": 1
+  },
+  {
+   "k": "4ixk0m",
+   "en": "Naval dockyard"
+  },
+  {
+   "k": "y2zyzd",
+   "en": "⟦0⟧: Locations from which to produce rockets and to launch rocket attacks on nearby nations.",
+   "frags": 1
+  },
+  {
+   "k": "8pq23o",
+   "en": "Rocket site"
+  },
+  {
+   "k": "s0a5d2",
+   "en": "⟦0⟧: Produces nuclear weapons.",
+   "frags": 1
+  },
+  {
+   "k": "1v26vtf",
+   "en": "Nuclear reactor"
+  },
+  {
+   "k": "thcod2",
+   "en": "Province buildings:"
+  },
+  {
+   "k": "bomwwi",
+   "en": "Province buildings are built on the smallest territory size in HoI4, the province."
+  },
+  {
+   "k": "1p4uz05",
+   "en": "⟦0⟧: Stations and repairs ⟦1⟧, and can send and receive supplies and resources via convoys. Each naval base level increases supply capacity and supply throughput.",
+   "frags": 2
+  },
+  {
+   "k": "d7usg0",
+   "en": "Naval base"
+  },
+  {
+   "k": "1v3sovg",
+   "en": "naval fleets"
+  },
+  {
+   "k": "oz6s66",
+   "en": "⟦0⟧: Inflicts an attack penalty of ⟦1⟧ for each fort level on the attacker in combat. Attacking from multiple directions will reduce fort's effect.",
+   "frags": 2
+  },
+  {
+   "k": "5aper1",
+   "en": "Land fort"
+  },
+  {
+   "k": "1k3fbsn",
+   "en": "⟦0⟧: Inflicts an attack penalty of ⟦1⟧ for each fort level on the attacker in naval invasion combat.",
+   "frags": 2
+  },
+  {
+   "k": "1909xd",
+   "en": "Coastal fort"
+  },
+  {
+   "k": "1qq5oa4",
+   "en": "The gray button with the wrench opens the ⟦0⟧ menu. This is where ⟦1⟧ and ⟦2⟧ are assigned to build ⟦3⟧, army vehicles, ⟦4⟧ and ⟦5⟧. The more factories dedicated to building a specific item, the more will be produced. Infantry, armor and artillery units made will then be assigned to the appropriate military divisions, either for new units being constructed or reinforcement and upgrades for units in the field. Excess equipment is left in the national stockpile. Airplanes produced will be deposited into a reserve pool. Naval units will be automatically placed in the highest level naval base, though one can assign a port or fleet if that would be preferable (recommended for the ⟦6⟧ so they don't end up with all new ships stuck in the Black Sea).",
+   "frags": 7
+  },
+  {
+   "k": "171i6g0",
+   "en": "military factories"
+  },
+  {
+   "k": "1hbp52v",
+   "en": "dockyards"
+  },
+  {
+   "k": "1la4po7",
+   "en": "equipment"
+  },
+  {
+   "k": "1weh94j",
+   "en": "aircraft"
+  },
+  {
+   "k": "onnch0",
+   "en": "ships"
+  },
+  {
+   "k": "1og6zc",
+   "en": "Factory output is dependent on the availability of strategic resources for higher end units, and on the efficiency cap of the nation's industry. New production lines will take time to be perfectly efficient, and if factories are added to a production line, some efficiency will be lost. Factory productivity and efficiency can be improved in the Industrial research tree."
+  },
+  {
+   "k": "1e3oqnz",
+   "en": "Recruit and deploy"
+  },
+  {
+   "k": "ay69hu",
+   "en": "The gray button with the tank opens the ⟦0⟧ menu to recruit and deploy units. This is where it is decided what types of ⟦1⟧ are to be trained. These divisions will be filled by the equipment and vehicles built in the production menu. What is required to complete a new unit is shown by hovering over the green progress bars.",
+   "frags": 2
+  },
+  {
+   "k": "1rvll9c",
+   "en": "army planner"
+  },
+  {
+   "k": "96peof",
+   "en": "divisions"
+  },
+  {
+   "k": "sm4puu",
+   "en": "The country starts with a few default divisions that can be built. ⟦0⟧ can be spent to design new division templates or edit ones that already exist.",
+   "frags": 1
+  },
+  {
+   "k": "x63bw0",
+   "en": "Army experience"
+  },
+  {
+   "k": "1tddrbh",
+   "en": "The game starts with reinforcement and upgrades given equal weight with the creation of new units. If it is preferable to focus the energy of new tanks or artillery on fresh units, instead of trickling equipment to the field, reinforcement priorities can be set on this screen as well."
+  },
+  {
+   "k": "ohf6y1",
+   "en": "The gray button with the paper and pen opens the ⟦0⟧ menu. This menu gives an overall summary of stockpiled equipment, whatever shortages the country might have, as well as a rundown of how many strategic resources the country is missing from the production lines.",
+   "frags": 1
+  },
+  {
+   "k": "covocw",
+   "en": "logistics"
+  },
+  {
+   "k": "e7mc2c",
+   "en": "Logistics screen"
+  },
+  {
+   "k": "10dryu3",
+   "en": "The logistics screen provides the general overview of the nation's equipment and resource situation. The center of the screen consists of the equipment, and only shows equipment that is being produced, stockpiled, or used in the nation. The following provides a description of all of the various parts of the screen."
+  },
+  {
+   "k": "1xeskla",
+   "en": "⟦0⟧, which has a above the column, shows the average ⟦1⟧ of all the lines of production producing that type of equipment. The yellow bar inside the area represents the average production efficiency for each equipment type.",
+   "frags": 2
+  },
+  {
+   "k": "1arw07o",
+   "en": "Average production efficiency"
+  },
+  {
+   "k": "1valgln",
+   "en": "production efficiency"
+  },
+  {
+   "k": "1bstkvp",
+   "en": "⟦0⟧, which says 'Equipment Type' above the column, provides the name and a picture of the equipment that is either being produced, stockpiled, or used in the nation.",
+   "frags": 1
+  },
+  {
+   "k": "1mc2ywt",
+   "en": "Equipment type"
+  },
+  {
+   "k": "1avx8io",
+   "en": "⟦0⟧, which has a wrench being held by a hand above the column, shows how much of that particular equipment is being produced per day.",
+   "frags": 1
+  },
+  {
+   "k": "78lthv",
+   "en": "Amount produced"
+  },
+  {
+   "k": "14b0k6q",
+   "en": "⟦0⟧ is the green bar next to the amount produced showing how much of the equipment need is being produced. There is also a slider button that lays on the left if the nation is running a surplus of that equipment each day, and on the right if the nation is running a deficit of that equipment each day.",
+   "frags": 1
+  },
+  {
+   "k": "3pd73",
+   "en": "Status"
+  },
+  {
+   "k": "lf7aa2",
+   "en": "⟦0⟧, with a hand at the top of the column, is how much of that equipment the nation needs each day.",
+   "frags": 1
+  },
+  {
+   "k": "1vg5f65",
+   "en": "Need"
+  },
+  {
+   "k": "i2urmc",
+   "en": "⟦0⟧ is the surplus or deficit being ran each day by the country, represented by a scale at the top of the column. If the nation is running a surplus, it will say ⟦1⟧, but if it is running a deficit, ⟦2⟧.",
+   "frags": 3
+  },
+  {
+   "k": "kxxksr",
+   "en": "Balance"
+  },
+  {
+   "k": "17v7sjq",
+   "en": "+Amount"
+  },
+  {
+   "k": "bokgw4",
+   "en": "-Amount"
+  },
+  {
+   "k": "3u1e1q",
+   "en": "⟦0⟧ is the stockpile of the nation. It will be in ⟦1⟧ with the stockpiled amount if the nation has extra of that equipment, and will show ⟦2⟧ with the amount missing from the nation, such as the amount needed to reinforce, equip new units, or, for convoys, how much is needed for current trade.",
+   "frags": 3
+  },
+  {
+   "k": "ia1hum",
+   "en": "Stored"
+  },
+  {
+   "k": "b5mm4",
+   "en": "green"
+  },
+  {
+   "k": "i0tgik",
+   "en": "red"
+  },
+  {
+   "k": "8be7nj",
+   "en": "⟦0⟧ shows the ⟦1⟧ that the production line is currently using to produce that equipment. If none of that equipment is being produced, it will not show the resources.",
+   "frags": 2
+  },
+  {
+   "k": "15g8w42",
+   "en": "Resources"
+  },
+  {
+   "k": "15hbm8c",
+   "en": "The bottom of the screen includes extra information."
+  },
+  {
+   "k": "1qrlahf",
+   "en": "⟦0⟧ has a green bar indicating the percentage of the nation's military factories that are currently in use.",
+   "frags": 1
+  },
+  {
+   "k": "182gqps",
+   "en": "Military factories"
+  },
+  {
+   "k": "1qccufh",
+   "en": "⟦0⟧, like military factories to the left of it, shows the percentage of the country's naval dockyards that are in use.",
+   "frags": 1
+  },
+  {
+   "k": "14o5cov",
+   "en": "Naval dockyards"
+  },
+  {
+   "k": "1g6oa0e",
+   "en": "The six icons to the right hand corner show ⟦0⟧, ⟦1⟧, ⟦2⟧, ⟦3⟧, ⟦4⟧, and ⟦5⟧. Next to each icon will be either a ⟦6⟧ number showing the nation's surplus of that resource, or a ⟦7⟧ negative number showing that nation's deficit of the resource.",
+   "frags": 8
+  },
+  {
+   "k": "1i603sr",
+   "en": "oil"
+  },
+  {
+   "k": "e5eu0r",
+   "en": "rubber"
+  },
+  {
+   "k": "3lx150",
+   "en": "steel"
+  },
+  {
+   "k": "1wv2xgb",
+   "en": "aluminum"
+  },
+  {
+   "k": "i88ohp",
+   "en": "tungsten"
+  },
+  {
+   "k": "ug1lf5",
+   "en": "chromium"
+  },
+  {
+   "k": "1qffhez",
+   "en": "Stockpile screen"
+  },
+  {
+   "k": "1uljc3w",
+   "en": "The stockpile screen is accessed by clicking on any of the equipment on the logistics screen. The graph in the center of the screen shows the change in the stockpile over the previous ⟦0⟧, ⟦1⟧, or ⟦2⟧, each of which have a corresponding button above the graph. The change is represent by a ⟦3⟧ line, and the X-axis of the graph is the time variable, while the Y-axis is the stockpile variable. Below that is a mini overview of the equipment, which shows the variants of that equipment (i.e. Basic Infantry Equipment vs. Weapons I) and the amount stored of each variant and weekly production of each variant.",
+   "frags": 4
+  },
+  {
+   "k": "xy0wl5",
+   "en": "30 days"
+  },
+  {
+   "k": "18wcw8h",
+   "en": "12 months"
+  },
+  {
+   "k": "1pzqi84",
+   "en": "7 years"
+  },
+  {
+   "k": "12hrypi",
+   "en": "The gray button at the top of the screen marked with a hat opens the ⟦0⟧ menu. This menu gives an overall summary of your command power allocation and allows management of military leadership in addition to unlocking military spirits, military doctrines, and preferred tactics.",
+   "frags": 1
+  },
+  {
+   "k": "o29naq",
+   "en": "Controlling the army"
+  },
+  {
+   "k": "antaum",
+   "en": "Main article: Warfare"
+  },
+  {
+   "k": "3c1j6a",
+   "en": "Move units by selecting them with the left mouse button and then clicking their destination with the right mouse button. Draw a box around a group of units using left click and drag, to select all units inside the box and issue commands to them. To move troops across the ocean to friendly territory, first send the units to a province with a naval port and then shift-click on the destination port. Click on the Army View icon under the date or press the hotkey \"o\" to display an overview of all divisions, including indications of their combat status. Right-click on a division's info bar to pan over to it or hold down shift and left click on multiple units to select them all."
+  },
+  {
+   "k": "1wl0pja",
+   "en": "Troops are more effective when they are grouped into armies under a ⟦0⟧'s command and given plans to execute.",
+   "frags": 1
+  },
+  {
+   "k": "45hxxh",
+   "en": "commander"
+  },
+  {
+   "k": "ow9i4v",
+   "en": "Creating command groups/armies"
+  },
+  {
+   "k": "kgvz3u",
+   "en": "Main article: Commander"
+  },
+  {
+   "k": "gfdykx",
+   "en": "You can create ⟦0⟧ of units by selecting a group of them and then clicking on the silhouetted portrait or green plus sign at the bottom of the screen. Then, go to the selected unit profile in the upper left and click on the silhouetted portrait. This will open up the list of generals you can assign to armies. There are two types of military leaders – generals and field marshals, both of whom can normally only effectively command 24 units; but some up to 32. Commanders may also have attributes that give them bonuses in certain types of combat situations. If one promotes a general to field marshal, they lose their attributes (except \"old guard\") as field marshals have different attributes.",
+   "frags": 1
+  },
+  {
+   "k": "n8lgq8",
+   "en": "armies"
+  },
+  {
+   "k": "zy6ar7",
+   "en": "Experience and giving orders"
+  },
+  {
+   "k": "binsbl",
+   "en": "Countries will gain ⟦0⟧ mostly through combat, but one can start a trickle of early experience by having soldiers \"exercise\". To do this, select the army group. A Battle Plans toolbar will appear; click the exercise button in the far left of the toolbar. Be aware that this results in higher equipment attrition, which may not be desirable as a country with limited industrial capacity.",
+   "frags": 1
+  },
+  {
+   "k": "916qq8",
+   "en": "army experience"
+  },
+  {
+   "k": "l6emk4",
+   "en": "You can spend experience to promote generals and allowing them to lead more troops, or to create and edit new division types in the unit ⟦0⟧ menu.",
+   "frags": 1
+  },
+  {
+   "k": "1c0u7ky",
+   "en": "An army group can be commanded like any other group of units and by giving a right-click move order to a destination. However, they will fight better if they are given \"⟦0⟧\" – a general order that is coordinated along a front, either to advance or defend.",
+   "frags": 1
+  },
+  {
+   "k": "127nmwz",
+   "en": "battle plans"
+  },
+  {
+   "k": "18a05fp",
+   "en": "When you select an army group, a row of general orders is displayed at the bottom of their screen - the aforementioned Battle Plans toolbar. Each of these has a popup text that explains in detail how to use the instruction. This guide will focus on the most important ones."
+  },
+  {
+   "k": "1q2gtxw",
+   "en": "⟦0⟧: Use this for amphibious attacks on enemy territory. (You can move into friendly territory this way, but it is more efficient to simply use port to port movement as described above.)",
+   "frags": 1
+  },
+  {
+   "k": "15qthzq",
+   "en": "Naval invasion"
+  },
+  {
+   "k": "rzkwni",
+   "en": "If you select naval invasion, you will be asked to left-click on an origin point. This is where the army will gather for the assault. Right click on the enemy province you want to invade. Note that you will need to have some naval intelligence of every sea lane they will be crossing, so you will have to have warships patrolling or hold naval superiority in those sea areas."
+  },
+  {
+   "k": "5y97zy",
+   "en": "All plans take time, and amphibious invasions take a lot of time to plan. Once the weeks (or months) of preparation are ready, the grey arrow above the army group will turn a faded green. Click that arrow to activate the plan."
+  },
+  {
+   "k": "1l0zrig",
+   "en": "⟦0⟧: To make a ⟦1⟧ for offensive land operations, you must first define one's defensive front – this is the point from which the army group will begin their operations. Select the defensive front button and, on the map, draw a line to indicate where an army group will start. (In many cases, this will be a national border or the current line dividing enemy armies). Then, click the offensive front button (a line with an arrow) and draw the front to where the armies should advance.",
+   "frags": 2
+  },
+  {
+   "k": "i8lv22",
+   "en": "Land operations"
+  },
+  {
+   "k": "ff0v36",
+   "en": "battle plan"
+  },
+  {
+   "k": "x7g4cv",
+   "en": "The army group units will begin to organize themselves along their defensive front. When they are in place and you are ready to begin, click the green arrow and the units will begin to execute the plan."
+  },
+  {
+   "k": "1ip74xt",
+   "en": "You can research ⟦0⟧ and hire advisors that will reduce the time for a military plan to be prepared or add bonuses to units that are operating with a plan.",
+   "frags": 1
+  },
+  {
+   "k": "6an72c",
+   "en": "doctrines"
+  },
+  {
+   "k": "wefcd7",
+   "en": "Controlling the navy"
+  },
+  {
+   "k": "34f1ti",
+   "en": "⟦0⟧ will be automatically grouped into fleets at ports as they are constructed. If you do not like the way fleets are organized, drag-and-drop silhouettes of ships from one fleet to another.",
+   "frags": 1
+  },
+  {
+   "k": "1yn5uv8",
+   "en": "Ships"
+  },
+  {
+   "k": "1iomt02",
+   "en": "Assign ⟦0⟧ to your fleets by clicking on the silhouetted portrait and choosing from available naval commanders. You may recruit new admirals for the fleets. Like generals, admirals may have skills that are assets in particular battle situations or while commanding certain types of vessels. Admirals normally have a maximum amount of 10 fleets to lead.",
+   "frags": 1
+  },
+  {
+   "k": "1jukle",
+   "en": "commanders"
+  }
+ ]
+}
