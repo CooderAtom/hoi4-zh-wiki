@@ -170,27 +170,39 @@
     });
   }
 
-  /* ---------- 窄屏侧边栏折叠 ----------
-     在手机上侧边栏有 2000px 以上高，正文被顶到很下面。窄屏时把它挪到正文之后（CSS order），
-     并把每个 <h3> 分组折成可展开项，默认全部收起、只展开当前页所在的那一组。 */
-  (function collapseSidebarOnNarrow() {
+  /* ---------- 窄屏导航抽屉 ----------
+     侧边栏在手机上有 2000px 以上高。原先只把它折到正文之后，用户必须一路滚到底才能找到
+     导航，等于进不去。改为：窄屏时它变成左侧滑出的抽屉，配一个常驻的「目录」按钮与遮罩，
+     点按钮/遮罩/Esc/链接都能开关；宽屏保持原样（侧边栏仍是正文左侧的一列）。
+     侧边栏始终留在 DOM 原位——移动它会破坏外层布局。分组折叠只在抽屉内启用。 */
+  (function navDrawerOnNarrow() {
     var mq = window.matchMedia('(max-width: 900px)');
     var sidebar = document.querySelector('.sidebar');
     if (!sidebar) return;
-    var stashed = null;
 
-    function collapse() {
-      if (stashed) return;
+    var backdrop = document.createElement('div');
+    backdrop.className = 'sb-backdrop';
+    document.body.appendChild(backdrop);
+
+    var toggle = document.createElement('button');
+    toggle.type = 'button';
+    toggle.className = 'nav-toggle';
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.innerHTML = '<span aria-hidden="true">☰</span> 目录';
+    document.body.appendChild(toggle);
+
+    var stashed = null, grouped = false;
+
+    function group() {
+      if (grouped) return;
       stashed = document.createDocumentFragment();
       while (sidebar.firstChild) stashed.appendChild(sidebar.firstChild);
 
       var groups = [], cur = null;
       Array.prototype.forEach.call(stashed.childNodes, function (node) {
-        var isH3 = node.nodeType === 1 && node.tagName === 'H3';
-        if (isH3) { cur = { heading: node, body: [] }; groups.push(cur); }
+        if (node.nodeType === 1 && node.tagName === 'H3') { cur = { heading: node, body: [] }; groups.push(cur); }
         else if (cur) cur.body.push(node);
       });
-
       groups.forEach(function (g) {
         var d = document.createElement('details');
         d.className = 'sb-group';
@@ -198,21 +210,45 @@
         s.textContent = g.heading.textContent;
         d.appendChild(s);
         g.body.forEach(function (n) { d.appendChild(n); });
-        if (d.querySelector('a.cur')) d.open = true;
+        if (d.querySelector('a.cur')) d.open = true;   // 只展开当前页所在分组
         sidebar.appendChild(d);
       });
+      grouped = true;
     }
 
-    function expand() {
-      if (!stashed) return;
+    function ungroup() {
+      if (!grouped || !stashed) return;
       while (sidebar.firstChild) sidebar.removeChild(sidebar.firstChild);
       sidebar.appendChild(stashed);
       stashed = null;
+      grouped = false;
     }
 
-    function apply() { if (mq.matches) collapse(); else expand(); }
+    function close() {
+      document.body.classList.remove('sb-open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+    function open() {
+      document.body.classList.add('sb-open');
+      toggle.setAttribute('aria-expanded', 'true');
+    }
+
+    toggle.addEventListener('click', function () {
+      if (document.body.classList.contains('sb-open')) close(); else open();
+    });
+    backdrop.addEventListener('click', close);
+    sidebar.addEventListener('click', function (e) {
+      if (e.target && e.target.tagName === 'A') close();   // 点链接后收起抽屉
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') close();
+    });
+
+    function apply() {
+      if (mq.matches) group(); else ungroup();
+      close();
+    }
     apply();
-    // Safari < 14 lacks addEventListener on MediaQueryList
     if (mq.addEventListener) mq.addEventListener('change', apply);
     else if (mq.addListener) mq.addListener(apply);
   })();
