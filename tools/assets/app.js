@@ -169,4 +169,51 @@
       if (ol) ol.style.display = ol.style.display === 'none' ? '' : 'none';
     });
   }
+
+  /* ---------- 窄屏侧边栏折叠 ----------
+     在手机上侧边栏有 2000px 以上高，正文被顶到很下面。窄屏时把它挪到正文之后（CSS order），
+     并把每个 <h3> 分组折成可展开项，默认全部收起、只展开当前页所在的那一组。 */
+  (function collapseSidebarOnNarrow() {
+    var mq = window.matchMedia('(max-width: 900px)');
+    var sidebar = document.querySelector('.sidebar');
+    if (!sidebar) return;
+    var stashed = null;
+
+    function collapse() {
+      if (stashed) return;
+      stashed = document.createDocumentFragment();
+      while (sidebar.firstChild) stashed.appendChild(sidebar.firstChild);
+
+      var groups = [], cur = null;
+      Array.prototype.forEach.call(stashed.childNodes, function (node) {
+        var isH3 = node.nodeType === 1 && node.tagName === 'H3';
+        if (isH3) { cur = { heading: node, body: [] }; groups.push(cur); }
+        else if (cur) cur.body.push(node);
+      });
+
+      groups.forEach(function (g) {
+        var d = document.createElement('details');
+        d.className = 'sb-group';
+        var s = document.createElement('summary');
+        s.textContent = g.heading.textContent;
+        d.appendChild(s);
+        g.body.forEach(function (n) { d.appendChild(n); });
+        if (d.querySelector('a.cur')) d.open = true;
+        sidebar.appendChild(d);
+      });
+    }
+
+    function expand() {
+      if (!stashed) return;
+      while (sidebar.firstChild) sidebar.removeChild(sidebar.firstChild);
+      sidebar.appendChild(stashed);
+      stashed = null;
+    }
+
+    function apply() { if (mq.matches) collapse(); else expand(); }
+    apply();
+    // Safari < 14 lacks addEventListener on MediaQueryList
+    if (mq.addEventListener) mq.addEventListener('change', apply);
+    else if (mq.addListener) mq.addListener(apply);
+  })();
 })();

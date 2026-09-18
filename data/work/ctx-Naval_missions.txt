@@ -1,0 +1,285 @@
+PAGE Naval_missions  —  109 English text nodes in 58 block units
+
+
+----- BLOCK (read this as one sentence) -----
+Naval任务 can be assigned to task forces to govern their behavior. Each mission has a corresponding 快捷键.
+   [p] "can be assigned to task forces to govern their behavior. Each mission has a corresponding"
+
+----- BLOCK (read this as one sentence) -----
+Although missions can be assigned at the task force level, the operating area for the mission is defined at the fleet level by assigning regions.
+   [p] "Although missions can be assigned at the task force level, the operating area for the mission is defined at the fleet level by"
+   [a] "assigning regions"
+
+----- BLOCK (read this as one sentence) -----
+When task force(s) are performing a mission in their fleet's assigned regions, an icon will be visible in the center of each of these 战略地区. The icon represents the mission being performed. Below the icon is a number, which represents the number of task forces performing the mission in this region. If the cursor is placed over this number, a tooltip will appear which provides further information about the mission.
+   [p] "When task force(s) are performing a mission in their fleet's assigned regions, an icon will be visible in the center of each of these"
+   [p] ". The icon represents the mission being performed. Below the icon is a number, which represents the number of task forces performing the mission in this region. If the cursor is placed over this number, a tooltip will appear which provides further information about the mission."
+
+----- BLOCK (read this as one sentence) -----
+Naval exercises
+   [span] "Naval exercises"
+
+----- BLOCK (read this as one sentence) -----
+A task force assigned to the naval exercises mission will perform exercises in the region adjacent to the nearest port. 海军经验 will continually be gained while ships are performing this mission.
+   [p] "A task force assigned to the"
+   [p] "mission will perform exercises in the region adjacent to the nearest port."
+   [p] "will continually be gained while ships are performing this mission."
+   [i] "naval exercises"
+
+----- BLOCK (read this as one sentence) -----
+Ships performing this mission will:
+   [p] "Ships performing this mission will:"
+
+----- BLOCK (read this as one sentence) -----
+Gain experience each day until they reach the 'Regular' level.
+   [li] "Gain experience each day until they reach the 'Regular' level."
+
+----- BLOCK (read this as one sentence) -----
+Consume 燃料 at 60%[1] of their normal rate of fuel consumption.
+   [li] "Consume"
+   [li] "at 60%"
+   [li] "of their normal rate of fuel consumption."
+
+----- BLOCK (read this as one sentence) -----
+Have a chance of incurring damage due to accidents.
+   [li] "Have a chance of incurring damage due to accidents."
+
+----- BLOCK (read this as one sentence) -----
+Provide a small amount of 海军经验 each day.
+   [li] "Provide a small amount of"
+   [li] "each day."
+
+----- BLOCK (read this as one sentence) -----
+A task force assigned to the 巡逻 mission will search for enemy ships. A single task force can only patrol a single strategic region at once, so multiple task forces are required to patrol multiple regions.
+   [p] "A task force assigned to the"
+   [p] "mission will search for enemy ships. A single task force can only patrol a single strategic region at once, so multiple task forces are required to patrol multiple regions."
+
+----- BLOCK (read this as one sentence) -----
+When enemy ship(s) have been found, the patrolling task force will gradually gather information about the enemy force. This process is called spotting, and its progress is measured as a percentage which is visible in a tooltip. When the enemy force is 100% spotted, it becomes possible to engage them in battle.
+   [p] "When enemy ship(s) have been found, the patrolling task force will gradually gather information about the enemy force. This process is called"
+   [p] ", and its progress is measured as a percentage which is visible in a tooltip. When the enemy force is 100% spotted, it becomes possible to engage them in battle."
+   [i] "spotting"
+
+----- BLOCK (read this as one sentence) -----
+Spotting
+   [span] "Spotting"
+
+----- BLOCK (read this as one sentence) -----
+The spotting progress starts at base spotting chance and increases by hourly change until it reaches 100%. If the hourly change would be zero or negative, the task force can't spot that enemy. The patrol can only start spotting enemy submarine forces with a probability of:[2]
+   [p] "The spotting progress starts at"
+   [p] "and increases by"
+   [p] "until it reaches 100%. If the hourly change would be zero or negative, the task force can't spot that enemy. The patrol can only start spotting enemy submarine forces with a probability of:"
+   [i] "base spotting chance"
+   [i] "hourly change"
+
+----- BLOCK (read this as one sentence) -----
+hourly spotting chance=5\%· (2· hourly change+0.5· (base spotting chance)^1.5)
+   [span] "hourly spotting chance=5\\%· (2· hourly change+0.5· (base spotting chance)^1.5)"
+
+----- BLOCK (read this as one sentence) -----
+A patrol can only spot one enemy task force at a time and vice versa.
+   [p] "A patrol can only spot one enemy task force at a time and vice versa."
+
+----- BLOCK (read this as one sentence) -----
+Engaging the enemy
+   [span] "Engaging the enemy"
+
+----- BLOCK (read this as one sentence) -----
+After an enemy force is fully spotted, the patrolling task force may choose to engage the enemy immediately, depending upon their assigned 交战规则. Any strike forces assigned to the region (regardless of their parent fleet) may also choose to leave port and engage the enemy, depending upon their own engagement rules.
+   [p] "assigned to the region (regardless of their parent fleet) may also choose to leave port and engage the enemy, depending upon their own engagement rules."
+   [a] "strike forces"
+
+----- BLOCK (read this as one sentence) -----
+If the patrolling task force is set to 'Never engage', it will avoid battle until the summoned strike force arrives, and it will begin disengaging immediately after the battle starts.
+   [p] "If the patrolling task force is set to 'Never engage', it will avoid battle until the summoned strike force arrives, and it will begin disengaging immediately after the battle starts."
+
+----- BLOCK (read this as one sentence) -----
+Strike force
+   [span] "Strike force"
+
+----- BLOCK (read this as one sentence) -----
+A task force assigned to the 打击舰队 mission can automatically intercept and engage enemy forces within their fleet's assigned regions, 晚于 an enemy force has been fully spotted by a patrolling task force belonging to the same country. The strike force does not need to be in the same fleet as the patrolling task force in order for this coordination to occur.
+   [p] "A task force assigned to the"
+   [p] "mission can automatically intercept and engage enemy forces within their fleet's assigned regions,"
+   [p] "an enemy force has been fully spotted by a"
+   [p] "task force belonging to the same country. The strike force does not need to be in the same fleet as the patrolling task force in order for this coordination to occur."
+   [a] "patrolling"
+
+----- BLOCK (read this as one sentence) -----
+When not intercepting enemy forces, a strike force will remain in port to conserve 燃料.
+   [p] "When not intercepting enemy forces, a strike force will remain in port to conserve"
+
+----- BLOCK (read this as one sentence) -----
+A strike force will only choose to intercept and engage a spotted enemy force if their 交战规则 permits it. An engagement rule of 'Never engage' would cause a strike force to remain in port indefinitely, while an engagement rule of 'Always engage' would allow a strike force to intercept and engage an enemy force regardless of its strength.
+   [p] "A strike force will only choose to intercept and engage a spotted enemy force if their"
+   [p] "permits it. An engagement rule of 'Never engage' would cause a strike force to remain in port indefinitely, while an engagement rule of 'Always engage' would allow a strike force to intercept and engage an enemy force regardless of its strength."
+
+----- BLOCK (read this as one sentence) -----
+When a strike force has left port to intercept an enemy force, the player can still manually order the strike force to stop intercepting and return to port, e.g. if the enemy force appears too strong for the strike force to safely handle.
+   [p] "When a strike force has left port to intercept an enemy force, the player can still manually order the strike force to stop intercepting and return to port, e.g. if the enemy force appears too strong for the strike force to safely handle."
+
+----- BLOCK (read this as one sentence) -----
+Although a strike force can be assigned to cover a wide area, it may not arrive in time to engage the enemy if the spotted enemy force is far from the strike force's port.
+   [p] "Although a strike force can be assigned to cover a wide area, it may not arrive in time to engage the enemy if the spotted enemy force is far from the strike force's port."
+
+----- BLOCK (read this as one sentence) -----
+Convoy escort
+   [span] "Convoy escort"
+
+----- BLOCK (read this as one sentence) -----
+A task force assigned to the 运输船队护航 mission will protect 运输船队 belonging to the player or their allies if they are attacked. This protection is extended to all of the fleet's assigned regions, although the number of regions that can be efficiently protected depends upon the number and size of task forces performing the mission within a given fleet. Along with other important information, this maximum number of regions is visible when the cursor is hovered over the convoy escort mission icon in the center of any region where the mission is taking place.
+   [p] "A task force assigned to the"
+
+----- BLOCK (read this as one sentence) -----
+When the 战略海军地图模式 is selected, existing convoy routes are shown on the map. This can be useful for determining which strategic regions require convoy escort coverage.
+   [p] "When the"
+   [p] "is selected, existing convoy routes are shown on the map. This can be useful for determining which strategic regions require convoy escort coverage."
+
+----- BLOCK (read this as one sentence) -----
+It is worth noting that troop transfers across water are performed using convoys, and can be protected through this mission like any other convoy. However, when troop transfers are being performed automatically as part of a 海军登陆 order, the naval invasion support mission may be a more appropriate choice.
+   [p] "mission may be a more appropriate choice."
+   [a] "naval invasion support"
+
+----- BLOCK (read this as one sentence) -----
+护航效率 is an important metric in relation to convoy escort missions. When escort efficiency is 100% among task forces within a given fleet, one of these task forces will instantly come to the defense of any convoys under attack within the fleet's assigned regions. If escort efficiency falls below 100%, some or all of the defending ships will arrive late to the battle when friendly convoys are attacked, increasing the likelihood of convoys being destroyed by the attackers.
+   [p] "is an important metric in relation to convoy escort missions. When escort efficiency is 100% among task forces within a given fleet, one of these task forces will instantly come to the defense of any convoys under attack within the fleet's assigned regions. If escort efficiency falls below 100%, some or all of the defending ships will arrive late to the battle when friendly convoys are attacked, increasing the likelihood of convoys being destroyed by the attackers."
+
+----- BLOCK (read this as one sentence) -----
+To achieve 100% escort efficiency, there must be sufficient ships and task forces performing the convoy escort mission to cover the strategic regions which have been assigned to their fleet.
+   [p] "To achieve 100% escort efficiency, there must be sufficient ships and task forces performing the convoy escort mission to cover the strategic regions which have been assigned to their fleet."
+
+----- BLOCK (read this as one sentence) -----
+Ships with minelaying equipment can be assigned to minelaying missions during wartime. They will continue adding mines to each assigned strategic region until 1000[3] mines have been laid in each region, at which point the regions are considered to be fully saturated with mines.
+   [p] "Ships with minelaying equipment can be assigned to"
+   [p] "missions during wartime. They will continue adding mines to each assigned strategic region until 1000"
+   [p] "mines have been laid in each region, at which point the regions are considered to be fully saturated with mines."
+   [i] "minelaying"
+
+----- BLOCK (read this as one sentence) -----
+Mines will be laid in all assigned regions at the same time. The rate of minelaying per region depends upon the number of ships in the fleet which are part of minelaying task forces, and the number of regions which have been assigned to the fleet. Each additional region beyond the first causes a reduction in minelaying rate per region.
+   [p] "Mines will be laid in all assigned regions at the same time. The rate of minelaying per region depends upon the number of ships in the fleet which are part of minelaying task forces, and the number of regions which have been assigned to the fleet. Each additional region beyond the first causes a reduction in minelaying rate per region."
+
+----- BLOCK (read this as one sentence) -----
+As mines are laid, some mines will graphically become visible on the map. While either the strategic air or navy map mode is selected, hovering the cursor over a region containing mines will show the number of mines that have been laid, along with the number of enemy ships damaged or sunk by the mines.
+   [p] "As mines are laid, some mines will graphically become visible on the map. While either the strategic air or navy map mode is selected, hovering the cursor over a region containing mines will show the number of mines that have been laid, along with the number of enemy ships damaged or sunk by the mines."
+
+----- BLOCK (read this as one sentence) -----
+Effects of mines
+   [span] "Effects of mines"
+
+----- BLOCK (read this as one sentence) -----
+The following effects apply to each mined strategic region, scaled according to the quantity of mines:
+   [p] "The following effects apply to each mined strategic region, scaled according to the quantity of mines:"
+
+----- BLOCK (read this as one sentence) -----
+Bonus (+variable increase) to naval supremacy for the owner of the mines.
+   [li] "Bonus ("
+   [li] ") to naval supremacy for the owner of the mines."
+   [b] "+variable increase"
+
+----- BLOCK (read this as one sentence) -----
+对敌方舰船的惩罚（这些惩罚不适用于friendly舰船）：Increased chance of accidents up to +5%.[4] Naval accidents from mines can do far more damage than from other types of accidents. Decreased speed up to 0%[4] as mines no longer affect ship speed Invasion penalty up to +50%[4]
+   [i] "friendly"
+
+----- BLOCK (read this as one sentence) -----
+Increased chance of accidents up to +5%.[4] Naval accidents from mines can do far more damage than from other types of accidents.
+   [li] "Increased chance of"
+   [li] "up to"
+   [li] "Naval accidents from mines can do far more damage than from other types of accidents."
+   [a] "accidents"
+
+----- BLOCK (read this as one sentence) -----
+Decreased speed up to 0%[4] as mines no longer affect ship speed
+   [li] "Decreased speed up to"
+   [li] "as mines no longer affect ship speed"
+
+----- BLOCK (read this as one sentence) -----
+Invasion penalty up to +50%[4]
+   [li] "Invasion penalty up to"
+
+----- BLOCK (read this as one sentence) -----
+When equipped with 扫雷装备, destroyers can be assigned to 扫雷 missions during wartime. These ships will continue removing mines from their assigned strategic regions until they are fully clear of mines.
+   [p] "When equipped with"
+   [p] ", destroyers can be assigned to"
+   [p] "missions during wartime. These ships will continue removing mines from their assigned strategic regions until they are fully clear of mines."
+
+----- BLOCK (read this as one sentence) -----
+Naval invasion support
+   [span] "Naval invasion support"
+
+----- BLOCK (read this as one sentence) -----
+Task forces assigned to the naval invasion support mission will escort convoys which are ferrying friendly troops to perform a 海军登陆. Once these convoys have arrived at their destination safely, the assigned task forces will hold position adjacent to the landing site to provide support via 舰炮支援 as long as a battle is taking place. If there's no battle or the battle is over, those task forces will return to their home port.
+   [p] "Task forces assigned to the"
+   [p] "mission will escort convoys which are ferrying friendly troops to perform a"
+   [p] ". Once these convoys have arrived at their destination safely, the assigned task forces will hold position adjacent to the landing site to provide support via"
+   [p] "as long as a battle is taking place. If there's no battle or the battle is over, those task forces will return to their home port."
+   [i] "naval invasion support"
+
+----- BLOCK (read this as one sentence) -----
+Task forces can be ordered to hold in two different ways:
+   [p] "Task forces can be ordered to"
+   [p] "in two different ways:"
+   [i] "hold"
+
+----- BLOCK (read this as one sentence) -----
+Clicking the hold button cancels the current mission and moves the task force to the closest friendly port.
+   [li] "cancels the current mission and moves the task force to the closest friendly port."
+   [i] "Clicking the hold button"
+
+----- BLOCK (read this as one sentence) -----
+Clicking the hold button while holding down ^Ctrl cancels the current mission and makes the task force stay in its current province. A task force on hold doesn't consume fuel. When positioned on a sea province, it can block connections (visible as broken red lines across the water) between land provinces, to prevent enemy land units from moving between them.
+   [i] "Clicking the hold button while holding down"
+   [i] "cancels the current mission and makes the task force stay in its current province. A task force on hold doesn't consume fuel. When positioned on a sea province, it can block connections (visible as broken red lines across the water) between land provinces, to prevent enemy land units from moving between them."
+   [kbd] "^Ctrl"
+
+----- BLOCK (read this as one sentence) -----
+If surface ships are on hold in a province adjacent to a land battle involving enemy divisions, the ships will automatically perform 舰炮支援 to reduce the enemy's attack and defense.
+   [p] "If surface ships are on hold in a province adjacent to a land battle involving enemy divisions, the ships will automatically perform"
+   [p] "to reduce the enemy's attack and defense."
+
+----- BLOCK (read this as one sentence) -----
+The magnitude of this effect is determined by the firepower of the ships involved: each point of heavy gun damage contributes -0.05%[5] to enemy attack and defense, while each point of light gun damage contributes -0.025%[6]. Total reduction from shore bombardment is capped at -33%[7]. Naval shore bombardment can also critically hit, causing severe damage to forts and coastal forts during combat.
+   [p] "The magnitude of this effect is determined by the firepower of the ships involved: each point of heavy gun damage contributes"
+   [p] "to enemy attack and defense, while each point of light gun damage contributes"
+   [p] ". Total reduction from shore bombardment is capped at"
+   [p] ". Naval shore bombardment can also critically hit, causing severe damage to forts and coastal forts during combat."
+
+----- BLOCK (read this as one sentence) -----
+The Naval Liaison 将领 trait and the 对地攻击专家 海军上将 trait increase shore bombardment, but not beyond the -33% cap.
+   [p] "The"
+   [span] "Naval Liaison"
+
+----- BLOCK (read this as one sentence) -----
+↑ NDefines.NNavy.MISSION_FUEL_COSTS[8] = 0.6 中的 定义文件。
+   [code] "NDefines.NNavy.MISSION_FUEL_COSTS[8] = 0.6"
+
+----- BLOCK (read this as one sentence) -----
+↑ NDefines.NNavy.SUB_DETECTION_CHANCE_BASE = 5、NDefines.NNavy.SUB_DETECTION_CHANCE_SPOTTING_SPEED_EFFECT = 2、NDefines.NNavy.SUB_DETECTION_CHANCE_BASE_SPOTTING_EFFECT = 0.5和NDefines.NNavy.SUB_DETECTION_CHANCE_BASE_SPOTTING_POW_EFFECT = 1.5位于定义文件。
+   [code] "NDefines.NNavy.SUB_DETECTION_CHANCE_BASE = 5"
+   [code] "NDefines.NNavy.SUB_DETECTION_CHANCE_SPOTTING_SPEED_EFFECT = 2"
+   [code] "NDefines.NNavy.SUB_DETECTION_CHANCE_BASE_SPOTTING_EFFECT = 0.5"
+   [code] "NDefines.NNavy.SUB_DETECTION_CHANCE_BASE_SPOTTING_POW_EFFECT = 1.5"
+
+----- BLOCK (read this as one sentence) -----
+↑ NDefines.NNavy.NAVAL_MINES_IN_REGION_MAX = 1000 中的 定义文件。
+   [code] "NDefines.NNavy.NAVAL_MINES_IN_REGION_MAX = 1000"
+
+----- BLOCK (read this as one sentence) -----
+↑ 4.0 4.1 4.2 naval_mines_effect modifier from game file \Hearts of Iron IV\common\modifiers\00_static_modifiers.txt
+   [span] "naval_mines_effect modifier from game file \\Hearts of Iron IV\\common\\modifiers\\00_static_modifiers.txt"
+
+----- BLOCK (read this as one sentence) -----
+↑ NDefines.NNavy.HEAVY_GUN_ATTACK_TO_SHORE_BOMBARDMENT = 0.05 中的 定义文件。
+   [code] "NDefines.NNavy.HEAVY_GUN_ATTACK_TO_SHORE_BOMBARDMENT = 0.05"
+
+----- BLOCK (read this as one sentence) -----
+↑ NDefines.NNavy.LIGHT_GUN_ATTACK_TO_SHORE_BOMBARDMENT = 0.025 中的 定义文件。
+   [code] "NDefines.NNavy.LIGHT_GUN_ATTACK_TO_SHORE_BOMBARDMENT = 0.025"
+
+----- BLOCK (read this as one sentence) -----
+↑ NDefines.NNavy.SHORE_BOMBARDMENT_CAP = 0.33 中的 定义文件。
+   [code] "NDefines.NNavy.SHORE_BOMBARDMENT_CAP = 0.33"
+
+----- BLOCK (read this as one sentence) -----
+本资料库内容译自 Hearts of Iron IV Wiki（Paradox Interactive 社区维基），原文以 CC BY-SA 3.0 授权发布，译文沿用同一授权。仅供个人离线学习，与 Paradox Interactive 无隶属关系。
+   [a] "Hearts of Iron IV Wiki"

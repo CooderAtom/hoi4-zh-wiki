@@ -1,0 +1,138 @@
+{
+ "page": "Navy",
+ "items": [
+  { "en": "is a country's collective naval force, with which it can perform", "zh": "是一个国家的海上武装力量，可用于执行" },
+
+  { "en": "For organization and control, the navy is divided into one or more", "zh": "为了便于组织与指挥，海军被划分为一支或多支" },
+  { "en": ". Each fleet consists of one or more", "zh": "。每支舰队由一支或多支" },
+  { "en": ", with each task force containing a number of individual", "zh": "组成，而每支特遣舰队则包含若干" },
+  { "en": "fleets", "zh": "舰队" },
+  { "en": "task forces", "zh": "特遣舰队" },
+
+  { "en": "At the beginning of the game, each player's navy will already be organized into at least one fleet. The player may create new fleets and task forces at their discretion, and move ships between them.", "zh": "游戏开始时，每个玩家的海军都已经至少编成为一支舰队。玩家可以自行创建新的舰队与特遣舰队，并在它们之间调动舰船。" },
+
+  { "en": "Task force", "zh": "特遣舰队" },
+
+  { "en": "Task forces are groups of individual ships. They are the most basic unit of ship control available to the player. Each task force has a customizable insignia and name.", "zh": "特遣舰队是由单艘舰船组成的编组，也是玩家所能使用的最基本的舰船控制单位。每支特遣舰队都可以自定义徽章和名称。" },
+
+  { "en": "Task forces must contain at least one ship. For each task force, the player can choose how many ships to include. Task forces move at the speed of their slowest ship.", "zh": "特遣舰队必须至少包含一艘舰船。对于每支特遣舰队，玩家都可以自行选择编入多少艘舰船。特遣舰队以其最慢的舰船的速度航行。" },
+
+  { "en": "Creation and reinforcement", "zh": "创建与补充" },
+
+  { "en": "Task forces can be created and restructured in several ways:", "zh": "特遣舰队可以通过以下几种方式创建和重组：" },
+
+  { "en": "Newly built ships join the task force they were assigned to or a reserve fleet.", "zh": "新建造的舰船会加入其被指派到的特遣舰队或预备舰队。" },
+
+  { "en": "Existing task forces can be split in half or split in a custom way using the options above the task force's unit view.", "zh": "现有特遣舰队可以使用特遣舰队单位视图上方的选项平均一分为二，或按自定义方式拆分。" },
+
+  { "en": "Selecting ships and right-clicking another task force reassigns them there.", "zh": "选中舰船后右键点击另一支特遣舰队，即可将它们改派到该特遣舰队。" },
+
+  { "en": "Multiple selected task forces can be merged into one.", "zh": "选中的多支特遣舰队可以合并为一支。" },
+
+  { "en": "Selected ships can be automatically distributed in balanced task forces, which attempts to create task forces with good ratios of screens, capital ships, and carriers.", "zh": "选中的舰船可以自动分配到均衡的特遣舰队中，该功能会尽量组建出屏卫舰、主力舰和航母比例合理的特遣舰队。" },
+
+  { "en": "Automatic reinforcement", "zh": "自动补充" },
+
+  { "en": "To maintain the current composition even after a task force takes losses, the", "zh": "为了在特遣舰队遭受损失后仍维持其现有编成，可以启用" },
+  { "en": "option can be enabled. This will reinforce the task force with ships from the theater's", "zh": "选项。这将用来自战区" },
+  { "en": "reserve fleet", "zh": "预备舰队" },
+
+  { "en": "The task force composition editor allows changing the desired number and the specialization of ships that will be automatically deployed to the task force.", "zh": "特遣舰队编成编辑器可以更改将自动部署到该特遣舰队的舰船的理想数量与专精。" },
+
+  { "en": "Repair options", "zh": "修理选项" },
+
+  { "en": ": Allows the most heavily damaged ships to detach and return to a close by naval base for repairs while the rest of the task force continues its mission. The detached ships are very vulnerable to attack while they return. After completing repairs, the ships will return to their assigned task forces. The amount of ships detached depends on the repair priority setting as well as the damage to each individual ship.", "zh": "：允许受损最严重的舰船脱离编队，返回附近的海军基地进行修理，而特遣舰队的其余舰船继续执行任务。脱离的舰船在返航途中极易遭到攻击。修理完成后，这些舰船会返回其所属的特遣舰队。脱离的舰船数量取决于修理优先级设置以及每艘舰船各自的受损程度。" },
+  { "en": "Automatic split off", "zh": "自动分离" },
+
+  { "en": ": Sets how severely a task force has to be damaged before it returns for repairs.", "zh": "：设置特遣舰队受损到何种程度才会返回修理。" },
+  { "en": "Repair priority", "zh": "修理优先级" },
+
+  { "en": ": Explicitly orders an individual ship to return to port as a detached task force for repairs. Shift-clicking on the button will allow multiple damaged ships to be detached as one task force.", "zh": "：明确命令单艘舰船作为一支脱离的特遣舰队返回港口进行修理。按住 Shift 点击该按钮可以让多艘受损舰船作为一支特遣舰队一起脱离。" },
+  { "en": "Repair now!", "zh": "立即修理！" },
+
+  { "en": "Engagement rules", "zh": "交战规则" },
+
+  { "en": "The engagement rule controls how aggressively a task force behaves. For example on High risk submarines will attack all enemy ships, including screens.", "zh": "交战规则决定特遣舰队的行为有多激进。例如在「高风险」下，潜艇会攻击所有敌方舰船，包括屏卫舰。" },
+
+  { "en": "Fleet", "zh": "舰队" },
+
+  { "en": "is a group of one or more task forces. Each fleet has its own insignia and name, which can be customized by the player.", "zh": "是由一支或多支特遣舰队组成的编组。每支舰队都拥有自己的徽章和名称，玩家可以自行自定义。" },
+  { "en": "fleet", "zh": "舰队" },
+
+  { "en": "A new fleet can be created by selecting one or more existing task forces, then clicking the '+' button at the bottom of the screen.", "zh": "选中一支或多支现有特遣舰队，然后点击屏幕底部的「+」按钮，即可创建一支新舰队。" },
+
+  { "en": "An", "zh": "一位" },
+  { "en": "can be assigned to each fleet, conferring bonuses to all task forces within the fleet.", "zh": "可以分别被指派给每支舰队，为舰队内的所有特遣舰队提供加成。" },
+
+  { "en": "Assigning regions", "zh": "指派地区" },
+
+  { "en": "When task force(s) within a fleet are selected,", "zh": "当选中的舰队中的特遣舰队，" },
+  { "en": "the task forces have been assigned to a", "zh": "已被指派了" },
+  { "en": ", the fleet as a whole can then be assigned to specific", "zh": "之后，就可以通过在地图上右键点击地区，将整支舰队指派到特定的" },
+  { "en": "by right-clicking regions on the map. This determines where the task forces of the fleet may be automatically distributed when performing their mission.", "zh": "。这决定了该舰队的特遣舰队在执行任务时可以自动分布在哪些区域。" },
+
+  { "en": "Assigned regions for the selected fleet will be highlighted such that their color fades in and out, to distinguish them from regions assigned to other fleets.", "zh": "所选舰队的已指派地区会以颜色渐隐渐显的方式高亮显示，以便与其他舰队指派的地区区分开来。" },
+
+  { "en": "Each fleet is part of a named naval", "zh": "每支舰队都隶属于一个命名的海军" },
+  { "en": ", which is simply a group of fleets. A theater can accommodate any number of fleets without penalty. There is always a minimum of one theater, but the player may create additional theaters if desired.", "zh": "，战区不过是一组舰队的编组。一个战区可以容纳任意数量的舰队而不受任何惩罚。战区数量始终至少为一个，但玩家可以根据需要创建更多战区。" },
+
+  { "en": "Theaters serve as a tool for placing different fleets in logical categories. For example, different theaters might be dedicated to fleets operating in different geographical areas, or to fleets performing different types of missions.", "zh": "战区是一种把不同舰队归入合理分类的工具。例如，可以按不同的地理区域划分战区，也可以按执行不同类型任务的舰队划分战区。" },
+
+  { "en": "Alert priority", "zh": "警报优先级" },
+
+  { "block": 32, "node": 0, "en": "The", "zh": "每个战区的" },
+  { "en": "of each theater can be set to 'normal' or 'high'. When set to 'high', alerts from the theater (e.g.", "zh": "都可以设置为「普通」或「高」。设置为「高」时，来自该战区的警报（例如" },
+  { "en": "in progress) will appear prominently alongside other global alerts.", "zh": "进行中）会与其他全局警报一起醒目地显示。" },
+  { "en": "alert priority", "zh": "警报优先级" },
+
+  { "en": "Creation and deletion", "zh": "创建与删除" },
+
+  { "en": "A new theater can be created by selecting at least one task force in an existing theater, then clicking the 'New Theater' button which appears. The selected task force(s) will be automatically moved to the new theater.", "zh": "在现有战区中选中至少一支特遣舰队，然后点击出现的「新建战区」按钮，即可创建一个新战区。选中的特遣舰队会自动转移到新战区。" },
+
+  { "en": "A theater can be deleted by assigning all fleets within it to a different existing theater, after which the empty theater will be automatically deleted.", "zh": "将某个战区内的所有舰队都指派到另一个现有战区，即可删除该战区，之后这个空战区会被自动删除。" },
+
+  { "en": "Reserve fleet", "zh": "预备舰队" },
+
+  { "en": "Each theater has a", "zh": "每个战区都有一支" },
+  { "en": ". Unlike normal fleets, the reserve fleet may be empty. The reserve fleet accommodates any task forces which are not yet assigned to a normal fleet. If left in the reserve fleet, these ships may be used for", "zh": "。与普通舰队不同，预备舰队可以为空。预备舰队会容纳所有尚未编入普通舰队的特遣舰队。如果留在预备舰队中，这些舰船可用于" },
+  { "en": "of task forces which have been configured for this.", "zh": "已启用该功能的特遣舰队。" },
+  { "en": "automatic reinforcement", "zh": "自动补充" },
+
+  { "en": "Navy overview", "zh": "海军总览" },
+
+  { "block": 39, "node": 0, "en": "The", "zh": "按" },
+  { "en": "screen can be opened by pressing the", "zh": "界面可以通过按下" },
+  { "en": "hotkey or clicking on the", "zh": "快捷键，或点击屏幕右上角的" },
+  { "en": "navy icon in the top right corner of the screen. This will bring up a summary of the country's naval forces currently deployed, as well as the values of some naval-related modifiers.", "zh": "海军图标来打开。该界面会列出该国当前部署的海军力量摘要，以及一些海军相关修正项的数值。" },
+
+  { "en": "Base value", "zh": "基础值" },
+
+  { "en": "Ratio of airplanes available for combat on a carrier.", "zh": "航母上可用于作战的飞机比例。" },
+
+  { "en": "Convoy raiding efficency", "zh": "运输船队袭击效率" },
+
+  { "en": "Naval invasion capacity", "zh": "海军入侵容量" },
+
+  { "en": "Directly beneath the modifiers is a summary of ship counts by type.", "zh": "修正项的正下方是按舰种统计的舰船数量摘要。" },
+
+  { "en": "Below that overview is a list of task forces with their name, current operation area, as well as the number of ships and current mission. Left clicking on any task force selects it. Right clicking on a task force centers the camera on it.", "zh": "该总览下方是特遣舰队列表，其中包含它们的名称、当前作战区域，以及舰船数量和当前任务。左键点击任意特遣舰队即可将其选中，右键点击某支特遣舰队则会将镜头对准它。" },
+
+  { "en": "will open a window that shows a list of ships that have been sunk, either of or by the country, in the last two years.", "zh": "会打开一个窗口，列出该国在过去两年中被击沉或击沉的舰船。" },
+  { "en": "Lost ships", "zh": "损失舰船" },
+
+  { "en": "shows the current number of ships by type and class.", "zh": "会显示当前按舰种和舰级统计的舰船数量。" },
+  { "en": "Equipment details", "zh": "装备详情" },
+
+  { "block": 48, "node": 0, "en": "The", "zh": "该" },
+  { "en": "status (abbreviated as PotF) can be assigned to a single capital ship in the nation's navy. Having one provides the nation with", "zh": "状态（缩写为 PotF）可以指派给该国海军中的一艘主力舰。拥有该状态可为该国提供" },
+  { "en": "bonus versus critical hits and a", "zh": "的暴击抗性加成，以及" },
+  { "en": "bonus to experience gain, and is less prone to accidents.", "zh": "的经验获取加成，并且更不容易发生事故。" },
+  { "en": "Most major countries start with a PotF already, but the status can be reassigned at any time for 100", "zh": "大多数主要国家开局时就已经拥有舰队之傲，但该状态可以随时消耗 100" },
+  { "en": ". Countries that do not start with a PotF can assign one for no cost should they obtain a capital ship.", "zh": "政治点数重新指派。开局时没有舰队之傲的国家在获得主力舰后可以免费指派一个。" },
+
+  { "en": "If a PotF is lost to the enemy, in incurs a", "zh": "如果舰队之傲被敌人击沉，会带来" },
+  { "en": "war support penalty for 30", "zh": "的战争支持度惩罚，持续 30" },
+  { "en": "days. A new PotF can be assigned for the same 100", "zh": "天。指派新的舰队之傲所需的成本与重新指派舰队之傲时相同，均为 100" },
+  { "en": "cost as when reassigning the PotF role.", "zh": "点政治点数。" }
+ ]
+}

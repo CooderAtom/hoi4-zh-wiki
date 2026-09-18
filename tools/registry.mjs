@@ -71,7 +71,10 @@ export const HUBS = [
   {
     id: 'military', zh: '军种', en: 'Military branches', items: [
       ['Land warfare', '陆军'],
-      ['Naval warfare', '海军'],
+      // Points at the "Navy" overview page, not "Naval warfare": the hub label 海军 is the
+      // navy overview, and linking it to the 海战 (naval battle) page made the sidebar label
+      // contradict the page it opened. Keep in sync with tools/scratch/fix-hub-navy.mjs.
+      ['Navy', '海军'],
       ['Air warfare', '空军'],
       ['Land units', '陆军单位'],
       ['Naval units', '海军单位'],

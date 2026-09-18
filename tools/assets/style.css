@@ -106,6 +106,12 @@ h1.page-title { font-size: 27px; line-height: 1.3; margin: 2px 0 4px; border-bot
 .content li { margin: 3px 0; }
 .content li > ul, .content li > ol { margin: 3px 0 3px 1.2em; }
 .content img { max-width: 100%; height: auto; vertical-align: middle; }
+/* MediaWiki thumbnails carry inline pixel widths (e.g. width:1277px for the tech-tree figures).
+   With `max-width:100%` on the <img> alone the WRAPPER still forced the document to 1300px wide,
+   so on a phone the whole page scrolled sideways and the text clipped (measured: docScrollW 1300
+   vs viewport 500). Cap the wrappers too. */
+.content .thumbinner, .content .thumb, .content .floatnone, .content .center > div { max-width: 100% !important; }
+.content .thumbinner { overflow-x: auto; }
 .content figure { margin: 12px 0; }
 .content figcaption { font-size: 12.5px; color: var(--muted); }
 .content code, .content pre { font-family: Consolas, "Cascadia Mono", "Courier New", monospace; font-size: 13px; }
@@ -120,11 +126,51 @@ h1.page-title { font-size: 27px; line-height: 1.3; margin: 2px 0 4px; border-bot
 .content sup { font-size: .72em; }
 
 /* ---------- 表格（wiki 风格） ---------- */
+/* These tables come from MediaWiki with awkward inline markup: a nested "效果" table whose cells
+   pin `width:551px`, and a name cell wrapping icon + title + description in an inline
+   `display:flex` box. Measured in a headless render (Naval_technology): the 科技 column was
+   squeezed to 292px while its content needed 509–786px, so the text PAINTED OVER the 年份
+   column, while the 效果 column overflowed past the panel.
+   Approach: size the table to its CONTENT (width: max-content) so no column has to be starved,
+   and let the wrapper scroll horizontally when the result is wider than the screen. Cells that
+   would otherwise shrink to one character per line get a real minimum. */
 .content table {
-  border-collapse: collapse; margin: 12px 0; font-size: 14px; max-width: 100%;
-  background: #fff; display: block; overflow-x: auto; width: max-content; max-width: 100%;
+  border-collapse: collapse; margin: 12px 0; font-size: 14px;
+  background: #fff; display: block; overflow-x: auto; overflow-y: hidden;
+  width: max-content; min-width: 100%; max-width: 100%;   /* max-width:100% keeps a wide table's
+     scroll INSIDE its own box; without it the table stretches the whole document sideways and the
+     page text clips on phones (measured: docScrollW 1814 vs viewport 500). */
+  -webkit-overflow-scrolling: touch;
 }
-.content table table { display: table; width: 100%; }
+.content table table { display: table; width: auto; max-width: none; table-layout: auto; }
+.content table th, .content table td {
+  word-break: normal; overflow-wrap: break-word; vertical-align: top;
+}
+/* Give the leading name/description column room. min-width alone still left it at 210px
+   (measured), because the effect column's nested table claims the rest; a percentage makes it
+   take a real share of the row while the table stays inside its own scroll box. */
+/* Column sizing for the tech tables. The 5 columns carry competing needs: the name cell wants
+   ~363px, the nested 效果 table wants ~567px, and the whole row must fit an 832px box — which
+   cannot all hold at once. Measured options:
+     min-width only (26em): td0=364 but sum=1155, so 324px of the row sat behind a scrollbar;
+     percentages: fits, but td0 fell to 208px and its text stacked one character per line.
+   Chosen: bound every column to the box (nothing hidden, no horizontal scrolling) and give the
+   name column the largest share that still fits. It wraps over a few lines instead of stacking. */
+.content table > tbody > tr > th:first-child,
+.content table > tbody > tr > td:first-child { width: 24%; min-width: 11em; }
+.content table > tbody > tr > th:last-child,
+.content table > tbody > tr > td:last-child { width: 46%; max-width: 46%; }
+/* The nested "效果" table pins its first column with inline `width:551px`; left alone its intrinsic
+   width pushed the outer table's content to 1156px inside an 832px box. */
+.content table table th[style*="width"], .content table table td[style*="width"] { width: auto !important; }
+.content table table { max-width: 100%; }
+/* Flatten the inline flex wrapper so its icon+text cannot inflate the column past its siblings. */
+.content table > tbody > tr > td:first-child > div[style*="flex"] { display: block; }
+.content table > tbody > tr > td:first-child > div[style*="flex"] > div { margin-left: 0 !important; }
+/* Images must never spill out of their cell or the panel. */
+.content table img { max-width: 100%; height: auto; }
+.content table > tbody > tr > th:last-child,
+.content table > tbody > tr > td:last-child { max-width: 46em; }
 .content th, .content td { border: 1px solid var(--border); padding: 5px 9px; vertical-align: top; }
 .content th { background: var(--table-head); font-weight: 600; text-align: center; }
 .content tr:nth-child(even) > td { background: var(--table-alt); }
@@ -189,10 +235,37 @@ h1.page-title { font-size: 27px; line-height: 1.3; margin: 2px 0 4px; border-bot
 .list-note { color: var(--muted); font-size: 13px; margin: 6px 0 14px; }
 
 @media (max-width: 900px) {
-  .wrap { grid-template-columns: 1fr; }
-  .sidebar { position: static; max-height: none; }
+  /* 窄屏：正文排在最前，站点导航折到正文之后。侧边栏在手机上超过 2000px 高，
+     若按原顺序置顶，用户要翻很久才看到正文（app.js 会把每个分组折成可展开项）。 */
+  .wrap { grid-template-columns: 1fr; gap: 14px; }
+  .sidebar { position: static; max-height: none; order: 2; font-size: 14px; padding: 8px 12px; }
+  .content { order: 1; padding: 16px 14px 22px; }
+  .sb-group { border-top: 1px solid var(--border); }
+  .sb-group:first-child { border-top: 0; }
+  .sb-group > summary {
+    cursor: pointer; padding: 9px 2px; font-weight: 600; font-size: 13px;
+    letter-spacing: .04em; color: var(--green-dark); list-style: none;
+  }
+  .sb-group > summary::-webkit-details-marker { display: none; }
+  .sb-group > summary::after { content: ' ▾'; color: var(--muted); font-weight: 400; }
+  .sb-group[open] > summary::after { content: ' ▴'; }
+  .sb-group > ul { margin: 0 0 8px; }
+  .sidebar h3 { display: none; }          /* 分组标题改由 <summary> 承担 */
   .searchbox input { width: 150px; }
   .topnav { display: none; }
+  h1.page-title { font-size: 22px; }
+  .content h2 { font-size: 19px; }
+  .content h3 { font-size: 16.5px; }
+  .toc { font-size: 13.5px; }
+  .hub-grid { grid-template-columns: 1fr; }
+  .page-list { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .wrap { padding: 12px 10px 28px; }
+  .content { padding: 14px 12px 18px; }
+  .content table { font-size: 13px; }
+  .content table th, .content table td { padding: 4px 6px; }
+  .searchbox input { width: 110px; }
 }
 @media print {
   .topbar, .sidebar, .site-footer, .toc, .cov-banner { display: none; }

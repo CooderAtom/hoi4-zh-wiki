@@ -1,0 +1,149 @@
+{
+ "page": "Naval missions",
+ "items": [
+  { "en": "can be assigned to task forces to govern their behavior. Each mission has a corresponding", "zh": "任务可分配给特遣舰队以决定其行为。每个任务都有对应的" },
+
+  { "en": "Although missions can be assigned at the task force level, the operating area for the mission is defined at the fleet level by", "zh": "虽然任务可以在特遣舰队层级分配，但任务的行动区域是在舰队层级通过" },
+  { "en": "assigning regions", "zh": "分配区域" },
+
+  { "en": "When task force(s) are performing a mission in their fleet's assigned regions, an icon will be visible in the center of each of these", "zh": "当特遣舰队在其舰队所分配的区域执行任务时，这些" },
+  { "en": ". The icon represents the mission being performed. Below the icon is a number, which represents the number of task forces performing the mission in this region. If the cursor is placed over this number, a tooltip will appear which provides further information about the mission.", "zh": "的中心都会显示一个图标。该图标代表正在执行的任务。图标下方有一个数字，代表在该区域执行此任务的特遣舰队数量。将光标移到该数字上会显示一个提示框，提供有关该任务的更多信息。" },
+
+  { "en": "Naval exercises", "zh": "海军演习" },
+
+  { "block": 4, "en": "A task force assigned to the", "zh": "被分配执行" },
+  { "en": "mission will perform exercises in the region adjacent to the nearest port.", "zh": "任务的特遣舰队将在距离最近港口相邻的区域进行演习。" },
+  { "en": "will continually be gained while ships are performing this mission.", "zh": "将在舰船执行此任务期间持续获得。" },
+  { "en": "naval exercises", "zh": "海军演习" },
+
+  { "en": "Ships performing this mission will:", "zh": "执行此任务的舰船将：" },
+
+  { "en": "Gain experience each day until they reach the 'Regular' level.", "zh": "每天获得经验，直至达到「正规」等级。" },
+
+  { "en": "Consume", "zh": "消耗" },
+  { "en": "at 60%", "zh": "燃料，为其正常燃料消耗速率的 60%。" },
+  { "en": "of their normal rate of fuel consumption.", "zh": "即正常燃料消耗速率。" },
+
+  { "en": "Have a chance of incurring damage due to accidents.", "zh": "有几率因事故而受损。" },
+
+  { "en": "Provide a small amount of", "zh": "每天提供少量海军经验。" },
+  { "en": "each day.", "zh": "每日如此。" },
+
+  { "block": 10, "en": "A task force assigned to the", "zh": "被分配执行" },
+  { "en": "mission will search for enemy ships. A single task force can only patrol a single strategic region at once, so multiple task forces are required to patrol multiple regions.", "zh": "任务的特遣舰队将搜索敌方舰船。一支特遣舰队一次只能巡逻一个战略地区，因此需要多支特遣舰队才能巡逻多个区域。" },
+
+  { "en": "When enemy ship(s) have been found, the patrolling task force will gradually gather information about the enemy force. This process is called", "zh": "发现敌方舰船后，执行巡逻的特遣舰队会逐步收集有关敌方舰队的情报。这一过程称为" },
+  { "en": ", and its progress is measured as a percentage which is visible in a tooltip. When the enemy force is 100% spotted, it becomes possible to engage them in battle.", "zh": "，其进度以一个百分比表示，可在提示框中查看。当敌方舰队被 100% 发现时，就可以与其交战。" },
+  { "en": "spotting", "zh": "发现" },
+
+  { "en": "Spotting", "zh": "发现" },
+
+  { "en": "The spotting progress starts at", "zh": "发现进度从" },
+  { "en": "and increases by", "zh": "开始，并按" },
+  { "en": "until it reaches 100%. If the hourly change would be zero or negative, the task force can't spot that enemy. The patrol can only start spotting enemy submarine forces with a probability of:", "zh": "递增，直至达到 100%。如果每小时变化为零或负数，该特遣舰队就无法发现那个敌人。巡逻舰队只能以以下概率开始发现敌方潜艇编队：" },
+  { "en": "base spotting chance", "zh": "基础发现几率" },
+  { "en": "hourly change", "zh": "每小时变化" },
+
+  { "en": "A patrol can only spot one enemy task force at a time and vice versa.", "zh": "一支巡逻舰队一次只能发现一支敌方特遣舰队，反之亦然。" },
+
+  { "en": "Engaging the enemy", "zh": "与敌交战" },
+
+  { "en": "assigned to the region (regardless of their parent fleet) may also choose to leave port and engage the enemy, depending upon their own engagement rules.", "zh": "被分配到该区域（无论其所属舰队为何）也可以选择离港与敌交战，这取决于它们各自的交战规则。" },
+  { "en": "strike forces", "zh": "打击舰队" },
+
+  { "en": "If the patrolling task force is set to 'Never engage', it will avoid battle until the summoned strike force arrives, and it will begin disengaging immediately after the battle starts.", "zh": "如果执行巡逻的特遣舰队被设为「永不交战」，它会避开战斗，直到被召唤的打击舰队抵达，并且在战斗开始后会立即开始脱离交战。" },
+
+  { "en": "Strike force", "zh": "打击舰队" },
+
+  { "block": 20, "en": "A task force assigned to the", "zh": "被分配执行" },
+  { "en": "mission can automatically intercept and engage enemy forces within their fleet's assigned regions,", "zh": "任务的特遣舰队可以在其舰队所分配的区域内自动拦截并攻击敌方舰队，" },
+  { "en": "an enemy force has been fully spotted by a", "zh": "当一支敌方舰队已被同一国家的" },
+  { "en": "task force belonging to the same country. The strike force does not need to be in the same fleet as the patrolling task force in order for this coordination to occur.", "zh": "特遣舰队完全发现之后。要实现这种协同，打击舰队无需与执行巡逻的特遣舰队处于同一舰队。" },
+  { "en": "patrolling", "zh": "巡逻" },
+
+  { "en": "When not intercepting enemy forces, a strike force will remain in port to conserve", "zh": "不拦截敌方舰队时，打击舰队会留在港内以节省" },
+
+  { "en": "A strike force will only choose to intercept and engage a spotted enemy force if their", "zh": "只有当打击舰队的" },
+  { "en": "permits it. An engagement rule of 'Never engage' would cause a strike force to remain in port indefinitely, while an engagement rule of 'Always engage' would allow a strike force to intercept and engage an enemy force regardless of its strength.", "zh": "允许时，打击舰队才会选择拦截并攻击已发现的敌方舰队。交战规则设为「永不交战」会使打击舰队无限期留在港内，而设为「始终交战」则允许打击舰队拦截并攻击敌方舰队，无论其兵力强弱。" },
+
+  { "en": "When a strike force has left port to intercept an enemy force, the player can still manually order the strike force to stop intercepting and return to port, e.g. if the enemy force appears too strong for the strike force to safely handle.", "zh": "当打击舰队已离港拦截敌方舰队时，玩家仍可以手动命令打击舰队停止拦截并返回港口，例如当敌方舰队过于强大、打击舰队无法安全应对时。" },
+
+  { "en": "Although a strike force can be assigned to cover a wide area, it may not arrive in time to engage the enemy if the spotted enemy force is far from the strike force's port.", "zh": "虽然打击舰队可以被分配覆盖广阔的区域，但如果已发现的敌方舰队距离打击舰队的港口很远，它可能无法及时赶到与敌交战。" },
+
+  { "en": "Convoy escort", "zh": "运输船队护航" },
+
+  { "block": 26, "en": "A task force assigned to the", "zh": "被分配执行" },
+
+  { "en": "When the", "zh": "当" },
+  { "en": "is selected, existing convoy routes are shown on the map. This can be useful for determining which strategic regions require convoy escort coverage.", "zh": "被选中时，地图上会显示现有的运输航线。这有助于判断哪些战略地区需要运输船队护航覆盖。" },
+
+  { "en": "mission may be a more appropriate choice.", "zh": "任务可能是更合适的选择。" },
+  { "block": 28, "en": "naval invasion support", "zh": "海军入侵支援" },
+
+  { "en": "is an important metric in relation to convoy escort missions. When escort efficiency is 100% among task forces within a given fleet, one of these task forces will instantly come to the defense of any convoys under attack within the fleet's assigned regions. If escort efficiency falls below 100%, some or all of the defending ships will arrive late to the battle when friendly convoys are attacked, increasing the likelihood of convoys being destroyed by the attackers.", "zh": "是运输船队护航任务的一项重要指标。当某一舰队内各特遣舰队的护航效率为 100% 时，其中一支特遣舰队会立即前往保卫该舰队所分配区域内任何遭受攻击的运输船队。如果护航效率低于 100%，当友方运输船队遭到攻击时，部分或全部防御舰船将迟达战场，从而增加运输船队被攻击方摧毁的可能性。" },
+
+  { "en": "To achieve 100% escort efficiency, there must be sufficient ships and task forces performing the convoy escort mission to cover the strategic regions which have been assigned to their fleet.", "zh": "要达到 100% 的护航效率，必须有足够的舰船和特遣舰队执行运输船队护航任务，以覆盖分配给其舰队的各个战略地区。" },
+
+  { "en": "Ships with minelaying equipment can be assigned to", "zh": "装备布雷设备的舰船可以在战时被分配执行" },
+  { "en": "missions during wartime. They will continue adding mines to each assigned strategic region until 1000", "zh": "任务。它们会持续向每个分配的战略地区添加水雷，直到每个区域布下 1000" },
+  { "en": "mines have been laid in each region, at which point the regions are considered to be fully saturated with mines.", "zh": "枚水雷，此时这些区域被视为已完全布满水雷。" },
+  { "en": "minelaying", "zh": "布雷" },
+
+  { "en": "Mines will be laid in all assigned regions at the same time. The rate of minelaying per region depends upon the number of ships in the fleet which are part of minelaying task forces, and the number of regions which have been assigned to the fleet. Each additional region beyond the first causes a reduction in minelaying rate per region.", "zh": "所有分配的区域会同时布设水雷。每个区域的布雷速度取决于舰队中属于布雷特遣舰队的舰船数量，以及分配给该舰队的区域数量。除第一个区域外，每增加一个区域都会降低每个区域的布雷速度。" },
+
+  { "en": "As mines are laid, some mines will graphically become visible on the map. While either the strategic air or navy map mode is selected, hovering the cursor over a region containing mines will show the number of mines that have been laid, along with the number of enemy ships damaged or sunk by the mines.", "zh": "随着水雷被布设，部分水雷会在地图上以图形方式显示出来。当选中的是战略空军或海军地图模式时，将光标悬停在含有水雷的区域上，会显示已布设的水雷数量，以及被水雷击伤或击沉的敌方舰船数量。" },
+
+  { "en": "Effects of mines", "zh": "水雷的效果" },
+
+  { "en": "The following effects apply to each mined strategic region, scaled according to the quantity of mines:", "zh": "以下效果适用于每个已布雷的战略地区，并随水雷数量按比例变化：" },
+
+  { "en": "Bonus (", "zh": "水雷拥有者获得的制海权加成（" },
+  { "en": ") to naval supremacy for the owner of the mines.", "zh": "）制海权加成。" },
+
+  { "en": "friendly", "zh": "友方" },
+
+  { "en": "Increased chance of", "zh": "提高" },
+  { "en": "up to", "zh": "事故几率，最高" },
+  { "en": "Naval accidents from mines can do far more damage than from other types of accidents.", "zh": "水雷造成的海军事故可能比其他类型的事故造成大得多的损害。" },
+
+  { "block": 38, "en": "accidents", "zh": "事故" },
+
+  { "en": "Decreased speed up to", "zh": "降低航速，最高" },
+  { "en": "as mines no longer affect ship speed", "zh": "，因为水雷不再影响舰船航速" },
+
+  { "en": "Invasion penalty up to", "zh": "入侵惩罚，最高" },
+
+  { "en": "When equipped with", "zh": "装备" },
+  { "en": ", destroyers can be assigned to", "zh": "后，驱逐舰可以在战时被分配执行" },
+  { "en": "missions during wartime. These ships will continue removing mines from their assigned strategic regions until they are fully clear of mines.", "zh": "任务。这些舰船会持续从分配的战略地区清除水雷，直到这些区域的水雷被完全清除。" },
+
+  { "en": "Naval invasion support", "zh": "海军入侵支援" },
+
+  { "block": 43, "en": "Task forces assigned to the", "zh": "被分配执行" },
+  { "en": "mission will escort convoys which are ferrying friendly troops to perform a", "zh": "任务的特遣舰队将护航运送友方部队执行" },
+  { "en": ". Once these convoys have arrived at their destination safely, the assigned task forces will hold position adjacent to the landing site to provide support via", "zh": "的运输船队。一旦这些运输船队安全抵达目的地，被分配的特遣舰队将在登陆点附近坚守阵地，只要战斗仍在进行，就通过" },
+  { "en": "as long as a battle is taking place. If there's no battle or the battle is over, those task forces will return to their home port.", "zh": "提供支援。如果没有战斗或战斗已经结束，这些特遣舰队将返回其母港。" },
+  { "block": 43, "en": "naval invasion support", "zh": "海军入侵支援" },
+
+  { "en": "Task forces can be ordered to", "zh": "可以通过两种不同方式命令特遣舰队" },
+  { "en": "in two different ways:", "zh": "坚守：" },
+  { "en": "hold", "zh": "坚守" },
+
+  { "en": "cancels the current mission and moves the task force to the closest friendly port.", "zh": "会取消当前任务，并将特遣舰队移动到最近的友方港口。" },
+  { "en": "Clicking the hold button", "zh": "点击坚守按钮" },
+
+  { "en": "Clicking the hold button while holding down", "zh": "按住" },
+  { "en": "cancels the current mission and makes the task force stay in its current province. A task force on hold doesn't consume fuel. When positioned on a sea province, it can block connections (visible as broken red lines across the water) between land provinces, to prevent enemy land units from moving between them.", "zh": "的同时点击坚守按钮，会取消当前任务，并使特遣舰队停留在当前省份。处于坚守状态的特遣舰队不消耗燃料。当它位于海上省份时，可以阻断陆地省份之间的连接（表现为横跨水面的红色断线），以阻止敌方陆军单位在它们之间移动。" },
+
+  { "en": "If surface ships are on hold in a province adjacent to a land battle involving enemy divisions, the ships will automatically perform", "zh": "如果水面舰船坚守在与涉及敌方师的陆战相邻的省份，这些舰船将自动执行" },
+  { "en": "to reduce the enemy's attack and defense.", "zh": "，以降低敌方的攻击与防御。" },
+
+  { "en": "The magnitude of this effect is determined by the firepower of the ships involved: each point of heavy gun damage contributes", "zh": "此效果的强度取决于参战舰船的火力：每点重型火炮伤害提供" },
+  { "en": "to enemy attack and defense, while each point of light gun damage contributes", "zh": "的敌方攻击与防御削减，而每点轻型火炮伤害提供" },
+  { "en": ". Total reduction from shore bombardment is capped at", "zh": "的敌方攻击与防御削减。岸轰造成的总削减上限为" },
+  { "en": ". Naval shore bombardment can also critically hit, causing severe damage to forts and coastal forts during combat.", "zh": "。海军岸轰还可以造成暴击伤害，在战斗中严重破坏要塞与海岸要塞。" },
+
+  { "en": "The", "zh": "此外，" },
+  { "en": "Naval Liaison", "zh": "Naval Liaison（海军联络）" }
+ ]
+}
