@@ -85,6 +85,25 @@ focus = {
 </table>
 `;
 
+/* 真实上游导航框：这段标记逐字取自 site/Mechanics.html 第 534 行起（「游戏机制」导航框），
+   就是用户截图里「一半浅一半深」的那个。分类标签格写死了 background:#EDEDED，
+   深色下曾保持亮灰、相邻链接格变暗，靠 style.css 里的属性选择器覆盖修正。
+   放在这里是为了让每一次改动都能在对照页里直接看到效果，而不必去翻真实页面。 */
+const NAVBOX = `
+<div style="height: 1.6em; font-weight: bold; font-size: 105%; background-color: #efefef;"><b><a class="mw-selflink selflink" href="#">游戏机制</a></b></div>
+<div style="font-size:0.9em; margin:0.5em">
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">政治</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="#">意识形态</a> • <a href="#">阵营</a> • <a href="#">国策</a> • <a href="#">理念</a> • <a href="#">政府</a> • <a href="#">傀儡国</a> • <a href="#">流亡政府</a></td></tr></tbody></table>
+<table style="font-size: 11px; margin: 0px 0px -2px -2px; width: 100%;">
+<tbody><tr>
+<td style="width: 210px; background: #EDEDED; font-weight: bold; text-align: right; padding: 2px 5px;">生产</td>
+<td style="text-align: left; padding: 2px 5px;"><a href="#">贸易</a> • <a href="#">生产</a> • <a href="#">建造</a> • <a href="#">装备</a> • <a href="#">燃料</a> • <a href="#">军工组织</a> • <a href="#">国际市场</a></td></tr></tbody></table>
+</div>
+<p class="pv-hint">↑ 上游内联 <code>background:#EDEDED</code> 的分类标签格：修复前在深色下是亮灰条，
+   修复后应与链接格同色（<code>--cell-tint</code>）。若仍是亮灰，说明覆盖规则没生效。</p>`;
+
 const page = (theme, title, width) => `<!DOCTYPE html>
 <html lang="zh-CN"${theme === 'auto' ? '' : ` data-theme="${theme}"`}>
 <head>
@@ -97,6 +116,7 @@ const page = (theme, title, width) => `<!DOCTYPE html>
 <style>
   /* 只给「预览页自己」加的说明条，不属于站点样式 */
   .pv-note { background:#333; color:#eee; font:12px/1.6 monospace; padding:4px 8px; margin:0; }
+  .pv-hint { font-size:12px; color:#888; }
 </style>
 </head>
 <body data-rel="">
@@ -123,6 +143,8 @@ const page = (theme, title, width) => `<!DOCTYPE html>
   </ol></nav>
   <h2>概述</h2>
   <h4>四级标题</h4>
+  <h2>上游导航框（内联浅色底）</h2>
+  ${NAVBOX}
   ${INLINE}
   <h2>图片与画框</h2>
   <p>透明图标（深色下应有一圈描边，而不是消失）：</p>

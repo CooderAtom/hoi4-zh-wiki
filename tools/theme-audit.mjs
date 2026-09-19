@@ -33,19 +33,36 @@ if (css !== cssOf(SRC)) bad('site/assets/style.css 与 tools/assets/style.css �
 else ok('site/assets/style.css 与 tools/assets/style.css 一致');
 
 /* 顶层声明扫描器：返回 { selector, body, media }，media 为 null 表示不在媒体查询内。
-   朴素正则配不出 CSS 的嵌套括号，这里按大括号深度手工切。 */
+   朴素正则配不出 CSS 的嵌套括号，这里按大括号深度手工切。
+   注意：找 `{` 时必须跳过圆括号——`:is(td, th, div)` 这类函数式伪类里没有花括号，
+   但 `:root:not([data-theme]) :is(...):is(...) {` 的括号内如果混进 `{` 就会被误判。
+   更关键的是反过来：不跳过括号时，`[style*="..."]` 里的引号与括号会让切片错位，
+   曾导致自动深色段的规则数被数成 0、命中统计全是陈旧数据。 */
 function topLevel(src) {
   const out = [];
   const clean = src.replace(/\/\*[\s\S]*?\*\//g, '');
   let i = 0;
   while (i < clean.length) {
-    const open = clean.indexOf('{', i);
+    // 从 i 起找下一个「不在括号内」的 '{'
+    let open = -1, depthP = 0, quote = 0;
+    for (let k = i; k < clean.length; k++) {
+      const c = clean[k];
+      if (quote) { if (c === quote) quote = 0; continue; }
+      if (c === '"' || c === "'") { quote = c; continue; }
+      if (c === '(') depthP++;
+      else if (c === ')') depthP--;
+      else if (c === '{' && depthP <= 0) { open = k; break; }
+      else if (c === '}') { open = -1; break; }
+    }
     if (open < 0) break;
     const selector = clean.slice(i, open).trim();
-    let depth = 1, j = open + 1;
+    let depth = 1, j = open + 1, q = 0;
     while (j < clean.length && depth > 0) {
-      if (clean[j] === '{') depth++;
-      else if (clean[j] === '}') depth--;
+      const c = clean[j];
+      if (q) { if (c === q) q = 0; }
+      else if (c === '"' || c === "'") q = c;
+      else if (c === '{') depth++;
+      else if (c === '}') depth--;
       j++;
     }
     const body = clean.slice(open + 1, j - 1);
@@ -71,11 +88,17 @@ function decls(rule) {
 }
 
 const rules = topLevel(css);
-const findRule = (selector, mediaMatch) => rules.find((r) => r.selector === selector && (mediaMatch ? r.media && mediaMatch.test(r.media) : !r.media));
+// 块选择器比较要宽松：@media 内的规则带缩进（选择器前有空格），全等匹配会漏掉，
+// 曾导致「自动深色段规则数=0」的假失败。
+const selIs = (r, sel) => r.selector.trim() === sel;
+/* 自动深色侧的规则选择器都是 ":root:not([data-theme])" 后面再跟后代选择器，
+   所以聚合时必须用 startsWith 而不是全等——全等只会命中令牌块那一条。 */
+const selStarts = (r, sel) => r.selector.trim().startsWith(sel);
+const findRule = (sel, mediaMatch) => rules.find((r) => selIs(r, sel) && (mediaMatch ? r.media && mediaMatch.test(r.media) : !r.media));
 const rootTokens = decls(findRule(':root'));
 const manualDark = decls(findRule(':root[data-theme="dark"]'));
 const manualLight = decls(findRule(':root[data-theme="light"]'));
-const autoDarkTokens = decls(rules.find((r) => r.selector === ':root:not([data-theme])' && r.media && r.media.includes('prefers-color-scheme: dark')));
+const autoDarkTokens = decls(rules.find((r) => selIs(r, ':root:not([data-theme])') && r.media && r.media.includes('prefers-color-scheme: dark')));
 
 console.log('\n[1] 令牌结构');
 console.log(`  浅色默认 ${rootTokens.size} 项 / 自动深色 ${autoDarkTokens.size} 项 / 手动深色 ${manualDark.size} 项 / 手动浅色 ${manualLight.size} 项`);
@@ -229,11 +252,9 @@ sectionOk(`除 ${Object.keys(EXPECTED).length} 项已登记的字面量外，正
 
 /* ---------- 8. 内联色分布与覆盖规则命中量 ---------- */
 section('[8] 内联色分布（真实页面统计，口径已排除属性名污染）');
-const sels = [...css.matchAll(/^\s*([^\n{}]*\[style\*=[^\n{}]*)\{/gim)].map((m) => m[1].trim());
-console.log(`  style*= 选择器共 ${sels.length} 条`);
-if (!sels.length) {
-  console.log('  （当前尚未加入内联色兜底规则，阶段 2 再加；此处先给出上游色的真实分布）');
-}
+// 覆盖规则的条数直接问解析器，不要用正则数源码——多行选择器用行内正则会数成 0
+const patchRuleCount = rules.filter((r) => r.selector.includes('[style*=')).length;
+console.log(`  含 [style*= 覆盖的规则共 ${patchRuleCount} 条`);
 const counts = {};
 const byProp = {};
 const pages = fs.readdirSync(SITE).filter((f) => f.endsWith('.html'));
@@ -268,6 +289,127 @@ for (const [k, n] of Object.entries(byProp).sort((a, b) => b[1] - a[1]).slice(0,
 }
 const bgLight = sorted.filter(([c]) => /^#(e|f)/i.test(c) || /^(white|#fff)/i.test(c)).reduce((a, [, n]) => a + n, 0);
 console.log(`  其中浅色底/白底类（#e*/#f*/white）合计 ${bgLight} 次，是深色下必须处理的主要对象`);
+
+/* ---------- 9. 内联色覆盖规则：两段必须同步 ---------- */
+section('[9] 内联色覆盖规则（手动深色 vs 自动深色）');
+const MARK_A = /\/\* theme-dark-inline-bg:start \*\/([\s\S]*?)\/\* theme-dark-inline-bg:end \*\//;
+const topMatch = MARK_A.exec(css);
+const topBody = topMatch ? topMatch[1] : '';
+/* 每一侧都不止一条规则（浅灰底 / 彩色标签底 / 内联深色字），必须把该侧所有
+   覆盖规则合并后再比对。两个坑：
+   ①选择器前缀要用 startsWith，因为自动深色侧的规则选择器都是 ":root:not([data-theme])"
+     后面再跟后代选择器；
+   ②被覆盖的属性选择器（[style*="…" i]）在规则的 SELECTOR 字段里，不在 body 里，
+     只拼 body 会让字面量提取全部落空——比对必须用 selector + body 一起。 */
+const autoParts = rules
+  .filter((r) => selStarts(r, ':root:not([data-theme])') && r.media && r.media.includes('prefers-color-scheme'))
+  .filter((r) => r.selector.includes(':is(') || r.selector.includes('[fill='));
+const autoBody = autoParts.map((r) => r.body).join('\n');
+const autoText = autoParts.map((r) => r.selector + '{' + r.body + '}').join('\n');
+const topText = topBody;
+const countBg = (s) => (s.match(/background-color:\s*var\(--cell-tint\)/g) || []).length;
+if (!topMatch) bad('找不到手动深色的内联色覆盖段（theme-dark-inline-bg 标记缺失）');
+else if (!autoBody.trim()) bad('自动深色段里没有内联色覆盖规则——系统深色下会退回半亮半暗');
+else {
+  const t = countBg(topBody), a = countBg(autoBody);
+  if (t !== a) bad(`两段 background-color 覆盖数不一致：手动深色 ${t} 条 vs 自动深色 ${a} 条，必然漏同步`);
+  else ok(`两段各 ${t} 条背景覆盖规则，数量一致`);
+  // 逐条比对属性选择器字面量：数量相同但内容不同同样会漏
+  const lits = (s) => [...s.matchAll(/\[style\*="([^"]+)"\s*i\]/g)].map((m) => m[1].toLowerCase().replace(/\s+/g, '')).sort().join('|');
+  const la = lits(topText), lb = lits(autoText);
+  console.log(`  手动深色段 ${topText.length} 字符 → ${la ? la.split('|').length : 0} 个字面量；自动深色段 ${autoText.length} 字符 → ${lb ? lb.split('|').length : 0} 个字面量`);
+  if (la !== lb) {
+    const setA = new Set(la.split('|')), setB = new Set(lb.split('|'));
+    bad(`两段覆盖的色值清单不一致。仅手动深色有：${[...setA].filter((x) => !setB.has(x)).join(', ') || '无'}；仅自动深色有：${[...setB].filter((x) => !setA.has(x)).join(', ') || '无'}`);
+  } else ok(`两段覆盖 ${new Set(la.split('|')).size} 个选择器字面量，逐条一致`);
+  // 覆盖规则必须带 !important，否则压不住内联样式
+  const noImp = (topBody.match(/background-color:\s*var\(--cell-tint\)(?!\s*!important)/g) || []).length;
+  if (noImp) bad(`有 ${noImp} 条 background-color 覆盖没带 !important，压不住内联样式`);
+  else ok('覆盖规则全部带 !important');
+  if (!/fill:\s*var\(--text\)\s*!important/.test(topBody)) meh('未覆盖内联 <svg> 的 fill（深色图上可能有黑字）');
+}
+
+/* ---------- 10. 覆盖规则的真实命中量 ---------- */
+section('[10] 覆盖目标的真实命中量（决定规则是否值得存在）');
+if (autoBody.trim()) {
+  const tokens = [...new Set([...autoText.matchAll(/\[style\*="([^"]+)"\s*i\]/g)].map((m) => m[1]))];
+  const tally = new Map(tokens.map((t) => [t, 0]));
+  const pages = fs.readdirSync(SITE).filter((f) => f.endsWith('.html'));
+  let attrMatch = 0;
+  for (const f of pages) {
+    const t = fs.readFileSync(path.join(SITE, f), 'utf8');
+    for (const m of t.matchAll(/style\s*=\s*"([^"]*)"/g)) {
+      const norm = m[1].toLowerCase().replace(/\s+/g, '');
+      for (const tok of tokens) {
+        const needle = tok.toLowerCase().replace(/\s+/g, '');
+        if (norm.includes(needle)) { tally.set(tok, tally.get(tok) + 1); attrMatch++; }
+      }
+    }
+  }
+  const dead = [...tally].filter(([, n]) => n === 0);
+  console.log(`  覆盖规则在 ${pages.length} 个页面里共命中属性 ${attrMatch} 次（同一元素可能命中多条）`);
+  for (const [tok, n] of [...tally].sort((x, y) => y[1] - x[1])) {
+    console.log(`    ${String(n).padStart(6)}  ${tok}`);
+  }
+  if (dead.length) meh(`命中 0 次的规则可以删掉：${dead.map(([t]) => t).join(', ')}`);
+  else ok('没有命中 0 次的死规则');
+} else meh('自动深色段缺失，跳过命中量统计');
+
+/* ---------- 11. 结构卫生 ---------- */
+section('[11] 样式表结构卫生');
+/* 注释正文一旦丢了起始 `/*`，就会变成裸 CSS 文本：既让 CSS 解析器失步
+   （后面的规则可能被整段丢弃），也让本脚本的选择器错位。踩过一次，故设为断言。
+   判据：选择器里不该出现中日韩字符或分号。 */
+const badSel = rules.filter((r) => /[\u3400-\u9fff\uff00-\uffef]/.test(r.selector) || r.selector.includes(';'));
+if (badSel.length) {
+  bad(`有 ${badSel.length} 条规则的选择器含中文或分号 = 注释正文漏成了裸文本：`
+    + JSON.stringify(badSel[0].selector.slice(0, 60)));
+} else ok(`全部 ${rules.length} 条规则的选择器形态正常（无注释正文漏出）`);
+if (/container-type|@container/.test(css)) {
+  meh('样式表里仍有 container-type/@container —— 按格宽判断的方案已废弃（见第 12 节注释），确认这是有意的');
+} else ok('已无 container-type/@container 残留（按格宽判断的方案已全面撤除）');
+
+/* ---------- 12. 立绘格规则：覆盖全站真实宽度 ---------- */
+section('[12] 立绘格规则（文字改到图片下方）必须覆盖全部真实图片宽度');
+/* 规则用「精确 width 字面量」列出立绘宽度，唯一的失效模式是：页面里出现新宽度值而规则没列。
+   这里扫全站比对，把缺失值直接报出来，避免以后新增立绘时那一格悄悄不改。
+   同时检查分界线本身：若出现 <100px 但 >96px 的新尺寸，说明 100px 这条线该重新评估。 */
+const figRule = rules.find((r) => r.selector.includes(':has(> img[width=') && /display:\s*block\s*!important/.test(r.body));
+if (!figRule) bad('找不到立绘格规则（把文字改到图片下方的规则缺失）');
+else {
+  const listed = new Set([...figRule.selector.matchAll(/img\[width="(\d+)"\]/g)].map((m) => Number(m[1])));
+  const ICON_MAX = 96, FIG_MIN = 100;
+  const seen = new Map();
+  const pages = fs.readdirSync(SITE).filter((f) => f.endsWith('.html'));
+  const cellRe = /<td\b[^>]*>\s*<div style="display:\s*flex[^"]*"[^>]*>([\s\S]*?)<\/div>\s*<\/td>/g;
+  for (const f of pages) {
+    const t = fs.readFileSync(path.join(SITE, f), 'utf8');
+    let m; cellRe.lastIndex = 0;
+    while ((m = cellRe.exec(t))) {
+      const im = /<img\b[^>]*>/.exec(m[1]);
+      if (!im) continue;
+      const wm = /\bwidth="(\d+)"/.exec(im[0]);
+      if (!wm) { seen.set('(无 width 属性)', (seen.get('(无 width 属性)') || 0) + 1); continue; }
+      const w = Number(wm[1]);
+      seen.set(w, (seen.get(w) || 0) + 1);
+    }
+  }
+  const figW = [...seen].filter(([w]) => typeof w === 'number' && w >= FIG_MIN);
+  const iconW = [...seen].filter(([w]) => typeof w === 'number' && w <= ICON_MAX);
+  const midW = [...seen].filter(([w]) => typeof w === 'number' && w > ICON_MAX && w < FIG_MIN);
+  const cells = [...seen.values()].reduce((a, b) => a + b, 0);
+  console.log(`  全站图文格 ${cells} 个；立绘档(≥${FIG_MIN}px) ${figW.reduce((a, [, n]) => a + n, 0)} 个 / ${figW.length} 种宽度；图标档(≤${ICON_MAX}px) ${iconW.reduce((a, [, n]) => a + n, 0)} 个 / ${iconW.length} 种宽度`);
+  const missing = figW.filter(([w]) => !listed.has(w)).map(([w, n]) => `${w}(${n}处)`);
+  const extra = [...listed].filter((w) => !seen.has(w));
+  if (missing.length) bad(`规则漏掉了全站真实存在的立绘宽度（这些格不会改成竖排）：${missing.join(', ')}`);
+  else ok(`规则覆盖全部 ${figW.length} 种真实立绘宽度，无遗漏`);
+  if (extra.length) meh(`规则里列了全站已不存在的宽度（可删）：${extra.join(', ')}`);
+  else ok('规则里没有已失效的宽度值');
+  if (midW.length) meh(`出现介于 ${ICON_MAX}–${FIG_MIN}px 之间的新尺寸，分界线该重新评估：${midW.map(([w, n]) => `${w}(${n}处)`).join(', ')}`);
+  else ok(`分界线干净：图标最大 ${Math.max(...iconW.map(([w]) => w))}px、立绘最小 ${Math.min(...figW.map(([w]) => w))}px，${FIG_MIN}px 落在空隙里`);
+  if (seen.has('(无 width 属性)')) meh(`有 ${seen.get('(无 width 属性)')} 个图文格的图片没有 width 属性，规则按字面量判断会漏掉它们`);
+  else ok('全部图文格的图片都带 width 属性（判据成立的前提）');
+}
 
 console.log(`\n结果：${fail} 项失败，${warn} 项提醒`);
 process.exit(fail ? 1 : 0);

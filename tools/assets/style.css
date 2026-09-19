@@ -29,6 +29,7 @@
   --link-visited: #6b4a86;
   --table-head: #dfe7d6;
   --table-alt: #f2f5ec;
+  --cell-tint: #f2f5ec;         /* 上游内联浅色底（#ededed/#f9f9f9/#efefef…）在深色下被改写成这个灰度 */
   --warn: #8a6d1f;
   --warn-bg: #fdf3d6;
   --warn-border: #e6d391;
@@ -77,6 +78,7 @@
     --link-visited: #b79ae0;
     --table-head: #2c342c;
     --table-alt: #262b27;
+    --cell-tint: #2f362f;
     --warn: #e8c877;
     --warn-bg: #3b3218;
     --warn-border: #6b5a2a;
@@ -117,6 +119,7 @@
   --link-visited: #b79ae0;
   --table-head: #2c342c;
   --table-alt: #262b27;
+  --cell-tint: #2f362f;
   --warn: #e8c877;
   --warn-bg: #3b3218;
   --warn-border: #6b5a2a;
@@ -156,11 +159,11 @@
   --link-visited: #6b4a86;
   --table-head: #dfe7d6;
   --table-alt: #f2f5ec;
+  --cell-tint: #f2f5ec;
   --warn: #8a6d1f;
   --warn-bg: #fdf3d6;
   --warn-border: #e6d391;
-  --input-bg: #f7f9f4;
-  --input-text: #1d211d;
+  --input-bg: #f7f9f4;  --input-text: #1d211d;
   --input-border: #2f4630;
   --menu-bg: #ffffff;
   --menu-border: #eef1e8;
@@ -343,9 +346,48 @@ h1.page-title { font-size: 27px; line-height: 1.3; margin: 2px 0 4px; border-bot
    width pushed the outer table's content to 1156px inside an 832px box. */
 .content table table th[style*="width"], .content table table td[style*="width"] { width: auto !important; }
 .content table table { max-width: 100%; }
-/* Flatten the inline flex wrapper so its icon+text cannot inflate the column past its siblings. */
+/* Flatten the inline flex wrapper so its icon+text cannot inflate the column past its siblings.
+   实测更正（2026-09）：这两条其实压不住格子上那个行内 `style="display:flex"`——行内声明
+   优先级高于任何选择器，所以这一格在全站一直是「图文同行」的原样，而不是被拍平成块级。
+   真正的问题因此不是 flex，而是格子太窄：首列 24%/min-width 11em ≈ 176px，而图片固有宽
+   可以是 285px，旁边剩不下几个字，中文就按单字折行。故这里保留原规则（对不带行内 flex 的
+   旧标记仍有意义），真正的修复见下面的容器查询。 */
 .content table > tbody > tr > td:first-child > div[style*="flex"] { display: block; }
 .content table > tbody > tr > td:first-child > div[style*="flex"] > div { margin-left: 0 !important; }
+
+/* ---------- 首列过窄：给图文格一个真实的宽度下限 ----------
+   即使上面把窄格改成了竖排，285px 的立绘塞进 176px 的首列仍然溢出。所以首列需要一个
+   min-width；但不能笼统加到 20em（会把 40 个科技页的 5 列表格撑出横向滚动）。
+   折中：只给「首列里含图文格」的表提高下限——用 :has() 精确限定，其他表格不受影响。
+   不支持的浏览器只是保持现状（窄），不会坏。 */
+.content table:has(> tbody > tr > td:first-child > div[style*="flex"] > img) > tbody > tr > th:first-child,
+.content table:has(> tbody > tr > td:first-child > div[style*="flex"] > img) > tbody > tr > td:first-child {
+  min-width: 17em;
+}
+/* 这类表的「效果」列不再钳死在 46%：首列变宽后要给它让位，否则总宽必然溢出。 */
+.content table:has(> tbody > tr > td:first-child > div[style*="flex"] > img) > tbody > tr > th:last-child,
+.content table:has(> tbody > tr > td:first-child > div[style*="flex"] > img) > tbody > tr > td:last-child {
+  max-width: none;
+}
+/* ---------- 立绘格的文字改到图片下方（用户方案 A） ----------
+   背景：全站 1,174 个「行内 flex + 图片 + 文字」单元格（tools/figure-scan.mjs 实测，49 页）。
+   按用途分成两类，需求正好相反：
+     · 1,006 个是 ≤96px 的图标（成就/列表，其中 64px 成就图标 384 个）——图片与文字并排本来就对；
+     ·   168 个是 ≥100px 的立绘（舰船/飞机/坦克的科技格，最大 306px）——并排时文字只剩几十像素，
+        中文按单字折行，必须把文字放到图片下方、吃满整格宽。
+   判据只用 HTML 里看得见的东西：图片的 width 属性字面量。这里**逐个列出全站真实出现过的
+   34 个立绘宽度值**（由 tools/theme-audit.mjs 第 12 节扫描确认无遗漏），而不是写成宽度范围：
+     · 精确值无误伤——[width="100"] 不会命中 width="1000"，也不会命中图标档的 45/62/64/65/96；
+     · 选择器更少（34 个精确值 vs 90 个范围组合），:has() 的样式重算成本更低。
+   新增立绘宽度时这条规则会漏掉该格——第 12 节会扫描全站比对，漏了就报错并列出缺失的宽度值。 */
+
+
+.content table > tbody > tr > td:first-child > div[style*="flex"]:has(> img[width="100"], > img[width="101"], > img[width="103"], > img[width="105"], > img[width="109"], > img[width="110"], > img[width="111"], > img[width="114"], > img[width="115"], > img[width="116"], > img[width="118"], > img[width="119"], > img[width="120"], > img[width="123"], > img[width="125"], > img[width="127"], > img[width="130"], > img[width="131"], > img[width="132"], > img[width="133"], > img[width="136"], > img[width="140"], > img[width="143"], > img[width="144"], > img[width="145"], > img[width="146"], > img[width="148"], > img[width="153"], > img[width="164"], > img[width="173"], > img[width="249"], > img[width="285"], > img[width="286"], > img[width="306"]) {
+  display: block !important;      /* 压的是格子上那个行内 display:flex */
+}
+.content table > tbody > tr > td:first-child > div[style*="flex"]:has(> img[width="100"], > img[width="101"], > img[width="103"], > img[width="105"], > img[width="109"], > img[width="110"], > img[width="111"], > img[width="114"], > img[width="115"], > img[width="116"], > img[width="118"], > img[width="119"], > img[width="120"], > img[width="123"], > img[width="125"], > img[width="127"], > img[width="130"], > img[width="131"], > img[width="132"], > img[width="133"], > img[width="136"], > img[width="140"], > img[width="143"], > img[width="144"], > img[width="145"], > img[width="146"], > img[width="148"], > img[width="153"], > img[width="164"], > img[width="173"], > img[width="249"], > img[width="285"], > img[width="286"], > img[width="306"]) > img {
+  display: block; margin-bottom: .35em; max-width: 100%; height: auto;
+}
 /* Images must never spill out of their cell or the panel. */
 .content table img { max-width: 100%; height: auto; }
 .content table > tbody > tr > th:last-child,
@@ -525,6 +567,75 @@ h1.page-title { font-size: 27px; line-height: 1.3; margin: 2px 0 4px; border-bot
   }
 }
 
+/* 上游内联浅色底：MediaWiki 把底色写死在 style 里，特异性压过任何普通选择器，
+   只有 !important 能压住。真实的「半亮半暗」实例是国家/机制页的导航框：
+     <td style="width:210px; background:#EDEDED; font-weight:bold">政治</td>
+   深色下该格保持亮灰、相邻的链接格变暗，于是同一张表一半亮一半暗。
+   全站实测：表格单元格内这类浅色底 2,550 处（409 页），其他元素 1,781 处，
+   且「浅色底 + 深色字」的组合为 0 处，所以把它统一改写成 --cell-tint 不会
+   制造浅字压深底的反例。
+   background-image 无需排除：属性选择器要求冒号紧跟属性名，`background-image:`
+   在 `background` 与 `:` 之间多一个 `-`，匹配不上。
+   #d8fcde/#d8e8f0/#d8d8ff/#fbfbd8/#f0e8d8/#ffd8d8 是国策/成就的彩色标签底
+   （各约 100–180 处），同样处理；#ffd8d8 已有旧规则，故顺手并入这里。 */
+/* theme-dark-inline-bg:start */
+/* 只保留真实存在的形式：实测 `background-color:#ededed` 在上游 HTML 里从未出现，
+   `#eee` 只出现在 background-image 里（选中器刻意不匹配它），`#efefef/#f9f9f9`
+   只用 background 简写。命中 0 次的规则参与全站样式重算却毫无作用，故不写。 */
+:root[data-theme="dark"] :is(td, th, div, span, p, li):is(
+    [style*="background:#ededed" i], [style*="background: #ededed" i],
+    [style*="background:#efefef" i], [style*="background: #efefef" i],
+    [style*="background:#f9f9f9" i], [style*="background: #f9f9f9" i],
+    [style*="background-color:#f9f9f9" i], [style*="background-color: #f9f9f9" i],
+    [style*="background:#fafafa" i], [style*="background: #fafafa" i],
+    [style*="background:white" i], [style*="background: white" i]
+  ) { background-color: var(--cell-tint) !important; }
+
+:root[data-theme="dark"] :is(td, th, div, span, p, li):is(
+    [style*="background:#d8fcde" i], [style*="background-color:#d8fcde" i],
+    [style*="background:#d8e8f0" i], [style*="background-color:#d8e8f0" i],
+    [style*="background:#d8d8ff" i], [style*="background-color:#d8d8ff" i],
+    [style*="background:#fbfbd8" i], [style*="background-color:#fbfbd8" i],
+    [style*="background:#f0e8d8" i], [style*="background-color:#f0e8d8" i],
+    [style*="background:#ffd8d8" i], [style*="background-color:#ffd8d8" i]
+  ) { background-color: var(--cell-tint) !important; }
+
+/* 上游内联深色字（含内联 <svg> 的 fill），在深色底上不可读 */
+:root[data-theme="dark"] :is(td, th, div, span, p, li)[style*="color:black" i],
+:root[data-theme="dark"] :is(td, th, div, span, p, li)[style*="color: black" i],
+:root[data-theme="dark"] :is(td, th, div, span, p, li)[style*="color:#000" i],
+:root[data-theme="dark"] [fill="#000000" i],
+:root[data-theme="dark"] [fill="#000" i] { color: var(--text) !important; fill: var(--text) !important; }
+/* theme-dark-inline-bg:end */
+
+@media (prefers-color-scheme: dark) {
+  /* 「自动」状态必须与上面的手动深色逐条同步：选择器只差冒号前那一段。
+     已核对两段块内规则数一致（tools/theme-audit.mjs 第 9 节）。 */
+  :root:not([data-theme]) :is(td, th, div, span, p, li):is(
+      [style*="background:#ededed" i], [style*="background: #ededed" i],
+      [style*="background:#efefef" i], [style*="background: #efefef" i],
+      [style*="background:#f9f9f9" i], [style*="background: #f9f9f9" i],
+      [style*="background-color:#f9f9f9" i], [style*="background-color: #f9f9f9" i],
+      [style*="background:#fafafa" i], [style*="background: #fafafa" i],
+      [style*="background:white" i], [style*="background: white" i]
+    ) { background-color: var(--cell-tint) !important; }
+
+  :root:not([data-theme]) :is(td, th, div, span, p, li):is(
+      [style*="background:#d8fcde" i], [style*="background-color:#d8fcde" i],
+      [style*="background:#d8e8f0" i], [style*="background-color:#d8e8f0" i],
+      [style*="background:#d8d8ff" i], [style*="background-color:#d8d8ff" i],
+      [style*="background:#fbfbd8" i], [style*="background-color:#fbfbd8" i],
+      [style*="background:#f0e8d8" i], [style*="background-color:#f0e8d8" i],
+      [style*="background:#ffd8d8" i], [style*="background-color:#ffd8d8" i]
+    ) { background-color: var(--cell-tint) !important; }
+
+  :root:not([data-theme]) :is(td, th, div, span, p, li)[style*="color:black" i],
+  :root:not([data-theme]) :is(td, th, div, span, p, li)[style*="color: black" i],
+  :root:not([data-theme]) :is(td, th, div, span, p, li)[style*="color:#000" i],
+  :root:not([data-theme]) [fill="#000000" i],
+  :root:not([data-theme]) [fill="#000" i] { color: var(--text) !important; fill: var(--text) !important; }
+}
+
 @media print {
   .topbar, .sidebar, .site-footer, .toc, .cov-banner, .theme-pick { display: none; }
   .content { border: 0; padding: 0; }
@@ -543,6 +654,7 @@ h1.page-title { font-size: 27px; line-height: 1.3; margin: 2px 0 4px; border-bot
     --link-visited: #6b4a86;
     --table-head: #e8e8e8;
     --table-alt: #f7f7f7;
+    --cell-tint: #f2f2f2;
     --warn: #8a6d1f;
     --warn-bg: #fdf3d6;
     --warn-border: #e6d391;
