@@ -411,5 +411,50 @@ else {
   else ok('全部图文格的图片都带 width 属性（判据成立的前提）');
 }
 
+/* ---------- 13. 等宽对照表规则：范围必须收窄 ---------- */
+section('[13] 等宽对照表规则（table-layout: fixed）的范围');
+/* 这条规则最大的风险是误伤：全站有 577 个带 caption 的表格，其中 572 个是多行数据表，
+   若只用 table:has(> caption) 就会把它们全部改成固定布局。所以选择器加了
+   「首行含图文格」这个条件，实测只命中 4 个「总体学说」表。这里把命中数固定成断言：
+   数字变大说明选择器放松了、可能误伤别的表；变小说明有表的结构变了、规则没跟上。 */
+const fixedRule = rules.find((r) => /table-layout:\s*fixed/.test(r.body));
+if (!fixedRule) bad('找不到 table-layout: fixed 的等宽规则');
+else {
+  const sel = fixedRule.selector.trim();
+  const hasCaption = /:has\(>\s*caption\)/.test(sel);
+  const hasImgCell = /:has\(>\s*tbody\s*>\s*tr:first-child\s*>\s*td\s*>\s*div\[style\*="flex"\]\s*>\s*img\)/.test(sel);
+  if (!hasCaption) bad('选择器没有限定 caption，会命中不带标题的表格');
+  else if (!hasImgCell) bad('选择器没有限定「首行含图文格」，会把 572 个多行数据表一起改成固定布局');
+  else ok('选择器同时限定了 caption 与首行图文格');
+
+  // 扫全站，数出真正命中这个组合的表
+  const pages = fs.readdirSync(SITE).filter((f) => f.endsWith('.html'));
+  const matched = [];
+  const tblRe = /<table\b[^>]*>[\s\S]*?<\/table>/g;
+  for (const f of pages) {
+    const t = fs.readFileSync(path.join(SITE, f), 'utf8');
+    let m; tblRe.lastIndex = 0;
+    while ((m = tblRe.exec(t))) {
+      const tb = m[0];
+      if (!/^\s*<table\b[^>]*>\s*<caption>/.test(tb)) continue;
+      const tbody = /<tbody>([\s\S]*?)<\/tbody>/.exec(tb);
+      if (!tbody) continue;
+      const firstRow = /<tr\b[\s\S]*?<\/tr>/.exec(tbody[1]);
+      if (!firstRow) continue;
+      const tds = firstRow[0].match(/<td\b[\s\S]*?<\/td>/g) || [];
+      const imgCells = tds.filter((c) => /display:\s*flex/.test(c) && /<img\b/.test(c)).length;
+      if (imgCells >= 1) matched.push({ page: f, cols: tds.length, imgCells });
+    }
+  }
+  console.log(`  命中「caption + 首行含图文格」的表：${matched.length} 个`);
+  for (const r of matched) console.log(`    ${r.page}  ${r.cols} 列 / 图文格 ${r.imgCells}`);
+  if (matched.length === 0) bad('没有任何表命中该规则——规则已成死代码');
+  else if (matched.length <= 8) ok(`命中范围收窄有效（${matched.length} 个表，未波及 572 个多行数据表）`);
+  else bad(`命中 ${matched.length} 个表，范围过大，需要再加限定条件`);
+  // 命中的表必须是单行表（多行表不该套用首行等宽）
+  const multi = matched.filter((r) => r.cols === 0);
+  if (multi.length) meh(`有 ${multi.length} 个命中表未能解析出列数，建议人工确认`);
+}
+
 console.log(`\n结果：${fail} 项失败，${warn} 项提醒`);
 process.exit(fail ? 1 : 0);

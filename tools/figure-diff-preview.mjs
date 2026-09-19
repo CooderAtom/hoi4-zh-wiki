@@ -195,13 +195,20 @@ const shell = `<!DOCTYPE html>
   h1 { font-size:17px; margin:12px 14px 4px; }
   p.note { margin:0 14px 12px; color:#aaa; max-width:1200px; }
   h2 { font-size:13px; margin:12px 14px 4px; color:#8fbf8a; }
+  /* iframe 必须 flex:0 0 auto：默认 flex-shrink:1 会把它压到比 width 属性更窄，
+     那样 iframe 的视口宽度 ≠ 标签数字，媒体查询与百分比都按错误宽度算，预览即失真
+     （踩过一次：780px 档被压到约 460px，看起来和手机一样）。一行放不下时本页横向滚动。 */
   .row { display:flex; gap:12px; padding:0 14px 16px; align-items:flex-start; }
-  iframe { border:1px solid #444; background:#fff; display:block; }
+  .row > div { flex:0 0 auto; }
+  iframe { border:1px solid #444; background:#fff; display:block; flex:0 0 auto; }
   .lbl { font:12px monospace; color:#888; margin:0 0 3px; }
+  .warn { color:#e8c877; }
 </style></head>
 <body>
 <h1>图文格修复：改动前 vs 改动后</h1>
 <p class="note">
+  <span class="warn">每对 iframe 按标注宽度 1:1 渲染、不做压缩</span>，一行放不下时本页横向滚动——
+  请横向滚动查看，不要缩小窗口，否则视口宽度就不是标注值了。<br>
   <b>怎么看这一页</b>：请直接<b>用眼睛比较左右两边</b>——左边是改动前，右边是改动后，同一段真实表格、同一宽度。
   每边顶部那两行数字只是辅助（表格是否横向溢出 / 两个图文格的排布方式、首列宽、图片渲染宽与固有宽、描述块宽×高）。<br>
   <b>本次只改了一件事</b>：格子窄的时候，文字从「挤在图片右边」改为「落到图片下方、吃满整格宽」；
@@ -209,7 +216,7 @@ const shell = `<!DOCTYPE html>
   <b>两个 iframe 引用的是两份真实样式表</b>（<code>before.css</code> 已断言不含修复，<code>after.css</code> 即站点当前生效的
   <code>site/assets/style.css</code>），没有任何规则模拟。三档宽度分别是 1064 / 780 / 420px。
 </p>
-${WIDTHS.map((w) => `<h2>iframe 宽 ${w}px</h2>
+${WIDTHS.map((w) => `<h2>iframe 宽 ${w}px（视口真实宽度 ${w}px）</h2>
 <div class="row">
   <div><p class="lbl">改动前</p><iframe src="before-w${w}.html" width="${w}" height="560"></iframe></div>
   <div><p class="lbl">改动后</p><iframe src="after-w${w}.html" width="${w}" height="560"></iframe></div>

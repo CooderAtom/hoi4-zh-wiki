@@ -388,6 +388,67 @@ h1.page-title { font-size: 27px; line-height: 1.3; margin: 2px 0 4px; border-bot
 .content table > tbody > tr > td:first-child > div[style*="flex"]:has(> img[width="100"], > img[width="101"], > img[width="103"], > img[width="105"], > img[width="109"], > img[width="110"], > img[width="111"], > img[width="114"], > img[width="115"], > img[width="116"], > img[width="118"], > img[width="119"], > img[width="120"], > img[width="123"], > img[width="125"], > img[width="127"], > img[width="130"], > img[width="131"], > img[width="132"], > img[width="133"], > img[width="136"], > img[width="140"], > img[width="143"], > img[width="144"], > img[width="145"], > img[width="146"], > img[width="148"], > img[width="153"], > img[width="164"], > img[width="173"], > img[width="249"], > img[width="285"], > img[width="286"], > img[width="306"]) > img {
   display: block; margin-bottom: .35em; max-width: 100%; height: auto;
 }
+/* ---------- 对照表：首行各列等宽 ----------
+   4 个「总体学说」对照表（Land / Air / Naval / Special_forces doctrine，列数 2/3/3/4），
+   每列结构相同：64px 图标 + 标题 + 要点 + 一段斜体描述。实测各列文本量非常接近
+   （Land_doctrine 是 86 / 83 / 95 / 90 字），内容上就该等宽。
+   但全局规则给首列 24%、末列 46%（max-width:46%），中间列没有任何声明：
+     4 列表 → 中列各剩 (100−24−46)/2 = 15%；3 列表 → 30%；2 列表 → 剩 30% 无从分配
+   实测后果：Land_doctrine 首行第 2、3 列被压到几十像素，标题「优势火力」「大规模作战计划」
+   一个字一行。用户还指出等宽后仍不合理——第 4 列大片空白而中间仍挤，原因是两条：
+     ① `width: 25%` 在自动表格布局里只是**建议值**，内容多的列照样抢空间；
+     ② 站点对表格设了 `width: max-content`，用它算出的可用宽度本身就等于 max-content，
+        百分比形同虚设，浏览器转而按内容分配。
+   所以要真等宽必须三条一起改：display 回 table（table-layout 只在表格布局下生效）、
+   宽度改为 100%（拿到真实可用宽度）、table-layout: fixed（让百分比成为硬约束）。
+   只对「总体学说」这类表生效。判据是 `table:has(> caption)` **加上**首行含图文格——
+   实测这个组合只命中 4 个表（Land/Air/Naval/Special_forces doctrine），
+   而单用 caption 会命中 577 个表（其中 572 个是多行数据表），一刀切会把它们全改坏。
+   还有一处必须抵住：站点对表格设了 `width: max-content`，它算出的可用宽度本身就等于
+   max-content，百分比形同虚设；所以要显式改回 `display: table` + `width: 100%`，
+   再用 `table-layout: fixed` 让百分比成为硬约束。只写 `width: 25%` 是不够的——
+   自动布局里它只是建议值，内容多的列照样抢空间（第 3 列撑开、第 4 列留白就是这么来的）。 */
+.content table:has(> caption):has(> tbody > tr:first-child > td > div[style*="flex"] > img) {
+  display: table;
+  width: 100%;
+  /* 关键：必须同时抬掉全局的 min-width: 100%（L322）与末列的 min-width: 11em（L342，≈176px）。
+     否则窄屏下（例如 420px 视口、容器 385px）两条最小宽度就把表宽占满，
+     中间两列只剩十几像素，「等宽」在物理上不可能实现——实测就是那样。
+     40em ≈ 620px 是每列约 155px 的下限（图标 64px + 文字约 80px ≈ 5 个汉字/行）：
+     30em 时每列仅 116px，正文只剩约 3 字/行，仍然难读，故取 40em。
+     低于容器宽度时表格横向滚动，由 .content table 的 overflow-x: auto 承担——
+     4 列对照表在手机上一行本就放不下，横滚比「一个字一行」可读。 */
+  min-width: 40em !important;
+  table-layout: fixed;
+}
+.content table:has(> caption):has(> tbody > tr:first-child > td > div[style*="flex"] > img) > tbody > tr:first-child > td {
+  width: 25% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+}
+/* 窄屏：图文竖排（图标在上、文字在下），与站内立绘格同一手法。
+   起因：420px 视口下即使给了 40em 最小宽度，仍要横向滚动——因为每列必须同时容纳
+   「64px 图标 + 右侧文字」。竖排后文字拿到整格宽，列的最小宽度需求降到「图标本身 64px」，
+   于是表格不必横滚，观感也和站内其他图文格一致。
+   实测这 4 个表的每格都是 `<td><div style="display:flex">…`（flex 是 td 的直接子元素），
+   所以用 `> div[style*="flex"]` 精确命中，不会波及格内其他 div。
+   26em ≈ 416px 是取值权衡：420px 视口下基本无需横滚；每列约 104px、正文约 3 个汉字/行。
+   高度会明显增加（约 2 倍），这是竖排的必然代价。 */
+@media (max-width: 560px) {
+  .content table:has(> caption):has(> tbody > tr:first-child > td > div[style*="flex"] > img) {
+    min-width: 26em !important;
+  }
+  .content table:has(> caption):has(> tbody > tr:first-child > td > div[style*="flex"] > img) > tbody > tr:first-child > td > div[style*="flex"] {
+    display: block !important;
+  }
+  .content table:has(> caption):has(> tbody > tr:first-child > td > div[style*="flex"] > img) > tbody > tr:first-child > td > div[style*="flex"] > div {
+    margin-left: 0 !important;
+  }
+  .content table:has(> caption):has(> tbody > tr:first-child > td > div[style*="flex"] > img) > tbody > tr:first-child > td > div[style*="flex"] > img {
+    display: block;
+    margin: 0 auto .35em;
+  }
+}
 /* Images must never spill out of their cell or the panel. */
 .content table img { max-width: 100%; height: auto; }
 .content table > tbody > tr > th:last-child,
