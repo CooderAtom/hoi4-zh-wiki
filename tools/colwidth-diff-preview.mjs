@@ -116,7 +116,7 @@ ${table}
 </main>
 </body></html>`;
 
-const WIDTHS = [1064, 780, 420];
+const WIDTHS = [1064, 780, 543, 420];   // 543 = 用户手机的视口宽度（截图实测）
 for (const which of ['before', 'after']) {
   for (const w of WIDTHS) {
     fs.writeFileSync(path.join(OUT, `${which}-w${w}.html`), frame(which, which === 'before' ? '改动前' : '改动后', w));

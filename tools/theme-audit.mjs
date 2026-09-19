@@ -365,9 +365,22 @@ if (badSel.length) {
   bad(`有 ${badSel.length} 条规则的选择器含中文或分号 = 注释正文漏成了裸文本：`
     + JSON.stringify(badSel[0].selector.slice(0, 60)));
 } else ok(`全部 ${rules.length} 条规则的选择器形态正常（无注释正文漏出）`);
-if (/container-type|@container/.test(css)) {
-  meh('样式表里仍有 container-type/@container —— 按格宽判断的方案已废弃（见第 12 节注释），确认这是有意的');
-} else ok('已无 container-type/@container 残留（按格宽判断的方案已全面撤除）');
+/* 容器查询现在是**有意使用**的：立绘格那套「按格宽判断」的方案已废弃（见第 12 节），
+   但「总体学说对照表窄屏竖排」改用容器查询按正文区宽度判断——比视口媒体查询稳定，
+   不受设备视口宽度、iframe、桌面窗口宽度差异影响。所以这里不再是"残留"检查，
+   改为验证用法：容器查询阈值必须有同值的视口媒体查询兜底（老浏览器不支持 @container）。 */
+const ctRules = rules.filter((r) => /container-type\s*:/.test(r.body));
+if (!ctRules.length) meh('没有 container-type —— 对照表窄屏竖排将只依赖视口媒体查询（阈值受设备影响）');
+else ok(`container-type 声明 ${ctRules.length} 处（对照表窄屏竖排按正文区宽度判断）`);
+const cqBlocks = css.match(/@container[^{]*\{[\s\S]*?\n\}/g) || [];
+const cqNums = [...new Set(cqBlocks.map((s) => ((s.match(/@container[^{]*\(([^)]*)\)/) || [])[1] || '').match(/(\d+)px/)?.[1]).filter(Boolean))];
+if (cqBlocks.length) {
+  console.log(`  容器查询阈值: ${cqNums.join(' / ') || '(无)'}px`);
+  const mqAll = css.match(/@media\s*\(max-width:\s*\d+px\)/g) || [];
+  const missing = cqNums.filter((n) => !mqAll.some((m) => m.includes(n)));
+  if (missing.length) meh(`容器查询阈值 ${missing.join('px/')}px 没有同值的视口媒体查询兜底，老浏览器不会竖排`);
+  else ok(`容器查询阈值 ${cqNums.join('px/')}px 都有同值的视口媒体查询兜底`);
+}
 
 /* ---------- 12. 立绘格规则：覆盖全站真实宽度 ---------- */
 section('[12] 立绘格规则（文字改到图片下方）必须覆盖全部真实图片宽度');

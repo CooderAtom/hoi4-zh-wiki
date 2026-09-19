@@ -432,8 +432,28 @@ h1.page-title { font-size: 27px; line-height: 1.3; margin: 2px 0 4px; border-bot
    于是表格不必横滚，观感也和站内其他图文格一致。
    实测这 4 个表的每格都是 `<td><div style="display:flex">…`（flex 是 td 的直接子元素），
    所以用 `> div[style*="flex"]` 精确命中，不会波及格内其他 div。
-   26em ≈ 416px 是取值权衡：420px 视口下基本无需横滚；每列约 104px、正文约 3 个汉字/行。
-   高度会明显增加（约 2 倍），这是竖排的必然代价。 */
+   为什么同时写「容器查询」和「视口媒体查询」两套：
+     起初只用 @media (max-width:560px)，但用户手机上（视口 543px）实测没生效，
+     排查时无法确定是缓存还是阈值——视口宽度取决于设备，我这边又无法用浏览器验证。
+     容器查询按**正文区域的实际宽度**判断（.content 成为容器），
+     与设备/视口无关，也不受 iframe 与桌面窗口差异影响，判定更稳定；
+     媒体查询留着兜底不支持容器查询的浏览器。两套条件取并集，互不冲突。 */
+.content { container-type: inline-size; container-name: docbody; }
+@container docbody (max-width: 560px) {
+  .content table:has(> caption):has(> tbody > tr:first-child > td > div[style*="flex"] > img) {
+    min-width: 26em !important;
+  }
+  .content table:has(> caption):has(> tbody > tr:first-child > td > div[style*="flex"] > img) > tbody > tr:first-child > td > div[style*="flex"] {
+    display: block !important;
+  }
+  .content table:has(> caption):has(> tbody > tr:first-child > td > div[style*="flex"] > img) > tbody > tr:first-child > td > div[style*="flex"] > div {
+    margin-left: 0 !important;
+  }
+  .content table:has(> caption):has(> tbody > tr:first-child > td > div[style*="flex"] > img) > tbody > tr:first-child > td > div[style*="flex"] > img {
+    display: block;
+    margin: 0 auto .35em;
+  }
+}
 @media (max-width: 560px) {
   .content table:has(> caption):has(> tbody > tr:first-child > td > div[style*="flex"] > img) {
     min-width: 26em !important;
