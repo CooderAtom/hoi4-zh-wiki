@@ -1,6 +1,119 @@
 /* 离线全文搜索 + 站点交互（无依赖，file:// 直接可用） */
 (function () {
   'use strict';
+
+  /* ---------- 主题：三态（自动 / 浅色 / 深色）----------
+     状态→样式的映射全在 style.css 里，这里只做两件事：写对 <html> 上的
+     data-theme 属性，以及把「自动/浅/深」渲染成一个原生 <select>。
+     控件由 JS 注入，因此 660 个页面不需要任何 HTML 改动即可全站生效
+     （cache/pages 已丢失，07-build.mjs 无法再生成页面，这是硬约束）。
+
+     持久化用 localStorage，但它在 file:// 源下可能直接抛 SecurityError
+     （Chrome 对 file:// 的存储判定不稳定），而本站必须同时支持 file:// 双击
+     打开与 GitHub Pages 两种用法，因此每次存取都必须容错：存不了就退化为
+     「本次会话有效」，并在控制台留一条说明，绝不因为存不了而让控件失灵。
+     注意：没有 data-theme 就等于自动，所以选「自动」时必须 removeAttribute，
+     不能把属性设成空串或 "auto"。 */
+  var THEME_KEY = 'hoi4-theme';
+  var THEME_BG = { light: '#f4f5f0', dark: '#1b1f1c' };
+  var THEME_LABEL = { auto: '自动跟随系统', light: '浅色', dark: '深色' };
+  var THEME_LABEL_SHORT = { auto: '自动', light: '浅', dark: '深' };
+  var root = document.documentElement;
+  var mqDark = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+  /* 560px 以下顶栏放不下「自动跟随系统」这种长标签（已按 560 断点算过总宽），
+     故窄屏改单字标签，宽度上限同步由 CSS 收到 2.9em。 */
+  var mqNarrow = window.matchMedia ? window.matchMedia('(max-width: 560px)') : null;
+  var themeSelect = null;
+  var lastLogged = null;
+
+  function warnOnce(e) {
+    if (lastLogged === e.name) return;
+    lastLogged = e.name;
+    if (window.console && console.info) {
+      console.info('主题偏好无法持久化（' + e.name + '，file:// 下常见），本次选择仅在当前页面有效。');
+    }
+  }
+  function storedChoice() {
+    try {
+      var v = localStorage.getItem(THEME_KEY);
+      return v === 'light' || v === 'dark' ? v : 'auto';
+    } catch (e) { warnOnce(e); return 'auto'; }
+  }
+  function saveChoice(v) {
+    try { if (v === 'auto') localStorage.removeItem(THEME_KEY); else localStorage.setItem(THEME_KEY, v); }
+    catch (e) { warnOnce(e); }
+  }
+  /* 把选择落到 DOM。auto 交给 CSS 的 prefers-color-scheme 处理，不写属性。 */
+  function applyTheme(choice) {
+    if (choice === 'light' || choice === 'dark') root.setAttribute('data-theme', choice);
+    else root.removeAttribute('data-theme');
+    applyMetaThemeColor();
+  }
+  /* 移动端浏览器 UI（地址栏）配色；页面里本来没有这个 meta，按需建。 */
+  function applyMetaThemeColor() {
+    var explicit = root.getAttribute('data-theme');
+    var dark = explicit ? explicit === 'dark' : !!(mqDark && mqDark.matches);
+    var m = document.querySelector('meta[name="theme-color"]');
+    if (!m) {
+      m = document.createElement('meta');
+      m.setAttribute('name', 'theme-color');
+      if (document.head) document.head.appendChild(m);
+    }
+    m.setAttribute('content', THEME_BG[dark ? 'dark' : 'light']);
+  }
+  function buildThemeSelect() {
+    var bar = document.querySelector('.topbar-inner');
+    if (!bar || themeSelect) return;
+    var sel = document.createElement('select');
+    sel.className = 'theme-pick';
+    sel.setAttribute('aria-label', '主题配色');
+    sel.title = '主题配色：自动跟随系统 / 浅色 / 深色';
+    ['auto', 'light', 'dark'].forEach(function (v) {
+      var o = document.createElement('option');
+      o.value = v;
+      sel.appendChild(o);
+    });
+    sel.value = storedChoice();
+    sel.addEventListener('change', function () {
+      saveChoice(sel.value);
+      applyTheme(sel.value);
+    });
+    bar.appendChild(sel);
+    themeSelect = sel;
+    setThemeLabels();
+  }
+  function setThemeLabels() {
+    if (!themeSelect) return;
+    var set = (mqNarrow && mqNarrow.matches) ? THEME_LABEL_SHORT : THEME_LABEL;
+    Array.prototype.forEach.call(themeSelect.options, function (o) {
+      var t = set[o.value];
+      if (o.textContent !== t) o.textContent = t;
+    });
+  }
+
+  /* 尽快应用已保存的选择。app.js 在 <head> 里带 defer，因此本函数在 DOMContentLoaded
+     之前、页面首次绘制之前就会执行；配合 CSS 的 color-scheme 落定默认底色，
+     不会再出现「先亮后暗」的闪白。 */
+  (function themeBoot() {
+    root.className = (root.className || '') + ' has-js';
+    var choice = storedChoice();
+    applyTheme(choice);
+    /* 手动深色/浅色时，系统主题改变不该影响本页；只有「自动」才需要跟着系统切换
+       （配色由 CSS 自己处理，这里只需更新地址栏颜色）。 */
+    if (mqDark) {
+      var onChange = function () { applyMetaThemeColor(); };
+      if (mqDark.addEventListener) mqDark.addEventListener('change', onChange);
+      else if (mqDark.addListener) mqDark.addListener(onChange);
+    }
+    if (mqNarrow) {
+      var onNarrow = function () { setThemeLabels(); };
+      if (mqNarrow.addEventListener) mqNarrow.addEventListener('change', onNarrow);
+      else if (mqNarrow.addListener) mqNarrow.addListener(onNarrow);
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', buildThemeSelect);
+    else buildThemeSelect();
+  })();
+
   var DATA = window.HOI4_INDEX || { pages: [], hub: {} };
   var PAGES = DATA.pages || [];
   var byHref = {};

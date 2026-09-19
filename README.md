@@ -1902,6 +1902,9 @@ hoi4-zh-wiki\
     08h-export-terms   纯按覆盖页数导出短术语（MIO 表格单元格等，单条可覆盖 100+ 页）
     99-offline-check   离线自检：图片、外链、站内链接完整性
     99-image-need      计算重建后仍缺失的图片清单
+    theme-audit.mjs    主题自检：令牌结构 / 浅色值回归 / 深色对比度 / 内联色分布
+    theme-test.mjs     主题逻辑测试：真实 app.js 跑在假 DOM 上，断言三态与存储异常
+    theme-preview.mjs  生成主题静态对照页（输出到 cache\，不上传）
     dom.mjs            自研最小 DOM 解析/序列化器
     sanitize.mjs       清洗模板噪声、本地化链接与图片、公式转文本
     units.mjs          翻译单元抽取与回填
@@ -1912,7 +1915,7 @@ hoi4-zh-wiki\
     batches\           翻译批次与译文（*.json / *.zh.json）
     tm.json            翻译记忆库（12,958 条）
     build-report.json  构建报告            coverage-by-page.json 逐页完成度
-  cache\pages\         原始页面缓存（可离线重建全站，无需重新抓站）
+  cache\pages\         原始页面缓存（⚠️ 当前不存在，见下方「重建前置条件」）
   site\                最终成品（英文目录名 + 中文内容）
     images\            本地图片与图标（9,324 个）
     assets\            样式、脚本、搜索索引
@@ -1931,6 +1934,40 @@ node tools\99-offline-check.mjs # 自检：图片/链接是否全部本地可用
 #    tools\05f-download.mjs 等下载，07-build.mjs 只写 HTML，不会重新拷贝图片。
 #    若删除 site\ 全目录，必须先备份 site\images\，否则图片全部丢失。
 ```
+
+**重建前置条件（2026-09 实测）**：`07-build.mjs` 读的是 `cache\pages\*.json`，而 `cache\` 未纳入版本控制（见 .gitignore），当前工作区里 `cache\pages\` **已经不存在**：
+
+```
+$ node tools/07-build.mjs --only "Air combat" --no-articles
+Error: ENOENT: no such file or directory, scandir '...\cache\pages'
+```
+
+后果：**现在无法重新生成任何一个 HTML 页面**。要恢复必须先重跑 `03-fetch-all.mjs` + `04-extract.mjs`（约 1 GB 重新抓站）。因此凡是不改 HTML 的改动（`site\assets\` 下的样式与脚本）可以直接改；凡是要动 `page.mjs`/`sanitize.mjs` 输出的改动，都得先重建缓存。这条约束直接决定了主题功能为什么用注入式实现而不是改模板。
+
+---
+
+## 三·补、主题（浅色 / 深色 / 自动跟随）
+
+顶栏右侧的「自动 / 浅 / 深」三态开关。**660 个页面共用 `assets/style.css` 与 `assets/app.js`，因此控件由 app.js 注入 `.topbar-inner`，页面 HTML 一个字节都不用改**——这正是上面那条「cache\pages 不存在」约束的产物，而不是风格偏好。
+
+实现要点：
+
+* **状态只在 `<html>` 上用一个属性表示**：无 `data-theme` = 自动（交给 `@media (prefers-color-scheme: dark)`），`data-theme="light"` / `"dark"` = 强制。状态→样式的映射全在 CSS 里，JS 不做条件判断。手动浅色块排在手动深色块之后，因此同特异性下能压过系统深色偏好。
+* **`color-scheme` 必须跟着主题走**：它决定表单控件、滚动条、`<select>` 下拉菜单与 `file://` 下画布默认底色的原生渲染。漏掉就会出现「页面全黑但搜索框雪白」。
+* **localStorage 双容错**：本站要同时支持 `file://` 双击打开与 GitHub Pages，而 Chrome 在 `file://` 源下可能直接对 `localStorage` 抛 `SecurityError`。故读写都包了 try/catch，存不了就退化为「本次会话有效」并在控制台提示，控件绝不失灵。
+* **配色不是把浅色翻转**，而是按语义重定值（绿/红/橙 = 正负修正，灰底 = 表格与信息框，21 种上游彩色底 = 成就/国策标签）。深色下正文对比度 13.3:1、链接 7.2:1、上游红字 5.8:1（浅色下原为 4.0:1，未达 AA）。
+* **图片保持原图**：9,101 张白底游戏截图/国策树/国旗，白底是画面内容而非页面底色，反色会毁掉真实配色。深色下只给容器加一点边框与圆角，让亮块看起来像画框。CSS 里没有一张图片引用，所以没有额外开销。
+* **静态演示页**：`node tools\theme-preview.mjs` 生成 `cache\theme-preview\index.html`（`cache\` 不上传），同屏并排渲染自动/浅色/深色/窄屏四种情形，直接引用 `site\assets\` 下的真实文件，不会过期。
+
+自检（改了样式或主题逻辑后应全绿）：
+
+```powershell
+node tools\theme-audit.mjs   # CSS 结构：四套令牌集合一致、var() 无悬空、浅色值未漂移、深色对比度、内联色分布
+node tools\theme-test.mjs    # app.js 逻辑：把真实 app.js 放进假 DOM 执行，断言三态/存储异常/边界情况
+node tools\theme-preview.mjs # 生成静态对照页
+```
+
+**人工验收**（沙箱内 Chrome 无法启动，实测 `mojo platform_channel.cc:108 Check failed: 拒绝访问`，截不了图，故这一步必须由人做）：打开任一真实页面，切系统主题看「自动」是否跟随；下拉选「深色」后刷新应保持；选「自动」后应重新跟随系统。验收时重点看三类残留：①上游内联灰底块（`#ededed`/`#f9f9f9`/`#efefef`，全站约 7,000 处）②信息框里的内联深蓝链接 ③图片画框是否合适。这三类正是下一阶段（把内联色在构建期收敛成 CSS 变量）要处理的对象，现阶段只做了字色覆盖。
 
 ---
 

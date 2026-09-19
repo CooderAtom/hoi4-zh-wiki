@@ -1,8 +1,25 @@
 /* 钢铁雄心 IV 中文离线资料库 —— 站点样式 */
+/* ==================================================================
+   主题系统（浅色 / 深色 / 自动跟随系统）
+   ------------------------------------------------------------------
+   三种状态只靠 <html> 上的一个属性区分，状态→样式的映射全在 CSS 里：
+     无 data-theme        自动：跟随系统（见下面的 @media (prefers-color-scheme: dark)）
+     data-theme="dark"    强制深色
+     data-theme="light"   强制浅色（排在深色块之后，因此能压过系统深色偏好）
+   JS（app.js）只负责把这个属性写对，不做任何条件判断。
+
+   颜色一律走语义变量。原文件里有 37 处硬编码颜色，深色下会变成「页面黑了、
+   搜索框/代码块/目录框还是白的」这类斑块，故全部提成变量；浅色取值与原值
+   逐字节相同（diff 里只应出现属性名替换，不应出现色值变化）。
+   深色不是把浅色翻转，而是按语义重定值：绿/红/橙 = 正负修正，灰底 = 表格与
+   信息框，21 种上游彩色底 = 成就/国策标签。对比度实测见提交说明。
+   ================================================================== */
 :root {
+  /* —— 品牌绿 —— */
   --green: #5b7f5b;
   --green-dark: #3f5c3f;
   --green-light: #96be96;
+  /* —— 骨架 —— */
   --bg: #f4f5f0;
   --panel: #ffffff;
   --text: #1d211d;
@@ -14,8 +31,163 @@
   --table-alt: #f2f5ec;
   --warn: #8a6d1f;
   --warn-bg: #fdf3d6;
+  --warn-border: #e6d391;
+  /* —— 顶栏（深绿渐变，两套主题共用，不参与深色重定值）—— */
+  --topbar-1: #4e6f4e;
+  --topbar-2: #3d5a3d;
+  --topbar-text: #fff;
+  --topbar-nav: #f0f4ec;
+  /* —— 控件 —— */
+  --input-bg: #f7f9f4;
+  --input-text: #1d211d;
+  --input-border: #2f4630;
+  --menu-bg: #ffffff;
+  --menu-border: #eef1e8;
+  --hover-bg: #eef4e6;
+  --cur-bg: #dfe7d6;
+  --nav-label: #3f5c3f;        /* 侧栏分组标题 / 目录标题的绿字 */
+  /* —— 正文细节 —— */
+  --code-bg: #eef1e8;
+  --pre-bg: #f6f8f2;
+  --blockquote-bg: #f8faf5;
+  --blockquote-text: #33402f;
+  --head4: #2c3a2c;
+  --toc-bg: #f7f9f3;
+  --hint: #333d31;
+  --special-link: #2b3a2b;      /* 信息框/公式区里那批内联 color:#245a8d 的链接 */
+  --mark-bg: #ffe9a8;
+  --shadow: rgba(0, 0, 0, .22);
+  --shadow-strong: rgba(0, 0, 0, .3);
+  --backdrop: rgba(0, 0, 0, .42);
   --radius: 4px;
   --maxw: 1180px;
+}
+/* 自动：跟随系统。:not([data-theme]) 保证「手动选择」永远压过系统偏好。 */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --bg: #1b1f1c;
+    --panel: #232824;
+    --text: #e3e7e1;
+    --muted: #a3ada1;
+    --border: #3a423b;
+    --green: #6f9d6f;
+    --green-dark: #a8cba4;
+    --green-light: #557a55;
+    --link: #79b8ff;
+    --link-visited: #b79ae0;
+    --table-head: #2c342c;
+    --table-alt: #262b27;
+    --warn: #e8c877;
+    --warn-bg: #3b3218;
+    --warn-border: #6b5a2a;
+    --input-bg: #1b1f1c;
+    --input-text: #e3e7e1;
+    --input-border: #4a5a4a;
+    --menu-bg: #232824;
+    --menu-border: #2f362f;
+    --hover-bg: #2c342c;
+    --cur-bg: #35402f;
+    --nav-label: #a8cba4;
+    --code-bg: #1e2420;
+    --pre-bg: #1e2420;
+    --blockquote-bg: #1e241f;
+    --blockquote-text: #c8d2c6;
+    --head4: #d3dcd1;
+    --toc-bg: #1f2421;
+    --hint: #c0cabd;
+    --special-link: #8fc0ec;
+    --mark-bg: #5c4a1a;
+    --shadow: rgba(0, 0, 0, .55);
+    --shadow-strong: rgba(0, 0, 0, .65);
+    --backdrop: rgba(0, 0, 0, .6);
+  }
+}
+
+/* 手动深色：与上面的自动块逐项一致（改配色时两处必须同步）。 */
+:root[data-theme="dark"] {
+  --bg: #1b1f1c;
+  --panel: #232824;
+  --text: #e3e7e1;
+  --muted: #a3ada1;
+  --border: #3a423b;
+  --green: #6f9d6f;
+  --green-dark: #a8cba4;
+  --green-light: #557a55;
+  --link: #79b8ff;
+  --link-visited: #b79ae0;
+  --table-head: #2c342c;
+  --table-alt: #262b27;
+  --warn: #e8c877;
+  --warn-bg: #3b3218;
+  --warn-border: #6b5a2a;
+  --input-bg: #1b1f1c;
+  --input-text: #e3e7e1;
+  --input-border: #4a5a4a;
+  --menu-bg: #232824;
+  --menu-border: #2f362f;
+  --hover-bg: #2c342c;
+  --cur-bg: #35402f;
+  --nav-label: #a8cba4;
+  --code-bg: #1e2420;
+  --pre-bg: #1e2420;
+  --blockquote-bg: #1e241f;
+  --blockquote-text: #c8d2c6;
+  --head4: #d3dcd1;
+  --toc-bg: #1f2421;
+  --hint: #c0cabd;
+  --special-link: #8fc0ec;
+  --mark-bg: #5c4a1a;
+  --shadow: rgba(0, 0, 0, .55);
+  --shadow-strong: rgba(0, 0, 0, .65);
+  --backdrop: rgba(0, 0, 0, .6);
+}
+
+/* 手动浅色：只改回浅色那一批，排在深色块之后 → 覆盖系统深色偏好。 */
+:root[data-theme="light"] {
+  --bg: #f4f5f0;
+  --panel: #ffffff;
+  --text: #1d211d;
+  --muted: #5d6459;
+  --border: #ccd3c6;
+  --green: #5b7f5b;
+  --green-dark: #3f5c3f;
+  --green-light: #96be96;
+  --link: #245a8d;
+  --link-visited: #6b4a86;
+  --table-head: #dfe7d6;
+  --table-alt: #f2f5ec;
+  --warn: #8a6d1f;
+  --warn-bg: #fdf3d6;
+  --warn-border: #e6d391;
+  --input-bg: #f7f9f4;
+  --input-text: #1d211d;
+  --input-border: #2f4630;
+  --menu-bg: #ffffff;
+  --menu-border: #eef1e8;
+  --hover-bg: #eef4e6;
+  --cur-bg: #dfe7d6;
+  --nav-label: #3f5c3f;
+  --code-bg: #eef1e8;
+  --pre-bg: #f6f8f2;
+  --blockquote-bg: #f8faf5;
+  --blockquote-text: #33402f;
+  --head4: #2c3a2c;
+  --toc-bg: #f7f9f3;
+  --hint: #333d31;
+  --special-link: #2b3a2b;
+  --mark-bg: #ffe9a8;
+  --shadow: rgba(0, 0, 0, .22);
+  --shadow-strong: rgba(0, 0, 0, .3);
+  --backdrop: rgba(0, 0, 0, .42);
+}
+
+/* color-scheme 必须跟着主题走：它决定表单控件、滚动条、<select> 下拉菜单、
+   以及 file:// 下画布默认底色的原生渲染。漏掉就会出现「页面全黑但搜索框雪白」。 */
+:root { color-scheme: light; }
+:root[data-theme="dark"] { color-scheme: dark; }
+:root[data-theme="light"] { color-scheme: light; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) { color-scheme: dark; }
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
@@ -34,43 +206,43 @@ a:visited { color: var(--link-visited); }
 
 /* ---------- 顶栏 ---------- */
 .topbar {
-  background: linear-gradient(180deg, #4e6f4e, #3d5a3d);
-  color: #fff;
+  background: linear-gradient(180deg, var(--topbar-1), var(--topbar-2));
+  color: var(--topbar-text);
   padding: 0 16px;
   position: sticky; top: 0; z-index: 30;
-  box-shadow: 0 1px 6px rgba(0,0,0,.25);
+  box-shadow: 0 1px 6px var(--shadow);
 }
 .topbar-inner {
   max-width: var(--maxw); margin: 0 auto;
   display: flex; align-items: center; gap: 14px; height: 52px;
 }
-.brand { color: #fff; font-weight: 700; font-size: 17px; white-space: nowrap; }
+.brand { color: var(--topbar-text); font-weight: 700; font-size: 17px; white-space: nowrap; }
 .brand:hover { text-decoration: none; }
 .brand small { font-weight: 400; opacity: .8; font-size: 12px; margin-left: 6px; }
 .topnav { display: flex; gap: 4px; margin-left: auto; flex-wrap: wrap; }
 .topnav a {
-  color: #f0f4ec; padding: 6px 10px; border-radius: var(--radius); font-size: 14px;
+  color: var(--topbar-nav); padding: 6px 10px; border-radius: var(--radius); font-size: 14px;
 }
 .topnav a:hover { background: rgba(255,255,255,.16); text-decoration: none; }
 .searchbox { position: relative; margin-left: 8px; }
 .searchbox input {
   width: 220px; padding: 7px 10px; border-radius: var(--radius);
-  border: 1px solid #2f4630; background: #f7f9f4; color: #1d211d; font-size: 14px;
+  border: 1px solid var(--input-border); background: var(--input-bg); color: var(--input-text); font-size: 14px;
   font-family: inherit;
 }
 .searchbox input:focus { outline: 2px solid var(--green-light); outline-offset: 0; }
 #search-results {
   position: absolute; top: 40px; right: 0; width: min(520px, 86vw);
-  max-height: 62vh; overflow: auto; background: #fff; color: var(--text);
+  max-height: 62vh; overflow: auto; background: var(--menu-bg); color: var(--text);
   border: 1px solid var(--border); border-radius: var(--radius);
-  box-shadow: 0 8px 24px rgba(0,0,0,.22); z-index: 40; display: none;
+  box-shadow: 0 8px 24px var(--shadow); z-index: 40; display: none;
 }
 #search-results.open { display: block; }
-#search-results .sr-item { display: block; padding: 9px 12px; border-bottom: 1px solid #eef1e8; color: var(--text); }
-#search-results .sr-item:hover, #search-results .sr-item.active { background: #eef4e6; text-decoration: none; }
+#search-results .sr-item { display: block; padding: 9px 12px; border-bottom: 1px solid var(--menu-border); color: var(--text); }
+#search-results .sr-item:hover, #search-results .sr-item.active { background: var(--hover-bg); text-decoration: none; }
 #search-results .sr-title { font-weight: 600; }
 #search-results .sr-snip { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
-#search-results .sr-snip mark { background: #ffe9a8; padding: 0 2px; }
+#search-results .sr-snip mark { background: var(--mark-bg); padding: 0 2px; }
 #search-results .sr-empty { padding: 12px; color: var(--muted); }
 
 /* ---------- 布局 ---------- */
@@ -85,13 +257,13 @@ a:visited { color: var(--link-visited); }
   padding: 12px 12px 16px; position: sticky; top: 68px; max-height: calc(100vh - 88px); overflow: auto;
   font-size: 13.5px;
 }
-.sidebar h3 { margin: 12px 0 6px; font-size: 12px; letter-spacing: .06em; color: var(--green-dark); text-transform: uppercase; }
+.sidebar h3 { margin: 12px 0 6px; font-size: 12px; letter-spacing: .06em; color: var(--nav-label); text-transform: uppercase; }
 .sidebar h3:first-child { margin-top: 2px; }
 .sidebar ul { list-style: none; margin: 0 0 4px; padding: 0; }
 .sidebar li { margin: 1px 0; }
-.sidebar a { display: block; padding: 3px 6px; border-radius: 3px; color: #2b3a2b; }
-.sidebar a:hover { background: #eef4e6; text-decoration: none; }
-.sidebar a.cur { background: #dfe7d6; font-weight: 600; }
+.sidebar a { display: block; padding: 3px 6px; border-radius: 3px; color: var(--special-link); }
+.sidebar a:hover { background: var(--hover-bg); text-decoration: none; }
+.sidebar a.cur { background: var(--cur-bg); font-weight: 600; }
 .content { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px 26px 30px; min-width: 0; }
 .crumbs { font-size: 12.5px; color: var(--muted); margin-bottom: 6px; }
 .crumbs a { color: var(--muted); }
@@ -104,7 +276,7 @@ h1.page-title { font-size: 27px; line-height: 1.3; margin: 2px 0 4px; border-bot
 }
 .content h2 { font-size: 21px; border-bottom: 1px solid var(--border); padding-bottom: 4px; }
 .content h3 { font-size: 17.5px; }
-.content h4 { font-size: 15.5px; color: #2c3a2c; }
+.content h4 { font-size: 15.5px; color: var(--head4); }
 .content h5 { font-size: 14.5px; color: var(--muted); }
 .content p { margin: 9px 0; }
 .content ul, .content ol { margin: 9px 0 9px 1.4em; padding: 0; }
@@ -120,15 +292,17 @@ h1.page-title { font-size: 27px; line-height: 1.3; margin: 2px 0 4px; border-bot
 .content figure { margin: 12px 0; }
 .content figcaption { font-size: 12.5px; color: var(--muted); }
 .content code, .content pre { font-family: Consolas, "Cascadia Mono", "Courier New", monospace; font-size: 13px; }
-.content code { background: #eef1e8; padding: 1px 4px; border-radius: 3px; }
+.content code { background: var(--code-bg); padding: 1px 4px; border-radius: 3px; }
 .content pre {
-  background: #f6f8f2; border: 1px solid var(--border); border-left: 3px solid var(--green-light);
+  background: var(--pre-bg); border: 1px solid var(--border); border-left: 3px solid var(--green-light);
   padding: 10px 12px; overflow: auto; border-radius: var(--radius); line-height: 1.5;
 }
-.content blockquote { margin: 10px 0; padding: 6px 12px; border-left: 3px solid var(--border); color: #33402f; background: #f8faf5; }
+.content blockquote { margin: 10px 0; padding: 6px 12px; border-left: 3px solid var(--border); color: var(--blockquote-text); background: var(--blockquote-bg); }
 .content hr { border: 0; border-top: 1px solid var(--border); margin: 18px 0; }
 .content .center, .content center { display: block; text-align: center; }
 .content sup { font-size: .72em; }
+/* 信息框/公式区里有一批内联写死的深蓝链接（原站配色为了浅底而选），深色下对比度不足 */
+.content [style*="#245a8d"], .content [style*="#245A8D"] { color: var(--special-link) !important; }
 
 /* ---------- 表格（wiki 风格） ---------- */
 /* These tables come from MediaWiki with awkward inline markup: a nested "效果" table whose cells
@@ -141,7 +315,7 @@ h1.page-title { font-size: 27px; line-height: 1.3; margin: 2px 0 4px; border-bot
    would otherwise shrink to one character per line get a real minimum. */
 .content table {
   border-collapse: collapse; margin: 12px 0; font-size: 14px;
-  background: #fff; display: block; overflow-x: auto; overflow-y: hidden;
+  background: var(--panel); display: block; overflow-x: auto; overflow-y: hidden;
   width: max-content; min-width: 100%; max-width: 100%;   /* max-width:100% keeps a wide table's
      scroll INSIDE its own box; without it the table stretches the whole document sideways and the
      page text clips on phones (measured: docScrollW 1814 vs viewport 500). */
@@ -195,7 +369,7 @@ h1.page-title { font-size: 27px; line-height: 1.3; margin: 2px 0 4px; border-bot
 .tabber-heading { margin: 14px 0 6px; color: var(--green-dark); font-size: 14px; }
 
 /* ---------- 目录 ---------- */
-.toc { background: #f7f9f3; border: 1px solid var(--border); border-radius: var(--radius); padding: 10px 14px; margin: 14px 0 18px; font-size: 14px; }
+.toc { background: var(--toc-bg); border: 1px solid var(--border); border-radius: var(--radius); padding: 10px 14px; margin: 14px 0 18px; font-size: 14px; }
 .toc-title { font-weight: 700; margin-bottom: 6px; }
 .toc ol { list-style: none; margin: 0; padding: 0; counter-reset: toc1; }
 .toc li.lvl-2 { counter-increment: toc1; counter-reset: toc2; }
@@ -206,7 +380,7 @@ h1.page-title { font-size: 27px; line-height: 1.3; margin: 2px 0 4px; border-bot
 .toc li { margin: 2px 0; }
 
 /* ---------- 横幅 / 页脚 ---------- */
-.cov-banner { background: var(--warn-bg); border: 1px solid #e6d391; color: var(--warn); border-radius: var(--radius); padding: 7px 12px; font-size: 13.5px; margin: 10px 0 14px; }
+.cov-banner { background: var(--warn-bg); border: 1px solid var(--warn-border); color: var(--warn); border-radius: var(--radius); padding: 7px 12px; font-size: 13.5px; margin: 10px 0 14px; }
 .site-footer { max-width: var(--maxw); margin: 0 auto; padding: 0 16px 30px; color: var(--muted); font-size: 12.5px; }
 .site-footer a { color: var(--muted); text-decoration: underline; }
 
@@ -230,7 +404,7 @@ h1.page-title { font-size: 27px; line-height: 1.3; margin: 2px 0 4px; border-bot
 #sp-results { margin-top: 16px; }
 #sp-results .hit { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 16px; margin-bottom: 10px; }
 #sp-results .hit h3 { margin: 0 0 4px; font-size: 17px; }
-#sp-results .hit .snip { color: #333d31; font-size: 14px; }
+#sp-results .hit .snip { color: var(--hint); font-size: 14px; }
 #sp-results .hit .snip mark { background: #ffe9a8; }
 #sp-results .hit .path { color: var(--muted); font-size: 12.5px; }
 
@@ -239,10 +413,32 @@ h1.page-title { font-size: 27px; line-height: 1.3; margin: 2px 0 4px; border-bot
 .page-list a { display: block; padding: 2px 0; }
 .list-note { color: var(--muted); font-size: 13px; margin: 6px 0 14px; }
 
+/* ---------- 主题开关（三态：自动 / 浅色 / 深色）----------
+   660 个页面共用本文件与 app.js，所以控件由 app.js 注入 .topbar-inner 末尾即可全站生效，
+   不需要改动任何页面 HTML（cache/pages 已丢失，HTML 无法重新生成）。
+   控件用原生 <select>：三态语义、键盘操作、读屏支持都由浏览器保证，且不新增布局约束。
+   宽度上限 5.6em，标签用单字（自动/浅/深）——已算过 560px 断点下的总宽。 */
+.theme-pick {
+  flex: 0 0 auto; width: auto; max-width: 5.6em;
+  font: inherit; font-size: 13px; font-family: inherit;
+  color: var(--topbar-nav); background: rgba(255,255,255,.12);
+  border: 1px solid rgba(255,255,255,.28); border-radius: var(--radius);
+  padding: 5px 4px; cursor: pointer;
+  -webkit-appearance: none; appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23f0f4ec' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: right 4px center; background-size: 8px 5px;
+  padding-right: 15px;
+}
+.theme-pick:hover { background-color: rgba(255,255,255,.2); }
+.theme-pick:focus { outline: 2px solid var(--green-light); outline-offset: 1px; }
+.theme-pick option { color: var(--text); background: var(--menu-bg); }
+
 /* ---------- 窄屏导航抽屉 ----------
    侧边栏在手机上超过 2000px 高。只把它排到正文之后并不够——用户得一路滚到底才能找到导航。
    改为左侧滑出抽屉 + 常驻「目录」按钮（见 app.js）。侧边栏不移动 DOM，只切换定位方式。 */
 .nav-toggle, .sb-backdrop { display: none; }
+.theme-pick { display: none; }
+.has-js .theme-pick { display: block; }   /* 无 JS 时不留一个点了没反应的控件 */
 
 @media (max-width: 900px) {
   /* 正文在前、侧边栏在后（flex order）。侧边栏收起时完全不占位、不可见，
@@ -261,7 +457,7 @@ h1.page-title { font-size: 27px; line-height: 1.3; margin: 2px 0 4px; border-bot
 
   .sb-backdrop {
     display: block; position: fixed; left: 0; top: 0; right: 0; bottom: 0; z-index: 55;
-    background: rgba(0, 0, 0, .42); opacity: 0; pointer-events: none; transition: opacity .2s;
+    background: var(--backdrop); opacity: 0; pointer-events: none; transition: opacity .2s;
   }
   body.sb-open .sb-backdrop { opacity: 1; pointer-events: auto; }
 
@@ -269,7 +465,7 @@ h1.page-title { font-size: 27px; line-height: 1.3; margin: 2px 0 4px; border-bot
     display: block; position: fixed; right: 12px; bottom: 12px; z-index: 50;
     padding: 10px 15px; font: inherit; font-size: 14px; cursor: pointer;
     color: #fff; background: var(--green); border: 0; border-radius: 999px;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, .3);
+    box-shadow: 0 3px 12px var(--shadow-strong);
   }
   body.sb-open .nav-toggle { display: none; }   /* 抽屉打开时按钮让位给遮罩 */
 
@@ -299,9 +495,78 @@ h1.page-title { font-size: 27px; line-height: 1.3; margin: 2px 0 4px; border-bot
   .content { padding: 14px 12px 18px; }
   .content table { font-size: 13px; }
   .content table th, .content table td { padding: 4px 6px; }
-  .searchbox input { width: 110px; }
+  .searchbox input { width: 96px; }
+  .topbar-inner { gap: 8px; }
+  .brand { font-size: 15px; }
+  .brand small { display: none; }      /* 只留站名，把宽度让给搜索框与主题开关 */
+  .theme-pick { max-width: 2.9em; }
 }
+
+/* ==================================================================
+   深色主题的细节修补
+   ------------------------------------------------------------------
+   骨架颜色已由上面的变量接管，这里只处理三类变量管不到的东西：
+   1) 上游 MediaWiki 内联写死的浅色底/字色（内联样式特异性最高，只有 !important
+      能压住）。106 种内联色里前 21 种覆盖 99.6%，故只针对这一小撮，且每条规则
+      都必须真的命中内容——通用选择器会参与近 19 万次样式重算，不能随意加。
+   2) 图片：9,101 张白底游戏截图/国策树，白底是画面内容而非页面底色，反色会毁掉
+      截图与国旗的真实配色，因此保持原图，只给容器一点边框与圆角，让亮块看起来
+      像有意为之的画框。
+   3) 打印时强制回浅色：深色令牌如果在打印路径上生效，深底会整片吃掉墨水。
+   ================================================================== */
+:root[data-theme="dark"] .content img,
+:root[data-theme="dark"] .hub-box img {
+  background: #fff; border: 1px solid var(--border); border-radius: 3px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .content img,
+  :root:not([data-theme]) .hub-box img {
+    background: #fff; border: 1px solid var(--border); border-radius: 3px;
+  }
+}
+
 @media print {
-  .topbar, .sidebar, .site-footer, .toc, .cov-banner { display: none; }
+  .topbar, .sidebar, .site-footer, .toc, .cov-banner, .theme-pick { display: none; }
   .content { border: 0; padding: 0; }
+  /* 无论当前是哪种主题，打印一律回浅色 */
+  :root, :root[data-theme="dark"], :root[data-theme="light"] {
+    color-scheme: light;
+    --bg: #ffffff;
+    --panel: #ffffff;
+    --text: #000000;
+    --muted: #444444;
+    --border: #999999;
+    --green: #5b7f5b;
+    --green-dark: #3f5c3f;
+    --green-light: #96be96;
+    --link: #245a8d;
+    --link-visited: #6b4a86;
+    --table-head: #e8e8e8;
+    --table-alt: #f7f7f7;
+    --warn: #8a6d1f;
+    --warn-bg: #fdf3d6;
+    --warn-border: #e6d391;
+    --input-bg: #ffffff;
+    --input-text: #000000;
+    --input-border: #999999;
+    --menu-bg: #ffffff;
+    --menu-border: #dddddd;
+    --hover-bg: #f0f0f0;
+    --cur-bg: #e4e4e4;
+    --nav-label: #3f5c3f;
+    --code-bg: #f0f0f0;
+    --pre-bg: #f7f7f7;
+    --blockquote-bg: #f7f7f7;
+    --blockquote-text: #333333;
+    --head4: #222222;
+    --toc-bg: #f7f7f7;
+    --hint: #333333;
+    --special-link: #245a8d;
+    --mark-bg: #ffe9a8;
+    --shadow: rgba(0, 0, 0, .2);
+    --shadow-strong: rgba(0, 0, 0, .2);
+    --backdrop: rgba(0, 0, 0, .2);
+  }
+  :root[data-theme="dark"] .content img,
+  :root[data-theme="dark"] .hub-box img { border: 0; }
 }
