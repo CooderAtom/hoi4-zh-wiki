@@ -8,7 +8,7 @@
 
 ```
 继续做「钢铁雄心4 简体中文离线维基」项目。项目根目录：
-C:\Users\Atom\Documents\GeneralWS\hoi4-zh-wiki
+D:\code\hoi4-zh-wiki
 
 【总目标】
 把 hoi4.paradoxwikis.com 上所有游戏玩法相关内容（含相关页面如 Getting started、
@@ -17,28 +17,47 @@ State affairs 等）完整抓取、连同图片图标一起本地化，翻译为
 （focus tree）页面与 /Scriptoutput 页面按既定决定排除；模组制作/模组/开发日志
 按用户决定保留。
 
-【当前进度（实测，勿凭记忆改写）】
-- 正文完成度 40.6%：已译 3,383,722 / 8,325,776 字符
-- 完全译完（pct>=0.995）349 页；>=80% 共 380 页；共 655 页
-- 翻译记忆库 data/tm.json 共 27,604 条
-- 站点 site/ 可离线浏览：内部链接 439,087，断链 0
-- 图片 8,445 个命中真实文件名，大小写不符 0，缺失 0
-- 搜索索引 655 页
-- 剩余 4,942,054 字符 / 317 页。其中 Patch 系列剩 973,493 字符 / 31 页。
-  最大单页 Defines 约 132,236 字符。
-- 上一轮已完成并已合并验证的翻译块：CONT.b92 / b93 / b94
-  （Patch 1.12.X 130 条、Patch 1.17.X 两批各 130 条）
+【当前进度（2026-09 实测，勿凭记忆改写）】
+- 正文完成度 55.4%：已译 4,803,366 / 8,669,373 字符（分母来自 tools/08c-real-coverage.mjs）
+- 完全译完（pct>=0.995）376 页；>=80% 共 414 页；共 655 页（生成 HTML 660 个）
+- 翻译记忆库 data/tm.json 共 42,243 条
+- 站点 site/ 可离线浏览：内部链接 439,662，断链 0；图片引用 146,987，缺失 0
+- 图片：磁盘 9,326 个；大小写不符 0；真正缺失 0
+- 真未译：3,833,104 字符 / 44,651 单元，分布在 269 页；结构性残留 32,903 字符
+- 永不为 100% 的页面 24 个；全站理论完成度上限 99.6%
+- banned-pattern 当前 105（只能减不能增）
+- 最近完成：Military industrial organization（CONT.b106，102 条）、
+  Fuel（CONT.b107，29 条），两页 08b 未译单元均已归零
 
 【本轮从哪继续】
-优先继续 Patch 1.17.X。该页已导出过一次，当时报：
-  prose pending=574 units / 45561 chars (already in blocks: 130; remaining after this slice: 444)
-所以直接用下面命令接着导出即可：
-  Remove-Item data/pageblocks/*.pr0000.json -Force -ErrorAction SilentlyContinue
-  node tools/10d-export-prose.mjs "Patch 1.17.X"
-写到 CONT.b95.zh.json 起。之后再做 Patch 1.16.X（58,735 字符 / 约 700 条）。
+⚠️ 重建链已失效（见下一节），现在的循环是「导出 → 翻译 → 合并 → 用
+apply-tm-to-page 回填该页」。优先挑「一批就能译完一页」的：
+  node tools/08c-real-coverage.mjs --top 40     # 还剩哪些页、各剩多少
+  node tools/scratch/hub-effort.mjs             # 入口页按「几批能译完」排序
+
+【⚠️ 先读：整站重建链已失效（2026-09 实测）】
+- cache/pages/（约 1 GB 原始抓取缓存，被 .gitignore 排除）已不存在，cache/site-before 也没了；
+  磁盘与回收站都没有备份。
+- wiki 现在对所有请求返回 HTTP 427（hoi4.paradoxwikis.com 与 paradoxwikis.com 都是，
+  换浏览器 UA 无效），所以也无法重抓。example.com 正常，确认不是本机断网。
+- 因此 node tools/07-build.mjs 直接报 ENOENT: no such file or directory, scandir 'cache\pages'，
+  整站重建暂时不可用。
+- 替代做法：把 TM 逐页回填进已生成的 HTML
+    node tools/scratch/apply-tm-to-page.mjs "<页面标题>"      # 加 --dry 只看不改
+  它用项目自己的渲染器（tools/units.mjs 的 applyTranslations）处理 <main> 区域，
+  链接/图标/上标全部保留；改前会在 cache/refsite/<页>.preapply.html 留一份备份。
+  之所以必须用渲染器而不是逐字面量替换：段落里的英文词可能被包在链接元素里，
+  而旧构建还可能把段落中间的小连接词文本节点单独译成中文（"and"→"和"），
+  使段落自身的 key 与 TM 不再相等。apply-tm-to-page 会先把这类文本节点还原成
+  英文源文，再交给渲染器重建。
+- wiki 恢复后可按页脚记录的版本号重建全部缓存（保证 unit key 不变）：
+    node tools/scratch/refetch-by-revid.mjs --probe    # 先探测连通性，不写盘
+    node tools/scratch/refetch-by-revid.mjs            # 按 _revids.txt 逐页重抓
+  _revids.txt 由各页页脚「原站版本号」生成。
 
 【每页固定流程（务必按序）】
-1. Remove-Item data/pageblocks/*.pr0000.json -Force -ErrorAction SilentlyContinue
+1. Remove-Item "data/pageblocks/<页面名>.pr0000.json" -Force -ErrorAction SilentlyContinue
+   —— 只删本页的导出。仓库里跟踪着别的页若干 pr0000.json，别用通配符一把删掉。
 2. node tools/10d-export-prose.mjs "<页面标题>"
    —— 绝对不要加 --limit！默认 130，加了会静默截断。
 3. node tools/scratch/show.mjs "<页面标题>"
@@ -51,20 +70,26 @@ State affairs 等）完整抓取、连同图片图标一起本地化，翻译为
       否则导出的去重过滤（按 page 精确匹配）会失效、条目被反复重复导出。
 5. node tools/10e-token-check.mjs CONT.bNN.zh.json     ← 必须 ok
 6. node tools/10c-dupkey-check.mjs CONT.bNN.zh.json    ← 必须 ok
-7. node tools/10-merge-pageblocks.mjs
-8. 重建链（一条条跑，注意 07-build 之后要补 images）：
-   Remove-Item data/pageblocks/*.pr0000.json -Force
+7. 合并进 TM（注意 08c 必须在回填之前跑，progress.html 读它的输出）：
+   Remove-Item "data/pageblocks/<页面名>.pr0000.json" -Force
+   node tools/10-merge-pageblocks.mjs       ← errors=3 是既有问题，见下
    node tools/06c-rebuild-tm.mjs
    node tools/06b-normalize.mjs
-   node tools/07-build.mjs
-   if (-not (Test-Path site/images)) { Copy-Item -Recurse cache/site-before/images site/images }
-   node tools/08c-real-coverage.mjs
-9. 周期性地跑验收：
-   node tools/99-offline-check.mjs      → internal links=... broken=0
-   node tools/99f-image-audit.mjs       → A) 有、B) 大小写不符=0、C) 缺失=0
-   node tools/99b-residue-check.mjs
-   node tools/99c-search-check.mjs
-   node tools/99g-objective-audit.mjs
+   node tools/08c-real-coverage.mjs --top 0
+8. 回填该页（07-build 已不可用）：
+   node tools/scratch/apply-tm-to-page.mjs "<页面标题>" --verbose
+   node tools/08b-page-gap.mjs "<页面标题>"      ← 期望 untranslated prose units=0
+   若页面里还留着「被判为标识符、其实玩家可见」的小写标签（funds、policies、
+   fuel silos、kamikaze 这类），把词条加进 tools/short-translate.mjs 后跑：
+   node tools/06e-short-labels.mjs          ← 加 --dry 可先看会新增哪些
+   再重跑本步骤的回填。补标签时注意：translateShort 会拒绝「含数字」的字符串
+   （KEEP 规则），倍数一类只能留在数字形式。
+9. 周期性地跑验收（当前基线）：
+   node tools/99-offline-check.mjs      → internal links=439662 broken=0
+   node tools/99f-image-audit.mjs       → B) 大小写不符=0、C) 缺失=0
+   node tools/99b-residue-check.mjs     → external @import=0
+   node tools/99c-search-check.mjs      → 只剩 1 条：国家焦点（站点用「国策」，见下）
+   node tools/99g-objective-audit.mjs   → banned-pattern occurrences=105
 
 【三条最重要的工作纪律 —— 都是踩过坑换来的】
 A. 占位符序列必须与英文完全一致，不只是升序。
@@ -83,7 +108,10 @@ C. 改完一个条目要立刻重跑 10e-token-check。
 - Windows + PowerShell。所有网络 I/O 必须用 Node fetch；
   PowerShell 的 Invoke-WebRequest 因 TLS 在此机器上不可用。
 - npm 不可用（npm-cache\_cacache 报 EPERM）。整条流水线是零依赖 Node。
-- 沙箱为 danger-full-access，且审批提示已禁用 —— 不要设置 sandbox_permissions。
+- ⚠️ 沙箱是 workspace-write + 审批 ask（不是 danger-full-access）：命令以低完整性令牌运行，
+  只有工作区根目录可写；data/ site/ tools/ cache/ .git 这些已存在子目录仍是中完整性，
+  写入会被系统拒绝（EPERM / Access denied）。所以每条要写盘的流水线命令都得单独申请一次
+  danger-full-access（审批会弹给用户），或者请用户把本会话切到「完全权限」。
 - ⚠️ 不要在 pwsh 里写内联 node -e 且带 \"、正则字面量、多行模板或嵌套引号，
   会被解析坏。一律写到 tools/scratch/*.mjs 再执行。
 - ⚠️ 不要用 node xxx | Select-Object -First N：会在上游 Node 完成最终写入前
@@ -109,10 +137,18 @@ C. 改完一个条目要立刻重跑 10e-token-check。
 - tools/scratch/dump-block.mjs —— 有 bug，别用
 - tools/scratch/token-refs.mjs —— 已损坏（缺 parserOutput(dom) 调用）
 - 正确替代：tools/scratch/show.mjs（按页取真实 key）或 dump-real.mjs
+- 排查回填问题用：tools/scratch/align-debug.mjs（按 key 看逐字面量对齐到哪一步失败）、
+  tools/scratch/unit-debug.mjs（按 key 看页面上有没有候选块、needle 是否命中）
+
+【已知但故意不修的问题】
+- 10-merge-pageblocks 报 errors=3：Japan.c01.zh.json 两条 placeholder mismatch、
+  Manpower.zh.json 一条 missing en/zh。属既有数据问题，别在无关批次里顺手改。
+- 99c-search-check 报 1 条搜不到：「国家焦点」。站点与 glossary.json 用的都是「国策」，
+  所以这个词永远不会出现在正文里，属检查脚本的陈旧期望，不是漏译。
 
 【必须遵守的术语表（每次合并都会校验，务必沿用）】
 政治点数 political power｜指挥点数 command power｜稳定度 stability｜
-战争支持度 war support｜世界紧张度 world tension｜国家焦点 national focus｜
+战争支持度 war support｜世界紧张度 world tension｜国策 national focus｜
 国策树 focus tree｜国家精神 national spirit｜师 division｜师编制 division template｜
 支援连 support company｜航空队 air wing｜运输船队 convoy｜傀儡国 puppet｜
 军官团 officer corps｜民用工厂 civilian factory｜军用工厂 military factory｜
@@ -124,7 +160,7 @@ C. 改完一个条目要立刻重跑 10e-token-check。
 占领法令 occupation law｜合作政府 collaboration government｜修正 modifier｜
 力量平衡 balance of power｜理念 idea｜特质 trait｜效果块 effect block｜
 提示框 tooltip｜定向修正 targeted modifier｜工事 entrenchment｜战斗宽度 combat width｜
-协调 coordination｜屏卫 screening｜MIO 军工产业组织｜精通 mastery｜特种部队 special forces｜
+协调 coordination｜屏卫 screening｜军工组织 MIO｜精通 mastery｜特种部队 special forces｜
 阵营 faction｜阵营领袖 faction leader｜阵营纲领 faction manifesto｜
 力量投射 power projection｜阵营主动权 faction initiative｜阵营规则 faction rules｜
 阵营目标 faction goals｜牵引式火炮 Towed Artillery｜反坦克炮 Towed Anti-Tank｜
@@ -165,7 +201,7 @@ Expression error: Unexpected < operator. → 表达式错误：意外的 < 运�
 
 【汇报要求】
 - 只用实测数字，不要估算或夸大。每次汇报都说清用的是哪个分母
-  （当前权威分母是 8,325,776，来自 tools/08c-real-coverage.mjs）。
+  （当前权威分母是 8,669,373，来自 tools/08c-real-coverage.mjs）。
 - 08c 的「fully translated (100%)」是 pct >= 0.995，不是严格 100%。
 - 如果上下文快不够了，明确直说「本会话干不动了」，不要假装还有余量。
 ```
@@ -174,10 +210,12 @@ Expression error: Unexpected < operator. → 表达式错误：意外的 < 运�
 
 ## 使用说明（不用复制给新会话）
 
-- **本轮建议起点**：`Patch 1.17.X` 剩余 444 条。该页术语和句式已建立，
-  边际成本最低。
+- **本轮建议起点**：先用 `node tools/08c-real-coverage.mjs --top 40` 挑一页「一批能译完」的。
+  2026-09 刚做完 Military industrial organization 与 Fuel。
 - **单批容量**：固定 130 条，约 22,000–23,000 字符。上下文紧张时降到 60–80 条。
 - **预期速率**：每批约耗掉本会话 1/3 上下文（130 条译文的输出量很大）。
-  也就是说一个会话大约只能推进 3–4 批。
+  也就是说一个会话大约只能推进 3–4 批；本轮两个小页（102 + 29 条）连回填一起做完。
+- **回填后必查**：apply-tm-to-page 只改 `<main>`，页脚百分比与横幅由它一并修正；
+  跑完请核对「链接 / 图片 / 上标」数量与 cache/refsite 里的备份一致，确认没丢元素。
 - **如果新会话也想做验收**：需要临时起预览服务器
   `node tools/serve.mjs 8099`，用完 `Ctrl+C` 停掉，不要留后台常驻。

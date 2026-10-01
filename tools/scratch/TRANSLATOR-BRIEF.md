@@ -1,6 +1,6 @@
 # Translator brief — offline Simplified-Chinese HOI4 wiki
 
-Working directory: `C:\Users\Atom\Documents\GeneralWS\hoi4-zh-wiki` (pass `workdir` to pwsh; `cd` does not persist between calls).
+Working directory: `D:\code\hoi4-zh-wiki` (pass `workdir` to pwsh; `cd` does not persist between calls).
 
 You are producing validated Chinese translation batch files for one wiki page. The parent agent merges
 and rebuilds the site centrally — you never do that.
@@ -78,7 +78,7 @@ node tools/scratch/item.mjs <file.zh.json> --bad     # list every key whose toke
   - `round(...)` → `取整(...)`; `forum:12345` → `论坛：12345`
   - A bare formula/identifier with no words at all still needs a faithful Chinese rendering.
 - Established HOI4 terms (non-exhaustive): 政治点数 political power｜指挥点数 command power｜稳定度 stability｜
-  战争支持度 war support｜世界紧张度 world tension｜国家焦点 national focus｜国策树 focus tree｜国家精神 national spirit｜
+  战争支持度 war support｜世界紧张度 world tension｜国策 national focus｜国策树 focus tree｜国家精神 national spirit｜
   师 division｜师编制 division template｜支援连 support company｜航空队 air wing｜运输船队 convoy｜傀儡国 puppet｜
   军官团 officer corps｜民用工厂 civilian factory｜军用工厂 military factory｜船坞 dockyard｜科研槽 research slot｜
   人力 manpower｜装备 equipment｜地形 terrain｜后勤 logistics｜作战计划 battle plan｜陆军学说 land doctrine｜

@@ -17,7 +17,7 @@
 **方式 B：本地小型服务器（推荐，搜索功能最完整）**
 
 ```powershell
-cd C:\Users\Atom\Documents\GeneralWS\hoi4-zh-wiki
+cd D:\code\hoi4-zh-wiki
 node tools\serve.mjs 8099
 ```
 
@@ -1926,7 +1926,7 @@ hoi4-zh-wiki\
 **重建流程**（改译文后）：
 
 ```powershell
-cd C:\Users\Atom\Documents\GeneralWS\hoi4-zh-wiki
+cd D:\code\hoi4-zh-wiki
 node tools\06c-rebuild-tm.mjs   # 收集 data\batches\*.zh.json -> 翻译记忆库
 node tools\06b-normalize.mjs    # 统一术语（可选）
 node tools\07-build.mjs         # 翻译记忆库 -> site\（整站）
