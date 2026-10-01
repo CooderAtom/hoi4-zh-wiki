@@ -148,6 +148,25 @@ const PHRASES = [
   ['Equipment list', '装备列表'], ['Unit list', '单位列表'], ['Full list', '完整列表'],
   ['Available from', '可用时间'], ['Available until', '失效时间'], ['Introduced', '引入版本'],
   ['Version', '版本'], ['Patch', '补丁'], ['Update', '更新'], ['Release date', '发布日期'],
+  // ---- visible UI labels that classify.mjs treats as identifiers (single token / all
+  // lowercase) and therefore never exports as prose, but that really are shown to the player
+  // (section headings, link labels inside sentences, effect-table labels) ----
+  ['Hidden', '隐藏'],
+  ['Policies', '政策'], ['Policy', '政策'], ['policies', '政策'], ['policy', '政策'],
+  ['Variants', '变体'],
+  ['trait queue', '特质队列'],
+  ['funds', '资金'],
+  ['production line', '生产线'], ['production lines', '生产线'],
+  ['produce', '生产'], ['converted', '改装'], ['refitted', '翻修'],
+  ['armor designs', '装甲设计'],
+  ['air technologies', '空军科技'], ['air technology', '空军科技'],
+  ['Storage', '储存'], ['Consumption', '消耗'],
+  ['airframe', '机体'], ['engine module', '发动机模块'],
+  ['mission efficiency', '任务效率'],
+  ['naval base', '海军基地'], ['naval bases', '海军基地'],
+  ['fuel silo', '燃料储罐'], ['fuel silos', '燃料储罐'],
+  ['fuel refining', '燃料精炼'], ['fuel and oil refining technologies', '燃料与石油精炼科技'],
+  ['kamikaze', '神风攻击'], ['port strike', '港口打击'], ['logistics strike', '后勤打击'],
 ];
 
 const WORDS = [
